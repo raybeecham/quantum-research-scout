@@ -84,14 +84,18 @@ Publication dates are normalized to UTC. HTML extraction checks explicit metadat
 
 Each Markdown digest includes:
 
-1. Executive Summary
-2. Research
-3. Standards / Government
-4. Vendors / Industry
-5. Hardware / QEC
-6. Networking / Quantum Internet
-7. Source Failures / Warnings
-8. Source/date filtering summary
+1. Key Takeaways
+2. Executive Summary
+3. Top PQC / Security Signals
+4. Top Hardware / QEC Signals
+5. Top Quantum Networking Signals
+6. Research
+7. Standards / Government
+8. Vendor Watch
+9. Source Failures / Warnings
+10. Source/date filtering summary
+
+Digest entries are formatted as an intelligence briefing with priority labels (`CRITICAL`, `HIGH`, `MEDIUM`), concise metadata, a heuristic "Why it matters" explanation, and summaries capped at 500 characters. Low-value vendor and product news is collapsed into short watch-list bullets.
 
 ## Configuration
 
