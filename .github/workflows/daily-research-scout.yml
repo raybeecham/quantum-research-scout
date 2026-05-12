@@ -6,7 +6,10 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   scout:
@@ -15,15 +18,15 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: Restore research database cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: data/research_items.sqlite
           key: pqc-quantum-research-db-${{ runner.os }}-${{ github.run_id }}
@@ -40,15 +43,27 @@ jobs:
           --db data/research_items.sqlite
           --reports-dir reports
 
+      - name: Commit Markdown digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/
+          if git diff --cached --quiet -- reports/; then
+            echo "No report changes to commit."
+            exit 0
+          fi
+          git commit -m "Daily PQC digest $(date -u +%F)"
+          git push origin HEAD:main
+
       - name: Upload Markdown digest
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: pqc-quantum-research-digest
           path: reports/*.md
           if-no-files-found: error
 
       - name: Upload SQLite database
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: pqc-quantum-research-db
           path: data/research_items.sqlite
