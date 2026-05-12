@@ -1,0 +1,55 @@
+name: Daily PQC Quantum Research Scout
+
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scout:
+    name: Collect and report
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Restore research database cache
+        uses: actions/cache@v4
+        with:
+          path: data/research_items.sqlite
+          key: pqc-quantum-research-db-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            pqc-quantum-research-db-${{ runner.os }}-
+
+      - name: Install agent
+        run: python -m pip install .
+
+      - name: Run research scout
+        run: >
+          pqc-quantum-research-agent
+          --config sources.yaml
+          --db data/research_items.sqlite
+          --reports-dir reports
+
+      - name: Upload Markdown digest
+        uses: actions/upload-artifact@v4
+        with:
+          name: pqc-quantum-research-digest
+          path: reports/*.md
+          if-no-files-found: error
+
+      - name: Upload SQLite database
+        uses: actions/upload-artifact@v4
+        with:
+          name: pqc-quantum-research-db
+          path: data/research_items.sqlite
+          if-no-files-found: error

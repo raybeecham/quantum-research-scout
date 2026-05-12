@@ -1,0 +1,41 @@
+from __future__ import annotations
+
+from dataclasses import dataclass, field
+from pathlib import Path
+from typing import Any
+
+import yaml
+
+
+@dataclass(slots=True)
+class RuntimeSettings:
+    days_back: int = 2
+    max_items_per_source: int = 40
+    min_score: int = 3
+    fuzzy_title_threshold: float = 0.92
+    request_timeout_seconds: int = 20
+    user_agent: str = "pqc-quantum-research-agent/0.1"
+
+
+@dataclass(slots=True)
+class AgentConfig:
+    settings: RuntimeSettings = field(default_factory=RuntimeSettings)
+    arxiv: dict[str, Any] = field(default_factory=dict)
+    iacr_eprint: dict[str, Any] = field(default_factory=dict)
+    rss_feeds: list[dict[str, Any]] = field(default_factory=list)
+    urls: list[dict[str, Any]] = field(default_factory=list)
+
+
+def load_config(path: str | Path) -> AgentConfig:
+    config_path = Path(path)
+    with config_path.open("r", encoding="utf-8") as handle:
+        raw = yaml.safe_load(handle) or {}
+
+    settings = RuntimeSettings(**(raw.get("settings") or {}))
+    return AgentConfig(
+        settings=settings,
+        arxiv=raw.get("arxiv") or {},
+        iacr_eprint=raw.get("iacr_eprint") or {},
+        rss_feeds=list(raw.get("rss_feeds") or []),
+        urls=list(raw.get("urls") or []),
+    )

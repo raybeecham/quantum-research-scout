@@ -1,0 +1,77 @@
+settings:
+  days_back: 2
+  max_items_per_source: 40
+  min_score: 3
+  fuzzy_title_threshold: 0.92
+  request_timeout_seconds: 20
+  user_agent: "pqc-quantum-research-agent/0.1 (+https://github.com/your-org/pqc-quantum-research-agent)"
+
+arxiv:
+  enabled: true
+  max_results: 80
+  sort_by: submittedDate
+  sort_order: descending
+  request_pause_seconds: 3.5
+  queries:
+    - name: "arXiv PQC and Quantum-Safe Cryptography"
+      search_query: 'cat:cs.CR AND (all:"post-quantum" OR all:"post quantum" OR all:"quantum-safe" OR all:"quantum resistant" OR all:"ML-KEM" OR all:"ML-DSA" OR all:"SLH-DSA" OR all:"Kyber" OR all:"Dilithium" OR all:"SPHINCS" OR all:"Falcon" OR all:"lattice cryptography")'
+    - name: "arXiv Quantum Computing"
+      search_query: 'cat:quant-ph AND (all:"fault tolerant" OR all:"fault-tolerant" OR all:"logical qubit" OR all:"quantum error correction" OR all:"QEC" OR all:"trapped ion" OR all:"superconducting" OR all:"neutral atom" OR all:"photonic")'
+    - name: "arXiv Quantum Networking and Sensing"
+      search_query: 'cat:quant-ph AND (all:"quantum network" OR all:"quantum networking" OR all:"quantum internet" OR all:"entanglement" OR all:"quantum sensing" OR all:"quantum sensor" OR all:"QKD")'
+
+iacr_eprint:
+  enabled: true
+  name: "IACR ePrint"
+  feed_url: "https://eprint.iacr.org/rss/rss.xml?order=recent"
+
+rss_feeds:
+  - name: "The Quantum Insider"
+    url: "https://thequantuminsider.com/feed/"
+  - name: "Quantum Zeitgeist"
+    url: "https://quantumzeitgeist.com/feed/"
+  - name: "CISA Cybersecurity Advisories"
+    url: "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+  - name: "Google Security Blog"
+    url: "https://security.googleblog.com/feeds/posts/default"
+  - name: "AWS Quantum Technologies Blog"
+    url: "https://aws.amazon.com/blogs/quantum-computing/feed/"
+  - name: "DigiCert Blog"
+    url: "https://www.digicert.com/blog/feed/"
+  - name: "Keyfactor Blog"
+    url: "https://www.keyfactor.com/blog/feed/"
+
+urls:
+  - name: "QuantumNews.ai"
+    url: "https://quantumnews.ai/"
+    same_domain_only: false
+    max_items: 60
+  - name: "NIST CSRC News"
+    url: "https://csrc.nist.gov/news"
+  - name: "NIST Post-Quantum Cryptography Project"
+    url: "https://csrc.nist.gov/projects/post-quantum-cryptography"
+  - name: "NSA Cybersecurity Advisories"
+    url: "https://www.nsa.gov/Press-Room/News-Highlights/cybersecurity-advisories-guidance/"
+  - name: "Open Quantum Safe"
+    url: "https://openquantumsafe.org/news/"
+  - name: "Cloudflare Post-Quantum Blog"
+    url: "https://blog.cloudflare.com/tag/post-quantum/"
+    min_title_chars: 18
+  - name: "PQShield"
+    url: "https://pqshield.com/"
+  - name: "IBM Quantum Blog"
+    url: "https://www.ibm.com/quantum/blog"
+  - name: "Microsoft Quantum Blog"
+    url: "https://quantum.microsoft.com/en-us/insights/blogs"
+  - name: "IonQ News"
+    url: "https://www.ionq.com/news"
+  - name: "Quantinuum News"
+    url: "https://www.quantinuum.com/news/news"
+  - name: "Rigetti News"
+    url: "https://www.rigetti.com/news"
+  - name: "SandboxAQ Blog"
+    url: "https://www.sandboxaq.com/blog"
+  - name: "Thales Cybersecurity Blog"
+    url: "https://cpl.thalesgroup.com/blog"
+  - name: "Entrust Blog"
+    url: "https://www.entrust.com/blog"

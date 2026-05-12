@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pqc-quantum-research-agent"
+version = "0.1.0"
+description = "Automated research scout for post-quantum cryptography and quantum computing updates."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "PyYAML>=6.0.1",
+  "requests>=2.31.0",
+]
+
+[project.scripts]
+pqc-quantum-research-agent = "pqc_quantum_research_agent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pqc_quantum_research_agent*"]
