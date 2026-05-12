@@ -135,7 +135,7 @@ SQLite records are written to `research_items` with:
 
 ## GitHub Actions
 
-The workflow in `.github/workflows/daily-research-scout.yml` runs every day at `13:00 UTC` in default daily mode and can also be started manually with `workflow_dispatch`.
+The workflow in `.github/workflows/daily-research-scout.yml` runs every day at `00:00 UTC` in default daily mode, which is `7:00 PM` US Central Time during daylight saving time, and can also be started manually with `workflow_dispatch`.
 
 It restores the prior SQLite database from the Actions cache, runs the scout, commits changed Markdown reports in `reports/` back to `main`, then uploads both the Markdown digest and SQLite database as workflow artifacts. The workflow needs `contents: write` permission for the built-in `GITHUB_TOKEN`, and branch protection must allow the GitHub Actions bot to push these report commits. SQLite database files are not committed.
 

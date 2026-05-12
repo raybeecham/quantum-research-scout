@@ -2,7 +2,9 @@ name: Daily PQC Quantum Research Scout
 
 on:
   schedule:
-    - cron: "0 13 * * *"
+    # UTC schedule: 00:00 daily.
+    # Intended local schedule: 7:00 PM US Central Time during daylight saving time (CDT, UTC-5).
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
