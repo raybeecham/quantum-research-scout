@@ -70,6 +70,31 @@ KEYWORD_WEIGHTS: dict[str, int] = {
     "qkd": 5,
     "quantum key distribution": 6,
 }
+PRIORITY_KEYWORD_BONUS: dict[str, int] = {
+    "ml-kem": 8,
+    "ml kem": 8,
+    "ml-dsa": 8,
+    "ml dsa": 8,
+    "slh-dsa": 8,
+    "slh dsa": 8,
+    "fips": 7,
+    "fips 203": 10,
+    "fips 204": 10,
+    "fips 205": 10,
+    "nist": 6,
+    "tls": 5,
+    "crypto-agility": 7,
+    "crypto agility": 7,
+    "qec": 7,
+    "logical qubit": 8,
+    "logical qubits": 8,
+    "fault tolerance": 8,
+    "fault tolerant": 8,
+    "fault-tolerant": 8,
+    "quantum networking": 7,
+    "quantum network": 7,
+    "quantum internet": 7,
+}
 
 CATEGORY_KEYWORDS: dict[str, tuple[str, ...]] = {
     "Post-Quantum Cryptography": (
@@ -197,6 +222,38 @@ SOURCE_CATEGORY_BONUS: dict[str, str] = {
     "thales": "Vendor / Product",
     "entrust": "Vendor / Product",
 }
+SOURCE_TYPE_BONUS: dict[str, int] = {
+    "arxiv": 18,
+    "iacr_eprint": 18,
+    "rss": 6,
+    "url": 0,
+}
+SOURCE_QUALITY_BONUS: dict[str, int] = {
+    "nist": 16,
+    "cisa": 14,
+    "nsa": 14,
+    "iacr": 18,
+    "arxiv": 18,
+    "open quantum safe": 12,
+    "cloudflare": 7,
+    "google security": 7,
+    "google quantum ai": 7,
+    "ibm quantum": 6,
+    "microsoft quantum": 6,
+    "aws braket": 6,
+    "quantum insider": 4,
+    "quantum computing report": 5,
+    "quantumnews": 3,
+}
+VENDOR_MARKETING_PENALTY_TERMS = (
+    "launch",
+    "partnership",
+    "customer",
+    "appoints",
+    "financial results",
+    "funding",
+    "award",
+)
 
 
 def classify_item(item: ResearchItem) -> ResearchItem:
@@ -228,8 +285,32 @@ def classify_item(item: ResearchItem) -> ResearchItem:
     keyword_score = sum(KEYWORD_WEIGHTS[keyword] for keyword in matched)
     title_bonus = sum(2 for keyword in matched if phrase_in_text(keyword, title_text))
     category_bonus = min(max(content_category_scores.values(), default=0), 10)
-    item.score = keyword_score + title_bonus + category_bonus
+    priority_bonus = sum(
+        weight
+        for keyword, weight in PRIORITY_KEYWORD_BONUS.items()
+        if phrase_in_text(keyword, content_text)
+    )
+    source_type_bonus = SOURCE_TYPE_BONUS.get(item.source_type, 0)
+    source_quality_bonus = _source_quality_bonus(source_lower)
+    category_weight_bonus = _category_weight_bonus(item)
+    marketing_penalty = _vendor_marketing_penalty(item, content_text)
+    item.score = (
+        keyword_score
+        + title_bonus
+        + category_bonus
+        + priority_bonus
+        + source_type_bonus
+        + source_quality_bonus
+        + category_weight_bonus
+        - marketing_penalty
+    )
     item.matched_keywords = matched
+    item.score_explanation = (
+        f"keywords={keyword_score}; title={title_bonus}; category={category_bonus}; "
+        f"priority={priority_bonus}; source_type={source_type_bonus}; "
+        f"source_quality={source_quality_bonus}; content_type={category_weight_bonus}; "
+        f"vendor_marketing_penalty={marketing_penalty}"
+    )
     return item
 
 
@@ -248,3 +329,25 @@ def _best_category(scores: dict[str, int]) -> str:
     if not scores:
         return "Quantum Computing"
     return max(CATEGORIES, key=lambda category: (scores.get(category, 0), -CATEGORIES.index(category)))
+
+
+def _source_quality_bonus(source_lower: str) -> int:
+    return max((bonus for hint, bonus in SOURCE_QUALITY_BONUS.items() if hint in source_lower), default=0)
+
+
+def _category_weight_bonus(item: ResearchItem) -> int:
+    if item.source_type in {"arxiv", "iacr_eprint"}:
+        return 18
+    if item.category in {"Standards / Policy", "Federal / Government"}:
+        return 16
+    if item.category in {"Post-Quantum Cryptography", "Quantum Computing", "Quantum Networking"}:
+        return 8
+    if item.category == "Vendor / Product":
+        return 2
+    return 0
+
+
+def _vendor_marketing_penalty(item: ResearchItem, content_text: str) -> int:
+    if item.category != "Vendor / Product":
+        return 0
+    return min(12, sum(3 for term in VENDOR_MARKETING_PENALTY_TERMS if term in content_text))

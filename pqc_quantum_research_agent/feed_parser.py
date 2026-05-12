@@ -44,7 +44,7 @@ def _parse_rss(root: ET.Element) -> list[ParsedFeedEntry]:
             continue
         summary = _text(item, "description") or _text(item, "encoded")
         authors = _text(item, "creator") or _text(item, "author")
-        date_text = _text(item, "pubDate") or _text(item, "date")
+        date_text = _text(item, "pubDate") or _text(item, "published") or _text(item, "updated") or _text(item, "date")
         entries.append(
             ParsedFeedEntry(
                 title=strip_html(title),

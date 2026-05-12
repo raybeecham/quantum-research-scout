@@ -33,7 +33,7 @@ jobs:
       - name: Install agent
         run: python -m pip install .
 
-      - name: Run research scout
+      - name: Run research scout in default daily mode
         run: >
           pqc-quantum-research-agent
           --config sources.yaml

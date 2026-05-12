@@ -10,9 +10,18 @@ LOGGER = logging.getLogger(__name__)
 
 
 class HttpClient:
-    def __init__(self, user_agent: str, timeout_seconds: int = 20, retries: int = 2) -> None:
+    def __init__(
+        self,
+        user_agent: str,
+        timeout_seconds: int = 20,
+        retries: int = 2,
+        backoff_base_seconds: float = 2.0,
+        max_backoff_seconds: float = 60.0,
+    ) -> None:
         self.timeout_seconds = timeout_seconds
         self.retries = retries
+        self.backoff_base_seconds = backoff_base_seconds
+        self.max_backoff_seconds = max_backoff_seconds
         self.session = requests.Session()
         self.session.headers.update(
             {
@@ -36,7 +45,15 @@ class HttpClient:
                 if response is not None and response.status_code == 429:
                     retry_after = _retry_after_seconds(response.headers.get("Retry-After"))
                 if attempt < self.retries:
-                    time.sleep(retry_after or (3 * (attempt + 1)))
+                    if response is not None and response.status_code == 429:
+                        delay = retry_after or _exponential_backoff_seconds(
+                            attempt,
+                            self.backoff_base_seconds,
+                            self.max_backoff_seconds,
+                        )
+                    else:
+                        delay = 1 + attempt
+                    time.sleep(delay)
                     continue
                 LOGGER.warning("Fetch failed for %s: %s", url, exc)
             except requests.RequestException as exc:
@@ -55,6 +72,10 @@ def _retry_after_seconds(value: str | None) -> int:
         return max(0, min(int(value), 60))
     except ValueError:
         return 0
+
+
+def _exponential_backoff_seconds(attempt: int, base_seconds: float, max_seconds: float) -> float:
+    return min(max_seconds, base_seconds * (2**attempt))
 
 
 def _best_response_encoding(response: requests.Response) -> str:

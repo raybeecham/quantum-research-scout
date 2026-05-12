@@ -12,9 +12,14 @@ class RuntimeSettings:
     days_back: int = 2
     max_items_per_source: int = 40
     min_score: int = 3
+    report_top_n: int = 15
+    report_limit_per_source: int = 5
     fuzzy_title_threshold: float = 0.92
     request_timeout_seconds: int = 20
-    user_agent: str = "pqc-quantum-research-agent/0.1"
+    user_agent: str = (
+        "pqc-quantum-research-agent/0.1 "
+        "(project: https://github.com/raybe/pqc-quantum-research-agent; contact: configure-in-sources-yaml)"
+    )
 
 
 @dataclass(slots=True)

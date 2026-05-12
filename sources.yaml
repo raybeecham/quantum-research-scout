@@ -1,17 +1,18 @@
 settings:
-  days_back: 2
   max_items_per_source: 40
   min_score: 3
+  report_top_n: 15
+  report_limit_per_source: 5
   fuzzy_title_threshold: 0.92
   request_timeout_seconds: 20
-  user_agent: "pqc-quantum-research-agent/0.1 (+https://github.com/your-org/pqc-quantum-research-agent)"
+  user_agent: "pqc-quantum-research-agent/0.1 (project: https://github.com/raybe/pqc-quantum-research-agent; contact: configure-in-sources-yaml)"
 
 arxiv:
   enabled: true
-  max_results: 80
+  max_results: 25
   sort_by: submittedDate
   sort_order: descending
-  request_pause_seconds: 3.5
+  request_pause_seconds: 4.0
   queries:
     - name: "arXiv PQC and Quantum-Safe Cryptography"
       search_query: 'cat:cs.CR AND (all:"post-quantum" OR all:"post quantum" OR all:"quantum-safe" OR all:"quantum resistant" OR all:"ML-KEM" OR all:"ML-DSA" OR all:"SLH-DSA" OR all:"Kyber" OR all:"Dilithium" OR all:"SPHINCS" OR all:"Falcon" OR all:"lattice cryptography")'
