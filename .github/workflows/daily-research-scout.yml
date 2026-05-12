@@ -41,20 +41,35 @@ jobs:
         run: python -m pip install .
 
       - name: Run research scout in default daily RSS mode
-        run: >
-          pqc-quantum-research-agent
-          --config sources.yaml
-          --db data/research_items.sqlite
-          --reports-dir reports
+        env:
+          REPORTS_DIR: ${{ github.workspace }}/reports
+        run: |
+          mkdir -p "$REPORTS_DIR"
+          pqc-quantum-research-agent \
+            --config sources.yaml \
+            --db data/research_items.sqlite \
+            --reports-dir "$REPORTS_DIR"
 
       - name: Announce report commit
         run: echo "Checking generated reports for repository commit"
+
+      - name: Debug generated reports
+        run: |
+          pwd
+          ls -la
+          ls -la reports
+          git status --short
+          git ls-files reports
 
       - name: Commit generated reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/
+          if ls reports/*.md >/dev/null 2>&1; then
+            git add -f reports/*.md
+          else
+            echo "No Markdown reports found under reports/"
+          fi
           if git diff --cached --quiet; then
             echo "No report changes to commit"
           else
