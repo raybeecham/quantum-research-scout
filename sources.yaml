@@ -8,7 +8,7 @@ settings:
   user_agent: "pqc-quantum-research-agent/0.1 (project: https://github.com/raybe/pqc-quantum-research-agent; contact: configure-in-sources-yaml)"
 
 arxiv:
-  enabled: true
+  enabled: false
   max_results: 25
   sort_by: submittedDate
   sort_order: descending
@@ -20,6 +20,12 @@ arxiv:
       search_query: 'cat:quant-ph AND (all:"fault tolerant" OR all:"fault-tolerant" OR all:"logical qubit" OR all:"quantum error correction" OR all:"QEC" OR all:"trapped ion" OR all:"superconducting" OR all:"neutral atom" OR all:"photonic")'
     - name: "arXiv Quantum Networking and Sensing"
       search_query: 'cat:quant-ph AND (all:"quantum network" OR all:"quantum networking" OR all:"quantum internet" OR all:"entanglement" OR all:"quantum sensing" OR all:"quantum sensor" OR all:"QKD")'
+
+arxiv_rss:
+  - name: "arXiv RSS cs.CR"
+    url: "https://rss.arxiv.org/rss/cs.CR"
+  - name: "arXiv RSS quant-ph"
+    url: "https://rss.arxiv.org/rss/quant-ph"
 
 iacr_eprint:
   enabled: true

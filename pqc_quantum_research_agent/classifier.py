@@ -224,6 +224,7 @@ SOURCE_CATEGORY_BONUS: dict[str, str] = {
 }
 SOURCE_TYPE_BONUS: dict[str, int] = {
     "arxiv": 18,
+    "arxiv_rss": 16,
     "iacr_eprint": 18,
     "rss": 6,
     "url": 0,

@@ -47,6 +47,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--top-n", type=int, default=None, help="Maximum number of items to include in the report.")
     parser.add_argument("--arxiv-max-results", type=int, default=None, help="Override arXiv max_results per query.")
     parser.add_argument(
+        "--use-arxiv-api",
+        action="store_true",
+        help="Use the arXiv API collector instead of the default arXiv RSS feeds.",
+    )
+    parser.add_argument(
         "--limit-per-source",
         type=int,
         default=None,
@@ -71,6 +76,11 @@ def main(argv: list[str] | None = None) -> int:
         config.settings.min_score = args.min_score
     if args.arxiv_max_results is not None:
         config.arxiv["max_results"] = args.arxiv_max_results
+    if args.use_arxiv_api:
+        config.arxiv["enabled"] = True
+        config.arxiv_rss = []
+    else:
+        config.arxiv["enabled"] = False
     report_top_n = args.top_n if args.top_n is not None else config.settings.report_top_n
     report_limit_per_source = (
         args.limit_per_source if args.limit_per_source is not None else config.settings.report_limit_per_source

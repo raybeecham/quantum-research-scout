@@ -25,7 +25,8 @@ def collect_all(config: AgentConfig) -> CollectionResult:
     result = CollectionResult()
 
     collectors: tuple[tuple[str, str, Callable[[], CollectionResult]], ...] = (
-        ("arXiv", "arxiv", lambda: collect_arxiv(client, config.arxiv)),
+        ("arXiv RSS", "arxiv_rss", lambda: collect_arxiv_rss(client, config.arxiv_rss, settings.max_items_per_source)),
+        ("arXiv API", "arxiv", lambda: collect_arxiv(client, config.arxiv)),
         (
             "IACR ePrint",
             "iacr_eprint",
@@ -44,6 +45,26 @@ def collect_all(config: AgentConfig) -> CollectionResult:
             continue
         result.items.extend(collected.items)
         result.warnings.extend(collected.warnings)
+    return result
+
+
+def collect_arxiv_rss(
+    client: HttpClient,
+    feeds: list[dict],
+    max_items_per_source: int,
+) -> CollectionResult:
+    result = CollectionResult()
+    for feed in feeds:
+        if not feed.get("enabled", True):
+            continue
+        name = feed.get("name") or feed.get("url") or "arXiv RSS"
+        url = feed.get("url")
+        if not url:
+            continue
+        collected = _collect_feed(client, name, "arxiv_rss", url, int(feed.get("max_items", max_items_per_source)))
+        result.items.extend(collected.items)
+        result.warnings.extend(collected.warnings)
+    LOGGER.info("Collected %d arXiv RSS candidates", len(result.items))
     return result
 
 

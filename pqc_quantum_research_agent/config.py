@@ -26,6 +26,7 @@ class RuntimeSettings:
 class AgentConfig:
     settings: RuntimeSettings = field(default_factory=RuntimeSettings)
     arxiv: dict[str, Any] = field(default_factory=dict)
+    arxiv_rss: list[dict[str, Any]] = field(default_factory=list)
     iacr_eprint: dict[str, Any] = field(default_factory=dict)
     rss_feeds: list[dict[str, Any]] = field(default_factory=list)
     urls: list[dict[str, Any]] = field(default_factory=list)
@@ -40,6 +41,7 @@ def load_config(path: str | Path) -> AgentConfig:
     return AgentConfig(
         settings=settings,
         arxiv=raw.get("arxiv") or {},
+        arxiv_rss=list(raw.get("arxiv_rss") or []),
         iacr_eprint=raw.get("iacr_eprint") or {},
         rss_feeds=list(raw.get("rss_feeds") or []),
         urls=list(raw.get("urls") or []),

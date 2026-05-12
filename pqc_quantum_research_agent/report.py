@@ -236,9 +236,9 @@ def _belongs_in_section(item: ResearchItem, section: str) -> bool:
     title_summary = f"{item.title} {item.summary}".casefold()
 
     if section == "Research":
-        return item.source_type in {"arxiv", "iacr_eprint"}
+        return item.source_type in {"arxiv", "arxiv_rss", "iacr_eprint"}
     if section == "Standards / Government":
-        is_research_paper = item.source_type in {"arxiv", "iacr_eprint"}
+        is_research_paper = item.source_type in {"arxiv", "arxiv_rss", "iacr_eprint"}
         is_policy_source = item.category in {"Standards / Policy", "Federal / Government"}
         is_pqc_update = item.category == "Post-Quantum Cryptography" and not is_research_paper
         has_standards_signal = bool(
