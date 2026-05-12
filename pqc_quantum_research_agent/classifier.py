@@ -6,13 +6,132 @@ from collections import defaultdict
 from .models import ResearchItem
 
 CATEGORIES = (
-    "Post-Quantum Cryptography",
+    "PQC",
     "Quantum Computing",
+    "Quantum Hardware",
     "Quantum Networking",
     "Quantum Sensing",
+    "AI Security",
+    "Classical Cybersecurity",
     "Standards / Policy",
-    "Vendor / Product",
-    "Federal / Government",
+    "Vendor / Industry",
+)
+
+PQC_TERMS = (
+    "pqc",
+    "post-quantum",
+    "post quantum",
+    "quantum-safe",
+    "quantum safe",
+    "quantum-resistant",
+    "quantum resistant",
+    "ml-kem",
+    "ml kem",
+    "ml-dsa",
+    "ml dsa",
+    "slh-dsa",
+    "slh dsa",
+    "kyber",
+    "dilithium",
+    "sphincs+",
+    "sphincs",
+    "falcon",
+    "crypto-agility",
+    "crypto agility",
+    "cryptographic inventory",
+    "harvest now decrypt later",
+    "hndl",
+    "fips 203",
+    "fips 204",
+    "fips 205",
+    "cnsa 2.0",
+)
+
+QUANTUM_COMPUTING_TERMS = (
+    "quantum computing",
+    "quantum computer",
+    "quantum algorithm",
+    "quantum circuit",
+    "quantum advantage",
+    "quantum simulation",
+    "quantum annealing",
+    "quantum information",
+)
+
+QUANTUM_HARDWARE_TERMS = (
+    "qec",
+    "logical qubit",
+    "logical qubits",
+    "fault tolerant",
+    "fault-tolerant",
+    "fault tolerance",
+    "quantum error correction",
+    "trapped ion",
+    "trapped-ion",
+    "superconducting",
+    "neutral atom",
+    "neutral-atom",
+    "photonic",
+    "qubit",
+    "qubits",
+    "quantum processor",
+    "surface code",
+    "gate fidelity",
+)
+
+QUANTUM_NETWORKING_TERMS = (
+    "quantum networking",
+    "quantum network",
+    "quantum internet",
+    "entanglement",
+    "qkd",
+    "quantum key distribution",
+    "photonic interconnect",
+    "repeater",
+    "quantum repeater",
+)
+
+QUANTUM_SENSING_TERMS = (
+    "quantum sensing",
+    "quantum sensor",
+    "magnetometer",
+    "inertial",
+    "navigation",
+    "insar",
+    "atomic clock",
+)
+
+AI_SECURITY_TERMS = (
+    "llm",
+    "llms",
+    "large language model",
+    "large language models",
+    "jailbreak",
+    "prompt injection",
+    "adversarial agent",
+    "adversarial agents",
+    "model weights",
+    "ai safety",
+    "ai security",
+    "model extraction",
+    "model poisoning",
+)
+
+CLASSICAL_CYBERSECURITY_TERMS = (
+    "cybersecurity",
+    "cyber security",
+    "vulnerability",
+    "malware",
+    "ransomware",
+    "phishing",
+    "zero day",
+    "zero-day",
+    "cve",
+    "intrusion",
+    "data breach",
+    "security advisory",
+    "tls",
+    "pki",
 )
 
 KEYWORD_WEIGHTS: dict[str, int] = {
@@ -69,6 +188,25 @@ KEYWORD_WEIGHTS: dict[str, int] = {
     "quantum sensor": 6,
     "qkd": 5,
     "quantum key distribution": 6,
+    "llm": 5,
+    "llms": 5,
+    "large language model": 5,
+    "large language models": 5,
+    "jailbreak": 6,
+    "prompt injection": 7,
+    "adversarial agent": 6,
+    "adversarial agents": 6,
+    "model weights": 5,
+    "ai safety": 6,
+    "ai security": 7,
+    "model extraction": 5,
+    "model poisoning": 5,
+    "cybersecurity": 4,
+    "cyber security": 4,
+    "vulnerability": 3,
+    "malware": 3,
+    "ransomware": 3,
+    "security advisory": 3,
 }
 PRIORITY_KEYWORD_BONUS: dict[str, int] = {
     "ml-kem": 8,
@@ -97,60 +235,13 @@ PRIORITY_KEYWORD_BONUS: dict[str, int] = {
 }
 
 CATEGORY_KEYWORDS: dict[str, tuple[str, ...]] = {
-    "Post-Quantum Cryptography": (
-        "pqc",
-        "post-quantum",
-        "post quantum",
-        "quantum-safe",
-        "quantum safe",
-        "quantum-resistant",
-        "ml-kem",
-        "ml-dsa",
-        "slh-dsa",
-        "kyber",
-        "dilithium",
-        "sphincs",
-        "falcon",
-        "crypto-agility",
-        "cryptographic inventory",
-        "harvest now decrypt later",
-        "hndl",
-        "pki",
-    ),
-    "Quantum Computing": (
-        "quantum computing",
-        "quantum computer",
-        "quantum processor",
-        "quantum advantage",
-        "quantum algorithm",
-        "qec",
-        "logical qubit",
-        "fault tolerant",
-        "fault-tolerant",
-        "qubit",
-        "trapped ion",
-        "superconducting",
-        "neutral atom",
-    ),
-    "Quantum Networking": (
-        "quantum networking",
-        "quantum network",
-        "quantum internet",
-        "entanglement",
-        "qkd",
-        "quantum key distribution",
-        "photonic interconnect",
-        "repeater",
-    ),
-    "Quantum Sensing": (
-        "quantum sensing",
-        "quantum sensor",
-        "magnetometer",
-        "inertial",
-        "navigation",
-        "insar",
-        "atomic clock",
-    ),
+    "PQC": PQC_TERMS,
+    "Quantum Computing": QUANTUM_COMPUTING_TERMS,
+    "Quantum Hardware": QUANTUM_HARDWARE_TERMS,
+    "Quantum Networking": QUANTUM_NETWORKING_TERMS,
+    "Quantum Sensing": QUANTUM_SENSING_TERMS,
+    "AI Security": AI_SECURITY_TERMS,
+    "Classical Cybersecurity": CLASSICAL_CYBERSECURITY_TERMS,
     "Standards / Policy": (
         "standard",
         "standards",
@@ -164,7 +255,7 @@ CATEGORY_KEYWORDS: dict[str, tuple[str, ...]] = {
         "migration",
         "cnsa 2.0",
     ),
-    "Vendor / Product": (
+    "Vendor / Industry": (
         "product",
         "launch",
         "released",
@@ -189,39 +280,42 @@ CATEGORY_KEYWORDS: dict[str, tuple[str, ...]] = {
         "thales",
         "entrust",
     ),
-    "Federal / Government": (
-        "federal",
-        "government",
-        "nist",
-        "cisa",
-        "nsa",
-        "darpa",
-        "doe",
-        "dod",
-        "agency",
-        "national security",
-    ),
 }
 
 SOURCE_CATEGORY_BONUS: dict[str, str] = {
-    "nist": "Federal / Government",
-    "cisa": "Federal / Government",
-    "nsa": "Federal / Government",
-    "cloudflare": "Vendor / Product",
-    "google": "Vendor / Product",
-    "ibm": "Vendor / Product",
-    "microsoft": "Vendor / Product",
-    "aws": "Vendor / Product",
-    "ionq": "Vendor / Product",
-    "quantinuum": "Vendor / Product",
-    "rigetti": "Vendor / Product",
-    "pqshield": "Vendor / Product",
-    "sandboxaq": "Vendor / Product",
-    "digicert": "Vendor / Product",
-    "keyfactor": "Vendor / Product",
-    "thales": "Vendor / Product",
-    "entrust": "Vendor / Product",
+    "nist": "Standards / Policy",
+    "cisa": "Standards / Policy",
+    "nsa": "Standards / Policy",
+    "darpa": "Standards / Policy",
+    "doe": "Standards / Policy",
+    "dod": "Standards / Policy",
+    "cloudflare": "Vendor / Industry",
+    "google": "Vendor / Industry",
+    "ibm": "Vendor / Industry",
+    "microsoft": "Vendor / Industry",
+    "aws": "Vendor / Industry",
+    "ionq": "Vendor / Industry",
+    "quantinuum": "Vendor / Industry",
+    "rigetti": "Vendor / Industry",
+    "pqshield": "Vendor / Industry",
+    "sandboxaq": "Vendor / Industry",
+    "digicert": "Vendor / Industry",
+    "keyfactor": "Vendor / Industry",
+    "thales": "Vendor / Industry",
+    "entrust": "Vendor / Industry",
 }
+POLICY_TERMS = (
+    "federal",
+    "government",
+    "nist",
+    "cisa",
+    "nsa",
+    "darpa",
+    "doe",
+    "dod",
+    "agency",
+    "national security",
+)
 SOURCE_TYPE_BONUS: dict[str, int] = {
     "arxiv": 18,
     "arxiv_rss": 16,
@@ -259,7 +353,7 @@ VENDOR_MARKETING_PENALTY_TERMS = (
 
 def classify_item(item: ResearchItem) -> ResearchItem:
     title_text = item.title.casefold()
-    content_text = f"{item.title} {item.summary}".casefold()
+    content_text = f"{item.title} {item.summary} {' '.join(item.matched_keywords)}".casefold()
 
     matched = sorted({keyword for keyword in KEYWORD_WEIGHTS if phrase_in_text(keyword, content_text)})
     category_scores: dict[str, int] = defaultdict(int)
@@ -272,17 +366,17 @@ def classify_item(item: ResearchItem) -> ResearchItem:
             elif phrase_in_text(keyword, content_text):
                 content_category_scores[category] += 2
 
-    category_scores.update(content_category_scores)
-
     source_lower = item.source_name.casefold()
+    source_category_scores: dict[str, int] = defaultdict(int)
     for source_hint, category in SOURCE_CATEGORY_BONUS.items():
         if source_hint in source_lower:
-            category_scores[category] += 3 if content_category_scores else 1
+            source_category_scores[category] += 3 if content_category_scores else 1
 
-    if not category_scores and "quantum" in content_text:
-        category_scores["Quantum Computing"] += 1
+    category_scores.update(content_category_scores)
+    for category, score in source_category_scores.items():
+        category_scores[category] += score
 
-    item.category = _best_category(category_scores)
+    item.category = _select_category(content_category_scores, category_scores, content_text)
     keyword_score = sum(KEYWORD_WEIGHTS[keyword] for keyword in matched)
     title_bonus = sum(2 for keyword in matched if phrase_in_text(keyword, title_text))
     category_bonus = min(max(content_category_scores.values(), default=0), 10)
@@ -328,8 +422,66 @@ def phrase_in_text(phrase: str, text: str) -> bool:
 
 def _best_category(scores: dict[str, int]) -> str:
     if not scores:
-        return "Quantum Computing"
+        return "Classical Cybersecurity"
     return max(CATEGORIES, key=lambda category: (scores.get(category, 0), -CATEGORIES.index(category)))
+
+
+def _select_category(
+    content_scores: dict[str, int],
+    category_scores: dict[str, int],
+    content_text: str,
+) -> str:
+    if _has_ai_security_signal(content_text):
+        return "AI Security"
+    if _has_pqc_signal(content_text):
+        return "PQC"
+    if _has_networking_signal(content_text):
+        return "Quantum Networking"
+    if _has_hardware_signal(content_text):
+        return "Quantum Hardware"
+    if _has_sensing_signal(content_text):
+        return "Quantum Sensing"
+    if _has_quantum_computing_signal(content_text):
+        return "Quantum Computing"
+    if _has_classical_cybersecurity_signal(content_text):
+        return "Classical Cybersecurity"
+    if any(phrase_in_text(term, content_text) for term in POLICY_TERMS):
+        return "Standards / Policy"
+    if content_scores:
+        return _best_category(content_scores)
+    return _best_category(category_scores)
+
+
+def _has_any_signal(terms: tuple[str, ...], text: str) -> bool:
+    return any(phrase_in_text(term, text) for term in terms)
+
+
+def _has_ai_security_signal(text: str) -> bool:
+    return _has_any_signal(AI_SECURITY_TERMS, text)
+
+
+def _has_pqc_signal(text: str) -> bool:
+    return _has_any_signal(PQC_TERMS, text)
+
+
+def _has_networking_signal(text: str) -> bool:
+    return _has_any_signal(QUANTUM_NETWORKING_TERMS, text)
+
+
+def _has_hardware_signal(text: str) -> bool:
+    return _has_any_signal(QUANTUM_HARDWARE_TERMS, text)
+
+
+def _has_sensing_signal(text: str) -> bool:
+    return _has_any_signal(QUANTUM_SENSING_TERMS, text)
+
+
+def _has_quantum_computing_signal(text: str) -> bool:
+    return _has_any_signal(QUANTUM_COMPUTING_TERMS, text)
+
+
+def _has_classical_cybersecurity_signal(text: str) -> bool:
+    return _has_any_signal(CLASSICAL_CYBERSECURITY_TERMS, text)
 
 
 def _source_quality_bonus(source_lower: str) -> int:
@@ -337,18 +489,27 @@ def _source_quality_bonus(source_lower: str) -> int:
 
 
 def _category_weight_bonus(item: ResearchItem) -> int:
-    if item.source_type in {"arxiv", "iacr_eprint"}:
+    if item.source_type in {"arxiv", "arxiv_rss", "iacr_eprint"}:
         return 18
-    if item.category in {"Standards / Policy", "Federal / Government"}:
+    if item.category == "Standards / Policy":
         return 16
-    if item.category in {"Post-Quantum Cryptography", "Quantum Computing", "Quantum Networking"}:
+    if item.category in {
+        "PQC",
+        "Quantum Computing",
+        "Quantum Hardware",
+        "Quantum Networking",
+        "Quantum Sensing",
+        "AI Security",
+    }:
         return 8
-    if item.category == "Vendor / Product":
+    if item.category == "Classical Cybersecurity":
+        return 4
+    if item.category == "Vendor / Industry":
         return 2
     return 0
 
 
 def _vendor_marketing_penalty(item: ResearchItem, content_text: str) -> int:
-    if item.category != "Vendor / Product":
+    if item.category != "Vendor / Industry":
         return 0
     return min(12, sum(3 for term in VENDOR_MARKETING_PENALTY_TERMS if term in content_text))

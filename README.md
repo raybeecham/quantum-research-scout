@@ -10,14 +10,16 @@ No web app is included in this first version.
 - Includes default sources for The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, NIST CSRC, CISA, NSA, Open Quantum Safe, Cloudflare, Google Security, IBM Quantum, Microsoft Quantum, AWS Braket, IonQ, Quantinuum, Rigetti, PQShield, SandboxAQ, DigiCert, Keyfactor, Thales, and Entrust.
 - Deduplicates by canonical URL, title hash, and fuzzy title similarity.
 - Classifies each item into:
-  - Post-Quantum Cryptography
+  - PQC
   - Quantum Computing
+  - Quantum Hardware
   - Quantum Networking
   - Quantum Sensing
+  - AI Security
+  - Classical Cybersecurity
   - Standards / Policy
-  - Vendor / Product
-  - Federal / Government
-- Scores relevance with PQC and quantum keywords such as `ML-KEM`, `ML-DSA`, `SLH-DSA`, `Kyber`, `Dilithium`, `SPHINCS+`, `Falcon`, `FIPS 203`, `CNSA 2.0`, `QEC`, `logical qubit`, `fault tolerant`, `quantum networking`, `trapped ion`, `superconducting`, `neutral atom`, and `photonic`.
+  - Vendor / Industry
+- Scores relevance with PQC, quantum, AI security, and cybersecurity keywords such as `ML-KEM`, `ML-DSA`, `SLH-DSA`, `FIPS 203`, `QEC`, `logical qubit`, `fault tolerant`, `quantum networking`, `prompt injection`, `jailbreak`, `LLM`, and `AI security`.
 - Stores results in SQLite.
 - Writes a curated daily Markdown digest to `reports/` for items published on the target UTC date.
 - Runs daily through GitHub Actions.
@@ -87,13 +89,14 @@ Each Markdown digest includes:
 1. Key Takeaways
 2. Executive Summary
 3. Top PQC / Security Signals
-4. Top Hardware / QEC Signals
-5. Top Quantum Networking Signals
-6. Research
-7. Standards / Government
-8. Vendor Watch
-9. Source Failures / Warnings
-10. Source/date filtering summary
+4. AI Security Signals
+5. Top Hardware / QEC Signals
+6. Top Quantum Networking Signals
+7. Research
+8. Standards / Government
+9. Vendor Watch
+10. Source Failures / Warnings
+11. Source/date filtering summary
 
 Digest entries are formatted as an intelligence briefing with priority labels (`CRITICAL`, `HIGH`, `MEDIUM`), concise metadata, a heuristic "Why it matters" explanation, and summaries capped at 500 characters. Low-value vendor and product news is collapsed into short watch-list bullets.
 

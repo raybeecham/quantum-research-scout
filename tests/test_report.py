@@ -53,7 +53,7 @@ class ReportTests(unittest.TestCase):
             authors="Ada Lovelace, Grace Hopper",
             published_at=datetime(2026, 5, 12, 12, 0, tzinfo=timezone.utc),
             date_filter_status="included_today",
-            category="Quantum Computing",
+            category="Quantum Hardware",
             score=72,
             matched_keywords=["qec", "logical qubit", "fault tolerant"],
         )
@@ -88,7 +88,7 @@ class ReportTests(unittest.TestCase):
             summary="IonQ announced a partnership and product availability update for customers.",
             published_at=datetime(2026, 5, 12, 12, 0, tzinfo=timezone.utc),
             date_filter_status="included_today",
-            category="Vendor / Product",
+            category="Vendor / Industry",
             score=20,
             matched_keywords=["ionq", "partnership"],
         )
@@ -105,6 +105,38 @@ class ReportTests(unittest.TestCase):
         self.assertIn("### Vendor Watch", digest)
         self.assertIn("- **MEDIUM** (20) IonQ launches partner update", digest)
         self.assertNotIn("### IonQ launches partner update", digest)
+
+    def test_ai_security_items_use_ai_section_only(self) -> None:
+        item = ResearchItem(
+            source_name="arXiv cs.CR",
+            source_type="arxiv_rss",
+            title="Prompt injection defenses for LLM agents",
+            url="https://example.com/ai-security",
+            summary="This paper studies jailbreak and prompt injection attacks against adversarial agents.",
+            published_at=datetime(2026, 5, 12, 12, 0, tzinfo=timezone.utc),
+            date_filter_status="included_today",
+            category="AI Security",
+            score=44,
+            matched_keywords=["llm", "prompt injection", "jailbreak"],
+        )
+        summary = DateFilterSummary(
+            target_date=date(2026, 5, 12),
+            generated_at=datetime(2026, 5, 12, 13, 0, tzinfo=timezone.utc),
+            collected_raw_candidates=1,
+            new_unique_items_saved=1,
+            eligible_items_for_target_date=1,
+        )
+
+        digest = render_digest([item], date(2026, 5, 12), summary=summary, min_score=3)
+
+        self.assertIn("## AI Security Signals", digest)
+        self.assertIn("### Prompt injection defenses for LLM agents", digest)
+        self.assertIn("model abuse", digest)
+
+        hardware_section = digest.split("## Top Hardware / QEC Signals", 1)[1].split("## Top Quantum Networking Signals", 1)[0]
+        networking_section = digest.split("## Top Quantum Networking Signals", 1)[1].split("## Research", 1)[0]
+        self.assertNotIn("Prompt injection defenses for LLM agents", hardware_section)
+        self.assertNotIn("Prompt injection defenses for LLM agents", networking_section)
 
 
 if __name__ == "__main__":

@@ -12,6 +12,7 @@ from .text import compact_summary, normalize_whitespace, strip_html
 
 FULL_ENTRY_SECTIONS = (
     "Top PQC / Security Signals",
+    "AI Security Signals",
     "Top Hardware / QEC Signals",
     "Top Quantum Networking Signals",
     "Research",
@@ -35,14 +36,11 @@ PQC_STANDARD_KEYWORDS = {
     "fips 203",
     "fips 204",
     "fips 205",
-    "nist",
     "cnsa 2.0",
     "cryptographic inventory",
     "crypto-agility",
     "harvest now decrypt later",
     "hndl",
-    "tls",
-    "pki",
 }
 
 QUANTUM_HARDWARE_KEYWORDS = {
@@ -240,6 +238,11 @@ def _render_key_takeaways(
         takeaways.append(
             f"{pqc_count} PQC/security signal(s) surfaced, with emphasis on migration, standards, or cryptographic risk."
         )
+    ai_count = sum(1 for item in report_items if _is_ai_security_signal(item))
+    if ai_count:
+        takeaways.append(
+            f"{ai_count} AI security signal(s) were separated from quantum research to reduce topic bleed-through."
+        )
     if hardware_count:
         takeaways.append(
             f"{hardware_count} hardware/QEC signal(s) point to architecture, scaling, or fault-tolerance progress."
@@ -341,6 +344,8 @@ def _group_by_report_section(items: list[ResearchItem]) -> tuple[dict[str, list[
 def _belongs_in_section(item: ResearchItem, section: str) -> bool:
     if section == "Top PQC / Security Signals":
         return _is_pqc_security_signal(item)
+    if section == "AI Security Signals":
+        return _is_ai_security_signal(item)
     if section == "Top Hardware / QEC Signals":
         return _is_hardware_qec_signal(item)
     if section == "Top Quantum Networking Signals":
@@ -415,20 +420,15 @@ def _truncate_text(value: str, max_chars: int) -> str:
 
 def _why_it_matters(item: ResearchItem) -> str:
     text = _item_text(item)
-    if _is_standards_government_signal(item):
+    if _is_ai_security_signal(item):
         return (
-            "Standards and government signals can shift compliance expectations, procurement requirements, "
-            "and enterprise PQC migration timelines."
+            "AI security work matters for model abuse, prompt-level compromise, alignment risk, "
+            "and adversarial use of agentic systems."
         )
     if _is_pqc_security_signal(item):
         return (
             "PQC security updates affect migration planning, crypto-agility work, and exposure to "
             "harvest-now-decrypt-later risk."
-        )
-    if _is_networking_signal(item):
-        return (
-            "Quantum networking progress matters for quantum internet architectures, entanglement distribution, "
-            "repeaters, and long-range secure communication models."
         )
     if _is_hardware_qec_signal(item):
         if any(term in text for term in ("qec", "logical qubit", "fault tolerant", "fault-tolerant")):
@@ -437,6 +437,16 @@ def _why_it_matters(item: ResearchItem) -> str:
             )
         return (
             "Hardware updates help track architecture choices, device performance, and practical scaling paths."
+        )
+    if _is_networking_signal(item):
+        return (
+            "Quantum networking progress matters for quantum internet architectures, entanglement distribution, "
+            "repeaters, and long-range secure communication models."
+        )
+    if _is_standards_government_signal(item):
+        return (
+            "Standards and government signals can shift compliance expectations, procurement requirements, "
+            "and enterprise PQC migration timelines."
         )
     if _is_research_source(item):
         return "This paper is useful signal for tracking where technical research attention is moving."
@@ -459,15 +469,17 @@ def _is_research_source(item: ResearchItem) -> bool:
 
 def _is_standards_government_signal(item: ResearchItem) -> bool:
     text = _item_text(item)
-    return item.category in {"Standards / Policy", "Federal / Government"} or any(
+    return item.category == "Standards / Policy" or any(
         term in text for term in ("standard", "standards", "guidance", "policy", "fips", "nist", "cisa", "nsa")
     )
 
 
 def _is_pqc_security_signal(item: ResearchItem) -> bool:
+    if _is_ai_security_signal(item):
+        return False
     keywords = {keyword.casefold() for keyword in item.matched_keywords}
     text = _item_text(item)
-    return item.category == "Post-Quantum Cryptography" or bool(
+    return item.category in {"PQC", "Post-Quantum Cryptography"} or bool(
         keywords & PQC_STANDARD_KEYWORDS
         or any(
             term in text
@@ -484,23 +496,25 @@ def _is_pqc_security_signal(item: ResearchItem) -> bool:
                 "ml-kem",
                 "ml-dsa",
                 "slh-dsa",
-                "tls",
-                "pki",
             )
         )
     )
 
 
 def _is_hardware_qec_signal(item: ResearchItem) -> bool:
+    if _is_ai_security_signal(item):
+        return False
     keywords = {keyword.casefold() for keyword in item.matched_keywords}
     text = _item_text(item)
     return (
-        item.category in {"Quantum Computing", "Quantum Sensing"}
+        item.category in {"Quantum Hardware", "Quantum Sensing"}
         and bool(keywords & QUANTUM_HARDWARE_KEYWORDS or "hardware" in text)
     )
 
 
 def _is_networking_signal(item: ResearchItem) -> bool:
+    if _is_ai_security_signal(item):
+        return False
     keywords = {keyword.casefold() for keyword in item.matched_keywords}
     text = _item_text(item)
     return item.category == "Quantum Networking" or bool(
@@ -508,9 +522,29 @@ def _is_networking_signal(item: ResearchItem) -> bool:
     )
 
 
+def _is_ai_security_signal(item: ResearchItem) -> bool:
+    text = _item_text(item)
+    return item.category == "AI Security" or any(
+        term in text
+        for term in (
+            "llm",
+            "llms",
+            "large language model",
+            "large language models",
+            "jailbreak",
+            "prompt injection",
+            "adversarial agent",
+            "adversarial agents",
+            "model weights",
+            "ai safety",
+            "ai security",
+        )
+    )
+
+
 def _is_vendor_signal(item: ResearchItem) -> bool:
     source = item.source_name.casefold()
-    return item.category == "Vendor / Product" or any(hint in source for hint in VENDOR_HINTS)
+    return item.category in {"Vendor / Industry", "Vendor / Product"} or any(hint in source for hint in VENDOR_HINTS)
 
 
 def _item_text(item: ResearchItem) -> str:
