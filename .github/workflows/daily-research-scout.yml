@@ -9,6 +9,7 @@ on:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  TZ: America/Chicago
 
 jobs:
   scout:
@@ -73,7 +74,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No report changes to commit"
           else
-            git commit -m "Daily PQC digest $(date -u +%F)"
+            git commit -m "Daily PQC digest $(date +%F)"
             git push
           fi
 

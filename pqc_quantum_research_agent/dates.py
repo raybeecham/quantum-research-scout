@@ -1,7 +1,11 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import date, datetime, time, timezone
 from email.utils import parsedate_to_datetime
+from zoneinfo import ZoneInfo
+
+OPERATIONAL_TIMEZONE_NAME = "America/Chicago"
+OPERATIONAL_TIMEZONE = ZoneInfo(OPERATIONAL_TIMEZONE_NAME)
 
 COMMON_DATE_FORMATS = (
     "%Y-%m-%d",
@@ -44,6 +48,25 @@ def ensure_utc(value: datetime) -> datetime:
     if value.tzinfo is None:
         return value.replace(tzinfo=timezone.utc)
     return value.astimezone(timezone.utc)
+
+
+def ensure_operational_timezone(value: datetime) -> datetime:
+    return ensure_utc(value).astimezone(OPERATIONAL_TIMEZONE)
+
+
+def operational_today(now: datetime | None = None) -> date:
+    current = now or datetime.now(timezone.utc)
+    return ensure_operational_timezone(current).date()
+
+
+def operational_date(value: datetime) -> date:
+    return ensure_operational_timezone(value).date()
+
+
+def operational_day_window(target_date: date) -> tuple[datetime, datetime]:
+    start_local = datetime.combine(target_date, time.min, tzinfo=OPERATIONAL_TIMEZONE)
+    end_local = datetime.combine(target_date, time.max, tzinfo=OPERATIONAL_TIMEZONE)
+    return start_local, end_local
 
 
 def to_iso(value: datetime | None) -> str | None:

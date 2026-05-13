@@ -21,7 +21,7 @@ No web app is included in this first version.
   - Vendor / Industry
 - Scores relevance with PQC, quantum, AI security, and cybersecurity keywords such as `ML-KEM`, `ML-DSA`, `SLH-DSA`, `FIPS 203`, `QEC`, `logical qubit`, `fault tolerant`, `quantum networking`, `prompt injection`, `jailbreak`, `LLM`, and `AI security`.
 - Stores results in SQLite.
-- Writes a curated daily Markdown digest to `reports/` for items published on the target UTC date.
+- Writes a curated daily Markdown digest to `reports/` for items published on the target America/Chicago date.
 - Runs daily through GitHub Actions.
 
 ## Setup
@@ -64,10 +64,10 @@ pqc-quantum-research-agent --date 2026-05-12 --include-recent-undated --min-scor
 
 Report controls:
 
-- Default daily mode uses today's UTC date and includes only items whose publication date matches that date.
+- Default daily mode uses today's America/Chicago date and includes only items whose publication date falls within that local-day window.
 - `--date YYYY-MM-DD`: backfill or test a specific publication date.
 - `--include-undated`: include undated items in the report. By default, undated items are stored but excluded from the main report.
-- `--include-recent-undated`: include undated items discovered on the target UTC date when they contain strong PQC/quantum keywords. These render with publication date `UNKNOWN` and low date confidence.
+- `--include-recent-undated`: include undated items discovered on the target America/Chicago date when they contain strong PQC/quantum keywords. These render with publication date `UNKNOWN` and low date confidence.
 - `--historical`: disable daily-only publication-date filtering and allow all discovered items into report selection.
 - `--min-score`: minimum score for inclusion in the Markdown report.
 - `--top-n`: maximum number of scored items shown in the Markdown report. The default is `15`.
@@ -80,7 +80,7 @@ arXiv requests are throttled between API calls and HTTP 429 responses are retrie
 
 arXiv RSS mode is preferred for scheduled runs and is the default. The default feeds are `https://rss.arxiv.org/rss/cs.CR` and `https://rss.arxiv.org/rss/quant-ph`; items are filtered by the same PQC and quantum keyword scoring rules as every other source. Use `--use-arxiv-api` for deeper local or manual searches through `https://export.arxiv.org/api/query`.
 
-Publication dates are normalized to UTC. HTML extraction checks explicit metadata, `time datetime=`, JSON-LD `datePublished`, JSON-LD `dateModified`, source-specific URL date patterns, generic URL-derived dates, fallback text heuristics, and OpenGraph `updated_time` as a final fallback.
+Publication dates are normalized to UTC for storage, then interpreted with the America/Chicago operational timezone for report naming, target dates, displayed timestamps, and daily filtering windows. HTML extraction checks explicit metadata, `time datetime=`, JSON-LD `datePublished`, JSON-LD `dateModified`, source-specific URL date patterns, generic URL-derived dates, fallback text heuristics, and OpenGraph `updated_time` as a final fallback.
 
 ## Report Format
 

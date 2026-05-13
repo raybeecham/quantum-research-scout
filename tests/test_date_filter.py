@@ -13,6 +13,7 @@ from pqc_quantum_research_agent.date_filter import (
     INCLUDED_UNDATED,
     apply_date_filter,
 )
+from pqc_quantum_research_agent.dates import operational_today
 from pqc_quantum_research_agent.models import ResearchItem
 
 
@@ -31,7 +32,7 @@ def item(title: str, published_at: datetime | None) -> ResearchItem:
 
 class DateFilterTests(unittest.TestCase):
     def test_item_published_today_is_included_by_default(self) -> None:
-        today = item("today", datetime(2026, 5, 12, 15, 30, tzinfo=timezone.utc))
+        today = item("today", datetime(2026, 5, 13, 4, 59, tzinfo=timezone.utc))
 
         included = apply_date_filter([today], target_date=TARGET_DATE)
 
@@ -39,7 +40,7 @@ class DateFilterTests(unittest.TestCase):
         self.assertEqual(today.date_filter_status, INCLUDED_TODAY)
 
     def test_item_published_yesterday_is_excluded_by_default(self) -> None:
-        yesterday = item("yesterday", datetime(2026, 5, 11, 23, 59, tzinfo=timezone.utc))
+        yesterday = item("yesterday", datetime(2026, 5, 12, 4, 59, tzinfo=timezone.utc))
 
         included = apply_date_filter([yesterday], target_date=TARGET_DATE)
 
@@ -47,7 +48,7 @@ class DateFilterTests(unittest.TestCase):
         self.assertEqual(yesterday.date_filter_status, EXCLUDED_OLD)
 
     def test_future_dated_item_is_excluded_by_default(self) -> None:
-        future = item("future", datetime(2026, 5, 13, 0, 0, tzinfo=timezone.utc))
+        future = item("future", datetime(2026, 5, 13, 5, 0, tzinfo=timezone.utc))
 
         included = apply_date_filter([future], target_date=TARGET_DATE)
 
@@ -102,6 +103,35 @@ class DateFilterTests(unittest.TestCase):
         self.assertEqual(included, [target])
         self.assertEqual(target.date_filter_status, INCLUDED_TARGET_DATE)
         self.assertEqual(other.date_filter_status, EXCLUDED_FUTURE)
+
+    def test_central_date_window_includes_late_utc_same_operational_day(self) -> None:
+        late_utc = item("late utc", datetime(2026, 5, 13, 4, 59, 59, tzinfo=timezone.utc))
+
+        included = apply_date_filter([late_utc], target_date=TARGET_DATE)
+
+        self.assertEqual(included, [late_utc])
+        self.assertEqual(late_utc.date_filter_status, INCLUDED_TODAY)
+
+    def test_central_date_window_excludes_before_local_midnight(self) -> None:
+        before_central_day = item("before central day", datetime(2026, 5, 12, 4, 59, 59, tzinfo=timezone.utc))
+
+        included = apply_date_filter([before_central_day], target_date=TARGET_DATE)
+
+        self.assertEqual(included, [])
+        self.assertEqual(before_central_day.date_filter_status, EXCLUDED_OLD)
+
+    def test_central_date_window_excludes_after_local_day(self) -> None:
+        after_central_day = item("after central day", datetime(2026, 5, 13, 5, 0, tzinfo=timezone.utc))
+
+        included = apply_date_filter([after_central_day], target_date=TARGET_DATE)
+
+        self.assertEqual(included, [])
+        self.assertEqual(after_central_day.date_filter_status, EXCLUDED_FUTURE)
+
+    def test_operational_today_uses_america_chicago_date(self) -> None:
+        now_utc = datetime(2026, 5, 13, 4, 30, tzinfo=timezone.utc)
+
+        self.assertEqual(operational_today(now_utc), date(2026, 5, 12))
 
 
 if __name__ == "__main__":

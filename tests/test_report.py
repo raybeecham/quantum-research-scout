@@ -2,9 +2,10 @@ from __future__ import annotations
 
 import unittest
 from datetime import date, datetime, timezone
+from tempfile import TemporaryDirectory
 
 from pqc_quantum_research_agent.models import DateFilterSummary, ResearchItem
-from pqc_quantum_research_agent.report import render_digest
+from pqc_quantum_research_agent.report import render_digest, write_daily_digest
 
 
 class ReportTests(unittest.TestCase):
@@ -36,6 +37,9 @@ class ReportTests(unittest.TestCase):
         self.assertIn("NIST FIPS 203 ML-KEM update", digest)
         self.assertIn("## Key Takeaways", digest)
         self.assertIn("## Top PQC / Security Signals", digest)
+        self.assertIn("Operational timezone: **America/Chicago**", digest)
+        self.assertIn("Publication window: **2026-05-12T00:00:00-05:00", digest)
+        self.assertIn("Generated timestamp: **2026-05-12T08:00:00-05:00**", digest)
         self.assertNotIn("Date confidence", digest)
         self.assertNotIn("Publication date", digest)
 
@@ -137,6 +141,17 @@ class ReportTests(unittest.TestCase):
         networking_section = digest.split("## Top Quantum Networking Signals", 1)[1].split("## Research", 1)[0]
         self.assertNotIn("Prompt injection defenses for LLM agents", hardware_section)
         self.assertNotIn("Prompt injection defenses for LLM agents", networking_section)
+
+    def test_digest_filename_uses_target_operational_date(self) -> None:
+        summary = DateFilterSummary(
+            target_date=date(2026, 5, 12),
+            generated_at=datetime(2026, 5, 13, 0, 30, tzinfo=timezone.utc),
+        )
+
+        with TemporaryDirectory() as reports_dir:
+            path = write_daily_digest([], reports_dir, summary=summary)
+
+        self.assertEqual(path.name, "2026-05-12-digest.md")
 
 
 if __name__ == "__main__":

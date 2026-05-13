@@ -9,7 +9,8 @@ from pathlib import Path
 from .classifier import classify_item
 from .collectors import collect_all
 from .config import load_config
-from .date_filter import TARGET_DATE_INCLUDED_STATUSES, apply_date_filter, summarize_date_filter, utc_today
+from .date_filter import TARGET_DATE_INCLUDED_STATUSES, apply_date_filter, central_today, summarize_date_filter
+from .dates import OPERATIONAL_TIMEZONE_NAME
 from .dedupe import dedupe_items, prepare_identity
 from .report import select_report_items, write_daily_digest
 from .storage import ResearchStore
@@ -87,8 +88,12 @@ def main(argv: list[str] | None = None) -> int:
     )
 
     generated_at = datetime.now(timezone.utc)
-    target_date = _parse_target_date(args.date) if args.date else utc_today()
-    LOGGER.info("Collecting sources for target publication date %s", target_date.isoformat())
+    target_date = _parse_target_date(args.date) if args.date else central_today()
+    LOGGER.info(
+        "Collecting sources for target publication date %s (%s)",
+        target_date.isoformat(),
+        OPERATIONAL_TIMEZONE_NAME,
+    )
     collection = collect_all(config)
     candidates = collection.items
     LOGGER.info("Collected %d raw candidates", len(candidates))

@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from datetime import date, datetime, timezone
+from datetime import date, datetime
 
-from .dates import ensure_utc
+from .dates import ensure_utc, operational_date, operational_today
 from .models import DateFilterSummary, ResearchItem
 
 INCLUDED_TODAY = "included_today"
@@ -49,8 +49,8 @@ TARGET_DATE_INCLUDED_STATUSES = {
 }
 
 
-def utc_today() -> date:
-    return datetime.now(timezone.utc).date()
+def central_today() -> date:
+    return operational_today()
 
 
 def apply_date_filter(
@@ -96,7 +96,7 @@ def classify_date_filter_status(
             return INCLUDED_UNDATED
         return INCLUDED_UNDATED if include_undated else EXCLUDED_UNDATED
 
-    published_date = ensure_utc(item.published_at).date()
+    published_date = operational_date(item.published_at)
     if published_date == target_date:
         return INCLUDED_TARGET_DATE if explicit_target_date else INCLUDED_TODAY
     if published_date < target_date:
@@ -105,7 +105,7 @@ def classify_date_filter_status(
 
 
 def _is_recent_strong_undated_item(item: ResearchItem, target_date: date) -> bool:
-    if ensure_utc(item.discovered_at).date() != target_date:
+    if operational_date(item.discovered_at) != target_date:
         return False
     matched = {keyword.casefold() for keyword in item.matched_keywords}
     if matched & RECENT_UNDATED_STRONG_KEYWORDS:

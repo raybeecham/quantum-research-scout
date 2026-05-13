@@ -2,10 +2,15 @@ from __future__ import annotations
 
 import re
 from collections import Counter, defaultdict
-from datetime import date, datetime, time, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
-from .dates import ensure_utc
+from .dates import (
+    OPERATIONAL_TIMEZONE_NAME,
+    ensure_operational_timezone,
+    operational_day_window,
+    operational_today,
+)
 from .date_filter import INCLUDED_STATUSES
 from .models import DateFilterSummary, ResearchItem, SourceWarning
 from .text import compact_summary, normalize_whitespace, strip_html
@@ -102,7 +107,7 @@ def write_daily_digest(
     limit_per_source: int | None = 5,
     min_score: int = 3,
 ) -> Path:
-    report_date = report_date or (summary.target_date if summary else datetime.now(timezone.utc).date())
+    report_date = report_date or (summary.target_date if summary else operational_today())
     reports_path = Path(reports_dir)
     reports_path.mkdir(parents=True, exist_ok=True)
     output_path = reports_path / f"{report_date.isoformat()}-digest.md"
@@ -150,7 +155,8 @@ def render_digest(
     lines: list[str] = [
         f"# PQC and Quantum Research Digest - {report_date.isoformat()}",
         "",
-        f"- Generated timestamp UTC: **{ensure_utc(summary.generated_at).isoformat()}**",
+        f"- Operational timezone: **{OPERATIONAL_TIMEZONE_NAME}**",
+        f"- Generated timestamp: **{ensure_operational_timezone(summary.generated_at).isoformat()}**",
         f"- Publication window: **{_publication_window(summary)}**",
         f"- Historical mode: **{str(summary.historical_mode).lower()}**",
         "",
@@ -300,7 +306,7 @@ def _render_executive_summary(
         f"- New unique items saved to SQLite: **{summary.new_unique_items_saved}**",
         f"- Eligible items for target date: **{summary.eligible_items_for_target_date}**",
         f"- Items included in digest: **{report_count}** of top **{top_n_text}** scored items",
-        f"- Target publication date: **{summary.target_date.isoformat()}**",
+        f"- Target publication date: **{summary.target_date.isoformat()}** ({OPERATIONAL_TIMEZONE_NAME})",
         f"- Report filters: minimum score **{min_score}**, per-source limit **{limit_text}**",
         f"- Source warnings: **{len(warnings)}**",
     ]
@@ -554,8 +560,7 @@ def _item_text(item: ResearchItem) -> str:
 def _publication_window(summary: DateFilterSummary) -> str:
     if summary.historical_mode:
         return "all publication dates"
-    start = datetime.combine(summary.target_date, time.min, tzinfo=timezone.utc)
-    end = datetime.combine(summary.target_date, time.max, tzinfo=timezone.utc)
+    start, end = operational_day_window(summary.target_date)
     return f"{start.isoformat()} to {end.isoformat()}"
 
 
@@ -563,7 +568,7 @@ def _render_source_date_summary(summary: DateFilterSummary) -> list[str]:
     return [
         "## Source/date filtering summary",
         "",
-        f"- Target date: {summary.target_date.isoformat()}",
+        f"- Target date: {summary.target_date.isoformat()} ({OPERATIONAL_TIMEZONE_NAME})",
         f"- Collected raw candidates: {summary.collected_raw_candidates}",
         f"- New unique items saved to SQLite: {summary.new_unique_items_saved}",
         f"- Eligible items for target date: {summary.eligible_items_for_target_date}",
