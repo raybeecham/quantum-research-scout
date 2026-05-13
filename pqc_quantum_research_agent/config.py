@@ -12,6 +12,7 @@ class RuntimeSettings:
     days_back: int = 2
     max_items_per_source: int = 40
     min_score: int = 3
+    min_topic_confidence: int = 4
     report_top_n: int = 15
     report_limit_per_source: int = 5
     fuzzy_title_threshold: float = 0.92
@@ -46,3 +47,23 @@ def load_config(path: str | Path) -> AgentConfig:
         rss_feeds=list(raw.get("rss_feeds") or []),
         urls=list(raw.get("urls") or []),
     )
+
+
+def load_weight_file(path: str | Path) -> dict[str, int]:
+    weight_path = Path(path)
+    if not weight_path.exists():
+        return {}
+    with weight_path.open("r", encoding="utf-8") as handle:
+        raw = yaml.safe_load(handle) or {}
+    if not isinstance(raw, dict):
+        return {}
+    values = raw.get("weights", raw)
+    if not isinstance(values, dict):
+        return {}
+    weights: dict[str, int] = {}
+    for key, value in values.items():
+        try:
+            weights[str(key)] = int(value)
+        except (TypeError, ValueError):
+            continue
+    return weights

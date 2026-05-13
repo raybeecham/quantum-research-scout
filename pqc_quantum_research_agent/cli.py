@@ -8,11 +8,11 @@ from pathlib import Path
 
 from .classifier import classify_item
 from .collectors import collect_all
-from .config import load_config
-from .date_filter import TARGET_DATE_INCLUDED_STATUSES, apply_date_filter, central_today, summarize_date_filter
-from .dates import OPERATIONAL_TIMEZONE_NAME
+from .config import load_config, load_weight_file
+from .date_filter import COVERAGE_WINDOW_INCLUDED_STATUSES, apply_date_filter, build_coverage_window, summarize_date_filter
+from .dates import OPERATIONAL_TIMEZONE_NAME, operational_today
 from .dedupe import dedupe_items, prepare_identity
-from .report import select_report_items, write_daily_digest
+from .report import is_report_relevant, select_report_items, write_daily_digest
 from .storage import ResearchStore
 
 LOGGER = logging.getLogger(__name__)
@@ -26,27 +26,53 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--config", default="sources.yaml", help="Path to sources YAML file.")
     parser.add_argument("--db", default="data/research_items.sqlite", help="Path to SQLite database.")
     parser.add_argument("--reports-dir", default="reports", help="Directory for Markdown digests.")
-    parser.add_argument("--date", default=None, help="Target publication date in YYYY-MM-DD format.")
+    parser.add_argument(
+        "--date",
+        default=None,
+        help="Operational report date in YYYY-MM-DD format.",
+    )
+    parser.add_argument(
+        "--lookback-hours",
+        type=float,
+        default=None,
+        help="Optional rolling coverage window length in hours. By default, use Central midnight to runtime.",
+    )
     parser.add_argument(
         "--include-undated",
         action="store_true",
-        help="Include undated items in the report instead of excluding them from daily mode.",
+        help="Retained for compatibility; daily reports include undated items only with --include-recent-undated.",
     )
     parser.add_argument(
         "--include-recent-undated",
         action="store_true",
-        help="Include undated items discovered on the target date when they contain strong PQC/quantum keywords.",
+        help="Include undated items discovered inside the coverage window when they contain strong PQC/quantum keywords.",
     )
     parser.add_argument(
         "--historical",
         action="store_true",
-        help="Disable daily-only publication-date filtering and allow all discovered items into report selection.",
+        help="Disable coverage-window publication-date filtering and allow all discovered items into report selection.",
     )
     parser.add_argument("--since-days", type=int, default=None, help=argparse.SUPPRESS)
     parser.add_argument("--days-back", type=int, default=None, help=argparse.SUPPRESS)
     parser.add_argument("--min-score", type=int, default=None, help="Minimum score for report inclusion.")
+    parser.add_argument(
+        "--min-topic-confidence",
+        type=int,
+        default=None,
+        help="Minimum topical confidence for report inclusion. Default comes from sources.yaml settings.",
+    )
     parser.add_argument("--top-n", type=int, default=None, help="Maximum number of items to include in the report.")
     parser.add_argument("--arxiv-max-results", type=int, default=None, help="Override arXiv max_results per query.")
+    parser.add_argument(
+        "--source-weights",
+        default="source_weights.yaml",
+        help="Optional YAML file with source/institution score weights.",
+    )
+    parser.add_argument(
+        "--keyword-weights",
+        default="keyword_weights.yaml",
+        help="Optional YAML file with keyword score weights.",
+    )
     parser.add_argument(
         "--use-arxiv-api",
         action="store_true",
@@ -73,8 +99,12 @@ def main(argv: list[str] | None = None) -> int:
     )
 
     config = load_config(args.config)
+    source_weights = load_weight_file(args.source_weights)
+    keyword_weights = load_weight_file(args.keyword_weights)
     if args.min_score is not None:
         config.settings.min_score = args.min_score
+    if args.min_topic_confidence is not None:
+        config.settings.min_topic_confidence = args.min_topic_confidence
     if args.arxiv_max_results is not None:
         config.arxiv["max_results"] = args.arxiv_max_results
     if args.use_arxiv_api:
@@ -88,11 +118,21 @@ def main(argv: list[str] | None = None) -> int:
     )
 
     generated_at = datetime.now(timezone.utc)
-    target_date = _parse_target_date(args.date) if args.date else central_today()
+    target_date = _parse_target_date(args.date) if args.date else operational_today(generated_at)
+    try:
+        coverage_start_at, coverage_end_at = build_coverage_window(
+            generated_at=generated_at,
+            target_date=target_date,
+            lookback_hours=args.lookback_hours,
+            explicit_target_date=args.date is not None,
+        )
+    except ValueError as exc:
+        raise SystemExit(str(exc)) from exc
     LOGGER.info(
-        "Collecting sources for target publication date %s (%s)",
+        "Collecting sources for operational report date %s (%s), coverage mode %s",
         target_date.isoformat(),
         OPERATIONAL_TIMEZONE_NAME,
+        f"rolling {args.lookback_hours:g}h" if args.lookback_hours is not None else "Central day to runtime",
     )
     collection = collect_all(config)
     candidates = collection.items
@@ -102,12 +142,14 @@ def main(argv: list[str] | None = None) -> int:
     classified = []
     for item in candidates:
         prepare_identity(item)
-        classify_item(item)
+        classify_item(item, keyword_weights=keyword_weights, source_weights=source_weights)
         classified.append(item)
 
     date_included = apply_date_filter(
         classified,
         target_date=target_date,
+        coverage_start_at=coverage_start_at,
+        coverage_end_at=coverage_end_at,
         include_undated=args.include_undated,
         include_recent_undated=args.include_recent_undated,
         historical=args.historical,
@@ -117,6 +159,9 @@ def main(argv: list[str] | None = None) -> int:
         classified,
         target_date=target_date,
         generated_at=generated_at,
+        coverage_start_at=coverage_start_at,
+        coverage_end_at=coverage_end_at,
+        lookback_hours=args.lookback_hours,
         historical_mode=args.historical,
         collected_raw_candidates=len(candidates),
         source_failures=len(collection.warnings),
@@ -133,13 +178,15 @@ def main(argv: list[str] | None = None) -> int:
         top_n=report_top_n,
         limit_per_source=report_limit_per_source,
         min_score=config.settings.min_score,
+        min_topic_confidence=config.settings.min_topic_confidence,
     )
     date_summary.eligible_items_for_target_date = len(
         [
             item
             for item in report_candidates
             if item.score >= config.settings.min_score
-            and item.date_filter_status in TARGET_DATE_INCLUDED_STATUSES
+            and item.date_filter_status in COVERAGE_WINDOW_INCLUDED_STATUSES
+            and is_report_relevant(item, min_topic_confidence=config.settings.min_topic_confidence)
         ]
     )
     date_summary.included_in_report = len(report_preview)
@@ -180,6 +227,7 @@ def main(argv: list[str] | None = None) -> int:
         top_n=report_top_n,
         limit_per_source=report_limit_per_source,
         min_score=config.settings.min_score,
+        min_topic_confidence=config.settings.min_topic_confidence,
     )
     LOGGER.info("Wrote digest to %s", report_path)
     print(report_path)

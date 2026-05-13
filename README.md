@@ -11,17 +11,20 @@ No web app is included in this first version.
 - Deduplicates by canonical URL, title hash, and fuzzy title similarity.
 - Classifies each item into:
   - PQC
-  - Quantum Computing
+  - Crypto Agility
   - Quantum Hardware
+  - QEC / Fault Tolerance
   - Quantum Networking
   - Quantum Sensing
+  - Quantum Software / Tooling
   - AI Security
-  - Classical Cybersecurity
   - Standards / Policy
   - Vendor / Industry
-- Scores relevance with PQC, quantum, AI security, and cybersecurity keywords such as `ML-KEM`, `ML-DSA`, `SLH-DSA`, `FIPS 203`, `QEC`, `logical qubit`, `fault tolerant`, `quantum networking`, `prompt injection`, `jailbreak`, `LLM`, and `AI security`.
+- Scores relevance with PQC, crypto-agility, quantum, AI security, and cybersecurity keywords such as `ML-KEM`, `ML-DSA`, `SLH-DSA`, `FIPS 203`, `CBOM`, `hybrid TLS`, `X.509`, `side-channel`, `QEC`, `logical qubit`, `fault tolerant`, `quantum networking`, `prompt injection`, `jailbreak`, `LLM`, and `AI security`.
+- Applies institution/source weighting for high-signal sources such as NIST, CISA, IBM Research, Google Quantum AI, Microsoft Research, Quantinuum, MIT, ETH Zurich, Caltech, Sandia, Los Alamos, Oak Ridge, IonQ, Rigetti, and QuEra.
+- Gates institution/source boosts behind topical confidence so unrelated source content does not enter PQC or quantum briefings on source reputation alone.
 - Stores results in SQLite.
-- Writes a curated daily Markdown digest to `reports/` for items published on the target America/Chicago date.
+- Writes a curated daily Markdown digest to `reports/` for items published during the current America/Chicago report day.
 - Runs daily through GitHub Actions.
 
 ## Setup
@@ -59,28 +62,34 @@ pqc-quantum-research-agent --config sources.yaml --dry-run
 Useful options:
 
 ```bash
-pqc-quantum-research-agent --date 2026-05-12 --include-recent-undated --min-score 5 --top-n 15 --limit-per-source 5 --arxiv-max-results 25 --verbose
+pqc-quantum-research-agent --date 2026-05-12 --include-recent-undated --min-score 5 --min-topic-confidence 4 --top-n 15 --limit-per-source 5 --arxiv-max-results 25 --verbose
 ```
 
 Report controls:
 
-- Default daily mode uses today's America/Chicago date and includes only items whose publication date falls within that local-day window.
-- `--date YYYY-MM-DD`: backfill or test a specific publication date.
-- `--include-undated`: include undated items in the report. By default, undated items are stored but excluded from the main report.
-- `--include-recent-undated`: include undated items discovered on the target America/Chicago date when they contain strong PQC/quantum keywords. These render with publication date `UNKNOWN` and low date confidence.
-- `--historical`: disable daily-only publication-date filtering and allow all discovered items into report selection.
+- Default daily mode uses the current America/Chicago report date and covers `00:00 America/Chicago` through runtime.
+- `--lookback-hours`: optional rolling coverage window length. When provided, this overrides Central day-to-runtime filtering.
+- `--date YYYY-MM-DD`: backfill or test a specific operational report date.
+- `--include-undated`: retained for compatibility; rolling daily reports keep undated items excluded unless `--include-recent-undated` is set.
+- `--include-recent-undated`: include undated items discovered inside the coverage window when they contain strong PQC/quantum keywords. These render with publication date `UNKNOWN` and low date confidence.
+- `--historical`: disable coverage-window publication-date filtering and allow all discovered items into report selection.
 - `--min-score`: minimum score for inclusion in the Markdown report.
+- `--min-topic-confidence`: minimum topical-confidence score for report inclusion. The default is `4`.
 - `--top-n`: maximum number of scored items shown in the Markdown report. The default is `15`.
 - `--limit-per-source`: maximum report items from any one source. Use `0` for unlimited.
 - `--arxiv-max-results`: override arXiv `max_results` per query. The default is `25`.
+- `--source-weights`: optional source/institution weighting YAML. The default path is `source_weights.yaml`.
+- `--keyword-weights`: optional keyword weighting YAML. The default path is `keyword_weights.yaml`.
 
-The report filters do not limit SQLite storage. The agent still saves every new unique classified item from the run, including older, future-dated, and undated discoveries, then applies date and score filters only when writing the digest. Daily digests are built from eligible target-date candidates in the current run, so already-seen same-day items can still appear even when SQLite suppresses duplicate storage.
+The report filters do not limit SQLite storage. The agent still saves every new unique classified item from the run, including older, future-dated, and undated discoveries, then applies coverage-window, score, and topical-confidence filters only when writing the digest. Daily digests are built from eligible current-report-day candidates in the current run, so already-seen same-day items can still appear even when SQLite suppresses duplicate storage. Use `--lookback-hours 24` for the previous rolling 24-hour behavior.
+
+Institution/source weights are applied only after the classifier sees strong topical evidence for PQC, quantum technology, or AI security. This prevents unrelated items from broad institutional feeds, such as non-cryptographic NIST posts, from being promoted into the briefing.
 
 arXiv requests are throttled between API calls and HTTP 429 responses are retried with exponential backoff. If arXiv remains rate-limited, the run records a source warning and continues with the remaining sources.
 
 arXiv RSS mode is preferred for scheduled runs and is the default. The default feeds are `https://rss.arxiv.org/rss/cs.CR` and `https://rss.arxiv.org/rss/quant-ph`; items are filtered by the same PQC and quantum keyword scoring rules as every other source. Use `--use-arxiv-api` for deeper local or manual searches through `https://export.arxiv.org/api/query`.
 
-Publication dates are normalized to UTC for storage, then interpreted with the America/Chicago operational timezone for report naming, target dates, displayed timestamps, and daily filtering windows. HTML extraction checks explicit metadata, `time datetime=`, JSON-LD `datePublished`, JSON-LD `dateModified`, source-specific URL date patterns, generic URL-derived dates, fallback text heuristics, and OpenGraph `updated_time` as a final fallback.
+Publication dates are normalized to UTC for storage, then interpreted with the America/Chicago operational timezone for report naming, operational report dates, displayed timestamps, and coverage windows. HTML extraction checks explicit metadata, `time datetime=`, JSON-LD `datePublished`, JSON-LD `dateModified`, source-specific URL date patterns, generic URL-derived dates, fallback text heuristics, and OpenGraph `updated_time` as a final fallback.
 
 ## Report Format
 
@@ -88,21 +97,42 @@ Each Markdown digest includes:
 
 1. Key Takeaways
 2. Executive Summary
-3. Top PQC / Security Signals
-4. AI Security Signals
-5. Top Hardware / QEC Signals
-6. Top Quantum Networking Signals
-7. Research
-8. Standards / Government
-9. Vendor Watch
-10. Source Failures / Warnings
-11. Source/date filtering summary
+3. Strategic Signals
+4. Top PQC / Security Signals
+5. AI Security Signals
+6. Top Hardware / QEC Signals
+7. Top Quantum Networking Signals
+8. Research
+9. Standards / Government
+10. Vendor Watch
+11. Source Failures / Warnings
+12. Source/date filtering summary
 
-Digest entries are formatted as an intelligence briefing with priority labels (`CRITICAL`, `HIGH`, `MEDIUM`), concise metadata, a heuristic "Why it matters" explanation, and summaries capped at 500 characters. Low-value vendor and product news is collapsed into short watch-list bullets.
+Digest entries are formatted as compact intelligence notes with source, publication timestamp, subtle priority labels (`CRITICAL`, `HIGH`, `MEDIUM`), a short "Why it matters" explanation, 2-5 concise key-point bullets, and a final link. Raw summaries remain in SQLite, while the human-facing digest keeps summary text compressed for scanning. Low-value vendor and product news is collapsed into short watch-list bullets.
 
 ## Configuration
 
 Edit `sources.yaml` to add or disable sources.
+
+Optional score tuning files are loaded automatically when present:
+
+Set `settings.min_topic_confidence` in `sources.yaml` to adjust how strict the digest is about topical relevance before score and source weights can influence report inclusion.
+
+```yaml
+# source_weights.yaml
+NIST: 15
+IBM Quantum: 10
+Google Quantum AI: 10
+arXiv RSS quant-ph: 5
+```
+
+```yaml
+# keyword_weights.yaml
+ML-KEM: 16
+FIPS 203: 18
+crypto-agility: 15
+hybrid TLS: 13
+```
 
 RSS source:
 
@@ -142,7 +172,7 @@ SQLite records are written to `research_items` with:
 
 ## GitHub Actions
 
-The workflow in `.github/workflows/daily-research-scout.yml` runs every day at `00:00 UTC` in default daily mode, which is `7:00 PM` US Central Time during daylight saving time, and can also be started manually with `workflow_dispatch`.
+The workflow in `.github/workflows/daily-research-scout.yml` runs every day at `00:00 UTC` in default daily mode, which is `7:00 PM` US Central Time during daylight saving time, and can also be started manually with `workflow_dispatch`. Scheduled runs use the default Central report-day coverage window from midnight to runtime.
 
 It restores the prior SQLite database from the Actions cache, runs the scout, commits changed Markdown reports in `reports/` back to `main`, then uploads both the Markdown digest and SQLite database as workflow artifacts. Markdown digest files are intentionally tracked; SQLite database files remain ignored and are not committed. The workflow needs `contents: write` permission for the built-in `GITHUB_TOKEN`, and branch protection must allow the GitHub Actions bot to push these report commits.
 

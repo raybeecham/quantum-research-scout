@@ -1,6 +1,7 @@
 settings:
   max_items_per_source: 40
   min_score: 3
+  min_topic_confidence: 4
   report_top_n: 15
   report_limit_per_source: 5
   fuzzy_title_threshold: 0.92

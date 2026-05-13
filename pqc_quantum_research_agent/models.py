@@ -51,6 +51,9 @@ class CollectionResult:
 class DateFilterSummary:
     target_date: date
     generated_at: datetime = field(default_factory=utc_now)
+    coverage_start_at: datetime | None = None
+    coverage_end_at: datetime | None = None
+    lookback_hours: float | None = None
     historical_mode: bool = False
     collected_raw_candidates: int = 0
     new_unique_items_saved: int = 0
