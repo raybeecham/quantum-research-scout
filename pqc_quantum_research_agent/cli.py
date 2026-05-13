@@ -14,6 +14,7 @@ from .dates import OPERATIONAL_TIMEZONE_NAME, operational_today
 from .dedupe import dedupe_items, prepare_identity
 from .report import is_report_relevant, select_report_items, write_daily_digest
 from .storage import ResearchStore
+from .weekly import write_weekly_report
 
 LOGGER = logging.getLogger(__name__)
 
@@ -26,6 +27,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--config", default="sources.yaml", help="Path to sources YAML file.")
     parser.add_argument("--db", default="data/research_items.sqlite", help="Path to SQLite database.")
     parser.add_argument("--reports-dir", default="reports", help="Directory for Markdown digests.")
+    parser.add_argument("--weekly", action="store_true", help="Generate a weekly synthesis from existing daily reports.")
+    parser.add_argument("--week-start", default=None, help="Weekly synthesis start date in YYYY-MM-DD format.")
+    parser.add_argument("--week-end", default=None, help="Weekly synthesis end date in YYYY-MM-DD format.")
     parser.add_argument(
         "--date",
         default=None,
@@ -97,6 +101,19 @@ def main(argv: list[str] | None = None) -> int:
         level=logging.DEBUG if args.verbose else logging.INFO,
         format="%(asctime)s %(levelname)s %(name)s: %(message)s",
     )
+
+    if args.weekly:
+        week_start = _parse_target_date(args.week_start) if args.week_start else None
+        week_end = _parse_target_date(args.week_end) if args.week_end else None
+        report_path = write_weekly_report(
+            Path(args.reports_dir),
+            week_start=week_start,
+            week_end=week_end,
+            generated_at=datetime.now(timezone.utc),
+        )
+        LOGGER.info("Wrote weekly synthesis to %s", report_path)
+        print(report_path)
+        return 0
 
     config = load_config(args.config)
     source_weights = load_weight_file(args.source_weights)

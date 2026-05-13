@@ -1,0 +1,66 @@
+name: Weekly PQC Quantum Research Synthesis
+
+on:
+  schedule:
+    # UTC schedule: 01:00 Monday.
+    # Intended local schedule: Sunday night after the daily 7:00 PM US Central run during daylight saving time.
+    - cron: "0 1 * * 1"
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  TZ: America/Chicago
+
+jobs:
+  weekly-synthesis:
+    name: Generate weekly synthesis
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install agent
+        run: python -m pip install .
+
+      - name: Generate weekly synthesis
+        env:
+          REPORTS_DIR: ${{ github.workspace }}/reports
+        run: |
+          mkdir -p "$REPORTS_DIR/weekly"
+          pqc-quantum-research-agent \
+            --reports-dir "$REPORTS_DIR" \
+            --weekly
+
+      - name: Commit generated weekly reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ls reports/weekly/*.md >/dev/null 2>&1; then
+            git add -f reports/weekly/*.md
+          else
+            echo "No weekly Markdown reports found under reports/weekly/"
+          fi
+          if git diff --cached --quiet; then
+            echo "No weekly report changes to commit"
+          else
+            git commit -m "Weekly PQC synthesis $(date +%F)"
+            git push
+          fi
+
+      - name: Upload weekly synthesis
+        uses: actions/upload-artifact@v7
+        with:
+          name: pqc-quantum-weekly-synthesis
+          path: reports/weekly/*.md
+          if-no-files-found: error

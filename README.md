@@ -31,6 +31,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - Gates institution/source boosts behind topical confidence so unrelated source content does not enter PQC or quantum briefings on source reputation alone.
 - Stores results in SQLite.
 - Writes a curated daily Markdown digest to `reports/` for items published during the current America/Chicago report day.
+- Writes a deterministic weekly synthesis to `reports/weekly/` from existing daily Markdown digests.
 - Runs daily through GitHub Actions.
 
 ## Example Output
@@ -57,6 +58,8 @@ source .venv/bin/activate
 
 ## Run Locally
 
+Daily mode collects sources, writes SQLite, and generates one daily digest:
+
 ```bash
 pqc-quantum-research-agent --config sources.yaml --db data/research_items.sqlite --reports-dir reports
 ```
@@ -65,6 +68,24 @@ The command prints the path to the generated Markdown digest, for example:
 
 ```text
 reports/2026-05-12-digest.md
+```
+
+Weekly mode reads existing daily digest files from `reports/` and writes a consolidated weekly synthesis:
+
+```bash
+pqc-quantum-research-agent --reports-dir reports --weekly
+```
+
+By default, weekly mode uses the current America/Chicago week, Monday through Sunday. To backfill or test a specific range:
+
+```bash
+pqc-quantum-research-agent --reports-dir reports --weekly --week-start 2026-05-11 --week-end 2026-05-17
+```
+
+Weekly reports are stored under:
+
+```text
+reports/weekly/YYYY-MM-DD_to_YYYY-MM-DD-weekly.md
 ```
 
 For a quick preview without writing the database or report:
@@ -82,6 +103,8 @@ pqc-quantum-research-agent --date 2026-05-12 --include-recent-undated --min-scor
 Report controls:
 
 - Default daily mode uses the current America/Chicago report date and covers `00:00 America/Chicago` through runtime.
+- `--weekly`: generate a weekly intelligence synthesis from existing `reports/YYYY-MM-DD-digest.md` files without collecting sources or touching SQLite.
+- `--week-start YYYY-MM-DD` and `--week-end YYYY-MM-DD`: optional weekly synthesis bounds. If omitted, weekly mode uses the current America/Chicago Monday-through-Sunday week.
 - `--lookback-hours`: optional rolling coverage window length. When provided, this overrides Central day-to-runtime filtering.
 - `--date YYYY-MM-DD`: backfill or test a specific operational report date.
 - `--include-undated`: retained for compatibility; rolling daily reports keep undated items excluded unless `--include-recent-undated` is set.
@@ -107,7 +130,7 @@ Publication dates are normalized to UTC for storage, then interpreted with the A
 
 ## Report Format
 
-Each Markdown digest includes:
+Each daily Markdown digest includes:
 
 1. Key Takeaways
 2. Executive Summary
@@ -123,6 +146,23 @@ Each Markdown digest includes:
 12. Source/date filtering summary
 
 Digest entries are formatted as compact intelligence notes with source, publication timestamp, subtle priority labels (`CRITICAL`, `HIGH`, `MEDIUM`), a short "Why it matters" explanation, 2-5 concise key-point bullets, and a final link. Raw summaries remain in SQLite, while the human-facing digest keeps summary text compressed for scanning. Low-value vendor and product news is collapsed into short watch-list bullets.
+
+Each weekly synthesis includes:
+
+1. Executive Summary
+2. Strategic Themes
+3. Top Strategic Signals
+4. PQC and Crypto-Agility Watch
+5. Quantum Computing and QEC Watch
+6. Quantum Networking and Sensing Watch
+7. AI Security Watch
+8. Vendor and Ecosystem Movement
+9. Federal / Standards Implications
+10. What Changed This Week
+11. Suggested Follow-Up
+12. Source Coverage Summary
+
+Weekly synthesis is deterministic. It parses daily Markdown headings, metadata lines, scores, links, "Why it matters" text, and key points; deduplicates by URL, normalized title, title similarity, and company/topic clusters; then writes the consolidated briefing without requiring an LLM or API key.
 
 ## Configuration
 
@@ -190,6 +230,8 @@ The workflow in `.github/workflows/daily-research-scout.yml` runs every day at `
 
 It restores the prior SQLite database from the Actions cache, runs the scout, commits changed Markdown reports in `reports/` back to `main`, then uploads both the Markdown digest and SQLite database as workflow artifacts. Markdown digest files are intentionally tracked; SQLite database files remain ignored and are not committed. The workflow needs `contents: write` permission for the built-in `GITHUB_TOKEN`, and branch protection must allow the GitHub Actions bot to push these report commits.
 
+The workflow in `.github/workflows/weekly-research-synthesis.yml` runs at `01:00 UTC` on Mondays, intended as Sunday night US Central after the daily digest has run. It reads committed daily digest files from `reports/`, writes the weekly synthesis to `reports/weekly/`, commits changed weekly Markdown reports back to `main`, and uploads the weekly report as an artifact. It can also be started manually with `workflow_dispatch`.
+
 The workflow uses Node.js 24-compatible GitHub Action majors and sets `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true` so compatibility is exercised now. GitHub-hosted `ubuntu-latest` runners satisfy this automatically; self-hosted runners should use Actions Runner `v2.327.1` or later for Node.js 24 JavaScript actions.
 
 ## Project Layout
@@ -202,7 +244,9 @@ pqc_quantum_research_agent/
   dedupe.py         # URL, hash, and fuzzy-title dedupe
   storage.py        # SQLite schema and inserts
   report.py         # Markdown digest rendering
+  weekly.py         # weekly synthesis parsing and rendering
 sources.yaml        # default sources and runtime settings
 reports/            # generated Markdown digests
+reports/weekly/     # generated weekly synthesis reports
 data/               # generated SQLite database
 ```
