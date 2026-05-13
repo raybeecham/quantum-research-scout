@@ -1,8 +1,14 @@
-# pqc-quantum-research-agent
+# Quantum Research Scout
 
-`pqc-quantum-research-agent` is a small backend research scout for post-quantum cryptography and quantum technology updates. It collects from arXiv, IACR ePrint, RSS feeds, and configurable web pages in `sources.yaml`, then classifies, scores, deduplicates, stores, date-filters, and reports the results.
+Automated daily research scout for post-quantum cryptography, quantum technology, and AI security signals.
 
-No web app is included in this first version.
+Quantum Research Scout collects from arXiv, IACR ePrint, RSS feeds, and configurable web pages, then classifies, scores, deduplicates, stores, date-filters, and reports the results as a compact Markdown intelligence digest.
+
+The installable CLI is still named `pqc-quantum-research-agent`.
+
+## Why It Exists
+
+PQC and quantum technology move quickly across papers, standards bodies, vendor blogs, government advisories, and research labs. This project turns those scattered sources into a daily briefing that is easier to scan, compare, and archive.
 
 ## What It Does
 
@@ -26,6 +32,14 @@ No web app is included in this first version.
 - Stores results in SQLite.
 - Writes a curated daily Markdown digest to `reports/` for items published during the current America/Chicago report day.
 - Runs daily through GitHub Actions.
+
+## Example Output
+
+Recent digest:
+
+- [PQC and Quantum Research Digest - 2026-05-13](reports/2026-05-13-digest.md)
+
+Each digest includes key takeaways, an executive summary, strategic signals, PQC/security signals, AI security signals, hardware/QEC signals, quantum networking signals, vendor watch items, and source warnings.
 
 ## Setup
 
