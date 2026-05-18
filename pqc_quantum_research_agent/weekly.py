@@ -296,12 +296,18 @@ def write_weekly_report(
     week_end: date | None = None,
     generated_at: datetime | None = None,
 ) -> Path:
-    start_date, end_date = resolve_week_range(
-        generated_at=generated_at,
-        week_start=week_start,
-        week_end=week_end,
-    )
     reports_path = Path(reports_dir)
+    if week_start is None and week_end is None:
+        start_date, end_date = resolve_week_range_for_reports(
+            reports_path,
+            generated_at=generated_at,
+        )
+    else:
+        start_date, end_date = resolve_week_range(
+            generated_at=generated_at,
+            week_start=week_start,
+            week_end=week_end,
+        )
     weekly_inputs = load_weekly_inputs(reports_path, start_date, end_date)
     content = render_weekly_report(weekly_inputs)
 
@@ -310,6 +316,45 @@ def write_weekly_report(
     output_path = output_dir / f"{start_date.isoformat()}_to_{end_date.isoformat()}-weekly.md"
     output_path.write_text(content, encoding="utf-8")
     return output_path
+
+
+def resolve_week_range_for_reports(
+    reports_dir: str | Path,
+    *,
+    generated_at: datetime | None = None,
+) -> tuple[date, date]:
+    current_start, current_end = resolve_week_range(generated_at=generated_at)
+    reports_path = Path(reports_dir)
+    if _has_daily_reports(reports_path, current_start, current_end):
+        return current_start, current_end
+
+    latest_report_date = _latest_daily_report_date(reports_path, before_or_on=current_end)
+    if latest_report_date is None:
+        return current_start, current_end
+
+    latest_week_start = latest_report_date - timedelta(days=latest_report_date.weekday())
+    return latest_week_start, latest_week_start + timedelta(days=6)
+
+
+def _has_daily_reports(reports_dir: Path, start_date: date, end_date: date) -> bool:
+    return any(start_date <= report_date <= end_date for report_date in _daily_report_dates(reports_dir))
+
+
+def _latest_daily_report_date(reports_dir: Path, *, before_or_on: date) -> date | None:
+    eligible_dates = [report_date for report_date in _daily_report_dates(reports_dir) if report_date <= before_or_on]
+    return max(eligible_dates) if eligible_dates else None
+
+
+def _daily_report_dates(reports_dir: Path) -> list[date]:
+    if not reports_dir.exists():
+        return []
+
+    dates: list[date] = []
+    for path in reports_dir.glob("*-digest.md"):
+        match = DAILY_REPORT_RE.match(path.name)
+        if match:
+            dates.append(datetime.strptime(match.group(1), "%Y-%m-%d").date())
+    return dates
 
 
 def load_weekly_inputs(reports_dir: str | Path, start_date: date, end_date: date) -> WeeklyInputs:

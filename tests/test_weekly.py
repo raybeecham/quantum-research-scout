@@ -11,6 +11,7 @@ from pqc_quantum_research_agent.weekly import (
     parse_daily_report,
     render_weekly_report,
     resolve_week_range,
+    resolve_week_range_for_reports,
     write_weekly_report,
 )
 
@@ -39,6 +40,69 @@ class WeeklyReportTests(unittest.TestCase):
 
         self.assertEqual(start, date(2026, 5, 4))
         self.assertEqual(end, date(2026, 5, 10))
+
+    def test_default_weekly_range_falls_back_to_latest_week_with_reports(self) -> None:
+        with TemporaryDirectory() as reports_dir:
+            reports_path = Path(reports_dir)
+            (reports_path / "2026-05-13-digest.md").write_text(
+                _daily_report(
+                    "NIST publishes ML-KEM migration guidance",
+                    category="Crypto Agility",
+                    source="NIST",
+                    score=78,
+                    link="https://example.com/ml-kem",
+                ),
+                encoding="utf-8",
+            )
+
+            start, end = resolve_week_range_for_reports(
+                reports_path,
+                generated_at=datetime(2026, 5, 18, 15, 0, tzinfo=timezone.utc),
+            )
+
+        self.assertEqual((start, end), (date(2026, 5, 11), date(2026, 5, 17)))
+
+    def test_default_weekly_range_uses_current_week_when_reports_exist(self) -> None:
+        with TemporaryDirectory() as reports_dir:
+            reports_path = Path(reports_dir)
+            (reports_path / "2026-05-18-digest.md").write_text(
+                _daily_report(
+                    "NIST publishes ML-KEM migration guidance",
+                    category="Crypto Agility",
+                    source="NIST",
+                    score=78,
+                    link="https://example.com/ml-kem",
+                ),
+                encoding="utf-8",
+            )
+
+            start, end = resolve_week_range_for_reports(
+                reports_path,
+                generated_at=datetime(2026, 5, 18, 15, 0, tzinfo=timezone.utc),
+            )
+
+        self.assertEqual((start, end), (date(2026, 5, 18), date(2026, 5, 24)))
+
+    def test_write_weekly_report_defaults_to_latest_populated_week(self) -> None:
+        with TemporaryDirectory() as reports_dir:
+            reports_path = Path(reports_dir)
+            (reports_path / "2026-05-13-digest.md").write_text(
+                _daily_report(
+                    "NIST publishes ML-KEM migration guidance",
+                    category="Crypto Agility",
+                    source="NIST",
+                    score=78,
+                    link="https://example.com/ml-kem",
+                ),
+                encoding="utf-8",
+            )
+
+            output_path = write_weekly_report(
+                reports_path,
+                generated_at=datetime(2026, 5, 18, 15, 0, tzinfo=timezone.utc),
+            )
+
+        self.assertEqual(output_path.name, "2026-05-11_to_2026-05-17-weekly.md")
 
     def test_parse_daily_report_extracts_entries(self) -> None:
         with TemporaryDirectory() as reports_dir:

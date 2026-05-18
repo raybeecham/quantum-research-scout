@@ -76,7 +76,7 @@ Weekly mode reads existing daily digest files from `reports/` and writes a conso
 pqc-quantum-research-agent --reports-dir reports --weekly
 ```
 
-By default, weekly mode uses the current America/Chicago week, Monday through Sunday. To backfill or test a specific range:
+By default, weekly mode uses the current America/Chicago week, Monday through Sunday, when that week already has daily digest files. If it is run before any current-week daily digest exists, it falls back to the most recent week with daily reports. To backfill or test a specific range:
 
 ```bash
 pqc-quantum-research-agent --reports-dir reports --weekly --week-start 2026-05-11 --week-end 2026-05-17
@@ -104,7 +104,7 @@ Report controls:
 
 - Default daily mode uses the current America/Chicago report date and covers `00:00 America/Chicago` through runtime.
 - `--weekly`: generate a weekly intelligence synthesis from existing `reports/YYYY-MM-DD-digest.md` files without collecting sources or touching SQLite.
-- `--week-start YYYY-MM-DD` and `--week-end YYYY-MM-DD`: optional weekly synthesis bounds. If omitted, weekly mode uses the current America/Chicago Monday-through-Sunday week.
+- `--week-start YYYY-MM-DD` and `--week-end YYYY-MM-DD`: optional weekly synthesis bounds. If omitted, weekly mode uses the current America/Chicago Monday-through-Sunday week when daily reports exist there, otherwise it falls back to the latest populated report week.
 - `--lookback-hours`: optional rolling coverage window length. When provided, this overrides Central day-to-runtime filtering.
 - `--date YYYY-MM-DD`: backfill or test a specific operational report date.
 - `--include-undated`: retained for compatibility; rolling daily reports keep undated items excluded unless `--include-recent-undated` is set.
