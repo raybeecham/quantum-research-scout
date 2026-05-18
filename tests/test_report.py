@@ -438,11 +438,18 @@ class ReportTests(unittest.TestCase):
         fragments = [
             "We also investigate the abili",
             "The coherent phases as",
+            "From oil platforms and remote energy […]",
+            "Led by Dr. Rong Ge, ScaLab focuses on improving how quantum software […]",
             "Read more",
             "Quantum",
         ]
 
         self.assertFalse(any(is_complete_key_point(fragment) for fragment in fragments))
+        self.assertTrue(
+            is_complete_key_point(
+                "In 2026, the ratio of physical to logical qubits remains a critical challenge in quantum computing, influencing error correction overhead"
+            )
+        )
 
     def test_long_technical_sentence_truncates_cleanly_at_word_boundary(self) -> None:
         item = ResearchItem(
@@ -522,6 +529,38 @@ class ReportTests(unittest.TestCase):
         self.assertFalse(any("coherent phases as" in point or "abili" in point for point in key_points))
         self.assertTrue(any("ML-KEM" in point for point in key_points))
         self.assertTrue(any("cryptographic inventories" in point for point in key_points))
+
+    def test_scraped_ellipsis_fragments_are_removed_from_rendered_key_points(self) -> None:
+        item = ResearchItem(
+            source_name="The Quantum Insider",
+            source_type="rss",
+            title="Sitehop Launches Compact Post-Quantum Encryption Device",
+            url="https://example.com/sitehop",
+            summary=(
+                "Sitehop protects operational technology networks in energy, utilities, and critical infrastructure. "
+                "From oil platforms and remote energy […]. "
+                "Led by Dr. Rong Ge, ScaLab focuses on improving how quantum software […]."
+            ),
+            published_at=datetime(2026, 5, 18, 13, 0, tzinfo=timezone.utc),
+            date_filter_status="included_today",
+            category="PQC",
+            score=55,
+            matched_keywords=["post-quantum", "pqc"],
+            score_explanation="topic_confidence=8; rationale=strong PQC keyword match",
+        )
+        summary = DateFilterSummary(
+            target_date=date(2026, 5, 18),
+            generated_at=datetime(2026, 5, 18, 20, 0, tzinfo=timezone.utc),
+            collected_raw_candidates=1,
+            eligible_items_for_target_date=1,
+        )
+
+        digest = render_digest([item], date(2026, 5, 18), summary=summary, min_score=3)
+
+        self.assertIn("Sitehop protects operational technology networks", digest)
+        self.assertNotIn("From oil platforms and remote energy", digest)
+        self.assertNotIn("Led by Dr. Rong Ge", digest)
+        self.assertNotIn("[…]", digest)
 
     def test_key_points_render_as_markdown_bullets_only(self) -> None:
         item = ResearchItem(

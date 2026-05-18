@@ -179,6 +179,7 @@ PROMOTIONAL_REPLACEMENTS = (
     (r"(?i)\bhas formally established\b", "introduced"),
     (r"(?i)\ba global leader in [^,.]{6,140}", "a company"),
     (r"(?i)\bglobal leader\b", "company"),
+    (r"(?i)\bworld[’']s smallest\b", "compact"),
     (r"(?i)\bworld[- ]class\b", "advanced"),
     (r"(?i)\bgame[- ]changing\b", "notable"),
     (r"(?i)\brevolutionary\b", "notable"),
@@ -578,6 +579,8 @@ def _is_weak_or_incomplete_key_point(value: str) -> bool:
     lowered = text.casefold().strip()
     if not lowered:
         return True
+    if "…" in text or re.search(r"\[\s*(?:…|\.{3})\s*\]", text):
+        return True
     if lowered in {"read more", "learn more", "more"}:
         return True
     if re.match(r"(?i)^a fault-tolerant squeezing threshold of \d+(?:\.\d+)?$", text):
@@ -632,6 +635,7 @@ def _looks_like_truncated_word(token: str) -> bool:
         "guidance",
         "hamiltonian",
         "inventory",
+        "overhead",
         "platform",
         "protocol",
         "qubit",
@@ -933,13 +937,29 @@ def _one_sentence_summary(item: WeeklyItem) -> str:
 
 def _is_vendor_movement(item: WeeklyItem) -> bool:
     title_source_category = f"{clean_report_title(item.title)} {item.source} {item.category}".casefold()
-    text = _item_text(item)
+    evidence_text = f"{title_source_category} {' '.join(item.key_points)}".casefold()
     if "arxiv" in item.source.casefold() and not _contains_any(title_source_category, VENDOR_MOVEMENT_HINTS):
         return False
     has_named_actor = _contains_any(title_source_category, VENDOR_MOVEMENT_HINTS)
-    has_movement = _contains_any(text, VENDOR_MOVEMENT_TERMS)
+    has_movement = _contains_any(evidence_text, VENDOR_MOVEMENT_TERMS)
     has_ecosystem_signal = "arxiv" not in item.source.casefold() and _contains_any(title_source_category, {"ecosystem", "industry"})
-    return (has_named_actor and has_movement) or has_ecosystem_signal
+    has_product_launch_signal = (
+        "arxiv" not in item.source.casefold()
+        and has_movement
+        and _contains_any(
+            evidence_text,
+            {
+                "device",
+                "product",
+                "platform",
+                "solution",
+                "system",
+                "service",
+                "tool",
+            },
+        )
+    )
+    return (has_named_actor and has_movement) or has_ecosystem_signal or has_product_launch_signal
 
 
 def _has_federal_or_pqc_implication(item: WeeklyItem) -> bool:

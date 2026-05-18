@@ -691,6 +691,7 @@ def _neutralize_promotional_language(value: str) -> str:
         (r"(?i)\bhas formally established\b", "introduced"),
         (r"(?i)\ba global leader in [^,.]{6,140}", "a company"),
         (r"(?i)\bglobal leader\b", "company"),
+        (r"(?i)\bworld[’']s smallest\b", "compact"),
         (r"(?i)\bworld[- ]class\b", "advanced"),
         (r"(?i)\bgame[- ]changing\b", "notable"),
         (r"(?i)\brevolutionary\b", "notable"),
@@ -801,6 +802,8 @@ def is_complete_key_point(value: str) -> bool:
     lowered = text.casefold().strip(".")
     if lowered in {"read more", "learn more", "more", "quantum"}:
         return False
+    if _has_scraped_ellipsis_fragment(text):
+        return False
     if len(text) < 40:
         return _is_meaningful_short_statement(text)
     if re.search(r"\b(as|the|a|an|to|for|of|and|or|in|with|by|from|into|under|over|between|that|this)$", lowered):
@@ -843,6 +846,11 @@ def _format_key_point(value: str) -> str:
     if not text:
         return ""
     return truncate_at_word_boundary(text, KEY_POINT_MAX_CHARS)
+
+
+def _has_scraped_ellipsis_fragment(value: str) -> bool:
+    text = normalize_whitespace(value)
+    return "…" in text or bool(re.search(r"\[\s*(?:…|\.{3})\s*\]", text))
 
 
 def _is_title_like_key_point(point: str, title: str) -> bool:

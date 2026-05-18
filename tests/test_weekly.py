@@ -324,6 +324,73 @@ class WeeklyReportTests(unittest.TestCase):
         self.assertIn("**Photonic closes investment round for distributed quantum computing**", content)
         self.assertNotIn("No vendor or ecosystem movement was found.", content)
 
+    def test_vendor_movement_recognizes_product_launch_without_known_company_hint(self) -> None:
+        with TemporaryDirectory() as reports_dir:
+            reports_path = Path(reports_dir)
+            (reports_path / "2026-05-18-digest.md").write_text(
+                _daily_report(
+                    "Sitehop Launches Compact Post-Quantum Encryption Device",
+                    category="PQC",
+                    source="The Quantum Insider",
+                    score=55,
+                    link="https://example.com/sitehop",
+                    point="Sitehop launched a post-quantum encryption device for operational technology networks.",
+                    second_point=None,
+                ),
+                encoding="utf-8",
+            )
+            weekly = load_weekly_inputs(reports_path, date(2026, 5, 18), date(2026, 5, 18))
+            content = render_weekly_report(weekly)
+
+        vendor_section = content.split("## Vendor and Ecosystem Movement", 1)[1].split("## Federal / Standards", 1)[0]
+        self.assertIn("**Sitehop Launches Compact Post-Quantum Encryption Device**", vendor_section)
+        self.assertNotIn("No vendor or ecosystem movement was found.", vendor_section)
+
+    def test_vendor_movement_ignores_generated_productivity_language(self) -> None:
+        with TemporaryDirectory() as reports_dir:
+            reports_path = Path(reports_dir)
+            (reports_path / "2026-05-18-digest.md").write_text(
+                _daily_report(
+                    "Clemson University Advances Quantum Software Research Through $650,000 Initiative",
+                    category="Quantum Software / Tooling",
+                    source="The Quantum Insider",
+                    score=25,
+                    link="https://example.com/clemson",
+                    point="Clemson University is advancing quantum software research capacity through an academic lab initiative.",
+                    second_point=None,
+                ),
+                encoding="utf-8",
+            )
+            weekly = load_weekly_inputs(reports_path, date(2026, 5, 18), date(2026, 5, 18))
+            content = render_weekly_report(weekly)
+
+        vendor_section = content.split("## Vendor and Ecosystem Movement", 1)[1].split("## Federal / Standards", 1)[0]
+        self.assertNotIn("Clemson University Advances", vendor_section)
+        self.assertIn("No vendor or ecosystem movement was found.", vendor_section)
+
+    def test_weekly_keeps_good_nonpunctuated_key_points(self) -> None:
+        with TemporaryDirectory() as reports_dir:
+            reports_path = Path(reports_dir)
+            (reports_path / "2026-05-18-digest.md").write_text(
+                _daily_report(
+                    "Comparing Qubit Ratios: Physical vs. Logical in 2026",
+                    category="Quantum Hardware",
+                    source="QuantumNews.ai",
+                    score=67,
+                    link="https://example.com/qubit-ratios",
+                    point="In 2026, the ratio of physical to logical qubits remains a critical challenge in quantum computing, influencing error correction overhead",
+                    second_point="From oil platforms and remote energy […]",
+                ),
+                encoding="utf-8",
+            )
+            weekly = load_weekly_inputs(reports_path, date(2026, 5, 18), date(2026, 5, 18))
+            content = render_weekly_report(weekly)
+
+        self.assertIn("influencing error correction overhead", content)
+        self.assertNotIn("extracted summary detail was limited", content)
+        self.assertNotIn("From oil platforms and remote energy", content)
+        self.assertNotIn("[…]", content)
+
     def test_watch_sections_use_concise_bold_title_references(self) -> None:
         with TemporaryDirectory() as reports_dir:
             reports_path = Path(reports_dir)
