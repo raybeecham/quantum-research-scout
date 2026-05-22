@@ -13,7 +13,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 ## What It Does
 
 - Collects papers and articles from arXiv, IACR ePrint, RSS feeds, and configured URLs.
-- Includes default sources for The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, NIST CSRC, CISA, NSA, Open Quantum Safe, Cloudflare, Google Security, IBM Quantum, Microsoft Quantum, AWS Braket, IonQ, Quantinuum, Rigetti, PQShield, SandboxAQ, DigiCert, Keyfactor, Thales, and Entrust.
+- Includes default sources for The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, NIST CSRC, CISA, PQCA Readiness Tracking, NSA, Open Quantum Safe, Cloudflare, Google Security, IBM Quantum, Microsoft Quantum, AWS Braket, IonQ, Quantinuum, Rigetti, PQShield, SandboxAQ, DigiCert, Keyfactor, Thales, and Entrust.
 - Deduplicates by canonical URL, title hash, and fuzzy title similarity.
 - Classifies each item into:
   - PQC
@@ -27,7 +27,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
   - Standards / Policy
   - Vendor / Industry
 - Scores relevance with PQC, crypto-agility, quantum, AI security, and cybersecurity keywords such as `ML-KEM`, `ML-DSA`, `SLH-DSA`, `FIPS 203`, `CBOM`, `hybrid TLS`, `X.509`, `side-channel`, `QEC`, `logical qubit`, `fault tolerant`, `quantum networking`, `prompt injection`, `jailbreak`, `LLM`, and `AI security`.
-- Applies institution/source weighting for high-signal sources such as NIST, CISA, IBM Research, Google Quantum AI, Microsoft Research, Quantinuum, MIT, ETH Zurich, Caltech, Sandia, Los Alamos, Oak Ridge, IonQ, Rigetti, and QuEra.
+- Applies institution/source weighting for high-signal sources such as NIST, CISA, PQCA Readiness Tracking, IBM Research, Google Quantum AI, Microsoft Research, Quantinuum, MIT, ETH Zurich, Caltech, Sandia, Los Alamos, Oak Ridge, IonQ, Rigetti, and QuEra.
 - Gates institution/source boosts behind topical confidence so unrelated source content does not enter PQC or quantum briefings on source reputation alone.
 - Stores results in SQLite.
 - Writes a curated daily Markdown digest to `reports/` for items published during the current America/Chicago report day.
@@ -177,6 +177,7 @@ Set `settings.min_topic_confidence` in `sources.yaml` to adjust how strict the d
 NIST: 15
 IBM Quantum: 10
 Google Quantum AI: 10
+PQCA Readiness Tracking: 10
 arXiv RSS quant-ph: 5
 ```
 

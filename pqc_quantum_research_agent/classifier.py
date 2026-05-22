@@ -553,6 +553,7 @@ DEFAULT_SOURCE_WEIGHTS: dict[str, int] = {
     "NIST": 15,
     "CISA": 12,
     "NSA": 12,
+    "PQCA Readiness Tracking": 10,
     "IBM Research": 12,
     "IBM Quantum": 10,
     "Google Quantum AI": 12,
