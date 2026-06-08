@@ -83,6 +83,29 @@ class WeeklyReportTests(unittest.TestCase):
 
         self.assertEqual((start, end), (date(2026, 5, 18), date(2026, 5, 24)))
 
+    def test_default_weekly_range_finds_monthly_daily_reports(self) -> None:
+        with TemporaryDirectory() as reports_dir:
+            reports_path = Path(reports_dir)
+            monthly_path = reports_path / "2026-05"
+            monthly_path.mkdir()
+            (monthly_path / "2026-05-18-digest.md").write_text(
+                _daily_report(
+                    "NIST publishes ML-KEM migration guidance",
+                    category="Crypto Agility",
+                    source="NIST",
+                    score=78,
+                    link="https://example.com/ml-kem",
+                ),
+                encoding="utf-8",
+            )
+
+            start, end = resolve_week_range_for_reports(
+                reports_path,
+                generated_at=datetime(2026, 5, 18, 15, 0, tzinfo=timezone.utc),
+            )
+
+        self.assertEqual((start, end), (date(2026, 5, 18), date(2026, 5, 24)))
+
     def test_write_weekly_report_defaults_to_latest_populated_week(self) -> None:
         with TemporaryDirectory() as reports_dir:
             reports_path = Path(reports_dir)
@@ -103,6 +126,28 @@ class WeeklyReportTests(unittest.TestCase):
             )
 
         self.assertEqual(output_path.name, "2026-05-11_to_2026-05-17-weekly.md")
+
+    def test_load_weekly_inputs_reads_monthly_daily_reports(self) -> None:
+        with TemporaryDirectory() as reports_dir:
+            reports_path = Path(reports_dir)
+            monthly_path = reports_path / "2026-05"
+            monthly_path.mkdir()
+            (monthly_path / "2026-05-13-digest.md").write_text(
+                _daily_report(
+                    "NIST publishes ML-KEM migration guidance",
+                    category="Crypto Agility",
+                    source="NIST",
+                    score=78,
+                    link="https://example.com/ml-kem",
+                ),
+                encoding="utf-8",
+            )
+
+            weekly = load_weekly_inputs(reports_path, date(2026, 5, 13), date(2026, 5, 13))
+
+        self.assertEqual(weekly.missing_dates, [])
+        self.assertEqual(len(weekly.reports), 1)
+        self.assertEqual(weekly.reports[0].path.parent.name, "2026-05")
 
     def test_parse_daily_report_extracts_entries(self) -> None:
         with TemporaryDirectory() as reports_dir:

@@ -268,9 +268,8 @@ def write_daily_digest(
     min_topic_confidence: int = DEFAULT_MIN_TOPIC_CONFIDENCE,
 ) -> Path:
     report_date = report_date or (summary.target_date if summary else operational_today())
-    reports_path = Path(reports_dir)
-    reports_path.mkdir(parents=True, exist_ok=True)
-    output_path = reports_path / f"{report_date.isoformat()}-digest.md"
+    output_path = daily_digest_path(reports_dir, report_date)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
         render_digest(
             items,
@@ -285,6 +284,14 @@ def write_daily_digest(
         encoding="utf-8",
     )
     return output_path
+
+
+def daily_digest_relative_path(report_date: date) -> Path:
+    return Path(f"{report_date:%Y-%m}") / f"{report_date.isoformat()}-digest.md"
+
+
+def daily_digest_path(reports_dir: str | Path, report_date: date) -> Path:
+    return Path(reports_dir) / daily_digest_relative_path(report_date)
 
 
 def render_digest(

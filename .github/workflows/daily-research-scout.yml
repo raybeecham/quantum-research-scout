@@ -59,6 +59,7 @@ jobs:
           pwd
           ls -la
           ls -la reports
+          find reports -maxdepth 2 -type f -name "*.md" -print
           git status --short
           git ls-files reports
 
@@ -66,8 +67,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ls reports/*.md >/dev/null 2>&1; then
-            git add -f reports/*.md
+          if find reports -path reports/weekly -prune -o -name "*-digest.md" -print -quit | grep -q .; then
+            find reports -path reports/weekly -prune -o -name "*-digest.md" -exec git add -f {} +
           else
             echo "No Markdown reports found under reports/"
           fi
@@ -82,7 +83,9 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: pqc-quantum-research-digest
-          path: reports/*.md
+          path: |
+            reports/*-digest.md
+            reports/*/*-digest.md
           if-no-files-found: error
 
       - name: Upload SQLite database

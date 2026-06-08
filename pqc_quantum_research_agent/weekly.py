@@ -9,7 +9,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from .dates import OPERATIONAL_TIMEZONE_NAME, operational_today
-from .report import clean_report_title, truncate_at_word_boundary
+from .report import clean_report_title, daily_digest_path, truncate_at_word_boundary
 from .text import normalize_title, normalize_whitespace, strip_html
 
 DAILY_REPORT_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})-digest\.md$")
@@ -350,12 +350,12 @@ def _daily_report_dates(reports_dir: Path) -> list[date]:
     if not reports_dir.exists():
         return []
 
-    dates: list[date] = []
-    for path in reports_dir.glob("*-digest.md"):
+    dates: set[date] = set()
+    for path in reports_dir.glob("**/*-digest.md"):
         match = DAILY_REPORT_RE.match(path.name)
         if match:
-            dates.append(datetime.strptime(match.group(1), "%Y-%m-%d").date())
-    return dates
+            dates.add(datetime.strptime(match.group(1), "%Y-%m-%d").date())
+    return sorted(dates)
 
 
 def load_weekly_inputs(reports_dir: str | Path, start_date: date, end_date: date) -> WeeklyInputs:
@@ -364,13 +364,20 @@ def load_weekly_inputs(reports_dir: str | Path, start_date: date, end_date: date
     missing_dates: list[date] = []
     current = start_date
     while current <= end_date:
-        path = reports_path / f"{current.isoformat()}-digest.md"
+        path = _daily_report_path(reports_path, current)
         if path.exists():
             reports.append(parse_daily_report(path))
         else:
             missing_dates.append(current)
         current += timedelta(days=1)
     return WeeklyInputs(start_date=start_date, end_date=end_date, reports=reports, missing_dates=missing_dates)
+
+
+def _daily_report_path(reports_dir: Path, report_date: date) -> Path:
+    monthly_path = daily_digest_path(reports_dir, report_date)
+    if monthly_path.exists():
+        return monthly_path
+    return reports_dir / f"{report_date.isoformat()}-digest.md"
 
 
 def parse_daily_report(path: str | Path) -> ParsedDailyReport:

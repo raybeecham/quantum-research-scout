@@ -179,6 +179,7 @@ class ReportTests(unittest.TestCase):
             path = write_daily_digest([], reports_dir, summary=summary)
 
         self.assertEqual(path.name, "2026-05-12-digest.md")
+        self.assertEqual(path.parent.name, "2026-05")
 
     def test_strategic_signal_selection_caps_at_five_high_impact_items(self) -> None:
         titles = [

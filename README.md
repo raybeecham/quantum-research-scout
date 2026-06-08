@@ -30,7 +30,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - Applies institution/source weighting for high-signal sources such as NIST, CISA, PQCA Readiness Tracking, IBM Research, Google Quantum AI, Microsoft Research, Quantinuum, MIT, ETH Zurich, Caltech, Sandia, Los Alamos, Oak Ridge, IonQ, Rigetti, and QuEra.
 - Gates institution/source boosts behind topical confidence so unrelated source content does not enter PQC or quantum briefings on source reputation alone.
 - Stores results in SQLite.
-- Writes a curated daily Markdown digest to `reports/` for items published during the current America/Chicago report day.
+- Writes a curated daily Markdown digest to `reports/YYYY-MM/` for items published during the current America/Chicago report day.
 - Writes a deterministic weekly synthesis to `reports/weekly/` from existing daily Markdown digests.
 - Runs daily through GitHub Actions.
 
@@ -38,7 +38,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 
 Recent digest:
 
-- [PQC and Quantum Research Digest - 2026-05-13](reports/2026-05-13-digest.md)
+- [PQC and Quantum Research Digest - 2026-05-13](reports/2026-05/2026-05-13-digest.md)
 
 Each digest includes key takeaways, an executive summary, strategic signals, PQC/security signals, AI security signals, hardware/QEC signals, quantum networking signals, vendor watch items, and source warnings.
 
@@ -67,10 +67,10 @@ pqc-quantum-research-agent --config sources.yaml --db data/research_items.sqlite
 The command prints the path to the generated Markdown digest, for example:
 
 ```text
-reports/2026-05-12-digest.md
+reports/2026-05/2026-05-12-digest.md
 ```
 
-Weekly mode reads existing daily digest files from `reports/` and writes a consolidated weekly synthesis:
+Weekly mode reads existing daily digest files from month folders under `reports/` and writes a consolidated weekly synthesis:
 
 ```bash
 pqc-quantum-research-agent --reports-dir reports --weekly
@@ -103,7 +103,7 @@ pqc-quantum-research-agent --date 2026-05-12 --include-recent-undated --min-scor
 Report controls:
 
 - Default daily mode uses the current America/Chicago report date and covers `00:00 America/Chicago` through runtime.
-- `--weekly`: generate a weekly intelligence synthesis from existing `reports/YYYY-MM-DD-digest.md` files without collecting sources or touching SQLite.
+- `--weekly`: generate a weekly intelligence synthesis from existing `reports/YYYY-MM/YYYY-MM-DD-digest.md` files without collecting sources or touching SQLite. Legacy flat `reports/YYYY-MM-DD-digest.md` files are also accepted while migrating older archives.
 - `--week-start YYYY-MM-DD` and `--week-end YYYY-MM-DD`: optional weekly synthesis bounds. If omitted, weekly mode uses the current America/Chicago Monday-through-Sunday week when daily reports exist there, otherwise it falls back to the latest populated report week.
 - `--lookback-hours`: optional rolling coverage window length. When provided, this overrides Central day-to-runtime filtering.
 - `--date YYYY-MM-DD`: backfill or test a specific operational report date.
@@ -229,9 +229,9 @@ SQLite records are written to `research_items` with:
 
 The workflow in `.github/workflows/daily-research-scout.yml` runs every day at `00:00 UTC` in default daily mode, which is `7:00 PM` US Central Time during daylight saving time, and can also be started manually with `workflow_dispatch`. Scheduled runs use the default Central report-day coverage window from midnight to runtime.
 
-It restores the prior SQLite database from the Actions cache, runs the scout, commits changed Markdown reports in `reports/` back to `main`, then uploads both the Markdown digest and SQLite database as workflow artifacts. Markdown digest files are intentionally tracked; SQLite database files remain ignored and are not committed. The workflow needs `contents: write` permission for the built-in `GITHUB_TOKEN`, and branch protection must allow the GitHub Actions bot to push these report commits.
+It restores the prior SQLite database from the Actions cache, runs the scout, commits changed Markdown reports in monthly `reports/YYYY-MM/` folders back to `main`, then uploads both the Markdown digest and SQLite database as workflow artifacts. Markdown digest files are intentionally tracked; SQLite database files remain ignored and are not committed. The workflow needs `contents: write` permission for the built-in `GITHUB_TOKEN`, and branch protection must allow the GitHub Actions bot to push these report commits.
 
-The workflow in `.github/workflows/weekly-research-synthesis.yml` runs at `01:00 UTC` on Mondays, intended as Sunday night US Central after the daily digest has run. It reads committed daily digest files from `reports/`, writes the weekly synthesis to `reports/weekly/`, commits changed weekly Markdown reports back to `main`, and uploads the weekly report as an artifact. It can also be started manually with `workflow_dispatch`.
+The workflow in `.github/workflows/weekly-research-synthesis.yml` runs at `01:00 UTC` on Mondays, intended as Sunday night US Central after the daily digest has run. It reads committed daily digest files from monthly folders under `reports/`, writes the weekly synthesis to `reports/weekly/`, commits changed weekly Markdown reports back to `main`, and uploads the weekly report as an artifact. It can also be started manually with `workflow_dispatch`.
 
 The workflow uses Node.js 24-compatible GitHub Action majors and sets `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true` so compatibility is exercised now. GitHub-hosted `ubuntu-latest` runners satisfy this automatically; self-hosted runners should use Actions Runner `v2.327.1` or later for Node.js 24 JavaScript actions.
 
@@ -247,7 +247,7 @@ pqc_quantum_research_agent/
   report.py         # Markdown digest rendering
   weekly.py         # weekly synthesis parsing and rendering
 sources.yaml        # default sources and runtime settings
-reports/            # generated Markdown digests
+reports/YYYY-MM/    # generated daily Markdown digests by month
 reports/weekly/     # generated weekly synthesis reports
 data/               # generated SQLite database
 ```
