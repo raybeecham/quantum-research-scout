@@ -42,10 +42,25 @@ rss_feeds:
     url: "https://www.cisa.gov/cybersecurity-advisories/all.xml"
   - name: "PQCA Readiness Tracking"
     url: "https://lists.pqca.org/g/wg-readiness-tracking/rss"
+  - name: "PQCA Blog and News"
+    url: "https://pqca.org/feed/"
+    max_items: 25
+  - name: "NCSC UK Guidance"
+    url: "https://www.ncsc.gov.uk/api/1/services/v1/guidance-rss-feed.xml"
+    max_items: 25
+  - name: "NCSC UK News"
+    url: "https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml"
+    max_items: 25
+  - name: "NCSC UK Reports"
+    url: "https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml"
+    max_items: 25
   - name: "Google Security Blog"
     url: "https://security.googleblog.com/feeds/posts/default"
   - name: "AWS Quantum Technologies Blog"
     url: "https://aws.amazon.com/blogs/quantum-computing/feed/"
+  - name: "InfoQ Quantum Computing"
+    url: "https://feed.infoq.com/quantumcomputing/news/"
+    max_items: 25
   - name: "DigiCert Blog"
     url: "https://www.digicert.com/blog/feed/"
   - name: "Keyfactor Blog"
@@ -62,6 +77,10 @@ urls:
     url: "https://csrc.nist.gov/projects/post-quantum-cryptography"
   - name: "NSA Cybersecurity Advisories"
     url: "https://www.nsa.gov/Press-Room/News-Highlights/cybersecurity-advisories-guidance/"
+  - name: "IETF PQUIP"
+    url: "https://datatracker.ietf.org/group/pquip/about/"
+  - name: "Google Quantum AI"
+    url: "https://quantumai.google/"
   - name: "Open Quantum Safe"
     url: "https://openquantumsafe.org/news/"
   - name: "Cloudflare Post-Quantum Blog"
