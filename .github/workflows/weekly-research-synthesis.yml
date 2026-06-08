@@ -46,11 +46,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ls reports/weekly/*.md >/dev/null 2>&1; then
-            git add -f reports/weekly/*.md
-          else
-            echo "No weekly Markdown reports found under reports/weekly/"
-          fi
+          git add -A reports/weekly
           if git diff --cached --quiet; then
             echo "No weekly report changes to commit"
           else
@@ -62,5 +58,7 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: pqc-quantum-weekly-synthesis
-          path: reports/weekly/*.md
+          path: |
+            reports/weekly/*-weekly.md
+            reports/weekly/*/*-weekly.md
           if-no-files-found: error

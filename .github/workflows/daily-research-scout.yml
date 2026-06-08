@@ -49,7 +49,9 @@ jobs:
           pqc-quantum-research-agent \
             --config sources.yaml \
             --db data/research_items.sqlite \
-            --reports-dir "$REPORTS_DIR"
+            --reports-dir "$REPORTS_DIR" \
+            --prune-daily-reports \
+            --retention-days 180
 
       - name: Announce report commit
         run: echo "Checking generated reports for repository commit"
@@ -59,7 +61,7 @@ jobs:
           pwd
           ls -la
           ls -la reports
-          find reports -maxdepth 2 -type f -name "*.md" -print
+          find reports -maxdepth 3 -type f -name "*.md" -print
           git status --short
           git ls-files reports
 
@@ -67,11 +69,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if find reports -path reports/weekly -prune -o -name "*-digest.md" -print -quit | grep -q .; then
-            find reports -path reports/weekly -prune -o -name "*-digest.md" -exec git add -f {} +
-          else
-            echo "No Markdown reports found under reports/"
-          fi
+          git add -A reports
           if git diff --cached --quiet; then
             echo "No report changes to commit"
           else

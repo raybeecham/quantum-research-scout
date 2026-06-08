@@ -312,11 +312,18 @@ def write_weekly_report(
     weekly_inputs = load_weekly_inputs(reports_path, start_date, end_date)
     content = render_weekly_report(weekly_inputs)
 
-    output_dir = reports_path / "weekly"
-    output_dir.mkdir(parents=True, exist_ok=True)
-    output_path = output_dir / f"{start_date.isoformat()}_to_{end_date.isoformat()}-weekly.md"
+    output_path = weekly_report_path(reports_path, start_date, end_date)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(content, encoding="utf-8")
     return output_path
+
+
+def weekly_report_relative_path(start_date: date, end_date: date) -> Path:
+    return Path("weekly") / f"{start_date:%Y}" / f"{start_date.isoformat()}_to_{end_date.isoformat()}-weekly.md"
+
+
+def weekly_report_path(reports_dir: str | Path, start_date: date, end_date: date) -> Path:
+    return Path(reports_dir) / weekly_report_relative_path(start_date, end_date)
 
 
 def resolve_week_range_for_reports(

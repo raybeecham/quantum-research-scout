@@ -13,6 +13,7 @@ from .date_filter import COVERAGE_WINDOW_INCLUDED_STATUSES, apply_date_filter, b
 from .dates import OPERATIONAL_TIMEZONE_NAME, operational_today
 from .dedupe import dedupe_items, prepare_identity
 from .report import is_report_relevant, select_report_items, write_daily_digest
+from .retention import prune_daily_reports
 from .storage import ResearchStore
 from .weekly import write_weekly_report
 
@@ -55,6 +56,17 @@ def build_parser() -> argparse.ArgumentParser:
         "--historical",
         action="store_true",
         help="Disable coverage-window publication-date filtering and allow all discovered items into report selection.",
+    )
+    parser.add_argument(
+        "--prune-daily-reports",
+        action="store_true",
+        help="After writing a daily digest, delete daily digest files older than --retention-days.",
+    )
+    parser.add_argument(
+        "--retention-days",
+        type=int,
+        default=180,
+        help="Daily digest retention window used with --prune-daily-reports. Weekly reports are not pruned.",
     )
     parser.add_argument("--since-days", type=int, default=None, help=argparse.SUPPRESS)
     parser.add_argument("--days-back", type=int, default=None, help=argparse.SUPPRESS)
@@ -247,6 +259,20 @@ def main(argv: list[str] | None = None) -> int:
         min_topic_confidence=config.settings.min_topic_confidence,
     )
     LOGGER.info("Wrote digest to %s", report_path)
+    if args.prune_daily_reports:
+        try:
+            deleted_reports = prune_daily_reports(
+                Path(args.reports_dir),
+                reference_date=target_date,
+                retention_days=args.retention_days,
+            )
+        except ValueError as exc:
+            raise SystemExit(str(exc)) from exc
+        LOGGER.info(
+            "Pruned %d daily digest(s) older than %d day(s); weekly reports were left intact",
+            len(deleted_reports),
+            args.retention_days,
+        )
     print(report_path)
     return 0
 

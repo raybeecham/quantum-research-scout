@@ -126,6 +126,8 @@ class WeeklyReportTests(unittest.TestCase):
             )
 
         self.assertEqual(output_path.name, "2026-05-11_to_2026-05-17-weekly.md")
+        self.assertEqual(output_path.parent.name, "2026")
+        self.assertEqual(output_path.parent.parent.name, "weekly")
 
     def test_load_weekly_inputs_reads_monthly_daily_reports(self) -> None:
         with TemporaryDirectory() as reports_dir:
@@ -241,6 +243,7 @@ class WeeklyReportTests(unittest.TestCase):
             content = output_path.read_text(encoding="utf-8")
 
         self.assertEqual(output_path.name, "2026-05-12_to_2026-05-13-weekly.md")
+        self.assertEqual(output_path.parent.name, "2026")
         self.assertIn("# PQC and Quantum Weekly Intelligence Synthesis - 2026-05-12 to 2026-05-13", content)
         self.assertIn("## Strategic Themes", content)
         self.assertIn("## Top Strategic Signals", content)

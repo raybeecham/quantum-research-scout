@@ -31,7 +31,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - Gates institution/source boosts behind topical confidence so unrelated source content does not enter PQC or quantum briefings on source reputation alone.
 - Stores results in SQLite.
 - Writes a curated daily Markdown digest to `reports/YYYY-MM/` for items published during the current America/Chicago report day.
-- Writes a deterministic weekly synthesis to `reports/weekly/` from existing daily Markdown digests.
+- Writes a deterministic weekly synthesis to `reports/weekly/YYYY/` from existing daily Markdown digests.
 - Runs daily through GitHub Actions.
 
 ## Example Output
@@ -85,7 +85,7 @@ pqc-quantum-research-agent --reports-dir reports --weekly --week-start 2026-05-1
 Weekly reports are stored under:
 
 ```text
-reports/weekly/YYYY-MM-DD_to_YYYY-MM-DD-weekly.md
+reports/weekly/YYYY/YYYY-MM-DD_to_YYYY-MM-DD-weekly.md
 ```
 
 For a quick preview without writing the database or report:
@@ -110,6 +110,8 @@ Report controls:
 - `--include-undated`: retained for compatibility; rolling daily reports keep undated items excluded unless `--include-recent-undated` is set.
 - `--include-recent-undated`: include undated items discovered inside the coverage window when they contain strong PQC/quantum keywords. These render with publication date `UNKNOWN` and low date confidence.
 - `--historical`: disable coverage-window publication-date filtering and allow all discovered items into report selection.
+- `--prune-daily-reports`: after writing a daily digest, delete daily digest files older than `--retention-days`.
+- `--retention-days`: daily digest retention window used with `--prune-daily-reports`. The default is `180`; weekly reports are not pruned.
 - `--min-score`: minimum score for inclusion in the Markdown report.
 - `--min-topic-confidence`: minimum topical-confidence score for report inclusion. The default is `4`.
 - `--top-n`: maximum number of scored items shown in the Markdown report. The default is `15`.
@@ -119,6 +121,8 @@ Report controls:
 - `--keyword-weights`: optional keyword weighting YAML. The default path is `keyword_weights.yaml`.
 
 The report filters do not limit SQLite storage. The agent still saves every new unique classified item from the run, including older, future-dated, and undated discoveries, then applies coverage-window, score, and topical-confidence filters only when writing the digest. Daily digests are built from eligible current-report-day candidates in the current run, so already-seen same-day items can still appear even when SQLite suppresses duplicate storage. Use `--lookback-hours 24` for the previous rolling 24-hour behavior.
+
+Scheduled daily runs prune daily Markdown digests older than 180 days after the new digest is written. Weekly synthesis reports are kept indefinitely as the long-term archive.
 
 Institution/source weights are applied only after the classifier sees strong topical evidence for PQC, quantum technology, or AI security. This prevents unrelated items from broad institutional feeds, such as non-cryptographic NIST posts, from being promoted into the briefing.
 
@@ -229,9 +233,9 @@ SQLite records are written to `research_items` with:
 
 The workflow in `.github/workflows/daily-research-scout.yml` runs every day at `00:00 UTC` in default daily mode, which is `7:00 PM` US Central Time during daylight saving time, and can also be started manually with `workflow_dispatch`. Scheduled runs use the default Central report-day coverage window from midnight to runtime.
 
-It restores the prior SQLite database from the Actions cache, runs the scout, commits changed Markdown reports in monthly `reports/YYYY-MM/` folders back to `main`, then uploads both the Markdown digest and SQLite database as workflow artifacts. Markdown digest files are intentionally tracked; SQLite database files remain ignored and are not committed. The workflow needs `contents: write` permission for the built-in `GITHUB_TOKEN`, and branch protection must allow the GitHub Actions bot to push these report commits.
+It restores the prior SQLite database from the Actions cache, runs the scout, prunes daily Markdown digests older than 180 days, commits changed Markdown reports in monthly `reports/YYYY-MM/` folders back to `main`, then uploads both the Markdown digest and SQLite database as workflow artifacts. Markdown digest files are intentionally tracked; SQLite database files remain ignored and are not committed. The workflow needs `contents: write` permission for the built-in `GITHUB_TOKEN`, and branch protection must allow the GitHub Actions bot to push these report commits.
 
-The workflow in `.github/workflows/weekly-research-synthesis.yml` runs at `01:00 UTC` on Mondays, intended as Sunday night US Central after the daily digest has run. It reads committed daily digest files from monthly folders under `reports/`, writes the weekly synthesis to `reports/weekly/`, commits changed weekly Markdown reports back to `main`, and uploads the weekly report as an artifact. It can also be started manually with `workflow_dispatch`.
+The workflow in `.github/workflows/weekly-research-synthesis.yml` runs at `01:00 UTC` on Mondays, intended as Sunday night US Central after the daily digest has run. It reads committed daily digest files from monthly folders under `reports/`, writes the weekly synthesis to `reports/weekly/YYYY/`, commits changed weekly Markdown reports back to `main`, and uploads the weekly report as an artifact. It can also be started manually with `workflow_dispatch`.
 
 The workflow uses Node.js 24-compatible GitHub Action majors and sets `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true` so compatibility is exercised now. GitHub-hosted `ubuntu-latest` runners satisfy this automatically; self-hosted runners should use Actions Runner `v2.327.1` or later for Node.js 24 JavaScript actions.
 
@@ -248,6 +252,6 @@ pqc_quantum_research_agent/
   weekly.py         # weekly synthesis parsing and rendering
 sources.yaml        # default sources and runtime settings
 reports/YYYY-MM/    # generated daily Markdown digests by month
-reports/weekly/     # generated weekly synthesis reports
+reports/weekly/YYYY/ # generated weekly synthesis reports by year
 data/               # generated SQLite database
 ```
