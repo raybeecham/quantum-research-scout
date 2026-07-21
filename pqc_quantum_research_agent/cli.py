@@ -16,6 +16,8 @@ from .report import is_report_relevant, select_report_items, write_daily_digest
 from .retention import prune_daily_reports
 from .monthly import write_monthly_report
 from .report_index import write_report_index
+from .signals import write_signal_tracker
+from .source_health import write_source_health_report
 from .storage import ResearchStore
 from .weekly import write_weekly_report
 
@@ -34,6 +36,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--monthly", action="store_true", help="Generate a monthly synthesis from existing daily reports.")
     parser.add_argument("--month", default=None, help="Monthly synthesis target in YYYY-MM format; defaults to last month.")
     parser.add_argument("--update-report-index", action="store_true", help="Refresh reports/README.md after report generation.")
+    parser.add_argument(
+        "--update-intelligence-tracking",
+        action="store_true",
+        help="Refresh the persistent signal tracker and rolling source-health report after daily generation.",
+    )
     parser.add_argument("--week-start", default=None, help="Weekly synthesis start date in YYYY-MM-DD format.")
     parser.add_argument("--week-end", default=None, help="Weekly synthesis end date in YYYY-MM-DD format.")
     parser.add_argument(
@@ -293,6 +300,9 @@ def main(argv: list[str] | None = None) -> int:
             len(deleted_reports),
             args.retention_days,
         )
+    if args.update_intelligence_tracking:
+        write_signal_tracker(Path(args.reports_dir))
+        write_source_health_report(Path(args.reports_dir), args.config)
     if args.update_report_index:
         write_report_index(Path(args.reports_dir))
     print(report_path)

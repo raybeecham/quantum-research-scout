@@ -1,12 +1,17 @@
 # Research Report Index
 
-_Updated 2026-07-21 05:33 UTC_
+_Updated 2026-07-21 05:55 UTC_
 
 ## Latest Reports
 
 - Daily: [2026-07-20-digest](2026-07/2026-07-20-digest.md)
 - Weekly: [2026-07-13_to_2026-07-19-weekly](weekly/2026/2026-07-13_to_2026-07-19-weekly.md)
 - Monthly: [2026-06-monthly](monthly/2026/2026-06-monthly.md)
+
+## Intelligence Tracking
+
+- Persistent signals: [signals](signals.md)
+- Source health: [source-health](source-health.md)
 
 ## Current High-Priority Themes
 

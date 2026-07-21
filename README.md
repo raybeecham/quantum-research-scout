@@ -13,7 +13,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 ## What It Does
 
 - Collects papers and articles from arXiv, IACR ePrint, RSS feeds, and configured URLs.
-- Includes default sources for The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, NIST CSRC, CISA, PQCA Readiness Tracking, NSA, Open Quantum Safe, Cloudflare, Google Security, IBM Quantum, Microsoft Quantum, AWS Braket, IonQ, Quantinuum, Rigetti, PQShield, SandboxAQ, DigiCert, Keyfactor, Thales, and Entrust.
+- Includes default source definitions for The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, NIST CSRC, CISA, PQCA, Open Quantum Safe, Cloudflare, Google Security, IBM Quantum, Microsoft Quantum, AWS, IonQ, Quantinuum, Rigetti, PQShield, SandboxAQ, DigiCert, Thales, and others. Sources that consistently reject automation remain documented but disabled.
 - Deduplicates by canonical URL, title hash, and fuzzy title similarity.
 - Classifies each item into:
   - PQC
@@ -33,15 +33,20 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - Writes a curated daily Markdown digest to `reports/YYYY-MM/` for items published during the current America/Chicago report day.
 - Writes a deterministic weekly synthesis to `reports/weekly/YYYY/` from existing daily Markdown digests.
 - Writes a deterministic monthly synthesis to `reports/monthly/YYYY/` and maintains `reports/README.md` as the archive index.
+- Maintains a persistent, deduplicated signal ledger in `reports/signals.json` with a human-readable momentum dashboard in `reports/signals.md`.
+- Publishes rolling source reliability, expected idle periods, disabled sources, and recent active warnings in `reports/source-health.md`.
 - Runs daily through GitHub Actions.
 
-## Example Output
+## Start Here
 
-Recent digest:
+- [Report index](reports/README.md) — latest daily, weekly, and monthly reports plus archive navigation
+- [Persistent signal tracker](reports/signals.md) — momentum, importance, confidence, status, follow-up, and evidence
+- [Source health](reports/source-health.md) — rolling reliability, expected idle periods, disabled sources, and active warnings
+- [Latest daily digest](reports/2026-07/2026-07-20-digest.md)
+- [Latest weekly synthesis](reports/weekly/2026/2026-07-13_to_2026-07-19-weekly.md)
+- [Latest completed monthly synthesis](reports/monthly/2026/2026-06-monthly.md)
 
-- [PQC and Quantum Research Digest - 2026-05-13](reports/2026-05/2026-05-13-digest.md)
-
-Each digest includes key takeaways, an executive summary, strategic signals, PQC/security signals, AI security signals, hardware/QEC signals, quantum networking signals, vendor watch items, and source warnings.
+Daily reports provide the evidence stream. Weekly and monthly syntheses reduce repetition, while the persistent signal ledger tracks whether themes are rising, stable, declining, actionable, or stale. Daily files use a rolling 30-day retention window; synthesis reports and deduplicated signal evidence are retained as the long-term record.
 
 ## Setup
 
@@ -59,10 +64,11 @@ source .venv/bin/activate
 
 ## Run Locally
 
-Daily mode collects sources, writes SQLite, and generates one daily digest:
+Daily mode collects sources, writes SQLite, and generates one daily digest. The scheduled form also prunes old daily files and refreshes intelligence tracking:
 
 ```bash
 pqc-quantum-research-agent --config sources.yaml --db data/research_items.sqlite --reports-dir reports
+pqc-quantum-research-agent --config sources.yaml --db data/research_items.sqlite --reports-dir reports --prune-daily-reports --retention-days 30 --update-intelligence-tracking --update-report-index
 ```
 
 The command prints the path to the generated Markdown digest, for example:
@@ -117,6 +123,7 @@ Report controls:
 - `--week-start YYYY-MM-DD` and `--week-end YYYY-MM-DD`: optional weekly synthesis bounds. If omitted, weekly mode uses the current America/Chicago Monday-through-Sunday week when daily reports exist there, otherwise it falls back to the latest populated report week.
 - `--monthly` and `--month YYYY-MM`: generate a monthly synthesis; the target defaults to the prior month.
 - `--update-report-index`: refresh the navigable report archive index after report generation.
+- `--update-intelligence-tracking`: after daily generation, merge retained evidence into the persistent signal ledger and refresh source health.
 - `--lookback-hours`: optional rolling coverage window length. When provided, this overrides Central day-to-runtime filtering.
 - `--date YYYY-MM-DD`: backfill or test a specific operational report date.
 - `--include-undated`: retained for compatibility; rolling daily reports keep undated items excluded unless `--include-recent-undated` is set.
@@ -135,6 +142,8 @@ Report controls:
 The report filters do not limit SQLite storage. The agent still saves every new unique classified item from the run, including older, future-dated, and undated discoveries, then applies coverage-window, score, and topical-confidence filters only when writing the digest. Daily digests are built from eligible current-report-day candidates in the current run, so already-seen same-day items can still appear even when SQLite suppresses duplicate storage. Use `--lookback-hours 24` for the previous rolling 24-hour behavior.
 
 Scheduled daily runs prune daily Markdown digests older than 30 days after the new digest is written. Weekly and monthly synthesis reports are kept indefinitely as the long-term archive.
+
+The signal ledger preserves deduplicated evidence beyond the daily retention window. Each theme records first/latest appearance, seven-day momentum versus the prior seven days, importance, confidence, status, leading sources, recommended follow-up, and supporting links. Source health uses retained daily warning history; empty weekend arXiv feeds are treated as expected idle periods rather than outages.
 
 Institution/source weights are applied only after the classifier sees strong topical evidence for PQC, quantum technology, or AI security. This prevents unrelated items from broad institutional feeds, such as non-cryptographic NIST posts, from being promoted into the briefing.
 
@@ -179,6 +188,19 @@ Each weekly synthesis includes:
 12. Source Coverage Summary
 
 Weekly synthesis is deterministic. It parses daily Markdown headings, metadata lines, scores, links, "Why it matters" text, and key points; deduplicates by URL, normalized title, title similarity, and company/topic clusters; then writes the consolidated briefing without requiring an LLM or API key.
+
+Monthly synthesis uses the same deterministic evidence pipeline across a calendar month. The signal tracker additionally persists deduplicated evidence in JSON so first-seen dates and historical support survive daily-report pruning.
+
+## Report Lifecycle
+
+| Output | Purpose | Retention | Updated by |
+|---|---|---|---|
+| Daily digest | Current evidence and collection diagnostics | 30 days | Daily workflow |
+| Weekly synthesis | Near-term themes and changes | Indefinite | Weekly workflow |
+| Monthly synthesis | Longer-horizon consolidation | Indefinite | Monthly workflow |
+| Signal tracker | Cross-report momentum and follow-up | Persistent ledger | Daily workflow |
+| Source health | Rolling collection reliability | Regenerated from retained dailies | Daily workflow |
+| Report index | Navigation and current priorities | Regenerated | All workflows |
 
 ## Configuration
 
@@ -245,7 +267,7 @@ SQLite records are written to `research_items` with:
 
 The workflow in `.github/workflows/daily-research-scout.yml` runs every day at `00:00 UTC` in default daily mode, which is `7:00 PM` US Central Time during daylight saving time, and can also be started manually with `workflow_dispatch`. Scheduled runs use the default Central report-day coverage window from midnight to runtime.
 
-It restores the prior SQLite database from the Actions cache, runs the scout, prunes daily Markdown digests older than 30 days, refreshes the report index, commits changed Markdown reports back to `main`, then uploads both the Markdown digest and SQLite database as workflow artifacts. Markdown digest files are intentionally tracked; SQLite database files remain ignored and are not committed. The workflow needs `contents: write` permission for the built-in `GITHUB_TOKEN`, and branch protection must allow the GitHub Actions bot to push these report commits.
+It restores the prior SQLite database from the Actions cache, runs the scout, prunes daily Markdown digests older than 30 days, updates the persistent signal ledger and source-health dashboard, refreshes the report index, commits changed report artifacts back to `main`, then uploads both the Markdown digest and SQLite database as workflow artifacts. Markdown and signal JSON artifacts are intentionally tracked; SQLite database files remain ignored and are not committed. The workflow needs `contents: write` permission for the built-in `GITHUB_TOKEN`, and branch protection must allow the GitHub Actions bot to push these report commits.
 
 The workflow in `.github/workflows/weekly-research-synthesis.yml` runs at `01:00 UTC` on Mondays, intended as Sunday night US Central after the daily digest has run. It reads committed daily digest files from monthly folders under `reports/`, writes the weekly synthesis to `reports/weekly/YYYY/`, commits changed weekly Markdown reports back to `main`, and uploads the weekly report as an artifact. It can also be started manually with `workflow_dispatch`.
 
@@ -266,8 +288,13 @@ pqc_quantum_research_agent/
   weekly.py         # weekly synthesis parsing and rendering
   monthly.py        # monthly synthesis generation
   report_index.py   # navigable report archive index
+  signals.py        # persistent signal ledger and momentum tracker
+  source_health.py  # rolling source reliability report
 sources.yaml        # default sources and runtime settings
 reports/README.md   # latest reports, themes, and archive summary
+reports/signals.json # durable deduplicated signal evidence
+reports/signals.md  # human-readable signal momentum and follow-up
+reports/source-health.md # rolling source reliability and warnings
 reports/YYYY-MM/    # generated daily Markdown digests by month
 reports/weekly/YYYY/ # generated weekly synthesis reports by year
 reports/monthly/YYYY/ # generated monthly synthesis reports by year

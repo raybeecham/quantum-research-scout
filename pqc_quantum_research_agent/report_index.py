@@ -31,6 +31,11 @@ def write_report_index(reports_dir: str | Path, *, generated_at: datetime | None
         f"- Weekly: {_link(reports_path, latest_weekly)}",
         f"- Monthly: {_link(reports_path, latest_monthly)}",
         "",
+        "## Intelligence Tracking",
+        "",
+        f"- Persistent signals: {_optional_link(reports_path, reports_path / 'signals.md')}",
+        f"- Source health: {_optional_link(reports_path, reports_path / 'source-health.md')}",
+        "",
         "## Current High-Priority Themes",
         "",
     ]
@@ -71,6 +76,10 @@ def _link(root: Path, path: Path | None) -> str:
         return "not available"
     relative = path.relative_to(root).as_posix()
     return f"[{path.stem}]({relative})"
+
+
+def _optional_link(root: Path, path: Path) -> str:
+    return _link(root, path) if path.exists() else "not available"
 
 
 def _extract_section_bullets(path: Path, heading: str, *, limit: int) -> list[str]:

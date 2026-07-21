@@ -15,11 +15,15 @@ class ReportIndexTests(unittest.TestCase):
             daily = reports / "2026-07" / "2026-07-20-digest.md"
             weekly = reports / "weekly" / "2026" / "2026-07-13_to_2026-07-19-weekly.md"
             monthly = reports / "monthly" / "2026" / "2026-06-monthly.md"
+            signals = reports / "signals.md"
+            source_health = reports / "source-health.md"
             for path in (daily, weekly, monthly):
                 path.parent.mkdir(parents=True, exist_ok=True)
             daily.write_text("# Daily\n", encoding="utf-8")
             weekly.write_text("# Weekly\n\n## Strategic Themes\n\n- PQC migration accelerated.\n\n## Next\n", encoding="utf-8")
             monthly.write_text("# Monthly\n", encoding="utf-8")
+            signals.write_text("# Signals\n", encoding="utf-8")
+            source_health.write_text("# Health\n", encoding="utf-8")
 
             output = write_report_index(
                 reports, generated_at=datetime(2026, 7, 21, 12, tzinfo=timezone.utc)
@@ -31,3 +35,5 @@ class ReportIndexTests(unittest.TestCase):
             self.assertIn("[2026-06-monthly](monthly/2026/2026-06-monthly.md)", content)
             self.assertIn("- PQC migration accelerated.", content)
             self.assertIn("Daily reports retained: **1**", content)
+            self.assertIn("[signals](signals.md)", content)
+            self.assertIn("[source-health](source-health.md)", content)

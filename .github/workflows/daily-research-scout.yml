@@ -57,6 +57,7 @@ jobs:
             --reports-dir "$REPORTS_DIR" \
             --prune-daily-reports \
             --retention-days "$RETENTION_DAYS" \
+            --update-intelligence-tracking \
             --update-report-index
 
       - name: Announce report commit
