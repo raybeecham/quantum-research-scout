@@ -44,6 +44,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - [Persistent signal tracker](reports/signals.md) — momentum, importance, confidence, status, follow-up, and evidence
 - [Source health](reports/source-health.md) — rolling reliability, expected idle periods, disabled sources, and active warnings
 - [Intelligence alerts](reports/alerts.md) — new actionable signals, rising momentum, critical themes, and source degradation
+- [Entity and technology watch](reports/entity-watch.md) — organization, standards, algorithm, and technology momentum
 - [Latest daily digest](reports/2026-07/2026-07-20-digest.md)
 - [Latest weekly synthesis](reports/weekly/2026/2026-07-13_to_2026-07-19-weekly.md)
 - [Latest completed monthly synthesis](reports/monthly/2026/2026-06-monthly.md)
@@ -67,6 +68,12 @@ The default rules cover:
 - Failing sources
 
 Daily automation writes `reports/alerts.md` and `reports/alerts.json`, includes the alert center in the dashboard, and publishes the Markdown alert summary in the GitHub Actions run summary.
+
+To deliver new alerts as GitHub Issues, create the repository Actions variable `ALERT_DELIVERY_GITHUB_ISSUES` with value `true`. Delivery is disabled by default. When enabled, one issue is created only when the current evaluation contains alerts not active in the previous state.
+
+## Entity and Technology Watchlists
+
+Edit `watchlists.yaml` to choose organizations, agencies, standards bodies, algorithms, and technologies to follow. Aliases are matched against evidence titles and source names, producing explainable profiles with first/latest appearance, momentum, status, associated themes, and supporting links. The dashboard also charts historical evidence activity with 30-day, 90-day, and all-history views.
 
 Build it locally with:
 
@@ -154,6 +161,7 @@ Report controls:
 - `--update-report-index`: refresh the navigable report archive index after report generation.
 - `--update-intelligence-tracking`: after daily generation, merge retained evidence into the persistent signal ledger and refresh source health.
 - `--alerts-config`: alert rules YAML used during intelligence tracking. The default is `alerts.yaml`.
+- `--watchlists-config`: entity and technology watchlist YAML. The default is `watchlists.yaml`.
 - `--lookback-hours`: optional rolling coverage window length. When provided, this overrides Central day-to-runtime filtering.
 - `--date YYYY-MM-DD`: backfill or test a specific operational report date.
 - `--include-undated`: retained for compatibility; rolling daily reports keep undated items excluded unless `--include-recent-undated` is set.
@@ -327,8 +335,10 @@ pqc_quantum_research_agent/
   signals.py        # persistent signal ledger and momentum tracker
   source_health.py  # rolling source reliability report
   alerts.py         # configurable stateful alert evaluation
+  entity_watch.py   # entity and technology evidence profiles
 sources.yaml        # default sources and runtime settings
 alerts.yaml         # alert rules and thresholds
+watchlists.yaml     # organizations and technologies to track
 reports/README.md   # latest reports, themes, and archive summary
 reports/signals.json # durable deduplicated signal evidence
 reports/signals.md  # human-readable signal momentum and follow-up
@@ -337,6 +347,8 @@ reports/source-health.json # structured source-health dashboard data
 reports/alerts.md   # human-readable active alert center
 reports/alerts.json # structured dashboard alert data
 reports/alerts-state.json # stable first-seen and deduplication state
+reports/entity-watch.md # human-readable watchlist profiles
+reports/entity-watch.json # structured dashboard watchlist data
 reports/YYYY-MM/    # generated daily Markdown digests by month
 reports/weekly/YYYY/ # generated weekly synthesis reports by year
 reports/monthly/YYYY/ # generated monthly synthesis reports by year

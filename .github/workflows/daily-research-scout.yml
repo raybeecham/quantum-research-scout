@@ -17,6 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write
 
     steps:
       - name: Check out repository
@@ -65,6 +66,17 @@ jobs:
           if [ -f reports/alerts.md ]; then
             cat reports/alerts.md >> "$GITHUB_STEP_SUMMARY"
           fi
+
+      - name: Prepare optional GitHub Issue alert
+        id: alert-issue
+        run: python scripts/prepare_alert_issue.py --github-output "$GITHUB_OUTPUT"
+
+      - name: Deliver new alerts as a GitHub Issue
+        if: vars.ALERT_DELIVERY_GITHUB_ISSUES == 'true' && steps.alert-issue.outputs.should_create == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ALERT_ISSUE_TITLE: ${{ steps.alert-issue.outputs.title }}
+        run: gh issue create --title "$ALERT_ISSUE_TITLE" --body-file alert-issue.md
 
       - name: Announce report commit
         run: echo "Checking generated reports for repository commit"

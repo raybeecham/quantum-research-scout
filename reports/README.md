@@ -2,7 +2,7 @@
 
 > **Quantum Research Scout** · Intelligence archive and operational dashboard
 
-_Updated 2026-07-21 07:04 UTC_
+_Updated 2026-07-21 07:23 UTC_
 
 [Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
 
@@ -19,6 +19,7 @@ _Updated 2026-07-21 07:04 UTC_
 - Persistent signals: [signals](signals.md)
 - Source health: [source-health](source-health.md)
 - Intelligence alerts: [alerts](alerts.md)
+- Entity and technology watch: [entity-watch](entity-watch.md)
 
 ## Current High-Priority Themes
 

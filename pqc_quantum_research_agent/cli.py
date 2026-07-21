@@ -19,6 +19,7 @@ from .report_index import write_report_index
 from .signals import write_signal_tracker
 from .source_health import write_source_health_report
 from .alerts import write_alerts
+from .entity_watch import write_entity_watch
 from .storage import ResearchStore
 from .weekly import write_weekly_report
 
@@ -43,6 +44,7 @@ def build_parser() -> argparse.ArgumentParser:
         help="Refresh the persistent signal tracker and rolling source-health report after daily generation.",
     )
     parser.add_argument("--alerts-config", default="alerts.yaml", help="Path to alert rules YAML file.")
+    parser.add_argument("--watchlists-config", default="watchlists.yaml", help="Path to entity and technology watchlists YAML file.")
     parser.add_argument("--week-start", default=None, help="Weekly synthesis start date in YYYY-MM-DD format.")
     parser.add_argument("--week-end", default=None, help="Weekly synthesis end date in YYYY-MM-DD format.")
     parser.add_argument(
@@ -304,6 +306,7 @@ def main(argv: list[str] | None = None) -> int:
         )
     if args.update_intelligence_tracking:
         write_signal_tracker(Path(args.reports_dir))
+        write_entity_watch(Path(args.reports_dir), args.watchlists_config)
         write_source_health_report(Path(args.reports_dir), args.config)
         write_alerts(Path(args.reports_dir), args.alerts_config)
     if args.update_report_index:

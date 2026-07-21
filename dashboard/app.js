@@ -1,4 +1,4 @@
-const state = { data: null, status: "all", query: "" };
+const state = { data: null, status: "all", query: "", trendDays: 30, watchType: "entities" };
 const icons = { rising: "↗", stable: "→", declining: "↘" };
 const definitions = {
   rising: "Latest seven-day evidence is at least 50% higher than the prior seven days.",
@@ -38,7 +38,31 @@ function render(){
   document.getElementById("signal-updated").textContent = `Updated ${formatDate(state.data.signals.updated_at)}`;
   document.getElementById("source-summary").textContent = `${healthy} of ${sources.length} active sources healthy`;
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
-  renderAlerts(alerts); renderSignals(); renderSources(sources); renderReports(state.data.reports);
+  renderTrend(); renderAlerts(alerts); renderSignals(); renderWatch(); renderSources(sources); renderReports(state.data.reports);
+}
+
+function renderTrend(){
+  const raw = state.data.signals.overall_trend || [];
+  if (!raw.length) { document.getElementById("trend-chart").innerHTML = "<p>No historical evidence is available yet.</p>"; return; }
+  const points = raw.map(item => ({ date: new Date(`${item.date}T00:00:00Z`), label: item.date, count: item.count }));
+  const latest = points[points.length - 1].date;
+  const cutoff = state.trendDays === "all" ? points[0].date : new Date(latest.getTime() - (Number(state.trendDays) - 1) * 86400000);
+  const filtered = points.filter(item => item.date >= cutoff);
+  const byDay = new Map(filtered.map(item => [item.label, item.count]));
+  const series = [];
+  for (let day = new Date(cutoff); day <= latest; day = new Date(day.getTime() + 86400000)) {
+    const label = day.toISOString().slice(0,10); series.push({ label, count: byDay.get(label) || 0 });
+  }
+  const max = Math.max(...series.map(item => item.count), 1), width = 1000, height = 220, pad = 28;
+  const x = index => pad + index * ((width - pad * 2) / Math.max(series.length - 1, 1));
+  const y = count => height - pad - count / max * (height - pad * 2);
+  const line = series.map((item,index) => `${index ? "L" : "M"}${x(index).toFixed(1)},${y(item.count).toFixed(1)}`).join(" ");
+  const area = `${line} L${x(series.length-1)},${height-pad} L${x(0)},${height-pad} Z`;
+  const grid = [0,.25,.5,.75,1].map(ratio => `<line class="trend-grid" x1="${pad}" y1="${y(max*ratio)}" x2="${width-pad}" y2="${y(max*ratio)}"/>`).join("");
+  document.getElementById("trend-chart").innerHTML = `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="trend-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#49d8d0" stop-opacity=".3"/><stop offset="1" stop-color="#49d8d0" stop-opacity="0"/></linearGradient></defs>${grid}<path class="trend-area" d="${area}"/><path class="trend-line" d="${line}"/><text class="trend-label" x="${pad}" y="${height-5}">${series[0].label}</text><text class="trend-label" text-anchor="end" x="${width-pad}" y="${height-5}">${series[series.length-1].label}</text></svg>`;
+  document.getElementById("trend-total").textContent = series.reduce((sum,item) => sum + item.count, 0);
+  const peak = series.reduce((best,item) => item.count > best.count ? item : best, series[0]);
+  document.getElementById("trend-peak").textContent = `${peak.count} · ${peak.label}`;
 }
 
 function renderAlerts(payload){
@@ -61,6 +85,15 @@ function renderSignals(){
     const list = document.getElementById(button.dataset.target); list.classList.toggle("open");
     button.textContent = list.classList.contains("open") ? "Hide evidence" : "View evidence";
   }));
+}
+
+function renderWatch(){
+  const payload = state.data.entity_watch || { entities: [], technologies: [] };
+  const items = payload[state.watchType] || [];
+  document.getElementById("watch-grid").innerHTML = items.length ? items.map(item => {
+    const evidence = item.evidence?.[0];
+    return `<article class="watch-card"><span class="watch-type">${escapeHtml(item.type || state.watchType)}</span><h3>${escapeHtml(item.name)}</h3><div class="badges"><span class="badge ${escapeHtml(item.momentum)}">${escapeHtml(item.momentum)}</span><span class="badge ${escapeHtml(item.priority)}">${escapeHtml(item.priority)}</span><span class="badge">${escapeHtml(item.status)}</span></div><div class="watch-stats"><div><span>Evidence</span><strong>${item.evidence_count}</strong></div><div><span>Recent</span><strong>${item.recent_count}</strong></div><div><span>Prior</span><strong>${item.prior_count}</strong></div></div><p class="themes">${escapeHtml((item.themes || []).slice(0,3).join(" · "))}</p>${evidence ? `<a class="watch-link" href="${escapeHtml(safeUrl(evidence.url))}">Latest evidence →</a>` : ""}</article>`;
+  }).join("") : "<p>No configured watch items have matched evidence yet.</p>";
 }
 
 function signalCard(item, index){
@@ -88,3 +121,5 @@ function renderReports(reports){
 
 document.getElementById("signal-search").addEventListener("input", event => { state.query = event.target.value; if(state.data) renderSignals(); });
 document.getElementById("status-filters").addEventListener("click", event => { if(!event.target.dataset.status) return; state.status = event.target.dataset.status; document.querySelectorAll("#status-filters button").forEach(x => x.classList.toggle("active", x === event.target)); if(state.data) renderSignals(); });
+document.getElementById("trend-ranges").addEventListener("click", event => { if(!event.target.dataset.days) return; state.trendDays = event.target.dataset.days === "all" ? "all" : Number(event.target.dataset.days); document.querySelectorAll("#trend-ranges button").forEach(x => x.classList.toggle("active", x === event.target)); if(state.data) renderTrend(); });
+document.getElementById("watch-tabs").addEventListener("click", event => { if(!event.target.dataset.watch) return; state.watchType = event.target.dataset.watch; document.querySelectorAll("#watch-tabs button").forEach(x => x.classList.toggle("active", x === event.target)); if(state.data) renderWatch(); });

@@ -6,13 +6,14 @@
   <meta name="description" content="PQC, quantum technology, and AI security intelligence dashboard">
   <title>Quantum Research Scout</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="components.css">
 </head>
 <body>
   <header class="hero">
     <nav class="nav shell" aria-label="Primary navigation">
       <a class="brand" href="#top"><span class="brand-mark">Q</span><span>Quantum Research Scout</span></a>
       <div class="nav-links">
-        <a href="#guide">Guide</a><a href="#alerts">Alerts</a><a href="#signals">Signals</a><a href="#sources">Sources</a><a href="#reports">Reports</a>
+        <a href="#guide">Guide</a><a href="#trends">Trends</a><a href="#alerts">Alerts</a><a href="#signals">Signals</a><a href="#watch">Watch</a><a href="#sources">Sources</a><a href="#reports">Reports</a>
         <a id="repo-link" class="button secondary" href="#">Repository</a>
       </div>
     </nav>
@@ -49,7 +50,17 @@
         <article><span class="guide-icon confidence">✓</span><div><h3>Confidence</h3><p>High means at least five evidence items from three sources; medium means at least two; low means one.</p></div></article>
         <article><span class="guide-icon degraded">!</span><div><h3>Source health</h3><p>Healthy has no warning days. Degraded retains at least 80% reliability; failing falls below 80%. Expected arXiv weekend idle days are excluded.</p></div></article>
         <article><span class="guide-icon new">N</span><div><h3>New alert</h3><p>The condition was not active during the prior alert evaluation. Persistent conditions remain active without repeatedly appearing as new.</p></div></article>
+        <article><span class="guide-icon actionable">A</span><div><h3>Active watch item</h3><p>An entity or technology appeared in supporting evidence within the last seven days.</p></div></article>
+        <article><span class="guide-icon high">Q</span><div><h3>Quiet / dormant</h3><p>Quiet means the last match was 8–30 days ago; dormant means more than 30 days without matched evidence.</p></div></article>
       </div>
+    </section>
+
+    <section id="trends" class="section trend-section">
+      <div class="section-heading"><div><p class="eyebrow">HISTORICAL ACTIVITY</p><h2>Evidence over time</h2></div><div id="trend-ranges" class="filters" aria-label="Trend date range"><button data-days="30" class="active">30 days</button><button data-days="90">90 days</button><button data-days="all">All</button></div></div>
+      <article class="trend-panel">
+        <div class="trend-summary"><div><span>Evidence in range</span><strong id="trend-total">—</strong></div><div><span>Peak day</span><strong id="trend-peak">—</strong></div></div>
+        <div id="trend-chart" class="trend-chart" role="img" aria-label="Daily evidence activity chart"></div>
+      </article>
     </section>
 
     <section id="alerts" class="section alerts-section">
@@ -66,6 +77,11 @@
         </div>
       </div>
       <div id="signal-grid" class="signal-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="watch" class="section watch-section">
+      <div class="section-heading"><div><p class="eyebrow">ENTITY WATCH</p><h2>Organizations and technologies</h2></div><div id="watch-tabs" class="filters" aria-label="Watchlist type"><button data-watch="entities" class="active">Organizations</button><button data-watch="technologies">Technologies</button></div></div>
+      <div id="watch-grid" class="watch-grid" aria-live="polite"></div>
     </section>
 
     <section id="sources" class="section">

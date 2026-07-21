@@ -1,0 +1,989 @@
+{
+  "configured_entities": 13,
+  "configured_technologies": 9,
+  "entities": [
+    {
+      "aliases": [
+        "National Institute of Standards and Technology"
+      ],
+      "evidence": [
+        {
+          "date": "2026-06-25",
+          "key": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key",
+          "report": "2026-06/2026-06-25-digest.md",
+          "score": 128,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
+          "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2026-06-25",
+      "latest_seen": "2026-06-25",
+      "momentum": "stable",
+      "name": "NIST",
+      "prior_count": 0,
+      "priority": "critical",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "government"
+    },
+    {
+      "aliases": [
+        "IBM Quantum",
+        "IBM Research"
+      ],
+      "evidence": [
+        {
+          "date": "2026-07-20",
+          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
+          "report": "2026-07/2026-07-20-digest.md",
+          "score": 14,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
+          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
+        },
+        {
+          "date": "2026-07-17",
+          "key": "https://quantumcomputingreport.com/ibm-improves-qubit-reset-by-25x-and-releases-qiskit-v2-5",
+          "report": "2026-07/2026-07-17-digest.md",
+          "score": 26,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "IBM Improves Qubit Reset by 25x and Releases Qiskit v2.5",
+          "url": "https://quantumcomputingreport.com/ibm-improves-qubit-reset-by-25x-and-releases-qiskit-v2-5"
+        },
+        {
+          "date": "2026-07-16",
+          "key": "https://thequantuminsider.com/2026/07/16/denise-ruffner-joins-haiqu-to-expand-quantum-software-adoption",
+          "report": "2026-07/2026-07-16-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Former IBM Quantum Executive Denise Ruffner Joins Haiqu to Expand Quantum Software Adoption",
+          "url": "https://thequantuminsider.com/2026/07/16/denise-ruffner-joins-haiqu-to-expand-quantum-software-adoption"
+        },
+        {
+          "date": "2026-07-15",
+          "key": "https://quantumzeitgeist.com/throughput-gain-ibm-quantums-reset",
+          "report": "2026-07/2026-07-15-digest.md",
+          "score": 36,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "25\u00d7 Throughput Gain From IBM Quantum\u2019s New Reset Design",
+          "url": "https://quantumzeitgeist.com/throughput-gain-ibm-quantums-reset"
+        },
+        {
+          "date": "2026-07-13",
+          "key": "https://quantumnews.ai/hardware/fabrication-challenges-for-ibm-heron-s-superconducting-qubits-in-2026",
+          "report": "2026-07/2026-07-13-digest.md",
+          "score": 27,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Fabrication Challenges for IBM Heron's Superconducting Qubits in 2026",
+          "url": "https://quantumnews.ai/hardware/fabrication-challenges-for-ibm-heron-s-superconducting-qubits-in-2026"
+        },
+        {
+          "date": "2026-07-07",
+          "key": "https://quantumzeitgeist.com/qubit-system-reconstructed-ibm-reduced",
+          "report": "2026-07/2026-07-07-digest.md",
+          "score": 45,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM: 10-Qubit System Reconstructed With Reduced Exponential Cost",
+          "url": "https://quantumzeitgeist.com/qubit-system-reconstructed-ibm-reduced"
+        },
+        {
+          "date": "2026-06-25",
+          "key": "https://quantumzeitgeist.com/qcd%e2%82%82-100-qubit-rensselaer-ibm",
+          "report": "2026-06/2026-06-25-digest.md",
+          "score": 61,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Rensselaer & IBM Quantum Network Map QCD\u2082 on 100+ Qubit Chip",
+          "url": "https://quantumzeitgeist.com/qcd%e2%82%82-100-qubit-rensselaer-ibm"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://quantumzeitgeist.com/quantum-simulation-qcd%e2%82%82-ibm-maps",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 39,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantum Simulation Maps QCD\u2082 Interaction on 100+ Qubit IBM Chip",
+          "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%e2%82%82-ibm-maps"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 34,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantum Simulation Maps QCD\u2082 Interaction on 100+ Qubit IBM Chip",
+          "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
+        }
+      ],
+      "evidence_count": 9,
+      "first_seen": "2026-06-23",
+      "latest_seen": "2026-07-20",
+      "momentum": "rising",
+      "name": "IBM",
+      "prior_count": 2,
+      "priority": "high",
+      "recent_count": 4,
+      "status": "active",
+      "themes": [
+        "Quantum Hardware",
+        "Quantum Networking",
+        "Quantum Software / Tooling"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "evidence": [
+        {
+          "date": "2026-07-09",
+          "key": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
+          "report": "2026-07/2026-07-09-digest.md",
+          "score": 139,
+          "source": "Cloudflare Post-Quantum Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why we cannot wait for better post-quantum signature algorithms",
+          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://blog.cloudflare.com/post-quantum-eo-2026",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 50,
+          "source": "Cloudflare Post-Quantum Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
+          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
+        }
+      ],
+      "evidence_count": 2,
+      "first_seen": "2026-06-23",
+      "latest_seen": "2026-07-09",
+      "momentum": "declining",
+      "name": "Cloudflare",
+      "prior_count": 1,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "evidence": [
+        {
+          "date": "2026-07-20",
+          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
+          "report": "2026-07/2026-07-20-digest.md",
+          "score": 14,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
+          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://quantumzeitgeist.com/quantinuum-qnt",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 45,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum (QNT): A Commercial History",
+          "url": "https://quantumzeitgeist.com/quantinuum-qnt"
+        }
+      ],
+      "evidence_count": 2,
+      "first_seen": "2026-06-22",
+      "latest_seen": "2026-07-20",
+      "momentum": "rising",
+      "name": "Quantinuum",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "Quantum Hardware"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Google Quantum",
+        "Google AI Quantum"
+      ],
+      "evidence": [
+        {
+          "date": "2026-06-27",
+          "key": "https://quantumzeitgeist.com/google-quantum-computing",
+          "report": "2026-06/2026-06-27-digest.md",
+          "score": 51,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Google Quantum Computing",
+          "url": "https://quantumzeitgeist.com/google-quantum-computing"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2026-06-27",
+      "latest_seen": "2026-06-27",
+      "momentum": "stable",
+      "name": "Google Quantum AI",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "Quantum Hardware"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "evidence": [
+        {
+          "date": "2026-06-22",
+          "key": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 24,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Fixstars Amplify adds IonQ\u2019s Quantum Computing Environment to its Standard Machines",
+          "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2026-06-22",
+      "latest_seen": "2026-06-22",
+      "momentum": "stable",
+      "name": "IonQ",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "Quantum Software / Tooling"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Microsoft Research Quantum"
+      ],
+      "evidence": [
+        {
+          "date": "2026-06-25",
+          "key": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key",
+          "report": "2026-06/2026-06-25-digest.md",
+          "score": 128,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
+          "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2026-06-25",
+      "latest_seen": "2026-06-25",
+      "momentum": "stable",
+      "name": "Microsoft Quantum",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Amazon Web Services",
+        "AWS Braket"
+      ],
+      "evidence": [
+        {
+          "date": "2026-07-20",
+          "key": "https://aws.amazon.com/blogs/quantum-computing/a-framework-for-quantum-classical-integration-decisions",
+          "report": "2026-07/2026-07-20-digest.md",
+          "score": 53,
+          "source": "AWS Quantum Technologies Blog",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "A framework for quantum-classical integration decisions",
+          "url": "https://aws.amazon.com/blogs/quantum-computing/a-framework-for-quantum-classical-integration-decisions"
+        },
+        {
+          "date": "2026-07-15",
+          "key": "https://thequantuminsider.com/2026/07/15/qusecure-quprotect-r3-listed-in-aws-icmp-for-the-us-federal-government",
+          "report": "2026-07/2026-07-15-digest.md",
+          "score": 59,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure Lists QuProtect R3 on AWS Marketplace for U.S. Intelligence Community",
+          "url": "https://thequantuminsider.com/2026/07/15/qusecure-quprotect-r3-listed-in-aws-icmp-for-the-us-federal-government"
+        },
+        {
+          "date": "2026-07-01",
+          "key": "https://quantumzeitgeist.com/quantum-computing-security-aws-post",
+          "report": "2026-07/2026-07-01-digest.md",
+          "score": 88,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "AWS Builds for Quantum Computing & Post-Quantum Security Mandates",
+          "url": "https://quantumzeitgeist.com/quantum-computing-security-aws-post"
+        },
+        {
+          "date": "2026-06-24",
+          "key": "https://thequantuminsider.com/2026/06/24/classiq-and-hatch-advance-quantum-chemistry-in-singapore-running-on-aws",
+          "report": "2026-06/2026-06-24-digest.md",
+          "score": 24,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Classiq and Hatch Advance Quantum Chemistry with AWS and Amazon Braket",
+          "url": "https://thequantuminsider.com/2026/06/24/classiq-and-hatch-advance-quantum-chemistry-in-singapore-running-on-aws"
+        }
+      ],
+      "evidence_count": 4,
+      "first_seen": "2026-06-24",
+      "latest_seen": "2026-07-20",
+      "momentum": "rising",
+      "name": "AWS",
+      "prior_count": 0,
+      "priority": "medium",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Software / Tooling"
+      ],
+      "type": "company"
+    }
+  ],
+  "technologies": [
+    {
+      "aliases": [
+        "QEC",
+        "surface code",
+        "quantum LDPC"
+      ],
+      "evidence": [
+        {
+          "date": "2026-07-18",
+          "key": "https://quantumzeitgeist.com/instituto-superior-tecnico-binary-gauss-stabilizers",
+          "report": "2026-07/2026-07-18-digest.md",
+          "score": 33,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Binary Gauss Stabilizers Simplify Quantum Error Correction Without Extra Qubits",
+          "url": "https://quantumzeitgeist.com/instituto-superior-tecnico-binary-gauss-stabilizers"
+        },
+        {
+          "date": "2026-07-16",
+          "key": "https://quantumzeitgeist.com/rice-university-presents-topological-subsystem-code-framework-quantum",
+          "report": "2026-07/2026-07-16-digest.md",
+          "score": 43,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Rice University Team Presents Topological Subsystem Code Framework for Quantum Error Correction",
+          "url": "https://quantumzeitgeist.com/rice-university-presents-topological-subsystem-code-framework-quantum"
+        },
+        {
+          "date": "2026-07-15",
+          "key": "https://quantumzeitgeist.com/nvidia-ising-decoding-cuts-color",
+          "report": "2026-07/2026-07-15-digest.md",
+          "score": 97,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "NVIDIA QEC Ising Decoding Cuts Color Code Errors Over 347x",
+          "url": "https://quantumzeitgeist.com/nvidia-ising-decoding-cuts-color"
+        },
+        {
+          "date": "2026-07-14",
+          "key": "https://quantumzeitgeist.com/mit-caltech-single-ion-qec",
+          "report": "2026-07/2026-07-14-digest.md",
+          "score": 83,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "MIT and Caltech Researchers Create Single Ion Achieving Quantum Error Correction (QEC)",
+          "url": "https://quantumzeitgeist.com/mit-caltech-single-ion-qec"
+        },
+        {
+          "date": "2026-07-13",
+          "key": "https://thequantuminsider.com/2026/07/13/ord-quantique-quantum-error-correction-sub-01-percent-spam-errors",
+          "report": "2026-07/2026-07-13-digest.md",
+          "score": 79,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Nord Quantique Advances Quantum Error Correction with Sub-0.1% SPAM Errors",
+          "url": "https://thequantuminsider.com/2026/07/13/ord-quantique-quantum-error-correction-sub-01-percent-spam-errors"
+        },
+        {
+          "date": "2026-07-12",
+          "key": "https://quantumzeitgeist.com/alice-bob-share-how-expensive-qec-can-be-compared-to-classical-compute",
+          "report": "2026-07/2026-07-12-digest.md",
+          "score": 56,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Alice & Bob Share How Expensive QEC can be Compared to Classical Compute",
+          "url": "https://quantumzeitgeist.com/alice-bob-share-how-expensive-qec-can-be-compared-to-classical-compute"
+        },
+        {
+          "date": "2026-07-11",
+          "key": "https://quantumzeitgeist.com/okada-colleagues-rate-2-quantum-ldpc-code-error-correction",
+          "report": "2026-07/2026-07-11-digest.md",
+          "score": 54,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Okada and Colleagues Develop Rate-2/3 Quantum LDPC Code for Enhanced Error Correction",
+          "url": "https://quantumzeitgeist.com/okada-colleagues-rate-2-quantum-ldpc-code-error-correction"
+        },
+        {
+          "date": "2026-07-08",
+          "key": "https://quantumzeitgeist.com/max-planck-institute-science-light-use-ai-quantum-error-correction",
+          "report": "2026-07/2026-07-08-digest.md",
+          "score": 83,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "Max Planck Institute for the Science of Light: Researchers Use AI to Design Improved Quantum Error Correction Codes",
+          "url": "https://quantumzeitgeist.com/max-planck-institute-science-light-use-ai-quantum-error-correction"
+        },
+        {
+          "date": "2026-07-06",
+          "key": "https://quantumzeitgeist.com/quantum-error-correction-magiqware-575k",
+          "report": "2026-07/2026-07-06-digest.md",
+          "score": 84,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "MagiQware Secures \u20ac575K Pre-Seed to Optimize Quantum Error Correction",
+          "url": "https://quantumzeitgeist.com/quantum-error-correction-magiqware-575k"
+        },
+        {
+          "date": "2026-07-06",
+          "key": "https://quantumzeitgeist.com/quantum-error-correction-bosonic-codes-photon-loss-handling",
+          "report": "2026-07/2026-07-06-digest.md",
+          "score": 60,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Researchers Combine Codes to Improve Quantum Error Correction",
+          "url": "https://quantumzeitgeist.com/quantum-error-correction-bosonic-codes-photon-loss-handling"
+        },
+        {
+          "date": "2026-06-30",
+          "key": "https://quantumzeitgeist.com/quantum-error-correction-qldpc-codes-3",
+          "report": "2026-06/2026-06-30-digest.md",
+          "score": 76,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Quantum Error Correction: New Codes Simplify Chip Design for Scalable Computers",
+          "url": "https://quantumzeitgeist.com/quantum-error-correction-qldpc-codes-3"
+        },
+        {
+          "date": "2026-06-24",
+          "key": "https://quantumzeitgeist.com/quantum-error-correction-optimal-defining-matrices-codes",
+          "report": "2026-06/2026-06-24-digest.md",
+          "score": 36,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Researchers Build Improved Quantum Error Correction Using Novel Matrices",
+          "url": "https://quantumzeitgeist.com/quantum-error-correction-optimal-defining-matrices-codes"
+        }
+      ],
+      "evidence_count": 13,
+      "first_seen": "2026-06-23",
+      "latest_seen": "2026-07-18",
+      "momentum": "stable",
+      "name": "Quantum error correction",
+      "prior_count": 4,
+      "priority": "critical",
+      "recent_count": 4,
+      "status": "active",
+      "themes": [
+        "AI Security",
+        "QEC / Fault Tolerance",
+        "Quantum Hardware"
+      ],
+      "type": "technology"
+    },
+    {
+      "aliases": [
+        "logical qubit",
+        "fault-tolerant quantum"
+      ],
+      "evidence": [
+        {
+          "date": "2026-07-14",
+          "key": "https://quantumzeitgeist.com/pan-colleagues-hierarchical-logical-processor-fault-tolerant-quantum",
+          "report": "2026-07/2026-07-14-digest.md",
+          "score": 110,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Pan and Colleagues Propose Hierarchical Logical Processor for Fault-Tolerant Quantum Computation",
+          "url": "https://quantumzeitgeist.com/pan-colleagues-hierarchical-logical-processor-fault-tolerant-quantum"
+        },
+        {
+          "date": "2026-07-14",
+          "key": "https://thequantuminsider.com/2026/07/14/logical-qubit-technology-launches-quantum-cloud-platform-at-quantum-day-2026",
+          "report": "2026-07/2026-07-14-digest.md",
+          "score": 63,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Logical Qubit Technology Launches Quantum Cloud Platform for Superconducting Quantum Computing",
+          "url": "https://thequantuminsider.com/2026/07/14/logical-qubit-technology-launches-quantum-cloud-platform-at-quantum-day-2026"
+        },
+        {
+          "date": "2026-07-10",
+          "key": "https://thequantuminsider.com/2026/07/10/qc-design-publishes-plaquette-hardware-aware-design-platform-for-fault-tolerant-quantum-computers",
+          "report": "2026-07/2026-07-10-digest.md",
+          "score": 76,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "QC Design Publishes Plaquette Framework for Fault-Tolerant Quantum Computer Design",
+          "url": "https://thequantuminsider.com/2026/07/10/qc-design-publishes-plaquette-hardware-aware-design-platform-for-fault-tolerant-quantum-computers"
+        },
+        {
+          "date": "2026-07-10",
+          "key": "https://quantumzeitgeist.com/plaquette-framework-benchmarking-ftqc",
+          "report": "2026-07/2026-07-10-digest.md",
+          "score": 71,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "New Plaquette Framework for Benchmarking Fault-Tolerant Quantum Computers",
+          "url": "https://quantumzeitgeist.com/plaquette-framework-benchmarking-ftqc"
+        },
+        {
+          "date": "2026-07-07",
+          "key": "https://quantumzeitgeist.com/oratomic-fault-tolerant-quantum-computer-300m-funding",
+          "report": "2026-07/2026-07-07-digest.md",
+          "score": 83,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "$300M Series A Fuels Oratomic\u2019s Fault-Tolerant Quantum Computer Build",
+          "url": "https://quantumzeitgeist.com/oratomic-fault-tolerant-quantum-computer-300m-funding"
+        },
+        {
+          "date": "2026-07-02",
+          "key": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical",
+          "report": "2026-07/2026-07-02-digest.md",
+          "score": 146,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "D-Wave Targets 100 Logical Qubits With Million-Operation Fault Tolerance",
+          "url": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical"
+        },
+        {
+          "date": "2026-06-30",
+          "key": "https://thequantuminsider.com/2026/06/30/quix-quantum-unveils-path-to-universal-photonic-quantum-computing-with-logical-qubits",
+          "report": "2026-06/2026-06-30-digest.md",
+          "score": 136,
+          "source": "The Quantum Insider",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "QuiX Quantum Unveils Path to Universal Photonic Quantum Computing with Logical Qubits",
+          "url": "https://thequantuminsider.com/2026/06/30/quix-quantum-unveils-path-to-universal-photonic-quantum-computing-with-logical-qubits"
+        },
+        {
+          "date": "2026-06-30",
+          "key": "https://quantumcomputingreport.com/quix-quantum-launches-dedalo-photonic-architecture-to-address-photon-loss-via-single-basis-logical-qubits",
+          "report": "2026-06/2026-06-30-digest.md",
+          "score": 126,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "QuiX Quantum Launches 'Dedalo' Photonic Architecture to Address Photon Loss via Single-Basis Logical Qubits",
+          "url": "https://quantumcomputingreport.com/quix-quantum-launches-dedalo-photonic-architecture-to-address-photon-loss-via-single-basis-logical-qubits"
+        },
+        {
+          "date": "2026-06-30",
+          "key": "https://quantumzeitgeist.com/logical-qubits-error-correction",
+          "report": "2026-06/2026-06-30-digest.md",
+          "score": 50,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Researchers Demonstrate Logical Qubit Operations with Low Error Rates of 0.03",
+          "url": "https://quantumzeitgeist.com/logical-qubits-error-correction"
+        }
+      ],
+      "evidence_count": 9,
+      "first_seen": "2026-06-30",
+      "latest_seen": "2026-07-14",
+      "momentum": "declining",
+      "name": "Logical qubits",
+      "prior_count": 3,
+      "priority": "critical",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "QEC / Fault Tolerance",
+        "Quantum Hardware",
+        "Quantum Software / Tooling"
+      ],
+      "type": "technology"
+    },
+    {
+      "aliases": [
+        "crypto agility",
+        "cryptographic agility",
+        "CBOM",
+        "cryptographic inventory"
+      ],
+      "evidence": [
+        {
+          "date": "2026-07-03",
+          "key": "https://pqshield.com/why-crypto-agility-requires-real-governance",
+          "report": "2026-07/2026-07-03-digest.md",
+          "score": 108,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why crypto-agility requires real governance Eric Amador explains how pqctoday.com uses AI and WebAssembly to remove friction from testing quantum-safe algorithms. Learn how different organizational personas can map out global migration timelines and prepare for upcoming compliance mandates.",
+          "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
+        },
+        {
+          "date": "2026-06-25",
+          "key": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key",
+          "report": "2026-06/2026-06-25-digest.md",
+          "score": 128,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
+          "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
+        }
+      ],
+      "evidence_count": 2,
+      "first_seen": "2026-06-25",
+      "latest_seen": "2026-07-03",
+      "momentum": "stable",
+      "name": "Crypto-agility",
+      "prior_count": 0,
+      "priority": "critical",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "technology"
+    },
+    {
+      "aliases": [
+        "FIPS 204",
+        "Dilithium"
+      ],
+      "evidence": [
+        {
+          "date": "2026-06-29",
+          "key": "https://eprint.iacr.org/2026/1333",
+          "report": "2026-06/2026-06-29-digest.md",
+          "score": 130,
+          "source": "IACR ePrint",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Apples, Oranges, and Signatures: Pitfalls and Methodology in ML-DSA Benchmarking",
+          "url": "https://eprint.iacr.org/2026/1333"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2026-06-29",
+      "latest_seen": "2026-06-29",
+      "momentum": "stable",
+      "name": "ML-DSA",
+      "prior_count": 0,
+      "priority": "critical",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "technology"
+    },
+    {
+      "aliases": [
+        "quantum internet",
+        "quantum repeater",
+        "entanglement distribution"
+      ],
+      "evidence": [
+        {
+          "date": "2026-07-16",
+          "key": "https://thequantuminsider.com/2026/07/16/arq-raises-1-4-million-pre-seed-round-to-lay-the-foundations-for-the-quantum-internet",
+          "report": "2026-07/2026-07-16-digest.md",
+          "score": 40,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Arq Raises $1.4 Million Pre-Seed Round to Lay The Foundations For The Quantum Internet",
+          "url": "https://thequantuminsider.com/2026/07/16/arq-raises-1-4-million-pre-seed-round-to-lay-the-foundations-for-the-quantum-internet"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2026-07-16",
+      "latest_seen": "2026-07-16",
+      "momentum": "rising",
+      "name": "Quantum networking",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "Quantum Networking"
+      ],
+      "type": "technology"
+    },
+    {
+      "aliases": [
+        "quantum sensor",
+        "quantum metrology"
+      ],
+      "evidence": [
+        {
+          "date": "2026-07-09",
+          "key": "https://thequantuminsider.com/2026/07/09/shanghai-quantum-sensing-startup-raises-angel-funding-to-expand-navigation-and-gas-detection-products",
+          "report": "2026-07/2026-07-09-digest.md",
+          "score": 41,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Shanghai Quantum Sensing Startup Raises Angel Funding to Expand Navigation And Gas Detection Products",
+          "url": "https://thequantuminsider.com/2026/07/09/shanghai-quantum-sensing-startup-raises-angel-funding-to-expand-navigation-and-gas-detection-products"
+        },
+        {
+          "date": "2026-07-07",
+          "key": "https://quantumzeitgeist.com/quantum-metrology-time-reversal-protocol-entanglement-enhancement",
+          "report": "2026-07/2026-07-07-digest.md",
+          "score": 24,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Colombo and Colleagues Develops Time-Reversal Protocol for Quantum Metrology",
+          "url": "https://quantumzeitgeist.com/quantum-metrology-time-reversal-protocol-entanglement-enhancement"
+        },
+        {
+          "date": "2026-07-05",
+          "key": "https://quantumzeitgeist.com/abdelmalek-essaadi-university-models-thermometric-scaling-laws-quantum",
+          "report": "2026-07/2026-07-05-digest.md",
+          "score": 27,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Abdelmalek Essaadi University Team Models Thermometric Scaling Laws for Quantum Sensor Design",
+          "url": "https://quantumzeitgeist.com/abdelmalek-essaadi-university-models-thermometric-scaling-laws-quantum"
+        },
+        {
+          "date": "2026-07-04",
+          "key": "https://quantumzeitgeist.com/peking-university-develops-bias-corrected-moment-estimator-quantum",
+          "report": "2026-07/2026-07-04-digest.md",
+          "score": 23,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Peking University Team Develops Bias-Corrected Moment Estimator for Quantum Metrology",
+          "url": "https://quantumzeitgeist.com/peking-university-develops-bias-corrected-moment-estimator-quantum"
+        },
+        {
+          "date": "2026-07-03",
+          "key": "https://quantumzeitgeist.com/zhejiang-university-identifies-coupling-criterion-heisenberg-limited",
+          "report": "2026-07/2026-07-03-digest.md",
+          "score": 30,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Zhejiang University Team Identifies Coupling Criterion for Heisenberg-Limited Quantum Metrology",
+          "url": "https://quantumzeitgeist.com/zhejiang-university-identifies-coupling-criterion-heisenberg-limited"
+        },
+        {
+          "date": "2026-07-03",
+          "key": "https://quantumzeitgeist.com/quantum-sensing-platform-nsf-award",
+          "report": "2026-07/2026-07-03-digest.md",
+          "score": 27,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "$4M NSF Award Develops Ohio State Quantum Sensing Platform",
+          "url": "https://quantumzeitgeist.com/quantum-sensing-platform-nsf-award"
+        },
+        {
+          "date": "2026-07-03",
+          "key": "https://quantumcomputingreport.com/xdots-showcases-room-temperature-quantum-sensing-system-at-quantum-korea-2026",
+          "report": "2026-07/2026-07-03-digest.md",
+          "score": 22,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "xDots Showcases Room-Temperature Quantum Sensing System at Quantum Korea 2026",
+          "url": "https://quantumcomputingreport.com/xdots-showcases-room-temperature-quantum-sensing-system-at-quantum-korea-2026"
+        },
+        {
+          "date": "2026-07-02",
+          "key": "https://quantumnews.ai/networking/quantum-sensing-in-urban-planning-los-angeles-and-singapore",
+          "report": "2026-07/2026-07-02-digest.md",
+          "score": 22,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Quantum Sensing in Urban Planning: Los Angeles and Singapore",
+          "url": "https://quantumnews.ai/networking/quantum-sensing-in-urban-planning-los-angeles-and-singapore"
+        },
+        {
+          "date": "2026-07-01",
+          "key": "https://quantumzeitgeist.com/diamond-quantum-sensing-qst-csiro",
+          "report": "2026-07/2026-07-01-digest.md",
+          "score": 27,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "QST and CSIRO Team Up on Diamond Quantum Sensing",
+          "url": "https://quantumzeitgeist.com/diamond-quantum-sensing-qst-csiro"
+        },
+        {
+          "date": "2026-06-29",
+          "key": "https://thequantuminsider.com/2026/06/29/which-light-is-right-for-quantum-sensing",
+          "report": "2026-06/2026-06-29-digest.md",
+          "score": 27,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Which Light is Right For Quantum Sensing?",
+          "url": "https://thequantuminsider.com/2026/06/29/which-light-is-right-for-quantum-sensing"
+        },
+        {
+          "date": "2026-06-24",
+          "key": "https://thequantuminsider.com/2026/06/24/sprind-launches-quantum-sensing-initiative-to-back-european-projects-and-startups",
+          "report": "2026-06/2026-06-24-digest.md",
+          "score": 27,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "SPRIND Launches Quantum Sensing Initiative to Back European Projects and Startups",
+          "url": "https://thequantuminsider.com/2026/06/24/sprind-launches-quantum-sensing-initiative-to-back-european-projects-and-startups"
+        }
+      ],
+      "evidence_count": 11,
+      "first_seen": "2026-06-24",
+      "latest_seen": "2026-07-09",
+      "momentum": "declining",
+      "name": "Quantum sensing",
+      "prior_count": 2,
+      "priority": "medium",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "Quantum Hardware",
+        "Quantum Sensing"
+      ],
+      "type": "technology"
+    }
+  ],
+  "updated_at": "2026-07-21T07:23:16.886267+00:00",
+  "version": 1
+}

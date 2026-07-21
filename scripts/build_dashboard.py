@@ -20,18 +20,20 @@ def build_dashboard(
     output.mkdir(parents=True, exist_ok=True)
     (output / "data").mkdir(parents=True, exist_ok=True)
 
-    for name in ("index.html", "styles.css", "app.js"):
+    for name in ("index.html", "styles.css", "components.css", "app.js"):
         shutil.copy2(assets / name, output / name)
 
     signals = _read_json(reports / "signals.json", {"themes": {}, "updated_at": None})
     source_health = _read_json(reports / "source-health.json", {"sources": [], "disabled_sources": []})
     alerts = _read_json(reports / "alerts.json", {"alerts": [], "active_count": 0, "new_count": 0})
+    entity_watch = _read_json(reports / "entity-watch.json", {"entities": [], "technologies": []})
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "repository_url": repo_url.rstrip("/"),
         "signals": _dashboard_signals(signals),
         "source_health": source_health,
         "alerts": alerts,
+        "entity_watch": entity_watch,
         "reports": _report_links(reports, repo_url.rstrip("/")),
     }
     data_path = output / "data" / "dashboard.json"
@@ -48,19 +50,35 @@ def _read_json(path: Path, default: dict) -> dict:
 
 def _dashboard_signals(state: dict) -> dict:
     themes = []
+    overall_by_date: dict[str, set[str]] = {}
     for name, summary in state.get("themes", {}).items():
         entry = {key: value for key, value in summary.items() if key != "evidence"}
+        trend_counts: dict[str, int] = {}
+        for item in summary.get("evidence", []):
+            item_date = item.get("date")
+            if not item_date:
+                continue
+            trend_counts[item_date] = trend_counts.get(item_date, 0) + 1
+            overall_by_date.setdefault(item_date, set()).add(str(item.get("key") or item.get("url") or item.get("title")))
         evidence = sorted(
             summary.get("evidence", []),
             key=lambda item: (item.get("date", ""), item.get("score", 0)),
             reverse=True,
         )[:8]
-        entry.update({"name": name, "evidence_count": len(summary.get("evidence", [])), "evidence": evidence})
+        entry.update(
+            {
+                "name": name,
+                "evidence_count": len(summary.get("evidence", [])),
+                "evidence": evidence,
+                "trend": [{"date": day, "count": count} for day, count in sorted(trend_counts.items())],
+            }
+        )
         themes.append(entry)
     status_order = {"actionable": 0, "watching": 1, "stale": 2}
     importance_order = {"critical": 0, "high": 1, "medium": 2}
     themes.sort(key=lambda item: (status_order.get(item.get("status"), 9), importance_order.get(item.get("importance"), 9), item["name"]))
-    return {"updated_at": state.get("updated_at"), "themes": themes}
+    overall_trend = [{"date": day, "count": len(keys)} for day, keys in sorted(overall_by_date.items())]
+    return {"updated_at": state.get("updated_at"), "themes": themes, "overall_trend": overall_trend}
 
 
 def _report_links(reports: Path, repo_url: str) -> dict:

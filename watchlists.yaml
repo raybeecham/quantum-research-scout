@@ -1,0 +1,82 @@
+entities:
+  - name: NIST
+    type: government
+    priority: critical
+    aliases: [National Institute of Standards and Technology]
+  - name: CISA
+    type: government
+    priority: high
+    aliases: [Cybersecurity and Infrastructure Security Agency]
+  - name: NSA
+    type: government
+    priority: high
+    aliases: [National Security Agency]
+  - name: IETF
+    type: standards
+    priority: high
+    aliases: [Internet Engineering Task Force, PQUIP]
+  - name: IBM
+    type: company
+    priority: high
+    aliases: [IBM Quantum, IBM Research]
+  - name: Google Quantum AI
+    type: company
+    priority: high
+    aliases: [Google Quantum, Google AI Quantum]
+  - name: Microsoft Quantum
+    type: company
+    priority: high
+    aliases: [Microsoft Research Quantum]
+  - name: AWS
+    type: company
+    priority: medium
+    aliases: [Amazon Web Services, AWS Braket]
+  - name: Quantinuum
+    type: company
+    priority: high
+    aliases: []
+  - name: IonQ
+    type: company
+    priority: high
+    aliases: []
+  - name: Rigetti
+    type: company
+    priority: medium
+    aliases: []
+  - name: Cloudflare
+    type: company
+    priority: high
+    aliases: []
+  - name: PQCA
+    type: consortium
+    priority: high
+    aliases: [Post-Quantum Cryptography Alliance]
+
+technologies:
+  - name: ML-KEM
+    priority: critical
+    aliases: [FIPS 203, Kyber]
+  - name: ML-DSA
+    priority: critical
+    aliases: [FIPS 204, Dilithium]
+  - name: SLH-DSA
+    priority: high
+    aliases: [FIPS 205, SPHINCS]
+  - name: Crypto-agility
+    priority: critical
+    aliases: [crypto agility, cryptographic agility, CBOM, cryptographic inventory]
+  - name: Hybrid TLS
+    priority: high
+    aliases: [post-quantum TLS, quantum-safe TLS]
+  - name: Logical qubits
+    priority: critical
+    aliases: [logical qubit, fault-tolerant quantum]
+  - name: Quantum error correction
+    priority: critical
+    aliases: [QEC, surface code, quantum LDPC]
+  - name: Quantum networking
+    priority: high
+    aliases: [quantum internet, quantum repeater, entanglement distribution]
+  - name: Quantum sensing
+    priority: medium
+    aliases: [quantum sensor, quantum metrology]
