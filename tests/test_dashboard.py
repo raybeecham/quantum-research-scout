@@ -24,8 +24,9 @@ class DashboardBuildTests(unittest.TestCase):
             reports = root / "reports"
             dashboard.mkdir()
             reports.mkdir()
-            for name in ("index.html", "styles.css", "components.css", "app.js"):
-                (dashboard / name).write_text(name, encoding="utf-8")
+            for name in ("index.html", "entity.html", "styles.css", "components.css", "app.js", "entity.js"):
+                content = f'{name}?v=__ASSET_VERSION__'
+                (dashboard / name).write_text(content, encoding="utf-8")
             (reports / "signals.json").write_text(
                 json.dumps(
                     {
@@ -68,6 +69,9 @@ class DashboardBuildTests(unittest.TestCase):
             payload = json.loads(data_path.read_text(encoding="utf-8"))
 
             self.assertTrue((root / "site" / "index.html").exists())
+            self.assertTrue((root / "site" / "entity.html").exists())
+            self.assertNotIn("__ASSET_VERSION__", (root / "site" / "index.html").read_text(encoding="utf-8"))
+            self.assertIn(payload["build_id"], (root / "site" / "app.js").read_text(encoding="utf-8"))
             self.assertEqual(payload["signals"]["themes"][0]["name"], "PQC / Crypto Agility")
             self.assertEqual(payload["signals"]["themes"][0]["evidence_count"], 1)
             self.assertEqual(payload["reports"]["latest_daily"]["name"], "2026-07-20-digest")
@@ -76,3 +80,11 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["entity_watch"]["coverage"][0]["status"], "covered")
             self.assertEqual(payload["signals"]["overall_trend"][0]["count"], 1)
             self.assertIn("github.com/example/repo/blob/main/reports/", payload["reports"]["latest_daily"]["url"])
+
+    def test_watch_cards_and_coverage_link_to_profiles(self) -> None:
+        script = (Path(__file__).parents[1] / "dashboard" / "app.js").read_text(encoding="utf-8")
+        profile = (Path(__file__).parents[1] / "dashboard" / "entity.js").read_text(encoding="utf-8")
+        self.assertIn("entity.html?name=", script)
+        self.assertIn("profile-timeline", profile)
+        self.assertIn("profile-sources", profile)
+        self.assertIn("profile-alerts", profile)

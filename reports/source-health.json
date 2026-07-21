@@ -95,6 +95,24 @@
     {
       "expected_idle_days": 0,
       "last_warning": null,
+      "name": "Atom Computing News and Research",
+      "status": "healthy",
+      "success_rate": 100.0,
+      "type": "watch",
+      "warning_days": 0
+    },
+    {
+      "expected_idle_days": 0,
+      "last_warning": null,
+      "name": "BSI Germany Quantum-Safe Guidance",
+      "status": "healthy",
+      "success_rate": 100.0,
+      "type": "watch",
+      "warning_days": 0
+    },
+    {
+      "expected_idle_days": 0,
+      "last_warning": null,
       "name": "CISA Cybersecurity Advisories",
       "status": "healthy",
       "success_rate": 100.0,
@@ -135,6 +153,24 @@
       "status": "healthy",
       "success_rate": 100.0,
       "type": "rss",
+      "warning_days": 0
+    },
+    {
+      "expected_idle_days": 0,
+      "last_warning": null,
+      "name": "ENISA Cryptography and PQC",
+      "status": "healthy",
+      "success_rate": 100.0,
+      "type": "watch",
+      "warning_days": 0
+    },
+    {
+      "expected_idle_days": 0,
+      "last_warning": null,
+      "name": "ETSI Quantum Standards News",
+      "status": "healthy",
+      "success_rate": 100.0,
+      "type": "watch",
       "warning_days": 0
     },
     {
@@ -198,6 +234,15 @@
       "status": "healthy",
       "success_rate": 100.0,
       "type": "rss",
+      "warning_days": 0
+    },
+    {
+      "expected_idle_days": 0,
+      "last_warning": null,
+      "name": "Intel Quantum Research News",
+      "status": "healthy",
+      "success_rate": 100.0,
+      "type": "watch",
       "warning_days": 0
     },
     {
@@ -302,7 +347,25 @@
     {
       "expected_idle_days": 0,
       "last_warning": null,
+      "name": "PsiQuantum News",
+      "status": "healthy",
+      "success_rate": 100.0,
+      "type": "watch",
+      "warning_days": 0
+    },
+    {
+      "expected_idle_days": 0,
+      "last_warning": null,
       "name": "QCi Press Releases",
+      "status": "healthy",
+      "success_rate": 100.0,
+      "type": "watch",
+      "warning_days": 0
+    },
+    {
+      "expected_idle_days": 0,
+      "last_warning": null,
+      "name": "QuEra Press Releases",
       "status": "healthy",
       "success_rate": 100.0,
       "type": "watch",
@@ -390,6 +453,6 @@
       "warning_days": 0
     }
   ],
-  "updated_at": "2026-07-21T07:58:19.614838+00:00",
+  "updated_at": "2026-07-21T20:33:03.238886+00:00",
   "version": 1
 }

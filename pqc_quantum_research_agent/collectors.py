@@ -368,15 +368,38 @@ def _collect_watch_page(
     result = CollectionResult()
     try:
         html_text, resolved_url = client.get_text(source_url)
-        _, _, links = extract_links(html_text, resolved_url, same_domain_only=bool(source.get("same_domain_only", True)))
+        page_title, page_description, links = extract_links(
+            html_text, resolved_url, same_domain_only=bool(source.get("same_domain_only", True))
+        )
     except Exception as exc:
         result.warnings.append(SourceWarning(source_name, "watch", f"HTML discovery failed: {exc}", source_url))
         return result
 
+    if source.get("include_source_page"):
+        metadata = extract_page_metadata(html_text, resolved_url, source_name)
+        title = metadata.title or page_title or _title_from_url(resolved_url)
+        summary = compact_summary(metadata.description or page_description, 500)
+        if title and _watch_candidate(resolved_url, title, source):
+            result.items.append(
+                ResearchItem(
+                    source_name=source_name,
+                    source_type="watch",
+                    title=title,
+                    url=resolved_url,
+                    summary=summary,
+                    published_at=metadata.published_at,
+                    date_source=metadata.date_source,
+                    date_confidence=metadata.date_confidence,
+                    raw_payload={"source_url": source_url, "resolved_url": resolved_url},
+                )
+            )
+
     min_title_chars = int(source.get("min_title_chars", 12))
     for link in links:
+        if len(result.items) >= max_items:
+            break
         title = strip_html(link.title)
-        if len(title) < min_title_chars or not _watch_candidate(link.url, title, source):
+        if link.url == resolved_url or len(title) < min_title_chars or not _watch_candidate(link.url, title, source):
             continue
         metadata = None
         article_url = link.url
@@ -385,11 +408,12 @@ def _collect_watch_page(
             metadata = extract_page_metadata(article_html, article_url, source_name)
         except Exception:
             pass
+        item_title = metadata.title if metadata and metadata.title else title
         result.items.append(
             ResearchItem(
                 source_name=source_name,
                 source_type="watch",
-                title=title,
+                title=item_title,
                 url=article_url,
                 summary=compact_summary(metadata.description if metadata else "", 500),
                 published_at=metadata.published_at if metadata else None,
@@ -398,8 +422,6 @@ def _collect_watch_page(
                 raw_payload={"source_url": source_url, "resolved_url": resolved_url},
             )
         )
-        if len(result.items) >= max_items:
-            break
     result.items = _filter_watch_items(result.items, source)
     if not result.items:
         result.warnings.append(SourceWarning(source_name, "watch", "HTML page returned no matching entries.", source_url))

@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-07-21 07:58 UTC_
+_Updated 2026-07-21 20:33 UTC_
 
 Rolling health is inferred from **30** retained daily report(s). A successful attempt means no source warning was recorded for that report.
 
@@ -16,11 +16,15 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv RSS quant-ph | arxiv_rss | 93% | 2 | 9 | 2026-07-06 | 🟠 degraded |
 | PQCA Readiness Tracking | rss | 97% | 1 | 0 | 2026-07-14 | 🟠 degraded |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | none | 🟢 healthy |
+| Atom Computing News and Research | watch | 100% | 0 | 0 | none | 🟢 healthy |
+| BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | none | 🟢 healthy |
 | CISA Cybersecurity Advisories | rss | 100% | 0 | 0 | none | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | none | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | none | 🟢 healthy |
 | Cloudflare Post-Quantum Blog | url | 100% | 0 | 0 | none | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | none | 🟢 healthy |
+| ENISA Cryptography and PQC | watch | 100% | 0 | 0 | none | 🟢 healthy |
+| ETSI Quantum Standards News | watch | 100% | 0 | 0 | none | 🟢 healthy |
 | Fortanix Quantum Security | watch | 100% | 0 | 0 | none | 🟢 healthy |
 | Google Quantum AI | url | 100% | 0 | 0 | none | 🟢 healthy |
 | Google Security Blog | rss | 100% | 0 | 0 | none | 🟢 healthy |
@@ -28,6 +32,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | IBM Quantum Blog | url | 100% | 0 | 0 | none | 🟢 healthy |
 | IETF PQUIP | url | 100% | 0 | 0 | none | 🟢 healthy |
 | InfoQ Quantum Computing | rss | 100% | 0 | 0 | none | 🟢 healthy |
+| Intel Quantum Research News | watch | 100% | 0 | 0 | none | 🟢 healthy |
 | IonQ News | url | 100% | 0 | 0 | none | 🟢 healthy |
 | Keyfactor Quantum and Crypto-Agility | watch | 100% | 0 | 0 | none | 🟢 healthy |
 | Microsoft Quantum Blog | url | 100% | 0 | 0 | none | 🟢 healthy |
@@ -39,7 +44,9 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Open Quantum Safe | url | 100% | 0 | 0 | none | 🟢 healthy |
 | PQCA Blog and News | rss | 100% | 0 | 0 | none | 🟢 healthy |
 | PQShield | url | 100% | 0 | 0 | none | 🟢 healthy |
+| PsiQuantum News | watch | 100% | 0 | 0 | none | 🟢 healthy |
 | QCi Press Releases | watch | 100% | 0 | 0 | none | 🟢 healthy |
+| QuEra Press Releases | watch | 100% | 0 | 0 | none | 🟢 healthy |
 | QuSecure Press Releases | watch | 100% | 0 | 0 | none | 🟢 healthy |
 | Quantinuum News | url | 100% | 0 | 0 | none | 🟢 healthy |
 | Quantum Zeitgeist | rss | 100% | 0 | 0 | none | 🟢 healthy |

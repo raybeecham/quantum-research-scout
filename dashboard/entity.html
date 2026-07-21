@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Quantum Research Scout organization and technology profile">
+  <title>Profile · Quantum Research Scout</title>
+  <link rel="stylesheet" href="styles.css?v=__ASSET_VERSION__">
+  <link rel="stylesheet" href="components.css?v=__ASSET_VERSION__">
+</head>
+<body>
+  <header class="hero profile-hero">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">Q</span><span>Quantum Research Scout</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-links"><span></span><span></span><span></span><b>Menu</b></button>
+      <div id="primary-links" class="nav-links">
+        <a href="index.html#watch">Watchlist</a><a href="index.html#coverage">Coverage</a><a href="index.html#alerts">Alerts</a><a href="index.html#reports">Reports</a>
+        <a id="repo-link" class="button secondary" href="#">Repository</a>
+      </div>
+    </nav>
+    <div class="profile-heading shell">
+      <div class="breadcrumbs"><a href="index.html#watch">Watchlist</a><span>/</span><span id="profile-kind">Profile</span></div>
+      <p id="profile-eyebrow" class="eyebrow">INTELLIGENCE PROFILE</p>
+      <h1 id="profile-name">Loading…</h1>
+      <div id="profile-badges" class="badges"></div>
+    </div>
+  </header>
+
+  <main id="profile-content" class="shell profile-main" aria-live="polite">
+    <section class="profile-summary" aria-label="Profile summary">
+      <article><span>Evidence</span><strong id="profile-evidence">—</strong></article>
+      <article><span>Latest seen</span><strong id="profile-latest">—</strong></article>
+      <article><span>Recent / prior</span><strong id="profile-momentum">—</strong></article>
+      <article><span>First-party coverage</span><strong id="profile-coverage">—</strong></article>
+    </section>
+
+    <section class="section">
+      <div class="section-heading"><div><p class="eyebrow">ACTIVITY</p><h2>Evidence trend</h2></div><p id="profile-updated" class="updated"></p></div>
+      <article class="profile-panel"><div id="profile-chart" class="profile-chart" role="img" aria-label="Matched evidence over time"></div></article>
+    </section>
+
+    <section class="section profile-layout">
+      <div>
+        <div class="section-heading"><div><p class="eyebrow">EVIDENCE</p><h2>Research timeline</h2></div></div>
+        <article class="profile-panel"><div id="profile-timeline" class="timeline"></div></article>
+      </div>
+      <aside>
+        <div class="section-heading"><div><p class="eyebrow">CONTEXT</p><h2>What we know</h2></div></div>
+        <div class="profile-panel"><h3>Themes</h3><div id="profile-themes" class="profile-themes"></div></div>
+        <div class="profile-panel" style="margin-top:20px"><h3>Official collection</h3><div id="profile-sources" class="profile-sources"></div></div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="section-heading"><div><p class="eyebrow">ALERTS</p><h2>Active conditions</h2></div></div>
+      <div id="profile-alerts" class="profile-alerts"></div>
+    </section>
+  </main>
+
+  <footer><div class="shell"><span>Quantum Research Scout</span><span id="footer-updated"></span></div></footer>
+  <script src="entity.js?v=__ASSET_VERSION__" defer></script>
+</body>
+</html>

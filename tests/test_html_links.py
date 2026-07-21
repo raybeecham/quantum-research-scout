@@ -103,6 +103,14 @@ class SafeUrlJoinTests(unittest.TestCase):
         self.assertEqual(metadata.date_confidence, "high")
         self.assertIn("time.datetime", metadata.date_source)
 
+    def test_open_graph_title_is_preferred_over_a_malformed_html_title(self) -> None:
+        metadata = extract_page_metadata(
+            '<html><head><title>Article footer pollution<meta property="og:title" content="Clean article title"></head></html>',
+            BASE_URL,
+        )
+
+        self.assertEqual(metadata.title, "Clean article title")
+
     def test_json_ld_date_published_is_extracted(self) -> None:
         html = """
         <script type="application/ld+json">

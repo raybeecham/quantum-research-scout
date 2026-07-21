@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
-import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -20,15 +20,13 @@ def build_dashboard(
     output.mkdir(parents=True, exist_ok=True)
     (output / "data").mkdir(parents=True, exist_ok=True)
 
-    for name in ("index.html", "styles.css", "components.css", "app.js"):
-        shutil.copy2(assets / name, output / name)
-
     signals = _read_json(reports / "signals.json", {"themes": {}, "updated_at": None})
     source_health = _read_json(reports / "source-health.json", {"sources": [], "disabled_sources": []})
     alerts = _read_json(reports / "alerts.json", {"alerts": [], "active_count": 0, "new_count": 0})
     entity_watch = _read_json(reports / "entity-watch.json", {"entities": [], "technologies": []})
+    generated_at = datetime.now(timezone.utc).isoformat()
     payload = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": generated_at,
         "repository_url": repo_url.rstrip("/"),
         "signals": _dashboard_signals(signals),
         "source_health": source_health,
@@ -36,6 +34,14 @@ def build_dashboard(
         "entity_watch": entity_watch,
         "reports": _report_links(reports, repo_url.rstrip("/")),
     }
+    asset_names = ("index.html", "entity.html", "styles.css", "components.css", "app.js", "entity.js")
+    version_input = generated_at + "".join((assets / name).read_text(encoding="utf-8") for name in asset_names)
+    asset_version = hashlib.sha256(version_input.encode("utf-8")).hexdigest()[:12]
+    payload["build_id"] = asset_version
+    for name in asset_names:
+        content = (assets / name).read_text(encoding="utf-8").replace("__ASSET_VERSION__", asset_version)
+        (output / name).write_text(content, encoding="utf-8")
+
     data_path = output / "data" / "dashboard.json"
     data_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return data_path

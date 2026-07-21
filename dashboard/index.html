@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="PQC, quantum technology, and AI security intelligence dashboard">
   <title>Quantum Research Scout</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="components.css">
+  <link rel="stylesheet" href="styles.css?v=__ASSET_VERSION__">
+  <link rel="stylesheet" href="components.css?v=__ASSET_VERSION__">
 </head>
 <body>
   <header class="hero">
     <nav class="nav shell" aria-label="Primary navigation">
       <a class="brand" href="#top"><span class="brand-mark">Q</span><span>Quantum Research Scout</span></a>
-      <div class="nav-links">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-links"><span></span><span></span><span></span><b>Menu</b></button>
+      <div id="primary-links" class="nav-links">
         <a href="#guide">Guide</a><a href="#trends">Trends</a><a href="#alerts">Alerts</a><a href="#signals">Signals</a><a href="#watch">Watch</a><a href="#coverage">Coverage</a><a href="#sources">Sources</a><a href="#reports">Reports</a>
         <a id="repo-link" class="button secondary" href="#">Repository</a>
       </div>
@@ -104,6 +105,6 @@
   </main>
 
   <footer><div class="shell"><span>Quantum Research Scout</span><span id="footer-updated"></span></div></footer>
-  <script src="app.js" defer></script>
+  <script src="app.js?v=__ASSET_VERSION__" defer></script>
 </body>
 </html>

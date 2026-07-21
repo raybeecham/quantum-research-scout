@@ -115,7 +115,7 @@ def _profile(config: dict, evidence: list[dict], today: date, anchor_date: date)
         "momentum": _momentum(recent_count, prior_count),
         "status": _status(today, latest),
         "themes": themes,
-        "evidence": matches[:12],
+        "evidence": matches[:40],
     }
 
 

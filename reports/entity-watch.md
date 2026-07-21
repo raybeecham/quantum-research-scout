@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-07-21 07:58 UTC_
+_Updated 2026-07-21 20:33 UTC_
 
 ## Organizations
 
@@ -46,13 +46,6 @@ _Updated 2026-07-21 07:58 UTC_
 
 | Organization | Coverage | Active first-party sources | Evidence |
 |---|---|---:|---:|
-| Atom Computing | gap | 0 | 0 |
-| BSI Germany | gap | 0 | 0 |
-| ENISA | gap | 0 | 0 |
-| ETSI | gap | 0 | 0 |
-| PsiQuantum | gap | 0 | 0 |
-| QuEra | gap | 0 | 0 |
-| Intel Quantum | gap | 0 | 0 |
 | MITRE | disabled | 0 | 0 |
 | NSA | disabled | 0 | 0 |
 | Entrust | disabled | 0 | 0 |
@@ -62,10 +55,14 @@ _Updated 2026-07-21 07:58 UTC_
 | Infleqtion | third-party | 0 | 4 |
 | Pasqal | third-party | 0 | 8 |
 | NIST | covered | 2 | 1 |
+| Atom Computing | covered | 1 | 0 |
+| BSI Germany | covered | 1 | 0 |
 | CISA | covered | 1 | 0 |
 | Cisco | covered | 1 | 0 |
 | Cloudflare | covered | 2 | 2 |
 | DigiCert | covered | 1 | 0 |
+| ENISA | covered | 1 | 0 |
+| ETSI | covered | 1 | 0 |
 | Fortanix | covered | 1 | 0 |
 | Google Quantum AI | covered | 2 | 1 |
 | IBM | covered | 1 | 9 |
@@ -76,6 +73,8 @@ _Updated 2026-07-21 07:58 UTC_
 | Open Quantum Safe | covered | 1 | 0 |
 | PQCA | covered | 2 | 0 |
 | PQShield | covered | 1 | 1 |
+| PsiQuantum | covered | 1 | 0 |
+| QuEra | covered | 1 | 0 |
 | QuSecure | covered | 1 | 2 |
 | Quantinuum | covered | 1 | 2 |
 | Quantum Computing Inc. (QCi) | covered | 1 | 0 |
@@ -84,4 +83,5 @@ _Updated 2026-07-21 07:58 UTC_
 | UK NCSC | covered | 3 | 0 |
 | Wiz | covered | 1 | 0 |
 | AWS | covered | 1 | 4 |
+| Intel Quantum | covered | 1 | 0 |
 | Rigetti | covered | 1 | 0 |

@@ -188,3 +188,46 @@ watch_sources:
     include_patterns: [/blog/, /press-releases/, quantum, crypto-agil, cryptograph]
     match_patterns: [post-quantum, post quantum, quantum, crypto-agil, cryptograph]
     max_items: 25
+  - name: "Atom Computing News and Research"
+    entities: [Atom Computing]
+    url: "https://atom-computing.com/"
+    include_patterns: [quantum, qubit, fault-tolerant, neutral-atom]
+    max_items: 25
+  - name: "BSI Germany Quantum-Safe Guidance"
+    entities: [BSI Germany]
+    url: "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Quantentechnologien-und-Post-Quanten-Kryptografie/Quantenkryptografie/quantenkryptografie.html"
+    include_source_page: true
+    include_patterns: [quant, post-quanten, kryptograf, cryptograph]
+    exclude_patterns: [gebaerdensprache, leichtesprache]
+    match_patterns: [quant, post-quanten, post quantum, kryptograf, cryptograph]
+    max_items: 1
+  - name: "ENISA Cryptography and PQC"
+    entities: [ENISA]
+    url: "https://www.enisa.europa.eu/topics/digital-identity-and-data-protection/cryptography"
+    include_source_page: true
+    include_patterns: [cryptograph, quantum, /news/]
+    match_patterns: [post-quantum, post quantum, quantum-safe, quantum safe, cryptograph]
+    max_items: 20
+  - name: "ETSI Quantum Standards News"
+    entities: [ETSI]
+    url: "https://www.etsi.org/newsroom/"
+    include_patterns: [post-quantum, quantum-safe, quantum, q-day]
+    match_patterns: [post-quantum, post quantum, quantum-safe, quantum safe, quantum technolog, quantum cryptograph, quantum key]
+    max_items: 25
+  - name: "PsiQuantum News"
+    entities: [PsiQuantum]
+    urls: ["https://www.psiquantum.com/news-import?category=Company", "https://www.psiquantum.com/news/"]
+    include_patterns: [/news-import/]
+    max_items: 25
+  - name: "QuEra Press Releases"
+    entities: [QuEra]
+    url: "https://www.quera.com/"
+    include_patterns: [/press-releases/]
+    max_items: 25
+  - name: "Intel Quantum Research News"
+    entities: [Intel Quantum]
+    urls: ["https://www.intel.com/content/www/us/en/research/news/news-archive.html", "https://newsroom.intel.com/new-technologies/quantum-computing-chip-to-advance-research"]
+    include_source_page: true
+    include_patterns: [quantum, qubit, tunnel-falls]
+    match_patterns: [quantum, qubit, tunnel falls, tunnel-falls]
+    max_items: 20

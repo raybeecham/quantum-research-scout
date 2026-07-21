@@ -13,6 +13,10 @@ SITEMAP = """<?xml version="1.0"?>
 ARTICLE = """<html><head><title>Company awarded quantum contract</title>
 <meta name="description" content="A material contract award.">
 <meta property="article:published_time" content="2026-07-20T12:00:00Z"></head></html>"""
+NEWS_PAGE = """<html><head><title>News</title></head><body>
+<a href="/news/quantum-contract">Read article</a></body></html>"""
+TOPIC_PAGE = """<html><head><title>Post-Quantum Cryptography Guidance</title>
+<meta name="description" content="Official quantum-safe migration guidance."></head><body></body></html>"""
 
 
 class MappingClient:
@@ -68,3 +72,36 @@ class WatchSourceTests(unittest.TestCase):
         self.assertEqual(result.items, [])
         self.assertEqual(len(result.warnings), 1)
         self.assertIn("All discovery methods failed", result.warnings[0].message)
+
+    def test_watch_source_can_collect_an_official_topic_page(self) -> None:
+        result = collect_watch_sources(
+            MappingClient({"https://example.com/topics/pqc": TOPIC_PAGE}),  # type: ignore[arg-type]
+            [
+                {
+                    "name": "Official PQC Guidance",
+                    "url": "https://example.com/topics/pqc",
+                    "include_source_page": True,
+                    "match_patterns": ["post-quantum", "quantum-safe"],
+                }
+            ],
+            10,
+        )
+
+        self.assertEqual(len(result.items), 1)
+        self.assertEqual(result.warnings, [])
+        self.assertEqual(result.items[0].url, "https://example.com/topics/pqc")
+        self.assertEqual(result.items[0].raw_payload["discovery_method"], "html")
+
+    def test_html_discovery_prefers_the_article_metadata_title(self) -> None:
+        result = collect_watch_sources(
+            MappingClient(
+                {
+                    "https://example.com/news": NEWS_PAGE,
+                    "https://example.com/news/quantum-contract": ARTICLE,
+                }
+            ),  # type: ignore[arg-type]
+            [{"name": "Company News", "url": "https://example.com/news", "include_patterns": ["quantum"]}],
+            10,
+        )
+
+        self.assertEqual(result.items[0].title, "Company awarded quantum contract")

@@ -65,6 +65,7 @@ class LinkExtractor(HTMLParser):
         self.base_url = base_url
         self.links: list[PageLink] = []
         self.page_title = ""
+        self.meta_title = ""
         self.meta_description = ""
         self.published_date_text = ""
         self.published_date_source = ""
@@ -107,6 +108,8 @@ class LinkExtractor(HTMLParser):
             if name in {"description", "og:description"} and not self.meta_description:
                 self.meta_description = normalize_whitespace(attr_map.get("content", ""))
             content = normalize_whitespace(attr_map.get("content", ""))
+            if content and name in {"og:title", "twitter:title"} and not self.meta_title:
+                self.meta_title = content
             if content and name in PUBLISHED_META_KEYS and not self.published_date_text:
                 self.published_date_text = content
                 self.published_date_source = name
@@ -157,7 +160,7 @@ def extract_links(html_text: str, base_url: str, same_domain_only: bool = True) 
             continue
         seen.add(link.url)
         links.append(link)
-    return parser.page_title, parser.meta_description, links
+    return parser.meta_title or parser.page_title, parser.meta_description, links
 
 
 def extract_page_metadata(html_text: str, base_url: str = "", source_name: str = "") -> PageMetadata:
@@ -165,7 +168,7 @@ def extract_page_metadata(html_text: str, base_url: str = "", source_name: str =
     parser.feed(html_text)
     extraction = _best_publication_date(parser, base_url, source_name)
     return PageMetadata(
-        title=parser.page_title,
+        title=parser.meta_title or parser.page_title,
         description=parser.meta_description,
         published_at=extraction[0],
         date_source=extraction[1],

@@ -4,76 +4,6 @@
   "coverage": [
     {
       "active_sources": [],
-      "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
-      "name": "Atom Computing",
-      "priority": "high",
-      "status": "gap",
-      "type": "company"
-    },
-    {
-      "active_sources": [],
-      "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
-      "name": "BSI Germany",
-      "priority": "high",
-      "status": "gap",
-      "type": "government"
-    },
-    {
-      "active_sources": [],
-      "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
-      "name": "ENISA",
-      "priority": "high",
-      "status": "gap",
-      "type": "government"
-    },
-    {
-      "active_sources": [],
-      "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
-      "name": "ETSI",
-      "priority": "high",
-      "status": "gap",
-      "type": "standards"
-    },
-    {
-      "active_sources": [],
-      "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
-      "name": "PsiQuantum",
-      "priority": "high",
-      "status": "gap",
-      "type": "company"
-    },
-    {
-      "active_sources": [],
-      "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
-      "name": "QuEra",
-      "priority": "high",
-      "status": "gap",
-      "type": "company"
-    },
-    {
-      "active_sources": [],
-      "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
-      "name": "Intel Quantum",
-      "priority": "medium",
-      "status": "gap",
-      "type": "company"
-    },
-    {
-      "active_sources": [],
       "disabled_sources": [
         {
           "enabled": false,
@@ -195,6 +125,38 @@
       "active_sources": [
         {
           "enabled": true,
+          "name": "Atom Computing News and Research",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Atom Computing",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "BSI Germany Quantum-Safe Guidance",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "BSI Germany",
+      "priority": "high",
+      "status": "covered",
+      "type": "government"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
           "name": "CISA Cybersecurity Advisories",
           "type": "rss"
         }
@@ -259,6 +221,38 @@
       "priority": "high",
       "status": "covered",
       "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "ENISA Cryptography and PQC",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "ENISA",
+      "priority": "high",
+      "status": "covered",
+      "type": "government"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "ETSI Quantum Standards News",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "ETSI",
+      "priority": "high",
+      "status": "covered",
+      "type": "standards"
     },
     {
       "active_sources": [
@@ -440,6 +434,38 @@
       "active_sources": [
         {
           "enabled": true,
+          "name": "PsiQuantum News",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "PsiQuantum",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "QuEra Press Releases",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "QuEra",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
           "name": "QuSecure Press Releases",
           "type": "watch"
         }
@@ -578,6 +604,22 @@
       "active_sources": [
         {
           "enabled": true,
+          "name": "Intel Quantum Research News",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Intel Quantum",
+      "priority": "medium",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
           "name": "Rigetti News",
           "type": "url"
         }
@@ -592,9 +634,9 @@
     }
   ],
   "coverage_summary": {
-    "covered": 24,
+    "covered": 31,
     "disabled": 3,
-    "gap": 7,
+    "gap": 0,
     "third-party": 5
   },
   "entities": [
@@ -1590,6 +1632,18 @@
           ],
           "title": "Researchers Build Improved Quantum Error Correction Using Novel Matrices",
           "url": "https://quantumzeitgeist.com/quantum-error-correction-optimal-defining-matrices-codes"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://quantumzeitgeist.com/what-is-the-surface-code",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 51,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "What Is the Surface Code? The Complete 2026 Guide to Quantum Error Correction\u2019s Workhorse",
+          "url": "https://quantumzeitgeist.com/what-is-the-surface-code"
         }
       ],
       "evidence_count": 13,
@@ -2257,6 +2311,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-07-21T07:58:19.395592+00:00",
+  "updated_at": "2026-07-21T20:33:02.656013+00:00",
   "version": 1
 }
