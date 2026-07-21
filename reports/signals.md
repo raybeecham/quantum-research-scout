@@ -1,18 +1,22 @@
 # Persistent Signal Tracker
 
-_Updated 2026-07-21 05:53 UTC_
+> **Strategic Radar** · Durable evidence · Seven-day momentum · Action-oriented follow-up
+
+[Report Index](README.md) · [Source Health](source-health.md)
+
+_Updated 2026-07-21 06:28 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
-| AI Security | rising (4 vs 1) | high | high | actionable | 2026-07-01 | 2026-07-17 | 6 |
-| Quantum Networking | rising (15 vs 6) | high | high | actionable | 2026-06-22 | 2026-07-18 | 40 |
-| PQC / Crypto Agility | declining (10 vs 17) | critical | high | watching | 2026-06-21 | 2026-07-17 | 54 |
-| QEC / Fault Tolerance | stable (8 vs 7) | critical | high | watching | 2026-06-23 | 2026-07-16 | 27 |
-| Quantum Hardware | stable (28 vs 25) | high | high | watching | 2026-06-22 | 2026-07-20 | 107 |
-| Quantum Software / Tooling | stable (10 vs 9) | high | high | watching | 2026-06-22 | 2026-07-20 | 38 |
-| Quantum Sensing | stable (2 vs 2) | medium | high | watching | 2026-06-22 | 2026-07-20 | 17 |
+| AI Security | ↗️ rising (4 vs 1) | 🟠 high | high | 🎯 actionable | 2026-07-01 | 2026-07-17 | 6 |
+| Quantum Networking | ↗️ rising (15 vs 6) | 🟠 high | high | 🎯 actionable | 2026-06-22 | 2026-07-18 | 40 |
+| PQC / Crypto Agility | ↘️ declining (10 vs 17) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-07-17 | 54 |
+| QEC / Fault Tolerance | ➡️ stable (8 vs 7) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-07-16 | 27 |
+| Quantum Hardware | ➡️ stable (28 vs 25) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-07-20 | 107 |
+| Quantum Software / Tooling | ➡️ stable (10 vs 9) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-07-20 | 38 |
+| Quantum Sensing | ➡️ stable (2 vs 2) | 🟡 medium | high | 👁️ watching | 2026-06-22 | 2026-07-20 | 17 |
 
 ## AI Security
 

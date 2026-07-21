@@ -7,6 +7,7 @@ from pathlib import Path
 
 from .text import normalize_title
 from .weekly import WeeklyItem, parse_daily_report
+from .visuals import momentum_icon, priority_icon, status_icon
 
 THEMES = (
     "PQC / Crypto Agility",
@@ -142,6 +143,10 @@ def _render_tracker(state: dict, generated_at: datetime) -> str:
     lines = [
         "# Persistent Signal Tracker",
         "",
+        "> **Strategic Radar** · Durable evidence · Seven-day momentum · Action-oriented follow-up",
+        "",
+        "[Report Index](README.md) · [Source Health](source-health.md)",
+        "",
         f"_Updated {generated_at.astimezone(timezone.utc):%Y-%m-%d %H:%M UTC}_",
         "",
         "Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.",
@@ -159,9 +164,12 @@ def _render_tracker(state: dict, generated_at: datetime) -> str:
         ),
     )
     for theme, summary in ordered:
+        importance_label = summary["importance"].upper()
         lines.append(
-            f"| {theme} | {summary['momentum']} ({summary['recent_count']} vs {summary['prior_count']}) "
-            f"| {summary['importance']} | {summary['confidence']} | {summary['status']} | "
+            f"| {theme} | {momentum_icon(summary['momentum'])} {summary['momentum']} "
+            f"({summary['recent_count']} vs {summary['prior_count']}) "
+            f"| {priority_icon(importance_label)} {summary['importance']} | {summary['confidence']} | "
+            f"{status_icon(summary['status'])} {summary['status']} | "
             f"{summary['first_seen']} | {summary['latest_seen']} | {len(summary['evidence'])} |"
         )
     for theme, summary in ordered:

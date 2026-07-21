@@ -44,4 +44,7 @@ class SignalTrackerTests(unittest.TestCase):
             self.assertEqual(signal["first_seen"], "2026-07-19")
             self.assertEqual(signal["latest_seen"], "2026-07-20")
             self.assertEqual(signal["momentum"], "rising")
-            self.assertIn("Persistent Signal Tracker", markdown_path.read_text(encoding="utf-8"))
+            markdown = markdown_path.read_text(encoding="utf-8")
+            self.assertIn("Persistent Signal Tracker", markdown)
+            self.assertIn("> **Strategic Radar**", markdown)
+            self.assertIn("↗️ rising", markdown)

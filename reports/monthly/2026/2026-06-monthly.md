@@ -1,5 +1,13 @@
 # PQC and Quantum Monthly Intelligence Synthesis - June 2026
 
+> **Monthly Intelligence Brief** · Consolidated themes, movement, and follow-up
+
+[Executive Summary](#executive-summary) · [Strategic Themes](#strategic-themes) · [Top Signals](#top-strategic-signals) · [Follow-Up](#suggested-follow-up)
+
+| Daily reports | Unique signals | Missing days | Source warnings |
+|---:|---:|---:|---:|
+| 30 | 243 | 0 | 108 |
+
 ## Executive Summary
 
 - Top monthly signal: QuiX Quantum Unveils Path to Universal Photonic Quantum Computing with Logical Qubits from The Quantum Insider (QEC / Fault Tolerance, score 136).

@@ -36,6 +36,7 @@ class SourceHealthTests(unittest.TestCase):
             )
             content = output.read_text(encoding="utf-8")
 
-            self.assertIn("| Broken Feed | rss | 50% | 1 | 0 | 2026-07-20 | failing |", content)
-            self.assertIn("| Healthy Feed | rss | 100% | 0 | 0 | none | healthy |", content)
+            self.assertIn("| Broken Feed | rss | 50% | 1 | 0 | 2026-07-20 | 🔴 failing |", content)
+            self.assertIn("| Healthy Feed | rss | 100% | 0 | 0 | none | 🟢 healthy |", content)
+            self.assertIn("> **Collection Operations**", content)
             self.assertIn("- Disabled Feed [rss]", content)

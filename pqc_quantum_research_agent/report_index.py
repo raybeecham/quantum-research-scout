@@ -23,7 +23,12 @@ def write_report_index(reports_dir: str | Path, *, generated_at: datetime | None
     lines = [
         "# Research Report Index",
         "",
+        "> **Quantum Research Scout** · Intelligence archive and operational dashboard",
+        "",
         f"_Updated {generated.astimezone(timezone.utc):%Y-%m-%d %H:%M UTC}_",
+        "",
+        "[Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · "
+        "[Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)",
         "",
         "## Latest Reports",
         "",

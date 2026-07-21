@@ -1,6 +1,10 @@
 # Research Report Index
 
-_Updated 2026-07-21 05:55 UTC_
+> **Quantum Research Scout** · Intelligence archive and operational dashboard
+
+_Updated 2026-07-21 06:28 UTC_
+
+[Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
 
 ## Latest Reports
 

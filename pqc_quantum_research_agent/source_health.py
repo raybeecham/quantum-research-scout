@@ -6,6 +6,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from .config import AgentConfig, load_config
+from .visuals import health_icon
 
 DAILY_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})-digest\.md$")
 WARNING_RE = re.compile(r"^- \*\*(?P<name>.+?)\*\* \[(?P<type>[^]]+)] \((?P<url>[^)]+)\): (?P<message>.+)$")
@@ -49,6 +50,10 @@ def write_source_health_report(
     lines = [
         "# Source Health",
         "",
+        "> **Collection Operations** · Rolling reliability · Expected idle periods · Active warnings",
+        "",
+        "[Report Index](README.md) · [Signal Tracker](signals.md)",
+        "",
         f"_Updated {generated.astimezone(timezone.utc):%Y-%m-%d %H:%M UTC}_",
         "",
         f"Rolling health is inferred from **{len(set(report_dates))}** retained daily report(s). A successful attempt means no source warning was recorded for that report.",
@@ -70,7 +75,8 @@ def write_source_health_report(
         rows.append((failure_days, name, source_type, success_rate, idle_days, last_warning, status))
     for failure_days, name, source_type, success_rate, idle_days, last_warning, status in sorted(rows, key=lambda row: (-row[0], row[1])):
         lines.append(
-            f"| {name} | {source_type} | {success_rate:.0f}% | {failure_days} | {idle_days} | {last_warning} | {status} |"
+            f"| {name} | {source_type} | {success_rate:.0f}% | {failure_days} | {idle_days} | "
+            f"{last_warning} | {health_icon(status)} {status} |"
         )
 
     lines.extend(["", "## Disabled Sources", ""])

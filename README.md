@@ -155,6 +155,12 @@ Publication dates are normalized to UTC for storage, then interpreted with the A
 
 ## Report Format
 
+Reports use a consistent GitHub-native intelligence briefing style: quick-navigation links, compact status tables, visual priority/momentum/health markers, and collapsible collection diagnostics. The notation is intentionally small and consistent:
+
+- 🔴 critical, 🟠 high/degraded, 🟡 medium, 🟢 healthy
+- ↗️ rising, ➡️ stable, ↘️ declining
+- 🎯 actionable, 👁️ watching, 💤 stale
+
 Each daily Markdown digest includes:
 
 1. Key Takeaways

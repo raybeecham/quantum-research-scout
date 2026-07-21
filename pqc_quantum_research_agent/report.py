@@ -19,6 +19,7 @@ from .classifier import DEFAULT_MIN_TOPIC_CONFIDENCE, phrase_in_text
 from .date_filter import INCLUDED_STATUSES
 from .models import DateFilterSummary, ResearchItem, SourceWarning
 from .text import normalize_title, normalize_whitespace, strip_html
+from .visuals import priority_icon
 
 FULL_ENTRY_SECTIONS = (
     "Top PQC / Security Signals",
@@ -321,9 +322,22 @@ def render_digest(
         min_topic_confidence=min_topic_confidence,
     )
     summary.included_in_report = len(report_items)
+    highest_priority = _priority_label(report_items[0].score) if report_items else "NONE"
 
     lines: list[str] = [
         f"# PQC and Quantum Research Digest - {report_date.isoformat()}",
+        "",
+        "> **Daily Intelligence Brief** · Post-quantum cryptography · Quantum technology · AI security",
+        "",
+        "[Key Takeaways](#key-takeaways) · [Strategic Signals](#strategic-signals) · "
+        "[Research](#research) · [Source Health](#source-failures--warnings)",
+        "",
+        "| Coverage | Included | New unique | Warnings | Highest priority |",
+        "|---|---:|---:|---:|---|",
+        (
+            f"| {report_date.isoformat()} · {OPERATIONAL_TIMEZONE_NAME} | {len(report_items)} | "
+            f"{summary.new_unique_items_saved} | {len(warnings)} | {priority_icon(highest_priority)} {highest_priority} |"
+        ),
         "",
         f"- Operational timezone: **{OPERATIONAL_TIMEZONE_NAME}**",
         f"- Generated timestamp Central: **{_central_timestamp(summary.generated_at)}**",
@@ -380,13 +394,14 @@ def render_digest(
     lines.append("")
 
     lines.extend(["## Source Failures / Warnings", ""])
+    lines.extend(["<details>", f"<summary><strong>Collection diagnostics ({len(warnings)} warning(s))</strong></summary>", ""])
     if warnings:
         for warning in warnings:
             location = f" ({warning.url})" if warning.url else ""
             lines.append(f"- **{warning.source_name}** [{warning.source_type}]{location}: {warning.message}")
     else:
         lines.append("No source failures or warnings recorded in this run.")
-    lines.append("")
+    lines.extend(["", "</details>", ""])
     lines.extend(_render_source_date_summary(summary))
     lines.append("")
     return "\n".join(lines)

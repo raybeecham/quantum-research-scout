@@ -424,9 +424,19 @@ def render_weekly_report(weekly: WeeklyInputs) -> str:
     top_items = unique_items[:10]
     featured_keys = {_item_key(item) for item in top_items}
     theme_items = _items_by_theme(unique_items)
+    warning_count = sum(report.source_warning_count for report in weekly.reports)
 
     lines: list[str] = [
         f"# PQC and Quantum Weekly Intelligence Synthesis - {weekly.start_date.isoformat()} to {weekly.end_date.isoformat()}",
+        "",
+        "> **Weekly Intelligence Brief** · Consolidated themes, movement, and follow-up",
+        "",
+        "[Executive Summary](#executive-summary) · [Strategic Themes](#strategic-themes) · "
+        "[Top Signals](#top-strategic-signals) · [Follow-Up](#suggested-follow-up)",
+        "",
+        "| Daily reports | Unique signals | Missing days | Source warnings |",
+        "|---:|---:|---:|---:|",
+        f"| {len(weekly.reports)} | {len(unique_items)} | {len(weekly.missing_dates)} | {warning_count} |",
         "",
     ]
     if weekly.missing_dates:

@@ -1,5 +1,13 @@
 # PQC and Quantum Monthly Intelligence Synthesis - May 2026
 
+> **Monthly Intelligence Brief** · Consolidated themes, movement, and follow-up
+
+[Executive Summary](#executive-summary) · [Strategic Themes](#strategic-themes) · [Top Signals](#top-strategic-signals) · [Follow-Up](#suggested-follow-up)
+
+| Daily reports | Unique signals | Missing days | Source warnings |
+|---:|---:|---:|---:|
+| 20 | 111 | 11 | 72 |
+
 > Coverage caveat: This synthesis is based on 20 of 31 daily reports. Treat trends as preliminary.
 
 ## Executive Summary

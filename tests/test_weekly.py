@@ -245,6 +245,8 @@ class WeeklyReportTests(unittest.TestCase):
         self.assertEqual(output_path.name, "2026-05-12_to_2026-05-13-weekly.md")
         self.assertEqual(output_path.parent.name, "2026")
         self.assertIn("# PQC and Quantum Weekly Intelligence Synthesis - 2026-05-12 to 2026-05-13", content)
+        self.assertIn("> **Weekly Intelligence Brief**", content)
+        self.assertIn("| Daily reports | Unique signals | Missing days | Source warnings |", content)
         self.assertIn("## Strategic Themes", content)
         self.assertIn("## Top Strategic Signals", content)
         self.assertIn("## PQC and Crypto-Agility Watch", content)
