@@ -54,6 +54,8 @@ rss_feeds:
   - name: "NCSC UK Reports"
     url: "https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml"
     max_items: 25
+  - name: "Cloudflare Blog"
+    url: "https://blog.cloudflare.com/rss/"
   - name: "Google Security Blog"
     url: "https://security.googleblog.com/feeds/posts/default"
   - name: "AWS Quantum Technologies Blog"
@@ -65,6 +67,7 @@ rss_feeds:
     url: "https://www.digicert.com/blog/feed/"
   - name: "Keyfactor Blog"
     url: "https://www.keyfactor.com/blog/feed/"
+    enabled: false  # Official endpoint no longer returns a parseable feed.
 
 urls:
   - name: "QuantumNews.ai"
@@ -76,7 +79,8 @@ urls:
   - name: "NIST Post-Quantum Cryptography Project"
     url: "https://csrc.nist.gov/projects/post-quantum-cryptography"
   - name: "NSA Cybersecurity Advisories"
-    url: "https://www.nsa.gov/Press-Room/News-Highlights/cybersecurity-advisories-guidance/"
+    url: "https://www.nsa.gov/Cybersecurity/Cybersecurity-Advisories-Guidance/"
+    enabled: false  # NSA blocks this automated HTML collector with HTTP 403.
   - name: "IETF PQUIP"
     url: "https://datatracker.ietf.org/group/pquip/about/"
   - name: "Google Quantum AI"
@@ -104,3 +108,4 @@ urls:
     url: "https://cpl.thalesgroup.com/blog"
   - name: "Entrust Blog"
     url: "https://www.entrust.com/blog"
+    enabled: false  # Entrust blocks this automated HTML collector with HTTP 403.
