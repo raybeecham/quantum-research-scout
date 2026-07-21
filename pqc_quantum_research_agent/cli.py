@@ -14,6 +14,8 @@ from .dates import OPERATIONAL_TIMEZONE_NAME, operational_today
 from .dedupe import dedupe_items, prepare_identity
 from .report import is_report_relevant, select_report_items, write_daily_digest
 from .retention import prune_daily_reports
+from .monthly import write_monthly_report
+from .report_index import write_report_index
 from .storage import ResearchStore
 from .weekly import write_weekly_report
 
@@ -29,6 +31,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--db", default="data/research_items.sqlite", help="Path to SQLite database.")
     parser.add_argument("--reports-dir", default="reports", help="Directory for Markdown digests.")
     parser.add_argument("--weekly", action="store_true", help="Generate a weekly synthesis from existing daily reports.")
+    parser.add_argument("--monthly", action="store_true", help="Generate a monthly synthesis from existing daily reports.")
+    parser.add_argument("--month", default=None, help="Monthly synthesis target in YYYY-MM format; defaults to last month.")
+    parser.add_argument("--update-report-index", action="store_true", help="Refresh reports/README.md after report generation.")
     parser.add_argument("--week-start", default=None, help="Weekly synthesis start date in YYYY-MM-DD format.")
     parser.add_argument("--week-end", default=None, help="Weekly synthesis end date in YYYY-MM-DD format.")
     parser.add_argument(
@@ -65,8 +70,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--retention-days",
         type=int,
-        default=180,
-        help="Daily digest retention window used with --prune-daily-reports. Weekly reports are not pruned.",
+        default=30,
+        help="Daily digest retention window used with --prune-daily-reports. Synthesis reports are not pruned.",
     )
     parser.add_argument("--since-days", type=int, default=None, help=argparse.SUPPRESS)
     parser.add_argument("--days-back", type=int, default=None, help=argparse.SUPPRESS)
@@ -124,6 +129,21 @@ def main(argv: list[str] | None = None) -> int:
             generated_at=datetime.now(timezone.utc),
         )
         LOGGER.info("Wrote weekly synthesis to %s", report_path)
+        if args.update_report_index:
+            write_report_index(Path(args.reports_dir))
+        print(report_path)
+        return 0
+
+    if args.monthly:
+        try:
+            report_path = write_monthly_report(
+                Path(args.reports_dir), month=args.month, generated_at=datetime.now(timezone.utc)
+            )
+        except ValueError as exc:
+            raise SystemExit(str(exc)) from exc
+        LOGGER.info("Wrote monthly synthesis to %s", report_path)
+        if args.update_report_index:
+            write_report_index(Path(args.reports_dir))
         print(report_path)
         return 0
 
@@ -269,10 +289,12 @@ def main(argv: list[str] | None = None) -> int:
         except ValueError as exc:
             raise SystemExit(str(exc)) from exc
         LOGGER.info(
-            "Pruned %d daily digest(s) older than %d day(s); weekly reports were left intact",
+            "Pruned %d daily digest(s) older than %d day(s); synthesis reports were left intact",
             len(deleted_reports),
             args.retention_days,
         )
+    if args.update_report_index:
+        write_report_index(Path(args.reports_dir))
     print(report_path)
     return 0
 

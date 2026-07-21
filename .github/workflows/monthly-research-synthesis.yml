@@ -1,19 +1,23 @@
-name: Weekly PQC Quantum Research Synthesis
+name: Monthly PQC Quantum Research Synthesis
 
 on:
   schedule:
-    # UTC schedule: 01:00 Monday.
-    # Intended local schedule: Sunday night after the daily 7:00 PM US Central run during daylight saving time.
-    - cron: "0 1 * * 1"
+    # Generate the prior month's synthesis on the first day of each month.
+    - cron: "0 2 1 * *"
   workflow_dispatch:
+    inputs:
+      month:
+        description: "Optional target month (YYYY-MM); defaults to the prior month"
+        required: false
+        type: string
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   TZ: America/Chicago
 
 jobs:
-  weekly-synthesis:
-    name: Generate weekly synthesis
+  monthly-synthesis:
+    name: Generate monthly synthesis
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -33,33 +37,37 @@ jobs:
       - name: Install agent
         run: python -m pip install .
 
-      - name: Generate weekly synthesis
+      - name: Generate monthly synthesis
         env:
           REPORTS_DIR: ${{ github.workspace }}/reports
+          TARGET_MONTH: ${{ inputs.month }}
         run: |
-          mkdir -p "$REPORTS_DIR/weekly"
+          mkdir -p "$REPORTS_DIR/monthly"
+          MONTH_ARGS=()
+          if [ -n "$TARGET_MONTH" ]; then
+            MONTH_ARGS=(--month "$TARGET_MONTH")
+          fi
           pqc-quantum-research-agent \
             --reports-dir "$REPORTS_DIR" \
-            --weekly \
+            --monthly \
+            "${MONTH_ARGS[@]}" \
             --update-report-index
 
-      - name: Commit generated weekly reports
+      - name: Commit generated monthly report
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A reports/weekly reports/README.md
+          git add -A reports/monthly reports/README.md
           if git diff --cached --quiet; then
-            echo "No weekly report changes to commit"
+            echo "No monthly report changes to commit"
           else
-            git commit -m "Weekly PQC synthesis $(date +%F)"
+            git commit -m "Monthly PQC synthesis $(date +%F)"
             git push
           fi
 
-      - name: Upload weekly synthesis
+      - name: Upload monthly synthesis
         uses: actions/upload-artifact@v7
         with:
-          name: pqc-quantum-weekly-synthesis
-          path: |
-            reports/weekly/*-weekly.md
-            reports/weekly/*/*-weekly.md
+          name: pqc-quantum-monthly-synthesis
+          path: reports/monthly/*/*-monthly.md
           if-no-files-found: error

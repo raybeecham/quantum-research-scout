@@ -1,0 +1,45 @@
+# Research Report Index
+
+_Updated 2026-07-21 05:33 UTC_
+
+## Latest Reports
+
+- Daily: [2026-07-20-digest](2026-07/2026-07-20-digest.md)
+- Weekly: [2026-07-13_to_2026-07-19-weekly](weekly/2026/2026-07-13_to_2026-07-19-weekly.md)
+- Monthly: [2026-06-monthly](monthly/2026/2026-06-monthly.md)
+
+## Current High-Priority Themes
+
+- PQC migration and crypto-agility appeared in 8 signal(s), with emphasis on readiness, inventory, and implementation planning.
+- Watch for TLS, PKI, CBOM, FIPS, HNDL, and inventory-specific movement next week.
+- Quantum-safe platform claims appeared and should be checked against concrete standards alignment.
+- QEC and fault-tolerance signals centered on logical-qubit reliability and code overhead.
+- Track whether decoder, LDPC, surface-code, or logical-qubit results translate into implementation guidance.
+- Hardware activity focused on scaling architectures, qubit modalities, and processor integration choices.
+- The practical question is whether device-level progress connects to lower error rates and manufacturable systems.
+- Networking signals emphasized distributed quantum computing, entanglement, and network resilience.
+
+## Recent Weekly Reports
+
+- [2026-07-13_to_2026-07-19-weekly](weekly/2026/2026-07-13_to_2026-07-19-weekly.md)
+- [2026-07-06_to_2026-07-12-weekly](weekly/2026/2026-07-06_to_2026-07-12-weekly.md)
+- [2026-06-29_to_2026-07-05-weekly](weekly/2026/2026-06-29_to_2026-07-05-weekly.md)
+- [2026-06-22_to_2026-06-28-weekly](weekly/2026/2026-06-22_to_2026-06-28-weekly.md)
+- [2026-06-15_to_2026-06-21-weekly](weekly/2026/2026-06-15_to_2026-06-21-weekly.md)
+- [2026-06-08_to_2026-06-14-weekly](weekly/2026/2026-06-08_to_2026-06-14-weekly.md)
+- [2026-06-01_to_2026-06-07-weekly](weekly/2026/2026-06-01_to_2026-06-07-weekly.md)
+- [2026-05-25_to_2026-05-31-weekly](weekly/2026/2026-05-25_to_2026-05-31-weekly.md)
+- [2026-05-18_to_2026-05-24-weekly](weekly/2026/2026-05-18_to_2026-05-24-weekly.md)
+- [2026-05-11_to_2026-05-17-weekly](weekly/2026/2026-05-11_to_2026-05-17-weekly.md)
+
+## Recent Monthly Reports
+
+- [2026-06-monthly](monthly/2026/2026-06-monthly.md)
+- [2026-05-monthly](monthly/2026/2026-05-monthly.md)
+
+## Archive Summary
+
+- Daily reports retained: **30**
+- Weekly syntheses retained: **10**
+- Monthly syntheses retained: **2**
+- Daily reports use a rolling 30-day retention window; weekly and monthly syntheses are retained indefinitely.

@@ -1,0 +1,33 @@
+from __future__ import annotations
+
+import tempfile
+import unittest
+from datetime import datetime, timezone
+from pathlib import Path
+
+from pqc_quantum_research_agent.report_index import write_report_index
+
+
+class ReportIndexTests(unittest.TestCase):
+    def test_index_links_latest_reports_and_extracts_themes(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports = Path(temp_dir)
+            daily = reports / "2026-07" / "2026-07-20-digest.md"
+            weekly = reports / "weekly" / "2026" / "2026-07-13_to_2026-07-19-weekly.md"
+            monthly = reports / "monthly" / "2026" / "2026-06-monthly.md"
+            for path in (daily, weekly, monthly):
+                path.parent.mkdir(parents=True, exist_ok=True)
+            daily.write_text("# Daily\n", encoding="utf-8")
+            weekly.write_text("# Weekly\n\n## Strategic Themes\n\n- PQC migration accelerated.\n\n## Next\n", encoding="utf-8")
+            monthly.write_text("# Monthly\n", encoding="utf-8")
+
+            output = write_report_index(
+                reports, generated_at=datetime(2026, 7, 21, 12, tzinfo=timezone.utc)
+            )
+            content = output.read_text(encoding="utf-8")
+
+            self.assertIn("[2026-07-20-digest](2026-07/2026-07-20-digest.md)", content)
+            self.assertIn("[2026-07-13_to_2026-07-19-weekly](weekly/2026/", content)
+            self.assertIn("[2026-06-monthly](monthly/2026/2026-06-monthly.md)", content)
+            self.assertIn("- PQC migration accelerated.", content)
+            self.assertIn("Daily reports retained: **1**", content)

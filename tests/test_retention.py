@@ -6,9 +6,13 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 
 from pqc_quantum_research_agent.retention import prune_daily_reports
+from pqc_quantum_research_agent.cli import build_parser
 
 
 class RetentionTests(unittest.TestCase):
+    def test_cli_defaults_to_30_day_retention(self) -> None:
+        self.assertEqual(build_parser().parse_args([]).retention_days, 30)
+
     def test_prune_daily_reports_deletes_only_reports_older_than_retention(self) -> None:
         with TemporaryDirectory() as reports_dir:
             reports_path = Path(reports_dir)

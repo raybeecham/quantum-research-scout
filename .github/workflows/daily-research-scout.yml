@@ -46,12 +46,18 @@ jobs:
           REPORTS_DIR: ${{ github.workspace }}/reports
         run: |
           mkdir -p "$REPORTS_DIR"
+          RETENTION_DAYS=30
+          # On the UTC first of a month, retain one extra day until the monthly synthesis has consumed it.
+          if [ "$(date -u +%d)" = "01" ]; then
+            RETENTION_DAYS=31
+          fi
           pqc-quantum-research-agent \
             --config sources.yaml \
             --db data/research_items.sqlite \
             --reports-dir "$REPORTS_DIR" \
             --prune-daily-reports \
-            --retention-days 180
+            --retention-days "$RETENTION_DAYS" \
+            --update-report-index
 
       - name: Announce report commit
         run: echo "Checking generated reports for repository commit"
