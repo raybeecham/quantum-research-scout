@@ -9,6 +9,7 @@ signals:
 sources:
   degraded: true
   failing: true
+  stale: true
   minimum_warning_days: 1
 
 entities:
@@ -40,3 +41,8 @@ entities:
 
 output:
   max_active_alerts: 50
+
+delivery:
+  minimum_immediate_severity: critical
+  daily_summary: true
+  max_items_per_notification: 10

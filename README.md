@@ -13,7 +13,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 ## What It Does
 
 - Collects papers and articles from arXiv, IACR ePrint, RSS feeds, and configured URLs.
-- Includes default source definitions for The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, NIST CSRC, CISA, PQCA, Open Quantum Safe, Cloudflare, Google Security, IBM Quantum, Microsoft Quantum, AWS, IonQ, Quantinuum, Rigetti, Atom Computing, PsiQuantum, QuEra, Intel Quantum, ENISA, ETSI, BSI Germany, PQShield, SandboxAQ, DigiCert, Thales, and others. Sources that consistently reject automation remain documented but disabled.
+- Includes default source definitions for The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, NIST CSRC, CISA, PQCA, Open Quantum Safe, Cloudflare, Google Security, IBM Quantum, Microsoft Quantum, AWS, IonQ, Quantinuum, Rigetti, Atom Computing, PsiQuantum, QuEra, Intel Quantum, Deloitte, Accenture and Accenture Federal Services, Booz Allen Hamilton, Lockheed Martin, ENISA, ETSI, BSI Germany, PQShield, SandboxAQ, DigiCert, Thales, and others. Sources that consistently reject automation remain documented but disabled.
 - Deduplicates by canonical URL, title hash, and fuzzy title similarity.
 - Classifies each item into:
   - PQC
@@ -34,7 +34,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - Writes a deterministic weekly synthesis to `reports/weekly/YYYY/` from existing daily Markdown digests.
 - Writes a deterministic monthly synthesis to `reports/monthly/YYYY/` and maintains `reports/README.md` as the archive index.
 - Maintains a persistent, deduplicated signal ledger in `reports/signals.json` with a human-readable momentum dashboard in `reports/signals.md`.
-- Publishes rolling source reliability, expected idle periods, disabled sources, and recent active warnings in `reports/source-health.md`.
+- Publishes rolling source reliability, observed check status, last successful fetch, latest dated item, freshness, expected idle periods, disabled sources, and recent active warnings in `reports/source-health.md`.
 - Runs daily through GitHub Actions.
 
 ## Start Here
@@ -53,7 +53,7 @@ Daily reports provide the evidence stream. Weekly and monthly syntheses reduce r
 
 ## Visual Dashboard
 
-The GitHub Pages dashboard is a static, responsive portal built from structured report artifacts and the report archive. It supports alert triage, client-side signal search, status filtering, momentum visualization, source reliability, evidence links, and direct access to the latest reports. Organization and technology names open dedicated profiles with evidence trends, a research timeline, active alerts, themes, and first-party coverage. The mobile menu keeps every dashboard section reachable on narrow screens, while build-versioned CSS, JavaScript, and data URLs prevent stale cached assets after deployment. No application server or runtime database is required.
+The GitHub Pages dashboard is a static, responsive portal built from structured report artifacts and the report archive. It supports alert triage, client-side signal search, status filtering, momentum visualization, source reliability and freshness, evidence links, and direct access to the latest reports. Organization and technology names open dedicated profiles with evidence trends, a research timeline, active alerts, themes, and first-party coverage. The comparison view places two organizations side by side across evidence volume, recent momentum, alerts, themes, coverage, source verification, and freshness. The mobile menu keeps every dashboard section reachable on narrow screens, while build-versioned CSS, JavaScript, and data URLs prevent stale cached assets after deployment. No application server or runtime database is required.
 
 ## Configurable Alerts
 
@@ -70,13 +70,25 @@ The default rules cover:
 
 Daily automation writes `reports/alerts.md` and `reports/alerts.json`, includes the alert center in the dashboard, and publishes the Markdown alert summary in the GitHub Actions run summary.
 
-To deliver new alerts as GitHub Issues, create the repository Actions variable `ALERT_DELIVERY_GITHUB_ISSUES` with value `true`. Delivery is disabled by default. When enabled, one issue is created only when the current evaluation contains alerts not active in the previous state.
+Notification delivery is disabled by default. `alerts.yaml` controls the immediate severity threshold, daily-summary behavior, and per-message item limit. The default sends immediate notifications only for newly observed critical alerts; daily summaries contain the current active alert set. GitHub Actions repository variables enable individual routes, while webhook URLs and API keys remain encrypted repository secrets.
+
+| Route | Enable with Actions variable | Required secret | Additional variables |
+|---|---|---|---|
+| GitHub Issues | `ALERT_DELIVERY_GITHUB_ISSUES=true` | None | None |
+| Slack incoming webhook | `ALERT_DELIVERY_SLACK=true` | `SLACK_ALERT_WEBHOOK_URL` | None |
+| Teams Workflow webhook | `ALERT_DELIVERY_TEAMS=true` | `TEAMS_ALERT_WEBHOOK_URL` | None |
+| Generic JSON webhook | `ALERT_DELIVERY_GENERIC_WEBHOOK=true` | `GENERIC_ALERT_WEBHOOK_URL`; optional `GENERIC_ALERT_WEBHOOK_TOKEN` | None |
+| Email through Resend | `ALERT_DELIVERY_EMAIL=true` | `RESEND_API_KEY` | `ALERT_EMAIL_TO`, `ALERT_EMAIL_FROM` |
+
+Slack payloads use Block Kit-compatible incoming-webhook JSON, Teams payloads use Adaptive Cards, and generic webhooks receive the complete structured alert objects. Email delivery uses idempotency keys tied to the Actions run to avoid duplicate sends during retries.
 
 ## Entity and Technology Watchlists
 
-Edit `watchlists.yaml` to choose organizations, agencies, standards bodies, algorithms, and technologies to follow. Aliases are matched against evidence titles and source names, producing explainable profiles with first/latest appearance, momentum, status, associated themes, and supporting links. The dashboard charts overall historical evidence with 30-day, 90-day, and all-history views, and each watchlist entry has a clickable detail profile built from up to 40 recent matching evidence records.
+Edit `watchlists.yaml` to choose organizations, agencies, standards bodies, algorithms, and technologies to follow. The default consulting and federal-adoption watch now includes Deloitte, a combined Accenture / Accenture Federal Services profile, and Booz Allen Hamilton; Lockheed Martin adds aerospace and defense adoption. Quantum key distribution and CNSA 2.0 complement the existing PQC, crypto-agility, networking, sensing, and fault-tolerance technologies. Aliases are matched against evidence titles and source names, producing explainable profiles with first/latest appearance, momentum, status, associated themes, and supporting links. The dashboard charts overall historical evidence with 30-day, 90-day, and all-history views, and each watchlist entry has a clickable detail profile built from up to 40 recent matching evidence records.
 
 First-party coverage is configured in `sources.yaml`. Entries in `watch_sources` try RSS or Atom first, then sitemap discovery, and finally an official newsroom or blog page. A successful fallback suppresses intermediate warnings, so one organization produces one meaningful health result. Source entries can declare their associated `entities`, allowing the dashboard to classify every watched organization as covered, disabled, third-party-only, or a true collection gap.
+
+Each scheduled collection updates `reports/source-observations.json`. This ledger distinguishes configuration from proof: `verified` means a scheduled run successfully reached the source, `fresh` means its latest dated item is within `source_health.stale_after_days`, `stale` means the latest dated item is older, and `unknown` means the source was reachable but did not expose a usable publication date. Until the first scheduled observation, a source is shown as `unverified` rather than receiving an assumed success state.
 
 Entity alerts evaluate recent evidence from high- and critical-priority watch items. Event patterns and severity are configurable under `entities.events` in `alerts.yaml`; alerts include direct evidence links and use stable fingerprints so unchanged announcements are not repeatedly marked new.
 
@@ -349,6 +361,7 @@ reports/signals.json # durable deduplicated signal evidence
 reports/signals.md  # human-readable signal momentum and follow-up
 reports/source-health.md # rolling source reliability and warnings
 reports/source-health.json # structured source-health dashboard data
+reports/source-observations.json # persistent per-source checks, successes, failures, and latest items
 reports/alerts.md   # human-readable active alert center
 reports/alerts.json # structured dashboard alert data
 reports/alerts-state.json # stable first-seen and deduplication state
@@ -360,4 +373,5 @@ reports/monthly/YYYY/ # generated monthly synthesis reports by year
 data/               # generated SQLite database
 dashboard/          # static dashboard source assets
 scripts/build_dashboard.py # dashboard data and site builder
+scripts/prepare_notifications.py # Slack, Teams, webhook, and email notification payloads
 ```

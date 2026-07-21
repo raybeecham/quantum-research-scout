@@ -115,6 +115,8 @@ def _evaluate(signals: dict, source_health: dict, entity_watch: dict, config: di
     minimum_warning_days = int(source_config.get("minimum_warning_days", 1))
     for source in source_health.get("sources", []):
         status = source.get("status")
+        if source.get("freshness") == "stale" and source_config.get("stale", True):
+            alerts.append(_source_stale_alert(source))
         if int(source.get("warning_days", 0)) < minimum_warning_days:
             continue
         if status == "failing" and source_config.get("failing", True):
@@ -190,6 +192,16 @@ def _source_alert(source: dict, severity: str) -> dict:
         f"source:{status}:{_slug(name)}", f"source_{status}", severity, f"Source {status}: {name}",
         f"{health_icon(status)} {source.get('success_rate', 0)}% reliability with {source.get('warning_days', 0)} warning day(s).",
         name, status, "source-health.md",
+    )
+
+
+def _source_stale_alert(source: dict) -> dict:
+    name = str(source.get("name", "Unknown source"))
+    last_item = str(source.get("last_item_at") or "unknown")[:10]
+    return _alert(
+        f"source:stale:{_slug(name)}", "source_stale", "medium", f"Source stale: {name}",
+        f"The latest dated item is from {last_item}; collection may be healthy but the content stream is stale.",
+        name, "stale", "source-health.md",
     )
 
 

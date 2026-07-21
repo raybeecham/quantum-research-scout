@@ -93,3 +93,33 @@ class AlertTests(unittest.TestCase):
             self.assertEqual(first["alerts"][0]["evidence_url"], "https://example.com/qci-contract")
             self.assertTrue(first["alerts"][0]["is_new"])
             self.assertEqual(second["new_count"], 0)
+
+    def test_stale_source_creates_freshness_alert(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports = Path(temp_dir)
+            (reports / "signals.json").write_text('{"themes": {}}', encoding="utf-8")
+            (reports / "entity-watch.json").write_text('{"entities": []}', encoding="utf-8")
+            (reports / "source-health.json").write_text(
+                json.dumps(
+                    {
+                        "sources": [
+                            {
+                                "name": "Quiet Official Feed",
+                                "status": "healthy",
+                                "freshness": "stale",
+                                "last_item_at": "2026-06-01T00:00:00+00:00",
+                                "warning_days": 0,
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            _, json_path, _ = write_alerts(
+                reports, reports / "missing.yaml", generated_at=datetime(2026, 7, 21, tzinfo=timezone.utc)
+            )
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+
+            self.assertEqual(payload["active_count"], 1)
+            self.assertEqual(payload["alerts"][0]["type"], "source_stale")

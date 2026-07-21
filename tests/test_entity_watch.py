@@ -42,7 +42,31 @@ class EntityWatchTests(unittest.TestCase):
                                         "source": "Example",
                                         "score": 60,
                                         "url": "https://example.com/three",
-                                    }
+                                    },
+                                    {
+                                        "key": "four",
+                                        "date": "2026-07-21",
+                                        "title": "Accenture Federal Services publishes a quantum readiness report",
+                                        "source": "Accenture Federal Services Quantum Readiness",
+                                        "score": 85,
+                                        "url": "https://example.com/four",
+                                    },
+                                    {
+                                        "key": "five",
+                                        "date": "2026-07-21",
+                                        "title": "Agency expands QKD interoperability testing",
+                                        "source": "Example",
+                                        "score": 75,
+                                        "url": "https://example.com/five",
+                                    },
+                                    {
+                                        "key": "six",
+                                        "date": "2026-07-21",
+                                        "title": "Lowercase afs token should not match the organization",
+                                        "source": "Example",
+                                        "score": 50,
+                                        "url": "https://example.com/six",
+                                    },
                                 ]
                             }
                         }
@@ -55,7 +79,9 @@ class EntityWatchTests(unittest.TestCase):
                 "entities:\n  - name: NIST\n    type: government\n    priority: critical\n    aliases: []\n"
                 "  - name: Cisco\n    type: company\n    priority: high\n    aliases: [Cisco Systems]\n"
                 "  - name: Quantum Computing Inc. (QCi)\n    type: company\n    priority: high\n    aliases: [Quantum Computing Inc, QUBT]\n    case_sensitive_aliases: [QCi]\n"
-                "technologies:\n  - name: ML-KEM\n    priority: critical\n    aliases: [FIPS 203]\n",
+                "  - name: Accenture / Accenture Federal Services\n    type: consulting\n    priority: high\n    aliases: [Accenture, Accenture Federal Services]\n    case_sensitive_aliases: [AFS]\n"
+                "technologies:\n  - name: ML-KEM\n    priority: critical\n    aliases: [FIPS 203]\n"
+                "  - name: Quantum key distribution\n    priority: high\n    aliases: [quantum key distribution]\n    case_sensitive_aliases: [QKD]\n",
                 encoding="utf-8",
             )
             sources_config = reports / "sources.yaml"
@@ -78,6 +104,14 @@ class EntityWatchTests(unittest.TestCase):
             qci = next(item for item in payload["entities"] if item["name"] == "Quantum Computing Inc. (QCi)")
             self.assertEqual(qci["evidence_count"], 1)
             self.assertEqual(qci["evidence"][0]["key"], "two")
+            accenture = next(
+                item for item in payload["entities"] if item["name"] == "Accenture / Accenture Federal Services"
+            )
+            self.assertEqual(accenture["evidence_count"], 1)
+            self.assertEqual(accenture["evidence"][0]["key"], "four")
+            qkd = next(item for item in payload["technologies"] if item["name"] == "Quantum key distribution")
+            self.assertEqual(qkd["evidence_count"], 1)
+            self.assertEqual(qkd["evidence"][0]["key"], "five")
             self.assertEqual(payload["unseen_entities"][0]["name"], "Cisco")
             cisco_coverage = next(item for item in payload["coverage"] if item["name"] == "Cisco")
             self.assertEqual(cisco_coverage["status"], "covered")

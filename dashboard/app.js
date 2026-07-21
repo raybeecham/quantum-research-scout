@@ -1,4 +1,4 @@
-const state = { data: null, status: "all", query: "", trendDays: 30, watchType: "entities" };
+const state = { data: null, status: "all", query: "", trendDays: 30, watchType: "entities", compareFirst: "", compareSecond: "" };
 const icons = { rising: "↗", stable: "→", declining: "↘" };
 const definitions = {
   rising: "Latest seven-day evidence is at least 50% higher than the prior seven days.",
@@ -15,6 +15,7 @@ const definitions = {
 const escapeHtml = value => String(value ?? "").replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
 const safeUrl = value => { try { const url = new URL(String(value), window.location.href); return ["http:","https:"].includes(url.protocol) ? url.href : "#"; } catch { return "#"; } };
 const formatDate = value => value ? new Intl.DateTimeFormat(undefined,{dateStyle:"medium",timeStyle:"short"}).format(new Date(value)) : "Unknown";
+const formatShortDate = value => value ? new Intl.DateTimeFormat(undefined,{dateStyle:"medium"}).format(new Date(value)) : "—";
 const profileUrl = (name, kind="entities") => `entity.html?name=${encodeURIComponent(name)}&kind=${encodeURIComponent(kind)}`;
 
 fetch("data/dashboard.json?v=__ASSET_VERSION__").then(response => {
@@ -41,9 +42,12 @@ function render(){
   document.getElementById("metric-coverage").textContent = coverage.length ? `${Math.round(covered / coverage.length * 100)}%` : "—";
   document.getElementById("metric-coverage-detail").textContent = `${covered} of ${coverage.length} organizations`;
   document.getElementById("signal-updated").textContent = `Updated ${formatDate(state.data.signals.updated_at)}`;
-  document.getElementById("source-summary").textContent = `${healthy} of ${sources.length} active sources healthy`;
+  const verified = sources.filter(x => x.verification_status === "verified").length;
+  const fresh = sources.filter(x => x.freshness === "fresh").length;
+  const stale = sources.filter(x => x.freshness === "stale").length;
+  document.getElementById("source-summary").textContent = `${healthy} healthy · ${verified} verified · ${fresh} fresh · ${stale} stale`;
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
-  renderTrend(); renderAlerts(alerts); renderSignals(); renderWatch(); renderCoverage(); renderSources(sources); renderReports(state.data.reports);
+  renderTrend(); renderAlerts(alerts); renderSignals(); renderWatch(); renderComparison(); renderCoverage(); renderSources(sources); renderReports(state.data.reports);
 }
 
 function renderTrend(){
@@ -114,6 +118,31 @@ function renderCoverage(){
   }).join("");
 }
 
+function renderComparison(){
+  const watch = state.data.entity_watch || {};
+  const entities = [...(watch.entities || []), ...(watch.unseen_entities || [])].sort((a,b) => (b.evidence_count || 0) - (a.evidence_count || 0) || a.name.localeCompare(b.name));
+  if (!entities.length) { document.getElementById("compare-results").innerHTML = '<div class="empty-state">No organizations are configured for comparison.</div>'; return; }
+  if (!state.compareFirst || !entities.some(item => item.name === state.compareFirst)) state.compareFirst = entities[0].name;
+  if (!state.compareSecond || state.compareSecond === state.compareFirst || !entities.some(item => item.name === state.compareSecond)) state.compareSecond = (entities.find(item => item.name !== state.compareFirst) || entities[0]).name;
+  const options = selected => entities.map(item => `<option value="${escapeHtml(item.name)}" ${item.name === selected ? "selected" : ""}>${escapeHtml(item.name)}</option>`).join("");
+  document.getElementById("compare-first").innerHTML = options(state.compareFirst);
+  document.getElementById("compare-second").innerHTML = options(state.compareSecond);
+  const coverage = new Map((watch.coverage || []).map(item => [item.name,item]));
+  const health = new Map((state.data.source_health?.sources || []).map(item => [item.name,item]));
+  const alerts = state.data.alerts?.alerts || [];
+  const selected = [state.compareFirst,state.compareSecond].map(name => entities.find(item => item.name === name));
+  const maxEvidence = Math.max(...selected.map(item => item.evidence_count || 0),1);
+  document.getElementById("compare-results").innerHTML = selected.map(item => {
+    const itemCoverage = coverage.get(item.name);
+    const sourceHealth = (itemCoverage?.active_sources || []).map(source => health.get(source.name)).filter(Boolean);
+    const verification = sourceHealth.some(source => source.verification_status === "verified") ? "verified" : sourceHealth.some(source => source.verification_status === "failing") ? "failing" : "unverified";
+    const freshness = sourceHealth.some(source => source.freshness === "fresh") ? "fresh" : sourceHealth.some(source => source.freshness === "stale") ? "stale" : "unknown";
+    const activeAlerts = alerts.filter(alert => alert.entity?.toLowerCase() === item.name.toLowerCase()).length;
+    const width = Math.max(4,Math.round((item.evidence_count || 0) / maxEvidence * 100));
+    return `<article class="compare-card"><div class="compare-head"><div><span>${escapeHtml(item.type || "organization")}</span><h3><a class="profile-link" href="${escapeHtml(profileUrl(item.name))}">${escapeHtml(item.name)}</a></h3></div><div class="badges"><span class="badge ${escapeHtml(item.priority)}">${escapeHtml(item.priority)}</span><span class="badge ${escapeHtml(item.momentum || "stable")}">${escapeHtml(item.momentum || "unseen")}</span></div></div><div class="compare-evidence"><span>Evidence volume</span><strong>${item.evidence_count || 0}</strong><div class="bar"><i style="width:${width}%"></i></div></div><dl class="compare-stats"><div><dt>Recent / prior</dt><dd>${item.recent_count || 0} / ${item.prior_count || 0}</dd></div><div><dt>Latest seen</dt><dd>${escapeHtml(item.latest_seen || "Not seen")}</dd></div><div><dt>Active alerts</dt><dd>${activeAlerts}</dd></div><div><dt>Coverage</dt><dd>${escapeHtml(itemCoverage?.status || "N/A")}</dd></div><div><dt>Validation</dt><dd><span class="freshness ${escapeHtml(verification)}">${escapeHtml(verification)}</span></dd></div><div><dt>Freshness</dt><dd><span class="freshness ${escapeHtml(freshness)}">${escapeHtml(freshness)}</span></dd></div></dl><div class="profile-themes">${(item.themes || []).slice(0,5).map(theme => `<span>${escapeHtml(theme)}</span>`).join("") || '<span>No matched themes</span>'}</div><a class="watch-link" href="${escapeHtml(profileUrl(item.name))}">Open full profile →</a></article>`;
+  }).join("");
+}
+
 function signalCard(item, index){
   const max = Math.max(item.recent_count || 0, item.prior_count || 0, 1);
   const width = Math.max(8, Math.round((item.recent_count || 0) / max * 100));
@@ -129,7 +158,7 @@ function signalCard(item, index){
 function renderSources(sources){
   const order = { failing: 0, degraded: 1, healthy: 2 };
   document.getElementById("source-table").innerHTML = [...sources].sort((a,b) => (order[a.status]-order[b.status]) || a.name.localeCompare(b.name)).map(item =>
-    `<tr><td>${escapeHtml(item.name)}</td><td>${escapeHtml(item.type)}</td><td>${item.success_rate}%</td><td>${item.warning_days}</td><td><span class="health"><i class="dot ${escapeHtml(item.status)}"></i>${escapeHtml(item.status)}</span></td></tr>`).join("");
+    `<tr><td>${escapeHtml(item.name)}</td><td>${escapeHtml(item.type)}</td><td>${item.success_rate ?? "—"}${item.success_rate == null ? "" : "%"}</td><td>${item.warning_days || 0}</td><td>${escapeHtml(formatShortDate(item.last_checked_at))}</td><td>${escapeHtml(formatShortDate(item.last_item_at))}</td><td><span class="freshness ${escapeHtml(item.freshness || "unverified")}">${escapeHtml(item.freshness || "unverified")}</span></td><td><span class="health"><i class="dot ${escapeHtml(item.status)}"></i>${escapeHtml(item.status)} · ${escapeHtml(item.verification_status || "unverified")}</span></td></tr>`).join("");
 }
 
 function renderReports(reports){
@@ -141,6 +170,8 @@ document.getElementById("signal-search").addEventListener("input", event => { st
 document.getElementById("status-filters").addEventListener("click", event => { if(!event.target.dataset.status) return; state.status = event.target.dataset.status; document.querySelectorAll("#status-filters button").forEach(x => x.classList.toggle("active", x === event.target)); if(state.data) renderSignals(); });
 document.getElementById("trend-ranges").addEventListener("click", event => { if(!event.target.dataset.days) return; state.trendDays = event.target.dataset.days === "all" ? "all" : Number(event.target.dataset.days); document.querySelectorAll("#trend-ranges button").forEach(x => x.classList.toggle("active", x === event.target)); if(state.data) renderTrend(); });
 document.getElementById("watch-tabs").addEventListener("click", event => { if(!event.target.dataset.watch) return; state.watchType = event.target.dataset.watch; document.querySelectorAll("#watch-tabs button").forEach(x => x.classList.toggle("active", x === event.target)); if(state.data) renderWatch(); });
+document.getElementById("compare-first").addEventListener("change", event => { state.compareFirst = event.target.value; if(state.data) renderComparison(); });
+document.getElementById("compare-second").addEventListener("change", event => { state.compareSecond = event.target.value; if(state.data) renderComparison(); });
 
 const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.getElementById("primary-links");

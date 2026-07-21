@@ -35,7 +35,7 @@ function renderProfile(data){
   renderChart(evidence);
   renderTimeline(evidence, data.repository_url);
   renderThemes(profile.themes || []);
-  renderSources(coverage);
+  renderSources(coverage, data.source_health?.sources || []);
   renderAlerts(alerts);
 }
 
@@ -68,9 +68,13 @@ function renderThemes(themes){
   document.getElementById("profile-themes").innerHTML = themes.length ? themes.map(theme => `<span>${escapeHtml(theme)}</span>`).join("") : '<span class="empty-state">Awaiting a matched theme</span>';
 }
 
-function renderSources(coverage){
+function renderSources(coverage, sourceHealth){
   const sources = [...(coverage?.active_sources || []), ...(coverage?.disabled_sources || [])];
-  document.getElementById("profile-sources").innerHTML = sources.length ? sources.map(source => `<div class="profile-source"><strong>${escapeHtml(source.name)}</strong><small>${escapeHtml(source.type)} · ${source.enabled ? "active" : "disabled"}</small></div>`).join("") : '<div class="empty-state">No official source is configured for this profile.</div>';
+  const health = new Map(sourceHealth.map(item => [item.name,item]));
+  document.getElementById("profile-sources").innerHTML = sources.length ? sources.map(source => {
+    const observed = health.get(source.name);
+    return `<div class="profile-source"><strong>${escapeHtml(source.name)}</strong><small>${escapeHtml(source.type)} · ${source.enabled ? "active" : "disabled"}</small><div class="badges"><span class="freshness ${escapeHtml(observed?.verification_status || "unverified")}">${escapeHtml(observed?.verification_status || "unverified")}</span><span class="freshness ${escapeHtml(observed?.freshness || "unverified")}">${escapeHtml(observed?.freshness || "unverified")}</span></div><small>Checked ${escapeHtml(displayDate(observed?.last_checked_at))} · latest item ${escapeHtml(displayDate(observed?.last_item_at))}</small></div>`;
+  }).join("") : '<div class="empty-state">No official source is configured for this profile.</div>';
 }
 
 function renderAlerts(alerts){

@@ -32,6 +32,7 @@ class AgentConfig:
     rss_feeds: list[dict[str, Any]] = field(default_factory=list)
     urls: list[dict[str, Any]] = field(default_factory=list)
     watch_sources: list[dict[str, Any]] = field(default_factory=list)
+    source_health: dict[str, Any] = field(default_factory=dict)
 
 
 def load_config(path: str | Path) -> AgentConfig:
@@ -48,6 +49,7 @@ def load_config(path: str | Path) -> AgentConfig:
         rss_feeds=list(raw.get("rss_feeds") or []),
         urls=list(raw.get("urls") or []),
         watch_sources=list(raw.get("watch_sources") or []),
+        source_health=raw.get("source_health") or {},
     )
 
 

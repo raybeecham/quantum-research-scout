@@ -1,6 +1,6 @@
 {
-  "configured_entities": 39,
-  "configured_technologies": 9,
+  "configured_entities": 43,
+  "configured_technologies": 11,
   "coverage": [
     {
       "active_sources": [],
@@ -125,6 +125,27 @@
       "active_sources": [
         {
           "enabled": true,
+          "name": "Accenture Quantum and PQC News",
+          "type": "watch"
+        },
+        {
+          "enabled": true,
+          "name": "Accenture Federal Services Quantum Readiness",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Accenture / Accenture Federal Services",
+      "priority": "high",
+      "status": "covered",
+      "type": "consulting"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
           "name": "Atom Computing News and Research",
           "type": "watch"
         }
@@ -152,6 +173,22 @@
       "priority": "high",
       "status": "covered",
       "type": "government"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "Booz Allen Quantum and PQC",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Booz Allen Hamilton",
+      "priority": "high",
+      "status": "covered",
+      "type": "consulting"
     },
     {
       "active_sources": [
@@ -205,6 +242,22 @@
       "priority": "high",
       "status": "covered",
       "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "Deloitte Quantum Cyber Readiness",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Deloitte",
+      "priority": "high",
+      "status": "covered",
+      "type": "consulting"
     },
     {
       "active_sources": [
@@ -360,6 +413,22 @@
       "priority": "high",
       "status": "covered",
       "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "Lockheed Martin Quantum Technology",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 2,
+      "first_party_evidence_count": 0,
+      "name": "Lockheed Martin",
+      "priority": "high",
+      "status": "covered",
+      "type": "aerospace-defense"
     },
     {
       "active_sources": [
@@ -634,7 +703,7 @@
     }
   ],
   "coverage_summary": {
-    "covered": 31,
+    "covered": 35,
     "disabled": 3,
     "gap": 0,
     "third-party": 5
@@ -940,6 +1009,53 @@
         "PQC / Crypto Agility"
       ],
       "type": "standards"
+    },
+    {
+      "aliases": [
+        "Lockheed",
+        "Lockheed Martin Corporation"
+      ],
+      "case_sensitive_aliases": [],
+      "evidence": [
+        {
+          "date": "2026-07-14",
+          "key": "https://quantumcomputingreport.com/xanadu-and-lockheed-martin-integrate-pennylane-into-quantum-training-program",
+          "report": "2026-07/2026-07-14-digest.md",
+          "score": 28,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Xanadu and Lockheed Martin Integrate PennyLane into Quantum Training Program",
+          "url": "https://quantumcomputingreport.com/xanadu-and-lockheed-martin-integrate-pennylane-into-quantum-training-program"
+        },
+        {
+          "date": "2026-06-25",
+          "key": "https://thequantuminsider.com/2026/06/25/lockheed-martin-sees-gps-and-quantum-navigation-working-together",
+          "report": "2026-06/2026-06-25-digest.md",
+          "score": 17,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Lockheed Martin Sees GPS And Quantum Navigation Working Together",
+          "url": "https://thequantuminsider.com/2026/06/25/lockheed-martin-sees-gps-and-quantum-navigation-working-together"
+        }
+      ],
+      "evidence_count": 2,
+      "first_seen": "2026-06-25",
+      "latest_seen": "2026-07-14",
+      "momentum": "rising",
+      "name": "Lockheed Martin",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "Quantum Sensing",
+        "Quantum Software / Tooling"
+      ],
+      "type": "aerospace-defense"
     },
     {
       "aliases": [
@@ -1878,6 +1994,89 @@
     },
     {
       "aliases": [
+        "quantum key distribution"
+      ],
+      "case_sensitive_aliases": [
+        "QKD"
+      ],
+      "evidence": [
+        {
+          "date": "2026-07-16",
+          "key": "https://quantumnews.ai/networking/satellite-qkd-regulation-2026-policies-and-global-quantum-networks",
+          "report": "2026-07/2026-07-16-digest.md",
+          "score": 65,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Satellite QKD Regulation: 2026 Policies and Global Quantum Networks",
+          "url": "https://quantumnews.ai/networking/satellite-qkd-regulation-2026-policies-and-global-quantum-networks"
+        },
+        {
+          "date": "2026-07-16",
+          "key": "https://quantumzeitgeist.com/enhance-device-independent-quantum-key-distribution-multiple-sources",
+          "report": "2026-07/2026-07-16-digest.md",
+          "score": 29,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Researchers Enhance Device-Independent Quantum Key Distribution with Multiple Sources",
+          "url": "https://quantumzeitgeist.com/enhance-device-independent-quantum-key-distribution-multiple-sources"
+        },
+        {
+          "date": "2026-07-04",
+          "key": "https://quantumzeitgeist.com/tsinghua-university-proposes-geometrical-configuration-modulation",
+          "report": "2026-07/2026-07-04-digest.md",
+          "score": 44,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Tsinghua University Team Proposes Geometrical-Configuration Modulation Framework for Free-Space QKD",
+          "url": "https://quantumzeitgeist.com/tsinghua-university-proposes-geometrical-configuration-modulation"
+        },
+        {
+          "date": "2026-07-01",
+          "key": "https://quantumnews.ai/cryptography/monetizing-quantum-safe-networks-telecom-giants-2026-qkd-pqc-strategies",
+          "report": "2026-07/2026-07-01-digest.md",
+          "score": 66,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Monetizing Quantum Safe Networks: Telecom Giants' 2026 QKD & PQC Strategies",
+          "url": "https://quantumnews.ai/cryptography/monetizing-quantum-safe-networks-telecom-giants-2026-qkd-pqc-strategies"
+        },
+        {
+          "date": "2026-06-29",
+          "key": "https://thequantuminsider.com/2026/06/29/wimi-neural-networks-dual-field-quantum-key-distribution-optimization",
+          "report": "2026-06/2026-06-29-digest.md",
+          "score": 50,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "WiMi Explores Neural Networks for Twin-Field Quantum Key Distribution Optimization",
+          "url": "https://thequantuminsider.com/2026/06/29/wimi-neural-networks-dual-field-quantum-key-distribution-optimization"
+        }
+      ],
+      "evidence_count": 5,
+      "first_seen": "2026-06-29",
+      "latest_seen": "2026-07-16",
+      "momentum": "rising",
+      "name": "Quantum key distribution",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "Quantum Networking"
+      ],
+      "type": "technology"
+    },
+    {
+      "aliases": [
         "quantum internet",
         "quantum repeater",
         "entanglement distribution"
@@ -2069,6 +2268,19 @@
   ],
   "unseen_entities": [
     {
+      "aliases": [
+        "Accenture",
+        "Accenture Federal Services",
+        "Accenture Federal"
+      ],
+      "case_sensitive_aliases": [
+        "AFS"
+      ],
+      "name": "Accenture / Accenture Federal Services",
+      "priority": "high",
+      "type": "consulting"
+    },
+    {
       "aliases": [],
       "case_sensitive_aliases": [],
       "name": "Atom Computing",
@@ -2087,6 +2299,17 @@
     },
     {
       "aliases": [
+        "Booz Allen"
+      ],
+      "case_sensitive_aliases": [
+        "BAH"
+      ],
+      "name": "Booz Allen Hamilton",
+      "priority": "high",
+      "type": "consulting"
+    },
+    {
+      "aliases": [
         "Cybersecurity and Infrastructure Security Agency"
       ],
       "case_sensitive_aliases": [],
@@ -2102,6 +2325,17 @@
       "name": "Cisco",
       "priority": "high",
       "type": "company"
+    },
+    {
+      "aliases": [
+        "Deloitte Consulting",
+        "Deloitte Global",
+        "Deloitte Cyber"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "Deloitte",
+      "priority": "high",
+      "type": "consulting"
     },
     {
       "aliases": [],
@@ -2282,6 +2516,16 @@
   "unseen_technologies": [
     {
       "aliases": [
+        "CNSA Suite 2.0",
+        "Commercial National Security Algorithm Suite 2.0"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "CNSA 2.0",
+      "priority": "critical",
+      "type": "technology"
+    },
+    {
+      "aliases": [
         "FIPS 203",
         "Kyber"
       ],
@@ -2311,6 +2555,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-07-21T20:33:02.656013+00:00",
+  "updated_at": "2026-07-21T21:36:59.430831+00:00",
   "version": 1
 }

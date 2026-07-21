@@ -14,7 +14,7 @@
       <a class="brand" href="#top"><span class="brand-mark">Q</span><span>Quantum Research Scout</span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-links"><span></span><span></span><span></span><b>Menu</b></button>
       <div id="primary-links" class="nav-links">
-        <a href="#guide">Guide</a><a href="#trends">Trends</a><a href="#alerts">Alerts</a><a href="#signals">Signals</a><a href="#watch">Watch</a><a href="#coverage">Coverage</a><a href="#sources">Sources</a><a href="#reports">Reports</a>
+        <a href="#guide">Guide</a><a href="#trends">Trends</a><a href="#alerts">Alerts</a><a href="#signals">Signals</a><a href="#watch">Watch</a><a href="#compare">Compare</a><a href="#coverage">Coverage</a><a href="#sources">Sources</a><a href="#reports">Reports</a>
         <a id="repo-link" class="button secondary" href="#">Repository</a>
       </div>
     </nav>
@@ -56,6 +56,8 @@
         <article><span class="guide-icon high">Q</span><div><h3>Quiet / dormant</h3><p>Quiet means the last match was 8–30 days ago; dormant means more than 30 days without matched evidence.</p></div></article>
         <article><span class="guide-icon confidence">✓</span><div><h3>First-party covered</h3><p>At least one enabled official feed, sitemap, newsroom, or blog is configured for the organization.</p></div></article>
         <article><span class="guide-icon degraded">!</span><div><h3>Coverage gap</h3><p>Gap means no official source or evidence exists. Third-party means evidence exists, but no enabled first-party source is configured.</p></div></article>
+        <article><span class="guide-icon confidence">V</span><div><h3>Verified source</h3><p>The scheduled collector has successfully reached this source since observation tracking began.</p></div></article>
+        <article><span class="guide-icon rising">F</span><div><h3>Fresh source</h3><p>The source has a dated item within the configured freshness window. Stale means its latest dated item is older; unknown means collected items have no usable publication date.</p></div></article>
       </div>
     </section>
 
@@ -88,6 +90,16 @@
       <div id="watch-grid" class="watch-grid" aria-live="polite"></div>
     </section>
 
+    <section id="compare" class="section compare-section">
+      <div class="section-heading"><div><p class="eyebrow">ENTITY COMPARISON</p><h2>Compare organizations side by side</h2></div><p class="updated">Activity, themes, alerts, and verified coverage</p></div>
+      <div class="compare-controls">
+        <label><span>First organization</span><select id="compare-first"></select></label>
+        <span class="compare-versus">VS</span>
+        <label><span>Second organization</span><select id="compare-second"></select></label>
+      </div>
+      <div id="compare-results" class="compare-results" aria-live="polite"></div>
+    </section>
+
     <section id="coverage" class="section coverage-section">
       <div class="section-heading"><div><p class="eyebrow">WATCHLIST COVERAGE</p><h2>Where collection needs attention</h2></div><p id="coverage-summary" class="updated"></p></div>
       <div class="table-wrap"><table><thead><tr><th>Organization</th><th>Priority</th><th>Coverage</th><th>First-party sources</th><th>Evidence</th></tr></thead><tbody id="coverage-table"></tbody></table></div>
@@ -95,7 +107,7 @@
 
     <section id="sources" class="section">
       <div class="section-heading"><div><p class="eyebrow">COLLECTION OPERATIONS</p><h2>Source health</h2></div><p id="source-summary" class="updated"></p></div>
-      <div class="table-wrap"><table><thead><tr><th>Source</th><th>Type</th><th>Reliability</th><th>Warnings</th><th>Status</th></tr></thead><tbody id="source-table"></tbody></table></div>
+      <div class="table-wrap"><table><thead><tr><th>Source</th><th>Type</th><th>Reliability</th><th>Warnings</th><th>Last checked</th><th>Latest item</th><th>Freshness</th><th>Status</th></tr></thead><tbody id="source-table"></tbody></table></div>
     </section>
 
     <section id="reports" class="section reports-section">

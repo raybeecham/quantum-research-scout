@@ -8,6 +8,9 @@ settings:
   request_timeout_seconds: 20
   user_agent: "pqc-quantum-research-agent/0.1 (project: project: https://github.com/raybeecham/quantum-research-scout; contact: configure-in-sources-yaml)"
 
+source_health:
+  stale_after_days: 14
+
 arxiv:
   enabled: false
   max_results: 25
@@ -174,6 +177,43 @@ watch_sources:
     url: "https://www.mitre.org/news-insights"
     include_patterns: [/news-insights/, quantum, cryptograph]
     match_patterns: [post-quantum, post quantum, quantum computing, quantum technology, cryptograph]
+    max_items: 25
+  - name: "Deloitte Quantum Cyber Readiness"
+    entities: [Deloitte]
+    url: "https://www.deloitte.com/global/en/services/risk-advisory/services/quantum-cyber-readiness.html"
+    include_source_page: true
+    include_patterns: [quantum, post-quantum, cryptograph, crypto-agil]
+    match_patterns: [quantum, post-quantum, cryptograph, crypto-agil]
+    max_items: 15
+  - name: "Accenture Quantum and PQC News"
+    entities: ["Accenture / Accenture Federal Services"]
+    sitemap_urls: ["https://newsroom.accenture.com/sitemap.xml"]
+    url: "https://newsroom.accenture.com/"
+    include_patterns: [quantum, post-quantum, quantum-safe, crypto-agil]
+    match_patterns: [quantum, post-quantum, quantum-safe, crypto-agil]
+    max_items: 25
+  - name: "Accenture Federal Services Quantum Readiness"
+    entities: ["Accenture / Accenture Federal Services"]
+    url: "https://www.accenture.com/us-en/insights/us-federal-government/future-quantum-speed"
+    include_source_page: true
+    include_patterns: [quantum, post-quantum, quantum-safe, cryptograph]
+    match_patterns: [quantum, post-quantum, quantum-safe, cryptograph]
+    max_items: 10
+  - name: "Booz Allen Quantum and PQC"
+    entities: [Booz Allen Hamilton]
+    sitemap_urls: ["https://www.boozallen.com/sitemap.xml"]
+    url: "https://www.boozallen.com/expertise/analytics/quantum-computing.html"
+    include_source_page: true
+    include_patterns: [quantum, post-quantum, cryptograph]
+    match_patterns: [quantum, post-quantum, cryptograph]
+    max_items: 25
+  - name: "Lockheed Martin Quantum Technology"
+    entities: [Lockheed Martin]
+    sitemap_urls: ["https://www.lockheedmartin.com/sitemap.xml"]
+    url: "https://www.lockheedmartin.com/en-us/capabilities/quantum-technology.html"
+    include_source_page: true
+    include_patterns: [quantum, quantum-navigation, quantum-technology]
+    match_patterns: [quantum, quantum navigation, quantum sensing]
     max_items: 25
   - name: "QuSecure Press Releases"
     entities: [QuSecure]

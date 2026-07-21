@@ -17,7 +17,7 @@ from .retention import prune_daily_reports
 from .monthly import write_monthly_report
 from .report_index import write_report_index
 from .signals import write_signal_tracker
-from .source_health import write_source_health_report
+from .source_health import write_source_health_report, write_source_observations
 from .alerts import write_alerts
 from .entity_watch import write_entity_watch
 from .storage import ResearchStore
@@ -307,6 +307,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.update_intelligence_tracking:
         write_signal_tracker(Path(args.reports_dir))
         write_entity_watch(Path(args.reports_dir), args.watchlists_config, sources_config_path=args.config)
+        write_source_observations(Path(args.reports_dir), config, collection, generated_at=generated_at)
         write_source_health_report(Path(args.reports_dir), args.config)
         write_alerts(Path(args.reports_dir), args.alerts_config)
     if args.update_report_index:

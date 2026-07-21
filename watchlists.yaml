@@ -68,6 +68,24 @@ entities:
     type: research
     priority: high
     aliases: [The MITRE Corporation, MITRE Labs]
+  - name: Deloitte
+    type: consulting
+    priority: high
+    aliases: [Deloitte Consulting, Deloitte Global, Deloitte Cyber]
+  - name: Accenture / Accenture Federal Services
+    type: consulting
+    priority: high
+    aliases: [Accenture, Accenture Federal Services, Accenture Federal]
+    case_sensitive_aliases: [AFS]
+  - name: Booz Allen Hamilton
+    type: consulting
+    priority: high
+    aliases: [Booz Allen]
+    case_sensitive_aliases: [BAH]
+  - name: Lockheed Martin
+    type: aerospace-defense
+    priority: high
+    aliases: [Lockheed, Lockheed Martin Corporation]
   - name: SandboxAQ
     type: company
     priority: high
@@ -185,3 +203,10 @@ technologies:
   - name: Quantum sensing
     priority: medium
     aliases: [quantum sensor, quantum metrology]
+  - name: Quantum key distribution
+    priority: high
+    aliases: [quantum key distribution]
+    case_sensitive_aliases: [QKD]
+  - name: CNSA 2.0
+    priority: critical
+    aliases: [CNSA Suite 2.0, Commercial National Security Algorithm Suite 2.0]

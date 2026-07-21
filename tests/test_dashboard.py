@@ -88,3 +88,13 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("profile-timeline", profile)
         self.assertIn("profile-sources", profile)
         self.assertIn("profile-alerts", profile)
+
+    def test_dashboard_includes_entity_comparison_and_source_freshness(self) -> None:
+        root = Path(__file__).parents[1]
+        html = (root / "dashboard" / "index.html").read_text(encoding="utf-8")
+        script = (root / "dashboard" / "app.js").read_text(encoding="utf-8")
+        profile = (root / "dashboard" / "entity.js").read_text(encoding="utf-8")
+        self.assertIn('id="compare"', html)
+        self.assertIn("renderComparison", script)
+        self.assertIn("verification_status", script)
+        self.assertIn("last_checked_at", profile)

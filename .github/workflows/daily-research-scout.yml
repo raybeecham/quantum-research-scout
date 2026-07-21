@@ -78,6 +78,96 @@ jobs:
           ALERT_ISSUE_TITLE: ${{ steps.alert-issue.outputs.title }}
         run: gh issue create --title "$ALERT_ISSUE_TITLE" --body-file alert-issue.md
 
+      - name: Prepare notification payloads
+        id: notifications
+        run: |
+          python scripts/prepare_notifications.py \
+            --github-output "$GITHUB_OUTPUT" \
+            --email-to "${{ vars.ALERT_EMAIL_TO }}" \
+            --email-from "${{ vars.ALERT_EMAIL_FROM }}"
+
+      - name: Deliver immediate alerts to Slack
+        if: vars.ALERT_DELIVERY_SLACK == 'true' && steps.notifications.outputs.send_immediate == 'true'
+        continue-on-error: true
+        env:
+          WEBHOOK_URL: ${{ secrets.SLACK_ALERT_WEBHOOK_URL }}
+        run: >-
+          curl --fail-with-body --silent --show-error -H "Content-Type: application/json"
+          --data-binary @.notifications/slack-immediate.json "$WEBHOOK_URL"
+
+      - name: Deliver daily summary to Slack
+        if: vars.ALERT_DELIVERY_SLACK == 'true' && steps.notifications.outputs.send_digest == 'true'
+        continue-on-error: true
+        env:
+          WEBHOOK_URL: ${{ secrets.SLACK_ALERT_WEBHOOK_URL }}
+        run: >-
+          curl --fail-with-body --silent --show-error -H "Content-Type: application/json"
+          --data-binary @.notifications/slack-digest.json "$WEBHOOK_URL"
+
+      - name: Deliver immediate alerts to Teams
+        if: vars.ALERT_DELIVERY_TEAMS == 'true' && steps.notifications.outputs.send_immediate == 'true'
+        continue-on-error: true
+        env:
+          WEBHOOK_URL: ${{ secrets.TEAMS_ALERT_WEBHOOK_URL }}
+        run: >-
+          curl --fail-with-body --silent --show-error -H "Content-Type: application/json"
+          --data-binary @.notifications/teams-immediate.json "$WEBHOOK_URL"
+
+      - name: Deliver daily summary to Teams
+        if: vars.ALERT_DELIVERY_TEAMS == 'true' && steps.notifications.outputs.send_digest == 'true'
+        continue-on-error: true
+        env:
+          WEBHOOK_URL: ${{ secrets.TEAMS_ALERT_WEBHOOK_URL }}
+        run: >-
+          curl --fail-with-body --silent --show-error -H "Content-Type: application/json"
+          --data-binary @.notifications/teams-digest.json "$WEBHOOK_URL"
+
+      - name: Deliver immediate alerts to a generic webhook
+        if: vars.ALERT_DELIVERY_GENERIC_WEBHOOK == 'true' && steps.notifications.outputs.send_immediate == 'true'
+        continue-on-error: true
+        env:
+          WEBHOOK_URL: ${{ secrets.GENERIC_ALERT_WEBHOOK_URL }}
+          WEBHOOK_TOKEN: ${{ secrets.GENERIC_ALERT_WEBHOOK_TOKEN }}
+        run: |
+          AUTH_HEADER=()
+          if [ -n "${WEBHOOK_TOKEN:-}" ]; then AUTH_HEADER=(-H "Authorization: Bearer $WEBHOOK_TOKEN"); fi
+          curl --fail-with-body --silent --show-error -H "Content-Type: application/json" "${AUTH_HEADER[@]}" --data-binary @.notifications/generic-immediate.json "$WEBHOOK_URL"
+
+      - name: Deliver daily summary to a generic webhook
+        if: vars.ALERT_DELIVERY_GENERIC_WEBHOOK == 'true' && steps.notifications.outputs.send_digest == 'true'
+        continue-on-error: true
+        env:
+          WEBHOOK_URL: ${{ secrets.GENERIC_ALERT_WEBHOOK_URL }}
+          WEBHOOK_TOKEN: ${{ secrets.GENERIC_ALERT_WEBHOOK_TOKEN }}
+        run: |
+          AUTH_HEADER=()
+          if [ -n "${WEBHOOK_TOKEN:-}" ]; then AUTH_HEADER=(-H "Authorization: Bearer $WEBHOOK_TOKEN"); fi
+          curl --fail-with-body --silent --show-error -H "Content-Type: application/json" "${AUTH_HEADER[@]}" --data-binary @.notifications/generic-digest.json "$WEBHOOK_URL"
+
+      - name: Deliver immediate alert email with Resend
+        if: vars.ALERT_DELIVERY_EMAIL == 'true' && steps.notifications.outputs.send_immediate == 'true' && steps.notifications.outputs.email_ready == 'true'
+        continue-on-error: true
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          curl --fail-with-body --silent --show-error https://api.resend.com/emails \
+            -H "Authorization: Bearer $RESEND_API_KEY" \
+            -H "Content-Type: application/json" \
+            -H "Idempotency-Key: qrs-${GITHUB_RUN_ID}-immediate" \
+            --data-binary @.notifications/email-immediate.json
+
+      - name: Deliver daily summary email with Resend
+        if: vars.ALERT_DELIVERY_EMAIL == 'true' && steps.notifications.outputs.send_digest == 'true' && steps.notifications.outputs.email_ready == 'true'
+        continue-on-error: true
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          curl --fail-with-body --silent --show-error https://api.resend.com/emails \
+            -H "Authorization: Bearer $RESEND_API_KEY" \
+            -H "Content-Type: application/json" \
+            -H "Idempotency-Key: qrs-${GITHUB_RUN_ID}-digest" \
+            --data-binary @.notifications/email-digest.json
+
       - name: Announce report commit
         run: echo "Checking generated reports for repository commit"
 
