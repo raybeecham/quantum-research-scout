@@ -26,6 +26,22 @@ class EntityWatchTests(unittest.TestCase):
                                         "source": "NIST CSRC News",
                                         "score": 80,
                                         "url": "https://example.com/one",
+                                    },
+                                    {
+                                        "key": "two",
+                                        "date": "2026-07-20",
+                                        "title": "QCi expands its photonic foundry",
+                                        "source": "Example",
+                                        "score": 70,
+                                        "url": "https://example.com/two",
+                                    },
+                                    {
+                                        "key": "three",
+                                        "date": "2026-07-20",
+                                        "title": "Researchers present the unrelated DLR QCI program",
+                                        "source": "Example",
+                                        "score": 60,
+                                        "url": "https://example.com/three",
                                     }
                                 ]
                             }
@@ -37,6 +53,8 @@ class EntityWatchTests(unittest.TestCase):
             config = reports / "watchlists.yaml"
             config.write_text(
                 "entities:\n  - name: NIST\n    type: government\n    priority: critical\n    aliases: []\n"
+                "  - name: Cisco\n    type: company\n    priority: high\n    aliases: [Cisco Systems]\n"
+                "  - name: Quantum Computing Inc. (QCi)\n    type: company\n    priority: high\n    aliases: [Quantum Computing Inc, QUBT]\n    case_sensitive_aliases: [QCi]\n"
                 "technologies:\n  - name: ML-KEM\n    priority: critical\n    aliases: [FIPS 203]\n",
                 encoding="utf-8",
             )
@@ -49,4 +67,10 @@ class EntityWatchTests(unittest.TestCase):
             self.assertEqual(payload["entities"][0]["name"], "NIST")
             self.assertEqual(payload["technologies"][0]["name"], "ML-KEM")
             self.assertEqual(payload["entities"][0]["evidence_count"], 1)
-            self.assertIn("# Entity and Technology Watch", markdown_path.read_text(encoding="utf-8"))
+            qci = next(item for item in payload["entities"] if item["name"] == "Quantum Computing Inc. (QCi)")
+            self.assertEqual(qci["evidence_count"], 1)
+            self.assertEqual(qci["evidence"][0]["key"], "two")
+            self.assertEqual(payload["unseen_entities"][0]["name"], "Cisco")
+            markdown = markdown_path.read_text(encoding="utf-8")
+            self.assertIn("# Entity and Technology Watch", markdown)
+            self.assertIn("Configured, awaiting evidence (1):** Cisco", markdown)

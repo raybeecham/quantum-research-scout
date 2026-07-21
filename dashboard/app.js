@@ -90,10 +90,13 @@ function renderSignals(){
 function renderWatch(){
   const payload = state.data.entity_watch || { entities: [], technologies: [] };
   const items = payload[state.watchType] || [];
-  document.getElementById("watch-grid").innerHTML = items.length ? items.map(item => {
+  const unseen = payload[`unseen_${state.watchType}`] || [];
+  const matched = items.length ? items.map(item => {
     const evidence = item.evidence?.[0];
     return `<article class="watch-card"><span class="watch-type">${escapeHtml(item.type || state.watchType)}</span><h3>${escapeHtml(item.name)}</h3><div class="badges"><span class="badge ${escapeHtml(item.momentum)}">${escapeHtml(item.momentum)}</span><span class="badge ${escapeHtml(item.priority)}">${escapeHtml(item.priority)}</span><span class="badge">${escapeHtml(item.status)}</span></div><div class="watch-stats"><div><span>Evidence</span><strong>${item.evidence_count}</strong></div><div><span>Recent</span><strong>${item.recent_count}</strong></div><div><span>Prior</span><strong>${item.prior_count}</strong></div></div><p class="themes">${escapeHtml((item.themes || []).slice(0,3).join(" · "))}</p>${evidence ? `<a class="watch-link" href="${escapeHtml(safeUrl(evidence.url))}">Latest evidence →</a>` : ""}</article>`;
   }).join("") : "<p>No configured watch items have matched evidence yet.</p>";
+  const awaiting = unseen.length ? `<details class="watch-unseen"><summary>${unseen.length} configured ${state.watchType === "entities" ? "organizations" : "technologies"} awaiting evidence</summary><div>${unseen.map(item => `<span><strong>${escapeHtml(item.name)}</strong> · ${escapeHtml(item.type)} · ${escapeHtml(item.priority)}</span>`).join("")}</div></details>` : "";
+  document.getElementById("watch-grid").innerHTML = matched + awaiting;
 }
 
 function signalCard(item, index){

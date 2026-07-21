@@ -17,5 +17,10 @@
 .watch-stats strong{display:block;color:var(--text);font-size:18px}
 .watch-card .themes{color:var(--muted);font-size:12px}
 .watch-card .watch-link{color:var(--cyan);font-size:13px;text-decoration:none}
+.watch-unseen{grid-column:1/-1;padding:16px 19px;border:1px dashed var(--line);border-radius:12px;background:var(--surface)}
+.watch-unseen summary{cursor:pointer;color:var(--muted);font-size:13px}
+.watch-unseen div{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.watch-unseen span{padding:7px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:11px}
+.watch-unseen strong{color:var(--text)}
 @media(max-width:900px){.watch-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.watch-grid{grid-template-columns:1fr}.trend-summary{gap:24px}}

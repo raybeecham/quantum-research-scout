@@ -23,18 +23,24 @@ def write_entity_watch(
     evidence = _signal_evidence(signals)
     evidence_dates = [date.fromisoformat(item["date"]) for item in evidence if item.get("date")]
     anchor_date = max(evidence_dates) if evidence_dates else generated.date()
-    entities = [_profile(item, evidence, generated.date(), anchor_date) for item in config.get("entities", [])]
-    technologies = [_profile(item, evidence, generated.date(), anchor_date) for item in config.get("technologies", [])]
-    entities = [item for item in entities if item["evidence_count"]]
-    technologies = [item for item in technologies if item["evidence_count"]]
+    entity_profiles = [_profile(item, evidence, generated.date(), anchor_date) for item in config.get("entities", [])]
+    technology_profiles = [_profile(item, evidence, generated.date(), anchor_date) for item in config.get("technologies", [])]
+    entities = [item for item in entity_profiles if item["evidence_count"]]
+    technologies = [item for item in technology_profiles if item["evidence_count"]]
+    unseen_entities = [_unseen_summary(item) for item in entity_profiles if not item["evidence_count"]]
+    unseen_technologies = [_unseen_summary(item) for item in technology_profiles if not item["evidence_count"]]
     entities.sort(key=_profile_sort_key)
     technologies.sort(key=_profile_sort_key)
+    unseen_entities.sort(key=_profile_sort_key)
+    unseen_technologies.sort(key=_profile_sort_key)
 
     payload = {
         "version": 1,
         "updated_at": generated.isoformat(),
         "entities": entities,
         "technologies": technologies,
+        "unseen_entities": unseen_entities,
+        "unseen_technologies": unseen_technologies,
         "configured_entities": len(config.get("entities", [])),
         "configured_technologies": len(config.get("technologies", [])),
     }
@@ -78,7 +84,13 @@ def _signal_evidence(signals: dict) -> list[dict]:
 
 def _profile(config: dict, evidence: list[dict], today: date, anchor_date: date) -> dict:
     names = [str(config.get("name", "")), *(str(alias) for alias in config.get("aliases", []))]
-    matches = [item for item in evidence if _matches(names, f"{item.get('title', '')} {item.get('source', '')}")]
+    case_sensitive_names = [str(alias) for alias in config.get("case_sensitive_aliases", [])]
+    matches = [
+        item
+        for item in evidence
+        if _matches(names, f"{item.get('title', '')} {item.get('source', '')}")
+        or _matches(case_sensitive_names, f"{item.get('title', '')} {item.get('source', '')}", ignore_case=False)
+    ]
     matches.sort(key=lambda item: (item.get("date", ""), item.get("score", 0)), reverse=True)
     dates = [date.fromisoformat(item["date"]) for item in matches if item.get("date")]
     latest = max(dates) if dates else None
@@ -89,6 +101,7 @@ def _profile(config: dict, evidence: list[dict], today: date, anchor_date: date)
         "type": str(config.get("type", "technology")),
         "priority": str(config.get("priority", "medium")),
         "aliases": [str(alias) for alias in config.get("aliases", [])],
+        "case_sensitive_aliases": case_sensitive_names,
         "first_seen": min(dates).isoformat() if dates else None,
         "latest_seen": latest.isoformat() if latest else None,
         "evidence_count": len(matches),
@@ -101,8 +114,9 @@ def _profile(config: dict, evidence: list[dict], today: date, anchor_date: date)
     }
 
 
-def _matches(names: list[str], text: str) -> bool:
-    return any(name and re.search(rf"(?<![A-Za-z0-9]){re.escape(name)}(?![A-Za-z0-9])", text, re.IGNORECASE) for name in names)
+def _matches(names: list[str], text: str, *, ignore_case: bool = True) -> bool:
+    flags = re.IGNORECASE if ignore_case else 0
+    return any(name and re.search(rf"(?<![A-Za-z0-9]){re.escape(name)}(?![A-Za-z0-9])", text, flags) for name in names)
 
 
 def _period_counts(dates: list[date], latest: date | None) -> tuple[int, int]:
@@ -129,7 +143,11 @@ def _status(today: date, latest: date | None) -> str:
 
 
 def _profile_sort_key(item: dict) -> tuple:
-    return ({"critical": 0, "high": 1, "medium": 2}.get(item["priority"], 9), -item["evidence_count"], item["name"])
+    return ({"critical": 0, "high": 1, "medium": 2}.get(item["priority"], 9), -item.get("evidence_count", 0), item["name"])
+
+
+def _unseen_summary(item: dict) -> dict:
+    return {key: item[key] for key in ("name", "type", "priority", "aliases", "case_sensitive_aliases")}
 
 
 def _render(payload: dict) -> str:
@@ -153,5 +171,9 @@ def _render(payload: dict) -> str:
             )
         if not payload[key]:
             lines.append("| No matched watch items | — | — | — | — | — | 0 |")
+        unseen = payload[f"unseen_{key}"]
+        if unseen:
+            names = ", ".join(item["name"] for item in unseen)
+            lines.extend(["", f"**Configured, awaiting evidence ({len(unseen)}):** {names}"])
         lines.append("")
     return "\n".join(lines)

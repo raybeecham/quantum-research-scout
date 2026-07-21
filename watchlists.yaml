@@ -47,6 +47,111 @@ entities:
     type: company
     priority: high
     aliases: []
+  - name: Cisco
+    type: company
+    priority: high
+    aliases: [Cisco Systems]
+  - name: Wiz
+    type: company
+    priority: high
+    aliases: [Wiz Security]
+  - name: Quantum Computing Inc. (QCi)
+    type: company
+    priority: high
+    aliases: [Quantum Computing Inc, QUBT]
+    case_sensitive_aliases: [QCi]
+  - name: Fortanix
+    type: company
+    priority: high
+    aliases: [Fortanix DSM, Fortanix Key Insight, PQC Central]
+  - name: MITRE
+    type: research
+    priority: high
+    aliases: [The MITRE Corporation, MITRE Labs]
+  - name: SandboxAQ
+    type: company
+    priority: high
+    aliases: [Sandbox AQ]
+  - name: PQShield
+    type: company
+    priority: high
+    aliases: []
+  - name: QuSecure
+    type: company
+    priority: high
+    aliases: [QuProtect]
+  - name: DigiCert
+    type: company
+    priority: high
+    aliases: []
+  - name: Keyfactor
+    type: company
+    priority: high
+    aliases: []
+  - name: Thales
+    type: company
+    priority: high
+    aliases: [Thales Group]
+  - name: Entrust
+    type: company
+    priority: medium
+    aliases: [Entrust Datacard]
+  - name: ETSI
+    type: standards
+    priority: high
+    aliases: [European Telecommunications Standards Institute]
+  - name: ISO/IEC
+    type: standards
+    priority: high
+    aliases: [ISO, International Organization for Standardization, International Electrotechnical Commission]
+  - name: ENISA
+    type: government
+    priority: high
+    aliases: [European Union Agency for Cybersecurity, EU Agency for Cybersecurity]
+  - name: ANSSI
+    type: government
+    priority: high
+    aliases: [French National Cybersecurity Agency, Agence nationale de la securite des systemes d'information]
+  - name: UK NCSC
+    type: government
+    priority: high
+    aliases: [National Cyber Security Centre, NCSC-UK]
+  - name: BSI Germany
+    type: government
+    priority: high
+    aliases: [German Federal Office for Information Security, Bundesamt fuer Sicherheit in der Informationstechnik]
+  - name: Open Quantum Safe
+    type: open-source
+    priority: high
+    aliases: [OQS, liboqs]
+  - name: D-Wave
+    type: company
+    priority: high
+    aliases: [D-Wave Quantum]
+  - name: PsiQuantum
+    type: company
+    priority: high
+    aliases: []
+  - name: QuEra
+    type: company
+    priority: high
+    aliases: [QuEra Computing]
+  - name: Atom Computing
+    type: company
+    priority: high
+    aliases: []
+  - name: Pasqal
+    type: company
+    priority: medium
+    aliases: []
+  - name: Infleqtion
+    type: company
+    priority: medium
+    aliases: [ColdQuanta]
+  - name: Intel Quantum
+    type: company
+    priority: medium
+    aliases: [Intel Labs Quantum]
   - name: PQCA
     type: consortium
     priority: high

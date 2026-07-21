@@ -1,11 +1,12 @@
 {
-  "configured_entities": 13,
+  "configured_entities": 39,
   "configured_technologies": 9,
   "entities": [
     {
       "aliases": [
         "National Institute of Standards and Technology"
       ],
+      "case_sensitive_aliases": [],
       "evidence": [
         {
           "date": "2026-06-25",
@@ -39,6 +40,7 @@
         "IBM Quantum",
         "IBM Research"
       ],
+      "case_sensitive_aliases": [],
       "evidence": [
         {
           "date": "2026-07-20",
@@ -167,6 +169,7 @@
     },
     {
       "aliases": [],
+      "case_sensitive_aliases": [],
       "evidence": [
         {
           "date": "2026-07-09",
@@ -208,7 +211,146 @@
       "type": "company"
     },
     {
+      "aliases": [
+        "D-Wave Quantum"
+      ],
+      "case_sensitive_aliases": [],
+      "evidence": [
+        {
+          "date": "2026-07-02",
+          "key": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical",
+          "report": "2026-07/2026-07-02-digest.md",
+          "score": 146,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "D-Wave Targets 100 Logical Qubits With Million-Operation Fault Tolerance",
+          "url": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical"
+        },
+        {
+          "date": "2026-06-30",
+          "key": "https://quantumcomputingreport.com/d-wave-selected-for-1-5-million-nsf-grant-to-provide-dual-rail-hardware-for-yale-led-fault-tolerant-erase-project",
+          "report": "2026-06/2026-06-30-digest.md",
+          "score": 66,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "D-Wave Selected for $1.5 Million NSF Grant to Provide Dual-Rail Hardware for Yale-Led Fault-Tolerant 'ERASE' Project",
+          "url": "https://quantumcomputingreport.com/d-wave-selected-for-1-5-million-nsf-grant-to-provide-dual-rail-hardware-for-yale-led-fault-tolerant-erase-project"
+        }
+      ],
+      "evidence_count": 2,
+      "first_seen": "2026-06-30",
+      "latest_seen": "2026-07-02",
+      "momentum": "stable",
+      "name": "D-Wave",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "QEC / Fault Tolerance",
+        "Quantum Hardware"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "ISO",
+        "International Organization for Standardization",
+        "International Electrotechnical Commission"
+      ],
+      "case_sensitive_aliases": [],
+      "evidence": [
+        {
+          "date": "2026-07-15",
+          "key": "https://thequantuminsider.com/2026/07/15/classic-mceliece-iso-standard-post-quantum-cryptography",
+          "report": "2026-07/2026-07-15-digest.md",
+          "score": 62,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "ISO Standardizes Classic McEliece for Quantum-Resistant Encryption",
+          "url": "https://thequantuminsider.com/2026/07/15/classic-mceliece-iso-standard-post-quantum-cryptography"
+        },
+        {
+          "date": "2026-06-25",
+          "key": "https://quantumzeitgeist.com/quantum-resistant-standard-iso-adopts-co",
+          "report": "2026-06/2026-06-25-digest.md",
+          "score": 39,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "ISO Adopts Quantum-Resistant Standard Co-Designed by Warwick Team",
+          "url": "https://quantumzeitgeist.com/quantum-resistant-standard-iso-adopts-co"
+        }
+      ],
+      "evidence_count": 2,
+      "first_seen": "2026-06-25",
+      "latest_seen": "2026-07-15",
+      "momentum": "rising",
+      "name": "ISO/IEC",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "standards"
+    },
+    {
+      "aliases": [
+        "QuProtect"
+      ],
+      "case_sensitive_aliases": [],
+      "evidence": [
+        {
+          "date": "2026-07-15",
+          "key": "https://thequantuminsider.com/2026/07/15/qusecure-quprotect-r3-listed-in-aws-icmp-for-the-us-federal-government",
+          "report": "2026-07/2026-07-15-digest.md",
+          "score": 59,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure Lists QuProtect R3 on AWS Marketplace for U.S. Intelligence Community",
+          "url": "https://thequantuminsider.com/2026/07/15/qusecure-quprotect-r3-listed-in-aws-icmp-for-the-us-federal-government"
+        },
+        {
+          "date": "2026-07-07",
+          "key": "https://thequantuminsider.com/2026/07/07/qusecure-doug-small-federal-advisory-board",
+          "report": "2026-07/2026-07-07-digest.md",
+          "score": 59,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure Appoints Former Navy Rear Admiral Doug Small to Federal Advisory Board",
+          "url": "https://thequantuminsider.com/2026/07/07/qusecure-doug-small-federal-advisory-board"
+        }
+      ],
+      "evidence_count": 2,
+      "first_seen": "2026-07-07",
+      "latest_seen": "2026-07-15",
+      "momentum": "stable",
+      "name": "QuSecure",
+      "prior_count": 1,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
       "aliases": [],
+      "case_sensitive_aliases": [],
       "evidence": [
         {
           "date": "2026-07-20",
@@ -251,9 +393,44 @@
     },
     {
       "aliases": [
+        "French National Cybersecurity Agency",
+        "Agence nationale de la securite des systemes d'information"
+      ],
+      "case_sensitive_aliases": [],
+      "evidence": [
+        {
+          "date": "2026-06-23",
+          "key": "https://quantumzeitgeist.com/anssi-post-quantum-mandate-sealsqs-qs7001",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "SEALSQ\u2019s QS7001 Validated for ANSSI\u2019s Post-Quantum Mandate",
+          "url": "https://quantumzeitgeist.com/anssi-post-quantum-mandate-sealsqs-qs7001"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2026-06-23",
+      "latest_seen": "2026-06-23",
+      "momentum": "stable",
+      "name": "ANSSI",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "government"
+    },
+    {
+      "aliases": [
         "Google Quantum",
         "Google AI Quantum"
       ],
+      "case_sensitive_aliases": [],
       "evidence": [
         {
           "date": "2026-06-27",
@@ -284,6 +461,7 @@
     },
     {
       "aliases": [],
+      "case_sensitive_aliases": [],
       "evidence": [
         {
           "date": "2026-06-22",
@@ -313,9 +491,41 @@
       "type": "company"
     },
     {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "evidence": [
+        {
+          "date": "2026-07-06",
+          "key": "https://thequantuminsider.com/2026/07/06/keyfactor-1b-growth-investment-summit-partners",
+          "report": "2026-07/2026-07-06-digest.md",
+          "score": 55,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Keyfactor Announces $1B+ Strategic Growth Investment to Expand Leadership in Securing Post-Quantum Enterprise",
+          "url": "https://thequantuminsider.com/2026/07/06/keyfactor-1b-growth-investment-summit-partners"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2026-07-06",
+      "latest_seen": "2026-07-06",
+      "momentum": "stable",
+      "name": "Keyfactor",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
       "aliases": [
         "Microsoft Research Quantum"
       ],
+      "case_sensitive_aliases": [],
       "evidence": [
         {
           "date": "2026-06-25",
@@ -345,10 +555,157 @@
       "type": "company"
     },
     {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "evidence": [
+        {
+          "date": "2026-07-03",
+          "key": "https://pqshield.com/why-crypto-agility-requires-real-governance",
+          "report": "2026-07/2026-07-03-digest.md",
+          "score": 108,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why crypto-agility requires real governance Eric Amador explains how pqctoday.com uses AI and WebAssembly to remove friction from testing quantum-safe algorithms. Learn how different organizational personas can map out global migration timelines and prepare for upcoming compliance mandates.",
+          "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2026-07-03",
+      "latest_seen": "2026-07-03",
+      "momentum": "stable",
+      "name": "PQShield",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "evidence": [
+        {
+          "date": "2026-07-15",
+          "key": "https://thequantuminsider.com/2026/07/15/pasqal-appoints-mark-armstrong-chief-commercial-officer",
+          "report": "2026-07/2026-07-15-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal Appoints Former HPE Executive Mark Armstrong as Commercial Chief",
+          "url": "https://thequantuminsider.com/2026/07/15/pasqal-appoints-mark-armstrong-chief-commercial-officer"
+        },
+        {
+          "date": "2026-07-13",
+          "key": "https://quantumcomputingreport.com/chips-ju-and-pasqal-launch-e50m-57-2m-usd-q-planet-pilot-line-to-industrialize-neutral-atom-quantum-chips",
+          "report": "2026-07/2026-07-13-digest.md",
+          "score": 26,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Chips JU and Pasqal Launch \u20ac50M ($57.2M USD) Q-PLANET Pilot Line to Industrialize Neutral Atom Quantum Chips",
+          "url": "https://quantumcomputingreport.com/chips-ju-and-pasqal-launch-e50m-57-2m-usd-q-planet-pilot-line-to-industrialize-neutral-atom-quantum-chips"
+        },
+        {
+          "date": "2026-07-12",
+          "key": "https://quantumzeitgeist.com/pasqal-orion-computer-hours-free",
+          "report": "2026-07/2026-07-12-digest.md",
+          "score": 22,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "100 Hours of Free QPU Time Open on Pasqal Orion Computer",
+          "url": "https://quantumzeitgeist.com/pasqal-orion-computer-hours-free"
+        },
+        {
+          "date": "2026-07-07",
+          "key": "https://thequantuminsider.com/2026/07/07/pasqal-megazonecloud-quantum-computing-korea",
+          "report": "2026-07/2026-07-07-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal and MegazoneCloud Partner to Bring Quantum Computing to South Korea",
+          "url": "https://thequantuminsider.com/2026/07/07/pasqal-megazonecloud-quantum-computing-korea"
+        },
+        {
+          "date": "2026-07-02",
+          "key": "https://quantumcomputingreport.com/pasqal-and-aeponyx-found-canadian-center-of-competency-at-c2mi-to-commercialize-photonic-integrated-circuit-packaging",
+          "report": "2026-07/2026-07-02-digest.md",
+          "score": 43,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal and Aeponyx Found Canadian Center of Competency at C2MI to Commercialize Photonic Integrated Circuit Packaging",
+          "url": "https://quantumcomputingreport.com/pasqal-and-aeponyx-found-canadian-center-of-competency-at-c2mi-to-commercialize-photonic-integrated-circuit-packaging"
+        },
+        {
+          "date": "2026-07-02",
+          "key": "https://thequantuminsider.com/2026/07/02/pasqal-and-aeponyx-launch-a-pic-packaging-center-of-competency-for-sensing-and-quantum-applications-at-c2mi",
+          "report": "2026-07/2026-07-02-digest.md",
+          "score": 26,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal and Aeponyx Launch Canadian PIC Packaging Center for Quantum Technologies",
+          "url": "https://thequantuminsider.com/2026/07/02/pasqal-and-aeponyx-launch-a-pic-packaging-center-of-competency-for-sensing-and-quantum-applications-at-c2mi"
+        },
+        {
+          "date": "2026-06-30",
+          "key": "https://thequantuminsider.com/2026/06/30/credit-agricole-cib-pasqal-strategic-partnership-quantum-computing-finance",
+          "report": "2026-06/2026-06-30-digest.md",
+          "score": 27,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal and Cr\u00e9dit Agricole CIB Deepen Partnership on Quantum Finance Applications",
+          "url": "https://thequantuminsider.com/2026/06/30/credit-agricole-cib-pasqal-strategic-partnership-quantum-computing-finance"
+        },
+        {
+          "date": "2026-06-29",
+          "key": "https://thequantuminsider.com/2026/06/29/pasqal-appoints-stephane-rougeot-chief-financial-officer",
+          "report": "2026-06/2026-06-29-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal Appoints St\u00e9phane Rougeot as Chief Financial Officer",
+          "url": "https://thequantuminsider.com/2026/06/29/pasqal-appoints-stephane-rougeot-chief-financial-officer"
+        }
+      ],
+      "evidence_count": 8,
+      "first_seen": "2026-06-29",
+      "latest_seen": "2026-07-15",
+      "momentum": "declining",
+      "name": "Pasqal",
+      "prior_count": 3,
+      "priority": "medium",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "Quantum Hardware"
+      ],
+      "type": "company"
+    },
+    {
       "aliases": [
         "Amazon Web Services",
         "AWS Braket"
       ],
+      "case_sensitive_aliases": [],
       "evidence": [
         {
           "date": "2026-07-20",
@@ -413,6 +770,76 @@
         "Quantum Software / Tooling"
       ],
       "type": "company"
+    },
+    {
+      "aliases": [
+        "ColdQuanta"
+      ],
+      "case_sensitive_aliases": [],
+      "evidence": [
+        {
+          "date": "2026-07-20",
+          "key": "https://infleqtion.com/infleqtion-ceo-matt-kinsella-provides-testimony-for-house-committee-on-natural-resources",
+          "report": "2026-07/2026-07-20-digest.md",
+          "score": 36,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion CEO Matt Kinsella Provides Testimony for House Committee on Natural Resources",
+          "url": "https://infleqtion.com/infleqtion-ceo-matt-kinsella-provides-testimony-for-house-committee-on-natural-resources"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://thequantuminsider.com/2026/06/22/infleqtion-launches-americas-quantum-space-initiative-to-accelerate-the-future-of-quantum-enabled-space-infrastructure",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 41,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion Launches America\u2019s Quantum Space Initiative to Accelerate the Future of Quantum-Enabled Space Infrastructure",
+          "url": "https://thequantuminsider.com/2026/06/22/infleqtion-launches-americas-quantum-space-initiative-to-accelerate-the-future-of-quantum-enabled-space-infrastructure"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://infleqtion.com/infleqtion-welcomes-executive-order-on-quantum-technology",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 38,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion Welcomes Executive Order on Quantum Technology",
+          "url": "https://infleqtion.com/infleqtion-welcomes-executive-order-on-quantum-technology"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 30,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Infleqtion Launches America\u2019s Quantum Space Initiative to Develop Orbital Technology Infrastructure",
+          "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
+        }
+      ],
+      "evidence_count": 4,
+      "first_seen": "2026-06-22",
+      "latest_seen": "2026-07-20",
+      "momentum": "rising",
+      "name": "Infleqtion",
+      "prior_count": 0,
+      "priority": "medium",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "Quantum Hardware",
+        "Quantum Sensing"
+      ],
+      "type": "company"
     }
   ],
   "technologies": [
@@ -422,6 +849,7 @@
         "surface code",
         "quantum LDPC"
       ],
+      "case_sensitive_aliases": [],
       "evidence": [
         {
           "date": "2026-07-18",
@@ -589,6 +1017,7 @@
         "logical qubit",
         "fault-tolerant quantum"
       ],
+      "case_sensitive_aliases": [],
       "evidence": [
         {
           "date": "2026-07-14",
@@ -722,6 +1151,7 @@
         "CBOM",
         "cryptographic inventory"
       ],
+      "case_sensitive_aliases": [],
       "evidence": [
         {
           "date": "2026-07-03",
@@ -767,6 +1197,7 @@
         "FIPS 204",
         "Dilithium"
       ],
+      "case_sensitive_aliases": [],
       "evidence": [
         {
           "date": "2026-06-29",
@@ -801,6 +1232,7 @@
         "quantum repeater",
         "entanglement distribution"
       ],
+      "case_sensitive_aliases": [],
       "evidence": [
         {
           "date": "2026-07-16",
@@ -834,6 +1266,7 @@
         "quantum sensor",
         "quantum metrology"
       ],
+      "case_sensitive_aliases": [],
       "evidence": [
         {
           "date": "2026-07-09",
@@ -984,6 +1417,250 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-07-21T07:23:16.886267+00:00",
+  "unseen_entities": [
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "name": "Atom Computing",
+      "priority": "high",
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "German Federal Office for Information Security",
+        "Bundesamt fuer Sicherheit in der Informationstechnik"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "BSI Germany",
+      "priority": "high",
+      "type": "government"
+    },
+    {
+      "aliases": [
+        "Cybersecurity and Infrastructure Security Agency"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "CISA",
+      "priority": "high",
+      "type": "government"
+    },
+    {
+      "aliases": [
+        "Cisco Systems"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "Cisco",
+      "priority": "high",
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "name": "DigiCert",
+      "priority": "high",
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "European Union Agency for Cybersecurity",
+        "EU Agency for Cybersecurity"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "ENISA",
+      "priority": "high",
+      "type": "government"
+    },
+    {
+      "aliases": [
+        "European Telecommunications Standards Institute"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "ETSI",
+      "priority": "high",
+      "type": "standards"
+    },
+    {
+      "aliases": [
+        "Fortanix DSM",
+        "Fortanix Key Insight",
+        "PQC Central"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "Fortanix",
+      "priority": "high",
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Internet Engineering Task Force",
+        "PQUIP"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "IETF",
+      "priority": "high",
+      "type": "standards"
+    },
+    {
+      "aliases": [
+        "The MITRE Corporation",
+        "MITRE Labs"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "MITRE",
+      "priority": "high",
+      "type": "research"
+    },
+    {
+      "aliases": [
+        "National Security Agency"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "NSA",
+      "priority": "high",
+      "type": "government"
+    },
+    {
+      "aliases": [
+        "OQS",
+        "liboqs"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "Open Quantum Safe",
+      "priority": "high",
+      "type": "open-source"
+    },
+    {
+      "aliases": [
+        "Post-Quantum Cryptography Alliance"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "PQCA",
+      "priority": "high",
+      "type": "consortium"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "name": "PsiQuantum",
+      "priority": "high",
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "QuEra Computing"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "QuEra",
+      "priority": "high",
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Quantum Computing Inc",
+        "QUBT"
+      ],
+      "case_sensitive_aliases": [
+        "QCi"
+      ],
+      "name": "Quantum Computing Inc. (QCi)",
+      "priority": "high",
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Sandbox AQ"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "SandboxAQ",
+      "priority": "high",
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Thales Group"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "Thales",
+      "priority": "high",
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "National Cyber Security Centre",
+        "NCSC-UK"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "UK NCSC",
+      "priority": "high",
+      "type": "government"
+    },
+    {
+      "aliases": [
+        "Wiz Security"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "Wiz",
+      "priority": "high",
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Entrust Datacard"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "Entrust",
+      "priority": "medium",
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Intel Labs Quantum"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "Intel Quantum",
+      "priority": "medium",
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "name": "Rigetti",
+      "priority": "medium",
+      "type": "company"
+    }
+  ],
+  "unseen_technologies": [
+    {
+      "aliases": [
+        "FIPS 203",
+        "Kyber"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "ML-KEM",
+      "priority": "critical",
+      "type": "technology"
+    },
+    {
+      "aliases": [
+        "post-quantum TLS",
+        "quantum-safe TLS"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "Hybrid TLS",
+      "priority": "high",
+      "type": "technology"
+    },
+    {
+      "aliases": [
+        "FIPS 205",
+        "SPHINCS"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "SLH-DSA",
+      "priority": "high",
+      "type": "technology"
+    }
+  ],
+  "updated_at": "2026-07-21T07:34:16.123203+00:00",
   "version": 1
 }
