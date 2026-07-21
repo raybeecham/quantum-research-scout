@@ -12,7 +12,7 @@
     <nav class="nav shell" aria-label="Primary navigation">
       <a class="brand" href="#top"><span class="brand-mark">Q</span><span>Quantum Research Scout</span></a>
       <div class="nav-links">
-        <a href="#signals">Signals</a><a href="#sources">Sources</a><a href="#reports">Reports</a>
+        <a href="#guide">Guide</a><a href="#alerts">Alerts</a><a href="#signals">Signals</a><a href="#sources">Sources</a><a href="#reports">Reports</a>
         <a id="repo-link" class="button secondary" href="#">Repository</a>
       </div>
     </nav>
@@ -32,6 +32,29 @@
       <article><span>Rising</span><strong id="metric-rising">—</strong><small>accelerating themes</small></article>
       <article><span>Critical</span><strong id="metric-critical">—</strong><small>highest-importance themes</small></article>
       <article><span>Source health</span><strong id="metric-health">—</strong><small>healthy active sources</small></article>
+      <article><span>Active alerts</span><strong id="metric-alerts">—</strong><small id="metric-alerts-detail">new conditions</small></article>
+    </section>
+
+    <section id="guide" class="section guide-section">
+      <div class="section-heading"><div><p class="eyebrow">READING THE DASHBOARD</p><h2>What the labels mean</h2></div><p class="updated">Rules are deterministic and configurable</p></div>
+      <div class="guide-grid">
+        <article><span class="guide-icon rising">↗</span><div><h3>Rising</h3><p>Evidence in the latest seven-day period increased by at least 50% versus the preceding seven days.</p></div></article>
+        <article><span class="guide-icon stable">→</span><div><h3>Stable</h3><p>Recent evidence changed, but not enough to meet the rising or declining threshold.</p></div></article>
+        <article><span class="guide-icon declining">↘</span><div><h3>Declining</h3><p>Recent evidence decreased by at least one-third compared with the preceding seven days.</p></div></article>
+        <article><span class="guide-icon critical">●</span><div><h3>Critical importance</h3><p>The theme contains an evidence item scoring 100 or higher, indicating exceptional strategic relevance.</p></div></article>
+        <article><span class="guide-icon high">●</span><div><h3>High importance</h3><p>The theme contains an evidence item scoring 50–99. Medium importance is below 50.</p></div></article>
+        <article><span class="guide-icon actionable">◎</span><div><h3>Actionable</h3><p>A high- or critical-importance theme is rising, making it a candidate for near-term review or follow-up.</p></div></article>
+        <article><span class="guide-icon watching">◉</span><div><h3>Watching</h3><p>The signal remains relevant, but it does not currently meet the actionable or stale rule.</p></div></article>
+        <article><span class="guide-icon stale">◌</span><div><h3>Stale</h3><p>No supporting evidence has appeared for more than 14 days.</p></div></article>
+        <article><span class="guide-icon confidence">✓</span><div><h3>Confidence</h3><p>High means at least five evidence items from three sources; medium means at least two; low means one.</p></div></article>
+        <article><span class="guide-icon degraded">!</span><div><h3>Source health</h3><p>Healthy has no warning days. Degraded retains at least 80% reliability; failing falls below 80%. Expected arXiv weekend idle days are excluded.</p></div></article>
+        <article><span class="guide-icon new">N</span><div><h3>New alert</h3><p>The condition was not active during the prior alert evaluation. Persistent conditions remain active without repeatedly appearing as new.</p></div></article>
+      </div>
+    </section>
+
+    <section id="alerts" class="section alerts-section">
+      <div class="section-heading"><div><p class="eyebrow">ALERT CENTER</p><h2>What needs attention</h2></div><p id="alert-summary" class="updated"></p></div>
+      <div id="alert-list" class="alert-list" aria-live="polite"></div>
     </section>
 
     <section id="signals" class="section">

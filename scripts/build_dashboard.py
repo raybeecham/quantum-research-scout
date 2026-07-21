@@ -25,11 +25,13 @@ def build_dashboard(
 
     signals = _read_json(reports / "signals.json", {"themes": {}, "updated_at": None})
     source_health = _read_json(reports / "source-health.json", {"sources": [], "disabled_sources": []})
+    alerts = _read_json(reports / "alerts.json", {"alerts": [], "active_count": 0, "new_count": 0})
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "repository_url": repo_url.rstrip("/"),
         "signals": _dashboard_signals(signals),
         "source_health": source_health,
+        "alerts": alerts,
         "reports": _report_links(reports, repo_url.rstrip("/")),
     }
     data_path = output / "data" / "dashboard.json"

@@ -60,6 +60,12 @@ jobs:
             --update-intelligence-tracking \
             --update-report-index
 
+      - name: Publish intelligence alerts to workflow summary
+        run: |
+          if [ -f reports/alerts.md ]; then
+            cat reports/alerts.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
       - name: Announce report commit
         run: echo "Checking generated reports for repository commit"
 

@@ -1,0 +1,15 @@
+enabled: true
+
+signals:
+  newly_actionable: true
+  rising_momentum: true
+  critical_importance: true
+  minimum_confidence: medium
+
+sources:
+  degraded: true
+  failing: true
+  minimum_warning_days: 1
+
+output:
+  max_active_alerts: 50

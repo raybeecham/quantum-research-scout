@@ -9,6 +9,14 @@ from scripts.build_dashboard import build_dashboard
 
 
 class DashboardBuildTests(unittest.TestCase):
+    def test_dashboard_source_explains_signal_labels(self) -> None:
+        html = (Path(__file__).parents[1] / "dashboard" / "index.html").read_text(encoding="utf-8")
+        script = (Path(__file__).parents[1] / "dashboard" / "app.js").read_text(encoding="utf-8")
+        self.assertIn("What the labels mean", html)
+        for label in ("Rising", "Stable", "Declining", "Critical importance", "Actionable", "Watching", "Stale"):
+            self.assertIn(label, html)
+        self.assertIn("const definitions", script)
+
     def test_build_dashboard_copies_assets_and_shapes_data(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)
@@ -39,6 +47,9 @@ class DashboardBuildTests(unittest.TestCase):
             (reports / "source-health.json").write_text(
                 json.dumps({"sources": [{"name": "Feed", "status": "healthy"}]}), encoding="utf-8"
             )
+            (reports / "alerts.json").write_text(
+                json.dumps({"active_count": 1, "new_count": 1, "alerts": [{"id": "test"}]}), encoding="utf-8"
+            )
             daily = reports / "2026-07" / "2026-07-20-digest.md"
             daily.parent.mkdir()
             daily.write_text("# Daily", encoding="utf-8")
@@ -50,4 +61,5 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["signals"]["themes"][0]["name"], "PQC / Crypto Agility")
             self.assertEqual(payload["signals"]["themes"][0]["evidence_count"], 1)
             self.assertEqual(payload["reports"]["latest_daily"]["name"], "2026-07-20-digest")
+            self.assertEqual(payload["alerts"]["active_count"], 1)
             self.assertIn("github.com/example/repo/blob/main/reports/", payload["reports"]["latest_daily"]["url"])
