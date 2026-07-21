@@ -39,6 +39,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 
 ## Start Here
 
+- [Visual intelligence dashboard](https://raybeecham.github.io/quantum-research-scout/) — searchable signals, momentum, source health, and latest reports
 - [Report index](reports/README.md) — latest daily, weekly, and monthly reports plus archive navigation
 - [Persistent signal tracker](reports/signals.md) — momentum, importance, confidence, status, follow-up, and evidence
 - [Source health](reports/source-health.md) — rolling reliability, expected idle periods, disabled sources, and active warnings
@@ -47,6 +48,19 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - [Latest completed monthly synthesis](reports/monthly/2026/2026-06-monthly.md)
 
 Daily reports provide the evidence stream. Weekly and monthly syntheses reduce repetition, while the persistent signal ledger tracks whether themes are rising, stable, declining, actionable, or stale. Daily files use a rolling 30-day retention window; synthesis reports and deduplicated signal evidence are retained as the long-term record.
+
+## Visual Dashboard
+
+The GitHub Pages dashboard is a static, responsive portal built from `reports/signals.json`, `reports/source-health.json`, and the report archive. It supports client-side signal search, status filtering, momentum visualization, source reliability, evidence links, and direct access to the latest reports. No application server or runtime database is required.
+
+Build it locally with:
+
+```bash
+python scripts/build_dashboard.py --output site
+python -m http.server 8000 --directory site
+```
+
+Then open `http://localhost:8000`. The `Deploy Intelligence Dashboard` workflow rebuilds and publishes the site whenever dashboard code or report data changes on `main`.
 
 ## Setup
 
@@ -301,8 +315,11 @@ reports/README.md   # latest reports, themes, and archive summary
 reports/signals.json # durable deduplicated signal evidence
 reports/signals.md  # human-readable signal momentum and follow-up
 reports/source-health.md # rolling source reliability and warnings
+reports/source-health.json # structured source-health dashboard data
 reports/YYYY-MM/    # generated daily Markdown digests by month
 reports/weekly/YYYY/ # generated weekly synthesis reports by year
 reports/monthly/YYYY/ # generated monthly synthesis reports by year
 data/               # generated SQLite database
+dashboard/          # static dashboard source assets
+scripts/build_dashboard.py # dashboard data and site builder
 ```

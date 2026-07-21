@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PQC, quantum technology, and AI security intelligence dashboard">
+  <title>Quantum Research Scout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#top"><span class="brand-mark">Q</span><span>Quantum Research Scout</span></a>
+      <div class="nav-links">
+        <a href="#signals">Signals</a><a href="#sources">Sources</a><a href="#reports">Reports</a>
+        <a id="repo-link" class="button secondary" href="#">Repository</a>
+      </div>
+    </nav>
+    <div id="top" class="hero-content shell">
+      <div>
+        <p class="eyebrow">PQC · QUANTUM TECHNOLOGY · AI SECURITY</p>
+        <h1>See what is changing,<br><span>before it becomes obvious.</span></h1>
+        <p class="hero-copy">A continuously updated intelligence view of strategic signals, evidence momentum, and collection health.</p>
+      </div>
+      <div class="radar" aria-hidden="true"><div class="sweep"></div><i></i><i></i><i></i></div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="metrics" aria-label="Dashboard summary">
+      <article><span>Actionable</span><strong id="metric-actionable">—</strong><small>signals requiring attention</small></article>
+      <article><span>Rising</span><strong id="metric-rising">—</strong><small>accelerating themes</small></article>
+      <article><span>Critical</span><strong id="metric-critical">—</strong><small>highest-importance themes</small></article>
+      <article><span>Source health</span><strong id="metric-health">—</strong><small>healthy active sources</small></article>
+    </section>
+
+    <section id="signals" class="section">
+      <div class="section-heading"><div><p class="eyebrow">STRATEGIC RADAR</p><h2>Persistent signals</h2></div><p id="signal-updated" class="updated"></p></div>
+      <div class="toolbar">
+        <label class="search"><span>Search</span><input id="signal-search" type="search" placeholder="Theme, organization, or evidence…"></label>
+        <div id="status-filters" class="filters" aria-label="Signal status filters">
+          <button class="active" data-status="all">All</button><button data-status="actionable">Actionable</button><button data-status="watching">Watching</button><button data-status="stale">Stale</button>
+        </div>
+      </div>
+      <div id="signal-grid" class="signal-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="sources" class="section">
+      <div class="section-heading"><div><p class="eyebrow">COLLECTION OPERATIONS</p><h2>Source health</h2></div><p id="source-summary" class="updated"></p></div>
+      <div class="table-wrap"><table><thead><tr><th>Source</th><th>Type</th><th>Reliability</th><th>Warnings</th><th>Status</th></tr></thead><tbody id="source-table"></tbody></table></div>
+    </section>
+
+    <section id="reports" class="section reports-section">
+      <div class="section-heading"><div><p class="eyebrow">INTELLIGENCE ARCHIVE</p><h2>Latest reports</h2></div></div>
+      <div id="report-cards" class="report-cards"></div>
+    </section>
+  </main>
+
+  <footer><div class="shell"><span>Quantum Research Scout</span><span id="footer-updated"></span></div></footer>
+  <script src="app.js" defer></script>
+</body>
+</html>

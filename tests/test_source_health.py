@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import tempfile
 import unittest
 from datetime import datetime, timezone
@@ -40,3 +41,6 @@ class SourceHealthTests(unittest.TestCase):
             self.assertIn("| Healthy Feed | rss | 100% | 0 | 0 | none | 🟢 healthy |", content)
             self.assertIn("> **Collection Operations**", content)
             self.assertIn("- Disabled Feed [rss]", content)
+            data = json.loads((root / "reports" / "source-health.json").read_text(encoding="utf-8"))
+            self.assertEqual(data["report_days"], 2)
+            self.assertEqual(next(item for item in data["sources"] if item["name"] == "Broken Feed")["status"], "failing")

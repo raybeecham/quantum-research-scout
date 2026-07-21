@@ -30,6 +30,8 @@ def write_report_index(reports_dir: str | Path, *, generated_at: datetime | None
         "[Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · "
         "[Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)",
         "",
+        "**[Open the visual intelligence dashboard →](https://raybeecham.github.io/quantum-research-scout/)**",
+        "",
         "## Latest Reports",
         "",
         f"- Daily: {_link(reports_path, latest_daily)}",

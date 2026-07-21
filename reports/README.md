@@ -2,9 +2,11 @@
 
 > **Quantum Research Scout** · Intelligence archive and operational dashboard
 
-_Updated 2026-07-21 06:28 UTC_
+_Updated 2026-07-21 06:42 UTC_
 
 [Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
+
+**[Open the visual intelligence dashboard →](https://raybeecham.github.io/quantum-research-scout/)**
 
 ## Latest Reports
 

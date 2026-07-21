@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import re
 from collections import defaultdict
 from datetime import date, datetime, timezone
@@ -65,6 +66,7 @@ def write_source_health_report(
     ]
     total_days = len(set(report_dates))
     rows = []
+    health_entries: list[dict[str, object]] = []
     for name, source_type in active:
         source_failures = failures.get(name, [])
         failure_days = len({item["date"] for item in source_failures})
@@ -73,6 +75,17 @@ def write_source_health_report(
         status = "healthy" if failure_days == 0 else "degraded" if success_rate >= 80 else "failing"
         last_warning = max((item["date"] for item in source_failures), default="none")
         rows.append((failure_days, name, source_type, success_rate, idle_days, last_warning, status))
+        health_entries.append(
+            {
+                "name": name,
+                "type": source_type,
+                "success_rate": round(success_rate, 1),
+                "warning_days": failure_days,
+                "expected_idle_days": idle_days,
+                "last_warning": None if last_warning == "none" else last_warning,
+                "status": status,
+            }
+        )
     for failure_days, name, source_type, success_rate, idle_days, last_warning, status in sorted(rows, key=lambda row: (-row[0], row[1])):
         lines.append(
             f"| {name} | {source_type} | {success_rate:.0f}% | {failure_days} | {idle_days} | "
@@ -98,6 +111,23 @@ def write_source_health_report(
 
     output = reports_path / "source-health.md"
     output.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    data_output = reports_path / "source-health.json"
+    data_output.write_text(
+        json.dumps(
+            {
+                "version": 1,
+                "updated_at": generated.astimezone(timezone.utc).isoformat(),
+                "report_days": total_days,
+                "sources": sorted(health_entries, key=lambda item: (str(item["status"]), str(item["name"]))),
+                "disabled_sources": [{"name": name, "type": source_type} for name, source_type in disabled],
+                "recent_warnings": recent,
+            },
+            indent=2,
+            sort_keys=True,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
     return output
 
 
