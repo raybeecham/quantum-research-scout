@@ -2,7 +2,8 @@ from __future__ import annotations
 
 import json
 import re
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
+from hashlib import sha256
 from pathlib import Path
 
 import yaml
@@ -24,11 +25,12 @@ def write_alerts(
     config = _load_config(config_path)
     signals = _read_json(reports_path / "signals.json")
     source_health = _read_json(reports_path / "source-health.json")
+    entity_watch = _read_json(reports_path / "entity-watch.json")
     state_path = reports_path / "alerts-state.json"
     previous_state = _read_json(state_path)
     previous_active = previous_state.get("active", {})
 
-    active = [] if not config.get("enabled", True) else _evaluate(signals, source_health, config)
+    active = [] if not config.get("enabled", True) else _evaluate(signals, source_health, entity_watch, config, generated.date())
     active.sort(key=lambda item: (SEVERITY_RANK.get(item["severity"], 9), item["title"]))
     max_alerts = int(config.get("output", {}).get("max_active_alerts", 50))
     active = active[:max_alerts]
@@ -74,7 +76,7 @@ def _read_json(path: Path) -> dict:
     return data if isinstance(data, dict) else {}
 
 
-def _evaluate(signals: dict, source_health: dict, config: dict) -> list[dict]:
+def _evaluate(signals: dict, source_health: dict, entity_watch: dict, config: dict, today: date) -> list[dict]:
     alerts: list[dict] = []
     signal_config = config.get("signals", {})
     minimum_confidence = signal_config.get("minimum_confidence", "medium")
@@ -119,7 +121,66 @@ def _evaluate(signals: dict, source_health: dict, config: dict) -> list[dict]:
             alerts.append(_source_alert(source, "critical"))
         elif status == "degraded" and source_config.get("degraded", True):
             alerts.append(_source_alert(source, "high"))
+    alerts.extend(_entity_event_alerts(entity_watch, config.get("entities", {}), today))
     return alerts
+
+
+def _entity_event_alerts(entity_watch: dict, config: dict, today: date) -> list[dict]:
+    if not config.get("enabled", True):
+        return []
+    minimum_priority = str(config.get("minimum_priority", "high")).casefold()
+    priority_rank = {"critical": 0, "high": 1, "medium": 2, "low": 3}
+    maximum_rank = priority_rank.get(minimum_priority, 1)
+    max_age_days = int(config.get("max_age_days", 3))
+    events = config.get("events", {})
+    alerts: list[dict] = []
+    for entity in entity_watch.get("entities", []):
+        if priority_rank.get(str(entity.get("priority", "medium")).casefold(), 2) > maximum_rank:
+            continue
+        for evidence in entity.get("evidence", []):
+            evidence_date = _safe_date(evidence.get("date"))
+            if evidence_date is None or not 0 <= (today - evidence_date).days <= max_age_days:
+                continue
+            title = str(evidence.get("title", ""))
+            event_name, event_config = _material_event(title, events)
+            if not event_name:
+                continue
+            evidence_url = str(evidence.get("url") or evidence.get("key") or "")
+            fingerprint = sha256(f"{entity['name']}|{event_name}|{evidence_url or title}".encode("utf-8")).hexdigest()[:12]
+            severity = str(event_config.get("severity", "high"))
+            event_label = event_name.replace("_", " ").title()
+            alerts.append(
+                _alert(
+                    f"entity:{_slug(entity['name'])}:{event_name}:{fingerprint}",
+                    f"entity_{event_name}",
+                    severity,
+                    f"{event_label}: {entity['name']}",
+                    f"{entity['name']} matched a {event_label.casefold()} event: {title}",
+                    entity["name"],
+                    event_name.replace("_", "-"),
+                    "entity-watch.md",
+                    evidence_url=evidence_url,
+                    evidence_title=title,
+                    evidence_date=evidence_date.isoformat(),
+                )
+            )
+    return alerts
+
+
+def _material_event(title: str, events: dict) -> tuple[str, dict]:
+    folded = title.casefold()
+    for event_name, event_config in events.items():
+        values = event_config if isinstance(event_config, dict) else {"patterns": event_config}
+        if any(str(pattern).casefold() in folded for pattern in values.get("patterns", [])):
+            return str(event_name), values
+    return "", {}
+
+
+def _safe_date(value) -> date | None:
+    try:
+        return date.fromisoformat(str(value))
+    except (TypeError, ValueError):
+        return None
 
 
 def _source_alert(source: dict, severity: str) -> dict:
@@ -132,8 +193,39 @@ def _source_alert(source: dict, severity: str) -> dict:
     )
 
 
-def _alert(alert_id: str, alert_type: str, severity: str, title: str, summary: str, entity: str, status: str, link: str) -> dict:
-    return {"id": alert_id, "type": alert_type, "severity": severity, "title": title, "summary": summary, "entity": entity, "status": status, "link": link}
+def _alert(
+    alert_id: str,
+    alert_type: str,
+    severity: str,
+    title: str,
+    summary: str,
+    entity: str,
+    status: str,
+    link: str,
+    *,
+    evidence_url: str = "",
+    evidence_title: str = "",
+    evidence_date: str = "",
+) -> dict:
+    alert = {
+        "id": alert_id,
+        "type": alert_type,
+        "severity": severity,
+        "title": title,
+        "summary": summary,
+        "entity": entity,
+        "status": status,
+        "link": link,
+    }
+    if evidence_url:
+        alert.update(
+            {
+                "evidence_url": evidence_url,
+                "evidence_title": evidence_title,
+                "evidence_date": evidence_date,
+            }
+        )
+    return alert
 
 
 def _slug(value: str) -> str:
@@ -144,7 +236,7 @@ def _render_alerts(payload: dict) -> str:
     lines = [
         "# Intelligence Alerts",
         "",
-        "> **Alert Center** · Signal transitions · Critical themes · Source degradation",
+        "> **Alert Center** · Signal transitions · Material entity events · Source degradation",
         "",
         "[Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)",
         "",
@@ -172,6 +264,7 @@ def _render_alerts(payload: dict) -> str:
                 f"- Severity: **{alert['severity']}**",
                 f"- Status: **{alert['status']}**",
                 f"- {alert['summary']}",
+                *([f"- [Open direct evidence]({alert['evidence_url']})"] if alert.get("evidence_url") else []),
                 f"- [Open supporting view]({alert['link']})",
                 "",
             ]

@@ -30,6 +30,7 @@ def prepare_alert_issue(
                 "",
                 f"- Severity: **{alert.get('severity', 'unknown')}**",
                 f"- {alert.get('summary', '')}",
+                *([f"- [Open direct evidence]({alert['evidence_url']})"] if alert.get("evidence_url") else []),
                 f"- [Open supporting view]({link})",
                 "",
             ]

@@ -35,10 +35,14 @@ function render(){
   const alerts = state.data.alerts || { alerts: [], active_count: 0, new_count: 0 };
   document.getElementById("metric-alerts").textContent = alerts.active_count || 0;
   document.getElementById("metric-alerts-detail").textContent = `${alerts.new_count || 0} new condition${alerts.new_count === 1 ? "" : "s"}`;
+  const coverage = state.data.entity_watch?.coverage || [];
+  const covered = coverage.filter(item => item.status === "covered").length;
+  document.getElementById("metric-coverage").textContent = coverage.length ? `${Math.round(covered / coverage.length * 100)}%` : "—";
+  document.getElementById("metric-coverage-detail").textContent = `${covered} of ${coverage.length} organizations`;
   document.getElementById("signal-updated").textContent = `Updated ${formatDate(state.data.signals.updated_at)}`;
   document.getElementById("source-summary").textContent = `${healthy} of ${sources.length} active sources healthy`;
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
-  renderTrend(); renderAlerts(alerts); renderSignals(); renderWatch(); renderSources(sources); renderReports(state.data.reports);
+  renderTrend(); renderAlerts(alerts); renderSignals(); renderWatch(); renderCoverage(); renderSources(sources); renderReports(state.data.reports);
 }
 
 function renderTrend(){
@@ -68,8 +72,8 @@ function renderTrend(){
 function renderAlerts(payload){
   const alerts = payload.alerts || [];
   document.getElementById("alert-summary").textContent = `${payload.active_count || 0} active · ${payload.new_count || 0} new`;
-  document.getElementById("alert-list").innerHTML = alerts.length ? alerts.slice(0, 12).map(item =>
-    `<article class="alert-item ${escapeHtml(item.severity)}"><span class="badge ${escapeHtml(item.severity)}">${escapeHtml(item.severity)}</span><div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.summary)}</p></div><div>${item.is_new ? '<span class="new-tag">NEW</span> ' : ''}<a href="${escapeHtml(safeUrl(state.data.repository_url + '/blob/main/reports/' + item.link))}">Open →</a></div></article>`
+  document.getElementById("alert-list").innerHTML = alerts.length ? alerts.slice(0, 16).map(item =>
+    `<article class="alert-item ${escapeHtml(item.severity)}"><span class="badge ${escapeHtml(item.severity)}">${escapeHtml(item.severity)}</span><div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.summary)}</p></div><div>${item.is_new ? '<span class="new-tag">NEW</span> ' : ''}${item.evidence_url ? `<a href="${escapeHtml(safeUrl(item.evidence_url))}" target="_blank" rel="noopener">Evidence →</a> ` : ''}<a href="${escapeHtml(safeUrl(state.data.repository_url + '/blob/main/reports/' + item.link))}">Profile →</a></div></article>`
   ).join("") : "<p>No active alerts.</p>";
 }
 
@@ -97,6 +101,16 @@ function renderWatch(){
   }).join("") : "<p>No configured watch items have matched evidence yet.</p>";
   const awaiting = unseen.length ? `<details class="watch-unseen"><summary>${unseen.length} configured ${state.watchType === "entities" ? "organizations" : "technologies"} awaiting evidence</summary><div>${unseen.map(item => `<span><strong>${escapeHtml(item.name)}</strong> · ${escapeHtml(item.type)} · ${escapeHtml(item.priority)}</span>`).join("")}</div></details>` : "";
   document.getElementById("watch-grid").innerHTML = matched + awaiting;
+}
+
+function renderCoverage(){
+  const coverage = state.data.entity_watch?.coverage || [];
+  const gaps = coverage.filter(item => item.status !== "covered").length;
+  document.getElementById("coverage-summary").textContent = `${gaps} coverage gap${gaps === 1 ? "" : "s"} · ${coverage.length} configured organizations`;
+  document.getElementById("coverage-table").innerHTML = coverage.map(item => {
+    const sourceNames = (item.active_sources || []).map(source => source.name).join(", ") || (item.disabled_sources || []).map(source => `${source.name} (disabled)`).join(", ") || "None";
+    return `<tr><td>${escapeHtml(item.name)}</td><td><span class="badge ${escapeHtml(item.priority)}">${escapeHtml(item.priority)}</span></td><td><span class="coverage-status ${escapeHtml(item.status)}"><i></i>${escapeHtml(item.status)}</span></td><td>${escapeHtml(sourceNames)}</td><td>${item.evidence_count || 0}</td></tr>`;
+  }).join("");
 }
 
 function signalCard(item, index){

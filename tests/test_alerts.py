@@ -48,3 +48,48 @@ class AlertTests(unittest.TestCase):
             self.assertEqual(second["new_count"], 0)
             self.assertTrue(all(not item["is_new"] for item in second["alerts"]))
             self.assertIn("# Intelligence Alerts", markdown_path.read_text(encoding="utf-8"))
+
+    def test_recent_material_entity_event_creates_direct_evidence_alert(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports = Path(temp_dir)
+            (reports / "signals.json").write_text('{"themes": {}}', encoding="utf-8")
+            (reports / "source-health.json").write_text('{"sources": []}', encoding="utf-8")
+            (reports / "entity-watch.json").write_text(
+                json.dumps(
+                    {
+                        "entities": [
+                            {
+                                "name": "Quantum Computing Inc. (QCi)",
+                                "priority": "high",
+                                "evidence": [
+                                    {
+                                        "date": "2026-07-20",
+                                        "title": "QCi awarded a NASA quantum contract",
+                                        "url": "https://example.com/qci-contract",
+                                    }
+                                ],
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            config = reports / "alerts.yaml"
+            config.write_text(
+                "entities:\n  enabled: true\n  minimum_priority: high\n  max_age_days: 3\n"
+                "  events:\n    contract:\n      severity: critical\n      patterns: [contract, awarded]\n",
+                encoding="utf-8",
+            )
+
+            _, json_path, _ = write_alerts(
+                reports, config, generated_at=datetime(2026, 7, 21, tzinfo=timezone.utc)
+            )
+            first = json.loads(json_path.read_text(encoding="utf-8"))
+            write_alerts(reports, config, generated_at=datetime(2026, 7, 21, tzinfo=timezone.utc))
+            second = json.loads(json_path.read_text(encoding="utf-8"))
+
+            self.assertEqual(first["active_count"], 1)
+            self.assertEqual(first["alerts"][0]["type"], "entity_contract")
+            self.assertEqual(first["alerts"][0]["evidence_url"], "https://example.com/qci-contract")
+            self.assertTrue(first["alerts"][0]["is_new"])
+            self.assertEqual(second["new_count"], 0)

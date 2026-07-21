@@ -9,6 +9,10 @@
       "type": "rss"
     },
     {
+      "name": "MITRE Quantum and PQC",
+      "type": "watch"
+    },
+    {
       "name": "NSA Cybersecurity Advisories",
       "type": "url"
     }
@@ -100,6 +104,15 @@
     {
       "expected_idle_days": 0,
       "last_warning": null,
+      "name": "Cisco Quantum-Safe Updates",
+      "status": "healthy",
+      "success_rate": 100.0,
+      "type": "watch",
+      "warning_days": 0
+    },
+    {
+      "expected_idle_days": 0,
+      "last_warning": null,
       "name": "Cloudflare Blog",
       "status": "healthy",
       "success_rate": 100.0,
@@ -122,6 +135,15 @@
       "status": "healthy",
       "success_rate": 100.0,
       "type": "rss",
+      "warning_days": 0
+    },
+    {
+      "expected_idle_days": 0,
+      "last_warning": null,
+      "name": "Fortanix Quantum Security",
+      "status": "healthy",
+      "success_rate": 100.0,
+      "type": "watch",
       "warning_days": 0
     },
     {
@@ -185,6 +207,15 @@
       "status": "healthy",
       "success_rate": 100.0,
       "type": "url",
+      "warning_days": 0
+    },
+    {
+      "expected_idle_days": 0,
+      "last_warning": null,
+      "name": "Keyfactor Quantum and Crypto-Agility",
+      "status": "healthy",
+      "success_rate": 100.0,
+      "type": "watch",
       "warning_days": 0
     },
     {
@@ -271,6 +302,24 @@
     {
       "expected_idle_days": 0,
       "last_warning": null,
+      "name": "QCi Press Releases",
+      "status": "healthy",
+      "success_rate": 100.0,
+      "type": "watch",
+      "warning_days": 0
+    },
+    {
+      "expected_idle_days": 0,
+      "last_warning": null,
+      "name": "QuSecure Press Releases",
+      "status": "healthy",
+      "success_rate": 100.0,
+      "type": "watch",
+      "warning_days": 0
+    },
+    {
+      "expected_idle_days": 0,
+      "last_warning": null,
       "name": "Quantinuum News",
       "status": "healthy",
       "success_rate": 100.0,
@@ -330,8 +379,17 @@
       "success_rate": 100.0,
       "type": "rss",
       "warning_days": 0
+    },
+    {
+      "expected_idle_days": 0,
+      "last_warning": null,
+      "name": "Wiz Post-Quantum Security",
+      "status": "healthy",
+      "success_rate": 100.0,
+      "type": "watch",
+      "warning_days": 0
     }
   ],
-  "updated_at": "2026-07-21T06:41:35.658523+00:00",
+  "updated_at": "2026-07-21T07:58:19.614838+00:00",
   "version": 1
 }

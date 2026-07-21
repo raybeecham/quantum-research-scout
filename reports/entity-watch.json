@@ -1,6 +1,602 @@
 {
   "configured_entities": 39,
   "configured_technologies": 9,
+  "coverage": [
+    {
+      "active_sources": [],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Atom Computing",
+      "priority": "high",
+      "status": "gap",
+      "type": "company"
+    },
+    {
+      "active_sources": [],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "BSI Germany",
+      "priority": "high",
+      "status": "gap",
+      "type": "government"
+    },
+    {
+      "active_sources": [],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "ENISA",
+      "priority": "high",
+      "status": "gap",
+      "type": "government"
+    },
+    {
+      "active_sources": [],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "ETSI",
+      "priority": "high",
+      "status": "gap",
+      "type": "standards"
+    },
+    {
+      "active_sources": [],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "PsiQuantum",
+      "priority": "high",
+      "status": "gap",
+      "type": "company"
+    },
+    {
+      "active_sources": [],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "QuEra",
+      "priority": "high",
+      "status": "gap",
+      "type": "company"
+    },
+    {
+      "active_sources": [],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Intel Quantum",
+      "priority": "medium",
+      "status": "gap",
+      "type": "company"
+    },
+    {
+      "active_sources": [],
+      "disabled_sources": [
+        {
+          "enabled": false,
+          "name": "MITRE Quantum and PQC",
+          "type": "watch"
+        }
+      ],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "MITRE",
+      "priority": "high",
+      "status": "disabled",
+      "type": "research"
+    },
+    {
+      "active_sources": [],
+      "disabled_sources": [
+        {
+          "enabled": false,
+          "name": "NSA Cybersecurity Advisories",
+          "type": "url"
+        }
+      ],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "NSA",
+      "priority": "high",
+      "status": "disabled",
+      "type": "government"
+    },
+    {
+      "active_sources": [],
+      "disabled_sources": [
+        {
+          "enabled": false,
+          "name": "Entrust Blog",
+          "type": "url"
+        }
+      ],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Entrust",
+      "priority": "medium",
+      "status": "disabled",
+      "type": "company"
+    },
+    {
+      "active_sources": [],
+      "disabled_sources": [],
+      "evidence_count": 1,
+      "first_party_evidence_count": 0,
+      "name": "ANSSI",
+      "priority": "high",
+      "status": "third-party",
+      "type": "government"
+    },
+    {
+      "active_sources": [],
+      "disabled_sources": [],
+      "evidence_count": 2,
+      "first_party_evidence_count": 0,
+      "name": "D-Wave",
+      "priority": "high",
+      "status": "third-party",
+      "type": "company"
+    },
+    {
+      "active_sources": [],
+      "disabled_sources": [],
+      "evidence_count": 2,
+      "first_party_evidence_count": 0,
+      "name": "ISO/IEC",
+      "priority": "high",
+      "status": "third-party",
+      "type": "standards"
+    },
+    {
+      "active_sources": [],
+      "disabled_sources": [],
+      "evidence_count": 4,
+      "first_party_evidence_count": 0,
+      "name": "Infleqtion",
+      "priority": "medium",
+      "status": "third-party",
+      "type": "company"
+    },
+    {
+      "active_sources": [],
+      "disabled_sources": [],
+      "evidence_count": 8,
+      "first_party_evidence_count": 0,
+      "name": "Pasqal",
+      "priority": "medium",
+      "status": "third-party",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "NIST CSRC News",
+          "type": "url"
+        },
+        {
+          "enabled": true,
+          "name": "NIST Post-Quantum Cryptography Project",
+          "type": "url"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 1,
+      "first_party_evidence_count": 0,
+      "name": "NIST",
+      "priority": "critical",
+      "status": "covered",
+      "type": "government"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "CISA Cybersecurity Advisories",
+          "type": "rss"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "CISA",
+      "priority": "high",
+      "status": "covered",
+      "type": "government"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "Cisco Quantum-Safe Updates",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Cisco",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "Cloudflare Blog",
+          "type": "rss"
+        },
+        {
+          "enabled": true,
+          "name": "Cloudflare Post-Quantum Blog",
+          "type": "url"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 2,
+      "first_party_evidence_count": 2,
+      "name": "Cloudflare",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "DigiCert Blog",
+          "type": "rss"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "DigiCert",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "Fortanix Quantum Security",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Fortanix",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "Google Security Blog",
+          "type": "rss"
+        },
+        {
+          "enabled": true,
+          "name": "Google Quantum AI",
+          "type": "url"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 1,
+      "first_party_evidence_count": 0,
+      "name": "Google Quantum AI",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "IBM Quantum Blog",
+          "type": "url"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 9,
+      "first_party_evidence_count": 0,
+      "name": "IBM",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "IETF PQUIP",
+          "type": "url"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "IETF",
+      "priority": "high",
+      "status": "covered",
+      "type": "standards"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "IonQ News",
+          "type": "url"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 1,
+      "first_party_evidence_count": 0,
+      "name": "IonQ",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "Keyfactor Quantum and Crypto-Agility",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [
+        {
+          "enabled": false,
+          "name": "Keyfactor Blog",
+          "type": "rss"
+        }
+      ],
+      "evidence_count": 1,
+      "first_party_evidence_count": 0,
+      "name": "Keyfactor",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "Microsoft Quantum Blog",
+          "type": "url"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 1,
+      "first_party_evidence_count": 0,
+      "name": "Microsoft Quantum",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "Open Quantum Safe",
+          "type": "url"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Open Quantum Safe",
+      "priority": "high",
+      "status": "covered",
+      "type": "open-source"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "PQCA Readiness Tracking",
+          "type": "rss"
+        },
+        {
+          "enabled": true,
+          "name": "PQCA Blog and News",
+          "type": "rss"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "PQCA",
+      "priority": "high",
+      "status": "covered",
+      "type": "consortium"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "PQShield",
+          "type": "url"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 1,
+      "first_party_evidence_count": 1,
+      "name": "PQShield",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "QuSecure Press Releases",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 2,
+      "first_party_evidence_count": 0,
+      "name": "QuSecure",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "Quantinuum News",
+          "type": "url"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 2,
+      "first_party_evidence_count": 0,
+      "name": "Quantinuum",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "QCi Press Releases",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Quantum Computing Inc. (QCi)",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "SandboxAQ Blog",
+          "type": "url"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "SandboxAQ",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "Thales Cybersecurity Blog",
+          "type": "url"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Thales",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "NCSC UK Guidance",
+          "type": "rss"
+        },
+        {
+          "enabled": true,
+          "name": "NCSC UK News",
+          "type": "rss"
+        },
+        {
+          "enabled": true,
+          "name": "NCSC UK Reports",
+          "type": "rss"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "UK NCSC",
+      "priority": "high",
+      "status": "covered",
+      "type": "government"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "Wiz Post-Quantum Security",
+          "type": "watch"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Wiz",
+      "priority": "high",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "AWS Quantum Technologies Blog",
+          "type": "rss"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 4,
+      "first_party_evidence_count": 1,
+      "name": "AWS",
+      "priority": "medium",
+      "status": "covered",
+      "type": "company"
+    },
+    {
+      "active_sources": [
+        {
+          "enabled": true,
+          "name": "Rigetti News",
+          "type": "url"
+        }
+      ],
+      "disabled_sources": [],
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
+      "name": "Rigetti",
+      "priority": "medium",
+      "status": "covered",
+      "type": "company"
+    }
+  ],
+  "coverage_summary": {
+    "covered": 24,
+    "disabled": 3,
+    "gap": 7,
+    "third-party": 5
+  },
   "entities": [
     {
       "aliases": [
@@ -1661,6 +2257,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-07-21T07:34:16.123203+00:00",
+  "updated_at": "2026-07-21T07:58:19.395592+00:00",
   "version": 1
 }

@@ -14,6 +14,7 @@ def write_entity_watch(
     reports_dir: str | Path,
     config_path: str | Path = "watchlists.yaml",
     *,
+    sources_config_path: str | Path | None = None,
     generated_at: datetime | None = None,
 ) -> tuple[Path, Path]:
     reports_path = Path(reports_dir)
@@ -33,6 +34,8 @@ def write_entity_watch(
     technologies.sort(key=_profile_sort_key)
     unseen_entities.sort(key=_profile_sort_key)
     unseen_technologies.sort(key=_profile_sort_key)
+    coverage = _source_coverage(entity_profiles, sources_config_path)
+    coverage_summary = {status: sum(item["status"] == status for item in coverage) for status in ("covered", "disabled", "third-party", "gap")}
 
     payload = {
         "version": 1,
@@ -43,6 +46,8 @@ def write_entity_watch(
         "unseen_technologies": unseen_technologies,
         "configured_entities": len(config.get("entities", [])),
         "configured_technologies": len(config.get("technologies", [])),
+        "coverage": coverage,
+        "coverage_summary": coverage_summary,
     }
     json_path = reports_path / "entity-watch.json"
     json_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
@@ -150,6 +155,63 @@ def _unseen_summary(item: dict) -> dict:
     return {key: item[key] for key in ("name", "type", "priority", "aliases", "case_sensitive_aliases")}
 
 
+def _source_coverage(entity_profiles: list[dict], sources_config_path: str | Path | None) -> list[dict]:
+    configured: dict[str, list[dict]] = {}
+    if sources_config_path and Path(sources_config_path).exists():
+        raw = yaml.safe_load(Path(sources_config_path).read_text(encoding="utf-8")) or {}
+        for section, source_type in (("rss_feeds", "rss"), ("urls", "url"), ("watch_sources", "watch")):
+            for source in raw.get(section, []) or []:
+                entities = source.get("entities") or source.get("entity") or []
+                if isinstance(entities, str):
+                    entities = [entities]
+                entry = {
+                    "name": str(source.get("name") or source.get("url") or "Unnamed source"),
+                    "type": source_type,
+                    "enabled": bool(source.get("enabled", True)),
+                }
+                for entity in entities:
+                    configured.setdefault(str(entity).casefold(), []).append(entry)
+
+    coverage: list[dict] = []
+    for profile in entity_profiles:
+        sources = configured.get(profile["name"].casefold(), [])
+        active_sources = [item for item in sources if item["enabled"]]
+        disabled_sources = [item for item in sources if not item["enabled"]]
+        source_names = {item["name"].casefold() for item in sources}
+        first_party_evidence = sum(
+            str(item.get("source", "")).casefold() in source_names for item in profile.get("evidence", [])
+        )
+        if active_sources:
+            status = "covered"
+        elif disabled_sources:
+            status = "disabled"
+        elif profile["evidence_count"]:
+            status = "third-party"
+        else:
+            status = "gap"
+        coverage.append(
+            {
+                "name": profile["name"],
+                "type": profile["type"],
+                "priority": profile["priority"],
+                "status": status,
+                "evidence_count": profile["evidence_count"],
+                "first_party_evidence_count": first_party_evidence,
+                "active_sources": active_sources,
+                "disabled_sources": disabled_sources,
+            }
+        )
+    status_order = {"gap": 0, "disabled": 1, "third-party": 2, "covered": 3}
+    coverage.sort(
+        key=lambda item: (
+            status_order[item["status"]],
+            {"critical": 0, "high": 1, "medium": 2}.get(item["priority"], 9),
+            item["name"],
+        )
+    )
+    return coverage
+
+
 def _render(payload: dict) -> str:
     lines = [
         "# Entity and Technology Watch",
@@ -176,4 +238,17 @@ def _render(payload: dict) -> str:
             names = ", ".join(item["name"] for item in unseen)
             lines.extend(["", f"**Configured, awaiting evidence ({len(unseen)}):** {names}"])
         lines.append("")
+    lines.extend(
+        [
+            "## First-Party Source Coverage",
+            "",
+            "| Organization | Coverage | Active first-party sources | Evidence |",
+            "|---|---|---:|---:|",
+        ]
+    )
+    for item in payload["coverage"]:
+        lines.append(
+            f"| {item['name']} | {item['status']} | {len(item['active_sources'])} | {item['evidence_count']} |"
+        )
+    lines.append("")
     return "\n".join(lines)

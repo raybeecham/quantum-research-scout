@@ -40,34 +40,45 @@ rss_feeds:
     url: "https://quantumzeitgeist.com/feed/"
   - name: "CISA Cybersecurity Advisories"
     url: "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+    entities: [CISA]
   - name: "PQCA Readiness Tracking"
     url: "https://lists.pqca.org/g/wg-readiness-tracking/rss"
+    entities: [PQCA]
   - name: "PQCA Blog and News"
     url: "https://pqca.org/feed/"
     max_items: 25
+    entities: [PQCA]
   - name: "NCSC UK Guidance"
     url: "https://www.ncsc.gov.uk/api/1/services/v1/guidance-rss-feed.xml"
     max_items: 25
+    entities: [UK NCSC]
   - name: "NCSC UK News"
     url: "https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml"
     max_items: 25
+    entities: [UK NCSC]
   - name: "NCSC UK Reports"
     url: "https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml"
     max_items: 25
+    entities: [UK NCSC]
   - name: "Cloudflare Blog"
     url: "https://blog.cloudflare.com/rss/"
+    entities: [Cloudflare]
   - name: "Google Security Blog"
     url: "https://security.googleblog.com/feeds/posts/default"
+    entities: [Google Quantum AI]
   - name: "AWS Quantum Technologies Blog"
     url: "https://aws.amazon.com/blogs/quantum-computing/feed/"
+    entities: [AWS]
   - name: "InfoQ Quantum Computing"
     url: "https://feed.infoq.com/quantumcomputing/news/"
     max_items: 25
   - name: "DigiCert Blog"
     url: "https://www.digicert.com/blog/feed/"
+    entities: [DigiCert]
   - name: "Keyfactor Blog"
     url: "https://www.keyfactor.com/blog/feed/"
     enabled: false  # Official endpoint no longer returns a parseable feed.
+    entities: [Keyfactor]
 
 urls:
   - name: "QuantumNews.ai"
@@ -76,36 +87,104 @@ urls:
     max_items: 60
   - name: "NIST CSRC News"
     url: "https://csrc.nist.gov/news"
+    entities: [NIST]
   - name: "NIST Post-Quantum Cryptography Project"
     url: "https://csrc.nist.gov/projects/post-quantum-cryptography"
+    entities: [NIST]
   - name: "NSA Cybersecurity Advisories"
     url: "https://www.nsa.gov/Cybersecurity/Cybersecurity-Advisories-Guidance/"
     enabled: false  # NSA blocks this automated HTML collector with HTTP 403.
+    entities: [NSA]
   - name: "IETF PQUIP"
     url: "https://datatracker.ietf.org/group/pquip/about/"
+    entities: [IETF]
   - name: "Google Quantum AI"
     url: "https://quantumai.google/"
+    entities: [Google Quantum AI]
   - name: "Open Quantum Safe"
     url: "https://openquantumsafe.org/news/"
+    entities: [Open Quantum Safe]
   - name: "Cloudflare Post-Quantum Blog"
     url: "https://blog.cloudflare.com/tag/post-quantum/"
     min_title_chars: 18
+    entities: [Cloudflare]
   - name: "PQShield"
     url: "https://pqshield.com/"
+    entities: [PQShield]
   - name: "IBM Quantum Blog"
     url: "https://www.ibm.com/quantum/blog"
+    entities: [IBM]
   - name: "Microsoft Quantum Blog"
     url: "https://quantum.microsoft.com/en-us/insights/blogs"
+    entities: [Microsoft Quantum]
   - name: "IonQ News"
     url: "https://www.ionq.com/news"
+    entities: [IonQ]
   - name: "Quantinuum News"
     url: "https://www.quantinuum.com/news/news"
+    entities: [Quantinuum]
   - name: "Rigetti News"
     url: "https://www.rigetti.com/news"
+    entities: [Rigetti]
   - name: "SandboxAQ Blog"
     url: "https://www.sandboxaq.com/blog"
+    entities: [SandboxAQ]
   - name: "Thales Cybersecurity Blog"
     url: "https://cpl.thalesgroup.com/blog"
+    entities: [Thales]
   - name: "Entrust Blog"
     url: "https://www.entrust.com/blog"
     enabled: false  # Entrust blocks this automated HTML collector with HTTP 403.
+    entities: [Entrust]
+
+watch_sources:
+  - name: "Cisco Quantum-Safe Updates"
+    entities: [Cisco]
+    rss_url: "https://blogs.cisco.com/feed"
+    sitemap_urls: ["https://blogs.cisco.com/sitemap_index.xml"]
+    url: "https://blogs.cisco.com/tag/post-quantum-cryptography"
+    include_patterns: [post-quantum, post_quantum, quantum, cryptograph]
+    match_patterns: [post-quantum, post quantum, quantum-safe, quantum safe, cryptograph]
+    max_items: 25
+  - name: "Wiz Post-Quantum Security"
+    entities: [Wiz]
+    sitemap_urls: ["https://www.wiz.io/sitemap.xml"]
+    url: "https://www.wiz.io/blog"
+    include_patterns: [/blog/, quantum, cryptograph]
+    match_patterns: [post-quantum, post quantum, quantum readiness, cryptograph]
+    max_items: 25
+  - name: "QCi Press Releases"
+    entities: ["Quantum Computing Inc. (QCi)"]
+    sitemap_urls: ["https://quantumcomputinginc.com/sitemap.xml"]
+    url: "https://quantumcomputinginc.com/news/press-releases"
+    include_patterns: [/news/press-releases/]
+    max_items: 30
+  - name: "Fortanix Quantum Security"
+    entities: [Fortanix]
+    rss_url: "https://www.fortanix.com/blog/rss.xml"
+    sitemap_urls: ["https://www.fortanix.com/sitemap.xml"]
+    url: "https://www.fortanix.com/blog"
+    include_patterns: [/blog/, quantum, cryptograph]
+    match_patterns: [post-quantum, post quantum, quantum-safe, quantum safe, crypto-agil, cryptograph]
+    max_items: 25
+  - name: "MITRE Quantum and PQC"
+    entities: [MITRE]
+    enabled: false  # MITRE blocks both sitemap and newsroom collection with HTTP 403.
+    sitemap_urls: ["https://www.mitre.org/sitemap.xml"]
+    url: "https://www.mitre.org/news-insights"
+    include_patterns: [/news-insights/, quantum, cryptograph]
+    match_patterns: [post-quantum, post quantum, quantum computing, quantum technology, cryptograph]
+    max_items: 25
+  - name: "QuSecure Press Releases"
+    entities: [QuSecure]
+    sitemap_urls: ["https://www.qusecure.com/sitemap_index.xml"]
+    url: "https://www.qusecure.com/press-releases/"
+    include_patterns: [press-release, press_releases, /press-releases/]
+    max_items: 25
+  - name: "Keyfactor Quantum and Crypto-Agility"
+    entities: [Keyfactor]
+    sitemap_urls: ["https://www.keyfactor.com/sitemap_index.xml"]
+    url: "https://www.keyfactor.com/blog/"
+    include_patterns: [/blog/, /press-releases/, quantum, crypto-agil, cryptograph]
+    match_patterns: [post-quantum, post quantum, quantum, crypto-agil, cryptograph]
+    max_items: 25

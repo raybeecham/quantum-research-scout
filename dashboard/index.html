@@ -13,7 +13,7 @@
     <nav class="nav shell" aria-label="Primary navigation">
       <a class="brand" href="#top"><span class="brand-mark">Q</span><span>Quantum Research Scout</span></a>
       <div class="nav-links">
-        <a href="#guide">Guide</a><a href="#trends">Trends</a><a href="#alerts">Alerts</a><a href="#signals">Signals</a><a href="#watch">Watch</a><a href="#sources">Sources</a><a href="#reports">Reports</a>
+        <a href="#guide">Guide</a><a href="#trends">Trends</a><a href="#alerts">Alerts</a><a href="#signals">Signals</a><a href="#watch">Watch</a><a href="#coverage">Coverage</a><a href="#sources">Sources</a><a href="#reports">Reports</a>
         <a id="repo-link" class="button secondary" href="#">Repository</a>
       </div>
     </nav>
@@ -34,6 +34,7 @@
       <article><span>Critical</span><strong id="metric-critical">—</strong><small>highest-importance themes</small></article>
       <article><span>Source health</span><strong id="metric-health">—</strong><small>healthy active sources</small></article>
       <article><span>Active alerts</span><strong id="metric-alerts">—</strong><small id="metric-alerts-detail">new conditions</small></article>
+      <article><span>First-party coverage</span><strong id="metric-coverage">—</strong><small id="metric-coverage-detail">watchlist organizations</small></article>
     </section>
 
     <section id="guide" class="section guide-section">
@@ -52,6 +53,8 @@
         <article><span class="guide-icon new">N</span><div><h3>New alert</h3><p>The condition was not active during the prior alert evaluation. Persistent conditions remain active without repeatedly appearing as new.</p></div></article>
         <article><span class="guide-icon actionable">A</span><div><h3>Active watch item</h3><p>An entity or technology appeared in supporting evidence within the last seven days.</p></div></article>
         <article><span class="guide-icon high">Q</span><div><h3>Quiet / dormant</h3><p>Quiet means the last match was 8–30 days ago; dormant means more than 30 days without matched evidence.</p></div></article>
+        <article><span class="guide-icon confidence">✓</span><div><h3>First-party covered</h3><p>At least one enabled official feed, sitemap, newsroom, or blog is configured for the organization.</p></div></article>
+        <article><span class="guide-icon degraded">!</span><div><h3>Coverage gap</h3><p>Gap means no official source or evidence exists. Third-party means evidence exists, but no enabled first-party source is configured.</p></div></article>
       </div>
     </section>
 
@@ -82,6 +85,11 @@
     <section id="watch" class="section watch-section">
       <div class="section-heading"><div><p class="eyebrow">ENTITY WATCH</p><h2>Organizations and technologies</h2></div><div id="watch-tabs" class="filters" aria-label="Watchlist type"><button data-watch="entities" class="active">Organizations</button><button data-watch="technologies">Technologies</button></div></div>
       <div id="watch-grid" class="watch-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="coverage" class="section coverage-section">
+      <div class="section-heading"><div><p class="eyebrow">WATCHLIST COVERAGE</p><h2>Where collection needs attention</h2></div><p id="coverage-summary" class="updated"></p></div>
+      <div class="table-wrap"><table><thead><tr><th>Organization</th><th>Priority</th><th>Coverage</th><th>First-party sources</th><th>Evidence</th></tr></thead><tbody id="coverage-table"></tbody></table></div>
     </section>
 
     <section id="sources" class="section">

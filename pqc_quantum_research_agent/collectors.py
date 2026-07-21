@@ -2,10 +2,12 @@ from __future__ import annotations
 
 import logging
 import time
+import xml.etree.ElementTree as ET
 from collections.abc import Callable
-from urllib.parse import urlencode
+from urllib.parse import unquote, urlencode, urlsplit
 
 from .config import AgentConfig
+from .dates import parse_datetime
 from .feed_parser import parse_feed
 from .html_links import extract_links, extract_page_metadata
 from .http import HttpClient
@@ -34,6 +36,11 @@ def collect_all(config: AgentConfig) -> CollectionResult:
         ),
         ("RSS feeds", "rss", lambda: collect_rss_feeds(client, config.rss_feeds, settings.max_items_per_source)),
         ("Configured URLs", "url", lambda: collect_urls(client, config.urls, settings.max_items_per_source)),
+        (
+            "Watchlist sources",
+            "watch",
+            lambda: collect_watch_sources(client, config.watch_sources, settings.max_items_per_source),
+        ),
     )
 
     for source_name, source_type, collect in collectors:
@@ -229,6 +236,225 @@ def collect_urls(client: HttpClient, urls: list[dict], max_items_per_source: int
                 break
     LOGGER.info("Collected %d URL page candidates", len(result.items))
     return result
+
+
+def collect_watch_sources(client: HttpClient, sources: list[dict], max_items_per_source: int) -> CollectionResult:
+    """Collect a first-party source with RSS -> sitemap -> HTML fallback discovery."""
+    result = CollectionResult()
+    for source in sources:
+        if not source.get("enabled", True):
+            continue
+        collected = _collect_watch_source(client, source, max_items_per_source)
+        result.items.extend(collected.items)
+        result.warnings.extend(collected.warnings)
+    LOGGER.info("Collected %d watchlist-source candidates", len(result.items))
+    return result
+
+
+def _collect_watch_source(client: HttpClient, source: dict, default_max_items: int) -> CollectionResult:
+    name = str(source.get("name") or source.get("url") or "Watchlist source")
+    max_items = int(source.get("max_items", default_max_items))
+    attempts: list[str] = []
+    primary_url = ""
+
+    rss_url = str(source.get("rss_url") or "")
+    if rss_url:
+        primary_url = primary_url or rss_url
+        feed = _collect_feed(client, name, "watch", rss_url, max_items)
+        feed.items = _filter_watch_items(feed.items, source)
+        if feed.items:
+            _tag_watch_items(feed.items, source, "rss")
+            return feed
+        attempts.extend(warning.message for warning in feed.warnings)
+        if not feed.warnings:
+            attempts.append("RSS returned no matching entries")
+
+    sitemap_urls = _string_list(source.get("sitemap_urls") or source.get("sitemap_url"))
+    for sitemap_url in sitemap_urls:
+        primary_url = primary_url or sitemap_url
+        sitemap = _collect_watch_sitemap(client, name, sitemap_url, source, max_items)
+        if sitemap.items:
+            _tag_watch_items(sitemap.items, source, "sitemap")
+            return sitemap
+        attempts.extend(warning.message for warning in sitemap.warnings)
+
+    fallback_urls = _string_list(source.get("urls") or source.get("url"))
+    for fallback_url in fallback_urls:
+        primary_url = primary_url or fallback_url
+        page = _collect_watch_page(client, name, fallback_url, source, max_items)
+        if page.items:
+            _tag_watch_items(page.items, source, "html")
+            return page
+        attempts.extend(warning.message for warning in page.warnings)
+
+    detail = "; ".join(dict.fromkeys(attempts)) or "no discovery method was configured"
+    return CollectionResult(
+        warnings=[SourceWarning(name, "watch", f"All discovery methods failed: {detail}", primary_url)]
+    )
+
+
+def _collect_watch_sitemap(
+    client: HttpClient,
+    source_name: str,
+    sitemap_url: str,
+    source: dict,
+    max_items: int,
+) -> CollectionResult:
+    result = CollectionResult()
+    try:
+        xml_text, resolved_url = client.get_text(sitemap_url)
+        root = ET.fromstring(xml_text.encode("utf-8"))
+    except (RuntimeError, ET.ParseError) as exc:
+        result.warnings.append(SourceWarning(source_name, "watch", f"Sitemap failed: {exc}", sitemap_url))
+        return result
+
+    page_entries = _sitemap_page_entries(root)
+    if _xml_local_name(root.tag) == "sitemapindex":
+        child_urls = [loc for loc, _ in page_entries]
+        page_entries = []
+        child_patterns = _string_list(source.get("sitemap_include_patterns"))
+        if child_patterns:
+            child_urls = [url for url in child_urls if _matches_any(url, child_patterns)]
+        for child_url in child_urls[: int(source.get("max_sitemaps", 6))]:
+            try:
+                child_text, _ = client.get_text(child_url)
+                child_root = ET.fromstring(child_text.encode("utf-8"))
+            except (RuntimeError, ET.ParseError):
+                continue
+            page_entries.extend(_sitemap_page_entries(child_root))
+
+    page_entries = [entry for entry in page_entries if _watch_candidate(entry[0], "", source)]
+    match_patterns = _string_list(source.get("match_patterns"))
+    preferred_entries = [entry for entry in page_entries if _matches_any(entry[0], match_patterns)]
+    if preferred_entries:
+        page_entries = preferred_entries
+    page_entries.sort(key=lambda entry: entry[1], reverse=True)
+    for page_url, last_modified in page_entries[:max_items]:
+        try:
+            html_text, article_url = client.get_text(page_url)
+            metadata = extract_page_metadata(html_text, article_url, source_name)
+        except Exception:
+            continue
+        title = metadata.title or _title_from_url(article_url)
+        if not title:
+            continue
+        published_at = metadata.published_at or parse_datetime(last_modified)
+        result.items.append(
+            ResearchItem(
+                source_name=source_name,
+                source_type="watch",
+                title=title,
+                url=article_url,
+                summary=compact_summary(metadata.description, 500),
+                published_at=published_at,
+                date_source=metadata.date_source or ("sitemap:lastmod" if last_modified else ""),
+                date_confidence=metadata.date_confidence if metadata.published_at else ("medium" if published_at else "unknown"),
+                raw_payload={"source_url": sitemap_url, "resolved_url": resolved_url, "sitemap_lastmod": last_modified},
+            )
+        )
+    result.items = _filter_watch_items(result.items, source)
+    if not result.items:
+        result.warnings.append(SourceWarning(source_name, "watch", "Sitemap returned no matching entries.", sitemap_url))
+    return result
+
+
+def _collect_watch_page(
+    client: HttpClient,
+    source_name: str,
+    source_url: str,
+    source: dict,
+    max_items: int,
+) -> CollectionResult:
+    result = CollectionResult()
+    try:
+        html_text, resolved_url = client.get_text(source_url)
+        _, _, links = extract_links(html_text, resolved_url, same_domain_only=bool(source.get("same_domain_only", True)))
+    except Exception as exc:
+        result.warnings.append(SourceWarning(source_name, "watch", f"HTML discovery failed: {exc}", source_url))
+        return result
+
+    min_title_chars = int(source.get("min_title_chars", 12))
+    for link in links:
+        title = strip_html(link.title)
+        if len(title) < min_title_chars or not _watch_candidate(link.url, title, source):
+            continue
+        metadata = None
+        article_url = link.url
+        try:
+            article_html, article_url = client.get_text(link.url)
+            metadata = extract_page_metadata(article_html, article_url, source_name)
+        except Exception:
+            pass
+        result.items.append(
+            ResearchItem(
+                source_name=source_name,
+                source_type="watch",
+                title=title,
+                url=article_url,
+                summary=compact_summary(metadata.description if metadata else "", 500),
+                published_at=metadata.published_at if metadata else None,
+                date_source=metadata.date_source if metadata else "",
+                date_confidence=metadata.date_confidence if metadata else "unknown",
+                raw_payload={"source_url": source_url, "resolved_url": resolved_url},
+            )
+        )
+        if len(result.items) >= max_items:
+            break
+    result.items = _filter_watch_items(result.items, source)
+    if not result.items:
+        result.warnings.append(SourceWarning(source_name, "watch", "HTML page returned no matching entries.", source_url))
+    return result
+
+
+def _sitemap_page_entries(root: ET.Element) -> list[tuple[str, str]]:
+    entries: list[tuple[str, str]] = []
+    for node in list(root):
+        loc = next((child.text.strip() for child in list(node) if _xml_local_name(child.tag) == "loc" and child.text), "")
+        lastmod = next((child.text.strip() for child in list(node) if _xml_local_name(child.tag) == "lastmod" and child.text), "")
+        if loc:
+            entries.append((loc, lastmod))
+    return entries
+
+
+def _xml_local_name(tag: str) -> str:
+    return tag.rsplit("}", 1)[-1]
+
+
+def _string_list(value) -> list[str]:
+    if isinstance(value, str):
+        return [value] if value else []
+    return [str(item) for item in value or [] if item]
+
+
+def _matches_any(text: str, patterns: list[str]) -> bool:
+    folded = text.casefold()
+    return any(pattern.casefold() in folded for pattern in patterns)
+
+
+def _watch_candidate(url: str, title: str, source: dict) -> bool:
+    haystack = f"{url} {title}"
+    include = _string_list(source.get("include_patterns"))
+    exclude = _string_list(source.get("exclude_patterns"))
+    return (not include or _matches_any(haystack, include)) and not _matches_any(haystack, exclude)
+
+
+def _filter_watch_items(items: list[ResearchItem], source: dict) -> list[ResearchItem]:
+    patterns = _string_list(source.get("match_patterns"))
+    if not patterns:
+        return items
+    return [item for item in items if _matches_any(f"{item.title} {item.summary} {item.url}", patterns)]
+
+
+def _tag_watch_items(items: list[ResearchItem], source: dict, method: str) -> None:
+    entities = _string_list(source.get("entities") or source.get("entity"))
+    for item in items:
+        item.raw_payload.update({"discovery_method": method, "watch_entities": entities})
+
+
+def _title_from_url(url: str) -> str:
+    path = unquote(urlsplit(url).path).rstrip("/")
+    slug = path.rsplit("/", 1)[-1] if path else ""
+    return " ".join(part.capitalize() for part in slug.replace("_", "-").split("-") if part)
 
 
 def _throttle_arxiv_request(last_request_at: float, pause_seconds: float) -> float:

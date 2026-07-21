@@ -18,7 +18,7 @@ class AlertDeliveryTests(unittest.TestCase):
                     {
                         "updated_at": "2026-07-21T00:00:00+00:00",
                         "alerts": [
-                            {"title": "New alert", "is_new": True, "severity": "high", "summary": "New", "link": "signals.md"},
+                            {"title": "New alert", "is_new": True, "severity": "high", "summary": "New", "link": "signals.md", "evidence_url": "https://example.com/evidence"},
                             {"title": "Old alert", "is_new": False, "severity": "medium", "summary": "Old", "link": "signals.md"},
                         ],
                     }
@@ -33,4 +33,5 @@ class AlertDeliveryTests(unittest.TestCase):
             self.assertIn("1 new", title)
             content = body.read_text(encoding="utf-8")
             self.assertIn("New alert", content)
+            self.assertIn("[Open direct evidence](https://example.com/evidence)", content)
             self.assertNotIn("Old alert", content)

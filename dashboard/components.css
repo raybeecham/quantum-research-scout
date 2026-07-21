@@ -22,5 +22,13 @@
 .watch-unseen div{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .watch-unseen span{padding:7px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:11px}
 .watch-unseen strong{color:var(--text)}
+.metrics{grid-template-columns:repeat(6,1fr)}
+.coverage-status{display:inline-flex;align-items:center;gap:7px;color:var(--muted);font-size:12px;text-transform:capitalize}
+.coverage-status i{width:8px;height:8px;border-radius:50%;background:var(--red)}
+.coverage-status.covered i{background:var(--green)}
+.coverage-status.third-party i{background:var(--blue)}
+.coverage-status.disabled i{background:var(--amber)}
+@media(max-width:950px){.metrics{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:900px){.watch-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:800px){.metrics{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.watch-grid{grid-template-columns:1fr}.trend-summary{gap:24px}}

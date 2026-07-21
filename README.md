@@ -66,6 +66,7 @@ The default rules cover:
 - Critical-importance themes
 - Degraded sources
 - Failing sources
+- Material watchlist events: contracts, acquisitions, funding, standards, partnerships, product launches, and vulnerabilities
 
 Daily automation writes `reports/alerts.md` and `reports/alerts.json`, includes the alert center in the dashboard, and publishes the Markdown alert summary in the GitHub Actions run summary.
 
@@ -74,6 +75,10 @@ To deliver new alerts as GitHub Issues, create the repository Actions variable `
 ## Entity and Technology Watchlists
 
 Edit `watchlists.yaml` to choose organizations, agencies, standards bodies, algorithms, and technologies to follow. Aliases are matched against evidence titles and source names, producing explainable profiles with first/latest appearance, momentum, status, associated themes, and supporting links. The dashboard also charts historical evidence activity with 30-day, 90-day, and all-history views.
+
+First-party coverage is configured in `sources.yaml`. Entries in `watch_sources` try RSS or Atom first, then sitemap discovery, and finally an official newsroom or blog page. A successful fallback suppresses intermediate warnings, so one organization produces one meaningful health result. Source entries can declare their associated `entities`, allowing the dashboard to classify every watched organization as covered, disabled, third-party-only, or a true collection gap.
+
+Entity alerts evaluate recent evidence from high- and critical-priority watch items. Event patterns and severity are configurable under `entities.events` in `alerts.yaml`; alerts include direct evidence links and use stable fingerprints so unchanged announcements are not repeatedly marked new.
 
 Build it locally with:
 
@@ -324,7 +329,7 @@ The workflow uses Node.js 24-compatible GitHub Action majors and sets `FORCE_JAV
 ```text
 pqc_quantum_research_agent/
   cli.py            # command-line entry point
-  collectors.py     # arXiv, IACR, RSS, and URL collection
+  collectors.py     # arXiv, IACR, RSS, URL, and fallback watch-source collection
   classifier.py     # keyword category and score logic
   dedupe.py         # URL, hash, and fuzzy-title dedupe
   storage.py        # SQLite schema and inserts

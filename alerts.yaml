@@ -11,5 +11,32 @@ sources:
   failing: true
   minimum_warning_days: 1
 
+entities:
+  enabled: true
+  minimum_priority: high
+  max_age_days: 3
+  events:
+    contract:
+      severity: critical
+      patterns: [contract, awarded, award, task order, procurement, purchase order, selected by]
+    acquisition:
+      severity: critical
+      patterns: [acquisition, acquire, acquired, merger, definitive agreement]
+    funding:
+      severity: high
+      patterns: [funding, financing, investment, raises, raised, private placement, series a, series b, series c]
+    standard:
+      severity: high
+      patterns: [standard, standardized, certification, certified, validated, compliance, guidance, roadmap]
+    partnership:
+      severity: high
+      patterns: [partnership, partners with, collaborate, collaboration, memorandum of understanding, mou]
+    product_launch:
+      severity: high
+      patterns: [launches, launched, introduces, introduced, unveils, unveiled, releases, released, general availability]
+    vulnerability:
+      severity: critical
+      patterns: [vulnerability, advisory, exploit, breach, incident, cve]
+
 output:
   max_active_alerts: 50

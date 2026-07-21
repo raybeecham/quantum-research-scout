@@ -58,9 +58,17 @@ class EntityWatchTests(unittest.TestCase):
                 "technologies:\n  - name: ML-KEM\n    priority: critical\n    aliases: [FIPS 203]\n",
                 encoding="utf-8",
             )
+            sources_config = reports / "sources.yaml"
+            sources_config.write_text(
+                "watch_sources:\n  - name: Cisco Quantum-Safe Updates\n    entities: [Cisco]\n    url: https://example.com/cisco\n",
+                encoding="utf-8",
+            )
 
             json_path, markdown_path = write_entity_watch(
-                reports, config, generated_at=datetime(2026, 7, 21, tzinfo=timezone.utc)
+                reports,
+                config,
+                sources_config_path=sources_config,
+                generated_at=datetime(2026, 7, 21, tzinfo=timezone.utc),
             )
             payload = json.loads(json_path.read_text(encoding="utf-8"))
 
@@ -71,6 +79,10 @@ class EntityWatchTests(unittest.TestCase):
             self.assertEqual(qci["evidence_count"], 1)
             self.assertEqual(qci["evidence"][0]["key"], "two")
             self.assertEqual(payload["unseen_entities"][0]["name"], "Cisco")
+            cisco_coverage = next(item for item in payload["coverage"] if item["name"] == "Cisco")
+            self.assertEqual(cisco_coverage["status"], "covered")
+            self.assertEqual(cisco_coverage["active_sources"][0]["name"], "Cisco Quantum-Safe Updates")
             markdown = markdown_path.read_text(encoding="utf-8")
             self.assertIn("# Entity and Technology Watch", markdown)
             self.assertIn("Configured, awaiting evidence (1):** Cisco", markdown)
+            self.assertIn("## First-Party Source Coverage", markdown)

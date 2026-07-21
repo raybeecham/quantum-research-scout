@@ -306,7 +306,7 @@ def main(argv: list[str] | None = None) -> int:
         )
     if args.update_intelligence_tracking:
         write_signal_tracker(Path(args.reports_dir))
-        write_entity_watch(Path(args.reports_dir), args.watchlists_config)
+        write_entity_watch(Path(args.reports_dir), args.watchlists_config, sources_config_path=args.config)
         write_source_health_report(Path(args.reports_dir), args.config)
         write_alerts(Path(args.reports_dir), args.alerts_config)
     if args.update_report_index:

@@ -51,7 +51,14 @@ class DashboardBuildTests(unittest.TestCase):
                 json.dumps({"active_count": 1, "new_count": 1, "alerts": [{"id": "test"}]}), encoding="utf-8"
             )
             (reports / "entity-watch.json").write_text(
-                json.dumps({"entities": [{"name": "NIST"}], "technologies": []}), encoding="utf-8"
+                json.dumps(
+                    {
+                        "entities": [{"name": "NIST"}],
+                        "technologies": [],
+                        "coverage": [{"name": "NIST", "status": "covered", "active_sources": [{"name": "NIST News"}]}],
+                    }
+                ),
+                encoding="utf-8",
             )
             daily = reports / "2026-07" / "2026-07-20-digest.md"
             daily.parent.mkdir()
@@ -66,5 +73,6 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["reports"]["latest_daily"]["name"], "2026-07-20-digest")
             self.assertEqual(payload["alerts"]["active_count"], 1)
             self.assertEqual(payload["entity_watch"]["entities"][0]["name"], "NIST")
+            self.assertEqual(payload["entity_watch"]["coverage"][0]["status"], "covered")
             self.assertEqual(payload["signals"]["overall_trend"][0]["count"], 1)
             self.assertIn("github.com/example/repo/blob/main/reports/", payload["reports"]["latest_daily"]["url"])

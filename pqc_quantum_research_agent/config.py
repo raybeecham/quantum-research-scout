@@ -31,6 +31,7 @@ class AgentConfig:
     iacr_eprint: dict[str, Any] = field(default_factory=dict)
     rss_feeds: list[dict[str, Any]] = field(default_factory=list)
     urls: list[dict[str, Any]] = field(default_factory=list)
+    watch_sources: list[dict[str, Any]] = field(default_factory=list)
 
 
 def load_config(path: str | Path) -> AgentConfig:
@@ -46,6 +47,7 @@ def load_config(path: str | Path) -> AgentConfig:
         iacr_eprint=raw.get("iacr_eprint") or {},
         rss_feeds=list(raw.get("rss_feeds") or []),
         urls=list(raw.get("urls") or []),
+        watch_sources=list(raw.get("watch_sources") or []),
     )
 
 

@@ -148,6 +148,10 @@ def _configured_sources(config: AgentConfig) -> tuple[list[tuple[str, str]], lis
         sources.append((config.iacr_eprint.get("name", "IACR ePrint"), "iacr_eprint", True))
     sources.extend((item.get("name", item.get("url", "RSS")), "rss", item.get("enabled", True)) for item in config.rss_feeds)
     sources.extend((item.get("name", item.get("url", "URL")), "url", item.get("enabled", True)) for item in config.urls)
+    sources.extend(
+        (item.get("name", item.get("url", "Watch source")), "watch", item.get("enabled", True))
+        for item in config.watch_sources
+    )
     active = sorted((name, source_type) for name, source_type, enabled in sources if enabled)
     disabled = sorted((name, source_type) for name, source_type, enabled in sources if not enabled)
     return active, disabled
