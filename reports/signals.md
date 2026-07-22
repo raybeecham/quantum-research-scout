@@ -4,18 +4,18 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-21 06:28 UTC_
+_Updated 2026-07-22 02:10 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (4 vs 1) | 🟠 high | high | 🎯 actionable | 2026-07-01 | 2026-07-17 | 6 |
-| Quantum Networking | ↗️ rising (15 vs 6) | 🟠 high | high | 🎯 actionable | 2026-06-22 | 2026-07-18 | 40 |
-| PQC / Crypto Agility | ↘️ declining (10 vs 17) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-07-17 | 54 |
+| Quantum Networking | ↗️ rising (12 vs 6) | 🟠 high | high | 🎯 actionable | 2026-06-22 | 2026-07-21 | 41 |
+| PQC / Crypto Agility | ↘️ declining (8 vs 14) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-07-21 | 56 |
 | QEC / Fault Tolerance | ➡️ stable (8 vs 7) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-07-16 | 27 |
-| Quantum Hardware | ➡️ stable (28 vs 25) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-07-20 | 107 |
-| Quantum Software / Tooling | ➡️ stable (10 vs 9) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-07-20 | 38 |
+| Quantum Hardware | ➡️ stable (28 vs 27) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-07-21 | 112 |
+| Quantum Software / Tooling | ➡️ stable (9 vs 8) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-07-21 | 39 |
 | Quantum Sensing | ➡️ stable (2 vs 2) | 🟡 medium | high | 👁️ watching | 2026-06-22 | 2026-07-20 | 17 |
 
 ## AI Security
@@ -34,22 +34,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
+  - 2026-07-21 — [Cnrs Team Identifies Reductions Between Non-Local Computation Tasks for Complexity Analysis](https://quantumzeitgeist.com/cnrs-identifies-reductions-non-local-computation-tasks-complexity) (Quantum Zeitgeist, score 46)
   - 2026-07-18 — [Distributed Cloning Cuts Entanglement Fidelity by [c] to the Nth Power](https://quantumzeitgeist.com/greenberger-horne-zeilinger-distributed-cloning-cuts) (Quantum Zeitgeist, score 27)
   - 2026-07-17 — [Ground State Ventures Leads Arq Quantum’s $1.4M Pre-Seed Round](https://quantumzeitgeist.com/arq-quantum-technologies-ground-state-ventures) (Quantum Zeitgeist, score 66)
   - 2026-07-16 — [Arq Quantum Technologies Secures $1.4M Pre-Seed for Multiplexed Quantum Repeaters](https://quantumcomputingreport.com/arq-quantum-technologies-secures-1-4m-pre-seed-for-multiplexed-quantum-repeaters) (QuantumNews.ai, score 95)
   - 2026-07-16 — [Satellite QKD Regulation: 2026 Policies and Global Quantum Networks](https://quantumnews.ai/networking/satellite-qkd-regulation-2026-policies-and-global-quantum-networks) (QuantumNews.ai, score 65)
-  - 2026-07-16 — [Arq Raises $1.4 Million Pre-Seed Round to Lay The Foundations For The Quantum Internet](https://thequantuminsider.com/2026/07/16/arq-raises-1-4-million-pre-seed-round-to-lay-the-foundations-for-the-quantum-internet) (The Quantum Insider, score 40)
 
 ## PQC / Crypto Agility
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Cloudflare Post-Quantum Blog, IACR ePrint
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-07-21 — [The State of Post-Quantum Cryptography | Wiz](https://www.wiz.io/events/the-state-of-post-quantum-cryptography) (Wiz Post-Quantum Security, score 62)
+  - 2026-07-21 — [Galaxy Commits $5 Million to Prepare Bitcoin for Quantum Computing Threat](https://thequantuminsider.com/2026/07/21/galaxy-commits-5-million-to-prepare-bitcoin-for-quantum-computing-threat) (QuantumNews.ai, score 42)
   - 2026-07-17 — [pQCee Secures $3.9M to Grow US, Europe, Middle East Reach](https://quantumzeitgeist.com/pqcee-39m-grow-europe-middle) (Quantum Zeitgeist, score 47)
   - 2026-07-16 — [Quantum Machine Learning Assesses Post-Quantum Protocol Resilience](https://quantumzeitgeist.com/post-quantum-cryptography-machine-learning-assesses) (Quantum Zeitgeist, score 55)
   - 2026-07-16 — [enQase Achieves FIPS 140-3 Overall Level 1 Validation for Cryptographic Module](https://quantumcomputingreport.com/enqase-achieves-fips-140-3-overall-level-1-validation-for-cryptographic-module) (QuantumNews.ai, score 44)
-  - 2026-07-15 — [Evaluating 2026 Quantum-Resistant Algorithm Interoperability](https://quantumnews.ai/cryptography/evaluating-2026-quantum-resistant-algorithm-interoperability) (QuantumNews.ai, score 142)
-  - 2026-07-15 — [ISO Standardizes Classic McEliece for Quantum-Resistant Encryption](https://thequantuminsider.com/2026/07/15/classic-mceliece-iso-standard-post-quantum-cryptography) (QuantumNews.ai, score 62)
 
 ## QEC / Fault Tolerance
 
@@ -67,22 +67,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
-  - 2026-07-20 — [Researchers Detail New Ion Trap Array for Scalable Quantum Computing From MCQST](https://quantumzeitgeist.com/munich-center-quantum-science-technology-mcqst-detail-ion-trap-array) (Quantum Zeitgeist, score 58)
-  - 2026-07-20 — [Zhongqi Wuliang Unveils Server-Rack Neutral-Atom Quantum Computer at WAIC 2026](https://quantumcomputingreport.com/zhongqi-wuliang-unveils-server-rack-neutral-atom-quantum-computer-at-waic-2026) (QuantumNews.ai, score 40)
-  - 2026-07-20 — [University of Mainz Team Identifies Schmidt Rank Threshold for Deterministic Bell Measurements](https://quantumzeitgeist.com/university-mainz-schmidt-rank-threshold-deterministic-bell) (Quantum Zeitgeist, score 30)
-  - 2026-07-20 — [IQM And Deutsche Bahn Demonstrate Quantum Algorithm For Railway Scheduling on Real Operational Data](https://thequantuminsider.com/2026/07/20/iqm-and-deutsche-bahn-demonstrate-quantum-algorithm-for-railway-scheduling-on-real-operational-data) (The Quantum Insider, score 24)
-  - 2026-07-20 — [Interlune Develops Cryogenic Technology to Expand Helium-3 Supply for Quantum Computing](https://thequantuminsider.com/2026/07/20/interlune-produces-pure-helium-3-from-domestic-helium-using-novel-cryogenic-technology) (The Quantum Insider, score 19)
+  - 2026-07-21 — [Chinese Academy of Sciences Maps Surface-Loss in Qubit Lattices](https://quantumzeitgeist.com/beijing-laboratory-condensed-matter-physics-surface) (Quantum Zeitgeist, score 35)
+  - 2026-07-21 — [Aalto Researchers Build First Superconducting Heat Engine](https://quantumzeitgeist.com/aalto-university-first-superconducting-heat) (Quantum Zeitgeist, score 28)
+  - 2026-07-21 — [Researchers Demonstrate New Superconducting Circuit Design That Could Advance Topological Quantum Computing](https://thequantuminsider.com/2026/07/21/researchers-demonstrate-new-superconducting-circuit-design-that-could-advance-topological-quantum-computing) (The Quantum Insider, score 28)
+  - 2026-07-21 — [New 20-Qubit QUBO Result Reveals Why QAOA Actually Works](https://quantumzeitgeist.com/qubit-qubo-qaoa-validates-penalty) (Quantum Zeitgeist, score 26)
+  - 2026-07-21 — [SAXON Q Launches Commercial Diamond-Based NV-Center Quantum Computing Systems](https://thequantuminsider.com/2026/07/21/saxon-q-diamond-nv-center-quantum-computers) (The Quantum Insider, score 26)
 
 ## Quantum Software / Tooling
 
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, AWS Quantum Technologies Blog
 - Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
 - Recent supporting evidence:
+  - 2026-07-21 — [Researchers Develop Machine Learning Framework for Wigner Function Reconstruction from Sparse Data](https://quantumzeitgeist.com/wigner-function-reconstruction-sparse-data-machine-learning-framework) (Quantum Zeitgeist, score 36)
   - 2026-07-20 — [A framework for quantum-classical integration decisions](https://aws.amazon.com/blogs/quantum-computing/a-framework-for-quantum-classical-integration-decisions) (AWS Quantum Technologies Blog, score 53)
   - 2026-07-20 — [BTQ Technologies and TIDAL PWR Develop Framework for Quantum-Ready Data Centers](https://thequantuminsider.com/2026/07/20/btq-tidal-pwr-quantum-data-center-architecture) (The Quantum Insider, score 24)
   - 2026-07-17 — [CETQAP’s PkTron 9.0.6 Supports Full Qiskit C-API Compatibility](https://quantumzeitgeist.com/qiskit-c-api-compatibility-cetqaps-pktron) (Quantum Zeitgeist, score 41)
   - 2026-07-17 — [IBM Improves Qubit Reset by 25x and Releases Qiskit v2.5](https://quantumcomputingreport.com/ibm-improves-qubit-reset-by-25x-and-releases-qiskit-v2-5) (QuantumNews.ai, score 26)
-  - 2026-07-16 — [Former IBM Quantum Executive Denise Ruffner Joins Haiqu to Expand Quantum Software Adoption](https://thequantuminsider.com/2026/07/16/denise-ruffner-joins-haiqu-to-expand-quantum-software-adoption) (The Quantum Insider, score 35)
 
 ## Quantum Sensing
 

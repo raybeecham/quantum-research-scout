@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-21 21:36 UTC_
+_Updated 2026-07-22 02:10 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 9 | 0 | 2 | 5 | 2 |
+| 34 | 25 | 2 | 5 | 27 |
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
@@ -42,21 +42,21 @@ _Updated 2026-07-21 21:36 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 96.7% reliability with 1 warning day(s).
+- 🟠 100.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.3% reliability with 2 warning day(s).
+- 🟠 100.0% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.3% reliability with 2 warning day(s).
+- 🟠 100.0% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Rising momentum: AI Security
@@ -70,5 +70,180 @@ _Updated 2026-07-21 21:36 UTC_
 
 - Severity: **medium**
 - Status: **rising**
-- ↗️ Recent evidence is 15 versus 6 in the prior period.
+- ↗️ Recent evidence is 12 versus 6 in the prior period.
 - [Open supporting view](signals.md)
+
+## 🟡 Source stale: Accenture Federal Services Quantum Readiness 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-01-02; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Accenture Quantum and PQC News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2025-10-20; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Atom Computing News and Research 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-06-17; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: BSI Germany Quantum-Safe Guidance 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2024-03-12; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Booz Allen Quantum and PQC 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2025-09-11; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Cisco Quantum-Safe Updates 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2016-10-05; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Cloudflare Post-Quantum Blog 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-06-23; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: DigiCert Blog 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-06-04; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: ENISA Cryptography and PQC 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2024-03-12; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: ETSI Quantum Standards News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-06-22; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Fortanix Quantum Security 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-03-30; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Google Security Blog 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-04-23; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: InfoQ Quantum Computing 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-06-08; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Intel Quantum Research News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2023-06-15; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: IonQ News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-05-06; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: NCSC UK Guidance 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-03-19; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: NCSC UK Reports 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2025-05-07; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: NIST CSRC News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-07-06; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: NIST Post-Quantum Cryptography Project 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2025-03-07; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: PQCA Blog and News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-06-11; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: PQShield 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-07-03; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: QCi Press Releases 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-06-23; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: QuSecure Press Releases 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2025-07-19; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Rigetti News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2022-06-07; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Thales Cybersecurity Blog 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-06-15; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
