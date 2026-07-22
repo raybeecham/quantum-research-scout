@@ -105,6 +105,21 @@ class ClassifierTests(unittest.TestCase):
         self.assertIn("source_weight=0", item.score_explanation)
         self.assertNotIn("trusted institution boost", item.score_explanation)
 
+    def test_source_label_does_not_create_topical_relevance(self) -> None:
+        item = classify_item(
+            ResearchItem(
+                source_name="Example Quantum and PQC News",
+                source_type="watch",
+                title="Company announces a conventional data center expansion",
+                url="https://example.com/data-center",
+                summary="The facility adds power and cooling capacity for enterprise servers.",
+            )
+        )
+
+        self.assertEqual(item.score, 0)
+        self.assertIn("topic_confidence=0", item.score_explanation)
+        self.assertNotIn("pqc", item.matched_keywords)
+
     def test_quantum_tooling_without_qec_indicators_stays_tooling(self) -> None:
         item = classify_item(
             ResearchItem(

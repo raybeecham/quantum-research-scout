@@ -135,8 +135,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
+      "evidence_count": 4,
+      "first_party_evidence_count": 4,
       "name": "Accenture / Accenture Federal Services",
       "priority": "high",
       "status": "covered",
@@ -252,8 +252,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
+      "evidence_count": 1,
+      "first_party_evidence_count": 1,
       "name": "Deloitte",
       "priority": "high",
       "status": "covered",
@@ -439,7 +439,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 1,
+      "evidence_count": 0,
       "first_party_evidence_count": 0,
       "name": "Microsoft Quantum",
       "priority": "high",
@@ -540,7 +540,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 2,
+      "evidence_count": 5,
       "first_party_evidence_count": 0,
       "name": "QuSecure",
       "priority": "high",
@@ -646,8 +646,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 1,
-      "first_party_evidence_count": 1,
+      "evidence_count": 0,
+      "first_party_evidence_count": 0,
       "name": "Wiz",
       "priority": "high",
       "status": "covered",
@@ -714,6 +714,7 @@
         "National Institute of Standards and Technology"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
       "evidence": [
         {
           "date": "2026-06-25",
@@ -730,6 +731,7 @@
       ],
       "evidence_count": 1,
       "first_seen": "2026-06-25",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-06-25",
       "momentum": "stable",
       "name": "NIST",
@@ -748,6 +750,7 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 9,
       "evidence": [
         {
           "date": "2026-07-20",
@@ -860,6 +863,7 @@
       ],
       "evidence_count": 9,
       "first_seen": "2026-06-23",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-20",
       "momentum": "rising",
       "name": "IBM",
@@ -875,8 +879,252 @@
       "type": "company"
     },
     {
+      "aliases": [
+        "QuProtect"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 2,
+      "evidence": [
+        {
+          "date": "2026-07-15",
+          "key": "https://thequantuminsider.com/2026/07/15/qusecure-quprotect-r3-listed-in-aws-icmp-for-the-us-federal-government",
+          "report": "2026-07/2026-07-15-digest.md",
+          "score": 59,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure Lists QuProtect R3 on AWS Marketplace for U.S. Intelligence Community",
+          "url": "https://thequantuminsider.com/2026/07/15/qusecure-quprotect-r3-listed-in-aws-icmp-for-the-us-federal-government"
+        },
+        {
+          "date": "2026-07-07",
+          "key": "https://thequantuminsider.com/2026/07/07/qusecure-doug-small-federal-advisory-board",
+          "report": "2026-07/2026-07-07-digest.md",
+          "score": 59,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure Appoints Former Navy Rear Admiral Doug Small to Federal Advisory Board",
+          "url": "https://thequantuminsider.com/2026/07/07/qusecure-doug-small-federal-advisory-board"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2025-01-21",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "date_source": "sitemap:lastmod",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility",
+          "observed_at": "2026-07-22T00:25:17.598585+00:00",
+          "published_at": "2025-01-21T00:00:00+00:00",
+          "score": 69,
+          "source": "Accenture Quantum and PQC News",
+          "source_type": "watch",
+          "summary": "Accenture has made a strategic investment, through Accenture Ventures, in QuSecure \u2122 a leader in post-quantum cybersecurity.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
+          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2024-12-13",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "date_source": "sitemap:lastmod",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure",
+          "observed_at": "2026-07-22T00:25:17.598585+00:00",
+          "published_at": "2024-12-13T00:00:00+00:00",
+          "score": 72,
+          "source": "Accenture Quantum and PQC News",
+          "source_type": "watch",
+          "summary": "Banco Sabadell has successfully completed a joint project with Accenture (NYSE: ACN) and QuSecure to explore the adoption of Post-Quantum Cryptography (PQC) technologies in the bank\u2019s infrastructure.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Banco Sabadell Collaborates with Accenture and QuSecure to Advance Quantum Safe Infrastructure",
+          "url": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2024-10-02",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "date_source": "sitemap:lastmod",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization",
+          "observed_at": "2026-07-22T00:25:17.598585+00:00",
+          "published_at": "2024-10-02T00:00:00+00:00",
+          "score": 100,
+          "source": "Accenture Quantum and PQC News",
+          "source_type": "watch",
+          "summary": "The companies demonstrate that crypto-agility, successfully rotating to a less vulnerable algorithm, is real and possible",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
+          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
+        }
+      ],
+      "evidence_count": 5,
+      "first_seen": "2024-10-02",
+      "historical_evidence_count": 3,
+      "latest_seen": "2026-07-15",
+      "momentum": "rising",
+      "name": "QuSecure",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Accenture",
+        "Accenture Federal Services",
+        "Accenture Federal"
+      ],
+      "case_sensitive_aliases": [
+        "AFS"
+      ],
+      "current_evidence_count": 0,
+      "evidence": [
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2025-01-21",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "date_source": "sitemap:lastmod",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility",
+          "observed_at": "2026-07-22T00:25:17.598585+00:00",
+          "published_at": "2025-01-21T00:00:00+00:00",
+          "score": 69,
+          "source": "Accenture Quantum and PQC News",
+          "source_type": "watch",
+          "summary": "Accenture has made a strategic investment, through Accenture Ventures, in QuSecure \u2122 a leader in post-quantum cybersecurity.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
+          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2024-12-13",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "date_source": "sitemap:lastmod",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure",
+          "observed_at": "2026-07-22T00:25:17.598585+00:00",
+          "published_at": "2024-12-13T00:00:00+00:00",
+          "score": 72,
+          "source": "Accenture Quantum and PQC News",
+          "source_type": "watch",
+          "summary": "Banco Sabadell has successfully completed a joint project with Accenture (NYSE: ACN) and QuSecure to explore the adoption of Post-Quantum Cryptography (PQC) technologies in the bank\u2019s infrastructure.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Banco Sabadell Collaborates with Accenture and QuSecure to Advance Quantum Safe Infrastructure",
+          "url": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2024-10-02",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "date_source": "sitemap:lastmod",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization",
+          "observed_at": "2026-07-22T00:25:17.598585+00:00",
+          "published_at": "2024-10-02T00:00:00+00:00",
+          "score": 100,
+          "source": "Accenture Quantum and PQC News",
+          "source_type": "watch",
+          "summary": "The companies demonstrate that crypto-agility, successfully rotating to a less vulnerable algorithm, is real and possible",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
+          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Networking",
+          "date": "2024-10-02",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "date_source": "sitemap:lastmod",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2023/accenture-invests-in-aliro-quantum-to-establish-secure-quantum-networks",
+          "observed_at": "2026-07-22T00:25:17.598585+00:00",
+          "published_at": "2024-10-02T00:00:00+00:00",
+          "score": 43,
+          "source": "Accenture Quantum and PQC News",
+          "source_type": "watch",
+          "summary": "Accenture announced a strategic investment through Accenture Ventures in Aliro Quantum, a provider of multi-purpose, end-to-end entanglement-based secure quantum networks.",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Accenture Invests in Aliro Quantum to Establish Secure Quantum Networks",
+          "url": "https://newsroom.accenture.com/news/2023/accenture-invests-in-aliro-quantum-to-establish-secure-quantum-networks"
+        }
+      ],
+      "evidence_count": 4,
+      "first_seen": "2024-10-02",
+      "historical_evidence_count": 4,
+      "latest_seen": "2025-01-21",
+      "momentum": "stable",
+      "name": "Accenture / Accenture Federal Services",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "dormant",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Networking"
+      ],
+      "type": "consulting"
+    },
+    {
       "aliases": [],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 2,
       "evidence": [
         {
           "date": "2026-07-09",
@@ -905,6 +1153,7 @@
       ],
       "evidence_count": 2,
       "first_seen": "2026-06-23",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-09",
       "momentum": "declining",
       "name": "Cloudflare",
@@ -922,6 +1171,7 @@
         "D-Wave Quantum"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 2,
       "evidence": [
         {
           "date": "2026-07-02",
@@ -950,6 +1200,7 @@
       ],
       "evidence_count": 2,
       "first_seen": "2026-06-30",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-02",
       "momentum": "stable",
       "name": "D-Wave",
@@ -970,6 +1221,7 @@
         "International Electrotechnical Commission"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 2,
       "evidence": [
         {
           "date": "2026-07-15",
@@ -998,6 +1250,7 @@
       ],
       "evidence_count": 2,
       "first_seen": "2026-06-25",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-15",
       "momentum": "rising",
       "name": "ISO/IEC",
@@ -1016,6 +1269,7 @@
         "Lockheed Martin Corporation"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 2,
       "evidence": [
         {
           "date": "2026-07-14",
@@ -1044,6 +1298,7 @@
       ],
       "evidence_count": 2,
       "first_seen": "2026-06-25",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-14",
       "momentum": "declining",
       "name": "Lockheed Martin",
@@ -1058,53 +1313,9 @@
       "type": "aerospace-defense"
     },
     {
-      "aliases": [
-        "QuProtect"
-      ],
-      "case_sensitive_aliases": [],
-      "evidence": [
-        {
-          "date": "2026-07-15",
-          "key": "https://thequantuminsider.com/2026/07/15/qusecure-quprotect-r3-listed-in-aws-icmp-for-the-us-federal-government",
-          "report": "2026-07/2026-07-15-digest.md",
-          "score": 59,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "QuSecure Lists QuProtect R3 on AWS Marketplace for U.S. Intelligence Community",
-          "url": "https://thequantuminsider.com/2026/07/15/qusecure-quprotect-r3-listed-in-aws-icmp-for-the-us-federal-government"
-        },
-        {
-          "date": "2026-07-07",
-          "key": "https://thequantuminsider.com/2026/07/07/qusecure-doug-small-federal-advisory-board",
-          "report": "2026-07/2026-07-07-digest.md",
-          "score": 59,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "QuSecure Appoints Former Navy Rear Admiral Doug Small to Federal Advisory Board",
-          "url": "https://thequantuminsider.com/2026/07/07/qusecure-doug-small-federal-advisory-board"
-        }
-      ],
-      "evidence_count": 2,
-      "first_seen": "2026-07-07",
-      "latest_seen": "2026-07-15",
-      "momentum": "rising",
-      "name": "QuSecure",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "type": "company"
-    },
-    {
       "aliases": [],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 2,
       "evidence": [
         {
           "date": "2026-07-20",
@@ -1133,6 +1344,7 @@
       ],
       "evidence_count": 2,
       "first_seen": "2026-06-22",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-20",
       "momentum": "rising",
       "name": "Quantinuum",
@@ -1151,6 +1363,7 @@
         "Agence nationale de la securite des systemes d'information"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
       "evidence": [
         {
           "date": "2026-06-23",
@@ -1167,6 +1380,7 @@
       ],
       "evidence_count": 1,
       "first_seen": "2026-06-23",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-06-23",
       "momentum": "stable",
       "name": "ANSSI",
@@ -1181,10 +1395,60 @@
     },
     {
       "aliases": [
+        "Deloitte Consulting",
+        "Deloitte Global",
+        "Deloitte Cyber"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 0,
+      "evidence": [
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Deloitte"
+          ],
+          "historical": true,
+          "key": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf",
+          "observed_at": "2026-07-22T00:25:17.598585+00:00",
+          "published_at": null,
+          "score": 43,
+          "source": "Deloitte Quantum Cyber Readiness",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Intro to Deloitte's crypto-inventory methodology Deloitte's crypto-inventory methodology provides a deeper look into what steps to take to effectively conduct a cryptographic inventory.",
+          "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": null,
+      "historical_evidence_count": 1,
+      "latest_seen": null,
+      "momentum": "stable",
+      "name": "Deloitte",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "documented",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "consulting"
+    },
+    {
+      "aliases": [
         "Google Quantum",
         "Google AI Quantum"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
       "evidence": [
         {
           "date": "2026-06-27",
@@ -1201,6 +1465,7 @@
       ],
       "evidence_count": 1,
       "first_seen": "2026-06-27",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-06-27",
       "momentum": "stable",
       "name": "Google Quantum AI",
@@ -1216,6 +1481,7 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
       "evidence": [
         {
           "date": "2026-06-22",
@@ -1232,6 +1498,7 @@
       ],
       "evidence_count": 1,
       "first_seen": "2026-06-22",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-06-22",
       "momentum": "stable",
       "name": "IonQ",
@@ -1247,6 +1514,7 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
       "evidence": [
         {
           "date": "2026-07-06",
@@ -1263,6 +1531,7 @@
       ],
       "evidence_count": 1,
       "first_seen": "2026-07-06",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-06",
       "momentum": "stable",
       "name": "Keyfactor",
@@ -1276,41 +1545,9 @@
       "type": "company"
     },
     {
-      "aliases": [
-        "Microsoft Research Quantum"
-      ],
-      "case_sensitive_aliases": [],
-      "evidence": [
-        {
-          "date": "2026-06-25",
-          "key": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key",
-          "report": "2026-06/2026-06-25-digest.md",
-          "score": 128,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
-          "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
-        }
-      ],
-      "evidence_count": 1,
-      "first_seen": "2026-06-25",
-      "latest_seen": "2026-06-25",
-      "momentum": "stable",
-      "name": "Microsoft Quantum",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "type": "company"
-    },
-    {
       "aliases": [],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
       "evidence": [
         {
           "date": "2026-07-03",
@@ -1327,6 +1564,7 @@
       ],
       "evidence_count": 1,
       "first_seen": "2026-07-03",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-03",
       "momentum": "stable",
       "name": "PQShield",
@@ -1340,41 +1578,9 @@
       "type": "company"
     },
     {
-      "aliases": [
-        "Wiz Security"
-      ],
-      "case_sensitive_aliases": [],
-      "evidence": [
-        {
-          "date": "2026-07-21",
-          "key": "https://www.wiz.io/events/the-state-of-post-quantum-cryptography",
-          "report": "2026-07/2026-07-21-digest.md",
-          "score": 62,
-          "source": "Wiz Post-Quantum Security",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The State of Post-Quantum Cryptography | Wiz",
-          "url": "https://www.wiz.io/events/the-state-of-post-quantum-cryptography"
-        }
-      ],
-      "evidence_count": 1,
-      "first_seen": "2026-07-21",
-      "latest_seen": "2026-07-21",
-      "momentum": "rising",
-      "name": "Wiz",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "type": "company"
-    },
-    {
       "aliases": [],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 8,
       "evidence": [
         {
           "date": "2026-07-15",
@@ -1475,6 +1681,7 @@
       ],
       "evidence_count": 8,
       "first_seen": "2026-06-29",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-15",
       "momentum": "declining",
       "name": "Pasqal",
@@ -1493,6 +1700,7 @@
         "AWS Braket"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 4,
       "evidence": [
         {
           "date": "2026-07-20",
@@ -1545,6 +1753,7 @@
       ],
       "evidence_count": 4,
       "first_seen": "2026-06-24",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-20",
       "momentum": "rising",
       "name": "AWS",
@@ -1563,6 +1772,7 @@
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 4,
       "evidence": [
         {
           "date": "2026-07-20",
@@ -1615,6 +1825,7 @@
       ],
       "evidence_count": 4,
       "first_seen": "2026-06-22",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-20",
       "momentum": "rising",
       "name": "Infleqtion",
@@ -1637,7 +1848,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 14,
       "evidence": [
+        {
+          "date": "2026-07-21",
+          "key": "https://arxiv.org/abs/2607.18374",
+          "report": "2026-07/2026-07-21-digest.md",
+          "score": 79,
+          "source": "arXiv RSS quant-ph",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Nishimori Threshold Estimation for Bayesian Inference and $\\mathbb{Z}_q$ Surface Code Decoding",
+          "url": "https://arxiv.org/abs/2607.18374"
+        },
         {
           "date": "2026-07-18",
           "key": "https://quantumzeitgeist.com/instituto-superior-tecnico-binary-gauss-stabilizers",
@@ -1795,14 +2019,15 @@
           "url": "https://quantumzeitgeist.com/what-is-the-surface-code"
         }
       ],
-      "evidence_count": 13,
+      "evidence_count": 14,
       "first_seen": "2026-06-23",
-      "latest_seen": "2026-07-18",
-      "momentum": "declining",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-07-21",
+      "momentum": "stable",
       "name": "Quantum error correction",
       "prior_count": 5,
       "priority": "critical",
-      "recent_count": 3,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "AI Security",
@@ -1817,6 +2042,7 @@
         "fault-tolerant quantum"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 9,
       "evidence": [
         {
           "date": "2026-07-14",
@@ -1929,6 +2155,7 @@
       ],
       "evidence_count": 9,
       "first_seen": "2026-06-30",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-14",
       "momentum": "declining",
       "name": "Logical qubits",
@@ -1951,6 +2178,7 @@
         "cryptographic inventory"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 2,
       "evidence": [
         {
           "date": "2026-07-03",
@@ -1975,10 +2203,83 @@
           ],
           "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2025-01-21",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "date_source": "sitemap:lastmod",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility",
+          "observed_at": "2026-07-22T00:25:17.598585+00:00",
+          "published_at": "2025-01-21T00:00:00+00:00",
+          "score": 69,
+          "source": "Accenture Quantum and PQC News",
+          "source_type": "watch",
+          "summary": "Accenture has made a strategic investment, through Accenture Ventures, in QuSecure \u2122 a leader in post-quantum cybersecurity.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
+          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2024-10-02",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "date_source": "sitemap:lastmod",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization",
+          "observed_at": "2026-07-22T00:25:17.598585+00:00",
+          "published_at": "2024-10-02T00:00:00+00:00",
+          "score": 100,
+          "source": "Accenture Quantum and PQC News",
+          "source_type": "watch",
+          "summary": "The companies demonstrate that crypto-agility, successfully rotating to a less vulnerable algorithm, is real and possible",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
+          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Deloitte"
+          ],
+          "historical": true,
+          "key": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf",
+          "observed_at": "2026-07-22T00:25:17.598585+00:00",
+          "published_at": null,
+          "score": 43,
+          "source": "Deloitte Quantum Cyber Readiness",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Intro to Deloitte's crypto-inventory methodology Deloitte's crypto-inventory methodology provides a deeper look into what steps to take to effectively conduct a cryptographic inventory.",
+          "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf"
         }
       ],
-      "evidence_count": 2,
-      "first_seen": "2026-06-25",
+      "evidence_count": 5,
+      "first_seen": "2024-10-02",
+      "historical_evidence_count": 3,
       "latest_seen": "2026-07-03",
       "momentum": "stable",
       "name": "Crypto-agility",
@@ -1997,6 +2298,7 @@
         "Dilithium"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
       "evidence": [
         {
           "date": "2026-06-29",
@@ -2013,6 +2315,7 @@
       ],
       "evidence_count": 1,
       "first_seen": "2026-06-29",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-06-29",
       "momentum": "stable",
       "name": "ML-DSA",
@@ -2032,6 +2335,7 @@
       "case_sensitive_aliases": [
         "QKD"
       ],
+      "current_evidence_count": 5,
       "evidence": [
         {
           "date": "2026-07-16",
@@ -2096,6 +2400,7 @@
       ],
       "evidence_count": 5,
       "first_seen": "2026-06-29",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-16",
       "momentum": "rising",
       "name": "Quantum key distribution",
@@ -2115,6 +2420,7 @@
         "entanglement distribution"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
       "evidence": [
         {
           "date": "2026-07-16",
@@ -2131,6 +2437,7 @@
       ],
       "evidence_count": 1,
       "first_seen": "2026-07-16",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-16",
       "momentum": "rising",
       "name": "Quantum networking",
@@ -2149,6 +2456,7 @@
         "quantum metrology"
       ],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 11,
       "evidence": [
         {
           "date": "2026-07-09",
@@ -2285,6 +2593,7 @@
       ],
       "evidence_count": 11,
       "first_seen": "2026-06-24",
+      "historical_evidence_count": 0,
       "latest_seen": "2026-07-09",
       "momentum": "declining",
       "name": "Quantum sensing",
@@ -2300,19 +2609,6 @@
     }
   ],
   "unseen_entities": [
-    {
-      "aliases": [
-        "Accenture",
-        "Accenture Federal Services",
-        "Accenture Federal"
-      ],
-      "case_sensitive_aliases": [
-        "AFS"
-      ],
-      "name": "Accenture / Accenture Federal Services",
-      "priority": "high",
-      "type": "consulting"
-    },
     {
       "aliases": [],
       "case_sensitive_aliases": [],
@@ -2358,17 +2654,6 @@
       "name": "Cisco",
       "priority": "high",
       "type": "company"
-    },
-    {
-      "aliases": [
-        "Deloitte Consulting",
-        "Deloitte Global",
-        "Deloitte Cyber"
-      ],
-      "case_sensitive_aliases": [],
-      "name": "Deloitte",
-      "priority": "high",
-      "type": "consulting"
     },
     {
       "aliases": [],
@@ -2426,6 +2711,15 @@
       "name": "MITRE",
       "priority": "high",
       "type": "research"
+    },
+    {
+      "aliases": [
+        "Microsoft Research Quantum"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "Microsoft Quantum",
+      "priority": "high",
+      "type": "company"
     },
     {
       "aliases": [
@@ -2513,6 +2807,15 @@
     },
     {
       "aliases": [
+        "Wiz Security"
+      ],
+      "case_sensitive_aliases": [],
+      "name": "Wiz",
+      "priority": "high",
+      "type": "company"
+    },
+    {
+      "aliases": [
         "Entrust Datacard"
       ],
       "case_sensitive_aliases": [],
@@ -2579,6 +2882,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-07-22T02:10:47.314582+00:00",
-  "version": 1
+  "updated_at": "2026-07-22T06:07:37.497307+00:00",
+  "version": 2
 }

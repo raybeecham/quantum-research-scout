@@ -2,7 +2,7 @@
 
 > **Quantum Research Scout** · Intelligence archive and operational dashboard
 
-_Updated 2026-07-22 02:10 UTC_
+_Updated 2026-07-22 06:07 UTC_
 
 [Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
 
@@ -20,6 +20,9 @@ _Updated 2026-07-22 02:10 UTC_
 - Source health: [source-health](source-health.md)
 - Intelligence alerts: [alerts](alerts.md)
 - Entity and technology watch: [entity-watch](entity-watch.md)
+- PQC readiness scorecards: [readiness](readiness.md)
+- Standards and migration timeline: [standards-timeline](standards-timeline.md)
+- Historical watch-source evidence: [historical-evidence](historical-evidence.md)
 
 ## Current High-Priority Themes
 

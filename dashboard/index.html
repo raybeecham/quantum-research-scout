@@ -14,7 +14,7 @@
       <a class="brand" href="#top"><span class="brand-mark">Q</span><span>Quantum Research Scout</span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-links"><span></span><span></span><span></span><b>Menu</b></button>
       <div id="primary-links" class="nav-links">
-        <a href="#guide">Guide</a><a href="#trends">Trends</a><a href="#alerts">Alerts</a><a href="#signals">Signals</a><a href="#watch">Watch</a><a href="#compare">Compare</a><a href="#coverage">Coverage</a><a href="#sources">Sources</a><a href="#reports">Reports</a>
+        <a href="#guide">Guide</a><a href="#trends">Trends</a><a href="#alerts">Alerts</a><a href="#signals">Signals</a><a href="#watch">Watch</a><a href="#readiness">Readiness</a><a href="#standards">Standards</a><a href="#compare">Compare</a><a href="#coverage">Coverage</a><a href="#sources">Sources</a><a href="#reports">Reports</a>
         <a id="repo-link" class="button secondary" href="#">Repository</a>
       </div>
     </nav>
@@ -58,6 +58,8 @@
         <article><span class="guide-icon degraded">!</span><div><h3>Coverage gap</h3><p>Gap means no official source or evidence exists. Third-party means evidence exists, but no enabled first-party source is configured.</p></div></article>
         <article><span class="guide-icon confidence">V</span><div><h3>Verified source</h3><p>The scheduled collector has successfully reached this source since observation tracking began.</p></div></article>
         <article><span class="guide-icon rising">F</span><div><h3>Fresh source</h3><p>The source has a dated item within the configured freshness window. Stale means its latest dated item is older; unknown means collected items have no usable publication date.</p></div></article>
+        <article><span class="guide-icon confidence">R</span><div><h3>Readiness stage</h3><p>The highest stage supported by public PQC evidence: awareness, inventory, planning, pilot/testing, or production. It is not an audit of internal systems.</p></div></article>
+        <article><span class="guide-icon watching">H</span><div><h3>Historical evidence</h3><p>Official-source evidence imported outside the daily window. It enriches profiles but cannot generate retroactive alerts.</p></div></article>
       </div>
     </section>
 
@@ -88,6 +90,17 @@
     <section id="watch" class="section watch-section">
       <div class="section-heading"><div><p class="eyebrow">ENTITY WATCH</p><h2>Organizations and technologies</h2></div><div id="watch-tabs" class="filters" aria-label="Watchlist type"><button data-watch="entities" class="active">Organizations</button><button data-watch="technologies">Technologies</button></div></div>
       <div id="watch-grid" class="watch-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="readiness" class="section readiness-section">
+      <div class="section-heading"><div><p class="eyebrow">PQC MIGRATION EVIDENCE</p><h2>Organization readiness scorecards</h2></div><p id="readiness-summary" class="updated"></p></div>
+      <p class="section-note">Observed public activity, not an audit of internal cryptographic posture.</p>
+      <div class="table-wrap"><table><thead><tr><th>Organization</th><th>Observed stage</th><th>Confidence</th><th>PQC evidence</th><th>Sources</th><th>Latest dated evidence</th></tr></thead><tbody id="readiness-table"></tbody></table></div>
+    </section>
+
+    <section id="standards" class="section standards-section">
+      <div class="section-heading"><div><p class="eyebrow">STANDARDS & DEADLINES</p><h2>Migration milestone timeline</h2></div><p id="standards-summary" class="updated"></p></div>
+      <div id="standards-timeline" class="standards-timeline" aria-live="polite"></div>
     </section>
 
     <section id="compare" class="section compare-section">

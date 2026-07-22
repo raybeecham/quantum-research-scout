@@ -17,6 +17,8 @@ NEWS_PAGE = """<html><head><title>News</title></head><body>
 <a href="/news/quantum-contract">Read article</a></body></html>"""
 TOPIC_PAGE = """<html><head><title>Post-Quantum Cryptography Guidance</title>
 <meta name="description" content="Official quantum-safe migration guidance."></head><body></body></html>"""
+UNDATED_ARTICLE = """<html><head><title>Company awarded quantum contract</title>
+<meta name="description" content="A material contract award."></head></html>"""
 
 
 class MappingClient:
@@ -61,6 +63,43 @@ class WatchSourceTests(unittest.TestCase):
         self.assertEqual(result.items[0].source_type, "watch")
         self.assertEqual(result.items[0].raw_payload["discovery_method"], "sitemap")
         self.assertEqual(result.items[0].raw_payload["watch_entities"], ["Example"])
+
+    def test_sitemap_lastmod_is_provenance_not_publication_by_default(self) -> None:
+        result = collect_watch_sources(
+            MappingClient(
+                {
+                    "https://example.com/sitemap.xml": SITEMAP,
+                    "https://example.com/news/quantum-contract": UNDATED_ARTICLE,
+                }
+            ),  # type: ignore[arg-type]
+            [{"name": "Example Quantum News", "sitemap_url": "https://example.com/sitemap.xml"}],
+            10,
+        )
+
+        self.assertIsNone(result.items[0].published_at)
+        self.assertEqual(result.items[0].date_source, "")
+        self.assertEqual(result.items[0].raw_payload["sitemap_lastmod"], "2026-07-20")
+
+    def test_source_can_explicitly_use_sitemap_lastmod_as_publication(self) -> None:
+        result = collect_watch_sources(
+            MappingClient(
+                {
+                    "https://example.com/sitemap.xml": SITEMAP,
+                    "https://example.com/news/quantum-contract": UNDATED_ARTICLE,
+                }
+            ),  # type: ignore[arg-type]
+            [
+                {
+                    "name": "Example Quantum News",
+                    "sitemap_url": "https://example.com/sitemap.xml",
+                    "use_sitemap_lastmod_as_published": True,
+                }
+            ],
+            10,
+        )
+
+        self.assertEqual(result.items[0].published_at.date().isoformat(), "2026-07-20")
+        self.assertEqual(result.items[0].date_source, "sitemap:lastmod")
 
     def test_watch_source_emits_one_warning_after_all_fallbacks_fail(self) -> None:
         result = collect_watch_sources(

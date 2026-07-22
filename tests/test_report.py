@@ -61,6 +61,31 @@ class ReportTests(unittest.TestCase):
         self.assertIn("Published 2026-05-12 07:00 America/Chicago", digest)
         self.assertNotIn("Tracked as", digest)
 
+    def test_modified_metadata_is_labeled_updated_not_published(self) -> None:
+        item = ResearchItem(
+            source_name="Example",
+            source_type="watch",
+            title="Post-quantum migration guide revised",
+            url="https://example.com/pqc",
+            published_at=datetime(2026, 5, 12, 12, 0, tzinfo=timezone.utc),
+            date_source="json_ld:dateModified",
+            date_filter_status="included_today",
+            category="PQC",
+            score=50,
+            matched_keywords=["post-quantum"],
+        )
+        summary = DateFilterSummary(
+            target_date=date(2026, 5, 12),
+            generated_at=datetime(2026, 5, 12, 13, 0, tzinfo=timezone.utc),
+            collected_raw_candidates=1,
+            eligible_items_for_target_date=1,
+        )
+
+        digest = render_digest([item], date(2026, 5, 12), summary=summary, min_score=3)
+
+        self.assertIn("Updated 2026-05-12 07:00 America/Chicago", digest)
+        self.assertNotIn("Published 2026-05-12 07:00 America/Chicago", digest)
+
     def test_digest_cleans_summaries_and_adds_briefing_context(self) -> None:
         long_summary = (
             "arXiv:2605.12345 Announce Type: new Abstract: "

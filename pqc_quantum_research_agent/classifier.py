@@ -598,8 +598,9 @@ def classify_item(
     merged_keyword_weights = _merge_weights(KEYWORD_WEIGHTS, keyword_weights)
     merged_source_weights = _merge_weights(DEFAULT_SOURCE_WEIGHTS, source_weights)
     title_text = item.title.casefold()
-    content_text = f"{item.title} {item.summary} {item.authors} {item.source_name} {' '.join(item.matched_keywords)}"
+    content_text = f"{item.title} {item.summary} {item.authors} {' '.join(item.matched_keywords)}"
     content_text_lower = content_text.casefold()
+    source_match_text = f"{content_text} {item.source_name}".casefold()
 
     matched = sorted({keyword for keyword in merged_keyword_weights if phrase_in_text(keyword, content_text_lower)})
     category_scores: dict[str, int] = defaultdict(int)
@@ -635,7 +636,7 @@ def classify_item(
     source_type_bonus = SOURCE_TYPE_BONUS.get(item.source_type, 0)
     source_weight_allowed = _allows_source_weight(topic_confidence)
     if source_weight_allowed:
-        source_weight_bonus, matched_sources = _source_weight_bonus(content_text_lower, merged_source_weights)
+        source_weight_bonus, matched_sources = _source_weight_bonus(source_match_text, merged_source_weights)
     else:
         source_weight_bonus, matched_sources = 0, []
     category_weight_bonus = _category_weight_bonus(item)

@@ -120,3 +120,41 @@ class EntityWatchTests(unittest.TestCase):
             self.assertIn("# Entity and Technology Watch", markdown)
             self.assertIn("Configured, awaiting evidence (1):** Cisco", markdown)
             self.assertIn("## First-Party Source Coverage", markdown)
+
+    def test_status_uses_the_central_operational_day(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports = Path(temp_dir)
+            (reports / "signals.json").write_text(
+                json.dumps(
+                    {
+                        "themes": {
+                            "PQC / Crypto Agility": {
+                                "evidence": [
+                                    {
+                                        "key": "one",
+                                        "date": "2026-07-14",
+                                        "title": "NIST post-quantum guidance",
+                                        "source": "NIST",
+                                        "url": "https://example.com/one",
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+            config = reports / "watchlists.yaml"
+            config.write_text(
+                "entities:\n  - name: NIST\n    type: government\n    priority: critical\n    aliases: []\ntechnologies: []\n",
+                encoding="utf-8",
+            )
+
+            json_path, _ = write_entity_watch(
+                reports,
+                config,
+                generated_at=datetime(2026, 7, 22, 0, 30, tzinfo=timezone.utc),
+            )
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+
+            self.assertEqual(payload["entities"][0]["status"], "active")

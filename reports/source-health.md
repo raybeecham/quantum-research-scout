@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-07-22 02:10 UTC_
+_Updated 2026-07-22 06:07 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source warning was recorded for that report.
 
@@ -14,8 +14,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 
 | Source | Type | Success rate | Warning days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---|---|---|---|
-| arXiv RSS cs.CR | arxiv_rss | 100% | 2 | 2026-07-22 | 2026-07-21 | fresh | 🟠 degraded |
-| arXiv RSS quant-ph | arxiv_rss | 100% | 2 | 2026-07-22 | 2026-07-21 | fresh | 🟠 degraded |
+| arXiv RSS cs.CR | arxiv_rss | 100% | 2 | 2026-07-22 | 2026-07-22 | fresh | 🟠 degraded |
+| arXiv RSS quant-ph | arxiv_rss | 100% | 2 | 2026-07-22 | 2026-07-22 | fresh | 🟠 degraded |
 | PQCA Readiness Tracking | rss | 100% | 1 | 2026-07-22 | 2026-07-14 | fresh | 🟠 degraded |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 2026-07-22 | 2026-07-20 | fresh | 🟢 healthy |
 | Accenture Federal Services Quantum Readiness | watch | 100% | 0 | 2026-07-22 | 2026-01-02 | stale | 🟢 healthy |

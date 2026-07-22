@@ -1,0 +1,910 @@
+{
+  "methodology": {
+    "disclaimer": "Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.",
+    "name": "Evidence-backed PQC engagement stage",
+    "stages": [
+      {
+        "description": "Public evidence acknowledges quantum cryptographic risk, standards, or migration needs.",
+        "id": "awareness",
+        "label": "Awareness",
+        "rank": 1
+      },
+      {
+        "description": "Evidence addresses discovery or inventory of cryptographic assets and dependencies.",
+        "id": "inventory",
+        "label": "Inventory",
+        "rank": 2
+      },
+      {
+        "description": "Evidence describes readiness assessment, governance, roadmaps, transition planning, or crypto-agility.",
+        "id": "planning",
+        "label": "Planning",
+        "rank": 3
+      },
+      {
+        "description": "Evidence documents testing, a pilot, prototype, proof of concept, benchmark, or interoperability exercise.",
+        "id": "pilot",
+        "label": "Pilot / Testing",
+        "rank": 4
+      },
+      {
+        "description": "Evidence explicitly documents deployed, production, or completed PQC implementation.",
+        "id": "production",
+        "label": "Production",
+        "rank": 5
+      }
+    ]
+  },
+  "organizations": [
+    {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-07-03",
+      "name": "PQShield",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "pilot",
+      "stage_label": "Pilot / Testing",
+      "stage_rank": 4,
+      "supporting_evidence": [
+        {
+          "date": "2026-07-03",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "testing"
+          ],
+          "observed_stage": "pilot",
+          "observed_stage_label": "Pilot / Testing",
+          "rank": 4,
+          "source": "PQShield",
+          "title": "Why crypto-agility requires real governance Eric Amador explains how pqctoday.com uses AI and WebAssembly to remove friction from testing quantum-safe algorithms. Learn how different organizational personas can map out global migration timelines and prepare for upcoming compliance mandates.",
+          "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "medium",
+      "evidence_count": 3,
+      "historical_evidence_count": 3,
+      "latest_evidence_at": "2025-01-21",
+      "name": "Accenture / Accenture Federal Services",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": "2025-01-21",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "historical": true,
+          "matched_patterns": [
+            "crypto agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Accenture Quantum and PQC News",
+          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
+          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+        },
+        {
+          "date": "2024-10-02",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Accenture Quantum and PQC News",
+          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
+          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
+        },
+        {
+          "date": "2024-12-13",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum",
+            "pqc",
+            "quantum safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Accenture Quantum and PQC News",
+          "title": "Banco Sabadell Collaborates with Accenture and QuSecure to Advance Quantum Safe Infrastructure",
+          "url": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure"
+        }
+      ],
+      "type": "consulting"
+    },
+    {
+      "confidence": "medium",
+      "evidence_count": 3,
+      "historical_evidence_count": 3,
+      "latest_evidence_at": "2025-01-21",
+      "name": "QuSecure",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": "2025-01-21",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "historical": true,
+          "matched_patterns": [
+            "crypto agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Accenture Quantum and PQC News",
+          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
+          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+        },
+        {
+          "date": "2024-10-02",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Accenture Quantum and PQC News",
+          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
+          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
+        },
+        {
+          "date": "2024-12-13",
+          "date_confidence": "medium",
+          "date_kind": "modified",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum",
+            "pqc",
+            "quantum safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Accenture Quantum and PQC News",
+          "title": "Banco Sabadell Collaborates with Accenture and QuSecure to Advance Quantum Safe Infrastructure",
+          "url": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-06-25",
+      "name": "NIST",
+      "priority": "critical",
+      "source_count": 1,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": "2026-06-25",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Quantum Zeitgeist",
+          "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
+          "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
+        }
+      ],
+      "type": "government"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 1,
+      "latest_evidence_at": null,
+      "name": "Deloitte",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "inventory",
+      "stage_label": "Inventory",
+      "stage_rank": 2,
+      "supporting_evidence": [
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "cryptographic inventory"
+          ],
+          "observed_stage": "inventory",
+          "observed_stage_label": "Inventory",
+          "rank": 2,
+          "source": "Deloitte Quantum Cyber Readiness",
+          "title": "Intro to Deloitte's crypto-inventory methodology Deloitte's crypto-inventory methodology provides a deeper look into what steps to take to effectively conduct a cryptographic inventory.",
+          "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf"
+        }
+      ],
+      "type": "consulting"
+    },
+    {
+      "confidence": "medium",
+      "evidence_count": 2,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-07-09",
+      "name": "Cloudflare",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-07-09",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cloudflare Post-Quantum Blog",
+          "title": "Why we cannot wait for better post-quantum signature algorithms",
+          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
+        },
+        {
+          "date": "2026-06-23",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cloudflare Post-Quantum Blog",
+          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
+          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "medium",
+      "evidence_count": 2,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-07-15",
+      "name": "ISO/IEC",
+      "priority": "high",
+      "source_count": 2,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-07-15",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum-resistant"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuantumNews.ai",
+          "title": "ISO Standardizes Classic McEliece for Quantum-Resistant Encryption",
+          "url": "https://thequantuminsider.com/2026/07/15/classic-mceliece-iso-standard-post-quantum-cryptography"
+        },
+        {
+          "date": "2026-06-25",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum-resistant"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "ISO Adopts Quantum-Resistant Standard Co-Designed by Warwick Team",
+          "url": "https://quantumzeitgeist.com/quantum-resistant-standard-iso-adopts-co"
+        }
+      ],
+      "type": "standards"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-06-23",
+      "name": "ANSSI",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-06-23",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "SEALSQ\u2019s QS7001 Validated for ANSSI\u2019s Post-Quantum Mandate",
+          "url": "https://quantumzeitgeist.com/anssi-post-quantum-mandate-sealsqs-qs7001"
+        }
+      ],
+      "type": "government"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-07-01",
+      "name": "AWS",
+      "priority": "medium",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-07-01",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "AWS Builds for Quantum Computing & Post-Quantum Security Mandates",
+          "url": "https://quantumzeitgeist.com/quantum-computing-security-aws-post"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-07-06",
+      "name": "Keyfactor",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-07-06",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "The Quantum Insider",
+          "title": "Keyfactor Announces $1B+ Strategic Growth Investment to Expand Leadership in Securing Post-Quantum Enterprise",
+          "url": "https://thequantuminsider.com/2026/07/06/keyfactor-1b-growth-investment-summit-partners"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Atom Computing",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "BSI Germany",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "government"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Booz Allen Hamilton",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "consulting"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "CISA",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "government"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Cisco",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "D-Wave",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "DigiCert",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "ENISA",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "government"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "ETSI",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "standards"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Entrust",
+      "priority": "medium",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Fortanix",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Google Quantum AI",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "IBM",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "IETF",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "standards"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Infleqtion",
+      "priority": "medium",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Intel Quantum",
+      "priority": "medium",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "IonQ",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Lockheed Martin",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "aerospace-defense"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "MITRE",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "research"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Microsoft Quantum",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "NSA",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "government"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Open Quantum Safe",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "open-source"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "PQCA",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "consortium"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Pasqal",
+      "priority": "medium",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "PsiQuantum",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "QuEra",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Quantinuum",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Quantum Computing Inc. (QCi)",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Rigetti",
+      "priority": "medium",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "SandboxAQ",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Thales",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "UK NCSC",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "government"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "Wiz",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    }
+  ],
+  "summary": {
+    "assessed": 10,
+    "by_stage": {
+      "awareness": 5,
+      "inventory": 1,
+      "not_assessed": 33,
+      "pilot": 1,
+      "planning": 3
+    },
+    "not_assessed": 33,
+    "organizations": 43
+  },
+  "updated_at": "2026-07-22T06:07:37.838464+00:00",
+  "version": 1
+}

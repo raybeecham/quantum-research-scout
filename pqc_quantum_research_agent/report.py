@@ -639,7 +639,7 @@ def _render_item(item: ResearchItem) -> list[str]:
     lines = [
         f"### {title}",
         (
-            f"_{item.category} • {item.source_name} • Published {_published_display(item)} • "
+            f"_{item.category} • {item.source_name} • {_date_verb(item)} {_published_display(item)} • "
             f"{_priority_label(item.score)} {item.score}_"
         ),
         "",
@@ -663,7 +663,7 @@ def _render_vendor_watch_item(item: ResearchItem) -> str:
     link = item.canonical_url or item.url
     return (
         f"- {_priority_label(item.score)} {item.score} - {title} - {item.source_name} "
-        f"(published {_published_display(item)}). {summary} [Open item]({link})"
+        f"({_date_verb(item).casefold()} {_published_display(item)}). {summary} [Open item]({link})"
     )
 
 
@@ -671,6 +671,11 @@ def _published_display(item: ResearchItem) -> str:
     if item.published_at is None:
         return "UNKNOWN"
     return f"{ensure_operational_timezone(item.published_at).strftime('%Y-%m-%d %H:%M')} {OPERATIONAL_TIMEZONE_NAME}"
+
+
+def _date_verb(item: ResearchItem) -> str:
+    source = item.date_source.casefold()
+    return "Updated" if any(term in source for term in ("modified", "updated", "sitemap:lastmod")) else "Published"
 
 
 def _clean_summary(value: str, max_chars: int = SUMMARY_MAX_CHARS) -> str:

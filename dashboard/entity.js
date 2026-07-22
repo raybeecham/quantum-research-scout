@@ -3,7 +3,12 @@ const requestedName = params.get("name") || "";
 const requestedKind = params.get("kind") === "technologies" ? "technologies" : "entities";
 const escapeHtml = value => String(value ?? "").replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
 const safeUrl = value => { try { const url = new URL(String(value), window.location.href); return ["http:","https:"].includes(url.protocol) ? url.href : "#"; } catch { return "#"; } };
-const displayDate = value => value ? new Intl.DateTimeFormat(undefined,{dateStyle:"medium"}).format(new Date(`${String(value).slice(0,10)}T00:00:00Z`)) : "Not seen";
+const displayDate = value => {
+  if(!value) return "Not seen";
+  const text = String(value);
+  const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(text);
+  return new Intl.DateTimeFormat(undefined,{dateStyle:"medium",...(dateOnly ? {timeZone:"UTC"} : {})}).format(new Date(dateOnly ? `${text}T00:00:00Z` : text));
+};
 const formatDateTime = value => value ? new Intl.DateTimeFormat(undefined,{dateStyle:"medium",timeStyle:"short"}).format(new Date(value)) : "Unknown";
 
 fetch("data/dashboard.json?v=__ASSET_VERSION__").then(response => {
@@ -17,6 +22,7 @@ function renderProfile(data){
   const profile = profiles.find(item => item.name?.localeCompare(requestedName, undefined, {sensitivity:"accent"}) === 0);
   if (!profile) { showError(requestedName ? `No watchlist profile was found for “${requestedName}”.` : "No profile was selected."); return; }
   const coverage = requestedKind === "entities" ? (watch.coverage || []).find(item => item.name === profile.name) : null;
+  const readiness = requestedKind === "entities" ? (data.readiness?.organizations || []).find(item => item.name === profile.name) : null;
   const alerts = (data.alerts?.alerts || []).filter(item => item.entity?.toLocaleLowerCase() === profile.name.toLocaleLowerCase());
   const evidence = [...(profile.evidence || [])].sort((a,b) => String(b.date).localeCompare(String(a.date)) || (b.score || 0) - (a.score || 0));
 
@@ -30,11 +36,13 @@ function renderProfile(data){
   document.getElementById("profile-latest").textContent = displayDate(profile.latest_seen);
   document.getElementById("profile-momentum").textContent = `${profile.recent_count || 0} / ${profile.prior_count || 0}`;
   document.getElementById("profile-coverage").textContent = coverage?.status || (requestedKind === "technologies" ? "N/A" : "Gap");
+  document.getElementById("profile-readiness").textContent = readiness?.stage_label || (requestedKind === "technologies" ? "N/A" : "Not assessed");
   document.getElementById("profile-updated").textContent = `Watch data updated ${formatDateTime(watch.updated_at)}`;
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDateTime(data.generated_at)} · ${data.build_id || "current build"}`;
   renderChart(evidence);
   renderTimeline(evidence, data.repository_url);
   renderThemes(profile.themes || []);
+  renderReadiness(readiness, requestedKind);
   renderSources(coverage, data.source_health?.sources || []);
   renderAlerts(alerts);
 }
@@ -44,6 +52,7 @@ function renderChart(evidence){
   if (!evidence.length) { target.innerHTML = '<div class="empty-state">No matching evidence has been collected yet. The profile will populate automatically when a source produces a match.</div>'; return; }
   const counts = new Map();
   evidence.forEach(item => { if(item.date) counts.set(item.date, (counts.get(item.date) || 0) + 1); });
+  if (!counts.size) { target.innerHTML = '<div class="empty-state">Authoritative evidence is available, but its publication date could not be verified. It remains visible in the timeline without being placed on the trend chart.</div>'; return; }
   const days = [...counts.keys()].sort();
   const start = new Date(`${days[0]}T00:00:00Z`), end = new Date(`${days[days.length-1]}T00:00:00Z`);
   const series = [];
@@ -60,12 +69,21 @@ function renderTimeline(evidence, repoUrl){
   const target = document.getElementById("profile-timeline");
   target.innerHTML = evidence.length ? evidence.map(item => {
     const report = item.report ? `<a href="${escapeHtml(safeUrl(`${repoUrl}/blob/main/reports/${item.report}`))}">Daily report</a>` : "";
-    return `<article class="timeline-item"><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a><p>${escapeHtml(displayDate(item.date))} · ${escapeHtml(item.source || "Unknown source")} · score ${item.score || 0}${report ? ` · ${report}` : ""}</p><div class="profile-themes">${(item.themes || []).map(theme => `<span>${escapeHtml(theme)}</span>`).join("")}</div></article>`;
+    const provenance = item.historical ? ` · historical${item.date_kind && item.date_kind !== "unknown" ? ` · ${escapeHtml(item.date_kind)} date` : ""}` : "";
+    return `<article class="timeline-item ${item.historical ? "historical" : ""}"><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a><p>${escapeHtml(displayDate(item.date))} · ${escapeHtml(item.source || "Unknown source")} · score ${item.score || 0}${provenance}${report ? ` · ${report}` : ""}</p><div class="profile-themes">${(item.themes || []).map(theme => `<span>${escapeHtml(theme)}</span>`).join("")}</div></article>`;
   }).join("") : '<div class="empty-state">No evidence has matched this watchlist entry yet.</div>';
 }
 
 function renderThemes(themes){
   document.getElementById("profile-themes").innerHTML = themes.length ? themes.map(theme => `<span>${escapeHtml(theme)}</span>`).join("") : '<span class="empty-state">Awaiting a matched theme</span>';
+}
+
+function renderReadiness(readiness, kind){
+  const target = document.getElementById("profile-readiness-detail");
+  if(kind !== "entities") { target.innerHTML = '<div class="empty-state">Readiness stages apply to organizations, not technology profiles.</div>'; return; }
+  if(!readiness || readiness.stage === "not_assessed") { target.innerHTML = '<div class="empty-state">No public evidence supports a PQC readiness stage yet.</div>'; return; }
+  const evidence = (readiness.supporting_evidence || []).slice(0,3).map(item => `<li><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a><small>${escapeHtml(item.observed_stage_label)} · ${escapeHtml(item.date || "undated")}${item.historical ? " · historical" : ""}</small></li>`).join("");
+  target.innerHTML = `<div class="readiness-summary"><span class="readiness-stage ${escapeHtml(readiness.stage)}">${escapeHtml(readiness.stage_label)}</span><strong>${escapeHtml(readiness.confidence)} confidence</strong><small>${readiness.evidence_count || 0} supporting item${readiness.evidence_count === 1 ? "" : "s"} across ${readiness.source_count || 0} source${readiness.source_count === 1 ? "" : "s"}</small></div><ul>${evidence}</ul><p class="method-note">Public evidence indicates observed activity; this is not an audit of internal cryptographic posture.</p>`;
 }
 
 function renderSources(coverage, sourceHealth){

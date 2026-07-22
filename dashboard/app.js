@@ -15,7 +15,12 @@ const definitions = {
 const escapeHtml = value => String(value ?? "").replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
 const safeUrl = value => { try { const url = new URL(String(value), window.location.href); return ["http:","https:"].includes(url.protocol) ? url.href : "#"; } catch { return "#"; } };
 const formatDate = value => value ? new Intl.DateTimeFormat(undefined,{dateStyle:"medium",timeStyle:"short"}).format(new Date(value)) : "Unknown";
-const formatShortDate = value => value ? new Intl.DateTimeFormat(undefined,{dateStyle:"medium"}).format(new Date(value)) : "—";
+const formatShortDate = value => {
+  if(!value) return "—";
+  const text = String(value);
+  const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(text);
+  return new Intl.DateTimeFormat(undefined,{dateStyle:"medium",...(dateOnly ? {timeZone:"UTC"} : {})}).format(new Date(dateOnly ? `${text}T00:00:00Z` : text));
+};
 const profileUrl = (name, kind="entities") => `entity.html?name=${encodeURIComponent(name)}&kind=${encodeURIComponent(kind)}`;
 
 fetch("data/dashboard.json?v=__ASSET_VERSION__").then(response => {
@@ -47,7 +52,7 @@ function render(){
   const stale = sources.filter(x => x.freshness === "stale").length;
   document.getElementById("source-summary").textContent = `${healthy} healthy · ${verified} verified · ${fresh} fresh · ${stale} stale`;
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
-  renderTrend(); renderAlerts(alerts); renderSignals(); renderWatch(); renderComparison(); renderCoverage(); renderSources(sources); renderReports(state.data.reports);
+  renderTrend(); renderAlerts(alerts); renderSignals(); renderWatch(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderSources(sources); renderReports(state.data.reports);
 }
 
 function renderTrend(){
@@ -108,6 +113,30 @@ function renderWatch(){
   document.getElementById("watch-grid").innerHTML = matched + awaiting;
 }
 
+function renderReadiness(){
+  const payload = state.data.readiness || { organizations: [], summary: {} };
+  const organizations = payload.organizations || [];
+  const assessed = payload.summary?.assessed || 0;
+  document.getElementById("readiness-summary").textContent = `${assessed} of ${organizations.length} organizations assessed from public evidence`;
+  document.getElementById("readiness-table").innerHTML = organizations.map(item =>
+    `<tr><td><a class="profile-link" href="${escapeHtml(profileUrl(item.name))}">${escapeHtml(item.name)}</a></td><td><span class="readiness-stage ${escapeHtml(item.stage)}">${escapeHtml(item.stage_label)}</span></td><td>${escapeHtml(item.confidence)}</td><td>${item.evidence_count || 0}${item.historical_evidence_count ? ` <small>(${item.historical_evidence_count} historical)</small>` : ""}</td><td>${item.source_count || 0}</td><td>${escapeHtml(formatShortDate(item.latest_evidence_at))}</td></tr>`
+  ).join("") || '<tr><td colspan="6">No readiness evidence is available yet.</td></tr>';
+}
+
+function renderStandards(){
+  const payload = state.data.standards || { milestones: [], summary: {} };
+  const summary = payload.summary || {};
+  const next = payload.next_milestone;
+  const nextText = next ? `${next.title} · ${next.days_remaining} day${next.days_remaining === 1 ? "" : "s"}` : "No upcoming milestone";
+  document.getElementById("standards-summary").textContent = `${summary.completed || 0} completed · ${summary.due_soon || 0} due soon · next: ${nextText}`;
+  const order = { overdue: 0, due_soon: 1, upcoming: 2, estimated: 3, completed: 4 };
+  const milestones = [...(payload.milestones || [])].sort((a,b) => (order[a.timing] - order[b.timing]) || String(a.target_date).localeCompare(String(b.target_date)));
+  document.getElementById("standards-timeline").innerHTML = milestones.map(item => {
+    const countdown = item.timing === "completed" ? "Completed" : item.timing === "estimated" ? "Planning estimate" : item.days_remaining < 0 ? `${Math.abs(item.days_remaining)} days overdue` : item.days_remaining === 0 ? "Due today" : `${item.days_remaining} days remaining`;
+    return `<article class="milestone-card ${escapeHtml(item.timing)}"><div class="milestone-date"><strong>${escapeHtml(item.date_label)}</strong><span>${escapeHtml(countdown)}</span></div><div><div class="badges"><span class="badge">${escapeHtml(item.authority)}</span><span class="milestone-status ${escapeHtml(item.timing)}">${escapeHtml(item.timing.replace("_"," "))}</span></div><h3><a href="${escapeHtml(safeUrl(item.source_url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3><p>${escapeHtml(item.summary)}</p><div class="profile-themes">${(item.technologies || []).map(value => `<span>${escapeHtml(value)}</span>`).join("")}</div></div></article>`;
+  }).join("") || '<div class="empty-state">No standards milestones are configured.</div>';
+}
+
 function renderCoverage(){
   const coverage = state.data.entity_watch?.coverage || [];
   const gaps = coverage.filter(item => item.status !== "covered").length;
@@ -130,6 +159,7 @@ function renderComparison(){
   const coverage = new Map((watch.coverage || []).map(item => [item.name,item]));
   const health = new Map((state.data.source_health?.sources || []).map(item => [item.name,item]));
   const alerts = state.data.alerts?.alerts || [];
+  const readiness = new Map((state.data.readiness?.organizations || []).map(item => [item.name,item]));
   const selected = [state.compareFirst,state.compareSecond].map(name => entities.find(item => item.name === name));
   const maxEvidence = Math.max(...selected.map(item => item.evidence_count || 0),1);
   document.getElementById("compare-results").innerHTML = selected.map(item => {
@@ -138,8 +168,9 @@ function renderComparison(){
     const verification = sourceHealth.some(source => source.verification_status === "verified") ? "verified" : sourceHealth.some(source => source.verification_status === "failing") ? "failing" : "unverified";
     const freshness = sourceHealth.some(source => source.freshness === "fresh") ? "fresh" : sourceHealth.some(source => source.freshness === "stale") ? "stale" : "unknown";
     const activeAlerts = alerts.filter(alert => alert.entity?.toLowerCase() === item.name.toLowerCase()).length;
+    const itemReadiness = readiness.get(item.name);
     const width = Math.max(4,Math.round((item.evidence_count || 0) / maxEvidence * 100));
-    return `<article class="compare-card"><div class="compare-head"><div><span>${escapeHtml(item.type || "organization")}</span><h3><a class="profile-link" href="${escapeHtml(profileUrl(item.name))}">${escapeHtml(item.name)}</a></h3></div><div class="badges"><span class="badge ${escapeHtml(item.priority)}">${escapeHtml(item.priority)}</span><span class="badge ${escapeHtml(item.momentum || "stable")}">${escapeHtml(item.momentum || "unseen")}</span></div></div><div class="compare-evidence"><span>Evidence volume</span><strong>${item.evidence_count || 0}</strong><div class="bar"><i style="width:${width}%"></i></div></div><dl class="compare-stats"><div><dt>Recent / prior</dt><dd>${item.recent_count || 0} / ${item.prior_count || 0}</dd></div><div><dt>Latest seen</dt><dd>${escapeHtml(item.latest_seen || "Not seen")}</dd></div><div><dt>Active alerts</dt><dd>${activeAlerts}</dd></div><div><dt>Coverage</dt><dd>${escapeHtml(itemCoverage?.status || "N/A")}</dd></div><div><dt>Validation</dt><dd><span class="freshness ${escapeHtml(verification)}">${escapeHtml(verification)}</span></dd></div><div><dt>Freshness</dt><dd><span class="freshness ${escapeHtml(freshness)}">${escapeHtml(freshness)}</span></dd></div></dl><div class="profile-themes">${(item.themes || []).slice(0,5).map(theme => `<span>${escapeHtml(theme)}</span>`).join("") || '<span>No matched themes</span>'}</div><a class="watch-link" href="${escapeHtml(profileUrl(item.name))}">Open full profile →</a></article>`;
+    return `<article class="compare-card"><div class="compare-head"><div><span>${escapeHtml(item.type || "organization")}</span><h3><a class="profile-link" href="${escapeHtml(profileUrl(item.name))}">${escapeHtml(item.name)}</a></h3></div><div class="badges"><span class="badge ${escapeHtml(item.priority)}">${escapeHtml(item.priority)}</span><span class="badge ${escapeHtml(item.momentum || "stable")}">${escapeHtml(item.momentum || "unseen")}</span></div></div><div class="compare-evidence"><span>Evidence volume</span><strong>${item.evidence_count || 0}</strong><div class="bar"><i style="width:${width}%"></i></div></div><dl class="compare-stats"><div><dt>Recent / prior</dt><dd>${item.recent_count || 0} / ${item.prior_count || 0}</dd></div><div><dt>Latest seen</dt><dd>${escapeHtml(item.latest_seen || "Not seen")}</dd></div><div><dt>PQC readiness</dt><dd><span class="readiness-stage ${escapeHtml(itemReadiness?.stage || "not_assessed")}">${escapeHtml(itemReadiness?.stage_label || "Not assessed")}</span></dd></div><div><dt>Active alerts</dt><dd>${activeAlerts}</dd></div><div><dt>Coverage</dt><dd>${escapeHtml(itemCoverage?.status || "N/A")}</dd></div><div><dt>Validation</dt><dd><span class="freshness ${escapeHtml(verification)}">${escapeHtml(verification)}</span></dd></div><div><dt>Freshness</dt><dd><span class="freshness ${escapeHtml(freshness)}">${escapeHtml(freshness)}</span></dd></div></dl><div class="profile-themes">${(item.themes || []).slice(0,5).map(theme => `<span>${escapeHtml(theme)}</span>`).join("") || '<span>No matched themes</span>'}</div><a class="watch-link" href="${escapeHtml(profileUrl(item.name))}">Open full profile →</a></article>`;
   }).join("");
 }
 

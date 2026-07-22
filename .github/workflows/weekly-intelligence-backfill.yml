@@ -1,0 +1,56 @@
+name: Weekly Historical Intelligence Backfill
+
+on:
+  schedule:
+    - cron: "0 3 * * 0"
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  TZ: America/Chicago
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    name: Refresh official-source history
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install agent
+        run: python -m pip install .
+
+      - name: Backfill bounded official-source evidence
+        run: >-
+          python scripts/backfill_watch_sources.py
+          --config sources.yaml
+          --reports-dir reports
+          --watchlists-config watchlists.yaml
+          --readiness-config readiness.yaml
+          --standards-config standards.yaml
+
+      - name: Commit intelligence artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/historical-evidence.json reports/historical-evidence.md
+          git add reports/entity-watch.json reports/entity-watch.md
+          git add reports/readiness.json reports/readiness.md
+          git add reports/standards-timeline.json reports/standards-timeline.md
+          if git diff --cached --quiet; then
+            echo "No historical intelligence changes to commit"
+          else
+            git commit -m "Refresh historical intelligence"
+            git push
+          fi

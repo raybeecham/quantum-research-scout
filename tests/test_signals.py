@@ -48,3 +48,30 @@ class SignalTrackerTests(unittest.TestCase):
             self.assertIn("Persistent Signal Tracker", markdown)
             self.assertIn("> **Strategic Radar**", markdown)
             self.assertIn("↗️ rising", markdown)
+
+    def test_tracker_reconciles_corrected_retained_report_but_preserves_pruned_history(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports = Path(temp_dir)
+            month = reports / "2026-07"
+            month.mkdir()
+            report = month / "2026-07-20-digest.md"
+            report.write_text(
+                _daily("Incorrect Event", "https://example.com/old", "2026-07-20", 60), encoding="utf-8"
+            )
+            state_path, _ = write_signal_tracker(
+                reports, generated_at=datetime(2026, 7, 21, tzinfo=timezone.utc)
+            )
+
+            report.write_text(
+                _daily("Corrected Signal", "https://example.com/new", "2026-07-20", 70), encoding="utf-8"
+            )
+            write_signal_tracker(reports, generated_at=datetime(2026, 7, 21, tzinfo=timezone.utc))
+            corrected = json.loads(state_path.read_text(encoding="utf-8"))["themes"]["PQC / Crypto Agility"]["evidence"]
+
+            self.assertEqual([item["url"] for item in corrected], ["https://example.com/new"])
+
+            report.unlink()
+            write_signal_tracker(reports, generated_at=datetime(2026, 7, 21, tzinfo=timezone.utc))
+            preserved = json.loads(state_path.read_text(encoding="utf-8"))["themes"]["PQC / Crypto Agility"]["evidence"]
+
+            self.assertEqual([item["url"] for item in preserved], ["https://example.com/new"])

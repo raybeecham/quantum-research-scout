@@ -140,6 +140,8 @@ def _entity_event_alerts(entity_watch: dict, config: dict, today: date) -> list[
         if priority_rank.get(str(entity.get("priority", "medium")).casefold(), 2) > maximum_rank:
             continue
         for evidence in entity.get("evidence", []):
+            if evidence.get("historical") or evidence.get("alert_eligible") is False:
+                continue
             evidence_date = _safe_date(evidence.get("date"))
             if evidence_date is None or not 0 <= (today - evidence_date).days <= max_age_days:
                 continue

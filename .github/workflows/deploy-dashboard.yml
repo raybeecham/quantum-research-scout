@@ -7,7 +7,16 @@ on:
       - "dashboard/**"
       - "reports/**"
       - "scripts/build_dashboard.py"
+      - "readiness.yaml"
+      - "standards.yaml"
       - ".github/workflows/deploy-dashboard.yml"
+  workflow_run:
+    workflows:
+      - "Daily PQC Quantum Research Scout"
+      - "Weekly PQC Quantum Research Synthesis"
+      - "Monthly PQC Quantum Research Synthesis"
+      - "Weekly Historical Intelligence Backfill"
+    types: [completed]
   workflow_dispatch:
 
 concurrency:
@@ -21,6 +30,7 @@ permissions:
 
 jobs:
   build-and-deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     name: Build and deploy dashboard
     runs-on: ubuntu-latest
     environment:
@@ -30,6 +40,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v6

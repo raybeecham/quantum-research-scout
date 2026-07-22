@@ -1,0 +1,305 @@
+{
+  "as_of_date": "2026-07-22",
+  "milestones": [
+    {
+      "authority": "NIST",
+      "configured_status": "completed",
+      "date_label": "2024-08-13",
+      "date_precision": "exact",
+      "days_remaining": null,
+      "id": "nist-fips-203-final",
+      "kind": "standard",
+      "source_url": "https://csrc.nist.gov/pubs/fips/203/final",
+      "summary": "NIST finalized its primary post-quantum key-encapsulation standard.",
+      "target_date": "2024-08-13",
+      "technologies": [
+        "ML-KEM",
+        "FIPS 203"
+      ],
+      "timing": "completed",
+      "title": "FIPS 203 (ML-KEM) finalized"
+    },
+    {
+      "authority": "NIST",
+      "configured_status": "completed",
+      "date_label": "2024-08-13",
+      "date_precision": "exact",
+      "days_remaining": null,
+      "id": "nist-fips-204-final",
+      "kind": "standard",
+      "source_url": "https://csrc.nist.gov/pubs/fips/204/final",
+      "summary": "NIST finalized its module-lattice digital-signature standard.",
+      "target_date": "2024-08-13",
+      "technologies": [
+        "ML-DSA",
+        "FIPS 204"
+      ],
+      "timing": "completed",
+      "title": "FIPS 204 (ML-DSA) finalized"
+    },
+    {
+      "authority": "NIST",
+      "configured_status": "completed",
+      "date_label": "2024-08-13",
+      "date_precision": "exact",
+      "days_remaining": null,
+      "id": "nist-fips-205-final",
+      "kind": "standard",
+      "source_url": "https://csrc.nist.gov/pubs/fips/205/final",
+      "summary": "NIST finalized its stateless hash-based digital-signature standard.",
+      "target_date": "2024-08-13",
+      "technologies": [
+        "SLH-DSA",
+        "FIPS 205"
+      ],
+      "timing": "completed",
+      "title": "FIPS 205 (SLH-DSA) finalized"
+    },
+    {
+      "authority": "CNSS / NSA",
+      "configured_status": "completed",
+      "date_label": "2025-03-04",
+      "date_precision": "exact",
+      "days_remaining": null,
+      "id": "cnssp-15-release",
+      "kind": "policy",
+      "source_url": "https://www.nsa.gov/Cybersecurity/Post-Quantum-Cybersecurity-Resources/",
+      "summary": "Updated national-security-system policy incorporated CNSA 2.0 requirements.",
+      "target_date": "2025-03-04",
+      "technologies": [
+        "CNSA 2.0"
+      ],
+      "timing": "completed",
+      "title": "CNSS Policy 15 with CNSA 2.0 released"
+    },
+    {
+      "authority": "NIST",
+      "configured_status": "completed",
+      "date_label": "2025-03-11",
+      "date_precision": "exact",
+      "days_remaining": null,
+      "id": "nist-hqc-selected",
+      "kind": "standard",
+      "source_url": "https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption",
+      "summary": "NIST selected HQC as a backup key-encapsulation mechanism based on different mathematics from ML-KEM.",
+      "target_date": "2025-03-11",
+      "technologies": [
+        "HQC"
+      ],
+      "timing": "completed",
+      "title": "HQC selected for standardization"
+    },
+    {
+      "authority": "OMB",
+      "configured_status": "completed",
+      "date_label": "2026-06-24",
+      "date_precision": "exact",
+      "days_remaining": null,
+      "id": "federal-pqc-execution-guidance",
+      "kind": "policy",
+      "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf",
+      "summary": "OMB established phased federal migration from discovery and planning through full migration.",
+      "target_date": "2026-06-24",
+      "technologies": [
+        "ML-KEM",
+        "ML-DSA",
+        "Crypto-agility"
+      ],
+      "timing": "completed",
+      "title": "OMB M-26-15 federal PQC execution guidance issued"
+    },
+    {
+      "authority": "White House / OMB",
+      "configured_status": "planned",
+      "date_label": "2026-07-22",
+      "date_precision": "exact",
+      "days_remaining": 0,
+      "id": "federal-pqc-leads",
+      "kind": "deadline",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "summary": "Executive Order 14412 requires each agency head to identify a PQC migration lead within 30 days.",
+      "target_date": "2026-07-22",
+      "technologies": [
+        "Crypto-agility"
+      ],
+      "timing": "due_soon",
+      "title": "Federal agencies designate PQC migration leads"
+    },
+    {
+      "authority": "OMB / ONCD",
+      "configured_status": "planned",
+      "date_label": "2026-10-22",
+      "date_precision": "exact",
+      "days_remaining": 92,
+      "id": "federal-pqc-migration-plans",
+      "kind": "deadline",
+      "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf",
+      "summary": "M-26-15 requires agencies to submit phased migration plans within 120 days of the memorandum.",
+      "target_date": "2026-10-22",
+      "technologies": [
+        "Crypto-agility",
+        "Cryptographic inventory"
+      ],
+      "timing": "upcoming",
+      "title": "Federal agency PQC migration plans due"
+    },
+    {
+      "authority": "FAR Council",
+      "configured_status": "planned",
+      "date_label": "2026-12-19",
+      "date_precision": "exact",
+      "days_remaining": 150,
+      "id": "far-pqc-proposed-rule",
+      "kind": "procurement",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "summary": "Executive Order 14412 directs a proposed procurement rule within 180 days.",
+      "target_date": "2026-12-19",
+      "technologies": [
+        "FIPS 203",
+        "FIPS 204",
+        "FIPS 205"
+      ],
+      "timing": "upcoming",
+      "title": "Proposed FAR rule for PQC-capable covered contractors"
+    },
+    {
+      "authority": "CISA / NIST",
+      "configured_status": "planned",
+      "date_label": "2027-03-19",
+      "date_precision": "exact",
+      "days_remaining": 240,
+      "id": "cisa-cbom-minimum-elements",
+      "kind": "guidance",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "summary": "Executive Order 14412 directs public guidance on minimum cryptographic bill-of-materials elements within 270 days.",
+      "target_date": "2027-03-19",
+      "technologies": [
+        "CBOM",
+        "Cryptographic inventory"
+      ],
+      "timing": "upcoming",
+      "title": "CISA guidance for minimum CBOM elements"
+    },
+    {
+      "authority": "NIST",
+      "configured_status": "estimated",
+      "date_label": "2027",
+      "date_precision": "year",
+      "days_remaining": 527,
+      "id": "nist-hqc-final-estimate",
+      "kind": "standard",
+      "source_url": "https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption",
+      "summary": "NIST announced an expected 2027 final standard; this is a planning estimate rather than a fixed deadline.",
+      "target_date": "2027-12-31",
+      "technologies": [
+        "HQC"
+      ],
+      "timing": "estimated",
+      "title": "HQC standard expected"
+    },
+    {
+      "authority": "NIST",
+      "configured_status": "planned",
+      "date_label": "2027-12-31",
+      "date_precision": "exact",
+      "days_remaining": 527,
+      "id": "nist-federal-pilot-complete",
+      "kind": "implementation",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "summary": "Executive Order 14412 sets this completion deadline for the NIST migration pilot.",
+      "target_date": "2027-12-31",
+      "technologies": [
+        "ML-KEM",
+        "ML-DSA",
+        "Crypto-agility"
+      ],
+      "timing": "upcoming",
+      "title": "NIST federal PQC migration pilot complete"
+    },
+    {
+      "authority": "White House / OMB",
+      "configured_status": "planned",
+      "date_label": "2030-12-31",
+      "date_precision": "exact",
+      "days_remaining": 1623,
+      "id": "federal-key-establishment-migration",
+      "kind": "deadline",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "summary": "Executive Order 14412 requires PQC key establishment for all federal HVAs and high-impact systems.",
+      "target_date": "2030-12-31",
+      "technologies": [
+        "ML-KEM",
+        "FIPS 203"
+      ],
+      "timing": "upcoming",
+      "title": "Federal HVA and high-impact key establishment migrated"
+    },
+    {
+      "authority": "White House / OMB",
+      "configured_status": "planned",
+      "date_label": "2031-12-31",
+      "date_precision": "exact",
+      "days_remaining": 1988,
+      "id": "federal-signature-migration",
+      "kind": "deadline",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "summary": "Executive Order 14412 requires PQC digital signatures for all federal HVAs and high-impact systems.",
+      "target_date": "2031-12-31",
+      "technologies": [
+        "ML-DSA",
+        "SLH-DSA",
+        "FIPS 204",
+        "FIPS 205"
+      ],
+      "timing": "upcoming",
+      "title": "Federal HVA and high-impact digital signatures migrated"
+    },
+    {
+      "authority": "OMB",
+      "configured_status": "planned",
+      "date_label": "2035",
+      "date_precision": "year",
+      "days_remaining": 3449,
+      "id": "federal-full-migration",
+      "kind": "deadline",
+      "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf",
+      "summary": "M-26-15 defines 2035 as the full-migration phase for remaining federal systems.",
+      "target_date": "2035-12-31",
+      "technologies": [
+        "Crypto-agility",
+        "ML-KEM",
+        "ML-DSA"
+      ],
+      "timing": "upcoming",
+      "title": "Remaining federal systems complete risk-based PQC migration"
+    }
+  ],
+  "next_milestone": {
+    "authority": "White House / OMB",
+    "configured_status": "planned",
+    "date_label": "2026-07-22",
+    "date_precision": "exact",
+    "days_remaining": 0,
+    "id": "federal-pqc-leads",
+    "kind": "deadline",
+    "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+    "summary": "Executive Order 14412 requires each agency head to identify a PQC migration lead within 30 days.",
+    "target_date": "2026-07-22",
+    "technologies": [
+      "Crypto-agility"
+    ],
+    "timing": "due_soon",
+    "title": "Federal agencies designate PQC migration leads"
+  },
+  "summary": {
+    "completed": 6,
+    "due_soon": 1,
+    "estimated": 1,
+    "milestones": 15,
+    "overdue": 0,
+    "upcoming": 7
+  },
+  "timezone": "America/Chicago",
+  "updated_at": "2026-07-22T06:07:37.866526+00:00",
+  "version": 1
+}

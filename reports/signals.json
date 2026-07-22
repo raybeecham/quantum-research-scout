@@ -56,21 +56,49 @@
           "source": "Quantum Zeitgeist",
           "title": "World Models and Yann LeCun\u2019s Bet Against Large Language Models",
           "url": "https://quantumzeitgeist.com/world-models-lecun-post-llm"
+        },
+        {
+          "date": "2026-07-21",
+          "key": "https://arxiv.org/abs/2607.18360",
+          "report": "2026-07/2026-07-21-digest.md",
+          "score": 52,
+          "source": "arXiv RSS cs.CR",
+          "title": "HALLMARK: Diagnosing Three Failure Modes in LLM Citation Verifiers",
+          "url": "https://arxiv.org/abs/2607.18360"
+        },
+        {
+          "date": "2026-07-21",
+          "key": "https://arxiv.org/abs/2607.18496",
+          "report": "2026-07/2026-07-21-digest.md",
+          "score": 52,
+          "source": "arXiv RSS cs.CR",
+          "title": "Towards an Automated Test of LLM Security Knowledge",
+          "url": "https://arxiv.org/abs/2607.18496"
+        },
+        {
+          "date": "2026-07-21",
+          "key": "https://arxiv.org/abs/2607.18622",
+          "report": "2026-07/2026-07-21-digest.md",
+          "score": 64,
+          "source": "arXiv RSS cs.CR",
+          "title": "CPInj: Uncovering Prompt Injection Risks in Textual Collaborative Prompt Optimization",
+          "url": "https://arxiv.org/abs/2607.18622"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "high",
-      "latest_seen": "2026-07-17",
-      "momentum": "rising",
+      "latest_seen": "2026-07-21",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
+        "arXiv RSS cs.CR",
         "QuantumNews.ai",
         "The Quantum Insider"
       ],
-      "prior_count": 1,
+      "prior_count": 4,
       "recent_count": 4,
-      "status": "actionable"
+      "status": "watching"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -572,12 +600,12 @@
         },
         {
           "date": "2026-07-21",
-          "key": "https://www.wiz.io/events/the-state-of-post-quantum-cryptography",
+          "key": "https://arxiv.org/abs/2607.18533",
           "report": "2026-07/2026-07-21-digest.md",
-          "score": 62,
-          "source": "Wiz Post-Quantum Security",
-          "title": "The State of Post-Quantum Cryptography | Wiz",
-          "url": "https://www.wiz.io/events/the-state-of-post-quantum-cryptography"
+          "score": 66,
+          "source": "arXiv RSS cs.CR",
+          "title": "PIP-NTT: Towards a Scalable Memory-Parallelized Accelerator for Iterative NTT in PQC",
+          "url": "https://arxiv.org/abs/2607.18533"
         }
       ],
       "first_seen": "2026-06-21",
@@ -841,20 +869,30 @@
           "source": "Quantum Zeitgeist",
           "title": "Rice University Team Presents Topological Subsystem Code Framework for Quantum Error Correction",
           "url": "https://quantumzeitgeist.com/rice-university-presents-topological-subsystem-code-framework-quantum"
+        },
+        {
+          "date": "2026-07-21",
+          "key": "https://arxiv.org/abs/2607.18374",
+          "report": "2026-07/2026-07-21-digest.md",
+          "score": 79,
+          "source": "arXiv RSS quant-ph",
+          "title": "Nishimori Threshold Estimation for Bayesian Inference and $\\mathbb{Z}_q$ Surface Code Decoding",
+          "url": "https://arxiv.org/abs/2607.18374"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-07-16",
-      "momentum": "stable",
+      "latest_seen": "2026-07-21",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
-        "The Quantum Insider"
+        "The Quantum Insider",
+        "arXiv RSS quant-ph"
       ],
-      "prior_count": 7,
-      "recent_count": 8,
+      "prior_count": 8,
+      "recent_count": 3,
       "status": "watching"
     },
     "Quantum Hardware": {
@@ -1825,48 +1863,48 @@
         },
         {
           "date": "2026-07-21",
-          "key": "https://quantumzeitgeist.com/qubit-qubo-qaoa-validates-penalty",
-          "report": "2026-07/2026-07-21-digest.md",
-          "score": 26,
-          "source": "Quantum Zeitgeist",
-          "title": "New 20-Qubit QUBO Result Reveals Why QAOA Actually Works",
-          "url": "https://quantumzeitgeist.com/qubit-qubo-qaoa-validates-penalty"
-        },
-        {
-          "date": "2026-07-21",
-          "key": "https://thequantuminsider.com/2026/07/21/saxon-q-diamond-nv-center-quantum-computers",
-          "report": "2026-07/2026-07-21-digest.md",
-          "score": 26,
-          "source": "The Quantum Insider",
-          "title": "SAXON Q Launches Commercial Diamond-Based NV-Center Quantum Computing Systems",
-          "url": "https://thequantuminsider.com/2026/07/21/saxon-q-diamond-nv-center-quantum-computers"
-        },
-        {
-          "date": "2026-07-21",
-          "key": "https://quantumzeitgeist.com/aalto-university-first-superconducting-heat",
-          "report": "2026-07/2026-07-21-digest.md",
-          "score": 28,
-          "source": "Quantum Zeitgeist",
-          "title": "Aalto Researchers Build First Superconducting Heat Engine",
-          "url": "https://quantumzeitgeist.com/aalto-university-first-superconducting-heat"
-        },
-        {
-          "date": "2026-07-21",
-          "key": "https://thequantuminsider.com/2026/07/21/researchers-demonstrate-new-superconducting-circuit-design-that-could-advance-topological-quantum-computing",
-          "report": "2026-07/2026-07-21-digest.md",
-          "score": 28,
-          "source": "The Quantum Insider",
-          "title": "Researchers Demonstrate New Superconducting Circuit Design That Could Advance Topological Quantum Computing",
-          "url": "https://thequantuminsider.com/2026/07/21/researchers-demonstrate-new-superconducting-circuit-design-that-could-advance-topological-quantum-computing"
-        },
-        {
-          "date": "2026-07-21",
           "key": "https://quantumzeitgeist.com/beijing-laboratory-condensed-matter-physics-surface",
           "report": "2026-07/2026-07-21-digest.md",
           "score": 35,
           "source": "Quantum Zeitgeist",
           "title": "Chinese Academy of Sciences Maps Surface-Loss in Qubit Lattices",
           "url": "https://quantumzeitgeist.com/beijing-laboratory-condensed-matter-physics-surface"
+        },
+        {
+          "date": "2026-07-21",
+          "key": "https://quantumcomputingreport.com/maybell-quantum-deploys-dilution-refrigerators-at-roadrunner-quantum-lab",
+          "report": "2026-07/2026-07-21-digest.md",
+          "score": 37,
+          "source": "QuantumNews.ai",
+          "title": "Maybell Quantum Deploys Dilution Refrigerators at Roadrunner Quantum Lab",
+          "url": "https://quantumcomputingreport.com/maybell-quantum-deploys-dilution-refrigerators-at-roadrunner-quantum-lab"
+        },
+        {
+          "date": "2026-07-21",
+          "key": "https://arxiv.org/abs/2607.18404",
+          "report": "2026-07/2026-07-21-digest.md",
+          "score": 40,
+          "source": "arXiv RSS quant-ph",
+          "title": "Reducing entanglement with a Hamiltonian derived Clifford transformation",
+          "url": "https://arxiv.org/abs/2607.18404"
+        },
+        {
+          "date": "2026-07-21",
+          "key": "https://arxiv.org/abs/2607.18401",
+          "report": "2026-07/2026-07-21-digest.md",
+          "score": 44,
+          "source": "arXiv RSS quant-ph",
+          "title": "Monolithic printed-circuit board RF-trap for electrons",
+          "url": "https://arxiv.org/abs/2607.18401"
+        },
+        {
+          "date": "2026-07-21",
+          "key": "https://arxiv.org/abs/2607.18387",
+          "report": "2026-07/2026-07-21-digest.md",
+          "score": 77,
+          "source": "arXiv RSS quant-ph",
+          "title": "Remote entanglement need not be the bottleneck for modular trapped-ion quantum computing",
+          "url": "https://arxiv.org/abs/2607.18387"
         }
       ],
       "first_seen": "2026-06-22",
@@ -1876,8 +1914,9 @@
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
+        "QuantumNews.ai",
         "The Quantum Insider",
-        "QuantumNews.ai"
+        "arXiv RSS quant-ph"
       ],
       "prior_count": 27,
       "recent_count": 28,
@@ -2254,6 +2293,15 @@
           "source": "Quantum Zeitgeist",
           "title": "Cnrs Team Identifies Reductions Between Non-Local Computation Tasks for Complexity Analysis",
           "url": "https://quantumzeitgeist.com/cnrs-identifies-reductions-non-local-computation-tasks-complexity"
+        },
+        {
+          "date": "2026-07-21",
+          "key": "https://arxiv.org/abs/2607.18702",
+          "report": "2026-07/2026-07-21-digest.md",
+          "score": 52,
+          "source": "arXiv RSS quant-ph",
+          "title": "A Reversible Continuous-Variable Photonic Memory Architecture Based on Displacement-Evolved Coherent-State Dynamics",
+          "url": "https://arxiv.org/abs/2607.18702"
         }
       ],
       "first_seen": "2026-06-22",
@@ -2264,10 +2312,11 @@
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
-        "The Quantum Insider"
+        "The Quantum Insider",
+        "arXiv RSS quant-ph"
       ],
       "prior_count": 6,
-      "recent_count": 12,
+      "recent_count": 13,
       "status": "actionable"
     },
     "Quantum Sensing": {
@@ -2810,8 +2859,33 @@
       "prior_count": 8,
       "recent_count": 9,
       "status": "watching"
+    },
+    "Standards / Government": {
+      "confidence": "low",
+      "evidence": [
+        {
+          "date": "2026-07-21",
+          "key": "https://arxiv.org/abs/2607.19109",
+          "report": "2026-07/2026-07-21-digest.md",
+          "score": 82,
+          "source": "arXiv RSS cs.CR",
+          "title": "Exploiting Load/Store Leakage of Sparse Vectors for Key Recovery in HQC",
+          "url": "https://arxiv.org/abs/2607.19109"
+        }
+      ],
+      "first_seen": "2026-07-21",
+      "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
+      "importance": "high",
+      "latest_seen": "2026-07-21",
+      "momentum": "rising",
+      "organizations": [
+        "arXiv RSS cs.CR"
+      ],
+      "prior_count": 0,
+      "recent_count": 1,
+      "status": "actionable"
     }
   },
-  "updated_at": "2026-07-22T02:10:47.310687+00:00",
+  "updated_at": "2026-07-22T06:07:37.489801+00:00",
   "version": 1
 }

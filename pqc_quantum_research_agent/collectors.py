@@ -338,7 +338,9 @@ def _collect_watch_sitemap(
         title = metadata.title or _title_from_url(article_url)
         if not title:
             continue
-        published_at = metadata.published_at or parse_datetime(last_modified)
+        use_sitemap_lastmod = bool(source.get("use_sitemap_lastmod_as_published", False))
+        published_at = metadata.published_at or (parse_datetime(last_modified) if use_sitemap_lastmod else None)
+        used_sitemap_lastmod = metadata.published_at is None and published_at is not None
         result.items.append(
             ResearchItem(
                 source_name=source_name,
@@ -347,8 +349,8 @@ def _collect_watch_sitemap(
                 url=article_url,
                 summary=compact_summary(metadata.description, 500),
                 published_at=published_at,
-                date_source=metadata.date_source or ("sitemap:lastmod" if last_modified else ""),
-                date_confidence=metadata.date_confidence if metadata.published_at else ("medium" if published_at else "unknown"),
+                date_source=metadata.date_source or ("sitemap:lastmod" if used_sitemap_lastmod else ""),
+                date_confidence=metadata.date_confidence if metadata.published_at else ("medium" if used_sitemap_lastmod else "unknown"),
                 raw_payload={"source_url": sitemap_url, "resolved_url": resolved_url, "sitemap_lastmod": last_modified},
             )
         )

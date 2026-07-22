@@ -123,3 +123,43 @@ class AlertTests(unittest.TestCase):
 
             self.assertEqual(payload["active_count"], 1)
             self.assertEqual(payload["alerts"][0]["type"], "source_stale")
+
+    def test_historical_entity_event_never_creates_retroactive_alert(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports = Path(temp_dir)
+            (reports / "signals.json").write_text('{"themes": {}}', encoding="utf-8")
+            (reports / "source-health.json").write_text('{"sources": []}', encoding="utf-8")
+            (reports / "entity-watch.json").write_text(
+                json.dumps(
+                    {
+                        "entities": [
+                            {
+                                "name": "Example",
+                                "priority": "high",
+                                "evidence": [
+                                    {
+                                        "date": "2026-07-20",
+                                        "title": "Example awarded a quantum contract",
+                                        "url": "https://example.com/historical-contract",
+                                        "historical": True,
+                                        "alert_eligible": False,
+                                    }
+                                ],
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            config = reports / "alerts.yaml"
+            config.write_text(
+                "entities:\n  enabled: true\n  minimum_priority: high\n  max_age_days: 3\n"
+                "  events:\n    contract:\n      severity: critical\n      patterns: [contract, awarded]\n",
+                encoding="utf-8",
+            )
+
+            _, json_path, _ = write_alerts(
+                reports, config, generated_at=datetime(2026, 7, 21, tzinfo=timezone.utc)
+            )
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+            self.assertEqual(payload["active_count"], 0)

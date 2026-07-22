@@ -6,6 +6,11 @@ on:
     # Intended local schedule: 7:00 PM US Central Time during daylight saving time (CDT, UTC-5).
     - cron: "0 0 * * *"
   workflow_dispatch:
+    inputs:
+      report_date:
+        description: "Optional America/Chicago report date to regenerate (YYYY-MM-DD)"
+        required: false
+        type: string
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -45,9 +50,14 @@ jobs:
       - name: Run research scout in default Central day coverage mode
         env:
           REPORTS_DIR: ${{ github.workspace }}/reports
+          REPORT_DATE: ${{ inputs.report_date || '' }}
         run: |
           mkdir -p "$REPORTS_DIR"
           RETENTION_DAYS=30
+          DATE_ARGS=()
+          if [ -n "$REPORT_DATE" ]; then
+            DATE_ARGS=(--date "$REPORT_DATE")
+          fi
           # On the UTC first of a month, retain one extra day until the monthly synthesis has consumed it.
           if [ "$(date -u +%d)" = "01" ]; then
             RETENTION_DAYS=31
@@ -56,6 +66,7 @@ jobs:
             --config sources.yaml \
             --db data/research_items.sqlite \
             --reports-dir "$REPORTS_DIR" \
+            "${DATE_ARGS[@]}" \
             --prune-daily-reports \
             --retention-days "$RETENTION_DAYS" \
             --update-intelligence-tracking \

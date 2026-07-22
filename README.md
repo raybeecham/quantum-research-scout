@@ -34,6 +34,9 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - Writes a deterministic weekly synthesis to `reports/weekly/YYYY/` from existing daily Markdown digests.
 - Writes a deterministic monthly synthesis to `reports/monthly/YYYY/` and maintains `reports/README.md` as the archive index.
 - Maintains a persistent, deduplicated signal ledger in `reports/signals.json` with a human-readable momentum dashboard in `reports/signals.md`.
+- Maintains a bounded historical evidence ledger for official watch sources. Historical records enrich organization profiles but are explicitly excluded from alerts.
+- Scores each watched organization by the highest publicly evidenced PQC engagement stage: awareness, inventory, planning, pilot/testing, or production.
+- Tracks authoritative PQC standards, policy, procurement, and migration milestones with exact deadlines distinguished from planning estimates.
 - Publishes rolling source reliability, observed check status, last successful fetch, latest dated item, freshness, expected idle periods, disabled sources, and recent active warnings in `reports/source-health.md`.
 - Runs daily through GitHub Actions.
 
@@ -45,6 +48,9 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - [Source health](reports/source-health.md) — rolling reliability, expected idle periods, disabled sources, and active warnings
 - [Intelligence alerts](reports/alerts.md) — new actionable signals, rising momentum, critical themes, and source degradation
 - [Entity and technology watch](reports/entity-watch.md) — organization, standards, algorithm, and technology momentum
+- [PQC readiness scorecards](reports/readiness.md) — evidence-backed organization stages with confidence and supporting links
+- [Standards and migration timeline](reports/standards-timeline.md) — completed standards, upcoming deadlines, and planning estimates
+- [Historical watch-source evidence](reports/historical-evidence.md) — bounded, provenance-labeled official-source history that cannot trigger alerts
 - [Latest daily digest](reports/2026-07/2026-07-20-digest.md)
 - [Latest weekly synthesis](reports/weekly/2026/2026-07-13_to_2026-07-19-weekly.md)
 - [Latest completed monthly synthesis](reports/monthly/2026/2026-06-monthly.md)
@@ -53,7 +59,7 @@ Daily reports provide the evidence stream. Weekly and monthly syntheses reduce r
 
 ## Visual Dashboard
 
-The GitHub Pages dashboard is a static, responsive portal built from structured report artifacts and the report archive. It supports alert triage, client-side signal search, status filtering, momentum visualization, source reliability and freshness, evidence links, and direct access to the latest reports. Organization and technology names open dedicated profiles with evidence trends, a research timeline, active alerts, themes, and first-party coverage. The comparison view places two organizations side by side across evidence volume, recent momentum, alerts, themes, coverage, source verification, and freshness. The mobile menu keeps every dashboard section reachable on narrow screens, while build-versioned CSS, JavaScript, and data URLs prevent stale cached assets after deployment. No application server or runtime database is required.
+The GitHub Pages dashboard is a static, responsive portal built from structured report artifacts and the report archive. It supports alert triage, client-side signal search, status filtering, momentum visualization, source reliability and freshness, PQC readiness scorecards, an authoritative standards timeline, evidence links, and direct access to the latest reports. Organization and technology names open dedicated profiles with evidence trends, a research timeline, active alerts, themes, first-party coverage, and readiness support. The comparison view places two organizations side by side across evidence volume, recent momentum, alerts, themes, readiness, coverage, source verification, and freshness. The mobile menu keeps every dashboard section reachable on narrow screens, while build-versioned CSS, JavaScript, and data URLs prevent stale cached assets after deployment. No application server or runtime database is required.
 
 ## Configurable Alerts
 
@@ -91,6 +97,21 @@ First-party coverage is configured in `sources.yaml`. Entries in `watch_sources`
 Each scheduled collection updates `reports/source-observations.json`. This ledger distinguishes configuration from proof: `verified` means a scheduled run successfully reached the source, `fresh` means its latest dated item is within `source_health.stale_after_days`, `stale` means the latest dated item is older, and `unknown` means the source was reachable but did not expose a usable publication date. Until the first scheduled observation, a source is shown as `unverified` rather than receiving an assumed success state.
 
 Entity alerts evaluate recent evidence from high- and critical-priority watch items. Event patterns and severity are configurable under `entities.events` in `alerts.yaml`; alerts include direct evidence links and use stable fingerprints so unchanged announcements are not repeatedly marked new.
+
+## Historical Evidence and PQC Readiness
+
+The weekly historical backfill collects a bounded window from enabled official watch sources into `reports/historical-evidence.json`. Each record retains its publication-date provenance and confidence, is marked `historical: true`, and is always `alert_eligible: false`. This keeps older evidence useful for organization profiles without making an old announcement look like a new alert or daily signal.
+
+Run all enabled official watch sources locally, or target exact source names:
+
+```bash
+python scripts/backfill_watch_sources.py
+python scripts/backfill_watch_sources.py --source "Deloitte Quantum Cyber Readiness" --source "Accenture Quantum and PQC News" --source "Accenture Federal Services Quantum Readiness"
+```
+
+Backfill bounds are configured under `historical_backfill` in `sources.yaml`; command-line options can override the lookback, per-source cap, and treatment of undated material.
+
+`readiness.yaml` defines the evidence phrases used to classify public activity. The scorecard reports the highest explicitly supported stage and a confidence based on evidence and source diversity. It is an external evidence assessment—not an audit or a claim about an organization's internal cryptographic posture. `standards.yaml` contains authoritative milestones and links, with year-only estimates kept visually distinct from exact deadlines.
 
 Build it locally with:
 
@@ -179,11 +200,13 @@ Report controls:
 - `--update-intelligence-tracking`: after daily generation, merge retained evidence into the persistent signal ledger and refresh source health.
 - `--alerts-config`: alert rules YAML used during intelligence tracking. The default is `alerts.yaml`.
 - `--watchlists-config`: entity and technology watchlist YAML. The default is `watchlists.yaml`.
+- `--readiness-config`: evidence-backed PQC readiness rules. The default is `readiness.yaml`.
+- `--standards-config`: authoritative standards and migration milestones. The default is `standards.yaml`.
 - `--lookback-hours`: optional rolling coverage window length. When provided, this overrides Central day-to-runtime filtering.
 - `--date YYYY-MM-DD`: backfill or test a specific operational report date.
 - `--include-undated`: retained for compatibility; rolling daily reports keep undated items excluded unless `--include-recent-undated` is set.
 - `--include-recent-undated`: include undated items discovered inside the coverage window when they contain strong PQC/quantum keywords. These render with publication date `UNKNOWN` and low date confidence.
-- `--historical`: disable coverage-window publication-date filtering and allow all discovered items into report selection.
+- `--historical`: disable coverage-window publication-date filtering for a manual daily-report run. For profile enrichment, prefer `scripts/backfill_watch_sources.py`, which isolates older evidence from daily signals and alerts.
 - `--prune-daily-reports`: after writing a daily digest, delete daily digest files older than `--retention-days`.
 - `--retention-days`: daily digest retention window used with `--prune-daily-reports`. The default is `30`; weekly and monthly reports are not pruned.
 - `--min-score`: minimum score for inclusion in the Markdown report.
@@ -206,7 +229,7 @@ arXiv requests are throttled between API calls and HTTP 429 responses are retrie
 
 arXiv RSS mode is preferred for scheduled runs and is the default. The default feeds are `https://rss.arxiv.org/rss/cs.CR` and `https://rss.arxiv.org/rss/quant-ph`; items are filtered by the same PQC and quantum keyword scoring rules as every other source. Use `--use-arxiv-api` for deeper local or manual searches through `https://export.arxiv.org/api/query`.
 
-Publication dates are normalized to UTC for storage, then interpreted with the America/Chicago operational timezone for report naming, operational report dates, displayed timestamps, and coverage windows. HTML extraction checks explicit metadata, `time datetime=`, JSON-LD `datePublished`, JSON-LD `dateModified`, source-specific URL date patterns, generic URL-derived dates, fallback text heuristics, and OpenGraph `updated_time` as a final fallback.
+Publication dates are normalized to UTC for storage, then interpreted with the America/Chicago operational timezone for report naming, operational report dates, displayed timestamps, and coverage windows. HTML extraction checks explicit metadata, `time datetime=`, JSON-LD `datePublished`, JSON-LD `dateModified`, source-specific URL date patterns, generic URL-derived dates, fallback text heuristics, and OpenGraph `updated_time` as a final fallback. Sitemap `lastmod` values are retained as provenance but are not treated as publication timestamps unless a source explicitly sets `use_sitemap_lastmod_as_published: true`; this prevents bulk sitemap rebuilds from resurfacing old pages as new reports.
 
 ## Report Format
 
@@ -260,6 +283,9 @@ Monthly synthesis uses the same deterministic evidence pipeline across a calenda
 | Weekly synthesis | Near-term themes and changes | Indefinite | Weekly workflow |
 | Monthly synthesis | Longer-horizon consolidation | Indefinite | Monthly workflow |
 | Signal tracker | Cross-report momentum and follow-up | Persistent ledger | Daily workflow |
+| Historical evidence | Official-source profile enrichment; never alerting | Bounded lookback | Weekly backfill |
+| PQC readiness | Publicly evidenced engagement stages | Regenerated | Daily and weekly workflows |
+| Standards timeline | Standards, policy, and migration milestones | Configured | Daily and weekly workflows |
 | Source health | Rolling collection reliability | Regenerated from retained dailies | Daily workflow |
 | Report index | Navigation and current priorities | Regenerated | All workflows |
 
@@ -326,13 +352,17 @@ SQLite records are written to `research_items` with:
 
 ## GitHub Actions
 
-The workflow in `.github/workflows/daily-research-scout.yml` runs every day at `00:00 UTC` in default daily mode, which is `7:00 PM` US Central Time during daylight saving time, and can also be started manually with `workflow_dispatch`. Scheduled runs use the default Central report-day coverage window from midnight to runtime.
+The workflow in `.github/workflows/daily-research-scout.yml` runs every day at `00:00 UTC` in default daily mode, which is `7:00 PM` US Central Time during daylight saving time, and can also be started manually with `workflow_dispatch`. Manual runs accept an optional `report_date` in `YYYY-MM-DD` format to regenerate a specific America/Chicago report day after correcting a collector or source-date issue. Scheduled runs use the default Central report-day coverage window from midnight to runtime.
 
 It restores the prior SQLite database from the Actions cache, runs the scout, prunes daily Markdown digests older than 30 days, updates the persistent signal ledger and source-health dashboard, refreshes the report index, commits changed report artifacts back to `main`, then uploads both the Markdown digest and SQLite database as workflow artifacts. Markdown and signal JSON artifacts are intentionally tracked; SQLite database files remain ignored and are not committed. The workflow needs `contents: write` permission for the built-in `GITHUB_TOKEN`, and branch protection must allow the GitHub Actions bot to push these report commits.
 
 The workflow in `.github/workflows/weekly-research-synthesis.yml` runs at `01:00 UTC` on Mondays, intended as Sunday night US Central after the daily digest has run. It reads committed daily digest files from monthly folders under `reports/`, writes the weekly synthesis to `reports/weekly/YYYY/`, commits changed weekly Markdown reports back to `main`, and uploads the weekly report as an artifact. It can also be started manually with `workflow_dispatch`.
 
 The workflow in `.github/workflows/monthly-research-synthesis.yml` runs on the first day of each month, consolidates the prior month into `reports/monthly/YYYY/`, refreshes the report index, and supports manual backfills with a `YYYY-MM` input.
+
+The workflow in `.github/workflows/weekly-intelligence-backfill.yml` runs at `03:00 UTC` on Sundays and can also be started manually. It refreshes the bounded official-source historical ledger, entity profiles, PQC readiness scorecards, and standards timeline, then commits only those generated intelligence artifacts. Historical evidence is structurally excluded from alert generation.
+
+The Pages deployment workflow listens for successful completion of the daily, weekly, monthly, and historical intelligence workflows in addition to ordinary pushes. This is required because report commits pushed with the built-in `GITHUB_TOKEN` do not emit a second workflow-triggering push event.
 
 The workflow uses Node.js 24-compatible GitHub Action majors and sets `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true` so compatibility is exercised now. GitHub-hosted `ubuntu-latest` runners satisfy this automatically; self-hosted runners should use Actions Runner `v2.327.1` or later for Node.js 24 JavaScript actions.
 
@@ -353,9 +383,14 @@ pqc_quantum_research_agent/
   source_health.py  # rolling source reliability report
   alerts.py         # configurable stateful alert evaluation
   entity_watch.py   # entity and technology evidence profiles
+  historical.py     # bounded non-alerting official-source evidence ledger
+  readiness.py      # evidence-backed PQC engagement scorecards
+  standards.py      # authoritative migration timeline rendering
 sources.yaml        # default sources and runtime settings
 alerts.yaml         # alert rules and thresholds
 watchlists.yaml     # organizations and technologies to track
+readiness.yaml      # readiness stages, methodology, and evidence patterns
+standards.yaml      # authoritative standards and migration milestones
 reports/README.md   # latest reports, themes, and archive summary
 reports/signals.json # durable deduplicated signal evidence
 reports/signals.md  # human-readable signal momentum and follow-up
@@ -367,11 +402,15 @@ reports/alerts.json # structured dashboard alert data
 reports/alerts-state.json # stable first-seen and deduplication state
 reports/entity-watch.md # human-readable watchlist profiles
 reports/entity-watch.json # structured dashboard watchlist data
+reports/historical-evidence.json # bounded, provenance-labeled history
+reports/readiness.json # structured organization PQC readiness scorecards
+reports/standards-timeline.json # structured standards and deadlines
 reports/YYYY-MM/    # generated daily Markdown digests by month
 reports/weekly/YYYY/ # generated weekly synthesis reports by year
 reports/monthly/YYYY/ # generated monthly synthesis reports by year
 data/               # generated SQLite database
 dashboard/          # static dashboard source assets
 scripts/build_dashboard.py # dashboard data and site builder
+scripts/backfill_watch_sources.py # controlled official-source historical backfill
 scripts/prepare_notifications.py # Slack, Teams, webhook, and email notification payloads
 ```

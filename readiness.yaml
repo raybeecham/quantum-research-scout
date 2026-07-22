@@ -1,0 +1,49 @@
+methodology:
+  name: Evidence-backed PQC engagement stage
+  disclaimer: Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
+  topic_patterns:
+    - post-quantum
+    - post quantum
+    - pqc
+    - quantum-safe
+    - quantum safe
+    - quantum-resistant
+    - quantum resistant
+    - quantum cyber
+    - cryptographic resilience
+    - crypto-agil
+    - cryptographic inventory
+    - ml-kem
+    - ml-dsa
+    - slh-dsa
+    - fips 203
+    - fips 204
+    - fips 205
+    - cnsa 2.0
+
+stages:
+  - id: awareness
+    label: Awareness
+    rank: 1
+    description: Public evidence acknowledges quantum cryptographic risk, standards, or migration needs.
+    patterns: [post-quantum, post quantum, pqc, quantum-safe, quantum safe, quantum-resistant, quantum cyber, cryptographic resilience, cnsa 2.0]
+  - id: inventory
+    label: Inventory
+    rank: 2
+    description: Evidence addresses discovery or inventory of cryptographic assets and dependencies.
+    patterns: [cryptographic inventory, crypto inventory, cryptography bill of materials, cryptographic bill of materials, cbom, cryptographic discovery, crypto discovery, cryptographic visibility]
+  - id: planning
+    label: Planning
+    rank: 3
+    description: Evidence describes readiness assessment, governance, roadmaps, transition planning, or crypto-agility.
+    patterns: [readiness, migration plan, migration roadmap, transition plan, migration strategy, prepare for, preparing for, crypto-agility, crypto agility, risk assessment, governance]
+  - id: pilot
+    label: Pilot / Testing
+    rank: 4
+    description: Evidence documents testing, a pilot, prototype, proof of concept, benchmark, or interoperability exercise.
+    patterns: [pilot, prototype, proof of concept, proof-of-concept, trial, interoperability, benchmark, testbed, testing, tested, demonstration, demonstrated]
+  - id: production
+    label: Production
+    rank: 5
+    description: Evidence explicitly documents deployed, production, or completed PQC implementation.
+    patterns: [production deployment, deployed pqc, deployed post-quantum, in production, production-ready, generally available, completed migration, migration completed, implements ml-kem, implemented ml-kem, implemented post-quantum, adopted post-quantum]

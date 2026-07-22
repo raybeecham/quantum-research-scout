@@ -42,9 +42,18 @@ def write_signal_tracker(
     reports_path = Path(reports_dir)
     state_path = reports_path / "signals.json"
     state = _load_state(state_path)
-    evidence_by_theme = {theme: {item["key"]: item for item in state.get("themes", {}).get(theme, {}).get("evidence", [])} for theme in THEMES}
+    report_paths = sorted(reports_path.glob("**/*-digest.md"))
+    retained_report_names = {path.relative_to(reports_path).as_posix() for path in report_paths}
+    evidence_by_theme = {
+        theme: {
+            item["key"]: item
+            for item in state.get("themes", {}).get(theme, {}).get("evidence", [])
+            if item.get("report") not in retained_report_names
+        }
+        for theme in THEMES
+    }
 
-    for report_path in sorted(reports_path.glob("**/*-digest.md")):
+    for report_path in report_paths:
         parsed = parse_daily_report(report_path)
         for item in parsed.items:
             theme = _theme_for_item(item)

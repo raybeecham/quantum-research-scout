@@ -61,9 +61,22 @@ class DashboardBuildTests(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
+            (reports / "readiness.json").write_text(
+                json.dumps({"summary": {"assessed": 1}, "organizations": [{"name": "NIST", "stage": "planning"}]}),
+                encoding="utf-8",
+            )
+            (reports / "standards-timeline.json").write_text(
+                json.dumps({"summary": {"milestones": 1}, "milestones": [{"id": "fips-203"}]}),
+                encoding="utf-8",
+            )
+            (reports / "historical-evidence.json").write_text(
+                json.dumps({"item_count": 2, "dated_count": 1, "undated_count": 1, "items": [{"key": "one"}]}),
+                encoding="utf-8",
+            )
             daily = reports / "2026-07" / "2026-07-20-digest.md"
             daily.parent.mkdir()
             daily.write_text("# Daily", encoding="utf-8")
+            (daily.parent / "2026-07-21-digest.md").write_text("# Newer Daily", encoding="utf-8")
 
             data_path = build_dashboard(root, root / "site", repo_url="https://github.com/example/repo")
             payload = json.loads(data_path.read_text(encoding="utf-8"))
@@ -74,10 +87,13 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertIn(payload["build_id"], (root / "site" / "app.js").read_text(encoding="utf-8"))
             self.assertEqual(payload["signals"]["themes"][0]["name"], "PQC / Crypto Agility")
             self.assertEqual(payload["signals"]["themes"][0]["evidence_count"], 1)
-            self.assertEqual(payload["reports"]["latest_daily"]["name"], "2026-07-20-digest")
+            self.assertEqual(payload["reports"]["latest_daily"]["name"], "2026-07-21-digest")
             self.assertEqual(payload["alerts"]["active_count"], 1)
             self.assertEqual(payload["entity_watch"]["entities"][0]["name"], "NIST")
             self.assertEqual(payload["entity_watch"]["coverage"][0]["status"], "covered")
+            self.assertEqual(payload["readiness"]["organizations"][0]["stage"], "planning")
+            self.assertEqual(payload["standards"]["milestones"][0]["id"], "fips-203")
+            self.assertEqual(payload["historical_evidence"]["item_count"], 2)
             self.assertEqual(payload["signals"]["overall_trend"][0]["count"], 1)
             self.assertIn("github.com/example/repo/blob/main/reports/", payload["reports"]["latest_daily"]["url"])
 
@@ -98,3 +114,14 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("renderComparison", script)
         self.assertIn("verification_status", script)
         self.assertIn("last_checked_at", profile)
+
+    def test_dashboard_includes_readiness_and_standards_views(self) -> None:
+        root = Path(__file__).parents[1]
+        html = (root / "dashboard" / "index.html").read_text(encoding="utf-8")
+        script = (root / "dashboard" / "app.js").read_text(encoding="utf-8")
+        profile = (root / "dashboard" / "entity.js").read_text(encoding="utf-8")
+        self.assertIn('id="readiness"', html)
+        self.assertIn('id="standards"', html)
+        self.assertIn("renderReadiness", script)
+        self.assertIn("renderStandards", script)
+        self.assertIn("historical", profile)

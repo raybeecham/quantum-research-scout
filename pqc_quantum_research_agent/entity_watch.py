@@ -7,6 +7,7 @@ from pathlib import Path
 
 import yaml
 
+from .dates import operational_today
 from .visuals import momentum_icon, priority_icon
 
 
@@ -21,11 +22,13 @@ def write_entity_watch(
     generated = generated_at or datetime.now(timezone.utc)
     config = _load_config(config_path)
     signals = _read_json(reports_path / "signals.json")
-    evidence = _signal_evidence(signals)
+    historical = _read_json(reports_path / "historical-evidence.json")
+    evidence = _combined_evidence(signals, historical)
+    today = operational_today(generated)
     evidence_dates = [date.fromisoformat(item["date"]) for item in evidence if item.get("date")]
-    anchor_date = max(evidence_dates) if evidence_dates else generated.date()
-    entity_profiles = [_profile(item, evidence, generated.date(), anchor_date) for item in config.get("entities", [])]
-    technology_profiles = [_profile(item, evidence, generated.date(), anchor_date) for item in config.get("technologies", [])]
+    anchor_date = max(evidence_dates) if evidence_dates else today
+    entity_profiles = [_profile(item, evidence, today, anchor_date) for item in config.get("entities", [])]
+    technology_profiles = [_profile(item, evidence, today, anchor_date) for item in config.get("technologies", [])]
     entities = [item for item in entity_profiles if item["evidence_count"]]
     technologies = [item for item in technology_profiles if item["evidence_count"]]
     unseen_entities = [_unseen_summary(item) for item in entity_profiles if not item["evidence_count"]]
@@ -38,7 +41,7 @@ def write_entity_watch(
     coverage_summary = {status: sum(item["status"] == status for item in coverage) for status in ("covered", "disabled", "third-party", "gap")}
 
     payload = {
-        "version": 1,
+        "version": 2,
         "updated_at": generated.isoformat(),
         "entities": entities,
         "technologies": technologies,
@@ -74,7 +77,7 @@ def _read_json(path: Path) -> dict:
     return data if isinstance(data, dict) else {}
 
 
-def _signal_evidence(signals: dict) -> list[dict]:
+def _combined_evidence(signals: dict, historical: dict) -> list[dict]:
     merged: dict[str, dict] = {}
     for theme, summary in signals.get("themes", {}).items():
         for item in summary.get("evidence", []):
@@ -84,6 +87,16 @@ def _signal_evidence(signals: dict) -> list[dict]:
             existing = merged.setdefault(key, {**item, "themes": []})
             if theme not in existing["themes"]:
                 existing["themes"].append(theme)
+    for item in historical.get("items", []):
+        key = item.get("url") or item.get("key") or item.get("title")
+        if not key or key in merged:
+            continue
+        merged[key] = {
+            **item,
+            "themes": list(dict.fromkeys(str(theme) for theme in item.get("themes", []) if theme)),
+            "historical": True,
+            "alert_eligible": False,
+        }
     return list(merged.values())
 
 
@@ -93,11 +106,16 @@ def _profile(config: dict, evidence: list[dict], today: date, anchor_date: date)
     matches = [
         item
         for item in evidence
-        if _matches(names, f"{item.get('title', '')} {item.get('source', '')}")
-        or _matches(case_sensitive_names, f"{item.get('title', '')} {item.get('source', '')}", ignore_case=False)
+        if _matches(names, f"{item.get('title', '')} {item.get('summary', '')} {item.get('source', '')}")
+        or _matches(
+            case_sensitive_names,
+            f"{item.get('title', '')} {item.get('summary', '')} {item.get('source', '')}",
+            ignore_case=False,
+        )
     ]
-    matches.sort(key=lambda item: (item.get("date", ""), item.get("score", 0)), reverse=True)
-    dates = [date.fromisoformat(item["date"]) for item in matches if item.get("date")]
+    matches.sort(key=lambda item: (item.get("date") or "", item.get("score", 0)), reverse=True)
+    dates = [_safe_date(item.get("date")) for item in matches]
+    dates = [value for value in dates if value is not None]
     latest = max(dates) if dates else None
     recent_count, prior_count = _period_counts(dates, anchor_date)
     themes = sorted({theme for item in matches for theme in item.get("themes", [])})
@@ -113,8 +131,10 @@ def _profile(config: dict, evidence: list[dict], today: date, anchor_date: date)
         "recent_count": recent_count,
         "prior_count": prior_count,
         "momentum": _momentum(recent_count, prior_count),
-        "status": _status(today, latest),
+        "status": _status(today, latest, bool(matches)),
         "themes": themes,
+        "historical_evidence_count": sum(bool(item.get("historical")) for item in matches),
+        "current_evidence_count": sum(not item.get("historical") for item in matches),
         "evidence": matches[:40],
     }
 
@@ -140,11 +160,18 @@ def _momentum(recent: int, prior: int) -> str:
     return "stable"
 
 
-def _status(today: date, latest: date | None) -> str:
+def _status(today: date, latest: date | None, has_evidence: bool = False) -> str:
     if latest is None:
-        return "unseen"
+        return "documented" if has_evidence else "unseen"
     age = (today - latest).days
     return "active" if age <= 7 else "quiet" if age <= 30 else "dormant"
+
+
+def _safe_date(value) -> date | None:
+    try:
+        return date.fromisoformat(str(value))
+    except (TypeError, ValueError):
+        return None
 
 
 def _profile_sort_key(item: dict) -> tuple:
@@ -224,15 +251,23 @@ def _render(payload: dict) -> str:
         "",
     ]
     for heading, key in (("Organizations", "entities"), ("Technologies", "technologies")):
-        lines.extend([f"## {heading}", "", "| Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence |", "|---|---|---|---|---|---|---:|"])
+        lines.extend(
+            [
+                f"## {heading}",
+                "",
+                "| Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |",
+                "|---|---|---|---|---|---|---:|---:|",
+            ]
+        )
         for item in payload[key]:
             lines.append(
                 f"| {item['name']} | {momentum_icon(item['momentum'])} {item['momentum']} "
                 f"({item['recent_count']} vs {item['prior_count']}) | {priority_icon(item['priority'].upper())} {item['priority']} | "
-                f"{item['status']} | {item['first_seen']} | {item['latest_seen']} | {item['evidence_count']} |"
+                f"{item['status']} | {item['first_seen'] or 'Unknown'} | {item['latest_seen'] or 'Unknown'} | "
+                f"{item['evidence_count']} | {item.get('historical_evidence_count', 0)} |"
             )
         if not payload[key]:
-            lines.append("| No matched watch items | — | — | — | — | — | 0 |")
+            lines.append("| No matched watch items | — | — | — | — | — | 0 | 0 |")
         unseen = payload[f"unseen_{key}"]
         if unseen:
             names = ", ".join(item["name"] for item in unseen)

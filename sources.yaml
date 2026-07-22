@@ -11,6 +11,11 @@ settings:
 source_health:
   stale_after_days: 14
 
+historical_backfill:
+  lookback_days: 730
+  max_items_per_source: 25
+  include_undated: true
+
 arxiv:
   enabled: false
   max_results: 25
@@ -154,6 +159,7 @@ watch_sources:
     sitemap_urls: ["https://www.wiz.io/sitemap.xml"]
     url: "https://www.wiz.io/blog"
     include_patterns: [/blog/, quantum, cryptograph]
+    exclude_patterns: [/events/, /webinars/]
     match_patterns: [post-quantum, post quantum, quantum readiness, cryptograph]
     max_items: 25
   - name: "QCi Press Releases"

@@ -24,6 +24,9 @@ def build_dashboard(
     source_health = _read_json(reports / "source-health.json", {"sources": [], "disabled_sources": []})
     alerts = _read_json(reports / "alerts.json", {"alerts": [], "active_count": 0, "new_count": 0})
     entity_watch = _read_json(reports / "entity-watch.json", {"entities": [], "technologies": []})
+    readiness = _read_json(reports / "readiness.json", {"organizations": [], "summary": {}})
+    standards = _read_json(reports / "standards-timeline.json", {"milestones": [], "summary": {}})
+    historical = _read_json(reports / "historical-evidence.json", {"items": [], "item_count": 0})
     generated_at = datetime.now(timezone.utc).isoformat()
     payload = {
         "generated_at": generated_at,
@@ -32,6 +35,11 @@ def build_dashboard(
         "source_health": source_health,
         "alerts": alerts,
         "entity_watch": entity_watch,
+        "readiness": readiness,
+        "standards": standards,
+        "historical_evidence": {
+            key: historical.get(key) for key in ("updated_at", "lookback_days", "item_count", "dated_count", "undated_count")
+        },
         "reports": _report_links(reports, repo_url.rstrip("/")),
     }
     asset_names = ("index.html", "entity.html", "styles.css", "components.css", "app.js", "entity.js")
