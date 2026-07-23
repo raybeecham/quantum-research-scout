@@ -131,6 +131,66 @@
     {
       "confidence": "medium",
       "evidence_count": 3,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-07-22",
+      "name": "Keyfactor",
+      "priority": "high",
+      "source_count": 2,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": "2026-07-22",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "readiness"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "The Quantum Insider",
+          "title": "Keyfactor Expands Partner Program for Post-Quantum Cryptography Readiness",
+          "url": "https://thequantuminsider.com/2026/07/22/keyfactor-expands-partner-program-for-post-quantum-security"
+        },
+        {
+          "date": "2026-07-22",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Keyfactor Expands Global Partner Ecosystem to Help Partners Lead the AI and Post-Quantum Era",
+          "url": "https://www.keyfactor.com/press-releases/keyfactor-expands-global-partner-ecosystem-to-help-partners-lead-the-ai-and-post-quantum-era"
+        },
+        {
+          "date": "2026-07-06",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "The Quantum Insider",
+          "title": "Keyfactor Announces $1B+ Strategic Growth Investment to Expand Leadership in Securing Post-Quantum Enterprise",
+          "url": "https://thequantuminsider.com/2026/07/06/keyfactor-1b-growth-investment-summit-partners"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "medium",
+      "evidence_count": 3,
       "historical_evidence_count": 3,
       "latest_evidence_at": "2025-01-21",
       "name": "QuSecure",
@@ -396,36 +456,6 @@
           "source": "Quantum Zeitgeist",
           "title": "AWS Builds for Quantum Computing & Post-Quantum Security Mandates",
           "url": "https://quantumzeitgeist.com/quantum-computing-security-aws-post"
-        }
-      ],
-      "type": "company"
-    },
-    {
-      "confidence": "low",
-      "evidence_count": 1,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-07-06",
-      "name": "Keyfactor",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-07-06",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "The Quantum Insider",
-          "title": "Keyfactor Announces $1B+ Strategic Growth Investment to Expand Leadership in Securing Post-Quantum Enterprise",
-          "url": "https://thequantuminsider.com/2026/07/06/keyfactor-1b-growth-investment-summit-partners"
         }
       ],
       "type": "company"
@@ -896,15 +926,15 @@
   "summary": {
     "assessed": 10,
     "by_stage": {
-      "awareness": 5,
+      "awareness": 4,
       "inventory": 1,
       "not_assessed": 33,
       "pilot": 1,
-      "planning": 3
+      "planning": 4
     },
     "not_assessed": 33,
     "organizations": 43
   },
-  "updated_at": "2026-07-22T06:07:37.838464+00:00",
+  "updated_at": "2026-07-23T02:13:30.969063+00:00",
   "version": 1
 }

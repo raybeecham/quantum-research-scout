@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-07-22 06:07 UTC_
+_Updated 2026-07-23 02:13 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
@@ -14,6 +14,7 @@ Assessed **10 of 43** configured organizations.
 |---|---|---|---:|---:|---:|---|
 | PQShield | Pilot / Testing | low | 1 | 1 | 0 | 2026-07-03 |
 | Accenture / Accenture Federal Services | Planning | medium | 3 | 1 | 3 | 2025-01-21 |
+| Keyfactor | Planning | medium | 3 | 2 | 0 | 2026-07-22 |
 | QuSecure | Planning | medium | 3 | 1 | 3 | 2025-01-21 |
 | NIST | Planning | low | 1 | 1 | 0 | 2026-06-25 |
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
@@ -21,7 +22,6 @@ Assessed **10 of 43** configured organizations.
 | ISO/IEC | Awareness | medium | 2 | 2 | 0 | 2026-07-15 |
 | ANSSI | Awareness | low | 1 | 1 | 0 | 2026-06-23 |
 | AWS | Awareness | low | 1 | 1 | 0 | 2026-07-01 |
-| Keyfactor | Awareness | low | 1 | 1 | 0 | 2026-07-06 |
 | Atom Computing | Not assessed | none | 0 | 0 | 0 | Unknown |
 | BSI Germany | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Booz Allen Hamilton | Not assessed | none | 0 | 0 | 0 | Unknown |

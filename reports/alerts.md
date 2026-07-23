@@ -4,17 +4,17 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-22 06:07 UTC_
+_Updated 2026-07-23 02:13 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 32 | 0 | 2 | 4 | 26 |
+| 31 | 2 | 2 | 5 | 24 |
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 PQC / Crypto Agility has critical strategic importance and declining momentum.
+- 🔴 PQC / Crypto Agility has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: QEC / Fault Tolerance
@@ -29,6 +29,13 @@ _Updated 2026-07-22 06:07 UTC_
 - Severity: **high**
 - Status: **actionable**
 - 🎯 Quantum Networking is actionable with high confidence.
+- [Open supporting view](signals.md)
+
+## 🟠 Actionable signal: Quantum Sensing 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
 ## 🟠 Source degraded: PQCA Readiness Tracking
@@ -56,7 +63,14 @@ _Updated 2026-07-22 06:07 UTC_
 
 - Severity: **medium**
 - Status: **rising**
-- ↗️ Recent evidence is 13 versus 6 in the prior period.
+- ↗️ Recent evidence is 12 versus 8 in the prior period.
+- [Open supporting view](signals.md)
+
+## 🟡 Rising momentum: Quantum Sensing 🆕
+
+- Severity: **medium**
+- Status: **rising**
+- ↗️ Recent evidence is 3 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟡 Source stale: Accenture Federal Services Quantum Readiness
@@ -99,13 +113,6 @@ _Updated 2026-07-22 06:07 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2016-10-05; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Cloudflare Post-Quantum Blog
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-06-23; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: DigiCert Blog
@@ -178,13 +185,6 @@ _Updated 2026-07-22 06:07 UTC_
 - The latest dated item is from 2025-05-07; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: NIST CSRC News
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-07-06; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
 ## 🟡 Source stale: NIST Post-Quantum Cryptography Project
 
 - Severity: **medium**
@@ -204,13 +204,6 @@ _Updated 2026-07-22 06:07 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-03; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: QCi Press Releases
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-06-23; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: QuSecure Press Releases
