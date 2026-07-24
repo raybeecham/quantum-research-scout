@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-07-22",
+  "as_of_date": "2026-07-23",
   "milestones": [
     {
       "authority": "NIST",
@@ -113,7 +113,7 @@
       "configured_status": "planned",
       "date_label": "2026-07-22",
       "date_precision": "exact",
-      "days_remaining": 0,
+      "days_remaining": -1,
       "id": "federal-pqc-leads",
       "kind": "deadline",
       "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
@@ -122,7 +122,7 @@
       "technologies": [
         "Crypto-agility"
       ],
-      "timing": "due_soon",
+      "timing": "overdue",
       "title": "Federal agencies designate PQC migration leads"
     },
     {
@@ -130,7 +130,7 @@
       "configured_status": "planned",
       "date_label": "2026-10-22",
       "date_precision": "exact",
-      "days_remaining": 92,
+      "days_remaining": 91,
       "id": "federal-pqc-migration-plans",
       "kind": "deadline",
       "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf",
@@ -148,7 +148,7 @@
       "configured_status": "planned",
       "date_label": "2026-12-19",
       "date_precision": "exact",
-      "days_remaining": 150,
+      "days_remaining": 149,
       "id": "far-pqc-proposed-rule",
       "kind": "procurement",
       "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
@@ -167,7 +167,7 @@
       "configured_status": "planned",
       "date_label": "2027-03-19",
       "date_precision": "exact",
-      "days_remaining": 240,
+      "days_remaining": 239,
       "id": "cisa-cbom-minimum-elements",
       "kind": "guidance",
       "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
@@ -185,7 +185,7 @@
       "configured_status": "estimated",
       "date_label": "2027",
       "date_precision": "year",
-      "days_remaining": 527,
+      "days_remaining": 526,
       "id": "nist-hqc-final-estimate",
       "kind": "standard",
       "source_url": "https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption",
@@ -202,7 +202,7 @@
       "configured_status": "planned",
       "date_label": "2027-12-31",
       "date_precision": "exact",
-      "days_remaining": 527,
+      "days_remaining": 526,
       "id": "nist-federal-pilot-complete",
       "kind": "implementation",
       "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
@@ -221,7 +221,7 @@
       "configured_status": "planned",
       "date_label": "2030-12-31",
       "date_precision": "exact",
-      "days_remaining": 1623,
+      "days_remaining": 1622,
       "id": "federal-key-establishment-migration",
       "kind": "deadline",
       "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
@@ -239,7 +239,7 @@
       "configured_status": "planned",
       "date_label": "2031-12-31",
       "date_precision": "exact",
-      "days_remaining": 1988,
+      "days_remaining": 1987,
       "id": "federal-signature-migration",
       "kind": "deadline",
       "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
@@ -259,7 +259,7 @@
       "configured_status": "planned",
       "date_label": "2035",
       "date_precision": "year",
-      "days_remaining": 3449,
+      "days_remaining": 3448,
       "id": "federal-full-migration",
       "kind": "deadline",
       "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf",
@@ -275,31 +275,32 @@
     }
   ],
   "next_milestone": {
-    "authority": "White House / OMB",
+    "authority": "OMB / ONCD",
     "configured_status": "planned",
-    "date_label": "2026-07-22",
+    "date_label": "2026-10-22",
     "date_precision": "exact",
-    "days_remaining": 0,
-    "id": "federal-pqc-leads",
+    "days_remaining": 91,
+    "id": "federal-pqc-migration-plans",
     "kind": "deadline",
-    "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
-    "summary": "Executive Order 14412 requires each agency head to identify a PQC migration lead within 30 days.",
-    "target_date": "2026-07-22",
+    "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf",
+    "summary": "M-26-15 requires agencies to submit phased migration plans within 120 days of the memorandum.",
+    "target_date": "2026-10-22",
     "technologies": [
-      "Crypto-agility"
+      "Crypto-agility",
+      "Cryptographic inventory"
     ],
-    "timing": "due_soon",
-    "title": "Federal agencies designate PQC migration leads"
+    "timing": "upcoming",
+    "title": "Federal agency PQC migration plans due"
   },
   "summary": {
     "completed": 6,
-    "due_soon": 1,
+    "due_soon": 0,
     "estimated": 1,
     "milestones": 15,
-    "overdue": 0,
+    "overdue": 1,
     "upcoming": 7
   },
   "timezone": "America/Chicago",
-  "updated_at": "2026-07-23T02:13:30.975316+00:00",
+  "updated_at": "2026-07-24T02:10:22.613324+00:00",
   "version": 1
 }

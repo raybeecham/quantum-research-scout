@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-07-23 02:13 UTC_
+_Updated 2026-07-24 02:10 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
@@ -12,7 +12,7 @@ Assessed **10 of 43** configured organizations.
 
 | Organization | Observed stage | Confidence | PQC evidence | Sources | Historical | Latest dated evidence |
 |---|---|---|---:|---:|---:|---|
-| PQShield | Pilot / Testing | low | 1 | 1 | 0 | 2026-07-03 |
+| PQShield | Pilot / Testing | medium | 2 | 1 | 0 | 2026-07-23 |
 | Accenture / Accenture Federal Services | Planning | medium | 3 | 1 | 3 | 2025-01-21 |
 | Keyfactor | Planning | medium | 3 | 2 | 0 | 2026-07-22 |
 | QuSecure | Planning | medium | 3 | 1 | 3 | 2025-01-21 |

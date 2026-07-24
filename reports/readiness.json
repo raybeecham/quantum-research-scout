@@ -37,10 +37,10 @@
   },
   "organizations": [
     {
-      "confidence": "low",
-      "evidence_count": 1,
+      "confidence": "medium",
+      "evidence_count": 2,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-07-03",
+      "latest_evidence_at": "2026-07-23",
       "name": "PQShield",
       "priority": "high",
       "source_count": 1,
@@ -62,6 +62,21 @@
           "source": "PQShield",
           "title": "Why crypto-agility requires real governance Eric Amador explains how pqctoday.com uses AI and WebAssembly to remove friction from testing quantum-safe algorithms. Learn how different organizational personas can map out global migration timelines and prepare for upcoming compliance mandates.",
           "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
+        },
+        {
+          "date": "2026-07-23",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "readiness"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "PQShield",
+          "title": "EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.",
+          "url": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness"
         }
       ],
       "type": "company"
@@ -935,6 +950,6 @@
     "not_assessed": 33,
     "organizations": 43
   },
-  "updated_at": "2026-07-23T02:13:30.969063+00:00",
+  "updated_at": "2026-07-24T02:10:22.607090+00:00",
   "version": 1
 }

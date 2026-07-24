@@ -4,17 +4,25 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-23 02:13 UTC_
+_Updated 2026-07-24 02:10 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 31 | 2 | 2 | 5 | 24 |
+| 31 | 3 | 3 | 6 | 22 |
+
+## 🔴 Acquisition: IBM 🆕
+
+- Severity: **critical**
+- Status: **acquisition**
+- IBM matched a acquisition event: IBM to Acquire HRL Laboratories to Expand Quantum Roadmap with Silicon-Spin Qubits
+- [Open direct evidence](https://quantumcomputingreport.com/ibm-to-acquire-hrl-laboratories-to-expand-quantum-roadmap-with-silicon-spin-qubits)
+- [Open supporting view](entity-watch.md)
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 PQC / Crypto Agility has critical strategic importance and stable momentum.
+- 🔴 PQC / Crypto Agility has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: QEC / Fault Tolerance
@@ -24,19 +32,20 @@ _Updated 2026-07-23 02:13 UTC_
 - 🔴 QEC / Fault Tolerance has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Networking
-
-- Severity: **high**
-- Status: **actionable**
-- 🎯 Quantum Networking is actionable with high confidence.
-- [Open supporting view](signals.md)
-
-## 🟠 Actionable signal: Quantum Sensing 🆕
+## 🟠 Actionable signal: Quantum Sensing
 
 - Severity: **high**
 - Status: **actionable**
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
+
+## 🟠 Product Launch: IBM 🆕
+
+- Severity: **high**
+- Status: **product-launch**
+- IBM matched a product launch event: Quantum Elements Launches Orbit Error Suppression Tool Through IBM Qiskit Platform
+- [Open direct evidence](https://thequantuminsider.com/2026/07/23/quantum-elements-orbit-error-suppression-tool-qiskit)
+- [Open supporting view](entity-watch.md)
 
 ## 🟠 Source degraded: PQCA Readiness Tracking
 
@@ -49,28 +58,29 @@ _Updated 2026-07-23 02:13 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 100.0% reliability with 2 warning day(s).
+- 🟠 100.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 100.0% reliability with 2 warning day(s).
+- 🟠 100.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟡 Rising momentum: Quantum Networking
+## 🟠 Standard: PQShield 🆕
+
+- Severity: **high**
+- Status: **standard**
+- PQShield matched a standard event: EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.
+- [Open direct evidence](https://pqshield.com/eudi-wallet-security-and-quantum-readiness)
+- [Open supporting view](entity-watch.md)
+
+## 🟡 Rising momentum: Quantum Sensing
 
 - Severity: **medium**
 - Status: **rising**
-- ↗️ Recent evidence is 12 versus 8 in the prior period.
-- [Open supporting view](signals.md)
-
-## 🟡 Rising momentum: Quantum Sensing 🆕
-
-- Severity: **medium**
-- Status: **rising**
-- ↗️ Recent evidence is 3 versus 2 in the prior period.
+- ↗️ Recent evidence is 4 versus 1 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟡 Source stale: Accenture Federal Services Quantum Readiness
@@ -197,13 +207,6 @@ _Updated 2026-07-23 02:13 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-11; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: PQShield
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-07-03; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: QuSecure Press Releases
