@@ -2,9 +2,9 @@ name: Weekly PQC Quantum Research Synthesis
 
 on:
   schedule:
-    # UTC schedule: 01:00 Monday.
-    # Intended local schedule: Sunday night after the daily 7:00 PM US Central run during daylight saving time.
-    - cron: "0 1 * * 1"
+    # Run at both possible 8:00 AM America/Chicago UTC offsets; the schedule gate
+    # admits only the execution whose local hour is 08.
+    - cron: "0 13,14 * * 5"
   workflow_dispatch:
 
 env:
@@ -12,8 +12,25 @@ env:
   TZ: America/Chicago
 
 jobs:
+  schedule-gate:
+    name: Check Friday 8 AM Central window
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.window.outputs.should_run }}
+    steps:
+      - name: Resolve local schedule window
+        id: window
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(date +%u-%H)" = "5-08" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
   weekly-synthesis:
     name: Generate weekly synthesis
+    needs: schedule-gate
+    if: needs.schedule-gate.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -30,8 +47,28 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Restore research database cache
+        uses: actions/cache@v5
+        with:
+          path: data/research_items.sqlite
+          key: pqc-quantum-research-db-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            pqc-quantum-research-db-${{ runner.os }}-
+
       - name: Install agent
         run: python -m pip install .
+
+      - name: Capture Friday morning intelligence
+        env:
+          REPORTS_DIR: ${{ github.workspace }}/reports
+        run: |
+          mkdir -p "$REPORTS_DIR"
+          pqc-quantum-research-agent \
+            --config sources.yaml \
+            --db data/research_items.sqlite \
+            --reports-dir "$REPORTS_DIR" \
+            --date "$(date +%F)" \
+            --coverage-end-time "08:00"
 
       - name: Generate weekly synthesis
         env:
@@ -47,7 +84,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A reports/weekly reports/README.md
+          git add -A reports
           if git diff --cached --quiet; then
             echo "No weekly report changes to commit"
           else
@@ -62,4 +99,11 @@ jobs:
           path: |
             reports/weekly/*-weekly.md
             reports/weekly/*/*-weekly.md
+          if-no-files-found: error
+
+      - name: Upload SQLite database
+        uses: actions/upload-artifact@v7
+        with:
+          name: pqc-quantum-weekly-snapshot-db
+          path: data/research_items.sqlite
           if-no-files-found: error

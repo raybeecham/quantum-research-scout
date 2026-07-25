@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import re
 import time
 import xml.etree.ElementTree as ET
 from collections.abc import Callable
@@ -162,6 +163,22 @@ def collect_rss_feeds(
         collected = _collect_feed(client, name, "rss", url, int(feed.get("max_items", max_items_per_source)))
         result.items.extend(collected.items)
         result.warnings.extend(collected.warnings)
+        supplemental_urls = _string_list(
+            feed.get("supplemental_sitemap_urls") or feed.get("supplemental_sitemap_url")
+        )
+        for sitemap_url in supplemental_urls:
+            supplemental = _collect_watch_sitemap(
+                client,
+                name,
+                sitemap_url,
+                feed,
+                int(feed.get("sitemap_max_items", feed.get("max_items", max_items_per_source))),
+            )
+            if supplemental.items:
+                _tag_watch_items(supplemental.items, feed, "supplemental_sitemap")
+                result.items.extend(supplemental.items)
+            elif not collected.items:
+                result.warnings.extend(supplemental.warnings)
     LOGGER.info("Collected %d RSS candidates", len(result.items))
     return result
 
@@ -310,12 +327,12 @@ def _collect_watch_sitemap(
 
     page_entries = _sitemap_page_entries(root)
     if _xml_local_name(root.tag) == "sitemapindex":
-        child_urls = [loc for loc, _ in page_entries]
+        child_entries = sorted(page_entries, key=_sitemap_child_sort_key, reverse=True)
         page_entries = []
         child_patterns = _string_list(source.get("sitemap_include_patterns"))
         if child_patterns:
-            child_urls = [url for url in child_urls if _matches_any(url, child_patterns)]
-        for child_url in child_urls[: int(source.get("max_sitemaps", 6))]:
+            child_entries = [entry for entry in child_entries if _matches_any(entry[0], child_patterns)]
+        for child_url, _ in child_entries[: int(source.get("max_sitemaps", 6))]:
             try:
                 child_text, _ = client.get_text(child_url)
                 child_root = ET.fromstring(child_text.encode("utf-8"))
@@ -438,6 +455,14 @@ def _sitemap_page_entries(root: ET.Element) -> list[tuple[str, str]]:
         if loc:
             entries.append((loc, lastmod))
     return entries
+
+
+def _sitemap_child_sort_key(entry: tuple[str, str]) -> tuple[str, int, str]:
+    url, last_modified = entry
+    filename = urlsplit(url).path.rsplit("/", 1)[-1]
+    shard_numbers = re.findall(r"(\d+)", filename)
+    shard_number = int(shard_numbers[-1]) if shard_numbers else 0
+    return last_modified, shard_number, url
 
 
 def _xml_local_name(tag: str) -> str:

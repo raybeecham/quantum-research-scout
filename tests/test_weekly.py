@@ -23,7 +23,7 @@ class WeeklyReportTests(unittest.TestCase):
         start, end = resolve_week_range(generated_at=generated_at)
 
         self.assertEqual(start, date(2026, 5, 11))
-        self.assertEqual(end, date(2026, 5, 17))
+        self.assertEqual(end, date(2026, 5, 15))
 
     def test_america_chicago_week_boundary_behavior(self) -> None:
         sunday_central = datetime(2026, 5, 18, 4, 30, tzinfo=timezone.utc)
@@ -32,8 +32,8 @@ class WeeklyReportTests(unittest.TestCase):
         sunday_start, sunday_end = resolve_week_range(generated_at=sunday_central)
         monday_start, monday_end = resolve_week_range(generated_at=monday_central)
 
-        self.assertEqual((sunday_start, sunday_end), (date(2026, 5, 11), date(2026, 5, 17)))
-        self.assertEqual((monday_start, monday_end), (date(2026, 5, 18), date(2026, 5, 24)))
+        self.assertEqual((sunday_start, sunday_end), (date(2026, 5, 11), date(2026, 5, 15)))
+        self.assertEqual((monday_start, monday_end), (date(2026, 5, 18), date(2026, 5, 22)))
 
     def test_explicit_week_start_and_end_are_used(self) -> None:
         start, end = resolve_week_range(week_start=date(2026, 5, 4), week_end=date(2026, 5, 10))
@@ -60,7 +60,7 @@ class WeeklyReportTests(unittest.TestCase):
                 generated_at=datetime(2026, 5, 18, 15, 0, tzinfo=timezone.utc),
             )
 
-        self.assertEqual((start, end), (date(2026, 5, 11), date(2026, 5, 17)))
+        self.assertEqual((start, end), (date(2026, 5, 11), date(2026, 5, 15)))
 
     def test_default_weekly_range_uses_current_week_when_reports_exist(self) -> None:
         with TemporaryDirectory() as reports_dir:
@@ -81,7 +81,7 @@ class WeeklyReportTests(unittest.TestCase):
                 generated_at=datetime(2026, 5, 18, 15, 0, tzinfo=timezone.utc),
             )
 
-        self.assertEqual((start, end), (date(2026, 5, 18), date(2026, 5, 24)))
+        self.assertEqual((start, end), (date(2026, 5, 18), date(2026, 5, 22)))
 
     def test_default_weekly_range_finds_monthly_daily_reports(self) -> None:
         with TemporaryDirectory() as reports_dir:
@@ -104,7 +104,7 @@ class WeeklyReportTests(unittest.TestCase):
                 generated_at=datetime(2026, 5, 18, 15, 0, tzinfo=timezone.utc),
             )
 
-        self.assertEqual((start, end), (date(2026, 5, 18), date(2026, 5, 24)))
+        self.assertEqual((start, end), (date(2026, 5, 18), date(2026, 5, 22)))
 
     def test_write_weekly_report_defaults_to_latest_populated_week(self) -> None:
         with TemporaryDirectory() as reports_dir:
@@ -125,7 +125,7 @@ class WeeklyReportTests(unittest.TestCase):
                 generated_at=datetime(2026, 5, 18, 15, 0, tzinfo=timezone.utc),
             )
 
-        self.assertEqual(output_path.name, "2026-05-11_to_2026-05-17-weekly.md")
+        self.assertEqual(output_path.name, "2026-05-11_to_2026-05-15-weekly.md")
         self.assertEqual(output_path.parent.name, "2026")
         self.assertEqual(output_path.parent.parent.name, "weekly")
 

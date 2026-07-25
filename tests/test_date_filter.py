@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import unittest
-from datetime import date, datetime, timezone
+from datetime import date, datetime, time, timezone
 
 from pqc_quantum_research_agent.date_filter import (
     EXCLUDED_FUTURE,
@@ -58,6 +58,27 @@ def item(title: str, published_at: datetime | None) -> ResearchItem:
 
 
 class DateFilterTests(unittest.TestCase):
+    def test_fixed_central_coverage_end_is_exact_across_runner_delay(self) -> None:
+        start_at, end_at = build_coverage_window(
+            generated_at=datetime(2026, 7, 17, 13, 12, tzinfo=timezone.utc),
+            target_date=date(2026, 7, 17),
+            explicit_target_date=True,
+            coverage_end_time=time(8, 0),
+        )
+
+        self.assertEqual(start_at, datetime(2026, 7, 17, 5, 0, tzinfo=timezone.utc))
+        self.assertEqual(end_at, datetime(2026, 7, 17, 13, 0, tzinfo=timezone.utc))
+
+        winter_start, winter_end = build_coverage_window(
+            generated_at=datetime(2026, 1, 16, 14, 9, tzinfo=timezone.utc),
+            target_date=date(2026, 1, 16),
+            explicit_target_date=True,
+            coverage_end_time=time(8, 0),
+        )
+
+        self.assertEqual(winter_start, datetime(2026, 1, 16, 6, 0, tzinfo=timezone.utc))
+        self.assertEqual(winter_end, datetime(2026, 1, 16, 14, 0, tzinfo=timezone.utc))
+
     def test_item_published_today_is_included_by_default(self) -> None:
         today = item("today", datetime(2026, 5, 13, 12, 0, tzinfo=timezone.utc))
 

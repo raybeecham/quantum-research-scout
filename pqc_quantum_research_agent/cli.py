@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 import logging
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, time, timezone
 from pathlib import Path
 
 from .classifier import classify_item
@@ -61,6 +61,11 @@ def build_parser() -> argparse.ArgumentParser:
         type=float,
         default=None,
         help="Optional rolling coverage window length in hours. By default, use Central midnight to runtime.",
+    )
+    parser.add_argument(
+        "--coverage-end-time",
+        default=None,
+        help="Optional America/Chicago cutoff in HH:MM format for the operational report date.",
     )
     parser.add_argument(
         "--include-undated",
@@ -183,12 +188,14 @@ def main(argv: list[str] | None = None) -> int:
 
     generated_at = datetime.now(timezone.utc)
     target_date = _parse_target_date(args.date) if args.date else operational_today(generated_at)
+    coverage_end_time = _parse_coverage_end_time(args.coverage_end_time) if args.coverage_end_time else None
     try:
         coverage_start_at, coverage_end_at = build_coverage_window(
             generated_at=generated_at,
             target_date=target_date,
             lookback_hours=args.lookback_hours,
             explicit_target_date=args.date is not None,
+            coverage_end_time=coverage_end_time,
         )
     except ValueError as exc:
         raise SystemExit(str(exc)) from exc
@@ -196,7 +203,13 @@ def main(argv: list[str] | None = None) -> int:
         "Collecting sources for operational report date %s (%s), coverage mode %s",
         target_date.isoformat(),
         OPERATIONAL_TIMEZONE_NAME,
-        f"rolling {args.lookback_hours:g}h" if args.lookback_hours is not None else "Central day to runtime",
+        (
+            f"Central day through {coverage_end_time.strftime('%H:%M')}"
+            if coverage_end_time is not None
+            else f"rolling {args.lookback_hours:g}h"
+            if args.lookback_hours is not None
+            else "Central day to runtime"
+        ),
     )
     collection = collect_all(config)
     candidates = collection.items
@@ -332,6 +345,13 @@ def _parse_target_date(value: str):
         return datetime.strptime(value, "%Y-%m-%d").date()
     except ValueError as exc:
         raise SystemExit(f"Invalid --date value {value!r}; expected YYYY-MM-DD.") from exc
+
+
+def _parse_coverage_end_time(value: str) -> time:
+    try:
+        return datetime.strptime(value, "%H:%M").time()
+    except ValueError as exc:
+        raise SystemExit(f"Invalid --coverage-end-time value {value!r}; expected HH:MM.") from exc
 
 
 if __name__ == "__main__":

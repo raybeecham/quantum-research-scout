@@ -2,8 +2,9 @@ from __future__ import annotations
 
 import unittest
 
-from pqc_quantum_research_agent.classifier import classify_item
+from pqc_quantum_research_agent.classifier import GOVERNMENT_PRIORITY_SCORE, classify_item
 from pqc_quantum_research_agent.models import ResearchItem
+from pqc_quantum_research_agent.report import is_report_relevant
 
 
 class ClassifierTests(unittest.TestCase):
@@ -104,6 +105,36 @@ class ClassifierTests(unittest.TestCase):
         self.assertIn("topic_confidence=0", item.score_explanation)
         self.assertIn("source_weight=0", item.score_explanation)
         self.assertNotIn("trusted institution boost", item.score_explanation)
+
+    def test_white_house_quantum_strategy_is_highest_priority_and_report_relevant(self) -> None:
+        item = classify_item(
+            ResearchItem(
+                source_name="The Quantum Insider",
+                source_type="watch",
+                title="New White House Science Strategy Points to a Quantum-Style Innovation Model",
+                url="https://thequantuminsider.com/2026/07/23/white-house-quantum-strategy/",
+                summary="",
+            )
+        )
+
+        self.assertEqual(item.category, "Standards / Policy")
+        self.assertGreaterEqual(item.score, GOVERNMENT_PRIORITY_SCORE)
+        self.assertIn("government_priority=true", item.score_explanation)
+        self.assertTrue(is_report_relevant(item))
+
+    def test_third_party_government_quantum_news_gets_priority_floor(self) -> None:
+        item = classify_item(
+            ResearchItem(
+                source_name="Independent Quantum News",
+                source_type="rss",
+                title="Regional government funds a new quantum network",
+                url="https://example.com/government-quantum-network",
+                summary="The program will build quantum communication links and repeater infrastructure.",
+            )
+        )
+
+        self.assertGreaterEqual(item.score, GOVERNMENT_PRIORITY_SCORE)
+        self.assertIn("government_priority=true", item.score_explanation)
 
     def test_source_label_does_not_create_topical_relevance(self) -> None:
         item = classify_item(

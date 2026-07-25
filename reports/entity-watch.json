@@ -83,7 +83,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 8,
+      "evidence_count": 7,
       "first_party_evidence_count": 0,
       "name": "Infleqtion",
       "priority": "medium",
@@ -353,7 +353,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 11,
+      "evidence_count": 9,
       "first_party_evidence_count": 0,
       "name": "IBM",
       "priority": "high",
@@ -762,32 +762,8 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 11,
+      "current_evidence_count": 9,
       "evidence": [
-        {
-          "date": "2026-07-23",
-          "key": "https://thequantuminsider.com/2026/07/23/quantum-elements-orbit-error-suppression-tool-qiskit",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 59,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "Quantum Elements Launches Orbit Error Suppression Tool Through IBM Qiskit Platform",
-          "url": "https://thequantuminsider.com/2026/07/23/quantum-elements-orbit-error-suppression-tool-qiskit"
-        },
-        {
-          "date": "2026-07-23",
-          "key": "https://quantumcomputingreport.com/ibm-to-acquire-hrl-laboratories-to-expand-quantum-roadmap-with-silicon-spin-qubits",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 30,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IBM to Acquire HRL Laboratories to Expand Quantum Roadmap with Silicon-Spin Qubits",
-          "url": "https://quantumcomputingreport.com/ibm-to-acquire-hrl-laboratories-to-expand-quantum-roadmap-with-silicon-spin-qubits"
-        },
         {
           "date": "2026-07-20",
           "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
@@ -897,15 +873,15 @@
           "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
         }
       ],
-      "evidence_count": 11,
+      "evidence_count": 9,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-23",
-      "momentum": "stable",
+      "latest_seen": "2026-07-20",
+      "momentum": "declining",
       "name": "IBM",
       "prior_count": 4,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -1818,28 +1794,16 @@
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 8,
+      "current_evidence_count": 7,
       "evidence": [
-        {
-          "date": "2026-07-23",
-          "key": "https://quantumzeitgeist.com/logical-qubits-infleqtions-sqale",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 167,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Infleqtion\u2019s Sqale System Targets 100 Logical Qubits for Fault Tolerance",
-          "url": "https://quantumzeitgeist.com/logical-qubits-infleqtions-sqale"
-        },
         {
           "date": "2026-07-23",
           "key": "https://thequantuminsider.com/2026/07/23/infleqtion-neutral-atom-quantum-computer-illinois",
           "report": "2026-07/2026-07-23-digest.md",
-          "score": 93,
+          "score": 82,
           "source": "The Quantum Insider",
           "themes": [
-            "Quantum Sensing"
+            "Quantum Hardware"
           ],
           "title": "Infleqtion to Deploy Neutral-Atom Quantum Computer at Illinois Quantum Park in 2027",
           "url": "https://thequantuminsider.com/2026/07/23/infleqtion-neutral-atom-quantum-computer-illinois"
@@ -1917,7 +1881,7 @@
           "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
         }
       ],
-      "evidence_count": 8,
+      "evidence_count": 7,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-07-23",
@@ -1925,10 +1889,9 @@
       "name": "Infleqtion",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 5,
+      "recent_count": 4,
       "status": "active",
       "themes": [
-        "QEC / Fault Tolerance",
         "Quantum Hardware",
         "Quantum Sensing"
       ],
@@ -2016,20 +1979,8 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 16,
+      "current_evidence_count": 15,
       "evidence": [
-        {
-          "date": "2026-07-23",
-          "key": "https://quantumcomputingreport.com/rice-university-joins-doe-quantum-science-center-to-advance-real-time-quantum-error-correction",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 89,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Rice University Joins DOE Quantum Science Center to Advance Real-Time Quantum Error Correction",
-          "url": "https://quantumcomputingreport.com/rice-university-joins-doe-quantum-science-center-to-advance-real-time-quantum-error-correction"
-        },
         {
           "date": "2026-07-22",
           "key": "https://thequantuminsider.com/2026/07/22/rice-university-doe-quantum-error-correction-research",
@@ -2211,15 +2162,15 @@
           "url": "https://quantumzeitgeist.com/what-is-the-surface-code"
         }
       ],
-      "evidence_count": 16,
+      "evidence_count": 15,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-23",
+      "latest_seen": "2026-07-22",
       "momentum": "declining",
       "name": "Quantum error correction",
       "prior_count": 6,
       "priority": "critical",
-      "recent_count": 4,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "AI Security",
@@ -2234,20 +2185,8 @@
         "fault-tolerant quantum"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 10,
+      "current_evidence_count": 9,
       "evidence": [
-        {
-          "date": "2026-07-23",
-          "key": "https://quantumzeitgeist.com/logical-qubits-infleqtions-sqale",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 167,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Infleqtion\u2019s Sqale System Targets 100 Logical Qubits for Fault Tolerance",
-          "url": "https://quantumzeitgeist.com/logical-qubits-infleqtions-sqale"
-        },
         {
           "date": "2026-07-14",
           "key": "https://quantumzeitgeist.com/pan-colleagues-hierarchical-logical-processor-fault-tolerant-quantum",
@@ -2357,16 +2296,16 @@
           "url": "https://quantumzeitgeist.com/logical-qubits-error-correction"
         }
       ],
-      "evidence_count": 10,
+      "evidence_count": 9,
       "first_seen": "2026-06-30",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-23",
+      "latest_seen": "2026-07-14",
       "momentum": "declining",
       "name": "Logical qubits",
       "prior_count": 2,
       "priority": "critical",
-      "recent_count": 1,
-      "status": "active",
+      "recent_count": 0,
+      "status": "quiet",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -2514,8 +2453,20 @@
         "Dilithium"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 1,
+      "current_evidence_count": 2,
       "evidence": [
+        {
+          "date": "2026-07-23",
+          "key": "https://arxiv.org/abs/2603.22109",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 122,
+          "source": "arXiv RSS cs.CR",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "TALUS: FIPS-204-Exact Threshold ML-DSA via Boundary Clearance",
+          "url": "https://arxiv.org/abs/2603.22109"
+        },
         {
           "date": "2026-06-29",
           "key": "https://eprint.iacr.org/2026/1333",
@@ -2529,16 +2480,16 @@
           "url": "https://eprint.iacr.org/2026/1333"
         }
       ],
-      "evidence_count": 1,
+      "evidence_count": 2,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-06-29",
-      "momentum": "stable",
+      "latest_seen": "2026-07-23",
+      "momentum": "rising",
       "name": "ML-DSA",
       "prior_count": 0,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -2551,8 +2502,32 @@
       "case_sensitive_aliases": [
         "QKD"
       ],
-      "current_evidence_count": 6,
+      "current_evidence_count": 8,
       "evidence": [
+        {
+          "date": "2026-07-23",
+          "key": "https://arxiv.org/abs/2607.20840",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 63,
+          "source": "arXiv RSS quant-ph",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Discrete-modulated continuous-variable quantum key distribution with uncertainty principle",
+          "url": "https://arxiv.org/abs/2607.20840"
+        },
+        {
+          "date": "2026-07-23",
+          "key": "https://arxiv.org/abs/2607.20664",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 45,
+          "source": "arXiv RSS quant-ph",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Finite Key Underwater Quantum Key Distribution: Performance Analysis and Improvements",
+          "url": "https://arxiv.org/abs/2607.20664"
+        },
         {
           "date": "2026-07-22",
           "key": "https://quantumzeitgeist.com/quiin-cv-qkd-decoding-fixed-point",
@@ -2626,15 +2601,15 @@
           "url": "https://thequantuminsider.com/2026/06/29/wimi-neural-networks-dual-field-quantum-key-distribution-optimization"
         }
       ],
-      "evidence_count": 6,
+      "evidence_count": 8,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-22",
-      "momentum": "declining",
+      "latest_seen": "2026-07-23",
+      "momentum": "rising",
       "name": "Quantum key distribution",
       "prior_count": 2,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -2648,8 +2623,20 @@
         "entanglement distribution"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 1,
+      "current_evidence_count": 2,
       "evidence": [
+        {
+          "date": "2026-07-23",
+          "key": "https://arxiv.org/abs/2607.21093",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 77,
+          "source": "arXiv RSS quant-ph",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Picosecond-resolved entanglement distribution over an urban free-space channel",
+          "url": "https://arxiv.org/abs/2607.21093"
+        },
         {
           "date": "2026-07-16",
           "key": "https://thequantuminsider.com/2026/07/16/arq-raises-1-4-million-pre-seed-round-to-lay-the-foundations-for-the-quantum-internet",
@@ -2663,16 +2650,16 @@
           "url": "https://thequantuminsider.com/2026/07/16/arq-raises-1-4-million-pre-seed-round-to-lay-the-foundations-for-the-quantum-internet"
         }
       ],
-      "evidence_count": 1,
+      "evidence_count": 2,
       "first_seen": "2026-07-16",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-16",
-      "momentum": "declining",
+      "latest_seen": "2026-07-23",
+      "momentum": "stable",
       "name": "Quantum networking",
       "prior_count": 1,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Networking"
       ],
@@ -3101,6 +3088,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-07-25T02:09:57.865826+00:00",
+  "updated_at": "2026-07-25T02:48:07.739275+00:00",
   "version": 2
 }

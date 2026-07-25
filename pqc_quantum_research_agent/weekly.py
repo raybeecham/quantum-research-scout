@@ -281,13 +281,13 @@ def resolve_week_range(
             raise ValueError("week_end must be on or after week_start")
         return week_start, week_end
     if week_start and not week_end:
-        return week_start, week_start + timedelta(days=6)
+        return week_start, week_start + timedelta(days=4)
     if week_end and not week_start:
-        return week_end - timedelta(days=6), week_end
+        return week_end - timedelta(days=4), week_end
 
     today = operational_today(generated_at or datetime.now(timezone.utc))
     monday = today - timedelta(days=today.weekday())
-    return monday, monday + timedelta(days=6)
+    return monday, monday + timedelta(days=4)
 
 
 def write_weekly_report(
@@ -341,7 +341,7 @@ def resolve_week_range_for_reports(
         return current_start, current_end
 
     latest_week_start = latest_report_date - timedelta(days=latest_report_date.weekday())
-    return latest_week_start, latest_week_start + timedelta(days=6)
+    return latest_week_start, latest_week_start + timedelta(days=4)
 
 
 def _has_daily_reports(reports_dir: Path, start_date: date, end_date: date) -> bool:

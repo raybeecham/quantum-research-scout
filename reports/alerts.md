@@ -4,19 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-25 02:09 UTC_
+_Updated 2026-07-25 02:48 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 33 | 3 | 3 | 7 | 23 |
-
-## 🔴 Acquisition: IBM
-
-- Severity: **critical**
-- Status: **acquisition**
-- IBM matched a acquisition event: IBM to Acquire HRL Laboratories to Expand Quantum Roadmap with Silicon-Spin Qubits
-- [Open direct evidence](https://quantumcomputingreport.com/ibm-to-acquire-hrl-laboratories-to-expand-quantum-roadmap-with-silicon-spin-qubits)
-- [Open supporting view](entity-watch.md)
+| 36 | 5 | 3 | 9 | 24 |
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
@@ -29,10 +21,24 @@ _Updated 2026-07-25 02:09 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 QEC / Fault Tolerance has critical strategic importance and stable momentum.
+- 🔴 QEC / Fault Tolerance has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Hardware 🆕
+## 🔴 Critical theme: Standards / Government 🆕
+
+- Severity: **critical**
+- Status: **critical**
+- 🔴 Standards / Government has critical strategic importance and rising momentum.
+- [Open supporting view](signals.md)
+
+## 🟠 Actionable signal: AI Security 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 AI Security is actionable with high confidence.
+- [Open supporting view](signals.md)
+
+## 🟠 Actionable signal: Quantum Hardware
 
 - Severity: **high**
 - Status: **actionable**
@@ -46,13 +52,19 @@ _Updated 2026-07-25 02:09 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Product Launch: IBM
+## 🟠 Actionable signal: Standards / Government 🆕
 
 - Severity: **high**
-- Status: **product-launch**
-- IBM matched a product launch event: Quantum Elements Launches Orbit Error Suppression Tool Through IBM Qiskit Platform
-- [Open direct evidence](https://thequantuminsider.com/2026/07/23/quantum-elements-orbit-error-suppression-tool-qiskit)
-- [Open supporting view](entity-watch.md)
+- Status: **actionable**
+- 🎯 Standards / Government is actionable with medium confidence.
+- [Open supporting view](signals.md)
+
+## 🟠 Rising momentum: Standards / Government 🆕
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 2 versus 0 in the prior period.
+- [Open supporting view](signals.md)
 
 ## 🟠 Source degraded: PQCA Readiness Tracking
 
@@ -83,7 +95,14 @@ _Updated 2026-07-25 02:09 UTC_
 - [Open direct evidence](https://pqshield.com/eudi-wallet-security-and-quantum-readiness)
 - [Open supporting view](entity-watch.md)
 
-## 🟡 Rising momentum: Quantum Hardware 🆕
+## 🟡 Rising momentum: AI Security 🆕
+
+- Severity: **medium**
+- Status: **rising**
+- ↗️ Recent evidence is 6 versus 3 in the prior period.
+- [Open supporting view](signals.md)
+
+## 🟡 Rising momentum: Quantum Hardware
 
 - Severity: **medium**
 - Status: **rising**
@@ -94,7 +113,7 @@ _Updated 2026-07-25 02:09 UTC_
 
 - Severity: **medium**
 - Status: **rising**
-- ↗️ Recent evidence is 4 versus 1 in the prior period.
+- ↗️ Recent evidence is 3 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟡 Source stale: Accenture Federal Services Quantum Readiness
@@ -139,7 +158,7 @@ _Updated 2026-07-25 02:09 UTC_
 - The latest dated item is from 2016-10-05; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Cloudflare Post-Quantum Blog 🆕
+## 🟡 Source stale: Cloudflare Post-Quantum Blog
 
 - Severity: **medium**
 - Status: **stale**

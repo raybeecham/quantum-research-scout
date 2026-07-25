@@ -68,37 +68,55 @@
         },
         {
           "date": "2026-07-21",
-          "key": "https://arxiv.org/abs/2607.18496",
-          "report": "2026-07/2026-07-21-digest.md",
-          "score": 52,
-          "source": "arXiv RSS cs.CR",
-          "title": "Towards an Automated Test of LLM Security Knowledge",
-          "url": "https://arxiv.org/abs/2607.18496"
-        },
-        {
-          "date": "2026-07-21",
           "key": "https://arxiv.org/abs/2607.18622",
           "report": "2026-07/2026-07-21-digest.md",
           "score": 64,
           "source": "arXiv RSS cs.CR",
           "title": "CPInj: Uncovering Prompt Injection Risks in Textual Collaborative Prompt Optimization",
           "url": "https://arxiv.org/abs/2607.18622"
+        },
+        {
+          "date": "2026-07-23",
+          "key": "https://arxiv.org/abs/2607.18496",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 52,
+          "source": "arXiv RSS cs.CR",
+          "title": "Towards an Automated Test of LLM Security Knowledge",
+          "url": "https://arxiv.org/abs/2607.18496"
+        },
+        {
+          "date": "2026-07-23",
+          "key": "https://arxiv.org/abs/2607.13093",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 53,
+          "source": "arXiv RSS cs.CR",
+          "title": "Efficient and Privacy Aware Edge Cloud Collaborative Inference for Large Language Models",
+          "url": "https://arxiv.org/abs/2607.13093"
+        },
+        {
+          "date": "2026-07-23",
+          "key": "https://arxiv.org/abs/2603.13026",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 57,
+          "source": "arXiv RSS cs.CR",
+          "title": "PISmith: Reinforcement Learning-based Red Teaming for Prompt Injection Defenses",
+          "url": "https://arxiv.org/abs/2603.13026"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "high",
-      "latest_seen": "2026-07-21",
-      "momentum": "stable",
+      "latest_seen": "2026-07-23",
+      "momentum": "rising",
       "organizations": [
-        "Quantum Zeitgeist",
         "arXiv RSS cs.CR",
+        "Quantum Zeitgeist",
         "QuantumNews.ai",
         "The Quantum Insider"
       ],
-      "prior_count": 4,
-      "recent_count": 4,
-      "status": "watching"
+      "prior_count": 3,
+      "recent_count": 6,
+      "status": "actionable"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -644,6 +662,42 @@
           "url": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness"
         },
         {
+          "date": "2026-07-23",
+          "key": "https://eprint.iacr.org/2026/1508",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 74,
+          "source": "IACR ePrint",
+          "title": "ZKPoSP: Post-Quantum Zero-Knowledge Proofs for Hierarchical Deterministic Wallets",
+          "url": "https://eprint.iacr.org/2026/1508"
+        },
+        {
+          "date": "2026-07-23",
+          "key": "https://arxiv.org/abs/2607.20800",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 75,
+          "source": "arXiv RSS cs.CR",
+          "title": "Classical Acceptance Is Not Hybrid Authentication: Measuring X.509 Verifier Semantics in Post-Quantum Migration",
+          "url": "https://arxiv.org/abs/2607.20800"
+        },
+        {
+          "date": "2026-07-23",
+          "key": "https://eprint.iacr.org/2026/1506",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 107,
+          "source": "IACR ePrint",
+          "title": "SM4th and uBlockith: VOLE-based Post-Quantum Signature Schemes from Chinese Block Ciphers",
+          "url": "https://eprint.iacr.org/2026/1506"
+        },
+        {
+          "date": "2026-07-23",
+          "key": "https://arxiv.org/abs/2603.22109",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 122,
+          "source": "arXiv RSS cs.CR",
+          "title": "TALUS: FIPS-204-Exact Threshold ML-DSA via Boundary Clearance",
+          "url": "https://arxiv.org/abs/2603.22109"
+        },
+        {
           "date": "2026-07-24",
           "key": "https://thequantuminsider.com/2026/07/24/guest-post-quantum-cybersecurity-careers-why-it-will-be-one-of-the-most-sought-after-jobs-of-the-next-decade",
           "report": "2026-07/2026-07-24-digest.md",
@@ -671,11 +725,11 @@
         "Quantum Zeitgeist",
         "The Quantum Insider",
         "QuantumNews.ai",
-        "Cloudflare Post-Quantum Blog",
-        "IACR ePrint"
+        "IACR ePrint",
+        "arXiv RSS cs.CR"
       ],
       "prior_count": 10,
-      "recent_count": 8,
+      "recent_count": 12,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -943,24 +997,6 @@
           "url": "https://thequantuminsider.com/2026/07/22/rice-university-doe-quantum-error-correction-research"
         },
         {
-          "date": "2026-07-23",
-          "key": "https://quantumcomputingreport.com/rice-university-joins-doe-quantum-science-center-to-advance-real-time-quantum-error-correction",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 89,
-          "source": "QuantumNews.ai",
-          "title": "Rice University Joins DOE Quantum Science Center to Advance Real-Time Quantum Error Correction",
-          "url": "https://quantumcomputingreport.com/rice-university-joins-doe-quantum-science-center-to-advance-real-time-quantum-error-correction"
-        },
-        {
-          "date": "2026-07-23",
-          "key": "https://quantumzeitgeist.com/logical-qubits-infleqtions-sqale",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 167,
-          "source": "Quantum Zeitgeist",
-          "title": "Infleqtion\u2019s Sqale System Targets 100 Logical Qubits for Fault Tolerance",
-          "url": "https://quantumzeitgeist.com/logical-qubits-infleqtions-sqale"
-        },
-        {
           "date": "2026-07-24",
           "key": "https://quantumzeitgeist.com/quantum-x-labs-surface-code-simulations",
           "report": "2026-07/2026-07-24-digest.md",
@@ -983,7 +1019,7 @@
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
       "latest_seen": "2026-07-24",
-      "momentum": "stable",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
@@ -991,7 +1027,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 7,
-      "recent_count": 6,
+      "recent_count": 4,
       "status": "watching"
     },
     "Quantum Hardware": {
@@ -2034,21 +2070,21 @@
         },
         {
           "date": "2026-07-23",
-          "key": "https://quantumzeitgeist.com/dark-matter-mev-sensors",
+          "key": "https://arxiv.org/abs/2607.20998",
           "report": "2026-07/2026-07-23-digest.md",
-          "score": 24,
-          "source": "Quantum Zeitgeist",
-          "title": "New 13 meV Sensors Probe Dark Matter at Lower Energies",
-          "url": "https://quantumzeitgeist.com/dark-matter-mev-sensors"
+          "score": 61,
+          "source": "arXiv RSS quant-ph",
+          "title": "A Quantum Interface Between Neutral-Atoms and Trapped-Ions Quantum Registers",
+          "url": "https://arxiv.org/abs/2607.20998"
         },
         {
           "date": "2026-07-23",
-          "key": "https://quantumcomputingreport.com/ibm-to-acquire-hrl-laboratories-to-expand-quantum-roadmap-with-silicon-spin-qubits",
+          "key": "https://thequantuminsider.com/2026/07/23/infleqtion-neutral-atom-quantum-computer-illinois",
           "report": "2026-07/2026-07-23-digest.md",
-          "score": 30,
-          "source": "QuantumNews.ai",
-          "title": "IBM to Acquire HRL Laboratories to Expand Quantum Roadmap with Silicon-Spin Qubits",
-          "url": "https://quantumcomputingreport.com/ibm-to-acquire-hrl-laboratories-to-expand-quantum-roadmap-with-silicon-spin-qubits"
+          "score": 82,
+          "source": "The Quantum Insider",
+          "title": "Infleqtion to Deploy Neutral-Atom Quantum Computer at Illinois Quantum Park in 2027",
+          "url": "https://thequantuminsider.com/2026/07/23/infleqtion-neutral-atom-quantum-computer-illinois"
         },
         {
           "date": "2026-07-24",
@@ -2130,8 +2166,8 @@
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
-        "QuantumNews.ai",
         "The Quantum Insider",
+        "QuantumNews.ai",
         "arXiv RSS quant-ph"
       ],
       "prior_count": 22,
@@ -2530,21 +2566,30 @@
         },
         {
           "date": "2026-07-23",
-          "key": "https://thequantuminsider.com/2026/07/23/northwestern-university-researchers-demonstrate-quantum-entanglement-over-busy-telecom-fiber",
+          "key": "https://arxiv.org/abs/2607.20664",
           "report": "2026-07/2026-07-23-digest.md",
-          "score": 22,
-          "source": "QuantumNews.ai",
-          "title": "Northwestern University Researchers Demonstrate Quantum Entanglement Over Busy Telecom Fiber",
-          "url": "https://thequantuminsider.com/2026/07/23/northwestern-university-researchers-demonstrate-quantum-entanglement-over-busy-telecom-fiber"
+          "score": 45,
+          "source": "arXiv RSS quant-ph",
+          "title": "Finite Key Underwater Quantum Key Distribution: Performance Analysis and Improvements",
+          "url": "https://arxiv.org/abs/2607.20664"
         },
         {
           "date": "2026-07-23",
-          "key": "https://thequantuminsider.com/2026/07/23/quantum-elements-orbit-error-suppression-tool-qiskit",
+          "key": "https://arxiv.org/abs/2607.20840",
           "report": "2026-07/2026-07-23-digest.md",
-          "score": 59,
-          "source": "The Quantum Insider",
-          "title": "Quantum Elements Launches Orbit Error Suppression Tool Through IBM Qiskit Platform",
-          "url": "https://thequantuminsider.com/2026/07/23/quantum-elements-orbit-error-suppression-tool-qiskit"
+          "score": 63,
+          "source": "arXiv RSS quant-ph",
+          "title": "Discrete-modulated continuous-variable quantum key distribution with uncertainty principle",
+          "url": "https://arxiv.org/abs/2607.20840"
+        },
+        {
+          "date": "2026-07-23",
+          "key": "https://arxiv.org/abs/2607.21093",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 77,
+          "source": "arXiv RSS quant-ph",
+          "title": "Picosecond-resolved entanglement distribution over an urban free-space channel",
+          "url": "https://arxiv.org/abs/2607.21093"
         }
       ],
       "first_seen": "2026-06-22",
@@ -2559,7 +2604,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 14,
-      "recent_count": 7,
+      "recent_count": 8,
       "status": "watching"
     },
     "Quantum Sensing": {
@@ -2735,29 +2780,20 @@
           "source": "QuantumNews.ai",
           "title": "Infleqtion to Deploy Fault-Tolerant Neutral-Atom Quantum Computer in Illinois",
           "url": "https://infleqtion.com/infleqtion-to-deploy-fault-tolerant-neutral-atom-quantum-computer-in-illinois"
-        },
-        {
-          "date": "2026-07-23",
-          "key": "https://thequantuminsider.com/2026/07/23/infleqtion-neutral-atom-quantum-computer-illinois",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 93,
-          "source": "The Quantum Insider",
-          "title": "Infleqtion to Deploy Neutral-Atom Quantum Computer at Illinois Quantum Park in 2027",
-          "url": "https://thequantuminsider.com/2026/07/23/infleqtion-neutral-atom-quantum-computer-illinois"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.",
       "importance": "high",
-      "latest_seen": "2026-07-23",
+      "latest_seen": "2026-07-22",
       "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
         "QuantumNews.ai"
       ],
-      "prior_count": 1,
-      "recent_count": 4,
+      "prior_count": 2,
+      "recent_count": 3,
       "status": "actionable"
     },
     "Quantum Software / Tooling": {
@@ -3134,30 +3170,12 @@
         },
         {
           "date": "2026-07-23",
-          "key": "https://thequantuminsider.com/2026/07/23/iqmp-q-star-japan-illinois-quantum-collaboration",
+          "key": "https://arxiv.org/abs/2607.20616",
           "report": "2026-07/2026-07-23-digest.md",
-          "score": 15,
-          "source": "QuantumNews.ai",
-          "title": "IQMP and Q-STAR Partner to Expand Japan-Illinois Quantum Collaboration",
-          "url": "https://thequantuminsider.com/2026/07/23/iqmp-q-star-japan-illinois-quantum-collaboration"
-        },
-        {
-          "date": "2026-07-23",
-          "key": "https://quantumzeitgeist.com/quantum-flagship-budget-framework-europes",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 24,
-          "source": "Quantum Zeitgeist",
-          "title": "Europe\u2019s Quantum Flagship seeks dedicated \u20ac3.5B quantum budget in next framework.",
-          "url": "https://quantumzeitgeist.com/quantum-flagship-budget-framework-europes"
-        },
-        {
-          "date": "2026-07-23",
-          "key": "https://quantumcomputingreport.com/btq-technologies-subsidiary-qperfect-partners-with-university-of-strasbourg-to-support-frances-first-public-neutral-atom-quantum-computing-platform",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 42,
-          "source": "QuantumNews.ai",
-          "title": "BTQ Technologies Subsidiary QPerfect Partners with University of Strasbourg to Support France\u2019s First Public Neutral-Atom Quantum Computing Platform",
-          "url": "https://quantumcomputingreport.com/btq-technologies-subsidiary-qperfect-partners-with-university-of-strasbourg-to-support-frances-first-public-neutral-atom-quantum-computing-platform"
+          "score": 52,
+          "source": "arXiv RSS quant-ph",
+          "title": "Enabling Neutral Atom Integration: Redesigning Device Models for Universal Quantum Ecosystems",
+          "url": "https://arxiv.org/abs/2607.20616"
         },
         {
           "date": "2026-07-24",
@@ -3178,14 +3196,15 @@
         "Quantum Zeitgeist",
         "QuantumNews.ai",
         "The Quantum Insider",
-        "AWS Quantum Technologies Blog"
+        "AWS Quantum Technologies Blog",
+        "arXiv RSS quant-ph"
       ],
       "prior_count": 8,
-      "recent_count": 9,
+      "recent_count": 7,
       "status": "watching"
     },
     "Standards / Government": {
-      "confidence": "low",
+      "confidence": "medium",
       "evidence": [
         {
           "date": "2026-07-21",
@@ -3195,21 +3214,31 @@
           "source": "arXiv RSS cs.CR",
           "title": "Exploiting Load/Store Leakage of Sparse Vectors for Key Recovery in HQC",
           "url": "https://arxiv.org/abs/2607.19109"
+        },
+        {
+          "date": "2026-07-23",
+          "key": "https://thequantuminsider.com/2026/07/23/new-white-house-science-strategy-points-to-a-quantum-style-innovation-model",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "New White House Science Strategy Points to a Quantum-Style Innovation Model",
+          "url": "https://thequantuminsider.com/2026/07/23/new-white-house-science-strategy-points-to-a-quantum-style-innovation-model"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
-      "importance": "high",
-      "latest_seen": "2026-07-21",
+      "importance": "critical",
+      "latest_seen": "2026-07-23",
       "momentum": "rising",
       "organizations": [
-        "arXiv RSS cs.CR"
+        "arXiv RSS cs.CR",
+        "The Quantum Insider"
       ],
       "prior_count": 0,
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "actionable"
     }
   },
-  "updated_at": "2026-07-25T02:09:57.861449+00:00",
+  "updated_at": "2026-07-25T02:48:07.732108+00:00",
   "version": 1
 }

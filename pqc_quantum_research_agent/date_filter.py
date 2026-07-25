@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, time, timedelta
 
-from .dates import ensure_operational_timezone, ensure_utc, operational_day_window, operational_today
+from .dates import OPERATIONAL_TIMEZONE, ensure_operational_timezone, ensure_utc, operational_day_window, operational_today
 from .models import DateFilterSummary, ResearchItem
 
 INCLUDED_TODAY = "included_today"
@@ -129,11 +129,19 @@ def build_coverage_window(
     target_date: date,
     lookback_hours: float | None = None,
     explicit_target_date: bool = False,
+    coverage_end_time: time | None = None,
 ) -> tuple[datetime, datetime]:
+    fixed_coverage_end = (
+        ensure_utc(datetime.combine(target_date, coverage_end_time, tzinfo=OPERATIONAL_TIMEZONE))
+        if coverage_end_time is not None
+        else None
+    )
     if lookback_hours is not None:
         if lookback_hours <= 0:
             raise ValueError("lookback_hours must be greater than 0")
-        if explicit_target_date:
+        if fixed_coverage_end is not None:
+            coverage_end_at = fixed_coverage_end
+        elif explicit_target_date:
             _, end_local = operational_day_window(target_date)
             coverage_end_at = ensure_utc(end_local)
         else:
@@ -143,7 +151,9 @@ def build_coverage_window(
 
     start_local, end_local = operational_day_window(target_date)
     coverage_start_at = ensure_utc(start_local)
-    if explicit_target_date and target_date != operational_today(generated_at):
+    if fixed_coverage_end is not None:
+        coverage_end_at = fixed_coverage_end
+    elif explicit_target_date and target_date != operational_today(generated_at):
         _, end_local = operational_day_window(target_date)
         coverage_end_at = ensure_utc(end_local)
     else:

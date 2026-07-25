@@ -44,6 +44,11 @@ iacr_eprint:
 rss_feeds:
   - name: "The Quantum Insider"
     url: "https://thequantuminsider.com/feed/"
+    supplemental_sitemap_urls: ["https://thequantuminsider.com/wp-sitemap.xml"]
+    sitemap_include_patterns: [post-sitemap]
+    include_patterns: ["/20"]
+    max_sitemaps: 1
+    sitemap_max_items: 40
   - name: "Quantum Zeitgeist"
     url: "https://quantumzeitgeist.com/feed/"
   - name: "CISA Cybersecurity Advisories"

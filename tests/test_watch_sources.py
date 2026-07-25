@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import unittest
 
-from pqc_quantum_research_agent.collectors import collect_watch_sources
+from pqc_quantum_research_agent.collectors import collect_rss_feeds, collect_watch_sources
 
 
 EMPTY_RSS = """<?xml version="1.0"?><rss version="2.0"><channel><title>Empty</title></channel></rss>"""
@@ -19,6 +19,23 @@ TOPIC_PAGE = """<html><head><title>Post-Quantum Cryptography Guidance</title>
 <meta name="description" content="Official quantum-safe migration guidance."></head><body></body></html>"""
 UNDATED_ARTICLE = """<html><head><title>Company awarded quantum contract</title>
 <meta name="description" content="A material contract award."></head></html>"""
+SHORT_RSS = """<?xml version="1.0"?><rss version="2.0"><channel><title>Short feed</title>
+<item><title>Latest quantum article</title><link>https://example.com/latest</link>
+<description>Current RSS item.</description><pubDate>Fri, 24 Jul 2026 12:00:00 +0000</pubDate></item>
+</channel></rss>"""
+SITEMAP_INDEX = """<?xml version="1.0"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>https://example.com/post-sitemap.xml</loc><lastmod>2026-07-24</lastmod></sitemap>
+  <sitemap><loc>https://example.com/post-sitemap8.xml</loc><lastmod>2026-07-24</lastmod></sitemap>
+</sitemapindex>"""
+CURRENT_SITEMAP = """<?xml version="1.0"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/2026/07/23/white-house-quantum-strategy</loc>
+  <lastmod>2026-07-23</lastmod></url>
+</urlset>"""
+WHITE_HOUSE_ARTICLE = """<html><head><title>White House quantum strategy</title>
+<meta name="description" content="Federal quantum information science strategy.">
+<meta property="article:published_time" content="2026-07-23T14:35:10Z"></head></html>"""
 
 
 class MappingClient:
@@ -35,6 +52,37 @@ class MappingClient:
 
 
 class WatchSourceTests(unittest.TestCase):
+    def test_rss_source_can_supplement_short_feed_from_newest_sitemap_shard(self) -> None:
+        client = MappingClient(
+            {
+                "https://example.com/feed": SHORT_RSS,
+                "https://example.com/sitemap.xml": SITEMAP_INDEX,
+                "https://example.com/post-sitemap8.xml": CURRENT_SITEMAP,
+                "https://example.com/2026/07/23/white-house-quantum-strategy": WHITE_HOUSE_ARTICLE,
+            }
+        )
+
+        result = collect_rss_feeds(
+            client,  # type: ignore[arg-type]
+            [
+                {
+                    "name": "Fast Quantum News",
+                    "url": "https://example.com/feed",
+                    "supplemental_sitemap_url": "https://example.com/sitemap.xml",
+                    "sitemap_include_patterns": ["post-sitemap"],
+                    "max_sitemaps": 1,
+                }
+            ],
+            10,
+        )
+
+        self.assertEqual(len(result.items), 2)
+        self.assertIn("White House quantum strategy", [item.title for item in result.items])
+        self.assertIn("https://example.com/post-sitemap8.xml", client.calls)
+        self.assertNotIn("https://example.com/post-sitemap.xml", client.calls)
+        supplemental = next(item for item in result.items if item.title == "White House quantum strategy")
+        self.assertEqual(supplemental.raw_payload["discovery_method"], "supplemental_sitemap")
+
     def test_watch_source_falls_back_from_empty_rss_to_sitemap(self) -> None:
         client = MappingClient(
             {

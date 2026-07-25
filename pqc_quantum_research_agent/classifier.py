@@ -3,6 +3,7 @@ from __future__ import annotations
 import re
 from collections import defaultdict
 from collections.abc import Mapping
+from urllib.parse import urlsplit
 
 from .models import ResearchItem
 
@@ -314,6 +315,10 @@ STANDARDS_POLICY_TERMS = (
     "governance",
     "federal",
     "government",
+    "federal government",
+    "white house",
+    "ostp",
+    "executive order",
     "national security",
     "cnsa 2.0",
 )
@@ -587,6 +592,45 @@ VENDOR_MARKETING_PENALTY_TERMS = (
 SOURCE_BOOST_TOPIC_CONFIDENCE_THRESHOLD = 6
 DEFAULT_MIN_TOPIC_CONFIDENCE = 4
 NO_TOPIC_RELEVANCE_PENALTY = 50
+GOVERNMENT_PRIORITY_SCORE = 100
+
+OFFICIAL_GOVERNMENT_SOURCE_HINTS = (
+    "white house",
+    "nist",
+    "cisa",
+    "nsa",
+    "national security agency",
+    "department of defense",
+    "department of energy",
+    "department of homeland security",
+    "national science foundation",
+    "ostp",
+    "oncd",
+    "uk ncsc",
+    "bsi germany",
+    "enisa",
+)
+
+GOVERNMENT_POLICY_PHRASES = (
+    "white house",
+    "government",
+    "federal government",
+    "u.s. government",
+    "us government",
+    "government strategy",
+    "government policy",
+    "government guidance",
+    "government mandate",
+    "executive order",
+)
+
+OFFICIAL_GOVERNMENT_HOST_SUFFIXES = (
+    ".gov",
+    ".mil",
+    ".gov.uk",
+    ".europa.eu",
+    ".bund.de",
+)
 
 
 def classify_item(
@@ -642,8 +686,9 @@ def classify_item(
     category_weight_bonus = _category_weight_bonus(item)
     marketing_penalty = _vendor_marketing_penalty(item, content_text_lower)
     low_relevance_penalty = _low_relevance_penalty(item, content_text_lower, topic_confidence)
+    government_priority = _is_government_priority(item, content_text_lower, topic_confidence)
 
-    item.score = max(
+    calculated_score = max(
         0,
         keyword_score
         + title_bonus
@@ -655,8 +700,11 @@ def classify_item(
         - marketing_penalty
         - low_relevance_penalty,
     )
+    item.score = max(calculated_score, GOVERNMENT_PRIORITY_SCORE) if government_priority else calculated_score
     item.matched_keywords = matched
     rationales = _confidence_rationales(item, matched, matched_sources, content_text_lower, topic_confidence)
+    if government_priority:
+        rationales.insert(0, "government/White House highest-priority signal")
     item.score_explanation = (
         f"keywords={keyword_score}; title={title_bonus}; category={category_bonus}; "
         f"topic_confidence={topic_confidence}; "
@@ -664,6 +712,7 @@ def classify_item(
         f"source_weight={source_weight_bonus}; source_weight_applied={str(source_weight_bonus > 0).lower()}; "
         f"content_type={category_weight_bonus}; "
         f"vendor_marketing_penalty={marketing_penalty}; low_relevance_penalty={low_relevance_penalty}; "
+        f"government_priority={str(government_priority).lower()}; "
         f"rationale={', '.join(rationales)}"
     )
     return item
@@ -925,6 +974,8 @@ def _topic_confidence(content_scores: dict[str, int], content_text: str) -> int:
         confidence += 3
     if _has_ai_security_signal(content_text):
         confidence += 4
+    if _has_standards_signal(content_text) and _has_quantum_context(content_text):
+        confidence = max(confidence, 8)
 
     if _has_any_signal(GENERIC_AI_TERMS, content_text) and not _has_ai_security_signal(content_text):
         confidence = max(0, confidence - 3)
@@ -933,6 +984,21 @@ def _topic_confidence(content_scores: dict[str, int], content_text: str) -> int:
     ):
         confidence = max(0, confidence - 2)
     return min(confidence, 30)
+
+
+def _is_government_priority(item: ResearchItem, content_text: str, topic_confidence: int) -> bool:
+    if topic_confidence < DEFAULT_MIN_TOPIC_CONFIDENCE:
+        return False
+
+    source_text = item.source_name.casefold()
+    if any(phrase_in_text(hint, source_text) for hint in OFFICIAL_GOVERNMENT_SOURCE_HINTS):
+        return True
+
+    hostname = (urlsplit(item.url).hostname or "").casefold()
+    if any(hostname.endswith(suffix) for suffix in OFFICIAL_GOVERNMENT_HOST_SUFFIXES):
+        return True
+
+    return any(phrase_in_text(phrase, content_text) for phrase in GOVERNMENT_POLICY_PHRASES)
 
 
 def _allows_source_weight(topic_confidence: int) -> bool:

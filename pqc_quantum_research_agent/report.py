@@ -1234,6 +1234,7 @@ def _has_required_topic_relevance(item: ResearchItem) -> bool:
         or _is_ai_security_signal(item)
         or _is_sensing_signal(item)
         or _is_tooling_signal(item)
+        or (_is_standards_government_signal(item) and _has_quantum_context(item))
         or _is_topical_vendor_source(item)
     )
 

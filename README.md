@@ -157,10 +157,10 @@ Weekly mode reads existing daily digest files from month folders under `reports/
 pqc-quantum-research-agent --reports-dir reports --weekly
 ```
 
-By default, weekly mode uses the current America/Chicago week, Monday through Sunday, when that week already has daily digest files. If it is run before any current-week daily digest exists, it falls back to the most recent week with daily reports. To backfill or test a specific range:
+By default, weekly mode uses the current America/Chicago reporting week, Monday through Friday, when that week already has daily digest files. The scheduled workflow takes a fresh Friday snapshot at 8:00 AM Central before building the synthesis, so its effective coverage is Monday 00:00 through Friday 08:00. If weekly mode is run before any current-week daily digest exists, it falls back to the most recent week with daily reports. To backfill or test a specific range:
 
 ```bash
-pqc-quantum-research-agent --reports-dir reports --weekly --week-start 2026-05-11 --week-end 2026-05-17
+pqc-quantum-research-agent --reports-dir reports --weekly --week-start 2026-05-11 --week-end 2026-05-15
 ```
 
 Weekly reports are stored under:
@@ -194,7 +194,7 @@ Report controls:
 
 - Default daily mode uses the current America/Chicago report date and covers `00:00 America/Chicago` through runtime.
 - `--weekly`: generate a weekly intelligence synthesis from existing `reports/YYYY-MM/YYYY-MM-DD-digest.md` files without collecting sources or touching SQLite. Legacy flat `reports/YYYY-MM-DD-digest.md` files are also accepted while migrating older archives.
-- `--week-start YYYY-MM-DD` and `--week-end YYYY-MM-DD`: optional weekly synthesis bounds. If omitted, weekly mode uses the current America/Chicago Monday-through-Sunday week when daily reports exist there, otherwise it falls back to the latest populated report week.
+- `--week-start YYYY-MM-DD` and `--week-end YYYY-MM-DD`: optional weekly synthesis bounds. If omitted, weekly mode uses the current America/Chicago Monday-through-Friday reporting week when daily reports exist there, otherwise it falls back to the latest populated report week.
 - `--monthly` and `--month YYYY-MM`: generate a monthly synthesis; the target defaults to the prior month.
 - `--update-report-index`: refresh the navigable report archive index after report generation.
 - `--update-intelligence-tracking`: after daily generation, merge retained evidence into the persistent signal ledger and refresh source health.
@@ -203,6 +203,7 @@ Report controls:
 - `--readiness-config`: evidence-backed PQC readiness rules. The default is `readiness.yaml`.
 - `--standards-config`: authoritative standards and migration milestones. The default is `standards.yaml`.
 - `--lookback-hours`: optional rolling coverage window length. When provided, this overrides Central day-to-runtime filtering.
+- `--coverage-end-time HH:MM`: pin a daily report's America/Chicago coverage end. The Friday weekly snapshot uses `08:00`, so runner delays cannot move the weekly boundary.
 - `--date YYYY-MM-DD`: backfill or test a specific operational report date.
 - `--include-undated`: retained for compatibility; rolling daily reports keep undated items excluded unless `--include-recent-undated` is set.
 - `--include-recent-undated`: include undated items discovered inside the coverage window when they contain strong PQC/quantum keywords. These render with publication date `UNKNOWN` and low date confidence.
@@ -356,7 +357,9 @@ The workflow in `.github/workflows/daily-research-scout.yml` runs every day at `
 
 It restores the prior SQLite database from the Actions cache, runs the scout, prunes daily Markdown digests older than 30 days, updates the persistent signal ledger and source-health dashboard, refreshes the report index, commits changed report artifacts back to `main`, then uploads both the Markdown digest and SQLite database as workflow artifacts. Markdown and signal JSON artifacts are intentionally tracked; SQLite database files remain ignored and are not committed. The workflow needs `contents: write` permission for the built-in `GITHUB_TOKEN`, and branch protection must allow the GitHub Actions bot to push these report commits.
 
-The workflow in `.github/workflows/weekly-research-synthesis.yml` runs at `01:00 UTC` on Mondays, intended as Sunday night US Central after the daily digest has run. It reads committed daily digest files from monthly folders under `reports/`, writes the weekly synthesis to `reports/weekly/YYYY/`, commits changed weekly Markdown reports back to `main`, and uploads the weekly report as an artifact. It can also be started manually with `workflow_dispatch`.
+The workflow in `.github/workflows/weekly-research-synthesis.yml` runs at **8:00 AM America/Chicago every Friday**. It uses paired `13:00`/`14:00` UTC triggers plus a local-time gate so daylight-saving transitions do not shift the reporting cutoff. The workflow first captures a Friday-morning daily snapshot, then consolidates Monday through Friday into `reports/weekly/YYYY/`, commits the generated reports back to `main`, and uploads both the weekly report and SQLite snapshot as artifacts. It can also be started manually with `workflow_dispatch`.
+
+The Quantum Insider uses both its RSS feed and a supplemental, newest-first post-sitemap scan. This prevents high-volume publishing days from rotating an article out of the short RSS feed before the evening collector runs. Quantum-relevant items from official government sources, or items centered on the White House or federal government, receive a `CRITICAL` score floor of 100 and are admitted as standards/government signals.
 
 The workflow in `.github/workflows/monthly-research-synthesis.yml` runs on the first day of each month, consolidates the prior month into `reports/monthly/YYYY/`, refreshes the report index, and supports manual backfills with a `YYYY-MM` input.
 
