@@ -4,13 +4,13 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-24 02:10 UTC_
+_Updated 2026-07-25 02:09 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 31 | 3 | 3 | 6 | 22 |
+| 33 | 3 | 3 | 7 | 23 |
 
-## 🔴 Acquisition: IBM 🆕
+## 🔴 Acquisition: IBM
 
 - Severity: **critical**
 - Status: **acquisition**
@@ -22,14 +22,21 @@ _Updated 2026-07-24 02:10 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 PQC / Crypto Agility has critical strategic importance and declining momentum.
+- 🔴 PQC / Crypto Agility has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: QEC / Fault Tolerance
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 QEC / Fault Tolerance has critical strategic importance and declining momentum.
+- 🔴 QEC / Fault Tolerance has critical strategic importance and stable momentum.
+- [Open supporting view](signals.md)
+
+## 🟠 Actionable signal: Quantum Hardware 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 Quantum Hardware is actionable with high confidence.
 - [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: Quantum Sensing
@@ -39,7 +46,7 @@ _Updated 2026-07-24 02:10 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Product Launch: IBM 🆕
+## 🟠 Product Launch: IBM
 
 - Severity: **high**
 - Status: **product-launch**
@@ -68,13 +75,20 @@ _Updated 2026-07-24 02:10 UTC_
 - 🟠 100.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Standard: PQShield 🆕
+## 🟠 Standard: PQShield
 
 - Severity: **high**
 - Status: **standard**
 - PQShield matched a standard event: EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.
 - [Open direct evidence](https://pqshield.com/eudi-wallet-security-and-quantum-readiness)
 - [Open supporting view](entity-watch.md)
+
+## 🟡 Rising momentum: Quantum Hardware 🆕
+
+- Severity: **medium**
+- Status: **rising**
+- ↗️ Recent evidence is 34 versus 22 in the prior period.
+- [Open supporting view](signals.md)
 
 ## 🟡 Rising momentum: Quantum Sensing
 
@@ -125,6 +139,13 @@ _Updated 2026-07-24 02:10 UTC_
 - The latest dated item is from 2016-10-05; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: Cloudflare Post-Quantum Blog 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-07-09; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: DigiCert Blog
 
 - Severity: **medium**
@@ -172,13 +193,6 @@ _Updated 2026-07-24 02:10 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2023-06-15; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: IonQ News
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-05-06; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: NCSC UK Guidance

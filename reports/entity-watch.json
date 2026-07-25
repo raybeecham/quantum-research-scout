@@ -93,7 +93,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 8,
+      "evidence_count": 9,
       "first_party_evidence_count": 0,
       "name": "Pasqal",
       "priority": "medium",
@@ -114,7 +114,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 1,
+      "evidence_count": 2,
       "first_party_evidence_count": 0,
       "name": "NIST",
       "priority": "critical",
@@ -714,8 +714,20 @@
         "National Institute of Standards and Technology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 1,
+      "current_evidence_count": 2,
       "evidence": [
+        {
+          "date": "2026-07-24",
+          "key": "https://thequantuminsider.com/2026/07/24/terra-quantum-apex-ai-post-quantum-cryptography",
+          "report": "2026-07/2026-07-24-digest.md",
+          "score": 102,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Terra Quantum and Apex.AI Integrate NIST Post-Quantum Cryptography Into Robotics Software",
+          "url": "https://thequantuminsider.com/2026/07/24/terra-quantum-apex-ai-post-quantum-cryptography"
+        },
         {
           "date": "2026-06-25",
           "key": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key",
@@ -729,16 +741,16 @@
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
         }
       ],
-      "evidence_count": 1,
+      "evidence_count": 2,
       "first_seen": "2026-06-25",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-06-25",
-      "momentum": "stable",
+      "latest_seen": "2026-07-24",
+      "momentum": "rising",
       "name": "NIST",
       "prior_count": 0,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -891,9 +903,9 @@
       "latest_seen": "2026-07-23",
       "momentum": "stable",
       "name": "IBM",
-      "prior_count": 3,
+      "prior_count": 4,
       "priority": "high",
-      "recent_count": 4,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -1513,7 +1525,7 @@
       "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -1673,6 +1685,135 @@
       "type": "company"
     },
     {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 9,
+      "evidence": [
+        {
+          "date": "2026-07-24",
+          "key": "https://quantumzeitgeist.com/pasqals-256-qubit-simulation-guides-quantum",
+          "report": "2026-07/2026-07-24-digest.md",
+          "score": 26,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal\u2019s 256-Qubit Simulation Guides Quantum Material Study at CERN",
+          "url": "https://quantumzeitgeist.com/pasqals-256-qubit-simulation-guides-quantum"
+        },
+        {
+          "date": "2026-07-15",
+          "key": "https://thequantuminsider.com/2026/07/15/pasqal-appoints-mark-armstrong-chief-commercial-officer",
+          "report": "2026-07/2026-07-15-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal Appoints Former HPE Executive Mark Armstrong as Commercial Chief",
+          "url": "https://thequantuminsider.com/2026/07/15/pasqal-appoints-mark-armstrong-chief-commercial-officer"
+        },
+        {
+          "date": "2026-07-13",
+          "key": "https://quantumcomputingreport.com/chips-ju-and-pasqal-launch-e50m-57-2m-usd-q-planet-pilot-line-to-industrialize-neutral-atom-quantum-chips",
+          "report": "2026-07/2026-07-13-digest.md",
+          "score": 26,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Chips JU and Pasqal Launch \u20ac50M ($57.2M USD) Q-PLANET Pilot Line to Industrialize Neutral Atom Quantum Chips",
+          "url": "https://quantumcomputingreport.com/chips-ju-and-pasqal-launch-e50m-57-2m-usd-q-planet-pilot-line-to-industrialize-neutral-atom-quantum-chips"
+        },
+        {
+          "date": "2026-07-12",
+          "key": "https://quantumzeitgeist.com/pasqal-orion-computer-hours-free",
+          "report": "2026-07/2026-07-12-digest.md",
+          "score": 22,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "100 Hours of Free QPU Time Open on Pasqal Orion Computer",
+          "url": "https://quantumzeitgeist.com/pasqal-orion-computer-hours-free"
+        },
+        {
+          "date": "2026-07-07",
+          "key": "https://thequantuminsider.com/2026/07/07/pasqal-megazonecloud-quantum-computing-korea",
+          "report": "2026-07/2026-07-07-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal and MegazoneCloud Partner to Bring Quantum Computing to South Korea",
+          "url": "https://thequantuminsider.com/2026/07/07/pasqal-megazonecloud-quantum-computing-korea"
+        },
+        {
+          "date": "2026-07-02",
+          "key": "https://quantumcomputingreport.com/pasqal-and-aeponyx-found-canadian-center-of-competency-at-c2mi-to-commercialize-photonic-integrated-circuit-packaging",
+          "report": "2026-07/2026-07-02-digest.md",
+          "score": 43,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal and Aeponyx Found Canadian Center of Competency at C2MI to Commercialize Photonic Integrated Circuit Packaging",
+          "url": "https://quantumcomputingreport.com/pasqal-and-aeponyx-found-canadian-center-of-competency-at-c2mi-to-commercialize-photonic-integrated-circuit-packaging"
+        },
+        {
+          "date": "2026-07-02",
+          "key": "https://thequantuminsider.com/2026/07/02/pasqal-and-aeponyx-launch-a-pic-packaging-center-of-competency-for-sensing-and-quantum-applications-at-c2mi",
+          "report": "2026-07/2026-07-02-digest.md",
+          "score": 26,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal and Aeponyx Launch Canadian PIC Packaging Center for Quantum Technologies",
+          "url": "https://thequantuminsider.com/2026/07/02/pasqal-and-aeponyx-launch-a-pic-packaging-center-of-competency-for-sensing-and-quantum-applications-at-c2mi"
+        },
+        {
+          "date": "2026-06-30",
+          "key": "https://thequantuminsider.com/2026/06/30/credit-agricole-cib-pasqal-strategic-partnership-quantum-computing-finance",
+          "report": "2026-06/2026-06-30-digest.md",
+          "score": 27,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal and Cr\u00e9dit Agricole CIB Deepen Partnership on Quantum Finance Applications",
+          "url": "https://thequantuminsider.com/2026/06/30/credit-agricole-cib-pasqal-strategic-partnership-quantum-computing-finance"
+        },
+        {
+          "date": "2026-06-29",
+          "key": "https://thequantuminsider.com/2026/06/29/pasqal-appoints-stephane-rougeot-chief-financial-officer",
+          "report": "2026-06/2026-06-29-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal Appoints St\u00e9phane Rougeot as Chief Financial Officer",
+          "url": "https://thequantuminsider.com/2026/06/29/pasqal-appoints-stephane-rougeot-chief-financial-officer"
+        }
+      ],
+      "evidence_count": 9,
+      "first_seen": "2026-06-29",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-07-24",
+      "momentum": "declining",
+      "name": "Pasqal",
+      "prior_count": 3,
+      "priority": "medium",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "Quantum Hardware"
+      ],
+      "type": "company"
+    },
+    {
       "aliases": [
         "ColdQuanta"
       ],
@@ -1790,123 +1931,6 @@
         "QEC / Fault Tolerance",
         "Quantum Hardware",
         "Quantum Sensing"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 8,
-      "evidence": [
-        {
-          "date": "2026-07-15",
-          "key": "https://thequantuminsider.com/2026/07/15/pasqal-appoints-mark-armstrong-chief-commercial-officer",
-          "report": "2026-07/2026-07-15-digest.md",
-          "score": 35,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Pasqal Appoints Former HPE Executive Mark Armstrong as Commercial Chief",
-          "url": "https://thequantuminsider.com/2026/07/15/pasqal-appoints-mark-armstrong-chief-commercial-officer"
-        },
-        {
-          "date": "2026-07-13",
-          "key": "https://quantumcomputingreport.com/chips-ju-and-pasqal-launch-e50m-57-2m-usd-q-planet-pilot-line-to-industrialize-neutral-atom-quantum-chips",
-          "report": "2026-07/2026-07-13-digest.md",
-          "score": 26,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Chips JU and Pasqal Launch \u20ac50M ($57.2M USD) Q-PLANET Pilot Line to Industrialize Neutral Atom Quantum Chips",
-          "url": "https://quantumcomputingreport.com/chips-ju-and-pasqal-launch-e50m-57-2m-usd-q-planet-pilot-line-to-industrialize-neutral-atom-quantum-chips"
-        },
-        {
-          "date": "2026-07-12",
-          "key": "https://quantumzeitgeist.com/pasqal-orion-computer-hours-free",
-          "report": "2026-07/2026-07-12-digest.md",
-          "score": 22,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "100 Hours of Free QPU Time Open on Pasqal Orion Computer",
-          "url": "https://quantumzeitgeist.com/pasqal-orion-computer-hours-free"
-        },
-        {
-          "date": "2026-07-07",
-          "key": "https://thequantuminsider.com/2026/07/07/pasqal-megazonecloud-quantum-computing-korea",
-          "report": "2026-07/2026-07-07-digest.md",
-          "score": 35,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Pasqal and MegazoneCloud Partner to Bring Quantum Computing to South Korea",
-          "url": "https://thequantuminsider.com/2026/07/07/pasqal-megazonecloud-quantum-computing-korea"
-        },
-        {
-          "date": "2026-07-02",
-          "key": "https://quantumcomputingreport.com/pasqal-and-aeponyx-found-canadian-center-of-competency-at-c2mi-to-commercialize-photonic-integrated-circuit-packaging",
-          "report": "2026-07/2026-07-02-digest.md",
-          "score": 43,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Pasqal and Aeponyx Found Canadian Center of Competency at C2MI to Commercialize Photonic Integrated Circuit Packaging",
-          "url": "https://quantumcomputingreport.com/pasqal-and-aeponyx-found-canadian-center-of-competency-at-c2mi-to-commercialize-photonic-integrated-circuit-packaging"
-        },
-        {
-          "date": "2026-07-02",
-          "key": "https://thequantuminsider.com/2026/07/02/pasqal-and-aeponyx-launch-a-pic-packaging-center-of-competency-for-sensing-and-quantum-applications-at-c2mi",
-          "report": "2026-07/2026-07-02-digest.md",
-          "score": 26,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Pasqal and Aeponyx Launch Canadian PIC Packaging Center for Quantum Technologies",
-          "url": "https://thequantuminsider.com/2026/07/02/pasqal-and-aeponyx-launch-a-pic-packaging-center-of-competency-for-sensing-and-quantum-applications-at-c2mi"
-        },
-        {
-          "date": "2026-06-30",
-          "key": "https://thequantuminsider.com/2026/06/30/credit-agricole-cib-pasqal-strategic-partnership-quantum-computing-finance",
-          "report": "2026-06/2026-06-30-digest.md",
-          "score": 27,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Pasqal and Cr\u00e9dit Agricole CIB Deepen Partnership on Quantum Finance Applications",
-          "url": "https://thequantuminsider.com/2026/06/30/credit-agricole-cib-pasqal-strategic-partnership-quantum-computing-finance"
-        },
-        {
-          "date": "2026-06-29",
-          "key": "https://thequantuminsider.com/2026/06/29/pasqal-appoints-stephane-rougeot-chief-financial-officer",
-          "report": "2026-06/2026-06-29-digest.md",
-          "score": 35,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Pasqal Appoints St\u00e9phane Rougeot as Chief Financial Officer",
-          "url": "https://thequantuminsider.com/2026/06/29/pasqal-appoints-stephane-rougeot-chief-financial-officer"
-        }
-      ],
-      "evidence_count": 8,
-      "first_seen": "2026-06-29",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-07-15",
-      "momentum": "declining",
-      "name": "Pasqal",
-      "prior_count": 3,
-      "priority": "medium",
-      "recent_count": 0,
-      "status": "quiet",
-      "themes": [
-        "Quantum Hardware"
       ],
       "type": "company"
     },
@@ -2339,7 +2363,7 @@
       "latest_seen": "2026-07-23",
       "momentum": "declining",
       "name": "Logical qubits",
-      "prior_count": 4,
+      "prior_count": 2,
       "priority": "critical",
       "recent_count": 1,
       "status": "active",
@@ -2648,7 +2672,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Networking"
       ],
@@ -3077,6 +3101,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-07-24T02:10:22.372033+00:00",
+  "updated_at": "2026-07-25T02:09:57.865826+00:00",
   "version": 2
 }

@@ -205,6 +205,51 @@
     },
     {
       "confidence": "medium",
+      "evidence_count": 2,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-07-24",
+      "name": "NIST",
+      "priority": "critical",
+      "source_count": 2,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": "2026-06-25",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Quantum Zeitgeist",
+          "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
+          "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
+        },
+        {
+          "date": "2026-07-24",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "The Quantum Insider",
+          "title": "Terra Quantum and Apex.AI Integrate NIST Post-Quantum Cryptography Into Robotics Software",
+          "url": "https://thequantuminsider.com/2026/07/24/terra-quantum-apex-ai-post-quantum-cryptography"
+        }
+      ],
+      "type": "government"
+    },
+    {
+      "confidence": "medium",
       "evidence_count": 3,
       "historical_evidence_count": 3,
       "latest_evidence_at": "2025-01-21",
@@ -264,36 +309,6 @@
         }
       ],
       "type": "company"
-    },
-    {
-      "confidence": "low",
-      "evidence_count": 1,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-06-25",
-      "name": "NIST",
-      "priority": "critical",
-      "source_count": 1,
-      "stage": "planning",
-      "stage_label": "Planning",
-      "stage_rank": 3,
-      "supporting_evidence": [
-        {
-          "date": "2026-06-25",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "crypto-agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Quantum Zeitgeist",
-          "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
-          "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
-        }
-      ],
-      "type": "government"
     },
     {
       "confidence": "low",
@@ -950,6 +965,6 @@
     "not_assessed": 33,
     "organizations": 43
   },
-  "updated_at": "2026-07-24T02:10:22.607090+00:00",
+  "updated_at": "2026-07-25T02:09:58.107387+00:00",
   "version": 1
 }
