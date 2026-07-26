@@ -135,8 +135,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 4,
-      "first_party_evidence_count": 4,
+      "evidence_count": 5,
+      "first_party_evidence_count": 5,
       "name": "Accenture / Accenture Federal Services",
       "priority": "high",
       "status": "covered",
@@ -151,8 +151,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
+      "evidence_count": 1,
+      "first_party_evidence_count": 1,
       "name": "Atom Computing",
       "priority": "high",
       "status": "covered",
@@ -183,8 +183,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
+      "evidence_count": 1,
+      "first_party_evidence_count": 1,
       "name": "Booz Allen Hamilton",
       "priority": "high",
       "status": "covered",
@@ -215,8 +215,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
+      "evidence_count": 3,
+      "first_party_evidence_count": 3,
       "name": "Cisco",
       "priority": "high",
       "status": "covered",
@@ -252,7 +252,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 1,
+      "evidence_count": 2,
       "first_party_evidence_count": 1,
       "name": "Deloitte",
       "priority": "high",
@@ -300,8 +300,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
+      "evidence_count": 1,
+      "first_party_evidence_count": 1,
       "name": "ETSI",
       "priority": "high",
       "status": "covered",
@@ -316,8 +316,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
+      "evidence_count": 19,
+      "first_party_evidence_count": 19,
       "name": "Fortanix",
       "priority": "high",
       "status": "covered",
@@ -407,8 +407,8 @@
           "type": "rss"
         }
       ],
-      "evidence_count": 4,
-      "first_party_evidence_count": 1,
+      "evidence_count": 14,
+      "first_party_evidence_count": 11,
       "name": "Keyfactor",
       "priority": "high",
       "status": "covered",
@@ -508,8 +508,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
+      "evidence_count": 8,
+      "first_party_evidence_count": 8,
       "name": "PsiQuantum",
       "priority": "high",
       "status": "covered",
@@ -524,8 +524,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 1,
-      "first_party_evidence_count": 0,
+      "evidence_count": 9,
+      "first_party_evidence_count": 8,
       "name": "QuEra",
       "priority": "high",
       "status": "covered",
@@ -540,8 +540,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 6,
-      "first_party_evidence_count": 0,
+      "evidence_count": 7,
+      "first_party_evidence_count": 1,
       "name": "QuSecure",
       "priority": "high",
       "status": "covered",
@@ -572,8 +572,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
+      "evidence_count": 4,
+      "first_party_evidence_count": 4,
       "name": "Quantum Computing Inc. (QCi)",
       "priority": "high",
       "status": "covered",
@@ -646,8 +646,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
+      "evidence_count": 4,
+      "first_party_evidence_count": 4,
       "name": "Wiz",
       "priority": "high",
       "status": "covered",
@@ -755,6 +755,796 @@
         "PQC / Crypto Agility"
       ],
       "type": "government"
+    },
+    {
+      "aliases": [
+        "Fortanix DSM",
+        "Fortanix Key Insight",
+        "PQC Central"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 0,
+      "evidence": [
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2026-02-04",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/guide-to-mastering-data-security-in-post-quantum-world",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-02-04T00:00:00+00:00",
+          "score": 112,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Master data security for the post-quantum era: stop harvest-now attacks with PQC readiness, crypto-agility, and Fortanix assessment + remediation.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Guide to Mastering Data Security in Post-Quantum World",
+          "url": "https://www.fortanix.com/blog/guide-to-mastering-data-security-in-post-quantum-world"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2026-01-15",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/how-crypto-agility-defines-the-next-gen-hsm",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-01-15T00:00:00+00:00",
+          "score": 55,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Learn how crypto agility and identity-first design define next-gen HSMs, enabling automated key lifecycles, cloud scale, observability, and PQC readiness.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "How Crypto Agility Defines the Next-Gen HSM",
+          "url": "https://www.fortanix.com/blog/how-crypto-agility-defines-the-next-gen-hsm"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2026-01-14",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/quantum-data-governance-securing-ai-training-data-in-a-post-quantum-world",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-01-14T00:00:00+00:00",
+          "score": 100,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Explore quantum-ready data governance for AI\u2014protect training data with strong encryption, centralized key management, and crypto-agility in a post-quantum world.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Quantum Data Governance: Securing AI Training Data in a Post-Quantum World",
+          "url": "https://www.fortanix.com/blog/quantum-data-governance-securing-ai-training-data-in-a-post-quantum-world"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-09-29",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/fortanix-and-bigid-partners-to-unveil-data-security-for-ai-and-post-quantum-world",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-09-29T00:00:00+00:00",
+          "score": 42,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Fortanix partners with BigID to close the gap between discovery & protection with encryption, tokenization & key management\u2014ready for AI & post-quantum.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Fortanix Partners with BigID for Upleveling Data Security",
+          "url": "https://www.fortanix.com/blog/fortanix-and-bigid-partners-to-unveil-data-security-for-ai-and-post-quantum-world"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-08-31",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/why-your-business-needs-post-quantum-cryptography-experts-insights",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-08-31T00:00:00+00:00",
+          "score": 50,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Learn why post-quantum cryptography companies matter now, check out experts advise on how to prepare for quantum threats & steps to secure your business.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why Your Business Needs Post-Quantum Cryptography",
+          "url": "https://www.fortanix.com/blog/why-your-business-needs-post-quantum-cryptography-experts-insights"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-08-20",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/why-cloud-data-security-must-adapt-to-post-quantum-threat",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-08-20T00:00:00+00:00",
+          "score": 50,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Quantum computing threatens cloud data security. Learn why encryption, archives, and compliance must evolve now to withstand post-quantum risk",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why Cloud Data Security Must Adapt to Post-Quantum Threats",
+          "url": "https://www.fortanix.com/blog/why-cloud-data-security-must-adapt-to-post-quantum-threat"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-08-06",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/quantum-key-encryption-in-a-post-quantum-world",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-08-06T00:00:00+00:00",
+          "score": 50,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Prepare for the quantum era with cryptographic agility\u2014learn how quantum key encryption & post-quantum strategies safeguard your data from future threats.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Quantum Key Encryption in a Post-Quantum World",
+          "url": "https://www.fortanix.com/blog/quantum-key-encryption-in-a-post-quantum-world"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-07-24",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/difference-between-post-quantum-crypto-and-quantum-crypto",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-07-24T00:00:00+00:00",
+          "score": 50,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Read the blog to understand the differences between post-quantum crypto & quantum crypto & how to future-proof your data in the age of quantum computing.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Difference Between Post-Quantum Crypto & Quantum Crypto",
+          "url": "https://www.fortanix.com/blog/difference-between-post-quantum-crypto-and-quantum-crypto"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-07-23",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/quantum-security-for-post-quantum-cryptography",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-07-23T00:00:00+00:00",
+          "score": 78,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Prepare for the quantum era. Learn why post-quantum security matters now and how to future-proof your data with practical, quantum-safe strategies.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Quantum Security for Post-Quantum Cryptography",
+          "url": "https://www.fortanix.com/blog/quantum-security-for-post-quantum-cryptography"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-07-22",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/risk-of-delaying-quantum-safe-algorithms-in-data-security",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-07-22T00:00:00+00:00",
+          "score": 64,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Postponing quantum safe algorithms adoption can expose your data to future threats. Learn how to secure it now and prepare for the quantum era.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Risks of delaying post-quantum cryptography adoption",
+          "url": "https://www.fortanix.com/blog/risk-of-delaying-quantum-safe-algorithms-in-data-security"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-07-22",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/will-quantum-cryptography-be-able-to-eliminate-data-breaches-in-the-future",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-07-22T00:00:00+00:00",
+          "score": 42,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Can quantum cryptography eliminate data breaches? Explore how it works, its real-world impact, and what CISOs must do to prepare for a quantum-safe future.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Will Quantum Cryptography Be Able to Eliminate Data Breaches",
+          "url": "https://www.fortanix.com/blog/will-quantum-cryptography-be-able-to-eliminate-data-breaches-in-the-future"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-07-10",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/why-data-security-in-the-cloud-needs-to-evolve-for-post-quantum-threats",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-07-10T00:00:00+00:00",
+          "score": 42,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Quantum threats are coming. Learn why cloud data security must evolve now with post-quantum cryptography, tokenization, and Zero Trust architecture.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why Data Security in the Cloud Needs to Evolve",
+          "url": "https://www.fortanix.com/blog/why-data-security-in-the-cloud-needs-to-evolve-for-post-quantum-threats"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-06-10",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/is-your-data-future-proof-why-quantum-resistant-cryptography-matters-now",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-06-10T00:00:00+00:00",
+          "score": 34,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Quantum computing threatens today\u2019s encryption. Learn why quantum-resistant cryptography is critical now and how Fortanix helps secure your digital future.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why Quantum-Resistant Cryptography Matters Now",
+          "url": "https://www.fortanix.com/blog/is-your-data-future-proof-why-quantum-resistant-cryptography-matters-now"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-06-03",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/a-peek-inside-post-quantum-key",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-06-03T00:00:00+00:00",
+          "score": 50,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Explore what\u2019s inside post-quantum keys, how module lattices replace integers, and why secure cryptographic implementation needs a new approach.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "A Peek Inside Post-Quantum Keys",
+          "url": "https://www.fortanix.com/blog/a-peek-inside-post-quantum-key"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2025-05-06",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/untold-challenge-of-post-quantum-cryptography-migration",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-05-06T00:00:00+00:00",
+          "score": 50,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Uncover the hidden risks of Post-Quantum Cryptography migration. Learn how ghost incompatibility can silently break security, integrations, and compliance.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Untold Challenge of Post-Quantum Cryptography Migration",
+          "url": "https://www.fortanix.com/blog/untold-challenge-of-post-quantum-cryptography-migration"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-03-20",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/which-post-quantum-cryptography-pqc-algorithm-should-i-use",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-03-20T00:00:00+00:00",
+          "score": 62,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Choosing the right post-quantum cryptography (PQC) algorithm is critical as quantum threats rise. Learn how to secure encryption, key management & digital signing.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Which Post Quantum Cryptography (PQC) Algorithm Should I Use?",
+          "url": "https://www.fortanix.com/blog/which-post-quantum-cryptography-pqc-algorithm-should-i-use"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2024-12-16",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/simplifying-pqc-migration-with-fortanix-key-insight-in-the-post-quantum-era",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2024-12-16T00:00:00+00:00",
+          "score": 66,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Simplify your PQC migration with Fortanix Key Insight. Discover, prioritize & remediate cryptographic risks to secure your enterprise in the quantum era.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Simplifying PQC Migration in the Post-Quantum Era",
+          "url": "https://www.fortanix.com/blog/simplifying-pqc-migration-with-fortanix-key-insight-in-the-post-quantum-era"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2024-10-28",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/the-future-of-quantum-resistant-cryptography-a-data-security-perspective",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2024-10-28T00:00:00+00:00",
+          "score": 34,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Protect data from quantum threats with Fortanix. Discover quantum-resistant cryptography's role in data security for future-proofing critical assets.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The Future of Quantum-Resistant Cryptography",
+          "url": "https://www.fortanix.com/blog/the-future-of-quantum-resistant-cryptography-a-data-security-perspective"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2024-08-19",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/start-your-post-quantum-cryptography-journey-now",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2024-08-19T00:00:00+00:00",
+          "score": 66,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Prepare for the quantum future with Fortanix. Learn how to secure your data against quantum threats with post-quantum cryptography solutions.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Start Your Post-Quantum Cryptography (PQC) Journey Now",
+          "url": "https://www.fortanix.com/blog/start-your-post-quantum-cryptography-journey-now"
+        }
+      ],
+      "evidence_count": 19,
+      "first_seen": "2024-08-19",
+      "historical_evidence_count": 19,
+      "latest_seen": "2026-02-04",
+      "momentum": "stable",
+      "name": "Fortanix",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "dormant",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 4,
+      "evidence": [
+        {
+          "date": "2026-07-25",
+          "key": "https://quantumzeitgeist.com/keyfactor-security-services-ai-post-quantum",
+          "report": "2026-07/2026-07-25-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Keyfactor Partners Gain Tools for AI & Post-Quantum Security Services",
+          "url": "https://quantumzeitgeist.com/keyfactor-security-services-ai-post-quantum"
+        },
+        {
+          "date": "2026-07-22",
+          "key": "https://thequantuminsider.com/2026/07/22/keyfactor-expands-partner-program-for-post-quantum-security",
+          "report": "2026-07/2026-07-22-digest.md",
+          "score": 55,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Keyfactor Expands Partner Program for Post-Quantum Cryptography Readiness",
+          "url": "https://thequantuminsider.com/2026/07/22/keyfactor-expands-partner-program-for-post-quantum-security"
+        },
+        {
+          "date": "2026-07-22",
+          "key": "https://www.keyfactor.com/press-releases/keyfactor-expands-global-partner-ecosystem-to-help-partners-lead-the-ai-and-post-quantum-era",
+          "report": "2026-07/2026-07-22-digest.md",
+          "score": 50,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Keyfactor Expands Global Partner Ecosystem to Help Partners Lead the AI and Post-Quantum Era",
+          "url": "https://www.keyfactor.com/press-releases/keyfactor-expands-global-partner-ecosystem-to-help-partners-lead-the-ai-and-post-quantum-era"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2026-07-13",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/events/preparing-for-the-uks-quantum-safe-future",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-07-13T10:56:17+00:00",
+          "score": 50,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "D\u00e9couvrez les prochains webinaires de Keyfactor et restez inform\u00e9 des derni\u00e8res avanc\u00e9es en mati\u00e8re de s\u00e9curit\u00e9 num\u00e9rique.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Preparing for the UK's Quantum-Safe Future",
+          "url": "https://www.keyfactor.com/events/preparing-for-the-uks-quantum-safe-future/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2026-07-06",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog/agilesec-3-6-gives-security-teams-more-visibility-more-control-and-a-faster-path-to-cryptographic-agility",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-07-06T12:37:38+00:00",
+          "score": 68,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "AgileSec 3.6 delivers some of our most impactful enhancements to date, helping organizations strengthen security, expand cryptographic visibility, and accelerate crypto-agility initiatives. This release focuses on three key areas: Stronger security and access controls with RSA JWT toke",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "AgileSec 3.6 Gives Security Teams More Visibility, More Control, and a Faster Path to Cryptographic-Agility",
+          "url": "https://www.keyfactor.com/blog/agilesec-3-6-gives-security-teams-more-visibility-more-control-and-a-faster-path-to-cryptographic-agility/"
+        },
+        {
+          "date": "2026-07-06",
+          "key": "https://thequantuminsider.com/2026/07/06/keyfactor-1b-growth-investment-summit-partners",
+          "report": "2026-07/2026-07-06-digest.md",
+          "score": 55,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Keyfactor Announces $1B+ Strategic Growth Investment to Expand Leadership in Securing Post-Quantum Enterprise",
+          "url": "https://thequantuminsider.com/2026/07/06/keyfactor-1b-growth-investment-summit-partners"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2026-06-23",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog/explaining-executive-order-securing-the-nation-against-advanced-cryptographic-attacks-what-this-means-for-your-organization",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-06-23T17:20:41+00:00",
+          "score": 100,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "Post-quantum cryptography (PQC) has officially crossed the line from a risk that seems far away to an active mandate that is driving change. There is no better time than now to start a PQC readiness plan, if you haven\u2019t already. The Executive Order: Securing the Nation Against Advanced Cryptogr",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Explaining Executive Order: Securing the Nation Against Advanced Cryptographic Attacks & What This Means for Your Organization",
+          "url": "https://www.keyfactor.com/blog/explaining-executive-order-securing-the-nation-against-advanced-cryptographic-attacks-what-this-means-for-your-organization/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2026-06-17",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog/the-biggest-security-challenge-isnt-ai-or-quantum-its-trust",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-06-17T21:12:23+00:00",
+          "score": 30,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "There has never been a more important time to talk about trust. For years, trust lived in the background. Identity teams focused on authentication. PKI teams managed certificates. Security teams worried about risk. Infrastructure teams kept systems running. Today, security leaders are navigati",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The Biggest Security Challenge Isn't AI or Quantum\u2014It's Trust",
+          "url": "https://www.keyfactor.com/blog/the-biggest-security-challenge-isnt-ai-or-quantum-its-trust/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2026-05-21",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog/how-to-build-a-cryptographic-asset-inventory-across-cloud-ci-cd-and-devices",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-05-21T13:00:06+00:00",
+          "score": 39,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "Conducting a cryptographic inventory is a foundational best practice for managing security risk, meeting compliance requirements, and enabling cryptographic agility.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "How to Build a Cryptographic Asset Inventory Across Cloud, CI/CD, and Devices",
+          "url": "https://www.keyfactor.com/blog/how-to-build-a-cryptographic-asset-inventory-across-cloud-ci-cd-and-devices/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2026-04-28",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog/quantum-isnt-the-problem-its-the-warning",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-04-28T18:10:47+00:00",
+          "score": 42,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "Quantum computing isn\u2019t the problem. It\u2019s the proof. Proof that cryptography will fail. Proof that standards will change. Proof that anything fixed today won\u2019t hold forever. Post-quantum didn\u2019t create urgency. It exposed it. The real problem has been here all along",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Quantum Isn\u2019t the Problem. It\u2019s the Warning.",
+          "url": "https://www.keyfactor.com/blog/quantum-isnt-the-problem-its-the-warning/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2026-03-20",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog/pqc-without-the-pc-is-incomplete-the-endpoint-blind-spot-in-post-quantum-cryptography",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-03-20T12:00:37+00:00",
+          "score": 66,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "The quantum transition must include every place cryptography is embedded. That includes the PC, which is often overlooked.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "PQC Without the PC Is Incomplete: The Endpoint Blind Spot in Post-Quantum Cryptography",
+          "url": "https://www.keyfactor.com/blog/pqc-without-the-pc-is-incomplete-the-endpoint-blind-spot-in-post-quantum-cryptography/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2025-12-29",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/solutions/manage-cryptographic-posture",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-12-29T21:38:30+00:00",
+          "score": 42,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "Optimize cryptography, reduce key and certificate risks, set crypto policy. Explore Certificate lifecycle Management for Zero Trust and Post-Quantum security.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Cryptographic Posture Management (CPM)",
+          "url": "https://www.keyfactor.com/solutions/manage-cryptographic-posture/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog_categories/crypto-agility",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 45,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Crypto Agility",
+          "url": "https://www.keyfactor.com/blog_categories/crypto-agility/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog_categories/post-quantum-cryptography",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 32,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post Quantum Cryptography",
+          "url": "https://www.keyfactor.com/blog_categories/post-quantum-cryptography/"
+        }
+      ],
+      "evidence_count": 14,
+      "first_seen": "2025-12-29",
+      "historical_evidence_count": 10,
+      "latest_seen": "2026-07-25",
+      "momentum": "rising",
+      "name": "Keyfactor",
+      "prior_count": 1,
+      "priority": "high",
+      "recent_count": 3,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
     },
     {
       "aliases": [
@@ -892,6 +1682,451 @@
     },
     {
       "aliases": [
+        "QuEra Computing"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
+      "evidence": [
+        {
+          "date": "2026-07-22",
+          "key": "https://quantumzeitgeist.com/university-college-london-quantum-thermodynamic-sampling",
+          "report": "2026-07/2026-07-22-digest.md",
+          "score": 47,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "QuEra\u2019s 78-Site Graphene System Validates Quantum Thermodynamic Sampling",
+          "url": "https://quantumzeitgeist.com/university-college-london-quantum-thermodynamic-sampling"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Standards / Policy",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/bcg-x-and-quera-computing-join-forces-to-accelerate-quantum-value-for-enterprises-and-government-innovators",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 100,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "BCG X AI Science Institute joins QuEra\u2019s Quantum Alliance to accelerate enterprise and government quantum use-cases.",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "BCG X & QuEra Computing Forge Quantum Partnership",
+          "url": "https://www.quera.com/press-releases/bcg-x-and-quera-computing-join-forces-to-accelerate-quantum-value-for-enterprises-and-government-innovators"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/quera-selected-for-phase-1-of-darpas-quantum-benchmarking-initiative",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 81,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "QuEra joins DARPA\u2019s benchmarking initiative to advance fault-tolerant quantum computing with neutral-atom tech.",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QuEra Joins DARPA\u2019s Quantum Benchmarking Initiative",
+          "url": "https://www.quera.com/press-releases/quera-selected-for-phase-1-of-darpas-quantum-benchmarking-initiative"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Networking",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/nanoqt-and-quera-collaborate-on-scalable-networked-quantum-processing-units",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 56,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "NanoQT and QuEra announce a collaboration to develop scalable, networked quantum processing units for future distributed quantum computing.",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "NanoQT & QuEra Partner on Networked Quantum Processors",
+          "url": "https://www.quera.com/press-releases/nanoqt-and-quera-collaborate-on-scalable-networked-quantum-processing-units"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/icsc-and-quera-computing-launch-partnership-to-give-italian-researchers-premium-cloud-access-to-world-leading-neutral-atom-quantum-computer",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 50,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "Italian researchers gain cloud access to QuEra\u2019s 256-qubit neutral-atom system with mentorship and national support.",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "ICSC & QuEra Computing Launch Partnership",
+          "url": "https://www.quera.com/press-releases/icsc-and-quera-computing-launch-partnership-to-give-italian-researchers-premium-cloud-access-to-world-leading-neutral-atom-quantum-computer"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/sdt-joins-quera-alliance-to-advance-neutral-atom-quantum-computing",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 45,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Press Releases November 13, 2025 SDT Joins QuEra Alliance To Advance Neutral-Atom Quantum Computing",
+          "url": "https://www.quera.com/press-releases/sdt-joins-quera-alliance-to-advance-neutral-atom-quantum-computing"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/quera-selected-for-nedo-post-5g-information-and-communication-systems-infrastructure-enhancement-r-d-project",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 37,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "QuEra joins Japan\u2019s NEDO initiative to advance neutral-atom quantum hardware and manufacturing for post-5G systems.",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QuEra Selected for NEDO Post-5G Infrastructure R&D",
+          "url": "https://www.quera.com/press-releases/quera-selected-for-nedo-post-5g-information-and-communication-systems-infrastructure-enhancement-r-d-project"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/quera-computing-and-deloitte-form-alliance-to-accelerate-enterprise-adoption-of-neutral-atom-quantum-computing",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 37,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "QuEra and Deloitte form an alliance to drive enterprise adoption of neutral-atom quantum computing and deliver real business value.",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Algorithmiq Joins QuEra Alliance For Quantum Healthcare",
+          "url": "https://www.quera.com/press-releases/quera-computing-and-deloitte-form-alliance-to-accelerate-enterprise-adoption-of-neutral-atom-quantum-computing"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Software / Tooling",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/scientists-observe-string-breaking-in-two-dimensional-quantum-simulator",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 26,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "QuEra's paper published via Nature demonstrates the observation of string breaking in synthetic quantum matter.",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Scientists Observe String Breaking in 2D Quantum Simulator",
+          "url": "https://www.quera.com/press-releases/scientists-observe-string-breaking-in-two-dimensional-quantum-simulator"
+        }
+      ],
+      "evidence_count": 9,
+      "first_seen": "2026-07-22",
+      "historical_evidence_count": 8,
+      "latest_seen": "2026-07-22",
+      "momentum": "rising",
+      "name": "QuEra",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "Quantum Hardware",
+        "Quantum Networking",
+        "Quantum Software / Tooling",
+        "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 0,
+      "evidence": [
+        {
+          "alert_eligible": false,
+          "category": "Standards / Policy",
+          "date": "2026-07-22",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/psiquantum-signs-125-million-agreement-with-darpa",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-07-22T13:00:39+00:00",
+          "score": 100,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "PsiQuantum today announced that the company has signed a new $125 million contract with the Defense Advanced Research Projects Agency (DARPA) under DARPA\u2019s Quantum Benchmarking Initiative (QBI), the U.S. government\u2019s most rigorous effort to evaluate commercial pathways to utility-scale quantum compu",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "PsiQuantum Signs $125 Million Agreement with DARPA \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/psiquantum-signs-125-million-agreement-with-darpa"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Standards / Policy",
+          "date": "2026-05-21",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/us-department-of-commerce",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-05-21T10:42:56+00:00",
+          "score": 16,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "PsiQuantum has signed a Letter of Intent with the U.S. Department of Commerce for $100 million in proposed federal incentives under the CHIPS and Science Act to advance American quantum computing and semiconductor leadership.",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "PsiQuantum Signs $100 Million Letter of Intent with the U.S. Department of Commerce \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/us-department-of-commerce"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Standards / Policy",
+          "date": "2026-04-16",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/utokyo-mitsubishi-partnership",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-04-16T01:00:15+00:00",
+          "score": 100,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "PsiQuantum, the University of Tokyo, and the Mitsubishi Chemical Corporation today announced a partnership to provide education and training for Japan\u2019s growing quantum workforce. This initiative is supported by the Government of Japan\u2019s New Energy and Industrial Technology Development Organization",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "PsiQuantum, the University of Tokyo, and Mitsubishi Chemical Corporation Announce Partnership to Bolster Quantum Workforce Development in Japan \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/utokyo-mitsubishi-partnership"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Software / Tooling",
+          "date": "2026-03-16",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/construct-nvidia-cudaq",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-03-16T20:30:34+00:00",
+          "score": 56,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "PsiQuantum announced the integration of NVIDIA CUDA-Q with Construct, PsiQuantum\u2019s software suite for fault-tolerant quantum application development. The integration enables GPU-accelerated state-vector simulation of large-scale quantum algorithms, delivering up to 450x faster performance compared t",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "PsiQuantum Construct Enables Utility-Scale Quantum Application Development with CUDA-Q Integration \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/construct-nvidia-cudaq"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-09-10",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/psiquantum-1b-fundraise",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-09-10T10:54:16+00:00",
+          "score": 73,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "PsiQuantum today announced it has raised $1 billion in funding for its Series E round to build the world\u2019s first commercially useful, fault-tolerant quantum computers. This funding will equip the company to break ground on utility-scale quantum computing sites in Brisbane and Chicago, deploy large-s",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "PsiQuantum Raises $1 Billion to Build Million-Qubit Scale, Fault-Tolerant Quantum Computers \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/psiquantum-1b-fundraise"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-05-08",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/psiquantum-linde",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-05-08T11:52:45+00:00",
+          "score": 14,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "Read more here. PsiQuantum today announced a major milestone in its Brisbane project: a partnership with Linde Engineering to build and deliver one of the largest cryogenic plants ever planned for quantum computing. The plant will be constructed and tested by Linde, then installed at PsiQuantum\u2019s",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "PsiQuantum and Linde Engineering Collaborate to Deliver Cryogenic Plant for World\u2019s First Utility-Scale Quantum Computer in Brisbane \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/psiquantum-linde"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-04-15",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/psiquantum-afrl-omega",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-04-15T13:00:00+00:00",
+          "score": 14,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "Read more here. PsiQuantum today announced a $10.8M contract with the Air Force Research Laboratory (AFRL) in Rome, N.Y., continuing a partnership that began in 2022. This phase will give AFRL a design space for comparative quantum circuits on PsiQuantum\u2019s circuit tapeout, part of its ongoing Omeg",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "PsiQuantum Announces $10.8M Contract with Air Force Research Laboratory to Deliver Novel Quantum Chip Capabilities to the U.S. Air Force \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/psiquantum-afrl-omega"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-02-26",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/omega",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-02-26T16:00:00+00:00",
+          "score": 23,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "PsiQuantum announces Omega, a quantum photonic chipset purpose-built for utility-scale quantum computing.",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "PsiQuantum Announces Omega, a Manufacturable Chipset for Photonic Quantum Computing \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/omega"
+        }
+      ],
+      "evidence_count": 8,
+      "first_seen": "2025-02-26",
+      "historical_evidence_count": 8,
+      "latest_seen": "2026-07-22",
+      "momentum": "rising",
+      "name": "PsiQuantum",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "Quantum Hardware",
+        "Quantum Software / Tooling",
+        "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
         "QuProtect"
       ],
       "case_sensitive_aliases": [],
@@ -935,42 +2170,66 @@
         },
         {
           "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-07-19",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "QuSecure"
+          ],
+          "historical": true,
+          "key": "https://www.qusecure.com/press-releases",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-07-19T08:33:26+00:00",
+          "score": 28,
+          "source": "QuSecure Press Releases",
+          "source_type": "watch",
+          "summary": "Post Quantum Cryptography Made Simple | Press Releases",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Press Releases",
+          "url": "https://www.qusecure.com/press-releases/"
+        },
+        {
+          "alert_eligible": false,
           "category": "Crypto Agility",
-          "date": "2025-01-21",
-          "date_confidence": "medium",
-          "date_kind": "modified",
-          "date_source": "sitemap:lastmod",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
           "entities": [
             "Accenture / Accenture Federal Services"
           ],
           "historical": true,
-          "key": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility",
-          "observed_at": "2026-07-22T00:25:17.598585+00:00",
-          "published_at": "2025-01-21T00:00:00+00:00",
-          "score": 69,
+          "key": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 100,
           "source": "Accenture Quantum and PQC News",
           "source_type": "watch",
-          "summary": "Accenture has made a strategic investment, through Accenture Ventures, in QuSecure \u2122 a leader in post-quantum cybersecurity.",
+          "summary": "The companies demonstrate that crypto-agility, successfully rotating to a less vulnerable algorithm, is real and possible",
           "themes": [
             "PQC / Crypto Agility"
           ],
-          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
-          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
+          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
         },
         {
           "alert_eligible": false,
           "category": "PQC",
-          "date": "2024-12-13",
-          "date_confidence": "medium",
-          "date_kind": "modified",
-          "date_source": "sitemap:lastmod",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
           "entities": [
             "Accenture / Accenture Federal Services"
           ],
           "historical": true,
           "key": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure",
-          "observed_at": "2026-07-22T00:25:17.598585+00:00",
-          "published_at": "2024-12-13T00:00:00+00:00",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
           "score": 72,
           "source": "Accenture Quantum and PQC News",
           "source_type": "watch",
@@ -984,31 +2243,31 @@
         {
           "alert_eligible": false,
           "category": "Crypto Agility",
-          "date": "2024-10-02",
-          "date_confidence": "medium",
-          "date_kind": "modified",
-          "date_source": "sitemap:lastmod",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
           "entities": [
             "Accenture / Accenture Federal Services"
           ],
           "historical": true,
-          "key": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization",
-          "observed_at": "2026-07-22T00:25:17.598585+00:00",
-          "published_at": "2024-10-02T00:00:00+00:00",
-          "score": 100,
+          "key": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 69,
           "source": "Accenture Quantum and PQC News",
           "source_type": "watch",
-          "summary": "The companies demonstrate that crypto-agility, successfully rotating to a less vulnerable algorithm, is real and possible",
+          "summary": "Accenture has made a strategic investment, through Accenture Ventures, in QuSecure \u2122 a leader in post-quantum cybersecurity.",
           "themes": [
             "PQC / Crypto Agility"
           ],
-          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
-          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
+          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
+          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
         }
       ],
-      "evidence_count": 6,
-      "first_seen": "2024-10-02",
-      "historical_evidence_count": 3,
+      "evidence_count": 7,
+      "first_seen": "2025-07-19",
+      "historical_evidence_count": 4,
       "latest_seen": "2026-07-25",
       "momentum": "stable",
       "name": "QuSecure",
@@ -1034,42 +2293,66 @@
       "evidence": [
         {
           "alert_eligible": false,
-          "category": "Crypto Agility",
-          "date": "2025-01-21",
-          "date_confidence": "medium",
-          "date_kind": "modified",
-          "date_source": "sitemap:lastmod",
+          "category": "Standards / Policy",
+          "date": "2026-01-02",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
           "entities": [
             "Accenture / Accenture Federal Services"
           ],
           "historical": true,
-          "key": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility",
-          "observed_at": "2026-07-22T00:25:17.598585+00:00",
-          "published_at": "2025-01-21T00:00:00+00:00",
-          "score": 69,
+          "key": "https://www.accenture.com/us-en/insights/us-federal-government/future-quantum-speed",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-01-02T01:48:38.449000+00:00",
+          "score": 100,
+          "source": "Accenture Federal Services Quantum Readiness",
+          "source_type": "watch",
+          "summary": "Learn how federal agencies can prioritize quantum readiness to protect against emerging threats.",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "Quantum Computing in the Federal Government | Accenture",
+          "url": "https://www.accenture.com/us-en/insights/us-federal-government/future-quantum-speed"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 100,
           "source": "Accenture Quantum and PQC News",
           "source_type": "watch",
-          "summary": "Accenture has made a strategic investment, through Accenture Ventures, in QuSecure \u2122 a leader in post-quantum cybersecurity.",
+          "summary": "The companies demonstrate that crypto-agility, successfully rotating to a less vulnerable algorithm, is real and possible",
           "themes": [
             "PQC / Crypto Agility"
           ],
-          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
-          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
+          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
         },
         {
           "alert_eligible": false,
           "category": "PQC",
-          "date": "2024-12-13",
-          "date_confidence": "medium",
-          "date_kind": "modified",
-          "date_source": "sitemap:lastmod",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
           "entities": [
             "Accenture / Accenture Federal Services"
           ],
           "historical": true,
           "key": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure",
-          "observed_at": "2026-07-22T00:25:17.598585+00:00",
-          "published_at": "2024-12-13T00:00:00+00:00",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
           "score": 72,
           "source": "Accenture Quantum and PQC News",
           "source_type": "watch",
@@ -1083,41 +2366,41 @@
         {
           "alert_eligible": false,
           "category": "Crypto Agility",
-          "date": "2024-10-02",
-          "date_confidence": "medium",
-          "date_kind": "modified",
-          "date_source": "sitemap:lastmod",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
           "entities": [
             "Accenture / Accenture Federal Services"
           ],
           "historical": true,
-          "key": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization",
-          "observed_at": "2026-07-22T00:25:17.598585+00:00",
-          "published_at": "2024-10-02T00:00:00+00:00",
-          "score": 100,
+          "key": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 69,
           "source": "Accenture Quantum and PQC News",
           "source_type": "watch",
-          "summary": "The companies demonstrate that crypto-agility, successfully rotating to a less vulnerable algorithm, is real and possible",
+          "summary": "Accenture has made a strategic investment, through Accenture Ventures, in QuSecure \u2122 a leader in post-quantum cybersecurity.",
           "themes": [
             "PQC / Crypto Agility"
           ],
-          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
-          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
+          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
+          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
         },
         {
           "alert_eligible": false,
           "category": "Quantum Networking",
-          "date": "2024-10-02",
-          "date_confidence": "medium",
-          "date_kind": "modified",
-          "date_source": "sitemap:lastmod",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
           "entities": [
             "Accenture / Accenture Federal Services"
           ],
           "historical": true,
           "key": "https://newsroom.accenture.com/news/2023/accenture-invests-in-aliro-quantum-to-establish-secure-quantum-networks",
-          "observed_at": "2026-07-22T00:25:17.598585+00:00",
-          "published_at": "2024-10-02T00:00:00+00:00",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
           "score": 43,
           "source": "Accenture Quantum and PQC News",
           "source_type": "watch",
@@ -1129,10 +2412,10 @@
           "url": "https://newsroom.accenture.com/news/2023/accenture-invests-in-aliro-quantum-to-establish-secure-quantum-networks"
         }
       ],
-      "evidence_count": 4,
-      "first_seen": "2024-10-02",
-      "historical_evidence_count": 4,
-      "latest_seen": "2025-01-21",
+      "evidence_count": 5,
+      "first_seen": "2026-01-02",
+      "historical_evidence_count": 5,
+      "latest_seen": "2026-01-02",
       "momentum": "stable",
       "name": "Accenture / Accenture Federal Services",
       "prior_count": 0,
@@ -1141,74 +2424,344 @@
       "status": "dormant",
       "themes": [
         "PQC / Crypto Agility",
-        "Quantum Networking"
+        "Quantum Networking",
+        "Standards / Government"
       ],
       "type": "consulting"
     },
     {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 4,
+      "aliases": [
+        "Quantum Computing Inc",
+        "QUBT"
+      ],
+      "case_sensitive_aliases": [
+        "QCi"
+      ],
+      "current_evidence_count": 0,
       "evidence": [
         {
-          "date": "2026-07-25",
-          "key": "https://quantumzeitgeist.com/keyfactor-security-services-ai-post-quantum",
-          "report": "2026-07/2026-07-25-digest.md",
-          "score": 55,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "PQC / Crypto Agility"
+          "alert_eligible": false,
+          "category": "Quantum Networking",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Quantum Computing Inc. (QCi)"
           ],
-          "title": "Keyfactor Partners Gain Tools for AI & Post-Quantum Security Services",
-          "url": "https://quantumzeitgeist.com/keyfactor-security-services-ai-post-quantum"
+          "historical": true,
+          "key": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-and-ciena-demonstrate-next-generation-quantum-secured-communications-with-high-speed-encryption-using-pqc-and-qkd-at-ofc-2026",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 34,
+          "source": "QCi Press Releases",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Quantum Computing Inc. and Ciena Demonstrate Next-Generation Quantum-Secured Communications with High-Speed Encryption using PQC and QKD at OFC 2026 - Quantum Computing Inc",
+          "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-and-ciena-demonstrate-next-generation-quantum-secured-communications-with-high-speed-encryption-using-pqc-and-qkd-at-ofc-2026"
         },
         {
-          "date": "2026-07-22",
-          "key": "https://thequantuminsider.com/2026/07/22/keyfactor-expands-partner-program-for-post-quantum-security",
-          "report": "2026-07/2026-07-22-digest.md",
-          "score": 55,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
+          "alert_eligible": false,
+          "category": "Quantum Networking",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Quantum Computing Inc. (QCi)"
           ],
-          "title": "Keyfactor Expands Partner Program for Post-Quantum Cryptography Readiness",
-          "url": "https://thequantuminsider.com/2026/07/22/keyfactor-expands-partner-program-for-post-quantum-security"
+          "historical": true,
+          "key": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-completes-acquisition-of-nucrypt-to-advance-quantum-communications-commercialization",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 32,
+          "source": "QCi Press Releases",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Quantum Computing Inc. Completes Acquisition of NuCrypt to Advance Quantum Communications Commercialization - Quantum Computing Inc",
+          "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-completes-acquisition-of-nucrypt-to-advance-quantum-communications-commercialization"
         },
         {
-          "date": "2026-07-22",
-          "key": "https://www.keyfactor.com/press-releases/keyfactor-expands-global-partner-ecosystem-to-help-partners-lead-the-ai-and-post-quantum-era",
-          "report": "2026-07/2026-07-22-digest.md",
-          "score": 50,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "themes": [
-            "PQC / Crypto Agility"
+          "alert_eligible": false,
+          "category": "Quantum Software / Tooling",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Quantum Computing Inc. (QCi)"
           ],
-          "title": "Keyfactor Expands Global Partner Ecosystem to Help Partners Lead the AI and Post-Quantum Era",
-          "url": "https://www.keyfactor.com/press-releases/keyfactor-expands-global-partner-ecosystem-to-help-partners-lead-the-ai-and-post-quantum-era"
+          "historical": true,
+          "key": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-announces-framework-agreement-with-planck-dynamics-to-deploy-neurawave-photonic-reservoir-computer-as-a-foundational-platform-for-next-generation-ai-applications",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 28,
+          "source": "QCi Press Releases",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Quantum Computing Inc. Announces Framework Agreement with Planck Dynamics to Deploy NeuraWave Photonic Reservoir Computer As A Foundational Platform For Next-Generation AI Applications - Quantum Computing Inc",
+          "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-announces-framework-agreement-with-planck-dynamics-to-deploy-neurawave-photonic-reservoir-computer-as-a-foundational-platform-for-next-generation-ai-applications"
         },
         {
-          "date": "2026-07-06",
-          "key": "https://thequantuminsider.com/2026/07/06/keyfactor-1b-growth-investment-summit-partners",
-          "report": "2026-07/2026-07-06-digest.md",
-          "score": 55,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Quantum Computing Inc. (QCi)"
           ],
-          "title": "Keyfactor Announces $1B+ Strategic Growth Investment to Expand Leadership in Securing Post-Quantum Enterprise",
-          "url": "https://thequantuminsider.com/2026/07/06/keyfactor-1b-growth-investment-summit-partners"
+          "historical": true,
+          "key": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-announces-deployment-ready-neurawave-a-photonic-computing-platform-for-real-time-ai-inference-at-the-edge",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 23,
+          "source": "QCi Press Releases",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantum Computing Inc. Announces Deployment-Ready NeuraWave, a Photonic Computing Platform for Real-time AI Inference at the Edge - Quantum Computing Inc",
+          "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-announces-deployment-ready-neurawave-a-photonic-computing-platform-for-real-time-ai-inference-at-the-edge"
         }
       ],
       "evidence_count": 4,
-      "first_seen": "2026-07-06",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-07-25",
-      "momentum": "rising",
-      "name": "Keyfactor",
+      "first_seen": null,
+      "historical_evidence_count": 4,
+      "latest_seen": null,
+      "momentum": "stable",
+      "name": "Quantum Computing Inc. (QCi)",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 3,
-      "status": "active",
+      "recent_count": 0,
+      "status": "documented",
+      "themes": [
+        "Quantum Hardware",
+        "Quantum Networking",
+        "Quantum Software / Tooling"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Wiz Security"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 0,
+      "evidence": [
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2026-07-02",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:time.datetime",
+          "entities": [
+            "Wiz"
+          ],
+          "historical": true,
+          "key": "https://www.wiz.io/blog/white-house-post-quantum-cryptography-executive-order",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-07-02T01:48:01+00:00",
+          "score": 100,
+          "source": "Wiz Post-Quantum Security",
+          "source_type": "watch",
+          "summary": "The latest Executive Order and OMB memorandum accelerate federal post-quantum cryptography adoption. Understand the timelines, requirements, and next steps.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "White House PQC Mandates Explained: EO 14409 & M-26-15 | Wiz Blog",
+          "url": "https://www.wiz.io/blog/white-house-post-quantum-cryptography-executive-order"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2026-05-28",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:time.datetime",
+          "entities": [
+            "Wiz"
+          ],
+          "historical": true,
+          "key": "https://www.wiz.io/blog/state-of-post-quantum-cryptography",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-05-28T13:34:55+00:00",
+          "score": 44,
+          "source": "Wiz Post-Quantum Security",
+          "source_type": "watch",
+          "summary": "Discussion of PQC relevant statistics that we see across our customers and other data sources.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "State of Post Quantum Cryptography | Wiz Blog",
+          "url": "https://www.wiz.io/blog/state-of-post-quantum-cryptography"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2026-01-16",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:time.datetime",
+          "entities": [
+            "Wiz"
+          ],
+          "historical": true,
+          "key": "https://www.wiz.io/academy/cloud-security/post-quantum-cryptography",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-01-16T14:10:56+00:00",
+          "score": 50,
+          "source": "Wiz Post-Quantum Security",
+          "source_type": "watch",
+          "summary": "Learn what post-quantum cryptography is, why it matters for cloud security, and how to prepare for quantum risk with visibility and testing.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post-Quantum Cryptography: What It Is and How to Prepare | Wiz",
+          "url": "https://www.wiz.io/academy/cloud-security/post-quantum-cryptography"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2026-01-08",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:time.datetime",
+          "entities": [
+            "Wiz"
+          ],
+          "historical": true,
+          "key": "https://www.wiz.io/blog/preparing-for-post-quantum-cryptography",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-01-08T14:51:34+00:00",
+          "score": 50,
+          "source": "Wiz Post-Quantum Security",
+          "source_type": "watch",
+          "summary": "Learn what post-quantum cryptography is, why quantum computers threaten today\u2019s encryption, and how to start preparing your environment now.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Preparing for Post-Quantum Cryptography | Wiz Blog",
+          "url": "https://www.wiz.io/blog/preparing-for-post-quantum-cryptography"
+        }
+      ],
+      "evidence_count": 4,
+      "first_seen": "2026-01-08",
+      "historical_evidence_count": 4,
+      "latest_seen": "2026-07-02",
+      "momentum": "stable",
+      "name": "Wiz",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Cisco Systems"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 0,
+      "evidence": [
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Cisco"
+          ],
+          "historical": true,
+          "key": "https://blogs.cisco.com/tag/quantum-safe-encryption",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 50,
+          "source": "Cisco Quantum-Safe Updates",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "quantum-safe encryption Archives",
+          "url": "https://blogs.cisco.com/tag/quantum-safe-encryption"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Cisco"
+          ],
+          "historical": true,
+          "key": "https://blogs.cisco.com/tag/quantum-safe-computing",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 50,
+          "source": "Cisco Quantum-Safe Updates",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "quantum-safe computing Archives",
+          "url": "https://blogs.cisco.com/tag/quantum-safe-computing"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Cisco"
+          ],
+          "historical": true,
+          "key": "https://blogs.cisco.com/tag/quantum-safecomputing",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 32,
+          "source": "Cisco Quantum-Safe Updates",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Quantum-SafeComputing Archives",
+          "url": "https://blogs.cisco.com/tag/quantum-safecomputing"
+        }
+      ],
+      "evidence_count": 3,
+      "first_seen": null,
+      "historical_evidence_count": 3,
+      "latest_seen": null,
+      "momentum": "stable",
+      "name": "Cisco",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "documented",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -1306,6 +2859,80 @@
         "Quantum Hardware"
       ],
       "type": "company"
+    },
+    {
+      "aliases": [
+        "Deloitte Consulting",
+        "Deloitte Global",
+        "Deloitte Cyber"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 0,
+      "evidence": [
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Deloitte"
+          ],
+          "historical": true,
+          "key": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 43,
+          "source": "Deloitte Quantum Cyber Readiness",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Intro to Deloitte's crypto-inventory methodology Deloitte's crypto-inventory methodology provides a deeper look into what steps to take to effectively conduct a cryptographic inventory.",
+          "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/quera-computing-and-deloitte-form-alliance-to-accelerate-enterprise-adoption-of-neutral-atom-quantum-computing",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 37,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "QuEra and Deloitte form an alliance to drive enterprise adoption of neutral-atom quantum computing and deliver real business value.",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Algorithmiq Joins QuEra Alliance For Quantum Healthcare",
+          "url": "https://www.quera.com/press-releases/quera-computing-and-deloitte-form-alliance-to-accelerate-enterprise-adoption-of-neutral-atom-quantum-computing"
+        }
+      ],
+      "evidence_count": 2,
+      "first_seen": null,
+      "historical_evidence_count": 2,
+      "latest_seen": null,
+      "momentum": "stable",
+      "name": "Deloitte",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "documented",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Hardware"
+      ],
+      "type": "consulting"
     },
     {
       "aliases": [
@@ -1532,53 +3159,145 @@
       "type": "government"
     },
     {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 0,
+      "evidence": [
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2026-06-16",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:article:published_time",
+          "entities": [
+            "Atom Computing"
+          ],
+          "historical": true,
+          "key": "https://atom-computing.com/atom-computing-raises-more-than-300-million-to-accelerate-deployment-of-fault-tolerant-neutral-atom-quantum-computers",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-06-16T13:03:00+00:00",
+          "score": 86,
+          "source": "Atom Computing News and Research",
+          "source_type": "watch",
+          "summary": "Press Release",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Atom Computing Raises More Than $300 Million to Accelerate Deployment of Fault-Tolerant, Neutral-Atom Quantum Computers - Atom Computing",
+          "url": "https://atom-computing.com/atom-computing-raises-more-than-300-million-to-accelerate-deployment-of-fault-tolerant-neutral-atom-quantum-computers/"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2026-06-16",
+      "historical_evidence_count": 1,
+      "latest_seen": "2026-06-16",
+      "momentum": "stable",
+      "name": "Atom Computing",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "dormant",
+      "themes": [
+        "Quantum Hardware"
+      ],
+      "type": "company"
+    },
+    {
       "aliases": [
-        "Deloitte Consulting",
-        "Deloitte Global",
-        "Deloitte Cyber"
+        "Booz Allen"
+      ],
+      "case_sensitive_aliases": [
+        "BAH"
+      ],
+      "current_evidence_count": 0,
+      "evidence": [
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-02-06",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:publishdate",
+          "entities": [
+            "Booz Allen Hamilton"
+          ],
+          "historical": true,
+          "key": "https://www.boozallen.com/insights/velocity/from-the-frontlines-of-post-quantum-cryptography.html",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-02-06T00:00:00+00:00",
+          "score": 50,
+          "source": "Booz Allen Quantum and PQC",
+          "source_type": "watch",
+          "summary": "Booz Allen insights about how enterprises can achieve post-quantum cryptography.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "From the Frontlines of Post-Quantum Cryptography",
+          "url": "https://www.boozallen.com/insights/velocity/from-the-frontlines-of-post-quantum-cryptography.html"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2025-02-06",
+      "historical_evidence_count": 1,
+      "latest_seen": "2025-02-06",
+      "momentum": "stable",
+      "name": "Booz Allen Hamilton",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "dormant",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "consulting"
+    },
+    {
+      "aliases": [
+        "European Telecommunications Standards Institute"
       ],
       "case_sensitive_aliases": [],
       "current_evidence_count": 0,
       "evidence": [
         {
           "alert_eligible": false,
-          "category": "Crypto Agility",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
+          "category": "PQC",
+          "date": "2026-06-22",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:article:published_time",
           "entities": [
-            "Deloitte"
+            "ETSI"
           ],
           "historical": true,
-          "key": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf",
-          "observed_at": "2026-07-22T00:25:17.598585+00:00",
-          "published_at": null,
-          "score": 43,
-          "source": "Deloitte Quantum Cyber Readiness",
+          "key": "https://www.etsi.org/newsroom/news/wait-see-is-not-an-option-q-day-is-here",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-06-22T08:51:46+00:00",
+          "score": 42,
+          "source": "ETSI Quantum Standards News",
           "source_type": "watch",
-          "summary": "",
+          "summary": "More than 250 participants from around the world gathered to discuss advancing the transition to quantum-safe security.",
           "themes": [
             "PQC / Crypto Agility"
           ],
-          "title": "Intro to Deloitte's crypto-inventory methodology Deloitte's crypto-inventory methodology provides a deeper look into what steps to take to effectively conduct a cryptographic inventory.",
-          "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf"
+          "title": "Wait & see is not an option: Q-day is here - ETSI",
+          "url": "https://www.etsi.org/newsroom/news/wait-see-is-not-an-option-q-day-is-here/"
         }
       ],
       "evidence_count": 1,
-      "first_seen": null,
+      "first_seen": "2026-06-22",
       "historical_evidence_count": 1,
-      "latest_seen": null,
+      "latest_seen": "2026-06-22",
       "momentum": "stable",
-      "name": "Deloitte",
+      "name": "ETSI",
       "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
-      "status": "documented",
+      "status": "dormant",
       "themes": [
         "PQC / Crypto Agility"
       ],
-      "type": "consulting"
+      "type": "standards"
     },
     {
       "aliases": [
@@ -1644,41 +3363,6 @@
       "priority": "high",
       "recent_count": 0,
       "status": "dormant",
-      "themes": [
-        "Quantum Software / Tooling"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [
-        "QuEra Computing"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 1,
-      "evidence": [
-        {
-          "date": "2026-07-22",
-          "key": "https://quantumzeitgeist.com/university-college-london-quantum-thermodynamic-sampling",
-          "report": "2026-07/2026-07-22-digest.md",
-          "score": 47,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "QuEra\u2019s 78-Site Graphene System Validates Quantum Thermodynamic Sampling",
-          "url": "https://quantumzeitgeist.com/university-college-london-quantum-thermodynamic-sampling"
-        }
-      ],
-      "evidence_count": 1,
-      "first_seen": "2026-07-22",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-07-22",
-      "momentum": "rising",
-      "name": "QuEra",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
       "themes": [
         "Quantum Software / Tooling"
       ],
@@ -2008,6 +3692,476 @@
     }
   ],
   "technologies": [
+    {
+      "aliases": [
+        "crypto agility",
+        "cryptographic agility",
+        "CBOM",
+        "cryptographic inventory"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 3,
+      "evidence": [
+        {
+          "date": "2026-07-22",
+          "key": "https://www.keyfactor.com/press-releases/keyfactor-expands-global-partner-ecosystem-to-help-partners-lead-the-ai-and-post-quantum-era",
+          "report": "2026-07/2026-07-22-digest.md",
+          "score": 50,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Keyfactor Expands Global Partner Ecosystem to Help Partners Lead the AI and Post-Quantum Era",
+          "url": "https://www.keyfactor.com/press-releases/keyfactor-expands-global-partner-ecosystem-to-help-partners-lead-the-ai-and-post-quantum-era"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2026-07-13",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/events/preparing-for-the-uks-quantum-safe-future",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-07-13T10:56:17+00:00",
+          "score": 50,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "D\u00e9couvrez les prochains webinaires de Keyfactor et restez inform\u00e9 des derni\u00e8res avanc\u00e9es en mati\u00e8re de s\u00e9curit\u00e9 num\u00e9rique.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Preparing for the UK's Quantum-Safe Future",
+          "url": "https://www.keyfactor.com/events/preparing-for-the-uks-quantum-safe-future/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2026-07-06",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog/agilesec-3-6-gives-security-teams-more-visibility-more-control-and-a-faster-path-to-cryptographic-agility",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-07-06T12:37:38+00:00",
+          "score": 68,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "AgileSec 3.6 delivers some of our most impactful enhancements to date, helping organizations strengthen security, expand cryptographic visibility, and accelerate crypto-agility initiatives. This release focuses on three key areas: Stronger security and access controls with RSA JWT toke",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "AgileSec 3.6 Gives Security Teams More Visibility, More Control, and a Faster Path to Cryptographic-Agility",
+          "url": "https://www.keyfactor.com/blog/agilesec-3-6-gives-security-teams-more-visibility-more-control-and-a-faster-path-to-cryptographic-agility/"
+        },
+        {
+          "date": "2026-07-03",
+          "key": "https://pqshield.com/why-crypto-agility-requires-real-governance",
+          "report": "2026-07/2026-07-03-digest.md",
+          "score": 108,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why crypto-agility requires real governance Eric Amador explains how pqctoday.com uses AI and WebAssembly to remove friction from testing quantum-safe algorithms. Learn how different organizational personas can map out global migration timelines and prepare for upcoming compliance mandates.",
+          "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
+        },
+        {
+          "date": "2026-06-25",
+          "key": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key",
+          "report": "2026-06/2026-06-25-digest.md",
+          "score": 128,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
+          "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2026-06-23",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog/explaining-executive-order-securing-the-nation-against-advanced-cryptographic-attacks-what-this-means-for-your-organization",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-06-23T17:20:41+00:00",
+          "score": 100,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "Post-quantum cryptography (PQC) has officially crossed the line from a risk that seems far away to an active mandate that is driving change. There is no better time than now to start a PQC readiness plan, if you haven\u2019t already. The Executive Order: Securing the Nation Against Advanced Cryptogr",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Explaining Executive Order: Securing the Nation Against Advanced Cryptographic Attacks & What This Means for Your Organization",
+          "url": "https://www.keyfactor.com/blog/explaining-executive-order-securing-the-nation-against-advanced-cryptographic-attacks-what-this-means-for-your-organization/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2026-06-17",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog/the-biggest-security-challenge-isnt-ai-or-quantum-its-trust",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-06-17T21:12:23+00:00",
+          "score": 30,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "There has never been a more important time to talk about trust. For years, trust lived in the background. Identity teams focused on authentication. PKI teams managed certificates. Security teams worried about risk. Infrastructure teams kept systems running. Today, security leaders are navigati",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The Biggest Security Challenge Isn't AI or Quantum\u2014It's Trust",
+          "url": "https://www.keyfactor.com/blog/the-biggest-security-challenge-isnt-ai-or-quantum-its-trust/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2026-05-21",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog/how-to-build-a-cryptographic-asset-inventory-across-cloud-ci-cd-and-devices",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-05-21T13:00:06+00:00",
+          "score": 39,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "Conducting a cryptographic inventory is a foundational best practice for managing security risk, meeting compliance requirements, and enabling cryptographic agility.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "How to Build a Cryptographic Asset Inventory Across Cloud, CI/CD, and Devices",
+          "url": "https://www.keyfactor.com/blog/how-to-build-a-cryptographic-asset-inventory-across-cloud-ci-cd-and-devices/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2026-04-28",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog/quantum-isnt-the-problem-its-the-warning",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-04-28T18:10:47+00:00",
+          "score": 42,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "Quantum computing isn\u2019t the problem. It\u2019s the proof. Proof that cryptography will fail. Proof that standards will change. Proof that anything fixed today won\u2019t hold forever. Post-quantum didn\u2019t create urgency. It exposed it. The real problem has been here all along",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Quantum Isn\u2019t the Problem. It\u2019s the Warning.",
+          "url": "https://www.keyfactor.com/blog/quantum-isnt-the-problem-its-the-warning/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2026-03-20",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog/pqc-without-the-pc-is-incomplete-the-endpoint-blind-spot-in-post-quantum-cryptography",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-03-20T12:00:37+00:00",
+          "score": 66,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "The quantum transition must include every place cryptography is embedded. That includes the PC, which is often overlooked.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "PQC Without the PC Is Incomplete: The Endpoint Blind Spot in Post-Quantum Cryptography",
+          "url": "https://www.keyfactor.com/blog/pqc-without-the-pc-is-incomplete-the-endpoint-blind-spot-in-post-quantum-cryptography/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2026-02-04",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/guide-to-mastering-data-security-in-post-quantum-world",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-02-04T00:00:00+00:00",
+          "score": 112,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Master data security for the post-quantum era: stop harvest-now attacks with PQC readiness, crypto-agility, and Fortanix assessment + remediation.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Guide to Mastering Data Security in Post-Quantum World",
+          "url": "https://www.fortanix.com/blog/guide-to-mastering-data-security-in-post-quantum-world"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2026-01-15",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/how-crypto-agility-defines-the-next-gen-hsm",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-01-15T00:00:00+00:00",
+          "score": 55,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Learn how crypto agility and identity-first design define next-gen HSMs, enabling automated key lifecycles, cloud scale, observability, and PQC readiness.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "How Crypto Agility Defines the Next-Gen HSM",
+          "url": "https://www.fortanix.com/blog/how-crypto-agility-defines-the-next-gen-hsm"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2026-01-14",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/quantum-data-governance-securing-ai-training-data-in-a-post-quantum-world",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-01-14T00:00:00+00:00",
+          "score": 100,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Explore quantum-ready data governance for AI\u2014protect training data with strong encryption, centralized key management, and crypto-agility in a post-quantum world.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Quantum Data Governance: Securing AI Training Data in a Post-Quantum World",
+          "url": "https://www.fortanix.com/blog/quantum-data-governance-securing-ai-training-data-in-a-post-quantum-world"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": "2025-12-29",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/solutions/manage-cryptographic-posture",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-12-29T21:38:30+00:00",
+          "score": 42,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "Optimize cryptography, reduce key and certificate risks, set crypto policy. Explore Certificate lifecycle Management for Zero Trust and Post-Quantum security.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Cryptographic Posture Management (CPM)",
+          "url": "https://www.keyfactor.com/solutions/manage-cryptographic-posture/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-08-06",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "Fortanix"
+          ],
+          "historical": true,
+          "key": "https://www.fortanix.com/blog/quantum-key-encryption-in-a-post-quantum-world",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-08-06T00:00:00+00:00",
+          "score": 50,
+          "source": "Fortanix Quantum Security",
+          "source_type": "watch",
+          "summary": "Prepare for the quantum era with cryptographic agility\u2014learn how quantum key encryption & post-quantum strategies safeguard your data from future threats.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Quantum Key Encryption in a Post-Quantum World",
+          "url": "https://www.fortanix.com/blog/quantum-key-encryption-in-a-post-quantum-world"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 100,
+          "source": "Accenture Quantum and PQC News",
+          "source_type": "watch",
+          "summary": "The companies demonstrate that crypto-agility, successfully rotating to a less vulnerable algorithm, is real and possible",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
+          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 69,
+          "source": "Accenture Quantum and PQC News",
+          "source_type": "watch",
+          "summary": "Accenture has made a strategic investment, through Accenture Ventures, in QuSecure \u2122 a leader in post-quantum cybersecurity.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
+          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog_categories/crypto-agility",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 45,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Crypto Agility",
+          "url": "https://www.keyfactor.com/blog_categories/crypto-agility/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Deloitte"
+          ],
+          "historical": true,
+          "key": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 43,
+          "source": "Deloitte Quantum Cyber Readiness",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Intro to Deloitte's crypto-inventory methodology Deloitte's crypto-inventory methodology provides a deeper look into what steps to take to effectively conduct a cryptographic inventory.",
+          "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Keyfactor"
+          ],
+          "historical": true,
+          "key": "https://www.keyfactor.com/blog_categories/post-quantum-cryptography",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 32,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post Quantum Cryptography",
+          "url": "https://www.keyfactor.com/blog_categories/post-quantum-cryptography/"
+        }
+      ],
+      "evidence_count": 20,
+      "first_seen": "2025-08-06",
+      "historical_evidence_count": 17,
+      "latest_seen": "2026-07-22",
+      "momentum": "stable",
+      "name": "Crypto-agility",
+      "prior_count": 1,
+      "priority": "critical",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "technology"
+    },
     {
       "aliases": [
         "QEC",
@@ -2342,11 +4496,83 @@
           ],
           "title": "Researchers Demonstrate Logical Qubit Operations with Low Error Rates of 0.03",
           "url": "https://quantumzeitgeist.com/logical-qubits-error-correction"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Software / Tooling",
+          "date": "2026-03-16",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/construct-nvidia-cudaq",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2026-03-16T20:30:34+00:00",
+          "score": 56,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "PsiQuantum announced the integration of NVIDIA CUDA-Q with Construct, PsiQuantum\u2019s software suite for fault-tolerant quantum application development. The integration enables GPU-accelerated state-vector simulation of large-scale quantum algorithms, delivering up to 450x faster performance compared t",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "PsiQuantum Construct Enables Utility-Scale Quantum Application Development with CUDA-Q Integration \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/construct-nvidia-cudaq"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-09-10",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/psiquantum-1b-fundraise",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": "2025-09-10T10:54:16+00:00",
+          "score": 73,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "PsiQuantum today announced it has raised $1 billion in funding for its Series E round to build the world\u2019s first commercially useful, fault-tolerant quantum computers. This funding will equip the company to break ground on utility-scale quantum computing sites in Brisbane and Chicago, deploy large-s",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "PsiQuantum Raises $1 Billion to Build Million-Qubit Scale, Fault-Tolerant Quantum Computers \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/psiquantum-1b-fundraise"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/quera-selected-for-phase-1-of-darpas-quantum-benchmarking-initiative",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 81,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "QuEra joins DARPA\u2019s benchmarking initiative to advance fault-tolerant quantum computing with neutral-atom tech.",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QuEra Joins DARPA\u2019s Quantum Benchmarking Initiative",
+          "url": "https://www.quera.com/press-releases/quera-selected-for-phase-1-of-darpas-quantum-benchmarking-initiative"
         }
       ],
-      "evidence_count": 9,
-      "first_seen": "2026-06-30",
-      "historical_evidence_count": 0,
+      "evidence_count": 12,
+      "first_seen": "2025-09-10",
+      "historical_evidence_count": 3,
       "latest_seen": "2026-07-14",
       "momentum": "declining",
       "name": "Logical qubits",
@@ -2358,140 +4584,6 @@
         "QEC / Fault Tolerance",
         "Quantum Hardware",
         "Quantum Software / Tooling"
-      ],
-      "type": "technology"
-    },
-    {
-      "aliases": [
-        "crypto agility",
-        "cryptographic agility",
-        "CBOM",
-        "cryptographic inventory"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 3,
-      "evidence": [
-        {
-          "date": "2026-07-22",
-          "key": "https://www.keyfactor.com/press-releases/keyfactor-expands-global-partner-ecosystem-to-help-partners-lead-the-ai-and-post-quantum-era",
-          "report": "2026-07/2026-07-22-digest.md",
-          "score": 50,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Keyfactor Expands Global Partner Ecosystem to Help Partners Lead the AI and Post-Quantum Era",
-          "url": "https://www.keyfactor.com/press-releases/keyfactor-expands-global-partner-ecosystem-to-help-partners-lead-the-ai-and-post-quantum-era"
-        },
-        {
-          "date": "2026-07-03",
-          "key": "https://pqshield.com/why-crypto-agility-requires-real-governance",
-          "report": "2026-07/2026-07-03-digest.md",
-          "score": 108,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Why crypto-agility requires real governance Eric Amador explains how pqctoday.com uses AI and WebAssembly to remove friction from testing quantum-safe algorithms. Learn how different organizational personas can map out global migration timelines and prepare for upcoming compliance mandates.",
-          "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
-        },
-        {
-          "date": "2026-06-25",
-          "key": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key",
-          "report": "2026-06/2026-06-25-digest.md",
-          "score": 128,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
-          "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Crypto Agility",
-          "date": "2025-01-21",
-          "date_confidence": "medium",
-          "date_kind": "modified",
-          "date_source": "sitemap:lastmod",
-          "entities": [
-            "Accenture / Accenture Federal Services"
-          ],
-          "historical": true,
-          "key": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility",
-          "observed_at": "2026-07-22T00:25:17.598585+00:00",
-          "published_at": "2025-01-21T00:00:00+00:00",
-          "score": 69,
-          "source": "Accenture Quantum and PQC News",
-          "source_type": "watch",
-          "summary": "Accenture has made a strategic investment, through Accenture Ventures, in QuSecure \u2122 a leader in post-quantum cybersecurity.",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
-          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Crypto Agility",
-          "date": "2024-10-02",
-          "date_confidence": "medium",
-          "date_kind": "modified",
-          "date_source": "sitemap:lastmod",
-          "entities": [
-            "Accenture / Accenture Federal Services"
-          ],
-          "historical": true,
-          "key": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization",
-          "observed_at": "2026-07-22T00:25:17.598585+00:00",
-          "published_at": "2024-10-02T00:00:00+00:00",
-          "score": 100,
-          "source": "Accenture Quantum and PQC News",
-          "source_type": "watch",
-          "summary": "The companies demonstrate that crypto-agility, successfully rotating to a less vulnerable algorithm, is real and possible",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
-          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Crypto Agility",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Deloitte"
-          ],
-          "historical": true,
-          "key": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf",
-          "observed_at": "2026-07-22T00:25:17.598585+00:00",
-          "published_at": null,
-          "score": 43,
-          "source": "Deloitte Quantum Cyber Readiness",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Intro to Deloitte's crypto-inventory methodology Deloitte's crypto-inventory methodology provides a deeper look into what steps to take to effectively conduct a cryptographic inventory.",
-          "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf"
-        }
-      ],
-      "evidence_count": 6,
-      "first_seen": "2024-10-02",
-      "historical_evidence_count": 3,
-      "latest_seen": "2026-07-22",
-      "momentum": "rising",
-      "name": "Crypto-agility",
-      "prior_count": 0,
-      "priority": "critical",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility"
       ],
       "type": "technology"
     },
@@ -2647,11 +4739,35 @@
           ],
           "title": "WiMi Explores Neural Networks for Twin-Field Quantum Key Distribution Optimization",
           "url": "https://thequantuminsider.com/2026/06/29/wimi-neural-networks-dual-field-quantum-key-distribution-optimization"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Networking",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Quantum Computing Inc. (QCi)"
+          ],
+          "historical": true,
+          "key": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-and-ciena-demonstrate-next-generation-quantum-secured-communications-with-high-speed-encryption-using-pqc-and-qkd-at-ofc-2026",
+          "observed_at": "2026-07-26T05:54:54.135745+00:00",
+          "published_at": null,
+          "score": 34,
+          "source": "QCi Press Releases",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Quantum Computing Inc. and Ciena Demonstrate Next-Generation Quantum-Secured Communications with High-Speed Encryption using PQC and QKD at OFC 2026 - Quantum Computing Inc",
+          "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-and-ciena-demonstrate-next-generation-quantum-secured-communications-with-high-speed-encryption-using-pqc-and-qkd-at-ofc-2026"
         }
       ],
-      "evidence_count": 8,
+      "evidence_count": 9,
       "first_seen": "2026-06-29",
-      "historical_evidence_count": 0,
+      "historical_evidence_count": 1,
       "latest_seen": "2026-07-23",
       "momentum": "rising",
       "name": "Quantum key distribution",
@@ -2873,13 +4989,6 @@
   ],
   "unseen_entities": [
     {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "name": "Atom Computing",
-      "priority": "high",
-      "type": "company"
-    },
-    {
       "aliases": [
         "German Federal Office for Information Security",
         "Bundesamt fuer Sicherheit in der Informationstechnik"
@@ -2891,32 +5000,12 @@
     },
     {
       "aliases": [
-        "Booz Allen"
-      ],
-      "case_sensitive_aliases": [
-        "BAH"
-      ],
-      "name": "Booz Allen Hamilton",
-      "priority": "high",
-      "type": "consulting"
-    },
-    {
-      "aliases": [
         "Cybersecurity and Infrastructure Security Agency"
       ],
       "case_sensitive_aliases": [],
       "name": "CISA",
       "priority": "high",
       "type": "government"
-    },
-    {
-      "aliases": [
-        "Cisco Systems"
-      ],
-      "case_sensitive_aliases": [],
-      "name": "Cisco",
-      "priority": "high",
-      "type": "company"
     },
     {
       "aliases": [],
@@ -2934,26 +5023,6 @@
       "name": "ENISA",
       "priority": "high",
       "type": "government"
-    },
-    {
-      "aliases": [
-        "European Telecommunications Standards Institute"
-      ],
-      "case_sensitive_aliases": [],
-      "name": "ETSI",
-      "priority": "high",
-      "type": "standards"
-    },
-    {
-      "aliases": [
-        "Fortanix DSM",
-        "Fortanix Key Insight",
-        "PQC Central"
-      ],
-      "case_sensitive_aliases": [],
-      "name": "Fortanix",
-      "priority": "high",
-      "type": "company"
     },
     {
       "aliases": [
@@ -3013,25 +5082,6 @@
       "type": "consortium"
     },
     {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "name": "PsiQuantum",
-      "priority": "high",
-      "type": "company"
-    },
-    {
-      "aliases": [
-        "Quantum Computing Inc",
-        "QUBT"
-      ],
-      "case_sensitive_aliases": [
-        "QCi"
-      ],
-      "name": "Quantum Computing Inc. (QCi)",
-      "priority": "high",
-      "type": "company"
-    },
-    {
       "aliases": [
         "Sandbox AQ"
       ],
@@ -3058,15 +5108,6 @@
       "name": "UK NCSC",
       "priority": "high",
       "type": "government"
-    },
-    {
-      "aliases": [
-        "Wiz Security"
-      ],
-      "case_sensitive_aliases": [],
-      "name": "Wiz",
-      "priority": "high",
-      "type": "company"
     },
     {
       "aliases": [
@@ -3136,6 +5177,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-07-26T02:10:47.466358+00:00",
+  "updated_at": "2026-07-26T05:54:54.135745+00:00",
   "version": 2
 }

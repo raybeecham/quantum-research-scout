@@ -4,35 +4,37 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-07-26 02:10 UTC_
+_Updated 2026-07-26 05:54 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
-Assessed **10 of 43** configured organizations.
+Assessed **16 of 43** configured organizations.
 
 | Organization | Observed stage | Confidence | PQC evidence | Sources | Historical | Latest dated evidence |
 |---|---|---|---:|---:|---:|---|
 | PQShield | Pilot / Testing | medium | 2 | 1 | 0 | 2026-07-23 |
-| Keyfactor | Planning | high | 4 | 3 | 0 | 2026-07-25 |
-| QuSecure | Planning | high | 4 | 2 | 3 | 2026-07-25 |
-| Accenture / Accenture Federal Services | Planning | medium | 3 | 1 | 3 | 2025-01-21 |
+| Wiz | Pilot / Testing | medium | 4 | 1 | 4 | 2026-07-02 |
+| Keyfactor | Planning | high | 12 | 3 | 8 | 2026-07-25 |
+| QuSecure | Planning | high | 5 | 3 | 4 | 2026-07-25 |
+| Accenture / Accenture Federal Services | Planning | medium | 3 | 1 | 3 | Unknown |
+| Fortanix | Planning | medium | 19 | 1 | 19 | 2026-02-04 |
 | NIST | Planning | medium | 2 | 2 | 0 | 2026-07-24 |
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
+| Cisco | Awareness | medium | 3 | 1 | 3 | Unknown |
 | Cloudflare | Awareness | medium | 2 | 1 | 0 | 2026-07-09 |
 | ISO/IEC | Awareness | medium | 2 | 2 | 0 | 2026-07-15 |
 | ANSSI | Awareness | low | 1 | 1 | 0 | 2026-06-23 |
 | AWS | Awareness | low | 1 | 1 | 0 | 2026-07-01 |
+| Booz Allen Hamilton | Awareness | low | 1 | 1 | 1 | 2025-02-06 |
+| ETSI | Awareness | low | 1 | 1 | 1 | 2026-06-22 |
+| Quantum Computing Inc. (QCi) | Awareness | low | 1 | 1 | 1 | Unknown |
 | Atom Computing | Not assessed | none | 0 | 0 | 0 | Unknown |
 | BSI Germany | Not assessed | none | 0 | 0 | 0 | Unknown |
-| Booz Allen Hamilton | Not assessed | none | 0 | 0 | 0 | Unknown |
 | CISA | Not assessed | none | 0 | 0 | 0 | Unknown |
-| Cisco | Not assessed | none | 0 | 0 | 0 | Unknown |
 | D-Wave | Not assessed | none | 0 | 0 | 0 | Unknown |
 | DigiCert | Not assessed | none | 0 | 0 | 0 | Unknown |
 | ENISA | Not assessed | none | 0 | 0 | 0 | Unknown |
-| ETSI | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Entrust | Not assessed | none | 0 | 0 | 0 | Unknown |
-| Fortanix | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Google Quantum AI | Not assessed | none | 0 | 0 | 0 | Unknown |
 | IBM | Not assessed | none | 0 | 0 | 0 | Unknown |
 | IETF | Not assessed | none | 0 | 0 | 0 | Unknown |
@@ -49,12 +51,10 @@ Assessed **10 of 43** configured organizations.
 | PsiQuantum | Not assessed | none | 0 | 0 | 0 | Unknown |
 | QuEra | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Quantinuum | Not assessed | none | 0 | 0 | 0 | Unknown |
-| Quantum Computing Inc. (QCi) | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Rigetti | Not assessed | none | 0 | 0 | 0 | Unknown |
 | SandboxAQ | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Thales | Not assessed | none | 0 | 0 | 0 | Unknown |
 | UK NCSC | Not assessed | none | 0 | 0 | 0 | Unknown |
-| Wiz | Not assessed | none | 0 | 0 | 0 | Unknown |
 
 ## Methodology
 

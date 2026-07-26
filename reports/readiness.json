@@ -82,9 +82,86 @@
       "type": "company"
     },
     {
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_count": 4,
-      "historical_evidence_count": 0,
+      "historical_evidence_count": 4,
+      "latest_evidence_at": "2026-07-02",
+      "name": "Wiz",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "pilot",
+      "stage_label": "Pilot / Testing",
+      "stage_rank": 4,
+      "supporting_evidence": [
+        {
+          "date": "2026-01-16",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "testing"
+          ],
+          "observed_stage": "pilot",
+          "observed_stage_label": "Pilot / Testing",
+          "rank": 4,
+          "source": "Wiz Post-Quantum Security",
+          "title": "Post-Quantum Cryptography: What It Is and How to Prepare | Wiz",
+          "url": "https://www.wiz.io/academy/cloud-security/post-quantum-cryptography"
+        },
+        {
+          "date": "2026-01-08",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "preparing for"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Wiz Post-Quantum Security",
+          "title": "Preparing for Post-Quantum Cryptography | Wiz Blog",
+          "url": "https://www.wiz.io/blog/preparing-for-post-quantum-cryptography"
+        },
+        {
+          "date": "2026-07-02",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum",
+            "pqc"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Wiz Post-Quantum Security",
+          "title": "White House PQC Mandates Explained: EO 14409 & M-26-15 | Wiz Blog",
+          "url": "https://www.wiz.io/blog/white-house-post-quantum-cryptography-executive-order"
+        },
+        {
+          "date": "2026-05-28",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "post quantum",
+            "pqc"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Wiz Post-Quantum Security",
+          "title": "State of Post Quantum Cryptography | Wiz Blog",
+          "url": "https://www.wiz.io/blog/state-of-post-quantum-cryptography"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "high",
+      "evidence_count": 12,
+      "historical_evidence_count": 8,
       "latest_evidence_at": "2026-07-25",
       "name": "Keyfactor",
       "priority": "high",
@@ -107,6 +184,66 @@
           "source": "The Quantum Insider",
           "title": "Keyfactor Expands Partner Program for Post-Quantum Cryptography Readiness",
           "url": "https://thequantuminsider.com/2026/07/22/keyfactor-expands-partner-program-for-post-quantum-security"
+        },
+        {
+          "date": "2026-07-13",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "preparing for"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Preparing for the UK's Quantum-Safe Future",
+          "url": "https://www.keyfactor.com/events/preparing-for-the-uks-quantum-safe-future/"
+        },
+        {
+          "date": "2026-07-06",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "AgileSec 3.6 Gives Security Teams More Visibility, More Control, and a Faster Path to Cryptographic-Agility",
+          "url": "https://www.keyfactor.com/blog/agilesec-3-6-gives-security-teams-more-visibility-more-control-and-a-faster-path-to-cryptographic-agility/"
+        },
+        {
+          "date": "2026-06-23",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Explaining Executive Order: Securing the Nation Against Advanced Cryptographic Attacks & What This Means for Your Organization",
+          "url": "https://www.keyfactor.com/blog/explaining-executive-order-securing-the-nation-against-advanced-cryptographic-attacks-what-this-means-for-your-organization/"
+        },
+        {
+          "date": "2026-05-21",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "cryptographic inventory"
+          ],
+          "observed_stage": "inventory",
+          "observed_stage_label": "Inventory",
+          "rank": 2,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "How to Build a Cryptographic Asset Inventory Across Cloud, CI/CD, and Devices",
+          "url": "https://www.keyfactor.com/blog/how-to-build-a-cryptographic-asset-inventory-across-cloud-ci-cd-and-devices/"
         },
         {
           "date": "2026-07-25",
@@ -158,35 +295,20 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 4,
-      "historical_evidence_count": 3,
+      "evidence_count": 5,
+      "historical_evidence_count": 4,
       "latest_evidence_at": "2026-07-25",
       "name": "QuSecure",
       "priority": "high",
-      "source_count": 2,
+      "source_count": 3,
       "stage": "planning",
       "stage_label": "Planning",
       "stage_rank": 3,
       "supporting_evidence": [
         {
-          "date": "2025-01-21",
-          "date_confidence": "medium",
-          "date_kind": "modified",
-          "historical": true,
-          "matched_patterns": [
-            "crypto agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Accenture Quantum and PQC News",
-          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
-          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
-        },
-        {
-          "date": "2024-10-02",
-          "date_confidence": "medium",
-          "date_kind": "modified",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
           "historical": true,
           "matched_patterns": [
             "crypto-agility"
@@ -197,6 +319,21 @@
           "source": "Accenture Quantum and PQC News",
           "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
           "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
+        },
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "crypto agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Accenture Quantum and PQC News",
+          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
+          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
         },
         {
           "date": "2026-07-25",
@@ -214,9 +351,24 @@
           "url": "https://quantumzeitgeist.com/post-quantum-crypto-qusecures-platform-simplifies"
         },
         {
-          "date": "2024-12-13",
-          "date_confidence": "medium",
-          "date_kind": "modified",
+          "date": "2025-07-19",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "post quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuSecure Press Releases",
+          "title": "Press Releases",
+          "url": "https://www.qusecure.com/press-releases/"
+        },
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
           "historical": true,
           "matched_patterns": [
             "post-quantum",
@@ -237,7 +389,7 @@
       "confidence": "medium",
       "evidence_count": 3,
       "historical_evidence_count": 3,
-      "latest_evidence_at": "2025-01-21",
+      "latest_evidence_at": null,
       "name": "Accenture / Accenture Federal Services",
       "priority": "high",
       "source_count": 1,
@@ -246,24 +398,9 @@
       "stage_rank": 3,
       "supporting_evidence": [
         {
-          "date": "2025-01-21",
-          "date_confidence": "medium",
-          "date_kind": "modified",
-          "historical": true,
-          "matched_patterns": [
-            "crypto agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Accenture Quantum and PQC News",
-          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
-          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
-        },
-        {
-          "date": "2024-10-02",
-          "date_confidence": "medium",
-          "date_kind": "modified",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
           "historical": true,
           "matched_patterns": [
             "crypto-agility"
@@ -276,9 +413,24 @@
           "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
         },
         {
-          "date": "2024-12-13",
-          "date_confidence": "medium",
-          "date_kind": "modified",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "crypto agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Accenture Quantum and PQC News",
+          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
+          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+        },
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
           "historical": true,
           "matched_patterns": [
             "post-quantum",
@@ -294,6 +446,144 @@
         }
       ],
       "type": "consulting"
+    },
+    {
+      "confidence": "medium",
+      "evidence_count": 19,
+      "historical_evidence_count": 19,
+      "latest_evidence_at": "2026-02-04",
+      "name": "Fortanix",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": "2026-02-04",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness",
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "Guide to Mastering Data Security in Post-Quantum World",
+          "url": "https://www.fortanix.com/blog/guide-to-mastering-data-security-in-post-quantum-world"
+        },
+        {
+          "date": "2026-01-15",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness",
+            "crypto agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "How Crypto Agility Defines the Next-Gen HSM",
+          "url": "https://www.fortanix.com/blog/how-crypto-agility-defines-the-next-gen-hsm"
+        },
+        {
+          "date": "2026-01-14",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility",
+            "governance"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "Quantum Data Governance: Securing AI Training Data in a Post-Quantum World",
+          "url": "https://www.fortanix.com/blog/quantum-data-governance-securing-ai-training-data-in-a-post-quantum-world"
+        },
+        {
+          "date": "2025-08-31",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "prepare for"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "Why Your Business Needs Post-Quantum Cryptography",
+          "url": "https://www.fortanix.com/blog/why-your-business-needs-post-quantum-cryptography-experts-insights"
+        },
+        {
+          "date": "2025-08-06",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "prepare for"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "Quantum Key Encryption in a Post-Quantum World",
+          "url": "https://www.fortanix.com/blog/quantum-key-encryption-in-a-post-quantum-world"
+        },
+        {
+          "date": "2025-07-23",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "prepare for"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "Quantum Security for Post-Quantum Cryptography",
+          "url": "https://www.fortanix.com/blog/quantum-security-for-post-quantum-cryptography"
+        },
+        {
+          "date": "2025-07-22",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "prepare for"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "Will Quantum Cryptography Be Able to Eliminate Data Breaches",
+          "url": "https://www.fortanix.com/blog/will-quantum-cryptography-be-able-to-eliminate-data-breaches-in-the-future"
+        },
+        {
+          "date": "2025-07-22",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "prepare for"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "Risks of delaying post-quantum cryptography adoption",
+          "url": "https://www.fortanix.com/blog/risk-of-delaying-quantum-safe-algorithms-in-data-security"
+        }
+      ],
+      "type": "company"
     },
     {
       "confidence": "medium",
@@ -369,6 +659,66 @@
         }
       ],
       "type": "consulting"
+    },
+    {
+      "confidence": "medium",
+      "evidence_count": 3,
+      "historical_evidence_count": 3,
+      "latest_evidence_at": null,
+      "name": "Cisco",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "quantum-safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "quantum-safe encryption Archives",
+          "url": "https://blogs.cisco.com/tag/quantum-safe-encryption"
+        },
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "quantum-safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "quantum-safe computing Archives",
+          "url": "https://blogs.cisco.com/tag/quantum-safe-computing"
+        },
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "quantum-safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Quantum-SafeComputing Archives",
+          "url": "https://blogs.cisco.com/tag/quantum-safecomputing"
+        }
+      ],
+      "type": "company"
     },
     {
       "confidence": "medium",
@@ -521,6 +871,96 @@
       "type": "company"
     },
     {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 1,
+      "latest_evidence_at": "2025-02-06",
+      "name": "Booz Allen Hamilton",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2025-02-06",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Booz Allen Quantum and PQC",
+          "title": "From the Frontlines of Post-Quantum Cryptography",
+          "url": "https://www.boozallen.com/insights/velocity/from-the-frontlines-of-post-quantum-cryptography.html"
+        }
+      ],
+      "type": "consulting"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 1,
+      "latest_evidence_at": "2026-06-22",
+      "name": "ETSI",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-06-22",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "quantum-safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "ETSI Quantum Standards News",
+          "title": "Wait & see is not an option: Q-day is here - ETSI",
+          "url": "https://www.etsi.org/newsroom/news/wait-see-is-not-an-option-q-day-is-here/"
+        }
+      ],
+      "type": "standards"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 1,
+      "latest_evidence_at": null,
+      "name": "Quantum Computing Inc. (QCi)",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "pqc"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QCi Press Releases",
+          "title": "Quantum Computing Inc. and Ciena Demonstrate Next-Generation Quantum-Secured Communications with High-Speed Encryption using PQC and QKD at OFC 2026 - Quantum Computing Inc",
+          "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-and-ciena-demonstrate-next-generation-quantum-secured-communications-with-high-speed-encryption-using-pqc-and-qkd-at-ofc-2026"
+        }
+      ],
+      "type": "company"
+    },
+    {
       "confidence": "none",
       "evidence_count": 0,
       "historical_evidence_count": 0,
@@ -553,20 +993,6 @@
       "evidence_count": 0,
       "historical_evidence_count": 0,
       "latest_evidence_at": null,
-      "name": "Booz Allen Hamilton",
-      "priority": "high",
-      "source_count": 0,
-      "stage": "not_assessed",
-      "stage_label": "Not assessed",
-      "stage_rank": 0,
-      "supporting_evidence": [],
-      "type": "consulting"
-    },
-    {
-      "confidence": "none",
-      "evidence_count": 0,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": null,
       "name": "CISA",
       "priority": "high",
       "source_count": 0,
@@ -575,20 +1001,6 @@
       "stage_rank": 0,
       "supporting_evidence": [],
       "type": "government"
-    },
-    {
-      "confidence": "none",
-      "evidence_count": 0,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": null,
-      "name": "Cisco",
-      "priority": "high",
-      "source_count": 0,
-      "stage": "not_assessed",
-      "stage_label": "Not assessed",
-      "stage_rank": 0,
-      "supporting_evidence": [],
-      "type": "company"
     },
     {
       "confidence": "none",
@@ -637,36 +1049,8 @@
       "evidence_count": 0,
       "historical_evidence_count": 0,
       "latest_evidence_at": null,
-      "name": "ETSI",
-      "priority": "high",
-      "source_count": 0,
-      "stage": "not_assessed",
-      "stage_label": "Not assessed",
-      "stage_rank": 0,
-      "supporting_evidence": [],
-      "type": "standards"
-    },
-    {
-      "confidence": "none",
-      "evidence_count": 0,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": null,
       "name": "Entrust",
       "priority": "medium",
-      "source_count": 0,
-      "stage": "not_assessed",
-      "stage_label": "Not assessed",
-      "stage_rank": 0,
-      "supporting_evidence": [],
-      "type": "company"
-    },
-    {
-      "confidence": "none",
-      "evidence_count": 0,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": null,
-      "name": "Fortanix",
-      "priority": "high",
       "source_count": 0,
       "stage": "not_assessed",
       "stage_label": "Not assessed",
@@ -903,20 +1287,6 @@
       "evidence_count": 0,
       "historical_evidence_count": 0,
       "latest_evidence_at": null,
-      "name": "Quantum Computing Inc. (QCi)",
-      "priority": "high",
-      "source_count": 0,
-      "stage": "not_assessed",
-      "stage_label": "Not assessed",
-      "stage_rank": 0,
-      "supporting_evidence": [],
-      "type": "company"
-    },
-    {
-      "confidence": "none",
-      "evidence_count": 0,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": null,
       "name": "Rigetti",
       "priority": "medium",
       "source_count": 0,
@@ -967,34 +1337,20 @@
       "stage_rank": 0,
       "supporting_evidence": [],
       "type": "government"
-    },
-    {
-      "confidence": "none",
-      "evidence_count": 0,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": null,
-      "name": "Wiz",
-      "priority": "high",
-      "source_count": 0,
-      "stage": "not_assessed",
-      "stage_label": "Not assessed",
-      "stage_rank": 0,
-      "supporting_evidence": [],
-      "type": "company"
     }
   ],
   "summary": {
-    "assessed": 10,
+    "assessed": 16,
     "by_stage": {
-      "awareness": 4,
+      "awareness": 8,
       "inventory": 1,
-      "not_assessed": 33,
-      "pilot": 1,
-      "planning": 4
+      "not_assessed": 27,
+      "pilot": 2,
+      "planning": 5
     },
-    "not_assessed": 33,
+    "not_assessed": 27,
     "organizations": 43
   },
-  "updated_at": "2026-07-26T02:10:47.718743+00:00",
+  "updated_at": "2026-07-26T05:54:54.135745+00:00",
   "version": 1
 }
