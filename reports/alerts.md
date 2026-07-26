@@ -4,45 +4,45 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-25 02:48 UTC_
+_Updated 2026-07-26 02:10 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 36 | 5 | 3 | 9 | 24 |
+| 36 | 2 | 3 | 10 | 23 |
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 PQC / Crypto Agility has critical strategic importance and stable momentum.
+- 🔴 PQC / Crypto Agility has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: QEC / Fault Tolerance
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 QEC / Fault Tolerance has critical strategic importance and declining momentum.
+- 🔴 QEC / Fault Tolerance has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Critical theme: Standards / Government 🆕
+## 🔴 Critical theme: Standards / Government
 
 - Severity: **critical**
 - Status: **critical**
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: AI Security 🆕
+## 🟠 Actionable signal: AI Security
 
 - Severity: **high**
 - Status: **actionable**
 - 🎯 AI Security is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Hardware
+## 🟠 Actionable signal: PQC / Crypto Agility 🆕
 
 - Severity: **high**
 - Status: **actionable**
-- 🎯 Quantum Hardware is actionable with high confidence.
+- 🎯 PQC / Crypto Agility is actionable with high confidence.
 - [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: Quantum Sensing
@@ -52,18 +52,25 @@ _Updated 2026-07-25 02:48 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Standards / Government 🆕
+## 🟠 Actionable signal: Standards / Government
 
 - Severity: **high**
 - Status: **actionable**
 - 🎯 Standards / Government is actionable with medium confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Standards / Government 🆕
+## 🟠 Rising momentum: PQC / Crypto Agility 🆕
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 2 versus 0 in the prior period.
+- ↗️ Recent evidence is 18 versus 9 in the prior period.
+- [Open supporting view](signals.md)
+
+## 🟠 Rising momentum: Standards / Government
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 4 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Source degraded: PQCA Readiness Tracking
@@ -95,18 +102,11 @@ _Updated 2026-07-25 02:48 UTC_
 - [Open direct evidence](https://pqshield.com/eudi-wallet-security-and-quantum-readiness)
 - [Open supporting view](entity-watch.md)
 
-## 🟡 Rising momentum: AI Security 🆕
+## 🟡 Rising momentum: AI Security
 
 - Severity: **medium**
 - Status: **rising**
 - ↗️ Recent evidence is 6 versus 3 in the prior period.
-- [Open supporting view](signals.md)
-
-## 🟡 Rising momentum: Quantum Hardware
-
-- Severity: **medium**
-- Status: **rising**
-- ↗️ Recent evidence is 34 versus 22 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟡 Rising momentum: Quantum Sensing

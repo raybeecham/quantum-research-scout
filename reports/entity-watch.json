@@ -83,7 +83,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 7,
+      "evidence_count": 8,
       "first_party_evidence_count": 0,
       "name": "Infleqtion",
       "priority": "medium",
@@ -407,7 +407,7 @@
           "type": "rss"
         }
       ],
-      "evidence_count": 3,
+      "evidence_count": 4,
       "first_party_evidence_count": 1,
       "name": "Keyfactor",
       "priority": "high",
@@ -540,7 +540,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "first_party_evidence_count": 0,
       "name": "QuSecure",
       "priority": "high",
@@ -895,8 +895,20 @@
         "QuProtect"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 2,
+      "current_evidence_count": 3,
       "evidence": [
+        {
+          "date": "2026-07-25",
+          "key": "https://quantumzeitgeist.com/post-quantum-crypto-qusecures-platform-simplifies",
+          "report": "2026-07/2026-07-25-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure\u2019s Platform Simplifies Post-Quantum Crypto for Federal Networks",
+          "url": "https://quantumzeitgeist.com/post-quantum-crypto-qusecures-platform-simplifies"
+        },
         {
           "date": "2026-07-15",
           "key": "https://thequantuminsider.com/2026/07/15/qusecure-quprotect-r3-listed-in-aws-icmp-for-the-us-federal-government",
@@ -994,16 +1006,16 @@
           "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
         }
       ],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "first_seen": "2024-10-02",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-07-15",
-      "momentum": "declining",
+      "latest_seen": "2026-07-25",
+      "momentum": "stable",
       "name": "QuSecure",
       "prior_count": 1,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -1136,8 +1148,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 3,
+      "current_evidence_count": 4,
       "evidence": [
+        {
+          "date": "2026-07-25",
+          "key": "https://quantumzeitgeist.com/keyfactor-security-services-ai-post-quantum",
+          "report": "2026-07/2026-07-25-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Keyfactor Partners Gain Tools for AI & Post-Quantum Security Services",
+          "url": "https://quantumzeitgeist.com/keyfactor-security-services-ai-post-quantum"
+        },
         {
           "date": "2026-07-22",
           "key": "https://thequantuminsider.com/2026/07/22/keyfactor-expands-partner-program-for-post-quantum-security",
@@ -1175,15 +1199,15 @@
           "url": "https://thequantuminsider.com/2026/07/06/keyfactor-1b-growth-investment-summit-partners"
         }
       ],
-      "evidence_count": 3,
+      "evidence_count": 4,
       "first_seen": "2026-07-06",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-22",
+      "latest_seen": "2026-07-25",
       "momentum": "rising",
       "name": "Keyfactor",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -1794,8 +1818,20 @@
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 7,
+      "current_evidence_count": 8,
       "evidence": [
+        {
+          "date": "2026-07-25",
+          "key": "https://quantumcomputingreport.com/infleqtion-to-deploy-fault-tolerant-neutral-atom-quantum-computer-at-illinois-quantum-park",
+          "report": "2026-07/2026-07-25-digest.md",
+          "score": 86,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Infleqtion to Deploy Fault-Tolerant Neutral-Atom Quantum Computer at Illinois Quantum Park",
+          "url": "https://quantumcomputingreport.com/infleqtion-to-deploy-fault-tolerant-neutral-atom-quantum-computer-at-illinois-quantum-park"
+        },
         {
           "date": "2026-07-23",
           "key": "https://thequantuminsider.com/2026/07/23/infleqtion-neutral-atom-quantum-computer-illinois",
@@ -1881,15 +1917,15 @@
           "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
         }
       ],
-      "evidence_count": 7,
+      "evidence_count": 8,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-23",
+      "latest_seen": "2026-07-25",
       "momentum": "rising",
       "name": "Infleqtion",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 4,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -1979,8 +2015,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 15,
+      "current_evidence_count": 16,
       "evidence": [
+        {
+          "date": "2026-07-25",
+          "key": "https://quantumzeitgeist.com/quantum-error-correction-bluequbit-15m",
+          "report": "2026-07/2026-07-25-digest.md",
+          "score": 84,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "BlueQubit Secures $1.5M DOE Grants for AI-Driven Quantum Error Correction",
+          "url": "https://quantumzeitgeist.com/quantum-error-correction-bluequbit-15m"
+        },
         {
           "date": "2026-07-22",
           "key": "https://thequantuminsider.com/2026/07/22/rice-university-doe-quantum-error-correction-research",
@@ -2162,10 +2210,10 @@
           "url": "https://quantumzeitgeist.com/what-is-the-surface-code"
         }
       ],
-      "evidence_count": 15,
+      "evidence_count": 16,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-22",
+      "latest_seen": "2026-07-25",
       "momentum": "declining",
       "name": "Quantum error correction",
       "prior_count": 6,
@@ -3088,6 +3136,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-07-25T02:48:07.739275+00:00",
+  "updated_at": "2026-07-26T02:10:47.466358+00:00",
   "version": 2
 }
