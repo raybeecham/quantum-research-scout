@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-26 02:10 UTC_
+_Updated 2026-07-27 02:17 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 36 | 2 | 3 | 10 | 23 |
+| 35 | 2 | 5 | 7 | 23 |
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
@@ -31,6 +31,20 @@ _Updated 2026-07-26 02:10 UTC_
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
+## 🔴 Source failing: arXiv RSS cs.CR 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 85.7% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv RSS quant-ph 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 85.7% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
 ## 🟠 Actionable signal: AI Security
 
 - Severity: **high**
@@ -38,7 +52,7 @@ _Updated 2026-07-26 02:10 UTC_
 - 🎯 AI Security is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: PQC / Crypto Agility 🆕
+## 🟠 Actionable signal: PQC / Crypto Agility
 
 - Severity: **high**
 - Status: **actionable**
@@ -59,11 +73,11 @@ _Updated 2026-07-26 02:10 UTC_
 - 🎯 Standards / Government is actionable with medium confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: PQC / Crypto Agility 🆕
+## 🟠 Rising momentum: PQC / Crypto Agility
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 18 versus 9 in the prior period.
+- ↗️ Recent evidence is 20 versus 8 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Standards / Government
@@ -80,28 +94,6 @@ _Updated 2026-07-26 02:10 UTC_
 - 🟠 100.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: arXiv RSS cs.CR
-
-- Severity: **high**
-- Status: **degraded**
-- 🟠 100.0% reliability with 1 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Source degraded: arXiv RSS quant-ph
-
-- Severity: **high**
-- Status: **degraded**
-- 🟠 100.0% reliability with 1 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Standard: PQShield
-
-- Severity: **high**
-- Status: **standard**
-- PQShield matched a standard event: EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.
-- [Open direct evidence](https://pqshield.com/eudi-wallet-security-and-quantum-readiness)
-- [Open supporting view](entity-watch.md)
-
 ## 🟡 Rising momentum: AI Security
 
 - Severity: **medium**
@@ -113,7 +105,7 @@ _Updated 2026-07-26 02:10 UTC_
 
 - Severity: **medium**
 - Status: **rising**
-- ↗️ Recent evidence is 3 versus 2 in the prior period.
+- ↗️ Recent evidence is 4 versus 1 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟡 Source stale: Accenture Federal Services Quantum Readiness

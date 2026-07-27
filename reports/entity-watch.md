@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-07-26 05:54 UTC_
+_Updated 2026-07-27 02:17 UTC_
 
 ## Organizations
 
@@ -34,7 +34,7 @@ _Updated 2026-07-26 05:54 UTC_
 | ETSI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-22 | 2026-06-22 | 1 | 1 |
 | Google Quantum AI | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-27 | 2026-06-27 | 1 | 0 |
 | IonQ | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-22 | 2026-06-22 | 1 | 0 |
-| Pasqal | ↘️ declining (1 vs 3) | 🟡 medium | active | 2026-06-29 | 2026-07-24 | 9 | 0 |
+| Pasqal | ↘️ declining (1 vs 2) | 🟡 medium | active | 2026-06-29 | 2026-07-24 | 9 | 0 |
 | Infleqtion | ↗️ rising (5 vs 0) | 🟡 medium | active | 2026-06-22 | 2026-07-25 | 8 | 0 |
 | AWS | ➡️ stable (1 vs 1) | 🟡 medium | active | 2026-06-24 | 2026-07-20 | 4 | 0 |
 
@@ -45,7 +45,7 @@ _Updated 2026-07-26 05:54 UTC_
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
 | Crypto-agility | ➡️ stable (1 vs 1) | 🔴 critical | active | 2025-08-06 | 2026-07-22 | 20 | 17 |
-| Quantum error correction | ↘️ declining (3 vs 6) | 🔴 critical | active | 2026-06-23 | 2026-07-25 | 16 | 0 |
+| Quantum error correction | ↘️ declining (3 vs 5) | 🔴 critical | active | 2026-06-23 | 2026-07-25 | 16 | 0 |
 | Logical qubits | ↘️ declining (0 vs 2) | 🔴 critical | quiet | 2025-09-10 | 2026-07-14 | 12 | 3 |
 | ML-DSA | ↗️ rising (1 vs 0) | 🔴 critical | active | 2026-06-29 | 2026-07-23 | 2 | 0 |
 | Quantum key distribution | ↗️ rising (3 vs 2) | 🟠 high | active | 2026-06-29 | 2026-07-23 | 9 | 1 |
