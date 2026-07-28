@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-27 02:17 UTC_
+_Updated 2026-07-28 02:01 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 35 | 2 | 5 | 7 | 23 |
+| 35 | 4 | 3 | 11 | 21 |
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
@@ -21,7 +21,7 @@ _Updated 2026-07-27 02:17 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 QEC / Fault Tolerance has critical strategic importance and stable momentum.
+- 🔴 QEC / Fault Tolerance has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Standards / Government
@@ -30,20 +30,6 @@ _Updated 2026-07-27 02:17 UTC_
 - Status: **critical**
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
-
-## 🔴 Source failing: arXiv RSS cs.CR 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 85.7% reliability with 1 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🔴 Source failing: arXiv RSS quant-ph 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 85.7% reliability with 1 warning day(s).
-- [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
 
@@ -57,6 +43,13 @@ _Updated 2026-07-27 02:17 UTC_
 - Severity: **high**
 - Status: **actionable**
 - 🎯 PQC / Crypto Agility is actionable with high confidence.
+- [Open supporting view](signals.md)
+
+## 🟠 Actionable signal: QEC / Fault Tolerance 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 QEC / Fault Tolerance is actionable with high confidence.
 - [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: Quantum Sensing
@@ -77,7 +70,14 @@ _Updated 2026-07-27 02:17 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 20 versus 8 in the prior period.
+- ↗️ Recent evidence is 25 versus 8 in the prior period.
+- [Open supporting view](signals.md)
+
+## 🟠 Rising momentum: QEC / Fault Tolerance 🆕
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 6 versus 4 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Standards / Government
@@ -94,6 +94,20 @@ _Updated 2026-07-27 02:17 UTC_
 - 🟠 100.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
+## 🟠 Source degraded: arXiv RSS cs.CR 🆕
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 87.5% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Source degraded: arXiv RSS quant-ph 🆕
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 87.5% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
 ## 🟡 Rising momentum: AI Security
 
 - Severity: **medium**
@@ -105,7 +119,7 @@ _Updated 2026-07-27 02:17 UTC_
 
 - Severity: **medium**
 - Status: **rising**
-- ↗️ Recent evidence is 4 versus 1 in the prior period.
+- ↗️ Recent evidence is 4 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟡 Source stale: Accenture Federal Services Quantum Readiness
@@ -141,13 +155,6 @@ _Updated 2026-07-27 02:17 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2025-09-11; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Cisco Quantum-Safe Updates
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2016-10-05; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Cloudflare Post-Quantum Blog
@@ -225,13 +232,6 @@ _Updated 2026-07-27 02:17 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2025-03-07; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: PQCA Blog and News
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-06-11; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: QuSecure Press Releases

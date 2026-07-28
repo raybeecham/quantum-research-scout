@@ -4,29 +4,30 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-07-27 02:17 UTC_
+_Updated 2026-07-28 02:01 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
-Assessed **16 of 43** configured organizations.
+Assessed **17 of 43** configured organizations.
 
 | Organization | Observed stage | Confidence | PQC evidence | Sources | Historical | Latest dated evidence |
 |---|---|---|---:|---:|---:|---|
 | PQShield | Pilot / Testing | medium | 2 | 1 | 0 | 2026-07-23 |
 | Wiz | Pilot / Testing | medium | 4 | 1 | 4 | 2026-07-02 |
-| Keyfactor | Planning | high | 12 | 3 | 8 | 2026-07-25 |
+| Keyfactor | Planning | high | 13 | 3 | 8 | 2026-07-27 |
 | QuSecure | Planning | high | 5 | 3 | 4 | 2026-07-25 |
 | Accenture / Accenture Federal Services | Planning | medium | 3 | 1 | 3 | Unknown |
 | Fortanix | Planning | medium | 19 | 1 | 19 | 2026-02-04 |
 | NIST | Planning | medium | 2 | 2 | 0 | 2026-07-24 |
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
-| Cisco | Awareness | medium | 3 | 1 | 3 | Unknown |
+| Cisco | Awareness | medium | 4 | 1 | 3 | 2026-07-27 |
 | Cloudflare | Awareness | medium | 2 | 1 | 0 | 2026-07-09 |
 | ISO/IEC | Awareness | medium | 2 | 2 | 0 | 2026-07-15 |
 | ANSSI | Awareness | low | 1 | 1 | 0 | 2026-06-23 |
 | AWS | Awareness | low | 1 | 1 | 0 | 2026-07-01 |
 | Booz Allen Hamilton | Awareness | low | 1 | 1 | 1 | 2025-02-06 |
 | ETSI | Awareness | low | 1 | 1 | 1 | 2026-06-22 |
+| PQCA | Awareness | low | 1 | 1 | 0 | 2026-07-27 |
 | Quantum Computing Inc. (QCi) | Awareness | low | 1 | 1 | 1 | Unknown |
 | Atom Computing | Not assessed | none | 0 | 0 | 0 | Unknown |
 | BSI Germany | Not assessed | none | 0 | 0 | 0 | Unknown |
@@ -46,7 +47,6 @@ Assessed **16 of 43** configured organizations.
 | Microsoft Quantum | Not assessed | none | 0 | 0 | 0 | Unknown |
 | NSA | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Open Quantum Safe | Not assessed | none | 0 | 0 | 0 | Unknown |
-| PQCA | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Pasqal | Not assessed | none | 0 | 0 | 0 | Unknown |
 | PsiQuantum | Not assessed | none | 0 | 0 | 0 | Unknown |
 | QuEra | Not assessed | none | 0 | 0 | 0 | Unknown |
