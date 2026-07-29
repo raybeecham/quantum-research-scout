@@ -2,7 +2,7 @@
 
 Automated daily research scout for post-quantum cryptography, quantum technology, and AI security signals.
 
-Quantum Research Scout collects from arXiv, IACR ePrint, RSS feeds, and configurable web pages, then classifies, scores, deduplicates, stores, date-filters, and reports the results as a compact Markdown intelligence digest.
+Quantum Research Scout collects from patent-publication metadata, arXiv, IACR ePrint, RSS feeds, and configurable web pages, then classifies, scores, deduplicates, stores, date-filters, and reports the results as a compact Markdown intelligence digest.
 
 The installable CLI is still named `pqc-quantum-research-agent`.
 
@@ -12,10 +12,11 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 
 ## What It Does
 
-- Collects papers and articles from arXiv, IACR ePrint, RSS feeds, and configured URLs.
+- Collects patent publications, papers, and articles from the USPTO Open Data Portal, arXiv, IACR ePrint, RSS feeds, and configured URLs.
 - Includes default source definitions for The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, NIST CSRC, CISA, PQCA, Open Quantum Safe, Cloudflare, Google Security, IBM Quantum, Microsoft Quantum, AWS, IonQ, Quantinuum, Rigetti, Atom Computing, PsiQuantum, QuEra, Intel Quantum, Deloitte, Accenture and Accenture Federal Services, Booz Allen Hamilton, Lockheed Martin, ENISA, ETSI, BSI Germany, PQShield, SandboxAQ, DigiCert, Thales, and others. Sources that consistently reject automation remain documented but disabled.
 - Deduplicates by canonical URL, title hash, and fuzzy title similarity.
 - Classifies each item into:
+  - Patent Intelligence
   - PQC
   - Crypto Agility
   - Quantum Hardware
@@ -34,6 +35,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - Writes a deterministic weekly synthesis to `reports/weekly/YYYY/` from existing daily Markdown digests.
 - Writes a deterministic monthly synthesis to `reports/monthly/YYYY/` and maintains `reports/README.md` as the archive index.
 - Maintains a persistent, deduplicated signal ledger in `reports/signals.json` with a human-readable momentum dashboard in `reports/signals.md`.
+- Maintains a two-year patent-publication ledger in `reports/patents.json` with a readable landscape summary in `reports/patents.md`.
 - Maintains a bounded historical evidence ledger for official watch sources. Historical records enrich organization profiles but are explicitly excluded from alerts.
 - Scores each watched organization by the highest publicly evidenced PQC engagement stage: awareness, inventory, planning, pilot/testing, or production.
 - Tracks authoritative PQC standards, policy, procurement, and migration milestones with exact deadlines distinguished from planning estimates.
@@ -45,6 +47,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - [Visual intelligence dashboard](https://raybeecham.github.io/quantum-research-scout/) — searchable signals, momentum, source health, and latest reports
 - [Report index](reports/README.md) — latest daily, weekly, and monthly reports plus archive navigation
 - [Persistent signal tracker](reports/signals.md) — momentum, importance, confidence, status, follow-up, and evidence
+- [Patent intelligence](reports/patents.md) — recent publications, assignees, publication dates, scores, and topic matches
 - [Source health](reports/source-health.md) — rolling reliability, expected idle periods, disabled sources, and active warnings
 - [Intelligence alerts](reports/alerts.md) — new actionable signals, rising momentum, critical themes, and source degradation
 - [Entity and technology watch](reports/entity-watch.md) — organization, standards, algorithm, and technology momentum
@@ -59,7 +62,15 @@ Daily reports provide the evidence stream. Weekly and monthly syntheses reduce r
 
 ## Visual Dashboard
 
-The GitHub Pages dashboard is a static, responsive portal built from structured report artifacts and the report archive. It supports alert triage, client-side signal search, status filtering, momentum visualization, source reliability and freshness, PQC readiness scorecards, an authoritative standards timeline, evidence links, and direct access to the latest reports. Organization and technology names open dedicated profiles with evidence trends, a research timeline, active alerts, themes, first-party coverage, and readiness support. The comparison view places two organizations side by side across evidence volume, recent momentum, alerts, themes, readiness, coverage, source verification, and freshness. The mobile menu keeps every dashboard section reachable on narrow screens, while build-versioned CSS, JavaScript, and data URLs prevent stale cached assets after deployment. No application server or runtime database is required.
+The GitHub Pages dashboard is a static, responsive portal built from structured report artifacts and the report archive. Its primary view now starts with the latest reports, urgent alerts, priority signals, recent patent publications, and a compact entity watch. Definitions, evidence trends, readiness scorecards, standards, comparisons, coverage, and source health remain available inside a collapsed **Advanced analysis & collection operations** panel. This progressive layout keeps routine scanning focused without removing the deeper evidence or operating detail.
+
+Organization and technology names open dedicated profiles with evidence trends, a research timeline, active alerts, themes, first-party coverage, and readiness support. The comparison view places two organizations side by side across evidence volume, recent momentum, alerts, themes, readiness, coverage, source verification, and freshness. Build-versioned CSS, JavaScript, and data URLs prevent stale cached assets after deployment. No application server or runtime database is required.
+
+## Patent Intelligence
+
+The scheduled collector runs bounded USPTO searches across post-quantum cryptography, quantum computing, quantum networking, and quantum sensing. Relevant publications receive the same topical-confidence gate and scoring controls as other evidence, appear in a dedicated daily and weekly report section, and merge into a durable two-year ledger. The dashboard highlights the six most recent tracked publications and links each item to its official Patent File Wrapper page.
+
+Patent publications are treated as early evidence of technical investment and IP positioning—not as proof of implementation, validity, commercial readiness, infringement, or freedom to operate. The [USPTO Open Data Portal](https://data.uspto.gov/) requires registration and an API key. Store that key as the GitHub Actions repository secret `USPTO_ODP_API_KEY`; until it is present, patent collection is skipped quietly without generating a recurring source warning.
 
 ## Configurable Alerts
 
@@ -197,7 +208,7 @@ Report controls:
 - `--week-start YYYY-MM-DD` and `--week-end YYYY-MM-DD`: optional weekly synthesis bounds. If omitted, weekly mode uses the current America/Chicago Monday-through-Friday reporting week when daily reports exist there, otherwise it falls back to the latest populated report week.
 - `--monthly` and `--month YYYY-MM`: generate a monthly synthesis; the target defaults to the prior month.
 - `--update-report-index`: refresh the navigable report archive index after report generation.
-- `--update-intelligence-tracking`: after daily generation, merge retained evidence into the persistent signal ledger and refresh source health.
+- `--update-intelligence-tracking`: after daily generation, merge retained evidence into the persistent signal and patent ledgers and refresh source health.
 - `--alerts-config`: alert rules YAML used during intelligence tracking. The default is `alerts.yaml`.
 - `--watchlists-config`: entity and technology watchlist YAML. The default is `watchlists.yaml`.
 - `--readiness-config`: evidence-backed PQC readiness rules. The default is `readiness.yaml`.
@@ -374,7 +385,7 @@ The workflow uses Node.js 24-compatible GitHub Action majors and sets `FORCE_JAV
 ```text
 pqc_quantum_research_agent/
   cli.py            # command-line entry point
-  collectors.py     # arXiv, IACR, RSS, URL, and fallback watch-source collection
+  collectors.py     # patent, arXiv, IACR, RSS, URL, and fallback watch-source collection
   classifier.py     # keyword category and score logic
   dedupe.py         # URL, hash, and fuzzy-title dedupe
   storage.py        # SQLite schema and inserts
@@ -383,6 +394,7 @@ pqc_quantum_research_agent/
   monthly.py        # monthly synthesis generation
   report_index.py   # navigable report archive index
   signals.py        # persistent signal ledger and momentum tracker
+  patents.py        # persistent patent-publication ledger
   source_health.py  # rolling source reliability report
   alerts.py         # configurable stateful alert evaluation
   entity_watch.py   # entity and technology evidence profiles
@@ -397,6 +409,8 @@ standards.yaml      # authoritative standards and migration milestones
 reports/README.md   # latest reports, themes, and archive summary
 reports/signals.json # durable deduplicated signal evidence
 reports/signals.md  # human-readable signal momentum and follow-up
+reports/patents.json # durable structured patent-publication intelligence
+reports/patents.md  # human-readable patent landscape
 reports/source-health.md # rolling source reliability and warnings
 reports/source-health.json # structured source-health dashboard data
 reports/source-observations.json # persistent per-source checks, successes, failures, and latest items

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 from collections import defaultdict
 from datetime import date, datetime, timezone
@@ -278,6 +279,12 @@ def _is_expected_idle(item: dict[str, str]) -> bool:
 
 def _configured_sources(config: AgentConfig) -> tuple[list[tuple[str, str]], list[tuple[str, str]]]:
     sources: list[tuple[str, str, bool]] = []
+    patent_key_env = str(config.patents.get("api_key_env") or "")
+    if config.patents.get("enabled", True) and (not patent_key_env or os.getenv(patent_key_env)):
+        sources.extend(
+            (item.get("name", "USPTO Patent Intelligence"), "patent", item.get("enabled", True))
+            for item in config.patents.get("queries", [])
+        )
     sources.extend((item.get("name", item.get("url", "arXiv RSS")), "arxiv_rss", item.get("enabled", True)) for item in config.arxiv_rss)
     if config.arxiv.get("enabled", True):
         sources.extend((item.get("name", "arXiv"), "arxiv", item.get("enabled", True)) for item in config.arxiv.get("queries", []))

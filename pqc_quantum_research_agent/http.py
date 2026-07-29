@@ -30,11 +30,16 @@ class HttpClient:
             }
         )
 
-    def get_text(self, url: str, params: dict[str, Any] | None = None) -> tuple[str, str]:
+    def get_text(
+        self,
+        url: str,
+        params: dict[str, Any] | None = None,
+        headers: dict[str, str] | None = None,
+    ) -> tuple[str, str]:
         last_error: Exception | None = None
         for attempt in range(self.retries + 1):
             try:
-                response = self.session.get(url, params=params, timeout=self.timeout_seconds)
+                response = self.session.get(url, params=params, headers=headers, timeout=self.timeout_seconds)
                 response.raise_for_status()
                 response.encoding = _best_response_encoding(response)
                 return response.text, response.url

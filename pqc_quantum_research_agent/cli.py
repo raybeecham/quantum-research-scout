@@ -15,6 +15,7 @@ from .dedupe import dedupe_items, prepare_identity
 from .report import is_report_relevant, select_report_items, write_daily_digest
 from .retention import prune_daily_reports
 from .monthly import write_monthly_report
+from .patents import write_patent_tracker
 from .report_index import write_report_index
 from .signals import write_signal_tracker
 from .source_health import write_source_health_report, write_source_observations
@@ -322,6 +323,7 @@ def main(argv: list[str] | None = None) -> int:
             args.retention_days,
         )
     if args.update_intelligence_tracking:
+        write_patent_tracker(Path(args.reports_dir), classified, generated_at=generated_at)
         write_signal_tracker(Path(args.reports_dir))
         write_entity_watch(Path(args.reports_dir), args.watchlists_config, sources_config_path=args.config)
         write_readiness_report(Path(args.reports_dir), args.readiness_config)

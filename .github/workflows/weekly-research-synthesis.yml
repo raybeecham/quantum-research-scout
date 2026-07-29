@@ -61,6 +61,7 @@ jobs:
       - name: Capture Friday morning intelligence
         env:
           REPORTS_DIR: ${{ github.workspace }}/reports
+          USPTO_ODP_API_KEY: ${{ secrets.USPTO_ODP_API_KEY }}
         run: |
           mkdir -p "$REPORTS_DIR"
           pqc-quantum-research-agent \

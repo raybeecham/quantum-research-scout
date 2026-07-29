@@ -10,6 +10,7 @@ from .weekly import WeeklyItem, parse_daily_report
 from .visuals import momentum_icon, priority_icon, status_icon
 
 THEMES = (
+    "Patent Intelligence",
     "PQC / Crypto Agility",
     "QEC / Fault Tolerance",
     "Quantum Hardware",
@@ -22,6 +23,10 @@ THEMES = (
 )
 
 FOLLOW_UP = {
+    "Patent Intelligence": (
+        "Track assignee concentration, related families, prosecution status, and citations; treat filings as signals, "
+        "not proof of implementation or freedom to operate."
+    ),
     "PQC / Crypto Agility": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
     "QEC / Fault Tolerance": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
     "Quantum Hardware": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
@@ -129,6 +134,8 @@ def _momentum(recent: int, prior: int) -> str:
 def _theme_for_item(item: WeeklyItem) -> str:
     category = item.category.casefold()
     text = f"{item.title} {item.why_it_matters}".casefold()
+    if "patent" in category:
+        return "Patent Intelligence"
     if "crypto" in category or category == "pqc":
         return "PQC / Crypto Agility"
     if "qec" in category or "fault" in category:

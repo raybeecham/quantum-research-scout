@@ -41,6 +41,7 @@ def write_report_index(reports_dir: str | Path, *, generated_at: datetime | None
         "## Intelligence Tracking",
         "",
         f"- Persistent signals: {_optional_link(reports_path, reports_path / 'signals.md')}",
+        f"- Patent intelligence: {_optional_link(reports_path, reports_path / 'patents.md')}",
         f"- Source health: {_optional_link(reports_path, reports_path / 'source-health.md')}",
         f"- Intelligence alerts: {_optional_link(reports_path, reports_path / 'alerts.md')}",
         f"- Entity and technology watch: {_optional_link(reports_path, reports_path / 'entity-watch.md')}",

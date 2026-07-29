@@ -26,8 +26,9 @@ FULL_ENTRY_SECTIONS = (
     "AI Security Signals",
     "Top Hardware / QEC Signals",
     "Top Quantum Networking Signals",
-    "Research",
     "Standards / Government",
+    "Patent Intelligence",
+    "Research",
 )
 
 PQC_STANDARD_KEYWORDS = {
@@ -462,6 +463,7 @@ def _render_key_takeaways(
     networking_count = sum(1 for item in report_items if _is_networking_signal(item))
     research_count = sum(1 for item in report_items if _is_research_source(item))
     vendor_count = sum(1 for item in report_items if _is_vendor_signal(item))
+    patent_count = sum(1 for item in report_items if _is_patent_signal(item))
 
     if pqc_count:
         takeaways.append(
@@ -471,6 +473,10 @@ def _render_key_takeaways(
     if ai_count:
         takeaways.append(
             f"{ai_count} AI security signal(s) were separated from quantum research to reduce topic bleed-through."
+        )
+    if patent_count:
+        takeaways.append(
+            f"{patent_count} patent publication(s) surfaced as early indicators of technical investment and IP positioning."
         )
     if hardware_count:
         takeaways.append(
@@ -575,6 +581,8 @@ def _group_by_report_section(items: list[ResearchItem]) -> tuple[dict[str, list[
 
 
 def _belongs_in_section(item: ResearchItem, section: str) -> bool:
+    if _is_patent_signal(item):
+        return section == "Patent Intelligence"
     if section == "Top PQC / Security Signals":
         return _is_pqc_security_signal(item)
     if section == "AI Security Signals":
@@ -1007,6 +1015,11 @@ def _is_meaningful_short_statement(value: str) -> bool:
 
 def _why_it_matters(item: ResearchItem) -> str:
     text = _item_text(item)
+    if _is_patent_signal(item):
+        return (
+            "Patent publications can reveal technical investment and IP positioning before products reach the market. "
+            "A filing is an indicator, not proof of implementation, commercial readiness, validity, or infringement."
+        )
     if _is_ai_security_signal(item):
         return (
             "AI security work matters for model abuse, prompt-level compromise, alignment risk, "
@@ -1074,6 +1087,10 @@ def _priority_label(score: int) -> str:
 
 def _is_research_source(item: ResearchItem) -> bool:
     return item.source_type in {"arxiv", "arxiv_rss", "iacr_eprint"}
+
+
+def _is_patent_signal(item: ResearchItem) -> bool:
+    return item.source_type == "patent" or item.category == "Patent Intelligence"
 
 
 def _is_standards_government_signal(item: ResearchItem) -> bool:
@@ -1228,7 +1245,8 @@ def _has_quantum_context_text(text: str) -> bool:
 
 def _has_required_topic_relevance(item: ResearchItem) -> bool:
     return (
-        _is_pqc_security_signal(item)
+        (_is_patent_signal(item) and _has_quantum_context(item))
+        or _is_pqc_security_signal(item)
         or _is_hardware_qec_signal(item)
         or _is_networking_signal(item)
         or _is_ai_security_signal(item)

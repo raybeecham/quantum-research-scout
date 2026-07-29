@@ -16,6 +16,33 @@ from pqc_quantum_research_agent.report import (
 
 
 class ReportTests(unittest.TestCase):
+    def test_patent_publication_has_a_dedicated_section_and_caveat(self) -> None:
+        item = ResearchItem(
+            source_name="PQC Patents",
+            source_type="patent",
+            title="Post-quantum ML-KEM key exchange patent publication",
+            url="https://patents.google.com/patent/US20260234567A1/en",
+            summary="A post-quantum TLS migration method using ML-KEM.",
+            published_at=datetime(2026, 5, 12, 12, 0, tzinfo=timezone.utc),
+            date_filter_status="included_today",
+            category="Patent Intelligence",
+            score=64,
+            matched_keywords=["post-quantum", "ml-kem", "tls"],
+            score_explanation="topic_confidence=10; rationale=strong PQC keyword match",
+        )
+        summary = DateFilterSummary(
+            target_date=date(2026, 5, 12),
+            generated_at=datetime(2026, 5, 13, tzinfo=timezone.utc),
+            collected_raw_candidates=1,
+            eligible_items_for_target_date=1,
+        )
+
+        digest = render_digest([item], date(2026, 5, 12), summary=summary, min_score=3)
+
+        self.assertIn("## Patent Intelligence", digest)
+        self.assertIn("A filing is an indicator, not proof of implementation", digest)
+        self.assertEqual(digest.count("Post-quantum ML-KEM key exchange patent publication"), 2)
+
     def test_daily_digest_can_include_already_seen_target_date_items(self) -> None:
         item = ResearchItem(
             source_name="NIST",

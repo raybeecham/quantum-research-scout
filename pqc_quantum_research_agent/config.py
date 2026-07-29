@@ -26,6 +26,7 @@ class RuntimeSettings:
 @dataclass(slots=True)
 class AgentConfig:
     settings: RuntimeSettings = field(default_factory=RuntimeSettings)
+    patents: dict[str, Any] = field(default_factory=dict)
     arxiv: dict[str, Any] = field(default_factory=dict)
     arxiv_rss: list[dict[str, Any]] = field(default_factory=list)
     iacr_eprint: dict[str, Any] = field(default_factory=dict)
@@ -44,6 +45,7 @@ def load_config(path: str | Path) -> AgentConfig:
     settings = RuntimeSettings(**(raw.get("settings") or {}))
     return AgentConfig(
         settings=settings,
+        patents=raw.get("patents") or {},
         arxiv=raw.get("arxiv") or {},
         arxiv_rss=list(raw.get("arxiv_rss") or []),
         iacr_eprint=raw.get("iacr_eprint") or {},

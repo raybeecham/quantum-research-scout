@@ -8,6 +8,7 @@ from urllib.parse import urlsplit
 from .models import ResearchItem
 
 CATEGORIES = (
+    "Patent Intelligence",
     "PQC",
     "Crypto Agility",
     "Quantum Hardware",
@@ -547,6 +548,7 @@ SOURCE_CATEGORY_BONUS: dict[str, str] = {
 }
 
 SOURCE_TYPE_BONUS: dict[str, int] = {
+    "patent": 8,
     "arxiv": 8,
     "arxiv_rss": 8,
     "iacr_eprint": 14,
@@ -667,7 +669,11 @@ def classify_item(
     for category, score in source_category_scores.items():
         category_scores[category] += score
 
-    item.category = _select_category(content_category_scores, category_scores, content_text_lower)
+    item.category = (
+        "Patent Intelligence"
+        if item.source_type == "patent"
+        else _select_category(content_category_scores, category_scores, content_text_lower)
+    )
     keyword_score = sum(merged_keyword_weights[keyword] for keyword in matched)
     title_bonus = sum(2 for keyword in matched if phrase_in_text(keyword, title_text))
     category_bonus = min(max(content_category_scores.values(), default=0), 12)
@@ -1016,6 +1022,8 @@ def _source_weight_bonus(content_text: str, source_weights: Mapping[str, int]) -
 
 
 def _category_weight_bonus(item: ResearchItem) -> int:
+    if item.category == "Patent Intelligence":
+        return 10
     if item.category in {"PQC", "Crypto Agility", "Standards / Policy"}:
         return 14
     if item.category == "QEC / Fault Tolerance":

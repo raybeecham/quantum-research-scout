@@ -16,6 +16,20 @@ historical_backfill:
   max_items_per_source: 25
   include_undated: true
 
+patents:
+  enabled: true
+  provider: "uspto_odp"
+  endpoint: "https://api.uspto.gov/api/v1/patent/applications/search"
+  api_key_env: "USPTO_ODP_API_KEY"
+  max_items_per_query: 25
+  queries:
+    - name: "Post-Quantum Cryptography Patents"
+      search_query: 'post-quantum OR quantum-safe OR quantum-resistant OR ML-KEM OR ML-DSA'
+    - name: "Quantum Computing Patents"
+      search_query: '"quantum computing" OR "quantum processor" OR qubit'
+    - name: "Quantum Networking and Sensing Patents"
+      search_query: '"quantum network" OR "quantum communication" OR "quantum sensing"'
+
 arxiv:
   enabled: false
   max_results: 25

@@ -73,6 +73,15 @@ class DashboardBuildTests(unittest.TestCase):
                 json.dumps({"item_count": 2, "dated_count": 1, "undated_count": 1, "items": [{"key": "one"}]}),
                 encoding="utf-8",
             )
+            (reports / "patents.json").write_text(
+                json.dumps(
+                    {
+                        "summary": {"total": 1, "last_30_days": 1, "unique_assignees": 1},
+                        "patents": [{"publication_number": "US20260234567A1", "title": "PQC Patent"}],
+                    }
+                ),
+                encoding="utf-8",
+            )
             daily = reports / "2026-07" / "2026-07-20-digest.md"
             daily.parent.mkdir()
             daily.write_text("# Daily", encoding="utf-8")
@@ -94,6 +103,8 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["readiness"]["organizations"][0]["stage"], "planning")
             self.assertEqual(payload["standards"]["milestones"][0]["id"], "fips-203")
             self.assertEqual(payload["historical_evidence"]["item_count"], 2)
+            self.assertEqual(payload["patents"]["summary"]["total"], 1)
+            self.assertEqual(payload["patents"]["patents"][0]["publication_number"], "US20260234567A1")
             self.assertEqual(payload["signals"]["overall_trend"][0]["count"], 1)
             self.assertIn("github.com/example/repo/blob/main/reports/", payload["reports"]["latest_daily"]["url"])
 
@@ -125,3 +136,15 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("renderReadiness", script)
         self.assertIn("renderStandards", script)
         self.assertIn("historical", profile)
+
+    def test_dashboard_prioritizes_core_views_and_collapses_advanced_analysis(self) -> None:
+        root = Path(__file__).parents[1]
+        html = (root / "dashboard" / "index.html").read_text(encoding="utf-8")
+        script = (root / "dashboard" / "app.js").read_text(encoding="utf-8")
+
+        self.assertIn('<details id="advanced"', html)
+        self.assertIn('id="patents"', html)
+        self.assertLess(html.index('id="reports"'), html.index('id="advanced"'))
+        self.assertIn('status: "priority"', script)
+        self.assertIn("renderPatents", script)
+        self.assertIn("alerts.slice(0, 6)", script)

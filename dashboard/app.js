@@ -1,4 +1,4 @@
-const state = { data: null, status: "all", query: "", trendDays: 30, watchType: "entities", compareFirst: "", compareSecond: "" };
+const state = { data: null, status: "priority", query: "", trendDays: 30, watchType: "entities", compareFirst: "", compareSecond: "" };
 const icons = { rising: "↗", stable: "→", declining: "↘" };
 const definitions = {
   rising: "Latest seven-day evidence is at least 50% higher than the prior seven days.",
@@ -31,28 +31,27 @@ fetch("data/dashboard.json?v=__ASSET_VERSION__").then(response => {
 });
 
 function render(){
-  const themes = state.data.signals.themes || [];
-  const sources = state.data.source_health.sources || [];
+  const themes = state.data.signals?.themes || [];
+  const sources = state.data.source_health?.sources || [];
+  const patentPayload = state.data.patents || { patents: [], summary: {} };
   document.getElementById("repo-link").href = safeUrl(state.data.repository_url);
+  document.getElementById("alerts-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/alerts.md`);
   document.getElementById("metric-actionable").textContent = themes.filter(x => x.status === "actionable").length;
-  document.getElementById("metric-rising").textContent = themes.filter(x => x.momentum === "rising").length;
   document.getElementById("metric-critical").textContent = themes.filter(x => x.importance === "critical").length;
   const healthy = sources.filter(x => x.status === "healthy").length;
-  document.getElementById("metric-health").textContent = sources.length ? `${Math.round(healthy / sources.length * 100)}%` : "—";
   const alerts = state.data.alerts || { alerts: [], active_count: 0, new_count: 0 };
   document.getElementById("metric-alerts").textContent = alerts.active_count || 0;
   document.getElementById("metric-alerts-detail").textContent = `${alerts.new_count || 0} new condition${alerts.new_count === 1 ? "" : "s"}`;
-  const coverage = state.data.entity_watch?.coverage || [];
-  const covered = coverage.filter(item => item.status === "covered").length;
-  document.getElementById("metric-coverage").textContent = coverage.length ? `${Math.round(covered / coverage.length * 100)}%` : "—";
-  document.getElementById("metric-coverage-detail").textContent = `${covered} of ${coverage.length} organizations`;
+  document.getElementById("metric-patents").textContent = patentPayload.summary?.last_30_days || 0;
+  document.getElementById("metric-patents-detail").textContent = `${patentPayload.summary?.total || 0} tracked publication${patentPayload.summary?.total === 1 ? "" : "s"}`;
   document.getElementById("signal-updated").textContent = `Updated ${formatDate(state.data.signals.updated_at)}`;
   const verified = sources.filter(x => x.verification_status === "verified").length;
   const fresh = sources.filter(x => x.freshness === "fresh").length;
   const stale = sources.filter(x => x.freshness === "stale").length;
   document.getElementById("source-summary").textContent = `${healthy} healthy · ${verified} verified · ${fresh} fresh · ${stale} stale`;
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
-  renderTrend(); renderAlerts(alerts); renderSignals(); renderWatch(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderSources(sources); renderReports(state.data.reports);
+  renderReports(state.data.reports); renderAlerts(alerts); renderSignals(); renderPatents(patentPayload); renderWatch();
+  renderTrend(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderSources(sources);
 }
 
 function renderTrend(){
@@ -82,7 +81,7 @@ function renderTrend(){
 function renderAlerts(payload){
   const alerts = payload.alerts || [];
   document.getElementById("alert-summary").textContent = `${payload.active_count || 0} active · ${payload.new_count || 0} new`;
-  document.getElementById("alert-list").innerHTML = alerts.length ? alerts.slice(0, 16).map(item =>
+  document.getElementById("alert-list").innerHTML = alerts.length ? alerts.slice(0, 6).map(item =>
     `<article class="alert-item ${escapeHtml(item.severity)}"><span class="badge ${escapeHtml(item.severity)}">${escapeHtml(item.severity)}</span><div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.summary)}</p></div><div>${item.is_new ? '<span class="new-tag">NEW</span> ' : ''}${item.evidence_url ? `<a href="${escapeHtml(safeUrl(item.evidence_url))}" target="_blank" rel="noopener">Evidence →</a> ` : ''}<a href="${escapeHtml(safeUrl(state.data.repository_url + '/blob/main/reports/' + item.link))}">Profile →</a></div></article>`
   ).join("") : "<p>No active alerts.</p>";
 }
@@ -90,27 +89,44 @@ function renderAlerts(payload){
 function renderSignals(){
   const query = state.query.toLowerCase();
   const themes = state.data.signals.themes.filter(item => {
-    const statusMatch = state.status === "all" || item.status === state.status;
+    const statusMatch = state.status === "all"
+      || (state.status === "priority" && (item.status === "actionable" || item.importance === "critical"))
+      || item.status === state.status;
     const haystack = [item.name, ...(item.organizations || []), ...(item.evidence || []).map(x => x.title)].join(" ").toLowerCase();
     return statusMatch && haystack.includes(query);
   });
-  document.getElementById("signal-grid").innerHTML = themes.length ? themes.map(signalCard).join("") : "<p>No signals match the current filters.</p>";
+  const visibleThemes = state.status === "all" ? themes : themes.slice(0, 6);
+  document.getElementById("signal-grid").innerHTML = visibleThemes.length ? visibleThemes.map(signalCard).join("") : "<p>No signals match the current filters.</p>";
   document.querySelectorAll(".evidence-toggle").forEach(button => button.addEventListener("click", () => {
     const list = document.getElementById(button.dataset.target); list.classList.toggle("open");
     button.textContent = list.classList.contains("open") ? "Hide evidence" : "View evidence";
   }));
 }
 
+function renderPatents(payload){
+  const patents = payload.patents || [];
+  const summary = payload.summary || {};
+  document.getElementById("patent-summary").textContent = `${summary.last_30_days || 0} published in 30 days · ${summary.unique_assignees || 0} named assignees`;
+  document.getElementById("patent-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/patents.md`);
+  document.getElementById("patent-grid").innerHTML = patents.length ? patents.slice(0, 6).map(item => {
+    const number = item.publication_number || "Publication number unavailable";
+    const topics = (item.matched_keywords || []).slice(0, 3);
+    return `<article class="patent-card"><div class="patent-meta"><span>${escapeHtml(number)}</span><time>${escapeHtml(formatShortDate(item.publication_date))}</time></div><h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3><p class="patent-assignee">${escapeHtml(item.assignee || "Assignee not listed")}</p><p>${escapeHtml(item.summary || "No abstract snippet is available.")}</p><div class="patent-footer"><div class="profile-themes">${topics.map(topic => `<span>${escapeHtml(topic)}</span>`).join("")}</div><strong>${item.score || 0}</strong></div></article>`;
+  }).join("") : '<div class="empty-state">No relevant patent publications have been collected yet. Collection activates when the USPTO_ODP_API_KEY repository secret is configured.</div>';
+}
+
 function renderWatch(){
   const payload = state.data.entity_watch || { entities: [], technologies: [] };
   const items = payload[state.watchType] || [];
   const unseen = payload[`unseen_${state.watchType}`] || [];
-  const matched = items.length ? items.map(item => {
+  const watchCard = item => {
     const evidence = item.evidence?.[0];
     return `<article class="watch-card"><span class="watch-type">${escapeHtml(item.type || state.watchType)}</span><h3><a class="profile-link" href="${escapeHtml(profileUrl(item.name, state.watchType))}">${escapeHtml(item.name)}</a></h3><div class="badges"><span class="badge ${escapeHtml(item.momentum)}">${escapeHtml(item.momentum)}</span><span class="badge ${escapeHtml(item.priority)}">${escapeHtml(item.priority)}</span><span class="badge">${escapeHtml(item.status)}</span></div><div class="watch-stats"><div><span>Evidence</span><strong>${item.evidence_count}</strong></div><div><span>Recent</span><strong>${item.recent_count}</strong></div><div><span>Prior</span><strong>${item.prior_count}</strong></div></div><p class="themes">${escapeHtml((item.themes || []).slice(0,3).join(" · "))}</p><div class="watch-actions"><a class="watch-link" href="${escapeHtml(profileUrl(item.name, state.watchType))}">View profile →</a>${evidence ? `<a class="watch-link muted-link" href="${escapeHtml(safeUrl(evidence.url))}" target="_blank" rel="noopener">Latest evidence ↗</a>` : ""}</div></article>`;
-  }).join("") : "<p>No configured watch items have matched evidence yet.</p>";
+  };
+  const matched = items.length ? items.slice(0, 6).map(watchCard).join("") : "<p>No configured watch items have matched evidence yet.</p>";
+  const more = items.length > 6 ? `<details class="watch-more"><summary>Show ${items.length - 6} more matched items</summary><div class="watch-more-grid">${items.slice(6).map(watchCard).join("")}</div></details>` : "";
   const awaiting = unseen.length ? `<details class="watch-unseen"><summary>${unseen.length} configured ${state.watchType === "entities" ? "organizations" : "technologies"} awaiting evidence</summary><div>${unseen.map(item => `<a href="${escapeHtml(profileUrl(item.name, state.watchType))}"><strong>${escapeHtml(item.name)}</strong> · ${escapeHtml(item.type)} · ${escapeHtml(item.priority)}</a>`).join("")}</div></details>` : "";
-  document.getElementById("watch-grid").innerHTML = matched + awaiting;
+  document.getElementById("watch-grid").innerHTML = matched + more + awaiting;
 }
 
 function renderReadiness(){

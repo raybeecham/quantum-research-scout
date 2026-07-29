@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import json
 import logging
+import os
 import re
 import time
 import xml.etree.ElementTree as ET
@@ -28,6 +30,11 @@ def collect_all(config: AgentConfig) -> CollectionResult:
     result = CollectionResult()
 
     collectors: tuple[tuple[str, str, Callable[[], CollectionResult]], ...] = (
+        (
+            "Patent intelligence",
+            "patent",
+            lambda: collect_patents(client, config.patents, settings.max_items_per_source),
+        ),
         ("arXiv RSS", "arxiv_rss", lambda: collect_arxiv_rss(client, config.arxiv_rss, settings.max_items_per_source)),
         ("arXiv API", "arxiv", lambda: collect_arxiv(client, config.arxiv)),
         (
@@ -54,6 +61,170 @@ def collect_all(config: AgentConfig) -> CollectionResult:
         result.items.extend(collected.items)
         result.warnings.extend(collected.warnings)
     return result
+
+
+def collect_patents(
+    client: HttpClient,
+    patent_config: dict,
+    max_items_per_source: int,
+) -> CollectionResult:
+    """Collect recent USPTO patent-publication metadata when configured."""
+    if not patent_config.get("enabled", True):
+        return CollectionResult()
+    provider = str(patent_config.get("provider") or "uspto_odp").casefold()
+    if provider != "uspto_odp":
+        LOGGER.warning("Unsupported patent provider %s; patent collection skipped", provider)
+        return CollectionResult()
+    return _collect_uspto_patents(client, patent_config, max_items_per_source)
+
+
+def _collect_uspto_patents(
+    client: HttpClient,
+    patent_config: dict,
+    max_items_per_source: int,
+) -> CollectionResult:
+    """Collect USPTO Patent File Wrapper metadata when an ODP API key is available."""
+    result = CollectionResult()
+    api_key_env = str(patent_config.get("api_key_env") or "USPTO_ODP_API_KEY")
+    api_key = os.getenv(api_key_env, "").strip()
+    if not api_key:
+        LOGGER.info("USPTO patent collection skipped because %s is not configured", api_key_env)
+        return result
+
+    endpoint = str(
+        patent_config.get("endpoint") or "https://api.uspto.gov/api/v1/patent/applications/search"
+    )
+    max_items = int(patent_config.get("max_items_per_query", max_items_per_source))
+    seen: set[str] = set()
+    for query in patent_config.get("queries", []):
+        if not query.get("enabled", True):
+            continue
+        query_name = str(query.get("name") or "USPTO Patent Intelligence")
+        search_query = str(query.get("search_query") or "").strip()
+        if not search_query:
+            continue
+        try:
+            response_text, resolved_url = client.get_text(
+                endpoint,
+                params={
+                    "q": search_query,
+                    "sort": "applicationMetaData.publicationDate desc",
+                    "limit": max_items,
+                },
+                headers={"X-API-KEY": api_key, "Accept": "application/json"},
+            )
+        except RuntimeError as exc:
+            result.warnings.append(
+                SourceWarning(query_name, "patent", _source_failure_message(exc, "USPTO ODP"), endpoint)
+            )
+            continue
+        try:
+            payload = json.loads(response_text)
+        except (json.JSONDecodeError, TypeError) as exc:
+            result.warnings.append(
+                SourceWarning(query_name, "patent", f"Failed to parse USPTO ODP response: {exc}", resolved_url)
+            )
+            continue
+
+        query_count = 0
+        for wrapper in _uspto_patent_results(payload):
+            metadata = wrapper.get("applicationMetaData") or wrapper
+            if not isinstance(metadata, dict):
+                continue
+            publication_number = _first_text(
+                metadata, "publicationNumber", "earliestPublicationNumber", "patentNumber"
+            )
+            application_number = _first_text(
+                wrapper, "applicationNumberText", "applicationNumber"
+            ) or _first_text(metadata, "applicationNumberText", "applicationNumber")
+            key = publication_number or application_number
+            if not key or key in seen:
+                continue
+            title = _first_text(metadata, "inventionTitle", "title")
+            if not title:
+                continue
+            seen.add(key)
+            applicants = _party_names(metadata.get("applicantBag"), "applicantNameText", "name")
+            inventors = _party_names(metadata.get("inventorBag"), "inventorNameText", "name")
+            publication_date = _first_text(
+                metadata, "publicationDate", "earliestPublicationDate", "patentIssueDate"
+            )
+            filing_date = _first_text(metadata, "filingDate", "applicationFilingDate")
+            patent_url = (
+                f"https://data.uspto.gov/patent-file-wrapper/search/details/"
+                f"{re.sub(r'[^A-Za-z0-9]', '', application_number)}/application-data"
+                if application_number
+                else "https://data.uspto.gov/patent-file-wrapper/search"
+            )
+            result.items.append(
+                ResearchItem(
+                    source_name=query_name,
+                    source_type="patent",
+                    title=strip_html(title),
+                    url=patent_url,
+                    summary=compact_summary(
+                        " · ".join(
+                            part
+                            for part in (
+                                f"Applicant: {applicants}" if applicants else "",
+                                f"USPTO publication {publication_number}" if publication_number else "",
+                            )
+                            if part
+                        ),
+                        500,
+                    ),
+                    authors=inventors,
+                    published_at=parse_datetime(publication_date),
+                    date_source="patent:publication_date",
+                    date_confidence="high" if publication_date else "unknown",
+                    raw_payload={
+                        "publication_number": publication_number,
+                        "application_number": application_number,
+                        "assignee": applicants,
+                        "inventor": inventors,
+                        "filing_date": filing_date,
+                        "query_name": query_name,
+                        "search_query": search_query,
+                        "resolved_url": resolved_url,
+                    },
+                )
+            )
+            query_count += 1
+            if query_count >= max_items:
+                break
+    LOGGER.info("Collected %d USPTO patent candidates", len(result.items))
+    return result
+
+
+def _uspto_patent_results(payload: object) -> list[dict]:
+    if not isinstance(payload, dict):
+        return []
+    values = payload.get("patentFileWrapperDataBag") or payload.get("results") or []
+    return [item for item in values if isinstance(item, dict)] if isinstance(values, list) else []
+
+
+def _first_text(payload: object, *keys: str) -> str:
+    if not isinstance(payload, dict):
+        return ""
+    for key in keys:
+        value = payload.get(key)
+        if value is not None and not isinstance(value, (dict, list)):
+            text = strip_html(str(value))
+            if text:
+                return text
+    return ""
+
+
+def _party_names(value: object, *keys: str) -> str:
+    if isinstance(value, dict):
+        for nested_key in ("applicant", "inventor", "party"):
+            if nested_key in value:
+                return _party_names(value[nested_key], *keys)
+        name = _first_text(value, *keys)
+        return name
+    if isinstance(value, list):
+        return ", ".join(dict.fromkeys(name for item in value if (name := _party_names(item, *keys))))
+    return ""
 
 
 def collect_arxiv_rss(

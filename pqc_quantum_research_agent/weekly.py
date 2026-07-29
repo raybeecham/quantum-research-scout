@@ -22,6 +22,7 @@ METADATA_RE = re.compile(
 LINK_RE = re.compile(r"(?:^|\n)(?:Link:\s*)?\[Open item\]\((?P<url>[^)\n]+)\)")
 
 THEME_ORDER = (
+    "Patent Intelligence",
     "PQC / Crypto Agility",
     "QEC / Fault Tolerance",
     "Quantum Hardware",
@@ -472,6 +473,14 @@ def render_weekly_report(weekly: WeeklyInputs) -> str:
     )
     lines.extend(["", "## AI Security Watch", ""])
     lines.extend(_render_watch(theme_items["AI Security"], "No AI security signals were found.", featured_keys=featured_keys))
+    lines.extend(["", "## Patent Intelligence Watch", ""])
+    lines.extend(
+        _render_watch(
+            theme_items["Patent Intelligence"],
+            "No relevant patent publications were found.",
+            featured_keys=featured_keys,
+        )
+    )
     lines.extend(["", "## Vendor and Ecosystem Movement", ""])
     lines.extend(_render_vendor_movement(unique_items, featured_keys))
     lines.extend(["", "## Federal / Standards Implications", ""])
@@ -746,7 +755,14 @@ def _theme_observations(theme: str, items: list[WeeklyItem]) -> list[str]:
     text = " ".join(_item_text(item) for item in items)
     observations: list[str] = []
 
-    if theme == "PQC / Crypto Agility":
+    if theme == "Patent Intelligence":
+        observations.append(
+            f"{len(items)} patent publication signal(s) indicated technical investment or IP positioning."
+        )
+        observations.append(
+            "Treat publications as early indicators, then check related families, prosecution status, citations, and implementation evidence."
+        )
+    elif theme == "PQC / Crypto Agility":
         observations.append(
             f"PQC migration and crypto-agility appeared in {len(items)} signal(s), with emphasis on readiness, inventory, and implementation planning."
         )
@@ -890,6 +906,8 @@ def _items_by_theme(items: list[WeeklyItem]) -> dict[str, list[WeeklyItem]]:
 def _theme_for_item(item: WeeklyItem) -> str:
     text = _item_text(item)
     category = item.category.casefold()
+    if "patent" in category:
+        return "Patent Intelligence"
     if "ai security" in category or _contains_any(text, AI_SECURITY_TERMS):
         return "AI Security"
     if "crypto agility" in category or "pqc" in category or _contains_any(text, PQC_TERMS):

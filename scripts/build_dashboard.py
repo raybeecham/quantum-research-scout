@@ -27,6 +27,10 @@ def build_dashboard(
     readiness = _read_json(reports / "readiness.json", {"organizations": [], "summary": {}})
     standards = _read_json(reports / "standards-timeline.json", {"milestones": [], "summary": {}})
     historical = _read_json(reports / "historical-evidence.json", {"items": [], "item_count": 0})
+    patents = _read_json(
+        reports / "patents.json",
+        {"patents": [], "summary": {"total": 0, "last_30_days": 0, "unique_assignees": 0}},
+    )
     generated_at = datetime.now(timezone.utc).isoformat()
     payload = {
         "generated_at": generated_at,
@@ -40,6 +44,7 @@ def build_dashboard(
         "historical_evidence": {
             key: historical.get(key) for key in ("updated_at", "lookback_days", "item_count", "dated_count", "undated_count")
         },
+        "patents": patents,
         "reports": _report_links(reports, repo_url.rstrip("/")),
     }
     asset_names = ("index.html", "entity.html", "styles.css", "components.css", "app.js", "entity.js")

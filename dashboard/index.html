@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="PQC, quantum technology, and AI security intelligence dashboard">
+  <meta name="description" content="PQC, quantum technology, patent, and AI security intelligence dashboard">
   <title>Quantum Research Scout</title>
   <link rel="stylesheet" href="styles.css?v=__ASSET_VERSION__">
   <link rel="stylesheet" href="components.css?v=__ASSET_VERSION__">
@@ -14,77 +14,55 @@
       <a class="brand" href="#top"><span class="brand-mark">Q</span><span>Quantum Research Scout</span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-links"><span></span><span></span><span></span><b>Menu</b></button>
       <div id="primary-links" class="nav-links">
-        <a href="#guide">Guide</a><a href="#trends">Trends</a><a href="#alerts">Alerts</a><a href="#signals">Signals</a><a href="#watch">Watch</a><a href="#readiness">Readiness</a><a href="#standards">Standards</a><a href="#compare">Compare</a><a href="#coverage">Coverage</a><a href="#sources">Sources</a><a href="#reports">Reports</a>
+        <a href="#reports">Reports</a><a href="#alerts">Alerts</a><a href="#signals">Signals</a><a href="#patents">Patents</a><a href="#watch">Watch</a><a href="#advanced">Advanced</a>
         <a id="repo-link" class="button secondary" href="#">Repository</a>
       </div>
     </nav>
     <div id="top" class="hero-content shell">
       <div>
-        <p class="eyebrow">PQC · QUANTUM TECHNOLOGY · AI SECURITY</p>
+        <p class="eyebrow">PQC · QUANTUM TECHNOLOGY · PATENTS · AI SECURITY</p>
         <h1>See what is changing,<br><span>before it becomes obvious.</span></h1>
-        <p class="hero-copy">A continuously updated intelligence view of strategic signals, evidence momentum, and collection health.</p>
+        <p class="hero-copy">A focused intelligence view of the latest reports, urgent conditions, persistent signals, and early patent activity.</p>
+        <a class="button hero-button" href="#reports">Open latest reports</a>
       </div>
-      <div class="radar" aria-hidden="true"><div class="sweep"></div><i></i><i></i><i></i></div>
     </div>
   </header>
 
   <main class="shell">
     <section class="metrics" aria-label="Dashboard summary">
-      <article><span>Actionable</span><strong id="metric-actionable">—</strong><small>signals requiring attention</small></article>
-      <article><span>Rising</span><strong id="metric-rising">—</strong><small>accelerating themes</small></article>
-      <article><span>Critical</span><strong id="metric-critical">—</strong><small>highest-importance themes</small></article>
-      <article><span>Source health</span><strong id="metric-health">—</strong><small>healthy active sources</small></article>
       <article><span>Active alerts</span><strong id="metric-alerts">—</strong><small id="metric-alerts-detail">new conditions</small></article>
-      <article><span>First-party coverage</span><strong id="metric-coverage">—</strong><small id="metric-coverage-detail">watchlist organizations</small></article>
+      <article><span>Actionable</span><strong id="metric-actionable">—</strong><small>signals requiring attention</small></article>
+      <article><span>Critical</span><strong id="metric-critical">—</strong><small>highest-importance themes</small></article>
+      <article><span>Patent activity</span><strong id="metric-patents">—</strong><small id="metric-patents-detail">publications in 30 days</small></article>
     </section>
 
-    <section id="guide" class="section guide-section">
-      <div class="section-heading"><div><p class="eyebrow">READING THE DASHBOARD</p><h2>What the labels mean</h2></div><p class="updated">Rules are deterministic and configurable</p></div>
-      <div class="guide-grid">
-        <article><span class="guide-icon rising">↗</span><div><h3>Rising</h3><p>Evidence in the latest seven-day period increased by at least 50% versus the preceding seven days.</p></div></article>
-        <article><span class="guide-icon stable">→</span><div><h3>Stable</h3><p>Recent evidence changed, but not enough to meet the rising or declining threshold.</p></div></article>
-        <article><span class="guide-icon declining">↘</span><div><h3>Declining</h3><p>Recent evidence decreased by at least one-third compared with the preceding seven days.</p></div></article>
-        <article><span class="guide-icon critical">●</span><div><h3>Critical importance</h3><p>The theme contains an evidence item scoring 100 or higher, indicating exceptional strategic relevance.</p></div></article>
-        <article><span class="guide-icon high">●</span><div><h3>High importance</h3><p>The theme contains an evidence item scoring 50–99. Medium importance is below 50.</p></div></article>
-        <article><span class="guide-icon actionable">◎</span><div><h3>Actionable</h3><p>A high- or critical-importance theme is rising, making it a candidate for near-term review or follow-up.</p></div></article>
-        <article><span class="guide-icon watching">◉</span><div><h3>Watching</h3><p>The signal remains relevant, but it does not currently meet the actionable or stale rule.</p></div></article>
-        <article><span class="guide-icon stale">◌</span><div><h3>Stale</h3><p>No supporting evidence has appeared for more than 14 days.</p></div></article>
-        <article><span class="guide-icon confidence">✓</span><div><h3>Confidence</h3><p>High means at least five evidence items from three sources; medium means at least two; low means one.</p></div></article>
-        <article><span class="guide-icon degraded">!</span><div><h3>Source health</h3><p>Healthy has no warning days. Degraded retains at least 80% reliability; failing falls below 80%. Expected arXiv weekend idle days are excluded.</p></div></article>
-        <article><span class="guide-icon new">N</span><div><h3>New alert</h3><p>The condition was not active during the prior alert evaluation. Persistent conditions remain active without repeatedly appearing as new.</p></div></article>
-        <article><span class="guide-icon actionable">A</span><div><h3>Active watch item</h3><p>An entity or technology appeared in supporting evidence within the last seven days.</p></div></article>
-        <article><span class="guide-icon high">Q</span><div><h3>Quiet / dormant</h3><p>Quiet means the last match was 8–30 days ago; dormant means more than 30 days without matched evidence.</p></div></article>
-        <article><span class="guide-icon confidence">✓</span><div><h3>First-party covered</h3><p>At least one enabled official feed, sitemap, newsroom, or blog is configured for the organization.</p></div></article>
-        <article><span class="guide-icon degraded">!</span><div><h3>Coverage gap</h3><p>Gap means no official source or evidence exists. Third-party means evidence exists, but no enabled first-party source is configured.</p></div></article>
-        <article><span class="guide-icon confidence">V</span><div><h3>Verified source</h3><p>The scheduled collector has successfully reached this source since observation tracking began.</p></div></article>
-        <article><span class="guide-icon rising">F</span><div><h3>Fresh source</h3><p>The source has a dated item within the configured freshness window. Stale means its latest dated item is older; unknown means collected items have no usable publication date.</p></div></article>
-        <article><span class="guide-icon confidence">R</span><div><h3>Readiness stage</h3><p>The highest stage supported by public PQC evidence: awareness, inventory, planning, pilot/testing, or production. It is not an audit of internal systems.</p></div></article>
-        <article><span class="guide-icon watching">H</span><div><h3>Historical evidence</h3><p>Official-source evidence imported outside the daily window. It enriches profiles but cannot generate retroactive alerts.</p></div></article>
-      </div>
-    </section>
-
-    <section id="trends" class="section trend-section">
-      <div class="section-heading"><div><p class="eyebrow">HISTORICAL ACTIVITY</p><h2>Evidence over time</h2></div><div id="trend-ranges" class="filters" aria-label="Trend date range"><button data-days="30" class="active">30 days</button><button data-days="90">90 days</button><button data-days="all">All</button></div></div>
-      <article class="trend-panel">
-        <div class="trend-summary"><div><span>Evidence in range</span><strong id="trend-total">—</strong></div><div><span>Peak day</span><strong id="trend-peak">—</strong></div></div>
-        <div id="trend-chart" class="trend-chart" role="img" aria-label="Daily evidence activity chart"></div>
-      </article>
+    <section id="reports" class="section reports-section priority-section">
+      <div class="section-heading"><div><p class="eyebrow">START HERE</p><h2>Latest reports</h2></div><p class="updated">Daily detail · Weekly synthesis · Monthly perspective</p></div>
+      <div id="report-cards" class="report-cards"></div>
     </section>
 
     <section id="alerts" class="section alerts-section">
       <div class="section-heading"><div><p class="eyebrow">ALERT CENTER</p><h2>What needs attention</h2></div><p id="alert-summary" class="updated"></p></div>
       <div id="alert-list" class="alert-list" aria-live="polite"></div>
+      <a id="alerts-report-link" class="section-link" href="#">Open the complete alert center →</a>
     </section>
 
     <section id="signals" class="section">
-      <div class="section-heading"><div><p class="eyebrow">STRATEGIC RADAR</p><h2>Persistent signals</h2></div><p id="signal-updated" class="updated"></p></div>
+      <div class="section-heading"><div><p class="eyebrow">STRATEGIC RADAR</p><h2>Priority signals</h2></div><p id="signal-updated" class="updated"></p></div>
       <div class="toolbar">
         <label class="search"><span>Search</span><input id="signal-search" type="search" placeholder="Theme, organization, or evidence…"></label>
         <div id="status-filters" class="filters" aria-label="Signal status filters">
-          <button class="active" data-status="all">All</button><button data-status="actionable">Actionable</button><button data-status="watching">Watching</button><button data-status="stale">Stale</button>
+          <button class="active" data-status="priority">Priority</button><button data-status="actionable">Actionable</button><button data-status="watching">Watching</button><button data-status="all">All</button>
         </div>
       </div>
       <div id="signal-grid" class="signal-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="patents" class="section patents-section">
+      <div class="section-heading"><div><p class="eyebrow">EARLY IP SIGNALS</p><h2>Patent intelligence</h2></div><p id="patent-summary" class="updated"></p></div>
+      <p class="section-note">Publications indicate technical investment and IP positioning. They do not prove implementation, validity, commercial readiness, infringement, or freedom to operate.</p>
+      <div id="patent-grid" class="patent-grid" aria-live="polite"></div>
+      <a id="patent-report-link" class="section-link" href="#">Open the complete patent ledger →</a>
     </section>
 
     <section id="watch" class="section watch-section">
@@ -92,41 +70,69 @@
       <div id="watch-grid" class="watch-grid" aria-live="polite"></div>
     </section>
 
-    <section id="readiness" class="section readiness-section">
-      <div class="section-heading"><div><p class="eyebrow">PQC MIGRATION EVIDENCE</p><h2>Organization readiness scorecards</h2></div><p id="readiness-summary" class="updated"></p></div>
-      <p class="section-note">Observed public activity, not an audit of internal cryptographic posture.</p>
-      <div class="table-wrap"><table><thead><tr><th>Organization</th><th>Observed stage</th><th>Confidence</th><th>PQC evidence</th><th>Sources</th><th>Latest dated evidence</th></tr></thead><tbody id="readiness-table"></tbody></table></div>
-    </section>
+    <details id="advanced" class="advanced-analysis">
+      <summary>
+        <div><p class="eyebrow">DEEPER ANALYSIS</p><h2>Advanced analysis & collection operations</h2><p>Definitions, evidence trends, readiness, standards, comparisons, coverage, and source health.</p></div>
+        <span>Open analysis</span>
+      </summary>
+      <div class="advanced-content">
+        <section id="guide" class="section guide-section">
+          <div class="section-heading"><div><p class="eyebrow">READING THE DASHBOARD</p><h2>What the labels mean</h2></div><p class="updated">Rules are deterministic and configurable</p></div>
+          <div class="guide-grid">
+            <article><span class="guide-icon rising">↗</span><div><h3>Rising</h3><p>Evidence in the latest seven days increased by at least 50% versus the preceding seven days.</p></div></article>
+            <article><span class="guide-icon stable">→</span><div><h3>Stable</h3><p>Recent evidence changed, but not enough to meet the rising or declining threshold.</p></div></article>
+            <article><span class="guide-icon declining">↘</span><div><h3>Declining</h3><p>Recent evidence decreased by at least one-third versus the preceding seven days.</p></div></article>
+            <article><span class="guide-icon critical">●</span><div><h3>Critical importance</h3><p>The theme contains evidence scoring 100 or higher.</p></div></article>
+            <article><span class="guide-icon high">●</span><div><h3>High importance</h3><p>The theme contains evidence scoring 50–99. Medium is below 50.</p></div></article>
+            <article><span class="guide-icon actionable">◎</span><div><h3>Actionable</h3><p>A high- or critical-importance theme is rising and merits near-term review.</p></div></article>
+            <article><span class="guide-icon watching">◉</span><div><h3>Watching</h3><p>The signal remains relevant but does not meet the actionable or stale rule.</p></div></article>
+            <article><span class="guide-icon stale">◌</span><div><h3>Stale</h3><p>No supporting evidence has appeared for more than 14 days.</p></div></article>
+            <article><span class="guide-icon confidence">✓</span><div><h3>Confidence</h3><p>High means at least five items from three sources; medium means at least two; low means one.</p></div></article>
+            <article><span class="guide-icon degraded">!</span><div><h3>Source health</h3><p>Healthy has no warning days. Degraded retains at least 80% reliability; failing falls below 80%.</p></div></article>
+            <article><span class="guide-icon confidence">R</span><div><h3>Readiness stage</h3><p>The highest stage supported by public PQC evidence. It is not an audit of internal systems.</p></div></article>
+            <article><span class="guide-icon watching">H</span><div><h3>Historical evidence</h3><p>Official-source evidence imported outside the daily window; it cannot create retroactive alerts.</p></div></article>
+          </div>
+        </section>
 
-    <section id="standards" class="section standards-section">
-      <div class="section-heading"><div><p class="eyebrow">STANDARDS & DEADLINES</p><h2>Migration milestone timeline</h2></div><p id="standards-summary" class="updated"></p></div>
-      <div id="standards-timeline" class="standards-timeline" aria-live="polite"></div>
-    </section>
+        <section id="trends" class="section trend-section">
+          <div class="section-heading"><div><p class="eyebrow">HISTORICAL ACTIVITY</p><h2>Evidence over time</h2></div><div id="trend-ranges" class="filters" aria-label="Trend date range"><button data-days="30" class="active">30 days</button><button data-days="90">90 days</button><button data-days="all">All</button></div></div>
+          <article class="trend-panel">
+            <div class="trend-summary"><div><span>Evidence in range</span><strong id="trend-total">—</strong></div><div><span>Peak day</span><strong id="trend-peak">—</strong></div></div>
+            <div id="trend-chart" class="trend-chart" role="img" aria-label="Daily evidence activity chart"></div>
+          </article>
+        </section>
 
-    <section id="compare" class="section compare-section">
-      <div class="section-heading"><div><p class="eyebrow">ENTITY COMPARISON</p><h2>Compare organizations side by side</h2></div><p class="updated">Activity, themes, alerts, and verified coverage</p></div>
-      <div class="compare-controls">
-        <label><span>First organization</span><select id="compare-first"></select></label>
-        <span class="compare-versus">VS</span>
-        <label><span>Second organization</span><select id="compare-second"></select></label>
+        <section id="readiness" class="section readiness-section">
+          <div class="section-heading"><div><p class="eyebrow">PQC MIGRATION EVIDENCE</p><h2>Organization readiness scorecards</h2></div><p id="readiness-summary" class="updated"></p></div>
+          <p class="section-note">Observed public activity, not an audit of internal cryptographic posture.</p>
+          <div class="table-wrap"><table><thead><tr><th>Organization</th><th>Observed stage</th><th>Confidence</th><th>PQC evidence</th><th>Sources</th><th>Latest dated evidence</th></tr></thead><tbody id="readiness-table"></tbody></table></div>
+        </section>
+
+        <section id="standards" class="section standards-section">
+          <div class="section-heading"><div><p class="eyebrow">STANDARDS & DEADLINES</p><h2>Migration milestone timeline</h2></div><p id="standards-summary" class="updated"></p></div>
+          <div id="standards-timeline" class="standards-timeline" aria-live="polite"></div>
+        </section>
+
+        <section id="compare" class="section compare-section">
+          <div class="section-heading"><div><p class="eyebrow">ENTITY COMPARISON</p><h2>Compare organizations side by side</h2></div><p class="updated">Activity, themes, alerts, and verified coverage</p></div>
+          <div class="compare-controls">
+            <label><span>First organization</span><select id="compare-first"></select></label><span class="compare-versus">VS</span>
+            <label><span>Second organization</span><select id="compare-second"></select></label>
+          </div>
+          <div id="compare-results" class="compare-results" aria-live="polite"></div>
+        </section>
+
+        <section id="coverage" class="section coverage-section">
+          <div class="section-heading"><div><p class="eyebrow">WATCHLIST COVERAGE</p><h2>Where collection needs attention</h2></div><p id="coverage-summary" class="updated"></p></div>
+          <div class="table-wrap"><table><thead><tr><th>Organization</th><th>Priority</th><th>Coverage</th><th>First-party sources</th><th>Evidence</th></tr></thead><tbody id="coverage-table"></tbody></table></div>
+        </section>
+
+        <section id="sources" class="section">
+          <div class="section-heading"><div><p class="eyebrow">COLLECTION OPERATIONS</p><h2>Source health</h2></div><p id="source-summary" class="updated"></p></div>
+          <div class="table-wrap"><table><thead><tr><th>Source</th><th>Type</th><th>Reliability</th><th>Warnings</th><th>Last checked</th><th>Latest item</th><th>Freshness</th><th>Status</th></tr></thead><tbody id="source-table"></tbody></table></div>
+        </section>
       </div>
-      <div id="compare-results" class="compare-results" aria-live="polite"></div>
-    </section>
-
-    <section id="coverage" class="section coverage-section">
-      <div class="section-heading"><div><p class="eyebrow">WATCHLIST COVERAGE</p><h2>Where collection needs attention</h2></div><p id="coverage-summary" class="updated"></p></div>
-      <div class="table-wrap"><table><thead><tr><th>Organization</th><th>Priority</th><th>Coverage</th><th>First-party sources</th><th>Evidence</th></tr></thead><tbody id="coverage-table"></tbody></table></div>
-    </section>
-
-    <section id="sources" class="section">
-      <div class="section-heading"><div><p class="eyebrow">COLLECTION OPERATIONS</p><h2>Source health</h2></div><p id="source-summary" class="updated"></p></div>
-      <div class="table-wrap"><table><thead><tr><th>Source</th><th>Type</th><th>Reliability</th><th>Warnings</th><th>Last checked</th><th>Latest item</th><th>Freshness</th><th>Status</th></tr></thead><tbody id="source-table"></tbody></table></div>
-    </section>
-
-    <section id="reports" class="section reports-section">
-      <div class="section-heading"><div><p class="eyebrow">INTELLIGENCE ARCHIVE</p><h2>Latest reports</h2></div></div>
-      <div id="report-cards" class="report-cards"></div>
-    </section>
+    </details>
   </main>
 
   <footer><div class="shell"><span>Quantum Research Scout</span><span id="footer-updated"></span></div></footer>
