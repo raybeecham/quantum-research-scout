@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-28 02:01 UTC_
+_Updated 2026-07-29 02:09 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 35 | 4 | 3 | 11 | 21 |
+| 35 | 0 | 3 | 11 | 21 |
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
@@ -45,7 +45,7 @@ _Updated 2026-07-28 02:01 UTC_
 - 🎯 PQC / Crypto Agility is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: QEC / Fault Tolerance 🆕
+## 🟠 Actionable signal: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **actionable**
@@ -70,14 +70,14 @@ _Updated 2026-07-28 02:01 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 25 versus 8 in the prior period.
+- ↗️ Recent evidence is 27 versus 8 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: QEC / Fault Tolerance 🆕
+## 🟠 Rising momentum: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 6 versus 4 in the prior period.
+- ↗️ Recent evidence is 7 versus 3 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Standards / Government
@@ -94,18 +94,18 @@ _Updated 2026-07-28 02:01 UTC_
 - 🟠 100.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: arXiv RSS cs.CR 🆕
+## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 87.5% reliability with 1 warning day(s).
+- 🟠 88.9% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: arXiv RSS quant-ph 🆕
+## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 87.5% reliability with 1 warning day(s).
+- 🟠 88.9% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Rising momentum: AI Security
@@ -119,7 +119,7 @@ _Updated 2026-07-28 02:01 UTC_
 
 - Severity: **medium**
 - Status: **rising**
-- ↗️ Recent evidence is 4 versus 2 in the prior period.
+- ↗️ Recent evidence is 6 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟡 Source stale: Accenture Federal Services Quantum Readiness

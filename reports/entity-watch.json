@@ -83,7 +83,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 8,
+      "evidence_count": 11,
       "first_party_evidence_count": 0,
       "name": "Infleqtion",
       "priority": "medium",
@@ -407,8 +407,8 @@
           "type": "rss"
         }
       ],
-      "evidence_count": 15,
-      "first_party_evidence_count": 12,
+      "evidence_count": 16,
+      "first_party_evidence_count": 13,
       "name": "Keyfactor",
       "priority": "high",
       "status": "covered",
@@ -1240,8 +1240,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 5,
+      "current_evidence_count": 6,
       "evidence": [
+        {
+          "date": "2026-07-28",
+          "key": "https://www.keyfactor.com/events/building-crypto-agility-for-financial-services",
+          "report": "2026-07/2026-07-28-digest.md",
+          "score": 76,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Building Crypto-Agility for Financial Services",
+          "url": "https://www.keyfactor.com/events/building-crypto-agility-for-financial-services"
+        },
         {
           "date": "2026-07-27",
           "key": "https://www.keyfactor.com/blog/quantum-pki-readiness-a-5-step-guide-for-security-teams",
@@ -1543,15 +1555,15 @@
           "url": "https://www.keyfactor.com/blog_categories/post-quantum-cryptography/"
         }
       ],
-      "evidence_count": 15,
+      "evidence_count": 16,
       "first_seen": "2025-12-29",
       "historical_evidence_count": 10,
-      "latest_seen": "2026-07-27",
+      "latest_seen": "2026-07-28",
       "momentum": "rising",
       "name": "Keyfactor",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 4,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -3056,9 +3068,9 @@
       "first_seen": "2026-06-25",
       "historical_evidence_count": 0,
       "latest_seen": "2026-07-14",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Lockheed Martin",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -3199,7 +3211,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Hardware"
       ],
@@ -3412,7 +3424,7 @@
       "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "Quantum Hardware"
       ],
@@ -3486,6 +3498,162 @@
         "PQC / Crypto Agility"
       ],
       "type": "open-source"
+    },
+    {
+      "aliases": [
+        "ColdQuanta"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 11,
+      "evidence": [
+        {
+          "date": "2026-07-28",
+          "key": "https://infleqtion.com/infleqtion-appoints-dr-joseph-buck-as-senior-vice-president-of-quantum-computing-systems",
+          "report": "2026-07/2026-07-28-digest.md",
+          "score": 45,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion Appoints Dr. Joseph Buck as Senior Vice President of Quantum Computing Systems",
+          "url": "https://infleqtion.com/infleqtion-appoints-dr-joseph-buck-as-senior-vice-president-of-quantum-computing-systems"
+        },
+        {
+          "date": "2026-07-28",
+          "key": "https://infleqtion.com/infleqtion-to-report-second-quarter-2026-financial-results-on-august-12-2026",
+          "report": "2026-07/2026-07-28-digest.md",
+          "score": 36,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion to Report Second Quarter 2026 Financial Results on August 12, 2026",
+          "url": "https://infleqtion.com/infleqtion-to-report-second-quarter-2026-financial-results-on-august-12-2026"
+        },
+        {
+          "date": "2026-07-28",
+          "key": "https://quantumzeitgeist.com/infleqtion-dr-joseph-buck-system-builder-buck-leads",
+          "report": "2026-07/2026-07-28-digest.md",
+          "score": 17,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Dr. Joseph Buck Now Leads Infleqtion Quantum Efforts",
+          "url": "https://quantumzeitgeist.com/infleqtion-dr-joseph-buck-system-builder-buck-leads"
+        },
+        {
+          "date": "2026-07-25",
+          "key": "https://quantumcomputingreport.com/infleqtion-to-deploy-fault-tolerant-neutral-atom-quantum-computer-at-illinois-quantum-park",
+          "report": "2026-07/2026-07-25-digest.md",
+          "score": 86,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Infleqtion to Deploy Fault-Tolerant Neutral-Atom Quantum Computer at Illinois Quantum Park",
+          "url": "https://quantumcomputingreport.com/infleqtion-to-deploy-fault-tolerant-neutral-atom-quantum-computer-at-illinois-quantum-park"
+        },
+        {
+          "date": "2026-07-23",
+          "key": "https://thequantuminsider.com/2026/07/23/infleqtion-neutral-atom-quantum-computer-illinois",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 82,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Infleqtion to Deploy Neutral-Atom Quantum Computer at Illinois Quantum Park in 2027",
+          "url": "https://thequantuminsider.com/2026/07/23/infleqtion-neutral-atom-quantum-computer-illinois"
+        },
+        {
+          "date": "2026-07-22",
+          "key": "https://infleqtion.com/infleqtion-to-deploy-fault-tolerant-neutral-atom-quantum-computer-in-illinois",
+          "report": "2026-07/2026-07-22-digest.md",
+          "score": 92,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion to Deploy Fault-Tolerant Neutral-Atom Quantum Computer in Illinois",
+          "url": "https://infleqtion.com/infleqtion-to-deploy-fault-tolerant-neutral-atom-quantum-computer-in-illinois"
+        },
+        {
+          "date": "2026-07-22",
+          "key": "https://thequantuminsider.com/2026/07/22/infleqtion-secures-three-genesis-mission-projects-from-us-department-of-energy",
+          "report": "2026-07/2026-07-22-digest.md",
+          "score": 41,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion Receives Three DOE Genesis Mission Projects for Quantum Computing and Sensing Research",
+          "url": "https://thequantuminsider.com/2026/07/22/infleqtion-secures-three-genesis-mission-projects-from-us-department-of-energy"
+        },
+        {
+          "date": "2026-07-20",
+          "key": "https://infleqtion.com/infleqtion-ceo-matt-kinsella-provides-testimony-for-house-committee-on-natural-resources",
+          "report": "2026-07/2026-07-20-digest.md",
+          "score": 36,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion CEO Matt Kinsella Provides Testimony for House Committee on Natural Resources",
+          "url": "https://infleqtion.com/infleqtion-ceo-matt-kinsella-provides-testimony-for-house-committee-on-natural-resources"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://thequantuminsider.com/2026/06/22/infleqtion-launches-americas-quantum-space-initiative-to-accelerate-the-future-of-quantum-enabled-space-infrastructure",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 41,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion Launches America\u2019s Quantum Space Initiative to Accelerate the Future of Quantum-Enabled Space Infrastructure",
+          "url": "https://thequantuminsider.com/2026/06/22/infleqtion-launches-americas-quantum-space-initiative-to-accelerate-the-future-of-quantum-enabled-space-infrastructure"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://infleqtion.com/infleqtion-welcomes-executive-order-on-quantum-technology",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 38,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion Welcomes Executive Order on Quantum Technology",
+          "url": "https://infleqtion.com/infleqtion-welcomes-executive-order-on-quantum-technology"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 30,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Infleqtion Launches America\u2019s Quantum Space Initiative to Develop Orbital Technology Infrastructure",
+          "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
+        }
+      ],
+      "evidence_count": 11,
+      "first_seen": "2026-06-22",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-07-28",
+      "momentum": "rising",
+      "name": "Infleqtion",
+      "prior_count": 1,
+      "priority": "medium",
+      "recent_count": 7,
+      "status": "active",
+      "themes": [
+        "Quantum Hardware",
+        "Quantum Sensing"
+      ],
+      "type": "company"
     },
     {
       "aliases": [],
@@ -3618,126 +3786,6 @@
     },
     {
       "aliases": [
-        "ColdQuanta"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 8,
-      "evidence": [
-        {
-          "date": "2026-07-25",
-          "key": "https://quantumcomputingreport.com/infleqtion-to-deploy-fault-tolerant-neutral-atom-quantum-computer-at-illinois-quantum-park",
-          "report": "2026-07/2026-07-25-digest.md",
-          "score": 86,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Infleqtion to Deploy Fault-Tolerant Neutral-Atom Quantum Computer at Illinois Quantum Park",
-          "url": "https://quantumcomputingreport.com/infleqtion-to-deploy-fault-tolerant-neutral-atom-quantum-computer-at-illinois-quantum-park"
-        },
-        {
-          "date": "2026-07-23",
-          "key": "https://thequantuminsider.com/2026/07/23/infleqtion-neutral-atom-quantum-computer-illinois",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 82,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Infleqtion to Deploy Neutral-Atom Quantum Computer at Illinois Quantum Park in 2027",
-          "url": "https://thequantuminsider.com/2026/07/23/infleqtion-neutral-atom-quantum-computer-illinois"
-        },
-        {
-          "date": "2026-07-22",
-          "key": "https://infleqtion.com/infleqtion-to-deploy-fault-tolerant-neutral-atom-quantum-computer-in-illinois",
-          "report": "2026-07/2026-07-22-digest.md",
-          "score": 92,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Sensing"
-          ],
-          "title": "Infleqtion to Deploy Fault-Tolerant Neutral-Atom Quantum Computer in Illinois",
-          "url": "https://infleqtion.com/infleqtion-to-deploy-fault-tolerant-neutral-atom-quantum-computer-in-illinois"
-        },
-        {
-          "date": "2026-07-22",
-          "key": "https://thequantuminsider.com/2026/07/22/infleqtion-secures-three-genesis-mission-projects-from-us-department-of-energy",
-          "report": "2026-07/2026-07-22-digest.md",
-          "score": 41,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Sensing"
-          ],
-          "title": "Infleqtion Receives Three DOE Genesis Mission Projects for Quantum Computing and Sensing Research",
-          "url": "https://thequantuminsider.com/2026/07/22/infleqtion-secures-three-genesis-mission-projects-from-us-department-of-energy"
-        },
-        {
-          "date": "2026-07-20",
-          "key": "https://infleqtion.com/infleqtion-ceo-matt-kinsella-provides-testimony-for-house-committee-on-natural-resources",
-          "report": "2026-07/2026-07-20-digest.md",
-          "score": 36,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Sensing"
-          ],
-          "title": "Infleqtion CEO Matt Kinsella Provides Testimony for House Committee on Natural Resources",
-          "url": "https://infleqtion.com/infleqtion-ceo-matt-kinsella-provides-testimony-for-house-committee-on-natural-resources"
-        },
-        {
-          "date": "2026-06-22",
-          "key": "https://thequantuminsider.com/2026/06/22/infleqtion-launches-americas-quantum-space-initiative-to-accelerate-the-future-of-quantum-enabled-space-infrastructure",
-          "report": "2026-06/2026-06-22-digest.md",
-          "score": 41,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Sensing"
-          ],
-          "title": "Infleqtion Launches America\u2019s Quantum Space Initiative to Accelerate the Future of Quantum-Enabled Space Infrastructure",
-          "url": "https://thequantuminsider.com/2026/06/22/infleqtion-launches-americas-quantum-space-initiative-to-accelerate-the-future-of-quantum-enabled-space-infrastructure"
-        },
-        {
-          "date": "2026-06-22",
-          "key": "https://infleqtion.com/infleqtion-welcomes-executive-order-on-quantum-technology",
-          "report": "2026-06/2026-06-22-digest.md",
-          "score": 38,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Sensing"
-          ],
-          "title": "Infleqtion Welcomes Executive Order on Quantum Technology",
-          "url": "https://infleqtion.com/infleqtion-welcomes-executive-order-on-quantum-technology"
-        },
-        {
-          "date": "2026-06-22",
-          "key": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure",
-          "report": "2026-06/2026-06-22-digest.md",
-          "score": 30,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Infleqtion Launches America\u2019s Quantum Space Initiative to Develop Orbital Technology Infrastructure",
-          "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
-        }
-      ],
-      "evidence_count": 8,
-      "first_seen": "2026-06-22",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-07-25",
-      "momentum": "rising",
-      "name": "Infleqtion",
-      "prior_count": 1,
-      "priority": "medium",
-      "recent_count": 4,
-      "status": "active",
-      "themes": [
-        "Quantum Hardware",
-        "Quantum Sensing"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [
         "Amazon Web Services",
         "AWS Braket"
       ],
@@ -3802,7 +3850,7 @@
       "prior_count": 2,
       "priority": "medium",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Software / Tooling"
@@ -3819,8 +3867,20 @@
         "cryptographic inventory"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 4,
+      "current_evidence_count": 5,
       "evidence": [
+        {
+          "date": "2026-07-28",
+          "key": "https://www.keyfactor.com/events/building-crypto-agility-for-financial-services",
+          "report": "2026-07/2026-07-28-digest.md",
+          "score": 76,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Building Crypto-Agility for Financial Services",
+          "url": "https://www.keyfactor.com/events/building-crypto-agility-for-financial-services"
+        },
         {
           "date": "2026-07-27",
           "key": "https://www.keyfactor.com/blog/quantum-pki-readiness-a-5-step-guide-for-security-teams",
@@ -4278,15 +4338,15 @@
           "url": "https://www.keyfactor.com/blog_categories/post-quantum-cryptography/"
         }
       ],
-      "evidence_count": 21,
+      "evidence_count": 22,
       "first_seen": "2025-08-06",
       "historical_evidence_count": 17,
-      "latest_seen": "2026-07-27",
+      "latest_seen": "2026-07-28",
       "momentum": "rising",
       "name": "Crypto-agility",
       "prior_count": 0,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -4300,8 +4360,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 16,
+      "current_evidence_count": 17,
       "evidence": [
+        {
+          "date": "2026-07-28",
+          "key": "https://thequantuminsider.com/2026/07/28/riverlane-unitary-foundation-deltakit-community-fund",
+          "report": "2026-07/2026-07-28-digest.md",
+          "score": 56,
+          "source": "The Quantum Insider",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Riverlane and Unitary Foundation Launch \u2018Deltakit Community Fund\u2019 to Accelerate Open-Source Quantum Error Correction",
+          "url": "https://thequantuminsider.com/2026/07/28/riverlane-unitary-foundation-deltakit-community-fund"
+        },
         {
           "date": "2026-07-25",
           "key": "https://quantumzeitgeist.com/quantum-error-correction-bluequbit-15m",
@@ -4495,10 +4567,10 @@
           "url": "https://quantumzeitgeist.com/what-is-the-surface-code"
         }
       ],
-      "evidence_count": 16,
+      "evidence_count": 17,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-25",
+      "latest_seen": "2026-07-28",
       "momentum": "stable",
       "name": "Quantum error correction",
       "prior_count": 4,
@@ -4518,8 +4590,20 @@
         "fault-tolerant quantum"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 9,
+      "current_evidence_count": 10,
       "evidence": [
+        {
+          "date": "2026-07-28",
+          "key": "https://www.insidequantumtechnology.com/news-archive/c12-unveils-roadmap-to-useful-fault-tolerant-quantum-computing-by-2033",
+          "report": "2026-07/2026-07-28-digest.md",
+          "score": 124,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "C12 Unveils Roadmap to Useful Fault-Tolerant Quantum Computing by 2033",
+          "url": "https://www.insidequantumtechnology.com/news-archive/c12-unveils-roadmap-to-useful-fault-tolerant-quantum-computing-by-2033"
+        },
         {
           "date": "2026-07-14",
           "key": "https://quantumzeitgeist.com/pan-colleagues-hierarchical-logical-processor-fault-tolerant-quantum",
@@ -4701,16 +4785,16 @@
           "url": "https://www.quera.com/press-releases/quera-selected-for-phase-1-of-darpas-quantum-benchmarking-initiative"
         }
       ],
-      "evidence_count": 12,
+      "evidence_count": 13,
       "first_seen": "2025-09-10",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-07-14",
-      "momentum": "declining",
+      "latest_seen": "2026-07-28",
+      "momentum": "rising",
       "name": "Logical qubits",
-      "prior_count": 2,
+      "prior_count": 0,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -5289,6 +5373,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-07-28T02:01:16.798180+00:00",
+  "updated_at": "2026-07-29T02:09:41.304721+00:00",
   "version": 2
 }

@@ -160,9 +160,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 13,
+      "evidence_count": 14,
       "historical_evidence_count": 8,
-      "latest_evidence_at": "2026-07-27",
+      "latest_evidence_at": "2026-07-28",
       "name": "Keyfactor",
       "priority": "high",
       "source_count": 3,
@@ -170,6 +170,21 @@
       "stage_label": "Planning",
       "stage_rank": 3,
       "supporting_evidence": [
+        {
+          "date": "2026-07-28",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Building Crypto-Agility for Financial Services",
+          "url": "https://www.keyfactor.com/events/building-crypto-agility-for-financial-services"
+        },
         {
           "date": "2026-07-27",
           "date_confidence": "unknown",
@@ -274,21 +289,6 @@
           "source": "Quantum Zeitgeist",
           "title": "Keyfactor Partners Gain Tools for AI & Post-Quantum Security Services",
           "url": "https://quantumzeitgeist.com/keyfactor-security-services-ai-post-quantum"
-        },
-        {
-          "date": "2026-07-22",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Keyfactor Expands Global Partner Ecosystem to Help Partners Lead the AI and Post-Quantum Era",
-          "url": "https://www.keyfactor.com/press-releases/keyfactor-expands-global-partner-ecosystem-to-help-partners-lead-the-ai-and-post-quantum-era"
         }
       ],
       "type": "company"
@@ -1382,6 +1382,6 @@
     "not_assessed": 26,
     "organizations": 43
   },
-  "updated_at": "2026-07-28T02:01:17.040111+00:00",
+  "updated_at": "2026-07-29T02:09:41.636623+00:00",
   "version": 1
 }
