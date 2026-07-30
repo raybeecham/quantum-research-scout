@@ -16,6 +16,7 @@ class ReportIndexTests(unittest.TestCase):
             weekly = reports / "weekly" / "2026" / "2026-07-13_to_2026-07-19-weekly.md"
             monthly = reports / "monthly" / "2026" / "2026-06-monthly.md"
             signals = reports / "signals.md"
+            missions = reports / "federal-missions.md"
             patents = reports / "patents.md"
             source_health = reports / "source-health.md"
             alerts = reports / "alerts.md"
@@ -25,6 +26,7 @@ class ReportIndexTests(unittest.TestCase):
             weekly.write_text("# Weekly\n\n## Strategic Themes\n\n- PQC migration accelerated.\n\n## Next\n", encoding="utf-8")
             monthly.write_text("# Monthly\n", encoding="utf-8")
             signals.write_text("# Signals\n", encoding="utf-8")
+            missions.write_text("# Missions\n", encoding="utf-8")
             patents.write_text("# Patents\n", encoding="utf-8")
             source_health.write_text("# Health\n", encoding="utf-8")
             alerts.write_text("# Alerts\n", encoding="utf-8")
@@ -40,6 +42,7 @@ class ReportIndexTests(unittest.TestCase):
             self.assertIn("- PQC migration accelerated.", content)
             self.assertIn("Daily reports retained: **1**", content)
             self.assertIn("[signals](signals.md)", content)
+            self.assertIn("[federal-missions](federal-missions.md)", content)
             self.assertIn("[patents](patents.md)", content)
             self.assertIn("[source-health](source-health.md)", content)
             self.assertIn("[alerts](alerts.md)", content)

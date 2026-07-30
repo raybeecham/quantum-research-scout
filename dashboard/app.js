@@ -55,6 +55,7 @@ function render(){
   const themes = state.data.signals?.themes || [];
   const sources = state.data.source_health?.sources || [];
   const patentPayload = state.data.patents || { patents: [], summary: {} };
+  const missionPayload = state.data.federal_missions || { missions: [], discovery_candidates: [], summary: {} };
   document.getElementById("repo-link").href = safeUrl(state.data.repository_url);
   document.getElementById("alerts-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/alerts.md`);
   document.getElementById("hero-report-link").href = safeUrl(state.data.reports?.latest_daily?.url || "#reports");
@@ -72,7 +73,7 @@ function render(){
   const stale = sources.filter(x => x.freshness === "stale").length;
   document.getElementById("source-summary").textContent = `${healthy} healthy · ${verified} verified · ${fresh} fresh · ${stale} stale`;
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
-  renderReports(state.data.reports); renderAlerts(alerts); renderSignals(); renderPatents(patentPayload); renderWatch();
+  renderReports(state.data.reports); renderAlerts(alerts); renderMissions(missionPayload); renderSignals(); renderPatents(patentPayload); renderWatch();
   renderTrend(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderSources(sources);
 }
 
@@ -106,6 +107,37 @@ function renderAlerts(payload){
   document.getElementById("alert-list").innerHTML = alerts.length ? alerts.slice(0, 3).map(item =>
     `<article class="alert-item ${escapeHtml(item.severity)}"><span class="badge ${escapeHtml(item.severity)}">${escapeHtml(item.severity)}</span><div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.summary)}</p></div><div>${item.is_new ? '<span class="new-tag">NEW</span> ' : ''}${item.evidence_url ? `<a href="${escapeHtml(safeUrl(item.evidence_url))}" target="_blank" rel="noopener">Evidence →</a> ` : ''}<a href="${escapeHtml(safeUrl(state.data.repository_url + '/blob/main/reports/' + item.link))}">Profile →</a></div></article>`
   ).join("") : "<p>No active alerts.</p>";
+}
+
+function renderMissions(payload){
+  const missions = payload.missions || [];
+  const summary = payload.summary || {};
+  const candidates = payload.discovery_candidates || [];
+  document.getElementById("mission-summary").textContent = `${summary.active || 0} active · ${summary.upcoming_milestones || 0} upcoming milestones`;
+  document.getElementById("mission-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/federal-missions.md`);
+  document.getElementById("mission-grid").innerHTML = missions.length ? missions.slice(0, 6).map(item => {
+    const next = item.next_milestone;
+    const parent = item.parent_mission ? `<span>Part of ${escapeHtml(item.parent_mission)}</span>` : "";
+    const update = item.updates?.[0];
+    return `<article class="mission-card">
+      <div class="mission-head"><span>${escapeHtml(item.kind)}</span><div class="badges"><span class="badge ${escapeHtml(item.priority)}">${escapeHtml(item.priority)}</span><span class="badge ${escapeHtml(item.status)}">${escapeHtml(item.status)}</span></div></div>
+      <h3><a href="${escapeHtml(safeUrl(item.official_url))}" target="_blank" rel="noopener">${escapeHtml(item.name)}</a></h3>
+      <p>${escapeHtml(item.objective)}</p>
+      <dl class="mission-facts">
+        <div><dt>Lead</dt><dd>${escapeHtml((item.lead_agencies || []).join(", ") || "Not listed")}</dd></div>
+        <div><dt>Next milestone</dt><dd>${next ? `${escapeHtml(formatShortDate(next.target_date))} · ${escapeHtml(next.title)}` : "No dated milestone published"}</dd></div>
+      </dl>
+      <div class="profile-themes">${(item.domains || []).slice(0, 4).map(value => `<span>${escapeHtml(value)}</span>`).join("")}${parent}</div>
+      ${update ? `<a class="mission-update" href="${escapeHtml(safeUrl(update.url || item.official_url))}" target="_blank" rel="noopener">Latest: ${escapeHtml(update.title)} →</a>` : ""}
+    </article>`;
+  }).join("") : '<div class="empty-state">No federal missions are configured.</div>';
+
+  const candidateDetails = document.getElementById("mission-candidates");
+  candidateDetails.hidden = !candidates.length;
+  candidateDetails.querySelector("summary").textContent = `${candidates.length} possible new mission${candidates.length === 1 ? "" : "s"} awaiting review`;
+  document.getElementById("mission-candidate-list").innerHTML = candidates.map(item =>
+    `<a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(formatShortDate(item.date))} · ${escapeHtml(item.source || "official source")}</span></a>`
+  ).join("");
 }
 
 function renderSignals(){

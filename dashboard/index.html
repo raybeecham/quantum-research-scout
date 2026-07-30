@@ -53,10 +53,21 @@
 
     <details id="explore" class="advanced-analysis explore-analysis">
       <summary>
-        <div><p class="eyebrow">EXPLORE ON DEMAND</p><h2>Signals, patents, and watchlists</h2><p>Search the full evidence radar, early IP activity, organizations, and technologies.</p></div>
+        <div><p class="eyebrow">EXPLORE ON DEMAND</p><h2>Missions, signals, patents, and watchlists</h2><p>Follow federal missions, search the evidence radar, review early IP activity, and inspect watched organizations and technologies.</p></div>
         <span>Open tracker</span>
       </summary>
       <div class="advanced-content">
+        <section id="missions" class="section mission-section">
+          <div class="section-heading"><div><p class="eyebrow">FEDERAL MISSION TRACKER</p><h2>National missions and initiatives</h2></div><p id="mission-summary" class="updated"></p></div>
+          <p class="section-note">Named federal science and technology efforts with official objectives, relationships, milestones, and updates. Routine agency mission statements are excluded.</p>
+          <div id="mission-grid" class="mission-grid" aria-live="polite"></div>
+          <details id="mission-candidates" class="mission-candidates">
+            <summary>Possible new missions awaiting review</summary>
+            <div id="mission-candidate-list"></div>
+          </details>
+          <a id="mission-report-link" class="section-link" href="#">Open the complete federal mission tracker →</a>
+        </section>
+
         <section id="signals" class="section">
           <div class="section-heading"><div><p class="eyebrow">STRATEGIC RADAR</p><h2>Priority signals</h2></div><p id="signal-updated" class="updated"></p></div>
           <div class="toolbar">

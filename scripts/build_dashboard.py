@@ -26,6 +26,10 @@ def build_dashboard(
     entity_watch = _read_json(reports / "entity-watch.json", {"entities": [], "technologies": []})
     readiness = _read_json(reports / "readiness.json", {"organizations": [], "summary": {}})
     standards = _read_json(reports / "standards-timeline.json", {"milestones": [], "summary": {}})
+    federal_missions = _read_json(
+        reports / "federal-missions.json",
+        {"missions": [], "upcoming_milestones": [], "discovery_candidates": [], "summary": {}},
+    )
     historical = _read_json(reports / "historical-evidence.json", {"items": [], "item_count": 0})
     patents = _read_json(
         reports / "patents.json",
@@ -41,6 +45,7 @@ def build_dashboard(
         "entity_watch": entity_watch,
         "readiness": readiness,
         "standards": standards,
+        "federal_missions": federal_missions,
         "historical_evidence": {
             key: historical.get(key) for key in ("updated_at", "lookback_days", "item_count", "dated_count", "undated_count")
         },

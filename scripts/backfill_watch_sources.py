@@ -15,6 +15,7 @@ from pqc_quantum_research_agent.collectors import collect_watch_sources
 from pqc_quantum_research_agent.config import load_config, load_weight_file
 from pqc_quantum_research_agent.dedupe import prepare_identity
 from pqc_quantum_research_agent.entity_watch import write_entity_watch
+from pqc_quantum_research_agent.federal_missions import write_federal_mission_tracker
 from pqc_quantum_research_agent.historical import write_historical_evidence
 from pqc_quantum_research_agent.http import HttpClient
 from pqc_quantum_research_agent.readiness import write_readiness_report
@@ -28,6 +29,7 @@ def main() -> int:
     parser.add_argument("--watchlists-config", default="watchlists.yaml")
     parser.add_argument("--readiness-config", default="readiness.yaml")
     parser.add_argument("--standards-config", default="standards.yaml")
+    parser.add_argument("--missions-config", default="missions.yaml")
     parser.add_argument("--source-weights", default="source_weights.yaml")
     parser.add_argument("--keyword-weights", default="keyword_weights.yaml")
     parser.add_argument("--source", action="append", default=[], help="Exact source name to backfill; repeat as needed.")
@@ -80,6 +82,12 @@ def main() -> int:
     write_entity_watch(reports, args.watchlists_config, sources_config_path=args.config, generated_at=generated)
     write_readiness_report(reports, args.readiness_config, generated_at=generated)
     write_standards_timeline(reports, args.standards_config, generated_at=generated)
+    write_federal_mission_tracker(
+        reports,
+        args.missions_config,
+        collection.items,
+        generated_at=generated,
+    )
     print(json_path)
     return 0
 

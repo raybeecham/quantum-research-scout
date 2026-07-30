@@ -39,6 +39,7 @@ jobs:
           --watchlists-config watchlists.yaml
           --readiness-config readiness.yaml
           --standards-config standards.yaml
+          --missions-config missions.yaml
 
       - name: Commit intelligence artifacts
         run: |
@@ -48,6 +49,7 @@ jobs:
           git add reports/entity-watch.json reports/entity-watch.md
           git add reports/readiness.json reports/readiness.md
           git add reports/standards-timeline.json reports/standards-timeline.md
+          git add reports/federal-missions.json reports/federal-missions.md
           if git diff --cached --quiet; then
             echo "No historical intelligence changes to commit"
           else

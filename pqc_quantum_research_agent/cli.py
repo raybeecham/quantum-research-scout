@@ -21,6 +21,7 @@ from .signals import write_signal_tracker
 from .source_health import write_source_health_report, write_source_observations
 from .alerts import write_alerts
 from .entity_watch import write_entity_watch
+from .federal_missions import write_federal_mission_tracker
 from .readiness import write_readiness_report
 from .standards import write_standards_timeline
 from .storage import ResearchStore
@@ -50,6 +51,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--watchlists-config", default="watchlists.yaml", help="Path to entity and technology watchlists YAML file.")
     parser.add_argument("--readiness-config", default="readiness.yaml", help="Path to evidence-backed PQC readiness rules.")
     parser.add_argument("--standards-config", default="standards.yaml", help="Path to standards and migration milestones.")
+    parser.add_argument(
+        "--missions-config",
+        default="missions.yaml",
+        help="Path to named federal missions, initiatives, milestones, and discovery settings.",
+    )
     parser.add_argument("--week-start", default=None, help="Weekly synthesis start date in YYYY-MM-DD format.")
     parser.add_argument("--week-end", default=None, help="Weekly synthesis end date in YYYY-MM-DD format.")
     parser.add_argument(
@@ -324,6 +330,12 @@ def main(argv: list[str] | None = None) -> int:
         )
     if args.update_intelligence_tracking:
         write_patent_tracker(Path(args.reports_dir), classified, generated_at=generated_at)
+        write_federal_mission_tracker(
+            Path(args.reports_dir),
+            args.missions_config,
+            classified,
+            generated_at=generated_at,
+        )
         write_signal_tracker(Path(args.reports_dir))
         write_entity_watch(Path(args.reports_dir), args.watchlists_config, sources_config_path=args.config)
         write_readiness_report(Path(args.reports_dir), args.readiness_config)

@@ -9,6 +9,7 @@ on:
       - "scripts/build_dashboard.py"
       - "readiness.yaml"
       - "standards.yaml"
+      - "missions.yaml"
       - ".github/workflows/deploy-dashboard.yml"
   workflow_run:
     workflows:

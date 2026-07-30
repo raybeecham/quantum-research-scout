@@ -35,6 +35,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - Writes a deterministic weekly synthesis to `reports/weekly/YYYY/` from existing daily Markdown digests.
 - Writes a deterministic monthly synthesis to `reports/monthly/YYYY/` and maintains `reports/README.md` as the archive index.
 - Maintains a persistent, deduplicated signal ledger in `reports/signals.json` with a human-readable momentum dashboard in `reports/signals.md`.
+- Maintains a relationship-aware federal mission tracker with official objectives, milestones, updates, and an automated queue for newly announced mission candidates.
 - Maintains a two-year patent-publication ledger in `reports/patents.json` with a readable landscape summary in `reports/patents.md`.
 - Maintains a bounded historical evidence ledger for official watch sources. Historical records enrich organization profiles but are explicitly excluded from alerts.
 - Scores each watched organization by the highest publicly evidenced PQC engagement stage: awareness, inventory, planning, pilot/testing, or production.
@@ -47,6 +48,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - [Visual intelligence dashboard](https://raybeecham.github.io/quantum-research-scout/) — searchable signals, momentum, source health, and latest reports
 - [Report index](reports/README.md) — latest daily, weekly, and monthly reports plus archive navigation
 - [Persistent signal tracker](reports/signals.md) — momentum, importance, confidence, status, follow-up, and evidence
+- [Federal mission tracker](reports/federal-missions.md) — named national efforts, lead agencies, relationships, milestones, and official updates
 - [Patent intelligence](reports/patents.md) — recent publications, assignees, publication dates, scores, and topic matches
 - [Source health](reports/source-health.md) — rolling reliability, expected idle periods, disabled sources, and active warnings
 - [Intelligence alerts](reports/alerts.md) — new actionable signals, rising momentum, critical themes, and source degradation
@@ -62,9 +64,15 @@ Daily reports provide the evidence stream. Weekly and monthly syntheses reduce r
 
 ## Visual Dashboard
 
-The GitHub Pages dashboard is a static, responsive portal built from structured report artifacts and the report archive. Its primary view now starts with the latest reports, urgent alerts, priority signals, recent patent publications, and a compact entity watch. Definitions, evidence trends, readiness scorecards, standards, comparisons, coverage, and source health remain available inside a collapsed **Advanced analysis & collection operations** panel. This progressive layout keeps routine scanning focused without removing the deeper evidence or operating detail.
+The GitHub Pages dashboard is a static, responsive portal built from structured report artifacts and the report archive. Its primary view is a compact briefing containing the latest reports and three highest-priority conditions. Federal missions, signals, patents, and watchlists remain available inside a collapsed **Explore on demand** tracker; definitions, evidence trends, readiness scorecards, standards, comparisons, coverage, and source health live in a separate collapsed **Research & methods** panel. This progressive layout keeps routine scanning focused without removing deeper evidence or operating detail.
 
 Organization and technology names open dedicated profiles with evidence trends, a research timeline, active alerts, themes, first-party coverage, and readiness support. The comparison view places two organizations side by side across evidence volume, recent momentum, alerts, themes, readiness, coverage, source verification, and freshness. Build-versioned CSS, JavaScript, and data URLs prevent stale cached assets after deployment. No application server or runtime database is required.
+
+## Federal Mission Tracker
+
+`missions.yaml` defines named federal science and technology missions, initiatives, and national efforts relevant to quantum technology, AI, cybersecurity, energy, discovery science, and national security. Each record keeps its official objective, lead agencies, partners, parent and related efforts, phase, domains, dated milestones, and official updates. The initial portfolio includes the Genesis Mission, Quantum Genesis, QC-ADDS, and QuantumEAGLe.
+
+Daily collection and the weekly official-source backfill merge newly observed `.gov` and `.mil` updates into `reports/federal-missions.json` and `reports/federal-missions.md`. Announcements that look like a new mission but do not match a curated record enter a review queue instead of being promoted automatically. This preserves broad discovery without allowing a routine agency mission statement or an ambiguous project name to become a strategic mission record.
 
 ## Patent Intelligence
 
@@ -208,11 +216,12 @@ Report controls:
 - `--week-start YYYY-MM-DD` and `--week-end YYYY-MM-DD`: optional weekly synthesis bounds. If omitted, weekly mode uses the current America/Chicago Monday-through-Friday reporting week when daily reports exist there, otherwise it falls back to the latest populated report week.
 - `--monthly` and `--month YYYY-MM`: generate a monthly synthesis; the target defaults to the prior month.
 - `--update-report-index`: refresh the navigable report archive index after report generation.
-- `--update-intelligence-tracking`: after daily generation, merge retained evidence into the persistent signal and patent ledgers and refresh source health.
+- `--update-intelligence-tracking`: after daily generation, merge retained evidence into the persistent signal, federal mission, and patent ledgers and refresh source health.
 - `--alerts-config`: alert rules YAML used during intelligence tracking. The default is `alerts.yaml`.
 - `--watchlists-config`: entity and technology watchlist YAML. The default is `watchlists.yaml`.
 - `--readiness-config`: evidence-backed PQC readiness rules. The default is `readiness.yaml`.
 - `--standards-config`: authoritative standards and migration milestones. The default is `standards.yaml`.
+- `--missions-config`: named federal missions, relationships, milestones, and discovery settings. The default is `missions.yaml`.
 - `--lookback-hours`: optional rolling coverage window length. When provided, this overrides Central day-to-runtime filtering.
 - `--coverage-end-time HH:MM`: pin a daily report's America/Chicago coverage end. The Friday weekly snapshot uses `08:00`, so runner delays cannot move the weekly boundary.
 - `--date YYYY-MM-DD`: backfill or test a specific operational report date.
@@ -295,6 +304,7 @@ Monthly synthesis uses the same deterministic evidence pipeline across a calenda
 | Weekly synthesis | Near-term themes and changes | Indefinite | Weekly workflow |
 | Monthly synthesis | Longer-horizon consolidation | Indefinite | Monthly workflow |
 | Signal tracker | Cross-report momentum and follow-up | Persistent ledger | Daily workflow |
+| Federal missions | Named national efforts, milestones, and official updates | Curated persistent ledger | Daily and weekly workflows |
 | Historical evidence | Official-source profile enrichment; never alerting | Bounded lookback | Weekly backfill |
 | PQC readiness | Publicly evidenced engagement stages | Regenerated | Daily and weekly workflows |
 | Standards timeline | Standards, policy, and migration milestones | Configured | Daily and weekly workflows |
@@ -394,6 +404,7 @@ pqc_quantum_research_agent/
   monthly.py        # monthly synthesis generation
   report_index.py   # navigable report archive index
   signals.py        # persistent signal ledger and momentum tracker
+  federal_missions.py # federal mission relationships, milestones, and update discovery
   patents.py        # persistent patent-publication ledger
   source_health.py  # rolling source reliability report
   alerts.py         # configurable stateful alert evaluation
@@ -406,9 +417,12 @@ alerts.yaml         # alert rules and thresholds
 watchlists.yaml     # organizations and technologies to track
 readiness.yaml      # readiness stages, methodology, and evidence patterns
 standards.yaml      # authoritative standards and migration milestones
+missions.yaml       # named federal missions, relationships, and milestones
 reports/README.md   # latest reports, themes, and archive summary
 reports/signals.json # durable deduplicated signal evidence
 reports/signals.md  # human-readable signal momentum and follow-up
+reports/federal-missions.json # structured mission portfolio and discovery queue
+reports/federal-missions.md # human-readable federal mission tracker
 reports/patents.json # durable structured patent-publication intelligence
 reports/patents.md  # human-readable patent landscape
 reports/source-health.md # rolling source reliability and warnings

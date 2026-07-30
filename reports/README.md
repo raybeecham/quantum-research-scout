@@ -2,7 +2,7 @@
 
 > **Quantum Research Scout** · Intelligence archive and operational dashboard
 
-_Updated 2026-07-29 22:58 UTC_
+_Updated 2026-07-30 00:30 UTC_
 
 [Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
 
@@ -17,6 +17,7 @@ _Updated 2026-07-29 22:58 UTC_
 ## Intelligence Tracking
 
 - Persistent signals: [signals](signals.md)
+- Federal mission tracker: [federal-missions](federal-missions.md)
 - Patent intelligence: [patents](patents.md)
 - Source health: [source-health](source-health.md)
 - Intelligence alerts: [alerts](alerts.md)

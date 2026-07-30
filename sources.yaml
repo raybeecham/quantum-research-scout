@@ -165,6 +165,19 @@ urls:
     entities: [Entrust]
 
 watch_sources:
+  - name: "DOE Federal Science Missions"
+    entities: [Department of Energy]
+    url: "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
+    include_source_page: true
+    include_patterns: [genesis-mission, quantum-genesis, quantum, mission, initiative]
+    match_patterns: [Genesis Mission, Quantum Genesis, QC-ADDS, quantum mission, national initiative]
+    max_items: 30
+  - name: "White House Science and Technology Missions"
+    entities: [White House, OSTP]
+    url: "https://www.whitehouse.gov/presidential-actions/?s=science"
+    include_patterns: [mission, quantum, science, technology, artificial-intelligence, cybersecurity]
+    match_patterns: [mission, national effort, national initiative, quantum, artificial intelligence, cybersecurity]
+    max_items: 25
   - name: "Cisco Quantum-Safe Updates"
     entities: [Cisco]
     rss_url: "https://blogs.cisco.com/feed"

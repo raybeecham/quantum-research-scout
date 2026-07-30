@@ -69,6 +69,17 @@ class DashboardBuildTests(unittest.TestCase):
                 json.dumps({"summary": {"milestones": 1}, "milestones": [{"id": "fips-203"}]}),
                 encoding="utf-8",
             )
+            (reports / "federal-missions.json").write_text(
+                json.dumps(
+                    {
+                        "summary": {"tracked": 1, "active": 1, "upcoming_milestones": 1},
+                        "missions": [{"id": "genesis", "name": "Genesis Mission"}],
+                        "upcoming_milestones": [{"id": "initial-capability"}],
+                        "discovery_candidates": [],
+                    }
+                ),
+                encoding="utf-8",
+            )
             (reports / "historical-evidence.json").write_text(
                 json.dumps({"item_count": 2, "dated_count": 1, "undated_count": 1, "items": [{"key": "one"}]}),
                 encoding="utf-8",
@@ -102,6 +113,7 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["entity_watch"]["coverage"][0]["status"], "covered")
             self.assertEqual(payload["readiness"]["organizations"][0]["stage"], "planning")
             self.assertEqual(payload["standards"]["milestones"][0]["id"], "fips-203")
+            self.assertEqual(payload["federal_missions"]["missions"][0]["name"], "Genesis Mission")
             self.assertEqual(payload["historical_evidence"]["item_count"], 2)
             self.assertEqual(payload["patents"]["summary"]["total"], 1)
             self.assertEqual(payload["patents"]["patents"][0]["publication_number"], "US20260234567A1")
@@ -144,10 +156,12 @@ class DashboardBuildTests(unittest.TestCase):
 
         self.assertIn('<details id="explore"', html)
         self.assertIn('<details id="advanced"', html)
+        self.assertIn('id="missions"', html)
         self.assertIn('id="patents"', html)
         self.assertLess(html.index('id="reports"'), html.index('id="advanced"'))
         self.assertIn('status: "priority"', script)
         self.assertIn("renderPatents", script)
+        self.assertIn("renderMissions", script)
         self.assertIn("alerts.slice(0, 3)", script)
         self.assertIn("friendlyReportName", script)
         self.assertIn("revealHashSection", script)
