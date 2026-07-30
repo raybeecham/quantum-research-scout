@@ -156,13 +156,43 @@ def _dashboard_federal_funding(payload: dict) -> dict:
         }
         entry["related_patent_count"] = len(item.get("related_patents") or [])
         portfolios.append(entry)
+    opportunity_radar = []
+    for item in payload.get("opportunity_radar", [])[:40]:
+        entry = {
+            key: value
+            for key, value in item.items()
+            if key not in {"related_patents", "opportunity_factors"}
+        }
+        entry["related_patent_count"] = len(item.get("related_patents") or [])
+        opportunity_radar.append(entry)
+    contractor_profiles = []
+    for item in payload.get("recipients_and_contractors", [])[:50]:
+        entry = {
+            key: value
+            for key, value in item.items()
+            if key
+            not in {
+                "record_keys",
+                "contractor_factors",
+                "related_patents",
+            }
+        }
+        entry["related_patents"] = (item.get("related_patents") or [])[:5]
+        entry["related_patent_count"] = len(item.get("related_patents") or [])
+        contractor_profiles.append(entry)
     return {
         "updated_at": payload.get("updated_at"),
         "as_of_date": payload.get("as_of_date"),
         "method_note": payload.get("method_note"),
         "summary": payload.get("summary", {}),
         "records": prioritized,
+        "opportunity_radar": opportunity_radar,
         "mission_portfolios": portfolios,
+        "contractor_profiles": contractor_profiles,
+        "relationship_explorer": payload.get(
+            "relationship_explorer",
+            {"summary": {}, "nodes": [], "edges": []},
+        ),
     }
 
 

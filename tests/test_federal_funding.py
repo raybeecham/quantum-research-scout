@@ -229,10 +229,26 @@ class FederalFundingTests(unittest.TestCase):
                     "mission_ids": ["test-mission"],
                 },
             )
+            opportunity = ResearchItem(
+                source_name="SAM.gov · Test Mission",
+                source_type="procurement",
+                title="Test Mission quantum systems Broad Agency Announcement",
+                url="https://sam.gov/opp/TEST-BAA/view",
+                published_at=datetime(2026, 7, 29, tzinfo=timezone.utc),
+                raw_payload={
+                    "provider": "sam_gov",
+                    "record_type": "baa",
+                    "notice_id": "TEST-BAA",
+                    "response_deadline": "2026-08-05",
+                    "agency": "Department of Testing",
+                    "status": "active",
+                    "mission_ids": ["test-mission"],
+                },
+            )
 
             json_path, markdown_path = write_federal_funding_tracker(
                 reports,
-                [award],
+                [award, opportunity],
                 generated_at=datetime(2026, 7, 30, tzinfo=timezone.utc),
             )
             payload = json.loads(json_path.read_text(encoding="utf-8"))
@@ -240,6 +256,9 @@ class FederalFundingTests(unittest.TestCase):
 
         self.assertEqual(payload["summary"]["awards"], 1)
         self.assertEqual(payload["summary"]["funding_announcements"], 1)
+        self.assertEqual(payload["summary"]["open_opportunities"], 1)
+        self.assertEqual(payload["summary"]["closing_within_7_days"], 1)
+        self.assertEqual(payload["summary"]["new_since_yesterday"], 1)
         self.assertEqual(payload["summary"]["missions_with_activity"], 1)
         self.assertEqual(payload["mission_portfolios"][0]["mission_id"], "test-mission")
         self.assertEqual(payload["mission_portfolios"][0]["known_award_value"], 2500000)
@@ -266,7 +285,25 @@ class FederalFundingTests(unittest.TestCase):
         self.assertTrue(
             all(edge.get("source_id") and edge.get("target_id") for edge in payload["relationship_edges"])
         )
+        self.assertEqual(payload["opportunity_radar"][0]["record_type"], "baa")
+        self.assertEqual(payload["opportunity_radar"][0]["days_to_close"], 6)
+        self.assertGreater(payload["opportunity_radar"][0]["opportunity_score"], 0)
+        self.assertIn("recommended_action", payload["opportunity_radar"][0])
+        self.assertEqual(
+            payload["recipients_and_contractors"][0]["award_momentum"],
+            "new entrant",
+        )
+        self.assertEqual(
+            payload["recipients_and_contractors"][0]["incumbency"],
+            "emerging entrant",
+        )
+        self.assertTrue(payload["recipients_and_contractors"][0]["technology_specialties"])
+        self.assertIn("contractor_score", payload["recipients_and_contractors"][0])
+        self.assertGreater(payload["relationship_explorer"]["summary"]["nodes"], 0)
+        self.assertGreater(payload["relationship_explorer"]["summary"]["edges"], 0)
         self.assertIn("assignee-name matches", markdown)
+        self.assertIn("## Opportunity Radar", markdown)
+        self.assertIn("## Contractor Intelligence Profiles", markdown)
 
     def test_tracker_rejects_unrelated_results_from_loose_keyword_search(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:

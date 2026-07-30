@@ -39,6 +39,13 @@ entities:
       severity: critical
       patterns: [vulnerability, advisory, exploit, breach, incident, cve]
 
+opportunities:
+  enabled: true
+  closing_soon: true
+  closing_within_days: 7
+  new_high_priority: true
+  minimum_new_score: 60
+
 output:
   max_active_alerts: 50
 

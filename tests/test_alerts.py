@@ -10,6 +10,60 @@ from pqc_quantum_research_agent.alerts import write_alerts
 
 
 class AlertTests(unittest.TestCase):
+    def test_federal_opportunity_alerts_cover_new_and_closing_records(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports = Path(temp_dir)
+            (reports / "signals.json").write_text('{"themes": {}}', encoding="utf-8")
+            (reports / "source-health.json").write_text('{"sources": []}', encoding="utf-8")
+            (reports / "entity-watch.json").write_text('{"entities": []}', encoding="utf-8")
+            (reports / "federal-funding.json").write_text(
+                json.dumps(
+                    {
+                        "opportunity_radar": [
+                            {
+                                "key": "sam:quantum-baa",
+                                "title": "Quantum systems BAA",
+                                "url": "https://sam.gov/opp/quantum-baa/view",
+                                "awarding_agency": "Department of Defense",
+                                "date": "2026-07-30",
+                                "close_date": "2026-08-01",
+                                "days_to_close": 2,
+                                "new_since_yesterday": True,
+                                "opportunity_score": 82,
+                                "recommended_action": "Make a bid/no-bid decision.",
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            config = reports / "alerts.yaml"
+            config.write_text(
+                "opportunities:\n"
+                "  enabled: true\n"
+                "  closing_soon: true\n"
+                "  closing_within_days: 7\n"
+                "  new_high_priority: true\n"
+                "  minimum_new_score: 60\n",
+                encoding="utf-8",
+            )
+
+            _, json_path, _ = write_alerts(
+                reports,
+                config,
+                generated_at=datetime(2026, 7, 30, tzinfo=timezone.utc),
+            )
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["active_count"], 2)
+        self.assertEqual(
+            {alert["type"] for alert in payload["alerts"]},
+            {"opportunity_closing", "opportunity_new"},
+        )
+        self.assertTrue(
+            all(alert["evidence_url"].startswith("https://sam.gov/") for alert in payload["alerts"])
+        )
+
     def test_alerts_are_deduplicated_across_runs(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             reports = Path(temp_dir)

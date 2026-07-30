@@ -26,11 +26,23 @@ def write_alerts(
     signals = _read_json(reports_path / "signals.json")
     source_health = _read_json(reports_path / "source-health.json")
     entity_watch = _read_json(reports_path / "entity-watch.json")
+    federal_funding = _read_json(reports_path / "federal-funding.json")
     state_path = reports_path / "alerts-state.json"
     previous_state = _read_json(state_path)
     previous_active = previous_state.get("active", {})
 
-    active = [] if not config.get("enabled", True) else _evaluate(signals, source_health, entity_watch, config, generated.date())
+    active = (
+        []
+        if not config.get("enabled", True)
+        else _evaluate(
+            signals,
+            source_health,
+            entity_watch,
+            federal_funding,
+            config,
+            generated.date(),
+        )
+    )
     active.sort(key=lambda item: (SEVERITY_RANK.get(item["severity"], 9), item["title"]))
     max_alerts = int(config.get("output", {}).get("max_active_alerts", 50))
     active = active[:max_alerts]
@@ -76,7 +88,14 @@ def _read_json(path: Path) -> dict:
     return data if isinstance(data, dict) else {}
 
 
-def _evaluate(signals: dict, source_health: dict, entity_watch: dict, config: dict, today: date) -> list[dict]:
+def _evaluate(
+    signals: dict,
+    source_health: dict,
+    entity_watch: dict,
+    federal_funding: dict,
+    config: dict,
+    today: date,
+) -> list[dict]:
     alerts: list[dict] = []
     signal_config = config.get("signals", {})
     minimum_confidence = signal_config.get("minimum_confidence", "medium")
@@ -124,6 +143,75 @@ def _evaluate(signals: dict, source_health: dict, entity_watch: dict, config: di
         elif status == "degraded" and source_config.get("degraded", True):
             alerts.append(_source_alert(source, "high"))
     alerts.extend(_entity_event_alerts(entity_watch, config.get("entities", {}), today))
+    alerts.extend(
+        _funding_opportunity_alerts(
+            federal_funding,
+            config.get("opportunities", {}),
+        )
+    )
+    return alerts
+
+
+def _funding_opportunity_alerts(federal_funding: dict, config: dict) -> list[dict]:
+    if not config.get("enabled", True):
+        return []
+    closing_days = int(config.get("closing_within_days", 7))
+    minimum_new_score = int(config.get("minimum_new_score", 60))
+    alerts: list[dict] = []
+    for opportunity in federal_funding.get("opportunity_radar", []):
+        key = str(opportunity.get("key") or opportunity.get("url") or opportunity.get("title"))
+        fingerprint = sha256(key.encode("utf-8")).hexdigest()[:12]
+        title = str(opportunity.get("title") or "Federal opportunity")
+        url = str(opportunity.get("url") or "")
+        days_to_close = opportunity.get("days_to_close")
+        score = int(opportunity.get("opportunity_score") or 0)
+        if (
+            config.get("closing_soon", True)
+            and days_to_close is not None
+            and 0 <= int(days_to_close) <= closing_days
+        ):
+            severity = "high" if int(days_to_close) <= 3 or score >= 60 else "medium"
+            alerts.append(
+                _alert(
+                    f"opportunity:closing:{fingerprint}",
+                    "opportunity_closing",
+                    severity,
+                    f"Federal opportunity closing soon: {title}",
+                    (
+                        f"{int(days_to_close)} day(s) remain · radar score {score} · "
+                        f"{opportunity.get('recommended_action') or 'Review requirements.'}"
+                    ),
+                    str(opportunity.get("awarding_agency") or "Federal opportunity"),
+                    "closing-soon",
+                    "federal-funding.md",
+                    evidence_url=url,
+                    evidence_title=title,
+                    evidence_date=str(opportunity.get("close_date") or ""),
+                )
+            )
+        if (
+            config.get("new_high_priority", True)
+            and opportunity.get("new_since_yesterday")
+            and score >= minimum_new_score
+        ):
+            alerts.append(
+                _alert(
+                    f"opportunity:new:{fingerprint}",
+                    "opportunity_new",
+                    "high",
+                    f"New high-priority federal opportunity: {title}",
+                    (
+                        f"Radar score {score} · "
+                        f"{opportunity.get('recommended_action') or 'Review technical fit.'}"
+                    ),
+                    str(opportunity.get("awarding_agency") or "Federal opportunity"),
+                    "new-opportunity",
+                    "federal-funding.md",
+                    evidence_url=url,
+                    evidence_title=title,
+                    evidence_date=str(opportunity.get("date") or ""),
+                )
+            )
     return alerts
 
 
@@ -250,7 +338,7 @@ def _render_alerts(payload: dict) -> str:
     lines = [
         "# Intelligence Alerts",
         "",
-        "> **Alert Center** · Signal transitions · Material entity events · Source degradation",
+        "> **Alert Center** · Signal transitions · Federal opportunities · Material entity events · Source degradation",
         "",
         "[Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)",
         "",

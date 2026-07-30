@@ -98,7 +98,45 @@
           <div class="section-heading"><div><p class="eyebrow">FEDERAL EXECUTION LAYER</p><h2>Funding and procurement</h2></div><p id="funding-summary" class="updated"></p></div>
           <p class="section-note">USAspending awards, Grants.gov opportunities, and SAM.gov notices connected to missions, recipients, contractors, and relevant patent assignees. Analytical links are labeled and do not imply that an award funded a patent.</p>
           <div id="funding-metrics" class="funding-metrics"></div>
-          <div id="funding-grid" class="funding-grid" aria-live="polite"></div>
+
+          <details class="intelligence-module opportunity-module" open>
+            <summary><div><span class="module-kicker">OPPORTUNITY RADAR</span><strong>What needs attention now</strong></div><span id="opportunity-summary"></span></summary>
+            <div class="module-content">
+              <div id="opportunity-filters" class="filters opportunity-filters" aria-label="Opportunity filters">
+                <button class="active" data-opportunity="all">Top ranked</button>
+                <button data-opportunity="closing">Closing soon</button>
+                <button data-opportunity="new">New since yesterday</button>
+                <button data-opportunity="mission">Mission-linked</button>
+              </div>
+              <div id="opportunity-radar" class="opportunity-radar" aria-live="polite"></div>
+            </div>
+          </details>
+
+          <details class="intelligence-module relationship-module">
+            <summary><div><span class="module-kicker">RELATIONSHIP EXPLORER</span><strong>Follow mission execution evidence</strong></div><span id="relationship-summary"></span></summary>
+            <div class="module-content">
+              <div class="relationship-controls">
+                <label><span>Mission</span><select id="relationship-mission"></select></label>
+                <p>Official and analytical connections remain visibly distinguished by confidence.</p>
+              </div>
+              <div id="relationship-graph" class="relationship-graph" aria-live="polite"></div>
+              <div id="relationship-detail" class="relationship-detail"></div>
+            </div>
+          </details>
+
+          <details class="intelligence-module contractor-module">
+            <summary><div><span class="module-kicker">CONTRACTOR INTELLIGENCE</span><strong>Award momentum and strategic position</strong></div><span id="contractor-summary"></span></summary>
+            <div class="module-content">
+              <label class="search contractor-search"><span>Find contractor</span><input id="contractor-search" type="search" placeholder="Organization, agency, mission, or technology…"></label>
+              <p class="module-note">Peer and potential-competitor labels are analytical similarities—not confirmed partnerships or competitive relationships.</p>
+              <div id="contractor-grid" class="contractor-grid" aria-live="polite"></div>
+            </div>
+          </details>
+
+          <details class="intelligence-module execution-module">
+            <summary><div><span class="module-kicker">RECENT EXECUTION</span><strong>Awards, notices, and activity</strong></div><span>Latest records</span></summary>
+            <div class="module-content"><div id="funding-grid" class="funding-grid" aria-live="polite"></div></div>
+          </details>
           <div id="funding-portfolios" class="funding-portfolios"></div>
           <a id="funding-report-link" class="section-link" href="#">Open the complete funding and procurement ledger →</a>
         </section>

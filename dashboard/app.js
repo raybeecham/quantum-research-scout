@@ -1,4 +1,16 @@
-const state = { data: null, status: "priority", query: "", trendDays: 30, watchType: "entities", compareFirst: "", compareSecond: "" };
+const state = {
+  data: null,
+  status: "priority",
+  query: "",
+  trendDays: 30,
+  watchType: "entities",
+  compareFirst: "",
+  compareSecond: "",
+  opportunityFilter: "all",
+  relationshipMission: "",
+  relationshipNode: "",
+  contractorQuery: ""
+};
 const icons = { rising: "↗", stable: "→", declining: "↘" };
 const definitions = {
   rising: "Latest seven-day evidence is at least 50% higher than the prior seven days.",
@@ -85,6 +97,7 @@ function render(){
   renderTrend(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderSources(sources);
   animateMetrics();
   setupReveal();
+  revealHashSection();
 }
 
 function renderTrend(){
@@ -166,6 +179,9 @@ function renderFunding(payload){
     ["Missions with activity",`${summary.missions_with_activity || 0} / ${summary.tracked_missions || 0}`],
     ["Recipients & contractors",summary.unique_recipients_and_contractors || 0]
   ].map(([label,value]) => `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`).join("");
+  renderOpportunityRadar(payload);
+  renderRelationshipExplorer(payload);
+  renderContractors(payload);
   const order = {open:0,forecasted:1,awarded:2,announced:3,closed:4};
   const visible = [...records].sort((a,b) => (order[a.status] ?? 9) - (order[b.status] ?? 9) || (b.strategic_significance_score || 0) - (a.strategic_significance_score || 0)).slice(0,6);
   document.getElementById("funding-grid").innerHTML = visible.length ? visible.map(item => {
@@ -181,6 +197,143 @@ function renderFunding(payload){
     </article>`;
   }).join("") : '<div class="empty-state">No funding or procurement records have been collected yet. USAspending and Grants.gov run without credentials; SAM.gov additionally requires SAM_GOV_API_KEY.</div>';
   document.getElementById("funding-portfolios").innerHTML = portfolios.slice(0,6).map(item => `<span><strong>${escapeHtml(item.mission_name)}</strong>${item.record_count} records · ${item.open_opportunities} open · ${item.related_patent_count || 0} analytical patent matches</span>`).join("");
+}
+
+function renderOpportunityRadar(payload){
+  const summary = payload.summary || {};
+  const opportunities = payload.opportunity_radar || [];
+  document.getElementById("opportunity-summary").textContent =
+    `${opportunities.length} ranked · ${summary.closing_within_30_days || 0} closing ≤30 days · ${summary.new_since_yesterday || 0} new`;
+  const visible = opportunities.filter(item => {
+    if (state.opportunityFilter === "closing") return ["closing_soon","closing_this_month"].includes(item.deadline_status);
+    if (state.opportunityFilter === "new") return item.new_since_yesterday;
+    if (state.opportunityFilter === "mission") return (item.mission_links || []).length;
+    return true;
+  }).slice(0,8);
+  document.getElementById("opportunity-radar").innerHTML = visible.length ? visible.map(item => {
+    const missions = (item.mission_links || []).map(link => link.mission_name);
+    const domains = item.technology_domains || [];
+    const deadline = item.days_to_close == null
+      ? "Deadline not reported"
+      : item.days_to_close === 0
+        ? "Closes today"
+        : item.days_to_close > 0
+          ? `${item.days_to_close} days remaining`
+          : "Closed";
+    const agency = item.awarding_agency || item.funding_agency || "Agency not listed";
+    return `<article class="opportunity-card ${escapeHtml(item.deadline_status || "")}">
+      <div class="opportunity-rank"><span>#${item.radar_rank || "—"}</span><strong>${item.opportunity_score || 0}</strong><small>${escapeHtml(item.opportunity_label || "monitor")}</small></div>
+      <div class="opportunity-body">
+        <div class="opportunity-meta"><span>${escapeHtml(String(item.record_type || "opportunity").replaceAll("_"," "))}</span><span class="deadline-pill ${escapeHtml(item.deadline_status || "")}">${escapeHtml(deadline)}</span>${item.new_since_yesterday ? '<span class="new-tag">NEW</span>' : ""}</div>
+        <h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3>
+        <p>${escapeHtml(agency)} · ${escapeHtml(formatMoney(item.amount))}</p>
+        <div class="opportunity-tags">${missions.map(name => `<span class="mission-tag">${escapeHtml(name)}</span>`).join("")}${domains.map(name => `<span>${escapeHtml(name)}</span>`).join("")}</div>
+        <div class="opportunity-action"><b>Recommended action</b><span>${escapeHtml(item.recommended_action || "Review fit and requirements.")}</span></div>
+      </div>
+    </article>`;
+  }).join("") : '<div class="empty-state">No open opportunities match this view.</div>';
+}
+
+function renderRelationshipExplorer(payload){
+  const graph = payload.relationship_explorer || { summary: {}, nodes: [], edges: [] };
+  const nodes = graph.nodes || [];
+  const edges = graph.edges || [];
+  const byId = new Map(nodes.map(node => [node.node_id,node]));
+  const missions = nodes.filter(node => node.node_type === "mission");
+  const missionSelect = document.getElementById("relationship-mission");
+  if (!state.relationshipMission || !byId.has(state.relationshipMission)) {
+    state.relationshipMission = missions.find(node => (node.record_count || 0) > 0)?.node_id || missions[0]?.node_id || "";
+  }
+  missionSelect.innerHTML = missions.map(node =>
+    `<option value="${escapeHtml(node.node_id)}"${node.node_id === state.relationshipMission ? " selected" : ""}>${escapeHtml(node.label)}</option>`
+  ).join("");
+  document.getElementById("relationship-summary").textContent =
+    `${graph.summary?.nodes || 0} nodes · ${graph.summary?.edges || 0} evidence links`;
+  const firstHop = edges.filter(edge => edge.source_node === state.relationshipMission);
+  const executionIds = firstHop
+    .map(edge => edge.target_node)
+    .filter(nodeId => byId.get(nodeId)?.node_type !== "patent");
+  const directPatentIds = firstHop
+    .map(edge => edge.target_node)
+    .filter(nodeId => byId.get(nodeId)?.node_type === "patent");
+  const secondHop = edges.filter(edge => executionIds.includes(edge.source_node));
+  const contractorIds = secondHop
+    .map(edge => edge.target_node)
+    .filter(nodeId => byId.get(nodeId)?.node_type === "recipient_or_contractor");
+  const thirdHop = edges.filter(edge => contractorIds.includes(edge.source_node));
+  const patentIds = [...new Set([
+    ...directPatentIds,
+    ...thirdHop.map(edge => edge.target_node).filter(nodeId => byId.get(nodeId)?.node_type === "patent")
+  ])];
+  const selectedMission = byId.get(state.relationshipMission);
+  if (!state.relationshipNode || !byId.has(state.relationshipNode)) state.relationshipNode = state.relationshipMission;
+  const nodeButton = (node, compact=false) => `<button class="relationship-node ${escapeHtml(node.node_type)}${node.node_id === state.relationshipNode ? " active" : ""}" data-node="${escapeHtml(node.node_id)}">
+    <span>${escapeHtml(String(node.node_type).replaceAll("_"," "))}</span>
+    <strong>${escapeHtml(node.label || node.identifier)}</strong>
+    ${compact ? "" : `<small>${node.amount ? escapeHtml(formatMoney(node.amount)) : node.status ? escapeHtml(node.status) : node.assignee ? escapeHtml(node.assignee) : ""}</small>`}
+  </button>`;
+  const activityNodes = [...new Set(executionIds)].map(id => byId.get(id)).filter(Boolean).slice(0,8);
+  const contractorNodes = [...new Set(contractorIds)].map(id => byId.get(id)).filter(Boolean).slice(0,6);
+  const patentNodes = patentIds.map(id => byId.get(id)).filter(Boolean).slice(0,8);
+  document.getElementById("relationship-graph").innerHTML = selectedMission ? `
+    <div class="relationship-lane mission-lane"><h4>Mission</h4>${nodeButton(selectedMission)}<small>${firstHop.length} direct links</small></div>
+    <div class="relationship-arrow" aria-hidden="true">→</div>
+    <div class="relationship-lane"><h4>Execution</h4>${activityNodes.length ? activityNodes.map(node => nodeButton(node)).join("") : "<p>No linked execution records.</p>"}</div>
+    <div class="relationship-arrow" aria-hidden="true">→</div>
+    <div class="relationship-lane connected-lane"><h4>Contractors & patents</h4>${contractorNodes.map(node => nodeButton(node,true)).join("")}${patentNodes.map(node => nodeButton(node,true)).join("") || "<p>No downstream nodes.</p>"}</div>
+  ` : '<div class="empty-state">No mission relationships are available.</div>';
+  renderRelationshipDetail(graph, byId.get(state.relationshipNode));
+  document.querySelectorAll(".relationship-node").forEach(button => button.addEventListener("click", () => {
+    state.relationshipNode = button.dataset.node;
+    renderRelationshipExplorer(payload);
+  }));
+}
+
+function renderRelationshipDetail(graph, node){
+  const detail = document.getElementById("relationship-detail");
+  if (!node) { detail.innerHTML = ""; return; }
+  const connections = (graph.edges || []).filter(edge => edge.source_node === node.node_id || edge.target_node === node.node_id);
+  const confidence = connections.reduce((counts, edge) => {
+    const key = edge.confidence || "unlabeled"; counts[key] = (counts[key] || 0) + 1; return counts;
+  }, {});
+  detail.innerHTML = `<div><span class="module-kicker">SELECTED ${escapeHtml(String(node.node_type).replaceAll("_"," "))}</span><h4>${escapeHtml(node.label || node.identifier)}</h4><p>${connections.length} connected evidence link${connections.length === 1 ? "" : "s"} · ${Object.entries(confidence).map(([key,value]) => `${value} ${key}`).join(" · ") || "no confidence label"}</p></div>
+    <div class="relationship-evidence">${connections.slice(0,5).map(edge => `<span class="${escapeHtml(edge.confidence || "low")}"><b>${escapeHtml(edge.confidence || "unlabeled")}</b>${escapeHtml(edge.basis || "Relationship evidence")}</span>`).join("")}</div>
+    ${node.url ? `<a href="${escapeHtml(safeUrl(node.url))}" target="_blank" rel="noopener">Open source →</a>` : ""}`;
+}
+
+function renderContractors(payload){
+  const profiles = payload.contractor_profiles || [];
+  const query = state.contractorQuery.trim().toLowerCase();
+  const visible = profiles.filter(item => [
+    item.name,
+    ...(item.agencies || []),
+    ...(item.mission_ids || []),
+    ...(item.technology_specialties || [])
+  ].join(" ").toLowerCase().includes(query)).slice(0,12);
+  document.getElementById("contractor-summary").textContent = `${profiles.length} prioritized profiles`;
+  document.getElementById("contractor-grid").innerHTML = visible.length ? visible.map(item => {
+    const patents = item.related_patents || [];
+    const peers = item.network_peers || [];
+    const smallBusiness = item.small_business_evidence?.observed
+      ? item.small_business_evidence.classifications.join(", ")
+      : "Not established";
+    return `<article class="contractor-card">
+      <div class="contractor-head"><div><span>${escapeHtml(item.contractor_label || "observed")}</span><strong>${item.contractor_score || 0}</strong></div><span class="momentum ${escapeHtml(String(item.award_momentum || "stable").replaceAll(" ","-"))}">${escapeHtml(item.award_momentum || "stable")}</span></div>
+      <h3>${escapeHtml(item.name)}</h3>
+      <p>${escapeHtml(item.incumbency || "observed recipient")}</p>
+      <dl><div><dt>Known awards</dt><dd>${escapeHtml(formatMoney(item.known_award_value))}</dd></div><div><dt>Recent 12 months</dt><dd>${item.recent_award_count || 0} · ${escapeHtml(formatMoney(item.recent_award_value))}</dd></div><div><dt>Missions</dt><dd>${(item.mission_ids || []).length}</dd></div><div><dt>Patent matches</dt><dd>${item.related_patent_count || 0}</dd></div></dl>
+      <div class="contractor-tags">${(item.technology_specialties || []).slice(0,4).map(value => `<span>${escapeHtml(value)}</span>`).join("")}</div>
+      <details class="contractor-profile-detail">
+        <summary>Open intelligence profile</summary>
+        <div class="contractor-profile-body">
+          <section><h4>Agencies</h4><p>${escapeHtml((item.agencies || []).join(", ") || "Not listed")}</p><h4>Small-business evidence</h4><p>${escapeHtml(smallBusiness)}</p></section>
+          <section><h4>Recent awards</h4>${(item.top_awards || []).slice(0,3).map(award => `<a href="${escapeHtml(safeUrl(award.url))}" target="_blank" rel="noopener"><b>${escapeHtml(formatMoney(award.amount))}</b>${escapeHtml(award.title || "Award")}</a>`).join("") || "<p>No award detail available.</p>"}</section>
+          <section><h4>Related patents</h4>${patents.slice(0,3).map(patent => `<a href="${escapeHtml(safeUrl(patent.url))}" target="_blank" rel="noopener">${escapeHtml(patent.title || patent.patent_id)}</a>`).join("") || "<p>No assignee matches.</p>"}</section>
+          <section><h4>Peers & potential competitors</h4>${peers.slice(0,3).map(peer => `<p><b>${escapeHtml(peer.name)}</b><span>${escapeHtml(peer.relationship_type)}</span></p>`).join("") || "<p>Not enough shared evidence.</p>"}</section>
+        </div>
+      </details>
+    </article>`;
+  }).join("") : '<div class="empty-state">No contractor profiles match this search.</div>';
 }
 
 function renderSignals(){
@@ -341,7 +494,7 @@ function setupReveal(){
   if (document.documentElement.dataset.revealSetup || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   document.documentElement.dataset.revealSetup = "true";
   const targets = document.querySelectorAll(
-    "#briefing.metrics article,.briefing-panel,.signal-card,.mission-card,.funding-card,.patent-card,.watch-card,.guide-grid article,.milestone-card"
+    "#briefing.metrics article,.briefing-panel,.signal-card,.mission-card,.funding-card,.opportunity-card,.contractor-card,.patent-card,.watch-card,.guide-grid article,.milestone-card"
   );
   if (!("IntersectionObserver" in window)) return;
   document.documentElement.classList.add("reveal-ready");
@@ -365,6 +518,21 @@ document.getElementById("trend-ranges").addEventListener("click", event => { if(
 document.getElementById("watch-tabs").addEventListener("click", event => { if(!event.target.dataset.watch) return; state.watchType = event.target.dataset.watch; document.querySelectorAll("#watch-tabs button").forEach(x => x.classList.toggle("active", x === event.target)); if(state.data) renderWatch(); });
 document.getElementById("compare-first").addEventListener("change", event => { state.compareFirst = event.target.value; if(state.data) renderComparison(); });
 document.getElementById("compare-second").addEventListener("change", event => { state.compareSecond = event.target.value; if(state.data) renderComparison(); });
+document.getElementById("opportunity-filters").addEventListener("click", event => {
+  if (!event.target.dataset.opportunity) return;
+  state.opportunityFilter = event.target.dataset.opportunity;
+  document.querySelectorAll("#opportunity-filters button").forEach(button => button.classList.toggle("active", button === event.target));
+  if (state.data) renderOpportunityRadar(state.data.federal_funding || {});
+});
+document.getElementById("relationship-mission").addEventListener("change", event => {
+  state.relationshipMission = event.target.value;
+  state.relationshipNode = event.target.value;
+  if (state.data) renderRelationshipExplorer(state.data.federal_funding || {});
+});
+document.getElementById("contractor-search").addEventListener("input", event => {
+  state.contractorQuery = event.target.value;
+  if (state.data) renderContractors(state.data.federal_funding || {});
+});
 
 const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.getElementById("primary-links");
@@ -390,6 +558,11 @@ const revealHashSection = () => {
   if (!window.location.hash) return;
   const target = document.querySelector(window.location.hash);
   for (let parent = target?.closest("details"); parent; parent = parent.parentElement?.closest("details")) parent.open = true;
+  if (target) {
+    const scrollToTarget = () => target.scrollIntoView({block:"start"});
+    requestAnimationFrame(() => requestAnimationFrame(scrollToTarget));
+    setTimeout(scrollToTarget, 120);
+  }
 };
 window.addEventListener("hashchange", revealHashSection);
 revealHashSection();

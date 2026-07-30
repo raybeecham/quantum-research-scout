@@ -87,6 +87,8 @@ class DashboardBuildTests(unittest.TestCase):
                             "total_records": 1,
                             "linked_records": 1,
                             "open_opportunities": 1,
+                            "closing_within_30_days": 1,
+                            "new_since_yesterday": 1,
                             "known_award_value": 2500000,
                         },
                         "records": [
@@ -97,10 +99,64 @@ class DashboardBuildTests(unittest.TestCase):
                                 "status": "open",
                             }
                         ],
+                        "opportunity_radar": [
+                            {
+                                "key": "sam:one",
+                                "radar_rank": 1,
+                                "record_type": "baa",
+                                "title": "Quantum BAA",
+                                "status": "open",
+                                "deadline_status": "closing_this_month",
+                                "opportunity_score": 82,
+                                "opportunity_label": "act now",
+                                "recommended_action": "Prepare a response.",
+                                "related_patents": [{"patent_id": "US123B2"}],
+                            }
+                        ],
                         "mission_portfolios": [
                             {"mission_id": "genesis", "mission_name": "Genesis Mission", "record_count": 1}
                         ],
-                        "recipients_and_contractors": [],
+                        "recipients_and_contractors": [
+                            {
+                                "name": "Acme Quantum LLC",
+                                "award_count": 1,
+                                "known_award_value": 2500000,
+                                "contractor_score": 61,
+                                "contractor_label": "significant",
+                                "award_momentum": "new entrant",
+                                "incumbency": "emerging entrant",
+                                "agencies": ["Department of Testing"],
+                                "mission_ids": ["genesis"],
+                                "technology_specialties": ["Quantum technology"],
+                                "related_patents": [{"patent_id": "US123B2"}],
+                            }
+                        ],
+                        "relationship_explorer": {
+                            "summary": {"nodes": 2, "edges": 1},
+                            "nodes": [
+                                {
+                                    "node_id": "mission:genesis",
+                                    "node_type": "mission",
+                                    "identifier": "genesis",
+                                    "label": "Genesis Mission",
+                                },
+                                {
+                                    "node_id": "baa:sam:one",
+                                    "node_type": "baa",
+                                    "identifier": "sam:one",
+                                    "label": "Quantum BAA",
+                                },
+                            ],
+                            "edges": [
+                                {
+                                    "edge_id": "edge-1",
+                                    "source_node": "mission:genesis",
+                                    "target_node": "baa:sam:one",
+                                    "confidence": "high",
+                                    "basis": "named program match",
+                                }
+                            ],
+                        },
                     }
                 ),
                 encoding="utf-8",
@@ -154,6 +210,9 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["federal_missions"]["missions"][0]["name"], "Genesis Mission")
             self.assertEqual(payload["federal_funding"]["summary"]["linked_records"], 1)
             self.assertEqual(payload["federal_funding"]["records"][0]["record_type"], "baa")
+            self.assertEqual(payload["federal_funding"]["opportunity_radar"][0]["opportunity_score"], 82)
+            self.assertEqual(payload["federal_funding"]["contractor_profiles"][0]["name"], "Acme Quantum LLC")
+            self.assertEqual(payload["federal_funding"]["relationship_explorer"]["summary"]["edges"], 1)
             self.assertEqual(payload["historical_evidence"]["item_count"], 2)
             self.assertEqual(payload["patents"]["summary"]["total"], 1)
             self.assertEqual(payload["patents"]["summary"]["curated_total"], 1)
@@ -207,10 +266,17 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("curated_total", script)
         self.assertIn("renderMissions", script)
         self.assertIn("renderFunding", script)
+        self.assertIn("renderOpportunityRadar", script)
+        self.assertIn("renderRelationshipExplorer", script)
+        self.assertIn("renderContractors", script)
+        self.assertIn('id="opportunity-radar"', html)
+        self.assertIn('id="relationship-graph"', html)
+        self.assertIn('id="contractor-grid"', html)
         self.assertIn("strategic_significance_score", script)
         self.assertIn("alerts.slice(0, 3)", script)
         self.assertIn("friendlyReportName", script)
         self.assertIn("revealHashSection", script)
+        self.assertIn("scrollIntoView", script)
 
     def test_dashboard_vibrant_experience_stays_dynamic_and_accessible(self) -> None:
         root = Path(__file__).parents[1]

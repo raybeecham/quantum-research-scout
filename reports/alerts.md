@@ -1,14 +1,14 @@
 # Intelligence Alerts
 
-> **Alert Center** · Signal transitions · Material entity events · Source degradation
+> **Alert Center** · Signal transitions · Federal opportunities · Material entity events · Source degradation
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-30 01:27 UTC_
+_Updated 2026-07-30 22:20 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 37 | 1 | 4 | 11 | 22 |
+| 39 | 0 | 4 | 13 | 22 |
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
@@ -72,6 +72,22 @@ _Updated 2026-07-30 01:27 UTC_
 - Status: **actionable**
 - 🎯 Standards / Government is actionable with medium confidence.
 - [Open supporting view](signals.md)
+
+## 🟠 Federal opportunity closing soon: National Cybersecurity Preparedness Consortium
+
+- Severity: **high**
+- Status: **closing-soon**
+- 1 day(s) remain · radar score 39 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363010)
+- [Open supporting view](federal-funding.md)
+
+## 🟠 New high-priority federal opportunity: The Genesis Mission: Transforming Science and Energy with AI
+
+- Severity: **high**
+- Status: **new-opportunity**
+- Radar score 83 · Review technical fit, eligibility, and submission requirements.
+- [Open direct evidence](https://www.grants.gov/search-results-detail/361526)
+- [Open supporting view](federal-funding.md)
 
 ## 🟠 Rising momentum: PQC / Crypto Agility
 
@@ -171,7 +187,7 @@ _Updated 2026-07-30 01:27 UTC_
 - The latest dated item is from 2026-06-04; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Distributed Sensing and Smart Dust Patents 🆕
+## 🟡 Source stale: Distributed Sensing and Smart Dust Patents
 
 - Severity: **medium**
 - Status: **stale**
