@@ -4,42 +4,42 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-29 02:09 UTC_
+_Updated 2026-07-30 01:07 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
-| PQC / Crypto Agility | ↗️ rising (27 vs 8) | 🔴 critical | high | 🎯 actionable | 2026-06-21 | 2026-07-28 | 83 |
-| QEC / Fault Tolerance | ↗️ rising (7 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-07-28 | 35 |
+| PQC / Crypto Agility | ↗️ rising (28 vs 8) | 🔴 critical | high | 🎯 actionable | 2026-06-21 | 2026-07-29 | 87 |
+| QEC / Fault Tolerance | ↗️ rising (7 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-07-29 | 36 |
 | Standards / Government | ↗️ rising (4 vs 0) | 🔴 critical | medium | 🎯 actionable | 2026-07-21 | 2026-07-25 | 4 |
 | AI Security | ↗️ rising (6 vs 3) | 🟠 high | high | 🎯 actionable | 2026-07-01 | 2026-07-23 | 11 |
 | Quantum Sensing | ↗️ rising (6 vs 2) | 🟠 high | high | 🎯 actionable | 2026-06-22 | 2026-07-28 | 23 |
-| Quantum Hardware | ➡️ stable (26 vs 28) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-07-28 | 138 |
-| Quantum Networking | ↘️ declining (7 vs 13) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-07-28 | 49 |
-| Quantum Software / Tooling | ➡️ stable (9 vs 10) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-07-27 | 47 |
+| Quantum Hardware | ➡️ stable (29 vs 26) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-07-29 | 144 |
+| Quantum Networking | ↘️ declining (8 vs 12) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-07-29 | 51 |
+| Quantum Software / Tooling | ➡️ stable (8 vs 9) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-07-29 | 49 |
 
 ## PQC / Crypto Agility
 
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, IACR ePrint, arXiv RSS cs.CR
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, IACR ePrint, Keyfactor Quantum and Crypto-Agility
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-07-29 — [IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography](https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography) (QuantumNews.ai, score 60)
+  - 2026-07-29 — [Post-quantum authentication to origins is now supported](https://blog.cloudflare.com/post-quantum-authentication-to-origins) (Cloudflare Blog, score 55)
+  - 2026-07-29 — [AI Finds New Weaknesses in Cryptographic Algorithms, Anthropic Says](https://thequantuminsider.com/2026/07/29/ai-finds-new-weaknesses-in-cryptographic-algorithms-anthropic-says) (The Quantum Insider, score 42)
+  - 2026-07-29 — [What Is Cryptographic Key Management? | Complete Guide](https://www.keyfactor.com/education-center/what-is-cryptographic-key-management-complete-guide) (Keyfactor Quantum and Crypto-Agility, score 30)
   - 2026-07-28 — [Building Crypto-Agility for Financial Services](https://www.keyfactor.com/events/building-crypto-agility-for-financial-services) (Keyfactor Quantum and Crypto-Agility, score 76)
-  - 2026-07-28 — [EigenQ Appoints Mark Pecen as Vice Chairman and Alexander Truskovsky as CISO](https://thequantuminsider.com/2026/07/28/eigenq-appoints-mark-pecen-alexander-truskovsky-ciso) (The Quantum Insider, score 75)
-  - 2026-07-28 — [NordForsk Joins G7 Initiative to Fund International Quantum Technology Research Projects](https://thequantuminsider.com/2026/07/28/nordforsk-joins-g7-initiative-to-fund-international-quantum-technology-research-projects) (The Quantum Insider, score 47)
-  - 2026-07-28 — [Quantum Ready Solutions went gold!](https://www.insidequantumtechnology.com/news-archive/quantum-ready-solutions-went-gold) (QuantumNews.ai, score 26)
-  - 2026-07-27 — [Post-Quantum PKI: A Practical Readiness Guide for Enterprise Security Teams](https://www.keyfactor.com/blog/quantum-pki-readiness-a-5-step-guide-for-security-teams) (Keyfactor Quantum and Crypto-Agility, score 136)
 
 ## QEC / Fault Tolerance
 
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
 - Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
 - Recent supporting evidence:
+  - 2026-07-29 — [Riverlane and Unitary Foundation Launch Deltakit Community Fund for Open-Source QEC](https://quantumcomputingreport.com/riverlane-and-unitary-foundation-launch-deltakit-community-fund-for-open-source-qec) (QuantumNews.ai, score 51)
   - 2026-07-28 — [C12 Unveils Roadmap to Useful Fault-Tolerant Quantum Computing by 2033](https://www.insidequantumtechnology.com/news-archive/c12-unveils-roadmap-to-useful-fault-tolerant-quantum-computing-by-2033) (QuantumNews.ai, score 124)
   - 2026-07-28 — [Riverlane and Unitary Foundation Launch ‘Deltakit Community Fund’ to Accelerate Open-Source Quantum Error Correction](https://thequantuminsider.com/2026/07/28/riverlane-unitary-foundation-deltakit-community-fund) (The Quantum Insider, score 56)
   - 2026-07-27 — [Quantum X Labs Tests AI-Based Error Correction Decoder With NVIDIA CUDA-Q Tools](https://thequantuminsider.com/2026/07/27/quantum-x-labs-ai-error-correction-decoder-nvidia-cuda-q) (The Quantum Insider, score 69)
   - 2026-07-25 — [BlueQubit Secures $1.5M DOE Grants for AI-Driven Quantum Error Correction](https://quantumzeitgeist.com/quantum-error-correction-bluequbit-15m) (Quantum Zeitgeist, score 84)
-  - 2026-07-24 — [QuantiSpect Cuts 3D Convolution Load for Faster Quantum Decoding](https://quantumzeitgeist.com/beijing-academy-quantum-information-sciences-quantispect) (Quantum Zeitgeist, score 56)
 
 ## Standards / Government
 
@@ -75,33 +75,33 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 
 ## Quantum Hardware
 
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph
+- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
-  - 2026-07-28 — [ZuriQ Raises $25.5 Million to Scale Two-Dimensional Trapped-Ion Quantum Processors](https://thequantuminsider.com/2026/07/28/zuriq-raises-25-5-million-2d-trapped-ion-quantum-processors) (The Quantum Insider, score 51)
-  - 2026-07-28 — [$25.5M Seed Funds ZuriQ’s 2D Trapped-Ion Quantum Scale-Up](https://quantumzeitgeist.com/255m-seed-funds-zuriqs-trapped-ion) (Quantum Zeitgeist, score 43)
-  - 2026-07-28 — [Fidelity of Qudit Entanglement Rises With Iterated Purification](https://quantumzeitgeist.com/university-science-technology-beijing-qudit-entanglement) (Quantum Zeitgeist, score 32)
-  - 2026-07-28 — [TangleLab Pairs Quantum Processors With Existing Supercomputers](https://quantumzeitgeist.com/tanglelab-quantum-processors-pairs-existing) (Quantum Zeitgeist, score 28)
-  - 2026-07-28 — [Dr. Joseph Buck Now Leads Infleqtion Quantum Efforts](https://quantumzeitgeist.com/infleqtion-dr-joseph-buck-system-builder-buck-leads) (Quantum Zeitgeist, score 17)
+  - 2026-07-29 — [Quantum in the Palm of Your Hand: The Evolution of Superconducting Qubits](https://www.energy.gov/science/articles/quantum-palm-your-hand-evolution-superconducting-qubits) (QuantumNews.ai, score 100)
+  - 2026-07-29 — [Rigetti Superconducting Bridges Track Qubit Temperature With Millikelvin Precision](https://quantumzeitgeist.com/rigetti-computing-superconducting-qubit-temperature-bridges) (Quantum Zeitgeist, score 50)
+  - 2026-07-29 — [Photonic CMOS Chip Shows Superior Noise Tolerance to Superconducting Qubits](https://quantumzeitgeist.com/cmos-photonic-chip-superior-noise-tolerance) (Quantum Zeitgeist, score 45)
+  - 2026-07-29 — [HRL Shows Self-Operating Silicon Quantum Processor That Performs Error Correction](https://thequantuminsider.com/2026/07/29/hrl-shows-self-operating-silicon-quantum-processor-that-performs-error-correction) (The Quantum Insider, score 39)
+  - 2026-07-29 — [Photonic Chip Runs Grover’s Search With Four Qubits](https://quantumzeitgeist.com/university-stuttgart-photonic-chip-runs-grovers) (Quantum Zeitgeist, score 36)
 
 ## Quantum Networking
 
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
+  - 2026-07-29 — [QED-C Roadmap Outlines Technology Requirements for Future Quantum Networks](https://thequantuminsider.com/2026/07/29/qed-c-roadmap-future-quantum-networks) (The Quantum Insider, score 61)
+  - 2026-07-29 — [IQT The Quantum Dragon Podcast Episode 87 – Your entropy isn't random enough.](https://www.insidequantumtechnology.com/news-archive/iqt-the-quantum-dragon-podcast-episode-87-your-entropy-isnt-random-enough) (QuantumNews.ai, score 39)
   - 2026-07-28 — [Four Quantum Companies Sign-on to New Mexico’s Open-Access Quantum Network](https://thequantuminsider.com/2026/07/28/four-quantum-companies-sign-on-to-new-mexicos-open-access-quantum-network) (The Quantum Insider, score 48)
   - 2026-07-26 — [Mode Mismatch Causes “Hyperloss” of Up to 30% in Quantum Networks](https://quantumzeitgeist.com/universitat-hamburg-mode-mismatch-quantum-networks) (Quantum Zeitgeist, score 40)
   - 2026-07-25 — [Quantum Elements Launches "Orbit" as Qiskit Function for Automated Error Suppression](https://quantumcomputingreport.com/quantum-elements-launches-orbit-as-qiskit-function-for-automated-error-suppression) (QuantumNews.ai, score 58)
-  - 2026-07-23 — [Picosecond-resolved entanglement distribution over an urban free-space channel](https://arxiv.org/abs/2607.21093) (arXiv RSS quant-ph, score 77)
-  - 2026-07-23 — [Discrete-modulated continuous-variable quantum key distribution with uncertainty principle](https://arxiv.org/abs/2607.20840) (arXiv RSS quant-ph, score 63)
 
 ## Quantum Software / Tooling
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, AWS Quantum Technologies Blog, arXiv RSS quant-ph
 - Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
 - Recent supporting evidence:
+  - 2026-07-29 — [Superconducting Quantum Materials and Systems (SQMS) Center: Researchers Extend Grover’s Search to More Efficient Multilevel Quantum Systems](https://quantumzeitgeist.com/superconducting-qudits-grovers-algorithm-multilevel-systems) (Quantum Zeitgeist, score 33)
+  - 2026-07-29 — [BLFQ Calculates Entanglement in Charmonium and Bottomonium](https://quantumzeitgeist.com/entanglement-charmonium-blfq-calculates-bottomonium) (Quantum Zeitgeist, score 30)
   - 2026-07-27 — [CEICO Researchers Map Entanglement Across Distinct CFT Theories](https://quantumzeitgeist.com/ceico-map-entanglement-across-distinct) (Quantum Zeitgeist, score 30)
   - 2026-07-27 — [Dynamical Decoupling Now Accessible Via Qiskit, Quantum Elements Reports](https://quantumzeitgeist.com/ibm-dynamical-decoupling-accessible-via-qiskit) (Quantum Zeitgeist, score 24)
   - 2026-07-27 — [Bloq Quantum and QClairvoyance Partner on Quantum Education and Workforce Training](https://thequantuminsider.com/2026/07/27/bloq-quantum-qclairvoyance-quantum-education-partnership) (The Quantum Insider, score 21)
-  - 2026-07-26 — [Quantum Device Model Rethink Cuts Neutral Atom Compilation Overhead 100,000×](https://quantumzeitgeist.com/qiskit-neutral-atom-compilation-quantum-device) (Quantum Zeitgeist, score 60)
-  - 2026-07-24 — [Bloq Quantum Partners With Sree Buddha College of Engineering to Establish a Quantum Technology Hub](https://thequantuminsider.com/2026/07/24/bloq-quantum-partners-with-sree-buddha-college-of-engineering-to-establish-a-quantum-technology-hub) (The Quantum Insider, score 21)

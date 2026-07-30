@@ -867,22 +867,58 @@
           "source": "Keyfactor Quantum and Crypto-Agility",
           "title": "Building Crypto-Agility for Financial Services",
           "url": "https://www.keyfactor.com/events/building-crypto-agility-for-financial-services"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://www.keyfactor.com/education-center/what-is-cryptographic-key-management-complete-guide",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 30,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "What Is Cryptographic Key Management? | Complete Guide",
+          "url": "https://www.keyfactor.com/education-center/what-is-cryptographic-key-management-complete-guide"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://thequantuminsider.com/2026/07/29/ai-finds-new-weaknesses-in-cryptographic-algorithms-anthropic-says",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 42,
+          "source": "The Quantum Insider",
+          "title": "AI Finds New Weaknesses in Cryptographic Algorithms, Anthropic Says",
+          "url": "https://thequantuminsider.com/2026/07/29/ai-finds-new-weaknesses-in-cryptographic-algorithms-anthropic-says"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 55,
+          "source": "Cloudflare Blog",
+          "title": "Post-quantum authentication to origins is now supported",
+          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 60,
+          "source": "QuantumNews.ai",
+          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
+          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-07-28",
+      "latest_seen": "2026-07-29",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
         "QuantumNews.ai",
         "IACR ePrint",
-        "arXiv RSS cs.CR"
+        "Keyfactor Quantum and Crypto-Agility"
       ],
       "prior_count": 8,
-      "recent_count": 27,
+      "recent_count": 28,
       "status": "actionable"
     },
     "QEC / Fault Tolerance": {
@@ -1202,12 +1238,21 @@
           "source": "QuantumNews.ai",
           "title": "C12 Unveils Roadmap to Useful Fault-Tolerant Quantum Computing by 2033",
           "url": "https://www.insidequantumtechnology.com/news-archive/c12-unveils-roadmap-to-useful-fault-tolerant-quantum-computing-by-2033"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumcomputingreport.com/riverlane-and-unitary-foundation-launch-deltakit-community-fund-for-open-source-qec",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 51,
+          "source": "QuantumNews.ai",
+          "title": "Riverlane and Unitary Foundation Launch Deltakit Community Fund for Open-Source QEC",
+          "url": "https://quantumcomputingreport.com/riverlane-and-unitary-foundation-launch-deltakit-community-fund-for-open-source-qec"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-07-28",
+      "latest_seen": "2026-07-29",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -2463,21 +2508,75 @@
           "source": "The Quantum Insider",
           "title": "ZuriQ Raises $25.5 Million to Scale Two-Dimensional Trapped-Ion Quantum Processors",
           "url": "https://thequantuminsider.com/2026/07/28/zuriq-raises-25-5-million-2d-trapped-ion-quantum-processors"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://arstechnica.com/science/2026/07/quantum-computing-roundup-still-more-technologies-making-waves",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 23,
+          "source": "QuantumNews.ai",
+          "title": "Yet more qubit tech: New quantum dot options, diamond vacancies",
+          "url": "https://arstechnica.com/science/2026/07/quantum-computing-roundup-still-more-technologies-making-waves"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumzeitgeist.com/university-stuttgart-photonic-chip-runs-grovers",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 36,
+          "source": "Quantum Zeitgeist",
+          "title": "Photonic Chip Runs Grover\u2019s Search With Four Qubits",
+          "url": "https://quantumzeitgeist.com/university-stuttgart-photonic-chip-runs-grovers"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://thequantuminsider.com/2026/07/29/hrl-shows-self-operating-silicon-quantum-processor-that-performs-error-correction",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 39,
+          "source": "The Quantum Insider",
+          "title": "HRL Shows Self-Operating Silicon Quantum Processor That Performs Error Correction",
+          "url": "https://thequantuminsider.com/2026/07/29/hrl-shows-self-operating-silicon-quantum-processor-that-performs-error-correction"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumzeitgeist.com/cmos-photonic-chip-superior-noise-tolerance",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 45,
+          "source": "Quantum Zeitgeist",
+          "title": "Photonic CMOS Chip Shows Superior Noise Tolerance to Superconducting Qubits",
+          "url": "https://quantumzeitgeist.com/cmos-photonic-chip-superior-noise-tolerance"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumzeitgeist.com/rigetti-computing-superconducting-qubit-temperature-bridges",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 50,
+          "source": "Quantum Zeitgeist",
+          "title": "Rigetti Superconducting Bridges Track Qubit Temperature With Millikelvin Precision",
+          "url": "https://quantumzeitgeist.com/rigetti-computing-superconducting-qubit-temperature-bridges"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://www.energy.gov/science/articles/quantum-palm-your-hand-evolution-superconducting-qubits",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "title": "Quantum in the Palm of Your Hand: The Evolution of Superconducting Qubits",
+          "url": "https://www.energy.gov/science/articles/quantum-palm-your-hand-evolution-superconducting-qubits"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
-      "importance": "high",
-      "latest_seen": "2026-07-28",
+      "importance": "critical",
+      "latest_seen": "2026-07-29",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
-        "The Quantum Insider",
         "QuantumNews.ai",
+        "The Quantum Insider",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 28,
-      "recent_count": 26,
+      "prior_count": 26,
+      "recent_count": 29,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -2923,12 +3022,30 @@
           "source": "The Quantum Insider",
           "title": "Four Quantum Companies Sign-on to New Mexico\u2019s Open-Access Quantum Network",
           "url": "https://thequantuminsider.com/2026/07/28/four-quantum-companies-sign-on-to-new-mexicos-open-access-quantum-network"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://www.insidequantumtechnology.com/news-archive/iqt-the-quantum-dragon-podcast-episode-87-your-entropy-isnt-random-enough",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 39,
+          "source": "QuantumNews.ai",
+          "title": "IQT The Quantum Dragon Podcast Episode 87 \u2013 Your entropy isn't random enough.",
+          "url": "https://www.insidequantumtechnology.com/news-archive/iqt-the-quantum-dragon-podcast-episode-87-your-entropy-isnt-random-enough"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://thequantuminsider.com/2026/07/29/qed-c-roadmap-future-quantum-networks",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 61,
+          "source": "The Quantum Insider",
+          "title": "QED-C Roadmap Outlines Technology Requirements for Future Quantum Networks",
+          "url": "https://thequantuminsider.com/2026/07/29/qed-c-roadmap-future-quantum-networks"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "high",
-      "latest_seen": "2026-07-28",
+      "latest_seen": "2026-07-29",
       "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
@@ -2936,8 +3053,8 @@
         "The Quantum Insider",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 13,
-      "recent_count": 7,
+      "prior_count": 12,
+      "recent_count": 8,
       "status": "watching"
     },
     "Quantum Sensing": {
@@ -3590,12 +3707,30 @@
           "source": "Quantum Zeitgeist",
           "title": "CEICO Researchers Map Entanglement Across Distinct CFT Theories",
           "url": "https://quantumzeitgeist.com/ceico-map-entanglement-across-distinct"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumzeitgeist.com/entanglement-charmonium-blfq-calculates-bottomonium",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 30,
+          "source": "Quantum Zeitgeist",
+          "title": "BLFQ Calculates Entanglement in Charmonium and Bottomonium",
+          "url": "https://quantumzeitgeist.com/entanglement-charmonium-blfq-calculates-bottomonium"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumzeitgeist.com/superconducting-qudits-grovers-algorithm-multilevel-systems",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 33,
+          "source": "Quantum Zeitgeist",
+          "title": "Superconducting Quantum Materials and Systems (SQMS) Center: Researchers Extend Grover\u2019s Search to More Efficient Multilevel Quantum Systems",
+          "url": "https://quantumzeitgeist.com/superconducting-qudits-grovers-algorithm-multilevel-systems"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "high",
-      "latest_seen": "2026-07-27",
+      "latest_seen": "2026-07-29",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -3604,8 +3739,8 @@
         "AWS Quantum Technologies Blog",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 10,
-      "recent_count": 9,
+      "prior_count": 9,
+      "recent_count": 8,
       "status": "watching"
     },
     "Standards / Government": {
@@ -3663,6 +3798,6 @@
       "status": "actionable"
     }
   },
-  "updated_at": "2026-07-29T02:09:41.299720+00:00",
+  "updated_at": "2026-07-30T01:07:25.734175+00:00",
   "version": 1
 }

@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Standards Timeline](standards-timeline.md) · [Entity Watch](entity-watch.md)
 
-_Updated 2026-07-30 00:30 UTC_
+_Updated 2026-07-30 00:56 UTC_
 
 Named, cross-agency or cross-sector federal science and technology missions, initiatives, and national efforts relevant to quantum technology, AI, cybersecurity, energy, discovery science, and national security. Routine agency mission statements and unrelated operational missions are excluded.
 
@@ -24,11 +24,11 @@ Build an integrated American Science and Security Platform connecting federal sc
 - Next milestone: **2026-07-22 — Review federal robotic and AI-directed laboratory capabilities**
 
 Recent official updates:
-- 2026-07-22 — [DOE reports more than $800 million in partner commitments](https://www.energy.gov/undersecretaryforscience/articles/us-department-energy-announces-more-800-million-partner)
-- 2026-06-04 — [United States and Japan announce a $1 billion Genesis Mission partnership](https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps)
-- 2026-03-17 — [DOE announces $293 million for Genesis Mission challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science)
-- 2026-02-12 — [DOE announces 26 national science and technology challenges](https://www.energy.gov/undersecretaryforscience/articles/energy-department-announces-26-genesis-mission-science-and)
-- 2025-11-24 — [Executive Order 14363 launches the Genesis Mission](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/)
+- 2026-07-30 — [Genesis Mission Workforce Development RFI Summary](https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf)
+- 2026-07-30 — [Genesis Mission University Summit Report](https://www.energy.gov/sites/default/files/2026-07/Genesis-University-Summit-Breakout-Summaries-Report.pdf)
+- 2026-07-30 — [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf)
+- 2026-07-29 — [United States and Japan Announce Historic $1 Billion Partnership Under President Trump’s Genesis Mission](https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps)
+- 2026-07-29 — [U.S. Department of Energy Announces More Than $800 Million in Partner Commitments to the Genesis Mission](https://www.energy.gov/undersecretaryforscience/articles/us-department-energy-announces-more-800-million-partner)
 
 ### [QC-ADDS](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/)
 

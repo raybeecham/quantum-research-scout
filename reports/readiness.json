@@ -737,16 +737,31 @@
     },
     {
       "confidence": "medium",
-      "evidence_count": 2,
+      "evidence_count": 3,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-07-09",
+      "latest_evidence_at": "2026-07-29",
       "name": "Cloudflare",
       "priority": "high",
-      "source_count": 1,
+      "source_count": 2,
       "stage": "awareness",
       "stage_label": "Awareness",
       "stage_rank": 1,
       "supporting_evidence": [
+        {
+          "date": "2026-07-29",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cloudflare Blog",
+          "title": "Post-quantum authentication to origins is now supported",
+          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
+        },
         {
           "date": "2026-07-09",
           "date_confidence": "unknown",
@@ -949,6 +964,36 @@
       "confidence": "low",
       "evidence_count": 1,
       "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-07-29",
+      "name": "IBM",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-07-29",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuantumNews.ai",
+          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
+          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 0,
       "latest_evidence_at": "2026-07-27",
       "name": "PQCA",
       "priority": "high",
@@ -974,6 +1019,36 @@
         }
       ],
       "type": "consortium"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-07-29",
+      "name": "Quantinuum",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-07-29",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuantumNews.ai",
+          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
+          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
+        }
+      ],
+      "type": "company"
     },
     {
       "confidence": "low",
@@ -1109,20 +1184,6 @@
       "historical_evidence_count": 0,
       "latest_evidence_at": null,
       "name": "Google Quantum AI",
-      "priority": "high",
-      "source_count": 0,
-      "stage": "not_assessed",
-      "stage_label": "Not assessed",
-      "stage_rank": 0,
-      "supporting_evidence": [],
-      "type": "company"
-    },
-    {
-      "confidence": "none",
-      "evidence_count": 0,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": null,
-      "name": "IBM",
       "priority": "high",
       "source_count": 0,
       "stage": "not_assessed",
@@ -1304,20 +1365,6 @@
       "evidence_count": 0,
       "historical_evidence_count": 0,
       "latest_evidence_at": null,
-      "name": "Quantinuum",
-      "priority": "high",
-      "source_count": 0,
-      "stage": "not_assessed",
-      "stage_label": "Not assessed",
-      "stage_rank": 0,
-      "supporting_evidence": [],
-      "type": "company"
-    },
-    {
-      "confidence": "none",
-      "evidence_count": 0,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": null,
       "name": "Rigetti",
       "priority": "medium",
       "source_count": 0,
@@ -1371,17 +1418,17 @@
     }
   ],
   "summary": {
-    "assessed": 17,
+    "assessed": 19,
     "by_stage": {
-      "awareness": 9,
+      "awareness": 11,
       "inventory": 1,
-      "not_assessed": 26,
+      "not_assessed": 24,
       "pilot": 2,
       "planning": 5
     },
-    "not_assessed": 26,
+    "not_assessed": 24,
     "organizations": 43
   },
-  "updated_at": "2026-07-29T02:09:41.636623+00:00",
+  "updated_at": "2026-07-30T01:07:26.086882+00:00",
   "version": 1
 }

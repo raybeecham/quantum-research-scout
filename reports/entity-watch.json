@@ -236,8 +236,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 2,
-      "first_party_evidence_count": 2,
+      "evidence_count": 3,
+      "first_party_evidence_count": 3,
       "name": "Cloudflare",
       "priority": "high",
       "status": "covered",
@@ -353,7 +353,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 10,
+      "evidence_count": 11,
       "first_party_evidence_count": 0,
       "name": "IBM",
       "priority": "high",
@@ -407,8 +407,8 @@
           "type": "rss"
         }
       ],
-      "evidence_count": 16,
-      "first_party_evidence_count": 13,
+      "evidence_count": 17,
+      "first_party_evidence_count": 14,
       "name": "Keyfactor",
       "priority": "high",
       "status": "covered",
@@ -556,7 +556,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 2,
+      "evidence_count": 3,
       "first_party_evidence_count": 0,
       "name": "Quantinuum",
       "priority": "high",
@@ -694,7 +694,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 0,
+      "evidence_count": 1,
       "first_party_evidence_count": 0,
       "name": "Rigetti",
       "priority": "medium",
@@ -1240,8 +1240,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 6,
+      "current_evidence_count": 7,
       "evidence": [
+        {
+          "date": "2026-07-29",
+          "key": "https://www.keyfactor.com/education-center/what-is-cryptographic-key-management-complete-guide",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 30,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "What Is Cryptographic Key Management? | Complete Guide",
+          "url": "https://www.keyfactor.com/education-center/what-is-cryptographic-key-management-complete-guide"
+        },
         {
           "date": "2026-07-28",
           "key": "https://www.keyfactor.com/events/building-crypto-agility-for-financial-services",
@@ -1555,15 +1567,15 @@
           "url": "https://www.keyfactor.com/blog_categories/post-quantum-cryptography/"
         }
       ],
-      "evidence_count": 16,
+      "evidence_count": 17,
       "first_seen": "2025-12-29",
       "historical_evidence_count": 10,
-      "latest_seen": "2026-07-28",
+      "latest_seen": "2026-07-29",
       "momentum": "rising",
       "name": "Keyfactor",
-      "prior_count": 0,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 5,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -1576,8 +1588,20 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 10,
+      "current_evidence_count": 11,
       "evidence": [
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 60,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
+          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
+        },
         {
           "date": "2026-07-27",
           "key": "https://quantumnews.ai/hardware/ibm-heron-vs-room-temp-photonics-superconducting-qubit-integration",
@@ -1699,17 +1723,18 @@
           "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
         }
       ],
-      "evidence_count": 10,
+      "evidence_count": 11,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-27",
+      "latest_seen": "2026-07-29",
       "momentum": "declining",
       "name": "IBM",
-      "prior_count": 4,
+      "prior_count": 3,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
+        "PQC / Crypto Agility",
         "Quantum Hardware",
         "Quantum Networking",
         "Quantum Software / Tooling"
@@ -1932,11 +1957,11 @@
       "first_seen": "2026-07-22",
       "historical_evidence_count": 8,
       "latest_seen": "2026-07-22",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "QuEra",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -2148,11 +2173,11 @@
       "first_seen": "2025-02-26",
       "historical_evidence_count": 8,
       "latest_seen": "2026-07-22",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "PsiQuantum",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -2305,9 +2330,9 @@
       "first_seen": "2025-07-19",
       "historical_evidence_count": 4,
       "latest_seen": "2026-07-25",
-      "momentum": "stable",
+      "momentum": "rising",
       "name": "QuSecure",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -2818,8 +2843,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 2,
+      "current_evidence_count": 3,
       "evidence": [
+        {
+          "date": "2026-07-29",
+          "key": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 55,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post-quantum authentication to origins is now supported",
+          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
+        },
         {
           "date": "2026-07-09",
           "key": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
@@ -2845,18 +2882,76 @@
           "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
         }
       ],
-      "evidence_count": 2,
+      "evidence_count": 3,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-09",
-      "momentum": "stable",
+      "latest_seen": "2026-07-29",
+      "momentum": "rising",
       "name": "Cloudflare",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 3,
+      "evidence": [
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 60,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
+          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
+        },
+        {
+          "date": "2026-07-20",
+          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
+          "report": "2026-07/2026-07-20-digest.md",
+          "score": 14,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
+          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://quantumzeitgeist.com/quantinuum-qnt",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 45,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum (QNT): A Commercial History",
+          "url": "https://quantumzeitgeist.com/quantinuum-qnt"
+        }
+      ],
+      "evidence_count": 3,
+      "first_seen": "2026-06-22",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-07-29",
+      "momentum": "stable",
+      "name": "Quantinuum",
+      "prior_count": 1,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Hardware"
       ],
       "type": "company"
     },
@@ -3020,9 +3115,9 @@
       "first_seen": "2026-06-25",
       "historical_evidence_count": 0,
       "latest_seen": "2026-07-15",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "ISO/IEC",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -3169,51 +3264,6 @@
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 2,
-      "evidence": [
-        {
-          "date": "2026-07-20",
-          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
-          "report": "2026-07/2026-07-20-digest.md",
-          "score": 14,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
-          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
-        },
-        {
-          "date": "2026-06-22",
-          "key": "https://quantumzeitgeist.com/quantinuum-qnt",
-          "report": "2026-06/2026-06-22-digest.md",
-          "score": 45,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum (QNT): A Commercial History",
-          "url": "https://quantumzeitgeist.com/quantinuum-qnt"
-        }
-      ],
-      "evidence_count": 2,
-      "first_seen": "2026-06-22",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-07-20",
-      "momentum": "declining",
-      "name": "Quantinuum",
-      "prior_count": 1,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
-      "themes": [
-        "Quantum Hardware"
       ],
       "type": "company"
     },
@@ -3645,9 +3695,9 @@
       "latest_seen": "2026-07-28",
       "momentum": "rising",
       "name": "Infleqtion",
-      "prior_count": 1,
+      "prior_count": 3,
       "priority": "medium",
-      "recent_count": 7,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -3773,9 +3823,9 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-07-24",
-      "momentum": "stable",
+      "momentum": "rising",
       "name": "Pasqal",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "medium",
       "recent_count": 1,
       "status": "active",
@@ -3847,13 +3897,46 @@
       "latest_seen": "2026-07-20",
       "momentum": "declining",
       "name": "AWS",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "medium",
       "recent_count": 0,
       "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Software / Tooling"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
+      "evidence": [
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumzeitgeist.com/rigetti-computing-superconducting-qubit-temperature-bridges",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 50,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Rigetti Superconducting Bridges Track Qubit Temperature With Millikelvin Precision",
+          "url": "https://quantumzeitgeist.com/rigetti-computing-superconducting-qubit-temperature-bridges"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2026-07-29",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-07-29",
+      "momentum": "rising",
+      "name": "Rigetti",
+      "prior_count": 0,
+      "priority": "medium",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "Quantum Hardware"
       ],
       "type": "company"
     }
@@ -3867,8 +3950,20 @@
         "cryptographic inventory"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 5,
+      "current_evidence_count": 6,
       "evidence": [
+        {
+          "date": "2026-07-29",
+          "key": "https://www.keyfactor.com/education-center/what-is-cryptographic-key-management-complete-guide",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 30,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "What Is Cryptographic Key Management? | Complete Guide",
+          "url": "https://www.keyfactor.com/education-center/what-is-cryptographic-key-management-complete-guide"
+        },
         {
           "date": "2026-07-28",
           "key": "https://www.keyfactor.com/events/building-crypto-agility-for-financial-services",
@@ -4338,13 +4433,13 @@
           "url": "https://www.keyfactor.com/blog_categories/post-quantum-cryptography/"
         }
       ],
-      "evidence_count": 22,
+      "evidence_count": 23,
       "first_seen": "2025-08-06",
       "historical_evidence_count": 17,
-      "latest_seen": "2026-07-28",
+      "latest_seen": "2026-07-29",
       "momentum": "rising",
       "name": "Crypto-agility",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "critical",
       "recent_count": 3,
       "status": "active",
@@ -4360,8 +4455,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 17,
+      "current_evidence_count": 18,
       "evidence": [
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumcomputingreport.com/riverlane-and-unitary-foundation-launch-deltakit-community-fund-for-open-source-qec",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 51,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Riverlane and Unitary Foundation Launch Deltakit Community Fund for Open-Source QEC",
+          "url": "https://quantumcomputingreport.com/riverlane-and-unitary-foundation-launch-deltakit-community-fund-for-open-source-qec"
+        },
         {
           "date": "2026-07-28",
           "key": "https://thequantuminsider.com/2026/07/28/riverlane-unitary-foundation-deltakit-community-fund",
@@ -4567,10 +4674,10 @@
           "url": "https://quantumzeitgeist.com/what-is-the-surface-code"
         }
       ],
-      "evidence_count": 17,
+      "evidence_count": 18,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-28",
+      "latest_seen": "2026-07-29",
       "momentum": "stable",
       "name": "Quantum error correction",
       "prior_count": 4,
@@ -4984,11 +5091,11 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 1,
       "latest_seen": "2026-07-23",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Quantum key distribution",
-      "prior_count": 2,
+      "prior_count": 3,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -5322,13 +5429,6 @@
       "name": "Intel Quantum",
       "priority": "medium",
       "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "name": "Rigetti",
-      "priority": "medium",
-      "type": "company"
     }
   ],
   "unseen_technologies": [
@@ -5373,6 +5473,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-07-29T02:09:41.304721+00:00",
+  "updated_at": "2026-07-30T01:07:25.739027+00:00",
   "version": 2
 }

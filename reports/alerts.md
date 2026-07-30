@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-29 02:09 UTC_
+_Updated 2026-07-30 01:07 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 35 | 0 | 3 | 11 | 21 |
+| 41 | 8 | 9 | 11 | 21 |
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
@@ -24,12 +24,54 @@ _Updated 2026-07-29 02:09 UTC_
 - 🔴 QEC / Fault Tolerance has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
+## 🔴 Critical theme: Quantum Hardware 🆕
+
+- Severity: **critical**
+- Status: **critical**
+- 🔴 Quantum Hardware has critical strategic importance and stable momentum.
+- [Open supporting view](signals.md)
+
 ## 🔴 Critical theme: Standards / Government
 
 - Severity: **critical**
 - Status: **critical**
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
+
+## 🔴 Source failing: Distributed Sensing and Smart Dust Patents 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: Post-Quantum Cryptography Patents 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: Quantum Computing Patents 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: Quantum Networking and Sensing Patents 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: Strategic AI Systems Patents 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
 
@@ -70,7 +112,7 @@ _Updated 2026-07-29 02:09 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 27 versus 8 in the prior period.
+- ↗️ Recent evidence is 28 versus 8 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: QEC / Fault Tolerance
@@ -98,14 +140,14 @@ _Updated 2026-07-29 02:09 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 88.9% reliability with 1 warning day(s).
+- 🟠 90.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 88.9% reliability with 1 warning day(s).
+- 🟠 90.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Rising momentum: AI Security
@@ -157,13 +199,6 @@ _Updated 2026-07-29 02:09 UTC_
 - The latest dated item is from 2025-09-11; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Cloudflare Post-Quantum Blog
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-07-09; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
 ## 🟡 Source stale: DigiCert Blog
 
 - Severity: **medium**
@@ -185,13 +220,6 @@ _Updated 2026-07-29 02:09 UTC_
 - The latest dated item is from 2026-06-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Fortanix Quantum Security
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-03-30; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
 ## 🟡 Source stale: Google Security Blog
 
 - Severity: **medium**
@@ -211,6 +239,13 @@ _Updated 2026-07-29 02:09 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2023-06-15; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Lockheed Martin Quantum Technology 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-07-14; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: NCSC UK Guidance
@@ -253,4 +288,11 @@ _Updated 2026-07-29 02:09 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-15; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: White House Science and Technology Missions 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-06-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
