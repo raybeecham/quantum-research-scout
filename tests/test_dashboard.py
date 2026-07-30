@@ -195,6 +195,8 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("Decision-ready intelligence", html)
         self.assertNotIn("Fresh intelligence", html)
         self.assertNotIn("89 tracked", html)
+        self.assertIn("--bg:#0b1020", styles)
+        self.assertIn("--surface:#151d32", styles)
         self.assertIn("prefers-reduced-motion:reduce", styles)
         self.assertIn("setupReveal", script)
         self.assertIn("animateMetrics", script)
