@@ -14,66 +14,78 @@
       <a class="brand" href="#top"><span class="brand-mark">Q</span><span>Quantum Research Scout</span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-links"><span></span><span></span><span></span><b>Menu</b></button>
       <div id="primary-links" class="nav-links">
-        <a href="#reports">Reports</a><a href="#alerts">Alerts</a><a href="#signals">Signals</a><a href="#patents">Patents</a><a href="#watch">Watch</a><a href="#advanced">Advanced</a>
+        <a href="#briefing">Briefing</a><a href="#explore">Explore</a><a href="#advanced">Methods</a>
         <a id="repo-link" class="button secondary" href="#">Repository</a>
       </div>
     </nav>
     <div id="top" class="hero-content shell">
       <div>
-        <p class="eyebrow">PQC · QUANTUM TECHNOLOGY · PATENTS · AI SECURITY</p>
-        <h1>See what is changing,<br><span>before it becomes obvious.</span></h1>
-        <p class="hero-copy">A focused intelligence view of the latest reports, urgent conditions, persistent signals, and early patent activity.</p>
-        <a class="button hero-button" href="#reports">Open latest reports</a>
+        <p class="eyebrow">DAILY QUANTUM & SECURITY INTELLIGENCE</p>
+        <h1>The signal,<br><span>without the noise.</span></h1>
+        <p class="hero-copy">Start with the newest research and the three conditions that deserve attention. Open the deeper tracker only when you need it.</p>
+        <a id="hero-report-link" class="button hero-button" href="#reports">Read the latest digest</a>
       </div>
     </div>
   </header>
 
   <main class="shell">
-    <section class="metrics" aria-label="Dashboard summary">
-      <article><span>Active alerts</span><strong id="metric-alerts">—</strong><small id="metric-alerts-detail">new conditions</small></article>
-      <article><span>Actionable</span><strong id="metric-actionable">—</strong><small>signals requiring attention</small></article>
-      <article><span>Critical</span><strong id="metric-critical">—</strong><small>highest-importance themes</small></article>
-      <article><span>Patent activity</span><strong id="metric-patents">—</strong><small id="metric-patents-detail">publications in 30 days</small></article>
+    <section id="briefing" class="metrics" aria-label="Dashboard summary">
+      <article><span>New alerts</span><strong id="metric-alerts">—</strong><small id="metric-alerts-detail">active overall</small></article>
+      <article><span>Actionable signals</span><strong id="metric-actionable">—</strong><small>need near-term review</small></article>
+      <article><span>Critical themes</span><strong id="metric-critical">—</strong><small>highest importance</small></article>
+      <article><span>Recent patents</span><strong id="metric-patents">—</strong><small id="metric-patents-detail">published in 30 days</small></article>
     </section>
 
-    <section id="reports" class="section reports-section priority-section">
-      <div class="section-heading"><div><p class="eyebrow">START HERE</p><h2>Latest reports</h2></div><p class="updated">Daily detail · Weekly synthesis · Monthly perspective</p></div>
-      <div id="report-cards" class="report-cards"></div>
-    </section>
-
-    <section id="alerts" class="section alerts-section">
-      <div class="section-heading"><div><p class="eyebrow">ALERT CENTER</p><h2>What needs attention</h2></div><p id="alert-summary" class="updated"></p></div>
-      <div id="alert-list" class="alert-list" aria-live="polite"></div>
-      <a id="alerts-report-link" class="section-link" href="#">Open the complete alert center →</a>
-    </section>
-
-    <section id="signals" class="section">
-      <div class="section-heading"><div><p class="eyebrow">STRATEGIC RADAR</p><h2>Priority signals</h2></div><p id="signal-updated" class="updated"></p></div>
-      <div class="toolbar">
-        <label class="search"><span>Search</span><input id="signal-search" type="search" placeholder="Theme, organization, or evidence…"></label>
-        <div id="status-filters" class="filters" aria-label="Signal status filters">
-          <button class="active" data-status="priority">Priority</button><button data-status="actionable">Actionable</button><button data-status="watching">Watching</button><button data-status="all">All</button>
-        </div>
+    <section id="reports" class="section briefing-section priority-section">
+      <div class="section-heading"><div><p class="eyebrow">START HERE</p><h2>Today’s briefing</h2></div><p class="updated">Latest research and highest-priority conditions</p></div>
+      <div class="briefing-grid">
+        <article class="briefing-panel reports-panel">
+          <div class="panel-heading"><div><span class="panel-kicker">REPORTS</span><h3>Newest research</h3></div><span>Daily · Weekly · Monthly</span></div>
+          <div id="report-cards" class="report-cards"></div>
+        </article>
+        <article id="alerts" class="briefing-panel alerts-panel">
+          <div class="panel-heading"><div><span class="panel-kicker">ATTENTION</span><h3>Top conditions</h3></div><span id="alert-summary"></span></div>
+          <div id="alert-list" class="alert-list" aria-live="polite"></div>
+          <a id="alerts-report-link" class="section-link" href="#">View the complete alert center →</a>
+        </article>
       </div>
-      <div id="signal-grid" class="signal-grid" aria-live="polite"></div>
     </section>
 
-    <section id="patents" class="section patents-section">
-      <div class="section-heading"><div><p class="eyebrow">EARLY IP SIGNALS</p><h2>Patent intelligence</h2></div><p id="patent-summary" class="updated"></p></div>
-      <p class="section-note">Publications indicate technical investment and IP positioning. They do not prove implementation, validity, commercial readiness, infringement, or freedom to operate.</p>
-      <div id="patent-grid" class="patent-grid" aria-live="polite"></div>
-      <a id="patent-report-link" class="section-link" href="#">Open the complete patent ledger →</a>
-    </section>
+    <details id="explore" class="advanced-analysis explore-analysis">
+      <summary>
+        <div><p class="eyebrow">EXPLORE ON DEMAND</p><h2>Signals, patents, and watchlists</h2><p>Search the full evidence radar, early IP activity, organizations, and technologies.</p></div>
+        <span>Open tracker</span>
+      </summary>
+      <div class="advanced-content">
+        <section id="signals" class="section">
+          <div class="section-heading"><div><p class="eyebrow">STRATEGIC RADAR</p><h2>Priority signals</h2></div><p id="signal-updated" class="updated"></p></div>
+          <div class="toolbar">
+            <label class="search"><span>Search</span><input id="signal-search" type="search" placeholder="Theme, organization, or evidence…"></label>
+            <div id="status-filters" class="filters" aria-label="Signal status filters">
+              <button class="active" data-status="priority">Priority</button><button data-status="actionable">Actionable</button><button data-status="watching">Watching</button><button data-status="all">All</button>
+            </div>
+          </div>
+          <div id="signal-grid" class="signal-grid" aria-live="polite"></div>
+        </section>
 
-    <section id="watch" class="section watch-section">
-      <div class="section-heading"><div><p class="eyebrow">ENTITY WATCH</p><h2>Organizations and technologies</h2></div><div id="watch-tabs" class="filters" aria-label="Watchlist type"><button data-watch="entities" class="active">Organizations</button><button data-watch="technologies">Technologies</button></div></div>
-      <div id="watch-grid" class="watch-grid" aria-live="polite"></div>
-    </section>
+        <section id="patents" class="section patents-section">
+          <div class="section-heading"><div><p class="eyebrow">EARLY IP SIGNALS</p><h2>Patent intelligence</h2></div><p id="patent-summary" class="updated"></p></div>
+          <p class="section-note">Publications indicate technical investment and IP positioning. They do not prove implementation, validity, commercial readiness, infringement, or freedom to operate.</p>
+          <div id="patent-grid" class="patent-grid" aria-live="polite"></div>
+          <a id="patent-report-link" class="section-link" href="#">Open the complete patent ledger →</a>
+        </section>
+
+        <section id="watch" class="section watch-section">
+          <div class="section-heading"><div><p class="eyebrow">ENTITY WATCH</p><h2>Organizations and technologies</h2></div><div id="watch-tabs" class="filters" aria-label="Watchlist type"><button data-watch="entities" class="active">Organizations</button><button data-watch="technologies">Technologies</button></div></div>
+          <div id="watch-grid" class="watch-grid" aria-live="polite"></div>
+        </section>
+      </div>
+    </details>
 
     <details id="advanced" class="advanced-analysis">
       <summary>
-        <div><p class="eyebrow">DEEPER ANALYSIS</p><h2>Advanced analysis & collection operations</h2><p>Definitions, evidence trends, readiness, standards, comparisons, coverage, and source health.</p></div>
-        <span>Open analysis</span>
+        <div><p class="eyebrow">RESEARCH & METHODS</p><h2>Analysis and collection details</h2><p>Definitions, evidence trends, readiness, standards, comparisons, coverage, and source health.</p></div>
+        <span>Open methods</span>
       </summary>
       <div class="advanced-content">
         <section id="guide" class="section guide-section">

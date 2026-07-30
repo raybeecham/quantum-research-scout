@@ -137,14 +137,17 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("renderStandards", script)
         self.assertIn("historical", profile)
 
-    def test_dashboard_prioritizes_core_views_and_collapses_advanced_analysis(self) -> None:
+    def test_dashboard_prioritizes_briefing_and_collapses_deeper_views(self) -> None:
         root = Path(__file__).parents[1]
         html = (root / "dashboard" / "index.html").read_text(encoding="utf-8")
         script = (root / "dashboard" / "app.js").read_text(encoding="utf-8")
 
+        self.assertIn('<details id="explore"', html)
         self.assertIn('<details id="advanced"', html)
         self.assertIn('id="patents"', html)
         self.assertLess(html.index('id="reports"'), html.index('id="advanced"'))
         self.assertIn('status: "priority"', script)
         self.assertIn("renderPatents", script)
-        self.assertIn("alerts.slice(0, 6)", script)
+        self.assertIn("alerts.slice(0, 3)", script)
+        self.assertIn("friendlyReportName", script)
+        self.assertIn("revealHashSection", script)

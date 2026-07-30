@@ -21,6 +21,27 @@ const formatShortDate = value => {
   const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(text);
   return new Intl.DateTimeFormat(undefined,{dateStyle:"medium",...(dateOnly ? {timeZone:"UTC"} : {})}).format(new Date(dateOnly ? `${text}T00:00:00Z` : text));
 };
+const friendlyReportName = (name, type) => {
+  const value = String(name || "");
+  const daily = value.match(/^(\d{4}-\d{2}-\d{2})-digest$/);
+  if (type === "DAILY" && daily) return formatShortDate(daily[1]);
+  const weekly = value.match(/^(\d{4}-\d{2}-\d{2})_to_(\d{4}-\d{2}-\d{2})-weekly$/);
+  if (type === "WEEKLY" && weekly) {
+    const start = new Date(`${weekly[1]}T00:00:00Z`);
+    const end = new Date(`${weekly[2]}T00:00:00Z`);
+    const sameMonth = start.getUTCFullYear() === end.getUTCFullYear() && start.getUTCMonth() === end.getUTCMonth();
+    if (sameMonth) {
+      const month = new Intl.DateTimeFormat(undefined,{month:"long",timeZone:"UTC"}).format(start);
+      return `${month} ${start.getUTCDate()}–${end.getUTCDate()}, ${end.getUTCFullYear()}`;
+    }
+    return `${formatShortDate(weekly[1])} – ${formatShortDate(weekly[2])}`;
+  }
+  const monthly = value.match(/^(\d{4})-(\d{2})-monthly$/);
+  if (type === "MONTHLY" && monthly) {
+    return new Intl.DateTimeFormat(undefined,{month:"long",year:"numeric",timeZone:"UTC"}).format(new Date(`${monthly[1]}-${monthly[2]}-01T00:00:00Z`));
+  }
+  return value.replaceAll("_", " ").replace(/-(digest|weekly|monthly)$/i, "");
+};
 const profileUrl = (name, kind="entities") => `entity.html?name=${encodeURIComponent(name)}&kind=${encodeURIComponent(kind)}`;
 
 fetch("data/dashboard.json?v=__ASSET_VERSION__").then(response => {
@@ -36,12 +57,13 @@ function render(){
   const patentPayload = state.data.patents || { patents: [], summary: {} };
   document.getElementById("repo-link").href = safeUrl(state.data.repository_url);
   document.getElementById("alerts-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/alerts.md`);
+  document.getElementById("hero-report-link").href = safeUrl(state.data.reports?.latest_daily?.url || "#reports");
   document.getElementById("metric-actionable").textContent = themes.filter(x => x.status === "actionable").length;
   document.getElementById("metric-critical").textContent = themes.filter(x => x.importance === "critical").length;
   const healthy = sources.filter(x => x.status === "healthy").length;
   const alerts = state.data.alerts || { alerts: [], active_count: 0, new_count: 0 };
-  document.getElementById("metric-alerts").textContent = alerts.active_count || 0;
-  document.getElementById("metric-alerts-detail").textContent = `${alerts.new_count || 0} new condition${alerts.new_count === 1 ? "" : "s"}`;
+  document.getElementById("metric-alerts").textContent = alerts.new_count || 0;
+  document.getElementById("metric-alerts-detail").textContent = `${alerts.active_count || 0} active overall`;
   document.getElementById("metric-patents").textContent = patentPayload.summary?.last_30_days || 0;
   document.getElementById("metric-patents-detail").textContent = `${patentPayload.summary?.total || 0} tracked publication${patentPayload.summary?.total === 1 ? "" : "s"}`;
   document.getElementById("signal-updated").textContent = `Updated ${formatDate(state.data.signals.updated_at)}`;
@@ -81,7 +103,7 @@ function renderTrend(){
 function renderAlerts(payload){
   const alerts = payload.alerts || [];
   document.getElementById("alert-summary").textContent = `${payload.active_count || 0} active · ${payload.new_count || 0} new`;
-  document.getElementById("alert-list").innerHTML = alerts.length ? alerts.slice(0, 6).map(item =>
+  document.getElementById("alert-list").innerHTML = alerts.length ? alerts.slice(0, 3).map(item =>
     `<article class="alert-item ${escapeHtml(item.severity)}"><span class="badge ${escapeHtml(item.severity)}">${escapeHtml(item.severity)}</span><div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.summary)}</p></div><div>${item.is_new ? '<span class="new-tag">NEW</span> ' : ''}${item.evidence_url ? `<a href="${escapeHtml(safeUrl(item.evidence_url))}" target="_blank" rel="noopener">Evidence →</a> ` : ''}<a href="${escapeHtml(safeUrl(state.data.repository_url + '/blob/main/reports/' + item.link))}">Profile →</a></div></article>`
   ).join("") : "<p>No active alerts.</p>";
 }
@@ -210,7 +232,7 @@ function renderSources(sources){
 
 function renderReports(reports){
   const cards = [["DAILY",reports.latest_daily],["WEEKLY",reports.latest_weekly],["MONTHLY",reports.latest_monthly]].filter(([,item]) => item);
-  document.getElementById("report-cards").innerHTML = cards.map(([type,item]) => `<a class="report-card" href="${escapeHtml(safeUrl(item.url))}"><span>${type}</span><h3>${escapeHtml(item.name)}</h3></a>`).join("");
+  document.getElementById("report-cards").innerHTML = cards.map(([type,item]) => `<a class="report-card" href="${escapeHtml(safeUrl(item.url))}"><span>${type}</span><h3>${escapeHtml(friendlyReportName(item.name, type))}</h3></a>`).join("");
 }
 
 document.getElementById("signal-search").addEventListener("input", event => { state.query = event.target.value; if(state.data) renderSignals(); });
@@ -226,3 +248,11 @@ const closeNav = () => { navLinks?.classList.remove("open"); navToggle?.setAttri
 navToggle?.addEventListener("click", () => { const open = navLinks.classList.toggle("open"); navToggle.setAttribute("aria-expanded", String(open)); });
 navLinks?.addEventListener("click", event => { if(event.target.closest("a")) closeNav(); });
 document.addEventListener("keydown", event => { if(event.key === "Escape") closeNav(); });
+
+const revealHashSection = () => {
+  if (!window.location.hash) return;
+  const target = document.querySelector(window.location.hash);
+  for (let parent = target?.closest("details"); parent; parent = parent.parentElement?.closest("details")) parent.open = true;
+};
+window.addEventListener("hashchange", revealHashSection);
+revealHashSection();

@@ -56,3 +56,61 @@
 @media(max-width:800px){.metrics{grid-template-columns:repeat(2,1fr)}.nav{position:relative}.nav-toggle{display:flex}.nav-links{display:none;position:absolute;z-index:20;top:70px;right:0;left:0;align-items:stretch;flex-direction:column;gap:0;padding:10px;border:1px solid var(--line);border-radius:12px;background:#0c1923;box-shadow:var(--shadow)}.nav-links.open{display:flex}.nav-links>a,.nav-links>a:not(.button){display:block;padding:10px 12px}.nav-links .button{margin-top:5px;text-align:center}.profile-summary{grid-template-columns:repeat(2,1fr)}.profile-layout,.compare-results{grid-template-columns:1fr}.milestone-card{grid-template-columns:1fr}}
 @media(max-width:600px){.watch-grid,.patent-grid,.watch-more-grid{grid-template-columns:1fr}.trend-summary{gap:24px}.advanced-analysis>summary{align-items:flex-start;flex-direction:column;padding:22px}.advanced-content{padding:0 18px 22px}}
 @media(max-width:520px){.compare-controls{grid-template-columns:1fr}.compare-versus{padding:0;text-align:center}}
+
+/* The landing page is a briefing first; deeper tracker views stay available on demand. */
+.hero:not(.profile-hero){min-height:340px}
+.hero:not(.profile-hero) .nav{height:70px}
+.hero:not(.profile-hero) .hero-content{min-height:255px;padding-bottom:28px}
+.hero:not(.profile-hero) h1{font-size:clamp(38px,5vw,58px)}
+.hero:not(.profile-hero) .hero-copy{max-width:650px;margin:14px 0 17px;font-size:16px}
+#briefing.metrics{grid-template-columns:repeat(4,1fr);gap:0;margin-top:-25px;border:1px solid var(--line);border-radius:14px;background:var(--surface);box-shadow:0 18px 42px rgba(0,0,0,.2);overflow:hidden}
+#briefing.metrics article{padding:15px 20px;border:0;border-right:1px solid var(--line);border-radius:0;background:transparent;box-shadow:none}
+#briefing.metrics article:last-child{border-right:0}
+#briefing.metrics span{font-size:12px}
+#briefing.metrics strong{margin:1px 0;font-size:25px}
+#briefing.metrics small{font-size:11px}
+.briefing-section{padding-top:50px}
+.briefing-section>.section-heading{margin-bottom:18px}
+.briefing-grid{display:grid;grid-template-columns:minmax(320px,.8fr) minmax(0,1.2fr);gap:16px;align-items:start}
+.briefing-panel{padding:20px;border:1px solid var(--line);border-radius:14px;background:rgba(13,26,37,.72)}
+.panel-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:15px;margin-bottom:14px}
+.panel-heading h3{margin:2px 0 0;font-size:20px}
+.panel-heading>span{padding-top:4px;color:var(--muted);font-size:11px;text-align:right}
+.panel-kicker{color:var(--cyan);font-size:10px;font-weight:850;letter-spacing:.14em}
+.briefing-panel .report-cards{grid-template-columns:repeat(2,1fr);gap:9px}
+.briefing-panel .report-card{padding:15px 16px;border-radius:10px;background:var(--surface)}
+.briefing-panel .report-card:first-child{grid-column:1/-1;padding:20px;background:linear-gradient(145deg,var(--surface2),var(--surface))}
+.briefing-panel .report-card span{font-size:10px}
+.briefing-panel .report-card h3{margin-top:5px;font-size:15px}
+.briefing-panel .report-card:first-child h3{font-size:19px}
+.briefing-panel .alert-list{gap:8px}
+.briefing-panel .alert-item{grid-template-columns:auto 1fr auto;gap:11px;padding:11px 13px;border-radius:9px}
+.briefing-panel .alert-item h3{font-size:13px;line-height:1.35}
+.briefing-panel .alert-item p{font-size:11px;line-height:1.4}
+.briefing-panel .alert-item>div:last-child{display:flex;align-items:center;gap:8px;white-space:nowrap;font-size:11px}
+.briefing-panel .section-link{margin-top:13px;font-size:12px}
+.explore-analysis{margin-top:54px}
+#advanced{margin-top:14px}
+.explore-analysis>summary{background:linear-gradient(120deg,rgba(73,216,208,.035),transparent 55%)}
+.advanced-analysis>summary{padding:23px 25px}
+.advanced-analysis>summary h2{font-size:24px}
+.advanced-analysis>summary p:not(.eyebrow){font-size:13px}
+footer{margin-top:54px}
+
+@media(max-width:900px){
+  .briefing-grid{grid-template-columns:1fr}
+}
+@media(max-width:800px){
+  #briefing.metrics{grid-template-columns:repeat(2,1fr)}
+  #briefing.metrics article{border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+  #briefing.metrics article:nth-child(2n){border-right:0}
+  #briefing.metrics article:nth-last-child(-n+2){border-bottom:0}
+}
+@media(max-width:560px){
+  .hero:not(.profile-hero){min-height:365px}
+  .hero:not(.profile-hero) .hero-content{min-height:285px}
+  .briefing-panel .report-cards{grid-template-columns:1fr}
+  .briefing-panel .report-card:first-child{grid-column:auto}
+  .briefing-panel .alert-item{grid-template-columns:1fr}
+  .briefing-panel .alert-item>div:last-child{white-space:normal}
+}
