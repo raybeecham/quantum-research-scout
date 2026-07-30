@@ -192,6 +192,8 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn('class="live-pill"', html)
         self.assertIn('id="hero-patent-count"', html)
         self.assertIn('id="hero-mission-count"', html)
+        self.assertIn("Decision-ready intelligence", html)
+        self.assertNotIn("Fresh intelligence", html)
         self.assertNotIn("89 tracked", html)
         self.assertIn("prefers-reduced-motion:reduce", styles)
         self.assertIn("setupReveal", script)
