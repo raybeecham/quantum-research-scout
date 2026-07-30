@@ -87,8 +87,21 @@ class DashboardBuildTests(unittest.TestCase):
             (reports / "patents.json").write_text(
                 json.dumps(
                     {
-                        "summary": {"total": 1, "last_30_days": 1, "unique_assignees": 1},
-                        "patents": [{"publication_number": "US20260234567A1", "title": "PQC Patent"}],
+                        "summary": {
+                            "total": 1,
+                            "last_30_days": 1,
+                            "unique_assignees": 1,
+                            "curated_total": 1,
+                            "automated_total": 0,
+                        },
+                        "patents": [
+                            {
+                                "publication_number": "US20260234567A1",
+                                "title": "PQC Patent",
+                                "tracking_type": "curated",
+                                "assessment": "Verified analyst note.",
+                            }
+                        ],
                     }
                 ),
                 encoding="utf-8",
@@ -116,6 +129,7 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["federal_missions"]["missions"][0]["name"], "Genesis Mission")
             self.assertEqual(payload["historical_evidence"]["item_count"], 2)
             self.assertEqual(payload["patents"]["summary"]["total"], 1)
+            self.assertEqual(payload["patents"]["summary"]["curated_total"], 1)
             self.assertEqual(payload["patents"]["patents"][0]["publication_number"], "US20260234567A1")
             self.assertEqual(payload["signals"]["overall_trend"][0]["count"], 1)
             self.assertIn("github.com/example/repo/blob/main/reports/", payload["reports"]["latest_daily"]["url"])
@@ -161,6 +175,8 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertLess(html.index('id="reports"'), html.index('id="advanced"'))
         self.assertIn('status: "priority"', script)
         self.assertIn("renderPatents", script)
+        self.assertIn("patent-assessment", script)
+        self.assertIn("curated_total", script)
         self.assertIn("renderMissions", script)
         self.assertIn("alerts.slice(0, 3)", script)
         self.assertIn("friendlyReportName", script)

@@ -36,7 +36,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - Writes a deterministic monthly synthesis to `reports/monthly/YYYY/` and maintains `reports/README.md` as the archive index.
 - Maintains a persistent, deduplicated signal ledger in `reports/signals.json` with a human-readable momentum dashboard in `reports/signals.md`.
 - Maintains a relationship-aware federal mission tracker with official objectives, milestones, updates, and an automated queue for newly announced mission candidates.
-- Maintains a two-year patent-publication ledger in `reports/patents.json` with a readable landscape summary in `reports/patents.md`.
+- Maintains a curated notable-patent portfolio plus a rolling two-year automated publication ledger in `reports/patents.json`, with a readable landscape summary in `reports/patents.md`.
 - Maintains a bounded historical evidence ledger for official watch sources. Historical records enrich organization profiles but are explicitly excluded from alerts.
 - Scores each watched organization by the highest publicly evidenced PQC engagement stage: awareness, inventory, planning, pilot/testing, or production.
 - Tracks authoritative PQC standards, policy, procurement, and migration milestones with exact deadlines distinguished from planning estimates.
@@ -76,9 +76,11 @@ Daily collection and the weekly official-source backfill merge newly observed `.
 
 ## Patent Intelligence
 
-The scheduled collector runs bounded USPTO searches across post-quantum cryptography, quantum computing, quantum networking, and quantum sensing. Relevant publications receive the same topical-confidence gate and scoring controls as other evidence, appear in a dedicated daily and weekly report section, and merge into a durable two-year ledger. The dashboard highlights the six most recent tracked publications and links each item to its official Patent File Wrapper page.
+Patent intelligence has two layers. A curated portfolio in `sources.yaml` keeps strategically important patents visible even when they are older than the rolling discovery window or automated collection is unavailable. The initial portfolio covers Wells Fargo's airborne-capable smart-dust authentication patent and OpenAI's stateful-transformer patent. Each curated entry includes an analyst assessment that separates what the document actually describes from stronger claims that the patent record does not establish.
 
-Patent publications are treated as early evidence of technical investment and IP positioning—not as proof of implementation, validity, commercial readiness, infringement, or freedom to operate. The [USPTO Open Data Portal](https://data.uspto.gov/) requires registration and an API key. Store that key as the GitHub Actions repository secret `USPTO_ODP_API_KEY`; until it is present, patent collection is skipped quietly without generating a recurring source warning.
+The scheduled collector also runs bounded USPTO searches across post-quantum cryptography, quantum computing, quantum networking and sensing, strategic AI systems, and distributed sensing. Relevant publications receive the same topical-confidence gate and scoring controls as other evidence, appear in dedicated daily and weekly report sections, and merge into a rolling two-year ledger. The dashboard highlights the six most recent tracked publications and links each item to its patent record.
+
+Patent publications are treated as early evidence of technical investment and IP positioning—not as proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate. The curated portfolio works without credentials. Automated discovery through the [USPTO Open Data Portal](https://data.uspto.gov/) requires registration and an API key stored as the GitHub Actions repository secret `USPTO_ODP_API_KEY`; until it is present, automated collection is skipped quietly without generating a recurring source warning.
 
 ## Configurable Alerts
 

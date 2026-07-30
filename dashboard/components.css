@@ -29,8 +29,10 @@
 .patent-card{display:flex;flex-direction:column;padding:20px;border:1px solid var(--line);border-radius:13px;background:linear-gradient(145deg,var(--surface2),var(--surface))}
 .patent-card h3{margin:12px 0 6px;font-size:17px;line-height:1.35}.patent-card h3 a{color:var(--text);text-decoration:none}.patent-card h3 a:hover{color:var(--cyan)}
 .patent-card>p{margin:8px 0;color:var(--muted);font-size:12px}.patent-card .patent-assignee{color:var(--cyan);font-weight:750}
-.patent-meta,.patent-footer{display:flex;align-items:center;justify-content:space-between;gap:10px}.patent-meta{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.06em}
-.patent-footer{margin-top:auto;padding-top:16px}.patent-footer strong{display:grid;place-items:center;min-width:34px;height:34px;border-radius:50%;background:rgba(73,216,208,.1);color:var(--cyan)}
+.patent-card .patent-assessment{padding:10px 12px;border-left:2px solid var(--cyan);background:rgba(73,216,208,.05);color:var(--text)}
+.patent-meta,.patent-footer{display:flex;align-items:center;justify-content:space-between;gap:10px}.patent-meta{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.06em}.patent-meta>span{display:flex;align-items:center;gap:7px}
+.patent-track,.patent-priority{display:inline-flex;padding:4px 7px;border-radius:999px;background:rgba(73,216,208,.1);color:var(--cyan);font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.06em}.patent-priority.critical{background:rgba(255,95,109,.12);color:var(--red)}.patent-priority.high{background:rgba(255,191,71,.12);color:var(--amber)}
+.patent-footer{margin-top:auto;padding-top:16px}
 .patent-footer .profile-themes span{padding:5px 8px;font-size:10px}.section-link{display:inline-block;margin-top:16px;color:var(--cyan);text-decoration:none}
 .mission-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
 .mission-card{display:flex;flex-direction:column;padding:21px;border:1px solid var(--line);border-radius:13px;background:linear-gradient(145deg,var(--surface2),var(--surface))}

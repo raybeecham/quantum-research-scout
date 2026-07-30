@@ -65,8 +65,8 @@ function render(){
   const alerts = state.data.alerts || { alerts: [], active_count: 0, new_count: 0 };
   document.getElementById("metric-alerts").textContent = alerts.new_count || 0;
   document.getElementById("metric-alerts-detail").textContent = `${alerts.active_count || 0} active overall`;
-  document.getElementById("metric-patents").textContent = patentPayload.summary?.last_30_days || 0;
-  document.getElementById("metric-patents-detail").textContent = `${patentPayload.summary?.total || 0} tracked publication${patentPayload.summary?.total === 1 ? "" : "s"}`;
+  document.getElementById("metric-patents").textContent = patentPayload.summary?.total || 0;
+  document.getElementById("metric-patents-detail").textContent = `${patentPayload.summary?.last_30_days || 0} published in 30 days · ${patentPayload.summary?.curated_total || 0} notable`;
   document.getElementById("signal-updated").textContent = `Updated ${formatDate(state.data.signals.updated_at)}`;
   const verified = sources.filter(x => x.verification_status === "verified").length;
   const fresh = sources.filter(x => x.freshness === "fresh").length;
@@ -160,13 +160,16 @@ function renderSignals(){
 function renderPatents(payload){
   const patents = payload.patents || [];
   const summary = payload.summary || {};
-  document.getElementById("patent-summary").textContent = `${summary.last_30_days || 0} published in 30 days · ${summary.unique_assignees || 0} named assignees`;
+  document.getElementById("patent-summary").textContent = `${summary.curated_total || 0} notable · ${summary.automated_total || 0} automated discoveries · ${summary.unique_assignees || 0} named assignees`;
   document.getElementById("patent-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/patents.md`);
   document.getElementById("patent-grid").innerHTML = patents.length ? patents.slice(0, 6).map(item => {
     const number = item.publication_number || "Publication number unavailable";
     const topics = (item.matched_keywords || []).slice(0, 3);
-    return `<article class="patent-card"><div class="patent-meta"><span>${escapeHtml(number)}</span><time>${escapeHtml(formatShortDate(item.publication_date))}</time></div><h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3><p class="patent-assignee">${escapeHtml(item.assignee || "Assignee not listed")}</p><p>${escapeHtml(item.summary || "No abstract snippet is available.")}</p><div class="patent-footer"><div class="profile-themes">${topics.map(topic => `<span>${escapeHtml(topic)}</span>`).join("")}</div><strong>${item.score || 0}</strong></div></article>`;
-  }).join("") : '<div class="empty-state">No relevant patent publications have been collected yet. Collection activates when the USPTO_ODP_API_KEY repository secret is configured.</div>';
+    const priority = item.priority || "monitor";
+    const trackingLabel = item.tracking_type === "curated" ? "notable" : "automated";
+    const assessment = item.assessment ? `<p class="patent-assessment"><strong>Assessment:</strong> ${escapeHtml(item.assessment)}</p>` : "";
+    return `<article class="patent-card"><div class="patent-meta"><span><b class="patent-track">${escapeHtml(trackingLabel)}</b>${escapeHtml(number)}</span><time>${escapeHtml(formatShortDate(item.publication_date))}</time></div><h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3><p class="patent-assignee">${escapeHtml(item.assignee || "Assignee not listed")}</p><p>${escapeHtml(item.summary || "No abstract snippet is available.")}</p>${assessment}<div class="patent-footer"><div class="profile-themes">${topics.map(topic => `<span>${escapeHtml(topic)}</span>`).join("")}</div><span class="patent-priority ${escapeHtml(priority)}">${escapeHtml(priority)}</span></div></article>`;
+  }).join("") : '<div class="empty-state">No patents are configured. Add notable records to the curated portfolio; automated discovery additionally requires USPTO_ODP_API_KEY.</div>';
 }
 
 function renderWatch(){

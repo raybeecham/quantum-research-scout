@@ -29,6 +29,43 @@ patents:
       search_query: '"quantum computing" OR "quantum processor" OR qubit'
     - name: "Quantum Networking and Sensing Patents"
       search_query: '"quantum network" OR "quantum communication" OR "quantum sensing"'
+    - name: "Strategic AI Systems Patents"
+      search_query: '"large language model" OR "generative response engine" OR "autonomous AI agent"'
+    - name: "Distributed Sensing and Smart Dust Patents"
+      search_query: '"smart dust" OR "distributed sensor network" OR "microelectromechanical systems"'
+  curated:
+    - publication_number: "US12400074B1"
+      title: "Stateful pretrained transformers in a generative response engine"
+      assignee: "OpenAI Opco LLC"
+      inventors: ["Daniel Levine", "Rj Marsan", "Boyang Niu"]
+      priority_date: "2025-02-25"
+      filing_date: "2025-02-25"
+      grant_date: "2025-08-26"
+      publication_date: "2025-08-26"
+      legal_status: "Active"
+      priority: "high"
+      score: 55
+      topics: ["AI persistence", "Stateful models", "Agentic systems"]
+      url: "https://patents.google.com/patent/US12400074B1/en"
+      source: "Google Patents record with USPTO links"
+      summary: "Stateful custom GPT systems can regenerate system prompts and persist configured values outside the model's contextual window."
+      assessment: "Strategically relevant AI-state patent. It describes application memory and state transitions; the patent contains no shutdown-resistance or self-preservation claim."
+    - publication_number: "US11354666B1"
+      title: "Smart dust usage"
+      assignee: "Wells Fargo Bank, N.A."
+      inventors: ["Rameshchandra Bhaskar Ketharaju", "Sarath Chava", "Prasad N. Sivalanka", "Madhu V. Vempati"]
+      priority_date: "2016-05-26"
+      filing_date: "2016-05-26"
+      grant_date: "2022-06-07"
+      publication_date: "2022-06-07"
+      legal_status: "Active"
+      priority: "critical"
+      score: 75
+      topics: ["Smart dust", "Biometrics", "Distributed sensing"]
+      url: "https://patents.google.com/patent/US11354666B1/en"
+      source: "Google Patents record with USPTO links"
+      summary: "Air-suspended or self-propelled MEMS motes collect images, audio, optical, location, motion, environmental, and biometric data for payment authentication."
+      assessment: "High-impact sensing and privacy signal. The patent covers airborne smart-dust authentication, but a patent grant alone does not establish deployment or a general surveillance program."
 
 arxiv:
   enabled: false

@@ -329,7 +329,12 @@ def main(argv: list[str] | None = None) -> int:
             args.retention_days,
         )
     if args.update_intelligence_tracking:
-        write_patent_tracker(Path(args.reports_dir), classified, generated_at=generated_at)
+        write_patent_tracker(
+            Path(args.reports_dir),
+            classified,
+            curated_patents=config.patents.get("curated", []),
+            generated_at=generated_at,
+        )
         write_federal_mission_tracker(
             Path(args.reports_dir),
             args.missions_config,

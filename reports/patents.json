@@ -1,13 +1,75 @@
 {
-  "patents": [],
-  "source": "USPTO Open Data Portal Patent File Wrapper metadata",
-  "source_note": "Patent publications are early intelligence indicators, not proof of implementation, validity, commercial readiness, infringement, or freedom to operate.",
+  "patents": [
+    {
+      "assessment": "Strategically relevant AI-state patent. It describes application memory and state transitions; the patent contains no shutdown-resistance or self-preservation claim.",
+      "assignee": "OpenAI Opco LLC",
+      "filing_date": "2025-02-25",
+      "grant_date": "2025-08-26",
+      "inventors": [
+        "Daniel Levine",
+        "Rj Marsan",
+        "Boyang Niu"
+      ],
+      "key": "US12400074B1",
+      "legal_status": "Active",
+      "matched_keywords": [
+        "AI persistence",
+        "Stateful models",
+        "Agentic systems"
+      ],
+      "priority": "high",
+      "priority_date": "2025-02-25",
+      "publication_date": "2025-08-26",
+      "publication_number": "US12400074B1",
+      "query": null,
+      "score": 55,
+      "source": "Google Patents record with USPTO links",
+      "summary": "Stateful custom GPT systems can regenerate system prompts and persist configured values outside the model's contextual window.",
+      "title": "Stateful pretrained transformers in a generative response engine",
+      "tracking_type": "curated",
+      "url": "https://patents.google.com/patent/US12400074B1/en"
+    },
+    {
+      "assessment": "High-impact sensing and privacy signal. The patent covers airborne smart-dust authentication, but a patent grant alone does not establish deployment or a general surveillance program.",
+      "assignee": "Wells Fargo Bank, N.A.",
+      "filing_date": "2016-05-26",
+      "grant_date": "2022-06-07",
+      "inventors": [
+        "Rameshchandra Bhaskar Ketharaju",
+        "Sarath Chava",
+        "Prasad N. Sivalanka",
+        "Madhu V. Vempati"
+      ],
+      "key": "US11354666B1",
+      "legal_status": "Active",
+      "matched_keywords": [
+        "Smart dust",
+        "Biometrics",
+        "Distributed sensing"
+      ],
+      "priority": "critical",
+      "priority_date": "2016-05-26",
+      "publication_date": "2022-06-07",
+      "publication_number": "US11354666B1",
+      "query": null,
+      "score": 75,
+      "source": "Google Patents record with USPTO links",
+      "summary": "Air-suspended or self-propelled MEMS motes collect images, audio, optical, location, motion, environmental, and biometric data for payment authentication.",
+      "title": "Smart dust usage",
+      "tracking_type": "curated",
+      "url": "https://patents.google.com/patent/US11354666B1/en"
+    }
+  ],
+  "source": "Curated patent portfolio and USPTO Open Data Portal Patent File Wrapper metadata",
+  "source_note": "Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.",
   "summary": {
+    "automated_total": 0,
+    "curated_total": 2,
     "last_30_days": 0,
-    "latest_publication_date": null,
-    "total": 0,
-    "unique_assignees": 0
+    "latest_publication_date": "2025-08-26",
+    "total": 2,
+    "unique_assignees": 2
   },
-  "updated_at": "2026-07-29T22:57:45.474980+00:00",
-  "version": 1
+  "updated_at": "2026-07-30T00:41:27.550117+00:00",
+  "version": 2
 }

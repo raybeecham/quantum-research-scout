@@ -109,6 +109,39 @@ class PatentIntelligenceTests(unittest.TestCase):
         self.assertIn("Patent Intelligence", markdown)
         self.assertIn("not proof of implementation", markdown)
 
+    def test_tracker_keeps_curated_notable_patents_outside_rolling_window(self) -> None:
+        curated = [
+            {
+                "publication_number": "US11354666B1",
+                "title": "Smart dust usage",
+                "publication_date": "2022-06-07",
+                "assignee": "Wells Fargo Bank, N.A.",
+                "priority": "critical",
+                "topics": ["Smart dust", "Biometrics"],
+                "url": "https://patents.google.com/patent/US11354666B1/en",
+                "summary": "Air-suspended MEMS motes collect biometric sensor data.",
+                "assessment": "A patent grant does not establish deployment.",
+            }
+        ]
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            json_path, markdown_path = write_patent_tracker(
+                temp_dir,
+                [],
+                curated_patents=curated,
+                generated_at=datetime(2026, 7, 29, tzinfo=timezone.utc),
+            )
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+            markdown = markdown_path.read_text(encoding="utf-8")
+
+        self.assertEqual(payload["summary"]["total"], 1)
+        self.assertEqual(payload["summary"]["curated_total"], 1)
+        self.assertEqual(payload["summary"]["automated_total"], 0)
+        self.assertEqual(payload["patents"][0]["tracking_type"], "curated")
+        self.assertIn("US11354666B1", markdown)
+        self.assertIn("does not establish deployment", markdown)
+        self.assertIn("Recent Automated Discoveries", markdown)
+
 
 if __name__ == "__main__":
     unittest.main()
