@@ -10,6 +10,53 @@ from pqc_quantum_research_agent.alerts import write_alerts
 
 
 class AlertTests(unittest.TestCase):
+    def test_new_procurement_amendment_creates_alert(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports = Path(temp_dir)
+            (reports / "signals.json").write_text('{"themes": {}}', encoding="utf-8")
+            (reports / "source-health.json").write_text('{"sources": []}', encoding="utf-8")
+            (reports / "entity-watch.json").write_text('{"entities": []}', encoding="utf-8")
+            (reports / "federal-funding.json").write_text(
+                '{"opportunity_radar": []}', encoding="utf-8"
+            )
+            (reports / "procurement-intelligence.json").write_text(
+                json.dumps(
+                    {
+                        "opportunities": [
+                            {
+                                "opportunity_key": "sam:one",
+                                "title": "Quantum solicitation",
+                                "agency": "Department of Defense",
+                                "url": "https://sam.gov/opp/one/view",
+                                "new_amendment": True,
+                                "documents": [
+                                    {
+                                        "name": "Amendment 0001.pdf",
+                                        "source_url": "https://files.sam.gov/amendment.pdf",
+                                        "new_amendment": True,
+                                    }
+                                ],
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            _, json_path, _ = write_alerts(
+                reports,
+                reports / "missing.yaml",
+                generated_at=datetime(2026, 7, 30, tzinfo=timezone.utc),
+            )
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["active_count"], 1)
+        self.assertEqual(payload["alerts"][0]["type"], "procurement_amendment")
+        self.assertEqual(
+            payload["alerts"][0]["evidence_url"],
+            "https://files.sam.gov/amendment.pdf",
+        )
+
     def test_federal_opportunity_alerts_cover_new_and_closing_records(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             reports = Path(temp_dir)

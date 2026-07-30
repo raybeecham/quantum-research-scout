@@ -46,6 +46,11 @@ opportunities:
   new_high_priority: true
   minimum_new_score: 60
 
+procurement_documents:
+  enabled: true
+  new_amendments: true
+  severity: high
+
 output:
   max_active_alerts: 50
 

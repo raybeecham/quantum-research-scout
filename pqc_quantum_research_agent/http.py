@@ -69,6 +69,55 @@ class HttpClient:
                 LOGGER.warning("Fetch failed for %s: %s", url, exc)
         raise RuntimeError(f"Failed to fetch {url}: {last_error}")
 
+    def get_bytes(
+        self,
+        url: str,
+        params: dict[str, Any] | None = None,
+        headers: dict[str, str] | None = None,
+        *,
+        max_bytes: int = 8_000_000,
+    ) -> tuple[bytes, str, str]:
+        """Fetch a bounded binary response without storing the document on disk."""
+        last_error: Exception | None = None
+        for attempt in range(self.retries + 1):
+            try:
+                with self.session.get(
+                    url,
+                    params=params,
+                    headers=headers,
+                    timeout=self.timeout_seconds,
+                    stream=True,
+                ) as response:
+                    response.raise_for_status()
+                    content_length = response.headers.get("Content-Length")
+                    if content_length and int(content_length) > max_bytes:
+                        raise RuntimeError(
+                            f"Response exceeded the {max_bytes:,}-byte document limit"
+                        )
+                    chunks: list[bytes] = []
+                    total = 0
+                    for chunk in response.iter_content(chunk_size=65_536):
+                        if not chunk:
+                            continue
+                        total += len(chunk)
+                        if total > max_bytes:
+                            raise RuntimeError(
+                                f"Response exceeded the {max_bytes:,}-byte document limit"
+                            )
+                        chunks.append(chunk)
+                    return (
+                        b"".join(chunks),
+                        response.url,
+                        response.headers.get("Content-Type", ""),
+                    )
+            except (requests.RequestException, RuntimeError, ValueError) as exc:
+                last_error = exc
+                if attempt < self.retries:
+                    time.sleep(1 + attempt)
+                    continue
+                LOGGER.warning("Binary fetch failed for %s: %s", url, exc)
+        raise RuntimeError(f"Failed to fetch document {url}: {last_error}")
+
     def post_text(
         self,
         url: str,

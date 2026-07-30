@@ -129,6 +129,15 @@ federal_funding:
     endpoint: "https://api.sam.gov/opportunities/v2/search"
     api_key_env: "SAM_GOV_API_KEY"
     max_items_per_query: 20
+  document_intelligence:
+    enabled: true
+    max_opportunities: 20
+    max_documents_per_opportunity: 4
+    max_downloads_per_run: 12
+    max_document_bytes: 8000000
+    max_pdf_pages: 30
+    max_text_characters: 80000
+    refresh_days: 14
   queries:
     - name: "Quantum Technologies"
       keyword: "quantum"

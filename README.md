@@ -37,6 +37,9 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - Maintains a persistent, deduplicated signal ledger in `reports/signals.json` with a human-readable momentum dashboard in `reports/signals.md`.
 - Maintains a relationship-aware federal mission tracker with official objectives, milestones, updates, and an automated queue for newly announced mission candidates.
 - Connects missions to awards, grants, BAAs, RFIs, acquisition notices, recipients, contractors, and cautiously labeled patent relationships in `reports/federal-funding.json`.
+- Resolves contractor identities conservatively using UEIs, CAGE codes, exact legal-name aliases, and explicit parent identifiers; unresolved lookalikes remain separate.
+- Extracts bounded evidence from public SAM.gov-linked PDF, DOCX, HTML, and text documents, detects changed files and amendments, and does not retain raw files or full document text.
+- Produces provisional bid/no-bid qualification briefs with traceable requirements, risks, unknowns, actions, market participants, and source links.
 - Maintains a curated notable-patent portfolio plus a rolling two-year automated publication ledger, grouping explicit families and continuations while tracking document stage, legal status, citations, and strategic significance.
 - Maintains a bounded historical evidence ledger for official watch sources. Historical records enrich organization profiles but are explicitly excluded from alerts.
 - Scores each watched organization by the highest publicly evidenced PQC engagement stage: awareness, inventory, planning, pilot/testing, or production.
@@ -51,6 +54,8 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - [Persistent signal tracker](reports/signals.md) — momentum, importance, confidence, status, follow-up, and evidence
 - [Federal mission tracker](reports/federal-missions.md) — named national efforts, lead agencies, relationships, milestones, and official updates
 - [Federal funding and procurement](reports/federal-funding.md) — mission-linked awards, grants, acquisition notices, contractors, and patent-assignee connections
+- [Procurement document intelligence](reports/procurement-intelligence.md) — extracted requirements, evaluation evidence, deadlines, contacts, and amendment tracking
+- [Provisional bid/no-bid briefs](reports/bid-no-bid.md) — evidence completeness, qualification gates, risks, unknowns, and recommended actions
 - [Patent intelligence](reports/patents.md) — families, applications and grants, legal status, citations, assignees, and strategic significance
 - [Source health](reports/source-health.md) — rolling reliability, expected idle periods, disabled sources, and active warnings
 - [Intelligence alerts](reports/alerts.md) — new actionable signals, rising momentum, critical themes, and source degradation
@@ -82,7 +87,15 @@ The daily collector searches official USAspending award data and open Grants.gov
 
 `reports/federal-funding.json` is a durable relationship ledger. It connects records to missions through configured IDs, exact program-name matches, or conservative agency/domain inference; aggregates known award values and recipients; matches recipient or contractor names to patent assignees; and emits explicit relationship edges. Exact and inferred links retain their basis and confidence. A domain-overlap patent match is analytical context—not evidence that the patent was funded by, used by, or formally associated with a mission.
 
-The Opportunity Radar ranks open grants, BAAs, RFIs, and procurement notices using mission relevance, deadline proximity, technology fit, strategic significance, reported value, patent evidence, and whether the record is new since yesterday. Opportunities closing within seven days and newly discovered high-priority opportunities also enter the alert and notification pipeline. Contractor profiles compare collected awards in the latest 365 days with the preceding 365 days, summarize agencies, missions, technologies, patents, and reported small-business set-asides, and label incumbency and momentum. Peer and potential-competitor suggestions are analytical similarities based on shared missions, agencies, and technologies; they are not evidence of a formal partnership or competitive relationship. The Relationship Explorer exposes these connections as a mission-rooted graph with the source basis and confidence preserved on every edge.
+The Opportunity Radar ranks open grants, BAAs, RFIs, and procurement notices using mission relevance, deadline proximity, technology fit, strategic significance, reported value, patent evidence, and whether the record is new since yesterday. Opportunities closing within seven days and newly discovered high-priority opportunities also enter the alert and notification pipeline. Contractor profiles compare collected awards in the latest 365 days with the preceding 365 days, summarize agencies, missions, technologies, patents, and reported small-business set-asides, and label incumbency and momentum.
+
+Contractor identity resolution uses an authoritative UEI when available and keeps observed CAGE codes, aliases, and parent identifiers. A record lacking an identifier can join a UEI-backed identity only when its normalized legal name has exactly one UEI match. Otherwise, exact normalized names form medium-confidence identities; fuzzy names are never merged automatically. This keeps awards and opportunity relationships from silently combining lookalike organizations.
+
+`reports/procurement-intelligence.json` follows public attachment and description links supplied by SAM.gov. Each run has configurable document-count, byte, page, text, and refresh limits. Supported PDF, DOCX, HTML, JSON, XML, and plain-text content is processed in memory; only hashes, metadata, contacts, and short evidence excerpts are stored. The tracker detects newly observed amendments and content-hash changes. Pattern-matched excerpts guide review but never replace the controlling solicitation.
+
+`reports/bid-no-bid.json` combines Opportunity Radar scores with document completeness, deadline risk, mission fit, technology fit, eligibility evidence, public contractor history, and related patents. Its output is explicitly a provisional qualification gate—not an authorized business decision—because organization-specific capability, pricing, conflicts, and approval authority are not public inputs. Likely market participants and teaming candidates are analytical matches, not confirmed intent or relationships.
+
+Peer and potential-competitor suggestions are analytical similarities based on shared missions, agencies, and technologies; they are not evidence of a formal partnership or competitive relationship. The Relationship Explorer exposes these connections as a mission-rooted graph with the source basis and confidence preserved on every edge.
 
 ## Patent Intelligence
 
@@ -108,6 +121,7 @@ The default rules cover:
 - Degraded sources
 - Failing sources
 - Material watchlist events: contracts, acquisitions, funding, standards, partnerships, product launches, and vulnerabilities
+- Newly observed SAM.gov solicitation amendments
 
 Daily automation writes `reports/alerts.md` and `reports/alerts.json`, includes the alert center in the dashboard, and publishes the Markdown alert summary in the GitHub Actions run summary.
 
@@ -426,6 +440,8 @@ pqc_quantum_research_agent/
   signals.py        # persistent signal ledger and momentum tracker
   federal_missions.py # federal mission relationships, milestones, and update discovery
   federal_funding.py # awards, opportunities, contractors, and mission/patent relationships
+  contractor_identity.py # UEI-first contractor alias and identity resolution
+  procurement_intelligence.py # bounded document extraction and qualification briefs
   patents.py        # patent families, stage, status, citations, and significance
   source_health.py  # rolling source reliability report
   alerts.py         # configurable stateful alert evaluation
@@ -446,6 +462,10 @@ reports/federal-missions.json # structured mission portfolio and discovery queue
 reports/federal-missions.md # human-readable federal mission tracker
 reports/federal-funding.json # mission-linked awards, opportunities, contractors, patents, and edges
 reports/federal-funding.md # human-readable funding and procurement intelligence
+reports/procurement-intelligence.json # structured solicitation evidence and amendment tracking
+reports/procurement-intelligence.md # human-readable document intelligence
+reports/bid-no-bid.json # structured provisional opportunity qualification briefs
+reports/bid-no-bid.md # human-readable qualification briefs
 reports/patents.json # durable structured patent-publication intelligence
 reports/patents.md  # human-readable patent landscape
 reports/source-health.md # rolling source reliability and warnings

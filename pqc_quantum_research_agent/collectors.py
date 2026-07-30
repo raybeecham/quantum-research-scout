@@ -446,6 +446,7 @@ def _collect_usaspending_awards(
     fields = [
         "Award ID",
         "Recipient Name",
+        "Recipient UEI",
         "Award Amount",
         "Start Date",
         "End Date",
@@ -501,6 +502,7 @@ def _collect_usaspending_awards(
                 continue
             seen.add(key)
             recipient = _first_text(award, "Recipient Name", "recipient_name")
+            recipient_uei = _first_text(award, "Recipient UEI", "recipient_uei")
             description = _first_text(award, "Description", "description")
             amount = _number_value(award.get("Award Amount", award.get("award_amount")))
             start = _first_text(award, "Start Date", "start_date")
@@ -540,6 +542,7 @@ def _collect_usaspending_awards(
                         "award_id": award_id,
                         "generated_internal_id": generated_id,
                         "recipient": recipient,
+                        "recipient_uei": recipient_uei,
                         "amount": amount,
                         "start_date": start,
                         "end_date": _first_text(award, "End Date", "end_date"),
@@ -726,6 +729,14 @@ def _collect_sam_opportunities(
             notice_type = _first_text(opportunity, "type", "ptype", "noticeType")
             record_type = _sam_record_type(title, notice_type)
             posted_date = _first_text(opportunity, "postedDate")
+            award = opportunity.get("award") if isinstance(opportunity.get("award"), dict) else {}
+            awardee = award.get("awardee") if isinstance(award.get("awardee"), dict) else {}
+            points_of_contact = opportunity.get("pointOfContact")
+            if not isinstance(points_of_contact, list):
+                points_of_contact = []
+            resource_links = opportunity.get("resourceLinks")
+            if not isinstance(resource_links, list):
+                resource_links = []
             result.items.append(
                 ResearchItem(
                     source_name=query_name,
@@ -779,14 +790,36 @@ def _collect_sam_opportunities(
                             "typeOfSetAside",
                         ),
                         "award_number": _first_text(opportunity, "awardNumber"),
-                        "award_amount": _number_value(opportunity.get("award", {}).get("amount"))
-                        if isinstance(opportunity.get("award"), dict)
-                        else None,
+                        "award_amount": _number_value(award.get("amount")),
                         "awardee": _first_text(
-                            opportunity.get("award") if isinstance(opportunity.get("award"), dict) else {},
-                            "awardee",
+                            awardee,
+                            "name",
                             "awardeeName",
-                        ),
+                        )
+                        or _first_text(award, "awardeeName", "awardee"),
+                        "awardee_uei": _first_text(awardee, "ueiSAM", "uei"),
+                        "awardee_cage": _first_text(awardee, "cageCode"),
+                        "resource_links": [
+                            str(value)
+                            for value in resource_links
+                            if isinstance(value, str) and value.startswith(("https://", "http://"))
+                        ],
+                        "description_url": _first_text(opportunity, "description"),
+                        "additional_info_link": _first_text(opportunity, "additionalInfoLink"),
+                        "points_of_contact": [
+                            {
+                                "type": _first_text(contact, "type"),
+                                "title": _first_text(contact, "title"),
+                                "full_name": _first_text(contact, "fullName"),
+                                "email": _first_text(contact, "email"),
+                                "phone": _first_text(contact, "phone"),
+                            }
+                            for contact in points_of_contact
+                            if isinstance(contact, dict)
+                        ],
+                        "base_type": _first_text(opportunity, "baseType"),
+                        "archive_date": _first_text(opportunity, "archiveDate"),
+                        "active": opportunity.get("active"),
                         "query_name": str(query.get("name") or query["keyword"]),
                         "query_keyword": str(query["keyword"]),
                         "mission_ids": [str(value) for value in query.get("mission_ids", [])],

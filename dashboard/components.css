@@ -625,6 +625,21 @@ footer{border-top-color:rgba(168,187,229,.18);background:rgba(9,15,29,.5)}
 .contractor-profile-body a:hover{color:var(--cyan)}
 .contractor-profile-body a b,.contractor-profile-body p b{display:block;color:var(--text)}
 .contractor-profile-body p span{display:block;color:var(--muted)}
+.decision-grid,.document-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.decision-card,.document-card{padding:15px;border:1px solid var(--line);border-radius:11px;background:linear-gradient(145deg,rgba(31,41,70,.76),rgba(18,27,49,.88))}
+.decision-head,.document-head{display:flex;align-items:center;justify-content:space-between}
+.decision-head span,.document-head span{color:var(--cyan);font-size:8px;font-weight:850;text-transform:uppercase}
+.decision-head strong,.document-head strong{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:rgba(73,216,208,.1);color:var(--cyan)}
+.decision-card.priority-qualification{border-color:rgba(73,216,208,.38)}
+.decision-card h3,.document-card h3{margin:10px 0 4px;font-size:13px}
+.decision-card h3 a,.document-card h3 a{color:var(--text);text-decoration:none}
+.decision-card>p,.document-card>p,.decision-card>small{margin:0;color:var(--muted);font-size:8px}
+.decision-card ul,.document-card ul{margin:10px 0 0;padding-left:17px;color:var(--muted);font-size:8px;line-height:1.5}
+.evidence-meter{height:5px;margin:11px 0 5px;border-radius:99px;background:rgba(130,153,175,.1);overflow:hidden}
+.evidence-meter i{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--violet),var(--cyan))}
+.document-flags{display:flex;gap:5px;margin-top:9px}
+.document-flags span{padding:4px 7px;border-radius:99px;background:rgba(130,153,175,.08);color:var(--muted);font-size:7px;text-transform:uppercase}
+.document-flags .amendment{background:rgba(255,185,79,.12);color:var(--amber)}
 
 @media(max-width:900px){
   .relationship-graph{grid-template-columns:1fr}
@@ -634,6 +649,7 @@ footer{border-top-color:rgba(168,187,229,.18);background:rgba(9,15,29,.5)}
 }
 @media(max-width:700px){
   .contractor-grid{grid-template-columns:1fr}
+  .decision-grid,.document-grid{grid-template-columns:1fr}
   .relationship-controls{align-items:stretch;flex-direction:column}
   .relationship-controls label{min-width:0}
   .relationship-controls p{text-align:left}

@@ -161,6 +161,43 @@ class DashboardBuildTests(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
+            (reports / "procurement-intelligence.json").write_text(
+                json.dumps(
+                    {
+                        "summary": {
+                            "documents_extracted": 1,
+                            "new_amendments": 1,
+                        },
+                        "opportunities": [
+                            {
+                                "opportunity_key": "sam:one",
+                                "title": "Quantum BAA",
+                                "document_completeness_score": 75,
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            (reports / "bid-no-bid.json").write_text(
+                json.dumps(
+                    {
+                        "summary": {
+                            "priority_qualification": 1,
+                            "qualify": 0,
+                        },
+                        "briefs": [
+                            {
+                                "opportunity_key": "sam:one",
+                                "title": "Quantum BAA",
+                                "provisional_gate": "priority qualification",
+                                "decision_score": 88,
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
             (reports / "historical-evidence.json").write_text(
                 json.dumps({"item_count": 2, "dated_count": 1, "undated_count": 1, "items": [{"key": "one"}]}),
                 encoding="utf-8",
@@ -213,6 +250,11 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["federal_funding"]["opportunity_radar"][0]["opportunity_score"], 82)
             self.assertEqual(payload["federal_funding"]["contractor_profiles"][0]["name"], "Acme Quantum LLC")
             self.assertEqual(payload["federal_funding"]["relationship_explorer"]["summary"]["edges"], 1)
+            self.assertEqual(
+                payload["procurement_intelligence"]["summary"]["documents_extracted"],
+                1,
+            )
+            self.assertEqual(payload["bid_no_bid"]["briefs"][0]["decision_score"], 88)
             self.assertEqual(payload["historical_evidence"]["item_count"], 2)
             self.assertEqual(payload["patents"]["summary"]["total"], 1)
             self.assertEqual(payload["patents"]["summary"]["curated_total"], 1)

@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-07-30 22:20 UTC_
+_Updated 2026-07-30 23:03 UTC_
 
 Official federal awards and opportunities connected to tracked missions using explicit mission identifiers, named-program matches, or labeled agency/domain inference.
 
@@ -123,48 +123,48 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 
 Momentum compares collected awards in the latest 365 days with the preceding 365 days. Peer labels are analytical indicators of shared missions, agencies, or technologies—not confirmed partnerships or competitive relationships.
 
-| Contractor | Score | Incumbency | Momentum | Awards | Recent value | Agencies | Missions | Patents |
-|---|---:|---|---|---:|---:|---|---|---:|
-| UNIVERSITY OF MARYLAND, COLLEGE PARK | **51 · SIGNIFICANT** | Emerging Entrant | New Entrant | 2 | $9.4M | Department of Defense, National Science Foundation | darpa-qbi | 2 |
-| POST QUANTUM LABS LLC | **35 · DEVELOPING** | Established Incumbent | Declining | 3 | $0 | Department of Defense | Not linked | 0 |
-| CARNEGIE-MELLON UNIVERSITY | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 1 | $5.0M | National Science Foundation | Not linked | 1 |
-| FOUR POINTS TECHNOLOGY, L.L.C. | **30 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $15.3M | Department of Commerce | Not linked | 0 |
-| ARETE CONSULTING LLC | **30 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $4.4M | Department of Homeland Security | Not linked | 0 |
-| KPMG LLP | **29 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $3.8M | Department of Defense | golden-dome | 0 |
-| BOOZ ALLEN HAMILTON INC | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $3.1M | Department of Homeland Security, National Aeronautics and Space Administration | Not linked | 0 |
-| UNIVERSITY OF WASHINGTON | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $2.5M | National Science Foundation | Not linked | 0 |
-| UNIVERSITY OF WISCONSIN SYSTEM | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $1.3M | National Science Foundation | Not linked | 0 |
-| OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $908.8K | National Science Foundation | Not linked | 0 |
-| FLORIDA INSTITUTE OF TECHNOLOGY INC | **28 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $573.1K | National Science Foundation | Not linked | 0 |
-| UNIVERSITY OF OKLAHOMA | **28 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $438.6K | National Science Foundation | Not linked | 0 |
-| FLORIDA ATLANTIC UNIVERSITY | **28 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $400.0K | National Science Foundation | Not linked | 1 |
-| QUANTUM FOODS INC | **28 · OBSERVED** | Emerging Entrant | New Entrant | 3 | $206.3K | Department of Justice | Not linked | 0 |
-| THE JOHNS HOPKINS UNIVERSITY | **27 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $505.4K | National Science Foundation | Not linked | 1 |
-| UNIVERSITY OF SOUTH FLORIDA | **27 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $471.4K | National Science Foundation | Not linked | 1 |
-| VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | **27 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $400.0K | National Science Foundation | Not linked | 0 |
-| MCKINSEY & COMPANY, INC. WASHINGTON D.C. | **26 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $700.0K | Department of Energy | genesis-mission | 0 |
-| ALVAREZ LLC | **26 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $140.9K | Department of Homeland Security, Department of Justice | Not linked | 0 |
-| NEW YORK UNIVERSITY | **25 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $640.0K | National Science Foundation | Not linked | 1 |
-| THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | **25 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $599.7K | Department of Defense | Not linked | 1 |
-| DELOITTE CONSULTING LLP | **24 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $2.3M | Department of Health and Human Services | Not linked | 0 |
-| SHOREPOINT LLC | **24 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $1.8M | Department of Education | Not linked | 0 |
-| SECRECY LABS LLC | **24 · OBSERVED** | Active Incumbent | Declining | 2 | $0 | Department of Defense | Not linked | 0 |
-| CLEARAVENUE LLC | **23 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $10.0M | General Services Administration | Not linked | 0 |
-| RAVENTEK SOLUTION PARTNERS, LLC | **23 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $3.5M | Department of Health and Human Services | Not linked | 0 |
-| MASSACHUSETTS INSTITUTE OF TECHNOLOGY | **23 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $1.2M | National Science Foundation | Not linked | 0 |
-| VALIANT SOLUTIONS, LLC | **23 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $764.4K | Department of Education | Not linked | 0 |
-| W S DARLEY & CO | **23 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $306.5K | Department of Defense, Department of Homeland Security | Not linked | 0 |
-| THUNDERCAT TECHNOLOGY, LLC | **23 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $279.3K | Department of Agriculture, Department of Justice | Not linked | 0 |
-| UNIVERSITY OF ALASKA FAIRBANKS | **22 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $1.8M | National Science Foundation | Not linked | 0 |
-| AUTONOMIC INTEGRA LLC | **22 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $1.4M | Department of Homeland Security | Not linked | 0 |
-| THE PENNSYLVANIA STATE UNIVERSITY | **22 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $600.0K | National Science Foundation | Not linked | 0 |
-| PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | **22 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $175.1K | Department of Commerce | Not linked | 0 |
-| STI LEGACY, INC. | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $3.4M | National Aeronautics and Space Administration | Not linked | 0 |
-| ADVANCED BIOSCIENCE LABORATORIES, INC. | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $2.7M | Department of Health and Human Services | Not linked | 0 |
-| THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $2.6M | Department of Defense | Not linked | 0 |
-| UNIVERSITY OF ILLINOIS | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $900.0K | National Science Foundation | Not linked | 0 |
-| THE TRUSTEES OF PRINCETON UNIVERSITY | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $364.4K | National Science Foundation | Not linked | 0 |
-| UNIVERSITY OF CALIFORNIA, MERCED | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $347.1K | National Science Foundation | Not linked | 0 |
+| Contractor | Identity | Score | Incumbency | Momentum | Awards | Recent value | Agencies | Missions | Patents |
+|---|---|---:|---|---|---:|---:|---|---|---:|
+| UNIVERSITY OF MARYLAND, COLLEGE PARK | Name-resolved | **51 · SIGNIFICANT** | Emerging Entrant | New Entrant | 2 | $9.4M | Department of Defense, National Science Foundation | darpa-qbi | 2 |
+| POST QUANTUM LABS LLC | Name-resolved | **35 · DEVELOPING** | Established Incumbent | Declining | 3 | $0 | Department of Defense | Not linked | 0 |
+| CARNEGIE-MELLON UNIVERSITY | Name-resolved | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 1 | $5.0M | National Science Foundation | Not linked | 1 |
+| FOUR POINTS TECHNOLOGY, L.L.C. | Name-resolved | **30 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $15.3M | Department of Commerce | Not linked | 0 |
+| ARETE CONSULTING LLC | Name-resolved | **30 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $4.4M | Department of Homeland Security | Not linked | 0 |
+| KPMG LLP | Name-resolved | **29 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $3.8M | Department of Defense | golden-dome | 0 |
+| BOOZ ALLEN HAMILTON INC | Name-resolved | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $3.1M | Department of Homeland Security, National Aeronautics and Space Administration | Not linked | 0 |
+| UNIVERSITY OF WASHINGTON | Name-resolved | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $2.5M | National Science Foundation | Not linked | 0 |
+| UNIVERSITY OF WISCONSIN SYSTEM | Name-resolved | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $1.3M | National Science Foundation | Not linked | 0 |
+| OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | Name-resolved | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $908.8K | National Science Foundation | Not linked | 0 |
+| FLORIDA INSTITUTE OF TECHNOLOGY INC | Name-resolved | **28 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $573.1K | National Science Foundation | Not linked | 0 |
+| UNIVERSITY OF OKLAHOMA | Name-resolved | **28 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $438.6K | National Science Foundation | Not linked | 0 |
+| FLORIDA ATLANTIC UNIVERSITY | Name-resolved | **28 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $400.0K | National Science Foundation | Not linked | 1 |
+| QUANTUM FOODS INC | Name-resolved | **28 · OBSERVED** | Emerging Entrant | New Entrant | 3 | $206.3K | Department of Justice | Not linked | 0 |
+| THE JOHNS HOPKINS UNIVERSITY | Name-resolved | **27 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $505.4K | National Science Foundation | Not linked | 1 |
+| UNIVERSITY OF SOUTH FLORIDA | Name-resolved | **27 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $471.4K | National Science Foundation | Not linked | 1 |
+| VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | Name-resolved | **27 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $400.0K | National Science Foundation | Not linked | 0 |
+| MCKINSEY & COMPANY, INC. WASHINGTON D.C. | Name-resolved | **26 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $700.0K | Department of Energy | genesis-mission | 0 |
+| ALVAREZ LLC | Name-resolved | **26 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $140.9K | Department of Homeland Security, Department of Justice | Not linked | 0 |
+| NEW YORK UNIVERSITY | Name-resolved | **25 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $640.0K | National Science Foundation | Not linked | 1 |
+| THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | Name-resolved | **25 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $599.7K | Department of Defense | Not linked | 1 |
+| DELOITTE CONSULTING LLP | Name-resolved | **24 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $2.3M | Department of Health and Human Services | Not linked | 0 |
+| SHOREPOINT LLC | Name-resolved | **24 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $1.8M | Department of Education | Not linked | 0 |
+| SECRECY LABS LLC | Name-resolved | **24 · OBSERVED** | Active Incumbent | Declining | 2 | $0 | Department of Defense | Not linked | 0 |
+| CLEARAVENUE LLC | Name-resolved | **23 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $10.0M | General Services Administration | Not linked | 0 |
+| RAVENTEK SOLUTION PARTNERS, LLC | Name-resolved | **23 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $3.5M | Department of Health and Human Services | Not linked | 0 |
+| MASSACHUSETTS INSTITUTE OF TECHNOLOGY | Name-resolved | **23 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $1.2M | National Science Foundation | Not linked | 0 |
+| VALIANT SOLUTIONS, LLC | Name-resolved | **23 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $764.4K | Department of Education | Not linked | 0 |
+| W S DARLEY & CO | Name-resolved | **23 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $306.5K | Department of Defense, Department of Homeland Security | Not linked | 0 |
+| THUNDERCAT TECHNOLOGY, LLC | Name-resolved | **23 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $279.3K | Department of Agriculture, Department of Justice | Not linked | 0 |
+| UNIVERSITY OF ALASKA FAIRBANKS | Name-resolved | **22 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $1.8M | National Science Foundation | Not linked | 0 |
+| AUTONOMIC INTEGRA LLC | Name-resolved | **22 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $1.4M | Department of Homeland Security | Not linked | 0 |
+| THE PENNSYLVANIA STATE UNIVERSITY | Name-resolved | **22 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $600.0K | National Science Foundation | Not linked | 0 |
+| PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | Name-resolved | **22 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $175.1K | Department of Commerce | Not linked | 0 |
+| STI LEGACY, INC. | Name-resolved | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $3.4M | National Aeronautics and Space Administration | Not linked | 0 |
+| ADVANCED BIOSCIENCE LABORATORIES, INC. | Name-resolved | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $2.7M | Department of Health and Human Services | Not linked | 0 |
+| THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | Name-resolved | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $2.6M | Department of Defense | Not linked | 0 |
+| UNIVERSITY OF ILLINOIS | Name-resolved | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $900.0K | National Science Foundation | Not linked | 0 |
+| THE TRUSTEES OF PRINCETON UNIVERSITY | Name-resolved | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $364.4K | National Science Foundation | Not linked | 0 |
+| UNIVERSITY OF CALIFORNIA, MERCED | Name-resolved | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $347.1K | National Science Foundation | Not linked | 0 |
 
 ## Recipient and Contractor Patent Connections
 

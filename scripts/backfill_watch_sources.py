@@ -19,6 +19,7 @@ from pqc_quantum_research_agent.federal_missions import write_federal_mission_tr
 from pqc_quantum_research_agent.federal_funding import write_federal_funding_tracker
 from pqc_quantum_research_agent.historical import write_historical_evidence
 from pqc_quantum_research_agent.http import HttpClient
+from pqc_quantum_research_agent.procurement_intelligence import write_procurement_intelligence
 from pqc_quantum_research_agent.readiness import write_readiness_report
 from pqc_quantum_research_agent.standards import write_standards_timeline
 
@@ -90,6 +91,12 @@ def main() -> int:
         generated_at=generated,
     )
     write_federal_funding_tracker(reports, collection.items, generated_at=generated)
+    write_procurement_intelligence(
+        reports,
+        config.federal_funding,
+        client=client,
+        generated_at=generated,
+    )
     print(json_path)
     return 0
 

@@ -32,6 +32,7 @@ class FakeFundingClient:
                             {
                                 "Award ID": "TEST-123",
                                 "Recipient Name": "Acme Quantum, LLC",
+                                "Recipient UEI": "ABC123456789",
                                 "Award Amount": 2500000,
                                 "Start Date": "2026-07-20",
                                 "End Date": "2027-07-20",
@@ -89,6 +90,23 @@ class FakeFundingClient:
                             "responseDeadLine": "2026-10-01",
                             "fullParentPathName": "Department of Testing",
                             "uiLink": "https://sam.gov/opp/NOTICE-1/view",
+                            "resourceLinks": ["https://files.sam.gov/solicitation.pdf"],
+                            "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=NOTICE-1",
+                            "pointOfContact": [
+                                {
+                                    "type": "primary",
+                                    "fullName": "Alex Contracting",
+                                    "email": "alex@example.mil",
+                                }
+                            ],
+                            "award": {
+                                "amount": 3000000,
+                                "awardee": {
+                                    "name": "Acme Quantum LLC",
+                                    "ueiSAM": "ABC123456789",
+                                    "cageCode": "1A2B3",
+                                },
+                            },
                         }
                     ]
                 }
@@ -128,8 +146,14 @@ class FederalFundingTests(unittest.TestCase):
         award = next(item for item in result.items if item.source_type == "federal_award")
         procurement = next(item for item in result.items if item.source_type == "procurement")
         self.assertEqual(award.raw_payload["amount"], 2500000)
+        self.assertEqual(award.raw_payload["recipient_uei"], "ABC123456789")
         self.assertEqual(award.raw_payload["mission_ids"], ["test-mission"])
         self.assertEqual(procurement.raw_payload["record_type"], "baa")
+        self.assertEqual(
+            procurement.raw_payload["resource_links"],
+            ["https://files.sam.gov/solicitation.pdf"],
+        )
+        self.assertEqual(procurement.raw_payload["awardee_uei"], "ABC123456789")
         self.assertEqual(client.get_calls[0][1]["api_key"], "test-key")
         self.assertIn("time_period", client.post_calls[0][1]["filters"])
 
@@ -224,6 +248,7 @@ class FederalFundingTests(unittest.TestCase):
                     "record_type": "award",
                     "award_id": "TEST-123",
                     "recipient": "Acme Quantum, LLC",
+                    "recipient_uei": "ABC123456789",
                     "amount": 2500000,
                     "awarding_agency": "Department of Testing",
                     "mission_ids": ["test-mission"],
@@ -297,6 +322,11 @@ class FederalFundingTests(unittest.TestCase):
             payload["recipients_and_contractors"][0]["incumbency"],
             "emerging entrant",
         )
+        self.assertEqual(
+            payload["recipients_and_contractors"][0]["uei"],
+            "ABC123456789",
+        )
+        self.assertEqual(payload["summary"]["uei_resolved_contractors"], 1)
         self.assertTrue(payload["recipients_and_contractors"][0]["technology_specialties"])
         self.assertIn("contractor_score", payload["recipients_and_contractors"][0])
         self.assertGreater(payload["relationship_explorer"]["summary"]["nodes"], 0)

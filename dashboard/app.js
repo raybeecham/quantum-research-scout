@@ -74,6 +74,8 @@ function render(){
   const patentPayload = state.data.patents || { patents: [], summary: {} };
   const missionPayload = state.data.federal_missions || { missions: [], discovery_candidates: [], summary: {} };
   const fundingPayload = state.data.federal_funding || { records: [], mission_portfolios: [], summary: {} };
+  const procurementPayload = state.data.procurement_intelligence || { opportunities: [], summary: {} };
+  const decisionPayload = state.data.bid_no_bid || { briefs: [], summary: {} };
   document.getElementById("repo-link").href = safeUrl(state.data.repository_url);
   document.getElementById("alerts-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/alerts.md`);
   document.getElementById("hero-report-link").href = safeUrl(state.data.reports?.latest_daily?.url || "#reports");
@@ -93,7 +95,7 @@ function render(){
   const stale = sources.filter(x => x.freshness === "stale").length;
   document.getElementById("source-summary").textContent = `${healthy} healthy · ${verified} verified · ${fresh} fresh · ${stale} stale`;
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
-  renderReports(state.data.reports); renderAlerts(alerts); renderMissions(missionPayload, fundingPayload); renderFunding(fundingPayload); renderSignals(); renderPatents(patentPayload); renderWatch();
+  renderReports(state.data.reports); renderAlerts(alerts); renderMissions(missionPayload, fundingPayload); renderFunding(fundingPayload); renderProcurementDocuments(procurementPayload); renderDecisionBriefs(decisionPayload); renderSignals(); renderPatents(patentPayload); renderWatch();
   renderTrend(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderSources(sources);
   animateMetrics();
   setupReveal();
@@ -234,6 +236,44 @@ function renderOpportunityRadar(payload){
   }).join("") : '<div class="empty-state">No open opportunities match this view.</div>';
 }
 
+function renderDecisionBriefs(payload){
+  const briefs = payload.briefs || [];
+  const summary = payload.summary || {};
+  document.getElementById("decision-summary").textContent =
+    `${summary.priority_qualification || 0} priority · ${summary.qualify || 0} qualify`;
+  document.getElementById("decision-report-link").href =
+    safeUrl(`${state.data.repository_url}/blob/main/reports/bid-no-bid.md`);
+  document.getElementById("decision-grid").innerHTML = briefs.length ? briefs.slice(0,6).map(item => `
+    <article class="decision-card ${escapeHtml(String(item.provisional_gate || "hold").replaceAll(" ","-"))}">
+      <div class="decision-head"><span>${escapeHtml(item.provisional_gate || "hold")}</span><strong>${item.decision_score || 0}</strong></div>
+      <h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3>
+      <p>${escapeHtml(item.agency || "Agency not listed")} · ${escapeHtml(formatShortDate(item.deadline))}</p>
+      <div class="evidence-meter"><i style="width:${Math.max(0,Math.min(100,Number(item.evidence_completeness || 0)))}%"></i></div>
+      <small>${item.evidence_completeness || 0}% evidence completeness</small>
+      <ul>${(item.required_actions || []).slice(0,3).map(value => `<li>${escapeHtml(value)}</li>`).join("")}</ul>
+    </article>
+  `).join("") : '<div class="empty-state">No provisional decision briefs are available yet.</div>';
+}
+
+function renderProcurementDocuments(payload){
+  const opportunities = payload.opportunities || [];
+  const summary = payload.summary || {};
+  document.getElementById("document-summary").textContent =
+    `${summary.documents_extracted || 0} extracted · ${summary.new_amendments || 0} new amendments`;
+  document.getElementById("document-report-link").href =
+    safeUrl(`${state.data.repository_url}/blob/main/reports/procurement-intelligence.md`);
+  document.getElementById("document-grid").innerHTML = opportunities.length ? opportunities.slice(0,6).map(item => {
+    const extracted = (item.documents || []).filter(doc => doc.extraction_status === "extracted").length;
+    return `<article class="document-card">
+      <div class="document-head"><span>${extracted} / ${(item.documents || []).length} extracted</span><strong>${item.document_completeness_score || 0}</strong></div>
+      <h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3>
+      <p>${escapeHtml(item.agency || "Agency not listed")}</p>
+      <div class="document-flags">${item.new_amendment ? '<span class="amendment">New amendment</span>' : ""}${item.changed_document ? "<span>Changed file</span>" : ""}</div>
+      <ul>${(item.requirements || []).slice(0,3).map(value => `<li>${escapeHtml(value)}</li>`).join("") || "<li>No requirement excerpt extracted.</li>"}</ul>
+    </article>`;
+  }).join("") : '<div class="empty-state">No linked procurement documents have been analyzed yet.</div>';
+}
+
 function renderRelationshipExplorer(payload){
   const graph = payload.relationship_explorer || { summary: {}, nodes: [], edges: [] };
   const nodes = graph.nodes || [];
@@ -306,6 +346,8 @@ function renderContractors(payload){
   const query = state.contractorQuery.trim().toLowerCase();
   const visible = profiles.filter(item => [
     item.name,
+    ...(item.aliases || []),
+    item.uei || "",
     ...(item.agencies || []),
     ...(item.mission_ids || []),
     ...(item.technology_specialties || [])
@@ -320,13 +362,13 @@ function renderContractors(payload){
     return `<article class="contractor-card">
       <div class="contractor-head"><div><span>${escapeHtml(item.contractor_label || "observed")}</span><strong>${item.contractor_score || 0}</strong></div><span class="momentum ${escapeHtml(String(item.award_momentum || "stable").replaceAll(" ","-"))}">${escapeHtml(item.award_momentum || "stable")}</span></div>
       <h3>${escapeHtml(item.name)}</h3>
-      <p>${escapeHtml(item.incumbency || "observed recipient")}</p>
+      <p>${escapeHtml(item.incumbency || "observed recipient")}${item.uei ? ` · UEI ${escapeHtml(item.uei)}` : ""}</p>
       <dl><div><dt>Known awards</dt><dd>${escapeHtml(formatMoney(item.known_award_value))}</dd></div><div><dt>Recent 12 months</dt><dd>${item.recent_award_count || 0} · ${escapeHtml(formatMoney(item.recent_award_value))}</dd></div><div><dt>Missions</dt><dd>${(item.mission_ids || []).length}</dd></div><div><dt>Patent matches</dt><dd>${item.related_patent_count || 0}</dd></div></dl>
       <div class="contractor-tags">${(item.technology_specialties || []).slice(0,4).map(value => `<span>${escapeHtml(value)}</span>`).join("")}</div>
       <details class="contractor-profile-detail">
         <summary>Open intelligence profile</summary>
         <div class="contractor-profile-body">
-          <section><h4>Agencies</h4><p>${escapeHtml((item.agencies || []).join(", ") || "Not listed")}</p><h4>Small-business evidence</h4><p>${escapeHtml(smallBusiness)}</p></section>
+          <section><h4>Identity evidence</h4><p><b>${escapeHtml(item.resolution_confidence || "medium")} confidence</b><span>${escapeHtml(item.resolution_basis || "exact normalized legal name")}</span></p><p>${escapeHtml((item.aliases || []).join(", ") || item.name)}</p><h4>Agencies</h4><p>${escapeHtml((item.agencies || []).join(", ") || "Not listed")}</p><h4>Small-business evidence</h4><p>${escapeHtml(smallBusiness)}</p></section>
           <section><h4>Recent awards</h4>${(item.top_awards || []).slice(0,3).map(award => `<a href="${escapeHtml(safeUrl(award.url))}" target="_blank" rel="noopener"><b>${escapeHtml(formatMoney(award.amount))}</b>${escapeHtml(award.title || "Award")}</a>`).join("") || "<p>No award detail available.</p>"}</section>
           <section><h4>Related patents</h4>${patents.slice(0,3).map(patent => `<a href="${escapeHtml(safeUrl(patent.url))}" target="_blank" rel="noopener">${escapeHtml(patent.title || patent.patent_id)}</a>`).join("") || "<p>No assignee matches.</p>"}</section>
           <section><h4>Peers & potential competitors</h4>${peers.slice(0,3).map(peer => `<p><b>${escapeHtml(peer.name)}</b><span>${escapeHtml(peer.relationship_type)}</span></p>`).join("") || "<p>Not enough shared evidence.</p>"}</section>

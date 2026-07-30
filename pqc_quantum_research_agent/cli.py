@@ -23,6 +23,8 @@ from .alerts import write_alerts
 from .entity_watch import write_entity_watch
 from .federal_missions import write_federal_mission_tracker
 from .federal_funding import write_federal_funding_tracker
+from .http import HttpClient
+from .procurement_intelligence import write_procurement_intelligence
 from .readiness import write_readiness_report
 from .standards import write_standards_timeline
 from .storage import ResearchStore
@@ -345,6 +347,16 @@ def main(argv: list[str] | None = None) -> int:
         write_federal_funding_tracker(
             Path(args.reports_dir),
             classified,
+            generated_at=generated_at,
+        )
+        intelligence_client = HttpClient(
+            config.settings.user_agent,
+            timeout_seconds=config.settings.request_timeout_seconds,
+        )
+        write_procurement_intelligence(
+            Path(args.reports_dir),
+            config.federal_funding,
+            client=intelligence_client,
             generated_at=generated_at,
         )
         write_signal_tracker(Path(args.reports_dir))

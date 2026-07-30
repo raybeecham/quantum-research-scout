@@ -39,6 +39,14 @@ def build_dashboard(
             "summary": {},
         },
     )
+    procurement_intelligence = _read_json(
+        reports / "procurement-intelligence.json",
+        {"opportunities": [], "summary": {}},
+    )
+    bid_no_bid = _read_json(
+        reports / "bid-no-bid.json",
+        {"briefs": [], "summary": {}},
+    )
     historical = _read_json(reports / "historical-evidence.json", {"items": [], "item_count": 0})
     patents = _read_json(
         reports / "patents.json",
@@ -56,6 +64,16 @@ def build_dashboard(
         "standards": standards,
         "federal_missions": federal_missions,
         "federal_funding": _dashboard_federal_funding(federal_funding),
+        "procurement_intelligence": {
+            "updated_at": procurement_intelligence.get("updated_at"),
+            "summary": procurement_intelligence.get("summary", {}),
+            "opportunities": (procurement_intelligence.get("opportunities") or [])[:20],
+        },
+        "bid_no_bid": {
+            "updated_at": bid_no_bid.get("updated_at"),
+            "summary": bid_no_bid.get("summary", {}),
+            "briefs": (bid_no_bid.get("briefs") or [])[:20],
+        },
         "historical_evidence": {
             key: historical.get(key) for key in ("updated_at", "lookback_days", "item_count", "dated_count", "undated_count")
         },

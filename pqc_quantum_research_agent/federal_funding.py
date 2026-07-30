@@ -7,6 +7,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from .models import ResearchItem
+from .contractor_identity import resolve_contractor_identities
 from .text import compact_summary
 
 
@@ -117,8 +118,14 @@ def write_federal_funding_tracker(
         reverse=True,
     )
     records = records[:max_records]
+    records, contractor_identities = resolve_contractor_identities(records)
     opportunity_radar = _opportunity_radar(records)
-    recipients = _aggregate_recipients(records, patents, today)
+    recipients = _aggregate_recipients(
+        records,
+        patents,
+        today,
+        contractor_identities,
+    )
     portfolios = _mission_portfolios(missions, records, recipients, patents)
     edges = _relationship_edges(portfolios, records)
     relationship_explorer = _relationship_explorer(portfolios, records, recipients, edges)
@@ -161,6 +168,9 @@ def write_federal_funding_tracker(
         "missions_with_activity": sum(int(item.get("record_count") or 0) > 0 for item in portfolios),
         "tracked_missions": len(portfolios),
         "unique_recipients_and_contractors": len(recipients),
+        "uei_resolved_contractors": sum(
+            bool(item.get("uei")) for item in contractor_identities
+        ),
         "known_award_value": sum(
             float(item.get("amount") or 0)
             for item in records
@@ -168,7 +178,7 @@ def write_federal_funding_tracker(
         ),
     }
     payload = {
-        "version": 2,
+        "version": 3,
         "updated_at": generated.isoformat(),
         "as_of_date": today.isoformat(),
         "scope_note": (
@@ -184,6 +194,7 @@ def write_federal_funding_tracker(
         "opportunity_radar": opportunity_radar,
         "mission_portfolios": portfolios,
         "recipients_and_contractors": recipients,
+        "contractor_identities": contractor_identities,
         "records": records,
         "relationship_edges": edges,
         "relationship_explorer": relationship_explorer,
@@ -229,7 +240,13 @@ def _candidate_record(item: ResearchItem, generated: datetime) -> dict:
         "url": item.canonical_url or item.url,
         "amount": _float_value(amount),
         "recipient": raw.get("recipient"),
+        "recipient_uei": raw.get("recipient_uei"),
+        "recipient_cage": raw.get("recipient_cage"),
         "awardee": raw.get("awardee"),
+        "awardee_uei": raw.get("awardee_uei"),
+        "awardee_cage": raw.get("awardee_cage"),
+        "parent_uei": raw.get("parent_uei"),
+        "parent_name": raw.get("parent_name"),
         "award_type": raw.get("award_type") or raw.get("notice_type"),
         "awarding_agency": raw.get("awarding_agency") or raw.get("agency") or raw.get("organization"),
         "funding_agency": raw.get("funding_agency"),
@@ -244,6 +261,13 @@ def _candidate_record(item: ResearchItem, generated: datetime) -> dict:
         "naics_code": raw.get("naics_code"),
         "classification_code": raw.get("classification_code"),
         "set_aside": raw.get("set_aside"),
+        "resource_links": raw.get("resource_links") or [],
+        "description_url": raw.get("description_url"),
+        "additional_info_link": raw.get("additional_info_link"),
+        "points_of_contact": raw.get("points_of_contact") or [],
+        "base_type": raw.get("base_type"),
+        "archive_date": raw.get("archive_date"),
+        "active": raw.get("active"),
         "first_seen_at": generated.isoformat(),
         "last_seen_at": generated.isoformat(),
         "source": item.source_name,
@@ -388,17 +412,35 @@ def _aggregate_recipients(
     records: list[dict],
     patents: list[dict],
     today: date,
+    contractor_identities: list[dict],
 ) -> list[dict]:
     by_name: dict[str, dict] = {}
+    identities_by_id = {
+        str(item["identity_id"]): item
+        for item in contractor_identities
+        if item.get("identity_id")
+    }
     for record in records:
         name = str(record.get("recipient") or record.get("awardee") or "").strip()
-        key = _normalize_organization(name)
+        identity_id = record.get("contractor_identity_id")
+        key = str(identity_id or _normalize_organization(name))
+        identity = identities_by_id.get(key, {})
         if not key:
             continue
         aggregate = by_name.setdefault(
             key,
             {
-                "name": name,
+                "identity_id": key,
+                "name": identity.get("canonical_name") or name,
+                "aliases": list(identity.get("aliases") or [name]),
+                "uei": identity.get("uei"),
+                "cage_codes": list(identity.get("cage_codes") or []),
+                "parent_uei": identity.get("parent_uei"),
+                "parent_name": identity.get("parent_name"),
+                "resolution_basis": identity.get("resolution_basis")
+                or "exact normalized legal name",
+                "resolution_confidence": identity.get("resolution_confidence")
+                or "medium",
                 "record_count": 0,
                 "award_count": 0,
                 "opportunity_count": 0,
@@ -452,7 +494,16 @@ def _aggregate_recipients(
     results = []
     for item in by_name.values():
         item["mission_ids"] = sorted(item["mission_ids"])
-        item["related_patents"] = _organization_patents(item["name"], patents)
+        patent_matches: dict[str, dict] = {}
+        for alias in item.get("aliases") or [item["name"]]:
+            for patent in _organization_patents(alias, patents):
+                patent_key = str(
+                    patent.get("patent_id")
+                    or patent.get("publication_number")
+                    or patent.get("url")
+                )
+                patent_matches[patent_key] = patent
+        item["related_patents"] = list(patent_matches.values())
         for patent in item["related_patents"]:
             item["technology_specialties"].update(
                 _specialty_label(value)
@@ -874,13 +925,14 @@ def _relationship_edges(portfolios: list[dict], records: list[dict]) -> list[dic
                 }
             )
         organization = record.get("recipient") or record.get("awardee")
+        identity_id = record.get("contractor_identity_id")
         if organization:
             edges.append(
                 {
                     "source_type": record["record_type"],
                     "source_id": record["key"],
                     "target_type": "recipient_or_contractor",
-                    "target_id": _normalize_organization(organization),
+                    "target_id": identity_id or _normalize_organization(organization),
                     "label": organization,
                     "basis": "reported recipient or awardee",
                     "confidence": "high",
@@ -888,7 +940,7 @@ def _relationship_edges(portfolios: list[dict], records: list[dict]) -> list[dic
             )
         for patent in record.get("related_patents", []):
             patent_id = patent.get("patent_id") or patent.get("publication_number")
-            organization_id = _normalize_organization(organization)
+            organization_id = identity_id or _normalize_organization(organization)
             if not patent_id or not organization_id:
                 continue
             edges.append(
@@ -969,12 +1021,14 @@ def _relationship_explorer(
     for recipient in recipients:
         add_node(
             "recipient_or_contractor",
-            _normalize_organization(recipient.get("name")),
+            recipient.get("identity_id") or _normalize_organization(recipient.get("name")),
             label=recipient.get("name"),
             score=recipient.get("contractor_score"),
             known_award_value=recipient.get("known_award_value"),
             award_momentum=recipient.get("award_momentum"),
             incumbency=recipient.get("incumbency"),
+            uei=recipient.get("uei"),
+            aliases=recipient.get("aliases"),
         )
 
     graph_edges = []
@@ -1263,6 +1317,13 @@ def _opportunity_radar(records: list[dict]) -> list[dict]:
         "opportunity_label",
         "opportunity_factors",
         "recommended_action",
+        "resource_links",
+        "description_url",
+        "additional_info_link",
+        "points_of_contact",
+        "base_type",
+        "archive_date",
+        "active",
     )
     results = []
     for rank, record in enumerate(opportunities, start=1):
@@ -1570,8 +1631,8 @@ def _render_markdown(payload: dict) -> str:
             "365 days. Peer labels are analytical indicators of shared missions, agencies, "
             "or technologies—not confirmed partnerships or competitive relationships.",
             "",
-            "| Contractor | Score | Incumbency | Momentum | Awards | Recent value | Agencies | Missions | Patents |",
-            "|---|---:|---|---|---:|---:|---|---|---:|",
+            "| Contractor | Identity | Score | Incumbency | Momentum | Awards | Recent value | Agencies | Missions | Patents |",
+            "|---|---|---:|---|---|---:|---:|---|---|---:|",
         ]
     )
     for item in payload["recipients_and_contractors"][:40]:
@@ -1579,6 +1640,7 @@ def _render_markdown(payload: dict) -> str:
         missions = ", ".join(item.get("mission_ids", [])) or "Not linked"
         lines.append(
             f"| {_markdown_text(item['name'])} "
+            f"| {_markdown_text('UEI ' + item['uei'] if item.get('uei') else 'Name-resolved')} "
             f"| **{item.get('contractor_score', 0)} · "
             f"{str(item.get('contractor_label') or 'observed').upper()}** "
             f"| {str(item.get('incumbency') or 'observed').title()} "
@@ -1589,7 +1651,7 @@ def _render_markdown(payload: dict) -> str:
             f"| {len(item.get('related_patents') or [])} |"
         )
     if not payload["recipients_and_contractors"]:
-        lines.append("| No contractor profiles are available. | — | — | — | — | — | — | — | — |")
+        lines.append("| No contractor profiles are available. | — | — | — | — | — | — | — | — | — |")
 
     connected = [
         item

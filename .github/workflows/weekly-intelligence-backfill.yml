@@ -32,6 +32,8 @@ jobs:
         run: python -m pip install .
 
       - name: Backfill bounded official-source evidence
+        env:
+          SAM_GOV_API_KEY: ${{ secrets.SAM_GOV_API_KEY }}
         run: >-
           python scripts/backfill_watch_sources.py
           --config sources.yaml
@@ -51,6 +53,8 @@ jobs:
           git add reports/standards-timeline.json reports/standards-timeline.md
           git add reports/federal-missions.json reports/federal-missions.md
           git add reports/federal-funding.json reports/federal-funding.md
+          git add reports/procurement-intelligence.json reports/procurement-intelligence.md
+          git add reports/bid-no-bid.json reports/bid-no-bid.md
           if git diff --cached --quiet; then
             echo "No historical intelligence changes to commit"
           else

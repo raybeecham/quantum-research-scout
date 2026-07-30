@@ -27,6 +27,9 @@ def write_alerts(
     source_health = _read_json(reports_path / "source-health.json")
     entity_watch = _read_json(reports_path / "entity-watch.json")
     federal_funding = _read_json(reports_path / "federal-funding.json")
+    procurement_intelligence = _read_json(
+        reports_path / "procurement-intelligence.json"
+    )
     state_path = reports_path / "alerts-state.json"
     previous_state = _read_json(state_path)
     previous_active = previous_state.get("active", {})
@@ -39,6 +42,7 @@ def write_alerts(
             source_health,
             entity_watch,
             federal_funding,
+            procurement_intelligence,
             config,
             generated.date(),
         )
@@ -93,6 +97,7 @@ def _evaluate(
     source_health: dict,
     entity_watch: dict,
     federal_funding: dict,
+    procurement_intelligence: dict,
     config: dict,
     today: date,
 ) -> list[dict]:
@@ -147,6 +152,12 @@ def _evaluate(
         _funding_opportunity_alerts(
             federal_funding,
             config.get("opportunities", {}),
+        )
+    )
+    alerts.extend(
+        _procurement_document_alerts(
+            procurement_intelligence,
+            config.get("procurement_documents", {}),
         )
     )
     return alerts
@@ -212,6 +223,47 @@ def _funding_opportunity_alerts(federal_funding: dict, config: dict) -> list[dic
                     evidence_date=str(opportunity.get("date") or ""),
                 )
             )
+    return alerts
+
+
+def _procurement_document_alerts(payload: dict, config: dict) -> list[dict]:
+    if not config.get("enabled", True) or not config.get("new_amendments", True):
+        return []
+    alerts = []
+    for opportunity in payload.get("opportunities", []):
+        if not opportunity.get("new_amendment"):
+            continue
+        title = str(opportunity.get("title") or "Federal opportunity")
+        opportunity_key = str(
+            opportunity.get("opportunity_key") or opportunity.get("url") or title
+        )
+        fingerprint = sha256(opportunity_key.encode("utf-8")).hexdigest()[:12]
+        amendment = next(
+            (
+                document
+                for document in opportunity.get("documents", [])
+                if document.get("new_amendment")
+            ),
+            {},
+        )
+        alerts.append(
+            _alert(
+                f"opportunity:amendment:{fingerprint}",
+                "procurement_amendment",
+                str(config.get("severity") or "high"),
+                f"New procurement amendment: {title}",
+                (
+                    f"{amendment.get('name') or 'A linked document'} was newly identified as "
+                    "an amendment. Review changes to requirements, deadlines, and evaluation terms."
+                ),
+                str(opportunity.get("agency") or "Federal opportunity"),
+                "new-amendment",
+                "procurement-intelligence.md",
+                evidence_url=str(amendment.get("source_url") or opportunity.get("url") or ""),
+                evidence_title=str(amendment.get("name") or title),
+                evidence_date=str(opportunity.get("deadline") or ""),
+            )
+        )
     return alerts
 
 
