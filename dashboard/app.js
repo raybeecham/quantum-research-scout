@@ -21,6 +21,11 @@ const formatShortDate = value => {
   const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(text);
   return new Intl.DateTimeFormat(undefined,{dateStyle:"medium",...(dateOnly ? {timeZone:"UTC"} : {})}).format(new Date(dateOnly ? `${text}T00:00:00Z` : text));
 };
+const formatMoney = value => {
+  const amount = Number(value || 0);
+  if (!amount) return "Not reported";
+  return new Intl.NumberFormat(undefined,{style:"currency",currency:"USD",notation:"compact",maximumFractionDigits:1}).format(amount);
+};
 const friendlyReportName = (name, type) => {
   const value = String(name || "");
   const daily = value.match(/^(\d{4}-\d{2}-\d{2})-digest$/);
@@ -56,6 +61,7 @@ function render(){
   const sources = state.data.source_health?.sources || [];
   const patentPayload = state.data.patents || { patents: [], summary: {} };
   const missionPayload = state.data.federal_missions || { missions: [], discovery_candidates: [], summary: {} };
+  const fundingPayload = state.data.federal_funding || { records: [], mission_portfolios: [], summary: {} };
   document.getElementById("repo-link").href = safeUrl(state.data.repository_url);
   document.getElementById("alerts-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/alerts.md`);
   document.getElementById("hero-report-link").href = safeUrl(state.data.reports?.latest_daily?.url || "#reports");
@@ -75,7 +81,7 @@ function render(){
   const stale = sources.filter(x => x.freshness === "stale").length;
   document.getElementById("source-summary").textContent = `${healthy} healthy · ${verified} verified · ${fresh} fresh · ${stale} stale`;
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
-  renderReports(state.data.reports); renderAlerts(alerts); renderMissions(missionPayload); renderSignals(); renderPatents(patentPayload); renderWatch();
+  renderReports(state.data.reports); renderAlerts(alerts); renderMissions(missionPayload, fundingPayload); renderFunding(fundingPayload); renderSignals(); renderPatents(patentPayload); renderWatch();
   renderTrend(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderSources(sources);
   animateMetrics();
   setupReveal();
@@ -113,16 +119,19 @@ function renderAlerts(payload){
   ).join("") : "<p>No active alerts.</p>";
 }
 
-function renderMissions(payload){
+function renderMissions(payload, fundingPayload){
   const missions = payload.missions || [];
   const summary = payload.summary || {};
   const candidates = payload.discovery_candidates || [];
-  document.getElementById("mission-summary").textContent = `${summary.active || 0} active · ${summary.upcoming_milestones || 0} upcoming milestones`;
+  const fundingByMission = new Map((fundingPayload.mission_portfolios || []).map(item => [item.mission_id,item]));
+  document.getElementById("mission-summary").textContent = `${summary.active || 0} active · ${summary.upcoming_milestones || 0} milestones · ${fundingPayload.summary?.missions_with_activity || 0} with funding activity`;
   document.getElementById("mission-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/federal-missions.md`);
   document.getElementById("mission-grid").innerHTML = missions.length ? missions.slice(0, 6).map(item => {
     const next = item.next_milestone;
     const parent = item.parent_mission ? `<span>Part of ${escapeHtml(item.parent_mission)}</span>` : "";
     const update = item.updates?.[0];
+    const funding = fundingByMission.get(item.id);
+    const fundingFact = funding?.record_count ? `<div><dt>Funding activity</dt><dd>${funding.record_count} record${funding.record_count === 1 ? "" : "s"} · ${funding.open_opportunities || 0} open · ${escapeHtml(formatMoney(funding.known_award_value || funding.announced_funding_value))}</dd></div>` : "";
     return `<article class="mission-card">
       <div class="mission-head"><span>${escapeHtml(item.kind)}</span><div class="badges"><span class="badge ${escapeHtml(item.priority)}">${escapeHtml(item.priority)}</span><span class="badge ${escapeHtml(item.status)}">${escapeHtml(item.status)}</span></div></div>
       <h3><a href="${escapeHtml(safeUrl(item.official_url))}" target="_blank" rel="noopener">${escapeHtml(item.name)}</a></h3>
@@ -130,6 +139,7 @@ function renderMissions(payload){
       <dl class="mission-facts">
         <div><dt>Lead</dt><dd>${escapeHtml((item.lead_agencies || []).join(", ") || "Not listed")}</dd></div>
         <div><dt>Next milestone</dt><dd>${next ? `${escapeHtml(formatShortDate(next.target_date))} · ${escapeHtml(next.title)}` : "No dated milestone published"}</dd></div>
+        ${fundingFact}
       </dl>
       <div class="profile-themes">${(item.domains || []).slice(0, 4).map(value => `<span>${escapeHtml(value)}</span>`).join("")}${parent}</div>
       ${update ? `<a class="mission-update" href="${escapeHtml(safeUrl(update.url || item.official_url))}" target="_blank" rel="noopener">Latest: ${escapeHtml(update.title)} →</a>` : ""}
@@ -142,6 +152,35 @@ function renderMissions(payload){
   document.getElementById("mission-candidate-list").innerHTML = candidates.map(item =>
     `<a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(formatShortDate(item.date))} · ${escapeHtml(item.source || "official source")}</span></a>`
   ).join("");
+}
+
+function renderFunding(payload){
+  const summary = payload.summary || {};
+  const records = payload.records || [];
+  const portfolios = (payload.mission_portfolios || []).filter(item => item.record_count);
+  document.getElementById("funding-summary").textContent = `${summary.linked_records || 0} mission-linked · ${summary.open_opportunities || 0} open`;
+  document.getElementById("funding-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/federal-funding.md`);
+  document.getElementById("funding-metrics").innerHTML = [
+    ["Known award value",formatMoney(summary.known_award_value)],
+    ["Open opportunities",summary.open_opportunities || 0],
+    ["Missions with activity",`${summary.missions_with_activity || 0} / ${summary.tracked_missions || 0}`],
+    ["Recipients & contractors",summary.unique_recipients_and_contractors || 0]
+  ].map(([label,value]) => `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`).join("");
+  const order = {open:0,forecasted:1,awarded:2,announced:3,closed:4};
+  const visible = [...records].sort((a,b) => (order[a.status] ?? 9) - (order[b.status] ?? 9) || (b.strategic_significance_score || 0) - (a.strategic_significance_score || 0)).slice(0,6);
+  document.getElementById("funding-grid").innerHTML = visible.length ? visible.map(item => {
+    const missions = (item.mission_links || []).map(link => link.mission_name);
+    const organization = item.recipient || item.awardee || item.awarding_agency || item.funding_agency || "Organization not listed";
+    return `<article class="funding-card">
+      <div class="funding-head"><span class="funding-type">${escapeHtml(String(item.record_type || "record").replaceAll("_"," "))}</span><span class="funding-status ${escapeHtml(item.status || "open")}">${escapeHtml(item.status || "open")}</span></div>
+      <h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3>
+      <p>${escapeHtml(organization)}</p>
+      <dl><div><dt>Value</dt><dd>${escapeHtml(formatMoney(item.amount))}</dd></div><div><dt>Close / date</dt><dd>${escapeHtml(formatShortDate(item.close_date || item.date))}</dd></div></dl>
+      <div class="funding-links">${missions.length ? missions.map(name => `<span>${escapeHtml(name)}</span>`).join("") : "<span>Not mission-linked</span>"}</div>
+      <footer><span>${item.related_patent_count || 0} patent match${item.related_patent_count === 1 ? "" : "es"}</span><b>${item.strategic_significance_score || 0} · ${escapeHtml(item.significance_label || "monitor")}</b></footer>
+    </article>`;
+  }).join("") : '<div class="empty-state">No funding or procurement records have been collected yet. USAspending and Grants.gov run without credentials; SAM.gov additionally requires SAM_GOV_API_KEY.</div>';
+  document.getElementById("funding-portfolios").innerHTML = portfolios.slice(0,6).map(item => `<span><strong>${escapeHtml(item.mission_name)}</strong>${item.record_count} records · ${item.open_opportunities} open · ${item.related_patent_count || 0} analytical patent matches</span>`).join("");
 }
 
 function renderSignals(){
@@ -164,15 +203,21 @@ function renderSignals(){
 function renderPatents(payload){
   const patents = payload.patents || [];
   const summary = payload.summary || {};
-  document.getElementById("patent-summary").textContent = `${summary.curated_total || 0} notable · ${summary.automated_total || 0} automated discoveries · ranked by strategic relevance`;
+  document.getElementById("patent-summary").textContent = `${summary.families || 0} families · ${summary.applications || 0} applications · ${summary.grants || 0} grants · ranked by significance`;
   document.getElementById("patent-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/patents.md`);
   document.getElementById("patent-grid").innerHTML = patents.length ? patents.slice(0, 6).map(item => {
-    const number = item.publication_number || "Publication number unavailable";
+    const number =
+      item.publication_number ||
+      item.patent_number ||
+      item.application_number ||
+      "Patent identifier unavailable";
     const topics = (item.strategic_domains?.length ? item.strategic_domains : item.matched_keywords || []).slice(0, 3);
-    const priority = item.priority || "monitor";
+    const priority = item.significance_label || item.priority || "monitor";
     const trackingLabel = item.tracking_type === "curated" ? "notable" : "automated";
     const assessment = item.assessment ? `<p class="patent-assessment"><strong>Assessment:</strong> ${escapeHtml(item.assessment)}</p>` : "";
-    return `<article class="patent-card"><div class="patent-meta"><span><b class="patent-track">${escapeHtml(trackingLabel)}</b>${escapeHtml(number)}</span><time>${escapeHtml(formatShortDate(item.publication_date))}</time></div><h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3><p class="patent-assignee">${escapeHtml(item.assignee || "Assignee not listed")}</p><p>${escapeHtml(item.summary || "No abstract snippet is available.")}</p>${assessment}<div class="patent-footer"><div class="profile-themes">${topics.map(topic => `<span>${escapeHtml(topic)}</span>`).join("")}</div><span class="patent-priority ${escapeHtml(priority)}">${escapeHtml(priority)}</span></div></article>`;
+    const stage = `${item.document_type || "unknown"} · ${item.legal_status_normalized || "status unknown"}`;
+    const intelligence = `${item.family_size || 1} family member${item.family_size === 1 ? "" : "s"} · ${item.citation_count || 0} citations`;
+    return `<article class="patent-card"><div class="patent-meta"><span><b class="patent-track">${escapeHtml(trackingLabel)}</b>${escapeHtml(number)}</span><time>${escapeHtml(formatShortDate(item.publication_date))}</time></div><h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3><p class="patent-assignee">${escapeHtml(item.assignee || "Assignee not listed")}</p><div class="patent-intelligence"><span>${escapeHtml(stage)}</span><span>${escapeHtml(intelligence)}</span></div><p>${escapeHtml(item.summary || "No abstract snippet is available.")}</p>${assessment}<div class="patent-footer"><div class="profile-themes">${topics.map(topic => `<span>${escapeHtml(topic)}</span>`).join("")}</div><span class="patent-priority ${escapeHtml(priority)}">${item.strategic_significance_score || 0} · ${escapeHtml(priority)}</span></div></article>`;
   }).join("") : '<div class="empty-state">No patents are configured. Add notable records to the curated portfolio; automated discovery additionally requires USPTO_ODP_API_KEY.</div>';
 }
 
@@ -296,7 +341,7 @@ function setupReveal(){
   if (document.documentElement.dataset.revealSetup || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   document.documentElement.dataset.revealSetup = "true";
   const targets = document.querySelectorAll(
-    "#briefing.metrics article,.briefing-panel,.signal-card,.mission-card,.patent-card,.watch-card,.guide-grid article,.milestone-card"
+    "#briefing.metrics article,.briefing-panel,.signal-card,.mission-card,.funding-card,.patent-card,.watch-card,.guide-grid article,.milestone-card"
   );
   if (!("IntersectionObserver" in window)) return;
   document.documentElement.classList.add("reveal-ready");

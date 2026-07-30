@@ -22,6 +22,7 @@ from .source_health import write_source_health_report, write_source_observations
 from .alerts import write_alerts
 from .entity_watch import write_entity_watch
 from .federal_missions import write_federal_mission_tracker
+from .federal_funding import write_federal_funding_tracker
 from .readiness import write_readiness_report
 from .standards import write_standards_timeline
 from .storage import ResearchStore
@@ -338,6 +339,11 @@ def main(argv: list[str] | None = None) -> int:
         write_federal_mission_tracker(
             Path(args.reports_dir),
             args.missions_config,
+            classified,
+            generated_at=generated_at,
+        )
+        write_federal_funding_tracker(
+            Path(args.reports_dir),
             classified,
             generated_at=generated_at,
         )

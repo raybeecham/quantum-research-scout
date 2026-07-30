@@ -80,6 +80,31 @@ class DashboardBuildTests(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
+            (reports / "federal-funding.json").write_text(
+                json.dumps(
+                    {
+                        "summary": {
+                            "total_records": 1,
+                            "linked_records": 1,
+                            "open_opportunities": 1,
+                            "known_award_value": 2500000,
+                        },
+                        "records": [
+                            {
+                                "key": "sam:one",
+                                "record_type": "baa",
+                                "title": "Quantum BAA",
+                                "status": "open",
+                            }
+                        ],
+                        "mission_portfolios": [
+                            {"mission_id": "genesis", "mission_name": "Genesis Mission", "record_count": 1}
+                        ],
+                        "recipients_and_contractors": [],
+                    }
+                ),
+                encoding="utf-8",
+            )
             (reports / "historical-evidence.json").write_text(
                 json.dumps({"item_count": 2, "dated_count": 1, "undated_count": 1, "items": [{"key": "one"}]}),
                 encoding="utf-8",
@@ -127,6 +152,8 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["readiness"]["organizations"][0]["stage"], "planning")
             self.assertEqual(payload["standards"]["milestones"][0]["id"], "fips-203")
             self.assertEqual(payload["federal_missions"]["missions"][0]["name"], "Genesis Mission")
+            self.assertEqual(payload["federal_funding"]["summary"]["linked_records"], 1)
+            self.assertEqual(payload["federal_funding"]["records"][0]["record_type"], "baa")
             self.assertEqual(payload["historical_evidence"]["item_count"], 2)
             self.assertEqual(payload["patents"]["summary"]["total"], 1)
             self.assertEqual(payload["patents"]["summary"]["curated_total"], 1)
@@ -171,6 +198,7 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn('<details id="explore"', html)
         self.assertIn('<details id="advanced"', html)
         self.assertIn('id="missions"', html)
+        self.assertIn('id="funding"', html)
         self.assertIn('id="patents"', html)
         self.assertLess(html.index('id="reports"'), html.index('id="advanced"'))
         self.assertIn('status: "priority"', script)
@@ -178,6 +206,8 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("patent-assessment", script)
         self.assertIn("curated_total", script)
         self.assertIn("renderMissions", script)
+        self.assertIn("renderFunding", script)
+        self.assertIn("strategic_significance_score", script)
         self.assertIn("alerts.slice(0, 3)", script)
         self.assertIn("friendlyReportName", script)
         self.assertIn("revealHashSection", script)

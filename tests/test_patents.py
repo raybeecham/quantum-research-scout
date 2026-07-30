@@ -218,6 +218,60 @@ class PatentIntelligenceTests(unittest.TestCase):
         )
         self.assertEqual(payload["patents"][2]["strategic_domains"], [])
 
+    def test_tracker_groups_explicit_families_and_scores_stage_status_and_citations(self) -> None:
+        curated = [
+            {
+                "publication_number": "US20250000001A1",
+                "application_number": "US18999999",
+                "title": "Post-quantum network security",
+                "publication_date": "2025-01-02",
+                "legal_status": "Pending examination",
+                "assignee": "Example Security Corp.",
+                "topics": ["Post-quantum cryptography", "Network security"],
+                "url": "https://patents.example/application",
+            },
+            {
+                "publication_number": "US13000000B2",
+                "application_number": "US18999999",
+                "patent_number": "US13000000",
+                "title": "Post-quantum network security",
+                "publication_date": "2026-01-02",
+                "grant_date": "2026-01-02",
+                "legal_status": "Active",
+                "assignee": "Example Security Corp.",
+                "topics": ["Post-quantum cryptography", "Network security"],
+                "cited_patents": ["US20250000001A1"],
+                "url": "https://patents.example/grant",
+            },
+        ]
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            json_path, markdown_path = write_patent_tracker(
+                temp_dir,
+                [],
+                curated_patents=curated,
+                generated_at=datetime(2026, 7, 30, tzinfo=timezone.utc),
+            )
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+            markdown = markdown_path.read_text(encoding="utf-8")
+
+        self.assertEqual(payload["summary"]["families"], 1)
+        self.assertEqual(payload["summary"]["applications"], 1)
+        self.assertEqual(payload["summary"]["grants"], 1)
+        self.assertEqual(payload["summary"]["status_known"], 2)
+        self.assertEqual(payload["families"][0]["member_count"], 2)
+        self.assertEqual(payload["families"][0]["grant_count"], 1)
+        application = next(
+            item for item in payload["patents"] if item["document_type"] == "application"
+        )
+        grant = next(item for item in payload["patents"] if item["document_type"] == "grant")
+        self.assertEqual(application["forward_citation_count"], 1)
+        self.assertEqual(grant["backward_citation_count"], 1)
+        self.assertEqual(grant["legal_status_normalized"], "active")
+        self.assertGreater(grant["strategic_significance_score"], 0)
+        self.assertTrue(grant["significance_factors"])
+        self.assertIn("Highest-Significance Patent Families", markdown)
+
 
 if __name__ == "__main__":
     unittest.main()

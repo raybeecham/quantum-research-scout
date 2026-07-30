@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import math
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -100,25 +101,27 @@ def write_patent_tracker(
             continue
         record = _patent_record(item)
         if record["key"]:
-            by_key[record["key"]] = record
+            by_key[record["key"]] = _merge_record(by_key.get(record["key"], {}), record)
 
     for item in curated_patents or []:
         record = _curated_patent_record(item)
         if not record["key"]:
             continue
         existing_record = by_key.get(str(record["key"]), {})
-        by_key[str(record["key"])] = {**existing_record, **record}
+        by_key[str(record["key"])] = _merge_record(existing_record, record)
 
     cutoff = (generated - timedelta(days=retention_days)).date().isoformat()
     records = [
-        _with_strategic_relevance(item)
+        _normalize_patent_enrichment(_with_strategic_relevance(item))
         for item in by_key.values()
         if item.get("tracking_type") == "curated"
         or not item.get("publication_date")
         or str(item["publication_date"]) >= cutoff
     ]
+    records, families = _enrich_patent_families(records, generated)
     records.sort(
         key=lambda item: (
+            int(item.get("strategic_significance_score") or 0),
             int(item.get("strategic_relevance_score") or 0),
             int(item.get("score") or 0),
             str(item.get("publication_date") or ""),
@@ -131,12 +134,13 @@ def write_patent_tracker(
     assignees = {str(item.get("assignee")) for item in records if item.get("assignee")}
     curated_total = sum(item.get("tracking_type") == "curated" for item in records)
     payload = {
-        "version": 3,
+        "version": 4,
         "updated_at": generated.isoformat(),
         "source": "Curated patent portfolio and USPTO Open Data Portal Patent File Wrapper metadata",
         "ranking": (
-            "Strategic relevance first, then configured evidence score, publication date, and title. "
-            "Core domains are post-quantum cryptography, quantum technology, cybersecurity, AI, and cloud."
+            "Strategic significance first, combining domain relevance, document stage, legal status, "
+            "citation evidence, family depth, recency, and assignee attribution. Evidence score and "
+            "publication date break ties."
         ),
         "source_note": (
             "Patent publications are early intelligence indicators, not proof of implementation, validity, "
@@ -155,7 +159,17 @@ def write_patent_tracker(
             ),
             "curated_total": curated_total,
             "automated_total": len(records) - curated_total,
+            "families": len(families),
+            "applications": sum(item.get("document_type") == "application" for item in records),
+            "grants": sum(item.get("document_type") == "grant" for item in records),
+            "active_or_pending": sum(
+                item.get("legal_status_normalized") in {"active", "pending", "granted"}
+                for item in records
+            ),
+            "status_known": sum(item.get("legal_status_normalized") != "unknown" for item in records),
+            "with_citations": sum(int(item.get("citation_count") or 0) > 0 for item in records),
         },
+        "families": families,
         "patents": records,
     }
     json_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
@@ -174,6 +188,8 @@ def _patent_record(item: ResearchItem) -> dict[str, object]:
         "key": key,
         "title": item.title,
         "publication_number": publication_number or None,
+        "application_number": raw.get("application_number") or None,
+        "patent_number": raw.get("patent_number") or None,
         "publication_date": publication_date,
         "priority_date": raw.get("priority_date"),
         "filing_date": raw.get("filing_date"),
@@ -189,7 +205,16 @@ def _patent_record(item: ResearchItem) -> dict[str, object]:
         "tracking_type": "automated",
         "priority": _priority_label(item.score),
         "assessment": None,
-        "legal_status": raw.get("legal_status"),
+        "legal_status": raw.get("legal_status") or raw.get("application_status"),
+        "application_type": raw.get("application_type"),
+        "family_id": raw.get("family_id"),
+        "parent_applications": raw.get("parent_applications") or [],
+        "child_applications": raw.get("child_applications") or [],
+        "priority_numbers": raw.get("priority_numbers") or [],
+        "continuation_type": raw.get("continuation_type"),
+        "cited_patents": raw.get("cited_patents") or [],
+        "backward_citation_count": int(raw.get("backward_citation_count") or 0),
+        "forward_citation_count": int(raw.get("forward_citation_count") or 0),
     }
 
 
@@ -203,6 +228,8 @@ def _curated_patent_record(item: dict) -> dict[str, object]:
         "key": key,
         "title": str(item.get("title") or "Untitled patent").strip(),
         "publication_number": publication_number or None,
+        "application_number": item.get("application_number"),
+        "patent_number": item.get("patent_number"),
         "publication_date": item.get("publication_date"),
         "priority_date": item.get("priority_date"),
         "filing_date": item.get("filing_date"),
@@ -219,6 +246,21 @@ def _curated_patent_record(item: dict) -> dict[str, object]:
         "priority": str(item.get("priority") or _priority_label(score)).casefold(),
         "assessment": compact_summary(str(item.get("assessment") or ""), 400) or None,
         "legal_status": item.get("legal_status"),
+        "application_type": item.get("application_type"),
+        "family_id": item.get("family_id"),
+        "parent_applications": [
+            str(value) for value in item.get("parent_applications", []) if value
+        ],
+        "child_applications": [
+            str(value) for value in item.get("child_applications", []) if value
+        ],
+        "priority_numbers": [
+            str(value) for value in item.get("priority_numbers", []) if value
+        ],
+        "continuation_type": item.get("continuation_type"),
+        "cited_patents": [str(value) for value in item.get("cited_patents", []) if value],
+        "backward_citation_count": int(item.get("backward_citation_count") or 0),
+        "forward_citation_count": int(item.get("forward_citation_count") or 0),
     }
 
 
@@ -254,6 +296,263 @@ def _with_strategic_relevance(item: dict) -> dict:
     return record
 
 
+def _merge_record(existing: dict, incoming: dict) -> dict:
+    merged = dict(existing)
+    for key, value in incoming.items():
+        if value not in (None, "", [], {}):
+            merged[key] = value
+        elif key not in merged:
+            merged[key] = value
+    return merged
+
+
+def _normalize_patent_enrichment(item: dict) -> dict:
+    record = dict(item)
+    publication_number = _normalized_patent_identifier(record.get("publication_number"))
+    application_value = record.get("application_number")
+    if not application_value:
+        match = re.search(r"/details/([A-Za-z0-9-]+)/", str(record.get("url") or ""))
+        application_value = match.group(1) if match else None
+    application_number = _normalized_patent_identifier(application_value)
+    patent_number = _normalized_patent_identifier(record.get("patent_number"))
+    kind_match = re.search(r"([A-Z]\d)$", publication_number)
+    kind_code = kind_match.group(1) if kind_match else None
+    if record.get("grant_date") or patent_number or (kind_code and kind_code[0] in {"B", "E", "S"}):
+        document_type = "grant"
+    elif publication_number or application_number:
+        document_type = "application"
+    else:
+        document_type = "unknown"
+    record["publication_number"] = record.get("publication_number") or None
+    record["application_number"] = record.get("application_number") or application_number or None
+    record["patent_number"] = record.get("patent_number") or None
+    record["kind_code"] = kind_code
+    record["document_type"] = document_type
+    record["legal_status_normalized"] = _normalized_legal_status(
+        record.get("legal_status"),
+        document_type=document_type,
+    )
+    record["parent_applications"] = _normalized_identifier_list(
+        record.get("parent_applications")
+    )
+    record["child_applications"] = _normalized_identifier_list(
+        record.get("child_applications")
+    )
+    record["priority_numbers"] = _normalized_identifier_list(record.get("priority_numbers"))
+    record["cited_patents"] = _normalized_identifier_list(record.get("cited_patents"))
+    record["backward_citation_count"] = max(
+        int(record.get("backward_citation_count") or 0),
+        len(record["cited_patents"]),
+    )
+    record["forward_citation_count"] = int(record.get("forward_citation_count") or 0)
+    return record
+
+
+def _enrich_patent_families(records: list[dict], generated: datetime) -> tuple[list[dict], list[dict]]:
+    publication_lookup = {
+        _normalized_patent_identifier(item.get("publication_number")): item
+        for item in records
+        if item.get("publication_number")
+    }
+    for item in records:
+        for cited in item.get("cited_patents", []):
+            cited_record = publication_lookup.get(_normalized_patent_identifier(cited))
+            if cited_record is not None:
+                cited_record["forward_citation_count"] = int(
+                    cited_record.get("forward_citation_count") or 0
+                ) + 1
+
+    by_family: dict[str, list[dict]] = {}
+    for item in records:
+        family_key, basis = _patent_family_key(item)
+        item["family_key"] = family_key
+        item["family_basis"] = basis
+        by_family.setdefault(family_key, []).append(item)
+
+    family_summaries: list[dict] = []
+    for family_key, members in by_family.items():
+        members.sort(
+            key=lambda item: (
+                item.get("document_type") == "grant",
+                str(item.get("publication_date") or ""),
+            ),
+            reverse=True,
+        )
+        member_refs = [
+            {
+                "publication_number": item.get("publication_number"),
+                "application_number": item.get("application_number"),
+                "document_type": item.get("document_type"),
+                "url": item.get("url"),
+            }
+            for item in members
+        ]
+        for item in members:
+            item["family_size"] = len(members)
+            item["family_members"] = member_refs
+            item["is_continuation"] = bool(
+                item.get("parent_applications") or item.get("continuation_type")
+            )
+            item["citation_count"] = int(item.get("backward_citation_count") or 0) + int(
+                item.get("forward_citation_count") or 0
+            )
+            significance, factors = _strategic_significance(item, generated)
+            item["strategic_significance_score"] = significance
+            item["significance_label"] = _significance_label(significance)
+            item["significance_factors"] = factors
+        primary = max(
+            members,
+            key=lambda item: (
+                int(item.get("strategic_significance_score") or 0),
+                item.get("document_type") == "grant",
+                str(item.get("publication_date") or ""),
+            ),
+        )
+        family_summaries.append(
+            {
+                "family_key": family_key,
+                "family_basis": primary.get("family_basis"),
+                "title": primary.get("title"),
+                "assignee": primary.get("assignee"),
+                "primary_publication_number": primary.get("publication_number"),
+                "primary_url": primary.get("url"),
+                "member_count": len(members),
+                "grant_count": sum(item.get("document_type") == "grant" for item in members),
+                "application_count": sum(
+                    item.get("document_type") == "application" for item in members
+                ),
+                "citation_count": sum(int(item.get("citation_count") or 0) for item in members),
+                "strategic_significance_score": int(
+                    primary.get("strategic_significance_score") or 0
+                ),
+                "significance_label": primary.get("significance_label"),
+                "members": member_refs,
+            }
+        )
+    family_summaries.sort(
+        key=lambda item: (
+            int(item["strategic_significance_score"]),
+            int(item["member_count"]),
+            int(item["citation_count"]),
+        ),
+        reverse=True,
+    )
+    return records, family_summaries
+
+
+def _patent_family_key(item: dict) -> tuple[str, str]:
+    explicit = _normalized_patent_identifier(item.get("family_id"))
+    if explicit:
+        return f"family:{explicit}", "provider family identifier"
+    parents = item.get("parent_applications") or []
+    if parents:
+        return f"application:{parents[0]}", "continuation parent application"
+    priorities = item.get("priority_numbers") or []
+    if priorities:
+        return f"priority:{priorities[0]}", "priority application"
+    application = _normalized_patent_identifier(item.get("application_number"))
+    if application:
+        return f"application:{application}", "application number"
+    publication = _normalized_patent_identifier(item.get("publication_number"))
+    return f"publication:{publication or item.get('key')}", "single publication"
+
+
+def _strategic_significance(item: dict, generated: datetime) -> tuple[int, list[str]]:
+    factors: list[str] = []
+    relevance = int(item.get("strategic_relevance_score") or 0)
+    score = min(55, round(relevance * 0.4))
+    if score:
+        factors.append(f"strategic domain relevance +{score}")
+    document_points = {"grant": 12, "application": 5}.get(str(item.get("document_type")), 0)
+    score += document_points
+    if document_points:
+        factors.append(f"{item['document_type']} stage +{document_points}")
+    status = str(item.get("legal_status_normalized") or "unknown")
+    status_points = 8 if status in {"active", "pending", "granted"} else 0
+    score += status_points
+    if status_points:
+        factors.append(f"{status} legal status +{status_points}")
+    citation_count = int(item.get("citation_count") or 0)
+    citation_points = min(12, round(math.log2(citation_count + 1) * 4))
+    score += citation_points
+    if citation_points:
+        factors.append(f"{citation_count} citation link(s) +{citation_points}")
+    family_points = min(8, max(0, int(item.get("family_size") or 1) - 1) * 3)
+    score += family_points
+    if family_points:
+        factors.append(f"{item['family_size']}-member family +{family_points}")
+    publication_date = _safe_date(item.get("publication_date"))
+    if publication_date:
+        age_days = max(0, (generated.date() - publication_date).days)
+        recency_points = 5 if age_days <= 365 else 2 if age_days <= 730 else 0
+        score += recency_points
+        if recency_points:
+            factors.append(f"recent publication +{recency_points}")
+    if item.get("tracking_type") == "curated":
+        score += 5
+        factors.append("analyst-curated +5")
+    if item.get("assignee"):
+        score += 3
+        factors.append("named assignee +3")
+    return min(100, score), factors
+
+
+def _normalized_legal_status(value: object, *, document_type: str) -> str:
+    text = str(value or "").casefold()
+    if any(term in text for term in ("abandon", "withdraw", "terminated", "cancel")):
+        return "abandoned"
+    if any(term in text for term in ("expire", "lapse")):
+        return "expired"
+    if "active" in text:
+        return "active"
+    if any(term in text for term in ("pending", "docketed", "exam", "filed")):
+        return "pending"
+    if any(term in text for term in ("grant", "patented", "issued")):
+        return "granted"
+    if document_type == "grant":
+        return "granted"
+    return "unknown"
+
+
+def _significance_label(score: int) -> str:
+    if score >= 80:
+        return "critical"
+    if score >= 60:
+        return "high"
+    if score >= 40:
+        return "notable"
+    return "monitor"
+
+
+def _normalized_patent_identifier(value: object) -> str:
+    return re.sub(r"[^A-Za-z0-9]", "", str(value or "")).upper()
+
+
+def _normalized_identifier_list(value: object) -> list[str]:
+    if isinstance(value, str):
+        values = [value]
+    elif isinstance(value, list):
+        values = value
+    else:
+        values = []
+    return list(
+        dict.fromkeys(
+            identifier
+            for item in values
+            if (identifier := _normalized_patent_identifier(item))
+        )
+    )
+
+
+def _safe_date(value: object):
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(str(value)).date()
+    except ValueError:
+        return None
+
+
 def _load_tracker(path: Path) -> dict:
     if not path.exists():
         return {"patents": []}
@@ -273,7 +572,7 @@ def _render_markdown(payload: dict) -> str:
         "",
         "> **Early IP signals** · Quantum and PQC · AI systems · Distributed sensing · Security and privacy",
         "",
-        "[Report Index](README.md) · [Signal Tracker](signals.md)",
+        "[Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)",
         "",
         f"_Updated {payload['updated_at']}_",
         "",
@@ -286,15 +585,44 @@ def _render_markdown(payload: dict) -> str:
         f"- Automated recent discoveries: **{summary.get('automated_total', 0)}**",
         f"- Published in the last 30 days: **{summary['last_30_days']}**",
         f"- Unique named assignees: **{summary['unique_assignees']}**",
+        f"- Patent families: **{summary.get('families', 0)}**",
+        f"- Applications / grants: **{summary.get('applications', 0)} / {summary.get('grants', 0)}**",
+        f"- Known legal status: **{summary.get('status_known', 0)} of {summary['total']}**",
+        f"- Publications with citation evidence: **{summary.get('with_citations', 0)}**",
+        "",
+        "## Highest-Significance Patent Families",
+        "",
+        "Family grouping uses provider family identifiers, parent/priority applications, or a shared "
+        "application number. Records without explicit continuity evidence remain separate.",
+        "",
+        "| Family | Assignee | Applications / grants | Citations | Significance |",
+        "|---|---|---:|---:|---:|",
+    ]
+    for family in payload.get("families", [])[:20]:
+        title = str(family.get("title") or "Untitled family").replace("|", r"\|")
+        assignee = str(family.get("assignee") or "Not listed").replace("|", r"\|")
+        link = f"[{title}]({family.get('primary_url') or '#'})"
+        lines.append(
+            f"| {link}<br><small>{family.get('primary_publication_number') or family['family_key']}</small> "
+            f"| {assignee} | {family.get('application_count', 0)} / {family.get('grant_count', 0)} "
+            f"| {family.get('citation_count', 0)} "
+            f"| **{family.get('strategic_significance_score', 0)} · "
+            f"{str(family.get('significance_label') or 'monitor').upper()}** |"
+        )
+    if not payload.get("families"):
+        lines.append("| No patent families are available. | — | — | — | — |")
+    lines.extend(
+        [
         "",
         "## Notable Patent Watchlist",
         "",
         "This curated portfolio keeps strategically important patents visible even when they are older than the "
         "rolling discovery window or the USPTO API key is unavailable.",
         "",
-        "| Publication | Date | Assignee | Priority | Why tracked |",
-        "|---|---|---|---|---|",
-    ]
+        "| Publication | Stage / status | Assignee | Significance | Why tracked |",
+        "|---|---|---|---:|---|",
+        ]
+    )
     for item in curated:
         title = str(item["title"]).replace("|", r"\|")
         assignee = str(item.get("assignee") or "Not listed").replace("|", r"\|")
@@ -302,8 +630,10 @@ def _render_markdown(payload: dict) -> str:
         link = f"[{title}]({item['url']})"
         lines.append(
             f"| {link}<br><small>{item.get('publication_number') or 'Publication number unavailable'}</small> "
-            f"| {item.get('publication_date') or 'Unknown'} | {assignee} "
-            f"| {str(item.get('priority') or 'monitor').upper()} | {assessment} |"
+            f"| {str(item.get('document_type') or 'unknown').title()} · "
+            f"{str(item.get('legal_status_normalized') or 'unknown').title()} | {assignee} "
+            f"| **{item.get('strategic_significance_score', 0)} · "
+            f"{str(item.get('significance_label') or 'monitor').upper()}** | {assessment} |"
         )
     if not curated:
         lines.append("| No curated patents are configured. | — | — | — | — |")
@@ -315,22 +645,21 @@ def _render_markdown(payload: dict) -> str:
             "The rolling two-year discovery ledger is populated by the USPTO Open Data Portal when "
             "`USPTO_ODP_API_KEY` is configured.",
             "",
-            "| Publication | Date | Assignee | Score | Topic |",
-            "|---|---|---|---:|---|",
+            "| Publication | Stage / status | Assignee | Family / citations | Significance |",
+            "|---|---|---|---|---:|",
         ]
     )
     for item in automated:
         title = str(item["title"]).replace("|", r"\|")
         assignee = str(item.get("assignee") or "Not listed").replace("|", r"\|")
-        topic = (
-            ", ".join(item.get("strategic_domains") or [])
-            or ", ".join(item.get("matched_keywords") or [])
-            or "Configured patent query"
-        )
         link = f"[{title}]({item['url']})"
         lines.append(
             f"| {link}<br><small>{item.get('publication_number') or 'Publication number unavailable'}</small> "
-            f"| {item.get('publication_date') or 'Unknown'} | {assignee} | {item.get('score', 0)} | {topic} |"
+            f"| {str(item.get('document_type') or 'unknown').title()} · "
+            f"{str(item.get('legal_status_normalized') or 'unknown').title()} | {assignee} "
+            f"| {item.get('family_size', 1)} member(s) · {item.get('citation_count', 0)} citation(s) "
+            f"| **{item.get('strategic_significance_score', 0)} · "
+            f"{str(item.get('significance_label') or 'monitor').upper()}** |"
         )
     if not automated:
         lines.append(

@@ -285,6 +285,25 @@ def _configured_sources(config: AgentConfig) -> tuple[list[tuple[str, str]], lis
             (item.get("name", "USPTO Patent Intelligence"), "patent", item.get("enabled", True))
             for item in config.patents.get("queries", [])
         )
+    if config.federal_funding.get("enabled", True):
+        funding_queries = config.federal_funding.get("queries", [])
+        for provider_key, source_type, default_name in (
+            ("usaspending", "federal_award", "USAspending"),
+            ("grants_gov", "grant_opportunity", "Grants.gov"),
+            ("sam_gov", "procurement", "SAM.gov"),
+        ):
+            provider = config.federal_funding.get(provider_key) or {}
+            key_env = str(provider.get("api_key_env") or "")
+            available = not key_env or bool(os.getenv(key_env))
+            if provider.get("enabled", True) and available:
+                sources.extend(
+                    (
+                        f"{default_name} · {item.get('name', item.get('keyword', 'Federal funding'))}",
+                        source_type,
+                        item.get("enabled", True),
+                    )
+                    for item in funding_queries
+                )
     sources.extend((item.get("name", item.get("url", "arXiv RSS")), "arxiv_rss", item.get("enabled", True)) for item in config.arxiv_rss)
     if config.arxiv.get("enabled", True):
         sources.extend((item.get("name", "arXiv"), "arxiv", item.get("enabled", True)) for item in config.arxiv.get("queries", []))

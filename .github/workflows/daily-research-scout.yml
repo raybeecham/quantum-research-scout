@@ -52,6 +52,7 @@ jobs:
           REPORTS_DIR: ${{ github.workspace }}/reports
           REPORT_DATE: ${{ inputs.report_date || '' }}
           USPTO_ODP_API_KEY: ${{ secrets.USPTO_ODP_API_KEY }}
+          SAM_GOV_API_KEY: ${{ secrets.SAM_GOV_API_KEY }}
         run: |
           mkdir -p "$REPORTS_DIR"
           RETENTION_DAYS=30

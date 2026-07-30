@@ -30,6 +30,15 @@ def build_dashboard(
         reports / "federal-missions.json",
         {"missions": [], "upcoming_milestones": [], "discovery_candidates": [], "summary": {}},
     )
+    federal_funding = _read_json(
+        reports / "federal-funding.json",
+        {
+            "records": [],
+            "mission_portfolios": [],
+            "recipients_and_contractors": [],
+            "summary": {},
+        },
+    )
     historical = _read_json(reports / "historical-evidence.json", {"items": [], "item_count": 0})
     patents = _read_json(
         reports / "patents.json",
@@ -46,10 +55,11 @@ def build_dashboard(
         "readiness": readiness,
         "standards": standards,
         "federal_missions": federal_missions,
+        "federal_funding": _dashboard_federal_funding(federal_funding),
         "historical_evidence": {
             key: historical.get(key) for key in ("updated_at", "lookback_days", "item_count", "dated_count", "undated_count")
         },
-        "patents": patents,
+        "patents": _dashboard_patents(patents),
         "reports": _report_links(reports, repo_url.rstrip("/")),
     }
     asset_names = ("index.html", "entity.html", "styles.css", "components.css", "app.js", "entity.js")
@@ -103,6 +113,83 @@ def _dashboard_signals(state: dict) -> dict:
     themes.sort(key=lambda item: (status_order.get(item.get("status"), 9), importance_order.get(item.get("importance"), 9), item["name"]))
     overall_trend = [{"date": day, "count": len(keys)} for day, keys in sorted(overall_by_date.items())]
     return {"updated_at": state.get("updated_at"), "themes": themes, "overall_trend": overall_trend}
+
+
+def _dashboard_federal_funding(payload: dict) -> dict:
+    records = payload.get("records", [])
+    prioritized: list[dict] = []
+    seen: set[str] = set()
+    groups = (
+        [item for item in records if item.get("status") in {"open", "forecasted"}],
+        [item for item in records if item.get("mission_links")],
+        records,
+    )
+    for group in groups:
+        for item in group:
+            key = str(item.get("key") or item.get("url") or item.get("title"))
+            if key in seen:
+                continue
+            seen.add(key)
+            entry = {
+                key: value
+                for key, value in item.items()
+                if key
+                not in {
+                    "significance_factors",
+                    "related_patents",
+                    "configured_mission_ids",
+                    "assistance_listing_numbers",
+                }
+            }
+            entry["related_patent_count"] = len(item.get("related_patents") or [])
+            prioritized.append(entry)
+            if len(prioritized) >= 60:
+                break
+        if len(prioritized) >= 60:
+            break
+    portfolios = []
+    for item in payload.get("mission_portfolios", []):
+        entry = {
+            key: value
+            for key, value in item.items()
+            if key not in {"records", "related_patents"}
+        }
+        entry["related_patent_count"] = len(item.get("related_patents") or [])
+        portfolios.append(entry)
+    return {
+        "updated_at": payload.get("updated_at"),
+        "as_of_date": payload.get("as_of_date"),
+        "method_note": payload.get("method_note"),
+        "summary": payload.get("summary", {}),
+        "records": prioritized,
+        "mission_portfolios": portfolios,
+    }
+
+
+def _dashboard_patents(payload: dict) -> dict:
+    records = []
+    for item in payload.get("patents", [])[:12]:
+        records.append(
+            {
+                key: value
+                for key, value in item.items()
+                if key
+                not in {
+                    "family_members",
+                    "significance_factors",
+                    "cited_patents",
+                    "parent_applications",
+                    "child_applications",
+                    "priority_numbers",
+                }
+            }
+        )
+    return {
+        "updated_at": payload.get("updated_at"),
+        "ranking": payload.get("ranking"),
+        "summary": payload.get("summary", {}),
+        "patents": records,
+    }
 
 
 def _report_links(reports: Path, repo_url: str) -> dict:

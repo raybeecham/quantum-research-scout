@@ -69,6 +69,50 @@ class HttpClient:
                 LOGGER.warning("Fetch failed for %s: %s", url, exc)
         raise RuntimeError(f"Failed to fetch {url}: {last_error}")
 
+    def post_text(
+        self,
+        url: str,
+        payload: dict[str, Any],
+        headers: dict[str, str] | None = None,
+    ) -> tuple[str, str]:
+        last_error: Exception | None = None
+        request_headers = {"Content-Type": "application/json", **(headers or {})}
+        for attempt in range(self.retries + 1):
+            try:
+                response = self.session.post(
+                    url,
+                    json=payload,
+                    headers=request_headers,
+                    timeout=self.timeout_seconds,
+                )
+                response.raise_for_status()
+                response.encoding = _best_response_encoding(response)
+                return response.text, response.url
+            except requests.HTTPError as exc:
+                last_error = exc
+                response = exc.response
+                retry_after = (
+                    _retry_after_seconds(response.headers.get("Retry-After"))
+                    if response is not None and response.status_code == 429
+                    else 0
+                )
+                if attempt < self.retries:
+                    delay = retry_after or _exponential_backoff_seconds(
+                        attempt,
+                        self.backoff_base_seconds,
+                        self.max_backoff_seconds,
+                    )
+                    time.sleep(delay)
+                    continue
+                LOGGER.warning("POST failed for %s: %s", url, exc)
+            except requests.RequestException as exc:
+                last_error = exc
+                if attempt < self.retries:
+                    time.sleep(1 + attempt)
+                    continue
+                LOGGER.warning("POST failed for %s: %s", url, exc)
+        raise RuntimeError(f"Failed to post to {url}: {last_error}")
+
 
 def _retry_after_seconds(value: str | None) -> int:
     if not value:

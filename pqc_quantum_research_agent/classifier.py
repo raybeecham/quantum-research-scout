@@ -549,6 +549,9 @@ SOURCE_CATEGORY_BONUS: dict[str, str] = {
 
 SOURCE_TYPE_BONUS: dict[str, int] = {
     "patent": 8,
+    "federal_award": 12,
+    "grant_opportunity": 10,
+    "procurement": 10,
     "arxiv": 8,
     "arxiv_rss": 8,
     "iacr_eprint": 14,

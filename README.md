@@ -2,7 +2,7 @@
 
 Automated daily research scout for post-quantum cryptography, quantum technology, and AI security signals.
 
-Quantum Research Scout collects from patent-publication metadata, arXiv, IACR ePrint, RSS feeds, and configurable web pages, then classifies, scores, deduplicates, stores, date-filters, and reports the results as a compact Markdown intelligence digest.
+Quantum Research Scout collects from patent-publication metadata, federal award and opportunity APIs, arXiv, IACR ePrint, RSS feeds, and configurable web pages, then classifies, scores, deduplicates, stores, date-filters, and reports the results as a compact Markdown intelligence digest.
 
 The installable CLI is still named `pqc-quantum-research-agent`.
 
@@ -12,7 +12,7 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 
 ## What It Does
 
-- Collects patent publications, papers, and articles from the USPTO Open Data Portal, arXiv, IACR ePrint, RSS feeds, and configured URLs.
+- Collects patent publications, federal awards and opportunities, papers, and articles from the USPTO Open Data Portal, USAspending, Grants.gov, optional SAM.gov access, arXiv, IACR ePrint, RSS feeds, and configured URLs.
 - Includes default source definitions for The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, NIST CSRC, CISA, PQCA, Open Quantum Safe, Cloudflare, Google Security, IBM Quantum, Microsoft Quantum, AWS, IonQ, Quantinuum, Rigetti, Atom Computing, PsiQuantum, QuEra, Intel Quantum, Deloitte, Accenture and Accenture Federal Services, Booz Allen Hamilton, Lockheed Martin, ENISA, ETSI, BSI Germany, PQShield, SandboxAQ, DigiCert, Thales, and others. Sources that consistently reject automation remain documented but disabled.
 - Deduplicates by canonical URL, title hash, and fuzzy title similarity.
 - Classifies each item into:
@@ -36,7 +36,8 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - Writes a deterministic monthly synthesis to `reports/monthly/YYYY/` and maintains `reports/README.md` as the archive index.
 - Maintains a persistent, deduplicated signal ledger in `reports/signals.json` with a human-readable momentum dashboard in `reports/signals.md`.
 - Maintains a relationship-aware federal mission tracker with official objectives, milestones, updates, and an automated queue for newly announced mission candidates.
-- Maintains a curated notable-patent portfolio plus a rolling two-year automated publication ledger in `reports/patents.json`, with a readable landscape summary in `reports/patents.md`.
+- Connects missions to awards, grants, BAAs, RFIs, acquisition notices, recipients, contractors, and cautiously labeled patent relationships in `reports/federal-funding.json`.
+- Maintains a curated notable-patent portfolio plus a rolling two-year automated publication ledger, grouping explicit families and continuations while tracking document stage, legal status, citations, and strategic significance.
 - Maintains a bounded historical evidence ledger for official watch sources. Historical records enrich organization profiles but are explicitly excluded from alerts.
 - Scores each watched organization by the highest publicly evidenced PQC engagement stage: awareness, inventory, planning, pilot/testing, or production.
 - Tracks authoritative PQC standards, policy, procurement, and migration milestones with exact deadlines distinguished from planning estimates.
@@ -49,7 +50,8 @@ PQC and quantum technology move quickly across papers, standards bodies, vendor 
 - [Report index](reports/README.md) — latest daily, weekly, and monthly reports plus archive navigation
 - [Persistent signal tracker](reports/signals.md) — momentum, importance, confidence, status, follow-up, and evidence
 - [Federal mission tracker](reports/federal-missions.md) — named national efforts, lead agencies, relationships, milestones, and official updates
-- [Patent intelligence](reports/patents.md) — recent publications, assignees, publication dates, scores, and topic matches
+- [Federal funding and procurement](reports/federal-funding.md) — mission-linked awards, grants, acquisition notices, contractors, and patent-assignee connections
+- [Patent intelligence](reports/patents.md) — families, applications and grants, legal status, citations, assignees, and strategic significance
 - [Source health](reports/source-health.md) — rolling reliability, expected idle periods, disabled sources, and active warnings
 - [Intelligence alerts](reports/alerts.md) — new actionable signals, rising momentum, critical themes, and source degradation
 - [Entity and technology watch](reports/entity-watch.md) — organization, standards, algorithm, and technology momentum
@@ -64,7 +66,7 @@ Daily reports provide the evidence stream. Weekly and monthly syntheses reduce r
 
 ## Visual Dashboard
 
-The GitHub Pages dashboard is a static, responsive portal built from structured report artifacts and the report archive. Its primary view is a compact briefing containing the latest reports and three highest-priority conditions. Federal missions, signals, patents, and watchlists remain available inside a collapsed **Explore on demand** tracker; definitions, evidence trends, readiness scorecards, standards, comparisons, coverage, and source health live in a separate collapsed **Research & methods** panel. This progressive layout keeps routine scanning focused without removing deeper evidence or operating detail.
+The GitHub Pages dashboard is a static, responsive portal built from structured report artifacts and the report archive. Its primary view is a compact briefing containing the latest reports and three highest-priority conditions. Federal missions, funding and procurement, signals, patents, and watchlists remain available inside a collapsed **Explore on demand** tracker; definitions, evidence trends, readiness scorecards, standards, comparisons, coverage, and source health live in a separate collapsed **Research & methods** panel. This progressive layout keeps routine scanning focused without removing deeper evidence or operating detail.
 
 Organization and technology names open dedicated profiles with evidence trends, a research timeline, active alerts, themes, first-party coverage, and readiness support. The comparison view places two organizations side by side across evidence volume, recent momentum, alerts, themes, readiness, coverage, source verification, and freshness. Build-versioned CSS, JavaScript, and data URLs prevent stale cached assets after deployment. No application server or runtime database is required.
 
@@ -74,11 +76,19 @@ Organization and technology names open dedicated profiles with evidence trends, 
 
 Daily collection and the weekly official-source backfill merge newly observed `.gov` and `.mil` updates into `reports/federal-missions.json` and `reports/federal-missions.md`. First-party DARPA, NSF, Department of War, DOE, and White House sources support ongoing discovery. Announcements that look like a new mission but do not match a curated record enter a review queue instead of being promoted automatically. Named projects, programs, challenges, campaigns, and strategies must also show strategic scope and execution evidence, preserving broad discovery without allowing a routine agency project or mission statement to become a strategic mission record.
 
+## Federal Funding and Procurement
+
+The daily collector searches official USAspending award data and open Grants.gov opportunities across quantum technology, PQC, AI, cybersecurity, advanced computing, autonomy, sensing, and exact mission names. SAM.gov adds contract opportunities, BAAs, RFIs, solicitations, and award notices when the optional `SAM_GOV_API_KEY` secret is configured. Missing optional credentials are skipped quietly.
+
+`reports/federal-funding.json` is a durable relationship ledger. It connects records to missions through configured IDs, exact program-name matches, or conservative agency/domain inference; aggregates known award values and recipients; matches recipient or contractor names to patent assignees; and emits explicit relationship edges. Exact and inferred links retain their basis and confidence. A domain-overlap patent match is analytical context—not evidence that the patent was funded by, used by, or formally associated with a mission.
+
 ## Patent Intelligence
 
 Patent intelligence has two layers. A curated portfolio in `sources.yaml` keeps strategically important patents visible even when they are older than the rolling discovery window or automated collection is unavailable. The initial portfolio covers Wells Fargo's airborne-capable smart-dust authentication patent and OpenAI's stateful-transformer patent. Each curated entry includes an analyst assessment that separates what the document actually describes from stronger claims that the patent record does not establish.
 
-The scheduled collector also runs bounded USPTO searches across post-quantum cryptography, quantum computing, quantum networking and sensing, cybersecurity and cryptography, strategic AI systems, cloud and edge infrastructure, and distributed sensing. Relevant publications receive the same topical-confidence gate and scoring controls as other evidence, appear in dedicated daily and weekly report sections, and merge into a rolling two-year ledger. Patent views rank strategic relevance first—favoring PQC, quantum, cyber, AI, and cloud intersections—then use evidence score and recency as tie-breakers. The dashboard highlights the six highest-ranked publications and links each item to its patent record.
+The scheduled collector also runs bounded USPTO searches across post-quantum cryptography, quantum computing, quantum networking and sensing, cybersecurity and cryptography, strategic AI systems, cloud and edge infrastructure, and distributed sensing. Relevant publications receive the same topical-confidence gate and scoring controls as other evidence, appear in dedicated daily and weekly report sections, and merge into a rolling two-year ledger.
+
+The durable ledger distinguishes applications from grants, normalizes active, pending, granted, abandoned, expired, and unknown legal states, retains backward and locally observed forward citation counts, and groups records only when the provider supplies a family identifier, priority application, parent application, or shared application number. Records without explicit continuity evidence stay separate. Strategic significance combines domain relevance, document stage, legal status, citations, family depth, recency, analyst curation, and assignee attribution. The dashboard highlights the six highest-significance publications.
 
 Patent publications are treated as early evidence of technical investment and IP positioning—not as proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate. The curated portfolio works without credentials. Automated discovery through the [USPTO Open Data Portal](https://data.uspto.gov/) requires registration and an API key stored as the GitHub Actions repository secret `USPTO_ODP_API_KEY`; until it is present, automated collection is skipped quietly without generating a recurring source warning.
 
@@ -220,7 +230,7 @@ Report controls:
 - `--week-start YYYY-MM-DD` and `--week-end YYYY-MM-DD`: optional weekly synthesis bounds. If omitted, weekly mode uses the current America/Chicago Monday-through-Friday reporting week when daily reports exist there, otherwise it falls back to the latest populated report week.
 - `--monthly` and `--month YYYY-MM`: generate a monthly synthesis; the target defaults to the prior month.
 - `--update-report-index`: refresh the navigable report archive index after report generation.
-- `--update-intelligence-tracking`: after daily generation, merge retained evidence into the persistent signal, federal mission, and patent ledgers and refresh source health.
+- `--update-intelligence-tracking`: after daily generation, merge retained evidence into the persistent signal, federal mission, federal funding/procurement, and patent ledgers and refresh source health.
 - `--alerts-config`: alert rules YAML used during intelligence tracking. The default is `alerts.yaml`.
 - `--watchlists-config`: entity and technology watchlist YAML. The default is `watchlists.yaml`.
 - `--readiness-config`: evidence-backed PQC readiness rules. The default is `readiness.yaml`.
@@ -309,6 +319,8 @@ Monthly synthesis uses the same deterministic evidence pipeline across a calenda
 | Monthly synthesis | Longer-horizon consolidation | Indefinite | Monthly workflow |
 | Signal tracker | Cross-report momentum and follow-up | Persistent ledger | Daily workflow |
 | Federal missions | Named national efforts, milestones, and official updates | Curated persistent ledger | Daily and weekly workflows |
+| Federal funding | Mission-linked awards, grants, procurement, contractors, and patent relationships | Three-year rolling ledger | Daily and weekly workflows |
+| Patent intelligence | Families, continuations, document stage, status, citations, and significance | Two-year rolling plus curated ledger | Daily workflow |
 | Historical evidence | Official-source profile enrichment; never alerting | Bounded lookback | Weekly backfill |
 | PQC readiness | Publicly evidenced engagement stages | Regenerated | Daily and weekly workflows |
 | Standards timeline | Standards, policy, and migration milestones | Configured | Daily and weekly workflows |
@@ -380,7 +392,9 @@ SQLite records are written to `research_items` with:
 
 The workflow in `.github/workflows/daily-research-scout.yml` runs every day at `00:00 UTC` in default daily mode, which is `7:00 PM` US Central Time during daylight saving time, and can also be started manually with `workflow_dispatch`. Manual runs accept an optional `report_date` in `YYYY-MM-DD` format to regenerate a specific America/Chicago report day after correcting a collector or source-date issue. Scheduled runs use the default Central report-day coverage window from midnight to runtime.
 
-It restores the prior SQLite database from the Actions cache, runs the scout, prunes daily Markdown digests older than 30 days, updates the persistent signal ledger and source-health dashboard, refreshes the report index, commits changed report artifacts back to `main`, then uploads both the Markdown digest and SQLite database as workflow artifacts. Markdown and signal JSON artifacts are intentionally tracked; SQLite database files remain ignored and are not committed. The workflow needs `contents: write` permission for the built-in `GITHUB_TOKEN`, and branch protection must allow the GitHub Actions bot to push these report commits.
+It restores the prior SQLite database from the Actions cache, runs the scout, prunes daily Markdown digests older than 30 days, updates the persistent intelligence ledgers and source-health dashboard, refreshes the report index, commits changed report artifacts back to `main`, then uploads both the Markdown digest and SQLite database as workflow artifacts. Markdown and structured intelligence artifacts are intentionally tracked; SQLite database files remain ignored and are not committed. The workflow needs `contents: write` permission for the built-in `GITHUB_TOKEN`, and branch protection must allow the GitHub Actions bot to push these report commits.
+
+Automated patent discovery uses the `USPTO_ODP_API_KEY` repository secret. SAM.gov acquisition notices use the separate optional `SAM_GOV_API_KEY` secret. USAspending and Grants.gov collection require no credentials.
 
 The workflow in `.github/workflows/weekly-research-synthesis.yml` runs at **8:00 AM America/Chicago every Friday**. It uses paired `13:00`/`14:00` UTC triggers plus a local-time gate so daylight-saving transitions do not shift the reporting cutoff. The workflow first captures a Friday-morning daily snapshot, then consolidates Monday through Friday into `reports/weekly/YYYY/`, commits the generated reports back to `main`, and uploads both the weekly report and SQLite snapshot as artifacts. It can also be started manually with `workflow_dispatch`.
 
@@ -399,7 +413,7 @@ The workflow uses Node.js 24-compatible GitHub Action majors and sets `FORCE_JAV
 ```text
 pqc_quantum_research_agent/
   cli.py            # command-line entry point
-  collectors.py     # patent, arXiv, IACR, RSS, URL, and fallback watch-source collection
+  collectors.py     # patent, federal funding, arXiv, IACR, RSS, URL, and watch-source collection
   classifier.py     # keyword category and score logic
   dedupe.py         # URL, hash, and fuzzy-title dedupe
   storage.py        # SQLite schema and inserts
@@ -409,7 +423,8 @@ pqc_quantum_research_agent/
   report_index.py   # navigable report archive index
   signals.py        # persistent signal ledger and momentum tracker
   federal_missions.py # federal mission relationships, milestones, and update discovery
-  patents.py        # persistent patent-publication ledger
+  federal_funding.py # awards, opportunities, contractors, and mission/patent relationships
+  patents.py        # patent families, stage, status, citations, and significance
   source_health.py  # rolling source reliability report
   alerts.py         # configurable stateful alert evaluation
   entity_watch.py   # entity and technology evidence profiles
@@ -427,6 +442,8 @@ reports/signals.json # durable deduplicated signal evidence
 reports/signals.md  # human-readable signal momentum and follow-up
 reports/federal-missions.json # structured mission portfolio and discovery queue
 reports/federal-missions.md # human-readable federal mission tracker
+reports/federal-funding.json # mission-linked awards, opportunities, contractors, patents, and edges
+reports/federal-funding.md # human-readable funding and procurement intelligence
 reports/patents.json # durable structured patent-publication intelligence
 reports/patents.md  # human-readable patent landscape
 reports/source-health.md # rolling source reliability and warnings

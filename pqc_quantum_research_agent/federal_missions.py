@@ -371,7 +371,8 @@ def _render_markdown(payload: dict) -> str:
         "",
         "> **Named national efforts** · Science and technology · Official milestones · Cross-sector execution",
         "",
-        "[Report Index](README.md) · [Standards Timeline](standards-timeline.md) · [Entity Watch](entity-watch.md)",
+        "[Report Index](README.md) · [Funding & Procurement](federal-funding.md) · "
+        "[Standards Timeline](standards-timeline.md) · [Entity Watch](entity-watch.md)",
         "",
         f"_Updated {datetime.fromisoformat(payload['updated_at']):%Y-%m-%d %H:%M UTC}_",
         "",

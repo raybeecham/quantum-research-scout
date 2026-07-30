@@ -50,6 +50,7 @@ jobs:
           git add reports/readiness.json reports/readiness.md
           git add reports/standards-timeline.json reports/standards-timeline.md
           git add reports/federal-missions.json reports/federal-missions.md
+          git add reports/federal-funding.json reports/federal-funding.md
           if git diff --cached --quiet; then
             echo "No historical intelligence changes to commit"
           else

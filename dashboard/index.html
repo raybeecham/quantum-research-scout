@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="PQC, quantum technology, patent, and AI security intelligence dashboard">
+  <meta name="description" content="PQC, quantum technology, federal funding, patent, and AI security intelligence dashboard">
   <meta name="theme-color" content="#090b1f">
   <title>Quantum Research Scout</title>
   <link rel="stylesheet" href="styles.css?v=__ASSET_VERSION__">
@@ -79,7 +79,7 @@
 
     <details id="explore" class="advanced-analysis explore-analysis">
       <summary>
-        <div><p class="eyebrow">EXPLORE ON DEMAND</p><h2>Missions, signals, patents, and watchlists</h2><p>Follow federal missions, search the evidence radar, review early IP activity, and inspect watched organizations and technologies.</p></div>
+        <div><p class="eyebrow">EXPLORE ON DEMAND</p><h2>Missions, funding, signals, patents, and watchlists</h2><p>Follow federal execution, search the evidence radar, review early IP activity, and inspect watched organizations and technologies.</p></div>
         <span>Open tracker</span>
       </summary>
       <div class="advanced-content">
@@ -92,6 +92,15 @@
             <div id="mission-candidate-list"></div>
           </details>
           <a id="mission-report-link" class="section-link" href="#">Open the complete federal mission tracker →</a>
+        </section>
+
+        <section id="funding" class="section funding-section">
+          <div class="section-heading"><div><p class="eyebrow">FEDERAL EXECUTION LAYER</p><h2>Funding and procurement</h2></div><p id="funding-summary" class="updated"></p></div>
+          <p class="section-note">USAspending awards, Grants.gov opportunities, and SAM.gov notices connected to missions, recipients, contractors, and relevant patent assignees. Analytical links are labeled and do not imply that an award funded a patent.</p>
+          <div id="funding-metrics" class="funding-metrics"></div>
+          <div id="funding-grid" class="funding-grid" aria-live="polite"></div>
+          <div id="funding-portfolios" class="funding-portfolios"></div>
+          <a id="funding-report-link" class="section-link" href="#">Open the complete funding and procurement ledger →</a>
         </section>
 
         <section id="signals" class="section">

@@ -111,6 +111,65 @@ patents:
       summary: "Air-suspended or self-propelled MEMS motes collect images, audio, optical, location, motion, environmental, and biometric data for payment authentication."
       assessment: "High-impact sensing and privacy signal. The patent covers airborne smart-dust authentication, but a patent grant alone does not establish deployment or a general surveillance program."
 
+federal_funding:
+  enabled: true
+  lookback_days: 1095
+  retention_days: 1095
+  usaspending:
+    enabled: true
+    endpoint: "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+    max_items_per_query: 20
+  grants_gov:
+    enabled: true
+    endpoint: "https://api.grants.gov/v1/api/search2"
+    statuses: "forecasted|posted"
+    max_items_per_query: 20
+  sam_gov:
+    enabled: true
+    endpoint: "https://api.sam.gov/opportunities/v2/search"
+    api_key_env: "SAM_GOV_API_KEY"
+    max_items_per_query: 20
+  queries:
+    - name: "Quantum Technologies"
+      keyword: "quantum"
+    - name: "Post-Quantum Cybersecurity"
+      keyword: "post quantum"
+    - name: "Artificial Intelligence"
+      keyword: "artificial intelligence"
+    - name: "Cybersecurity"
+      keyword: "cybersecurity"
+    - name: "Advanced Computing"
+      keyword: "high performance computing"
+    - name: "Autonomy and Sensing"
+      keyword: "autonomous systems"
+    - name: "Genesis Mission"
+      keyword: "Genesis Mission"
+      mission_ids: [genesis-mission]
+    - name: "Golden Dome"
+      keyword: "Golden Dome"
+      mission_ids: [golden-dome]
+    - name: "Quantum Genesis"
+      keyword: "Quantum Genesis"
+      mission_ids: [quantum-genesis]
+    - name: "QC-ADDS"
+      keyword: "QC-ADDS"
+      mission_ids: [qc-adds]
+    - name: "QuantumEAGLe"
+      keyword: "QuantumEAGLe"
+      mission_ids: [quantumeagle]
+    - name: "Project Triad"
+      keyword: "Project Triad"
+      mission_ids: [project-triad]
+    - name: "Quantum Benchmarking Initiative"
+      keyword: "Quantum Benchmarking Initiative"
+      mission_ids: [darpa-qbi]
+    - name: "Military AI Pace-Setting Projects"
+      keyword: "AI Pace-Setting Projects"
+      mission_ids: [military-ai-pace-setting-projects]
+    - name: "AI Forge"
+      keyword: "AI Forge"
+      mission_ids: [ai-forge]
+
 arxiv:
   enabled: false
   max_results: 25

@@ -15,6 +15,7 @@ COMMON_DATE_FORMATS = (
     "%a, %d %b %Y %H:%M:%S %Z",
     "%B %d, %Y",
     "%b %d, %Y",
+    "%m/%d/%Y",
 )
 
 

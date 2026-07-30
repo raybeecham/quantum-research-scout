@@ -16,6 +16,7 @@ from pqc_quantum_research_agent.config import load_config, load_weight_file
 from pqc_quantum_research_agent.dedupe import prepare_identity
 from pqc_quantum_research_agent.entity_watch import write_entity_watch
 from pqc_quantum_research_agent.federal_missions import write_federal_mission_tracker
+from pqc_quantum_research_agent.federal_funding import write_federal_funding_tracker
 from pqc_quantum_research_agent.historical import write_historical_evidence
 from pqc_quantum_research_agent.http import HttpClient
 from pqc_quantum_research_agent.readiness import write_readiness_report
@@ -88,6 +89,7 @@ def main() -> int:
         collection.items,
         generated_at=generated,
     )
+    write_federal_funding_tracker(reports, collection.items, generated_at=generated)
     print(json_path)
     return 0
 

@@ -27,6 +27,7 @@ class RuntimeSettings:
 class AgentConfig:
     settings: RuntimeSettings = field(default_factory=RuntimeSettings)
     patents: dict[str, Any] = field(default_factory=dict)
+    federal_funding: dict[str, Any] = field(default_factory=dict)
     arxiv: dict[str, Any] = field(default_factory=dict)
     arxiv_rss: list[dict[str, Any]] = field(default_factory=list)
     iacr_eprint: dict[str, Any] = field(default_factory=dict)
@@ -46,6 +47,7 @@ def load_config(path: str | Path) -> AgentConfig:
     return AgentConfig(
         settings=settings,
         patents=raw.get("patents") or {},
+        federal_funding=raw.get("federal_funding") or {},
         arxiv=raw.get("arxiv") or {},
         arxiv_rss=list(raw.get("arxiv_rss") or []),
         iacr_eprint=raw.get("iacr_eprint") or {},

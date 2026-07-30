@@ -7,6 +7,7 @@ import re
 import time
 import xml.etree.ElementTree as ET
 from collections.abc import Callable
+from datetime import datetime, timedelta, timezone
 from urllib.parse import unquote, urlencode, urlsplit
 
 from .config import AgentConfig
@@ -34,6 +35,15 @@ def collect_all(config: AgentConfig) -> CollectionResult:
             "Patent intelligence",
             "patent",
             lambda: collect_patents(client, config.patents, settings.max_items_per_source),
+        ),
+        (
+            "Federal funding and procurement",
+            "federal_funding",
+            lambda: collect_federal_funding(
+                client,
+                config.federal_funding,
+                settings.max_items_per_source,
+            ),
         ),
         ("arXiv RSS", "arxiv_rss", lambda: collect_arxiv_rss(client, config.arxiv_rss, settings.max_items_per_source)),
         ("arXiv API", "arxiv", lambda: collect_arxiv(client, config.arxiv)),
@@ -153,6 +163,85 @@ def _collect_uspto_patents(
                 metadata, "publicationDate", "earliestPublicationDate", "patentIssueDate"
             )
             filing_date = _first_text(metadata, "filingDate", "applicationFilingDate")
+            priority_date = _first_text(
+                metadata,
+                "priorityDate",
+                "earliestPriorityDate",
+                "domesticPriorityDate",
+            )
+            patent_number = _first_text(metadata, "patentNumber")
+            grant_date = _first_text(metadata, "patentIssueDate", "grantDate")
+            application_status = _first_text(
+                metadata,
+                "applicationStatusDescriptionText",
+                "applicationStatusDescription",
+                "applicationStatusCode",
+            ) or _first_text(
+                wrapper,
+                "applicationStatusDescriptionText",
+                "applicationStatusDescription",
+                "applicationStatusCode",
+            )
+            application_type = _first_text(
+                metadata,
+                "applicationTypeLabelName",
+                "applicationTypeCategory",
+                "applicationTypeCode",
+            ) or _first_text(
+                wrapper,
+                "applicationTypeLabelName",
+                "applicationTypeCategory",
+                "applicationTypeCode",
+            )
+            continuity = _first_nested_bag(
+                wrapper,
+                metadata,
+                keys=("continuityDataBag", "continuityBag", "parentContinuityBag"),
+            )
+            citations = _first_nested_bag(
+                wrapper,
+                metadata,
+                keys=("citationBag", "patentCitationBag", "referencesCitedBag"),
+            )
+            priority_claims = _first_nested_bag(
+                wrapper,
+                metadata,
+                keys=("foreignPriorityBag", "domesticPriorityBag", "priorityClaimBag"),
+            )
+            parent_applications = _nested_identifier_values(
+                continuity,
+                {"parentapplicationnumber", "parentapplicationnumbertext"},
+            )
+            child_applications = _nested_identifier_values(
+                continuity,
+                {"childapplicationnumber", "childapplicationnumbertext"},
+            )
+            priority_numbers = _nested_identifier_values(
+                priority_claims,
+                {
+                    "applicationnumber",
+                    "applicationnumbertext",
+                    "priorityapplicationnumber",
+                    "priorityapplicationnumbertext",
+                },
+            )
+            cited_patents = _nested_identifier_values(
+                citations,
+                {
+                    "patentnumber",
+                    "publicationnumber",
+                    "publicationnumbertext",
+                    "documentnumber",
+                },
+            )
+            family_id = _first_nested_text(
+                wrapper,
+                {
+                    "familyidentifier",
+                    "patentfamilyidentifier",
+                    "familyid",
+                },
+            )
             patent_url = (
                 f"https://data.uspto.gov/patent-file-wrapper/search/details/"
                 f"{re.sub(r'[^A-Za-z0-9]', '', application_number)}/application-data"
@@ -183,9 +272,20 @@ def _collect_uspto_patents(
                     raw_payload={
                         "publication_number": publication_number,
                         "application_number": application_number,
+                        "patent_number": patent_number,
                         "assignee": applicants,
                         "inventor": inventors,
                         "filing_date": filing_date,
+                        "priority_date": priority_date,
+                        "grant_date": grant_date,
+                        "application_status": application_status,
+                        "application_type": application_type,
+                        "family_id": family_id,
+                        "parent_applications": parent_applications,
+                        "child_applications": child_applications,
+                        "priority_numbers": priority_numbers,
+                        "cited_patents": cited_patents,
+                        "backward_citation_count": len(cited_patents),
                         "query_name": query_name,
                         "search_query": search_query,
                         "resolved_url": resolved_url,
@@ -228,6 +328,509 @@ def _party_names(value: object, *keys: str) -> str:
     if isinstance(value, list):
         return ", ".join(dict.fromkeys(name for item in value if (name := _party_names(item, *keys))))
     return ""
+
+
+def _first_nested_bag(*payloads: object, keys: tuple[str, ...]) -> object:
+    wanted = {key.casefold() for key in keys}
+    for payload in payloads:
+        found = _find_nested_value(payload, wanted)
+        if found is not None and found != "":
+            return found
+    return {}
+
+
+def _find_nested_value(payload: object, wanted_keys: set[str]) -> object:
+    if isinstance(payload, dict):
+        for key, value in payload.items():
+            if str(key).casefold() in wanted_keys:
+                return value
+        for value in payload.values():
+            found = _find_nested_value(value, wanted_keys)
+            if found is not None and found != "":
+                return found
+    elif isinstance(payload, list):
+        for value in payload:
+            found = _find_nested_value(value, wanted_keys)
+            if found is not None and found != "":
+                return found
+    return None
+
+
+def _first_nested_text(payload: object, wanted_keys: set[str]) -> str:
+    value = _find_nested_value(payload, {key.casefold() for key in wanted_keys})
+    if isinstance(value, (dict, list)) or value is None:
+        return ""
+    return strip_html(str(value))
+
+
+def _nested_identifier_values(payload: object, wanted_keys: set[str]) -> list[str]:
+    values: list[str] = []
+    wanted = {key.casefold() for key in wanted_keys}
+
+    def visit(value: object) -> None:
+        if isinstance(value, dict):
+            for key, nested in value.items():
+                if str(key).casefold() in wanted and not isinstance(nested, (dict, list)):
+                    identifier = re.sub(r"[^A-Za-z0-9]", "", str(nested)).upper()
+                    if identifier:
+                        values.append(identifier)
+                else:
+                    visit(nested)
+        elif isinstance(value, list):
+            for nested in value:
+                visit(nested)
+
+    visit(payload)
+    return list(dict.fromkeys(values))
+
+
+def collect_federal_funding(
+    client: HttpClient,
+    funding_config: dict,
+    max_items_per_source: int,
+) -> CollectionResult:
+    """Collect awards, grant opportunities, and acquisition notices from official APIs."""
+    if not funding_config.get("enabled", True):
+        return CollectionResult()
+    result = CollectionResult()
+    for collect in (
+        lambda: _collect_usaspending_awards(client, funding_config, max_items_per_source),
+        lambda: _collect_grants_opportunities(client, funding_config, max_items_per_source),
+        lambda: _collect_sam_opportunities(client, funding_config, max_items_per_source),
+    ):
+        collected = collect()
+        result.items.extend(collected.items)
+        result.warnings.extend(collected.warnings)
+    return result
+
+
+def _collect_usaspending_awards(
+    client: HttpClient,
+    funding_config: dict,
+    max_items_per_source: int,
+) -> CollectionResult:
+    provider = funding_config.get("usaspending") or {}
+    if not provider.get("enabled", True):
+        return CollectionResult()
+    if not provider.get("award_type_codes"):
+        combined = CollectionResult()
+        seen_awards: set[str] = set()
+        award_type_groups = provider.get("award_type_groups") or {
+            "contracts": ["A", "B", "C", "D"],
+            "grants": ["02", "03", "04", "05", "F001", "F002"],
+        }
+        for codes in award_type_groups.values():
+            grouped_provider = {**provider, "award_type_codes": list(codes)}
+            grouped_config = {**funding_config, "usaspending": grouped_provider}
+            collected = _collect_usaspending_awards(
+                client,
+                grouped_config,
+                max_items_per_source,
+            )
+            for item in collected.items:
+                award_id = str(item.raw_payload.get("award_id") or item.url)
+                if award_id in seen_awards:
+                    continue
+                seen_awards.add(award_id)
+                combined.items.append(item)
+            combined.warnings.extend(collected.warnings)
+        return combined
+    endpoint = str(
+        provider.get("endpoint")
+        or "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+    )
+    max_items = int(provider.get("max_items_per_query", max_items_per_source))
+    start_date, end_date = _funding_date_range(funding_config)
+    result = CollectionResult()
+    seen: set[str] = set()
+    fields = [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "Awarding Agency",
+        "Awarding Sub Agency",
+        "Funding Agency",
+        "Funding Sub Agency",
+        "Award Type",
+        "generated_internal_id",
+    ]
+    for query in funding_config.get("queries", []):
+        if not query.get("enabled", True) or not query.get("keyword"):
+            continue
+        query_name = f"USAspending · {query.get('name') or query['keyword']}"
+        payload = {
+            "filters": {
+                "time_period": [{"start_date": start_date, "end_date": end_date}],
+                "keywords": [str(query["keyword"])],
+                "award_type_codes": provider["award_type_codes"],
+            },
+            "fields": fields,
+            "page": 1,
+            "limit": max_items,
+            "sort": "Start Date",
+            "order": "desc",
+            "subawards": False,
+        }
+        try:
+            response_text, resolved_url = client.post_text(
+                endpoint,
+                payload,
+                headers={"Accept": "application/json"},
+            )
+            response = json.loads(response_text)
+        except (RuntimeError, json.JSONDecodeError, TypeError) as exc:
+            result.warnings.append(
+                SourceWarning(
+                    query_name,
+                    "federal_award",
+                    _source_failure_message(exc, "USAspending"),
+                    endpoint,
+                )
+            )
+            continue
+        for award in response.get("results", []) if isinstance(response, dict) else []:
+            if not isinstance(award, dict):
+                continue
+            award_id = _first_text(award, "Award ID", "award_id")
+            generated_id = _first_text(award, "generated_internal_id", "internal_id")
+            key = award_id or generated_id
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            recipient = _first_text(award, "Recipient Name", "recipient_name")
+            description = _first_text(award, "Description", "description")
+            amount = _number_value(award.get("Award Amount", award.get("award_amount")))
+            start = _first_text(award, "Start Date", "start_date")
+            award_url = (
+                f"https://www.usaspending.gov/award/{generated_id}/"
+                if generated_id
+                else "https://www.usaspending.gov/search"
+            )
+            result.items.append(
+                ResearchItem(
+                    source_name=query_name,
+                    source_type="federal_award",
+                    title=compact_summary(
+                        description or f"{award_id} awarded to {recipient or 'recipient not listed'}",
+                        180,
+                    ),
+                    url=award_url,
+                    summary=compact_summary(
+                        " · ".join(
+                            part
+                            for part in (
+                                f"Recipient: {recipient}" if recipient else "",
+                                f"Federal award: {award_id}" if award_id else "",
+                                f"Obligated/award amount: ${amount:,.0f}" if amount is not None else "",
+                                f"Matched search: {query['keyword']}",
+                            )
+                            if part
+                        ),
+                        500,
+                    ),
+                    published_at=parse_datetime(start),
+                    date_source="usaspending:start_date",
+                    date_confidence="high" if start else "unknown",
+                    raw_payload={
+                        "provider": "usaspending",
+                        "record_type": "award",
+                        "award_id": award_id,
+                        "generated_internal_id": generated_id,
+                        "recipient": recipient,
+                        "amount": amount,
+                        "start_date": start,
+                        "end_date": _first_text(award, "End Date", "end_date"),
+                        "description": description,
+                        "award_type": _first_text(award, "Award Type", "award_type"),
+                        "awarding_agency": _first_text(award, "Awarding Agency", "awarding_agency"),
+                        "awarding_subagency": _first_text(
+                            award, "Awarding Sub Agency", "awarding_subagency"
+                        ),
+                        "funding_agency": _first_text(award, "Funding Agency", "funding_agency"),
+                        "funding_subagency": _first_text(
+                            award, "Funding Sub Agency", "funding_subagency"
+                        ),
+                        "query_name": str(query.get("name") or query["keyword"]),
+                        "query_keyword": str(query["keyword"]),
+                        "mission_ids": [str(value) for value in query.get("mission_ids", [])],
+                        "resolved_url": resolved_url,
+                    },
+                )
+            )
+    return result
+
+
+def _collect_grants_opportunities(
+    client: HttpClient,
+    funding_config: dict,
+    max_items_per_source: int,
+) -> CollectionResult:
+    provider = funding_config.get("grants_gov") or {}
+    if not provider.get("enabled", True):
+        return CollectionResult()
+    endpoint = str(provider.get("endpoint") or "https://api.grants.gov/v1/api/search2")
+    max_items = int(provider.get("max_items_per_query", max_items_per_source))
+    result = CollectionResult()
+    seen: set[str] = set()
+    for query in funding_config.get("queries", []):
+        if not query.get("enabled", True) or not query.get("keyword"):
+            continue
+        query_name = f"Grants.gov · {query.get('name') or query['keyword']}"
+        payload = {
+            "rows": max_items,
+            "keyword": str(query["keyword"]),
+            "oppStatuses": str(provider.get("statuses") or "forecasted|posted"),
+        }
+        try:
+            response_text, resolved_url = client.post_text(
+                endpoint,
+                payload,
+                headers={"Accept": "application/json"},
+            )
+            response = json.loads(response_text)
+        except (RuntimeError, json.JSONDecodeError, TypeError) as exc:
+            result.warnings.append(
+                SourceWarning(
+                    query_name,
+                    "grant_opportunity",
+                    _source_failure_message(exc, "Grants.gov"),
+                    endpoint,
+                )
+            )
+            continue
+        data = response.get("data", {}) if isinstance(response, dict) else {}
+        hits = data.get("oppHits", []) if isinstance(data, dict) else []
+        for opportunity in hits if isinstance(hits, list) else []:
+            if not isinstance(opportunity, dict):
+                continue
+            opportunity_id = _first_text(opportunity, "id")
+            number = _first_text(opportunity, "number", "opportunityNumber")
+            key = number or opportunity_id
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            title = _first_text(opportunity, "title", "opportunityTitle")
+            record_type = _special_opportunity_type(title, "grant_opportunity")
+            agency = _first_text(opportunity, "agencyName", "agencyCode")
+            open_date = _first_text(opportunity, "openDate", "postingDate")
+            result.items.append(
+                ResearchItem(
+                    source_name=query_name,
+                    source_type="grant_opportunity",
+                    title=title or f"Grant opportunity {number}",
+                    url=(
+                        f"https://www.grants.gov/search-results-detail/{opportunity_id}"
+                        if opportunity_id
+                        else "https://www.grants.gov/search-grants"
+                    ),
+                    summary=compact_summary(
+                        " · ".join(
+                            part
+                            for part in (
+                                f"Agency: {agency}" if agency else "",
+                                f"Opportunity: {number}" if number else "",
+                                f"Status: {_first_text(opportunity, 'oppStatus')}"
+                                if _first_text(opportunity, "oppStatus")
+                                else "",
+                                f"Matched search: {query['keyword']}",
+                            )
+                            if part
+                        ),
+                        500,
+                    ),
+                    published_at=parse_datetime(open_date),
+                    date_source="grants.gov:open_date",
+                    date_confidence="high" if open_date else "unknown",
+                    raw_payload={
+                        "provider": "grants_gov",
+                        "record_type": record_type,
+                        "opportunity_id": opportunity_id,
+                        "opportunity_number": number,
+                        "agency": agency,
+                        "open_date": open_date,
+                        "close_date": _first_text(opportunity, "closeDate"),
+                        "status": _first_text(opportunity, "oppStatus"),
+                        "document_type": _first_text(opportunity, "docType"),
+                        "assistance_listing_numbers": opportunity.get("alnist") or [],
+                        "query_name": str(query.get("name") or query["keyword"]),
+                        "query_keyword": str(query["keyword"]),
+                        "mission_ids": [str(value) for value in query.get("mission_ids", [])],
+                        "resolved_url": resolved_url,
+                    },
+                )
+            )
+    return result
+
+
+def _collect_sam_opportunities(
+    client: HttpClient,
+    funding_config: dict,
+    max_items_per_source: int,
+) -> CollectionResult:
+    provider = funding_config.get("sam_gov") or {}
+    if not provider.get("enabled", True):
+        return CollectionResult()
+    api_key_env = str(provider.get("api_key_env") or "SAM_GOV_API_KEY")
+    api_key = os.getenv(api_key_env, "").strip()
+    if not api_key:
+        LOGGER.info("SAM.gov collection skipped because %s is not configured", api_key_env)
+        return CollectionResult()
+    endpoint = str(provider.get("endpoint") or "https://api.sam.gov/opportunities/v2/search")
+    max_items = int(provider.get("max_items_per_query", max_items_per_source))
+    start_date, end_date = _funding_date_range(funding_config, sam_format=True)
+    result = CollectionResult()
+    seen: set[str] = set()
+    for query in funding_config.get("queries", []):
+        if not query.get("enabled", True) or not query.get("keyword"):
+            continue
+        query_name = f"SAM.gov · {query.get('name') or query['keyword']}"
+        params = {
+            "api_key": api_key,
+            "postedFrom": start_date,
+            "postedTo": end_date,
+            "limit": max_items,
+            "offset": 0,
+            "title": str(query["keyword"]),
+        }
+        try:
+            response_text, resolved_url = client.get_text(
+                endpoint,
+                params=params,
+                headers={"Accept": "application/json"},
+            )
+            response = json.loads(response_text)
+        except (RuntimeError, json.JSONDecodeError, TypeError) as exc:
+            result.warnings.append(
+                SourceWarning(
+                    query_name,
+                    "procurement",
+                    _source_failure_message(exc, "SAM.gov"),
+                    endpoint,
+                )
+            )
+            continue
+        values = response.get("opportunitiesData", []) if isinstance(response, dict) else []
+        for opportunity in values if isinstance(values, list) else []:
+            if not isinstance(opportunity, dict):
+                continue
+            notice_id = _first_text(opportunity, "noticeId", "noticeid")
+            solicitation = _first_text(opportunity, "solicitationNumber")
+            key = notice_id or solicitation
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            title = _first_text(opportunity, "title") or f"Procurement notice {solicitation}"
+            notice_type = _first_text(opportunity, "type", "ptype", "noticeType")
+            record_type = _sam_record_type(title, notice_type)
+            posted_date = _first_text(opportunity, "postedDate")
+            result.items.append(
+                ResearchItem(
+                    source_name=query_name,
+                    source_type="procurement",
+                    title=title,
+                    url=(
+                        _first_text(opportunity, "uiLink")
+                        or (
+                            f"https://sam.gov/opp/{notice_id}/view"
+                            if notice_id
+                            else "https://sam.gov/content/opportunities"
+                        )
+                    ),
+                    summary=compact_summary(
+                        " · ".join(
+                            part
+                            for part in (
+                                f"Notice: {notice_type}" if notice_type else "",
+                                f"Solicitation: {solicitation}" if solicitation else "",
+                                f"Organization: {_first_text(opportunity, 'fullParentPathName')}"
+                                if _first_text(opportunity, "fullParentPathName")
+                                else "",
+                                f"Matched search: {query['keyword']}",
+                            )
+                            if part
+                        ),
+                        500,
+                    ),
+                    published_at=parse_datetime(posted_date),
+                    date_source="sam.gov:posted_date",
+                    date_confidence="high" if posted_date else "unknown",
+                    raw_payload={
+                        "provider": "sam_gov",
+                        "record_type": record_type,
+                        "notice_id": notice_id,
+                        "solicitation_number": solicitation,
+                        "notice_type": notice_type,
+                        "posted_date": posted_date,
+                        "response_deadline": _first_text(
+                            opportunity, "responseDeadLine", "responseDeadline"
+                        ),
+                        "organization": _first_text(opportunity, "fullParentPathName"),
+                        "organization_code": _first_text(opportunity, "fullParentPathCode"),
+                        "naics_code": _first_text(opportunity, "naicsCode"),
+                        "classification_code": _first_text(
+                            opportunity, "classificationCode"
+                        ),
+                        "set_aside": _first_text(
+                            opportunity,
+                            "typeOfSetAsideDescription",
+                            "typeOfSetAside",
+                        ),
+                        "award_number": _first_text(opportunity, "awardNumber"),
+                        "award_amount": _number_value(opportunity.get("award", {}).get("amount"))
+                        if isinstance(opportunity.get("award"), dict)
+                        else None,
+                        "awardee": _first_text(
+                            opportunity.get("award") if isinstance(opportunity.get("award"), dict) else {},
+                            "awardee",
+                            "awardeeName",
+                        ),
+                        "query_name": str(query.get("name") or query["keyword"]),
+                        "query_keyword": str(query["keyword"]),
+                        "mission_ids": [str(value) for value in query.get("mission_ids", [])],
+                        "resolved_url": resolved_url,
+                    },
+                )
+            )
+    return result
+
+
+def _funding_date_range(config: dict, *, sam_format: bool = False) -> tuple[str, str]:
+    end = datetime.now(timezone.utc).date()
+    start = end - timedelta(days=max(1, int(config.get("lookback_days", 365))))
+    if sam_format:
+        return start.strftime("%m/%d/%Y"), end.strftime("%m/%d/%Y")
+    return start.isoformat(), end.isoformat()
+
+
+def _number_value(value: object) -> float | None:
+    if value in {None, ""}:
+        return None
+    try:
+        return float(str(value).replace("$", "").replace(",", ""))
+    except (TypeError, ValueError):
+        return None
+
+
+def _sam_record_type(title: str, notice_type: str) -> str:
+    special_type = _special_opportunity_type(f"{title} {notice_type}", "")
+    if special_type:
+        return special_type
+    text = f"{title} {notice_type}".casefold()
+    if "award" in text:
+        return "award_notice"
+    return "procurement_opportunity"
+
+
+def _special_opportunity_type(title: str, default: str) -> str:
+    text = title.casefold()
+    if "broad agency announcement" in text or re.search(r"\bbaa\b", text):
+        return "baa"
+    if "request for information" in text or "sources sought" in text or re.search(r"\brfi\b", text):
+        return "rfi"
+    return default
 
 
 def collect_arxiv_rss(
