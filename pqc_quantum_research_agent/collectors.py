@@ -103,14 +103,17 @@ def _collect_uspto_patents(
         search_query = str(query.get("search_query") or "").strip()
         if not search_query:
             continue
+        params: dict[str, object] = {
+            "q": search_query,
+            "limit": max_items,
+        }
+        sort = str(patent_config.get("sort") or "").strip()
+        if sort:
+            params["sort"] = sort
         try:
             response_text, resolved_url = client.get_text(
                 endpoint,
-                params={
-                    "q": search_query,
-                    "sort": "applicationMetaData.publicationDate desc",
-                    "limit": max_items,
-                },
+                params=params,
                 headers={"X-API-KEY": api_key, "Accept": "application/json"},
             )
         except RuntimeError as exc:

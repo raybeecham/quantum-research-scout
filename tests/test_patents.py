@@ -61,6 +61,7 @@ class PatentIntelligenceTests(unittest.TestCase):
         config = {
             "provider": "uspto_odp",
             "api_key_env": "USPTO_ODP_API_KEY",
+            "sort": "applicationMetaData.filingDate desc",
             "queries": [
                 {"name": "PQC Patents", "search_query": '"post-quantum"'},
                 {"name": "Network Patents", "search_query": '"secure networks"'},
@@ -77,7 +78,7 @@ class PatentIntelligenceTests(unittest.TestCase):
         self.assertEqual(item.raw_payload["assignee"], "Example Security Corp.")
         self.assertEqual(item.published_at, datetime(2026, 7, 23, tzinfo=timezone.utc))
         self.assertIn("/18123456/application-data", item.url)
-        self.assertEqual(client.calls[0][1]["sort"], "applicationMetaData.publicationDate desc")
+        self.assertEqual(client.calls[0][1]["sort"], "applicationMetaData.filingDate desc")
         self.assertEqual(client.calls[0][2]["X-API-KEY"], "test-key")
 
     def test_uspto_collector_is_quiet_without_api_key(self) -> None:
@@ -94,6 +95,19 @@ class PatentIntelligenceTests(unittest.TestCase):
         self.assertEqual(result.items, [])
         self.assertEqual(result.warnings, [])
         self.assertEqual(client.calls, [])
+
+    def test_uspto_collector_omits_sort_when_not_configured(self) -> None:
+        client = FakeClient(PATENT_RESPONSE)
+        config = {
+            "provider": "uspto_odp",
+            "api_key_env": "USPTO_ODP_API_KEY",
+            "queries": [{"name": "PQC Patents", "search_query": 'applicationMetaData.inventionTitle:"quantum"'}],
+        }
+
+        with patch.dict("os.environ", {"USPTO_ODP_API_KEY": "test-key"}):
+            collect_patents(client, config, 25)  # type: ignore[arg-type]
+
+        self.assertNotIn("sort", client.calls[0][1])
 
     def test_tracker_persists_relevant_patent_publications(self) -> None:
         config = {
