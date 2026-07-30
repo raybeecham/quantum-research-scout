@@ -164,11 +164,11 @@ function renderSignals(){
 function renderPatents(payload){
   const patents = payload.patents || [];
   const summary = payload.summary || {};
-  document.getElementById("patent-summary").textContent = `${summary.curated_total || 0} notable · ${summary.automated_total || 0} automated discoveries · ${summary.unique_assignees || 0} named assignees`;
+  document.getElementById("patent-summary").textContent = `${summary.curated_total || 0} notable · ${summary.automated_total || 0} automated discoveries · ranked by strategic relevance`;
   document.getElementById("patent-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/patents.md`);
   document.getElementById("patent-grid").innerHTML = patents.length ? patents.slice(0, 6).map(item => {
     const number = item.publication_number || "Publication number unavailable";
-    const topics = (item.matched_keywords || []).slice(0, 3);
+    const topics = (item.strategic_domains?.length ? item.strategic_domains : item.matched_keywords || []).slice(0, 3);
     const priority = item.priority || "monitor";
     const trackingLabel = item.tracking_type === "curated" ? "notable" : "automated";
     const assessment = item.assessment ? `<p class="patent-assessment"><strong>Assessment:</strong> ${escapeHtml(item.assessment)}</p>` : "";

@@ -131,6 +131,9 @@ class PatentIntelligenceTests(unittest.TestCase):
         self.assertEqual(payload["summary"]["total"], 1)
         self.assertEqual(payload["summary"]["last_30_days"], 1)
         self.assertEqual(payload["patents"][0]["publication_number"], "US20260234567A1")
+        self.assertGreater(payload["patents"][0]["strategic_relevance_score"], 0)
+        self.assertIn("Post-quantum cryptography", payload["patents"][0]["strategic_domains"])
+        self.assertIn("Cybersecurity and cryptography", payload["patents"][0]["strategic_domains"])
         self.assertIn("Patent Intelligence", markdown)
         self.assertIn("not proof of implementation", markdown)
 
@@ -166,6 +169,54 @@ class PatentIntelligenceTests(unittest.TestCase):
         self.assertIn("US11354666B1", markdown)
         self.assertIn("does not establish deployment", markdown)
         self.assertIn("Recent Automated Discoveries", markdown)
+
+    def test_tracker_ranks_strategic_domains_before_recency(self) -> None:
+        curated = [
+            {
+                "publication_number": "US-GENERAL",
+                "title": "Mechanical fastener assembly",
+                "publication_date": "2026-07-29",
+                "score": 99,
+                "topics": ["Fasteners"],
+                "url": "https://patents.example/general",
+            },
+            {
+                "publication_number": "US-PQC",
+                "title": "Post-quantum secure network key exchange",
+                "publication_date": "2025-01-01",
+                "score": 10,
+                "topics": ["Post-quantum cryptography", "Network security"],
+                "url": "https://patents.example/pqc",
+            },
+            {
+                "publication_number": "US-AI-CLOUD",
+                "title": "AI workload orchestration for cloud computing",
+                "publication_date": "2026-07-28",
+                "score": 20,
+                "topics": ["Artificial intelligence", "Cloud computing"],
+                "url": "https://patents.example/ai-cloud",
+            },
+        ]
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            json_path, _ = write_patent_tracker(
+                temp_dir,
+                [],
+                curated_patents=curated,
+                generated_at=datetime(2026, 7, 30, tzinfo=timezone.utc),
+            )
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(
+            [item["publication_number"] for item in payload["patents"]],
+            ["US-PQC", "US-AI-CLOUD", "US-GENERAL"],
+        )
+        self.assertEqual(payload["summary"]["latest_publication_date"], "2026-07-29")
+        self.assertGreater(
+            payload["patents"][0]["strategic_relevance_score"],
+            payload["patents"][1]["strategic_relevance_score"],
+        )
+        self.assertEqual(payload["patents"][2]["strategic_domains"], [])
 
 
 if __name__ == "__main__":

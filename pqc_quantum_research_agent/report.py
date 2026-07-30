@@ -1245,7 +1245,8 @@ def _has_quantum_context_text(text: str) -> bool:
 
 def _has_required_topic_relevance(item: ResearchItem) -> bool:
     return (
-        (_is_patent_signal(item) and _has_quantum_context(item))
+        _is_configured_patent_signal(item)
+        or (_is_patent_signal(item) and _has_quantum_context(item))
         or _is_pqc_security_signal(item)
         or _is_hardware_qec_signal(item)
         or _is_networking_signal(item)
@@ -1258,6 +1259,8 @@ def _has_required_topic_relevance(item: ResearchItem) -> bool:
 
 
 def _item_topic_confidence(item: ResearchItem) -> int:
+    if _is_configured_patent_signal(item):
+        return 8
     match = re.search(r"\btopic_confidence=(\d+)\b", item.score_explanation or "")
     if match:
         return int(match.group(1))
@@ -1271,6 +1274,11 @@ def _item_topic_confidence(item: ResearchItem) -> int:
     if _is_tooling_signal(item) or _is_topical_vendor_source(item):
         return 5
     return 0
+
+
+def _is_configured_patent_signal(item: ResearchItem) -> bool:
+    raw = item.raw_payload or {}
+    return item.source_type == "patent" and bool(raw.get("query_name") and raw.get("search_query"))
 
 
 def _is_topical_vendor_source(item: ResearchItem) -> bool:

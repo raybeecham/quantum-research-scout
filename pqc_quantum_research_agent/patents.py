@@ -1,12 +1,77 @@
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from .models import ResearchItem
 from .report import is_report_relevant
 from .text import compact_summary
+
+
+STRATEGIC_DOMAIN_RULES: tuple[tuple[str, int, re.Pattern[str]], ...] = (
+    (
+        "Post-quantum cryptography",
+        120,
+        re.compile(
+            r"\b(?:post[- ]quantum|quantum[- ]safe|quantum[- ]resistan\w*|ml-kem|ml-dsa|"
+            r"slh-dsa|kyber|dilithium|sphincs|crypto[- ]agil\w*)\b",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "Quantum technology",
+        110,
+        re.compile(
+            r"\b(?:quantum comput\w*|quantum process\w*|quantum network\w*|quantum communicat\w*|"
+            r"quantum sens\w*|quantum memor\w*|quantum error\w*|quantum algorithm\w*|"
+            r"fault[- ]tolerant quantum|logical qubits?|qubits?)\b",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "Cybersecurity and cryptography",
+        100,
+        re.compile(
+            r"\b(?:cybersecurity|cyber security|cryptograph\w*|encrypt\w*|network security|"
+            r"secure networks?|zero trust|ransomware|malware|threat detection|vulnerabilit\w*|"
+            r"key exchange|digital signatures?|security sandbox|malicious (?:messages?|software|activity)|"
+            r"identity and access management|hardware security module|confidential computing|"
+            r"authenticat\w*|biometric\w*|privacy)\b",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "Artificial intelligence",
+        90,
+        re.compile(
+            r"\b(?:artificial intelligence|machine learning|large language models?|llms?|"
+            r"generative ai|generative response engine|transformers?|neural networks?|"
+            r"agentic systems?|autonomous ai agents?|computer vision|prompt injection|model security)\b",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "Cloud and distributed computing",
+        80,
+        re.compile(
+            r"\b(?:cloud computing|cloud security|hybrid cloud|multi[- ]cloud|distributed cloud|"
+            r"edge computing|cloud orchestrat\w*|serverless computing|cloud workloads?|"
+            r"cloud infrastructure|software as a service|saas)\b",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "Distributed sensing and autonomous systems",
+        50,
+        re.compile(
+            r"\b(?:smart dust|distributed sens\w*|sensor networks?|microelectromechanical systems?|"
+            r"mems|autonomous systems?|robotic\w*)\b",
+            re.IGNORECASE,
+        ),
+    ),
+)
 
 
 def write_patent_tracker(
@@ -46,14 +111,19 @@ def write_patent_tracker(
 
     cutoff = (generated - timedelta(days=retention_days)).date().isoformat()
     records = [
-        item
+        _with_strategic_relevance(item)
         for item in by_key.values()
         if item.get("tracking_type") == "curated"
         or not item.get("publication_date")
         or str(item["publication_date"]) >= cutoff
     ]
     records.sort(
-        key=lambda item: (str(item.get("publication_date") or ""), int(item.get("score") or 0), str(item["title"])),
+        key=lambda item: (
+            int(item.get("strategic_relevance_score") or 0),
+            int(item.get("score") or 0),
+            str(item.get("publication_date") or ""),
+            str(item.get("title") or ""),
+        ),
         reverse=True,
     )
     records = records[:max_items]
@@ -61,9 +131,13 @@ def write_patent_tracker(
     assignees = {str(item.get("assignee")) for item in records if item.get("assignee")}
     curated_total = sum(item.get("tracking_type") == "curated" for item in records)
     payload = {
-        "version": 2,
+        "version": 3,
         "updated_at": generated.isoformat(),
         "source": "Curated patent portfolio and USPTO Open Data Portal Patent File Wrapper metadata",
+        "ranking": (
+            "Strategic relevance first, then configured evidence score, publication date, and title. "
+            "Core domains are post-quantum cryptography, quantum technology, cybersecurity, AI, and cloud."
+        ),
         "source_note": (
             "Patent publications are early intelligence indicators, not proof of implementation, validity, "
             "deployment, commercial readiness, infringement, or freedom to operate."
@@ -75,7 +149,10 @@ def write_patent_tracker(
                 for item in records
             ),
             "unique_assignees": len(assignees),
-            "latest_publication_date": records[0].get("publication_date") if records else None,
+            "latest_publication_date": max(
+                (str(item["publication_date"]) for item in records if item.get("publication_date")),
+                default=None,
+            ),
             "curated_total": curated_total,
             "automated_total": len(records) - curated_total,
         },
@@ -153,6 +230,30 @@ def _priority_label(score: int) -> str:
     return "monitor"
 
 
+def _with_strategic_relevance(item: dict) -> dict:
+    record = dict(item)
+    text = " ".join(
+        [
+            str(record.get("title") or ""),
+            str(record.get("summary") or ""),
+            str(record.get("assessment") or ""),
+            str(record.get("query") or ""),
+            " ".join(str(value) for value in record.get("matched_keywords") or []),
+        ]
+    )
+    domains: list[str] = []
+    matched_weights: list[int] = []
+    for domain, weight, pattern in STRATEGIC_DOMAIN_RULES:
+        if pattern.search(text):
+            domains.append(domain)
+            matched_weights.append(weight)
+    core_domain_count = sum(weight >= 80 for weight in matched_weights)
+    relevance_score = max(matched_weights, default=0) + max(0, core_domain_count - 1) * 10
+    record["strategic_domains"] = domains
+    record["strategic_relevance_score"] = relevance_score
+    return record
+
+
 def _load_tracker(path: Path) -> dict:
     if not path.exists():
         return {"patents": []}
@@ -177,6 +278,8 @@ def _render_markdown(payload: dict) -> str:
         f"_Updated {payload['updated_at']}_",
         "",
         str(payload["source_note"]),
+        "",
+        f"**Ranking:** {payload['ranking']}",
         "",
         f"- Tracked publications: **{summary['total']}**",
         f"- Curated notable patents: **{summary.get('curated_total', 0)}**",
@@ -219,7 +322,11 @@ def _render_markdown(payload: dict) -> str:
     for item in automated:
         title = str(item["title"]).replace("|", r"\|")
         assignee = str(item.get("assignee") or "Not listed").replace("|", r"\|")
-        topic = ", ".join(item.get("matched_keywords") or []) or "Configured patent query"
+        topic = (
+            ", ".join(item.get("strategic_domains") or [])
+            or ", ".join(item.get("matched_keywords") or [])
+            or "Configured patent query"
+        )
         link = f"[{title}]({item['url']})"
         lines.append(
             f"| {link}<br><small>{item.get('publication_number') or 'Publication number unavailable'}</small> "

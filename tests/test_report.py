@@ -8,6 +8,7 @@ from tempfile import TemporaryDirectory
 from pqc_quantum_research_agent.models import DateFilterSummary, ResearchItem
 from pqc_quantum_research_agent.report import (
     is_complete_key_point,
+    is_report_relevant,
     render_digest,
     split_candidate_sentences,
     truncate_at_word_boundary,
@@ -42,6 +43,27 @@ class ReportTests(unittest.TestCase):
         self.assertIn("## Patent Intelligence", digest)
         self.assertIn("A filing is an indicator, not proof of implementation", digest)
         self.assertEqual(digest.count("Post-quantum ML-KEM key exchange patent publication"), 2)
+
+    def test_configured_cloud_patent_query_is_report_relevant(self) -> None:
+        item = ResearchItem(
+            source_name="Cloud and Edge Infrastructure Patents",
+            source_type="patent",
+            title="Cloud workload orchestration for edge computing",
+            url="https://data.uspto.gov/patent/example",
+            summary="USPTO patent publication metadata.",
+            published_at=datetime(2026, 7, 30, 12, 0, tzinfo=timezone.utc),
+            date_filter_status="included_today",
+            category="Patent Intelligence",
+            score=20,
+            matched_keywords=["cloud computing", "edge computing"],
+            score_explanation="topic_confidence=0",
+            raw_payload={
+                "query_name": "Cloud and Edge Infrastructure Patents",
+                "search_query": 'applicationMetaData.inventionTitle:"cloud computing"',
+            },
+        )
+
+        self.assertTrue(is_report_relevant(item))
 
     def test_daily_digest_can_include_already_seen_target_date_items(self) -> None:
         item = ResearchItem(

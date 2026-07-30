@@ -49,6 +49,29 @@ patents:
         applicationMetaData.inventionTitle:"generative response engine" OR
         applicationMetaData.inventionTitle:"autonomous AI agent" OR
         applicationMetaData.inventionTitle:"stateful transformer")
+    - name: "Cybersecurity and Cryptography Patents"
+      search_query: >-
+        (applicationMetaData.inventionTitle:cybersecurity OR
+        applicationMetaData.inventionTitle:"network security" OR
+        applicationMetaData.inventionTitle:"zero trust" OR
+        applicationMetaData.inventionTitle:ransomware OR
+        applicationMetaData.inventionTitle:"malware detection" OR
+        applicationMetaData.inventionTitle:"threat detection" OR
+        applicationMetaData.inventionTitle:"identity and access management" OR
+        applicationMetaData.inventionTitle:"secure access service edge" OR
+        applicationMetaData.inventionTitle:"confidential computing" OR
+        applicationMetaData.inventionTitle:"hardware security module")
+    - name: "Cloud and Edge Infrastructure Patents"
+      search_query: >-
+        (applicationMetaData.inventionTitle:"cloud computing" OR
+        applicationMetaData.inventionTitle:"cloud security" OR
+        applicationMetaData.inventionTitle:"hybrid cloud" OR
+        applicationMetaData.inventionTitle:"multi-cloud" OR
+        applicationMetaData.inventionTitle:"distributed cloud" OR
+        applicationMetaData.inventionTitle:"edge computing" OR
+        applicationMetaData.inventionTitle:"cloud orchestration" OR
+        applicationMetaData.inventionTitle:"serverless computing" OR
+        applicationMetaData.inventionTitle:"cloud workload")
     - name: "Distributed Sensing and Smart Dust Patents"
       search_query: >-
         (applicationMetaData.inventionTitle:"smart dust" OR
