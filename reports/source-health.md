@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-07-30 01:07 UTC_
+_Updated 2026-07-30 01:27 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source warning was recorded for that report.
 
@@ -14,14 +14,9 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 
 | Source | Type | Success rate | Warning days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---|---|---|---|
-| Distributed Sensing and Smart Dust Patents | patent | 0% | 1 | 2026-07-30 | — | unknown | 🔴 failing |
 | PQCA Readiness Tracking | rss | 100% | 1 | 2026-07-30 | 2026-07-28 | fresh | 🟠 degraded |
-| Post-Quantum Cryptography Patents | patent | 0% | 1 | 2026-07-30 | — | unknown | 🔴 failing |
-| Quantum Computing Patents | patent | 0% | 1 | 2026-07-30 | — | unknown | 🔴 failing |
-| Quantum Networking and Sensing Patents | patent | 0% | 1 | 2026-07-30 | — | unknown | 🔴 failing |
-| Strategic AI Systems Patents | patent | 0% | 1 | 2026-07-30 | — | unknown | 🔴 failing |
-| arXiv RSS cs.CR | arxiv_rss | 90% | 1 | 2026-07-30 | 2026-07-29 | fresh | 🟠 degraded |
-| arXiv RSS quant-ph | arxiv_rss | 90% | 1 | 2026-07-30 | 2026-07-29 | fresh | 🟠 degraded |
+| arXiv RSS cs.CR | arxiv_rss | 91% | 1 | 2026-07-30 | 2026-07-29 | fresh | 🟠 degraded |
+| arXiv RSS quant-ph | arxiv_rss | 91% | 1 | 2026-07-30 | 2026-07-29 | fresh | 🟠 degraded |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 2026-07-30 | 2026-07-23 | fresh | 🟢 healthy |
 | Accenture Federal Services Quantum Readiness | watch | 100% | 0 | 2026-07-30 | 2026-01-02 | stale | 🟢 healthy |
 | Accenture Quantum and PQC News | watch | 100% | 0 | 2026-07-30 | 2025-10-20 | stale | 🟢 healthy |
@@ -35,6 +30,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | DOE Federal Science Missions | watch | 100% | 0 | 2026-07-30 | 2026-07-29 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 2026-07-30 | — | unknown | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 2026-07-30 | 2026-06-04 | stale | 🟢 healthy |
+| Distributed Sensing and Smart Dust Patents | patent | 50% | 0 | 2026-07-30 | 2026-06-04 | stale | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 2026-07-30 | 2024-03-12 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 100% | 0 | 2026-07-30 | 2026-06-22 | stale | 🟢 healthy |
 | Fortanix Quantum Security | watch | 100% | 0 | 2026-07-30 | 2026-07-29 | fresh | 🟢 healthy |
@@ -57,15 +53,19 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Open Quantum Safe | url | 100% | 0 | 2026-07-30 | — | unknown | 🟢 healthy |
 | PQCA Blog and News | rss | 100% | 0 | 2026-07-30 | 2026-07-27 | fresh | 🟢 healthy |
 | PQShield | url | 100% | 0 | 2026-07-30 | 2026-07-23 | fresh | 🟢 healthy |
+| Post-Quantum Cryptography Patents | patent | 50% | 0 | 2026-07-30 | 2026-07-16 | fresh | 🟢 healthy |
 | PsiQuantum News | watch | 100% | 0 | 2026-07-30 | 2026-07-22 | fresh | 🟢 healthy |
 | QCi Press Releases | watch | 100% | 0 | 2026-07-30 | 2026-08-10 | fresh | 🟢 healthy |
 | QuEra Press Releases | watch | 100% | 0 | 2026-07-30 | — | unknown | 🟢 healthy |
 | QuSecure Press Releases | watch | 100% | 0 | 2026-07-30 | 2025-07-19 | stale | 🟢 healthy |
 | Quantinuum News | url | 100% | 0 | 2026-07-30 | 2026-08-11 | fresh | 🟢 healthy |
-| Quantum Zeitgeist | rss | 100% | 0 | 2026-07-30 | 2026-07-29 | fresh | 🟢 healthy |
-| QuantumNews.ai | url | 100% | 0 | 2026-07-30 | 2026-07-29 | fresh | 🟢 healthy |
+| Quantum Computing Patents | patent | 50% | 0 | 2026-07-30 | 2026-07-23 | fresh | 🟢 healthy |
+| Quantum Networking and Sensing Patents | patent | 50% | 0 | 2026-07-30 | 2026-07-23 | fresh | 🟢 healthy |
+| Quantum Zeitgeist | rss | 100% | 0 | 2026-07-30 | 2026-07-30 | fresh | 🟢 healthy |
+| QuantumNews.ai | url | 100% | 0 | 2026-07-30 | 2026-07-30 | fresh | 🟢 healthy |
 | Rigetti News | url | 100% | 0 | 2026-07-30 | 2022-06-07 | stale | 🟢 healthy |
 | SandboxAQ Blog | url | 100% | 0 | 2026-07-30 | 2026-07-28 | fresh | 🟢 healthy |
+| Strategic AI Systems Patents | patent | 50% | 0 | 2026-07-30 | 2026-07-23 | fresh | 🟢 healthy |
 | Thales Cybersecurity Blog | url | 100% | 0 | 2026-07-30 | 2026-06-15 | stale | 🟢 healthy |
 | The Quantum Insider | rss | 100% | 0 | 2026-07-30 | 2026-07-29 | fresh | 🟢 healthy |
 | White House Science and Technology Missions | watch | 100% | 0 | 2026-07-30 | 2026-06-22 | stale | 🟢 healthy |
@@ -80,11 +80,6 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 
 ## Recent Warning Details
 
-- 2026-07-29 — **Post-Quantum Cryptography Patents**: Failed to fetch https://api.uspto.gov/api/v1/patent/applications/search: 500 Server Error: Internal Server Error for url: https://api.uspto.gov/api/v1/patent/applications/search?q=post-quantum+OR+quantum-safe+OR+quantum-resistant+OR+ML-KEM+OR+ML-DSA&sort=applicationMetaData.publicationDate+desc&limit=25
-- 2026-07-29 — **Quantum Computing Patents**: Failed to fetch https://api.uspto.gov/api/v1/patent/applications/search: 500 Server Error: Internal Server Error for url: https://api.uspto.gov/api/v1/patent/applications/search?q=%22quantum+computing%22+OR+%22quantum+processor%22+OR+qubit&sort=applicationMetaData.publicationDate+desc&limit=25
-- 2026-07-29 — **Quantum Networking and Sensing Patents**: Failed to fetch https://api.uspto.gov/api/v1/patent/applications/search: 500 Server Error: Internal Server Error for url: https://api.uspto.gov/api/v1/patent/applications/search?q=%22quantum+network%22+OR+%22quantum+communication%22+OR+%22quantum+sensing%22&sort=applicationMetaData.publicationDate+desc&limit=25
-- 2026-07-29 — **Strategic AI Systems Patents**: Failed to fetch https://api.uspto.gov/api/v1/patent/applications/search: 500 Server Error: Internal Server Error for url: https://api.uspto.gov/api/v1/patent/applications/search?q=%22large+language+model%22+OR+%22generative+response+engine%22+OR+%22autonomous+AI+agent%22&sort=applicationMetaData.publicationDate+desc&limit=25
-- 2026-07-29 — **Distributed Sensing and Smart Dust Patents**: Failed to fetch https://api.uspto.gov/api/v1/patent/applications/search: 500 Server Error: Internal Server Error for url: https://api.uspto.gov/api/v1/patent/applications/search?q=%22smart+dust%22+OR+%22distributed+sensor+network%22+OR+%22microelectromechanical+systems%22&sort=applicationMetaData.publicationDate+desc&limit=25
 - 2026-07-14 — **PQCA Readiness Tracking**: Failed to fetch https://lists.pqca.org/g/wg-readiness-tracking/rss: HTTPSConnectionPool(host='lists.pqca.org', port=443): Max retries exceeded with url: /g/wg-readiness-tracking/rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='lists.pqca.org', port=443) at 0x7fccaec0d410>, 'Connection to lists.pqca.org timed out. (connect timeout=20)'))
 - 2026-07-06 — **arXiv RSS cs.CR**: Feed returned no parseable entries.
 - 2026-07-06 — **arXiv RSS quant-ph**: Feed returned no parseable entries.
