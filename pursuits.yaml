@@ -1,0 +1,13 @@
+version: 1
+
+workspace:
+  auto_seed:
+    enabled: true
+    gates:
+      - priority qualification
+      - qualify
+    limit: 12
+
+# Public, non-sensitive pursuit status belongs here. Entries are intentionally
+# empty by default; auto-seeded qualification candidates will still appear.
+pursuits: []

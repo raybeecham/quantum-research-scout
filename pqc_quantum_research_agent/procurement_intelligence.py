@@ -11,6 +11,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 from xml.etree import ElementTree
 
+from .capabilities import capability_publication_enabled, score_capability_fit
 from .http import HttpClient
 from .text import compact_summary, strip_html
 
@@ -72,6 +73,7 @@ def write_procurement_intelligence(
     funding_config: dict,
     *,
     client: HttpClient | None = None,
+    capability_profile: dict | None = None,
     generated_at: datetime | None = None,
 ) -> tuple[Path, Path, Path, Path]:
     """Extract procurement evidence and produce provisional qualification briefs."""
@@ -152,7 +154,12 @@ def write_procurement_intelligence(
         },
         "opportunities": analyzed,
     }
-    briefs = _build_decision_briefs(funding, procurement_payload, generated)
+    briefs = _build_decision_briefs(
+        funding,
+        procurement_payload,
+        generated,
+        capability_profile=capability_profile or {},
+    )
     json_path.write_text(
         json.dumps(procurement_payload, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
@@ -439,6 +446,8 @@ def _build_decision_briefs(
     funding: dict,
     procurement: dict,
     generated: datetime,
+    *,
+    capability_profile: dict | None = None,
 ) -> dict:
     documents_by_key = {
         str(item.get("opportunity_key")): item
@@ -461,6 +470,27 @@ def _build_decision_briefs(
                 - risk_penalty,
             ),
         )
+        publish_capability_fit = capability_publication_enabled(
+            capability_profile or {}
+        )
+        capability_fit = score_capability_fit(
+            {
+                **opportunity,
+                "agency": opportunity.get("awarding_agency")
+                or opportunity.get("funding_agency"),
+                "technology_fit": opportunity.get("technology_domains") or [],
+                "requirements": documents.get("requirements") or [],
+                "evaluation_criteria": documents.get("evaluation_criteria") or [],
+                "eligibility": documents.get("eligibility") or [],
+            },
+            capability_profile or {},
+        )
+        if publish_capability_fit and capability_fit.get("configured"):
+            score = round(
+                score * 0.65 + int(capability_fit.get("score") or 0) * 0.35
+            )
+            if capability_fit.get("hard_stops"):
+                score = min(score, 25)
         gate = (
             "priority qualification"
             if score >= 80 and completeness >= 50
@@ -484,8 +514,7 @@ def _build_decision_briefs(
             for value in [opportunity.get("url"), *(documents.get("source_urls") or [])]
             if value
         ]
-        briefs.append(
-            {
+        brief = {
                 "opportunity_key": opportunity.get("key"),
                 "title": opportunity.get("title"),
                 "url": opportunity.get("url"),
@@ -521,7 +550,9 @@ def _build_decision_briefs(
                     "decision. Market participants and teaming candidates are analytical matches."
                 ),
             }
-        )
+        if publish_capability_fit and capability_fit.get("configured"):
+            brief["capability_fit"] = capability_fit
+        briefs.append(brief)
     briefs.sort(
         key=lambda item: (
             int(item["decision_score"]),
@@ -534,8 +565,15 @@ def _build_decision_briefs(
         "updated_at": generated.isoformat(),
         "scope_note": (
             "Provisional opportunity qualification based on collected public evidence. "
-            "Organization-specific capabilities, pricing, conflicts, and approval authority "
-            "must be supplied before a bid/no-bid decision."
+            + (
+                "The score also includes an organization-specific capability assessment "
+                "explicitly approved for publication. "
+                if capability_publication_enabled(capability_profile or {})
+                else "Organization-specific capability details remain local and are not "
+                "included in this public report. "
+            )
+            + "Pricing, conflicts, and approval authority must be confirmed before a "
+            "bid/no-bid decision."
         ),
         "summary": {
             "brief_count": len(briefs),

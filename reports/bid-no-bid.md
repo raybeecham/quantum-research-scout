@@ -2,9 +2,9 @@
 
 [Report Index](README.md) · [Document Intelligence](procurement-intelligence.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-07-30T23:03:01.409891+00:00_
+_Updated 2026-07-30T23:29:28.037325+00:00_
 
-Provisional opportunity qualification based on collected public evidence. Organization-specific capabilities, pricing, conflicts, and approval authority must be supplied before a bid/no-bid decision.
+Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.
 
 - Priority qualification: **0**
 - Qualify: **1**

@@ -1,0 +1,40 @@
+version: 1
+
+# Copy this file to pursuits.local.yaml for internal pursuit management.
+# pursuits.local.yaml and generated .local-intelligence/ views are gitignored.
+pursuits:
+  - opportunity_key: "sam_gov:replace-with-opportunity-id"
+    visibility: private
+    stage: qualify
+    owner: "Opportunity owner"
+    team:
+      - "Capture lead"
+      - "Technical lead"
+    decision_due: "2026-08-07"
+    decision: pending
+    rationale: "Internal working rationale"
+    public_summary: "Optional public-safe status summary"
+    milestones:
+      - name: "Qualification review"
+        date: "2026-08-05"
+        status: pending
+        owner: "Capture lead"
+      - name: "Bid / no-bid decision"
+        date: "2026-08-07"
+        status: pending
+        owner: "Executive sponsor"
+    checklist:
+      - item: "Confirm eligibility and set-aside status"
+        status: pending
+        owner: "Contracts"
+        evidence: "Link or internal reference"
+      - item: "Validate past-performance fit"
+        status: pending
+        owner: "Capture lead"
+        evidence: "Internal reference"
+    questions:
+      - "What is the controlling submission date after amendments?"
+    partners:
+      - "Potential teaming partner"
+    notes:
+      - "Internal working note"

@@ -39,6 +39,10 @@ def build_dashboard(
             "summary": {},
         },
     )
+    contractor_enrichment = _read_json(
+        reports / "contractor-enrichment.json",
+        {"contractors": [], "summary": {}},
+    )
     procurement_intelligence = _read_json(
         reports / "procurement-intelligence.json",
         {"opportunities": [], "summary": {}},
@@ -46,6 +50,10 @@ def build_dashboard(
     bid_no_bid = _read_json(
         reports / "bid-no-bid.json",
         {"briefs": [], "summary": {}},
+    )
+    pursuits = _read_json(
+        reports / "pursuits.json",
+        {"pursuits": [], "summary": {}},
     )
     historical = _read_json(reports / "historical-evidence.json", {"items": [], "item_count": 0})
     patents = _read_json(
@@ -63,7 +71,9 @@ def build_dashboard(
         "readiness": readiness,
         "standards": standards,
         "federal_missions": federal_missions,
-        "federal_funding": _dashboard_federal_funding(federal_funding),
+        "federal_funding": _dashboard_federal_funding(
+            federal_funding, contractor_enrichment
+        ),
         "procurement_intelligence": {
             "updated_at": procurement_intelligence.get("updated_at"),
             "summary": procurement_intelligence.get("summary", {}),
@@ -73,6 +83,11 @@ def build_dashboard(
             "updated_at": bid_no_bid.get("updated_at"),
             "summary": bid_no_bid.get("summary", {}),
             "briefs": (bid_no_bid.get("briefs") or [])[:20],
+        },
+        "pursuits": {
+            "updated_at": pursuits.get("updated_at"),
+            "summary": pursuits.get("summary", {}),
+            "pursuits": (pursuits.get("pursuits") or [])[:30],
         },
         "historical_evidence": {
             key: historical.get(key) for key in ("updated_at", "lookback_days", "item_count", "dated_count", "undated_count")
@@ -133,7 +148,7 @@ def _dashboard_signals(state: dict) -> dict:
     return {"updated_at": state.get("updated_at"), "themes": themes, "overall_trend": overall_trend}
 
 
-def _dashboard_federal_funding(payload: dict) -> dict:
+def _dashboard_federal_funding(payload: dict, enrichment: dict | None = None) -> dict:
     records = payload.get("records", [])
     prioritized: list[dict] = []
     seen: set[str] = set()
@@ -183,6 +198,11 @@ def _dashboard_federal_funding(payload: dict) -> dict:
         }
         entry["related_patent_count"] = len(item.get("related_patents") or [])
         opportunity_radar.append(entry)
+    enrichment_by_id = {
+        str(item.get("identity_id")): item
+        for item in (enrichment or {}).get("contractors", [])
+        if isinstance(item, dict) and item.get("identity_id")
+    }
     contractor_profiles = []
     for item in payload.get("recipients_and_contractors", [])[:50]:
         entry = {
@@ -197,6 +217,33 @@ def _dashboard_federal_funding(payload: dict) -> dict:
         }
         entry["related_patents"] = (item.get("related_patents") or [])[:5]
         entry["related_patent_count"] = len(item.get("related_patents") or [])
+        resolved = enrichment_by_id.get(str(item.get("identity_id")), {})
+        entry["entity_enrichment"] = {
+            key: resolved.get(key)
+            for key in (
+                "resolution_status",
+                "resolution_confidence",
+                "resolution_basis",
+                "legal_business_name",
+                "dba_name",
+                "uei",
+                "cage_code",
+                "registration_status",
+                "registration_expiration_date",
+                "purpose_of_registration",
+                "exclusion_status",
+                "entity_structure",
+                "organization_structure",
+                "business_types",
+                "sba_business_types",
+                "naics",
+                "psc",
+                "immediate_parent",
+                "ultimate_parent",
+                "source_url",
+            )
+            if resolved.get(key) not in (None, "", [], {})
+        }
         contractor_profiles.append(entry)
     return {
         "updated_at": payload.get("updated_at"),
@@ -207,6 +254,7 @@ def _dashboard_federal_funding(payload: dict) -> dict:
         "opportunity_radar": opportunity_radar,
         "mission_portfolios": portfolios,
         "contractor_profiles": contractor_profiles,
+        "contractor_enrichment_summary": (enrichment or {}).get("summary", {}),
         "relationship_explorer": payload.get(
             "relationship_explorer",
             {"summary": {}, "nodes": [], "edges": []},

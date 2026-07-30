@@ -142,6 +142,56 @@ class ProcurementIntelligenceTests(unittest.TestCase):
 
         self.assertEqual(len(client.calls), 1)
 
+    def test_capability_fit_is_published_only_with_explicit_opt_in(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports = Path(temp_dir)
+            (reports / "federal-funding.json").write_text(
+                json.dumps(
+                    {
+                        "opportunity_radar": [
+                            {
+                                "key": "sam_gov:FIT-1",
+                                "title": "Post-quantum migration",
+                                "awarding_agency": "Department of Defense",
+                                "opportunity_score": 70,
+                                "technology_domains": [
+                                    "post-quantum cryptography"
+                                ],
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            base_profile = {
+                "capabilities": [
+                    {
+                        "name": "PQC migration",
+                        "domains": ["post-quantum cryptography"],
+                    }
+                ]
+            }
+            outputs = write_procurement_intelligence(
+                reports,
+                {},
+                capability_profile=base_profile,
+                generated_at=datetime(2026, 7, 30, tzinfo=timezone.utc),
+            )
+            private_default = json.loads(outputs[2].read_text(encoding="utf-8"))
+            outputs = write_procurement_intelligence(
+                reports,
+                {},
+                capability_profile={
+                    **base_profile,
+                    "publication": {"publish_fit_assessment": True},
+                },
+                generated_at=datetime(2026, 7, 30, tzinfo=timezone.utc),
+            )
+            published = json.loads(outputs[2].read_text(encoding="utf-8"))
+
+        self.assertNotIn("capability_fit", private_default["briefs"][0])
+        self.assertTrue(published["briefs"][0]["capability_fit"]["configured"])
+
 
 if __name__ == "__main__":
     unittest.main()

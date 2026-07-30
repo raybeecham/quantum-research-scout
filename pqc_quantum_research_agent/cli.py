@@ -7,6 +7,7 @@ from datetime import datetime, time, timezone
 from pathlib import Path
 
 from .classifier import classify_item
+from .capabilities import load_capability_profile
 from .collectors import collect_all
 from .config import load_config, load_weight_file
 from .date_filter import COVERAGE_WINDOW_INCLUDED_STATUSES, apply_date_filter, build_coverage_window, summarize_date_filter
@@ -23,8 +24,10 @@ from .alerts import write_alerts
 from .entity_watch import write_entity_watch
 from .federal_missions import write_federal_mission_tracker
 from .federal_funding import write_federal_funding_tracker
+from .contractor_enrichment import write_contractor_enrichment
 from .http import HttpClient
 from .procurement_intelligence import write_procurement_intelligence
+from .pursuits import write_pursuit_workspace
 from .readiness import write_readiness_report
 from .standards import write_standards_timeline
 from .storage import ResearchStore
@@ -58,6 +61,26 @@ def build_parser() -> argparse.ArgumentParser:
         "--missions-config",
         default="missions.yaml",
         help="Path to named federal missions, initiatives, milestones, and discovery settings.",
+    )
+    parser.add_argument(
+        "--capabilities-config",
+        default="capabilities.local.yaml",
+        help="Optional gitignored organization capability profile.",
+    )
+    parser.add_argument(
+        "--pursuits-config",
+        default="pursuits.yaml",
+        help="Path to public-safe pursuit tracking configuration.",
+    )
+    parser.add_argument(
+        "--private-pursuits-config",
+        default="pursuits.local.yaml",
+        help="Optional gitignored private pursuit configuration.",
+    )
+    parser.add_argument(
+        "--local-intelligence-dir",
+        default=".local-intelligence",
+        help="Gitignored output directory for private working views.",
     )
     parser.add_argument("--week-start", default=None, help="Weekly synthesis start date in YYYY-MM-DD format.")
     parser.add_argument("--week-end", default=None, help="Weekly synthesis end date in YYYY-MM-DD format.")
@@ -353,10 +376,26 @@ def main(argv: list[str] | None = None) -> int:
             config.settings.user_agent,
             timeout_seconds=config.settings.request_timeout_seconds,
         )
+        write_contractor_enrichment(
+            Path(args.reports_dir),
+            config.federal_funding,
+            client=intelligence_client,
+            generated_at=generated_at,
+        )
+        capability_profile = load_capability_profile(args.capabilities_config)
         write_procurement_intelligence(
             Path(args.reports_dir),
             config.federal_funding,
             client=intelligence_client,
+            capability_profile=capability_profile,
+            generated_at=generated_at,
+        )
+        write_pursuit_workspace(
+            Path(args.reports_dir),
+            args.pursuits_config,
+            args.private_pursuits_config,
+            capability_profile=capability_profile,
+            local_intelligence_dir=args.local_intelligence_dir,
             generated_at=generated_at,
         )
         write_signal_tracker(Path(args.reports_dir))

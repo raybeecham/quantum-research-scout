@@ -1,0 +1,50 @@
+version: 1
+
+# Copy this file to capabilities.local.yaml. That local file is gitignored.
+profile:
+  organization:
+    name: "Your Organization"
+
+  # Keep false unless you intentionally want capability-fit details published
+  # into tracked reports and the public GitHub Pages dashboard.
+  publication:
+    publish_fit_assessment: false
+
+  preferred_agencies:
+    - "Department of Defense"
+    - "Department of Energy"
+
+  capabilities:
+    - name: "Post-quantum migration"
+      domains: ["post-quantum cryptography", "cybersecurity"]
+      keywords: ["ML-KEM", "ML-DSA", "crypto agility", "cryptographic inventory"]
+      evidence:
+        - "Replace with an internal capability or approved public reference."
+
+  past_performance:
+    - name: "Example modernization engagement"
+      agencies: ["Department of Defense"]
+      domains: ["cybersecurity"]
+      keywords: ["zero trust", "cryptographic modernization"]
+      reference: "Internal reference"
+
+  contract_vehicles:
+    - name: "Example vehicle"
+      agencies: ["Department of Defense"]
+      prime_or_sub: "sub"
+      active: true
+
+  eligible_set_asides:
+    - "small business"
+
+  minimum_opportunity_value: 100000
+  maximum_opportunity_value: 25000000
+
+  disqualifiers:
+    - name: "Outside delivery geography"
+      patterns: ["performance outside the united states"]
+      hard_stop: false
+
+  teaming_partners:
+    - name: "Example Partner"
+      capabilities: ["cloud", "systems integration"]

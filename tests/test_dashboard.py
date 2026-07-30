@@ -118,6 +118,7 @@ class DashboardBuildTests(unittest.TestCase):
                         ],
                         "recipients_and_contractors": [
                             {
+                                "identity_id": "contractor:acme-quantum",
                                 "name": "Acme Quantum LLC",
                                 "award_count": 1,
                                 "known_award_value": 2500000,
@@ -161,6 +162,26 @@ class DashboardBuildTests(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
+            (reports / "contractor-enrichment.json").write_text(
+                json.dumps(
+                    {
+                        "summary": {"resolved": 1, "uei_coverage_percent": 100},
+                        "contractors": [
+                            {
+                                "identity_id": "contractor:acme-quantum",
+                                "resolution_status": "resolved",
+                                "resolution_confidence": "high",
+                                "legal_business_name": "Acme Quantum LLC",
+                                "uei": "ABC123DEF456",
+                                "cage_code": "1A2B3",
+                                "business_types": ["Small Business"],
+                                "source_url": "https://sam.gov/entity/ABC123DEF456/coreData",
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
             (reports / "procurement-intelligence.json").write_text(
                 json.dumps(
                     {
@@ -192,6 +213,22 @@ class DashboardBuildTests(unittest.TestCase):
                                 "title": "Quantum BAA",
                                 "provisional_gate": "priority qualification",
                                 "decision_score": 88,
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            (reports / "pursuits.json").write_text(
+                json.dumps(
+                    {
+                        "summary": {"active": 1, "managed": 1},
+                        "pursuits": [
+                            {
+                                "opportunity_key": "sam:one",
+                                "title": "Quantum BAA",
+                                "stage": "pursue",
+                                "owner": "Public Owner",
                             }
                         ],
                     }
@@ -249,12 +286,19 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["federal_funding"]["records"][0]["record_type"], "baa")
             self.assertEqual(payload["federal_funding"]["opportunity_radar"][0]["opportunity_score"], 82)
             self.assertEqual(payload["federal_funding"]["contractor_profiles"][0]["name"], "Acme Quantum LLC")
+            self.assertEqual(
+                payload["federal_funding"]["contractor_profiles"][0][
+                    "entity_enrichment"
+                ]["cage_code"],
+                "1A2B3",
+            )
             self.assertEqual(payload["federal_funding"]["relationship_explorer"]["summary"]["edges"], 1)
             self.assertEqual(
                 payload["procurement_intelligence"]["summary"]["documents_extracted"],
                 1,
             )
             self.assertEqual(payload["bid_no_bid"]["briefs"][0]["decision_score"], 88)
+            self.assertEqual(payload["pursuits"]["pursuits"][0]["stage"], "pursue")
             self.assertEqual(payload["historical_evidence"]["item_count"], 2)
             self.assertEqual(payload["patents"]["summary"]["total"], 1)
             self.assertEqual(payload["patents"]["summary"]["curated_total"], 1)
@@ -311,9 +355,11 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("renderOpportunityRadar", script)
         self.assertIn("renderRelationshipExplorer", script)
         self.assertIn("renderContractors", script)
+        self.assertIn("renderPursuits", script)
         self.assertIn('id="opportunity-radar"', html)
         self.assertIn('id="relationship-graph"', html)
         self.assertIn('id="contractor-grid"', html)
+        self.assertIn('id="pursuit-board"', html)
         self.assertIn("strategic_significance_score", script)
         self.assertIn("alerts.slice(0, 3)", script)
         self.assertIn("friendlyReportName", script)

@@ -72,7 +72,9 @@ The system favors explainable evidence over black-box conclusions. Exact relatio
 | [**Signal tracker**](reports/signals.md) | Themes that are rising, stable, declining, actionable, watching, or stale |
 | [**Federal missions**](reports/federal-missions.md) | Named national initiatives, milestones, agencies, relationships, and updates |
 | [**Funding and procurement**](reports/federal-funding.md) | Awards, grants, acquisition notices, contractors, and mission execution |
+| [**Contractor enrichment**](reports/contractor-enrichment.md) | Public SAM.gov registrations, UEIs, CAGE codes, business types, NAICS, and corporate hierarchy |
 | [**Decision briefs**](reports/bid-no-bid.md) | Provisional opportunity qualification, risks, unknowns, and recommended actions |
+| [**Pursuit workspace**](reports/pursuits.md) | Public-safe stages, owners, milestones, checklists, and upcoming decisions |
 | [**Procurement documents**](reports/procurement-intelligence.md) | Requirements evidence, evaluation criteria, deadlines, contacts, and amendments |
 | [**Patent intelligence**](reports/patents.md) | Patent families, stage, status, citations, assignees, and significance |
 | [**Intelligence alerts**](reports/alerts.md) | New critical conditions, opportunity deadlines, amendments, and source problems |
@@ -93,11 +95,15 @@ The acquisition layer can:
 
 - rank open grants, BAAs, RFIs, and solicitations;
 - resolve contractors using UEIs, CAGE codes, and conservative aliases;
+- enrich exact entity matches with public SAM.gov registration, business-type, NAICS, PSC, and parent-organization evidence;
 - extract bounded evidence from public PDF, DOCX, HTML, JSON, XML, and text documents;
 - detect newly observed amendments and content changes;
-- produce provisional qualification briefs with risks, unknowns, and next actions.
+- produce provisional qualification briefs with risks, unknowns, and next actions;
+- move selected opportunities into an owner, milestone, checklist, and decision workflow.
 
 Raw solicitation files and full document text are not retained. Qualification briefs support human review; they are not authorized bid/no-bid decisions.
+
+Organization capability data and private pursuit notes stay local by default. The generated public dashboard only receives explicit public-safe pursuit fields; private configuration and working views are gitignored.
 
 ### Patents are treated as signals—not proof
 
@@ -156,7 +162,7 @@ Core collection requires no paid AI service. Optional repository secrets unlock 
 
 | Secret | Enables |
 |---|---|
-| `SAM_GOV_API_KEY` | SAM.gov notices, solicitation links, awardee UEIs, and procurement document intelligence |
+| `SAM_GOV_API_KEY` | SAM.gov notices, solicitation links, entity registrations, UEIs, CAGE codes, and procurement document intelligence |
 | `USPTO_ODP_API_KEY` | Automated USPTO patent-publication discovery |
 
 Slack, Teams, generic webhook, email, and GitHub Issue notification routes are independently configurable in [`alerts.yaml`](alerts.yaml).
@@ -167,11 +173,16 @@ Slack, Teams, generic webhook, email, and GitHub Issue notification routes are i
 - [`missions.yaml`](missions.yaml) — federal missions, relationships, milestones, and discovery rules
 - [`watchlists.yaml`](watchlists.yaml) — organizations, agencies, standards, algorithms, and technologies
 - [`alerts.yaml`](alerts.yaml) — alert thresholds and delivery behavior
+- [`pursuits.yaml`](pursuits.yaml) — public-safe pursuit status and automatic candidate seeding
+- [`capabilities.example.yaml`](capabilities.example.yaml) — template for a private organization capability profile
+- [`pursuits.example.yaml`](pursuits.example.yaml) — template for a private pursuit workspace
 - [`readiness.yaml`](readiness.yaml) — public PQC-engagement stages and evidence rules
 - [`standards.yaml`](standards.yaml) — authoritative standards, policy, and migration milestones
 - [`source_weights.yaml`](source_weights.yaml) and [`keyword_weights.yaml`](keyword_weights.yaml) — optional scoring adjustments
 
 Run `pqc-quantum-research-agent --help` for the complete CLI reference, including daily backfills, rolling lookbacks, weekly and monthly generation, retention, and score controls.
+
+For organization-specific fit and internal pursuit management, copy the example files to `capabilities.local.yaml` and `pursuits.local.yaml`. Those files—and generated `.local-intelligence/` views—are excluded from Git. Keep `publish_fit_assessment: false` unless the capability assessment is intentionally approved for the public reports and dashboard.
 
 <details>
 <summary><strong>How to read the labels</strong></summary>

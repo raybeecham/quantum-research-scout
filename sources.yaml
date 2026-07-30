@@ -138,6 +138,14 @@ federal_funding:
     max_pdf_pages: 30
     max_text_characters: 80000
     refresh_days: 14
+  contractor_enrichment:
+    enabled: true
+    endpoint: "https://api.sam.gov/entity-information/v4/entities"
+    api_key_env: "SAM_GOV_API_KEY"
+    max_contractors: 75
+    max_entities_per_run: 12
+    max_matches_per_query: 10
+    cache_days: 30
   queries:
     - name: "Quantum Technologies"
       keyword: "quantum"
