@@ -67,6 +67,8 @@ function render(){
   document.getElementById("metric-alerts-detail").textContent = `${alerts.active_count || 0} active overall`;
   document.getElementById("metric-patents").textContent = patentPayload.summary?.total || 0;
   document.getElementById("metric-patents-detail").textContent = `${patentPayload.summary?.last_30_days || 0} published in 30 days · ${patentPayload.summary?.curated_total || 0} notable`;
+  document.getElementById("hero-patent-count").textContent = `${patentPayload.summary?.total || 0} tracked`;
+  document.getElementById("hero-mission-count").textContent = `${missionPayload.summary?.active || 0} active`;
   document.getElementById("signal-updated").textContent = `Updated ${formatDate(state.data.signals.updated_at)}`;
   const verified = sources.filter(x => x.verification_status === "verified").length;
   const fresh = sources.filter(x => x.freshness === "fresh").length;
@@ -75,6 +77,8 @@ function render(){
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
   renderReports(state.data.reports); renderAlerts(alerts); renderMissions(missionPayload); renderSignals(); renderPatents(patentPayload); renderWatch();
   renderTrend(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderSources(sources);
+  animateMetrics();
+  setupReveal();
 }
 
 function renderTrend(){
@@ -95,7 +99,7 @@ function renderTrend(){
   const line = series.map((item,index) => `${index ? "L" : "M"}${x(index).toFixed(1)},${y(item.count).toFixed(1)}`).join(" ");
   const area = `${line} L${x(series.length-1)},${height-pad} L${x(0)},${height-pad} Z`;
   const grid = [0,.25,.5,.75,1].map(ratio => `<line class="trend-grid" x1="${pad}" y1="${y(max*ratio)}" x2="${width-pad}" y2="${y(max*ratio)}"/>`).join("");
-  document.getElementById("trend-chart").innerHTML = `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="trend-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#49d8d0" stop-opacity=".3"/><stop offset="1" stop-color="#49d8d0" stop-opacity="0"/></linearGradient></defs>${grid}<path class="trend-area" d="${area}"/><path class="trend-line" d="${line}"/><text class="trend-label" x="${pad}" y="${height-5}">${series[0].label}</text><text class="trend-label" text-anchor="end" x="${width-pad}" y="${height-5}">${series[series.length-1].label}</text></svg>`;
+  document.getElementById("trend-chart").innerHTML = `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="trend-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a66bff" stop-opacity=".34"/><stop offset=".55" stop-color="#48e4ff" stop-opacity=".12"/><stop offset="1" stop-color="#48e4ff" stop-opacity="0"/></linearGradient><linearGradient id="trend-stroke" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a66bff"/><stop offset=".5" stop-color="#7085ff"/><stop offset="1" stop-color="#48e4ff"/></linearGradient></defs>${grid}<path class="trend-area" d="${area}"/><path class="trend-line" d="${line}"/><text class="trend-label" x="${pad}" y="${height-5}">${series[0].label}</text><text class="trend-label" text-anchor="end" x="${width-pad}" y="${height-5}">${series[series.length-1].label}</text></svg>`;
   document.getElementById("trend-total").textContent = series.reduce((sum,item) => sum + item.count, 0);
   const peak = series.reduce((best,item) => item.count > best.count ? item : best, series[0]);
   document.getElementById("trend-peak").textContent = `${peak.count} · ${peak.label}`;
@@ -270,6 +274,46 @@ function renderReports(reports){
   document.getElementById("report-cards").innerHTML = cards.map(([type,item]) => `<a class="report-card" href="${escapeHtml(safeUrl(item.url))}"><span>${type}</span><h3>${escapeHtml(friendlyReportName(item.name, type))}</h3></a>`).join("");
 }
 
+function animateMetrics(){
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  document.querySelectorAll("#briefing.metrics strong").forEach(element => {
+    const target = Number(element.textContent);
+    if (!Number.isFinite(target) || target <= 0) return;
+    const duration = 650;
+    const start = performance.now();
+    const tick = now => {
+      const progress = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      element.textContent = Math.round(target * eased);
+      if (progress < 1) requestAnimationFrame(tick);
+    };
+    element.textContent = "0";
+    requestAnimationFrame(tick);
+  });
+}
+
+function setupReveal(){
+  if (document.documentElement.dataset.revealSetup || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  document.documentElement.dataset.revealSetup = "true";
+  const targets = document.querySelectorAll(
+    "#briefing.metrics article,.briefing-panel,.signal-card,.mission-card,.patent-card,.watch-card,.guide-grid article,.milestone-card"
+  );
+  if (!("IntersectionObserver" in window)) return;
+  document.documentElement.classList.add("reveal-ready");
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("is-visible");
+      observer.unobserve(entry.target);
+    });
+  }, { rootMargin: "0px 0px -35px", threshold: .08 });
+  targets.forEach((element,index) => {
+    element.classList.add("reveal-item");
+    element.style.transitionDelay = `${Math.min(index % 4, 3) * 55}ms`;
+    observer.observe(element);
+  });
+}
+
 document.getElementById("signal-search").addEventListener("input", event => { state.query = event.target.value; if(state.data) renderSignals(); });
 document.getElementById("status-filters").addEventListener("click", event => { if(!event.target.dataset.status) return; state.status = event.target.dataset.status; document.querySelectorAll("#status-filters button").forEach(x => x.classList.toggle("active", x === event.target)); if(state.data) renderSignals(); });
 document.getElementById("trend-ranges").addEventListener("click", event => { if(!event.target.dataset.days) return; state.trendDays = event.target.dataset.days === "all" ? "all" : Number(event.target.dataset.days); document.querySelectorAll("#trend-ranges button").forEach(x => x.classList.toggle("active", x === event.target)); if(state.data) renderTrend(); });
@@ -283,6 +327,19 @@ const closeNav = () => { navLinks?.classList.remove("open"); navToggle?.setAttri
 navToggle?.addEventListener("click", () => { const open = navLinks.classList.toggle("open"); navToggle.setAttribute("aria-expanded", String(open)); });
 navLinks?.addEventListener("click", event => { if(event.target.closest("a")) closeNav(); });
 document.addEventListener("keydown", event => { if(event.key === "Escape") closeNav(); });
+
+const landingHero = document.querySelector(".hero:not(.profile-hero)");
+if (landingHero && window.matchMedia("(pointer: fine)").matches && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  landingHero.addEventListener("pointermove", event => {
+    const bounds = landingHero.getBoundingClientRect();
+    landingHero.style.setProperty("--pointer-x", `${((event.clientX - bounds.left) / bounds.width * 100).toFixed(1)}%`);
+    landingHero.style.setProperty("--pointer-y", `${((event.clientY - bounds.top) / bounds.height * 100).toFixed(1)}%`);
+  });
+  landingHero.addEventListener("pointerleave", () => {
+    landingHero.style.setProperty("--pointer-x", "74%");
+    landingHero.style.setProperty("--pointer-y", "38%");
+  });
+}
 
 const revealHashSection = () => {
   if (!window.location.hash) return;

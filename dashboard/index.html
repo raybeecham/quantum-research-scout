@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="PQC, quantum technology, patent, and AI security intelligence dashboard">
+  <meta name="theme-color" content="#090b1f">
   <title>Quantum Research Scout</title>
   <link rel="stylesheet" href="styles.css?v=__ASSET_VERSION__">
   <link rel="stylesheet" href="components.css?v=__ASSET_VERSION__">
@@ -19,21 +20,46 @@
       </div>
     </nav>
     <div id="top" class="hero-content shell">
-      <div>
-        <p class="eyebrow">DAILY QUANTUM & SECURITY INTELLIGENCE</p>
+      <div class="hero-copy-block">
+        <div class="live-pill"><i aria-hidden="true"></i><span>Fresh intelligence</span><b>Updated daily</b></div>
+        <p class="eyebrow">QUANTUM · POLICY · CYBERSECURITY</p>
         <h1>The signal,<br><span>without the noise.</span></h1>
-        <p class="hero-copy">Start with the newest research and the three conditions that deserve attention. Open the deeper tracker only when you need it.</p>
-        <a id="hero-report-link" class="button hero-button" href="#reports">Read the latest digest</a>
+        <p class="hero-copy">A living radar for the research, government missions, patents, and security shifts shaping what comes next.</p>
+        <div class="hero-actions">
+          <a id="hero-report-link" class="button hero-button" href="#reports">Read the latest digest <span aria-hidden="true">→</span></a>
+          <a class="hero-text-link" href="#explore">Explore the radar <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="hero-trust" aria-label="Dashboard highlights">
+          <span><i class="trust-policy" aria-hidden="true"></i>Government first</span>
+          <span><i class="trust-sources" aria-hidden="true"></i>Multi-source</span>
+          <span><i class="trust-evidence" aria-hidden="true"></i>Evidence linked</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <div class="radar-sweep"></div>
+        <div class="quantum-core"><span>Q</span><small>SCOUT</small></div>
+        <div class="signal-node node-policy"><i></i><span>Policy</span><strong>Priority</strong></div>
+        <div class="signal-node node-pqc"><i></i><span>PQC</span><strong>Rising</strong></div>
+        <div class="signal-node node-patents"><i></i><span>Patents</span><strong id="hero-patent-count">Tracking</strong></div>
+        <div class="signal-node node-missions"><i></i><span>Missions</span><strong id="hero-mission-count">Active</strong></div>
+        <div class="hero-radar-card">
+          <div><span>Signal stream</span><i></i></div>
+          <strong>Scanning the horizon</strong>
+          <small>Research · Industry · Government</small>
+        </div>
       </div>
     </div>
   </header>
 
   <main class="shell">
     <section id="briefing" class="metrics" aria-label="Dashboard summary">
-      <article><span>New alerts</span><strong id="metric-alerts">—</strong><small id="metric-alerts-detail">active overall</small></article>
-      <article><span>Actionable signals</span><strong id="metric-actionable">—</strong><small>need near-term review</small></article>
-      <article><span>Critical themes</span><strong id="metric-critical">—</strong><small>highest importance</small></article>
-      <article><span>Patent portfolio</span><strong id="metric-patents">—</strong><small id="metric-patents-detail">tracked publications</small></article>
+      <article data-accent="coral"><div class="metric-top"><span>New alerts</span><i aria-hidden="true">!</i></div><strong id="metric-alerts">—</strong><small id="metric-alerts-detail">active overall</small></article>
+      <article data-accent="violet"><div class="metric-top"><span>Actionable signals</span><i aria-hidden="true">↗</i></div><strong id="metric-actionable">—</strong><small>need near-term review</small></article>
+      <article data-accent="amber"><div class="metric-top"><span>Critical themes</span><i aria-hidden="true">◆</i></div><strong id="metric-critical">—</strong><small>highest importance</small></article>
+      <article data-accent="cyan"><div class="metric-top"><span>Patent portfolio</span><i aria-hidden="true">⌁</i></div><strong id="metric-patents">—</strong><small id="metric-patents-detail">tracked publications</small></article>
     </section>
 
     <section id="reports" class="section briefing-section priority-section">

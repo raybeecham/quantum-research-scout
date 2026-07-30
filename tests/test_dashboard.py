@@ -181,3 +181,18 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("alerts.slice(0, 3)", script)
         self.assertIn("friendlyReportName", script)
         self.assertIn("revealHashSection", script)
+
+    def test_dashboard_vibrant_experience_stays_dynamic_and_accessible(self) -> None:
+        root = Path(__file__).parents[1]
+        html = (root / "dashboard" / "index.html").read_text(encoding="utf-8")
+        styles = (root / "dashboard" / "components.css").read_text(encoding="utf-8")
+        script = (root / "dashboard" / "app.js").read_text(encoding="utf-8")
+
+        self.assertIn('class="hero-visual"', html)
+        self.assertIn('class="live-pill"', html)
+        self.assertIn('id="hero-patent-count"', html)
+        self.assertIn('id="hero-mission-count"', html)
+        self.assertNotIn("89 tracked", html)
+        self.assertIn("prefers-reduced-motion:reduce", styles)
+        self.assertIn("setupReveal", script)
+        self.assertIn("animateMetrics", script)
