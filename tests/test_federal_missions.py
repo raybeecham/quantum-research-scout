@@ -40,6 +40,8 @@ missions:
       - id: first-capability
         title: Demonstrate initial capability
         target_date: 2026-08-08
+        date_precision: season
+        date_label: Summer 2026
         status: planned
         source_url: https://testing.gov/milestone
 """,
@@ -69,6 +71,7 @@ missions:
             self.assertEqual(payload["summary"]["upcoming_milestones"], 1)
             self.assertEqual(payload["summary"]["awaiting_confirmation_milestones"], 1)
             self.assertEqual(mission["next_milestone"]["timing"], "awaiting_confirmation")
+            self.assertEqual(mission["milestones"][1]["date_label"], "Summer 2026")
             self.assertEqual(mission["observed_updates"][0]["url"], update.url)
             self.assertIn("Test Mission announces its first projects", markdown_path.read_text(encoding="utf-8"))
 
@@ -97,6 +100,50 @@ missions:
 
             self.assertEqual(payload["summary"]["discovery_candidates"], 1)
             self.assertEqual(payload["discovery_candidates"][0]["title"], candidate.title)
+
+    def test_named_strategic_project_is_queued_for_review(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            config = root / "missions.yaml"
+            config.write_text("missions: []\n", encoding="utf-8")
+            candidate = ResearchItem(
+                source_name="National Science Foundation",
+                source_type="watch",
+                title="NSF launches Project Triad",
+                url="https://www.nsf.gov/news/project-triad",
+                summary=(
+                    "The cross-sector project unites government, universities, and industry "
+                    "with milestone-based implementation."
+                ),
+                published_at=datetime(2026, 7, 7, tzinfo=timezone.utc),
+                score=100,
+            )
+
+            json_path, _ = write_federal_mission_tracker(root, config, [candidate])
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+
+            self.assertEqual(payload["summary"]["discovery_candidates"], 1)
+            self.assertEqual(payload["discovery_candidates"][0]["title"], candidate.title)
+
+    def test_routine_federal_project_is_not_queued(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            config = root / "missions.yaml"
+            config.write_text("missions: []\n", encoding="utf-8")
+            candidate = ResearchItem(
+                source_name="Federal Research Agency",
+                source_type="watch",
+                title="Agency launches software project",
+                url="https://research.gov/news/internal-software",
+                summary="The internal website modernization affects a single administrative office.",
+                published_at=datetime(2026, 7, 28, tzinfo=timezone.utc),
+                score=20,
+            )
+
+            json_path, _ = write_federal_mission_tracker(root, config, [candidate])
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+
+            self.assertEqual(payload["discovery_candidates"], [])
 
     def test_non_government_announcement_is_not_queued(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:

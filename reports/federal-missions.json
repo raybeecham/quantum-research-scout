@@ -4,6 +4,265 @@
   "missions": [
     {
       "aliases": [
+        "Military AI Pace-Setting Projects",
+        "Pace-Setting Projects",
+        "AI Pace-Setting Projects",
+        "Swarm Forge",
+        "Agent Network",
+        "Ender's Foundry",
+        "Open Arsenal",
+        "Project Grant",
+        "GenAI.mil",
+        "Enterprise Agents"
+      ],
+      "announcement_date": "2026-01-09",
+      "domains": [
+        "Military artificial intelligence",
+        "Autonomous systems",
+        "Battle management",
+        "Simulation",
+        "Technical intelligence",
+        "Enterprise AI agents",
+        "AI infrastructure and data"
+      ],
+      "id": "military-ai-pace-setting-projects",
+      "is_recent_launch": true,
+      "kind": "defense AI mission portfolio",
+      "last_update_date": "2026-05-15",
+      "lead_agencies": [
+        "Department of War",
+        "Chief Digital and Artificial Intelligence Office",
+        "Office of the Under Secretary of War for Research and Engineering"
+      ],
+      "milestones": [
+        {
+          "configured_status": "monitoring",
+          "date_label": "2026-07-09",
+          "date_precision": "exact",
+          "days_remaining": -20,
+          "id": "military-ai-initial-user-demonstrations",
+          "source_url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
+          "summary": "The January 9 strategy directed initial demonstrations within six months and monthly senior-leader progress reviews.",
+          "target_date": "2026-07-09",
+          "timing": "awaiting_confirmation",
+          "title": "Conduct initial Pace-Setting Project demonstrations with transition-partner users"
+        }
+      ],
+      "name": "Military AI Pace-Setting Projects",
+      "next_milestone": {
+        "configured_status": "monitoring",
+        "date_label": "2026-07-09",
+        "date_precision": "exact",
+        "days_remaining": -20,
+        "id": "military-ai-initial-user-demonstrations",
+        "source_url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
+        "summary": "The January 9 strategy directed initial demonstrations within six months and monthly senior-leader progress reviews.",
+        "target_date": "2026-07-09",
+        "timing": "awaiting_confirmation",
+        "title": "Conduct initial Pace-Setting Project demonstrations with transition-partner users"
+      },
+      "objective": "Accelerate department-wide military AI integration through seven outcome-oriented projects spanning warfighting, intelligence, and enterprise operations while making their infrastructure, data, models, policies, and talent enablers reusable across the Department.",
+      "observed_updates": [],
+      "official_url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
+      "parent_mission": null,
+      "partners": [
+        "Military departments",
+        "Combatant commands",
+        "Defense agencies",
+        "Intelligence Community",
+        "Frontier AI companies",
+        "Allies and partners"
+      ],
+      "phase": "demonstrations and department-wide adoption",
+      "priority": "critical",
+      "related_missions": [
+        "Genesis Mission",
+        "AI Forge"
+      ],
+      "status": "active",
+      "updates": [
+        {
+          "date": "2026-05-15",
+          "key": "https://www.darpa.mil/research/programs/discord",
+          "kind": "implementation",
+          "score": 0,
+          "source": "DARPA",
+          "summary": "",
+          "title": "DARPA DISCORD implements the Ender's Foundry project",
+          "url": "https://www.darpa.mil/research/programs/discord"
+        },
+        {
+          "date": "2026-01-09",
+          "key": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
+          "kind": "strategy",
+          "score": 0,
+          "source": "Department of War",
+          "summary": "",
+          "title": "Department of War establishes seven AI Pace-Setting Projects",
+          "url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "Federal Post-Quantum Cryptography Transition",
+        "Federal PQC Transition",
+        "national PQC migration policy",
+        "Executive Order 14412"
+      ],
+      "announcement_date": "2026-06-22",
+      "domains": [
+        "Post-quantum cryptography",
+        "Cryptographic inventory",
+        "Federal cybersecurity",
+        "Critical infrastructure",
+        "Procurement",
+        "Cryptographic bill of materials"
+      ],
+      "id": "federal-pqc-transition",
+      "is_recent_launch": true,
+      "kind": "national cybersecurity transition",
+      "last_update_date": "2026-06-22",
+      "lead_agencies": [
+        "Office of Management and Budget",
+        "Office of the National Cyber Director"
+      ],
+      "milestones": [
+        {
+          "configured_status": "monitoring",
+          "date_label": "2026-07-22",
+          "date_precision": "exact",
+          "days_remaining": -7,
+          "id": "federal-pqc-agency-leads",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "summary": "Executive Order 14412 gives each agency 30 days to identify a lead reporting to its chief information officer.",
+          "target_date": "2026-07-22",
+          "timing": "awaiting_confirmation",
+          "title": "Agencies identify and report their PQC migration leads"
+        },
+        {
+          "configured_status": "planned",
+          "date_label": "2026-09-20",
+          "date_precision": "exact",
+          "days_remaining": 53,
+          "id": "federal-pqc-omb-guidance",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "summary": "The order gives OMB 90 days to issue guidance in consultation with CISA and the National Cyber Director.",
+          "target_date": "2026-09-20",
+          "timing": "due_soon",
+          "title": "OMB issues agency guidance for inventories, migration plans, and high-impact systems"
+        },
+        {
+          "configured_status": "planned",
+          "date_label": "2026-12-19",
+          "date_precision": "exact",
+          "days_remaining": 143,
+          "id": "federal-pqc-180-day-actions",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "summary": "Actions include starting a NIST migration pilot, reporting on National Security Systems, accelerating module validation, and proposing a PQC contractor rule.",
+          "target_date": "2026-12-19",
+          "timing": "upcoming",
+          "title": "NIST, NSA, and the FAR Council complete the order's initial 180-day actions"
+        },
+        {
+          "configured_status": "planned",
+          "date_label": "2027-03-19",
+          "date_precision": "exact",
+          "days_remaining": 233,
+          "id": "federal-pqc-270-day-actions",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "summary": "The order calls for public cryptographic bill of materials guidance and a proposed contractor vulnerability-disclosure rule.",
+          "target_date": "2027-03-19",
+          "timing": "upcoming",
+          "title": "CISA and the FAR Council publish cryptographic inventory and disclosure proposals"
+        },
+        {
+          "configured_status": "planned",
+          "date_label": "2027-12-31",
+          "date_precision": "exact",
+          "days_remaining": 520,
+          "id": "federal-pqc-nist-pilot",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "summary": "The pilot covers an appropriate subset of NIST-owned or operated information systems.",
+          "target_date": "2027-12-31",
+          "timing": "upcoming",
+          "title": "Complete the NIST post-quantum cryptography migration pilot"
+        },
+        {
+          "configured_status": "planned",
+          "date_label": "2030-12-31",
+          "date_precision": "exact",
+          "days_remaining": 1616,
+          "id": "federal-pqc-key-establishment",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "summary": "National Security Systems are excluded from this specific agency requirement and follow NSA-led processes.",
+          "target_date": "2030-12-31",
+          "timing": "upcoming",
+          "title": "Transition federal high-value assets and high-impact systems to PQC key establishment"
+        },
+        {
+          "configured_status": "planned",
+          "date_label": "2031-12-31",
+          "date_precision": "exact",
+          "days_remaining": 1981,
+          "id": "federal-pqc-digital-signatures",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "summary": "The deadline applies to the systems covered by the OMB guidance directed in Executive Order 14412.",
+          "target_date": "2031-12-31",
+          "timing": "upcoming",
+          "title": "Transition federal high-value assets and high-impact systems to PQC digital signatures"
+        }
+      ],
+      "name": "Federal Post-Quantum Cryptography Transition",
+      "next_milestone": {
+        "configured_status": "monitoring",
+        "date_label": "2026-07-22",
+        "date_precision": "exact",
+        "days_remaining": -7,
+        "id": "federal-pqc-agency-leads",
+        "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+        "summary": "Executive Order 14412 gives each agency 30 days to identify a lead reporting to its chief information officer.",
+        "target_date": "2026-07-22",
+        "timing": "awaiting_confirmation",
+        "title": "Agencies identify and report their PQC migration leads"
+      },
+      "objective": "Coordinate the migration of federal information systems to NIST-approved post-quantum cryptography, establish accountable agency migration leadership and plans, accelerate validation and procurement, and help critical infrastructure operators prepare their own transitions.",
+      "observed_updates": [],
+      "official_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "parent_mission": null,
+      "partners": [
+        "Department of Commerce",
+        "National Institute of Standards and Technology",
+        "Cybersecurity and Infrastructure Security Agency",
+        "National Security Agency",
+        "Department of War",
+        "Department of State",
+        "Office of the Director of National Intelligence",
+        "Federal Acquisition Regulatory Council",
+        "Federal agencies",
+        "Critical infrastructure owners and operators"
+      ],
+      "phase": "agency planning and implementation",
+      "priority": "critical",
+      "related_missions": [
+        "QC-ADDS"
+      ],
+      "status": "active",
+      "updates": [
+        {
+          "date": "2026-06-22",
+          "key": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "kind": "executive order",
+          "score": 0,
+          "source": "White House",
+          "summary": "",
+          "title": "Executive Order 14412 establishes the national federal PQC migration policy",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/"
+        }
+      ]
+    },
+    {
+      "aliases": [
         "Genesis Mission",
         "American Science and Security Platform"
       ],
@@ -384,6 +643,146 @@
     },
     {
       "aliases": [
+        "DARPA Quantum Benchmarking Initiative",
+        "Quantum Benchmarking Initiative",
+        "QBI",
+        "QBIT"
+      ],
+      "announcement_date": "2024-07-16",
+      "domains": [
+        "Utility-scale quantum computing",
+        "Fault-tolerant quantum computing",
+        "Quantum benchmarking",
+        "Verification and validation",
+        "Quantum applications"
+      ],
+      "id": "darpa-qbi",
+      "is_recent_launch": false,
+      "kind": "quantum verification initiative",
+      "last_update_date": "2026-03-10",
+      "lead_agencies": [
+        "Defense Advanced Research Projects Agency"
+      ],
+      "milestones": [
+        {
+          "configured_status": "planned",
+          "date_label": "2026-07-31",
+          "date_precision": "exact",
+          "days_remaining": 2,
+          "id": "qbi-qbit-abstracts",
+          "source_url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit",
+          "summary": "DARPA invited additional distinct technical approaches not yet evaluated under QBI.",
+          "target_date": "2026-07-31",
+          "timing": "due_soon",
+          "title": "Receive abstracts for the expanded QBIT Stage A solicitation"
+        },
+        {
+          "configured_status": "planned",
+          "date_label": "2026-09-30",
+          "date_precision": "exact",
+          "days_remaining": 63,
+          "id": "qbi-qbit-stage-a",
+          "source_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
+          "summary": "Selected entrants will describe a full utility-scale system concept and evidence supporting its feasibility.",
+          "target_date": "2026-09-30",
+          "timing": "due_soon",
+          "title": "Close the QBIT Stage A full-proposal window"
+        },
+        {
+          "configured_status": "planned",
+          "date_label": "2026-10-15",
+          "date_precision": "exact",
+          "days_remaining": 78,
+          "id": "qbi-ivv",
+          "source_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
+          "summary": "The topic supports independent technical verification and validation of participating approaches.",
+          "target_date": "2026-10-15",
+          "timing": "due_soon",
+          "title": "Close the QBI independent verification and validation topic"
+        },
+        {
+          "configured_status": "planned",
+          "date_label": "2026-11-14",
+          "date_precision": "exact",
+          "days_remaining": 108,
+          "id": "qbi-2026",
+          "source_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
+          "summary": "DARPA lists this as the deadline for the broader 2026 QBI announcement.",
+          "target_date": "2026-11-14",
+          "timing": "upcoming",
+          "title": "Close the umbrella QBI 2026 announcement"
+        },
+        {
+          "configured_status": "estimated",
+          "date_label": "2033",
+          "date_precision": "year",
+          "days_remaining": 2712,
+          "id": "qbi-2033",
+          "source_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
+          "summary": "DARPA expresses the program goal as determining feasibility by 2033 rather than as a fixed day-level deadline.",
+          "target_date": "2033-12-31",
+          "timing": "estimated",
+          "title": "Determine whether an industrially useful quantum computer is achievable"
+        }
+      ],
+      "name": "DARPA Quantum Benchmarking Initiative",
+      "next_milestone": {
+        "configured_status": "planned",
+        "date_label": "2026-07-31",
+        "date_precision": "exact",
+        "days_remaining": 2,
+        "id": "qbi-qbit-abstracts",
+        "source_url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit",
+        "summary": "DARPA invited additional distinct technical approaches not yet evaluated under QBI.",
+        "target_date": "2026-07-31",
+        "timing": "due_soon",
+        "title": "Receive abstracts for the expanded QBIT Stage A solicitation"
+      },
+      "objective": "Rigorously determine whether any quantum-computing architecture can achieve utility-scale operation, where computational value exceeds cost, and whether an industrially useful quantum computer can be built by 2033.",
+      "observed_updates": [],
+      "official_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
+      "parent_mission": null,
+      "partners": [
+        "Department of Energy Office of Science",
+        "Air Force Research Laboratory",
+        "State of Illinois",
+        "State of Maryland",
+        "State of New Mexico",
+        "Quantum computing companies",
+        "Independent verification and validation teams"
+      ],
+      "phase": "staged technical evaluation",
+      "priority": "critical",
+      "related_missions": [
+        "QC-ADDS",
+        "Quantum Genesis"
+      ],
+      "status": "active",
+      "updates": [
+        {
+          "date": "2026-03-10",
+          "key": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit",
+          "kind": "expansion",
+          "score": 0,
+          "source": "DARPA",
+          "summary": "",
+          "title": "DARPA expands QBI Stage A and reports 11 Stage B organizations",
+          "url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit"
+        },
+        {
+          "date": "2024-07-16",
+          "key": "https://www.darpa.mil/news/2024/quantum-computing-prototype",
+          "kind": "launch",
+          "score": 0,
+          "source": "DARPA",
+          "summary": "",
+          "title": "DARPA announces the Quantum Benchmarking Initiative",
+          "url": "https://www.darpa.mil/news/2024/quantum-computing-prototype"
+        }
+      ]
+    },
+    {
+      "aliases": [
         "QC-ADDS",
         "Quantum Computer for Application Development and Discovery Science"
       ],
@@ -511,6 +910,165 @@
     },
     {
       "aliases": [
+        "AI Forge",
+        "AI Forge Critical AI Challenges for National Security"
+      ],
+      "announcement_date": "2026-06-01",
+      "domains": [
+        "AI interpretability",
+        "AI control",
+        "Adversarial robustness",
+        "National security",
+        "University-industry-government research"
+      ],
+      "id": "ai-forge",
+      "is_recent_launch": true,
+      "kind": "national-security AI research program",
+      "last_update_date": "2026-06-01",
+      "lead_agencies": [
+        "Defense Advanced Research Projects Agency",
+        "National Science Foundation"
+      ],
+      "milestones": [
+        {
+          "configured_status": "estimated",
+          "date_label": "Summer 2026",
+          "date_precision": "season",
+          "days_remaining": 55,
+          "id": "ai-forge-forum",
+          "source_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+          "summary": "DARPA states that the nonprofit-administered forum will launch in summer 2026; no exact date is published.",
+          "target_date": "2026-09-22",
+          "timing": "estimated",
+          "title": "Launch the AI Forge university-industry-government forum"
+        }
+      ],
+      "name": "AI Forge",
+      "next_milestone": {
+        "configured_status": "estimated",
+        "date_label": "Summer 2026",
+        "date_precision": "season",
+        "days_remaining": 55,
+        "id": "ai-forge-forum",
+        "source_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+        "summary": "DARPA states that the nonprofit-administered forum will launch in summer 2026; no exact date is published.",
+        "target_date": "2026-09-22",
+        "timing": "estimated",
+        "title": "Launch the AI Forge university-industry-government forum"
+      },
+      "objective": "Catalyze reliable, understandable, controllable, and adversarially robust AI for national security by connecting university research, frontier-scale private-sector capabilities, and operational challenges identified by defense and intelligence agencies.",
+      "observed_updates": [],
+      "official_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+      "parent_mission": null,
+      "partners": [
+        "NIST Center for AI Standards and Innovation",
+        "Department of War agencies",
+        "Intelligence Community agencies",
+        "Universities",
+        "Frontier AI companies",
+        "Nonprofit forum administrator"
+      ],
+      "phase": "ecosystem formation and research planning",
+      "priority": "critical",
+      "related_missions": [
+        "Military AI Pace-Setting Projects"
+      ],
+      "status": "active",
+      "updates": [
+        {
+          "date": "2026-06-01",
+          "key": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+          "kind": "launch",
+          "score": 0,
+          "source": "DARPA",
+          "summary": "",
+          "title": "DARPA and NSF announce AI Forge and its first 15 research challenges",
+          "url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "Project Triad",
+        "NSF Project Triad"
+      ],
+      "announcement_date": "2026-07-07",
+      "domains": [
+        "Quantum sensing",
+        "Quantum networking",
+        "Quantum computing",
+        "Integrated quantum systems",
+        "Commercialization",
+        "National security"
+      ],
+      "id": "project-triad",
+      "is_recent_launch": true,
+      "kind": "national quantum initiative",
+      "last_update_date": "2026-07-07",
+      "lead_agencies": [
+        "National Science Foundation"
+      ],
+      "milestones": [
+        {
+          "configured_status": "estimated",
+          "date_label": "December 2026",
+          "date_precision": "month",
+          "days_remaining": 155,
+          "id": "project-triad-nqvl-implementation",
+          "source_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+          "summary": "NSF states that it plans to make the transition by December 2026, pending funding availability.",
+          "target_date": "2026-12-31",
+          "timing": "estimated",
+          "title": "Advance selected NSF NQVL projects from design to implementation"
+        }
+      ],
+      "name": "Project Triad",
+      "next_milestone": {
+        "configured_status": "estimated",
+        "date_label": "December 2026",
+        "date_precision": "month",
+        "days_remaining": 155,
+        "id": "project-triad-nqvl-implementation",
+        "source_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+        "summary": "NSF states that it plans to make the transition by December 2026, pending funding availability.",
+        "target_date": "2026-12-31",
+        "timing": "estimated",
+        "title": "Advance selected NSF NQVL projects from design to implementation"
+      },
+      "objective": "Integrate quantum sensing, networking, and computing into a single operational environment that moves promising quantum technology from laboratory research toward real-world use, scaling, and commercialization.",
+      "observed_updates": [],
+      "official_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+      "parent_mission": null,
+      "partners": [
+        "NSF National Quantum Virtual Laboratory",
+        "NSF X-Labs",
+        "NSF Quantum+X",
+        "Universities",
+        "Private industry",
+        "Federal agencies"
+      ],
+      "phase": "integrated-system design and implementation",
+      "priority": "critical",
+      "related_missions": [
+        "QC-ADDS",
+        "Quantum Genesis"
+      ],
+      "status": "active",
+      "updates": [
+        {
+          "date": "2026-07-07",
+          "key": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+          "kind": "launch",
+          "score": 0,
+          "source": "National Science Foundation",
+          "summary": "",
+          "title": "NSF launches Project Triad",
+          "url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+        }
+      ]
+    },
+    {
+      "aliases": [
         "Quantum Genesis",
         "DOE Q Competition",
         "National Quantum Supercomputing User Facility"
@@ -588,6 +1146,95 @@
     },
     {
       "aliases": [
+        "Golden Dome for America",
+        "Golden Dome",
+        "next-generation missile defense shield",
+        "Iron Dome for America"
+      ],
+      "announcement_date": "2025-01-27",
+      "domains": [
+        "Homeland missile defense",
+        "Space-based sensing",
+        "Integrated command and control",
+        "Artificial intelligence",
+        "Advanced interceptors",
+        "Open systems architecture"
+      ],
+      "id": "golden-dome",
+      "is_recent_launch": false,
+      "kind": "national homeland-defense initiative",
+      "last_update_date": "2026-04-23",
+      "lead_agencies": [
+        "Department of War",
+        "Golden Dome for America Office"
+      ],
+      "milestones": [
+        {
+          "configured_status": "completed",
+          "date_label": "2025-03-28",
+          "date_precision": "exact",
+          "days_remaining": null,
+          "id": "golden-dome-reference-architecture",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/",
+          "summary": "The initiating executive order set a 60-day deadline; the Department later reported completion of the initial architecture blueprint.",
+          "target_date": "2025-03-28",
+          "timing": "completed",
+          "title": "Deliver the reference architecture, requirements, and implementation plan"
+        }
+      ],
+      "name": "Golden Dome for America",
+      "next_milestone": null,
+      "objective": "Deploy and maintain a layered, integrated, and increasingly automated next-generation defense architecture for the United States against ballistic, hypersonic, advanced cruise, and other aerial threats while protecting critical infrastructure and second-strike capability.",
+      "observed_updates": [],
+      "official_url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/",
+      "parent_mission": null,
+      "partners": [
+        "U.S. Northern Command",
+        "North American Aerospace Defense Command",
+        "Missile Defense Agency",
+        "U.S. Space Force",
+        "U.S. Army Space and Missile Defense Command",
+        "Defense industry"
+      ],
+      "phase": "architecture integration and acquisition",
+      "priority": "critical",
+      "related_missions": [],
+      "status": "active",
+      "updates": [
+        {
+          "date": "2026-04-23",
+          "key": "https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html",
+          "kind": "progress",
+          "score": 0,
+          "source": "Department of War",
+          "summary": "",
+          "title": "Department reports initial architecture, command-and-control consortium, and active contracts",
+          "url": "https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html"
+        },
+        {
+          "date": "2026-04-16",
+          "key": "https://www.war.gov/News/News-Stories/Article/Article/4461784/golden-dome-will-protect-homeland-provide-layered-defense-leaders-say/",
+          "kind": "operational integration",
+          "score": 0,
+          "source": "Department of War",
+          "summary": "",
+          "title": "Department outlines layered defense and Joint Task Force Gold",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4461784/golden-dome-will-protect-homeland-provide-layered-defense-leaders-say/"
+        },
+        {
+          "date": "2025-01-27",
+          "key": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/",
+          "kind": "executive order",
+          "score": 0,
+          "source": "White House",
+          "summary": "",
+          "title": "White House directs a next-generation homeland missile defense shield",
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/"
+        }
+      ]
+    },
+    {
+      "aliases": [
         "QuantumEAGLe",
         "Quantum Ecosystem Advancement, Growth & Leadership"
       ],
@@ -620,7 +1267,7 @@
         "Army Contracting Command"
       ],
       "phase": "industry engagement and research",
-      "priority": "high",
+      "priority": "critical",
       "related_missions": [
         "QC-ADDS"
       ],
@@ -641,18 +1288,46 @@
   ],
   "scope_note": "Named, cross-agency or cross-sector federal science and technology missions, initiatives, and national efforts relevant to quantum technology, AI, cybersecurity, energy, discovery science, and national security. Routine agency mission statements and unrelated operational missions are excluded.",
   "summary": {
-    "active": 4,
-    "awaiting_confirmation_milestones": 1,
+    "active": 10,
+    "awaiting_confirmation_milestones": 3,
     "completed": 0,
     "discovery_candidates": 0,
     "overdue_milestones": 0,
-    "recent_launches": 4,
-    "tracked": 4,
+    "recent_launches": 8,
+    "tracked": 10,
     "upcoming": 0,
-    "upcoming_milestones": 8
+    "upcoming_milestones": 21
   },
   "timezone": "America/Chicago",
   "upcoming_milestones": [
+    {
+      "configured_status": "monitoring",
+      "date_label": "2026-07-09",
+      "date_precision": "exact",
+      "days_remaining": -20,
+      "id": "military-ai-initial-user-demonstrations",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "source_url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
+      "summary": "The January 9 strategy directed initial demonstrations within six months and monthly senior-leader progress reviews.",
+      "target_date": "2026-07-09",
+      "timing": "awaiting_confirmation",
+      "title": "Conduct initial Pace-Setting Project demonstrations with transition-partner users"
+    },
+    {
+      "configured_status": "monitoring",
+      "date_label": "2026-07-22",
+      "date_precision": "exact",
+      "days_remaining": -7,
+      "id": "federal-pqc-agency-leads",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "summary": "Executive Order 14412 gives each agency 30 days to identify a lead reporting to its chief information officer.",
+      "target_date": "2026-07-22",
+      "timing": "awaiting_confirmation",
+      "title": "Agencies identify and report their PQC migration leads"
+    },
     {
       "configured_status": "monitoring",
       "date_label": "2026-07-22",
@@ -666,6 +1341,20 @@
       "target_date": "2026-07-22",
       "timing": "awaiting_confirmation",
       "title": "Review federal robotic and AI-directed laboratory capabilities"
+    },
+    {
+      "configured_status": "planned",
+      "date_label": "2026-07-31",
+      "date_precision": "exact",
+      "days_remaining": 2,
+      "id": "qbi-qbit-abstracts",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "source_url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit",
+      "summary": "DARPA invited additional distinct technical approaches not yet evaluated under QBI.",
+      "target_date": "2026-07-31",
+      "timing": "due_soon",
+      "title": "Receive abstracts for the expanded QBIT Stage A solicitation"
     },
     {
       "configured_status": "monitoring",
@@ -686,6 +1375,20 @@
       "date_label": "2026-09-20",
       "date_precision": "exact",
       "days_remaining": 53,
+      "id": "federal-pqc-omb-guidance",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "summary": "The order gives OMB 90 days to issue guidance in consultation with CISA and the National Cyber Director.",
+      "target_date": "2026-09-20",
+      "timing": "due_soon",
+      "title": "OMB issues agency guidance for inventories, migration plans, and high-impact systems"
+    },
+    {
+      "configured_status": "planned",
+      "date_label": "2026-09-20",
+      "date_precision": "exact",
+      "days_remaining": 53,
       "id": "qc-adds-specifications",
       "mission_id": "qc-adds",
       "mission_name": "QC-ADDS",
@@ -694,6 +1397,62 @@
       "target_date": "2026-09-20",
       "timing": "due_soon",
       "title": "Publish a summary of QC-ADDS technical specifications"
+    },
+    {
+      "configured_status": "estimated",
+      "date_label": "Summer 2026",
+      "date_precision": "season",
+      "days_remaining": 55,
+      "id": "ai-forge-forum",
+      "mission_id": "ai-forge",
+      "mission_name": "AI Forge",
+      "source_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+      "summary": "DARPA states that the nonprofit-administered forum will launch in summer 2026; no exact date is published.",
+      "target_date": "2026-09-22",
+      "timing": "estimated",
+      "title": "Launch the AI Forge university-industry-government forum"
+    },
+    {
+      "configured_status": "planned",
+      "date_label": "2026-09-30",
+      "date_precision": "exact",
+      "days_remaining": 63,
+      "id": "qbi-qbit-stage-a",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "source_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
+      "summary": "Selected entrants will describe a full utility-scale system concept and evidence supporting its feasibility.",
+      "target_date": "2026-09-30",
+      "timing": "due_soon",
+      "title": "Close the QBIT Stage A full-proposal window"
+    },
+    {
+      "configured_status": "planned",
+      "date_label": "2026-10-15",
+      "date_precision": "exact",
+      "days_remaining": 78,
+      "id": "qbi-ivv",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "source_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
+      "summary": "The topic supports independent technical verification and validation of participating approaches.",
+      "target_date": "2026-10-15",
+      "timing": "due_soon",
+      "title": "Close the QBI independent verification and validation topic"
+    },
+    {
+      "configured_status": "planned",
+      "date_label": "2026-11-14",
+      "date_precision": "exact",
+      "days_remaining": 108,
+      "id": "qbi-2026",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "source_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
+      "summary": "DARPA lists this as the deadline for the broader 2026 QBI announcement.",
+      "target_date": "2026-11-14",
+      "timing": "upcoming",
+      "title": "Close the umbrella QBI 2026 announcement"
     },
     {
       "configured_status": "monitoring",
@@ -708,6 +1467,20 @@
       "target_date": "2026-11-24",
       "timing": "upcoming",
       "title": "Submit the first annual Genesis Mission progress report"
+    },
+    {
+      "configured_status": "planned",
+      "date_label": "2026-12-19",
+      "date_precision": "exact",
+      "days_remaining": 143,
+      "id": "federal-pqc-180-day-actions",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "summary": "Actions include starting a NIST migration pilot, reporting on National Security Systems, accelerating module validation, and proposing a PQC contractor rule.",
+      "target_date": "2026-12-19",
+      "timing": "upcoming",
+      "title": "NIST, NSA, and the FAR Council complete the order's initial 180-day actions"
     },
     {
       "configured_status": "planned",
@@ -738,6 +1511,34 @@
       "title": "Explore private-sector partnership models and commercial contribution plans"
     },
     {
+      "configured_status": "estimated",
+      "date_label": "December 2026",
+      "date_precision": "month",
+      "days_remaining": 155,
+      "id": "project-triad-nqvl-implementation",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "source_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+      "summary": "NSF states that it plans to make the transition by December 2026, pending funding availability.",
+      "target_date": "2026-12-31",
+      "timing": "estimated",
+      "title": "Advance selected NSF NQVL projects from design to implementation"
+    },
+    {
+      "configured_status": "planned",
+      "date_label": "2027-03-19",
+      "date_precision": "exact",
+      "days_remaining": 233,
+      "id": "federal-pqc-270-day-actions",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "summary": "The order calls for public cryptographic bill of materials guidance and a proposed contractor vulnerability-disclosure rule.",
+      "target_date": "2027-03-19",
+      "timing": "upcoming",
+      "title": "CISA and the FAR Council publish cryptographic inventory and disclosure proposals"
+    },
+    {
       "configured_status": "planned",
       "date_label": "2027-06-22",
       "date_precision": "exact",
@@ -750,6 +1551,20 @@
       "target_date": "2027-06-22",
       "timing": "upcoming",
       "title": "Report national-security implications of increasing commercial quantum capability"
+    },
+    {
+      "configured_status": "planned",
+      "date_label": "2027-12-31",
+      "date_precision": "exact",
+      "days_remaining": 520,
+      "id": "federal-pqc-nist-pilot",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "summary": "The pilot covers an appropriate subset of NIST-owned or operated information systems.",
+      "target_date": "2027-12-31",
+      "timing": "upcoming",
+      "title": "Complete the NIST post-quantum cryptography migration pilot"
     },
     {
       "configured_status": "estimated",
@@ -766,6 +1581,48 @@
       "title": "Demonstrate fault-tolerant systems with logical qubits in the low hundreds"
     },
     {
+      "configured_status": "planned",
+      "date_label": "2030-12-31",
+      "date_precision": "exact",
+      "days_remaining": 1616,
+      "id": "federal-pqc-key-establishment",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "summary": "National Security Systems are excluded from this specific agency requirement and follow NSA-led processes.",
+      "target_date": "2030-12-31",
+      "timing": "upcoming",
+      "title": "Transition federal high-value assets and high-impact systems to PQC key establishment"
+    },
+    {
+      "configured_status": "planned",
+      "date_label": "2031-12-31",
+      "date_precision": "exact",
+      "days_remaining": 1981,
+      "id": "federal-pqc-digital-signatures",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "summary": "The deadline applies to the systems covered by the OMB guidance directed in Executive Order 14412.",
+      "target_date": "2031-12-31",
+      "timing": "upcoming",
+      "title": "Transition federal high-value assets and high-impact systems to PQC digital signatures"
+    },
+    {
+      "configured_status": "estimated",
+      "date_label": "2033",
+      "date_precision": "year",
+      "days_remaining": 2712,
+      "id": "qbi-2033",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "source_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
+      "summary": "DARPA expresses the program goal as determining feasibility by 2033 rather than as a fixed day-level deadline.",
+      "target_date": "2033-12-31",
+      "timing": "estimated",
+      "title": "Determine whether an industrially useful quantum computer is achievable"
+    },
+    {
       "configured_status": "estimated",
       "date_label": "2035",
       "date_precision": "year",
@@ -780,6 +1637,6 @@
       "title": "Double the productivity and impact of American research and engineering"
     }
   ],
-  "updated_at": "2026-07-30T01:18:36.637044+00:00",
+  "updated_at": "2026-07-30T02:12:39.082073+00:00",
   "version": 1
 }

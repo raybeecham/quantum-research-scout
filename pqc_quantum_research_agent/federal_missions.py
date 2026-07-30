@@ -20,6 +20,29 @@ DISCOVERY_PATTERN = re.compile(
     r"\b(?:launch(?:es|ed|ing)?|announc(?:e|es|ed|ing)|establish(?:es|ed|ing)?|unveil(?:s|ed|ing)?)\b",
     re.IGNORECASE,
 )
+PORTFOLIO_LAUNCH_PATTERN = re.compile(
+    r"\b(?:launch(?:es|ed|ing)?|announc(?:e|es|ed|ing)|establish(?:es|ed|ing)?|unveil(?:s|ed|ing)?)\b"
+    r".{0,120}\b(?:project|program|challenge|campaign|strategy)\b|"
+    r"\b(?:project|program|challenge|campaign|strategy)\b.{0,120}"
+    r"\b(?:launch(?:es|ed|ing)?|announc(?:e|es|ed|ing)|establish(?:es|ed|ing)?|unveil(?:s|ed|ing)?)\b",
+    re.IGNORECASE,
+)
+NAMED_PORTFOLIO_PATTERN = re.compile(
+    r"\b(?:Project|Program|Challenge|Campaign|Strategy)\s+"
+    r"(?:[A-Z0-9][A-Za-z0-9&.'’/-]*)(?:\s+[A-Z0-9][A-Za-z0-9&.'’/-]*){0,5}\b"
+)
+STRATEGIC_SCOPE_PATTERN = re.compile(
+    r"\b(?:national|multi-agency|cross-agency|cross-sector|whole-of-government|interagency|"
+    r"department-wide|combatant commands?|intelligence community|critical infrastructure)\b|"
+    r"\bgovernment\b.{0,60}\b(?:universit|industry|academia|laborator)|"
+    r"\b(?:universit|industry|academia|laborator)\w*\b.{0,60}\bgovernment\b",
+    re.IGNORECASE,
+)
+STRATEGIC_EXECUTION_PATTERN = re.compile(
+    r"\b(?:milestones?|mission-driven|operational system|implementation|transition-partner|"
+    r"measurable outcomes?|commercialization|research ecosystem|funding deadline)\b",
+    re.IGNORECASE,
+)
 
 
 def write_federal_mission_tracker(
@@ -212,7 +235,7 @@ def _normalize_milestone(raw: dict, today: date) -> dict:
         "title": str(raw.get("title", "Untitled milestone")),
         "target_date": target.isoformat(),
         "date_precision": precision,
-        "date_label": str(target.year) if precision == "year" else target.isoformat(),
+        "date_label": str(raw.get("date_label") or (str(target.year) if precision == "year" else target.isoformat())),
         "configured_status": configured_status,
         "timing": timing,
         "days_remaining": remaining,
@@ -284,7 +307,15 @@ def _is_federal_item(item: ResearchItem) -> bool:
 
 
 def _looks_like_mission_announcement(item: ResearchItem) -> bool:
-    return bool(DISCOVERY_PATTERN.search(f"{item.title} {item.summary}"))
+    text = f"{item.title} {item.summary}"
+    if DISCOVERY_PATTERN.search(text):
+        return True
+    return bool(
+        PORTFOLIO_LAUNCH_PATTERN.search(text)
+        and NAMED_PORTFOLIO_PATTERN.search(text)
+        and STRATEGIC_SCOPE_PATTERN.search(text)
+        and STRATEGIC_EXECUTION_PATTERN.search(text)
+    )
 
 
 def _mission_sort_key(item: dict) -> tuple:

@@ -70,9 +70,9 @@ Organization and technology names open dedicated profiles with evidence trends, 
 
 ## Federal Mission Tracker
 
-`missions.yaml` defines named federal science and technology missions, initiatives, and national efforts relevant to quantum technology, AI, cybersecurity, energy, discovery science, and national security. Each record keeps its official objective, lead agencies, partners, parent and related efforts, phase, domains, dated milestones, and official updates. The initial portfolio includes the Genesis Mission, Quantum Genesis, QC-ADDS, and QuantumEAGLe.
+`missions.yaml` defines named federal science and technology missions, initiatives, and national efforts relevant to quantum technology, AI, cybersecurity, energy, discovery science, and national security. Each record keeps its official objective, lead agencies, partners, parent and related efforts, phase, domains, dated milestones, and official updates. The curated portfolio currently spans the Genesis Mission, Quantum Genesis, QC-ADDS, QuantumEAGLe, the federal PQC transition, NSF Project Triad, DARPA's Quantum Benchmarking Initiative, the Department of War's AI Pace-Setting Projects, AI Forge, and Golden Dome for America.
 
-Daily collection and the weekly official-source backfill merge newly observed `.gov` and `.mil` updates into `reports/federal-missions.json` and `reports/federal-missions.md`. Announcements that look like a new mission but do not match a curated record enter a review queue instead of being promoted automatically. This preserves broad discovery without allowing a routine agency mission statement or an ambiguous project name to become a strategic mission record.
+Daily collection and the weekly official-source backfill merge newly observed `.gov` and `.mil` updates into `reports/federal-missions.json` and `reports/federal-missions.md`. First-party DARPA, NSF, Department of War, DOE, and White House sources support ongoing discovery. Announcements that look like a new mission but do not match a curated record enter a review queue instead of being promoted automatically. Named projects, programs, challenges, campaigns, and strategies must also show strategic scope and execution evidence, preserving broad discovery without allowing a routine agency project or mission statement to become a strategic mission record.
 
 ## Patent Intelligence
 

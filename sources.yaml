@@ -236,6 +236,34 @@ watch_sources:
     include_patterns: [mission, quantum, science, technology, artificial-intelligence, cybersecurity]
     match_patterns: [mission, national effort, national initiative, quantum, artificial intelligence, cybersecurity]
     max_items: 25
+  - name: "DARPA Strategic Technology Missions"
+    entities: [DARPA, Department of War]
+    rss_url: "https://www.darpa.mil/rss.xml"
+    url: "https://www.darpa.mil/news"
+    include_patterns: [/news/, /research/programs/, mission, initiative, project, program, challenge, quantum, artificial-intelligence, cybersecurity, autonomy]
+    match_patterns: [mission, initiative, project, program, challenge, campaign, strategy, quantum, artificial intelligence, cybersecurity, autonomy, national security]
+    max_items: 40
+  - name: "NSF Strategic Science and Technology Missions"
+    entities: [National Science Foundation]
+    rss_url: "https://www.nsf.gov/rss/rss_www_news.xml"
+    url: "https://www.nsf.gov/news"
+    include_patterns: [/news/, mission, initiative, project, program, challenge, quantum, artificial-intelligence, cybersecurity]
+    match_patterns: [mission, initiative, project, program, challenge, quantum, artificial intelligence, cybersecurity, national security, commercialization]
+    max_items: 40
+  - name: "Department of War Strategic Technology News"
+    entities: [Department of War]
+    rss_url: "https://www.war.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=100"
+    url: "https://www.war.gov/News/News-Stories/"
+    include_patterns: [mission, initiative, project, program, artificial-intelligence, quantum, cyber, technology, innovation, missile, space]
+    match_patterns: [mission, initiative, project, program, campaign, strategy, artificial intelligence, quantum, cyber, technology, innovation, autonomy, missile defense, space]
+    max_items: 40
+  - name: "Department of War Strategic Technology Releases"
+    entities: [Department of War]
+    rss_url: "https://www.war.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9&Site=945&max=100"
+    url: "https://www.war.gov/News/Releases/"
+    include_patterns: [mission, initiative, project, program, artificial-intelligence, quantum, cyber, technology, innovation, missile, space]
+    match_patterns: [mission, initiative, project, program, campaign, strategy, artificial intelligence, quantum, cyber, technology, innovation, autonomy, missile defense, space]
+    max_items: 40
   - name: "Cisco Quantum-Safe Updates"
     entities: [Cisco]
     rss_url: "https://blogs.cisco.com/feed"
