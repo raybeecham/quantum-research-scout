@@ -82,6 +82,8 @@ The scheduled collector also runs bounded USPTO searches across post-quantum cry
 
 Patent publications are treated as early evidence of technical investment and IP positioning—not as proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate. The curated portfolio works without credentials. Automated discovery through the [USPTO Open Data Portal](https://data.uspto.gov/) requires registration and an API key stored as the GitHub Actions repository secret `USPTO_ODP_API_KEY`; until it is present, automated collection is skipped quietly without generating a recurring source warning.
 
+The `USPTO Patent API Smoke Test` workflow validates every configured field-qualified search without generating a report or crawling unrelated sources. It runs automatically when patent collection code or configuration changes and can also be started manually from GitHub Actions. Any rejected query fails the workflow immediately instead of allowing the main daily run to appear healthy with an empty automated ledger.
+
 ## Configurable Alerts
 
 Edit `alerts.yaml` to enable or disable alert families, set the minimum signal confidence, require a minimum number of source-warning days, and cap active output. Alert IDs are stable and stored in `reports/alerts-state.json`, so the first observed condition is marked new while unchanged conditions remain active without being counted as new again.

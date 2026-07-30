@@ -9,6 +9,7 @@ from unittest.mock import patch
 
 from pqc_quantum_research_agent.classifier import classify_item
 from pqc_quantum_research_agent.collectors import collect_patents
+from pqc_quantum_research_agent.config import load_config
 from pqc_quantum_research_agent.patents import write_patent_tracker
 
 
@@ -45,6 +46,16 @@ class FakeClient:
 
 
 class PatentIntelligenceTests(unittest.TestCase):
+    def test_configured_queries_use_field_qualified_uspto_syntax(self) -> None:
+        config = load_config(Path(__file__).parents[1] / "sources.yaml")
+
+        queries = config.patents["queries"]
+        self.assertGreaterEqual(len(queries), 5)
+        for query in queries:
+            search_query = str(query["search_query"])
+            self.assertIn("applicationMetaData.inventionTitle:", search_query)
+            self.assertNotRegex(search_query, r"^\s*[\"A-Za-z]")
+
     def test_collector_maps_publication_metadata_and_deduplicates_queries(self) -> None:
         client = FakeClient(PATENT_RESPONSE)
         config = {
