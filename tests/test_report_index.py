@@ -17,6 +17,7 @@ class ReportIndexTests(unittest.TestCase):
             monthly = reports / "monthly" / "2026" / "2026-06-monthly.md"
             signals = reports / "signals.md"
             missions = reports / "federal-missions.md"
+            data_trust = reports / "data-trust.md"
             patents = reports / "patents.md"
             temporal = reports / "temporal-intelligence.md"
             forecasts = reports / "strategic-forecasts.md"
@@ -29,6 +30,7 @@ class ReportIndexTests(unittest.TestCase):
             monthly.write_text("# Monthly\n", encoding="utf-8")
             signals.write_text("# Signals\n", encoding="utf-8")
             missions.write_text("# Missions\n", encoding="utf-8")
+            data_trust.write_text("# Data Trust\n", encoding="utf-8")
             patents.write_text("# Patents\n", encoding="utf-8")
             temporal.write_text("# Temporal Intelligence\n", encoding="utf-8")
             forecasts.write_text("# Strategic Forecast Registry\n", encoding="utf-8")
@@ -47,6 +49,7 @@ class ReportIndexTests(unittest.TestCase):
             self.assertIn("Daily reports retained: **1**", content)
             self.assertIn("[signals](signals.md)", content)
             self.assertIn("[federal-missions](federal-missions.md)", content)
+            self.assertIn("[data-trust](data-trust.md)", content)
             self.assertIn("[patents](patents.md)", content)
             self.assertIn("[temporal-intelligence](temporal-intelligence.md)", content)
             self.assertIn("[strategic-forecasts](strategic-forecasts.md)", content)

@@ -48,6 +48,37 @@ class DashboardBuildTests(unittest.TestCase):
             (reports / "source-health.json").write_text(
                 json.dumps({"sources": [{"name": "Feed", "status": "healthy"}]}), encoding="utf-8"
             )
+            (reports / "data-trust.json").write_text(
+                json.dumps(
+                    {
+                        "summary": {
+                            "accepted": 4,
+                            "quarantined": 1,
+                            "acceptance_rate": 80.0,
+                        },
+                        "collector_metrics": [
+                            {
+                                "scope": "Federal missions",
+                                "accepted": 1,
+                                "quarantined": 1,
+                                "acceptance_rate": 50.0,
+                            }
+                        ],
+                        "quarantined_evidence": [
+                            {
+                                "title": "Unrelated grant",
+                                "scope": "Federal missions",
+                                "admission": {
+                                    "status": "quarantined",
+                                    "score": 25,
+                                    "reason_codes": ["query_metadata_only"],
+                                },
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
             (reports / "alerts.json").write_text(
                 json.dumps({"active_count": 1, "new_count": 1, "alerts": [{"id": "test"}]}), encoding="utf-8"
             )
@@ -421,6 +452,11 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["patents"]["summary"]["curated_total"], 1)
             self.assertEqual(payload["patents"]["patents"][0]["publication_number"], "US20260234567A1")
             self.assertEqual(payload["signals"]["overall_trend"][0]["count"], 1)
+            self.assertEqual(payload["data_trust"]["summary"]["quarantined"], 1)
+            self.assertEqual(
+                payload["data_trust"]["quarantined_evidence"][0]["title"],
+                "Unrelated grant",
+            )
             self.assertIn("github.com/example/repo/blob/main/reports/", payload["reports"]["latest_daily"]["url"])
 
     def test_watch_cards_and_coverage_link_to_profiles(self) -> None:
@@ -450,6 +486,8 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn('id="standards"', html)
         self.assertIn("renderReadiness", script)
         self.assertIn("renderStandards", script)
+        self.assertIn('id="data-trust"', html)
+        self.assertIn("renderDataTrust", script)
         self.assertIn("historical", profile)
 
     def test_dashboard_prioritizes_briefing_and_collapses_deeper_views(self) -> None:

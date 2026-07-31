@@ -8,6 +8,10 @@ from pathlib import Path
 
 from .models import ResearchItem
 from .contractor_identity import resolve_contractor_identities
+from .evidence_admission import (
+    funding_record_admission,
+    inferred_relationship_admission,
+)
 from .text import compact_summary
 
 
@@ -66,9 +70,13 @@ def write_federal_funding_tracker(
     valid_mission_tracker_keys = {
         str(item["key"]) for item in mission_announcements if item.get("key")
     }
+    existing_records = [
+        *existing.get("records", []),
+        *existing.get("quarantined_records", []),
+    ]
     by_key = {
         str(item["key"]): item
-        for item in existing.get("records", [])
+        for item in existing_records
         if isinstance(item, dict) and item.get("key")
         and (
             item.get("provider") != "mission_tracker"
@@ -85,16 +93,29 @@ def write_federal_funding_tracker(
         by_key[str(record["key"])] = _merge_record(by_key.get(str(record["key"]), {}), record)
 
     cutoff = today - timedelta(days=retention_days)
-    records = [
+    candidate_records = [
         item
         for item in by_key.values()
         if not (record_date := _safe_date(item.get("date"))) or record_date >= cutoff
     ]
-    for record in records:
+    records: list[dict] = []
+    quarantined_records: list[dict] = []
+    for record in candidate_records:
         record["record_type"] = _normalized_record_type(record)
         record["status"] = _record_status(record, today)
-        record["mission_links"] = _mission_links(record, missions)
+        mission_links, quarantined_links = _mission_link_decisions(record, missions)
+        record["mission_links"] = mission_links
+        record["quarantined_mission_links"] = quarantined_links
         record["technology_domains"] = _technology_domains(record)
+        record["admission"] = funding_record_admission(
+            record,
+            has_named_mission=bool(mission_links),
+            has_relevant_domain=bool(record["technology_domains"]),
+        )
+        if record["admission"]["status"] != "accepted":
+            record["quarantine_stage"] = "funding evidence admission"
+            quarantined_records.append(record)
+            continue
         record["days_to_close"] = _days_to_close(record, today)
         record["deadline_status"] = _deadline_status(record.get("days_to_close"))
         record["new_since_yesterday"] = _new_since_yesterday(record, today)
@@ -115,7 +136,7 @@ def write_federal_funding_tracker(
             record["opportunity_label"] = _opportunity_label(radar_score)
             record["opportunity_factors"] = radar_factors
             record["recommended_action"] = _recommended_action(record)
-    records = [record for record in records if _record_is_relevant(record)]
+        records.append(record)
 
     records.sort(
         key=lambda item: (
@@ -126,6 +147,11 @@ def write_federal_funding_tracker(
         reverse=True,
     )
     records = records[:max_records]
+    quarantined_records.sort(
+        key=lambda item: (str(item.get("date") or ""), str(item.get("title") or "")),
+        reverse=True,
+    )
+    quarantined_records = quarantined_records[:100]
     records, contractor_identities = resolve_contractor_identities(records)
     opportunity_radar = _opportunity_radar(records)
     recipients = _aggregate_recipients(
@@ -184,14 +210,19 @@ def write_federal_funding_tracker(
             for item in records
             if item.get("record_type") in {"award", "award_notice"}
         ),
+        "quarantined_records": len(quarantined_records),
+        "quarantined_mission_links": sum(
+            len(item.get("quarantined_mission_links", []))
+            for item in records
+        ),
     }
     payload = {
-        "version": 3,
+        "version": 4,
         "updated_at": generated.isoformat(),
         "as_of_date": today.isoformat(),
         "scope_note": (
-            "Official federal awards and opportunities connected to tracked missions using explicit "
-            "mission identifiers, named-program matches, or labeled agency/domain inference."
+            "Official federal awards and opportunities admitted through explicit mission-name or "
+            "in-scope technology evidence. Weak query and agency/domain inferences are quarantined."
         ),
         "method_note": (
             "USAspending records describe reported awards; Grants.gov and SAM.gov records describe "
@@ -204,6 +235,7 @@ def write_federal_funding_tracker(
         "recipients_and_contractors": recipients,
         "contractor_identities": contractor_identities,
         "records": records,
+        "quarantined_records": quarantined_records,
         "relationship_edges": edges,
         "relationship_explorer": relationship_explorer,
     }
@@ -330,6 +362,13 @@ def _mission_funding_announcements(missions: list[dict], generated: datetime) ->
 
 
 def _mission_links(record: dict, missions: list[dict]) -> list[dict]:
+    links, _ = _mission_link_decisions(record, missions)
+    return links
+
+
+def _mission_link_decisions(
+    record: dict, missions: list[dict]
+) -> tuple[list[dict], list[dict]]:
     text = " ".join(
         str(record.get(key) or "")
         for key in (
@@ -341,6 +380,7 @@ def _mission_links(record: dict, missions: list[dict]) -> list[dict]:
     ).casefold()
     configured = {str(value) for value in record.get("configured_mission_ids", [])}
     links: list[dict] = []
+    quarantined: list[dict] = []
     for mission in missions:
         mission_id = str(mission["id"])
         names = [
@@ -366,18 +406,35 @@ def _mission_links(record: dict, missions: list[dict]) -> list[dict]:
                 if score >= 50
                 else ""
             )
-        if score >= 65:
-            links.append(
-                {
-                    "mission_id": mission_id,
-                    "mission_name": mission.get("name"),
-                    "confidence": "high" if score >= 90 else "medium",
-                    "score": score,
-                    "basis": basis,
-                }
-            )
+        link = {
+            "mission_id": mission_id,
+            "mission_name": mission.get("name"),
+            "confidence": "high" if score >= 90 else "medium",
+            "score": score,
+            "basis": basis,
+        }
+        if score >= 90:
+            link["admission"] = {
+                "status": "accepted",
+                "score": score,
+                "confidence": "high",
+                "reason_codes": [
+                    "configured_identifier"
+                    if basis == "configured mission identifier"
+                    else "exact_mission_name"
+                ],
+                "basis": basis,
+            }
+            links.append(link)
+        elif score >= 65:
+            link["admission"] = inferred_relationship_admission(basis, score)
+            quarantined.append(link)
     links.sort(key=lambda item: (int(item["score"]), str(item["mission_name"])), reverse=True)
-    return links[:3]
+    quarantined.sort(
+        key=lambda item: (int(item["score"]), str(item["mission_name"])),
+        reverse=True,
+    )
+    return links[:3], quarantined[:3]
 
 
 def _matched_mission_name(names: list[str], text: str) -> str | None:
@@ -1147,13 +1204,6 @@ def _normalized_record_type(record: dict) -> str:
     if "request for information" in text or "sources sought" in text or re.search(r"\brfi\b", text):
         return "rfi"
     return record_type
-
-
-def _record_is_relevant(record: dict) -> bool:
-    if record.get("provider") == "mission_tracker" or record.get("mission_links"):
-        return True
-    visible_text = f"{record.get('title', '')} {record.get('awarding_agency', '')}"
-    return any(pattern.search(visible_text) for _, pattern in DOMAIN_PATTERNS)
 
 
 def _announcement_record_type(text: str) -> str:

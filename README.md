@@ -44,7 +44,7 @@ It is designed to answer four practical questions:
 | **Analyst decision center** | A focused queue for amendment revalidation, authoritative government changes, and unresolved claim conflicts |
 | **Patent intelligence** | Applications and grants grouped by explicit family evidence, with legal status, citations, and strategic significance |
 | **Organization tracking** | Entity profiles, public PQC-readiness evidence, source coverage, and peer relationships |
-| **Operational trust** | Source reliability, freshness, disabled-source visibility, warning history, and confidence labels |
+| **Operational trust** | Evidence admission, visible quarantine, source reliability, freshness, warning history, and confidence labels |
 
 ## From Source to Decision
 
@@ -52,7 +52,9 @@ It is designed to answer four practical questions:
 flowchart LR
     A["Official APIs<br/>Feeds · Papers · Web"] --> B["Collect & normalize"]
     B --> C["Classify · score<br/>deduplicate"]
-    C --> D["Evidence ledgers"]
+    C --> Q{"Evidence gate"}
+    Q -->|admit| D["Evidence ledgers"]
+    Q -->|review| X["Auditable quarantine"]
     D --> E["Signals · relationships<br/>opportunity radar"]
     E --> F["Reports · alerts<br/>dashboard"]
 
@@ -77,6 +79,7 @@ The dashboard's Analyst Decision Center turns the highest-consequence changes in
 | [**Signal tracker**](reports/signals.md) | Themes that are rising, stable, declining, actionable, watching, or stale |
 | [**Federal missions**](reports/federal-missions.md) | Named national initiatives, milestones, agencies, relationships, and updates |
 | [**Funding and procurement**](reports/federal-funding.md) | Awards, grants, acquisition notices, contractors, and mission execution |
+| [**Data trust**](reports/data-trust.md) | Admission decisions, quarantine reasons, and evidence excluded from downstream intelligence |
 | [**Contractor enrichment**](reports/contractor-enrichment.md) | Public SAM.gov registrations, UEIs, CAGE codes, business types, NAICS, and corporate hierarchy |
 | [**Decision briefs**](reports/bid-no-bid.md) | Provisional opportunity qualification, risks, unknowns, and recommended actions |
 | [**Pursuit workspace**](reports/pursuits.md) | Public-safe stages, owners, milestones, checklists, and upcoming decisions |
@@ -93,6 +96,8 @@ The dashboard's Analyst Decision Center turns the highest-consequence changes in
 ### Evidence stays attached
 
 Scores, signals, mission links, contractor relationships, and alerts retain supporting URLs and explicit reasoning. Inferred connections are not presented as established facts.
+
+Before mission or funding evidence can affect claims, relationships, scoring, or forecasts, it passes a deterministic admission gate. Query-only matches and weak agency/domain inferences remain in an auditable quarantine with reason codes instead of silently entering—or disappearing from—the intelligence chain.
 
 The claim ledger goes further: each material assertion and relationship receives a stable ID, source-authority label, confidence, derivation rule, version, and lifecycle status. Equal-authority disagreements remain visible as conflicts; later or stronger evidence can supersede a claim without erasing its history.
 

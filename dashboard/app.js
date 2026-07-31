@@ -100,6 +100,7 @@ function render(){
   const temporalPayload = state.data.temporal_intelligence || { summary: {}, priority_events: [], upcoming: [] };
   const forecastPayload = state.data.strategic_forecasts || { summary: {}, active_forecasts: [], resolved_forecasts: [] };
   const analystDecisionPayload = state.data.decision_center || { items: [], summary: {} };
+  const dataTrustPayload = state.data.data_trust || { summary: {}, collector_metrics: [], quarantined_evidence: [] };
   document.getElementById("repo-link").href = safeUrl(state.data.repository_url);
   document.getElementById("alerts-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/alerts.md`);
   document.getElementById("hero-report-link").href = safeUrl(state.data.reports?.latest_daily?.url || "#reports");
@@ -120,7 +121,7 @@ function render(){
   document.getElementById("source-summary").textContent = `${healthy} healthy · ${verified} verified · ${fresh} fresh · ${stale} stale`;
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
   renderReports(state.data.reports); renderAlerts(alerts, temporalPayload); renderDecisionCenter(analystDecisionPayload, changePayload); renderForecasts(forecastPayload); renderMissions(missionPayload, fundingPayload); renderFunding(fundingPayload); renderProcurementDocuments(procurementPayload); renderDecisionBriefs(decisionPayload); renderPursuits(pursuitPayload); renderEvidenceLedger(claimPayload, changePayload, temporalPayload); renderSignals(); renderPatents(patentPayload); renderWatch();
-  renderTrend(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderSources(sources);
+  renderTrend(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderDataTrust(dataTrustPayload); renderSources(sources);
   animateMetrics();
   setupReveal();
   revealHashSection();
@@ -1092,6 +1093,26 @@ function renderSources(sources){
   const order = { failing: 0, degraded: 1, healthy: 2 };
   document.getElementById("source-table").innerHTML = [...sources].sort((a,b) => (order[a.status]-order[b.status]) || a.name.localeCompare(b.name)).map(item =>
     `<tr><td>${escapeHtml(item.name)}</td><td>${escapeHtml(item.type)}</td><td>${item.success_rate ?? "—"}${item.success_rate == null ? "" : "%"}</td><td>${item.warning_days || 0}</td><td>${escapeHtml(formatShortDate(item.last_checked_at))}</td><td>${escapeHtml(formatShortDate(item.last_item_at))}</td><td><span class="freshness ${escapeHtml(item.freshness || "unverified")}">${escapeHtml(item.freshness || "unverified")}</span></td><td><span class="health"><i class="dot ${escapeHtml(item.status)}"></i>${escapeHtml(item.status)} · ${escapeHtml(item.verification_status || "unverified")}</span></td></tr>`).join("");
+}
+
+function renderDataTrust(payload){
+  const summary = payload.summary || {};
+  const quarantined = payload.quarantined_evidence || [];
+  document.getElementById("data-trust-summary").textContent = `${summary.accepted || 0} accepted · ${summary.quarantined || 0} quarantined · ${summary.acceptance_rate ?? 100}% admitted`;
+  document.getElementById("data-trust-review-count").textContent = `${quarantined.length} shown`;
+  document.getElementById("data-trust-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/data-trust.md`);
+  const metrics = payload.collector_metrics || [];
+  document.getElementById("data-trust-metrics").innerHTML = metrics.map(item =>
+    `<article><span>${escapeHtml(item.scope)}</span><strong>${escapeHtml(item.acceptance_rate)}%</strong><small>${item.accepted || 0} accepted · ${item.quarantined || 0} quarantined</small></article>`
+  ).join("") || `<p class="empty-state">No evidence admission decisions have been recorded yet.</p>`;
+  document.getElementById("data-trust-list").innerHTML = quarantined.map(item => {
+    const admission = item.admission || {};
+    const reasons = (admission.reason_codes || []).map(code => String(code).replaceAll("_", " ")).join(" · ");
+    const mission = item.mission_name ? `<span>${escapeHtml(item.mission_name)}</span>` : "";
+    const title = escapeHtml(item.title || "Untitled evidence");
+    const titleMarkup = item.url ? `<a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${title}</a>` : `<strong>${title}</strong>`;
+    return `<article><div>${mission}<small>${escapeHtml(item.scope || item.stage || "Evidence admission")}</small></div>${titleMarkup}<p>${escapeHtml(reasons || admission.basis || "Insufficient contextual evidence")}</p><b>Gate ${admission.score || 0}</b></article>`;
+  }).join("") || `<p class="empty-state">The quarantine is clear.</p>`;
 }
 
 function renderReports(reports){

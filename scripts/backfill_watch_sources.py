@@ -24,6 +24,7 @@ from pqc_quantum_research_agent.dedupe import prepare_identity
 from pqc_quantum_research_agent.entity_watch import write_entity_watch
 from pqc_quantum_research_agent.federal_missions import write_federal_mission_tracker
 from pqc_quantum_research_agent.federal_funding import write_federal_funding_tracker
+from pqc_quantum_research_agent.data_trust import write_data_trust_report
 from pqc_quantum_research_agent.contractor_enrichment import write_contractor_enrichment
 from pqc_quantum_research_agent.historical import write_historical_evidence
 from pqc_quantum_research_agent.http import HttpClient
@@ -107,6 +108,7 @@ def main() -> int:
         generated_at=generated,
     )
     write_federal_funding_tracker(reports, collection.items, generated_at=generated)
+    write_data_trust_report(reports, generated_at=generated)
     write_contractor_enrichment(
         reports,
         config.federal_funding,

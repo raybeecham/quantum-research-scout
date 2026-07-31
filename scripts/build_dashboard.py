@@ -29,6 +29,10 @@ def build_dashboard(
 
     signals = _read_json(reports / "signals.json", {"themes": {}, "updated_at": None})
     source_health = _read_json(reports / "source-health.json", {"sources": [], "disabled_sources": []})
+    data_trust = _read_json(
+        reports / "data-trust.json",
+        {"summary": {}, "collector_metrics": [], "reason_counts": [], "quarantined_evidence": []},
+    )
     alerts = _read_json(reports / "alerts.json", {"alerts": [], "active_count": 0, "new_count": 0})
     entity_watch = _read_json(reports / "entity-watch.json", {"entities": [], "technologies": []})
     readiness = _read_json(reports / "readiness.json", {"organizations": [], "summary": {}})
@@ -94,6 +98,15 @@ def build_dashboard(
         "repository_url": repo_url.rstrip("/"),
         "signals": _dashboard_signals(signals),
         "source_health": source_health,
+        "data_trust": {
+            "updated_at": data_trust.get("updated_at"),
+            "scope_note": data_trust.get("scope_note"),
+            "method_note": data_trust.get("method_note"),
+            "summary": data_trust.get("summary", {}),
+            "collector_metrics": (data_trust.get("collector_metrics") or [])[:10],
+            "reason_counts": (data_trust.get("reason_counts") or [])[:10],
+            "quarantined_evidence": (data_trust.get("quarantined_evidence") or [])[:20],
+        },
         "alerts": alerts,
         "entity_watch": entity_watch,
         "readiness": readiness,

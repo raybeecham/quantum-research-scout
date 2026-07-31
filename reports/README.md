@@ -2,7 +2,7 @@
 
 > **Quantum Research Scout** · Intelligence archive and operational dashboard
 
-_Updated 2026-07-31 19:07 UTC_
+_Updated 2026-07-31 19:51 UTC_
 
 [Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
 
@@ -19,6 +19,7 @@ _Updated 2026-07-31 19:07 UTC_
 - Persistent signals: [signals](signals.md)
 - Federal mission tracker: [federal-missions](federal-missions.md)
 - Federal funding and procurement: [federal-funding](federal-funding.md)
+- Data trust and evidence admission: [data-trust](data-trust.md)
 - Contractor entity enrichment: [contractor-enrichment](contractor-enrichment.md)
 - Procurement document intelligence: [procurement-intelligence](procurement-intelligence.md)
 - Provisional bid / no-bid briefs: [bid-no-bid](bid-no-bid.md)

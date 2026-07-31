@@ -379,6 +379,15 @@ class FederalFundingTests(unittest.TestCase):
 
         self.assertEqual(payload["records"], [])
         self.assertEqual(payload["summary"]["linked_records"], 0)
+        self.assertEqual(payload["summary"]["quarantined_records"], 1)
+        self.assertEqual(
+            payload["quarantined_records"][0]["admission"]["status"],
+            "quarantined",
+        )
+        self.assertIn(
+            "query_metadata_only",
+            payload["quarantined_records"][0]["admission"]["reason_codes"],
+        )
 
     def test_tracker_removes_stale_mission_update_records(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -422,6 +431,56 @@ class FederalFundingTests(unittest.TestCase):
             payload = json.loads(json_path.read_text(encoding="utf-8"))
 
         self.assertEqual(payload["records"], [])
+
+    def test_tracker_quarantines_agency_domain_relationship_inference(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports = Path(temp_dir)
+            (reports / "federal-missions.json").write_text(
+                json.dumps(
+                    {
+                        "missions": [
+                            {
+                                "id": "test-mission",
+                                "name": "Test Mission",
+                                "aliases": ["Test Mission"],
+                                "lead_agencies": ["Department of Testing"],
+                                "domains": [
+                                    "Quantum computing",
+                                    "Artificial intelligence",
+                                ],
+                                "updates": [],
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            inferred = ResearchItem(
+                source_name="SAM.gov",
+                source_type="procurement",
+                title="Quantum artificial intelligence prototype",
+                url="https://sam.gov/opp/inferred/view",
+                summary="Research and development notice.",
+                raw_payload={
+                    "provider": "sam_gov",
+                    "record_type": "procurement_opportunity",
+                    "notice_id": "INFERRED-1",
+                    "agency": "Department of Testing",
+                },
+            )
+
+            json_path, _ = write_federal_funding_tracker(reports, [inferred])
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(len(payload["records"]), 1)
+        self.assertEqual(payload["records"][0]["mission_links"], [])
+        quarantined = payload["records"][0]["quarantined_mission_links"]
+        self.assertEqual(len(quarantined), 1)
+        self.assertEqual(quarantined[0]["mission_id"], "test-mission")
+        self.assertIn(
+            "agency_domain_inference",
+            quarantined[0]["admission"]["reason_codes"],
+        )
 
 
 if __name__ == "__main__":

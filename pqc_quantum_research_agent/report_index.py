@@ -43,6 +43,7 @@ def write_report_index(reports_dir: str | Path, *, generated_at: datetime | None
         f"- Persistent signals: {_optional_link(reports_path, reports_path / 'signals.md')}",
         f"- Federal mission tracker: {_optional_link(reports_path, reports_path / 'federal-missions.md')}",
         f"- Federal funding and procurement: {_optional_link(reports_path, reports_path / 'federal-funding.md')}",
+        f"- Data trust and evidence admission: {_optional_link(reports_path, reports_path / 'data-trust.md')}",
         f"- Contractor entity enrichment: {_optional_link(reports_path, reports_path / 'contractor-enrichment.md')}",
         f"- Procurement document intelligence: {_optional_link(reports_path, reports_path / 'procurement-intelligence.md')}",
         f"- Provisional bid / no-bid briefs: {_optional_link(reports_path, reports_path / 'bid-no-bid.md')}",

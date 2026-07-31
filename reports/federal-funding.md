@@ -4,9 +4,9 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-07-31 19:04 UTC_
+_Updated 2026-07-31 19:51 UTC_
 
-Official federal awards and opportunities connected to tracked missions using explicit mission identifiers, named-program matches, or labeled agency/domain inference.
+Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
 USAspending records describe reported awards; Grants.gov and SAM.gov records describe opportunities or notices. Analytical mission and patent links are not evidence that a patent was funded by, used by, or formally associated with a mission.
 

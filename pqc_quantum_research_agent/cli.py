@@ -28,6 +28,7 @@ from .alerts import write_alerts
 from .entity_watch import write_entity_watch
 from .federal_missions import write_federal_mission_tracker
 from .federal_funding import write_federal_funding_tracker
+from .data_trust import write_data_trust_report
 from .contractor_enrichment import write_contractor_enrichment
 from .http import HttpClient
 from .procurement_intelligence import write_procurement_intelligence
@@ -391,6 +392,7 @@ def main(argv: list[str] | None = None) -> int:
             classified,
             generated_at=generated_at,
         )
+        write_data_trust_report(Path(args.reports_dir), generated_at=generated_at)
         intelligence_client = HttpClient(
             config.settings.user_agent,
             timeout_seconds=config.settings.request_timeout_seconds,

@@ -10,6 +10,7 @@ from zoneinfo import ZoneInfo
 import yaml
 
 from .models import ResearchItem
+from .evidence_admission import mission_item_admission, mission_update_admission
 from .text import compact_summary
 
 
@@ -73,22 +74,43 @@ def write_federal_mission_tracker(
 
     missions = []
     matched_urls: set[str] = set()
+    accepted_evidence_keys: set[str] = set()
+    quarantined_evidence = [
+        item
+        for item in existing.get("quarantined_evidence", [])
+        if isinstance(item, dict)
+    ]
     for raw in config.get("missions", []):
         if not isinstance(raw, dict):
             continue
         mission_id = str(raw.get("id", "")).strip()
-        previous_updates = [
-            item
-            for item in previous_missions.get(mission_id, {}).get("observed_updates", [])
-            if isinstance(item, dict) and _update_matches_mission(item, raw)
-        ]
+        previous_updates = []
+        for item in previous_missions.get(mission_id, {}).get("observed_updates", []):
+            if not isinstance(item, dict):
+                continue
+            admission = mission_update_admission(item, raw)
+            if admission["status"] == "accepted":
+                previous_updates.append({**item, "admission": admission})
+            else:
+                quarantined_evidence.append(
+                    _quarantined_mission_item(item, raw, admission)
+                )
+        new_updates = []
+        for item in research_items:
+            admission = mission_item_admission(item, raw)
+            if admission["status"] == "accepted":
+                new_updates.append(_item_update(item, admission=admission))
+            elif admission["status"] == "quarantined":
+                quarantined_evidence.append(
+                    _quarantined_mission_item(_item_update(item), raw, admission)
+                )
         observed_updates = _merge_updates(
             previous_updates,
-            [
-                _item_update(item)
-                for item in research_items
-                if _is_federal_item(item) and _matches_mission(item, raw)
-            ],
+            new_updates,
+        )
+        accepted_evidence_keys.update(
+            _quarantine_key({**item, "mission_id": mission_id})
+            for item in observed_updates
         )
         matched_urls.update(str(item.get("url", "")) for item in observed_updates)
         missions.append(
@@ -121,6 +143,11 @@ def write_federal_mission_tracker(
         key=lambda item: (str(item.get("date") or ""), int(item.get("score") or 0), str(item.get("title") or "")),
         reverse=True,
     )
+    quarantined_evidence = [
+        item
+        for item in _merge_quarantined(quarantined_evidence)
+        if _quarantine_key(item) not in accepted_evidence_keys
+    ]
 
     missions.sort(key=_mission_sort_key)
     upcoming_milestones = sorted(
@@ -144,6 +171,10 @@ def write_federal_mission_tracker(
         ),
         "overdue_milestones": sum(item["timing"] == "overdue" for item in upcoming_milestones),
         "discovery_candidates": len(discovery_candidates),
+        "accepted_observed_updates": sum(
+            len(item.get("observed_updates", [])) for item in missions
+        ),
+        "quarantined_evidence": len(quarantined_evidence),
     }
     payload = {
         "version": 1,
@@ -160,6 +191,7 @@ def write_federal_mission_tracker(
         "missions": missions,
         "upcoming_milestones": upcoming_milestones,
         "discovery_candidates": discovery_candidates,
+        "quarantined_evidence": quarantined_evidence,
     }
     json_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     markdown_path = reports_path / "federal-missions.md"
@@ -250,7 +282,7 @@ def _normalize_milestone(raw: dict, today: date) -> dict:
 
 def _normalize_update(raw: dict) -> dict:
     update_date = _parse_optional_date(raw.get("date"))
-    return {
+    result = {
         "key": str(raw.get("key") or raw.get("url") or raw.get("title") or ""),
         "date": update_date.isoformat() if update_date else None,
         "kind": str(raw.get("kind", "official update")),
@@ -260,12 +292,15 @@ def _normalize_update(raw: dict) -> dict:
         "url": str(raw.get("url", "")),
         "score": int(raw.get("score") or 0),
     }
+    if isinstance(raw.get("admission"), dict):
+        result["admission"] = raw["admission"]
+    return result
 
 
-def _item_update(item: ResearchItem) -> dict:
+def _item_update(item: ResearchItem, *, admission: dict | None = None) -> dict:
     item_date = item.published_at.date() if item.published_at else item.discovered_at.date()
     url = item.canonical_url or item.url
-    return {
+    result = {
         "key": url or item.title_normalized or item.title,
         "date": item_date.isoformat(),
         "kind": "observed official update",
@@ -275,6 +310,43 @@ def _item_update(item: ResearchItem) -> dict:
         "url": url,
         "score": item.score,
     }
+    if admission:
+        result["admission"] = admission
+    return result
+
+
+def _quarantined_mission_item(item: dict, mission: dict, admission: dict) -> dict:
+    return {
+        **_normalize_update(item),
+        "mission_id": str(mission.get("id") or ""),
+        "mission_name": str(mission.get("name") or ""),
+        "stage": "mission evidence admission",
+        "admission": admission,
+    }
+
+
+def _merge_quarantined(items: list[dict], limit: int = 100) -> list[dict]:
+    by_key: dict[str, dict] = {}
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        key = _quarantine_key(item)
+        if key.strip("|"):
+            by_key[key] = item
+    return sorted(
+        by_key.values(),
+        key=lambda item: (str(item.get("date") or ""), str(item.get("title") or "")),
+        reverse=True,
+    )[:limit]
+
+
+def _quarantine_key(item: dict) -> str:
+    return "|".join(
+        (
+            str(item.get("mission_id") or ""),
+            str(item.get("key") or item.get("url") or item.get("title") or ""),
+        )
+    )
 
 
 def _discovery_candidate(item: ResearchItem) -> dict:
@@ -299,16 +371,6 @@ def _merge_updates(*groups) -> list[dict]:
 def _matches_mission(item: ResearchItem, raw: dict) -> bool:
     aliases = [str(raw.get("name", "")), *[str(value) for value in raw.get("aliases", [])]]
     haystack = _mission_match_text(item.title, item.summary, item.url)
-    return any(alias and alias.casefold() in haystack for alias in aliases)
-
-
-def _update_matches_mission(update: dict, raw: dict) -> bool:
-    aliases = [str(raw.get("name", "")), *[str(value) for value in raw.get("aliases", [])]]
-    haystack = _mission_match_text(
-        update.get("title"),
-        update.get("summary"),
-        update.get("url"),
-    )
     return any(alias and alias.casefold() in haystack for alias in aliases)
 
 

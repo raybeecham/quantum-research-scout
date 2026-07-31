@@ -184,6 +184,13 @@ missions:
             payload = json.loads(json_path.read_text(encoding="utf-8"))
 
             self.assertEqual(payload["missions"][0]["observed_updates"], [])
+            self.assertEqual(payload["summary"]["quarantined_evidence"], 1)
+            quarantine = payload["quarantined_evidence"][0]
+            self.assertEqual(quarantine["mission_id"], "golden-dome")
+            self.assertEqual(quarantine["admission"]["status"], "quarantined")
+            self.assertIn(
+                "query_metadata_only", quarantine["admission"]["reason_codes"]
+            )
 
 
 if __name__ == "__main__":

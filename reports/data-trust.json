@@ -1,0 +1,31 @@
+{
+  "collector_metrics": [
+    {
+      "acceptance_rate": 100.0,
+      "accepted": 25,
+      "quarantined": 0,
+      "scope": "Federal missions"
+    },
+    {
+      "acceptance_rate": 100.0,
+      "accepted": 189,
+      "quarantined": 0,
+      "scope": "Federal funding"
+    }
+  ],
+  "method_note": "Quarantine is not a finding that evidence is false or irrelevant. It means the current evidence is too weak for automated promotion and remains available for review.",
+  "quarantined_evidence": [],
+  "reason_counts": [],
+  "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
+  "summary": {
+    "acceptance_rate": 100.0,
+    "accepted": 214,
+    "decisions": 214,
+    "funding_quarantine": 0,
+    "mission_quarantine": 0,
+    "quarantined": 0,
+    "relationship_quarantine": 0
+  },
+  "updated_at": "2026-07-31T19:51:00.714572+00:00",
+  "version": 1
+}
