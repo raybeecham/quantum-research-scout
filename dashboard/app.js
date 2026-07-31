@@ -487,6 +487,7 @@ function renderForecasts(payload){
   ].map(([label,value]) => `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`).join("");
   document.getElementById("forecast-grid").innerHTML = active.length ? active.slice(0,4).map(item => {
     const probability = Math.round(Number(item.probability || 0) * 100);
+    const probabilityBand = probability >= 75 ? "high-probability" : probability >= 50 ? "medium-probability" : "low-probability";
     const dossier = item.dossier || {};
     const horizon = item.horizon_end ? formatShortDate(item.horizon_end) : "No horizon";
     const triggers = item.triggers || [];
@@ -498,7 +499,7 @@ function renderForecasts(payload){
       `<span>${escapeHtml(factor.factor)} ${Number(factor.points || 0) >= 0 ? "+" : ""}${Math.round(Number(factor.points || 0) * 100)}pts</span>`
     ).join("");
     return `<article class="forecast-card ${escapeHtml(item.impact || "high")}">
-      <div class="forecast-head"><div class="forecast-probability"><strong>${probability}%</strong><span>likelihood</span></div><div><span>${escapeHtml(String(item.forecast_type || "forecast").replaceAll("_"," "))}</span><small>Horizon ${escapeHtml(horizon)}</small></div></div>
+      <div class="forecast-head"><div class="forecast-probability ${probabilityBand}"><strong>${probability}%</strong><span>chance</span></div><div class="forecast-heading-copy"><span>${escapeHtml(String(item.forecast_type || "forecast").replaceAll("_"," "))}</span><small>Horizon · ${escapeHtml(horizon)}</small></div></div>
       <h3>${escapeHtml(item.question || "Strategic forecast")}</h3>
       <p>${escapeHtml(item.rationale || "Evidence-backed analytical hypothesis.")}</p>
       <div class="forecast-trigger-status"><span>${observed} / ${triggers.length} triggers observed</span><b>${escapeHtml(item.status || "active")}</b></div>
