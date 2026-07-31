@@ -49,6 +49,8 @@ def write_report_index(reports_dir: str | Path, *, generated_at: datetime | None
         f"- Opportunity pursuit workspace: {_optional_link(reports_path, reports_path / 'pursuits.md')}",
         f"- Evidence and claim ledger: {_optional_link(reports_path, reports_path / 'claim-ledger.md')}",
         f"- What changed since yesterday: {_optional_link(reports_path, reports_path / 'intelligence-changes.md')}",
+        f"- Temporal intelligence: {_optional_link(reports_path, reports_path / 'temporal-intelligence.md')}",
+        f"- Strategic forecast registry: {_optional_link(reports_path, reports_path / 'strategic-forecasts.md')}",
         f"- Patent intelligence: {_optional_link(reports_path, reports_path / 'patents.md')}",
         f"- Source health: {_optional_link(reports_path, reports_path / 'source-health.md')}",
         f"- Intelligence alerts: {_optional_link(reports_path, reports_path / 'alerts.md')}",

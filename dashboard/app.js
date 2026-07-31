@@ -97,6 +97,8 @@ function render(){
   const pursuitPayload = state.data.pursuits || { pursuits: [], summary: {} };
   const claimPayload = state.data.claim_ledger || { claims: [], summary: {} };
   const changePayload = state.data.intelligence_changes || { summary: {} };
+  const temporalPayload = state.data.temporal_intelligence || { summary: {}, priority_events: [], upcoming: [] };
+  const forecastPayload = state.data.strategic_forecasts || { summary: {}, active_forecasts: [], resolved_forecasts: [] };
   const analystDecisionPayload = state.data.decision_center || { items: [], summary: {} };
   document.getElementById("repo-link").href = safeUrl(state.data.repository_url);
   document.getElementById("alerts-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/alerts.md`);
@@ -117,7 +119,7 @@ function render(){
   const stale = sources.filter(x => x.freshness === "stale").length;
   document.getElementById("source-summary").textContent = `${healthy} healthy · ${verified} verified · ${fresh} fresh · ${stale} stale`;
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
-  renderReports(state.data.reports); renderAlerts(alerts); renderDecisionCenter(analystDecisionPayload); renderMissions(missionPayload, fundingPayload); renderFunding(fundingPayload); renderProcurementDocuments(procurementPayload); renderDecisionBriefs(decisionPayload); renderPursuits(pursuitPayload); renderEvidenceLedger(claimPayload, changePayload); renderSignals(); renderPatents(patentPayload); renderWatch();
+  renderReports(state.data.reports); renderAlerts(alerts, temporalPayload); renderDecisionCenter(analystDecisionPayload); renderForecasts(forecastPayload); renderMissions(missionPayload, fundingPayload); renderFunding(fundingPayload); renderProcurementDocuments(procurementPayload); renderDecisionBriefs(decisionPayload); renderPursuits(pursuitPayload); renderEvidenceLedger(claimPayload, changePayload, temporalPayload); renderSignals(); renderPatents(patentPayload); renderWatch();
   renderTrend(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderSources(sources);
   animateMetrics();
   setupReveal();
@@ -148,12 +150,13 @@ function renderTrend(){
   document.getElementById("trend-peak").textContent = `${peak.count} · ${peak.label}`;
 }
 
-function renderAlerts(payload){
+function renderAlerts(payload, temporalPayload={}){
   const highlights = buildBriefingHighlights(
     payload,
     state.data.intelligence_changes || {},
     state.data.decision_center || {},
-    state.data.federal_missions || {}
+    state.data.federal_missions || {},
+    temporalPayload
   );
   const timeSensitive = highlights.filter(item => item.timeSensitive).length;
   document.getElementById("alert-summary").textContent = highlights.length
@@ -177,10 +180,12 @@ function renderAlerts(payload){
   }).join("") : `<div class="empty-state intelligence-quiet-state"><strong>No material changes today</strong><span>The scout is monitoring for authoritative changes, urgent opportunities, amendments, and conflicts.</span></div>`;
 }
 
-function buildBriefingHighlights(alertPayload, changePayload, decisionPayload, missionPayload){
-  const changes = meaningfulChangeHighlights(changePayload);
+function buildBriefingHighlights(alertPayload, changePayload, decisionPayload, missionPayload, temporalPayload={}){
+  const changes = (temporalPayload.priority_events || []).length
+    ? temporalChangeHighlights(temporalPayload)
+    : meaningfulChangeHighlights(changePayload);
   const alerts = materialAlertHighlights(alertPayload);
-  const decisions = decisionHighlights(decisionPayload);
+  const decisions = decisionHighlights(decisionPayload, temporalPayload);
   const urgentAlerts = alerts.filter(item => item.timeSensitive);
   const priorityAlerts = alerts.filter(item => !item.timeSensitive);
   const selected = [];
@@ -202,6 +207,53 @@ function buildBriefingHighlights(alertPayload, changePayload, decisionPayload, m
     if (milestone) selected.push(milestone);
   }
   return selected.sort((a,b) => b.score - a.score || a.title.localeCompare(b.title)).slice(0,3);
+}
+
+function temporalChangeHighlights(payload){
+  const scoreByClass = {
+    conflict_opened: 142,
+    changed_since_prior_run: 132,
+    superseded: 126,
+    happened_today: 122,
+    published_today: 118,
+    recent_event: 108,
+    recently_published: 104
+  };
+  const statusByClass = {
+    conflict_opened: "CONFLICT OPENED",
+    changed_since_prior_run: "CHANGED",
+    superseded: "SUPERSEDED",
+    happened_today: "HAPPENED TODAY",
+    published_today: "PUBLISHED TODAY",
+    recent_event: "RECENT EVENT",
+    recently_published: "RECENT PUBLICATION"
+  };
+  return (payload.priority_events || []).map(item => {
+    const temporal = item.temporal || {};
+    const score = scoreByClass[temporal.classification];
+    if (!score) return null;
+    const subject = item.subject?.label || item.subject_label || item.evidence_title || "Tracked intelligence";
+    const value = item.value ?? item.object?.label;
+    const previous = item.previous_value ?? item.previous_object?.label;
+    const delta = previous != null && value != null && normalizeBriefingText(previous) !== normalizeBriefingText(value)
+      ? ` Previous: ${briefingValue(previous)}. Current: ${briefingValue(value)}.`
+      : "";
+    return {
+      id: `temporal:${item.claim_id || subject}:${item.change_type || temporal.classification}`,
+      category: "change",
+      statusLabel: statusByClass[temporal.classification],
+      priority: ["conflict_opened","changed_since_prior_run","superseded"].includes(temporal.classification) ? "critical" : "high",
+      score: score + (item.authority === "authoritative" ? 5 : 0),
+      title: smartBriefingTitle(subject),
+      why: `${temporal.explanation || "Material evidence entered the comparison."}${delta}`,
+      action: actionForPredicate(item.predicate),
+      meta: briefingMeta(sourceName(item.evidence_url), temporal.primary_date || temporal.first_observed_at),
+      evidenceUrl: item.evidence_url || "",
+      destinationUrl: `${state.data.repository_url}/blob/main/reports/temporal-intelligence.md`,
+      destinationLabel: "Open time trace",
+      timeSensitive: ["conflict_opened","changed_since_prior_run"].includes(temporal.classification)
+    };
+  }).filter(Boolean).sort((a,b) => b.score - a.score || a.title.localeCompare(b.title));
 }
 
 function meaningfulChangeHighlights(payload){
@@ -269,7 +321,7 @@ function materialAlertHighlights(payload){
   }).filter(Boolean).sort((a,b) => b.score - a.score || a.title.localeCompare(b.title));
 }
 
-function decisionHighlights(payload){
+function decisionHighlights(payload, temporalPayload={}){
   const labels = {
     amendment_revalidation: "REVALIDATION REQUIRED",
     authoritative_change: "GOVERNMENT EVIDENCE",
@@ -277,16 +329,22 @@ function decisionHighlights(payload){
   };
   return (payload.items || []).filter(item => !["reviewed","dismissed"].includes(state.analystDecisions[item.decision_id]?.disposition)).map(item => {
     const evidence = (item.evidence || []).find(source => source?.url) || {};
+    const temporalEvent = (temporalPayload.priority_events || []).find(event => event.evidence_url && event.evidence_url === evidence.url);
+    const temporal = temporalEvent?.temporal || {};
     const details = item.details || {};
     const priority = item.priority || "high";
+    const historical = temporal.classification === "historical_discovery";
+    const temporalBonus = ["happened_today","published_today"].includes(temporal.classification) ? 16
+      : ["recent_event","recently_published"].includes(temporal.classification) ? 9
+      : historical ? -32 : 0;
     return {
       id: item.decision_id,
       category: "decision",
-      statusLabel: labels[item.queue_type] || "ANALYST DECISION",
+      statusLabel: historical ? "HISTORICAL EVIDENCE FOUND" : labels[item.queue_type] || "ANALYST DECISION",
       priority,
-      score: (priority === "critical" ? 118 : priority === "high" ? 98 : 78) + Math.min(12, Number(details.selection_score || 0) / 10) + decisionRecencyScore(details.record_date),
+      score: (priority === "critical" ? 118 : priority === "high" ? 98 : 78) + Math.min(12, Number(details.selection_score || 0) / 10) + decisionRecencyScore(details.record_date) + temporalBonus,
       title: decisionBriefingTitle(item),
-      why: decisionBriefingWhy(item),
+      why: historical ? `${temporal.explanation} ${decisionBriefingWhy(item)}` : decisionBriefingWhy(item),
       action: decisionBriefingAction(item),
       meta: briefingMeta(details.awarding_agency || sourceName(evidence.url), details.record_date || item.observed_at),
       evidenceUrl: evidence.url || "",
@@ -406,6 +464,50 @@ function smartBriefingTitle(value){
   if (!letters || letters !== letters.toUpperCase()) return text;
   const acronyms = new Set(["AI","ARLIS","BAA","CAREER","DHS","DOD","DOE","NSF","PQC","QBI","RFI","SATC","UMD"]);
   return text.toLowerCase().replace(/\b[a-z][a-z0-9.-]*\b/g,word => acronyms.has(word.toUpperCase()) ? word.toUpperCase() : word[0].toUpperCase() + word.slice(1));
+}
+
+function renderForecasts(payload){
+  const active = payload.active_forecasts || [];
+  const summary = payload.summary || {};
+  const calibration = payload.calibration || {};
+  document.getElementById("forecast-summary").textContent =
+    `${summary.active || 0} active · ${summary.due_within_30_days || 0} due ≤30d · ${summary.calibration_label || "Awaiting outcomes"}`;
+  document.getElementById("forecast-report-link").href =
+    safeUrl(`${state.data.repository_url}/blob/main/reports/strategic-forecasts.md`);
+  document.getElementById("forecast-calibration").innerHTML = [
+    ["Active hypotheses",summary.active || 0],
+    ["Resolved",summary.resolved || 0],
+    ["Accuracy",summary.accuracy_rate == null ? "Awaiting outcomes" : `${Math.round(Number(summary.accuracy_rate) * 100)}%`],
+    ["Mean Brier",summary.mean_brier_score == null ? "Not scored" : Number(summary.mean_brier_score).toFixed(3)]
+  ].map(([label,value]) => `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`).join("");
+  document.getElementById("forecast-grid").innerHTML = active.length ? active.slice(0,4).map(item => {
+    const probability = Math.round(Number(item.probability || 0) * 100);
+    const dossier = item.dossier || {};
+    const horizon = item.horizon_end ? formatShortDate(item.horizon_end) : "No horizon";
+    const triggers = item.triggers || [];
+    const observed = triggers.filter(trigger => trigger.status === "observed").length;
+    const evidence = (item.evidence || []).map(source =>
+      `<a href="${escapeHtml(safeUrl(source.url))}" target="_blank" rel="noopener"><strong>${escapeHtml(source.title || "Official evidence")}</strong><span>${escapeHtml(source.role || source.authority || "evidence")} · ${escapeHtml(briefingDate(source.date) || "date not reported")}</span></a>`
+    ).join("");
+    const factors = (item.probability_factors || []).map(factor =>
+      `<span>${escapeHtml(factor.factor)} ${Number(factor.points || 0) >= 0 ? "+" : ""}${Math.round(Number(factor.points || 0) * 100)}pts</span>`
+    ).join("");
+    return `<article class="forecast-card ${escapeHtml(item.impact || "high")}">
+      <div class="forecast-head"><div class="forecast-probability"><strong>${probability}%</strong><span>likelihood</span></div><div><span>${escapeHtml(String(item.forecast_type || "forecast").replaceAll("_"," "))}</span><small>Horizon ${escapeHtml(horizon)}</small></div></div>
+      <h3>${escapeHtml(item.question || "Strategic forecast")}</h3>
+      <p>${escapeHtml(item.rationale || "Evidence-backed analytical hypothesis.")}</p>
+      <div class="forecast-trigger-status"><span>${observed} / ${triggers.length} triggers observed</span><b>${escapeHtml(item.status || "active")}</b></div>
+      <details><summary>Evidence, indicators, and mission dossier</summary>
+        <div class="forecast-detail">
+          <section><h4>Probability trace</h4><div class="forecast-factors">${factors}</div></section>
+          <section><h4>Confirming indicators</h4><ul>${(item.confirming_indicators || []).slice(0,3).map(value => `<li>${escapeHtml(value)}</li>`).join("")}</ul></section>
+          <section><h4>Disconfirming indicators</h4><ul>${(item.disconfirming_indicators || []).slice(0,3).map(value => `<li>${escapeHtml(value)}</li>`).join("")}</ul></section>
+          <section><h4>Mission dossier</h4><dl><div><dt>Funding activity</dt><dd>${escapeHtml(formatMoney((dossier.known_award_value || 0) + (dossier.announced_funding_value || 0)))}</dd></div><div><dt>Records / open</dt><dd>${dossier.record_count || 0} / ${dossier.open_opportunities || 0}</dd></div><div><dt>Awards</dt><dd>${dossier.award_count || 0}</dd></div><div><dt>Related patents</dt><dd>${dossier.related_patent_count || 0} analytical</dd></div></dl></section>
+          <section class="forecast-evidence"><h4>Authoritative evidence</h4>${evidence || "<span>No linked evidence is available.</span>"}</section>
+        </div>
+      </details>
+    </article>`;
+  }).join("") : '<div class="empty-state">No evidence-qualified strategic forecasts are active. The registry will open hypotheses when official mission activity crosses the configured threshold.</div>';
 }
 
 function renderMissions(payload, fundingPayload){
@@ -650,29 +752,36 @@ function renderProcurementDocuments(payload){
   }).join("") : '<div class="empty-state">No linked procurement documents have been analyzed yet.</div>';
 }
 
-function renderEvidenceLedger(claimPayload, changePayload){
+function renderEvidenceLedger(claimPayload, changePayload, temporalPayload={}){
   const claimSummary = claimPayload.summary || {};
   const changeSummary = changePayload.summary || {};
+  const temporalSummary = temporalPayload.summary || {};
   document.getElementById("evidence-ledger-summary").textContent =
-    `${claimSummary.active_claims || 0} claims · ${changeSummary.material_changes || 0} changes · ${changeSummary.conflicts || 0} conflicts`;
+    `${claimSummary.active_claims || 0} claims · ${changeSummary.material_changes || 0} changes · ${temporalSummary.historical_discoveries || 0} historical discoveries`;
   document.getElementById("claim-ledger-report-link").href =
     safeUrl(`${state.data.repository_url}/blob/main/reports/claim-ledger.md`);
   document.getElementById("changes-report-link").href =
     safeUrl(`${state.data.repository_url}/blob/main/reports/intelligence-changes.md`);
-  const changes = [
+  document.getElementById("temporal-report-link").href =
+    safeUrl(`${state.data.repository_url}/blob/main/reports/temporal-intelligence.md`);
+  const rawChanges = [
     ...(changePayload.conflict_opened || changePayload.conflicts || []).map(item => ({...item, change_type:"conflict"})),
     ...(changePayload.conflict_resolved || []).map(item => ({...item, change_type:"resolved"})),
     ...(changePayload.superseded || []),
     ...(changePayload.changed || []),
     ...(changePayload.added || []),
     ...(changePayload.resolved || [])
-  ].slice(0,8);
+  ];
+  const changes = (temporalPayload.priority_events || []).length
+    ? temporalPayload.priority_events.slice(0,8)
+    : rawChanges.slice(0,8);
   document.getElementById("change-feed").innerHTML = changePayload.baseline_initialized
     ? '<div class="empty-state">Baseline initialized. Material changes will appear after the next successful comparison.</div>'
     : changes.length ? changes.map(item => {
         const subject = item.subject?.label || item.subject_label || "Tracked claim";
         const value = item.value ?? item.values ?? item.object?.label ?? "See evidence";
-        return `<article class="change-card ${escapeHtml(item.change_type || "changed")}"><strong>${escapeHtml(subject)}</strong><span>${escapeHtml(String(item.predicate || "claim").replaceAll("_"," "))}</span><small>${escapeHtml(Array.isArray(value) ? value.join(" ↔ ") : String(value))}</small></article>`;
+        const temporal = item.temporal || {};
+        return `<article class="change-card ${escapeHtml(item.change_type || "changed")}"><div class="change-card-head"><strong>${escapeHtml(subject)}</strong>${temporal.label ? `<em>${escapeHtml(temporal.label)}</em>` : ""}</div><span>${escapeHtml(String(item.predicate || "claim").replaceAll("_"," "))}</span><small>${escapeHtml(Array.isArray(value) ? value.join(" ↔ ") : String(value))}</small>${temporal.explanation ? `<p>${escapeHtml(temporal.explanation)}</p>` : ""}</article>`;
       }).join("")
     : '<div class="empty-state">No material claim changes since the prior baseline.</div>';
   const claims = (claimPayload.claims || []).filter(item =>

@@ -18,6 +18,8 @@ class ReportIndexTests(unittest.TestCase):
             signals = reports / "signals.md"
             missions = reports / "federal-missions.md"
             patents = reports / "patents.md"
+            temporal = reports / "temporal-intelligence.md"
+            forecasts = reports / "strategic-forecasts.md"
             source_health = reports / "source-health.md"
             alerts = reports / "alerts.md"
             for path in (daily, weekly, monthly):
@@ -28,6 +30,8 @@ class ReportIndexTests(unittest.TestCase):
             signals.write_text("# Signals\n", encoding="utf-8")
             missions.write_text("# Missions\n", encoding="utf-8")
             patents.write_text("# Patents\n", encoding="utf-8")
+            temporal.write_text("# Temporal Intelligence\n", encoding="utf-8")
+            forecasts.write_text("# Strategic Forecast Registry\n", encoding="utf-8")
             source_health.write_text("# Health\n", encoding="utf-8")
             alerts.write_text("# Alerts\n", encoding="utf-8")
 
@@ -44,5 +48,7 @@ class ReportIndexTests(unittest.TestCase):
             self.assertIn("[signals](signals.md)", content)
             self.assertIn("[federal-missions](federal-missions.md)", content)
             self.assertIn("[patents](patents.md)", content)
+            self.assertIn("[temporal-intelligence](temporal-intelligence.md)", content)
+            self.assertIn("[strategic-forecasts](strategic-forecasts.md)", content)
             self.assertIn("[source-health](source-health.md)", content)
             self.assertIn("[alerts](alerts.md)", content)

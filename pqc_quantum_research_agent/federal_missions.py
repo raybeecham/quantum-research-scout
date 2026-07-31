@@ -77,7 +77,11 @@ def write_federal_mission_tracker(
         if not isinstance(raw, dict):
             continue
         mission_id = str(raw.get("id", "")).strip()
-        previous_updates = previous_missions.get(mission_id, {}).get("observed_updates", [])
+        previous_updates = [
+            item
+            for item in previous_missions.get(mission_id, {}).get("observed_updates", [])
+            if isinstance(item, dict) and _update_matches_mission(item, raw)
+        ]
         observed_updates = _merge_updates(
             previous_updates,
             [
@@ -294,8 +298,31 @@ def _merge_updates(*groups) -> list[dict]:
 
 def _matches_mission(item: ResearchItem, raw: dict) -> bool:
     aliases = [str(raw.get("name", "")), *[str(value) for value in raw.get("aliases", [])]]
-    haystack = f"{item.title} {item.summary} {item.url}".casefold()
+    haystack = _mission_match_text(item.title, item.summary, item.url)
     return any(alias and alias.casefold() in haystack for alias in aliases)
+
+
+def _update_matches_mission(update: dict, raw: dict) -> bool:
+    aliases = [str(raw.get("name", "")), *[str(value) for value in raw.get("aliases", [])]]
+    haystack = _mission_match_text(
+        update.get("title"),
+        update.get("summary"),
+        update.get("url"),
+    )
+    return any(alias and alias.casefold() in haystack for alias in aliases)
+
+
+def _mission_match_text(*values: object) -> str:
+    text = " ".join(str(value or "") for value in values)
+    # Search collectors retain the query for auditability. That metadata is not evidence that
+    # the returned document actually names the mission.
+    text = re.sub(
+        r"(?:^|\s*[·|]\s*)matched search:\s*[^·|\r\n]*",
+        " ",
+        text,
+        flags=re.IGNORECASE,
+    )
+    return text.casefold()
 
 
 def _is_federal_item(item: ResearchItem) -> bool:

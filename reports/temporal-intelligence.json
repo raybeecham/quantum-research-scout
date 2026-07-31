@@ -1,0 +1,2774 @@
+{
+  "added": [],
+  "changed": [],
+  "comparison_ended_at": "2026-07-31T19:07:52.090793+00:00",
+  "comparison_started_at": "2026-07-31T19:04:34.850035+00:00",
+  "conflict_opened": [],
+  "conflict_resolved": [],
+  "priority_events": [
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-ae33bcc233a44f3d",
+      "claim_ids": [
+        "claim-ae33bcc233a44f3d",
+        "claim-c94b4539f86a25dd"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-24",
+      "evidence_title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362961",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 2,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "predicates": [
+        "awarding_agency",
+        "opportunity_status"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b88e0919a166fb73",
+          "locator": "awarding_agency:grants.gov \u00b7 golden dome",
+          "title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+          "url": "https://www.grants.gov/search-results-detail/362961",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362961",
+        "label": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+        "node_id": "award_notice:mission_tracker:https://www.grants.gov/search-results-detail/362961",
+        "node_type": "award_notice"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Golden Dome"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-d64e8b70bdbfd60e",
+      "claim_ids": [
+        "claim-4372f584417972ac",
+        "claim-d64e8b70bdbfd60e"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-05-20",
+      "evidence_title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362498",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 2,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "predicates": [
+        "awarding_agency",
+        "opportunity_status"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-75c70af44c197e40",
+          "locator": "awarding_agency:grants.gov \u00b7 military ai pace-setting projects",
+          "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+          "url": "https://www.grants.gov/search-results-detail/362498",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362498",
+        "label": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362498",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Military AI Pace-Setting Projects"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-adc51bd529c52aba",
+      "claim_ids": [
+        "claim-07fcc62d464d1421",
+        "claim-adc51bd529c52aba"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-24",
+      "evidence_title": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363306",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 2,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "predicates": [
+        "awarding_agency",
+        "opportunity_status"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3a3db3cf72473fce",
+          "locator": "awarding_agency:grants.gov \u00b7 golden dome",
+          "title": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+          "url": "https://www.grants.gov/search-results-detail/363306",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363306",
+        "label": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363306",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Golden Dome"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-b0d1e04c65eb91fa",
+      "claim_ids": [
+        "claim-b0d1e04c65eb91fa",
+        "claim-d6b79f1f4454523d"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2025-12-11",
+      "evidence_title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+      "evidence_url": "https://www.grants.gov/search-results-detail/359862",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 2,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "predicates": [
+        "awarding_agency",
+        "opportunity_status"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a7c4531baaa83a7b",
+          "locator": "awarding_agency:grants.gov \u00b7 genesis mission",
+          "title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+          "url": "https://www.grants.gov/search-results-detail/359862",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/359862",
+        "label": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+        "node_id": "award_notice:mission_tracker:https://www.grants.gov/search-results-detail/359862",
+        "node_type": "award_notice"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Genesis Mission"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-4767c8200cf4fb2e",
+      "claim_ids": [
+        "claim-4767c8200cf4fb2e",
+        "claim-7188bbd87b9d5fb2"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-07",
+      "evidence_title": "Public Diplomacy Small Grants Competition",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363079",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 2,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "predicates": [
+        "awarding_agency",
+        "opportunity_status"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a3b8b2822839fae2",
+          "locator": "awarding_agency:grants.gov \u00b7 project triad",
+          "title": "Public Diplomacy Small Grants Competition",
+          "url": "https://www.grants.gov/search-results-detail/363079",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363079",
+        "label": "Public Diplomacy Small Grants Competition",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363079",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Project Triad"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-58ddc15340c0a9d6",
+      "claim_ids": [
+        "claim-58ddc15340c0a9d6",
+        "claim-6d9ee5d26aee8983"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-26",
+      "evidence_title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362987",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 2,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "predicates": [
+        "awarding_agency",
+        "opportunity_status"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-af5eac1133c4a147",
+          "locator": "awarding_agency:grants.gov \u00b7 golden dome",
+          "title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+          "url": "https://www.grants.gov/search-results-detail/362987",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362987",
+        "label": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362987",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Golden Dome"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-954d53fec2f28c5f",
+      "claim_ids": [
+        "claim-7456cf20a4a3db26",
+        "claim-954d53fec2f28c5f"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-23",
+      "evidence_title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362910",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 2,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "predicates": [
+        "awarding_agency",
+        "opportunity_status"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-81ea6177e275a1bf",
+          "locator": "awarding_agency:grants.gov \u00b7 project triad",
+          "title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+          "url": "https://www.grants.gov/search-results-detail/362910",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362910",
+        "label": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362910",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Project Triad"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-347ffca856ae19c6",
+      "claim_ids": [
+        "claim-347ffca856ae19c6",
+        "claim-349bd6b1cb019790"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-04-22",
+      "evidence_title": "Tribal Colleges Research Grants Program",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362029",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 2,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "predicates": [
+        "awarding_agency",
+        "opportunity_status"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-29514820a5ab7f83",
+          "locator": "awarding_agency:grants.gov \u00b7 military ai pace-setting projects",
+          "title": "Tribal Colleges Research Grants Program",
+          "url": "https://www.grants.gov/search-results-detail/362029",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362029",
+        "label": "Tribal Colleges Research Grants Program",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362029",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Military AI Pace-Setting Projects"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-7aad92eee8594259",
+      "claim_ids": [
+        "claim-59753b15d1793b11",
+        "claim-7aad92eee8594259"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-29",
+      "evidence_title": "U.S. Embassy Jakarta Media Small Grants Competition",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363370",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 2,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "predicates": [
+        "awarding_agency",
+        "opportunity_status"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-081109240c1be2b8",
+          "locator": "awarding_agency:grants.gov \u00b7 project triad",
+          "title": "U.S. Embassy Jakarta Media Small Grants Competition",
+          "url": "https://www.grants.gov/search-results-detail/363370",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363370",
+        "label": "U.S. Embassy Jakarta Media Small Grants Competition",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363370",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Project Triad"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-cc64c1a6b157e41b",
+      "claim_ids": [
+        "claim-cc64c1a6b157e41b"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2025-12-11",
+      "evidence_title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+      "evidence_url": "https://www.grants.gov/search-results-detail/359862",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 1,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/359862",
+        "label": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+        "node_id": "award_notice:mission_tracker:https://www.grants.gov/search-results-detail/359862",
+        "node_type": "award_notice"
+      },
+      "predicate": "executes_through",
+      "predicates": [
+        "executes_through"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8a319dc4914a2539",
+          "locator": "executes_through:award_notice:mission_tracker:https://www.grants.gov/search-results-detail/359862",
+          "title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+          "url": "https://www.grants.gov/search-results-detail/359862",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "genesis-mission",
+        "label": "Genesis Mission",
+        "node_id": "mission:genesis-mission",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-c41a07d1bd788e51",
+      "claim_ids": [
+        "claim-c41a07d1bd788e51"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-24",
+      "evidence_title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362961",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 1,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362961",
+        "label": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+        "node_id": "award_notice:mission_tracker:https://www.grants.gov/search-results-detail/362961",
+        "node_type": "award_notice"
+      },
+      "predicate": "executes_through",
+      "predicates": [
+        "executes_through"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-73c0ba8e74514744",
+          "locator": "executes_through:award_notice:mission_tracker:https://www.grants.gov/search-results-detail/362961",
+          "title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+          "url": "https://www.grants.gov/search-results-detail/362961",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "golden-dome",
+        "label": "Golden Dome for America",
+        "node_id": "mission:golden-dome",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-4293ab781179b4d6",
+      "claim_ids": [
+        "claim-4293ab781179b4d6"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-24",
+      "evidence_title": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363306",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 1,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363306",
+        "label": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363306",
+        "node_type": "funding_announcement"
+      },
+      "predicate": "executes_through",
+      "predicates": [
+        "executes_through"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-eebf74623da8e3dd",
+          "locator": "executes_through:funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363306",
+          "title": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+          "url": "https://www.grants.gov/search-results-detail/363306",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "golden-dome",
+        "label": "Golden Dome for America",
+        "node_id": "mission:golden-dome",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-ea1b426e12d29ee5",
+      "claim_ids": [
+        "claim-ea1b426e12d29ee5"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-26",
+      "evidence_title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362987",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 1,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362987",
+        "label": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362987",
+        "node_type": "funding_announcement"
+      },
+      "predicate": "executes_through",
+      "predicates": [
+        "executes_through"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f0153e0fcea5452d",
+          "locator": "executes_through:funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362987",
+          "title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+          "url": "https://www.grants.gov/search-results-detail/362987",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "golden-dome",
+        "label": "Golden Dome for America",
+        "node_id": "mission:golden-dome",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-a21c48fb63d8b3e2",
+      "claim_ids": [
+        "claim-a21c48fb63d8b3e2"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-05-20",
+      "evidence_title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362498",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 1,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362498",
+        "label": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362498",
+        "node_type": "funding_announcement"
+      },
+      "predicate": "executes_through",
+      "predicates": [
+        "executes_through"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-450ca7eeffae3e4a",
+          "locator": "executes_through:funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362498",
+          "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+          "url": "https://www.grants.gov/search-results-detail/362498",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "military-ai-pace-setting-projects",
+        "label": "Military AI Pace-Setting Projects",
+        "node_id": "mission:military-ai-pace-setting-projects",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-32f5b00a448a7ca6",
+      "claim_ids": [
+        "claim-32f5b00a448a7ca6"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-04-22",
+      "evidence_title": "Tribal Colleges Research Grants Program",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362029",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 1,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362029",
+        "label": "Tribal Colleges Research Grants Program",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362029",
+        "node_type": "funding_announcement"
+      },
+      "predicate": "executes_through",
+      "predicates": [
+        "executes_through"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-de07c84e5de0f74f",
+          "locator": "executes_through:funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362029",
+          "title": "Tribal Colleges Research Grants Program",
+          "url": "https://www.grants.gov/search-results-detail/362029",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "military-ai-pace-setting-projects",
+        "label": "Military AI Pace-Setting Projects",
+        "node_id": "mission:military-ai-pace-setting-projects",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-03e5db23aa361e52",
+      "claim_ids": [
+        "claim-03e5db23aa361e52"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-29",
+      "evidence_title": "U.S. Embassy Jakarta Media Small Grants Competition",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363370",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 1,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363370",
+        "label": "U.S. Embassy Jakarta Media Small Grants Competition",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363370",
+        "node_type": "funding_announcement"
+      },
+      "predicate": "executes_through",
+      "predicates": [
+        "executes_through"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-eb764ba0f559ddf0",
+          "locator": "executes_through:funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363370",
+          "title": "U.S. Embassy Jakarta Media Small Grants Competition",
+          "url": "https://www.grants.gov/search-results-detail/363370",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "project-triad",
+        "label": "Project Triad",
+        "node_id": "mission:project-triad",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-2552e662489acf1d",
+      "claim_ids": [
+        "claim-2552e662489acf1d"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-07",
+      "evidence_title": "Public Diplomacy Small Grants Competition",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363079",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 1,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363079",
+        "label": "Public Diplomacy Small Grants Competition",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363079",
+        "node_type": "funding_announcement"
+      },
+      "predicate": "executes_through",
+      "predicates": [
+        "executes_through"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7f93683146059e28",
+          "locator": "executes_through:funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363079",
+          "title": "Public Diplomacy Small Grants Competition",
+          "url": "https://www.grants.gov/search-results-detail/363079",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "project-triad",
+        "label": "Project Triad",
+        "node_id": "mission:project-triad",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-c616a51cb0b1480d",
+      "claim_ids": [
+        "claim-c616a51cb0b1480d"
+      ],
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-23",
+      "evidence_title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362910",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "grouped_event_count": 1,
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362910",
+        "label": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362910",
+        "node_type": "funding_announcement"
+      },
+      "predicate": "executes_through",
+      "predicates": [
+        "executes_through"
+      ],
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9dea791a3582f718",
+          "locator": "executes_through:funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362910",
+          "title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+          "url": "https://www.grants.gov/search-results-detail/362910",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "project-triad",
+        "label": "Project Triad",
+        "node_id": "mission:project-triad",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    }
+  ],
+  "resolved": [
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-ae33bcc233a44f3d",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-24",
+      "evidence_title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362961",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b88e0919a166fb73",
+          "locator": "awarding_agency:grants.gov \u00b7 golden dome",
+          "title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+          "url": "https://www.grants.gov/search-results-detail/362961",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362961",
+        "label": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+        "node_id": "award_notice:mission_tracker:https://www.grants.gov/search-results-detail/362961",
+        "node_type": "award_notice"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Golden Dome"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-c94b4539f86a25dd",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-24",
+      "evidence_title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362961",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0d70f06ea4c6b8cc",
+          "locator": "opportunity_status:awarded",
+          "title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+          "url": "https://www.grants.gov/search-results-detail/362961",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362961",
+        "label": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+        "node_id": "award_notice:mission_tracker:https://www.grants.gov/search-results-detail/362961",
+        "node_type": "award_notice"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-d64e8b70bdbfd60e",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-05-20",
+      "evidence_title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362498",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-75c70af44c197e40",
+          "locator": "awarding_agency:grants.gov \u00b7 military ai pace-setting projects",
+          "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+          "url": "https://www.grants.gov/search-results-detail/362498",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362498",
+        "label": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362498",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Military AI Pace-Setting Projects"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-4372f584417972ac",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-05-20",
+      "evidence_title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362498",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-eb80a9b4811483a5",
+          "locator": "opportunity_status:announced",
+          "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+          "url": "https://www.grants.gov/search-results-detail/362498",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362498",
+        "label": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362498",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "announced"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-adc51bd529c52aba",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-24",
+      "evidence_title": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363306",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3a3db3cf72473fce",
+          "locator": "awarding_agency:grants.gov \u00b7 golden dome",
+          "title": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+          "url": "https://www.grants.gov/search-results-detail/363306",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363306",
+        "label": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363306",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Golden Dome"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-07fcc62d464d1421",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-24",
+      "evidence_title": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363306",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1b997ac221757c5f",
+          "locator": "opportunity_status:announced",
+          "title": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+          "url": "https://www.grants.gov/search-results-detail/363306",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363306",
+        "label": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363306",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "announced"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-b0d1e04c65eb91fa",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2025-12-11",
+      "evidence_title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+      "evidence_url": "https://www.grants.gov/search-results-detail/359862",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a7c4531baaa83a7b",
+          "locator": "awarding_agency:grants.gov \u00b7 genesis mission",
+          "title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+          "url": "https://www.grants.gov/search-results-detail/359862",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/359862",
+        "label": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+        "node_id": "award_notice:mission_tracker:https://www.grants.gov/search-results-detail/359862",
+        "node_type": "award_notice"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Genesis Mission"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-d6b79f1f4454523d",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2025-12-11",
+      "evidence_title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+      "evidence_url": "https://www.grants.gov/search-results-detail/359862",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fe245bce92470807",
+          "locator": "opportunity_status:awarded",
+          "title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+          "url": "https://www.grants.gov/search-results-detail/359862",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/359862",
+        "label": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+        "node_id": "award_notice:mission_tracker:https://www.grants.gov/search-results-detail/359862",
+        "node_type": "award_notice"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-4767c8200cf4fb2e",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-07",
+      "evidence_title": "Public Diplomacy Small Grants Competition",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363079",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a3b8b2822839fae2",
+          "locator": "awarding_agency:grants.gov \u00b7 project triad",
+          "title": "Public Diplomacy Small Grants Competition",
+          "url": "https://www.grants.gov/search-results-detail/363079",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363079",
+        "label": "Public Diplomacy Small Grants Competition",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363079",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Project Triad"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-7188bbd87b9d5fb2",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-07",
+      "evidence_title": "Public Diplomacy Small Grants Competition",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363079",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-77373016bd7d6395",
+          "locator": "opportunity_status:announced",
+          "title": "Public Diplomacy Small Grants Competition",
+          "url": "https://www.grants.gov/search-results-detail/363079",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363079",
+        "label": "Public Diplomacy Small Grants Competition",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363079",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "announced"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-58ddc15340c0a9d6",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-26",
+      "evidence_title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362987",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-af5eac1133c4a147",
+          "locator": "awarding_agency:grants.gov \u00b7 golden dome",
+          "title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+          "url": "https://www.grants.gov/search-results-detail/362987",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362987",
+        "label": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362987",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Golden Dome"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-6d9ee5d26aee8983",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-26",
+      "evidence_title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362987",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-886c9ffec2b74398",
+          "locator": "opportunity_status:announced",
+          "title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+          "url": "https://www.grants.gov/search-results-detail/362987",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362987",
+        "label": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362987",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "announced"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-954d53fec2f28c5f",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-23",
+      "evidence_title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362910",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-81ea6177e275a1bf",
+          "locator": "awarding_agency:grants.gov \u00b7 project triad",
+          "title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+          "url": "https://www.grants.gov/search-results-detail/362910",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362910",
+        "label": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362910",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Project Triad"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-7456cf20a4a3db26",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-23",
+      "evidence_title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362910",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-07d47213129ff884",
+          "locator": "opportunity_status:announced",
+          "title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+          "url": "https://www.grants.gov/search-results-detail/362910",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362910",
+        "label": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362910",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "announced"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-347ffca856ae19c6",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-04-22",
+      "evidence_title": "Tribal Colleges Research Grants Program",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362029",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-29514820a5ab7f83",
+          "locator": "awarding_agency:grants.gov \u00b7 military ai pace-setting projects",
+          "title": "Tribal Colleges Research Grants Program",
+          "url": "https://www.grants.gov/search-results-detail/362029",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362029",
+        "label": "Tribal Colleges Research Grants Program",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362029",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Military AI Pace-Setting Projects"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-349bd6b1cb019790",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-04-22",
+      "evidence_title": "Tribal Colleges Research Grants Program",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362029",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-88440ba25566e6ca",
+          "locator": "opportunity_status:announced",
+          "title": "Tribal Colleges Research Grants Program",
+          "url": "https://www.grants.gov/search-results-detail/362029",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362029",
+        "label": "Tribal Colleges Research Grants Program",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362029",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "announced"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-7aad92eee8594259",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-29",
+      "evidence_title": "U.S. Embassy Jakarta Media Small Grants Competition",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363370",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-081109240c1be2b8",
+          "locator": "awarding_agency:grants.gov \u00b7 project triad",
+          "title": "U.S. Embassy Jakarta Media Small Grants Competition",
+          "url": "https://www.grants.gov/search-results-detail/363370",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363370",
+        "label": "U.S. Embassy Jakarta Media Small Grants Competition",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363370",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Grants.gov \u00b7 Project Triad"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "resolved",
+      "claim_id": "claim-59753b15d1793b11",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-29",
+      "evidence_title": "U.S. Embassy Jakarta Media Small Grants Competition",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363370",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-974bbf9c16cb3513",
+          "locator": "opportunity_status:announced",
+          "title": "U.S. Embassy Jakarta Media Small Grants Competition",
+          "url": "https://www.grants.gov/search-results-detail/363370",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363370",
+        "label": "U.S. Embassy Jakarta Media Small Grants Competition",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363370",
+        "node_type": "funding_announcement"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "announced"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-cc64c1a6b157e41b",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2025-12-11",
+      "evidence_title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+      "evidence_url": "https://www.grants.gov/search-results-detail/359862",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/359862",
+        "label": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+        "node_id": "award_notice:mission_tracker:https://www.grants.gov/search-results-detail/359862",
+        "node_type": "award_notice"
+      },
+      "predicate": "executes_through",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8a319dc4914a2539",
+          "locator": "executes_through:award_notice:mission_tracker:https://www.grants.gov/search-results-detail/359862",
+          "title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+          "url": "https://www.grants.gov/search-results-detail/359862",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "genesis-mission",
+        "label": "Genesis Mission",
+        "node_id": "mission:genesis-mission",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-c41a07d1bd788e51",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-24",
+      "evidence_title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362961",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362961",
+        "label": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+        "node_id": "award_notice:mission_tracker:https://www.grants.gov/search-results-detail/362961",
+        "node_type": "award_notice"
+      },
+      "predicate": "executes_through",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-73c0ba8e74514744",
+          "locator": "executes_through:award_notice:mission_tracker:https://www.grants.gov/search-results-detail/362961",
+          "title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+          "url": "https://www.grants.gov/search-results-detail/362961",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "golden-dome",
+        "label": "Golden Dome for America",
+        "node_id": "mission:golden-dome",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-4293ab781179b4d6",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-24",
+      "evidence_title": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363306",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363306",
+        "label": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363306",
+        "node_type": "funding_announcement"
+      },
+      "predicate": "executes_through",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-eebf74623da8e3dd",
+          "locator": "executes_through:funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363306",
+          "title": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+          "url": "https://www.grants.gov/search-results-detail/363306",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "golden-dome",
+        "label": "Golden Dome for America",
+        "node_id": "mission:golden-dome",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-ea1b426e12d29ee5",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-26",
+      "evidence_title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362987",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362987",
+        "label": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362987",
+        "node_type": "funding_announcement"
+      },
+      "predicate": "executes_through",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f0153e0fcea5452d",
+          "locator": "executes_through:funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362987",
+          "title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+          "url": "https://www.grants.gov/search-results-detail/362987",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "golden-dome",
+        "label": "Golden Dome for America",
+        "node_id": "mission:golden-dome",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-a21c48fb63d8b3e2",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-05-20",
+      "evidence_title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362498",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362498",
+        "label": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362498",
+        "node_type": "funding_announcement"
+      },
+      "predicate": "executes_through",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-450ca7eeffae3e4a",
+          "locator": "executes_through:funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362498",
+          "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+          "url": "https://www.grants.gov/search-results-detail/362498",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "military-ai-pace-setting-projects",
+        "label": "Military AI Pace-Setting Projects",
+        "node_id": "mission:military-ai-pace-setting-projects",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-32f5b00a448a7ca6",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-04-22",
+      "evidence_title": "Tribal Colleges Research Grants Program",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362029",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362029",
+        "label": "Tribal Colleges Research Grants Program",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362029",
+        "node_type": "funding_announcement"
+      },
+      "predicate": "executes_through",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-de07c84e5de0f74f",
+          "locator": "executes_through:funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362029",
+          "title": "Tribal Colleges Research Grants Program",
+          "url": "https://www.grants.gov/search-results-detail/362029",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "military-ai-pace-setting-projects",
+        "label": "Military AI Pace-Setting Projects",
+        "node_id": "mission:military-ai-pace-setting-projects",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-03e5db23aa361e52",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-29",
+      "evidence_title": "U.S. Embassy Jakarta Media Small Grants Competition",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363370",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363370",
+        "label": "U.S. Embassy Jakarta Media Small Grants Competition",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363370",
+        "node_type": "funding_announcement"
+      },
+      "predicate": "executes_through",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-eb764ba0f559ddf0",
+          "locator": "executes_through:funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363370",
+          "title": "U.S. Embassy Jakarta Media Small Grants Competition",
+          "url": "https://www.grants.gov/search-results-detail/363370",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "project-triad",
+        "label": "Project Triad",
+        "node_id": "mission:project-triad",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-2552e662489acf1d",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-07-07",
+      "evidence_title": "Public Diplomacy Small Grants Competition",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363079",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363079",
+        "label": "Public Diplomacy Small Grants Competition",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363079",
+        "node_type": "funding_announcement"
+      },
+      "predicate": "executes_through",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7f93683146059e28",
+          "locator": "executes_through:funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363079",
+          "title": "Public Diplomacy Small Grants Competition",
+          "url": "https://www.grants.gov/search-results-detail/363079",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "project-triad",
+        "label": "Project Triad",
+        "node_id": "mission:project-triad",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "resolved",
+      "claim_id": "claim-c616a51cb0b1480d",
+      "confidence": "high",
+      "current_status": "retracted",
+      "effective_date": "2026-06-23",
+      "evidence_title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+      "evidence_url": "https://www.grants.gov/search-results-detail/362910",
+      "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+      "object": {
+        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362910",
+        "label": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362910",
+        "node_type": "funding_announcement"
+      },
+      "predicate": "executes_through",
+      "previous_status": "active",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9dea791a3582f718",
+          "locator": "executes_through:funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362910",
+          "title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+          "url": "https://www.grants.gov/search-results-detail/362910",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "project-triad",
+        "label": "Project Triad",
+        "node_id": "mission:project-triad",
+        "node_type": "mission"
+      },
+      "temporal": {
+        "classification": "resolved",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The assertion moved out of the active set after comparison.",
+        "first_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "historical": false,
+        "label": "Resolved since prior run",
+        "last_changed_at": null,
+        "last_observed_at": "2026-07-31T16:06:07.673432+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": null
+    }
+  ],
+  "scope_note": "Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.",
+  "summary": {
+    "actual_or_recent_changes": 0,
+    "classifications": {
+      "resolved": 27
+    },
+    "evidence_trace_changes": 0,
+    "historical_discoveries": 0,
+    "material_events": 27,
+    "newly_observed_undated": 0,
+    "upcoming": 34
+  },
+  "superseded": [],
+  "upcoming": [
+    {
+      "date": "2026-07-09",
+      "days_remaining": -22,
+      "kind": "mission_milestone",
+      "status": "awaiting_confirmation",
+      "subject": "Military AI Pace-Setting Projects",
+      "title": "Conduct initial Pace-Setting Project demonstrations with transition-partner users",
+      "url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF"
+    },
+    {
+      "date": "2026-07-22",
+      "days_remaining": -9,
+      "kind": "mission_milestone",
+      "status": "awaiting_confirmation",
+      "subject": "Federal Post-Quantum Cryptography Transition",
+      "title": "Agencies identify and report their PQC migration leads",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/"
+    },
+    {
+      "date": "2026-07-22",
+      "days_remaining": -9,
+      "kind": "mission_milestone",
+      "status": "awaiting_confirmation",
+      "subject": "Genesis Mission",
+      "title": "Review federal robotic and AI-directed laboratory capabilities",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/"
+    },
+    {
+      "date": "2026-07-31",
+      "days_remaining": 0,
+      "kind": "opportunity_deadline",
+      "status": "closing_soon",
+      "subject": "DHS-DHS",
+      "title": "National Cybersecurity Preparedness Consortium",
+      "url": "https://www.grants.gov/search-results-detail/363010"
+    },
+    {
+      "date": "2026-07-31",
+      "days_remaining": 0,
+      "kind": "mission_milestone",
+      "status": "due_soon",
+      "subject": "DARPA Quantum Benchmarking Initiative",
+      "title": "Receive abstracts for the expanded QBIT Stage A solicitation",
+      "url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit"
+    },
+    {
+      "date": "2026-08-09",
+      "days_remaining": 9,
+      "kind": "opportunity_deadline",
+      "status": "closing_this_month",
+      "subject": "DOS-IDN",
+      "title": "AI Pathways To The Future",
+      "url": "https://www.grants.gov/search-results-detail/363061"
+    },
+    {
+      "date": "2026-08-10",
+      "days_remaining": 10,
+      "kind": "opportunity_deadline",
+      "status": "closing_this_month",
+      "subject": "DOS-DZA",
+      "title": "Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria",
+      "url": "https://www.grants.gov/search-results-detail/363121"
+    },
+    {
+      "date": "2026-08-15",
+      "days_remaining": 15,
+      "kind": "opportunity_deadline",
+      "status": "closing_this_month",
+      "subject": "DOS-PHL",
+      "title": "English Language Exchange Programs: AI and Educational Technology Integration",
+      "url": "https://www.grants.gov/search-results-detail/363105"
+    },
+    {
+      "date": "2026-08-20",
+      "days_remaining": 20,
+      "kind": "opportunity_deadline",
+      "status": "closing_this_month",
+      "subject": "DOS-ALB",
+      "title": "CyberNext: Advance Cybersecurity and AI Readiness",
+      "url": "https://www.grants.gov/search-results-detail/363249"
+    },
+    {
+      "date": "2026-08-20",
+      "days_remaining": 20,
+      "kind": "opportunity_deadline",
+      "status": "closing_this_month",
+      "subject": "DOS-EB",
+      "title": "Pax Silica Artificial Intelligence Assistance Project",
+      "url": "https://www.grants.gov/search-results-detail/363312"
+    },
+    {
+      "date": "2026-08-21",
+      "days_remaining": 21,
+      "kind": "mission_milestone",
+      "status": "due_soon",
+      "subject": "Genesis Mission",
+      "title": "Seek initial platform operating capability for at least one national challenge",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/"
+    },
+    {
+      "date": "2026-08-27",
+      "days_remaining": 27,
+      "kind": "opportunity_deadline",
+      "status": "closing_this_month",
+      "subject": "HHS-ACF-ANA",
+      "title": "AI3 Action Institute - Artificial Intelligence for American Indians",
+      "url": "https://www.grants.gov/search-results-detail/362270"
+    },
+    {
+      "date": "2026-08-30",
+      "days_remaining": 30,
+      "kind": "opportunity_deadline",
+      "status": "closing_this_month",
+      "subject": "DOS-IDN",
+      "title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
+      "url": "https://www.grants.gov/search-results-detail/363293"
+    },
+    {
+      "date": "2026-09-08",
+      "days_remaining": 39,
+      "kind": "opportunity_deadline",
+      "status": "open_window",
+      "subject": "DOS-SAU",
+      "title": "AI Partnership & Exchange for Tech Leaders (APEX)",
+      "url": "https://www.grants.gov/search-results-detail/363315"
+    },
+    {
+      "date": "2026-09-20",
+      "days_remaining": 51,
+      "kind": "mission_milestone",
+      "status": "due_soon",
+      "subject": "Federal Post-Quantum Cryptography Transition",
+      "title": "OMB issues agency guidance for inventories, migration plans, and high-impact systems",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/"
+    },
+    {
+      "date": "2026-09-20",
+      "days_remaining": 51,
+      "kind": "mission_milestone",
+      "status": "due_soon",
+      "subject": "QC-ADDS",
+      "title": "Publish a summary of QC-ADDS technical specifications",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
+    },
+    {
+      "date": "2026-09-22",
+      "days_remaining": 53,
+      "kind": "mission_milestone",
+      "status": "estimated",
+      "subject": "AI Forge",
+      "title": "Launch the AI Forge university-industry-government forum",
+      "url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
+    },
+    {
+      "date": "2026-09-30",
+      "days_remaining": 61,
+      "kind": "mission_milestone",
+      "status": "due_soon",
+      "subject": "DARPA Quantum Benchmarking Initiative",
+      "title": "Close the QBIT Stage A full-proposal window",
+      "url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative"
+    },
+    {
+      "date": "2026-10-02",
+      "days_remaining": 63,
+      "kind": "opportunity_deadline",
+      "status": "open_window",
+      "subject": "HHS-NIH11",
+      "title": "Novel Experiential Technologies Assisting Individual Learning (NExT AI) Hubs (P20 Clinical Trial Optional)",
+      "url": "https://www.grants.gov/search-results-detail/359949"
+    },
+    {
+      "date": "2026-10-09",
+      "days_remaining": 70,
+      "kind": "opportunity_deadline",
+      "status": "open_window",
+      "subject": "HHS-NIH11",
+      "title": "Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)",
+      "url": "https://www.grants.gov/search-results-detail/359271"
+    },
+    {
+      "date": "2026-10-09",
+      "days_remaining": 70,
+      "kind": "opportunity_deadline",
+      "status": "open_window",
+      "subject": "NSF",
+      "title": "Mathematical Foundations of Artificial Intelligence",
+      "url": "https://www.grants.gov/search-results-detail/353936"
+    },
+    {
+      "date": "2026-10-15",
+      "days_remaining": 76,
+      "kind": "mission_milestone",
+      "status": "due_soon",
+      "subject": "DARPA Quantum Benchmarking Initiative",
+      "title": "Close the QBI independent verification and validation topic",
+      "url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative"
+    },
+    {
+      "date": "2026-11-04",
+      "days_remaining": 96,
+      "kind": "opportunity_deadline",
+      "status": "open_window",
+      "subject": "NSF",
+      "title": "Unlocking Dataset Value for AI-Enabled Scientific Discovery",
+      "url": "https://www.grants.gov/search-results-detail/363268"
+    },
+    {
+      "date": "2026-11-14",
+      "days_remaining": 106,
+      "kind": "mission_milestone",
+      "status": "upcoming",
+      "subject": "DARPA Quantum Benchmarking Initiative",
+      "title": "Close the umbrella QBI 2026 announcement",
+      "url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative"
+    },
+    {
+      "date": "2026-11-24",
+      "days_remaining": 116,
+      "kind": "mission_milestone",
+      "status": "upcoming",
+      "subject": "Genesis Mission",
+      "title": "Submit the first annual Genesis Mission progress report",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/"
+    },
+    {
+      "date": "2026-12-17",
+      "days_remaining": 139,
+      "kind": "opportunity_deadline",
+      "status": "open_window",
+      "subject": "PAMS-SC",
+      "title": "The Genesis Mission: Transforming Science and Energy with AI",
+      "url": "https://www.grants.gov/search-results-detail/361526"
+    },
+    {
+      "date": "2026-12-19",
+      "days_remaining": 141,
+      "kind": "mission_milestone",
+      "status": "upcoming",
+      "subject": "QC-ADDS",
+      "title": "Establish a national quantum-computing assessment center",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
+    },
+    {
+      "date": "2026-12-19",
+      "days_remaining": 141,
+      "kind": "mission_milestone",
+      "status": "upcoming",
+      "subject": "QC-ADDS",
+      "title": "Explore private-sector partnership models and commercial contribution plans",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
+    },
+    {
+      "date": "2026-12-19",
+      "days_remaining": 141,
+      "kind": "mission_milestone",
+      "status": "upcoming",
+      "subject": "Federal Post-Quantum Cryptography Transition",
+      "title": "NIST, NSA, and the FAR Council complete the order's initial 180-day actions",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/"
+    },
+    {
+      "date": "2026-12-31",
+      "days_remaining": 153,
+      "kind": "mission_milestone",
+      "status": "estimated",
+      "subject": "Project Triad",
+      "title": "Advance selected NSF NQVL projects from design to implementation",
+      "url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+    },
+    {
+      "date": "2027-01-20",
+      "days_remaining": 173,
+      "kind": "opportunity_deadline",
+      "status": "open_window",
+      "subject": "NSF",
+      "title": "Cybersecurity Innovation for Cyberinfrastructure",
+      "url": "https://www.grants.gov/search-results-detail/358004"
+    },
+    {
+      "date": "2027-03-19",
+      "days_remaining": 231,
+      "kind": "mission_milestone",
+      "status": "upcoming",
+      "subject": "Federal Post-Quantum Cryptography Transition",
+      "title": "CISA and the FAR Council publish cryptographic inventory and disclosure proposals",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/"
+    },
+    {
+      "date": "2027-04-06",
+      "days_remaining": 249,
+      "kind": "opportunity_deadline",
+      "status": "open_window",
+      "subject": "NSF",
+      "title": "NSF National Quantum Virtual Laboratory - Quantum Testbeds",
+      "url": "https://www.grants.gov/search-results-detail/355196"
+    },
+    {
+      "date": "2027-06-22",
+      "days_remaining": 326,
+      "kind": "mission_milestone",
+      "status": "upcoming",
+      "subject": "QC-ADDS",
+      "title": "Report national-security implications of increasing commercial quantum capability",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
+    }
+  ],
+  "updated_at": "2026-07-31T19:07:52.090793+00:00",
+  "version": 1
+}

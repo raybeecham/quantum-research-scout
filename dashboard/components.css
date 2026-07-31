@@ -734,10 +734,32 @@ footer{border-top-color:rgba(168,187,229,.18);background:rgba(9,15,29,.5)}
 .analyst-decision-detail{margin-top:11px;padding-top:9px;border-top:1px solid var(--line)}.analyst-decision-detail>summary{color:var(--muted);font-size:8px;cursor:pointer}.decision-detail-grid{display:grid;gap:6px;margin-top:8px}.decision-detail-grid p{margin:0;color:var(--muted);font-size:8px;overflow-wrap:anywhere}.decision-detail-grid b{color:var(--text)}.decision-evidence{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}.decision-evidence a{color:var(--cyan);font-size:8px;text-decoration:none}
 .analyst-decision-actions{display:flex;flex-wrap:wrap;gap:6px;margin-top:13px}.analyst-decision-actions button{padding:7px 9px;border:1px solid var(--line);border-radius:7px;background:transparent;color:var(--muted);font-size:8px;cursor:pointer}.analyst-decision-actions button:hover,.analyst-decision-actions button.selected{border-color:var(--cyan);background:rgba(72,228,255,.08);color:var(--cyan)}.analyst-decision-actions button[data-decision-action="escalated"].selected{border-color:var(--red);background:rgba(255,95,109,.08);color:var(--red)}
 .decision-center-empty{grid-column:1/-1}.decision-center-empty strong{display:block;color:var(--text);font-size:12px}.decision-center-empty span{display:block;margin-top:3px;color:var(--muted);font-size:9px}
+.forecast-watch-module{border-top:1px solid var(--line);background:rgba(8,16,31,.35)}
+.forecast-watch-module>summary{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 20px;cursor:pointer;list-style:none}
+.forecast-watch-module>summary::-webkit-details-marker{display:none}
+.forecast-watch-module>summary>div{display:flex;flex-direction:column;gap:3px}
+.forecast-watch-module>summary strong{font-size:13px}.forecast-watch-module>summary>span{color:var(--muted);font-size:9px;text-align:right}
+.forecast-watch-module[open]>summary{border-bottom:1px solid var(--line);background:rgba(145,132,232,.035)}
+.forecast-watch-content{padding:17px 20px 20px}
+.forecast-calibration{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-bottom:12px}
+.forecast-calibration div{padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:rgba(130,153,175,.045)}
+.forecast-calibration span,.forecast-calibration strong{display:block}.forecast-calibration span{color:var(--muted);font-size:7px;text-transform:uppercase}.forecast-calibration strong{margin-top:3px;font-size:11px}
+.forecast-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.forecast-card{padding:14px;border:1px solid var(--line);border-top:3px solid var(--blue);border-radius:11px;background:rgba(18,27,49,.84)}
+.forecast-card.critical{border-top-color:var(--coral)}.forecast-card.high{border-top-color:var(--amber)}
+.forecast-head{display:flex;align-items:center;gap:10px}.forecast-head>div:last-child{display:flex;flex-direction:column;gap:1px;min-width:0}.forecast-head>div:last-child>span{color:var(--cyan);font-size:7px;text-transform:uppercase}.forecast-head small{color:var(--muted);font-size:7px}
+.forecast-probability{display:grid;flex:0 0 auto;place-items:center;width:48px;height:48px;border:1px solid rgba(98,214,230,.3);border-radius:50%;background:radial-gradient(circle,rgba(98,214,230,.1),transparent 70%)}.forecast-probability strong{font-size:14px;line-height:1}.forecast-probability span{color:var(--muted);font-size:6px;text-transform:uppercase}
+.forecast-card h3{margin:10px 0 5px;font-size:12px;line-height:1.4}.forecast-card>p{margin:0;color:var(--muted);font-size:8px;line-height:1.45}
+.forecast-trigger-status{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:10px 0;padding:6px 8px;border-radius:7px;background:rgba(130,153,175,.05);font-size:7px}.forecast-trigger-status span{color:var(--muted)}.forecast-trigger-status b{color:var(--green);text-transform:uppercase}
+.forecast-card>details{border-top:1px solid var(--line)}.forecast-card>details>summary{padding-top:9px;color:var(--cyan);font-size:8px;cursor:pointer}
+.forecast-detail{display:grid;gap:8px;margin-top:9px}.forecast-detail section{padding:8px;border-radius:7px;background:rgba(130,153,175,.04)}.forecast-detail h4{margin:0 0 5px;color:var(--muted);font-size:7px;text-transform:uppercase}.forecast-detail ul{margin:0;padding-left:15px;color:var(--muted);font-size:7px;line-height:1.45}.forecast-factors{display:flex;flex-wrap:wrap;gap:4px}.forecast-factors span{padding:3px 5px;border-radius:5px;background:rgba(98,214,230,.07);color:var(--cyan);font-size:6px}
+.forecast-detail dl{display:grid;grid-template-columns:repeat(2,1fr);gap:4px;margin:0}.forecast-detail dl div{padding:5px;background:rgba(130,153,175,.04)}.forecast-detail dt{color:var(--muted);font-size:6px;text-transform:uppercase}.forecast-detail dd{margin:2px 0 0;font-size:8px;font-weight:750}.forecast-evidence a{display:block;margin-top:5px;color:var(--text);font-size:7px;text-decoration:none}.forecast-evidence a span{display:block;color:var(--muted);font-size:6px}
+.change-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}.change-card-head em{padding:3px 5px;border-radius:99px;background:rgba(98,214,230,.08);color:var(--cyan);font-size:6px;font-style:normal;font-weight:800;text-align:right;text-transform:uppercase}.change-card p{margin:5px 0 0;color:var(--muted);font-size:7px;line-height:1.4}
 
 @media(max-width:900px){
   .evidence-ledger-layout{grid-template-columns:1fr}
   .analyst-decision-list{grid-template-columns:1fr}
+  .forecast-grid{grid-template-columns:1fr}
   .pursuit-board{grid-template-columns:repeat(2,1fr)}
   .relationship-graph{grid-template-columns:1fr}
   .relationship-arrow{transform:rotate(90deg)}
@@ -747,6 +769,8 @@ footer{border-top-color:rgba(168,187,229,.18);background:rgba(9,15,29,.5)}
 @media(max-width:700px){
   .decision-center-intro,.decision-center-toolbar{align-items:flex-start;flex-direction:column}
   .decision-center-tools{width:100%}
+  .forecast-watch-module>summary{align-items:flex-start;flex-direction:column}.forecast-watch-module>summary>span{text-align:left}
+  .forecast-calibration{grid-template-columns:repeat(2,1fr)}
   .pursuit-board{grid-template-columns:1fr}
   .contractor-grid{grid-template-columns:1fr}
   .decision-grid,.document-grid{grid-template-columns:1fr}

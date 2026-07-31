@@ -1966,7 +1966,7 @@
   "mission_portfolios": [
     {
       "announced_funding_value": 293000000.0,
-      "award_count": 4,
+      "award_count": 3,
       "known_award_value": 700700.0,
       "mission_id": "genesis-mission",
       "mission_name": "Genesis Mission",
@@ -1977,7 +1977,7 @@
       "recipients_and_contractors": [
         "MCKINSEY & COMPANY, INC. WASHINGTON D.C."
       ],
-      "record_count": 7,
+      "record_count": 6,
       "records": [
         {
           "amount": 700000.0,
@@ -2058,22 +2058,6 @@
           "status": "awarded",
           "title": "GENESIS MISSION ACCELERATION",
           "url": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
-        },
-        {
-          "amount": null,
-          "date": "2025-12-11",
-          "key": "mission_tracker:https://www.grants.gov/search-results-detail/359862",
-          "link": {
-            "basis": "configured mission identifier",
-            "confidence": "high",
-            "mission_id": "genesis-mission",
-            "mission_name": "Genesis Mission",
-            "score": 100
-          },
-          "record_type": "award_notice",
-          "status": "awarded",
-          "title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
-          "url": "https://www.grants.gov/search-results-detail/359862"
         },
         {
           "amount": null,
@@ -2432,7 +2416,7 @@
     },
     {
       "announced_funding_value": 0.0,
-      "award_count": 5,
+      "award_count": 4,
       "known_award_value": 3806978.41,
       "mission_id": "golden-dome",
       "mission_name": "Golden Dome for America",
@@ -2444,7 +2428,7 @@
         "CITY OF HUNTSVILLE",
         "KPMG LLP"
       ],
-      "record_count": 8,
+      "record_count": 5,
       "records": [
         {
           "amount": 3795036.0,
@@ -2461,22 +2445,6 @@
           "status": "awarded",
           "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
           "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-"
-        },
-        {
-          "amount": null,
-          "date": "2026-06-24",
-          "key": "mission_tracker:https://www.grants.gov/search-results-detail/362961",
-          "link": {
-            "basis": "configured mission identifier",
-            "confidence": "high",
-            "mission_id": "golden-dome",
-            "mission_name": "Golden Dome for America",
-            "score": 100
-          },
-          "record_type": "award_notice",
-          "status": "awarded",
-          "title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
-          "url": "https://www.grants.gov/search-results-detail/362961"
         },
         {
           "amount": 3.0,
@@ -2528,38 +2496,6 @@
         },
         {
           "amount": null,
-          "date": "2026-07-24",
-          "key": "mission_tracker:https://www.grants.gov/search-results-detail/363306",
-          "link": {
-            "basis": "configured mission identifier",
-            "confidence": "high",
-            "mission_id": "golden-dome",
-            "mission_name": "Golden Dome for America",
-            "score": 100
-          },
-          "record_type": "funding_announcement",
-          "status": "announced",
-          "title": "F27AS00008-NAWCA 2027-1 US Standard Grants",
-          "url": "https://www.grants.gov/search-results-detail/363306"
-        },
-        {
-          "amount": null,
-          "date": "2026-06-26",
-          "key": "mission_tracker:https://www.grants.gov/search-results-detail/362987",
-          "link": {
-            "basis": "configured mission identifier",
-            "confidence": "high",
-            "mission_id": "golden-dome",
-            "mission_name": "Golden Dome for America",
-            "score": 100
-          },
-          "record_type": "funding_announcement",
-          "status": "announced",
-          "title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
-          "url": "https://www.grants.gov/search-results-detail/362987"
-        },
-        {
-          "amount": null,
           "date": "2026-04-23",
           "key": "mission_tracker:https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html",
           "link": {
@@ -2573,197 +2509,6 @@
           "status": "announced",
           "title": "Department reports initial architecture, command-and-control consortium, and active contracts",
           "url": "https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html"
-        }
-      ],
-      "related_patents": [
-        {
-          "application_number": "19546361",
-          "assignee": null,
-          "document_type": "application",
-          "legal_status": "pending",
-          "patent_id": "US20260189604A1",
-          "patent_number": null,
-          "publication_number": "US20260189604A1",
-          "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Cybersecurity and cryptography"
-          ],
-          "strategic_significance_score": 58,
-          "title": "Hardware-Anchored Diagnostic Genesis and Multimodal Sensor-Level Cryptographic Sealing System for Zero-Trust AI Acquisition",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19546361/application-data"
-        },
-        {
-          "application_number": "19455013",
-          "assignee": "FLORIDA ATLANTIC UNIVERSITY BOARD OF TRUSTEES",
-          "document_type": "application",
-          "legal_status": "pending",
-          "patent_id": "US20260208761A1",
-          "patent_number": null,
-          "publication_number": "US20260208761A1",
-          "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Artificial intelligence"
-          ],
-          "strategic_significance_score": 57,
-          "title": "Safety Self Talks (SST) by Large Language Model in Semi or Fully Autonomous Vehicles",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455013/application-data"
-        },
-        {
-          "application_number": "19441577",
-          "assignee": "KLIMANOVUS LLC",
-          "document_type": "application",
-          "legal_status": "pending",
-          "patent_id": "US20260134315A1",
-          "patent_number": null,
-          "publication_number": "US20260134315A1",
-          "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Artificial intelligence",
-            "Distributed sensing and autonomous systems"
-          ],
-          "strategic_significance_score": 57,
-          "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
-        },
-        {
-          "application_number": "19366133",
-          "assignee": "University of Central Florida Research Foundation, Inc.",
-          "document_type": "grant",
-          "legal_status": "granted",
-          "patent_id": "US20260149567A1",
-          "patent_number": "12665747",
-          "publication_number": "US20260149567A1",
-          "relationship_basis": "analytical domain overlap: artificial intelligence",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Post-quantum cryptography",
-            "Cybersecurity and cryptography"
-          ],
-          "strategic_significance_score": 80,
-          "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
-        },
-        {
-          "application_number": "19453540",
-          "assignee": null,
-          "document_type": "application",
-          "legal_status": "pending",
-          "patent_id": "US20260149589A1",
-          "patent_number": null,
-          "publication_number": "US20260149589A1",
-          "relationship_basis": "analytical domain overlap: autonomy and sensing",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Post-quantum cryptography",
-            "Cybersecurity and cryptography",
-            "Distributed sensing and autonomous systems"
-          ],
-          "strategic_significance_score": 70,
-          "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
-        },
-        {
-          "application_number": null,
-          "assignee": "OpenAI Opco LLC",
-          "document_type": "grant",
-          "legal_status": "active",
-          "patent_id": "US12400074B1",
-          "patent_number": null,
-          "publication_number": "US12400074B1",
-          "relationship_basis": "analytical domain overlap: artificial intelligence",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Artificial intelligence"
-          ],
-          "strategic_significance_score": 69,
-          "title": "Stateful pretrained transformers in a generative response engine",
-          "url": "https://patents.google.com/patent/US12400074B1/en"
-        },
-        {
-          "application_number": null,
-          "assignee": "Wells Fargo Bank, N.A.",
-          "document_type": "grant",
-          "legal_status": "active",
-          "patent_id": "US11354666B1",
-          "patent_number": null,
-          "publication_number": "US11354666B1",
-          "relationship_basis": "analytical domain overlap: autonomy and sensing",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Cybersecurity and cryptography",
-            "Distributed sensing and autonomous systems"
-          ],
-          "strategic_significance_score": 68,
-          "title": "Smart dust usage",
-          "url": "https://patents.google.com/patent/US11354666B1/en"
-        },
-        {
-          "application_number": "19573062",
-          "assignee": "Cisco Technology, Inc.",
-          "document_type": "application",
-          "legal_status": "pending",
-          "patent_id": "US20260214122A1",
-          "patent_number": null,
-          "publication_number": "US20260214122A1",
-          "relationship_basis": "analytical domain overlap: artificial intelligence",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Cybersecurity and cryptography",
-            "Artificial intelligence"
-          ],
-          "strategic_significance_score": 65,
-          "title": "SYSTEM AND METHOD FOR DETECTING MALICIOUS MESSAGES GENERATED BY A LARGE LANGUAGE MODEL (LLM)",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19573062/application-data"
-        }
-      ]
-    },
-    {
-      "announced_funding_value": 0.0,
-      "award_count": 0,
-      "known_award_value": 0,
-      "mission_id": "military-ai-pace-setting-projects",
-      "mission_name": "Military AI Pace-Setting Projects",
-      "mission_url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
-      "open_opportunities": 0,
-      "opportunity_count": 0,
-      "priority": "critical",
-      "recipients_and_contractors": [],
-      "record_count": 2,
-      "records": [
-        {
-          "amount": null,
-          "date": "2026-05-20",
-          "key": "mission_tracker:https://www.grants.gov/search-results-detail/362498",
-          "link": {
-            "basis": "configured mission identifier",
-            "confidence": "high",
-            "mission_id": "military-ai-pace-setting-projects",
-            "mission_name": "Military AI Pace-Setting Projects",
-            "score": 100
-          },
-          "record_type": "funding_announcement",
-          "status": "announced",
-          "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
-          "url": "https://www.grants.gov/search-results-detail/362498"
-        },
-        {
-          "amount": null,
-          "date": "2026-04-22",
-          "key": "mission_tracker:https://www.grants.gov/search-results-detail/362029",
-          "link": {
-            "basis": "configured mission identifier",
-            "confidence": "high",
-            "mission_id": "military-ai-pace-setting-projects",
-            "mission_name": "Military AI Pace-Setting Projects",
-            "score": 100
-          },
-          "record_type": "funding_announcement",
-          "status": "announced",
-          "title": "Tribal Colleges Research Grants Program",
-          "url": "https://www.grants.gov/search-results-detail/362029"
         }
       ],
       "related_patents": [
@@ -3087,68 +2832,89 @@
       ]
     },
     {
-      "announced_funding_value": 0.0,
+      "announced_funding_value": 0,
       "award_count": 0,
       "known_award_value": 0,
-      "mission_id": "project-triad",
-      "mission_name": "Project Triad",
-      "mission_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "mission_url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
       "open_opportunities": 0,
       "opportunity_count": 0,
       "priority": "critical",
       "recipients_and_contractors": [],
-      "record_count": 3,
-      "records": [
-        {
-          "amount": null,
-          "date": "2026-07-29",
-          "key": "mission_tracker:https://www.grants.gov/search-results-detail/363370",
-          "link": {
-            "basis": "configured mission identifier",
-            "confidence": "high",
-            "mission_id": "project-triad",
-            "mission_name": "Project Triad",
-            "score": 100
-          },
-          "record_type": "funding_announcement",
-          "status": "announced",
-          "title": "U.S. Embassy Jakarta Media Small Grants Competition",
-          "url": "https://www.grants.gov/search-results-detail/363370"
-        },
-        {
-          "amount": null,
-          "date": "2026-07-07",
-          "key": "mission_tracker:https://www.grants.gov/search-results-detail/363079",
-          "link": {
-            "basis": "configured mission identifier",
-            "confidence": "high",
-            "mission_id": "project-triad",
-            "mission_name": "Project Triad",
-            "score": 100
-          },
-          "record_type": "funding_announcement",
-          "status": "announced",
-          "title": "Public Diplomacy Small Grants Competition",
-          "url": "https://www.grants.gov/search-results-detail/363079"
-        },
-        {
-          "amount": null,
-          "date": "2026-06-23",
-          "key": "mission_tracker:https://www.grants.gov/search-results-detail/362910",
-          "link": {
-            "basis": "configured mission identifier",
-            "confidence": "high",
-            "mission_id": "project-triad",
-            "mission_name": "Project Triad",
-            "score": 100
-          },
-          "record_type": "funding_announcement",
-          "status": "announced",
-          "title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
-          "url": "https://www.grants.gov/search-results-detail/362910"
-        }
-      ],
+      "record_count": 0,
+      "records": [],
       "related_patents": [
+        {
+          "application_number": "19546361",
+          "assignee": null,
+          "document_type": "application",
+          "legal_status": "pending",
+          "patent_id": "US20260189604A1",
+          "patent_number": null,
+          "publication_number": "US20260189604A1",
+          "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Cybersecurity and cryptography"
+          ],
+          "strategic_significance_score": 58,
+          "title": "Hardware-Anchored Diagnostic Genesis and Multimodal Sensor-Level Cryptographic Sealing System for Zero-Trust AI Acquisition",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19546361/application-data"
+        },
+        {
+          "application_number": "19455013",
+          "assignee": "FLORIDA ATLANTIC UNIVERSITY BOARD OF TRUSTEES",
+          "document_type": "application",
+          "legal_status": "pending",
+          "patent_id": "US20260208761A1",
+          "patent_number": null,
+          "publication_number": "US20260208761A1",
+          "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Artificial intelligence"
+          ],
+          "strategic_significance_score": 57,
+          "title": "Safety Self Talks (SST) by Large Language Model in Semi or Fully Autonomous Vehicles",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455013/application-data"
+        },
+        {
+          "application_number": "19441577",
+          "assignee": "KLIMANOVUS LLC",
+          "document_type": "application",
+          "legal_status": "pending",
+          "patent_id": "US20260134315A1",
+          "patent_number": null,
+          "publication_number": "US20260134315A1",
+          "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Artificial intelligence",
+            "Distributed sensing and autonomous systems"
+          ],
+          "strategic_significance_score": 57,
+          "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
+        },
+        {
+          "application_number": "19366133",
+          "assignee": "University of Central Florida Research Foundation, Inc.",
+          "document_type": "grant",
+          "legal_status": "granted",
+          "patent_id": "US20260149567A1",
+          "patent_number": "12665747",
+          "publication_number": "US20260149567A1",
+          "relationship_basis": "analytical domain overlap: artificial intelligence",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Post-quantum cryptography",
+            "Cybersecurity and cryptography"
+          ],
+          "strategic_significance_score": 80,
+          "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+        },
         {
           "application_number": "19453540",
           "assignee": null,
@@ -3157,7 +2923,7 @@
           "patent_id": "US20260149589A1",
           "patent_number": null,
           "publication_number": "US20260149589A1",
-          "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+          "relationship_basis": "analytical domain overlap: autonomy and sensing",
           "relationship_confidence": "low",
           "strategic_domains": [
             "Post-quantum cryptography",
@@ -3169,127 +2935,57 @@
           "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
         },
         {
-          "application_number": "18866043",
-          "assignee": "The University of Chicago",
-          "document_type": "application",
-          "legal_status": "pending",
-          "patent_id": "US20250319211A1",
+          "application_number": null,
+          "assignee": "OpenAI Opco LLC",
+          "document_type": "grant",
+          "legal_status": "active",
+          "patent_id": "US12400074B1",
           "patent_number": null,
-          "publication_number": "US20250319211A1",
-          "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+          "publication_number": "US12400074B1",
+          "relationship_basis": "analytical domain overlap: artificial intelligence",
           "relationship_confidence": "low",
           "strategic_domains": [
-            "Quantum technology"
+            "Artificial intelligence"
+          ],
+          "strategic_significance_score": 69,
+          "title": "Stateful pretrained transformers in a generative response engine",
+          "url": "https://patents.google.com/patent/US12400074B1/en"
+        },
+        {
+          "application_number": null,
+          "assignee": "Wells Fargo Bank, N.A.",
+          "document_type": "grant",
+          "legal_status": "active",
+          "patent_id": "US11354666B1",
+          "patent_number": null,
+          "publication_number": "US11354666B1",
+          "relationship_basis": "analytical domain overlap: autonomy and sensing",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Cybersecurity and cryptography",
+            "Distributed sensing and autonomous systems"
+          ],
+          "strategic_significance_score": 68,
+          "title": "Smart dust usage",
+          "url": "https://patents.google.com/patent/US11354666B1/en"
+        },
+        {
+          "application_number": "19573062",
+          "assignee": "Cisco Technology, Inc.",
+          "document_type": "application",
+          "legal_status": "pending",
+          "patent_id": "US20260214122A1",
+          "patent_number": null,
+          "publication_number": "US20260214122A1",
+          "relationship_basis": "analytical domain overlap: artificial intelligence",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Cybersecurity and cryptography",
+            "Artificial intelligence"
           ],
           "strategic_significance_score": 65,
-          "title": "NEAR IR LUMINESCENCE AND OPTICALLY ADDRESSABLE QUANTUM SENSING AND MAGNETIC IMAGING WITH RADICALOID TETRATHIAFULVALENE TETRATHIOLATES",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data"
-        },
-        {
-          "application_number": "18921456",
-          "assignee": "Morgan State University",
-          "document_type": "application",
-          "legal_status": "unknown",
-          "patent_id": "US20260118447A1",
-          "patent_number": null,
-          "publication_number": "US20260118447A1",
-          "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Quantum technology"
-          ],
-          "strategic_significance_score": 57,
-          "title": "Portable Quantum Sensing Device",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data"
-        },
-        {
-          "application_number": "19485192",
-          "assignee": "NEW YORK UNIVERSITY",
-          "document_type": "application",
-          "legal_status": "unknown",
-          "patent_id": "19485192",
-          "patent_number": null,
-          "publication_number": null,
-          "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Quantum technology"
-          ],
-          "strategic_significance_score": 52,
-          "title": "SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
-        },
-        {
-          "application_number": "19366133",
-          "assignee": "University of Central Florida Research Foundation, Inc.",
-          "document_type": "grant",
-          "legal_status": "granted",
-          "patent_id": "US20260149567A1",
-          "patent_number": "12665747",
-          "publication_number": "US20260149567A1",
-          "relationship_basis": "analytical domain overlap: quantum",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Post-quantum cryptography",
-            "Cybersecurity and cryptography"
-          ],
-          "strategic_significance_score": 80,
-          "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
-        },
-        {
-          "application_number": "19458702",
-          "assignee": "SIX3RO, Inc.",
-          "document_type": "grant",
-          "legal_status": "granted",
-          "patent_id": "12634144",
-          "patent_number": "12634144",
-          "publication_number": "12634144",
-          "relationship_basis": "analytical domain overlap: quantum",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Post-quantum cryptography",
-            "Cybersecurity and cryptography"
-          ],
-          "strategic_significance_score": 78,
-          "title": "Mechanism for Post-Quantum Cryptographic Key Material Resilience",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data"
-        },
-        {
-          "application_number": "19336026",
-          "assignee": "ARRIS Enterprises LLC",
-          "document_type": "application",
-          "legal_status": "pending",
-          "patent_id": "US20260088983A1",
-          "patent_number": null,
-          "publication_number": "US20260088983A1",
-          "relationship_basis": "analytical domain overlap: quantum",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Post-quantum cryptography",
-            "Cybersecurity and cryptography"
-          ],
-          "strategic_significance_score": 76,
-          "title": "METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data"
-        },
-        {
-          "application_number": "19404287",
-          "assignee": "King Fahd University of Petroleum and Minerals",
-          "document_type": "grant",
-          "legal_status": "granted",
-          "patent_id": "12640949",
-          "patent_number": "12640949",
-          "publication_number": "12640949",
-          "relationship_basis": "analytical domain overlap: quantum",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Post-quantum cryptography",
-            "Cybersecurity and cryptography"
-          ],
-          "strategic_significance_score": 75,
-          "title": "METHOD AND SYSTEM FOR SECURING POST-QUANTUM BLOCKCHAINS",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19404287/application-data"
+          "title": "SYSTEM AND METHOD FOR DETECTING MALICIOUS MESSAGES GENERATED BY A LARGE LANGUAGE MODEL (LLM)",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19573062/application-data"
         }
       ]
     },
@@ -3610,6 +3306,164 @@
           "strategic_significance_score": 73,
           "title": "QUANTUM-SAFE STORAGE SECURITY AT-REST AND UNDER-OPERATION WITH EXTENDED DETECTION RESPONSE",
           "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19329507/application-data"
+        }
+      ]
+    },
+    {
+      "announced_funding_value": 0,
+      "award_count": 0,
+      "known_award_value": 0,
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "mission_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+      "open_opportunities": 0,
+      "opportunity_count": 0,
+      "priority": "critical",
+      "recipients_and_contractors": [],
+      "record_count": 0,
+      "records": [],
+      "related_patents": [
+        {
+          "application_number": "19453540",
+          "assignee": null,
+          "document_type": "application",
+          "legal_status": "pending",
+          "patent_id": "US20260149589A1",
+          "patent_number": null,
+          "publication_number": "US20260149589A1",
+          "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Post-quantum cryptography",
+            "Cybersecurity and cryptography",
+            "Distributed sensing and autonomous systems"
+          ],
+          "strategic_significance_score": 70,
+          "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
+        },
+        {
+          "application_number": "18866043",
+          "assignee": "The University of Chicago",
+          "document_type": "application",
+          "legal_status": "pending",
+          "patent_id": "US20250319211A1",
+          "patent_number": null,
+          "publication_number": "US20250319211A1",
+          "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Quantum technology"
+          ],
+          "strategic_significance_score": 65,
+          "title": "NEAR IR LUMINESCENCE AND OPTICALLY ADDRESSABLE QUANTUM SENSING AND MAGNETIC IMAGING WITH RADICALOID TETRATHIAFULVALENE TETRATHIOLATES",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data"
+        },
+        {
+          "application_number": "18921456",
+          "assignee": "Morgan State University",
+          "document_type": "application",
+          "legal_status": "unknown",
+          "patent_id": "US20260118447A1",
+          "patent_number": null,
+          "publication_number": "US20260118447A1",
+          "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Quantum technology"
+          ],
+          "strategic_significance_score": 57,
+          "title": "Portable Quantum Sensing Device",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data"
+        },
+        {
+          "application_number": "19485192",
+          "assignee": "NEW YORK UNIVERSITY",
+          "document_type": "application",
+          "legal_status": "unknown",
+          "patent_id": "19485192",
+          "patent_number": null,
+          "publication_number": null,
+          "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Quantum technology"
+          ],
+          "strategic_significance_score": 52,
+          "title": "SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
+        },
+        {
+          "application_number": "19366133",
+          "assignee": "University of Central Florida Research Foundation, Inc.",
+          "document_type": "grant",
+          "legal_status": "granted",
+          "patent_id": "US20260149567A1",
+          "patent_number": "12665747",
+          "publication_number": "US20260149567A1",
+          "relationship_basis": "analytical domain overlap: quantum",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Post-quantum cryptography",
+            "Cybersecurity and cryptography"
+          ],
+          "strategic_significance_score": 80,
+          "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+        },
+        {
+          "application_number": "19458702",
+          "assignee": "SIX3RO, Inc.",
+          "document_type": "grant",
+          "legal_status": "granted",
+          "patent_id": "12634144",
+          "patent_number": "12634144",
+          "publication_number": "12634144",
+          "relationship_basis": "analytical domain overlap: quantum",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Post-quantum cryptography",
+            "Cybersecurity and cryptography"
+          ],
+          "strategic_significance_score": 78,
+          "title": "Mechanism for Post-Quantum Cryptographic Key Material Resilience",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data"
+        },
+        {
+          "application_number": "19336026",
+          "assignee": "ARRIS Enterprises LLC",
+          "document_type": "application",
+          "legal_status": "pending",
+          "patent_id": "US20260088983A1",
+          "patent_number": null,
+          "publication_number": "US20260088983A1",
+          "relationship_basis": "analytical domain overlap: quantum",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Post-quantum cryptography",
+            "Cybersecurity and cryptography"
+          ],
+          "strategic_significance_score": 76,
+          "title": "METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data"
+        },
+        {
+          "application_number": "19404287",
+          "assignee": "King Fahd University of Petroleum and Minerals",
+          "document_type": "grant",
+          "legal_status": "granted",
+          "patent_id": "12640949",
+          "patent_number": "12640949",
+          "publication_number": "12640949",
+          "relationship_basis": "analytical domain overlap: quantum",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Post-quantum cryptography",
+            "Cybersecurity and cryptography"
+          ],
+          "strategic_significance_score": 75,
+          "title": "METHOD AND SYSTEM FOR SECURING POST-QUANTUM BLOCKCHAINS",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19404287/application-data"
         }
       ]
     },
@@ -21779,7 +21633,7 @@
       "funding_agency": "DOE Federal Science Missions",
       "identifier": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science",
       "key": "mission_tracker:https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
+      "last_seen_at": "2026-07-31T19:04:34.850035+00:00",
       "mission_links": [
         {
           "basis": "configured mission identifier",
@@ -21832,7 +21686,7 @@
       "funding_agency": "USAspending \u00b7 Quantum Benchmarking Initiative",
       "identifier": "https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700",
       "key": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
+      "last_seen_at": "2026-07-31T19:04:34.850035+00:00",
       "mission_links": [
         {
           "basis": "configured mission identifier",
@@ -21887,7 +21741,7 @@
       "funding_agency": "DOE Federal Science Missions",
       "identifier": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf",
       "key": "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
+      "last_seen_at": "2026-07-31T19:04:34.850035+00:00",
       "mission_links": [
         {
           "basis": "configured mission identifier",
@@ -21922,58 +21776,6 @@
       "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
     },
     {
-      "amount": null,
-      "assistance_listing_numbers": [],
-      "award_type": "observed official update",
-      "awardee": null,
-      "awarding_agency": "Grants.gov \u00b7 Golden Dome",
-      "classification_code": null,
-      "close_date": null,
-      "configured_mission_ids": [
-        "golden-dome"
-      ],
-      "date": "2026-06-24",
-      "days_to_close": null,
-      "deadline_status": "not_reported",
-      "first_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "funding_agency": "Grants.gov \u00b7 Golden Dome",
-      "identifier": "https://www.grants.gov/search-results-detail/362961",
-      "key": "mission_tracker:https://www.grants.gov/search-results-detail/362961",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "mission_links": [
-        {
-          "basis": "configured mission identifier",
-          "confidence": "high",
-          "mission_id": "golden-dome",
-          "mission_name": "Golden Dome for America",
-          "score": 100
-        }
-      ],
-      "naics_code": null,
-      "new_since_yesterday": true,
-      "provider": "mission_tracker",
-      "query_keyword": null,
-      "query_name": null,
-      "recipient": null,
-      "record_type": "award_notice",
-      "related_patents": [],
-      "set_aside": null,
-      "significance_factors": [
-        "mission relationship +35",
-        "award_notice +18"
-      ],
-      "significance_label": "notable",
-      "source": "Federal mission tracker",
-      "status": "awarded",
-      "status_raw": "announced",
-      "strategic_significance_score": 53,
-      "subagency": null,
-      "summary": "Agency: DOD-AMRAA \u00b7 Opportunity: HT942526CRRPTRA \u00b7 Status: posted \u00b7 Matched search: Golden Dome",
-      "technology_domains": [],
-      "title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
-      "url": "https://www.grants.gov/search-results-detail/362961"
-    },
-    {
       "amount": 700.0,
       "assistance_listing_numbers": [],
       "award_type": "observed official update",
@@ -21991,7 +21793,7 @@
       "funding_agency": "USAspending \u00b7 Genesis Mission",
       "identifier": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732",
       "key": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
+      "last_seen_at": "2026-07-31T19:04:34.850035+00:00",
       "mission_links": [
         {
           "basis": "configured mission identifier",
@@ -22043,7 +21845,7 @@
       "funding_agency": "USAspending \u00b7 Golden Dome",
       "identifier": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
       "key": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
+      "last_seen_at": "2026-07-31T19:04:34.850035+00:00",
       "mission_links": [
         {
           "basis": "configured mission identifier",
@@ -22076,58 +21878,6 @@
       "technology_domains": [],
       "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-"
-    },
-    {
-      "amount": null,
-      "assistance_listing_numbers": [],
-      "award_type": "observed official update",
-      "awardee": null,
-      "awarding_agency": "Grants.gov \u00b7 Genesis Mission",
-      "classification_code": null,
-      "close_date": null,
-      "configured_mission_ids": [
-        "genesis-mission"
-      ],
-      "date": "2025-12-11",
-      "days_to_close": null,
-      "deadline_status": "not_reported",
-      "first_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "funding_agency": "Grants.gov \u00b7 Genesis Mission",
-      "identifier": "https://www.grants.gov/search-results-detail/359862",
-      "key": "mission_tracker:https://www.grants.gov/search-results-detail/359862",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "mission_links": [
-        {
-          "basis": "configured mission identifier",
-          "confidence": "high",
-          "mission_id": "genesis-mission",
-          "mission_name": "Genesis Mission",
-          "score": 100
-        }
-      ],
-      "naics_code": null,
-      "new_since_yesterday": true,
-      "provider": "mission_tracker",
-      "query_keyword": null,
-      "query_name": null,
-      "recipient": null,
-      "record_type": "award_notice",
-      "related_patents": [],
-      "set_aside": null,
-      "significance_factors": [
-        "mission relationship +35",
-        "award_notice +18"
-      ],
-      "significance_label": "notable",
-      "source": "Federal mission tracker",
-      "status": "awarded",
-      "status_raw": "announced",
-      "strategic_significance_score": 53,
-      "subagency": null,
-      "summary": "Agency: HHS-NIH11 \u00b7 Opportunity: PAR-26-121 \u00b7 Status: posted \u00b7 Matched search: Genesis Mission",
-      "technology_domains": [],
-      "title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
-      "url": "https://www.grants.gov/search-results-detail/359862"
     },
     {
       "active": null,
@@ -22213,7 +21963,7 @@
       "funding_agency": "USAspending \u00b7 Golden Dome",
       "identifier": "https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-",
       "key": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
+      "last_seen_at": "2026-07-31T19:04:34.850035+00:00",
       "mission_links": [
         {
           "basis": "configured mission identifier",
@@ -22265,7 +22015,7 @@
       "funding_agency": "DARPA Strategic Technology Missions",
       "identifier": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
       "key": "mission_tracker:https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
+      "last_seen_at": "2026-07-31T19:04:34.850035+00:00",
       "mission_links": [
         {
           "basis": "configured mission identifier",
@@ -22307,116 +22057,6 @@
       "assistance_listing_numbers": [],
       "award_type": "observed official update",
       "awardee": null,
-      "awarding_agency": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
-      "classification_code": null,
-      "close_date": null,
-      "configured_mission_ids": [
-        "military-ai-pace-setting-projects"
-      ],
-      "date": "2026-05-20",
-      "days_to_close": null,
-      "deadline_status": "not_reported",
-      "first_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "funding_agency": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
-      "identifier": "https://www.grants.gov/search-results-detail/362498",
-      "key": "mission_tracker:https://www.grants.gov/search-results-detail/362498",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "mission_links": [
-        {
-          "basis": "configured mission identifier",
-          "confidence": "high",
-          "mission_id": "military-ai-pace-setting-projects",
-          "mission_name": "Military AI Pace-Setting Projects",
-          "score": 100
-        }
-      ],
-      "naics_code": null,
-      "new_since_yesterday": true,
-      "provider": "mission_tracker",
-      "query_keyword": null,
-      "query_name": null,
-      "recipient": null,
-      "record_type": "funding_announcement",
-      "related_patents": [],
-      "set_aside": null,
-      "significance_factors": [
-        "mission relationship +35",
-        "funding_announcement +10",
-        "1 strategic domain match(es) +5"
-      ],
-      "significance_label": "notable",
-      "source": "Federal mission tracker",
-      "status": "announced",
-      "status_raw": "announced",
-      "strategic_significance_score": 50,
-      "subagency": null,
-      "summary": "Agency: DOI-FWS \u00b7 Opportunity: F26AS00085 \u00b7 Status: posted \u00b7 Matched search: AI Pace-Setting Projects",
-      "technology_domains": [
-        "artificial intelligence"
-      ],
-      "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
-      "url": "https://www.grants.gov/search-results-detail/362498"
-    },
-    {
-      "amount": null,
-      "assistance_listing_numbers": [],
-      "award_type": "observed official update",
-      "awardee": null,
-      "awarding_agency": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
-      "classification_code": null,
-      "close_date": null,
-      "configured_mission_ids": [
-        "military-ai-pace-setting-projects"
-      ],
-      "date": "2026-04-22",
-      "days_to_close": null,
-      "deadline_status": "not_reported",
-      "first_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "funding_agency": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
-      "identifier": "https://www.grants.gov/search-results-detail/362029",
-      "key": "mission_tracker:https://www.grants.gov/search-results-detail/362029",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "mission_links": [
-        {
-          "basis": "configured mission identifier",
-          "confidence": "high",
-          "mission_id": "military-ai-pace-setting-projects",
-          "mission_name": "Military AI Pace-Setting Projects",
-          "score": 100
-        }
-      ],
-      "naics_code": null,
-      "new_since_yesterday": true,
-      "provider": "mission_tracker",
-      "query_keyword": null,
-      "query_name": null,
-      "recipient": null,
-      "record_type": "funding_announcement",
-      "related_patents": [],
-      "set_aside": null,
-      "significance_factors": [
-        "mission relationship +35",
-        "funding_announcement +10",
-        "1 strategic domain match(es) +5"
-      ],
-      "significance_label": "notable",
-      "source": "Federal mission tracker",
-      "status": "announced",
-      "status_raw": "announced",
-      "strategic_significance_score": 50,
-      "subagency": null,
-      "summary": "Agency: USDA-NIFA \u00b7 Opportunity: USDA-NIFA-TCRGP-011697 \u00b7 Status: posted \u00b7 Matched search: AI Pace-Setting Projects",
-      "technology_domains": [
-        "artificial intelligence"
-      ],
-      "title": "Tribal Colleges Research Grants Program",
-      "url": "https://www.grants.gov/search-results-detail/362029"
-    },
-    {
-      "amount": null,
-      "assistance_listing_numbers": [],
-      "award_type": "observed official update",
-      "awardee": null,
       "awarding_agency": "DOE Federal Science Missions",
       "classification_code": null,
       "close_date": null,
@@ -22430,7 +22070,7 @@
       "funding_agency": "DOE Federal Science Missions",
       "identifier": "https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf",
       "key": "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
+      "last_seen_at": "2026-07-31T19:04:34.850035+00:00",
       "mission_links": [
         {
           "basis": "configured mission identifier",
@@ -22463,266 +22103,6 @@
       "technology_domains": [],
       "title": "Genesis Mission Workforce Development RFI Summary",
       "url": "https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf"
-    },
-    {
-      "amount": null,
-      "assistance_listing_numbers": [],
-      "award_type": "observed official update",
-      "awardee": null,
-      "awarding_agency": "Grants.gov \u00b7 Project Triad",
-      "classification_code": null,
-      "close_date": null,
-      "configured_mission_ids": [
-        "project-triad"
-      ],
-      "date": "2026-07-29",
-      "days_to_close": null,
-      "deadline_status": "not_reported",
-      "first_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "funding_agency": "Grants.gov \u00b7 Project Triad",
-      "identifier": "https://www.grants.gov/search-results-detail/363370",
-      "key": "mission_tracker:https://www.grants.gov/search-results-detail/363370",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "mission_links": [
-        {
-          "basis": "configured mission identifier",
-          "confidence": "high",
-          "mission_id": "project-triad",
-          "mission_name": "Project Triad",
-          "score": 100
-        }
-      ],
-      "naics_code": null,
-      "new_since_yesterday": true,
-      "provider": "mission_tracker",
-      "query_keyword": null,
-      "query_name": null,
-      "recipient": null,
-      "record_type": "funding_announcement",
-      "related_patents": [],
-      "set_aside": null,
-      "significance_factors": [
-        "mission relationship +35",
-        "funding_announcement +10"
-      ],
-      "significance_label": "notable",
-      "source": "Federal mission tracker",
-      "status": "announced",
-      "status_raw": "announced",
-      "strategic_significance_score": 45,
-      "subagency": null,
-      "summary": "Agency: DOS-IDN \u00b7 Opportunity: PAS-JAKARTA-FY26-10 \u00b7 Status: posted \u00b7 Matched search: Project Triad",
-      "technology_domains": [],
-      "title": "U.S. Embassy Jakarta Media Small Grants Competition",
-      "url": "https://www.grants.gov/search-results-detail/363370"
-    },
-    {
-      "amount": null,
-      "assistance_listing_numbers": [],
-      "award_type": "observed official update",
-      "awardee": null,
-      "awarding_agency": "Grants.gov \u00b7 Golden Dome",
-      "classification_code": null,
-      "close_date": null,
-      "configured_mission_ids": [
-        "golden-dome"
-      ],
-      "date": "2026-07-24",
-      "days_to_close": null,
-      "deadline_status": "not_reported",
-      "first_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "funding_agency": "Grants.gov \u00b7 Golden Dome",
-      "identifier": "https://www.grants.gov/search-results-detail/363306",
-      "key": "mission_tracker:https://www.grants.gov/search-results-detail/363306",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "mission_links": [
-        {
-          "basis": "configured mission identifier",
-          "confidence": "high",
-          "mission_id": "golden-dome",
-          "mission_name": "Golden Dome for America",
-          "score": 100
-        }
-      ],
-      "naics_code": null,
-      "new_since_yesterday": true,
-      "provider": "mission_tracker",
-      "query_keyword": null,
-      "query_name": null,
-      "recipient": null,
-      "record_type": "funding_announcement",
-      "related_patents": [],
-      "set_aside": null,
-      "significance_factors": [
-        "mission relationship +35",
-        "funding_announcement +10"
-      ],
-      "significance_label": "notable",
-      "source": "Federal mission tracker",
-      "status": "announced",
-      "status_raw": "announced",
-      "strategic_significance_score": 45,
-      "subagency": null,
-      "summary": "Agency: DOI-FWS \u00b7 Opportunity: F27AS00008 \u00b7 Status: posted \u00b7 Matched search: Golden Dome",
-      "technology_domains": [],
-      "title": "F27AS00008-NAWCA 2027-1 US Standard Grants",
-      "url": "https://www.grants.gov/search-results-detail/363306"
-    },
-    {
-      "amount": null,
-      "assistance_listing_numbers": [],
-      "award_type": "observed official update",
-      "awardee": null,
-      "awarding_agency": "Grants.gov \u00b7 Project Triad",
-      "classification_code": null,
-      "close_date": null,
-      "configured_mission_ids": [
-        "project-triad"
-      ],
-      "date": "2026-07-07",
-      "days_to_close": null,
-      "deadline_status": "not_reported",
-      "first_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "funding_agency": "Grants.gov \u00b7 Project Triad",
-      "identifier": "https://www.grants.gov/search-results-detail/363079",
-      "key": "mission_tracker:https://www.grants.gov/search-results-detail/363079",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "mission_links": [
-        {
-          "basis": "configured mission identifier",
-          "confidence": "high",
-          "mission_id": "project-triad",
-          "mission_name": "Project Triad",
-          "score": 100
-        }
-      ],
-      "naics_code": null,
-      "new_since_yesterday": true,
-      "provider": "mission_tracker",
-      "query_keyword": null,
-      "query_name": null,
-      "recipient": null,
-      "record_type": "funding_announcement",
-      "related_patents": [],
-      "set_aside": null,
-      "significance_factors": [
-        "mission relationship +35",
-        "funding_announcement +10"
-      ],
-      "significance_label": "notable",
-      "source": "Federal mission tracker",
-      "status": "announced",
-      "status_raw": "announced",
-      "strategic_significance_score": 45,
-      "subagency": null,
-      "summary": "Agency: DOS-MMR \u00b7 Opportunity: 26-MMR-NOFO-001 \u00b7 Status: posted \u00b7 Matched search: Project Triad",
-      "technology_domains": [],
-      "title": "Public Diplomacy Small Grants Competition",
-      "url": "https://www.grants.gov/search-results-detail/363079"
-    },
-    {
-      "amount": null,
-      "assistance_listing_numbers": [],
-      "award_type": "observed official update",
-      "awardee": null,
-      "awarding_agency": "Grants.gov \u00b7 Golden Dome",
-      "classification_code": null,
-      "close_date": null,
-      "configured_mission_ids": [
-        "golden-dome"
-      ],
-      "date": "2026-06-26",
-      "days_to_close": null,
-      "deadline_status": "not_reported",
-      "first_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "funding_agency": "Grants.gov \u00b7 Golden Dome",
-      "identifier": "https://www.grants.gov/search-results-detail/362987",
-      "key": "mission_tracker:https://www.grants.gov/search-results-detail/362987",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "mission_links": [
-        {
-          "basis": "configured mission identifier",
-          "confidence": "high",
-          "mission_id": "golden-dome",
-          "mission_name": "Golden Dome for America",
-          "score": 100
-        }
-      ],
-      "naics_code": null,
-      "new_since_yesterday": true,
-      "provider": "mission_tracker",
-      "query_keyword": null,
-      "query_name": null,
-      "recipient": null,
-      "record_type": "funding_announcement",
-      "related_patents": [],
-      "set_aside": null,
-      "significance_factors": [
-        "mission relationship +35",
-        "funding_announcement +10"
-      ],
-      "significance_label": "notable",
-      "source": "Federal mission tracker",
-      "status": "announced",
-      "status_raw": "announced",
-      "strategic_significance_score": 45,
-      "subagency": null,
-      "summary": "Agency: DOL-ETA \u00b7 Opportunity: ETA-TEGL-15-25 \u00b7 Status: posted \u00b7 Matched search: Golden Dome",
-      "technology_domains": [],
-      "title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
-      "url": "https://www.grants.gov/search-results-detail/362987"
-    },
-    {
-      "amount": null,
-      "assistance_listing_numbers": [],
-      "award_type": "observed official update",
-      "awardee": null,
-      "awarding_agency": "Grants.gov \u00b7 Project Triad",
-      "classification_code": null,
-      "close_date": null,
-      "configured_mission_ids": [
-        "project-triad"
-      ],
-      "date": "2026-06-23",
-      "days_to_close": null,
-      "deadline_status": "not_reported",
-      "first_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "funding_agency": "Grants.gov \u00b7 Project Triad",
-      "identifier": "https://www.grants.gov/search-results-detail/362910",
-      "key": "mission_tracker:https://www.grants.gov/search-results-detail/362910",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
-      "mission_links": [
-        {
-          "basis": "configured mission identifier",
-          "confidence": "high",
-          "mission_id": "project-triad",
-          "mission_name": "Project Triad",
-          "score": 100
-        }
-      ],
-      "naics_code": null,
-      "new_since_yesterday": true,
-      "provider": "mission_tracker",
-      "query_keyword": null,
-      "query_name": null,
-      "recipient": null,
-      "record_type": "funding_announcement",
-      "related_patents": [],
-      "set_aside": null,
-      "significance_factors": [
-        "mission relationship +35",
-        "funding_announcement +10"
-      ],
-      "significance_label": "notable",
-      "source": "Federal mission tracker",
-      "status": "announced",
-      "status_raw": "announced",
-      "strategic_significance_score": 45,
-      "subagency": null,
-      "summary": "Agency: USDA-NRCS \u00b7 Opportunity: USDA-NRCS-NHQ-RCPP-AFA-26-NOFO0001451 \u00b7 Status: posted \u00b7 Matched search: Project Triad",
-      "technology_domains": [],
-      "title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
-      "url": "https://www.grants.gov/search-results-detail/362910"
     },
     {
       "active": null,
@@ -22822,7 +22202,7 @@
       "funding_agency": "Department of War",
       "identifier": "https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html",
       "key": "mission_tracker:https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html",
-      "last_seen_at": "2026-07-31T02:07:00.150836+00:00",
+      "last_seen_at": "2026-07-31T19:04:34.850035+00:00",
       "mission_links": [
         {
           "basis": "configured mission identifier",
@@ -33692,70 +33072,6 @@
       "target_type": "patent"
     },
     {
-      "basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-      "confidence": "low",
-      "source_id": "military-ai-pace-setting-projects",
-      "source_type": "mission",
-      "target_id": "US20260189604A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-      "confidence": "low",
-      "source_id": "military-ai-pace-setting-projects",
-      "source_type": "mission",
-      "target_id": "US20260208761A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-      "confidence": "low",
-      "source_id": "military-ai-pace-setting-projects",
-      "source_type": "mission",
-      "target_id": "US20260134315A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: artificial intelligence",
-      "confidence": "low",
-      "source_id": "military-ai-pace-setting-projects",
-      "source_type": "mission",
-      "target_id": "US20260149567A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: autonomy and sensing",
-      "confidence": "low",
-      "source_id": "military-ai-pace-setting-projects",
-      "source_type": "mission",
-      "target_id": "US20260149589A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: artificial intelligence",
-      "confidence": "low",
-      "source_id": "military-ai-pace-setting-projects",
-      "source_type": "mission",
-      "target_id": "US12400074B1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: autonomy and sensing",
-      "confidence": "low",
-      "source_id": "military-ai-pace-setting-projects",
-      "source_type": "mission",
-      "target_id": "US11354666B1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: artificial intelligence",
-      "confidence": "low",
-      "source_id": "military-ai-pace-setting-projects",
-      "source_type": "mission",
-      "target_id": "US20260214122A1",
-      "target_type": "patent"
-    },
-    {
       "basis": "analytical domain overlap: artificial intelligence",
       "confidence": "low",
       "source_id": "ai-forge",
@@ -33820,6 +33136,198 @@
       "target_type": "patent"
     },
     {
+      "basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+      "confidence": "low",
+      "source_id": "military-ai-pace-setting-projects",
+      "source_type": "mission",
+      "target_id": "US20260189604A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+      "confidence": "low",
+      "source_id": "military-ai-pace-setting-projects",
+      "source_type": "mission",
+      "target_id": "US20260208761A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+      "confidence": "low",
+      "source_id": "military-ai-pace-setting-projects",
+      "source_type": "mission",
+      "target_id": "US20260134315A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: artificial intelligence",
+      "confidence": "low",
+      "source_id": "military-ai-pace-setting-projects",
+      "source_type": "mission",
+      "target_id": "US20260149567A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: autonomy and sensing",
+      "confidence": "low",
+      "source_id": "military-ai-pace-setting-projects",
+      "source_type": "mission",
+      "target_id": "US20260149589A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: artificial intelligence",
+      "confidence": "low",
+      "source_id": "military-ai-pace-setting-projects",
+      "source_type": "mission",
+      "target_id": "US12400074B1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: autonomy and sensing",
+      "confidence": "low",
+      "source_id": "military-ai-pace-setting-projects",
+      "source_type": "mission",
+      "target_id": "US11354666B1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: artificial intelligence",
+      "confidence": "low",
+      "source_id": "military-ai-pace-setting-projects",
+      "source_type": "mission",
+      "target_id": "US20260214122A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "federal-pqc-transition",
+      "source_type": "mission",
+      "target_id": "US20260149567A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "federal-pqc-transition",
+      "source_type": "mission",
+      "target_id": "12634144",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "federal-pqc-transition",
+      "source_type": "mission",
+      "target_id": "US20260088983A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "federal-pqc-transition",
+      "source_type": "mission",
+      "target_id": "12640949",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "federal-pqc-transition",
+      "source_type": "mission",
+      "target_id": "US20260222228A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "federal-pqc-transition",
+      "source_type": "mission",
+      "target_id": "US20260189404A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "federal-pqc-transition",
+      "source_type": "mission",
+      "target_id": "US20260178743A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "federal-pqc-transition",
+      "source_type": "mission",
+      "target_id": "US20260163909A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "qc-adds",
+      "source_type": "mission",
+      "target_id": "US20260149567A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "qc-adds",
+      "source_type": "mission",
+      "target_id": "12634144",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "qc-adds",
+      "source_type": "mission",
+      "target_id": "US20260088983A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "qc-adds",
+      "source_type": "mission",
+      "target_id": "12640949",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "qc-adds",
+      "source_type": "mission",
+      "target_id": "US20260222228A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "qc-adds",
+      "source_type": "mission",
+      "target_id": "US20260189404A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "qc-adds",
+      "source_type": "mission",
+      "target_id": "US20260178743A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+      "confidence": "low",
+      "source_id": "qc-adds",
+      "source_type": "mission",
+      "target_id": "US20260163909A1",
+      "target_type": "patent"
+    },
+    {
       "basis": "analytical domain overlap: quantum, autonomy and sensing",
       "confidence": "low",
       "source_id": "project-triad",
@@ -33881,134 +33389,6 @@
       "source_id": "project-triad",
       "source_type": "mission",
       "target_id": "12640949",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "federal-pqc-transition",
-      "source_type": "mission",
-      "target_id": "US20260149567A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "federal-pqc-transition",
-      "source_type": "mission",
-      "target_id": "12634144",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "federal-pqc-transition",
-      "source_type": "mission",
-      "target_id": "US20260088983A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "federal-pqc-transition",
-      "source_type": "mission",
-      "target_id": "12640949",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "federal-pqc-transition",
-      "source_type": "mission",
-      "target_id": "US20260222228A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "federal-pqc-transition",
-      "source_type": "mission",
-      "target_id": "US20260189404A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "federal-pqc-transition",
-      "source_type": "mission",
-      "target_id": "US20260178743A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "federal-pqc-transition",
-      "source_type": "mission",
-      "target_id": "US20260163909A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "qc-adds",
-      "source_type": "mission",
-      "target_id": "US20260149567A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "qc-adds",
-      "source_type": "mission",
-      "target_id": "12634144",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "qc-adds",
-      "source_type": "mission",
-      "target_id": "US20260088983A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "qc-adds",
-      "source_type": "mission",
-      "target_id": "12640949",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "qc-adds",
-      "source_type": "mission",
-      "target_id": "US20260222228A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "qc-adds",
-      "source_type": "mission",
-      "target_id": "US20260189404A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "qc-adds",
-      "source_type": "mission",
-      "target_id": "US20260178743A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-      "confidence": "low",
-      "source_id": "qc-adds",
-      "source_type": "mission",
-      "target_id": "US20260163909A1",
       "target_type": "patent"
     },
     {
@@ -34241,14 +33621,6 @@
     {
       "basis": "configured mission identifier",
       "confidence": "high",
-      "source_id": "golden-dome",
-      "source_type": "mission",
-      "target_id": "mission_tracker:https://www.grants.gov/search-results-detail/362961",
-      "target_type": "award_notice"
-    },
-    {
-      "basis": "configured mission identifier",
-      "confidence": "high",
       "source_id": "genesis-mission",
       "source_type": "mission",
       "target_id": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732",
@@ -34260,14 +33632,6 @@
       "source_id": "golden-dome",
       "source_type": "mission",
       "target_id": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
-      "target_type": "award_notice"
-    },
-    {
-      "basis": "configured mission identifier",
-      "confidence": "high",
-      "source_id": "genesis-mission",
-      "source_type": "mission",
-      "target_id": "mission_tracker:https://www.grants.gov/search-results-detail/359862",
       "target_type": "award_notice"
     },
     {
@@ -34306,66 +33670,10 @@
     {
       "basis": "configured mission identifier",
       "confidence": "high",
-      "source_id": "military-ai-pace-setting-projects",
-      "source_type": "mission",
-      "target_id": "mission_tracker:https://www.grants.gov/search-results-detail/362498",
-      "target_type": "funding_announcement"
-    },
-    {
-      "basis": "configured mission identifier",
-      "confidence": "high",
-      "source_id": "military-ai-pace-setting-projects",
-      "source_type": "mission",
-      "target_id": "mission_tracker:https://www.grants.gov/search-results-detail/362029",
-      "target_type": "funding_announcement"
-    },
-    {
-      "basis": "configured mission identifier",
-      "confidence": "high",
       "source_id": "genesis-mission",
       "source_type": "mission",
       "target_id": "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf",
       "target_type": "rfi"
-    },
-    {
-      "basis": "configured mission identifier",
-      "confidence": "high",
-      "source_id": "project-triad",
-      "source_type": "mission",
-      "target_id": "mission_tracker:https://www.grants.gov/search-results-detail/363370",
-      "target_type": "funding_announcement"
-    },
-    {
-      "basis": "configured mission identifier",
-      "confidence": "high",
-      "source_id": "golden-dome",
-      "source_type": "mission",
-      "target_id": "mission_tracker:https://www.grants.gov/search-results-detail/363306",
-      "target_type": "funding_announcement"
-    },
-    {
-      "basis": "configured mission identifier",
-      "confidence": "high",
-      "source_id": "project-triad",
-      "source_type": "mission",
-      "target_id": "mission_tracker:https://www.grants.gov/search-results-detail/363079",
-      "target_type": "funding_announcement"
-    },
-    {
-      "basis": "configured mission identifier",
-      "confidence": "high",
-      "source_id": "golden-dome",
-      "source_type": "mission",
-      "target_id": "mission_tracker:https://www.grants.gov/search-results-detail/362987",
-      "target_type": "funding_announcement"
-    },
-    {
-      "basis": "configured mission identifier",
-      "confidence": "high",
-      "source_id": "project-triad",
-      "source_type": "mission",
-      "target_id": "mission_tracker:https://www.grants.gov/search-results-detail/362910",
-      "target_type": "funding_announcement"
     },
     {
       "basis": "reported recipient or awardee",
@@ -36024,284 +35332,284 @@
         "target_node": "patent:US20260214122A1"
       },
       {
-        "basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+        "basis": "analytical domain overlap: artificial intelligence",
         "confidence": "low",
         "edge_id": "edge-24",
-        "source_node": "mission:military-ai-pace-setting-projects",
-        "target_node": "patent:US20260189604A1"
+        "source_node": "mission:ai-forge",
+        "target_node": "patent:US20260149567A1"
       },
       {
-        "basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+        "basis": "analytical domain overlap: artificial intelligence",
         "confidence": "low",
         "edge_id": "edge-25",
-        "source_node": "mission:military-ai-pace-setting-projects",
-        "target_node": "patent:US20260208761A1"
+        "source_node": "mission:ai-forge",
+        "target_node": "patent:US12400074B1"
       },
       {
-        "basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+        "basis": "analytical domain overlap: artificial intelligence",
         "confidence": "low",
         "edge_id": "edge-26",
-        "source_node": "mission:military-ai-pace-setting-projects",
-        "target_node": "patent:US20260134315A1"
+        "source_node": "mission:ai-forge",
+        "target_node": "patent:US20260214122A1"
       },
       {
         "basis": "analytical domain overlap: artificial intelligence",
         "confidence": "low",
         "edge_id": "edge-27",
-        "source_node": "mission:military-ai-pace-setting-projects",
-        "target_node": "patent:US20260149567A1"
-      },
-      {
-        "basis": "analytical domain overlap: autonomy and sensing",
-        "confidence": "low",
-        "edge_id": "edge-28",
-        "source_node": "mission:military-ai-pace-setting-projects",
-        "target_node": "patent:US20260149589A1"
-      },
-      {
-        "basis": "analytical domain overlap: artificial intelligence",
-        "confidence": "low",
-        "edge_id": "edge-29",
-        "source_node": "mission:military-ai-pace-setting-projects",
-        "target_node": "patent:US12400074B1"
-      },
-      {
-        "basis": "analytical domain overlap: autonomy and sensing",
-        "confidence": "low",
-        "edge_id": "edge-30",
-        "source_node": "mission:military-ai-pace-setting-projects",
-        "target_node": "patent:US11354666B1"
-      },
-      {
-        "basis": "analytical domain overlap: artificial intelligence",
-        "confidence": "low",
-        "edge_id": "edge-31",
-        "source_node": "mission:military-ai-pace-setting-projects",
-        "target_node": "patent:US20260214122A1"
-      },
-      {
-        "basis": "analytical domain overlap: artificial intelligence",
-        "confidence": "low",
-        "edge_id": "edge-32",
-        "source_node": "mission:ai-forge",
-        "target_node": "patent:US20260149567A1"
-      },
-      {
-        "basis": "analytical domain overlap: artificial intelligence",
-        "confidence": "low",
-        "edge_id": "edge-33",
-        "source_node": "mission:ai-forge",
-        "target_node": "patent:US12400074B1"
-      },
-      {
-        "basis": "analytical domain overlap: artificial intelligence",
-        "confidence": "low",
-        "edge_id": "edge-34",
-        "source_node": "mission:ai-forge",
-        "target_node": "patent:US20260214122A1"
-      },
-      {
-        "basis": "analytical domain overlap: artificial intelligence",
-        "confidence": "low",
-        "edge_id": "edge-35",
         "source_node": "mission:ai-forge",
         "target_node": "patent:US20260212002A1"
       },
       {
         "basis": "analytical domain overlap: artificial intelligence",
         "confidence": "low",
-        "edge_id": "edge-36",
+        "edge_id": "edge-28",
         "source_node": "mission:ai-forge",
         "target_node": "patent:US20260154580A1"
       },
       {
         "basis": "analytical domain overlap: artificial intelligence",
         "confidence": "low",
-        "edge_id": "edge-37",
+        "edge_id": "edge-29",
         "source_node": "mission:ai-forge",
         "target_node": "patent:US20260156144A1"
       },
       {
         "basis": "analytical domain overlap: artificial intelligence",
         "confidence": "low",
-        "edge_id": "edge-38",
+        "edge_id": "edge-30",
         "source_node": "mission:ai-forge",
         "target_node": "patent:PCTUS2025043982"
       },
       {
         "basis": "analytical domain overlap: artificial intelligence",
         "confidence": "low",
-        "edge_id": "edge-39",
+        "edge_id": "edge-31",
         "source_node": "mission:ai-forge",
         "target_node": "patent:US20260187416A1"
       },
       {
-        "basis": "analytical domain overlap: quantum, autonomy and sensing",
+        "basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
         "confidence": "low",
-        "edge_id": "edge-40",
-        "source_node": "mission:project-triad",
-        "target_node": "patent:US20260149589A1"
+        "edge_id": "edge-32",
+        "source_node": "mission:military-ai-pace-setting-projects",
+        "target_node": "patent:US20260189604A1"
       },
       {
-        "basis": "analytical domain overlap: quantum, autonomy and sensing",
+        "basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
         "confidence": "low",
-        "edge_id": "edge-41",
-        "source_node": "mission:project-triad",
-        "target_node": "patent:US20250319211A1"
+        "edge_id": "edge-33",
+        "source_node": "mission:military-ai-pace-setting-projects",
+        "target_node": "patent:US20260208761A1"
       },
       {
-        "basis": "analytical domain overlap: quantum, autonomy and sensing",
+        "basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
         "confidence": "low",
-        "edge_id": "edge-42",
-        "source_node": "mission:project-triad",
-        "target_node": "patent:US20260118447A1"
+        "edge_id": "edge-34",
+        "source_node": "mission:military-ai-pace-setting-projects",
+        "target_node": "patent:US20260134315A1"
       },
       {
-        "basis": "analytical domain overlap: quantum, autonomy and sensing",
+        "basis": "analytical domain overlap: artificial intelligence",
         "confidence": "low",
-        "edge_id": "edge-43",
-        "source_node": "mission:project-triad",
-        "target_node": "patent:19485192"
-      },
-      {
-        "basis": "analytical domain overlap: quantum",
-        "confidence": "low",
-        "edge_id": "edge-44",
-        "source_node": "mission:project-triad",
+        "edge_id": "edge-35",
+        "source_node": "mission:military-ai-pace-setting-projects",
         "target_node": "patent:US20260149567A1"
       },
       {
-        "basis": "analytical domain overlap: quantum",
+        "basis": "analytical domain overlap: autonomy and sensing",
         "confidence": "low",
-        "edge_id": "edge-45",
-        "source_node": "mission:project-triad",
+        "edge_id": "edge-36",
+        "source_node": "mission:military-ai-pace-setting-projects",
+        "target_node": "patent:US20260149589A1"
+      },
+      {
+        "basis": "analytical domain overlap: artificial intelligence",
+        "confidence": "low",
+        "edge_id": "edge-37",
+        "source_node": "mission:military-ai-pace-setting-projects",
+        "target_node": "patent:US12400074B1"
+      },
+      {
+        "basis": "analytical domain overlap: autonomy and sensing",
+        "confidence": "low",
+        "edge_id": "edge-38",
+        "source_node": "mission:military-ai-pace-setting-projects",
+        "target_node": "patent:US11354666B1"
+      },
+      {
+        "basis": "analytical domain overlap: artificial intelligence",
+        "confidence": "low",
+        "edge_id": "edge-39",
+        "source_node": "mission:military-ai-pace-setting-projects",
+        "target_node": "patent:US20260214122A1"
+      },
+      {
+        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+        "confidence": "low",
+        "edge_id": "edge-40",
+        "source_node": "mission:federal-pqc-transition",
+        "target_node": "patent:US20260149567A1"
+      },
+      {
+        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+        "confidence": "low",
+        "edge_id": "edge-41",
+        "source_node": "mission:federal-pqc-transition",
         "target_node": "patent:12634144"
       },
       {
-        "basis": "analytical domain overlap: quantum",
+        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
         "confidence": "low",
-        "edge_id": "edge-46",
-        "source_node": "mission:project-triad",
+        "edge_id": "edge-42",
+        "source_node": "mission:federal-pqc-transition",
         "target_node": "patent:US20260088983A1"
       },
       {
-        "basis": "analytical domain overlap: quantum",
+        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
         "confidence": "low",
-        "edge_id": "edge-47",
-        "source_node": "mission:project-triad",
+        "edge_id": "edge-43",
+        "source_node": "mission:federal-pqc-transition",
         "target_node": "patent:12640949"
       },
       {
         "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
         "confidence": "low",
-        "edge_id": "edge-48",
+        "edge_id": "edge-44",
         "source_node": "mission:federal-pqc-transition",
+        "target_node": "patent:US20260222228A1"
+      },
+      {
+        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+        "confidence": "low",
+        "edge_id": "edge-45",
+        "source_node": "mission:federal-pqc-transition",
+        "target_node": "patent:US20260189404A1"
+      },
+      {
+        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+        "confidence": "low",
+        "edge_id": "edge-46",
+        "source_node": "mission:federal-pqc-transition",
+        "target_node": "patent:US20260178743A1"
+      },
+      {
+        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+        "confidence": "low",
+        "edge_id": "edge-47",
+        "source_node": "mission:federal-pqc-transition",
+        "target_node": "patent:US20260163909A1"
+      },
+      {
+        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+        "confidence": "low",
+        "edge_id": "edge-48",
+        "source_node": "mission:qc-adds",
         "target_node": "patent:US20260149567A1"
       },
       {
         "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
         "confidence": "low",
         "edge_id": "edge-49",
-        "source_node": "mission:federal-pqc-transition",
+        "source_node": "mission:qc-adds",
         "target_node": "patent:12634144"
       },
       {
         "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
         "confidence": "low",
         "edge_id": "edge-50",
-        "source_node": "mission:federal-pqc-transition",
+        "source_node": "mission:qc-adds",
         "target_node": "patent:US20260088983A1"
       },
       {
         "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
         "confidence": "low",
         "edge_id": "edge-51",
-        "source_node": "mission:federal-pqc-transition",
+        "source_node": "mission:qc-adds",
         "target_node": "patent:12640949"
       },
       {
         "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
         "confidence": "low",
         "edge_id": "edge-52",
-        "source_node": "mission:federal-pqc-transition",
+        "source_node": "mission:qc-adds",
         "target_node": "patent:US20260222228A1"
       },
       {
         "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
         "confidence": "low",
         "edge_id": "edge-53",
-        "source_node": "mission:federal-pqc-transition",
+        "source_node": "mission:qc-adds",
         "target_node": "patent:US20260189404A1"
       },
       {
         "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
         "confidence": "low",
         "edge_id": "edge-54",
-        "source_node": "mission:federal-pqc-transition",
+        "source_node": "mission:qc-adds",
         "target_node": "patent:US20260178743A1"
       },
       {
         "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
         "confidence": "low",
         "edge_id": "edge-55",
-        "source_node": "mission:federal-pqc-transition",
+        "source_node": "mission:qc-adds",
         "target_node": "patent:US20260163909A1"
       },
       {
-        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+        "basis": "analytical domain overlap: quantum, autonomy and sensing",
         "confidence": "low",
         "edge_id": "edge-56",
-        "source_node": "mission:qc-adds",
+        "source_node": "mission:project-triad",
+        "target_node": "patent:US20260149589A1"
+      },
+      {
+        "basis": "analytical domain overlap: quantum, autonomy and sensing",
+        "confidence": "low",
+        "edge_id": "edge-57",
+        "source_node": "mission:project-triad",
+        "target_node": "patent:US20250319211A1"
+      },
+      {
+        "basis": "analytical domain overlap: quantum, autonomy and sensing",
+        "confidence": "low",
+        "edge_id": "edge-58",
+        "source_node": "mission:project-triad",
+        "target_node": "patent:US20260118447A1"
+      },
+      {
+        "basis": "analytical domain overlap: quantum, autonomy and sensing",
+        "confidence": "low",
+        "edge_id": "edge-59",
+        "source_node": "mission:project-triad",
+        "target_node": "patent:19485192"
+      },
+      {
+        "basis": "analytical domain overlap: quantum",
+        "confidence": "low",
+        "edge_id": "edge-60",
+        "source_node": "mission:project-triad",
         "target_node": "patent:US20260149567A1"
       },
       {
-        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+        "basis": "analytical domain overlap: quantum",
         "confidence": "low",
-        "edge_id": "edge-57",
-        "source_node": "mission:qc-adds",
+        "edge_id": "edge-61",
+        "source_node": "mission:project-triad",
         "target_node": "patent:12634144"
       },
       {
-        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+        "basis": "analytical domain overlap: quantum",
         "confidence": "low",
-        "edge_id": "edge-58",
-        "source_node": "mission:qc-adds",
+        "edge_id": "edge-62",
+        "source_node": "mission:project-triad",
         "target_node": "patent:US20260088983A1"
       },
       {
-        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-        "confidence": "low",
-        "edge_id": "edge-59",
-        "source_node": "mission:qc-adds",
-        "target_node": "patent:12640949"
-      },
-      {
-        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-        "confidence": "low",
-        "edge_id": "edge-60",
-        "source_node": "mission:qc-adds",
-        "target_node": "patent:US20260222228A1"
-      },
-      {
-        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-        "confidence": "low",
-        "edge_id": "edge-61",
-        "source_node": "mission:qc-adds",
-        "target_node": "patent:US20260189404A1"
-      },
-      {
-        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-        "confidence": "low",
-        "edge_id": "edge-62",
-        "source_node": "mission:qc-adds",
-        "target_node": "patent:US20260178743A1"
-      },
-      {
-        "basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+        "basis": "analytical domain overlap: quantum",
         "confidence": "low",
         "edge_id": "edge-63",
-        "source_node": "mission:qc-adds",
-        "target_node": "patent:US20260163909A1"
+        "source_node": "mission:project-triad",
+        "target_node": "patent:12640949"
       },
       {
         "basis": "analytical domain overlap: quantum, artificial intelligence",
@@ -36468,111 +35776,48 @@
         "basis": "configured mission identifier",
         "confidence": "high",
         "edge_id": "edge-92",
-        "source_node": "mission:golden-dome",
-        "target_node": "award_notice:mission_tracker:https://www.grants.gov/search-results-detail/362961"
-      },
-      {
-        "basis": "configured mission identifier",
-        "confidence": "high",
-        "edge_id": "edge-93",
         "source_node": "mission:genesis-mission",
         "target_node": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
       },
       {
         "basis": "configured mission identifier",
         "confidence": "high",
-        "edge_id": "edge-94",
+        "edge_id": "edge-93",
         "source_node": "mission:golden-dome",
         "target_node": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-"
       },
       {
-        "basis": "configured mission identifier",
-        "confidence": "high",
-        "edge_id": "edge-95",
-        "source_node": "mission:genesis-mission",
-        "target_node": "award_notice:mission_tracker:https://www.grants.gov/search-results-detail/359862"
-      },
-      {
         "basis": "named program match: Golden Dome for America",
         "confidence": "high",
-        "edge_id": "edge-96",
+        "edge_id": "edge-94",
         "source_node": "mission:golden-dome",
         "target_node": "award:usaspending:HQ085425PE001"
       },
       {
         "basis": "configured mission identifier",
         "confidence": "high",
-        "edge_id": "edge-98",
+        "edge_id": "edge-96",
         "source_node": "mission:golden-dome",
         "target_node": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-"
       },
       {
         "basis": "configured mission identifier",
         "confidence": "high",
-        "edge_id": "edge-99",
+        "edge_id": "edge-97",
         "source_node": "mission:ai-forge",
         "target_node": "rfi:mission_tracker:https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
       },
       {
         "basis": "configured mission identifier",
         "confidence": "high",
-        "edge_id": "edge-100",
-        "source_node": "mission:military-ai-pace-setting-projects",
-        "target_node": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362498"
-      },
-      {
-        "basis": "configured mission identifier",
-        "confidence": "high",
-        "edge_id": "edge-101",
-        "source_node": "mission:military-ai-pace-setting-projects",
-        "target_node": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362029"
-      },
-      {
-        "basis": "configured mission identifier",
-        "confidence": "high",
-        "edge_id": "edge-102",
+        "edge_id": "edge-98",
         "source_node": "mission:genesis-mission",
         "target_node": "rfi:mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf"
       },
       {
         "basis": "configured mission identifier",
         "confidence": "high",
-        "edge_id": "edge-103",
-        "source_node": "mission:project-triad",
-        "target_node": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363370"
-      },
-      {
-        "basis": "configured mission identifier",
-        "confidence": "high",
-        "edge_id": "edge-104",
-        "source_node": "mission:golden-dome",
-        "target_node": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363306"
-      },
-      {
-        "basis": "configured mission identifier",
-        "confidence": "high",
-        "edge_id": "edge-105",
-        "source_node": "mission:project-triad",
-        "target_node": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363079"
-      },
-      {
-        "basis": "configured mission identifier",
-        "confidence": "high",
-        "edge_id": "edge-106",
-        "source_node": "mission:golden-dome",
-        "target_node": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362987"
-      },
-      {
-        "basis": "configured mission identifier",
-        "confidence": "high",
-        "edge_id": "edge-107",
-        "source_node": "mission:project-triad",
-        "target_node": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362910"
-      },
-      {
-        "basis": "configured mission identifier",
-        "confidence": "high",
-        "edge_id": "edge-110",
+        "edge_id": "edge-101",
         "source_node": "mission:golden-dome",
         "target_node": "funding_announcement:mission_tracker:https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html"
       },
@@ -36600,7 +35845,7 @@
       {
         "basis": "reported recipient or awardee",
         "confidence": "high",
-        "edge_id": "edge-97",
+        "edge_id": "edge-95",
         "source_node": "award:usaspending:HQ085425PE001",
         "target_node": "recipient_or_contractor:uei:N82MH64U4D96"
       },
@@ -36621,14 +35866,14 @@
       {
         "basis": "assignee match",
         "confidence": "high",
-        "edge_id": "edge-140",
+        "edge_id": "edge-131",
         "source_node": "recipient_or_contractor:uei:NPU8ULVAAS23",
         "target_node": "patent:US20260154602A1"
       },
       {
         "basis": "assignee match",
         "confidence": "high",
-        "edge_id": "edge-141",
+        "edge_id": "edge-132",
         "source_node": "recipient_or_contractor:uei:NPU8ULVAAS23",
         "target_node": "patent:US20260079378A1"
       }
@@ -36675,7 +35920,7 @@
         "node_type": "mission",
         "open_opportunities": 1,
         "priority": "critical",
-        "record_count": 7,
+        "record_count": 6,
         "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
       },
       {
@@ -36686,7 +35931,7 @@
         "node_type": "mission",
         "open_opportunities": 0,
         "priority": "critical",
-        "record_count": 8,
+        "record_count": 5,
         "url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/"
       },
       {
@@ -36697,7 +35942,7 @@
         "node_type": "mission",
         "open_opportunities": 0,
         "priority": "critical",
-        "record_count": 2,
+        "record_count": 0,
         "url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF"
       },
       {
@@ -36708,7 +35953,7 @@
         "node_type": "mission",
         "open_opportunities": 0,
         "priority": "critical",
-        "record_count": 3,
+        "record_count": 0,
         "url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
       },
       {
@@ -36833,17 +36078,6 @@
         "url": "https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700"
       },
       {
-        "amount": null,
-        "close_date": null,
-        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362961",
-        "label": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
-        "node_id": "award_notice:mission_tracker:https://www.grants.gov/search-results-detail/362961",
-        "node_type": "award_notice",
-        "score": 53,
-        "status": "awarded",
-        "url": "https://www.grants.gov/search-results-detail/362961"
-      },
-      {
         "amount": 700.0,
         "close_date": null,
         "identifier": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732",
@@ -36864,17 +36098,6 @@
         "score": 53,
         "status": "awarded",
         "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
-      },
-      {
-        "amount": null,
-        "close_date": null,
-        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/359862",
-        "label": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
-        "node_id": "award_notice:mission_tracker:https://www.grants.gov/search-results-detail/359862",
-        "node_type": "award_notice",
-        "score": 53,
-        "status": "awarded",
-        "url": "https://www.grants.gov/search-results-detail/359862"
       },
       {
         "amount": 3.0,
@@ -36912,28 +36135,6 @@
       {
         "amount": null,
         "close_date": null,
-        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362498",
-        "label": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
-        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362498",
-        "node_type": "funding_announcement",
-        "score": 50,
-        "status": "announced",
-        "url": "https://www.grants.gov/search-results-detail/362498"
-      },
-      {
-        "amount": null,
-        "close_date": null,
-        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362029",
-        "label": "Tribal Colleges Research Grants Program",
-        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362029",
-        "node_type": "funding_announcement",
-        "score": 50,
-        "status": "announced",
-        "url": "https://www.grants.gov/search-results-detail/362029"
-      },
-      {
-        "amount": null,
-        "close_date": null,
         "identifier": "mission_tracker:https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html",
         "label": "Department reports initial architecture, command-and-control consortium, and active contracts",
         "node_id": "funding_announcement:mission_tracker:https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html",
@@ -36941,61 +36142,6 @@
         "score": 45,
         "status": "announced",
         "url": "https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html"
-      },
-      {
-        "amount": null,
-        "close_date": null,
-        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363306",
-        "label": "F27AS00008-NAWCA 2027-1 US Standard Grants",
-        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363306",
-        "node_type": "funding_announcement",
-        "score": 45,
-        "status": "announced",
-        "url": "https://www.grants.gov/search-results-detail/363306"
-      },
-      {
-        "amount": null,
-        "close_date": null,
-        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363079",
-        "label": "Public Diplomacy Small Grants Competition",
-        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363079",
-        "node_type": "funding_announcement",
-        "score": 45,
-        "status": "announced",
-        "url": "https://www.grants.gov/search-results-detail/363079"
-      },
-      {
-        "amount": null,
-        "close_date": null,
-        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362987",
-        "label": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
-        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362987",
-        "node_type": "funding_announcement",
-        "score": 45,
-        "status": "announced",
-        "url": "https://www.grants.gov/search-results-detail/362987"
-      },
-      {
-        "amount": null,
-        "close_date": null,
-        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/362910",
-        "label": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
-        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/362910",
-        "node_type": "funding_announcement",
-        "score": 45,
-        "status": "announced",
-        "url": "https://www.grants.gov/search-results-detail/362910"
-      },
-      {
-        "amount": null,
-        "close_date": null,
-        "identifier": "mission_tracker:https://www.grants.gov/search-results-detail/363370",
-        "label": "U.S. Embassy Jakarta Media Small Grants Competition",
-        "node_id": "funding_announcement:mission_tracker:https://www.grants.gov/search-results-detail/363370",
-        "node_type": "funding_announcement",
-        "score": 45,
-        "status": "announced",
-        "url": "https://www.grants.gov/search-results-detail/363370"
       },
       {
         "aliases": [
@@ -37336,35 +36482,35 @@
     ],
     "summary": {
       "contractors": 4,
-      "edges": 111,
-      "execution_records": 23,
+      "edges": 102,
+      "execution_records": 14,
       "missions": 10,
-      "nodes": 65,
+      "nodes": 56,
       "patents": 28
     }
   },
   "scope_note": "Official federal awards and opportunities connected to tracked missions using explicit mission identifiers, named-program matches, or labeled agency/domain inference.",
   "summary": {
-    "awards": 168,
+    "awards": 166,
     "baas": 1,
     "closing_within_30_days": 8,
     "closing_within_7_days": 1,
-    "funding_announcements": 9,
+    "funding_announcements": 2,
     "grant_opportunities": 18,
-    "known_award_value": 132892458.50000003,
-    "linked_records": 23,
+    "known_award_value": 132892458.5,
+    "linked_records": 14,
     "mission_linked_open_opportunities": 1,
-    "missions_with_activity": 6,
+    "missions_with_activity": 4,
     "new_since_yesterday": 19,
     "open_opportunities": 19,
     "procurement_opportunities": 3,
     "rfis": 2,
-    "total_records": 198,
+    "total_records": 189,
     "tracked_missions": 10,
     "uei_resolved_contractors": 139,
     "unique_recipients_and_contractors": 140,
     "unlinked_records": 175
   },
-  "updated_at": "2026-07-31T02:07:00.150836+00:00",
+  "updated_at": "2026-07-31T19:04:34.850035+00:00",
   "version": 3
 }

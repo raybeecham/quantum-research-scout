@@ -102,6 +102,15 @@
           </div>
         </div>
         <div id="analyst-decision-list" class="analyst-decision-list" aria-live="polite"></div>
+        <details id="forecast-watch-module" class="forecast-watch-module">
+          <summary><div><span class="module-kicker">STRATEGIC FORECAST WATCH</span><strong>What may happen next—and how we will score it</strong></div><span id="forecast-summary"></span></summary>
+          <div class="forecast-watch-content">
+            <p class="module-note">Evidence-backed hypotheses with fixed horizons, confirming and disconfirming indicators, automatic outcome checks, and public calibration.</p>
+            <div id="forecast-calibration" class="forecast-calibration"></div>
+            <div id="forecast-grid" class="forecast-grid" aria-live="polite"></div>
+            <a id="forecast-report-link" class="section-link" href="#">Open the complete forecast registry →</a>
+          </div>
+        </details>
       </div>
     </section>
 
@@ -182,12 +191,12 @@
           <details class="intelligence-module evidence-ledger-module">
             <summary><div><span class="module-kicker">EVIDENCE & CHANGE CONTROL</span><strong>Why connections exist and what changed</strong></div><span id="evidence-ledger-summary"></span></summary>
             <div class="module-content">
-              <p class="module-note">Claims keep stable IDs, authority labels, evidence links, derivation rules, versions, conflicts, and supersession status. The first run establishes a quiet baseline.</p>
+              <p class="module-note">Claims keep stable IDs, authority labels, evidence links, derivation rules, versions, conflicts, and supersession status. Event, publication, effective, and observation dates remain explicitly distinguished.</p>
               <div class="evidence-ledger-layout">
-                <section><h3>Since yesterday</h3><div id="change-feed" class="change-feed" aria-live="polite"></div></section>
+                <section><h3>Since the prior successful run</h3><div id="change-feed" class="change-feed" aria-live="polite"></div></section>
                 <section><h3>Traceable claims</h3><div id="evidence-claim-grid" class="evidence-claim-grid" aria-live="polite"></div></section>
               </div>
-              <div class="evidence-ledger-links"><a id="claim-ledger-report-link" class="section-link" href="#">Open the claim ledger →</a><a id="changes-report-link" class="section-link" href="#">Open all changes →</a></div>
+              <div class="evidence-ledger-links"><a id="claim-ledger-report-link" class="section-link" href="#">Open the claim ledger →</a><a id="changes-report-link" class="section-link" href="#">Open all changes →</a><a id="temporal-report-link" class="section-link" href="#">Open temporal intelligence →</a></div>
             </div>
           </details>
 

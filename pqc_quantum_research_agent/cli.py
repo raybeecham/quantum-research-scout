@@ -9,6 +9,8 @@ from pathlib import Path
 from .classifier import classify_item
 from .capabilities import load_capability_profile
 from .claim_ledger import write_claim_ledger
+from .temporal_intelligence import write_temporal_intelligence
+from .strategic_forecasts import write_strategic_forecasts
 from .scoring_calibration import write_scoring_calibration
 from .collectors import collect_all
 from .config import load_config, load_weight_file
@@ -93,6 +95,11 @@ def build_parser() -> argparse.ArgumentParser:
         "--feedback-log",
         default="pursuit-feedback.local.jsonl",
         help="Gitignored append-only analyst pursuit-feedback ledger.",
+    )
+    parser.add_argument(
+        "--forecasts-config",
+        default="forecasts.yaml",
+        help="Transparent strategic-forecast rules, horizons, and safeguards.",
     )
     parser.add_argument("--week-start", default=None, help="Weekly synthesis start date in YYYY-MM-DD format.")
     parser.add_argument("--week-end", default=None, help="Weekly synthesis end date in YYYY-MM-DD format.")
@@ -424,6 +431,14 @@ def main(argv: list[str] | None = None) -> int:
         write_source_observations(Path(args.reports_dir), config, collection, generated_at=generated_at)
         write_source_health_report(Path(args.reports_dir), args.config)
         write_claim_ledger(Path(args.reports_dir), generated_at=generated_at)
+        write_temporal_intelligence(
+            Path(args.reports_dir), generated_at=generated_at
+        )
+        write_strategic_forecasts(
+            Path(args.reports_dir),
+            args.forecasts_config,
+            generated_at=generated_at,
+        )
         write_alerts(Path(args.reports_dir), args.alerts_config)
     if args.update_report_index:
         write_report_index(Path(args.reports_dir))

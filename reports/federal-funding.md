@@ -4,18 +4,18 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-07-31 02:07 UTC_
+_Updated 2026-07-31 19:04 UTC_
 
 Official federal awards and opportunities connected to tracked missions using explicit mission identifiers, named-program matches, or labeled agency/domain inference.
 
 USAspending records describe reported awards; Grants.gov and SAM.gov records describe opportunities or notices. Analytical mission and patent links are not evidence that a patent was funded by, used by, or formally associated with a mission.
 
-- Tracked records: **198**
-- Awards / grant opportunities / procurement opportunities: **168 / 18 / 3**
+- Tracked records: **189**
+- Awards / grant opportunities / procurement opportunities: **166 / 18 / 3**
 - Open opportunities: **19** (including 1 BAA and 2 RFI records)
 - Opportunity radar: **1 mission-linked**, **8 closing within 30 days**, **19 new since yesterday**
-- Mission-linked records: **23**
-- Missions with activity: **6 of 10**
+- Mission-linked records: **14**
+- Missions with activity: **4 of 10**
 - Named recipients and contractors: **140**
 - Known reported award value: **$132.9M**
 
@@ -49,14 +49,14 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 
 | Mission | Records | Open | Known awards | Announced funding | Contractors / analytical patent matches |
 |---|---:|---:|---:|---:|---|
-| [Genesis Mission](https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission) | 7 | 1 | $700.7K | $293.0M | 1 / 8 |
+| [Genesis Mission](https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission) | 6 | 1 | $700.7K | $293.0M | 1 / 8 |
 | [DARPA Quantum Benchmarking Initiative](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative) | 2 | 0 | $8.7M | $0 | 1 / 8 |
-| [Golden Dome for America](https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/) | 8 | 0 | $3.8M | $0 | 2 / 8 |
-| [Military AI Pace-Setting Projects](https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF) | 2 | 0 | $0 | $0 | 0 / 8 |
+| [Golden Dome for America](https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/) | 5 | 0 | $3.8M | $0 | 2 / 8 |
 | [AI Forge](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security) | 1 | 0 | $0 | $0 | 0 / 8 |
-| [Project Triad](https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real) | 3 | 0 | $0 | $0 | 0 / 8 |
+| [Military AI Pace-Setting Projects](https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF) | 0 | 0 | $0 | $0 | 0 / 8 |
 | [Federal Post-Quantum Cryptography Transition](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | 0 | 0 | $0 | $0 | 0 / 8 |
 | [QC-ADDS](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/) | 0 | 0 | $0 | $0 | 0 / 8 |
+| [Project Triad](https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real) | 0 | 0 | $0 | $0 | 0 / 8 |
 | [Quantum Genesis](https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first) | 0 | 0 | $0 | $0 | 0 / 8 |
 | [QuantumEAGLe](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4529557/nsa-devcom-army-research-office-launch-quantumeagle-initiative/) | 0 | 0 | $0 | $0 | 0 / 8 |
 
@@ -94,19 +94,10 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) | 2026-07-29 | Not listed | $293.0M | Genesis Mission |
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | Not listed | $8 | DARPA Quantum Benchmarking Initiative |
 | [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) | 2026-07-31 | Not listed | Not reported | Genesis Mission |
-| [DOW Combat Readiness – Medical Research Program Translational Research Award](https://www.grants.gov/search-results-detail/362961) | 2026-06-24 | Not listed | Not reported | Golden Dome for America |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | Not listed | $700 | Genesis Mission |
 | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | Not listed | $3 | Golden Dome for America |
-| [Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359862) | 2025-12-11 | Not listed | Not reported | Genesis Mission |
 | [VENUE TO SUPPORT THE GOLDEN DOME FOR AMERICA INDUSTRY SUMMIT, JUNE 10-11, 2025](https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-) | 2025-06-10 | CITY OF HUNTSVILLE | $11.9K | Golden Dome for America |
 | [VENUE TO SUPPORT THE GOLDEN DOME FOR AMERICA INDUSTRY SUMMIT, JUNE 10-11, 2025](https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-) | 2025-06-10 | Not listed | $11 | Golden Dome for America |
-| [F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362498) | 2026-05-20 | Not listed | Not reported | Military AI Pace-Setting Projects |
-| [Tribal Colleges Research Grants Program](https://www.grants.gov/search-results-detail/362029) | 2026-04-22 | Not listed | Not reported | Military AI Pace-Setting Projects |
-| [U.S. Embassy Jakarta Media Small Grants Competition](https://www.grants.gov/search-results-detail/363370) | 2026-07-29 | Not listed | Not reported | Project Triad |
-| [F27AS00008-NAWCA 2027-1 US Standard Grants](https://www.grants.gov/search-results-detail/363306) | 2026-07-24 | Not listed | Not reported | Golden Dome for America |
-| [Public Diplomacy Small Grants Competition](https://www.grants.gov/search-results-detail/363079) | 2026-07-07 | Not listed | Not reported | Project Triad |
-| [Rapid Reskill Employment Recovery National Dislocated Worker Grants](https://www.grants.gov/search-results-detail/362987) | 2026-06-26 | Not listed | Not reported | Golden Dome for America |
-| [Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026](https://www.grants.gov/search-results-detail/362910) | 2026-06-23 | Not listed | Not reported | Project Triad |
 | [COLLABORATIVE RESEARCH: SATC 2.0: RES: POST-QUANTUM CRYPTOGRAPHIC PROTOCOLS WITH ADVANCED FUNCTIONALITIES -THIS PROJECT AIMS TO DEVELOP THE CRYPTOGRAPHIC FOUNDATIONS FOR SECURE CO...](https://www.usaspending.gov/award/ASST_NON_2528909_049) | 2026-05-15 | FLORIDA ATLANTIC UNIVERSITY | $400.0K | Not linked |
 | [Department reports initial architecture, command-and-control consortium, and active contracts](https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html) | 2026-04-23 | Not listed | Not reported | Golden Dome for America |
 | [CATEGORY II: TANGLELAB: A NATIONAL HYBRID COMPUTING PLATFORM TO UNLOCK QUANTUM INFORMATION SCIENCE AND ENGINEERING RESEARCH AND EDUCATION -TANGLELAB IS THE PITTSBURGH SUPERCOMPUTI...](https://www.usaspending.gov/award/ASST_NON_2537076_049) | 2026-09-15 | CARNEGIE-MELLON UNIVERSITY | $5.0M | Not linked |
@@ -118,6 +109,15 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [INFORMATION SYSTEMS SECURITY SUPPORT SERVICES - CALL ORDER 6 POST QUANTUM CRYPTOGRAPHY](https://www.usaspending.gov/award/CONT_AWD_91990025F0111_9100_91990023A0002_9100) | 2025-09-30 | VALIANT SOLUTIONS, LLC | $764.4K | Not linked |
 | [SPARTAN - SECURE PATH-ROUTING WITH AUTONOMOUS RESILIENCE FOR TARGETING AND ADAPTIVE NAVIGATION SBIR PHASE II](https://www.usaspending.gov/award/CONT_AWD_FA237725CB008_9700_-NONE-_-NONE-) | 2025-05-14 | POST QUANTUM LABS LLC | $1.4M | Not linked |
 | [CAREER: SECURING AND OPTIMIZING QUANTUM-RESILIENT CRYPTOGRAPHY FOR VERSATILE COMPUTING ARCHITECTURES -THE RAPIDLY ADVANCING QUANTUM COMPUTERS CHALLENGE THE CRYPTOGRAPHIC SYSTEMS T...](https://www.usaspending.gov/award/ASST_NON_2541979_049) | 2026-07-01 | UNIVERSITY OF CALIFORNIA, MERCED | $347.1K | Not linked |
+| [CAREER: FOUNDATIONS OF POST-QUANTUM AND QUANTUM CRYPTOGRAPHY -QUANTUM COMPUTING POSES BOTH A FUNDAMENTAL THREAT TO EXISTING CLASSICAL CRYPTOGRAPHY AND AN EXCITING OPPORTUNITY TO D...](https://www.usaspending.gov/award/ASST_NON_2541300_049) | 2026-06-01 | THE TRUSTEES OF PRINCETON UNIVERSITY | $364.4K | Not linked |
+| [SATC 2.0: RES: CLASSICAL AND QUANTUM ALGORITHMS FOR PROBLEMS IN CRYPTOGRAPHY -THIS PROJECT FOCUSES ON THE SECURITY AND EFFICIENCY OF CERTAIN CRYPTOSYSTEMS. SINCE CURRENTLY USED SY...](https://www.usaspending.gov/award/ASST_NON_2521084_049) | 2026-05-15 | THE PENNSYLVANIA STATE UNIVERSITY | $600.0K | Not linked |
+| [COLLABORATIVE RESEARCH: SATC 2.0: RES: SECURE AND EFFICIENT CRYSTALS-KYBER ARCHITECTURE TO RESIST AGAINST SIDE-CHANNEL AND FAULT ATTACKS ON POST-QUANTUM CRYPTOGRAPHY -THE RAPID AD...](https://www.usaspending.gov/award/ASST_NON_2555488_049) | 2026-07-01 | TRUSTEES OF TUFTS COLLEGE | $300.0K | Not linked |
+| [COLLABORATIVE RESEARCH: SATC 2.0: RES: SECURE AND EFFICIENT CRYSTALS-KYBER ARCHITECTURE TO RESIST AGAINST SIDE-CHANNEL AND FAULT ATTACKS ON POST-QUANTUM CRYPTOGRAPHY -THE RAPID AD...](https://www.usaspending.gov/award/ASST_NON_2555487_049) | 2026-07-01 | NORTHEASTERN UNIVERSITY | $300.0K | Not linked |
+| [ERI: PHYSICAL LAYER SIDE CHANNEL ASSESSMENT AND LIGHTWEIGHT COUNTERMEASURES FOR EMBEDDED POST QUANTUM CRYPTOGRAPHY -PUBLIC-KEY ENCRYPTION AND DIGITAL SIGNATURES PROTECT FINANCIAL...](https://www.usaspending.gov/award/ASST_NON_2552681_049) | 2026-07-01 | FLORIDA INSTITUTE OF TECHNOLOGY INC | $199.9K | Not linked |
+| [COLLABORATIVE RESEARCH: SATC 2.0: RES: POST-QUANTUM CRYPTOGRAPHIC PROTOCOLS WITH ADVANCED FUNCTIONALITIES -THIS PROJECT AIMS TO DEVELOP THE CRYPTOGRAPHIC FOUNDATIONS FOR SECURE CO...](https://www.usaspending.gov/award/ASST_NON_2528910_049) | 2026-05-15 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | $200.0K | Not linked |
+| [CAREER: SECURING SOFTWARE FOR THE QUANTUM ERA VIA PROGRAM ANALYSIS-GUIDED AI MIGRATION -THE RAPID ADVANCEMENT OF QUANTUM COMPUTING POSES A MAJOR THREAT TO DIGITAL SECURITY. THE RI...](https://www.usaspending.gov/award/ASST_NON_2540631_049) | 2026-04-01 | LOUISIANA STATE UNIVERSITY | $300.9K | Not linked |
+| [PURPOSE: THE Q-READY: DEVELOPING THE DMVS QUANTUM-READY CYBERSECURITY WORKFORCE PROJECT WILL TRAIN UNDERGRADUATE STUDENTS IN QUANTUM CRYPTOGRAPHY, POST-QUANTUM CRYPTOGRAPHY (PQC),...](https://www.usaspending.gov/award/ASST_NON_70NANB25H155_013) | 2025-10-01 | THE CODING SCHOOL | $200.0K | Not linked |
+| [IHS REQUIRES A ONE-YEAR RENEWAL OF ITS EXISTING SPLUNK CLOUD ENVIRONMENT THAT SUPPORTS ENTERPRISE CYBERSECURITY MONITORING, LOG MANAGEMENT, THREAT DETECTION, COMPLIANCE REPORTING,...](https://www.usaspending.gov/award/CONT_AWD_7571TE26P00070_7571_-NONE-_-NONE-) | 2026-07-22 | RAVENTEK SOLUTION PARTNERS, LLC | $3.5M | Not linked |
 
 ## Contractor Intelligence Profiles
 

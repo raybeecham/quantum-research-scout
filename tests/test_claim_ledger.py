@@ -250,6 +250,38 @@ class ClaimLedgerTests(unittest.TestCase):
         self.assertEqual(second, third)
         self.assertEqual(third_changes["summary"]["material_changes"], 0)
 
+    def test_removed_derived_mission_record_is_retracted(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports = Path(temp_dir)
+            _write_json(
+                reports / "federal-funding.json",
+                {
+                    "records": [
+                        {
+                            "key": "mission_tracker:https://grants.gov/unrelated",
+                            "provider": "mission_tracker",
+                            "record_type": "funding_announcement",
+                            "title": "Unrelated grant result",
+                            "status": "announced",
+                            "date": "2026-07-24",
+                            "url": "https://grants.gov/unrelated",
+                        }
+                    ]
+                },
+            )
+            write_claim_ledger(reports, generated_at=FIRST_RUN)
+            _write_json(reports / "federal-funding.json", {"records": []})
+
+            outputs = write_claim_ledger(reports, generated_at=SECOND_RUN)
+            ledger = _read_json(outputs[0])
+            changes = _read_json(outputs[2])
+            claim = _claim_for(ledger, "opportunity_status")
+
+        self.assertEqual(claim["status"], "retracted")
+        self.assertEqual(claim["observation_status"], "retracted")
+        self.assertIn("upstream evidence validation", claim["retraction_reason"])
+        self.assertEqual(changes["summary"]["resolved"], 1)
+
     def test_decision_trace_has_only_resolvable_inputs_and_evidence(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             reports = Path(temp_dir)

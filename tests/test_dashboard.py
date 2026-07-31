@@ -290,6 +290,46 @@ class DashboardBuildTests(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
+            (reports / "temporal-intelligence.json").write_text(
+                json.dumps(
+                    {
+                        "updated_at": "2026-07-21T12:00:00+00:00",
+                        "comparison_started_at": "2026-07-20T12:00:00+00:00",
+                        "summary": {"actual_or_recent_changes": 1, "historical_discoveries": 2},
+                        "priority_events": [
+                            {
+                                "claim_id": "claim-deadline",
+                                "evidence_title": "Quantum BAA",
+                                "temporal": {
+                                    "classification": "changed_since_prior_run",
+                                    "label": "Changed since prior run",
+                                },
+                            }
+                        ],
+                        "upcoming": [],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            (reports / "strategic-forecasts.json").write_text(
+                json.dumps(
+                    {
+                        "updated_at": "2026-07-21T12:00:00+00:00",
+                        "summary": {"active": 1, "due_within_30_days": 1, "resolved": 0},
+                        "calibration": {"resolved_count": 0, "label": "Awaiting outcomes"},
+                        "active_forecasts": [
+                            {
+                                "forecast_id": "forecast-one",
+                                "question": "Will a mission-linked opportunity be published?",
+                                "probability": 0.72,
+                                "horizon_end": "2026-08-20",
+                            }
+                        ],
+                        "resolved_forecasts": [],
+                    }
+                ),
+                encoding="utf-8",
+            )
             (reports / "historical-evidence.json").write_text(
                 json.dumps({"item_count": 2, "dated_count": 1, "undated_count": 1, "items": [{"key": "one"}]}),
                 encoding="utf-8",
@@ -358,6 +398,15 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(
                 payload["intelligence_changes"]["summary"]["material_changes"],
                 1,
+            )
+            self.assertEqual(
+                payload["temporal_intelligence"]["summary"]["actual_or_recent_changes"],
+                1,
+            )
+            self.assertEqual(payload["strategic_forecasts"]["summary"]["active"], 1)
+            self.assertEqual(
+                payload["strategic_forecasts"]["active_forecasts"][0]["forecast_id"],
+                "forecast-one",
             )
             self.assertEqual(payload["decision_center"]["summary"]["total"], 0)
             self.assertIn("browser", payload["decision_center"]["privacy_note"])
@@ -439,6 +488,12 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("renderContractors", script)
         self.assertIn("renderPursuits", script)
         self.assertIn("renderEvidenceLedger", script)
+        self.assertIn("renderForecasts", script)
+        self.assertIn('id="forecast-watch-module"', html)
+        self.assertIn('id="forecast-grid"', html)
+        self.assertIn('id="forecast-calibration"', html)
+        self.assertIn('id="temporal-report-link"', html)
+        self.assertIn("temporalChangeHighlights", script)
         self.assertIn('id="opportunity-radar"', html)
         self.assertIn('id="relationship-graph"', html)
         self.assertIn('id="contractor-grid"', html)

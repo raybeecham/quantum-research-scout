@@ -1,0 +1,19 @@
+version: 1
+
+forecasts:
+  enabled: true
+
+  # Mission-to-opportunity hypotheses remain open for a fixed, scoreable horizon.
+  horizon_days: 90
+
+  # A published milestone that passes without confirmation receives a bounded
+  # follow-up window before the forecast resolves false.
+  milestone_confirmation_days: 30
+
+  # Conservative public defaults keep weak hypotheses out of the registry.
+  minimum_probability: 0.45
+  max_active_forecasts: 8
+  max_resolved_forecasts: 100
+  mission_priorities:
+    - critical
+    - high

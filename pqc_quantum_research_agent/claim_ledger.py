@@ -157,7 +157,13 @@ def write_claim_ledger(
         "evidence": evidence,
         "claims": claims,
     }
-    change_payload = _change_payload(changes, claims, generated, baseline)
+    change_payload = _change_payload(
+        changes,
+        claims,
+        generated,
+        baseline,
+        comparison_started_at=previous.get("updated_at"),
+    )
     ledger_json.write_text(
         json.dumps(ledger, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
@@ -593,6 +599,27 @@ def _merge_versions(
     for claim_id, old in previous_by_id.items():
         if claim_id in observed_ids:
             continue
+        if _is_removed_derived_mission_claim(old):
+            retained = {
+                **old,
+                "status": "retracted",
+                "observation_status": "retracted",
+                "missing_observations": 1,
+                "retracted_at": generated.isoformat(),
+                "retraction_reason": (
+                    "The deterministically derived mission-tracker record is no longer present "
+                    "after upstream evidence validation."
+                ),
+            }
+            claims.append(retained)
+            changes["resolved"].append(
+                {
+                    **_change_ref(retained, "resolved"),
+                    "previous_status": old.get("status"),
+                    "current_status": "retracted",
+                }
+            )
+            continue
         missing = max(1, int(old.get("missing_observations") or 0))
         retained = {
             **old,
@@ -601,6 +628,12 @@ def _merge_versions(
         }
         claims.append(retained)
     return claims, changes
+
+
+def _is_removed_derived_mission_claim(claim: dict) -> bool:
+    subject_id = str((claim.get("subject") or {}).get("node_id") or "")
+    object_id = str((claim.get("object") or {}).get("node_id") or "")
+    return "mission_tracker:" in subject_id or "mission_tracker:" in object_id
 
 
 def _resolve_conflicts_and_supersession(claims: list[dict]) -> list[dict]:
@@ -931,6 +964,8 @@ def _change_payload(
     claims: list[dict],
     generated: datetime,
     baseline: bool,
+    *,
+    comparison_started_at: object = None,
 ) -> dict:
     active_conflicts = changes.get("active_conflicts", [])
     conflict_opened = changes.get("conflict_opened", [])
@@ -948,7 +983,17 @@ def _change_payload(
     return {
         "version": 1,
         "updated_at": generated.isoformat(),
-        "since": (generated.date() - timedelta(days=1)).isoformat(),
+        "since": str(
+            comparison_started_at
+            or (generated.date() - timedelta(days=1)).isoformat()
+        ),
+        "comparison_started_at": comparison_started_at,
+        "comparison_ended_at": generated.isoformat(),
+        "comparison_basis": (
+            "prior_successful_ledger_build"
+            if comparison_started_at
+            else "initial_daily_window"
+        ),
         "baseline_initialized": baseline,
         "scope_note": (
             "Material claim-level changes observed since the prior ledger build. The initial "
@@ -989,6 +1034,9 @@ def _change_ref(item: dict, change_type: str) -> dict:
         "object": item.get("object"),
         "authority": item.get("authority"),
         "confidence": item.get("confidence"),
+        "effective_date": item.get("effective_date"),
+        "first_observed_at": item.get("first_seen_at"),
+        "last_observed_at": item.get("last_seen_at"),
         "sources": item.get("sources", []),
     }
 

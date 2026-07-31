@@ -2,7 +2,7 @@
 
 > **Quantum Research Scout** · Intelligence archive and operational dashboard
 
-_Updated 2026-07-31 16:26 UTC_
+_Updated 2026-07-31 19:07 UTC_
 
 [Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
 
@@ -25,6 +25,8 @@ _Updated 2026-07-31 16:26 UTC_
 - Opportunity pursuit workspace: [pursuits](pursuits.md)
 - Evidence and claim ledger: [claim-ledger](claim-ledger.md)
 - What changed since yesterday: [intelligence-changes](intelligence-changes.md)
+- Temporal intelligence: [temporal-intelligence](temporal-intelligence.md)
+- Strategic forecast registry: [strategic-forecasts](strategic-forecasts.md)
 - Patent intelligence: [patents](patents.md)
 - Source health: [source-health](source-health.md)
 - Intelligence alerts: [alerts](alerts.md)

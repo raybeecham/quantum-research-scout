@@ -1,0 +1,3060 @@
+{
+  "active_forecasts": [
+    {
+      "baseline_record_keys": [
+        "grants_gov:DE-FOA-0003612",
+        "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf"
+      ],
+      "baseline_update_urls": [],
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 293000000.0,
+        "award_count": 3,
+        "known_award_value": 700700.0,
+        "lead_agencies": [
+          "Department of Energy",
+          "White House Office of Science and Technology Policy"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "genesis-robotic-lab-review",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
+          "target_date": "2026-07-22",
+          "timing": "awaiting_confirmation",
+          "title": "Review federal robotic and AI-directed laboratory capabilities"
+        },
+        "official_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
+        "open_opportunities": 1,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "MCKINSEY & COMPANY, INC. WASHINGTON D.C."
+        ],
+        "record_count": 6,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "AI-DRIVEN CROSS-CHANNEL FINANCIAL FRAUD DETECTION SYSTEM WITH QUANTUM-RESISTANT ENCRYPTION AND BLOCKCHAIN INTEGRATION",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025043982/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, advanced computing",
+            "relationship_confidence": "low",
+            "title": "ARTIFICIAL INTELLIGENCE-BASED SYSTEM FOR HIGH-AVAILABILITY ENTERPRISE OPERATIONS IN MULTI-CLOUD ENVIRONMENTS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19542585/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, advanced computing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-CLASSICAL AGENTIC ORCHESTRATION FOR FINANCIAL RISK MODELING AND ARCHITECTURAL DRIFT REMEDIATION IN MULTI-CLOUD ENVIRONMENTS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19542591/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, advanced computing",
+            "relationship_confidence": "low",
+            "title": "SYSTEM AND METHOD FOR FEDERATED AI-DRIVEN CONTROL AND OPTIMIZATION IN HYBRID CLOUD ENVIRONMENTS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19457302/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-07-31",
+          "role": "official award notice",
+          "title": "Genesis Mission RFA Awards List",
+          "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-07-29",
+          "role": "official funding announcement",
+          "title": "Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges",
+          "url": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-05-19",
+          "role": "official award",
+          "title": "GENESIS MISSION ACCELERATION",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-03-17",
+          "role": "official grant opportunity",
+          "title": "The Genesis Mission: Transforming Science and Energy with AI",
+          "url": "https://www.grants.gov/search-results-detail/361526"
+        },
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "Genesis Mission",
+          "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
+        }
+      ],
+      "forecast_id": "forecast-cbfcf8e866cfafcb",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-10-29",
+      "impact": "critical",
+      "initial_probability": 0.86,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.86,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "recent official funding activity",
+          "points": 0.18
+        },
+        {
+          "factor": "recent award execution",
+          "points": 0.12
+        },
+        {
+          "factor": "existing acquisition activity",
+          "points": 0.08
+        },
+        {
+          "factor": "multi-record execution trail",
+          "points": 0.06
+        },
+        {
+          "factor": "near-term mission milestone",
+          "points": 0.08
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.86,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-10-29?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:genesis-mission:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "status": "active",
+      "subject": "Genesis Mission",
+      "subject_id": "genesis-mission",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Additional linked federal opportunity",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [],
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 4,
+        "known_award_value": 3806978.41,
+        "lead_agencies": [
+          "Department of War",
+          "Golden Dome for America Office"
+        ],
+        "mission_status": "active",
+        "next_milestone": {},
+        "official_url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "CITY OF HUNTSVILLE",
+          "KPMG LLP"
+        ],
+        "record_count": 5,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Hardware-Anchored Diagnostic Genesis and Multimodal Sensor-Level Cryptographic Sealing System for Zero-Trust AI Acquisition",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19546361/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Safety Self Talks (SST) by Large Language Model in Semi or Fully Autonomous Vehicles",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455013/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-04-23",
+          "role": "official funding announcement",
+          "title": "Department reports initial architecture, command-and-control consortium, and active contracts",
+          "url": "https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-04-01",
+          "role": "official award",
+          "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-"
+        },
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "Golden Dome for America",
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/"
+        }
+      ],
+      "forecast_id": "forecast-6e261e95b74789bb",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-10-29",
+      "impact": "critical",
+      "initial_probability": 0.74,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.74,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "recent official funding activity",
+          "points": 0.18
+        },
+        {
+          "factor": "recent award execution",
+          "points": 0.12
+        },
+        {
+          "factor": "multi-record execution trail",
+          "points": 0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.74,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-10-29?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:golden-dome:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "status": "active",
+      "subject": "Golden Dome for America",
+      "subject_id": "golden-dome",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Additional linked federal opportunity",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [
+        "https://www.grants.gov/search-results-detail/359280",
+        "https://www.grants.gov/search-results-detail/362488",
+        "https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700"
+      ],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 2,
+        "known_award_value": 8696390.0,
+        "lead_agencies": [
+          "Defense Advanced Research Projects Agency"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "qbi-qbit-abstracts",
+          "source_url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit",
+          "target_date": "2026-07-31",
+          "timing": "due_soon",
+          "title": "Receive abstracts for the expanded QBIT Stage A solicitation"
+        },
+        "official_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "UNIVERSITY OF MARYLAND, COLLEGE PARK"
+        ],
+        "record_count": 2,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "recipient/contractor assignee match",
+            "relationship_confidence": "high",
+            "title": "QUANTUM NETWORK NODE AND PROTOCOLS WITH MULTIPLE QUBIT SPECIES",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18967099/application-data"
+          },
+          {
+            "relationship_basis": "recipient/contractor assignee match",
+            "relationship_confidence": "high",
+            "title": "ULTRA-LOW NOISE QUANTUM FREQUENCY CONVERSION FOR TRAPPED ION QUANTUM NETWORK",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19110651/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "Mechanism for Post-Quantum Cryptographic Key Material Resilience",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-07-31",
+          "role": "official milestone",
+          "title": "Receive abstracts for the expanded QBIT Stage A solicitation",
+          "url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit"
+        }
+      ],
+      "forecast_id": "forecast-8cc89e744f10f7c2",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2026-08-07",
+      "impact": "critical",
+      "initial_probability": 0.78,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.78,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.64
+        },
+        {
+          "factor": "exact target date",
+          "points": 0.08
+        },
+        {
+          "factor": "observable mission update stream",
+          "points": 0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.78,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cReceive abstracts for the expanded QBIT Stage A solicitation\u201d by 2026-08-07?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:darpa-qbi:qbi-qbit-abstracts",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "qbi-qbit-abstracts",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "abstracts",
+          "expanded",
+          "qbit",
+          "receive",
+          "solicitation",
+          "stage"
+        ]
+      },
+      "status": "active",
+      "subject": "DARPA Quantum Benchmarking Initiative",
+      "subject_id": "darpa-qbi",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "White House Office of Science and Technology Policy",
+          "Department of Energy"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "qc-adds-specifications",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/",
+          "target_date": "2026-09-20",
+          "timing": "due_soon",
+          "title": "Publish a summary of QC-ADDS technical specifications"
+        },
+        "official_url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 0,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "Mechanism for Post-Quantum Cryptographic Key Material Resilience",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "METHOD AND SYSTEM FOR SECURING POST-QUANTUM BLOCKCHAINS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19404287/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "METHOD FOR OPTIMIZING AN EXECUTION OF A GENERATION OF A CRYSTALS-DILITHIUM POST-QUANTUM SIGNATURE",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19157393/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-09-20",
+          "role": "official milestone",
+          "title": "Publish a summary of QC-ADDS technical specifications",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
+        }
+      ],
+      "forecast_id": "forecast-61975964e326a862",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2026-09-27",
+      "impact": "critical",
+      "initial_probability": 0.72,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.72,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.64
+        },
+        {
+          "factor": "exact target date",
+          "points": 0.08
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.72,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cPublish a summary of QC-ADDS technical specifications\u201d by 2026-09-27?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:qc-adds:qc-adds-specifications",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "qc-adds-specifications",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "adds",
+          "publish",
+          "specifications",
+          "summary",
+          "technical"
+        ]
+      },
+      "status": "active",
+      "subject": "QC-ADDS",
+      "subject_id": "qc-adds",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [
+        "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+        "https://www.grants.gov/search-results-detail/359271",
+        "https://www.grants.gov/search-results-detail/363105"
+      ],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "Defense Advanced Research Projects Agency",
+          "National Science Foundation"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "ai-forge-forum",
+          "source_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+          "target_date": "2026-09-22",
+          "timing": "estimated",
+          "title": "Launch the AI Forge university-industry-government forum"
+        },
+        "official_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 1,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Stateful pretrained transformers in a generative response engine",
+            "url": "https://patents.google.com/patent/US12400074B1/en"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "SYSTEM AND METHOD FOR DETECTING MALICIOUS MESSAGES GENERATED BY A LARGE LANGUAGE MODEL (LLM)",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19573062/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "LARGE LANGUAGE MODEL (LLM) INTERACTION SECURITY SANDBOX",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19577172/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "ZERO-TRUST MULTI-AGENT GOVERNANCE FRAMEWORK FOR CLINICAL ARTIFICIAL INTELLIGENCE",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455879/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-09-22",
+          "role": "official milestone",
+          "title": "Launch the AI Forge university-industry-government forum",
+          "url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
+        }
+      ],
+      "forecast_id": "forecast-d0dfab4debec31bd",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2026-09-29",
+      "impact": "critical",
+      "initial_probability": 0.7,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.7,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.64
+        },
+        {
+          "factor": "observable mission update stream",
+          "points": 0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.7,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cLaunch the AI Forge university-industry-government forum\u201d by 2026-09-29?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:ai-forge:ai-forge-forum",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "ai-forge-forum",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "forge",
+          "forum",
+          "government",
+          "industry",
+          "launch",
+          "university"
+        ]
+      },
+      "status": "active",
+      "subject": "AI Forge",
+      "subject_id": "ai-forge",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [
+        "https://www.grants.gov/search-results-detail/322815",
+        "https://www.grants.gov/search-results-detail/325599",
+        "https://www.grants.gov/search-results-detail/328573",
+        "https://www.grants.gov/search-results-detail/331311",
+        "https://www.grants.gov/search-results-detail/348746",
+        "https://www.grants.gov/search-results-detail/350230",
+        "https://www.grants.gov/search-results-detail/356129",
+        "https://www.grants.gov/search-results-detail/362787",
+        "https://www.grants.gov/search-results-detail/362910",
+        "https://www.grants.gov/search-results-detail/363079",
+        "https://www.grants.gov/search-results-detail/363369",
+        "https://www.grants.gov/search-results-detail/363370",
+        "https://www.grants.gov/search-results-detail/58617",
+        "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+      ],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "National Science Foundation"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "project-triad-nqvl-implementation",
+          "source_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+          "target_date": "2026-12-31",
+          "timing": "estimated",
+          "title": "Advance selected NSF NQVL projects from design to implementation"
+        },
+        "official_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 0,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "NEAR IR LUMINESCENCE AND OPTICALLY ADDRESSABLE QUANTUM SENSING AND MAGNETIC IMAGING WITH RADICALOID TETRATHIAFULVALENE TETRATHIOLATES",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Portable Quantum Sensing Device",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-12-31",
+          "role": "official milestone",
+          "title": "Advance selected NSF NQVL projects from design to implementation",
+          "url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+        }
+      ],
+      "forecast_id": "forecast-86721c04d1187ca9",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2027-01-07",
+      "impact": "critical",
+      "initial_probability": 0.7,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.7,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.64
+        },
+        {
+          "factor": "observable mission update stream",
+          "points": 0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.7,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cAdvance selected NSF NQVL projects from design to implementation\u201d by 2027-01-07?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:project-triad:project-triad-nqvl-implementation",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "project-triad-nqvl-implementation",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "advance",
+          "design",
+          "implementation",
+          "nqvl",
+          "projects",
+          "selected"
+        ]
+      },
+      "status": "active",
+      "subject": "Project Triad",
+      "subject_id": "project-triad",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [
+        "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science",
+        "https://www.energy.gov/articles/energy-department-launches-genesis-mission-transform-american-science-and-innovation",
+        "https://www.energy.gov/articles/secretary-energy-chris-wright-announces-first-genesis-mission-projects-selected-accelerate",
+        "https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps",
+        "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf",
+        "https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf",
+        "https://www.energy.gov/sites/default/files/2026-07/Genesis-University-Summit-Breakout-Summaries-Report.pdf",
+        "https://www.energy.gov/undersecretaryforscience/articles/us-department-energy-announces-more-800-million-partner",
+        "https://www.energy.gov/undersecretaryforscience/genesis-mission/american-science-and-security-platform",
+        "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
+        "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission-collaboration",
+        "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission-national-science-and-technology-challenges",
+        "https://www.grants.gov/search-results-detail/361526",
+        "https://www.nsf.gov/news/statement-nsf-chief-staff-brian-stone-performing-duties-nsf-1",
+        "https://www.usaspending.gov/award/ASST_NON_80NSSC17K0018_080",
+        "https://www.usaspending.gov/award/ASST_NON_80NSSC19K0939_080",
+        "https://www.usaspending.gov/award/ASST_NON_NNX17AE73G_080",
+        "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732",
+        "https://www.war.gov/News/Releases/Release/Article/4551998/department-of-war-partners-with-the-genesis-mission-to-proliferate-ai-for-scien"
+      ],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-07-31T19:06:16.688597+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 293000000.0,
+        "award_count": 3,
+        "known_award_value": 700700.0,
+        "lead_agencies": [
+          "Department of Energy",
+          "White House Office of Science and Technology Policy"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "genesis-robotic-lab-review",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
+          "target_date": "2026-07-22",
+          "timing": "awaiting_confirmation",
+          "title": "Review federal robotic and AI-directed laboratory capabilities"
+        },
+        "official_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
+        "open_opportunities": 1,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "MCKINSEY & COMPANY, INC. WASHINGTON D.C."
+        ],
+        "record_count": 6,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "AI-DRIVEN CROSS-CHANNEL FINANCIAL FRAUD DETECTION SYSTEM WITH QUANTUM-RESISTANT ENCRYPTION AND BLOCKCHAIN INTEGRATION",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025043982/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, advanced computing",
+            "relationship_confidence": "low",
+            "title": "ARTIFICIAL INTELLIGENCE-BASED SYSTEM FOR HIGH-AVAILABILITY ENTERPRISE OPERATIONS IN MULTI-CLOUD ENVIRONMENTS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19542585/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, advanced computing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-CLASSICAL AGENTIC ORCHESTRATION FOR FINANCIAL RISK MODELING AND ARCHITECTURAL DRIFT REMEDIATION IN MULTI-CLOUD ENVIRONMENTS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19542591/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, advanced computing",
+            "relationship_confidence": "low",
+            "title": "SYSTEM AND METHOD FOR FEDERATED AI-DRIVEN CONTROL AND OPTIMIZATION IN HYBRID CLOUD ENVIRONMENTS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19457302/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-07-22",
+          "role": "official milestone",
+          "title": "Review federal robotic and AI-directed laboratory capabilities",
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/"
+        }
+      ],
+      "forecast_id": "forecast-8a2ce77d89c715ae",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2026-08-30",
+      "impact": "critical",
+      "initial_probability": 0.65,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.65,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.55
+        },
+        {
+          "factor": "exact target date",
+          "points": 0.08
+        },
+        {
+          "factor": "observable mission update stream",
+          "points": 0.06
+        },
+        {
+          "factor": "confirmation delay",
+          "points": -0.04
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T19:06:16.688597+00:00",
+          "probability": 0.65,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cReview federal robotic and AI-directed laboratory capabilities\u201d by 2026-08-30?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:genesis-mission:genesis-robotic-lab-review",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "genesis-robotic-lab-review",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "capabilities",
+          "directed",
+          "federal",
+          "laboratory",
+          "review",
+          "robotic"
+        ]
+      },
+      "status": "active",
+      "subject": "Genesis Mission",
+      "subject_id": "genesis-mission",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [
+        "https://www.war.gov/News/Releases/Release/Article/4526862/dow-unleashes-agent-network-to-transform-ai-enabled-battle-management-and-targe"
+      ],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-07-31T19:06:16.688597+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "Department of War",
+          "Chief Digital and Artificial Intelligence Office",
+          "Office of the Under Secretary of War for Research and Engineering"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "military-ai-initial-user-demonstrations",
+          "source_url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
+          "target_date": "2026-07-09",
+          "timing": "awaiting_confirmation",
+          "title": "Conduct initial Pace-Setting Project demonstrations with transition-partner users"
+        },
+        "official_url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 0,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Hardware-Anchored Diagnostic Genesis and Multimodal Sensor-Level Cryptographic Sealing System for Zero-Trust AI Acquisition",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19546361/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Safety Self Talks (SST) by Large Language Model in Semi or Fully Autonomous Vehicles",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455013/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-07-09",
+          "role": "official milestone",
+          "title": "Conduct initial Pace-Setting Project demonstrations with transition-partner users",
+          "url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF"
+        }
+      ],
+      "forecast_id": "forecast-d673263d951ffdd7",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2026-08-30",
+      "impact": "critical",
+      "initial_probability": 0.62,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.62,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.55
+        },
+        {
+          "factor": "exact target date",
+          "points": 0.08
+        },
+        {
+          "factor": "observable mission update stream",
+          "points": 0.06
+        },
+        {
+          "factor": "confirmation delay",
+          "points": -0.07
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T19:06:16.688597+00:00",
+          "probability": 0.62,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cConduct initial Pace-Setting Project demonstrations with transition-partner users\u201d by 2026-08-30?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:military-ai-pace-setting-projects:military-ai-initial-user-demonstrations",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "military-ai-initial-user-demonstrations",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "conduct",
+          "demonstrations",
+          "initial",
+          "pace",
+          "partner",
+          "project",
+          "setting",
+          "transition",
+          "users"
+        ]
+      },
+      "status": "active",
+      "subject": "Military AI Pace-Setting Projects",
+      "subject_id": "military-ai-pace-setting-projects",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
+    }
+  ],
+  "calibration": {
+    "accuracy_rate": null,
+    "bins": [],
+    "label": "Awaiting outcomes",
+    "mean_brier_score": null,
+    "resolved_count": 0
+  },
+  "forecasts": [
+    {
+      "baseline_record_keys": [
+        "grants_gov:DE-FOA-0003612",
+        "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf"
+      ],
+      "baseline_update_urls": [],
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 293000000.0,
+        "award_count": 3,
+        "known_award_value": 700700.0,
+        "lead_agencies": [
+          "Department of Energy",
+          "White House Office of Science and Technology Policy"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "genesis-robotic-lab-review",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
+          "target_date": "2026-07-22",
+          "timing": "awaiting_confirmation",
+          "title": "Review federal robotic and AI-directed laboratory capabilities"
+        },
+        "official_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
+        "open_opportunities": 1,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "MCKINSEY & COMPANY, INC. WASHINGTON D.C."
+        ],
+        "record_count": 6,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "AI-DRIVEN CROSS-CHANNEL FINANCIAL FRAUD DETECTION SYSTEM WITH QUANTUM-RESISTANT ENCRYPTION AND BLOCKCHAIN INTEGRATION",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025043982/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, advanced computing",
+            "relationship_confidence": "low",
+            "title": "ARTIFICIAL INTELLIGENCE-BASED SYSTEM FOR HIGH-AVAILABILITY ENTERPRISE OPERATIONS IN MULTI-CLOUD ENVIRONMENTS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19542585/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, advanced computing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-CLASSICAL AGENTIC ORCHESTRATION FOR FINANCIAL RISK MODELING AND ARCHITECTURAL DRIFT REMEDIATION IN MULTI-CLOUD ENVIRONMENTS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19542591/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, advanced computing",
+            "relationship_confidence": "low",
+            "title": "SYSTEM AND METHOD FOR FEDERATED AI-DRIVEN CONTROL AND OPTIMIZATION IN HYBRID CLOUD ENVIRONMENTS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19457302/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-07-31",
+          "role": "official award notice",
+          "title": "Genesis Mission RFA Awards List",
+          "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-07-29",
+          "role": "official funding announcement",
+          "title": "Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges",
+          "url": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-05-19",
+          "role": "official award",
+          "title": "GENESIS MISSION ACCELERATION",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-03-17",
+          "role": "official grant opportunity",
+          "title": "The Genesis Mission: Transforming Science and Energy with AI",
+          "url": "https://www.grants.gov/search-results-detail/361526"
+        },
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "Genesis Mission",
+          "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
+        }
+      ],
+      "forecast_id": "forecast-cbfcf8e866cfafcb",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-10-29",
+      "impact": "critical",
+      "initial_probability": 0.86,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.86,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "recent official funding activity",
+          "points": 0.18
+        },
+        {
+          "factor": "recent award execution",
+          "points": 0.12
+        },
+        {
+          "factor": "existing acquisition activity",
+          "points": 0.08
+        },
+        {
+          "factor": "multi-record execution trail",
+          "points": 0.06
+        },
+        {
+          "factor": "near-term mission milestone",
+          "points": 0.08
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.86,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-10-29?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:genesis-mission:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "status": "active",
+      "subject": "Genesis Mission",
+      "subject_id": "genesis-mission",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Additional linked federal opportunity",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [],
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 4,
+        "known_award_value": 3806978.41,
+        "lead_agencies": [
+          "Department of War",
+          "Golden Dome for America Office"
+        ],
+        "mission_status": "active",
+        "next_milestone": {},
+        "official_url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "CITY OF HUNTSVILLE",
+          "KPMG LLP"
+        ],
+        "record_count": 5,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Hardware-Anchored Diagnostic Genesis and Multimodal Sensor-Level Cryptographic Sealing System for Zero-Trust AI Acquisition",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19546361/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Safety Self Talks (SST) by Large Language Model in Semi or Fully Autonomous Vehicles",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455013/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-04-23",
+          "role": "official funding announcement",
+          "title": "Department reports initial architecture, command-and-control consortium, and active contracts",
+          "url": "https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-04-01",
+          "role": "official award",
+          "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-"
+        },
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "Golden Dome for America",
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/"
+        }
+      ],
+      "forecast_id": "forecast-6e261e95b74789bb",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-10-29",
+      "impact": "critical",
+      "initial_probability": 0.74,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.74,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "recent official funding activity",
+          "points": 0.18
+        },
+        {
+          "factor": "recent award execution",
+          "points": 0.12
+        },
+        {
+          "factor": "multi-record execution trail",
+          "points": 0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.74,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-10-29?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:golden-dome:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "status": "active",
+      "subject": "Golden Dome for America",
+      "subject_id": "golden-dome",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Additional linked federal opportunity",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [
+        "https://www.grants.gov/search-results-detail/359280",
+        "https://www.grants.gov/search-results-detail/362488",
+        "https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700"
+      ],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 2,
+        "known_award_value": 8696390.0,
+        "lead_agencies": [
+          "Defense Advanced Research Projects Agency"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "qbi-qbit-abstracts",
+          "source_url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit",
+          "target_date": "2026-07-31",
+          "timing": "due_soon",
+          "title": "Receive abstracts for the expanded QBIT Stage A solicitation"
+        },
+        "official_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "UNIVERSITY OF MARYLAND, COLLEGE PARK"
+        ],
+        "record_count": 2,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "recipient/contractor assignee match",
+            "relationship_confidence": "high",
+            "title": "QUANTUM NETWORK NODE AND PROTOCOLS WITH MULTIPLE QUBIT SPECIES",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18967099/application-data"
+          },
+          {
+            "relationship_basis": "recipient/contractor assignee match",
+            "relationship_confidence": "high",
+            "title": "ULTRA-LOW NOISE QUANTUM FREQUENCY CONVERSION FOR TRAPPED ION QUANTUM NETWORK",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19110651/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "Mechanism for Post-Quantum Cryptographic Key Material Resilience",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-07-31",
+          "role": "official milestone",
+          "title": "Receive abstracts for the expanded QBIT Stage A solicitation",
+          "url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit"
+        }
+      ],
+      "forecast_id": "forecast-8cc89e744f10f7c2",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2026-08-07",
+      "impact": "critical",
+      "initial_probability": 0.78,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.78,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.64
+        },
+        {
+          "factor": "exact target date",
+          "points": 0.08
+        },
+        {
+          "factor": "observable mission update stream",
+          "points": 0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.78,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cReceive abstracts for the expanded QBIT Stage A solicitation\u201d by 2026-08-07?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:darpa-qbi:qbi-qbit-abstracts",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "qbi-qbit-abstracts",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "abstracts",
+          "expanded",
+          "qbit",
+          "receive",
+          "solicitation",
+          "stage"
+        ]
+      },
+      "status": "active",
+      "subject": "DARPA Quantum Benchmarking Initiative",
+      "subject_id": "darpa-qbi",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "White House Office of Science and Technology Policy",
+          "Department of Energy"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "qc-adds-specifications",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/",
+          "target_date": "2026-09-20",
+          "timing": "due_soon",
+          "title": "Publish a summary of QC-ADDS technical specifications"
+        },
+        "official_url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 0,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "Mechanism for Post-Quantum Cryptographic Key Material Resilience",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "METHOD AND SYSTEM FOR SECURING POST-QUANTUM BLOCKCHAINS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19404287/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "METHOD FOR OPTIMIZING AN EXECUTION OF A GENERATION OF A CRYSTALS-DILITHIUM POST-QUANTUM SIGNATURE",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19157393/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-09-20",
+          "role": "official milestone",
+          "title": "Publish a summary of QC-ADDS technical specifications",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
+        }
+      ],
+      "forecast_id": "forecast-61975964e326a862",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2026-09-27",
+      "impact": "critical",
+      "initial_probability": 0.72,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.72,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.64
+        },
+        {
+          "factor": "exact target date",
+          "points": 0.08
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.72,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cPublish a summary of QC-ADDS technical specifications\u201d by 2026-09-27?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:qc-adds:qc-adds-specifications",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "qc-adds-specifications",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "adds",
+          "publish",
+          "specifications",
+          "summary",
+          "technical"
+        ]
+      },
+      "status": "active",
+      "subject": "QC-ADDS",
+      "subject_id": "qc-adds",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [
+        "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+        "https://www.grants.gov/search-results-detail/359271",
+        "https://www.grants.gov/search-results-detail/363105"
+      ],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "Defense Advanced Research Projects Agency",
+          "National Science Foundation"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "ai-forge-forum",
+          "source_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+          "target_date": "2026-09-22",
+          "timing": "estimated",
+          "title": "Launch the AI Forge university-industry-government forum"
+        },
+        "official_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 1,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Stateful pretrained transformers in a generative response engine",
+            "url": "https://patents.google.com/patent/US12400074B1/en"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "SYSTEM AND METHOD FOR DETECTING MALICIOUS MESSAGES GENERATED BY A LARGE LANGUAGE MODEL (LLM)",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19573062/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "LARGE LANGUAGE MODEL (LLM) INTERACTION SECURITY SANDBOX",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19577172/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "ZERO-TRUST MULTI-AGENT GOVERNANCE FRAMEWORK FOR CLINICAL ARTIFICIAL INTELLIGENCE",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455879/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-09-22",
+          "role": "official milestone",
+          "title": "Launch the AI Forge university-industry-government forum",
+          "url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
+        }
+      ],
+      "forecast_id": "forecast-d0dfab4debec31bd",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2026-09-29",
+      "impact": "critical",
+      "initial_probability": 0.7,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.7,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.64
+        },
+        {
+          "factor": "observable mission update stream",
+          "points": 0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.7,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cLaunch the AI Forge university-industry-government forum\u201d by 2026-09-29?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:ai-forge:ai-forge-forum",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "ai-forge-forum",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "forge",
+          "forum",
+          "government",
+          "industry",
+          "launch",
+          "university"
+        ]
+      },
+      "status": "active",
+      "subject": "AI Forge",
+      "subject_id": "ai-forge",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [
+        "https://www.grants.gov/search-results-detail/322815",
+        "https://www.grants.gov/search-results-detail/325599",
+        "https://www.grants.gov/search-results-detail/328573",
+        "https://www.grants.gov/search-results-detail/331311",
+        "https://www.grants.gov/search-results-detail/348746",
+        "https://www.grants.gov/search-results-detail/350230",
+        "https://www.grants.gov/search-results-detail/356129",
+        "https://www.grants.gov/search-results-detail/362787",
+        "https://www.grants.gov/search-results-detail/362910",
+        "https://www.grants.gov/search-results-detail/363079",
+        "https://www.grants.gov/search-results-detail/363369",
+        "https://www.grants.gov/search-results-detail/363370",
+        "https://www.grants.gov/search-results-detail/58617",
+        "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+      ],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "National Science Foundation"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "project-triad-nqvl-implementation",
+          "source_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+          "target_date": "2026-12-31",
+          "timing": "estimated",
+          "title": "Advance selected NSF NQVL projects from design to implementation"
+        },
+        "official_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 0,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "NEAR IR LUMINESCENCE AND OPTICALLY ADDRESSABLE QUANTUM SENSING AND MAGNETIC IMAGING WITH RADICALOID TETRATHIAFULVALENE TETRATHIOLATES",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Portable Quantum Sensing Device",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-12-31",
+          "role": "official milestone",
+          "title": "Advance selected NSF NQVL projects from design to implementation",
+          "url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+        }
+      ],
+      "forecast_id": "forecast-86721c04d1187ca9",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2027-01-07",
+      "impact": "critical",
+      "initial_probability": 0.7,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.7,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.64
+        },
+        {
+          "factor": "observable mission update stream",
+          "points": 0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.7,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cAdvance selected NSF NQVL projects from design to implementation\u201d by 2027-01-07?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:project-triad:project-triad-nqvl-implementation",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "project-triad-nqvl-implementation",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "advance",
+          "design",
+          "implementation",
+          "nqvl",
+          "projects",
+          "selected"
+        ]
+      },
+      "status": "active",
+      "subject": "Project Triad",
+      "subject_id": "project-triad",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [
+        "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science",
+        "https://www.energy.gov/articles/energy-department-launches-genesis-mission-transform-american-science-and-innovation",
+        "https://www.energy.gov/articles/secretary-energy-chris-wright-announces-first-genesis-mission-projects-selected-accelerate",
+        "https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps",
+        "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf",
+        "https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf",
+        "https://www.energy.gov/sites/default/files/2026-07/Genesis-University-Summit-Breakout-Summaries-Report.pdf",
+        "https://www.energy.gov/undersecretaryforscience/articles/us-department-energy-announces-more-800-million-partner",
+        "https://www.energy.gov/undersecretaryforscience/genesis-mission/american-science-and-security-platform",
+        "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
+        "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission-collaboration",
+        "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission-national-science-and-technology-challenges",
+        "https://www.grants.gov/search-results-detail/361526",
+        "https://www.nsf.gov/news/statement-nsf-chief-staff-brian-stone-performing-duties-nsf-1",
+        "https://www.usaspending.gov/award/ASST_NON_80NSSC17K0018_080",
+        "https://www.usaspending.gov/award/ASST_NON_80NSSC19K0939_080",
+        "https://www.usaspending.gov/award/ASST_NON_NNX17AE73G_080",
+        "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732",
+        "https://www.war.gov/News/Releases/Release/Article/4551998/department-of-war-partners-with-the-genesis-mission-to-proliferate-ai-for-scien"
+      ],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-07-31T19:06:16.688597+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 293000000.0,
+        "award_count": 3,
+        "known_award_value": 700700.0,
+        "lead_agencies": [
+          "Department of Energy",
+          "White House Office of Science and Technology Policy"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "genesis-robotic-lab-review",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
+          "target_date": "2026-07-22",
+          "timing": "awaiting_confirmation",
+          "title": "Review federal robotic and AI-directed laboratory capabilities"
+        },
+        "official_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
+        "open_opportunities": 1,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "MCKINSEY & COMPANY, INC. WASHINGTON D.C."
+        ],
+        "record_count": 6,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "AI-DRIVEN CROSS-CHANNEL FINANCIAL FRAUD DETECTION SYSTEM WITH QUANTUM-RESISTANT ENCRYPTION AND BLOCKCHAIN INTEGRATION",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025043982/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, advanced computing",
+            "relationship_confidence": "low",
+            "title": "ARTIFICIAL INTELLIGENCE-BASED SYSTEM FOR HIGH-AVAILABILITY ENTERPRISE OPERATIONS IN MULTI-CLOUD ENVIRONMENTS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19542585/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, advanced computing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-CLASSICAL AGENTIC ORCHESTRATION FOR FINANCIAL RISK MODELING AND ARCHITECTURAL DRIFT REMEDIATION IN MULTI-CLOUD ENVIRONMENTS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19542591/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, advanced computing",
+            "relationship_confidence": "low",
+            "title": "SYSTEM AND METHOD FOR FEDERATED AI-DRIVEN CONTROL AND OPTIMIZATION IN HYBRID CLOUD ENVIRONMENTS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19457302/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-07-22",
+          "role": "official milestone",
+          "title": "Review federal robotic and AI-directed laboratory capabilities",
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/"
+        }
+      ],
+      "forecast_id": "forecast-8a2ce77d89c715ae",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2026-08-30",
+      "impact": "critical",
+      "initial_probability": 0.65,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.65,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.55
+        },
+        {
+          "factor": "exact target date",
+          "points": 0.08
+        },
+        {
+          "factor": "observable mission update stream",
+          "points": 0.06
+        },
+        {
+          "factor": "confirmation delay",
+          "points": -0.04
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T19:06:16.688597+00:00",
+          "probability": 0.65,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cReview federal robotic and AI-directed laboratory capabilities\u201d by 2026-08-30?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:genesis-mission:genesis-robotic-lab-review",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "genesis-robotic-lab-review",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "capabilities",
+          "directed",
+          "federal",
+          "laboratory",
+          "review",
+          "robotic"
+        ]
+      },
+      "status": "active",
+      "subject": "Genesis Mission",
+      "subject_id": "genesis-mission",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [
+        "https://www.war.gov/News/Releases/Release/Article/4526862/dow-unleashes-agent-network-to-transform-ai-enabled-battle-management-and-targe"
+      ],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-07-31T19:06:16.688597+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "Department of War",
+          "Chief Digital and Artificial Intelligence Office",
+          "Office of the Under Secretary of War for Research and Engineering"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "military-ai-initial-user-demonstrations",
+          "source_url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
+          "target_date": "2026-07-09",
+          "timing": "awaiting_confirmation",
+          "title": "Conduct initial Pace-Setting Project demonstrations with transition-partner users"
+        },
+        "official_url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 0,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Hardware-Anchored Diagnostic Genesis and Multimodal Sensor-Level Cryptographic Sealing System for Zero-Trust AI Acquisition",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19546361/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Safety Self Talks (SST) by Large Language Model in Semi or Fully Autonomous Vehicles",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455013/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-07-09",
+          "role": "official milestone",
+          "title": "Conduct initial Pace-Setting Project demonstrations with transition-partner users",
+          "url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF"
+        }
+      ],
+      "forecast_id": "forecast-d673263d951ffdd7",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2026-08-30",
+      "impact": "critical",
+      "initial_probability": 0.62,
+      "last_evaluated_at": "2026-07-31T19:07:52.090793+00:00",
+      "outcome": null,
+      "probability": 0.62,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.55
+        },
+        {
+          "factor": "exact target date",
+          "points": 0.08
+        },
+        {
+          "factor": "observable mission update stream",
+          "points": 0.06
+        },
+        {
+          "factor": "confirmation delay",
+          "points": -0.07
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T19:06:16.688597+00:00",
+          "probability": 0.62,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cConduct initial Pace-Setting Project demonstrations with transition-partner users\u201d by 2026-08-30?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:military-ai-pace-setting-projects:military-ai-initial-user-demonstrations",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "military-ai-initial-user-demonstrations",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "conduct",
+          "demonstrations",
+          "initial",
+          "pace",
+          "partner",
+          "project",
+          "setting",
+          "transition",
+          "users"
+        ]
+      },
+      "status": "active",
+      "subject": "Military AI Pace-Setting Projects",
+      "subject_id": "military-ai-pace-setting-projects",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [],
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "Department of War",
+          "Chief Digital and Artificial Intelligence Office",
+          "Office of the Under Secretary of War for Research and Engineering"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "military-ai-initial-user-demonstrations",
+          "source_url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
+          "target_date": "2026-07-09",
+          "timing": "awaiting_confirmation",
+          "title": "Conduct initial Pace-Setting Project demonstrations with transition-partner users"
+        },
+        "official_url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 2,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Hardware-Anchored Diagnostic Genesis and Multimodal Sensor-Level Cryptographic Sealing System for Zero-Trust AI Acquisition",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19546361/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Safety Self Talks (SST) by Large Language Model in Semi or Fully Autonomous Vehicles",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455013/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-05-20",
+          "role": "official funding announcement",
+          "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+          "url": "https://www.grants.gov/search-results-detail/362498"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-04-22",
+          "role": "official funding announcement",
+          "title": "Tribal Colleges Research Grants Program",
+          "url": "https://www.grants.gov/search-results-detail/362029"
+        },
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "Military AI Pace-Setting Projects",
+          "url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF"
+        }
+      ],
+      "forecast_id": "forecast-0c63eebf22a2f48c",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-10-29",
+      "impact": "critical",
+      "initial_probability": 0.64,
+      "invalidated_at": "2026-07-31T19:06:16.688597+00:00",
+      "invalidation_reason": "The upstream mission relationship no longer has qualifying evidence. This forecast is withdrawn without affecting calibration.",
+      "last_evaluated_at": "2026-07-31T19:04:34.850035+00:00",
+      "outcome": null,
+      "probability": 0.64,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "recent official funding activity",
+          "points": 0.18
+        },
+        {
+          "factor": "near-term mission milestone",
+          "points": 0.08
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.64,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Military AI Pace-Setting Projects by 2026-10-29?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:military-ai-pace-setting-projects:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "status": "invalidated",
+      "subject": "Military AI Pace-Setting Projects",
+      "subject_id": "military-ai-pace-setting-projects",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Additional linked federal opportunity",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [],
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "National Science Foundation"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "project-triad-nqvl-implementation",
+          "source_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+          "target_date": "2026-12-31",
+          "timing": "estimated",
+          "title": "Advance selected NSF NQVL projects from design to implementation"
+        },
+        "official_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 3,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "NEAR IR LUMINESCENCE AND OPTICALLY ADDRESSABLE QUANTUM SENSING AND MAGNETIC IMAGING WITH RADICALOID TETRATHIAFULVALENE TETRATHIOLATES",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Portable Quantum Sensing Device",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-07-29",
+          "role": "official funding announcement",
+          "title": "U.S. Embassy Jakarta Media Small Grants Competition",
+          "url": "https://www.grants.gov/search-results-detail/363370"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-07-07",
+          "role": "official funding announcement",
+          "title": "Public Diplomacy Small Grants Competition",
+          "url": "https://www.grants.gov/search-results-detail/363079"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-06-23",
+          "role": "official funding announcement",
+          "title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+          "url": "https://www.grants.gov/search-results-detail/362910"
+        },
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "Project Triad",
+          "url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+        }
+      ],
+      "forecast_id": "forecast-17b8581b742d2597",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-10-29",
+      "impact": "critical",
+      "initial_probability": 0.62,
+      "invalidated_at": "2026-07-31T19:06:16.688597+00:00",
+      "invalidation_reason": "The upstream mission relationship no longer has qualifying evidence. This forecast is withdrawn without affecting calibration.",
+      "last_evaluated_at": "2026-07-31T19:04:34.850035+00:00",
+      "outcome": null,
+      "probability": 0.62,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "recent official funding activity",
+          "points": 0.18
+        },
+        {
+          "factor": "multi-record execution trail",
+          "points": 0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.62,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Project Triad by 2026-10-29?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:project-triad:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "status": "invalidated",
+      "subject": "Project Triad",
+      "subject_id": "project-triad",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Additional linked federal opportunity",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "not_observed"
+        }
+      ]
+    }
+  ],
+  "invalidated_forecasts": [
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [],
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "Department of War",
+          "Chief Digital and Artificial Intelligence Office",
+          "Office of the Under Secretary of War for Research and Engineering"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "military-ai-initial-user-demonstrations",
+          "source_url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
+          "target_date": "2026-07-09",
+          "timing": "awaiting_confirmation",
+          "title": "Conduct initial Pace-Setting Project demonstrations with transition-partner users"
+        },
+        "official_url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 2,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Hardware-Anchored Diagnostic Genesis and Multimodal Sensor-Level Cryptographic Sealing System for Zero-Trust AI Acquisition",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19546361/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Safety Self Talks (SST) by Large Language Model in Semi or Fully Autonomous Vehicles",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455013/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-05-20",
+          "role": "official funding announcement",
+          "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+          "url": "https://www.grants.gov/search-results-detail/362498"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-04-22",
+          "role": "official funding announcement",
+          "title": "Tribal Colleges Research Grants Program",
+          "url": "https://www.grants.gov/search-results-detail/362029"
+        },
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "Military AI Pace-Setting Projects",
+          "url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF"
+        }
+      ],
+      "forecast_id": "forecast-0c63eebf22a2f48c",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-10-29",
+      "impact": "critical",
+      "initial_probability": 0.64,
+      "invalidated_at": "2026-07-31T19:06:16.688597+00:00",
+      "invalidation_reason": "The upstream mission relationship no longer has qualifying evidence. This forecast is withdrawn without affecting calibration.",
+      "last_evaluated_at": "2026-07-31T19:04:34.850035+00:00",
+      "outcome": null,
+      "probability": 0.64,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "recent official funding activity",
+          "points": 0.18
+        },
+        {
+          "factor": "near-term mission milestone",
+          "points": 0.08
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.64,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Military AI Pace-Setting Projects by 2026-10-29?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:military-ai-pace-setting-projects:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "status": "invalidated",
+      "subject": "Military AI Pace-Setting Projects",
+      "subject_id": "military-ai-pace-setting-projects",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Additional linked federal opportunity",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [],
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "National Science Foundation"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "project-triad-nqvl-implementation",
+          "source_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+          "target_date": "2026-12-31",
+          "timing": "estimated",
+          "title": "Advance selected NSF NQVL projects from design to implementation"
+        },
+        "official_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 3,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "NEAR IR LUMINESCENCE AND OPTICALLY ADDRESSABLE QUANTUM SENSING AND MAGNETIC IMAGING WITH RADICALOID TETRATHIAFULVALENE TETRATHIOLATES",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Portable Quantum Sensing Device",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-07-29",
+          "role": "official funding announcement",
+          "title": "U.S. Embassy Jakarta Media Small Grants Competition",
+          "url": "https://www.grants.gov/search-results-detail/363370"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-07-07",
+          "role": "official funding announcement",
+          "title": "Public Diplomacy Small Grants Competition",
+          "url": "https://www.grants.gov/search-results-detail/363079"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-06-23",
+          "role": "official funding announcement",
+          "title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+          "url": "https://www.grants.gov/search-results-detail/362910"
+        },
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "Project Triad",
+          "url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+        }
+      ],
+      "forecast_id": "forecast-17b8581b742d2597",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-10-29",
+      "impact": "critical",
+      "initial_probability": 0.62,
+      "invalidated_at": "2026-07-31T19:06:16.688597+00:00",
+      "invalidation_reason": "The upstream mission relationship no longer has qualifying evidence. This forecast is withdrawn without affecting calibration.",
+      "last_evaluated_at": "2026-07-31T19:04:34.850035+00:00",
+      "outcome": null,
+      "probability": 0.62,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "recent official funding activity",
+          "points": 0.18
+        },
+        {
+          "factor": "multi-record execution trail",
+          "points": 0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.62,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Project Triad by 2026-10-29?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:project-triad:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "status": "invalidated",
+      "subject": "Project Triad",
+      "subject_id": "project-triad",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Additional linked federal opportunity",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "not_observed"
+        }
+      ]
+    }
+  ],
+  "method_note": "Probabilities use bounded, published heuristics from mission priority, recent official activity, funding, awards, open opportunities, and milestone timing. Forecasts retain their probability history and are scored with the Brier rule after resolution. If supporting linkage is corrected, the forecast is withdrawn transparently and is not included in calibration.",
+  "resolved_forecasts": [],
+  "scope_note": "Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.",
+  "summary": {
+    "accuracy_rate": null,
+    "active": 8,
+    "calibration_label": "Awaiting outcomes",
+    "due_within_30_days": 3,
+    "invalidated": 2,
+    "mean_brier_score": null,
+    "observed_triggers": 0,
+    "resolved": 0
+  },
+  "temporal_context": {
+    "comparison_started_at": "2026-07-31T19:04:34.850035+00:00",
+    "historical_discoveries": 0
+  },
+  "updated_at": "2026-07-31T19:07:52.090793+00:00",
+  "version": 1
+}

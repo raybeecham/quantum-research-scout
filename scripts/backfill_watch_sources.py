@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+# ruff: noqa: E402
+
 import argparse
 import sys
 from copy import deepcopy
@@ -13,6 +15,8 @@ if str(PROJECT_ROOT) not in sys.path:
 from pqc_quantum_research_agent.classifier import classify_item
 from pqc_quantum_research_agent.capabilities import load_capability_profile
 from pqc_quantum_research_agent.claim_ledger import write_claim_ledger
+from pqc_quantum_research_agent.temporal_intelligence import write_temporal_intelligence
+from pqc_quantum_research_agent.strategic_forecasts import write_strategic_forecasts
 from pqc_quantum_research_agent.scoring_calibration import write_scoring_calibration
 from pqc_quantum_research_agent.collectors import collect_watch_sources
 from pqc_quantum_research_agent.config import load_config, load_weight_file
@@ -43,6 +47,7 @@ def main() -> int:
     parser.add_argument("--local-intelligence-dir", default=".local-intelligence")
     parser.add_argument("--calibration-config", default="calibration.yaml")
     parser.add_argument("--feedback-log", default="pursuit-feedback.local.jsonl")
+    parser.add_argument("--forecasts-config", default="forecasts.yaml")
     parser.add_argument("--source-weights", default="source_weights.yaml")
     parser.add_argument("--keyword-weights", default="keyword_weights.yaml")
     parser.add_argument("--source", action="append", default=[], help="Exact source name to backfill; repeat as needed.")
@@ -132,6 +137,12 @@ def main() -> int:
         generated_at=generated,
     )
     write_claim_ledger(reports, generated_at=generated)
+    write_temporal_intelligence(reports, generated_at=generated)
+    write_strategic_forecasts(
+        reports,
+        args.forecasts_config,
+        generated_at=generated,
+    )
     print(json_path)
     return 0
 

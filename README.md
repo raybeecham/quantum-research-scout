@@ -37,6 +37,8 @@ It is designed to answer four practical questions:
 | Intelligence layer | What it provides |
 |---|---|
 | **Strategic radar** | Daily evidence, persistent themes, momentum, importance, confidence, and actionable conditions |
+| **Temporal intelligence** | Explicit event, publication, effective, and observation dates—with historical discoveries kept separate from new events |
+| **Forecast registry** | Testable mission and opportunity forecasts with probabilities, triggers, expiration dates, evidence, and public calibration |
 | **Federal execution** | Missions connected to awards, grants, BAAs, RFIs, contractors, milestones, and relevant patents |
 | **Procurement intelligence** | Ranked opportunities, bounded document extraction, amendment detection, and provisional qualification briefs |
 | **Analyst decision center** | A focused queue for amendment revalidation, authoritative government changes, and unresolved claim conflicts |
@@ -80,6 +82,8 @@ The dashboard's Analyst Decision Center turns the highest-consequence changes in
 | [**Pursuit workspace**](reports/pursuits.md) | Public-safe stages, owners, milestones, checklists, and upcoming decisions |
 | [**Evidence and claim ledger**](reports/claim-ledger.md) | Stable claims, connection explanations, source authority, versions, conflicts, and supersession |
 | [**What changed**](reports/intelligence-changes.md) | Claim-level additions, revisions, resolutions, and conflicts since the prior daily baseline |
+| [**Temporal intelligence**](reports/temporal-intelligence.md) | What actually happened, what was merely published or discovered, and what is upcoming |
+| [**Strategic forecasts**](reports/strategic-forecasts.md) | Time-bounded hypotheses, probability factors, confirmation triggers, outcomes, and calibration |
 | [**Procurement documents**](reports/procurement-intelligence.md) | Requirements evidence, evaluation criteria, deadlines, contacts, and amendments |
 | [**Patent intelligence**](reports/patents.md) | Patent families, stage, status, citations, assignees, and significance |
 | [**Intelligence alerts**](reports/alerts.md) | New critical conditions, opportunity deadlines, amendments, and source problems |
@@ -91,6 +95,10 @@ The dashboard's Analyst Decision Center turns the highest-consequence changes in
 Scores, signals, mission links, contractor relationships, and alerts retain supporting URLs and explicit reasoning. Inferred connections are not presented as established facts.
 
 The claim ledger goes further: each material assertion and relationship receives a stable ID, source-authority label, confidence, derivation rule, version, and lifecycle status. Equal-authority disagreements remain visible as conflicts; later or stronger evidence can supersede a claim without erasing its history.
+
+The temporal layer prevents a newly collected old document from masquerading as a new event. It records event, publication, effective, first-observed, last-observed, and last-changed times separately, and compares each run with the exact prior successful baseline.
+
+Forecasts are published as testable hypotheses rather than conclusions. Every forecast states its probability, horizon, evidence, confirming and disconfirming indicators, and resolution rule; completed forecasts feed a visible accuracy and Brier-score calibration record.
 
 ### Government activity gets priority
 

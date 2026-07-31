@@ -380,6 +380,49 @@ class FederalFundingTests(unittest.TestCase):
         self.assertEqual(payload["records"], [])
         self.assertEqual(payload["summary"]["linked_records"], 0)
 
+    def test_tracker_removes_stale_mission_update_records(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports = Path(temp_dir)
+            (reports / "federal-missions.json").write_text(
+                json.dumps(
+                    {
+                        "missions": [
+                            {
+                                "id": "golden-dome",
+                                "name": "Golden Dome for America",
+                                "aliases": ["Golden Dome"],
+                                "updates": [],
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            (reports / "federal-funding.json").write_text(
+                json.dumps(
+                    {
+                        "records": [
+                            {
+                                "key": "mission_tracker:https://grants.gov/unrelated",
+                                "provider": "mission_tracker",
+                                "title": "Migratory bird conservation grants",
+                                "date": "2026-07-24",
+                                "configured_mission_ids": ["golden-dome"],
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            json_path, _ = write_federal_funding_tracker(
+                reports,
+                generated_at=datetime(2026, 7, 30, tzinfo=timezone.utc),
+            )
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["records"], [])
+
 
 if __name__ == "__main__":
     unittest.main()

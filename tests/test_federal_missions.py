@@ -162,6 +162,29 @@ missions:
 
             self.assertEqual(payload["discovery_candidates"], [])
 
+    def test_search_query_metadata_does_not_create_a_mission_update(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            config = root / "missions.yaml"
+            config.write_text(
+                "missions:\n  - id: golden-dome\n    name: Golden Dome for America\n"
+                "    aliases: [Golden Dome]\n    status: active\n",
+                encoding="utf-8",
+            )
+            false_match = ResearchItem(
+                source_name="Grants.gov · Golden Dome",
+                source_type="watch",
+                title="Migratory bird conservation grants",
+                url="https://www.grants.gov/search-results-detail/example",
+                summary="Agency: DOI-FWS · Status: posted · Matched search: Golden Dome",
+                published_at=datetime(2026, 7, 24, tzinfo=timezone.utc),
+            )
+
+            json_path, _ = write_federal_mission_tracker(root, config, [false_match])
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+
+            self.assertEqual(payload["missions"][0]["observed_updates"], [])
+
 
 if __name__ == "__main__":
     unittest.main()

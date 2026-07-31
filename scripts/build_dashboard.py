@@ -70,6 +70,19 @@ def build_dashboard(
         reports / "intelligence-changes.json",
         {"summary": {}, "added": [], "changed": [], "resolved": [], "conflicts": []},
     )
+    temporal_intelligence = _read_json(
+        reports / "temporal-intelligence.json",
+        {"summary": {}, "priority_events": [], "upcoming": []},
+    )
+    strategic_forecasts = _read_json(
+        reports / "strategic-forecasts.json",
+        {
+            "summary": {},
+            "calibration": {},
+            "active_forecasts": [],
+            "resolved_forecasts": [],
+        },
+    )
     historical = _read_json(reports / "historical-evidence.json", {"items": [], "item_count": 0})
     patents = _read_json(
         reports / "patents.json",
@@ -138,6 +151,34 @@ def build_dashboard(
             "conflicts": (intelligence_changes.get("conflicts") or [])[:20],
             "active_conflicts": (
                 intelligence_changes.get("active_conflicts") or []
+            )[:20],
+        },
+        "temporal_intelligence": {
+            "updated_at": temporal_intelligence.get("updated_at"),
+            "comparison_started_at": temporal_intelligence.get(
+                "comparison_started_at"
+            ),
+            "comparison_ended_at": temporal_intelligence.get(
+                "comparison_ended_at"
+            ),
+            "scope_note": temporal_intelligence.get("scope_note"),
+            "summary": temporal_intelligence.get("summary", {}),
+            "priority_events": (
+                temporal_intelligence.get("priority_events") or []
+            )[:60],
+            "upcoming": (temporal_intelligence.get("upcoming") or [])[:40],
+        },
+        "strategic_forecasts": {
+            "updated_at": strategic_forecasts.get("updated_at"),
+            "scope_note": strategic_forecasts.get("scope_note"),
+            "method_note": strategic_forecasts.get("method_note"),
+            "summary": strategic_forecasts.get("summary", {}),
+            "calibration": strategic_forecasts.get("calibration", {}),
+            "active_forecasts": (
+                strategic_forecasts.get("active_forecasts") or []
+            )[:12],
+            "resolved_forecasts": (
+                strategic_forecasts.get("resolved_forecasts") or []
             )[:20],
         },
         "historical_evidence": {

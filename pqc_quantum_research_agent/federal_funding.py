@@ -62,10 +62,18 @@ def write_federal_funding_tracker(
     ]
     patents = [item for item in patents_payload.get("patents", []) if isinstance(item, dict)]
 
+    mission_announcements = _mission_funding_announcements(missions, generated)
+    valid_mission_tracker_keys = {
+        str(item["key"]) for item in mission_announcements if item.get("key")
+    }
     by_key = {
         str(item["key"]): item
         for item in existing.get("records", [])
         if isinstance(item, dict) and item.get("key")
+        and (
+            item.get("provider") != "mission_tracker"
+            or str(item.get("key")) in valid_mission_tracker_keys
+        )
     }
     for candidate in candidates or []:
         if candidate.source_type not in FUNDING_SOURCE_TYPES:
@@ -73,7 +81,7 @@ def write_federal_funding_tracker(
         record = _candidate_record(candidate, generated)
         if record["key"]:
             by_key[str(record["key"])] = _merge_record(by_key.get(str(record["key"]), {}), record)
-    for record in _mission_funding_announcements(missions, generated):
+    for record in mission_announcements:
         by_key[str(record["key"])] = _merge_record(by_key.get(str(record["key"]), {}), record)
 
     cutoff = today - timedelta(days=retention_days)
