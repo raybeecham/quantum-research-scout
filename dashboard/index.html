@@ -103,7 +103,17 @@
         </div>
         <div id="analyst-decision-list" class="analyst-decision-list" aria-live="polite"></div>
         <details id="forecast-watch-module" class="forecast-watch-module">
-          <summary><div><span class="module-kicker">STRATEGIC FORECAST WATCH</span><strong>What may happen next—and how we will score it</strong></div><span id="forecast-summary"></span></summary>
+          <summary>
+            <div class="forecast-summary-copy">
+              <span class="module-kicker">STRATEGIC FORECAST WATCH</span>
+              <strong>What may happen next—and how we will score it</strong>
+              <div id="forecast-preview" class="forecast-preview" aria-live="polite"></div>
+            </div>
+            <div class="forecast-summary-meta">
+              <span id="forecast-summary"></span>
+              <span class="forecast-expand-label"><span class="forecast-expand-closed">Click to expand</span><span class="forecast-expand-open">Collapse forecasts</span><i aria-hidden="true"></i></span>
+            </div>
+          </summary>
           <div class="forecast-watch-content">
             <p class="module-note">Evidence-backed hypotheses with fixed horizons, confirming and disconfirming indicators, automatic outcome checks, and public calibration.</p>
             <div id="forecast-calibration" class="forecast-calibration"></div>

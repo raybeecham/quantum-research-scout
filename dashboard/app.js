@@ -119,7 +119,7 @@ function render(){
   const stale = sources.filter(x => x.freshness === "stale").length;
   document.getElementById("source-summary").textContent = `${healthy} healthy · ${verified} verified · ${fresh} fresh · ${stale} stale`;
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
-  renderReports(state.data.reports); renderAlerts(alerts, temporalPayload); renderDecisionCenter(analystDecisionPayload); renderForecasts(forecastPayload); renderMissions(missionPayload, fundingPayload); renderFunding(fundingPayload); renderProcurementDocuments(procurementPayload); renderDecisionBriefs(decisionPayload); renderPursuits(pursuitPayload); renderEvidenceLedger(claimPayload, changePayload, temporalPayload); renderSignals(); renderPatents(patentPayload); renderWatch();
+  renderReports(state.data.reports); renderAlerts(alerts, temporalPayload); renderDecisionCenter(analystDecisionPayload, changePayload); renderForecasts(forecastPayload); renderMissions(missionPayload, fundingPayload); renderFunding(fundingPayload); renderProcurementDocuments(procurementPayload); renderDecisionBriefs(decisionPayload); renderPursuits(pursuitPayload); renderEvidenceLedger(claimPayload, changePayload, temporalPayload); renderSignals(); renderPatents(patentPayload); renderWatch();
   renderTrend(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderSources(sources);
   animateMetrics();
   setupReveal();
@@ -474,6 +474,10 @@ function renderForecasts(payload){
     `${summary.active || 0} active · ${summary.due_within_30_days || 0} due ≤30d · ${summary.calibration_label || "Awaiting outcomes"}`;
   document.getElementById("forecast-report-link").href =
     safeUrl(`${state.data.repository_url}/blob/main/reports/strategic-forecasts.md`);
+  const leading = active[0];
+  document.getElementById("forecast-preview").innerHTML = leading
+    ? `<span>${Math.round(Number(leading.probability || 0) * 100)}%</span><p><b>${escapeHtml(leading.subject || "Strategic forecast")}</b> · ${escapeHtml(forecastTypeLabel(leading.forecast_type))}</p><small>by ${escapeHtml(formatShortDate(leading.horizon_end))}</small>`
+    : `<p><b>No active forecast</b> · New hypotheses appear when official evidence crosses the configured threshold.</p>`;
   document.getElementById("forecast-calibration").innerHTML = [
     ["Active hypotheses",summary.active || 0],
     ["Resolved",summary.resolved || 0],
@@ -508,6 +512,14 @@ function renderForecasts(payload){
       </details>
     </article>`;
   }).join("") : '<div class="empty-state">No evidence-qualified strategic forecasts are active. The registry will open hypotheses when official mission activity crosses the configured threshold.</div>';
+}
+
+function forecastTypeLabel(value){
+  const labels = {
+    mission_opportunity_release: "additional mission-linked opportunity",
+    mission_milestone_confirmation: "mission milestone confirmation"
+  };
+  return labels[value] || String(value || "strategic forecast").replaceAll("_"," ");
 }
 
 function renderMissions(payload, fundingPayload){
@@ -612,7 +624,7 @@ function renderOpportunityRadar(payload){
   }).join("") : '<div class="empty-state">No open opportunities match this view.</div>';
 }
 
-function renderDecisionCenter(payload){
+function renderDecisionCenter(payload, changePayload = {}){
   const remoteItems = payload.items || [];
   const remoteIds = new Set(remoteItems.map(item => item.decision_id));
   const retainedItems = Object.values(state.analystDecisions)
@@ -642,7 +654,21 @@ function renderDecisionCenter(payload){
       : state.decisionFilter === "open"
         ? "No open analyst decisions. The queue will repopulate when material evidence changes."
         : "No decisions currently match this queue.";
-    list.innerHTML = `<div class="empty-state decision-center-empty"><strong>Queue clear</strong><span>${escapeHtml(message)}</span></div>`;
+    if (state.decisionFilter === "open") {
+      const cleared = recentlyClearedChanges(changePayload);
+      const comparison = changePayload.comparison_started_at
+        ? `Since ${formatDate(changePayload.comparison_started_at)}`
+        : "Since the prior successful run";
+      const clearedList = cleared.items.map(item =>
+        `<a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener"><span>${escapeHtml(item.label)}</span><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.detail)}</small></a>`
+      ).join("");
+      const recent = cleared.total
+        ? `<section class="recently-cleared"><div class="recently-cleared-head"><div><span>RECENTLY CLEARED</span><strong>${cleared.total} claim${cleared.total === 1 ? "" : "s"} removed from the action queue</strong></div><small>${escapeHtml(comparison)}</small></div><p>Resolved, superseded, and retracted corrections remain auditable but do not appear as open decisions.</p><div class="recently-cleared-list">${clearedList}</div><a class="section-link" href="${escapeHtml(safeUrl(`${state.data.repository_url}/blob/main/reports/intelligence-changes.md`))}" target="_blank" rel="noopener">Review all cleared changes →</a></section>`
+        : `<section class="queue-rules"><span>WHAT WILL APPEAR HERE</span><div><b>Material amendments</b><b>Authoritative government changes</b><b>Unresolved claim conflicts</b></div></section>`;
+      list.innerHTML = `<div class="decision-center-empty"><div class="queue-clear-status"><i aria-hidden="true">✓</i><div><strong>Nothing needs analyst action right now</strong><span>${escapeHtml(message)}</span></div></div>${recent}</div>`;
+    } else {
+      list.innerHTML = `<div class="empty-state decision-center-empty"><strong>Queue clear</strong><span>${escapeHtml(message)}</span></div>`;
+    }
     return;
   }
   list.innerHTML = filtered.map(item => {
@@ -668,6 +694,34 @@ function renderDecisionCenter(payload){
       </div>
     </article>`;
   }).join("");
+}
+
+function recentlyClearedChanges(payload){
+  const summary = payload.summary || {};
+  const groups = [
+    ["resolved", "Retracted or resolved"],
+    ["superseded", "Superseded"],
+    ["conflict_resolved", "Conflict resolved"]
+  ];
+  const grouped = new Map();
+  let total = 0;
+  groups.forEach(([key,label]) => (payload[key] || []).forEach(item => {
+    total += 1;
+    const source = (item.sources || [])[0] || {};
+    const title = source.title || item.subject?.label || "Evidence correction";
+    const url = source.url || "#decision-center";
+    const groupKey = `${key}|${url}|${title}`;
+    const existing = grouped.get(groupKey) || {label,title,url,predicates:[],count:0};
+    existing.count += 1;
+    if (item.predicate) existing.predicates.push(String(item.predicate).replaceAll("_"," "));
+    grouped.set(groupKey,existing);
+  }));
+  const items = [...grouped.values()].slice(0,3).map(item => ({
+    ...item,
+    detail: `${item.count} claim${item.count === 1 ? "" : "s"}${item.predicates.length ? ` · ${[...new Set(item.predicates)].slice(0,2).join(" · ")}` : ""}`
+  }));
+  const reportedTotal = Number(summary.resolved || 0) + Number(summary.superseded || 0) + Number(summary.conflicts_resolved || 0);
+  return {total:Math.max(total,reportedTotal),items};
 }
 
 function decisionActionButton(action, label, disposition){
