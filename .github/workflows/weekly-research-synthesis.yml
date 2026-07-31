@@ -2,9 +2,10 @@ name: Weekly PQC Quantum Research Synthesis
 
 on:
   schedule:
-    # Run at both possible 8:00 AM America/Chicago UTC offsets; the schedule gate
-    # admits only the execution whose local hour is 08.
-    - cron: "0 13,14 * * 5"
+    # GitHub cron is UTC. Keep separate triggers for 8:00 AM CDT and CST so the
+    # schedule gate can select the correct event even when GitHub starts it late.
+    - cron: "0 13 * * 5"
+    - cron: "0 14 * * 5"
   workflow_dispatch:
 
 env:
@@ -13,19 +14,30 @@ env:
 
 jobs:
   schedule-gate:
-    name: Check Friday 8 AM Central window
+    name: Select Friday 8 AM Central schedule
     runs-on: ubuntu-latest
     outputs:
       should_run: ${{ steps.window.outputs.should_run }}
     steps:
       - name: Resolve local schedule window
         id: window
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(date +%u-%H)" = "5-08" ]; then
-            echo "should_run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          should_run=false
+          central_offset="$(date +%z)"
+
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            should_run=true
+          elif [ "$central_offset" = "-0500" ] && [ "$EVENT_SCHEDULE" = "0 13 * * 5" ]; then
+            should_run=true
+          elif [ "$central_offset" = "-0600" ] && [ "$EVENT_SCHEDULE" = "0 14 * * 5" ]; then
+            should_run=true
           fi
+
+          echo "event=$EVENT_NAME schedule=$EVENT_SCHEDULE central_offset=$central_offset should_run=$should_run"
+          echo "should_run=$should_run" >> "$GITHUB_OUTPUT"
 
   weekly-synthesis:
     name: Generate weekly synthesis
