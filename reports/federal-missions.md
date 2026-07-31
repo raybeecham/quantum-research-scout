@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Funding & Procurement](federal-funding.md) · [Standards Timeline](standards-timeline.md) · [Entity Watch](entity-watch.md)
 
-_Updated 2026-07-30 21:49 UTC_
+_Updated 2026-07-31 02:07 UTC_
 
 Named, cross-agency or cross-sector federal science and technology missions, initiatives, and national efforts relevant to quantum technology, AI, cybersecurity, energy, discovery science, and national security. Routine agency mission statements and unrelated operational missions are excluded.
 
@@ -24,8 +24,11 @@ Accelerate department-wide military AI integration through seven outcome-oriente
 - Next milestone: **2026-07-09 — Conduct initial Pace-Setting Project demonstrations with transition-partner users**
 
 Recent official updates:
-- 2026-05-15 — [DARPA DISCORD implements the Ender's Foundry project](https://www.darpa.mil/research/programs/discord)
-- 2026-01-09 — [Department of War establishes seven AI Pace-Setting Projects](https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF)
+- 2026-07-27 — [U.S.-Argentina Alumni Summit](https://www.grants.gov/search-results-detail/363320)
+- 2026-07-27 — [Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator](https://www.grants.gov/search-results-detail/363319)
+- 2026-07-06 — [AI Pathways To The Future](https://www.grants.gov/search-results-detail/363061)
+- 2026-06-25 — [DOW Unleashes 'Agent Network' to Transform AI-Enabled Battle Management and Targeting](https://www.war.gov/News/Releases/Release/Article/4526862/dow-unleashes-agent-network-to-transform-ai-enabled-battle-management-and-targe)
+- 2026-06-24 — [Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027](https://www.grants.gov/search-results-detail/362913)
 
 ### [Federal Post-Quantum Cryptography Transition](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/)
 
@@ -53,9 +56,9 @@ Build an integrated American Science and Security Platform connecting federal sc
 - Next milestone: **2026-07-22 — Review federal robotic and AI-directed laboratory capabilities**
 
 Recent official updates:
-- 2026-07-30 — [Genesis Mission Workforce Development RFI Summary](https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf)
-- 2026-07-30 — [Genesis Mission University Summit Report](https://www.energy.gov/sites/default/files/2026-07/Genesis-University-Summit-Breakout-Summaries-Report.pdf)
-- 2026-07-30 — [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf)
+- 2026-07-31 — [Genesis Mission Workforce Development RFI Summary](https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf)
+- 2026-07-31 — [Genesis Mission University Summit Report](https://www.energy.gov/sites/default/files/2026-07/Genesis-University-Summit-Breakout-Summaries-Report.pdf)
+- 2026-07-31 — [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf)
 - 2026-07-29 — [United States and Japan Announce Historic $1 Billion Partnership Under President Trump’s Genesis Mission](https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps)
 - 2026-07-29 — [U.S. Department of Energy Announces More Than $800 Million in Partner Commitments to the Genesis Mission](https://www.energy.gov/undersecretaryforscience/articles/us-department-energy-announces-more-800-million-partner)
 
@@ -71,7 +74,10 @@ Rigorously determine whether any quantum-computing architecture can achieve util
 - Next milestone: **2026-07-31 — Receive abstracts for the expanded QBIT Stage A solicitation**
 
 Recent official updates:
+- 2026-06-18 — [GREGoRi Technology Integration Center (U01, Clinical Trials Optional)](https://www.grants.gov/search-results-detail/359280)
+- 2026-05-20 — [Integrated Specific Pathogen Free Research Models and Human New Approach Methodologies to Advance HIV/AIDS Research (U42 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/362488)
 - 2026-03-10 — [DARPA expands QBI Stage A and reports 11 Stage B organizations](https://www.darpa.mil/news/2026/qbi-stage-a-qbit)
+- 2025-10-06 — [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700)
 - 2024-07-16 — [DARPA announces the Quantum Benchmarking Initiative](https://www.darpa.mil/news/2024/quantum-computing-prototype)
 
 ### [QC-ADDS](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/)
@@ -101,7 +107,9 @@ Catalyze reliable, understandable, controllable, and adversarially robust AI for
 - Next milestone: **Summer 2026 — Launch the AI Forge university-industry-government forum**
 
 Recent official updates:
-- 2026-06-01 — [DARPA and NSF announce AI Forge and its first 15 research challenges](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security)
+- 2026-07-08 — [English Language Exchange Programs: AI and Educational Technology Integration](https://www.grants.gov/search-results-detail/363105)
+- 2026-06-30 — [Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/359271)
+- 2026-05-28 — [AI Forge: Accelerating AI breakthroughs for national security](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security)
 
 ### [Project Triad](https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real)
 
@@ -115,7 +123,11 @@ Integrate quantum sensing, networking, and computing into a single operational e
 - Next milestone: **December 2026 — Advance selected NSF NQVL projects from design to implementation**
 
 Recent official updates:
-- 2026-07-07 — [NSF launches Project Triad](https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real)
+- 2026-07-29 — [U.S. Embassy Jakarta Media Small Grants Competition](https://www.grants.gov/search-results-detail/363370)
+- 2026-07-28 — [NIOSH Centers of Excellence for Total Worker Health® (U19)](https://www.grants.gov/search-results-detail/363369)
+- 2026-07-07 — [Public Diplomacy Small Grants Competition](https://www.grants.gov/search-results-detail/363079)
+- 2026-07-07 — [NSF launches Project Triad to advance quantum technology for real-world applications](https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real)
+- 2026-06-23 — [Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026](https://www.grants.gov/search-results-detail/362910)
 
 ### [Quantum Genesis](https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first)
 
@@ -143,9 +155,11 @@ Deploy and maintain a layered, integrated, and increasingly automated next-gener
 - Next milestone: No dated milestone published
 
 Recent official updates:
-- 2026-04-23 — [Department reports initial architecture, command-and-control consortium, and active contracts](https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html)
-- 2026-04-16 — [Department outlines layered defense and Joint Task Force Gold](https://www.war.gov/News/News-Stories/Article/Article/4461784/golden-dome-will-protect-homeland-provide-layered-defense-leaders-say/)
-- 2025-01-27 — [White House directs a next-generation homeland missile defense shield](https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/)
+- 2026-07-24 — [F27AS00008-NAWCA 2027-1 US Standard Grants](https://www.grants.gov/search-results-detail/363306)
+- 2026-07-06 — [Improved Oil and Gas Recovery and Produced Water Management Technologies](https://www.grants.gov/search-results-detail/363065)
+- 2026-06-26 — [Rapid Reskill Employment Recovery National Dislocated Worker Grants](https://www.grants.gov/search-results-detail/362987)
+- 2026-06-24 — [DOW Combat Readiness – Medical Research Program Translational Research Award](https://www.grants.gov/search-results-detail/362961)
+- 2026-06-16 — [FY 2027 Fulbright Scholar Program](https://www.grants.gov/search-results-detail/362828)
 
 ### [QuantumEAGLe](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4529557/nsa-devcom-army-research-office-launch-quantumeagle-initiative/)
 
@@ -192,4 +206,9 @@ Recent official updates:
 
 ## Possible New Missions to Review
 
-- No unreviewed mission announcements are currently queued.
+These official-domain announcements matched the mission-discovery rules but are not promoted to the curated tracker until reviewed.
+
+- 2026-07-30 — [Freedom Haulers Initiative to Help Veterans Get Commercial Driver's Licenses, Better Jobs](https://www.war.gov/News/News-Stories/Article/Article/4560661/freedom-haulers-initiative-to-help-veterans-get-commercial-drivers-licenses-bet) (Department of War Strategic Technology News)
+- 2026-07-06 — [Launch Your Cyber Career: Department of War Cyber Apprenticeship Applications Now Live!](https://www.war.gov/News/Releases/Release/Article/4533748/launch-your-cyber-career-department-of-war-cyber-apprenticeship-applications-no) (Department of War Strategic Technology Releases)
+- 2026-07-02 — [DOW Launches BuildFreedom.US, Announces $10M Skilled Trades Investment With Mike Rowe and Forge the Next-Generation Industrial Workforce](https://www.war.gov/News/Releases/Release/Article/4532101/dow-launches-buildfreedomus-announces-10m-skilled-trades-investment-with-mike-r) (Department of War Strategic Technology Releases)
+- 2026-06-23 — [Department of War Announces Initiative to Revolutionize ISR via Quantum Sensing](https://www.war.gov/News/Releases/Release/Article/4524344/department-of-war-announces-initiative-to-revolutionize-isr-via-quantum-sensing) (Department of War Strategic Technology Releases)

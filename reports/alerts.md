@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-30 22:20 UTC_
+_Updated 2026-07-31 02:22 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 39 | 0 | 4 | 13 | 22 |
+| 50 | 18 | 19 | 13 | 18 |
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
@@ -37,6 +37,111 @@ _Updated 2026-07-30 22:20 UTC_
 - Status: **critical**
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
+
+## 🔴 Source failing: SAM.gov · AI Forge 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: SAM.gov · Advanced Computing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: SAM.gov · Artificial Intelligence 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: SAM.gov · Autonomy and Sensing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: SAM.gov · Cybersecurity 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: SAM.gov · Genesis Mission 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: SAM.gov · Golden Dome 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: SAM.gov · Military AI Pace-Setting Projects 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: SAM.gov · Post-Quantum Cybersecurity 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: SAM.gov · Project Triad 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: SAM.gov · QC-ADDS 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: SAM.gov · Quantum Benchmarking Initiative 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: SAM.gov · Quantum Genesis 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: SAM.gov · Quantum Technologies 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: SAM.gov · QuantumEAGLe 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 0.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
 
@@ -70,14 +175,14 @@ _Updated 2026-07-30 22:20 UTC_
 
 - Severity: **high**
 - Status: **actionable**
-- 🎯 Standards / Government is actionable with medium confidence.
+- 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
 ## 🟠 Federal opportunity closing soon: National Cybersecurity Preparedness Consortium
 
 - Severity: **high**
 - Status: **closing-soon**
-- 1 day(s) remain · radar score 39 · Review requirements and make a bid/no-bid decision immediately.
+- 0 day(s) remain · radar score 39 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363010)
 - [Open supporting view](federal-funding.md)
 
@@ -93,7 +198,7 @@ _Updated 2026-07-30 22:20 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 28 versus 8 in the prior period.
+- ↗️ Recent evidence is 25 versus 11 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: QEC / Fault Tolerance
@@ -107,7 +212,7 @@ _Updated 2026-07-30 22:20 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 4 versus 0 in the prior period.
+- ↗️ Recent evidence is 4 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Source degraded: PQCA Readiness Tracking
@@ -121,14 +226,14 @@ _Updated 2026-07-30 22:20 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 90.9% reliability with 1 warning day(s).
+- 🟠 91.7% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 90.9% reliability with 1 warning day(s).
+- 🟠 91.7% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Rising momentum: AI Security
@@ -142,7 +247,7 @@ _Updated 2026-07-30 22:20 UTC_
 
 - Severity: **medium**
 - Status: **rising**
-- ↗️ Recent evidence is 6 versus 2 in the prior period.
+- ↗️ Recent evidence is 5 versus 3 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟡 Source stale: Accenture Federal Services Quantum Readiness
@@ -215,6 +320,27 @@ _Updated 2026-07-30 22:20 UTC_
 - The latest dated item is from 2026-04-23; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: Grants.gov · AI Forge 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-07-08; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Grants.gov · Advanced Computing 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-07-02; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Grants.gov · Quantum Benchmarking Initiative 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-06-18; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: InfoQ Quantum Computing
 
 - Severity: **medium**
@@ -234,53 +360,4 @@ _Updated 2026-07-30 22:20 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-14; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: NCSC UK Guidance
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-03-19; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: NCSC UK Reports
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2025-05-07; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: NIST Post-Quantum Cryptography Project
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2025-03-07; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: QuSecure Press Releases
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2025-07-19; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Rigetti News
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2022-06-07; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Thales Cybersecurity Blog
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-06-15; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: White House Science and Technology Missions
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-06-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

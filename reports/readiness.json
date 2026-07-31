@@ -587,9 +587,9 @@
     },
     {
       "confidence": "medium",
-      "evidence_count": 2,
+      "evidence_count": 3,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-07-24",
+      "latest_evidence_at": "2026-07-30",
       "name": "NIST",
       "priority": "critical",
       "source_count": 2,
@@ -611,6 +611,21 @@
           "source": "Quantum Zeitgeist",
           "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
+        },
+        {
+          "date": "2026-07-30",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "The Quantum Insider",
+          "title": "NIST\u2019s Andrew Regenscheid Explains the Transition to Post-Quantum Cryptography",
+          "url": "https://thequantuminsider.com/2026/07/30/nist-andrew-regenscheid-post-quantum-cryptography-transition"
         },
         {
           "date": "2026-07-24",
@@ -1429,6 +1444,6 @@
     "not_assessed": 24,
     "organizations": 43
   },
-  "updated_at": "2026-07-30T01:27:05.022983+00:00",
+  "updated_at": "2026-07-31T02:22:30.390599+00:00",
   "version": 1
 }
