@@ -567,6 +567,8 @@ class DashboardBuildTests(unittest.TestCase):
         script = (root / "dashboard" / "app.js").read_text(encoding="utf-8")
 
         self.assertIn('class="hero-visual"', html)
+        self.assertIn("Priority sources", html)
+        self.assertIn("Continuous monitoring", html)
         self.assertIn('class="live-pill"', html)
         self.assertIn('id="hero-patent-count"', html)
         self.assertIn('id="hero-mission-count"', html)
@@ -574,6 +576,8 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertNotIn("Fresh intelligence", html)
         self.assertNotIn("89 tracked", html)
         self.assertIn("--bg:#0b1020", styles)
+        self.assertIn("width:260px", styles)
+        self.assertIn("transform:translateX(-50%)", styles)
         self.assertIn("--surface:#151d32", styles)
         self.assertIn("prefers-reduced-motion:reduce", styles)
         self.assertIn("setupReveal", script)
