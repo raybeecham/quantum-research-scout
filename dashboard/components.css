@@ -375,24 +375,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
 .signal-node span,.signal-node strong{display:block}.signal-node span{color:#9eabc3;font-size:8px;font-weight:800;letter-spacing:.11em;text-transform:uppercase}.signal-node strong{margin-top:4px;color:#f1f4ff;font-size:11px;line-height:1.35}
 .node-policy{left:2%;top:13%}.node-policy i{background:var(--blue);box-shadow:0 0 10px var(--blue)}
 .node-pqc{right:1%;top:20%}.node-pqc i{background:var(--green);box-shadow:0 0 10px var(--green)}
-.node-patents{left:5%;bottom:20%}.node-patents i{background:var(--amber);box-shadow:0 0 10px var(--amber)}
-.node-missions{right:2%;bottom:20%}.node-missions i{background:var(--violet);box-shadow:0 0 10px var(--violet)}
-.hero-radar-card{
-  position:absolute;
-  left:50%;
-  bottom:0;
-  width:260px;
-  padding:12px 15px;
-  border:1px solid rgba(98,214,230,.22);
-  border-radius:10px;
-  background:linear-gradient(145deg,rgba(18,32,55,.96),rgba(12,23,42,.96));
-  box-shadow:0 14px 32px rgba(0,0,0,.24),inset 0 1px 0 rgba(255,255,255,.04);
-  backdrop-filter:blur(14px);
-  transform:translateX(-50%);
-}
-.hero-radar-card>div{display:flex;align-items:center;justify-content:space-between;color:var(--cyan);font-size:8px;font-weight:850;letter-spacing:.12em;text-transform:uppercase}
-.hero-radar-card>div i{width:42px;height:2px;border-radius:99px;background:linear-gradient(90deg,var(--blue),var(--cyan));opacity:.8}
-.hero-radar-card strong,.hero-radar-card small{display:block}.hero-radar-card strong{margin-top:6px;font-size:13px;font-weight:760}.hero-radar-card small{margin-top:3px;color:var(--muted);font-size:8px}
+.node-patents{left:5%;bottom:13%}.node-patents i{background:var(--amber);box-shadow:0 0 10px var(--amber)}
+.node-missions{right:2%;bottom:13%}.node-missions i{background:var(--violet);box-shadow:0 0 10px var(--violet)}
 
 #briefing.metrics{
   gap:12px;
@@ -800,5 +784,5 @@ footer{border-top-color:rgba(168,187,229,.18);background:rgba(9,15,29,.5)}
 .patent-card>p,.mission-card>p,.mission-facts dd,.mission-update,.mission-candidates>summary,.mission-candidates a,.funding-card>p,.funding-card dd,.funding-portfolios span,.briefing-panel .alert-item p,.briefing-panel .alert-item>div:last-child,.panel-heading>span,.section-note,.method-note,.contractor-card>p,.contractor-profile-body p,.contractor-profile-body a,.pursuit-card>p,.pursuit-card>small,.pursuit-next,.decision-card>p,.document-card>p,.decision-card>small,.decision-card li,.document-card li,.decision-trace p,.decision-trace p span,.decision-trace>small,.decision-center-intro p,.decision-center-tools button,.recently-cleared-head>small,.recently-cleared>p,.recently-cleared-list a>strong,.recently-cleared-list a>small,.queue-rules b,.forecast-summary-meta>span:first-child,.forecast-preview,.forecast-preview small,.forecast-calibration span,.forecast-card>p,.forecast-detail dd,.change-card p{font-size:var(--type-supporting)!important}
 .briefing-panel .alert-item h3,.funding-card h3,.contractor-card h3,.pursuit-card h3,.decision-card h3,.document-card h3,.analyst-decision-card h3,.analyst-decision-why,.analyst-decision-action,.decision-center-empty span,.queue-clear-status span,.forecast-card h3{font-size:var(--type-detail)!important}
 .analyst-decision-why,.section-note,.method-note{line-height:1.6}
-.quantum-core small,.signal-node span,.hero-radar-card>div,.hero-radar-card small,.intelligence-brief-head>span,.intelligence-status,.intelligence-priority,.module-kicker,.opportunity-rank span,.opportunity-rank small,.opportunity-meta,.opportunity-tags span,.contractor-tags span,.relationship-controls label span,.relationship-lane h4,.relationship-lane>small,.relationship-lane>p,.relationship-node>span,.relationship-node>small,.relationship-evidence span,.evidence-ledger-layout h3,.change-card span,.change-card small,.evidence-claim span,.evidence-claim small,.evidence-claim a,.contractor-profile-body h4,.analyst-decision-action b,.decision-detail-grid p,.recently-cleared-head>div>span,.queue-rules>span,.recently-cleared-list a>span,.recently-cleared>.section-link{font-size:var(--type-caption)!important}
+.quantum-core small,.signal-node span,.intelligence-brief-head>span,.intelligence-status,.intelligence-priority,.module-kicker,.opportunity-rank span,.opportunity-rank small,.opportunity-meta,.opportunity-tags span,.contractor-tags span,.relationship-controls label span,.relationship-lane h4,.relationship-lane>small,.relationship-lane>p,.relationship-node>span,.relationship-node>small,.relationship-evidence span,.evidence-ledger-layout h3,.change-card span,.change-card small,.evidence-claim span,.evidence-claim small,.evidence-claim a,.contractor-profile-body h4,.analyst-decision-action b,.decision-detail-grid p,.recently-cleared-head>div>span,.queue-rules>span,.recently-cleared-list a>span,.recently-cleared>.section-link{font-size:var(--type-caption)!important}
 .intelligence-next-action,.intelligence-brief-card footer a{font-size:var(--type-supporting)!important}
