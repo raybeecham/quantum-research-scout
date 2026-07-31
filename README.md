@@ -39,6 +39,7 @@ It is designed to answer four practical questions:
 | **Strategic radar** | Daily evidence, persistent themes, momentum, importance, confidence, and actionable conditions |
 | **Federal execution** | Missions connected to awards, grants, BAAs, RFIs, contractors, milestones, and relevant patents |
 | **Procurement intelligence** | Ranked opportunities, bounded document extraction, amendment detection, and provisional qualification briefs |
+| **Analyst decision center** | A focused queue for amendment revalidation, authoritative government changes, and unresolved claim conflicts |
 | **Patent intelligence** | Applications and grants grouped by explicit family evidence, with legal status, citations, and strategic significance |
 | **Organization tracking** | Entity profiles, public PQC-readiness evidence, source coverage, and peer relationships |
 | **Operational trust** | Source reliability, freshness, disabled-source visibility, warning history, and confidence labels |
@@ -62,6 +63,8 @@ flowchart LR
 ```
 
 The system favors explainable evidence over black-box conclusions. Exact relationships retain their source; analytical relationships retain their basis and confidence.
+
+The dashboard's Analyst Decision Center turns the highest-consequence changes into a compact review queue. Review, escalation, deferral, and dismissal actions remain in browser-local storage and can be exported as JSON; they are never added to the public dashboard payload.
 
 ## Explore the Intelligence
 

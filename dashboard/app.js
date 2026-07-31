@@ -7,6 +7,8 @@ const state = {
   compareFirst: "",
   compareSecond: "",
   opportunityFilter: "all",
+  decisionFilter: "open",
+  analystDecisions: {},
   relationshipMission: "",
   relationshipNode: "",
   contractorQuery: ""
@@ -60,6 +62,22 @@ const friendlyReportName = (name, type) => {
   return value.replaceAll("_", " ").replace(/-(digest|weekly|monthly)$/i, "");
 };
 const profileUrl = (name, kind="entities") => `entity.html?name=${encodeURIComponent(name)}&kind=${encodeURIComponent(kind)}`;
+const ANALYST_DECISION_STORAGE_KEY = "quantum-research-scout:analyst-decisions:v1";
+
+function loadAnalystDecisions(){
+  try {
+    const value = JSON.parse(window.localStorage.getItem(ANALYST_DECISION_STORAGE_KEY) || "{}");
+    return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+  } catch {
+    return {};
+  }
+}
+
+function persistAnalystDecisions(){
+  try { window.localStorage.setItem(ANALYST_DECISION_STORAGE_KEY, JSON.stringify(state.analystDecisions)); } catch { /* Browser-local storage may be unavailable. */ }
+}
+
+state.analystDecisions = loadAnalystDecisions();
 
 fetch("data/dashboard.json?v=__ASSET_VERSION__").then(response => {
   if (!response.ok) throw new Error(`Dashboard data failed: ${response.status}`);
@@ -79,6 +97,7 @@ function render(){
   const pursuitPayload = state.data.pursuits || { pursuits: [], summary: {} };
   const claimPayload = state.data.claim_ledger || { claims: [], summary: {} };
   const changePayload = state.data.intelligence_changes || { summary: {} };
+  const analystDecisionPayload = state.data.decision_center || { items: [], summary: {} };
   document.getElementById("repo-link").href = safeUrl(state.data.repository_url);
   document.getElementById("alerts-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/alerts.md`);
   document.getElementById("hero-report-link").href = safeUrl(state.data.reports?.latest_daily?.url || "#reports");
@@ -98,7 +117,7 @@ function render(){
   const stale = sources.filter(x => x.freshness === "stale").length;
   document.getElementById("source-summary").textContent = `${healthy} healthy · ${verified} verified · ${fresh} fresh · ${stale} stale`;
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
-  renderReports(state.data.reports); renderAlerts(alerts); renderMissions(missionPayload, fundingPayload); renderFunding(fundingPayload); renderProcurementDocuments(procurementPayload); renderDecisionBriefs(decisionPayload); renderPursuits(pursuitPayload); renderEvidenceLedger(claimPayload, changePayload); renderSignals(); renderPatents(patentPayload); renderWatch();
+  renderReports(state.data.reports); renderAlerts(alerts); renderDecisionCenter(analystDecisionPayload); renderMissions(missionPayload, fundingPayload); renderFunding(fundingPayload); renderProcurementDocuments(procurementPayload); renderDecisionBriefs(decisionPayload); renderPursuits(pursuitPayload); renderEvidenceLedger(claimPayload, changePayload); renderSignals(); renderPatents(patentPayload); renderWatch();
   renderTrend(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderSources(sources);
   animateMetrics();
   setupReveal();
@@ -237,6 +256,78 @@ function renderOpportunityRadar(payload){
       </div>
     </article>`;
   }).join("") : '<div class="empty-state">No open opportunities match this view.</div>';
+}
+
+function renderDecisionCenter(payload){
+  const remoteItems = payload.items || [];
+  const remoteIds = new Set(remoteItems.map(item => item.decision_id));
+  const retainedItems = Object.values(state.analystDecisions)
+    .filter(record => ["deferred","escalated"].includes(record?.disposition) && record.item && !remoteIds.has(record.decision_id))
+    .map(record => ({...record.item, retained_locally:true}));
+  const itemsById = new Map([...remoteItems,...retainedItems].map(item => [item.decision_id,item]));
+  const items = [...itemsById.values()];
+  const isHandled = item => ["reviewed","dismissed"].includes(state.analystDecisions[item.decision_id]?.disposition);
+  const filtered = items.filter(item => {
+    if (state.decisionFilter === "handled") return isHandled(item);
+    if (state.decisionFilter === "open") return !isHandled(item);
+    return item.queue_type === state.decisionFilter;
+  });
+  const openItems = items.filter(item => !isHandled(item));
+  const critical = openItems.filter(item => item.priority === "critical").length;
+  document.getElementById("analyst-decision-summary").textContent =
+    `${openItems.length} open · ${critical} critical · ${Object.keys(state.analystDecisions).length} local actions`;
+  const queueLabels = {
+    amendment_revalidation: "Amendment",
+    authoritative_change: "Government",
+    claim_conflict: "Conflict"
+  };
+  const list = document.getElementById("analyst-decision-list");
+  if (!filtered.length) {
+    const message = state.decisionFilter === "handled"
+      ? "No reviewed or dismissed decisions are stored in this browser."
+      : state.decisionFilter === "open"
+        ? "No open analyst decisions. The queue will repopulate when material evidence changes."
+        : "No decisions currently match this queue.";
+    list.innerHTML = `<div class="empty-state decision-center-empty"><strong>Queue clear</strong><span>${escapeHtml(message)}</span></div>`;
+    return;
+  }
+  list.innerHTML = filtered.map(item => {
+    const record = state.analystDecisions[item.decision_id] || {};
+    const disposition = record.disposition || "open";
+    const handled = isHandled(item);
+    const evidence = (item.evidence || []).slice(0,4).map(source =>
+      `<a href="${escapeHtml(safeUrl(source.url))}" target="_blank" rel="noopener">${escapeHtml(source.title || "Open evidence")} →</a>`
+    ).join("");
+    const detailEntries = decisionDetailEntries(item.details || {});
+    return `<article class="analyst-decision-card ${escapeHtml(item.priority || "medium")} ${handled ? "handled" : ""}">
+      <div class="analyst-decision-head"><div><span class="decision-priority ${escapeHtml(item.priority || "medium")}">${escapeHtml(item.priority || "medium")}</span><span class="decision-queue">${escapeHtml(queueLabels[item.queue_type] || item.queue_type || "Decision")}</span></div>${disposition !== "open" ? `<span class="decision-disposition">${escapeHtml(disposition)}</span>` : ""}</div>
+      <h3>${escapeHtml(item.title || "Analyst decision")}</h3>
+      <p class="analyst-decision-context">${escapeHtml(item.context || "Evidence review")}${item.retained_locally ? " · retained locally" : ""}</p>
+      <p class="analyst-decision-why">${escapeHtml(item.why || "New evidence requires review.")}</p>
+      <div class="analyst-decision-action"><b>Recommended action</b>${escapeHtml(item.recommended_action || "Review the supporting evidence.")}</div>
+      <details class="analyst-decision-detail"><summary>Evidence and decision trace</summary><div class="decision-detail-grid">${detailEntries}${item.observed_at ? `<p><b>Observed:</b> ${escapeHtml(formatDate(item.observed_at))}</p>` : ""}</div><div class="decision-evidence">${evidence || "<span>No direct evidence link is available.</span>"}</div></details>
+      <div class="analyst-decision-actions" data-decision-id="${escapeHtml(item.decision_id)}">
+        ${decisionActionButton("reviewed","Mark reviewed",disposition)}
+        ${decisionActionButton("escalated","Escalate",disposition)}
+        ${decisionActionButton("deferred","Defer",disposition)}
+        ${decisionActionButton("dismissed","Dismiss",disposition)}
+      </div>
+    </article>`;
+  }).join("");
+}
+
+function decisionActionButton(action, label, disposition){
+  return `<button type="button" data-decision-action="${action}" class="${disposition === action ? "selected" : ""}" aria-pressed="${disposition === action}">${label}</button>`;
+}
+
+function decisionDetailEntries(details){
+  const order = ["previous_value","value","affected_areas","decision_effects","checklist_actions","values","predicate","predicates","record_date","awarding_agency","claim_ids","claim_id","impact_id"];
+  return order.filter(key => details[key] != null && details[key] !== "" && (!Array.isArray(details[key]) || details[key].length)).map(key => {
+    const label = key.replaceAll("_"," ").replace(/\b\w/g, value => value.toUpperCase());
+    const raw = details[key];
+    const value = Array.isArray(raw) ? raw.join(" · ") : typeof raw === "object" ? JSON.stringify(raw) : String(raw);
+    return `<p><b>${escapeHtml(label)}:</b> ${escapeHtml(value)}</p>`;
+  }).join("");
 }
 
 function renderDecisionBriefs(payload){
@@ -644,6 +735,51 @@ document.getElementById("opportunity-filters").addEventListener("click", event =
   state.opportunityFilter = event.target.dataset.opportunity;
   document.querySelectorAll("#opportunity-filters button").forEach(button => button.classList.toggle("active", button === event.target));
   if (state.data) renderOpportunityRadar(state.data.federal_funding || {});
+});
+document.getElementById("analyst-decision-filters").addEventListener("click", event => {
+  const button = event.target.closest("[data-decision-filter]");
+  if (!button) return;
+  state.decisionFilter = button.dataset.decisionFilter;
+  document.querySelectorAll("#analyst-decision-filters button").forEach(item => item.classList.toggle("active", item === button));
+  if (state.data) renderDecisionCenter(state.data.decision_center || {});
+});
+document.getElementById("analyst-decision-list").addEventListener("click", event => {
+  const button = event.target.closest("[data-decision-action]");
+  const actionGroup = button?.closest("[data-decision-id]");
+  if (!button || !actionGroup || !state.data) return;
+  const decisionId = actionGroup.dataset.decisionId;
+  const action = button.dataset.decisionAction;
+  const current = state.analystDecisions[decisionId];
+  if (current?.disposition === action) {
+    delete state.analystDecisions[decisionId];
+  } else {
+    const remoteItem = (state.data.decision_center?.items || []).find(item => item.decision_id === decisionId);
+    const snapshot = remoteItem || current?.item;
+    state.analystDecisions[decisionId] = {
+      decision_id: decisionId,
+      disposition: action,
+      updated_at: new Date().toISOString(),
+      item: snapshot
+    };
+  }
+  persistAnalystDecisions();
+  renderDecisionCenter(state.data.decision_center || {});
+});
+document.getElementById("export-analyst-decisions").addEventListener("click", () => {
+  const records = Object.values(state.analystDecisions).sort((a,b) => String(a.decision_id).localeCompare(String(b.decision_id)));
+  const content = JSON.stringify({version:1,exported_at:new Date().toISOString(),decisions:records},null,2);
+  const url = URL.createObjectURL(new Blob([content],{type:"application/json"}));
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `quantum-scout-analyst-decisions-${new Date().toISOString().slice(0,10)}.json`;
+  link.click();
+  URL.revokeObjectURL(url);
+});
+document.getElementById("clear-analyst-decisions").addEventListener("click", () => {
+  if (!Object.keys(state.analystDecisions).length || !window.confirm("Clear all analyst decisions stored in this browser?")) return;
+  state.analystDecisions = {};
+  try { window.localStorage.removeItem(ANALYST_DECISION_STORAGE_KEY); } catch { /* Browser-local storage may be unavailable. */ }
+  if (state.data) renderDecisionCenter(state.data.decision_center || {});
 });
 document.getElementById("relationship-mission").addEventListener("change", event => {
   state.relationshipMission = event.target.value;

@@ -3,8 +3,15 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from pqc_quantum_research_agent.decision_center import build_decision_center  # noqa: E402
 
 
 def build_dashboard(
@@ -97,6 +104,12 @@ def build_dashboard(
             "summary": pursuits.get("summary", {}),
             "pursuits": (pursuits.get("pursuits") or [])[:30],
         },
+        "decision_center": build_decision_center(
+            procurement_intelligence,
+            intelligence_changes,
+            claim_ledger,
+            federal_funding=federal_funding,
+        ),
         "claim_ledger": {
             "updated_at": claim_ledger.get("updated_at"),
             "summary": claim_ledger.get("summary", {}),
@@ -123,6 +136,9 @@ def build_dashboard(
                 intelligence_changes.get("conflict_resolved") or []
             )[:20],
             "conflicts": (intelligence_changes.get("conflicts") or [])[:20],
+            "active_conflicts": (
+                intelligence_changes.get("active_conflicts") or []
+            )[:20],
         },
         "historical_evidence": {
             key: historical.get(key) for key in ("updated_at", "lookback_days", "item_count", "dated_count", "undated_count")

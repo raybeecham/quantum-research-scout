@@ -77,6 +77,30 @@
       </div>
     </section>
 
+    <section id="decision-center" class="section decision-center-section">
+      <div class="section-heading"><div><p class="eyebrow">ANALYST DECISION CENTER</p><h2>What needs a decision</h2></div><p id="analyst-decision-summary" class="updated"></p></div>
+      <div class="decision-center-shell">
+        <div class="decision-center-intro">
+          <div><strong>Evidence-to-action queue</strong><p>Material amendments, authoritative government changes, and unresolved claim conflicts—ranked for review.</p></div>
+          <span class="local-only-badge">Analyst actions stay in this browser</span>
+        </div>
+        <div class="decision-center-toolbar">
+          <div id="analyst-decision-filters" class="filters decision-filters" aria-label="Decision queue filters">
+            <button class="active" data-decision-filter="open">Open</button>
+            <button data-decision-filter="amendment_revalidation">Amendments</button>
+            <button data-decision-filter="authoritative_change">Government</button>
+            <button data-decision-filter="claim_conflict">Conflicts</button>
+            <button data-decision-filter="handled">Handled</button>
+          </div>
+          <div class="decision-center-tools">
+            <button id="export-analyst-decisions" type="button">Export decisions</button>
+            <button id="clear-analyst-decisions" type="button">Clear local history</button>
+          </div>
+        </div>
+        <div id="analyst-decision-list" class="analyst-decision-list" aria-live="polite"></div>
+      </div>
+    </section>
+
     <details id="explore" class="advanced-analysis explore-analysis">
       <summary>
         <div><p class="eyebrow">EXPLORE ON DEMAND</p><h2>Missions, funding, signals, patents, and watchlists</h2><p>Follow federal execution, search the evidence radar, review early IP activity, and inspect watched organizations and technologies.</p></div>

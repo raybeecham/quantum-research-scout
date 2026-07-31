@@ -359,6 +359,8 @@ class DashboardBuildTests(unittest.TestCase):
                 payload["intelligence_changes"]["summary"]["material_changes"],
                 1,
             )
+            self.assertEqual(payload["decision_center"]["summary"]["total"], 0)
+            self.assertIn("browser", payload["decision_center"]["privacy_note"])
             self.assertEqual(
                 payload["federal_funding"]["relationship_explorer"]["edges"][0][
                     "claim_id"
@@ -418,6 +420,20 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("curated_total", script)
         self.assertIn("renderMissions", script)
         self.assertIn("renderFunding", script)
+
+    def test_dashboard_includes_browser_local_analyst_decision_center(self) -> None:
+        root = Path(__file__).parents[1]
+        html = (root / "dashboard" / "index.html").read_text(encoding="utf-8")
+        script = (root / "dashboard" / "app.js").read_text(encoding="utf-8")
+
+        self.assertIn('id="decision-center"', html)
+        self.assertIn('id="analyst-decision-list"', html)
+        self.assertIn('id="export-analyst-decisions"', html)
+        self.assertIn("renderDecisionCenter", script)
+        self.assertIn("ANALYST_DECISION_STORAGE_KEY", script)
+        self.assertIn("window.localStorage", script)
+        self.assertIn("retained_locally", script)
+        self.assertNotIn("analystDecisions: state.analystDecisions", script)
         self.assertIn("renderOpportunityRadar", script)
         self.assertIn("renderRelationshipExplorer", script)
         self.assertIn("renderContractors", script)
