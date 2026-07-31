@@ -57,6 +57,8 @@ jobs:
           git add reports/bid-no-bid.json reports/bid-no-bid.md
           git add reports/contractor-enrichment.json reports/contractor-enrichment.md
           git add reports/pursuits.json reports/pursuits.md
+          git add reports/claim-ledger.json reports/claim-ledger.md
+          git add reports/intelligence-changes.json reports/intelligence-changes.md
           if git diff --cached --quiet; then
             echo "No historical intelligence changes to commit"
           else

@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-07-31T02:07:00.150836+00:00_
+_Updated 2026-07-31T16:06:07.673432+00:00_
 
 Public-safe pursuit status derived from tracked configuration and qualification evidence. Internal notes, questions, partners, and capability evidence are excluded.
 
@@ -11,6 +11,7 @@ Public-safe pursuit status derived from tracked configuration and qualification 
 - Auto-seeded candidates: **1**
 - Decisions due within 7 days: **0**
 - Overdue milestones: **0**
+- Decisions requiring amendment revalidation: **0**
 
 | Stage | Opportunity | Agency | Owner | Deadline | Decision / next step |
 |---|---|---|---|---|---|

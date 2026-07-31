@@ -235,6 +235,61 @@ class DashboardBuildTests(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
+            (reports / "claim-ledger.json").write_text(
+                json.dumps(
+                    {
+                        "summary": {
+                            "active_claims": 1,
+                            "authoritative_claims": 1,
+                        },
+                        "claims": [
+                            {
+                                "claim_id": "claim-mission-baa",
+                                "status": "active",
+                                "subject": {
+                                    "node_id": "mission:genesis",
+                                    "identifier": "genesis",
+                                    "label": "Genesis Mission",
+                                },
+                                "predicate": "executes_through",
+                                "object": {
+                                    "node_id": "opportunity:sam:one",
+                                    "identifier": "sam:one",
+                                    "label": "Quantum BAA",
+                                },
+                                "authority": "analytical",
+                                "confidence": "high",
+                                "basis": "named program match",
+                                "sources": [
+                                    {
+                                        "url": "https://sam.gov/opp/one/view",
+                                        "title": "Quantum BAA",
+                                    }
+                                ],
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            (reports / "intelligence-changes.json").write_text(
+                json.dumps(
+                    {
+                        "baseline_initialized": False,
+                        "summary": {"material_changes": 1, "conflicts": 0},
+                        "changed": [
+                            {
+                                "claim_id": "claim-deadline",
+                                "change_type": "changed",
+                                "subject": {"label": "Quantum BAA"},
+                                "predicate": "deadline",
+                                "value": "2026-08-15",
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
             (reports / "historical-evidence.json").write_text(
                 json.dumps({"item_count": 2, "dated_count": 1, "undated_count": 1, "items": [{"key": "one"}]}),
                 encoding="utf-8",
@@ -299,6 +354,17 @@ class DashboardBuildTests(unittest.TestCase):
             )
             self.assertEqual(payload["bid_no_bid"]["briefs"][0]["decision_score"], 88)
             self.assertEqual(payload["pursuits"]["pursuits"][0]["stage"], "pursue")
+            self.assertEqual(payload["claim_ledger"]["summary"]["active_claims"], 1)
+            self.assertEqual(
+                payload["intelligence_changes"]["summary"]["material_changes"],
+                1,
+            )
+            self.assertEqual(
+                payload["federal_funding"]["relationship_explorer"]["edges"][0][
+                    "claim_id"
+                ],
+                "claim-mission-baa",
+            )
             self.assertEqual(payload["historical_evidence"]["item_count"], 2)
             self.assertEqual(payload["patents"]["summary"]["total"], 1)
             self.assertEqual(payload["patents"]["summary"]["curated_total"], 1)
@@ -356,10 +422,12 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("renderRelationshipExplorer", script)
         self.assertIn("renderContractors", script)
         self.assertIn("renderPursuits", script)
+        self.assertIn("renderEvidenceLedger", script)
         self.assertIn('id="opportunity-radar"', html)
         self.assertIn('id="relationship-graph"', html)
         self.assertIn('id="contractor-grid"', html)
         self.assertIn('id="pursuit-board"', html)
+        self.assertIn('id="evidence-claim-grid"', html)
         self.assertIn("strategic_significance_score", script)
         self.assertIn("alerts.slice(0, 3)", script)
         self.assertIn("friendlyReportName", script)

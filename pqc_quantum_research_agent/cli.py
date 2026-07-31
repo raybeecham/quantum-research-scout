@@ -8,6 +8,8 @@ from pathlib import Path
 
 from .classifier import classify_item
 from .capabilities import load_capability_profile
+from .claim_ledger import write_claim_ledger
+from .scoring_calibration import write_scoring_calibration
 from .collectors import collect_all
 from .config import load_config, load_weight_file
 from .date_filter import COVERAGE_WINDOW_INCLUDED_STATUSES, apply_date_filter, build_coverage_window, summarize_date_filter
@@ -81,6 +83,16 @@ def build_parser() -> argparse.ArgumentParser:
         "--local-intelligence-dir",
         default=".local-intelligence",
         help="Gitignored output directory for private working views.",
+    )
+    parser.add_argument(
+        "--calibration-config",
+        default="calibration.yaml",
+        help="Explainable analyst-feedback calibration safeguards and shadow-mode settings.",
+    )
+    parser.add_argument(
+        "--feedback-log",
+        default="pursuit-feedback.local.jsonl",
+        help="Gitignored append-only analyst pursuit-feedback ledger.",
     )
     parser.add_argument("--week-start", default=None, help="Weekly synthesis start date in YYYY-MM-DD format.")
     parser.add_argument("--week-end", default=None, help="Weekly synthesis end date in YYYY-MM-DD format.")
@@ -390,11 +402,18 @@ def main(argv: list[str] | None = None) -> int:
             capability_profile=capability_profile,
             generated_at=generated_at,
         )
+        calibration_model, _, _ = write_scoring_calibration(
+            args.feedback_log,
+            args.calibration_config,
+            args.local_intelligence_dir,
+            generated_at=generated_at,
+        )
         write_pursuit_workspace(
             Path(args.reports_dir),
             args.pursuits_config,
             args.private_pursuits_config,
             capability_profile=capability_profile,
+            calibration_model=calibration_model,
             local_intelligence_dir=args.local_intelligence_dir,
             generated_at=generated_at,
         )
@@ -404,6 +423,7 @@ def main(argv: list[str] | None = None) -> int:
         write_standards_timeline(Path(args.reports_dir), args.standards_config)
         write_source_observations(Path(args.reports_dir), config, collection, generated_at=generated_at)
         write_source_health_report(Path(args.reports_dir), args.config)
+        write_claim_ledger(Path(args.reports_dir), generated_at=generated_at)
         write_alerts(Path(args.reports_dir), args.alerts_config)
     if args.update_report_index:
         write_report_index(Path(args.reports_dir))

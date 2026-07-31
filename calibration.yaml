@@ -1,0 +1,32 @@
+version: 1
+
+calibration:
+  # Shadow mode calculates proposed adjustments but never changes a recommendation.
+  # Change to active only after reviewing the private calibration report.
+  enabled: true
+  mode: shadow
+  lookback_days: 730
+  prior_strength: 12
+  maximum_combined_adjustment: 10
+
+  selection:
+    minimum_opportunities: 20
+    minimum_mature_positive: 5
+    minimum_negative: 5
+    minimum_factor_opportunities: 6
+    minimum_factor_positive: 2
+    minimum_factor_negative: 2
+    maximum_factor_adjustment: 3
+    maximum_total_adjustment: 6
+    maximum_factors: 3
+
+  outcome:
+    minimum_opportunities: 12
+    minimum_wins: 3
+    minimum_losses: 3
+    minimum_factor_opportunities: 6
+    minimum_factor_wins: 2
+    minimum_factor_losses: 2
+    maximum_factor_adjustment: 3
+    maximum_total_adjustment: 4
+    maximum_factors: 2

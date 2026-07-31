@@ -24,14 +24,25 @@ pursuits:
         status: pending
         owner: "Executive sponsor"
     checklist:
-      - item: "Confirm eligibility and set-aside status"
+      - id: "eligibility"
+        item: "Confirm eligibility and set-aside status"
         status: pending
         owner: "Contracts"
         evidence: "Link or internal reference"
-      - item: "Validate past-performance fit"
+        tracks: [eligibility, set-aside, naics]
+      - id: "past-performance"
+        item: "Validate past-performance fit"
         status: pending
         owner: "Capture lead"
         evidence: "Internal reference"
+        tracks: [evaluation, past performance]
+    # Acknowledgment suppresses the stale-decision/checklist markers for this
+    # specific impact. It never changes the pursuit stage or checklist status.
+    amendment_review:
+      acknowledged_impact_ids: []
+      reviewed_at:
+      reviewed_by:
+      notes:
     questions:
       - "What is the controlling submission date after amendments?"
     partners:

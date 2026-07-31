@@ -10,6 +10,78 @@ from pqc_quantum_research_agent.alerts import write_alerts
 
 
 class AlertTests(unittest.TestCase):
+    def test_amendment_impact_alert_ids_are_version_specific(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports = Path(temp_dir)
+            (reports / "signals.json").write_text('{"themes": {}}', encoding="utf-8")
+            (reports / "source-health.json").write_text(
+                '{"sources": []}', encoding="utf-8"
+            )
+            (reports / "entity-watch.json").write_text(
+                '{"entities": []}', encoding="utf-8"
+            )
+            (reports / "federal-funding.json").write_text(
+                '{"opportunity_radar": []}', encoding="utf-8"
+            )
+
+            def write_impact(impact_id: str, evidence_url: str) -> None:
+                (reports / "procurement-intelligence.json").write_text(
+                    json.dumps(
+                        {
+                            "opportunities": [
+                                {
+                                    "opportunity_key": "sam:one",
+                                    "title": "Quantum solicitation",
+                                    "agency": "Department of Defense",
+                                    "latest_amendment_impact": {
+                                        "impact_id": impact_id,
+                                        "detected_at": "2026-07-30T12:00:00+00:00",
+                                        "detected_this_run": True,
+                                        "highest_materiality": "critical",
+                                        "requires_decision_revalidation": True,
+                                        "changes": [
+                                            {
+                                                "summary": "Response deadline moved earlier.",
+                                                "materiality": "critical",
+                                                "after": {
+                                                    "source": {
+                                                        "source_url": evidence_url
+                                                    }
+                                                },
+                                            }
+                                        ],
+                                    },
+                                }
+                            ]
+                        }
+                    ),
+                    encoding="utf-8",
+                )
+
+            write_impact("impact:one", "https://files.sam.gov/amendment-0001.pdf")
+            _, first_json, _ = write_alerts(
+                reports,
+                reports / "missing.yaml",
+                generated_at=datetime(2026, 7, 30, 12, tzinfo=timezone.utc),
+            )
+            first = json.loads(first_json.read_text(encoding="utf-8"))
+            write_impact("impact:two", "https://files.sam.gov/amendment-0002.pdf")
+            _, second_json, _ = write_alerts(
+                reports,
+                reports / "missing.yaml",
+                generated_at=datetime(2026, 7, 30, 13, tzinfo=timezone.utc),
+            )
+            second = json.loads(second_json.read_text(encoding="utf-8"))
+
+        self.assertEqual(first["alerts"][0]["type"], "procurement_amendment_impact")
+        self.assertEqual(first["alerts"][0]["severity"], "critical")
+        self.assertNotEqual(first["alerts"][0]["id"], second["alerts"][0]["id"])
+        self.assertTrue(second["alerts"][0]["is_new"])
+        self.assertEqual(
+            second["alerts"][0]["evidence_url"],
+            "https://files.sam.gov/amendment-0002.pdf",
+        )
+
     def test_new_procurement_amendment_creates_alert(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             reports = Path(temp_dir)
@@ -264,3 +336,51 @@ class AlertTests(unittest.TestCase):
             )
             payload = json.loads(json_path.read_text(encoding="utf-8"))
             self.assertEqual(payload["active_count"], 0)
+
+    def test_authoritative_claim_conflict_creates_traceable_alert(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports = Path(temp_dir)
+            (reports / "intelligence-changes.json").write_text(
+                json.dumps(
+                    {
+                        "baseline_initialized": False,
+                        "updated_at": "2026-07-30T12:00:00+00:00",
+                        "conflict_opened": [
+                            {
+                                "predicate": "deadline",
+                                "subject_label": "Quantum solicitation",
+                                "claim_ids": ["claim-one", "claim-two"],
+                                "values": ["2026-08-10", "2026-08-15"],
+                                "authority": "authoritative",
+                                "sources": [
+                                    {
+                                        "title": "SAM.gov notice",
+                                        "url": "https://sam.gov/opp/example/view",
+                                    }
+                                ],
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            config = reports / "alerts.yaml"
+            config.write_text(
+                "claim_changes:\n  enabled: true\n  conflict_opened: true\n",
+                encoding="utf-8",
+            )
+
+            _, json_path, _ = write_alerts(
+                reports,
+                config,
+                generated_at=datetime(2026, 7, 30, tzinfo=timezone.utc),
+            )
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["active_count"], 1)
+        self.assertEqual(payload["alerts"][0]["type"], "claim_conflict")
+        self.assertEqual(payload["alerts"][0]["severity"], "critical")
+        self.assertEqual(
+            payload["alerts"][0]["evidence_url"],
+            "https://sam.gov/opp/example/view",
+        )

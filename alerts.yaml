@@ -49,7 +49,14 @@ opportunities:
 procurement_documents:
   enabled: true
   new_amendments: true
+  material_impacts: true
   severity: high
+
+claim_changes:
+  enabled: true
+  conflict_opened: true
+  changed: true
+  superseded: true
 
 output:
   max_active_alerts: 50

@@ -2,6 +2,7 @@
   "pursuits": [
     {
       "agency": "PAMS-SC",
+      "amendment_review_status": "current",
       "checklist_complete": 0,
       "checklist_percent": 0,
       "checklist_total": 0,
@@ -9,8 +10,11 @@
       "days_to_decision": null,
       "deadline": null,
       "decision_due": null,
+      "decision_revalidation_required": false,
       "decision_score": 75,
       "evidence_completeness": 0,
+      "impacted_checklist_items": 0,
+      "latest_amendment_impact_summary": null,
       "managed": false,
       "mission_fit": [
         "Genesis Mission"
@@ -19,6 +23,7 @@
       "opportunity_key": "grants_gov:DE-FOA-0003612",
       "overdue_milestones": 0,
       "provisional_gate": "qualify",
+      "public_evidence_score": 75,
       "public_summary": "Auto-seeded from the public qualification radar; add it to a pursuit configuration to assign ownership and manage execution.",
       "stage": "qualify",
       "technology_fit": [
@@ -35,6 +40,8 @@
     "active": 1,
     "auto_seeded": 1,
     "decisions_due_7_days": 0,
+    "decisions_revalidation_required": 0,
+    "impacted_checklist_items": 0,
     "managed": 0,
     "overdue_milestones": 0,
     "stages": {
@@ -42,6 +49,6 @@
     },
     "total": 1
   },
-  "updated_at": "2026-07-31T02:07:00.150836+00:00",
+  "updated_at": "2026-07-31T16:06:07.673432+00:00",
   "version": 1
 }

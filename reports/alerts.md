@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-07-31 02:22 UTC_
+_Updated 2026-07-31 16:06 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 18 | 19 | 13 | 18 |
+| 50 | 1 | 19 | 14 | 17 |
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
@@ -38,105 +38,105 @@ _Updated 2026-07-31 02:22 UTC_
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Source failing: SAM.gov · AI Forge 🆕
+## 🔴 Source failing: SAM.gov · AI Forge
 
 - Severity: **critical**
 - Status: **failing**
 - 🔴 0.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov · Advanced Computing 🆕
+## 🔴 Source failing: SAM.gov · Advanced Computing
 
 - Severity: **critical**
 - Status: **failing**
 - 🔴 0.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov · Artificial Intelligence 🆕
+## 🔴 Source failing: SAM.gov · Artificial Intelligence
 
 - Severity: **critical**
 - Status: **failing**
 - 🔴 0.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov · Autonomy and Sensing 🆕
+## 🔴 Source failing: SAM.gov · Autonomy and Sensing
 
 - Severity: **critical**
 - Status: **failing**
 - 🔴 0.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov · Cybersecurity 🆕
+## 🔴 Source failing: SAM.gov · Cybersecurity
 
 - Severity: **critical**
 - Status: **failing**
 - 🔴 0.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov · Genesis Mission 🆕
+## 🔴 Source failing: SAM.gov · Genesis Mission
 
 - Severity: **critical**
 - Status: **failing**
 - 🔴 0.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov · Golden Dome 🆕
+## 🔴 Source failing: SAM.gov · Golden Dome
 
 - Severity: **critical**
 - Status: **failing**
 - 🔴 0.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov · Military AI Pace-Setting Projects 🆕
+## 🔴 Source failing: SAM.gov · Military AI Pace-Setting Projects
 
 - Severity: **critical**
 - Status: **failing**
 - 🔴 0.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov · Post-Quantum Cybersecurity 🆕
+## 🔴 Source failing: SAM.gov · Post-Quantum Cybersecurity
 
 - Severity: **critical**
 - Status: **failing**
 - 🔴 0.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov · Project Triad 🆕
+## 🔴 Source failing: SAM.gov · Project Triad
 
 - Severity: **critical**
 - Status: **failing**
 - 🔴 0.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov · QC-ADDS 🆕
+## 🔴 Source failing: SAM.gov · QC-ADDS
 
 - Severity: **critical**
 - Status: **failing**
 - 🔴 0.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov · Quantum Benchmarking Initiative 🆕
+## 🔴 Source failing: SAM.gov · Quantum Benchmarking Initiative
 
 - Severity: **critical**
 - Status: **failing**
 - 🔴 0.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov · Quantum Genesis 🆕
+## 🔴 Source failing: SAM.gov · Quantum Genesis
 
 - Severity: **critical**
 - Status: **failing**
 - 🔴 0.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov · Quantum Technologies 🆕
+## 🔴 Source failing: SAM.gov · Quantum Technologies
 
 - Severity: **critical**
 - Status: **failing**
 - 🔴 0.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov · QuantumEAGLe 🆕
+## 🔴 Source failing: SAM.gov · QuantumEAGLe
 
 - Severity: **critical**
 - Status: **failing**
@@ -177,6 +177,14 @@ _Updated 2026-07-31 02:22 UTC_
 - Status: **actionable**
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
+
+## 🟠 Changed: American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy 🆕
+
+- Severity: **high**
+- Status: **changed**
+- qualification gate · authority analytical · hold
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363293)
+- [Open supporting view](intelligence-changes.md)
 
 ## 🟠 Federal opportunity closing soon: National Cybersecurity Preparedness Consortium
 
@@ -320,21 +328,21 @@ _Updated 2026-07-31 02:22 UTC_
 - The latest dated item is from 2026-04-23; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · AI Forge 🆕
+## 🟡 Source stale: Grants.gov · AI Forge
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-08; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Advanced Computing 🆕
+## 🟡 Source stale: Grants.gov · Advanced Computing
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-02; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Quantum Benchmarking Initiative 🆕
+## 🟡 Source stale: Grants.gov · Quantum Benchmarking Initiative
 
 - Severity: **medium**
 - Status: **stale**
@@ -353,11 +361,4 @@ _Updated 2026-07-31 02:22 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2023-06-15; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Lockheed Martin Quantum Technology
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-07-14; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

@@ -2,7 +2,7 @@
 
 > **Quantum Research Scout** · Intelligence archive and operational dashboard
 
-_Updated 2026-07-31 02:22 UTC_
+_Updated 2026-07-31 16:06 UTC_
 
 [Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
 
@@ -23,6 +23,8 @@ _Updated 2026-07-31 02:22 UTC_
 - Procurement document intelligence: [procurement-intelligence](procurement-intelligence.md)
 - Provisional bid / no-bid briefs: [bid-no-bid](bid-no-bid.md)
 - Opportunity pursuit workspace: [pursuits](pursuits.md)
+- Evidence and claim ledger: [claim-ledger](claim-ledger.md)
+- What changed since yesterday: [intelligence-changes](intelligence-changes.md)
 - Patent intelligence: [patents](patents.md)
 - Source health: [source-health](source-health.md)
 - Intelligence alerts: [alerts](alerts.md)

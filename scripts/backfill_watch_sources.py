@@ -12,6 +12,8 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from pqc_quantum_research_agent.classifier import classify_item
 from pqc_quantum_research_agent.capabilities import load_capability_profile
+from pqc_quantum_research_agent.claim_ledger import write_claim_ledger
+from pqc_quantum_research_agent.scoring_calibration import write_scoring_calibration
 from pqc_quantum_research_agent.collectors import collect_watch_sources
 from pqc_quantum_research_agent.config import load_config, load_weight_file
 from pqc_quantum_research_agent.dedupe import prepare_identity
@@ -39,6 +41,8 @@ def main() -> int:
     parser.add_argument("--pursuits-config", default="pursuits.yaml")
     parser.add_argument("--private-pursuits-config", default="pursuits.local.yaml")
     parser.add_argument("--local-intelligence-dir", default=".local-intelligence")
+    parser.add_argument("--calibration-config", default="calibration.yaml")
+    parser.add_argument("--feedback-log", default="pursuit-feedback.local.jsonl")
     parser.add_argument("--source-weights", default="source_weights.yaml")
     parser.add_argument("--keyword-weights", default="keyword_weights.yaml")
     parser.add_argument("--source", action="append", default=[], help="Exact source name to backfill; repeat as needed.")
@@ -112,14 +116,22 @@ def main() -> int:
         capability_profile=capability_profile,
         generated_at=generated,
     )
+    calibration_model, _, _ = write_scoring_calibration(
+        args.feedback_log,
+        args.calibration_config,
+        args.local_intelligence_dir,
+        generated_at=generated,
+    )
     write_pursuit_workspace(
         reports,
         args.pursuits_config,
         args.private_pursuits_config,
         capability_profile=capability_profile,
+        calibration_model=calibration_model,
         local_intelligence_dir=args.local_intelligence_dir,
         generated_at=generated,
     )
+    write_claim_ledger(reports, generated_at=generated)
     print(json_path)
     return 0
 

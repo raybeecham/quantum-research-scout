@@ -137,7 +137,12 @@ federal_funding:
     max_document_bytes: 8000000
     max_pdf_pages: 30
     max_text_characters: 80000
-    refresh_days: 14
+    refresh_days: 1
+    # The public SAM.gov API exposes the latest active opportunity version.
+    # Keep bounded tracker-observed evidence versions so later runs can explain changes.
+    max_versions_per_document: 6
+    max_opportunity_snapshots: 12
+    amendment_similarity_threshold: 0.62
   contractor_enrichment:
     enabled: true
     endpoint: "https://api.sam.gov/entity-information/v4/entities"

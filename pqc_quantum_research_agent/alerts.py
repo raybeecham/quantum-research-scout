@@ -8,6 +8,7 @@ from pathlib import Path
 
 import yaml
 
+from .amendment_intelligence import highest_evidence_url
 from .visuals import health_icon, momentum_icon, priority_icon, status_icon
 
 CONFIDENCE_RANK = {"low": 0, "medium": 1, "high": 2}
@@ -30,6 +31,9 @@ def write_alerts(
     procurement_intelligence = _read_json(
         reports_path / "procurement-intelligence.json"
     )
+    intelligence_changes = _read_json(
+        reports_path / "intelligence-changes.json"
+    )
     state_path = reports_path / "alerts-state.json"
     previous_state = _read_json(state_path)
     previous_active = previous_state.get("active", {})
@@ -43,6 +47,7 @@ def write_alerts(
             entity_watch,
             federal_funding,
             procurement_intelligence,
+            intelligence_changes,
             config,
             generated.date(),
         )
@@ -98,6 +103,7 @@ def _evaluate(
     entity_watch: dict,
     federal_funding: dict,
     procurement_intelligence: dict,
+    intelligence_changes: dict,
     config: dict,
     today: date,
 ) -> list[dict]:
@@ -158,6 +164,12 @@ def _evaluate(
         _procurement_document_alerts(
             procurement_intelligence,
             config.get("procurement_documents", {}),
+        )
+    )
+    alerts.extend(
+        _claim_change_alerts(
+            intelligence_changes,
+            config.get("claim_changes", {}),
         )
     )
     return alerts
@@ -227,17 +239,64 @@ def _funding_opportunity_alerts(federal_funding: dict, config: dict) -> list[dic
 
 
 def _procurement_document_alerts(payload: dict, config: dict) -> list[dict]:
-    if not config.get("enabled", True) or not config.get("new_amendments", True):
+    if not config.get("enabled", True):
         return []
     alerts = []
     for opportunity in payload.get("opportunities", []):
-        if not opportunity.get("new_amendment"):
-            continue
         title = str(opportunity.get("title") or "Federal opportunity")
         opportunity_key = str(
             opportunity.get("opportunity_key") or opportunity.get("url") or title
         )
         fingerprint = sha256(opportunity_key.encode("utf-8")).hexdigest()[:12]
+        impact = opportunity.get("latest_amendment_impact")
+        if (
+            config.get("material_impacts", True)
+            and isinstance(impact, dict)
+            and impact.get("detected_this_run")
+        ):
+            impact_id = str(impact.get("impact_id") or impact.get("after_snapshot_id") or "")
+            impact_fingerprint = sha256(impact_id.encode("utf-8")).hexdigest()[:12]
+            highest = str(impact.get("highest_materiality") or "high").casefold()
+            severity = highest if highest in SEVERITY_RANK else "high"
+            changes = [
+                str(item.get("summary") or "")
+                for item in (impact.get("changes") or [])
+                if isinstance(item, dict) and item.get("summary")
+            ]
+            summary = " ".join(changes[:2])
+            if impact.get("requires_decision_revalidation"):
+                summary += (
+                    " Prior qualification and bid/no-bid assumptions require analyst "
+                    "revalidation; no analyst decision was changed automatically."
+                )
+            evidence_url = highest_evidence_url(impact) or str(
+                opportunity.get("url") or ""
+            )
+            alerts.append(
+                _alert(
+                    f"opportunity:amendment-impact:{fingerprint}:{impact_fingerprint}",
+                    "procurement_amendment_impact",
+                    severity,
+                    f"Procurement amendment impact: {title}",
+                    summary.strip()
+                    or "A tracker-observed solicitation change requires review.",
+                    str(opportunity.get("agency") or "Federal opportunity"),
+                    (
+                        "decision-revalidation-required"
+                        if impact.get("requires_decision_revalidation")
+                        else "amendment-impact"
+                    ),
+                    "procurement-intelligence.md",
+                    evidence_url=evidence_url,
+                    evidence_title=title,
+                    evidence_date=str(impact.get("detected_at") or ""),
+                )
+            )
+            continue
+        if not config.get("new_amendments", True) or not opportunity.get(
+            "new_amendment"
+        ):
+            continue
         amendment = next(
             (
                 document
@@ -264,6 +323,64 @@ def _procurement_document_alerts(payload: dict, config: dict) -> list[dict]:
                 evidence_date=str(opportunity.get("deadline") or ""),
             )
         )
+    return alerts
+
+
+def _claim_change_alerts(payload: dict, config: dict) -> list[dict]:
+    if not config.get("enabled", True) or payload.get("baseline_initialized"):
+        return []
+    alerts = []
+    event_groups = (
+        ("conflict_opened", "claim_conflict", "critical"),
+        ("changed", "claim_changed", "high"),
+        ("superseded", "claim_superseded", "high"),
+    )
+    for key, alert_type, default_severity in event_groups:
+        if config.get(key, True) is False:
+            continue
+        for event in payload.get(key, [])[:20]:
+            subject = event.get("subject") or {}
+            title = str(
+                subject.get("label")
+                or event.get("subject_label")
+                or "Tracked intelligence claim"
+            )
+            predicate = str(event.get("predicate") or "claim").replace("_", " ")
+            claim_id = str(
+                event.get("claim_id")
+                or "|".join(str(value) for value in event.get("claim_ids") or [])
+            )
+            fingerprint = sha256(
+                f"{key}|{claim_id}|{event.get('version') or event.get('values')}".encode(
+                    "utf-8"
+                )
+            ).hexdigest()[:12]
+            sources = event.get("sources") or []
+            source = sources[0] if sources and isinstance(sources[0], dict) else {}
+            authority = str(event.get("authority") or "unknown")
+            severity = (
+                "critical"
+                if key == "conflict_opened" and authority == "authoritative"
+                else default_severity
+            )
+            alerts.append(
+                _alert(
+                    f"claim:{key}:{fingerprint}",
+                    alert_type,
+                    severity,
+                    f"{key.replace('_', ' ').title()}: {title}",
+                    (
+                        f"{predicate} · authority {authority} · "
+                        f"{event.get('value') or event.get('values') or 'review before/after evidence'}"
+                    ),
+                    title,
+                    key.replace("_", "-"),
+                    "intelligence-changes.md",
+                    evidence_url=str(source.get("url") or ""),
+                    evidence_title=str(source.get("title") or title),
+                    evidence_date=str(payload.get("updated_at") or "")[:10],
+                )
+            )
     return alerts
 
 
@@ -396,7 +513,7 @@ def _render_alerts(payload: dict) -> str:
         "",
         f"_Updated {datetime.fromisoformat(payload['updated_at']).astimezone(timezone.utc):%Y-%m-%d %H:%M UTC}_",
         "",
-        f"| Active alerts | New this run | Critical | High | Medium |",
+        "| Active alerts | New this run | Critical | High | Medium |",
         "|---:|---:|---:|---:|---:|",
         (
             f"| {payload['active_count']} | {payload['new_count']} | "

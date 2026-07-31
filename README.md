@@ -75,6 +75,8 @@ The system favors explainable evidence over black-box conclusions. Exact relatio
 | [**Contractor enrichment**](reports/contractor-enrichment.md) | Public SAM.gov registrations, UEIs, CAGE codes, business types, NAICS, and corporate hierarchy |
 | [**Decision briefs**](reports/bid-no-bid.md) | Provisional opportunity qualification, risks, unknowns, and recommended actions |
 | [**Pursuit workspace**](reports/pursuits.md) | Public-safe stages, owners, milestones, checklists, and upcoming decisions |
+| [**Evidence and claim ledger**](reports/claim-ledger.md) | Stable claims, connection explanations, source authority, versions, conflicts, and supersession |
+| [**What changed**](reports/intelligence-changes.md) | Claim-level additions, revisions, resolutions, and conflicts since the prior daily baseline |
 | [**Procurement documents**](reports/procurement-intelligence.md) | Requirements evidence, evaluation criteria, deadlines, contacts, and amendments |
 | [**Patent intelligence**](reports/patents.md) | Patent families, stage, status, citations, assignees, and significance |
 | [**Intelligence alerts**](reports/alerts.md) | New critical conditions, opportunity deadlines, amendments, and source problems |
@@ -84,6 +86,8 @@ The system favors explainable evidence over black-box conclusions. Exact relatio
 ### Evidence stays attached
 
 Scores, signals, mission links, contractor relationships, and alerts retain supporting URLs and explicit reasoning. Inferred connections are not presented as established facts.
+
+The claim ledger goes further: each material assertion and relationship receives a stable ID, source-authority label, confidence, derivation rule, version, and lifecycle status. Equal-authority disagreements remain visible as conflicts; later or stronger evidence can supersede a claim without erasing its history.
 
 ### Government activity gets priority
 
@@ -98,12 +102,15 @@ The acquisition layer can:
 - enrich exact entity matches with public SAM.gov registration, business-type, NAICS, PSC, and parent-organization evidence;
 - extract bounded evidence from public PDF, DOCX, HTML, JSON, XML, and text documents;
 - detect newly observed amendments and content changes;
+- preserve tracker-observed document versions and identify which requirements, deadlines, eligibility terms, risks, checklist areas, or prior decisions need review;
 - produce provisional qualification briefs with risks, unknowns, and next actions;
 - move selected opportunities into an owner, milestone, checklist, and decision workflow.
 
 Raw solicitation files and full document text are not retained. Qualification briefs support human review; they are not authorized bid/no-bid decisions.
 
 Organization capability data and private pursuit notes stay local by default. The generated public dashboard only receives explicit public-safe pursuit fields; private configuration and working views are gitignored.
+
+Analyst feedback follows the same boundary. Explicit, append-only local decisions can produce a separate recommendation score, but the public evidence score is never silently rewritten. Calibration begins in shadow mode, requires balanced minimum samples, caps its effect, and explains every applied factor.
 
 ### Patents are treated as signals—not proof
 
@@ -174,6 +181,7 @@ Slack, Teams, generic webhook, email, and GitHub Issue notification routes are i
 - [`watchlists.yaml`](watchlists.yaml) — organizations, agencies, standards, algorithms, and technologies
 - [`alerts.yaml`](alerts.yaml) — alert thresholds and delivery behavior
 - [`pursuits.yaml`](pursuits.yaml) — public-safe pursuit status and automatic candidate seeding
+- [`calibration.yaml`](calibration.yaml) — private recommendation-score safeguards, minimum samples, caps, and shadow/active mode
 - [`capabilities.example.yaml`](capabilities.example.yaml) — template for a private organization capability profile
 - [`pursuits.example.yaml`](pursuits.example.yaml) — template for a private pursuit workspace
 - [`readiness.yaml`](readiness.yaml) — public PQC-engagement stages and evidence rules
@@ -183,6 +191,18 @@ Slack, Teams, generic webhook, email, and GitHub Issue notification routes are i
 Run `pqc-quantum-research-agent --help` for the complete CLI reference, including daily backfills, rolling lookbacks, weekly and monthly generation, retention, and score controls.
 
 For organization-specific fit and internal pursuit management, copy the example files to `capabilities.local.yaml` and `pursuits.local.yaml`. Those files—and generated `.local-intelligence/` views—are excluded from Git. Keep `publish_fit_assessment: false` unless the capability assessment is intentionally approved for the public reports and dashboard.
+
+Record an explicit, local pursuit decision after the private workspace has been generated:
+
+```powershell
+python scripts/record_pursuit_feedback.py `
+  --opportunity-key "sam_gov:replace-with-opportunity-id" `
+  --stage pursue `
+  --reason strong_capability_fit `
+  --reason vehicle_access
+```
+
+The recorder snapshots the pre-decision evidence and scores into the gitignored `pursuit-feedback.local.jsonl` ledger. Win/loss outcomes must reference a prior bid or submitted event, preventing future information from leaking backward into the training snapshot. Review `.local-intelligence/scoring-calibration.md` before changing calibration from `shadow` to `active`.
 
 <details>
 <summary><strong>How to read the labels</strong></summary>

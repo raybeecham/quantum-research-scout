@@ -599,6 +599,23 @@ footer{border-top-color:rgba(168,187,229,.18);background:rgba(9,15,29,.5)}
 .relationship-evidence span{display:flex;gap:5px;padding:5px 7px;border-radius:6px;background:rgba(130,153,175,.07);color:var(--muted);font-size:8px}
 .relationship-evidence b{color:var(--cyan);text-transform:uppercase}
 .relationship-evidence .low b{color:var(--muted)}
+.relationship-evidence a{margin-left:auto;color:var(--cyan);text-decoration:none}
+.evidence-ledger-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:14px}
+.evidence-ledger-layout>section{padding:12px;border:1px solid var(--line);border-radius:10px;background:rgba(130,153,175,.035)}
+.evidence-ledger-layout h3{margin:0 0 9px;color:var(--muted);font-size:8px;text-transform:uppercase;letter-spacing:.08em}
+.change-feed,.evidence-claim-grid{display:grid;gap:7px}
+.change-card,.evidence-claim{padding:9px;border-radius:8px;background:rgba(21,29,50,.9)}
+.change-card{border-left:3px solid var(--cyan)}
+.change-card.conflict{border-left-color:var(--red)}
+.change-card.changed{border-left-color:var(--amber)}
+.change-card strong,.evidence-claim strong{display:block;font-size:9px;line-height:1.3}
+.change-card span,.change-card small,.evidence-claim span,.evidence-claim small{display:block;margin-top:3px;color:var(--muted);font-size:7px;line-height:1.4}
+.evidence-claim-head{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.authority-tag{padding:3px 5px;border-radius:99px;background:rgba(130,153,175,.09);color:var(--muted)!important;font-size:6px!important;font-weight:850;text-transform:uppercase}
+.authority-tag.authoritative{background:rgba(86,211,143,.1);color:var(--green)!important}
+.authority-tag.analytical{background:rgba(167,139,250,.1);color:var(--violet)!important}
+.evidence-claim a{display:inline-block;margin-top:5px;color:var(--cyan);font-size:7px;text-decoration:none}
+.evidence-ledger-links{display:flex;flex-wrap:wrap;gap:16px}
 .contractor-search{max-width:520px;margin-bottom:10px}
 .contractor-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
 .contractor-card{padding:16px;border:1px solid var(--line);border-radius:12px;background:linear-gradient(145deg,rgba(31,41,70,.82),rgba(18,27,49,.9))}
@@ -656,13 +673,20 @@ footer{border-top-color:rgba(168,187,229,.18);background:rgba(9,15,29,.5)}
 .decision-card h3 a,.document-card h3 a{color:var(--text);text-decoration:none}
 .decision-card>p,.document-card>p,.decision-card>small{margin:0;color:var(--muted);font-size:8px}
 .decision-card ul,.document-card ul{margin:10px 0 0;padding-left:17px;color:var(--muted);font-size:8px;line-height:1.5}
+.decision-trace{margin-top:10px;padding-top:9px;border-top:1px solid var(--line)}
+.decision-trace>summary{color:var(--cyan);font-size:8px;cursor:pointer}
+.decision-trace p{display:grid;grid-template-columns:28px 1fr;gap:3px 6px;margin:7px 0;color:var(--text);font-size:8px}
+.decision-trace p b{grid-row:span 2;color:var(--cyan)}
+.decision-trace p span,.decision-trace>small{color:var(--muted);font-size:7px}
 .evidence-meter{height:5px;margin:11px 0 5px;border-radius:99px;background:rgba(130,153,175,.1);overflow:hidden}
 .evidence-meter i{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--violet),var(--cyan))}
 .document-flags{display:flex;gap:5px;margin-top:9px}
 .document-flags span{padding:4px 7px;border-radius:99px;background:rgba(130,153,175,.08);color:var(--muted);font-size:7px;text-transform:uppercase}
 .document-flags .amendment{background:rgba(255,185,79,.12);color:var(--amber)}
+.impact-summary{margin-top:8px!important;padding:7px;border-left:2px solid var(--amber);background:rgba(255,191,71,.04);line-height:1.4}
 
 @media(max-width:900px){
+  .evidence-ledger-layout{grid-template-columns:1fr}
   .pursuit-board{grid-template-columns:repeat(2,1fr)}
   .relationship-graph{grid-template-columns:1fr}
   .relationship-arrow{transform:rotate(90deg)}

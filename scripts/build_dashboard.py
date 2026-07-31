@@ -55,6 +55,14 @@ def build_dashboard(
         reports / "pursuits.json",
         {"pursuits": [], "summary": {}},
     )
+    claim_ledger = _read_json(
+        reports / "claim-ledger.json",
+        {"claims": [], "summary": {}},
+    )
+    intelligence_changes = _read_json(
+        reports / "intelligence-changes.json",
+        {"summary": {}, "added": [], "changed": [], "resolved": [], "conflicts": []},
+    )
     historical = _read_json(reports / "historical-evidence.json", {"items": [], "item_count": 0})
     patents = _read_json(
         reports / "patents.json",
@@ -72,7 +80,7 @@ def build_dashboard(
         "standards": standards,
         "federal_missions": federal_missions,
         "federal_funding": _dashboard_federal_funding(
-            federal_funding, contractor_enrichment
+            federal_funding, contractor_enrichment, claim_ledger
         ),
         "procurement_intelligence": {
             "updated_at": procurement_intelligence.get("updated_at"),
@@ -88,6 +96,33 @@ def build_dashboard(
             "updated_at": pursuits.get("updated_at"),
             "summary": pursuits.get("summary", {}),
             "pursuits": (pursuits.get("pursuits") or [])[:30],
+        },
+        "claim_ledger": {
+            "updated_at": claim_ledger.get("updated_at"),
+            "summary": claim_ledger.get("summary", {}),
+            "claims": [
+                item
+                for item in (claim_ledger.get("claims") or [])
+                if item.get("status") in {"active", "conflicted"}
+            ][:80],
+        },
+        "intelligence_changes": {
+            "updated_at": intelligence_changes.get("updated_at"),
+            "baseline_initialized": intelligence_changes.get(
+                "baseline_initialized", False
+            ),
+            "summary": intelligence_changes.get("summary", {}),
+            "changed": (intelligence_changes.get("changed") or [])[:20],
+            "added": (intelligence_changes.get("added") or [])[:20],
+            "resolved": (intelligence_changes.get("resolved") or [])[:20],
+            "superseded": (intelligence_changes.get("superseded") or [])[:20],
+            "conflict_opened": (
+                intelligence_changes.get("conflict_opened") or []
+            )[:20],
+            "conflict_resolved": (
+                intelligence_changes.get("conflict_resolved") or []
+            )[:20],
+            "conflicts": (intelligence_changes.get("conflicts") or [])[:20],
         },
         "historical_evidence": {
             key: historical.get(key) for key in ("updated_at", "lookback_days", "item_count", "dated_count", "undated_count")
@@ -148,7 +183,11 @@ def _dashboard_signals(state: dict) -> dict:
     return {"updated_at": state.get("updated_at"), "themes": themes, "overall_trend": overall_trend}
 
 
-def _dashboard_federal_funding(payload: dict, enrichment: dict | None = None) -> dict:
+def _dashboard_federal_funding(
+    payload: dict,
+    enrichment: dict | None = None,
+    claim_ledger: dict | None = None,
+) -> dict:
     records = payload.get("records", [])
     prioritized: list[dict] = []
     seen: set[str] = set()
@@ -245,6 +284,13 @@ def _dashboard_federal_funding(payload: dict, enrichment: dict | None = None) ->
             if resolved.get(key) not in (None, "", [], {})
         }
         contractor_profiles.append(entry)
+    relationship_explorer = payload.get(
+        "relationship_explorer",
+        {"summary": {}, "nodes": [], "edges": []},
+    )
+    relationship_explorer = _attach_relationship_claims(
+        relationship_explorer, claim_ledger or {}
+    )
     return {
         "updated_at": payload.get("updated_at"),
         "as_of_date": payload.get("as_of_date"),
@@ -255,11 +301,40 @@ def _dashboard_federal_funding(payload: dict, enrichment: dict | None = None) ->
         "mission_portfolios": portfolios,
         "contractor_profiles": contractor_profiles,
         "contractor_enrichment_summary": (enrichment or {}).get("summary", {}),
-        "relationship_explorer": payload.get(
-            "relationship_explorer",
-            {"summary": {}, "nodes": [], "edges": []},
-        ),
+        "relationship_explorer": relationship_explorer,
     }
+
+
+def _attach_relationship_claims(explorer: dict, claim_ledger: dict) -> dict:
+    relationship_claims: dict[tuple[str, str], dict] = {}
+    for claim in claim_ledger.get("claims", []):
+        subject = claim.get("subject") or {}
+        target = claim.get("object") or {}
+        if not subject.get("identifier") or not target.get("identifier"):
+            continue
+        relationship_claims[
+            (str(subject["identifier"]), str(target["identifier"]))
+        ] = claim
+    edges = []
+    for edge in explorer.get("edges", []):
+        source_identifier = str(edge.get("source_node") or "").split(":", 1)[-1]
+        target_identifier = str(edge.get("target_node") or "").split(":", 1)[-1]
+        claim = relationship_claims.get((source_identifier, target_identifier), {})
+        enriched = dict(edge)
+        if claim:
+            enriched.update(
+                {
+                    "claim_id": claim.get("claim_id"),
+                    "claim_status": claim.get("status"),
+                    "claim_authority": claim.get("authority"),
+                    "claim_confidence": claim.get("confidence"),
+                    "claim_basis": claim.get("basis"),
+                    "claim_sources": (claim.get("sources") or [])[:5],
+                    "derivation_rule": (claim.get("derivation") or {}).get("rule"),
+                }
+            )
+        edges.append(enriched)
+    return {**explorer, "edges": edges}
 
 
 def _dashboard_patents(payload: dict) -> dict:

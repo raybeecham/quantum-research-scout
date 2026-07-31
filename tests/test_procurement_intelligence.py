@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from pqc_quantum_research_agent.procurement_intelligence import (
+    _document_refresh_priority,
     write_procurement_intelligence,
 )
 
@@ -35,6 +36,36 @@ class FakeDocumentClient:
 
 
 class ProcurementIntelligenceTests(unittest.TestCase):
+    def test_document_refresh_budget_prioritizes_unfetched_attachments(self) -> None:
+        generated = datetime(2026, 7, 30, tzinfo=timezone.utc)
+        fresh_high_score = {
+            "key": "sam_gov:HIGH",
+            "opportunity_score": 95,
+            "resource_links": ["https://files.sam.gov/high.txt"],
+        }
+        unfetched_lower_score = {
+            "key": "sam_gov:LOW",
+            "opportunity_score": 60,
+            "resource_links": ["https://files.sam.gov/low.txt"],
+        }
+        previous = {
+            "documents": [
+                {
+                    "source_url": "https://files.sam.gov/high.txt",
+                    "fetched_at": generated.isoformat(),
+                }
+            ]
+        }
+
+        self.assertGreater(
+            _document_refresh_priority(
+                unfetched_lower_score, {}, set(), generated
+            ),
+            _document_refresh_priority(
+                fresh_high_score, previous, set(), generated
+            ),
+        )
+
     def test_extracts_document_evidence_and_builds_provisional_brief(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             reports = Path(temp_dir)
@@ -104,6 +135,15 @@ class ProcurementIntelligenceTests(unittest.TestCase):
             )
         )
         self.assertIn("https://files.sam.gov/amendment-0001.txt", brief["source_urls"])
+        self.assertEqual(
+            sum(
+                int(component["points"])
+                for component in brief["decision_trace"]["components"]
+            ),
+            brief["public_evidence_score"],
+        )
+        self.assertEqual(brief["decision_score"], brief["public_evidence_score"])
+        self.assertTrue(brief["decision_trace"]["trace_hash"])
 
     def test_reuses_fresh_extraction_cache(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -191,6 +231,14 @@ class ProcurementIntelligenceTests(unittest.TestCase):
 
         self.assertNotIn("capability_fit", private_default["briefs"][0])
         self.assertTrue(published["briefs"][0]["capability_fit"]["configured"])
+        self.assertEqual(
+            private_default["briefs"][0]["public_evidence_score"],
+            published["briefs"][0]["public_evidence_score"],
+        )
+        self.assertIn(
+            "published_capability_recommendation_score",
+            published["briefs"][0],
+        )
 
 
 if __name__ == "__main__":

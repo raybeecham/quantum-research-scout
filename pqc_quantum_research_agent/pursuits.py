@@ -6,7 +6,12 @@ from pathlib import Path
 
 import yaml
 
+from .amendment_intelligence import (
+    annotate_checklist_for_impact,
+    highest_evidence_url,
+)
 from .capabilities import capability_publication_enabled, score_capability_fit
+from .scoring_calibration import score_private_opportunity
 
 
 VALID_STAGES = {
@@ -28,6 +33,7 @@ def write_pursuit_workspace(
     private_config_path: str | Path = "pursuits.local.yaml",
     *,
     capability_profile: dict | None = None,
+    calibration_model: dict | None = None,
     local_intelligence_dir: str | Path = ".local-intelligence",
     generated_at: datetime | None = None,
 ) -> tuple[Path, Path, Path, Path]:
@@ -92,7 +98,13 @@ def write_pursuit_workspace(
                 break
 
     records = [
-        _build_record(entry, brief_by_key.get(key, {}), profile, today)
+        _build_record(
+            entry,
+            brief_by_key.get(key, {}),
+            profile,
+            calibration_model or {},
+            today,
+        )
         for key, entry in entries_by_key.items()
     ]
     records.sort(key=_sort_key, reverse=True)
@@ -122,7 +134,13 @@ def write_pursuit_workspace(
     return public_json, public_markdown, private_json, private_markdown
 
 
-def _build_record(entry: dict, brief: dict, profile: dict, today: date) -> dict:
+def _build_record(
+    entry: dict,
+    brief: dict,
+    profile: dict,
+    calibration_model: dict,
+    today: date,
+) -> dict:
     stage = str(entry.get("stage") or _default_stage(brief)).casefold()
     if stage not in VALID_STAGES:
         stage = "watch"
@@ -141,6 +159,32 @@ def _build_record(entry: dict, brief: dict, profile: dict, today: date) -> dict:
         for item in entry.get("checklist") or []
         if isinstance(item, dict) and item.get("item")
     ]
+    impact = (
+        brief.get("latest_amendment_impact")
+        if isinstance(brief.get("latest_amendment_impact"), dict)
+        else None
+    )
+    review = (
+        entry.get("amendment_review")
+        if isinstance(entry.get("amendment_review"), dict)
+        else {}
+    )
+    acknowledged = {
+        str(value)
+        for value in review.get("acknowledged_impact_ids") or []
+        if str(value).strip()
+    }
+    checklist, impacted_checklist_items = annotate_checklist_for_impact(
+        checklist,
+        impact,
+        acknowledged_impact_ids=acknowledged,
+    )
+    impact_id = str((impact or {}).get("impact_id") or "")
+    decision_revalidation_required = bool(
+        impact_id
+        and impact_id not in acknowledged
+        and (impact or {}).get("requires_decision_revalidation")
+    )
     complete = sum(
         item["status"] in {"done", "complete", "waived"} for item in checklist
     )
@@ -158,6 +202,11 @@ def _build_record(entry: dict, brief: dict, profile: dict, today: date) -> dict:
     decision_due = _parse_date(entry.get("decision_due"))
     deadline = _parse_date(brief.get("deadline") or entry.get("deadline"))
     capability_fit = score_capability_fit(brief, profile)
+    private_scorecard = score_private_opportunity(
+        brief,
+        capability_fit,
+        calibration_model,
+    )
     return {
         **brief,
         **entry,
@@ -183,7 +232,36 @@ def _build_record(entry: dict, brief: dict, profile: dict, today: date) -> dict:
         "checklist_percent": round(100 * complete / len(checklist))
         if checklist
         else 0,
+        "impacted_checklist_items": impacted_checklist_items,
+        "decision_revalidation_required": decision_revalidation_required,
+        "amendment_review_status": (
+            "revalidation_required"
+            if decision_revalidation_required
+            else "acknowledged"
+            if impact_id and impact_id in acknowledged
+            else "current"
+        ),
+        "latest_amendment_impact_summary": (
+            {
+                "impact_id": impact_id,
+                "detected_at": impact.get("detected_at"),
+                "highest_materiality": impact.get("highest_materiality"),
+                "material_change_count": impact.get("material_change_count"),
+                "baseline_status": impact.get("baseline_status"),
+                "evidence_url": highest_evidence_url(impact),
+            }
+            if impact_id
+            else None
+        ),
         "capability_fit": capability_fit,
+        "public_evidence_score": private_scorecard["public_evidence_score"],
+        "raw_private_score": private_scorecard["raw_private_score"],
+        "recommendation_score": private_scorecard["recommendation_score"],
+        "score_model_version": (
+            private_scorecard.get("calibration") or {}
+        ).get("model_version")
+        or "public-v1",
+        "private_scorecard": private_scorecard,
     }
 
 
@@ -204,6 +282,7 @@ def _public_record(item: dict, *, publish_fit: bool) -> dict:
         "public_summary",
         "provisional_gate",
         "decision_score",
+        "public_evidence_score",
         "evidence_completeness",
         "mission_fit",
         "technology_fit",
@@ -212,6 +291,10 @@ def _public_record(item: dict, *, publish_fit: bool) -> dict:
         "checklist_complete",
         "checklist_total",
         "checklist_percent",
+        "impacted_checklist_items",
+        "decision_revalidation_required",
+        "amendment_review_status",
+        "latest_amendment_impact_summary",
         "visibility",
     }
     public = {key: value for key, value in item.items() if key in allowed}
@@ -254,6 +337,12 @@ def _payload(records: list[dict], generated: datetime, *, public: bool) -> dict:
                 and 0 <= item["days_to_decision"] <= 7
                 for item in active
             ),
+            "decisions_revalidation_required": sum(
+                bool(item.get("decision_revalidation_required")) for item in active
+            ),
+            "impacted_checklist_items": sum(
+                int(item.get("impacted_checklist_items") or 0) for item in active
+            ),
             "stages": stages,
         },
         "pursuits": records,
@@ -281,6 +370,8 @@ def _render_markdown(payload: dict, *, public: bool) -> str:
         f"- Auto-seeded candidates: **{summary['auto_seeded']}**",
         f"- Decisions due within 7 days: **{summary['decisions_due_7_days']}**",
         f"- Overdue milestones: **{summary['overdue_milestones']}**",
+        f"- Decisions requiring amendment revalidation: "
+        f"**{summary.get('decisions_revalidation_required', 0)}**",
         "",
         "| Stage | Opportunity | Agency | Owner | Deadline | Decision / next step |",
         "|---|---|---|---|---|---|",
@@ -296,6 +387,15 @@ def _render_markdown(payload: dict, *, public: bool) -> str:
                 "Assign owner and qualify"
                 if not item.get("managed")
                 else "No next milestone recorded"
+            )
+        if not public and item.get("recommendation_score") is not None:
+            calibration = (item.get("private_scorecard") or {}).get(
+                "calibration", {}
+            )
+            next_step = (
+                f"{next_step} · private recommendation "
+                f"{item['recommendation_score']} "
+                f"({calibration.get('mode') or 'shadow'})"
             )
         lines.append(
             f"| {item.get('stage') or 'watch'} | {title} "

@@ -97,9 +97,13 @@ class PursuitWorkspaceTests(unittest.TestCase):
         )
         self.assertEqual(private_record["notes"], ["Sensitive working note"])
         self.assertTrue(private_record["capability_fit"]["configured"])
+        self.assertIn("private_scorecard", private_record)
+        self.assertIn("recommendation_score", private_record)
         public_record = public_payload["pursuits"][0]
         self.assertEqual(public_record["overdue_milestones"], 1)
         self.assertNotIn("capability_fit", public_record)
+        self.assertNotIn("private_scorecard", public_record)
+        self.assertNotIn("recommendation_score", public_record)
 
     def test_auto_seeds_public_qualification_candidates(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -138,6 +142,86 @@ class PursuitWorkspaceTests(unittest.TestCase):
 
         self.assertEqual(payload["summary"]["auto_seeded"], 1)
         self.assertFalse(payload["pursuits"][0]["managed"])
+
+    def test_public_amendment_status_excludes_private_review_details(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            reports = root / "reports"
+            reports.mkdir()
+            impact = {
+                "impact_id": "impact:one",
+                "detected_at": "2026-07-30T12:00:00+00:00",
+                "highest_materiality": "critical",
+                "material_change_count": 1,
+                "baseline_status": "compared",
+                "requires_decision_revalidation": True,
+                "internal_marker": "do not publish",
+                "changes": [
+                    {
+                        "change_id": "change:deadline",
+                        "category": "deadline",
+                        "materiality": "critical",
+                        "after": {
+                            "source": {
+                                "source_url": "https://files.sam.gov/amendment.pdf"
+                            }
+                        },
+                    }
+                ],
+            }
+            (reports / "bid-no-bid.json").write_text(
+                json.dumps(
+                    {
+                        "briefs": [
+                            {
+                                "opportunity_key": "sam_gov:ONE",
+                                "title": "Quantum solicitation",
+                                "latest_amendment_impact": impact,
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            config = root / "pursuits.yaml"
+            config.write_text(
+                "version: 1\npursuits:\n"
+                "  - opportunity_key: sam_gov:ONE\n"
+                "    visibility: public\n"
+                "    stage: pursue\n"
+                "    checklist:\n"
+                "      - item: Confirm response calendar\n"
+                "        status: done\n"
+                "        evidence: Sensitive internal calendar\n"
+                "        tracks: [deadline]\n"
+                "    amendment_review:\n"
+                "      notes: Sensitive analyst review\n",
+                encoding="utf-8",
+            )
+
+            outputs = write_pursuit_workspace(
+                reports,
+                config,
+                root / "missing.yaml",
+                local_intelligence_dir=root / ".local-intelligence",
+                generated_at=datetime(2026, 7, 30, tzinfo=timezone.utc),
+            )
+            public = json.loads(outputs[0].read_text(encoding="utf-8"))
+            private = json.loads(outputs[2].read_text(encoding="utf-8"))
+
+        public_record = public["pursuits"][0]
+        private_record = private["pursuits"][0]
+        self.assertTrue(public_record["decision_revalidation_required"])
+        self.assertEqual(public_record["impacted_checklist_items"], 1)
+        self.assertNotIn("checklist", public_record)
+        self.assertNotIn("amendment_review", public_record)
+        self.assertNotIn("latest_amendment_impact", public_record)
+        self.assertNotIn(
+            "internal_marker",
+            json.dumps(public_record["latest_amendment_impact_summary"]),
+        )
+        self.assertEqual(private_record["checklist"][0]["status"], "done")
+        self.assertTrue(private_record["checklist"][0]["requires_revalidation"])
 
 
 if __name__ == "__main__":

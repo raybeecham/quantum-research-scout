@@ -77,6 +77,8 @@ function render(){
   const procurementPayload = state.data.procurement_intelligence || { opportunities: [], summary: {} };
   const decisionPayload = state.data.bid_no_bid || { briefs: [], summary: {} };
   const pursuitPayload = state.data.pursuits || { pursuits: [], summary: {} };
+  const claimPayload = state.data.claim_ledger || { claims: [], summary: {} };
+  const changePayload = state.data.intelligence_changes || { summary: {} };
   document.getElementById("repo-link").href = safeUrl(state.data.repository_url);
   document.getElementById("alerts-report-link").href = safeUrl(`${state.data.repository_url}/blob/main/reports/alerts.md`);
   document.getElementById("hero-report-link").href = safeUrl(state.data.reports?.latest_daily?.url || "#reports");
@@ -96,7 +98,7 @@ function render(){
   const stale = sources.filter(x => x.freshness === "stale").length;
   document.getElementById("source-summary").textContent = `${healthy} healthy · ${verified} verified · ${fresh} fresh · ${stale} stale`;
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
-  renderReports(state.data.reports); renderAlerts(alerts); renderMissions(missionPayload, fundingPayload); renderFunding(fundingPayload); renderProcurementDocuments(procurementPayload); renderDecisionBriefs(decisionPayload); renderPursuits(pursuitPayload); renderSignals(); renderPatents(patentPayload); renderWatch();
+  renderReports(state.data.reports); renderAlerts(alerts); renderMissions(missionPayload, fundingPayload); renderFunding(fundingPayload); renderProcurementDocuments(procurementPayload); renderDecisionBriefs(decisionPayload); renderPursuits(pursuitPayload); renderEvidenceLedger(claimPayload, changePayload); renderSignals(); renderPatents(patentPayload); renderWatch();
   renderTrend(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderSources(sources);
   animateMetrics();
   setupReveal();
@@ -246,12 +248,14 @@ function renderDecisionBriefs(payload){
     safeUrl(`${state.data.repository_url}/blob/main/reports/bid-no-bid.md`);
   document.getElementById("decision-grid").innerHTML = briefs.length ? briefs.slice(0,6).map(item => `
     <article class="decision-card ${escapeHtml(String(item.provisional_gate || "hold").replaceAll(" ","-"))}">
-      <div class="decision-head"><span>${escapeHtml(item.provisional_gate || "hold")}</span><strong>${item.decision_score || 0}</strong></div>
+      <div class="decision-head"><span>${escapeHtml(item.provisional_gate || "hold")}</span><strong>${item.public_evidence_score ?? item.decision_score ?? 0}</strong></div>
       <h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3>
       <p>${escapeHtml(item.agency || "Agency not listed")} · ${escapeHtml(formatShortDate(item.deadline))}</p>
+      ${item.decision_freshness?.status === "revalidation_required" ? '<div class="document-flags"><span class="amendment">Decision revalidation required</span></div>' : ""}
       <div class="evidence-meter"><i style="width:${Math.max(0,Math.min(100,Number(item.evidence_completeness || 0)))}%"></i></div>
       <small>${item.evidence_completeness || 0}% evidence completeness</small>
       <ul>${(item.required_actions || []).slice(0,3).map(value => `<li>${escapeHtml(value)}</li>`).join("")}</ul>
+      ${item.decision_trace ? `<details class="decision-trace"><summary>Explain this score</summary>${(item.decision_trace.components || []).map(component => `<p><b>${Number(component.points || 0) >= 0 ? "+" : ""}${Number(component.points || 0)}</b>${escapeHtml(String(component.code || "component").replaceAll("_"," "))}<span>${escapeHtml((component.basis || []).join("; "))}</span></p>`).join("")}<small>Trace ${escapeHtml(item.decision_trace.trace_hash || "unavailable")}</small></details>` : ""}
     </article>
   `).join("") : '<div class="empty-state">No provisional decision briefs are available yet.</div>';
 }
@@ -260,7 +264,7 @@ function renderPursuits(payload){
   const pursuits = payload.pursuits || [];
   const summary = payload.summary || {};
   document.getElementById("pursuit-summary").textContent =
-    `${summary.active || 0} active · ${summary.managed || 0} managed · ${summary.overdue_milestones || 0} overdue`;
+    `${summary.active || 0} active · ${summary.managed || 0} managed · ${summary.decisions_revalidation_required || 0} to revalidate`;
   document.getElementById("pursuit-report-link").href =
     safeUrl(`${state.data.repository_url}/blob/main/reports/pursuits.md`);
   document.getElementById("pursuit-board").innerHTML = pursuits.length ? pursuits.slice(0,12).map(item => {
@@ -272,7 +276,8 @@ function renderPursuits(payload){
       <div class="pursuit-head"><span>${escapeHtml(item.stage || "watch")}</span>${item.managed ? '<b class="managed-tag">MANAGED</b>' : '<b class="candidate-tag">CANDIDATE</b>'}</div>
       <h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title || "Untitled opportunity")}</a></h3>
       <p>${escapeHtml(item.agency || "Agency not listed")} · ${escapeHtml(deadline)}</p>
-      <dl><div><dt>Owner</dt><dd>${escapeHtml(item.owner || "Unassigned")}</dd></div><div><dt>Public score</dt><dd>${item.decision_score || 0}</dd></div></dl>
+      ${item.decision_revalidation_required ? `<div class="document-flags"><span class="amendment">Revalidate decision · ${item.impacted_checklist_items || 0} checklist impact${item.impacted_checklist_items === 1 ? "" : "s"}</span></div>` : ""}
+      <dl><div><dt>Owner</dt><dd>${escapeHtml(item.owner || "Unassigned")}</dd></div><div><dt>Public score</dt><dd>${item.public_evidence_score ?? item.decision_score ?? 0}</dd></div></dl>
       <div class="pursuit-next"><b>Next</b><span>${escapeHtml(next)}</span></div>
       ${total ? `<div class="evidence-meter"><i style="width:${Math.max(0,Math.min(100,Number(item.checklist_percent || 0)))}%"></i></div><small>${complete} of ${total} checklist items complete</small>` : ""}
     </article>`;
@@ -283,19 +288,60 @@ function renderProcurementDocuments(payload){
   const opportunities = payload.opportunities || [];
   const summary = payload.summary || {};
   document.getElementById("document-summary").textContent =
-    `${summary.documents_extracted || 0} extracted · ${summary.new_amendments || 0} new amendments`;
+    `${summary.documents_extracted || 0} extracted · ${summary.material_amendment_impacts || 0} material impacts`;
   document.getElementById("document-report-link").href =
     safeUrl(`${state.data.repository_url}/blob/main/reports/procurement-intelligence.md`);
   document.getElementById("document-grid").innerHTML = opportunities.length ? opportunities.slice(0,6).map(item => {
-    const extracted = (item.documents || []).filter(doc => doc.extraction_status === "extracted").length;
+    const activeDocuments = (item.documents || []).filter(doc => doc.active !== false);
+    const extracted = activeDocuments.filter(doc => doc.extraction_status === "extracted").length;
+    const impact = item.latest_amendment_impact || {};
+    const firstChange = (impact.changes || [])[0];
     return `<article class="document-card">
-      <div class="document-head"><span>${extracted} / ${(item.documents || []).length} extracted</span><strong>${item.document_completeness_score || 0}</strong></div>
+      <div class="document-head"><span>${extracted} / ${activeDocuments.length} extracted</span><strong>${item.document_completeness_score || 0}</strong></div>
       <h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3>
       <p>${escapeHtml(item.agency || "Agency not listed")}</p>
-      <div class="document-flags">${item.new_amendment ? '<span class="amendment">New amendment</span>' : ""}${item.changed_document ? "<span>Changed file</span>" : ""}</div>
+      <div class="document-flags">${impact.material_change_count ? `<span class="amendment">${escapeHtml(impact.highest_materiality || "material")} · ${impact.material_change_count} impact${impact.material_change_count === 1 ? "" : "s"}</span>` : item.new_amendment ? '<span class="amendment">New amendment · comparison needed</span>' : ""}${item.changed_document ? "<span>Changed file</span>" : ""}</div>
+      ${firstChange ? `<p class="impact-summary">${escapeHtml(firstChange.summary || "Material amendment change observed")}</p>` : ""}
       <ul>${(item.requirements || []).slice(0,3).map(value => `<li>${escapeHtml(value)}</li>`).join("") || "<li>No requirement excerpt extracted.</li>"}</ul>
     </article>`;
   }).join("") : '<div class="empty-state">No linked procurement documents have been analyzed yet.</div>';
+}
+
+function renderEvidenceLedger(claimPayload, changePayload){
+  const claimSummary = claimPayload.summary || {};
+  const changeSummary = changePayload.summary || {};
+  document.getElementById("evidence-ledger-summary").textContent =
+    `${claimSummary.active_claims || 0} claims · ${changeSummary.material_changes || 0} changes · ${changeSummary.conflicts || 0} conflicts`;
+  document.getElementById("claim-ledger-report-link").href =
+    safeUrl(`${state.data.repository_url}/blob/main/reports/claim-ledger.md`);
+  document.getElementById("changes-report-link").href =
+    safeUrl(`${state.data.repository_url}/blob/main/reports/intelligence-changes.md`);
+  const changes = [
+    ...(changePayload.conflict_opened || changePayload.conflicts || []).map(item => ({...item, change_type:"conflict"})),
+    ...(changePayload.conflict_resolved || []).map(item => ({...item, change_type:"resolved"})),
+    ...(changePayload.superseded || []),
+    ...(changePayload.changed || []),
+    ...(changePayload.added || []),
+    ...(changePayload.resolved || [])
+  ].slice(0,8);
+  document.getElementById("change-feed").innerHTML = changePayload.baseline_initialized
+    ? '<div class="empty-state">Baseline initialized. Material changes will appear after the next successful comparison.</div>'
+    : changes.length ? changes.map(item => {
+        const subject = item.subject?.label || item.subject_label || "Tracked claim";
+        const value = item.value ?? item.values ?? item.object?.label ?? "See evidence";
+        return `<article class="change-card ${escapeHtml(item.change_type || "changed")}"><strong>${escapeHtml(subject)}</strong><span>${escapeHtml(String(item.predicate || "claim").replaceAll("_"," "))}</span><small>${escapeHtml(Array.isArray(value) ? value.join(" ↔ ") : String(value))}</small></article>`;
+      }).join("")
+    : '<div class="empty-state">No material claim changes since the prior baseline.</div>';
+  const claims = (claimPayload.claims || []).filter(item =>
+    item.status === "conflicted"
+    || item.predicate === "qualification_gate"
+    || ["authoritative","analyst"].includes(item.authority)
+  ).slice(0,8);
+  document.getElementById("evidence-claim-grid").innerHTML = claims.length ? claims.map(item => {
+    const value = item.value ?? item.object?.label ?? "Relationship assertion";
+    const source = (item.sources || [])[0];
+    return `<article class="evidence-claim"><div class="evidence-claim-head"><strong>${escapeHtml(item.subject?.label || "Tracked subject")}</strong><span class="authority-tag ${escapeHtml(item.authority || "unknown")}">${escapeHtml(item.authority || "unknown")}</span></div><span>${escapeHtml(String(item.predicate || "claim").replaceAll("_"," "))}: ${escapeHtml(String(value))}</span><small>${escapeHtml(item.basis || item.derivation?.rule || "Direct-source assertion")} · ${escapeHtml(item.claim_id || "")}</small>${source?.url ? `<a href="${escapeHtml(safeUrl(source.url))}" target="_blank" rel="noopener">Open evidence →</a>` : ""}</article>`;
+  }).join("") : '<div class="empty-state">No traceable claims are available yet.</div>';
 }
 
 function renderRelationshipExplorer(payload){
@@ -361,7 +407,10 @@ function renderRelationshipDetail(graph, node){
     const key = edge.confidence || "unlabeled"; counts[key] = (counts[key] || 0) + 1; return counts;
   }, {});
   detail.innerHTML = `<div><span class="module-kicker">SELECTED ${escapeHtml(String(node.node_type).replaceAll("_"," "))}</span><h4>${escapeHtml(node.label || node.identifier)}</h4><p>${connections.length} connected evidence link${connections.length === 1 ? "" : "s"} · ${Object.entries(confidence).map(([key,value]) => `${value} ${key}`).join(" · ") || "no confidence label"}</p></div>
-    <div class="relationship-evidence">${connections.slice(0,5).map(edge => `<span class="${escapeHtml(edge.confidence || "low")}"><b>${escapeHtml(edge.confidence || "unlabeled")}</b>${escapeHtml(edge.basis || "Relationship evidence")}</span>`).join("")}</div>
+    <div class="relationship-evidence">${connections.slice(0,5).map(edge => {
+      const source = (edge.claim_sources || [])[0];
+      return `<span class="${escapeHtml(edge.claim_confidence || edge.confidence || "low")}"><b>${escapeHtml(edge.claim_authority || edge.confidence || "unlabeled")}</b>${escapeHtml(edge.claim_basis || edge.basis || "Relationship evidence")}${source?.url ? `<a href="${escapeHtml(safeUrl(source.url))}" target="_blank" rel="noopener">evidence</a>` : ""}</span>`;
+    }).join("")}</div>
     ${node.url ? `<a href="${escapeHtml(safeUrl(node.url))}" target="_blank" rel="noopener">Open source →</a>` : ""}`;
 }
 
