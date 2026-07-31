@@ -575,3 +575,5 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("prefers-reduced-motion:reduce", styles)
         self.assertIn("setupReveal", script)
         self.assertIn("animateMetrics", script)
+        self.assertIn("--type-caption:11px", styles)
+        self.assertIn("--type-body-readable:14px", styles)
