@@ -69,10 +69,14 @@
           <div class="panel-heading"><div><span class="panel-kicker">REPORTS</span><h3>Newest research</h3></div><span>Daily · Weekly · Monthly</span></div>
           <div id="report-cards" class="report-cards"></div>
         </article>
-        <article id="alerts" class="briefing-panel alerts-panel">
-          <div class="panel-heading"><div><span class="panel-kicker">ATTENTION</span><h3>Top conditions</h3></div><span id="alert-summary"></span></div>
-          <div id="alert-list" class="alert-list" aria-live="polite"></div>
-          <a id="alerts-report-link" class="section-link" href="#">View the complete alert center →</a>
+        <article id="alerts" class="briefing-panel alerts-panel intelligence-briefing-panel">
+          <div class="panel-heading"><div><span class="panel-kicker">TODAY</span><h3>Today’s intelligence</h3></div><span id="alert-summary"></span></div>
+          <p class="intelligence-briefing-note">The developments most likely to change a decision—not a list of everything being monitored.</p>
+          <div id="alert-list" class="alert-list intelligence-briefing-list" aria-live="polite"></div>
+          <div class="intelligence-panel-links">
+            <a class="section-link" href="#decision-center">Open decision center →</a>
+            <a id="alerts-report-link" class="section-link muted" href="#">View monitored conditions →</a>
+          </div>
         </article>
       </div>
     </section>

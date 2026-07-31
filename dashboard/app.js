@@ -149,11 +149,263 @@ function renderTrend(){
 }
 
 function renderAlerts(payload){
-  const alerts = payload.alerts || [];
-  document.getElementById("alert-summary").textContent = `${payload.active_count || 0} active · ${payload.new_count || 0} new`;
-  document.getElementById("alert-list").innerHTML = alerts.length ? alerts.slice(0, 3).map(item =>
-    `<article class="alert-item ${escapeHtml(item.severity)}"><span class="badge ${escapeHtml(item.severity)}">${escapeHtml(item.severity)}</span><div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.summary)}</p></div><div>${item.is_new ? '<span class="new-tag">NEW</span> ' : ''}${item.evidence_url ? `<a href="${escapeHtml(safeUrl(item.evidence_url))}" target="_blank" rel="noopener">Evidence →</a> ` : ''}<a href="${escapeHtml(safeUrl(state.data.repository_url + '/blob/main/reports/' + item.link))}">Profile →</a></div></article>`
-  ).join("") : "<p>No active alerts.</p>";
+  const highlights = buildBriefingHighlights(
+    payload,
+    state.data.intelligence_changes || {},
+    state.data.decision_center || {},
+    state.data.federal_missions || {}
+  );
+  const timeSensitive = highlights.filter(item => item.timeSensitive).length;
+  document.getElementById("alert-summary").textContent = highlights.length
+    ? `${highlights.length} prioritized${timeSensitive ? ` · ${timeSensitive} time-sensitive` : ""}`
+    : "No material changes";
+  document.getElementById("alerts-report-link").textContent = `View ${payload.active_count || 0} monitored conditions →`;
+  document.getElementById("alert-list").innerHTML = highlights.length ? highlights.map(item => {
+    const evidence = item.evidenceUrl
+      ? `<a href="${escapeHtml(safeUrl(item.evidenceUrl))}" target="_blank" rel="noopener">Review evidence →</a>`
+      : "";
+    const destination = item.destinationUrl
+      ? `<a href="${escapeHtml(safeUrl(item.destinationUrl))}">${escapeHtml(item.destinationLabel || "Open detail")} →</a>`
+      : "";
+    return `<article class="intelligence-brief-card ${escapeHtml(item.priority)} ${escapeHtml(item.category)}">
+      <div class="intelligence-brief-head"><div><span class="intelligence-status">${escapeHtml(item.statusLabel)}</span><span class="intelligence-priority ${escapeHtml(item.priority)}">${escapeHtml(item.priority)}</span></div><span>${escapeHtml(item.meta)}</span></div>
+      <h3>${escapeHtml(item.title)}</h3>
+      <p class="intelligence-why">${escapeHtml(item.why)}</p>
+      <div class="intelligence-next-action"><b>Next action</b><span>${escapeHtml(item.action)}</span></div>
+      <footer>${evidence}${destination}</footer>
+    </article>`;
+  }).join("") : `<div class="empty-state intelligence-quiet-state"><strong>No material changes today</strong><span>The scout is monitoring for authoritative changes, urgent opportunities, amendments, and conflicts.</span></div>`;
+}
+
+function buildBriefingHighlights(alertPayload, changePayload, decisionPayload, missionPayload){
+  const changes = meaningfulChangeHighlights(changePayload);
+  const alerts = materialAlertHighlights(alertPayload);
+  const decisions = decisionHighlights(decisionPayload);
+  const urgentAlerts = alerts.filter(item => item.timeSensitive);
+  const priorityAlerts = alerts.filter(item => !item.timeSensitive);
+  const selected = [];
+  const lanes = [changes,urgentAlerts];
+  if (!changes.length) lanes.push(priorityAlerts);
+  lanes.push(decisions);
+  lanes.forEach(lane => {
+    if (selected.length >= 3) return;
+    const candidate = lane.find(item => !isDuplicateHighlight(item, selected));
+    if (candidate) selected.push(candidate);
+  });
+  [...changes,...alerts,...decisions]
+    .sort((a,b) => b.score - a.score || a.title.localeCompare(b.title))
+    .forEach(item => {
+      if (selected.length < 3 && !isDuplicateHighlight(item, selected)) selected.push(item);
+    });
+  if (!selected.length) {
+    const milestone = nextMissionMilestone(missionPayload);
+    if (milestone) selected.push(milestone);
+  }
+  return selected.sort((a,b) => b.score - a.score || a.title.localeCompare(b.title)).slice(0,3);
+}
+
+function meaningfulChangeHighlights(payload){
+  const criticalPredicates = new Set(["deadline","requirement","qualification_gate","opportunity_status","mission_status","legal_status"]);
+  return ["changed","superseded"].flatMap(changeType => (payload[changeType] || []).map(event => {
+    const before = event.previous_value ?? event.previous_object?.label ?? "";
+    const after = event.value ?? event.object?.label ?? "";
+    if (normalizeBriefingText(before) === normalizeBriefingText(after)) return null;
+    const source = (event.sources || []).find(item => item?.url) || {};
+    const predicate = String(event.predicate || "tracked fact").replaceAll("_"," ");
+    const subject = event.subject?.label || event.subject_label || "Tracked intelligence";
+    const priority = criticalPredicates.has(event.predicate) ? "critical" : "high";
+    const authority = event.authority === "authoritative" ? "Authoritative" : "Analytical";
+    return {
+      id: `change:${event.claim_id || subject}:${event.predicate || changeType}`,
+      category: "change",
+      statusLabel: changeType === "superseded" ? "SUPERSEDED" : "CHANGED",
+      priority,
+      score: (priority === "critical" ? 116 : 96) + (event.authority === "authoritative" ? 8 : 0),
+      title: `${titleCaseBriefing(predicate)} changed for ${smartBriefingTitle(subject)}`,
+      why: `${authority} evidence now reports ${briefingValue(after)} instead of ${briefingValue(before)}.`,
+      action: actionForPredicate(event.predicate),
+      meta: briefingMeta(source.title || authority, payload.updated_at),
+      evidenceUrl: source.url || "",
+      destinationUrl: `${state.data.repository_url}/blob/main/reports/intelligence-changes.md`,
+      destinationLabel: "View change trace",
+      timeSensitive: priority === "critical"
+    };
+  })).filter(Boolean).sort((a,b) => b.score - a.score || a.title.localeCompare(b.title));
+}
+
+function materialAlertHighlights(payload){
+  const rules = {
+    procurement_amendment_impact: {label:"MATERIAL AMENDMENT",score:120,timeSensitive:true,action:"Revalidate requirements, risk, checklist items, and the bid decision against the amendment."},
+    procurement_amendment: {label:"NEW AMENDMENT",score:108,timeSensitive:true,action:"Compare the new document with the prior solicitation and identify changed requirements or dates."},
+    opportunity_closing: {label:"CLOSING NOW",score:136,timeSensitive:true,action:"Review eligibility and requirements now, then record a bid/no-bid decision."},
+    opportunity_new: {label:"PRIORITY OPPORTUNITY",score:92,timeSensitive:false,action:"Assess mission fit, eligibility, technical requirements, and pursuit value."}
+  };
+  return (payload.alerts || []).map(alert => {
+    const rule = alert.type?.startsWith("entity_")
+      ? {label:"MATERIAL EVENT",score:88,timeSensitive:false,action:"Review the authoritative evidence and assess mission, technology, and competitor implications."}
+      : rules[alert.type];
+    if (!rule) return null;
+    const summaryParts = String(alert.summary || "").split(" · ");
+    const why = ["opportunity_closing","opportunity_new"].includes(alert.type)
+      ? `${summaryParts.slice(0,-1).join(" · ") || alert.summary}.`
+      : alert.summary || "A material intelligence condition requires review.";
+    return {
+      id: alert.id,
+      category: alert.type?.startsWith("opportunity_") ? "opportunity" : "event",
+      statusLabel: alert.is_new && rule.label !== "CLOSING NOW" ? `NEW · ${rule.label}` : rule.label,
+      priority: alert.severity || "high",
+      score: rule.score + (alert.is_new ? 5 : 0),
+      title: smartBriefingTitle(stripAlertPrefix(alert.title)),
+      why,
+      action: summaryParts.length > 1 && ["opportunity_closing","opportunity_new"].includes(alert.type)
+        ? summaryParts.at(-1)
+        : rule.action,
+      meta: briefingMeta(briefingAlertSource(alert), alert.evidence_date || alert.last_seen),
+      evidenceUrl: alert.evidence_url || "",
+      destinationUrl: `${state.data.repository_url}/blob/main/reports/${alert.link}`,
+      destinationLabel: alert.type?.startsWith("opportunity_") ? "Open opportunity radar" : "Open event detail",
+      timeSensitive: rule.timeSensitive
+    };
+  }).filter(Boolean).sort((a,b) => b.score - a.score || a.title.localeCompare(b.title));
+}
+
+function decisionHighlights(payload){
+  const labels = {
+    amendment_revalidation: "REVALIDATION REQUIRED",
+    authoritative_change: "GOVERNMENT EVIDENCE",
+    claim_conflict: "UNRESOLVED CONFLICT"
+  };
+  return (payload.items || []).filter(item => !["reviewed","dismissed"].includes(state.analystDecisions[item.decision_id]?.disposition)).map(item => {
+    const evidence = (item.evidence || []).find(source => source?.url) || {};
+    const details = item.details || {};
+    const priority = item.priority || "high";
+    return {
+      id: item.decision_id,
+      category: "decision",
+      statusLabel: labels[item.queue_type] || "ANALYST DECISION",
+      priority,
+      score: (priority === "critical" ? 118 : priority === "high" ? 98 : 78) + Math.min(12, Number(details.selection_score || 0) / 10) + decisionRecencyScore(details.record_date),
+      title: decisionBriefingTitle(item),
+      why: decisionBriefingWhy(item),
+      action: decisionBriefingAction(item),
+      meta: briefingMeta(details.awarding_agency || sourceName(evidence.url), details.record_date || item.observed_at),
+      evidenceUrl: evidence.url || "",
+      destinationUrl: "#decision-center",
+      destinationLabel: "Open decision",
+      timeSensitive: item.queue_type === "amendment_revalidation" || priority === "critical"
+    };
+  }).sort((a,b) => b.score - a.score || a.title.localeCompare(b.title));
+}
+
+function decisionRecencyScore(value){
+  if (!value || !state.data.generated_at) return 0;
+  const ageDays = (new Date(state.data.generated_at) - new Date(`${String(value).slice(0,10)}T00:00:00Z`)) / 86400000;
+  if (!Number.isFinite(ageDays)) return 0;
+  if (ageDays <= 180) return 10;
+  if (ageDays <= 365) return 4;
+  if (ageDays <= 730) return -8;
+  return -18;
+}
+
+function decisionBriefingWhy(item){
+  const details = item.details || {};
+  const predicates = new Set(details.predicates || [details.predicate]);
+  if (item.queue_type === "claim_conflict") return item.why || "Authoritative evidence remains in conflict and cannot safely support a decision yet.";
+  if (item.queue_type === "amendment_revalidation") return item.why || "A material solicitation amendment changed a controlling pursuit assumption.";
+  if (details.value === "awarded" || predicates.has("opportunity_status")) {
+    return "Official government evidence records an award action; linked claims identify its status, agency, recipient, and reported amount where available.";
+  }
+  if (predicates.has("reported_recipient")) {
+    return `Official award evidence identifies ${details.value || "a recipient"} as the reported recipient.`;
+  }
+  return item.why || "Authoritative government evidence crossed the strategic review threshold.";
+}
+
+function decisionBriefingAction(item){
+  const details = item.details || {};
+  const predicates = new Set(details.predicates || [details.predicate]);
+  if (item.queue_type === "claim_conflict" || item.queue_type === "amendment_revalidation") return item.recommended_action || "Review the evidence and record a disposition.";
+  if (details.value === "awarded" || predicates.has("opportunity_status") || predicates.has("reported_recipient")) {
+    return "Review the recipient, value, scope, and mission linkage for competitor, partner, or procurement implications.";
+  }
+  return item.recommended_action || "Classify the signal and connect it to any affected mission or pursuit.";
+}
+
+function decisionBriefingTitle(item){
+  const title = smartBriefingTitle(item.title || "Analyst decision");
+  const agencyParts = String(item.details?.awarding_agency || "").split(" · ");
+  const program = agencyParts.length > 1 ? agencyParts.at(-1).trim() : "";
+  if (title.length > 85 && program) return `${program} award activity`;
+  return title.length > 155 ? `${title.slice(0,152).trim()}…` : title;
+}
+
+function nextMissionMilestone(payload){
+  const milestones = (payload.missions || []).map(mission => ({mission,milestone:mission.next_milestone})).filter(item => item.milestone?.target_date).sort((a,b) => String(a.milestone.target_date).localeCompare(String(b.milestone.target_date)));
+  if (!milestones.length) return null;
+  const {mission,milestone} = milestones[0];
+  return {
+    id: `milestone:${mission.id}:${milestone.target_date}`,
+    category: "milestone",
+    statusLabel: "NEXT MILESTONE",
+    priority: "medium",
+    score: 50,
+    title: smartBriefingTitle(milestone.title || mission.name),
+    why: `${mission.name} has a published milestone scheduled for ${formatShortDate(milestone.target_date)}.`,
+    action: "Monitor the official mission source for execution evidence or a schedule change.",
+    meta: briefingMeta((mission.lead_agencies || []).join(", ") || "Federal mission", milestone.target_date),
+    evidenceUrl: mission.official_url || "",
+    destinationUrl: "#missions",
+    destinationLabel: "Open mission tracker",
+    timeSensitive: false
+  };
+}
+
+function isDuplicateHighlight(candidate, selected){
+  if (selected.some(item => item.id === candidate.id || (item.evidenceUrl && item.evidenceUrl === candidate.evidenceUrl))) return true;
+  const candidateTokens = briefingTitleTokens(candidate.title);
+  return selected.some(item => {
+    const tokens = briefingTitleTokens(item.title);
+    const overlap = candidateTokens.filter(token => tokens.includes(token)).length;
+    return overlap >= 2 && overlap / Math.max(1, Math.min(candidateTokens.length,tokens.length)) >= .6;
+  });
+}
+
+function briefingTitleTokens(value){
+  const ignored = new Set(["the","and","for","with","from","this","that","new","federal","government","program","project","research","award","opportunity"]);
+  return [...new Set(normalizeBriefingText(value).split(" ").filter(token => token.length > 2 && !ignored.has(token)))];
+}
+
+function normalizeBriefingText(value){ return String(value ?? "").toLowerCase().replace(/[^a-z0-9]+/g," ").trim(); }
+function stripAlertPrefix(value){ return String(value || "").replace(/^(Federal opportunity closing soon|New high-priority federal opportunity|Procurement amendment impact|New procurement amendment|[^:]+ event):\s*/i,""); }
+function titleCaseBriefing(value){ return String(value || "").replace(/\b\w/g,letter => letter.toUpperCase()); }
+function briefingValue(value){ const text = String(value ?? "not specified"); return text.length > 90 ? `${text.slice(0,87)}…` : text; }
+function actionForPredicate(predicate){
+  return ({deadline:"Rebaseline the response calendar and confirm the controlling deadline.",requirement:"Update the compliance matrix and revalidate technical fit.",qualification_gate:"Re-run the qualification gate and confirm the pursuit decision.",opportunity_status:"Confirm the new status and update the pursuit workflow.",mission_status:"Reassess mission timing, dependencies, and linked opportunities.",legal_status:"Review the legal-status evidence before relying on this asset."})[predicate] || "Review the before-and-after evidence and update any affected decision.";
+}
+function briefingMeta(source, date){ return [source || "Public evidence", briefingDate(date)].filter(Boolean).join(" · "); }
+function briefingDate(value){
+  if (!value) return "";
+  try { return formatShortDate(value); } catch { return String(value).slice(0,10); }
+}
+function sourceName(url){
+  try {
+    const host = new URL(url).hostname.replace(/^www\./,"");
+    return ({"sam.gov":"SAM.gov","grants.gov":"Grants.gov","usaspending.gov":"USAspending"})[host] || host;
+  } catch { return "Public evidence"; }
+}
+function briefingAlertSource(alert){
+  const entity = String(alert.entity || "").trim();
+  const codeParts = entity.split("-");
+  if (codeParts.length === 2 && codeParts[0] === codeParts[1]) return codeParts[0];
+  if (/^[A-Z0-9]+-[A-Z0-9]+$/.test(entity)) return sourceName(alert.evidence_url);
+  return entity || sourceName(alert.evidence_url);
+}
+function smartBriefingTitle(value){
+  const text = String(value || "").trim();
+  const letters = text.replace(/[^a-zA-Z]/g,"");
+  if (!letters || letters !== letters.toUpperCase()) return text;
+  const acronyms = new Set(["AI","ARLIS","BAA","CAREER","DHS","DOD","DOE","NSF","PQC","QBI","RFI","SATC","UMD"]);
+  return text.toLowerCase().replace(/\b[a-z][a-z0-9.-]*\b/g,word => acronyms.has(word.toUpperCase()) ? word.toUpperCase() : word[0].toUpperCase() + word.slice(1));
 }
 
 function renderMissions(payload, fundingPayload){
