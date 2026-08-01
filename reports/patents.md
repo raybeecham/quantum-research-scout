@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-07-31T02:07:00.150836+00:00_
+_Updated 2026-08-01T02:08:14.362509+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
 **Ranking:** Strategic significance first, combining domain relevance, document stage, legal status, citation evidence, family depth, recency, and assignee attribution. Evidence score and publication date break ties.
 
-- Tracked publications: **187**
+- Tracked publications: **188**
 - Curated notable patents: **2**
-- Automated recent discoveries: **185**
+- Automated recent discoveries: **186**
 - Published in the last 30 days: **56**
-- Unique named assignees: **124**
-- Patent families: **178**
-- Applications / grants: **181 / 6**
-- Known legal status: **143 of 187**
+- Unique named assignees: **125**
+- Patent families: **179**
+- Applications / grants: **182 / 6**
+- Known legal status: **143 of 188**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -30,6 +30,7 @@ Family grouping uses provider family identifiers, parent/priority applications, 
 | [Mechanism for Post-Quantum Cryptographic Key Material Resilience](https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data)<br><small>12634144</small> | SIX3RO, Inc. | 1 / 1 | 0 | **78 · HIGH** |
 | [METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY](https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data)<br><small>US20260088983A1</small> | ARRIS Enterprises LLC | 2 / 0 | 0 | **76 · HIGH** |
 | [METHOD AND SYSTEM FOR SECURING POST-QUANTUM BLOCKCHAINS](https://data.uspto.gov/patent-file-wrapper/search/details/19404287/application-data)<br><small>12640949</small> | King Fahd University of Petroleum and Minerals | 0 / 1 | 0 | **75 · HIGH** |
+| [METHOD FOR OPTIMIZING AN EXECUTION OF A GENERATION OF A CRYSTALS-DILITHIUM POST-QUANTUM SIGNATURE](https://data.uspto.gov/patent-file-wrapper/search/details/19157393/application-data)<br><small>US20260222228A1</small> | THALES DIS FRANCE SAS | 1 / 0 | 0 | **73 · HIGH** |
 | [METHOD, APPARATUS, AND SYSTEM FOR POST-QUANTUM ELECTRONIC SIGNATURE BASED ON INFINITE HASH FUNCTION](https://data.uspto.gov/patent-file-wrapper/search/details/19539954/application-data)<br><small>US20260189404A1</small> | Industry-Academic Cooperation Foundation, Dankook University | 1 / 0 | 0 | **73 · HIGH** |
 | [ESTIMATION OF EFFORTS IN MIGRATING APPLICATIONS TO POST QUANTUM CRYPTOGRAPHY (PQC) STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19405497/application-data)<br><small>US20260178743A1</small> | Tata Consultancy Services Limited | 1 / 0 | 0 | **73 · HIGH** |
 | [QUANTUM-SAFE STORAGE SECURITY AT-REST AND UNDER-OPERATION WITH EXTENDED DETECTION RESPONSE](https://data.uspto.gov/patent-file-wrapper/search/details/19329507/application-data)<br><small>US20260163909A1</small> | Peter Chacko | 1 / 0 | 0 | **73 · HIGH** |
@@ -39,13 +40,12 @@ Family grouping uses provider family identifiers, parent/priority applications, 
 | [LIGHTWEIGHT POST-QUANTUM AUTHENTICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19363608/application-data)<br><small>US20260046148A1</small> | UNIVERSITY OF SOUTH FLORIDA | 1 / 0 | 0 | **73 · HIGH** |
 | [Distributed Seed Storage for Quantum-Safe Private Key Generation on Constrained Devices](https://data.uspto.gov/patent-file-wrapper/search/details/19360819/application-data)<br><small>US20260046116A1</small> | DigiCert, Inc. | 1 / 0 | 0 | **73 · HIGH** |
 | [MULTI-PARTY AND MULTI-USE QUANTUM RESISTANT SIGNATURES AND KEY ESTABLISHMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19347195/application-data)<br><small>US20260025282A1</small> | PRIVATEGRITY CORPORATION | 1 / 0 | 0 | **73 · HIGH** |
-| [METHOD FOR OPTIMIZING AN EXECUTION OF A GENERATION OF A CRYSTALS-DILITHIUM POST-QUANTUM SIGNATURE](https://data.uspto.gov/patent-file-wrapper/search/details/19157393/application-data)<br><small>US20260222228A1</small> | THALES DIS FRANCE SAS | 1 / 0 | 0 | **73 · HIGH** |
 | [VIBRATION-INDUCED, POST-QUANTUM ENCRYPTION SYSTEM USING CYMATICS-BASED KEY GENERATION](https://data.uspto.gov/patent-file-wrapper/search/details/19303413/application-data)<br><small>US20260205280A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 | [Hardware-Anchored DAO Governance Engine with Quantum-Resistant Attestation](https://data.uspto.gov/patent-file-wrapper/search/details/19562608/application-data)<br><small>US20260205302A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 | [SYMBOLIC PHOTONIC LOGIC GATE ARCHITECTURE FOR LIGHT-SPEED DATA PROCESSING AND QUANTUM-RESISTANT OPTICAL ENCRYPTION](https://data.uspto.gov/patent-file-wrapper/search/details/19458148/application-data)<br><small>US20260153781A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 | [QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS](https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data)<br><small>US20260149589A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 | [HYBRID POST-QUANTUM TLS MIGRATION WITH BINDER-ENFORCED RESUMPTION](https://data.uspto.gov/patent-file-wrapper/search/details/19309197/application-data)<br><small>US20260052009A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
-| [Stateful pretrained transformers in a generative response engine](https://patents.google.com/patent/US12400074B1/en)<br><small>US12400074B1</small> | OpenAI Opco LLC | 0 / 1 | 0 | **69 · HIGH** |
+| [METHODS AND PROCEDURES FOR A ONE-WAY QUANTUM CHANNEL AUTHENTICATION FOR SECURE QUANTUM COMMUNICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19303070/application-data)<br><small>US20260058805A1</small> | EigenQ, Inc. | 1 / 0 | 0 | **69 · HIGH** |
 
 ## Notable Patent Watchlist
 
@@ -219,6 +219,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [DATA SOURCE CURATION FOR LARGE LANGUAGE MODEL (LLM) PROMPTS](https://data.uspto.gov/patent-file-wrapper/search/details/19438539/application-data)<br><small>US20260140989A1</small> | Application · Unknown | Microsoft Technology Licensing, LLC | 1 member(s) · 0 citation(s) | **49 · NOTABLE** |
 | [DATA ACCESS CONTROL FOR DOMAIN SPECIFIC LARGE LANGUAGE MODEL SERVICES](https://data.uspto.gov/patent-file-wrapper/search/details/19441960/application-data)<br><small>US20260134139A1</small> | Application · Unknown | SAP SE | 1 member(s) · 0 citation(s) | **49 · NOTABLE** |
 | [ZERO TRUST TAGGING OF CLOUD OBJECTS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010411/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CISCO TECHNOLOGY, INC. | 1 member(s) · 0 citation(s) | **48 · NOTABLE** |
+| [RANSOMWARE RECOVERY AND PREVENTION USING DECENTRALIZED STORAGE PROTOCOL](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010434/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | MYSTEN LABS, INC. | 1 member(s) · 0 citation(s) | **48 · NOTABLE** |
 | [SYSTEM AND METHOD FOR A CLOUD COMPUTING ABSTRACTION WITH MULTI-TIER DEPLOYMENT POLICY](https://data.uspto.gov/patent-file-wrapper/search/details/19550953/application-data)<br><small>Publication number unavailable</small> | Application · Pending | VL Collective IP LLC | 1 member(s) · 0 citation(s) | **48 · NOTABLE** |
 | [CLOUD COMPUTING GATEWAY, CLOUD COMPUTING HYPERVISOR, AND METHODS FOR IMPLEMENTING SAME](https://data.uspto.gov/patent-file-wrapper/search/details/19465710/application-data)<br><small>Publication number unavailable</small> | Application · Pending | VL Collective IP LLC | 1 member(s) · 0 citation(s) | **48 · NOTABLE** |
 | [Microelectromechanical Systems (MEMS) Transducers for High Sound Pressure Level (SPL) Measurements](https://data.uspto.gov/patent-file-wrapper/search/details/19386914/application-data)<br><small>US20260136140A1</small> | Application · Pending | Shure Acquisition Holdings, Inc. | 3 member(s) · 0 citation(s) | **47 · NOTABLE** |

@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-07-31T02:07:00.150836+00:00_
+_Updated 2026-08-01T02:08:14.362509+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
 - SAM.gov-resolved entities: **0** (**0.0%** coverage)
 - Newly resolved this run: **0**
-- Pending bounded enrichment: **138**
+- Pending bounded enrichment: **152**
 - Ambiguous / no match: **0 / 0**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -34,12 +34,17 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | — | — | pending | api key missing |
 | UNIVERSITY OF SOUTH FLORIDA | UNIVERSITY OF SOUTH FLORIDA | — | — | pending | Queued for a future bounded enrichment batch |
 | UNIVERSITY OF SOUTH FLORIDA | UNIVERSITY OF SOUTH FLORIDA | — | — | pending | api key missing |
+| THE REGENTS OF THE UNIVERSITY OF COLORADO | THE REGENTS OF THE UNIVERSITY OF COLORADO | — | — | pending | Queued for a future bounded enrichment batch |
 | THE JOHNS HOPKINS UNIVERSITY | THE JOHNS HOPKINS UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
 | THE JOHNS HOPKINS UNIVERSITY | THE JOHNS HOPKINS UNIVERSITY | — | — | pending | api key missing |
+| UNIVERSITY OF TEXAS AT AUSTIN | UNIVERSITY OF TEXAS AT AUSTIN | — | — | pending | Queued for a future bounded enrichment batch |
+| ROCHESTER INSTITUTE OF TECHNOLOGY | ROCHESTER INSTITUTE OF TECHNOLOGY | — | — | pending | Queued for a future bounded enrichment batch |
+| NORTH CAROLINA STATE UNIVERSITY | NORTH CAROLINA STATE UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | — | — | pending | Queued for a future bounded enrichment batch |
 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | — | — | pending | api key missing |
 | ALVAREZ LLC | ALVAREZ LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | ALVAREZ LLC | ALVAREZ LLC | — | — | pending | api key missing |
+| THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | — | — | pending | Queued for a future bounded enrichment batch |
 | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | — | — | pending | api key missing |
 | NEW YORK UNIVERSITY | NEW YORK UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
@@ -48,6 +53,8 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | SHOREPOINT LLC | SHOREPOINT LLC | — | — | pending | api key missing |
 | SECRECY LABS LLC | SECRECY LABS LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | SECRECY LABS LLC | SECRECY LABS LLC | — | — | pending | api key missing |
+| GOVSMART, INC. | GOVSMART, INC. | — | — | pending | Queued for a future bounded enrichment batch |
+| GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | — | — | pending | Queued for a future bounded enrichment batch |
 | DELOITTE CONSULTING LLP | DELOITTE CONSULTING LLP | — | — | pending | Queued for a future bounded enrichment batch |
 | DELOITTE CONSULTING LLP | DELOITTE CONSULTING LLP | — | — | pending | api key missing |
 | W S DARLEY & CO | W S DARLEY & CO | — | — | pending | Queued for a future bounded enrichment batch |
@@ -68,8 +75,10 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | THE PENNSYLVANIA STATE UNIVERSITY | THE PENNSYLVANIA STATE UNIVERSITY | — | — | pending | api key missing |
 | PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | — | — | pending | Queued for a future bounded enrichment batch |
 | PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | — | — | pending | api key missing |
+| MAKPAR-NUAXIS JV LLC | MAKPAR-NUAXIS JV LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | AUTONOMIC INTEGRA LLC | AUTONOMIC INTEGRA LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | AUTONOMIC INTEGRA LLC | AUTONOMIC INTEGRA LLC | — | — | pending | api key missing |
+| ANDURIL INDUSTRIES, INC. | ANDURIL INDUSTRIES, INC. | — | — | pending | Queued for a future bounded enrichment batch |
 | UNIVERSITY OF ILLINOIS | UNIVERSITY OF ILLINOIS | — | — | pending | Queued for a future bounded enrichment batch |
 | UNIVERSITY OF ILLINOIS | UNIVERSITY OF ILLINOIS | — | — | pending | api key missing |
 | UNIVERSITY OF CALIFORNIA, MERCED | UNIVERSITY OF CALIFORNIA, MERCED | — | — | pending | Queued for a future bounded enrichment batch |
@@ -80,15 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | — | — | pending | api key missing |
 | THE TRUSTEES OF PRINCETON UNIVERSITY | THE TRUSTEES OF PRINCETON UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
 | THE TRUSTEES OF PRINCETON UNIVERSITY | THE TRUSTEES OF PRINCETON UNIVERSITY | — | — | pending | api key missing |
-| STI LEGACY, INC. | STI LEGACY, INC. | — | — | pending | Queued for a future bounded enrichment batch |
-| STI LEGACY, INC. | STI LEGACY, INC. | — | — | pending | api key missing |
-| NORTHEASTERN UNIVERSITY | NORTHEASTERN UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
-| NORTHEASTERN UNIVERSITY | NORTHEASTERN UNIVERSITY | — | — | pending | api key missing |
-| LOUISIANA STATE UNIVERSITY | LOUISIANA STATE UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
-| LOUISIANA STATE UNIVERSITY | LOUISIANA STATE UNIVERSITY | — | — | pending | api key missing |
-| ADVANCED BIOSCIENCE LABORATORIES, INC. | ADVANCED BIOSCIENCE LABORATORIES, INC. | — | — | pending | Queued for a future bounded enrichment batch |
-| ADVANCED BIOSCIENCE LABORATORIES, INC. | ADVANCED BIOSCIENCE LABORATORIES, INC. | — | — | pending | api key missing |
-| WTIA WORKFORCE INSTITUTE | WTIA WORKFORCE INSTITUTE | — | — | pending | Queued for a future bounded enrichment batch |
 
 ## Method
 

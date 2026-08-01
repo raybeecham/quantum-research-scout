@@ -212,10 +212,11 @@
       "aliases": [
         "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY"
       ],
-      "cache_status": "run_budget_exhausted",
-      "checked_at": null,
+      "cache_status": "error",
+      "checked_at": "2026-08-01T02:08:14.362509+00:00",
       "contractor_name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
       "contractor_score": 27,
+      "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:QDE5UHE5XD16",
       "resolution_basis": "Queued for a future bounded enrichment batch",
       "resolution_confidence": "unknown",
@@ -262,6 +263,19 @@
     },
     {
       "aliases": [
+        "THE REGENTS OF THE UNIVERSITY OF COLORADO"
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "THE REGENTS OF THE UNIVERSITY OF COLORADO",
+      "contractor_score": 27,
+      "identity_id": "uei:SPVKK1RC2MZ3",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
         "THE JOHNS HOPKINS UNIVERSITY"
       ],
       "cache_status": "run_budget_exhausted",
@@ -283,6 +297,45 @@
       "contractor_score": 27,
       "identity_id": "name:the johns hopkins university",
       "resolution_basis": "api key missing",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
+        "UNIVERSITY OF TEXAS AT AUSTIN"
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+      "contractor_score": 26,
+      "identity_id": "uei:V6AFQPN18437",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
+        "ROCHESTER INSTITUTE OF TECHNOLOGY"
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "ROCHESTER INSTITUTE OF TECHNOLOGY",
+      "contractor_score": 26,
+      "identity_id": "uei:J6TWTRKC1X14",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
+        "NORTH CAROLINA STATE UNIVERSITY"
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "NORTH CAROLINA STATE UNIVERSITY",
+      "contractor_score": 26,
+      "identity_id": "uei:U3NVH931QJJ3",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
       "resolution_confidence": "unknown",
       "resolution_status": "pending"
     },
@@ -335,6 +388,19 @@
       "contractor_score": 26,
       "identity_id": "name:alvarez",
       "resolution_basis": "api key missing",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
+        "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK"
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+      "contractor_score": 25,
+      "identity_id": "uei:LMCJKRFW5R81",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
       "resolution_confidence": "unknown",
       "resolution_status": "pending"
     },
@@ -439,6 +505,32 @@
       "contractor_score": 24,
       "identity_id": "name:secrecy labs",
       "resolution_basis": "api key missing",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
+        "GOVSMART, INC."
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "GOVSMART, INC.",
+      "contractor_score": 24,
+      "identity_id": "uei:DJACUETFQUL8",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
+        "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC."
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+      "contractor_score": 24,
+      "identity_id": "uei:SMNWM6HN79X5",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
       "resolution_confidence": "unknown",
       "resolution_status": "pending"
     },
@@ -576,10 +668,11 @@
       "aliases": [
         "MASSACHUSETTS INSTITUTE OF TECHNOLOGY"
       ],
-      "cache_status": "run_budget_exhausted",
-      "checked_at": null,
+      "cache_status": "error",
+      "checked_at": "2026-08-01T02:08:14.362509+00:00",
       "contractor_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
       "contractor_score": 23,
+      "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:E2NYLCDML6V1",
       "resolution_basis": "Queued for a future bounded enrichment batch",
       "resolution_confidence": "unknown",
@@ -704,6 +797,19 @@
     },
     {
       "aliases": [
+        "MAKPAR-NUAXIS JV LLC"
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "MAKPAR-NUAXIS JV LLC",
+      "contractor_score": 22,
+      "identity_id": "uei:YZ9MQDZJGHD5",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
         "AUTONOMIC INTEGRA LLC"
       ],
       "cache_status": "run_budget_exhausted",
@@ -730,12 +836,26 @@
     },
     {
       "aliases": [
-        "UNIVERSITY OF ILLINOIS"
+        "ANDURIL INDUSTRIES, INC."
       ],
       "cache_status": "run_budget_exhausted",
       "checked_at": null,
+      "contractor_name": "ANDURIL INDUSTRIES, INC.",
+      "contractor_score": 22,
+      "identity_id": "uei:KC3CH2MSK7Q3",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
+        "UNIVERSITY OF ILLINOIS"
+      ],
+      "cache_status": "error",
+      "checked_at": "2026-08-01T02:08:14.362509+00:00",
       "contractor_name": "UNIVERSITY OF ILLINOIS",
       "contractor_score": 21,
+      "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:Y8CWNJRCNN91",
       "resolution_basis": "Queued for a future bounded enrichment batch",
       "resolution_confidence": "unknown",
@@ -886,6 +1006,32 @@
     },
     {
       "aliases": [
+        "STEAMPUNK, INC."
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "STEAMPUNK, INC.",
+      "contractor_score": 21,
+      "identity_id": "uei:LJZTDJWPG431",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
+        "ODDBALL, INC."
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "ODDBALL, INC.",
+      "contractor_score": 21,
+      "identity_id": "uei:MHNFNJ1J5RF5",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
         "NORTHEASTERN UNIVERSITY"
       ],
       "cache_status": "run_budget_exhausted",
@@ -933,6 +1079,19 @@
       "contractor_score": 21,
       "identity_id": "name:louisiana state university",
       "resolution_basis": "api key missing",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
+        "BREAKPOINT LABS, L.L.C."
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "BREAKPOINT LABS, L.L.C.",
+      "contractor_score": 21,
+      "identity_id": "uei:WAU7C2EAKGN9",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
       "resolution_confidence": "unknown",
       "resolution_status": "pending"
     },
@@ -1070,7 +1229,7 @@
       "aliases": [
         "UNIVERSITY OF CALIFORNIA SANTA CRUZ"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "UNIVERSITY OF CALIFORNIA SANTA CRUZ",
       "contractor_score": 20,
@@ -1122,10 +1281,11 @@
       "aliases": [
         "THE UNIVERSITY OF IOWA"
       ],
-      "cache_status": "run_budget_exhausted",
-      "checked_at": null,
+      "cache_status": "error",
+      "checked_at": "2026-08-01T02:08:14.362509+00:00",
       "contractor_name": "THE UNIVERSITY OF IOWA",
       "contractor_score": 20,
+      "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:Z1H9VJS8NG16",
       "resolution_basis": "Queued for a future bounded enrichment batch",
       "resolution_confidence": "unknown",
@@ -1146,9 +1306,22 @@
     },
     {
       "aliases": [
-        "THE CODING SCHOOL"
+        "THE GENERAL HOSPITAL CORPORATION"
       ],
       "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "THE GENERAL HOSPITAL CORPORATION",
+      "contractor_score": 20,
+      "identity_id": "uei:FLJ7DQKLL226",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
+        "THE CODING SCHOOL"
+      ],
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "THE CODING SCHOOL",
       "contractor_score": 20,
@@ -1219,6 +1392,19 @@
       "contractor_score": 20,
       "identity_id": "name:mississippi state university",
       "resolution_basis": "api key missing",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
+        "JUDICIARY COURTS OF THE STATE OF INDIANA"
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "JUDICIARY COURTS OF THE STATE OF INDIANA",
+      "contractor_score": 20,
+      "identity_id": "uei:HP38HE8APPU2",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
       "resolution_confidence": "unknown",
       "resolution_status": "pending"
     },
@@ -1356,7 +1542,7 @@
       "aliases": [
         "VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA",
       "contractor_score": 19,
@@ -1408,7 +1594,7 @@
       "aliases": [
         "THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK",
       "contractor_score": 19,
@@ -1434,7 +1620,7 @@
       "aliases": [
         "SMOOTHSTACK, INC"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "SMOOTHSTACK, INC",
       "contractor_score": 19,
@@ -1512,7 +1698,7 @@
       "aliases": [
         "MONO MACHINES LLC"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "MONO MACHINES LLC",
       "contractor_score": 19,
@@ -1538,7 +1724,7 @@
       "aliases": [
         "HUNTRIDGE LABS, LLC"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "HUNTRIDGE LABS, LLC",
       "contractor_score": 19,
@@ -1564,7 +1750,7 @@
       "aliases": [
         "FRANKLIN AND MARSHALL COLLEGE"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "FRANKLIN AND MARSHALL COLLEGE",
       "contractor_score": 19,
@@ -1590,7 +1776,7 @@
       "aliases": [
         "EL PASO COUNTY COMMUNITY COLLEGE DISTRICT"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "EL PASO COUNTY COMMUNITY COLLEGE DISTRICT",
       "contractor_score": 19,
@@ -1616,7 +1802,7 @@
       "aliases": [
         "CREDAL.AI CORPORATION"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "CREDAL.AI CORPORATION",
       "contractor_score": 19,
@@ -1642,7 +1828,7 @@
       "aliases": [
         "BROWN UNIVERSITY"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "BROWN UNIVERSITY",
       "contractor_score": 19,
@@ -1668,7 +1854,7 @@
       "aliases": [
         "BOWHEAD TOTAL ENTERPRISE SOLUTIONS, LLC"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "BOWHEAD TOTAL ENTERPRISE SOLUTIONS, LLC",
       "contractor_score": 19,
@@ -1694,7 +1880,7 @@
       "aliases": [
         "BLOOMTECH INC."
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "BLOOMTECH INC.",
       "contractor_score": 19,
@@ -1720,7 +1906,7 @@
       "aliases": [
         "PARAGON MICRO INC"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "PARAGON MICRO INC",
       "contractor_score": 18,
@@ -1746,7 +1932,7 @@
       "aliases": [
         "INTEGER TECHNOLOGIES LLC"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "INTEGER TECHNOLOGIES LLC",
       "contractor_score": 18,
@@ -1772,7 +1958,7 @@
       "aliases": [
         "BLUE TECH INC."
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "BLUE TECH INC.",
       "contractor_score": 18,
@@ -1812,7 +1998,7 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-07-31T02:07:00.150836+00:00",
+      "checked_at": "2026-08-01T02:08:14.362509+00:00",
       "contractor_name": "UNIVERSITY OF OKLAHOMA",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:EVTSTTLCEWS5",
@@ -1820,7 +2006,7 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-07-31T02:07:00.150836+00:00",
+      "checked_at": "2026-08-01T02:08:14.362509+00:00",
       "contractor_name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:NPU8ULVAAS23",
@@ -1828,7 +2014,15 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-07-31T02:07:00.150836+00:00",
+      "checked_at": "2026-08-01T02:08:14.362509+00:00",
+      "contractor_name": "REDACTED DUE TO PII",
+      "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
+      "identity_id": "name:redacted due to pii",
+      "resolution_status": "error"
+    },
+    {
+      "cache_status": "error",
+      "checked_at": "2026-08-01T02:08:14.362509+00:00",
       "contractor_name": "POST QUANTUM LABS LLC",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:H53MXWJZPYU3",
@@ -1852,7 +2046,15 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-07-31T02:07:00.150836+00:00",
+      "checked_at": "2026-08-01T02:08:14.362509+00:00",
+      "contractor_name": "INUTEQ, LLC",
+      "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
+      "identity_id": "uei:NBEWZB8LQ8Z5",
+      "resolution_status": "error"
+    },
+    {
+      "cache_status": "error",
+      "checked_at": "2026-08-01T02:08:14.362509+00:00",
       "contractor_name": "FOUR POINTS TECHNOLOGY, L.L.C.",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:H1KHJPJH9R51",
@@ -1868,7 +2070,7 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-07-31T02:07:00.150836+00:00",
+      "checked_at": "2026-08-01T02:08:14.362509+00:00",
       "contractor_name": "CARNEGIE-MELLON UNIVERSITY",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:U3NKNFLNQ613",
@@ -1884,7 +2086,7 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-07-31T02:07:00.150836+00:00",
+      "checked_at": "2026-08-01T02:08:14.362509+00:00",
       "contractor_name": "ARETE CONSULTING LLC",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:C2PNBME1GYB5",
@@ -1896,15 +2098,15 @@
   "summary": {
     "ambiguous": 0,
     "api_key_configured": true,
-    "name_only": 150,
+    "name_only": 166,
     "newly_resolved": 0,
     "no_match": 0,
-    "pending": 138,
+    "pending": 152,
     "queries_remaining": 0,
     "resolved": 0,
     "tracked_contractors": 75,
     "uei_coverage_percent": 0.0
   },
-  "updated_at": "2026-07-31T02:07:00.150836+00:00",
+  "updated_at": "2026-08-01T02:08:14.362509+00:00",
   "version": 1
 }

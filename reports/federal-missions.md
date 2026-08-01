@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Funding & Procurement](federal-funding.md) · [Standards Timeline](standards-timeline.md) · [Entity Watch](entity-watch.md)
 
-_Updated 2026-07-31 19:51 UTC_
+_Updated 2026-08-01 02:08 UTC_
 
 Named, cross-agency or cross-sector federal science and technology missions, initiatives, and national efforts relevant to quantum technology, AI, cybersecurity, energy, discovery science, and national security. Routine agency mission statements and unrelated operational missions are excluded.
 
@@ -54,9 +54,9 @@ Build an integrated American Science and Security Platform connecting federal sc
 - Next milestone: **2026-07-22 — Review federal robotic and AI-directed laboratory capabilities**
 
 Recent official updates:
-- 2026-07-31 — [Genesis Mission Workforce Development RFI Summary](https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf)
-- 2026-07-31 — [Genesis Mission University Summit Report](https://www.energy.gov/sites/default/files/2026-07/Genesis-University-Summit-Breakout-Summaries-Report.pdf)
-- 2026-07-31 — [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf)
+- 2026-08-01 — [Genesis Mission Workforce Development RFI Summary](https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf)
+- 2026-08-01 — [Genesis Mission University Summit Report](https://www.energy.gov/sites/default/files/2026-07/Genesis-University-Summit-Breakout-Summaries-Report.pdf)
+- 2026-08-01 — [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf)
 - 2026-07-29 — [United States and Japan Announce Historic $1 Billion Partnership Under President Trump’s Genesis Mission](https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps)
 - 2026-07-29 — [U.S. Department of Energy Announces More Than $800 Million in Partner Commitments to the Genesis Mission](https://www.energy.gov/undersecretaryforscience/articles/us-department-energy-announces-more-800-million-partner)
 

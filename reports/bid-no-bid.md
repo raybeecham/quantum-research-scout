@@ -2,19 +2,19 @@
 
 [Report Index](README.md) · [Document Intelligence](procurement-intelligence.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-07-31T16:06:07.673432+00:00_
+_Updated 2026-08-01T02:08:14.362509+00:00_
 
 Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.
 
 - Priority qualification: **0**
 - Qualify: **1**
 - Targeted review: **0**
-- Hold: **18**
+- Hold: **19**
 - Decision revalidation required: **0**
 
 ## [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526)
 
-**QUALIFY · 75 / 100** · Evidence 0 / 100 · Deadline 12/17/2026
+**QUALIFY · 70 / 100** · Evidence 0 / 100 · Deadline 12/17/2026
 
 Agency: PAMS-SC
 
@@ -35,16 +35,264 @@ Unknowns:
 - Confirm submission instructions in the controlling solicitation
 
 Score and evidence trace:
-- **opportunity evidence +83** — strategic significance +27; mission fit +22; critical mission +8; actionable grant_opportunity +9; open_window +4; technology fit +8; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/361526)
+- **opportunity evidence +78** — strategic significance +27; mission fit +22; critical mission +8; actionable grant_opportunity +9; open_window +4; technology fit +8 · [evidence 1](https://www.grants.gov/search-results-detail/361526)
 - **document evidence +0** — 0 / 100 document evidence completeness
 - **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/361526)
-- Trace hash: `485d39d9896163f3` · model `public-opportunity-qualification@2`
+- Trace hash: `247ab8557f69b67e` · model `public-opportunity-qualification@2`
+
+_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
+
+## [Young Trilateral Leaders (YTL) Summit](https://www.grants.gov/search-results-detail/363267)
+
+**HOLD · 31 / 100** · Evidence 0 / 100 · Deadline 08/05/2026
+
+Agency: DOS-KOR
+
+Recommended actions:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
+- Record an authorized bid/no-bid decision with owner and rationale
+
+Risks:
+- Compressed response window: 4 day(s) remaining
+- No linked solicitation document was available for extraction
+- Set-aside or eligibility status is not established in collected metadata
+
+Unknowns:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm eligibility and set-aside terms in the controlling solicitation
+- Confirm submission instructions in the controlling solicitation
+
+Score and evidence trace:
+- **opportunity evidence +39** — strategic significance +9; actionable grant_opportunity +9; closing_soon +12; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363267)
+- **document evidence +0** — 0 / 100 document evidence completeness
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363267)
+- Trace hash: `42b3f593a310add6` · model `public-opportunity-qualification@2`
+
+_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
+
+## [Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027](https://www.grants.gov/search-results-detail/362913)
+
+**HOLD · 31 / 100** · Evidence 0 / 100 · Deadline 08/05/2026
+
+Agency: DOS-SGP
+
+Recommended actions:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
+- Record an authorized bid/no-bid decision with owner and rationale
+
+Risks:
+- Compressed response window: 4 day(s) remaining
+- No linked solicitation document was available for extraction
+- Set-aside or eligibility status is not established in collected metadata
+
+Unknowns:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm eligibility and set-aside terms in the controlling solicitation
+- Confirm submission instructions in the controlling solicitation
+
+Score and evidence trace:
+- **opportunity evidence +39** — strategic significance +9; actionable grant_opportunity +9; closing_soon +12; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/362913)
+- **document evidence +0** — 0 / 100 document evidence completeness
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/362913)
+- Trace hash: `33ca49d780be5fa1` · model `public-opportunity-qualification@2`
+
+_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
+
+## [Fiscal Year 2026 Next Generation Warning System Grant Program](https://www.grants.gov/search-results-detail/363192)
+
+**HOLD · 31 / 100** · Evidence 0 / 100 · Deadline 08/07/2026
+
+Agency: DHS-DHS
+
+Recommended actions:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
+- Record an authorized bid/no-bid decision with owner and rationale
+
+Risks:
+- Compressed response window: 6 day(s) remaining
+- No linked solicitation document was available for extraction
+- Set-aside or eligibility status is not established in collected metadata
+
+Unknowns:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm eligibility and set-aside terms in the controlling solicitation
+- Confirm submission instructions in the controlling solicitation
+
+Score and evidence trace:
+- **opportunity evidence +39** — strategic significance +9; actionable grant_opportunity +9; closing_soon +12; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363192)
+- **document evidence +0** — 0 / 100 document evidence completeness
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363192)
+- Trace hash: `91909bead076dc71` · model `public-opportunity-qualification@2`
+
+_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
+
+## [Notice of Funding Opportunity 2026 – Lebanon](https://www.grants.gov/search-results-detail/363090)
+
+**HOLD · 31 / 100** · Evidence 0 / 100 · Deadline 08/07/2026
+
+Agency: DOS-LBN
+
+Recommended actions:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
+- Record an authorized bid/no-bid decision with owner and rationale
+
+Risks:
+- Compressed response window: 6 day(s) remaining
+- No linked solicitation document was available for extraction
+- Set-aside or eligibility status is not established in collected metadata
+
+Unknowns:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm eligibility and set-aside terms in the controlling solicitation
+- Confirm submission instructions in the controlling solicitation
+
+Score and evidence trace:
+- **opportunity evidence +39** — strategic significance +9; actionable grant_opportunity +9; closing_soon +12; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363090)
+- **document evidence +0** — 0 / 100 document evidence completeness
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363090)
+- Trace hash: `6e62b12f92add896` · model `public-opportunity-qualification@2`
+
+_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
+
+## [Voices for the Future](https://www.grants.gov/search-results-detail/363043)
+
+**HOLD · 31 / 100** · Evidence 0 / 100 · Deadline 08/07/2026
+
+Agency: DOS-IDN
+
+Recommended actions:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
+- Record an authorized bid/no-bid decision with owner and rationale
+
+Risks:
+- Compressed response window: 6 day(s) remaining
+- No linked solicitation document was available for extraction
+- Set-aside or eligibility status is not established in collected metadata
+
+Unknowns:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm eligibility and set-aside terms in the controlling solicitation
+- Confirm submission instructions in the controlling solicitation
+
+Score and evidence trace:
+- **opportunity evidence +39** — strategic significance +9; actionable grant_opportunity +9; closing_soon +12; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363043)
+- **document evidence +0** — 0 / 100 document evidence completeness
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363043)
+- Trace hash: `7ac94556e7d2eb08` · model `public-opportunity-qualification@2`
+
+_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
+
+## [Creative Industries Film Lab and Residency - American Film Showcase 2026](https://www.grants.gov/search-results-detail/362939)
+
+**HOLD · 31 / 100** · Evidence 0 / 100 · Deadline 08/07/2026
+
+Agency: DOS-IDN
+
+Recommended actions:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
+- Record an authorized bid/no-bid decision with owner and rationale
+
+Risks:
+- Compressed response window: 6 day(s) remaining
+- No linked solicitation document was available for extraction
+- Set-aside or eligibility status is not established in collected metadata
+
+Unknowns:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm eligibility and set-aside terms in the controlling solicitation
+- Confirm submission instructions in the controlling solicitation
+
+Score and evidence trace:
+- **opportunity evidence +39** — strategic significance +9; actionable grant_opportunity +9; closing_soon +12; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/362939)
+- **document evidence +0** — 0 / 100 document evidence completeness
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/362939)
+- Trace hash: `7606bc9328d5ef92` · model `public-opportunity-qualification@2`
+
+_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
+
+## [Escape The Hack: Countering Cyber Scams with an Immersive Experience for Everyday Indonesians](https://www.grants.gov/search-results-detail/362863)
+
+**HOLD · 31 / 100** · Evidence 0 / 100 · Deadline 08/07/2026
+
+Agency: DOS-IDN
+
+Recommended actions:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
+- Record an authorized bid/no-bid decision with owner and rationale
+
+Risks:
+- Compressed response window: 6 day(s) remaining
+- No linked solicitation document was available for extraction
+- Set-aside or eligibility status is not established in collected metadata
+
+Unknowns:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm eligibility and set-aside terms in the controlling solicitation
+- Confirm submission instructions in the controlling solicitation
+
+Score and evidence trace:
+- **opportunity evidence +39** — strategic significance +9; actionable grant_opportunity +9; closing_soon +12; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/362863)
+- **document evidence +0** — 0 / 100 document evidence completeness
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/362863)
+- Trace hash: `1387a5bd76ca11b0` · model `public-opportunity-qualification@2`
+
+_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
+
+## [Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language](https://www.grants.gov/search-results-detail/362903)
+
+**HOLD · 31 / 100** · Evidence 0 / 100 · Deadline 08/08/2026
+
+Agency: DOS-DZA
+
+Recommended actions:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
+- Record an authorized bid/no-bid decision with owner and rationale
+
+Risks:
+- Compressed response window: 7 day(s) remaining
+- No linked solicitation document was available for extraction
+- Set-aside or eligibility status is not established in collected metadata
+
+Unknowns:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm eligibility and set-aside terms in the controlling solicitation
+- Confirm submission instructions in the controlling solicitation
+
+Score and evidence trace:
+- **opportunity evidence +39** — strategic significance +9; actionable grant_opportunity +9; closing_soon +12; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/362903)
+- **document evidence +0** — 0 / 100 document evidence completeness
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/362903)
+- Trace hash: `e033ed0579abf947` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
 ## [CyberNext: Advance Cybersecurity and AI Readiness](https://www.grants.gov/search-results-detail/363249)
 
-**HOLD · 34 / 100** · Evidence 0 / 100 · Deadline 08/20/2026
+**HOLD · 29 / 100** · Evidence 0 / 100 · Deadline 08/20/2026
 
 Agency: DOS-ALB
 
@@ -64,47 +312,18 @@ Unknowns:
 - Confirm submission instructions in the controlling solicitation
 
 Score and evidence trace:
-- **opportunity evidence +42** — strategic significance +11; actionable grant_opportunity +9; closing_this_month +9; technology fit +8; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363249)
+- **opportunity evidence +37** — strategic significance +11; actionable grant_opportunity +9; closing_this_month +9; technology fit +8 · [evidence 1](https://www.grants.gov/search-results-detail/363249)
 - **document evidence +0** — 0 / 100 document evidence completeness
 - **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363249)
-- Trace hash: `64b131605df3d841` · model `public-opportunity-qualification@2`
+- Trace hash: `1d642d1c34329c61` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
-## [Cybersecurity Innovation for Cyberinfrastructure](https://www.grants.gov/search-results-detail/358004)
-
-**HOLD · 29 / 100** · Evidence 0 / 100 · Deadline 01/20/2027
-
-Agency: NSF
-
-Recommended actions:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Record an authorized bid/no-bid decision with owner and rationale
-
-Risks:
-- No linked solicitation document was available for extraction
-- Set-aside or eligibility status is not established in collected metadata
-
-Unknowns:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Confirm eligibility and set-aside terms in the controlling solicitation
-- Confirm submission instructions in the controlling solicitation
-
-Score and evidence trace:
-- **opportunity evidence +37** — strategic significance +11; actionable grant_opportunity +9; open_window +4; technology fit +8; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/358004)
-- **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/358004)
-- Trace hash: `d90af78c63f4b765` · model `public-opportunity-qualification@2`
-
-_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
-
-## [AI Pathways To The Future](https://www.grants.gov/search-results-detail/363061)
+## [Muscat - Annual Program Statement (APS)- PD Small Grants Program](https://www.grants.gov/search-results-detail/363078)
 
 **HOLD · 28 / 100** · Evidence 0 / 100 · Deadline 08/09/2026
 
-Agency: DOS-IDN
+Agency: DOS-OMA
 
 Recommended actions:
 - Confirm controlling requirements in the controlling solicitation
@@ -123,18 +342,18 @@ Unknowns:
 - Confirm submission instructions in the controlling solicitation
 
 Score and evidence trace:
-- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363061)
+- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363078)
 - **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363061)
-- Trace hash: `a45579605172dd93` · model `public-opportunity-qualification@2`
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363078)
+- Trace hash: `28cb5dac140f6862` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
-## [Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria](https://www.grants.gov/search-results-detail/363121)
+## [Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)](https://www.grants.gov/search-results-detail/362711)
 
-**HOLD · 28 / 100** · Evidence 0 / 100 · Deadline 08/10/2026
+**HOLD · 28 / 100** · Evidence 0 / 100 · Deadline 08/11/2026
 
-Agency: DOS-DZA
+Agency: DOD-AMC
 
 Recommended actions:
 - Confirm controlling requirements in the controlling solicitation
@@ -153,22 +372,23 @@ Unknowns:
 - Confirm submission instructions in the controlling solicitation
 
 Score and evidence trace:
-- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363121)
+- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/362711)
 - **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363121)
-- Trace hash: `ea9e87dcd61bf91d` · model `public-opportunity-qualification@2`
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/362711)
+- Trace hash: `6836be3538da3e03` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
-## [English Language Exchange Programs: AI and Educational Technology Integration](https://www.grants.gov/search-results-detail/363105)
+## [Correctness for Scientific Computing Systems](https://www.grants.gov/search-results-detail/354144)
 
-**HOLD · 28 / 100** · Evidence 0 / 100 · Deadline 08/15/2026
+**HOLD · 28 / 100** · Evidence 0 / 100 · Deadline 08/11/2026
 
-Agency: DOS-PHL
+Agency: NSF
 
 Recommended actions:
 - Confirm controlling requirements in the controlling solicitation
 - Confirm evaluation criteria in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
 - Record an authorized bid/no-bid decision with owner and rationale
 
 Risks:
@@ -182,18 +402,78 @@ Unknowns:
 - Confirm submission instructions in the controlling solicitation
 
 Score and evidence trace:
-- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363105)
+- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/354144)
 - **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363105)
-- Trace hash: `dec2c734ab153818` · model `public-opportunity-qualification@2`
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/354144)
+- Trace hash: `90dd041e4e82e29e` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
-## [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312)
+## [Research Training Groups in the Mathematical Sciences](https://www.grants.gov/search-results-detail/353962)
+
+**HOLD · 28 / 100** · Evidence 0 / 100 · Deadline 08/11/2026
+
+Agency: NSF
+
+Recommended actions:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
+- Record an authorized bid/no-bid decision with owner and rationale
+
+Risks:
+- No linked solicitation document was available for extraction
+- Set-aside or eligibility status is not established in collected metadata
+
+Unknowns:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm eligibility and set-aside terms in the controlling solicitation
+- Confirm submission instructions in the controlling solicitation
+
+Score and evidence trace:
+- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/353962)
+- **document evidence +0** — 0 / 100 document evidence completeness
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/353962)
+- Trace hash: `6550bfada08f08d5` · model `public-opportunity-qualification@2`
+
+_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
+
+## [EARLY STAGE INNOVATIONS (ESI26)](https://www.grants.gov/search-results-detail/363066)
+
+**HOLD · 28 / 100** · Evidence 0 / 100 · Deadline 08/13/2026
+
+Agency: NASA-HQ
+
+Recommended actions:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
+- Record an authorized bid/no-bid decision with owner and rationale
+
+Risks:
+- No linked solicitation document was available for extraction
+- Set-aside or eligibility status is not established in collected metadata
+
+Unknowns:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm eligibility and set-aside terms in the controlling solicitation
+- Confirm submission instructions in the controlling solicitation
+
+Score and evidence trace:
+- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363066)
+- **document evidence +0** — 0 / 100 document evidence completeness
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363066)
+- Trace hash: `93d431f2c5ed1710` · model `public-opportunity-qualification@2`
+
+_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
+
+## [Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator](https://www.grants.gov/search-results-detail/363319)
 
 **HOLD · 28 / 100** · Evidence 0 / 100 · Deadline 08/20/2026
 
-Agency: DOS-EB
+Agency: DOS-ARG
 
 Recommended actions:
 - Confirm controlling requirements in the controlling solicitation
@@ -211,18 +491,18 @@ Unknowns:
 - Confirm submission instructions in the controlling solicitation
 
 Score and evidence trace:
-- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363312)
+- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363319)
 - **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363312)
-- Trace hash: `c2f49465e83d7940` · model `public-opportunity-qualification@2`
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363319)
+- Trace hash: `3eda685890f06e3f` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
-## [AI3 Action Institute - Artificial Intelligence for American Indians](https://www.grants.gov/search-results-detail/362270)
+## [U.S.-Argentina Alumni Summit](https://www.grants.gov/search-results-detail/363320)
 
-**HOLD · 28 / 100** · Evidence 0 / 100 · Deadline 08/27/2026
+**HOLD · 28 / 100** · Evidence 0 / 100 · Deadline 08/20/2026
 
-Agency: HHS-ACF-ANA
+Agency: DOS-ARG
 
 Recommended actions:
 - Confirm controlling requirements in the controlling solicitation
@@ -240,18 +520,18 @@ Unknowns:
 - Confirm submission instructions in the controlling solicitation
 
 Score and evidence trace:
-- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/362270)
+- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363320)
 - **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/362270)
-- Trace hash: `477a449015f255c7` · model `public-opportunity-qualification@2`
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363320)
+- Trace hash: `8212218f0811b6be` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
-## [American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy](https://www.grants.gov/search-results-detail/363293)
+## [GameON – U.S.-Albania E-Sports and Innovation](https://www.grants.gov/search-results-detail/363247)
 
-**HOLD · 28 / 100** · Evidence 0 / 100 · Deadline 08/30/2026
+**HOLD · 28 / 100** · Evidence 0 / 100 · Deadline 08/20/2026
 
-Agency: DOS-IDN
+Agency: DOS-ALB
 
 Recommended actions:
 - Confirm controlling requirements in the controlling solicitation
@@ -269,47 +549,18 @@ Unknowns:
 - Confirm submission instructions in the controlling solicitation
 
 Score and evidence trace:
-- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363293)
+- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363247)
 - **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363293)
-- Trace hash: `3a8eb3ba2c546826` · model `public-opportunity-qualification@2`
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363247)
+- Trace hash: `d4e738095563d189` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
-## [Bridge2AI Network for AI Health Science](https://www.grants.gov/search-results-detail/363107)
+## [FY26 American Spaces Vietnam Programming](https://www.grants.gov/search-results-detail/363080)
 
-**HOLD · 25 / 100** · Evidence 0 / 100 · Deadline not listed
+**HOLD · 24 / 100** · Evidence 0 / 100 · Deadline 08/02/2026
 
-Agency: HHS-NIH11
-
-Recommended actions:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Record an authorized bid/no-bid decision with owner and rationale
-
-Risks:
-- No linked solicitation document was available for extraction
-- Set-aside or eligibility status is not established in collected metadata
-
-Unknowns:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Confirm eligibility and set-aside terms in the controlling solicitation
-- Confirm submission instructions in the controlling solicitation
-
-Score and evidence trace:
-- **opportunity evidence +33** — strategic significance +11; actionable grant_opportunity +9; technology fit +8; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363107)
-- **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363107)
-- Trace hash: `09e2cabde842c251` · model `public-opportunity-qualification@2`
-
-_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
-
-## [National Cybersecurity Preparedness Consortium](https://www.grants.gov/search-results-detail/363010)
-
-**HOLD · 24 / 100** · Evidence 0 / 100 · Deadline 07/31/2026
-
-Agency: DHS-DHS
+Agency: DOS-VNM
 
 Recommended actions:
 - Confirm controlling requirements in the controlling solicitation
@@ -318,7 +569,7 @@ Recommended actions:
 - Record an authorized bid/no-bid decision with owner and rationale
 
 Risks:
-- Compressed response window: 0 day(s) remaining
+- Compressed response window: 1 day(s) remaining
 - No linked solicitation document was available for extraction
 - Set-aside or eligibility status is not established in collected metadata
 
@@ -329,25 +580,27 @@ Unknowns:
 - Confirm submission instructions in the controlling solicitation
 
 Score and evidence trace:
-- **opportunity evidence +39** — strategic significance +9; actionable grant_opportunity +9; closing_soon +12; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363010)
+- **opportunity evidence +39** — strategic significance +9; actionable grant_opportunity +9; closing_soon +12; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363080)
 - **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -15** — Compressed response window: 0 day(s) · [evidence 1](https://www.grants.gov/search-results-detail/363010)
-- Trace hash: `42ec20280bf703a1` · model `public-opportunity-qualification@2`
+- **deadline and evidence risk -15** — Compressed response window: 1 day(s) · [evidence 1](https://www.grants.gov/search-results-detail/363080)
+- Trace hash: `fa0c3b6c50b8ad7f` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
-## [AI Partnership & Exchange for Tech Leaders (APEX)](https://www.grants.gov/search-results-detail/363315)
+## [Vietnam CyberSafe Hacks 2026](https://www.grants.gov/search-results-detail/363062)
 
-**HOLD · 23 / 100** · Evidence 0 / 100 · Deadline 09/08/2026
+**HOLD · 24 / 100** · Evidence 0 / 100 · Deadline 08/02/2026
 
-Agency: DOS-SAU
+Agency: DOS-VNM
 
 Recommended actions:
 - Confirm controlling requirements in the controlling solicitation
 - Confirm evaluation criteria in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
 - Record an authorized bid/no-bid decision with owner and rationale
 
 Risks:
+- Compressed response window: 1 day(s) remaining
 - No linked solicitation document was available for extraction
 - Set-aside or eligibility status is not established in collected metadata
 
@@ -358,212 +611,9 @@ Unknowns:
 - Confirm submission instructions in the controlling solicitation
 
 Score and evidence trace:
-- **opportunity evidence +31** — strategic significance +9; actionable grant_opportunity +9; open_window +4; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363315)
+- **opportunity evidence +39** — strategic significance +9; actionable grant_opportunity +9; closing_soon +12; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363062)
 - **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363315)
-- Trace hash: `6bce78dacc3ad1c6` · model `public-opportunity-qualification@2`
-
-_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
-
-## [Novel Experiential Technologies Assisting Individual Learning (NExT AI) Hubs (P20 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359949)
-
-**HOLD · 23 / 100** · Evidence 0 / 100 · Deadline 10/02/2026
-
-Agency: HHS-NIH11
-
-Recommended actions:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Record an authorized bid/no-bid decision with owner and rationale
-
-Risks:
-- No linked solicitation document was available for extraction
-- Set-aside or eligibility status is not established in collected metadata
-
-Unknowns:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Confirm eligibility and set-aside terms in the controlling solicitation
-- Confirm submission instructions in the controlling solicitation
-
-Score and evidence trace:
-- **opportunity evidence +31** — strategic significance +9; actionable grant_opportunity +9; open_window +4; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/359949)
-- **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/359949)
-- Trace hash: `0a3cffdcfe698cc2` · model `public-opportunity-qualification@2`
-
-_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
-
-## [Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/359271)
-
-**HOLD · 23 / 100** · Evidence 0 / 100 · Deadline 10/09/2026
-
-Agency: HHS-NIH11
-
-Recommended actions:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Record an authorized bid/no-bid decision with owner and rationale
-
-Risks:
-- No linked solicitation document was available for extraction
-- Set-aside or eligibility status is not established in collected metadata
-
-Unknowns:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Confirm eligibility and set-aside terms in the controlling solicitation
-- Confirm submission instructions in the controlling solicitation
-
-Score and evidence trace:
-- **opportunity evidence +31** — strategic significance +9; actionable grant_opportunity +9; open_window +4; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/359271)
-- **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/359271)
-- Trace hash: `28459a763d7add01` · model `public-opportunity-qualification@2`
-
-_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
-
-## [Mathematical Foundations of Artificial Intelligence](https://www.grants.gov/search-results-detail/353936)
-
-**HOLD · 23 / 100** · Evidence 0 / 100 · Deadline 10/09/2026
-
-Agency: NSF
-
-Recommended actions:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Record an authorized bid/no-bid decision with owner and rationale
-
-Risks:
-- No linked solicitation document was available for extraction
-- Set-aside or eligibility status is not established in collected metadata
-
-Unknowns:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Confirm eligibility and set-aside terms in the controlling solicitation
-- Confirm submission instructions in the controlling solicitation
-
-Score and evidence trace:
-- **opportunity evidence +31** — strategic significance +9; actionable grant_opportunity +9; open_window +4; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/353936)
-- **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/353936)
-- Trace hash: `3ba5c91a89c94a0b` · model `public-opportunity-qualification@2`
-
-_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
-
-## [Unlocking Dataset Value for AI-Enabled Scientific Discovery](https://www.grants.gov/search-results-detail/363268)
-
-**HOLD · 23 / 100** · Evidence 0 / 100 · Deadline 11/04/2026
-
-Agency: NSF
-
-Recommended actions:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Record an authorized bid/no-bid decision with owner and rationale
-
-Risks:
-- No linked solicitation document was available for extraction
-- Set-aside or eligibility status is not established in collected metadata
-
-Unknowns:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Confirm eligibility and set-aside terms in the controlling solicitation
-- Confirm submission instructions in the controlling solicitation
-
-Score and evidence trace:
-- **opportunity evidence +31** — strategic significance +9; actionable grant_opportunity +9; open_window +4; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363268)
-- **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363268)
-- Trace hash: `8a9bd0cbd3926947` · model `public-opportunity-qualification@2`
-
-_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
-
-## [NSF National Quantum Virtual Laboratory - Quantum Testbeds](https://www.grants.gov/search-results-detail/355196)
-
-**HOLD · 23 / 100** · Evidence 0 / 100 · Deadline 04/06/2027
-
-Agency: NSF
-
-Recommended actions:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Record an authorized bid/no-bid decision with owner and rationale
-
-Risks:
-- No linked solicitation document was available for extraction
-- Set-aside or eligibility status is not established in collected metadata
-
-Unknowns:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Confirm eligibility and set-aside terms in the controlling solicitation
-- Confirm submission instructions in the controlling solicitation
-
-Score and evidence trace:
-- **opportunity evidence +31** — strategic significance +9; actionable grant_opportunity +9; open_window +4; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/355196)
-- **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/355196)
-- Trace hash: `11f44c731be9b7de` · model `public-opportunity-qualification@2`
-
-_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
-
-## [Broad Agency Announcement for Fundamental AI Research](https://www.grants.gov/search-results-detail/358687)
-
-**HOLD · 20 / 100** · Evidence 0 / 100 · Deadline not listed
-
-Agency: DOD-AMC-ACCRI
-
-Recommended actions:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Record an authorized bid/no-bid decision with owner and rationale
-
-Risks:
-- No linked solicitation document was available for extraction
-- Set-aside or eligibility status is not established in collected metadata
-
-Unknowns:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Confirm eligibility and set-aside terms in the controlling solicitation
-- Confirm submission instructions in the controlling solicitation
-
-Score and evidence trace:
-- **opportunity evidence +28** — strategic significance +9; actionable baa +10; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/358687)
-- **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/358687)
-- Trace hash: `c9946c244794ca77` · model `public-opportunity-qualification@2`
-
-_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
-
-## [NIOSH Robotics and Intelligent Mining Technology and Workplace Safety Research (U60)](https://www.grants.gov/search-results-detail/363292)
-
-**HOLD · 19 / 100** · Evidence 0 / 100 · Deadline not listed
-
-Agency: HHS-CDC-HHSCDCERA
-
-Recommended actions:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Record an authorized bid/no-bid decision with owner and rationale
-
-Risks:
-- No linked solicitation document was available for extraction
-- Set-aside or eligibility status is not established in collected metadata
-
-Unknowns:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Confirm eligibility and set-aside terms in the controlling solicitation
-- Confirm submission instructions in the controlling solicitation
-
-Score and evidence trace:
-- **opportunity evidence +27** — strategic significance +9; actionable grant_opportunity +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363292)
-- **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363292)
-- Trace hash: `f0c59481aaf5d0ed` · model `public-opportunity-qualification@2`
+- **deadline and evidence risk -15** — Compressed response window: 1 day(s) · [evidence 1](https://www.grants.gov/search-results-detail/363062)
+- Trace hash: `e99b2b37720fc91c` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._

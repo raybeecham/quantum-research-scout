@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-07-31T19:07:52.090793+00:00_
+_Updated 2026-08-01T02:08:14.362509+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 86% · Genesis Mission
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-10-29?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-10-30?
 
 **Horizon:** 2026-10-29
 
@@ -24,7 +24,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 **Evidence**
 
-- [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) — official award notice · 2026-07-31
+- [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) — official award notice · 2026-08-01
 - [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) — official funding announcement · 2026-07-29
 - [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) — official award · 2026-05-19
 - [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) — official grant opportunity · 2026-03-17
@@ -44,7 +44,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 74% · Golden Dome for America
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-10-29?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-10-30?
 
 **Horizon:** 2026-10-29
 
@@ -67,28 +67,6 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 - The mission or related program is delayed, rescoped, or funding is withdrawn.
 - The horizon closes with no additional linked opportunity.
 - Execution moves entirely through existing vehicles without a new public notice.
-
-### 78% · DARPA Quantum Benchmarking Initiative
-
-Will authoritative evidence confirm “Receive abstracts for the expanded QBIT Stage A solicitation” by 2026-08-07?
-
-**Horizon:** 2026-08-07
-
-**Why:** The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.
-
-**Evidence**
-
-- [Receive abstracts for the expanded QBIT Stage A solicitation](https://www.darpa.mil/news/2026/qbi-stage-a-qbit) — official milestone · 2026-07-31
-
-**Confirming indicators**
-
-- An official update states that the milestone was completed or delivered.
-- A resulting award, demonstration, report, or implementation artifact is published.
-
-**Disconfirming indicators**
-
-- An official source delays, cancels, or materially rescopes the milestone.
-- The confirmation horizon passes without authoritative completion evidence.
 
 ### 72% · QC-ADDS
 
@@ -156,9 +134,31 @@ Will authoritative evidence confirm “Advance selected NSF NQVL projects from d
 - An official source delays, cancels, or materially rescopes the milestone.
 - The confirmation horizon passes without authoritative completion evidence.
 
+### 65% · DARPA Quantum Benchmarking Initiative
+
+Will authoritative evidence confirm “Receive abstracts for the expanded QBIT Stage A solicitation” by 2026-08-31?
+
+**Horizon:** 2026-08-07
+
+**Why:** The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.
+
+**Evidence**
+
+- [Receive abstracts for the expanded QBIT Stage A solicitation](https://www.darpa.mil/news/2026/qbi-stage-a-qbit) — official milestone · 2026-07-31
+
+**Confirming indicators**
+
+- An official update states that the milestone was completed or delivered.
+- A resulting award, demonstration, report, or implementation artifact is published.
+
+**Disconfirming indicators**
+
+- An official source delays, cancels, or materially rescopes the milestone.
+- The confirmation horizon passes without authoritative completion evidence.
+
 ### 65% · Genesis Mission
 
-Will authoritative evidence confirm “Review federal robotic and AI-directed laboratory capabilities” by 2026-08-30?
+Will authoritative evidence confirm “Review federal robotic and AI-directed laboratory capabilities” by 2026-08-31?
 
 **Horizon:** 2026-08-30
 
@@ -178,9 +178,9 @@ Will authoritative evidence confirm “Review federal robotic and AI-directed la
 - An official source delays, cancels, or materially rescopes the milestone.
 - The confirmation horizon passes without authoritative completion evidence.
 
-### 62% · Military AI Pace-Setting Projects
+### 61% · Military AI Pace-Setting Projects
 
-Will authoritative evidence confirm “Conduct initial Pace-Setting Project demonstrations with transition-partner users” by 2026-08-30?
+Will authoritative evidence confirm “Conduct initial Pace-Setting Project demonstrations with transition-partner users” by 2026-08-31?
 
 **Horizon:** 2026-08-30
 

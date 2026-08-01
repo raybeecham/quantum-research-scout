@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-07-31 19:51 UTC_
+_Updated 2026-08-01 02:08 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
 USAspending records describe reported awards; Grants.gov and SAM.gov records describe opportunities or notices. Analytical mission and patent links are not evidence that a patent was funded by, used by, or formally associated with a mission.
 
-- Tracked records: **189**
-- Awards / grant opportunities / procurement opportunities: **166 / 18 / 3**
-- Open opportunities: **19** (including 1 BAA and 2 RFI records)
-- Opportunity radar: **1 mission-linked**, **8 closing within 30 days**, **19 new since yesterday**
+- Tracked records: **313**
+- Awards / grant opportunities / procurement opportunities: **239 / 66 / 6**
+- Open opportunities: **68** (including 4 BAA and 2 RFI records)
+- Opportunity radar: **1 mission-linked**, **27 closing within 30 days**, **50 new since yesterday**
 - Mission-linked records: **14**
 - Missions with activity: **4 of 10**
-- Named recipients and contractors: **140**
-- Known reported award value: **$132.9M**
+- Named recipients and contractors: **186**
+- Known reported award value: **$187.0M**
 
 ## Opportunity Radar
 
@@ -25,25 +25,36 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 
 | Rank | Opportunity | Type | Close | Mission | Technology | Score | Recommended action |
 |---:|---|---|---|---|---|---:|---|
-| 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) · NEW | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **83 · ACT NOW** | Review technical fit, eligibility, and submission requirements. |
-| 2 | [CyberNext: Advance Cybersecurity and AI Readiness](https://www.grants.gov/search-results-detail/363249) · NEW | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence, cybersecurity | **42 · QUALIFY** | Qualify fit, identify partners, and prepare the response. |
-| 3 | [National Cybersecurity Preparedness Consortium](https://www.grants.gov/search-results-detail/363010) · NEW | GRANT_OPPORTUNITY | 07/31/2026 | Not linked | cybersecurity | **39 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 4 | [Cybersecurity Innovation for Cyberinfrastructure](https://www.grants.gov/search-results-detail/358004) · NEW | GRANT_OPPORTUNITY | 01/20/2027 | Not linked | artificial intelligence, cybersecurity | **37 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 5 | [AI Pathways To The Future](https://www.grants.gov/search-results-detail/363061) · NEW | GRANT_OPPORTUNITY | 08/09/2026 | Not linked | artificial intelligence | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 6 | [Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria](https://www.grants.gov/search-results-detail/363121) · NEW | GRANT_OPPORTUNITY | 08/10/2026 | Not linked | artificial intelligence | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 7 | [English Language Exchange Programs: AI and Educational Technology Integration](https://www.grants.gov/search-results-detail/363105) · NEW | GRANT_OPPORTUNITY | 08/15/2026 | Not linked | artificial intelligence | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 8 | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) · NEW | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 9 | [AI3 Action Institute - Artificial Intelligence for American Indians](https://www.grants.gov/search-results-detail/362270) · NEW | GRANT_OPPORTUNITY | 08/27/2026 | Not linked | artificial intelligence | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 10 | [American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy](https://www.grants.gov/search-results-detail/363293) · NEW | GRANT_OPPORTUNITY | 08/30/2026 | Not linked | artificial intelligence | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 11 | [Bridge2AI Network for AI Health Science](https://www.grants.gov/search-results-detail/363107) · NEW | GRANT_OPPORTUNITY | Not reported | Not linked | artificial intelligence, autonomy and sensing | **33 · MONITOR** | Track the release and prepare capability evidence. |
-| 12 | [AI Partnership & Exchange for Tech Leaders (APEX)](https://www.grants.gov/search-results-detail/363315) · NEW | GRANT_OPPORTUNITY | 09/08/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 13 | [Novel Experiential Technologies Assisting Individual Learning (NExT AI) Hubs (P20 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359949) · NEW | GRANT_OPPORTUNITY | 10/02/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 14 | [Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/359271) · NEW | GRANT_OPPORTUNITY | 10/09/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 15 | [Mathematical Foundations of Artificial Intelligence](https://www.grants.gov/search-results-detail/353936) · NEW | GRANT_OPPORTUNITY | 10/09/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 16 | [Unlocking Dataset Value for AI-Enabled Scientific Discovery](https://www.grants.gov/search-results-detail/363268) · NEW | GRANT_OPPORTUNITY | 11/04/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 17 | [NSF National Quantum Virtual Laboratory - Quantum Testbeds](https://www.grants.gov/search-results-detail/355196) · NEW | GRANT_OPPORTUNITY | 04/06/2027 | Not linked | quantum | **31 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 18 | [Broad Agency Announcement for Fundamental AI Research](https://www.grants.gov/search-results-detail/358687) · NEW | BAA | Not reported | Not linked | artificial intelligence | **28 · MONITOR** | Track the release and prepare capability evidence. |
-| 19 | [NIOSH Robotics and Intelligent Mining Technology and Workplace Safety Research (U60)](https://www.grants.gov/search-results-detail/363292) · NEW | GRANT_OPPORTUNITY | Not reported | Not linked | autonomy and sensing | **27 · MONITOR** | Track the release and prepare capability evidence. |
+| 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
+| 2 | [FY26 American Spaces Vietnam Programming](https://www.grants.gov/search-results-detail/363080) · NEW | GRANT_OPPORTUNITY | 08/02/2026 | Not linked | cybersecurity | **39 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 3 | [Vietnam CyberSafe Hacks 2026](https://www.grants.gov/search-results-detail/363062) · NEW | GRANT_OPPORTUNITY | 08/02/2026 | Not linked | cybersecurity | **39 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 4 | [Young Trilateral Leaders (YTL) Summit](https://www.grants.gov/search-results-detail/363267) · NEW | GRANT_OPPORTUNITY | 08/05/2026 | Not linked | quantum | **39 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 5 | [Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027](https://www.grants.gov/search-results-detail/362913) · NEW | GRANT_OPPORTUNITY | 08/05/2026 | Not linked | artificial intelligence | **39 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 6 | [Fiscal Year 2026 Next Generation Warning System Grant Program](https://www.grants.gov/search-results-detail/363192) · NEW | GRANT_OPPORTUNITY | 08/07/2026 | Not linked | cybersecurity | **39 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 7 | [Notice of Funding Opportunity 2026 – Lebanon](https://www.grants.gov/search-results-detail/363090) · NEW | GRANT_OPPORTUNITY | 08/07/2026 | Not linked | artificial intelligence | **39 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 8 | [Voices for the Future](https://www.grants.gov/search-results-detail/363043) · NEW | GRANT_OPPORTUNITY | 08/07/2026 | Not linked | advanced computing | **39 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 9 | [Creative Industries Film Lab and Residency - American Film Showcase 2026](https://www.grants.gov/search-results-detail/362939) · NEW | GRANT_OPPORTUNITY | 08/07/2026 | Not linked | artificial intelligence | **39 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 10 | [Escape The Hack: Countering Cyber Scams with an Immersive Experience for Everyday Indonesians](https://www.grants.gov/search-results-detail/362863) · NEW | GRANT_OPPORTUNITY | 08/07/2026 | Not linked | cybersecurity | **39 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 11 | [Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language](https://www.grants.gov/search-results-detail/362903) · NEW | GRANT_OPPORTUNITY | 08/08/2026 | Not linked | artificial intelligence | **39 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 12 | [CyberNext: Advance Cybersecurity and AI Readiness](https://www.grants.gov/search-results-detail/363249) | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence, cybersecurity | **37 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 13 | [Muscat - Annual Program Statement (APS)- PD Small Grants Program](https://www.grants.gov/search-results-detail/363078) · NEW | GRANT_OPPORTUNITY | 08/09/2026 | Not linked | artificial intelligence | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 14 | [Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)](https://www.grants.gov/search-results-detail/362711) · NEW | GRANT_OPPORTUNITY | 08/11/2026 | Not linked | quantum | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 15 | [Correctness for Scientific Computing Systems](https://www.grants.gov/search-results-detail/354144) · NEW | GRANT_OPPORTUNITY | 08/11/2026 | Not linked | advanced computing | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 16 | [Research Training Groups in the Mathematical Sciences](https://www.grants.gov/search-results-detail/353962) · NEW | GRANT_OPPORTUNITY | 08/11/2026 | Not linked | advanced computing | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 17 | [EARLY STAGE INNOVATIONS (ESI26)](https://www.grants.gov/search-results-detail/363066) · NEW | GRANT_OPPORTUNITY | 08/13/2026 | Not linked | autonomy and sensing | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 18 | [Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator](https://www.grants.gov/search-results-detail/363319) · NEW | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 19 | [U.S.-Argentina Alumni Summit](https://www.grants.gov/search-results-detail/363320) · NEW | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 20 | [GameON – U.S.-Albania E-Sports and Innovation](https://www.grants.gov/search-results-detail/363247) · NEW | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | cybersecurity | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 21 | [The 2027 YSEALI Regional Workshop: Securing Supply Chains](https://www.grants.gov/search-results-detail/362900) · NEW | GRANT_OPPORTUNITY | 08/31/2026 | Not linked | cybersecurity | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 22 | [ROSES 2025: A.10 INNOVATE](https://www.grants.gov/search-results-detail/360003) · NEW | GRANT_OPPORTUNITY | 08/31/2026 | Not linked | advanced computing | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 23 | [NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research](https://www.grants.gov/search-results-detail/352741) · NEW | BAA | 09/30/2026 | Not linked | advanced computing | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 24 | [Cybersecurity Innovation for Cyberinfrastructure](https://www.grants.gov/search-results-detail/358004) | GRANT_OPPORTUNITY | 01/20/2027 | Not linked | artificial intelligence, cybersecurity | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 25 | [AI Pathways To The Future](https://www.grants.gov/search-results-detail/363061) | GRANT_OPPORTUNITY | 08/09/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 26 | [Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria](https://www.grants.gov/search-results-detail/363121) | GRANT_OPPORTUNITY | 08/10/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 27 | [English Language Exchange Programs: AI and Educational Technology Integration](https://www.grants.gov/search-results-detail/363105) | GRANT_OPPORTUNITY | 08/15/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 28 | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 29 | [AI3 Action Institute - Artificial Intelligence for American Indians](https://www.grants.gov/search-results-detail/362270) | GRANT_OPPORTUNITY | 08/27/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 30 | [American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy](https://www.grants.gov/search-results-detail/363293) | GRANT_OPPORTUNITY | 08/30/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
 
 ## Mission Funding Portfolios
 
@@ -68,21 +79,32 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [CyberNext: Advance Cybersecurity and AI Readiness](https://www.grants.gov/search-results-detail/363249) | GRANT_OPPORTUNITY | DOS-ALB | 08/20/2026 | Not linked | **24 · MONITOR** |
 | [Bridge2AI Network for AI Health Science](https://www.grants.gov/search-results-detail/363107) | GRANT_OPPORTUNITY | HHS-NIH11 | Not listed | Not linked | **24 · MONITOR** |
 | [Cybersecurity Innovation for Cyberinfrastructure](https://www.grants.gov/search-results-detail/358004) | GRANT_OPPORTUNITY | NSF | 01/20/2027 | Not linked | **24 · MONITOR** |
+| [Naval Engineering Education Consortium (NEEC) Broad Agency Announcement for Fiscal Year 2026](https://www.grants.gov/search-results-detail/360183) | BAA | DOD-ONR-SEA-N00178 | Not listed | Not linked | **21 · MONITOR** |
 | [Broad Agency Announcement for Fundamental AI Research](https://www.grants.gov/search-results-detail/358687) | BAA | DOD-AMC-ACCRI | Not listed | Not linked | **21 · MONITOR** |
+| [NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research](https://www.grants.gov/search-results-detail/352741) | BAA | DOD-ONR-NRL | 09/30/2026 | Not linked | **21 · MONITOR** |
+| [Long Range Broad Agency Announcement (BAA) for NSWC Crane](https://www.grants.gov/search-results-detail/352238) | BAA | DOD-ONR-SEA-CRANE | Not listed | Not linked | **21 · MONITOR** |
+| [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) | GRANT_OPPORTUNITY | DOS-EB | 08/20/2026 | Not linked | **19 · MONITOR** |
 | [AI3 Action Institute - Artificial Intelligence for American Indians](https://www.grants.gov/search-results-detail/362270) | GRANT_OPPORTUNITY | HHS-ACF-ANA | 08/27/2026 | Not linked | **19 · MONITOR** |
+| [Rural Decentralized Water System Grant Program](https://www.grants.gov/search-results-detail/363364) | GRANT_OPPORTUNITY | USDA-RUS | 09/30/2026 | Not linked | **19 · MONITOR** |
+| [Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator](https://www.grants.gov/search-results-detail/363319) | GRANT_OPPORTUNITY | DOS-ARG | 08/20/2026 | Not linked | **19 · MONITOR** |
+| [U.S.-Argentina Alumni Summit](https://www.grants.gov/search-results-detail/363320) | GRANT_OPPORTUNITY | DOS-ARG | 08/20/2026 | Not linked | **19 · MONITOR** |
 | [AI Partnership & Exchange for Tech Leaders (APEX)](https://www.grants.gov/search-results-detail/363315) | GRANT_OPPORTUNITY | DOS-SAU | 09/08/2026 | Not linked | **19 · MONITOR** |
-| [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) | GRANT_OPPORTUNITY | DOS-EB | 08/20/2026 | Not linked | **19 · MONITOR** |
 | [American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy](https://www.grants.gov/search-results-detail/363293) | GRANT_OPPORTUNITY | DOS-IDN | 08/30/2026 | Not linked | **19 · MONITOR** |
 | [NIOSH Robotics and Intelligent Mining Technology and Workplace Safety Research (U60)](https://www.grants.gov/search-results-detail/363292) | GRANT_OPPORTUNITY | HHS-CDC-HHSCDCERA | Not listed | Not linked | **19 · MONITOR** |
 | [Unlocking Dataset Value for AI-Enabled Scientific Discovery](https://www.grants.gov/search-results-detail/363268) | GRANT_OPPORTUNITY | NSF | 11/04/2026 | Not linked | **19 · MONITOR** |
+| [Young Trilateral Leaders (YTL) Summit](https://www.grants.gov/search-results-detail/363267) | GRANT_OPPORTUNITY | DOS-KOR | 08/05/2026 | Not linked | **19 · MONITOR** |
+| [GameON – U.S.-Albania E-Sports and Innovation](https://www.grants.gov/search-results-detail/363247) | GRANT_OPPORTUNITY | DOS-ALB | 08/20/2026 | Not linked | **19 · MONITOR** |
+| [Fiscal Year 2026 Next Generation Warning System Grant Program](https://www.grants.gov/search-results-detail/363192) | GRANT_OPPORTUNITY | DHS-DHS | 08/07/2026 | Not linked | **19 · MONITOR** |
 | [Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria](https://www.grants.gov/search-results-detail/363121) | GRANT_OPPORTUNITY | DOS-DZA | 08/10/2026 | Not linked | **19 · MONITOR** |
 | [English Language Exchange Programs: AI and Educational Technology Integration](https://www.grants.gov/search-results-detail/363105) | GRANT_OPPORTUNITY | DOS-PHL | 08/15/2026 | Not linked | **19 · MONITOR** |
+| [Muscat - Annual Program Statement (APS)- PD Small Grants Program](https://www.grants.gov/search-results-detail/363078) | GRANT_OPPORTUNITY | DOS-OMA | 08/09/2026 | Not linked | **19 · MONITOR** |
+| [Notice of Funding Opportunity 2026 – Lebanon](https://www.grants.gov/search-results-detail/363090) | GRANT_OPPORTUNITY | DOS-LBN | 08/07/2026 | Not linked | **19 · MONITOR** |
+| [FY26 American Spaces Vietnam Programming](https://www.grants.gov/search-results-detail/363080) | GRANT_OPPORTUNITY | DOS-VNM | 08/02/2026 | Not linked | **19 · MONITOR** |
 | [AI Pathways To The Future](https://www.grants.gov/search-results-detail/363061) | GRANT_OPPORTUNITY | DOS-IDN | 08/09/2026 | Not linked | **19 · MONITOR** |
-| [National Cybersecurity Preparedness Consortium](https://www.grants.gov/search-results-detail/363010) | GRANT_OPPORTUNITY | DHS-DHS | 07/31/2026 | Not linked | **19 · MONITOR** |
+| [Vietnam CyberSafe Hacks 2026](https://www.grants.gov/search-results-detail/363062) | GRANT_OPPORTUNITY | DOS-VNM | 08/02/2026 | Not linked | **19 · MONITOR** |
+| [EARLY STAGE INNOVATIONS (ESI26)](https://www.grants.gov/search-results-detail/363066) | GRANT_OPPORTUNITY | NASA-HQ | 08/13/2026 | Not linked | **19 · MONITOR** |
+| [Voices for the Future](https://www.grants.gov/search-results-detail/363043) | GRANT_OPPORTUNITY | DOS-IDN | 08/07/2026 | Not linked | **19 · MONITOR** |
 | [Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/359271) | GRANT_OPPORTUNITY | HHS-NIH11 | 10/09/2026 | Not linked | **19 · MONITOR** |
-| [Novel Experiential Technologies Assisting Individual Learning (NExT AI) Hubs (P20 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359949) | GRANT_OPPORTUNITY | HHS-NIH11 | 10/02/2026 | Not linked | **19 · MONITOR** |
-| [NSF National Quantum Virtual Laboratory - Quantum Testbeds](https://www.grants.gov/search-results-detail/355196) | GRANT_OPPORTUNITY | NSF | 04/06/2027 | Not linked | **19 · MONITOR** |
-| [Mathematical Foundations of Artificial Intelligence](https://www.grants.gov/search-results-detail/353936) | GRANT_OPPORTUNITY | NSF | 10/09/2026 | Not linked | **19 · MONITOR** |
 
 ## Awards and Funding Announcements
 
@@ -93,7 +115,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | $700.0K | Genesis Mission |
 | [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) | 2026-07-29 | Not listed | $293.0M | Genesis Mission |
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | Not listed | $8 | DARPA Quantum Benchmarking Initiative |
-| [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) | 2026-07-31 | Not listed | Not reported | Genesis Mission |
+| [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) | 2026-08-01 | Not listed | Not reported | Genesis Mission |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | Not listed | $700 | Genesis Mission |
 | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | Not listed | $3 | Golden Dome for America |
 | [VENUE TO SUPPORT THE GOLDEN DOME FOR AMERICA INDUSTRY SUMMIT, JUNE 10-11, 2025](https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-) | 2025-06-10 | CITY OF HUNTSVILLE | $11.9K | Golden Dome for America |
@@ -126,45 +148,45 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | Contractor | Identity | Score | Incumbency | Momentum | Awards | Recent value | Agencies | Missions | Patents |
 |---|---|---:|---|---|---:|---:|---|---|---:|
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UEI NPU8ULVAAS23 | **51 · SIGNIFICANT** | Emerging Entrant | New Entrant | 2 | $9.4M | Department of Defense, National Science Foundation | darpa-qbi | 2 |
-| POST QUANTUM LABS LLC | UEI H53MXWJZPYU3 | **35 · DEVELOPING** | Established Incumbent | Declining | 3 | $0 | Department of Defense | Not linked | 0 |
+| INUTEQ, LLC | UEI NBEWZB8LQ8Z5 | **42 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $8.2M | National Aeronautics and Space Administration | Not linked | 0 |
+| POST QUANTUM LABS LLC | UEI H53MXWJZPYU3 | **42 · DEVELOPING** | Established Incumbent | Stable | 4 | $1.8M | Department of Defense | Not linked | 0 |
+| REDACTED DUE TO PII | Name-resolved | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $1.1M | National Science Foundation | Not linked | 0 |
+| MASSACHUSETTS INSTITUTE OF TECHNOLOGY | UEI E2NYLCDML6V1 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.2M | National Science Foundation | Not linked | 0 |
+| UNIVERSITY OF OKLAHOMA | UEI EVTSTTLCEWS5 | **36 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $438.7K | Department of Commerce, National Science Foundation | Not linked | 0 |
+| THE UNIVERSITY OF IOWA | UEI Z1H9VJS8NG16 | **34 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.5M | National Science Foundation | Not linked | 0 |
+| VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | UEI QDE5UHE5XD16 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $420.0K | National Science Foundation | Not linked | 0 |
 | CARNEGIE-MELLON UNIVERSITY | UEI U3NKNFLNQ613 | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 1 | $5.0M | National Science Foundation | Not linked | 1 |
 | FOUR POINTS TECHNOLOGY, L.L.C. | UEI H1KHJPJH9R51 | **30 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $15.3M | Department of Commerce | Not linked | 0 |
 | ARETE CONSULTING LLC | UEI C2PNBME1GYB5 | **30 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $4.4M | Department of Homeland Security | Not linked | 0 |
+| UNIVERSITY OF ILLINOIS | UEI Y8CWNJRCNN91 | **30 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $1.8M | National Science Foundation | Not linked | 0 |
 | KPMG LLP | UEI MAA3SBSDQVM1 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $3.8M | Department of Defense | golden-dome | 0 |
 | BOOZ ALLEN HAMILTON INC | UEI JCBMLGPE6Z71 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $3.1M | Department of Homeland Security, National Aeronautics and Space Administration | Not linked | 0 |
 | UNIVERSITY OF WASHINGTON | UEI HD1WMN6945W6 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $2.5M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF WISCONSIN SYSTEM | UEI LCLSJAGTNZQ7 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $1.3M | National Science Foundation | Not linked | 0 |
 | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | UEI DSLXBD7UWRV6 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $908.8K | National Science Foundation | Not linked | 0 |
+| UNIVERSITY OF NORTH TEXAS | UEI G47WN1XZNWX9 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $811.3K | National Science Foundation | Not linked | 0 |
+| PURDUE UNIVERSITY | UEI YRXVL4JYCEF5 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $767.1K | National Science Foundation | Not linked | 0 |
 | FLORIDA INSTITUTE OF TECHNOLOGY INC | UEI WNN6VH618X58 | **28 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $573.1K | National Science Foundation | Not linked | 0 |
-| UNIVERSITY OF OKLAHOMA | UEI EVTSTTLCEWS5 | **28 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $438.6K | National Science Foundation | Not linked | 0 |
 | FLORIDA ATLANTIC UNIVERSITY | UEI Q266L2NDAVP1 | **28 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $400.0K | National Science Foundation | Not linked | 1 |
 | QUANTUM FOODS INC | UEI S6M6AJJGH6C3 | **28 · OBSERVED** | Emerging Entrant | New Entrant | 3 | $206.3K | Department of Justice | Not linked | 0 |
+| THE REGENTS OF THE UNIVERSITY OF COLORADO | UEI SPVKK1RC2MZ3 | **27 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $835.4K | National Science Foundation | Not linked | 0 |
 | THE JOHNS HOPKINS UNIVERSITY | UEI FTMTDMBR29C7 | **27 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $505.4K | National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF SOUTH FLORIDA | UEI NKAZLXLL7Z91 | **27 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $471.4K | National Science Foundation | Not linked | 1 |
-| VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | UEI QDE5UHE5XD16 | **27 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $400.0K | National Science Foundation | Not linked | 0 |
+| UNIVERSITY OF TEXAS AT AUSTIN | UEI V6AFQPN18437 | **26 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $732.0K | National Science Foundation | Not linked | 0 |
 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | UEI N6JZARL64EW5 | **26 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $700.0K | Department of Energy | genesis-mission | 0 |
+| ROCHESTER INSTITUTE OF TECHNOLOGY | UEI J6TWTRKC1X14 | **26 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $670.7K | National Science Foundation | Not linked | 0 |
+| NORTH CAROLINA STATE UNIVERSITY | UEI U3NVH931QJJ3 | **26 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $494.1K | National Science Foundation | Not linked | 0 |
+| V3GATE, LLC | UEI J4KHM5JY79E3 | **26 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $444.0K | Department of Justice, Department of Veterans Affairs | Not linked | 0 |
 | ALVAREZ LLC | UEI Y928UVG75CT6 | **26 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $140.9K | Department of Homeland Security, Department of Justice | Not linked | 0 |
+| PRIDE MOBILITY PRODUCTS CORPORATION | UEI KFLDSFDM2VH3 | **26 · OBSERVED** | Emerging Entrant | New Entrant | 3 | $54.9K | Department of Veterans Affairs | Not linked | 0 |
 | NEW YORK UNIVERSITY | UEI NX9PXMKW5KW8 | **25 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $640.0K | National Science Foundation | Not linked | 1 |
 | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | UEI C1HBCJ9RMBV3 | **25 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $599.7K | Department of Defense | Not linked | 1 |
+| THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | UEI LMCJKRFW5R81 | **25 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $450.0K | National Science Foundation | Not linked | 1 |
 | DELOITTE CONSULTING LLP | UEI CKV2L9GZKJK3 | **24 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $2.3M | Department of Health and Human Services | Not linked | 0 |
 | SHOREPOINT LLC | UEI KNJHHF1GWLF3 | **24 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $1.8M | Department of Education | Not linked | 0 |
 | SECRECY LABS LLC | UEI SF98GF5PP282 | **24 · OBSERVED** | Active Incumbent | Declining | 2 | $0 | Department of Defense | Not linked | 0 |
-| CLEARAVENUE LLC | UEI TZJXKXNHDLX1 | **23 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $10.0M | General Services Administration | Not linked | 0 |
-| RAVENTEK SOLUTION PARTNERS, LLC | UEI RCKJZ5KGE3H6 | **23 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $3.5M | Department of Health and Human Services | Not linked | 0 |
-| MASSACHUSETTS INSTITUTE OF TECHNOLOGY | UEI E2NYLCDML6V1 | **23 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $1.2M | National Science Foundation | Not linked | 0 |
-| VALIANT SOLUTIONS, LLC | UEI GKF8ERUXED41 | **23 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $764.4K | Department of Education | Not linked | 0 |
-| W S DARLEY & CO | UEI TENRPZGMAGJ6 | **23 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $306.5K | Department of Defense, Department of Homeland Security | Not linked | 0 |
-| THUNDERCAT TECHNOLOGY, LLC | UEI UER4AJLUB8D5 | **23 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $279.3K | Department of Agriculture, Department of Justice | Not linked | 0 |
-| UNIVERSITY OF ALASKA FAIRBANKS | UEI FDLEQSJ8FF63 | **22 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $1.8M | National Science Foundation | Not linked | 0 |
-| AUTONOMIC INTEGRA LLC | UEI YJCKJY5GSX71 | **22 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $1.4M | Department of Homeland Security | Not linked | 0 |
-| THE PENNSYLVANIA STATE UNIVERSITY | UEI NPM2J7MSCF61 | **22 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $600.0K | National Science Foundation | Not linked | 0 |
-| PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | UEI KL36P1L5H833 | **22 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $175.1K | Department of Commerce | Not linked | 0 |
-| STI LEGACY, INC. | UEI Z33ZQRZZHXN8 | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $3.4M | National Aeronautics and Space Administration | Not linked | 0 |
-| ADVANCED BIOSCIENCE LABORATORIES, INC. | UEI MK4QC9EKZXG8 | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $2.7M | Department of Health and Human Services | Not linked | 0 |
-| THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | UEI JJ6CN5Y5A2R5 | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $2.6M | Department of Defense | Not linked | 0 |
-| UNIVERSITY OF ILLINOIS | UEI Y8CWNJRCNN91 | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $900.0K | National Science Foundation | Not linked | 0 |
-| THE TRUSTEES OF PRINCETON UNIVERSITY | UEI NJ1YPQXQG7U5 | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $364.4K | National Science Foundation | Not linked | 0 |
-| UNIVERSITY OF CALIFORNIA, MERCED | UEI FFM7VPAG8P92 | **21 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $347.1K | National Science Foundation | Not linked | 0 |
+| GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | UEI SMNWM6HN79X5 | **24 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $569.7K | Department of Commerce | Not linked | 0 |
+| GOVSMART, INC. | UEI DJACUETFQUL8 | **24 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $551.1K | Department of Homeland Security, Department of the Interior | Not linked | 0 |
 
 ## Recipient and Contractor Patent Connections
 
@@ -179,3 +201,4 @@ These are assignee-name matches, not proof that an award funded a patent.
 | UNIVERSITY OF SOUTH FLORIDA | 1 | $471.4K | 1 | Not linked |
 | NEW YORK UNIVERSITY | 1 | $640.0K | 1 | Not linked |
 | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | 1 | $599.7K | 1 | Not linked |
+| THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | 1 | $450.0K | 1 | Not linked |

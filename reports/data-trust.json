@@ -1,31 +1,1643 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 100.0,
+      "acceptance_rate": 33.3,
       "accepted": 25,
-      "quarantined": 0,
+      "quarantined": 50,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 100.0,
-      "accepted": 189,
-      "quarantined": 0,
+      "acceptance_rate": 94.0,
+      "accepted": 313,
+      "quarantined": 20,
       "scope": "Federal funding"
     }
   ],
   "method_note": "Quarantine is not a finding that evidence is false or irrelevant. It means the current evidence is too weak for automated promotion and remains available for review.",
-  "quarantined_evidence": [],
-  "reason_counts": [],
+  "quarantined_evidence": [
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-29",
+      "key": "https://www.grants.gov/search-results-detail/363370",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "U.S. Embassy Jakarta Media Small Grants Competition",
+      "url": "https://www.grants.gov/search-results-detail/363370"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-29",
+      "key": "grants_gov:PAS-JAKARTA-FY26-10",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "U.S. Embassy Jakarta Media Small Grants Competition",
+      "url": "https://www.grants.gov/search-results-detail/363370"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-28",
+      "key": "https://www.grants.gov/search-results-detail/363369",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "NIOSH Centers of Excellence for Total Worker Health\u00ae (U19)",
+      "url": "https://www.grants.gov/search-results-detail/363369"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-28",
+      "key": "grants_gov:RFA-OH-27-049",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "NIOSH Centers of Excellence for Total Worker Health\u00ae (U19)",
+      "url": "https://www.grants.gov/search-results-detail/363369"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-27",
+      "key": "https://www.grants.gov/search-results-detail/363320",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "mission evidence admission",
+      "title": "U.S.-Argentina Alumni Summit",
+      "url": "https://www.grants.gov/search-results-detail/363320"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-27",
+      "key": "https://www.grants.gov/search-results-detail/363319",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "mission evidence admission",
+      "title": "Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator",
+      "url": "https://www.grants.gov/search-results-detail/363319"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-24",
+      "key": "https://www.grants.gov/search-results-detail/363306",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+      "url": "https://www.grants.gov/search-results-detail/363306"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-24",
+      "key": "grants_gov:F27AS00008",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "funding evidence admission",
+      "title": "F27AS00008-NAWCA 2027-1 US Standard Grants",
+      "url": "https://www.grants.gov/search-results-detail/363306"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-23",
+      "key": "https://www.grants.gov/search-results-detail/363293",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
+      "url": "https://www.grants.gov/search-results-detail/363293"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-07-22",
+      "key": "https://www.psiquantum.com/news-import/psiquantum-signs-125-million-agreement-with-darpa",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "PsiQuantum News",
+      "stage": "mission evidence admission",
+      "title": "PsiQuantum Signs $125 Million Agreement with DARPA \u2014 PsiQuantum",
+      "url": "https://www.psiquantum.com/news-import/psiquantum-signs-125-million-agreement-with-darpa"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "AI Forge",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-08",
+      "key": "https://www.grants.gov/search-results-detail/363105",
+      "mission_id": "ai-forge",
+      "mission_name": "AI Forge",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 AI Forge",
+      "stage": "mission evidence admission",
+      "title": "English Language Exchange Programs: AI and Educational Technology Integration",
+      "url": "https://www.grants.gov/search-results-detail/363105"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-07",
+      "key": "https://www.grants.gov/search-results-detail/363079",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "Public Diplomacy Small Grants Competition",
+      "url": "https://www.grants.gov/search-results-detail/363079"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-07",
+      "key": "grants_gov:26-MMR-NOFO-001",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "Public Diplomacy Small Grants Competition",
+      "url": "https://www.grants.gov/search-results-detail/363079"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-06",
+      "key": "https://www.grants.gov/search-results-detail/363065",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "Improved Oil and Gas Recovery and Produced Water Management Technologies",
+      "url": "https://www.grants.gov/search-results-detail/363065"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-06",
+      "key": "grants_gov:DE-FOA-0003627",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "funding evidence admission",
+      "title": "Improved Oil and Gas Recovery and Produced Water Management Technologies",
+      "url": "https://www.grants.gov/search-results-detail/363065"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-06",
+      "key": "https://www.grants.gov/search-results-detail/363061",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "mission evidence admission",
+      "title": "AI Pathways To The Future",
+      "url": "https://www.grants.gov/search-results-detail/363061"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "AI Forge",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-30",
+      "key": "https://www.grants.gov/search-results-detail/359271",
+      "mission_id": "ai-forge",
+      "mission_name": "AI Forge",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 AI Forge",
+      "stage": "mission evidence admission",
+      "title": "Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)",
+      "url": "https://www.grants.gov/search-results-detail/359271"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-26",
+      "key": "https://www.grants.gov/search-results-detail/362987",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+      "url": "https://www.grants.gov/search-results-detail/362987"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-26",
+      "key": "grants_gov:ETA-TEGL-15-25",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "funding evidence admission",
+      "title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
+      "url": "https://www.grants.gov/search-results-detail/362987"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-24",
+      "key": "https://www.grants.gov/search-results-detail/362913",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "mission evidence admission",
+      "title": "Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027",
+      "url": "https://www.grants.gov/search-results-detail/362913"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-24",
+      "key": "https://www.grants.gov/search-results-detail/362961",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+      "url": "https://www.grants.gov/search-results-detail/362961"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-24",
+      "key": "grants_gov:HT942526CRRPTRA",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "funding evidence admission",
+      "title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
+      "url": "https://www.grants.gov/search-results-detail/362961"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-23",
+      "key": "https://www.grants.gov/search-results-detail/362910",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+      "url": "https://www.grants.gov/search-results-detail/362910"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-23",
+      "key": "grants_gov:USDA-NRCS-NHQ-RCPP-AFA-26-NOFO0001451",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+      "url": "https://www.grants.gov/search-results-detail/362910"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-18",
+      "key": "https://www.grants.gov/search-results-detail/359280",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Quantum Benchmarking Initiative",
+      "stage": "mission evidence admission",
+      "title": "GREGoRi Technology Integration Center (U01, Clinical Trials Optional)",
+      "url": "https://www.grants.gov/search-results-detail/359280"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-16",
+      "key": "https://www.grants.gov/search-results-detail/362828",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "FY 2027 Fulbright Scholar Program",
+      "url": "https://www.grants.gov/search-results-detail/362828"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-16",
+      "key": "grants_gov:DFOP0018696",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "funding evidence admission",
+      "title": "FY 2027 Fulbright Scholar Program",
+      "url": "https://www.grants.gov/search-results-detail/362828"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-16",
+      "key": "https://www.grants.gov/search-results-detail/362833",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "FY 2026 Congress-Bundestag Youth Exchange for Young Professionals and Congress-Bundestag/Bundesrat Staff Exchange",
+      "url": "https://www.grants.gov/search-results-detail/362833"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-16",
+      "key": "grants_gov:DFOP0018692",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "funding evidence admission",
+      "title": "FY 2026 Congress-Bundestag Youth Exchange for Young Professionals and Congress-Bundestag/Bundesrat Staff Exchange",
+      "url": "https://www.grants.gov/search-results-detail/362833"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-12",
+      "key": "https://www.grants.gov/search-results-detail/362787",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "FY26 Bureau of Land Management Youth Conservation Corps - Bureau wide",
+      "url": "https://www.grants.gov/search-results-detail/362787"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-12",
+      "key": "grants_gov:L26AS00064",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "FY26 Bureau of Land Management Youth Conservation Corps - Bureau wide",
+      "url": "https://www.grants.gov/search-results-detail/362787"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-03",
+      "key": "https://www.grants.gov/search-results-detail/359949",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "mission evidence admission",
+      "title": "Novel Experiential Technologies Assisting Individual Learning (NExT AI) Hubs (P20 Clinical Trial Optional)",
+      "url": "https://www.grants.gov/search-results-detail/359949"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-05-20",
+      "key": "https://www.grants.gov/search-results-detail/362488",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Quantum Benchmarking Initiative",
+      "stage": "mission evidence admission",
+      "title": "Integrated Specific Pathogen Free Research Models and Human New Approach Methodologies to Advance HIV/AIDS Research (U42 Clinical Trial Not Allowed)",
+      "url": "https://www.grants.gov/search-results-detail/362488"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-05-20",
+      "key": "https://www.grants.gov/search-results-detail/362498",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "mission evidence admission",
+      "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+      "url": "https://www.grants.gov/search-results-detail/362498"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-04-23",
+      "key": "https://www.grants.gov/search-results-detail/362036",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "INSPIRING GENERATIONS OF NEW INNOVATORS TO IMPACT TECHNOLOGIES IN ENERGY 2026 (IGNIITE 2026)",
+      "url": "https://www.grants.gov/search-results-detail/362036"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-04-23",
+      "key": "grants_gov:DE-FOA-0003624",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "funding evidence admission",
+      "title": "INSPIRING GENERATIONS OF NEW INNOVATORS TO IMPACT TECHNOLOGIES IN ENERGY 2026 (IGNIITE 2026)",
+      "url": "https://www.grants.gov/search-results-detail/362036"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-04-22",
+      "key": "https://www.grants.gov/search-results-detail/362029",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "mission evidence admission",
+      "title": "Tribal Colleges Research Grants Program",
+      "url": "https://www.grants.gov/search-results-detail/362029"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-02-05",
+      "key": "https://www.grants.gov/search-results-detail/359274",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "Early-Stage Dissemination and Implementation Research in Communication Disorders (R21 Clinical Trial Optional)",
+      "url": "https://www.grants.gov/search-results-detail/359274"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-02-05",
+      "key": "grants_gov:RFA-DC-26-001",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "funding evidence admission",
+      "title": "Early-Stage Dissemination and Implementation Research in Communication Disorders (R21 Clinical Trial Optional)",
+      "url": "https://www.grants.gov/search-results-detail/359274"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-01-20",
+      "key": "https://www.grants.gov/search-results-detail/360581",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "NIH Collaborative International Research Project (Parent PF5 Clinical Trial Optional)",
+      "url": "https://www.grants.gov/search-results-detail/360581"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-01-20",
+      "key": "grants_gov:PA-26-002",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "funding evidence admission",
+      "title": "NIH Collaborative International Research Project (Parent PF5 Clinical Trial Optional)",
+      "url": "https://www.grants.gov/search-results-detail/360581"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2025-12-11",
+      "key": "https://www.grants.gov/search-results-detail/359862",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+      "url": "https://www.grants.gov/search-results-detail/359862"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2025-12-11",
+      "key": "grants_gov:PAR-26-121",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "funding evidence admission",
+      "title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
+      "url": "https://www.grants.gov/search-results-detail/359862"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2025-12-09",
+      "key": "https://www.grants.gov/search-results-detail/360954",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "Space Technology Research, Development, Demonstration, and Infusion (SpaceTech REDDI-2026)",
+      "url": "https://www.grants.gov/search-results-detail/360954"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2025-12-09",
+      "key": "grants_gov:NNH26ZTR001N",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "funding evidence admission",
+      "title": "Space Technology Research, Development, Demonstration, and Infusion (SpaceTech REDDI-2026)",
+      "url": "https://www.grants.gov/search-results-detail/360954"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2025-01-08",
+      "key": "https://www.grants.gov/search-results-detail/358082",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "Pilot Studies of Biological, Behavioral and Social Mechanisms Contributing to HIV Pathogenesis Within the Mission of NIDDK (R21 Clinical Trial Not Allowed)",
+      "url": "https://www.grants.gov/search-results-detail/358082"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2025-01-08",
+      "key": "grants_gov:PAR-25-068",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "funding evidence admission",
+      "title": "Pilot Studies of Biological, Behavioral and Social Mechanisms Contributing to HIV Pathogenesis Within the Mission of NIDDK (R21 Clinical Trial Not Allowed)",
+      "url": "https://www.grants.gov/search-results-detail/358082"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2024-08-20",
+      "key": "https://www.grants.gov/search-results-detail/356129",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "Mid-scale Research Infrastructure-1",
+      "url": "https://www.grants.gov/search-results-detail/356129"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2024-08-20",
+      "key": "grants_gov:24-598",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "Mid-scale Research Infrastructure-1",
+      "url": "https://www.grants.gov/search-results-detail/356129"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2024-07-23",
+      "key": "https://www.grants.gov/search-results-detail/355385",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
+      "url": "https://www.grants.gov/search-results-detail/355385"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2024-07-23",
+      "key": "grants_gov:ESP24NOFODEFENSAYYO5",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "funding evidence admission",
+      "title": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
+      "url": "https://www.grants.gov/search-results-detail/355385"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2023-09-17",
+      "key": "https://www.grants.gov/search-results-detail/350230",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "Research in the Formation of Engineers",
+      "url": "https://www.grants.gov/search-results-detail/350230"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2023-09-17",
+      "key": "grants_gov:PD-24-1340",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "Research in the Formation of Engineers",
+      "url": "https://www.grants.gov/search-results-detail/350230"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2023-06-15",
+      "key": "https://www.grants.gov/search-results-detail/348746",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "Mgt, Species, Pollinators, Western Bumble bee Joint Base Elmendorf- Richardson, Alaska",
+      "url": "https://www.grants.gov/search-results-detail/348746"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2023-03-14",
+      "key": "https://www.grants.gov/search-results-detail/346815",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "FY 2025 EDA Public Works and Economic Adjustment Assistance Programs",
+      "url": "https://www.grants.gov/search-results-detail/346815"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2023-01-05",
+      "key": "https://www.grants.gov/search-results-detail/345241",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "DEVCOM ANALYSIS CENTER BROAD AGENCY ANNOUNCEMENT FOR APPLIED RESEARCH",
+      "url": "https://www.grants.gov/search-results-detail/345241"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2022-11-21",
+      "key": "https://www.grants.gov/search-results-detail/344592",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "DEVCOM ARMY RESEARCH LABORATORY BROAD AGENCY ANNOUNCEMENT FOR FOUNDATIONAL RESEARCH",
+      "url": "https://www.grants.gov/search-results-detail/344592"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2022-11-10",
+      "key": "https://www.grants.gov/search-results-detail/344437",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "U.S. Mission to the United Nations-Geneva, Small Grants Program",
+      "url": "https://www.grants.gov/search-results-detail/344437"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2022-09-22",
+      "key": "https://www.grants.gov/search-results-detail/343725",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "DOD Defense Health Agency (DHA) Research & Development FY23-FY27 BROAD AGENCY ANNOUNCEMENT for Extramural Medical Research",
+      "url": "https://www.grants.gov/search-results-detail/343725"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2022-07-27",
+      "key": "https://www.grants.gov/search-results-detail/342752",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "FDA Support for Conferences and Scientific Meetings (R13 Clinical Trial Not Allowed)",
+      "url": "https://www.grants.gov/search-results-detail/342752"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2022-04-19",
+      "key": "https://www.grants.gov/search-results-detail/339594",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "Faculty Early Career Development Program",
+      "url": "https://www.grants.gov/search-results-detail/339594"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2021-07-27",
+      "key": "https://www.grants.gov/search-results-detail/334905",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "National Defense Education Program (NDEP) Science, Technology, Engineering, and Mathematics (STEM) Consortia Request for Information (RFI) for the Office of the Under Secretary of Defense (Research & Engineering)",
+      "url": "https://www.grants.gov/search-results-detail/334905"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2021-02-04",
+      "key": "https://www.grants.gov/search-results-detail/331311",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "Request for Information (RFI) No. 95332421K0004 - Community Engagement Services for the Solomon Islands Threshold Program",
+      "url": "https://www.grants.gov/search-results-detail/331311"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2020-08-07",
+      "key": "https://www.grants.gov/search-results-detail/328573",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "Mathematical Sciences Infrastructure Program",
+      "url": "https://www.grants.gov/search-results-detail/328573"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2020-05-05",
+      "key": "https://www.grants.gov/search-results-detail/326733",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "Small Grants Program",
+      "url": "https://www.grants.gov/search-results-detail/326733"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2020-03-19",
+      "key": "https://www.grants.gov/search-results-detail/325599",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "U.S. Embassy Praia Ambassador\u2019s Special Self-Help (SSH) Program",
+      "url": "https://www.grants.gov/search-results-detail/325599"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2019-12-02",
+      "key": "https://www.grants.gov/search-results-detail/322815",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "AFCP 2020 Small Grants Competition",
+      "url": "https://www.grants.gov/search-results-detail/322815"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2019-07-29",
+      "key": "https://www.grants.gov/search-results-detail/318918",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "National Space Grant College and Fellowship Program - Opportunities in NASA STEM FY 2020 \u2013 2024",
+      "url": "https://www.grants.gov/search-results-detail/318918"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2019-07-11",
+      "key": "https://www.usaspending.gov/award/ASST_NON_80NSSC19K0933_080",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "USAspending \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "BEING CHEMICALLY INERT NOBLE GASES ARE BEST TRACERS FOR UNVEILING THE ORIGIN AND CHRONOLOGY OF PLANETARY OBJECTS. NOBLE GAS ISOTOPES CAN BE TRAPPED AND/OR PRODUCED IN-SITU THE DIS...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC19K0933_080"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2010-11-01",
+      "key": "https://www.grants.gov/search-results-detail/58617",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "State Veterans Home Construction Grant Program",
+      "url": "https://www.grants.gov/search-results-detail/58617"
+    }
+  ],
+  "reason_counts": [
+    {
+      "code": "query_metadata_only",
+      "count": 70,
+      "label": "Match appears only in collector query metadata"
+    },
+    {
+      "code": "no_contextual_match",
+      "count": 70,
+      "label": "No relevant term in the evidence itself"
+    },
+    {
+      "code": "official_source",
+      "count": 69,
+      "label": "Official government source"
+    },
+    {
+      "code": "non_government_source",
+      "count": 1,
+      "label": "Source is not an official .gov or .mil domain"
+    }
+  ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 100.0,
-    "accepted": 214,
-    "decisions": 214,
-    "funding_quarantine": 0,
-    "mission_quarantine": 0,
-    "quarantined": 0,
+    "acceptance_rate": 82.8,
+    "accepted": 338,
+    "decisions": 408,
+    "funding_quarantine": 20,
+    "mission_quarantine": 50,
+    "quarantined": 70,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-07-31T19:51:00.714572+00:00",
+  "updated_at": "2026-08-01T02:08:14.362509+00:00",
   "version": 1
 }

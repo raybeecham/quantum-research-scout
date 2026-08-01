@@ -114,7 +114,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 3,
+      "evidence_count": 4,
       "first_party_evidence_count": 0,
       "name": "NIST",
       "priority": "critical",
@@ -215,7 +215,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 4,
+      "evidence_count": 5,
       "first_party_evidence_count": 4,
       "name": "Cisco",
       "priority": "high",
@@ -353,7 +353,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 13,
+      "evidence_count": 14,
       "first_party_evidence_count": 0,
       "name": "IBM",
       "priority": "high",
@@ -385,7 +385,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 1,
+      "evidence_count": 3,
       "first_party_evidence_count": 0,
       "name": "IonQ",
       "priority": "high",
@@ -407,8 +407,8 @@
           "type": "rss"
         }
       ],
-      "evidence_count": 17,
-      "first_party_evidence_count": 14,
+      "evidence_count": 18,
+      "first_party_evidence_count": 15,
       "name": "Keyfactor",
       "priority": "high",
       "status": "covered",
@@ -714,8 +714,20 @@
         "National Institute of Standards and Technology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 3,
+      "current_evidence_count": 4,
       "evidence": [
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumzeitgeist.com/post-quantum-encryption-standards-nist-finalizes",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 85,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "NIST Finalizes Three Post-Quantum Encryption Standards for Secure Data",
+          "url": "https://quantumzeitgeist.com/post-quantum-encryption-standards-nist-finalizes"
+        },
         {
           "date": "2026-07-30",
           "key": "https://thequantuminsider.com/2026/07/30/nist-andrew-regenscheid-post-quantum-cryptography-transition",
@@ -753,13 +765,13 @@
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
         }
       ],
-      "evidence_count": 3,
+      "evidence_count": 4,
       "first_seen": "2026-06-25",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-30",
+      "latest_seen": "2026-07-31",
       "momentum": "rising",
       "name": "NIST",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "critical",
       "recent_count": 2,
       "status": "active",
@@ -1252,8 +1264,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 7,
+      "current_evidence_count": 8,
       "evidence": [
+        {
+          "date": "2026-07-31",
+          "key": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 76,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Implementing Crypto-Agility at Scale",
+          "url": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale"
+        },
         {
           "date": "2026-07-29",
           "key": "https://www.keyfactor.com/education-center/what-is-cryptographic-key-management-complete-guide",
@@ -1579,15 +1603,15 @@
           "url": "https://www.keyfactor.com/blog_categories/post-quantum-cryptography/"
         }
       ],
-      "evidence_count": 17,
+      "evidence_count": 18,
       "first_seen": "2025-12-29",
       "historical_evidence_count": 10,
-      "latest_seen": "2026-07-29",
+      "latest_seen": "2026-07-31",
       "momentum": "rising",
       "name": "Keyfactor",
       "prior_count": 2,
       "priority": "high",
-      "recent_count": 4,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -1600,8 +1624,20 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 13,
+      "current_evidence_count": 14,
       "evidence": [
+        {
+          "date": "2026-07-31",
+          "key": "https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 63,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "BlueQubit Supports Qedma, IBM and RIKEN Study on Error-Mitigated Quantum Simulation",
+          "url": "https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study"
+        },
         {
           "date": "2026-07-30",
           "key": "https://thequantuminsider.com/2026/07/30/cleveland-clinic-and-ibm-researchers-create-quantum-machine-learning-framework-to-predict-neoantigen-immune-response",
@@ -1759,15 +1795,15 @@
           "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
         }
       ],
-      "evidence_count": 13,
+      "evidence_count": 14,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-30",
+      "latest_seen": "2026-07-31",
       "momentum": "rising",
       "name": "IBM",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 4,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2531,8 +2567,20 @@
         "Cisco Systems"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 1,
+      "current_evidence_count": 2,
       "evidence": [
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 25,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Cisco Routers Now Run Quantum Encryption via Live eQKD Network",
+          "url": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption"
+        },
         {
           "date": "2026-07-27",
           "key": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4",
@@ -2618,18 +2666,19 @@
           "url": "https://blogs.cisco.com/tag/quantum-safecomputing"
         }
       ],
-      "evidence_count": 4,
+      "evidence_count": 5,
       "first_seen": "2026-07-27",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-07-27",
+      "latest_seen": "2026-07-31",
       "momentum": "rising",
       "name": "Cisco",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
-        "PQC / Crypto Agility"
+        "PQC / Crypto Agility",
+        "Quantum Networking"
       ],
       "type": "company"
     },
@@ -2930,6 +2979,64 @@
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 3,
+      "evidence": [
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 42,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IonQ Completes Acquisition of SkyWater Technology, Establishing Vertically Integrated Quantum Platform",
+          "url": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 27,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IonQ\u2019s SkyWater Deal Secures U.S. Quantum Chip Supply",
+          "url": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 24,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Fixstars Amplify adds IonQ\u2019s Quantum Computing Environment to its Standard Machines",
+          "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
+        }
+      ],
+      "evidence_count": 3,
+      "first_seen": "2026-06-22",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-07-31",
+      "momentum": "rising",
+      "name": "IonQ",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "Quantum Hardware",
+        "Quantum Software / Tooling"
       ],
       "type": "company"
     },
@@ -3359,7 +3466,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -3526,39 +3633,6 @@
       "status": "dormant",
       "themes": [
         "Quantum Hardware"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 1,
-      "evidence": [
-        {
-          "date": "2026-06-22",
-          "key": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator",
-          "report": "2026-06/2026-06-22-digest.md",
-          "score": 24,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "Fixstars Amplify adds IonQ\u2019s Quantum Computing Environment to its Standard Machines",
-          "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
-        }
-      ],
-      "evidence_count": 1,
-      "first_seen": "2026-06-22",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-06-22",
-      "momentum": "stable",
-      "name": "IonQ",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "dormant",
-      "themes": [
-        "Quantum Software / Tooling"
       ],
       "type": "company"
     },
@@ -3872,11 +3946,11 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-07-24",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Pasqal",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "medium",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "Quantum Hardware"
@@ -3999,8 +4073,32 @@
         "cryptographic inventory"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 6,
+      "current_evidence_count": 8,
       "evidence": [
+        {
+          "date": "2026-07-31",
+          "key": "https://thequantuminsider.com/2026/07/31/why-crypto-agility-matters-for-post-quantum-cryptography-migration",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 113,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why Crypto-Agility Matters for Post-Quantum Cryptography Migration",
+          "url": "https://thequantuminsider.com/2026/07/31/why-crypto-agility-matters-for-post-quantum-cryptography-migration"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 76,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Implementing Crypto-Agility at Scale",
+          "url": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale"
+        },
         {
           "date": "2026-07-29",
           "key": "https://www.keyfactor.com/education-center/what-is-cryptographic-key-management-complete-guide",
@@ -4482,15 +4580,15 @@
           "url": "https://www.keyfactor.com/blog_categories/post-quantum-cryptography/"
         }
       ],
-      "evidence_count": 23,
+      "evidence_count": 25,
       "first_seen": "2025-08-06",
       "historical_evidence_count": 17,
-      "latest_seen": "2026-07-29",
+      "latest_seen": "2026-07-31",
       "momentum": "rising",
       "name": "Crypto-agility",
       "prior_count": 1,
       "priority": "critical",
-      "recent_count": 3,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -5000,7 +5098,7 @@
       "prior_count": 1,
       "priority": "critical",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -5145,7 +5243,7 @@
       "prior_count": 3,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Networking"
       ],
@@ -5194,7 +5292,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Networking"
       ],
@@ -5522,6 +5620,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-07-31T02:22:30.025110+00:00",
+  "updated_at": "2026-08-01T02:17:39.137900+00:00",
   "version": 2
 }

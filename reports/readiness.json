@@ -160,9 +160,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 14,
+      "evidence_count": 15,
       "historical_evidence_count": 8,
-      "latest_evidence_at": "2026-07-28",
+      "latest_evidence_at": "2026-07-31",
       "name": "Keyfactor",
       "priority": "high",
       "source_count": 3,
@@ -170,6 +170,21 @@
       "stage_label": "Planning",
       "stage_rank": 3,
       "supporting_evidence": [
+        {
+          "date": "2026-07-31",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Implementing Crypto-Agility at Scale",
+          "url": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale"
+        },
         {
           "date": "2026-07-28",
           "date_confidence": "unknown",
@@ -274,9 +289,39 @@
           "source": "Keyfactor Quantum and Crypto-Agility",
           "title": "How to Build a Cryptographic Asset Inventory Across Cloud, CI/CD, and Devices",
           "url": "https://www.keyfactor.com/blog/how-to-build-a-cryptographic-asset-inventory-across-cloud-ci-cd-and-devices/"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "high",
+      "evidence_count": 4,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-07-31",
+      "name": "NIST",
+      "priority": "critical",
+      "source_count": 3,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": "2026-06-25",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Quantum Zeitgeist",
+          "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
+          "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
         },
         {
-          "date": "2026-07-25",
+          "date": "2026-07-31",
           "date_confidence": "unknown",
           "date_kind": "unknown",
           "historical": false,
@@ -286,12 +331,42 @@
           "observed_stage": "awareness",
           "observed_stage_label": "Awareness",
           "rank": 1,
-          "source": "Quantum Zeitgeist",
-          "title": "Keyfactor Partners Gain Tools for AI & Post-Quantum Security Services",
-          "url": "https://quantumzeitgeist.com/keyfactor-security-services-ai-post-quantum"
+          "source": "QuantumNews.ai",
+          "title": "NIST Finalizes Three Post-Quantum Encryption Standards for Secure Data",
+          "url": "https://quantumzeitgeist.com/post-quantum-encryption-standards-nist-finalizes"
+        },
+        {
+          "date": "2026-07-30",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "The Quantum Insider",
+          "title": "NIST\u2019s Andrew Regenscheid Explains the Transition to Post-Quantum Cryptography",
+          "url": "https://thequantuminsider.com/2026/07/30/nist-andrew-regenscheid-post-quantum-cryptography-transition"
+        },
+        {
+          "date": "2026-07-24",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "The Quantum Insider",
+          "title": "Terra Quantum and Apex.AI Integrate NIST Post-Quantum Cryptography Into Robotics Software",
+          "url": "https://thequantuminsider.com/2026/07/24/terra-quantum-apex-ai-post-quantum-cryptography"
         }
       ],
-      "type": "company"
+      "type": "government"
     },
     {
       "confidence": "high",
@@ -584,66 +659,6 @@
         }
       ],
       "type": "company"
-    },
-    {
-      "confidence": "medium",
-      "evidence_count": 3,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-07-30",
-      "name": "NIST",
-      "priority": "critical",
-      "source_count": 2,
-      "stage": "planning",
-      "stage_label": "Planning",
-      "stage_rank": 3,
-      "supporting_evidence": [
-        {
-          "date": "2026-06-25",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "crypto-agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Quantum Zeitgeist",
-          "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
-          "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
-        },
-        {
-          "date": "2026-07-30",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "The Quantum Insider",
-          "title": "NIST\u2019s Andrew Regenscheid Explains the Transition to Post-Quantum Cryptography",
-          "url": "https://thequantuminsider.com/2026/07/30/nist-andrew-regenscheid-post-quantum-cryptography-transition"
-        },
-        {
-          "date": "2026-07-24",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "The Quantum Insider",
-          "title": "Terra Quantum and Apex.AI Integrate NIST Post-Quantum Cryptography Into Robotics Software",
-          "url": "https://thequantuminsider.com/2026/07/24/terra-quantum-apex-ai-post-quantum-cryptography"
-        }
-      ],
-      "type": "government"
     },
     {
       "confidence": "low",
@@ -1444,6 +1459,6 @@
     "not_assessed": 24,
     "organizations": 43
   },
-  "updated_at": "2026-07-31T02:22:30.390599+00:00",
+  "updated_at": "2026-08-01T02:17:39.490392+00:00",
   "version": 1
 }
