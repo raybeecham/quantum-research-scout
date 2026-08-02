@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Funding & Procurement](federal-funding.md) · [Standards Timeline](standards-timeline.md) · [Entity Watch](entity-watch.md)
 
-_Updated 2026-08-01 02:08 UTC_
+_Updated 2026-08-02 02:05 UTC_
 
 Named, cross-agency or cross-sector federal science and technology missions, initiatives, and national efforts relevant to quantum technology, AI, cybersecurity, energy, discovery science, and national security. Routine agency mission statements and unrelated operational missions are excluded.
 
@@ -54,9 +54,9 @@ Build an integrated American Science and Security Platform connecting federal sc
 - Next milestone: **2026-07-22 — Review federal robotic and AI-directed laboratory capabilities**
 
 Recent official updates:
-- 2026-08-01 — [Genesis Mission Workforce Development RFI Summary](https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf)
-- 2026-08-01 — [Genesis Mission University Summit Report](https://www.energy.gov/sites/default/files/2026-07/Genesis-University-Summit-Breakout-Summaries-Report.pdf)
-- 2026-08-01 — [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf)
+- 2026-08-02 — [Genesis Mission Workforce Development RFI Summary](https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf)
+- 2026-08-02 — [Genesis Mission University Summit Report](https://www.energy.gov/sites/default/files/2026-07/Genesis-University-Summit-Breakout-Summaries-Report.pdf)
+- 2026-08-02 — [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf)
 - 2026-07-29 — [United States and Japan Announce Historic $1 Billion Partnership Under President Trump’s Genesis Mission](https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps)
 - 2026-07-29 — [U.S. Department of Energy Announces More Than $800 Million in Partner Commitments to the Genesis Mission](https://www.energy.gov/undersecretaryforscience/articles/us-department-energy-announces-more-800-million-partner)
 
@@ -169,28 +169,28 @@ Recent official updates:
 
 | Target | Timing | Mission | Milestone |
 |---|---|---|---|
-| 2026-07-09 | awaiting public confirmation (22 days after target) | Military AI Pace-Setting Projects | [Conduct initial Pace-Setting Project demonstrations with transition-partner users](https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF) |
-| 2026-07-22 | awaiting public confirmation (9 days after target) | Federal Post-Quantum Cryptography Transition | [Agencies identify and report their PQC migration leads](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) |
-| 2026-07-22 | awaiting public confirmation (9 days after target) | Genesis Mission | [Review federal robotic and AI-directed laboratory capabilities](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/) |
-| 2026-07-31 | due soon (due today) | DARPA Quantum Benchmarking Initiative | [Receive abstracts for the expanded QBIT Stage A solicitation](https://www.darpa.mil/news/2026/qbi-stage-a-qbit) |
-| 2026-08-21 | due soon (21 days remaining) | Genesis Mission | [Seek initial platform operating capability for at least one national challenge](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/) |
-| 2026-09-20 | due soon (51 days remaining) | Federal Post-Quantum Cryptography Transition | [OMB issues agency guidance for inventories, migration plans, and high-impact systems](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) |
-| 2026-09-20 | due soon (51 days remaining) | QC-ADDS | [Publish a summary of QC-ADDS technical specifications](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/) |
+| 2026-07-09 | awaiting public confirmation (23 days after target) | Military AI Pace-Setting Projects | [Conduct initial Pace-Setting Project demonstrations with transition-partner users](https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF) |
+| 2026-07-22 | awaiting public confirmation (10 days after target) | Federal Post-Quantum Cryptography Transition | [Agencies identify and report their PQC migration leads](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) |
+| 2026-07-22 | awaiting public confirmation (10 days after target) | Genesis Mission | [Review federal robotic and AI-directed laboratory capabilities](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/) |
+| 2026-07-31 | overdue (1 day overdue) | DARPA Quantum Benchmarking Initiative | [Receive abstracts for the expanded QBIT Stage A solicitation](https://www.darpa.mil/news/2026/qbi-stage-a-qbit) |
+| 2026-08-21 | due soon (20 days remaining) | Genesis Mission | [Seek initial platform operating capability for at least one national challenge](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/) |
+| 2026-09-20 | due soon (50 days remaining) | Federal Post-Quantum Cryptography Transition | [OMB issues agency guidance for inventories, migration plans, and high-impact systems](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) |
+| 2026-09-20 | due soon (50 days remaining) | QC-ADDS | [Publish a summary of QC-ADDS technical specifications](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/) |
 | Summer 2026 | estimated | AI Forge | [Launch the AI Forge university-industry-government forum](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security) |
-| 2026-09-30 | due soon (61 days remaining) | DARPA Quantum Benchmarking Initiative | [Close the QBIT Stage A full-proposal window](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative) |
-| 2026-10-15 | due soon (76 days remaining) | DARPA Quantum Benchmarking Initiative | [Close the QBI independent verification and validation topic](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative) |
-| 2026-11-14 | upcoming (106 days remaining) | DARPA Quantum Benchmarking Initiative | [Close the umbrella QBI 2026 announcement](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative) |
-| 2026-11-24 | upcoming (116 days remaining) | Genesis Mission | [Submit the first annual Genesis Mission progress report](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/) |
-| 2026-12-19 | upcoming (141 days remaining) | Federal Post-Quantum Cryptography Transition | [NIST, NSA, and the FAR Council complete the order's initial 180-day actions](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) |
-| 2026-12-19 | upcoming (141 days remaining) | QC-ADDS | [Establish a national quantum-computing assessment center](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/) |
-| 2026-12-19 | upcoming (141 days remaining) | QC-ADDS | [Explore private-sector partnership models and commercial contribution plans](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/) |
+| 2026-09-30 | due soon (60 days remaining) | DARPA Quantum Benchmarking Initiative | [Close the QBIT Stage A full-proposal window](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative) |
+| 2026-10-15 | due soon (75 days remaining) | DARPA Quantum Benchmarking Initiative | [Close the QBI independent verification and validation topic](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative) |
+| 2026-11-14 | upcoming (105 days remaining) | DARPA Quantum Benchmarking Initiative | [Close the umbrella QBI 2026 announcement](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative) |
+| 2026-11-24 | upcoming (115 days remaining) | Genesis Mission | [Submit the first annual Genesis Mission progress report](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/) |
+| 2026-12-19 | upcoming (140 days remaining) | Federal Post-Quantum Cryptography Transition | [NIST, NSA, and the FAR Council complete the order's initial 180-day actions](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) |
+| 2026-12-19 | upcoming (140 days remaining) | QC-ADDS | [Establish a national quantum-computing assessment center](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/) |
+| 2026-12-19 | upcoming (140 days remaining) | QC-ADDS | [Explore private-sector partnership models and commercial contribution plans](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/) |
 | December 2026 | estimated | Project Triad | [Advance selected NSF NQVL projects from design to implementation](https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real) |
-| 2027-03-19 | upcoming (231 days remaining) | Federal Post-Quantum Cryptography Transition | [CISA and the FAR Council publish cryptographic inventory and disclosure proposals](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) |
-| 2027-06-22 | upcoming (326 days remaining) | QC-ADDS | [Report national-security implications of increasing commercial quantum capability](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/) |
-| 2027-12-31 | upcoming (518 days remaining) | Federal Post-Quantum Cryptography Transition | [Complete the NIST post-quantum cryptography migration pilot](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) |
+| 2027-03-19 | upcoming (230 days remaining) | Federal Post-Quantum Cryptography Transition | [CISA and the FAR Council publish cryptographic inventory and disclosure proposals](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) |
+| 2027-06-22 | upcoming (325 days remaining) | QC-ADDS | [Report national-security implications of increasing commercial quantum capability](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/) |
+| 2027-12-31 | upcoming (517 days remaining) | Federal Post-Quantum Cryptography Transition | [Complete the NIST post-quantum cryptography migration pilot](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) |
 | 2028 | estimated | Quantum Genesis | [Demonstrate fault-tolerant systems with logical qubits in the low hundreds](https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first) |
-| 2030-12-31 | upcoming (1614 days remaining) | Federal Post-Quantum Cryptography Transition | [Transition federal high-value assets and high-impact systems to PQC key establishment](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) |
-| 2031-12-31 | upcoming (1979 days remaining) | Federal Post-Quantum Cryptography Transition | [Transition federal high-value assets and high-impact systems to PQC digital signatures](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) |
+| 2030-12-31 | upcoming (1613 days remaining) | Federal Post-Quantum Cryptography Transition | [Transition federal high-value assets and high-impact systems to PQC key establishment](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) |
+| 2031-12-31 | upcoming (1978 days remaining) | Federal Post-Quantum Cryptography Transition | [Transition federal high-value assets and high-impact systems to PQC digital signatures](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) |
 | 2033 | estimated | DARPA Quantum Benchmarking Initiative | [Determine whether an industrially useful quantum computer is achievable](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative) |
 | 2035 | estimated | Genesis Mission | [Double the productivity and impact of American research and engineering](https://genesis.energy.gov/) |
 

@@ -3436,6 +3436,28 @@
     },
     {
       "application_count": 1,
+      "assignee": "MYSTEN LABS, INC.",
+      "citation_count": 0,
+      "family_basis": "continuation parent application",
+      "family_key": "application:19012163",
+      "grant_count": 0,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "PCTUS2026010434",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010434/application-data"
+        }
+      ],
+      "primary_publication_number": null,
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010434/application-data",
+      "significance_label": "notable",
+      "strategic_significance_score": 48,
+      "title": "RANSOMWARE RECOVERY AND PREVENTION USING DECENTRALIZED STORAGE PROTOCOL"
+    },
+    {
+      "application_count": 1,
       "assignee": "VL Collective IP LLC",
       "citation_count": 0,
       "family_basis": "continuation parent application",
@@ -3477,28 +3499,6 @@
       "significance_label": "notable",
       "strategic_significance_score": 48,
       "title": "CLOUD COMPUTING GATEWAY, CLOUD COMPUTING HYPERVISOR, AND METHODS FOR IMPLEMENTING SAME"
-    },
-    {
-      "application_count": 1,
-      "assignee": "MYSTEN LABS, INC.",
-      "citation_count": 0,
-      "family_basis": "continuation parent application",
-      "family_key": "application:19012163",
-      "grant_count": 0,
-      "member_count": 1,
-      "members": [
-        {
-          "application_number": "PCTUS2026010434",
-          "document_type": "application",
-          "publication_number": null,
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010434/application-data"
-        }
-      ],
-      "primary_publication_number": null,
-      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010434/application-data",
-      "significance_label": "notable",
-      "strategic_significance_score": 48,
-      "title": "RANSOMWARE RECOVERY AND PREVENTION USING DECENTRALIZED STORAGE PROTOCOL"
     },
     {
       "application_count": 3,
@@ -3862,6 +3862,28 @@
     },
     {
       "application_count": 1,
+      "assignee": "Georgia Tech Research Corporation",
+      "citation_count": 0,
+      "family_basis": "continuation parent application",
+      "family_key": "application:PCTUS2024031185",
+      "grant_count": 0,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "19486222",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19486222/application-data"
+        }
+      ],
+      "primary_publication_number": null,
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19486222/application-data",
+      "significance_label": "monitor",
+      "strategic_significance_score": 36,
+      "title": "CONTROL OF THE TEMPERATURE COEFFICIENT OF FREQUENCY OF A MICROELECTROMECHANICAL SYSTEMS (MEMS) RESONATOR VIA MANIPULATION BY STRESS"
+    },
+    {
+      "application_count": 1,
       "assignee": "TEXAS INSTRUMENTS INCORPORATED",
       "citation_count": 0,
       "family_basis": "application number",
@@ -3969,28 +3991,6 @@
       "significance_label": "monitor",
       "strategic_significance_score": 28,
       "title": "Precision Drive and Sense Operation for Microelectromechanical Systems Devices"
-    },
-    {
-      "application_count": 1,
-      "assignee": "Georgia Tech Research Corporation",
-      "citation_count": 0,
-      "family_basis": "continuation parent application",
-      "family_key": "application:PCTUS2024031185",
-      "grant_count": 0,
-      "member_count": 1,
-      "members": [
-        {
-          "application_number": "19486222",
-          "document_type": "application",
-          "publication_number": null,
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19486222/application-data"
-        }
-      ],
-      "primary_publication_number": null,
-      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19486222/application-data",
-      "significance_label": "monitor",
-      "strategic_significance_score": 28,
-      "title": "CONTROL OF THE TEMPERATURE COEFFICIENT OF FREQUENCY OF A MICROELECTROMECHANICAL SYSTEMS (MEMS) RESONATOR VIA MANIPULATION BY STRESS"
     }
   ],
   "patents": [
@@ -15843,6 +15843,72 @@
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19002880/application-data"
     },
     {
+      "application_number": "19486222",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "Georgia Tech Research Corporation",
+      "backward_citation_count": 0,
+      "child_applications": [
+        "19486222",
+        "PCTUS2024031185"
+      ],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "application",
+      "family_basis": "continuation parent application",
+      "family_id": "",
+      "family_key": "application:PCTUS2024031185",
+      "family_members": [
+        {
+          "application_number": "19486222",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19486222/application-data"
+        }
+      ],
+      "family_size": 1,
+      "filing_date": "2025-11-20",
+      "forward_citation_count": 0,
+      "grant_date": "",
+      "inventors": "Yaoyao Long, Farrokh Ayazi, Zhenming Liu",
+      "is_continuation": true,
+      "key": "https://data.uspto.gov/patent-file-wrapper/search/details/19486222/application-data",
+      "kind_code": null,
+      "legal_status": "Docketed New Case - Ready for Examination",
+      "legal_status_normalized": "pending",
+      "matched_keywords": [],
+      "parent_applications": [
+        "PCTUS2024031185",
+        "63504642"
+      ],
+      "patent_number": null,
+      "priority": "monitor",
+      "priority_date": "",
+      "priority_numbers": [],
+      "publication_date": null,
+      "publication_number": null,
+      "query": "Distributed Sensing and Smart Dust Patents",
+      "score": 0,
+      "significance_factors": [
+        "strategic domain relevance +20",
+        "application stage +5",
+        "pending legal status +8",
+        "named assignee +3"
+      ],
+      "significance_label": "monitor",
+      "source": "Distributed Sensing and Smart Dust Patents",
+      "strategic_domains": [
+        "Distributed sensing and autonomous systems"
+      ],
+      "strategic_relevance_score": 50,
+      "strategic_significance_score": 36,
+      "summary": "Applicant: Georgia Tech Research Corporation",
+      "title": "CONTROL OF THE TEMPERATURE COEFFICIENT OF FREQUENCY OF A MICROELECTROMECHANICAL SYSTEMS (MEMS) RESONATOR VIA MANIPULATION BY STRESS",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19486222/application-data"
+    },
+    {
       "application_number": "19478065",
       "application_type": "Utility",
       "assessment": null,
@@ -16501,90 +16567,25 @@
       "title": "Precision Drive and Sense Operation for Microelectromechanical Systems Devices",
       "tracking_type": "automated",
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/63737712/application-data"
-    },
-    {
-      "application_number": "19486222",
-      "application_type": "Utility",
-      "assessment": null,
-      "assignee": "Georgia Tech Research Corporation",
-      "backward_citation_count": 0,
-      "child_applications": [
-        "19486222",
-        "PCTUS2024031185"
-      ],
-      "citation_count": 0,
-      "cited_patents": [],
-      "continuation_type": null,
-      "document_type": "application",
-      "family_basis": "continuation parent application",
-      "family_id": "",
-      "family_key": "application:PCTUS2024031185",
-      "family_members": [
-        {
-          "application_number": "19486222",
-          "document_type": "application",
-          "publication_number": null,
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19486222/application-data"
-        }
-      ],
-      "family_size": 1,
-      "filing_date": "2025-11-20",
-      "forward_citation_count": 0,
-      "grant_date": "",
-      "inventors": "Yaoyao Long, Farrokh Ayazi, Zhenming Liu",
-      "is_continuation": true,
-      "key": "https://data.uspto.gov/patent-file-wrapper/search/details/19486222/application-data",
-      "kind_code": null,
-      "legal_status": "Sent to Classification contractor",
-      "legal_status_normalized": "unknown",
-      "matched_keywords": [],
-      "parent_applications": [
-        "PCTUS2024031185",
-        "63504642"
-      ],
-      "patent_number": null,
-      "priority": "monitor",
-      "priority_date": "",
-      "priority_numbers": [],
-      "publication_date": null,
-      "publication_number": null,
-      "query": "Distributed Sensing and Smart Dust Patents",
-      "score": 0,
-      "significance_factors": [
-        "strategic domain relevance +20",
-        "application stage +5",
-        "named assignee +3"
-      ],
-      "significance_label": "monitor",
-      "source": "Distributed Sensing and Smart Dust Patents",
-      "strategic_domains": [
-        "Distributed sensing and autonomous systems"
-      ],
-      "strategic_relevance_score": 50,
-      "strategic_significance_score": 28,
-      "summary": "Applicant: Georgia Tech Research Corporation",
-      "title": "CONTROL OF THE TEMPERATURE COEFFICIENT OF FREQUENCY OF A MICROELECTROMECHANICAL SYSTEMS (MEMS) RESONATOR VIA MANIPULATION BY STRESS",
-      "tracking_type": "automated",
-      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19486222/application-data"
     }
   ],
   "ranking": "Strategic significance first, combining domain relevance, document stage, legal status, citation evidence, family depth, recency, and assignee attribution. Evidence score and publication date break ties.",
   "source": "Curated patent portfolio and USPTO Open Data Portal Patent File Wrapper metadata",
   "source_note": "Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.",
   "summary": {
-    "active_or_pending": 140,
+    "active_or_pending": 141,
     "applications": 182,
     "automated_total": 186,
     "curated_total": 2,
     "families": 179,
     "grants": 6,
-    "last_30_days": 56,
+    "last_30_days": 42,
     "latest_publication_date": "2026-07-30",
-    "status_known": 143,
+    "status_known": 144,
     "total": 188,
     "unique_assignees": 125,
     "with_citations": 0
   },
-  "updated_at": "2026-08-01T02:08:14.362509+00:00",
+  "updated_at": "2026-08-02T02:05:25.412721+00:00",
   "version": 4
 }

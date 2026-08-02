@@ -1,6 +1,1247 @@
 {
-  "as_of_date": "2026-08-01",
+  "as_of_date": "2026-08-02",
   "claims": [
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-d7805cc0e3a54e97",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-190ca6acc239d692"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-190ca6acc239d692",
+          "locator": "opportunity_status:awarded",
+          "title": "RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE",
+          "url": "https://www.usaspending.gov/award/ASST_NON_W911NF261A284_097",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:W911NF261A284",
+        "label": "RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE",
+        "node_id": "award:usaspending:W911NF261A284",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e8e279b96308fd3e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-2bc8fa79a73817b7",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-0ea696b3277f2549"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0ea696b3277f2549",
+          "locator": "awarding_agency:department of defense",
+          "title": "RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE",
+          "url": "https://www.usaspending.gov/award/ASST_NON_W911NF261A284_097",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:W911NF261A284",
+        "label": "RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE",
+        "node_id": "award:usaspending:W911NF261A284",
+        "node_type": "award"
+      },
+      "value": "Department of Defense",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "cae01a6052e95323"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-4f2363ad261f4425",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-5a13f3c6cfa9ecb8"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5a13f3c6cfa9ecb8",
+          "locator": "reported_amount:10000000.0",
+          "title": "RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE",
+          "url": "https://www.usaspending.gov/award/ASST_NON_W911NF261A284_097",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:W911NF261A284",
+        "label": "RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE",
+        "node_id": "award:usaspending:W911NF261A284",
+        "node_type": "award"
+      },
+      "value": 10000000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6b7889a52f9e915b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-20dc4a947cddea43",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-0cfa2d64257f9429"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:KULSKCCZJT27",
+        "label": "MORGAN STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:KULSKCCZJT27",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0cfa2d64257f9429",
+          "locator": "reported_recipient:recipient_or_contractor:uei:KULSKCCZJT27",
+          "title": "RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE",
+          "url": "https://www.usaspending.gov/award/ASST_NON_W911NF261A284_097",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:W911NF261A284",
+        "label": "RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE",
+        "node_id": "award:usaspending:W911NF261A284",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "353b11ea521bd763"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-1cd28a92754a4006",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-01",
+      "evidence_ids": [
+        "evidence-7bbc223c28837164"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported amount in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-02f586652215e36a"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "object": null,
+          "status": "active",
+          "value": 5000000.0,
+          "version": 1,
+          "version_hash": "3b2191c6f3bcde07"
+        }
+      ],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7bbc223c28837164",
+          "locator": "reported_amount:18251288.39",
+          "title": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80ARC026F7006",
+        "label": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7006",
+        "node_type": "award"
+      },
+      "value": 18251288.39,
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "c62dc430c00ab734"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-437500caa5f22f02",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-27",
+      "evidence_ids": [
+        "evidence-416a9b4989fbdb2e"
+      ],
+      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported amount in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-97078aa1fab9c2aa"
+          ],
+          "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "object": null,
+          "status": "active",
+          "value": 10012047.59,
+          "version": 1,
+          "version_hash": "6b810a11e443b31b"
+        }
+      ],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-416a9b4989fbdb2e",
+          "locator": "reported_amount:13314747.36",
+          "title": "DEHRADS ORDER 6 CYBERSECURITY, PRIVACY, RECORDS AND INFORMATION MANAGEMENT, AND ENVIRONMENTS SUPPORT (CYBER PRIMES)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QFMA26F0006_4732_47QFMA24A0005_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:47QFMA26F0006",
+        "label": "DEHRADS ORDER 6 CYBERSECURITY, PRIVACY, RECORDS AND INFORMATION MANAGEMENT, AND ENVIRONMENTS SUPPORT (CYBER PRIMES)",
+        "node_id": "award:usaspending:47QFMA26F0006",
+        "node_type": "award"
+      },
+      "value": 13314747.36,
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "9a574047e4273ec6"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-1f2f04a2daa6c3a4",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-01",
+      "evidence_ids": [
+        "evidence-28c10467e829d5a8"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported amount in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-f487467d450b5021"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "object": null,
+          "status": "active",
+          "value": 1900000.0,
+          "version": 1,
+          "version_hash": "8318b91316e55881"
+        }
+      ],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-28c10467e829d5a8",
+          "locator": "reported_amount:5400000.0",
+          "title": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7017_8000_80ARC018D0010_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80ARC026F7017",
+        "label": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7017",
+        "node_type": "award"
+      },
+      "value": 5400000.0,
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "df8a8533fe44fb9a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-204f3b502e725c54",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-01",
+      "evidence_ids": [
+        "evidence-4e1f13d9c31785d5"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported amount in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-7cd2771302004313"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "object": null,
+          "status": "active",
+          "value": 600000.0,
+          "version": 1,
+          "version_hash": "8270c0adecae285b"
+        }
+      ],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4e1f13d9c31785d5",
+          "locator": "reported_amount:1800000.0",
+          "title": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7005_8000_80ARC018D0010_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80ARC026F7005",
+        "label": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
+        "node_id": "award:usaspending:80ARC026F7005",
+        "node_type": "award"
+      },
+      "value": 1800000.0,
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "dc5b2b7686e23857"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-2b74aba1c4b4fd46",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-01",
+      "evidence_ids": [
+        "evidence-8d887815624cc32c"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported amount in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-acc89ac5a9bd8286"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "object": null,
+          "status": "active",
+          "value": 651594.17,
+          "version": 1,
+          "version_hash": "890e4fdd0b1c7840"
+        }
+      ],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8d887815624cc32c",
+          "locator": "reported_amount:1529127.18",
+          "title": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80ARC026F7007",
+        "label": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7007",
+        "node_type": "award"
+      },
+      "value": 1529127.18,
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "b339e8e615e15abb"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-758a89c83f87eeb4",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-10",
+      "evidence_ids": [
+        "evidence-c452212a7f9cc84f"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c452212a7f9cc84f",
+          "locator": "opportunity_status:awarded",
+          "title": "THE PURPOSE OF THE ORDER IS TO PROCURE HIGH PERFORMANCE COMPUTING (HPC) NODES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0269_1205_NNG15SD72B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:12314426F0269",
+        "label": "THE PURPOSE OF THE ORDER IS TO PROCURE HIGH PERFORMANCE COMPUTING (HPC) NODES",
+        "node_id": "award:usaspending:12314426F0269",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1419a7811534c27f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-5d8ba72592e02bb0",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-10",
+      "evidence_ids": [
+        "evidence-57670566c423da78"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-57670566c423da78",
+          "locator": "awarding_agency:department of agriculture",
+          "title": "THE PURPOSE OF THE ORDER IS TO PROCURE HIGH PERFORMANCE COMPUTING (HPC) NODES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0269_1205_NNG15SD72B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:12314426F0269",
+        "label": "THE PURPOSE OF THE ORDER IS TO PROCURE HIGH PERFORMANCE COMPUTING (HPC) NODES",
+        "node_id": "award:usaspending:12314426F0269",
+        "node_type": "award"
+      },
+      "value": "Department of Agriculture",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "0ad573bde8aa4d37"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-12f322e056b54700",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-10",
+      "evidence_ids": [
+        "evidence-fabf49d2062aae18"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fabf49d2062aae18",
+          "locator": "reported_amount:587107.76",
+          "title": "THE PURPOSE OF THE ORDER IS TO PROCURE HIGH PERFORMANCE COMPUTING (HPC) NODES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0269_1205_NNG15SD72B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:12314426F0269",
+        "label": "THE PURPOSE OF THE ORDER IS TO PROCURE HIGH PERFORMANCE COMPUTING (HPC) NODES",
+        "node_id": "award:usaspending:12314426F0269",
+        "node_type": "award"
+      },
+      "value": 587107.76,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ba21f6f4a182aef2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-22a72d8bf37dea30",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-10",
+      "evidence_ids": [
+        "evidence-6e218787a2790f87"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:F4M9NB1HD785",
+        "label": "COLOSSAL CONTRACTING LLC",
+        "node_id": "recipient_or_contractor:uei:F4M9NB1HD785",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6e218787a2790f87",
+          "locator": "reported_recipient:recipient_or_contractor:uei:F4M9NB1HD785",
+          "title": "THE PURPOSE OF THE ORDER IS TO PROCURE HIGH PERFORMANCE COMPUTING (HPC) NODES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0269_1205_NNG15SD72B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:12314426F0269",
+        "label": "THE PURPOSE OF THE ORDER IS TO PROCURE HIGH PERFORMANCE COMPUTING (HPC) NODES",
+        "node_id": "award:usaspending:12314426F0269",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "85df8191d444233e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-58ade692cf2d4d0a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-01",
+      "evidence_ids": [
+        "evidence-49089f6362dab88b"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported amount in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-5111e12d7b0f4ed8"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "object": null,
+          "status": "active",
+          "value": 80000.0,
+          "version": 1,
+          "version_hash": "43b0a911e366cc74"
+        }
+      ],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-49089f6362dab88b",
+          "locator": "reported_amount:445000.0",
+          "title": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80ARC026F7003",
+        "label": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7003",
+        "node_type": "award"
+      },
+      "value": 445000.0,
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "d3b6ee3784246854"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-e1767df8e0373c54",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-05-04",
+      "evidence_ids": [
+        "evidence-cad3d419bd09cc5b"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cad3d419bd09cc5b",
+          "locator": "opportunity_status:awarded",
+          "title": "(C5ISRT), INTEGRATED TECHNOLOGY, AUTOMATION, UNCREWED AUTONOMOUS SYSTEM (UXS), COUNTER UNCREWED AUTONOMOUS SYSTEM (CUXS), SECURITY, AND NETWORK TECHNOLOGY SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_N6133126F0075_9700_N6133126D0008_9700",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:N6133126F0075",
+        "label": "(C5ISRT), INTEGRATED TECHNOLOGY, AUTOMATION, UNCREWED AUTONOMOUS SYSTEM (UXS), COUNTER UNCREWED AUTONOMOUS SYSTEM (CUXS), SECURITY, AND NETWORK TECHNOLOGY SUPPORT",
+        "node_id": "award:usaspending:N6133126F0075",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "058dd8b28352f8f5"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-a4b0cfaf17ca336a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-05-04",
+      "evidence_ids": [
+        "evidence-16f185e6e19395d0"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-16f185e6e19395d0",
+          "locator": "awarding_agency:department of defense",
+          "title": "(C5ISRT), INTEGRATED TECHNOLOGY, AUTOMATION, UNCREWED AUTONOMOUS SYSTEM (UXS), COUNTER UNCREWED AUTONOMOUS SYSTEM (CUXS), SECURITY, AND NETWORK TECHNOLOGY SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_N6133126F0075_9700_N6133126D0008_9700",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:N6133126F0075",
+        "label": "(C5ISRT), INTEGRATED TECHNOLOGY, AUTOMATION, UNCREWED AUTONOMOUS SYSTEM (UXS), COUNTER UNCREWED AUTONOMOUS SYSTEM (CUXS), SECURITY, AND NETWORK TECHNOLOGY SUPPORT",
+        "node_id": "award:usaspending:N6133126F0075",
+        "node_type": "award"
+      },
+      "value": "Department of Defense",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6bc4ea9a85bda1cb"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-d26f5b21763bcee3",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-05-04",
+      "evidence_ids": [
+        "evidence-5ff32a235095089c"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5ff32a235095089c",
+          "locator": "reported_amount:350000.0",
+          "title": "(C5ISRT), INTEGRATED TECHNOLOGY, AUTOMATION, UNCREWED AUTONOMOUS SYSTEM (UXS), COUNTER UNCREWED AUTONOMOUS SYSTEM (CUXS), SECURITY, AND NETWORK TECHNOLOGY SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_N6133126F0075_9700_N6133126D0008_9700",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:N6133126F0075",
+        "label": "(C5ISRT), INTEGRATED TECHNOLOGY, AUTOMATION, UNCREWED AUTONOMOUS SYSTEM (UXS), COUNTER UNCREWED AUTONOMOUS SYSTEM (CUXS), SECURITY, AND NETWORK TECHNOLOGY SUPPORT",
+        "node_id": "award:usaspending:N6133126F0075",
+        "node_type": "award"
+      },
+      "value": 350000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "f51c829ae9c70120"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-0e4292b8125c27b9",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-05-04",
+      "evidence_ids": [
+        "evidence-8cf9cd7b1709e9ef"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:L3G5SBQ2PLK5",
+        "label": "GEORGIA TECH APPLIED RESEARCH CORP",
+        "node_id": "recipient_or_contractor:uei:L3G5SBQ2PLK5",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8cf9cd7b1709e9ef",
+          "locator": "reported_recipient:recipient_or_contractor:uei:L3G5SBQ2PLK5",
+          "title": "(C5ISRT), INTEGRATED TECHNOLOGY, AUTOMATION, UNCREWED AUTONOMOUS SYSTEM (UXS), COUNTER UNCREWED AUTONOMOUS SYSTEM (CUXS), SECURITY, AND NETWORK TECHNOLOGY SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_N6133126F0075_9700_N6133126D0008_9700",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:N6133126F0075",
+        "label": "(C5ISRT), INTEGRATED TECHNOLOGY, AUTOMATION, UNCREWED AUTONOMOUS SYSTEM (UXS), COUNTER UNCREWED AUTONOMOUS SYSTEM (CUXS), SECURITY, AND NETWORK TECHNOLOGY SUPPORT",
+        "node_id": "award:usaspending:N6133126F0075",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7a0fad67be7c7ba3"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-a80ab62d7a209158",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-01",
+      "evidence_ids": [
+        "evidence-274f88dc519bda42"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-274f88dc519bda42",
+          "locator": "opportunity_status:open",
+          "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+          "url": "https://www.grants.gov/search-results-detail/363440",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PDS-UKRAINE-FY26-04",
+        "label": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+        "node_id": "opportunity:grants_gov:PDS-UKRAINE-FY26-04",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d0d8ab2c2a67675b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-c1a0377d732a845e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-01",
+      "evidence_ids": [
+        "evidence-38fb2da770fbf48b"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-38fb2da770fbf48b",
+          "locator": "deadline:09/01/2026",
+          "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+          "url": "https://www.grants.gov/search-results-detail/363440",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PDS-UKRAINE-FY26-04",
+        "label": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+        "node_id": "opportunity:grants_gov:PDS-UKRAINE-FY26-04",
+        "node_type": "opportunity"
+      },
+      "value": "09/01/2026",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6032da03c503fec1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-4cf8e1b8f9dc90fa",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-01",
+      "evidence_ids": [
+        "evidence-8772d7ea64699a0c"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8772d7ea64699a0c",
+          "locator": "awarding_agency:dos-ukr",
+          "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+          "url": "https://www.grants.gov/search-results-detail/363440",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PDS-UKRAINE-FY26-04",
+        "label": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+        "node_id": "opportunity:grants_gov:PDS-UKRAINE-FY26-04",
+        "node_type": "opportunity"
+      },
+      "value": "DOS-UKR",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1d2f370d15a41b02"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-19658500da555f79",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-30",
+      "evidence_ids": [
+        "evidence-e4a0733e4d357f94"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e4a0733e4d357f94",
+          "locator": "opportunity_status:awarded",
+          "title": "THIS DOCUMENT ESTABLISHES A FIRM-FIXED-PRICE PURCHASE ORDER BETWEEN THE DEPARTMENT OF HOMELAND SECURITY (DHS) CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY (CISA) AND WIRELESS...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26P00000018_7001_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70RCSJ26P00000018",
+        "label": "THIS DOCUMENT ESTABLISHES A FIRM-FIXED-PRICE PURCHASE ORDER BETWEEN THE DEPARTMENT OF HOMELAND SECURITY (DHS) CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY (CISA) AND WIRELESS...",
+        "node_id": "award:usaspending:70RCSJ26P00000018",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4622bfa4ea4ba98b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-e918edd35ca6c41a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-30",
+      "evidence_ids": [
+        "evidence-e90055fb44d33533"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e90055fb44d33533",
+          "locator": "awarding_agency:department of homeland security",
+          "title": "THIS DOCUMENT ESTABLISHES A FIRM-FIXED-PRICE PURCHASE ORDER BETWEEN THE DEPARTMENT OF HOMELAND SECURITY (DHS) CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY (CISA) AND WIRELESS...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26P00000018_7001_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70RCSJ26P00000018",
+        "label": "THIS DOCUMENT ESTABLISHES A FIRM-FIXED-PRICE PURCHASE ORDER BETWEEN THE DEPARTMENT OF HOMELAND SECURITY (DHS) CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY (CISA) AND WIRELESS...",
+        "node_id": "award:usaspending:70RCSJ26P00000018",
+        "node_type": "award"
+      },
+      "value": "Department of Homeland Security",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e17cefb39231c366"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-baa477b27a9f42ec",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-30",
+      "evidence_ids": [
+        "evidence-598e5ee8ebc221a1"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-598e5ee8ebc221a1",
+          "locator": "reported_amount:19000.0",
+          "title": "THIS DOCUMENT ESTABLISHES A FIRM-FIXED-PRICE PURCHASE ORDER BETWEEN THE DEPARTMENT OF HOMELAND SECURITY (DHS) CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY (CISA) AND WIRELESS...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26P00000018_7001_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70RCSJ26P00000018",
+        "label": "THIS DOCUMENT ESTABLISHES A FIRM-FIXED-PRICE PURCHASE ORDER BETWEEN THE DEPARTMENT OF HOMELAND SECURITY (DHS) CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY (CISA) AND WIRELESS...",
+        "node_id": "award:usaspending:70RCSJ26P00000018",
+        "node_type": "award"
+      },
+      "value": 19000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "56ed08ea4af5bb2b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-afd803b27f212d30",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-30",
+      "evidence_ids": [
+        "evidence-0759868844407f1c"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:LETXBAQZRA18",
+        "label": "WIRELESS BROADBAND ALLIANCE INC.",
+        "node_id": "recipient_or_contractor:uei:LETXBAQZRA18",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0759868844407f1c",
+          "locator": "reported_recipient:recipient_or_contractor:uei:LETXBAQZRA18",
+          "title": "THIS DOCUMENT ESTABLISHES A FIRM-FIXED-PRICE PURCHASE ORDER BETWEEN THE DEPARTMENT OF HOMELAND SECURITY (DHS) CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY (CISA) AND WIRELESS...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26P00000018_7001_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70RCSJ26P00000018",
+        "label": "THIS DOCUMENT ESTABLISHES A FIRM-FIXED-PRICE PURCHASE ORDER BETWEEN THE DEPARTMENT OF HOMELAND SECURITY (DHS) CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY (CISA) AND WIRELESS...",
+        "node_id": "award:usaspending:70RCSJ26P00000018",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "0f8da1f0de5b1d11"
+    },
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
@@ -370,6 +1611,146 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "b74a9020c7e6bc9c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-9409bea8796fbf65",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-01",
+      "evidence_ids": [
+        "evidence-d578285a24e070f4"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d578285a24e070f4",
+          "locator": "opportunity_status:awarded",
+          "title": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80ARC026F7006",
+        "label": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7006",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "01c9d22bb23c13b8"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-a916ae9d93449a93",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-01",
+      "evidence_ids": [
+        "evidence-3e59a5c621c58517"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3e59a5c621c58517",
+          "locator": "awarding_agency:national aeronautics and space administration",
+          "title": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80ARC026F7006",
+        "label": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7006",
+        "node_type": "award"
+      },
+      "value": "National Aeronautics and Space Administration",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6cc2ea5ff4a7b913"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-be79ed547188328b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-01",
+      "evidence_ids": [
+        "evidence-43559aacfb850466"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:NBEWZB8LQ8Z5",
+        "label": "INUTEQ, LLC",
+        "node_id": "recipient_or_contractor:uei:NBEWZB8LQ8Z5",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-43559aacfb850466",
+          "locator": "reported_recipient:recipient_or_contractor:uei:NBEWZB8LQ8Z5",
+          "title": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80ARC026F7006",
+        "label": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7006",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4a2cf5ddc3badfe9"
     },
     {
       "authority": "authoritative",
@@ -744,7 +2125,7 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
-      "claim_id": "claim-9409bea8796fbf65",
+      "claim_id": "claim-98ab91ca97b1a9db",
       "confidence": "high",
       "controlling_status": "not_asserted",
       "derivation": {
@@ -753,7 +2134,7 @@
       },
       "effective_date": "2026-07-01",
       "evidence_ids": [
-        "evidence-d578285a24e070f4"
+        "evidence-e9ecd02f830faeb4"
       ],
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
@@ -767,29 +2148,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d578285a24e070f4",
+          "evidence_id": "evidence-e9ecd02f830faeb4",
           "locator": "opportunity_status:awarded",
-          "title": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000",
+          "title": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7017_8000_80ARC018D0010_8000",
           "verification_status": "source_reported"
         }
       ],
       "status": "active",
       "subject": {
-        "identifier": "usaspending:80ARC026F7006",
-        "label": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7006",
+        "identifier": "usaspending:80ARC026F7017",
+        "label": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7017",
         "node_type": "award"
       },
       "value": "awarded",
       "verification_status": "source_reported",
       "version": 1,
-      "version_hash": "01c9d22bb23c13b8"
+      "version_hash": "f8d50b6be201b5ff"
     },
     {
       "authority": "authoritative",
       "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-a916ae9d93449a93",
+      "claim_id": "claim-265271b45ccdd216",
       "confidence": "high",
       "controlling_status": "not_asserted",
       "derivation": {
@@ -798,7 +2179,7 @@
       },
       "effective_date": "2026-07-01",
       "evidence_ids": [
-        "evidence-3e59a5c621c58517"
+        "evidence-99b98b8b689d64a9"
       ],
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
@@ -812,74 +2193,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3e59a5c621c58517",
+          "evidence_id": "evidence-99b98b8b689d64a9",
           "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000",
+          "title": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7017_8000_80ARC018D0010_8000",
           "verification_status": "source_reported"
         }
       ],
       "status": "active",
       "subject": {
-        "identifier": "usaspending:80ARC026F7006",
-        "label": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7006",
+        "identifier": "usaspending:80ARC026F7017",
+        "label": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7017",
         "node_type": "award"
       },
       "value": "National Aeronautics and Space Administration",
       "verification_status": "source_reported",
       "version": 1,
-      "version_hash": "6cc2ea5ff4a7b913"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-1cd28a92754a4006",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-01",
-      "evidence_ids": [
-        "evidence-02f586652215e36a"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-02f586652215e36a",
-          "locator": "reported_amount:5000000.0",
-          "title": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:80ARC026F7006",
-        "label": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7006",
-        "node_type": "award"
-      },
-      "value": 5000000.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "3b2191c6f3bcde07"
+      "version_hash": "7c245516284f56bd"
     },
     {
       "authority": "authoritative",
       "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-be79ed547188328b",
+      "claim_id": "claim-3df38051be3a9cb4",
       "confidence": "high",
       "controlling_status": "not_asserted",
       "derivation": {
@@ -888,7 +2224,7 @@
       },
       "effective_date": "2026-07-01",
       "evidence_ids": [
-        "evidence-43559aacfb850466"
+        "evidence-93fca26672039800"
       ],
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
@@ -907,24 +2243,24 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-43559aacfb850466",
+          "evidence_id": "evidence-93fca26672039800",
           "locator": "reported_recipient:recipient_or_contractor:uei:NBEWZB8LQ8Z5",
-          "title": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000",
+          "title": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7017_8000_80ARC018D0010_8000",
           "verification_status": "source_reported"
         }
       ],
       "status": "active",
       "subject": {
-        "identifier": "usaspending:80ARC026F7006",
-        "label": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7006",
+        "identifier": "usaspending:80ARC026F7017",
+        "label": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7017",
         "node_type": "award"
       },
       "value": null,
       "verification_status": "source_reported",
       "version": 1,
-      "version_hash": "4a2cf5ddc3badfe9"
+      "version_hash": "dd9b37f9469d048e"
     },
     {
       "authority": "authoritative",
@@ -1854,7 +3190,7 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
-      "claim_id": "claim-98ab91ca97b1a9db",
+      "claim_id": "claim-325c3587010b729b",
       "confidence": "high",
       "controlling_status": "not_asserted",
       "derivation": {
@@ -1863,7 +3199,7 @@
       },
       "effective_date": "2026-07-01",
       "evidence_ids": [
-        "evidence-e9ecd02f830faeb4"
+        "evidence-67e95608e6610c4e"
       ],
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
@@ -1877,29 +3213,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e9ecd02f830faeb4",
+          "evidence_id": "evidence-67e95608e6610c4e",
           "locator": "opportunity_status:awarded",
-          "title": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7017_8000_80ARC018D0010_8000",
+          "title": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7005_8000_80ARC018D0010_8000",
           "verification_status": "source_reported"
         }
       ],
       "status": "active",
       "subject": {
-        "identifier": "usaspending:80ARC026F7017",
-        "label": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7017",
+        "identifier": "usaspending:80ARC026F7005",
+        "label": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
+        "node_id": "award:usaspending:80ARC026F7005",
         "node_type": "award"
       },
       "value": "awarded",
       "verification_status": "source_reported",
       "version": 1,
-      "version_hash": "f8d50b6be201b5ff"
+      "version_hash": "c1fb0a2848e238b4"
     },
     {
       "authority": "authoritative",
       "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-265271b45ccdd216",
+      "claim_id": "claim-d30b3fbe51fe2c1c",
       "confidence": "high",
       "controlling_status": "not_asserted",
       "derivation": {
@@ -1908,7 +3244,7 @@
       },
       "effective_date": "2026-07-01",
       "evidence_ids": [
-        "evidence-99b98b8b689d64a9"
+        "evidence-b15fca7c3ee310c4"
       ],
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
@@ -1922,74 +3258,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-99b98b8b689d64a9",
+          "evidence_id": "evidence-b15fca7c3ee310c4",
           "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7017_8000_80ARC018D0010_8000",
+          "title": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7005_8000_80ARC018D0010_8000",
           "verification_status": "source_reported"
         }
       ],
       "status": "active",
       "subject": {
-        "identifier": "usaspending:80ARC026F7017",
-        "label": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7017",
+        "identifier": "usaspending:80ARC026F7005",
+        "label": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
+        "node_id": "award:usaspending:80ARC026F7005",
         "node_type": "award"
       },
       "value": "National Aeronautics and Space Administration",
       "verification_status": "source_reported",
       "version": 1,
-      "version_hash": "7c245516284f56bd"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-1f2f04a2daa6c3a4",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-01",
-      "evidence_ids": [
-        "evidence-f487467d450b5021"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f487467d450b5021",
-          "locator": "reported_amount:1900000.0",
-          "title": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7017_8000_80ARC018D0010_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:80ARC026F7017",
-        "label": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7017",
-        "node_type": "award"
-      },
-      "value": 1900000.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "8318b91316e55881"
+      "version_hash": "cf1ccb666d698a14"
     },
     {
       "authority": "authoritative",
       "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-3df38051be3a9cb4",
+      "claim_id": "claim-38651c8ec07c1218",
       "confidence": "high",
       "controlling_status": "not_asserted",
       "derivation": {
@@ -1998,7 +3289,7 @@
       },
       "effective_date": "2026-07-01",
       "evidence_ids": [
-        "evidence-93fca26672039800"
+        "evidence-bec908452ba53043"
       ],
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
@@ -2017,24 +3308,164 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-93fca26672039800",
+          "evidence_id": "evidence-bec908452ba53043",
           "locator": "reported_recipient:recipient_or_contractor:uei:NBEWZB8LQ8Z5",
-          "title": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7017_8000_80ARC018D0010_8000",
+          "title": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7005_8000_80ARC018D0010_8000",
           "verification_status": "source_reported"
         }
       ],
       "status": "active",
       "subject": {
-        "identifier": "usaspending:80ARC026F7017",
-        "label": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7017",
+        "identifier": "usaspending:80ARC026F7005",
+        "label": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
+        "node_id": "award:usaspending:80ARC026F7005",
         "node_type": "award"
       },
       "value": null,
       "verification_status": "source_reported",
       "version": 1,
-      "version_hash": "dd9b37f9469d048e"
+      "version_hash": "dc756f6a0fd9bd68"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-25251ccfd25fa744",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-01",
+      "evidence_ids": [
+        "evidence-79ee03f6e1b4afb5"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-79ee03f6e1b4afb5",
+          "locator": "opportunity_status:awarded",
+          "title": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80ARC026F7007",
+        "label": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7007",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8087cbf643f811cf"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-54891b4180fccb3d",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-01",
+      "evidence_ids": [
+        "evidence-9ba9c9bfa495f2c5"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9ba9c9bfa495f2c5",
+          "locator": "awarding_agency:national aeronautics and space administration",
+          "title": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80ARC026F7007",
+        "label": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7007",
+        "node_type": "award"
+      },
+      "value": "National Aeronautics and Space Administration",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "18a941103c8c5975"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-6f753210e253be27",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-01",
+      "evidence_ids": [
+        "evidence-33c7bd892d7cf489"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:NBEWZB8LQ8Z5",
+        "label": "INUTEQ, LLC",
+        "node_id": "recipient_or_contractor:uei:NBEWZB8LQ8Z5",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-33c7bd892d7cf489",
+          "locator": "reported_recipient:recipient_or_contractor:uei:NBEWZB8LQ8Z5",
+          "title": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80ARC026F7007",
+        "label": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7007",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "217e548de868c4a0"
     },
     {
       "authority": "authoritative",
@@ -5924,7 +7355,7 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
-      "claim_id": "claim-25251ccfd25fa744",
+      "claim_id": "claim-6f956a81a89bd2a2",
       "confidence": "high",
       "controlling_status": "not_asserted",
       "derivation": {
@@ -5933,7 +7364,7 @@
       },
       "effective_date": "2026-07-01",
       "evidence_ids": [
-        "evidence-79ee03f6e1b4afb5"
+        "evidence-ec4adc698fdbe7d5"
       ],
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
@@ -5947,29 +7378,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-79ee03f6e1b4afb5",
+          "evidence_id": "evidence-ec4adc698fdbe7d5",
           "locator": "opportunity_status:awarded",
-          "title": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000",
+          "title": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000",
           "verification_status": "source_reported"
         }
       ],
       "status": "active",
       "subject": {
-        "identifier": "usaspending:80ARC026F7007",
-        "label": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7007",
+        "identifier": "usaspending:80ARC026F7003",
+        "label": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7003",
         "node_type": "award"
       },
       "value": "awarded",
       "verification_status": "source_reported",
       "version": 1,
-      "version_hash": "8087cbf643f811cf"
+      "version_hash": "6f27b10fc79a5cb2"
     },
     {
       "authority": "authoritative",
       "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-54891b4180fccb3d",
+      "claim_id": "claim-0a0c54b08bf090db",
       "confidence": "high",
       "controlling_status": "not_asserted",
       "derivation": {
@@ -5978,7 +7409,7 @@
       },
       "effective_date": "2026-07-01",
       "evidence_ids": [
-        "evidence-9ba9c9bfa495f2c5"
+        "evidence-6d456d37806a29f3"
       ],
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
@@ -5992,74 +7423,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9ba9c9bfa495f2c5",
+          "evidence_id": "evidence-6d456d37806a29f3",
           "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000",
+          "title": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000",
           "verification_status": "source_reported"
         }
       ],
       "status": "active",
       "subject": {
-        "identifier": "usaspending:80ARC026F7007",
-        "label": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7007",
+        "identifier": "usaspending:80ARC026F7003",
+        "label": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7003",
         "node_type": "award"
       },
       "value": "National Aeronautics and Space Administration",
       "verification_status": "source_reported",
       "version": 1,
-      "version_hash": "18a941103c8c5975"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-2b74aba1c4b4fd46",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-01",
-      "evidence_ids": [
-        "evidence-acc89ac5a9bd8286"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-acc89ac5a9bd8286",
-          "locator": "reported_amount:651594.17",
-          "title": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:80ARC026F7007",
-        "label": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7007",
-        "node_type": "award"
-      },
-      "value": 651594.17,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "890e4fdd0b1c7840"
+      "version_hash": "cecb2a6ed9dcf2a3"
     },
     {
       "authority": "authoritative",
       "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-6f753210e253be27",
+      "claim_id": "claim-41f52cb923b1248c",
       "confidence": "high",
       "controlling_status": "not_asserted",
       "derivation": {
@@ -6068,7 +7454,7 @@
       },
       "effective_date": "2026-07-01",
       "evidence_ids": [
-        "evidence-33c7bd892d7cf489"
+        "evidence-7e0e146ebcf3f477"
       ],
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
@@ -6087,209 +7473,24 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-33c7bd892d7cf489",
+          "evidence_id": "evidence-7e0e146ebcf3f477",
           "locator": "reported_recipient:recipient_or_contractor:uei:NBEWZB8LQ8Z5",
-          "title": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000",
+          "title": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000",
           "verification_status": "source_reported"
         }
       ],
       "status": "active",
       "subject": {
-        "identifier": "usaspending:80ARC026F7007",
-        "label": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7007",
+        "identifier": "usaspending:80ARC026F7003",
+        "label": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+        "node_id": "award:usaspending:80ARC026F7003",
         "node_type": "award"
       },
       "value": null,
       "verification_status": "source_reported",
       "version": 1,
-      "version_hash": "217e548de868c4a0"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-325c3587010b729b",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-01",
-      "evidence_ids": [
-        "evidence-67e95608e6610c4e"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-67e95608e6610c4e",
-          "locator": "opportunity_status:awarded",
-          "title": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7005_8000_80ARC018D0010_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:80ARC026F7005",
-        "label": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
-        "node_id": "award:usaspending:80ARC026F7005",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "c1fb0a2848e238b4"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-d30b3fbe51fe2c1c",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-01",
-      "evidence_ids": [
-        "evidence-b15fca7c3ee310c4"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b15fca7c3ee310c4",
-          "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7005_8000_80ARC018D0010_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:80ARC026F7005",
-        "label": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
-        "node_id": "award:usaspending:80ARC026F7005",
-        "node_type": "award"
-      },
-      "value": "National Aeronautics and Space Administration",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "cf1ccb666d698a14"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-204f3b502e725c54",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-01",
-      "evidence_ids": [
-        "evidence-7cd2771302004313"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7cd2771302004313",
-          "locator": "reported_amount:600000.0",
-          "title": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7005_8000_80ARC018D0010_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:80ARC026F7005",
-        "label": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
-        "node_id": "award:usaspending:80ARC026F7005",
-        "node_type": "award"
-      },
-      "value": 600000.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "8270c0adecae285b"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-38651c8ec07c1218",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-01",
-      "evidence_ids": [
-        "evidence-bec908452ba53043"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:NBEWZB8LQ8Z5",
-        "label": "INUTEQ, LLC",
-        "node_id": "recipient_or_contractor:uei:NBEWZB8LQ8Z5",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bec908452ba53043",
-          "locator": "reported_recipient:recipient_or_contractor:uei:NBEWZB8LQ8Z5",
-          "title": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7005_8000_80ARC018D0010_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:80ARC026F7005",
-        "label": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
-        "node_id": "award:usaspending:80ARC026F7005",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "dc756f6a0fd9bd68"
+      "version_hash": "298fa82881f3d6aa"
     },
     {
       "authority": "authoritative",
@@ -10730,191 +11931,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "7e8397b6734580b5"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-6f956a81a89bd2a2",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-01",
-      "evidence_ids": [
-        "evidence-ec4adc698fdbe7d5"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ec4adc698fdbe7d5",
-          "locator": "opportunity_status:awarded",
-          "title": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:80ARC026F7003",
-        "label": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7003",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "6f27b10fc79a5cb2"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-0a0c54b08bf090db",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-01",
-      "evidence_ids": [
-        "evidence-6d456d37806a29f3"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6d456d37806a29f3",
-          "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:80ARC026F7003",
-        "label": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7003",
-        "node_type": "award"
-      },
-      "value": "National Aeronautics and Space Administration",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "cecb2a6ed9dcf2a3"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-58ade692cf2d4d0a",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-01",
-      "evidence_ids": [
-        "evidence-5111e12d7b0f4ed8"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5111e12d7b0f4ed8",
-          "locator": "reported_amount:80000.0",
-          "title": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:80ARC026F7003",
-        "label": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7003",
-        "node_type": "award"
-      },
-      "value": 80000.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "43b0a911e366cc74"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-41f52cb923b1248c",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-01",
-      "evidence_ids": [
-        "evidence-7e0e146ebcf3f477"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:NBEWZB8LQ8Z5",
-        "label": "INUTEQ, LLC",
-        "node_id": "recipient_or_contractor:uei:NBEWZB8LQ8Z5",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7e0e146ebcf3f477",
-          "locator": "reported_recipient:recipient_or_contractor:uei:NBEWZB8LQ8Z5",
-          "title": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:80ARC026F7003",
-        "label": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7003",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "298fa82881f3d6aa"
     },
     {
       "authority": "authoritative",
@@ -38759,51 +39775,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-437500caa5f22f02",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-27",
-      "evidence_ids": [
-        "evidence-97078aa1fab9c2aa"
-      ],
-      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "history": [],
-      "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-97078aa1fab9c2aa",
-          "locator": "reported_amount:10012047.59",
-          "title": "DEHRADS ORDER 6 CYBERSECURITY, PRIVACY, RECORDS AND INFORMATION MANAGEMENT, AND ENVIRONMENTS SUPPORT (CYBER PRIMES)",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_47QFMA26F0006_4732_47QFMA24A0005_4732/",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:47QFMA26F0006",
-        "label": "DEHRADS ORDER 6 CYBERSECURITY, PRIVACY, RECORDS AND INFORMATION MANAGEMENT, AND ENVIRONMENTS SUPPORT (CYBER PRIMES)",
-        "node_id": "award:usaspending:47QFMA26F0006",
-        "node_type": "award"
-      },
-      "value": 10012047.59,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "6b810a11e443b31b"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Reported status in the federal record",
       "claim_id": "claim-f6f95adaa7490418",
       "confidence": "high",
@@ -61121,6 +62092,56 @@
     {
       "authority": "analytical",
       "basis": "assignee match",
+      "claim_id": "claim-c677e6b86861e68b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "federal_funding._organization_patents"
+      },
+      "effective_date": null,
+      "evidence_ids": [
+        "evidence-78cabfc2370dcbfb"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "US20260118447A1",
+        "label": "Portable Quantum Sensing Device",
+        "node_id": "patent:US20260118447A1",
+        "node_type": "patent"
+      },
+      "observation_status": "observed",
+      "predicate": "has_related_patent",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-78cabfc2370dcbfb",
+          "locator": "has_related_patent:patent:US20260118447A1",
+          "title": "Portable Quantum Sensing Device",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:KULSKCCZJT27",
+        "label": "MORGAN STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:KULSKCCZJT27",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "78f6a70f6f0bcb7f"
+    },
+    {
+      "authority": "analytical",
+      "basis": "assignee match",
       "claim_id": "claim-d0a0b5f0276ca426",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -62670,6 +63691,494 @@
     },
     {
       "authority": "analytical",
+      "basis": "Deterministic qualification score 34 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-5a0b3e4bdf4ab948",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +11",
+              "actionable grant_opportunity +9",
+              "closing_this_month +9",
+              "technology fit +8",
+              "new since yesterday +5"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363440"
+            ],
+            "points": 42
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363440"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-0859d00a4811b833",
+          "evidence-38fb2da770fbf48b"
+        ],
+        "input_claim_hashes": {
+          "claim-c1a0377d732a845e": "6032da03c503fec1"
+        },
+        "input_claim_ids": [
+          "claim-c1a0377d732a845e"
+        ],
+        "input_claim_versions": {
+          "claim-c1a0377d732a845e": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 34,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363440"
+        ],
+        "trace_complete": true,
+        "trace_hash": "2474b1e9e8bb252d",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-c1a0377d732a845e"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-02",
+      "evidence_ids": [
+        "evidence-0859d00a4811b833"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0859d00a4811b833",
+          "locator": "qualification_gate",
+          "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+          "url": "https://www.grants.gov/search-results-detail/363440",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PDS-UKRAINE-FY26-04",
+        "label": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+        "node_id": "opportunity:grants_gov:PDS-UKRAINE-FY26-04",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c06174bc8e1f2389"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 31 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-17a77da742af4ba2",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4",
+              "new since yesterday +5"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363078"
+            ],
+            "points": 39
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363078"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-90745e2ea0d497b5",
+          "evidence-b8a7432a48ba4ada"
+        ],
+        "input_claim_hashes": {
+          "claim-68368a143b5504a4": "f96d64a5e3089043"
+        },
+        "input_claim_ids": [
+          "claim-68368a143b5504a4"
+        ],
+        "input_claim_versions": {
+          "claim-68368a143b5504a4": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 31,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363078"
+        ],
+        "trace_complete": true,
+        "trace_hash": "86e78c3cfb05a489",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-68368a143b5504a4"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-02",
+      "evidence_ids": [
+        "evidence-90745e2ea0d497b5"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-90745e2ea0d497b5"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 1,
+          "version_hash": "2e60661d5eb4789d"
+        }
+      ],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-90745e2ea0d497b5",
+          "locator": "qualification_gate",
+          "title": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
+          "url": "https://www.grants.gov/search-results-detail/363078",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:MUSCAT-PAS-2026-APS-01",
+        "label": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
+        "node_id": "opportunity:grants_gov:MUSCAT-PAS-2026-APS-01",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "a17bb8191d9ee3ab"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 24 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-133a67cc8b057999",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4",
+              "new since yesterday +5"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363267"
+            ],
+            "points": 39
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "Compressed response window: 3 day(s)"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363267"
+            ],
+            "points": -15
+          }
+        ],
+        "evidence_ids": [
+          "evidence-010fb7b38c45fcab",
+          "evidence-870830d238435ff1"
+        ],
+        "input_claim_hashes": {
+          "claim-c8d1ef62a486cc8f": "834e6633e579af67"
+        },
+        "input_claim_ids": [
+          "claim-c8d1ef62a486cc8f"
+        ],
+        "input_claim_versions": {
+          "claim-c8d1ef62a486cc8f": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 24,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363267"
+        ],
+        "trace_complete": true,
+        "trace_hash": "da07e238d67615ea",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-c8d1ef62a486cc8f"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-02",
+      "evidence_ids": [
+        "evidence-010fb7b38c45fcab"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 31 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-010fb7b38c45fcab"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 1,
+          "version_hash": "2cf12b0c9f0737aa"
+        }
+      ],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-010fb7b38c45fcab",
+          "locator": "qualification_gate",
+          "title": "Young Trilateral Leaders (YTL) Summit",
+          "url": "https://www.grants.gov/search-results-detail/363267",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PD-SEOUL-FY26-04",
+        "label": "Young Trilateral Leaders (YTL) Summit",
+        "node_id": "opportunity:grants_gov:PD-SEOUL-FY26-04",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "eebf46254c5fc6f7"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 24 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-9cb0a837a597453b",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4",
+              "new since yesterday +5"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/362913"
+            ],
+            "points": 39
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "Compressed response window: 3 day(s)"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/362913"
+            ],
+            "points": -15
+          }
+        ],
+        "evidence_ids": [
+          "evidence-0932e7368576de47",
+          "evidence-3c438793c411bb5e"
+        ],
+        "input_claim_hashes": {
+          "claim-1c38076d7924293a": "c4e7909b33919dd7"
+        },
+        "input_claim_ids": [
+          "claim-1c38076d7924293a"
+        ],
+        "input_claim_versions": {
+          "claim-1c38076d7924293a": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 24,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/362913"
+        ],
+        "trace_complete": true,
+        "trace_hash": "c80efef8b9891f72",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-1c38076d7924293a"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-02",
+      "evidence_ids": [
+        "evidence-3c438793c411bb5e"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 31 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-3c438793c411bb5e"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 1,
+          "version_hash": "3b4b79b1737dbbd0"
+        }
+      ],
+      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3c438793c411bb5e",
+          "locator": "qualification_gate",
+          "title": "Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027",
+          "url": "https://www.grants.gov/search-results-detail/362913",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PDS-SINGAPORE-FY26-001",
+        "label": "Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027",
+        "node_id": "opportunity:grants_gov:PDS-SINGAPORE-FY26-001",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "1baf663e44d3d8c3"
+    },
+    {
+      "authority": "analytical",
       "basis": "Deterministic qualification score 70 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-e71fa04ddb76631b",
       "confidence": "medium",
@@ -62794,226 +64303,6 @@
       "verification_status": "source_reported",
       "version": 2,
       "version_hash": "989744983a367309"
-    },
-    {
-      "authority": "analytical",
-      "basis": "Deterministic qualification score 31 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-133a67cc8b057999",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363267"
-            ],
-            "points": 39
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363267"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-010fb7b38c45fcab",
-          "evidence-870830d238435ff1"
-        ],
-        "input_claim_hashes": {
-          "claim-c8d1ef62a486cc8f": "834e6633e579af67"
-        },
-        "input_claim_ids": [
-          "claim-c8d1ef62a486cc8f"
-        ],
-        "input_claim_versions": {
-          "claim-c8d1ef62a486cc8f": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 31,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363267"
-        ],
-        "trace_complete": true,
-        "trace_hash": "da07e238d67615ea",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-c8d1ef62a486cc8f"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-08-01",
-      "evidence_ids": [
-        "evidence-010fb7b38c45fcab"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-010fb7b38c45fcab",
-          "locator": "qualification_gate",
-          "title": "Young Trilateral Leaders (YTL) Summit",
-          "url": "https://www.grants.gov/search-results-detail/363267",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:PD-SEOUL-FY26-04",
-        "label": "Young Trilateral Leaders (YTL) Summit",
-        "node_id": "opportunity:grants_gov:PD-SEOUL-FY26-04",
-        "node_type": "opportunity"
-      },
-      "value": "hold",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "2cf12b0c9f0737aa"
-    },
-    {
-      "authority": "analytical",
-      "basis": "Deterministic qualification score 31 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-9cb0a837a597453b",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/362913"
-            ],
-            "points": 39
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/362913"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-0932e7368576de47",
-          "evidence-3c438793c411bb5e"
-        ],
-        "input_claim_hashes": {
-          "claim-1c38076d7924293a": "c4e7909b33919dd7"
-        },
-        "input_claim_ids": [
-          "claim-1c38076d7924293a"
-        ],
-        "input_claim_versions": {
-          "claim-1c38076d7924293a": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 31,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/362913"
-        ],
-        "trace_complete": true,
-        "trace_hash": "c80efef8b9891f72",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-1c38076d7924293a"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-08-01",
-      "evidence_ids": [
-        "evidence-3c438793c411bb5e"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3c438793c411bb5e",
-          "locator": "qualification_gate",
-          "title": "Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027",
-          "url": "https://www.grants.gov/search-results-detail/362913",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:PDS-SINGAPORE-FY26-001",
-        "label": "Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027",
-        "node_id": "opportunity:grants_gov:PDS-SINGAPORE-FY26-001",
-        "node_type": "opportunity"
-      },
-      "value": "hold",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "3b4b79b1737dbbd0"
     },
     {
       "authority": "analytical",
@@ -63803,116 +65092,6 @@
     {
       "authority": "analytical",
       "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-17a77da742af4ba2",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_this_month +9",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363078"
-            ],
-            "points": 36
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363078"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-90745e2ea0d497b5",
-          "evidence-b8a7432a48ba4ada"
-        ],
-        "input_claim_hashes": {
-          "claim-68368a143b5504a4": "f96d64a5e3089043"
-        },
-        "input_claim_ids": [
-          "claim-68368a143b5504a4"
-        ],
-        "input_claim_versions": {
-          "claim-68368a143b5504a4": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 28,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363078"
-        ],
-        "trace_complete": true,
-        "trace_hash": "86e78c3cfb05a489",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-68368a143b5504a4"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-08-01",
-      "evidence_ids": [
-        "evidence-90745e2ea0d497b5"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-90745e2ea0d497b5",
-          "locator": "qualification_gate",
-          "title": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
-          "url": "https://www.grants.gov/search-results-detail/363078",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:MUSCAT-PAS-2026-APS-01",
-        "label": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
-        "node_id": "opportunity:grants_gov:MUSCAT-PAS-2026-APS-01",
-        "node_type": "opportunity"
-      },
-      "value": "hold",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "2e60661d5eb4789d"
-    },
-    {
-      "authority": "analytical",
-      "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-b496e01a2599190b",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -64572,116 +65751,6 @@
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-3c8ddac9a2c41c29",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_this_month +9",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363247"
-            ],
-            "points": 36
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363247"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-8955e17c4b938046",
-          "evidence-fac176930f99a848"
-        ],
-        "input_claim_hashes": {
-          "claim-bd22e07df29edcd5": "67750c127a89ced3"
-        },
-        "input_claim_ids": [
-          "claim-bd22e07df29edcd5"
-        ],
-        "input_claim_versions": {
-          "claim-bd22e07df29edcd5": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 28,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363247"
-        ],
-        "trace_complete": true,
-        "trace_hash": "5640c10ad67111eb",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-bd22e07df29edcd5"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-08-01",
-      "evidence_ids": [
-        "evidence-8955e17c4b938046"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8955e17c4b938046",
-          "locator": "qualification_gate",
-          "title": "GameON \u2013 U.S.-Albania E-Sports and Innovation",
-          "url": "https://www.grants.gov/search-results-detail/363247",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:AMERICANSPACESGAMEON-2026",
-        "label": "GameON \u2013 U.S.-Albania E-Sports and Innovation",
-        "node_id": "opportunity:grants_gov:AMERICANSPACESGAMEON-2026",
-        "node_type": "opportunity"
-      },
-      "value": "hold",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "89c84777a7d78453"
-    },
-    {
-      "authority": "analytical",
       "basis": "Deterministic qualification score 24 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-3589ba1cd3dfcc44",
       "confidence": "medium",
@@ -64899,6 +65968,116 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "05d6d7b36ac3552e"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-3c8ddac9a2c41c29",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_this_month +9",
+              "technology fit +4",
+              "new since yesterday +5"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363247"
+            ],
+            "points": 36
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363247"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-8955e17c4b938046",
+          "evidence-fac176930f99a848"
+        ],
+        "input_claim_hashes": {
+          "claim-bd22e07df29edcd5": "67750c127a89ced3"
+        },
+        "input_claim_ids": [
+          "claim-bd22e07df29edcd5"
+        ],
+        "input_claim_versions": {
+          "claim-bd22e07df29edcd5": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 28,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363247"
+        ],
+        "trace_complete": true,
+        "trace_hash": "5640c10ad67111eb",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-bd22e07df29edcd5"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-01",
+      "evidence_ids": [
+        "evidence-8955e17c4b938046"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8955e17c4b938046",
+          "locator": "qualification_gate",
+          "title": "GameON \u2013 U.S.-Albania E-Sports and Innovation",
+          "url": "https://www.grants.gov/search-results-detail/363247",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:AMERICANSPACESGAMEON-2026",
+        "label": "GameON \u2013 U.S.-Albania E-Sports and Innovation",
+        "node_id": "opportunity:grants_gov:AMERICANSPACESGAMEON-2026",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "89c84777a7d78453"
     },
     {
       "authority": "analytical",
@@ -66777,7 +67956,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -66824,7 +68003,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -66871,7 +68050,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -66918,7 +68097,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -66965,7 +68144,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67012,7 +68191,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67059,7 +68238,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67106,7 +68285,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67153,7 +68332,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67200,7 +68379,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67247,7 +68426,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67294,7 +68473,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67341,7 +68520,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67388,7 +68567,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67435,7 +68614,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67482,7 +68661,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67529,7 +68708,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67576,7 +68755,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67628,7 +68807,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67680,7 +68859,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67732,7 +68911,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67784,7 +68963,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67836,7 +69015,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67888,7 +69067,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67940,7 +69119,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -67992,7 +69171,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -68044,7 +69223,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-01T02:08:14.362509+00:00",
+      "retracted_at": "2026-08-02T02:05:25.412721+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -68220,16 +69399,6 @@
       "locator": "awarding_agency:doe federal science missions",
       "title": "Genesis Mission Workforce Development RFI Summary",
       "url": "https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
-      "evidence_id": "evidence-02f586652215e36a",
-      "locator": "reported_amount:5000000.0",
-      "title": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000",
       "verification_status": "source_reported"
     },
     {
@@ -68546,6 +69715,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0759868844407f1c",
+      "locator": "reported_recipient:recipient_or_contractor:uei:LETXBAQZRA18",
+      "title": "THIS DOCUMENT ESTABLISHES A FIRM-FIXED-PRICE PURCHASE ORDER BETWEEN THE DEPARTMENT OF HOMELAND SECURITY (DHS) CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY (CISA) AND WIRELESS...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26P00000018_7001_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-07817c9871717d39",
       "locator": "reported_recipient:recipient_or_contractor:name:case western reserve university",
       "title": "ELEMENTS: FORTEFAI - TRUSTWORTHY AI CYBERINFRASTRUCTURE FOR GUARDRAILING MULTIMODAL FOUNDATION MODELS AND CYBERINFRASTRUCTURE -FORTEFAI STRENGTHENS THE RELIABILITY OF ARTIFICIAL I...",
@@ -68610,6 +69789,16 @@
       "locator": "opportunity_status:awarded",
       "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: PILOT: A ZERO TRUST-BASED SECURITY TRAINING PROGRAM IN OPEN RAN CYBERINFRASTRUCTURE -THE OPEN RADIO ACCESS NETWORK (O-RAN) HAS EMERGED AS A...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2612538_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0859d00a4811b833",
+      "locator": "qualification_gate",
+      "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+      "url": "https://www.grants.gov/search-results-detail/363440",
       "verification_status": "source_reported"
     },
     {
@@ -68876,6 +70065,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0cfa2d64257f9429",
+      "locator": "reported_recipient:recipient_or_contractor:uei:KULSKCCZJT27",
+      "title": "RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE",
+      "url": "https://www.usaspending.gov/award/ASST_NON_W911NF261A284_097",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-0cfbdec8703c9cc5",
       "locator": "qualification_gate",
       "title": "NIOSH Robotics and Intelligent Mining Technology and Workplace Safety Research (U60)",
@@ -69010,6 +70209,16 @@
       "locator": "qualification_gate",
       "title": "Novel Experiential Technologies Assisting Individual Learning (NExT AI) Hubs (P20 Clinical Trial Optional)",
       "url": "https://www.grants.gov/search-results-detail/359949",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0ea696b3277f2549",
+      "locator": "awarding_agency:department of defense",
+      "title": "RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE",
+      "url": "https://www.usaspending.gov/award/ASST_NON_W911NF261A284_097",
       "verification_status": "source_reported"
     },
     {
@@ -69476,6 +70685,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-16f185e6e19395d0",
+      "locator": "awarding_agency:department of defense",
+      "title": "(C5ISRT), INTEGRATED TECHNOLOGY, AUTOMATION, UNCREWED AUTONOMOUS SYSTEM (UXS), COUNTER UNCREWED AUTONOMOUS SYSTEM (CUXS), SECURITY, AND NETWORK TECHNOLOGY SUPPORT",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_N6133126F0075_9700_N6133126D0008_9700",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-16f3f03723190ba5",
       "locator": "opportunity_status:forecasted",
       "title": "Annual Program Statement (APS)",
@@ -69560,6 +70779,16 @@
       "locator": "deadline:01/20/2027",
       "title": "Cybersecurity Innovation for Cyberinfrastructure",
       "url": "https://www.grants.gov/search-results-detail/358004",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-190ca6acc239d692",
+      "locator": "opportunity_status:awarded",
+      "title": "RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE",
+      "url": "https://www.usaspending.gov/award/ASST_NON_W911NF261A284_097",
       "verification_status": "source_reported"
     },
     {
@@ -70446,6 +71675,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-274f88dc519bda42",
+      "locator": "opportunity_status:open",
+      "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+      "url": "https://www.grants.gov/search-results-detail/363440",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-27717d4ea4832e73",
       "locator": "reported_amount:91999.98",
       "title": "THE UNITED STATES DEPARTMENT OF AGRICULTURE (USDA), OFFICE OF THE CHIEF INFORMATION OFFICER (OCIO), CYBERSECURITY AND PRIVACY OPERATIONS CENTER (CPOC) REQUIRES THE RENEWAL OF RED...",
@@ -70520,6 +71759,16 @@
       "locator": "awarding_agency:department of defense",
       "title": "PROJECT ARES (ADVANCED RECONFIGURABLE AND EVOLVING SWARM) A QUANTUM-SECURE GENERATIVE ARTIFICIAL INTELLIGENCE FOR ROBUST AND ADAPTIVE DRONE SWARMS",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0198_9700_-NONE-_-NONE-/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-28c10467e829d5a8",
+      "locator": "reported_amount:5400000.0",
+      "title": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7017_8000_80ARC018D0010_8000",
       "verification_status": "source_reported"
     },
     {
@@ -71387,6 +72636,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-38fb2da770fbf48b",
+      "locator": "deadline:09/01/2026",
+      "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+      "url": "https://www.grants.gov/search-results-detail/363440",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-3930f6b967093367",
       "locator": "reported_recipient:recipient_or_contractor:uei:QDE5UHE5XD16",
       "title": "CONFERENCE: FALL TECHNICAL CONFERENCE -THIS PROJECT SUPPORTS THE 68TH ANNUAL FALL TECHNICAL CONFERENCE (FTC), TO BE HELD IN CHARLOTTE, NORTH CAROLINA, FROM OCTOBER 6?8, 2026. FTC,...",
@@ -71771,6 +73030,16 @@
       "locator": "opportunity_status:awarded",
       "title": "EXPRESS REPORT: QUANTUM OUTBACK POWER WHEELCHAIR",
       "url": "https://www.usaspending.gov/award/CONT_AWD_36C25526K0201_3600_V797D70001_3600/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-416a9b4989fbdb2e",
+      "locator": "reported_amount:13314747.36",
+      "title": "DEHRADS ORDER 6 CYBERSECURITY, PRIVACY, RECORDS AND INFORMATION MANAGEMENT, AND ENVIRONMENTS SUPPORT (CYBER PRIMES)",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_47QFMA26F0006_4732_47QFMA24A0005_4732",
       "verification_status": "source_reported"
     },
     {
@@ -72217,6 +73486,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-49089f6362dab88b",
+      "locator": "reported_amount:445000.0",
+      "title": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-4916b2b374dd4b4c",
       "locator": "qualification_gate",
       "title": "U.S.-Argentina Alumni Summit",
@@ -72537,6 +73816,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-4e1f13d9c31785d5",
+      "locator": "reported_amount:1800000.0",
+      "title": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7005_8000_80ARC018D0010_8000",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-4e41dd9d2a84fb49",
       "locator": "reported_recipient:recipient_or_contractor:uei:EVTSTTLCEWS5",
       "title": "AF: SMALL: ALGORITHMS AND COMPLEXITY OF IDEAL AND STRUCTURED LATTICES -ALTHOUGH QUANTUM COMPUTERS CAPABLE OF BREAKING TRADITIONAL CRYPTOSYSTEMS HAVE NOT YET BEEN REALIZED, IT IS E...",
@@ -72671,16 +73960,6 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:HQAJMSZDK666",
       "title": "DELL HPC ONSITE SERVICES",
       "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26FA417_8000_NNG15SD42B_8000",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
-      "evidence_id": "evidence-5111e12d7b0f4ed8",
-      "locator": "reported_amount:80000.0",
-      "title": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000",
       "verification_status": "source_reported"
     },
     {
@@ -73187,6 +74466,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-57670566c423da78",
+      "locator": "awarding_agency:department of agriculture",
+      "title": "THE PURPOSE OF THE ORDER IS TO PROCURE HIGH PERFORMANCE COMPUTING (HPC) NODES",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0269_1205_NNG15SD72B_8000",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-577333fd244207a9",
       "locator": "awarding_agency:department of homeland security",
       "title": "GLOBAL SECURITY EXCHANGE 2026 EXHIBIT SPACE RENTAL FOR CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY.",
@@ -73267,6 +74556,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-598e5ee8ebc221a1",
+      "locator": "reported_amount:19000.0",
+      "title": "THIS DOCUMENT ESTABLISHES A FIRM-FIXED-PRICE PURCHASE ORDER BETWEEN THE DEPARTMENT OF HOMELAND SECURITY (DHS) CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY (CISA) AND WIRELESS...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26P00000018_7001_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-59a019fedfeb8c7b",
       "locator": "reported_recipient:recipient_or_contractor:uei:GXZPSDDXU3H7",
       "title": "2026 BLACK HAT CONFERENCE EXHIBITOR BOOTH SPACE RENTAL IN SUPPORT OF CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY.",
@@ -73291,6 +74590,16 @@
       "locator": "reported_amount:10754.0",
       "title": "SATC: CORE: SMALL: LATTICES, NUMBER THEORY, AND DISTRIBUTION QUESTIONS IN CRYPTOGRAPHY -MODERN CRYPTOGRAPHY FACES THE SERIOUS CONCERN THAT QUANTUM COMPUTERS WILL ONE DAY BREAK MOS...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2611676_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-5a13f3c6cfa9ecb8",
+      "locator": "reported_amount:10000000.0",
+      "title": "RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE",
+      "url": "https://www.usaspending.gov/award/ASST_NON_W911NF261A284_097",
       "verification_status": "source_reported"
     },
     {
@@ -73571,6 +74880,16 @@
       "locator": "awarding_agency:national science foundation",
       "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: PILOT: A ZERO TRUST-BASED SECURITY TRAINING PROGRAM IN OPEN RAN CYBERINFRASTRUCTURE -THE OPEN RADIO ACCESS NETWORK (O-RAN) HAS EMERGED AS A...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2612539_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-5ff32a235095089c",
+      "locator": "reported_amount:350000.0",
+      "title": "(C5ISRT), INTEGRATED TECHNOLOGY, AUTOMATION, UNCREWED AUTONOMOUS SYSTEM (UXS), COUNTER UNCREWED AUTONOMOUS SYSTEM (CUXS), SECURITY, AND NETWORK TECHNOLOGY SUPPORT",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_N6133126F0075_9700_N6133126D0008_9700",
       "verification_status": "source_reported"
     },
     {
@@ -74217,6 +75536,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-6e218787a2790f87",
+      "locator": "reported_recipient:recipient_or_contractor:uei:F4M9NB1HD785",
+      "title": "THE PURPOSE OF THE ORDER IS TO PROCURE HIGH PERFORMANCE COMPUTING (HPC) NODES",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0269_1205_NNG15SD72B_8000",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-6e5c50bc34b9857b",
       "locator": "qualification_gate",
       "title": "NSF National Quantum Virtual Laboratory - Quantum Testbeds",
@@ -74767,6 +76096,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-78cabfc2370dcbfb",
+      "locator": "has_related_patent:patent:US20260118447A1",
+      "title": "Portable Quantum Sensing Device",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-78f05c28fd09e2e3",
       "locator": "awarding_agency:department of homeland security",
       "title": "THIS A DELIVERY ORDER AGAINST NASA SEWP V FOR BRAND NAME QBT R&D POST QUANTUM CRYPTOGRAPHY.",
@@ -74897,6 +76236,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7bbc223c28837164",
+      "locator": "reported_amount:18251288.39",
+      "title": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-7bd59aa0665d7292",
       "locator": "awarding_agency:department of defense",
       "title": "AUTONOMOUS SYSTEMS LAB MEE3 EQUIPMENT",
@@ -74951,16 +76300,6 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:K63NCNGKLCX5",
       "title": "ARTIFICIAL INTELLIGENCE AND COMPUTATIONAL STATISTICS PLATFORM FOR BIOSIMILAR SUBVISIBLE CHARACTERIZATION",
       "url": "https://www.usaspending.gov/award/CONT_AWD_75F40126P00070_7524_-NONE-_-NONE-",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
-      "evidence_id": "evidence-7cd2771302004313",
-      "locator": "reported_amount:600000.0",
-      "title": "TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7005_8000_80ARC018D0010_8000",
       "verification_status": "source_reported"
     },
     {
@@ -75587,6 +76926,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-8772d7ea64699a0c",
+      "locator": "awarding_agency:dos-ukr",
+      "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+      "url": "https://www.grants.gov/search-results-detail/363440",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-87901d5f909da87e",
       "locator": "deadline:12/31/2026",
       "title": "ROSES 2025: A.4 Rapid Response and Novel Research in Earth Science",
@@ -75827,6 +77176,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-8cf9cd7b1709e9ef",
+      "locator": "reported_recipient:recipient_or_contractor:uei:L3G5SBQ2PLK5",
+      "title": "(C5ISRT), INTEGRATED TECHNOLOGY, AUTOMATION, UNCREWED AUTONOMOUS SYSTEM (UXS), COUNTER UNCREWED AUTONOMOUS SYSTEM (CUXS), SECURITY, AND NETWORK TECHNOLOGY SUPPORT",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_N6133126F0075_9700_N6133126D0008_9700",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-8d1210dbaf02e8a9",
       "locator": "opportunity_status:awarded",
       "title": "NETS: ARCHITECTURAL FOUNDATIONS FOR DEPLOYABLE LOW-LATENCY AND RESILIENT NETWORKS -MODERN APPLICATIONS SUCH AS VIRTUAL REALITY AND CONNECTED AUTONOMOUS SYSTEMS DEPEND ON NETWORKS...",
@@ -75871,6 +77230,16 @@
       "locator": "opportunity_status:awarded",
       "title": "COLLABORATIVE RESEARCH: GROUP STRUCTURE, HYDRODYNAMICS, AND SENSING OF SQUIDS DURING COLLECTIVE SWIMMING -THIS STUDY FOCUSES ON UNDERSTANDING THE POTENTIAL HYDRODYNAMIC BENEFITS O...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2602818_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-8d887815624cc32c",
+      "locator": "reported_amount:1529127.18",
+      "title": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000",
       "verification_status": "source_reported"
     },
     {
@@ -76271,16 +77640,6 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:N82MH64U4D96",
       "title": "VENUE TO SUPPORT THE GOLDEN DOME FOR AMERICA INDUSTRY SUMMIT, JUNE 10-11, 2025",
       "url": "https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
-      "evidence_id": "evidence-97078aa1fab9c2aa",
-      "locator": "reported_amount:10012047.59",
-      "title": "DEHRADS ORDER 6 CYBERSECURITY, PRIVACY, RECORDS AND INFORMATION MANAGEMENT, AND ENVIRONMENTS SUPPORT (CYBER PRIMES)",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_47QFMA26F0006_4732_47QFMA24A0005_4732/",
       "verification_status": "source_reported"
     },
     {
@@ -77381,16 +78740,6 @@
       "locator": "awarding_agency:department of energy",
       "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
       "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
-      "evidence_id": "evidence-acc89ac5a9bd8286",
-      "locator": "reported_amount:651594.17",
-      "title": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000",
       "verification_status": "source_reported"
     },
     {
@@ -78617,6 +79966,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-c452212a7f9cc84f",
+      "locator": "opportunity_status:awarded",
+      "title": "THE PURPOSE OF THE ORDER IS TO PROCURE HIGH PERFORMANCE COMPUTING (HPC) NODES",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0269_1205_NNG15SD72B_8000",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-c4610f079efe7f5a",
       "locator": "reported_amount:762575.0",
       "title": "ARTIFICIAL INTELLIGENCE LITERACY SUPPORT",
@@ -78961,6 +80320,16 @@
       "locator": "awarding_agency:national science foundation",
       "title": "BUILDING AI AND CYBERSECURITY PATHWAYS FOR A MODERN SOFTWARE ENGINEERING WORKFORCE -THIS PROJECT AIMS TO SERVE THE NATIONAL INTEREST BY MODERNIZING TWO-YEAR COMPUTER SCIENCE EDUCA...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2610226_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-cad3d419bd09cc5b",
+      "locator": "opportunity_status:awarded",
+      "title": "(C5ISRT), INTEGRATED TECHNOLOGY, AUTOMATION, UNCREWED AUTONOMOUS SYSTEM (UXS), COUNTER UNCREWED AUTONOMOUS SYSTEM (CUXS), SECURITY, AND NETWORK TECHNOLOGY SUPPORT",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_N6133126F0075_9700_N6133126D0008_9700",
       "verification_status": "source_reported"
     },
     {
@@ -80487,6 +81856,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e4a0733e4d357f94",
+      "locator": "opportunity_status:awarded",
+      "title": "THIS DOCUMENT ESTABLISHES A FIRM-FIXED-PRICE PURCHASE ORDER BETWEEN THE DEPARTMENT OF HOMELAND SECURITY (DHS) CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY (CISA) AND WIRELESS...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26P00000018_7001_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-e4c52fb4b224e7f0",
       "locator": "awarding_agency:national science foundation",
       "title": "REU SITE: ENGAGING UNDERGRADUATES IN INTERDISCIPLINARY EVOLUTIONARY SCIENCE -THIS REU SITE AWARD TO THE UNIVERSITY OF IOWA, LOCATED IN IOWA CITY, IA, WILL SUPPORT THE TRAINING OF...",
@@ -80751,6 +82130,16 @@
       "locator": "reported_recipient:recipient_or_contractor:name:booz allen hamilton",
       "title": "QUANTUM CRYPTOGRAPHY AND CERTIFICATE (QCC)",
       "url": "https://www.usaspending.gov/award/CONT_AWD_70B04C26F00000556_7014_70B04C25A00000001_7014/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e90055fb44d33533",
+      "locator": "awarding_agency:department of homeland security",
+      "title": "THIS DOCUMENT ESTABLISHES A FIRM-FIXED-PRICE PURCHASE ORDER BETWEEN THE DEPARTMENT OF HOMELAND SECURITY (DHS) CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY (CISA) AND WIRELESS...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26P00000018_7001_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -81407,16 +82796,6 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
-      "evidence_id": "evidence-f487467d450b5021",
-      "locator": "reported_amount:1900000.0",
-      "title": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7017_8000_80ARC018D0010_8000",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
       "evidence_id": "evidence-f48a322fb3af1bc2",
       "locator": "opportunity_status:open",
       "title": "Mathematical Foundations of Artificial Intelligence",
@@ -81747,6 +83126,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-fabf49d2062aae18",
+      "locator": "reported_amount:587107.76",
+      "title": "THE PURPOSE OF THE ORDER IS TO PROCURE HIGH PERFORMANCE COMPUTING (HPC) NODES",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0269_1205_NNG15SD72B_8000",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-fac00eba64743358",
       "locator": "opportunity_status:awarded",
       "title": "CAREER: EQUIVARIANT ANALYSIS: AT THE CROSSROADS OF DESCRIPTIVE SET THEORY, DYNAMICAL SYSTEMS, AND CLASSICAL ANALYSIS -THIS PROJECT AIMS TO FURTHER DEVELOP EQUIVARIANT ANALYSIS, A...",
@@ -82037,16 +83426,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 1382,
-    "authoritative_claims": 1311,
+    "active_claims": 1403,
+    "authoritative_claims": 1330,
     "conflicted_claims": 0,
-    "derived_claims": 68,
-    "evidence_items": 1396,
-    "source_urls": 478,
-    "subjects": 332,
+    "derived_claims": 70,
+    "evidence_items": 1417,
+    "source_urls": 484,
+    "subjects": 338,
     "superseded_claims": 0,
-    "total_claims": 1409
+    "total_claims": 1430
   },
-  "updated_at": "2026-08-01T02:08:14.362509+00:00",
+  "updated_at": "2026-08-02T02:05:25.412721+00:00",
   "version": 1
 }

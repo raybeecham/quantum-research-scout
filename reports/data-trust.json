@@ -1,15 +1,15 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 33.3,
+      "acceptance_rate": 32.5,
       "accepted": 25,
-      "quarantined": 50,
+      "quarantined": 52,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 94.0,
-      "accepted": 313,
-      "quarantined": 20,
+      "acceptance_rate": 93.5,
+      "accepted": 318,
+      "quarantined": 22,
       "scope": "Federal funding"
     }
   ],
@@ -150,6 +150,51 @@
       "stage": "mission evidence admission",
       "title": "Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator",
       "url": "https://www.grants.gov/search-results-detail/363319"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-27",
+      "key": "https://www.grants.gov/search-results-detail/363318",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "National Disaster Coverage Training for Indonesian Journalists",
+      "url": "https://www.grants.gov/search-results-detail/363318"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-27",
+      "key": "grants_gov:PAS-JAKARTA-FY26-09",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "National Disaster Coverage Training for Indonesian Journalists",
+      "url": "https://www.grants.gov/search-results-detail/363318"
     },
     {
       "admission": {
@@ -1182,6 +1227,51 @@
         "score": 25,
         "status": "quarantined"
       },
+      "date": "2023-11-02",
+      "key": "https://www.grants.gov/search-results-detail/350831",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "Alumni Engagement Innovation Fund 2024",
+      "url": "https://www.grants.gov/search-results-detail/350831"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2023-11-02",
+      "key": "grants_gov:2024-01",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "Alumni Engagement Innovation Fund 2024",
+      "url": "https://www.grants.gov/search-results-detail/350831"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
       "date": "2023-09-17",
       "key": "https://www.grants.gov/search-results-detail/350230",
       "mission_id": "project-triad",
@@ -1609,17 +1699,17 @@
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 70,
+      "count": 74,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 70,
+      "count": 74,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 69,
+      "count": 73,
       "label": "Official government source"
     },
     {
@@ -1630,14 +1720,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 82.8,
-    "accepted": 338,
-    "decisions": 408,
-    "funding_quarantine": 20,
-    "mission_quarantine": 50,
-    "quarantined": 70,
+    "acceptance_rate": 82.3,
+    "accepted": 343,
+    "decisions": 417,
+    "funding_quarantine": 22,
+    "mission_quarantine": 52,
+    "quarantined": 74,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-01T02:08:14.362509+00:00",
+  "updated_at": "2026-08-02T02:05:25.412721+00:00",
   "version": 1
 }

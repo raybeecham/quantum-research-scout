@@ -1301,22 +1301,31 @@
           "source": "QuantumNews.ai",
           "title": "Riverlane and Unitary Foundation Launch Deltakit Community Fund for Open-Source QEC",
           "url": "https://quantumcomputingreport.com/riverlane-and-unitary-foundation-launch-deltakit-community-fund-for-open-source-qec"
+        },
+        {
+          "date": "2026-08-01",
+          "key": "https://quantumzeitgeist.com/northwestern-university-cumulant-framework-demonstration",
+          "report": "2026-08/2026-08-01-digest.md",
+          "score": 61,
+          "source": "Quantum Zeitgeist",
+          "title": "Cumulant Framework Analyzes Quantum Noise Beyond Standard Models",
+          "url": "https://quantumzeitgeist.com/northwestern-university-cumulant-framework-demonstration"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-07-29",
-      "momentum": "rising",
+      "latest_seen": "2026-08-01",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
         "The Quantum Insider",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 3,
-      "recent_count": 7,
-      "status": "actionable"
+      "prior_count": 5,
+      "recent_count": 5,
+      "status": "watching"
     },
     "Quantum Hardware": {
       "confidence": "high",
@@ -2670,12 +2679,39 @@
           "source": "The Quantum Insider",
           "title": "BlueQubit Supports Qedma, IBM and RIKEN Study on Error-Mitigated Quantum Simulation",
           "url": "https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study"
+        },
+        {
+          "date": "2026-08-01",
+          "key": "https://quantumzeitgeist.com/zhejiang-university-superconducting-qubits-time-crystalline",
+          "report": "2026-08/2026-08-01-digest.md",
+          "score": 32,
+          "source": "Quantum Zeitgeist",
+          "title": "Superconducting Qubits Show Time-Crystalline Order for 120 Cycles",
+          "url": "https://quantumzeitgeist.com/zhejiang-university-superconducting-qubits-time-crystalline"
+        },
+        {
+          "date": "2026-08-01",
+          "key": "https://quantumzeitgeist.com/colorado-boulder-qubit-suppresses-harmonics-odd",
+          "report": "2026-08/2026-08-01-digest.md",
+          "score": 35,
+          "source": "Quantum Zeitgeist",
+          "title": "New Qubit Suppresses Odd Harmonics by Two Orders of Magnitude",
+          "url": "https://quantumzeitgeist.com/colorado-boulder-qubit-suppresses-harmonics-odd"
+        },
+        {
+          "date": "2026-08-01",
+          "key": "https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago",
+          "report": "2026-08/2026-08-01-digest.md",
+          "score": 63,
+          "source": "Quantum Zeitgeist",
+          "title": "IBM & Chicago Verify Quantum Advantage With New Error Correction",
+          "url": "https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-07-31",
+      "latest_seen": "2026-08-01",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -2683,8 +2719,8 @@
         "The Quantum Insider",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 34,
-      "recent_count": 25,
+      "prior_count": 31,
+      "recent_count": 27,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -3905,12 +3941,21 @@
           "source": "The Quantum Insider",
           "title": "IBM and Algorithmiq Develop Framework for Verifying Quantum Computations Beyond Classical Simulation",
           "url": "https://thequantuminsider.com/2026/07/30/ibm-algorithmiq-quantum-computation-verification-framework"
+        },
+        {
+          "date": "2026-08-01",
+          "key": "https://quantumzeitgeist.com/iqm-qubit-device-validates-noise-resilient",
+          "report": "2026-08/2026-08-01-digest.md",
+          "score": 31,
+          "source": "Quantum Zeitgeist",
+          "title": "54-Qubit Device Validates Noise-Resilient Optimization Framework",
+          "url": "https://quantumzeitgeist.com/iqm-qubit-device-validates-noise-resilient"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "high",
-      "latest_seen": "2026-07-30",
+      "latest_seen": "2026-08-01",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -3919,7 +3964,7 @@
         "AWS Quantum Technologies Blog",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 8,
+      "prior_count": 7,
       "recent_count": 9,
       "status": "watching"
     },
@@ -4014,6 +4059,6 @@
       "status": "actionable"
     }
   },
-  "updated_at": "2026-08-01T02:17:39.132295+00:00",
+  "updated_at": "2026-08-02T02:13:13.219119+00:00",
   "version": 1
 }

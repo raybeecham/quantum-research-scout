@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-08-01T02:08:14.362509+00:00_
+_Updated 2026-08-02T02:05:25.412721+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -13,11 +13,11 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Tracked publications: **188**
 - Curated notable patents: **2**
 - Automated recent discoveries: **186**
-- Published in the last 30 days: **56**
+- Published in the last 30 days: **42**
 - Unique named assignees: **125**
 - Patent families: **179**
 - Applications / grants: **182 / 6**
-- Known legal status: **143 of 188**
+- Known legal status: **144 of 188**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -237,6 +237,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [STRUCTURES AND METHODS FOR STRESS AND GAP MITIGATION IN INTEGRATED OPTICS MICROELECTROMECHANICAL SYSTEMS](https://data.uspto.gov/patent-file-wrapper/search/details/19448640/application-data)<br><small>US20260153677A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **38 · MONITOR** |
 | [SEMICONDUCTOR DEVICE HAVING MICROELECTROMECHANICAL SYSTEMS DEVICES WITH IMPROVED CAVITY PRESSURE UNIFORMITY](https://data.uspto.gov/patent-file-wrapper/search/details/19060917/application-data)<br><small>US20250214108A1</small> | Application · Pending | Taiwan Semiconductor Manufacturing Company, Ltd. | 1 member(s) · 0 citation(s) | **38 · MONITOR** |
 | [PIEZOELECTRIC ANTI-STICTION STRUCTURE FOR MICROELECTROMECHANICAL SYSTEMS](https://data.uspto.gov/patent-file-wrapper/search/details/19002880/application-data)<br><small>US20250122071A1</small> | Application · Pending | Taiwan Semiconductor Manufacturing Company, Ltd. | 1 member(s) · 0 citation(s) | **38 · MONITOR** |
+| [CONTROL OF THE TEMPERATURE COEFFICIENT OF FREQUENCY OF A MICROELECTROMECHANICAL SYSTEMS (MEMS) RESONATOR VIA MANIPULATION BY STRESS](https://data.uspto.gov/patent-file-wrapper/search/details/19486222/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Georgia Tech Research Corporation | 1 member(s) · 0 citation(s) | **36 · MONITOR** |
 | [A PROGRAMMABLE, BATTERY-LESS, AUTONOMOUS AND BIODEGRADABLE SMART DUST PARTICLE](https://data.uspto.gov/patent-file-wrapper/search/details/19478065/application-data)<br><small>Publication number unavailable</small> | Application · Pending | TECHNION RESEARCH & DEVELOPMENT FOUNDATION LIMITED | 1 member(s) · 0 citation(s) | **36 · MONITOR** |
 | [Microelectromechanical Systems (MEMS) Transducers for High Sound Pressure Level (SPL) Measurements](https://data.uspto.gov/patent-file-wrapper/search/details/63719968/application-data)<br><small>Publication number unavailable</small> | Application · Expired | Shure Acquisition Holdings, Inc. | 3 member(s) · 0 citation(s) | **34 · MONITOR** |
 | [MICROELECTROMECHANICAL SYSTEMS (MEMS) TRANSDUCERS FOR HIGH SOUND PRESSURE LEVEL (SPL) MEASUREMENTS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025055137/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | SHURE ACQUISITION HOLDINGS, INC. | 3 member(s) · 0 citation(s) | **34 · MONITOR** |
@@ -247,4 +248,3 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [MONOLITHIC MICROELECTROMECHANICAL SYSTEMS BASED SPATIAL LIGHT MODULATORS INCLUDING MULTIPLE ARRAYS, EACH ARRAY CONFIGURED TO MODULATE DIFFERENT WAVELENGTHS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025035094/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | SILICON LIGHT MACHINE CORPORATION | 2 member(s) · 0 citation(s) | **31 · MONITOR** |
 | [MICROELECTROMECHANICAL SYSTEMS CONTACT AREA REDUCTION](https://data.uspto.gov/patent-file-wrapper/search/details/18924372/application-data)<br><small>US20250044576A1</small> | Application · Unknown | Texas Instruments Incorporated | 1 member(s) · 0 citation(s) | **30 · MONITOR** |
 | [Precision Drive and Sense Operation for Microelectromechanical Systems Devices](https://data.uspto.gov/patent-file-wrapper/search/details/63737712/application-data)<br><small>Publication number unavailable</small> | Application · Expired | Bright Silicon Technologies, Inc. | 1 member(s) · 0 citation(s) | **28 · MONITOR** |
-| [CONTROL OF THE TEMPERATURE COEFFICIENT OF FREQUENCY OF A MICROELECTROMECHANICAL SYSTEMS (MEMS) RESONATOR VIA MANIPULATION BY STRESS](https://data.uspto.gov/patent-file-wrapper/search/details/19486222/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | Georgia Tech Research Corporation | 1 member(s) · 0 citation(s) | **28 · MONITOR** |

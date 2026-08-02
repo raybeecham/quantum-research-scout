@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-01 02:17 UTC_
+_Updated 2026-08-02 02:13 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | PQC / Crypto Agility | ↗️ rising (27 vs 12) | 🔴 critical | high | 🎯 actionable | 2026-06-21 | 2026-07-31 | 93 |
-| QEC / Fault Tolerance | ↗️ rising (7 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-07-29 | 36 |
 | Standards / Government | ↗️ rising (6 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-07-31 | 8 |
 | AI Security | ↗️ rising (6 vs 3) | 🟠 high | high | 🎯 actionable | 2026-07-01 | 2026-07-23 | 11 |
 | Quantum Sensing | ↗️ rising (6 vs 3) | 🟠 high | high | 🎯 actionable | 2026-06-22 | 2026-07-31 | 25 |
-| Quantum Hardware | ➡️ stable (25 vs 34) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-07-31 | 150 |
+| QEC / Fault Tolerance | ➡️ stable (5 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-08-01 | 37 |
+| Quantum Hardware | ➡️ stable (27 vs 31) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-01 | 153 |
 | Quantum Networking | ➡️ stable (9 vs 7) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-07-31 | 55 |
-| Quantum Software / Tooling | ➡️ stable (9 vs 8) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-07-30 | 51 |
+| Quantum Software / Tooling | ➡️ stable (9 vs 7) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-08-01 | 52 |
 
 ## PQC / Crypto Agility
 
@@ -29,17 +29,6 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-07-31 — [Implementing Crypto-Agility at Scale](https://www.keyfactor.com/events/implementing-crypto-agility-at-scale) (Keyfactor Quantum and Crypto-Agility, score 76)
   - 2026-07-31 — [SEALSQ Begins Commercial Deployment of Miraex Quantum Photonics Technology](https://thequantuminsider.com/2026/07/31/sealsq-launches-commercial-phase-of-miraex-quantum-photonics-technology) (The Quantum Insider, score 61)
   - 2026-07-30 — [NIST’s Andrew Regenscheid Explains the Transition to Post-Quantum Cryptography](https://thequantuminsider.com/2026/07/30/nist-andrew-regenscheid-post-quantum-cryptography-transition) (The Quantum Insider, score 90)
-
-## QEC / Fault Tolerance
-
-- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
-- Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
-- Recent supporting evidence:
-  - 2026-07-29 — [Riverlane and Unitary Foundation Launch Deltakit Community Fund for Open-Source QEC](https://quantumcomputingreport.com/riverlane-and-unitary-foundation-launch-deltakit-community-fund-for-open-source-qec) (QuantumNews.ai, score 51)
-  - 2026-07-28 — [C12 Unveils Roadmap to Useful Fault-Tolerant Quantum Computing by 2033](https://www.insidequantumtechnology.com/news-archive/c12-unveils-roadmap-to-useful-fault-tolerant-quantum-computing-by-2033) (QuantumNews.ai, score 124)
-  - 2026-07-28 — [Riverlane and Unitary Foundation Launch ‘Deltakit Community Fund’ to Accelerate Open-Source Quantum Error Correction](https://thequantuminsider.com/2026/07/28/riverlane-unitary-foundation-deltakit-community-fund) (The Quantum Insider, score 56)
-  - 2026-07-27 — [Quantum X Labs Tests AI-Based Error Correction Decoder With NVIDIA CUDA-Q Tools](https://thequantuminsider.com/2026/07/27/quantum-x-labs-ai-error-correction-decoder-nvidia-cuda-q) (The Quantum Insider, score 69)
-  - 2026-07-25 — [BlueQubit Secures $1.5M DOE Grants for AI-Driven Quantum Error Correction](https://quantumzeitgeist.com/quantum-error-correction-bluequbit-15m) (Quantum Zeitgeist, score 84)
 
 ## Standards / Government
 
@@ -74,16 +63,27 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-07-28 — [Infleqtion to Report Second Quarter 2026 Financial Results on August 12, 2026](https://infleqtion.com/infleqtion-to-report-second-quarter-2026-financial-results-on-august-12-2026) (QuantumNews.ai, score 36)
   - 2026-07-27 — [Long Live Ytterbium! Long-lived States Found in Trapped Ions Open New Doors For Quantum Computing And Atomic Clocks](https://thequantuminsider.com/2026/07/27/long-live-ytterbium-long-lived-states-found-in-trapped-ions-open-new-doors-for-quantum-computing-and-atomic-clocks) (QuantumNews.ai, score 22)
 
+## QEC / Fault Tolerance
+
+- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
+- Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
+- Recent supporting evidence:
+  - 2026-08-01 — [Cumulant Framework Analyzes Quantum Noise Beyond Standard Models](https://quantumzeitgeist.com/northwestern-university-cumulant-framework-demonstration) (Quantum Zeitgeist, score 61)
+  - 2026-07-29 — [Riverlane and Unitary Foundation Launch Deltakit Community Fund for Open-Source QEC](https://quantumcomputingreport.com/riverlane-and-unitary-foundation-launch-deltakit-community-fund-for-open-source-qec) (QuantumNews.ai, score 51)
+  - 2026-07-28 — [C12 Unveils Roadmap to Useful Fault-Tolerant Quantum Computing by 2033](https://www.insidequantumtechnology.com/news-archive/c12-unveils-roadmap-to-useful-fault-tolerant-quantum-computing-by-2033) (QuantumNews.ai, score 124)
+  - 2026-07-28 — [Riverlane and Unitary Foundation Launch ‘Deltakit Community Fund’ to Accelerate Open-Source Quantum Error Correction](https://thequantuminsider.com/2026/07/28/riverlane-unitary-foundation-deltakit-community-fund) (The Quantum Insider, score 56)
+  - 2026-07-27 — [Quantum X Labs Tests AI-Based Error Correction Decoder With NVIDIA CUDA-Q Tools](https://thequantuminsider.com/2026/07/27/quantum-x-labs-ai-error-correction-decoder-nvidia-cuda-q) (The Quantum Insider, score 69)
+
 ## Quantum Hardware
 
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-08-01 — [IBM & Chicago Verify Quantum Advantage With New Error Correction](https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago) (Quantum Zeitgeist, score 63)
+  - 2026-08-01 — [New Qubit Suppresses Odd Harmonics by Two Orders of Magnitude](https://quantumzeitgeist.com/colorado-boulder-qubit-suppresses-harmonics-odd) (Quantum Zeitgeist, score 35)
+  - 2026-08-01 — [Superconducting Qubits Show Time-Crystalline Order for 120 Cycles](https://quantumzeitgeist.com/zhejiang-university-superconducting-qubits-time-crystalline) (Quantum Zeitgeist, score 32)
   - 2026-07-31 — [BlueQubit Supports Qedma, IBM and RIKEN Study on Error-Mitigated Quantum Simulation](https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study) (The Quantum Insider, score 63)
   - 2026-07-31 — [How Tweezers and Lattices Stabilize Rydberg Qubit Gates](https://quantumzeitgeist.com/institute-molecular-science-tweezers-lattices-stabilize) (QuantumNews.ai, score 49)
-  - 2026-07-31 — [IonQ Completes Acquisition of SkyWater Technology, Establishing Vertically Integrated Quantum Platform](https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform) (QuantumNews.ai, score 42)
-  - 2026-07-31 — [Rice Study Realizes Tunable Temperatures for Ion Qubits](https://quantumzeitgeist.com/rice-university-tunable-temperatures-ion-qubits) (Quantum Zeitgeist, score 39)
-  - 2026-07-31 — [IonQ’s SkyWater Deal Secures U.S. Quantum Chip Supply](https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal) (Quantum Zeitgeist, score 27)
 
 ## Quantum Networking
 
@@ -101,8 +101,8 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, AWS Quantum Technologies Blog, arXiv RSS quant-ph
 - Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
 - Recent supporting evidence:
+  - 2026-08-01 — [54-Qubit Device Validates Noise-Resilient Optimization Framework](https://quantumzeitgeist.com/iqm-qubit-device-validates-noise-resilient) (Quantum Zeitgeist, score 31)
   - 2026-07-30 — [Cleveland Clinic and IBM Researchers Create Quantum Machine Learning Framework to Predict Neoantigen Immune Response](https://thequantuminsider.com/2026/07/30/cleveland-clinic-and-ibm-researchers-create-quantum-machine-learning-framework-to-predict-neoantigen-immune-response) (The Quantum Insider, score 24)
   - 2026-07-30 — [IBM and Algorithmiq Develop Framework for Verifying Quantum Computations Beyond Classical Simulation](https://thequantuminsider.com/2026/07/30/ibm-algorithmiq-quantum-computation-verification-framework) (The Quantum Insider, score 24)
   - 2026-07-29 — [Superconducting Quantum Materials and Systems (SQMS) Center: Researchers Extend Grover’s Search to More Efficient Multilevel Quantum Systems](https://quantumzeitgeist.com/superconducting-qudits-grovers-algorithm-multilevel-systems) (Quantum Zeitgeist, score 33)
   - 2026-07-29 — [BLFQ Calculates Entanglement in Charmonium and Bottomonium](https://quantumzeitgeist.com/entanglement-charmonium-blfq-calculates-bottomonium) (Quantum Zeitgeist, score 30)
-  - 2026-07-27 — [CEICO Researchers Map Entanglement Across Distinct CFT Theories](https://quantumzeitgeist.com/ceico-map-entanglement-across-distinct) (Quantum Zeitgeist, score 30)

@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-01T02:08:14.362509+00:00_
+_Updated 2026-08-02T02:05:25.412721+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **338**
-- Quarantined evidence or relationships: **70**
-- Acceptance rate: **82.8%**
+- Accepted evidence: **343**
+- Quarantined evidence or relationships: **74**
+- Acceptance rate: **82.3%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 25 | 50 | 33.3% |
-| Federal funding | 313 | 20 | 94.0% |
+| Federal missions | 25 | 52 | 32.5% |
+| Federal funding | 318 | 22 | 93.5% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 70
-- **No relevant term in the evidence itself**: 70
-- **Official government source**: 69
+- **Match appears only in collector query metadata**: 74
+- **No relevant term in the evidence itself**: 74
+- **Official government source**: 73
 - **Source is not an official .gov or .mil domain**: 1
 
 ## Quarantined Evidence
@@ -63,6 +63,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal missions
 - Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [National Disaster Coverage Training for Indonesian Journalists](https://www.grants.gov/search-results-detail/363318)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [National Disaster Coverage Training for Indonesian Journalists](https://www.grants.gov/search-results-detail/363318)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
@@ -375,6 +389,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025](https://www.grants.gov/search-results-detail/355385)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Alumni Engagement Innovation Fund 2024](https://www.grants.gov/search-results-detail/350831)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Alumni Engagement Innovation Fund 2024](https://www.grants.gov/search-results-detail/350831)
 
 - Scope: Federal funding
 - Stage: funding evidence admission

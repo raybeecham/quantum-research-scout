@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-08-01 02:17 UTC_
+_Updated 2026-08-02 02:13 UTC_
 
 ## Organizations
 
@@ -12,11 +12,11 @@ _Updated 2026-08-01 02:17 UTC_
 |---|---|---|---|---|---|---:|---:|
 | NIST | ↗️ rising (2 vs 1) | 🔴 critical | active | 2026-06-25 | 2026-07-31 | 4 | 0 |
 | Fortanix | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2024-08-19 | 2026-02-04 | 19 | 19 |
-| Keyfactor | ↗️ rising (5 vs 2) | 🟠 high | active | 2025-12-29 | 2026-07-31 | 18 | 10 |
-| IBM | ↗️ rising (5 vs 1) | 🟠 high | active | 2026-06-23 | 2026-07-31 | 14 | 0 |
+| Keyfactor | ➡️ stable (4 vs 3) | 🟠 high | active | 2025-12-29 | 2026-07-31 | 18 | 10 |
+| IBM | ↗️ rising (6 vs 1) | 🟠 high | active | 2026-06-23 | 2026-08-01 | 15 | 0 |
 | QuEra | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-07-22 | 2026-07-22 | 9 | 8 |
 | PsiQuantum | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2025-02-26 | 2026-07-22 | 8 | 8 |
-| QuSecure | ↗️ rising (1 vs 0) | 🟠 high | active | 2025-07-19 | 2026-07-25 | 7 | 4 |
+| QuSecure | ↘️ declining (0 vs 1) | 🟠 high | active | 2025-07-19 | 2026-07-25 | 7 | 4 |
 | Accenture / Accenture Federal Services | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-01-02 | 2026-01-02 | 5 | 5 |
 | Cisco | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-07-27 | 2026-07-31 | 5 | 3 |
 | Quantum Computing Inc. (QCi) | ➡️ stable (0 vs 0) | 🟠 high | documented | Unknown | Unknown | 4 | 4 |
@@ -36,8 +36,8 @@ _Updated 2026-08-01 02:17 UTC_
 | ETSI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-22 | 2026-06-22 | 1 | 1 |
 | Google Quantum AI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-27 | 2026-06-27 | 1 | 0 |
 | Open Quantum Safe | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-07-27 | 2026-07-27 | 1 | 0 |
-| Infleqtion | ➡️ stable (4 vs 4) | 🟡 medium | active | 2026-06-22 | 2026-07-28 | 11 | 0 |
-| Pasqal | ↘️ declining (0 vs 1) | 🟡 medium | active | 2026-06-29 | 2026-07-24 | 9 | 0 |
+| Infleqtion | ↘️ declining (3 vs 5) | 🟡 medium | active | 2026-06-22 | 2026-07-28 | 11 | 0 |
+| Pasqal | ↘️ declining (0 vs 1) | 🟡 medium | quiet | 2026-06-29 | 2026-07-24 | 9 | 0 |
 | AWS | ↘️ declining (0 vs 1) | 🟡 medium | quiet | 2026-06-24 | 2026-07-20 | 4 | 0 |
 | Rigetti | ↗️ rising (1 vs 0) | 🟡 medium | active | 2026-07-29 | 2026-07-29 | 1 | 0 |
 
@@ -48,7 +48,7 @@ _Updated 2026-08-01 02:17 UTC_
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
 | Crypto-agility | ↗️ rising (5 vs 1) | 🔴 critical | active | 2025-08-06 | 2026-07-31 | 25 | 17 |
-| Quantum error correction | ➡️ stable (3 vs 3) | 🔴 critical | active | 2026-06-23 | 2026-07-29 | 18 | 0 |
+| Quantum error correction | ↘️ declining (2 vs 3) | 🔴 critical | active | 2026-06-23 | 2026-07-29 | 18 | 0 |
 | Logical qubits | ↗️ rising (1 vs 0) | 🔴 critical | active | 2025-09-10 | 2026-07-28 | 13 | 3 |
 | ML-DSA | ↘️ declining (0 vs 1) | 🔴 critical | quiet | 2026-06-29 | 2026-07-23 | 2 | 0 |
 | Quantum key distribution | ↘️ declining (0 vs 3) | 🟠 high | quiet | 2026-06-29 | 2026-07-23 | 9 | 1 |
@@ -83,7 +83,7 @@ _Updated 2026-08-01 02:17 UTC_
 | ETSI | covered | 1 | 1 |
 | Fortanix | covered | 1 | 19 |
 | Google Quantum AI | covered | 2 | 1 |
-| IBM | covered | 1 | 14 |
+| IBM | covered | 1 | 15 |
 | IETF | covered | 1 | 0 |
 | IonQ | covered | 1 | 3 |
 | Keyfactor | covered | 1 | 18 |
