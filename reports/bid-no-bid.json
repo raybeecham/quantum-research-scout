@@ -200,8 +200,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 34,
         "status": "current"
       },
       "decision_score": 34,
@@ -1488,7 +1488,7 @@
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
         "previous_gate": "hold",
-        "previous_score": 28,
+        "previous_score": 31,
         "status": "current"
       },
       "decision_score": 31,
@@ -3236,7 +3236,7 @@
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
         "previous_gate": "hold",
-        "previous_score": 31,
+        "previous_score": 24,
         "status": "current"
       },
       "decision_score": 24,
@@ -3338,7 +3338,7 @@
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
         "previous_gate": "hold",
-        "previous_score": 31,
+        "previous_score": 24,
         "status": "current"
       },
       "decision_score": 24,
@@ -3518,6 +3518,6 @@
     "qualify": 1,
     "targeted_review": 0
   },
-  "updated_at": "2026-08-02T02:05:25.412721+00:00",
+  "updated_at": "2026-08-02T05:50:57.318615+00:00",
   "version": 1
 }

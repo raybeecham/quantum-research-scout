@@ -186,6 +186,21 @@
           "url": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale"
         },
         {
+          "date": "2026-07-31",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Implementing Crypto-Agility at Scale",
+          "url": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale/"
+        },
+        {
           "date": "2026-07-28",
           "date_confidence": "unknown",
           "date_kind": "unknown",
@@ -199,6 +214,21 @@
           "source": "Keyfactor Quantum and Crypto-Agility",
           "title": "Building Crypto-Agility for Financial Services",
           "url": "https://www.keyfactor.com/events/building-crypto-agility-for-financial-services"
+        },
+        {
+          "date": "2026-07-28",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Building Crypto-Agility for Financial Services",
+          "url": "https://www.keyfactor.com/events/building-crypto-agility-for-financial-services/"
         },
         {
           "date": "2026-07-27",
@@ -246,49 +276,19 @@
           "url": "https://www.keyfactor.com/events/preparing-for-the-uks-quantum-safe-future/"
         },
         {
-          "date": "2026-07-06",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
+          "date": "2026-07-25",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
           "matched_patterns": [
-            "crypto-agility"
+            "post-quantum"
           ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "AgileSec 3.6 Gives Security Teams More Visibility, More Control, and a Faster Path to Cryptographic-Agility",
-          "url": "https://www.keyfactor.com/blog/agilesec-3-6-gives-security-teams-more-visibility-more-control-and-a-faster-path-to-cryptographic-agility/"
-        },
-        {
-          "date": "2026-06-23",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "readiness"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Explaining Executive Order: Securing the Nation Against Advanced Cryptographic Attacks & What This Means for Your Organization",
-          "url": "https://www.keyfactor.com/blog/explaining-executive-order-securing-the-nation-against-advanced-cryptographic-attacks-what-this-means-for-your-organization/"
-        },
-        {
-          "date": "2026-05-21",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "cryptographic inventory"
-          ],
-          "observed_stage": "inventory",
-          "observed_stage_label": "Inventory",
-          "rank": 2,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "How to Build a Cryptographic Asset Inventory Across Cloud, CI/CD, and Devices",
-          "url": "https://www.keyfactor.com/blog/how-to-build-a-cryptographic-asset-inventory-across-cloud-ci-cd-and-devices/"
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "Keyfactor Partners Gain Tools for AI & Post-Quantum Security Services",
+          "url": "https://quantumzeitgeist.com/keyfactor-security-services-ai-post-quantum"
         }
       ],
       "type": "company"
@@ -524,9 +524,9 @@
     },
     {
       "confidence": "medium",
-      "evidence_count": 19,
-      "historical_evidence_count": 19,
-      "latest_evidence_at": "2026-02-04",
+      "evidence_count": 20,
+      "historical_evidence_count": 20,
+      "latest_evidence_at": "2026-07-30",
       "name": "Fortanix",
       "priority": "high",
       "source_count": 1,
@@ -534,6 +534,39 @@
       "stage_label": "Planning",
       "stage_rank": 3,
       "supporting_evidence": [
+        {
+          "date": "2026-07-30",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "prepare for",
+            "preparing for",
+            "crypto agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "Quantum-Safe Encryption with HSM: Preparing for the Future",
+          "url": "https://www.fortanix.com/blog/quantum-safe-encryption-with-hsm-preparing-for-the-future"
+        },
+        {
+          "date": "2026-07-29",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "prepare for",
+            "crypto agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "Why CISOs Should Prioritize Quantum-Safe Cryptography",
+          "url": "https://www.fortanix.com/blog/why-ciso-should-prioritize-quantum-safe-cryptography-today"
+        },
         {
           "date": "2026-02-04",
           "date_confidence": "high",
@@ -626,36 +659,6 @@
           "source": "Fortanix Quantum Security",
           "title": "Quantum Security for Post-Quantum Cryptography",
           "url": "https://www.fortanix.com/blog/quantum-security-for-post-quantum-cryptography"
-        },
-        {
-          "date": "2025-07-22",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "prepare for"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Fortanix Quantum Security",
-          "title": "Will Quantum Cryptography Be Able to Eliminate Data Breaches",
-          "url": "https://www.fortanix.com/blog/will-quantum-cryptography-be-able-to-eliminate-data-breaches-in-the-future"
-        },
-        {
-          "date": "2025-07-22",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "prepare for"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Fortanix Quantum Security",
-          "title": "Risks of delaying post-quantum cryptography adoption",
-          "url": "https://www.fortanix.com/blog/risk-of-delaying-quantum-safe-algorithms-in-data-security"
         }
       ],
       "type": "company"
@@ -689,81 +692,6 @@
         }
       ],
       "type": "consulting"
-    },
-    {
-      "confidence": "medium",
-      "evidence_count": 4,
-      "historical_evidence_count": 3,
-      "latest_evidence_at": "2026-07-27",
-      "name": "Cisco",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-07-27",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
-          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
-        },
-        {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": true,
-          "matched_patterns": [
-            "quantum-safe"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "quantum-safe encryption Archives",
-          "url": "https://blogs.cisco.com/tag/quantum-safe-encryption"
-        },
-        {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": true,
-          "matched_patterns": [
-            "quantum-safe"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "quantum-safe computing Archives",
-          "url": "https://blogs.cisco.com/tag/quantum-safe-computing"
-        },
-        {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": true,
-          "matched_patterns": [
-            "quantum-safe"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "Quantum-SafeComputing Archives",
-          "url": "https://blogs.cisco.com/tag/quantum-safecomputing"
-        }
-      ],
-      "type": "company"
     },
     {
       "confidence": "medium",
@@ -959,6 +887,36 @@
         }
       ],
       "type": "consulting"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-07-27",
+      "name": "Cisco",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-07-27",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
+          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
+        }
+      ],
+      "type": "company"
     },
     {
       "confidence": "low",
@@ -1459,6 +1417,6 @@
     "not_assessed": 24,
     "organizations": 43
   },
-  "updated_at": "2026-08-02T02:13:13.585573+00:00",
+  "updated_at": "2026-08-02T05:50:57.318615+00:00",
   "version": 1
 }
