@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-02 02:13 UTC_
+_Updated 2026-08-03 02:15 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
@@ -15,8 +15,8 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 | AI Security | ↗️ rising (6 vs 3) | 🟠 high | high | 🎯 actionable | 2026-07-01 | 2026-07-23 | 11 |
 | Quantum Sensing | ↗️ rising (6 vs 3) | 🟠 high | high | 🎯 actionable | 2026-06-22 | 2026-07-31 | 25 |
 | QEC / Fault Tolerance | ➡️ stable (5 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-08-01 | 37 |
-| Quantum Hardware | ➡️ stable (27 vs 31) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-01 | 153 |
-| Quantum Networking | ➡️ stable (9 vs 7) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-07-31 | 55 |
+| Quantum Hardware | ➡️ stable (27 vs 28) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-02 | 155 |
+| Quantum Networking | ➡️ stable (8 vs 8) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-08-02 | 56 |
 | Quantum Software / Tooling | ➡️ stable (9 vs 7) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-08-01 | 52 |
 
 ## PQC / Crypto Agility
@@ -79,22 +79,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-08-02 — [Quantum Dark Polarons Bypass Laser Limits for Faster Ion Cooling](https://quantumzeitgeist.com/universidad-politecnica-de-cartagena-quantum-dark) (Quantum Zeitgeist, score 25)
+  - 2026-08-02 — [BlueQubit, IBM, and RIKEN Demonstrate Quantum R&D Potential](https://quantumzeitgeist.com/bluequbit-ibm-riken-quantum-potential) (Quantum Zeitgeist, score 24)
   - 2026-08-01 — [IBM & Chicago Verify Quantum Advantage With New Error Correction](https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago) (Quantum Zeitgeist, score 63)
   - 2026-08-01 — [New Qubit Suppresses Odd Harmonics by Two Orders of Magnitude](https://quantumzeitgeist.com/colorado-boulder-qubit-suppresses-harmonics-odd) (Quantum Zeitgeist, score 35)
   - 2026-08-01 — [Superconducting Qubits Show Time-Crystalline Order for 120 Cycles](https://quantumzeitgeist.com/zhejiang-university-superconducting-qubits-time-crystalline) (Quantum Zeitgeist, score 32)
-  - 2026-07-31 — [BlueQubit Supports Qedma, IBM and RIKEN Study on Error-Mitigated Quantum Simulation](https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study) (The Quantum Insider, score 63)
-  - 2026-07-31 — [How Tweezers and Lattices Stabilize Rydberg Qubit Gates](https://quantumzeitgeist.com/institute-molecular-science-tweezers-lattices-stabilize) (QuantumNews.ai, score 49)
 
 ## Quantum Networking
 
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
+  - 2026-08-02 — [Switzerland Quantum Computing Companies, The Complete Vendor Guide](https://quantumzeitgeist.com/switzerland-quantum-computing-companies) (Quantum Zeitgeist, score 44)
   - 2026-07-31 — [Prefix-Suffix System Achieves Perfect Fidelity on 13-Node Quantum Network](https://quantumzeitgeist.com/prefix-suffix-system-perfect-fidelity-13) (QuantumNews.ai, score 35)
   - 2026-07-31 — [Cisco Routers Now Run Quantum Encryption via Live eQKD Network](https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption) (Quantum Zeitgeist, score 25)
   - 2026-07-30 — [Pusan National University Researchers Have Developed a Hybrid Quantum Network with Indistinguishable Quantum Sources](https://thequantuminsider.com/2026/07/30/pusan-national-university-researchers-have-developed-a-hybrid-quantum-network-with-indistinguishable-quantum-sources) (The Quantum Insider, score 58)
   - 2026-07-30 — [Z Boson Decay Shows Both Decoherence and Entanglement Growth via PITT PACC](https://quantumzeitgeist.com/university-pittsburgh-z-boson-decay-decoherence) (Quantum Zeitgeist, score 27)
-  - 2026-07-29 — [QED-C Roadmap Outlines Technology Requirements for Future Quantum Networks](https://thequantuminsider.com/2026/07/29/qed-c-roadmap-future-quantum-networks) (The Quantum Insider, score 61)
 
 ## Quantum Software / Tooling
 

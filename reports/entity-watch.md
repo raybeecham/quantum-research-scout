@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-08-02 05:50 UTC_
+_Updated 2026-08-03 02:15 UTC_
 
 ## Organizations
 
@@ -13,7 +13,7 @@ _Updated 2026-08-02 05:50 UTC_
 | NIST | ↗️ rising (2 vs 1) | 🔴 critical | active | 2026-06-25 | 2026-07-31 | 4 | 0 |
 | Fortanix | ↗️ rising (2 vs 0) | 🟠 high | active | 2024-08-19 | 2026-07-30 | 20 | 20 |
 | Keyfactor | ↗️ rising (6 vs 3) | 🟠 high | active | 2025-09-09 | 2026-07-31 | 17 | 9 |
-| IBM | ↗️ rising (6 vs 1) | 🟠 high | active | 2026-06-23 | 2026-08-01 | 15 | 0 |
+| IBM | ↗️ rising (7 vs 1) | 🟠 high | active | 2026-06-23 | 2026-08-02 | 16 | 0 |
 | QuEra | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-07-22 | 2026-07-22 | 9 | 8 |
 | PsiQuantum | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2025-02-26 | 2026-07-22 | 8 | 8 |
 | QuSecure | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2025-07-19 | 2026-07-25 | 7 | 4 |
@@ -83,7 +83,7 @@ _Updated 2026-08-02 05:50 UTC_
 | ETSI | covered | 1 | 1 |
 | Fortanix | covered | 1 | 20 |
 | Google Quantum AI | covered | 2 | 1 |
-| IBM | covered | 1 | 15 |
+| IBM | covered | 1 | 16 |
 | IETF | covered | 1 | 0 |
 | IonQ | covered | 1 | 3 |
 | Keyfactor | covered | 1 | 17 |

@@ -2,47 +2,59 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-08-02T02:05:25.412721+00:00_
+_Updated 2026-08-03T02:07:21.978304+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **14**
-- Newly discovered historical evidence: **5**
+- Actual or recent changes: **6**
+- Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
-- Upcoming dated events: **67**
+- Upcoming dated events: **65**
 
 ## Priority timeline
 
-- **Changed since prior run** · CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT. — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000))
+- **Changed since prior run** · FY26 American Spaces Vietnam Programming — opportunity status ([evidence](https://www.grants.gov/search-results-detail/363080))
   - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT. — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7017_8000_80ARC018D0010_8000))
+- **Changed since prior run** · Vietnam CyberSafe Hacks 2026 — opportunity status ([evidence](https://www.grants.gov/search-results-detail/363062))
   - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT. — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000))
-  - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · DEHRADS ORDER 6 CYBERSECURITY, PRIVACY, RECORDS AND INFORMATION MANAGEMENT, AND ENVIRONMENTS SUPPORT (CYBER PRIMES) — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QFMA26F0006_4732_47QFMA24A0005_4732))
-  - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT. — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000))
-  - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7005_8000_80ARC018D0010_8000))
-  - The assertion changed relative to the prior successful ledger build.
-- **Published today** · Advancing Investigative Journalism in Ukraine through U.S. AI Innovation — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363440))
-  - The source publication date is today or within the prior day.
-- **Occurred 3 days ago** · THIS DOCUMENT ESTABLISHES A FIRM-FIXED-PRICE PURCHASE ORDER BETWEEN THE DEPARTMENT OF HOMELAND SECURITY (DHS) CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY (CISA) AND WIRELESS... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RCSJ26P00000018_7001_-NONE-_-NONE-))
-  - A recent source-reported event was newly incorporated into the ledger.
+- **Happened today** · CREDENTIALING. 2(D). — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3009_7009_70US0922D70090003_7009))
+  - The source-reported event date is today or within the prior day.
+- **Evidence trace changed** · AI Pathways To The Future — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363061))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Evidence trace changed** · Correctness for Scientific Computing Systems — qualification gate ([evidence](https://www.grants.gov/search-results-detail/354144))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Evidence trace changed** · Creative Industries Film Lab and Residency - American Film Showcase 2026 — qualification gate ([evidence](https://www.grants.gov/search-results-detail/362939))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Evidence trace changed** · Cybersecurity Innovation for Cyberinfrastructure — qualification gate ([evidence](https://www.grants.gov/search-results-detail/358004))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Evidence trace changed** · EARLY STAGE INNOVATIONS (ESI26) — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363066))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Evidence trace changed** · English Language Exchange Programs: AI and Educational Technology Integration — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363105))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Evidence trace changed** · Escape The Hack: Countering Cyber Scams with an Immersive Experience for Everyday Indonesians — qualification gate ([evidence](https://www.grants.gov/search-results-detail/362863))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Evidence trace changed** · Fiscal Year 2026 Next Generation Warning System Grant Program — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363192))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Evidence trace changed** · Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363121))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
 - **Evidence trace changed** · Muscat - Annual Program Statement (APS)- PD Small Grants Program — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363078))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Evidence trace changed** · Notice of Funding Opportunity 2026 – Lebanon — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363090))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Evidence trace changed** · Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language — qualification gate ([evidence](https://www.grants.gov/search-results-detail/362903))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Evidence trace changed** · Research Training Groups in the Mathematical Sciences — qualification gate ([evidence](https://www.grants.gov/search-results-detail/353962))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Evidence trace changed** · Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU) — qualification gate ([evidence](https://www.grants.gov/search-results-detail/362711))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Evidence trace changed** · Voices for the Future — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363043))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
 - **Evidence trace changed** · Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027 — qualification gate ([evidence](https://www.grants.gov/search-results-detail/362913))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
 - **Evidence trace changed** · Young Trilateral Leaders (YTL) Summit — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363267))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Upcoming event date** · RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_W911NF261A284_097))
-  - The source date is in the future; Scout first observed it on 2026-08-02.
-- **Upcoming event date** · THE PURPOSE OF THE ORDER IS TO PROCURE HIGH PERFORMANCE COMPUTING (HPC) NODES — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426F0269_1205_NNG15SD72B_8000))
-  - The source date is in the future; Scout first observed it on 2026-08-02.
-- **Newly discovered historical evidence** · (C5ISRT), INTEGRATED TECHNOLOGY, AUTOMATION, UNCREWED AUTONOMOUS SYSTEM (UXS), COUNTER UNCREWED AUTONOMOUS SYSTEM (CUXS), SECURITY, AND NETWORK TECHNOLOGY SUPPORT — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_N6133126F0075_9700_N6133126D0008_9700))
-  - Scout first observed this on 2026-08-02; the source date is 2026-05-04.
-- **Newly discovered historical evidence** · MORGAN STATE UNIVERSITY — has related patent ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data))
-  - Scout first observed this on 2026-08-02; the source date is 2026-04-30.
+- **Upcoming event date** · IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80161_7571_NNG15SD91B_8000))
+  - The source date is in the future; Scout first observed it on 2026-08-03.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -86,8 +98,6 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-07-22** · Agencies identify and report their PQC migration leads — awaiting_confirmation ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
 - **2026-07-22** · Review federal robotic and AI-directed laboratory capabilities — awaiting_confirmation ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
 - **2026-07-31** · Receive abstracts for the expanded QBIT Stage A solicitation — overdue ([source](https://www.darpa.mil/news/2026/qbi-stage-a-qbit))
-- **2026-08-02** · FY26 American Spaces Vietnam Programming — closing_soon ([source](https://www.grants.gov/search-results-detail/363080))
-- **2026-08-02** · Vietnam CyberSafe Hacks 2026 — closing_soon ([source](https://www.grants.gov/search-results-detail/363062))
 - **2026-08-05** · Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027 — closing_soon ([source](https://www.grants.gov/search-results-detail/362913))
 - **2026-08-05** · Young Trilateral Leaders (YTL) Summit — closing_soon ([source](https://www.grants.gov/search-results-detail/363267))
 - **2026-08-07** · Creative Industries Film Lab and Residency - American Film Showcase 2026 — closing_soon ([source](https://www.grants.gov/search-results-detail/362939))
@@ -98,7 +108,7 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-08-08** · Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language — closing_soon ([source](https://www.grants.gov/search-results-detail/362903))
 - **2026-08-09** · AI Pathways To The Future — closing_soon ([source](https://www.grants.gov/search-results-detail/363061))
 - **2026-08-09** · Muscat - Annual Program Statement (APS)- PD Small Grants Program — closing_soon ([source](https://www.grants.gov/search-results-detail/363078))
-- **2026-08-10** · Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria — closing_this_month ([source](https://www.grants.gov/search-results-detail/363121))
+- **2026-08-10** · Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria — closing_soon ([source](https://www.grants.gov/search-results-detail/363121))
 - **2026-08-11** · Correctness for Scientific Computing Systems — closing_this_month ([source](https://www.grants.gov/search-results-detail/354144))
 - **2026-08-11** · Research Training Groups in the Mathematical Sciences — closing_this_month ([source](https://www.grants.gov/search-results-detail/353962))
 - **2026-08-11** · Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU) — closing_this_month ([source](https://www.grants.gov/search-results-detail/362711))
@@ -122,3 +132,5 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-09-20** · Publish a summary of QC-ADDS technical specifications — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
 - **2026-09-22** · Launch the AI Forge university-industry-government forum — estimated ([source](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security))
 - **2026-09-28** · Security, Privacy, and Trust in Cyberspace — open_window ([source](https://www.grants.gov/search-results-detail/357554))
+- **2026-09-29** · Postdoctoral Research Fellowships in Biology — open_window ([source](https://www.grants.gov/search-results-detail/361249))
+- **2026-09-30** · Close the QBIT Stage A full-proposal window — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))

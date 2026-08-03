@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-02T05:50:57.318615+00:00_
+_Updated 2026-08-03T02:07:21.978304+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
 - SAM.gov-resolved entities: **0** (**0.0%** coverage)
 - Newly resolved this run: **0**
-- Pending bounded enrichment: **153**
+- Pending bounded enrichment: **154**
 - Ambiguous / no match: **0 / 0**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -50,6 +50,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | — | — | pending | api key missing |
 | NEW YORK UNIVERSITY | NEW YORK UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
 | NEW YORK UNIVERSITY | NEW YORK UNIVERSITY | — | — | pending | api key missing |
+| THE ARDIAN GROUP, INC | THE ARDIAN GROUP, INC | — | — | pending | Queued for a future bounded enrichment batch |
 | SHOREPOINT LLC | SHOREPOINT LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | SHOREPOINT LLC | SHOREPOINT LLC | — | — | pending | api key missing |
 | SECRECY LABS LLC | SECRECY LABS LLC | — | — | pending | Queued for a future bounded enrichment batch |
@@ -88,7 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | TRUSTEES OF TUFTS COLLEGE | TRUSTEES OF TUFTS COLLEGE | — | — | pending | api key missing |
 | THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | — | — | pending | Queued for a future bounded enrichment batch |
 | THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | — | — | pending | api key missing |
-| THE TRUSTEES OF PRINCETON UNIVERSITY | THE TRUSTEES OF PRINCETON UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
 
 ## Method
 

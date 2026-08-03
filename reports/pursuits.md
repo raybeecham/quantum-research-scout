@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-02T05:50:57.318615+00:00_
+_Updated 2026-08-03T02:07:21.978304+00:00_
 
 Public-safe pursuit status derived from tracked configuration and qualification evidence. Internal notes, questions, partners, and capability evidence are excluded.
 

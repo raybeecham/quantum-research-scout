@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 137,
+      "days_to_close": 136,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -192,7 +192,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 30,
+      "days_to_close": 29,
       "deadline": "09/01/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -371,1299 +371,11 @@
       "url": "https://www.grants.gov/search-results-detail/363440"
     },
     {
-      "agency": "DHS-DHS",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 5,
-      "deadline": "08/07/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 31,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 31,
-        "status": "current"
-      },
-      "decision_score": 31,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363192"
-            ],
-            "points": 39
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363192"
-            ],
-            "points": -8
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 31,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363192"
-        ],
-        "trace_hash": "91909bead076dc71"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "YESHIVA UNIVERSITY",
-          "score": 2,
-          "uei": "CSSJGCRUZ9F3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WORCESTER POLYTECHNIC INSTITUTE",
-          "score": 2,
-          "uei": "HJNQME41NBU4"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WIRELESS BROADBAND ALLIANCE INC.",
-          "score": 2,
-          "uei": "LETXBAQZRA18"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:DHS-26-IPAWS-138-00-01",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "YESHIVA UNIVERSITY",
-          "score": 2,
-          "uei": "CSSJGCRUZ9F3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WORCESTER POLYTECHNIC INSTITUTE",
-          "score": 2,
-          "uei": "HJNQME41NBU4"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WIRELESS BROADBAND ALLIANCE INC.",
-          "score": 2,
-          "uei": "LETXBAQZRA18"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VALIANT SOLUTIONS, LLC",
-          "score": 2,
-          "uei": "GKF8ERUXED41"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 31,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Compressed response window: 5 day(s) remaining",
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/363192"
-      ],
-      "technology_fit": [
-        "cybersecurity"
-      ],
-      "title": "Fiscal Year 2026 Next Generation Warning System Grant Program",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/363192"
-    },
-    {
-      "agency": "DOS-LBN",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 5,
-      "deadline": "08/07/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 31,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 31,
-        "status": "current"
-      },
-      "decision_score": 31,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363090"
-            ],
-            "points": 39
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363090"
-            ],
-            "points": -8
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 31,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363090"
-        ],
-        "trace_hash": "6e62b12f92add896"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WASHINGTON",
-          "score": 2,
-          "uei": "HD1WMN6945W6"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:LBN-PDS-2026-NOFO",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WASHINGTON",
-          "score": 2,
-          "uei": "HD1WMN6945W6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
-          "score": 2,
-          "uei": "MKAGLD59JRL1"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 31,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Compressed response window: 5 day(s) remaining",
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/363090"
-      ],
-      "technology_fit": [
-        "artificial intelligence"
-      ],
-      "title": "Notice of Funding Opportunity 2026 \u2013 Lebanon",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/363090"
-    },
-    {
-      "agency": "DOS-IDN",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 5,
-      "deadline": "08/07/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 31,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 31,
-        "status": "current"
-      },
-      "decision_score": 31,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363043"
-            ],
-            "points": 39
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363043"
-            ],
-            "points": -8
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 31,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363043"
-        ],
-        "trace_hash": "7ac94556e7d2eb08"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: advanced computing"
-          ],
-          "name": "WEBSTER UNIVERSITY",
-          "score": 2,
-          "uei": "Q9GDDQV47MX7"
-        },
-        {
-          "basis": [
-            "shared specialties: advanced computing"
-          ],
-          "name": "VANDERBILT UNIVERSITY",
-          "score": 2,
-          "uei": "GTNBNWXJ12D5"
-        },
-        {
-          "basis": [
-            "shared specialties: advanced computing"
-          ],
-          "name": "V3GATE, LLC",
-          "score": 2,
-          "uei": "J4KHM5JY79E3"
-        },
-        {
-          "basis": [
-            "shared specialties: advanced computing"
-          ],
-          "name": "UNIVERSITY OF WASHINGTON",
-          "score": 2,
-          "uei": "HD1WMN6945W6"
-        },
-        {
-          "basis": [
-            "shared specialties: advanced computing"
-          ],
-          "name": "UNIVERSITY OF UTAH",
-          "score": 2,
-          "uei": "LL8GLEVH6MG3"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:PAS-JAKARTA-FY26-06",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: advanced computing"
-          ],
-          "name": "WEBSTER UNIVERSITY",
-          "score": 2,
-          "uei": "Q9GDDQV47MX7"
-        },
-        {
-          "basis": [
-            "shared specialties: advanced computing"
-          ],
-          "name": "VANDERBILT UNIVERSITY",
-          "score": 2,
-          "uei": "GTNBNWXJ12D5"
-        },
-        {
-          "basis": [
-            "shared specialties: advanced computing"
-          ],
-          "name": "V3GATE, LLC",
-          "score": 2,
-          "uei": "J4KHM5JY79E3"
-        },
-        {
-          "basis": [
-            "shared specialties: advanced computing"
-          ],
-          "name": "UNIVERSITY OF WASHINGTON",
-          "score": 2,
-          "uei": "HD1WMN6945W6"
-        },
-        {
-          "basis": [
-            "shared specialties: advanced computing"
-          ],
-          "name": "UNIVERSITY OF UTAH",
-          "score": 2,
-          "uei": "LL8GLEVH6MG3"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 31,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Compressed response window: 5 day(s) remaining",
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/363043"
-      ],
-      "technology_fit": [
-        "advanced computing"
-      ],
-      "title": "Voices for the Future",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/363043"
-    },
-    {
-      "agency": "DOS-IDN",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 5,
-      "deadline": "08/07/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 31,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 31,
-        "status": "current"
-      },
-      "decision_score": 31,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/362939"
-            ],
-            "points": 39
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/362939"
-            ],
-            "points": -8
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 31,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/362939"
-        ],
-        "trace_hash": "7606bc9328d5ef92"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WASHINGTON",
-          "score": 2,
-          "uei": "HD1WMN6945W6"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:PAS-JAKARTA-FY26-05",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WASHINGTON",
-          "score": 2,
-          "uei": "HD1WMN6945W6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
-          "score": 2,
-          "uei": "MKAGLD59JRL1"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 31,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Compressed response window: 5 day(s) remaining",
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/362939"
-      ],
-      "technology_fit": [
-        "artificial intelligence"
-      ],
-      "title": "Creative Industries Film Lab and Residency - American Film Showcase 2026",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/362939"
-    },
-    {
-      "agency": "DOS-IDN",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 5,
-      "deadline": "08/07/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 31,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 31,
-        "status": "current"
-      },
-      "decision_score": 31,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/362863"
-            ],
-            "points": 39
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/362863"
-            ],
-            "points": -8
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 31,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/362863"
-        ],
-        "trace_hash": "1387a5bd76ca11b0"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "YESHIVA UNIVERSITY",
-          "score": 2,
-          "uei": "CSSJGCRUZ9F3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WORCESTER POLYTECHNIC INSTITUTE",
-          "score": 2,
-          "uei": "HJNQME41NBU4"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WIRELESS BROADBAND ALLIANCE INC.",
-          "score": 2,
-          "uei": "LETXBAQZRA18"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:PAS-JAKARTA-FY26-04",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "YESHIVA UNIVERSITY",
-          "score": 2,
-          "uei": "CSSJGCRUZ9F3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WORCESTER POLYTECHNIC INSTITUTE",
-          "score": 2,
-          "uei": "HJNQME41NBU4"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WIRELESS BROADBAND ALLIANCE INC.",
-          "score": 2,
-          "uei": "LETXBAQZRA18"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VALIANT SOLUTIONS, LLC",
-          "score": 2,
-          "uei": "GKF8ERUXED41"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 31,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Compressed response window: 5 day(s) remaining",
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/362863"
-      ],
-      "technology_fit": [
-        "cybersecurity"
-      ],
-      "title": "Escape The Hack: Countering Cyber Scams with an Immersive Experience for Everyday Indonesians",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/362863"
-    },
-    {
-      "agency": "DOS-DZA",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 6,
-      "deadline": "08/08/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 31,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 31,
-        "status": "current"
-      },
-      "decision_score": 31,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/362903"
-            ],
-            "points": 39
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/362903"
-            ],
-            "points": -8
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 31,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/362903"
-        ],
-        "trace_hash": "e033ed0579abf947"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WASHINGTON",
-          "score": 2,
-          "uei": "HD1WMN6945W6"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:OFOP0002813",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WASHINGTON",
-          "score": 2,
-          "uei": "HD1WMN6945W6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
-          "score": 2,
-          "uei": "MKAGLD59JRL1"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 31,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Compressed response window: 6 day(s) remaining",
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/362903"
-      ],
-      "technology_fit": [
-        "artificial intelligence"
-      ],
-      "title": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/362903"
-    },
-    {
-      "agency": "DOS-OMA",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 7,
-      "deadline": "08/09/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 31,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 31,
-        "status": "current"
-      },
-      "decision_score": 31,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363078"
-            ],
-            "points": 39
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363078"
-            ],
-            "points": -8
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 31,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363078"
-        ],
-        "trace_hash": "f40a54445e537379"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WASHINGTON",
-          "score": 2,
-          "uei": "HD1WMN6945W6"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:MUSCAT-PAS-2026-APS-01",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WASHINGTON",
-          "score": 2,
-          "uei": "HD1WMN6945W6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
-          "score": 2,
-          "uei": "MKAGLD59JRL1"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 31,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Compressed response window: 7 day(s) remaining",
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/363078"
-      ],
-      "technology_fit": [
-        "artificial intelligence"
-      ],
-      "title": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/363078"
-    },
-    {
       "agency": "DOS-ALB",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 18,
+      "days_to_close": 17,
       "deadline": "08/20/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1841,15 +553,1844 @@
       "url": "https://www.grants.gov/search-results-detail/363249"
     },
     {
+      "agency": "DHS-DHS",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 4,
+      "deadline": "08/07/2026",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 26,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": "hold",
+        "previous_score": 31,
+        "status": "current"
+      },
+      "decision_score": 26,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363192"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363192"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363192"
+        ],
+        "trace_hash": "52ea77ec7c40d173"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "YESHIVA UNIVERSITY",
+          "score": 2,
+          "uei": "CSSJGCRUZ9F3"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "WORCESTER POLYTECHNIC INSTITUTE",
+          "score": 2,
+          "uei": "HJNQME41NBU4"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "WIRELESS BROADBAND ALLIANCE INC.",
+          "score": 2,
+          "uei": "LETXBAQZRA18"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+          "score": 2,
+          "uei": "QDE5UHE5XD16"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:DHS-26-IPAWS-138-00-01",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "YESHIVA UNIVERSITY",
+          "score": 2,
+          "uei": "CSSJGCRUZ9F3"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "WORCESTER POLYTECHNIC INSTITUTE",
+          "score": 2,
+          "uei": "HJNQME41NBU4"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "WIRELESS BROADBAND ALLIANCE INC.",
+          "score": 2,
+          "uei": "LETXBAQZRA18"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+          "score": 2,
+          "uei": "QDE5UHE5XD16"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "VALIANT SOLUTIONS, LLC",
+          "score": 2,
+          "uei": "GKF8ERUXED41"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 26,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Compressed response window: 4 day(s) remaining",
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/363192"
+      ],
+      "technology_fit": [
+        "cybersecurity"
+      ],
+      "title": "Fiscal Year 2026 Next Generation Warning System Grant Program",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/363192"
+    },
+    {
+      "agency": "DOS-LBN",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 4,
+      "deadline": "08/07/2026",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 26,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": "hold",
+        "previous_score": 31,
+        "status": "current"
+      },
+      "decision_score": 26,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363090"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363090"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363090"
+        ],
+        "trace_hash": "b82bfe4191cc8cb0"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:LBN-PDS-2026-NOFO",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+          "score": 2,
+          "uei": "MKAGLD59JRL1"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 26,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Compressed response window: 4 day(s) remaining",
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/363090"
+      ],
+      "technology_fit": [
+        "artificial intelligence"
+      ],
+      "title": "Notice of Funding Opportunity 2026 \u2013 Lebanon",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/363090"
+    },
+    {
+      "agency": "DOS-IDN",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 4,
+      "deadline": "08/07/2026",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 26,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": "hold",
+        "previous_score": 31,
+        "status": "current"
+      },
+      "decision_score": 26,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363043"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363043"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363043"
+        ],
+        "trace_hash": "37aa43bb56fecac9"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: advanced computing"
+          ],
+          "name": "WEBSTER UNIVERSITY",
+          "score": 2,
+          "uei": "Q9GDDQV47MX7"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing"
+          ],
+          "name": "VANDERBILT UNIVERSITY",
+          "score": 2,
+          "uei": "GTNBNWXJ12D5"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing"
+          ],
+          "name": "V3GATE, LLC",
+          "score": 2,
+          "uei": "J4KHM5JY79E3"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing"
+          ],
+          "name": "UNIVERSITY OF UTAH",
+          "score": 2,
+          "uei": "LL8GLEVH6MG3"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:PAS-JAKARTA-FY26-06",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: advanced computing"
+          ],
+          "name": "WEBSTER UNIVERSITY",
+          "score": 2,
+          "uei": "Q9GDDQV47MX7"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing"
+          ],
+          "name": "VANDERBILT UNIVERSITY",
+          "score": 2,
+          "uei": "GTNBNWXJ12D5"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing"
+          ],
+          "name": "V3GATE, LLC",
+          "score": 2,
+          "uei": "J4KHM5JY79E3"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing"
+          ],
+          "name": "UNIVERSITY OF UTAH",
+          "score": 2,
+          "uei": "LL8GLEVH6MG3"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 26,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Compressed response window: 4 day(s) remaining",
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/363043"
+      ],
+      "technology_fit": [
+        "advanced computing"
+      ],
+      "title": "Voices for the Future",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/363043"
+    },
+    {
+      "agency": "DOS-IDN",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 4,
+      "deadline": "08/07/2026",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 26,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": "hold",
+        "previous_score": 31,
+        "status": "current"
+      },
+      "decision_score": 26,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/362939"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/362939"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/362939"
+        ],
+        "trace_hash": "7dbc83980c5e393b"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:PAS-JAKARTA-FY26-05",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+          "score": 2,
+          "uei": "MKAGLD59JRL1"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 26,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Compressed response window: 4 day(s) remaining",
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/362939"
+      ],
+      "technology_fit": [
+        "artificial intelligence"
+      ],
+      "title": "Creative Industries Film Lab and Residency - American Film Showcase 2026",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/362939"
+    },
+    {
+      "agency": "DOS-IDN",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 4,
+      "deadline": "08/07/2026",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 26,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": "hold",
+        "previous_score": 31,
+        "status": "current"
+      },
+      "decision_score": 26,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/362863"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/362863"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/362863"
+        ],
+        "trace_hash": "4b908da37b0208fc"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "YESHIVA UNIVERSITY",
+          "score": 2,
+          "uei": "CSSJGCRUZ9F3"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "WORCESTER POLYTECHNIC INSTITUTE",
+          "score": 2,
+          "uei": "HJNQME41NBU4"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "WIRELESS BROADBAND ALLIANCE INC.",
+          "score": 2,
+          "uei": "LETXBAQZRA18"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+          "score": 2,
+          "uei": "QDE5UHE5XD16"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:PAS-JAKARTA-FY26-04",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "YESHIVA UNIVERSITY",
+          "score": 2,
+          "uei": "CSSJGCRUZ9F3"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "WORCESTER POLYTECHNIC INSTITUTE",
+          "score": 2,
+          "uei": "HJNQME41NBU4"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "WIRELESS BROADBAND ALLIANCE INC.",
+          "score": 2,
+          "uei": "LETXBAQZRA18"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+          "score": 2,
+          "uei": "QDE5UHE5XD16"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "VALIANT SOLUTIONS, LLC",
+          "score": 2,
+          "uei": "GKF8ERUXED41"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 26,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Compressed response window: 4 day(s) remaining",
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/362863"
+      ],
+      "technology_fit": [
+        "cybersecurity"
+      ],
+      "title": "Escape The Hack: Countering Cyber Scams with an Immersive Experience for Everyday Indonesians",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/362863"
+    },
+    {
+      "agency": "DOS-DZA",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 5,
+      "deadline": "08/08/2026",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 26,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": "hold",
+        "previous_score": 31,
+        "status": "current"
+      },
+      "decision_score": 26,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/362903"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/362903"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/362903"
+        ],
+        "trace_hash": "8bf672d56de06e71"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:OFOP0002813",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+          "score": 2,
+          "uei": "MKAGLD59JRL1"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 26,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Compressed response window: 5 day(s) remaining",
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/362903"
+      ],
+      "technology_fit": [
+        "artificial intelligence"
+      ],
+      "title": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/362903"
+    },
+    {
+      "agency": "DOS-OMA",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 6,
+      "deadline": "08/09/2026",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 26,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": "hold",
+        "previous_score": 31,
+        "status": "current"
+      },
+      "decision_score": 26,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363078"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363078"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363078"
+        ],
+        "trace_hash": "bd5fe49e4e3f7282"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:MUSCAT-PAS-2026-APS-01",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+          "score": 2,
+          "uei": "MKAGLD59JRL1"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 26,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Compressed response window: 6 day(s) remaining",
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/363078"
+      ],
+      "technology_fit": [
+        "artificial intelligence"
+      ],
+      "title": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/363078"
+    },
+    {
+      "agency": "DOS-IDN",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 6,
+      "deadline": "08/09/2026",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 26,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": null,
+        "previous_score": null,
+        "status": "current"
+      },
+      "decision_score": 26,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363061"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363061"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363061"
+        ],
+        "trace_hash": "99809325ca232e89"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:PAS-JAKARTA-FY26-07",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+          "score": 2,
+          "uei": "MKAGLD59JRL1"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 26,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Compressed response window: 6 day(s) remaining",
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/363061"
+      ],
+      "technology_fit": [
+        "artificial intelligence"
+      ],
+      "title": "AI Pathways To The Future",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/363061"
+    },
+    {
+      "agency": "DOS-DZA",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 7,
+      "deadline": "08/10/2026",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 26,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": null,
+        "previous_score": null,
+        "status": "current"
+      },
+      "decision_score": 26,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363121"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363121"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363121"
+        ],
+        "trace_hash": "ddb255e06edb1be5"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:PAS-ALG-FY26-02",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+          "score": 2,
+          "uei": "MKAGLD59JRL1"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 26,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Compressed response window: 7 day(s) remaining",
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/363121"
+      ],
+      "technology_fit": [
+        "artificial intelligence"
+      ],
+      "title": "Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/363121"
+    },
+    {
+      "agency": "NSF",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 170,
+      "deadline": "01/20/2027",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 24,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": null,
+        "previous_score": null,
+        "status": "current"
+      },
+      "decision_score": 24,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +11",
+              "actionable grant_opportunity +9",
+              "open_window +4",
+              "technology fit +8"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/358004"
+            ],
+            "points": 32
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/358004"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 24,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/358004"
+        ],
+        "trace_hash": "267d3c133989e186"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence, cybersecurity"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 7,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence, cybersecurity"
+          ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 4,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence, cybersecurity"
+          ],
+          "name": "UNIVERSITY OF HAWAII",
+          "score": 4,
+          "uei": "NSCKLFSSABF2"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence, cybersecurity"
+          ],
+          "name": "UNIVERSITY OF CALIFORNIA SANTA CRUZ",
+          "score": 4,
+          "uei": "VXUFPE4MCZH5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence, cybersecurity"
+          ],
+          "name": "THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK",
+          "score": 4,
+          "uei": "F4N1QNPB95M4"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:25-531",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence, cybersecurity"
+          ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 4,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence, cybersecurity"
+          ],
+          "name": "UNIVERSITY OF HAWAII",
+          "score": 4,
+          "uei": "NSCKLFSSABF2"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence, cybersecurity"
+          ],
+          "name": "UNIVERSITY OF CALIFORNIA SANTA CRUZ",
+          "score": 4,
+          "uei": "VXUFPE4MCZH5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence, cybersecurity"
+          ],
+          "name": "THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK",
+          "score": 4,
+          "uei": "F4N1QNPB95M4"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence, cybersecurity"
+          ],
+          "name": "THE CURATORS OF THE UNIVERSITY OF MISSOURI",
+          "score": 4,
+          "uei": "J9CDGR596MN3"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 24,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/358004"
+      ],
+      "technology_fit": [
+        "artificial intelligence",
+        "cybersecurity"
+      ],
+      "title": "Cybersecurity Innovation for Cyberinfrastructure",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/358004"
+    },
+    {
       "agency": "DOD-AMC",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 9,
+      "days_to_close": 8,
       "deadline": "08/11/2026",
       "decision_freshness": {
         "current_gate": "hold",
-        "current_score": 28,
+        "current_score": 23,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
@@ -1857,7 +2398,7 @@
         "previous_score": 28,
         "status": "current"
       },
-      "decision_score": 28,
+      "decision_score": 23,
       "decision_trace": {
         "components": [
           {
@@ -1865,14 +2406,13 @@
               "strategic significance +9",
               "actionable grant_opportunity +9",
               "closing_this_month +9",
-              "technology fit +4",
-              "new since yesterday +5"
+              "technology fit +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/362711"
             ],
-            "points": 36
+            "points": 31
           },
           {
             "basis": [
@@ -1896,11 +2436,11 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 28,
+        "public_evidence_score": 23,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/362711"
         ],
-        "trace_hash": "6836be3538da3e03"
+        "trace_hash": "48fe994ca75e2d1b"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -1911,7 +2451,7 @@
       "opportunity_key": "grants_gov:W911NF26S0085",
       "potential_teaming_candidates": [],
       "provisional_gate": "hold",
-      "public_evidence_score": 28,
+      "public_evidence_score": 23,
       "record_type": "grant_opportunity",
       "relevant_patents": [],
       "required_actions": [
@@ -1946,11 +2486,11 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 9,
+      "days_to_close": 8,
       "deadline": "08/11/2026",
       "decision_freshness": {
         "current_gate": "hold",
-        "current_score": 28,
+        "current_score": 23,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
@@ -1958,7 +2498,7 @@
         "previous_score": 28,
         "status": "current"
       },
-      "decision_score": 28,
+      "decision_score": 23,
       "decision_trace": {
         "components": [
           {
@@ -1966,14 +2506,13 @@
               "strategic significance +9",
               "actionable grant_opportunity +9",
               "closing_this_month +9",
-              "technology fit +4",
-              "new since yesterday +5"
+              "technology fit +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/354144"
             ],
-            "points": 36
+            "points": 31
           },
           {
             "basis": [
@@ -1997,11 +2536,11 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 28,
+        "public_evidence_score": 23,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/354144"
         ],
-        "trace_hash": "90dd041e4e82e29e"
+        "trace_hash": "4a62f26ed6d8e68e"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -2094,7 +2633,7 @@
         }
       ],
       "provisional_gate": "hold",
-      "public_evidence_score": 28,
+      "public_evidence_score": 23,
       "record_type": "grant_opportunity",
       "relevant_patents": [],
       "required_actions": [
@@ -2129,11 +2668,11 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 9,
+      "days_to_close": 8,
       "deadline": "08/11/2026",
       "decision_freshness": {
         "current_gate": "hold",
-        "current_score": 28,
+        "current_score": 23,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
@@ -2141,7 +2680,7 @@
         "previous_score": 28,
         "status": "current"
       },
-      "decision_score": 28,
+      "decision_score": 23,
       "decision_trace": {
         "components": [
           {
@@ -2149,14 +2688,13 @@
               "strategic significance +9",
               "actionable grant_opportunity +9",
               "closing_this_month +9",
-              "technology fit +4",
-              "new since yesterday +5"
+              "technology fit +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/353962"
             ],
-            "points": 36
+            "points": 31
           },
           {
             "basis": [
@@ -2180,11 +2718,11 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 28,
+        "public_evidence_score": 23,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/353962"
         ],
-        "trace_hash": "6550bfada08f08d5"
+        "trace_hash": "b1dfea253014b6a5"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -2277,7 +2815,7 @@
         }
       ],
       "provisional_gate": "hold",
-      "public_evidence_score": 28,
+      "public_evidence_score": 23,
       "record_type": "grant_opportunity",
       "relevant_patents": [],
       "required_actions": [
@@ -2312,11 +2850,11 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 11,
+      "days_to_close": 10,
       "deadline": "08/13/2026",
       "decision_freshness": {
         "current_gate": "hold",
-        "current_score": 28,
+        "current_score": 23,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
@@ -2324,7 +2862,7 @@
         "previous_score": 28,
         "status": "current"
       },
-      "decision_score": 28,
+      "decision_score": 23,
       "decision_trace": {
         "components": [
           {
@@ -2332,14 +2870,13 @@
               "strategic significance +9",
               "actionable grant_opportunity +9",
               "closing_this_month +9",
-              "technology fit +4",
-              "new since yesterday +5"
+              "technology fit +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/363066"
             ],
-            "points": 36
+            "points": 31
           },
           {
             "basis": [
@@ -2363,11 +2900,11 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 28,
+        "public_evidence_score": 23,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363066"
         ],
-        "trace_hash": "93d431f2c5ed1710"
+        "trace_hash": "9ad3d97a9524d62f"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -2460,7 +2997,7 @@
         }
       ],
       "provisional_gate": "hold",
-      "public_evidence_score": 28,
+      "public_evidence_score": 23,
       "record_type": "grant_opportunity",
       "relevant_patents": [],
       "required_actions": [
@@ -2491,23 +3028,23 @@
       "url": "https://www.grants.gov/search-results-detail/363066"
     },
     {
-      "agency": "DOS-ARG",
+      "agency": "DOS-PHL",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 18,
-      "deadline": "08/20/2026",
+      "days_to_close": 12,
+      "deadline": "08/15/2026",
       "decision_freshness": {
         "current_gate": "hold",
-        "current_score": 28,
+        "current_score": 23,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 28,
+        "previous_gate": null,
+        "previous_score": null,
         "status": "current"
       },
-      "decision_score": 28,
+      "decision_score": 23,
       "decision_trace": {
         "components": [
           {
@@ -2515,14 +3052,13 @@
               "strategic significance +9",
               "actionable grant_opportunity +9",
               "closing_this_month +9",
-              "technology fit +4",
-              "new since yesterday +5"
+              "technology fit +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363319"
+              "https://www.grants.gov/search-results-detail/363105"
             ],
-            "points": 36
+            "points": 31
           },
           {
             "basis": [
@@ -2538,7 +3074,7 @@
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363319"
+              "https://www.grants.gov/search-results-detail/363105"
             ],
             "points": -8
           }
@@ -2546,11 +3082,11 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 28,
+        "public_evidence_score": 23,
         "source_urls": [
-          "https://www.grants.gov/search-results-detail/363319"
+          "https://www.grants.gov/search-results-detail/363105"
         ],
-        "trace_hash": "3eda685890f06e3f"
+        "trace_hash": "241bc99558f72786"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -2599,7 +3135,7 @@
         }
       ],
       "mission_fit": [],
-      "opportunity_key": "grants_gov:PDS-BUE-2026-07",
+      "opportunity_key": "grants_gov:OFOP0003244",
       "potential_teaming_candidates": [
         {
           "basis": [
@@ -2643,371 +3179,7 @@
         }
       ],
       "provisional_gate": "hold",
-      "public_evidence_score": 28,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/363319"
-      ],
-      "technology_fit": [
-        "artificial intelligence"
-      ],
-      "title": "Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/363319"
-    },
-    {
-      "agency": "DOS-ARG",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 18,
-      "deadline": "08/20/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 28,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 28,
-        "status": "current"
-      },
-      "decision_score": 28,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_this_month +9",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363320"
-            ],
-            "points": 36
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363320"
-            ],
-            "points": -8
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 28,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363320"
-        ],
-        "trace_hash": "8212218f0811b6be"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WASHINGTON",
-          "score": 2,
-          "uei": "HD1WMN6945W6"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:PDS-BUE-2026-06",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WASHINGTON",
-          "score": 2,
-          "uei": "HD1WMN6945W6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
-          "score": 2,
-          "uei": "MKAGLD59JRL1"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 28,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/363320"
-      ],
-      "technology_fit": [
-        "artificial intelligence"
-      ],
-      "title": "U.S.-Argentina Alumni Summit",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/363320"
-    },
-    {
-      "agency": "DOS-VNM",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 0,
-      "deadline": "08/02/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 24,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 24,
-        "status": "current"
-      },
-      "decision_score": 24,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363080"
-            ],
-            "points": 39
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "Compressed response window: 0 day(s)"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363080"
-            ],
-            "points": -15
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 24,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363080"
-        ],
-        "trace_hash": "9676974c3413181d"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "YESHIVA UNIVERSITY",
-          "score": 2,
-          "uei": "CSSJGCRUZ9F3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WORCESTER POLYTECHNIC INSTITUTE",
-          "score": 2,
-          "uei": "HJNQME41NBU4"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WIRELESS BROADBAND ALLIANCE INC.",
-          "score": 2,
-          "uei": "LETXBAQZRA18"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:SVM300-26-PDS-AS",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "YESHIVA UNIVERSITY",
-          "score": 2,
-          "uei": "CSSJGCRUZ9F3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WORCESTER POLYTECHNIC INSTITUTE",
-          "score": 2,
-          "uei": "HJNQME41NBU4"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WIRELESS BROADBAND ALLIANCE INC.",
-          "score": 2,
-          "uei": "LETXBAQZRA18"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VALIANT SOLUTIONS, LLC",
-          "score": 2,
-          "uei": "GKF8ERUXED41"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 24,
+      "public_evidence_score": 23,
       "record_type": "grant_opportunity",
       "relevant_patents": [],
       "required_actions": [
@@ -3018,220 +3190,35 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 0 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
       "set_aside": null,
       "source_urls": [
-        "https://www.grants.gov/search-results-detail/363080"
+        "https://www.grants.gov/search-results-detail/363105"
       ],
       "technology_fit": [
-        "cybersecurity"
+        "artificial intelligence"
       ],
-      "title": "FY26 American Spaces Vietnam Programming",
+      "title": "English Language Exchange Programs: AI and Educational Technology Integration",
       "unknowns": [
         "Confirm controlling requirements in the controlling solicitation",
         "Confirm evaluation criteria in the controlling solicitation",
         "Confirm eligibility and set-aside terms in the controlling solicitation",
         "Confirm submission instructions in the controlling solicitation"
       ],
-      "url": "https://www.grants.gov/search-results-detail/363080"
-    },
-    {
-      "agency": "DOS-VNM",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 0,
-      "deadline": "08/02/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 24,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 24,
-        "status": "current"
-      },
-      "decision_score": 24,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363062"
-            ],
-            "points": 39
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "Compressed response window: 0 day(s)"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363062"
-            ],
-            "points": -15
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 24,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363062"
-        ],
-        "trace_hash": "8fa37d1d1fed9806"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "YESHIVA UNIVERSITY",
-          "score": 2,
-          "uei": "CSSJGCRUZ9F3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WORCESTER POLYTECHNIC INSTITUTE",
-          "score": 2,
-          "uei": "HJNQME41NBU4"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WIRELESS BROADBAND ALLIANCE INC.",
-          "score": 2,
-          "uei": "LETXBAQZRA18"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:FY26-PDS-HCMC-01",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "YESHIVA UNIVERSITY",
-          "score": 2,
-          "uei": "CSSJGCRUZ9F3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WORCESTER POLYTECHNIC INSTITUTE",
-          "score": 2,
-          "uei": "HJNQME41NBU4"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WIRELESS BROADBAND ALLIANCE INC.",
-          "score": 2,
-          "uei": "LETXBAQZRA18"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VALIANT SOLUTIONS, LLC",
-          "score": 2,
-          "uei": "GKF8ERUXED41"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 24,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Compressed response window: 0 day(s) remaining",
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/363062"
-      ],
-      "technology_fit": [
-        "cybersecurity"
-      ],
-      "title": "Vietnam CyberSafe Hacks 2026",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/363062"
+      "url": "https://www.grants.gov/search-results-detail/363105"
     },
     {
       "agency": "DOS-KOR",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 3,
+      "days_to_close": 2,
       "deadline": "08/05/2026",
       "decision_freshness": {
         "current_gate": "hold",
-        "current_score": 24,
+        "current_score": 19,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
@@ -3239,7 +3226,7 @@
         "previous_score": 24,
         "status": "current"
       },
-      "decision_score": 24,
+      "decision_score": 19,
       "decision_trace": {
         "components": [
           {
@@ -3247,14 +3234,13 @@
               "strategic significance +9",
               "actionable grant_opportunity +9",
               "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
+              "technology fit +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/363267"
             ],
-            "points": 39
+            "points": 34
           },
           {
             "basis": [
@@ -3266,7 +3252,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 3 day(s)"
+              "Compressed response window: 2 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -3278,11 +3264,11 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 24,
+        "public_evidence_score": 19,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363267"
         ],
-        "trace_hash": "161dd7e502c0d3dd"
+        "trace_hash": "62ec80ce508bfb36"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -3293,7 +3279,7 @@
       "opportunity_key": "grants_gov:PD-SEOUL-FY26-04",
       "potential_teaming_candidates": [],
       "provisional_gate": "hold",
-      "public_evidence_score": 24,
+      "public_evidence_score": 19,
       "record_type": "grant_opportunity",
       "relevant_patents": [],
       "required_actions": [
@@ -3304,7 +3290,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 3 day(s) remaining",
+        "Compressed response window: 2 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -3329,11 +3315,11 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 3,
+      "days_to_close": 2,
       "deadline": "08/05/2026",
       "decision_freshness": {
         "current_gate": "hold",
-        "current_score": 24,
+        "current_score": 19,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
@@ -3341,7 +3327,7 @@
         "previous_score": 24,
         "status": "current"
       },
-      "decision_score": 24,
+      "decision_score": 19,
       "decision_trace": {
         "components": [
           {
@@ -3349,14 +3335,13 @@
               "strategic significance +9",
               "actionable grant_opportunity +9",
               "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
+              "technology fit +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/362913"
             ],
-            "points": 39
+            "points": 34
           },
           {
             "basis": [
@@ -3368,7 +3353,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 3 day(s)"
+              "Compressed response window: 2 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -3380,11 +3365,11 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 24,
+        "public_evidence_score": 19,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/362913"
         ],
-        "trace_hash": "e1fdb4b50b8f51de"
+        "trace_hash": "d371cb83e346d258"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -3477,7 +3462,7 @@
         }
       ],
       "provisional_gate": "hold",
-      "public_evidence_score": 24,
+      "public_evidence_score": 19,
       "record_type": "grant_opportunity",
       "relevant_patents": [],
       "required_actions": [
@@ -3488,7 +3473,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 3 day(s) remaining",
+        "Compressed response window: 2 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -3518,6 +3503,6 @@
     "qualify": 1,
     "targeted_review": 0
   },
-  "updated_at": "2026-08-02T05:50:57.318615+00:00",
+  "updated_at": "2026-08-03T02:07:21.978304+00:00",
   "version": 1
 }

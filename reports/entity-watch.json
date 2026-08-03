@@ -353,7 +353,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 15,
+      "evidence_count": 16,
       "first_party_evidence_count": 0,
       "name": "IBM",
       "priority": "high",
@@ -1624,8 +1624,20 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 15,
+      "current_evidence_count": 16,
       "evidence": [
+        {
+          "date": "2026-08-02",
+          "key": "https://quantumzeitgeist.com/bluequbit-ibm-riken-quantum-potential",
+          "report": "2026-08/2026-08-02-digest.md",
+          "score": 24,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "BlueQubit, IBM, and RIKEN Demonstrate Quantum R&D Potential",
+          "url": "https://quantumzeitgeist.com/bluequbit-ibm-riken-quantum-potential"
+        },
         {
           "date": "2026-08-01",
           "key": "https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago",
@@ -1807,15 +1819,15 @@
           "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
         }
       ],
-      "evidence_count": 15,
+      "evidence_count": 16,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-01",
+      "latest_seen": "2026-08-02",
       "momentum": "rising",
       "name": "IBM",
       "prior_count": 1,
       "priority": "high",
-      "recent_count": 6,
+      "recent_count": 7,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -5633,6 +5645,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-02T05:50:57.318615+00:00",
+  "updated_at": "2026-08-03T02:15:21.310958+00:00",
   "version": 2
 }

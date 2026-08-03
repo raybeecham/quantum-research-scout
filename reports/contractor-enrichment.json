@@ -213,7 +213,7 @@
         "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY"
       ],
       "cache_status": "error",
-      "checked_at": "2026-08-02T05:50:57.318615+00:00",
+      "checked_at": "2026-08-03T02:07:21.978304+00:00",
       "contractor_name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
       "contractor_score": 27,
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
@@ -471,6 +471,19 @@
     },
     {
       "aliases": [
+        "THE ARDIAN GROUP, INC"
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "THE ARDIAN GROUP, INC",
+      "contractor_score": 24,
+      "identity_id": "uei:UE9KZJJCMAS9",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
         "SHOREPOINT LLC"
       ],
       "cache_status": "run_budget_exhausted",
@@ -682,7 +695,7 @@
         "MASSACHUSETTS INSTITUTE OF TECHNOLOGY"
       ],
       "cache_status": "error",
-      "checked_at": "2026-08-02T05:50:57.318615+00:00",
+      "checked_at": "2026-08-03T02:07:21.978304+00:00",
       "contractor_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
       "contractor_score": 23,
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
@@ -1268,7 +1281,7 @@
       "aliases": [
         "UNIVERSITY OF ARIZONA"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "UNIVERSITY OF ARIZONA",
       "contractor_score": 20,
@@ -1295,7 +1308,7 @@
         "THE UNIVERSITY OF IOWA"
       ],
       "cache_status": "error",
-      "checked_at": "2026-08-02T05:50:57.318615+00:00",
+      "checked_at": "2026-08-03T02:07:21.978304+00:00",
       "contractor_name": "THE UNIVERSITY OF IOWA",
       "contractor_score": 20,
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
@@ -1360,7 +1373,7 @@
       "aliases": [
         "NEVADA SYSTEM OF HIGHER EDUCATION"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "NEVADA SYSTEM OF HIGHER EDUCATION",
       "contractor_score": 20,
@@ -2011,7 +2024,7 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-08-02T05:50:57.318615+00:00",
+      "checked_at": "2026-08-03T02:07:21.978304+00:00",
       "contractor_name": "UNIVERSITY OF OKLAHOMA",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:EVTSTTLCEWS5",
@@ -2019,7 +2032,7 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-08-02T05:50:57.318615+00:00",
+      "checked_at": "2026-08-03T02:07:21.978304+00:00",
       "contractor_name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:NPU8ULVAAS23",
@@ -2027,7 +2040,7 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-08-02T05:50:57.318615+00:00",
+      "checked_at": "2026-08-03T02:07:21.978304+00:00",
       "contractor_name": "REDACTED DUE TO PII",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "name:redacted due to pii",
@@ -2035,7 +2048,7 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-08-02T05:50:57.318615+00:00",
+      "checked_at": "2026-08-03T02:07:21.978304+00:00",
       "contractor_name": "POST QUANTUM LABS LLC",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:H53MXWJZPYU3",
@@ -2051,7 +2064,7 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-08-02T05:50:57.318615+00:00",
+      "checked_at": "2026-08-03T02:07:21.978304+00:00",
       "contractor_name": "MORGAN STATE UNIVERSITY",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:KULSKCCZJT27",
@@ -2067,7 +2080,7 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-08-02T05:50:57.318615+00:00",
+      "checked_at": "2026-08-03T02:07:21.978304+00:00",
       "contractor_name": "INUTEQ, LLC",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:NBEWZB8LQ8Z5",
@@ -2075,7 +2088,7 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-08-02T05:50:57.318615+00:00",
+      "checked_at": "2026-08-03T02:07:21.978304+00:00",
       "contractor_name": "FOUR POINTS TECHNOLOGY, L.L.C.",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:H1KHJPJH9R51",
@@ -2091,7 +2104,7 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-08-02T05:50:57.318615+00:00",
+      "checked_at": "2026-08-03T02:07:21.978304+00:00",
       "contractor_name": "CARNEGIE-MELLON UNIVERSITY",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:U3NKNFLNQ613",
@@ -2107,7 +2120,7 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-08-02T05:50:57.318615+00:00",
+      "checked_at": "2026-08-03T02:07:21.978304+00:00",
       "contractor_name": "ARETE CONSULTING LLC",
       "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&includeSections=entityRegi...",
       "identity_id": "uei:C2PNBME1GYB5",
@@ -2119,15 +2132,15 @@
   "summary": {
     "ambiguous": 0,
     "api_key_configured": true,
-    "name_only": 168,
+    "name_only": 169,
     "newly_resolved": 0,
     "no_match": 0,
-    "pending": 153,
+    "pending": 154,
     "queries_remaining": 0,
     "resolved": 0,
     "tracked_contractors": 75,
     "uei_coverage_percent": 0.0
   },
-  "updated_at": "2026-08-02T05:50:57.318615+00:00",
+  "updated_at": "2026-08-03T02:07:21.978304+00:00",
   "version": 1
 }

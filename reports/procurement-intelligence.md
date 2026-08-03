@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-02T05:50:57.318615+00:00_
+_Updated 2026-08-03T02:07:21.978304+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
