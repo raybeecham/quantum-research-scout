@@ -21,140 +21,140 @@
   "recent_warnings": [
     {
       "date": "2026-08-02",
-      "message": "Failed to fetch https://api.sam.gov/opportunities/v2/search: 400 Client Error: Bad Request for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=quantum",
+      "message": "Failed to fetch https://api.sam.gov/opportunities/v2/search: 400 Client Error: Bad Request for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=quantum",
       "name": "SAM.gov \u00b7 Quantum Technologies",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-02",
-      "message": "Failed to fetch https://api.sam.gov/opportunities/v2/search: 400 Client Error: Bad Request for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=post+quantum",
+      "message": "Failed to fetch https://api.sam.gov/opportunities/v2/search: 400 Client Error: Bad Request for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=post+quantum",
       "name": "SAM.gov \u00b7 Post-Quantum Cybersecurity",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-02",
-      "message": "Failed to fetch https://api.sam.gov/opportunities/v2/search: 400 Client Error: Bad Request for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=artificial+intelligence",
+      "message": "Failed to fetch https://api.sam.gov/opportunities/v2/search: 400 Client Error: Bad Request for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=artificial+intelligence",
       "name": "SAM.gov \u00b7 Artificial Intelligence",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-02",
-      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=cybersecurity",
+      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=cybersecurity",
       "name": "SAM.gov \u00b7 Cybersecurity",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-02",
-      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=high+performance+computing",
+      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=high+performance+computing",
       "name": "SAM.gov \u00b7 Advanced Computing",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-02",
-      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=autonomous+systems",
+      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=autonomous+systems",
       "name": "SAM.gov \u00b7 Autonomy and Sensing",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-02",
-      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=Genesis+Mission",
+      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=Genesis+Mission",
       "name": "SAM.gov \u00b7 Genesis Mission",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-02",
-      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=Golden+Dome",
+      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=Golden+Dome",
       "name": "SAM.gov \u00b7 Golden Dome",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-02",
-      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=Quantum+Genesis",
+      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=Quantum+Genesis",
       "name": "SAM.gov \u00b7 Quantum Genesis",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-02",
-      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=QC-ADDS",
+      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=QC-ADDS",
       "name": "SAM.gov \u00b7 QC-ADDS",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-02",
-      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=QuantumEAGLe",
+      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=QuantumEAGLe",
       "name": "SAM.gov \u00b7 QuantumEAGLe",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-02",
-      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=Project+Triad",
+      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=Project+Triad",
       "name": "SAM.gov \u00b7 Project Triad",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-02",
-      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=Quantum+Benchmarking+Initiative",
+      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=Quantum+Benchmarking+Initiative",
       "name": "SAM.gov \u00b7 Quantum Benchmarking Initiative",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-02",
-      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=AI+Pace-Setting+Projects",
+      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=AI+Pace-Setting+Projects",
       "name": "SAM.gov \u00b7 Military AI Pace-Setting Projects",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-02",
-      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=AI+Forge",
+      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F04%2F2023&postedTo=08%2F03%2F2026&limit=20&offset=0&title=AI+Forge",
       "name": "SAM.gov \u00b7 AI Forge",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-01",
-      "message": "Failed to fetch https://api.sam.gov/opportunities/v2/search: 400 Client Error: Bad Request for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F03%2F2023&postedTo=08%2F02%2F2026&limit=20&offset=0&title=quantum",
+      "message": "Failed to fetch https://api.sam.gov/opportunities/v2/search: 400 Client Error: Bad Request for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F03%2F2023&postedTo=08%2F02%2F2026&limit=20&offset=0&title=quantum",
       "name": "SAM.gov \u00b7 Quantum Technologies",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-01",
-      "message": "Failed to fetch https://api.sam.gov/opportunities/v2/search: 400 Client Error: Bad Request for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F03%2F2023&postedTo=08%2F02%2F2026&limit=20&offset=0&title=post+quantum",
+      "message": "Failed to fetch https://api.sam.gov/opportunities/v2/search: 400 Client Error: Bad Request for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F03%2F2023&postedTo=08%2F02%2F2026&limit=20&offset=0&title=post+quantum",
       "name": "SAM.gov \u00b7 Post-Quantum Cybersecurity",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-01",
-      "message": "Failed to fetch https://api.sam.gov/opportunities/v2/search: 400 Client Error: Bad Request for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F03%2F2023&postedTo=08%2F02%2F2026&limit=20&offset=0&title=artificial+intelligence",
+      "message": "Failed to fetch https://api.sam.gov/opportunities/v2/search: 400 Client Error: Bad Request for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F03%2F2023&postedTo=08%2F02%2F2026&limit=20&offset=0&title=artificial+intelligence",
       "name": "SAM.gov \u00b7 Artificial Intelligence",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-01",
-      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F03%2F2023&postedTo=08%2F02%2F2026&limit=20&offset=0&title=cybersecurity",
+      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F03%2F2023&postedTo=08%2F02%2F2026&limit=20&offset=0&title=cybersecurity",
       "name": "SAM.gov \u00b7 Cybersecurity",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"
     },
     {
       "date": "2026-08-01",
-      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=SAM-0caad676-abc6-4091-8e5f-de1230ec5880&postedFrom=08%2F03%2F2023&postedTo=08%2F02%2F2026&limit=20&offset=0&title=high+performance+computing",
+      "message": "SAM.gov rate limited (HTTP 429): Failed to fetch https://api.sam.gov/opportunities/v2/search: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=[REDACTED]&postedFrom=08%2F03%2F2023&postedTo=08%2F02%2F2026&limit=20&offset=0&title=high+performance+computing",
       "name": "SAM.gov \u00b7 Advanced Computing",
       "type": "procurement",
       "url": "https://api.sam.gov/opportunities/v2/search"

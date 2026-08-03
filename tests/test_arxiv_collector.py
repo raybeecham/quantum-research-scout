@@ -4,7 +4,13 @@ import unittest
 from unittest.mock import patch
 
 from pqc_quantum_research_agent.classifier import classify_item
-from pqc_quantum_research_agent.collectors import ARXIV_API_URL, collect_all, collect_arxiv, collect_arxiv_rss
+from pqc_quantum_research_agent.collectors import (
+    ARXIV_API_URL,
+    collect_all,
+    collect_arxiv,
+    collect_arxiv_rss,
+    collect_arxiv_sources,
+)
 from pqc_quantum_research_agent.config import AgentConfig, RuntimeSettings
 
 
@@ -39,6 +45,16 @@ class FakeClient:
         if self.error:
             raise self.error
         return self.response, url
+
+
+class SequenceClient(FakeClient):
+    def __init__(self, responses: list[str]) -> None:
+        super().__init__()
+        self.responses = responses
+
+    def get_text(self, url: str, params: dict | None = None) -> tuple[str, str]:
+        self.calls.append((url, params or {}))
+        return self.responses.pop(0), url
 
 
 class ArxivCollectorTests(unittest.TestCase):
@@ -109,6 +125,29 @@ class ArxivCollectorTests(unittest.TestCase):
         self.assertEqual(item.source_type, "arxiv_rss")
         self.assertGreaterEqual(item.score, 3)
         self.assertIn("ml-kem", item.matched_keywords)
+
+    def test_empty_rss_uses_api_fallback_without_empty_feed_warning(self) -> None:
+        client = SequenceClient([EMPTY_ATOM_FEED, RSS_FEED])
+
+        result = collect_arxiv_sources(
+            client,  # type: ignore[arg-type]
+            [{"name": "arXiv RSS cs.CR", "url": "https://rss.arxiv.org/rss/cs.CR"}],
+            {
+                "enabled": True,
+                "fallback_only": True,
+                "request_pause_seconds": 0,
+                "queries": [{"name": "arXiv API", "search_query": "cat:cs.CR"}],
+            },
+            10,
+        )
+
+        self.assertEqual(len(result.items), 1)
+        self.assertEqual(result.items[0].source_type, "arxiv")
+        self.assertEqual(result.warnings, [])
+        self.assertEqual([call[0] for call in client.calls], [
+            "https://rss.arxiv.org/rss/cs.CR",
+            ARXIV_API_URL,
+        ])
 
 
 if __name__ == "__main__":

@@ -4,6 +4,8 @@ from dataclasses import dataclass, field
 from datetime import date, datetime, timezone
 from typing import Any
 
+from .redaction import redact_text, redact_url
+
 
 def utc_now() -> datetime:
     return datetime.now(timezone.utc)
@@ -39,6 +41,12 @@ class SourceWarning:
     source_type: str
     message: str
     url: str = ""
+
+    def __post_init__(self) -> None:
+        self.source_name = redact_text(self.source_name)
+        self.source_type = redact_text(self.source_type)
+        self.message = redact_text(self.message)
+        self.url = redact_url(self.url)
 
 
 @dataclass(slots=True)

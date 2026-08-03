@@ -6,6 +6,8 @@ from typing import Any
 
 import requests
 
+from .redaction import redact_text, redact_url
+
 LOGGER = logging.getLogger(__name__)
 
 
@@ -42,32 +44,30 @@ class HttpClient:
                 response = self.session.get(url, params=params, headers=headers, timeout=self.timeout_seconds)
                 response.raise_for_status()
                 response.encoding = _best_response_encoding(response)
-                return response.text, response.url
+                return response.text, redact_url(response.url)
             except requests.HTTPError as exc:
                 last_error = exc
                 response = exc.response
-                retry_after = 0
-                if response is not None and response.status_code == 429:
-                    retry_after = _retry_after_seconds(response.headers.get("Retry-After"))
-                if attempt < self.retries:
-                    if response is not None and response.status_code == 429:
-                        delay = retry_after or _exponential_backoff_seconds(
-                            attempt,
-                            self.backoff_base_seconds,
-                            self.max_backoff_seconds,
-                        )
-                    else:
-                        delay = 1 + attempt
+                delay = _http_retry_delay(
+                    response,
+                    attempt,
+                    self.backoff_base_seconds,
+                    self.max_backoff_seconds,
+                )
+                if attempt < self.retries and delay is not None:
                     time.sleep(delay)
                     continue
-                LOGGER.warning("Fetch failed for %s: %s", url, exc)
+                LOGGER.warning("Fetch failed for %s: %s", redact_url(url), redact_text(exc))
+                break
             except requests.RequestException as exc:
                 last_error = exc
                 if attempt < self.retries:
                     time.sleep(1 + attempt)
                     continue
-                LOGGER.warning("Fetch failed for %s: %s", url, exc)
-        raise RuntimeError(f"Failed to fetch {url}: {last_error}")
+                LOGGER.warning("Fetch failed for %s: %s", redact_url(url), redact_text(exc))
+        raise RuntimeError(
+            f"Failed to fetch {redact_url(url)}: {redact_text(last_error)}"
+        )
 
     def get_bytes(
         self,
@@ -107,16 +107,41 @@ class HttpClient:
                         chunks.append(chunk)
                     return (
                         b"".join(chunks),
-                        response.url,
+                        redact_url(response.url),
                         response.headers.get("Content-Type", ""),
                     )
-            except (requests.RequestException, RuntimeError, ValueError) as exc:
+            except requests.HTTPError as exc:
+                last_error = exc
+                delay = _http_retry_delay(
+                    exc.response,
+                    attempt,
+                    self.backoff_base_seconds,
+                    self.max_backoff_seconds,
+                )
+                if attempt < self.retries and delay is not None:
+                    time.sleep(delay)
+                    continue
+                LOGGER.warning(
+                    "Binary fetch failed for %s: %s", redact_url(url), redact_text(exc)
+                )
+                break
+            except requests.RequestException as exc:
                 last_error = exc
                 if attempt < self.retries:
                     time.sleep(1 + attempt)
                     continue
-                LOGGER.warning("Binary fetch failed for %s: %s", url, exc)
-        raise RuntimeError(f"Failed to fetch document {url}: {last_error}")
+                LOGGER.warning(
+                    "Binary fetch failed for %s: %s", redact_url(url), redact_text(exc)
+                )
+            except (RuntimeError, ValueError) as exc:
+                last_error = exc
+                LOGGER.warning(
+                    "Binary fetch failed for %s: %s", redact_url(url), redact_text(exc)
+                )
+                break
+        raise RuntimeError(
+            f"Failed to fetch document {redact_url(url)}: {redact_text(last_error)}"
+        )
 
     def post_text(
         self,
@@ -136,31 +161,48 @@ class HttpClient:
                 )
                 response.raise_for_status()
                 response.encoding = _best_response_encoding(response)
-                return response.text, response.url
+                return response.text, redact_url(response.url)
             except requests.HTTPError as exc:
                 last_error = exc
                 response = exc.response
-                retry_after = (
-                    _retry_after_seconds(response.headers.get("Retry-After"))
-                    if response is not None and response.status_code == 429
-                    else 0
+                delay = _http_retry_delay(
+                    response,
+                    attempt,
+                    self.backoff_base_seconds,
+                    self.max_backoff_seconds,
                 )
-                if attempt < self.retries:
-                    delay = retry_after or _exponential_backoff_seconds(
-                        attempt,
-                        self.backoff_base_seconds,
-                        self.max_backoff_seconds,
-                    )
+                if attempt < self.retries and delay is not None:
                     time.sleep(delay)
                     continue
-                LOGGER.warning("POST failed for %s: %s", url, exc)
+                LOGGER.warning("POST failed for %s: %s", redact_url(url), redact_text(exc))
+                break
             except requests.RequestException as exc:
                 last_error = exc
                 if attempt < self.retries:
                     time.sleep(1 + attempt)
                     continue
-                LOGGER.warning("POST failed for %s: %s", url, exc)
-        raise RuntimeError(f"Failed to post to {url}: {last_error}")
+                LOGGER.warning("POST failed for %s: %s", redact_url(url), redact_text(exc))
+        raise RuntimeError(
+            f"Failed to post to {redact_url(url)}: {redact_text(last_error)}"
+        )
+
+
+def _http_retry_delay(
+    response: requests.Response | None,
+    attempt: int,
+    base_seconds: float,
+    max_seconds: float,
+) -> float | None:
+    """Retry transient responses without wasting quota on permanent 4xx errors."""
+    if response is None:
+        return None
+    status = response.status_code
+    if status == 429:
+        retry_after = _retry_after_seconds(response.headers.get("Retry-After"))
+        return float(retry_after) if retry_after > 0 else None
+    if status in {408, 425} or status >= 500:
+        return _exponential_backoff_seconds(attempt, base_seconds, max_seconds)
+    return None
 
 
 def _retry_after_seconds(value: str | None) -> int:

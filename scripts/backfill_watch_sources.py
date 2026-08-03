@@ -87,6 +87,9 @@ def main() -> int:
 
     reports = Path(args.reports_dir)
     generated = datetime.now(timezone.utc)
+    backfill_funding = deepcopy(config.federal_funding)
+    backfill_funding.setdefault("contractor_enrichment", {})["max_entities_per_run"] = 0
+    backfill_funding.setdefault("document_intelligence", {})["max_downloads_per_run"] = 0
     json_path, _ = write_historical_evidence(
         reports,
         collection.items,
@@ -111,14 +114,14 @@ def main() -> int:
     write_data_trust_report(reports, generated_at=generated)
     write_contractor_enrichment(
         reports,
-        config.federal_funding,
+        backfill_funding,
         client=client,
         generated_at=generated,
     )
     capability_profile = load_capability_profile(args.capabilities_config)
     write_procurement_intelligence(
         reports,
-        config.federal_funding,
+        backfill_funding,
         client=client,
         capability_profile=capability_profile,
         generated_at=generated,

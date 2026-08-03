@@ -16,6 +16,8 @@ class DashboardBuildTests(unittest.TestCase):
         for label in ("Rising", "Stable", "Declining", "Critical importance", "Actionable", "Watching", "Stale"):
             self.assertIn(label, html)
         self.assertIn("const definitions", script)
+        self.assertIn("operational_summary", script)
+        self.assertIn("coverage-degraded", script)
 
     def test_build_dashboard_copies_assets_and_shapes_data(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:

@@ -8,7 +8,9 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from .config import AgentConfig, load_config
+from .dates import operational_date
 from .models import CollectionResult
+from .redaction import redact_text, redact_url
 from .visuals import health_icon
 
 DAILY_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})-digest\.md$")
@@ -47,7 +49,7 @@ def write_source_observations(
                 {
                     "type": warning.source_type,
                     "message": warning.message,
-                    "date": generated.date().isoformat(),
+                    "date": operational_date(generated).isoformat(),
                 }
             )
             for warning in warnings
@@ -60,13 +62,13 @@ def write_source_observations(
         )
         last_item_at = str(prior.get("last_item_at") or "") or None
         last_item_title = str(prior.get("last_item_title") or "") or None
-        last_item_url = str(prior.get("last_item_url") or "") or None
+        last_item_url = redact_url(prior.get("last_item_url") or "") or None
         if latest_item is not None:
             candidate_at = latest_item.published_at.astimezone(timezone.utc).isoformat()
             if not last_item_at or candidate_at > last_item_at:
                 last_item_at = candidate_at
                 last_item_title = latest_item.title
-                last_item_url = latest_item.url
+                last_item_url = redact_url(latest_item.url)
         observations.append(
             {
                 "name": name,
@@ -78,7 +80,7 @@ def write_source_observations(
                 "last_item_url": last_item_url,
                 "last_outcome": outcome,
                 "last_run_items": len(items),
-                "last_warning": warnings[0].message if warnings else None,
+                "last_warning": redact_text(warnings[0].message) if warnings else None,
                 "runs_observed": int(prior.get("runs_observed", 0)) + 1,
                 "successful_runs": int(prior.get("successful_runs", 0)) + (outcome == "success"),
                 "failure_runs": int(prior.get("failure_runs", 0)) + (outcome == "failing"),
@@ -122,7 +124,12 @@ def write_source_health_report(
                 break
             warning = WARNING_RE.match(line) if in_warnings else None
             if warning:
-                item = {"date": report_date, **warning.groupdict()}
+                item = {
+                    "date": report_date,
+                    **warning.groupdict(),
+                    "url": redact_url(warning.group("url")),
+                    "message": redact_text(warning.group("message")),
+                }
                 if _is_expected_idle(item):
                     expected_idle[item["name"]].append(item)
                 else:
@@ -183,6 +190,7 @@ def write_source_health_report(
                 "last_item_url": observation.get("last_item_url"),
                 "last_run_items": observation.get("last_run_items"),
                 "consecutive_failures": observation.get("consecutive_failures", 0),
+                "last_outcome": observation.get("last_outcome"),
             }
         )
     health_by_name = {str(item["name"]): item for item in health_entries}
@@ -191,6 +199,26 @@ def write_source_health_report(
         lines.append(
             f"| {name} | {source_type} | {success_rate:.0f}% | {failure_days} | {_short_date(health.get('last_checked_at'))} | "
             f"{_short_date(health.get('last_item_at'))} | {health['freshness']} | {health_icon(status)} {status} |"
+        )
+
+    operational_summary = _operational_summary(
+        health_entries,
+        config.source_health.get("critical_source_types"),
+    )
+    lines.extend(
+        [
+            "",
+            "## Operational Coverage",
+            "",
+            f"- Coverage status: **{str(operational_summary['status']).upper()}**",
+            f"- Healthy sources: **{operational_summary['healthy_sources']}** of **{operational_summary['enabled_sources']}**",
+            f"- Critical sources failing: **{operational_summary['critical_sources_failing']}**",
+        ]
+    )
+    if operational_summary["critical_failures"]:
+        lines.append(
+            "- Critical blind spots: "
+            + ", ".join(str(value) for value in operational_summary["critical_failures"])
         )
 
     lines.extend(["", "## Disabled Sources", ""])
@@ -224,6 +252,7 @@ def write_source_health_report(
                 "recent_warnings": recent,
                 "observation_updated_at": observation_payload.get("updated_at"),
                 "stale_after_days": stale_after_days,
+                "operational_summary": operational_summary,
             },
             indent=2,
             sort_keys=True,
@@ -269,6 +298,40 @@ def _short_date(value) -> str:
     return str(value)[:10] if value else "—"
 
 
+def _operational_summary(
+    health_entries: list[dict[str, object]],
+    configured_critical_types: object,
+) -> dict[str, object]:
+    critical_types = {
+        str(value)
+        for value in (
+            configured_critical_types
+            if isinstance(configured_critical_types, list)
+            else ["federal_award", "grant_opportunity", "procurement"]
+        )
+    }
+    failing = [
+        item
+        for item in health_entries
+        if item.get("last_outcome") == "failing" or item.get("status") == "failing"
+    ]
+    critical_failures = sorted(
+        str(item.get("name"))
+        for item in failing
+        if str(item.get("type")) in critical_types
+    )
+    status = "degraded" if critical_failures else "watch" if failing else "healthy"
+    return {
+        "status": status,
+        "enabled_sources": len(health_entries),
+        "healthy_sources": sum(item.get("status") == "healthy" for item in health_entries),
+        "failing_sources": len(failing),
+        "critical_sources_failing": len(critical_failures),
+        "critical_failures": critical_failures,
+        "critical_source_types": sorted(critical_types),
+    }
+
+
 def _is_expected_idle(item: dict[str, str]) -> bool:
     return (
         item["type"] == "arxiv_rss"
@@ -293,9 +356,14 @@ def _configured_sources(config: AgentConfig) -> tuple[list[tuple[str, str]], lis
             ("sam_gov", "procurement", "SAM.gov"),
         ):
             provider = config.federal_funding.get(provider_key) or {}
-            key_env = str(provider.get("api_key_env") or "")
-            available = not key_env or bool(os.getenv(key_env))
-            if provider.get("enabled", True) and available:
+            if provider.get("enabled", True):
+                if (
+                    provider_key == "sam_gov"
+                    and str(provider.get("collection_mode") or "query").casefold()
+                    == "snapshot"
+                ):
+                    sources.append(("SAM.gov Opportunities", source_type, True))
+                    continue
                 sources.extend(
                     (
                         f"{default_name} · {item.get('name', item.get('keyword', 'Federal funding'))}",

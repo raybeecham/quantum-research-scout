@@ -157,7 +157,7 @@ class FederalFundingTests(unittest.TestCase):
         self.assertEqual(client.get_calls[0][1]["api_key"], "test-key")
         self.assertIn("time_period", client.post_calls[0][1]["filters"])
 
-    def test_sam_is_optional_when_api_key_is_missing(self) -> None:
+    def test_sam_missing_api_key_is_reported_as_critical_coverage_warning(self) -> None:
         client = FakeFundingClient()
         config = {
             "enabled": True,
@@ -171,8 +171,48 @@ class FederalFundingTests(unittest.TestCase):
             result = collect_federal_funding(client, config, 20)  # type: ignore[arg-type]
 
         self.assertEqual(result.items, [])
-        self.assertEqual(result.warnings, [])
+        self.assertEqual(len(result.warnings), 1)
+        self.assertEqual(result.warnings[0].source_name, "SAM.gov Opportunities")
+        self.assertIn("not configured", result.warnings[0].message)
         self.assertEqual(client.get_calls, [])
+
+    def test_snapshot_mode_uses_one_unfiltered_request_and_matches_locally(self) -> None:
+        client = FakeFundingClient()
+        config = {
+            "enabled": True,
+            "usaspending": {"enabled": False},
+            "grants_gov": {"enabled": False},
+            "sam_gov": {
+                "collection_mode": "snapshot",
+                "api_key_env": "SAM_GOV_API_KEY",
+                "lookback_days": 2,
+                "max_items_per_request": 1000,
+                "max_pages_per_run": 1,
+            },
+            "queries": [
+                {
+                    "name": "Test Mission",
+                    "keyword": "Test Mission",
+                    "mission_ids": ["test-mission"],
+                },
+                {
+                    "name": "Artificial Intelligence",
+                    "keyword": "artificial intelligence",
+                    "match_terms": ["AI"],
+                },
+            ],
+        }
+
+        with patch.dict("os.environ", {"SAM_GOV_API_KEY": "test-key"}):
+            result = collect_federal_funding(client, config, 20)  # type: ignore[arg-type]
+
+        self.assertEqual(len(client.get_calls), 1)
+        self.assertNotIn("title", client.get_calls[0][1])
+        self.assertEqual(client.get_calls[0][1]["limit"], 1000)
+        self.assertEqual(len(result.items), 1)
+        self.assertEqual(result.items[0].source_name, "SAM.gov Opportunities")
+        self.assertEqual(result.items[0].raw_payload["mission_ids"], ["test-mission"])
+        self.assertEqual(result.items[0].raw_payload["query_names"], ["Test Mission"])
 
     def test_tracker_links_missions_recipients_and_patents(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:

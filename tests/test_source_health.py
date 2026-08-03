@@ -46,6 +46,7 @@ class SourceHealthTests(unittest.TestCase):
             data = json.loads((root / "reports" / "source-health.json").read_text(encoding="utf-8"))
             self.assertEqual(data["report_days"], 2)
             self.assertEqual(next(item for item in data["sources"] if item["name"] == "Broken Feed")["status"], "failing")
+            self.assertEqual(data["operational_summary"]["status"], "watch")
 
     def test_observations_record_checks_items_and_failures(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -86,3 +87,85 @@ class SourceHealthTests(unittest.TestCase):
             self.assertEqual(broken_observation["consecutive_failures"], 1)
             self.assertEqual(fresh_health["verification_status"], "verified")
             self.assertEqual(fresh_health["freshness"], "fresh")
+
+    def test_critical_source_failure_degrades_operational_coverage(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            reports = root / "reports"
+            config_path = root / "sources.yaml"
+            config_path.write_text(
+                "source_health:\n"
+                "  critical_source_types: [procurement]\n"
+                "federal_funding:\n"
+                "  enabled: true\n"
+                "  usaspending:\n    enabled: false\n"
+                "  grants_gov:\n    enabled: false\n"
+                "  sam_gov:\n    enabled: true\n    collection_mode: snapshot\n"
+                "  queries:\n    - name: Quantum\n      keyword: quantum\n",
+                encoding="utf-8",
+            )
+            generated = datetime(2026, 8, 3, tzinfo=timezone.utc)
+            collection = CollectionResult(
+                warnings=[
+                    SourceWarning(
+                        "SAM.gov Opportunities",
+                        "procurement",
+                        "Collection paused because the secret is not configured.",
+                    )
+                ]
+            )
+
+            write_source_observations(
+                reports,
+                load_config(config_path),
+                collection,
+                generated_at=generated,
+            )
+            write_source_health_report(reports, config_path, generated_at=generated)
+            data = json.loads((reports / "source-health.json").read_text(encoding="utf-8"))
+
+            self.assertEqual(data["operational_summary"]["status"], "degraded")
+            self.assertEqual(
+                data["operational_summary"]["critical_failures"],
+                ["SAM.gov Opportunities"],
+            )
+
+    def test_weekend_idle_uses_operational_date_not_utc_date(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            reports = root / "reports"
+            config_path = root / "sources.yaml"
+            config_path.write_text(
+                "arxiv_rss:\n"
+                "  - name: arXiv RSS cs.CR\n"
+                "    url: https://rss.arxiv.org/rss/cs.CR\n",
+                encoding="utf-8",
+            )
+            # 02:00 UTC Monday is still Sunday evening in America/Chicago.
+            generated = datetime(2026, 8, 3, 2, tzinfo=timezone.utc)
+            collection = CollectionResult(
+                warnings=[
+                    SourceWarning(
+                        "arXiv RSS cs.CR",
+                        "arxiv_rss",
+                        "Feed returned no parseable entries.",
+                    )
+                ]
+            )
+
+            write_source_observations(
+                reports,
+                load_config(config_path),
+                collection,
+                generated_at=generated,
+            )
+            observations = json.loads(
+                (reports / "source-observations.json").read_text(encoding="utf-8")
+            )
+
+            arxiv = next(
+                item
+                for item in observations["sources"]
+                if item["name"] == "arXiv RSS cs.CR"
+            )
+            self.assertEqual(arxiv["last_outcome"], "expected-idle")

@@ -1171,6 +1171,36 @@ class ReportTests(unittest.TestCase):
         self.assertIn("technical shift", digest)
         self.assertIn("introduced Quantum Spectrum", digest)
 
+    def test_sparse_single_source_digest_discloses_low_confidence(self) -> None:
+        items = [
+            ResearchItem(
+                source_name="Secondary Quantum News",
+                source_type="rss",
+                title=f"Quantum processor result {index}",
+                url=f"https://news.example/item-{index}",
+                summary="Quantum processor hardware improves logical qubit performance.",
+                published_at=datetime(2026, 8, 2, 12, index, tzinfo=timezone.utc),
+                date_filter_status="included_today",
+                category="Quantum Hardware",
+                score=40 - index,
+                matched_keywords=["quantum processor", "logical qubit"],
+                score_explanation="topic_confidence=8; rationale=quantum hardware relevance",
+            )
+            for index in range(3)
+        ]
+        summary = DateFilterSummary(
+            target_date=date(2026, 8, 2),
+            generated_at=datetime(2026, 8, 3, tzinfo=timezone.utc),
+            collected_raw_candidates=3,
+            eligible_items_for_target_date=3,
+        )
+
+        digest = render_digest(items, date(2026, 8, 2), summary=summary)
+
+        self.assertIn("Briefing confidence: **LOW", digest)
+        self.assertIn("every included item came from one source", digest)
+        self.assertIn("this measures source coverage and diversity", digest)
+
 
 def _key_points_for(digest: str, title: str) -> list[str]:
     return [line for line in _key_points_block_for(digest, title) if line.startswith("- ")]

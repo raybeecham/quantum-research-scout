@@ -74,6 +74,7 @@ jobs:
         env:
           REPORTS_DIR: ${{ github.workspace }}/reports
           USPTO_ODP_API_KEY: ${{ secrets.USPTO_ODP_API_KEY }}
+          SAM_GOV_API_KEY: ${{ secrets.SAM_GOV_API_KEY }}
         run: |
           mkdir -p "$REPORTS_DIR"
           pqc-quantum-research-agent \
@@ -82,6 +83,11 @@ jobs:
             --reports-dir "$REPORTS_DIR" \
             --date "$(date +%F)" \
             --coverage-end-time "08:00"
+
+      - name: Sanitize generated reports
+        run: |
+          python scripts/sanitize_report_secrets.py reports --write
+          python scripts/sanitize_report_secrets.py reports
 
       - name: Generate weekly synthesis
         env:

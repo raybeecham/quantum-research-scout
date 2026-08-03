@@ -43,6 +43,11 @@ jobs:
           --standards-config standards.yaml
           --missions-config missions.yaml
 
+      - name: Sanitize generated reports
+        run: |
+          python scripts/sanitize_report_secrets.py reports --write
+          python scripts/sanitize_report_secrets.py reports
+
       - name: Commit intelligence artifacts
         run: |
           git config user.name "github-actions[bot]"

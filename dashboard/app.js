@@ -118,7 +118,12 @@ function render(){
   const verified = sources.filter(x => x.verification_status === "verified").length;
   const fresh = sources.filter(x => x.freshness === "fresh").length;
   const stale = sources.filter(x => x.freshness === "stale").length;
-  document.getElementById("source-summary").textContent = `${healthy} healthy · ${verified} verified · ${fresh} fresh · ${stale} stale`;
+  const coverageState = state.data.source_health?.operational_summary || {};
+  const coverageStatus = String(coverageState.status || "unknown").toLowerCase();
+  const sourceSummary = document.getElementById("source-summary");
+  sourceSummary.textContent = `${coverageStatus.toUpperCase()} coverage · ${healthy} healthy · ${verified} verified · ${fresh} fresh · ${stale} stale`;
+  sourceSummary.classList.remove("coverage-healthy", "coverage-watch", "coverage-degraded", "coverage-unknown");
+  sourceSummary.classList.add(`coverage-${coverageStatus}`);
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
   renderReports(state.data.reports); renderAlerts(alerts, temporalPayload); renderDecisionCenter(analystDecisionPayload, changePayload); renderForecasts(forecastPayload); renderMissions(missionPayload, fundingPayload); renderFunding(fundingPayload); renderProcurementDocuments(procurementPayload); renderDecisionBriefs(decisionPayload); renderPursuits(pursuitPayload); renderEvidenceLedger(claimPayload, changePayload, temporalPayload); renderSignals(); renderPatents(patentPayload); renderWatch();
   renderTrend(); renderReadiness(); renderStandards(); renderComparison(); renderCoverage(); renderDataTrust(dataTrustPayload); renderSources(sources);

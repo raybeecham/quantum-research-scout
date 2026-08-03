@@ -16,6 +16,7 @@ from .feed_parser import parse_feed
 from .html_links import extract_links, extract_page_metadata
 from .http import HttpClient
 from .models import CollectionResult, ResearchItem, SourceWarning
+from .redaction import redact_url
 from .text import compact_summary, strip_html
 
 LOGGER = logging.getLogger(__name__)
@@ -45,8 +46,16 @@ def collect_all(config: AgentConfig) -> CollectionResult:
                 settings.max_items_per_source,
             ),
         ),
-        ("arXiv RSS", "arxiv_rss", lambda: collect_arxiv_rss(client, config.arxiv_rss, settings.max_items_per_source)),
-        ("arXiv API", "arxiv", lambda: collect_arxiv(client, config.arxiv)),
+        (
+            "arXiv",
+            "arxiv",
+            lambda: collect_arxiv_sources(
+                client,
+                config.arxiv_rss,
+                config.arxiv,
+                settings.max_items_per_source,
+            ),
+        ),
         (
             "IACR ePrint",
             "iacr_eprint",
@@ -679,11 +688,36 @@ def _collect_sam_opportunities(
     api_key_env = str(provider.get("api_key_env") or "SAM_GOV_API_KEY")
     api_key = os.getenv(api_key_env, "").strip()
     if not api_key:
-        LOGGER.info("SAM.gov collection skipped because %s is not configured", api_key_env)
-        return CollectionResult()
+        message = f"Collection paused because the {api_key_env} secret is not configured."
+        LOGGER.warning("SAM.gov %s", message)
+        return CollectionResult(
+            warnings=[
+                SourceWarning(
+                    "SAM.gov Opportunities",
+                    "procurement",
+                    message,
+                    str(provider.get("endpoint") or "https://api.sam.gov/opportunities/v2/search"),
+                )
+            ]
+        )
     endpoint = str(provider.get("endpoint") or "https://api.sam.gov/opportunities/v2/search")
+    if str(provider.get("collection_mode") or "query").casefold() == "snapshot":
+        return _collect_sam_snapshot(
+            client,
+            funding_config,
+            provider,
+            api_key,
+            endpoint,
+            max_items_per_source,
+        )
+
     max_items = int(provider.get("max_items_per_query", max_items_per_source))
-    start_date, end_date = _funding_date_range(funding_config, sam_format=True)
+    lookback_days = min(364, int(provider.get("lookback_days", funding_config.get("lookback_days", 365))))
+    start_date, end_date = _funding_date_range(
+        funding_config,
+        sam_format=True,
+        lookback_days=lookback_days,
+    )
     result = CollectionResult()
     seen: set[str] = set()
     for query in funding_config.get("queries", []):
@@ -725,114 +759,271 @@ def _collect_sam_opportunities(
             if not key or key in seen:
                 continue
             seen.add(key)
-            title = _first_text(opportunity, "title") or f"Procurement notice {solicitation}"
-            notice_type = _first_text(opportunity, "type", "ptype", "noticeType")
-            record_type = _sam_record_type(title, notice_type)
-            posted_date = _first_text(opportunity, "postedDate")
-            award = opportunity.get("award") if isinstance(opportunity.get("award"), dict) else {}
-            awardee = award.get("awardee") if isinstance(award.get("awardee"), dict) else {}
-            points_of_contact = opportunity.get("pointOfContact")
-            if not isinstance(points_of_contact, list):
-                points_of_contact = []
-            resource_links = opportunity.get("resourceLinks")
-            if not isinstance(resource_links, list):
-                resource_links = []
             result.items.append(
-                ResearchItem(
+                _sam_research_item(
+                    opportunity,
+                    [query],
+                    resolved_url,
                     source_name=query_name,
-                    source_type="procurement",
-                    title=title,
-                    url=(
-                        _first_text(opportunity, "uiLink")
-                        or (
-                            f"https://sam.gov/opp/{notice_id}/view"
-                            if notice_id
-                            else "https://sam.gov/content/opportunities"
-                        )
-                    ),
-                    summary=compact_summary(
-                        " · ".join(
-                            part
-                            for part in (
-                                f"Notice: {notice_type}" if notice_type else "",
-                                f"Solicitation: {solicitation}" if solicitation else "",
-                                f"Organization: {_first_text(opportunity, 'fullParentPathName')}"
-                                if _first_text(opportunity, "fullParentPathName")
-                                else "",
-                                f"Matched search: {query['keyword']}",
-                            )
-                            if part
-                        ),
-                        500,
-                    ),
-                    published_at=parse_datetime(posted_date),
-                    date_source="sam.gov:posted_date",
-                    date_confidence="high" if posted_date else "unknown",
-                    raw_payload={
-                        "provider": "sam_gov",
-                        "record_type": record_type,
-                        "notice_id": notice_id,
-                        "solicitation_number": solicitation,
-                        "notice_type": notice_type,
-                        "posted_date": posted_date,
-                        "response_deadline": _first_text(
-                            opportunity, "responseDeadLine", "responseDeadline"
-                        ),
-                        "organization": _first_text(opportunity, "fullParentPathName"),
-                        "organization_code": _first_text(opportunity, "fullParentPathCode"),
-                        "naics_code": _first_text(opportunity, "naicsCode"),
-                        "classification_code": _first_text(
-                            opportunity, "classificationCode"
-                        ),
-                        "set_aside": _first_text(
-                            opportunity,
-                            "typeOfSetAsideDescription",
-                            "typeOfSetAside",
-                        ),
-                        "award_number": _first_text(opportunity, "awardNumber"),
-                        "award_amount": _number_value(award.get("amount")),
-                        "awardee": _first_text(
-                            awardee,
-                            "name",
-                            "awardeeName",
-                        )
-                        or _first_text(award, "awardeeName", "awardee"),
-                        "awardee_uei": _first_text(awardee, "ueiSAM", "uei"),
-                        "awardee_cage": _first_text(awardee, "cageCode"),
-                        "resource_links": [
-                            str(value)
-                            for value in resource_links
-                            if isinstance(value, str) and value.startswith(("https://", "http://"))
-                        ],
-                        "description_url": _first_text(opportunity, "description"),
-                        "additional_info_link": _first_text(opportunity, "additionalInfoLink"),
-                        "points_of_contact": [
-                            {
-                                "type": _first_text(contact, "type"),
-                                "title": _first_text(contact, "title"),
-                                "full_name": _first_text(contact, "fullName"),
-                                "email": _first_text(contact, "email"),
-                                "phone": _first_text(contact, "phone"),
-                            }
-                            for contact in points_of_contact
-                            if isinstance(contact, dict)
-                        ],
-                        "base_type": _first_text(opportunity, "baseType"),
-                        "archive_date": _first_text(opportunity, "archiveDate"),
-                        "active": opportunity.get("active"),
-                        "query_name": str(query.get("name") or query["keyword"]),
-                        "query_keyword": str(query["keyword"]),
-                        "mission_ids": [str(value) for value in query.get("mission_ids", [])],
-                        "resolved_url": resolved_url,
-                    },
                 )
             )
     return result
 
 
-def _funding_date_range(config: dict, *, sam_format: bool = False) -> tuple[str, str]:
+def _collect_sam_snapshot(
+    client: HttpClient,
+    funding_config: dict,
+    provider: dict,
+    api_key: str,
+    endpoint: str,
+    max_items_per_source: int,
+) -> CollectionResult:
+    """Fetch a bounded recent snapshot once, then match all configured topics locally."""
+    lookback_days = max(1, min(364, int(provider.get("lookback_days", 2))))
+    start_date, end_date = _funding_date_range(
+        funding_config,
+        sam_format=True,
+        lookback_days=lookback_days,
+    )
+    page_size = max(
+        1,
+        min(1000, int(provider.get("max_items_per_request", max_items_per_source))),
+    )
+    max_pages = max(1, min(5, int(provider.get("max_pages_per_run", 1))))
+    queries = [
+        query
+        for query in funding_config.get("queries", [])
+        if query.get("enabled", True) and query.get("keyword")
+    ]
+    result = CollectionResult()
+    seen: set[str] = set()
+    total_records = 0
+    fetched_records = 0
+    resolved_url = endpoint
+
+    for page in range(max_pages):
+        params = {
+            "api_key": api_key,
+            "postedFrom": start_date,
+            "postedTo": end_date,
+            "limit": page_size,
+            "offset": page * page_size,
+        }
+        try:
+            response_text, resolved_url = client.get_text(
+                endpoint,
+                params=params,
+                headers={"Accept": "application/json"},
+            )
+            response = json.loads(response_text)
+        except (RuntimeError, json.JSONDecodeError, TypeError) as exc:
+            result.warnings.append(
+                SourceWarning(
+                    "SAM.gov Opportunities",
+                    "procurement",
+                    _source_failure_message(exc, "SAM.gov"),
+                    endpoint,
+                )
+            )
+            break
+
+        values = response.get("opportunitiesData", []) if isinstance(response, dict) else []
+        if not isinstance(values, list):
+            values = []
+        fetched_records += len(values)
+        total_records = max(total_records, int(response.get("totalRecords") or 0))
+        for opportunity in values:
+            if not isinstance(opportunity, dict):
+                continue
+            notice_id = _first_text(opportunity, "noticeId", "noticeid")
+            solicitation = _first_text(opportunity, "solicitationNumber")
+            key = notice_id or solicitation
+            if not key or key in seen:
+                continue
+            matched_queries = _matching_sam_queries(opportunity, queries)
+            if not matched_queries:
+                continue
+            seen.add(key)
+            result.items.append(
+                _sam_research_item(
+                    opportunity,
+                    matched_queries,
+                    resolved_url,
+                    source_name="SAM.gov Opportunities",
+                )
+            )
+        if len(values) < page_size or fetched_records >= total_records:
+            break
+
+    if total_records and fetched_records < total_records:
+        result.warnings.append(
+            SourceWarning(
+                "SAM.gov Opportunities",
+                "procurement",
+                (
+                    f"Recent snapshot was truncated after {fetched_records:,} of "
+                    f"{total_records:,} notices; narrow the window or increase the bounded page budget."
+                ),
+                endpoint,
+            )
+        )
+    LOGGER.info(
+        "Collected %d locally matched SAM.gov candidates from %d recent notices using %d request(s)",
+        len(result.items),
+        fetched_records,
+        min(max_pages, max(1, (fetched_records + page_size - 1) // page_size)),
+    )
+    return result
+
+
+def _matching_sam_queries(opportunity: dict, queries: list[dict]) -> list[dict]:
+    text = " ".join(
+        _first_text(opportunity, key)
+        for key in (
+            "title",
+            "solicitationNumber",
+            "type",
+            "baseType",
+            "fullParentPathName",
+            "additionalInfoLink",
+        )
+    )
+    normalized_text = re.sub(r"[^a-z0-9]+", " ", text.casefold()).strip()
+    matches: list[dict] = []
+    for query in queries:
+        terms = [query.get("keyword"), *(query.get("match_terms") or [])]
+        if any(
+            (normalized := re.sub(r"[^a-z0-9]+", " ", str(term).casefold()).strip())
+            and f" {normalized} " in f" {normalized_text} "
+            for term in terms
+            if term
+        ):
+            matches.append(query)
+    return matches
+
+
+def _sam_research_item(
+    opportunity: dict,
+    matched_queries: list[dict],
+    resolved_url: str,
+    *,
+    source_name: str,
+) -> ResearchItem:
+    notice_id = _first_text(opportunity, "noticeId", "noticeid")
+    solicitation = _first_text(opportunity, "solicitationNumber")
+    title = _first_text(opportunity, "title") or f"Procurement notice {solicitation}"
+    notice_type = _first_text(opportunity, "type", "ptype", "noticeType")
+    posted_date = _first_text(opportunity, "postedDate")
+    award = opportunity.get("award") if isinstance(opportunity.get("award"), dict) else {}
+    awardee = award.get("awardee") if isinstance(award.get("awardee"), dict) else {}
+    points_of_contact = opportunity.get("pointOfContact")
+    if not isinstance(points_of_contact, list):
+        points_of_contact = []
+    resource_links = opportunity.get("resourceLinks")
+    if not isinstance(resource_links, list):
+        resource_links = []
+    query_names = [str(query.get("name") or query["keyword"]) for query in matched_queries]
+    query_keywords = [str(query["keyword"]) for query in matched_queries]
+    mission_ids = list(
+        dict.fromkeys(
+            str(value)
+            for query in matched_queries
+            for value in query.get("mission_ids", [])
+        )
+    )
+    return ResearchItem(
+        source_name=source_name,
+        source_type="procurement",
+        title=title,
+        url=redact_url(
+            _first_text(opportunity, "uiLink")
+            or (
+                f"https://sam.gov/opp/{notice_id}/view"
+                if notice_id
+                else "https://sam.gov/content/opportunities"
+            )
+        ),
+        summary=compact_summary(
+            " · ".join(
+                part
+                for part in (
+                    f"Notice: {notice_type}" if notice_type else "",
+                    f"Solicitation: {solicitation}" if solicitation else "",
+                    f"Organization: {_first_text(opportunity, 'fullParentPathName')}"
+                    if _first_text(opportunity, "fullParentPathName")
+                    else "",
+                    f"Matched searches: {', '.join(query_keywords)}",
+                )
+                if part
+            ),
+            500,
+        ),
+        published_at=parse_datetime(posted_date),
+        date_source="sam.gov:posted_date",
+        date_confidence="high" if posted_date else "unknown",
+        raw_payload={
+            "provider": "sam_gov",
+            "record_type": _sam_record_type(title, notice_type),
+            "notice_id": notice_id,
+            "solicitation_number": solicitation,
+            "notice_type": notice_type,
+            "posted_date": posted_date,
+            "response_deadline": _first_text(opportunity, "responseDeadLine", "responseDeadline"),
+            "organization": _first_text(opportunity, "fullParentPathName"),
+            "organization_code": _first_text(opportunity, "fullParentPathCode"),
+            "naics_code": _first_text(opportunity, "naicsCode"),
+            "classification_code": _first_text(opportunity, "classificationCode"),
+            "set_aside": _first_text(
+                opportunity,
+                "typeOfSetAsideDescription",
+                "typeOfSetAside",
+            ),
+            "award_number": _first_text(opportunity, "awardNumber"),
+            "award_amount": _number_value(award.get("amount")),
+            "awardee": _first_text(awardee, "name", "awardeeName")
+            or _first_text(award, "awardeeName", "awardee"),
+            "awardee_uei": _first_text(awardee, "ueiSAM", "uei"),
+            "awardee_cage": _first_text(awardee, "cageCode"),
+            "resource_links": [
+                redact_url(value)
+                for value in resource_links
+                if isinstance(value, str) and value.startswith(("https://", "http://"))
+            ],
+            "description_url": redact_url(_first_text(opportunity, "description")),
+            "additional_info_link": redact_url(_first_text(opportunity, "additionalInfoLink")),
+            "points_of_contact": [
+                {
+                    "type": _first_text(contact, "type"),
+                    "title": _first_text(contact, "title"),
+                    "full_name": _first_text(contact, "fullName"),
+                    "email": _first_text(contact, "email"),
+                    "phone": _first_text(contact, "phone"),
+                }
+                for contact in points_of_contact
+                if isinstance(contact, dict)
+            ],
+            "base_type": _first_text(opportunity, "baseType"),
+            "archive_date": _first_text(opportunity, "archiveDate"),
+            "active": opportunity.get("active"),
+            "query_name": query_names[0] if query_names else "",
+            "query_keyword": query_keywords[0] if query_keywords else "",
+            "query_names": query_names,
+            "query_keywords": query_keywords,
+            "mission_ids": mission_ids,
+            "resolved_url": redact_url(resolved_url),
+        },
+    )
+
+
+def _funding_date_range(
+    config: dict,
+    *,
+    sam_format: bool = False,
+    lookback_days: int | None = None,
+) -> tuple[str, str]:
     end = datetime.now(timezone.utc).date()
-    start = end - timedelta(days=max(1, int(config.get("lookback_days", 365))))
+    days = int(config.get("lookback_days", 365)) if lookback_days is None else lookback_days
+    start = end - timedelta(days=max(1, days))
     if sam_format:
         return start.strftime("%m/%d/%Y"), end.strftime("%m/%d/%Y")
     return start.isoformat(), end.isoformat()
@@ -884,6 +1075,32 @@ def collect_arxiv_rss(
         result.warnings.extend(collected.warnings)
     LOGGER.info("Collected %d arXiv RSS candidates", len(result.items))
     return result
+
+
+def collect_arxiv_sources(
+    client: HttpClient,
+    feeds: list[dict],
+    arxiv_config: dict,
+    max_items_per_source: int,
+) -> CollectionResult:
+    """Use lightweight feeds first and fall back to the official search API when empty."""
+    rss = collect_arxiv_rss(client, feeds, max_items_per_source)
+    api_enabled = bool(arxiv_config.get("enabled", False))
+    fallback_only = bool(arxiv_config.get("fallback_only", True))
+    if not api_enabled or (fallback_only and rss.items):
+        return rss
+
+    api = collect_arxiv(client, arxiv_config)
+    if not api.warnings:
+        rss.warnings = [
+            warning
+            for warning in rss.warnings
+            if "no parseable entries" not in warning.message.casefold()
+        ]
+    return CollectionResult(
+        items=[*rss.items, *api.items],
+        warnings=[*rss.warnings, *api.warnings],
+    )
 
 
 def collect_arxiv(client: HttpClient, arxiv_config: dict) -> CollectionResult:

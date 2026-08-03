@@ -74,6 +74,11 @@ jobs:
             --update-intelligence-tracking \
             --update-report-index
 
+      - name: Sanitize generated reports
+        run: |
+          python scripts/sanitize_report_secrets.py reports --write
+          python scripts/sanitize_report_secrets.py reports
+
       - name: Publish intelligence alerts to workflow summary
         run: |
           if [ -f reports/alerts.md ]; then
@@ -220,3 +225,6 @@ jobs:
           name: pqc-quantum-research-db
           path: data/research_items.sqlite
           if-no-files-found: error
+
+      - name: Enforce critical collection coverage
+        run: python scripts/check_collection_health.py reports/source-health.json --fail-on-degraded

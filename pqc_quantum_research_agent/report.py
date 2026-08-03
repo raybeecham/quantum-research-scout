@@ -18,6 +18,7 @@ from .dates import (
 from .classifier import DEFAULT_MIN_TOPIC_CONFIDENCE, phrase_in_text
 from .date_filter import INCLUDED_STATUSES
 from .models import DateFilterSummary, ResearchItem, SourceWarning
+from .redaction import redact_text, redact_url
 from .text import normalize_title, normalize_whitespace, strip_html
 from .visuals import priority_icon
 
@@ -324,6 +325,7 @@ def render_digest(
     )
     summary.included_in_report = len(report_items)
     highest_priority = _priority_label(report_items[0].score) if report_items else "NONE"
+    confidence = _briefing_confidence(report_items, warnings)
 
     lines: list[str] = [
         f"# PQC and Quantum Research Digest - {report_date.isoformat()}",
@@ -333,20 +335,25 @@ def render_digest(
         "[Key Takeaways](#key-takeaways) · [Strategic Signals](#strategic-signals) · "
         "[Research](#research) · [Source Health](#source-failures--warnings)",
         "",
-        "| Coverage | Included | New unique | Warnings | Highest priority |",
-        "|---|---:|---:|---:|---|",
+        "| Coverage | Included | New unique | Warnings | Highest priority | Briefing confidence |",
+        "|---|---:|---:|---:|---|---|",
         (
             f"| {report_date.isoformat()} · {OPERATIONAL_TIMEZONE_NAME} | {len(report_items)} | "
-            f"{summary.new_unique_items_saved} | {len(warnings)} | {priority_icon(highest_priority)} {highest_priority} |"
+            f"{summary.new_unique_items_saved} | {len(warnings)} | {priority_icon(highest_priority)} {highest_priority} | "
+            f"{confidence['label']} {confidence['score']}/100 |"
         ),
         "",
         f"- Operational timezone: **{OPERATIONAL_TIMEZONE_NAME}**",
         f"- Generated timestamp Central: **{_central_timestamp(summary.generated_at)}**",
         f"- Coverage window: **{_coverage_window(summary)}**",
         f"- Historical mode: **{str(summary.historical_mode).lower()}**",
+        (
+            f"- Briefing confidence: **{confidence['label']} ({confidence['score']}/100)** — "
+            f"{confidence['summary']}"
+        ),
         "",
     ]
-    lines.extend(_render_key_takeaways(report_items, warnings, summary))
+    lines.extend(_render_key_takeaways(report_items, warnings, summary, confidence))
     lines.extend(
         _render_executive_summary(
             sorted_items,
@@ -357,6 +364,7 @@ def render_digest(
             limit_per_source,
             min_score,
             min_topic_confidence,
+            confidence,
         )
     )
 
@@ -398,8 +406,11 @@ def render_digest(
     lines.extend(["<details>", f"<summary><strong>Collection diagnostics ({len(warnings)} warning(s))</strong></summary>", ""])
     if warnings:
         for warning in warnings:
-            location = f" ({warning.url})" if warning.url else ""
-            lines.append(f"- **{warning.source_name}** [{warning.source_type}]{location}: {warning.message}")
+            location = f" ({redact_url(warning.url)})" if warning.url else ""
+            lines.append(
+                f"- **{redact_text(warning.source_name)}** [{redact_text(warning.source_type)}]"
+                f"{location}: {redact_text(warning.message)}"
+            )
     else:
         lines.append("No source failures or warnings recorded in this run.")
     lines.extend(["", "</details>", ""])
@@ -447,6 +458,7 @@ def _render_key_takeaways(
     report_items: list[ResearchItem],
     warnings: list[SourceWarning],
     summary: DateFilterSummary,
+    confidence: dict[str, object],
 ) -> list[str]:
     lines = ["## Key Takeaways", ""]
     takeaways: list[str] = []
@@ -492,6 +504,10 @@ def _render_key_takeaways(
         takeaways.append(f"{vendor_count} vendor/industry item(s) were condensed into watch-list style coverage.")
     if warnings:
         takeaways.append(f"{len(warnings)} source warning(s) should be reviewed for collection blind spots.")
+    if confidence["label"] in {"LOW", "MODERATE"}:
+        takeaways.append(
+            f"Briefing confidence is {str(confidence['label']).lower()} because {confidence['summary']}"
+        )
 
     if not takeaways:
         takeaways.append("No eligible high-scoring items met the report filters for the target publication date.")
@@ -523,6 +539,7 @@ def _render_executive_summary(
     limit_per_source: int | None,
     min_score: int,
     min_topic_confidence: int,
+    confidence: dict[str, object],
 ) -> list[str]:
     category_counts = Counter(item.category for item in report_items)
     source_counts = Counter(item.source_name for item in report_items)
@@ -542,6 +559,10 @@ def _render_executive_summary(
             f"minimum topical confidence **{min_topic_confidence}**, per-source limit **{limit_text}**"
         ),
         f"- Source warnings: **{len(warnings)}**",
+        (
+            f"- Briefing confidence: **{confidence['label']} ({confidence['score']}/100)**; "
+            "this measures source coverage and diversity, not the probability that each claim is true."
+        ),
     ]
     if category_counts:
         category_text = ", ".join(f"{category}: {count}" for category, count in category_counts.most_common())
@@ -553,6 +574,75 @@ def _render_executive_summary(
         lines.append("- No new items met the current report filters.")
     lines.append("")
     return lines
+
+
+def _briefing_confidence(
+    report_items: list[ResearchItem],
+    warnings: list[SourceWarning],
+) -> dict[str, object]:
+    if not report_items:
+        return {
+            "label": "NONE",
+            "score": 0,
+            "summary": "no items met the briefing filters.",
+            "unique_sources": 0,
+            "largest_source_share_percent": 0,
+            "authoritative_items": 0,
+            "critical_source_warnings": 0,
+        }
+
+    source_counts = Counter(item.source_name for item in report_items)
+    unique_sources = len(source_counts)
+    largest_share = max(source_counts.values()) / len(report_items)
+    authoritative_items = sum(_is_authoritative_evidence(item) for item in report_items)
+    critical_warnings = sum(
+        warning.source_type in {"federal_award", "grant_opportunity", "procurement"}
+        for warning in warnings
+    )
+    score = 100
+    reasons: list[str] = []
+    if len(report_items) < 4:
+        score -= 20
+        reasons.append(f"only {len(report_items)} item(s) qualified")
+    if unique_sources == 1 and len(report_items) > 1:
+        score -= 35
+        reasons.append("every included item came from one source")
+    elif largest_share >= 0.75:
+        score -= 20
+        reasons.append(f"one source supplied {largest_share:.0%} of the briefing")
+    if authoritative_items == 0:
+        score -= 15
+        reasons.append("no authoritative government, patent, or research source qualified")
+    if critical_warnings:
+        score -= 30
+        reasons.append(f"{critical_warnings} critical collection warning(s) remain open")
+    score = max(0, min(100, score))
+    label = "HIGH" if score >= 75 else "MODERATE" if score >= 50 else "LOW"
+    summary = "; ".join(reasons) + "." if reasons else "coverage and source diversity are strong."
+    return {
+        "label": label,
+        "score": score,
+        "summary": summary,
+        "unique_sources": unique_sources,
+        "largest_source_share_percent": round(largest_share * 100),
+        "authoritative_items": authoritative_items,
+        "critical_source_warnings": critical_warnings,
+    }
+
+
+def _is_authoritative_evidence(item: ResearchItem) -> bool:
+    if item.source_type in {
+        "arxiv",
+        "arxiv_rss",
+        "iacr_eprint",
+        "patent",
+        "federal_award",
+        "grant_opportunity",
+        "procurement",
+    }:
+        return True
+    hostname = (urlsplit(item.url).hostname or "").casefold()
+    return hostname.endswith(".gov") or hostname.endswith(".mil")
 
 
 def _group_by_report_section(items: list[ResearchItem]) -> tuple[dict[str, list[ResearchItem]], list[ResearchItem]]:

@@ -10,6 +10,7 @@ settings:
 
 source_health:
   stale_after_days: 14
+  critical_source_types: [federal_award, grant_opportunity, procurement]
 
 historical_backfill:
   lookback_days: 730
@@ -128,12 +129,17 @@ federal_funding:
     enabled: true
     endpoint: "https://api.sam.gov/opportunities/v2/search"
     api_key_env: "SAM_GOV_API_KEY"
-    max_items_per_query: 20
+    # One recent snapshot replaces one API request per keyword. All topic and
+    # mission matching happens locally so a basic personal key stays under quota.
+    collection_mode: "snapshot"
+    lookback_days: 2
+    max_items_per_request: 1000
+    max_pages_per_run: 2
   document_intelligence:
     enabled: true
     max_opportunities: 20
     max_documents_per_opportunity: 4
-    max_downloads_per_run: 12
+    max_downloads_per_run: 3
     max_document_bytes: 8000000
     max_pdf_pages: 30
     max_text_characters: 80000
@@ -148,7 +154,7 @@ federal_funding:
     endpoint: "https://api.sam.gov/entity-information/v4/entities"
     api_key_env: "SAM_GOV_API_KEY"
     max_contractors: 75
-    max_entities_per_run: 12
+    max_entities_per_run: 3
     max_matches_per_query: 10
     cache_days: 30
   queries:
@@ -156,14 +162,18 @@ federal_funding:
       keyword: "quantum"
     - name: "Post-Quantum Cybersecurity"
       keyword: "post quantum"
+      match_terms: ["post-quantum", "quantum safe", "quantum-safe", "PQC"]
     - name: "Artificial Intelligence"
       keyword: "artificial intelligence"
+      match_terms: ["AI", "machine learning", "generative AI"]
     - name: "Cybersecurity"
       keyword: "cybersecurity"
     - name: "Advanced Computing"
       keyword: "high performance computing"
+      match_terms: ["high-performance computing", "HPC", "advanced computing"]
     - name: "Autonomy and Sensing"
       keyword: "autonomous systems"
+      match_terms: ["autonomy", "autonomous", "advanced sensing", "sensor"]
     - name: "Genesis Mission"
       keyword: "Genesis Mission"
       mission_ids: [genesis-mission]
@@ -193,7 +203,8 @@ federal_funding:
       mission_ids: [ai-forge]
 
 arxiv:
-  enabled: false
+  enabled: true
+  fallback_only: true
   max_results: 25
   sort_by: submittedDate
   sort_order: descending

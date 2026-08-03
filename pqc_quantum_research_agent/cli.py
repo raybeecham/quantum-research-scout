@@ -231,9 +231,8 @@ def main(argv: list[str] | None = None) -> int:
         config.arxiv["max_results"] = args.arxiv_max_results
     if args.use_arxiv_api:
         config.arxiv["enabled"] = True
+        config.arxiv["fallback_only"] = False
         config.arxiv_rss = []
-    else:
-        config.arxiv["enabled"] = False
     report_top_n = args.top_n if args.top_n is not None else config.settings.report_top_n
     report_limit_per_source = (
         args.limit_per_source if args.limit_per_source is not None else config.settings.report_limit_per_source
