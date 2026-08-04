@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Document Intelligence](procurement-intelligence.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-04T21:31:34.443424+00:00_
+_Updated 2026-08-04T21:59:52.984007+00:00_
 
 Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.
 
@@ -373,32 +373,31 @@ Score and evidence trace:
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
-## [Cybersecurity Innovation for Cyberinfrastructure](https://www.grants.gov/search-results-detail/358004)
+## [Autonomous Mower Maintenance Service](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view)
 
-**HOLD · 24 / 100** · Evidence 0 / 100 · Deadline 01/20/2027
+**HOLD · 24 / 100** · Evidence 48 / 100 · Deadline 2026-08-07T11:00:00-06:00
 
-Agency: NSF
+Agency: DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE GLOBAL STRIKE COMMAND.FA4690 28 CONS PKC
 
 Recommended actions:
-- Confirm controlling requirements in the controlling solicitation
 - Confirm evaluation criteria in the controlling solicitation
+- Confirm eligibility and set-aside terms in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
 - Record an authorized bid/no-bid decision with owner and rationale
 
 Risks:
-- No linked solicitation document was available for extraction
-- Set-aside or eligibility status is not established in collected metadata
+- Compressed response window: 3 day(s) remaining
+- Document evidence is incomplete; review the controlling files manually
 
 Unknowns:
-- Confirm controlling requirements in the controlling solicitation
 - Confirm evaluation criteria in the controlling solicitation
 - Confirm eligibility and set-aside terms in the controlling solicitation
-- Confirm submission instructions in the controlling solicitation
 
 Score and evidence trace:
-- **opportunity evidence +32** — strategic significance +11; actionable grant_opportunity +9; open_window +4; technology fit +8 · [evidence 1](https://www.grants.gov/search-results-detail/358004)
-- **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/358004)
-- Trace hash: `267d3c133989e186` · model `public-opportunity-qualification@2`
+- **opportunity evidence +35** — strategic significance +8; actionable rfi +6; closing_soon +12; technology fit +4; new since yesterday +5 · [evidence 1](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view)
+- **document evidence +4** — 48 / 100 document evidence completeness · [evidence 1](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download) · [evidence 2](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fe5715b9bd81493b8ed022605992acb6)
+- **deadline and evidence risk -15** — Compressed response window: 3 day(s) · [evidence 1](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view)
+- Trace hash: `8221179d25f58820` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 

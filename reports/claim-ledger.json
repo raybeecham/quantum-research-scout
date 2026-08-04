@@ -4,6 +4,186 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
+      "claim_id": "claim-3a5d09ebafdd635b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-233e42eb7a015720"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-233e42eb7a015720",
+          "locator": "opportunity_status:open",
+          "title": "Autonomous Mower Maintenance Service",
+          "url": "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ed0ee83fbeb4bf18"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-2560fd4cf1376bfa",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-7ea38aff7da1fbc7"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7ea38aff7da1fbc7",
+          "locator": "deadline:2026-08-07t11:00:00-06:00",
+          "title": "Autonomous Mower Maintenance Service",
+          "url": "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-07T11:00:00-06:00",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "f0670e380f1b03b8"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported set aside in the federal record",
+      "claim_id": "claim-6ff0897023a0c85b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-0a132d4240706e88"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "set_aside",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0a132d4240706e88",
+          "locator": "set_aside:small business set aside - total",
+          "title": "Autonomous Mower Maintenance Service",
+          "url": "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "Small Business Set Aside - Total",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "79190b43a1543d99"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-2e620380e08d94e7",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-d38a326ac061d998"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d38a326ac061d998",
+          "locator": "awarding_agency:dept of defense.dept of the air force.air force global strike command.fa4690 28 cons pkc",
+          "title": "Autonomous Mower Maintenance Service",
+          "url": "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE GLOBAL STRIKE COMMAND.FA4690 28 CONS PKC",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "eee81e2c00093cc7"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
       "claim_id": "claim-16a964d04b939e9e",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -63976,6 +64156,681 @@
       "version_hash": "623e67f94b9960f1"
     },
     {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-9158ae3973b9979f",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-8dc6fc361465db06"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-8dc6fc361465db06",
+          "locator": "states_requirement:k statement for autonomous mowing services fa4690-xx-x-xxxx ellsworth afb, sd 1. description of services the contractor shall provide all personnel, equipment, tools, supervision, and other items and services necessary to ensure autonomous mowing operations monitoring and equipment servicing is per...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "K STATEMENT FOR AUTONOMOUS MOWING SERVICES FA4690-XX-X-XXXX ELLSWORTH AFB, SD 1. DESCRIPTION OF SERVICES The Contractor shall provide all personnel, equipment, tools, supervision, and other items and services necessary to ensure autonomous mowing operations monitoring and equipment servicing is per...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "2577e645d6f36541"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-1e39d76f585a6d5d",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-b9a1a7a2fed384ca"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-b9a1a7a2fed384ca",
+          "locator": "states_requirement:in attachment 1 \u2013 eafb autonomous mowing map. 1.1. autonomous mowing operations and equipment servicing. the contractor shall provide all monitoring and servicing required for the operation of two (2) renubot autonomous mowing systems for the duration of the mowing season (approximately april throu...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "in Attachment 1 \u2013 EAFB Autonomous Mowing Map. 1.1. Autonomous Mowing Operations and Equipment Servicing. The Contractor shall provide all monitoring and servicing required for the operation of two (2) Renubot Autonomous Mowing Systems for the duration of the mowing season (approximately April throu...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "76f78256d52546ec"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-a9be0c98ddfbdf08",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-781c6fe8a27b1746"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-781c6fe8a27b1746",
+          "locator": "states_requirement:p. 1.1. autonomous mowing operations and equipment servicing. the contractor shall provide all monitoring and servicing required for the operation of two (2) renubot autonomous mowing systems for the duration of the mowing season (approximately april through october). 1.1.1. mow. the contractor sha...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "p. 1.1. Autonomous Mowing Operations and Equipment Servicing. The Contractor shall provide all monitoring and servicing required for the operation of two (2) Renubot Autonomous Mowing Systems for the duration of the mowing season (approximately April through October). 1.1.1. Mow. The Contractor sha...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "75590e3acbcb27fd"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-076b139c2205ff4d",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-0ef2b1799b5f7309"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-0ef2b1799b5f7309",
+          "locator": "states_requirement:mowing systems for the duration of the mowing season (approximately april through october). 1.1.1. mow. the contractor shall monitor autonomous mowing operations for all designated grounds to maintain a grass height between 4 and 10 inches. the grounds shall be maintained in a uniform appearance, f...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "Mowing Systems for the duration of the mowing season (approximately April through October). 1.1.1. Mow. The Contractor shall monitor autonomous mowing operations for all designated grounds to maintain a grass height between 4 and 10 inches. The grounds shall be maintained in a uniform appearance, f...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "9bd2e76eaeb5332a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-c83db43bfc0ecf88",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-f4af03dfcdc411cc"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-f4af03dfcdc411cc",
+          "locator": "states_requirement:autonomous mowing operations for all designated grounds to maintain a grass height between 4 and 10 inches. the grounds shall be maintained in a uniform appearance, free of skips, gaps, or scalping. the mower shall navigate around and not physically contact all facilities/infrastructure. the mower...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "autonomous mowing operations for all designated grounds to maintain a grass height between 4 and 10 inches. The grounds shall be maintained in a uniform appearance, free of skips, gaps, or scalping. The mower shall navigate around and not physically contact all facilities/infrastructure. The mower...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "7905187eb677305d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-12fe0ff4e0c939d5",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-82ca94602a9d49d8"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-82ca94602a9d49d8",
+          "locator": "states_requirement:n 4 and 10 inches. the grounds shall be maintained in a uniform appearance, free of skips, gaps, or scalping. the mower shall navigate around and not physically contact all facilities/infrastructure. the mower shall only travel and perform work in areas designated by the government in attachment 1...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "n 4 and 10 inches. The grounds shall be maintained in a uniform appearance, free of skips, gaps, or scalping. The mower shall navigate around and not physically contact all facilities/infrastructure. The mower shall only travel and perform work in areas designated by the Government in Attachment 1...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "6f6c2d4eeefe2ad7"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-2f44a221baa42559",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-92400d58fd7b948a"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-92400d58fd7b948a",
+          "locator": "states_requirement:gaps, or scalping. the mower shall navigate around and not physically contact all facilities/infrastructure. the mower shall only travel and perform work in areas designated by the government in attachment 1 \u2013 eafb autonomous mowing map. 1.1.2. initial setup and commissioning. the contractor shall...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "gaps, or scalping. The mower shall navigate around and not physically contact all facilities/infrastructure. The mower shall only travel and perform work in areas designated by the Government in Attachment 1 \u2013 EAFB Autonomous Mowing Map. 1.1.2. Initial Setup and Commissioning. The Contractor shall...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "01abef59c652307e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-c8d5397b0dbe211d",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-36cbecb78d797460"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-36cbecb78d797460",
+          "locator": "states_requirement:by the government in attachment 1 \u2013 eafb autonomous mowing map. 1.1.2. initial setup and commissioning. the contractor shall be responsible for the initial setup, and on-site commissioning of two (2) renubots and recharge pods. this includes the construction of recharge pods, configuration of the re...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "by the Government in Attachment 1 \u2013 EAFB Autonomous Mowing Map. 1.1.2. Initial Setup and Commissioning. The Contractor shall be responsible for the initial setup, and on-site commissioning of two (2) Renubots and Recharge Pods. This includes the construction of Recharge Pods, con\ufb01guration of the Re...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "9a702048a3ab7b9c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the submission instructions rule",
+      "claim_id": "claim-f6906df766183410",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-fb29d2049c9b2382"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-fb29d2049c9b2382",
+          "locator": "states_submission_instruction:an 1 valid defect per quarter contractor shall email the cor the monthly report within 1 duty day of notification review submissions 2.1. quality control. the contractor shall develop and implement procedures to identify, correct, and prevent discrepancies from occurring. a written quality control p...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "an 1 valid defect per quarter Contractor shall email the COR the monthly report within 1 duty day of noti\ufb01cation Review Submissions 2.1. Quality Control. The Contractor shall develop and implement procedures to identify, correct, and prevent discrepancies from occurring. A written Quality Control P...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "b4bd010a6d02f7b3"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the submission instructions rule",
+      "claim_id": "claim-92ca607dfdf161a2",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-6011789efbae3b4d"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-6011789efbae3b4d",
+          "locator": "states_submission_instruction:ment procedures to identify, correct, and prevent discrepancies from occurring. a written quality control plan shall be submitted to the contracting officer (co) for review. the plan shall be submitted no later than the pre-performance conference. the plan shall specifically address the contractor\u2019s...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "ment procedures to identify, correct, and prevent discrepancies from occurring. A written Quality Control Plan shall be submitted to the Contracting Officer (CO) for review. The plan shall be submitted no later than the pre-performance conference. The plan shall speci\ufb01cally address the Contractor\u2019s...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "12672492f9fb1047"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the submission instructions rule",
+      "claim_id": "claim-3fccd02322dad706",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-df332fbe153ecea7"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-df332fbe153ecea7",
+          "locator": "states_submission_instruction:urring. a written quality control plan shall be submitted to the contracting officer (co) for review. the plan shall be submitted no later than the pre-performance conference. the plan shall specifically address the contractor\u2019s strategy to provide quality workmanship, continual process improvement,...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "urring. A written Quality Control Plan shall be submitted to the Contracting Officer (CO) for review. The plan shall be submitted no later than the pre-performance conference. The plan shall speci\ufb01cally address the Contractor\u2019s strategy to provide quality workmanship, continual process improvement,...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "837db61cc01c1464"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the submission instructions rule",
+      "claim_id": "claim-9560f67b8aa5cfef",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-c144defaa1b764e3"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-c144defaa1b764e3",
+          "locator": "states_submission_instruction:tors on the base, the contractor should verbally notify the cor and then follow up with a written report. 4.7. pandemic response. all personnel present on ellsworth afb are required to follow all pandemic response policies established by the base leadership. contractors that refuse to comply with a...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "tors on the base, the Contractor should verbally notify the COR and then follow up with a written report. 4.7. Pandemic Response. All personnel present on Ellsworth AFB are required to follow all pandemic response policies established by the base leadership. Contractors that refuse to comply with a...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "b8cf818901251c63"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the submission instructions rule",
+      "claim_id": "claim-eef059fc9a5ea820",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-f88dc518c51b6a80"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-f88dc518c51b6a80",
+          "locator": "states_submission_instruction:th a written report. 4.7. pandemic response. all personnel present on ellsworth afb are required to follow all pandemic response policies established by the base leadership. contractors that refuse to comply with all pandemic response policies may be denied access to the installation which can resu...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "th a written report. 4.7. Pandemic Response. All personnel present on Ellsworth AFB are required to follow all pandemic response policies established by the base leadership. Contractors that refuse to comply with all pandemic response policies may be denied access to the installation which can resu...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "edc27e842021bb4a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the deliverables rule",
+      "claim_id": "claim-1457e742e93e4475",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-e85e4096380a0b4b"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_deliverable",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-e85e4096380a0b4b",
+          "locator": "states_deliverable:performance work statement for autonomous mowing services fa4690-xx-x-xxxx ellsworth afb, sd 1. description of services the contractor shall provide all personnel, equipment, tools, supervision, and other i",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "PERFORMANCE WORK STATEMENT FOR AUTONOMOUS MOWING SERVICES FA4690-XX-X-XXXX ELLSWORTH AFB, SD 1. DESCRIPTION OF SERVICES The Contractor shall provide all personnel, equipment, tools, supervision, and other i",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "c13a831dfe5a5dea"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the deliverables rule",
+      "claim_id": "claim-7f8fca879179ea17",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-9ab2179987623c31"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_deliverable",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-9ab2179987623c31",
+          "locator": "states_deliverable:vernment property or an accident resulting in death, injury, occupational disease, or adverse environmental impact. end performance work statement",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "vernment property or an accident resulting in death, injury, occupational disease, or adverse environmental impact. END PERFORMANCE WORK STATEMENT",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "817964f23b4f0efe"
+    },
+    {
       "authority": "primary",
       "basis": "Reported status in the federal record",
       "claim_id": "claim-d4e5828f0f041fba",
@@ -65710,6 +66565,210 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "ee392fdab0f095cc"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 24 / 100 with 48 / 100 evidence completeness",
+      "claim_id": "claim-5071fa2e8d0a78dc",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +8",
+              "actionable rfi +6",
+              "closing_soon +12",
+              "technology fit +4",
+              "new since yesterday +5"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view"
+            ],
+            "points": 35
+          },
+          {
+            "basis": [
+              "48 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fe5715b9bd81493b8ed022605992acb6"
+            ],
+            "points": 4
+          },
+          {
+            "basis": [
+              "Compressed response window: 3 day(s)"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view"
+            ],
+            "points": -15
+          }
+        ],
+        "evidence_ids": [
+          "evidence-075bdcb08b78b6b5",
+          "evidence-0ef2b1799b5f7309",
+          "evidence-2f44186cb2d6f92e",
+          "evidence-36cbecb78d797460",
+          "evidence-6011789efbae3b4d",
+          "evidence-781c6fe8a27b1746",
+          "evidence-7ea38aff7da1fbc7",
+          "evidence-82ca94602a9d49d8",
+          "evidence-8dc6fc361465db06",
+          "evidence-92400d58fd7b948a",
+          "evidence-b9a1a7a2fed384ca",
+          "evidence-c144defaa1b764e3",
+          "evidence-dea46a5e3f806cc1",
+          "evidence-df332fbe153ecea7",
+          "evidence-f4af03dfcdc411cc",
+          "evidence-f88dc518c51b6a80",
+          "evidence-fb29d2049c9b2382"
+        ],
+        "input_claim_hashes": {
+          "claim-076b139c2205ff4d": "9bd2e76eaeb5332a",
+          "claim-12fe0ff4e0c939d5": "6f6c2d4eeefe2ad7",
+          "claim-1e39d76f585a6d5d": "76f78256d52546ec",
+          "claim-2560fd4cf1376bfa": "f0670e380f1b03b8",
+          "claim-2f44a221baa42559": "01abef59c652307e",
+          "claim-3fccd02322dad706": "837db61cc01c1464",
+          "claim-9158ae3973b9979f": "2577e645d6f36541",
+          "claim-92ca607dfdf161a2": "12672492f9fb1047",
+          "claim-9560f67b8aa5cfef": "b8cf818901251c63",
+          "claim-a9be0c98ddfbdf08": "75590e3acbcb27fd",
+          "claim-c83db43bfc0ecf88": "7905187eb677305d",
+          "claim-c8d5397b0dbe211d": "9a702048a3ab7b9c",
+          "claim-eef059fc9a5ea820": "edc27e842021bb4a",
+          "claim-f6906df766183410": "b4bd010a6d02f7b3"
+        },
+        "input_claim_ids": [
+          "claim-076b139c2205ff4d",
+          "claim-12fe0ff4e0c939d5",
+          "claim-1e39d76f585a6d5d",
+          "claim-2560fd4cf1376bfa",
+          "claim-2f44a221baa42559",
+          "claim-3fccd02322dad706",
+          "claim-9158ae3973b9979f",
+          "claim-92ca607dfdf161a2",
+          "claim-9560f67b8aa5cfef",
+          "claim-a9be0c98ddfbdf08",
+          "claim-c83db43bfc0ecf88",
+          "claim-c8d5397b0dbe211d",
+          "claim-eef059fc9a5ea820",
+          "claim-f6906df766183410"
+        ],
+        "input_claim_versions": {
+          "claim-076b139c2205ff4d": 1,
+          "claim-12fe0ff4e0c939d5": 1,
+          "claim-1e39d76f585a6d5d": 1,
+          "claim-2560fd4cf1376bfa": 1,
+          "claim-2f44a221baa42559": 1,
+          "claim-3fccd02322dad706": 1,
+          "claim-9158ae3973b9979f": 1,
+          "claim-92ca607dfdf161a2": 1,
+          "claim-9560f67b8aa5cfef": 1,
+          "claim-a9be0c98ddfbdf08": 1,
+          "claim-c83db43bfc0ecf88": 1,
+          "claim-c8d5397b0dbe211d": 1,
+          "claim-eef059fc9a5ea820": 1,
+          "claim-f6906df766183410": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 24,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fe5715b9bd81493b8ed022605992acb6"
+        ],
+        "trace_complete": true,
+        "trace_hash": "493d8dd9aa19ae87",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-076b139c2205ff4d",
+          "claim-12fe0ff4e0c939d5",
+          "claim-1e39d76f585a6d5d",
+          "claim-2560fd4cf1376bfa",
+          "claim-2f44a221baa42559",
+          "claim-3fccd02322dad706",
+          "claim-9158ae3973b9979f",
+          "claim-92ca607dfdf161a2",
+          "claim-9560f67b8aa5cfef",
+          "claim-a9be0c98ddfbdf08",
+          "claim-c83db43bfc0ecf88",
+          "claim-c8d5397b0dbe211d",
+          "claim-eef059fc9a5ea820",
+          "claim-f6906df766183410"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-dea46a5e3f806cc1",
+        "evidence-2f44186cb2d6f92e",
+        "evidence-075bdcb08b78b6b5"
+      ],
+      "first_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-04T21:59:52.984007+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-dea46a5e3f806cc1",
+          "locator": "qualification_gate",
+          "title": "Autonomous Mower Maintenance Service",
+          "url": "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2f44186cb2d6f92e",
+          "locator": "qualification_gate",
+          "title": "Autonomous Mower Maintenance Service",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Autonomous Mower Maintenance Service",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fe5715b9bd81493b8ed022605992acb6",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA4690SS01",
+        "label": "Autonomous Mower Maintenance Service",
+        "node_id": "opportunity:sam_gov:FA4690SS01",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6697fea0ce1303f8"
     },
     {
       "authority": "analytical",
@@ -67723,131 +68782,6 @@
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 24 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-aae476ad8cc767c3",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +11",
-              "actionable grant_opportunity +9",
-              "open_window +4",
-              "technology fit +8"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/358004"
-            ],
-            "points": 32
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/358004"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-18f234e3280e1da1",
-          "evidence-86db8efb016af76d"
-        ],
-        "input_claim_hashes": {
-          "claim-aa2f22d5705979ee": "113068b49c50d1cc"
-        },
-        "input_claim_ids": [
-          "claim-aa2f22d5705979ee"
-        ],
-        "input_claim_versions": {
-          "claim-aa2f22d5705979ee": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 24,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/358004"
-        ],
-        "trace_complete": true,
-        "trace_hash": "dab7a9f2d8b87919",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-aa2f22d5705979ee"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-08-03",
-      "evidence_ids": [
-        "evidence-86db8efb016af76d"
-      ],
-      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "history": [
-        {
-          "authority": "analytical",
-          "basis": "Deterministic qualification score 29 / 100 with 0 / 100 evidence completeness",
-          "confidence": "medium",
-          "evidence_ids": [
-            "evidence-86db8efb016af76d"
-          ],
-          "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-          "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-          "object": null,
-          "status": "active",
-          "value": "hold",
-          "version": 1,
-          "version_hash": "935ea8ad28c7d861"
-        }
-      ],
-      "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-86db8efb016af76d",
-          "locator": "qualification_gate",
-          "title": "Cybersecurity Innovation for Cyberinfrastructure",
-          "url": "https://www.grants.gov/search-results-detail/358004",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:25-531",
-        "label": "Cybersecurity Innovation for Cyberinfrastructure",
-        "node_id": "opportunity:grants_gov:25-531",
-        "node_type": "opportunity"
-      },
-      "value": "hold",
-      "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "067d98c93acd8698"
-    },
-    {
-      "authority": "analytical",
       "basis": "Deterministic qualification score 19 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-133a67cc8b057999",
       "confidence": "medium",
@@ -68125,6 +69059,131 @@
       "verification_status": "source_reported",
       "version": 3,
       "version_hash": "8c4ce8bb006294d8"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 24 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-aae476ad8cc767c3",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +11",
+              "actionable grant_opportunity +9",
+              "open_window +4",
+              "technology fit +8"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/358004"
+            ],
+            "points": 32
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/358004"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-18f234e3280e1da1",
+          "evidence-86db8efb016af76d"
+        ],
+        "input_claim_hashes": {
+          "claim-aa2f22d5705979ee": "113068b49c50d1cc"
+        },
+        "input_claim_ids": [
+          "claim-aa2f22d5705979ee"
+        ],
+        "input_claim_versions": {
+          "claim-aa2f22d5705979ee": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 24,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/358004"
+        ],
+        "trace_complete": true,
+        "trace_hash": "dab7a9f2d8b87919",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-aa2f22d5705979ee"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-03",
+      "evidence_ids": [
+        "evidence-86db8efb016af76d"
+      ],
+      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 29 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-86db8efb016af76d"
+          ],
+          "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 1,
+          "version_hash": "935ea8ad28c7d861"
+        }
+      ],
+      "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-86db8efb016af76d",
+          "locator": "qualification_gate",
+          "title": "Cybersecurity Innovation for Cyberinfrastructure",
+          "url": "https://www.grants.gov/search-results-detail/358004",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:25-531",
+        "label": "Cybersecurity Innovation for Cyberinfrastructure",
+        "node_id": "opportunity:grants_gov:25-531",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "067d98c93acd8698"
     },
     {
       "authority": "analytical",
@@ -70615,7 +71674,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -70662,7 +71721,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -70709,7 +71768,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -70756,7 +71815,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -70803,7 +71862,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -70850,7 +71909,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -70897,7 +71956,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -70944,7 +72003,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -70991,7 +72050,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71038,7 +72097,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71085,7 +72144,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71132,7 +72191,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71179,7 +72238,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71226,7 +72285,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71273,7 +72332,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71320,7 +72379,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71367,7 +72426,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71414,7 +72473,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71466,7 +72525,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71518,7 +72577,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71570,7 +72629,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71622,7 +72681,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71674,7 +72733,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71726,7 +72785,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71778,7 +72837,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71830,7 +72889,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71882,7 +72941,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:31:34.443424+00:00",
+      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72396,8 +73455,8 @@
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-075bdcb08b78b6b5",
       "locator": "qualification_gate",
-      "title": "66--SENSOR,OXYGEN",
-      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c5c7dac417be4b1b99d5b0f4aa213664",
+      "title": "Autonomous Mower Maintenance Service",
+      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fe5715b9bd81493b8ed022605992acb6",
       "verification_status": "source_reported"
     },
     {
@@ -72558,6 +73617,16 @@
       "locator": "opportunity_status:awarded",
       "title": "WRT 2512: ENHANCING JOINT LIVE, VIRTUAL, AND CONSTRUCTIVE (JLVC) TRAINING ENVIRONMENTS FOR ELECTROMAGNETIC SPECTRUM (EMS) OPERATIONS AND INTEGRATED MULTI-DOMAIN UNCREWED AUTONOMOU...",
       "url": "https://www.usaspending.gov/award/CONT_AWD_HQ003425FE449_9700_HQ003424D0023_9700/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0a132d4240706e88",
+      "locator": "set_aside:small business set aside - total",
+      "title": "Autonomous Mower Maintenance Service",
+      "url": "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view",
       "verification_status": "source_reported"
     },
     {
@@ -72919,6 +73988,16 @@
       "title": "ULTRA-SECURE, POST-QUANTUM COMMUNICATIONS AND ENCRYPTIONS (US-PQC/E)",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0324_9700_-NONE-_-NONE-/",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-0ef2b1799b5f7309",
+      "locator": "states_requirement:mowing systems for the duration of the mowing season (approximately april through october). 1.1.1. mow. the contractor shall monitor autonomous mowing operations for all designated grounds to maintain a grass height between 4 and 10 inches. the grounds shall be maintained in a uniform appearance, f...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -74114,6 +75193,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-233e42eb7a015720",
+      "locator": "opportunity_status:open",
+      "title": "Autonomous Mower Maintenance Service",
+      "url": "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-234cc1d59e3405bc",
       "locator": "reported_amount:1676328.5",
       "title": "NMFS ARTIFICIAL INTELLIGENCE & AGENTIC AI",
@@ -74805,6 +75894,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-2f44186cb2d6f92e",
+      "locator": "qualification_gate",
+      "title": "Autonomous Mower Maintenance Service",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-2f689e7f7b7cfc05",
       "locator": "opportunity_status:awarded",
       "title": "SERVICES IN SUPPORT OF THE HIGH PERFORMANCE COMPUTING MODERNIZATION PROGRAM",
@@ -75270,6 +76369,16 @@
       "title": "QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...",
       "url": "https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700/",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-36cbecb78d797460",
+      "locator": "states_requirement:by the government in attachment 1 \u2013 eafb autonomous mowing map. 1.1.2. initial setup and commissioning. the contractor shall be responsible for the initial setup, and on-site commissioning of two (2) renubots and recharge pods. this includes the construction of recharge pods, configuration of the re...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -77723,6 +78832,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-6011789efbae3b4d",
+      "locator": "states_submission_instruction:ment procedures to identify, correct, and prevent discrepancies from occurring. a written quality control plan shall be submitted to the contracting officer (co) for review. the plan shall be submitted no later than the pre-performance conference. the plan shall specifically address the contractor\u2019s...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-608999f0b5dd4b30",
@@ -78953,6 +80072,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-781c6fe8a27b1746",
+      "locator": "states_requirement:p. 1.1. autonomous mowing operations and equipment servicing. the contractor shall provide all monitoring and servicing required for the operation of two (2) renubot autonomous mowing systems for the duration of the mowing season (approximately april through october). 1.1.1. mow. the contractor sha...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-78cabfc2370dcbfb",
@@ -79325,6 +80454,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7ea38aff7da1fbc7",
+      "locator": "deadline:2026-08-07t11:00:00-06:00",
+      "title": "Autonomous Mower Maintenance Service",
+      "url": "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-7ee3acb5abf39321",
       "locator": "awarding_agency:national science foundation",
       "title": "POSTDOCTORAL FELLOWSHIP: MSPRF: COMBINATORIAL MODELS AND SCALING LIMITS IN LIOUVILLE QUANTUM GRAVITY AND KPZ -THIS AWARD IS MADE AS PART OF THE FY 2026 MATHEMATICAL SCIENCES POSTD...",
@@ -79480,6 +80619,16 @@
       "title": "CRIBL SOFTWARE LICENSE SUBSCRIPTION CYBERSECURITY DATA PROTECTIONS CATALOG ORDER.",
       "url": "https://www.usaspending.gov/award/CONT_AWD_75F40126F80059_7524_NNG15SC71B_8000/",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-82ca94602a9d49d8",
+      "locator": "states_requirement:n 4 and 10 inches. the grounds shall be maintained in a uniform appearance, free of skips, gaps, or scalping. the mower shall navigate around and not physically contact all facilities/infrastructure. the mower shall only travel and perform work in areas designated by the government in attachment 1...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -80143,6 +81292,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-8dc6fc361465db06",
+      "locator": "states_requirement:k statement for autonomous mowing services fa4690-xx-x-xxxx ellsworth afb, sd 1. description of services the contractor shall provide all personnel, equipment, tools, supervision, and other items and services necessary to ensure autonomous mowing operations monitoring and equipment servicing is per...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-8e1c92e967d342bf",
@@ -80300,6 +81459,16 @@
       "title": "FLX0002 FLEX RED HAT SW",
       "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26FA438_8000_NNG15SD37B_8000",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-92400d58fd7b948a",
+      "locator": "states_requirement:gaps, or scalping. the mower shall navigate around and not physically contact all facilities/infrastructure. the mower shall only travel and perform work in areas designated by the government in attachment 1 \u2013 eafb autonomous mowing map. 1.1.2. initial setup and commissioning. the contractor shall...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -80710,6 +81879,16 @@
       "title": "QUANTUM NETWORK DEVICES, SYSTEMS, AND METHODS",
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18962046/application-data",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-9ab2179987623c31",
+      "locator": "states_deliverable:vernment property or an accident resulting in death, injury, occupational disease, or adverse environmental impact. end performance work statement",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -82433,6 +83612,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-b9a1a7a2fed384ca",
+      "locator": "states_requirement:in attachment 1 \u2013 eafb autonomous mowing map. 1.1. autonomous mowing operations and equipment servicing. the contractor shall provide all monitoring and servicing required for the operation of two (2) renubot autonomous mowing systems for the duration of the mowing season (approximately april throu...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-ba396577db5bba76",
@@ -82810,6 +83999,16 @@
       "title": "CAREER: FOUNDATIONS OF POST-QUANTUM AND QUANTUM CRYPTOGRAPHY -QUANTUM COMPUTING POSES BOTH A FUNDAMENTAL THREAT TO EXISTING CLASSICAL CRYPTOGRAPHY AND AN EXCITING OPPORTUNITY TO D...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2541300_049/",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-c144defaa1b764e3",
+      "locator": "states_submission_instruction:tors on the base, the contractor should verbally notify the cor and then follow up with a written report. 4.7. pandemic response. all personnel present on ellsworth afb are required to follow all pandemic response policies established by the base leadership. contractors that refuse to comply with a...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -83875,6 +85074,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d38a326ac061d998",
+      "locator": "awarding_agency:dept of defense.dept of the air force.air force global strike command.fa4690 28 cons pkc",
+      "title": "Autonomous Mower Maintenance Service",
+      "url": "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-d39ff92e33709b37",
       "locator": "opportunity_status:awarded",
       "title": "PROCUREMENT OF COMPUTER MONITORS IN SUPPORT OF CAPABILITY PROGRAM EXECUTIVE COMMAND AND CONTROL INFORMATION NETWORK, PROJECT MANAGER COMMAND AND CONTROL DATA AND ARTIFICIAL INTELL...",
@@ -84505,6 +85714,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-dea46a5e3f806cc1",
+      "locator": "qualification_gate",
+      "title": "Autonomous Mower Maintenance Service",
+      "url": "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-dec0ed985743204a",
       "locator": "reported_amount:634148.78",
       "title": "HIGH PERFORMANCE COMPUTING DATADIRECT NETWORKS (DDN) HARDWARE AND SOFTWARE SUPPORT RENEWAL",
@@ -84550,6 +85769,16 @@
       "title": "GENESIS MISSION ACCELERATION",
       "url": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-df332fbe153ecea7",
+      "locator": "states_submission_instruction:urring. a written quality control plan shall be submitted to the contracting officer (co) for review. the plan shall be submitted no later than the pre-performance conference. the plan shall specifically address the contractor\u2019s strategy to provide quality workmanship, continual process improvement,...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -85160,6 +86389,16 @@
       "title": "ROSES 2025: A.10 INNOVATE",
       "url": "https://www.grants.gov/search-results-detail/360003",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-e85e4096380a0b4b",
+      "locator": "states_deliverable:performance work statement for autonomous mowing services fa4690-xx-x-xxxx ellsworth afb, sd 1. description of services the contractor shall provide all personnel, equipment, tools, supervision, and other i",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -85923,6 +87162,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-f4af03dfcdc411cc",
+      "locator": "states_requirement:autonomous mowing operations for all designated grounds to maintain a grass height between 4 and 10 inches. the grounds shall be maintained in a uniform appearance, free of skips, gaps, or scalping. the mower shall navigate around and not physically contact all facilities/infrastructure. the mower...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-f4c911aadb9c5954",
@@ -86153,6 +87402,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-f88dc518c51b6a80",
+      "locator": "states_submission_instruction:th a written report. 4.7. pandemic response. all personnel present on ellsworth afb are required to follow all pandemic response policies established by the base leadership. contractors that refuse to comply with all pandemic response policies may be denied access to the installation which can resu...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-f8ae6b318fbb3cb7",
@@ -86280,6 +87539,16 @@
       "title": "QUANTUM POWERCHAIR",
       "url": "https://www.usaspending.gov/award/CONT_AWD_36C24126N0710_3600_V797D70001_3600/",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-fb29d2049c9b2382",
+      "locator": "states_submission_instruction:an 1 valid defect per quarter contractor shall email the cor the monthly report within 1 duty day of notification review submissions 2.1. quality control. the contractor shall develop and implement procedures to identify, correct, and prevent discrepancies from occurring. a written quality control p...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -86555,16 +87824,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 1449,
-    "authoritative_claims": 1374,
+    "active_claims": 1469,
+    "authoritative_claims": 1393,
     "conflicted_claims": 0,
-    "derived_claims": 72,
-    "evidence_items": 1464,
-    "source_urls": 498,
-    "subjects": 349,
+    "derived_claims": 73,
+    "evidence_items": 1485,
+    "source_urls": 501,
+    "subjects": 350,
     "superseded_claims": 0,
-    "total_claims": 1476
+    "total_claims": 1496
   },
-  "updated_at": "2026-08-04T21:31:34.443424+00:00",
+  "updated_at": "2026-08-04T21:59:52.984007+00:00",
   "version": 1
 }

@@ -2,18 +2,22 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-08-04T21:31:34.443424+00:00_
+_Updated 2026-08-04T21:59:52.984007+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **1449**
-- Authoritative claims: **1374**
-- Analytical claims: **72**
+- Active claims: **1469**
+- Authoritative claims: **1393**
+- Analytical claims: **73**
 - Conflicted claims: **0**
-- Evidence items / URLs: **1464 / 498**
+- Evidence items / URLs: **1485 / 501**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
+| active | Autonomous Mower Maintenance Service | opportunity status | open | authoritative / high | [Autonomous Mower Maintenance Service](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view) |
+| active | Autonomous Mower Maintenance Service | deadline | 2026-08-07T11:00:00-06:00 | authoritative / high | [Autonomous Mower Maintenance Service](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view) |
+| active | Autonomous Mower Maintenance Service | set aside | Small Business Set Aside - Total | authoritative / high | [Autonomous Mower Maintenance Service](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view) |
+| active | Autonomous Mower Maintenance Service | awarding agency | DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE GLOBAL STRIKE COMMAND.FA4690 28 CONS PKC | authoritative / high | [Autonomous Mower Maintenance Service](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view) |
 | active | 52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614) | opportunity status | awarded | authoritative / high | [52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)](https://sam.gov/workspace/contract/opp/8523d97d7270414ca555500dd2c209a5/view) |
 | active | 52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614) | deadline | 2026-08-06T10:00:00-04:00 | authoritative / high | [52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)](https://sam.gov/workspace/contract/opp/8523d97d7270414ca555500dd2c209a5/view) |
 | active | 52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614) | set aside | No Set aside used | authoritative / high | [52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)](https://sam.gov/workspace/contract/opp/8523d97d7270414ca555500dd2c209a5/view) |
@@ -260,10 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | POSTDOCTORAL FELLOWSHIP: MSPRF: FOUNDATIONS OF POSITIVE GEOMETRY -THIS AWARD IS MADE AS PART OF THE FY 2026 MATHEMATICAL SCIENCES POSTDOCTORAL RESEARCH FELLOWSHIPS PROGRAM. EACH O... | awarding agency | National Science Foundation | authoritative / high | [POSTDOCTORAL FELLOWSHIP: MSPRF: FOUNDATIONS OF POSITIVE GEOMETRY -THIS AWARD IS MADE AS PART OF THE FY 2026 MATHEMATICAL SCIENCES POSTDOCTORAL RESEARCH FELLOWSHIPS PROGRAM. EACH O...](https://www.usaspending.gov/award/ASST_NON_2602095_049) |
 | active | POSTDOCTORAL FELLOWSHIP: MSPRF: FOUNDATIONS OF POSITIVE GEOMETRY -THIS AWARD IS MADE AS PART OF THE FY 2026 MATHEMATICAL SCIENCES POSTDOCTORAL RESEARCH FELLOWSHIPS PROGRAM. EACH O... | reported amount | 190000.0 | authoritative / high | [POSTDOCTORAL FELLOWSHIP: MSPRF: FOUNDATIONS OF POSITIVE GEOMETRY -THIS AWARD IS MADE AS PART OF THE FY 2026 MATHEMATICAL SCIENCES POSTDOCTORAL RESEARCH FELLOWSHIPS PROGRAM. EACH O...](https://www.usaspending.gov/award/ASST_NON_2602095_049) |
 | active | POSTDOCTORAL FELLOWSHIP: MSPRF: FOUNDATIONS OF POSITIVE GEOMETRY -THIS AWARD IS MADE AS PART OF THE FY 2026 MATHEMATICAL SCIENCES POSTDOCTORAL RESEARCH FELLOWSHIPS PROGRAM. EACH O... | reported recipient | REDACTED DUE TO PII | authoritative / high | [POSTDOCTORAL FELLOWSHIP: MSPRF: FOUNDATIONS OF POSITIVE GEOMETRY -THIS AWARD IS MADE AS PART OF THE FY 2026 MATHEMATICAL SCIENCES POSTDOCTORAL RESEARCH FELLOWSHIPS PROGRAM. EACH O...](https://www.usaspending.gov/award/ASST_NON_2602095_049) |
-| active | COLLABORATIVE RESEARCH: ELEMENTS: PORTABLE RESISTIVE GRMHD CYBERINFRASTRUCTURE FOR MULTI-MESSENGER ASTROPHYSICS -MERGERS OF NEUTRON STARS AND PAIRS OF SUPERMASSIVE BLACK HOLES ARE... | opportunity status | awarded | authoritative / high | [COLLABORATIVE RESEARCH: ELEMENTS: PORTABLE RESISTIVE GRMHD CYBERINFRASTRUCTURE FOR MULTI-MESSENGER ASTROPHYSICS -MERGERS OF NEUTRON STARS AND PAIRS OF SUPERMASSIVE BLACK HOLES ARE...](https://www.usaspending.gov/award/ASST_NON_2608812_049) |
-| active | COLLABORATIVE RESEARCH: ELEMENTS: PORTABLE RESISTIVE GRMHD CYBERINFRASTRUCTURE FOR MULTI-MESSENGER ASTROPHYSICS -MERGERS OF NEUTRON STARS AND PAIRS OF SUPERMASSIVE BLACK HOLES ARE... | awarding agency | National Science Foundation | authoritative / high | [COLLABORATIVE RESEARCH: ELEMENTS: PORTABLE RESISTIVE GRMHD CYBERINFRASTRUCTURE FOR MULTI-MESSENGER ASTROPHYSICS -MERGERS OF NEUTRON STARS AND PAIRS OF SUPERMASSIVE BLACK HOLES ARE...](https://www.usaspending.gov/award/ASST_NON_2608812_049) |
-| active | COLLABORATIVE RESEARCH: ELEMENTS: PORTABLE RESISTIVE GRMHD CYBERINFRASTRUCTURE FOR MULTI-MESSENGER ASTROPHYSICS -MERGERS OF NEUTRON STARS AND PAIRS OF SUPERMASSIVE BLACK HOLES ARE... | reported amount | 300000.0 | authoritative / high | [COLLABORATIVE RESEARCH: ELEMENTS: PORTABLE RESISTIVE GRMHD CYBERINFRASTRUCTURE FOR MULTI-MESSENGER ASTROPHYSICS -MERGERS OF NEUTRON STARS AND PAIRS OF SUPERMASSIVE BLACK HOLES ARE...](https://www.usaspending.gov/award/ASST_NON_2608812_049) |
-| active | COLLABORATIVE RESEARCH: ELEMENTS: PORTABLE RESISTIVE GRMHD CYBERINFRASTRUCTURE FOR MULTI-MESSENGER ASTROPHYSICS -MERGERS OF NEUTRON STARS AND PAIRS OF SUPERMASSIVE BLACK HOLES ARE... | reported recipient | ROCHESTER INSTITUTE OF TECHNOLOGY | authoritative / high | [COLLABORATIVE RESEARCH: ELEMENTS: PORTABLE RESISTIVE GRMHD CYBERINFRASTRUCTURE FOR MULTI-MESSENGER ASTROPHYSICS -MERGERS OF NEUTRON STARS AND PAIRS OF SUPERMASSIVE BLACK HOLES ARE...](https://www.usaspending.gov/award/ASST_NON_2608812_049) |
 
 ## Method
 

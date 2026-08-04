@@ -2,12 +2,12 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-08-04T21:31:34.443424+00:00_
+_Updated 2026-08-04T21:59:52.984007+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **65**
-- Added / changed / resolved: **38 / 0 / 27**
+- Material changes: **47**
+- Added / changed / resolved: **20 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **0**
 - Conflicts opened / resolved: **0 / 0**
@@ -18,44 +18,26 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- **52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/8523d97d7270414ca555500dd2c209a5/view))
-- **52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)** — deadline: 2026-08-06T10:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/8523d97d7270414ca555500dd2c209a5/view))
-- **52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)** — set aside: No Set aside used ([evidence](https://sam.gov/workspace/contract/opp/8523d97d7270414ca555500dd2c209a5/view))
-- **52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)** — awarding agency: HOMELAND SECURITY, DEPARTMENT OF.US COAST GUARD.SFLC PROCUREMENT BRANCH 1(00080) ([evidence](https://sam.gov/workspace/contract/opp/8523d97d7270414ca555500dd2c209a5/view))
-- **ROSES25: A.14 Atmosphere** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/363240))
-- **ROSES25: A.14 Atmosphere** — deadline: 10/20/2026 ([evidence](https://www.grants.gov/search-results-detail/363240))
-- **ROSES25: A.14 Atmosphere** — awarding agency: NASA-HQ ([evidence](https://www.grants.gov/search-results-detail/363240))
-- **ROSES25: A.15 Biosphere** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/363241))
-- **ROSES25: A.15 Biosphere** — deadline: 11/06/2026 ([evidence](https://www.grants.gov/search-results-detail/363241))
-- **ROSES25: A.15 Biosphere** — awarding agency: NASA-HQ ([evidence](https://www.grants.gov/search-results-detail/363241))
-- **ROSES25: A.13 Accelerating Earth Solutions** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/363224))
-- **ROSES25: A.13 Accelerating Earth Solutions** — deadline: 10/15/2026 ([evidence](https://www.grants.gov/search-results-detail/363224))
-- **ROSES25: A.13 Accelerating Earth Solutions** — awarding agency: NASA-HQ ([evidence](https://www.grants.gov/search-results-detail/363224))
-- **16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view))
-- **16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF** — deadline: 2026-09-18T00:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view))
-- **16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT ([evidence](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view))
-- **66--SENSOR,OXYGEN** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view))
-- **66--SENSOR,OXYGEN** — deadline: 2026-08-19 ([evidence](https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view))
-- **66--SENSOR,OXYGEN** — set aside: Small Business Set Aside - Total ([evidence](https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view))
-- **66--SENSOR,OXYGEN** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME ([evidence](https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view))
-- **66--SENSOR,NITROGEN** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view))
-- **66--SENSOR,NITROGEN** — deadline: 2026-08-19 ([evidence](https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view))
-- **66--SENSOR,NITROGEN** — set aside: SBA Certified Women-Owned Small Business (WOSB) Program Set-Aside (FAR 19.15) ([evidence](https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view))
-- **66--SENSOR,NITROGEN** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME ([evidence](https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view))
-- **UNIVERSITY OF MARYLAND, COLLEGE PARK** — legal business name: UNIVERSITY OF MARYLAND, COLLEGE PARK ([evidence](https://sam.gov/entity/NPU8ULVAAS23/coreData))
-- **UNIVERSITY OF MARYLAND, COLLEGE PARK** — uei: NPU8ULVAAS23 ([evidence](https://sam.gov/entity/NPU8ULVAAS23/coreData))
-- **UNIVERSITY OF MARYLAND, COLLEGE PARK** — cage code: 0UB92 ([evidence](https://sam.gov/entity/NPU8ULVAAS23/coreData))
-- **UNIVERSITY OF MARYLAND, COLLEGE PARK** — registration status: Active ([evidence](https://sam.gov/entity/NPU8ULVAAS23/coreData))
-- **INUTEQ, LLC** — legal business name: InuTeq, LLC ([evidence](https://sam.gov/entity/NBEWZB8LQ8Z5/coreData))
-- **INUTEQ, LLC** — uei: NBEWZB8LQ8Z5 ([evidence](https://sam.gov/entity/NBEWZB8LQ8Z5/coreData))
-- **INUTEQ, LLC** — cage code: 5NTT4 ([evidence](https://sam.gov/entity/NBEWZB8LQ8Z5/coreData))
-- **INUTEQ, LLC** — registration status: Active ([evidence](https://sam.gov/entity/NBEWZB8LQ8Z5/coreData))
-- **POST QUANTUM LABS LLC** — legal business name: Post Quantum Labs LLC ([evidence](https://sam.gov/entity/H53MXWJZPYU3/coreData))
-- **POST QUANTUM LABS LLC** — uei: H53MXWJZPYU3 ([evidence](https://sam.gov/entity/H53MXWJZPYU3/coreData))
-- **POST QUANTUM LABS LLC** — cage code: 9T5C5 ([evidence](https://sam.gov/entity/H53MXWJZPYU3/coreData))
-- **POST QUANTUM LABS LLC** — registration status: Active ([evidence](https://sam.gov/entity/H53MXWJZPYU3/coreData))
-- **66--SENSOR,OXYGEN** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view))
-- **66--SENSOR,NITROGEN** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view))
+- **Autonomous Mower Maintenance Service** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view))
+- **Autonomous Mower Maintenance Service** — deadline: 2026-08-07T11:00:00-06:00 ([evidence](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view))
+- **Autonomous Mower Maintenance Service** — set aside: Small Business Set Aside - Total ([evidence](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view))
+- **Autonomous Mower Maintenance Service** — awarding agency: DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE GLOBAL STRIKE COMMAND.FA4690 28 CONS PKC ([evidence](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view))
+- **Autonomous Mower Maintenance Service** — states requirement: K STATEMENT FOR AUTONOMOUS MOWING SERVICES FA4690-XX-X-XXXX ELLSWORTH AFB, SD 1. DESCRIPTION OF SERVICES The Contractor shall provide all personnel, equipment, tools, supervision, and other items and services necessary to ensure autonomous mowing operations monitoring and equipment servicing is per... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — states requirement: in Attachment 1 – EAFB Autonomous Mowing Map. 1.1. Autonomous Mowing Operations and Equipment Servicing. The Contractor shall provide all monitoring and servicing required for the operation of two (2) Renubot Autonomous Mowing Systems for the duration of the mowing season (approximately April throu... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — states requirement: p. 1.1. Autonomous Mowing Operations and Equipment Servicing. The Contractor shall provide all monitoring and servicing required for the operation of two (2) Renubot Autonomous Mowing Systems for the duration of the mowing season (approximately April through October). 1.1.1. Mow. The Contractor sha... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — states requirement: Mowing Systems for the duration of the mowing season (approximately April through October). 1.1.1. Mow. The Contractor shall monitor autonomous mowing operations for all designated grounds to maintain a grass height between 4 and 10 inches. The grounds shall be maintained in a uniform appearance, f... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — states requirement: autonomous mowing operations for all designated grounds to maintain a grass height between 4 and 10 inches. The grounds shall be maintained in a uniform appearance, free of skips, gaps, or scalping. The mower shall navigate around and not physically contact all facilities/infrastructure. The mower... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — states requirement: n 4 and 10 inches. The grounds shall be maintained in a uniform appearance, free of skips, gaps, or scalping. The mower shall navigate around and not physically contact all facilities/infrastructure. The mower shall only travel and perform work in areas designated by the Government in Attachment 1... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — states requirement: gaps, or scalping. The mower shall navigate around and not physically contact all facilities/infrastructure. The mower shall only travel and perform work in areas designated by the Government in Attachment 1 – EAFB Autonomous Mowing Map. 1.1.2. Initial Setup and Commissioning. The Contractor shall... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — states requirement: by the Government in Attachment 1 – EAFB Autonomous Mowing Map. 1.1.2. Initial Setup and Commissioning. The Contractor shall be responsible for the initial setup, and on-site commissioning of two (2) Renubots and Recharge Pods. This includes the construction of Recharge Pods, conﬁguration of the Re... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — states submission instruction: an 1 valid defect per quarter Contractor shall email the COR the monthly report within 1 duty day of notiﬁcation Review Submissions 2.1. Quality Control. The Contractor shall develop and implement procedures to identify, correct, and prevent discrepancies from occurring. A written Quality Control P... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — states submission instruction: ment procedures to identify, correct, and prevent discrepancies from occurring. A written Quality Control Plan shall be submitted to the Contracting Officer (CO) for review. The plan shall be submitted no later than the pre-performance conference. The plan shall speciﬁcally address the Contractor’s... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — states submission instruction: urring. A written Quality Control Plan shall be submitted to the Contracting Officer (CO) for review. The plan shall be submitted no later than the pre-performance conference. The plan shall speciﬁcally address the Contractor’s strategy to provide quality workmanship, continual process improvement,... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — states submission instruction: tors on the base, the Contractor should verbally notify the COR and then follow up with a written report. 4.7. Pandemic Response. All personnel present on Ellsworth AFB are required to follow all pandemic response policies established by the base leadership. Contractors that refuse to comply with a... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — states submission instruction: th a written report. 4.7. Pandemic Response. All personnel present on Ellsworth AFB are required to follow all pandemic response policies established by the base leadership. Contractors that refuse to comply with all pandemic response policies may be denied access to the installation which can resu... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — states deliverable: PERFORMANCE WORK STATEMENT FOR AUTONOMOUS MOWING SERVICES FA4690-XX-X-XXXX ELLSWORTH AFB, SD 1. DESCRIPTION OF SERVICES The Contractor shall provide all personnel, equipment, tools, supervision, and other i ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — states deliverable: vernment property or an accident resulting in death, injury, occupational disease, or adverse environmental impact. END PERFORMANCE WORK STATEMENT ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Autonomous Mower Maintenance Service** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view))
 
 ## Superseded claims
 

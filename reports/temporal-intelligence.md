@@ -2,37 +2,21 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-08-04T21:31:34.443424+00:00_
+_Updated 2026-08-04T21:59:52.984007+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **17**
-- Newly discovered historical evidence: **9**
-- Newly observed with no reliable source date: **12**
-- Upcoming dated events: **71**
+- Actual or recent changes: **20**
+- Newly discovered historical evidence: **0**
+- Newly observed with no reliable source date: **0**
+- Upcoming dated events: **72**
 
 ## Priority timeline
 
-- **Published today** · 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view))
+- **Published today** · Autonomous Mower Maintenance Service — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view))
   - The source publication date is today or within the prior day.
-- **Published today** · 52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614) — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/8523d97d7270414ca555500dd2c209a5/view))
+- **Published today** · Autonomous Mower Maintenance Service — states deliverable ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
   - The source publication date is today or within the prior day.
-- **Published today** · 66--SENSOR,NITROGEN — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view))
-  - The source publication date is today or within the prior day.
-- **Published today** · 66--SENSOR,OXYGEN — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view))
-  - The source publication date is today or within the prior day.
-- **Newly observed · event date unknown** · INUTEQ, LLC — cage code ([evidence](https://sam.gov/entity/NBEWZB8LQ8Z5/coreData))
-  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
-- **Newly observed · event date unknown** · POST QUANTUM LABS LLC — cage code ([evidence](https://sam.gov/entity/H53MXWJZPYU3/coreData))
-  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
-- **Newly observed · event date unknown** · UNIVERSITY OF MARYLAND, COLLEGE PARK — cage code ([evidence](https://sam.gov/entity/NPU8ULVAAS23/coreData))
-  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
-- **Newly discovered historical evidence** · ROSES25: A.13 Accelerating Earth Solutions — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363224))
-  - Scout first observed this on 2026-08-04; the source date is 2026-07-17.
-- **Newly discovered historical evidence** · ROSES25: A.14 Atmosphere — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363240))
-  - Scout first observed this on 2026-08-04; the source date is 2026-07-20.
-- **Newly discovered historical evidence** · ROSES25: A.15 Biosphere — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363241))
-  - Scout first observed this on 2026-08-04; the source date is 2026-07-20.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -78,6 +62,7 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-07-31** · Receive abstracts for the expanded QBIT Stage A solicitation — overdue ([source](https://www.darpa.mil/news/2026/qbi-stage-a-qbit))
 - **2026-08-05** · Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027 — closing_soon ([source](https://www.grants.gov/search-results-detail/362913))
 - **2026-08-05** · Young Trilateral Leaders (YTL) Summit — closing_soon ([source](https://www.grants.gov/search-results-detail/363267))
+- **2026-08-07** · Autonomous Mower Maintenance Service — closing_soon ([source](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view))
 - **2026-08-07** · Creative Industries Film Lab and Residency - American Film Showcase 2026 — closing_soon ([source](https://www.grants.gov/search-results-detail/362939))
 - **2026-08-07** · Escape The Hack: Countering Cyber Scams with an Immersive Experience for Everyday Indonesians — closing_soon ([source](https://www.grants.gov/search-results-detail/362863))
 - **2026-08-07** · Fiscal Year 2026 Next Generation Warning System Grant Program — closing_soon ([source](https://www.grants.gov/search-results-detail/363192))
@@ -111,4 +96,3 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-09-18** · 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF — open_window ([source](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view))
 - **2026-09-20** · OMB issues agency guidance for inventories, migration plans, and high-impact systems — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
 - **2026-09-20** · Publish a summary of QC-ADDS technical specifications — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
-- **2026-09-22** · Launch the AI Forge university-industry-government forum — estimated ([source](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security))

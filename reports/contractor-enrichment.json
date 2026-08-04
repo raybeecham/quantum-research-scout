@@ -10,7 +10,7 @@
         "State Controlled Institution of Higher Learning",
         "U.S. State Government"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "0UB92",
       "checked_at": "2026-08-04T21:31:34.443424+00:00",
       "contractor_name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
@@ -168,7 +168,7 @@
         "Native American Owned",
         "Self Certified Small Disadvantaged Business"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "5NTT4",
       "checked_at": "2026-08-04T21:31:34.443424+00:00",
       "contractor_name": "INUTEQ, LLC",
@@ -303,7 +303,7 @@
         "Service-Disabled Veteran-Owned Business",
         "Veteran-Owned Business"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "9T5C5",
       "checked_at": "2026-08-04T21:31:34.443424+00:00",
       "contractor_name": "POST QUANTUM LABS LLC",
@@ -1095,10 +1095,10 @@
         "MASSACHUSETTS INSTITUTE OF TECHNOLOGY"
       ],
       "cache_status": "error",
-      "checked_at": "2026-08-03T02:07:21.978304+00:00",
+      "checked_at": "2026-08-04T21:59:52.984007+00:00",
       "contractor_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
       "contractor_score": 23,
-      "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=[REDACTED]&includeSections=entityRegi...",
+      "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=[REDACTED]&includeSections=entityRegistration%2CcoreData%2Cassertio...",
       "identity_id": "uei:E2NYLCDML6V1",
       "resolution_basis": "Queued for a future bounded enrichment batch",
       "resolution_confidence": "unknown",
@@ -2424,17 +2424,17 @@
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-08-03T02:07:21.978304+00:00",
+      "checked_at": "2026-08-04T21:59:52.984007+00:00",
       "contractor_name": "UNIVERSITY OF OKLAHOMA",
-      "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=[REDACTED]&includeSections=entityRegi...",
+      "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=[REDACTED]&includeSections=entityRegistration%2CcoreData%2Cassertio...",
       "identity_id": "uei:EVTSTTLCEWS5",
       "resolution_status": "error"
     },
     {
       "cache_status": "error",
-      "checked_at": "2026-08-03T02:07:21.978304+00:00",
+      "checked_at": "2026-08-04T21:59:52.984007+00:00",
       "contractor_name": "REDACTED DUE TO PII",
-      "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=[REDACTED]&includeSections=entityRegi...",
+      "error": "Failed to fetch https://api.sam.gov/entity-information/v4/entities: 429 Client Error: Too Many Requests for url: https://api.sam.gov/entity-information/v4/entities?api_key=[REDACTED]&includeSections=entityRegistration%2CcoreData%2Cassertio...",
       "identity_id": "name:redacted due to pii",
       "resolution_status": "error"
     },
@@ -2509,7 +2509,7 @@
     "ambiguous": 0,
     "api_key_configured": true,
     "name_only": 166,
-    "newly_resolved": 3,
+    "newly_resolved": 0,
     "no_match": 0,
     "pending": 154,
     "queries_remaining": 0,
@@ -2517,6 +2517,6 @@
     "tracked_contractors": 75,
     "uei_coverage_percent": 4.0
   },
-  "updated_at": "2026-08-04T21:31:34.443424+00:00",
+  "updated_at": "2026-08-04T21:59:52.984007+00:00",
   "version": 1
 }

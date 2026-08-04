@@ -208,8 +208,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 34,
         "status": "current"
       },
       "decision_score": 34,
@@ -401,8 +401,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 34,
         "status": "current"
       },
       "decision_score": 34,
@@ -2137,20 +2137,35 @@
       "url": "https://www.grants.gov/search-results-detail/353962"
     },
     {
-      "agency": "NSF",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE GLOBAL STRIKE COMMAND.FA4690 28 CONS PKC",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 169,
-      "deadline": "01/20/2027",
+      "contacts": [
+        {
+          "email": "aaron.fox_snider@us.af.mil",
+          "full_name": "Aaron Fox-Snider",
+          "phone": "6053851763",
+          "title": "",
+          "type": "primary"
+        },
+        {
+          "email": "martelangelo.surop@us.af.mil",
+          "full_name": "Martelangelo Surop",
+          "phone": "6053852181",
+          "title": "",
+          "type": "secondary"
+        }
+      ],
+      "days_to_close": 3,
+      "deadline": "2026-08-07T11:00:00-06:00",
       "decision_freshness": {
         "current_gate": "hold",
         "current_score": 24,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 24,
+        "previous_gate": null,
+        "previous_score": null,
         "status": "current"
       },
       "decision_score": 24,
@@ -2158,34 +2173,38 @@
         "components": [
           {
             "basis": [
-              "strategic significance +11",
-              "actionable grant_opportunity +9",
-              "open_window +4",
-              "technology fit +8"
+              "strategic significance +8",
+              "actionable rfi +6",
+              "closing_soon +12",
+              "technology fit +4",
+              "new since yesterday +5"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/358004"
+              "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view"
             ],
-            "points": 32
+            "points": 35
           },
           {
             "basis": [
-              "0 / 100 document evidence completeness"
+              "48 / 100 document evidence completeness"
             ],
             "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
+            "evidence_urls": [
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fe5715b9bd81493b8ed022605992acb6"
+            ],
+            "points": 4
           },
           {
             "basis": [
-              "No extracted procurement document evidence"
+              "Compressed response window: 3 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/358004"
+              "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view"
             ],
-            "points": -8
+            "points": -15
           }
         ],
         "input_claim_ids": [],
@@ -2193,130 +2212,138 @@
         "model_version": "2",
         "public_evidence_score": 24,
         "source_urls": [
-          "https://www.grants.gov/search-results-detail/358004"
+          "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fe5715b9bd81493b8ed022605992acb6"
         ],
-        "trace_hash": "267d3c133989e186"
+        "trace_hash": "8221179d25f58820"
       },
       "eligibility": [],
       "evaluation_criteria": [],
-      "evidence_completeness": 0,
+      "evidence_completeness": 48,
       "latest_amendment_impact": null,
       "likely_market_participants": [
         {
           "basis": [
-            "shared specialties: artificial intelligence, cybersecurity"
+            "shared specialties: autonomy and sensing"
           ],
           "name": "POST QUANTUM LABS LLC",
-          "score": 7,
+          "score": 5,
           "uei": "H53MXWJZPYU3"
         },
         {
           "basis": [
-            "shared specialties: artificial intelligence, cybersecurity"
+            "shared specialties: autonomy and sensing"
           ],
-          "name": "UNIVERSITY OF OKLAHOMA",
-          "score": 4,
-          "uei": "EVTSTTLCEWS5"
+          "name": "INTEGER TECHNOLOGIES LLC",
+          "score": 5,
+          "uei": "EVJCVE83BCJ1"
         },
         {
           "basis": [
-            "shared specialties: artificial intelligence, cybersecurity"
+            "shared specialties: autonomy and sensing"
           ],
-          "name": "UNIVERSITY OF HAWAII",
-          "score": 4,
-          "uei": "NSCKLFSSABF2"
+          "name": "W S DARLEY & CO",
+          "score": 2,
+          "uei": "TENRPZGMAGJ6"
         },
         {
           "basis": [
-            "shared specialties: artificial intelligence, cybersecurity"
+            "shared specialties: autonomy and sensing"
           ],
-          "name": "UNIVERSITY OF CALIFORNIA SANTA CRUZ",
-          "score": 4,
-          "uei": "VXUFPE4MCZH5"
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
         },
         {
           "basis": [
-            "shared specialties: artificial intelligence, cybersecurity"
+            "shared specialties: autonomy and sensing"
           ],
-          "name": "THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK",
-          "score": 4,
-          "uei": "F4N1QNPB95M4"
+          "name": "UNIVERSITY OF TEXAS AT ARLINGTON",
+          "score": 2,
+          "uei": "LMLUKUPJJ9N3"
         }
       ],
       "mission_fit": [],
-      "opportunity_key": "grants_gov:25-531",
+      "opportunity_key": "sam_gov:FA4690SS01",
       "potential_teaming_candidates": [
         {
           "basis": [
-            "shared specialties: artificial intelligence, cybersecurity"
+            "shared specialties: autonomy and sensing"
           ],
-          "name": "UNIVERSITY OF OKLAHOMA",
-          "score": 4,
-          "uei": "EVTSTTLCEWS5"
+          "name": "W S DARLEY & CO",
+          "score": 2,
+          "uei": "TENRPZGMAGJ6"
         },
         {
           "basis": [
-            "shared specialties: artificial intelligence, cybersecurity"
+            "shared specialties: autonomy and sensing"
           ],
-          "name": "UNIVERSITY OF HAWAII",
-          "score": 4,
-          "uei": "NSCKLFSSABF2"
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
         },
         {
           "basis": [
-            "shared specialties: artificial intelligence, cybersecurity"
+            "shared specialties: autonomy and sensing"
           ],
-          "name": "UNIVERSITY OF CALIFORNIA SANTA CRUZ",
-          "score": 4,
-          "uei": "VXUFPE4MCZH5"
+          "name": "UNIVERSITY OF TEXAS AT ARLINGTON",
+          "score": 2,
+          "uei": "LMLUKUPJJ9N3"
         },
         {
           "basis": [
-            "shared specialties: artificial intelligence, cybersecurity"
+            "shared specialties: autonomy and sensing"
           ],
-          "name": "THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK",
-          "score": 4,
-          "uei": "F4N1QNPB95M4"
+          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+          "score": 2,
+          "uei": "MKAGLD59JRL1"
         },
         {
           "basis": [
-            "shared specialties: artificial intelligence, cybersecurity"
+            "shared specialties: autonomy and sensing"
           ],
-          "name": "THE CURATORS OF THE UNIVERSITY OF MISSOURI",
-          "score": 4,
-          "uei": "J9CDGR596MN3"
+          "name": "UNIVERSITY OF NORTH TEXAS",
+          "score": 2,
+          "uei": "G47WN1XZNWX9"
         }
       ],
       "provisional_gate": "hold",
       "public_evidence_score": 24,
-      "record_type": "grant_opportunity",
+      "record_type": "rfi",
       "relevant_patents": [],
       "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/358004"
-      ],
-      "technology_fit": [
-        "artificial intelligence",
-        "cybersecurity"
-      ],
-      "title": "Cybersecurity Innovation for Cyberinfrastructure",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
         "Confirm evaluation criteria in the controlling solicitation",
         "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
       ],
-      "url": "https://www.grants.gov/search-results-detail/358004"
+      "requirements": [
+        "K STATEMENT FOR AUTONOMOUS MOWING SERVICES FA4690-XX-X-XXXX ELLSWORTH AFB, SD 1. DESCRIPTION OF SERVICES The Contractor shall provide all personnel, equipment, tools, supervision, and other items and services necessary to ensure autonomous mowing operations monitoring and equipment servicing is per...",
+        "in Attachment 1 \u2013 EAFB Autonomous Mowing Map. 1.1. Autonomous Mowing Operations and Equipment Servicing. The Contractor shall provide all monitoring and servicing required for the operation of two (2) Renubot Autonomous Mowing Systems for the duration of the mowing season (approximately April throu...",
+        "p. 1.1. Autonomous Mowing Operations and Equipment Servicing. The Contractor shall provide all monitoring and servicing required for the operation of two (2) Renubot Autonomous Mowing Systems for the duration of the mowing season (approximately April through October). 1.1.1. Mow. The Contractor sha...",
+        "Mowing Systems for the duration of the mowing season (approximately April through October). 1.1.1. Mow. The Contractor shall monitor autonomous mowing operations for all designated grounds to maintain a grass height between 4 and 10 inches. The grounds shall be maintained in a uniform appearance, f...",
+        "autonomous mowing operations for all designated grounds to maintain a grass height between 4 and 10 inches. The grounds shall be maintained in a uniform appearance, free of skips, gaps, or scalping. The mower shall navigate around and not physically contact all facilities/infrastructure. The mower..."
+      ],
+      "risks": [
+        "Compressed response window: 3 day(s) remaining",
+        "Document evidence is incomplete; review the controlling files manually"
+      ],
+      "set_aside": "Small Business Set Aside - Total",
+      "source_urls": [
+        "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download",
+        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fe5715b9bd81493b8ed022605992acb6"
+      ],
+      "technology_fit": [
+        "autonomy and sensing"
+      ],
+      "title": "Autonomous Mower Maintenance Service",
+      "unknowns": [
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation"
+      ],
+      "url": "https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view"
     },
     {
       "agency": "DOS-KOR",
@@ -3527,6 +3554,6 @@
     "qualify": 1,
     "targeted_review": 0
   },
-  "updated_at": "2026-08-04T21:31:34.443424+00:00",
+  "updated_at": "2026-08-04T21:59:52.984007+00:00",
   "version": 1
 }

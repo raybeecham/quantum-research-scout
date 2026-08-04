@@ -4,13 +4,13 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-04 21:40 UTC_
+_Updated 2026-08-04 22:07 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 12 | 6 | 15 | 29 |
+| 50 | 1 | 5 | 16 | 29 |
 
-## 🔴 Critical theme: AI Security 🆕
+## 🔴 Critical theme: AI Security
 
 - Severity: **critical**
 - Status: **critical**
@@ -45,14 +45,7 @@ _Updated 2026-08-04 21:40 UTC_
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Source failing: SAM.gov Opportunities
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 0.0% reliability with 2 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Actionable signal: Quantum Networking 🆕
+## 🟠 Actionable signal: Quantum Networking
 
 - Severity: **high**
 - Status: **actionable**
@@ -65,6 +58,14 @@ _Updated 2026-08-04 21:40 UTC_
 - Status: **actionable**
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
+
+## 🟠 Federal opportunity closing soon: Autonomous Mower Maintenance Service 🆕
+
+- Severity: **high**
+- Status: **closing-soon**
+- 3 day(s) remain · radar score 35 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view)
+- [Open supporting view](federal-funding.md)
 
 ## 🟠 Federal opportunity closing soon: Creative Industries Film Lab and Residency - American Film Showcase 2026
 
@@ -122,7 +123,7 @@ _Updated 2026-08-04 21:40 UTC_
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363267)
 - [Open supporting view](federal-funding.md)
 
-## 🟠 Product Launch: Thales 🆕
+## 🟠 Product Launch: Thales
 
 - Severity: **high**
 - Status: **product-launch**
@@ -137,11 +138,11 @@ _Updated 2026-08-04 21:40 UTC_
 - ↗️ Recent evidence is 6 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Source degraded: ETSI Quantum Standards News 🆕
+## 🟠 Source degraded: ETSI Quantum Standards News
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.4% reliability with 1 warning day(s).
+- 🟠 94.7% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: PQCA Readiness Tracking
@@ -155,14 +156,14 @@ _Updated 2026-08-04 21:40 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 87.5% reliability with 1 warning day(s).
+- 🟠 88.2% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 87.5% reliability with 1 warning day(s).
+- 🟠 88.2% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Federal opportunity closing soon: AI Pathways To The Future
@@ -221,7 +222,7 @@ _Updated 2026-08-04 21:40 UTC_
 - [Open direct evidence](https://www.grants.gov/search-results-detail/362711)
 - [Open supporting view](federal-funding.md)
 
-## 🟡 Rising momentum: Quantum Networking 🆕
+## 🟡 Rising momentum: Quantum Networking
 
 - Severity: **medium**
 - Status: **rising**
@@ -263,7 +264,7 @@ _Updated 2026-08-04 21:40 UTC_
 - The latest dated item is from 2025-09-11; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: DARPA Strategic Technology Missions 🆕
+## 🟡 Source stale: DARPA Strategic Technology Missions
 
 - Severity: **medium**
 - Status: **stale**
@@ -333,42 +334,42 @@ _Updated 2026-08-04 21:40 UTC_
 - The latest dated item is from 2026-06-08; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Intel Quantum Research News 🆕
+## 🟡 Source stale: Intel Quantum Research News
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2023-06-15; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Lockheed Martin Quantum Technology 🆕
+## 🟡 Source stale: Lockheed Martin Quantum Technology
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-14; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: NCSC UK Guidance 🆕
+## 🟡 Source stale: NCSC UK Guidance
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-03-19; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: NCSC UK Reports 🆕
+## 🟡 Source stale: NCSC UK Reports
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2025-05-07; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: NIST Post-Quantum Cryptography Project 🆕
+## 🟡 Source stale: NIST Post-Quantum Cryptography Project
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2025-03-07; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: QuSecure Press Releases 🆕
+## 🟡 Source stale: QuSecure Press Releases
 
 - Severity: **medium**
 - Status: **stale**
