@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-08-03T02:07:21.978304+00:00_
+_Updated 2026-08-04T01:52:55.367102+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 

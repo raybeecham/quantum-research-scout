@@ -695,6 +695,51 @@
     },
     {
       "confidence": "medium",
+      "evidence_count": 2,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-08-03",
+      "name": "Cisco",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-08-03",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "A Different Road to Quantum Safety: The PPK \u2013 IPsec Series, Part 5",
+          "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
+        },
+        {
+          "date": "2026-07-27",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
+          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "medium",
       "evidence_count": 3,
       "historical_evidence_count": 0,
       "latest_evidence_at": "2026-07-29",
@@ -892,8 +937,8 @@
       "confidence": "low",
       "evidence_count": 1,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-07-27",
-      "name": "Cisco",
+      "latest_evidence_at": "2026-08-03",
+      "name": "DigiCert",
       "priority": "high",
       "source_count": 1,
       "stage": "awareness",
@@ -901,7 +946,7 @@
       "stage_rank": 1,
       "supporting_evidence": [
         {
-          "date": "2026-07-27",
+          "date": "2026-08-03",
           "date_confidence": "unknown",
           "date_kind": "unknown",
           "historical": false,
@@ -911,9 +956,9 @@
           "observed_stage": "awareness",
           "observed_stage_label": "Awareness",
           "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
-          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
+          "source": "Quantum Zeitgeist",
+          "title": "DigiCert\u2019s New Edition Simplifies Post-Quantum Cryptography Planning",
+          "url": "https://quantumzeitgeist.com/post-quantum-cryptography-digicerts-edition-simplifies"
         }
       ],
       "type": "company"
@@ -1116,20 +1161,6 @@
       "historical_evidence_count": 0,
       "latest_evidence_at": null,
       "name": "D-Wave",
-      "priority": "high",
-      "source_count": 0,
-      "stage": "not_assessed",
-      "stage_label": "Not assessed",
-      "stage_rank": 0,
-      "supporting_evidence": [],
-      "type": "company"
-    },
-    {
-      "confidence": "none",
-      "evidence_count": 0,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": null,
-      "name": "DigiCert",
       "priority": "high",
       "source_count": 0,
       "stage": "not_assessed",
@@ -1406,17 +1437,17 @@
     }
   ],
   "summary": {
-    "assessed": 19,
+    "assessed": 20,
     "by_stage": {
-      "awareness": 11,
+      "awareness": 12,
       "inventory": 1,
-      "not_assessed": 24,
+      "not_assessed": 23,
       "pilot": 2,
       "planning": 5
     },
-    "not_assessed": 24,
+    "not_assessed": 23,
     "organizations": 43
   },
-  "updated_at": "2026-08-03T02:15:21.680311+00:00",
+  "updated_at": "2026-08-04T02:00:16.681764+00:00",
   "version": 1
 }

@@ -1,501 +1,16 @@
 {
-  "added": [
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-49311149b07c9a26",
-      "confidence": "high",
-      "effective_date": "2026-08-03",
-      "evidence_title": "CREDENTIALING. 2(D).",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3009_7009_70US0922D70090003_7009",
-      "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-99eb851899c52608",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "CREDENTIALING. 2(D).",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3009_7009_70US0922D70090003_7009",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70US0926F3OTH3009",
-        "label": "CREDENTIALING. 2(D).",
-        "node_id": "award:usaspending:70US0926F3OTH3009",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-08-03",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-08-03",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Homeland Security"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-9600679056a185d6",
-      "confidence": "high",
-      "effective_date": "2026-08-03",
-      "evidence_title": "CREDENTIALING. 2(D).",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3009_7009_70US0922D70090003_7009",
-      "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1e71c9eadaf1b558",
-          "locator": "opportunity_status:awarded",
-          "title": "CREDENTIALING. 2(D).",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3009_7009_70US0922D70090003_7009",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70US0926F3OTH3009",
-        "label": "CREDENTIALING. 2(D).",
-        "node_id": "award:usaspending:70US0926F3OTH3009",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-08-03",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-08-03",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b15d3e99eabb7c16",
-      "confidence": "high",
-      "effective_date": "2026-08-03",
-      "evidence_title": "CREDENTIALING. 2(D).",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3009_7009_70US0922D70090003_7009",
-      "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-be0cc0f8f7a42246",
-          "locator": "reported_amount:27444.28",
-          "title": "CREDENTIALING. 2(D).",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3009_7009_70US0922D70090003_7009",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70US0926F3OTH3009",
-        "label": "CREDENTIALING. 2(D).",
-        "node_id": "award:usaspending:70US0926F3OTH3009",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-08-03",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-08-03",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 27444.28
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-63b44e95c0a65da5",
-      "confidence": "high",
-      "effective_date": "2026-08-03",
-      "evidence_title": "CREDENTIALING. 2(D).",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3009_7009_70US0922D70090003_7009",
-      "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": {
-        "identifier": "uei:UE9KZJJCMAS9",
-        "label": "THE ARDIAN GROUP, INC",
-        "node_id": "recipient_or_contractor:uei:UE9KZJJCMAS9",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8b8b09a37728dff9",
-          "locator": "reported_recipient:recipient_or_contractor:uei:UE9KZJJCMAS9",
-          "title": "CREDENTIALING. 2(D).",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3009_7009_70US0922D70090003_7009",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70US0926F3OTH3009",
-        "label": "CREDENTIALING. 2(D).",
-        "node_id": "award:usaspending:70US0926F3OTH3009",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-08-03",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-08-03",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-325f2f68ff1854ae",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "evidence_title": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80161_7571_NNG15SD91B_8000",
-      "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c234f2974e82172d",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80161_7571_NNG15SD91B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571TE26F80161",
-        "label": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-        "node_id": "award:usaspending:7571TE26F80161",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-28",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-03.",
-        "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-09-28",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Health and Human Services"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-9bbd99f43fc3b6c1",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "evidence_title": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80161_7571_NNG15SD91B_8000",
-      "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-30dbe40ba43f4ea7",
-          "locator": "opportunity_status:awarded",
-          "title": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80161_7571_NNG15SD91B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571TE26F80161",
-        "label": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-        "node_id": "award:usaspending:7571TE26F80161",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-28",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-03.",
-        "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-09-28",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2813a008741b3aec",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "evidence_title": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80161_7571_NNG15SD91B_8000",
-      "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e03e40f23b671eed",
-          "locator": "reported_amount:1485307.58",
-          "title": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80161_7571_NNG15SD91B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571TE26F80161",
-        "label": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-        "node_id": "award:usaspending:7571TE26F80161",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-28",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-03.",
-        "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-09-28",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 1485307.58
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a62cc1d54af67913",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "evidence_title": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80161_7571_NNG15SD91B_8000",
-      "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": {
-        "identifier": "uei:E41LV9AJGHQ1",
-        "label": "PARAGON MICRO INC",
-        "node_id": "recipient_or_contractor:uei:E41LV9AJGHQ1",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b3c886a7db1adbed",
-          "locator": "reported_recipient:recipient_or_contractor:uei:E41LV9AJGHQ1",
-          "title": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80161_7571_NNG15SD91B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571TE26F80161",
-        "label": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-        "node_id": "award:usaspending:7571TE26F80161",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-28",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-03.",
-        "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-09-28",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    }
-  ],
+  "added": [],
   "changed": [
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-3643b9ab24d3ff48",
-      "confidence": "high",
-      "effective_date": "2026-07-07",
-      "evidence_title": "FY26 American Spaces Vietnam Programming",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363080",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "previous_object": null,
-      "previous_value": "open",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fc8b49c37fcf320f",
-          "locator": "opportunity_status:closed",
-          "title": "FY26 American Spaces Vietnam Programming",
-          "url": "https://www.grants.gov/search-results-detail/363080",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:SVM300-26-PDS-AS",
-        "label": "FY26 American Spaces Vietnam Programming",
-        "node_id": "opportunity:grants_gov:SVM300-26-PDS-AS",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The assertion changed relative to the prior successful ledger build.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Changed since prior run",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-07",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-07-07"
-      },
-      "value": "closed"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-5ac2b97471ae61e5",
-      "confidence": "high",
-      "effective_date": "2026-07-06",
-      "evidence_title": "Vietnam CyberSafe Hacks 2026",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363062",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "previous_object": null,
-      "previous_value": "open",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b1f02aff71d11755",
-          "locator": "opportunity_status:closed",
-          "title": "Vietnam CyberSafe Hacks 2026",
-          "url": "https://www.grants.gov/search-results-detail/363062",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:FY26-PDS-HCMC-01",
-        "label": "Vietnam CyberSafe Hacks 2026",
-        "node_id": "opportunity:grants_gov:FY26-PDS-HCMC-01",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The assertion changed relative to the prior successful ledger build.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Changed since prior run",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-06",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-07-06"
-      },
-      "value": "closed"
-    },
     {
       "authority": "analytical",
       "change_type": "changed",
-      "claim_id": "claim-00fda323242c5854",
+      "claim_id": "claim-5a0b3e4bdf4ab948",
       "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "AI Pathways To The Future",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363061",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "effective_date": "2026-08-04",
+      "evidence_title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363440",
+      "first_observed_at": "2026-08-02T02:05:25.412721+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
@@ -505,17 +20,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-148fa25ee3525e9d",
+          "evidence_id": "evidence-0859d00a4811b833",
           "locator": "qualification_gate",
-          "title": "AI Pathways To The Future",
-          "url": "https://www.grants.gov/search-results-detail/363061",
+          "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+          "url": "https://www.grants.gov/search-results-detail/363440",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:PAS-JAKARTA-FY26-07",
-        "label": "AI Pathways To The Future",
-        "node_id": "opportunity:grants_gov:PAS-JAKARTA-FY26-07",
+        "identifier": "grants_gov:PDS-UKRAINE-FY26-04",
+        "label": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+        "node_id": "opportunity:grants_gov:PDS-UKRAINE-FY26-04",
         "node_type": "opportunity"
       },
       "temporal": {
@@ -524,14 +39,14 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+        "first_observed_at": "2026-08-02T02:05:25.412721+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-06",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
+        "primary_date": "2026-08-01",
         "primary_date_role": "publication_date",
-        "publication_date": "2026-07-06"
+        "publication_date": "2026-08-01"
       },
       "value": "hold"
     },
@@ -540,11 +55,11 @@
       "change_type": "changed",
       "claim_id": "claim-12713fbcc71642df",
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Correctness for Scientific Computing Systems",
       "evidence_url": "https://www.grants.gov/search-results-detail/354144",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
@@ -576,8 +91,8 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2024-05-10",
         "primary_date_role": "publication_date",
         "publication_date": "2024-05-10"
@@ -589,11 +104,11 @@
       "change_type": "changed",
       "claim_id": "claim-2dc93bfba95c9bb8",
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Creative Industries Film Lab and Residency - American Film Showcase 2026",
       "evidence_url": "https://www.grants.gov/search-results-detail/362939",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
@@ -625,8 +140,8 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2026-06-24",
         "primary_date_role": "publication_date",
         "publication_date": "2026-06-24"
@@ -636,160 +151,13 @@
     {
       "authority": "analytical",
       "change_type": "changed",
-      "claim_id": "claim-aae476ad8cc767c3",
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "Cybersecurity Innovation for Cyberinfrastructure",
-      "evidence_url": "https://www.grants.gov/search-results-detail/358004",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-86db8efb016af76d",
-          "locator": "qualification_gate",
-          "title": "Cybersecurity Innovation for Cyberinfrastructure",
-          "url": "https://www.grants.gov/search-results-detail/358004",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:25-531",
-        "label": "Cybersecurity Innovation for Cyberinfrastructure",
-        "node_id": "opportunity:grants_gov:25-531",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2025-01-04",
-        "primary_date_role": "publication_date",
-        "publication_date": "2025-01-04"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-bfb9e790ebf43909",
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "EARLY STAGE INNOVATIONS (ESI26)",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363066",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1fc497b40c5430f7",
-          "locator": "qualification_gate",
-          "title": "EARLY STAGE INNOVATIONS (ESI26)",
-          "url": "https://www.grants.gov/search-results-detail/363066",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:NNH26ZTR001N-26ESI-B2",
-        "label": "EARLY STAGE INNOVATIONS (ESI26)",
-        "node_id": "opportunity:grants_gov:NNH26ZTR001N-26ESI-B2",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-06",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-07-06"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-48f9a8b6be078b19",
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "English Language Exchange Programs: AI and Educational Technology Integration",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363105",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1a76adf66ca33d82",
-          "locator": "qualification_gate",
-          "title": "English Language Exchange Programs: AI and Educational Technology Integration",
-          "url": "https://www.grants.gov/search-results-detail/363105",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:OFOP0003244",
-        "label": "English Language Exchange Programs: AI and Educational Technology Integration",
-        "node_id": "opportunity:grants_gov:OFOP0003244",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-08",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-07-08"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
       "claim_id": "claim-b03e26f9101751e8",
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Escape The Hack: Countering Cyber Scams with an Immersive Experience for Everyday Indonesians",
       "evidence_url": "https://www.grants.gov/search-results-detail/362863",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
@@ -821,8 +189,8 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2026-06-18",
         "primary_date_role": "publication_date",
         "publication_date": "2026-06-18"
@@ -834,11 +202,11 @@
       "change_type": "changed",
       "claim_id": "claim-ec8934d2a9b6b55a",
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Fiscal Year 2026 Next Generation Warning System Grant Program",
       "evidence_url": "https://www.grants.gov/search-results-detail/363192",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
@@ -870,8 +238,8 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2026-07-17",
         "primary_date_role": "publication_date",
         "publication_date": "2026-07-17"
@@ -881,111 +249,13 @@
     {
       "authority": "analytical",
       "change_type": "changed",
-      "claim_id": "claim-e29822908104b30e",
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363121",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-121f6f1e6e2cca69",
-          "locator": "qualification_gate",
-          "title": "Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria",
-          "url": "https://www.grants.gov/search-results-detail/363121",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:PAS-ALG-FY26-02",
-        "label": "Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria",
-        "node_id": "opportunity:grants_gov:PAS-ALG-FY26-02",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-09",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-07-09"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-17a77da742af4ba2",
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363078",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-90745e2ea0d497b5",
-          "locator": "qualification_gate",
-          "title": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
-          "url": "https://www.grants.gov/search-results-detail/363078",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:MUSCAT-PAS-2026-APS-01",
-        "label": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
-        "node_id": "opportunity:grants_gov:MUSCAT-PAS-2026-APS-01",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-08",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-07-08"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
       "claim_id": "claim-f26e43e9d8831f27",
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Notice of Funding Opportunity 2026 \u2013 Lebanon",
       "evidence_url": "https://www.grants.gov/search-results-detail/363090",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
@@ -1017,8 +287,8 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2026-07-07",
         "primary_date_role": "publication_date",
         "publication_date": "2026-07-07"
@@ -1028,62 +298,13 @@
     {
       "authority": "analytical",
       "change_type": "changed",
-      "claim_id": "claim-6350e656e83b6c0c",
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
-      "evidence_url": "https://www.grants.gov/search-results-detail/362903",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cf88da35c5d41da1",
-          "locator": "qualification_gate",
-          "title": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
-          "url": "https://www.grants.gov/search-results-detail/362903",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:OFOP0002813",
-        "label": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
-        "node_id": "opportunity:grants_gov:OFOP0002813",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-06-22",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-06-22"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
       "claim_id": "claim-3a98df53c498bf89",
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Research Training Groups in the Mathematical Sciences",
       "evidence_url": "https://www.grants.gov/search-results-detail/353962",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
@@ -1115,8 +336,8 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2024-05-03",
         "primary_date_role": "publication_date",
         "publication_date": "2024-05-03"
@@ -1128,11 +349,11 @@
       "change_type": "changed",
       "claim_id": "claim-b496e01a2599190b",
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)",
       "evidence_url": "https://www.grants.gov/search-results-detail/362711",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
@@ -1164,8 +385,8 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2026-06-08",
         "primary_date_role": "publication_date",
         "publication_date": "2026-06-08"
@@ -1177,11 +398,11 @@
       "change_type": "changed",
       "claim_id": "claim-3054213201b373a7",
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Voices for the Future",
       "evidence_url": "https://www.grants.gov/search-results-detail/363043",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
@@ -1213,304 +434,34 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2026-07-02",
         "primary_date_role": "publication_date",
         "publication_date": "2026-07-02"
       },
       "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-9cb0a837a597453b",
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027",
-      "evidence_url": "https://www.grants.gov/search-results-detail/362913",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3c438793c411bb5e",
-          "locator": "qualification_gate",
-          "title": "Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027",
-          "url": "https://www.grants.gov/search-results-detail/362913",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:PDS-SINGAPORE-FY26-001",
-        "label": "Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027",
-        "node_id": "opportunity:grants_gov:PDS-SINGAPORE-FY26-001",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-06-24",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-06-24"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-133a67cc8b057999",
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "Young Trilateral Leaders (YTL) Summit",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363267",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-010fb7b38c45fcab",
-          "locator": "qualification_gate",
-          "title": "Young Trilateral Leaders (YTL) Summit",
-          "url": "https://www.grants.gov/search-results-detail/363267",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:PD-SEOUL-FY26-04",
-        "label": "Young Trilateral Leaders (YTL) Summit",
-        "node_id": "opportunity:grants_gov:PD-SEOUL-FY26-04",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-21",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-07-21"
-      },
-      "value": "hold"
     }
   ],
-  "comparison_ended_at": "2026-08-03T02:07:21.978304+00:00",
-  "comparison_started_at": "2026-08-02T05:50:57.318615+00:00",
+  "comparison_ended_at": "2026-08-04T01:52:55.367102+00:00",
+  "comparison_started_at": "2026-08-03T02:07:21.978304+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
     {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-3643b9ab24d3ff48",
-      "claim_ids": [
-        "claim-3643b9ab24d3ff48"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-07-07",
-      "evidence_title": "FY26 American Spaces Vietnam Programming",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363080",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "predicates": [
-        "opportunity_status"
-      ],
-      "previous_object": null,
-      "previous_value": "open",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fc8b49c37fcf320f",
-          "locator": "opportunity_status:closed",
-          "title": "FY26 American Spaces Vietnam Programming",
-          "url": "https://www.grants.gov/search-results-detail/363080",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:SVM300-26-PDS-AS",
-        "label": "FY26 American Spaces Vietnam Programming",
-        "node_id": "opportunity:grants_gov:SVM300-26-PDS-AS",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The assertion changed relative to the prior successful ledger build.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Changed since prior run",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-07",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-07-07"
-      },
-      "value": "closed"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-5ac2b97471ae61e5",
-      "claim_ids": [
-        "claim-5ac2b97471ae61e5"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-07-06",
-      "evidence_title": "Vietnam CyberSafe Hacks 2026",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363062",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "predicates": [
-        "opportunity_status"
-      ],
-      "previous_object": null,
-      "previous_value": "open",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b1f02aff71d11755",
-          "locator": "opportunity_status:closed",
-          "title": "Vietnam CyberSafe Hacks 2026",
-          "url": "https://www.grants.gov/search-results-detail/363062",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:FY26-PDS-HCMC-01",
-        "label": "Vietnam CyberSafe Hacks 2026",
-        "node_id": "opportunity:grants_gov:FY26-PDS-HCMC-01",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The assertion changed relative to the prior successful ledger build.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Changed since prior run",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-06",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-07-06"
-      },
-      "value": "closed"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-49311149b07c9a26",
-      "claim_ids": [
-        "claim-49311149b07c9a26",
-        "claim-63b44e95c0a65da5",
-        "claim-9600679056a185d6",
-        "claim-b15d3e99eabb7c16"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-08-03",
-      "evidence_title": "CREDENTIALING. 2(D).",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3009_7009_70US0922D70090003_7009",
-      "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-99eb851899c52608",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "CREDENTIALING. 2(D).",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3009_7009_70US0922D70090003_7009",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70US0926F3OTH3009",
-        "label": "CREDENTIALING. 2(D).",
-        "node_id": "award:usaspending:70US0926F3OTH3009",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-08-03",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-08-03",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Homeland Security"
-    },
-    {
       "authority": "analytical",
       "change_type": "changed",
-      "claim_id": "claim-00fda323242c5854",
+      "claim_id": "claim-5a0b3e4bdf4ab948",
       "claim_ids": [
-        "claim-00fda323242c5854"
+        "claim-5a0b3e4bdf4ab948"
       ],
       "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "AI Pathways To The Future",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363061",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+      "effective_date": "2026-08-04",
+      "evidence_title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363440",
+      "first_observed_at": "2026-08-02T02:05:25.412721+00:00",
       "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "predicates": [
@@ -1523,17 +474,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-148fa25ee3525e9d",
+          "evidence_id": "evidence-0859d00a4811b833",
           "locator": "qualification_gate",
-          "title": "AI Pathways To The Future",
-          "url": "https://www.grants.gov/search-results-detail/363061",
+          "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+          "url": "https://www.grants.gov/search-results-detail/363440",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:PAS-JAKARTA-FY26-07",
-        "label": "AI Pathways To The Future",
-        "node_id": "opportunity:grants_gov:PAS-JAKARTA-FY26-07",
+        "identifier": "grants_gov:PDS-UKRAINE-FY26-04",
+        "label": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+        "node_id": "opportunity:grants_gov:PDS-UKRAINE-FY26-04",
         "node_type": "opportunity"
       },
       "temporal": {
@@ -1542,14 +493,14 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+        "first_observed_at": "2026-08-02T02:05:25.412721+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-06",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
+        "primary_date": "2026-08-01",
         "primary_date_role": "publication_date",
-        "publication_date": "2026-07-06"
+        "publication_date": "2026-08-01"
       },
       "value": "hold"
     },
@@ -1561,12 +512,12 @@
         "claim-12713fbcc71642df"
       ],
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Correctness for Scientific Computing Systems",
       "evidence_url": "https://www.grants.gov/search-results-detail/354144",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
       "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "predicates": [
@@ -1601,8 +552,8 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2024-05-10",
         "primary_date_role": "publication_date",
         "publication_date": "2024-05-10"
@@ -1617,12 +568,12 @@
         "claim-2dc93bfba95c9bb8"
       ],
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Creative Industries Film Lab and Residency - American Film Showcase 2026",
       "evidence_url": "https://www.grants.gov/search-results-detail/362939",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
       "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "predicates": [
@@ -1657,179 +608,11 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2026-06-24",
         "primary_date_role": "publication_date",
         "publication_date": "2026-06-24"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-aae476ad8cc767c3",
-      "claim_ids": [
-        "claim-aae476ad8cc767c3"
-      ],
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "Cybersecurity Innovation for Cyberinfrastructure",
-      "evidence_url": "https://www.grants.gov/search-results-detail/358004",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "predicates": [
-        "qualification_gate"
-      ],
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-86db8efb016af76d",
-          "locator": "qualification_gate",
-          "title": "Cybersecurity Innovation for Cyberinfrastructure",
-          "url": "https://www.grants.gov/search-results-detail/358004",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:25-531",
-        "label": "Cybersecurity Innovation for Cyberinfrastructure",
-        "node_id": "opportunity:grants_gov:25-531",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2025-01-04",
-        "primary_date_role": "publication_date",
-        "publication_date": "2025-01-04"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-bfb9e790ebf43909",
-      "claim_ids": [
-        "claim-bfb9e790ebf43909"
-      ],
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "EARLY STAGE INNOVATIONS (ESI26)",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363066",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "predicates": [
-        "qualification_gate"
-      ],
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1fc497b40c5430f7",
-          "locator": "qualification_gate",
-          "title": "EARLY STAGE INNOVATIONS (ESI26)",
-          "url": "https://www.grants.gov/search-results-detail/363066",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:NNH26ZTR001N-26ESI-B2",
-        "label": "EARLY STAGE INNOVATIONS (ESI26)",
-        "node_id": "opportunity:grants_gov:NNH26ZTR001N-26ESI-B2",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-06",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-07-06"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-48f9a8b6be078b19",
-      "claim_ids": [
-        "claim-48f9a8b6be078b19"
-      ],
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "English Language Exchange Programs: AI and Educational Technology Integration",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363105",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "predicates": [
-        "qualification_gate"
-      ],
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1a76adf66ca33d82",
-          "locator": "qualification_gate",
-          "title": "English Language Exchange Programs: AI and Educational Technology Integration",
-          "url": "https://www.grants.gov/search-results-detail/363105",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:OFOP0003244",
-        "label": "English Language Exchange Programs: AI and Educational Technology Integration",
-        "node_id": "opportunity:grants_gov:OFOP0003244",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-08",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-07-08"
       },
       "value": "hold"
     },
@@ -1841,12 +624,12 @@
         "claim-b03e26f9101751e8"
       ],
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Escape The Hack: Countering Cyber Scams with an Immersive Experience for Everyday Indonesians",
       "evidence_url": "https://www.grants.gov/search-results-detail/362863",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
       "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "predicates": [
@@ -1881,8 +664,8 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2026-06-18",
         "primary_date_role": "publication_date",
         "publication_date": "2026-06-18"
@@ -1897,12 +680,12 @@
         "claim-ec8934d2a9b6b55a"
       ],
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Fiscal Year 2026 Next Generation Warning System Grant Program",
       "evidence_url": "https://www.grants.gov/search-results-detail/363192",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
       "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "predicates": [
@@ -1937,123 +720,11 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2026-07-17",
         "primary_date_role": "publication_date",
         "publication_date": "2026-07-17"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-e29822908104b30e",
-      "claim_ids": [
-        "claim-e29822908104b30e"
-      ],
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363121",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "predicates": [
-        "qualification_gate"
-      ],
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-121f6f1e6e2cca69",
-          "locator": "qualification_gate",
-          "title": "Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria",
-          "url": "https://www.grants.gov/search-results-detail/363121",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:PAS-ALG-FY26-02",
-        "label": "Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria",
-        "node_id": "opportunity:grants_gov:PAS-ALG-FY26-02",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-09",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-07-09"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-17a77da742af4ba2",
-      "claim_ids": [
-        "claim-17a77da742af4ba2"
-      ],
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363078",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "predicates": [
-        "qualification_gate"
-      ],
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-90745e2ea0d497b5",
-          "locator": "qualification_gate",
-          "title": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
-          "url": "https://www.grants.gov/search-results-detail/363078",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:MUSCAT-PAS-2026-APS-01",
-        "label": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
-        "node_id": "opportunity:grants_gov:MUSCAT-PAS-2026-APS-01",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-08",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-07-08"
       },
       "value": "hold"
     },
@@ -2065,12 +736,12 @@
         "claim-f26e43e9d8831f27"
       ],
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Notice of Funding Opportunity 2026 \u2013 Lebanon",
       "evidence_url": "https://www.grants.gov/search-results-detail/363090",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
       "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "predicates": [
@@ -2105,67 +776,11 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2026-07-07",
         "primary_date_role": "publication_date",
         "publication_date": "2026-07-07"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-6350e656e83b6c0c",
-      "claim_ids": [
-        "claim-6350e656e83b6c0c"
-      ],
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
-      "evidence_url": "https://www.grants.gov/search-results-detail/362903",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "predicates": [
-        "qualification_gate"
-      ],
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cf88da35c5d41da1",
-          "locator": "qualification_gate",
-          "title": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
-          "url": "https://www.grants.gov/search-results-detail/362903",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:OFOP0002813",
-        "label": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
-        "node_id": "opportunity:grants_gov:OFOP0002813",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-06-22",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-06-22"
       },
       "value": "hold"
     },
@@ -2177,12 +792,12 @@
         "claim-3a98df53c498bf89"
       ],
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Research Training Groups in the Mathematical Sciences",
       "evidence_url": "https://www.grants.gov/search-results-detail/353962",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
       "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "predicates": [
@@ -2217,8 +832,8 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2024-05-03",
         "primary_date_role": "publication_date",
         "publication_date": "2024-05-03"
@@ -2233,12 +848,12 @@
         "claim-b496e01a2599190b"
       ],
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)",
       "evidence_url": "https://www.grants.gov/search-results-detail/362711",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
       "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "predicates": [
@@ -2273,8 +888,8 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2026-06-08",
         "primary_date_role": "publication_date",
         "publication_date": "2026-06-08"
@@ -2289,12 +904,12 @@
         "claim-3054213201b373a7"
       ],
       "confidence": "medium",
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_title": "Voices for the Future",
       "evidence_url": "https://www.grants.gov/search-results-detail/363043",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
       "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "predicates": [
@@ -2329,185 +944,13 @@
         "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
+        "last_changed_at": "2026-08-04T01:52:55.367102+00:00",
+        "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
         "primary_date": "2026-07-02",
         "primary_date_role": "publication_date",
         "publication_date": "2026-07-02"
       },
       "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-9cb0a837a597453b",
-      "claim_ids": [
-        "claim-9cb0a837a597453b"
-      ],
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027",
-      "evidence_url": "https://www.grants.gov/search-results-detail/362913",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "predicates": [
-        "qualification_gate"
-      ],
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3c438793c411bb5e",
-          "locator": "qualification_gate",
-          "title": "Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027",
-          "url": "https://www.grants.gov/search-results-detail/362913",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:PDS-SINGAPORE-FY26-001",
-        "label": "Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027",
-        "node_id": "opportunity:grants_gov:PDS-SINGAPORE-FY26-001",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-06-24",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-06-24"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-133a67cc8b057999",
-      "claim_ids": [
-        "claim-133a67cc8b057999"
-      ],
-      "confidence": "medium",
-      "effective_date": "2026-08-03",
-      "evidence_title": "Young Trilateral Leaders (YTL) Summit",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363267",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "predicates": [
-        "qualification_gate"
-      ],
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-010fb7b38c45fcab",
-          "locator": "qualification_gate",
-          "title": "Young Trilateral Leaders (YTL) Summit",
-          "url": "https://www.grants.gov/search-results-detail/363267",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:PD-SEOUL-FY26-04",
-        "label": "Young Trilateral Leaders (YTL) Summit",
-        "node_id": "opportunity:grants_gov:PD-SEOUL-FY26-04",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-03T02:07:21.978304+00:00",
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-07-21",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-07-21"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-325f2f68ff1854ae",
-      "claim_ids": [
-        "claim-2813a008741b3aec",
-        "claim-325f2f68ff1854ae",
-        "claim-9bbd99f43fc3b6c1",
-        "claim-a62cc1d54af67913"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "evidence_title": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80161_7571_NNG15SD91B_8000",
-      "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c234f2974e82172d",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80161_7571_NNG15SD91B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571TE26F80161",
-        "label": "IT ACQUISITION: NEW COMPETITIVE FIRM-FIXED-PRICE DELIVERY ORDER ISSUED UNDER THE NASA SEWP CYBERSECURITY DATA PROTECTIONS CATALOG FOR THE RENEWAL OF CHECK POINT, ENTRUST, AND CENT...",
-        "node_id": "award:usaspending:7571TE26F80161",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-28",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-03.",
-        "first_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-03T02:07:21.978304+00:00",
-        "primary_date": "2026-09-28",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Health and Human Services"
     },
     {
       "authority": "authoritative",
@@ -4953,17 +3396,14 @@
   ],
   "scope_note": "Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.",
   "summary": {
-    "actual_or_recent_changes": 6,
+    "actual_or_recent_changes": 0,
     "classifications": {
-      "changed_since_prior_run": 2,
-      "evidence_changed_since_prior_run": 17,
-      "happened_today": 4,
-      "resolved": 27,
-      "upcoming": 4
+      "evidence_changed_since_prior_run": 9,
+      "resolved": 27
     },
-    "evidence_trace_changes": 17,
+    "evidence_trace_changes": 9,
     "historical_discoveries": 0,
-    "material_events": 54,
+    "material_events": 36,
     "newly_observed_undated": 0,
     "upcoming": 65
   },
@@ -4971,7 +3411,7 @@
   "upcoming": [
     {
       "date": "2026-07-09",
-      "days_remaining": -25,
+      "days_remaining": -26,
       "kind": "mission_milestone",
       "status": "awaiting_confirmation",
       "subject": "Military AI Pace-Setting Projects",
@@ -4980,7 +3420,7 @@
     },
     {
       "date": "2026-07-22",
-      "days_remaining": -12,
+      "days_remaining": -13,
       "kind": "mission_milestone",
       "status": "awaiting_confirmation",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -4989,7 +3429,7 @@
     },
     {
       "date": "2026-07-22",
-      "days_remaining": -12,
+      "days_remaining": -13,
       "kind": "mission_milestone",
       "status": "awaiting_confirmation",
       "subject": "Genesis Mission",
@@ -4998,7 +3438,7 @@
     },
     {
       "date": "2026-07-31",
-      "days_remaining": -3,
+      "days_remaining": -4,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -5007,7 +3447,7 @@
     },
     {
       "date": "2026-08-05",
-      "days_remaining": 2,
+      "days_remaining": 1,
       "kind": "opportunity_deadline",
       "status": "closing_soon",
       "subject": "DOS-SGP",
@@ -5016,7 +3456,7 @@
     },
     {
       "date": "2026-08-05",
-      "days_remaining": 2,
+      "days_remaining": 1,
       "kind": "opportunity_deadline",
       "status": "closing_soon",
       "subject": "DOS-KOR",
@@ -5025,7 +3465,7 @@
     },
     {
       "date": "2026-08-07",
-      "days_remaining": 4,
+      "days_remaining": 3,
       "kind": "opportunity_deadline",
       "status": "closing_soon",
       "subject": "DOS-IDN",
@@ -5034,7 +3474,7 @@
     },
     {
       "date": "2026-08-07",
-      "days_remaining": 4,
+      "days_remaining": 3,
       "kind": "opportunity_deadline",
       "status": "closing_soon",
       "subject": "DOS-IDN",
@@ -5043,7 +3483,7 @@
     },
     {
       "date": "2026-08-07",
-      "days_remaining": 4,
+      "days_remaining": 3,
       "kind": "opportunity_deadline",
       "status": "closing_soon",
       "subject": "DHS-DHS",
@@ -5052,7 +3492,7 @@
     },
     {
       "date": "2026-08-07",
-      "days_remaining": 4,
+      "days_remaining": 3,
       "kind": "opportunity_deadline",
       "status": "closing_soon",
       "subject": "DOS-LBN",
@@ -5061,7 +3501,7 @@
     },
     {
       "date": "2026-08-07",
-      "days_remaining": 4,
+      "days_remaining": 3,
       "kind": "opportunity_deadline",
       "status": "closing_soon",
       "subject": "DOS-IDN",
@@ -5070,7 +3510,7 @@
     },
     {
       "date": "2026-08-08",
-      "days_remaining": 5,
+      "days_remaining": 4,
       "kind": "opportunity_deadline",
       "status": "closing_soon",
       "subject": "DOS-DZA",
@@ -5079,7 +3519,7 @@
     },
     {
       "date": "2026-08-09",
-      "days_remaining": 6,
+      "days_remaining": 5,
       "kind": "opportunity_deadline",
       "status": "closing_soon",
       "subject": "DOS-IDN",
@@ -5088,7 +3528,7 @@
     },
     {
       "date": "2026-08-09",
-      "days_remaining": 6,
+      "days_remaining": 5,
       "kind": "opportunity_deadline",
       "status": "closing_soon",
       "subject": "DOS-OMA",
@@ -5097,7 +3537,7 @@
     },
     {
       "date": "2026-08-10",
-      "days_remaining": 7,
+      "days_remaining": 6,
       "kind": "opportunity_deadline",
       "status": "closing_soon",
       "subject": "DOS-DZA",
@@ -5106,34 +3546,34 @@
     },
     {
       "date": "2026-08-11",
-      "days_remaining": 8,
+      "days_remaining": 7,
       "kind": "opportunity_deadline",
-      "status": "closing_this_month",
+      "status": "closing_soon",
       "subject": "NSF",
       "title": "Correctness for Scientific Computing Systems",
       "url": "https://www.grants.gov/search-results-detail/354144"
     },
     {
       "date": "2026-08-11",
-      "days_remaining": 8,
+      "days_remaining": 7,
       "kind": "opportunity_deadline",
-      "status": "closing_this_month",
+      "status": "closing_soon",
       "subject": "NSF",
       "title": "Research Training Groups in the Mathematical Sciences",
       "url": "https://www.grants.gov/search-results-detail/353962"
     },
     {
       "date": "2026-08-11",
-      "days_remaining": 8,
+      "days_remaining": 7,
       "kind": "opportunity_deadline",
-      "status": "closing_this_month",
+      "status": "closing_soon",
       "subject": "DOD-AMC",
       "title": "Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)",
       "url": "https://www.grants.gov/search-results-detail/362711"
     },
     {
       "date": "2026-08-13",
-      "days_remaining": 10,
+      "days_remaining": 9,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "NASA-HQ",
@@ -5142,7 +3582,7 @@
     },
     {
       "date": "2026-08-15",
-      "days_remaining": 12,
+      "days_remaining": 11,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "DOS-PHL",
@@ -5151,7 +3591,7 @@
     },
     {
       "date": "2026-08-20",
-      "days_remaining": 17,
+      "days_remaining": 16,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "DOS-ALB",
@@ -5160,7 +3600,7 @@
     },
     {
       "date": "2026-08-20",
-      "days_remaining": 17,
+      "days_remaining": 16,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "DOS-ALB",
@@ -5169,7 +3609,7 @@
     },
     {
       "date": "2026-08-20",
-      "days_remaining": 17,
+      "days_remaining": 16,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "DOS-EB",
@@ -5178,7 +3618,7 @@
     },
     {
       "date": "2026-08-20",
-      "days_remaining": 17,
+      "days_remaining": 16,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "DOS-ARG",
@@ -5187,7 +3627,7 @@
     },
     {
       "date": "2026-08-20",
-      "days_remaining": 17,
+      "days_remaining": 16,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "DOS-ARG",
@@ -5196,7 +3636,7 @@
     },
     {
       "date": "2026-08-21",
-      "days_remaining": 18,
+      "days_remaining": 17,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Genesis Mission",
@@ -5205,7 +3645,7 @@
     },
     {
       "date": "2026-08-27",
-      "days_remaining": 24,
+      "days_remaining": 23,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "HHS-ACF-ANA",
@@ -5214,7 +3654,7 @@
     },
     {
       "date": "2026-08-30",
-      "days_remaining": 27,
+      "days_remaining": 26,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "DOS-IDN",
@@ -5223,7 +3663,7 @@
     },
     {
       "date": "2026-08-31",
-      "days_remaining": 28,
+      "days_remaining": 27,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "NASA-HQ",
@@ -5232,7 +3672,7 @@
     },
     {
       "date": "2026-08-31",
-      "days_remaining": 28,
+      "days_remaining": 27,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "DOS-IDN",
@@ -5241,7 +3681,7 @@
     },
     {
       "date": "2026-09-01",
-      "days_remaining": 29,
+      "days_remaining": 28,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "DOS-UKR",
@@ -5250,7 +3690,7 @@
     },
     {
       "date": "2026-09-08",
-      "days_remaining": 36,
+      "days_remaining": 35,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "DOS-SAU",
@@ -5259,7 +3699,7 @@
     },
     {
       "date": "2026-09-08",
-      "days_remaining": 36,
+      "days_remaining": 35,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "NSF",
@@ -5268,7 +3708,7 @@
     },
     {
       "date": "2026-09-10",
-      "days_remaining": 38,
+      "days_remaining": 37,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "NSF",
@@ -5277,7 +3717,7 @@
     },
     {
       "date": "2026-09-20",
-      "days_remaining": 48,
+      "days_remaining": 47,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -5286,7 +3726,7 @@
     },
     {
       "date": "2026-09-20",
-      "days_remaining": 48,
+      "days_remaining": 47,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -5295,7 +3735,7 @@
     },
     {
       "date": "2026-09-22",
-      "days_remaining": 50,
+      "days_remaining": 49,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "AI Forge",
@@ -5304,7 +3744,7 @@
     },
     {
       "date": "2026-09-28",
-      "days_remaining": 56,
+      "days_remaining": 55,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "NSF",
@@ -5313,7 +3753,7 @@
     },
     {
       "date": "2026-09-29",
-      "days_remaining": 57,
+      "days_remaining": 56,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "NSF",
@@ -5322,7 +3762,7 @@
     },
     {
       "date": "2026-09-30",
-      "days_remaining": 58,
+      "days_remaining": 57,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -5330,6 +3770,6 @@
       "url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative"
     }
   ],
-  "updated_at": "2026-08-03T02:07:21.978304+00:00",
+  "updated_at": "2026-08-04T01:52:55.367102+00:00",
   "version": 1
 }

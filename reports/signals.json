@@ -101,22 +101,32 @@
           "source": "arXiv RSS cs.CR",
           "title": "PISmith: Reinforcement Learning-based Red Teaming for Prompt Injection Defenses",
           "url": "https://arxiv.org/abs/2603.13026"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://blog.cloudflare.com/smaller-faster-safer-models",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 22,
+          "source": "Cloudflare Blog",
+          "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+          "url": "https://blog.cloudflare.com/smaller-faster-safer-models"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "high",
-      "latest_seen": "2026-07-23",
-      "momentum": "rising",
+      "latest_seen": "2026-08-03",
+      "momentum": "declining",
       "organizations": [
         "arXiv RSS cs.CR",
         "Quantum Zeitgeist",
         "QuantumNews.ai",
-        "The Quantum Insider"
+        "The Quantum Insider",
+        "Cloudflare Blog"
       ],
-      "prior_count": 3,
-      "recent_count": 6,
-      "status": "actionable"
+      "prior_count": 5,
+      "recent_count": 1,
+      "status": "watching"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -957,23 +967,77 @@
           "source": "The Quantum Insider",
           "title": "Why Crypto-Agility Matters for Post-Quantum Cryptography Migration",
           "url": "https://thequantuminsider.com/2026/07/31/why-crypto-agility-matters-for-post-quantum-cryptography-migration"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://eprint.iacr.org/2026/1586",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 66,
+          "source": "IACR ePrint",
+          "title": "Perturbation of Hankel moment singular values and supersingular endomorphism rings via CVP: a $p$-adic super-resolution law and a fully computed pipeline",
+          "url": "https://eprint.iacr.org/2026/1586"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://eprint.iacr.org/2026/1584",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 82,
+          "source": "IACR ePrint",
+          "title": "Beyond Affine Invariants: A Hamming-Weight Correlation Metric for Template-CPA Leakage in Key-Dependent S-boxes",
+          "url": "https://eprint.iacr.org/2026/1584"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 88,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "A Different Road to Quantum Safety: The PPK \u2013 IPsec Series, Part 5",
+          "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://thequantuminsider.com/2026/08/03/sealsq-hardware-based-crypto-agility-ai-accelerates-cryptanalysis",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 105,
+          "source": "The Quantum Insider",
+          "title": "SEALSQ Highlights Role of Crypto-Agility in Preparing for Future Cryptographic Threats",
+          "url": "https://thequantuminsider.com/2026/08/03/sealsq-hardware-based-crypto-agility-ai-accelerates-cryptanalysis"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://quantumzeitgeist.com/post-quantum-cryptography-digicerts-edition-simplifies",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 133,
+          "source": "Quantum Zeitgeist",
+          "title": "DigiCert\u2019s New Edition Simplifies Post-Quantum Cryptography Planning",
+          "url": "https://quantumzeitgeist.com/post-quantum-cryptography-digicerts-edition-simplifies"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://eprint.iacr.org/2026/1585",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 155,
+          "source": "IACR ePrint",
+          "title": "Proving Threshold Regev PKE from Adaptive Hint-MLWE: Efficient, Non-interactive, and CCA Secure",
+          "url": "https://eprint.iacr.org/2026/1585"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-07-31",
-      "momentum": "rising",
+      "latest_seen": "2026-08-03",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
         "QuantumNews.ai",
-        "Keyfactor Quantum and Crypto-Agility",
-        "IACR ePrint"
+        "IACR ePrint",
+        "Keyfactor Quantum and Crypto-Agility"
       ],
-      "prior_count": 12,
-      "recent_count": 27,
-      "status": "actionable"
+      "prior_count": 25,
+      "recent_count": 20,
+      "status": "watching"
     },
     "QEC / Fault Tolerance": {
       "confidence": "high",
@@ -2724,12 +2788,48 @@
           "source": "Quantum Zeitgeist",
           "title": "Quantum Dark Polarons Bypass Laser Limits for Faster Ion Cooling",
           "url": "https://quantumzeitgeist.com/universidad-politecnica-de-cartagena-quantum-dark"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://quantumzeitgeist.com/clements-decomposition-programmable-photonic",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 28,
+          "source": "Quantum Zeitgeist",
+          "title": "Clements Decomposition Achieved on Programmable Photonic Processor",
+          "url": "https://quantumzeitgeist.com/clements-decomposition-programmable-photonic"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://quantumzeitgeist.com/spectral-gap-davies-generator-scales",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 28,
+          "source": "Quantum Zeitgeist",
+          "title": "Spectral Gap of Davies Generator Scales with Qubit Count",
+          "url": "https://quantumzeitgeist.com/spectral-gap-davies-generator-scales"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://quantumcomputingreport.com/caltech-and-oratomic-introduce-mitten-qldpc-codes-for-high-throughput-quantum-computing",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 65,
+          "source": "QuantumNews.ai",
+          "title": "Caltech and Oratomic Introduce \"Mitten\" qLDPC Codes for High-Throughput Quantum Computing",
+          "url": "https://quantumcomputingreport.com/caltech-and-oratomic-introduce-mitten-qldpc-codes-for-high-throughput-quantum-computing"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://thequantuminsider.com/2026/08/03/optqc-ntt-large-scale-optical-quantum-computing-collaboration",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 68,
+          "source": "The Quantum Insider",
+          "title": "OptQC and NTT Strengthen Collaboration on Large-Scale Optical Quantum Computing",
+          "url": "https://thequantuminsider.com/2026/08/03/optqc-ntt-large-scale-optical-quantum-computing-collaboration"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-08-02",
+      "latest_seen": "2026-08-03",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -2737,8 +2837,8 @@
         "The Quantum Insider",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 28,
-      "recent_count": 27,
+      "prior_count": 26,
+      "recent_count": 26,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -3247,12 +3347,39 @@
           "source": "Quantum Zeitgeist",
           "title": "Switzerland Quantum Computing Companies, The Complete Vendor Guide",
           "url": "https://quantumzeitgeist.com/switzerland-quantum-computing-companies"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://thequantuminsider.com/2026/08/03/qubitrium-nato-training-programme-dual-use-quantum-technologies",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 31,
+          "source": "The Quantum Insider",
+          "title": "Qubitrium Supports NATO Training Programme on Dual-Use Quantum Technologies",
+          "url": "https://thequantuminsider.com/2026/08/03/qubitrium-nato-training-programme-dual-use-quantum-technologies"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://quantumzeitgeist.com/china-quantum-network-microcomb-first-fully",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 47,
+          "source": "Quantum Zeitgeist",
+          "title": "Researchers Build First Fully Connected Quantum Network with Microcombs",
+          "url": "https://quantumzeitgeist.com/china-quantum-network-microcomb-first-fully"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://quantumzeitgeist.com/pusan-university-hybrid-quantum-network",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 58,
+          "source": "Quantum Zeitgeist",
+          "title": "Pusan National University Builds Hybrid Quantum Network with Identical Photons",
+          "url": "https://quantumzeitgeist.com/pusan-university-hybrid-quantum-network"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "high",
-      "latest_seen": "2026-08-02",
+      "latest_seen": "2026-08-03",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -3261,7 +3388,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 8,
-      "recent_count": 8,
+      "recent_count": 11,
       "status": "watching"
     },
     "Quantum Sensing": {
@@ -3977,13 +4104,22 @@
           "source": "Quantum Zeitgeist",
           "title": "54-Qubit Device Validates Noise-Resilient Optimization Framework",
           "url": "https://quantumzeitgeist.com/iqm-qubit-device-validates-noise-resilient"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://quantumcomputingreport.com/uc-berkeley-and-quantrolox-sign-five-year-partnership-to-industrialize-quantum-processing",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 29,
+          "source": "QuantumNews.ai",
+          "title": "UC Berkeley and QuantrolOx Sign Five-Year Partnership to Industrialize Quantum Processing",
+          "url": "https://quantumcomputingreport.com/uc-berkeley-and-quantrolox-sign-five-year-partnership-to-industrialize-quantum-processing"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "high",
-      "latest_seen": "2026-08-01",
-      "momentum": "stable",
+      "latest_seen": "2026-08-03",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -3991,8 +4127,8 @@
         "AWS Quantum Technologies Blog",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 7,
-      "recent_count": 9,
+      "prior_count": 9,
+      "recent_count": 6,
       "status": "watching"
     },
     "Standards / Government": {
@@ -4086,6 +4222,6 @@
       "status": "actionable"
     }
   },
-  "updated_at": "2026-08-03T02:15:21.306263+00:00",
+  "updated_at": "2026-08-04T02:00:16.296088+00:00",
   "version": 1
 }

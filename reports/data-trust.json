@@ -1,20 +1,65 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 32.5,
+      "acceptance_rate": 32.1,
       "accepted": 25,
-      "quarantined": 52,
+      "quarantined": 53,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 93.6,
+      "acceptance_rate": 93.3,
       "accepted": 320,
-      "quarantined": 22,
+      "quarantined": 23,
       "scope": "Federal funding"
     }
   ],
   "method_note": "Quarantine is not a finding that evidence is false or irrelevant. It means the current evidence is too weak for automated promotion and remains available for review.",
   "quarantined_evidence": [
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-03",
+      "key": "https://www.grants.gov/search-results-detail/363396",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "Powering Affordable Reliable Technology (PART) Energy Program",
+      "url": "https://www.grants.gov/search-results-detail/363396"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-03",
+      "key": "grants_gov:RUS-PART-2026",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "Powering Affordable Reliable Technology (PART) Energy Program",
+      "url": "https://www.grants.gov/search-results-detail/363396"
+    },
     {
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
@@ -1699,17 +1744,17 @@
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 74,
+      "count": 76,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 74,
+      "count": 76,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 73,
+      "count": 75,
       "label": "Official government source"
     },
     {
@@ -1720,14 +1765,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 82.3,
+    "acceptance_rate": 81.9,
     "accepted": 345,
-    "decisions": 419,
-    "funding_quarantine": 22,
-    "mission_quarantine": 52,
-    "quarantined": 74,
+    "decisions": 421,
+    "funding_quarantine": 23,
+    "mission_quarantine": 53,
+    "quarantined": 76,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-03T02:07:21.978304+00:00",
+  "updated_at": "2026-08-04T01:52:55.367102+00:00",
   "version": 1
 }

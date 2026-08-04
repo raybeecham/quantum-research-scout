@@ -1,28 +1,42 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-03T02:07:21.978304+00:00_
+_Updated 2026-08-04T01:52:55.367102+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **345**
-- Quarantined evidence or relationships: **74**
-- Acceptance rate: **82.3%**
+- Quarantined evidence or relationships: **76**
+- Acceptance rate: **81.9%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 25 | 52 | 32.5% |
-| Federal funding | 320 | 22 | 93.6% |
+| Federal missions | 25 | 53 | 32.1% |
+| Federal funding | 320 | 23 | 93.3% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 74
-- **No relevant term in the evidence itself**: 74
-- **Official government source**: 73
+- **Match appears only in collector query metadata**: 76
+- **No relevant term in the evidence itself**: 76
+- **Official government source**: 75
 - **Source is not an official .gov or .mil domain**: 1
 
 ## Quarantined Evidence
+
+### [Powering Affordable Reliable Technology (PART) Energy Program](https://www.grants.gov/search-results-detail/363396)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Powering Affordable Reliable Technology (PART) Energy Program](https://www.grants.gov/search-results-detail/363396)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [U.S. Embassy Jakarta Media Small Grants Competition](https://www.grants.gov/search-results-detail/363370)
 

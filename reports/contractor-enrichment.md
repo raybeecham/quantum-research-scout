@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-03T02:07:21.978304+00:00_
+_Updated 2026-08-04T01:52:55.367102+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 

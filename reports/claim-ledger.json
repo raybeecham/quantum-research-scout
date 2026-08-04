@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-08-03",
+  "as_of_date": "2026-08-04",
   "claims": [
     {
       "authority": "authoritative",
@@ -64093,7 +64093,552 @@
     },
     {
       "authority": "analytical",
+      "basis": "Deterministic qualification score 29 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-5a0b3e4bdf4ab948",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +11",
+              "actionable grant_opportunity +9",
+              "closing_this_month +9",
+              "technology fit +8"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363440"
+            ],
+            "points": 37
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363440"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-0859d00a4811b833",
+          "evidence-38fb2da770fbf48b"
+        ],
+        "input_claim_hashes": {
+          "claim-c1a0377d732a845e": "6032da03c503fec1"
+        },
+        "input_claim_ids": [
+          "claim-c1a0377d732a845e"
+        ],
+        "input_claim_versions": {
+          "claim-c1a0377d732a845e": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 29,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363440"
+        ],
+        "trace_complete": true,
+        "trace_hash": "2474b1e9e8bb252d",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-c1a0377d732a845e"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-0859d00a4811b833"
+      ],
+      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 34 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-0859d00a4811b833"
+          ],
+          "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
+          "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 1,
+          "version_hash": "c06174bc8e1f2389"
+        }
+      ],
+      "last_seen_at": "2026-08-04T01:52:55.367102+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0859d00a4811b833",
+          "locator": "qualification_gate",
+          "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+          "url": "https://www.grants.gov/search-results-detail/363440",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PDS-UKRAINE-FY26-04",
+        "label": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+        "node_id": "opportunity:grants_gov:PDS-UKRAINE-FY26-04",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "815e9625f2c57769"
+    },
+    {
+      "authority": "analytical",
       "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-b496e01a2599190b",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/362711"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/362711"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-682d111dfc5c4688",
+          "evidence-f9fe23a8bf995d25"
+        ],
+        "input_claim_hashes": {
+          "claim-ea388b9c4cbd04f9": "fd517f1fc27923f3"
+        },
+        "input_claim_ids": [
+          "claim-ea388b9c4cbd04f9"
+        ],
+        "input_claim_versions": {
+          "claim-ea388b9c4cbd04f9": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/362711"
+        ],
+        "trace_complete": true,
+        "trace_hash": "c5648ff3a77d9c6e",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-ea388b9c4cbd04f9"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-682d111dfc5c4688"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-682d111dfc5c4688"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 1,
+          "version_hash": "f61de4da7cf9c7d9"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 23 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-682d111dfc5c4688"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 2,
+          "version_hash": "1efed79214e90492"
+        }
+      ],
+      "last_seen_at": "2026-08-04T01:52:55.367102+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-682d111dfc5c4688",
+          "locator": "qualification_gate",
+          "title": "Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)",
+          "url": "https://www.grants.gov/search-results-detail/362711",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:W911NF26S0085",
+        "label": "Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)",
+        "node_id": "opportunity:grants_gov:W911NF26S0085",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 3,
+      "version_hash": "13ed77b0c2ba5e54"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-12713fbcc71642df",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/354144"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/354144"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-9cbb6d8b4592e550",
+          "evidence-f63607e92a33934f"
+        ],
+        "input_claim_hashes": {
+          "claim-399383a77a17836f": "a576ab0d6cff1845"
+        },
+        "input_claim_ids": [
+          "claim-399383a77a17836f"
+        ],
+        "input_claim_versions": {
+          "claim-399383a77a17836f": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/354144"
+        ],
+        "trace_complete": true,
+        "trace_hash": "bcf905d31f276a11",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-399383a77a17836f"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-f63607e92a33934f"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-f63607e92a33934f"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 1,
+          "version_hash": "c008fd62808f6921"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 23 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-f63607e92a33934f"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 2,
+          "version_hash": "7c269e9ee5b07000"
+        }
+      ],
+      "last_seen_at": "2026-08-04T01:52:55.367102+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f63607e92a33934f",
+          "locator": "qualification_gate",
+          "title": "Correctness for Scientific Computing Systems",
+          "url": "https://www.grants.gov/search-results-detail/354144",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:24-571",
+        "label": "Correctness for Scientific Computing Systems",
+        "node_id": "opportunity:grants_gov:24-571",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 3,
+      "version_hash": "189afaae0a12e47b"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-3a98df53c498bf89",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/353962"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/353962"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-4ccf07b8bf51ead7",
+          "evidence-76b14f396ed84fdd"
+        ],
+        "input_claim_hashes": {
+          "claim-8ec5ed37a316645f": "73d9ea61a87a7a09"
+        },
+        "input_claim_ids": [
+          "claim-8ec5ed37a316645f"
+        ],
+        "input_claim_versions": {
+          "claim-8ec5ed37a316645f": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/353962"
+        ],
+        "trace_complete": true,
+        "trace_hash": "a2596f980970567c",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-8ec5ed37a316645f"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-4ccf07b8bf51ead7"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-4ccf07b8bf51ead7"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 1,
+          "version_hash": "0350cd4c960d5a6c"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 23 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-4ccf07b8bf51ead7"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 2,
+          "version_hash": "e9f233d4fa8f4b59"
+        }
+      ],
+      "last_seen_at": "2026-08-04T01:52:55.367102+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4ccf07b8bf51ead7",
+          "locator": "qualification_gate",
+          "title": "Research Training Groups in the Mathematical Sciences",
+          "url": "https://www.grants.gov/search-results-detail/353962",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:24-570",
+        "label": "Research Training Groups in the Mathematical Sciences",
+        "node_id": "opportunity:grants_gov:24-570",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 3,
+      "version_hash": "27dc927499594ef2"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 19 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-ec8934d2a9b6b55a",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -64122,13 +64667,13 @@
           },
           {
             "basis": [
-              "No extracted procurement document evidence"
+              "Compressed response window: 3 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/363192"
             ],
-            "points": -8
+            "points": -15
           }
         ],
         "evidence_ids": [
@@ -64150,7 +64695,7 @@
         },
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 26,
+        "public_evidence_score": 19,
         "requires_revalidation": false,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363192"
@@ -64165,7 +64710,7 @@
         ],
         "rule": "procurement_intelligence._build_decision_briefs"
       },
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_ids": [
         "evidence-bd0806f758278b58"
       ],
@@ -64185,9 +64730,24 @@
           "value": "hold",
           "version": 1,
           "version_hash": "e6a7b191665a00c8"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-bd0806f758278b58"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 2,
+          "version_hash": "aac0a1bfbb28c6b8"
         }
       ],
-      "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_seen_at": "2026-08-04T01:52:55.367102+00:00",
       "missing_observations": 0,
       "object": null,
       "observation_status": "observed",
@@ -64213,12 +64773,12 @@
       },
       "value": "hold",
       "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "aac0a1bfbb28c6b8"
+      "version": 3,
+      "version_hash": "4a28bd72583a4351"
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
+      "basis": "Deterministic qualification score 19 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-f26e43e9d8831f27",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -64247,13 +64807,13 @@
           },
           {
             "basis": [
-              "No extracted procurement document evidence"
+              "Compressed response window: 3 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/363090"
             ],
-            "points": -8
+            "points": -15
           }
         ],
         "evidence_ids": [
@@ -64275,7 +64835,7 @@
         },
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 26,
+        "public_evidence_score": 19,
         "requires_revalidation": false,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363090"
@@ -64290,7 +64850,7 @@
         ],
         "rule": "procurement_intelligence._build_decision_briefs"
       },
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_ids": [
         "evidence-07c864f6ca0584c7"
       ],
@@ -64310,9 +64870,24 @@
           "value": "hold",
           "version": 1,
           "version_hash": "5a59d387619c02da"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-07c864f6ca0584c7"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 2,
+          "version_hash": "f60d62c484d9c96b"
         }
       ],
-      "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_seen_at": "2026-08-04T01:52:55.367102+00:00",
       "missing_observations": 0,
       "object": null,
       "observation_status": "observed",
@@ -64338,12 +64913,12 @@
       },
       "value": "hold",
       "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "f60d62c484d9c96b"
+      "version": 3,
+      "version_hash": "b36f46aa2adf8137"
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
+      "basis": "Deterministic qualification score 19 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-3054213201b373a7",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -64372,13 +64947,13 @@
           },
           {
             "basis": [
-              "No extracted procurement document evidence"
+              "Compressed response window: 3 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/363043"
             ],
-            "points": -8
+            "points": -15
           }
         ],
         "evidence_ids": [
@@ -64400,7 +64975,7 @@
         },
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 26,
+        "public_evidence_score": 19,
         "requires_revalidation": false,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363043"
@@ -64415,7 +64990,7 @@
         ],
         "rule": "procurement_intelligence._build_decision_briefs"
       },
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_ids": [
         "evidence-ceba350f113fda0a"
       ],
@@ -64435,9 +65010,24 @@
           "value": "hold",
           "version": 1,
           "version_hash": "468c85ef8d5273c3"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-ceba350f113fda0a"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 2,
+          "version_hash": "b3f0cfabafbe0491"
         }
       ],
-      "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_seen_at": "2026-08-04T01:52:55.367102+00:00",
       "missing_observations": 0,
       "object": null,
       "observation_status": "observed",
@@ -64463,12 +65053,12 @@
       },
       "value": "hold",
       "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "b3f0cfabafbe0491"
+      "version": 3,
+      "version_hash": "5a1771e39fcfe693"
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
+      "basis": "Deterministic qualification score 19 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-2dc93bfba95c9bb8",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -64497,13 +65087,13 @@
           },
           {
             "basis": [
-              "No extracted procurement document evidence"
+              "Compressed response window: 3 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/362939"
             ],
-            "points": -8
+            "points": -15
           }
         ],
         "evidence_ids": [
@@ -64525,7 +65115,7 @@
         },
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 26,
+        "public_evidence_score": 19,
         "requires_revalidation": false,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/362939"
@@ -64540,7 +65130,7 @@
         ],
         "rule": "procurement_intelligence._build_decision_briefs"
       },
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_ids": [
         "evidence-018cc1f6e49b3139"
       ],
@@ -64560,9 +65150,24 @@
           "value": "hold",
           "version": 1,
           "version_hash": "77b89868f17cb180"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-018cc1f6e49b3139"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 2,
+          "version_hash": "be20e238e9403c8a"
         }
       ],
-      "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_seen_at": "2026-08-04T01:52:55.367102+00:00",
       "missing_observations": 0,
       "object": null,
       "observation_status": "observed",
@@ -64588,12 +65193,12 @@
       },
       "value": "hold",
       "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "be20e238e9403c8a"
+      "version": 3,
+      "version_hash": "bf44cbfa73c161ad"
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
+      "basis": "Deterministic qualification score 19 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-b03e26f9101751e8",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -64622,13 +65227,13 @@
           },
           {
             "basis": [
-              "No extracted procurement document evidence"
+              "Compressed response window: 3 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/362863"
             ],
-            "points": -8
+            "points": -15
           }
         ],
         "evidence_ids": [
@@ -64650,7 +65255,7 @@
         },
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 26,
+        "public_evidence_score": 19,
         "requires_revalidation": false,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/362863"
@@ -64665,7 +65270,7 @@
         ],
         "rule": "procurement_intelligence._build_decision_briefs"
       },
-      "effective_date": "2026-08-03",
+      "effective_date": "2026-08-04",
       "evidence_ids": [
         "evidence-9cc8b613ee7eb159"
       ],
@@ -64685,9 +65290,24 @@
           "value": "hold",
           "version": 1,
           "version_hash": "dd06cce83c147280"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-9cc8b613ee7eb159"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 2,
+          "version_hash": "52f45c839bee88ff"
         }
       ],
-      "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+      "last_seen_at": "2026-08-04T01:52:55.367102+00:00",
       "missing_observations": 0,
       "object": null,
       "observation_status": "observed",
@@ -64713,8 +65333,8 @@
       },
       "value": "hold",
       "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "52f45c839bee88ff"
+      "version": 3,
+      "version_hash": "739f5aadc42a9eda"
     },
     {
       "authority": "analytical",
@@ -65359,381 +65979,6 @@
     {
       "authority": "analytical",
       "basis": "Deterministic qualification score 23 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-b496e01a2599190b",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_this_month +9",
-              "technology fit +4"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/362711"
-            ],
-            "points": 31
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/362711"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-682d111dfc5c4688",
-          "evidence-f9fe23a8bf995d25"
-        ],
-        "input_claim_hashes": {
-          "claim-ea388b9c4cbd04f9": "fd517f1fc27923f3"
-        },
-        "input_claim_ids": [
-          "claim-ea388b9c4cbd04f9"
-        ],
-        "input_claim_versions": {
-          "claim-ea388b9c4cbd04f9": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 23,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/362711"
-        ],
-        "trace_complete": true,
-        "trace_hash": "c5648ff3a77d9c6e",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-ea388b9c4cbd04f9"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-08-03",
-      "evidence_ids": [
-        "evidence-682d111dfc5c4688"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [
-        {
-          "authority": "analytical",
-          "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
-          "confidence": "medium",
-          "evidence_ids": [
-            "evidence-682d111dfc5c4688"
-          ],
-          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-          "object": null,
-          "status": "active",
-          "value": "hold",
-          "version": 1,
-          "version_hash": "f61de4da7cf9c7d9"
-        }
-      ],
-      "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-682d111dfc5c4688",
-          "locator": "qualification_gate",
-          "title": "Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)",
-          "url": "https://www.grants.gov/search-results-detail/362711",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:W911NF26S0085",
-        "label": "Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)",
-        "node_id": "opportunity:grants_gov:W911NF26S0085",
-        "node_type": "opportunity"
-      },
-      "value": "hold",
-      "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "1efed79214e90492"
-    },
-    {
-      "authority": "analytical",
-      "basis": "Deterministic qualification score 23 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-12713fbcc71642df",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_this_month +9",
-              "technology fit +4"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/354144"
-            ],
-            "points": 31
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/354144"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-9cbb6d8b4592e550",
-          "evidence-f63607e92a33934f"
-        ],
-        "input_claim_hashes": {
-          "claim-399383a77a17836f": "a576ab0d6cff1845"
-        },
-        "input_claim_ids": [
-          "claim-399383a77a17836f"
-        ],
-        "input_claim_versions": {
-          "claim-399383a77a17836f": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 23,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/354144"
-        ],
-        "trace_complete": true,
-        "trace_hash": "bcf905d31f276a11",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-399383a77a17836f"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-08-03",
-      "evidence_ids": [
-        "evidence-f63607e92a33934f"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [
-        {
-          "authority": "analytical",
-          "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
-          "confidence": "medium",
-          "evidence_ids": [
-            "evidence-f63607e92a33934f"
-          ],
-          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-          "object": null,
-          "status": "active",
-          "value": "hold",
-          "version": 1,
-          "version_hash": "c008fd62808f6921"
-        }
-      ],
-      "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f63607e92a33934f",
-          "locator": "qualification_gate",
-          "title": "Correctness for Scientific Computing Systems",
-          "url": "https://www.grants.gov/search-results-detail/354144",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:24-571",
-        "label": "Correctness for Scientific Computing Systems",
-        "node_id": "opportunity:grants_gov:24-571",
-        "node_type": "opportunity"
-      },
-      "value": "hold",
-      "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "7c269e9ee5b07000"
-    },
-    {
-      "authority": "analytical",
-      "basis": "Deterministic qualification score 23 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-3a98df53c498bf89",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_this_month +9",
-              "technology fit +4"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/353962"
-            ],
-            "points": 31
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/353962"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-4ccf07b8bf51ead7",
-          "evidence-76b14f396ed84fdd"
-        ],
-        "input_claim_hashes": {
-          "claim-8ec5ed37a316645f": "73d9ea61a87a7a09"
-        },
-        "input_claim_ids": [
-          "claim-8ec5ed37a316645f"
-        ],
-        "input_claim_versions": {
-          "claim-8ec5ed37a316645f": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 23,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/353962"
-        ],
-        "trace_complete": true,
-        "trace_hash": "a2596f980970567c",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-8ec5ed37a316645f"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-08-03",
-      "evidence_ids": [
-        "evidence-4ccf07b8bf51ead7"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [
-        {
-          "authority": "analytical",
-          "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
-          "confidence": "medium",
-          "evidence_ids": [
-            "evidence-4ccf07b8bf51ead7"
-          ],
-          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-          "object": null,
-          "status": "active",
-          "value": "hold",
-          "version": 1,
-          "version_hash": "0350cd4c960d5a6c"
-        }
-      ],
-      "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4ccf07b8bf51ead7",
-          "locator": "qualification_gate",
-          "title": "Research Training Groups in the Mathematical Sciences",
-          "url": "https://www.grants.gov/search-results-detail/353962",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:24-570",
-        "label": "Research Training Groups in the Mathematical Sciences",
-        "node_id": "opportunity:grants_gov:24-570",
-        "node_type": "opportunity"
-      },
-      "value": "hold",
-      "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "e9f233d4fa8f4b59"
-    },
-    {
-      "authority": "analytical",
-      "basis": "Deterministic qualification score 23 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-bfb9e790ebf43909",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -66260,116 +66505,6 @@
       "verification_status": "source_reported",
       "version": 3,
       "version_hash": "8c4ce8bb006294d8"
-    },
-    {
-      "authority": "analytical",
-      "basis": "Deterministic qualification score 34 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-5a0b3e4bdf4ab948",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +11",
-              "actionable grant_opportunity +9",
-              "closing_this_month +9",
-              "technology fit +8",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363440"
-            ],
-            "points": 42
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363440"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-0859d00a4811b833",
-          "evidence-38fb2da770fbf48b"
-        ],
-        "input_claim_hashes": {
-          "claim-c1a0377d732a845e": "6032da03c503fec1"
-        },
-        "input_claim_ids": [
-          "claim-c1a0377d732a845e"
-        ],
-        "input_claim_versions": {
-          "claim-c1a0377d732a845e": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 34,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363440"
-        ],
-        "trace_complete": true,
-        "trace_hash": "2474b1e9e8bb252d",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-c1a0377d732a845e"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-08-02",
-      "evidence_ids": [
-        "evidence-0859d00a4811b833"
-      ],
-      "first_seen_at": "2026-08-02T02:05:25.412721+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-02T02:05:25.412721+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0859d00a4811b833",
-          "locator": "qualification_gate",
-          "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
-          "url": "https://www.grants.gov/search-results-detail/363440",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:PDS-UKRAINE-FY26-04",
-        "label": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
-        "node_id": "opportunity:grants_gov:PDS-UKRAINE-FY26-04",
-        "node_type": "opportunity"
-      },
-      "value": "hold",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "c06174bc8e1f2389"
     },
     {
       "authority": "analytical",
@@ -68610,7 +68745,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -68657,7 +68792,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -68704,7 +68839,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -68751,7 +68886,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -68798,7 +68933,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -68845,7 +68980,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -68892,7 +69027,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -68939,7 +69074,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -68986,7 +69121,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69033,7 +69168,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69080,7 +69215,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69127,7 +69262,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69174,7 +69309,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69221,7 +69356,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69268,7 +69403,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69315,7 +69450,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69362,7 +69497,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69409,7 +69544,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69461,7 +69596,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69513,7 +69648,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69565,7 +69700,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69617,7 +69752,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69669,7 +69804,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69721,7 +69856,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69773,7 +69908,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69825,7 +69960,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -69877,7 +70012,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-03T02:07:21.978304+00:00",
+      "retracted_at": "2026-08-04T01:52:55.367102+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -84170,6 +84305,6 @@
     "superseded_claims": 0,
     "total_claims": 1438
   },
-  "updated_at": "2026-08-03T02:07:21.978304+00:00",
+  "updated_at": "2026-08-04T01:52:55.367102+00:00",
   "version": 1
 }
