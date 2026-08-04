@@ -56,6 +56,29 @@ class CollectionHealthCheckTests(unittest.TestCase):
 
             self.assertEqual(result, 0)
 
+    def test_watch_coverage_with_partial_snapshot_passes(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            path = Path(temp_dir) / "source-health.json"
+            path.write_text(
+                json.dumps(
+                    {
+                        "operational_summary": {
+                            "status": "watch",
+                            "healthy_sources": 8,
+                            "enabled_sources": 9,
+                            "partial_sources": 1,
+                            "critical_failures": [],
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            with patch("sys.argv", ["check", str(path), "--fail-on-degraded"]), redirect_stdout(StringIO()):
+                result = main()
+
+            self.assertEqual(result, 0)
+
 
 if __name__ == "__main__":
     unittest.main()

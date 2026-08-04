@@ -5,8 +5,9 @@ import unittest
 from datetime import date, datetime, timezone
 from tempfile import TemporaryDirectory
 
-from pqc_quantum_research_agent.models import DateFilterSummary, ResearchItem
+from pqc_quantum_research_agent.models import DateFilterSummary, ResearchItem, SourceWarning
 from pqc_quantum_research_agent.report import (
+    _briefing_confidence,
     is_complete_key_point,
     is_report_relevant,
     render_digest,
@@ -1200,6 +1201,31 @@ class ReportTests(unittest.TestCase):
         self.assertIn("Briefing confidence: **LOW", digest)
         self.assertIn("every included item came from one source", digest)
         self.assertIn("this measures source coverage and diversity", digest)
+
+    def test_partial_coverage_advisory_does_not_reduce_briefing_confidence(self) -> None:
+        items = [
+            ResearchItem(
+                source_name=f"Authoritative Source {index}",
+                source_type="procurement",
+                title=f"Quantum opportunity {index}",
+                url=f"https://example.gov/opportunity-{index}",
+                date_filter_status="included_today",
+                category="Federal Funding",
+                score=70,
+            )
+            for index in range(4)
+        ]
+        advisory = SourceWarning(
+            "SAM.gov Opportunities",
+            "procurement",
+            "Partial coverage: recent snapshot was truncated.",
+            severity="advisory",
+        )
+
+        confidence = _briefing_confidence(items, [advisory])
+
+        self.assertEqual(confidence["critical_source_warnings"], 0)
+        self.assertEqual(confidence["label"], "HIGH")
 
 
 def _key_points_for(digest: str, title: str) -> list[str]:

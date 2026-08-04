@@ -107,6 +107,7 @@ function render(){
   document.getElementById("metric-actionable").textContent = themes.filter(x => x.status === "actionable").length;
   document.getElementById("metric-critical").textContent = themes.filter(x => x.importance === "critical").length;
   const healthy = sources.filter(x => x.status === "healthy").length;
+  const partial = sources.filter(x => x.status === "partial").length;
   const alerts = state.data.alerts || { alerts: [], active_count: 0, new_count: 0 };
   document.getElementById("metric-alerts").textContent = alerts.new_count || 0;
   document.getElementById("metric-alerts-detail").textContent = `${alerts.active_count || 0} active overall`;
@@ -121,7 +122,7 @@ function render(){
   const coverageState = state.data.source_health?.operational_summary || {};
   const coverageStatus = String(coverageState.status || "unknown").toLowerCase();
   const sourceSummary = document.getElementById("source-summary");
-  sourceSummary.textContent = `${coverageStatus.toUpperCase()} coverage · ${healthy} healthy · ${verified} verified · ${fresh} fresh · ${stale} stale`;
+  sourceSummary.textContent = `${coverageStatus.toUpperCase()} coverage · ${healthy} healthy · ${partial} partial · ${verified} verified · ${fresh} fresh · ${stale} stale`;
   sourceSummary.classList.remove("coverage-healthy", "coverage-watch", "coverage-degraded", "coverage-unknown");
   sourceSummary.classList.add(`coverage-${coverageStatus}`);
   document.getElementById("footer-updated").textContent = `Dashboard built ${formatDate(state.data.generated_at)}`;
@@ -1096,7 +1097,7 @@ function signalCard(item, index){
 }
 
 function renderSources(sources){
-  const order = { failing: 0, degraded: 1, healthy: 2 };
+  const order = { failing: 0, degraded: 1, partial: 2, healthy: 3 };
   document.getElementById("source-table").innerHTML = [...sources].sort((a,b) => (order[a.status]-order[b.status]) || a.name.localeCompare(b.name)).map(item =>
     `<tr><td>${escapeHtml(item.name)}</td><td>${escapeHtml(item.type)}</td><td>${item.success_rate ?? "—"}${item.success_rate == null ? "" : "%"}</td><td>${item.warning_days || 0}</td><td>${escapeHtml(formatShortDate(item.last_checked_at))}</td><td>${escapeHtml(formatShortDate(item.last_item_at))}</td><td><span class="freshness ${escapeHtml(item.freshness || "unverified")}">${escapeHtml(item.freshness || "unverified")}</span></td><td><span class="health"><i class="dot ${escapeHtml(item.status)}"></i>${escapeHtml(item.status)} · ${escapeHtml(item.verification_status || "unverified")}</span></td></tr>`).join("");
 }

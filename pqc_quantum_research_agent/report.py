@@ -312,7 +312,7 @@ def render_digest(
     summary = summary or DateFilterSummary(
         target_date=report_date,
         generated_at=datetime.now(timezone.utc),
-        source_failures=len(warnings),
+        source_failures=sum(warning.severity == "failure" for warning in warnings),
     )
     sorted_items = _sorted_items(items)
     eligible_items = [item for item in sorted_items if item.date_filter_status in INCLUDED_STATUSES]
@@ -403,13 +403,26 @@ def render_digest(
     lines.append("")
 
     lines.extend(["## Source Failures / Warnings", ""])
-    lines.extend(["<details>", f"<summary><strong>Collection diagnostics ({len(warnings)} warning(s))</strong></summary>", ""])
+    failure_count = sum(warning.severity == "failure" for warning in warnings)
+    advisory_count = len(warnings) - failure_count
+    lines.extend(
+        [
+            "<details>",
+            (
+                "<summary><strong>Collection diagnostics "
+                f"({failure_count} failure(s) · {advisory_count} advisory notice(s))"
+                "</strong></summary>"
+            ),
+            "",
+        ]
+    )
     if warnings:
         for warning in warnings:
             location = f" ({redact_url(warning.url)})" if warning.url else ""
+            advisory = "**ADVISORY:** " if warning.severity == "advisory" else ""
             lines.append(
                 f"- **{redact_text(warning.source_name)}** [{redact_text(warning.source_type)}]"
-                f"{location}: {redact_text(warning.message)}"
+                f"{location}: {advisory}{redact_text(warning.message)}"
             )
     else:
         lines.append("No source failures or warnings recorded in this run.")
@@ -596,7 +609,8 @@ def _briefing_confidence(
     largest_share = max(source_counts.values()) / len(report_items)
     authoritative_items = sum(_is_authoritative_evidence(item) for item in report_items)
     critical_warnings = sum(
-        warning.source_type in {"federal_award", "grant_opportunity", "procurement"}
+        warning.severity == "failure"
+        and warning.source_type in {"federal_award", "grant_opportunity", "procurement"}
         for warning in warnings
     )
     score = 100

@@ -49,6 +49,11 @@ class RedactionTests(unittest.TestCase):
         self.assertNotIn(key, warning.message)
         self.assertNotIn(key, warning.url)
 
+    def test_source_warning_normalizes_advisory_severity(self) -> None:
+        warning = SourceWarning("SAM.gov", "procurement", "Bounded snapshot", severity="ADVISORY")
+
+        self.assertEqual(warning.severity, "advisory")
+
     def test_report_sanitizer_rewrites_existing_generated_files(self) -> None:
         key = "SAM-11111111-2222-3333-4444-555555555555"
         with tempfile.TemporaryDirectory() as temp_dir:

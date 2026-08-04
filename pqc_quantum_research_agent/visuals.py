@@ -14,4 +14,6 @@ def status_icon(status: str) -> str:
 
 
 def health_icon(status: str) -> str:
-    return {"healthy": "🟢", "degraded": "🟠", "failing": "🔴"}.get(status.casefold(), "⚪")
+    return {"healthy": "🟢", "partial": "🟠", "degraded": "🟠", "failing": "🔴"}.get(
+        status.casefold(), "⚪"
+    )

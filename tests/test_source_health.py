@@ -39,8 +39,8 @@ class SourceHealthTests(unittest.TestCase):
             )
             content = output.read_text(encoding="utf-8")
 
-            self.assertIn("| Broken Feed | rss | 50% | 1 | — | — | unverified | 🔴 failing |", content)
-            self.assertIn("| Healthy Feed | rss | 100% | 0 | — | — | unverified | 🟢 healthy |", content)
+            self.assertIn("| Broken Feed | rss | 50% | 1 | 0 | — | — | unverified | 🔴 failing |", content)
+            self.assertIn("| Healthy Feed | rss | 100% | 0 | 0 | — | — | unverified | 🟢 healthy |", content)
             self.assertIn("> **Collection Operations**", content)
             self.assertIn("- Disabled Feed [rss]", content)
             data = json.loads((root / "reports" / "source-health.json").read_text(encoding="utf-8"))
@@ -129,6 +129,65 @@ class SourceHealthTests(unittest.TestCase):
                 data["operational_summary"]["critical_failures"],
                 ["SAM.gov Opportunities"],
             )
+
+    def test_partial_snapshot_is_watch_coverage_not_critical_failure(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            reports = root / "reports"
+            daily = reports / "2026-08"
+            daily.mkdir(parents=True)
+            config_path = root / "sources.yaml"
+            config_path.write_text(
+                "source_health:\n"
+                "  critical_source_types: [procurement]\n"
+                "federal_funding:\n"
+                "  enabled: true\n"
+                "  usaspending:\n    enabled: false\n"
+                "  grants_gov:\n    enabled: false\n"
+                "  sam_gov:\n    enabled: true\n    collection_mode: snapshot\n"
+                "  queries:\n    - name: Quantum\n      keyword: quantum\n",
+                encoding="utf-8",
+            )
+            (daily / "2026-08-04-digest.md").write_text(
+                "## Source Failures / Warnings\n\n"
+                "- **SAM.gov Opportunities** [procurement] "
+                "(https://api.sam.gov/opportunities/v2/search): "
+                "Recent snapshot was truncated after 1,000 of 3,762 notices.\n",
+                encoding="utf-8",
+            )
+            generated = datetime(2026, 8, 4, 21, tzinfo=timezone.utc)
+            collection = CollectionResult(
+                warnings=[
+                    SourceWarning(
+                        "SAM.gov Opportunities",
+                        "procurement",
+                        "Partial coverage: recent snapshot was truncated after 1,000 of 3,762 notices.",
+                        severity="advisory",
+                    )
+                ]
+            )
+
+            write_source_observations(
+                reports,
+                load_config(config_path),
+                collection,
+                generated_at=generated,
+            )
+            write_source_health_report(reports, config_path, generated_at=generated)
+            data = json.loads((reports / "source-health.json").read_text(encoding="utf-8"))
+            sam = next(item for item in data["sources"] if item["name"] == "SAM.gov Opportunities")
+
+            self.assertEqual(sam["status"], "partial")
+            self.assertEqual(sam["warning_days"], 0)
+            self.assertEqual(sam["advisory_days"], 1)
+            self.assertEqual(sam["last_outcome"], "partial")
+            self.assertEqual(data["operational_summary"]["status"], "watch")
+            self.assertEqual(data["operational_summary"]["critical_failures"], [])
+            self.assertEqual(
+                data["operational_summary"]["partial_coverage_sources"],
+                ["SAM.gov Opportunities"],
+            )
+            self.assertEqual(len(data["recent_advisories"]), 1)
 
     def test_weekend_idle_uses_operational_date_not_utc_date(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:

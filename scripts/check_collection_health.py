@@ -21,6 +21,7 @@ def main() -> int:
     line = (
         f"Collection coverage: {status.upper()} · "
         f"{summary.get('healthy_sources', 0)}/{summary.get('enabled_sources', 0)} healthy · "
+        f"{summary.get('partial_sources', 0)} partial · "
         f"{len(critical)} critical blind spot(s)"
     )
     print(line)

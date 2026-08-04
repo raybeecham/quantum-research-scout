@@ -44,7 +44,9 @@ def write_source_observations(
         prior = previous_sources.get(name, {})
         items = items_by_source.get(name, [])
         warnings = warnings_by_source.get(name, [])
-        warning_is_idle = bool(warnings) and all(
+        failure_warnings = [warning for warning in warnings if warning.severity == "failure"]
+        advisory_warnings = [warning for warning in warnings if warning.severity == "advisory"]
+        warning_is_idle = bool(failure_warnings) and all(
             _is_expected_idle(
                 {
                     "type": warning.source_type,
@@ -52,9 +54,17 @@ def write_source_observations(
                     "date": operational_date(generated).isoformat(),
                 }
             )
-            for warning in warnings
+            for warning in failure_warnings
         )
-        outcome = "expected-idle" if warning_is_idle else "failing" if warnings else "success"
+        outcome = (
+            "expected-idle"
+            if warning_is_idle
+            else "failing"
+            if failure_warnings
+            else "partial"
+            if advisory_warnings
+            else "success"
+        )
         latest_item = max(
             (item for item in items if item.published_at is not None),
             key=lambda item: item.published_at,
@@ -74,15 +84,22 @@ def write_source_observations(
                 "name": name,
                 "type": source_type,
                 "last_checked_at": generated_text,
-                "last_success_at": generated_text if outcome == "success" else prior.get("last_success_at"),
+                "last_success_at": generated_text
+                if outcome in {"success", "partial"}
+                else prior.get("last_success_at"),
                 "last_item_at": last_item_at,
                 "last_item_title": last_item_title,
                 "last_item_url": last_item_url,
                 "last_outcome": outcome,
                 "last_run_items": len(items),
-                "last_warning": redact_text(warnings[0].message) if warnings else None,
+                "last_warning": redact_text(failure_warnings[0].message) if failure_warnings else None,
+                "last_advisory": redact_text(advisory_warnings[0].message)
+                if advisory_warnings
+                else None,
                 "runs_observed": int(prior.get("runs_observed", 0)) + 1,
-                "successful_runs": int(prior.get("successful_runs", 0)) + (outcome == "success"),
+                "successful_runs": int(prior.get("successful_runs", 0))
+                + (outcome in {"success", "partial"}),
+                "partial_runs": int(prior.get("partial_runs", 0)) + (outcome == "partial"),
                 "failure_runs": int(prior.get("failure_runs", 0)) + (outcome == "failing"),
                 "expected_idle_runs": int(prior.get("expected_idle_runs", 0)) + (outcome == "expected-idle"),
                 "consecutive_failures": int(prior.get("consecutive_failures", 0)) + 1 if outcome == "failing" else 0,
@@ -108,6 +125,7 @@ def write_source_health_report(
     report_dates: list[str] = []
     failures: dict[str, list[dict[str, str]]] = defaultdict(list)
     expected_idle: dict[str, list[dict[str, str]]] = defaultdict(list)
+    advisories: dict[str, list[dict[str, str]]] = defaultdict(list)
 
     for path in sorted(reports_path.glob("**/*-digest.md")):
         match = DAILY_RE.match(path.name)
@@ -130,7 +148,9 @@ def write_source_health_report(
                     "url": redact_url(warning.group("url")),
                     "message": redact_text(warning.group("message")),
                 }
-                if _is_expected_idle(item):
+                if _is_advisory(item):
+                    advisories[item["name"]].append(item)
+                elif _is_expected_idle(item):
                     expected_idle[item["name"]].append(item)
                 else:
                     failures[item["name"]].append(item)
@@ -145,14 +165,14 @@ def write_source_health_report(
         "",
         f"_Updated {generated.astimezone(timezone.utc):%Y-%m-%d %H:%M UTC}_",
         "",
-        f"Rolling health is inferred from **{len(set(report_dates))}** retained daily report(s). A successful attempt means no source warning was recorded for that report.",
+        f"Rolling health is inferred from **{len(set(report_dates))}** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.",
         "",
         f"Freshness uses the latest dated item observed during scheduled collection and becomes stale after **{stale_after_days} days**. Sources remain unverified until the observation ledger records a run.",
         "",
-        "Weekend arXiv feeds with no entries are counted as expected idle days, not failures.",
+        "Weekend arXiv feeds with no entries are counted as expected idle days, not failures. Bounded snapshots that return valid data are marked partial, not failed.",
         "",
-        "| Source | Type | Success rate | Warning days | Last checked | Latest item | Freshness | Status |",
-        "|---|---|---:|---:|---|---|---|---|",
+        "| Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |",
+        "|---|---|---:|---:|---:|---|---|---|---|",
     ]
     total_days = len(set(report_dates))
     rows = []
@@ -160,26 +180,57 @@ def write_source_health_report(
     for name, source_type in active:
         source_failures = failures.get(name, [])
         failure_days = len({item["date"] for item in source_failures})
+        advisory_days = len({item["date"] for item in advisories.get(name, [])})
         idle_days = len({item["date"] for item in expected_idle.get(name, [])})
         success_rate = ((total_days - failure_days) / total_days * 100) if total_days else 0.0
-        status = "healthy" if failure_days == 0 else "degraded" if success_rate >= 80 else "failing"
+        status = (
+            "partial"
+            if failure_days == 0 and advisory_days
+            else "healthy"
+            if failure_days == 0
+            else "degraded"
+            if success_rate >= 80
+            else "failing"
+        )
         last_warning = max((item["date"] for item in source_failures), default="none")
+        last_advisory = max((item["date"] for item in advisories.get(name, [])), default="none")
         observation = observations.get(name, {})
         if observation:
             observed_runs = int(observation.get("successful_runs", 0)) + int(observation.get("failure_runs", 0))
             success_rate = (int(observation.get("successful_runs", 0)) / observed_runs * 100) if observed_runs else 100.0
-            status = "failing" if observation.get("last_outcome") == "failing" else "healthy" if failure_days == 0 else status
+            status = (
+                "failing"
+                if observation.get("last_outcome") == "failing"
+                else "partial"
+                if observation.get("last_outcome") == "partial"
+                else "healthy"
+                if failure_days == 0 and advisory_days == 0
+                else status
+            )
         freshness = _freshness(observation, generated, stale_after_days)
         verification_status = _verification_status(observation)
-        rows.append((failure_days, name, source_type, success_rate, idle_days, last_warning, status))
+        rows.append(
+            (
+                failure_days,
+                advisory_days,
+                name,
+                source_type,
+                success_rate,
+                idle_days,
+                last_warning,
+                status,
+            )
+        )
         health_entries.append(
             {
                 "name": name,
                 "type": source_type,
                 "success_rate": round(success_rate, 1),
                 "warning_days": failure_days,
+                "advisory_days": advisory_days,
                 "expected_idle_days": idle_days,
                 "last_warning": None if last_warning == "none" else last_warning,
+                "last_advisory": None if last_advisory == "none" else last_advisory,
                 "status": status,
                 "verification_status": verification_status,
                 "freshness": freshness,
@@ -194,10 +245,12 @@ def write_source_health_report(
             }
         )
     health_by_name = {str(item["name"]): item for item in health_entries}
-    for failure_days, name, source_type, success_rate, idle_days, last_warning, status in sorted(rows, key=lambda row: (-row[0], row[1])):
+    for failure_days, advisory_days, name, source_type, success_rate, idle_days, last_warning, status in sorted(
+        rows, key=lambda row: (-row[0], -row[1], row[2])
+    ):
         health = health_by_name[name]
         lines.append(
-            f"| {name} | {source_type} | {success_rate:.0f}% | {failure_days} | {_short_date(health.get('last_checked_at'))} | "
+            f"| {name} | {source_type} | {success_rate:.0f}% | {failure_days} | {advisory_days} | {_short_date(health.get('last_checked_at'))} | "
             f"{_short_date(health.get('last_item_at'))} | {health['freshness']} | {health_icon(status)} {status} |"
         )
 
@@ -212,6 +265,7 @@ def write_source_health_report(
             "",
             f"- Coverage status: **{str(operational_summary['status']).upper()}**",
             f"- Healthy sources: **{operational_summary['healthy_sources']}** of **{operational_summary['enabled_sources']}**",
+            f"- Partial-coverage sources: **{operational_summary['partial_sources']}**",
             f"- Critical sources failing: **{operational_summary['critical_sources_failing']}**",
         ]
     )
@@ -219,6 +273,11 @@ def write_source_health_report(
         lines.append(
             "- Critical blind spots: "
             + ", ".join(str(value) for value in operational_summary["critical_failures"])
+        )
+    if operational_summary["partial_coverage_sources"]:
+        lines.append(
+            "- Partial coverage: "
+            + ", ".join(str(value) for value in operational_summary["partial_coverage_sources"])
         )
 
     lines.extend(["", "## Disabled Sources", ""])
@@ -238,6 +297,18 @@ def write_source_health_report(
     if not recent:
         lines.append("- No warnings in the retained window.")
 
+    lines.extend(["", "## Recent Coverage Advisories", ""])
+    recent_advisories = sorted(
+        (item for name, values in advisories.items() if name in active_names for item in values),
+        key=lambda item: item["date"],
+        reverse=True,
+    )[:20]
+    for item in recent_advisories:
+        message = item["message"].replace("|", "\\|")
+        lines.append(f"- {item['date']} — **{item['name']}**: {message}")
+    if not recent_advisories:
+        lines.append("- No partial-coverage advisories in the retained window.")
+
     output = reports_path / "source-health.md"
     output.write_text("\n".join(lines) + "\n", encoding="utf-8")
     data_output = reports_path / "source-health.json"
@@ -250,6 +321,7 @@ def write_source_health_report(
                 "sources": sorted(health_entries, key=lambda item: (str(item["status"]), str(item["name"]))),
                 "disabled_sources": [{"name": name, "type": source_type} for name, source_type in disabled],
                 "recent_warnings": recent,
+                "recent_advisories": recent_advisories,
                 "observation_updated_at": observation_payload.get("updated_at"),
                 "stale_after_days": stale_after_days,
                 "operational_summary": operational_summary,
@@ -315,17 +387,24 @@ def _operational_summary(
         for item in health_entries
         if item.get("last_outcome") == "failing" or item.get("status") == "failing"
     ]
+    partial = [
+        item
+        for item in health_entries
+        if item.get("last_outcome") == "partial" or item.get("status") == "partial"
+    ]
     critical_failures = sorted(
         str(item.get("name"))
         for item in failing
         if str(item.get("type")) in critical_types
     )
-    status = "degraded" if critical_failures else "watch" if failing else "healthy"
+    status = "degraded" if critical_failures else "watch" if failing or partial else "healthy"
     return {
         "status": status,
         "enabled_sources": len(health_entries),
         "healthy_sources": sum(item.get("status") == "healthy" for item in health_entries),
         "failing_sources": len(failing),
+        "partial_sources": len(partial),
+        "partial_coverage_sources": sorted(str(item.get("name")) for item in partial),
         "critical_sources_failing": len(critical_failures),
         "critical_failures": critical_failures,
         "critical_source_types": sorted(critical_types),
@@ -338,6 +417,11 @@ def _is_expected_idle(item: dict[str, str]) -> bool:
         and "no parseable entries" in item["message"].casefold()
         and date.fromisoformat(item["date"]).weekday() >= 5
     )
+
+
+def _is_advisory(item: dict[str, str]) -> bool:
+    message = item["message"].casefold()
+    return "partial coverage:" in message or "recent snapshot was truncated" in message
 
 
 def _configured_sources(config: AgentConfig) -> tuple[list[tuple[str, str]], list[tuple[str, str]]]:

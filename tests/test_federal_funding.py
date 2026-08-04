@@ -16,6 +16,7 @@ class FakeFundingClient:
     def __init__(self) -> None:
         self.post_calls: list[tuple[str, dict]] = []
         self.get_calls: list[tuple[str, dict]] = []
+        self.sam_total_records = 0
 
     def post_text(
         self,
@@ -80,6 +81,7 @@ class FakeFundingClient:
         return (
             json.dumps(
                 {
+                    "totalRecords": self.sam_total_records,
                     "opportunitiesData": [
                         {
                             "noticeId": "NOTICE-1",
@@ -213,6 +215,29 @@ class FederalFundingTests(unittest.TestCase):
         self.assertEqual(result.items[0].source_name, "SAM.gov Opportunities")
         self.assertEqual(result.items[0].raw_payload["mission_ids"], ["test-mission"])
         self.assertEqual(result.items[0].raw_payload["query_names"], ["Test Mission"])
+
+    def test_truncated_snapshot_is_advisory_not_failure(self) -> None:
+        client = FakeFundingClient()
+        client.sam_total_records = 3762
+        config = {
+            "enabled": True,
+            "usaspending": {"enabled": False},
+            "grants_gov": {"enabled": False},
+            "sam_gov": {
+                "collection_mode": "snapshot",
+                "api_key_env": "SAM_GOV_API_KEY",
+                "max_items_per_request": 1000,
+                "max_pages_per_run": 1,
+            },
+            "queries": [{"name": "Test Mission", "keyword": "Test Mission"}],
+        }
+
+        with patch.dict("os.environ", {"SAM_GOV_API_KEY": "test-key"}):
+            result = collect_federal_funding(client, config, 20)  # type: ignore[arg-type]
+
+        self.assertEqual(len(result.warnings), 1)
+        self.assertEqual(result.warnings[0].severity, "advisory")
+        self.assertIn("Partial coverage", result.warnings[0].message)
 
     def test_tracker_links_missions_recipients_and_patents(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:

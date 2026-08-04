@@ -293,7 +293,7 @@ def main(argv: list[str] | None = None) -> int:
         lookback_hours=args.lookback_hours,
         historical_mode=args.historical,
         collected_raw_candidates=len(candidates),
-        source_failures=len(collection.warnings),
+        source_failures=sum(warning.severity == "failure" for warning in collection.warnings),
     )
     LOGGER.info("%d candidates passed publication-date filtering", len(date_included))
     report_candidates = dedupe_items(

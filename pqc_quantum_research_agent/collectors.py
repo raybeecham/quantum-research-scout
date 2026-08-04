@@ -861,10 +861,11 @@ def _collect_sam_snapshot(
                 "SAM.gov Opportunities",
                 "procurement",
                 (
-                    f"Recent snapshot was truncated after {fetched_records:,} of "
+                    f"Partial coverage: recent snapshot was truncated after {fetched_records:,} of "
                     f"{total_records:,} notices; narrow the window or increase the bounded page budget."
                 ),
                 endpoint,
+                severity="advisory",
             )
         )
     LOGGER.info(

@@ -41,12 +41,15 @@ class SourceWarning:
     source_type: str
     message: str
     url: str = ""
+    severity: str = "failure"
 
     def __post_init__(self) -> None:
         self.source_name = redact_text(self.source_name)
         self.source_type = redact_text(self.source_type)
         self.message = redact_text(self.message)
         self.url = redact_url(self.url)
+        severity = str(self.severity or "failure").casefold()
+        self.severity = severity if severity in {"failure", "advisory"} else "failure"
 
 
 @dataclass(slots=True)
