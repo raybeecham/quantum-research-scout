@@ -2,35 +2,37 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-08-04T01:52:55.367102+00:00_
+_Updated 2026-08-04T21:31:34.443424+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **0**
-- Newly discovered historical evidence: **0**
-- Newly observed with no reliable source date: **0**
-- Upcoming dated events: **65**
+- Actual or recent changes: **17**
+- Newly discovered historical evidence: **9**
+- Newly observed with no reliable source date: **12**
+- Upcoming dated events: **71**
 
 ## Priority timeline
 
-- **Evidence trace changed** · Advancing Investigative Journalism in Ukraine through U.S. AI Innovation — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363440))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · Correctness for Scientific Computing Systems — qualification gate ([evidence](https://www.grants.gov/search-results-detail/354144))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · Creative Industries Film Lab and Residency - American Film Showcase 2026 — qualification gate ([evidence](https://www.grants.gov/search-results-detail/362939))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · Escape The Hack: Countering Cyber Scams with an Immersive Experience for Everyday Indonesians — qualification gate ([evidence](https://www.grants.gov/search-results-detail/362863))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · Fiscal Year 2026 Next Generation Warning System Grant Program — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363192))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · Notice of Funding Opportunity 2026 – Lebanon — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363090))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · Research Training Groups in the Mathematical Sciences — qualification gate ([evidence](https://www.grants.gov/search-results-detail/353962))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU) — qualification gate ([evidence](https://www.grants.gov/search-results-detail/362711))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · Voices for the Future — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363043))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Published today** · 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view))
+  - The source publication date is today or within the prior day.
+- **Published today** · 52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614) — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/8523d97d7270414ca555500dd2c209a5/view))
+  - The source publication date is today or within the prior day.
+- **Published today** · 66--SENSOR,NITROGEN — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view))
+  - The source publication date is today or within the prior day.
+- **Published today** · 66--SENSOR,OXYGEN — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view))
+  - The source publication date is today or within the prior day.
+- **Newly observed · event date unknown** · INUTEQ, LLC — cage code ([evidence](https://sam.gov/entity/NBEWZB8LQ8Z5/coreData))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Newly observed · event date unknown** · POST QUANTUM LABS LLC — cage code ([evidence](https://sam.gov/entity/H53MXWJZPYU3/coreData))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Newly observed · event date unknown** · UNIVERSITY OF MARYLAND, COLLEGE PARK — cage code ([evidence](https://sam.gov/entity/NPU8ULVAAS23/coreData))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Newly discovered historical evidence** · ROSES25: A.13 Accelerating Earth Solutions — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363224))
+  - Scout first observed this on 2026-08-04; the source date is 2026-07-17.
+- **Newly discovered historical evidence** · ROSES25: A.14 Atmosphere — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363240))
+  - Scout first observed this on 2026-08-04; the source date is 2026-07-20.
+- **Newly discovered historical evidence** · ROSES25: A.15 Biosphere — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363241))
+  - Scout first observed this on 2026-08-04; the source date is 2026-07-20.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -90,6 +92,8 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-08-11** · Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU) — closing_soon ([source](https://www.grants.gov/search-results-detail/362711))
 - **2026-08-13** · EARLY STAGE INNOVATIONS (ESI26) — closing_this_month ([source](https://www.grants.gov/search-results-detail/363066))
 - **2026-08-15** · English Language Exchange Programs: AI and Educational Technology Integration — closing_this_month ([source](https://www.grants.gov/search-results-detail/363105))
+- **2026-08-19** · 66--SENSOR,NITROGEN — closing_this_month ([source](https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view))
+- **2026-08-19** · 66--SENSOR,OXYGEN — closing_this_month ([source](https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view))
 - **2026-08-20** · CyberNext: Advance Cybersecurity and AI Readiness — closing_this_month ([source](https://www.grants.gov/search-results-detail/363249))
 - **2026-08-20** · GameON – U.S.-Albania E-Sports and Innovation — closing_this_month ([source](https://www.grants.gov/search-results-detail/363247))
 - **2026-08-20** · Pax Silica Artificial Intelligence Assistance Project — closing_this_month ([source](https://www.grants.gov/search-results-detail/363422))
@@ -104,9 +108,7 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-09-08** · AI Partnership & Exchange for Tech Leaders (APEX) — open_window ([source](https://www.grants.gov/search-results-detail/363315))
 - **2026-09-08** · IUSE/Professional Formation of Engineers: Revolutionizing Engineering Departments — open_window ([source](https://www.grants.gov/search-results-detail/353413))
 - **2026-09-10** · Computer and Information Science and Engineering (CISE): Future Computing Research — open_window ([source](https://www.grants.gov/search-results-detail/360149))
+- **2026-09-18** · 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF — open_window ([source](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view))
 - **2026-09-20** · OMB issues agency guidance for inventories, migration plans, and high-impact systems — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
 - **2026-09-20** · Publish a summary of QC-ADDS technical specifications — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
 - **2026-09-22** · Launch the AI Forge university-industry-government forum — estimated ([source](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security))
-- **2026-09-28** · Security, Privacy, and Trust in Cyberspace — open_window ([source](https://www.grants.gov/search-results-detail/357554))
-- **2026-09-29** · Postdoctoral Research Fellowships in Biology — open_window ([source](https://www.grants.gov/search-results-detail/361249))
-- **2026-09-30** · Close the QBIT Stage A full-proposal window — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))

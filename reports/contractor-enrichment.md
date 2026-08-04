@@ -2,18 +2,21 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-04T01:52:55.367102+00:00_
+_Updated 2026-08-04T21:31:34.443424+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **0** (**0.0%** coverage)
-- Newly resolved this run: **0**
+- SAM.gov-resolved entities: **3** (**4.0%** coverage)
+- Newly resolved this run: **3**
 - Pending bounded enrichment: **154**
 - Ambiguous / no match: **0 / 0**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
 |---|---|---|---|---|---|
+| UNIVERSITY OF MARYLAND, COLLEGE PARK | [UNIVERSITY OF MARYLAND, COLLEGE PARK](https://sam.gov/entity/NPU8ULVAAS23/coreData) | NPU8ULVAAS23 | 0UB92 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
+| INUTEQ, LLC | [InuTeq, LLC](https://sam.gov/entity/NBEWZB8LQ8Z5/coreData) | NBEWZB8LQ8Z5 | 5NTT4 | Active | Alaskan Native Corporation Owned Firm, Business or Organization, For Profit Organization |
+| POST QUANTUM LABS LLC | [Post Quantum Labs LLC](https://sam.gov/entity/H53MXWJZPYU3/coreData) | H53MXWJZPYU3 | 9T5C5 | Active | Business or Organization, For Profit Organization, Individual or concern, other than one of the preceding |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
 | POST QUANTUM LABS LLC | POST QUANTUM LABS LLC | — | — | pending | api key missing |
 | CARNEGIE-MELLON UNIVERSITY | CARNEGIE-MELLON UNIVERSITY | — | — | pending | api key missing |
@@ -86,9 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF CALIFORNIA, MERCED | UNIVERSITY OF CALIFORNIA, MERCED | — | — | pending | Queued for a future bounded enrichment batch |
 | UNIVERSITY OF CALIFORNIA, MERCED | UNIVERSITY OF CALIFORNIA, MERCED | — | — | pending | api key missing |
 | TRUSTEES OF TUFTS COLLEGE | TRUSTEES OF TUFTS COLLEGE | — | — | pending | Queued for a future bounded enrichment batch |
-| TRUSTEES OF TUFTS COLLEGE | TRUSTEES OF TUFTS COLLEGE | — | — | pending | api key missing |
-| THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | — | — | pending | Queued for a future bounded enrichment batch |
-| THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | — | — | pending | api key missing |
 
 ## Method
 

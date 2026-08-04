@@ -110,12 +110,21 @@
           "source": "Cloudflare Blog",
           "title": "Smaller, faster, safer: running Kimi and GLM at scale",
           "url": "https://blog.cloudflare.com/smaller-faster-safer-models"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 100,
+          "source": "NCSC UK News",
+          "title": "NCSC statement in response to recent incidents resulting from frontier AI evaluations",
+          "url": "https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
-      "importance": "high",
-      "latest_seen": "2026-08-03",
+      "importance": "critical",
+      "latest_seen": "2026-08-04",
       "momentum": "declining",
       "organizations": [
         "arXiv RSS cs.CR",
@@ -124,8 +133,8 @@
         "The Quantum Insider",
         "Cloudflare Blog"
       ],
-      "prior_count": 5,
-      "recent_count": 1,
+      "prior_count": 3,
+      "recent_count": 2,
       "status": "watching"
     },
     "PQC / Crypto Agility": {
@@ -1021,12 +1030,48 @@
           "source": "IACR ePrint",
           "title": "Proving Threshold Regev PKE from Adaptive Hint-MLWE: Efficient, Non-interactive, and CCA Secure",
           "url": "https://eprint.iacr.org/2026/1585"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 42,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Quantum Computing: What IT and Business Leaders Need to Know",
+          "url": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 89,
+          "source": "The Quantum Insider",
+          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
+          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "title": "IonQ says orders set 2030 deadline for post-quantum crypto migration",
+          "url": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/enqase-light-rider-quantum-safe-communication-infrastructure",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "enQase and Light Rider Collaborate on Quantum-Safe Communication Infrastructure",
+          "url": "https://thequantuminsider.com/2026/08/04/enqase-light-rider-quantum-safe-communication-infrastructure"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-08-03",
+      "latest_seen": "2026-08-04",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -1035,7 +1080,7 @@
         "IACR ePrint",
         "Keyfactor Quantum and Crypto-Agility"
       ],
-      "prior_count": 25,
+      "prior_count": 27,
       "recent_count": 20,
       "status": "watching"
     },
@@ -2824,12 +2869,30 @@
           "source": "The Quantum Insider",
           "title": "OptQC and NTT Strengthen Collaboration on Large-Scale Optical Quantum Computing",
           "url": "https://thequantuminsider.com/2026/08/03/optqc-ntt-large-scale-optical-quantum-computing-collaboration"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 36,
+          "source": "Quantum Zeitgeist",
+          "title": "Quantinuum & Partners Run 98-Qubit Quantum Fourier Transform",
+          "url": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://quantumzeitgeist.com/ntt-optqc-target-one-million",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 71,
+          "source": "QuantumNews.ai",
+          "title": "NTT and OptQC Target One Million Fault-Tolerant Qubits by 2030",
+          "url": "https://quantumzeitgeist.com/ntt-optqc-target-one-million"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-08-03",
+      "latest_seen": "2026-08-04",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -2838,7 +2901,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 26,
-      "recent_count": 26,
+      "recent_count": 23,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -3374,22 +3437,58 @@
           "source": "Quantum Zeitgeist",
           "title": "Pusan National University Builds Hybrid Quantum Network with Identical Photons",
           "url": "https://quantumzeitgeist.com/pusan-university-hybrid-quantum-network"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/quix-quantum-launches-alquor-2-0-photonic-quantum-research",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 57,
+          "source": "The Quantum Insider",
+          "title": "QuiX Quantum Launches Alquor 2.0 Photonic Quantum Processor Platform",
+          "url": "https://thequantuminsider.com/2026/08/04/quix-quantum-launches-alquor-2-0-photonic-quantum-research"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/quantum-corridor-ciena-toshiba-1-6-tbps-quantum-safe-optical-encryption-live-network",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 64,
+          "source": "The Quantum Insider",
+          "title": "Quantum Corridor, Ciena and Toshiba Test 1.6 Tb/s Quantum-Safe Network Encryption",
+          "url": "https://thequantuminsider.com/2026/08/04/quantum-corridor-ciena-toshiba-1-6-tbps-quantum-safe-optical-encryption-live-network"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://www.insidequantumtechnology.com/news-archive/memq-went-gold",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 71,
+          "source": "QuantumNews.ai",
+          "title": "memQ went gold!",
+          "url": "https://www.insidequantumtechnology.com/news-archive/memq-went-gold"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 82,
+          "source": "The Quantum Insider",
+          "title": "IonQ and EPB Partner to Launch the Tennessee Quantum Communications Research Center",
+          "url": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "high",
-      "latest_seen": "2026-08-03",
-      "momentum": "stable",
+      "latest_seen": "2026-08-04",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
-        "QuantumNews.ai",
         "The Quantum Insider",
+        "QuantumNews.ai",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 8,
-      "recent_count": 11,
-      "status": "watching"
+      "prior_count": 7,
+      "recent_count": 14,
+      "status": "actionable"
     },
     "Quantum Sensing": {
       "confidence": "high",
@@ -3618,21 +3717,30 @@
           "source": "Quantum Zeitgeist",
           "title": "How NRL Develops Navy Quantum Computing with Strategic Partnerships",
           "url": "https://quantumzeitgeist.com/quantum-science-nrl-partnership-navy-computing"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://quantumzeitgeist.com/quantum-sensing-hub-atomionics-asias",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 27,
+          "source": "Quantum Zeitgeist",
+          "title": "Atomionics Opens Asia\u2019s First Quantum Sensing Hub for Ocean Mapping",
+          "url": "https://quantumzeitgeist.com/quantum-sensing-hub-atomionics-asias"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.",
       "importance": "high",
-      "latest_seen": "2026-07-31",
-      "momentum": "rising",
+      "latest_seen": "2026-08-04",
+      "momentum": "declining",
       "organizations": [
         "QuantumNews.ai",
         "Quantum Zeitgeist",
         "The Quantum Insider"
       ],
-      "prior_count": 3,
-      "recent_count": 6,
-      "status": "actionable"
+      "prior_count": 6,
+      "recent_count": 3,
+      "status": "watching"
     },
     "Quantum Software / Tooling": {
       "confidence": "high",
@@ -4113,22 +4221,40 @@
           "source": "QuantumNews.ai",
           "title": "UC Berkeley and QuantrolOx Sign Five-Year Partnership to Industrialize Quantum Processing",
           "url": "https://quantumcomputingreport.com/uc-berkeley-and-quantrolox-sign-five-year-partnership-to-industrialize-quantum-processing"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://quantumzeitgeist.com/luxembourg-quantum-system-simulation-negative-dissipation",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 61,
+          "source": "QuantumNews.ai",
+          "title": "Negative Dissipation Rates Enabled in Quantum System Simulation",
+          "url": "https://quantumzeitgeist.com/luxembourg-quantum-system-simulation-negative-dissipation"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://quantumcomputingreport.com/optqc-and-ntt-sign-capital-alliance-to-build-1-million-qubit-optical-quantum-computer",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 68,
+          "source": "QuantumNews.ai",
+          "title": "OptQC and NTT Sign Capital Alliance to Build 1-Million-Qubit Optical Quantum Computer",
+          "url": "https://quantumcomputingreport.com/optqc-and-ntt-sign-capital-alliance-to-build-1-million-qubit-optical-quantum-computer"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "high",
-      "latest_seen": "2026-08-03",
-      "momentum": "declining",
+      "latest_seen": "2026-08-04",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
-        "The Quantum Insider",
         "QuantumNews.ai",
+        "The Quantum Insider",
         "AWS Quantum Technologies Blog",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 9,
-      "recent_count": 6,
+      "prior_count": 8,
+      "recent_count": 8,
       "status": "watching"
     },
     "Standards / Government": {
@@ -4222,6 +4348,6 @@
       "status": "actionable"
     }
   },
-  "updated_at": "2026-08-04T02:00:16.296088+00:00",
+  "updated_at": "2026-08-04T21:40:10.509990+00:00",
   "version": 1
 }

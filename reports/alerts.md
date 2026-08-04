@@ -4,11 +4,18 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-04 02:00 UTC_
+_Updated 2026-08-04 21:40 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 32 | 6 | 22 | 22 |
+| 50 | 12 | 6 | 15 | 29 |
+
+## 🔴 Critical theme: AI Security 🆕
+
+- Severity: **critical**
+- Status: **critical**
+- 🔴 AI Security has critical strategic importance and declining momentum.
+- [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
@@ -38,25 +45,18 @@ _Updated 2026-08-04 02:00 UTC_
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Source failing: ETSI Quantum Standards News 🆕
+## 🔴 Source failing: SAM.gov Opportunities
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 94.1% reliability with 1 warning day(s).
+- 🔴 0.0% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: SAM.gov Opportunities 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 0.0% reliability with 1 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Actionable signal: Quantum Sensing
+## 🟠 Actionable signal: Quantum Networking 🆕
 
 - Severity: **high**
 - Status: **actionable**
-- 🎯 Quantum Sensing is actionable with high confidence.
+- 🎯 Quantum Networking is actionable with high confidence.
 - [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: Standards / Government
@@ -66,79 +66,7 @@ _Updated 2026-08-04 02:00 UTC_
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: Advancing Investigative Journalism in Ukraine through U.S. AI Innovation 🆕
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363440)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: Correctness for Scientific Computing Systems
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/354144)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: Creative Industries Film Lab and Residency - American Film Showcase 2026
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/362939)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: Escape The Hack: Countering Cyber Scams with an Immersive Experience for Everyday Indonesians
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/362863)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: Fiscal Year 2026 Next Generation Warning System Grant Program
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363192)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: Notice of Funding Opportunity 2026 – Lebanon
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363090)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: Research Training Groups in the Mathematical Sciences
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/353962)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/362711)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: Voices for the Future
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363043)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Federal opportunity closing soon: Creative Industries Film Lab and Residency - American Film Showcase 2026 🆕
+## 🟠 Federal opportunity closing soon: Creative Industries Film Lab and Residency - American Film Showcase 2026
 
 - Severity: **high**
 - Status: **closing-soon**
@@ -146,7 +74,7 @@ _Updated 2026-08-04 02:00 UTC_
 - [Open direct evidence](https://www.grants.gov/search-results-detail/362939)
 - [Open supporting view](federal-funding.md)
 
-## 🟠 Federal opportunity closing soon: Escape The Hack: Countering Cyber Scams with an Immersive Experience for Everyday Indonesians 🆕
+## 🟠 Federal opportunity closing soon: Escape The Hack: Countering Cyber Scams with an Immersive Experience for Everyday Indonesians
 
 - Severity: **high**
 - Status: **closing-soon**
@@ -154,7 +82,7 @@ _Updated 2026-08-04 02:00 UTC_
 - [Open direct evidence](https://www.grants.gov/search-results-detail/362863)
 - [Open supporting view](federal-funding.md)
 
-## 🟠 Federal opportunity closing soon: Fiscal Year 2026 Next Generation Warning System Grant Program 🆕
+## 🟠 Federal opportunity closing soon: Fiscal Year 2026 Next Generation Warning System Grant Program
 
 - Severity: **high**
 - Status: **closing-soon**
@@ -162,7 +90,7 @@ _Updated 2026-08-04 02:00 UTC_
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363192)
 - [Open supporting view](federal-funding.md)
 
-## 🟠 Federal opportunity closing soon: Notice of Funding Opportunity 2026 – Lebanon 🆕
+## 🟠 Federal opportunity closing soon: Notice of Funding Opportunity 2026 – Lebanon
 
 - Severity: **high**
 - Status: **closing-soon**
@@ -170,7 +98,7 @@ _Updated 2026-08-04 02:00 UTC_
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363090)
 - [Open supporting view](federal-funding.md)
 
-## 🟠 Federal opportunity closing soon: Voices for the Future 🆕
+## 🟠 Federal opportunity closing soon: Voices for the Future
 
 - Severity: **high**
 - Status: **closing-soon**
@@ -194,12 +122,27 @@ _Updated 2026-08-04 02:00 UTC_
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363267)
 - [Open supporting view](federal-funding.md)
 
+## 🟠 Product Launch: Thales 🆕
+
+- Severity: **high**
+- Status: **product-launch**
+- Thales matched a product launch event: Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness
+- [Open direct evidence](https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing)
+- [Open supporting view](entity-watch.md)
+
 ## 🟠 Rising momentum: Standards / Government
 
 - Severity: **high**
 - Status: **rising**
 - ↗️ Recent evidence is 6 versus 2 in the prior period.
 - [Open supporting view](signals.md)
+
+## 🟠 Source degraded: ETSI Quantum Standards News 🆕
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 94.4% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: PQCA Readiness Tracking
 
@@ -208,21 +151,21 @@ _Updated 2026-08-04 02:00 UTC_
 - 🟠 100.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: arXiv RSS cs.CR 🆕
+## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 86.7% reliability with 1 warning day(s).
+- 🟠 87.5% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: arXiv RSS quant-ph 🆕
+## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 86.7% reliability with 1 warning day(s).
+- 🟠 87.5% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟡 Federal opportunity closing soon: AI Pathways To The Future 🆕
+## 🟡 Federal opportunity closing soon: AI Pathways To The Future
 
 - Severity: **medium**
 - Status: **closing-soon**
@@ -230,7 +173,7 @@ _Updated 2026-08-04 02:00 UTC_
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363061)
 - [Open supporting view](federal-funding.md)
 
-## 🟡 Federal opportunity closing soon: Correctness for Scientific Computing Systems 🆕
+## 🟡 Federal opportunity closing soon: Correctness for Scientific Computing Systems
 
 - Severity: **medium**
 - Status: **closing-soon**
@@ -238,7 +181,7 @@ _Updated 2026-08-04 02:00 UTC_
 - [Open direct evidence](https://www.grants.gov/search-results-detail/354144)
 - [Open supporting view](federal-funding.md)
 
-## 🟡 Federal opportunity closing soon: Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria 🆕
+## 🟡 Federal opportunity closing soon: Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria
 
 - Severity: **medium**
 - Status: **closing-soon**
@@ -246,7 +189,7 @@ _Updated 2026-08-04 02:00 UTC_
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363121)
 - [Open supporting view](federal-funding.md)
 
-## 🟡 Federal opportunity closing soon: Muscat - Annual Program Statement (APS)- PD Small Grants Program 🆕
+## 🟡 Federal opportunity closing soon: Muscat - Annual Program Statement (APS)- PD Small Grants Program
 
 - Severity: **medium**
 - Status: **closing-soon**
@@ -254,7 +197,7 @@ _Updated 2026-08-04 02:00 UTC_
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363078)
 - [Open supporting view](federal-funding.md)
 
-## 🟡 Federal opportunity closing soon: Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language 🆕
+## 🟡 Federal opportunity closing soon: Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language
 
 - Severity: **medium**
 - Status: **closing-soon**
@@ -262,7 +205,7 @@ _Updated 2026-08-04 02:00 UTC_
 - [Open direct evidence](https://www.grants.gov/search-results-detail/362903)
 - [Open supporting view](federal-funding.md)
 
-## 🟡 Federal opportunity closing soon: Research Training Groups in the Mathematical Sciences 🆕
+## 🟡 Federal opportunity closing soon: Research Training Groups in the Mathematical Sciences
 
 - Severity: **medium**
 - Status: **closing-soon**
@@ -270,7 +213,7 @@ _Updated 2026-08-04 02:00 UTC_
 - [Open direct evidence](https://www.grants.gov/search-results-detail/353962)
 - [Open supporting view](federal-funding.md)
 
-## 🟡 Federal opportunity closing soon: Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU) 🆕
+## 🟡 Federal opportunity closing soon: Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)
 
 - Severity: **medium**
 - Status: **closing-soon**
@@ -278,107 +221,156 @@ _Updated 2026-08-04 02:00 UTC_
 - [Open direct evidence](https://www.grants.gov/search-results-detail/362711)
 - [Open supporting view](federal-funding.md)
 
-## 🟡 Rising momentum: Quantum Sensing 🆕
+## 🟡 Rising momentum: Quantum Networking 🆕
 
 - Severity: **medium**
 - Status: **rising**
-- ↗️ Recent evidence is 6 versus 3 in the prior period.
+- ↗️ Recent evidence is 14 versus 7 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟡 Source stale: Accenture Federal Services Quantum Readiness 🆕
+## 🟡 Source stale: Accenture Federal Services Quantum Readiness
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-01-02; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Accenture Quantum and PQC News 🆕
+## 🟡 Source stale: Accenture Quantum and PQC News
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2025-10-20; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Atom Computing News and Research 🆕
+## 🟡 Source stale: Atom Computing News and Research
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-17; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: BSI Germany Quantum-Safe Guidance 🆕
+## 🟡 Source stale: BSI Germany Quantum-Safe Guidance
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2024-03-12; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Booz Allen Quantum and PQC 🆕
+## 🟡 Source stale: Booz Allen Quantum and PQC
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2025-09-11; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Distributed Sensing and Smart Dust Patents 🆕
+## 🟡 Source stale: DARPA Strategic Technology Missions 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-07-20; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Distributed Sensing and Smart Dust Patents
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-04; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: ENISA Cryptography and PQC 🆕
+## 🟡 Source stale: ENISA Cryptography and PQC
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2024-03-12; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: ETSI Quantum Standards News 🆕
+## 🟡 Source stale: ETSI Quantum Standards News
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Google Security Blog 🆕
+## 🟡 Source stale: Google Security Blog
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-04-23; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · AI Forge 🆕
+## 🟡 Source stale: Grants.gov · AI Forge
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-08; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Advanced Computing 🆕
+## 🟡 Source stale: Grants.gov · Advanced Computing
 
 - Severity: **medium**
 - Status: **stale**
-- The latest dated item is from 2026-07-02; collection may be healthy but the content stream is stale.
+- The latest dated item is from 2026-07-20; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Post-Quantum Cybersecurity 🆕
+## 🟡 Source stale: Grants.gov · Post-Quantum Cybersecurity
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2021-07-19; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Quantum Benchmarking Initiative 🆕
+## 🟡 Source stale: Grants.gov · Quantum Benchmarking Initiative
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-18; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: InfoQ Quantum Computing 🆕
+## 🟡 Source stale: InfoQ Quantum Computing
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-08; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Intel Quantum Research News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2023-06-15; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Lockheed Martin Quantum Technology 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-07-14; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: NCSC UK Guidance 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-03-19; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: NCSC UK Reports 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2025-05-07; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: NIST Post-Quantum Cryptography Project 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2025-03-07; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: QuSecure Press Releases 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2025-07-19; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

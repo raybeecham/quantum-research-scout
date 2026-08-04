@@ -1,6 +1,34 @@
 {
   "families": [
     {
+      "application_count": 1,
+      "assignee": "Circle Internet Group, Inc.",
+      "citation_count": 0,
+      "family_basis": "continuation parent application",
+      "family_key": "application:19360921",
+      "grant_count": 1,
+      "member_count": 2,
+      "members": [
+        {
+          "application_number": "19388135",
+          "document_type": "grant",
+          "publication_number": "12700998",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+        },
+        {
+          "application_number": "19360921",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
+        }
+      ],
+      "primary_publication_number": "12700998",
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data",
+      "significance_label": "critical",
+      "strategic_significance_score": 81,
+      "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS"
+    },
+    {
       "application_count": 0,
       "assignee": "University of Central Florida Research Foundation, Inc.",
       "citation_count": 0,
@@ -545,6 +573,28 @@
       "significance_label": "high",
       "strategic_significance_score": 68,
       "title": "Smart dust usage"
+    },
+    {
+      "application_count": 0,
+      "assignee": "QpiAI India Private Limited",
+      "citation_count": 0,
+      "family_basis": "priority application",
+      "family_key": "priority:202541125818",
+      "grant_count": 1,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "19464062",
+          "document_type": "grant",
+          "publication_number": "12699915",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19464062/application-data"
+        }
+      ],
+      "primary_publication_number": "12699915",
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19464062/application-data",
+      "significance_label": "high",
+      "strategic_significance_score": 67,
+      "title": "SCALABLE QUANTUM ERROR CORRECTION ARCHITECTURE USING DUAL-FUNCTION TRANSMON COUPLERS IN A FLUXONIUM QUBIT ARRAY"
     },
     {
       "application_count": 1,
@@ -1896,6 +1946,28 @@
     },
     {
       "application_count": 1,
+      "assignee": "NEW YORK UNIVERSITY",
+      "citation_count": 0,
+      "family_basis": "continuation parent application",
+      "family_key": "application:PCTUS2024029710",
+      "grant_count": 0,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "19485192",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
+        }
+      ],
+      "primary_publication_number": null,
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data",
+      "significance_label": "high",
+      "strategic_significance_score": 60,
+      "title": "SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING"
+    },
+    {
+      "application_count": 1,
       "assignee": null,
       "citation_count": 0,
       "family_basis": "application number",
@@ -2930,28 +3002,6 @@
     },
     {
       "application_count": 1,
-      "assignee": "NEW YORK UNIVERSITY",
-      "citation_count": 0,
-      "family_basis": "continuation parent application",
-      "family_key": "application:PCTUS2024029710",
-      "grant_count": 0,
-      "member_count": 1,
-      "members": [
-        {
-          "application_number": "19485192",
-          "document_type": "application",
-          "publication_number": null,
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
-        }
-      ],
-      "primary_publication_number": null,
-      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data",
-      "significance_label": "notable",
-      "strategic_significance_score": 52,
-      "title": "SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING"
-    },
-    {
-      "application_count": 1,
       "assignee": "ATOM COMPUTING INC.",
       "citation_count": 0,
       "family_basis": "application number",
@@ -3950,6 +4000,28 @@
     },
     {
       "application_count": 1,
+      "assignee": "Dell Products L.P.",
+      "citation_count": 0,
+      "family_basis": "application number",
+      "family_key": "application:18808987",
+      "grant_count": 0,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "18808987",
+          "document_type": "application",
+          "publication_number": "US20260051872A1",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18808987/application-data"
+        }
+      ],
+      "primary_publication_number": "US20260051872A1",
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/18808987/application-data",
+      "significance_label": "monitor",
+      "strategic_significance_score": 33,
+      "title": "DUAL RING MICROELECTROMECHANICAL SYSTEMS INTEGRATION FOR ANALOG TUNABILITY IN RECONFIGURABLE INTELLIGENT SURFACES"
+    },
+    {
+      "application_count": 1,
       "assignee": "Texas Instruments Incorporated",
       "citation_count": 0,
       "family_basis": "continuation parent application",
@@ -3994,6 +4066,82 @@
     }
   ],
   "patents": [
+    {
+      "application_number": "19388135",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "Circle Internet Group, Inc.",
+      "backward_citation_count": 0,
+      "child_applications": [
+        "19388135"
+      ],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "grant",
+      "family_basis": "continuation parent application",
+      "family_id": "",
+      "family_key": "application:19360921",
+      "family_members": [
+        {
+          "application_number": "19388135",
+          "document_type": "grant",
+          "publication_number": "12700998",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+        },
+        {
+          "application_number": "19360921",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
+        }
+      ],
+      "family_size": 2,
+      "filing_date": "2025-11-13",
+      "forward_citation_count": 0,
+      "grant_date": "2026-08-04",
+      "inventors": "Vipin Singh Sehrawat",
+      "is_continuation": true,
+      "key": "12700998",
+      "kind_code": null,
+      "legal_status": "Patented Case",
+      "legal_status_normalized": "granted",
+      "matched_keywords": [
+        "post quantum",
+        "post-quantum"
+      ],
+      "parent_applications": [
+        "19360921"
+      ],
+      "patent_number": "12700998",
+      "priority": "critical",
+      "priority_date": "",
+      "priority_numbers": [],
+      "publication_date": null,
+      "publication_number": "12700998",
+      "query": "Post-Quantum Cryptography Patents",
+      "score": 100,
+      "significance_factors": [
+        "strategic domain relevance +55",
+        "grant stage +12",
+        "granted legal status +8",
+        "2-member family +3",
+        "named assignee +3"
+      ],
+      "significance_label": "critical",
+      "source": "Post-Quantum Cryptography Patents",
+      "strategic_domains": [
+        "Post-quantum cryptography",
+        "Cybersecurity and cryptography",
+        "Artificial intelligence"
+      ],
+      "strategic_relevance_score": 140,
+      "strategic_significance_score": 81,
+      "summary": "Applicant: Circle Internet Group, Inc. \u00b7 USPTO publication 12700998",
+      "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+    },
     {
       "application_number": "19366133",
       "application_type": "Utility",
@@ -4277,6 +4425,78 @@
       "title": "METHOD AND SYSTEM FOR SECURING POST-QUANTUM BLOCKCHAINS",
       "tracking_type": "automated",
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19404287/application-data"
+    },
+    {
+      "application_number": "19360921",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "Circle Internet Group, Inc.",
+      "backward_citation_count": 0,
+      "child_applications": [],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "application",
+      "family_basis": "application number",
+      "family_id": "",
+      "family_key": "application:19360921",
+      "family_members": [
+        {
+          "application_number": "19388135",
+          "document_type": "grant",
+          "publication_number": "12700998",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+        },
+        {
+          "application_number": "19360921",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
+        }
+      ],
+      "family_size": 2,
+      "filing_date": "2025-10-16",
+      "forward_citation_count": 0,
+      "grant_date": "",
+      "inventors": "Vipin Singh Sehrawat",
+      "is_continuation": false,
+      "key": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data",
+      "kind_code": null,
+      "legal_status": "Docketed New Case - Ready for Examination",
+      "legal_status_normalized": "pending",
+      "matched_keywords": [
+        "post quantum",
+        "post-quantum"
+      ],
+      "parent_applications": [],
+      "patent_number": null,
+      "priority": "critical",
+      "priority_date": "",
+      "priority_numbers": [],
+      "publication_date": null,
+      "publication_number": null,
+      "query": "Post-Quantum Cryptography Patents",
+      "score": 100,
+      "significance_factors": [
+        "strategic domain relevance +55",
+        "application stage +5",
+        "pending legal status +8",
+        "2-member family +3",
+        "named assignee +3"
+      ],
+      "significance_label": "high",
+      "source": "Post-Quantum Cryptography Patents",
+      "strategic_domains": [
+        "Post-quantum cryptography",
+        "Cybersecurity and cryptography",
+        "Artificial intelligence"
+      ],
+      "strategic_relevance_score": 140,
+      "strategic_significance_score": 74,
+      "summary": "Applicant: Circle Internet Group, Inc.",
+      "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
     },
     {
       "application_number": "19157393",
@@ -5730,6 +5950,71 @@
       "title": "Smart dust usage",
       "tracking_type": "curated",
       "url": "https://patents.google.com/patent/US11354666B1/en"
+    },
+    {
+      "application_number": "19464062",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "QpiAI India Private Limited",
+      "backward_citation_count": 0,
+      "child_applications": [],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "grant",
+      "family_basis": "priority application",
+      "family_id": "",
+      "family_key": "priority:202541125818",
+      "family_members": [
+        {
+          "application_number": "19464062",
+          "document_type": "grant",
+          "publication_number": "12699915",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19464062/application-data"
+        }
+      ],
+      "family_size": 1,
+      "filing_date": "2026-01-29",
+      "forward_citation_count": 0,
+      "grant_date": "2026-08-04",
+      "inventors": "Amlan Mukherjee, Manjunath Ramachandrappa Venkatesh, Nagendra Nagaraja",
+      "is_continuation": false,
+      "key": "12699915",
+      "kind_code": null,
+      "legal_status": "Patented Case",
+      "legal_status_normalized": "granted",
+      "matched_keywords": [
+        "quantum error correction",
+        "qubit"
+      ],
+      "parent_applications": [],
+      "patent_number": "12699915",
+      "priority": "critical",
+      "priority_date": "",
+      "priority_numbers": [
+        "202541125818"
+      ],
+      "publication_date": null,
+      "publication_number": "12699915",
+      "query": "Quantum Computing Patents",
+      "score": 100,
+      "significance_factors": [
+        "strategic domain relevance +44",
+        "grant stage +12",
+        "granted legal status +8",
+        "named assignee +3"
+      ],
+      "significance_label": "high",
+      "source": "Quantum Computing Patents",
+      "strategic_domains": [
+        "Quantum technology"
+      ],
+      "strategic_relevance_score": 110,
+      "strategic_significance_score": 67,
+      "summary": "Applicant: QpiAI India Private Limited \u00b7 USPTO publication 12699915",
+      "title": "SCALABLE QUANTUM ERROR CORRECTION ARCHITECTURE USING DUAL-FUNCTION TRANSMON COUPLERS IN A FLUXONIUM QUBIT ARRAY",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19464062/application-data"
     },
     {
       "application_number": "19343419",
@@ -9708,6 +9993,74 @@
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025043982/application-data"
     },
     {
+      "application_number": "19485192",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "NEW YORK UNIVERSITY",
+      "backward_citation_count": 0,
+      "child_applications": [
+        "19485192",
+        "PCTUS2024029710"
+      ],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "application",
+      "family_basis": "continuation parent application",
+      "family_id": "",
+      "family_key": "application:PCTUS2024029710",
+      "family_members": [
+        {
+          "application_number": "19485192",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
+        }
+      ],
+      "family_size": 1,
+      "filing_date": "2025-11-17",
+      "forward_citation_count": 0,
+      "grant_date": null,
+      "inventors": "Yongxian QIAN, Liz AGUILERA, Xingye CHEN, Ying-Chia LIN, Karthik LAKSHMANAN, Anli LIU, Yvonne W. LUI, Fernando E. BOADA",
+      "is_continuation": true,
+      "key": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data",
+      "kind_code": null,
+      "legal_status": "Docketed New Case - Ready for Examination",
+      "legal_status_normalized": "pending",
+      "matched_keywords": [
+        "quantum sensing"
+      ],
+      "parent_applications": [
+        "PCTUS2024029710",
+        "63467482"
+      ],
+      "patent_number": null,
+      "priority": "critical",
+      "priority_date": null,
+      "priority_numbers": [],
+      "publication_date": null,
+      "publication_number": null,
+      "query": "Quantum Networking and Sensing Patents",
+      "score": 100,
+      "significance_factors": [
+        "strategic domain relevance +44",
+        "application stage +5",
+        "pending legal status +8",
+        "named assignee +3"
+      ],
+      "significance_label": "high",
+      "source": "Quantum Networking and Sensing Patents",
+      "strategic_domains": [
+        "Quantum technology"
+      ],
+      "strategic_relevance_score": 110,
+      "strategic_significance_score": 60,
+      "summary": "Applicant: NEW YORK UNIVERSITY",
+      "title": "SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
+    },
+    {
       "application_number": "19489905",
       "application_type": "Utility",
       "assessment": null,
@@ -13108,73 +13461,6 @@
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19488920/application-data"
     },
     {
-      "application_number": "19485192",
-      "application_type": "Utility",
-      "assessment": null,
-      "assignee": "NEW YORK UNIVERSITY",
-      "backward_citation_count": 0,
-      "child_applications": [
-        "19485192",
-        "PCTUS2024029710"
-      ],
-      "citation_count": 0,
-      "cited_patents": [],
-      "continuation_type": null,
-      "document_type": "application",
-      "family_basis": "continuation parent application",
-      "family_id": "",
-      "family_key": "application:PCTUS2024029710",
-      "family_members": [
-        {
-          "application_number": "19485192",
-          "document_type": "application",
-          "publication_number": null,
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
-        }
-      ],
-      "family_size": 1,
-      "filing_date": "2025-11-17",
-      "forward_citation_count": 0,
-      "grant_date": null,
-      "inventors": "Yongxian QIAN, Liz AGUILERA, Xingye CHEN, Ying-Chia LIN, Karthik LAKSHMANAN, Anli LIU, Yvonne W. LUI, Fernando E. BOADA",
-      "is_continuation": true,
-      "key": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data",
-      "kind_code": null,
-      "legal_status": "Sent to Classification contractor",
-      "legal_status_normalized": "unknown",
-      "matched_keywords": [
-        "quantum sensing"
-      ],
-      "parent_applications": [
-        "PCTUS2024029710",
-        "63467482"
-      ],
-      "patent_number": null,
-      "priority": "critical",
-      "priority_date": null,
-      "priority_numbers": [],
-      "publication_date": null,
-      "publication_number": null,
-      "query": "Quantum Networking and Sensing Patents",
-      "score": 100,
-      "significance_factors": [
-        "strategic domain relevance +44",
-        "application stage +5",
-        "named assignee +3"
-      ],
-      "significance_label": "notable",
-      "source": "Quantum Networking and Sensing Patents",
-      "strategic_domains": [
-        "Quantum technology"
-      ],
-      "strategic_relevance_score": 110,
-      "strategic_significance_score": 52,
-      "summary": "Applicant: NEW YORK UNIVERSITY",
-      "title": "SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING",
-      "tracking_type": "automated",
-      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
-    },
-    {
       "application_number": "PCTUS2025055803",
       "assessment": null,
       "assignee": "ATOM COMPUTING INC.",
@@ -16244,6 +16530,66 @@
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18809012/application-data"
     },
     {
+      "application_number": "18808987",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "Dell Products L.P.",
+      "backward_citation_count": 0,
+      "child_applications": [],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "application",
+      "family_basis": "application number",
+      "family_id": "",
+      "family_key": "application:18808987",
+      "family_members": [
+        {
+          "application_number": "18808987",
+          "document_type": "application",
+          "publication_number": "US20260051872A1",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18808987/application-data"
+        }
+      ],
+      "family_size": 1,
+      "filing_date": "2024-08-19",
+      "forward_citation_count": 0,
+      "grant_date": "",
+      "inventors": "Tejinder Singh, Navjot Kaur Khaira",
+      "is_continuation": false,
+      "key": "US20260051872A1",
+      "kind_code": "A1",
+      "legal_status": "Non Final Action Mailed",
+      "legal_status_normalized": "unknown",
+      "matched_keywords": [],
+      "parent_applications": [],
+      "patent_number": null,
+      "priority": "monitor",
+      "priority_date": "",
+      "priority_numbers": [],
+      "publication_date": "2026-02-19",
+      "publication_number": "US20260051872A1",
+      "query": "Distributed Sensing and Smart Dust Patents",
+      "score": 0,
+      "significance_factors": [
+        "strategic domain relevance +20",
+        "application stage +5",
+        "recent publication +5",
+        "named assignee +3"
+      ],
+      "significance_label": "monitor",
+      "source": "Distributed Sensing and Smart Dust Patents",
+      "strategic_domains": [
+        "Distributed sensing and autonomous systems"
+      ],
+      "strategic_relevance_score": 50,
+      "strategic_significance_score": 33,
+      "summary": "Applicant: Dell Products L.P. \u00b7 USPTO publication US20260051872A1",
+      "title": "DUAL RING MICROELECTROMECHANICAL SYSTEMS INTEGRATION FOR ANALOG TUNABILITY IN RECONFIGURABLE INTELLIGENT SURFACES",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18808987/application-data"
+    },
+    {
       "application_number": "19063566",
       "application_type": "Utility",
       "assessment": null,
@@ -16573,19 +16919,19 @@
   "source": "Curated patent portfolio and USPTO Open Data Portal Patent File Wrapper metadata",
   "source_note": "Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.",
   "summary": {
-    "active_or_pending": 141,
-    "applications": 182,
-    "automated_total": 186,
+    "active_or_pending": 145,
+    "applications": 184,
+    "automated_total": 190,
     "curated_total": 2,
-    "families": 179,
-    "grants": 6,
+    "families": 182,
+    "grants": 8,
     "last_30_days": 42,
     "latest_publication_date": "2026-07-30",
-    "status_known": 144,
-    "total": 188,
-    "unique_assignees": 125,
+    "status_known": 148,
+    "total": 192,
+    "unique_assignees": 126,
     "with_citations": 0
   },
-  "updated_at": "2026-08-04T01:52:55.367102+00:00",
+  "updated_at": "2026-08-04T21:31:34.443424+00:00",
   "version": 4
 }

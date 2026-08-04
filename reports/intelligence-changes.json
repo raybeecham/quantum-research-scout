@@ -1,300 +1,1172 @@
 {
   "active_conflicts": [],
-  "added": [],
-  "baseline_initialized": false,
-  "changed": [
+  "added": [
     {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-5a0b3e4bdf4ab948",
-      "confidence": "medium",
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-16a964d04b939e9e",
+      "confidence": "high",
       "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-02T02:05:25.412721+00:00",
-      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
       "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
+      "predicate": "opportunity_status",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0859d00a4811b833",
-          "locator": "qualification_gate",
-          "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
-          "url": "https://www.grants.gov/search-results-detail/363440",
+          "evidence_id": "evidence-ced29cff2ce52173",
+          "locator": "opportunity_status:awarded",
+          "title": "52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)",
+          "url": "https://sam.gov/workspace/contract/opp/8523d97d7270414ca555500dd2c209a5/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:PDS-UKRAINE-FY26-04",
-        "label": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
-        "node_id": "opportunity:grants_gov:PDS-UKRAINE-FY26-04",
+        "identifier": "sam_gov:52000SP260026939",
+        "label": "52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)",
+        "node_id": "award_notice:sam_gov:52000SP260026939",
+        "node_type": "award_notice"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1bc35b91797daef3",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-37f00529058148b8",
+          "locator": "deadline:2026-08-06t10:00:00-04:00",
+          "title": "52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)",
+          "url": "https://sam.gov/workspace/contract/opp/8523d97d7270414ca555500dd2c209a5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:52000SP260026939",
+        "label": "52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)",
+        "node_id": "award_notice:sam_gov:52000SP260026939",
+        "node_type": "award_notice"
+      },
+      "value": "2026-08-06T10:00:00-04:00"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-b0988b15d7760c18",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "set_aside",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-274b687bcaecdebd",
+          "locator": "set_aside:no set aside used",
+          "title": "52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)",
+          "url": "https://sam.gov/workspace/contract/opp/8523d97d7270414ca555500dd2c209a5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:52000SP260026939",
+        "label": "52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)",
+        "node_id": "award_notice:sam_gov:52000SP260026939",
+        "node_type": "award_notice"
+      },
+      "value": "No Set aside used"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-16f13e23fc76a505",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-db63c99c7505ea3e",
+          "locator": "awarding_agency:homeland security, department of.us coast guard.sflc procurement branch 1(00080)",
+          "title": "52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)",
+          "url": "https://sam.gov/workspace/contract/opp/8523d97d7270414ca555500dd2c209a5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:52000SP260026939",
+        "label": "52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)",
+        "node_id": "award_notice:sam_gov:52000SP260026939",
+        "node_type": "award_notice"
+      },
+      "value": "HOMELAND SECURITY, DEPARTMENT OF.US COAST GUARD.SFLC PROCUREMENT BRANCH 1(00080)"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-d6138f311ec052e4",
+      "confidence": "high",
+      "effective_date": "2026-07-20",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9674bddc6d33cd76",
+          "locator": "opportunity_status:open",
+          "title": "ROSES25: A.14 Atmosphere",
+          "url": "https://www.grants.gov/search-results-detail/363240",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:NNH25ZDA001N-ATMOS",
+        "label": "ROSES25: A.14 Atmosphere",
+        "node_id": "opportunity:grants_gov:NNH25ZDA001N-ATMOS",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-49c9557ba8c6fd32",
+      "confidence": "high",
+      "effective_date": "2026-07-20",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0918398ee7c38534",
+          "locator": "deadline:10/20/2026",
+          "title": "ROSES25: A.14 Atmosphere",
+          "url": "https://www.grants.gov/search-results-detail/363240",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:NNH25ZDA001N-ATMOS",
+        "label": "ROSES25: A.14 Atmosphere",
+        "node_id": "opportunity:grants_gov:NNH25ZDA001N-ATMOS",
+        "node_type": "opportunity"
+      },
+      "value": "10/20/2026"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3c6146c5c954e05e",
+      "confidence": "high",
+      "effective_date": "2026-07-20",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2b7095ebbd904753",
+          "locator": "awarding_agency:nasa-hq",
+          "title": "ROSES25: A.14 Atmosphere",
+          "url": "https://www.grants.gov/search-results-detail/363240",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:NNH25ZDA001N-ATMOS",
+        "label": "ROSES25: A.14 Atmosphere",
+        "node_id": "opportunity:grants_gov:NNH25ZDA001N-ATMOS",
+        "node_type": "opportunity"
+      },
+      "value": "NASA-HQ"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6dacb399242fe0ba",
+      "confidence": "high",
+      "effective_date": "2026-07-20",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-73ee0872bafe7c20",
+          "locator": "opportunity_status:open",
+          "title": "ROSES25: A.15 Biosphere",
+          "url": "https://www.grants.gov/search-results-detail/363241",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:NNH25ZDA001N-BIOS",
+        "label": "ROSES25: A.15 Biosphere",
+        "node_id": "opportunity:grants_gov:NNH25ZDA001N-BIOS",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ea08905cb75fba6c",
+      "confidence": "high",
+      "effective_date": "2026-07-20",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-af2138db1d5aab80",
+          "locator": "deadline:11/06/2026",
+          "title": "ROSES25: A.15 Biosphere",
+          "url": "https://www.grants.gov/search-results-detail/363241",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:NNH25ZDA001N-BIOS",
+        "label": "ROSES25: A.15 Biosphere",
+        "node_id": "opportunity:grants_gov:NNH25ZDA001N-BIOS",
+        "node_type": "opportunity"
+      },
+      "value": "11/06/2026"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-7cc1c0699601a548",
+      "confidence": "high",
+      "effective_date": "2026-07-20",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4c1f11b7191e5712",
+          "locator": "awarding_agency:nasa-hq",
+          "title": "ROSES25: A.15 Biosphere",
+          "url": "https://www.grants.gov/search-results-detail/363241",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:NNH25ZDA001N-BIOS",
+        "label": "ROSES25: A.15 Biosphere",
+        "node_id": "opportunity:grants_gov:NNH25ZDA001N-BIOS",
+        "node_type": "opportunity"
+      },
+      "value": "NASA-HQ"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-d57e99e1f1572761",
+      "confidence": "high",
+      "effective_date": "2026-07-17",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-91332014fc37081b",
+          "locator": "opportunity_status:open",
+          "title": "ROSES25: A.13 Accelerating Earth Solutions",
+          "url": "https://www.grants.gov/search-results-detail/363224",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:NNH25ZDA001N-AES",
+        "label": "ROSES25: A.13 Accelerating Earth Solutions",
+        "node_id": "opportunity:grants_gov:NNH25ZDA001N-AES",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-f7755847905a1e8b",
+      "confidence": "high",
+      "effective_date": "2026-07-17",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-61f6f03bb5af322b",
+          "locator": "deadline:10/15/2026",
+          "title": "ROSES25: A.13 Accelerating Earth Solutions",
+          "url": "https://www.grants.gov/search-results-detail/363224",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:NNH25ZDA001N-AES",
+        "label": "ROSES25: A.13 Accelerating Earth Solutions",
+        "node_id": "opportunity:grants_gov:NNH25ZDA001N-AES",
+        "node_type": "opportunity"
+      },
+      "value": "10/15/2026"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-4692a8cfa135d813",
+      "confidence": "high",
+      "effective_date": "2026-07-17",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d1cbae872ae1d298",
+          "locator": "awarding_agency:nasa-hq",
+          "title": "ROSES25: A.13 Accelerating Earth Solutions",
+          "url": "https://www.grants.gov/search-results-detail/363224",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:NNH25ZDA001N-AES",
+        "label": "ROSES25: A.13 Accelerating Earth Solutions",
+        "node_id": "opportunity:grants_gov:NNH25ZDA001N-AES",
+        "node_type": "opportunity"
+      },
+      "value": "NASA-HQ"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-690796426d07fe3e",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-da8b9106ba9bed70",
+          "locator": "opportunity_status:open",
+          "title": "16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF",
+          "url": "https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:N0038326QNA56",
+        "label": "16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF",
+        "node_id": "opportunity:sam_gov:N0038326QNA56",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8ce5aaa472da46ae",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e7005332a20bbf7b",
+          "locator": "deadline:2026-09-18t00:00:00-04:00",
+          "title": "16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF",
+          "url": "https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:N0038326QNA56",
+        "label": "16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF",
+        "node_id": "opportunity:sam_gov:N0038326QNA56",
+        "node_type": "opportunity"
+      },
+      "value": "2026-09-18T00:00:00-04:00"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c1748c58cdd6f2e7",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-87bfc960d4a03da7",
+          "locator": "awarding_agency:dept of defense.dept of the navy.navsup.navsup weapon systems support.navsup wss philadelphia.navsup weapon systems support",
+          "title": "16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF",
+          "url": "https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:N0038326QNA56",
+        "label": "16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF",
+        "node_id": "opportunity:sam_gov:N0038326QNA56",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-36e27116d367f017",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d731aea27a7e2da9",
+          "locator": "opportunity_status:open",
+          "title": "66--SENSOR,OXYGEN",
+          "url": "https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U5043",
+        "label": "66--SENSOR,OXYGEN",
+        "node_id": "opportunity:sam_gov:SPE7M126U5043",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-87e66e664232d0a1",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-27054728743d866b",
+          "locator": "deadline:2026-08-19",
+          "title": "66--SENSOR,OXYGEN",
+          "url": "https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U5043",
+        "label": "66--SENSOR,OXYGEN",
+        "node_id": "opportunity:sam_gov:SPE7M126U5043",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-19"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8e5862dcbf0c77e5",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "set_aside",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ae38d3407f11092e",
+          "locator": "set_aside:small business set aside - total",
+          "title": "66--SENSOR,OXYGEN",
+          "url": "https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U5043",
+        "label": "66--SENSOR,OXYGEN",
+        "node_id": "opportunity:sam_gov:SPE7M126U5043",
+        "node_type": "opportunity"
+      },
+      "value": "Small Business Set Aside - Total"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6a6474d2ed8e5cce",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-30a1e5d384deff56",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla maritime.dla maritime columbus.dla land and maritime",
+          "title": "66--SENSOR,OXYGEN",
+          "url": "https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U5043",
+        "label": "66--SENSOR,OXYGEN",
+        "node_id": "opportunity:sam_gov:SPE7M126U5043",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-37778235775a1bcf",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1ac5b0513e37d4dc",
+          "locator": "opportunity_status:open",
+          "title": "66--SENSOR,NITROGEN",
+          "url": "https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U4930",
+        "label": "66--SENSOR,NITROGEN",
+        "node_id": "opportunity:sam_gov:SPE7M126U4930",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-9adc1354647411ee",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3390aa0583077f29",
+          "locator": "deadline:2026-08-19",
+          "title": "66--SENSOR,NITROGEN",
+          "url": "https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U4930",
+        "label": "66--SENSOR,NITROGEN",
+        "node_id": "opportunity:sam_gov:SPE7M126U4930",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-19"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-07157859fa49fe48",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "set_aside",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e4919cada1635122",
+          "locator": "set_aside:sba certified women-owned small business (wosb) program set-aside (far 19.15)",
+          "title": "66--SENSOR,NITROGEN",
+          "url": "https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U4930",
+        "label": "66--SENSOR,NITROGEN",
+        "node_id": "opportunity:sam_gov:SPE7M126U4930",
+        "node_type": "opportunity"
+      },
+      "value": "SBA Certified Women-Owned Small Business (WOSB) Program Set-Aside (FAR 19.15)"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ec31cbfa60b525f7",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3ee1b48e0d0339be",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla maritime.dla maritime columbus.dla land and maritime",
+          "title": "66--SENSOR,NITROGEN",
+          "url": "https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U4930",
+        "label": "66--SENSOR,NITROGEN",
+        "node_id": "opportunity:sam_gov:SPE7M126U4930",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ea1a669e2abef815",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ec4470d7decabe3b",
+          "locator": "legal_business_name:university of maryland, college park",
+          "title": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+          "url": "https://sam.gov/entity/NPU8ULVAAS23/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:NPU8ULVAAS23",
+        "label": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+        "node_id": "recipient_or_contractor:uei:NPU8ULVAAS23",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "UNIVERSITY OF MARYLAND, COLLEGE PARK"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-d07f8e8ef60903a7",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8891103261b6e772",
+          "locator": "uei:npu8ulvaas23",
+          "title": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+          "url": "https://sam.gov/entity/NPU8ULVAAS23/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:NPU8ULVAAS23",
+        "label": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+        "node_id": "recipient_or_contractor:uei:NPU8ULVAAS23",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "NPU8ULVAAS23"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1a4322f5a0ac51d8",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-066e17106e9df319",
+          "locator": "cage_code:0ub92",
+          "title": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+          "url": "https://sam.gov/entity/NPU8ULVAAS23/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:NPU8ULVAAS23",
+        "label": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+        "node_id": "recipient_or_contractor:uei:NPU8ULVAAS23",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "0UB92"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3c8cecd423839abb",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6b7bc45421e443ee",
+          "locator": "registration_status:active",
+          "title": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+          "url": "https://sam.gov/entity/NPU8ULVAAS23/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:NPU8ULVAAS23",
+        "label": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+        "node_id": "recipient_or_contractor:uei:NPU8ULVAAS23",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-5027ea46d4c5428a",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-dbf14a50174c24cb",
+          "locator": "legal_business_name:inuteq, llc",
+          "title": "InuTeq, LLC",
+          "url": "https://sam.gov/entity/NBEWZB8LQ8Z5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:NBEWZB8LQ8Z5",
+        "label": "INUTEQ, LLC",
+        "node_id": "recipient_or_contractor:uei:NBEWZB8LQ8Z5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "InuTeq, LLC"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3392502c07bc0a7f",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-dca9b6f30348d1b4",
+          "locator": "uei:nbewzb8lq8z5",
+          "title": "InuTeq, LLC",
+          "url": "https://sam.gov/entity/NBEWZB8LQ8Z5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:NBEWZB8LQ8Z5",
+        "label": "INUTEQ, LLC",
+        "node_id": "recipient_or_contractor:uei:NBEWZB8LQ8Z5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "NBEWZB8LQ8Z5"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-eeab5e38bd4fbfd2",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-544c83089c4ddec8",
+          "locator": "cage_code:5ntt4",
+          "title": "InuTeq, LLC",
+          "url": "https://sam.gov/entity/NBEWZB8LQ8Z5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:NBEWZB8LQ8Z5",
+        "label": "INUTEQ, LLC",
+        "node_id": "recipient_or_contractor:uei:NBEWZB8LQ8Z5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "5NTT4"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-46c0f47066f42216",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c426dc805f79e8c6",
+          "locator": "registration_status:active",
+          "title": "InuTeq, LLC",
+          "url": "https://sam.gov/entity/NBEWZB8LQ8Z5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:NBEWZB8LQ8Z5",
+        "label": "INUTEQ, LLC",
+        "node_id": "recipient_or_contractor:uei:NBEWZB8LQ8Z5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ced94dcd75b6d6ba",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-dfefe8af1eedf196",
+          "locator": "legal_business_name:post quantum labs llc",
+          "title": "Post Quantum Labs LLC",
+          "url": "https://sam.gov/entity/H53MXWJZPYU3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:H53MXWJZPYU3",
+        "label": "POST QUANTUM LABS LLC",
+        "node_id": "recipient_or_contractor:uei:H53MXWJZPYU3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Post Quantum Labs LLC"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-661b97cc5bcb2ec6",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3ddf729758862376",
+          "locator": "uei:h53mxwjzpyu3",
+          "title": "Post Quantum Labs LLC",
+          "url": "https://sam.gov/entity/H53MXWJZPYU3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:H53MXWJZPYU3",
+        "label": "POST QUANTUM LABS LLC",
+        "node_id": "recipient_or_contractor:uei:H53MXWJZPYU3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "H53MXWJZPYU3"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1489593e72b0385d",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f1c13e3923c83bd9",
+          "locator": "cage_code:9t5c5",
+          "title": "Post Quantum Labs LLC",
+          "url": "https://sam.gov/entity/H53MXWJZPYU3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:H53MXWJZPYU3",
+        "label": "POST QUANTUM LABS LLC",
+        "node_id": "recipient_or_contractor:uei:H53MXWJZPYU3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "9T5C5"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-80f4df6f8d6ef314",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f1f5a76573952b72",
+          "locator": "registration_status:active",
+          "title": "Post Quantum Labs LLC",
+          "url": "https://sam.gov/entity/H53MXWJZPYU3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:H53MXWJZPYU3",
+        "label": "POST QUANTUM LABS LLC",
+        "node_id": "recipient_or_contractor:uei:H53MXWJZPYU3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-b1ce356c5120be6e",
+      "confidence": "medium",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7e1e9ddbb5a06a59",
+          "locator": "qualification_gate",
+          "title": "66--SENSOR,OXYGEN",
+          "url": "https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "66--SENSOR,OXYGEN",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c5c7dac417be4b1b99d5b0f4aa213664",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U5043",
+        "label": "66--SENSOR,OXYGEN",
+        "node_id": "opportunity:sam_gov:SPE7M126U5043",
         "node_type": "opportunity"
       },
       "value": "hold"
     },
     {
       "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-b496e01a2599190b",
+      "change_type": "added",
+      "claim_id": "claim-7ac6b14752b66657",
       "confidence": "medium",
       "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
+      "first_observed_at": "2026-08-04T21:31:34.443424+00:00",
+      "last_observed_at": "2026-08-04T21:31:34.443424+00:00",
       "object": null,
       "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-682d111dfc5c4688",
+          "evidence_id": "evidence-768948622de23a62",
           "locator": "qualification_gate",
-          "title": "Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)",
-          "url": "https://www.grants.gov/search-results-detail/362711",
+          "title": "66--SENSOR,NITROGEN",
+          "url": "https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view",
           "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:W911NF26S0085",
-        "label": "Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)",
-        "node_id": "opportunity:grants_gov:W911NF26S0085",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-12713fbcc71642df",
-      "confidence": "medium",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
+        },
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f63607e92a33934f",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
           "locator": "qualification_gate",
-          "title": "Correctness for Scientific Computing Systems",
-          "url": "https://www.grants.gov/search-results-detail/354144",
+          "title": "66--SENSOR,NITROGEN",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=af6b37c37bd041a89ffb22d0f28ff722",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:24-571",
-        "label": "Correctness for Scientific Computing Systems",
-        "node_id": "opportunity:grants_gov:24-571",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-3a98df53c498bf89",
-      "confidence": "medium",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4ccf07b8bf51ead7",
-          "locator": "qualification_gate",
-          "title": "Research Training Groups in the Mathematical Sciences",
-          "url": "https://www.grants.gov/search-results-detail/353962",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:24-570",
-        "label": "Research Training Groups in the Mathematical Sciences",
-        "node_id": "opportunity:grants_gov:24-570",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-ec8934d2a9b6b55a",
-      "confidence": "medium",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bd0806f758278b58",
-          "locator": "qualification_gate",
-          "title": "Fiscal Year 2026 Next Generation Warning System Grant Program",
-          "url": "https://www.grants.gov/search-results-detail/363192",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:DHS-26-IPAWS-138-00-01",
-        "label": "Fiscal Year 2026 Next Generation Warning System Grant Program",
-        "node_id": "opportunity:grants_gov:DHS-26-IPAWS-138-00-01",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-f26e43e9d8831f27",
-      "confidence": "medium",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-07c864f6ca0584c7",
-          "locator": "qualification_gate",
-          "title": "Notice of Funding Opportunity 2026 \u2013 Lebanon",
-          "url": "https://www.grants.gov/search-results-detail/363090",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:LBN-PDS-2026-NOFO",
-        "label": "Notice of Funding Opportunity 2026 \u2013 Lebanon",
-        "node_id": "opportunity:grants_gov:LBN-PDS-2026-NOFO",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-3054213201b373a7",
-      "confidence": "medium",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ceba350f113fda0a",
-          "locator": "qualification_gate",
-          "title": "Voices for the Future",
-          "url": "https://www.grants.gov/search-results-detail/363043",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:PAS-JAKARTA-FY26-06",
-        "label": "Voices for the Future",
-        "node_id": "opportunity:grants_gov:PAS-JAKARTA-FY26-06",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-2dc93bfba95c9bb8",
-      "confidence": "medium",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-018cc1f6e49b3139",
-          "locator": "qualification_gate",
-          "title": "Creative Industries Film Lab and Residency - American Film Showcase 2026",
-          "url": "https://www.grants.gov/search-results-detail/362939",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:PAS-JAKARTA-FY26-05",
-        "label": "Creative Industries Film Lab and Residency - American Film Showcase 2026",
-        "node_id": "opportunity:grants_gov:PAS-JAKARTA-FY26-05",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-b03e26f9101751e8",
-      "confidence": "medium",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-04T01:52:55.367102+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9cc8b613ee7eb159",
-          "locator": "qualification_gate",
-          "title": "Escape The Hack: Countering Cyber Scams with an Immersive Experience for Everyday Indonesians",
-          "url": "https://www.grants.gov/search-results-detail/362863",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:PAS-JAKARTA-FY26-04",
-        "label": "Escape The Hack: Countering Cyber Scams with an Immersive Experience for Everyday Indonesians",
-        "node_id": "opportunity:grants_gov:PAS-JAKARTA-FY26-04",
+        "identifier": "sam_gov:SPE7M126U4930",
+        "label": "66--SENSOR,NITROGEN",
+        "node_id": "opportunity:sam_gov:SPE7M126U4930",
         "node_type": "opportunity"
       },
       "value": "hold"
     }
   ],
+  "baseline_initialized": false,
+  "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-08-04T01:52:55.367102+00:00",
-  "comparison_started_at": "2026-08-03T02:07:21.978304+00:00",
+  "comparison_ended_at": "2026-08-04T21:31:34.443424+00:00",
+  "comparison_started_at": "2026-08-04T01:52:55.367102+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1210,19 +2082,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-08-03T02:07:21.978304+00:00",
+  "since": "2026-08-04T01:52:55.367102+00:00",
   "summary": {
-    "active_claims": 1411,
-    "added": 0,
-    "changed": 9,
+    "active_claims": 1449,
+    "added": 38,
+    "changed": 0,
     "conflicts": 0,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 36,
+    "material_changes": 65,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-08-04T01:52:55.367102+00:00",
+  "updated_at": "2026-08-04T21:31:34.443424+00:00",
   "version": 1
 }

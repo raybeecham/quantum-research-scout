@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-08-04T01:52:55.367102+00:00_
+_Updated 2026-08-04T21:31:34.443424+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
@@ -24,8 +24,8 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 **Evidence**
 
+- [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) — official funding announcement · 2026-08-04
 - [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) — official award notice · 2026-08-04
-- [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) — official funding announcement · 2026-07-29
 - [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) — official award · 2026-05-19
 - [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) — official grant opportunity · 2026-03-17
 - [Genesis Mission](https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission) — official mission · date not reported

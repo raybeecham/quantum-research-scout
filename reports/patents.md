@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-08-04T01:52:55.367102+00:00_
+_Updated 2026-08-04T21:31:34.443424+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
 **Ranking:** Strategic significance first, combining domain relevance, document stage, legal status, citation evidence, family depth, recency, and assignee attribution. Evidence score and publication date break ties.
 
-- Tracked publications: **188**
+- Tracked publications: **192**
 - Curated notable patents: **2**
-- Automated recent discoveries: **186**
+- Automated recent discoveries: **190**
 - Published in the last 30 days: **42**
-- Unique named assignees: **125**
-- Patent families: **179**
-- Applications / grants: **182 / 6**
-- Known legal status: **144 of 188**
+- Unique named assignees: **126**
+- Patent families: **182**
+- Applications / grants: **184 / 8**
+- Known legal status: **148 of 192**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -26,6 +26,7 @@ Family grouping uses provider family identifiers, parent/priority applications, 
 
 | Family | Assignee | Applications / grants | Citations | Significance |
 |---|---|---:|---:|---:|
+| [POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS](https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data)<br><small>12700998</small> | Circle Internet Group, Inc. | 1 / 1 | 0 | **81 · CRITICAL** |
 | [Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data](https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data)<br><small>US20260149567A1</small> | University of Central Florida Research Foundation, Inc. | 0 / 1 | 0 | **80 · CRITICAL** |
 | [Mechanism for Post-Quantum Cryptographic Key Material Resilience](https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data)<br><small>12634144</small> | SIX3RO, Inc. | 1 / 1 | 0 | **78 · HIGH** |
 | [METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY](https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data)<br><small>US20260088983A1</small> | ARRIS Enterprises LLC | 2 / 0 | 0 | **76 · HIGH** |
@@ -45,7 +46,6 @@ Family grouping uses provider family identifiers, parent/priority applications, 
 | [SYMBOLIC PHOTONIC LOGIC GATE ARCHITECTURE FOR LIGHT-SPEED DATA PROCESSING AND QUANTUM-RESISTANT OPTICAL ENCRYPTION](https://data.uspto.gov/patent-file-wrapper/search/details/19458148/application-data)<br><small>US20260153781A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 | [QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS](https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data)<br><small>US20260149589A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 | [HYBRID POST-QUANTUM TLS MIGRATION WITH BINDER-ENFORCED RESUMPTION](https://data.uspto.gov/patent-file-wrapper/search/details/19309197/application-data)<br><small>US20260052009A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
-| [METHODS AND PROCEDURES FOR A ONE-WAY QUANTUM CHANNEL AUTHENTICATION FOR SECURE QUANTUM COMMUNICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19303070/application-data)<br><small>US20260058805A1</small> | EigenQ, Inc. | 1 / 0 | 0 | **69 · HIGH** |
 
 ## Notable Patent Watchlist
 
@@ -62,10 +62,12 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 
 | Publication | Stage / status | Assignee | Family / citations | Significance |
 |---|---|---|---|---:|
+| [POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS](https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data)<br><small>12700998</small> | Grant · Granted | Circle Internet Group, Inc. | 2 member(s) · 0 citation(s) | **81 · CRITICAL** |
 | [Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data](https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data)<br><small>US20260149567A1</small> | Grant · Granted | University of Central Florida Research Foundation, Inc. | 1 member(s) · 0 citation(s) | **80 · CRITICAL** |
 | [Mechanism for Post-Quantum Cryptographic Key Material Resilience](https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data)<br><small>12634144</small> | Grant · Granted | SIX3RO, Inc. | 2 member(s) · 0 citation(s) | **78 · HIGH** |
 | [METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY](https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data)<br><small>US20260088983A1</small> | Application · Pending | ARRIS Enterprises LLC | 2 member(s) · 0 citation(s) | **76 · HIGH** |
 | [METHOD AND SYSTEM FOR SECURING POST-QUANTUM BLOCKCHAINS](https://data.uspto.gov/patent-file-wrapper/search/details/19404287/application-data)<br><small>12640949</small> | Grant · Granted | King Fahd University of Petroleum and Minerals | 1 member(s) · 0 citation(s) | **75 · HIGH** |
+| [POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS](https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Circle Internet Group, Inc. | 2 member(s) · 0 citation(s) | **74 · HIGH** |
 | [METHOD FOR OPTIMIZING AN EXECUTION OF A GENERATION OF A CRYSTALS-DILITHIUM POST-QUANTUM SIGNATURE](https://data.uspto.gov/patent-file-wrapper/search/details/19157393/application-data)<br><small>US20260222228A1</small> | Application · Pending | THALES DIS FRANCE SAS | 1 member(s) · 0 citation(s) | **73 · HIGH** |
 | [METHOD, APPARATUS, AND SYSTEM FOR POST-QUANTUM ELECTRONIC SIGNATURE BASED ON INFINITE HASH FUNCTION](https://data.uspto.gov/patent-file-wrapper/search/details/19539954/application-data)<br><small>US20260189404A1</small> | Application · Pending | Industry-Academic Cooperation Foundation, Dankook University | 1 member(s) · 0 citation(s) | **73 · HIGH** |
 | [ESTIMATION OF EFFORTS IN MIGRATING APPLICATIONS TO POST QUANTUM CRYPTOGRAPHY (PQC) STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19405497/application-data)<br><small>US20260178743A1</small> | Application · Pending | Tata Consultancy Services Limited | 1 member(s) · 0 citation(s) | **73 · HIGH** |
@@ -85,6 +87,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [RECONFIGURABLE PROCESSING UNITS FOR EFFICIENT SUPPORT OF MULTIPLE POST-QUANTUM CRYPTOGRAPHIC ALGORITHMS](https://data.uspto.gov/patent-file-wrapper/search/details/19489836/application-data)<br><small>Publication number unavailable</small> | Application · Pending | CRYPTOGRAPHY RESEARCH, INC. | 1 member(s) · 0 citation(s) | **68 · HIGH** |
 | [Mechanism for Post-Quantum Cryptographic Key Material Resilience](https://data.uspto.gov/patent-file-wrapper/search/details/63915370/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Not listed | 2 member(s) · 0 citation(s) | **68 · HIGH** |
 | [DISTRIBUTED QUANTUM COMMUNICATION NETWORK ARCHITECTURE BASED ON DOUBLE-HELIX STRUCTURE](https://data.uspto.gov/patent-file-wrapper/search/details/19455492/application-data)<br><small>US20260222081A1</small> | Application · Pending | Homatch.ai | 2 member(s) · 0 citation(s) | **68 · HIGH** |
+| [SCALABLE QUANTUM ERROR CORRECTION ARCHITECTURE USING DUAL-FUNCTION TRANSMON COUPLERS IN A FLUXONIUM QUBIT ARRAY](https://data.uspto.gov/patent-file-wrapper/search/details/19464062/application-data)<br><small>12699915</small> | Grant · Granted | QpiAI India Private Limited | 1 member(s) · 0 citation(s) | **67 · HIGH** |
 | [POST-QUANTUM CONSTANT-TIME KEY ROTATION VERIFICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19343419/application-data)<br><small>US20260031987A1</small> | Application · Unknown | Circle Internet Group, Inc. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [DEVICE AND METHOD FOR PERFORMING DISCONTINUOUS PATH SELECTION-BASED QUANTUM RESOURCE ALLOCATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147661/application-data)<br><small>US20260222975A1</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [SYSTEM AND METHOD FOR DETECTING MALICIOUS MESSAGES GENERATED BY A LARGE LANGUAGE MODEL (LLM)](https://data.uspto.gov/patent-file-wrapper/search/details/19573062/application-data)<br><small>US20260214122A1</small> | Application · Pending | Cisco Technology, Inc. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
@@ -144,6 +147,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [POST-QUANTUM CRYPTOGRAPHY ENCRYPTION KEY DELIVERY](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025042236/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | QUANTUMXCHANGE, INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [METHOD FOR OPTIMIZING AN EXECUTION OF A GENERATION OF A CRYSTALS-DILITHIUM POST-QUANTUM SIGNATURE](https://data.uspto.gov/patent-file-wrapper/search/details/19157393/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | THALES DIS FRANCE SAS | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [AI-DRIVEN CROSS-CHANNEL FINANCIAL FRAUD DETECTION SYSTEM WITH QUANTUM-RESISTANT ENCRYPTION AND BLOCKCHAIN INTEGRATION](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025043982/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CYBERSMARTS.AI LLC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
+| [SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING](https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data)<br><small>Publication number unavailable</small> | Application · Pending | NEW YORK UNIVERSITY | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [Large-scale multi-qubit trapped-ion gates](https://data.uspto.gov/patent-file-wrapper/search/details/19489905/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Quantum Art Ltd., YEDA RESEARCH AND DEVELOPMENT CO. LTD. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [JOINT MODULAR MULTIPLICATIVE INVERSE OPERATIONS FOR ACTIVE VOLUME QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19489704/application-data)<br><small>Publication number unavailable</small> | Application · Pending | PsiQuantum, Corp. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [METHOD AND SYSTEM FOR UNLEARNING OF LARGE LANGUAGE MODEL, AND METHOD FOR CONTROLLING UNLEARNING SYSTEM OF LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19546288/application-data)<br><small>US20260187416A1</small> | Application · Pending | LG MANAGEMENT DEVELOPMENT INSTITUTE CO., LTD. | 2 member(s) · 0 citation(s) | **60 · HIGH** |
@@ -195,7 +199,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [METHOD AND APPARATUS FOR HYBRID DEPLOYMENT ACROSS RUNTIME INSTANCES BASED ON CLOUD COMPUTING TECHNOLOGY](https://data.uspto.gov/patent-file-wrapper/search/details/19463647/application-data)<br><small>US20260169827A1</small> | Application · Pending | Huawei Cloud Computing Technologies Co., Ltd. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [SYSTEM AND METHOD FOR MANAGING CLOUD SERVICE RESOURCES IN A CLOUD COMPUTING ENVIRONMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19448639/application-data)<br><small>US20260140782A1</small> | Application · Pending | Microsoft Technology Licensing, LLC | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [TRANSVERSE-MODE-ENCODED QUANTUM PROCESSOR](https://data.uspto.gov/patent-file-wrapper/search/details/19488920/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | THE ROYAL INSTITUTION FOR THE ADVANCEMENT OF LEARNING / MCGILL UNIVERSITY | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
-| [SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING](https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | NEW YORK UNIVERSITY | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [SYSTEMS AND METHODS FOR HIGH-FIDELITY UNIVERSAL GATES IN THE YTTERBIUM-171 GROUND STATE NUCLEAR SPIN QUBIT](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025055803/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | ATOM COMPUTING INC. | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [QUANTUM PROCESSOR CHIP AND MULTI-LAYER PHOTONIC ROUTING NETWORK](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010838/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | HOMATCH.AI | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [QUANTUM COMPUTING SYSTEMS WITH SUPERCONDUCTING QUANTUM BIT CIRCUITRY AND SPATIALLY DISTRIBUTED HYBRID CRYOGENIC ELECTRONIC CONTROL ARCHITECTURE](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010670/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | SEEQC, INC. | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
@@ -243,6 +246,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [MICROELECTROMECHANICAL SYSTEMS (MEMS) TRANSDUCERS FOR HIGH SOUND PRESSURE LEVEL (SPL) MEASUREMENTS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025055137/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | SHURE ACQUISITION HOLDINGS, INC. | 3 member(s) · 0 citation(s) | **34 · MONITOR** |
 | [NON-CONTACT MICROELECTROMECHANICAL SYSTEMS](https://data.uspto.gov/patent-file-wrapper/search/details/18817013/application-data)<br><small>US20260062280A1</small> | Application · Unknown | TEXAS INSTRUMENTS INCORPORATED | 1 member(s) · 0 citation(s) | **33 · MONITOR** |
 | [MULTI-FUNCTION BIMORPH MICROELECTROMECHANICAL SYSTEMS INTEGRATION (MEMS) FOR ANALOG TUNABILITY IN METASURFACES](https://data.uspto.gov/patent-file-wrapper/search/details/18809012/application-data)<br><small>US20260051308A1</small> | Application · Unknown | Dell Products L.P. | 1 member(s) · 0 citation(s) | **33 · MONITOR** |
+| [DUAL RING MICROELECTROMECHANICAL SYSTEMS INTEGRATION FOR ANALOG TUNABILITY IN RECONFIGURABLE INTELLIGENT SURFACES](https://data.uspto.gov/patent-file-wrapper/search/details/18808987/application-data)<br><small>US20260051872A1</small> | Application · Unknown | Dell Products L.P. | 1 member(s) · 0 citation(s) | **33 · MONITOR** |
 | [DISTRIBUTED SENSOR NETWORK IMPLEMENTED BY SWARM OF UNMANNED AUTONOMOUS VEHICLES](https://data.uspto.gov/patent-file-wrapper/search/details/19063566/application-data)<br><small>US20250273060A1</small> | Application · Unknown | Alpine Eagle GmbH | 1 member(s) · 0 citation(s) | **33 · MONITOR** |
 | [THERMAL ANNEALING OF PIEZOELECTRIC MICROELECTROMECHANICAL SYSTEMS (MEMS) STACKS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025044954/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | QUALCOMM INCORPORATED | 2 member(s) · 0 citation(s) | **31 · MONITOR** |
 | [MONOLITHIC MICROELECTROMECHANICAL SYSTEMS BASED SPATIAL LIGHT MODULATORS INCLUDING MULTIPLE ARRAYS, EACH ARRAY CONFIGURED TO MODULATE DIFFERENT WAVELENGTHS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025035094/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | SILICON LIGHT MACHINE CORPORATION | 2 member(s) · 0 citation(s) | **31 · MONITOR** |

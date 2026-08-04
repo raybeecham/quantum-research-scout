@@ -215,8 +215,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 3,
-      "first_party_evidence_count": 2,
+      "evidence_count": 4,
+      "first_party_evidence_count": 3,
       "name": "Cisco",
       "priority": "high",
       "status": "covered",
@@ -385,7 +385,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 3,
+      "evidence_count": 5,
       "first_party_evidence_count": 0,
       "name": "IonQ",
       "priority": "high",
@@ -556,7 +556,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 3,
+      "evidence_count": 4,
       "first_party_evidence_count": 0,
       "name": "Quantinuum",
       "priority": "high",
@@ -604,7 +604,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 0,
+      "evidence_count": 1,
       "first_party_evidence_count": 0,
       "name": "Thales",
       "priority": "high",
@@ -1607,11 +1607,11 @@
       "first_seen": "2025-09-09",
       "historical_evidence_count": 9,
       "latest_seen": "2026-07-31",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Keyfactor",
-      "prior_count": 4,
+      "prior_count": 6,
       "priority": "high",
-      "recent_count": 5,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -2589,6 +2589,162 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 5,
+      "evidence": [
+        {
+          "date": "2026-08-04",
+          "key": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "IonQ says orders set 2030 deadline for post-quantum crypto migration",
+          "url": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 82,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "IonQ and EPB Partner to Launch the Tennessee Quantum Communications Research Center",
+          "url": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 42,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IonQ Completes Acquisition of SkyWater Technology, Establishing Vertically Integrated Quantum Platform",
+          "url": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 27,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IonQ\u2019s SkyWater Deal Secures U.S. Quantum Chip Supply",
+          "url": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 24,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Fixstars Amplify adds IonQ\u2019s Quantum Computing Environment to its Standard Machines",
+          "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
+        }
+      ],
+      "evidence_count": 5,
+      "first_seen": "2026-06-22",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-08-04",
+      "momentum": "rising",
+      "name": "IonQ",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 4,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Hardware",
+        "Quantum Networking",
+        "Quantum Software / Tooling"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Cisco Systems"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 4,
+      "evidence": [
+        {
+          "date": "2026-08-04",
+          "key": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 42,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Quantum Computing: What IT and Business Leaders Need to Know",
+          "url": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 88,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "A Different Road to Quantum Safety: The PPK \u2013 IPsec Series, Part 5",
+          "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 25,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Cisco Routers Now Run Quantum Encryption via Live eQKD Network",
+          "url": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption"
+        },
+        {
+          "date": "2026-07-27",
+          "key": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4",
+          "report": "2026-07/2026-07-27-digest.md",
+          "score": 130,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
+          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
+        }
+      ],
+      "evidence_count": 4,
+      "first_seen": "2026-07-27",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-08-04",
+      "momentum": "rising",
+      "name": "Cisco",
+      "prior_count": 1,
+      "priority": "high",
+      "recent_count": 3,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Networking"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
       "current_evidence_count": 4,
       "evidence": [
         {
@@ -2653,6 +2809,76 @@
       "themes": [
         "AI Security",
         "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 4,
+      "evidence": [
+        {
+          "date": "2026-08-04",
+          "key": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 36,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum & Partners Run 98-Qubit Quantum Fourier Transform",
+          "url": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 60,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
+          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
+        },
+        {
+          "date": "2026-07-20",
+          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
+          "report": "2026-07/2026-07-20-digest.md",
+          "score": 14,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
+          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://quantumzeitgeist.com/quantinuum-qnt",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 45,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum (QNT): A Commercial History",
+          "url": "https://quantumzeitgeist.com/quantinuum-qnt"
+        }
+      ],
+      "evidence_count": 4,
+      "first_seen": "2026-06-22",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-08-04",
+      "momentum": "rising",
+      "name": "Quantinuum",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Hardware"
       ],
       "type": "company"
     },
@@ -2896,182 +3122,6 @@
       "status": "dormant",
       "themes": [
         "PQC / Crypto Agility"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [
-        "Cisco Systems"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 3,
-      "evidence": [
-        {
-          "date": "2026-08-03",
-          "key": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5",
-          "report": "2026-08/2026-08-03-digest.md",
-          "score": 88,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "A Different Road to Quantum Safety: The PPK \u2013 IPsec Series, Part 5",
-          "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
-        },
-        {
-          "date": "2026-07-31",
-          "key": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 25,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "Cisco Routers Now Run Quantum Encryption via Live eQKD Network",
-          "url": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption"
-        },
-        {
-          "date": "2026-07-27",
-          "key": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4",
-          "report": "2026-07/2026-07-27-digest.md",
-          "score": 130,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
-          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
-        }
-      ],
-      "evidence_count": 3,
-      "first_seen": "2026-07-27",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-08-03",
-      "momentum": "rising",
-      "name": "Cisco",
-      "prior_count": 1,
-      "priority": "high",
-      "recent_count": 2,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility",
-        "Quantum Networking"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 3,
-      "evidence": [
-        {
-          "date": "2026-07-31",
-          "key": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 42,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IonQ Completes Acquisition of SkyWater Technology, Establishing Vertically Integrated Quantum Platform",
-          "url": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform"
-        },
-        {
-          "date": "2026-07-31",
-          "key": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 27,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IonQ\u2019s SkyWater Deal Secures U.S. Quantum Chip Supply",
-          "url": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal"
-        },
-        {
-          "date": "2026-06-22",
-          "key": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator",
-          "report": "2026-06/2026-06-22-digest.md",
-          "score": 24,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "Fixstars Amplify adds IonQ\u2019s Quantum Computing Environment to its Standard Machines",
-          "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
-        }
-      ],
-      "evidence_count": 3,
-      "first_seen": "2026-06-22",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-07-31",
-      "momentum": "rising",
-      "name": "IonQ",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 2,
-      "status": "active",
-      "themes": [
-        "Quantum Hardware",
-        "Quantum Software / Tooling"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 3,
-      "evidence": [
-        {
-          "date": "2026-07-29",
-          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
-          "report": "2026-07/2026-07-29-digest.md",
-          "score": 60,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
-          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
-        },
-        {
-          "date": "2026-07-20",
-          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
-          "report": "2026-07/2026-07-20-digest.md",
-          "score": 14,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
-          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
-        },
-        {
-          "date": "2026-06-22",
-          "key": "https://quantumzeitgeist.com/quantinuum-qnt",
-          "report": "2026-06/2026-06-22-digest.md",
-          "score": 45,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum (QNT): A Commercial History",
-          "url": "https://quantumzeitgeist.com/quantinuum-qnt"
-        }
-      ],
-      "evidence_count": 3,
-      "first_seen": "2026-06-22",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-07-29",
-      "momentum": "rising",
-      "name": "Quantinuum",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility",
-        "Quantum Hardware"
       ],
       "type": "company"
     },
@@ -3398,7 +3448,7 @@
       "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -3676,11 +3726,46 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
       "type": "open-source"
+    },
+    {
+      "aliases": [
+        "Thales Group"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
+      "evidence": [
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 89,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
+          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2026-08-04",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-08-04",
+      "momentum": "rising",
+      "name": "Thales",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
     },
     {
       "aliases": [
@@ -3826,11 +3911,11 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-07-28",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Infleqtion",
-      "prior_count": 4,
+      "prior_count": 7,
       "priority": "medium",
-      "recent_count": 3,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -4632,9 +4717,9 @@
       "latest_seen": "2026-08-03",
       "momentum": "rising",
       "name": "Crypto-agility",
-      "prior_count": 2,
+      "prior_count": 4,
       "priority": "critical",
-      "recent_count": 9,
+      "recent_count": 7,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -4875,7 +4960,7 @@
       "name": "Quantum error correction",
       "prior_count": 3,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "AI Security",
@@ -5089,11 +5174,11 @@
       "first_seen": "2025-09-10",
       "historical_evidence_count": 3,
       "latest_seen": "2026-07-28",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Logical qubits",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -5374,8 +5459,20 @@
         "quantum metrology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 11,
+      "current_evidence_count": 12,
       "evidence": [
+        {
+          "date": "2026-08-04",
+          "key": "https://quantumzeitgeist.com/quantum-sensing-hub-atomionics-asias",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 27,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Atomionics Opens Asia\u2019s First Quantum Sensing Hub for Ocean Mapping",
+          "url": "https://quantumzeitgeist.com/quantum-sensing-hub-atomionics-asias"
+        },
         {
           "date": "2026-07-09",
           "key": "https://thequantuminsider.com/2026/07/09/shanghai-quantum-sensing-startup-raises-angel-funding-to-expand-navigation-and-gas-detection-products",
@@ -5533,16 +5630,16 @@
           "url": "https://thequantuminsider.com/2026/06/24/sprind-launches-quantum-sensing-initiative-to-back-european-projects-and-startups"
         }
       ],
-      "evidence_count": 12,
+      "evidence_count": 13,
       "first_seen": "2026-06-24",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-07-09",
-      "momentum": "stable",
+      "latest_seen": "2026-08-04",
+      "momentum": "rising",
       "name": "Quantum sensing",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Hardware",
         "Quantum Networking",
@@ -5630,15 +5727,6 @@
     },
     {
       "aliases": [
-        "Thales Group"
-      ],
-      "case_sensitive_aliases": [],
-      "name": "Thales",
-      "priority": "high",
-      "type": "company"
-    },
-    {
-      "aliases": [
         "National Cyber Security Centre",
         "NCSC-UK"
       ],
@@ -5708,6 +5796,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-04T02:00:16.301538+00:00",
+  "updated_at": "2026-08-04T21:40:10.515781+00:00",
   "version": 2
 }

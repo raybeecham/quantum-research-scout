@@ -666,6 +666,36 @@
     {
       "confidence": "low",
       "evidence_count": 1,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-08-04",
+      "name": "Thales",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": "2026-08-04",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "readiness"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "The Quantum Insider",
+          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
+          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
       "historical_evidence_count": 1,
       "latest_evidence_at": null,
       "name": "Deloitte",
@@ -1027,6 +1057,36 @@
       "confidence": "low",
       "evidence_count": 1,
       "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-08-04",
+      "name": "IonQ",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-08-04",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuantumNews.ai",
+          "title": "IonQ says orders set 2030 deadline for post-quantum crypto migration",
+          "url": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 0,
       "latest_evidence_at": "2026-07-27",
       "name": "PQCA",
       "priority": "high",
@@ -1258,20 +1318,6 @@
       "evidence_count": 0,
       "historical_evidence_count": 0,
       "latest_evidence_at": null,
-      "name": "IonQ",
-      "priority": "high",
-      "source_count": 0,
-      "stage": "not_assessed",
-      "stage_label": "Not assessed",
-      "stage_rank": 0,
-      "supporting_evidence": [],
-      "type": "company"
-    },
-    {
-      "confidence": "none",
-      "evidence_count": 0,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": null,
       "name": "Lockheed Martin",
       "priority": "high",
       "source_count": 0,
@@ -1412,20 +1458,6 @@
       "evidence_count": 0,
       "historical_evidence_count": 0,
       "latest_evidence_at": null,
-      "name": "Thales",
-      "priority": "high",
-      "source_count": 0,
-      "stage": "not_assessed",
-      "stage_label": "Not assessed",
-      "stage_rank": 0,
-      "supporting_evidence": [],
-      "type": "company"
-    },
-    {
-      "confidence": "none",
-      "evidence_count": 0,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": null,
       "name": "UK NCSC",
       "priority": "high",
       "source_count": 0,
@@ -1437,17 +1469,17 @@
     }
   ],
   "summary": {
-    "assessed": 20,
+    "assessed": 22,
     "by_stage": {
-      "awareness": 12,
+      "awareness": 13,
       "inventory": 1,
-      "not_assessed": 23,
+      "not_assessed": 21,
       "pilot": 2,
-      "planning": 5
+      "planning": 6
     },
-    "not_assessed": 23,
+    "not_assessed": 21,
     "organizations": 43
   },
-  "updated_at": "2026-08-04T02:00:16.681764+00:00",
+  "updated_at": "2026-08-04T21:40:10.887400+00:00",
   "version": 1
 }

@@ -4,11 +4,11 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-08-04 02:00 UTC_
+_Updated 2026-08-04 21:40 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
-Assessed **20 of 43** configured organizations.
+Assessed **22 of 43** configured organizations.
 
 | Organization | Observed stage | Confidence | PQC evidence | Sources | Historical | Latest dated evidence |
 |---|---|---|---:|---:|---:|---|
@@ -19,6 +19,7 @@ Assessed **20 of 43** configured organizations.
 | QuSecure | Planning | high | 5 | 3 | 4 | 2026-07-25 |
 | Accenture / Accenture Federal Services | Planning | medium | 3 | 1 | 3 | Unknown |
 | Fortanix | Planning | medium | 20 | 1 | 20 | 2026-07-30 |
+| Thales | Planning | low | 1 | 1 | 0 | 2026-08-04 |
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
 | Cisco | Awareness | medium | 2 | 1 | 0 | 2026-08-03 |
 | Cloudflare | Awareness | medium | 3 | 2 | 0 | 2026-07-29 |
@@ -29,6 +30,7 @@ Assessed **20 of 43** configured organizations.
 | DigiCert | Awareness | low | 1 | 1 | 0 | 2026-08-03 |
 | ETSI | Awareness | low | 1 | 1 | 1 | 2026-06-22 |
 | IBM | Awareness | low | 1 | 1 | 0 | 2026-07-29 |
+| IonQ | Awareness | low | 1 | 1 | 0 | 2026-08-04 |
 | PQCA | Awareness | low | 1 | 1 | 0 | 2026-07-27 |
 | Quantinuum | Awareness | low | 1 | 1 | 0 | 2026-07-29 |
 | Quantum Computing Inc. (QCi) | Awareness | low | 1 | 1 | 1 | Unknown |
@@ -42,7 +44,6 @@ Assessed **20 of 43** configured organizations.
 | IETF | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Infleqtion | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Intel Quantum | Not assessed | none | 0 | 0 | 0 | Unknown |
-| IonQ | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Lockheed Martin | Not assessed | none | 0 | 0 | 0 | Unknown |
 | MITRE | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Microsoft Quantum | Not assessed | none | 0 | 0 | 0 | Unknown |
@@ -53,7 +54,6 @@ Assessed **20 of 43** configured organizations.
 | QuEra | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Rigetti | Not assessed | none | 0 | 0 | 0 | Unknown |
 | SandboxAQ | Not assessed | none | 0 | 0 | 0 | Unknown |
-| Thales | Not assessed | none | 0 | 0 | 0 | Unknown |
 | UK NCSC | Not assessed | none | 0 | 0 | 0 | Unknown |
 
 ## Methodology
