@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Funding & Procurement](federal-funding.md) · [Standards Timeline](standards-timeline.md) · [Entity Watch](entity-watch.md)
 
-_Updated 2026-08-04 21:59 UTC_
+_Updated 2026-08-05 01:53 UTC_
 
 Named, cross-agency or cross-sector federal science and technology missions, initiatives, and national efforts relevant to quantum technology, AI, cybersecurity, energy, discovery science, and national security. Routine agency mission statements and unrelated operational missions are excluded.
 
@@ -54,11 +54,11 @@ Build an integrated American Science and Security Platform connecting federal sc
 - Next milestone: **2026-07-22 — Review federal robotic and AI-directed laboratory capabilities**
 
 Recent official updates:
+- 2026-08-05 — [Genesis Mission Workforce Development RFI Summary](https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf)
+- 2026-08-05 — [Genesis Mission University Summit Report](https://www.energy.gov/sites/default/files/2026-07/Genesis-University-Summit-Breakout-Summaries-Report.pdf)
+- 2026-08-05 — [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf)
 - 2026-08-04 — [United States and Japan Announce Historic $1 Billion Partnership Under President Trump’s Genesis Mission](https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps)
 - 2026-08-04 — [U.S. Department of Energy Announces More Than $800 Million in Partner Commitments to the Genesis Mission](https://www.energy.gov/undersecretaryforscience/articles/us-department-energy-announces-more-800-million-partner)
-- 2026-08-04 — [The Genesis Mission](https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission)
-- 2026-08-04 — [The American Science and Security Platform](https://www.energy.gov/undersecretaryforscience/genesis-mission/american-science-and-security-platform)
-- 2026-08-04 — [Secretary of Energy Chris Wright Announces First Genesis Mission Projects Selected to Accelerate AI-Driven Scientific Discovery](https://www.energy.gov/articles/secretary-energy-chris-wright-announces-first-genesis-mission-projects-selected-accelerate)
 
 ### [DARPA Quantum Benchmarking Initiative](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative)
 

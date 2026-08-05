@@ -1,6 +1,726 @@
 {
-  "as_of_date": "2026-08-04",
+  "as_of_date": "2026-08-05",
   "claims": [
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-3176e7543bf10bff",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-a367205d1e153228"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a367205d1e153228",
+          "locator": "opportunity_status:open",
+          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+          "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "549dced53ef9cc2d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-58b8c57de83f1ec1",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-4766498e3dc7af84"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4766498e3dc7af84",
+          "locator": "deadline:2026-08-18t16:00:00-05:00",
+          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+          "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-18T16:00:00-05:00",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6810d29ea80c10e3"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported set aside in the federal record",
+      "claim_id": "claim-3fe0779e69ae0855",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-d23c86a69feb07f5"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "set_aside",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d23c86a69feb07f5",
+          "locator": "set_aside:service-disabled veteran-owned small business (sdvosb) set-aside (far 19.14)",
+          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+          "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d84a73e24b4a4d4f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-c71ddf93b99b205a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-29890371cfe43def"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-29890371cfe43def",
+          "locator": "awarding_agency:veterans affairs, department of.veterans affairs, department of.rpo west (36c24w)",
+          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+          "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.RPO WEST (36C24W)",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "984b1c369c20ca24"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-ab93a58d8f73798a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-ae05d56c7735523a"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ae05d56c7735523a",
+          "locator": "opportunity_status:open",
+          "title": "Power Sensor Check Standard",
+          "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "f13aacc80e4a6043"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-74f3145df56383a8",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-7f3ff307512065cd"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7f3ff307512065cd",
+          "locator": "deadline:2026-08-18t17:00:00-06:00",
+          "title": "Power Sensor Check Standard",
+          "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-18T17:00:00-06:00",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "906cbe2b3145843a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported set aside in the federal record",
+      "claim_id": "claim-81edd58b59c28da8",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-a7a27ccb98f35afe"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "set_aside",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a7a27ccb98f35afe",
+          "locator": "set_aside:small business set aside - total",
+          "title": "Power Sensor Check Standard",
+          "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "Small Business Set Aside - Total",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e1ca93dba9940cfb"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-e1b40e84d2ee4e69",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-04",
+      "evidence_ids": [
+        "evidence-e31ca2866b775f75"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e31ca2866b775f75",
+          "locator": "awarding_agency:commerce, department of.national institute of standards and technology.dept of commerce nist",
+          "title": "Power Sensor Check Standard",
+          "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "COMMERCE, DEPARTMENT OF.NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY.DEPT OF COMMERCE NIST",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5c337a335b1a3126"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-035360495995d698",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-73a6660dad25bef9"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-73a6660dad25bef9",
+          "locator": "legal_business_name:massachusetts institute of technology",
+          "title": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+          "url": "https://sam.gov/entity/E2NYLCDML6V1/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:E2NYLCDML6V1",
+        "label": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+        "node_id": "recipient_or_contractor:uei:E2NYLCDML6V1",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c91f53fff65b5af6"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-29d434911d8b2998",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-d160dd51183c9d10"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d160dd51183c9d10",
+          "locator": "uei:e2nylcdml6v1",
+          "title": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+          "url": "https://sam.gov/entity/E2NYLCDML6V1/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:E2NYLCDML6V1",
+        "label": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+        "node_id": "recipient_or_contractor:uei:E2NYLCDML6V1",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "E2NYLCDML6V1",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "00278fc3e640b912"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-3707051387663a97",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-4cee3e5eaeb4fcce"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4cee3e5eaeb4fcce",
+          "locator": "cage_code:80230",
+          "title": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+          "url": "https://sam.gov/entity/E2NYLCDML6V1/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:E2NYLCDML6V1",
+        "label": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+        "node_id": "recipient_or_contractor:uei:E2NYLCDML6V1",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "80230",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "2f4f16ef4d0336ba"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-48f44c23dfee70a3",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-6e4e95f7530f1cec"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6e4e95f7530f1cec",
+          "locator": "registration_status:active",
+          "title": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+          "url": "https://sam.gov/entity/E2NYLCDML6V1/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:E2NYLCDML6V1",
+        "label": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+        "node_id": "recipient_or_contractor:uei:E2NYLCDML6V1",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "189798facb49deca"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-fc508f64e55140b9",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-e289b83abfa041e5"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e289b83abfa041e5",
+          "locator": "legal_business_name:university of oklahoma",
+          "title": "UNIVERSITY OF OKLAHOMA",
+          "url": "https://sam.gov/entity/EVTSTTLCEWS5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:EVTSTTLCEWS5",
+        "label": "UNIVERSITY OF OKLAHOMA",
+        "node_id": "recipient_or_contractor:uei:EVTSTTLCEWS5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "UNIVERSITY OF OKLAHOMA",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "057097a277280198"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-f11ecaa4a483523c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-02b87e0765ffcfa1"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-02b87e0765ffcfa1",
+          "locator": "uei:evtsttlcews5",
+          "title": "UNIVERSITY OF OKLAHOMA",
+          "url": "https://sam.gov/entity/EVTSTTLCEWS5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:EVTSTTLCEWS5",
+        "label": "UNIVERSITY OF OKLAHOMA",
+        "node_id": "recipient_or_contractor:uei:EVTSTTLCEWS5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "EVTSTTLCEWS5",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5ccdd6c9d9da4c35"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-c5a1b95e29ef2332",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-719836b817410a9d"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-719836b817410a9d",
+          "locator": "cage_code:3g168",
+          "title": "UNIVERSITY OF OKLAHOMA",
+          "url": "https://sam.gov/entity/EVTSTTLCEWS5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:EVTSTTLCEWS5",
+        "label": "UNIVERSITY OF OKLAHOMA",
+        "node_id": "recipient_or_contractor:uei:EVTSTTLCEWS5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "3G168",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "db8c82d56186464d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-302a48c652d2f8bd",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-09627d0e779eccb4"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-09627d0e779eccb4",
+          "locator": "registration_status:active",
+          "title": "UNIVERSITY OF OKLAHOMA",
+          "url": "https://sam.gov/entity/EVTSTTLCEWS5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:EVTSTTLCEWS5",
+        "label": "UNIVERSITY OF OKLAHOMA",
+        "node_id": "recipient_or_contractor:uei:EVTSTTLCEWS5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "53385551853deeda"
+    },
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
@@ -64158,6 +64878,1086 @@
     {
       "authority": "authoritative",
       "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-a7d93d9ef462fa45",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-d816a33face3a934"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-d816a33face3a934",
+          "locator": "states_requirement:it(s) and sensor(s) equipment and installation. x6600 \u2013 radiographic unit, dental, wall mounted \u2013 dexis focus intraoral must include generator constant potential high voltage dc, 100-200khz tube voltage 60 or 70 kv tube current 7 ma focal spot 0.7 mm to iec 60336 total filtration 2.0 mm ai (70kv) l...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "it(s) and Sensor(s) equipment and installation. X6600 \u2013 Radiographic Unit, Dental, Wall Mounted \u2013 Dexis FOCUS IntraOral Must include Generator Constant Potential High Voltage DC, 100-200kHz Tube Voltage 60 or 70 kV Tube Current 7 mA Focal Spot 0.7 mm to IEC 60336 Total Filtration 2.0 mm AI (70kV) L...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "b61b7384a8c7a6e8"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-d691e36ce709d2d5",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-b1f6234755fbcab5"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-b1f6234755fbcab5",
+          "locator": "states_requirement:urrent 7 ma focal spot 0.7 mm to iec 60336 total filtration 2.0 mm ai (70kv) line voltage 115 / 230 vac +/- 10% 60/50hz must have exposure time range 0.02-3.2 seconds must have reach of 85 inches or 216 cm must have beam limiting cone dimensions round diameter 2.36 inches (60 mm), rectangular 1.38...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "urrent 7 mA Focal Spot 0.7 mm to IEC 60336 Total Filtration 2.0 mm AI (70kV) Line Voltage 115 / 230 VAC +/- 10% 60/50HZ Must have Exposure Time Range 0.02-3.2 seconds Must have reach of 85 inches or 216 cm Must have Beam Limiting Cone Dimensions Round diameter 2.36 inches (60 mm), rectangular 1.38...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "85f20defb73a14b4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-d09e559635c7889b",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-cac860762f07c1d2"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-cac860762f07c1d2",
+          "locator": "states_requirement:l filtration 2.0 mm ai (70kv) line voltage 115 / 230 vac +/- 10% 60/50hz must have exposure time range 0.02-3.2 seconds must have reach of 85 inches or 216 cm must have beam limiting cone dimensions round diameter 2.36 inches (60 mm), rectangular 1.38 x 1.77 inches (35 x 45 mm) ssd (source-skin dis...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "l Filtration 2.0 mm AI (70kV) Line Voltage 115 / 230 VAC +/- 10% 60/50HZ Must have Exposure Time Range 0.02-3.2 seconds Must have reach of 85 inches or 216 cm Must have Beam Limiting Cone Dimensions Round diameter 2.36 inches (60 mm), rectangular 1.38 x 1.77 inches (35 x 45 mm) SSD (Source-Skin Dis...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "a65aa698fb0427fc"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-6d356034e52f120e",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-391ef0c1fec572b3"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-391ef0c1fec572b3",
+          "locator": "states_requirement:age 115 / 230 vac +/- 10% 60/50hz must have exposure time range 0.02-3.2 seconds must have reach of 85 inches or 216 cm must have beam limiting cone dimensions round diameter 2.36 inches (60 mm), rectangular 1.38 x 1.77 inches (35 x 45 mm) ssd (source-skin distance): standard cone 9 inches (229 mm)...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "age 115 / 230 VAC +/- 10% 60/50HZ Must have Exposure Time Range 0.02-3.2 seconds Must have reach of 85 inches or 216 cm Must have Beam Limiting Cone Dimensions Round diameter 2.36 inches (60 mm), rectangular 1.38 x 1.77 inches (35 x 45 mm) SSD (Source-Skin Distance): Standard cone 9 inches (229 mm)...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "ad7aa2df474e1689"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-fcae4ce50dc775d2",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-b6c945a346f0006c"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-b6c945a346f0006c",
+          "locator": "states_requirement:long cone 12 inches (305 mm) dimension: 85\u201d d x 46\u201d w x 47\u201d h x6610 \u2013 sensor, dental imaging system \u2013 dexis ixs sensor must include size 1 (child) and size 2 (standard) thermoplastic resin coating 2.5 m / 3 mm long kevlar reinforced cable pixel size: 19.5 micrometer (um) number of pixels: size 1 1....",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "long cone 12 inches (305 mm) Dimension: 85\u201d D x 46\u201d W x 47\u201d H X6610 \u2013 Sensor, Dental Imaging System \u2013 Dexis IXS Sensor Must include size 1 (child) and size 2 (standard) Thermoplastic resin coating 2.5 m / 3 mm long Kevlar reinforced cable Pixel size: 19.5 micrometer (um) Number of pixels: Size 1 1....",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "9dba80983a89d51d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-97762cfcdf68c91f",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-b03b5faab1fed457"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-b03b5faab1fed457",
+          "locator": "states_requirement:f pixels: size 1 1.6m (1026 x 1539), size 2 2.4m (1324 x 1842) resolution: theoretical: 25.6 lp /mm visible: 20+ lp /mm must have usb 2.0 port must be capable with most common image acquisition and clinic management software sloped dome housing, rounded corners and edges dimension: 1\u201dd x 1.02\u201dw x 1...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "f pixels: Size 1 1.6M (1026 x 1539), size 2 2.4M (1324 x 1842) Resolution: theoretical: 25.6 lp /mm Visible: 20+ lp /mm Must have USB 2.0 port Must be capable with most common image acquisition and clinic management software Sloped dome housing, rounded corners and edges Dimension: 1\u201dD x 1.02\u201dW x 1...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "550736487e6c7dec"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-3e1eeafc9fe9d6a8",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-d6de18d7d9621c36"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-d6de18d7d9621c36",
+          "locator": "states_requirement:1026 x 1539), size 2 2.4m (1324 x 1842) resolution: theoretical: 25.6 lp /mm visible: 20+ lp /mm must have usb 2.0 port must be capable with most common image acquisition and clinic management software sloped dome housing, rounded corners and edges dimension: 1\u201dd x 1.02\u201dw x 1.42\u201dh x6505 \u2013 radiograp...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "1026 x 1539), size 2 2.4M (1324 x 1842) Resolution: theoretical: 25.6 lp /mm Visible: 20+ lp /mm Must have USB 2.0 port Must be capable with most common image acquisition and clinic management software Sloped dome housing, rounded corners and edges Dimension: 1\u201dD x 1.02\u201dW x 1.42\u201dH X6505 \u2013 Radiograp...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "ad9e93fa29f8e702"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-2f8e4f96f7ee2e59",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-c1db4061097499ef"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-c1db4061097499ef",
+          "locator": "states_requirement:ctions cover all the extraoral imaging bitewing-like view is a quick and easy alternative to intraoral bitewing imaging must be able to provide the optimum panoramic image layer automatically image volume: 5x5, 6x9, 9x11 image detector: cmos image voxel size: 80-400 micrometer (um) tube voltage: 95...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "ctions cover all the extraoral imaging Bitewing-like view is a quick and easy alternative to intraoral bitewing imaging Must be able to provide the optimum panoramic image layer automatically Image volume: 5x5, 6x9, 9x11 Image detector: CMOS Image voxel size: 80-400 micrometer (um) Tube voltage: 95...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "fc610e2002c691e4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the eligibility rule",
+      "claim_id": "claim-db5768cabd0c6582",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-a7020fa71777b8ce"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_eligibility_term",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-a7020fa71777b8ce",
+          "locator": "states_eligibility_term:6c24w26q0060 response date/time/zone 08-18-2026 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of performance bakersfield cboc 900 old river rd bakersfield ca postal code 93311 country united states conta...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "6C24W26Q0060 RESPONSE DATE/TIME/ZONE 08-18-2026 16:00 CENTRAL TIME, CHICAGO, USA ARCHIVE 5 DAYS AFTER THE RESPONSE DATE SET-ASIDE SDVOSBC PRODUCT SERVICE CODE* 6520 NAICS CODE* 339114 PLACE OF PERFORMANCE Bakersfield CBOC 900 Old River Rd Bakersfield CA POSTAL CODE 93311 COUNTRY United States CONTA...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "3d3ca0012f1d5992"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the eligibility rule",
+      "claim_id": "claim-7a453d674c797094",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-853a3b93e98980a1"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_eligibility_term",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-853a3b93e98980a1",
+          "locator": "states_eligibility_term:60 response date/time/zone 08-18-2026 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of performance bakersfield cboc 900 old river rd bakersfield ca postal code 93311 country united states contact informa...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "60 RESPONSE DATE/TIME/ZONE 08-18-2026 16:00 CENTRAL TIME, CHICAGO, USA ARCHIVE 5 DAYS AFTER THE RESPONSE DATE SET-ASIDE SDVOSBC PRODUCT SERVICE CODE* 6520 NAICS CODE* 339114 PLACE OF PERFORMANCE Bakersfield CBOC 900 Old River Rd Bakersfield CA POSTAL CODE 93311 COUNTRY United States CONTACT INFORMA...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "099179cea7ed7b70"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the eligibility rule",
+      "claim_id": "claim-80609c2f0cfe0aef",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-88c0d33b002b66cd"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_eligibility_term",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-88c0d33b002b66cd",
+          "locator": "states_eligibility_term:26 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of performance bakersfield cboc 900 old river rd bakersfield ca postal code 93311 country united states contact information contracting office address reg...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "26 16:00 CENTRAL TIME, CHICAGO, USA ARCHIVE 5 DAYS AFTER THE RESPONSE DATE SET-ASIDE SDVOSBC PRODUCT SERVICE CODE* 6520 NAICS CODE* 339114 PLACE OF PERFORMANCE Bakersfield CBOC 900 Old River Rd Bakersfield CA POSTAL CODE 93311 COUNTRY United States CONTACT INFORMATION CONTRACTING OFFICE ADDRESS Reg...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "402abb772cb0238f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the submission instructions rule",
+      "claim_id": "claim-302931d3ee863d69",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-d2786a3b5e6d0cc9"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-d2786a3b5e6d0cc9",
+          "locator": "states_submission_instruction:units and sensor equipment general information contracting office\u2019s zip code* 95652 solicitation number* 36c24w26q0060 response date/time/zone 08-18-2026 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "Units and Sensor equipment GENERAL INFORMATION CONTRACTING OFFICE\u2019S ZIP CODE* 95652 SOLICITATION NUMBER* 36C24W26Q0060 RESPONSE DATE/TIME/ZONE 08-18-2026 16:00 CENTRAL TIME, CHICAGO, USA ARCHIVE 5 DAYS AFTER THE RESPONSE DATE SET-ASIDE SDVOSBC PRODUCT SERVICE CODE* 6520 NAICS CODE* 339114 PLACE OF...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "aee993cdb20d83ad"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the submission instructions rule",
+      "claim_id": "claim-0ae1ee2a7f6edcef",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-c1aeef31d3f20e73"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-c1aeef31d3f20e73",
+          "locator": "states_submission_instruction:tion number* 36c24w26q0060 response date/time/zone 08-18-2026 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of performance bakersfield cboc 900 old river rd bakersfield ca postal code 93311 country unite...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "TION NUMBER* 36C24W26Q0060 RESPONSE DATE/TIME/ZONE 08-18-2026 16:00 CENTRAL TIME, CHICAGO, USA ARCHIVE 5 DAYS AFTER THE RESPONSE DATE SET-ASIDE SDVOSBC PRODUCT SERVICE CODE* 6520 NAICS CODE* 339114 PLACE OF PERFORMANCE Bakersfield CBOC 900 Old River Rd Bakersfield CA POSTAL CODE 93311 COUNTRY Unite...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "0f1ab49d5bbc11b4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the deliverables rule",
+      "claim_id": "claim-f58763a31a39b1ea",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-921e849f4067241b"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_deliverable",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-921e849f4067241b",
+          "locator": "states_deliverable:performance: equipment shall be delivered and installed to/at bakersfield cboc, 900 old river rd., bakerfield, ca 93311 period of performance : delivery and installation no later than october 31, 2026",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "Performance: Equipment shall be delivered and installed to/at Bakersfield CBOC, 900 Old River Rd., Bakerfield, CA 93311 Period of Performance : Delivery and Installation no later than October 31, 2026",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "f8c6e9277e35d5d5"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the deadline mentions rule",
+      "claim_id": "claim-3b67b51900ac3615",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-ce84d0fefe43a598"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-ce84d0fefe43a598",
+          "locator": "states_deadline:kersfield cboc, 900 old river rd., bakerfield, ca 93311 period of performance : delivery and installation no later than october 31, 2026",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "kersfield CBOC, 900 Old River Rd., Bakerfield, CA 93311 Period of Performance : Delivery and Installation no later than October 31, 2026",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "59bae8e3c7cd6345"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-1db5740e0a4fccca",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-732c8e9d2ebaa994"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-732c8e9d2ebaa994",
+          "locator": "states_requirement:information and ancillary services: section requirements/specifications planning considerations \u2612 n/a \u2610 list any visits required to allow potential vendors to see site specific constraints. [explain requirements.] \u2610 us citizen required on-site (foreign nationals require pre- registration 30 days pr...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "Information and Ancillary Services: Section Requirements/Specifications Planning Considerations \u2612 N/A \u2610 List any visits required to allow potential vendors to see site specific constraints. [Explain Requirements.] \u2610 US citizen required on-site (foreign nationals require pre- registration 30 days pr...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "b983fcb5af92ed17"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-c7c36d009d838b49",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-2bb9c70a0730ece0"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-2bb9c70a0730ece0",
+          "locator": "states_requirement:t any visits required to allow potential vendors to see site specific constraints. [explain requirements.] \u2610 us citizen required on-site (foreign nationals require pre- registration 30 days prior to visit.) \u2610 vendor representative on-site more than three (3) days. \u2610 other considerations: [list othe...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "t any visits required to allow potential vendors to see site specific constraints. [Explain Requirements.] \u2610 US citizen required on-site (foreign nationals require pre- registration 30 days prior to visit.) \u2610 Vendor Representative On-Site more than three (3) days. \u2610 Other Considerations: [List othe...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "8e8f0abb4347fbf9"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-0d173e453afc4079",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-a7e5dcf8ab8bbdc9"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-a7e5dcf8ab8bbdc9",
+          "locator": "states_requirement:ia: \u2610 partial delivery acceptable \u2610 [enter shipping and delivery information by item.] \u2610 direct delivery to ou building required [explain need for requirement] building /room number: [enter building/room number] \u2610 building has loading dock containerization preference: [enter container type] other r...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "ia: \u2610 Partial Delivery Acceptable \u2610 [Enter Shipping and Delivery information by item.] \u2610 Direct Delivery to OU Building Required [Explain Need for Requirement] Building /Room Number: [Enter Building/Room Number] \u2610 Building has Loading Dock Containerization Preference: [Enter Container Type] Other R...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "4e20c6c40ffde724"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-f49da2a60f4720ce",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-ac45846579bed40d"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-ac45846579bed40d",
+          "locator": "states_requirement:preference: [enter container type] other requirements: [list any other requirement] delivery date criteria: \u2612 delivery shall be competed no later than: 12 weeks after contract award date \u2610 delivery shall be made no earlier than: click or tap to enter a date. \u2610 scheduled deliveries: item number due...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "Preference: [Enter Container Type] Other Requirements: [List Any Other Requirement] Delivery Date Criteria: \u2612 Delivery Shall Be Competed No Later Than: 12 weeks after contract award date \u2610 Delivery Shall Be Made No Earlier Than: Click or tap to enter a date. \u2610 Scheduled Deliveries: Item Number Due...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "02cc2bedb0566c52"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-9efa7600c21a8876",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-47aacc1ecbb0a686"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-47aacc1ecbb0a686",
+          "locator": "states_requirement:ment] delivery date criteria: \u2612 delivery shall be competed no later than: 12 weeks after contract award date \u2610 delivery shall be made no earlier than: click or tap to enter a date. \u2610 scheduled deliveries: item number due date \u2610 other: [list other shipping, delivery or special requirements.] electro...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "ment] Delivery Date Criteria: \u2612 Delivery Shall Be Competed No Later Than: 12 weeks after contract award date \u2610 Delivery Shall Be Made No Earlier Than: Click or tap to enter a date. \u2610 Scheduled Deliveries: Item Number Due Date \u2610 Other: [List Other Shipping, Delivery or Special Requirements.] Electro...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "d5916b323454c17d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-b989038906acbad1",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-2b41dcec46788f3e"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-2b41dcec46788f3e",
+          "locator": "states_requirement:of packaging material \u2610 equipment set up \u2610 start-up services \u2610 turnkey installation \u2610 other: [enter details] note: tpoc shall be the coordination poc. facility / utility considerations \u2612 n/a [list site specific utility considerations by item] \u2610 ofpm work order numbers [list work order numbers] \u2610 po...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "of Packaging Material \u2610 Equipment Set Up \u2610 Start-Up Services \u2610 Turnkey Installation \u2610 Other: [Enter Details] NOTE: TPOC shall be the coordination POC. Facility / Utility Considerations \u2612 N/A [List Site Specific Utility Considerations by Item] \u2610 OFPM Work Order Numbers [List Work Order Numbers] \u2610 Po...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "2a2940b36fe89876"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-7e979057b646f078",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-1237a6302521cfc8"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-1237a6302521cfc8",
+          "locator": "states_requirement:\u2610 number of trainees: [enter number of trainees] \u2610 on-site \u2610 off-site location: [enter location(s)] is trainee travel required: [choose answer] scope of training \u2610 operation \u2610 maintenance \u2610 troubleshooting \u2610 safety \u2610 other [enter other scope of training requirements] \u2610 training materials to be prov...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "\u2610 Number of Trainees: [Enter Number of Trainees] \u2610 On-Site \u2610 Off-Site Location: [Enter Location(s)] Is Trainee Travel Required: [Choose Answer] Scope of Training \u2610 Operation \u2610 Maintenance \u2610 Troubleshooting \u2610 Safety \u2610 Other [Enter Other Scope of Training Requirements] \u2610 Training Materials to be Prov...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "8a788f30fe39d58b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-d30f1357f2f3697d",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-b76913ae7d564aa5"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-b76913ae7d564aa5",
+          "locator": "states_requirement:training materials to be provided by vendor: [describe materials] \u2610 other [enter other training requirements] note: sme shall be coordination poc. warranty \u2610 n/a base manufacturer warranty is acceptable warranty length: [i.e. 3 - years] what is included? requirements / specification document \u2610 labo...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "Training Materials to be Provided by Vendor: [Describe Materials] \u2610 Other [Enter Other Training Requirements] NOTE: SME shall be coordination POC. Warranty \u2610 N/A Base Manufacturer Warranty is acceptable Warranty Length: [i.e. 3 - Years] What is included? Requirements / Specification Document \u2610 Labo...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "e66639d6a413e0da"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the submission instructions rule",
+      "claim_id": "claim-627fbc966f1e1d75",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-82b38dc2a80c035c"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-82b38dc2a80c035c",
+          "locator": "states_submission_instruction:award date \u2610 delivery shall be made no earlier than: click or tap to enter a date. \u2610 scheduled deliveries: item number due date \u2610 other: [list other shipping, delivery or special requirements.] electronic media [enter electronic media requirements by item.] requirements / specification document \u2612 n...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "award date \u2610 Delivery Shall Be Made No Earlier Than: Click or tap to enter a date. \u2610 Scheduled Deliveries: Item Number Due Date \u2610 Other: [List Other Shipping, Delivery or Special Requirements.] Electronic Media [Enter Electronic Media Requirements by Item.] Requirements / Specification Document \u2612 N...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "22bf7ed39ebc952c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
       "claim_id": "claim-9158ae3973b9979f",
       "confidence": "medium",
       "controlling_status": "not_established",
@@ -66568,6 +68368,562 @@
     },
     {
       "authority": "analytical",
+      "basis": "Deterministic qualification score 41 / 100 with 72 / 100 evidence completeness",
+      "claim_id": "claim-81b56a892605d236",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +8",
+              "actionable procurement_opportunity +8",
+              "closing_this_month +9",
+              "technology fit +4",
+              "new since yesterday +5"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "72 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d6568c226f0745c087ac45acfc446e49"
+            ],
+            "points": 7
+          },
+          {
+            "basis": [
+              "No public risk penalty"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view"
+            ],
+            "points": 0
+          }
+        ],
+        "evidence_ids": [
+          "evidence-075bdcb08b78b6b5",
+          "evidence-391ef0c1fec572b3",
+          "evidence-4766498e3dc7af84",
+          "evidence-853a3b93e98980a1",
+          "evidence-88c0d33b002b66cd",
+          "evidence-a7020fa71777b8ce",
+          "evidence-b03b5faab1fed457",
+          "evidence-b1329a36bd73d5cb",
+          "evidence-b1f6234755fbcab5",
+          "evidence-b6c945a346f0006c",
+          "evidence-bb18decff7fbcf7a",
+          "evidence-c1aeef31d3f20e73",
+          "evidence-c1db4061097499ef",
+          "evidence-cac860762f07c1d2",
+          "evidence-d2786a3b5e6d0cc9",
+          "evidence-d6de18d7d9621c36",
+          "evidence-d816a33face3a934"
+        ],
+        "input_claim_hashes": {
+          "claim-0ae1ee2a7f6edcef": "0f1ab49d5bbc11b4",
+          "claim-2f8e4f96f7ee2e59": "fc610e2002c691e4",
+          "claim-302931d3ee863d69": "aee993cdb20d83ad",
+          "claim-3e1eeafc9fe9d6a8": "ad9e93fa29f8e702",
+          "claim-58b8c57de83f1ec1": "6810d29ea80c10e3",
+          "claim-6d356034e52f120e": "ad7aa2df474e1689",
+          "claim-7a453d674c797094": "099179cea7ed7b70",
+          "claim-80609c2f0cfe0aef": "402abb772cb0238f",
+          "claim-97762cfcdf68c91f": "550736487e6c7dec",
+          "claim-a7d93d9ef462fa45": "b61b7384a8c7a6e8",
+          "claim-d09e559635c7889b": "a65aa698fb0427fc",
+          "claim-d691e36ce709d2d5": "85f20defb73a14b4",
+          "claim-db5768cabd0c6582": "3d3ca0012f1d5992",
+          "claim-fcae4ce50dc775d2": "9dba80983a89d51d"
+        },
+        "input_claim_ids": [
+          "claim-0ae1ee2a7f6edcef",
+          "claim-2f8e4f96f7ee2e59",
+          "claim-302931d3ee863d69",
+          "claim-3e1eeafc9fe9d6a8",
+          "claim-58b8c57de83f1ec1",
+          "claim-6d356034e52f120e",
+          "claim-7a453d674c797094",
+          "claim-80609c2f0cfe0aef",
+          "claim-97762cfcdf68c91f",
+          "claim-a7d93d9ef462fa45",
+          "claim-d09e559635c7889b",
+          "claim-d691e36ce709d2d5",
+          "claim-db5768cabd0c6582",
+          "claim-fcae4ce50dc775d2"
+        ],
+        "input_claim_versions": {
+          "claim-0ae1ee2a7f6edcef": 1,
+          "claim-2f8e4f96f7ee2e59": 1,
+          "claim-302931d3ee863d69": 1,
+          "claim-3e1eeafc9fe9d6a8": 1,
+          "claim-58b8c57de83f1ec1": 1,
+          "claim-6d356034e52f120e": 1,
+          "claim-7a453d674c797094": 1,
+          "claim-80609c2f0cfe0aef": 1,
+          "claim-97762cfcdf68c91f": 1,
+          "claim-a7d93d9ef462fa45": 1,
+          "claim-d09e559635c7889b": 1,
+          "claim-d691e36ce709d2d5": 1,
+          "claim-db5768cabd0c6582": 1,
+          "claim-fcae4ce50dc775d2": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 41,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d6568c226f0745c087ac45acfc446e49"
+        ],
+        "trace_complete": true,
+        "trace_hash": "1ca826db18dc471b",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-0ae1ee2a7f6edcef",
+          "claim-2f8e4f96f7ee2e59",
+          "claim-302931d3ee863d69",
+          "claim-3e1eeafc9fe9d6a8",
+          "claim-58b8c57de83f1ec1",
+          "claim-6d356034e52f120e",
+          "claim-7a453d674c797094",
+          "claim-80609c2f0cfe0aef",
+          "claim-97762cfcdf68c91f",
+          "claim-a7d93d9ef462fa45",
+          "claim-d09e559635c7889b",
+          "claim-d691e36ce709d2d5",
+          "claim-db5768cabd0c6582",
+          "claim-fcae4ce50dc775d2"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-bb18decff7fbcf7a",
+        "evidence-b1329a36bd73d5cb",
+        "evidence-075bdcb08b78b6b5"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bb18decff7fbcf7a",
+          "locator": "qualification_gate",
+          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+          "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b1329a36bd73d5cb",
+          "locator": "qualification_gate",
+          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d6568c226f0745c087ac45acfc446e49",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "targeted review",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5779ce773bb9d77e"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 37 / 100 with 36 / 100 evidence completeness",
+      "claim_id": "claim-5cc2a92c43adc6ea",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +8",
+              "actionable procurement_opportunity +8",
+              "closing_this_month +9",
+              "technology fit +4",
+              "new since yesterday +5"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "36 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7f507de2693c425ba6bf200289f6991e/download",
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c420383a6e6246aa909bfa686165dadd/download",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a916c0fefe6645099291c9d44fdfe3de"
+            ],
+            "points": 3
+          },
+          {
+            "basis": [
+              "No public risk penalty"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view"
+            ],
+            "points": 0
+          }
+        ],
+        "evidence_ids": [
+          "evidence-075bdcb08b78b6b5",
+          "evidence-1237a6302521cfc8",
+          "evidence-2b41dcec46788f3e",
+          "evidence-2bb9c70a0730ece0",
+          "evidence-47aacc1ecbb0a686",
+          "evidence-57e5475fba6fade0",
+          "evidence-732c8e9d2ebaa994",
+          "evidence-7f3ff307512065cd",
+          "evidence-82b38dc2a80c035c",
+          "evidence-93830968ee96828e",
+          "evidence-a7e5dcf8ab8bbdc9",
+          "evidence-ac45846579bed40d",
+          "evidence-b76913ae7d564aa5",
+          "evidence-b9bd6748fc405c29",
+          "evidence-ef2b90bae4bc8360"
+        ],
+        "input_claim_hashes": {
+          "claim-0d173e453afc4079": "4e20c6c40ffde724",
+          "claim-1db5740e0a4fccca": "b983fcb5af92ed17",
+          "claim-627fbc966f1e1d75": "22bf7ed39ebc952c",
+          "claim-74f3145df56383a8": "906cbe2b3145843a",
+          "claim-7e979057b646f078": "8a788f30fe39d58b",
+          "claim-9efa7600c21a8876": "d5916b323454c17d",
+          "claim-b989038906acbad1": "2a2940b36fe89876",
+          "claim-c7c36d009d838b49": "8e8f0abb4347fbf9",
+          "claim-d30f1357f2f3697d": "e66639d6a413e0da",
+          "claim-f49da2a60f4720ce": "02cc2bedb0566c52"
+        },
+        "input_claim_ids": [
+          "claim-0d173e453afc4079",
+          "claim-1db5740e0a4fccca",
+          "claim-627fbc966f1e1d75",
+          "claim-74f3145df56383a8",
+          "claim-7e979057b646f078",
+          "claim-9efa7600c21a8876",
+          "claim-b989038906acbad1",
+          "claim-c7c36d009d838b49",
+          "claim-d30f1357f2f3697d",
+          "claim-f49da2a60f4720ce"
+        ],
+        "input_claim_versions": {
+          "claim-0d173e453afc4079": 1,
+          "claim-1db5740e0a4fccca": 1,
+          "claim-627fbc966f1e1d75": 1,
+          "claim-74f3145df56383a8": 1,
+          "claim-7e979057b646f078": 1,
+          "claim-9efa7600c21a8876": 1,
+          "claim-b989038906acbad1": 1,
+          "claim-c7c36d009d838b49": 1,
+          "claim-d30f1357f2f3697d": 1,
+          "claim-f49da2a60f4720ce": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 37,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7f507de2693c425ba6bf200289f6991e/download",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c420383a6e6246aa909bfa686165dadd/download",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a916c0fefe6645099291c9d44fdfe3de"
+        ],
+        "trace_complete": true,
+        "trace_hash": "59904c811cae63f3",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-0d173e453afc4079",
+          "claim-1db5740e0a4fccca",
+          "claim-627fbc966f1e1d75",
+          "claim-74f3145df56383a8",
+          "claim-7e979057b646f078",
+          "claim-9efa7600c21a8876",
+          "claim-b989038906acbad1",
+          "claim-c7c36d009d838b49",
+          "claim-d30f1357f2f3697d",
+          "claim-f49da2a60f4720ce"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-93830968ee96828e",
+        "evidence-ef2b90bae4bc8360",
+        "evidence-57e5475fba6fade0",
+        "evidence-b9bd6748fc405c29",
+        "evidence-075bdcb08b78b6b5"
+      ],
+      "first_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-93830968ee96828e",
+          "locator": "qualification_gate",
+          "title": "Power Sensor Check Standard",
+          "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ef2b90bae4bc8360",
+          "locator": "qualification_gate",
+          "title": "Power Sensor Check Standard",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-57e5475fba6fade0",
+          "locator": "qualification_gate",
+          "title": "Power Sensor Check Standard",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7f507de2693c425ba6bf200289f6991e/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b9bd6748fc405c29",
+          "locator": "qualification_gate",
+          "title": "Power Sensor Check Standard",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c420383a6e6246aa909bfa686165dadd/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Power Sensor Check Standard",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a916c0fefe6645099291c9d44fdfe3de",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "65495ee875fa1729"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 19 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-6350e656e83b6c0c",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/362903"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "Compressed response window: 3 day(s)"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/362903"
+            ],
+            "points": -15
+          }
+        ],
+        "evidence_ids": [
+          "evidence-cf88da35c5d41da1",
+          "evidence-eec85df81a79e6b8"
+        ],
+        "input_claim_hashes": {
+          "claim-425d972838fab3fc": "bd1a9057b7dac683"
+        },
+        "input_claim_ids": [
+          "claim-425d972838fab3fc"
+        ],
+        "input_claim_versions": {
+          "claim-425d972838fab3fc": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 19,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/362903"
+        ],
+        "trace_complete": true,
+        "trace_hash": "e35356d688d7501b",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-425d972838fab3fc"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-05",
+      "evidence_ids": [
+        "evidence-cf88da35c5d41da1"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 31 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-cf88da35c5d41da1"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 1,
+          "version_hash": "18a869cef99f82d9"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-cf88da35c5d41da1"
+          ],
+          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 2,
+          "version_hash": "c124846ddaf965af"
+        }
+      ],
+      "last_seen_at": "2026-08-05T01:53:11.626011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cf88da35c5d41da1",
+          "locator": "qualification_gate",
+          "title": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
+          "url": "https://www.grants.gov/search-results-detail/362903",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:OFOP0002813",
+        "label": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
+        "node_id": "opportunity:grants_gov:OFOP0002813",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 3,
+      "version_hash": "8685a28a6478074e"
+    },
+    {
+      "authority": "analytical",
       "basis": "Deterministic qualification score 24 / 100 with 48 / 100 evidence completeness",
       "claim_id": "claim-5071fa2e8d0a78dc",
       "confidence": "medium",
@@ -66857,9 +69213,9 @@
       "first_seen_at": "2026-08-04T21:31:34.443424+00:00",
       "history": [],
       "last_seen_at": "2026-08-04T21:31:34.443424+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -66982,9 +69338,9 @@
       "first_seen_at": "2026-08-04T21:31:34.443424+00:00",
       "history": [],
       "last_seen_at": "2026-08-04T21:31:34.443424+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -68264,131 +70620,6 @@
       "verification_status": "source_reported",
       "version": 3,
       "version_hash": "739f5aadc42a9eda"
-    },
-    {
-      "authority": "analytical",
-      "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-6350e656e83b6c0c",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +4"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/362903"
-            ],
-            "points": 34
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/362903"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-cf88da35c5d41da1",
-          "evidence-eec85df81a79e6b8"
-        ],
-        "input_claim_hashes": {
-          "claim-425d972838fab3fc": "bd1a9057b7dac683"
-        },
-        "input_claim_ids": [
-          "claim-425d972838fab3fc"
-        ],
-        "input_claim_versions": {
-          "claim-425d972838fab3fc": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 26,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/362903"
-        ],
-        "trace_complete": true,
-        "trace_hash": "e35356d688d7501b",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-425d972838fab3fc"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-08-03",
-      "evidence_ids": [
-        "evidence-cf88da35c5d41da1"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [
-        {
-          "authority": "analytical",
-          "basis": "Deterministic qualification score 31 / 100 with 0 / 100 evidence completeness",
-          "confidence": "medium",
-          "evidence_ids": [
-            "evidence-cf88da35c5d41da1"
-          ],
-          "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-          "object": null,
-          "status": "active",
-          "value": "hold",
-          "version": 1,
-          "version_hash": "18a869cef99f82d9"
-        }
-      ],
-      "last_seen_at": "2026-08-03T02:07:21.978304+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cf88da35c5d41da1",
-          "locator": "qualification_gate",
-          "title": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
-          "url": "https://www.grants.gov/search-results-detail/362903",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:OFOP0002813",
-        "label": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
-        "node_id": "opportunity:grants_gov:OFOP0002813",
-        "node_type": "opportunity"
-      },
-      "value": "hold",
-      "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "c124846ddaf965af"
     },
     {
       "authority": "analytical",
@@ -71674,7 +73905,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71721,7 +73952,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71768,7 +73999,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71815,7 +74046,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71862,7 +74093,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71909,7 +74140,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -71956,7 +74187,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72003,7 +74234,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72050,7 +74281,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72097,7 +74328,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72144,7 +74375,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72191,7 +74422,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72238,7 +74469,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72285,7 +74516,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72332,7 +74563,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72379,7 +74610,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72426,7 +74657,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72473,7 +74704,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72525,7 +74756,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72577,7 +74808,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72629,7 +74860,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72681,7 +74912,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72733,7 +74964,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72785,7 +75016,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72837,7 +75068,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72889,7 +75120,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -72941,7 +75172,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-04T21:59:52.984007+00:00",
+      "retracted_at": "2026-08-05T01:53:11.626011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -73117,6 +75348,16 @@
       "locator": "awarding_agency:doe federal science missions",
       "title": "Genesis Mission Workforce Development RFI Summary",
       "url": "https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-02b87e0765ffcfa1",
+      "locator": "uei:evtsttlcews5",
+      "title": "UNIVERSITY OF OKLAHOMA",
+      "url": "https://sam.gov/entity/EVTSTTLCEWS5/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -73455,8 +75696,8 @@
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-075bdcb08b78b6b5",
       "locator": "qualification_gate",
-      "title": "Autonomous Mower Maintenance Service",
-      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fe5715b9bd81493b8ed022605992acb6",
+      "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d6568c226f0745c087ac45acfc446e49",
       "verification_status": "source_reported"
     },
     {
@@ -73597,6 +75838,16 @@
       "locator": "reported_recipient:recipient_or_contractor:name:university of california santa cruz",
       "title": "CAREER: ANALOG MEMORY LEAKS: MITIGATING REMANENCE SIDE-CHANNELS IN ANALOG COMPUTE-IN-MEMORY HARDWARE -NEXT-GENERATION ARTIFICIAL INTELLIGENCE SYSTEMS USE ANALOG ARITHMETIC TO VAST...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2541678_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-09627d0e779eccb4",
+      "locator": "registration_status:active",
+      "title": "UNIVERSITY OF OKLAHOMA",
+      "url": "https://sam.gov/entity/EVTSTTLCEWS5/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -74208,6 +76459,16 @@
       "title": "Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria",
       "url": "https://www.grants.gov/search-results-detail/363121",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-1237a6302521cfc8",
+      "locator": "states_requirement:\u2610 number of trainees: [enter number of trainees] \u2610 on-site \u2610 off-site location: [enter location(s)] is trainee travel required: [choose answer] scope of training \u2610 operation \u2610 maintenance \u2610 troubleshooting \u2610 safety \u2610 other [enter other scope of training requirements] \u2610 training materials to be prov...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -75633,6 +77894,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-29890371cfe43def",
+      "locator": "awarding_agency:veterans affairs, department of.veterans affairs, department of.rpo west (36c24w)",
+      "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+      "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-29e3966df2bfcdf2",
       "locator": "deadline:08/30/2026",
       "title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
@@ -75691,6 +77962,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-2b41dcec46788f3e",
+      "locator": "states_requirement:of packaging material \u2610 equipment set up \u2610 start-up services \u2610 turnkey installation \u2610 other: [enter details] note: tpoc shall be the coordination poc. facility / utility considerations \u2612 n/a [list site specific utility considerations by item] \u2610 ofpm work order numbers [list work order numbers] \u2610 po...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-2b7095ebbd904753",
@@ -75718,6 +77999,16 @@
       "title": "MAINTENANCE FOR QUANTUM BACKUP/RECOVERY HARDWARE. IT PACT 26-478 DBIT 125495",
       "url": "https://www.usaspending.gov/award/CONT_AWD_13TECH26F0041_1323_NNG15SD72B_8000/",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-2bb9c70a0730ece0",
+      "locator": "states_requirement:t any visits required to allow potential vendors to see site specific constraints. [explain requirements.] \u2610 us citizen required on-site (foreign nationals require pre- registration 30 days prior to visit.) \u2610 vendor representative on-site more than three (3) days. \u2610 other considerations: [list othe...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -76529,6 +78820,16 @@
       "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
       "url": "https://www.grants.gov/search-results-detail/363440",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-391ef0c1fec572b3",
+      "locator": "states_requirement:age 115 / 230 vac +/- 10% 60/50hz must have exposure time range 0.02-3.2 seconds must have reach of 85 inches or 216 cm must have beam limiting cone dimensions round diameter 2.36 inches (60 mm), rectangular 1.38 x 1.77 inches (35 x 45 mm) ssd (source-skin distance): standard cone 9 inches (229 mm)...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -77364,6 +79665,26 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-4766498e3dc7af84",
+      "locator": "deadline:2026-08-18t16:00:00-05:00",
+      "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+      "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-47aacc1ecbb0a686",
+      "locator": "states_requirement:ment] delivery date criteria: \u2612 delivery shall be competed no later than: 12 weeks after contract award date \u2610 delivery shall be made no earlier than: click or tap to enter a date. \u2610 scheduled deliveries: item number due date \u2610 other: [list other shipping, delivery or special requirements.] electro...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-47b6fd0c67bcce6f",
       "locator": "awarding_agency:hhs-nih11",
       "title": "Integrated Specific Pathogen Free Research Models and Human New Approach Methodologies to Advance HIV/AIDS Research (U42 Clinical Trial Not Allowed)",
@@ -77678,6 +79999,16 @@
       "locator": "qualification_gate",
       "title": "Research Training Groups in the Mathematical Sciences",
       "url": "https://www.grants.gov/search-results-detail/353962",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-4cee3e5eaeb4fcce",
+      "locator": "cage_code:80230",
+      "title": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+      "url": "https://sam.gov/entity/E2NYLCDML6V1/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -78428,6 +80759,16 @@
       "locator": "awarding_agency:dos-tun",
       "title": "Annual Program Statement (APS) For Fiscal Year 2026",
       "url": "https://www.grants.gov/search-results-detail/362086",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-57e5475fba6fade0",
+      "locator": "qualification_gate",
+      "title": "Power Sensor Check Standard",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7f507de2693c425ba6bf200289f6991e/download",
       "verification_status": "source_reported"
     },
     {
@@ -79504,6 +81845,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-6e4e95f7530f1cec",
+      "locator": "registration_status:active",
+      "title": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+      "url": "https://sam.gov/entity/E2NYLCDML6V1/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-6e5c50bc34b9857b",
       "locator": "qualification_gate",
       "title": "NSF National Quantum Virtual Laboratory - Quantum Testbeds",
@@ -79654,6 +82005,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-719836b817410a9d",
+      "locator": "cage_code:3g168",
+      "title": "UNIVERSITY OF OKLAHOMA",
+      "url": "https://sam.gov/entity/EVTSTTLCEWS5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-71e64934ee5311ec",
       "locator": "awarding_agency:department of veterans affairs",
       "title": "QUANTUM OUTBACK PWC",
@@ -79702,6 +82063,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-732c8e9d2ebaa994",
+      "locator": "states_requirement:information and ancillary services: section requirements/specifications planning considerations \u2612 n/a \u2610 list any visits required to allow potential vendors to see site specific constraints. [explain requirements.] \u2610 us citizen required on-site (foreign nationals require pre- registration 30 days pr...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-7332bef89d2f3087",
@@ -79738,6 +82109,16 @@
       "locator": "opportunity_status:open",
       "title": "Freedom250 Advancing U.S. Artificial Intelligence Leadership in Algeria",
       "url": "https://www.grants.gov/search-results-detail/363121",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-73a6660dad25bef9",
+      "locator": "legal_business_name:massachusetts institute of technology",
+      "title": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+      "url": "https://sam.gov/entity/E2NYLCDML6V1/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -80494,6 +82875,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7f3ff307512065cd",
+      "locator": "deadline:2026-08-18t17:00:00-06:00",
+      "title": "Power Sensor Check Standard",
+      "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-7f6b4ade0985dfda",
       "locator": "qualification_gate",
       "title": "National Cybersecurity Preparedness Consortium",
@@ -80619,6 +83010,16 @@
       "title": "CRIBL SOFTWARE LICENSE SUBSCRIPTION CYBERSECURITY DATA PROTECTIONS CATALOG ORDER.",
       "url": "https://www.usaspending.gov/award/CONT_AWD_75F40126F80059_7524_NNG15SC71B_8000/",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-82b38dc2a80c035c",
+      "locator": "states_submission_instruction:award date \u2610 delivery shall be made no earlier than: click or tap to enter a date. \u2610 scheduled deliveries: item number due date \u2610 other: [list other shipping, delivery or special requirements.] electronic media [enter electronic media requirements by item.] requirements / specification document \u2612 n...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -80769,6 +83170,16 @@
       "title": "COLLABORATIVE RESEARCH: MULTISITE REU IN SYNTHETIC BIOLOGY -THIS REU SITE AWARD TO SIMMONS UNIVERSITY, LOCATED IN BOSTON, MA AND NORTH CAROLINA A&T UNIVERSITY, IN GREENSBORO, NC W...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2548271_049",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-853a3b93e98980a1",
+      "locator": "states_eligibility_term:60 response date/time/zone 08-18-2026 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of performance bakersfield cboc 900 old river rd bakersfield ca postal code 93311 country united states contact informa...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -81039,6 +83450,16 @@
       "title": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
       "url": "https://sam.gov/entity/NPU8ULVAAS23/coreData",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-88c0d33b002b66cd",
+      "locator": "states_eligibility_term:26 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of performance bakersfield cboc 900 old river rd bakersfield ca postal code 93311 country united states contact information contracting office address reg...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -81452,6 +83873,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-921e849f4067241b",
+      "locator": "states_deliverable:performance: equipment shall be delivered and installed to/at bakersfield cboc, 900 old river rd., bakerfield, ca 93311 period of performance : delivery and installation no later than october 31, 2026",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-922281c1b01ee246",
@@ -81538,6 +83969,16 @@
       "locator": "opportunity_status:awarded",
       "title": "COLLABORATIVE RESEARCH: SATC 2.0: RES: POST-QUANTUM CRYPTOGRAPHIC PROTOCOLS WITH ADVANCED FUNCTIONALITIES -THIS PROJECT AIMS TO DEVELOP THE CRYPTOGRAPHIC FOUNDATIONS FOR SECURE CO...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2528910_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-93830968ee96828e",
+      "locator": "qualification_gate",
+      "title": "Power Sensor Check Standard",
+      "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
       "verification_status": "source_reported"
     },
     {
@@ -82354,6 +84795,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-a367205d1e153228",
+      "locator": "opportunity_status:open",
+      "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+      "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-a39375a3a282c799",
       "locator": "reported_amount:77019.0",
       "title": "VALIDATING ARTIFICIAL INTELLIGENCE BASED SURGICAL SKILL ASSESSMENT FOR ROBOTIC HIATAL HERNIA REPAIR USING A DEEP LEARNING VISION TRANSFORMER MODEL - PROJECT SUMMARY/ABSTRACT SURGI...",
@@ -82532,6 +84983,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-a7020fa71777b8ce",
+      "locator": "states_eligibility_term:6c24w26q0060 response date/time/zone 08-18-2026 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of performance bakersfield cboc 900 old river rd bakersfield ca postal code 93311 country united states conta...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-a758fc4f5275b969",
@@ -82564,6 +85025,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-a7a27ccb98f35afe",
+      "locator": "set_aside:small business set aside - total",
+      "title": "Power Sensor Check Standard",
+      "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-a7a575c023784e7c",
       "locator": "deadline:09/30/2026",
       "title": "FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program",
@@ -82579,6 +85050,16 @@
       "title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
       "url": "https://www.grants.gov/search-results-detail/359862",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-a7e5dcf8ab8bbdc9",
+      "locator": "states_requirement:ia: \u2610 partial delivery acceptable \u2610 [enter shipping and delivery information by item.] \u2610 direct delivery to ou building required [explain need for requirement] building /room number: [enter building/room number] \u2610 building has loading dock containerization preference: [enter container type] other r...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -82852,6 +85333,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-ac45846579bed40d",
+      "locator": "states_requirement:preference: [enter container type] other requirements: [list any other requirement] delivery date criteria: \u2612 delivery shall be competed no later than: 12 weeks after contract award date \u2610 delivery shall be made no earlier than: click or tap to enter a date. \u2610 scheduled deliveries: item number due...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-ace080cdd2c4fc25",
@@ -82898,6 +85389,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:H53MXWJZPYU3",
       "title": "PROJECT ARES (ADVANCED RECONFIGURABLE AND EVOLVING SWARM) A QUANTUM-SECURE GENERATIVE ARTIFICIAL INTELLIGENCE FOR ROBUST AND ADAPTIVE DRONE SWARMS",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0198_9700_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ae05d56c7735523a",
+      "locator": "opportunity_status:open",
+      "title": "Power Sensor Check Standard",
+      "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
       "verification_status": "source_reported"
     },
     {
@@ -83012,6 +85513,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-b03b5faab1fed457",
+      "locator": "states_requirement:f pixels: size 1 1.6m (1026 x 1539), size 2 2.4m (1324 x 1842) resolution: theoretical: 25.6 lp /mm visible: 20+ lp /mm must have usb 2.0 port must be capable with most common image acquisition and clinic management software sloped dome housing, rounded corners and edges dimension: 1\u201dd x 1.02\u201dw x 1...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-b07c53be8acde5fa",
@@ -83068,6 +85579,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:DQDBM7FGJPC5",
       "title": "CAREER: EQUIVARIANT ANALYSIS: AT THE CROSSROADS OF DESCRIPTIVE SET THEORY, DYNAMICAL SYSTEMS, AND CLASSICAL ANALYSIS -THIS PROJECT AIMS TO FURTHER DEVELOP EQUIVARIANT ANALYSIS, A...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2540790_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-b1329a36bd73d5cb",
+      "locator": "qualification_gate",
+      "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
       "verification_status": "source_reported"
     },
     {
@@ -83149,6 +85670,16 @@
       "title": "Vietnam CyberSafe Hacks 2026",
       "url": "https://www.grants.gov/search-results-detail/363062",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-b1f6234755fbcab5",
+      "locator": "states_requirement:urrent 7 ma focal spot 0.7 mm to iec 60336 total filtration 2.0 mm ai (70kv) line voltage 115 / 230 vac +/- 10% 60/50hz must have exposure time range 0.02-3.2 seconds must have reach of 85 inches or 216 cm must have beam limiting cone dimensions round diameter 2.36 inches (60 mm), rectangular 1.38...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -83452,6 +85983,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-b6c945a346f0006c",
+      "locator": "states_requirement:long cone 12 inches (305 mm) dimension: 85\u201d d x 46\u201d w x 47\u201d h x6610 \u2013 sensor, dental imaging system \u2013 dexis ixs sensor must include size 1 (child) and size 2 (standard) thermoplastic resin coating 2.5 m / 3 mm long kevlar reinforced cable pixel size: 19.5 micrometer (um) number of pixels: size 1 1....",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-b6f23406fd95ed8b",
@@ -83469,6 +86010,16 @@
       "title": "PROGRAM MANAGEMENT, TECHNICAL & SYSTEMS ENGINEERING, CYBERSECURITY, AND LIFE-CYCLE LOGISTICS SUPPORT TO THE USCG UNMANNED AVIATION SYSTEMS (UAS) PROGRAM OFFICE WITHIN THE ROBOTICS...",
       "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326F93130001_7008_47QRCA25DA145_4732",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-b76913ae7d564aa5",
+      "locator": "states_requirement:training materials to be provided by vendor: [describe materials] \u2610 other [enter other training requirements] note: sme shall be coordination poc. warranty \u2610 n/a base manufacturer warranty is acceptable warranty length: [i.e. 3 - years] what is included? requirements / specification document \u2610 labo...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -83624,6 +86175,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-b9bd6748fc405c29",
+      "locator": "qualification_gate",
+      "title": "Power Sensor Check Standard",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c420383a6e6246aa909bfa686165dadd/download",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-ba396577db5bba76",
       "locator": "reported_recipient:recipient_or_contractor:name:zcore group",
       "title": "ARTIFICIAL INTELLIGENCE LLM API",
@@ -83648,6 +86209,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:LL8GLEVH6MG3",
       "title": "CICI: UCSS: INNOVATIONS FOR SECURING HPC CYBERINFRASTRUCTURE: COMPRESSION-ENABLED CONFIDENTIALITY AND VERIFIABLE PROVENANCE -THIS PROJECT DEVELOPS PRACTICAL SECURITY MECHANISMS FO...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2613709_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-bb18decff7fbcf7a",
+      "locator": "qualification_gate",
+      "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+      "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
       "verification_status": "source_reported"
     },
     {
@@ -84019,6 +86590,26 @@
       "title": "CMASS IV WILL ENHANCE USCIS CYBERSECURITY POSTURE BY PROVIDING EXPERT PERSONNEL TO SUPPORT CONTINUOUS MONITORING, RISK AWARE DECISION-MAKING, AND SECURITY AUTHORIZATION. POP 8/1/2...",
       "url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000163_7003_47QTCB22D0257_4732/",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-c1aeef31d3f20e73",
+      "locator": "states_submission_instruction:tion number* 36c24w26q0060 response date/time/zone 08-18-2026 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of performance bakersfield cboc 900 old river rd bakersfield ca postal code 93311 country unite...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-c1db4061097499ef",
+      "locator": "states_requirement:ctions cover all the extraoral imaging bitewing-like view is a quick and easy alternative to intraoral bitewing imaging must be able to provide the optimum panoramic image layer automatically image volume: 5x5, 6x9, 9x11 image detector: cmos image voxel size: 80-400 micrometer (um) tube voltage: 95...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -84512,6 +87103,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-cac860762f07c1d2",
+      "locator": "states_requirement:l filtration 2.0 mm ai (70kv) line voltage 115 / 230 vac +/- 10% 60/50hz must have exposure time range 0.02-3.2 seconds must have reach of 85 inches or 216 cm must have beam limiting cone dimensions round diameter 2.36 inches (60 mm), rectangular 1.38 x 1.77 inches (35 x 45 mm) ssd (source-skin dis...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-cace204d9e546a67",
@@ -84742,6 +87343,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-ce84d0fefe43a598",
+      "locator": "states_deadline:kersfield cboc, 900 old river rd., bakerfield, ca 93311 period of performance : delivery and installation no later than october 31, 2026",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-ceba350f113fda0a",
@@ -84944,6 +87555,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d160dd51183c9d10",
+      "locator": "uei:e2nylcdml6v1",
+      "title": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+      "url": "https://sam.gov/entity/E2NYLCDML6V1/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-d17c295352e57d38",
       "locator": "reported_amount:94998.0",
       "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: PILOT: A ZERO TRUST-BASED SECURITY TRAINING PROGRAM IN OPEN RAN CYBERINFRASTRUCTURE -THE OPEN RADIO ACCESS NETWORK (O-RAN) HAS EMERGED AS A...",
@@ -84999,6 +87620,26 @@
       "title": "THIS REQUIREMENT IS FOR ENHANCEMENTS AND REPLACEMENT OF VTC AND AV EQUIPMENT AND CABLING WITHIN THE SELFRIDGE AIR NATIONAL GUARD, ROBOTIC AND AUTONOMOUS SYSTEMS CONFERENCE ROOMS (...",
       "url": "https://www.usaspending.gov/award/CONT_AWD_W912CH25FA196_9700_W52P1J16D0014_9700/",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d23c86a69feb07f5",
+      "locator": "set_aside:service-disabled veteran-owned small business (sdvosb) set-aside (far 19.14)",
+      "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+      "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-d2786a3b5e6d0cc9",
+      "locator": "states_submission_instruction:units and sensor equipment general information contracting office\u2019s zip code* 95652 solicitation number* 36c24w26q0060 response date/time/zone 08-18-2026 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -85252,6 +87893,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-d6de18d7d9621c36",
+      "locator": "states_requirement:1026 x 1539), size 2 2.4m (1324 x 1842) resolution: theoretical: 25.6 lp /mm visible: 20+ lp /mm must have usb 2.0 port must be capable with most common image acquisition and clinic management software sloped dome housing, rounded corners and edges dimension: 1\u201dd x 1.02\u201dw x 1.42\u201dh x6505 \u2013 radiograp...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-d6e9e2077ce6bf54",
@@ -85359,6 +88010,16 @@
       "title": "ULTRA-SECURE, POST-QUANTUM COMMUNICATIONS AND ENCRYPTIONS (US-PQC/E)",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0324_9700_-NONE-_-NONE-/",
       "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+      "controlling_status": "not_established",
+      "evidence_id": "evidence-d816a33face3a934",
+      "locator": "states_requirement:it(s) and sensor(s) equipment and installation. x6600 \u2013 radiographic unit, dental, wall mounted \u2013 dexis focus intraoral must include generator constant potential high voltage dc, 100-200khz tube voltage 60 or 70 kv tube current 7 ma focal spot 0.7 mm to iec 60336 total filtration 2.0 mm ai (70kv) l...",
+      "title": "download",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+      "verification_status": "analyst_verification_required"
     },
     {
       "authority": "authoritative",
@@ -85968,6 +88629,26 @@
       "locator": "opportunity_status:open",
       "title": "Transport Phenomena (TP)",
       "url": "https://www.grants.gov/search-results-detail/362063",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e289b83abfa041e5",
+      "locator": "legal_business_name:university of oklahoma",
+      "title": "UNIVERSITY OF OKLAHOMA",
+      "url": "https://sam.gov/entity/EVTSTTLCEWS5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e31ca2866b775f75",
+      "locator": "awarding_agency:commerce, department of.national institute of standards and technology.dept of commerce nist",
+      "title": "Power Sensor Check Standard",
+      "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
       "verification_status": "source_reported"
     },
     {
@@ -86788,6 +89469,16 @@
       "locator": "deadline:08/08/2026",
       "title": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
       "url": "https://www.grants.gov/search-results-detail/362903",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ef2b90bae4bc8360",
+      "locator": "qualification_gate",
+      "title": "Power Sensor Check Standard",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
       "verification_status": "source_reported"
     },
     {
@@ -87824,16 +90515,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 1469,
-    "authoritative_claims": 1393,
+    "active_claims": 1511,
+    "authoritative_claims": 1433,
     "conflicted_claims": 0,
-    "derived_claims": 73,
-    "evidence_items": 1485,
-    "source_urls": 501,
-    "subjects": 350,
+    "derived_claims": 75,
+    "evidence_items": 1531,
+    "source_urls": 511,
+    "subjects": 354,
     "superseded_claims": 0,
-    "total_claims": 1496
+    "total_claims": 1538
   },
-  "updated_at": "2026-08-04T21:59:52.984007+00:00",
+  "updated_at": "2026-08-05T01:53:11.626011+00:00",
   "version": 1
 }

@@ -2,22 +2,25 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-04T21:59:52.984007+00:00_
+_Updated 2026-08-05T01:53:11.626011+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **3** (**4.0%** coverage)
-- Newly resolved this run: **0**
-- Pending bounded enrichment: **154**
-- Ambiguous / no match: **0 / 0**
+- SAM.gov-resolved entities: **5** (**6.7%** coverage)
+- Newly resolved this run: **2**
+- Pending bounded enrichment: **153**
+- Ambiguous / no match: **0 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
 |---|---|---|---|---|---|
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | [UNIVERSITY OF MARYLAND, COLLEGE PARK](https://sam.gov/entity/NPU8ULVAAS23/coreData) | NPU8ULVAAS23 | 0UB92 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | INUTEQ, LLC | [InuTeq, LLC](https://sam.gov/entity/NBEWZB8LQ8Z5/coreData) | NBEWZB8LQ8Z5 | 5NTT4 | Active | Alaskan Native Corporation Owned Firm, Business or Organization, For Profit Organization |
 | POST QUANTUM LABS LLC | [Post Quantum Labs LLC](https://sam.gov/entity/H53MXWJZPYU3/coreData) | H53MXWJZPYU3 | 9T5C5 | Active | Business or Organization, For Profit Organization, Individual or concern, other than one of the preceding |
+| MASSACHUSETTS INSTITUTE OF TECHNOLOGY | [MASSACHUSETTS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NYLCDML6V1/coreData) | E2NYLCDML6V1 | 80230 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
+| UNIVERSITY OF OKLAHOMA | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) | EVTSTTLCEWS5 | 3G168 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
+| REDACTED DUE TO PII | REDACTED DUE TO PII | — | — | no_match | No active public SAM.gov entity matched |
 | POST QUANTUM LABS LLC | POST QUANTUM LABS LLC | — | — | pending | api key missing |
 | CARNEGIE-MELLON UNIVERSITY | CARNEGIE-MELLON UNIVERSITY | — | — | pending | api key missing |
 | FOUR POINTS TECHNOLOGY, L.L.C. | FOUR POINTS TECHNOLOGY, L.L.C. | — | — | pending | api key missing |
@@ -70,7 +73,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | THUNDERCAT TECHNOLOGY, LLC | THUNDERCAT TECHNOLOGY, LLC | — | — | pending | api key missing |
 | RAVENTEK SOLUTION PARTNERS, LLC | RAVENTEK SOLUTION PARTNERS, LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | RAVENTEK SOLUTION PARTNERS, LLC | RAVENTEK SOLUTION PARTNERS, LLC | — | — | pending | api key missing |
-| MASSACHUSETTS INSTITUTE OF TECHNOLOGY | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | — | — | pending | Queued for a future bounded enrichment batch |
 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | — | — | pending | api key missing |
 | CLEARAVENUE LLC | CLEARAVENUE LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | CLEARAVENUE LLC | CLEARAVENUE LLC | — | — | pending | api key missing |
@@ -87,8 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF ILLINOIS | UNIVERSITY OF ILLINOIS | — | — | pending | Queued for a future bounded enrichment batch |
 | UNIVERSITY OF ILLINOIS | UNIVERSITY OF ILLINOIS | — | — | pending | api key missing |
 | UNIVERSITY OF CALIFORNIA, MERCED | UNIVERSITY OF CALIFORNIA, MERCED | — | — | pending | Queued for a future bounded enrichment batch |
-| UNIVERSITY OF CALIFORNIA, MERCED | UNIVERSITY OF CALIFORNIA, MERCED | — | — | pending | api key missing |
-| TRUSTEES OF TUFTS COLLEGE | TRUSTEES OF TUFTS COLLEGE | — | — | pending | Queued for a future bounded enrichment batch |
 
 ## Method
 

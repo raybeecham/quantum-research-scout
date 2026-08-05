@@ -2,21 +2,31 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-08-04T21:59:52.984007+00:00_
+_Updated 2026-08-05T01:53:11.626011+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **20**
+- Actual or recent changes: **34**
 - Newly discovered historical evidence: **0**
-- Newly observed with no reliable source date: **0**
-- Upcoming dated events: **72**
+- Newly observed with no reliable source date: **8**
+- Upcoming dated events: **74**
 
 ## Priority timeline
 
-- **Published today** · Autonomous Mower Maintenance Service — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view))
+- **Published today** · 6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view))
   - The source publication date is today or within the prior day.
-- **Published today** · Autonomous Mower Maintenance Service — states deliverable ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ece2156f0bc42e4a916b66ce9888729/download))
+- **Published today** · 6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment — states deadline ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download))
   - The source publication date is today or within the prior day.
+- **Published today** · Power Sensor Check Standard — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view))
+  - The source publication date is today or within the prior day.
+- **Published today** · Power Sensor Check Standard — states requirement ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download))
+  - The source publication date is today or within the prior day.
+- **Evidence trace changed** · Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language — qualification gate ([evidence](https://www.grants.gov/search-results-detail/362903))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Newly observed · event date unknown** · MASSACHUSETTS INSTITUTE OF TECHNOLOGY — cage code ([evidence](https://sam.gov/entity/E2NYLCDML6V1/coreData))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Newly observed · event date unknown** · UNIVERSITY OF OKLAHOMA — cage code ([evidence](https://sam.gov/entity/EVTSTTLCEWS5/coreData))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -77,6 +87,8 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-08-11** · Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU) — closing_soon ([source](https://www.grants.gov/search-results-detail/362711))
 - **2026-08-13** · EARLY STAGE INNOVATIONS (ESI26) — closing_this_month ([source](https://www.grants.gov/search-results-detail/363066))
 - **2026-08-15** · English Language Exchange Programs: AI and Educational Technology Integration — closing_this_month ([source](https://www.grants.gov/search-results-detail/363105))
+- **2026-08-18** · 6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment — closing_this_month ([source](https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view))
+- **2026-08-18** · Power Sensor Check Standard — closing_this_month ([source](https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view))
 - **2026-08-19** · 66--SENSOR,NITROGEN — closing_this_month ([source](https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view))
 - **2026-08-19** · 66--SENSOR,OXYGEN — closing_this_month ([source](https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view))
 - **2026-08-20** · CyberNext: Advance Cybersecurity and AI Readiness — closing_this_month ([source](https://www.grants.gov/search-results-detail/363249))
@@ -94,5 +106,3 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-09-08** · IUSE/Professional Formation of Engineers: Revolutionizing Engineering Departments — open_window ([source](https://www.grants.gov/search-results-detail/353413))
 - **2026-09-10** · Computer and Information Science and Engineering (CISE): Future Computing Research — open_window ([source](https://www.grants.gov/search-results-detail/360149))
 - **2026-09-18** · 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF — open_window ([source](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view))
-- **2026-09-20** · OMB issues agency guidance for inventories, migration plans, and high-impact systems — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
-- **2026-09-20** · Publish a summary of QC-ADDS technical specifications — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))

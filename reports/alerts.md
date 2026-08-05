@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-04 22:07 UTC_
+_Updated 2026-08-05 01:57 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 1 | 5 | 16 | 29 |
+| 50 | 3 | 6 | 17 | 27 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -45,6 +45,13 @@ _Updated 2026-08-04 22:07 UTC_
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
+## 🔴 Source failing: ETSI Quantum Standards News 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 90.0% reliability with 2 warning day(s).
+- [Open supporting view](source-health.md)
+
 ## 🟠 Actionable signal: Quantum Networking
 
 - Severity: **high**
@@ -59,11 +66,19 @@ _Updated 2026-08-04 22:07 UTC_
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Federal opportunity closing soon: Autonomous Mower Maintenance Service 🆕
+## 🟠 Changed: Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language 🆕
+
+- Severity: **high**
+- Status: **changed**
+- qualification gate · authority analytical · hold
+- [Open direct evidence](https://www.grants.gov/search-results-detail/362903)
+- [Open supporting view](intelligence-changes.md)
+
+## 🟠 Federal opportunity closing soon: Autonomous Mower Maintenance Service
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 35 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 35 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view)
 - [Open supporting view](federal-funding.md)
 
@@ -71,7 +86,7 @@ _Updated 2026-08-04 22:07 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/362939)
 - [Open supporting view](federal-funding.md)
 
@@ -79,7 +94,7 @@ _Updated 2026-08-04 22:07 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/362863)
 - [Open supporting view](federal-funding.md)
 
@@ -87,7 +102,7 @@ _Updated 2026-08-04 22:07 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363192)
 - [Open supporting view](federal-funding.md)
 
@@ -95,15 +110,23 @@ _Updated 2026-08-04 22:07 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363090)
+- [Open supporting view](federal-funding.md)
+
+## 🟠 Federal opportunity closing soon: Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language
+
+- Severity: **high**
+- Status: **closing-soon**
+- 3 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://www.grants.gov/search-results-detail/362903)
 - [Open supporting view](federal-funding.md)
 
 ## 🟠 Federal opportunity closing soon: Voices for the Future
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363043)
 - [Open supporting view](federal-funding.md)
 
@@ -111,7 +134,7 @@ _Updated 2026-08-04 22:07 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 1 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 0 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/362913)
 - [Open supporting view](federal-funding.md)
 
@@ -119,7 +142,7 @@ _Updated 2026-08-04 22:07 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 1 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 0 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363267)
 - [Open supporting view](federal-funding.md)
 
@@ -138,13 +161,6 @@ _Updated 2026-08-04 22:07 UTC_
 - ↗️ Recent evidence is 6 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Source degraded: ETSI Quantum Standards News
-
-- Severity: **high**
-- Status: **degraded**
-- 🟠 94.7% reliability with 1 warning day(s).
-- [Open supporting view](source-health.md)
-
 ## 🟠 Source degraded: PQCA Readiness Tracking
 
 - Severity: **high**
@@ -156,21 +172,21 @@ _Updated 2026-08-04 22:07 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 88.2% reliability with 1 warning day(s).
+- 🟠 88.9% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 88.2% reliability with 1 warning day(s).
+- 🟠 88.9% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Federal opportunity closing soon: AI Pathways To The Future
 
 - Severity: **medium**
 - Status: **closing-soon**
-- 5 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 4 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363061)
 - [Open supporting view](federal-funding.md)
 
@@ -178,7 +194,7 @@ _Updated 2026-08-04 22:07 UTC_
 
 - Severity: **medium**
 - Status: **closing-soon**
-- 7 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 6 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/354144)
 - [Open supporting view](federal-funding.md)
 
@@ -186,7 +202,7 @@ _Updated 2026-08-04 22:07 UTC_
 
 - Severity: **medium**
 - Status: **closing-soon**
-- 6 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 5 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363121)
 - [Open supporting view](federal-funding.md)
 
@@ -194,23 +210,15 @@ _Updated 2026-08-04 22:07 UTC_
 
 - Severity: **medium**
 - Status: **closing-soon**
-- 5 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363078)
-- [Open supporting view](federal-funding.md)
-
-## 🟡 Federal opportunity closing soon: Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language
-
-- Severity: **medium**
-- Status: **closing-soon**
 - 4 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
-- [Open direct evidence](https://www.grants.gov/search-results-detail/362903)
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363078)
 - [Open supporting view](federal-funding.md)
 
 ## 🟡 Federal opportunity closing soon: Research Training Groups in the Mathematical Sciences
 
 - Severity: **medium**
 - Status: **closing-soon**
-- 7 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 6 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/353962)
 - [Open supporting view](federal-funding.md)
 
@@ -218,7 +226,7 @@ _Updated 2026-08-04 22:07 UTC_
 
 - Severity: **medium**
 - Status: **closing-soon**
-- 7 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 6 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/362711)
 - [Open supporting view](federal-funding.md)
 
@@ -327,6 +335,13 @@ _Updated 2026-08-04 22:07 UTC_
 - The latest dated item is from 2026-06-18; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: Grants.gov · Quantum Technologies 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-07-21; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: InfoQ Quantum Computing
 
 - Severity: **medium**
@@ -360,18 +375,4 @@ _Updated 2026-08-04 22:07 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2025-05-07; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: NIST Post-Quantum Cryptography Project
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2025-03-07; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: QuSecure Press Releases
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2025-07-19; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
