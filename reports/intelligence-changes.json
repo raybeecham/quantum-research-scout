@@ -4,11 +4,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-3176e7543bf10bff",
+      "claim_id": "claim-0c30340bdb42100c",
       "confidence": "high",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -16,89 +16,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a367205d1e153228",
-          "locator": "opportunity_status:open",
-          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-          "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
+          "evidence_id": "evidence-00b1ad7e50bd7fc8",
+          "locator": "opportunity_status:awarded",
+          "title": "SENSOR,COMPRESSION",
+          "url": "https://sam.gov/workspace/contract/opp/a005d8de018549c992363c8e48b668c5/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
-        "node_type": "opportunity"
+        "identifier": "sam_gov:SPRTA1-25-R-0429",
+        "label": "SENSOR,COMPRESSION",
+        "node_id": "award_notice:sam_gov:SPRTA1-25-R-0429",
+        "node_type": "award_notice"
       },
-      "value": "open"
+      "value": "awarded"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-58b8c57de83f1ec1",
+      "claim_id": "claim-4b473feb8fde6c48",
       "confidence": "high",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "object": null,
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4766498e3dc7af84",
-          "locator": "deadline:2026-08-18t16:00:00-05:00",
-          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-          "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
-        "node_type": "opportunity"
-      },
-      "value": "2026-08-18T16:00:00-05:00"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3fe0779e69ae0855",
-      "confidence": "high",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "object": null,
-      "predicate": "set_aside",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d23c86a69feb07f5",
-          "locator": "set_aside:service-disabled veteran-owned small business (sdvosb) set-aside (far 19.14)",
-          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-          "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
-        "node_type": "opportunity"
-      },
-      "value": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c71ddf93b99b205a",
-      "confidence": "high",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -106,29 +46,94 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-29890371cfe43def",
-          "locator": "awarding_agency:veterans affairs, department of.veterans affairs, department of.rpo west (36c24w)",
-          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-          "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
+          "evidence_id": "evidence-0dc9e537c28a9fb1",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla aviation oklahoma city.dla aviation at oklahoma city, ok",
+          "title": "SENSOR,COMPRESSION",
+          "url": "https://sam.gov/workspace/contract/opp/a005d8de018549c992363c8e48b668c5/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
-        "node_type": "opportunity"
+        "identifier": "sam_gov:SPRTA1-25-R-0429",
+        "label": "SENSOR,COMPRESSION",
+        "node_id": "award_notice:sam_gov:SPRTA1-25-R-0429",
+        "node_type": "award_notice"
       },
-      "value": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.RPO WEST (36C24W)"
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-ab93a58d8f73798a",
+      "claim_id": "claim-0b5c620bf9e36e04",
       "confidence": "high",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f7d0146f574ad997",
+          "locator": "reported_amount:1869922.26",
+          "title": "SENSOR,COMPRESSION",
+          "url": "https://sam.gov/workspace/contract/opp/a005d8de018549c992363c8e48b668c5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPRTA1-25-R-0429",
+        "label": "SENSOR,COMPRESSION",
+        "node_id": "award_notice:sam_gov:SPRTA1-25-R-0429",
+        "node_type": "award_notice"
+      },
+      "value": 1869922.26
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8e415381f1837386",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": {
+        "identifier": "name:woodward",
+        "label": "WOODWARD, INC.",
+        "node_id": "recipient_or_contractor:name:woodward",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6a98fd917d0476d6",
+          "locator": "reported_recipient:recipient_or_contractor:name:woodward",
+          "title": "SENSOR,COMPRESSION",
+          "url": "https://sam.gov/workspace/contract/opp/a005d8de018549c992363c8e48b668c5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPRTA1-25-R-0429",
+        "label": "SENSOR,COMPRESSION",
+        "node_id": "award_notice:sam_gov:SPRTA1-25-R-0429",
+        "node_type": "award_notice"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c2d6d9cefed15526",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -136,17 +141,357 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ae05d56c7735523a",
-          "locator": "opportunity_status:open",
-          "title": "Power Sensor Check Standard",
-          "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
+          "evidence_id": "evidence-4d96aab50201a987",
+          "locator": "opportunity_status:awarded",
+          "title": "ORDER AGAINST 2032H323A00005 FOR ENTERPRISE APPLICATIONS CYBERSECURITY (EAC) PROGRAM - CYBERSECURITY OPERATIONS SUPPORT SERVICES (COSS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2099AC26F00010_2099_2032H523A00005_2050",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:NB672010-26-02284",
-        "label": "Power Sensor Check Standard",
-        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "identifier": "usaspending:2099AC26F00010",
+        "label": "ORDER AGAINST 2032H323A00005 FOR ENTERPRISE APPLICATIONS CYBERSECURITY (EAC) PROGRAM - CYBERSECURITY OPERATIONS SUPPORT SERVICES (COSS)",
+        "node_id": "award:usaspending:2099AC26F00010",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-458fd50d1df36d50",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b54b583e481009fb",
+          "locator": "reported_amount:232089.6",
+          "title": "ORDER AGAINST 2032H323A00005 FOR ENTERPRISE APPLICATIONS CYBERSECURITY (EAC) PROGRAM - CYBERSECURITY OPERATIONS SUPPORT SERVICES (COSS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2099AC26F00010_2099_2032H523A00005_2050",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:2099AC26F00010",
+        "label": "ORDER AGAINST 2032H323A00005 FOR ENTERPRISE APPLICATIONS CYBERSECURITY (EAC) PROGRAM - CYBERSECURITY OPERATIONS SUPPORT SERVICES (COSS)",
+        "node_id": "award:usaspending:2099AC26F00010",
+        "node_type": "award"
+      },
+      "value": 232089.6
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-60a7cb5d26fa9a4c",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": {
+        "identifier": "uei:FY48YBELLJ34",
+        "label": "DELVIOM LLC",
+        "node_id": "recipient_or_contractor:uei:FY48YBELLJ34",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a0000f62c340281e",
+          "locator": "reported_recipient:recipient_or_contractor:uei:FY48YBELLJ34",
+          "title": "ORDER AGAINST 2032H323A00005 FOR ENTERPRISE APPLICATIONS CYBERSECURITY (EAC) PROGRAM - CYBERSECURITY OPERATIONS SUPPORT SERVICES (COSS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2099AC26F00010_2099_2032H523A00005_2050",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:2099AC26F00010",
+        "label": "ORDER AGAINST 2032H323A00005 FOR ENTERPRISE APPLICATIONS CYBERSECURITY (EAC) PROGRAM - CYBERSECURITY OPERATIONS SUPPORT SERVICES (COSS)",
+        "node_id": "award:usaspending:2099AC26F00010",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-204af94a6ae82bd2",
+      "confidence": "high",
+      "effective_date": "2026-08-07",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a08ec68198b55bc1",
+          "locator": "opportunity_status:awarded",
+          "title": "THE FOOD DRUG ADMINISTRATION 'S (FDA'S) OFFICE OF COSMETICS AND COLORS (OCAC) HAS A REQUIREMENT FOR ADMET PREDICTOR SOFTWARE. ADMET PREDICTOR IS AN ADVANCED COMPUTATIONAL PLATFORM...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26P00075_7571_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:7571TE26P00075",
+        "label": "THE FOOD DRUG ADMINISTRATION 'S (FDA'S) OFFICE OF COSMETICS AND COLORS (OCAC) HAS A REQUIREMENT FOR ADMET PREDICTOR SOFTWARE. ADMET PREDICTOR IS AN ADVANCED COMPUTATIONAL PLATFORM...",
+        "node_id": "award:usaspending:7571TE26P00075",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c1d9ce16d7b01aaf",
+      "confidence": "high",
+      "effective_date": "2026-08-07",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-da659bddd34b38b0",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "THE FOOD DRUG ADMINISTRATION 'S (FDA'S) OFFICE OF COSMETICS AND COLORS (OCAC) HAS A REQUIREMENT FOR ADMET PREDICTOR SOFTWARE. ADMET PREDICTOR IS AN ADVANCED COMPUTATIONAL PLATFORM...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26P00075_7571_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:7571TE26P00075",
+        "label": "THE FOOD DRUG ADMINISTRATION 'S (FDA'S) OFFICE OF COSMETICS AND COLORS (OCAC) HAS A REQUIREMENT FOR ADMET PREDICTOR SOFTWARE. ADMET PREDICTOR IS AN ADVANCED COMPUTATIONAL PLATFORM...",
+        "node_id": "award:usaspending:7571TE26P00075",
+        "node_type": "award"
+      },
+      "value": "Department of Health and Human Services"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-78bb5bf1733a6a2e",
+      "confidence": "high",
+      "effective_date": "2026-08-07",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-09f7c36c8816b621",
+          "locator": "reported_amount:12848.22",
+          "title": "THE FOOD DRUG ADMINISTRATION 'S (FDA'S) OFFICE OF COSMETICS AND COLORS (OCAC) HAS A REQUIREMENT FOR ADMET PREDICTOR SOFTWARE. ADMET PREDICTOR IS AN ADVANCED COMPUTATIONAL PLATFORM...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26P00075_7571_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:7571TE26P00075",
+        "label": "THE FOOD DRUG ADMINISTRATION 'S (FDA'S) OFFICE OF COSMETICS AND COLORS (OCAC) HAS A REQUIREMENT FOR ADMET PREDICTOR SOFTWARE. ADMET PREDICTOR IS AN ADVANCED COMPUTATIONAL PLATFORM...",
+        "node_id": "award:usaspending:7571TE26P00075",
+        "node_type": "award"
+      },
+      "value": 12848.22
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-f292976ed43a3688",
+      "confidence": "high",
+      "effective_date": "2026-08-07",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": {
+        "identifier": "uei:MZN6WDBMXN24",
+        "label": "SIMULATIONS PLUS INC",
+        "node_id": "recipient_or_contractor:uei:MZN6WDBMXN24",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-30507805a3676642",
+          "locator": "reported_recipient:recipient_or_contractor:uei:MZN6WDBMXN24",
+          "title": "THE FOOD DRUG ADMINISTRATION 'S (FDA'S) OFFICE OF COSMETICS AND COLORS (OCAC) HAS A REQUIREMENT FOR ADMET PREDICTOR SOFTWARE. ADMET PREDICTOR IS AN ADVANCED COMPUTATIONAL PLATFORM...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26P00075_7571_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:7571TE26P00075",
+        "label": "THE FOOD DRUG ADMINISTRATION 'S (FDA'S) OFFICE OF COSMETICS AND COLORS (OCAC) HAS A REQUIREMENT FOR ADMET PREDICTOR SOFTWARE. ADMET PREDICTOR IS AN ADVANCED COMPUTATIONAL PLATFORM...",
+        "node_id": "award:usaspending:7571TE26P00075",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-f8cba51517f8725d",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c093bc97323bc0f0",
+          "locator": "opportunity_status:forecasted",
+          "title": "RNomics Molecular Standards",
+          "url": "https://www.grants.gov/search-results-detail/363475",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:RFA-RM-28-007",
+        "label": "RNomics Molecular Standards",
+        "node_id": "opportunity:grants_gov:RFA-RM-28-007",
+        "node_type": "opportunity"
+      },
+      "value": "forecasted"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-747064c67d4b7ce1",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f9527d963c3b82c1",
+          "locator": "awarding_agency:hhs-nih11",
+          "title": "RNomics Molecular Standards",
+          "url": "https://www.grants.gov/search-results-detail/363475",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:RFA-RM-28-007",
+        "label": "RNomics Molecular Standards",
+        "node_id": "opportunity:grants_gov:RFA-RM-28-007",
+        "node_type": "opportunity"
+      },
+      "value": "HHS-NIH11"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8e77ef1c34cdf57a",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7529ed58c87331af",
+          "locator": "opportunity_status:forecasted",
+          "title": "RNomics Outreach and Coordination (ROC) Center",
+          "url": "https://www.grants.gov/search-results-detail/363476",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:RFA-RM-28-008",
+        "label": "RNomics Outreach and Coordination (ROC) Center",
+        "node_id": "opportunity:grants_gov:RFA-RM-28-008",
+        "node_type": "opportunity"
+      },
+      "value": "forecasted"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6809823a7cbd52d9",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6173fcf4bc90f231",
+          "locator": "awarding_agency:hhs-nih11",
+          "title": "RNomics Outreach and Coordination (ROC) Center",
+          "url": "https://www.grants.gov/search-results-detail/363476",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:RFA-RM-28-008",
+        "label": "RNomics Outreach and Coordination (ROC) Center",
+        "node_id": "opportunity:grants_gov:RFA-RM-28-008",
+        "node_type": "opportunity"
+      },
+      "value": "HHS-NIH11"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-fc3f5e40b48b88d2",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e19acabaf55c826e",
+          "locator": "opportunity_status:open",
+          "title": "Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT",
+          "url": "https://sam.gov/workspace/contract/opp/ea6dd4e3132d4d74a0535bb6728750a4/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:N0017326Q1301397941",
+        "label": "Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT",
+        "node_id": "opportunity:sam_gov:N0017326Q1301397941",
         "node_type": "opportunity"
       },
       "value": "open"
@@ -154,11 +499,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-74f3145df56383a8",
+      "claim_id": "claim-2f7a84bd64b85828",
       "confidence": "high",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "deadline",
       "sources": [
@@ -166,29 +511,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7f3ff307512065cd",
-          "locator": "deadline:2026-08-18t17:00:00-06:00",
-          "title": "Power Sensor Check Standard",
-          "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
+          "evidence_id": "evidence-aa3f037b1033141b",
+          "locator": "deadline:2026-08-07t09:00:00-04:00",
+          "title": "Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT",
+          "url": "https://sam.gov/workspace/contract/opp/ea6dd4e3132d4d74a0535bb6728750a4/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:NB672010-26-02284",
-        "label": "Power Sensor Check Standard",
-        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "identifier": "sam_gov:N0017326Q1301397941",
+        "label": "Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT",
+        "node_id": "opportunity:sam_gov:N0017326Q1301397941",
         "node_type": "opportunity"
       },
-      "value": "2026-08-18T17:00:00-06:00"
+      "value": "2026-08-07T09:00:00-04:00"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-81edd58b59c28da8",
+      "claim_id": "claim-00d651a97ffd193b",
       "confidence": "high",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "set_aside",
       "sources": [
@@ -196,17 +541,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a7a27ccb98f35afe",
+          "evidence_id": "evidence-0bcfa62d1d8ff5d1",
           "locator": "set_aside:small business set aside - total",
-          "title": "Power Sensor Check Standard",
-          "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
+          "title": "Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT",
+          "url": "https://sam.gov/workspace/contract/opp/ea6dd4e3132d4d74a0535bb6728750a4/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:NB672010-26-02284",
-        "label": "Power Sensor Check Standard",
-        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "identifier": "sam_gov:N0017326Q1301397941",
+        "label": "Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT",
+        "node_id": "opportunity:sam_gov:N0017326Q1301397941",
         "node_type": "opportunity"
       },
       "value": "Small Business Set Aside - Total"
@@ -214,11 +559,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-e1b40e84d2ee4e69",
+      "claim_id": "claim-b7e84d97fe50c317",
       "confidence": "high",
-      "effective_date": "2026-08-04",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -226,749 +571,899 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e31ca2866b775f75",
-          "locator": "awarding_agency:commerce, department of.national institute of standards and technology.dept of commerce nist",
-          "title": "Power Sensor Check Standard",
-          "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
+          "evidence_id": "evidence-2bba1a01a9b991cc",
+          "locator": "awarding_agency:dept of defense.dept of the navy.onr.onr nrl.naval research laboratory",
+          "title": "Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT",
+          "url": "https://sam.gov/workspace/contract/opp/ea6dd4e3132d4d74a0535bb6728750a4/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:NB672010-26-02284",
-        "label": "Power Sensor Check Standard",
-        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "identifier": "sam_gov:N0017326Q1301397941",
+        "label": "Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT",
+        "node_id": "opportunity:sam_gov:N0017326Q1301397941",
         "node_type": "opportunity"
       },
-      "value": "COMMERCE, DEPARTMENT OF.NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY.DEPT OF COMMERCE NIST"
+      "value": "DEPT OF DEFENSE.DEPT OF THE NAVY.ONR.ONR NRL.NAVAL RESEARCH LABORATORY"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-a7d93d9ef462fa45",
-      "confidence": "medium",
+      "claim_id": "claim-793045838ce641e4",
+      "confidence": "high",
       "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
-      "predicate": "states_requirement",
+      "predicate": "opportunity_status",
       "sources": [
         {
           "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-d816a33face3a934",
-          "locator": "states_requirement:it(s) and sensor(s) equipment and installation. x6600 \u2013 radiographic unit, dental, wall mounted \u2013 dexis focus intraoral must include generator constant potential high voltage dc, 100-200khz tube voltage 60 or 70 kv tube current 7 ma focal spot 0.7 mm to iec 60336 total filtration 2.0 mm ai (70kv) l...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
-          "verification_status": "analyst_verification_required"
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4632e6d3a9f82d51",
+          "locator": "opportunity_status:open",
+          "title": "28--BLADE,COMPRESSOR,AI",
+          "url": "https://sam.gov/workspace/contract/opp/e31d1bf11a9c421c8ca2180c38e4bef8/view",
+          "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:SPRPA126QYC98",
+        "label": "28--BLADE,COMPRESSOR,AI",
+        "node_id": "opportunity:sam_gov:SPRPA126QYC98",
         "node_type": "opportunity"
       },
-      "value": "it(s) and Sensor(s) equipment and installation. X6600 \u2013 Radiographic Unit, Dental, Wall Mounted \u2013 Dexis FOCUS IntraOral Must include Generator Constant Potential High Voltage DC, 100-200kHz Tube Voltage 60 or 70 kV Tube Current 7 mA Focal Spot 0.7 mm to IEC 60336 Total Filtration 2.0 mm AI (70kV) L..."
+      "value": "open"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-d691e36ce709d2d5",
-      "confidence": "medium",
+      "claim_id": "claim-e15ffee5988614d6",
+      "confidence": "high",
       "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
-      "predicate": "states_requirement",
+      "predicate": "deadline",
       "sources": [
         {
           "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-b1f6234755fbcab5",
-          "locator": "states_requirement:urrent 7 ma focal spot 0.7 mm to iec 60336 total filtration 2.0 mm ai (70kv) line voltage 115 / 230 vac +/- 10% 60/50hz must have exposure time range 0.02-3.2 seconds must have reach of 85 inches or 216 cm must have beam limiting cone dimensions round diameter 2.36 inches (60 mm), rectangular 1.38...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
-          "verification_status": "analyst_verification_required"
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e031b444b45b79bc",
+          "locator": "deadline:2026-09-21t00:00:00-04:00",
+          "title": "28--BLADE,COMPRESSOR,AI",
+          "url": "https://sam.gov/workspace/contract/opp/e31d1bf11a9c421c8ca2180c38e4bef8/view",
+          "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:SPRPA126QYC98",
+        "label": "28--BLADE,COMPRESSOR,AI",
+        "node_id": "opportunity:sam_gov:SPRPA126QYC98",
         "node_type": "opportunity"
       },
-      "value": "urrent 7 mA Focal Spot 0.7 mm to IEC 60336 Total Filtration 2.0 mm AI (70kV) Line Voltage 115 / 230 VAC +/- 10% 60/50HZ Must have Exposure Time Range 0.02-3.2 seconds Must have reach of 85 inches or 216 cm Must have Beam Limiting Cone Dimensions Round diameter 2.36 inches (60 mm), rectangular 1.38..."
+      "value": "2026-09-21T00:00:00-04:00"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-d09e559635c7889b",
-      "confidence": "medium",
+      "claim_id": "claim-c60b851514eb351b",
+      "confidence": "high",
       "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
-      "predicate": "states_requirement",
+      "predicate": "awarding_agency",
       "sources": [
         {
           "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-cac860762f07c1d2",
-          "locator": "states_requirement:l filtration 2.0 mm ai (70kv) line voltage 115 / 230 vac +/- 10% 60/50hz must have exposure time range 0.02-3.2 seconds must have reach of 85 inches or 216 cm must have beam limiting cone dimensions round diameter 2.36 inches (60 mm), rectangular 1.38 x 1.77 inches (35 x 45 mm) ssd (source-skin dis...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
-          "verification_status": "analyst_verification_required"
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-91d5ae8747cb7d15",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla aviation philadelphia.dla aviation at philadelphia, pa",
+          "title": "28--BLADE,COMPRESSOR,AI",
+          "url": "https://sam.gov/workspace/contract/opp/e31d1bf11a9c421c8ca2180c38e4bef8/view",
+          "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:SPRPA126QYC98",
+        "label": "28--BLADE,COMPRESSOR,AI",
+        "node_id": "opportunity:sam_gov:SPRPA126QYC98",
         "node_type": "opportunity"
       },
-      "value": "l Filtration 2.0 mm AI (70kV) Line Voltage 115 / 230 VAC +/- 10% 60/50HZ Must have Exposure Time Range 0.02-3.2 seconds Must have reach of 85 inches or 216 cm Must have Beam Limiting Cone Dimensions Round diameter 2.36 inches (60 mm), rectangular 1.38 x 1.77 inches (35 x 45 mm) SSD (Source-Skin Dis..."
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION PHILADELPHIA.DLA AVIATION AT PHILADELPHIA, PA"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-6d356034e52f120e",
-      "confidence": "medium",
+      "claim_id": "claim-ceac3e39ccdd41bb",
+      "confidence": "high",
       "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
-      "predicate": "states_requirement",
+      "predicate": "opportunity_status",
       "sources": [
         {
           "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-391ef0c1fec572b3",
-          "locator": "states_requirement:age 115 / 230 vac +/- 10% 60/50hz must have exposure time range 0.02-3.2 seconds must have reach of 85 inches or 216 cm must have beam limiting cone dimensions round diameter 2.36 inches (60 mm), rectangular 1.38 x 1.77 inches (35 x 45 mm) ssd (source-skin distance): standard cone 9 inches (229 mm)...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
-          "verification_status": "analyst_verification_required"
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-94b40d62eeba13f6",
+          "locator": "opportunity_status:open",
+          "title": "SENSOR ASSY, ESM",
+          "url": "https://sam.gov/workspace/contract/opp/e31cd2c839144938815e7b2e1b948905/view",
+          "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:N0010426QQC34",
+        "label": "SENSOR ASSY, ESM",
+        "node_id": "opportunity:sam_gov:N0010426QQC34",
         "node_type": "opportunity"
       },
-      "value": "age 115 / 230 VAC +/- 10% 60/50HZ Must have Exposure Time Range 0.02-3.2 seconds Must have reach of 85 inches or 216 cm Must have Beam Limiting Cone Dimensions Round diameter 2.36 inches (60 mm), rectangular 1.38 x 1.77 inches (35 x 45 mm) SSD (Source-Skin Distance): Standard cone 9 inches (229 mm)..."
+      "value": "open"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-fcae4ce50dc775d2",
-      "confidence": "medium",
+      "claim_id": "claim-92dbaf7797220364",
+      "confidence": "high",
       "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
-      "predicate": "states_requirement",
+      "predicate": "deadline",
       "sources": [
         {
           "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-b6c945a346f0006c",
-          "locator": "states_requirement:long cone 12 inches (305 mm) dimension: 85\u201d d x 46\u201d w x 47\u201d h x6610 \u2013 sensor, dental imaging system \u2013 dexis ixs sensor must include size 1 (child) and size 2 (standard) thermoplastic resin coating 2.5 m / 3 mm long kevlar reinforced cable pixel size: 19.5 micrometer (um) number of pixels: size 1 1....",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
-          "verification_status": "analyst_verification_required"
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-96f906ad56fb45a6",
+          "locator": "deadline:2026-08-10t16:30:00-04:00",
+          "title": "SENSOR ASSY, ESM",
+          "url": "https://sam.gov/workspace/contract/opp/e31cd2c839144938815e7b2e1b948905/view",
+          "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:N0010426QQC34",
+        "label": "SENSOR ASSY, ESM",
+        "node_id": "opportunity:sam_gov:N0010426QQC34",
         "node_type": "opportunity"
       },
-      "value": "long cone 12 inches (305 mm) Dimension: 85\u201d D x 46\u201d W x 47\u201d H X6610 \u2013 Sensor, Dental Imaging System \u2013 Dexis IXS Sensor Must include size 1 (child) and size 2 (standard) Thermoplastic resin coating 2.5 m / 3 mm long Kevlar reinforced cable Pixel size: 19.5 micrometer (um) Number of pixels: Size 1 1...."
+      "value": "2026-08-10T16:30:00-04:00"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-97762cfcdf68c91f",
-      "confidence": "medium",
+      "claim_id": "claim-5a1750a52f5a9c97",
+      "confidence": "high",
       "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
-      "predicate": "states_requirement",
+      "predicate": "awarding_agency",
       "sources": [
         {
           "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-b03b5faab1fed457",
-          "locator": "states_requirement:f pixels: size 1 1.6m (1026 x 1539), size 2 2.4m (1324 x 1842) resolution: theoretical: 25.6 lp /mm visible: 20+ lp /mm must have usb 2.0 port must be capable with most common image acquisition and clinic management software sloped dome housing, rounded corners and edges dimension: 1\u201dd x 1.02\u201dw x 1...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
-          "verification_status": "analyst_verification_required"
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e96b62ce66e2fcf4",
+          "locator": "awarding_agency:dept of defense.dept of the navy.navsup.navsup weapon systems support.navsup wss mechanicsburg.navsup weapon systems support mech",
+          "title": "SENSOR ASSY, ESM",
+          "url": "https://sam.gov/workspace/contract/opp/e31cd2c839144938815e7b2e1b948905/view",
+          "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:N0010426QQC34",
+        "label": "SENSOR ASSY, ESM",
+        "node_id": "opportunity:sam_gov:N0010426QQC34",
         "node_type": "opportunity"
       },
-      "value": "f pixels: Size 1 1.6M (1026 x 1539), size 2 2.4M (1324 x 1842) Resolution: theoretical: 25.6 lp /mm Visible: 20+ lp /mm Must have USB 2.0 port Must be capable with most common image acquisition and clinic management software Sloped dome housing, rounded corners and edges Dimension: 1\u201dD x 1.02\u201dW x 1..."
+      "value": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS MECHANICSBURG.NAVSUP WEAPON SYSTEMS SUPPORT MECH"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-3e1eeafc9fe9d6a8",
-      "confidence": "medium",
+      "claim_id": "claim-099fdbf042542a94",
+      "confidence": "high",
       "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
-      "predicate": "states_requirement",
+      "predicate": "opportunity_status",
       "sources": [
         {
           "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-d6de18d7d9621c36",
-          "locator": "states_requirement:1026 x 1539), size 2 2.4m (1324 x 1842) resolution: theoretical: 25.6 lp /mm visible: 20+ lp /mm must have usb 2.0 port must be capable with most common image acquisition and clinic management software sloped dome housing, rounded corners and edges dimension: 1\u201dd x 1.02\u201dw x 1.42\u201dh x6505 \u2013 radiograp...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
-          "verification_status": "analyst_verification_required"
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4764431a40982351",
+          "locator": "opportunity_status:open",
+          "title": "Communications, Network, Engineering, Cybersecurity, and Information Technology Services (CNECTS), aka \"Connects\"",
+          "url": "https://sam.gov/workspace/contract/opp/d48fc119cc6e4a23ac8f2dc79965283c/view",
+          "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:FA251827RCNECTS",
+        "label": "Communications, Network, Engineering, Cybersecurity, and Information Technology Services (CNECTS), aka \"Connects\"",
+        "node_id": "opportunity:sam_gov:FA251827RCNECTS",
         "node_type": "opportunity"
       },
-      "value": "1026 x 1539), size 2 2.4M (1324 x 1842) Resolution: theoretical: 25.6 lp /mm Visible: 20+ lp /mm Must have USB 2.0 port Must be capable with most common image acquisition and clinic management software Sloped dome housing, rounded corners and edges Dimension: 1\u201dD x 1.02\u201dW x 1.42\u201dH X6505 \u2013 Radiograp..."
+      "value": "open"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-2f8e4f96f7ee2e59",
-      "confidence": "medium",
+      "claim_id": "claim-03b584254941a2d1",
+      "confidence": "high",
       "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
-      "predicate": "states_requirement",
+      "predicate": "deadline",
       "sources": [
         {
           "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-c1db4061097499ef",
-          "locator": "states_requirement:ctions cover all the extraoral imaging bitewing-like view is a quick and easy alternative to intraoral bitewing imaging must be able to provide the optimum panoramic image layer automatically image volume: 5x5, 6x9, 9x11 image detector: cmos image voxel size: 80-400 micrometer (um) tube voltage: 95...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
-          "verification_status": "analyst_verification_required"
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a71e133bdad904eb",
+          "locator": "deadline:2026-12-23t14:00:00-07:00",
+          "title": "Communications, Network, Engineering, Cybersecurity, and Information Technology Services (CNECTS), aka \"Connects\"",
+          "url": "https://sam.gov/workspace/contract/opp/d48fc119cc6e4a23ac8f2dc79965283c/view",
+          "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:FA251827RCNECTS",
+        "label": "Communications, Network, Engineering, Cybersecurity, and Information Technology Services (CNECTS), aka \"Connects\"",
+        "node_id": "opportunity:sam_gov:FA251827RCNECTS",
         "node_type": "opportunity"
       },
-      "value": "ctions cover all the extraoral imaging Bitewing-like view is a quick and easy alternative to intraoral bitewing imaging Must be able to provide the optimum panoramic image layer automatically Image volume: 5x5, 6x9, 9x11 Image detector: CMOS Image voxel size: 80-400 micrometer (um) Tube voltage: 95..."
+      "value": "2026-12-23T14:00:00-07:00"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-db5768cabd0c6582",
-      "confidence": "medium",
+      "claim_id": "claim-0f06971b30a3d68d",
+      "confidence": "high",
       "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
-      "predicate": "states_eligibility_term",
+      "predicate": "set_aside",
       "sources": [
         {
           "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-a7020fa71777b8ce",
-          "locator": "states_eligibility_term:6c24w26q0060 response date/time/zone 08-18-2026 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of performance bakersfield cboc 900 old river rd bakersfield ca postal code 93311 country united states conta...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
-          "verification_status": "analyst_verification_required"
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2b988423253a0e7a",
+          "locator": "set_aside:small business set aside - total",
+          "title": "Communications, Network, Engineering, Cybersecurity, and Information Technology Services (CNECTS), aka \"Connects\"",
+          "url": "https://sam.gov/workspace/contract/opp/d48fc119cc6e4a23ac8f2dc79965283c/view",
+          "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:FA251827RCNECTS",
+        "label": "Communications, Network, Engineering, Cybersecurity, and Information Technology Services (CNECTS), aka \"Connects\"",
+        "node_id": "opportunity:sam_gov:FA251827RCNECTS",
         "node_type": "opportunity"
       },
-      "value": "6C24W26Q0060 RESPONSE DATE/TIME/ZONE 08-18-2026 16:00 CENTRAL TIME, CHICAGO, USA ARCHIVE 5 DAYS AFTER THE RESPONSE DATE SET-ASIDE SDVOSBC PRODUCT SERVICE CODE* 6520 NAICS CODE* 339114 PLACE OF PERFORMANCE Bakersfield CBOC 900 Old River Rd Bakersfield CA POSTAL CODE 93311 COUNTRY United States CONTA..."
+      "value": "Small Business Set Aside - Total"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-7a453d674c797094",
-      "confidence": "medium",
+      "claim_id": "claim-cc02106754de9ec0",
+      "confidence": "high",
       "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
-      "predicate": "states_eligibility_term",
+      "predicate": "awarding_agency",
       "sources": [
         {
           "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-853a3b93e98980a1",
-          "locator": "states_eligibility_term:60 response date/time/zone 08-18-2026 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of performance bakersfield cboc 900 old river rd bakersfield ca postal code 93311 country united states contact informa...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
-          "verification_status": "analyst_verification_required"
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-dc06c5c02a9c145d",
+          "locator": "awarding_agency:dept of defense.dept of the air force.air force space command.fa2518 ussf spoc/saio",
+          "title": "Communications, Network, Engineering, Cybersecurity, and Information Technology Services (CNECTS), aka \"Connects\"",
+          "url": "https://sam.gov/workspace/contract/opp/d48fc119cc6e4a23ac8f2dc79965283c/view",
+          "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:FA251827RCNECTS",
+        "label": "Communications, Network, Engineering, Cybersecurity, and Information Technology Services (CNECTS), aka \"Connects\"",
+        "node_id": "opportunity:sam_gov:FA251827RCNECTS",
         "node_type": "opportunity"
       },
-      "value": "60 RESPONSE DATE/TIME/ZONE 08-18-2026 16:00 CENTRAL TIME, CHICAGO, USA ARCHIVE 5 DAYS AFTER THE RESPONSE DATE SET-ASIDE SDVOSBC PRODUCT SERVICE CODE* 6520 NAICS CODE* 339114 PLACE OF PERFORMANCE Bakersfield CBOC 900 Old River Rd Bakersfield CA POSTAL CODE 93311 COUNTRY United States CONTACT INFORMA..."
+      "value": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE SPACE COMMAND.FA2518 USSF SPOC/SAIO"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-80609c2f0cfe0aef",
-      "confidence": "medium",
+      "claim_id": "claim-4e35d945f023b73f",
+      "confidence": "high",
       "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
-      "predicate": "states_eligibility_term",
+      "predicate": "opportunity_status",
       "sources": [
         {
           "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-88c0d33b002b66cd",
-          "locator": "states_eligibility_term:26 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of performance bakersfield cboc 900 old river rd bakersfield ca postal code 93311 country united states contact information contracting office address reg...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
-          "verification_status": "analyst_verification_required"
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-df8b1a43812f9701",
+          "locator": "opportunity_status:open",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/b1e512b55280430da7502b135f789487/view",
+          "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:SPE4A726T625G",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T625G",
         "node_type": "opportunity"
       },
-      "value": "26 16:00 CENTRAL TIME, CHICAGO, USA ARCHIVE 5 DAYS AFTER THE RESPONSE DATE SET-ASIDE SDVOSBC PRODUCT SERVICE CODE* 6520 NAICS CODE* 339114 PLACE OF PERFORMANCE Bakersfield CBOC 900 Old River Rd Bakersfield CA POSTAL CODE 93311 COUNTRY United States CONTACT INFORMATION CONTRACTING OFFICE ADDRESS Reg..."
+      "value": "open"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-302931d3ee863d69",
-      "confidence": "medium",
+      "claim_id": "claim-a4540aef2232c574",
+      "confidence": "high",
       "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
-      "predicate": "states_submission_instruction",
+      "predicate": "deadline",
       "sources": [
         {
           "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-d2786a3b5e6d0cc9",
-          "locator": "states_submission_instruction:units and sensor equipment general information contracting office\u2019s zip code* 95652 solicitation number* 36c24w26q0060 response date/time/zone 08-18-2026 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
-          "verification_status": "analyst_verification_required"
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6b3dcf5943f18ba0",
+          "locator": "deadline:2026-08-13",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/b1e512b55280430da7502b135f789487/view",
+          "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:SPE4A726T625G",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T625G",
         "node_type": "opportunity"
       },
-      "value": "Units and Sensor equipment GENERAL INFORMATION CONTRACTING OFFICE\u2019S ZIP CODE* 95652 SOLICITATION NUMBER* 36C24W26Q0060 RESPONSE DATE/TIME/ZONE 08-18-2026 16:00 CENTRAL TIME, CHICAGO, USA ARCHIVE 5 DAYS AFTER THE RESPONSE DATE SET-ASIDE SDVOSBC PRODUCT SERVICE CODE* 6520 NAICS CODE* 339114 PLACE OF..."
+      "value": "2026-08-13"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-0ae1ee2a7f6edcef",
-      "confidence": "medium",
+      "claim_id": "claim-0c372ae488c69fc7",
+      "confidence": "high",
       "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
-      "predicate": "states_submission_instruction",
+      "predicate": "awarding_agency",
       "sources": [
         {
           "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-c1aeef31d3f20e73",
-          "locator": "states_submission_instruction:tion number* 36c24w26q0060 response date/time/zone 08-18-2026 16:00 central time, chicago, usa archive 5 days after the response date set-aside sdvosbc product service code* 6520 naics code* 339114 place of performance bakersfield cboc 900 old river rd bakersfield ca postal code 93311 country unite...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
-          "verification_status": "analyst_verification_required"
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8807b9103cc12e90",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/b1e512b55280430da7502b135f789487/view",
+          "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:SPE4A726T625G",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T625G",
         "node_type": "opportunity"
       },
-      "value": "TION NUMBER* 36C24W26Q0060 RESPONSE DATE/TIME/ZONE 08-18-2026 16:00 CENTRAL TIME, CHICAGO, USA ARCHIVE 5 DAYS AFTER THE RESPONSE DATE SET-ASIDE SDVOSBC PRODUCT SERVICE CODE* 6520 NAICS CODE* 339114 PLACE OF PERFORMANCE Bakersfield CBOC 900 Old River Rd Bakersfield CA POSTAL CODE 93311 COUNTRY Unite..."
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-f58763a31a39b1ea",
-      "confidence": "medium",
+      "claim_id": "claim-fe9cd00c0be7e8da",
+      "confidence": "high",
       "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-53fed15834660857",
+          "locator": "opportunity_status:open",
+          "title": "ATEC HQ 001, Autonomous Swarm Dynamics & Counter-Drone (C-UAS) Technologies",
+          "url": "https://sam.gov/workspace/contract/opp/b1140aa605ee4f2bb775dfbfe42589f6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:ATEC_RIW26_001",
+        "label": "ATEC HQ 001, Autonomous Swarm Dynamics & Counter-Drone (C-UAS) Technologies",
+        "node_id": "opportunity:sam_gov:ATEC_RIW26_001",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8f49bc30d51b6bc6",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9cf879367394a925",
+          "locator": "deadline:2026-08-19t15:00:00-04:00",
+          "title": "ATEC HQ 001, Autonomous Swarm Dynamics & Counter-Drone (C-UAS) Technologies",
+          "url": "https://sam.gov/workspace/contract/opp/b1140aa605ee4f2bb775dfbfe42589f6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:ATEC_RIW26_001",
+        "label": "ATEC HQ 001, Autonomous Swarm Dynamics & Counter-Drone (C-UAS) Technologies",
+        "node_id": "opportunity:sam_gov:ATEC_RIW26_001",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-19T15:00:00-04:00"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3e739d7cf111618d",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8a93b189e47871e4",
+          "locator": "awarding_agency:dept of defense.dept of the army.amc.acc.acc-ctrs.acc-apg.w6qk acc-apg",
+          "title": "ATEC HQ 001, Autonomous Swarm Dynamics & Counter-Drone (C-UAS) Technologies",
+          "url": "https://sam.gov/workspace/contract/opp/b1140aa605ee4f2bb775dfbfe42589f6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:ATEC_RIW26_001",
+        "label": "ATEC HQ 001, Autonomous Swarm Dynamics & Counter-Drone (C-UAS) Technologies",
+        "node_id": "opportunity:sam_gov:ATEC_RIW26_001",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6a1db8d1c6e91598",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-87a088c6966902f4",
+          "locator": "opportunity_status:open",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/97e315337fb94f088feec798801ff1a5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T618B",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T618B",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c68fa0571b291be5",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3581360e497f4acd",
+          "locator": "deadline:2026-08-13",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/97e315337fb94f088feec798801ff1a5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T618B",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T618B",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-13"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-7954b28027753cca",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "set_aside",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f972335cff07ad4f",
+          "locator": "set_aside:small business set aside - total",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/97e315337fb94f088feec798801ff1a5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T618B",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T618B",
+        "node_type": "opportunity"
+      },
+      "value": "Small Business Set Aside - Total"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-bc91e85407c958f5",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c9bbaecb9aecce8d",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/97e315337fb94f088feec798801ff1a5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T618B",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T618B",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-4bcdd73ce93d3ef1",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2fdd967c36dd498b",
+          "locator": "opportunity_status:open",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/96feef11cce042849f9cbd97dbc13bc9/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T624E",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T624E",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-fdac816a8388189c",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4955014e6c1b3412",
+          "locator": "deadline:2026-08-13",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/96feef11cce042849f9cbd97dbc13bc9/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T624E",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T624E",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-13"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-15bbc62b69bba5a9",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "set_aside",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cc99e1917aa95dfc",
+          "locator": "set_aside:small business set aside - total",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/96feef11cce042849f9cbd97dbc13bc9/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T624E",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T624E",
+        "node_type": "opportunity"
+      },
+      "value": "Small Business Set Aside - Total"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-60a151ef5a8d3c5c",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4fedbc96a6682110",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/96feef11cce042849f9cbd97dbc13bc9/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T624E",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T624E",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8b6b8e4892e34e09",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c1e76a7ccbb88092",
+          "locator": "opportunity_status:open",
+          "title": "Data, Analytics, and AI Modernization Services",
+          "url": "https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:HE125426RE037",
+        "label": "Data, Analytics, and AI Modernization Services",
+        "node_id": "opportunity:sam_gov:HE125426RE037",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-5b6c0ffd7480c4eb",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bcf9f9b81da9e2e3",
+          "locator": "deadline:2026-08-18t11:00:00-04:00",
+          "title": "Data, Analytics, and AI Modernization Services",
+          "url": "https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:HE125426RE037",
+        "label": "Data, Analytics, and AI Modernization Services",
+        "node_id": "opportunity:sam_gov:HE125426RE037",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-18T11:00:00-04:00"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c2066d42c688ebc9",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "set_aside",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-24e44b8ac689f5d9",
+          "locator": "set_aside:small business set aside - total",
+          "title": "Data, Analytics, and AI Modernization Services",
+          "url": "https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:HE125426RE037",
+        "label": "Data, Analytics, and AI Modernization Services",
+        "node_id": "opportunity:sam_gov:HE125426RE037",
+        "node_type": "opportunity"
+      },
+      "value": "Small Business Set Aside - Total"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-4bdfcc8d0c9938d5",
+      "confidence": "high",
+      "effective_date": "2026-08-05",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5f42fbd18e949508",
+          "locator": "awarding_agency:dept of defense.dept of defense education activity (dodea).dod education activity",
+          "title": "Data, Analytics, and AI Modernization Services",
+          "url": "https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:HE125426RE037",
+        "label": "Data, Analytics, and AI Modernization Services",
+        "node_id": "opportunity:sam_gov:HE125426RE037",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEPT OF DEFENSE EDUCATION ACTIVITY (DODEA).DOD EDUCATION ACTIVITY"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-95dd30faa805b3a2",
+      "confidence": "medium",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "states_deliverable",
       "sources": [
         {
           "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
+          "content_hash": "cda05649be3a0317cbf42d9a0553e8cc570e2ea3f2fb7596925e5f678fff6e66",
           "controlling_status": "not_established",
-          "evidence_id": "evidence-921e849f4067241b",
-          "locator": "states_deliverable:performance: equipment shall be delivered and installed to/at bakersfield cboc, 900 old river rd., bakerfield, ca 93311 period of performance : delivery and installation no later than october 31, 2026",
+          "evidence_id": "evidence-4cefe7df7c5503b2",
+          "locator": "states_deliverable:statement of work r epair and r econditioning field service of oxford/quantum design's spectromag pt magneto - optical cryostat ( nrl tag n00173 470502 000 ) replace o rings on the shi cold head fi",
           "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dd6a812594e4806af7af73c665c2687/download",
           "verification_status": "analyst_verification_required"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:N0017326Q1301397941",
+        "label": "Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT",
+        "node_id": "opportunity:sam_gov:N0017326Q1301397941",
         "node_type": "opportunity"
       },
-      "value": "Performance: Equipment shall be delivered and installed to/at Bakersfield CBOC, 900 Old River Rd., Bakerfield, CA 93311 Period of Performance : Delivery and Installation no later than October 31, 2026"
+      "value": "Statement of work R epair and R econditioning Field service of Oxford/Quantum Design's SpectroMag PT magneto - optical cryostat ( NRL tag N00173 470502 000 ) Replace O rings on the SHI cold head fi"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-3b67b51900ac3615",
-      "confidence": "medium",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "object": null,
-      "predicate": "states_deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "96f0784de562da1bceebe19ae9072529ba2d7d8ac4e85f91f35010b9c730414c",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-ce84d0fefe43a598",
-          "locator": "states_deadline:kersfield cboc, 900 old river rd., bakerfield, ca 93311 period of performance : delivery and installation no later than october 31, 2026",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
-        "node_type": "opportunity"
-      },
-      "value": "kersfield CBOC, 900 Old River Rd., Bakerfield, CA 93311 Period of Performance : Delivery and Installation no later than October 31, 2026"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1db5740e0a4fccca",
-      "confidence": "medium",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-732c8e9d2ebaa994",
-          "locator": "states_requirement:information and ancillary services: section requirements/specifications planning considerations \u2612 n/a \u2610 list any visits required to allow potential vendors to see site specific constraints. [explain requirements.] \u2610 us citizen required on-site (foreign nationals require pre- registration 30 days pr...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:NB672010-26-02284",
-        "label": "Power Sensor Check Standard",
-        "node_id": "opportunity:sam_gov:NB672010-26-02284",
-        "node_type": "opportunity"
-      },
-      "value": "Information and Ancillary Services: Section Requirements/Specifications Planning Considerations \u2612 N/A \u2610 List any visits required to allow potential vendors to see site specific constraints. [Explain Requirements.] \u2610 US citizen required on-site (foreign nationals require pre- registration 30 days pr..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c7c36d009d838b49",
-      "confidence": "medium",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-2bb9c70a0730ece0",
-          "locator": "states_requirement:t any visits required to allow potential vendors to see site specific constraints. [explain requirements.] \u2610 us citizen required on-site (foreign nationals require pre- registration 30 days prior to visit.) \u2610 vendor representative on-site more than three (3) days. \u2610 other considerations: [list othe...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:NB672010-26-02284",
-        "label": "Power Sensor Check Standard",
-        "node_id": "opportunity:sam_gov:NB672010-26-02284",
-        "node_type": "opportunity"
-      },
-      "value": "t any visits required to allow potential vendors to see site specific constraints. [Explain Requirements.] \u2610 US citizen required on-site (foreign nationals require pre- registration 30 days prior to visit.) \u2610 Vendor Representative On-Site more than three (3) days. \u2610 Other Considerations: [List othe..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-0d173e453afc4079",
-      "confidence": "medium",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-a7e5dcf8ab8bbdc9",
-          "locator": "states_requirement:ia: \u2610 partial delivery acceptable \u2610 [enter shipping and delivery information by item.] \u2610 direct delivery to ou building required [explain need for requirement] building /room number: [enter building/room number] \u2610 building has loading dock containerization preference: [enter container type] other r...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:NB672010-26-02284",
-        "label": "Power Sensor Check Standard",
-        "node_id": "opportunity:sam_gov:NB672010-26-02284",
-        "node_type": "opportunity"
-      },
-      "value": "ia: \u2610 Partial Delivery Acceptable \u2610 [Enter Shipping and Delivery information by item.] \u2610 Direct Delivery to OU Building Required [Explain Need for Requirement] Building /Room Number: [Enter Building/Room Number] \u2610 Building has Loading Dock Containerization Preference: [Enter Container Type] Other R..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f49da2a60f4720ce",
-      "confidence": "medium",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-ac45846579bed40d",
-          "locator": "states_requirement:preference: [enter container type] other requirements: [list any other requirement] delivery date criteria: \u2612 delivery shall be competed no later than: 12 weeks after contract award date \u2610 delivery shall be made no earlier than: click or tap to enter a date. \u2610 scheduled deliveries: item number due...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:NB672010-26-02284",
-        "label": "Power Sensor Check Standard",
-        "node_id": "opportunity:sam_gov:NB672010-26-02284",
-        "node_type": "opportunity"
-      },
-      "value": "Preference: [Enter Container Type] Other Requirements: [List Any Other Requirement] Delivery Date Criteria: \u2612 Delivery Shall Be Competed No Later Than: 12 weeks after contract award date \u2610 Delivery Shall Be Made No Earlier Than: Click or tap to enter a date. \u2610 Scheduled Deliveries: Item Number Due..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-9efa7600c21a8876",
-      "confidence": "medium",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-47aacc1ecbb0a686",
-          "locator": "states_requirement:ment] delivery date criteria: \u2612 delivery shall be competed no later than: 12 weeks after contract award date \u2610 delivery shall be made no earlier than: click or tap to enter a date. \u2610 scheduled deliveries: item number due date \u2610 other: [list other shipping, delivery or special requirements.] electro...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:NB672010-26-02284",
-        "label": "Power Sensor Check Standard",
-        "node_id": "opportunity:sam_gov:NB672010-26-02284",
-        "node_type": "opportunity"
-      },
-      "value": "ment] Delivery Date Criteria: \u2612 Delivery Shall Be Competed No Later Than: 12 weeks after contract award date \u2610 Delivery Shall Be Made No Earlier Than: Click or tap to enter a date. \u2610 Scheduled Deliveries: Item Number Due Date \u2610 Other: [List Other Shipping, Delivery or Special Requirements.] Electro..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b989038906acbad1",
-      "confidence": "medium",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-2b41dcec46788f3e",
-          "locator": "states_requirement:of packaging material \u2610 equipment set up \u2610 start-up services \u2610 turnkey installation \u2610 other: [enter details] note: tpoc shall be the coordination poc. facility / utility considerations \u2612 n/a [list site specific utility considerations by item] \u2610 ofpm work order numbers [list work order numbers] \u2610 po...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:NB672010-26-02284",
-        "label": "Power Sensor Check Standard",
-        "node_id": "opportunity:sam_gov:NB672010-26-02284",
-        "node_type": "opportunity"
-      },
-      "value": "of Packaging Material \u2610 Equipment Set Up \u2610 Start-Up Services \u2610 Turnkey Installation \u2610 Other: [Enter Details] NOTE: TPOC shall be the coordination POC. Facility / Utility Considerations \u2612 N/A [List Site Specific Utility Considerations by Item] \u2610 OFPM Work Order Numbers [List Work Order Numbers] \u2610 Po..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7e979057b646f078",
-      "confidence": "medium",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-1237a6302521cfc8",
-          "locator": "states_requirement:\u2610 number of trainees: [enter number of trainees] \u2610 on-site \u2610 off-site location: [enter location(s)] is trainee travel required: [choose answer] scope of training \u2610 operation \u2610 maintenance \u2610 troubleshooting \u2610 safety \u2610 other [enter other scope of training requirements] \u2610 training materials to be prov...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:NB672010-26-02284",
-        "label": "Power Sensor Check Standard",
-        "node_id": "opportunity:sam_gov:NB672010-26-02284",
-        "node_type": "opportunity"
-      },
-      "value": "\u2610 Number of Trainees: [Enter Number of Trainees] \u2610 On-Site \u2610 Off-Site Location: [Enter Location(s)] Is Trainee Travel Required: [Choose Answer] Scope of Training \u2610 Operation \u2610 Maintenance \u2610 Troubleshooting \u2610 Safety \u2610 Other [Enter Other Scope of Training Requirements] \u2610 Training Materials to be Prov..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-d30f1357f2f3697d",
-      "confidence": "medium",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-b76913ae7d564aa5",
-          "locator": "states_requirement:training materials to be provided by vendor: [describe materials] \u2610 other [enter other training requirements] note: sme shall be coordination poc. warranty \u2610 n/a base manufacturer warranty is acceptable warranty length: [i.e. 3 - years] what is included? requirements / specification document \u2610 labo...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:NB672010-26-02284",
-        "label": "Power Sensor Check Standard",
-        "node_id": "opportunity:sam_gov:NB672010-26-02284",
-        "node_type": "opportunity"
-      },
-      "value": "Training Materials to be Provided by Vendor: [Describe Materials] \u2610 Other [Enter Other Training Requirements] NOTE: SME shall be coordination POC. Warranty \u2610 N/A Base Manufacturer Warranty is acceptable Warranty Length: [i.e. 3 - Years] What is included? Requirements / Specification Document \u2610 Labo..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-627fbc966f1e1d75",
-      "confidence": "medium",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "object": null,
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-82b38dc2a80c035c",
-          "locator": "states_submission_instruction:award date \u2610 delivery shall be made no earlier than: click or tap to enter a date. \u2610 scheduled deliveries: item number due date \u2610 other: [list other shipping, delivery or special requirements.] electronic media [enter electronic media requirements by item.] requirements / specification document \u2612 n...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:NB672010-26-02284",
-        "label": "Power Sensor Check Standard",
-        "node_id": "opportunity:sam_gov:NB672010-26-02284",
-        "node_type": "opportunity"
-      },
-      "value": "award date \u2610 Delivery Shall Be Made No Earlier Than: Click or tap to enter a date. \u2610 Scheduled Deliveries: Item Number Due Date \u2610 Other: [List Other Shipping, Delivery or Special Requirements.] Electronic Media [Enter Electronic Media Requirements by Item.] Requirements / Specification Document \u2612 N..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-035360495995d698",
+      "claim_id": "claim-94ac7439b673207f",
       "confidence": "high",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -976,29 +1471,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-73a6660dad25bef9",
-          "locator": "legal_business_name:massachusetts institute of technology",
-          "title": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
-          "url": "https://sam.gov/entity/E2NYLCDML6V1/coreData",
+          "evidence_id": "evidence-1fa6927e73ccd76e",
+          "locator": "legal_business_name:the university of iowa",
+          "title": "THE UNIVERSITY OF IOWA",
+          "url": "https://sam.gov/entity/Z1H9VJS8NG16/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:E2NYLCDML6V1",
-        "label": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
-        "node_id": "recipient_or_contractor:uei:E2NYLCDML6V1",
+        "identifier": "uei:Z1H9VJS8NG16",
+        "label": "THE UNIVERSITY OF IOWA",
+        "node_id": "recipient_or_contractor:uei:Z1H9VJS8NG16",
         "node_type": "recipient_or_contractor"
       },
-      "value": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY"
+      "value": "THE UNIVERSITY OF IOWA"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-29d434911d8b2998",
+      "claim_id": "claim-d4783d8a03ea6fb1",
       "confidence": "high",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -1006,29 +1501,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d160dd51183c9d10",
-          "locator": "uei:e2nylcdml6v1",
-          "title": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
-          "url": "https://sam.gov/entity/E2NYLCDML6V1/coreData",
+          "evidence_id": "evidence-6bc347ecf2068a42",
+          "locator": "uei:z1h9vjs8ng16",
+          "title": "THE UNIVERSITY OF IOWA",
+          "url": "https://sam.gov/entity/Z1H9VJS8NG16/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:E2NYLCDML6V1",
-        "label": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
-        "node_id": "recipient_or_contractor:uei:E2NYLCDML6V1",
+        "identifier": "uei:Z1H9VJS8NG16",
+        "label": "THE UNIVERSITY OF IOWA",
+        "node_id": "recipient_or_contractor:uei:Z1H9VJS8NG16",
         "node_type": "recipient_or_contractor"
       },
-      "value": "E2NYLCDML6V1"
+      "value": "Z1H9VJS8NG16"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-3707051387663a97",
+      "claim_id": "claim-1c9d66181f00ac94",
       "confidence": "high",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -1036,29 +1531,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4cee3e5eaeb4fcce",
-          "locator": "cage_code:80230",
-          "title": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
-          "url": "https://sam.gov/entity/E2NYLCDML6V1/coreData",
+          "evidence_id": "evidence-aec44582cc76fc77",
+          "locator": "cage_code:2d354",
+          "title": "THE UNIVERSITY OF IOWA",
+          "url": "https://sam.gov/entity/Z1H9VJS8NG16/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:E2NYLCDML6V1",
-        "label": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
-        "node_id": "recipient_or_contractor:uei:E2NYLCDML6V1",
+        "identifier": "uei:Z1H9VJS8NG16",
+        "label": "THE UNIVERSITY OF IOWA",
+        "node_id": "recipient_or_contractor:uei:Z1H9VJS8NG16",
         "node_type": "recipient_or_contractor"
       },
-      "value": "80230"
+      "value": "2D354"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-48f44c23dfee70a3",
+      "claim_id": "claim-c5e2bee78d8f1d92",
       "confidence": "high",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -1066,17 +1561,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6e4e95f7530f1cec",
+          "evidence_id": "evidence-1f4d8141ed25624d",
           "locator": "registration_status:active",
-          "title": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
-          "url": "https://sam.gov/entity/E2NYLCDML6V1/coreData",
+          "title": "THE UNIVERSITY OF IOWA",
+          "url": "https://sam.gov/entity/Z1H9VJS8NG16/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:E2NYLCDML6V1",
-        "label": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
-        "node_id": "recipient_or_contractor:uei:E2NYLCDML6V1",
+        "identifier": "uei:Z1H9VJS8NG16",
+        "label": "THE UNIVERSITY OF IOWA",
+        "node_id": "recipient_or_contractor:uei:Z1H9VJS8NG16",
         "node_type": "recipient_or_contractor"
       },
       "value": "Active"
@@ -1084,11 +1579,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-fc508f64e55140b9",
+      "claim_id": "claim-547d3a2c2d0fed94",
       "confidence": "high",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -1096,29 +1591,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e289b83abfa041e5",
-          "locator": "legal_business_name:university of oklahoma",
-          "title": "UNIVERSITY OF OKLAHOMA",
-          "url": "https://sam.gov/entity/EVTSTTLCEWS5/coreData",
+          "evidence_id": "evidence-6f82ea84f1dfb6c2",
+          "locator": "legal_business_name:virginia polytechnic institute & state university",
+          "title": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/QDE5UHE5XD16/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:EVTSTTLCEWS5",
-        "label": "UNIVERSITY OF OKLAHOMA",
-        "node_id": "recipient_or_contractor:uei:EVTSTTLCEWS5",
+        "identifier": "uei:QDE5UHE5XD16",
+        "label": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:QDE5UHE5XD16",
         "node_type": "recipient_or_contractor"
       },
-      "value": "UNIVERSITY OF OKLAHOMA"
+      "value": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-f11ecaa4a483523c",
+      "claim_id": "claim-d28b96b7d379502c",
       "confidence": "high",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -1126,29 +1621,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-02b87e0765ffcfa1",
-          "locator": "uei:evtsttlcews5",
-          "title": "UNIVERSITY OF OKLAHOMA",
-          "url": "https://sam.gov/entity/EVTSTTLCEWS5/coreData",
+          "evidence_id": "evidence-a52d01a478d2e61a",
+          "locator": "uei:qde5uhe5xd16",
+          "title": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/QDE5UHE5XD16/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:EVTSTTLCEWS5",
-        "label": "UNIVERSITY OF OKLAHOMA",
-        "node_id": "recipient_or_contractor:uei:EVTSTTLCEWS5",
+        "identifier": "uei:QDE5UHE5XD16",
+        "label": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:QDE5UHE5XD16",
         "node_type": "recipient_or_contractor"
       },
-      "value": "EVTSTTLCEWS5"
+      "value": "QDE5UHE5XD16"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-c5a1b95e29ef2332",
+      "claim_id": "claim-d57f4181b422325f",
       "confidence": "high",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -1156,29 +1651,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-719836b817410a9d",
-          "locator": "cage_code:3g168",
-          "title": "UNIVERSITY OF OKLAHOMA",
-          "url": "https://sam.gov/entity/EVTSTTLCEWS5/coreData",
+          "evidence_id": "evidence-193c64e1d931ca00",
+          "locator": "cage_code:4b976",
+          "title": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/QDE5UHE5XD16/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:EVTSTTLCEWS5",
-        "label": "UNIVERSITY OF OKLAHOMA",
-        "node_id": "recipient_or_contractor:uei:EVTSTTLCEWS5",
+        "identifier": "uei:QDE5UHE5XD16",
+        "label": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:QDE5UHE5XD16",
         "node_type": "recipient_or_contractor"
       },
-      "value": "3G168"
+      "value": "4B976"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-302a48c652d2f8bd",
+      "claim_id": "claim-5631e75377587265",
       "confidence": "high",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -1186,17 +1681,137 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-09627d0e779eccb4",
+          "evidence_id": "evidence-b9ec42aac53d5dc2",
           "locator": "registration_status:active",
-          "title": "UNIVERSITY OF OKLAHOMA",
-          "url": "https://sam.gov/entity/EVTSTTLCEWS5/coreData",
+          "title": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/QDE5UHE5XD16/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:EVTSTTLCEWS5",
-        "label": "UNIVERSITY OF OKLAHOMA",
-        "node_id": "recipient_or_contractor:uei:EVTSTTLCEWS5",
+        "identifier": "uei:QDE5UHE5XD16",
+        "label": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:QDE5UHE5XD16",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c6c08f229ba6e47d",
+      "confidence": "high",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5a9a4f1252fa2a89",
+          "locator": "legal_business_name:morgan state university",
+          "title": "MORGAN STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/KULSKCCZJT27/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:KULSKCCZJT27",
+        "label": "MORGAN STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:KULSKCCZJT27",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "MORGAN STATE UNIVERSITY"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-d2acbe4ac3bd913c",
+      "confidence": "high",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f9e046a165cc32fc",
+          "locator": "uei:kulskcczjt27",
+          "title": "MORGAN STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/KULSKCCZJT27/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:KULSKCCZJT27",
+        "label": "MORGAN STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:KULSKCCZJT27",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "KULSKCCZJT27"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-a6939fffbcace554",
+      "confidence": "high",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a61d71a00326f7e4",
+          "locator": "cage_code:8u547",
+          "title": "MORGAN STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/KULSKCCZJT27/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:KULSKCCZJT27",
+        "label": "MORGAN STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:KULSKCCZJT27",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "8U547"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-78a1691e85fcec9f",
+      "confidence": "high",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5bf6c513feafa5c2",
+          "locator": "registration_status:active",
+          "title": "MORGAN STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/KULSKCCZJT27/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:KULSKCCZJT27",
+        "label": "MORGAN STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:KULSKCCZJT27",
         "node_type": "recipient_or_contractor"
       },
       "value": "Active"
@@ -1204,11 +1819,11 @@
     {
       "authority": "analytical",
       "change_type": "added",
-      "claim_id": "claim-81b56a892605d236",
+      "claim_id": "claim-ae85eb2549813a21",
       "confidence": "medium",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "sources": [
@@ -1216,20 +1831,10 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bb18decff7fbcf7a",
+          "evidence_id": "evidence-4807744510b522aa",
           "locator": "qualification_gate",
-          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-          "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b1329a36bd73d5cb",
-          "locator": "qualification_gate",
-          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download",
+          "title": "SENSOR ASSY, ESM",
+          "url": "https://sam.gov/workspace/contract/opp/e31cd2c839144938815e7b2e1b948905/view",
           "verification_status": "source_reported"
         },
         {
@@ -1238,27 +1843,27 @@
           "controlling_status": "not_asserted",
           "evidence_id": "evidence-075bdcb08b78b6b5",
           "locator": "qualification_gate",
-          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d6568c226f0745c087ac45acfc446e49",
+          "title": "SENSOR ASSY, ESM",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e31cd2c839144938815e7b2e1b948905",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C24W26Q0060",
-        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
-        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "identifier": "sam_gov:N0010426QQC34",
+        "label": "SENSOR ASSY, ESM",
+        "node_id": "opportunity:sam_gov:N0010426QQC34",
         "node_type": "opportunity"
       },
-      "value": "targeted review"
+      "value": "hold"
     },
     {
       "authority": "analytical",
       "change_type": "added",
-      "claim_id": "claim-5cc2a92c43adc6ea",
+      "claim_id": "claim-798b056b5a53146c",
       "confidence": "medium",
-      "effective_date": "2026-08-05",
-      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "sources": [
@@ -1266,40 +1871,10 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-93830968ee96828e",
+          "evidence_id": "evidence-be44391aaa567189",
           "locator": "qualification_gate",
-          "title": "Power Sensor Check Standard",
-          "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ef2b90bae4bc8360",
-          "locator": "qualification_gate",
-          "title": "Power Sensor Check Standard",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-57e5475fba6fade0",
-          "locator": "qualification_gate",
-          "title": "Power Sensor Check Standard",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7f507de2693c425ba6bf200289f6991e/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b9bd6748fc405c29",
-          "locator": "qualification_gate",
-          "title": "Power Sensor Check Standard",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c420383a6e6246aa909bfa686165dadd/download",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/b1e512b55280430da7502b135f789487/view",
           "verification_status": "source_reported"
         },
         {
@@ -1308,15 +1883,145 @@
           "controlling_status": "not_asserted",
           "evidence_id": "evidence-075bdcb08b78b6b5",
           "locator": "qualification_gate",
-          "title": "Power Sensor Check Standard",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a916c0fefe6645099291c9d44fdfe3de",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b1e512b55280430da7502b135f789487",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:NB672010-26-02284",
-        "label": "Power Sensor Check Standard",
-        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "identifier": "sam_gov:SPE4A726T625G",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T625G",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-89c081a571ec0143",
+      "confidence": "medium",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4edc03078f4be035",
+          "locator": "qualification_gate",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/97e315337fb94f088feec798801ff1a5/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=97e315337fb94f088feec798801ff1a5",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T618B",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T618B",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-6f7d18fa45a2d427",
+      "confidence": "medium",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7c2d703b584ea170",
+          "locator": "qualification_gate",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/96feef11cce042849f9cbd97dbc13bc9/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=96feef11cce042849f9cbd97dbc13bc9",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T624E",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T624E",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-382a3484d7469675",
+      "confidence": "medium",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8460fb3d337a1ca0",
+          "locator": "qualification_gate",
+          "title": "Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT",
+          "url": "https://sam.gov/workspace/contract/opp/ea6dd4e3132d4d74a0535bb6728750a4/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-452a6525a3566020",
+          "locator": "qualification_gate",
+          "title": "Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dd6a812594e4806af7af73c665c2687/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ea6dd4e3132d4d74a0535bb6728750a4",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:N0017326Q1301397941",
+        "label": "Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT",
+        "node_id": "opportunity:sam_gov:N0017326Q1301397941",
         "node_type": "opportunity"
       },
       "value": "hold"
@@ -1325,13 +2030,77 @@
   "baseline_initialized": false,
   "changed": [
     {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-2dc38405ee7a46cb",
+      "confidence": "high",
+      "effective_date": "2026-07-21",
+      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c4aaf79af88e477b",
+          "locator": "opportunity_status:closed",
+          "title": "Young Trilateral Leaders (YTL) Summit",
+          "url": "https://www.grants.gov/search-results-detail/363267",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:PD-SEOUL-FY26-04",
+        "label": "Young Trilateral Leaders (YTL) Summit",
+        "node_id": "opportunity:grants_gov:PD-SEOUL-FY26-04",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-f38641fe04bec0ab",
+      "confidence": "high",
+      "effective_date": "2026-06-24",
+      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-130a9ebb6175cf7b",
+          "locator": "opportunity_status:closed",
+          "title": "Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027",
+          "url": "https://www.grants.gov/search-results-detail/362913",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:PDS-SINGAPORE-FY26-001",
+        "label": "Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027",
+        "node_id": "opportunity:grants_gov:PDS-SINGAPORE-FY26-001",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
       "authority": "analytical",
       "change_type": "changed",
-      "claim_id": "claim-6350e656e83b6c0c",
+      "claim_id": "claim-17a77da742af4ba2",
       "confidence": "medium",
-      "effective_date": "2026-08-05",
+      "effective_date": "2026-08-06",
       "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
@@ -1341,25 +2110,57 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cf88da35c5d41da1",
+          "evidence_id": "evidence-90745e2ea0d497b5",
           "locator": "qualification_gate",
-          "title": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
-          "url": "https://www.grants.gov/search-results-detail/362903",
+          "title": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
+          "url": "https://www.grants.gov/search-results-detail/363078",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:OFOP0002813",
-        "label": "Prosperity through Partnership: Catalyzing U.S.-Algerian Collaboration in Innovation, Commerce and English Language",
-        "node_id": "opportunity:grants_gov:OFOP0002813",
+        "identifier": "grants_gov:MUSCAT-PAS-2026-APS-01",
+        "label": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
+        "node_id": "opportunity:grants_gov:MUSCAT-PAS-2026-APS-01",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-00fda323242c5854",
+      "confidence": "medium",
+      "effective_date": "2026-08-06",
+      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+      "last_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-148fa25ee3525e9d",
+          "locator": "qualification_gate",
+          "title": "AI Pathways To The Future",
+          "url": "https://www.grants.gov/search-results-detail/363061",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:PAS-JAKARTA-FY26-07",
+        "label": "AI Pathways To The Future",
+        "node_id": "opportunity:grants_gov:PAS-JAKARTA-FY26-07",
         "node_type": "opportunity"
       },
       "value": "hold"
     }
   ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-08-05T01:53:11.626011+00:00",
-  "comparison_started_at": "2026-08-04T21:59:52.984007+00:00",
+  "comparison_ended_at": "2026-08-06T01:55:17.903256+00:00",
+  "comparison_started_at": "2026-08-05T01:53:11.626011+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -2275,19 +3076,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-08-04T21:59:52.984007+00:00",
+  "since": "2026-08-05T01:53:11.626011+00:00",
   "summary": {
-    "active_claims": 1511,
-    "added": 42,
-    "changed": 1,
+    "active_claims": 1576,
+    "added": 65,
+    "changed": 4,
     "conflicts": 0,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 70,
+    "material_changes": 96,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-08-05T01:53:11.626011+00:00",
+  "updated_at": "2026-08-06T01:55:17.903256+00:00",
   "version": 1
 }

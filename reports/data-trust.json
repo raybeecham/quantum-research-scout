@@ -1,20 +1,66 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 32.9,
+      "acceptance_rate": 32.1,
       "accepted": 26,
-      "quarantined": 53,
+      "quarantined": 55,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 93.5,
-      "accepted": 330,
+      "acceptance_rate": 93.7,
+      "accepted": 344,
       "quarantined": 23,
       "scope": "Federal funding"
     }
   ],
   "method_note": "Quarantine is not a finding that evidence is false or irrelevant. It means the current evidence is too weak for automated promotion and remains available for review.",
   "quarantined_evidence": [
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-05",
+      "key": "https://www.grants.gov/search-results-detail/363476",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Quantum Benchmarking Initiative",
+      "stage": "mission evidence admission",
+      "title": "RNomics Outreach and Coordination (ROC) Center",
+      "url": "https://www.grants.gov/search-results-detail/363476"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-05",
+      "key": "https://www.grants.gov/search-results-detail/363475",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Quantum Benchmarking Initiative",
+      "stage": "mission evidence admission",
+      "title": "RNomics Molecular Standards",
+      "url": "https://www.grants.gov/search-results-detail/363475"
+    },
     {
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
@@ -1744,17 +1790,17 @@
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 76,
+      "count": 78,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 76,
+      "count": 78,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 75,
+      "count": 77,
       "label": "Official government source"
     },
     {
@@ -1765,14 +1811,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 82.4,
-    "accepted": 356,
-    "decisions": 432,
+    "acceptance_rate": 82.6,
+    "accepted": 370,
+    "decisions": 448,
     "funding_quarantine": 23,
-    "mission_quarantine": 53,
-    "quarantined": 76,
+    "mission_quarantine": 55,
+    "quarantined": 78,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-05T01:53:11.626011+00:00",
+  "updated_at": "2026-08-06T01:55:17.903256+00:00",
   "version": 1
 }

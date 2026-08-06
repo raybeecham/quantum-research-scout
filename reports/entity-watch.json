@@ -63,7 +63,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 2,
+      "evidence_count": 3,
       "first_party_evidence_count": 0,
       "name": "D-Wave",
       "priority": "high",
@@ -114,7 +114,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 4,
+      "evidence_count": 5,
       "first_party_evidence_count": 0,
       "name": "NIST",
       "priority": "critical",
@@ -385,7 +385,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "first_party_evidence_count": 0,
       "name": "IonQ",
       "priority": "high",
@@ -604,7 +604,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 1,
+      "evidence_count": 2,
       "first_party_evidence_count": 0,
       "name": "Thales",
       "priority": "high",
@@ -714,8 +714,20 @@
         "National Institute of Standards and Technology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 4,
+      "current_evidence_count": 5,
       "evidence": [
+        {
+          "date": "2026-08-05",
+          "key": "https://quantumzeitgeist.com/quantum-link-gaithersburg-college-nist",
+          "report": "2026-08/2026-08-05-digest.md",
+          "score": 58,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "NIST sends \u2018spooky\u2019 quantum link from Gaithersburg to College Park",
+          "url": "https://quantumzeitgeist.com/quantum-link-gaithersburg-college-nist"
+        },
         {
           "date": "2026-07-31",
           "key": "https://quantumzeitgeist.com/post-quantum-encryption-standards-nist-finalizes",
@@ -765,18 +777,19 @@
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
         }
       ],
-      "evidence_count": 4,
+      "evidence_count": 5,
       "first_seen": "2026-06-25",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-31",
+      "latest_seen": "2026-08-05",
       "momentum": "rising",
       "name": "NIST",
       "prior_count": 1,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
-        "PQC / Crypto Agility"
+        "PQC / Crypto Agility",
+        "Standards / Government"
       ],
       "type": "government"
     },
@@ -1274,11 +1287,11 @@
       "first_seen": "2024-08-19",
       "historical_evidence_count": 20,
       "latest_seen": "2026-07-30",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Fortanix",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -1609,9 +1622,9 @@
       "latest_seen": "2026-07-31",
       "momentum": "declining",
       "name": "Keyfactor",
-      "prior_count": 6,
+      "prior_count": 5,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -1825,9 +1838,9 @@
       "latest_seen": "2026-08-02",
       "momentum": "rising",
       "name": "IBM",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 6,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2053,9 +2066,9 @@
       "first_seen": "2026-07-22",
       "historical_evidence_count": 8,
       "latest_seen": "2026-07-22",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "QuEra",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -2269,9 +2282,9 @@
       "first_seen": "2025-02-26",
       "historical_evidence_count": 8,
       "latest_seen": "2026-07-22",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "PsiQuantum",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -2438,6 +2451,103 @@
       "type": "company"
     },
     {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 6,
+      "evidence": [
+        {
+          "date": "2026-08-05",
+          "key": "https://thequantuminsider.com/2026/08/05/ionq-sandia-quantum-technology-research-partnership",
+          "report": "2026-08/2026-08-05-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "IonQ and Sandia National Laboratories Partner on Quantum Technology Research",
+          "url": "https://thequantuminsider.com/2026/08/05/ionq-sandia-quantum-technology-research-partnership"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "IonQ says orders set 2030 deadline for post-quantum crypto migration",
+          "url": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 82,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "IonQ and EPB Partner to Launch the Tennessee Quantum Communications Research Center",
+          "url": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 42,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IonQ Completes Acquisition of SkyWater Technology, Establishing Vertically Integrated Quantum Platform",
+          "url": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 27,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IonQ\u2019s SkyWater Deal Secures U.S. Quantum Chip Supply",
+          "url": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 24,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Fixstars Amplify adds IonQ\u2019s Quantum Computing Environment to its Standard Machines",
+          "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
+        }
+      ],
+      "evidence_count": 6,
+      "first_seen": "2026-06-22",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-08-05",
+      "momentum": "rising",
+      "name": "IonQ",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 5,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Hardware",
+        "Quantum Networking",
+        "Quantum Software / Tooling",
+        "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
       "aliases": [
         "Accenture",
         "Accenture Federal Services",
@@ -2587,90 +2697,6 @@
       "type": "consulting"
     },
     {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 5,
-      "evidence": [
-        {
-          "date": "2026-08-04",
-          "key": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 100,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "IonQ says orders set 2030 deadline for post-quantum crypto migration",
-          "url": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 82,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "IonQ and EPB Partner to Launch the Tennessee Quantum Communications Research Center",
-          "url": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center"
-        },
-        {
-          "date": "2026-07-31",
-          "key": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 42,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IonQ Completes Acquisition of SkyWater Technology, Establishing Vertically Integrated Quantum Platform",
-          "url": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform"
-        },
-        {
-          "date": "2026-07-31",
-          "key": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 27,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IonQ\u2019s SkyWater Deal Secures U.S. Quantum Chip Supply",
-          "url": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal"
-        },
-        {
-          "date": "2026-06-22",
-          "key": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator",
-          "report": "2026-06/2026-06-22-digest.md",
-          "score": 24,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "Fixstars Amplify adds IonQ\u2019s Quantum Computing Environment to its Standard Machines",
-          "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
-        }
-      ],
-      "evidence_count": 5,
-      "first_seen": "2026-06-22",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-08-04",
-      "momentum": "rising",
-      "name": "IonQ",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 4,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility",
-        "Quantum Hardware",
-        "Quantum Networking",
-        "Quantum Software / Tooling"
-      ],
-      "type": "company"
-    },
-    {
       "aliases": [
         "Cisco Systems"
       ],
@@ -2800,11 +2826,11 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-03",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Cloudflare",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "AI Security",
@@ -2870,11 +2896,11 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-04",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Quantinuum",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -3127,6 +3153,66 @@
     },
     {
       "aliases": [
+        "D-Wave Quantum"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 3,
+      "evidence": [
+        {
+          "date": "2026-08-05",
+          "key": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing",
+          "report": "2026-08/2026-08-05-digest.md",
+          "score": 91,
+          "source": "The Quantum Insider",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "D-Wave Publishes Research on Dual-Rail Qubit Gate for Quantum Error Correction",
+          "url": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing"
+        },
+        {
+          "date": "2026-07-02",
+          "key": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical",
+          "report": "2026-07/2026-07-02-digest.md",
+          "score": 146,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "D-Wave Targets 100 Logical Qubits With Million-Operation Fault Tolerance",
+          "url": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical"
+        },
+        {
+          "date": "2026-06-30",
+          "key": "https://quantumcomputingreport.com/d-wave-selected-for-1-5-million-nsf-grant-to-provide-dual-rail-hardware-for-yale-led-fault-tolerant-erase-project",
+          "report": "2026-06/2026-06-30-digest.md",
+          "score": 66,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "D-Wave Selected for $1.5 Million NSF Grant to Provide Dual-Rail Hardware for Yale-Led Fault-Tolerant 'ERASE' Project",
+          "url": "https://quantumcomputingreport.com/d-wave-selected-for-1-5-million-nsf-grant-to-provide-dual-rail-hardware-for-yale-led-fault-tolerant-erase-project"
+        }
+      ],
+      "evidence_count": 3,
+      "first_seen": "2026-06-30",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-08-05",
+      "momentum": "rising",
+      "name": "D-Wave",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "QEC / Fault Tolerance",
+        "Quantum Hardware"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
         "Booz Allen"
       ],
       "case_sensitive_aliases": [
@@ -3186,54 +3272,6 @@
         "Standards / Government"
       ],
       "type": "consulting"
-    },
-    {
-      "aliases": [
-        "D-Wave Quantum"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 2,
-      "evidence": [
-        {
-          "date": "2026-07-02",
-          "key": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical",
-          "report": "2026-07/2026-07-02-digest.md",
-          "score": 146,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "D-Wave Targets 100 Logical Qubits With Million-Operation Fault Tolerance",
-          "url": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical"
-        },
-        {
-          "date": "2026-06-30",
-          "key": "https://quantumcomputingreport.com/d-wave-selected-for-1-5-million-nsf-grant-to-provide-dual-rail-hardware-for-yale-led-fault-tolerant-erase-project",
-          "report": "2026-06/2026-06-30-digest.md",
-          "score": 66,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "D-Wave Selected for $1.5 Million NSF Grant to Provide Dual-Rail Hardware for Yale-Led Fault-Tolerant 'ERASE' Project",
-          "url": "https://quantumcomputingreport.com/d-wave-selected-for-1-5-million-nsf-grant-to-provide-dual-rail-hardware-for-yale-led-fault-tolerant-erase-project"
-        }
-      ],
-      "evidence_count": 2,
-      "first_seen": "2026-06-30",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-07-02",
-      "momentum": "stable",
-      "name": "D-Wave",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "dormant",
-      "themes": [
-        "QEC / Fault Tolerance",
-        "Quantum Hardware"
-      ],
-      "type": "company"
     },
     {
       "aliases": [
@@ -3501,6 +3539,53 @@
     },
     {
       "aliases": [
+        "Thales Group"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 2,
+      "evidence": [
+        {
+          "date": "2026-08-05",
+          "key": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption",
+          "report": "2026-08/2026-08-05-digest.md",
+          "score": 64,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
+          "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 89,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
+          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
+        }
+      ],
+      "evidence_count": 2,
+      "first_seen": "2026-08-04",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-08-05",
+      "momentum": "rising",
+      "name": "Thales",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
         "French National Cybersecurity Agency",
         "Agence nationale de la securite des systemes d'information"
       ],
@@ -3734,41 +3819,6 @@
     },
     {
       "aliases": [
-        "Thales Group"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 1,
-      "evidence": [
-        {
-          "date": "2026-08-04",
-          "key": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 89,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
-          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
-        }
-      ],
-      "evidence_count": 1,
-      "first_seen": "2026-08-04",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-08-04",
-      "momentum": "rising",
-      "name": "Thales",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
@@ -3913,10 +3963,10 @@
       "latest_seen": "2026-07-28",
       "momentum": "declining",
       "name": "Infleqtion",
-      "prior_count": 7,
+      "prior_count": 5,
       "priority": "medium",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Hardware",
         "Quantum Sensing"
@@ -4147,11 +4197,11 @@
       "first_seen": "2026-07-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-07-29",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Rigetti",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "medium",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "Quantum Hardware"
@@ -4715,11 +4765,11 @@
       "first_seen": "2025-08-06",
       "historical_evidence_count": 18,
       "latest_seen": "2026-08-03",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Crypto-agility",
-      "prior_count": 4,
+      "prior_count": 5,
       "priority": "critical",
-      "recent_count": 7,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -4733,8 +4783,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 18,
+      "current_evidence_count": 19,
       "evidence": [
+        {
+          "date": "2026-08-05",
+          "key": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing",
+          "report": "2026-08/2026-08-05-digest.md",
+          "score": 91,
+          "source": "The Quantum Insider",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "D-Wave Publishes Research on Dual-Rail Qubit Gate for Quantum Error Correction",
+          "url": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing"
+        },
         {
           "date": "2026-07-29",
           "key": "https://quantumcomputingreport.com/riverlane-and-unitary-foundation-launch-deltakit-community-fund-for-open-source-qec",
@@ -4952,10 +5014,10 @@
           "url": "https://quantumzeitgeist.com/what-is-the-surface-code"
         }
       ],
-      "evidence_count": 18,
+      "evidence_count": 19,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-29",
+      "latest_seen": "2026-08-05",
       "momentum": "declining",
       "name": "Quantum error correction",
       "prior_count": 3,
@@ -5179,7 +5241,7 @@
       "prior_count": 1,
       "priority": "critical",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -5371,7 +5433,7 @@
       "latest_seen": "2026-07-23",
       "momentum": "declining",
       "name": "Quantum key distribution",
-      "prior_count": 3,
+      "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5796,6 +5858,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-05T01:57:48.254710+00:00",
+  "updated_at": "2026-08-06T02:01:26.070250+00:00",
   "version": 2
 }

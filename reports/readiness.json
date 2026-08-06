@@ -664,13 +664,13 @@
       "type": "company"
     },
     {
-      "confidence": "low",
-      "evidence_count": 1,
+      "confidence": "medium",
+      "evidence_count": 2,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-08-04",
+      "latest_evidence_at": "2026-08-05",
       "name": "Thales",
       "priority": "high",
-      "source_count": 1,
+      "source_count": 2,
       "stage": "planning",
       "stage_label": "Planning",
       "stage_rank": 3,
@@ -689,6 +689,21 @@
           "source": "The Quantum Insider",
           "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
           "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
+        },
+        {
+          "date": "2026-08-05",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuantumNews.ai",
+          "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
+          "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
         }
       ],
       "type": "company"
@@ -1480,6 +1495,6 @@
     "not_assessed": 21,
     "organizations": 43
   },
-  "updated_at": "2026-08-05T01:57:48.640050+00:00",
+  "updated_at": "2026-08-06T02:01:26.450498+00:00",
   "version": 1
 }

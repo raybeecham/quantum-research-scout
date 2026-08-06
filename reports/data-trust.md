@@ -1,28 +1,42 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-05T01:53:11.626011+00:00_
+_Updated 2026-08-06T01:55:17.903256+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **356**
-- Quarantined evidence or relationships: **76**
-- Acceptance rate: **82.4%**
+- Accepted evidence: **370**
+- Quarantined evidence or relationships: **78**
+- Acceptance rate: **82.6%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 26 | 53 | 32.9% |
-| Federal funding | 330 | 23 | 93.5% |
+| Federal missions | 26 | 55 | 32.1% |
+| Federal funding | 344 | 23 | 93.7% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 76
-- **No relevant term in the evidence itself**: 76
-- **Official government source**: 75
+- **Match appears only in collector query metadata**: 78
+- **No relevant term in the evidence itself**: 78
+- **Official government source**: 77
 - **Source is not an official .gov or .mil domain**: 1
 
 ## Quarantined Evidence
+
+### [RNomics Outreach and Coordination (ROC) Center](https://www.grants.gov/search-results-detail/363476)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [RNomics Molecular Standards](https://www.grants.gov/search-results-detail/363475)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [Powering Affordable Reliable Technology (PART) Energy Program](https://www.grants.gov/search-results-detail/363396)
 
