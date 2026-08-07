@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-06T01:55:17.903256+00:00_
+_Updated 2026-08-07T02:18:23.710417+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **8** (**10.7%** coverage)
+- SAM.gov-resolved entities: **11** (**14.7%** coverage)
 - Newly resolved this run: **3**
-- Pending bounded enrichment: **152**
+- Pending bounded enrichment: **153**
 - Ambiguous / no match: **0 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -19,9 +19,12 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | POST QUANTUM LABS LLC | [Post Quantum Labs LLC](https://sam.gov/entity/H53MXWJZPYU3/coreData) | H53MXWJZPYU3 | 9T5C5 | Active | Business or Organization, For Profit Organization, Individual or concern, other than one of the preceding |
 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | [MASSACHUSETTS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NYLCDML6V1/coreData) | E2NYLCDML6V1 | 80230 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | UNIVERSITY OF OKLAHOMA | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) | EVTSTTLCEWS5 | 3G168 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
+| UNIVERSITY OF NORTH TEXAS | [UNIVERSITY OF NORTH TEXAS](https://sam.gov/entity/G47WN1XZNWX9/coreData) | G47WN1XZNWX9 | 6B783 | Active | Educational Institution, Hispanic Servicing Institution, Minority Institution |
 | THE UNIVERSITY OF IOWA | [THE UNIVERSITY OF IOWA](https://sam.gov/entity/Z1H9VJS8NG16/coreData) | Z1H9VJS8NG16 | 2D354 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | [VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY](https://sam.gov/entity/QDE5UHE5XD16/coreData) | QDE5UHE5XD16 | 4B976 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | MORGAN STATE UNIVERSITY | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) | KULSKCCZJT27 | 8U547 | Active | Educational Institution, Historically Black College or University, Minority Institution |
+| CARNEGIE-MELLON UNIVERSITY | [CARNEGIE-MELLON UNIVERSITY](https://sam.gov/entity/U3NKNFLNQ613/coreData) | U3NKNFLNQ613 | 97668 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| FOUR POINTS TECHNOLOGY, L.L.C. | [FOUR POINTS TECHNOLOGY, L.L.C.](https://sam.gov/entity/H1KHJPJH9R51/coreData) | H1KHJPJH9R51 | 1YS78 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
 | REDACTED DUE TO PII | REDACTED DUE TO PII | — | — | no_match | No active public SAM.gov entity matched |
 | POST QUANTUM LABS LLC | POST QUANTUM LABS LLC | — | — | pending | api key missing |
@@ -56,6 +59,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | — | — | pending | Queued for a future bounded enrichment batch |
 | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | — | — | pending | api key missing |
+| OREGON STATE UNIVERSITY | OREGON STATE UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
 | NEW YORK UNIVERSITY | NEW YORK UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
 | NEW YORK UNIVERSITY | NEW YORK UNIVERSITY | — | — | pending | api key missing |
 | THE ARDIAN GROUP, INC | THE ARDIAN GROUP, INC | — | — | pending | Queued for a future bounded enrichment batch |
@@ -76,6 +80,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | RAVENTEK SOLUTION PARTNERS, LLC | RAVENTEK SOLUTION PARTNERS, LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | RAVENTEK SOLUTION PARTNERS, LLC | RAVENTEK SOLUTION PARTNERS, LLC | — | — | pending | api key missing |
 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | — | — | pending | api key missing |
+| IZUM INC | IZUM INC | — | — | pending | Queued for a future bounded enrichment batch |
 | CLEARAVENUE LLC | CLEARAVENUE LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | CLEARAVENUE LLC | CLEARAVENUE LLC | — | — | pending | api key missing |
 | UNIVERSITY OF ALASKA FAIRBANKS | UNIVERSITY OF ALASKA FAIRBANKS | — | — | pending | Queued for a future bounded enrichment batch |
@@ -84,11 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | THE PENNSYLVANIA STATE UNIVERSITY | THE PENNSYLVANIA STATE UNIVERSITY | — | — | pending | api key missing |
 | PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | — | — | pending | Queued for a future bounded enrichment batch |
 | PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | — | — | pending | api key missing |
-| MAKPAR-NUAXIS JV LLC | MAKPAR-NUAXIS JV LLC | — | — | pending | Queued for a future bounded enrichment batch |
-| AUTONOMIC INTEGRA LLC | AUTONOMIC INTEGRA LLC | — | — | pending | Queued for a future bounded enrichment batch |
-| AUTONOMIC INTEGRA LLC | AUTONOMIC INTEGRA LLC | — | — | pending | api key missing |
-| ANDURIL INDUSTRIES, INC. | ANDURIL INDUSTRIES, INC. | — | — | pending | Queued for a future bounded enrichment batch |
-| UNIVERSITY OF ILLINOIS | UNIVERSITY OF ILLINOIS | — | — | pending | Queued for a future bounded enrichment batch |
 
 ## Method
 

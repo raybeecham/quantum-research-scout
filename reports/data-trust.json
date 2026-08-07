@@ -1,20 +1,111 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 32.1,
+      "acceptance_rate": 30.2,
       "accepted": 26,
-      "quarantined": 55,
+      "quarantined": 60,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 93.7,
-      "accepted": 344,
-      "quarantined": 23,
+      "acceptance_rate": 93.8,
+      "accepted": 363,
+      "quarantined": 24,
       "scope": "Federal funding"
     }
   ],
   "method_note": "Quarantine is not a finding that evidence is false or irrelevant. It means the current evidence is too weak for automated promotion and remains available for review.",
   "quarantined_evidence": [
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-06",
+      "key": "https://www.grants.gov/search-results-detail/363481",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "U.S. National Science Foundation State and Regional Artificial Intelligence Infrastructure Hubs:",
+      "url": "https://www.grants.gov/search-results-detail/363481"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-06",
+      "key": "https://www.grants.gov/search-results-detail/363400",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "Rural Housing Preservation Grant",
+      "url": "https://www.grants.gov/search-results-detail/363400"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-06",
+      "key": "grants_gov:USDA-RD-HCFP-HPG-2026",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "funding evidence admission",
+      "title": "Rural Housing Preservation Grant",
+      "url": "https://www.grants.gov/search-results-detail/363400"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-06",
+      "key": "https://quantumzeitgeist.com/genesis-mission-unites-experts-tackle",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Quantum Zeitgeist",
+      "stage": "mission evidence admission",
+      "title": "DOE\u2019s Genesis mission unites experts to tackle national challenges",
+      "url": "https://quantumzeitgeist.com/genesis-mission-unites-experts-tackle"
+    },
     {
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
@@ -513,6 +604,52 @@
       "stage": "mission evidence admission",
       "title": "AI Pathways To The Future",
       "url": "https://www.grants.gov/search-results-detail/363061"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Genesis",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-30",
+      "key": "https://www.grants.gov/search-results-detail/359269",
+      "mission_id": "quantum-genesis",
+      "mission_name": "Quantum Genesis",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Quantum Genesis",
+      "stage": "mission evidence admission",
+      "title": "Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)",
+      "url": "https://www.grants.gov/search-results-detail/359269"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-30",
+      "key": "https://www.grants.gov/search-results-detail/359270",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "mission evidence admission",
+      "title": "PRIMED-AI: Data-to-Model Academic-Industrial Partnerships (D2M-AIP) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (UG3/UH3 Clinical Trial Optional)",
+      "url": "https://www.grants.gov/search-results-detail/359270"
     },
     {
       "admission": {
@@ -1790,35 +1927,35 @@
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 78,
+      "count": 84,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 78,
+      "count": 84,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 77,
+      "count": 82,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 1,
+      "count": 2,
       "label": "Source is not an official .gov or .mil domain"
     }
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 82.6,
-    "accepted": 370,
-    "decisions": 448,
-    "funding_quarantine": 23,
-    "mission_quarantine": 55,
-    "quarantined": 78,
+    "acceptance_rate": 82.2,
+    "accepted": 389,
+    "decisions": 473,
+    "funding_quarantine": 24,
+    "mission_quarantine": 60,
+    "quarantined": 84,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-06T01:55:17.903256+00:00",
+  "updated_at": "2026-08-07T02:18:23.710417+00:00",
   "version": 1
 }

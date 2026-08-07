@@ -93,7 +93,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 9,
+      "evidence_count": 10,
       "first_party_evidence_count": 0,
       "name": "Pasqal",
       "priority": "medium",
@@ -114,7 +114,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "first_party_evidence_count": 0,
       "name": "NIST",
       "priority": "critical",
@@ -236,8 +236,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 4,
-      "first_party_evidence_count": 4,
+      "evidence_count": 5,
+      "first_party_evidence_count": 5,
       "name": "Cloudflare",
       "priority": "high",
       "status": "covered",
@@ -385,7 +385,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 6,
+      "evidence_count": 8,
       "first_party_evidence_count": 0,
       "name": "IonQ",
       "priority": "high",
@@ -714,8 +714,20 @@
         "National Institute of Standards and Technology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 5,
+      "current_evidence_count": 6,
       "evidence": [
+        {
+          "date": "2026-08-06",
+          "key": "https://thequantuminsider.com/2026/08/06/nist-researchers-demonstrate-entangled-photon-transmission-over-existing-fiber-networks",
+          "report": "2026-08/2026-08-06-digest.md",
+          "score": 87,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "NIST Researchers Demonstrate Entangled Photon Transmission Over Existing Fiber Networks",
+          "url": "https://thequantuminsider.com/2026/08/06/nist-researchers-demonstrate-entangled-photon-transmission-over-existing-fiber-networks"
+        },
         {
           "date": "2026-08-05",
           "key": "https://quantumzeitgeist.com/quantum-link-gaithersburg-college-nist",
@@ -777,18 +789,19 @@
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
         }
       ],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "first_seen": "2026-06-25",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-05",
+      "latest_seen": "2026-08-06",
       "momentum": "rising",
       "name": "NIST",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "critical",
       "recent_count": 3,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
+        "Quantum Networking",
         "Standards / Government"
       ],
       "type": "government"
@@ -1287,11 +1300,11 @@
       "first_seen": "2024-08-19",
       "historical_evidence_count": 20,
       "latest_seen": "2026-07-30",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Fortanix",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -1836,11 +1849,11 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-02",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "IBM",
-      "prior_count": 2,
+      "prior_count": 4,
       "priority": "high",
-      "recent_count": 5,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2075,6 +2088,128 @@
       "themes": [
         "Quantum Hardware",
         "Quantum Networking",
+        "Quantum Software / Tooling",
+        "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 8,
+      "evidence": [
+        {
+          "date": "2026-08-06",
+          "key": "https://quantumzeitgeist.com/ionqs-quantum-plan-atomic-clocks",
+          "report": "2026-08/2026-08-06-digest.md",
+          "score": 100,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "IonQ\u2019s quantum plan builds 125 atomic clocks for U.S. government use",
+          "url": "https://quantumzeitgeist.com/ionqs-quantum-plan-atomic-clocks"
+        },
+        {
+          "date": "2026-08-06",
+          "key": "https://quantumcomputingreport.com/ionq-awarded-28m-darpa-contract-extension-for-atomic-clocks-secures-nro-radar-satellite-award",
+          "report": "2026-08/2026-08-06-digest.md",
+          "score": 22,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "IonQ Awarded $28M DARPA Contract Extension for Atomic Clocks; Secures NRO Radar Satellite Award",
+          "url": "https://quantumcomputingreport.com/ionq-awarded-28m-darpa-contract-extension-for-atomic-clocks-secures-nro-radar-satellite-award"
+        },
+        {
+          "date": "2026-08-05",
+          "key": "https://thequantuminsider.com/2026/08/05/ionq-sandia-quantum-technology-research-partnership",
+          "report": "2026-08/2026-08-05-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "IonQ and Sandia National Laboratories Partner on Quantum Technology Research",
+          "url": "https://thequantuminsider.com/2026/08/05/ionq-sandia-quantum-technology-research-partnership"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "IonQ says orders set 2030 deadline for post-quantum crypto migration",
+          "url": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 82,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "IonQ and EPB Partner to Launch the Tennessee Quantum Communications Research Center",
+          "url": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 42,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IonQ Completes Acquisition of SkyWater Technology, Establishing Vertically Integrated Quantum Platform",
+          "url": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 27,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IonQ\u2019s SkyWater Deal Secures U.S. Quantum Chip Supply",
+          "url": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 24,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Fixstars Amplify adds IonQ\u2019s Quantum Computing Environment to its Standard Machines",
+          "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
+        }
+      ],
+      "evidence_count": 8,
+      "first_seen": "2026-06-22",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-08-06",
+      "momentum": "rising",
+      "name": "IonQ",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 7,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Hardware",
+        "Quantum Networking",
+        "Quantum Sensing",
         "Quantum Software / Tooling",
         "Standards / Government"
       ],
@@ -2451,103 +2586,6 @@
       "type": "company"
     },
     {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 6,
-      "evidence": [
-        {
-          "date": "2026-08-05",
-          "key": "https://thequantuminsider.com/2026/08/05/ionq-sandia-quantum-technology-research-partnership",
-          "report": "2026-08/2026-08-05-digest.md",
-          "score": 100,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Standards / Government"
-          ],
-          "title": "IonQ and Sandia National Laboratories Partner on Quantum Technology Research",
-          "url": "https://thequantuminsider.com/2026/08/05/ionq-sandia-quantum-technology-research-partnership"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 100,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "IonQ says orders set 2030 deadline for post-quantum crypto migration",
-          "url": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 82,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "IonQ and EPB Partner to Launch the Tennessee Quantum Communications Research Center",
-          "url": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center"
-        },
-        {
-          "date": "2026-07-31",
-          "key": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 42,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IonQ Completes Acquisition of SkyWater Technology, Establishing Vertically Integrated Quantum Platform",
-          "url": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform"
-        },
-        {
-          "date": "2026-07-31",
-          "key": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 27,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IonQ\u2019s SkyWater Deal Secures U.S. Quantum Chip Supply",
-          "url": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal"
-        },
-        {
-          "date": "2026-06-22",
-          "key": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator",
-          "report": "2026-06/2026-06-22-digest.md",
-          "score": 24,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "Fixstars Amplify adds IonQ\u2019s Quantum Computing Environment to its Standard Machines",
-          "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
-        }
-      ],
-      "evidence_count": 6,
-      "first_seen": "2026-06-22",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-08-05",
-      "momentum": "rising",
-      "name": "IonQ",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 5,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility",
-        "Quantum Hardware",
-        "Quantum Networking",
-        "Quantum Software / Tooling",
-        "Standards / Government"
-      ],
-      "type": "company"
-    },
-    {
       "aliases": [
         "Accenture",
         "Accenture Federal Services",
@@ -2697,6 +2735,88 @@
       "type": "consulting"
     },
     {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 5,
+      "evidence": [
+        {
+          "date": "2026-08-06",
+          "key": "https://blog.cloudflare.com/mcp-v2",
+          "report": "2026-08/2026-08-06-digest.md",
+          "score": 26,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The next generation of MCP",
+          "url": "https://blog.cloudflare.com/mcp-v2"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://blog.cloudflare.com/smaller-faster-safer-models",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 22,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+          "url": "https://blog.cloudflare.com/smaller-faster-safer-models"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 55,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post-quantum authentication to origins is now supported",
+          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
+        },
+        {
+          "date": "2026-07-09",
+          "key": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
+          "report": "2026-07/2026-07-09-digest.md",
+          "score": 139,
+          "source": "Cloudflare Post-Quantum Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why we cannot wait for better post-quantum signature algorithms",
+          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://blog.cloudflare.com/post-quantum-eo-2026",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 50,
+          "source": "Cloudflare Post-Quantum Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
+          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
+        }
+      ],
+      "evidence_count": 5,
+      "first_seen": "2026-06-23",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-08-06",
+      "momentum": "rising",
+      "name": "Cloudflare",
+      "prior_count": 1,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "AI Security",
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
       "aliases": [
         "Cisco Systems"
       ],
@@ -2765,76 +2885,6 @@
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Networking"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 4,
-      "evidence": [
-        {
-          "date": "2026-08-03",
-          "key": "https://blog.cloudflare.com/smaller-faster-safer-models",
-          "report": "2026-08/2026-08-03-digest.md",
-          "score": 22,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "AI Security"
-          ],
-          "title": "Smaller, faster, safer: running Kimi and GLM at scale",
-          "url": "https://blog.cloudflare.com/smaller-faster-safer-models"
-        },
-        {
-          "date": "2026-07-29",
-          "key": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
-          "report": "2026-07/2026-07-29-digest.md",
-          "score": 55,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Post-quantum authentication to origins is now supported",
-          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
-        },
-        {
-          "date": "2026-07-09",
-          "key": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
-          "report": "2026-07/2026-07-09-digest.md",
-          "score": 139,
-          "source": "Cloudflare Post-Quantum Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Why we cannot wait for better post-quantum signature algorithms",
-          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
-        },
-        {
-          "date": "2026-06-23",
-          "key": "https://blog.cloudflare.com/post-quantum-eo-2026",
-          "report": "2026-06/2026-06-23-digest.md",
-          "score": 50,
-          "source": "Cloudflare Post-Quantum Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
-          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
-        }
-      ],
-      "evidence_count": 4,
-      "first_seen": "2026-06-23",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-08-03",
-      "momentum": "stable",
-      "name": "Cloudflare",
-      "prior_count": 1,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "AI Security",
-        "PQC / Crypto Agility"
       ],
       "type": "company"
     },
@@ -3261,11 +3311,11 @@
       "first_seen": "2025-02-06",
       "historical_evidence_count": 1,
       "latest_seen": "2026-07-30",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Booz Allen Hamilton",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -3526,9 +3576,9 @@
       "first_seen": "2026-07-03",
       "historical_evidence_count": 0,
       "latest_seen": "2026-07-23",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "PQShield",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -3963,7 +4013,7 @@
       "latest_seen": "2026-07-28",
       "momentum": "declining",
       "name": "Infleqtion",
-      "prior_count": 5,
+      "prior_count": 4,
       "priority": "medium",
       "recent_count": 0,
       "status": "quiet",
@@ -3976,8 +4026,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 9,
+      "current_evidence_count": 10,
       "evidence": [
+        {
+          "date": "2026-08-06",
+          "key": "https://thequantuminsider.com/2026/08/06/pasqal-business-combination-filing-bleichroeder-declared-effective-sec",
+          "report": "2026-08/2026-08-06-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal Receives SEC Clearance for Proposed SPAC Combination With Bleichroeder",
+          "url": "https://thequantuminsider.com/2026/08/06/pasqal-business-combination-filing-bleichroeder-declared-effective-sec"
+        },
         {
           "date": "2026-07-24",
           "key": "https://quantumzeitgeist.com/pasqals-256-qubit-simulation-guides-quantum",
@@ -4087,16 +4149,16 @@
           "url": "https://thequantuminsider.com/2026/06/29/pasqal-appoints-stephane-rougeot-chief-financial-officer"
         }
       ],
-      "evidence_count": 9,
+      "evidence_count": 10,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-24",
-      "momentum": "declining",
+      "latest_seen": "2026-08-06",
+      "momentum": "stable",
       "name": "Pasqal",
       "prior_count": 1,
       "priority": "medium",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Hardware"
       ],
@@ -4202,7 +4264,7 @@
       "prior_count": 1,
       "priority": "medium",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Hardware"
       ],
@@ -4765,11 +4827,11 @@
       "first_seen": "2025-08-06",
       "historical_evidence_count": 18,
       "latest_seen": "2026-08-03",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Crypto-agility",
-      "prior_count": 5,
+      "prior_count": 6,
       "priority": "critical",
-      "recent_count": 5,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -5037,8 +5099,20 @@
         "fault-tolerant quantum"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 10,
+      "current_evidence_count": 11,
       "evidence": [
+        {
+          "date": "2026-08-06",
+          "key": "https://thequantuminsider.com/2026/08/06/photons-for-reach-atoms-for-entanglement-compound-photon-atom-blueprint-fault-tolerant-quantum-computing",
+          "report": "2026-08/2026-08-06-digest.md",
+          "score": 74,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Photons for Reach, Atoms for Entanglement: A Compound Photon-Atom Blueprint for Fault-Tolerant Quantum Computing",
+          "url": "https://thequantuminsider.com/2026/08/06/photons-for-reach-atoms-for-entanglement-compound-photon-atom-blueprint-fault-tolerant-quantum-computing"
+        },
         {
           "date": "2026-07-28",
           "key": "https://www.insidequantumtechnology.com/news-archive/c12-unveils-roadmap-to-useful-fault-tolerant-quantum-computing-by-2033",
@@ -5232,19 +5306,20 @@
           "url": "https://www.quera.com/press-releases/quera-selected-for-phase-1-of-darpas-quantum-benchmarking-initiative"
         }
       ],
-      "evidence_count": 13,
+      "evidence_count": 14,
       "first_seen": "2025-09-10",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-07-28",
-      "momentum": "declining",
+      "latest_seen": "2026-08-06",
+      "momentum": "stable",
       "name": "Logical qubits",
       "prior_count": 1,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
+        "Quantum Networking",
         "Quantum Software / Tooling"
       ],
       "type": "technology"
@@ -5286,9 +5361,9 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-07-23",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "ML-DSA",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "critical",
       "recent_count": 0,
       "status": "quiet",
@@ -5431,9 +5506,9 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 1,
       "latest_seen": "2026-07-23",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Quantum key distribution",
-      "prior_count": 2,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5504,9 +5579,9 @@
       "first_seen": "2026-07-07",
       "historical_evidence_count": 1,
       "latest_seen": "2026-07-23",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Quantum networking",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5858,6 +5933,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-06T02:01:26.070250+00:00",
+  "updated_at": "2026-08-07T02:26:16.316860+00:00",
   "version": 2
 }

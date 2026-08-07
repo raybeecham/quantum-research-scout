@@ -2,29 +2,69 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-06T01:55:17.903256+00:00_
+_Updated 2026-08-07T02:18:23.710417+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
-- Opportunities reviewed: **15**
-- Documents extracted: **4** / **28** discovered
+- Opportunities reviewed: **19**
+- Documents extracted: **6** / **36** discovered
 - Changed documents: **0**
 - New amendments: **0**
 - Material amendment impacts this run: **0**
 - Decisions requiring revalidation: **0**
 
-## [Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT](https://sam.gov/workspace/contract/opp/ea6dd4e3132d4d74a0535bb6728750a4/view)
+## [Sole Source to Zero Drift Technology, INC for Quantum Nitrogen Vacancy Magnetometer](https://sam.gov/workspace/contract/opp/f9ad518090dd474284fe36e6b3eb6671/view)
 
-Evidence completeness: **24 / 100** · Deadline: **2026-08-07T09:00:00-04:00**
+Evidence completeness: **84 / 100** · Deadline: **2026-08-11T12:00:00-05:00**
 
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dd6a812594e4806af7af73c665c2687/download) — extracted
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ea6dd4e3132d4d74a0535bb6728750a4) — no_text
+Requirements evidence:
+- ixed -Price (FFP) lease and services contract to Zero Drift Technologie s. 3. A description of the supplies or services required to meet the agency’s needs (including the estimated value). This acquisition is for a quantum nitrogen vacancy-based vector magnetometer to en hance Navy adoption of emer...
+- ication rationale and, if applicable, a demonstration of the proposed contractor’s unique qualifications to provide the required supply or service. 10 U.S.C. 2304(c) - Only one responsible source and no other supplies or services will satisfy agency requirements, FAR 6.302-1. The Naval Surface Warf...
+- Apr 2008) 52.212-4 Contract Terms and Conditions -- Commercial Items (Nov 2021) 52.212-5 Contract Terms and Conditions Required to Implement Statutes or Executive Orders -- Commercial Items (May 2022) Preselected: 52.203-19 Prohibition on Requiring Certain Internal Confidentiality Agreements or Sta...
+- ving (May 2024) 52.233-3 Protest After Award (Aug 1996) 52.233-4 Applicable Law for Breach of Contract Claim (Oct 2004) Required: 52.215-8 Order of Precedence-Uniform Contract Format (Oct 1997) 52.219-1 Small Business Program Representations (Feb 2024) 52.222-50 Combatting Trafficking in Persons (O...
+- nment. (End of Text) C-211-H018 APPROVAL BY THE GOVERNMENT (NAVSEA) (JAN 2019) (Jan 2019) Approval by the Government as required under this contract and applicable specifications shall not relieve the Contractor of its obligation to comply with the specifications and with all other requirements of...
 
-## [SENSOR ASSY, ESM](https://sam.gov/workspace/contract/opp/e31cd2c839144938815e7b2e1b948905/view)
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/35385bd8223e4951b7ab8de9d1558f3b/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7659e1178b8a42ab90a40eaa65b82546/download) — extracted
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f9ad518090dd474284fe36e6b3eb6671) — no_text
 
-Evidence completeness: **0 / 100** · Deadline: **2026-08-10T16:30:00-04:00**
+## [15--ARMOR ASSY PANEL AI](https://sam.gov/workspace/contract/opp/ca7480f31a1f49dfbdd9058153f71757/view)
 
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e31cd2c839144938815e7b2e1b948905) — no_text
+Evidence completeness: **0 / 100** · Deadline: **2026-08-14**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ca7480f31a1f49dfbdd9058153f71757) — not_fetched
+
+## [29--SENSOR,AIR CHARGED](https://sam.gov/workspace/contract/opp/e517e60215054acd9a4504fdfd7145a2/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-17**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e517e60215054acd9a4504fdfd7145a2) — not_fetched
+
+## [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-18T11:00:00-04:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/580cc4c02ed04729858dd795956faa91/download) — not_fetched
+
+## [NSN: 6665-01-415-4957 Sensor Assembly](https://sam.gov/workspace/contract/opp/96502443e7d34631856ecc6d718180b6/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-15T15:00:00-04:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/27c046abca7a4756ac9f8cf4d0ae4e78/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/db0ed04dc45e4eba8414c28afb13004a/download) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=96502443e7d34631856ecc6d718180b6) — not_fetched
+
+## [Communications, Network, Engineering, Cybersecurity, and Information Technology Services (CNECTS), aka "Connects"](https://sam.gov/workspace/contract/opp/d48fc119cc6e4a23ac8f2dc79965283c/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-12-23T14:00:00-07:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0095c3a1df4943a482ddd741787cb5a1/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/080d3d44638f4914bdad2a5b4b580f32/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1180559023714da5a1cf05015902a8d0/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1c7b8f8a57104b259db9b9194e526240/download) — not_fetched
 
 ## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/b1e512b55280430da7502b135f789487/view)
 
@@ -44,15 +84,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-13**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=96feef11cce042849f9cbd97dbc13bc9) — not_fetched
 
-## [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-18T11:00:00-04:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/580cc4c02ed04729858dd795956faa91/download) — not_fetched
-
 ## [ATEC HQ 001, Autonomous Swarm Dynamics & Counter-Drone (C-UAS) Technologies](https://sam.gov/workspace/contract/opp/b1140aa605ee4f2bb775dfbfe42589f6/view)
 
 Evidence completeness: **0 / 100** · Deadline: **2026-08-19T15:00:00-04:00**
@@ -65,15 +96,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-19T15:00:00-04:00**
 Evidence completeness: **0 / 100** · Deadline: **2026-09-21T00:00:00-04:00**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e31d1bf11a9c421c8ca2180c38e4bef8) — not_fetched
-
-## [Communications, Network, Engineering, Cybersecurity, and Information Technology Services (CNECTS), aka "Connects"](https://sam.gov/workspace/contract/opp/d48fc119cc6e4a23ac8f2dc79965283c/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-12-23T14:00:00-07:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0095c3a1df4943a482ddd741787cb5a1/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/080d3d44638f4914bdad2a5b4b580f32/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1180559023714da5a1cf05015902a8d0/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1c7b8f8a57104b259db9b9194e526240/download) — not_fetched
 
 ## [Power Sensor Check Standard](https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view)
 
@@ -136,6 +158,19 @@ Requirements evidence:
 
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download) — extracted
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d6568c226f0745c087ac45acfc446e49) — no_text
+
+## [Repair and Reconditioning Field service of Oxford/Quantum Design's SpectroMag PT](https://sam.gov/workspace/contract/opp/ea6dd4e3132d4d74a0535bb6728750a4/view)
+
+Evidence completeness: **24 / 100** · Deadline: **2026-08-07T09:00:00-04:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dd6a812594e4806af7af73c665c2687/download) — extracted
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ea6dd4e3132d4d74a0535bb6728750a4) — no_text
+
+## [SENSOR ASSY, ESM](https://sam.gov/workspace/contract/opp/e31cd2c839144938815e7b2e1b948905/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-10T16:30:00-04:00**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e31cd2c839144938815e7b2e1b948905) — no_text
 
 ## Method
 

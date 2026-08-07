@@ -1,28 +1,56 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-06T01:55:17.903256+00:00_
+_Updated 2026-08-07T02:18:23.710417+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **370**
-- Quarantined evidence or relationships: **78**
-- Acceptance rate: **82.6%**
+- Accepted evidence: **389**
+- Quarantined evidence or relationships: **84**
+- Acceptance rate: **82.2%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 26 | 55 | 32.1% |
-| Federal funding | 344 | 23 | 93.7% |
+| Federal missions | 26 | 60 | 30.2% |
+| Federal funding | 363 | 24 | 93.8% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 78
-- **No relevant term in the evidence itself**: 78
-- **Official government source**: 77
-- **Source is not an official .gov or .mil domain**: 1
+- **Match appears only in collector query metadata**: 84
+- **No relevant term in the evidence itself**: 84
+- **Official government source**: 82
+- **Source is not an official .gov or .mil domain**: 2
 
 ## Quarantined Evidence
+
+### [U.S. National Science Foundation State and Regional Artificial Intelligence Infrastructure Hubs:](https://www.grants.gov/search-results-detail/363481)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Rural Housing Preservation Grant](https://www.grants.gov/search-results-detail/363400)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Rural Housing Preservation Grant](https://www.grants.gov/search-results-detail/363400)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [DOE’s Genesis mission unites experts to tackle national challenges](https://quantumzeitgeist.com/genesis-mission-unites-experts-tackle)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [RNomics Outreach and Coordination (ROC) Center](https://www.grants.gov/search-results-detail/363476)
 
@@ -172,6 +200,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [AI Pathways To The Future](https://www.grants.gov/search-results-detail/363061)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/359269)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [PRIMED-AI: Data-to-Model Academic-Industrial Partnerships (D2M-AIP) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (UG3/UH3 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359270)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

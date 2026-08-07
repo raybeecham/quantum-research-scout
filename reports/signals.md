@@ -4,19 +4,19 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-06 02:01 UTC_
+_Updated 2026-08-07 02:26 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
-| Quantum Networking | ↗️ rising (13 vs 8) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-08-05 | 64 |
+| Quantum Networking | ↗️ rising (17 vs 7) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-08-06 | 70 |
 | Standards / Government | ↗️ rising (9 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-08-05 | 13 |
 | AI Security | ↘️ declining (2 vs 3) | 🔴 critical | high | 👁️ watching | 2026-07-01 | 2026-08-04 | 13 |
-| PQC / Crypto Agility | ➡️ stable (19 vs 28) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-08-05 | 106 |
+| PQC / Crypto Agility | ➡️ stable (20 vs 25) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-08-06 | 109 |
 | QEC / Fault Tolerance | ↘️ declining (2 vs 7) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-08-05 | 38 |
-| Quantum Hardware | ➡️ stable (22 vs 29) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-05 | 166 |
-| Quantum Sensing | ↘️ declining (3 vs 6) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-08-04 | 26 |
+| Quantum Hardware | ➡️ stable (25 vs 28) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-06 | 170 |
+| Quantum Sensing | ➡️ stable (4 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-06 | 28 |
 | Quantum Software / Tooling | ➡️ stable (8 vs 8) | 🟠 high | high | 👁️ watching | 2026-06-22 | 2026-08-04 | 55 |
 
 ## Quantum Networking
@@ -24,11 +24,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
-  - 2026-08-05 — [‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network](https://www.nist.gov/news-events/news/2026/08/spooky-particles-transit-dc-suburbs-step-toward-quantum-network) (QuantumNews.ai, score 100)
-  - 2026-08-04 — [IonQ and EPB Partner to Launch the Tennessee Quantum Communications Research Center](https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center) (The Quantum Insider, score 82)
-  - 2026-08-04 — [memQ went gold!](https://www.insidequantumtechnology.com/news-archive/memq-went-gold) (QuantumNews.ai, score 71)
-  - 2026-08-04 — [Quantum Corridor, Ciena and Toshiba Test 1.6 Tb/s Quantum-Safe Network Encryption](https://thequantuminsider.com/2026/08/04/quantum-corridor-ciena-toshiba-1-6-tbps-quantum-safe-optical-encryption-live-network) (The Quantum Insider, score 64)
-  - 2026-08-04 — [QuiX Quantum Launches Alquor 2.0 Photonic Quantum Processor Platform](https://thequantuminsider.com/2026/08/04/quix-quantum-launches-alquor-2-0-photonic-quantum-research) (The Quantum Insider, score 57)
+  - 2026-08-06 — [enQase and Light Rider Partner to Deliver Integrated Quantum-Safe Communications Architecture](https://quantumcomputingreport.com/enqase-and-light-rider-partner-to-deliver-integrated-quantum-safe-communications-architecture) (QuantumNews.ai, score 110)
+  - 2026-08-06 — [NIST Researchers Demonstrate Entangled Photon Transmission Over Existing Fiber Networks](https://thequantuminsider.com/2026/08/06/nist-researchers-demonstrate-entangled-photon-transmission-over-existing-fiber-networks) (The Quantum Insider, score 87)
+  - 2026-08-06 — [Photons for Reach, Atoms for Entanglement: A Compound Photon-Atom Blueprint for Fault-Tolerant Quantum Computing](https://thequantuminsider.com/2026/08/06/photons-for-reach-atoms-for-entanglement-compound-photon-atom-blueprint-fault-tolerant-quantum-computing) (QuantumNews.ai, score 74)
+  - 2026-08-06 — [Quantum Optics Jena’s ELVIS System Passes Independent Security Testing for Quantum Communication](https://thequantuminsider.com/2026/08/06/quantum-optics-jena-unhackable-quantum-communication-independent-security-test) (The Quantum Insider, score 37)
+  - 2026-08-06 — [How Nagoya University Links Entanglement to Mirror Acceleration](https://quantumzeitgeist.com/physics-entanglement-mirror-acceleration-nagoya-university) (Quantum Zeitgeist, score 27)
 
 ## Standards / Government
 
@@ -54,14 +54,14 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 
 ## PQC / Crypto Agility
 
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, IACR ePrint, Keyfactor Quantum and Crypto-Agility
+- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Keyfactor Quantum and Crypto-Agility
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-08-06 — [Code Generation of Faster Formally Verified NTT with Plantard Reduction](https://eprint.iacr.org/2026/1624) (IACR ePrint, score 154)
+  - 2026-08-06 — [Amazon Researcher Claims Quantum Algorithm Could Challenge PQC Foundations](https://thequantuminsider.com/2026/08/06/amazon-researcher-claims-quantum-algorithm-could-challenge-pqc-foundations) (The Quantum Insider, score 63)
+  - 2026-08-06 — [The next generation of MCP](https://blog.cloudflare.com/mcp-v2) (Cloudflare Blog, score 26)
   - 2026-08-05 — [Government Transition to Post-Quantum Cryptography by 2030](https://quantumnews.ai/cryptography/government-transition-to-post-quantum-cryptography-by-2030) (QuantumNews.ai, score 100)
   - 2026-08-05 — [Quantum Corridor, Ciena, and Toshiba Validate 1.6 Tb/s Quantum-Safe Encryption on Live Fiber Network](https://quantumcomputingreport.com/quantum-corridor-ciena-and-toshiba-validate-1-6-tb-s-quantum-safe-encryption-on-live-fiber-network) (QuantumNews.ai, score 78)
-  - 2026-08-05 — [Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption](https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption) (QuantumNews.ai, score 64)
-  - 2026-08-04 — [IonQ says orders set 2030 deadline for post-quantum crypto migration](https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders) (QuantumNews.ai, score 100)
-  - 2026-08-04 — [enQase and Light Rider Collaborate on Quantum-Safe Communication Infrastructure](https://thequantuminsider.com/2026/08/04/enqase-light-rider-quantum-safe-communication-infrastructure) (The Quantum Insider, score 100)
 
 ## QEC / Fault Tolerance
 
@@ -79,22 +79,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-08-06 — [New study probes entanglement in noisy quantum processors](https://quantumzeitgeist.com/google-quantum-entanglement-noisy-probes-processors) (Quantum Zeitgeist, score 36)
+  - 2026-08-06 — [Pasqal Receives SEC Clearance for Proposed SPAC Combination With Bleichroeder](https://thequantuminsider.com/2026/08/06/pasqal-business-combination-filing-bleichroeder-declared-effective-sec) (The Quantum Insider, score 35)
+  - 2026-08-06 — [University of Waterloo Simulates Non-Markovian Dissipation in Trapped Ion](https://quantumzeitgeist.com/university-waterloo-simulation-non-markovian) (Quantum Zeitgeist, score 29)
+  - 2026-08-06 — [Xanadu Reports Higher Revenue in 2Q 2026, Expands U.S. Operations](https://thequantuminsider.com/2026/08/06/xanadu-reports-higher-revenue-in-2q-2026-expands-u-s-operations) (The Quantum Insider, score 24)
   - 2026-08-05 — [Qubit readout circuits found vulnerable to side-channel attacks](https://quantumzeitgeist.com/rochester-qubit-readout-circuits-found-vulnerable) (Quantum Zeitgeist, score 79)
-  - 2026-08-05 — [UCLA wins $4M to build a 60-qubit fault-tolerant computer](https://quantumzeitgeist.com/ucla-win-wins-60-qubit-fault) (Quantum Zeitgeist, score 78)
-  - 2026-08-05 — [Qarakal Quantum shrinks qubit needs tenfold with new design](https://quantumzeitgeist.com/qarakal-quantum-shrinks-qubit-needs) (Quantum Zeitgeist, score 48)
-  - 2026-08-05 — [Qarakal Quantum Unveils Pangaea Architecture for Modular Quantum Computing](https://thequantuminsider.com/2026/08/05/qarakal-quantum-modular-architecture-scaling-quantum-computers) (The Quantum Insider, score 44)
-  - 2026-08-05 — [Researchers Improve Superconducting Qubit Coherence Using Tantalum and Silicon](https://thequantuminsider.com/2026/08/05/researchers-improve-superconducting-qubit-coherence-tantalum-silicon) (QuantumNews.ai, score 36)
 
 ## Quantum Sensing
 
 - Organizations/sources: QuantumNews.ai, Quantum Zeitgeist, The Quantum Insider
 - Recommended follow-up: Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.
 - Recent supporting evidence:
+  - 2026-08-06 — [IonQ’s quantum plan builds 125 atomic clocks for U.S. government use](https://quantumzeitgeist.com/ionqs-quantum-plan-atomic-clocks) (Quantum Zeitgeist, score 100)
+  - 2026-08-06 — [IonQ Awarded $28M DARPA Contract Extension for Atomic Clocks; Secures NRO Radar Satellite Award](https://quantumcomputingreport.com/ionq-awarded-28m-darpa-contract-extension-for-atomic-clocks-secures-nro-radar-satellite-award) (QuantumNews.ai, score 22)
   - 2026-08-04 — [Atomionics Opens Asia’s First Quantum Sensing Hub for Ocean Mapping](https://quantumzeitgeist.com/quantum-sensing-hub-atomionics-asias) (Quantum Zeitgeist, score 27)
   - 2026-07-31 — [How NRL Develops Navy Quantum Computing with Strategic Partnerships](https://quantumzeitgeist.com/quantum-science-nrl-partnership-navy-computing) (Quantum Zeitgeist, score 15)
   - 2026-07-30 — [Enhancing Geophysical Studies with Quantum Magnetometer Networks](https://quantumnews.ai/networking/enhancing-geophysical-studies-with-quantum-magnetometer-networks) (QuantumNews.ai, score 12)
-  - 2026-07-28 — [Infleqtion Appoints Dr. Joseph Buck as Senior Vice President of Quantum Computing Systems](https://infleqtion.com/infleqtion-appoints-dr-joseph-buck-as-senior-vice-president-of-quantum-computing-systems) (QuantumNews.ai, score 45)
-  - 2026-07-28 — [Infleqtion to Report Second Quarter 2026 Financial Results on August 12, 2026](https://infleqtion.com/infleqtion-to-report-second-quarter-2026-financial-results-on-august-12-2026) (QuantumNews.ai, score 36)
 
 ## Quantum Software / Tooling
 
