@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-08-07T02:18:23.710417+00:00_
+_Updated 2026-08-08T01:05:02.993371+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
 **Ranking:** Strategic significance first, combining domain relevance, document stage, legal status, citation evidence, family depth, recency, and assignee attribution. Evidence score and publication date break ties.
 
-- Tracked publications: **204**
+- Tracked publications: **205**
 - Curated notable patents: **2**
-- Automated recent discoveries: **202**
+- Automated recent discoveries: **203**
 - Published in the last 30 days: **51**
-- Unique named assignees: **133**
-- Patent families: **194**
-- Applications / grants: **196 / 8**
-- Known legal status: **154 of 204**
+- Unique named assignees: **134**
+- Patent families: **195**
+- Applications / grants: **197 / 8**
+- Known legal status: **155 of 205**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -110,7 +110,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [NEAR IR LUMINESCENCE AND OPTICALLY ADDRESSABLE QUANTUM SENSING AND MAGNETIC IMAGING WITH RADICALOID TETRATHIAFULVALENE TETRATHIOLATES](https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data)<br><small>US20250319211A1</small> | Application · Pending | The University of Chicago | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [SEPARATION FILTER AND QUANTUM COMMUNICATION SYSTEM USING THE SAME](https://data.uspto.gov/patent-file-wrapper/search/details/19078645/application-data)<br><small>US20250306283A1</small> | Application · Pending | UNIVERSITY OF SEOUL INDUSTRY COOPERATION FOUNDATION | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [OPTICAL DETECTOR AND METHOD FOR QUANTUM COMMUNICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19050591/application-data)<br><small>US20250260495A1</small> | Application · Pending | Airbus SAS | 1 member(s) · 0 citation(s) | **65 · HIGH** |
-| [QUANTUM COMMUNICATION SYSTEM THAT SWITCHES BETWEEN QUANTUM KEY DISTRIBUTION (QKD) PROTOCOLS AND ASSOCIATED METHODS](https://data.uspto.gov/patent-file-wrapper/search/details/19188080/application-data)<br><small>US20250254033A1</small> | Application · Pending | Eagle Technology, LLC | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [PULSE OPTIMIZATION IN QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19454548/application-data)<br><small>US20260212249A1</small> | Application · Pending | YISSUM RESEARCH DEVELOPMENT COMPANY OF THE HEBREW UNIVERSITY OF JERUSALEM LTD., BAR ILAN UNIVERSITY | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [HERMETIC JOINING OF ALUMINA CERAMIC TO TITANIUM AND INCORPORATION INTO AN ION TRAP QUANTUM COMPUTING VACUUM SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19451673/application-data)<br><small>US20260212245A1</small> | Application · Pending | IonQ, Inc. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [QUANTUM COMPUTING CIRCUIT AND INFORMATION PROCESSING DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19426523/application-data)<br><small>US20260178956A1</small> | Application · Pending | NEC Corporation | 1 member(s) · 0 citation(s) | **65 · HIGH** |
@@ -123,6 +122,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [DIAGNOSIS AND TREATMENT RECOMMENDATION USING QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19427214/application-data)<br><small>US20260128171A1</small> | Application · Pending | Optum Services (Ireland) Limited | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [SIMULATING QUANTUM COMPUTING CIRCUITS USING KRONECKER FACTORIZATION](https://data.uspto.gov/patent-file-wrapper/search/details/19420562/application-data)<br><small>US20260105340A1</small> | Application · Pending | NVIDIA Corporation | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025049807/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | ARRIS ENTERPRISES LLC | 2 member(s) · 0 citation(s) | **63 · HIGH** |
+| [QUANTUM COMMUNICATION SYSTEM THAT SWITCHES BETWEEN QUANTUM KEY DISTRIBUTION (QKD) PROTOCOLS AND ASSOCIATED METHODS](https://data.uspto.gov/patent-file-wrapper/search/details/19188080/application-data)<br><small>US20250254033A1</small> | Application · Pending | Eagle Technology, LLC | 1 member(s) · 0 citation(s) | **62 · HIGH** |
 | [ZERO-TRUST MULTI-AGENT GOVERNANCE FRAMEWORK FOR CLINICAL ARTIFICIAL INTELLIGENCE](https://data.uspto.gov/patent-file-wrapper/search/details/19455879/application-data)<br><small>US20260154580A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **62 · HIGH** |
 | [SYSTEM AND METHOD FOR INTELLIGENT CYBERSECURITY ANALYSIS USING ARTIFICIAL INTELLIGENCE](https://data.uspto.gov/patent-file-wrapper/search/details/19457312/application-data)<br><small>US20260156144A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **62 · HIGH** |
 | [AUTHENTICATION METHOD USING PRE-SHARED SYMMETRIC KEY FOR LOCATION SELECTION OF AUTHENTICATION INFORMATION IN QUANTUM COMMUNICATION SYSTEM, AND APPARATUS THEREFOR](https://data.uspto.gov/patent-file-wrapper/search/details/19136577/application-data)<br><small>US20260205207A1</small> | Application · Unknown | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
@@ -210,6 +210,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [QUANTUM PROCESSOR CHIP AND MULTI-LAYER PHOTONIC ROUTING NETWORK](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010838/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | HOMATCH.AI | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [QUANTUM COMPUTING SYSTEMS WITH SUPERCONDUCTING QUANTUM BIT CIRCUITRY AND SPATIALLY DISTRIBUTED HYBRID CRYOGENIC ELECTRONIC CONTROL ARCHITECTURE](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010670/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | SEEQC, INC. | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [MULTICORE OPTICAL FIBERS SUITABLE FOR SIMULTANEOUS DATA TRANSMISSION AND QUANTUM COMMUNICATION](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2024050681/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CORNING INCORPORATED | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
+| [HIGH PEAK POWER AND CONTINUOUS WAVE TUNABLE GAN LASERS FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS](https://data.uspto.gov/patent-file-wrapper/search/details/63750272/application-data)<br><small>Publication number unavailable</small> | Application · Expired | Gallium Enterprises Pty Ltd | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [EMAIL THREAT DETECTION USING RETRIEVAL-AUGMENTED GENERATION AND LARGE LANGUAGE MODELS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026011462/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CISCO TECHNOLOGY, INC. | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [Distributed Quantum Communication Network Architecture Based on Double-Helix Structure](https://data.uspto.gov/patent-file-wrapper/search/details/63749992/application-data)<br><small>Publication number unavailable</small> | Application · Expired | Not listed | 2 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [DEVICE FOR PROVIDING A FLUX QUBIT BASED ON SPIN-TRIPLET SUPERCONDUCTORS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025057828/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | THE JOHNS HOPKINS UNIVERSITY | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
@@ -247,9 +248,9 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [RECONFIGURABLE ACOUSTIC SURFACE USING MICROELECTROMECHANICAL SYSTEMS (MEMS) ACTUATORS FOR CHANGING CAVITY RESONANCE](https://data.uspto.gov/patent-file-wrapper/search/details/18808961/application-data)<br><small>US20260051307A1</small> | Application · Pending | Dell Products L.P. | 1 member(s) · 0 citation(s) | **41 · NOTABLE** |
 | [MICROELECTROMECHANICAL SYSTEMS POWER RELAY](https://data.uspto.gov/patent-file-wrapper/search/details/19337909/application-data)<br><small>US20260018355A1</small> | Application · Pending | Atomic Machines, Inc. | 1 member(s) · 0 citation(s) | **41 · NOTABLE** |
 | [SELF-REFERENCING MICROELECTROMECHANICAL SYSTEMS (MEMS) RESONATOR WITH DUAL MECHANICAL MODES FOR TEMPERATURE-INDEPENDENT ENVIRONMENTAL SENSING](https://data.uspto.gov/patent-file-wrapper/search/details/19198745/application-data)<br><small>US20250317117A1</small> | Application · Pending | Government of the United States as represented by the Secretary of the Air Force | 1 member(s) · 0 citation(s) | **41 · NOTABLE** |
-| [A SEMICONDUCTOR DEVICE COMPRISING DIFFERENT TYPES OF MICROELECTROMECHANICAL SYSTEMS DEVICES](https://data.uspto.gov/patent-file-wrapper/search/details/19189407/application-data)<br><small>US20250250163A1</small> | Application · Pending | Taiwan Semiconductor Manufacturing Company, Ltd. | 1 member(s) · 0 citation(s) | **41 · NOTABLE** |
 | [AGENTLESS END-TO-END AGENT MONITORING IN MULTI-CLOUD NETWORK(S)](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010404/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CISCO TECHNOLOGY, INC. | 1 member(s) · 0 citation(s) | **40 · NOTABLE** |
 | [STRUCTURES AND METHODS FOR STRESS AND GAP MITIGATION IN INTEGRATED OPTICS MICROELECTROMECHANICAL SYSTEMS](https://data.uspto.gov/patent-file-wrapper/search/details/19448640/application-data)<br><small>US20260153677A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **38 · MONITOR** |
+| [A SEMICONDUCTOR DEVICE COMPRISING DIFFERENT TYPES OF MICROELECTROMECHANICAL SYSTEMS DEVICES](https://data.uspto.gov/patent-file-wrapper/search/details/19189407/application-data)<br><small>US20250250163A1</small> | Application · Pending | Taiwan Semiconductor Manufacturing Company, Ltd. | 1 member(s) · 0 citation(s) | **38 · MONITOR** |
 | [SEMICONDUCTOR DEVICE HAVING MICROELECTROMECHANICAL SYSTEMS DEVICES WITH IMPROVED CAVITY PRESSURE UNIFORMITY](https://data.uspto.gov/patent-file-wrapper/search/details/19060917/application-data)<br><small>US20250214108A1</small> | Application · Pending | Taiwan Semiconductor Manufacturing Company, Ltd. | 1 member(s) · 0 citation(s) | **38 · MONITOR** |
 | [PIEZOELECTRIC ANTI-STICTION STRUCTURE FOR MICROELECTROMECHANICAL SYSTEMS](https://data.uspto.gov/patent-file-wrapper/search/details/19002880/application-data)<br><small>US20250122071A1</small> | Application · Pending | Taiwan Semiconductor Manufacturing Company, Ltd. | 1 member(s) · 0 citation(s) | **38 · MONITOR** |
 | [CONTROL OF THE TEMPERATURE COEFFICIENT OF FREQUENCY OF A MICROELECTROMECHANICAL SYSTEMS (MEMS) RESONATOR VIA MANIPULATION BY STRESS](https://data.uspto.gov/patent-file-wrapper/search/details/19486222/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Georgia Tech Research Corporation | 1 member(s) · 0 citation(s) | **36 · MONITOR** |

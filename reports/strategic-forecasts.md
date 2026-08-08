@@ -2,21 +2,21 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-08-07T02:18:23.710417+00:00_
+_Updated 2026-08-08T01:05:02.993371+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
 - Active forecasts: **8**
 - Due within 30 days: **3**
-- Resolved forecasts: **0**
+- Resolved forecasts: **1**
 - Withdrawn without scoring: **2**
-- Calibration: **Awaiting outcomes**
+- Calibration: **Needs calibration**
 
 ## Active forecasts
 
 ### 86% · Genesis Mission
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-05?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-06?
 
 **Horizon:** 2026-10-29
 
@@ -24,8 +24,8 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 **Evidence**
 
-- [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) — official award notice · 2026-08-07
-- [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) — official funding announcement · 2026-08-04
+- [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) — official award notice · 2026-08-08
+- [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) — official funding announcement · 2026-08-07
 - [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) — official award · 2026-05-19
 - [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) — official grant opportunity · 2026-03-17
 - [Genesis Mission](https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission) — official mission · date not reported
@@ -44,7 +44,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 74% · Golden Dome for America
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-05?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-06?
 
 **Horizon:** 2026-10-29
 
@@ -134,31 +134,9 @@ Will authoritative evidence confirm “Advance selected NSF NQVL projects from d
 - An official source delays, cancels, or materially rescopes the milestone.
 - The confirmation horizon passes without authoritative completion evidence.
 
-### 65% · DARPA Quantum Benchmarking Initiative
+### 63% · Genesis Mission
 
-Will authoritative evidence confirm “Receive abstracts for the expanded QBIT Stage A solicitation” by 2026-09-06?
-
-**Horizon:** 2026-08-07
-
-**Why:** The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.
-
-**Evidence**
-
-- [Receive abstracts for the expanded QBIT Stage A solicitation](https://www.darpa.mil/news/2026/qbi-stage-a-qbit) — official milestone · 2026-07-31
-
-**Confirming indicators**
-
-- An official update states that the milestone was completed or delivered.
-- A resulting award, demonstration, report, or implementation artifact is published.
-
-**Disconfirming indicators**
-
-- An official source delays, cancels, or materially rescopes the milestone.
-- The confirmation horizon passes without authoritative completion evidence.
-
-### 64% · Genesis Mission
-
-Will authoritative evidence confirm “Review federal robotic and AI-directed laboratory capabilities” by 2026-09-06?
+Will authoritative evidence confirm “Review federal robotic and AI-directed laboratory capabilities” by 2026-09-07?
 
 **Horizon:** 2026-08-30
 
@@ -180,7 +158,7 @@ Will authoritative evidence confirm “Review federal robotic and AI-directed la
 
 ### 59% · Military AI Pace-Setting Projects
 
-Will authoritative evidence confirm “Conduct initial Pace-Setting Project demonstrations with transition-partner users” by 2026-09-06?
+Will authoritative evidence confirm “Conduct initial Pace-Setting Project demonstrations with transition-partner users” by 2026-09-07?
 
 **Horizon:** 2026-08-30
 
@@ -200,9 +178,31 @@ Will authoritative evidence confirm “Conduct initial Pace-Setting Project demo
 - An official source delays, cancels, or materially rescopes the milestone.
 - The confirmation horizon passes without authoritative completion evidence.
 
+### 57% · Federal Post-Quantum Cryptography Transition
+
+Will authoritative evidence confirm “Agencies identify and report their PQC migration leads” by 2026-09-07?
+
+**Horizon:** 2026-09-07
+
+**Why:** The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.
+
+**Evidence**
+
+- [Agencies identify and report their PQC migration leads](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) — official milestone · 2026-07-22
+
+**Confirming indicators**
+
+- An official update states that the milestone was completed or delivered.
+- A resulting award, demonstration, report, or implementation artifact is published.
+
+**Disconfirming indicators**
+
+- An official source delays, cancels, or materially rescopes the milestone.
+- The confirmation horizon passes without authoritative completion evidence.
+
 ## Resolved and scored
 
-- No forecasts have reached a scored outcome yet.
+- **Did not occur** · Will authoritative evidence confirm “Receive abstracts for the expanded QBIT Stage A solicitation” by 2026-09-07? · closing probability 65% · Brier 0.4225
 
 ## Withdrawn without scoring
 

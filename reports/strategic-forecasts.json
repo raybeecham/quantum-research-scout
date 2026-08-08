@@ -77,14 +77,14 @@
       "evidence": [
         {
           "authority": "authoritative",
-          "date": "2026-08-07",
+          "date": "2026-08-08",
           "role": "official award notice",
           "title": "Genesis Mission RFA Awards List",
           "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
         },
         {
           "authority": "authoritative",
-          "date": "2026-08-04",
+          "date": "2026-08-07",
           "role": "official funding announcement",
           "title": "Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges",
           "url": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science"
@@ -116,7 +116,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.86,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
       "outcome": null,
       "probability": 0.86,
       "probability_factors": [
@@ -156,7 +156,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-05?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-06?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:genesis-mission:2026-Q3",
       "resolution_rule": {
@@ -274,7 +274,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.74,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
       "outcome": null,
       "probability": 0.74,
       "probability_factors": [
@@ -306,7 +306,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-05?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-06?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:golden-dome:2026-Q3",
       "resolution_rule": {
@@ -411,7 +411,7 @@
       "horizon_end": "2026-09-27",
       "impact": "critical",
       "initial_probability": 0.72,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
       "outcome": null,
       "probability": 0.72,
       "probability_factors": [
@@ -548,7 +548,7 @@
       "horizon_end": "2026-09-29",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -675,10 +675,10 @@
             "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data"
           },
           {
-            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
             "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+            "title": "HIGH PEAK POWER AND CONTINUOUS WAVE TUNABLE GAN LASERS FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/63750272/application-data"
           }
         ]
       },
@@ -696,7 +696,7 @@
       "horizon_end": "2027-01-07",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -736,158 +736,6 @@
       "status": "active",
       "subject": "Project Triad",
       "subject_id": "project-triad",
-      "triggers": [
-        {
-          "direction": "confirming",
-          "indicator": "Official completion evidence",
-          "status": "not_observed"
-        },
-        {
-          "direction": "disconfirming",
-          "indicator": "Delay, cancellation, or rescope",
-          "status": "not_observed"
-        }
-      ]
-    },
-    {
-      "baseline_record_keys": [],
-      "baseline_update_urls": [
-        "https://www.grants.gov/search-results-detail/359280",
-        "https://www.grants.gov/search-results-detail/362488",
-        "https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700"
-      ],
-      "confirming_indicators": [
-        "An official update states that the milestone was completed or delivered.",
-        "A resulting award, demonstration, report, or implementation artifact is published."
-      ],
-      "created_at": "2026-07-31T16:06:07.673432+00:00",
-      "disconfirming_indicators": [
-        "An official source delays, cancels, or materially rescopes the milestone.",
-        "The confirmation horizon passes without authoritative completion evidence."
-      ],
-      "dossier": {
-        "announced_funding_value": 0.0,
-        "award_count": 2,
-        "known_award_value": 8696390.0,
-        "lead_agencies": [
-          "Defense Advanced Research Projects Agency"
-        ],
-        "mission_status": "active",
-        "next_milestone": {
-          "id": "qbi-qbit-abstracts",
-          "source_url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit",
-          "target_date": "2026-07-31",
-          "timing": "overdue",
-          "title": "Receive abstracts for the expanded QBIT Stage A solicitation"
-        },
-        "official_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
-        "open_opportunities": 0,
-        "priority": "critical",
-        "recipients_and_contractors": [
-          "UNIVERSITY OF MARYLAND, COLLEGE PARK"
-        ],
-        "record_count": 2,
-        "related_patent_count": 8,
-        "related_patents": [
-          {
-            "relationship_basis": "recipient/contractor assignee match",
-            "relationship_confidence": "high",
-            "title": "QUANTUM NETWORK NODE AND PROTOCOLS WITH MULTIPLE QUBIT SPECIES",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18967099/application-data"
-          },
-          {
-            "relationship_basis": "recipient/contractor assignee match",
-            "relationship_confidence": "high",
-            "title": "ULTRA-LOW NOISE QUANTUM FREQUENCY CONVERSION FOR TRAPPED ION QUANTUM NETWORK",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19110651/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum",
-            "relationship_confidence": "low",
-            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum",
-            "relationship_confidence": "low",
-            "title": "Mechanism for Post-Quantum Cryptographic Key Material Resilience",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data"
-          }
-        ]
-      },
-      "evidence": [
-        {
-          "authority": "authoritative",
-          "date": "2026-07-31",
-          "role": "official milestone",
-          "title": "Receive abstracts for the expanded QBIT Stage A solicitation",
-          "url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit"
-        }
-      ],
-      "forecast_id": "forecast-8cc89e744f10f7c2",
-      "forecast_type": "mission_milestone_confirmation",
-      "horizon_end": "2026-08-07",
-      "impact": "critical",
-      "initial_probability": 0.78,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
-      "outcome": null,
-      "probability": 0.65,
-      "probability_factors": [
-        {
-          "factor": "official dated milestone",
-          "points": 0.55
-        },
-        {
-          "factor": "exact target date",
-          "points": 0.08
-        },
-        {
-          "factor": "observable mission update stream",
-          "points": 0.06
-        },
-        {
-          "factor": "confirmation delay",
-          "points": -0.04
-        }
-      ],
-      "probability_history": [
-        {
-          "at": "2026-07-31T16:06:07.673432+00:00",
-          "probability": 0.78,
-          "reason": "Forecast opened"
-        },
-        {
-          "at": "2026-08-01T02:08:14.362509+00:00",
-          "probability": 0.65,
-          "reason": "Evidence factors changed"
-        }
-      ],
-      "question": "Will authoritative evidence confirm \u201cReceive abstracts for the expanded QBIT Stage A solicitation\u201d by 2026-09-06?",
-      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
-      "registry_key": "mission_milestone:darpa-qbi:qbi-qbit-abstracts",
-      "resolution_rule": {
-        "kind": "mission_milestone_confirmation",
-        "milestone_id": "qbi-qbit-abstracts",
-        "negative": "No authoritative completion evidence appears by the horizon.",
-        "positive": "Official mission evidence confirms completion before the horizon.",
-        "target_terms": [
-          "abstracts",
-          "expanded",
-          "qbit",
-          "receive",
-          "solicitation",
-          "stage"
-        ]
-      },
-      "status": "active",
-      "subject": "DARPA Quantum Benchmarking Initiative",
-      "subject_id": "darpa-qbi",
       "triggers": [
         {
           "direction": "confirming",
@@ -1004,9 +852,9 @@
       "horizon_end": "2026-08-30",
       "impact": "critical",
       "initial_probability": 0.65,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
       "outcome": null,
-      "probability": 0.64,
+      "probability": 0.63,
       "probability_factors": [
         {
           "factor": "official dated milestone",
@@ -1022,7 +870,7 @@
         },
         {
           "factor": "confirmation delay",
-          "points": -0.05
+          "points": -0.06
         }
       ],
       "probability_history": [
@@ -1032,7 +880,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cReview federal robotic and AI-directed laboratory capabilities\u201d by 2026-09-06?",
+      "question": "Will authoritative evidence confirm \u201cReview federal robotic and AI-directed laboratory capabilities\u201d by 2026-09-07?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:genesis-mission:genesis-robotic-lab-review",
       "resolution_rule": {
@@ -1149,7 +997,7 @@
       "horizon_end": "2026-08-30",
       "impact": "critical",
       "initial_probability": 0.62,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
       "outcome": null,
       "probability": 0.59,
       "probability_factors": [
@@ -1177,7 +1025,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cConduct initial Pace-Setting Project demonstrations with transition-partner users\u201d by 2026-09-06?",
+      "question": "Will authoritative evidence confirm \u201cConduct initial Pace-Setting Project demonstrations with transition-partner users\u201d by 2026-09-07?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:military-ai-pace-setting-projects:military-ai-initial-user-demonstrations",
       "resolution_rule": {
@@ -1212,14 +1060,157 @@
           "status": "not_observed"
         }
       ]
+    },
+    {
+      "baseline_update_urls": [],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-08-08T01:05:02.993371+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "Office of Management and Budget",
+          "Office of the National Cyber Director"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "federal-pqc-agency-leads",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "target_date": "2026-07-22",
+          "timing": "awaiting_confirmation",
+          "title": "Agencies identify and report their PQC migration leads"
+        },
+        "official_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 0,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "Mechanism for Post-Quantum Cryptographic Key Material Resilience",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "METHOD AND SYSTEM FOR SECURING POST-QUANTUM BLOCKCHAINS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19404287/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-07-22",
+          "role": "official milestone",
+          "title": "Agencies identify and report their PQC migration leads",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/"
+        }
+      ],
+      "forecast_id": "forecast-3a815a206580629a",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2026-09-07",
+      "impact": "critical",
+      "initial_probability": 0.57,
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
+      "outcome": null,
+      "probability": 0.57,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.55
+        },
+        {
+          "factor": "exact target date",
+          "points": 0.08
+        },
+        {
+          "factor": "confirmation delay",
+          "points": -0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-08-08T01:05:02.993371+00:00",
+          "probability": 0.57,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cAgencies identify and report their PQC migration leads\u201d by 2026-09-07?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:federal-pqc-transition:federal-pqc-agency-leads",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "federal-pqc-agency-leads",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "agencies",
+          "identify",
+          "leads",
+          "migration",
+          "report"
+        ]
+      },
+      "status": "active",
+      "subject": "Federal Post-Quantum Cryptography Transition",
+      "subject_id": "federal-pqc-transition",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
     }
   ],
   "calibration": {
-    "accuracy_rate": null,
-    "bins": [],
-    "label": "Awaiting outcomes",
-    "mean_brier_score": null,
-    "resolved_count": 0
+    "accuracy_rate": 0.0,
+    "bins": [
+      {
+        "count": 1,
+        "mean_probability": 0.65,
+        "observed_rate": 0.0,
+        "range": "60\u201380%"
+      }
+    ],
+    "label": "Needs calibration",
+    "mean_brier_score": 0.4225,
+    "resolved_count": 1
   },
   "forecasts": [
     {
@@ -1299,14 +1290,14 @@
       "evidence": [
         {
           "authority": "authoritative",
-          "date": "2026-08-07",
+          "date": "2026-08-08",
           "role": "official award notice",
           "title": "Genesis Mission RFA Awards List",
           "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
         },
         {
           "authority": "authoritative",
-          "date": "2026-08-04",
+          "date": "2026-08-07",
           "role": "official funding announcement",
           "title": "Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges",
           "url": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science"
@@ -1338,7 +1329,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.86,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
       "outcome": null,
       "probability": 0.86,
       "probability_factors": [
@@ -1378,7 +1369,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-05?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-06?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:genesis-mission:2026-Q3",
       "resolution_rule": {
@@ -1496,7 +1487,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.74,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
       "outcome": null,
       "probability": 0.74,
       "probability_factors": [
@@ -1528,7 +1519,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-05?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-06?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:golden-dome:2026-Q3",
       "resolution_rule": {
@@ -1633,7 +1624,7 @@
       "horizon_end": "2026-09-27",
       "impact": "critical",
       "initial_probability": 0.72,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
       "outcome": null,
       "probability": 0.72,
       "probability_factors": [
@@ -1770,7 +1761,7 @@
       "horizon_end": "2026-09-29",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -1897,10 +1888,10 @@
             "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data"
           },
           {
-            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
             "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+            "title": "HIGH PEAK POWER AND CONTINUOUS WAVE TUNABLE GAN LASERS FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/63750272/application-data"
           }
         ]
       },
@@ -1918,7 +1909,7 @@
       "horizon_end": "2027-01-07",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -1958,158 +1949,6 @@
       "status": "active",
       "subject": "Project Triad",
       "subject_id": "project-triad",
-      "triggers": [
-        {
-          "direction": "confirming",
-          "indicator": "Official completion evidence",
-          "status": "not_observed"
-        },
-        {
-          "direction": "disconfirming",
-          "indicator": "Delay, cancellation, or rescope",
-          "status": "not_observed"
-        }
-      ]
-    },
-    {
-      "baseline_record_keys": [],
-      "baseline_update_urls": [
-        "https://www.grants.gov/search-results-detail/359280",
-        "https://www.grants.gov/search-results-detail/362488",
-        "https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700"
-      ],
-      "confirming_indicators": [
-        "An official update states that the milestone was completed or delivered.",
-        "A resulting award, demonstration, report, or implementation artifact is published."
-      ],
-      "created_at": "2026-07-31T16:06:07.673432+00:00",
-      "disconfirming_indicators": [
-        "An official source delays, cancels, or materially rescopes the milestone.",
-        "The confirmation horizon passes without authoritative completion evidence."
-      ],
-      "dossier": {
-        "announced_funding_value": 0.0,
-        "award_count": 2,
-        "known_award_value": 8696390.0,
-        "lead_agencies": [
-          "Defense Advanced Research Projects Agency"
-        ],
-        "mission_status": "active",
-        "next_milestone": {
-          "id": "qbi-qbit-abstracts",
-          "source_url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit",
-          "target_date": "2026-07-31",
-          "timing": "overdue",
-          "title": "Receive abstracts for the expanded QBIT Stage A solicitation"
-        },
-        "official_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
-        "open_opportunities": 0,
-        "priority": "critical",
-        "recipients_and_contractors": [
-          "UNIVERSITY OF MARYLAND, COLLEGE PARK"
-        ],
-        "record_count": 2,
-        "related_patent_count": 8,
-        "related_patents": [
-          {
-            "relationship_basis": "recipient/contractor assignee match",
-            "relationship_confidence": "high",
-            "title": "QUANTUM NETWORK NODE AND PROTOCOLS WITH MULTIPLE QUBIT SPECIES",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18967099/application-data"
-          },
-          {
-            "relationship_basis": "recipient/contractor assignee match",
-            "relationship_confidence": "high",
-            "title": "ULTRA-LOW NOISE QUANTUM FREQUENCY CONVERSION FOR TRAPPED ION QUANTUM NETWORK",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19110651/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum",
-            "relationship_confidence": "low",
-            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum",
-            "relationship_confidence": "low",
-            "title": "Mechanism for Post-Quantum Cryptographic Key Material Resilience",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data"
-          }
-        ]
-      },
-      "evidence": [
-        {
-          "authority": "authoritative",
-          "date": "2026-07-31",
-          "role": "official milestone",
-          "title": "Receive abstracts for the expanded QBIT Stage A solicitation",
-          "url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit"
-        }
-      ],
-      "forecast_id": "forecast-8cc89e744f10f7c2",
-      "forecast_type": "mission_milestone_confirmation",
-      "horizon_end": "2026-08-07",
-      "impact": "critical",
-      "initial_probability": 0.78,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
-      "outcome": null,
-      "probability": 0.65,
-      "probability_factors": [
-        {
-          "factor": "official dated milestone",
-          "points": 0.55
-        },
-        {
-          "factor": "exact target date",
-          "points": 0.08
-        },
-        {
-          "factor": "observable mission update stream",
-          "points": 0.06
-        },
-        {
-          "factor": "confirmation delay",
-          "points": -0.04
-        }
-      ],
-      "probability_history": [
-        {
-          "at": "2026-07-31T16:06:07.673432+00:00",
-          "probability": 0.78,
-          "reason": "Forecast opened"
-        },
-        {
-          "at": "2026-08-01T02:08:14.362509+00:00",
-          "probability": 0.65,
-          "reason": "Evidence factors changed"
-        }
-      ],
-      "question": "Will authoritative evidence confirm \u201cReceive abstracts for the expanded QBIT Stage A solicitation\u201d by 2026-09-06?",
-      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
-      "registry_key": "mission_milestone:darpa-qbi:qbi-qbit-abstracts",
-      "resolution_rule": {
-        "kind": "mission_milestone_confirmation",
-        "milestone_id": "qbi-qbit-abstracts",
-        "negative": "No authoritative completion evidence appears by the horizon.",
-        "positive": "Official mission evidence confirms completion before the horizon.",
-        "target_terms": [
-          "abstracts",
-          "expanded",
-          "qbit",
-          "receive",
-          "solicitation",
-          "stage"
-        ]
-      },
-      "status": "active",
-      "subject": "DARPA Quantum Benchmarking Initiative",
-      "subject_id": "darpa-qbi",
       "triggers": [
         {
           "direction": "confirming",
@@ -2226,9 +2065,9 @@
       "horizon_end": "2026-08-30",
       "impact": "critical",
       "initial_probability": 0.65,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
       "outcome": null,
-      "probability": 0.64,
+      "probability": 0.63,
       "probability_factors": [
         {
           "factor": "official dated milestone",
@@ -2244,7 +2083,7 @@
         },
         {
           "factor": "confirmation delay",
-          "points": -0.05
+          "points": -0.06
         }
       ],
       "probability_history": [
@@ -2254,7 +2093,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cReview federal robotic and AI-directed laboratory capabilities\u201d by 2026-09-06?",
+      "question": "Will authoritative evidence confirm \u201cReview federal robotic and AI-directed laboratory capabilities\u201d by 2026-09-07?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:genesis-mission:genesis-robotic-lab-review",
       "resolution_rule": {
@@ -2371,7 +2210,7 @@
       "horizon_end": "2026-08-30",
       "impact": "critical",
       "initial_probability": 0.62,
-      "last_evaluated_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
       "outcome": null,
       "probability": 0.59,
       "probability_factors": [
@@ -2399,7 +2238,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cConduct initial Pace-Setting Project demonstrations with transition-partner users\u201d by 2026-09-06?",
+      "question": "Will authoritative evidence confirm \u201cConduct initial Pace-Setting Project demonstrations with transition-partner users\u201d by 2026-09-07?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:military-ai-pace-setting-projects:military-ai-initial-user-demonstrations",
       "resolution_rule": {
@@ -2432,6 +2271,302 @@
           "direction": "disconfirming",
           "indicator": "Delay, cancellation, or rescope",
           "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_update_urls": [],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-08-08T01:05:02.993371+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "Office of Management and Budget",
+          "Office of the National Cyber Director"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "federal-pqc-agency-leads",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "target_date": "2026-07-22",
+          "timing": "awaiting_confirmation",
+          "title": "Agencies identify and report their PQC migration leads"
+        },
+        "official_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 0,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "Mechanism for Post-Quantum Cryptographic Key Material Resilience",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
+            "relationship_confidence": "low",
+            "title": "METHOD AND SYSTEM FOR SECURING POST-QUANTUM BLOCKCHAINS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19404287/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-07-22",
+          "role": "official milestone",
+          "title": "Agencies identify and report their PQC migration leads",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/"
+        }
+      ],
+      "forecast_id": "forecast-3a815a206580629a",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2026-09-07",
+      "impact": "critical",
+      "initial_probability": 0.57,
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
+      "outcome": null,
+      "probability": 0.57,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.55
+        },
+        {
+          "factor": "exact target date",
+          "points": 0.08
+        },
+        {
+          "factor": "confirmation delay",
+          "points": -0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-08-08T01:05:02.993371+00:00",
+          "probability": 0.57,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cAgencies identify and report their PQC migration leads\u201d by 2026-09-07?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:federal-pqc-transition:federal-pqc-agency-leads",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "federal-pqc-agency-leads",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "agencies",
+          "identify",
+          "leads",
+          "migration",
+          "report"
+        ]
+      },
+      "status": "active",
+      "subject": "Federal Post-Quantum Cryptography Transition",
+      "subject_id": "federal-pqc-transition",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [
+        "https://www.grants.gov/search-results-detail/359280",
+        "https://www.grants.gov/search-results-detail/362488",
+        "https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700"
+      ],
+      "brier_score": 0.4225,
+      "closing_probability": 0.65,
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 2,
+        "known_award_value": 8696390.0,
+        "lead_agencies": [
+          "Defense Advanced Research Projects Agency"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "qbi-qbit-abstracts",
+          "source_url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit",
+          "target_date": "2026-07-31",
+          "timing": "overdue",
+          "title": "Receive abstracts for the expanded QBIT Stage A solicitation"
+        },
+        "official_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "UNIVERSITY OF MARYLAND, COLLEGE PARK"
+        ],
+        "record_count": 2,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "recipient/contractor assignee match",
+            "relationship_confidence": "high",
+            "title": "QUANTUM NETWORK NODE AND PROTOCOLS WITH MULTIPLE QUBIT SPECIES",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18967099/application-data"
+          },
+          {
+            "relationship_basis": "recipient/contractor assignee match",
+            "relationship_confidence": "high",
+            "title": "ULTRA-LOW NOISE QUANTUM FREQUENCY CONVERSION FOR TRAPPED ION QUANTUM NETWORK",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19110651/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "Mechanism for Post-Quantum Cryptographic Key Material Resilience",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-07-31",
+          "role": "official milestone",
+          "title": "Receive abstracts for the expanded QBIT Stage A solicitation",
+          "url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit"
+        }
+      ],
+      "forecast_id": "forecast-8cc89e744f10f7c2",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2026-08-07",
+      "impact": "critical",
+      "initial_probability": 0.78,
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
+      "outcome": false,
+      "outcome_evidence": null,
+      "probability": 0.65,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.55
+        },
+        {
+          "factor": "exact target date",
+          "points": 0.08
+        },
+        {
+          "factor": "observable mission update stream",
+          "points": 0.06
+        },
+        {
+          "factor": "confirmation delay",
+          "points": -0.04
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.78,
+          "reason": "Forecast opened"
+        },
+        {
+          "at": "2026-08-01T02:08:14.362509+00:00",
+          "probability": 0.65,
+          "reason": "Evidence factors changed"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cReceive abstracts for the expanded QBIT Stage A solicitation\u201d by 2026-09-07?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:darpa-qbi:qbi-qbit-abstracts",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "qbi-qbit-abstracts",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "abstracts",
+          "expanded",
+          "qbit",
+          "receive",
+          "solicitation",
+          "stage"
+        ]
+      },
+      "resolved_at": "2026-08-08T01:05:02.993371+00:00",
+      "status": "resolved",
+      "subject": "DARPA Quantum Benchmarking Initiative",
+      "subject_id": "darpa-qbi",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "evidence": {
+            "date": "2026-08-08",
+            "title": "Forecast horizon passed without qualifying evidence"
+          },
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "observed"
         }
       ]
     },
@@ -3057,22 +3192,183 @@
     }
   ],
   "method_note": "Probabilities use bounded, published heuristics from mission priority, recent official activity, funding, awards, open opportunities, and milestone timing. Forecasts retain their probability history and are scored with the Brier rule after resolution. If supporting linkage is corrected, the forecast is withdrawn transparently and is not included in calibration.",
-  "resolved_forecasts": [],
+  "resolved_forecasts": [
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [
+        "https://www.grants.gov/search-results-detail/359280",
+        "https://www.grants.gov/search-results-detail/362488",
+        "https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700"
+      ],
+      "brier_score": 0.4225,
+      "closing_probability": 0.65,
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 2,
+        "known_award_value": 8696390.0,
+        "lead_agencies": [
+          "Defense Advanced Research Projects Agency"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "qbi-qbit-abstracts",
+          "source_url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit",
+          "target_date": "2026-07-31",
+          "timing": "overdue",
+          "title": "Receive abstracts for the expanded QBIT Stage A solicitation"
+        },
+        "official_url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "UNIVERSITY OF MARYLAND, COLLEGE PARK"
+        ],
+        "record_count": 2,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "recipient/contractor assignee match",
+            "relationship_confidence": "high",
+            "title": "QUANTUM NETWORK NODE AND PROTOCOLS WITH MULTIPLE QUBIT SPECIES",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18967099/application-data"
+          },
+          {
+            "relationship_basis": "recipient/contractor assignee match",
+            "relationship_confidence": "high",
+            "title": "ULTRA-LOW NOISE QUANTUM FREQUENCY CONVERSION FOR TRAPPED ION QUANTUM NETWORK",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19110651/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum",
+            "relationship_confidence": "low",
+            "title": "Mechanism for Post-Quantum Cryptographic Key Material Resilience",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-07-31",
+          "role": "official milestone",
+          "title": "Receive abstracts for the expanded QBIT Stage A solicitation",
+          "url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit"
+        }
+      ],
+      "forecast_id": "forecast-8cc89e744f10f7c2",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2026-08-07",
+      "impact": "critical",
+      "initial_probability": 0.78,
+      "last_evaluated_at": "2026-08-08T01:05:02.993371+00:00",
+      "outcome": false,
+      "outcome_evidence": null,
+      "probability": 0.65,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.55
+        },
+        {
+          "factor": "exact target date",
+          "points": 0.08
+        },
+        {
+          "factor": "observable mission update stream",
+          "points": 0.06
+        },
+        {
+          "factor": "confirmation delay",
+          "points": -0.04
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.78,
+          "reason": "Forecast opened"
+        },
+        {
+          "at": "2026-08-01T02:08:14.362509+00:00",
+          "probability": 0.65,
+          "reason": "Evidence factors changed"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cReceive abstracts for the expanded QBIT Stage A solicitation\u201d by 2026-09-07?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:darpa-qbi:qbi-qbit-abstracts",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "qbi-qbit-abstracts",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "abstracts",
+          "expanded",
+          "qbit",
+          "receive",
+          "solicitation",
+          "stage"
+        ]
+      },
+      "resolved_at": "2026-08-08T01:05:02.993371+00:00",
+      "status": "resolved",
+      "subject": "DARPA Quantum Benchmarking Initiative",
+      "subject_id": "darpa-qbi",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "evidence": {
+            "date": "2026-08-08",
+            "title": "Forecast horizon passed without qualifying evidence"
+          },
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "observed"
+        }
+      ]
+    }
+  ],
   "scope_note": "Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.",
   "summary": {
-    "accuracy_rate": null,
+    "accuracy_rate": 0.0,
     "active": 8,
-    "calibration_label": "Awaiting outcomes",
+    "calibration_label": "Needs calibration",
     "due_within_30_days": 3,
     "invalidated": 2,
-    "mean_brier_score": null,
+    "mean_brier_score": 0.4225,
     "observed_triggers": 0,
-    "resolved": 0
+    "resolved": 1
   },
   "temporal_context": {
-    "comparison_started_at": "2026-08-06T01:55:17.903256+00:00",
-    "historical_discoveries": 12
+    "comparison_started_at": "2026-08-07T02:18:23.710417+00:00",
+    "historical_discoveries": 1
   },
-  "updated_at": "2026-08-07T02:18:23.710417+00:00",
+  "updated_at": "2026-08-08T01:05:02.993371+00:00",
   "version": 1
 }

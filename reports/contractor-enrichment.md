@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-07T02:18:23.710417+00:00_
+_Updated 2026-08-08T01:05:02.993371+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **11** (**14.7%** coverage)
+- SAM.gov-resolved entities: **14** (**18.7%** coverage)
 - Newly resolved this run: **3**
-- Pending bounded enrichment: **153**
+- Pending bounded enrichment: **152**
 - Ambiguous / no match: **0 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -24,7 +24,10 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | [VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY](https://sam.gov/entity/QDE5UHE5XD16/coreData) | QDE5UHE5XD16 | 4B976 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | MORGAN STATE UNIVERSITY | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) | KULSKCCZJT27 | 8U547 | Active | Educational Institution, Historically Black College or University, Minority Institution |
 | CARNEGIE-MELLON UNIVERSITY | [CARNEGIE-MELLON UNIVERSITY](https://sam.gov/entity/U3NKNFLNQ613/coreData) | U3NKNFLNQ613 | 97668 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| UNIVERSITY OF ILLINOIS | [UNIVERSITY OF ILLINOIS](https://sam.gov/entity/Y8CWNJRCNN91/coreData) | Y8CWNJRCNN91 | 4B808 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | FOUR POINTS TECHNOLOGY, L.L.C. | [FOUR POINTS TECHNOLOGY, L.L.C.](https://sam.gov/entity/H1KHJPJH9R51/coreData) | H1KHJPJH9R51 | 1YS78 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
+| ARETE CONSULTING LLC | [ARETE CONSULTING LLC](https://sam.gov/entity/C2PNBME1GYB5/coreData) | C2PNBME1GYB5 | 7LRX4 | Active | SBA Certified 8(a) Program Participant |
+| KPMG LLP | [KPMG LLP](https://sam.gov/entity/MAA3SBSDQVM1/coreData) | MAA3SBSDQVM1 | 7QEG9 | Active | Business or Organization, For Profit Organization |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
 | REDACTED DUE TO PII | REDACTED DUE TO PII | — | — | no_match | No active public SAM.gov entity matched |
 | POST QUANTUM LABS LLC | POST QUANTUM LABS LLC | — | — | pending | api key missing |
@@ -86,9 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF ALASKA FAIRBANKS | UNIVERSITY OF ALASKA FAIRBANKS | — | — | pending | Queued for a future bounded enrichment batch |
 | UNIVERSITY OF ALASKA FAIRBANKS | UNIVERSITY OF ALASKA FAIRBANKS | — | — | pending | api key missing |
 | THE PENNSYLVANIA STATE UNIVERSITY | THE PENNSYLVANIA STATE UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
-| THE PENNSYLVANIA STATE UNIVERSITY | THE PENNSYLVANIA STATE UNIVERSITY | — | — | pending | api key missing |
-| PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | — | — | pending | Queued for a future bounded enrichment batch |
-| PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | — | — | pending | api key missing |
 
 ## Method
 

@@ -353,7 +353,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 16,
+      "evidence_count": 17,
       "first_party_evidence_count": 0,
       "name": "IBM",
       "priority": "high",
@@ -385,7 +385,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 8,
+      "evidence_count": 10,
       "first_party_evidence_count": 0,
       "name": "IonQ",
       "priority": "high",
@@ -793,11 +793,11 @@
       "first_seen": "2026-06-25",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-06",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "NIST",
       "prior_count": 2,
       "priority": "critical",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -1305,9 +1305,240 @@
       "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "IBM Quantum",
+        "IBM Research"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 17,
+      "evidence": [
+        {
+          "date": "2026-08-07",
+          "key": "https://thequantuminsider.com/2026/08/07/qc-ware-hybrid-quantum-classical-chemistry-workflow-ibm-quantum",
+          "report": "2026-08/2026-08-07-digest.md",
+          "score": 50,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow with IBM Quantum Hardware",
+          "url": "https://thequantuminsider.com/2026/08/07/qc-ware-hybrid-quantum-classical-chemistry-workflow-ibm-quantum"
+        },
+        {
+          "date": "2026-08-02",
+          "key": "https://quantumzeitgeist.com/bluequbit-ibm-riken-quantum-potential",
+          "report": "2026-08/2026-08-02-digest.md",
+          "score": 24,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "BlueQubit, IBM, and RIKEN Demonstrate Quantum R&D Potential",
+          "url": "https://quantumzeitgeist.com/bluequbit-ibm-riken-quantum-potential"
+        },
+        {
+          "date": "2026-08-01",
+          "key": "https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago",
+          "report": "2026-08/2026-08-01-digest.md",
+          "score": 63,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM & Chicago Verify Quantum Advantage With New Error Correction",
+          "url": "https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 63,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "BlueQubit Supports Qedma, IBM and RIKEN Study on Error-Mitigated Quantum Simulation",
+          "url": "https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study"
+        },
+        {
+          "date": "2026-07-30",
+          "key": "https://thequantuminsider.com/2026/07/30/cleveland-clinic-and-ibm-researchers-create-quantum-machine-learning-framework-to-predict-neoantigen-immune-response",
+          "report": "2026-07/2026-07-30-digest.md",
+          "score": 24,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Cleveland Clinic and IBM Researchers Create Quantum Machine Learning Framework to Predict Neoantigen Immune Response",
+          "url": "https://thequantuminsider.com/2026/07/30/cleveland-clinic-and-ibm-researchers-create-quantum-machine-learning-framework-to-predict-neoantigen-immune-response"
+        },
+        {
+          "date": "2026-07-30",
+          "key": "https://thequantuminsider.com/2026/07/30/ibm-algorithmiq-quantum-computation-verification-framework",
+          "report": "2026-07/2026-07-30-digest.md",
+          "score": 24,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "IBM and Algorithmiq Develop Framework for Verifying Quantum Computations Beyond Classical Simulation",
+          "url": "https://thequantuminsider.com/2026/07/30/ibm-algorithmiq-quantum-computation-verification-framework"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 60,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
+          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
+        },
+        {
+          "date": "2026-07-27",
+          "key": "https://quantumnews.ai/hardware/ibm-heron-vs-room-temp-photonics-superconducting-qubit-integration",
+          "report": "2026-07/2026-07-27-digest.md",
+          "score": 36,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM Heron vs Room-Temp Photonics: Superconducting Qubit Integration",
+          "url": "https://quantumnews.ai/hardware/ibm-heron-vs-room-temp-photonics-superconducting-qubit-integration"
+        },
+        {
+          "date": "2026-07-20",
+          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
+          "report": "2026-07/2026-07-20-digest.md",
+          "score": 14,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
+          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
+        },
+        {
+          "date": "2026-07-17",
+          "key": "https://quantumcomputingreport.com/ibm-improves-qubit-reset-by-25x-and-releases-qiskit-v2-5",
+          "report": "2026-07/2026-07-17-digest.md",
+          "score": 26,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "IBM Improves Qubit Reset by 25x and Releases Qiskit v2.5",
+          "url": "https://quantumcomputingreport.com/ibm-improves-qubit-reset-by-25x-and-releases-qiskit-v2-5"
+        },
+        {
+          "date": "2026-07-16",
+          "key": "https://thequantuminsider.com/2026/07/16/denise-ruffner-joins-haiqu-to-expand-quantum-software-adoption",
+          "report": "2026-07/2026-07-16-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Former IBM Quantum Executive Denise Ruffner Joins Haiqu to Expand Quantum Software Adoption",
+          "url": "https://thequantuminsider.com/2026/07/16/denise-ruffner-joins-haiqu-to-expand-quantum-software-adoption"
+        },
+        {
+          "date": "2026-07-15",
+          "key": "https://quantumzeitgeist.com/throughput-gain-ibm-quantums-reset",
+          "report": "2026-07/2026-07-15-digest.md",
+          "score": 36,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "25\u00d7 Throughput Gain From IBM Quantum\u2019s New Reset Design",
+          "url": "https://quantumzeitgeist.com/throughput-gain-ibm-quantums-reset"
+        },
+        {
+          "date": "2026-07-13",
+          "key": "https://quantumnews.ai/hardware/fabrication-challenges-for-ibm-heron-s-superconducting-qubits-in-2026",
+          "report": "2026-07/2026-07-13-digest.md",
+          "score": 27,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Fabrication Challenges for IBM Heron's Superconducting Qubits in 2026",
+          "url": "https://quantumnews.ai/hardware/fabrication-challenges-for-ibm-heron-s-superconducting-qubits-in-2026"
+        },
+        {
+          "date": "2026-07-07",
+          "key": "https://quantumzeitgeist.com/qubit-system-reconstructed-ibm-reduced",
+          "report": "2026-07/2026-07-07-digest.md",
+          "score": 45,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM: 10-Qubit System Reconstructed With Reduced Exponential Cost",
+          "url": "https://quantumzeitgeist.com/qubit-system-reconstructed-ibm-reduced"
+        },
+        {
+          "date": "2026-06-25",
+          "key": "https://quantumzeitgeist.com/qcd%e2%82%82-100-qubit-rensselaer-ibm",
+          "report": "2026-06/2026-06-25-digest.md",
+          "score": 61,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Rensselaer & IBM Quantum Network Map QCD\u2082 on 100+ Qubit Chip",
+          "url": "https://quantumzeitgeist.com/qcd%e2%82%82-100-qubit-rensselaer-ibm"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://quantumzeitgeist.com/quantum-simulation-qcd%e2%82%82-ibm-maps",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 39,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantum Simulation Maps QCD\u2082 Interaction on 100+ Qubit IBM Chip",
+          "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%e2%82%82-ibm-maps"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 34,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantum Simulation Maps QCD\u2082 Interaction on 100+ Qubit IBM Chip",
+          "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
+        }
+      ],
+      "evidence_count": 17,
+      "first_seen": "2026-06-23",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-08-07",
+      "momentum": "declining",
+      "name": "IBM",
+      "prior_count": 5,
+      "priority": "high",
+      "recent_count": 3,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Hardware",
+        "Quantum Networking",
+        "Quantum Software / Tooling"
       ],
       "type": "company"
     },
@@ -1635,9 +1866,9 @@
       "latest_seen": "2026-07-31",
       "momentum": "declining",
       "name": "Keyfactor",
-      "prior_count": 5,
+      "prior_count": 7,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -1645,221 +1876,148 @@
       "type": "company"
     },
     {
-      "aliases": [
-        "IBM Quantum",
-        "IBM Research"
-      ],
+      "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 16,
+      "current_evidence_count": 10,
       "evidence": [
         {
-          "date": "2026-08-02",
-          "key": "https://quantumzeitgeist.com/bluequbit-ibm-riken-quantum-potential",
-          "report": "2026-08/2026-08-02-digest.md",
-          "score": 24,
+          "date": "2026-08-07",
+          "key": "https://thequantuminsider.com/2026/08/07/darpa-selects-ionq-to-produce-next-generation-atomic-clocks",
+          "report": "2026-08/2026-08-07-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "DARPA Selects IonQ to Produce Next-Generation Atomic Clocks",
+          "url": "https://thequantuminsider.com/2026/08/07/darpa-selects-ionq-to-produce-next-generation-atomic-clocks"
+        },
+        {
+          "date": "2026-08-07",
+          "key": "https://quantumzeitgeist.com/ionqs-win-quantum-space-25-6m",
+          "report": "2026-08/2026-08-07-digest.md",
+          "score": 31,
           "source": "Quantum Zeitgeist",
           "themes": [
-            "Quantum Hardware"
+            "Standards / Government"
           ],
-          "title": "BlueQubit, IBM, and RIKEN Demonstrate Quantum R&D Potential",
-          "url": "https://quantumzeitgeist.com/bluequbit-ibm-riken-quantum-potential"
+          "title": "IonQ\u2019s quantum space division wins $25.6M radar imagery contract",
+          "url": "https://quantumzeitgeist.com/ionqs-win-quantum-space-25-6m"
         },
         {
-          "date": "2026-08-01",
-          "key": "https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago",
-          "report": "2026-08/2026-08-01-digest.md",
-          "score": 63,
+          "date": "2026-08-06",
+          "key": "https://quantumzeitgeist.com/ionqs-quantum-plan-atomic-clocks",
+          "report": "2026-08/2026-08-06-digest.md",
+          "score": 100,
           "source": "Quantum Zeitgeist",
           "themes": [
-            "Quantum Hardware"
+            "Quantum Sensing"
           ],
-          "title": "IBM & Chicago Verify Quantum Advantage With New Error Correction",
-          "url": "https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago"
+          "title": "IonQ\u2019s quantum plan builds 125 atomic clocks for U.S. government use",
+          "url": "https://quantumzeitgeist.com/ionqs-quantum-plan-atomic-clocks"
         },
         {
-          "date": "2026-07-31",
-          "key": "https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 63,
+          "date": "2026-08-06",
+          "key": "https://quantumcomputingreport.com/ionq-awarded-28m-darpa-contract-extension-for-atomic-clocks-secures-nro-radar-satellite-award",
+          "report": "2026-08/2026-08-06-digest.md",
+          "score": 22,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "IonQ Awarded $28M DARPA Contract Extension for Atomic Clocks; Secures NRO Radar Satellite Award",
+          "url": "https://quantumcomputingreport.com/ionq-awarded-28m-darpa-contract-extension-for-atomic-clocks-secures-nro-radar-satellite-award"
+        },
+        {
+          "date": "2026-08-05",
+          "key": "https://thequantuminsider.com/2026/08/05/ionq-sandia-quantum-technology-research-partnership",
+          "report": "2026-08/2026-08-05-digest.md",
+          "score": 100,
           "source": "The Quantum Insider",
           "themes": [
-            "Quantum Hardware"
+            "Standards / Government"
           ],
-          "title": "BlueQubit Supports Qedma, IBM and RIKEN Study on Error-Mitigated Quantum Simulation",
-          "url": "https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study"
+          "title": "IonQ and Sandia National Laboratories Partner on Quantum Technology Research",
+          "url": "https://thequantuminsider.com/2026/08/05/ionq-sandia-quantum-technology-research-partnership"
         },
         {
-          "date": "2026-07-30",
-          "key": "https://thequantuminsider.com/2026/07/30/cleveland-clinic-and-ibm-researchers-create-quantum-machine-learning-framework-to-predict-neoantigen-immune-response",
-          "report": "2026-07/2026-07-30-digest.md",
-          "score": 24,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "Cleveland Clinic and IBM Researchers Create Quantum Machine Learning Framework to Predict Neoantigen Immune Response",
-          "url": "https://thequantuminsider.com/2026/07/30/cleveland-clinic-and-ibm-researchers-create-quantum-machine-learning-framework-to-predict-neoantigen-immune-response"
-        },
-        {
-          "date": "2026-07-30",
-          "key": "https://thequantuminsider.com/2026/07/30/ibm-algorithmiq-quantum-computation-verification-framework",
-          "report": "2026-07/2026-07-30-digest.md",
-          "score": 24,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "IBM and Algorithmiq Develop Framework for Verifying Quantum Computations Beyond Classical Simulation",
-          "url": "https://thequantuminsider.com/2026/07/30/ibm-algorithmiq-quantum-computation-verification-framework"
-        },
-        {
-          "date": "2026-07-29",
-          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
-          "report": "2026-07/2026-07-29-digest.md",
-          "score": 60,
+          "date": "2026-08-04",
+          "key": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 100,
           "source": "QuantumNews.ai",
           "themes": [
             "PQC / Crypto Agility"
           ],
-          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
-          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
+          "title": "IonQ says orders set 2030 deadline for post-quantum crypto migration",
+          "url": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders"
         },
         {
-          "date": "2026-07-27",
-          "key": "https://quantumnews.ai/hardware/ibm-heron-vs-room-temp-photonics-superconducting-qubit-integration",
-          "report": "2026-07/2026-07-27-digest.md",
-          "score": 36,
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 82,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "IonQ and EPB Partner to Launch the Tennessee Quantum Communications Research Center",
+          "url": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 42,
           "source": "QuantumNews.ai",
           "themes": [
             "Quantum Hardware"
           ],
-          "title": "IBM Heron vs Room-Temp Photonics: Superconducting Qubit Integration",
-          "url": "https://quantumnews.ai/hardware/ibm-heron-vs-room-temp-photonics-superconducting-qubit-integration"
+          "title": "IonQ Completes Acquisition of SkyWater Technology, Establishing Vertically Integrated Quantum Platform",
+          "url": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform"
         },
         {
-          "date": "2026-07-20",
-          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
-          "report": "2026-07/2026-07-20-digest.md",
-          "score": 14,
-          "source": "QuantumNews.ai",
+          "date": "2026-07-31",
+          "key": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 27,
+          "source": "Quantum Zeitgeist",
           "themes": [
             "Quantum Hardware"
           ],
-          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
-          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
+          "title": "IonQ\u2019s SkyWater Deal Secures U.S. Quantum Chip Supply",
+          "url": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal"
         },
         {
-          "date": "2026-07-17",
-          "key": "https://quantumcomputingreport.com/ibm-improves-qubit-reset-by-25x-and-releases-qiskit-v2-5",
-          "report": "2026-07/2026-07-17-digest.md",
-          "score": 26,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "IBM Improves Qubit Reset by 25x and Releases Qiskit v2.5",
-          "url": "https://quantumcomputingreport.com/ibm-improves-qubit-reset-by-25x-and-releases-qiskit-v2-5"
-        },
-        {
-          "date": "2026-07-16",
-          "key": "https://thequantuminsider.com/2026/07/16/denise-ruffner-joins-haiqu-to-expand-quantum-software-adoption",
-          "report": "2026-07/2026-07-16-digest.md",
-          "score": 35,
+          "date": "2026-06-22",
+          "key": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 24,
           "source": "The Quantum Insider",
           "themes": [
             "Quantum Software / Tooling"
           ],
-          "title": "Former IBM Quantum Executive Denise Ruffner Joins Haiqu to Expand Quantum Software Adoption",
-          "url": "https://thequantuminsider.com/2026/07/16/denise-ruffner-joins-haiqu-to-expand-quantum-software-adoption"
-        },
-        {
-          "date": "2026-07-15",
-          "key": "https://quantumzeitgeist.com/throughput-gain-ibm-quantums-reset",
-          "report": "2026-07/2026-07-15-digest.md",
-          "score": 36,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "25\u00d7 Throughput Gain From IBM Quantum\u2019s New Reset Design",
-          "url": "https://quantumzeitgeist.com/throughput-gain-ibm-quantums-reset"
-        },
-        {
-          "date": "2026-07-13",
-          "key": "https://quantumnews.ai/hardware/fabrication-challenges-for-ibm-heron-s-superconducting-qubits-in-2026",
-          "report": "2026-07/2026-07-13-digest.md",
-          "score": 27,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Fabrication Challenges for IBM Heron's Superconducting Qubits in 2026",
-          "url": "https://quantumnews.ai/hardware/fabrication-challenges-for-ibm-heron-s-superconducting-qubits-in-2026"
-        },
-        {
-          "date": "2026-07-07",
-          "key": "https://quantumzeitgeist.com/qubit-system-reconstructed-ibm-reduced",
-          "report": "2026-07/2026-07-07-digest.md",
-          "score": 45,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IBM: 10-Qubit System Reconstructed With Reduced Exponential Cost",
-          "url": "https://quantumzeitgeist.com/qubit-system-reconstructed-ibm-reduced"
-        },
-        {
-          "date": "2026-06-25",
-          "key": "https://quantumzeitgeist.com/qcd%e2%82%82-100-qubit-rensselaer-ibm",
-          "report": "2026-06/2026-06-25-digest.md",
-          "score": 61,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "Rensselaer & IBM Quantum Network Map QCD\u2082 on 100+ Qubit Chip",
-          "url": "https://quantumzeitgeist.com/qcd%e2%82%82-100-qubit-rensselaer-ibm"
-        },
-        {
-          "date": "2026-06-23",
-          "key": "https://quantumzeitgeist.com/quantum-simulation-qcd%e2%82%82-ibm-maps",
-          "report": "2026-06/2026-06-23-digest.md",
-          "score": 39,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantum Simulation Maps QCD\u2082 Interaction on 100+ Qubit IBM Chip",
-          "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%e2%82%82-ibm-maps"
-        },
-        {
-          "date": "2026-06-23",
-          "key": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps",
-          "report": "2026-06/2026-06-23-digest.md",
-          "score": 34,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantum Simulation Maps QCD\u2082 Interaction on 100+ Qubit IBM Chip",
-          "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
+          "title": "Fixstars Amplify adds IonQ\u2019s Quantum Computing Environment to its Standard Machines",
+          "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
         }
       ],
-      "evidence_count": 16,
-      "first_seen": "2026-06-23",
+      "evidence_count": 10,
+      "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-02",
-      "momentum": "stable",
-      "name": "IBM",
-      "prior_count": 4,
+      "latest_seen": "2026-08-07",
+      "momentum": "rising",
+      "name": "IonQ",
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 7,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware",
         "Quantum Networking",
-        "Quantum Software / Tooling"
+        "Quantum Sensing",
+        "Quantum Software / Tooling",
+        "Standards / Government"
       ],
       "type": "company"
     },
@@ -2088,128 +2246,6 @@
       "themes": [
         "Quantum Hardware",
         "Quantum Networking",
-        "Quantum Software / Tooling",
-        "Standards / Government"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 8,
-      "evidence": [
-        {
-          "date": "2026-08-06",
-          "key": "https://quantumzeitgeist.com/ionqs-quantum-plan-atomic-clocks",
-          "report": "2026-08/2026-08-06-digest.md",
-          "score": 100,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Sensing"
-          ],
-          "title": "IonQ\u2019s quantum plan builds 125 atomic clocks for U.S. government use",
-          "url": "https://quantumzeitgeist.com/ionqs-quantum-plan-atomic-clocks"
-        },
-        {
-          "date": "2026-08-06",
-          "key": "https://quantumcomputingreport.com/ionq-awarded-28m-darpa-contract-extension-for-atomic-clocks-secures-nro-radar-satellite-award",
-          "report": "2026-08/2026-08-06-digest.md",
-          "score": 22,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Sensing"
-          ],
-          "title": "IonQ Awarded $28M DARPA Contract Extension for Atomic Clocks; Secures NRO Radar Satellite Award",
-          "url": "https://quantumcomputingreport.com/ionq-awarded-28m-darpa-contract-extension-for-atomic-clocks-secures-nro-radar-satellite-award"
-        },
-        {
-          "date": "2026-08-05",
-          "key": "https://thequantuminsider.com/2026/08/05/ionq-sandia-quantum-technology-research-partnership",
-          "report": "2026-08/2026-08-05-digest.md",
-          "score": 100,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Standards / Government"
-          ],
-          "title": "IonQ and Sandia National Laboratories Partner on Quantum Technology Research",
-          "url": "https://thequantuminsider.com/2026/08/05/ionq-sandia-quantum-technology-research-partnership"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 100,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "IonQ says orders set 2030 deadline for post-quantum crypto migration",
-          "url": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 82,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "IonQ and EPB Partner to Launch the Tennessee Quantum Communications Research Center",
-          "url": "https://thequantuminsider.com/2026/08/04/ionq-epb-tennessee-quantum-communications-research-center"
-        },
-        {
-          "date": "2026-07-31",
-          "key": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 42,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IonQ Completes Acquisition of SkyWater Technology, Establishing Vertically Integrated Quantum Platform",
-          "url": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform"
-        },
-        {
-          "date": "2026-07-31",
-          "key": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 27,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IonQ\u2019s SkyWater Deal Secures U.S. Quantum Chip Supply",
-          "url": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal"
-        },
-        {
-          "date": "2026-06-22",
-          "key": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator",
-          "report": "2026-06/2026-06-22-digest.md",
-          "score": 24,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "Fixstars Amplify adds IonQ\u2019s Quantum Computing Environment to its Standard Machines",
-          "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
-        }
-      ],
-      "evidence_count": 8,
-      "first_seen": "2026-06-22",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-08-06",
-      "momentum": "rising",
-      "name": "IonQ",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 7,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility",
-        "Quantum Hardware",
-        "Quantum Networking",
-        "Quantum Sensing",
         "Quantum Software / Tooling",
         "Standards / Government"
       ],
@@ -2876,11 +2912,11 @@
       "first_seen": "2026-07-27",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-04",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Cisco",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -3316,7 +3352,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "Standards / Government"
@@ -4153,9 +4189,9 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-06",
-      "momentum": "stable",
+      "momentum": "rising",
       "name": "Pasqal",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "medium",
       "recent_count": 1,
       "status": "active",
@@ -4829,9 +4865,9 @@
       "latest_seen": "2026-08-03",
       "momentum": "declining",
       "name": "Crypto-agility",
-      "prior_count": 6,
+      "prior_count": 9,
       "priority": "critical",
-      "recent_count": 4,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -5524,8 +5560,20 @@
         "entanglement distribution"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 2,
+      "current_evidence_count": 3,
       "evidence": [
+        {
+          "date": "2026-08-07",
+          "key": "https://thequantuminsider.com/2026/08/07/zerotier-carahsoft-partner-post-quantum-secure-software-defined-networking-public-sector",
+          "report": "2026-08/2026-08-07-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "ZeroTier and Carahsoft Partner to Expand Post-Quantum Networking Access for Government",
+          "url": "https://thequantuminsider.com/2026/08/07/zerotier-carahsoft-partner-post-quantum-secure-software-defined-networking-public-sector"
+        },
         {
           "date": "2026-07-23",
           "key": "https://arxiv.org/abs/2607.21093",
@@ -5575,16 +5623,16 @@
           "url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
         }
       ],
-      "evidence_count": 3,
+      "evidence_count": 4,
       "first_seen": "2026-07-07",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-07-23",
-      "momentum": "stable",
+      "latest_seen": "2026-08-07",
+      "momentum": "rising",
       "name": "Quantum networking",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Networking"
       ],
@@ -5933,6 +5981,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-07T02:26:16.316860+00:00",
+  "updated_at": "2026-08-08T01:10:44.067127+00:00",
   "version": 2
 }
