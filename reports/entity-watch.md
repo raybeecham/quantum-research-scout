@@ -4,16 +4,16 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-08-09 01:15 UTC_
+_Updated 2026-08-09 04:14 UTC_
 
 ## Organizations
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| NIST | ➡️ stable (2 vs 2) | 🔴 critical | active | 2026-06-25 | 2026-08-06 | 6 | 0 |
+| NIST | ↘️ declining (2 vs 3) | 🔴 critical | active | 2026-06-25 | 2026-08-06 | 7 | 1 |
+| Keyfactor | ↘️ declining (0 vs 6) | 🟠 high | quiet | 2025-10-29 | 2026-07-31 | 22 | 14 |
 | Fortanix | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2024-08-19 | 2026-07-30 | 20 | 20 |
 | IBM | ↘️ declining (3 vs 6) | 🟠 high | active | 2026-06-23 | 2026-08-08 | 18 | 0 |
-| Keyfactor | ↘️ declining (0 vs 6) | 🟠 high | quiet | 2025-09-09 | 2026-07-31 | 17 | 9 |
 | IonQ | ↗️ rising (8 vs 2) | 🟠 high | active | 2026-06-22 | 2026-08-08 | 11 | 0 |
 | QuEra | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-22 | 2026-07-22 | 9 | 8 |
 | PsiQuantum | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-02-26 | 2026-07-22 | 8 | 8 |
@@ -49,7 +49,7 @@ _Updated 2026-08-09 01:15 UTC_
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| Crypto-agility | ↘️ declining (1 vs 9) | 🔴 critical | active | 2025-08-06 | 2026-08-03 | 27 | 18 |
+| Crypto-agility | ↘️ declining (1 vs 9) | 🔴 critical | active | 2025-08-06 | 2026-08-03 | 32 | 23 |
 | Quantum error correction | ➡️ stable (2 vs 2) | 🔴 critical | active | 2026-06-23 | 2026-08-08 | 20 | 0 |
 | Logical qubits | ↗️ rising (2 vs 1) | 🔴 critical | active | 2025-09-10 | 2026-08-08 | 15 | 3 |
 | ML-DSA | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2026-06-29 | 2026-07-23 | 2 | 0 |
@@ -71,7 +71,7 @@ _Updated 2026-08-09 01:15 UTC_
 | ISO/IEC | third-party | 0 | 2 |
 | Infleqtion | third-party | 0 | 12 |
 | Pasqal | third-party | 0 | 10 |
-| NIST | covered | 2 | 6 |
+| NIST | covered | 2 | 7 |
 | Accenture / Accenture Federal Services | covered | 2 | 5 |
 | Atom Computing | covered | 1 | 1 |
 | BSI Germany | covered | 1 | 0 |
@@ -88,7 +88,7 @@ _Updated 2026-08-09 01:15 UTC_
 | IBM | covered | 1 | 18 |
 | IETF | covered | 1 | 0 |
 | IonQ | covered | 1 | 11 |
-| Keyfactor | covered | 1 | 17 |
+| Keyfactor | covered | 1 | 22 |
 | Lockheed Martin | covered | 1 | 2 |
 | Microsoft Quantum | covered | 1 | 0 |
 | Open Quantum Safe | covered | 1 | 1 |

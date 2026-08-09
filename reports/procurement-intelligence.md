@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-09T01:09:22.763250+00:00_
+_Updated 2026-08-09T04:14:37.974024+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
@@ -10,7 +10,7 @@ Bounded extraction of public procurement attachments and descriptions linked by 
 - Documents extracted: **10** / **37** discovered
 - Changed documents: **0**
 - New amendments: **0**
-- Material amendment impacts this run: **1**
+- Material amendment impacts this run: **0**
 - Decisions requiring revalidation: **2**
 
 ## [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view)
@@ -28,33 +28,6 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/580cc4c02ed04729858dd795956faa91/download) — not_fetched
-
-### Changes since the previous tracker snapshot
-
-**HIGH · 34 change(s) · decision revalidation required**
-
-_Version history is tracker-observed and may not include revisions published before monitoring began._
-
-| Impact | Change | Before | After | Evidence |
-|---|---|---|---|---|
-| HIGH | New submission evidence was observed. | — | endors offer, it must be marked “Not Applicable.” 1 Addendum to License Agreement or Terms of Use The offeror, , hereby... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) |
-| HIGH | New submission evidence was observed. | — | esents mitigation options to the COR. Prepares monthly status reports, briefing materials, and decision papers that are... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download) |
-| HIGH | New submission evidence was observed. | — | evaluation and adoption criteria, model performance monitoring and evaluation protocols, and AI incident detection and... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download) |
-| HIGH | New submission evidence was observed. | — | r Terms of Use The offeror, , hereby submits this Addendum as an attachment to the License Agreement submitted with its... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) |
-| HIGH | New submission evidence was observed. | — | me (“License Agreement”). If and when the Government enters into a binding contract with the offeror as a result of its... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) |
-| HIGH | New submission evidence was observed. | — | se The offeror, , hereby submits this Addendum as an attachment to the License Agreement submitted with its proposal in... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) |
-| HIGH | New submission evidence was observed. | — | License Agreement or Terms of Use The offeror, , hereby submits this Addendum as an attachment to the License Agreement... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) |
-| HIGH | New requirement evidence was observed. | — | nuity procedures including rollback testing. Supports hybrid connectivity between on-premises and cloud environments as... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download) |
-| HIGH | New requirement evidence was observed. | — | atalog guidance documents and document operations infrastructure maintenance procedures. 3.0 Constraints The Contractor... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) |
-| HIGH | New requirement evidence was observed. | — | ith a supporting narrative statement. If a question/sections is not applicable to the service/product Vendors offer, it... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) |
-| HIGH | New requirement evidence was observed. | — | tart. The supporting tasks identified within this Task Order are representative of the work anticipated. The Contractor... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) |
-| HIGH | New requirement evidence was observed. | — | rder. The supporting tasks identified within this Task Order are representative of the work anticipated. The Contractor... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) |
-
-## [16--GEARBOX ASSEMBLY,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/fa93b1fd49be425da350a6f5de18fbab/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-09-22T00:00:00-04:00**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fa93b1fd49be425da350a6f5de18fbab) — not_fetched
 
 ## [Vat Valve & Assorted Sensor Cables, No Equivalents Or Substitutions](https://sam.gov/workspace/contract/opp/749c4f801ad143a4a273b0626ad3a298/view)
 
@@ -114,6 +87,12 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-19T15:00:00-04:00**
 Evidence completeness: **0 / 100** · Deadline: **2026-09-21T00:00:00-04:00**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9b901f25ca1444808364429de27464bf) — not_fetched
+
+## [16--GEARBOX ASSEMBLY,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/fa93b1fd49be425da350a6f5de18fbab/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-09-22T00:00:00-04:00**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fa93b1fd49be425da350a6f5de18fbab) — not_fetched
 
 ## [16--2-CH PRE-AMP LRM,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/917255d883034d4995579d49a3453192/view)
 

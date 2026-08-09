@@ -160,8 +160,8 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 15,
-      "historical_evidence_count": 8,
+      "evidence_count": 17,
+      "historical_evidence_count": 10,
       "latest_evidence_at": "2026-07-31",
       "name": "Keyfactor",
       "priority": "high",
@@ -186,21 +186,6 @@
           "url": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale"
         },
         {
-          "date": "2026-07-31",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "crypto-agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Implementing Crypto-Agility at Scale",
-          "url": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale/"
-        },
-        {
           "date": "2026-07-28",
           "date_confidence": "unknown",
           "date_kind": "unknown",
@@ -214,21 +199,6 @@
           "source": "Keyfactor Quantum and Crypto-Agility",
           "title": "Building Crypto-Agility for Financial Services",
           "url": "https://www.keyfactor.com/events/building-crypto-agility-for-financial-services"
-        },
-        {
-          "date": "2026-07-28",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "crypto-agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Building Crypto-Agility for Financial Services",
-          "url": "https://www.keyfactor.com/events/building-crypto-agility-for-financial-services/"
         },
         {
           "date": "2026-07-27",
@@ -246,6 +216,22 @@
           "url": "https://www.keyfactor.com/blog/quantum-pki-readiness-a-5-step-guide-for-security-teams"
         },
         {
+          "date": "2026-07-27",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness",
+            "crypto agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Post-Quantum PKI: A Practical Readiness Guide for Enterprise Security Teams",
+          "url": "https://www.keyfactor.com/blog/quantum-pki-readiness-a-5-step-guide-for-security-teams/"
+        },
+        {
           "date": "2026-07-22",
           "date_confidence": "unknown",
           "date_kind": "unknown",
@@ -261,50 +247,83 @@
           "url": "https://thequantuminsider.com/2026/07/22/keyfactor-expands-partner-program-for-post-quantum-security"
         },
         {
-          "date": "2026-07-13",
+          "date": "2026-07-06",
           "date_confidence": "high",
           "date_kind": "published",
           "historical": true,
           "matched_patterns": [
-            "preparing for"
+            "crypto-agility"
           ],
           "observed_stage": "planning",
           "observed_stage_label": "Planning",
           "rank": 3,
           "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Preparing for the UK's Quantum-Safe Future",
-          "url": "https://www.keyfactor.com/events/preparing-for-the-uks-quantum-safe-future/"
+          "title": "AgileSec 3.6 Gives Security Teams More Visibility, More Control, and a Faster Path to Cryptographic-Agility",
+          "url": "https://www.keyfactor.com/blog/agilesec-3-6-gives-security-teams-more-visibility-more-control-and-a-faster-path-to-cryptographic-agility/"
         },
         {
-          "date": "2026-07-25",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
+          "date": "2026-06-23",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
           "matched_patterns": [
-            "post-quantum"
+            "readiness"
           ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Quantum Zeitgeist",
-          "title": "Keyfactor Partners Gain Tools for AI & Post-Quantum Security Services",
-          "url": "https://quantumzeitgeist.com/keyfactor-security-services-ai-post-quantum"
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Explaining Executive Order: Securing the Nation Against Advanced Cryptographic Attacks & What This Means for Your Organization",
+          "url": "https://www.keyfactor.com/blog/explaining-executive-order-securing-the-nation-against-advanced-cryptographic-attacks-what-this-means-for-your-organization/"
+        },
+        {
+          "date": "2026-02-27",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "prepare for",
+            "crypto-agility",
+            "crypto agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "What is Crypto Agility? How To Prepare For Post-Quantum Migration",
+          "url": "https://www.keyfactor.com/education-center/what-is-crypto-agility-how-to-prepare-for-post-quantum-migration/"
         }
       ],
       "type": "company"
     },
     {
       "confidence": "high",
-      "evidence_count": 4,
-      "historical_evidence_count": 0,
+      "evidence_count": 5,
+      "historical_evidence_count": 1,
       "latest_evidence_at": "2026-07-31",
       "name": "NIST",
       "priority": "critical",
-      "source_count": 3,
+      "source_count": 4,
       "stage": "planning",
       "stage_label": "Planning",
       "stage_rank": 3,
       "supporting_evidence": [
+        {
+          "date": "2026-07-27",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness",
+            "crypto agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Post-Quantum PKI: A Practical Readiness Guide for Enterprise Security Teams",
+          "url": "https://www.keyfactor.com/blog/quantum-pki-readiness-a-5-step-guide-for-security-teams/"
+        },
         {
           "date": "2026-06-25",
           "date_confidence": "unknown",
@@ -1495,6 +1514,6 @@
     "not_assessed": 21,
     "organizations": 43
   },
-  "updated_at": "2026-08-09T01:15:38.556445+00:00",
+  "updated_at": "2026-08-09T04:14:37.974024+00:00",
   "version": 1
 }
