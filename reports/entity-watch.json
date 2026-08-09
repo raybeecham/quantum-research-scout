@@ -83,7 +83,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 11,
+      "evidence_count": 12,
       "first_party_evidence_count": 0,
       "name": "Infleqtion",
       "priority": "medium",
@@ -353,7 +353,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 17,
+      "evidence_count": 18,
       "first_party_evidence_count": 0,
       "name": "IBM",
       "priority": "high",
@@ -385,7 +385,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 10,
+      "evidence_count": 11,
       "first_party_evidence_count": 0,
       "name": "IonQ",
       "priority": "high",
@@ -694,7 +694,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 1,
+      "evidence_count": 2,
       "first_party_evidence_count": 0,
       "name": "Rigetti",
       "priority": "medium",
@@ -1317,8 +1317,20 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 17,
+      "current_evidence_count": 18,
       "evidence": [
+        {
+          "date": "2026-08-08",
+          "key": "https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 35,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow Using Promethium and IBM Quantum",
+          "url": "https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum"
+        },
         {
           "date": "2026-08-07",
           "key": "https://thequantuminsider.com/2026/08/07/qc-ware-hybrid-quantum-classical-chemistry-workflow-ibm-quantum",
@@ -1524,13 +1536,13 @@
           "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
         }
       ],
-      "evidence_count": 17,
+      "evidence_count": 18,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-07",
+      "latest_seen": "2026-08-08",
       "momentum": "declining",
       "name": "IBM",
-      "prior_count": 5,
+      "prior_count": 6,
       "priority": "high",
       "recent_count": 3,
       "status": "active",
@@ -1866,10 +1878,10 @@
       "latest_seen": "2026-07-31",
       "momentum": "declining",
       "name": "Keyfactor",
-      "prior_count": 7,
+      "prior_count": 6,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -1878,8 +1890,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 10,
+      "current_evidence_count": 11,
       "evidence": [
+        {
+          "date": "2026-08-08",
+          "key": "https://quantumzeitgeist.com/viterbi-quantum-ldpc-codes-clinr-unlock",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 149,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "IonQ Quantum LDPC Codes Unlock 3\u00d7 Faster Joint Logical Measurements",
+          "url": "https://quantumzeitgeist.com/viterbi-quantum-ldpc-codes-clinr-unlock"
+        },
         {
           "date": "2026-08-07",
           "key": "https://thequantuminsider.com/2026/08/07/darpa-selects-ionq-to-produce-next-generation-atomic-clocks",
@@ -2001,18 +2025,19 @@
           "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
         }
       ],
-      "evidence_count": 10,
+      "evidence_count": 11,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-07",
+      "latest_seen": "2026-08-08",
       "momentum": "rising",
       "name": "IonQ",
       "prior_count": 2,
       "priority": "high",
-      "recent_count": 7,
+      "recent_count": 8,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
+        "QEC / Fault Tolerance",
         "Quantum Hardware",
         "Quantum Networking",
         "Quantum Sensing",
@@ -2610,9 +2635,9 @@
       "first_seen": "2025-07-19",
       "historical_evidence_count": 4,
       "latest_seen": "2026-07-25",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "QuSecure",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -3908,8 +3933,20 @@
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 11,
+      "current_evidence_count": 12,
       "evidence": [
+        {
+          "date": "2026-08-08",
+          "key": "https://thequantuminsider.com/2026/08/08/matt-kinsella-infleqtion-why-neutral-atoms-power-sensors-clocks-and-computers-alike",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 39,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Matt Kinsella (Infleqtion): Why Neutral Atoms Power Sensors, Clocks, and Computers Alike",
+          "url": "https://thequantuminsider.com/2026/08/08/matt-kinsella-infleqtion-why-neutral-atoms-power-sensors-clocks-and-computers-alike"
+        },
         {
           "date": "2026-07-28",
           "key": "https://infleqtion.com/infleqtion-appoints-dr-joseph-buck-as-senior-vice-president-of-quantum-computing-systems",
@@ -4043,16 +4080,16 @@
           "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
         }
       ],
-      "evidence_count": 11,
+      "evidence_count": 12,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-28",
+      "latest_seen": "2026-08-08",
       "momentum": "declining",
       "name": "Infleqtion",
-      "prior_count": 4,
+      "prior_count": 3,
       "priority": "medium",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Hardware",
         "Quantum Sensing"
@@ -4276,8 +4313,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 1,
+      "current_evidence_count": 2,
       "evidence": [
+        {
+          "date": "2026-08-08",
+          "key": "https://quantumcomputingreport.com/rigetti-computing-reports-q2-2026-financial-results-revenue-up-185-yoy-100m-chips-act-loi-and-hpe-supercomputing-partnership",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Rigetti Computing Reports Q2 2026 Financial Results: Revenue Up 185% YoY, $100M CHIPS Act LOI, and HPE Supercomputing Partnership",
+          "url": "https://quantumcomputingreport.com/rigetti-computing-reports-q2-2026-financial-results-revenue-up-185-yoy-100m-chips-act-loi-and-hpe-supercomputing-partnership"
+        },
         {
           "date": "2026-07-29",
           "key": "https://quantumzeitgeist.com/rigetti-computing-superconducting-qubit-temperature-bridges",
@@ -4291,16 +4340,16 @@
           "url": "https://quantumzeitgeist.com/rigetti-computing-superconducting-qubit-temperature-bridges"
         }
       ],
-      "evidence_count": 1,
+      "evidence_count": 2,
       "first_seen": "2026-07-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-29",
-      "momentum": "declining",
+      "latest_seen": "2026-08-08",
+      "momentum": "stable",
       "name": "Rigetti",
       "prior_count": 1,
       "priority": "medium",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Hardware"
       ],
@@ -4881,8 +4930,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 19,
+      "current_evidence_count": 20,
       "evidence": [
+        {
+          "date": "2026-08-08",
+          "key": "https://quantumzeitgeist.com/viterbi-quantum-ldpc-codes-clinr-unlock",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 149,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "IonQ Quantum LDPC Codes Unlock 3\u00d7 Faster Joint Logical Measurements",
+          "url": "https://quantumzeitgeist.com/viterbi-quantum-ldpc-codes-clinr-unlock"
+        },
         {
           "date": "2026-08-05",
           "key": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing",
@@ -5112,15 +5173,15 @@
           "url": "https://quantumzeitgeist.com/what-is-the-surface-code"
         }
       ],
-      "evidence_count": 19,
+      "evidence_count": 20,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-05",
-      "momentum": "declining",
+      "latest_seen": "2026-08-08",
+      "momentum": "stable",
       "name": "Quantum error correction",
-      "prior_count": 3,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "AI Security",
@@ -5135,8 +5196,20 @@
         "fault-tolerant quantum"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 11,
+      "current_evidence_count": 12,
       "evidence": [
+        {
+          "date": "2026-08-08",
+          "key": "https://quantumcomputingreport.com/ucla-led-consortium-secures-4-million-nsf-grant-for-60-logical-qubit-trapped-ion-architecture",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 120,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "UCLA-Led Consortium Secures $4 Million NSF Grant for 60 Logical Qubit Trapped-Ion Architecture",
+          "url": "https://quantumcomputingreport.com/ucla-led-consortium-secures-4-million-nsf-grant-for-60-logical-qubit-trapped-ion-architecture"
+        },
         {
           "date": "2026-08-06",
           "key": "https://thequantuminsider.com/2026/08/06/photons-for-reach-atoms-for-entanglement-compound-photon-atom-blueprint-fault-tolerant-quantum-computing",
@@ -5342,15 +5415,15 @@
           "url": "https://www.quera.com/press-releases/quera-selected-for-phase-1-of-darpas-quantum-benchmarking-initiative"
         }
       ],
-      "evidence_count": 14,
+      "evidence_count": 15,
       "first_seen": "2025-09-10",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-08-06",
-      "momentum": "stable",
+      "latest_seen": "2026-08-08",
+      "momentum": "rising",
       "name": "Logical qubits",
       "prior_count": 1,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -5981,6 +6054,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-08T01:10:44.067127+00:00",
+  "updated_at": "2026-08-09T01:15:38.157264+00:00",
   "version": 2
 }

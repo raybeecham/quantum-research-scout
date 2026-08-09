@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-08T01:05:02.993371+00:00_
+_Updated 2026-08-09T01:09:22.763250+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **14** (**18.7%** coverage)
+- SAM.gov-resolved entities: **17** (**22.7%** coverage)
 - Newly resolved this run: **3**
-- Pending bounded enrichment: **152**
+- Pending bounded enrichment: **151**
 - Ambiguous / no match: **0 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -18,16 +18,19 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | INUTEQ, LLC | [InuTeq, LLC](https://sam.gov/entity/NBEWZB8LQ8Z5/coreData) | NBEWZB8LQ8Z5 | 5NTT4 | Active | Alaskan Native Corporation Owned Firm, Business or Organization, For Profit Organization |
 | POST QUANTUM LABS LLC | [Post Quantum Labs LLC](https://sam.gov/entity/H53MXWJZPYU3/coreData) | H53MXWJZPYU3 | 9T5C5 | Active | Business or Organization, For Profit Organization, Individual or concern, other than one of the preceding |
 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | [MASSACHUSETTS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NYLCDML6V1/coreData) | E2NYLCDML6V1 | 80230 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
+| ALVAREZ LLC | [Alvarez LLC](https://sam.gov/entity/Y928UVG75CT6/coreData) | Y928UVG75CT6 | 35LK3 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | UNIVERSITY OF OKLAHOMA | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) | EVTSTTLCEWS5 | 3G168 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | UNIVERSITY OF NORTH TEXAS | [UNIVERSITY OF NORTH TEXAS](https://sam.gov/entity/G47WN1XZNWX9/coreData) | G47WN1XZNWX9 | 6B783 | Active | Educational Institution, Hispanic Servicing Institution, Minority Institution |
 | THE UNIVERSITY OF IOWA | [THE UNIVERSITY OF IOWA](https://sam.gov/entity/Z1H9VJS8NG16/coreData) | Z1H9VJS8NG16 | 2D354 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | [VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY](https://sam.gov/entity/QDE5UHE5XD16/coreData) | QDE5UHE5XD16 | 4B976 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
+| GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | [GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.](https://sam.gov/entity/SMNWM6HN79X5/coreData) | SMNWM6HN79X5 | 07MU1 | Active | Business or Organization, For Profit Organization |
 | MORGAN STATE UNIVERSITY | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) | KULSKCCZJT27 | 8U547 | Active | Educational Institution, Historically Black College or University, Minority Institution |
 | CARNEGIE-MELLON UNIVERSITY | [CARNEGIE-MELLON UNIVERSITY](https://sam.gov/entity/U3NKNFLNQ613/coreData) | U3NKNFLNQ613 | 97668 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF ILLINOIS | [UNIVERSITY OF ILLINOIS](https://sam.gov/entity/Y8CWNJRCNN91/coreData) | Y8CWNJRCNN91 | 4B808 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | FOUR POINTS TECHNOLOGY, L.L.C. | [FOUR POINTS TECHNOLOGY, L.L.C.](https://sam.gov/entity/H1KHJPJH9R51/coreData) | H1KHJPJH9R51 | 1YS78 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | ARETE CONSULTING LLC | [ARETE CONSULTING LLC](https://sam.gov/entity/C2PNBME1GYB5/coreData) | C2PNBME1GYB5 | 7LRX4 | Active | SBA Certified 8(a) Program Participant |
 | KPMG LLP | [KPMG LLP](https://sam.gov/entity/MAA3SBSDQVM1/coreData) | MAA3SBSDQVM1 | 7QEG9 | Active | Business or Organization, For Profit Organization |
+| BOOZ ALLEN HAMILTON INC | [BOOZ ALLEN HAMILTON INC](https://sam.gov/entity/JCBMLGPE6Z71/coreData) | JCBMLGPE6Z71 | 17038 | Active | Business or Organization, For Profit Organization |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
 | REDACTED DUE TO PII | REDACTED DUE TO PII | — | — | no_match | No active public SAM.gov entity matched |
 | POST QUANTUM LABS LLC | POST QUANTUM LABS LLC | — | — | pending | api key missing |
@@ -57,7 +60,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | NORTH CAROLINA STATE UNIVERSITY | NORTH CAROLINA STATE UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | — | — | pending | Queued for a future bounded enrichment batch |
 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | — | — | pending | api key missing |
-| ALVAREZ LLC | ALVAREZ LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | ALVAREZ LLC | ALVAREZ LLC | — | — | pending | api key missing |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | — | — | pending | Queued for a future bounded enrichment batch |
 | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | — | — | pending | Queued for a future bounded enrichment batch |
@@ -71,7 +73,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | SECRECY LABS LLC | SECRECY LABS LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | SECRECY LABS LLC | SECRECY LABS LLC | — | — | pending | api key missing |
 | GOVSMART, INC. | GOVSMART, INC. | — | — | pending | Queued for a future bounded enrichment batch |
-| GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | — | — | pending | Queued for a future bounded enrichment batch |
 | DELOITTE CONSULTING LLP | DELOITTE CONSULTING LLP | — | — | pending | Queued for a future bounded enrichment batch |
 | DELOITTE CONSULTING LLP | DELOITTE CONSULTING LLP | — | — | pending | api key missing |
 | W S DARLEY & CO | W S DARLEY & CO | — | — | pending | Queued for a future bounded enrichment batch |
@@ -88,7 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | CLEARAVENUE LLC | CLEARAVENUE LLC | — | — | pending | api key missing |
 | UNIVERSITY OF ALASKA FAIRBANKS | UNIVERSITY OF ALASKA FAIRBANKS | — | — | pending | Queued for a future bounded enrichment batch |
 | UNIVERSITY OF ALASKA FAIRBANKS | UNIVERSITY OF ALASKA FAIRBANKS | — | — | pending | api key missing |
-| THE PENNSYLVANIA STATE UNIVERSITY | THE PENNSYLVANIA STATE UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
 
 ## Method
 

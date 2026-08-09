@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-08T01:05:02.993371+00:00_
+_Updated 2026-08-09T01:09:22.763250+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **395**
-- Quarantined evidence or relationships: **84**
-- Acceptance rate: **82.5%**
+- Accepted evidence: **404**
+- Quarantined evidence or relationships: **85**
+- Acceptance rate: **82.6%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 26 | 60 | 30.2% |
-| Federal funding | 369 | 24 | 93.9% |
+| Federal missions | 26 | 61 | 29.9% |
+| Federal funding | 378 | 24 | 94.0% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 84
-- **No relevant term in the evidence itself**: 84
-- **Official government source**: 82
+- **Match appears only in collector query metadata**: 85
+- **No relevant term in the evidence itself**: 85
+- **Official government source**: 83
 - **Source is not an official .gov or .mil domain**: 2
 
 ## Quarantined Evidence
@@ -214,6 +214,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [PRIMED-AI: Data-to-Model Academic-Industrial Partnerships (D2M-AIP) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (UG3/UH3 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359270)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Model-to-Clinic (M2C) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (UG3/UH3, Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359666)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

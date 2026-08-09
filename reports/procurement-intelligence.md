@@ -2,42 +2,59 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-08T01:05:02.993371+00:00_
+_Updated 2026-08-09T01:09:22.763250+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
 - Opportunities reviewed: **20**
-- Documents extracted: **7** / **37** discovered
+- Documents extracted: **10** / **37** discovered
 - Changed documents: **0**
-- New amendments: **2**
+- New amendments: **0**
 - Material amendment impacts this run: **1**
-- Decisions requiring revalidation: **1**
+- Decisions requiring revalidation: **2**
 
-## [66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING](https://sam.gov/workspace/contract/opp/e7164edc3eab4e9fb8beb4030ba58a27/view)
+## [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view)
 
-Evidence completeness: **100 / 100** · Deadline: **2026-08-11T17:00:00-04:00**
+Evidence completeness: **72 / 100** · Deadline: **2026-08-18T11:00:00-04:00**
 
 Requirements evidence:
-- unless otherwise indicated by quoter. Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter. 11. SCHEDULE (Include applicable Federal, State and local taxes) ITEM NUMBER (a) SUPPLIES/SERVICES (b) QUANTITY (c) UNIT (d) UNIT PRICE (e) AMOUNT...
-- m, 4696 NM-51, Truth or Consequences, NM 87901, approximately six miles east of Interstate-25. 1.1 Scope The Contractor shall provide four [4] loop powered guided wave radar (GWR) level chambers, transmitters, and probe assemblies shipped to EBFD. The devices shall be: • Eclipse ® GWR o Chamber (Pa...
-- 4] loop powered guided wave radar (GWR) level chambers, transmitters, and probe assemblies shipped to EBFD. The devices shall be: • Eclipse ® GWR o Chamber (Part number: X5EB-BL1A-NCBM-NN31-ANNN2NN-014)  Where X = 13.5 inches center to center o Transmitters (Part number: 706-512A-310) o Probe (Par...
-- ber: 706-512A-310) o Probe (Part number: 7AT-4400-R10-20-025) or equivalent, as specified in this document. The devices shall be complete with chamber, transmitter, enclosure, probe, and all accessories necessary for fully functional installation. The instruments shall be suitable for continuous le...
-- hamber, transmitter, enclosure, probe, and all accessories necessary for fully functional installation. The instruments shall be suitable for continuous level measurement in liquid service and shall meet the requirements in this specification. The instruments shall be shipped to EBFD Powerplant and...
+- nuity procedures including rollback testing. Supports hybrid connectivity between on-premises and cloud environments as required. Mentors mid-level and associate data engineers and provides technical problem-solving support. Microsoft Certified: Fabric Analytics Engineer; experience with Azure Data...
+- All sections and questions must be addressed on each of the IT compliance forms with a supporting narrative statement. If a question/sections is not applicable to the service/product Vendors offer, it must be ma
+- ith a supporting narrative statement. If a question/sections is not applicable to the service/product Vendors offer, it must be marked “Not Applicable.” 1 Addendum to License Agreement or Terms of Use The offeror, , hereby submits this Addendum as an attachment to the License Agreement submitted wi...
+- cy Act, 31 U.S.C. § 1341(a)(1)(B). Instead, recourse against the United States for any alleged breach of this agreement must be as a dispute under the contract disputes clause (Contract Disputes Act). While a dispute is pending, the Contractor shall proceed diligently with performance of this contr...
+- be as a dispute under the contract disputes clause (Contract Disputes Act). While a dispute is pending, the Contractor shall proceed diligently with performance of this contract, pending final resolution of any request for relief, claim, appeal, or action arising under the contract, and comply with...
 
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2631d60d4ee4441498a474990d5afcfa/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2795a5f4a3f94f349c46fff7ea924a99/download) — extracted · **new amendment**
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4024dabc22234a0e9751ec4cb946abaa/download) — extracted · **new amendment**
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e7164edc3eab4e9fb8beb4030ba58a27) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/580cc4c02ed04729858dd795956faa91/download) — not_fetched
 
 ### Changes since the previous tracker snapshot
 
-**HIGH · 1 change(s) · decision revalidation required**
+**HIGH · 34 change(s) · decision revalidation required**
 
-_No tracker baseline was available; compare the official amendment against the controlling solicitation manually._
+_Version history is tracker-observed and may not include revisions published before monitoring began._
 
 | Impact | Change | Before | After | Evidence |
 |---|---|---|---|---|
-| HIGH | New amendment observed; no tracker baseline is available for an automatic comparison. | — | Offers must acknowledge receipt of this amendment prior to the hour and date specified in the solicitation or as amende... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2795a5f4a3f94f349c46fff7ea924a99/download) |
+| HIGH | New submission evidence was observed. | — | endors offer, it must be marked “Not Applicable.” 1 Addendum to License Agreement or Terms of Use The offeror, , hereby... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) |
+| HIGH | New submission evidence was observed. | — | esents mitigation options to the COR. Prepares monthly status reports, briefing materials, and decision papers that are... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download) |
+| HIGH | New submission evidence was observed. | — | evaluation and adoption criteria, model performance monitoring and evaluation protocols, and AI incident detection and... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download) |
+| HIGH | New submission evidence was observed. | — | r Terms of Use The offeror, , hereby submits this Addendum as an attachment to the License Agreement submitted with its... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) |
+| HIGH | New submission evidence was observed. | — | me (“License Agreement”). If and when the Government enters into a binding contract with the offeror as a result of its... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) |
+| HIGH | New submission evidence was observed. | — | se The offeror, , hereby submits this Addendum as an attachment to the License Agreement submitted with its proposal in... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) |
+| HIGH | New submission evidence was observed. | — | License Agreement or Terms of Use The offeror, , hereby submits this Addendum as an attachment to the License Agreement... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) |
+| HIGH | New requirement evidence was observed. | — | nuity procedures including rollback testing. Supports hybrid connectivity between on-premises and cloud environments as... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download) |
+| HIGH | New requirement evidence was observed. | — | atalog guidance documents and document operations infrastructure maintenance procedures. 3.0 Constraints The Contractor... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) |
+| HIGH | New requirement evidence was observed. | — | ith a supporting narrative statement. If a question/sections is not applicable to the service/product Vendors offer, it... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) |
+| HIGH | New requirement evidence was observed. | — | tart. The supporting tasks identified within this Task Order are representative of the work anticipated. The Contractor... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) |
+| HIGH | New requirement evidence was observed. | — | rder. The supporting tasks identified within this Task Order are representative of the work anticipated. The Contractor... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) |
+
+## [16--GEARBOX ASSEMBLY,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/fa93b1fd49be425da350a6f5de18fbab/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-09-22T00:00:00-04:00**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fa93b1fd49be425da350a6f5de18fbab) — not_fetched
 
 ## [Vat Valve & Assorted Sensor Cables, No Equivalents Or Substitutions](https://sam.gov/workspace/contract/opp/749c4f801ad143a4a273b0626ad3a298/view)
 
@@ -47,26 +64,23 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-28T17:00:00-04:00**
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ebbd5f39ea4c4b2abcbf1ae2cc06c50a/download) — not_fetched
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=749c4f801ad143a4a273b0626ad3a298) — not_fetched
 
-## [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view)
+## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/b1e512b55280430da7502b135f789487/view)
 
-Evidence completeness: **0 / 100** · Deadline: **2026-08-18T11:00:00-04:00**
+Evidence completeness: **0 / 100** · Deadline: **2026-08-13**
 
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/580cc4c02ed04729858dd795956faa91/download) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b1e512b55280430da7502b135f789487) — not_fetched
 
-## [16--GEARBOX ASSEMBLY,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/9b901f25ca1444808364429de27464bf/view)
+## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/97e315337fb94f088feec798801ff1a5/view)
 
-Evidence completeness: **0 / 100** · Deadline: **2026-09-21T00:00:00-04:00**
+Evidence completeness: **0 / 100** · Deadline: **2026-08-13**
 
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9b901f25ca1444808364429de27464bf) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=97e315337fb94f088feec798801ff1a5) — not_fetched
 
-## [16--2-CH PRE-AMP LRM,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/917255d883034d4995579d49a3453192/view)
+## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/96feef11cce042849f9cbd97dbc13bc9/view)
 
-Evidence completeness: **0 / 100** · Deadline: **2026-09-22T00:00:00-04:00**
+Evidence completeness: **0 / 100** · Deadline: **2026-08-13**
 
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=917255d883034d4995579d49a3453192) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=96feef11cce042849f9cbd97dbc13bc9) — not_fetched
 
 ## [15--ARMOR ASSY PANEL AI](https://sam.gov/workspace/contract/opp/ca7480f31a1f49dfbdd9058153f71757/view)
 
@@ -88,24 +102,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-17**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e517e60215054acd9a4504fdfd7145a2) — not_fetched
 
-## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/b1e512b55280430da7502b135f789487/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-13**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b1e512b55280430da7502b135f789487) — not_fetched
-
-## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/97e315337fb94f088feec798801ff1a5/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-13**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=97e315337fb94f088feec798801ff1a5) — not_fetched
-
-## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/96feef11cce042849f9cbd97dbc13bc9/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-13**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=96feef11cce042849f9cbd97dbc13bc9) — not_fetched
-
 ## [ATEC HQ 001, Autonomous Swarm Dynamics & Counter-Drone (C-UAS) Technologies](https://sam.gov/workspace/contract/opp/b1140aa605ee4f2bb775dfbfe42589f6/view)
 
 Evidence completeness: **0 / 100** · Deadline: **2026-08-19T15:00:00-04:00**
@@ -113,11 +109,17 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-19T15:00:00-04:00**
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/199c55aa9f1448a5a21392b51136b96a/download) — not_fetched
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b1140aa605ee4f2bb775dfbfe42589f6) — not_fetched
 
-## [28--BLADE,COMPRESSOR,AI](https://sam.gov/workspace/contract/opp/e31d1bf11a9c421c8ca2180c38e4bef8/view)
+## [16--GEARBOX ASSEMBLY,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/9b901f25ca1444808364429de27464bf/view)
 
 Evidence completeness: **0 / 100** · Deadline: **2026-09-21T00:00:00-04:00**
 
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e31d1bf11a9c421c8ca2180c38e4bef8) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9b901f25ca1444808364429de27464bf) — not_fetched
+
+## [16--2-CH PRE-AMP LRM,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/917255d883034d4995579d49a3453192/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-09-22T00:00:00-04:00**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=917255d883034d4995579d49a3453192) — not_fetched
 
 ## [Power Sensor Check Standard](https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view)
 
@@ -134,6 +136,22 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7f507de2693c425ba6bf200289f6991e/download) — not_fetched
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c420383a6e6246aa909bfa686165dadd/download) — not_fetched
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a916c0fefe6645099291c9d44fdfe3de) — not_fetched
+
+## [66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING](https://sam.gov/workspace/contract/opp/e7164edc3eab4e9fb8beb4030ba58a27/view)
+
+Evidence completeness: **100 / 100** · Deadline: **2026-08-11T17:00:00-04:00**
+
+Requirements evidence:
+- unless otherwise indicated by quoter. Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter. 11. SCHEDULE (Include applicable Federal, State and local taxes) ITEM NUMBER (a) SUPPLIES/SERVICES (b) QUANTITY (c) UNIT (d) UNIT PRICE (e) AMOUNT...
+- m, 4696 NM-51, Truth or Consequences, NM 87901, approximately six miles east of Interstate-25. 1.1 Scope The Contractor shall provide four [4] loop powered guided wave radar (GWR) level chambers, transmitters, and probe assemblies shipped to EBFD. The devices shall be: • Eclipse ® GWR o Chamber (Pa...
+- 4] loop powered guided wave radar (GWR) level chambers, transmitters, and probe assemblies shipped to EBFD. The devices shall be: • Eclipse ® GWR o Chamber (Part number: X5EB-BL1A-NCBM-NN31-ANNN2NN-014)  Where X = 13.5 inches center to center o Transmitters (Part number: 706-512A-310) o Probe (Par...
+- ber: 706-512A-310) o Probe (Part number: 7AT-4400-R10-20-025) or equivalent, as specified in this document. The devices shall be complete with chamber, transmitter, enclosure, probe, and all accessories necessary for fully functional installation. The instruments shall be suitable for continuous le...
+- hamber, transmitter, enclosure, probe, and all accessories necessary for fully functional installation. The instruments shall be suitable for continuous level measurement in liquid service and shall meet the requirements in this specification. The instruments shall be shipped to EBFD Powerplant and...
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2631d60d4ee4441498a474990d5afcfa/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2795a5f4a3f94f349c46fff7ea924a99/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4024dabc22234a0e9751ec4cb946abaa/download) — extracted
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e7164edc3eab4e9fb8beb4030ba58a27) — not_fetched
 
 ## [66--SENSOR,OXYGEN](https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view)
 

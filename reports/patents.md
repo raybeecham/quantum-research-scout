@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-08-08T01:05:02.993371+00:00_
+_Updated 2026-08-09T01:09:22.763250+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -13,11 +13,11 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Tracked publications: **205**
 - Curated notable patents: **2**
 - Automated recent discoveries: **203**
-- Published in the last 30 days: **51**
+- Published in the last 30 days: **45**
 - Unique named assignees: **134**
 - Patent families: **195**
 - Applications / grants: **197 / 8**
-- Known legal status: **155 of 205**
+- Known legal status: **154 of 205**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -245,7 +245,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [Monolithic Microelectromechanical Systems Based Spatial Light Modulators Including Ribbon-Type Modulators](https://data.uspto.gov/patent-file-wrapper/search/details/19098563/application-data)<br><small>US20250326629A1</small> | Application · Pending | SILICON LIGHT MACHINES CORPORATION | 2 member(s) · 0 citation(s) | **44 · NOTABLE** |
 | [Monolithic Microelectromechanical Systems Based Spatial Light Modulators with Two-dimensional Modulators](https://data.uspto.gov/patent-file-wrapper/search/details/19098508/application-data)<br><small>US20250304432A1</small> | Application · Pending | SILICON LIGHT MACHINES CORPORATION | 2 member(s) · 0 citation(s) | **44 · NOTABLE** |
 | [MULTI-CELL PISTON MOTION MEMBRANE MICROELECTROMECHANICAL SYSTEMS (MEMS) APPARATUS AND PROCESS](https://data.uspto.gov/patent-file-wrapper/search/details/18913854/application-data)<br><small>US20260103377A1</small> | Application · Pending | INVENSENSE, INC. | 1 member(s) · 0 citation(s) | **41 · NOTABLE** |
-| [RECONFIGURABLE ACOUSTIC SURFACE USING MICROELECTROMECHANICAL SYSTEMS (MEMS) ACTUATORS FOR CHANGING CAVITY RESONANCE](https://data.uspto.gov/patent-file-wrapper/search/details/18808961/application-data)<br><small>US20260051307A1</small> | Application · Pending | Dell Products L.P. | 1 member(s) · 0 citation(s) | **41 · NOTABLE** |
 | [MICROELECTROMECHANICAL SYSTEMS POWER RELAY](https://data.uspto.gov/patent-file-wrapper/search/details/19337909/application-data)<br><small>US20260018355A1</small> | Application · Pending | Atomic Machines, Inc. | 1 member(s) · 0 citation(s) | **41 · NOTABLE** |
 | [SELF-REFERENCING MICROELECTROMECHANICAL SYSTEMS (MEMS) RESONATOR WITH DUAL MECHANICAL MODES FOR TEMPERATURE-INDEPENDENT ENVIRONMENTAL SENSING](https://data.uspto.gov/patent-file-wrapper/search/details/19198745/application-data)<br><small>US20250317117A1</small> | Application · Pending | Government of the United States as represented by the Secretary of the Air Force | 1 member(s) · 0 citation(s) | **41 · NOTABLE** |
 | [AGENTLESS END-TO-END AGENT MONITORING IN MULTI-CLOUD NETWORK(S)](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010404/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CISCO TECHNOLOGY, INC. | 1 member(s) · 0 citation(s) | **40 · NOTABLE** |
@@ -258,6 +257,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [Microelectromechanical Systems (MEMS) Transducers for High Sound Pressure Level (SPL) Measurements](https://data.uspto.gov/patent-file-wrapper/search/details/63719968/application-data)<br><small>Publication number unavailable</small> | Application · Expired | Shure Acquisition Holdings, Inc. | 3 member(s) · 0 citation(s) | **34 · MONITOR** |
 | [MICROELECTROMECHANICAL SYSTEMS (MEMS) TRANSDUCERS FOR HIGH SOUND PRESSURE LEVEL (SPL) MEASUREMENTS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025055137/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | SHURE ACQUISITION HOLDINGS, INC. | 3 member(s) · 0 citation(s) | **34 · MONITOR** |
 | [NON-CONTACT MICROELECTROMECHANICAL SYSTEMS](https://data.uspto.gov/patent-file-wrapper/search/details/18817013/application-data)<br><small>US20260062280A1</small> | Application · Unknown | TEXAS INSTRUMENTS INCORPORATED | 1 member(s) · 0 citation(s) | **33 · MONITOR** |
+| [RECONFIGURABLE ACOUSTIC SURFACE USING MICROELECTROMECHANICAL SYSTEMS (MEMS) ACTUATORS FOR CHANGING CAVITY RESONANCE](https://data.uspto.gov/patent-file-wrapper/search/details/18808961/application-data)<br><small>US20260051307A1</small> | Application · Unknown | Dell Products L.P. | 1 member(s) · 0 citation(s) | **33 · MONITOR** |
 | [MULTI-FUNCTION BIMORPH MICROELECTROMECHANICAL SYSTEMS INTEGRATION (MEMS) FOR ANALOG TUNABILITY IN METASURFACES](https://data.uspto.gov/patent-file-wrapper/search/details/18809012/application-data)<br><small>US20260051308A1</small> | Application · Unknown | Dell Products L.P. | 1 member(s) · 0 citation(s) | **33 · MONITOR** |
 | [DUAL RING MICROELECTROMECHANICAL SYSTEMS INTEGRATION FOR ANALOG TUNABILITY IN RECONFIGURABLE INTELLIGENT SURFACES](https://data.uspto.gov/patent-file-wrapper/search/details/18808987/application-data)<br><small>US20260051872A1</small> | Application · Unknown | Dell Products L.P. | 1 member(s) · 0 citation(s) | **33 · MONITOR** |
 | [DISTRIBUTED SENSOR NETWORK IMPLEMENTED BY SWARM OF UNMANNED AUTONOMOUS VEHICLES](https://data.uspto.gov/patent-file-wrapper/search/details/19063566/application-data)<br><small>US20250273060A1</small> | Application · Unknown | Alpine Eagle GmbH | 1 member(s) · 0 citation(s) | **33 · MONITOR** |

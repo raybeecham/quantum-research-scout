@@ -1,14 +1,14 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 30.2,
+      "acceptance_rate": 29.9,
       "accepted": 26,
-      "quarantined": 60,
+      "quarantined": 61,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 93.9,
-      "accepted": 369,
+      "acceptance_rate": 94.0,
+      "accepted": 378,
       "quarantined": 24,
       "scope": "Federal funding"
     }
@@ -650,6 +650,29 @@
       "stage": "mission evidence admission",
       "title": "PRIMED-AI: Data-to-Model Academic-Industrial Partnerships (D2M-AIP) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (UG3/UH3 Clinical Trial Optional)",
       "url": "https://www.grants.gov/search-results-detail/359270"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-30",
+      "key": "https://www.grants.gov/search-results-detail/359666",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "mission evidence admission",
+      "title": "Model-to-Clinic (M2C) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (UG3/UH3, Clinical Trial Optional)",
+      "url": "https://www.grants.gov/search-results-detail/359666"
     },
     {
       "admission": {
@@ -1927,17 +1950,17 @@
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 84,
+      "count": 85,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 84,
+      "count": 85,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 82,
+      "count": 83,
       "label": "Official government source"
     },
     {
@@ -1948,14 +1971,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 82.5,
-    "accepted": 395,
-    "decisions": 479,
+    "acceptance_rate": 82.6,
+    "accepted": 404,
+    "decisions": 489,
     "funding_quarantine": 24,
-    "mission_quarantine": 60,
-    "quarantined": 84,
+    "mission_quarantine": 61,
+    "quarantined": 85,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-08T01:05:02.993371+00:00",
+  "updated_at": "2026-08-09T01:09:22.763250+00:00",
   "version": 1
 }

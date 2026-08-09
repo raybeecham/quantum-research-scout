@@ -119,13 +119,22 @@
           "source": "NCSC UK News",
           "title": "NCSC statement in response to recent incidents resulting from frontier AI evaluations",
           "url": "https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations"
+        },
+        {
+          "date": "2026-08-08",
+          "key": "https://quantumzeitgeist.com/llms-physics-based-verification-flags-pubchem",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 21,
+          "source": "Quantum Zeitgeist",
+          "title": "PubChem physics-based verification flags errors in 80% of cases",
+          "url": "https://quantumzeitgeist.com/llms-physics-based-verification-flags-pubchem"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-08-04",
-      "momentum": "declining",
+      "latest_seen": "2026-08-08",
+      "momentum": "rising",
       "organizations": [
         "arXiv RSS cs.CR",
         "Quantum Zeitgeist",
@@ -133,9 +142,9 @@
         "The Quantum Insider",
         "Cloudflare Blog"
       ],
-      "prior_count": 3,
-      "recent_count": 2,
-      "status": "watching"
+      "prior_count": 0,
+      "recent_count": 3,
+      "status": "actionable"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -1500,12 +1509,30 @@
           "source": "The Quantum Insider",
           "title": "D-Wave Publishes Research on Dual-Rail Qubit Gate for Quantum Error Correction",
           "url": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing"
+        },
+        {
+          "date": "2026-08-08",
+          "key": "https://quantumcomputingreport.com/ucla-led-consortium-secures-4-million-nsf-grant-for-60-logical-qubit-trapped-ion-architecture",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 120,
+          "source": "QuantumNews.ai",
+          "title": "UCLA-Led Consortium Secures $4 Million NSF Grant for 60 Logical Qubit Trapped-Ion Architecture",
+          "url": "https://quantumcomputingreport.com/ucla-led-consortium-secures-4-million-nsf-grant-for-60-logical-qubit-trapped-ion-architecture"
+        },
+        {
+          "date": "2026-08-08",
+          "key": "https://quantumzeitgeist.com/viterbi-quantum-ldpc-codes-clinr-unlock",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 149,
+          "source": "Quantum Zeitgeist",
+          "title": "IonQ Quantum LDPC Codes Unlock 3\u00d7 Faster Joint Logical Measurements",
+          "url": "https://quantumzeitgeist.com/viterbi-quantum-ldpc-codes-clinr-unlock"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-08-05",
+      "latest_seen": "2026-08-08",
       "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
@@ -1513,8 +1540,8 @@
         "The Quantum Insider",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 7,
-      "recent_count": 2,
+      "prior_count": 5,
+      "recent_count": 3,
       "status": "watching"
     },
     "Quantum Hardware": {
@@ -3085,12 +3112,48 @@
           "source": "The Quantum Insider",
           "title": "QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow with IBM Quantum Hardware",
           "url": "https://thequantuminsider.com/2026/08/07/qc-ware-hybrid-quantum-classical-chemistry-workflow-ibm-quantum"
+        },
+        {
+          "date": "2026-08-08",
+          "key": "https://quantumzeitgeist.com/reconfigurable-photonic-chip-imperial-engineers",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 32,
+          "source": "Quantum Zeitgeist",
+          "title": "Imperial engineers build a reconfigurable photonic quantum chip",
+          "url": "https://quantumzeitgeist.com/reconfigurable-photonic-chip-imperial-engineers"
+        },
+        {
+          "date": "2026-08-08",
+          "key": "https://thequantuminsider.com/2026/08/08/matt-kinsella-infleqtion-why-neutral-atoms-power-sensors-clocks-and-computers-alike",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 39,
+          "source": "The Quantum Insider",
+          "title": "Matt Kinsella (Infleqtion): Why Neutral Atoms Power Sensors, Clocks, and Computers Alike",
+          "url": "https://thequantuminsider.com/2026/08/08/matt-kinsella-infleqtion-why-neutral-atoms-power-sensors-clocks-and-computers-alike"
+        },
+        {
+          "date": "2026-08-08",
+          "key": "https://quantumzeitgeist.com/qc-ware-hybrid-quantum-classical-method",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 50,
+          "source": "Quantum Zeitgeist",
+          "title": "QC Ware calculates enzyme energy with hybrid quantum-classical method",
+          "url": "https://quantumzeitgeist.com/qc-ware-hybrid-quantum-classical-method"
+        },
+        {
+          "date": "2026-08-08",
+          "key": "https://quantumcomputingreport.com/rigetti-computing-reports-q2-2026-financial-results-revenue-up-185-yoy-100m-chips-act-loi-and-hpe-supercomputing-partnership",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "title": "Rigetti Computing Reports Q2 2026 Financial Results: Revenue Up 185% YoY, $100M CHIPS Act LOI, and HPE Supercomputing Partnership",
+          "url": "https://quantumcomputingreport.com/rigetti-computing-reports-q2-2026-financial-results-revenue-up-185-yoy-100m-chips-act-loi-and-hpe-supercomputing-partnership"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-08-07",
+      "latest_seen": "2026-08-08",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -3098,8 +3161,8 @@
         "The Quantum Insider",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 25,
-      "recent_count": 24,
+      "prior_count": 27,
+      "recent_count": 25,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -4581,12 +4644,21 @@
           "source": "QuantumNews.ai",
           "title": "ZeroTier and Carahsoft Partner to Bring Post-Quantum Software-Defined Networking to the Public Sector",
           "url": "https://quantumcomputingreport.com/zerotier-and-carahsoft-partner-to-bring-post-quantum-software-defined-networking-to-the-public-sector"
+        },
+        {
+          "date": "2026-08-08",
+          "key": "https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 35,
+          "source": "QuantumNews.ai",
+          "title": "QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow Using Promethium and IBM Quantum",
+          "url": "https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-08-07",
+      "latest_seen": "2026-08-08",
       "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
@@ -4595,7 +4667,7 @@
         "AWS Quantum Technologies Blog",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 8,
+      "prior_count": 9,
       "recent_count": 5,
       "status": "watching"
     },
@@ -4745,6 +4817,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-08-08T01:10:44.062518+00:00",
+  "updated_at": "2026-08-09T01:15:38.150918+00:00",
   "version": 1
 }
