@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-09T04:14:37.974024+00:00_
+_Updated 2026-08-10T01:11:12.453336+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **17** (**22.7%** coverage)
-- Newly resolved this run: **0**
-- Pending bounded enrichment: **151**
+- SAM.gov-resolved entities: **20** (**26.7%** coverage)
+- Newly resolved this run: **3**
+- Pending bounded enrichment: **152**
 - Ambiguous / no match: **0 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -29,6 +29,9 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF ILLINOIS | [UNIVERSITY OF ILLINOIS](https://sam.gov/entity/Y8CWNJRCNN91/coreData) | Y8CWNJRCNN91 | 4B808 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | FOUR POINTS TECHNOLOGY, L.L.C. | [FOUR POINTS TECHNOLOGY, L.L.C.](https://sam.gov/entity/H1KHJPJH9R51/coreData) | H1KHJPJH9R51 | 1YS78 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | ARETE CONSULTING LLC | [ARETE CONSULTING LLC](https://sam.gov/entity/C2PNBME1GYB5/coreData) | C2PNBME1GYB5 | 7LRX4 | Active | SBA Certified 8(a) Program Participant |
+| UNIVERSITY OF WISCONSIN SYSTEM | [UNIVERSITY OF WISCONSIN SYSTEM](https://sam.gov/entity/LCLSJAGTNZQ7/coreData) | LCLSJAGTNZQ7 | 09FZ2 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
+| UNIVERSITY OF WASHINGTON | [UNIVERSITY OF WASHINGTON](https://sam.gov/entity/HD1WMN6945W6/coreData) | HD1WMN6945W6 | 1HEX5 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. Local Government |
+| OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | [OLD DOMINION UNIVERSITY RESEARCH FOUNDATION](https://sam.gov/entity/DSLXBD7UWRV6/coreData) | DSLXBD7UWRV6 | 5D075 | Active | Business or Organization, Foundation, Non-Profit Organization |
 | KPMG LLP | [KPMG LLP](https://sam.gov/entity/MAA3SBSDQVM1/coreData) | MAA3SBSDQVM1 | 7QEG9 | Active | Business or Organization, For Profit Organization |
 | BOOZ ALLEN HAMILTON INC | [BOOZ ALLEN HAMILTON INC](https://sam.gov/entity/JCBMLGPE6Z71/coreData) | JCBMLGPE6Z71 | 17038 | Active | Business or Organization, For Profit Organization |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
@@ -67,6 +70,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | OREGON STATE UNIVERSITY | OREGON STATE UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
 | NEW YORK UNIVERSITY | NEW YORK UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
 | NEW YORK UNIVERSITY | NEW YORK UNIVERSITY | — | — | pending | api key missing |
+| NATIONWIDE IT SERVICES INC | NATIONWIDE IT SERVICES INC | — | — | pending | Queued for a future bounded enrichment batch |
 | THE ARDIAN GROUP, INC | THE ARDIAN GROUP, INC | — | — | pending | Queued for a future bounded enrichment batch |
 | SHOREPOINT LLC | SHOREPOINT LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | SHOREPOINT LLC | SHOREPOINT LLC | — | — | pending | api key missing |
@@ -85,10 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | RAVENTEK SOLUTION PARTNERS, LLC | RAVENTEK SOLUTION PARTNERS, LLC | — | — | pending | api key missing |
 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | — | — | pending | api key missing |
 | IZUM INC | IZUM INC | — | — | pending | Queued for a future bounded enrichment batch |
-| CLEARAVENUE LLC | CLEARAVENUE LLC | — | — | pending | Queued for a future bounded enrichment batch |
-| CLEARAVENUE LLC | CLEARAVENUE LLC | — | — | pending | api key missing |
-| UNIVERSITY OF ALASKA FAIRBANKS | UNIVERSITY OF ALASKA FAIRBANKS | — | — | pending | Queued for a future bounded enrichment batch |
-| UNIVERSITY OF ALASKA FAIRBANKS | UNIVERSITY OF ALASKA FAIRBANKS | — | — | pending | api key missing |
 
 ## Method
 

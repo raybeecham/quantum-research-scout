@@ -2,16 +2,56 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-09T04:14:37.974024+00:00_
+_Updated 2026-08-10T01:11:12.453336+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
 - Opportunities reviewed: **20**
-- Documents extracted: **10** / **37** discovered
+- Documents extracted: **11** / **42** discovered
 - Changed documents: **0**
-- New amendments: **0**
-- Material amendment impacts this run: **0**
-- Decisions requiring revalidation: **2**
+- New amendments: **1**
+- Material amendment impacts this run: **1**
+- Decisions requiring revalidation: **3**
+
+## [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
+
+Evidence completeness: **72 / 100** · Deadline: **2026-09-09T09:00:00-04:00**
+
+Requirements evidence:
+- ure 4: Past Performance Information Form ............................................................. 12 Enclosure 5 – Mandatory Price Proposal Excel Spreadsheet ................................................ 13 M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) ..................
+- ssification This Request for Proposal (RFP) is a NATO UNCLASSIFIED document. 3. Definitions a. The “Prospective Bidder” shall refer to the entity that has indicated its intention without commitment, to participate in this RFP. b. The term “Bidder” shall refer to the bidding entity that has complete...
+- fer to the entity that has indicated its intention without commitment, to participate in this RFP. b. The term “Bidder” shall refer to the bidding entity that has completed a bid in response to this RFP. c. The term “Contractor” shall refer to the bidding entity to which the contract(s) is awarded....
+- m “Bidder” shall refer to the bidding entity that has completed a bid in response to this RFP. c. The term “Contractor” shall refer to the bidding entity to which the contract(s) is awarded. d. The term “Contracting Officer” designates the official who executes this RFP on behalf of HQ SACT. e. “Co...
+- he purpose of determining compliance of the successful bid(s) , per the technical specifications. f. The term “HQ SACT” shall refer to Headquarters Supreme Allied Commander Transformation. g. The term “ACT” shall refer to Allied Command Transformation. h. The term “NATO” shall refer to the North At...
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1f682ffec5104ddc882a88b9e1b11121/download) — no_text
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download) — extracted · **new amendment**
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=abf380cc0c634612a69ce193a212fbd4) — no_text
+
+### Changes since the previous tracker snapshot
+
+**HIGH · 1 change(s) · decision revalidation required**
+
+_No tracker baseline was available; compare the official amendment against the controlling solicitation manually._
+
+| Impact | Change | Before | After | Evidence |
+|---|---|---|---|---|
+| HIGH | New amendment observed; no tracker baseline is available for an automatic comparison. | — | ure 4: Past Performance Information Form ............................................................. 12 Enclosure 5 –... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download) |
+
+## [USAFA: Quantum Demonstration/Experiment System](https://sam.gov/workspace/contract/opp/340e073342bd42d9a6e7b8900fbe771c/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-14T14:00:00-06:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03a7ed20a87f485aad973b332ef651df/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5db8c7478eb142779e11f5f14bb6754f/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9da0cb93a8ab4d3fb218df323daf13ca/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9e72f42c1f43474ead40df4c2c9388bf/download) — not_fetched
+
+## [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-17**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=09fe7a517f284b6b893fba0df8b92de6) — not_fetched
 
 ## [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view)
 
@@ -28,14 +68,6 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/580cc4c02ed04729858dd795956faa91/download) — not_fetched
-
-## [Vat Valve & Assorted Sensor Cables, No Equivalents Or Substitutions](https://sam.gov/workspace/contract/opp/749c4f801ad143a4a273b0626ad3a298/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-28T17:00:00-04:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/de05f7f38408437781d078face6618c7/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ebbd5f39ea4c4b2abcbf1ae2cc06c50a/download) — not_fetched
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=749c4f801ad143a4a273b0626ad3a298) — not_fetched
 
 ## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/b1e512b55280430da7502b135f789487/view)
 
@@ -61,6 +93,12 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-14**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ca7480f31a1f49dfbdd9058153f71757) — not_fetched
 
+## [29--SENSOR,AIR CHARGED](https://sam.gov/workspace/contract/opp/e517e60215054acd9a4504fdfd7145a2/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-17**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e517e60215054acd9a4504fdfd7145a2) — not_fetched
+
 ## [NSN: 6665-01-415-4957 Sensor Assembly](https://sam.gov/workspace/contract/opp/96502443e7d34631856ecc6d718180b6/view)
 
 Evidence completeness: **0 / 100** · Deadline: **2026-08-15T15:00:00-04:00**
@@ -69,12 +107,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-15T15:00:00-04:00**
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/db0ed04dc45e4eba8414c28afb13004a/download) — not_fetched
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=96502443e7d34631856ecc6d718180b6) — not_fetched
 
-## [29--SENSOR,AIR CHARGED](https://sam.gov/workspace/contract/opp/e517e60215054acd9a4504fdfd7145a2/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-17**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e517e60215054acd9a4504fdfd7145a2) — not_fetched
-
 ## [ATEC HQ 001, Autonomous Swarm Dynamics & Counter-Drone (C-UAS) Technologies](https://sam.gov/workspace/contract/opp/b1140aa605ee4f2bb775dfbfe42589f6/view)
 
 Evidence completeness: **0 / 100** · Deadline: **2026-08-19T15:00:00-04:00**
@@ -82,23 +114,19 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-19T15:00:00-04:00**
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/199c55aa9f1448a5a21392b51136b96a/download) — not_fetched
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b1140aa605ee4f2bb775dfbfe42589f6) — not_fetched
 
-## [16--GEARBOX ASSEMBLY,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/9b901f25ca1444808364429de27464bf/view)
+## [Vat Valve & Assorted Sensor Cables, No Equivalents Or Substitutions](https://sam.gov/workspace/contract/opp/749c4f801ad143a4a273b0626ad3a298/view)
 
-Evidence completeness: **0 / 100** · Deadline: **2026-09-21T00:00:00-04:00**
+Evidence completeness: **0 / 100** · Deadline: **2026-08-28T17:00:00-04:00**
 
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9b901f25ca1444808364429de27464bf) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/de05f7f38408437781d078face6618c7/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ebbd5f39ea4c4b2abcbf1ae2cc06c50a/download) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=749c4f801ad143a4a273b0626ad3a298) — not_fetched
 
 ## [16--GEARBOX ASSEMBLY,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/fa93b1fd49be425da350a6f5de18fbab/view)
 
 Evidence completeness: **0 / 100** · Deadline: **2026-09-22T00:00:00-04:00**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fa93b1fd49be425da350a6f5de18fbab) — not_fetched
-
-## [16--2-CH PRE-AMP LRM,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/917255d883034d4995579d49a3453192/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-09-22T00:00:00-04:00**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=917255d883034d4995579d49a3453192) — not_fetched
 
 ## [Power Sensor Check Standard](https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view)
 
@@ -143,12 +171,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-19**
 Evidence completeness: **0 / 100** · Deadline: **2026-08-19**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=af6b37c37bd041a89ffb22d0f28ff722) — no_text
-
-## [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-09-18T00:00:00-04:00**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=cbbf6b02d35b40ed8dc0086ae38b825e) — no_text
 
 ## [6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment](https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view)
 

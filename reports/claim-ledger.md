@@ -2,18 +2,50 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-08-09T04:14:37.974024+00:00_
+_Updated 2026-08-10T01:11:12.453336+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **1876**
-- Authoritative claims: **1783**
-- Analytical claims: **90**
+- Active claims: **1938**
+- Authoritative claims: **1842**
+- Analytical claims: **93**
 - Conflicted claims: **0**
-- Evidence items / URLs: **1906 / 596**
+- Evidence items / URLs: **1974 / 612**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
+| active | IIDD NWDC CTR FFP NIS IDIQ G022A0008 | opportunity status | awarded | authoritative / high | [IIDD NWDC CTR FFP NIS IDIQ G022A0008](https://www.usaspending.gov/award/CONT_AWD_140G0226F0176_1434_140G0222A0008_1434) |
+| active | IIDD NWDC CTR FFP NIS IDIQ G022A0008 | awarding agency | Department of the Interior | authoritative / high | [IIDD NWDC CTR FFP NIS IDIQ G022A0008](https://www.usaspending.gov/award/CONT_AWD_140G0226F0176_1434_140G0222A0008_1434) |
+| active | IIDD NWDC CTR FFP NIS IDIQ G022A0008 | reported amount | 355037.04 | authoritative / high | [IIDD NWDC CTR FFP NIS IDIQ G022A0008](https://www.usaspending.gov/award/CONT_AWD_140G0226F0176_1434_140G0222A0008_1434) |
+| active | IIDD NWDC CTR FFP NIS IDIQ G022A0008 | reported recipient | NATIONWIDE IT SERVICES INC | authoritative / high | [IIDD NWDC CTR FFP NIS IDIQ G022A0008](https://www.usaspending.gov/award/CONT_AWD_140G0226F0176_1434_140G0222A0008_1434) |
+| active | ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP). | opportunity status | awarded | authoritative / high | [ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP).](https://www.usaspending.gov/award/CONT_AWD_2032H326F00071_2001_2032H323D00004_2001) |
+| active | ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP). | awarding agency | Department of the Treasury | authoritative / high | [ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP).](https://www.usaspending.gov/award/CONT_AWD_2032H326F00071_2001_2032H323D00004_2001) |
+| active | ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP). | reported amount | 119168.0 | authoritative / high | [ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP).](https://www.usaspending.gov/award/CONT_AWD_2032H326F00071_2001_2032H323D00004_2001) |
+| active | ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP). | reported recipient | THE ESCAL INSTITUTE OF ADVANCED TECHNOLOGIES, INC. | authoritative / high | [ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP).](https://www.usaspending.gov/award/CONT_AWD_2032H326F00071_2001_2032H323D00004_2001) |
+| active | NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) | opportunity status | open | authoritative / high | [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view) |
+| active | NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) | deadline | 2026-09-09T09:00:00-04:00 | authoritative / high | [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view) |
+| active | NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) | awarding agency | COMMERCE, DEPARTMENT OF.BUREAU OF INDUSTRY AND SECURITY | authoritative / high | [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view) |
+| active | Muscat - Annual Program Statement (APS)- PD Small Grants Program | opportunity status | closed | authoritative / high | [Muscat - Annual Program Statement (APS)- PD Small Grants Program](https://www.grants.gov/search-results-detail/363078) |
+| active | AI Pathways To The Future | opportunity status | closed | authoritative / high | [AI Pathways To The Future](https://www.grants.gov/search-results-detail/363061) |
+| active | USAFA: Quantum Demonstration/Experiment System | opportunity status | open | authoritative / high | [USAFA: Quantum Demonstration/Experiment System](https://sam.gov/workspace/contract/opp/340e073342bd42d9a6e7b8900fbe771c/view) |
+| active | USAFA: Quantum Demonstration/Experiment System | deadline | 2026-08-14T14:00:00-06:00 | authoritative / high | [USAFA: Quantum Demonstration/Experiment System](https://sam.gov/workspace/contract/opp/340e073342bd42d9a6e7b8900fbe771c/view) |
+| active | USAFA: Quantum Demonstration/Experiment System | set aside | Small Business Set Aside - Total | authoritative / high | [USAFA: Quantum Demonstration/Experiment System](https://sam.gov/workspace/contract/opp/340e073342bd42d9a6e7b8900fbe771c/view) |
+| active | USAFA: Quantum Demonstration/Experiment System | awarding agency | DEPT OF DEFENSE.DEPT OF THE AIR FORCE.U.S. AIR FORCE ACADEMY.FA7000 10 CONS LGC | authoritative / high | [USAFA: Quantum Demonstration/Experiment System](https://sam.gov/workspace/contract/opp/340e073342bd42d9a6e7b8900fbe771c/view) |
+| active | 15--PLATE,STRUCTURAL,AI | opportunity status | open | authoritative / high | [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view) |
+| active | 15--PLATE,STRUCTURAL,AI | deadline | 2026-08-17 | authoritative / high | [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view) |
+| active | 15--PLATE,STRUCTURAL,AI | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION | authoritative / high | [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view) |
+| active | UNIVERSITY OF WISCONSIN SYSTEM | legal business name | UNIVERSITY OF WISCONSIN SYSTEM | authoritative / high | [UNIVERSITY OF WISCONSIN SYSTEM](https://sam.gov/entity/LCLSJAGTNZQ7/coreData) |
+| active | UNIVERSITY OF WISCONSIN SYSTEM | uei | LCLSJAGTNZQ7 | authoritative / high | [UNIVERSITY OF WISCONSIN SYSTEM](https://sam.gov/entity/LCLSJAGTNZQ7/coreData) |
+| active | UNIVERSITY OF WISCONSIN SYSTEM | cage code | 09FZ2 | authoritative / high | [UNIVERSITY OF WISCONSIN SYSTEM](https://sam.gov/entity/LCLSJAGTNZQ7/coreData) |
+| active | UNIVERSITY OF WISCONSIN SYSTEM | registration status | Active | authoritative / high | [UNIVERSITY OF WISCONSIN SYSTEM](https://sam.gov/entity/LCLSJAGTNZQ7/coreData) |
+| active | UNIVERSITY OF WASHINGTON | legal business name | UNIVERSITY OF WASHINGTON | authoritative / high | [UNIVERSITY OF WASHINGTON](https://sam.gov/entity/HD1WMN6945W6/coreData) |
+| active | UNIVERSITY OF WASHINGTON | uei | HD1WMN6945W6 | authoritative / high | [UNIVERSITY OF WASHINGTON](https://sam.gov/entity/HD1WMN6945W6/coreData) |
+| active | UNIVERSITY OF WASHINGTON | cage code | 1HEX5 | authoritative / high | [UNIVERSITY OF WASHINGTON](https://sam.gov/entity/HD1WMN6945W6/coreData) |
+| active | UNIVERSITY OF WASHINGTON | registration status | Active | authoritative / high | [UNIVERSITY OF WASHINGTON](https://sam.gov/entity/HD1WMN6945W6/coreData) |
+| active | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | legal business name | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | authoritative / high | [OLD DOMINION UNIVERSITY RESEARCH FOUNDATION](https://sam.gov/entity/DSLXBD7UWRV6/coreData) |
+| active | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | uei | DSLXBD7UWRV6 | authoritative / high | [OLD DOMINION UNIVERSITY RESEARCH FOUNDATION](https://sam.gov/entity/DSLXBD7UWRV6/coreData) |
+| active | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | cage code | 5D075 | authoritative / high | [OLD DOMINION UNIVERSITY RESEARCH FOUNDATION](https://sam.gov/entity/DSLXBD7UWRV6/coreData) |
+| active | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | registration status | Active | authoritative / high | [OLD DOMINION UNIVERSITY RESEARCH FOUNDATION](https://sam.gov/entity/DSLXBD7UWRV6/coreData) |
 | active | ADVANCED MODEL UNITS TO MAINTAIN ENTERPRISE GENERATIVE ARTIFICIAL INTELLIGENCE CAPABILITIES FROM AUGUST 10, 2026, THROUGH SEPTEMBER 30, 2026. | opportunity status | awarded | authoritative / high | [ADVANCED MODEL UNITS TO MAINTAIN ENTERPRISE GENERATIVE ARTIFICIAL INTELLIGENCE CAPABILITIES FROM AUGUST 10, 2026, THROUGH SEPTEMBER 30, 2026.](https://www.usaspending.gov/award/CONT_AWD_2099AC26F00014_2099_47QSWA18D008F_4732) |
 | active | ADVANCED MODEL UNITS TO MAINTAIN ENTERPRISE GENERATIVE ARTIFICIAL INTELLIGENCE CAPABILITIES FROM AUGUST 10, 2026, THROUGH SEPTEMBER 30, 2026. | reported amount | 4000000.0 | authoritative / high | [ADVANCED MODEL UNITS TO MAINTAIN ENTERPRISE GENERATIVE ARTIFICIAL INTELLIGENCE CAPABILITIES FROM AUGUST 10, 2026, THROUGH SEPTEMBER 30, 2026.](https://www.usaspending.gov/award/CONT_AWD_2099AC26F00014_2099_47QSWA18D008F_4732) |
 | active | ADVANCED MODEL UNITS TO MAINTAIN ENTERPRISE GENERATIVE ARTIFICIAL INTELLIGENCE CAPABILITIES FROM AUGUST 10, 2026, THROUGH SEPTEMBER 30, 2026. | reported recipient | CARAHSOFT TECHNOLOGY CORP | authoritative / high | [ADVANCED MODEL UNITS TO MAINTAIN ENTERPRISE GENERATIVE ARTIFICIAL INTELLIGENCE CAPABILITIES FROM AUGUST 10, 2026, THROUGH SEPTEMBER 30, 2026.](https://www.usaspending.gov/award/CONT_AWD_2099AC26F00014_2099_47QSWA18D008F_4732) |
@@ -232,38 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | Data, Analytics, and AI Modernization Services | deadline | 2026-08-18T11:00:00-04:00 | authoritative / high | [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view) |
 | active | Data, Analytics, and AI Modernization Services | set aside | Small Business Set Aside - Total | authoritative / high | [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view) |
 | active | Data, Analytics, and AI Modernization Services | awarding agency | DEPT OF DEFENSE.DEPT OF DEFENSE EDUCATION ACTIVITY (DODEA).DOD EDUCATION ACTIVITY | authoritative / high | [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view) |
-| active | THE UNIVERSITY OF IOWA | legal business name | THE UNIVERSITY OF IOWA | authoritative / high | [THE UNIVERSITY OF IOWA](https://sam.gov/entity/Z1H9VJS8NG16/coreData) |
-| active | THE UNIVERSITY OF IOWA | uei | Z1H9VJS8NG16 | authoritative / high | [THE UNIVERSITY OF IOWA](https://sam.gov/entity/Z1H9VJS8NG16/coreData) |
-| active | THE UNIVERSITY OF IOWA | cage code | 2D354 | authoritative / high | [THE UNIVERSITY OF IOWA](https://sam.gov/entity/Z1H9VJS8NG16/coreData) |
-| active | THE UNIVERSITY OF IOWA | registration status | Active | authoritative / high | [THE UNIVERSITY OF IOWA](https://sam.gov/entity/Z1H9VJS8NG16/coreData) |
-| active | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | legal business name | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | authoritative / high | [VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY](https://sam.gov/entity/QDE5UHE5XD16/coreData) |
-| active | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | uei | QDE5UHE5XD16 | authoritative / high | [VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY](https://sam.gov/entity/QDE5UHE5XD16/coreData) |
-| active | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | cage code | 4B976 | authoritative / high | [VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY](https://sam.gov/entity/QDE5UHE5XD16/coreData) |
-| active | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | registration status | Active | authoritative / high | [VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY](https://sam.gov/entity/QDE5UHE5XD16/coreData) |
-| active | MORGAN STATE UNIVERSITY | legal business name | MORGAN STATE UNIVERSITY | authoritative / high | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) |
-| active | MORGAN STATE UNIVERSITY | uei | KULSKCCZJT27 | authoritative / high | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) |
-| active | MORGAN STATE UNIVERSITY | cage code | 8U547 | authoritative / high | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) |
-| active | MORGAN STATE UNIVERSITY | registration status | Active | authoritative / high | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) |
-| active | 6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment | opportunity status | open | authoritative / high | [6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment](https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view) |
-| active | 6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment | deadline | 2026-08-18T16:00:00-05:00 | authoritative / high | [6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment](https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view) |
-| active | 6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment | set aside | Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) | authoritative / high | [6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment](https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view) |
-| active | 6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment | awarding agency | VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.RPO WEST (36C24W) | authoritative / high | [6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment](https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view) |
-| active | Power Sensor Check Standard | opportunity status | open | authoritative / high | [Power Sensor Check Standard](https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view) |
-| active | Power Sensor Check Standard | deadline | 2026-08-18T17:00:00-06:00 | authoritative / high | [Power Sensor Check Standard](https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view) |
-| active | Power Sensor Check Standard | set aside | Small Business Set Aside - Total | authoritative / high | [Power Sensor Check Standard](https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view) |
-| active | Power Sensor Check Standard | awarding agency | COMMERCE, DEPARTMENT OF.NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY.DEPT OF COMMERCE NIST | authoritative / high | [Power Sensor Check Standard](https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view) |
-| active | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | legal business name | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | authoritative / high | [MASSACHUSETTS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NYLCDML6V1/coreData) |
-| active | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | uei | E2NYLCDML6V1 | authoritative / high | [MASSACHUSETTS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NYLCDML6V1/coreData) |
-| active | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | cage code | 80230 | authoritative / high | [MASSACHUSETTS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NYLCDML6V1/coreData) |
-| active | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | registration status | Active | authoritative / high | [MASSACHUSETTS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NYLCDML6V1/coreData) |
-| active | UNIVERSITY OF OKLAHOMA | legal business name | UNIVERSITY OF OKLAHOMA | authoritative / high | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) |
-| active | UNIVERSITY OF OKLAHOMA | uei | EVTSTTLCEWS5 | authoritative / high | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) |
-| active | UNIVERSITY OF OKLAHOMA | cage code | 3G168 | authoritative / high | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) |
-| active | UNIVERSITY OF OKLAHOMA | registration status | Active | authoritative / high | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) |
-| active | Autonomous Mower Maintenance Service | deadline | 2026-08-07T11:00:00-06:00 | authoritative / high | [Autonomous Mower Maintenance Service](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view) |
-| active | Autonomous Mower Maintenance Service | set aside | Small Business Set Aside - Total | authoritative / high | [Autonomous Mower Maintenance Service](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view) |
-| active | Autonomous Mower Maintenance Service | awarding agency | DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE GLOBAL STRIKE COMMAND.FA4690 28 CONS PKC | authoritative / high | [Autonomous Mower Maintenance Service](https://sam.gov/workspace/contract/opp/fe5715b9bd81493b8ed022605992acb6/view) |
-| active | 52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614) | opportunity status | awarded | authoritative / high | [52000SP260026939- Notice of Intent to Award Sole Source Order for Copyrighted Leveraging Artificial Intelligence for Federal Decision-Making Training Course (4614)](https://sam.gov/workspace/contract/opp/8523d97d7270414ca555500dd2c209a5/view) |
 
 ## Method
 

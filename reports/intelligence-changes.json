@@ -1,11 +1,2299 @@
 {
   "active_conflicts": [],
-  "added": [],
+  "added": [
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-0535e86e3a327e22",
+      "confidence": "high",
+      "effective_date": "2026-08-07",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7ca2440a8fd15fb4",
+          "locator": "opportunity_status:awarded",
+          "title": "IIDD NWDC CTR FFP NIS IDIQ G022A0008",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_140G0226F0176_1434_140G0222A0008_1434",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:140G0226F0176",
+        "label": "IIDD NWDC CTR FFP NIS IDIQ G022A0008",
+        "node_id": "award:usaspending:140G0226F0176",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-d3074d289b277f74",
+      "confidence": "high",
+      "effective_date": "2026-08-07",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-76fac58008174eaf",
+          "locator": "awarding_agency:department of the interior",
+          "title": "IIDD NWDC CTR FFP NIS IDIQ G022A0008",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_140G0226F0176_1434_140G0222A0008_1434",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:140G0226F0176",
+        "label": "IIDD NWDC CTR FFP NIS IDIQ G022A0008",
+        "node_id": "award:usaspending:140G0226F0176",
+        "node_type": "award"
+      },
+      "value": "Department of the Interior"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3c6a6d03c09fb1cc",
+      "confidence": "high",
+      "effective_date": "2026-08-07",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9f9b98ffc637243b",
+          "locator": "reported_amount:355037.04",
+          "title": "IIDD NWDC CTR FFP NIS IDIQ G022A0008",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_140G0226F0176_1434_140G0222A0008_1434",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:140G0226F0176",
+        "label": "IIDD NWDC CTR FFP NIS IDIQ G022A0008",
+        "node_id": "award:usaspending:140G0226F0176",
+        "node_type": "award"
+      },
+      "value": 355037.04
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-366c32cd36073f02",
+      "confidence": "high",
+      "effective_date": "2026-08-07",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": {
+        "identifier": "uei:RR2VC8Y3MK47",
+        "label": "NATIONWIDE IT SERVICES INC",
+        "node_id": "recipient_or_contractor:uei:RR2VC8Y3MK47",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-db37c6ae7f737b32",
+          "locator": "reported_recipient:recipient_or_contractor:uei:RR2VC8Y3MK47",
+          "title": "IIDD NWDC CTR FFP NIS IDIQ G022A0008",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_140G0226F0176_1434_140G0222A0008_1434",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:140G0226F0176",
+        "label": "IIDD NWDC CTR FFP NIS IDIQ G022A0008",
+        "node_id": "award:usaspending:140G0226F0176",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-9bfff3c750f745b0",
+      "confidence": "high",
+      "effective_date": "2026-08-07",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-afe6537974d34eb4",
+          "locator": "opportunity_status:awarded",
+          "title": "ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP).",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H326F00071_2001_2032H323D00004_2001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:2032H326F00071",
+        "label": "ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP).",
+        "node_id": "award:usaspending:2032H326F00071",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-37f7e732c7cea68d",
+      "confidence": "high",
+      "effective_date": "2026-08-07",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5c1726763d359fd8",
+          "locator": "awarding_agency:department of the treasury",
+          "title": "ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP).",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H326F00071_2001_2032H323D00004_2001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:2032H326F00071",
+        "label": "ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP).",
+        "node_id": "award:usaspending:2032H326F00071",
+        "node_type": "award"
+      },
+      "value": "Department of the Treasury"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-26db215da1587aae",
+      "confidence": "high",
+      "effective_date": "2026-08-07",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c5bc14a13a180bd5",
+          "locator": "reported_amount:119168.0",
+          "title": "ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP).",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H326F00071_2001_2032H323D00004_2001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:2032H326F00071",
+        "label": "ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP).",
+        "node_id": "award:usaspending:2032H326F00071",
+        "node_type": "award"
+      },
+      "value": 119168.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-59cf2979b8f5978d",
+      "confidence": "high",
+      "effective_date": "2026-08-07",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": {
+        "identifier": "uei:NA37S3SKQW65",
+        "label": "THE ESCAL INSTITUTE OF ADVANCED TECHNOLOGIES, INC.",
+        "node_id": "recipient_or_contractor:uei:NA37S3SKQW65",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-39eb6f84b6c8d4d1",
+          "locator": "reported_recipient:recipient_or_contractor:uei:NA37S3SKQW65",
+          "title": "ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP).",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H326F00071_2001_2032H323D00004_2001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:2032H326F00071",
+        "label": "ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP).",
+        "node_id": "award:usaspending:2032H326F00071",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-5b7f810fdc5c1f10",
+      "confidence": "high",
+      "effective_date": "2026-08-09",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a869714170eabd8a",
+          "locator": "opportunity_status:open",
+          "title": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+          "url": "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8bc07b083e00da63",
+      "confidence": "high",
+      "effective_date": "2026-08-09",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5b5636f803983dcd",
+          "locator": "deadline:2026-09-09t09:00:00-04:00",
+          "title": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+          "url": "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "2026-09-09T09:00:00-04:00"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ec7330bd5bc4f59b",
+      "confidence": "high",
+      "effective_date": "2026-08-09",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e240af5c190f2f6f",
+          "locator": "awarding_agency:commerce, department of.bureau of industry and security",
+          "title": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+          "url": "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "COMMERCE, DEPARTMENT OF.BUREAU OF INDUSTRY AND SECURITY"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-16b2705708926282",
+      "confidence": "high",
+      "effective_date": "2026-08-09",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-be881c587c4e710a",
+          "locator": "opportunity_status:open",
+          "title": "USAFA: Quantum Demonstration/Experiment System",
+          "url": "https://sam.gov/workspace/contract/opp/340e073342bd42d9a6e7b8900fbe771c/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:FA700026Q0057",
+        "label": "USAFA: Quantum Demonstration/Experiment System",
+        "node_id": "opportunity:sam_gov:FA700026Q0057",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-136dec4c7e432928",
+      "confidence": "high",
+      "effective_date": "2026-08-09",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-149001c5d7fdab93",
+          "locator": "deadline:2026-08-14t14:00:00-06:00",
+          "title": "USAFA: Quantum Demonstration/Experiment System",
+          "url": "https://sam.gov/workspace/contract/opp/340e073342bd42d9a6e7b8900fbe771c/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:FA700026Q0057",
+        "label": "USAFA: Quantum Demonstration/Experiment System",
+        "node_id": "opportunity:sam_gov:FA700026Q0057",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-14T14:00:00-06:00"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-7b6310e21d4f50f8",
+      "confidence": "high",
+      "effective_date": "2026-08-09",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "set_aside",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3b3e0d28612152da",
+          "locator": "set_aside:small business set aside - total",
+          "title": "USAFA: Quantum Demonstration/Experiment System",
+          "url": "https://sam.gov/workspace/contract/opp/340e073342bd42d9a6e7b8900fbe771c/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:FA700026Q0057",
+        "label": "USAFA: Quantum Demonstration/Experiment System",
+        "node_id": "opportunity:sam_gov:FA700026Q0057",
+        "node_type": "opportunity"
+      },
+      "value": "Small Business Set Aside - Total"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-517643f65dd040d7",
+      "confidence": "high",
+      "effective_date": "2026-08-09",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2078f1472782f79f",
+          "locator": "awarding_agency:dept of defense.dept of the air force.u.s. air force academy.fa7000 10 cons lgc",
+          "title": "USAFA: Quantum Demonstration/Experiment System",
+          "url": "https://sam.gov/workspace/contract/opp/340e073342bd42d9a6e7b8900fbe771c/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:FA700026Q0057",
+        "label": "USAFA: Quantum Demonstration/Experiment System",
+        "node_id": "opportunity:sam_gov:FA700026Q0057",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.U.S. AIR FORCE ACADEMY.FA7000 10 CONS LGC"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-60c1ae642d3030c4",
+      "confidence": "high",
+      "effective_date": "2026-08-09",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bf7cdcf9a3b4f79e",
+          "locator": "opportunity_status:open",
+          "title": "15--PLATE,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T634Z",
+        "label": "15--PLATE,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T634Z",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-55f7b81bc460463c",
+      "confidence": "high",
+      "effective_date": "2026-08-09",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-53ffc62c675ea03a",
+          "locator": "deadline:2026-08-17",
+          "title": "15--PLATE,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T634Z",
+        "label": "15--PLATE,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T634Z",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-17"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-00558541d344da02",
+      "confidence": "high",
+      "effective_date": "2026-08-09",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fe61ad643b74b2d9",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
+          "title": "15--PLATE,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T634Z",
+        "label": "15--PLATE,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T634Z",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-88ff91639abacbee",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-7c5c4e2b99059bd4",
+          "locator": "states_requirement:ure 4: past performance information form ............................................................. 12 enclosure 5 \u2013 mandatory price proposal excel spreadsheet ................................................ 13 m&s paradigm framework for adaptive ai simulation on quantum (faasq) ..................",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "ure 4: Past Performance Information Form ............................................................. 12 Enclosure 5 \u2013 Mandatory Price Proposal Excel Spreadsheet ................................................ 13 M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) .................."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-bf6dc2e38b384214",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-2c1da6e5c0027b30",
+          "locator": "states_requirement:ssification this request for proposal (rfp) is a nato unclassified document. 3. definitions a. the \u201cprospective bidder\u201d shall refer to the entity that has indicated its intention without commitment, to participate in this rfp. b. the term \u201cbidder\u201d shall refer to the bidding entity that has complete...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "ssification This Request for Proposal (RFP) is a NATO UNCLASSIFIED document. 3. Definitions a. The \u201cProspective Bidder\u201d shall refer to the entity that has indicated its intention without commitment, to participate in this RFP. b. The term \u201cBidder\u201d shall refer to the bidding entity that has complete..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8458a308d1538f88",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-9001840616f16950",
+          "locator": "states_requirement:fer to the entity that has indicated its intention without commitment, to participate in this rfp. b. the term \u201cbidder\u201d shall refer to the bidding entity that has completed a bid in response to this rfp. c. the term \u201ccontractor\u201d shall refer to the bidding entity to which the contract(s) is awarded....",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "fer to the entity that has indicated its intention without commitment, to participate in this RFP. b. The term \u201cBidder\u201d shall refer to the bidding entity that has completed a bid in response to this RFP. c. The term \u201cContractor\u201d shall refer to the bidding entity to which the contract(s) is awarded...."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-f4f911fd46154392",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-118c92a1f0a03e03",
+          "locator": "states_requirement:m \u201cbidder\u201d shall refer to the bidding entity that has completed a bid in response to this rfp. c. the term \u201ccontractor\u201d shall refer to the bidding entity to which the contract(s) is awarded. d. the term \u201ccontracting officer\u201d designates the official who executes this rfp on behalf of hq sact. e. \u201cco...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "m \u201cBidder\u201d shall refer to the bidding entity that has completed a bid in response to this RFP. c. The term \u201cContractor\u201d shall refer to the bidding entity to which the contract(s) is awarded. d. The term \u201cContracting Officer\u201d designates the official who executes this RFP on behalf of HQ SACT. e. \u201cCo..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-d6a6be292f2b25d3",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-3a27aa6c90913af2",
+          "locator": "states_requirement:he purpose of determining compliance of the successful bid(s) , per the technical specifications. f. the term \u201chq sact\u201d shall refer to headquarters supreme allied commander transformation. g. the term \u201cact\u201d shall refer to allied command transformation. h. the term \u201cnato\u201d shall refer to the north at...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "he purpose of determining compliance of the successful bid(s) , per the technical specifications. f. The term \u201cHQ SACT\u201d shall refer to Headquarters Supreme Allied Commander Transformation. g. The term \u201cACT\u201d shall refer to Allied Command Transformation. h. The term \u201cNATO\u201d shall refer to the North At..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-547003c960a2bdb5",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-62ddf96c8aa52860",
+          "locator": "states_requirement:fications. f. the term \u201chq sact\u201d shall refer to headquarters supreme allied commander transformation. g. the term \u201cact\u201d shall refer to allied command transformation. h. the term \u201cnato\u201d shall refer to the north atlantic treaty organization. i. the term \u201cdays\u201d as used in this rfp shall, unless otherw...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "fications. f. The term \u201cHQ SACT\u201d shall refer to Headquarters Supreme Allied Commander Transformation. g. The term \u201cACT\u201d shall refer to Allied Command Transformation. h. The term \u201cNATO\u201d shall refer to the North Atlantic Treaty Organization. i. The term \u201cdays\u201d as used in this RFP shall, unless otherw..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-f417a5d563e82e80",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-9c12046e60f86341",
+          "locator": "states_requirement:eme allied commander transformation. g. the term \u201cact\u201d shall refer to allied command transformation. h. the term \u201cnato\u201d shall refer to the north atlantic treaty organization. i. the term \u201cdays\u201d as used in this rfp shall, unless otherwise stated, be interpreted as meaning calendar days. 4. eligibili...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "eme Allied Commander Transformation. g. The term \u201cACT\u201d shall refer to Allied Command Transformation. h. The term \u201cNATO\u201d shall refer to the North Atlantic Treaty Organization. i. The term \u201cdays\u201d as used in this RFP shall, unless otherwise stated, be interpreted as meaning calendar days. 4. Eligibili..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ded60d42eb8733bc",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-6b7b4248142def3a",
+          "locator": "states_requirement:ation. h. the term \u201cnato\u201d shall refer to the north atlantic treaty organization. i. the term \u201cdays\u201d as used in this rfp shall, unless otherwise stated, be interpreted as meaning calendar days. 4. eligibility a. this rfp is open to governmental or commercial entities; nato unclassified rfp-act-sact-...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "ation. h. The term \u201cNATO\u201d shall refer to the North Atlantic Treaty Organization. i. The term \u201cdays\u201d as used in this RFP shall, unless otherwise stated, be interpreted as meaning calendar days. 4. Eligibility a. This RFP is open to governmental or commercial entities; NATO UNCLASSIFIED RFP-ACT-SACT-..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-78f8452dd5673445",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_evaluation_criterion",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-ca4834d17c25fb01",
+          "locator": "states_evaluation_criterion:pliance statement ..................................................................................... 10 enclosure 4: past performance information form ............................................................. 12 enclosure 5 \u2013 mandatory price proposal excel spreadsheet",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "pliance Statement ..................................................................................... 10 Enclosure 4: Past Performance Information Form ............................................................. 12 Enclosure 5 \u2013 Mandatory Price Proposal Excel Spreadsheet"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-21faedb4ae68f31f",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_evaluation_criterion",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-494d3db2f05fc792",
+          "locator": "states_evaluation_criterion:e in the country and state in which this contract is to be performed, at the time of bidding. has performed the desired past performance including size, cost and scope, as described in this rfp; and d. all proposed key personnel identified to work on this requirement must be citizens of a nato memb...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "e in the country and state in which this contract is to be performed, at the time of bidding. Has performed the desired past performance including size, cost and scope, as described in this RFP; and d. All proposed key personnel identified to work on this requirement must be citizens of a NATO memb..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-34059e3e8cd78b71",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_evaluation_criterion",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-e00b2386c8d46514",
+          "locator": "states_evaluation_criterion:ne, e-mail address, internet site; nato unclassified rfp-act-sact-81 6 4) compliance statement (as per enclosure#2); 5) past performance (as per enclosure #3); 6) list of key personnel to provide services; 7) supplementary relevant information, if applicable; and 8) compliance and best value criter...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "ne, e-mail address, Internet site; NATO UNCLASSIFIED RFP-ACT-SACT-81 6 4) Compliance statement (as per Enclosure#2); 5) Past performance (as per Enclosure #3); 6) List of key personnel to provide services; 7) Supplementary relevant information, if applicable; and 8) Compliance and Best Value Criter..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-4392917ad5d18c58",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_evaluation_criterion",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-75c6769d0ad6795e",
+          "locator": "states_evaluation_criterion:list of key personnel to provide services; 7) supplementary relevant information, if applicable; and 8) compliance and best value criteria matrices (as per annex b). b. price proposal shall be 1) submitted in u.s. dollar currency. contractor may request payment post award in alternate currency base...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "List of key personnel to provide services; 7) Supplementary relevant information, if applicable; and 8) Compliance and Best Value Criteria Matrices (as per Annex B). b. Price Proposal shall be 1) Submitted in U.S. Dollar Currency. Contractor may request payment post award in alternate currency base..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-072c9c4e12f19263",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_evaluation_criterion",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-4e80a23132ba5f5b",
+          "locator": "states_evaluation_criterion:riteria (compliant/non- compliant). 3) technical factors / pricing factors rated as follows: technical / price = 70/30 (best value) 4) technical clarifications as determined may be conducted. 5) acceptance of hq sact general terms and conditions. 16. proposal clarifications during the entire evalua...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "riteria (Compliant/non- compliant). 3) Technical factors / pricing factors rated as follows: Technical / Price = 70/30 (Best Value) 4) Technical clarifications as determined may be conducted. 5) Acceptance of HQ SACT General Terms and Conditions. 16. Proposal Clarifications During the entire evalua..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-b3d971bdba5629b9",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_evaluation_criterion",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-1c25cfddfed521f0",
+          "locator": "states_evaluation_criterion:q sact intends to award a firm fixed price deliverables contract to the successful bidder whose proposal represents the best value offer to nato. partial awards will not be considered. b. hq sact will collect information from references provided by the successful bidder on its past performance. con...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "Q SACT intends to award a firm fixed price deliverables contract to the successful bidder whose proposal represents the Best Value offer to NATO. Partial awards will not be considered. b. HQ SACT will collect information from references provided by the successful bidder on its past performance. Con..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-cd7e647c52183a96",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_eligibility_term",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-d3435cab56303a29",
+          "locator": "states_eligibility_term:3 4. eligibility .................................................................................................................... 3 5. duration of contract",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "3 4. Eligibility .................................................................................................................... 3 5. Duration of Contract"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-814b090fd1db2430",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_eligibility_term",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-63253e17fd3345dc",
+          "locator": "states_eligibility_term:ion. i. the term \u201cdays\u201d as used in this rfp shall, unless otherwise stated, be interpreted as meaning calendar days. 4. eligibility a. this rfp is open to governmental or commercial entities; nato unclassified rfp-act-sact-81 4 b. established in a north atlantic treaty organization alliance member...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "ion. i. The term \u201cdays\u201d as used in this RFP shall, unless otherwise stated, be interpreted as meaning calendar days. 4. Eligibility a. This RFP is open to governmental or commercial entities; NATO UNCLASSIFIED RFP-ACT-SACT-81 4 b. Established in a North Atlantic Treaty Organization Alliance member..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1e7eb1d9ac70da1e",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_eligibility_term",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-9243e11673bef3b3",
+          "locator": "states_eligibility_term:be accepted. substantial changes shall be considered non-responsive. nato unclassified rfp-act-sact-81 11 enclosure 3: eligibility to conduct business in virginia certification of eligibility to conduct business in the commonwealth of virginia to rfp-act-sact-26-81 the undersigned hereby certifies...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "be accepted. Substantial changes shall be considered non-responsive. NATO UNCLASSIFIED RFP-ACT-SACT-81 11 Enclosure 3: Eligibility to Conduct Business in Virginia CERTIFICATION OF ELIGIBILITY TO CONDUCT BUSINESS IN THE COMMONWEALTH OF VIRGINIA TO RFP-ACT-SACT-26-81 The undersigned hereby certifies..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-97e0ed5757bf92f0",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_eligibility_term",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-4a6b5135fbb9f29c",
+          "locator": "states_eligibility_term:ponsive. nato unclassified rfp-act-sact-81 11 enclosure 3: eligibility to conduct business in virginia certification of eligibility to conduct business in the commonwealth of virginia to rfp-act-sact-26-81 the undersigned hereby certifies that the company has reviewed and understands the requiremen...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "ponsive. NATO UNCLASSIFIED RFP-ACT-SACT-81 11 Enclosure 3: Eligibility to Conduct Business in Virginia CERTIFICATION OF ELIGIBILITY TO CONDUCT BUSINESS IN THE COMMONWEALTH OF VIRGINIA TO RFP-ACT-SACT-26-81 The undersigned hereby certifies that the company has reviewed and understands the requiremen..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-85230941720f2141",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_eligibility_term",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-8ae63fe967897cd2",
+          "locator": "states_eligibility_term:rforming work in the commonwealth of virginia. the company further certifies that, if selected for award, it is legally eligible and properly authorized to perform the work contemplated under rfp-act-sact-26-81 within the commonwealth of virginia, including, as applicable, registration or qualifica...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "rforming work in the Commonwealth of Virginia. The company further certifies that, if selected for award, it is legally eligible and properly authorized to perform the work contemplated under RFP-ACT-SACT-26-81 within the Commonwealth of Virginia, including, as applicable, registration or qualifica..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c8f893ee68f4c519",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-f156553beae00ffc",
+          "locator": "states_submission_instruction:hq supreme allied commander transformation purchasing and contracting section office of budget and finance request for proposal rfp-act-sact-26-81 headquarters supreme allied commander transformation\u2019s m&s paradigm framework for adaptive ai simulation on quantum (faasq) 2 bidding instructions",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "HQ Supreme Allied Commander Transformation Purchasing and Contracting Section Office of Budget and Finance Request for Proposal RFP-ACT-SACT-26-81 Headquarters Supreme Allied Commander Transformation\u2019s M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) 2 BIDDING INSTRUCTIONS"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-92938bf02f24267d",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-3576661972ad327f",
+          "locator": "states_submission_instruction:5 11. content of proposal ................................................................................................... 5 12. proposal submission",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "5 11. Content of Proposal ................................................................................................... 5 12. Proposal Submission"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-5e2949945c1ee9f6",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-d27aeb0b3090cd84",
+          "locator": "states_submission_instruction:t of proposal ................................................................................................... 5 12. proposal submission .................................................................................................. 6 13. late proposals",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "t of Proposal ................................................................................................... 5 12. Proposal Submission .................................................................................................. 6 13. Late Proposals"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-9d346783c2eec61b",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-eebcb691451173c9",
+          "locator": "states_submission_instruction:osal ................................................................................................... 5 12. proposal submission .................................................................................................. 6 13. late proposals",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "osal ................................................................................................... 5 12. Proposal Submission .................................................................................................. 6 13. Late Proposals"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-af203cdb72dc996f",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-6d97e88f1bfb94eb",
+          "locator": "states_submission_instruction:sal submission .................................................................................................. 6 13. late proposals ........................................................................................................... 6 14. bid withdrawal",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "sal Submission .................................................................................................. 6 13. Late Proposals ........................................................................................................... 6 14. Bid Withdrawal"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3a159da338300dce",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_deliverable",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-19cc666e7cbb91af",
+          "locator": "states_deliverable:13 m&s paradigm framework for adaptive ai simulation on quantum (faasq) .................. 14 deliverables ....................................................................................................................... 17 annex a",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "13 M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) .................. 14 Deliverables ....................................................................................................................... 17 Annex A"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-85cb26ea7ae7e96f",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_deliverable",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-756da40c35966100",
+          "locator": "states_deliverable:21 nato unclassified rfp-act-sact-81 3 bidding instructions 1. general a. this is a firm fixed price deliverables contract in accordance with the hq sact general terms and conditions. b. hq sact general terms and conditions dated 15 january 2026 are applicable to this procurement and can be l",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "21 NATO UNCLASSIFIED RFP-ACT-SACT-81 3 BIDDING INSTRUCTIONS 1. General a. This is a Firm Fixed Price Deliverables contract in accordance with the HQ SACT General Terms and Conditions. b. HQ SACT General Terms and Conditions Dated 15 January 2026 are applicable to this procurement and can be l"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-eef0394d0b2ec76b",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_deliverable",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-37d721320ab8174d",
+          "locator": "states_deliverable:n. 5. duration of contract a. the contract awarded shall be effective upon signature (estimated mid-september 2026). b. period of performance: award to 31 december 2026 option periods may be exercised solely at the discretion of hq sact based on satisfactory contractor performance, availability of...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "n. 5. Duration of Contract a. The contract awarded shall be effective upon signature (estimated mid-September 2026). b. Period of Performance: Award to 31 December 2026 Option periods may be exercised solely at the discretion of HQ SACT based on satisfactory contractor performance, availability of..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ec6c070d5ba1ceee",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_deliverable",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-e784c032b5cf3932",
+          "locator": "states_deliverable:uage within the bid to resolve any potential areas of concern. 17. award a. hq sact intends to award a firm fixed price deliverables contract to the successful bidder whose proposal represents the best value offer to nato. partial awards will not be considered. b. hq sact will collect information f...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "uage within the bid to resolve any potential areas of concern. 17. Award a. HQ SACT intends to award a firm fixed price deliverables contract to the successful bidder whose proposal represents the Best Value offer to NATO. Partial awards will not be considered. b. HQ SACT will collect information f..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-30bf333040a5fb5c",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "states_deliverable",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "6b260b6a195fdbdf3b592083756b154d17073017533057f9782757da0bab7fb2",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-58fd8c5a4bc325d3",
+          "locator": "states_deliverable:emerging circumstances require a quick and temporary i ncrease in contractor services within the scope of the existing statement of work. the selected s upplier shall be prepared to provide additional services if needed to support this sow. the contractor shall be prepared to evaluate requirements...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "emerging circumstances require a quick and temporary i ncrease in contractor services within the scope of the existing Statement of Work. The selected s upplier shall be prepared to provide additional services if needed to support this SOW. The contractor shall be prepared to evaluate requirements..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-fa63bb3a6c6926b6",
+      "confidence": "high",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-435299bf5d547080",
+          "locator": "legal_business_name:university of wisconsin system",
+          "title": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "url": "https://sam.gov/entity/LCLSJAGTNZQ7/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:LCLSJAGTNZQ7",
+        "label": "UNIVERSITY OF WISCONSIN SYSTEM",
+        "node_id": "recipient_or_contractor:uei:LCLSJAGTNZQ7",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "UNIVERSITY OF WISCONSIN SYSTEM"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-4919f35edad82523",
+      "confidence": "high",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2b648bef07459e04",
+          "locator": "uei:lclsjagtnzq7",
+          "title": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "url": "https://sam.gov/entity/LCLSJAGTNZQ7/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:LCLSJAGTNZQ7",
+        "label": "UNIVERSITY OF WISCONSIN SYSTEM",
+        "node_id": "recipient_or_contractor:uei:LCLSJAGTNZQ7",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "LCLSJAGTNZQ7"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-4e6cd50a62fc69c9",
+      "confidence": "high",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-83b6cfb2c7c18534",
+          "locator": "cage_code:09fz2",
+          "title": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "url": "https://sam.gov/entity/LCLSJAGTNZQ7/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:LCLSJAGTNZQ7",
+        "label": "UNIVERSITY OF WISCONSIN SYSTEM",
+        "node_id": "recipient_or_contractor:uei:LCLSJAGTNZQ7",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "09FZ2"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-71ba7a7e7d0292cb",
+      "confidence": "high",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b9f3b8d629cdc25c",
+          "locator": "registration_status:active",
+          "title": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "url": "https://sam.gov/entity/LCLSJAGTNZQ7/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:LCLSJAGTNZQ7",
+        "label": "UNIVERSITY OF WISCONSIN SYSTEM",
+        "node_id": "recipient_or_contractor:uei:LCLSJAGTNZQ7",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-975d5c08bd09adf5",
+      "confidence": "high",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d116e621e7bd7570",
+          "locator": "legal_business_name:university of washington",
+          "title": "UNIVERSITY OF WASHINGTON",
+          "url": "https://sam.gov/entity/HD1WMN6945W6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:HD1WMN6945W6",
+        "label": "UNIVERSITY OF WASHINGTON",
+        "node_id": "recipient_or_contractor:uei:HD1WMN6945W6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "UNIVERSITY OF WASHINGTON"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-aee7d230ad775cbf",
+      "confidence": "high",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f47c2e01d6f23fa1",
+          "locator": "uei:hd1wmn6945w6",
+          "title": "UNIVERSITY OF WASHINGTON",
+          "url": "https://sam.gov/entity/HD1WMN6945W6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:HD1WMN6945W6",
+        "label": "UNIVERSITY OF WASHINGTON",
+        "node_id": "recipient_or_contractor:uei:HD1WMN6945W6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "HD1WMN6945W6"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-f81d6c166b8fa139",
+      "confidence": "high",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b0a1525308c736d1",
+          "locator": "cage_code:1hex5",
+          "title": "UNIVERSITY OF WASHINGTON",
+          "url": "https://sam.gov/entity/HD1WMN6945W6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:HD1WMN6945W6",
+        "label": "UNIVERSITY OF WASHINGTON",
+        "node_id": "recipient_or_contractor:uei:HD1WMN6945W6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "1HEX5"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-efc7560e44f5bde5",
+      "confidence": "high",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4f224a0fdc075500",
+          "locator": "registration_status:active",
+          "title": "UNIVERSITY OF WASHINGTON",
+          "url": "https://sam.gov/entity/HD1WMN6945W6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:HD1WMN6945W6",
+        "label": "UNIVERSITY OF WASHINGTON",
+        "node_id": "recipient_or_contractor:uei:HD1WMN6945W6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6e286cadcb8e9404",
+      "confidence": "high",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d1408c649ad4d21b",
+          "locator": "legal_business_name:old dominion university research foundation",
+          "title": "OLD DOMINION UNIVERSITY RESEARCH FOUNDATION",
+          "url": "https://sam.gov/entity/DSLXBD7UWRV6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:DSLXBD7UWRV6",
+        "label": "OLD DOMINION UNIVERSITY RESEARCH FOUNDATION",
+        "node_id": "recipient_or_contractor:uei:DSLXBD7UWRV6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "OLD DOMINION UNIVERSITY RESEARCH FOUNDATION"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8a1c9ed36dff32ab",
+      "confidence": "high",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ffb7a6c5070e0995",
+          "locator": "uei:dslxbd7uwrv6",
+          "title": "OLD DOMINION UNIVERSITY RESEARCH FOUNDATION",
+          "url": "https://sam.gov/entity/DSLXBD7UWRV6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:DSLXBD7UWRV6",
+        "label": "OLD DOMINION UNIVERSITY RESEARCH FOUNDATION",
+        "node_id": "recipient_or_contractor:uei:DSLXBD7UWRV6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "DSLXBD7UWRV6"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-4fdceabcbe96b860",
+      "confidence": "high",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-90b8c4606528dc68",
+          "locator": "cage_code:5d075",
+          "title": "OLD DOMINION UNIVERSITY RESEARCH FOUNDATION",
+          "url": "https://sam.gov/entity/DSLXBD7UWRV6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:DSLXBD7UWRV6",
+        "label": "OLD DOMINION UNIVERSITY RESEARCH FOUNDATION",
+        "node_id": "recipient_or_contractor:uei:DSLXBD7UWRV6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "5D075"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1b578ead92ba4ad7",
+      "confidence": "high",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bbcba67d4d55b146",
+          "locator": "registration_status:active",
+          "title": "OLD DOMINION UNIVERSITY RESEARCH FOUNDATION",
+          "url": "https://sam.gov/entity/DSLXBD7UWRV6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:DSLXBD7UWRV6",
+        "label": "OLD DOMINION UNIVERSITY RESEARCH FOUNDATION",
+        "node_id": "recipient_or_contractor:uei:DSLXBD7UWRV6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-766fd469da036220",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-019b097efed7e848",
+          "locator": "qualification_gate",
+          "title": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+          "url": "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5a40388f943529b6",
+          "locator": "qualification_gate",
+          "title": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1f682ffec5104ddc882a88b9e1b11121/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3b46c1f41ae0d9ca",
+          "locator": "qualification_gate",
+          "title": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=abf380cc0c634612a69ce193a212fbd4",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
+        "node_type": "opportunity"
+      },
+      "value": "targeted review"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-681ea726a3b98deb",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6520b24a12c2fdbe",
+          "locator": "qualification_gate",
+          "title": "USAFA: Quantum Demonstration/Experiment System",
+          "url": "https://sam.gov/workspace/contract/opp/340e073342bd42d9a6e7b8900fbe771c/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2e2721bbcf2e5d2d",
+          "locator": "qualification_gate",
+          "title": "USAFA: Quantum Demonstration/Experiment System",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03a7ed20a87f485aad973b332ef651df/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-68dad3be245df751",
+          "locator": "qualification_gate",
+          "title": "USAFA: Quantum Demonstration/Experiment System",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5db8c7478eb142779e11f5f14bb6754f/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-29596cff14121b9c",
+          "locator": "qualification_gate",
+          "title": "USAFA: Quantum Demonstration/Experiment System",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9da0cb93a8ab4d3fb218df323daf13ca/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-829f046d003a4c38",
+          "locator": "qualification_gate",
+          "title": "USAFA: Quantum Demonstration/Experiment System",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9e72f42c1f43474ead40df4c2c9388bf/download",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:FA700026Q0057",
+        "label": "USAFA: Quantum Demonstration/Experiment System",
+        "node_id": "opportunity:sam_gov:FA700026Q0057",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-368fed6799599d03",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-27659e8f7d6f54d7",
+          "locator": "qualification_gate",
+          "title": "15--PLATE,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "15--PLATE,STRUCTURAL,AI",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=09fe7a517f284b6b893fba0df8b92de6",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T634Z",
+        "label": "15--PLATE,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T634Z",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    }
+  ],
   "baseline_initialized": false,
-  "changed": [],
+  "changed": [
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-95dd0903dc5b0a7d",
+      "confidence": "high",
+      "effective_date": "2026-07-08",
+      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a7b14289c7f897ae",
+          "locator": "opportunity_status:closed",
+          "title": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
+          "url": "https://www.grants.gov/search-results-detail/363078",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:MUSCAT-PAS-2026-APS-01",
+        "label": "Muscat - Annual Program Statement (APS)- PD Small Grants Program",
+        "node_id": "opportunity:grants_gov:MUSCAT-PAS-2026-APS-01",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-db7e50d5eda52e22",
+      "confidence": "high",
+      "effective_date": "2026-07-06",
+      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-825e46f5f073b5d8",
+          "locator": "opportunity_status:closed",
+          "title": "AI Pathways To The Future",
+          "url": "https://www.grants.gov/search-results-detail/363061",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:PAS-JAKARTA-FY26-07",
+        "label": "AI Pathways To The Future",
+        "node_id": "opportunity:grants_gov:PAS-JAKARTA-FY26-07",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-ead6a936cd1224fe",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d7ffb79977f48375",
+          "locator": "qualification_gate",
+          "title": "15--ARMOR ASSY PANEL AI",
+          "url": "https://sam.gov/workspace/contract/opp/ca7480f31a1f49dfbdd9058153f71757/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "15--ARMOR ASSY PANEL AI",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ca7480f31a1f49dfbdd9058153f71757",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T628U",
+        "label": "15--ARMOR ASSY PANEL AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T628U",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-a15e24460d4f42c4",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-08T01:05:02.993371+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7860a896f1d451c5",
+          "locator": "qualification_gate",
+          "title": "66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING",
+          "url": "https://sam.gov/workspace/contract/opp/e7164edc3eab4e9fb8beb4030ba58a27/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7f4a0e706c7505de",
+          "locator": "qualification_gate",
+          "title": "66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2631d60d4ee4441498a474990d5afcfa/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6fdb2f62ca5c12a3",
+          "locator": "qualification_gate",
+          "title": "66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2795a5f4a3f94f349c46fff7ea924a99/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f9a225c15020abaf",
+          "locator": "qualification_gate",
+          "title": "66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4024dabc22234a0e9751ec4cb946abaa/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e7164edc3eab4e9fb8beb4030ba58a27",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:140R4026Q0095",
+        "label": "66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING",
+        "node_id": "opportunity:sam_gov:140R4026Q0095",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-bfb9e790ebf43909",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1fc497b40c5430f7",
+          "locator": "qualification_gate",
+          "title": "EARLY STAGE INNOVATIONS (ESI26)",
+          "url": "https://www.grants.gov/search-results-detail/363066",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:NNH26ZTR001N-26ESI-B2",
+        "label": "EARLY STAGE INNOVATIONS (ESI26)",
+        "node_id": "opportunity:grants_gov:NNH26ZTR001N-26ESI-B2",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-798b056b5a53146c",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-be44391aaa567189",
+          "locator": "qualification_gate",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/b1e512b55280430da7502b135f789487/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b1e512b55280430da7502b135f789487",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T625G",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T625G",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-89c081a571ec0143",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4edc03078f4be035",
+          "locator": "qualification_gate",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/97e315337fb94f088feec798801ff1a5/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=97e315337fb94f088feec798801ff1a5",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T618B",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T618B",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-6f7d18fa45a2d427",
+      "confidence": "medium",
+      "effective_date": "2026-08-10",
+      "first_observed_at": "2026-08-06T01:55:17.903256+00:00",
+      "last_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7c2d703b584ea170",
+          "locator": "qualification_gate",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/96feef11cce042849f9cbd97dbc13bc9/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=96feef11cce042849f9cbd97dbc13bc9",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T624E",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T624E",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    }
+  ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-08-09T04:14:37.974024+00:00",
-  "comparison_started_at": "2026-08-09T01:09:22.763250+00:00",
+  "comparison_ended_at": "2026-08-10T01:11:12.453336+00:00",
+  "comparison_started_at": "2026-08-09T04:14:37.974024+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -921,19 +3209,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-08-09T01:09:22.763250+00:00",
+  "since": "2026-08-09T04:14:37.974024+00:00",
   "summary": {
-    "active_claims": 1876,
-    "added": 0,
-    "changed": 0,
+    "active_claims": 1938,
+    "added": 62,
+    "changed": 8,
     "conflicts": 0,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 27,
+    "material_changes": 97,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-08-09T04:14:37.974024+00:00",
+  "updated_at": "2026-08-10T01:11:12.453336+00:00",
   "version": 1
 }

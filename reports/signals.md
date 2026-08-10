@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-09 01:15 UTC_
+_Updated 2026-08-10 01:15 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
@@ -12,12 +12,12 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (3 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-08-08 | 14 |
 | Quantum Networking | ↗️ rising (18 vs 9) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-08-07 | 73 |
-| PQC / Crypto Agility | ↘️ declining (18 vs 27) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-08-07 | 111 |
+| Standards / Government | ↗️ rising (7 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-08-09 | 15 |
+| PQC / Crypto Agility | ➡️ stable (19 vs 19) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-08-09 | 112 |
 | QEC / Fault Tolerance | ↘️ declining (3 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-08-08 | 40 |
 | Quantum Hardware | ➡️ stable (25 vs 27) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-08 | 178 |
 | Quantum Sensing | ➡️ stable (6 vs 6) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-07 | 31 |
 | Quantum Software / Tooling | ↘️ declining (5 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-08 | 57 |
-| Standards / Government | ➡️ stable (6 vs 6) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-08-07 | 14 |
 
 ## AI Security
 
@@ -41,16 +41,27 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-08-06 — [enQase and Light Rider Partner to Deliver Integrated Quantum-Safe Communications Architecture](https://quantumcomputingreport.com/enqase-and-light-rider-partner-to-deliver-integrated-quantum-safe-communications-architecture) (QuantumNews.ai, score 110)
   - 2026-08-06 — [NIST Researchers Demonstrate Entangled Photon Transmission Over Existing Fiber Networks](https://thequantuminsider.com/2026/08/06/nist-researchers-demonstrate-entangled-photon-transmission-over-existing-fiber-networks) (The Quantum Insider, score 87)
 
+## Standards / Government
+
+- Organizations/sources: The Quantum Insider, QuantumNews.ai, Quantum Zeitgeist, arXiv RSS cs.CR
+- Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
+- Recent supporting evidence:
+  - 2026-08-09 — [UCalgary builds secure hub for quantum defence innovation](https://quantumzeitgeist.com/quantum-defence-innovation-ucalgary-hub) (Quantum Zeitgeist, score 100)
+  - 2026-08-07 — [IonQ’s quantum space division wins $25.6M radar imagery contract](https://quantumzeitgeist.com/ionqs-win-quantum-space-25-6m) (Quantum Zeitgeist, score 31)
+  - 2026-08-05 — [IonQ and Sandia National Laboratories Partner on Quantum Technology Research](https://thequantuminsider.com/2026/08/05/ionq-sandia-quantum-technology-research-partnership) (The Quantum Insider, score 100)
+  - 2026-08-05 — [Israel Launches National Quantum Computer Tender as Part of Broader AI Sovereignty Strategy](https://thequantuminsider.com/2026/08/05/israel-launches-national-quantum-computer-tender-as-part-of-broader-ai-sovereignty-strategy) (The Quantum Insider, score 100)
+  - 2026-08-05 — [Quantum Club Thailand helps Bangkok build a hub to grow quantum skills & business](https://quantumzeitgeist.com/quantum-club-skills-business) (Quantum Zeitgeist, score 100)
+
 ## PQC / Crypto Agility
 
-- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Keyfactor Quantum and Crypto-Agility
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, IACR ePrint, Keyfactor Quantum and Crypto-Agility
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-08-09 — [ZeroTier links US agencies to post-quantum secure networks](https://quantumzeitgeist.com/post-quantum-zerotier-links-agencies) (Quantum Zeitgeist, score 111)
   - 2026-08-07 — [Carahsoft to distribute ZeroTier’s quantum-safe networking platform](https://quantumzeitgeist.com/carahsoft-distribute-zerotiers-quantum-safe-networking) (Quantum Zeitgeist, score 55)
   - 2026-08-07 — [Post-Quantum Cryptography Timelines: When Will Organizations Migrate?](https://thequantuminsider.com/2026/08/07/post-quantum-cryptography-timelines) (The Quantum Insider, score 55)
   - 2026-08-06 — [Code Generation of Faster Formally Verified NTT with Plantard Reduction](https://eprint.iacr.org/2026/1624) (IACR ePrint, score 154)
   - 2026-08-06 — [Amazon Researcher Claims Quantum Algorithm Could Challenge PQC Foundations](https://thequantuminsider.com/2026/08/06/amazon-researcher-claims-quantum-algorithm-could-challenge-pqc-foundations) (The Quantum Insider, score 63)
-  - 2026-08-06 — [The next generation of MCP](https://blog.cloudflare.com/mcp-v2) (Cloudflare Blog, score 26)
 
 ## QEC / Fault Tolerance
 
@@ -95,14 +106,3 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-08-04 — [OptQC and NTT Sign Capital Alliance to Build 1-Million-Qubit Optical Quantum Computer](https://quantumcomputingreport.com/optqc-and-ntt-sign-capital-alliance-to-build-1-million-qubit-optical-quantum-computer) (QuantumNews.ai, score 68)
   - 2026-08-04 — [Negative Dissipation Rates Enabled in Quantum System Simulation](https://quantumzeitgeist.com/luxembourg-quantum-system-simulation-negative-dissipation) (QuantumNews.ai, score 61)
   - 2026-08-03 — [UC Berkeley and QuantrolOx Sign Five-Year Partnership to Industrialize Quantum Processing](https://quantumcomputingreport.com/uc-berkeley-and-quantrolox-sign-five-year-partnership-to-industrialize-quantum-processing) (QuantumNews.ai, score 29)
-
-## Standards / Government
-
-- Organizations/sources: The Quantum Insider, QuantumNews.ai, Quantum Zeitgeist, arXiv RSS cs.CR
-- Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
-- Recent supporting evidence:
-  - 2026-08-07 — [IonQ’s quantum space division wins $25.6M radar imagery contract](https://quantumzeitgeist.com/ionqs-win-quantum-space-25-6m) (Quantum Zeitgeist, score 31)
-  - 2026-08-05 — [IonQ and Sandia National Laboratories Partner on Quantum Technology Research](https://thequantuminsider.com/2026/08/05/ionq-sandia-quantum-technology-research-partnership) (The Quantum Insider, score 100)
-  - 2026-08-05 — [Israel Launches National Quantum Computer Tender as Part of Broader AI Sovereignty Strategy](https://thequantuminsider.com/2026/08/05/israel-launches-national-quantum-computer-tender-as-part-of-broader-ai-sovereignty-strategy) (The Quantum Insider, score 100)
-  - 2026-08-05 — [Quantum Club Thailand helps Bangkok build a hub to grow quantum skills & business](https://quantumzeitgeist.com/quantum-club-skills-business) (Quantum Zeitgeist, score 100)
-  - 2026-08-05 — [Texas Quantum Summit to Bring Industry, Government and Academic Leaders Together at UT Dallas](https://thequantuminsider.com/2026/08/05/texas-quantum-summit-to-bring-industry-government-and-academic-leaders-together-at-ut-dallas) (The Quantum Insider, score 100)

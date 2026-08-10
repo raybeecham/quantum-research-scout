@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-08-09 04:14 UTC_
+_Updated 2026-08-10 01:15 UTC_
 
 ## Organizations
 
@@ -13,7 +13,7 @@ _Updated 2026-08-09 04:14 UTC_
 | NIST | ↘️ declining (2 vs 3) | 🔴 critical | active | 2026-06-25 | 2026-08-06 | 7 | 1 |
 | Keyfactor | ↘️ declining (0 vs 6) | 🟠 high | quiet | 2025-10-29 | 2026-07-31 | 22 | 14 |
 | Fortanix | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2024-08-19 | 2026-07-30 | 20 | 20 |
-| IBM | ↘️ declining (3 vs 6) | 🟠 high | active | 2026-06-23 | 2026-08-08 | 18 | 0 |
+| IBM | ↘️ declining (2 vs 7) | 🟠 high | active | 2026-06-23 | 2026-08-08 | 18 | 0 |
 | IonQ | ↗️ rising (8 vs 2) | 🟠 high | active | 2026-06-22 | 2026-08-08 | 11 | 0 |
 | QuEra | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-22 | 2026-07-22 | 9 | 8 |
 | PsiQuantum | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-02-26 | 2026-07-22 | 8 | 8 |
