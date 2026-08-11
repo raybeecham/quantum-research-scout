@@ -1,14 +1,14 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 29.9,
+      "acceptance_rate": 29.2,
       "accepted": 26,
-      "quarantined": 61,
+      "quarantined": 63,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 94.1,
-      "accepted": 383,
+      "acceptance_rate": 94.3,
+      "accepted": 395,
       "quarantined": 24,
       "scope": "Federal funding"
     }
@@ -445,6 +445,29 @@
       "stage": "mission evidence admission",
       "title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
       "url": "https://www.grants.gov/search-results-detail/363293"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "AI Forge",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-22",
+      "key": "https://www.grants.gov/search-results-detail/363269",
+      "mission_id": "ai-forge",
+      "mission_name": "AI Forge",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 AI Forge",
+      "stage": "mission evidence admission",
+      "title": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
+      "url": "https://www.grants.gov/search-results-detail/363269"
     },
     {
       "admission": {
@@ -1881,6 +1904,29 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2019-12-02",
+      "key": "https://www.grants.gov/search-results-detail/322814",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "AFCP 2020 Small Grants Competition",
+      "url": "https://www.grants.gov/search-results-detail/322814"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "Genesis Mission",
         "reason_codes": [
           "official_source",
@@ -1950,17 +1996,17 @@
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 85,
+      "count": 87,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 85,
+      "count": 87,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 83,
+      "count": 85,
       "label": "Official government source"
     },
     {
@@ -1971,14 +2017,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 82.8,
-    "accepted": 409,
-    "decisions": 494,
+    "acceptance_rate": 82.9,
+    "accepted": 421,
+    "decisions": 508,
     "funding_quarantine": 24,
-    "mission_quarantine": 61,
-    "quarantined": 85,
+    "mission_quarantine": 63,
+    "quarantined": 87,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-10T01:11:12.453336+00:00",
+  "updated_at": "2026-08-11T01:10:04.632160+00:00",
   "version": 1
 }

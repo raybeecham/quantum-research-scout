@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-08-10 01:15 UTC_
+_Updated 2026-08-11 01:16 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
@@ -21,8 +21,8 @@ Assessed **22 of 43** configured organizations.
 | Fortanix | Planning | medium | 20 | 1 | 20 | 2026-07-30 |
 | Thales | Planning | medium | 2 | 2 | 0 | 2026-08-05 |
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
-| Cisco | Awareness | medium | 2 | 1 | 0 | 2026-08-03 |
-| Cloudflare | Awareness | medium | 3 | 2 | 0 | 2026-07-29 |
+| Cloudflare | Awareness | high | 4 | 3 | 0 | 2026-08-10 |
+| Cisco | Awareness | medium | 3 | 1 | 0 | 2026-08-10 |
 | ISO/IEC | Awareness | medium | 2 | 2 | 0 | 2026-07-15 |
 | ANSSI | Awareness | low | 1 | 1 | 0 | 2026-06-23 |
 | AWS | Awareness | low | 1 | 1 | 0 | 2026-07-01 |

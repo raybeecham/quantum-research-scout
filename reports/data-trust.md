@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-10T01:11:12.453336+00:00_
+_Updated 2026-08-11T01:10:04.632160+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **409**
-- Quarantined evidence or relationships: **85**
-- Acceptance rate: **82.8%**
+- Accepted evidence: **421**
+- Quarantined evidence or relationships: **87**
+- Acceptance rate: **82.9%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 26 | 61 | 29.9% |
-| Federal funding | 383 | 24 | 94.1% |
+| Federal missions | 26 | 63 | 29.2% |
+| Federal funding | 395 | 24 | 94.3% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 85
-- **No relevant term in the evidence itself**: 85
-- **Official government source**: 83
+- **Match appears only in collector query metadata**: 87
+- **No relevant term in the evidence itself**: 87
+- **Official government source**: 85
 - **Source is not an official .gov or .mil domain**: 2
 
 ## Quarantined Evidence
@@ -151,6 +151,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy](https://www.grants.gov/search-results-detail/363293)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [U.S-Nigeria Creative, Digital, & Innovation Economy Initiative](https://www.grants.gov/search-results-detail/363269)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
@@ -592,6 +599,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [AFCP 2020 Small Grants Competition](https://www.grants.gov/search-results-detail/322815)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [AFCP 2020 Small Grants Competition](https://www.grants.gov/search-results-detail/322814)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

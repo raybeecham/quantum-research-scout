@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-10T01:11:12.453336+00:00_
+_Updated 2026-08-11T01:10:04.632160+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **20** (**26.7%** coverage)
+- SAM.gov-resolved entities: **23** (**30.7%** coverage)
 - Newly resolved this run: **3**
-- Pending bounded enrichment: **152**
+- Pending bounded enrichment: **150**
 - Ambiguous / no match: **0 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -31,9 +31,12 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | ARETE CONSULTING LLC | [ARETE CONSULTING LLC](https://sam.gov/entity/C2PNBME1GYB5/coreData) | C2PNBME1GYB5 | 7LRX4 | Active | SBA Certified 8(a) Program Participant |
 | UNIVERSITY OF WISCONSIN SYSTEM | [UNIVERSITY OF WISCONSIN SYSTEM](https://sam.gov/entity/LCLSJAGTNZQ7/coreData) | LCLSJAGTNZQ7 | 09FZ2 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | UNIVERSITY OF WASHINGTON | [UNIVERSITY OF WASHINGTON](https://sam.gov/entity/HD1WMN6945W6/coreData) | HD1WMN6945W6 | 1HEX5 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. Local Government |
+| PURDUE UNIVERSITY | [PURDUE UNIVERSITY](https://sam.gov/entity/YRXVL4JYCEF5/coreData) | YRXVL4JYCEF5 | 6D418 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | [OLD DOMINION UNIVERSITY RESEARCH FOUNDATION](https://sam.gov/entity/DSLXBD7UWRV6/coreData) | DSLXBD7UWRV6 | 5D075 | Active | Business or Organization, Foundation, Non-Profit Organization |
 | KPMG LLP | [KPMG LLP](https://sam.gov/entity/MAA3SBSDQVM1/coreData) | MAA3SBSDQVM1 | 7QEG9 | Active | Business or Organization, For Profit Organization |
 | BOOZ ALLEN HAMILTON INC | [BOOZ ALLEN HAMILTON INC](https://sam.gov/entity/JCBMLGPE6Z71/coreData) | JCBMLGPE6Z71 | 17038 | Active | Business or Organization, For Profit Organization |
+| PARAGON MICRO INC | [PARAGON MICRO INC](https://sam.gov/entity/E41LV9AJGHQ1/coreData) | E41LV9AJGHQ1 | 4ZHT8 | Active | Business or Organization, For Profit Organization |
+| FLORIDA INSTITUTE OF TECHNOLOGY INC | [FLORIDA INSTITUTE OF TECHNOLOGY INC](https://sam.gov/entity/WNN6VH618X58/coreData) | WNN6VH618X58 | 3B476 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
 | REDACTED DUE TO PII | REDACTED DUE TO PII | — | — | no_match | No active public SAM.gov entity matched |
 | POST QUANTUM LABS LLC | POST QUANTUM LABS LLC | — | — | pending | api key missing |
@@ -86,9 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | THUNDERCAT TECHNOLOGY, LLC | THUNDERCAT TECHNOLOGY, LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | THUNDERCAT TECHNOLOGY, LLC | THUNDERCAT TECHNOLOGY, LLC | — | — | pending | api key missing |
 | RAVENTEK SOLUTION PARTNERS, LLC | RAVENTEK SOLUTION PARTNERS, LLC | — | — | pending | Queued for a future bounded enrichment batch |
-| RAVENTEK SOLUTION PARTNERS, LLC | RAVENTEK SOLUTION PARTNERS, LLC | — | — | pending | api key missing |
-| MASSACHUSETTS INSTITUTE OF TECHNOLOGY | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | — | — | pending | api key missing |
-| IZUM INC | IZUM INC | — | — | pending | Queued for a future bounded enrichment batch |
 
 ## Method
 

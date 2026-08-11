@@ -83,7 +83,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 12,
+      "evidence_count": 14,
       "first_party_evidence_count": 0,
       "name": "Infleqtion",
       "priority": "medium",
@@ -93,7 +93,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 10,
+      "evidence_count": 12,
       "first_party_evidence_count": 0,
       "name": "Pasqal",
       "priority": "medium",
@@ -215,8 +215,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 4,
-      "first_party_evidence_count": 3,
+      "evidence_count": 5,
+      "first_party_evidence_count": 4,
       "name": "Cisco",
       "priority": "high",
       "status": "covered",
@@ -236,7 +236,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "first_party_evidence_count": 5,
       "name": "Cloudflare",
       "priority": "high",
@@ -817,9 +817,9 @@
       "first_seen": "2026-06-25",
       "historical_evidence_count": 1,
       "latest_seen": "2026-08-06",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "NIST",
-      "prior_count": 3,
+      "prior_count": 2,
       "priority": "critical",
       "recent_count": 2,
       "status": "active",
@@ -1274,7 +1274,7 @@
       "latest_seen": "2026-07-31",
       "momentum": "declining",
       "name": "Keyfactor",
-      "prior_count": 6,
+      "prior_count": 4,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -2020,7 +2020,7 @@
       "latest_seen": "2026-08-08",
       "momentum": "declining",
       "name": "IBM",
-      "prior_count": 7,
+      "prior_count": 6,
       "priority": "high",
       "recent_count": 2,
       "status": "active",
@@ -2792,6 +2792,100 @@
       "type": "company"
     },
     {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 6,
+      "evidence": [
+        {
+          "date": "2026-08-10",
+          "key": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high",
+          "report": "2026-08/2026-08-10-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Cloudflare Expands Quantum-Safe Government Security Platform With FedRAMP High Authorization",
+          "url": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high"
+        },
+        {
+          "date": "2026-08-06",
+          "key": "https://blog.cloudflare.com/mcp-v2",
+          "report": "2026-08/2026-08-06-digest.md",
+          "score": 26,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The next generation of MCP",
+          "url": "https://blog.cloudflare.com/mcp-v2"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://blog.cloudflare.com/smaller-faster-safer-models",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 22,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+          "url": "https://blog.cloudflare.com/smaller-faster-safer-models"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 55,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post-quantum authentication to origins is now supported",
+          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
+        },
+        {
+          "date": "2026-07-09",
+          "key": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
+          "report": "2026-07/2026-07-09-digest.md",
+          "score": 139,
+          "source": "Cloudflare Post-Quantum Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why we cannot wait for better post-quantum signature algorithms",
+          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://blog.cloudflare.com/post-quantum-eo-2026",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 50,
+          "source": "Cloudflare Post-Quantum Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
+          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
+        }
+      ],
+      "evidence_count": 6,
+      "first_seen": "2026-06-23",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-08-10",
+      "momentum": "stable",
+      "name": "Cloudflare",
+      "prior_count": 2,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "AI Security",
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
       "aliases": [
         "Accenture",
         "Accenture Federal Services",
@@ -2941,94 +3035,24 @@
       "type": "consulting"
     },
     {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 5,
-      "evidence": [
-        {
-          "date": "2026-08-06",
-          "key": "https://blog.cloudflare.com/mcp-v2",
-          "report": "2026-08/2026-08-06-digest.md",
-          "score": 26,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The next generation of MCP",
-          "url": "https://blog.cloudflare.com/mcp-v2"
-        },
-        {
-          "date": "2026-08-03",
-          "key": "https://blog.cloudflare.com/smaller-faster-safer-models",
-          "report": "2026-08/2026-08-03-digest.md",
-          "score": 22,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "AI Security"
-          ],
-          "title": "Smaller, faster, safer: running Kimi and GLM at scale",
-          "url": "https://blog.cloudflare.com/smaller-faster-safer-models"
-        },
-        {
-          "date": "2026-07-29",
-          "key": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
-          "report": "2026-07/2026-07-29-digest.md",
-          "score": 55,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Post-quantum authentication to origins is now supported",
-          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
-        },
-        {
-          "date": "2026-07-09",
-          "key": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
-          "report": "2026-07/2026-07-09-digest.md",
-          "score": 139,
-          "source": "Cloudflare Post-Quantum Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Why we cannot wait for better post-quantum signature algorithms",
-          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
-        },
-        {
-          "date": "2026-06-23",
-          "key": "https://blog.cloudflare.com/post-quantum-eo-2026",
-          "report": "2026-06/2026-06-23-digest.md",
-          "score": 50,
-          "source": "Cloudflare Post-Quantum Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
-          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
-        }
-      ],
-      "evidence_count": 5,
-      "first_seen": "2026-06-23",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-08-06",
-      "momentum": "rising",
-      "name": "Cloudflare",
-      "prior_count": 1,
-      "priority": "high",
-      "recent_count": 2,
-      "status": "active",
-      "themes": [
-        "AI Security",
-        "PQC / Crypto Agility"
-      ],
-      "type": "company"
-    },
-    {
       "aliases": [
         "Cisco Systems"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 4,
+      "current_evidence_count": 5,
       "evidence": [
+        {
+          "date": "2026-08-10",
+          "key": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6",
+          "report": "2026-08/2026-08-10-digest.md",
+          "score": 194,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Who Goes There? Post-Quantum Authentication \u2013 IPsec Series, Part 6",
+          "url": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6"
+        },
         {
           "date": "2026-08-04",
           "key": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know",
@@ -3078,10 +3102,10 @@
           "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
         }
       ],
-      "evidence_count": 4,
+      "evidence_count": 5,
       "first_seen": "2026-07-27",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-04",
+      "latest_seen": "2026-08-10",
       "momentum": "stable",
       "name": "Cisco",
       "prior_count": 2,
@@ -3737,9 +3761,9 @@
       "first_seen": "2026-07-27",
       "historical_evidence_count": 0,
       "latest_seen": "2026-07-27",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "PQCA",
-      "prior_count": 2,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -3943,11 +3967,11 @@
       "first_seen": "2026-08-03",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-03",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "DigiCert",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -4062,9 +4086,9 @@
       "first_seen": "2026-07-27",
       "historical_evidence_count": 0,
       "latest_seen": "2026-07-27",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Open Quantum Safe",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -4078,8 +4102,32 @@
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 12,
+      "current_evidence_count": 14,
       "evidence": [
+        {
+          "date": "2026-08-10",
+          "key": "https://thequantuminsider.com/2026/08/10/infleqtion-eaton-quantum-computing-power-grid-resilience",
+          "report": "2026-08/2026-08-10-digest.md",
+          "score": 41,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion Selected by Eaton to Explore Quantum Computing for Power Grid Resilience",
+          "url": "https://thequantuminsider.com/2026/08/10/infleqtion-eaton-quantum-computing-power-grid-resilience"
+        },
+        {
+          "date": "2026-08-10",
+          "key": "https://infleqtion.com/infleqtion-selected-by-eaton-to-support-research-advancing-quantum-computing-for-u-s-grid-resilience",
+          "report": "2026-08/2026-08-10-digest.md",
+          "score": 36,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion Selected by Eaton to Support Research Advancing Quantum Computing for U.S. Grid Resilience",
+          "url": "https://infleqtion.com/infleqtion-selected-by-eaton-to-support-research-advancing-quantum-computing-for-u-s-grid-resilience"
+        },
         {
           "date": "2026-08-08",
           "key": "https://thequantuminsider.com/2026/08/08/matt-kinsella-infleqtion-why-neutral-atoms-power-sensors-clocks-and-computers-alike",
@@ -4225,15 +4273,15 @@
           "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
         }
       ],
-      "evidence_count": 12,
+      "evidence_count": 14,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-08",
-      "momentum": "declining",
+      "latest_seen": "2026-08-10",
+      "momentum": "stable",
       "name": "Infleqtion",
       "prior_count": 3,
       "priority": "medium",
-      "recent_count": 1,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -4244,8 +4292,32 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 10,
+      "current_evidence_count": 12,
       "evidence": [
+        {
+          "date": "2026-08-10",
+          "key": "https://thequantuminsider.com/2026/08/10/pasqal-photonic-chip-control-neutral-atom-quantum-computers",
+          "report": "2026-08/2026-08-10-digest.md",
+          "score": 61,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal Demonstrates Photonic Chip-Based Control for Neutral-Atom Quantum Computers",
+          "url": "https://thequantuminsider.com/2026/08/10/pasqal-photonic-chip-control-neutral-atom-quantum-computers"
+        },
+        {
+          "date": "2026-08-10",
+          "key": "https://quantumzeitgeist.com/aeponyx-tech-lets-pasqal-control",
+          "report": "2026-08/2026-08-10-digest.md",
+          "score": 27,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Aeponyx tech lets Pasqal control four qubits on a chip",
+          "url": "https://quantumzeitgeist.com/aeponyx-tech-lets-pasqal-control"
+        },
         {
           "date": "2026-08-06",
           "key": "https://thequantuminsider.com/2026/08/06/pasqal-business-combination-filing-bleichroeder-declared-effective-sec",
@@ -4367,15 +4439,15 @@
           "url": "https://thequantuminsider.com/2026/06/29/pasqal-appoints-stephane-rougeot-chief-financial-officer"
         }
       ],
-      "evidence_count": 10,
+      "evidence_count": 12,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-06",
+      "latest_seen": "2026-08-10",
       "momentum": "rising",
       "name": "Pasqal",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 1,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "Quantum Hardware"
@@ -5179,9 +5251,9 @@
       "latest_seen": "2026-08-03",
       "momentum": "declining",
       "name": "Crypto-agility",
-      "prior_count": 9,
+      "prior_count": 8,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -5899,8 +5971,20 @@
         "entanglement distribution"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 3,
+      "current_evidence_count": 4,
       "evidence": [
+        {
+          "date": "2026-08-10",
+          "key": "https://quantumcomputingreport.com/qunnect-and-monarch-quantum-partner-to-commercialize-deployable-quantum-networking-infrastructure",
+          "report": "2026-08/2026-08-10-digest.md",
+          "score": 68,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Qunnect and Monarch Quantum Partner to Commercialize Deployable Quantum Networking Infrastructure",
+          "url": "https://quantumcomputingreport.com/qunnect-and-monarch-quantum-partner-to-commercialize-deployable-quantum-networking-infrastructure"
+        },
         {
           "date": "2026-08-07",
           "key": "https://thequantuminsider.com/2026/08/07/zerotier-carahsoft-partner-post-quantum-secure-software-defined-networking-public-sector",
@@ -5962,15 +6046,15 @@
           "url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
         }
       ],
-      "evidence_count": 4,
+      "evidence_count": 5,
       "first_seen": "2026-07-07",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-08-07",
+      "latest_seen": "2026-08-10",
       "momentum": "rising",
       "name": "Quantum networking",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -6320,6 +6404,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-10T01:15:02.081198+00:00",
+  "updated_at": "2026-08-11T01:16:00.764901+00:00",
   "version": 2
 }

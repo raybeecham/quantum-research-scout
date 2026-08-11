@@ -758,62 +758,32 @@
       "type": "consulting"
     },
     {
-      "confidence": "medium",
-      "evidence_count": 2,
+      "confidence": "high",
+      "evidence_count": 4,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-08-03",
-      "name": "Cisco",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-08-03",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "quantum safe"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "A Different Road to Quantum Safety: The PPK \u2013 IPsec Series, Part 5",
-          "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
-        },
-        {
-          "date": "2026-07-27",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
-          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
-        }
-      ],
-      "type": "company"
-    },
-    {
-      "confidence": "medium",
-      "evidence_count": 3,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-07-29",
+      "latest_evidence_at": "2026-08-10",
       "name": "Cloudflare",
       "priority": "high",
-      "source_count": 2,
+      "source_count": 3,
       "stage": "awareness",
       "stage_label": "Awareness",
       "stage_rank": 1,
       "supporting_evidence": [
+        {
+          "date": "2026-08-10",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum-safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "The Quantum Insider",
+          "title": "Cloudflare Expands Quantum-Safe Government Security Platform With FedRAMP High Authorization",
+          "url": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high"
+        },
         {
           "date": "2026-07-29",
           "date_confidence": "unknown",
@@ -858,6 +828,66 @@
           "source": "Cloudflare Post-Quantum Blog",
           "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
           "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "medium",
+      "evidence_count": 3,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-08-10",
+      "name": "Cisco",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-08-10",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Who Goes There? Post-Quantum Authentication \u2013 IPsec Series, Part 6",
+          "url": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6"
+        },
+        {
+          "date": "2026-08-03",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "A Different Road to Quantum Safety: The PPK \u2013 IPsec Series, Part 5",
+          "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
+        },
+        {
+          "date": "2026-07-27",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
+          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
         }
       ],
       "type": "company"
@@ -1514,6 +1544,6 @@
     "not_assessed": 21,
     "organizations": 43
   },
-  "updated_at": "2026-08-10T01:15:02.501205+00:00",
+  "updated_at": "2026-08-11T01:16:01.179282+00:00",
   "version": 1
 }
