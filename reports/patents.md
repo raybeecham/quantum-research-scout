@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-08-11T01:10:04.632160+00:00_
+_Updated 2026-08-12T01:17:45.977018+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
 **Ranking:** Strategic significance first, combining domain relevance, document stage, legal status, citation evidence, family depth, recency, and assignee attribution. Evidence score and publication date break ties.
 
-- Tracked publications: **205**
+- Tracked publications: **206**
 - Curated notable patents: **2**
-- Automated recent discoveries: **203**
+- Automated recent discoveries: **204**
 - Published in the last 30 days: **45**
 - Unique named assignees: **134**
-- Patent families: **195**
-- Applications / grants: **197 / 8**
-- Known legal status: **154 of 205**
+- Patent families: **196**
+- Applications / grants: **197 / 9**
+- Known legal status: **156 of 206**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -121,7 +121,9 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [APPARATUS, ARRANGEMENT AND METHOD FOR ELECTROMAGNETIC ISOLATION FOR QUANTUM COMPUTING CIRCUIT](https://data.uspto.gov/patent-file-wrapper/search/details/19455036/application-data)<br><small>US20260149438A1</small> | Application · Pending | IQM FINLAND OY | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [DIAGNOSIS AND TREATMENT RECOMMENDATION USING QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19427214/application-data)<br><small>US20260128171A1</small> | Application · Pending | Optum Services (Ireland) Limited | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [SIMULATING QUANTUM COMPUTING CIRCUITS USING KRONECKER FACTORIZATION](https://data.uspto.gov/patent-file-wrapper/search/details/19420562/application-data)<br><small>US20260105340A1</small> | Application · Pending | NVIDIA Corporation | 1 member(s) · 0 citation(s) | **65 · HIGH** |
+| [METHOD FOR CARRYING OUT USER AUTHENTICATION IN QUANTUM COMMUNICATION SYSTEM, AND DEVICE THEREFOR](https://data.uspto.gov/patent-file-wrapper/search/details/19101550/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **64 · HIGH** |
 | [METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025049807/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | ARRIS ENTERPRISES LLC | 2 member(s) · 0 citation(s) | **63 · HIGH** |
+| [SYSTEM AND METHOD FOR SOURCE TRUST-BASED DETECTION OF CYBERSECURITY ISSUES IN A COMPUTING ENVIRONMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19538072/application-data)<br><small>12705349</small> | Grant · Granted | Wiz, Inc. | 1 member(s) · 0 citation(s) | **63 · HIGH** |
 | [QUANTUM COMMUNICATION SYSTEM THAT SWITCHES BETWEEN QUANTUM KEY DISTRIBUTION (QKD) PROTOCOLS AND ASSOCIATED METHODS](https://data.uspto.gov/patent-file-wrapper/search/details/19188080/application-data)<br><small>US20250254033A1</small> | Application · Pending | Eagle Technology, LLC | 1 member(s) · 0 citation(s) | **62 · HIGH** |
 | [ZERO-TRUST MULTI-AGENT GOVERNANCE FRAMEWORK FOR CLINICAL ARTIFICIAL INTELLIGENCE](https://data.uspto.gov/patent-file-wrapper/search/details/19455879/application-data)<br><small>US20260154580A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **62 · HIGH** |
 | [SYSTEM AND METHOD FOR INTELLIGENT CYBERSECURITY ANALYSIS USING ARTIFICIAL INTELLIGENCE](https://data.uspto.gov/patent-file-wrapper/search/details/19457312/application-data)<br><small>US20260156144A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **62 · HIGH** |
@@ -185,7 +187,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [CACHE TECHNIQUES FOR LARGE LANGUAGE MODEL PROCESSING](https://data.uspto.gov/patent-file-wrapper/search/details/19530824/application-data)<br><small>US20260171084A1</small> | Application · Pending | Amazon Technologies, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [ROLE-BASED LARGE LANGUAGE MODEL TO ENABLE SECURITY AND ACCURACY](https://data.uspto.gov/patent-file-wrapper/search/details/19450581/application-data)<br><small>US20260141102A1</small> | Application · Pending | NVIDIA Corporation | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA](https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data)<br><small>US20260134315A1</small> | Application · Pending | KLIMANOVUS LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
-| [METHOD FOR CARRYING OUT USER AUTHENTICATION IN QUANTUM COMMUNICATION SYSTEM, AND DEVICE THEREFOR](https://data.uspto.gov/patent-file-wrapper/search/details/19101550/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **56 · NOTABLE** |
 | [METADATA-BASED DATA OBJECT DETECTION AND CLASSIFICATION IN CLOUD COMPUTING ENVIRONMENTS FOR DATA SECURITY POSTURE MANAGEMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19562220/application-data)<br><small>12694107</small> | Grant · Granted | Wiz, Inc. | 1 member(s) · 0 citation(s) | **55 · NOTABLE** |
 | [OPTICAL TERMINAL AND METHOD FOR QUANTUM COMMUNICATION](https://data.uspto.gov/patent-file-wrapper/search/details/18940394/application-data)<br><small>US20250175259A1</small> | Application · Unknown | Airbus SAS | 1 member(s) · 0 citation(s) | **54 · NOTABLE** |
 | [QUANTUM NETWORK DEVICES, SYSTEMS, AND METHODS](https://data.uspto.gov/patent-file-wrapper/search/details/18962046/application-data)<br><small>US20250097021A1</small> | Application · Unknown | QUNNECT, INC., THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | 1 member(s) · 0 citation(s) | **54 · NOTABLE** |

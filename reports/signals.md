@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-11 01:16 UTC_
+_Updated 2026-08-12 01:26 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
@@ -12,11 +12,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (3 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-08-08 | 14 |
 | Quantum Sensing | ↗️ rising (8 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-08-10 | 33 |
-| Standards / Government | ↗️ rising (9 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-08-10 | 17 |
-| PQC / Crypto Agility | ➡️ stable (15 vs 20) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-08-10 | 114 |
+| Standards / Government | ↗️ rising (12 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-08-11 | 20 |
+| PQC / Crypto Agility | ➡️ stable (15 vs 20) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-08-11 | 118 |
 | QEC / Fault Tolerance | ↘️ declining (3 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-08-08 | 40 |
-| Quantum Hardware | ➡️ stable (23 vs 26) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-10 | 182 |
-| Quantum Networking | ➡️ stable (15 vs 11) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-10 | 74 |
+| Quantum Hardware | ➡️ stable (23 vs 23) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-11 | 184 |
+| Quantum Networking | ➡️ stable (13 vs 14) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-11 | 76 |
 | Quantum Software / Tooling | ↘️ declining (5 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-08 | 57 |
 
 ## AI Security
@@ -43,25 +43,25 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 
 ## Standards / Government
 
-- Organizations/sources: The Quantum Insider, QuantumNews.ai, Quantum Zeitgeist, arXiv RSS cs.CR
+- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, arXiv RSS cs.CR
 - Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
 - Recent supporting evidence:
+  - 2026-08-11 — [Cloudflare achieves quantum-secure FedRAMP High for U.S. government work](https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government) (Quantum Zeitgeist, score 100)
+  - 2026-08-11 — [Guest Post: US Quantum Resilience Clock Just Became Operational](https://thequantuminsider.com/2026/08/11/guest-post-us-quantum-resilience-clock-just-became-operational) (The Quantum Insider, score 100)
+  - 2026-08-11 — [Utah will coordinate quantum research with a new state initiative](https://quantumzeitgeist.com/utah-quantum-initiative-coordinate-research) (Quantum Zeitgeist, score 100)
   - 2026-08-10 — [CP Group and qBraid launch Thailand’s quantum workforce program](https://quantumzeitgeist.com/quantum-workforce-program-qbraid-thailands) (QuantumNews.ai, score 100)
   - 2026-08-10 — [Utah Launches Quantum Initiative With New Quantum Coordination Council](https://thequantuminsider.com/2026/08/10/utah-launches-quantum-initiative) (The Quantum Insider, score 100)
-  - 2026-08-09 — [UCalgary builds secure hub for quantum defence innovation](https://quantumzeitgeist.com/quantum-defence-innovation-ucalgary-hub) (Quantum Zeitgeist, score 100)
-  - 2026-08-07 — [IonQ’s quantum space division wins $25.6M radar imagery contract](https://quantumzeitgeist.com/ionqs-win-quantum-space-25-6m) (Quantum Zeitgeist, score 31)
-  - 2026-08-05 — [IonQ and Sandia National Laboratories Partner on Quantum Technology Research](https://thequantuminsider.com/2026/08/05/ionq-sandia-quantum-technology-research-partnership) (The Quantum Insider, score 100)
 
 ## PQC / Crypto Agility
 
-- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Keyfactor Quantum and Crypto-Agility
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, IACR ePrint, Keyfactor Quantum and Crypto-Agility
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-08-11 — [Carahsoft simplifies QuSecure’s quantum security for US government buyers](https://quantumzeitgeist.com/carahsoft-simplifies-qusecures-quantum-security) (Quantum Zeitgeist, score 100)
+  - 2026-08-11 — [QuSecure Adds Post-Quantum Cryptography Platform to Carahsoft GSA Schedule](https://thequantuminsider.com/2026/08/11/qusecure-post-quantum-cryptography-solutions-carahsoft-gsa-schedule) (The Quantum Insider, score 100)
+  - 2026-08-11 — [WISeKey combines identity tech with post-quantum security](https://quantumzeitgeist.com/post-quantum-security-wisekey-combines-identity) (Quantum Zeitgeist, score 69)
+  - 2026-08-11 — [QUANTUM + AI NEW YORK OCTOBER 25-27, 2026 — EARLY BIRD ENDS 27 AUGUST](https://www.insidequantumtechnology.com/news-archive/quantum-ai-new-york-october-25-27-2026-early-bird-ends-27-august) (QuantumNews.ai, score 26)
   - 2026-08-10 — [Who Goes There? Post-Quantum Authentication – IPsec Series, Part 6](https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6) (Cisco Quantum-Safe Updates, score 194)
-  - 2026-08-10 — [Cloudflare Expands Quantum-Safe Government Security Platform With FedRAMP High Authorization](https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high) (The Quantum Insider, score 100)
-  - 2026-08-09 — [ZeroTier links US agencies to post-quantum secure networks](https://quantumzeitgeist.com/post-quantum-zerotier-links-agencies) (Quantum Zeitgeist, score 111)
-  - 2026-08-07 — [Carahsoft to distribute ZeroTier’s quantum-safe networking platform](https://quantumzeitgeist.com/carahsoft-distribute-zerotiers-quantum-safe-networking) (Quantum Zeitgeist, score 55)
-  - 2026-08-07 — [Post-Quantum Cryptography Timelines: When Will Organizations Migrate?](https://thequantuminsider.com/2026/08/07/post-quantum-cryptography-timelines) (The Quantum Insider, score 55)
 
 ## QEC / Fault Tolerance
 
@@ -79,22 +79,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-08-11 — [Hefei Startup and USTC Demonstrate 16-Qubit On-Chip Photonic MBQC Architecture](https://quantumcomputingreport.com/hefei-startup-and-ustc-demonstrate-16-qubit-on-chip-photonic-mbqc-architecture) (QuantumNews.ai, score 38)
+  - 2026-08-11 — [OpenLight and Tower Semiconductor Enable Photonic IC Design on InP-on-Silicon Platform](https://thequantuminsider.com/2026/08/11/openlight-tower-semiconductor-photonic-ic-design-inp-silicon-platform) (The Quantum Insider, score 30)
   - 2026-08-10 — [Evaluating Error-Correction in Topological Qubits: Advances and Limits](https://quantumnews.ai/hardware/evaluating-error-correction-in-topological-qubits-advances-and-limits) (QuantumNews.ai, score 66)
   - 2026-08-10 — [Pasqal Demonstrates Photonic Chip-Based Control for Neutral-Atom Quantum Computers](https://thequantuminsider.com/2026/08/10/pasqal-photonic-chip-control-neutral-atom-quantum-computers) (The Quantum Insider, score 61)
   - 2026-08-10 — [Sizhen Chip Demonstrates Multi-Qubit Photonic Quantum States on Silicon Chip](https://thequantuminsider.com/2026/08/10/sizhen-chip-multi-qubit-photonic-quantum-states-silicon-chip) (The Quantum Insider, score 43)
-  - 2026-08-10 — [Aeponyx tech lets Pasqal control four qubits on a chip](https://quantumzeitgeist.com/aeponyx-tech-lets-pasqal-control) (QuantumNews.ai, score 27)
-  - 2026-08-08 — [Rigetti Computing Reports Q2 2026 Financial Results: Revenue Up 185% YoY, $100M CHIPS Act LOI, and HPE Supercomputing Partnership](https://quantumcomputingreport.com/rigetti-computing-reports-q2-2026-financial-results-revenue-up-185-yoy-100m-chips-act-loi-and-hpe-supercomputing-partnership) (QuantumNews.ai, score 100)
 
 ## Quantum Networking
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
+  - 2026-08-11 — [Qunnect and Monarch Quantum Partner to Develop Deployable Quantum Networking Hardware](https://thequantuminsider.com/2026/08/11/qunnect-monarch-quantum-deployable-quantum-networking-systems) (The Quantum Insider, score 68)
+  - 2026-08-11 — [Quantum networks move beyond labs with Qunnect, Monarch deal](https://quantumzeitgeist.com/qunnect-quantum-networks-move-beyond-labs) (Quantum Zeitgeist, score 61)
   - 2026-08-10 — [Qunnect and Monarch Quantum Partner to Commercialize Deployable Quantum Networking Infrastructure](https://quantumcomputingreport.com/qunnect-and-monarch-quantum-partner-to-commercialize-deployable-quantum-networking-infrastructure) (QuantumNews.ai, score 68)
   - 2026-08-07 — [ZeroTier and Carahsoft Partner to Expand Post-Quantum Networking Access for Government](https://thequantuminsider.com/2026/08/07/zerotier-carahsoft-partner-post-quantum-secure-software-defined-networking-public-sector) (The Quantum Insider, score 100)
   - 2026-08-07 — [Entanglement Assistance Monogamy Inequalities Defined for 2⊗2⊗d Systems](https://quantumzeitgeist.com/ludong-university-entanglement-assistance-monogamy) (Quantum Zeitgeist, score 27)
-  - 2026-08-07 — [Researchers Show Sunlight Can Generate Quantum Entanglement](https://thequantuminsider.com/2026/08/07/researchers-show-sunlight-can-generate-quantum-entanglement) (The Quantum Insider, score 27)
-  - 2026-08-06 — [enQase and Light Rider Partner to Deliver Integrated Quantum-Safe Communications Architecture](https://quantumcomputingreport.com/enqase-and-light-rider-partner-to-deliver-integrated-quantum-safe-communications-architecture) (QuantumNews.ai, score 110)
 
 ## Quantum Software / Tooling
 

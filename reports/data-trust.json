@@ -1,20 +1,66 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 29.2,
-      "accepted": 26,
-      "quarantined": 63,
+      "acceptance_rate": 28.1,
+      "accepted": 27,
+      "quarantined": 69,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 94.3,
-      "accepted": 395,
-      "quarantined": 24,
+      "acceptance_rate": 94.2,
+      "accepted": 408,
+      "quarantined": 25,
       "scope": "Federal funding"
     }
   ],
   "method_note": "Quarantine is not a finding that evidence is false or irrelevant. It means the current evidence is too weak for automated promotion and remains available for review.",
   "quarantined_evidence": [
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-11",
+      "key": "https://news.ua.edu/2026/08/ua-genesis-mission-award-will-create-ai-tool-for-particle-physics",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "QuantumNews.ai",
+      "stage": "mission evidence admission",
+      "title": "Research 7h ago AI meets particle physics in UA-Led Department of Energy project",
+      "url": "https://news.ua.edu/2026/08/ua-genesis-mission-award-will-create-ai-tool-for-particle-physics"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Executive Order 14412",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-11",
+      "key": "https://thequantuminsider.com/2026/08/11/guest-post-us-quantum-resilience-clock-just-became-operational",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "scope": "Federal missions",
+      "source": "The Quantum Insider",
+      "stage": "mission evidence admission",
+      "title": "Guest Post: US Quantum Resilience Clock Just Became Operational",
+      "url": "https://thequantuminsider.com/2026/08/11/guest-post-us-quantum-resilience-clock-just-became-operational"
+    },
     {
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
@@ -511,6 +557,29 @@
       "mission_name": "AI Forge",
       "scope": "Federal missions",
       "source": "Grants.gov \u00b7 AI Forge",
+      "stage": "mission evidence admission",
+      "title": "English Language Exchange Programs: AI and Educational Technology Integration",
+      "url": "https://www.grants.gov/search-results-detail/363105"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-08",
+      "key": "https://www.grants.gov/search-results-detail/363105",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
       "stage": "mission evidence admission",
       "title": "English Language Exchange Programs: AI and Educational Technology Integration",
       "url": "https://www.grants.gov/search-results-detail/363105"
@@ -1040,6 +1109,29 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "AI Forge",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-10",
+      "key": "https://www.grants.gov/search-results-detail/362743",
+      "mission_id": "ai-forge",
+      "mission_name": "AI Forge",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 AI Forge",
+      "stage": "mission evidence admission",
+      "title": "Decentralized Artificial Intelligence through Controlled Emergence (DICE)",
+      "url": "https://www.grants.gov/search-results-detail/362743"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "Military AI Pace-Setting Projects",
         "reason_codes": [
           "official_source",
@@ -1411,6 +1503,51 @@
         "score": 25,
         "status": "quarantined"
       },
+      "date": "2024-10-02",
+      "key": "https://www.grants.gov/search-results-detail/356623",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY",
+      "url": "https://www.grants.gov/search-results-detail/356623"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2024-10-02",
+      "key": "grants_gov:DE-FOA-0003467",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY",
+      "url": "https://www.grants.gov/search-results-detail/356623"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
       "date": "2024-08-20",
       "key": "https://www.grants.gov/search-results-detail/356129",
       "mission_id": "project-triad",
@@ -1729,6 +1866,29 @@
         "score": 25,
         "status": "quarantined"
       },
+      "date": "2022-09-22",
+      "key": "https://www.grants.gov/search-results-detail/343725",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "DOD Defense Health Agency (DHA) Research & Development FY23-FY27 BROAD AGENCY ANNOUNCEMENT for Extramural Medical Research",
+      "url": "https://www.grants.gov/search-results-detail/343725"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
       "date": "2022-07-27",
       "key": "https://www.grants.gov/search-results-detail/342752",
       "mission_id": "genesis-mission",
@@ -1996,35 +2156,35 @@
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 87,
+      "count": 94,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 87,
+      "count": 94,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 85,
+      "count": 90,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 2,
+      "count": 4,
       "label": "Source is not an official .gov or .mil domain"
     }
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 82.9,
-    "accepted": 421,
-    "decisions": 508,
-    "funding_quarantine": 24,
-    "mission_quarantine": 63,
-    "quarantined": 87,
+    "acceptance_rate": 82.2,
+    "accepted": 435,
+    "decisions": 529,
+    "funding_quarantine": 25,
+    "mission_quarantine": 69,
+    "quarantined": 94,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-11T01:10:04.632160+00:00",
+  "updated_at": "2026-08-12T01:17:45.977018+00:00",
   "version": 1
 }

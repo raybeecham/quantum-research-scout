@@ -389,12 +389,12 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 5,
+      "evidence_count": 6,
       "historical_evidence_count": 4,
-      "latest_evidence_at": "2026-07-25",
+      "latest_evidence_at": "2026-08-11",
       "name": "QuSecure",
       "priority": "high",
-      "source_count": 3,
+      "source_count": 4,
       "stage": "planning",
       "stage_label": "Planning",
       "stage_rank": 3,
@@ -428,6 +428,21 @@
           "source": "Accenture Quantum and PQC News",
           "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
           "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+        },
+        {
+          "date": "2026-08-11",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "The Quantum Insider",
+          "title": "QuSecure Adds Post-Quantum Cryptography Platform to Carahsoft GSA Schedule",
+          "url": "https://thequantuminsider.com/2026/08/11/qusecure-post-quantum-cryptography-solutions-carahsoft-gsa-schedule"
         },
         {
           "date": "2026-07-25",
@@ -1544,6 +1559,6 @@
     "not_assessed": 21,
     "organizations": 43
   },
-  "updated_at": "2026-08-11T01:16:01.179282+00:00",
+  "updated_at": "2026-08-12T01:26:45.145235+00:00",
   "version": 1
 }

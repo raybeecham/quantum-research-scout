@@ -1,28 +1,42 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-11T01:10:04.632160+00:00_
+_Updated 2026-08-12T01:17:45.977018+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **421**
-- Quarantined evidence or relationships: **87**
-- Acceptance rate: **82.9%**
+- Accepted evidence: **435**
+- Quarantined evidence or relationships: **94**
+- Acceptance rate: **82.2%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 26 | 63 | 29.2% |
-| Federal funding | 395 | 24 | 94.3% |
+| Federal missions | 27 | 69 | 28.1% |
+| Federal funding | 408 | 25 | 94.2% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 87
-- **No relevant term in the evidence itself**: 87
-- **Official government source**: 85
-- **Source is not an official .gov or .mil domain**: 2
+- **Match appears only in collector query metadata**: 94
+- **No relevant term in the evidence itself**: 94
+- **Official government source**: 90
+- **Source is not an official .gov or .mil domain**: 4
 
 ## Quarantined Evidence
+
+### [Research 7h ago AI meets particle physics in UA-Led Department of Energy project](https://news.ua.edu/2026/08/ua-genesis-mission-award-will-create-ai-tool-for-particle-physics)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [Guest Post: US Quantum Resilience Clock Just Became Operational](https://thequantuminsider.com/2026/08/11/guest-post-us-quantum-resilience-clock-just-became-operational)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [U.S. National Science Foundation State and Regional Artificial Intelligence Infrastructure Hubs:](https://www.grants.gov/search-results-detail/363481)
 
@@ -170,6 +184,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: mission evidence admission
 - Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 10
+
+### [English Language Exchange Programs: AI and Educational Technology Integration](https://www.grants.gov/search-results-detail/363105)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [English Language Exchange Programs: AI and Educational Technology Integration](https://www.grants.gov/search-results-detail/363105)
 
@@ -339,6 +360,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
+### [Decentralized Artificial Intelligence through Controlled Emergence (DICE)](https://www.grants.gov/search-results-detail/362743)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
 ### [Novel Experiential Technologies Assisting Individual Learning (NExT AI) Hubs (P20 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359949)
 
 - Scope: Federal missions
@@ -451,6 +479,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
+### [SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY](https://www.grants.gov/search-results-detail/356623)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY](https://www.grants.gov/search-results-detail/356623)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
 ### [Mid-scale Research Infrastructure-1](https://www.grants.gov/search-results-detail/356129)
 
 - Scope: Federal missions
@@ -536,6 +578,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [U.S. Mission to the United Nations-Geneva, Small Grants Program](https://www.grants.gov/search-results-detail/344437)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [DOD Defense Health Agency (DHA) Research & Development FY23-FY27 BROAD AGENCY ANNOUNCEMENT for Extramural Medical Research](https://www.grants.gov/search-results-detail/343725)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

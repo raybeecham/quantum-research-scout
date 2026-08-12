@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-11T01:10:04.632160+00:00_
+_Updated 2026-08-12T01:17:45.977018+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **23** (**30.7%** coverage)
+- SAM.gov-resolved entities: **26** (**34.7%** coverage)
 - Newly resolved this run: **3**
-- Pending bounded enrichment: **150**
+- Pending bounded enrichment: **148**
 - Ambiguous / no match: **0 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -35,8 +35,11 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | [OLD DOMINION UNIVERSITY RESEARCH FOUNDATION](https://sam.gov/entity/DSLXBD7UWRV6/coreData) | DSLXBD7UWRV6 | 5D075 | Active | Business or Organization, Foundation, Non-Profit Organization |
 | KPMG LLP | [KPMG LLP](https://sam.gov/entity/MAA3SBSDQVM1/coreData) | MAA3SBSDQVM1 | 7QEG9 | Active | Business or Organization, For Profit Organization |
 | BOOZ ALLEN HAMILTON INC | [BOOZ ALLEN HAMILTON INC](https://sam.gov/entity/JCBMLGPE6Z71/coreData) | JCBMLGPE6Z71 | 17038 | Active | Business or Organization, For Profit Organization |
+| REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | [Regents of the University of California, The](https://sam.gov/entity/GS3YEVSS12N6/coreData) | GS3YEVSS12N6 | 50853 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
+| QUANTUM FOODS INC | [QUANTUM FOODS INC](https://sam.gov/entity/S6M6AJJGH6C3/coreData) | S6M6AJJGH6C3 | 87Q54 | Active | Business or Organization, For Profit Organization, Self Certified Small Disadvantaged Business |
 | PARAGON MICRO INC | [PARAGON MICRO INC](https://sam.gov/entity/E41LV9AJGHQ1/coreData) | E41LV9AJGHQ1 | 4ZHT8 | Active | Business or Organization, For Profit Organization |
 | FLORIDA INSTITUTE OF TECHNOLOGY INC | [FLORIDA INSTITUTE OF TECHNOLOGY INC](https://sam.gov/entity/WNN6VH618X58/coreData) | WNN6VH618X58 | 3B476 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| FLORIDA ATLANTIC UNIVERSITY | [Florida Atlantic University](https://sam.gov/entity/Q266L2NDAVP1/coreData) | Q266L2NDAVP1 | 7B713 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
 | REDACTED DUE TO PII | REDACTED DUE TO PII | — | — | no_match | No active public SAM.gov entity matched |
 | POST QUANTUM LABS LLC | POST QUANTUM LABS LLC | — | — | pending | api key missing |
@@ -49,10 +52,8 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | KPMG LLP | KPMG LLP | — | — | pending | api key missing |
 | BOOZ ALLEN HAMILTON INC | BOOZ ALLEN HAMILTON INC | — | — | pending | api key missing |
 | UNIVERSITY OF OKLAHOMA | UNIVERSITY OF OKLAHOMA | — | — | pending | api key missing |
-| QUANTUM FOODS INC | QUANTUM FOODS INC | — | — | pending | Queued for a future bounded enrichment batch |
 | QUANTUM FOODS INC | QUANTUM FOODS INC | — | — | pending | api key missing |
 | FLORIDA INSTITUTE OF TECHNOLOGY INC | FLORIDA INSTITUTE OF TECHNOLOGY INC | — | — | pending | api key missing |
-| FLORIDA ATLANTIC UNIVERSITY | FLORIDA ATLANTIC UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
 | FLORIDA ATLANTIC UNIVERSITY | FLORIDA ATLANTIC UNIVERSITY | — | — | pending | api key missing |
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | — | — | pending | api key missing |
 | UNIVERSITY OF SOUTH FLORIDA | UNIVERSITY OF SOUTH FLORIDA | — | — | pending | Queued for a future bounded enrichment batch |
@@ -88,7 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | VALIANT SOLUTIONS, LLC | VALIANT SOLUTIONS, LLC | — | — | pending | api key missing |
 | THUNDERCAT TECHNOLOGY, LLC | THUNDERCAT TECHNOLOGY, LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | THUNDERCAT TECHNOLOGY, LLC | THUNDERCAT TECHNOLOGY, LLC | — | — | pending | api key missing |
-| RAVENTEK SOLUTION PARTNERS, LLC | RAVENTEK SOLUTION PARTNERS, LLC | — | — | pending | Queued for a future bounded enrichment batch |
 
 ## Method
 
