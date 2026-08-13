@@ -1210,21 +1210,48 @@
           "source": "The Quantum Insider",
           "title": "QuSecure Adds Post-Quantum Cryptography Platform to Carahsoft GSA Schedule",
           "url": "https://thequantuminsider.com/2026/08/11/qusecure-post-quantum-cryptography-solutions-carahsoft-gsa-schedule"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://quantumnews.ai/cryptography/regulatory-impacts-on-post-quantum-crypto-migration-in-2026",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 50,
+          "source": "QuantumNews.ai",
+          "title": "Regulatory Impacts on Post-Quantum Crypto Migration in 2026",
+          "url": "https://quantumnews.ai/cryptography/regulatory-impacts-on-post-quantum-crypto-migration-in-2026"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://thequantuminsider.com/2026/08/12/sui-co-founder-quantum-safe-wallet-cards-10-target-price",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 78,
+          "source": "The Quantum Insider",
+          "title": "Sui Co-Founder Works on $10 Quantum-Safe Hardware Wallet Cards",
+          "url": "https://thequantuminsider.com/2026/08/12/sui-co-founder-quantum-safe-wallet-cards-10-target-price"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://www.insidequantumtechnology.com/news-archive/iqt-the-quantum-dragon-podcast-episode-88-its-already-blinking-red",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 87,
+          "source": "QuantumNews.ai",
+          "title": "IQT The Quantum Dragon Podcast Episode 88 \u2013 It's already blinking red.",
+          "url": "https://www.insidequantumtechnology.com/news-archive/iqt-the-quantum-dragon-podcast-episode-88-its-already-blinking-red"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-08-11",
+      "latest_seen": "2026-08-12",
       "momentum": "stable",
       "organizations": [
-        "Quantum Zeitgeist",
         "The Quantum Insider",
+        "Quantum Zeitgeist",
         "QuantumNews.ai",
         "IACR ePrint",
         "Keyfactor Quantum and Crypto-Agility"
       ],
-      "prior_count": 20,
+      "prior_count": 19,
       "recent_count": 15,
       "status": "watching"
     },
@@ -1590,22 +1617,40 @@
           "source": "Quantum Zeitgeist",
           "title": "IonQ Quantum LDPC Codes Unlock 3\u00d7 Faster Joint Logical Measurements",
           "url": "https://quantumzeitgeist.com/viterbi-quantum-ldpc-codes-clinr-unlock"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://quantumzeitgeist.com/quantum-error-correction-alice-bob",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 31,
+          "source": "QuantumNews.ai",
+          "title": "Alice & Bob joins network to train quantum error correction experts",
+          "url": "https://quantumzeitgeist.com/quantum-error-correction-alice-bob"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://thequantuminsider.com/2026/08/12/alice-bob-partners-europe-first-doctoral-network-quantum-error-correction",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 109,
+          "source": "The Quantum Insider",
+          "title": "Alice & Bob Joins European Quantum Error Correction Doctoral Network",
+          "url": "https://thequantuminsider.com/2026/08/12/alice-bob-partners-europe-first-doctoral-network-quantum-error-correction"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-08-08",
-      "momentum": "declining",
+      "latest_seen": "2026-08-12",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
         "The Quantum Insider",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 5,
-      "recent_count": 3,
-      "status": "watching"
+      "prior_count": 2,
+      "recent_count": 4,
+      "status": "actionable"
     },
     "Quantum Hardware": {
       "confidence": "high",
@@ -3265,21 +3310,84 @@
           "source": "QuantumNews.ai",
           "title": "Hefei Startup and USTC Demonstrate 16-Qubit On-Chip Photonic MBQC Architecture",
           "url": "https://quantumcomputingreport.com/hefei-startup-and-ustc-demonstrate-16-qubit-on-chip-photonic-mbqc-architecture"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://quantumzeitgeist.com/zhejiang-university-quantum-integrated-sources-yield",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 24,
+          "source": "Quantum Zeitgeist",
+          "title": "Quantum integrated sources yield 2.58x more photons than before",
+          "url": "https://quantumzeitgeist.com/zhejiang-university-quantum-integrated-sources-yield"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://quantumzeitgeist.com/poincare-sphere-quantum-effects-control-light",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 28,
+          "source": "Quantum Zeitgeist",
+          "title": "New chip uses quantum effects to control light beams dynamically",
+          "url": "https://quantumzeitgeist.com/poincare-sphere-quantum-effects-control-light"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://thequantuminsider.com/2026/08/12/yonsei-quantum-initiative-ibm-nighthawk-processor-installation",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 28,
+          "source": "The Quantum Insider",
+          "title": "Yonsei to Install IBM Nighthawk Quantum Processor for Research and Industry Applications",
+          "url": "https://thequantuminsider.com/2026/08/12/yonsei-quantum-initiative-ibm-nighthawk-processor-installation"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://quantumzeitgeist.com/massachusetts-technology-qubit-errors-traced-two",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 37,
+          "source": "Quantum Zeitgeist",
+          "title": "Qubit errors traced to two sources, cosmic rays, cooler vibrations",
+          "url": "https://quantumzeitgeist.com/massachusetts-technology-qubit-errors-traced-two"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://thequantuminsider.com/2026/08/12/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 40,
+          "source": "The Quantum Insider",
+          "title": "Quantinuum and Oracle Partner to Accelerate Hybrid Quantum Compute Adoption on Oracle Cloud Infrastructure",
+          "url": "https://thequantuminsider.com/2026/08/12/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://thequantuminsider.com/2026/08/12/zapata-quantum-quera-quantum-application-development",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 44,
+          "source": "The Quantum Insider",
+          "title": "Zapata Quantum and QuEra Partner on Quantum Application Development",
+          "url": "https://thequantuminsider.com/2026/08/12/zapata-quantum-quera-quantum-application-development"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://quantumcomputingreport.com/quantinuum-and-oracle-partner-to-bring-helios-quantum-computer-to-oracle-cloud-infrastructure",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 47,
+          "source": "QuantumNews.ai",
+          "title": "Quantinuum and Oracle Partner to Bring Helios Quantum Computer to Oracle Cloud Infrastructure",
+          "url": "https://quantumcomputingreport.com/quantinuum-and-oracle-partner-to-bring-helios-quantum-computer-to-oracle-cloud-infrastructure"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-08-11",
+      "latest_seen": "2026-08-12",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
-        "QuantumNews.ai",
         "The Quantum Insider",
+        "QuantumNews.ai",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 23,
-      "recent_count": 23,
+      "prior_count": 22,
+      "recent_count": 25,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -3968,12 +4076,21 @@
           "source": "The Quantum Insider",
           "title": "Qunnect and Monarch Quantum Partner to Develop Deployable Quantum Networking Hardware",
           "url": "https://thequantuminsider.com/2026/08/11/qunnect-monarch-quantum-deployable-quantum-networking-systems"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://quantumzeitgeist.com/quantum-entanglement-scaling-shift-power-law",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 27,
+          "source": "Quantum Zeitgeist",
+          "title": "Entanglement scaling can shift from power law to logarithmic",
+          "url": "https://quantumzeitgeist.com/quantum-entanglement-scaling-shift-power-law"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-08-11",
+      "latest_seen": "2026-08-12",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -3981,7 +4098,7 @@
         "QuantumNews.ai",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 14,
+      "prior_count": 13,
       "recent_count": 13,
       "status": "watching"
     },
@@ -4284,19 +4401,28 @@
           "source": "The Quantum Insider",
           "title": "Infleqtion Selected by Eaton to Explore Quantum Computing for Power Grid Resilience",
           "url": "https://thequantuminsider.com/2026/08/10/infleqtion-eaton-quantum-computing-power-grid-resilience"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://infleqtion.com/infleqtion-reports-record-q2-revenue-raises-2026-outlook-as-quantum-commercialization-accelerates",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "title": "Infleqtion Reports Record Q2 Revenue, Raises 2026 Outlook as Quantum Commercialization Accelerates",
+          "url": "https://infleqtion.com/infleqtion-reports-record-q2-revenue-raises-2026-outlook-as-quantum-commercialization-accelerates"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.",
       "importance": "critical",
-      "latest_seen": "2026-08-10",
+      "latest_seen": "2026-08-12",
       "momentum": "rising",
       "organizations": [
         "QuantumNews.ai",
         "Quantum Zeitgeist",
         "The Quantum Insider"
       ],
-      "prior_count": 4,
+      "prior_count": 3,
       "recent_count": 8,
       "status": "actionable"
     },
@@ -5015,24 +5141,34 @@
           "source": "Quantum Zeitgeist",
           "title": "Utah will coordinate quantum research with a new state initiative",
           "url": "https://quantumzeitgeist.com/utah-quantum-initiative-coordinate-research"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_36C24726P0700_3600_-NONE-_-NONE-",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "title": "QUANTUM SERVICE CONTRACT AGREEMENT PREVENTIVE MAINTENANCE",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C24726P0700_3600_-NONE-_-NONE-"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-08-11",
-      "momentum": "rising",
+      "latest_seen": "2026-08-12",
+      "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
         "QuantumNews.ai",
-        "arXiv RSS cs.CR"
+        "arXiv RSS cs.CR",
+        "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 4,
-      "recent_count": 12,
-      "status": "actionable"
+      "prior_count": 9,
+      "recent_count": 8,
+      "status": "watching"
     }
   },
-  "updated_at": "2026-08-12T01:26:44.705717+00:00",
+  "updated_at": "2026-08-13T01:26:12.693370+00:00",
   "version": 1
 }

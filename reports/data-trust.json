@@ -1,20 +1,65 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 28.1,
+      "acceptance_rate": 27.8,
       "accepted": 27,
-      "quarantined": 69,
+      "quarantined": 70,
       "scope": "Federal missions"
     },
     {
       "acceptance_rate": 94.2,
-      "accepted": 408,
-      "quarantined": 25,
+      "accepted": 425,
+      "quarantined": 26,
       "scope": "Federal funding"
     }
   ],
   "method_note": "Quarantine is not a finding that evidence is false or irrelevant. It means the current evidence is too weak for automated promotion and remains available for review.",
   "quarantined_evidence": [
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-12",
+      "key": "https://www.grants.gov/search-results-detail/363545",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "Cooperative Agreement for Affiliated Partner with the Californian Cooperative Ecosystem Studies Unit (CESU)",
+      "url": "https://www.grants.gov/search-results-detail/363545"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-12",
+      "key": "grants_gov:G26AS00159",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "funding evidence admission",
+      "title": "Cooperative Agreement for Affiliated Partner with the Californian Cooperative Ecosystem Studies Unit (CESU)",
+      "url": "https://www.grants.gov/search-results-detail/363545"
+    },
     {
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
@@ -2156,17 +2201,17 @@
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 94,
+      "count": 96,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 94,
+      "count": 96,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 90,
+      "count": 92,
       "label": "Official government source"
     },
     {
@@ -2177,14 +2222,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 82.2,
-    "accepted": 435,
-    "decisions": 529,
-    "funding_quarantine": 25,
-    "mission_quarantine": 69,
-    "quarantined": 94,
+    "acceptance_rate": 82.5,
+    "accepted": 452,
+    "decisions": 548,
+    "funding_quarantine": 26,
+    "mission_quarantine": 70,
+    "quarantined": 96,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-12T01:17:45.977018+00:00",
+  "updated_at": "2026-08-13T01:19:25.643416+00:00",
   "version": 1
 }

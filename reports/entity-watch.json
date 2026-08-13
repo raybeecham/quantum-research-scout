@@ -83,7 +83,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 14,
+      "evidence_count": 15,
       "first_party_evidence_count": 0,
       "name": "Infleqtion",
       "priority": "medium",
@@ -353,7 +353,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 18,
+      "evidence_count": 19,
       "first_party_evidence_count": 0,
       "name": "IBM",
       "priority": "high",
@@ -524,7 +524,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 9,
+      "evidence_count": 10,
       "first_party_evidence_count": 8,
       "name": "QuEra",
       "priority": "high",
@@ -556,7 +556,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 4,
+      "evidence_count": 6,
       "first_party_evidence_count": 0,
       "name": "Quantinuum",
       "priority": "high",
@@ -817,11 +817,11 @@
       "first_seen": "2026-06-25",
       "historical_evidence_count": 1,
       "latest_seen": "2026-08-06",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "NIST",
-      "prior_count": 2,
+      "prior_count": 3,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -1274,7 +1274,7 @@
       "latest_seen": "2026-07-31",
       "momentum": "declining",
       "name": "Keyfactor",
-      "prior_count": 3,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -1780,7 +1780,7 @@
       "latest_seen": "2026-07-30",
       "momentum": "declining",
       "name": "Fortanix",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -1795,8 +1795,20 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 18,
+      "current_evidence_count": 19,
       "evidence": [
+        {
+          "date": "2026-08-12",
+          "key": "https://thequantuminsider.com/2026/08/12/yonsei-quantum-initiative-ibm-nighthawk-processor-installation",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 28,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Yonsei to Install IBM Nighthawk Quantum Processor for Research and Industry Applications",
+          "url": "https://thequantuminsider.com/2026/08/12/yonsei-quantum-initiative-ibm-nighthawk-processor-installation"
+        },
         {
           "date": "2026-08-08",
           "key": "https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum",
@@ -2014,15 +2026,15 @@
           "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
         }
       ],
-      "evidence_count": 18,
+      "evidence_count": 19,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-08",
+      "latest_seen": "2026-08-12",
       "momentum": "declining",
       "name": "IBM",
-      "prior_count": 6,
+      "prior_count": 5,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2174,11 +2186,11 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-08",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "IonQ",
-      "prior_count": 4,
+      "prior_count": 5,
       "priority": "high",
-      "recent_count": 6,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2196,8 +2208,20 @@
         "QuEra Computing"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 1,
+      "current_evidence_count": 2,
       "evidence": [
+        {
+          "date": "2026-08-12",
+          "key": "https://thequantuminsider.com/2026/08/12/zapata-quantum-quera-quantum-application-development",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 44,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Zapata Quantum and QuEra Partner on Quantum Application Development",
+          "url": "https://thequantuminsider.com/2026/08/12/zapata-quantum-quera-quantum-application-development"
+        },
         {
           "date": "2026-07-22",
           "key": "https://quantumzeitgeist.com/university-college-london-quantum-thermodynamic-sampling",
@@ -2403,16 +2427,16 @@
           "url": "https://www.quera.com/press-releases/scientists-observe-string-breaking-in-two-dimensional-quantum-simulator"
         }
       ],
-      "evidence_count": 9,
+      "evidence_count": 10,
       "first_seen": "2026-07-22",
       "historical_evidence_count": 8,
-      "latest_seen": "2026-07-22",
-      "momentum": "stable",
+      "latest_seen": "2026-08-12",
+      "momentum": "rising",
       "name": "QuEra",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Hardware",
         "Quantum Networking",
@@ -2911,7 +2935,7 @@
       "latest_seen": "2026-08-11",
       "momentum": "rising",
       "name": "Cloudflare",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 3,
       "status": "active",
@@ -2919,6 +2943,100 @@
         "AI Security",
         "PQC / Crypto Agility",
         "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 6,
+      "evidence": [
+        {
+          "date": "2026-08-12",
+          "key": "https://quantumcomputingreport.com/quantinuum-and-oracle-partner-to-bring-helios-quantum-computer-to-oracle-cloud-infrastructure",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 47,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum and Oracle Partner to Bring Helios Quantum Computer to Oracle Cloud Infrastructure",
+          "url": "https://quantumcomputingreport.com/quantinuum-and-oracle-partner-to-bring-helios-quantum-computer-to-oracle-cloud-infrastructure"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://thequantuminsider.com/2026/08/12/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 40,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum and Oracle Partner to Accelerate Hybrid Quantum Compute Adoption on Oracle Cloud Infrastructure",
+          "url": "https://thequantuminsider.com/2026/08/12/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 36,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum & Partners Run 98-Qubit Quantum Fourier Transform",
+          "url": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 60,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
+          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
+        },
+        {
+          "date": "2026-07-20",
+          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
+          "report": "2026-07/2026-07-20-digest.md",
+          "score": 14,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
+          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://quantumzeitgeist.com/quantinuum-qnt",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 45,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum (QNT): A Commercial History",
+          "url": "https://quantumzeitgeist.com/quantinuum-qnt"
+        }
+      ],
+      "evidence_count": 6,
+      "first_seen": "2026-06-22",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-08-12",
+      "momentum": "rising",
+      "name": "Quantinuum",
+      "prior_count": 1,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Hardware"
       ],
       "type": "company"
     },
@@ -3152,76 +3270,6 @@
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Networking"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 4,
-      "evidence": [
-        {
-          "date": "2026-08-04",
-          "key": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 36,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum & Partners Run 98-Qubit Quantum Fourier Transform",
-          "url": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft"
-        },
-        {
-          "date": "2026-07-29",
-          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
-          "report": "2026-07/2026-07-29-digest.md",
-          "score": 60,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
-          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
-        },
-        {
-          "date": "2026-07-20",
-          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
-          "report": "2026-07/2026-07-20-digest.md",
-          "score": 14,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
-          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
-        },
-        {
-          "date": "2026-06-22",
-          "key": "https://quantumzeitgeist.com/quantinuum-qnt",
-          "report": "2026-06/2026-06-22-digest.md",
-          "score": 45,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum (QNT): A Commercial History",
-          "url": "https://quantumzeitgeist.com/quantinuum-qnt"
-        }
-      ],
-      "evidence_count": 4,
-      "first_seen": "2026-06-22",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-08-04",
-      "momentum": "declining",
-      "name": "Quantinuum",
-      "prior_count": 2,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility",
-        "Quantum Hardware"
       ],
       "type": "company"
     },
@@ -3516,11 +3564,11 @@
       "first_seen": "2026-06-30",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-05",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "D-Wave",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -3890,11 +3938,11 @@
       "first_seen": "2026-08-04",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-05",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Thales",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -4139,8 +4187,20 @@
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 14,
+      "current_evidence_count": 15,
       "evidence": [
+        {
+          "date": "2026-08-12",
+          "key": "https://infleqtion.com/infleqtion-reports-record-q2-revenue-raises-2026-outlook-as-quantum-commercialization-accelerates",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion Reports Record Q2 Revenue, Raises 2026 Outlook as Quantum Commercialization Accelerates",
+          "url": "https://infleqtion.com/infleqtion-reports-record-q2-revenue-raises-2026-outlook-as-quantum-commercialization-accelerates"
+        },
         {
           "date": "2026-08-10",
           "key": "https://thequantuminsider.com/2026/08/10/infleqtion-eaton-quantum-computing-power-grid-resilience",
@@ -4310,15 +4370,15 @@
           "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
         }
       ],
-      "evidence_count": 14,
+      "evidence_count": 15,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-10",
+      "latest_seen": "2026-08-12",
       "momentum": "rising",
       "name": "Infleqtion",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 3,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -4598,9 +4658,9 @@
       "first_seen": "2026-07-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-08",
-      "momentum": "stable",
+      "momentum": "rising",
       "name": "Rigetti",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "medium",
       "recent_count": 1,
       "status": "active",
@@ -5288,7 +5348,7 @@
       "latest_seen": "2026-08-03",
       "momentum": "declining",
       "name": "Crypto-agility",
-      "prior_count": 7,
+      "prior_count": 4,
       "priority": "critical",
       "recent_count": 0,
       "status": "quiet",
@@ -5305,8 +5365,32 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 20,
+      "current_evidence_count": 22,
       "evidence": [
+        {
+          "date": "2026-08-12",
+          "key": "https://thequantuminsider.com/2026/08/12/alice-bob-partners-europe-first-doctoral-network-quantum-error-correction",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 109,
+          "source": "The Quantum Insider",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Alice & Bob Joins European Quantum Error Correction Doctoral Network",
+          "url": "https://thequantuminsider.com/2026/08/12/alice-bob-partners-europe-first-doctoral-network-quantum-error-correction"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://quantumzeitgeist.com/quantum-error-correction-alice-bob",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 31,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Alice & Bob joins network to train quantum error correction experts",
+          "url": "https://quantumzeitgeist.com/quantum-error-correction-alice-bob"
+        },
         {
           "date": "2026-08-08",
           "key": "https://quantumzeitgeist.com/viterbi-quantum-ldpc-codes-clinr-unlock",
@@ -5548,15 +5632,15 @@
           "url": "https://quantumzeitgeist.com/what-is-the-surface-code"
         }
       ],
-      "evidence_count": 20,
+      "evidence_count": 22,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-08",
+      "latest_seen": "2026-08-12",
       "momentum": "rising",
       "name": "Quantum error correction",
       "prior_count": 1,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "AI Security",
@@ -6296,7 +6380,7 @@
       "prior_count": 1,
       "priority": "medium",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Hardware",
         "Quantum Networking",
@@ -6453,6 +6537,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-12T01:26:44.712019+00:00",
+  "updated_at": "2026-08-13T01:26:12.700325+00:00",
   "version": 2
 }

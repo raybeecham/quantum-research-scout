@@ -1,28 +1,42 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-12T01:17:45.977018+00:00_
+_Updated 2026-08-13T01:19:25.643416+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **435**
-- Quarantined evidence or relationships: **94**
-- Acceptance rate: **82.2%**
+- Accepted evidence: **452**
+- Quarantined evidence or relationships: **96**
+- Acceptance rate: **82.5%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 27 | 69 | 28.1% |
-| Federal funding | 408 | 25 | 94.2% |
+| Federal missions | 27 | 70 | 27.8% |
+| Federal funding | 425 | 26 | 94.2% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 94
-- **No relevant term in the evidence itself**: 94
-- **Official government source**: 90
+- **Match appears only in collector query metadata**: 96
+- **No relevant term in the evidence itself**: 96
+- **Official government source**: 92
 - **Source is not an official .gov or .mil domain**: 4
 
 ## Quarantined Evidence
+
+### [Cooperative Agreement for Affiliated Partner with the Californian Cooperative Ecosystem Studies Unit (CESU)](https://www.grants.gov/search-results-detail/363545)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Cooperative Agreement for Affiliated Partner with the Californian Cooperative Ecosystem Studies Unit (CESU)](https://www.grants.gov/search-results-detail/363545)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [Research 7h ago AI meets particle physics in UA-Led Department of Energy project](https://news.ua.edu/2026/08/ua-genesis-mission-award-will-create-ai-tool-for-particle-physics)
 

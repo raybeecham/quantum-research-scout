@@ -2,78 +2,77 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-08-12T01:17:45.977018+00:00_
+_Updated 2026-08-13T01:19:25.643416+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **129**
-- Added / changed / resolved: **94 / 7 / 27**
+- Material changes: **143**
+- Added / changed / resolved: **110 / 6 / 27**
 - Newly superseded: **0**
 - Active conflicts: **1**
-- Conflicts opened / resolved: **1 / 0**
+- Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)** — opportunity status: closed ([evidence](https://www.grants.gov/search-results-detail/362711))
-- **Correctness for Scientific Computing Systems** — opportunity status: closed ([evidence](https://www.grants.gov/search-results-detail/354144))
-- **Research Training Groups in the Mathematical Sciences** — opportunity status: closed ([evidence](https://www.grants.gov/search-results-detail/353962))
-- **Sole Source to Zero Drift Technology, INC for Quantum Nitrogen Vacancy Magnetometer** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/f9ad518090dd474284fe36e6b3eb6671/view))
-- **Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system** — qualification gate: targeted review ([evidence](https://sam.gov/workspace/contract/opp/f34d767fd1684bf3a8e2c3c0f17e9959/view))
-- **NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)** — qualification gate: targeted review ([evidence](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view))
-- **English Language Exchange Programs: AI and Educational Technology Integration** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363105))
+- **CyberNext: Advance Cybersecurity and AI Readiness** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363249))
+- **Robotic Manipulation, Teleoperation AI Platform** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/817d82c772bb468ba5716d7768df39be/view))
+- **Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363319))
+- **U.S.-Argentina Alumni Summit** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363320))
+- **U.S-Nigeria Creative, Digital, & Innovation Economy Initiative** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363269))
+- **GameON – U.S.-Albania E-Sports and Innovation** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363247))
 
 ## New claims
 
-- **A TUNABLE ROTOR FOR STUDYING QUANTUM INFORMATION ENCODED IN ROTATIONAL MOTION** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_DESC0026637_089))
-- **A TUNABLE ROTOR FOR STUDYING QUANTUM INFORMATION ENCODED IN ROTATIONAL MOTION** — awarding agency: Department of Energy ([evidence](https://www.usaspending.gov/award/ASST_NON_DESC0026637_089))
-- **A TUNABLE ROTOR FOR STUDYING QUANTUM INFORMATION ENCODED IN ROTATIONAL MOTION** — reported amount: 780000.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_DESC0026637_089))
-- **A TUNABLE ROTOR FOR STUDYING QUANTUM INFORMATION ENCODED IN ROTATIONAL MOTION** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_DESC0026637_089))
-- **Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/363537))
-- **Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)** — deadline: 09/11/2026 ([evidence](https://www.grants.gov/search-results-detail/363537))
-- **Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)** — awarding agency: DOI-USGS1 ([evidence](https://www.grants.gov/search-results-detail/363537))
-- **Decentralized Artificial Intelligence through Controlled Emergence (DICE)** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/362743))
-- **Decentralized Artificial Intelligence through Controlled Emergence (DICE)** — deadline: 08/25/2026 ([evidence](https://www.grants.gov/search-results-detail/362743))
-- **Decentralized Artificial Intelligence through Controlled Emergence (DICE)** — awarding agency: DOD-DARPA-IPTO ([evidence](https://www.grants.gov/search-results-detail/362743))
-- **66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/ed8b13d05509449aab7fe68003e47134/view))
-- **66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING** — deadline: 2026-08-14T17:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/ed8b13d05509449aab7fe68003e47134/view))
-- **66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING** — awarding agency: INTERIOR, DEPARTMENT OF THE.BUREAU OF RECLAMATION.UPPER COLORADO REGIONAL OFFICE ([evidence](https://sam.gov/workspace/contract/opp/ed8b13d05509449aab7fe68003e47134/view))
-- **Maintenance agreement for a Quantum Design Cryocool system** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/ffbf39d50ec4475b9c08b091df75f34a/view))
-- **Maintenance agreement for a Quantum Design Cryocool system** — deadline: 2026-08-25T13:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/ffbf39d50ec4475b9c08b091df75f34a/view))
-- **Maintenance agreement for a Quantum Design Cryocool system** — awarding agency: COMMERCE, DEPARTMENT OF.NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY.DEPT OF COMMERCE NIST ([evidence](https://sam.gov/workspace/contract/opp/ffbf39d50ec4475b9c08b091df75f34a/view))
-- **16--MODIFICATION KIT,AI** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view))
-- **16--MODIFICATION KIT,AI** — deadline: 2026-08-19 ([evidence](https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view))
-- **16--MODIFICATION KIT,AI** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION ([evidence](https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view))
-- **29--SENSOR,DIFFERENTIAL** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/f874fa9c0e224c3aa0fae289cfe3fc10/view))
-- **29--SENSOR,DIFFERENTIAL** — deadline: 2026-08-31T14:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/f874fa9c0e224c3aa0fae289cfe3fc10/view))
-- **29--SENSOR,DIFFERENTIAL** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT ([evidence](https://sam.gov/workspace/contract/opp/f874fa9c0e224c3aa0fae289cfe3fc10/view))
-- **15--PANEL,STRUCTURAL,AI** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/f699b79445fb4b108b88afa7169716e6/view))
-- **15--PANEL,STRUCTURAL,AI** — deadline: 2026-09-28T00:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/f699b79445fb4b108b88afa7169716e6/view))
-- **15--PANEL,STRUCTURAL,AI** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT ([evidence](https://sam.gov/workspace/contract/opp/f699b79445fb4b108b88afa7169716e6/view))
-- **66--DISPLAY,MULTIPLE AI, IN REPAIR/MODIFICATION OF** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/e3ae7c96395244069db8363a33845d1e/view))
-- **66--DISPLAY,MULTIPLE AI, IN REPAIR/MODIFICATION OF** — deadline: 2026-09-25T00:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/e3ae7c96395244069db8363a33845d1e/view))
-- **66--DISPLAY,MULTIPLE AI, IN REPAIR/MODIFICATION OF** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT ([evidence](https://sam.gov/workspace/contract/opp/e3ae7c96395244069db8363a33845d1e/view))
-- **15--PANEL,STRUCTURAL,AI** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/df54961d6eb44ae8b6883ef8b98d00e3/view))
-- **15--PANEL,STRUCTURAL,AI** — deadline: 2026-07-19 ([evidence](https://sam.gov/workspace/contract/opp/df54961d6eb44ae8b6883ef8b98d00e3/view))
-- **15--PANEL,STRUCTURAL,AI** — set aside: Small Business Set Aside - Total ([evidence](https://sam.gov/workspace/contract/opp/df54961d6eb44ae8b6883ef8b98d00e3/view))
-- **15--PANEL,STRUCTURAL,AI** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION ([evidence](https://sam.gov/workspace/contract/opp/df54961d6eb44ae8b6883ef8b98d00e3/view))
-- **Common Autonomous Multi-Domain Launcher (CAML) Autonomous Mobility Platform (AMP) - Prototype - 36K Lbs. Variant , Leader Prototype, Autonomy Command and Control (C2) and Integration Request for Solutions Brief** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/cef79c7a0e9742e5bbd82017699f5ac8/view))
-- **Common Autonomous Multi-Domain Launcher (CAML) Autonomous Mobility Platform (AMP) - Prototype - 36K Lbs. Variant , Leader Prototype, Autonomy Command and Control (C2) and Integration Request for Solutions Brief** — deadline: 2026-09-01T12:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/cef79c7a0e9742e5bbd82017699f5ac8/view))
-- **Common Autonomous Multi-Domain Launcher (CAML) Autonomous Mobility Platform (AMP) - Prototype - 36K Lbs. Variant , Leader Prototype, Autonomy Command and Control (C2) and Integration Request for Solutions Brief** — awarding agency: DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY ACQUISITION SUPPORT CENTER.RAPID CAPABILITIES CRITICAL TECH OFC.W6DV PEO M & S REDSTONE ([evidence](https://sam.gov/workspace/contract/opp/cef79c7a0e9742e5bbd82017699f5ac8/view))
-- **AN12--Machine Learning Analytics for Total Brain Diagnostics Project** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/c5583f99bec74dcd824cc37e8926512c/view))
-- **AN12--Machine Learning Analytics for Total Brain Diagnostics Project** — deadline: 2026-08-17T12:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/c5583f99bec74dcd824cc37e8926512c/view))
-- **AN12--Machine Learning Analytics for Total Brain Diagnostics Project** — awarding agency: VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.RPO EAST (36C24E) ([evidence](https://sam.gov/workspace/contract/opp/c5583f99bec74dcd824cc37e8926512c/view))
-- **Wrong Way Sensor Replacement** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view))
-- **Wrong Way Sensor Replacement** — deadline: 2026-08-24T10:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view))
-- **Wrong Way Sensor Replacement** — set aside: Small Business Set Aside - Total ([evidence](https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view))
-- **Wrong Way Sensor Replacement** — awarding agency: DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR COMBAT COMMAND.FA4803 20 CONS LGCA ([evidence](https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view))
-- **29--SENSOR,EXHAUST GAS,** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/b362ba053a6c4581a208828b2c12d401/view))
-- **29--SENSOR,EXHAUST GAS,** — deadline: 2026-08-19 ([evidence](https://sam.gov/workspace/contract/opp/b362ba053a6c4581a208828b2c12d401/view))
-- **29--SENSOR,EXHAUST GAS,** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION ([evidence](https://sam.gov/workspace/contract/opp/b362ba053a6c4581a208828b2c12d401/view))
-- **AN12--Machine Learning Analytics for Total Brain Diagnostics Project** — states requirement: e is 541720 with a $28 MIL size standard. The PSC is AN12. The authority for this action is RFO 6. 103 .5 Authorized or Required by Statute. Interested persons may contact the Contracting Officer via email at annmarie.stewart@va.gov regarding this procurement. The determination to conduct a competi... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/81a3cfc9eb0c446b8e725e3a2b1a937e/download))
-- **AN12--Machine Learning Analytics for Total Brain Diagnostics Project** — states eligibility term: 00 EASTERN TIME, NEW YORK, USA ARCHIVE 90 DA YS AFTER THE RESPONSE DATE RECOVERY ACT FUNDS N PRODUCT SERVICE CODE* AN12 NAICS CODE* 541720 CONTRACTING OFFICE ADDRESS Veterans Health Administration Regional Procurement Office East Building 32 Suite 1A1111 1010 Delafield Road Pittsburgh PA 15215-1802... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/81a3cfc9eb0c446b8e725e3a2b1a937e/download))
-- **AN12--Machine Learning Analytics for Total Brain Diagnostics Project** — states eligibility term: rocure this on a sole source basis, no solicitation will be posted to Contract Opportunities on SAM.gov. The applicable NAICS code is 541720 with a $28 MIL size standard. The PSC is AN12. The authority for this action is RFO 6. 103 .5 Authorized or Required by Statute. Interested persons may contac... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/81a3cfc9eb0c446b8e725e3a2b1a937e/download))
-- **AN12--Machine Learning Analytics for Total Brain Diagnostics Project** — states submission instruction: Intent to Sole Source GENERAL INFORMATION CONTRACTING OFFICE’S ZIP CODE* 15215-1802 SOLICITATION NUMBER* 36C24E26Q0093 RESPONSE DATE/TIME/ZONE 08-17-2026 12:00 EASTERN TIME, NEW YORK, USA ARCHIVE 90 DA YS AFTER THE RESPONSE DATE RECOVERY ACT FUNDS N PRODUCT SERVICE CODE* AN12 NAICS CODE* 541720 CON... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/81a3cfc9eb0c446b8e725e3a2b1a937e/download))
-- **AN12--Machine Learning Analytics for Total Brain Diagnostics Project** — states submission instruction: N NUMBER* 36C24E26Q0093 RESPONSE DATE/TIME/ZONE 08-17-2026 12:00 EASTERN TIME, NEW YORK, USA ARCHIVE 90 DA YS AFTER THE RESPONSE DATE RECOVERY ACT FUNDS N PRODUCT SERVICE CODE* AN12 NAICS CODE* 541720 CONTRACTING OFFICE ADDRESS Veterans Health Administration Regional Procurement Office East Buildin... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/81a3cfc9eb0c446b8e725e3a2b1a937e/download))
+- **QUANTUM DX HARDWARE AND SUPPORT DBIT: 128113 IT PACT 26-466** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_13TECH26F0055_1323_NNG15SD62B_8000))
+- **QUANTUM DX HARDWARE AND SUPPORT DBIT: 128113 IT PACT 26-466** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_13TECH26F0055_1323_NNG15SD62B_8000))
+- **QUANTUM DX HARDWARE AND SUPPORT DBIT: 128113 IT PACT 26-466** — reported amount: 1645145.14 ([evidence](https://www.usaspending.gov/award/CONT_AWD_13TECH26F0055_1323_NNG15SD62B_8000))
+- **QUANTUM DX HARDWARE AND SUPPORT DBIT: 128113 IT PACT 26-466** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_13TECH26F0055_1323_NNG15SD62B_8000))
+- **THE PURPOSE OF THIS ORDER IS TO OBTAIN AN AIRLINE SECTOR CYBERSECURITY FRAMEWORK COMMUNITY PROFILE.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_70T05026F7800N001_7013_70RSAT26D00000001_7001))
+- **THE PURPOSE OF THIS ORDER IS TO OBTAIN AN AIRLINE SECTOR CYBERSECURITY FRAMEWORK COMMUNITY PROFILE.** — awarding agency: Department of Homeland Security ([evidence](https://www.usaspending.gov/award/CONT_AWD_70T05026F7800N001_7013_70RSAT26D00000001_7001))
+- **THE PURPOSE OF THIS ORDER IS TO OBTAIN AN AIRLINE SECTOR CYBERSECURITY FRAMEWORK COMMUNITY PROFILE.** — reported amount: 1104000.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_70T05026F7800N001_7013_70RSAT26D00000001_7001))
+- **THE PURPOSE OF THIS ORDER IS TO OBTAIN AN AIRLINE SECTOR CYBERSECURITY FRAMEWORK COMMUNITY PROFILE.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_70T05026F7800N001_7013_70RSAT26D00000001_7001))
+- **29--SENSOR,ENGINE COOLANT TEMPERATURE,EM** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/96b50cba48024d6b83cdd0ca39e56077/view))
+- **29--SENSOR,ENGINE COOLANT TEMPERATURE,EM** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND COLUMBUS.DLA LAND AND MARITIME ([evidence](https://sam.gov/workspace/contract/opp/96b50cba48024d6b83cdd0ca39e56077/view))
+- **29--SENSOR,ENGINE COOLANT TEMPERATURE,EM** — reported amount: 350000.0 ([evidence](https://sam.gov/workspace/contract/opp/96b50cba48024d6b83cdd0ca39e56077/view))
+- **29--SENSOR,ENGINE COOLANT TEMPERATURE,EM** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/96b50cba48024d6b83cdd0ca39e56077/view))
+- **Notice of Award to Sole Source Cybersecurity Compensation System Support Services** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/fb991ef4c6cd44fb8cf063a685d1e007/view))
+- **Notice of Award to Sole Source Cybersecurity Compensation System Support Services** — set aside: No Set aside used ([evidence](https://sam.gov/workspace/contract/opp/fb991ef4c6cd44fb8cf063a685d1e007/view))
+- **Notice of Award to Sole Source Cybersecurity Compensation System Support Services** — awarding agency: HOMELAND SECURITY, DEPARTMENT OF.OFFICE OF PROCUREMENT OPERATIONS.DEPARTMENTAL OPERATIONS ACQUISITION DIVISION II ([evidence](https://sam.gov/workspace/contract/opp/fb991ef4c6cd44fb8cf063a685d1e007/view))
+- **Notice of Award to Sole Source Cybersecurity Compensation System Support Services** — reported amount: 330764.08 ([evidence](https://sam.gov/workspace/contract/opp/fb991ef4c6cd44fb8cf063a685d1e007/view))
+- **Notice of Award to Sole Source Cybersecurity Compensation System Support Services** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/fb991ef4c6cd44fb8cf063a685d1e007/view))
+- **66--SENSOR,CURRENT** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/994ad558091443f187c1f64b0ba4aaf2/view))
+- **66--SENSOR,CURRENT** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME ([evidence](https://sam.gov/workspace/contract/opp/994ad558091443f187c1f64b0ba4aaf2/view))
+- **66--SENSOR,CURRENT** — reported amount: 82290.0 ([evidence](https://sam.gov/workspace/contract/opp/994ad558091443f187c1f64b0ba4aaf2/view))
+- **66--SENSOR,CURRENT** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/994ad558091443f187c1f64b0ba4aaf2/view))
+- **NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI** — opportunity status: forecasted ([evidence](https://www.grants.gov/search-results-detail/361318))
+- **NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI** — awarding agency: HHS-NIH11 ([evidence](https://www.grants.gov/search-results-detail/361318))
+- **ATEC HQ 003 - AI Assurance & Autonomous System Validation** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/a7ce960566e242bbbf871a3e2fab3453/view))
+- **ATEC HQ 003 - AI Assurance & Autonomous System Validation** — deadline: 2026-08-19T15:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/a7ce960566e242bbbf871a3e2fab3453/view))
+- **ATEC HQ 003 - AI Assurance & Autonomous System Validation** — awarding agency: DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG ([evidence](https://sam.gov/workspace/contract/opp/a7ce960566e242bbbf871a3e2fab3453/view))
+- **Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/363551))
+- **Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)** — deadline: 08/12/2076 ([evidence](https://www.grants.gov/search-results-detail/363551))
+- **Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)** — awarding agency: NSF ([evidence](https://www.grants.gov/search-results-detail/363551))
+- **14--PANEL,STRUCTURAL,AI - AND OTHER REPLACEMENT PARTS** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/f46dde517ec44ea482bbfcb94cb4d62b/view))
+- **14--PANEL,STRUCTURAL,AI - AND OTHER REPLACEMENT PARTS** — deadline: 2026-09-28T00:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/f46dde517ec44ea482bbfcb94cb4d62b/view))
+- **14--PANEL,STRUCTURAL,AI - AND OTHER REPLACEMENT PARTS** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT ([evidence](https://sam.gov/workspace/contract/opp/f46dde517ec44ea482bbfcb94cb4d62b/view))
+- **59--SENSOR SYSTEM, THER** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/e555360eac284933b42e0c7d17bce74a/view))
+- **59--SENSOR SYSTEM, THER** — deadline: 2026-09-14T00:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/e555360eac284933b42e0c7d17bce74a/view))
+- **59--SENSOR SYSTEM, THER** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME MECHANICSBURG.SPRMM1 DLA MECHANICSBURG ([evidence](https://sam.gov/workspace/contract/opp/e555360eac284933b42e0c7d17bce74a/view))
+- **16--SUPPORT,CPLG,SGL,AI** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/d8b11c6070094104bd94b1ae5c99e6be/view))
+- **16--SUPPORT,CPLG,SGL,AI** — deadline: 2026-09-28T00:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/d8b11c6070094104bd94b1ae5c99e6be/view))
+- **16--SUPPORT,CPLG,SGL,AI** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT ([evidence](https://sam.gov/workspace/contract/opp/d8b11c6070094104bd94b1ae5c99e6be/view))
+- **29--SENSOR,MASS AIR FLO** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view))
+- **29--SENSOR,MASS AIR FLO** — deadline: 2026-08-24 ([evidence](https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view))
+- **29--SENSOR,MASS AIR FLO** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND COLUMBUS.DLA LAND AND MARITIME ([evidence](https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view))
+- **Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech​** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/ad0c3236baf344fd9ac0ac4c9d0b9238/view))
+- **Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech​** — deadline: 2026-08-17T17:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/ad0c3236baf344fd9ac0ac4c9d0b9238/view))
+- **Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech​** — set aside: No Set aside used ([evidence](https://sam.gov/workspace/contract/opp/ad0c3236baf344fd9ac0ac4c9d0b9238/view))
+- **Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech​** — awarding agency: DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-OO.413TH CSB ([evidence](https://sam.gov/workspace/contract/opp/ad0c3236baf344fd9ac0ac4c9d0b9238/view))
+- **15--PLATE,STRUCTURAL,AI** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/a9120fedc53c4e2f8a1a2a5b6322b185/view))
+- **15--PLATE,STRUCTURAL,AI** — deadline: 2026-08-20 ([evidence](https://sam.gov/workspace/contract/opp/a9120fedc53c4e2f8a1a2a5b6322b185/view))
+- **15--PLATE,STRUCTURAL,AI** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION ([evidence](https://sam.gov/workspace/contract/opp/a9120fedc53c4e2f8a1a2a5b6322b185/view))
+- **59--SENSOR,ATMOSPHERIC** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/998d3e083dae430b86aa9f078f696dcb/view))
+- **59--SENSOR,ATMOSPHERIC** — deadline: 2026-08-27 ([evidence](https://sam.gov/workspace/contract/opp/998d3e083dae430b86aa9f078f696dcb/view))
 
 ## Superseded claims
 
@@ -111,7 +110,7 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## Conflicts opened
 
-- **66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING** — deadline: ['2026-08-11t17:00:00-04:00', '2026-08-14t17:00:00-04:00']
+- None.
 
 ## Conflicts resolved
 

@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-12T01:17:45.977018+00:00_
+_Updated 2026-08-13T01:19:25.643416+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **26** (**34.7%** coverage)
-- Newly resolved this run: **3**
-- Pending bounded enrichment: **148**
-- Ambiguous / no match: **0 / 1**
+- SAM.gov-resolved entities: **28** (**37.3%** coverage)
+- Newly resolved this run: **2**
+- Pending bounded enrichment: **146**
+- Ambiguous / no match: **1 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
 |---|---|---|---|---|---|
@@ -40,6 +40,8 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | PARAGON MICRO INC | [PARAGON MICRO INC](https://sam.gov/entity/E41LV9AJGHQ1/coreData) | E41LV9AJGHQ1 | 4ZHT8 | Active | Business or Organization, For Profit Organization |
 | FLORIDA INSTITUTE OF TECHNOLOGY INC | [FLORIDA INSTITUTE OF TECHNOLOGY INC](https://sam.gov/entity/WNN6VH618X58/coreData) | WNN6VH618X58 | 3B476 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | FLORIDA ATLANTIC UNIVERSITY | [Florida Atlantic University](https://sam.gov/entity/Q266L2NDAVP1/coreData) | Q266L2NDAVP1 | 7B713 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
+| ALLIANCE TECHNOLOGY GROUP, LLC | [Alliance Technology Group, LLC](https://sam.gov/entity/UCM7WPGJBZ67/coreData) | UCM7WPGJBZ67 | 1YBR8 | Active | SBA-Certified Women-Owned Small Business |
+| THE REGENTS OF THE UNIVERSITY OF COLORADO | [The Regents of the University of Colorado](https://sam.gov/entity/SPVKK1RC2MZ3/coreData) | SPVKK1RC2MZ3 | 4B475 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
 | REDACTED DUE TO PII | REDACTED DUE TO PII | — | — | no_match | No active public SAM.gov entity matched |
 | POST QUANTUM LABS LLC | POST QUANTUM LABS LLC | — | — | pending | api key missing |
@@ -58,10 +60,9 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | — | — | pending | api key missing |
 | UNIVERSITY OF SOUTH FLORIDA | UNIVERSITY OF SOUTH FLORIDA | — | — | pending | Queued for a future bounded enrichment batch |
 | UNIVERSITY OF SOUTH FLORIDA | UNIVERSITY OF SOUTH FLORIDA | — | — | pending | api key missing |
-| THE REGENTS OF THE UNIVERSITY OF COLORADO | THE REGENTS OF THE UNIVERSITY OF COLORADO | — | — | pending | Queued for a future bounded enrichment batch |
 | THE JOHNS HOPKINS UNIVERSITY | THE JOHNS HOPKINS UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
 | THE JOHNS HOPKINS UNIVERSITY | THE JOHNS HOPKINS UNIVERSITY | — | — | pending | api key missing |
-| COLOSSAL CONTRACTING LLC | COLOSSAL CONTRACTING LLC | — | — | pending | Queued for a future bounded enrichment batch |
+| COLOSSAL CONTRACTING LLC | COLOSSAL CONTRACTING LLC | — | — | ambiguous | Multiple or non-exact SAM.gov candidates require review |
 | UNIVERSITY OF TEXAS AT AUSTIN | UNIVERSITY OF TEXAS AT AUSTIN | — | — | pending | Queued for a future bounded enrichment batch |
 | ROCHESTER INSTITUTE OF TECHNOLOGY | ROCHESTER INSTITUTE OF TECHNOLOGY | — | — | pending | Queued for a future bounded enrichment batch |
 | NORTH CAROLINA STATE UNIVERSITY | NORTH CAROLINA STATE UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
@@ -88,7 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | VALIANT SOLUTIONS, LLC | VALIANT SOLUTIONS, LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | VALIANT SOLUTIONS, LLC | VALIANT SOLUTIONS, LLC | — | — | pending | api key missing |
 | THUNDERCAT TECHNOLOGY, LLC | THUNDERCAT TECHNOLOGY, LLC | — | — | pending | Queued for a future bounded enrichment batch |
-| THUNDERCAT TECHNOLOGY, LLC | THUNDERCAT TECHNOLOGY, LLC | — | — | pending | api key missing |
 
 ## Method
 
