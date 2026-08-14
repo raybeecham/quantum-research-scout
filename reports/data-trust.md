@@ -1,28 +1,35 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-13T01:19:25.643416+00:00_
+_Updated 2026-08-14T01:18:50.250873+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **452**
-- Quarantined evidence or relationships: **96**
-- Acceptance rate: **82.5%**
+- Accepted evidence: **465**
+- Quarantined evidence or relationships: **97**
+- Acceptance rate: **82.7%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 27 | 70 | 27.8% |
-| Federal funding | 425 | 26 | 94.2% |
+| Federal missions | 27 | 71 | 27.6% |
+| Federal funding | 438 | 26 | 94.4% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 96
-- **No relevant term in the evidence itself**: 96
+- **Match appears only in collector query metadata**: 97
+- **No relevant term in the evidence itself**: 97
 - **Official government source**: 92
-- **Source is not an official .gov or .mil domain**: 4
+- **Source is not an official .gov or .mil domain**: 5
 
 ## Quarantined Evidence
+
+### [Qtonic Quantum names Horst to shape post-quantum market choices](https://quantumzeitgeist.com/qtonic-quantum-post-market-choices-names)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [Cooperative Agreement for Affiliated Partner with the Californian Cooperative Ecosystem Studies Unit (CESU)](https://www.grants.gov/search-results-detail/363545)
 

@@ -298,9 +298,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 5,
+      "evidence_count": 6,
       "historical_evidence_count": 1,
-      "latest_evidence_at": "2026-07-31",
+      "latest_evidence_at": "2026-08-13",
       "name": "NIST",
       "priority": "critical",
       "source_count": 4,
@@ -338,6 +338,21 @@
           "source": "Quantum Zeitgeist",
           "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
+        },
+        {
+          "date": "2026-08-13",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum-safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "QoreChain runs NIST\u2019s quantum-safe tools on a live blockchain",
+          "url": "https://quantumzeitgeist.com/qorechain-runs-nists-quantum-safe-tools"
         },
         {
           "date": "2026-07-31",
@@ -1559,6 +1574,6 @@
     "not_assessed": 21,
     "organizations": 43
   },
-  "updated_at": "2026-08-13T01:26:13.128426+00:00",
+  "updated_at": "2026-08-14T01:26:54.962088+00:00",
   "version": 1
 }

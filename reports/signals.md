@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-13 01:26 UTC_
+_Updated 2026-08-14 01:26 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
@@ -12,12 +12,12 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (3 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-08-08 | 14 |
 | QEC / Fault Tolerance | ↗️ rising (4 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-08-12 | 42 |
-| Quantum Sensing | ↗️ rising (8 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-08-12 | 34 |
-| PQC / Crypto Agility | ➡️ stable (15 vs 19) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-08-12 | 121 |
-| Quantum Hardware | ➡️ stable (25 vs 22) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-12 | 191 |
-| Quantum Networking | ➡️ stable (13 vs 13) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-12 | 77 |
-| Quantum Software / Tooling | ↘️ declining (5 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-08 | 57 |
-| Standards / Government | ➡️ stable (8 vs 9) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-08-12 | 21 |
+| Quantum Sensing | ↗️ rising (7 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-08-13 | 35 |
+| Standards / Government | ↗️ rising (12 vs 7) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-08-13 | 25 |
+| PQC / Crypto Agility | ➡️ stable (17 vs 20) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-08-13 | 126 |
+| Quantum Hardware | ➡️ stable (23 vs 25) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-13 | 193 |
+| Quantum Networking | ↘️ declining (9 vs 17) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-13 | 79 |
+| Quantum Software / Tooling | ➡️ stable (3 vs 4) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-13 | 58 |
 
 ## AI Security
 
@@ -43,66 +43,66 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 
 ## Quantum Sensing
 
-- Organizations/sources: QuantumNews.ai, Quantum Zeitgeist, The Quantum Insider
+- Organizations/sources: QuantumNews.ai, The Quantum Insider, Quantum Zeitgeist
 - Recommended follow-up: Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.
 - Recent supporting evidence:
+  - 2026-08-13 — [Infleqtion Reports Q2 Revenue Growth and Raises 2026 Outlook](https://thequantuminsider.com/2026/08/13/infleqtion-q2-revenue-growth-raises-2026-outlook) (The Quantum Insider, score 41)
   - 2026-08-12 — [Infleqtion Reports Record Q2 Revenue, Raises 2026 Outlook as Quantum Commercialization Accelerates](https://infleqtion.com/infleqtion-reports-record-q2-revenue-raises-2026-outlook-as-quantum-commercialization-accelerates) (QuantumNews.ai, score 100)
   - 2026-08-10 — [Infleqtion Selected by Eaton to Explore Quantum Computing for Power Grid Resilience](https://thequantuminsider.com/2026/08/10/infleqtion-eaton-quantum-computing-power-grid-resilience) (The Quantum Insider, score 41)
   - 2026-08-10 — [Infleqtion Selected by Eaton to Support Research Advancing Quantum Computing for U.S. Grid Resilience](https://infleqtion.com/infleqtion-selected-by-eaton-to-support-research-advancing-quantum-computing-for-u-s-grid-resilience) (QuantumNews.ai, score 36)
   - 2026-08-07 — [DARPA Selects IonQ to Produce Next-Generation Atomic Clocks](https://thequantuminsider.com/2026/08/07/darpa-selects-ionq-to-produce-next-generation-atomic-clocks) (The Quantum Insider, score 100)
-  - 2026-08-07 — [Modulated Fields Boost Rydberg Atom Electric Signal Sensing](https://quantumzeitgeist.com/shanghai-institute-optics-fine-mechanics-rydberg) (QuantumNews.ai, score 18)
-
-## PQC / Crypto Agility
-
-- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Keyfactor Quantum and Crypto-Agility
-- Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
-- Recent supporting evidence:
-  - 2026-08-12 — [IQT The Quantum Dragon Podcast Episode 88 – It's already blinking red.](https://www.insidequantumtechnology.com/news-archive/iqt-the-quantum-dragon-podcast-episode-88-its-already-blinking-red) (QuantumNews.ai, score 87)
-  - 2026-08-12 — [Sui Co-Founder Works on $10 Quantum-Safe Hardware Wallet Cards](https://thequantuminsider.com/2026/08/12/sui-co-founder-quantum-safe-wallet-cards-10-target-price) (The Quantum Insider, score 78)
-  - 2026-08-12 — [Regulatory Impacts on Post-Quantum Crypto Migration in 2026](https://quantumnews.ai/cryptography/regulatory-impacts-on-post-quantum-crypto-migration-in-2026) (QuantumNews.ai, score 50)
-  - 2026-08-11 — [Carahsoft simplifies QuSecure’s quantum security for US government buyers](https://quantumzeitgeist.com/carahsoft-simplifies-qusecures-quantum-security) (Quantum Zeitgeist, score 100)
-  - 2026-08-11 — [QuSecure Adds Post-Quantum Cryptography Platform to Carahsoft GSA Schedule](https://thequantuminsider.com/2026/08/11/qusecure-post-quantum-cryptography-solutions-carahsoft-gsa-schedule) (The Quantum Insider, score 100)
-
-## Quantum Hardware
-
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph
-- Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
-- Recent supporting evidence:
-  - 2026-08-12 — [Quantinuum and Oracle Partner to Bring Helios Quantum Computer to Oracle Cloud Infrastructure](https://quantumcomputingreport.com/quantinuum-and-oracle-partner-to-bring-helios-quantum-computer-to-oracle-cloud-infrastructure) (QuantumNews.ai, score 47)
-  - 2026-08-12 — [Zapata Quantum and QuEra Partner on Quantum Application Development](https://thequantuminsider.com/2026/08/12/zapata-quantum-quera-quantum-application-development) (The Quantum Insider, score 44)
-  - 2026-08-12 — [Quantinuum and Oracle Partner to Accelerate Hybrid Quantum Compute Adoption on Oracle Cloud Infrastructure](https://thequantuminsider.com/2026/08/12/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure) (The Quantum Insider, score 40)
-  - 2026-08-12 — [Qubit errors traced to two sources, cosmic rays, cooler vibrations](https://quantumzeitgeist.com/massachusetts-technology-qubit-errors-traced-two) (Quantum Zeitgeist, score 37)
-  - 2026-08-12 — [New chip uses quantum effects to control light beams dynamically](https://quantumzeitgeist.com/poincare-sphere-quantum-effects-control-light) (Quantum Zeitgeist, score 28)
-
-## Quantum Networking
-
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph
-- Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
-- Recent supporting evidence:
-  - 2026-08-12 — [Entanglement scaling can shift from power law to logarithmic](https://quantumzeitgeist.com/quantum-entanglement-scaling-shift-power-law) (Quantum Zeitgeist, score 27)
-  - 2026-08-11 — [Qunnect and Monarch Quantum Partner to Develop Deployable Quantum Networking Hardware](https://thequantuminsider.com/2026/08/11/qunnect-monarch-quantum-deployable-quantum-networking-systems) (The Quantum Insider, score 68)
-  - 2026-08-11 — [Quantum networks move beyond labs with Qunnect, Monarch deal](https://quantumzeitgeist.com/qunnect-quantum-networks-move-beyond-labs) (Quantum Zeitgeist, score 61)
-  - 2026-08-10 — [Qunnect and Monarch Quantum Partner to Commercialize Deployable Quantum Networking Infrastructure](https://quantumcomputingreport.com/qunnect-and-monarch-quantum-partner-to-commercialize-deployable-quantum-networking-infrastructure) (QuantumNews.ai, score 68)
-  - 2026-08-07 — [ZeroTier and Carahsoft Partner to Expand Post-Quantum Networking Access for Government](https://thequantuminsider.com/2026/08/07/zerotier-carahsoft-partner-post-quantum-secure-software-defined-networking-public-sector) (The Quantum Insider, score 100)
-
-## Quantum Software / Tooling
-
-- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, AWS Quantum Technologies Blog, arXiv RSS quant-ph
-- Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
-- Recent supporting evidence:
-  - 2026-08-08 — [QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow Using Promethium and IBM Quantum](https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum) (QuantumNews.ai, score 35)
-  - 2026-08-07 — [ZeroTier and Carahsoft Partner to Bring Post-Quantum Software-Defined Networking to the Public Sector](https://quantumcomputingreport.com/zerotier-and-carahsoft-partner-to-bring-post-quantum-software-defined-networking-to-the-public-sector) (QuantumNews.ai, score 100)
-  - 2026-08-04 — [OptQC and NTT Sign Capital Alliance to Build 1-Million-Qubit Optical Quantum Computer](https://quantumcomputingreport.com/optqc-and-ntt-sign-capital-alliance-to-build-1-million-qubit-optical-quantum-computer) (QuantumNews.ai, score 68)
-  - 2026-08-04 — [Negative Dissipation Rates Enabled in Quantum System Simulation](https://quantumzeitgeist.com/luxembourg-quantum-system-simulation-negative-dissipation) (QuantumNews.ai, score 61)
-  - 2026-08-03 — [UC Berkeley and QuantrolOx Sign Five-Year Partnership to Industrialize Quantum Processing](https://quantumcomputingreport.com/uc-berkeley-and-quantrolox-sign-five-year-partnership-to-industrialize-quantum-processing) (QuantumNews.ai, score 29)
 
 ## Standards / Government
 
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, arXiv RSS cs.CR, USAspending · Quantum Technologies
 - Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
 - Recent supporting evidence:
+  - 2026-08-13 — [Defense lab to formalize QTREX quantum program in Q4 2026](https://quantumzeitgeist.com/qtrex-quantum-program-defense-lab) (Quantum Zeitgeist, score 100)
+  - 2026-08-13 — [Infleqtion’s sales jumped 116% as quantum deals grow](https://quantumzeitgeist.com/quantum-deals-grow-infleqtions-116-percent) (Quantum Zeitgeist, score 100)
+  - 2026-08-13 — [Kartik Srinivasan Appointed Editor-in-Chief of Optica Quantum](https://thequantuminsider.com/2026/08/13/kartik-srinivasan-editor-in-chief-optica-quantum) (The Quantum Insider, score 56)
+  - 2026-08-13 — [DARPA funds Qunnect to improve quantum signal correction in fiber](https://quantumzeitgeist.com/qunnect-quantum-signal-correction-darpa-funds) (QuantumNews.ai, score 24)
   - 2026-08-12 — [QUANTUM SERVICE CONTRACT AGREEMENT PREVENTIVE MAINTENANCE](https://www.usaspending.gov/award/CONT_AWD_36C24726P0700_3600_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
-  - 2026-08-11 — [Cloudflare achieves quantum-secure FedRAMP High for U.S. government work](https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government) (Quantum Zeitgeist, score 100)
-  - 2026-08-11 — [Guest Post: US Quantum Resilience Clock Just Became Operational](https://thequantuminsider.com/2026/08/11/guest-post-us-quantum-resilience-clock-just-became-operational) (The Quantum Insider, score 100)
-  - 2026-08-11 — [Utah will coordinate quantum research with a new state initiative](https://quantumzeitgeist.com/utah-quantum-initiative-coordinate-research) (Quantum Zeitgeist, score 100)
-  - 2026-08-10 — [CP Group and qBraid launch Thailand’s quantum workforce program](https://quantumzeitgeist.com/quantum-workforce-program-qbraid-thailands) (QuantumNews.ai, score 100)
+
+## PQC / Crypto Agility
+
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, IACR ePrint, Keyfactor Quantum and Crypto-Agility
+- Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
+- Recent supporting evidence:
+  - 2026-08-13 — [QoreChain runs NIST’s quantum-safe tools on a live blockchain](https://quantumzeitgeist.com/qorechain-runs-nists-quantum-safe-tools) (Quantum Zeitgeist, score 118)
+  - 2026-08-13 — [Qtonic Quantum names Horst to shape post-quantum market choices](https://quantumzeitgeist.com/qtonic-quantum-post-market-choices-names) (Quantum Zeitgeist, score 100)
+  - 2026-08-13 — [BTQ Technologies Partners With ITCEN PNS to Expand Post-Quantum Security in Korea](https://thequantuminsider.com/2026/08/13/btq-technologies-signs-mou-itcenglobal-post-quantum-security-korea) (The Quantum Insider, score 78)
+  - 2026-08-13 — [SEALSQ & Quobly Seal $5 Million Post-Quantum Security Deal](https://quantumzeitgeist.com/post-quantum-security-sealsq-quobly) (Quantum Zeitgeist, score 55)
+  - 2026-08-13 — [Guest Post: Why Quantum Readiness Is Becoming a Venture Capital Question](https://thequantuminsider.com/2026/08/13/why-quantum-security-is-becoming-a-venture-capital-opportunity) (The Quantum Insider, score 42)
+
+## Quantum Hardware
+
+- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
+- Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
+- Recent supporting evidence:
+  - 2026-08-13 — [SDT Joins Canadian Non-Profit Open Quantum Design as Official Manufacturing Partner](https://quantumcomputingreport.com/sdt-joins-canadian-non-profit-open-quantum-design-as-official-manufacturing-partner) (QuantumNews.ai, score 30)
+  - 2026-08-13 — [Xanadu and University of Alberta Partner to Accelerate Photodynamic Cancer Drug Discovery](https://quantumcomputingreport.com/xanadu-and-university-of-alberta-partner-to-accelerate-photodynamic-cancer-drug-discovery) (QuantumNews.ai, score 19)
+  - 2026-08-12 — [Quantinuum and Oracle Partner to Bring Helios Quantum Computer to Oracle Cloud Infrastructure](https://quantumcomputingreport.com/quantinuum-and-oracle-partner-to-bring-helios-quantum-computer-to-oracle-cloud-infrastructure) (QuantumNews.ai, score 47)
+  - 2026-08-12 — [Zapata Quantum and QuEra Partner on Quantum Application Development](https://thequantuminsider.com/2026/08/12/zapata-quantum-quera-quantum-application-development) (The Quantum Insider, score 44)
+  - 2026-08-12 — [Quantinuum and Oracle Partner to Accelerate Hybrid Quantum Compute Adoption on Oracle Cloud Infrastructure](https://thequantuminsider.com/2026/08/12/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure) (The Quantum Insider, score 40)
+
+## Quantum Networking
+
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph
+- Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
+- Recent supporting evidence:
+  - 2026-08-13 — [DARPA Awards Contract to Qunnect to Advance Real-Time Polarization Compensation for Quantum Networks](https://quantumcomputingreport.com/darpa-awards-contract-to-qunnect-to-advance-real-time-polarization-compensation-for-quantum-networks) (QuantumNews.ai, score 64)
+  - 2026-08-13 — [DARPA Funds Qunnect to Improve Quantum Network Reliability](https://thequantuminsider.com/2026/08/13/darpa-taps-qunnect-strengthen-reliability-resilience-quantum-networks) (The Quantum Insider, score 64)
+  - 2026-08-12 — [Entanglement scaling can shift from power law to logarithmic](https://quantumzeitgeist.com/quantum-entanglement-scaling-shift-power-law) (Quantum Zeitgeist, score 27)
+  - 2026-08-11 — [Qunnect and Monarch Quantum Partner to Develop Deployable Quantum Networking Hardware](https://thequantuminsider.com/2026/08/11/qunnect-monarch-quantum-deployable-quantum-networking-systems) (The Quantum Insider, score 68)
+  - 2026-08-11 — [Quantum networks move beyond labs with Qunnect, Monarch deal](https://quantumzeitgeist.com/qunnect-quantum-networks-move-beyond-labs) (Quantum Zeitgeist, score 61)
+
+## Quantum Software / Tooling
+
+- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, AWS Quantum Technologies Blog, arXiv RSS quant-ph
+- Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
+- Recent supporting evidence:
+  - 2026-08-13 — [University of Guelph and Xanadu Sign MOU to Advance Quantum Education and Talent Development](https://quantumcomputingreport.com/university-of-guelph-and-xanadu-sign-mou-to-advance-quantum-education-and-talent-development) (QuantumNews.ai, score 23)
+  - 2026-08-08 — [QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow Using Promethium and IBM Quantum](https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum) (QuantumNews.ai, score 35)
+  - 2026-08-07 — [ZeroTier and Carahsoft Partner to Bring Post-Quantum Software-Defined Networking to the Public Sector](https://quantumcomputingreport.com/zerotier-and-carahsoft-partner-to-bring-post-quantum-software-defined-networking-to-the-public-sector) (QuantumNews.ai, score 100)
+  - 2026-08-04 — [OptQC and NTT Sign Capital Alliance to Build 1-Million-Qubit Optical Quantum Computer](https://quantumcomputingreport.com/optqc-and-ntt-sign-capital-alliance-to-build-1-million-qubit-optical-quantum-computer) (QuantumNews.ai, score 68)
+  - 2026-08-04 — [Negative Dissipation Rates Enabled in Quantum System Simulation](https://quantumzeitgeist.com/luxembourg-quantum-system-simulation-negative-dissipation) (QuantumNews.ai, score 61)

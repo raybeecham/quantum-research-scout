@@ -83,7 +83,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 15,
+      "evidence_count": 17,
       "first_party_evidence_count": 0,
       "name": "Infleqtion",
       "priority": "medium",
@@ -114,7 +114,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 7,
+      "evidence_count": 8,
       "first_party_evidence_count": 0,
       "name": "NIST",
       "priority": "critical",
@@ -714,8 +714,20 @@
         "National Institute of Standards and Technology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 6,
+      "current_evidence_count": 7,
       "evidence": [
+        {
+          "date": "2026-08-13",
+          "key": "https://quantumzeitgeist.com/qorechain-runs-nists-quantum-safe-tools",
+          "report": "2026-08/2026-08-13-digest.md",
+          "score": 118,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QoreChain runs NIST\u2019s quantum-safe tools on a live blockchain",
+          "url": "https://quantumzeitgeist.com/qorechain-runs-nists-quantum-safe-tools"
+        },
         {
           "date": "2026-08-06",
           "key": "https://thequantuminsider.com/2026/08/06/nist-researchers-demonstrate-entangled-photon-transmission-over-existing-fiber-networks",
@@ -813,10 +825,10 @@
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
         }
       ],
-      "evidence_count": 7,
+      "evidence_count": 8,
       "first_seen": "2026-06-25",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-08-06",
+      "latest_seen": "2026-08-13",
       "momentum": "declining",
       "name": "NIST",
       "prior_count": 3,
@@ -1778,9 +1790,9 @@
       "first_seen": "2024-08-19",
       "historical_evidence_count": 20,
       "latest_seen": "2026-07-30",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Fortanix",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -2030,9 +2042,9 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-12",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "IBM",
-      "prior_count": 5,
+      "prior_count": 3,
       "priority": "high",
       "recent_count": 3,
       "status": "active",
@@ -2186,11 +2198,11 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-08",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "IonQ",
-      "prior_count": 5,
+      "prior_count": 7,
       "priority": "high",
-      "recent_count": 5,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2933,11 +2945,11 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-11",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Cloudflare",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "AI Security",
@@ -3569,7 +3581,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware"
@@ -3626,9 +3638,9 @@
       "first_seen": "2025-02-06",
       "historical_evidence_count": 1,
       "latest_seen": "2026-07-30",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Booz Allen Hamilton",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -3943,7 +3955,7 @@
       "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -4187,8 +4199,32 @@
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 15,
+      "current_evidence_count": 17,
       "evidence": [
+        {
+          "date": "2026-08-13",
+          "key": "https://quantumzeitgeist.com/quantum-deals-grow-infleqtions-116-percent",
+          "report": "2026-08/2026-08-13-digest.md",
+          "score": 100,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "Infleqtion\u2019s sales jumped 116% as quantum deals grow",
+          "url": "https://quantumzeitgeist.com/quantum-deals-grow-infleqtions-116-percent"
+        },
+        {
+          "date": "2026-08-13",
+          "key": "https://thequantuminsider.com/2026/08/13/infleqtion-q2-revenue-growth-raises-2026-outlook",
+          "report": "2026-08/2026-08-13-digest.md",
+          "score": 41,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion Reports Q2 Revenue Growth and Raises 2026 Outlook",
+          "url": "https://thequantuminsider.com/2026/08/13/infleqtion-q2-revenue-growth-raises-2026-outlook"
+        },
         {
           "date": "2026-08-12",
           "key": "https://infleqtion.com/infleqtion-reports-record-q2-revenue-raises-2026-outlook-as-quantum-commercialization-accelerates",
@@ -4370,19 +4406,20 @@
           "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
         }
       ],
-      "evidence_count": 15,
+      "evidence_count": 17,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-12",
+      "latest_seen": "2026-08-13",
       "momentum": "rising",
       "name": "Infleqtion",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 4,
+      "recent_count": 6,
       "status": "active",
       "themes": [
         "Quantum Hardware",
-        "Quantum Sensing"
+        "Quantum Sensing",
+        "Standards / Government"
       ],
       "type": "company"
     },
@@ -4542,9 +4579,9 @@
       "latest_seen": "2026-08-10",
       "momentum": "rising",
       "name": "Pasqal",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "medium",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "Quantum Hardware"
@@ -5348,7 +5385,7 @@
       "latest_seen": "2026-08-03",
       "momentum": "declining",
       "name": "Crypto-agility",
-      "prior_count": 4,
+      "prior_count": 3,
       "priority": "critical",
       "recent_count": 0,
       "status": "quiet",
@@ -5878,11 +5915,11 @@
       "first_seen": "2025-09-10",
       "historical_evidence_count": 3,
       "latest_seen": "2026-08-08",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Logical qubits",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -6537,6 +6574,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-13T01:26:12.700325+00:00",
+  "updated_at": "2026-08-14T01:26:54.515209+00:00",
   "version": 2
 }

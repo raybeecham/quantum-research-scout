@@ -77,14 +77,14 @@
       "evidence": [
         {
           "authority": "authoritative",
-          "date": "2026-08-13",
+          "date": "2026-08-14",
           "role": "official award notice",
           "title": "Genesis Mission RFA Awards List",
           "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
         },
         {
           "authority": "authoritative",
-          "date": "2026-08-07",
+          "date": "2026-08-12",
           "role": "official funding announcement",
           "title": "Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges",
           "url": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science"
@@ -116,7 +116,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.86,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
       "probability": 0.86,
       "probability_factors": [
@@ -156,7 +156,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-11?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-12?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:genesis-mission:2026-Q3",
       "resolution_rule": {
@@ -233,16 +233,16 @@
             "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
           },
           {
-            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
             "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+            "title": "ACTION-LEVEL CONSTRAINT ENFORCEMENT AND CONTAINMENT INTEGRITY MONITORING FOR AGENTIC LARGE LANGUAGE MODEL SYSTEMS WITH AUTONOMOUS TOOL ACCESS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19645306/application-data"
           },
           {
             "relationship_basis": "analytical domain overlap: artificial intelligence",
             "relationship_confidence": "low",
-            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
           }
         ]
       },
@@ -274,7 +274,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.74,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
       "probability": 0.74,
       "probability_factors": [
@@ -306,7 +306,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-11?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-12?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:golden-dome:2026-Q3",
       "resolution_rule": {
@@ -411,7 +411,7 @@
       "horizon_end": "2026-09-27",
       "impact": "critical",
       "initial_probability": 0.72,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
       "probability": 0.72,
       "probability_factors": [
@@ -548,7 +548,7 @@
       "horizon_end": "2026-09-29",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -659,6 +659,12 @@
           {
             "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
             "relationship_confidence": "low",
+            "title": "GPS AUGMENTATION USING QUANTUM SENSING FOR VEHICLE PARKING",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19049841/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
             "title": "NEAR IR LUMINESCENCE AND OPTICALLY ADDRESSABLE QUANTUM SENSING AND MAGNETIC IMAGING WITH RADICALOID TETRATHIAFULVALENE TETRATHIOLATES",
             "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data"
           },
@@ -673,12 +679,6 @@
             "relationship_confidence": "low",
             "title": "Portable Quantum Sensing Device",
             "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
-            "relationship_confidence": "low",
-            "title": "HIGH PEAK POWER AND CONTINUOUS WAVE TUNABLE GAN LASERS FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/63750272/application-data"
           }
         ]
       },
@@ -696,7 +696,7 @@
       "horizon_end": "2027-01-07",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -852,9 +852,9 @@
       "horizon_end": "2026-08-30",
       "impact": "critical",
       "initial_probability": 0.65,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
-      "probability": 0.62,
+      "probability": 0.61,
       "probability_factors": [
         {
           "factor": "official dated milestone",
@@ -870,7 +870,7 @@
         },
         {
           "factor": "confirmation delay",
-          "points": -0.07
+          "points": -0.08
         }
       ],
       "probability_history": [
@@ -880,7 +880,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cReview federal robotic and AI-directed laboratory capabilities\u201d by 2026-09-12?",
+      "question": "Will authoritative evidence confirm \u201cReview federal robotic and AI-directed laboratory capabilities\u201d by 2026-09-13?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:genesis-mission:genesis-robotic-lab-review",
       "resolution_rule": {
@@ -970,16 +970,16 @@
             "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
           },
           {
-            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
             "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+            "title": "ACTION-LEVEL CONSTRAINT ENFORCEMENT AND CONTAINMENT INTEGRITY MONITORING FOR AGENTIC LARGE LANGUAGE MODEL SYSTEMS WITH AUTONOMOUS TOOL ACCESS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19645306/application-data"
           },
           {
             "relationship_basis": "analytical domain overlap: artificial intelligence",
             "relationship_confidence": "low",
-            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
           }
         ]
       },
@@ -997,7 +997,7 @@
       "horizon_end": "2026-08-30",
       "impact": "critical",
       "initial_probability": 0.62,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
       "probability": 0.57,
       "probability_factors": [
@@ -1025,7 +1025,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cConduct initial Pace-Setting Project demonstrations with transition-partner users\u201d by 2026-09-12?",
+      "question": "Will authoritative evidence confirm \u201cConduct initial Pace-Setting Project demonstrations with transition-partner users\u201d by 2026-09-13?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:military-ai-pace-setting-projects:military-ai-initial-user-demonstrations",
       "resolution_rule": {
@@ -1142,9 +1142,9 @@
       "horizon_end": "2026-09-07",
       "impact": "critical",
       "initial_probability": 0.57,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
-      "probability": 0.56,
+      "probability": 0.55,
       "probability_factors": [
         {
           "factor": "official dated milestone",
@@ -1156,7 +1156,7 @@
         },
         {
           "factor": "confirmation delay",
-          "points": -0.07
+          "points": -0.08
         }
       ],
       "probability_history": [
@@ -1166,7 +1166,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cAgencies identify and report their PQC migration leads\u201d by 2026-09-12?",
+      "question": "Will authoritative evidence confirm \u201cAgencies identify and report their PQC migration leads\u201d by 2026-09-13?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:federal-pqc-transition:federal-pqc-agency-leads",
       "resolution_rule": {
@@ -1291,14 +1291,14 @@
       "evidence": [
         {
           "authority": "authoritative",
-          "date": "2026-08-13",
+          "date": "2026-08-14",
           "role": "official award notice",
           "title": "Genesis Mission RFA Awards List",
           "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
         },
         {
           "authority": "authoritative",
-          "date": "2026-08-07",
+          "date": "2026-08-12",
           "role": "official funding announcement",
           "title": "Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges",
           "url": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science"
@@ -1330,7 +1330,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.86,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
       "probability": 0.86,
       "probability_factors": [
@@ -1370,7 +1370,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-11?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-12?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:genesis-mission:2026-Q3",
       "resolution_rule": {
@@ -1447,16 +1447,16 @@
             "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
           },
           {
-            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
             "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+            "title": "ACTION-LEVEL CONSTRAINT ENFORCEMENT AND CONTAINMENT INTEGRITY MONITORING FOR AGENTIC LARGE LANGUAGE MODEL SYSTEMS WITH AUTONOMOUS TOOL ACCESS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19645306/application-data"
           },
           {
             "relationship_basis": "analytical domain overlap: artificial intelligence",
             "relationship_confidence": "low",
-            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
           }
         ]
       },
@@ -1488,7 +1488,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.74,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
       "probability": 0.74,
       "probability_factors": [
@@ -1520,7 +1520,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-11?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-12?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:golden-dome:2026-Q3",
       "resolution_rule": {
@@ -1625,7 +1625,7 @@
       "horizon_end": "2026-09-27",
       "impact": "critical",
       "initial_probability": 0.72,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
       "probability": 0.72,
       "probability_factors": [
@@ -1762,7 +1762,7 @@
       "horizon_end": "2026-09-29",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -1873,6 +1873,12 @@
           {
             "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
             "relationship_confidence": "low",
+            "title": "GPS AUGMENTATION USING QUANTUM SENSING FOR VEHICLE PARKING",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19049841/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
             "title": "NEAR IR LUMINESCENCE AND OPTICALLY ADDRESSABLE QUANTUM SENSING AND MAGNETIC IMAGING WITH RADICALOID TETRATHIAFULVALENE TETRATHIOLATES",
             "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data"
           },
@@ -1887,12 +1893,6 @@
             "relationship_confidence": "low",
             "title": "Portable Quantum Sensing Device",
             "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
-            "relationship_confidence": "low",
-            "title": "HIGH PEAK POWER AND CONTINUOUS WAVE TUNABLE GAN LASERS FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/63750272/application-data"
           }
         ]
       },
@@ -1910,7 +1910,7 @@
       "horizon_end": "2027-01-07",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -2066,9 +2066,9 @@
       "horizon_end": "2026-08-30",
       "impact": "critical",
       "initial_probability": 0.65,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
-      "probability": 0.62,
+      "probability": 0.61,
       "probability_factors": [
         {
           "factor": "official dated milestone",
@@ -2084,7 +2084,7 @@
         },
         {
           "factor": "confirmation delay",
-          "points": -0.07
+          "points": -0.08
         }
       ],
       "probability_history": [
@@ -2094,7 +2094,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cReview federal robotic and AI-directed laboratory capabilities\u201d by 2026-09-12?",
+      "question": "Will authoritative evidence confirm \u201cReview federal robotic and AI-directed laboratory capabilities\u201d by 2026-09-13?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:genesis-mission:genesis-robotic-lab-review",
       "resolution_rule": {
@@ -2184,16 +2184,16 @@
             "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
           },
           {
-            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
             "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+            "title": "ACTION-LEVEL CONSTRAINT ENFORCEMENT AND CONTAINMENT INTEGRITY MONITORING FOR AGENTIC LARGE LANGUAGE MODEL SYSTEMS WITH AUTONOMOUS TOOL ACCESS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19645306/application-data"
           },
           {
             "relationship_basis": "analytical domain overlap: artificial intelligence",
             "relationship_confidence": "low",
-            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
           }
         ]
       },
@@ -2211,7 +2211,7 @@
       "horizon_end": "2026-08-30",
       "impact": "critical",
       "initial_probability": 0.62,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
       "probability": 0.57,
       "probability_factors": [
@@ -2239,7 +2239,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cConduct initial Pace-Setting Project demonstrations with transition-partner users\u201d by 2026-09-12?",
+      "question": "Will authoritative evidence confirm \u201cConduct initial Pace-Setting Project demonstrations with transition-partner users\u201d by 2026-09-13?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:military-ai-pace-setting-projects:military-ai-initial-user-demonstrations",
       "resolution_rule": {
@@ -2356,9 +2356,9 @@
       "horizon_end": "2026-09-07",
       "impact": "critical",
       "initial_probability": 0.57,
-      "last_evaluated_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_evaluated_at": "2026-08-14T01:18:50.250873+00:00",
       "outcome": null,
-      "probability": 0.56,
+      "probability": 0.55,
       "probability_factors": [
         {
           "factor": "official dated milestone",
@@ -2370,7 +2370,7 @@
         },
         {
           "factor": "confirmation delay",
-          "points": -0.07
+          "points": -0.08
         }
       ],
       "probability_history": [
@@ -2380,7 +2380,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cAgencies identify and report their PQC migration leads\u201d by 2026-09-12?",
+      "question": "Will authoritative evidence confirm \u201cAgencies identify and report their PQC migration leads\u201d by 2026-09-13?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:federal-pqc-transition:federal-pqc-agency-leads",
       "resolution_rule": {
@@ -3368,9 +3368,9 @@
     "resolved": 1
   },
   "temporal_context": {
-    "comparison_started_at": "2026-08-12T01:17:45.977018+00:00",
-    "historical_discoveries": 2
+    "comparison_started_at": "2026-08-13T01:19:25.643416+00:00",
+    "historical_discoveries": 9
   },
-  "updated_at": "2026-08-13T01:19:25.643416+00:00",
+  "updated_at": "2026-08-14T01:18:50.250873+00:00",
   "version": 1
 }

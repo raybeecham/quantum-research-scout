@@ -1,20 +1,43 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 27.8,
+      "acceptance_rate": 27.6,
       "accepted": 27,
-      "quarantined": 70,
+      "quarantined": 71,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 94.2,
-      "accepted": 425,
+      "acceptance_rate": 94.4,
+      "accepted": 438,
       "quarantined": 26,
       "scope": "Federal funding"
     }
   ],
   "method_note": "Quarantine is not a finding that evidence is false or irrelevant. It means the current evidence is too weak for automated promotion and remains available for review.",
   "quarantined_evidence": [
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Executive Order 14412",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-13",
+      "key": "https://quantumzeitgeist.com/qtonic-quantum-post-market-choices-names",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "scope": "Federal missions",
+      "source": "Quantum Zeitgeist",
+      "stage": "mission evidence admission",
+      "title": "Qtonic Quantum names Horst to shape post-quantum market choices",
+      "url": "https://quantumzeitgeist.com/qtonic-quantum-post-market-choices-names"
+    },
     {
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
@@ -2201,12 +2224,12 @@
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 96,
+      "count": 97,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 96,
+      "count": 97,
       "label": "No relevant term in the evidence itself"
     },
     {
@@ -2216,20 +2239,20 @@
     },
     {
       "code": "non_government_source",
-      "count": 4,
+      "count": 5,
       "label": "Source is not an official .gov or .mil domain"
     }
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 82.5,
-    "accepted": 452,
-    "decisions": 548,
+    "acceptance_rate": 82.7,
+    "accepted": 465,
+    "decisions": 562,
     "funding_quarantine": 26,
-    "mission_quarantine": 70,
-    "quarantined": 96,
+    "mission_quarantine": 71,
+    "quarantined": 97,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-13T01:19:25.643416+00:00",
+  "updated_at": "2026-08-14T01:18:50.250873+00:00",
   "version": 1
 }
