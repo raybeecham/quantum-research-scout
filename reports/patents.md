@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-08-14T01:18:50.250873+00:00_
+_Updated 2026-08-15T00:51:02.586375+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -41,11 +41,11 @@ Family grouping uses provider family identifiers, parent/priority applications, 
 | [LIGHTWEIGHT POST-QUANTUM AUTHENTICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19363608/application-data)<br><small>US20260046148A1</small> | UNIVERSITY OF SOUTH FLORIDA | 1 / 0 | 0 | **73 · HIGH** |
 | [Distributed Seed Storage for Quantum-Safe Private Key Generation on Constrained Devices](https://data.uspto.gov/patent-file-wrapper/search/details/19360819/application-data)<br><small>US20260046116A1</small> | DigiCert, Inc. | 1 / 0 | 0 | **73 · HIGH** |
 | [MULTI-PARTY AND MULTI-USE QUANTUM RESISTANT SIGNATURES AND KEY ESTABLISHMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19347195/application-data)<br><small>US20260025282A1</small> | PRIVATEGRITY CORPORATION | 1 / 0 | 0 | **73 · HIGH** |
+| [Systems and Methods for a Quantum Safe Certificate Ledger](https://data.uspto.gov/patent-file-wrapper/search/details/19632363/application-data)<br><small>US20260238465A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 | [VIBRATION-INDUCED, POST-QUANTUM ENCRYPTION SYSTEM USING CYMATICS-BASED KEY GENERATION](https://data.uspto.gov/patent-file-wrapper/search/details/19303413/application-data)<br><small>US20260205280A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 | [Hardware-Anchored DAO Governance Engine with Quantum-Resistant Attestation](https://data.uspto.gov/patent-file-wrapper/search/details/19562608/application-data)<br><small>US20260205302A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 | [SYMBOLIC PHOTONIC LOGIC GATE ARCHITECTURE FOR LIGHT-SPEED DATA PROCESSING AND QUANTUM-RESISTANT OPTICAL ENCRYPTION](https://data.uspto.gov/patent-file-wrapper/search/details/19458148/application-data)<br><small>US20260153781A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 | [QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS](https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data)<br><small>US20260149589A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
-| [HYBRID POST-QUANTUM TLS MIGRATION WITH BINDER-ENFORCED RESUMPTION](https://data.uspto.gov/patent-file-wrapper/search/details/19309197/application-data)<br><small>US20260052009A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 
 ## Notable Patent Watchlist
 
@@ -112,7 +112,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [METHOD, CONTROL PROGRAM, COMPUTER-READABLE DATA CARRIER, CONTROL UNIT, QUANTUM DEVICE, QUANTUM NETWORK, APPARATUS, AND QUANTUM COMPUTING ARRANGEMENT FOR ESTABLISHING A QUANTUM COMMUNICATION CHANNEL](https://data.uspto.gov/patent-file-wrapper/search/details/19289705/application-data)<br><small>US20260051959A1</small> | Application · Pending | Airbus SAS | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [NEAR IR LUMINESCENCE AND OPTICALLY ADDRESSABLE QUANTUM SENSING AND MAGNETIC IMAGING WITH RADICALOID TETRATHIAFULVALENE TETRATHIOLATES](https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data)<br><small>US20250319211A1</small> | Application · Pending | The University of Chicago | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [SEPARATION FILTER AND QUANTUM COMMUNICATION SYSTEM USING THE SAME](https://data.uspto.gov/patent-file-wrapper/search/details/19078645/application-data)<br><small>US20250306283A1</small> | Application · Pending | UNIVERSITY OF SEOUL INDUSTRY COOPERATION FOUNDATION | 1 member(s) · 0 citation(s) | **65 · HIGH** |
-| [OPTICAL DETECTOR AND METHOD FOR QUANTUM COMMUNICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19050591/application-data)<br><small>US20250260495A1</small> | Application · Pending | Airbus SAS | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [METHOD AND SYSTEM FOR GENERATING CYBERSECURITY VULNERABILITY REMEDIATION USING GENERATIVE AI](https://data.uspto.gov/patent-file-wrapper/search/details/19535555/application-data)<br><small>US20260236342A1</small> | Application · Pending | ObjectSecurity LLC | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [ENERGY LEVEL DIFFERENCE ESTIMATION METHOD AND QUANTUM COMPUTING SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19530342/application-data)<br><small>US20260236811A1</small> | Application · Pending | QunaSys Inc., Fujitsu Limited | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [PULSE OPTIMIZATION IN QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19454548/application-data)<br><small>US20260212249A1</small> | Application · Pending | YISSUM RESEARCH DEVELOPMENT COMPANY OF THE HEBREW UNIVERSITY OF JERUSALEM LTD., BAR ILAN UNIVERSITY | 1 member(s) · 0 citation(s) | **65 · HIGH** |
@@ -129,6 +128,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [METHOD FOR CARRYING OUT USER AUTHENTICATION IN QUANTUM COMMUNICATION SYSTEM, AND DEVICE THEREFOR](https://data.uspto.gov/patent-file-wrapper/search/details/19101550/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **64 · HIGH** |
 | [METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025049807/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | ARRIS ENTERPRISES LLC | 2 member(s) · 0 citation(s) | **63 · HIGH** |
 | [SYSTEM AND METHOD FOR SOURCE TRUST-BASED DETECTION OF CYBERSECURITY ISSUES IN A COMPUTING ENVIRONMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19538072/application-data)<br><small>12705349</small> | Grant · Granted | Wiz, Inc. | 1 member(s) · 0 citation(s) | **63 · HIGH** |
+| [OPTICAL DETECTOR AND METHOD FOR QUANTUM COMMUNICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19050591/application-data)<br><small>US20250260495A1</small> | Application · Pending | Airbus SAS | 1 member(s) · 0 citation(s) | **62 · HIGH** |
 | [QUANTUM COMMUNICATION SYSTEM THAT SWITCHES BETWEEN QUANTUM KEY DISTRIBUTION (QKD) PROTOCOLS AND ASSOCIATED METHODS](https://data.uspto.gov/patent-file-wrapper/search/details/19188080/application-data)<br><small>US20250254033A1</small> | Application · Pending | Eagle Technology, LLC | 1 member(s) · 0 citation(s) | **62 · HIGH** |
 | [ZERO-TRUST MULTI-AGENT GOVERNANCE FRAMEWORK FOR CLINICAL ARTIFICIAL INTELLIGENCE](https://data.uspto.gov/patent-file-wrapper/search/details/19455879/application-data)<br><small>US20260154580A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **62 · HIGH** |
 | [SYSTEM AND METHOD FOR INTELLIGENT CYBERSECURITY ANALYSIS USING ARTIFICIAL INTELLIGENCE](https://data.uspto.gov/patent-file-wrapper/search/details/19457312/application-data)<br><small>US20260156144A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **62 · HIGH** |

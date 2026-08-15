@@ -1,15 +1,15 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 27.6,
+      "acceptance_rate": 27.0,
       "accepted": 27,
-      "quarantined": 71,
+      "quarantined": 73,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 94.4,
-      "accepted": 438,
-      "quarantined": 26,
+      "acceptance_rate": 94.8,
+      "accepted": 458,
+      "quarantined": 25,
       "scope": "Federal funding"
     }
   ],
@@ -769,6 +769,29 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-02",
+      "key": "https://www.grants.gov/search-results-detail/362827",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Quantum Benchmarking Initiative",
+      "stage": "mission evidence admission",
+      "title": "FAIR HOUSING INITIATIVES PROGRAM PRIVATE ENFORCEMENT INITIATIVE",
+      "url": "https://www.grants.gov/search-results-detail/362827"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "Quantum Genesis",
         "reason_codes": [
           "official_source",
@@ -1232,6 +1255,29 @@
         "score": 25,
         "status": "quarantined"
       },
+      "date": "2026-05-28",
+      "key": "https://www.grants.gov/search-results-detail/356205",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Quantum Benchmarking Initiative",
+      "stage": "mission evidence admission",
+      "title": "BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)",
+      "url": "https://www.grants.gov/search-results-detail/356205"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
       "date": "2026-05-20",
       "key": "https://www.grants.gov/search-results-detail/362488",
       "mission_id": "darpa-qbi",
@@ -1668,28 +1714,6 @@
       "scope": "Federal missions",
       "source": "Grants.gov \u00b7 Genesis Mission",
       "stage": "mission evidence admission",
-      "title": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
-      "url": "https://www.grants.gov/search-results-detail/355385"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2024-07-23",
-      "key": "grants_gov:ESP24NOFODEFENSAYYO5",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "funding evidence admission",
       "title": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
       "url": "https://www.grants.gov/search-results-detail/355385"
     },
@@ -2224,17 +2248,17 @@
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 97,
+      "count": 98,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 97,
+      "count": 98,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 92,
+      "count": 93,
       "label": "Official government source"
     },
     {
@@ -2245,14 +2269,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 82.7,
-    "accepted": 465,
-    "decisions": 562,
-    "funding_quarantine": 26,
-    "mission_quarantine": 71,
-    "quarantined": 97,
+    "acceptance_rate": 83.2,
+    "accepted": 485,
+    "decisions": 583,
+    "funding_quarantine": 25,
+    "mission_quarantine": 73,
+    "quarantined": 98,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-14T01:18:50.250873+00:00",
+  "updated_at": "2026-08-15T00:51:02.586375+00:00",
   "version": 1
 }

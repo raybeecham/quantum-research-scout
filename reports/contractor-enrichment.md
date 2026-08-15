@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-14T01:18:50.250873+00:00_
+_Updated 2026-08-15T00:51:02.586375+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **31** (**41.3%** coverage)
+- SAM.gov-resolved entities: **34** (**45.3%** coverage)
 - Newly resolved this run: **3**
-- Pending bounded enrichment: **144**
+- Pending bounded enrichment: **142**
 - Ambiguous / no match: **1 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -45,6 +45,9 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | THE REGENTS OF THE UNIVERSITY OF COLORADO | [The Regents of the University of Colorado](https://sam.gov/entity/SPVKK1RC2MZ3/coreData) | SPVKK1RC2MZ3 | 4B475 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | THE JOHNS HOPKINS UNIVERSITY | [THE JOHNS HOPKINS UNIVERSITY](https://sam.gov/entity/FTMTDMBR29C7/coreData) | FTMTDMBR29C7 | 5L406 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF TEXAS AT AUSTIN | [University of Texas at Austin](https://sam.gov/entity/V6AFQPN18437/coreData) | V6AFQPN18437 | 9B981 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| ROCHESTER INSTITUTE OF TECHNOLOGY | [ROCHESTER INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/J6TWTRKC1X14/coreData) | J6TWTRKC1X14 | 0SWS3 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| NORTH CAROLINA STATE UNIVERSITY | [NORTH CAROLINA STATE UNIVERSITY](https://sam.gov/entity/U3NVH931QJJ3/coreData) | U3NVH931QJJ3 | 1E7H9 | Active | 1862 Land Grant College, Educational Institution, U.S. State Government |
+| MCKINSEY & COMPANY, INC. WASHINGTON D.C. | [MCKINSEY & COMPANY, INC. WASHINGTON D.C.](https://sam.gov/entity/N6JZARL64EW5/coreData) | N6JZARL64EW5 | 438P1 | Active | Business or Organization, For Profit Organization, Self-Certified HUBZone Joint Venture |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
 | REDACTED DUE TO PII | REDACTED DUE TO PII | — | — | no_match | No active public SAM.gov entity matched |
 | POST QUANTUM LABS LLC | POST QUANTUM LABS LLC | — | — | pending | api key missing |
@@ -64,9 +67,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF SOUTH FLORIDA | UNIVERSITY OF SOUTH FLORIDA | — | — | pending | api key missing |
 | THE JOHNS HOPKINS UNIVERSITY | THE JOHNS HOPKINS UNIVERSITY | — | — | pending | api key missing |
 | COLOSSAL CONTRACTING LLC | COLOSSAL CONTRACTING LLC | — | — | ambiguous | Multiple or non-exact SAM.gov candidates require review |
-| ROCHESTER INSTITUTE OF TECHNOLOGY | ROCHESTER INSTITUTE OF TECHNOLOGY | — | — | pending | Queued for a future bounded enrichment batch |
-| NORTH CAROLINA STATE UNIVERSITY | NORTH CAROLINA STATE UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
-| MCKINSEY & COMPANY, INC. WASHINGTON D.C. | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | — | — | pending | Queued for a future bounded enrichment batch |
 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | — | — | pending | api key missing |
 | ALVAREZ LLC | ALVAREZ LLC | — | — | pending | api key missing |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | — | — | pending | Queued for a future bounded enrichment batch |

@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-14T01:18:50.250873+00:00_
+_Updated 2026-08-15T00:51:02.586375+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **465**
-- Quarantined evidence or relationships: **97**
-- Acceptance rate: **82.7%**
+- Accepted evidence: **485**
+- Quarantined evidence or relationships: **98**
+- Acceptance rate: **83.2%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 27 | 71 | 27.6% |
-| Federal funding | 438 | 26 | 94.4% |
+| Federal missions | 27 | 73 | 27.0% |
+| Federal funding | 458 | 25 | 94.8% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 97
-- **No relevant term in the evidence itself**: 97
-- **Official government source**: 92
+- **Match appears only in collector query metadata**: 98
+- **No relevant term in the evidence itself**: 98
+- **Official government source**: 93
 - **Source is not an official .gov or .mil domain**: 5
 
 ## Quarantined Evidence
@@ -255,6 +255,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
+### [FAIR HOUSING INITIATIVES PROGRAM PRIVATE ENFORCEMENT INITIATIVE](https://www.grants.gov/search-results-detail/362827)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
 ### [Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/359269)
 
 - Scope: Federal missions
@@ -389,6 +396,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [Novel Experiential Technologies Assisting Individual Learning (NExT AI) Hubs (P20 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359949)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/356205)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
@@ -532,13 +546,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal missions
 - Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025](https://www.grants.gov/search-results-detail/355385)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 

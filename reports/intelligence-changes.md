@@ -2,77 +2,76 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-08-14T01:18:50.250873+00:00_
+_Updated 2026-08-15T00:51:02.586375+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **130**
-- Added / changed / resolved: **96 / 6 / 27**
+- Material changes: **163**
+- Added / changed / resolved: **129 / 5 / 27**
 - Newly superseded: **0**
-- Active conflicts: **2**
-- Conflicts opened / resolved: **1 / 0**
+- Active conflicts: **4**
+- Conflicts opened / resolved: **2 / 0**
 
 ## Changed claims
 
-- **EARLY STAGE INNOVATIONS (ESI26)** — opportunity status: closed ([evidence](https://www.grants.gov/search-results-detail/363066))
-- **52000QR260026939- USCG IOD- Training: Artificial Intelligence for Federal Decision Making** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/d2bb2c6e57c7470a93d4b17a1880563a/view))
-- **15--PANEL,STRUCTURAL,AI** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/b1e512b55280430da7502b135f789487/view))
-- **15--PANEL,STRUCTURAL,AI** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/97e315337fb94f088feec798801ff1a5/view))
-- **15--PANEL,STRUCTURAL,AI** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/96feef11cce042849f9cbd97dbc13bc9/view))
-- **Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech​** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/ad0c3236baf344fd9ac0ac4c9d0b9238/view))
+- **Robotic Manipulation, Teleoperation AI Platform** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/817d82c772bb468ba5716d7768df39be/view))
+- **66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/ed8b13d05509449aab7fe68003e47134/view))
+- **USAFA: Quantum Demonstration/Experiment System** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/340e073342bd42d9a6e7b8900fbe771c/view))
+- **15--ARMOR ASSY PANEL AI** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/ca7480f31a1f49dfbdd9058153f71757/view))
+- **ATEC HQ 003 - AI Assurance & Autonomous System Validation** — qualification gate: targeted review ([evidence](https://sam.gov/workspace/contract/opp/a7ce960566e242bbbf871a3e2fab3453/view))
 
 ## New claims
 
-- **CONTRACTOR SUPPORT IS NEEDED FOR ONGOING OPERATION OF THE CYBERSECURITY COMPENSATION SYSTEM BASED ON EXISTING DHS WORK. SUPPORT FOR THE CYBERSECURITY COMPENSATION SYSTEM WILL INCL...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RDA226C00000003_7001_-NONE-_-NONE-))
-- **CONTRACTOR SUPPORT IS NEEDED FOR ONGOING OPERATION OF THE CYBERSECURITY COMPENSATION SYSTEM BASED ON EXISTING DHS WORK. SUPPORT FOR THE CYBERSECURITY COMPENSATION SYSTEM WILL INCL...** — awarding agency: Department of Homeland Security ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RDA226C00000003_7001_-NONE-_-NONE-))
-- **CONTRACTOR SUPPORT IS NEEDED FOR ONGOING OPERATION OF THE CYBERSECURITY COMPENSATION SYSTEM BASED ON EXISTING DHS WORK. SUPPORT FOR THE CYBERSECURITY COMPENSATION SYSTEM WILL INCL...** — reported amount: 330764.08 ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RDA226C00000003_7001_-NONE-_-NONE-))
-- **CONTRACTOR SUPPORT IS NEEDED FOR ONGOING OPERATION OF THE CYBERSECURITY COMPENSATION SYSTEM BASED ON EXISTING DHS WORK. SUPPORT FOR THE CYBERSECURITY COMPENSATION SYSTEM WILL INCL...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RDA226C00000003_7001_-NONE-_-NONE-))
-- **59--GPS NUMBER TWO,S,AI** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/dc94ab7cc0e94cc4bd08a188da2eb797/view))
-- **59--GPS NUMBER TWO,S,AI** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME ([evidence](https://sam.gov/workspace/contract/opp/dc94ab7cc0e94cc4bd08a188da2eb797/view))
-- **59--GPS NUMBER TWO,S,AI** — reported amount: 401160.0 ([evidence](https://sam.gov/workspace/contract/opp/dc94ab7cc0e94cc4bd08a188da2eb797/view))
-- **59--GPS NUMBER TWO,S,AI** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/dc94ab7cc0e94cc4bd08a188da2eb797/view))
-- **Notice of Award to Sole Source Cybersecurity Compensation System Support Services** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/fb991ef4c6cd44fb8cf063a685d1e007/view))
-- **NISP TAPE LIBRARY (QUANTUM) MAINT. RENEWAL** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_88310326F00171_8800_NNG15SD19B_8000))
-- **NISP TAPE LIBRARY (QUANTUM) MAINT. RENEWAL** — awarding agency: National Archives and Records Administration ([evidence](https://www.usaspending.gov/award/CONT_AWD_88310326F00171_8800_NNG15SD19B_8000))
-- **NISP TAPE LIBRARY (QUANTUM) MAINT. RENEWAL** — reported amount: 16432.51 ([evidence](https://www.usaspending.gov/award/CONT_AWD_88310326F00171_8800_NNG15SD19B_8000))
-- **NISP TAPE LIBRARY (QUANTUM) MAINT. RENEWAL** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_88310326F00171_8800_NNG15SD19B_8000))
-- **Advancing Global Health** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/363452))
-- **Advancing Global Health** — deadline: 02/14/2027 ([evidence](https://www.grants.gov/search-results-detail/363452))
-- **Advancing Global Health** — awarding agency: DOS-GHSD ([evidence](https://www.grants.gov/search-results-detail/363452))
-- **CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/360651))
-- **CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)** — deadline: 09/30/2029 ([evidence](https://www.grants.gov/search-results-detail/360651))
-- **CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)** — awarding agency: DOC-NIST ([evidence](https://www.grants.gov/search-results-detail/360651))
-- **MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/363586))
-- **MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026** — deadline: 09/04/2026 ([evidence](https://www.grants.gov/search-results-detail/363586))
-- **MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026** — awarding agency: SBA ([evidence](https://www.grants.gov/search-results-detail/363586))
-- **The NIA Genetics of Alzheimer's Disease Data Storage Site (NIAGADS)** — opportunity status: forecasted ([evidence](https://www.grants.gov/search-results-detail/362454))
-- **The NIA Genetics of Alzheimer's Disease Data Storage Site (NIAGADS)** — awarding agency: HHS-NIH11 ([evidence](https://www.grants.gov/search-results-detail/362454))
-- **59--SENSOR SYSTEM, THER** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/84a55bd8c1ca42cca07c0b35a4a7373c/view))
-- **59--SENSOR SYSTEM, THER** — deadline: 2026-09-14T16:30:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/84a55bd8c1ca42cca07c0b35a4a7373c/view))
-- **59--SENSOR SYSTEM, THER** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME MECHANICSBURG.SPRMM1 DLA MECHANICSBURG ([evidence](https://sam.gov/workspace/contract/opp/84a55bd8c1ca42cca07c0b35a4a7373c/view))
-- **15--PANEL,STRUCTURAL,AI** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view))
-- **15--PANEL,STRUCTURAL,AI** — deadline: 2026-08-21 ([evidence](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view))
-- **15--PANEL,STRUCTURAL,AI** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION ([evidence](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view))
-- **58--BEACON RCVR ASSY,AI, IN REPAIR/MODIFICATION OF** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/b85de06556e54ef1bffbbfbf6be58e87/view))
-- **58--BEACON RCVR ASSY,AI, IN REPAIR/MODIFICATION OF** — deadline: 2026-09-28T00:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/b85de06556e54ef1bffbbfbf6be58e87/view))
-- **58--BEACON RCVR ASSY,AI, IN REPAIR/MODIFICATION OF** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT ([evidence](https://sam.gov/workspace/contract/opp/b85de06556e54ef1bffbbfbf6be58e87/view))
-- **Laser for widefield quantum diamond microscope** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/b0c03fae4cd744a4a1eb7b1f16f50bb3/view))
-- **Laser for widefield quantum diamond microscope** — deadline: 2026-08-25T12:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/b0c03fae4cd744a4a1eb7b1f16f50bb3/view))
-- **Laser for widefield quantum diamond microscope** — awarding agency: COMMERCE, DEPARTMENT OF.NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY.DEPT OF COMMERCE NIST ([evidence](https://sam.gov/workspace/contract/opp/b0c03fae4cd744a4a1eb7b1f16f50bb3/view))
-- **Call for Solutions for Participation in Command and Control (C2) Software Development Kit (SDK) Integration Event for Controllers/ Human Machine Interfaces (HMI) of Robotic and Autonomous Systems** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/a9df7e011cd7459980794cae7e49ff11/view))
-- **Call for Solutions for Participation in Command and Control (C2) Software Development Kit (SDK) Integration Event for Controllers/ Human Machine Interfaces (HMI) of Robotic and Autonomous Systems** — deadline: 2031-08-12T17:00:00-05:00 ([evidence](https://sam.gov/workspace/contract/opp/a9df7e011cd7459980794cae7e49ff11/view))
-- **Call for Solutions for Participation in Command and Control (C2) Software Development Kit (SDK) Integration Event for Controllers/ Human Machine Interfaces (HMI) of Robotic and Autonomous Systems** — set aside: No Set aside used ([evidence](https://sam.gov/workspace/contract/opp/a9df7e011cd7459980794cae7e49ff11/view))
-- **Call for Solutions for Participation in Command and Control (C2) Software Development Kit (SDK) Integration Event for Controllers/ Human Machine Interfaces (HMI) of Robotic and Autonomous Systems** — awarding agency: DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC RSA.W6QK ACC-RSA ([evidence](https://sam.gov/workspace/contract/opp/a9df7e011cd7459980794cae7e49ff11/view))
-- **INL_RFQ-PR15372268 TECHNOLOGICAL EQUIPMENT FOR AI** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/95813bd2ad944e7a89b5590605a0ccc9/view))
-- **INL_RFQ-PR15372268 TECHNOLOGICAL EQUIPMENT FOR AI** — deadline: 2026-08-24T16:00:00-05:00 ([evidence](https://sam.gov/workspace/contract/opp/95813bd2ad944e7a89b5590605a0ccc9/view))
-- **INL_RFQ-PR15372268 TECHNOLOGICAL EQUIPMENT FOR AI** — awarding agency: STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.AMERICAN EMBASSY BOGOTA - NAS ([evidence](https://sam.gov/workspace/contract/opp/95813bd2ad944e7a89b5590605a0ccc9/view))
-- **NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/93064bc210294f239f395b372899ceab/view))
-- **NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder** — deadline: 2026-08-20T12:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/93064bc210294f239f395b372899ceab/view))
-- **NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder** — set aside: No Set aside used ([evidence](https://sam.gov/workspace/contract/opp/93064bc210294f239f395b372899ceab/view))
-- **NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND WARREN MICHIGAN.DLA LAND WARREN ([evidence](https://sam.gov/workspace/contract/opp/93064bc210294f239f395b372899ceab/view))
-- **NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder** — states requirement: referenced with instructions in the solicitation. (b) As directed in Section L of this solicitation, interested vendors shall submit a quote or proposal via email to the Contract Specialist listed on the solicitation. The email shall include subject header: Proposal Submission SPRDL1-XX-X-XXXX (com... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0185fb2f6df64b9ca13e3825ac75e181/download))
-- **NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder** — states requirement: ted vendors shall submit a quote or proposal via email to the Contract Specialist listed on the solicitation. The email shall include subject header: Proposal Submission SPRDL1-XX-X-XXXX (company name) on the solicitation. (c) Requirements for tracking solicitations and submitting bid submissions:... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0185fb2f6df64b9ca13e3825ac75e181/download))
-- **NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder** — states requirement: mpany name) on the solicitation. (c) Requirements for tracking solicitations and submitting bid submissions: 1. Vendors must be registered for a sam.gov account through https://login.gov in order to manage searches and track solicitations. Using the Contract Opportunities search function in sam.gov... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0185fb2f6df64b9ca13e3825ac75e181/download))
+- **CYBERSECURITY TALENT MANAGEMENT SYSTEM (CTMS) ASSESSMENT PROGRAM** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RDA226C00000004_7001_-NONE-_-NONE-))
+- **CYBERSECURITY TALENT MANAGEMENT SYSTEM (CTMS) ASSESSMENT PROGRAM** — awarding agency: Department of Homeland Security ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RDA226C00000004_7001_-NONE-_-NONE-))
+- **CYBERSECURITY TALENT MANAGEMENT SYSTEM (CTMS) ASSESSMENT PROGRAM** — reported amount: 2014312.08 ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RDA226C00000004_7001_-NONE-_-NONE-))
+- **CYBERSECURITY TALENT MANAGEMENT SYSTEM (CTMS) ASSESSMENT PROGRAM** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RDA226C00000004_7001_-NONE-_-NONE-))
+- **FROM WASTE TO UV ARMOR: DEVELOPMENT AND OPTIMIZATION OF COST-EFFECTIVE BIOCOMPATIBLE GRAPHENE QUANTUM DOTS FOR MELANOMA PREVENTION.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_HT9425261E454_097))
+- **FROM WASTE TO UV ARMOR: DEVELOPMENT AND OPTIMIZATION OF COST-EFFECTIVE BIOCOMPATIBLE GRAPHENE QUANTUM DOTS FOR MELANOMA PREVENTION.** — awarding agency: Department of Defense ([evidence](https://www.usaspending.gov/award/ASST_NON_HT9425261E454_097))
+- **FROM WASTE TO UV ARMOR: DEVELOPMENT AND OPTIMIZATION OF COST-EFFECTIVE BIOCOMPATIBLE GRAPHENE QUANTUM DOTS FOR MELANOMA PREVENTION.** — reported amount: 1118013.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_HT9425261E454_097))
+- **FROM WASTE TO UV ARMOR: DEVELOPMENT AND OPTIMIZATION OF COST-EFFECTIVE BIOCOMPATIBLE GRAPHENE QUANTUM DOTS FOR MELANOMA PREVENTION.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_HT9425261E454_097))
+- **Advancing Global Health** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/363607))
+- **Advancing Global Health** — deadline: 02/14/2027 ([evidence](https://www.grants.gov/search-results-detail/363607))
+- **Advancing Global Health** — awarding agency: DOS-GHSD ([evidence](https://www.grants.gov/search-results-detail/363607))
+- **3RD FOR 4TH QUARTER BID FY26 SAM OK** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_15B60626P00000067_1540_-NONE-_-NONE-))
+- **3RD FOR 4TH QUARTER BID FY26 SAM OK** — awarding agency: Department of Justice ([evidence](https://www.usaspending.gov/award/CONT_AWD_15B60626P00000067_1540_-NONE-_-NONE-))
+- **3RD FOR 4TH QUARTER BID FY26 SAM OK** — reported amount: 18274.85 ([evidence](https://www.usaspending.gov/award/CONT_AWD_15B60626P00000067_1540_-NONE-_-NONE-))
+- **3RD FOR 4TH QUARTER BID FY26 SAM OK** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_15B60626P00000067_1540_-NONE-_-NONE-))
+- **TSA CURRICULUM DEVELOPER FOR AIRPORT CYBERSECURITY READINESS** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_19RP3826P1519_1900_-NONE-_-NONE-))
+- **TSA CURRICULUM DEVELOPER FOR AIRPORT CYBERSECURITY READINESS** — awarding agency: Department of State ([evidence](https://www.usaspending.gov/award/CONT_AWD_19RP3826P1519_1900_-NONE-_-NONE-))
+- **TSA CURRICULUM DEVELOPER FOR AIRPORT CYBERSECURITY READINESS** — reported amount: 18500.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_19RP3826P1519_1900_-NONE-_-NONE-))
+- **TSA CURRICULUM DEVELOPER FOR AIRPORT CYBERSECURITY READINESS** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_19RP3826P1519_1900_-NONE-_-NONE-))
+- **Occupational Safety and Health Training Project Grants (T03)** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/355722))
+- **Occupational Safety and Health Training Project Grants (T03)** — deadline: 10/26/2028 ([evidence](https://www.grants.gov/search-results-detail/355722))
+- **Occupational Safety and Health Training Project Grants (T03)** — awarding agency: HHS-CDC-HHSCDCERA ([evidence](https://www.grants.gov/search-results-detail/355722))
+- **Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025** — opportunity status: forecasted ([evidence](https://www.grants.gov/search-results-detail/355385))
+- **Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025** — awarding agency: DOS-ESP ([evidence](https://www.grants.gov/search-results-detail/355385))
+- **Pax Silica Artificial Intelligence Assistance Project** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/363596))
+- **Pax Silica Artificial Intelligence Assistance Project** — deadline: 08/20/2026 ([evidence](https://www.grants.gov/search-results-detail/363596))
+- **Pax Silica Artificial Intelligence Assistance Project** — awarding agency: DOS-EB ([evidence](https://www.grants.gov/search-results-detail/363596))
+- **FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) – RESEARCH COLLABORATION (RC)** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/363526))
+- **FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) – RESEARCH COLLABORATION (RC)** — deadline: 04/05/2027 ([evidence](https://www.grants.gov/search-results-detail/363526))
+- **FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) – RESEARCH COLLABORATION (RC)** — awarding agency: DOD-AFOSR ([evidence](https://www.grants.gov/search-results-detail/363526))
+- **FAIR HOUSING INITIATIVES PROGRAM PRIVATE ENFORCEMENT INITIATIVE** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/362827))
+- **FAIR HOUSING INITIATIVES PROGRAM PRIVATE ENFORCEMENT INITIATIVE** — deadline: 11/02/2026 ([evidence](https://www.grants.gov/search-results-detail/362827))
+- **FAIR HOUSING INITIATIVES PROGRAM PRIVATE ENFORCEMENT INITIATIVE** — awarding agency: HUD ([evidence](https://www.grants.gov/search-results-detail/362827))
+- **Research Interests of the Air Force Office of Scientific Research** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/362681))
+- **Research Interests of the Air Force Office of Scientific Research** — awarding agency: DOD-AFOSR ([evidence](https://www.grants.gov/search-results-detail/362681))
+- **BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/356205))
+- **BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)** — deadline: 10/04/2027 ([evidence](https://www.grants.gov/search-results-detail/356205))
+- **BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)** — awarding agency: HHS-NIH11 ([evidence](https://www.grants.gov/search-results-detail/356205))
+- **Transformative Non-Invasive/Minimally Invasive Technologies for Imaging the Olfactory System Across Scales (R01 CT Optional)** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/359696))
+- **Transformative Non-Invasive/Minimally Invasive Technologies for Imaging the Olfactory System Across Scales (R01 CT Optional)** — deadline: 08/21/2028 ([evidence](https://www.grants.gov/search-results-detail/359696))
+- **Transformative Non-Invasive/Minimally Invasive Technologies for Imaging the Olfactory System Across Scales (R01 CT Optional)** — awarding agency: HHS-NIH11 ([evidence](https://www.grants.gov/search-results-detail/359696))
+- **Integrated Data Systems & Services (IDSS)** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/361915))
+- **Integrated Data Systems & Services (IDSS)** — deadline: 07/27/2027 ([evidence](https://www.grants.gov/search-results-detail/361915))
+- **Integrated Data Systems & Services (IDSS)** — awarding agency: NSF ([evidence](https://www.grants.gov/search-results-detail/361915))
+- **Fundamental Research to Counter Weapons of Mass Destruction** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/356612))
+- **Fundamental Research to Counter Weapons of Mass Destruction** — deadline: 09/30/2034 ([evidence](https://www.grants.gov/search-results-detail/356612))
+- **Fundamental Research to Counter Weapons of Mass Destruction** — awarding agency: DOD-DTRA ([evidence](https://www.grants.gov/search-results-detail/356612))
+- **Geospace Cluster** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/356536))
+- **Geospace Cluster** — awarding agency: NSF ([evidence](https://www.grants.gov/search-results-detail/356536))
+- **Research Experiences for Teachers (RET) in Engineering and Computer Science** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/350802))
 
 ## Superseded claims
 
@@ -110,7 +109,8 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## Conflicts opened
 
-- **59--SENSOR SYSTEM, THER** — deadline: ['2026-09-14t00:00:00-04:00', '2026-09-14t16:30:00-04:00']
+- **66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING** — opportunity status: ['closed', 'open']
+- **Data, Analytics, and AI Modernization Services** — deadline: ['2026-08-18t11:00:00-04:00', '2026-08-25t11:00:00-04:00']
 
 ## Conflicts resolved
 

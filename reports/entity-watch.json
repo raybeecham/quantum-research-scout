@@ -831,7 +831,7 @@
       "latest_seen": "2026-08-13",
       "momentum": "declining",
       "name": "NIST",
-      "prior_count": 3,
+      "prior_count": 2,
       "priority": "critical",
       "recent_count": 1,
       "status": "active",
@@ -1284,9 +1284,9 @@
       "first_seen": "2025-10-29",
       "historical_evidence_count": 14,
       "latest_seen": "2026-07-31",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Keyfactor",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -2042,11 +2042,11 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-12",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "IBM",
       "prior_count": 3,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2202,7 +2202,7 @@
       "name": "IonQ",
       "prior_count": 7,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -3275,7 +3275,7 @@
       "latest_seen": "2026-08-10",
       "momentum": "declining",
       "name": "Cisco",
-      "prior_count": 3,
+      "prior_count": 2,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -3815,7 +3815,7 @@
       "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "Quantum Sensing",
         "Quantum Software / Tooling"
@@ -5385,7 +5385,7 @@
       "latest_seen": "2026-08-03",
       "momentum": "declining",
       "name": "Crypto-agility",
-      "prior_count": 3,
+      "prior_count": 1,
       "priority": "critical",
       "recent_count": 0,
       "status": "quiet",
@@ -6222,9 +6222,9 @@
       "latest_seen": "2026-08-11",
       "momentum": "rising",
       "name": "Quantum networking",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -6237,8 +6237,20 @@
         "quantum metrology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 12,
+      "current_evidence_count": 13,
       "evidence": [
+        {
+          "date": "2026-08-14",
+          "key": "https://quantumzeitgeist.com/universita-di-catania-machine-learning-plaquette",
+          "report": "2026-08/2026-08-14-digest.md",
+          "score": 27,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Quantum Sensing Leverages ML to Track Three-Level System Phase",
+          "url": "https://quantumzeitgeist.com/universita-di-catania-machine-learning-plaquette"
+        },
         {
           "date": "2026-08-04",
           "key": "https://quantumzeitgeist.com/quantum-sensing-hub-atomionics-asias",
@@ -6408,16 +6420,16 @@
           "url": "https://thequantuminsider.com/2026/06/24/sprind-launches-quantum-sensing-initiative-to-back-european-projects-and-startups"
         }
       ],
-      "evidence_count": 13,
+      "evidence_count": 14,
       "first_seen": "2026-06-24",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-08-04",
-      "momentum": "declining",
+      "latest_seen": "2026-08-14",
+      "momentum": "stable",
       "name": "Quantum sensing",
       "prior_count": 1,
       "priority": "medium",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Hardware",
         "Quantum Networking",
@@ -6574,6 +6586,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-14T01:26:54.515209+00:00",
+  "updated_at": "2026-08-15T00:57:52.236816+00:00",
   "version": 2
 }
