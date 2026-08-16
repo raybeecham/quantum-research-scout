@@ -4,16 +4,17 @@
 
 [Entity Watch](entity-watch.md) · [Readiness Scorecards](readiness.md) · [Report Index](README.md)
 
-_Updated 2026-08-09 04:14 UTC_
+_Updated 2026-08-16 03:43 UTC_
 
 This bounded ledger retains up to **730 days** of official-source history. Backfilled records enrich profiles but never create retroactive alerts.
 
-- Evidence: **71** (52 dated; 19 undated)
-- Last run: **71 accepted** from 207 collected
+- Evidence: **72** (53 dated; 19 undated)
+- Last run: **72 accepted** from 214 collected
 - Source warnings: **0**
 
 | Date | Date basis | Confidence | Source | Evidence | Score |
 |---|---|---|---|---|---:|
+| 2026-08-10 | published | high | Cisco Quantum-Safe Updates | [Who Goes There? Post-Quantum Authentication - IPsec Series, Part 6](https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6) | 194 |
 | 2026-08-03 | published | high | Cisco Quantum-Safe Updates | [A Different Road to Quantum Safety: The PPK - IPsec Series, Part 5](https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5) | 88 |
 | 2026-07-30 | published | high | Fortanix Quantum Security | [Quantum-Safe Encryption with HSM: Preparing for the Future](https://www.fortanix.com/blog/quantum-safe-encryption-with-hsm-preparing-for-the-future) | 103 |
 | 2026-07-29 | published | high | Fortanix Quantum Security | [Why CISOs Should Prioritize Quantum-Safe Cryptography](https://www.fortanix.com/blog/why-ciso-should-prioritize-quantum-safe-cryptography-today) | 113 |

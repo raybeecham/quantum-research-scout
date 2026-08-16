@@ -714,8 +714,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 37,
         "status": "current"
       },
       "decision_score": 37,
@@ -1298,8 +1298,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "targeted review",
-        "previous_score": 46,
+        "previous_gate": "hold",
+        "previous_score": 31,
         "status": "current"
       },
       "decision_score": 31,
@@ -2606,8 +2606,8 @@
         "evidence_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download",
         "impact_id": "impact:856c45cd01fe6a78ec67",
         "note": "The latest amendment impact requires analyst revalidation. The tracker did not change an authorized bid/no-bid decision.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 24,
         "status": "revalidation_required"
       },
       "decision_score": 24,
@@ -3555,7 +3555,7 @@
           }
         ],
         "detected_at": "2026-08-16T00:53:15.272234+00:00",
-        "detected_this_run": true,
+        "detected_this_run": false,
         "highest_materiality": "critical",
         "history_completeness": "tracker_observed",
         "impact_id": "impact:856c45cd01fe6a78ec67",
@@ -3685,8 +3685,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 21,
         "status": "current"
       },
       "decision_score": 21,
@@ -4091,8 +4091,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 17,
         "status": "current"
       },
       "decision_score": 17,
@@ -4288,8 +4288,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 17,
         "status": "current"
       },
       "decision_score": 17,
@@ -4486,8 +4486,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 17,
         "status": "current"
       },
       "decision_score": 17,
@@ -4683,8 +4683,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 17,
         "status": "current"
       },
       "decision_score": 17,
@@ -4875,6 +4875,6 @@
     "qualify": 1,
     "targeted_review": 2
   },
-  "updated_at": "2026-08-16T00:53:15.272234+00:00",
+  "updated_at": "2026-08-16T03:43:36.091465+00:00",
   "version": 1
 }
