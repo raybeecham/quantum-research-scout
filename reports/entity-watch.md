@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-08-15 00:57 UTC_
+_Updated 2026-08-16 00:58 UTC_
 
 ## Organizations
 
@@ -13,8 +13,8 @@ _Updated 2026-08-15 00:57 UTC_
 | NIST | ↘️ declining (1 vs 2) | 🔴 critical | active | 2026-06-25 | 2026-08-13 | 8 | 1 |
 | Keyfactor | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-10-29 | 2026-07-31 | 22 | 14 |
 | Fortanix | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2024-08-19 | 2026-07-30 | 20 | 20 |
-| IBM | ↘️ declining (2 vs 3) | 🟠 high | active | 2026-06-23 | 2026-08-12 | 19 | 0 |
-| IonQ | ↘️ declining (1 vs 7) | 🟠 high | active | 2026-06-22 | 2026-08-08 | 11 | 0 |
+| IBM | ↘️ declining (1 vs 3) | 🟠 high | active | 2026-06-23 | 2026-08-12 | 19 | 0 |
+| IonQ | ↘️ declining (0 vs 8) | 🟠 high | active | 2026-06-22 | 2026-08-08 | 11 | 0 |
 | QuEra | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-07-22 | 2026-08-12 | 10 | 8 |
 | QuSecure | ↗️ rising (2 vs 0) | 🟠 high | active | 2025-07-19 | 2026-08-11 | 9 | 4 |
 | PsiQuantum | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-02-26 | 2026-07-22 | 8 | 8 |
@@ -27,7 +27,7 @@ _Updated 2026-08-15 00:57 UTC_
 | D-Wave | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-06-30 | 2026-08-05 | 3 | 0 |
 | Booz Allen Hamilton | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-02-06 | 2026-07-30 | 2 | 1 |
 | Deloitte | ➡️ stable (0 vs 0) | 🟠 high | documented | Unknown | Unknown | 2 | 2 |
-| ISO/IEC | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-25 | 2026-07-15 | 2 | 0 |
+| ISO/IEC | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-25 | 2026-07-15 | 2 | 0 |
 | Lockheed Martin | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-25 | 2026-07-14 | 2 | 0 |
 | PQCA | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-27 | 2026-07-27 | 2 | 0 |
 | PQShield | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-03 | 2026-07-23 | 2 | 0 |
@@ -38,10 +38,10 @@ _Updated 2026-08-15 00:57 UTC_
 | ETSI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-22 | 2026-06-22 | 1 | 1 |
 | Google Quantum AI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-27 | 2026-06-27 | 1 | 0 |
 | Open Quantum Safe | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-27 | 2026-07-27 | 1 | 0 |
-| Infleqtion | ↗️ rising (6 vs 0) | 🟡 medium | active | 2026-06-22 | 2026-08-13 | 17 | 0 |
+| Infleqtion | ↗️ rising (5 vs 1) | 🟡 medium | active | 2026-06-22 | 2026-08-13 | 17 | 0 |
 | Pasqal | ↗️ rising (2 vs 1) | 🟡 medium | active | 2026-06-29 | 2026-08-10 | 12 | 0 |
 | AWS | ➡️ stable (0 vs 0) | 🟡 medium | quiet | 2026-06-24 | 2026-07-20 | 4 | 0 |
-| Rigetti | ↗️ rising (1 vs 0) | 🟡 medium | active | 2026-07-29 | 2026-08-08 | 2 | 0 |
+| Rigetti | ↘️ declining (0 vs 1) | 🟡 medium | active | 2026-07-29 | 2026-08-08 | 2 | 0 |
 
 **Configured, awaiting evidence (11):** BSI Germany, CISA, ENISA, IETF, MITRE, Microsoft Quantum, NSA, SandboxAQ, UK NCSC, Entrust, Intel Quantum
 
@@ -50,8 +50,8 @@ _Updated 2026-08-15 00:57 UTC_
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
 | Crypto-agility | ↘️ declining (0 vs 1) | 🔴 critical | quiet | 2025-08-06 | 2026-08-03 | 32 | 23 |
-| Quantum error correction | ↗️ rising (3 vs 1) | 🔴 critical | active | 2026-06-23 | 2026-08-12 | 22 | 0 |
-| Logical qubits | ➡️ stable (1 vs 1) | 🔴 critical | active | 2025-09-10 | 2026-08-08 | 15 | 3 |
+| Quantum error correction | ➡️ stable (2 vs 2) | 🔴 critical | active | 2026-06-23 | 2026-08-12 | 22 | 0 |
+| Logical qubits | ↘️ declining (1 vs 2) | 🔴 critical | active | 2025-09-10 | 2026-08-15 | 16 | 3 |
 | ML-DSA | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2026-06-29 | 2026-07-23 | 2 | 0 |
 | Quantum key distribution | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-29 | 2026-07-23 | 9 | 1 |
 | Quantum networking | ↗️ rising (2 vs 1) | 🟠 high | active | 2026-07-07 | 2026-08-11 | 6 | 1 |

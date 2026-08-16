@@ -2,38 +2,72 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-15T00:51:02.586375+00:00_
+_Updated 2026-08-16T00:53:15.272234+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
 - Opportunities reviewed: **20**
-- Documents extracted: **9** / **44** discovered
+- Documents extracted: **10** / **41** discovered
 - Changed documents: **0**
 - New amendments: **0**
-- Material amendment impacts this run: **0**
-- Decisions requiring revalidation: **2**
+- Material amendment impacts this run: **1**
+- Decisions requiring revalidation: **3**
 
-## [OASES PCSB: PM2.5 Air Quality Monitoring Sensor](https://sam.gov/workspace/contract/opp/b39f36f427ff4a7b9f0eb9fa0cb3ae74/view)
+## [KEYSIGHT N8487A POWER SENSOR](https://sam.gov/workspace/contract/opp/10d5c382557249708dd444771cfc5753/view)
 
-Evidence completeness: **0 / 100** · Deadline: **2026-08-26T17:00:00-05:00**
+Evidence completeness: **0 / 100** · Deadline: **2026-08-21T15:00:00-07:00**
 
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b39f36f427ff4a7b9f0eb9fa0cb3ae74) — no_text
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/51add446f08c4b9495dee91977852ab4/download) — failed
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=10d5c382557249708dd444771cfc5753) — no_text
 
-## [12FPC426Q0055 NRCS Michigan EMI Sensor](https://sam.gov/workspace/contract/opp/7a1eeac0b2c84da8b7e41ca488359392/view)
+## [Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system](https://sam.gov/workspace/contract/opp/f34d767fd1684bf3a8e2c3c0f17e9959/view)
 
-Evidence completeness: **96 / 100** · Deadline: **2026-08-31T12:00:00-04:00**
+Evidence completeness: **72 / 100** · Deadline: **2026-08-17T16:00:00-04:00**
 
 Requirements evidence:
-- t 1) for detailed narrative. Schedule of Items Please complete Attachment 2 – Pricing Sheet to complete pricing. Vendor must provide a quote for all contract line items to be considered for award. Technical Data Technical data and supporting documentation associated with this solicitation are avail...
-- Contracting officers will rely on representations from offers based on provisions in the solicitation. Entities are not required to, nor are they able to, update their entity registration to remove these representations in SAM. 52.252-2 Clauses Incorporated by Reference Feb 1998 This solicitation i...
-- Claims Act, 31 U.S.C. § 3729, and/or criminal liability, including under 18 U.S.C. §§ 287 and 1001. (f) The contractor must include the provisions of this clause in all subcontract solicitations. (g) Failure on the part of the contractor or its subcontractors to comply with the terms of this clause...
-- ent of any inconsistency between supplier terms and this contract, this clause and the terms of the Government contract must govern and supersede any supplier terms in all cases. (c) Authorization Required. Notwithstanding any other provision, no supplier terms must be binding on the Government unl...
-- e and the terms of the Government contract must govern and supersede any supplier terms in all cases. (c) Authorization Required. Notwithstanding any other provision, no supplier terms must be binding on the Government unless the term is expressly authorized on the USDA Supplier Terms Authorization...
+- to this RFQ will be evaluated on the basis of Lowest Price Technically Acceptable (LPTA). Quoters submitting a response must provide a completed Price Quote to be evaluated and considered for award. Price quotes must indicate fixed unit pricing and total cost, including shipping cost and estimated...
+- oters submitting a response must provide a completed Price Quote to be evaluated and considered for award. Price quotes must indicate fixed unit pricing and total cost, including shipping cost and estimated time of delivery after receipt of order, and warranty and training considerations. Responses...
+- ntractor’s ability to meet the government’s minimum requirements stated in this notice and on 2) ability to deliver the required items on a FOB Destination basis within the period of performance/lead time specified in the Statement of Work document. Responses to this solicitation must include clear...
+- within the period of performance/lead time specified in the Statement of Work document. Responses to this solicitation must include clear and convincing evidence of the Quoters’ capability of fulfilling the requirement as it relates to the essential government requirements stated in this solicitati...
+- ng factors to determine if, as submitted, the quotation is technically acceptable. (1) Technical Capability: The Quoter must indicate in its quotation the ability to provide all minimum requirements identified in the Requirements document. (2) Schedule: The Quoter must indicate in its quotation the...
 
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9a24195ed31c429e8a21a173d23c8dc3/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a295f5f74ca141cb97ac1de3bac2dd9f/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c276245e61654031856008d097181ce7/download) — not_fetched
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7a1eeac0b2c84da8b7e41ca488359392) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/305043137d834233b10c2ac17edf1c47/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a1564968b76d40b3b3abd9af8deab25d/download) — not_fetched
+
+### Changes since the previous tracker snapshot
+
+**CRITICAL · 22 change(s) · decision revalidation required**
+
+_Version history is tracker-observed and may not include revisions published before monitoring began._
+
+| Impact | Change | Before | After | Evidence |
+|---|---|---|---|---|
+| CRITICAL | New eligibility evidence was observed. | — | SBA or an approved third-party certifier in accordance with 13 CFR 127.300. It automatically qualifies as a women-owned... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) |
+| CRITICAL | New eligibility evidence was observed. | — | d-party certifier in accordance with 13 CFR 127.300. It automatically qualifies as a women-owned small business concern... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) |
+| CRITICAL | New eligibility evidence was observed. | — | Definitions. As used in this provision- Economically disadvantaged women-owned small business (EDWOSB) concern means a... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) |
+| CRITICAL | New eligibility evidence was observed. | — | mall Business Program Representation (a) Definitions. As used in this provision- Economically disadvantaged women-owned... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) |
+| CRITICAL | New eligibility evidence was observed. | — | cted of a felony criminal violation under a Federal law within the preceding 24 months. (End of provision) FAR 52.219-1... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) |
+| HIGH | New submission evidence was observed. | — | received to this RFQ will be evaluated on the basis of Lowest Price Technically Acceptable (LPTA). Quoters submitting a... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) |
+| HIGH | New submission evidence was observed. | — | ncluding shipping cost and estimated time of delivery after receipt of order, and warranty and training considerations.... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) |
+| HIGH | New submission evidence was observed. | — | ubsidiary of an inverted domestic corporation. FAR 52.212-2 Evaluation- Commercial Products and Commercial Services (a)... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) |
+| HIGH | New submission evidence was observed. | — | tems on a FOB Destination basis within the period of performance/lead time specified in the Statement of Work document.... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) |
+| HIGH | New submission evidence was observed. | — | a) Responses received to this RFQ will be evaluated on the basis of Lowest Price Technically Acceptable (LPTA). Quoters... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) |
+| HIGH | New requirement evidence was observed. | — | within the period of performance/lead time specified in the Statement of Work document. Responses to this solicitation... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) |
+| HIGH | New requirement evidence was observed. | — | ntractor’s ability to meet the government’s minimum requirements stated in this notice and on 2) ability to deliver the... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) |
+
+## [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/a9120fedc53c4e2f8a1a2a5b6322b185/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-20**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a9120fedc53c4e2f8a1a2a5b6322b185) — not_fetched
+
+## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/e167abdf96e74cb48727525b8fbf0bb1/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-20**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e167abdf96e74cb48727525b8fbf0bb1) — not_fetched
 
 ## [Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech​](https://sam.gov/workspace/contract/opp/aeac410f5c844f4885353c70e0367dcb/view)
 
@@ -42,14 +76,17 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-17T17:00:00-04:00**
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1d6f6b965f7a4582b7797edec04cc8ac/download) — not_fetched
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=aeac410f5c844f4885353c70e0367dcb) — not_fetched
 
-## [Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system](https://sam.gov/workspace/contract/opp/f34d767fd1684bf3a8e2c3c0f17e9959/view)
+## [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view)
 
-Evidence completeness: **0 / 100** · Deadline: **2026-08-17T16:00:00-04:00**
+Evidence completeness: **0 / 100** · Deadline: **2026-08-17**
 
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/305043137d834233b10c2ac17edf1c47/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a1564968b76d40b3b3abd9af8deab25d/download) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=09fe7a517f284b6b893fba0df8b92de6) — not_fetched
+
+## [29--SENSOR,AIR CHARGED](https://sam.gov/workspace/contract/opp/e517e60215054acd9a4504fdfd7145a2/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-17**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e517e60215054acd9a4504fdfd7145a2) — not_fetched
 
 ## [6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment](https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view)
 
@@ -98,40 +135,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-19**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=af6b37c37bd041a89ffb22d0f28ff722) — not_fetched
 
-## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-21**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0b0acdbbd7640858dec2985c5d76c54) — not_fetched
-
-## [INL_RFQ-PR15372268 TECHNOLOGICAL EQUIPMENT FOR AI](https://sam.gov/workspace/contract/opp/95813bd2ad944e7a89b5590605a0ccc9/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-24T16:00:00-05:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/f322a3d83cc74cc0904ddf8154392f06/download) — not_fetched
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=95813bd2ad944e7a89b5590605a0ccc9) — not_fetched
-
-## [Laser for widefield quantum diamond microscope](https://sam.gov/workspace/contract/opp/b0c03fae4cd744a4a1eb7b1f16f50bb3/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-25T12:00:00-04:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/993a1b27cd744a45bf1c31343d61c010/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9dfd31f4f8d8448e9350d0f190ac8033/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b71ddb0fe2d54e88b8be8200fc04e54a/download) — not_fetched
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b0c03fae4cd744a4a1eb7b1f16f50bb3) — not_fetched
-
-## [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-17**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=09fe7a517f284b6b893fba0df8b92de6) — not_fetched
-
-## [29--SENSOR,AIR CHARGED](https://sam.gov/workspace/contract/opp/e517e60215054acd9a4504fdfd7145a2/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-17**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e517e60215054acd9a4504fdfd7145a2) — not_fetched
-
 ## [NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder](https://sam.gov/workspace/contract/opp/93064bc210294f239f395b372899ceab/view)
 
 Evidence completeness: **84 / 100** · Deadline: **2026-08-20T12:00:00-04:00**
@@ -147,6 +150,22 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cd444cb6c5a46908f5af4673ebe1ec2/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/f048f98ab32b470387472b1193c100b5/download) — extracted
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=93064bc210294f239f395b372899ceab) — not_fetched
+
+## [12FPC426Q0055 NRCS Michigan EMI Sensor](https://sam.gov/workspace/contract/opp/7a1eeac0b2c84da8b7e41ca488359392/view)
+
+Evidence completeness: **96 / 100** · Deadline: **2026-08-31T12:00:00-04:00**
+
+Requirements evidence:
+- t 1) for detailed narrative. Schedule of Items Please complete Attachment 2 – Pricing Sheet to complete pricing. Vendor must provide a quote for all contract line items to be considered for award. Technical Data Technical data and supporting documentation associated with this solicitation are avail...
+- Contracting officers will rely on representations from offers based on provisions in the solicitation. Entities are not required to, nor are they able to, update their entity registration to remove these representations in SAM. 52.252-2 Clauses Incorporated by Reference Feb 1998 This solicitation i...
+- Claims Act, 31 U.S.C. § 3729, and/or criminal liability, including under 18 U.S.C. §§ 287 and 1001. (f) The contractor must include the provisions of this clause in all subcontract solicitations. (g) Failure on the part of the contractor or its subcontractors to comply with the terms of this clause...
+- ent of any inconsistency between supplier terms and this contract, this clause and the terms of the Government contract must govern and supersede any supplier terms in all cases. (c) Authorization Required. Notwithstanding any other provision, no supplier terms must be binding on the Government unl...
+- e and the terms of the Government contract must govern and supersede any supplier terms in all cases. (c) Authorization Required. Notwithstanding any other provision, no supplier terms must be binding on the Government unless the term is expressly authorized on the USDA Supplier Terms Authorization...
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9a24195ed31c429e8a21a173d23c8dc3/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a295f5f74ca141cb97ac1de3bac2dd9f/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c276245e61654031856008d097181ce7/download) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7a1eeac0b2c84da8b7e41ca488359392) — not_fetched
 
 ## [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
 
@@ -187,6 +206,12 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0b259bdf43a146588a1347569220e448/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3e448a78ead841adb2bfe7459e97fb89/download) — extracted
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a7ce960566e242bbbf871a3e2fab3453) — no_text
+
+## [OASES PCSB: PM2.5 Air Quality Monitoring Sensor](https://sam.gov/workspace/contract/opp/b39f36f427ff4a7b9f0eb9fa0cb3ae74/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-26T17:00:00-05:00**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b39f36f427ff4a7b9f0eb9fa0cb3ae74) — no_text
 
 ## Method
 

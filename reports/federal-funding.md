@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-08-15 00:51 UTC_
+_Updated 2026-08-16 00:53 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
 USAspending records describe reported awards; Grants.gov and SAM.gov records describe opportunities or notices. Analytical mission and patent links are not evidence that a patent was funded by, used by, or formally associated with a mission.
 
-- Tracked records: **458**
-- Awards / grant opportunities / procurement opportunities: **284 / 100 / 72**
+- Tracked records: **463**
+- Awards / grant opportunities / procurement opportunities: **287 / 100 / 74**
 - Open opportunities: **136** (including 5 BAA and 5 RFI records)
-- Opportunity radar: **1 mission-linked**, **54 closing within 30 days**, **24 new since yesterday**
+- Opportunity radar: **1 mission-linked**, **54 closing within 30 days**, **16 new since yesterday**
 - Mission-linked records: **14**
 - Missions with activity: **4 of 10**
-- Named recipients and contractors: **216**
-- Known reported award value: **$242.5M**
+- Named recipients and contractors: **217**
+- Known reported award value: **$248.4M**
 
 ## Opportunity Radar
 
@@ -28,33 +28,33 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 | 2 | [CyberNext: Advance Cybersecurity and AI Readiness](https://www.grants.gov/search-results-detail/363249) | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence, cybersecurity | **40 · QUALIFY** | Review requirements and make a bid/no-bid decision immediately. |
 | 3 | [ATEC HQ 003 - AI Assurance & Autonomous System Validation](https://sam.gov/workspace/contract/opp/a7ce960566e242bbbf871a3e2fab3453/view) | PROCUREMENT_OPPORTUNITY | 2026-08-19T15:00:00-04:00 | Not linked | artificial intelligence, autonomy and sensing | **38 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 4 | [NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder](https://sam.gov/workspace/contract/opp/93064bc210294f239f395b372899ceab/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-08-20T12:00:00-04:00 | Not linked | autonomy and sensing | **37 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 5 | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-08-21 | Not linked | artificial intelligence | **37 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 6 | [Advancing Global Health](https://www.grants.gov/search-results-detail/363607) · NEW | GRANT_OPPORTUNITY | 02/14/2027 | Not linked | quantum, post-quantum cryptography | **37 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 7 | [Occupational Safety and Health Training Project Grants (T03)](https://www.grants.gov/search-results-detail/355722) · NEW | GRANT_OPPORTUNITY | 10/26/2028 | Not linked | quantum, post-quantum cryptography | **37 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 8 | [MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026](https://www.grants.gov/search-results-detail/363586) · NEW | GRANT_OPPORTUNITY | 09/04/2026 | Not linked | cybersecurity | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 9 | [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view) | PROCUREMENT_OPPORTUNITY | 2026-09-09T09:00:00-04:00 | Not linked | quantum, artificial intelligence | **35 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 10 | [English Language Exchange Programs: AI and Educational Technology Integration](https://www.grants.gov/search-results-detail/363105) | GRANT_OPPORTUNITY | 08/15/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 11 | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363596) | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 12 | [Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator](https://www.grants.gov/search-results-detail/363319) | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 13 | [U.S.-Argentina Alumni Summit](https://www.grants.gov/search-results-detail/363320) | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 14 | [U.S-Nigeria Creative, Digital, & Innovation Economy Initiative](https://www.grants.gov/search-results-detail/363269) | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 15 | [GameON – U.S.-Albania E-Sports and Innovation](https://www.grants.gov/search-results-detail/363247) | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | cybersecurity | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 16 | [INL_RFQ-PR15372268 TECHNOLOGICAL EQUIPMENT FOR AI](https://sam.gov/workspace/contract/opp/95813bd2ad944e7a89b5590605a0ccc9/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-08-24T16:00:00-05:00 | Not linked | artificial intelligence | **34 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 17 | [Laser for widefield quantum diamond microscope](https://sam.gov/workspace/contract/opp/b0c03fae4cd744a4a1eb7b1f16f50bb3/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-08-25T12:00:00-04:00 | Not linked | quantum | **34 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 18 | [OASES PCSB: PM2.5 Air Quality Monitoring Sensor](https://sam.gov/workspace/contract/opp/b39f36f427ff4a7b9f0eb9fa0cb3ae74/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-08-26T17:00:00-05:00 | Not linked | autonomy and sensing | **34 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 19 | [12FPC426Q0055 NRCS Michigan EMI Sensor](https://sam.gov/workspace/contract/opp/7a1eeac0b2c84da8b7e41ca488359392/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-08-31T12:00:00-04:00 | Not linked | autonomy and sensing | **34 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 20 | [Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech​](https://sam.gov/workspace/contract/opp/aeac410f5c844f4885353c70e0367dcb/view) | PROCUREMENT_OPPORTUNITY | 2026-08-17T17:00:00-04:00 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 21 | [AN12--Machine Learning Analytics for Total Brain Diagnostics Project](https://sam.gov/workspace/contract/opp/c5583f99bec74dcd824cc37e8926512c/view) | PROCUREMENT_OPPORTUNITY | 2026-08-17T12:00:00-04:00 | Not linked | artificial intelligence | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 22 | [Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system](https://sam.gov/workspace/contract/opp/f34d767fd1684bf3a8e2c3c0f17e9959/view) | PROCUREMENT_OPPORTUNITY | 2026-08-17T16:00:00-04:00 | Not linked | quantum | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 23 | [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view) | PROCUREMENT_OPPORTUNITY | 2026-08-17 | Not linked | artificial intelligence | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 24 | [29--SENSOR,AIR CHARGED](https://sam.gov/workspace/contract/opp/e517e60215054acd9a4504fdfd7145a2/view) | PROCUREMENT_OPPORTUNITY | 2026-08-17 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 25 | [6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment](https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view) | PROCUREMENT_OPPORTUNITY | 2026-08-18T16:00:00-05:00 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 26 | [Power Sensor Check Standard](https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view) | PROCUREMENT_OPPORTUNITY | 2026-08-18T17:00:00-06:00 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 27 | [16--MODIFICATION KIT,AI](https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view) | PROCUREMENT_OPPORTUNITY | 2026-08-19 | Not linked | artificial intelligence | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 28 | [29--SENSOR,EXHAUST GAS,](https://sam.gov/workspace/contract/opp/b362ba053a6c4581a208828b2c12d401/view) | PROCUREMENT_OPPORTUNITY | 2026-08-19 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 29 | [ATEC HQ 001, Autonomous Swarm Dynamics & Counter-Drone (C-UAS) Technologies](https://sam.gov/workspace/contract/opp/b1140aa605ee4f2bb775dfbfe42589f6/view) | PROCUREMENT_OPPORTUNITY | 2026-08-19T15:00:00-04:00 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 30 | [66--SENSOR,OXYGEN](https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view) | PROCUREMENT_OPPORTUNITY | 2026-08-19 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 4 | [KEYSIGHT N8487A POWER SENSOR](https://sam.gov/workspace/contract/opp/10d5c382557249708dd444771cfc5753/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-08-21T15:00:00-07:00 | Not linked | autonomy and sensing | **37 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 5 | [Occupational Safety and Health Training Project Grants (T03)](https://www.grants.gov/search-results-detail/355722) · NEW | GRANT_OPPORTUNITY | 10/26/2028 | Not linked | quantum, post-quantum cryptography | **37 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 6 | [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view) | PROCUREMENT_OPPORTUNITY | 2026-09-09T09:00:00-04:00 | Not linked | quantum, artificial intelligence | **35 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 7 | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363596) | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 8 | [Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator](https://www.grants.gov/search-results-detail/363319) | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 9 | [U.S.-Argentina Alumni Summit](https://www.grants.gov/search-results-detail/363320) | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 10 | [U.S-Nigeria Creative, Digital, & Innovation Economy Initiative](https://www.grants.gov/search-results-detail/363269) | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 11 | [GameON – U.S.-Albania E-Sports and Innovation](https://www.grants.gov/search-results-detail/363247) | GRANT_OPPORTUNITY | 08/20/2026 | Not linked | cybersecurity | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 12 | [OASES PCSB: PM2.5 Air Quality Monitoring Sensor](https://sam.gov/workspace/contract/opp/b39f36f427ff4a7b9f0eb9fa0cb3ae74/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-08-26T17:00:00-05:00 | Not linked | autonomy and sensing | **34 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 13 | [12FPC426Q0055 NRCS Michigan EMI Sensor](https://sam.gov/workspace/contract/opp/7a1eeac0b2c84da8b7e41ca488359392/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-08-31T12:00:00-04:00 | Not linked | autonomy and sensing | **34 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 14 | [Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech​](https://sam.gov/workspace/contract/opp/aeac410f5c844f4885353c70e0367dcb/view) | PROCUREMENT_OPPORTUNITY | 2026-08-17T17:00:00-04:00 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 15 | [AN12--Machine Learning Analytics for Total Brain Diagnostics Project](https://sam.gov/workspace/contract/opp/c5583f99bec74dcd824cc37e8926512c/view) | PROCUREMENT_OPPORTUNITY | 2026-08-17T12:00:00-04:00 | Not linked | artificial intelligence | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 16 | [Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system](https://sam.gov/workspace/contract/opp/f34d767fd1684bf3a8e2c3c0f17e9959/view) | PROCUREMENT_OPPORTUNITY | 2026-08-17T16:00:00-04:00 | Not linked | quantum | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 17 | [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view) | PROCUREMENT_OPPORTUNITY | 2026-08-17 | Not linked | artificial intelligence | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 18 | [29--SENSOR,AIR CHARGED](https://sam.gov/workspace/contract/opp/e517e60215054acd9a4504fdfd7145a2/view) | PROCUREMENT_OPPORTUNITY | 2026-08-17 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 19 | [6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment](https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view) | PROCUREMENT_OPPORTUNITY | 2026-08-18T16:00:00-05:00 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 20 | [Power Sensor Check Standard](https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view) | PROCUREMENT_OPPORTUNITY | 2026-08-18T17:00:00-06:00 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 21 | [16--MODIFICATION KIT,AI](https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view) | PROCUREMENT_OPPORTUNITY | 2026-08-19 | Not linked | artificial intelligence | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 22 | [29--SENSOR,EXHAUST GAS,](https://sam.gov/workspace/contract/opp/b362ba053a6c4581a208828b2c12d401/view) | PROCUREMENT_OPPORTUNITY | 2026-08-19 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 23 | [ATEC HQ 001, Autonomous Swarm Dynamics & Counter-Drone (C-UAS) Technologies](https://sam.gov/workspace/contract/opp/b1140aa605ee4f2bb775dfbfe42589f6/view) | PROCUREMENT_OPPORTUNITY | 2026-08-19T15:00:00-04:00 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 24 | [66--SENSOR,OXYGEN](https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view) | PROCUREMENT_OPPORTUNITY | 2026-08-19 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 25 | [66--SENSOR,NITROGEN](https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view) | PROCUREMENT_OPPORTUNITY | 2026-08-19 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 26 | [NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder](https://sam.gov/workspace/contract/opp/93064bc210294f239f395b372899ceab/view) | PROCUREMENT_OPPORTUNITY | 2026-08-20T12:00:00-04:00 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 27 | [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/a9120fedc53c4e2f8a1a2a5b6322b185/view) | PROCUREMENT_OPPORTUNITY | 2026-08-20 | Not linked | artificial intelligence | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 28 | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/e167abdf96e74cb48727525b8fbf0bb1/view) | PROCUREMENT_OPPORTUNITY | 2026-08-20 | Not linked | artificial intelligence | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 29 | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view) | PROCUREMENT_OPPORTUNITY | 2026-08-21 | Not linked | artificial intelligence | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 30 | [Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/359269) | GRANT_OPPORTUNITY | 10/02/2026 | Not linked | quantum, artificial intelligence | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
 
 ## Mission Funding Portfolios
 
@@ -115,7 +115,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | $700.0K | Genesis Mission |
 | [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) | 2026-08-14 | Not listed | $293.0M | Genesis Mission |
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | Not listed | $8 | DARPA Quantum Benchmarking Initiative |
-| [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) | 2026-08-15 | Not listed | Not reported | Genesis Mission |
+| [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) | 2026-08-16 | Not listed | Not reported | Genesis Mission |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | Not listed | $700 | Genesis Mission |
 | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | Not listed | $3 | Golden Dome for America |
 | [VENUE TO SUPPORT THE GOLDEN DOME FOR AMERICA INDUSTRY SUMMIT, JUNE 10-11, 2025](https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-) | 2025-06-10 | CITY OF HUNTSVILLE | $11.9K | Golden Dome for America |
@@ -154,6 +154,7 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | REDACTED DUE TO PII | Name-resolved | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $1.1M | National Science Foundation | Not linked | 0 |
 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | UEI E2NYLCDML6V1 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.2M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF OKLAHOMA | UEI EVTSTTLCEWS5 | **36 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $438.7K | Department of Commerce, National Science Foundation | Not linked | 0 |
+| PARAGON MICRO INC | UEI E41LV9AJGHQ1 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.0M | Department of Health and Human Services | Not linked | 0 |
 | UNIVERSITY OF NORTH TEXAS | UEI G47WN1XZNWX9 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | Department of Health and Human Services, National Science Foundation | Not linked | 0 |
 | THE UNIVERSITY OF IOWA | UEI Z1H9VJS8NG16 | **34 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.5M | National Science Foundation | Not linked | 0 |
 | QUANTUM FOODS INC | UEI S6M6AJJGH6C3 | **34 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $219.4K | Department of Justice | Not linked | 0 |
@@ -170,7 +171,7 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | UNIVERSITY OF WISCONSIN SYSTEM | UEI LCLSJAGTNZQ7 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $1.3M | National Science Foundation | Not linked | 0 |
 | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | UEI DSLXBD7UWRV6 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $908.8K | National Science Foundation | Not linked | 0 |
 | PURDUE UNIVERSITY | UEI YRXVL4JYCEF5 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $767.1K | National Science Foundation | Not linked | 0 |
-| PARAGON MICRO INC | UEI E41LV9AJGHQ1 | **28 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $2.1M | Department of Health and Human Services | Not linked | 0 |
+| KAIZEN LABORATORIES INC. | UEI KZ7NSHFWWSF8 | **28 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $4.8M | General Services Administration | Not linked | 0 |
 | ALLIANCE TECHNOLOGY GROUP, LLC | UEI UCM7WPGJBZ67 | **28 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $1.7M | Department of Commerce, Department of the Interior | Not linked | 0 |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | UEI GS3YEVSS12N6 | **28 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $1.5M | Department of Energy, National Science Foundation | Not linked | 0 |
 | FLORIDA INSTITUTE OF TECHNOLOGY INC | UEI WNN6VH618X58 | **28 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $573.1K | National Science Foundation | Not linked | 0 |
@@ -186,7 +187,6 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | V3GATE, LLC | UEI J4KHM5JY79E3 | **26 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $444.0K | Department of Justice, Department of Veterans Affairs | Not linked | 0 |
 | PRIDE MOBILITY PRODUCTS CORPORATION | UEI KFLDSFDM2VH3 | **26 · OBSERVED** | Emerging Entrant | New Entrant | 3 | $54.9K | Department of Veterans Affairs | Not linked | 0 |
 | NATIONWIDE IT SERVICES INC | UEI RR2VC8Y3MK47 | **25 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $1.2M | Department of the Interior | Not linked | 0 |
-| NEW YORK UNIVERSITY | UEI NX9PXMKW5KW8 | **25 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $640.0K | National Science Foundation | Not linked | 1 |
 
 ## Recipient and Contractor Patent Connections
 

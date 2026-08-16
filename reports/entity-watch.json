@@ -2046,7 +2046,7 @@
       "name": "IBM",
       "prior_count": 3,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2200,9 +2200,9 @@
       "latest_seen": "2026-08-08",
       "momentum": "declining",
       "name": "IonQ",
-      "prior_count": 7,
+      "prior_count": 8,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -3767,7 +3767,7 @@
       "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -4412,9 +4412,9 @@
       "latest_seen": "2026-08-13",
       "momentum": "rising",
       "name": "Infleqtion",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "medium",
-      "recent_count": 6,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -4695,11 +4695,11 @@
       "first_seen": "2026-07-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-08",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Rigetti",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "medium",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "Quantum Hardware"
@@ -5673,11 +5673,11 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-12",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Quantum error correction",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "AI Security",
@@ -5692,8 +5692,20 @@
         "fault-tolerant quantum"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 12,
+      "current_evidence_count": 13,
       "evidence": [
+        {
+          "date": "2026-08-15",
+          "key": "https://quantumzeitgeist.com/michigan-logical-qubit-decay-chain-cuts",
+          "report": "2026-08/2026-08-15-digest.md",
+          "score": 108,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "A qubit chain cuts logical qubit decay by half",
+          "url": "https://quantumzeitgeist.com/michigan-logical-qubit-decay-chain-cuts"
+        },
         {
           "date": "2026-08-08",
           "key": "https://quantumcomputingreport.com/ucla-led-consortium-secures-4-million-nsf-grant-for-60-logical-qubit-trapped-ion-architecture",
@@ -5911,13 +5923,13 @@
           "url": "https://www.quera.com/press-releases/quera-selected-for-phase-1-of-darpas-quantum-benchmarking-initiative"
         }
       ],
-      "evidence_count": 15,
+      "evidence_count": 16,
       "first_seen": "2025-09-10",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-08-08",
-      "momentum": "stable",
+      "latest_seen": "2026-08-15",
+      "momentum": "declining",
       "name": "Logical qubits",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "critical",
       "recent_count": 1,
       "status": "active",
@@ -6586,6 +6598,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-15T00:57:52.236816+00:00",
+  "updated_at": "2026-08-16T00:58:10.365227+00:00",
   "version": 2
 }
