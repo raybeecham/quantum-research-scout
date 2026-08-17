@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-16T00:53:15.272234+00:00_
+_Updated 2026-08-17T00:51:32.831772+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **490**
-- Quarantined evidence or relationships: **98**
-- Acceptance rate: **83.3%**
+- Accepted evidence: **495**
+- Quarantined evidence or relationships: **100**
+- Acceptance rate: **83.2%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 27 | 73 | 27.0% |
-| Federal funding | 463 | 25 | 94.9% |
+| Federal missions | 27 | 75 | 26.5% |
+| Federal funding | 468 | 25 | 94.9% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 98
-- **No relevant term in the evidence itself**: 98
-- **Official government source**: 93
+- **Match appears only in collector query metadata**: 100
+- **No relevant term in the evidence itself**: 100
+- **Official government source**: 95
 - **Source is not an official .gov or .mil domain**: 5
 
 ## Quarantined Evidence
@@ -290,6 +290,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
+### [Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/359271)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
 ### [Rapid Reskill Employment Recovery National Dislocated Worker Grants](https://www.grants.gov/search-results-detail/362987)
 
 - Scope: Federal missions
@@ -417,6 +424,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362498)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362303)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

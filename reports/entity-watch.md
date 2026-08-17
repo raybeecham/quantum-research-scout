@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-08-16 03:43 UTC_
+_Updated 2026-08-17 00:57 UTC_
 
 ## Organizations
 
@@ -13,8 +13,8 @@ _Updated 2026-08-16 03:43 UTC_
 | NIST | ↘️ declining (1 vs 2) | 🔴 critical | active | 2026-06-25 | 2026-08-13 | 8 | 1 |
 | Keyfactor | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-10-29 | 2026-07-31 | 22 | 14 |
 | Fortanix | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2024-08-19 | 2026-07-30 | 20 | 20 |
-| IBM | ↘️ declining (1 vs 3) | 🟠 high | active | 2026-06-23 | 2026-08-12 | 19 | 0 |
-| IonQ | ↘️ declining (0 vs 8) | 🟠 high | active | 2026-06-22 | 2026-08-08 | 11 | 0 |
+| IBM | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-06-23 | 2026-08-12 | 19 | 0 |
+| IonQ | ↘️ declining (0 vs 8) | 🟠 high | quiet | 2026-06-22 | 2026-08-08 | 11 | 0 |
 | QuEra | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-07-22 | 2026-08-12 | 10 | 8 |
 | QuSecure | ↗️ rising (2 vs 0) | 🟠 high | active | 2025-07-19 | 2026-08-11 | 9 | 4 |
 | PsiQuantum | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-02-26 | 2026-07-22 | 8 | 8 |
@@ -41,7 +41,7 @@ _Updated 2026-08-16 03:43 UTC_
 | Infleqtion | ↗️ rising (5 vs 1) | 🟡 medium | active | 2026-06-22 | 2026-08-13 | 17 | 0 |
 | Pasqal | ↗️ rising (2 vs 1) | 🟡 medium | active | 2026-06-29 | 2026-08-10 | 12 | 0 |
 | AWS | ➡️ stable (0 vs 0) | 🟡 medium | quiet | 2026-06-24 | 2026-07-20 | 4 | 0 |
-| Rigetti | ↘️ declining (0 vs 1) | 🟡 medium | active | 2026-07-29 | 2026-08-08 | 2 | 0 |
+| Rigetti | ↘️ declining (0 vs 1) | 🟡 medium | quiet | 2026-07-29 | 2026-08-08 | 2 | 0 |
 
 **Configured, awaiting evidence (11):** BSI Germany, CISA, ENISA, IETF, MITRE, Microsoft Quantum, NSA, SandboxAQ, UK NCSC, Entrust, Intel Quantum
 

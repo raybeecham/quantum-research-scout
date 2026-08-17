@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-16T03:43:36.091465+00:00_
+_Updated 2026-08-17T00:51:32.831772+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **36** (**48.0%** coverage)
-- Newly resolved this run: **0**
-- Pending bounded enrichment: **140**
+- SAM.gov-resolved entities: **39** (**52.0%** coverage)
+- Newly resolved this run: **3**
+- Pending bounded enrichment: **137**
 - Ambiguous / no match: **2 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -50,6 +50,9 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | PRIDE MOBILITY PRODUCTS CORPORATION | [Pride Mobility Products Corporation](https://sam.gov/entity/KFLDSFDM2VH3/coreData) | KFLDSFDM2VH3 | 1QRM1 | Active | Business or Organization, For Profit Organization |
 | NORTH CAROLINA STATE UNIVERSITY | [NORTH CAROLINA STATE UNIVERSITY](https://sam.gov/entity/U3NVH931QJJ3/coreData) | U3NVH931QJJ3 | 1E7H9 | Active | 1862 Land Grant College, Educational Institution, U.S. State Government |
 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | [MCKINSEY & COMPANY, INC. WASHINGTON D.C.](https://sam.gov/entity/N6JZARL64EW5/coreData) | N6JZARL64EW5 | 438P1 | Active | Business or Organization, For Profit Organization, Self-Certified HUBZone Joint Venture |
+| THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | [THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC](https://sam.gov/entity/C1HBCJ9RMBV3/coreData) | C1HBCJ9RMBV3 | 88898 | Active | Business or Organization, Educational Institution, Limited Liability Company |
+| NEW YORK UNIVERSITY | [NEW YORK UNIVERSITY](https://sam.gov/entity/NX9PXMKW5KW8/coreData) | NX9PXMKW5KW8 | 72061 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| NATIONWIDE IT SERVICES INC | [NATIONWIDE IT SERVICES INC](https://sam.gov/entity/RR2VC8Y3MK47/coreData) | RR2VC8Y3MK47 | 4Q5A2 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
 | REDACTED DUE TO PII | REDACTED DUE TO PII | — | — | no_match | No active public SAM.gov entity matched |
 | POST QUANTUM LABS LLC | POST QUANTUM LABS LLC | — | — | pending | api key missing |
@@ -73,12 +76,9 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | — | — | pending | api key missing |
 | ALVAREZ LLC | ALVAREZ LLC | — | — | pending | api key missing |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | — | — | pending | Queued for a future bounded enrichment batch |
-| THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | — | — | pending | api key missing |
 | OREGON STATE UNIVERSITY | OREGON STATE UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
-| NEW YORK UNIVERSITY | NEW YORK UNIVERSITY | — | — | pending | Queued for a future bounded enrichment batch |
 | NEW YORK UNIVERSITY | NEW YORK UNIVERSITY | — | — | pending | api key missing |
-| NATIONWIDE IT SERVICES INC | NATIONWIDE IT SERVICES INC | — | — | pending | Queued for a future bounded enrichment batch |
 | THE ARDIAN GROUP, INC | THE ARDIAN GROUP, INC | — | — | pending | Queued for a future bounded enrichment batch |
 | SHOREPOINT LLC | SHOREPOINT LLC | — | — | pending | Queued for a future bounded enrichment batch |
 | SHOREPOINT LLC | SHOREPOINT LLC | — | — | pending | api key missing |

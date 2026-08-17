@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-16 00:58 UTC_
+_Updated 2026-08-17 00:57 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
@@ -14,7 +14,7 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 | Standards / Government | ↗️ rising (12 vs 6) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-08-15 | 26 |
 | PQC / Crypto Agility | ➡️ stable (17 vs 18) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-08-15 | 128 |
 | QEC / Fault Tolerance | ➡️ stable (3 vs 3) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-08-15 | 43 |
-| Quantum Hardware | ➡️ stable (19 vs 25) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-15 | 197 |
+| Quantum Hardware | ➡️ stable (20 vs 23) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-16 | 198 |
 | Quantum Networking | ↘️ declining (9 vs 18) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-14 | 82 |
 | Quantum Sensing | ➡️ stable (5 vs 6) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-14 | 36 |
 | Quantum Software / Tooling | ➡️ stable (5 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-15 | 62 |
@@ -68,11 +68,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-08-16 — [Brazilian Researchers Demonstrate Universal Single-Qubit Gates with One Pulse](https://quantumzeitgeist.com/universidade-federal-de-sao-carlos-single) (Quantum Zeitgeist, score 26)
   - 2026-08-15 — [A switch for qubits handles 100 picowatts of readout power](https://quantumzeitgeist.com/standards-switch-qubits-handles-picowatts-readout) (Quantum Zeitgeist, score 28)
   - 2026-08-14 — [Trivalent qubit layouts with fluxonium cut gate count by order of magnitude](https://quantumzeitgeist.com/fluxonium-cut-gate-count-trivalent) (Quantum Zeitgeist, score 26)
   - 2026-08-14 — [Diraq Says Quantum Computing Needs a Broader Workforce Beyond PhDs](https://thequantuminsider.com/2026/08/14/diraq-quantum-industry-needs-broader-workforce-beyond-phds) (The Quantum Insider, score 22)
   - 2026-08-14 — [Tier IV will share AI chip designs for self-driving cars](https://quantumzeitgeist.com/tier-iv-ai-chip-designs-share) (Quantum Zeitgeist, score 19)
-  - 2026-08-13 — [SDT Joins Canadian Non-Profit Open Quantum Design as Official Manufacturing Partner](https://quantumcomputingreport.com/sdt-joins-canadian-non-profit-open-quantum-design-as-official-manufacturing-partner) (QuantumNews.ai, score 30)
 
 ## Quantum Networking
 

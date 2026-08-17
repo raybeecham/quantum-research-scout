@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-08-16T03:43:36.091465+00:00_
+_Updated 2026-08-17T00:51:32.831772+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **2510**
-- Authoritative claims: **2381**
-- Analytical claims: **126**
+- Active claims: **2551**
+- Authoritative claims: **2420**
+- Analytical claims: **128**
 - Conflicted claims: **8**
-- Evidence items / URLs: **2573 / 764**
+- Evidence items / URLs: **2614 / 774**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -22,6 +22,35 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING | deadline | 2026-08-11T17:00:00-04:00 | authoritative / high | [66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING](https://sam.gov/workspace/contract/opp/e7164edc3eab4e9fb8beb4030ba58a27/view) |
 | conflicted | 66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING | opportunity status | open | authoritative / high | [66--35303 EBFD OIL LEVEL SENSOR THRUST BEARING](https://sam.gov/workspace/contract/opp/e7164edc3eab4e9fb8beb4030ba58a27/view) |
 | conflicted | Data, Analytics, and AI Modernization Services | deadline | 2026-08-18T11:00:00-04:00 | authoritative / high | [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view) |
+| active | THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC... | opportunity status | awarded | authoritative / high | [THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC...](https://www.usaspending.gov/award/CONT_AWD_12314426F0311_1205_47QRAA21D009M_4732) |
+| active | THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC... | awarding agency | Department of Agriculture | authoritative / high | [THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC...](https://www.usaspending.gov/award/CONT_AWD_12314426F0311_1205_47QRAA21D009M_4732) |
+| active | THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC... | reported amount | 2100000.0 | authoritative / high | [THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC...](https://www.usaspending.gov/award/CONT_AWD_12314426F0311_1205_47QRAA21D009M_4732) |
+| active | THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC... | reported recipient | ENSEMBLE GOVERNMENT SERVICES, LLC | authoritative / high | [THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC...](https://www.usaspending.gov/award/CONT_AWD_12314426F0311_1205_47QRAA21D009M_4732) |
+| active | PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE | opportunity status | awarded | authoritative / high | [PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE](https://www.usaspending.gov/award/CONT_AWD_7571TE26F65106_7571_HHSN316201500032W_7529) |
+| active | PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE | awarding agency | Department of Health and Human Services | authoritative / high | [PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE](https://www.usaspending.gov/award/CONT_AWD_7571TE26F65106_7571_HHSN316201500032W_7529) |
+| active | PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE | reported amount | 111027.34 | authoritative / high | [PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE](https://www.usaspending.gov/award/CONT_AWD_7571TE26F65106_7571_HHSN316201500032W_7529) |
+| active | PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE | reported recipient | ALVAREZ LLC | authoritative / high | [PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE](https://www.usaspending.gov/award/CONT_AWD_7571TE26F65106_7571_HHSN316201500032W_7529) |
+| active | F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative | opportunity status | open | authoritative / high | [F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362303) |
+| active | F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative | deadline | 12/31/2026 | authoritative / high | [F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362303) |
+| active | F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative | awarding agency | DOI-FWS | authoritative / high | [F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362303) |
+| active | 16--WHEEL HALF ASSEMBLY,AI | opportunity status | open | authoritative / high | [16--WHEEL HALF ASSEMBLY,AI](https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view) |
+| active | 16--WHEEL HALF ASSEMBLY,AI | deadline | 2026-08-24 | authoritative / high | [16--WHEEL HALF ASSEMBLY,AI](https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view) |
+| active | 16--WHEEL HALF ASSEMBLY,AI | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION | authoritative / high | [16--WHEEL HALF ASSEMBLY,AI](https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view) |
+| active | 15--WINDSHIELD PANEL,AI | opportunity status | open | authoritative / high | [15--WINDSHIELD PANEL,AI](https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view) |
+| active | 15--WINDSHIELD PANEL,AI | deadline | 2026-08-24 | authoritative / high | [15--WINDSHIELD PANEL,AI](https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view) |
+| active | 15--WINDSHIELD PANEL,AI | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION | authoritative / high | [15--WINDSHIELD PANEL,AI](https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view) |
+| active | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | legal business name | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | authoritative / high | [THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC](https://sam.gov/entity/C1HBCJ9RMBV3/coreData) |
+| active | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | uei | C1HBCJ9RMBV3 | authoritative / high | [THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC](https://sam.gov/entity/C1HBCJ9RMBV3/coreData) |
+| active | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | cage code | 88898 | authoritative / high | [THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC](https://sam.gov/entity/C1HBCJ9RMBV3/coreData) |
+| active | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | registration status | Active | authoritative / high | [THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC](https://sam.gov/entity/C1HBCJ9RMBV3/coreData) |
+| active | NEW YORK UNIVERSITY | legal business name | NEW YORK UNIVERSITY | authoritative / high | [NEW YORK UNIVERSITY](https://sam.gov/entity/NX9PXMKW5KW8/coreData) |
+| active | NEW YORK UNIVERSITY | uei | NX9PXMKW5KW8 | authoritative / high | [NEW YORK UNIVERSITY](https://sam.gov/entity/NX9PXMKW5KW8/coreData) |
+| active | NEW YORK UNIVERSITY | cage code | 72061 | authoritative / high | [NEW YORK UNIVERSITY](https://sam.gov/entity/NX9PXMKW5KW8/coreData) |
+| active | NEW YORK UNIVERSITY | registration status | Active | authoritative / high | [NEW YORK UNIVERSITY](https://sam.gov/entity/NX9PXMKW5KW8/coreData) |
+| active | NATIONWIDE IT SERVICES INC | legal business name | NATIONWIDE IT SERVICES INC | authoritative / high | [NATIONWIDE IT SERVICES INC](https://sam.gov/entity/RR2VC8Y3MK47/coreData) |
+| active | NATIONWIDE IT SERVICES INC | uei | RR2VC8Y3MK47 | authoritative / high | [NATIONWIDE IT SERVICES INC](https://sam.gov/entity/RR2VC8Y3MK47/coreData) |
+| active | NATIONWIDE IT SERVICES INC | cage code | 4Q5A2 | authoritative / high | [NATIONWIDE IT SERVICES INC](https://sam.gov/entity/RR2VC8Y3MK47/coreData) |
+| active | NATIONWIDE IT SERVICES INC | registration status | Active | authoritative / high | [NATIONWIDE IT SERVICES INC](https://sam.gov/entity/RR2VC8Y3MK47/coreData) |
 | active | ARTIFICIAL INTELLIGENCE NATIVE COMPLAINT INTAKE AND CASE ANALYSIS SOLUTION | opportunity status | awarded | authoritative / high | [ARTIFICIAL INTELLIGENCE NATIVE COMPLAINT INTAKE AND CASE ANALYSIS SOLUTION](https://www.usaspending.gov/award/CONT_AWD_47QACA26F0343_4732_47QTCA26D003S_4732) |
 | active | ARTIFICIAL INTELLIGENCE NATIVE COMPLAINT INTAKE AND CASE ANALYSIS SOLUTION | awarding agency | General Services Administration | authoritative / high | [ARTIFICIAL INTELLIGENCE NATIVE COMPLAINT INTAKE AND CASE ANALYSIS SOLUTION](https://www.usaspending.gov/award/CONT_AWD_47QACA26F0343_4732_47QTCA26D003S_4732) |
 | active | ARTIFICIAL INTELLIGENCE NATIVE COMPLAINT INTAKE AND CASE ANALYSIS SOLUTION | reported amount | 4523470.65 | authoritative / high | [ARTIFICIAL INTELLIGENCE NATIVE COMPLAINT INTAKE AND CASE ANALYSIS SOLUTION](https://www.usaspending.gov/award/CONT_AWD_47QACA26F0343_4732_47QTCA26D003S_4732) |
@@ -235,35 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | ATEC HQ 003 - AI Assurance & Autonomous System Validation | awarding agency | DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG | authoritative / high | [ATEC HQ 003 - AI Assurance & Autonomous System Validation](https://sam.gov/workspace/contract/opp/a7ce960566e242bbbf871a3e2fab3453/view) |
 | active | Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS) | opportunity status | open | authoritative / high | [Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)](https://www.grants.gov/search-results-detail/363551) |
 | active | Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS) | deadline | 08/12/2076 | authoritative / high | [Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)](https://www.grants.gov/search-results-detail/363551) |
-| active | Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS) | awarding agency | NSF | authoritative / high | [Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)](https://www.grants.gov/search-results-detail/363551) |
-| active | 66--SENSOR,CURRENT | opportunity status | open | authoritative / high | [66--SENSOR,CURRENT](https://sam.gov/workspace/contract/opp/8f42834292314b9bb08ade0259ef007a/view) |
-| active | 66--SENSOR,CURRENT | deadline | 2026-08-24 | authoritative / high | [66--SENSOR,CURRENT](https://sam.gov/workspace/contract/opp/8f42834292314b9bb08ade0259ef007a/view) |
-| active | 66--SENSOR,CURRENT | set aside | Small Business Set Aside - Total | authoritative / high | [66--SENSOR,CURRENT](https://sam.gov/workspace/contract/opp/8f42834292314b9bb08ade0259ef007a/view) |
-| active | 66--SENSOR,CURRENT | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME | authoritative / high | [66--SENSOR,CURRENT](https://sam.gov/workspace/contract/opp/8f42834292314b9bb08ade0259ef007a/view) |
-| active | 14--PANEL,STRUCTURAL,AI - AND OTHER REPLACEMENT PARTS | opportunity status | open | authoritative / high | [14--PANEL,STRUCTURAL,AI - AND OTHER REPLACEMENT PARTS](https://sam.gov/workspace/contract/opp/f46dde517ec44ea482bbfcb94cb4d62b/view) |
-| active | 14--PANEL,STRUCTURAL,AI - AND OTHER REPLACEMENT PARTS | deadline | 2026-09-28T00:00:00-04:00 | authoritative / high | [14--PANEL,STRUCTURAL,AI - AND OTHER REPLACEMENT PARTS](https://sam.gov/workspace/contract/opp/f46dde517ec44ea482bbfcb94cb4d62b/view) |
-| active | 14--PANEL,STRUCTURAL,AI - AND OTHER REPLACEMENT PARTS | awarding agency | DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT | authoritative / high | [14--PANEL,STRUCTURAL,AI - AND OTHER REPLACEMENT PARTS](https://sam.gov/workspace/contract/opp/f46dde517ec44ea482bbfcb94cb4d62b/view) |
-| active | 16--SUPPORT,CPLG,SGL,AI | opportunity status | open | authoritative / high | [16--SUPPORT,CPLG,SGL,AI](https://sam.gov/workspace/contract/opp/d8b11c6070094104bd94b1ae5c99e6be/view) |
-| active | 16--SUPPORT,CPLG,SGL,AI | deadline | 2026-09-28T00:00:00-04:00 | authoritative / high | [16--SUPPORT,CPLG,SGL,AI](https://sam.gov/workspace/contract/opp/d8b11c6070094104bd94b1ae5c99e6be/view) |
-| active | 16--SUPPORT,CPLG,SGL,AI | awarding agency | DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT | authoritative / high | [16--SUPPORT,CPLG,SGL,AI](https://sam.gov/workspace/contract/opp/d8b11c6070094104bd94b1ae5c99e6be/view) |
-| active | 29--SENSOR,MASS AIR FLO | opportunity status | open | authoritative / high | [29--SENSOR,MASS AIR FLO](https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view) |
-| active | 29--SENSOR,MASS AIR FLO | deadline | 2026-08-24 | authoritative / high | [29--SENSOR,MASS AIR FLO](https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view) |
-| active | 29--SENSOR,MASS AIR FLO | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND COLUMBUS.DLA LAND AND MARITIME | authoritative / high | [29--SENSOR,MASS AIR FLO](https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view) |
-| active | 15--PLATE,STRUCTURAL,AI | opportunity status | open | authoritative / high | [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/a9120fedc53c4e2f8a1a2a5b6322b185/view) |
-| active | 15--PLATE,STRUCTURAL,AI | deadline | 2026-08-20 | authoritative / high | [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/a9120fedc53c4e2f8a1a2a5b6322b185/view) |
-| active | 15--PLATE,STRUCTURAL,AI | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION | authoritative / high | [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/a9120fedc53c4e2f8a1a2a5b6322b185/view) |
-| active | 59--SENSOR,ATMOSPHERIC | opportunity status | open | authoritative / high | [59--SENSOR,ATMOSPHERIC](https://sam.gov/workspace/contract/opp/998d3e083dae430b86aa9f078f696dcb/view) |
-| active | 59--SENSOR,ATMOSPHERIC | deadline | 2026-08-27 | authoritative / high | [59--SENSOR,ATMOSPHERIC](https://sam.gov/workspace/contract/opp/998d3e083dae430b86aa9f078f696dcb/view) |
-| active | 59--SENSOR,ATMOSPHERIC | set aside | SBA Certified Women-Owned Small Business (WOSB) Program Set-Aside (FAR 19.15) | authoritative / high | [59--SENSOR,ATMOSPHERIC](https://sam.gov/workspace/contract/opp/998d3e083dae430b86aa9f078f696dcb/view) |
-| active | 59--SENSOR,ATMOSPHERIC | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME | authoritative / high | [59--SENSOR,ATMOSPHERIC](https://sam.gov/workspace/contract/opp/998d3e083dae430b86aa9f078f696dcb/view) |
-| active | Autonomous Ion Mass Spectrometer Sentry (AIMSS) | opportunity status | open | authoritative / high | [Autonomous Ion Mass Spectrometer Sentry (AIMSS)](https://sam.gov/workspace/contract/opp/933b39dfb3474dc8914ea781eefd3cca/view) |
-| active | Autonomous Ion Mass Spectrometer Sentry (AIMSS) | deadline | 2027-02-15T17:00:00-07:00 | authoritative / high | [Autonomous Ion Mass Spectrometer Sentry (AIMSS)](https://sam.gov/workspace/contract/opp/933b39dfb3474dc8914ea781eefd3cca/view) |
-| active | Autonomous Ion Mass Spectrometer Sentry (AIMSS) | set aside | No Set aside used | authoritative / high | [Autonomous Ion Mass Spectrometer Sentry (AIMSS)](https://sam.gov/workspace/contract/opp/933b39dfb3474dc8914ea781eefd3cca/view) |
-| active | Autonomous Ion Mass Spectrometer Sentry (AIMSS) | awarding agency | ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.TRIAD - DOE CONTRACTOR | authoritative / high | [Autonomous Ion Mass Spectrometer Sentry (AIMSS)](https://sam.gov/workspace/contract/opp/933b39dfb3474dc8914ea781eefd3cca/view) |
-| active | ALLIANCE TECHNOLOGY GROUP, LLC | legal business name | Alliance Technology Group, LLC | authoritative / high | [Alliance Technology Group, LLC](https://sam.gov/entity/UCM7WPGJBZ67/coreData) |
-| active | ALLIANCE TECHNOLOGY GROUP, LLC | uei | UCM7WPGJBZ67 | authoritative / high | [Alliance Technology Group, LLC](https://sam.gov/entity/UCM7WPGJBZ67/coreData) |
-| active | ALLIANCE TECHNOLOGY GROUP, LLC | cage code | 1YBR8 | authoritative / high | [Alliance Technology Group, LLC](https://sam.gov/entity/UCM7WPGJBZ67/coreData) |
-| active | ALLIANCE TECHNOLOGY GROUP, LLC | registration status | Active | authoritative / high | [Alliance Technology Group, LLC](https://sam.gov/entity/UCM7WPGJBZ67/coreData) |
 
 ## Method
 

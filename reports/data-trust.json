@@ -1,14 +1,14 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 27.0,
+      "acceptance_rate": 26.5,
       "accepted": 27,
-      "quarantined": 73,
+      "quarantined": 75,
       "scope": "Federal missions"
     },
     {
       "acceptance_rate": 94.9,
-      "accepted": 463,
+      "accepted": 468,
       "quarantined": 25,
       "scope": "Federal funding"
     }
@@ -884,6 +884,29 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-30",
+      "key": "https://www.grants.gov/search-results-detail/359271",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "mission evidence admission",
+      "title": "Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)",
+      "url": "https://www.grants.gov/search-results-detail/359271"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "Golden Dome",
         "reason_codes": [
           "official_source",
@@ -1310,6 +1333,29 @@
       "stage": "mission evidence admission",
       "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
       "url": "https://www.grants.gov/search-results-detail/362498"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "AI Forge",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-05-07",
+      "key": "https://www.grants.gov/search-results-detail/362303",
+      "mission_id": "ai-forge",
+      "mission_name": "AI Forge",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 AI Forge",
+      "stage": "mission evidence admission",
+      "title": "F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+      "url": "https://www.grants.gov/search-results-detail/362303"
     },
     {
       "admission": {
@@ -2248,17 +2294,17 @@
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 98,
+      "count": 100,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 98,
+      "count": 100,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 93,
+      "count": 95,
       "label": "Official government source"
     },
     {
@@ -2269,14 +2315,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 83.3,
-    "accepted": 490,
-    "decisions": 588,
+    "acceptance_rate": 83.2,
+    "accepted": 495,
+    "decisions": 595,
     "funding_quarantine": 25,
-    "mission_quarantine": 73,
-    "quarantined": 98,
+    "mission_quarantine": 75,
+    "quarantined": 100,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-16T00:53:15.272234+00:00",
+  "updated_at": "2026-08-17T00:51:32.831772+00:00",
   "version": 1
 }

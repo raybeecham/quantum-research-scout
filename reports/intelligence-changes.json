@@ -65,12 +65,1580 @@
       ]
     }
   ],
-  "added": [],
+  "added": [
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-4742ca3b4d81c28d",
+      "confidence": "high",
+      "effective_date": "2026-08-14",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5eee504b3a8c07ce",
+          "locator": "opportunity_status:awarded",
+          "title": "THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0311_1205_47QRAA21D009M_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:12314426F0311",
+        "label": "THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC...",
+        "node_id": "award:usaspending:12314426F0311",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-7120db33259f67e1",
+      "confidence": "high",
+      "effective_date": "2026-08-14",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d6afc69c9568d3a7",
+          "locator": "awarding_agency:department of agriculture",
+          "title": "THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0311_1205_47QRAA21D009M_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:12314426F0311",
+        "label": "THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC...",
+        "node_id": "award:usaspending:12314426F0311",
+        "node_type": "award"
+      },
+      "value": "Department of Agriculture"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1935af4c216f2e95",
+      "confidence": "high",
+      "effective_date": "2026-08-14",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-65813516e33a956b",
+          "locator": "reported_amount:2100000.0",
+          "title": "THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0311_1205_47QRAA21D009M_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:12314426F0311",
+        "label": "THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC...",
+        "node_id": "award:usaspending:12314426F0311",
+        "node_type": "award"
+      },
+      "value": 2100000.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-360c3d36d0265ce9",
+      "confidence": "high",
+      "effective_date": "2026-08-14",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": {
+        "identifier": "uei:NVLTL4MUE6J4",
+        "label": "ENSEMBLE GOVERNMENT SERVICES, LLC",
+        "node_id": "recipient_or_contractor:uei:NVLTL4MUE6J4",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e3194ce30db3e8a6",
+          "locator": "reported_recipient:recipient_or_contractor:uei:NVLTL4MUE6J4",
+          "title": "THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0311_1205_47QRAA21D009M_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:12314426F0311",
+        "label": "THIS NEW CONTRACT OF PHASE III WILL COMPLETE THE ARTIFICIAL INTELLIGENCE MODEL DEVELOPMENT, SOFTWARE INTEGRATION, HARDWARE CONFIGURATION, PERFORMANCE VALIDATION, AND DEPLOYMENT AC...",
+        "node_id": "award:usaspending:12314426F0311",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-2ebacb6c7bd0b2ca",
+      "confidence": "high",
+      "effective_date": "2026-08-01",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5c5d05e876ed1c87",
+          "locator": "opportunity_status:awarded",
+          "title": "PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F65106_7571_HHSN316201500032W_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:7571TE26F65106",
+        "label": "PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE",
+        "node_id": "award:usaspending:7571TE26F65106",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-447b4466cdd9f309",
+      "confidence": "high",
+      "effective_date": "2026-08-01",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-20f311653c019aa6",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F65106_7571_HHSN316201500032W_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:7571TE26F65106",
+        "label": "PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE",
+        "node_id": "award:usaspending:7571TE26F65106",
+        "node_type": "award"
+      },
+      "value": "Department of Health and Human Services"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-b27f5e9877ffab8f",
+      "confidence": "high",
+      "effective_date": "2026-08-01",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8ea0be6055b620e5",
+          "locator": "reported_amount:111027.34",
+          "title": "PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F65106_7571_HHSN316201500032W_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:7571TE26F65106",
+        "label": "PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE",
+        "node_id": "award:usaspending:7571TE26F65106",
+        "node_type": "award"
+      },
+      "value": 111027.34
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-18ff4f6e9c17df74",
+      "confidence": "high",
+      "effective_date": "2026-08-01",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": {
+        "identifier": "uei:Y928UVG75CT6",
+        "label": "ALVAREZ LLC",
+        "node_id": "recipient_or_contractor:uei:Y928UVG75CT6",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9cd3cd472224ded0",
+          "locator": "reported_recipient:recipient_or_contractor:uei:Y928UVG75CT6",
+          "title": "PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F65106_7571_HHSN316201500032W_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:7571TE26F65106",
+        "label": "PCA-NEI-07249 SUPPORT & MAINTENANCE QUANTUM ACTIVESCALE",
+        "node_id": "award:usaspending:7571TE26F65106",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-2b5467e6df262280",
+      "confidence": "high",
+      "effective_date": "2026-05-07",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c42495dea9278f5c",
+          "locator": "opportunity_status:open",
+          "title": "F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+          "url": "https://www.grants.gov/search-results-detail/362303",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:F26AS00084",
+        "label": "F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+        "node_id": "opportunity:grants_gov:F26AS00084",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-19cf28e59b9c26ac",
+      "confidence": "high",
+      "effective_date": "2026-05-07",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bb98d8d9154f2b9e",
+          "locator": "deadline:12/31/2026",
+          "title": "F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+          "url": "https://www.grants.gov/search-results-detail/362303",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:F26AS00084",
+        "label": "F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+        "node_id": "opportunity:grants_gov:F26AS00084",
+        "node_type": "opportunity"
+      },
+      "value": "12/31/2026"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-faefdc5c0e64909e",
+      "confidence": "high",
+      "effective_date": "2026-05-07",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-adffb260d004a977",
+          "locator": "awarding_agency:doi-fws",
+          "title": "F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+          "url": "https://www.grants.gov/search-results-detail/362303",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:F26AS00084",
+        "label": "F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+        "node_id": "opportunity:grants_gov:F26AS00084",
+        "node_type": "opportunity"
+      },
+      "value": "DOI-FWS"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-9edd4dc70ec0d371",
+      "confidence": "high",
+      "effective_date": "2026-08-16",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3d46e795eeae6704",
+          "locator": "opportunity_status:open",
+          "title": "16--WHEEL HALF ASSEMBLY,AI",
+          "url": "https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T665A",
+        "label": "16--WHEEL HALF ASSEMBLY,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T665A",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ae7bc8a50fc0f67c",
+      "confidence": "high",
+      "effective_date": "2026-08-16",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d8bb48ff4f3ffa1d",
+          "locator": "deadline:2026-08-24",
+          "title": "16--WHEEL HALF ASSEMBLY,AI",
+          "url": "https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T665A",
+        "label": "16--WHEEL HALF ASSEMBLY,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T665A",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-24"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1afe359a731b9a56",
+      "confidence": "high",
+      "effective_date": "2026-08-16",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-133f8a4259b482ef",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
+          "title": "16--WHEEL HALF ASSEMBLY,AI",
+          "url": "https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T665A",
+        "label": "16--WHEEL HALF ASSEMBLY,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T665A",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3fc5981cf0cd30d5",
+      "confidence": "high",
+      "effective_date": "2026-08-16",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-101cfe50c7ee2d34",
+          "locator": "opportunity_status:open",
+          "title": "15--WINDSHIELD PANEL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A626T18FW",
+        "label": "15--WINDSHIELD PANEL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A626T18FW",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-58a02b4ba47a0e99",
+      "confidence": "high",
+      "effective_date": "2026-08-16",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fe1b6e48ec10964d",
+          "locator": "deadline:2026-08-24",
+          "title": "15--WINDSHIELD PANEL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A626T18FW",
+        "label": "15--WINDSHIELD PANEL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A626T18FW",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-24"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-5103d75293950d02",
+      "confidence": "high",
+      "effective_date": "2026-08-16",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cd1b2c2293a97628",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
+          "title": "15--WINDSHIELD PANEL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A626T18FW",
+        "label": "15--WINDSHIELD PANEL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A626T18FW",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-26c4cdde5d2a4a7c",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "f7a7073fbde43145c93d5292792303aeb661e0bc088608e87ff12bfdefce49a6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-ab4fbd11c804b148",
+          "locator": "states_requirement:snspd) system will assist current nist research in the development of quantum network science and metrology. the system shall be incorporated into the first quantum network metrology node allowing users on the quantum network to dial into the detectors at any time, i.e. continuously (24/7) through...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "label": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+        "node_id": "opportunity:sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "node_type": "opportunity"
+      },
+      "value": "SNSPD) system will assist current NIST research in the development of quantum network science and metrology. The system shall be incorporated into the first quantum network metrology node allowing users on the quantum network to dial into the detectors at any time, i.e. continuously (24/7) through..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-e58fcf6e91cede51",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "f7a7073fbde43145c93d5292792303aeb661e0bc088608e87ff12bfdefce49a6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-dc91421e80dd2ea2",
+          "locator": "states_requirement:uantum network traffic and make available valuable quantum network telemetry data for researchers and users. the system must be free from experiencing long delays to maintain operation of the metrology node. ii. purpose: the purpose of this acquisition is to obtain a quantum network pluggable 4-cha...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "label": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+        "node_id": "opportunity:sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "node_type": "opportunity"
+      },
+      "value": "uantum network traffic and make available valuable quantum network telemetry data for researchers and users. The system must be free from experiencing long delays to maintain operation of the metrology node. II. Purpose: The purpose of this acquisition is to obtain a Quantum Network pluggable 4-cha..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6a6a5c2fbc672d97",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "f7a7073fbde43145c93d5292792303aeb661e0bc088608e87ff12bfdefce49a6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-dcb20bab5a6fae7b",
+          "locator": "states_requirement:le, i.e. controls and status information are directed through a network. place of performance: the place of performance shall be the contractor\u2019s place of business. period of performance/delivery period delivery shall occur within 20 weeks after receipt of award (aro). iii. specific requirements th...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "label": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+        "node_id": "opportunity:sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "node_type": "opportunity"
+      },
+      "value": "le, i.e. controls and status information are directed through a network. Place of Performance: The Place of Performance shall be the contractor\u2019s place of business. Period of Performance/Delivery Period Delivery shall occur within 20 weeks after receipt of award (ARO). III. SPECIFIC REQUIREMENTS Th..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-0cbecca1c5a68605",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "f7a7073fbde43145c93d5292792303aeb661e0bc088608e87ff12bfdefce49a6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-411aa9a58d6fb1f4",
+          "locator": "states_requirement:e: the place of performance shall be the contractor\u2019s place of business. period of performance/delivery period delivery shall occur within 20 weeks after receipt of award (aro). iii. specific requirements the contractor shall provide a quantum network pluggable 4-channel superconducting nanowire si...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "label": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+        "node_id": "opportunity:sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "node_type": "opportunity"
+      },
+      "value": "e: The Place of Performance shall be the contractor\u2019s place of business. Period of Performance/Delivery Period Delivery shall occur within 20 weeks after receipt of award (ARO). III. SPECIFIC REQUIREMENTS The Contractor shall provide a Quantum Network pluggable 4-channel superconducting nanowire si..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-9d36af788f420e70",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "f7a7073fbde43145c93d5292792303aeb661e0bc088608e87ff12bfdefce49a6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-634f8976774c50c1",
+          "locator": "states_requirement:ery period delivery shall occur within 20 weeks after receipt of award (aro). iii. specific requirements the contractor shall provide a quantum network pluggable 4-channel superconducting nanowire single-photon detector system (snspds) that meets all technical specifications identified below. all i...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "label": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+        "node_id": "opportunity:sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "node_type": "opportunity"
+      },
+      "value": "ery Period Delivery shall occur within 20 weeks after receipt of award (ARO). III. SPECIFIC REQUIREMENTS The Contractor shall provide a Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system (SNSPDs) that meets all technical specifications identified below. All i..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-77bb982dd20cfbff",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "f7a7073fbde43145c93d5292792303aeb661e0bc088608e87ff12bfdefce49a6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-dd51113d8219262d",
+          "locator": "states_requirement:ing nanowire single-photon detector system (snspds) that meets all technical specifications identified below. all items must be new. used or remanufactured equipment will not be considered for award. experimental, prototype, or custom items will not be considered. the use of \u201cgray market\u201d component...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "label": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+        "node_id": "opportunity:sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "node_type": "opportunity"
+      },
+      "value": "ing nanowire single-photon detector system (SNSPDs) that meets all technical specifications identified below. All items must be new. Used or remanufactured equipment will not be considered for award. Experimental, prototype, or custom items will not be considered. The use of \u201cgray market\u201d component..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-29f7e0d98eb4617b",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "f7a7073fbde43145c93d5292792303aeb661e0bc088608e87ff12bfdefce49a6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-1880a6a2ae6ca1f1",
+          "locator": "states_requirement:e use of \u201cgray market\u201d components not authorized for sale in the u.s. by the proposer is not acceptable. the contractor shall provide a firm fixed price quotation for a quantum network pluggable 4-channel superconducting nanowire single-photon detector system, quantity one (1), in accordance with t...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "label": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+        "node_id": "opportunity:sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "node_type": "opportunity"
+      },
+      "value": "e use of \u201cgray market\u201d components not authorized for sale in the U.S. by the proposer is not acceptable. The Contractor shall provide a Firm Fixed Price Quotation for a Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system, quantity one (1), in accordance with t..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-df22256cbee1e346",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "f7a7073fbde43145c93d5292792303aeb661e0bc088608e87ff12bfdefce49a6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-99cac2923b8893e9",
+          "locator": "states_requirement:scription: quantum network pluggable 4-channel snspds. quantity: one (1) a. technical specifications: a. the contractor shall provide a system that contains a total of 4 snspds, with the following characteristics and features: \u2022 four (4) snspds with detection efficiency (fiber input to detector) of...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "label": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+        "node_id": "opportunity:sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "node_type": "opportunity"
+      },
+      "value": "scription: Quantum Network pluggable 4-channel SNSPDs. Quantity: One (1) A. Technical Specifications: a. The Contractor shall provide a system that contains a total of 4 SNSPDs, with the following characteristics and features: \u2022 Four (4) SNSPDs with detection efficiency (fiber input to detector) of..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-a3591657603f4206",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "f7a7073fbde43145c93d5292792303aeb661e0bc088608e87ff12bfdefce49a6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-9ea97ae12fe9a246",
+          "locator": "states_submission_instruction:a near building 301 equipment safety requirements: contractor equipment on the nist campus may not be left in emergency response locations, or other locations pertinent to general safety such as crosswalks, next to campus perimeter fences, areas which may block traffic or exits, etc. prior to the c...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "label": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+        "node_id": "opportunity:sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "node_type": "opportunity"
+      },
+      "value": "a near building 301 Equipment Safety Requirements: Contractor equipment on the NIST campus may not be left in emergency response locations, or other locations pertinent to general safety such as crosswalks, next to campus perimeter fences, areas which may block traffic or exits, etc. Prior to the c..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-69043e5132426ba9",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "states_deliverable",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "f7a7073fbde43145c93d5292792303aeb661e0bc088608e87ff12bfdefce49a6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-44ad23b06750942e",
+          "locator": "states_deliverable:directed through a network. place of performance: the place of performance shall be the contractor\u2019s place of business. period of performance/delivery period delivery shall occur within 20 weeks after receipt of award (aro). iii. specific requirements the contractor shall provide a quantum network...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "label": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+        "node_id": "opportunity:sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "node_type": "opportunity"
+      },
+      "value": "directed through a network. Place of Performance: The Place of Performance shall be the contractor\u2019s place of business. Period of Performance/Delivery Period Delivery shall occur within 20 weeks after receipt of award (ARO). III. SPECIFIC REQUIREMENTS The Contractor shall provide a Quantum Network..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-b483bc7a985d76ba",
+      "confidence": "high",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d525b543a26baa5b",
+          "locator": "legal_business_name:the johns hopkins university applied physics laboratory llc",
+          "title": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+          "url": "https://sam.gov/entity/C1HBCJ9RMBV3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:C1HBCJ9RMBV3",
+        "label": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+        "node_id": "recipient_or_contractor:uei:C1HBCJ9RMBV3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-050b19b996c3bcfe",
+      "confidence": "high",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-90408226435f3a20",
+          "locator": "uei:c1hbcj9rmbv3",
+          "title": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+          "url": "https://sam.gov/entity/C1HBCJ9RMBV3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:C1HBCJ9RMBV3",
+        "label": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+        "node_id": "recipient_or_contractor:uei:C1HBCJ9RMBV3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "C1HBCJ9RMBV3"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-b46756659d61031e",
+      "confidence": "high",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-97c63c2b4d96190f",
+          "locator": "cage_code:88898",
+          "title": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+          "url": "https://sam.gov/entity/C1HBCJ9RMBV3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:C1HBCJ9RMBV3",
+        "label": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+        "node_id": "recipient_or_contractor:uei:C1HBCJ9RMBV3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "88898"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-539c16a6a4de8427",
+      "confidence": "high",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f7ca94fd075bca43",
+          "locator": "registration_status:active",
+          "title": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+          "url": "https://sam.gov/entity/C1HBCJ9RMBV3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:C1HBCJ9RMBV3",
+        "label": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+        "node_id": "recipient_or_contractor:uei:C1HBCJ9RMBV3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3ee98790b3bd82e7",
+      "confidence": "high",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-85ffdabf319c4f30",
+          "locator": "legal_business_name:new york university",
+          "title": "NEW YORK UNIVERSITY",
+          "url": "https://sam.gov/entity/NX9PXMKW5KW8/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:NX9PXMKW5KW8",
+        "label": "NEW YORK UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:NX9PXMKW5KW8",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "NEW YORK UNIVERSITY"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ee20bdf0d13cafec",
+      "confidence": "high",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1ff3b31ca7dc410f",
+          "locator": "uei:nx9pxmkw5kw8",
+          "title": "NEW YORK UNIVERSITY",
+          "url": "https://sam.gov/entity/NX9PXMKW5KW8/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:NX9PXMKW5KW8",
+        "label": "NEW YORK UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:NX9PXMKW5KW8",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "NX9PXMKW5KW8"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-7467c2cd7ce5a354",
+      "confidence": "high",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0bc223d5269e4ddc",
+          "locator": "cage_code:72061",
+          "title": "NEW YORK UNIVERSITY",
+          "url": "https://sam.gov/entity/NX9PXMKW5KW8/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:NX9PXMKW5KW8",
+        "label": "NEW YORK UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:NX9PXMKW5KW8",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "72061"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-d760c6a0450d7c91",
+      "confidence": "high",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-001731276398ab7f",
+          "locator": "registration_status:active",
+          "title": "NEW YORK UNIVERSITY",
+          "url": "https://sam.gov/entity/NX9PXMKW5KW8/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:NX9PXMKW5KW8",
+        "label": "NEW YORK UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:NX9PXMKW5KW8",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-5df3bb5b7e57bf92",
+      "confidence": "high",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-744dd906fc7a38d1",
+          "locator": "legal_business_name:nationwide it services inc",
+          "title": "NATIONWIDE IT SERVICES INC",
+          "url": "https://sam.gov/entity/RR2VC8Y3MK47/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:RR2VC8Y3MK47",
+        "label": "NATIONWIDE IT SERVICES INC",
+        "node_id": "recipient_or_contractor:uei:RR2VC8Y3MK47",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "NATIONWIDE IT SERVICES INC"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-9f30e9f2da2df780",
+      "confidence": "high",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0129148c143c79bd",
+          "locator": "uei:rr2vc8y3mk47",
+          "title": "NATIONWIDE IT SERVICES INC",
+          "url": "https://sam.gov/entity/RR2VC8Y3MK47/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:RR2VC8Y3MK47",
+        "label": "NATIONWIDE IT SERVICES INC",
+        "node_id": "recipient_or_contractor:uei:RR2VC8Y3MK47",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "RR2VC8Y3MK47"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-451e0082da03d78d",
+      "confidence": "high",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-30899cef09992636",
+          "locator": "cage_code:4q5a2",
+          "title": "NATIONWIDE IT SERVICES INC",
+          "url": "https://sam.gov/entity/RR2VC8Y3MK47/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:RR2VC8Y3MK47",
+        "label": "NATIONWIDE IT SERVICES INC",
+        "node_id": "recipient_or_contractor:uei:RR2VC8Y3MK47",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "4Q5A2"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-806d6efcce23fab9",
+      "confidence": "high",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2cb689cf45ed91fd",
+          "locator": "registration_status:active",
+          "title": "NATIONWIDE IT SERVICES INC",
+          "url": "https://sam.gov/entity/RR2VC8Y3MK47/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:RR2VC8Y3MK47",
+        "label": "NATIONWIDE IT SERVICES INC",
+        "node_id": "recipient_or_contractor:uei:RR2VC8Y3MK47",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-0132fac53180e03c",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bba7fdad35f4425f",
+          "locator": "qualification_gate",
+          "title": "16--WHEEL HALF ASSEMBLY,AI",
+          "url": "https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "16--WHEEL HALF ASSEMBLY,AI",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e851ec4b47fd44368f4f76b3e9aedd61",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T665A",
+        "label": "16--WHEEL HALF ASSEMBLY,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T665A",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-883f88b4ee9d3ad4",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-702f0b532d80346d",
+          "locator": "qualification_gate",
+          "title": "15--WINDSHIELD PANEL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "15--WINDSHIELD PANEL,AI",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3113f3aafa0944639a0568e561195081",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A626T18FW",
+        "label": "15--WINDSHIELD PANEL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A626T18FW",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    }
+  ],
   "baseline_initialized": false,
-  "changed": [],
+  "changed": [
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-9d33bc3ada842586",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-11T01:10:04.632160+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-901952752c7ac093",
+          "locator": "qualification_gate",
+          "title": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+          "url": "https://sam.gov/workspace/contract/opp/f34d767fd1684bf3a8e2c3c0f17e9959/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-29c1b26f16240148",
+          "locator": "qualification_gate",
+          "title": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f528fe330bfc9425",
+          "locator": "qualification_gate",
+          "title": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a659846975a6ab6c",
+          "locator": "qualification_gate",
+          "title": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/305043137d834233b10c2ac17edf1c47/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9d4540bcfdc9e00f",
+          "locator": "qualification_gate",
+          "title": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a1564968b76d40b3b3abd9af8deab25d/download",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "label": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
+        "node_id": "opportunity:sam_gov:NIST-AMD-TC-RQ-26-01477",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-64448ea7868628a5",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f8bd177a1a5a879a",
+          "locator": "qualification_gate",
+          "title": "CyberNext: Advance Cybersecurity and AI Readiness",
+          "url": "https://www.grants.gov/search-results-detail/363249",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:AMERICANSPACESCYBERNEXT-2026",
+        "label": "CyberNext: Advance Cybersecurity and AI Readiness",
+        "node_id": "opportunity:grants_gov:AMERICANSPACESCYBERNEXT-2026",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-60f0f4d46555dc74",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-15T00:51:02.586375+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-553f137c50ecc6b8",
+          "locator": "qualification_gate",
+          "title": "Pax Silica Artificial Intelligence Assistance Project",
+          "url": "https://www.grants.gov/search-results-detail/363596",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:DFOP0019193",
+        "label": "Pax Silica Artificial Intelligence Assistance Project",
+        "node_id": "opportunity:grants_gov:DFOP0019193",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-8a582a0a4b5201bc",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7807a4738adeec47",
+          "locator": "qualification_gate",
+          "title": "Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator",
+          "url": "https://www.grants.gov/search-results-detail/363319",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:PDS-BUE-2026-07",
+        "label": "Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator",
+        "node_id": "opportunity:grants_gov:PDS-BUE-2026-07",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-ceb59293d95714f4",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4916b2b374dd4b4c",
+          "locator": "qualification_gate",
+          "title": "U.S.-Argentina Alumni Summit",
+          "url": "https://www.grants.gov/search-results-detail/363320",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:PDS-BUE-2026-06",
+        "label": "U.S.-Argentina Alumni Summit",
+        "node_id": "opportunity:grants_gov:PDS-BUE-2026-06",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-8efacdc6ab6cdb9a",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-11T01:10:04.632160+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c43aca94ca4ebd17",
+          "locator": "qualification_gate",
+          "title": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
+          "url": "https://www.grants.gov/search-results-detail/363269",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:PDS-APS-FY26-01",
+        "label": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
+        "node_id": "opportunity:grants_gov:PDS-APS-FY26-01",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-3c8ddac9a2c41c29",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8955e17c4b938046",
+          "locator": "qualification_gate",
+          "title": "GameON \u2013 U.S.-Albania E-Sports and Innovation",
+          "url": "https://www.grants.gov/search-results-detail/363247",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:AMERICANSPACESGAMEON-2026",
+        "label": "GameON \u2013 U.S.-Albania E-Sports and Innovation",
+        "node_id": "opportunity:grants_gov:AMERICANSPACESGAMEON-2026",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-b2a413d84ed62046",
+      "confidence": "medium",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-12T01:17:45.977018+00:00",
+      "last_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-59b7ed46fec7346c",
+          "locator": "qualification_gate",
+          "title": "16--MODIFICATION KIT,AI",
+          "url": "https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "16--MODIFICATION KIT,AI",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fda242bc18ec4faca34c5a9397261d24",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T643V",
+        "label": "16--MODIFICATION KIT,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T643V",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    }
+  ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-08-16T03:43:36.091465+00:00",
-  "comparison_started_at": "2026-08-16T00:53:15.272234+00:00",
+  "comparison_ended_at": "2026-08-17T00:51:32.831772+00:00",
+  "comparison_started_at": "2026-08-16T03:43:36.091465+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -986,19 +2554,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-08-16T00:53:15.272234+00:00",
+  "since": "2026-08-16T03:43:36.091465+00:00",
   "summary": {
-    "active_claims": 2510,
-    "added": 0,
-    "changed": 0,
+    "active_claims": 2551,
+    "added": 41,
+    "changed": 8,
     "conflicts": 4,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 27,
+    "material_changes": 76,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-08-16T03:43:36.091465+00:00",
+  "updated_at": "2026-08-17T00:51:32.831772+00:00",
   "version": 1
 }

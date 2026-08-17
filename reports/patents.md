@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-08-16T00:53:15.272234+00:00_
+_Updated 2026-08-17T00:51:32.831772+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -17,7 +17,7 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Unique named assignees: **143**
 - Patent families: **217**
 - Applications / grants: **218 / 9**
-- Known legal status: **170 of 227**
+- Known legal status: **171 of 227**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -114,6 +114,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [SEPARATION FILTER AND QUANTUM COMMUNICATION SYSTEM USING THE SAME](https://data.uspto.gov/patent-file-wrapper/search/details/19078645/application-data)<br><small>US20250306283A1</small> | Application · Pending | UNIVERSITY OF SEOUL INDUSTRY COOPERATION FOUNDATION | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [METHOD AND SYSTEM FOR GENERATING CYBERSECURITY VULNERABILITY REMEDIATION USING GENERATIVE AI](https://data.uspto.gov/patent-file-wrapper/search/details/19535555/application-data)<br><small>US20260236342A1</small> | Application · Pending | ObjectSecurity LLC | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [ENERGY LEVEL DIFFERENCE ESTIMATION METHOD AND QUANTUM COMPUTING SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19530342/application-data)<br><small>US20260236811A1</small> | Application · Pending | QunaSys Inc., Fujitsu Limited | 1 member(s) · 0 citation(s) | **65 · HIGH** |
+| [MODULAR EXPANSION ARCHITECTURE FOR QUANTUM COMPUTING SYSTEMS](https://data.uspto.gov/patent-file-wrapper/search/details/19463012/application-data)<br><small>US20260220515A1</small> | Application · Pending | Homatch.ai | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [PULSE OPTIMIZATION IN QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19454548/application-data)<br><small>US20260212249A1</small> | Application · Pending | YISSUM RESEARCH DEVELOPMENT COMPANY OF THE HEBREW UNIVERSITY OF JERUSALEM LTD., BAR ILAN UNIVERSITY | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [HERMETIC JOINING OF ALUMINA CERAMIC TO TITANIUM AND INCORPORATION INTO AN ION TRAP QUANTUM COMPUTING VACUUM SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19451673/application-data)<br><small>US20260212245A1</small> | Application · Pending | IonQ, Inc. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [QUANTUM COMPUTING CIRCUIT AND INFORMATION PROCESSING DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19426523/application-data)<br><small>US20260178956A1</small> | Application · Pending | NEC Corporation | 1 member(s) · 0 citation(s) | **65 · HIGH** |
@@ -174,7 +175,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [Portable Quantum Sensing Device](https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data)<br><small>US20260118447A1</small> | Application · Unknown | Morgan State University | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [REPEATER SELECTION FOR QUANTUM COMMUNICATION NETWORKS](https://data.uspto.gov/patent-file-wrapper/search/details/18912681/application-data)<br><small>US20260100765A1</small> | Application · Unknown | KING FAHD UNIVERSITY OF PETROLEUM AND MINERALS | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [METHOD FOR MEASURING AN OBSERVABLE ON A QUANTUM COMPUTING DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19456147/application-data)<br><small>US20260228588A1</small> | Application · Unknown | QEDMA Quantum Computing LTD. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
-| [MODULAR EXPANSION ARCHITECTURE FOR QUANTUM COMPUTING SYSTEMS](https://data.uspto.gov/patent-file-wrapper/search/details/19463012/application-data)<br><small>US20260220515A1</small> | Application · Unknown | Homatch.ai | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [UTILIZING A MULTIMODAL LARGE LANGUAGE MODEL TO GENERATE SYNTHESIZED RESPONSES CORRESPONDING TO MULTIMODAL CONTENT ITEMS](https://data.uspto.gov/patent-file-wrapper/search/details/19632958/application-data)<br><small>US20260237110A1</small> | Application · Pending | Dropbox, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [STREAMING OF NATURAL LANGUAGE (NL) BASED OUTPUT GENERATED USING A LARGE LANGUAGE MODEL (LLM) TO REDUCE LATENCY IN RENDERING THEREOF](https://data.uspto.gov/patent-file-wrapper/search/details/19638893/application-data)<br><small>US20260236495A1</small> | Application · Pending | GOOGLE LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [LARGE LANGUAGE MODEL-PREDICTED RESPONSE BIASING FOR CONVERSATIONAL SYSTEMS](https://data.uspto.gov/patent-file-wrapper/search/details/19462632/application-data)<br><small>US20260229227A1</small> | Application · Pending | Google LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |

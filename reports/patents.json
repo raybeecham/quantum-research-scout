@@ -1412,6 +1412,28 @@
     },
     {
       "application_count": 1,
+      "assignee": "Homatch.ai",
+      "citation_count": 0,
+      "family_basis": "continuation parent application",
+      "family_key": "application:63751185",
+      "grant_count": 0,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "19463012",
+          "document_type": "application",
+          "publication_number": "US20260220515A1",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19463012/application-data"
+        }
+      ],
+      "primary_publication_number": "US20260220515A1",
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19463012/application-data",
+      "significance_label": "high",
+      "strategic_significance_score": 65,
+      "title": "MODULAR EXPANSION ARCHITECTURE FOR QUANTUM COMPUTING SYSTEMS"
+    },
+    {
+      "application_count": 1,
       "assignee": "LG ELECTRONICS INC.",
       "citation_count": 0,
       "family_basis": "continuation parent application",
@@ -2449,28 +2471,6 @@
       "significance_label": "notable",
       "strategic_significance_score": 57,
       "title": "METHOD FOR MEASURING AN OBSERVABLE ON A QUANTUM COMPUTING DEVICE"
-    },
-    {
-      "application_count": 1,
-      "assignee": "Homatch.ai",
-      "citation_count": 0,
-      "family_basis": "continuation parent application",
-      "family_key": "application:63751185",
-      "grant_count": 0,
-      "member_count": 1,
-      "members": [
-        {
-          "application_number": "19463012",
-          "document_type": "application",
-          "publication_number": "US20260220515A1",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19463012/application-data"
-        }
-      ],
-      "primary_publication_number": "US20260220515A1",
-      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19463012/application-data",
-      "significance_label": "notable",
-      "strategic_significance_score": 57,
-      "title": "MODULAR EXPANSION ARCHITECTURE FOR QUANTUM COMPUTING SYSTEMS"
     },
     {
       "application_count": 1,
@@ -8562,6 +8562,71 @@
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19530342/application-data"
     },
     {
+      "application_number": "19463012",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "Homatch.ai",
+      "backward_citation_count": 0,
+      "child_applications": [
+        "19463012"
+      ],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "application",
+      "family_basis": "continuation parent application",
+      "family_id": "",
+      "family_key": "application:63751185",
+      "family_members": [
+        {
+          "application_number": "19463012",
+          "document_type": "application",
+          "publication_number": "US20260220515A1",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19463012/application-data"
+        }
+      ],
+      "family_size": 1,
+      "filing_date": "2026-01-28",
+      "forward_citation_count": 0,
+      "grant_date": "",
+      "inventors": "Mingjun Wang",
+      "is_continuation": true,
+      "key": "US20260220515A1",
+      "kind_code": "A1",
+      "legal_status": "Response to Non-Final Office Action Entered and Forwarded to Examiner",
+      "legal_status_normalized": "pending",
+      "matched_keywords": [],
+      "parent_applications": [
+        "63751185"
+      ],
+      "patent_number": null,
+      "priority": "monitor",
+      "priority_date": "",
+      "priority_numbers": [],
+      "publication_date": "2026-07-30",
+      "publication_number": "US20260220515A1",
+      "query": "Quantum Computing Patents",
+      "score": 0,
+      "significance_factors": [
+        "strategic domain relevance +44",
+        "application stage +5",
+        "pending legal status +8",
+        "recent publication +5",
+        "named assignee +3"
+      ],
+      "significance_label": "high",
+      "source": "Quantum Computing Patents",
+      "strategic_domains": [
+        "Quantum technology"
+      ],
+      "strategic_relevance_score": 110,
+      "strategic_significance_score": 65,
+      "summary": "Applicant: Homatch.ai \u00b7 USPTO publication US20260220515A1",
+      "title": "MODULAR EXPANSION ARCHITECTURE FOR QUANTUM COMPUTING SYSTEMS",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19463012/application-data"
+    },
+    {
       "application_number": "19454548",
       "application_type": "Utility",
       "assessment": null,
@@ -12535,70 +12600,6 @@
       "title": "METHOD FOR MEASURING AN OBSERVABLE ON A QUANTUM COMPUTING DEVICE",
       "tracking_type": "automated",
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19456147/application-data"
-    },
-    {
-      "application_number": "19463012",
-      "application_type": "Utility",
-      "assessment": null,
-      "assignee": "Homatch.ai",
-      "backward_citation_count": 0,
-      "child_applications": [
-        "19463012"
-      ],
-      "citation_count": 0,
-      "cited_patents": [],
-      "continuation_type": null,
-      "document_type": "application",
-      "family_basis": "continuation parent application",
-      "family_id": "",
-      "family_key": "application:63751185",
-      "family_members": [
-        {
-          "application_number": "19463012",
-          "document_type": "application",
-          "publication_number": "US20260220515A1",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19463012/application-data"
-        }
-      ],
-      "family_size": 1,
-      "filing_date": "2026-01-28",
-      "forward_citation_count": 0,
-      "grant_date": "",
-      "inventors": "Mingjun Wang",
-      "is_continuation": true,
-      "key": "US20260220515A1",
-      "kind_code": "A1",
-      "legal_status": "Non Final Action Mailed",
-      "legal_status_normalized": "unknown",
-      "matched_keywords": [],
-      "parent_applications": [
-        "63751185"
-      ],
-      "patent_number": null,
-      "priority": "monitor",
-      "priority_date": "",
-      "priority_numbers": [],
-      "publication_date": "2026-07-30",
-      "publication_number": "US20260220515A1",
-      "query": "Quantum Computing Patents",
-      "score": 0,
-      "significance_factors": [
-        "strategic domain relevance +44",
-        "application stage +5",
-        "recent publication +5",
-        "named assignee +3"
-      ],
-      "significance_label": "notable",
-      "source": "Quantum Computing Patents",
-      "strategic_domains": [
-        "Quantum technology"
-      ],
-      "strategic_relevance_score": 110,
-      "strategic_significance_score": 57,
-      "summary": "Applicant: Homatch.ai \u00b7 USPTO publication US20260220515A1",
-      "title": "MODULAR EXPANSION ARCHITECTURE FOR QUANTUM COMPUTING SYSTEMS",
-      "tracking_type": "automated",
-      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19463012/application-data"
     },
     {
       "application_number": "19632958",
@@ -20006,7 +20007,7 @@
   "source": "Curated patent portfolio and USPTO Open Data Portal Patent File Wrapper metadata",
   "source_note": "Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.",
   "summary": {
-    "active_or_pending": 166,
+    "active_or_pending": 167,
     "applications": 218,
     "automated_total": 225,
     "curated_total": 2,
@@ -20014,11 +20015,11 @@
     "grants": 9,
     "last_30_days": 48,
     "latest_publication_date": "2026-08-13",
-    "status_known": 170,
+    "status_known": 171,
     "total": 227,
     "unique_assignees": 143,
     "with_citations": 0
   },
-  "updated_at": "2026-08-16T00:53:15.272234+00:00",
+  "updated_at": "2026-08-17T00:51:32.831772+00:00",
   "version": 4
 }

@@ -2,20 +2,32 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-16T03:43:36.091465+00:00_
+_Updated 2026-08-17T00:51:32.831772+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
 - Opportunities reviewed: **20**
-- Documents extracted: **10** / **41** discovered
+- Documents extracted: **9** / **38** discovered
 - Changed documents: **0**
 - New amendments: **0**
-- Material amendment impacts this run: **0**
+- Material amendment impacts this run: **1**
 - Decisions requiring revalidation: **3**
+
+## [16--WHEEL HALF ASSEMBLY,AI](https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-24**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e851ec4b47fd44368f4f76b3e9aedd61) — no_text
+
+## [15--WINDSHIELD PANEL,AI](https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-24**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3113f3aafa0944639a0568e561195081) — no_text
 
 ## [Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system](https://sam.gov/workspace/contract/opp/f34d767fd1684bf3a8e2c3c0f17e9959/view)
 
-Evidence completeness: **72 / 100** · Deadline: **2026-08-17T16:00:00-04:00**
+Evidence completeness: **84 / 100** · Deadline: **2026-08-17T16:00:00-04:00**
 
 Requirements evidence:
 - to this RFQ will be evaluated on the basis of Lowest Price Technically Acceptable (LPTA). Quoters submitting a response must provide a completed Price Quote to be evaluated and considered for award. Price quotes must indicate fixed unit pricing and total cost, including shipping cost and estimated...
@@ -25,9 +37,28 @@ Requirements evidence:
 - ng factors to determine if, as submitted, the quotation is technically acceptable. (1) Technical Capability: The Quoter must indicate in its quotation the ability to provide all minimum requirements identified in the Requirements document. (2) Schedule: The Quoter must indicate in its quotation the...
 
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/305043137d834233b10c2ac17edf1c47/download) — not_fetched
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a1564968b76d40b3b3abd9af8deab25d/download) — not_fetched
+
+### Changes since the previous tracker snapshot
+
+**HIGH · 10 change(s) · decision revalidation required**
+
+_Version history is tracker-observed and may not include revisions published before monitoring began._
+
+| Impact | Change | Before | After | Evidence |
+|---|---|---|---|---|
+| HIGH | New submission evidence was observed. | — | a near building 301 Equipment Safety Requirements: Contractor equipment on the NIST campus may not be left in emergency... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
+| HIGH | New requirement evidence was observed. | — | le, i.e. controls and status information are directed through a network. Place of Performance: The Place of Performance... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
+| HIGH | New requirement evidence was observed. | — | e: The Place of Performance shall be the contractor’s place of business. Period of Performance/Delivery Period Delivery... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
+| HIGH | New requirement evidence was observed. | — | scription: Quantum Network pluggable 4-channel SNSPDs. Quantity: One (1) A. Technical Specifications: a. The Contractor... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
+| HIGH | New requirement evidence was observed. | — | ing nanowire single-photon detector system (SNSPDs) that meets all technical specifications identified below. All items... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
+| HIGH | New requirement evidence was observed. | — | uantum network traffic and make available valuable quantum network telemetry data for researchers and users. The system... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
+| HIGH | New requirement evidence was observed. | — | e use of “gray market” components not authorized for sale in the U.S. by the proposer is not acceptable. The Contractor... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
+| HIGH | New requirement evidence was observed. | — | ery Period Delivery shall occur within 20 weeks after receipt of award (ARO). III. SPECIFIC REQUIREMENTS The Contractor... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
+| HIGH | New requirement evidence was observed. | — | SNSPD) system will assist current NIST research in the development of quantum network science and metrology. The system... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
+| MEDIUM | New deliverable evidence was observed. | — | directed through a network. Place of Performance: The Place of Performance shall be the contractor’s place of business.... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
 
 ## [Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech​](https://sam.gov/workspace/contract/opp/aeac410f5c844f4885353c70e0367dcb/view)
 
@@ -123,22 +154,6 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/f048f98ab32b470387472b1193c100b5/download) — extracted
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=93064bc210294f239f395b372899ceab) — not_fetched
 
-## [12FPC426Q0055 NRCS Michigan EMI Sensor](https://sam.gov/workspace/contract/opp/7a1eeac0b2c84da8b7e41ca488359392/view)
-
-Evidence completeness: **96 / 100** · Deadline: **2026-08-31T12:00:00-04:00**
-
-Requirements evidence:
-- t 1) for detailed narrative. Schedule of Items Please complete Attachment 2 – Pricing Sheet to complete pricing. Vendor must provide a quote for all contract line items to be considered for award. Technical Data Technical data and supporting documentation associated with this solicitation are avail...
-- Contracting officers will rely on representations from offers based on provisions in the solicitation. Entities are not required to, nor are they able to, update their entity registration to remove these representations in SAM. 52.252-2 Clauses Incorporated by Reference Feb 1998 This solicitation i...
-- Claims Act, 31 U.S.C. § 3729, and/or criminal liability, including under 18 U.S.C. §§ 287 and 1001. (f) The contractor must include the provisions of this clause in all subcontract solicitations. (g) Failure on the part of the contractor or its subcontractors to comply with the terms of this clause...
-- ent of any inconsistency between supplier terms and this contract, this clause and the terms of the Government contract must govern and supersede any supplier terms in all cases. (c) Authorization Required. Notwithstanding any other provision, no supplier terms must be binding on the Government unl...
-- e and the terms of the Government contract must govern and supersede any supplier terms in all cases. (c) Authorization Required. Notwithstanding any other provision, no supplier terms must be binding on the Government unless the term is expressly authorized on the USDA Supplier Terms Authorization...
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9a24195ed31c429e8a21a173d23c8dc3/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a295f5f74ca141cb97ac1de3bac2dd9f/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c276245e61654031856008d097181ce7/download) — not_fetched
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7a1eeac0b2c84da8b7e41ca488359392) — not_fetched
-
 ## [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
 
 Evidence completeness: **72 / 100** · Deadline: **2026-09-09T09:00:00-04:00**
@@ -178,12 +193,6 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0b259bdf43a146588a1347569220e448/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3e448a78ead841adb2bfe7459e97fb89/download) — extracted
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a7ce960566e242bbbf871a3e2fab3453) — no_text
-
-## [OASES PCSB: PM2.5 Air Quality Monitoring Sensor](https://sam.gov/workspace/contract/opp/b39f36f427ff4a7b9f0eb9fa0cb3ae74/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-26T17:00:00-05:00**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b39f36f427ff4a7b9f0eb9fa0cb3ae74) — no_text
 
 ## [KEYSIGHT N8487A POWER SENSOR](https://sam.gov/workspace/contract/opp/10d5c382557249708dd444771cfc5753/view)
 

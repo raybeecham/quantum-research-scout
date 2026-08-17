@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-16 00:58 UTC_
+_Updated 2026-08-17 00:57 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 12 | 10 | 32 | 8 |
+| 50 | 13 | 8 | 42 | 0 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -66,21 +66,6 @@ _Updated 2026-08-16 00:58 UTC_
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Procurement amendment impact: Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system 🆕
-
-- Severity: **critical**
-- Status: **decision-revalidation-required**
-- New eligibility evidence was observed. New eligibility evidence was observed. Prior qualification and bid/no-bid assumptions require analyst revalidation; no analyst decision was changed automatically.
-- [Open direct evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download)
-- [Open supporting view](procurement-intelligence.md)
-
-## 🔴 Source failing: IACR ePrint 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 96.8% reliability with 1 warning day(s).
-- [Open supporting view](source-health.md)
-
 ## 🟠 Actionable signal: AI Security
 
 - Severity: **high**
@@ -95,71 +80,39 @@ _Updated 2026-08-16 00:58 UTC_
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: 15--PLATE,STRUCTURAL,AI 🆕
+## 🟠 Changed: 16--MODIFICATION KIT,AI 🆕
 
 - Severity: **high**
 - Status: **changed**
 - qualification gate · authority analytical · hold
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view)
+- [Open direct evidence](https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view)
 - [Open supporting view](intelligence-changes.md)
 
-## 🟠 Changed: 29--SENSOR,AIR CHARGED 🆕
+## 🟠 Changed: CyberNext: Advance Cybersecurity and AI Readiness 🆕
 
 - Severity: **high**
 - Status: **changed**
 - qualification gate · authority analytical · hold
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/e517e60215054acd9a4504fdfd7145a2/view)
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363249)
 - [Open supporting view](intelligence-changes.md)
 
-## 🟠 Changed: 6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment 🆕
+## 🟠 Changed: GameON – U.S.-Albania E-Sports and Innovation 🆕
 
 - Severity: **high**
 - Status: **changed**
 - qualification gate · authority analytical · hold
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view)
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363247)
 - [Open supporting view](intelligence-changes.md)
 
-## 🟠 Changed: AN12--Machine Learning Analytics for Total Brain Diagnostics Project 🆕
+## 🟠 Changed: Pax Silica Artificial Intelligence Assistance Project 🆕
 
 - Severity: **high**
 - Status: **changed**
 - qualification gate · authority analytical · hold
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/c5583f99bec74dcd824cc37e8926512c/view)
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363596)
 - [Open supporting view](intelligence-changes.md)
 
-## 🟠 Changed: ATEC HQ 003 - AI Assurance & Autonomous System Validation
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/a7ce960566e242bbbf871a3e2fab3453/view)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: English Language Exchange Programs: AI and Educational Technology Integration 🆕
-
-- Severity: **high**
-- Status: **changed**
-- opportunity status · authority authoritative · closed
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363105)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: NSN: 6665-01-415-4957 Sensor Assembly 🆕
-
-- Severity: **high**
-- Status: **changed**
-- opportunity status · authority authoritative · closed
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/96502443e7d34631856ecc6d718180b6/view)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: Power Sensor Check Standard 🆕
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system 🆕
+## 🟠 Changed: Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system
 
 - Severity: **high**
 - Status: **changed**
@@ -167,19 +120,59 @@ _Updated 2026-08-16 00:58 UTC_
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/f34d767fd1684bf3a8e2c3c0f17e9959/view)
 - [Open supporting view](intelligence-changes.md)
 
+## 🟠 Changed: Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator 🆕
+
+- Severity: **high**
+- Status: **changed**
+- qualification gate · authority analytical · hold
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363319)
+- [Open supporting view](intelligence-changes.md)
+
+## 🟠 Changed: U.S-Nigeria Creative, Digital, & Innovation Economy Initiative 🆕
+
+- Severity: **high**
+- Status: **changed**
+- qualification gate · authority analytical · hold
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363269)
+- [Open supporting view](intelligence-changes.md)
+
+## 🟠 Changed: U.S.-Argentina Alumni Summit 🆕
+
+- Severity: **high**
+- Status: **changed**
+- qualification gate · authority analytical · hold
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363320)
+- [Open supporting view](intelligence-changes.md)
+
+## 🟠 Federal opportunity closing soon: 15--PANEL,STRUCTURAL,AI
+
+- Severity: **high**
+- Status: **closing-soon**
+- 3 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://sam.gov/workspace/contract/opp/e167abdf96e74cb48727525b8fbf0bb1/view)
+- [Open supporting view](federal-funding.md)
+
 ## 🟠 Federal opportunity closing soon: 15--PLATE,STRUCTURAL,AI
 
 - Severity: **high**
 - Status: **closing-soon**
-- 1 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- 0 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view)
+- [Open supporting view](federal-funding.md)
+
+## 🟠 Federal opportunity closing soon: 15--PLATE,STRUCTURAL,AI
+
+- Severity: **high**
+- Status: **closing-soon**
+- 3 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://sam.gov/workspace/contract/opp/a9120fedc53c4e2f8a1a2a5b6322b185/view)
 - [Open supporting view](federal-funding.md)
 
 ## 🟠 Federal opportunity closing soon: 16--MODIFICATION KIT,AI
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view)
 - [Open supporting view](federal-funding.md)
 
@@ -187,7 +180,7 @@ _Updated 2026-08-16 00:58 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 1 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- 0 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/e517e60215054acd9a4504fdfd7145a2/view)
 - [Open supporting view](federal-funding.md)
 
@@ -195,7 +188,7 @@ _Updated 2026-08-16 00:58 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/b362ba053a6c4581a208828b2c12d401/view)
 - [Open supporting view](federal-funding.md)
 
@@ -203,7 +196,7 @@ _Updated 2026-08-16 00:58 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 2 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- 1 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view)
 - [Open supporting view](federal-funding.md)
 
@@ -211,7 +204,7 @@ _Updated 2026-08-16 00:58 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view)
 - [Open supporting view](federal-funding.md)
 
@@ -219,7 +212,7 @@ _Updated 2026-08-16 00:58 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view)
 - [Open supporting view](federal-funding.md)
 
@@ -227,7 +220,7 @@ _Updated 2026-08-16 00:58 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 1 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- 0 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/c5583f99bec74dcd824cc37e8926512c/view)
 - [Open supporting view](federal-funding.md)
 
@@ -235,7 +228,7 @@ _Updated 2026-08-16 00:58 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/b1140aa605ee4f2bb775dfbfe42589f6/view)
 - [Open supporting view](federal-funding.md)
 
@@ -243,23 +236,55 @@ _Updated 2026-08-16 00:58 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 38 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 38 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/a7ce960566e242bbbf871a3e2fab3453/view)
+- [Open supporting view](federal-funding.md)
+
+## 🟠 Federal opportunity closing soon: CyberNext: Advance Cybersecurity and AI Readiness
+
+- Severity: **high**
+- Status: **closing-soon**
+- 3 day(s) remain · radar score 40 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363249)
+- [Open supporting view](federal-funding.md)
+
+## 🟠 Federal opportunity closing soon: GameON – U.S.-Albania E-Sports and Innovation
+
+- Severity: **high**
+- Status: **closing-soon**
+- 3 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363247)
 - [Open supporting view](federal-funding.md)
 
 ## 🟠 Federal opportunity closing soon: Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech​
 
 - Severity: **high**
 - Status: **closing-soon**
-- 1 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- 0 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/aeac410f5c844f4885353c70e0367dcb/view)
+- [Open supporting view](federal-funding.md)
+
+## 🟠 Federal opportunity closing soon: NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder
+
+- Severity: **high**
+- Status: **closing-soon**
+- 3 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://sam.gov/workspace/contract/opp/93064bc210294f239f395b372899ceab/view)
+- [Open supporting view](federal-funding.md)
+
+## 🟠 Federal opportunity closing soon: Pax Silica Artificial Intelligence Assistance Project
+
+- Severity: **high**
+- Status: **closing-soon**
+- 3 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363596)
 - [Open supporting view](federal-funding.md)
 
 ## 🟠 Federal opportunity closing soon: Power Sensor Check Standard
 
 - Severity: **high**
 - Status: **closing-soon**
-- 2 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- 1 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view)
 - [Open supporting view](federal-funding.md)
 
@@ -267,9 +292,41 @@ _Updated 2026-08-16 00:58 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 1 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
+- 0 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/f34d767fd1684bf3a8e2c3c0f17e9959/view)
 - [Open supporting view](federal-funding.md)
+
+## 🟠 Federal opportunity closing soon: Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator 🆕
+
+- Severity: **high**
+- Status: **closing-soon**
+- 3 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363319)
+- [Open supporting view](federal-funding.md)
+
+## 🟠 Federal opportunity closing soon: U.S-Nigeria Creative, Digital, & Innovation Economy Initiative 🆕
+
+- Severity: **high**
+- Status: **closing-soon**
+- 3 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363269)
+- [Open supporting view](federal-funding.md)
+
+## 🟠 Federal opportunity closing soon: U.S.-Argentina Alumni Summit 🆕
+
+- Severity: **high**
+- Status: **closing-soon**
+- 3 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363320)
+- [Open supporting view](federal-funding.md)
+
+## 🟠 Procurement amendment impact: Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system 🆕
+
+- Severity: **high**
+- Status: **decision-revalidation-required**
+- New submission evidence was observed. New requirement evidence was observed. Prior qualification and bid/no-bid assumptions require analyst revalidation; no analyst decision was changed automatically.
+- [Open direct evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download)
+- [Open supporting view](procurement-intelligence.md)
 
 ## 🟠 Rising momentum: AI Security
 
@@ -289,104 +346,47 @@ _Updated 2026-08-16 00:58 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.5% reliability with 2 warning day(s).
+- 🟠 93.8% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: Quantum Computing Patents 🆕
+## 🟠 Source degraded: IACR ePrint 🆕
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 90.5% reliability with 1 warning day(s).
+- 🟠 96.9% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Source degraded: Quantum Computing Patents
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 90.9% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Networking and Sensing Patents
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 90.5% reliability with 1 warning day(s).
+- 🟠 90.9% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Source degraded: SAM.gov Opportunities 🆕
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 87.5% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv PQC and Quantum-Safe Cryptography
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 86.7% reliability with 2 warning day(s).
+- 🟠 87.5% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv Quantum Computing
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 86.7% reliability with 2 warning day(s).
+- 🟠 87.5% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
-
-## 🟠 Source degraded: arXiv Quantum Networking and Sensing
-
-- Severity: **high**
-- Status: **degraded**
-- 🟠 86.7% reliability with 2 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟡 Federal opportunity closing soon: 15--PANEL,STRUCTURAL,AI
-
-- Severity: **medium**
-- Status: **closing-soon**
-- 4 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/e167abdf96e74cb48727525b8fbf0bb1/view)
-- [Open supporting view](federal-funding.md)
-
-## 🟡 Federal opportunity closing soon: 15--PANEL,STRUCTURAL,AI
-
-- Severity: **medium**
-- Status: **closing-soon**
-- 5 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view)
-- [Open supporting view](federal-funding.md)
-
-## 🟡 Federal opportunity closing soon: 15--PLATE,STRUCTURAL,AI
-
-- Severity: **medium**
-- Status: **closing-soon**
-- 4 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/a9120fedc53c4e2f8a1a2a5b6322b185/view)
-- [Open supporting view](federal-funding.md)
-
-## 🟡 Federal opportunity closing soon: CyberNext: Advance Cybersecurity and AI Readiness
-
-- Severity: **medium**
-- Status: **closing-soon**
-- 4 day(s) remain · radar score 40 · Review requirements and make a bid/no-bid decision immediately.
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363249)
-- [Open supporting view](federal-funding.md)
-
-## 🟡 Federal opportunity closing soon: GameON – U.S.-Albania E-Sports and Innovation
-
-- Severity: **medium**
-- Status: **closing-soon**
-- 4 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363247)
-- [Open supporting view](federal-funding.md)
-
-## 🟡 Federal opportunity closing soon: KEYSIGHT N8487A POWER SENSOR 🆕
-
-- Severity: **medium**
-- Status: **closing-soon**
-- 5 day(s) remain · radar score 37 · Review requirements and make a bid/no-bid decision immediately.
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/10d5c382557249708dd444771cfc5753/view)
-- [Open supporting view](federal-funding.md)
-
-## 🟡 Federal opportunity closing soon: NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder
-
-- Severity: **medium**
-- Status: **closing-soon**
-- 4 day(s) remain · radar score 32 · Review requirements and make a bid/no-bid decision immediately.
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/93064bc210294f239f395b372899ceab/view)
-- [Open supporting view](federal-funding.md)
-
-## 🟡 Federal opportunity closing soon: Pax Silica Artificial Intelligence Assistance Project
-
-- Severity: **medium**
-- Status: **closing-soon**
-- 4 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363596)
-- [Open supporting view](federal-funding.md)
