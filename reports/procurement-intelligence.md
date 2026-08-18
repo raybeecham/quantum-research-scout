@@ -2,82 +2,60 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-17T00:51:32.831772+00:00_
+_Updated 2026-08-18T00:49:54.498894+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
 - Opportunities reviewed: **20**
-- Documents extracted: **9** / **38** discovered
+- Documents extracted: **9** / **40** discovered
 - Changed documents: **0**
 - New amendments: **0**
-- Material amendment impacts this run: **1**
-- Decisions requiring revalidation: **3**
+- Material amendment impacts this run: **0**
+- Decisions requiring revalidation: **2**
 
-## [16--WHEEL HALF ASSEMBLY,AI](https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view)
+## [High-Performance Quantum Scalar Magnetometers](https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view)
 
-Evidence completeness: **0 / 100** · Deadline: **2026-08-24**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e851ec4b47fd44368f4f76b3e9aedd61) — no_text
-
-## [15--WINDSHIELD PANEL,AI](https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-24**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3113f3aafa0944639a0568e561195081) — no_text
-
-## [Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system](https://sam.gov/workspace/contract/opp/f34d767fd1684bf3a8e2c3c0f17e9959/view)
-
-Evidence completeness: **84 / 100** · Deadline: **2026-08-17T16:00:00-04:00**
+Evidence completeness: **96 / 100** · Deadline: **2026-08-24T10:00:00-06:00**
 
 Requirements evidence:
-- to this RFQ will be evaluated on the basis of Lowest Price Technically Acceptable (LPTA). Quoters submitting a response must provide a completed Price Quote to be evaluated and considered for award. Price quotes must indicate fixed unit pricing and total cost, including shipping cost and estimated...
-- oters submitting a response must provide a completed Price Quote to be evaluated and considered for award. Price quotes must indicate fixed unit pricing and total cost, including shipping cost and estimated time of delivery after receipt of order, and warranty and training considerations. Responses...
-- ntractor’s ability to meet the government’s minimum requirements stated in this notice and on 2) ability to deliver the required items on a FOB Destination basis within the period of performance/lead time specified in the Statement of Work document. Responses to this solicitation must include clear...
-- within the period of performance/lead time specified in the Statement of Work document. Responses to this solicitation must include clear and convincing evidence of the Quoters’ capability of fulfilling the requirement as it relates to the essential government requirements stated in this solicitati...
-- ng factors to determine if, as submitted, the quotation is technically acceptable. (1) Technical Capability: The Quoter must indicate in its quotation the ability to provide all minimum requirements identified in the Requirements document. (2) Schedule: The Quoter must indicate in its quotation the...
+- | Solicitation FA700026Q0063 Page 2 of 3 CLIN Description Qty Unit 0001 High-Performance Quantum Scalar Magnetometers (Must meet all minimum physical and performance requirements outlined in Attachment 02 — Salient Characteristics) 4 Each 3. Evaluation Criteria The Government intends to award a fir...
+- ificantly more important than price. 4. Instructions to Offerors • Questions: All questions regarding this solicitation must be submitted in writing via email to [Insert Contracting Officer Email] and [Insert Contract Specialist Email] no later than 20 August 2026 at 10:00 AM MDT. • Quote Deadline:...
+- er Email] and [Insert Contract Specialist Email] no later than 20 August 2026 at 10:00 AM MDT. • Quote Deadline: Quotes must be received no later than 24 August 2026 at 10:00 AM MDT. • Quote Validity: Offerors must state in their submission that their quote remains valid until 30 September 2026. •...
+- MDT. • Quote Deadline: Quotes must be received no later than 24 August 2026 at 10:00 AM MDT. • Quote Validity: Offerors must state in their submission that their quote remains valid until 30 September 2026. • Buy American Certificate: Offerors MUST complete and return “Attachment 03 — Buy American...
+- state in their submission that their quote remains valid until 30 September 2026. • Buy American Certificate: Offerors MUST complete and return “Attachment 03 — Buy American Certificate” with their quote submission. Failure to return the completed certificate may render the quote non-responsive. US...
 
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/305043137d834233b10c2ac17edf1c47/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a1564968b76d40b3b3abd9af8deab25d/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c9e039d2a444f6fa525d4b24ef517e8/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/58039c0f631e4cae8a30d940d37022bf/download) — not_fetched
 
-### Changes since the previous tracker snapshot
+## [66--SENSOR,LIQUID FLOW](https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view)
 
-**HIGH · 10 change(s) · decision revalidation required**
+Evidence completeness: **0 / 100** · Deadline: **2026-08-25**
 
-_Version history is tracker-observed and may not include revisions published before monitoring began._
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9e75681b5bb5424389ad629ec4764b79) — not_fetched
 
-| Impact | Change | Before | After | Evidence |
-|---|---|---|---|---|
-| HIGH | New submission evidence was observed. | — | a near building 301 Equipment Safety Requirements: Contractor equipment on the NIST campus may not be left in emergency... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
-| HIGH | New requirement evidence was observed. | — | le, i.e. controls and status information are directed through a network. Place of Performance: The Place of Performance... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
-| HIGH | New requirement evidence was observed. | — | e: The Place of Performance shall be the contractor’s place of business. Period of Performance/Delivery Period Delivery... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
-| HIGH | New requirement evidence was observed. | — | scription: Quantum Network pluggable 4-channel SNSPDs. Quantity: One (1) A. Technical Specifications: a. The Contractor... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
-| HIGH | New requirement evidence was observed. | — | ing nanowire single-photon detector system (SNSPDs) that meets all technical specifications identified below. All items... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
-| HIGH | New requirement evidence was observed. | — | uantum network traffic and make available valuable quantum network telemetry data for researchers and users. The system... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
-| HIGH | New requirement evidence was observed. | — | e use of “gray market” components not authorized for sale in the U.S. by the proposer is not acceptable. The Contractor... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
-| HIGH | New requirement evidence was observed. | — | ery Period Delivery shall occur within 20 weeks after receipt of award (ARO). III. SPECIFIC REQUIREMENTS The Contractor... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
-| HIGH | New requirement evidence was observed. | — | SNSPD) system will assist current NIST research in the development of quantum network science and metrology. The system... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
-| MEDIUM | New deliverable evidence was observed. | — | directed through a network. Place of Performance: The Place of Performance shall be the contractor’s place of business.... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download) |
+## [AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)](https://sam.gov/workspace/contract/opp/ff9d55d6a268428081b54dc02f5bf2c1/view)
 
-## [Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech​](https://sam.gov/workspace/contract/opp/aeac410f5c844f4885353c70e0367dcb/view)
+Evidence completeness: **0 / 100** · Deadline: **2026-08-26T10:00:00-04:00**
 
-Evidence completeness: **0 / 100** · Deadline: **2026-08-17T17:00:00-04:00**
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/86303141e08c4838a658b3e4e19bc393/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d307dbcbe6a743de999beacdac0a839a/download) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ff9d55d6a268428081b54dc02f5bf2c1) — not_fetched
 
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1d6f6b965f7a4582b7797edec04cc8ac/download) — not_fetched
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=aeac410f5c844f4885353c70e0367dcb) — not_fetched
+## [Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)](https://sam.gov/workspace/contract/opp/b1f26e7ded2643d2835947cc08cb56fe/view)
 
-## [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view)
+Evidence completeness: **0 / 100** · Deadline: **2026-08-28T10:00:00-04:00**
 
-Evidence completeness: **0 / 100** · Deadline: **2026-08-17**
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b6844979abcd4017bb578d76c99602c8/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/efdd6863d9544a0d9759777fcfcb8938/download) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b1f26e7ded2643d2835947cc08cb56fe) — not_fetched
 
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=09fe7a517f284b6b893fba0df8b92de6) — not_fetched
+## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view)
 
-## [29--SENSOR,AIR CHARGED](https://sam.gov/workspace/contract/opp/e517e60215054acd9a4504fdfd7145a2/view)
+Evidence completeness: **0 / 100** · Deadline: **2026-08-21**
 
-Evidence completeness: **0 / 100** · Deadline: **2026-08-17**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e517e60215054acd9a4504fdfd7145a2) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0b0acdbbd7640858dec2985c5d76c54) — not_fetched
 
 ## [6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment](https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view)
 
@@ -169,16 +147,6 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download) — extracted
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=abf380cc0c634612a69ce193a212fbd4) — no_text
 
-## [AN12--Machine Learning Analytics for Total Brain Diagnostics Project](https://sam.gov/workspace/contract/opp/c5583f99bec74dcd824cc37e8926512c/view)
-
-Evidence completeness: **48 / 100** · Deadline: **2026-08-17T12:00:00-04:00**
-
-Requirements evidence:
-- e is 541720 with a $28 MIL size standard. The PSC is AN12. The authority for this action is RFO 6. 103 .5 Authorized or Required by Statute. Interested persons may contact the Contracting Officer via email at annmarie.stewart@va.gov regarding this procurement. The determination to conduct a competi...
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/81a3cfc9eb0c446b8e725e3a2b1a937e/download) — extracted
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c5583f99bec74dcd824cc37e8926512c) — no_text
-
 ## [ATEC HQ 003 - AI Assurance & Autonomous System Validation](https://sam.gov/workspace/contract/opp/a7ce960566e242bbbf871a3e2fab3453/view)
 
 Evidence completeness: **84 / 100** · Deadline: **2026-08-19T15:00:00-04:00**
@@ -200,6 +168,18 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-21T15:00:00-07:00**
 
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/51add446f08c4b9495dee91977852ab4/download) — failed
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=10d5c382557249708dd444771cfc5753) — no_text
+
+## [16--WHEEL HALF ASSEMBLY,AI](https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-24**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e851ec4b47fd44368f4f76b3e9aedd61) — no_text
+
+## [15--WINDSHIELD PANEL,AI](https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-24**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3113f3aafa0944639a0568e561195081) — no_text
 
 ## Method
 

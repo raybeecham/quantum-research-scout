@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-08-17 00:57 UTC_
+_Updated 2026-08-18 00:59 UTC_
 
 ## Organizations
 
@@ -18,10 +18,10 @@ _Updated 2026-08-17 00:57 UTC_
 | QuEra | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-07-22 | 2026-08-12 | 10 | 8 |
 | QuSecure | ↗️ rising (2 vs 0) | 🟠 high | active | 2025-07-19 | 2026-08-11 | 9 | 4 |
 | PsiQuantum | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-02-26 | 2026-07-22 | 8 | 8 |
-| Cloudflare | ➡️ stable (2 vs 2) | 🟠 high | active | 2026-06-23 | 2026-08-11 | 7 | 0 |
+| Cloudflare | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-06-23 | 2026-08-11 | 7 | 0 |
+| Cisco | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-07-27 | 2026-08-17 | 6 | 0 |
 | Quantinuum | ↗️ rising (2 vs 1) | 🟠 high | active | 2026-06-22 | 2026-08-12 | 6 | 0 |
 | Accenture / Accenture Federal Services | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-01-02 | 2026-01-02 | 5 | 5 |
-| Cisco | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-07-27 | 2026-08-10 | 5 | 0 |
 | Quantum Computing Inc. (QCi) | ➡️ stable (0 vs 0) | 🟠 high | documented | Unknown | Unknown | 4 | 4 |
 | Wiz | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-01-08 | 2026-07-02 | 4 | 4 |
 | D-Wave | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-06-30 | 2026-08-05 | 3 | 0 |
@@ -34,12 +34,12 @@ _Updated 2026-08-17 00:57 UTC_
 | Thales | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2026-08-04 | 2026-08-05 | 2 | 0 |
 | ANSSI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-23 | 2026-06-23 | 1 | 0 |
 | Atom Computing | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-16 | 2026-06-16 | 1 | 1 |
-| DigiCert | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-08-03 | 2026-08-03 | 1 | 0 |
+| DigiCert | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-08-03 | 2026-08-03 | 1 | 0 |
 | ETSI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-22 | 2026-06-22 | 1 | 1 |
 | Google Quantum AI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-27 | 2026-06-27 | 1 | 0 |
 | Open Quantum Safe | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-27 | 2026-07-27 | 1 | 0 |
-| Infleqtion | ↗️ rising (5 vs 1) | 🟡 medium | active | 2026-06-22 | 2026-08-13 | 17 | 0 |
-| Pasqal | ↗️ rising (2 vs 1) | 🟡 medium | active | 2026-06-29 | 2026-08-10 | 12 | 0 |
+| Infleqtion | ➡️ stable (3 vs 3) | 🟡 medium | active | 2026-06-22 | 2026-08-13 | 17 | 0 |
+| Pasqal | ↘️ declining (0 vs 3) | 🟡 medium | active | 2026-06-29 | 2026-08-10 | 12 | 0 |
 | AWS | ➡️ stable (0 vs 0) | 🟡 medium | quiet | 2026-06-24 | 2026-07-20 | 4 | 0 |
 | Rigetti | ↘️ declining (0 vs 1) | 🟡 medium | quiet | 2026-07-29 | 2026-08-08 | 2 | 0 |
 
@@ -49,12 +49,12 @@ _Updated 2026-08-17 00:57 UTC_
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| Crypto-agility | ↘️ declining (0 vs 1) | 🔴 critical | quiet | 2025-08-06 | 2026-08-03 | 32 | 23 |
+| Crypto-agility | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2025-08-06 | 2026-08-03 | 32 | 23 |
 | Quantum error correction | ➡️ stable (2 vs 2) | 🔴 critical | active | 2026-06-23 | 2026-08-12 | 22 | 0 |
 | Logical qubits | ↘️ declining (1 vs 2) | 🔴 critical | active | 2025-09-10 | 2026-08-15 | 16 | 3 |
 | ML-DSA | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2026-06-29 | 2026-07-23 | 2 | 0 |
 | Quantum key distribution | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-29 | 2026-07-23 | 9 | 1 |
-| Quantum networking | ↗️ rising (2 vs 1) | 🟠 high | active | 2026-07-07 | 2026-08-11 | 6 | 1 |
+| Quantum networking | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-07-07 | 2026-08-11 | 6 | 1 |
 | Quantum sensing | ➡️ stable (1 vs 1) | 🟡 medium | active | 2026-06-24 | 2026-08-14 | 14 | 1 |
 
 **Configured, awaiting evidence (4):** CNSA 2.0, ML-KEM, Hybrid TLS, SLH-DSA
@@ -77,7 +77,7 @@ _Updated 2026-08-17 00:57 UTC_
 | BSI Germany | covered | 1 | 0 |
 | Booz Allen Hamilton | covered | 1 | 2 |
 | CISA | covered | 1 | 0 |
-| Cisco | covered | 1 | 5 |
+| Cisco | covered | 1 | 6 |
 | Cloudflare | covered | 2 | 7 |
 | Deloitte | covered | 1 | 2 |
 | DigiCert | covered | 1 | 1 |

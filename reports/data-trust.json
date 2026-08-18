@@ -1,20 +1,65 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 26.5,
+      "acceptance_rate": 26.2,
       "accepted": 27,
-      "quarantined": 75,
+      "quarantined": 76,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 94.9,
-      "accepted": 468,
-      "quarantined": 25,
+      "acceptance_rate": 94.6,
+      "accepted": 476,
+      "quarantined": 27,
       "scope": "Federal funding"
     }
   ],
   "method_note": "Quarantine is not a finding that evidence is false or irrelevant. It means the current evidence is too weak for automated promotion and remains available for review.",
   "quarantined_evidence": [
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-17",
+      "key": "https://www.grants.gov/search-results-detail/363628",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "FY25 and FY26 Advanced Digital Construction Management Systems (ADCMS)",
+      "url": "https://www.grants.gov/search-results-detail/363628"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-17",
+      "key": "grants_gov:FHWA-ADCM-26-001",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "funding evidence admission",
+      "title": "FY25 and FY26 Advanced Digital Construction Management Systems (ADCMS)",
+      "url": "https://www.grants.gov/search-results-detail/363628"
+    },
     {
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
@@ -1765,6 +1810,28 @@
     },
     {
       "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2024-07-23",
+      "key": "grants_gov:ESP24NOFODEFENSAYYO5",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "funding evidence admission",
+      "title": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
+      "url": "https://www.grants.gov/search-results-detail/355385"
+    },
+    {
+      "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
         "matched_alias": "Project Triad",
@@ -2220,91 +2287,22 @@
       "stage": "mission evidence admission",
       "title": "AFCP 2020 Small Grants Competition",
       "url": "https://www.grants.gov/search-results-detail/322814"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Genesis Mission",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2019-07-29",
-      "key": "https://www.grants.gov/search-results-detail/318918",
-      "mission_id": "genesis-mission",
-      "mission_name": "Genesis Mission",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "mission evidence admission",
-      "title": "National Space Grant College and Fellowship Program - Opportunities in NASA STEM FY 2020 \u2013 2024",
-      "url": "https://www.grants.gov/search-results-detail/318918"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Genesis Mission",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2019-07-11",
-      "key": "https://www.usaspending.gov/award/ASST_NON_80NSSC19K0933_080",
-      "mission_id": "genesis-mission",
-      "mission_name": "Genesis Mission",
-      "scope": "Federal missions",
-      "source": "USAspending \u00b7 Genesis Mission",
-      "stage": "mission evidence admission",
-      "title": "BEING CHEMICALLY INERT NOBLE GASES ARE BEST TRACERS FOR UNVEILING THE ORIGIN AND CHRONOLOGY OF PLANETARY OBJECTS. NOBLE GAS ISOTOPES CAN BE TRAPPED AND/OR PRODUCED IN-SITU THE DIS...",
-      "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC19K0933_080"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Project Triad",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2010-11-01",
-      "key": "https://www.grants.gov/search-results-detail/58617",
-      "mission_id": "project-triad",
-      "mission_name": "Project Triad",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "mission evidence admission",
-      "title": "State Veterans Home Construction Grant Program",
-      "url": "https://www.grants.gov/search-results-detail/58617"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 100,
+      "count": 103,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 100,
+      "count": 103,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 95,
+      "count": 98,
       "label": "Official government source"
     },
     {
@@ -2315,14 +2313,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 83.2,
-    "accepted": 495,
-    "decisions": 595,
-    "funding_quarantine": 25,
-    "mission_quarantine": 75,
-    "quarantined": 100,
+    "acceptance_rate": 83.0,
+    "accepted": 503,
+    "decisions": 606,
+    "funding_quarantine": 27,
+    "mission_quarantine": 76,
+    "quarantined": 103,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-17T00:51:32.831772+00:00",
+  "updated_at": "2026-08-18T00:49:54.498894+00:00",
   "version": 1
 }

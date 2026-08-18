@@ -215,8 +215,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 5,
-      "first_party_evidence_count": 4,
+      "evidence_count": 6,
+      "first_party_evidence_count": 5,
       "name": "Cisco",
       "priority": "high",
       "status": "covered",
@@ -2945,16 +2945,112 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-11",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Cloudflare",
       "prior_count": 2,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "AI Security",
         "PQC / Crypto Agility",
         "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Cisco Systems"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 6,
+      "evidence": [
+        {
+          "date": "2026-08-17",
+          "key": "https://blogs.cisco.com/developer/the-great-certificate-size-explosion-ipsec-series-part-7",
+          "report": "2026-08/2026-08-17-digest.md",
+          "score": 42,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The Great Certificate Size Explosion \u2013 IPsec Series, Part 7",
+          "url": "https://blogs.cisco.com/developer/the-great-certificate-size-explosion-ipsec-series-part-7"
+        },
+        {
+          "date": "2026-08-10",
+          "key": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6",
+          "report": "2026-08/2026-08-10-digest.md",
+          "score": 194,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Who Goes There? Post-Quantum Authentication \u2013 IPsec Series, Part 6",
+          "url": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 42,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Quantum Computing: What IT and Business Leaders Need to Know",
+          "url": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 88,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "A Different Road to Quantum Safety: The PPK \u2013 IPsec Series, Part 5",
+          "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 25,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Cisco Routers Now Run Quantum Encryption via Live eQKD Network",
+          "url": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption"
+        },
+        {
+          "date": "2026-07-27",
+          "key": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4",
+          "report": "2026-07/2026-07-27-digest.md",
+          "score": 130,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
+          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
+        }
+      ],
+      "evidence_count": 6,
+      "first_seen": "2026-07-27",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-08-17",
+      "momentum": "declining",
+      "name": "Cisco",
+      "prior_count": 2,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Networking"
       ],
       "type": "company"
     },
@@ -3200,90 +3296,6 @@
         "Standards / Government"
       ],
       "type": "consulting"
-    },
-    {
-      "aliases": [
-        "Cisco Systems"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 5,
-      "evidence": [
-        {
-          "date": "2026-08-10",
-          "key": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6",
-          "report": "2026-08/2026-08-10-digest.md",
-          "score": 194,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Who Goes There? Post-Quantum Authentication \u2013 IPsec Series, Part 6",
-          "url": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 42,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Quantum Computing: What IT and Business Leaders Need to Know",
-          "url": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know"
-        },
-        {
-          "date": "2026-08-03",
-          "key": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5",
-          "report": "2026-08/2026-08-03-digest.md",
-          "score": 88,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "A Different Road to Quantum Safety: The PPK \u2013 IPsec Series, Part 5",
-          "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
-        },
-        {
-          "date": "2026-07-31",
-          "key": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 25,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "Cisco Routers Now Run Quantum Encryption via Live eQKD Network",
-          "url": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption"
-        },
-        {
-          "date": "2026-07-27",
-          "key": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4",
-          "report": "2026-07/2026-07-27-digest.md",
-          "score": 130,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
-          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
-        }
-      ],
-      "evidence_count": 5,
-      "first_seen": "2026-07-27",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-08-10",
-      "momentum": "declining",
-      "name": "Cisco",
-      "prior_count": 2,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility",
-        "Quantum Networking"
-      ],
-      "type": "company"
     },
     {
       "aliases": [
@@ -4064,9 +4076,9 @@
       "first_seen": "2026-08-03",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-03",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "DigiCert",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -4410,11 +4422,11 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-13",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Infleqtion",
-      "prior_count": 1,
+      "prior_count": 3,
       "priority": "medium",
-      "recent_count": 5,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -4577,11 +4589,11 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-10",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Pasqal",
-      "prior_count": 1,
+      "prior_count": 3,
       "priority": "medium",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "Quantum Hardware"
@@ -5383,9 +5395,9 @@
       "first_seen": "2025-08-06",
       "historical_evidence_count": 23,
       "latest_seen": "2026-08-03",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Crypto-agility",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "critical",
       "recent_count": 0,
       "status": "quiet",
@@ -6232,11 +6244,11 @@
       "first_seen": "2026-07-07",
       "historical_evidence_count": 1,
       "latest_seen": "2026-08-11",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Quantum networking",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -6598,6 +6610,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-17T00:57:02.784323+00:00",
+  "updated_at": "2026-08-18T00:59:24.935774+00:00",
   "version": 2
 }

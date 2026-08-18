@@ -1,28 +1,42 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-17T00:51:32.831772+00:00_
+_Updated 2026-08-18T00:49:54.498894+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **495**
-- Quarantined evidence or relationships: **100**
-- Acceptance rate: **83.2%**
+- Accepted evidence: **503**
+- Quarantined evidence or relationships: **103**
+- Acceptance rate: **83.0%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 27 | 75 | 26.5% |
-| Federal funding | 468 | 25 | 94.9% |
+| Federal missions | 27 | 76 | 26.2% |
+| Federal funding | 476 | 27 | 94.6% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 100
-- **No relevant term in the evidence itself**: 100
-- **Official government source**: 95
+- **Match appears only in collector query metadata**: 103
+- **No relevant term in the evidence itself**: 103
+- **Official government source**: 98
 - **Source is not an official .gov or .mil domain**: 5
 
 ## Quarantined Evidence
+
+### [FY25 and FY26 Advanced Digital Construction Management Systems (ADCMS)](https://www.grants.gov/search-results-detail/363628)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [FY25 and FY26 Advanced Digital Construction Management Systems (ADCMS)](https://www.grants.gov/search-results-detail/363628)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [Qtonic Quantum names Horst to shape post-quantum market choices](https://quantumzeitgeist.com/qtonic-quantum-post-market-choices-names)
 
@@ -563,6 +577,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
+### [Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025](https://www.grants.gov/search-results-detail/355385)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
 ### [Alumni Engagement Innovation Fund 2024](https://www.grants.gov/search-results-detail/350831)
 
 - Scope: Federal missions
@@ -697,27 +718,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [AFCP 2020 Small Grants Competition](https://www.grants.gov/search-results-detail/322814)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [National Space Grant College and Fellowship Program - Opportunities in NASA STEM FY 2020 – 2024](https://www.grants.gov/search-results-detail/318918)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [BEING CHEMICALLY INERT NOBLE GASES ARE BEST TRACERS FOR UNVEILING THE ORIGIN AND CHRONOLOGY OF PLANETARY OBJECTS. NOBLE GAS ISOTOPES CAN BE TRAPPED AND/OR PRODUCED IN-SITU THE DIS...](https://www.usaspending.gov/award/ASST_NON_80NSSC19K0933_080)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [State Veterans Home Construction Grant Program](https://www.grants.gov/search-results-detail/58617)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
