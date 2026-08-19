@@ -3,6 +3,22 @@
     {
       "authority": "authoritative",
       "claim_ids": [
+        "claim-34cfef97d8eb2c07",
+        "claim-c36800116c64b330"
+      ],
+      "conflict_id": "conflict-0818c6b30732b654",
+      "predicate": "deadline",
+      "reason": "Equally authoritative sources assert different values; recency alone does not silently resolve cross-source disagreement",
+      "subject_label": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+      "subject_node_id": "opportunity:sam_gov:ATEC_RIW26_003",
+      "values": [
+        "2026-08-19t15:00:00-04:00",
+        "2026-08-21t16:30:00-04:00"
+      ]
+    },
+    {
+      "authority": "authoritative",
+      "claim_ids": [
         "claim-5c2ffe6ef88b0ae7",
         "claim-99ea4077f8d50279"
       ],
@@ -101,11 +117,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-67815e76b393ec63",
+      "claim_id": "claim-0d59db4b66518cff",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -113,17 +129,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3ad01c6c7eb3154c",
+          "evidence_id": "evidence-8d4c720718a15485",
           "locator": "opportunity_status:awarded",
-          "title": "66--SENSOR,SALINITY",
-          "url": "https://sam.gov/workspace/contract/opp/c96fbda1954c48479d68efc5934d2255/view",
+          "title": "15--PLATE,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/9d2c776322a545f9aa9073e271c00090/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A626RXA64",
-        "label": "66--SENSOR,SALINITY",
-        "node_id": "award_notice:sam_gov:SPE4A626RXA64",
+        "identifier": "sam_gov:SPE4A726T3918",
+        "label": "15--PLATE,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T3918",
         "node_type": "award_notice"
       },
       "value": "awarded"
@@ -131,11 +147,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-81a0596f0b5f714e",
+      "claim_id": "claim-d71d6bfb1839f76f",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -143,17 +159,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-21205526a981df20",
+          "evidence_id": "evidence-2941964712975da1",
           "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
-          "title": "66--SENSOR,SALINITY",
-          "url": "https://sam.gov/workspace/contract/opp/c96fbda1954c48479d68efc5934d2255/view",
+          "title": "15--PLATE,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/9d2c776322a545f9aa9073e271c00090/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A626RXA64",
-        "label": "66--SENSOR,SALINITY",
-        "node_id": "award_notice:sam_gov:SPE4A626RXA64",
+        "identifier": "sam_gov:SPE4A726T3918",
+        "label": "15--PLATE,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T3918",
         "node_type": "award_notice"
       },
       "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
@@ -161,11 +177,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-69f1d6d94fc06b3a",
+      "claim_id": "claim-5a932574ccda3b21",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -173,33 +189,33 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5185fdf01a0b1019",
-          "locator": "reported_amount:4420872.12",
-          "title": "66--SENSOR,SALINITY",
-          "url": "https://sam.gov/workspace/contract/opp/c96fbda1954c48479d68efc5934d2255/view",
+          "evidence_id": "evidence-c42f593d15913373",
+          "locator": "reported_amount:44910.0",
+          "title": "15--PLATE,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/9d2c776322a545f9aa9073e271c00090/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A626RXA64",
-        "label": "66--SENSOR,SALINITY",
-        "node_id": "award_notice:sam_gov:SPE4A626RXA64",
+        "identifier": "sam_gov:SPE4A726T3918",
+        "label": "15--PLATE,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T3918",
         "node_type": "award_notice"
       },
-      "value": 4420872.12
+      "value": 44910.0
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-79ff9c816be26d07",
+      "claim_id": "claim-10c3e5f39130ff78",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": {
-        "identifier": "name:marine electric systems",
-        "label": "MARINE ELECTRIC SYSTEMS INC",
-        "node_id": "recipient_or_contractor:name:marine electric systems",
+        "identifier": "name:d j engineering",
+        "label": "D-J ENGINEERING INC",
+        "node_id": "recipient_or_contractor:name:d j engineering",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -208,17 +224,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3f262023136a80a2",
-          "locator": "reported_recipient:recipient_or_contractor:name:marine electric systems",
-          "title": "66--SENSOR,SALINITY",
-          "url": "https://sam.gov/workspace/contract/opp/c96fbda1954c48479d68efc5934d2255/view",
+          "evidence_id": "evidence-98f09af0d2f57c5d",
+          "locator": "reported_recipient:recipient_or_contractor:name:d j engineering",
+          "title": "15--PLATE,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/9d2c776322a545f9aa9073e271c00090/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A626RXA64",
-        "label": "66--SENSOR,SALINITY",
-        "node_id": "award_notice:sam_gov:SPE4A626RXA64",
+        "identifier": "sam_gov:SPE4A726T3918",
+        "label": "15--PLATE,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T3918",
         "node_type": "award_notice"
       },
       "value": null
@@ -226,11 +242,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-022f439cb8a78d76",
+      "claim_id": "claim-573d537a5ba07c15",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -238,17 +254,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a89b486003501aff",
+          "evidence_id": "evidence-a0733b621a11f86f",
           "locator": "opportunity_status:open",
-          "title": "Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)",
-          "url": "https://www.grants.gov/search-results-detail/363613",
+          "title": "Advancing Global Health",
+          "url": "https://www.grants.gov/search-results-detail/363649",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:26-514",
-        "label": "Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)",
-        "node_id": "opportunity:grants_gov:26-514",
+        "identifier": "grants_gov:DFOP0017890",
+        "label": "Advancing Global Health",
+        "node_id": "opportunity:grants_gov:DFOP0017890",
         "node_type": "opportunity"
       },
       "value": "open"
@@ -256,11 +272,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-dde72462665f985f",
+      "claim_id": "claim-f6e706ba64ed348f",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "deadline",
       "sources": [
@@ -268,29 +284,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-072059601b18158d",
-          "locator": "deadline:08/17/2076",
-          "title": "Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)",
-          "url": "https://www.grants.gov/search-results-detail/363613",
+          "evidence_id": "evidence-1ea861461c621a95",
+          "locator": "deadline:02/14/2027",
+          "title": "Advancing Global Health",
+          "url": "https://www.grants.gov/search-results-detail/363649",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:26-514",
-        "label": "Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)",
-        "node_id": "opportunity:grants_gov:26-514",
+        "identifier": "grants_gov:DFOP0017890",
+        "label": "Advancing Global Health",
+        "node_id": "opportunity:grants_gov:DFOP0017890",
         "node_type": "opportunity"
       },
-      "value": "08/17/2076"
+      "value": "02/14/2027"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-21fa5f61db153761",
+      "claim_id": "claim-6741726396572a7a",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -298,29 +314,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-dbfda511810ccb65",
-          "locator": "awarding_agency:nsf",
-          "title": "Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)",
-          "url": "https://www.grants.gov/search-results-detail/363613",
+          "evidence_id": "evidence-3fd1fd0bc037fda6",
+          "locator": "awarding_agency:dos-ghsd",
+          "title": "Advancing Global Health",
+          "url": "https://www.grants.gov/search-results-detail/363649",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:26-514",
-        "label": "Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)",
-        "node_id": "opportunity:grants_gov:26-514",
+        "identifier": "grants_gov:DFOP0017890",
+        "label": "Advancing Global Health",
+        "node_id": "opportunity:grants_gov:DFOP0017890",
         "node_type": "opportunity"
       },
-      "value": "NSF"
+      "value": "DOS-GHSD"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-7b9cee6198a931bc",
+      "claim_id": "claim-3a908f9f2f5250e5",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -328,17 +344,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cce5c8a96b9c00c1",
+          "evidence_id": "evidence-8e5892c07b6bd13a",
           "locator": "opportunity_status:open",
-          "title": "MPS Physics Research Programs (MPS Physics)",
-          "url": "https://www.grants.gov/search-results-detail/363621",
+          "title": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+          "url": "https://sam.gov/workspace/contract/opp/ccb7fecdd0d54543afd2d740f3f84ac7/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:26-523",
-        "label": "MPS Physics Research Programs (MPS Physics)",
-        "node_id": "opportunity:grants_gov:26-523",
+        "identifier": "sam_gov:ATEC_RIW26_003",
+        "label": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+        "node_id": "opportunity:sam_gov:ATEC_RIW26_003",
         "node_type": "opportunity"
       },
       "value": "open"
@@ -346,11 +362,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-33094e3853821176",
+      "claim_id": "claim-34cfef97d8eb2c07",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "deadline",
       "sources": [
@@ -358,29 +374,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-69b6d349ef391e1f",
-          "locator": "deadline:08/17/2076",
-          "title": "MPS Physics Research Programs (MPS Physics)",
-          "url": "https://www.grants.gov/search-results-detail/363621",
+          "evidence_id": "evidence-b87812ccaa65eb08",
+          "locator": "deadline:2026-08-21t16:30:00-04:00",
+          "title": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+          "url": "https://sam.gov/workspace/contract/opp/ccb7fecdd0d54543afd2d740f3f84ac7/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:26-523",
-        "label": "MPS Physics Research Programs (MPS Physics)",
-        "node_id": "opportunity:grants_gov:26-523",
+        "identifier": "sam_gov:ATEC_RIW26_003",
+        "label": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+        "node_id": "opportunity:sam_gov:ATEC_RIW26_003",
         "node_type": "opportunity"
       },
-      "value": "08/17/2076"
+      "value": "2026-08-21T16:30:00-04:00"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-7dd7e93ae5849f19",
+      "claim_id": "claim-7b7462ee42720cea",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -388,29 +404,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-493172ab2df66f29",
-          "locator": "awarding_agency:nsf",
-          "title": "MPS Physics Research Programs (MPS Physics)",
-          "url": "https://www.grants.gov/search-results-detail/363621",
+          "evidence_id": "evidence-b50a5833089a767a",
+          "locator": "awarding_agency:dept of defense.dept of the army.amc.acc.acc-ctrs.acc-apg.w6qk acc-apg",
+          "title": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+          "url": "https://sam.gov/workspace/contract/opp/ccb7fecdd0d54543afd2d740f3f84ac7/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:26-523",
-        "label": "MPS Physics Research Programs (MPS Physics)",
-        "node_id": "opportunity:grants_gov:26-523",
+        "identifier": "sam_gov:ATEC_RIW26_003",
+        "label": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+        "node_id": "opportunity:sam_gov:ATEC_RIW26_003",
         "node_type": "opportunity"
       },
-      "value": "NSF"
+      "value": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-c179f54119a39048",
+      "claim_id": "claim-cdf49a9267eb0d12",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -418,17 +434,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-64d29ac1d2064f97",
+          "evidence_id": "evidence-fac068a876e01c3c",
           "locator": "opportunity_status:open",
-          "title": "EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)",
-          "url": "https://www.grants.gov/search-results-detail/363622",
+          "title": "University-led Networks for Innovation, Technology, and Expertise (UNITE)",
+          "url": "https://www.grants.gov/search-results-detail/363645",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:26-524",
-        "label": "EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)",
-        "node_id": "opportunity:grants_gov:26-524",
+        "identifier": "grants_gov:DOS-SAU-2603-PD",
+        "label": "University-led Networks for Innovation, Technology, and Expertise (UNITE)",
+        "node_id": "opportunity:grants_gov:DOS-SAU-2603-PD",
         "node_type": "opportunity"
       },
       "value": "open"
@@ -436,11 +452,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-9e959468ba445f47",
+      "claim_id": "claim-56e4e873c266cb5e",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "deadline",
       "sources": [
@@ -448,29 +464,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f5df8a4f28b7f012",
-          "locator": "deadline:02/11/2027",
-          "title": "EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)",
-          "url": "https://www.grants.gov/search-results-detail/363622",
+          "evidence_id": "evidence-fcf4e2a468a29a5f",
+          "locator": "deadline:09/17/2026",
+          "title": "University-led Networks for Innovation, Technology, and Expertise (UNITE)",
+          "url": "https://www.grants.gov/search-results-detail/363645",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:26-524",
-        "label": "EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)",
-        "node_id": "opportunity:grants_gov:26-524",
+        "identifier": "grants_gov:DOS-SAU-2603-PD",
+        "label": "University-led Networks for Innovation, Technology, and Expertise (UNITE)",
+        "node_id": "opportunity:grants_gov:DOS-SAU-2603-PD",
         "node_type": "opportunity"
       },
-      "value": "02/11/2027"
+      "value": "09/17/2026"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-af792da3090edc41",
+      "claim_id": "claim-15ffa794f520a643",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -478,29 +494,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1df2d7f815946d7d",
-          "locator": "awarding_agency:nsf",
-          "title": "EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)",
-          "url": "https://www.grants.gov/search-results-detail/363622",
+          "evidence_id": "evidence-2478b9bf3906f968",
+          "locator": "awarding_agency:dos-sau",
+          "title": "University-led Networks for Innovation, Technology, and Expertise (UNITE)",
+          "url": "https://www.grants.gov/search-results-detail/363645",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:26-524",
-        "label": "EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)",
-        "node_id": "opportunity:grants_gov:26-524",
+        "identifier": "grants_gov:DOS-SAU-2603-PD",
+        "label": "University-led Networks for Innovation, Technology, and Expertise (UNITE)",
+        "node_id": "opportunity:grants_gov:DOS-SAU-2603-PD",
         "node_type": "opportunity"
       },
-      "value": "NSF"
+      "value": "DOS-SAU"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-fcd519a631fcd559",
+      "claim_id": "claim-8df93df7fce3c05c",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -508,17 +524,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-28b1e66b703df5e8",
+          "evidence_id": "evidence-ccf83a118375bb4c",
           "locator": "opportunity_status:open",
-          "title": "Expeditions in Computing (Expeditions)",
-          "url": "https://www.grants.gov/search-results-detail/363623",
+          "title": "29--SENSOR,MASS AIR FLO",
+          "url": "https://sam.gov/workspace/contract/opp/f9f8780939b843929ca1931cbff0001a/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:26-525",
-        "label": "Expeditions in Computing (Expeditions)",
-        "node_id": "opportunity:grants_gov:26-525",
+        "identifier": "sam_gov:SPE7L126T982G",
+        "label": "29--SENSOR,MASS AIR FLO",
+        "node_id": "opportunity:sam_gov:SPE7L126T982G",
         "node_type": "opportunity"
       },
       "value": "open"
@@ -526,11 +542,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-3d588cff04459ebd",
+      "claim_id": "claim-4289893ca02f70a6",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "deadline",
       "sources": [
@@ -538,29 +554,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-eb81d77b97e935a0",
-          "locator": "deadline:07/27/2027",
-          "title": "Expeditions in Computing (Expeditions)",
-          "url": "https://www.grants.gov/search-results-detail/363623",
+          "evidence_id": "evidence-f37c0859f70d191f",
+          "locator": "deadline:2026-08-31",
+          "title": "29--SENSOR,MASS AIR FLO",
+          "url": "https://sam.gov/workspace/contract/opp/f9f8780939b843929ca1931cbff0001a/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:26-525",
-        "label": "Expeditions in Computing (Expeditions)",
-        "node_id": "opportunity:grants_gov:26-525",
+        "identifier": "sam_gov:SPE7L126T982G",
+        "label": "29--SENSOR,MASS AIR FLO",
+        "node_id": "opportunity:sam_gov:SPE7L126T982G",
         "node_type": "opportunity"
       },
-      "value": "07/27/2027"
+      "value": "2026-08-31"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-207800c4c0724fab",
+      "claim_id": "claim-f109ad3e6e355d43",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -568,29 +584,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0e24437cf7e8c650",
-          "locator": "awarding_agency:nsf",
-          "title": "Expeditions in Computing (Expeditions)",
-          "url": "https://www.grants.gov/search-results-detail/363623",
+          "evidence_id": "evidence-96a3aafaba7e7a8c",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla land.dla land columbus.dla land and maritime",
+          "title": "29--SENSOR,MASS AIR FLO",
+          "url": "https://sam.gov/workspace/contract/opp/f9f8780939b843929ca1931cbff0001a/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:26-525",
-        "label": "Expeditions in Computing (Expeditions)",
-        "node_id": "opportunity:grants_gov:26-525",
+        "identifier": "sam_gov:SPE7L126T982G",
+        "label": "29--SENSOR,MASS AIR FLO",
+        "node_id": "opportunity:sam_gov:SPE7L126T982G",
         "node_type": "opportunity"
       },
-      "value": "NSF"
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND COLUMBUS.DLA LAND AND MARITIME"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-b9c91ae2687e7482",
+      "claim_id": "claim-6f58e1d33ee373c2",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -598,17 +614,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5c6111735becc5fa",
+          "evidence_id": "evidence-48c0b4f3c31729a7",
           "locator": "opportunity_status:open",
-          "title": "AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)",
-          "url": "https://sam.gov/workspace/contract/opp/ff9d55d6a268428081b54dc02f5bf2c1/view",
+          "title": "63--SENSOR,OPAQUE PARTI, IN REPAIR/MODIFICATION OF",
+          "url": "https://sam.gov/workspace/contract/opp/d929e057e5514090bc5827c4a7d79cc2/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:70RDA126R00000009",
-        "label": "AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)",
-        "node_id": "opportunity:sam_gov:70RDA126R00000009",
+        "identifier": "sam_gov:N0010426RNE67",
+        "label": "63--SENSOR,OPAQUE PARTI, IN REPAIR/MODIFICATION OF",
+        "node_id": "opportunity:sam_gov:N0010426RNE67",
         "node_type": "opportunity"
       },
       "value": "open"
@@ -616,11 +632,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-0f36b86c4edacaeb",
+      "claim_id": "claim-ca9ecff3412da382",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "deadline",
       "sources": [
@@ -628,59 +644,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a20b5d9242bc320d",
-          "locator": "deadline:2026-08-26t10:00:00-04:00",
-          "title": "AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)",
-          "url": "https://sam.gov/workspace/contract/opp/ff9d55d6a268428081b54dc02f5bf2c1/view",
+          "evidence_id": "evidence-85d1102a3d43d0b6",
+          "locator": "deadline:2026-10-05t00:00:00-04:00",
+          "title": "63--SENSOR,OPAQUE PARTI, IN REPAIR/MODIFICATION OF",
+          "url": "https://sam.gov/workspace/contract/opp/d929e057e5514090bc5827c4a7d79cc2/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:70RDA126R00000009",
-        "label": "AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)",
-        "node_id": "opportunity:sam_gov:70RDA126R00000009",
+        "identifier": "sam_gov:N0010426RNE67",
+        "label": "63--SENSOR,OPAQUE PARTI, IN REPAIR/MODIFICATION OF",
+        "node_id": "opportunity:sam_gov:N0010426RNE67",
         "node_type": "opportunity"
       },
-      "value": "2026-08-26T10:00:00-04:00"
+      "value": "2026-10-05T00:00:00-04:00"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-9252386a812cecca",
+      "claim_id": "claim-788c1503383c7b66",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "set_aside",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0e3872c4f0c6d42e",
-          "locator": "set_aside:no set aside used",
-          "title": "AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)",
-          "url": "https://sam.gov/workspace/contract/opp/ff9d55d6a268428081b54dc02f5bf2c1/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:70RDA126R00000009",
-        "label": "AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)",
-        "node_id": "opportunity:sam_gov:70RDA126R00000009",
-        "node_type": "opportunity"
-      },
-      "value": "No Set aside used"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-91a0a682b18634a3",
-      "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -688,29 +674,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-df53a1aed5ffcb64",
-          "locator": "awarding_agency:homeland security, department of.office of procurement operations.departmental operations acquisitions division i",
-          "title": "AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)",
-          "url": "https://sam.gov/workspace/contract/opp/ff9d55d6a268428081b54dc02f5bf2c1/view",
+          "evidence_id": "evidence-cbed0bad00bcb7b6",
+          "locator": "awarding_agency:dept of defense.dept of the navy.navsup.navsup weapon systems support.navsup wss mechanicsburg.navsup weapon systems support mech",
+          "title": "63--SENSOR,OPAQUE PARTI, IN REPAIR/MODIFICATION OF",
+          "url": "https://sam.gov/workspace/contract/opp/d929e057e5514090bc5827c4a7d79cc2/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:70RDA126R00000009",
-        "label": "AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)",
-        "node_id": "opportunity:sam_gov:70RDA126R00000009",
+        "identifier": "sam_gov:N0010426RNE67",
+        "label": "63--SENSOR,OPAQUE PARTI, IN REPAIR/MODIFICATION OF",
+        "node_id": "opportunity:sam_gov:N0010426RNE67",
         "node_type": "opportunity"
       },
-      "value": "HOMELAND SECURITY, DEPARTMENT OF.OFFICE OF PROCUREMENT OPERATIONS.DEPARTMENTAL OPERATIONS ACQUISITIONS DIVISION I"
+      "value": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS MECHANICSBURG.NAVSUP WEAPON SYSTEMS SUPPORT MECH"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-2db384b221ad064a",
+      "claim_id": "claim-8786296fcc2de3e5",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -718,17 +704,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9d15b822086da34f",
+          "evidence_id": "evidence-6c6a9b1b89ba5cb8",
           "locator": "opportunity_status:open",
-          "title": "Sensor Agnostic Emulator & Trainer (SAET)",
-          "url": "https://sam.gov/workspace/contract/opp/eff0352a48d249619d9fb777d40cfbeb/view",
+          "title": "63--SALINITY SENSOR,CON",
+          "url": "https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:FA852726RSAET",
-        "label": "Sensor Agnostic Emulator & Trainer (SAET)",
-        "node_id": "opportunity:sam_gov:FA852726RSAET",
+        "identifier": "sam_gov:SPE4A526T373T",
+        "label": "63--SALINITY SENSOR,CON",
+        "node_id": "opportunity:sam_gov:SPE4A526T373T",
         "node_type": "opportunity"
       },
       "value": "open"
@@ -736,11 +722,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-f0a75627c223dc2c",
+      "claim_id": "claim-17526f5811e9e026",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "deadline",
       "sources": [
@@ -748,29 +734,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-214ab98cb6e9a7f2",
-          "locator": "deadline:2026-09-18t16:00:00-04:00",
-          "title": "Sensor Agnostic Emulator & Trainer (SAET)",
-          "url": "https://sam.gov/workspace/contract/opp/eff0352a48d249619d9fb777d40cfbeb/view",
+          "evidence_id": "evidence-a2248445179b0155",
+          "locator": "deadline:2026-08-26",
+          "title": "63--SALINITY SENSOR,CON",
+          "url": "https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:FA852726RSAET",
-        "label": "Sensor Agnostic Emulator & Trainer (SAET)",
-        "node_id": "opportunity:sam_gov:FA852726RSAET",
+        "identifier": "sam_gov:SPE4A526T373T",
+        "label": "63--SALINITY SENSOR,CON",
+        "node_id": "opportunity:sam_gov:SPE4A526T373T",
         "node_type": "opportunity"
       },
-      "value": "2026-09-18T16:00:00-04:00"
+      "value": "2026-08-26"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-a981488a09692916",
+      "claim_id": "claim-d32e807b291c8fa4",
       "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -778,347 +764,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-babc5780a7f238ad",
-          "locator": "awarding_agency:dept of defense",
-          "title": "Sensor Agnostic Emulator & Trainer (SAET)",
-          "url": "https://sam.gov/workspace/contract/opp/eff0352a48d249619d9fb777d40cfbeb/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA852726RSAET",
-        "label": "Sensor Agnostic Emulator & Trainer (SAET)",
-        "node_id": "opportunity:sam_gov:FA852726RSAET",
-        "node_type": "opportunity"
-      },
-      "value": "DEPT OF DEFENSE"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b594c9f8534d69f9",
-      "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f9be14cb8f622f92",
-          "locator": "opportunity_status:open",
-          "title": "High-Performance Quantum Scalar Magnetometers",
-          "url": "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "open"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-d92f49e8717708e3",
-      "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e3083e7151e9796b",
-          "locator": "deadline:2026-08-24t10:00:00-06:00",
-          "title": "High-Performance Quantum Scalar Magnetometers",
-          "url": "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "2026-08-24T10:00:00-06:00"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-410ae13ede05f3ee",
-      "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "set_aside",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-328f1891c592417d",
-          "locator": "set_aside:small business set aside - total",
-          "title": "High-Performance Quantum Scalar Magnetometers",
-          "url": "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "Small Business Set Aside - Total"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6ae3caa1c1c3fe8d",
-      "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-df8043a444c84ff8",
-          "locator": "awarding_agency:dept of defense.dept of the air force.u.s. air force academy.fa7000 10 cons lgc",
-          "title": "High-Performance Quantum Scalar Magnetometers",
-          "url": "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.U.S. AIR FORCE ACADEMY.FA7000 10 CONS LGC"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-165450a906602fa0",
-      "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bc2f8329bafe01a1",
-          "locator": "opportunity_status:open",
-          "title": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
-          "url": "https://sam.gov/workspace/contract/opp/b1f26e7ded2643d2835947cc08cb56fe/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:HT0038RFSACADM",
-        "label": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
-        "node_id": "opportunity:sam_gov:HT0038RFSACADM",
-        "node_type": "opportunity"
-      },
-      "value": "open"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-036d1012e0cc9977",
-      "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1cba1e8307a03c0f",
-          "locator": "deadline:2026-08-28t10:00:00-04:00",
-          "title": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
-          "url": "https://sam.gov/workspace/contract/opp/b1f26e7ded2643d2835947cc08cb56fe/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:HT0038RFSACADM",
-        "label": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
-        "node_id": "opportunity:sam_gov:HT0038RFSACADM",
-        "node_type": "opportunity"
-      },
-      "value": "2026-08-28T10:00:00-04:00"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-058cc8d2b7c9f241",
-      "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c681bddb98a184fa",
-          "locator": "awarding_agency:dept of defense.defense health agency (dha).defense health agency",
-          "title": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
-          "url": "https://sam.gov/workspace/contract/opp/b1f26e7ded2643d2835947cc08cb56fe/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:HT0038RFSACADM",
-        "label": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
-        "node_id": "opportunity:sam_gov:HT0038RFSACADM",
-        "node_type": "opportunity"
-      },
-      "value": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1d9c1e338990e747",
-      "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-245db179feba31e4",
-          "locator": "opportunity_status:open",
-          "title": "66--SENSOR,LIQUID FLOW",
-          "url": "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE4A126T2624",
-        "label": "66--SENSOR,LIQUID FLOW",
-        "node_id": "opportunity:sam_gov:SPE4A126T2624",
-        "node_type": "opportunity"
-      },
-      "value": "open"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-9537af2f126a2932",
-      "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d9cea5477e2365ec",
-          "locator": "deadline:2026-08-25",
-          "title": "66--SENSOR,LIQUID FLOW",
-          "url": "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE4A126T2624",
-        "label": "66--SENSOR,LIQUID FLOW",
-        "node_id": "opportunity:sam_gov:SPE4A126T2624",
-        "node_type": "opportunity"
-      },
-      "value": "2026-08-25"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-128908c11ffec396",
-      "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "set_aside",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a6663fe512072720",
-          "locator": "set_aside:small business set aside - total",
-          "title": "66--SENSOR,LIQUID FLOW",
-          "url": "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE4A126T2624",
-        "label": "66--SENSOR,LIQUID FLOW",
-        "node_id": "opportunity:sam_gov:SPE4A126T2624",
-        "node_type": "opportunity"
-      },
-      "value": "Small Business Set Aside - Total"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a71fab5cfb29946b",
-      "confidence": "high",
-      "effective_date": "2026-08-17",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fa28c02fa9d86d98",
+          "evidence_id": "evidence-7220df2d3732aebf",
           "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
-          "title": "66--SENSOR,LIQUID FLOW",
-          "url": "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view",
+          "title": "63--SALINITY SENSOR,CON",
+          "url": "https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A126T2624",
-        "label": "66--SENSOR,LIQUID FLOW",
-        "node_id": "opportunity:sam_gov:SPE4A126T2624",
+        "identifier": "sam_gov:SPE4A526T373T",
+        "label": "63--SALINITY SENSOR,CON",
+        "node_id": "opportunity:sam_gov:SPE4A526T373T",
         "node_type": "opportunity"
       },
       "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
@@ -1126,1361 +782,131 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-da42b9654d3490af",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-2428f2d67c3d1c57",
-          "locator": "states_requirement:| solicitation fa700026q0063 page 2 of 3 clin description qty unit 0001 high-performance quantum scalar magnetometers (must meet all minimum physical and performance requirements outlined in attachment 02 \u2014 salient characteristics) 4 each 3. evaluation criteria the government intends to award a fir...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "| Solicitation FA700026Q0063 Page 2 of 3 CLIN Description Qty Unit 0001 High-Performance Quantum Scalar Magnetometers (Must meet all minimum physical and performance requirements outlined in Attachment 02 \u2014 Salient Characteristics) 4 Each 3. Evaluation Criteria The Government intends to award a fir..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-489f055cb52fe0e0",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-4275e044a3e12e57",
-          "locator": "states_requirement:ificantly more important than price. 4. instructions to offerors \u2022 questions: all questions regarding this solicitation must be submitted in writing via email to [insert contracting officer email] and [insert contract specialist email] no later than 20 august 2026 at 10:00 am mdt. \u2022 quote deadline:...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "ificantly more important than price. 4. Instructions to Offerors \u2022 Questions: All questions regarding this solicitation must be submitted in writing via email to [Insert Contracting Officer Email] and [Insert Contract Specialist Email] no later than 20 August 2026 at 10:00 AM MDT. \u2022 Quote Deadline:..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2e5b63bfef74ed4c",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-2c4fe88a158c3d04",
-          "locator": "states_requirement:er email] and [insert contract specialist email] no later than 20 august 2026 at 10:00 am mdt. \u2022 quote deadline: quotes must be received no later than 24 august 2026 at 10:00 am mdt. \u2022 quote validity: offerors must state in their submission that their quote remains valid until 30 september 2026. \u2022...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "er Email] and [Insert Contract Specialist Email] no later than 20 August 2026 at 10:00 AM MDT. \u2022 Quote Deadline: Quotes must be received no later than 24 August 2026 at 10:00 AM MDT. \u2022 Quote Validity: Offerors must state in their submission that their quote remains valid until 30 September 2026. \u2022..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-ecbc99c37a9023bd",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-badf2588a6777f43",
-          "locator": "states_requirement:mdt. \u2022 quote deadline: quotes must be received no later than 24 august 2026 at 10:00 am mdt. \u2022 quote validity: offerors must state in their submission that their quote remains valid until 30 september 2026. \u2022 buy american certificate: offerors must complete and return \u201cattachment 03 \u2014 buy american...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "MDT. \u2022 Quote Deadline: Quotes must be received no later than 24 August 2026 at 10:00 AM MDT. \u2022 Quote Validity: Offerors must state in their submission that their quote remains valid until 30 September 2026. \u2022 Buy American Certificate: Offerors MUST complete and return \u201cAttachment 03 \u2014 Buy American..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a718d56b0e96727c",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-c619e9fa87847c5a",
-          "locator": "states_requirement:state in their submission that their quote remains valid until 30 september 2026. \u2022 buy american certificate: offerors must complete and return \u201cattachment 03 \u2014 buy american certificate\u201d with their quote submission. failure to return the completed certificate may render the quote non-responsive. us...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "state in their submission that their quote remains valid until 30 September 2026. \u2022 Buy American Certificate: Offerors MUST complete and return \u201cAttachment 03 \u2014 Buy American Certificate\u201d with their quote submission. Failure to return the completed certificate may render the quote non-responsive. US..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c8789d4c0365b52a",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-ef6dbafc8d1735a6",
-          "locator": "states_requirement:sted party to another official who can resolve the concern. (b) before consulting with an ombudsman, interested parties must first address their concerns, issues, disagreements, and/or recommendations to the contracting officer for resolution. consulting an ombudsman does not alter or postpone the...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "sted party to another official who can resolve the concern. (b) Before consulting with an ombudsman, interested parties must first address their concerns, issues, disagreements, and/or recommendations to the contracting officer for resolution. Consulting an ombudsman does not alter or postpone the..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a1465f162c4d94c2",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-5b207999a5854124",
-          "locator": "states_requirement:budsman to request copies of the solicitation, verify offer due date, or clarify technical requirements. such inquiries shall be directed to the contracting officer. (end of clause",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "budsman to request copies of the solicitation, verify offer due date, or clarify technical requirements. Such inquiries shall be directed to the contracting officer. (End of clause"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-604f36c160c3fdd9",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_evaluation_criterion",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-1a6eb1c6e9424919",
-          "locator": "states_evaluation_criterion:ward a firm-fixed-price contract resulting from this solicitation to the responsible offeror whose quote represents the best value / trade-off to the government. the evaluation factors are: 1. technical acceptability: quotes will be evaluated to determine if the proposed product meets or exceeds al...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "ward a firm-fixed-price contract resulting from this solicitation to the responsible offeror whose quote represents the Best Value / Trade-off to the Government. The evaluation factors are: 1. Technical Acceptability: Quotes will be evaluated to determine if the proposed product meets or exceeds al..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4646f913486a745b",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_evaluation_criterion",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-164ad26b698dd5f9",
-          "locator": "states_evaluation_criterion:m this solicitation to the responsible offeror whose quote represents the best value / trade-off to the government. the evaluation factors are: 1. technical acceptability: quotes will be evaluated to determine if the proposed product meets or exceeds all minimum specifications in the salient charac...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "m this solicitation to the responsible offeror whose quote represents the Best Value / Trade-off to the Government. The evaluation factors are: 1. Technical Acceptability: Quotes will be evaluated to determine if the proposed product meets or exceeds all minimum specifications in the Salient Charac..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-cc193c531571f627",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_evaluation_criterion",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-5065534b2781ed4f",
-          "locator": "states_evaluation_criterion:if the proposed product meets or exceeds all minimum specifications in the salient characteristics (attachment 02). 2. past performance: the government will evaluate the offeror\u2019s past performance to assess the risk of unsuccessful performance. past performance will be evaluated by checking the con...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "if the proposed product meets or exceeds all minimum specifications in the Salient Characteristics (Attachment 02). 2. Past Performance: The Government will evaluate the offeror\u2019s past performance to assess the risk of unsuccessful performance. Past performance will be evaluated by checking the Con..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-8df7ed658529eedf",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_evaluation_criterion",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-fe3c7d8f42b7b01a",
-          "locator": "states_evaluation_criterion:cations in the salient characteristics (attachment 02). 2. past performance: the government will evaluate the offeror\u2019s past performance to assess the risk of unsuccessful performance. past performance will be evaluated by checking the contractor performance assessment reporting system (cpars) and...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "cations in the Salient Characteristics (Attachment 02). 2. Past Performance: The Government will evaluate the offeror\u2019s past performance to assess the risk of unsuccessful performance. Past performance will be evaluated by checking the Contractor Performance Assessment Reporting System (CPARS) and..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-9abde381298d527e",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_evaluation_criterion",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-4011635f0f125445",
-          "locator": "states_evaluation_criterion:erformance: the government will evaluate the offeror\u2019s past performance to assess the risk of unsuccessful performance. past performance will be evaluated by checking the contractor performance assessment reporting system (cpars) and the supplier performance risk system (sprs) score. 3. price: pric...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "erformance: The Government will evaluate the offeror\u2019s past performance to assess the risk of unsuccessful performance. Past performance will be evaluated by checking the Contractor Performance Assessment Reporting System (CPARS) and the Supplier Performance Risk System (SPRS) score. 3. Price: Pric..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1f7d57465219e1a6",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_evaluation_criterion",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-c1110f18bf23b8e7",
-          "locator": "states_evaluation_criterion:nce risk system (sprs) score. 3. price: price will be evaluated for fairness and reasonableness. trade-off methodology: past performance and technical acceptability, when combined, are significantly more important than price. 4. instructions to offerors \u2022 questions: all questions regarding this sol...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "nce Risk System (SPRS) score. 3. Price: Price will be evaluated for fairness and reasonableness. Trade-off Methodology: Past Performance and Technical Acceptability, when combined, are significantly more important than price. 4. Instructions to Offerors \u2022 Questions: All questions regarding this sol..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-09da1866b92c37c2",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_eligibility_term",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-6ad91532f1ae12fd",
-          "locator": "states_eligibility_term:reimburse an offeror for any costs incurred in response to this solicitation. solicitation number fa700026q0063 type of set-aside 100% total small business set-aside naics code 334519 (other measuring and controlling device manufacturing) small business size standard 600 employees product service c...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "reimburse an offeror for any costs incurred in response to this solicitation. Solicitation Number FA700026Q0063 Type of Set-Aside 100% Total Small Business Set-Aside NAICS Code 334519 (Other Measuring and Controlling Device Manufacturing) Small Business Size Standard 600 Employees Product Service C..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-9a64fa735bb76e8e",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_eligibility_term",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-d01822d5cbd15dd8",
-          "locator": "states_eligibility_term:for any costs incurred in response to this solicitation. solicitation number fa700026q0063 type of set-aside 100% total small business set-aside naics code 334519 (other measuring and controlling device manufacturing) small business size standard 600 employees product service code (psc) 6655 (geoph...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "for any costs incurred in response to this solicitation. Solicitation Number FA700026Q0063 Type of Set-Aside 100% Total Small Business Set-Aside NAICS Code 334519 (Other Measuring and Controlling Device Manufacturing) Small Business Size Standard 600 Employees Product Service Code (PSC) 6655 (Geoph..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2a0521482825b992",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_eligibility_term",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-4c520798dce88e83",
-          "locator": "states_eligibility_term:ncurred in response to this solicitation. solicitation number fa700026q0063 type of set-aside 100% total small business set-aside naics code 334519 (other measuring and controlling device manufacturing) small business size standard 600 employees product service code (psc) 6655 (geophysical instrume...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "ncurred in response to this solicitation. Solicitation Number FA700026Q0063 Type of Set-Aside 100% Total Small Business Set-Aside NAICS Code 334519 (Other Measuring and Controlling Device Manufacturing) Small Business Size Standard 600 Employees Product Service Code (PSC) 6655 (Geophysical Instrume..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1b8f873ac7bdeaad",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_eligibility_term",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-e219d77fc8f555df",
-          "locator": "states_eligibility_term:response to this solicitation. solicitation number fa700026q0063 type of set-aside 100% total small business set-aside naics code 334519 (other measuring and controlling device manufacturing) small business size standard 600 employees product service code (psc) 6655 (geophysical instruments) 1. gen...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "response to this solicitation. Solicitation Number FA700026Q0063 Type of Set-Aside 100% Total Small Business Set-Aside NAICS Code 334519 (Other Measuring and Controlling Device Manufacturing) Small Business Size Standard 600 Employees Product Service Code (PSC) 6655 (Geophysical Instruments) 1. Gen..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f153bd64ccc0a0a3",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_eligibility_term",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-3ddab5afd9450331",
-          "locator": "states_eligibility_term:set-aside 100% total small business set-aside naics code 334519 (other measuring and controlling device manufacturing) small business size standard 600 employees product service code (psc) 6655 (geophysical instruments) 1. general information this is a combined synopsis/solicitation for commercial...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "Set-Aside 100% Total Small Business Set-Aside NAICS Code 334519 (Other Measuring and Controlling Device Manufacturing) Small Business Size Standard 600 Employees Product Service Code (PSC) 6655 (Geophysical Instruments) 1. General Information This is a combined synopsis/solicitation for commercial..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4e5b349b5859c6b5",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-3aaaa8db547614be",
-          "locator": "states_submission_instruction:overnment cancels this solicitation, the government has no obligation to reimburse an offeror for any costs incurred in response to this solicitation. solicitation number fa700026q0063 type of set-aside 100% total small business set-aside naics code 334519 (other measuring and controlling device ma...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "overnment cancels this solicitation, the Government has no obligation to reimburse an offeror for any costs incurred in response to this solicitation. Solicitation Number FA700026Q0063 Type of Set-Aside 100% Total Small Business Set-Aside NAICS Code 334519 (Other Measuring and Controlling Device Ma..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-50283890a7b2e51d",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-367d07c506099088",
-          "locator": "states_submission_instruction:y more important than price. 4. instructions to offerors \u2022 questions: all questions regarding this solicitation must be submitted in writing via email to [insert contracting officer email] and [insert contract specialist email] no later than 20 august 2026 at 10:00 am mdt. \u2022 quote deadline: quotes...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "y more important than price. 4. Instructions to Offerors \u2022 Questions: All questions regarding this solicitation must be submitted in writing via email to [Insert Contracting Officer Email] and [Insert Contract Specialist Email] no later than 20 August 2026 at 10:00 AM MDT. \u2022 Quote Deadline: Quotes..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-45ec4d3a63b9352b",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-51f3517180a5392a",
-          "locator": "states_submission_instruction:e: quotes must be received no later than 24 august 2026 at 10:00 am mdt. \u2022 quote validity: offerors must state in their submission that their quote remains valid until 30 september 2026. \u2022 buy american certificate: offerors must complete and return \u201cattachment 03 \u2014 buy american certificate\u201d with th...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "e: Quotes must be received no later than 24 August 2026 at 10:00 AM MDT. \u2022 Quote Validity: Offerors must state in their submission that their quote remains valid until 30 September 2026. \u2022 Buy American Certificate: Offerors MUST complete and return \u201cAttachment 03 \u2014 Buy American Certificate\u201d with th..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-318303ed60139bd2",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-af77f19d077fe46c",
-          "locator": "states_submission_instruction:buy american certificate: offerors must complete and return \u201cattachment 03 \u2014 buy american certificate\u201d with their quote submission. failure to return the completed certificate may render the quote non-responsive. usafa | solicitation fa700026q0063 page 3 of 3 5. attachments \u2022 attachment 01 \u2014 provis...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "Buy American Certificate: Offerors MUST complete and return \u201cAttachment 03 \u2014 Buy American Certificate\u201d with their quote submission. Failure to return the completed certificate may render the quote non-responsive. USAFA | Solicitation FA700026Q0063 Page 3 of 3 5. Attachments \u2022 Attachment 01 \u2014 Provis..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b9473bbf97bae6f8",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-69608adaca0e804b",
-          "locator": "states_submission_instruction:er, contracting officer, or source selection official. further, the ombudsman does not participate in the evaluation of proposals, the source selection process, or the adjudication of protests or formal contract disputes. the ombudsman may refer the interested party to another official who can reso...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "er, contracting officer, or source selection official. Further, the ombudsman does not participate in the evaluation of proposals, the source selection process, or the adjudication of protests or formal contract disputes. The ombudsman may refer the interested party to another official who can reso..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e4730d294130ea52",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "368ce42b0fa3422e1914ceda6b7fc035779be09897604a7048c94f149cac8f11",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-f7d04ef17aa823c7",
-          "locator": "states_requirement:that each domestic end product listed in paragraph (c) of this provision contains a critical component. (2) the offeror shall list as foreign end products those end products manufactured in the united states that do not qualify as domestic end products. for those foreign end products that do not co...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c9e039d2a444f6fa525d4b24ef517e8/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "that each domestic end product listed in paragraph (c) of this provision contains a critical component. (2) The Offeror shall list as foreign end products those end products manufactured in the United States that do not qualify as domestic end products. For those foreign end products that do not co..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2b8c9b3a4596cfe3",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "368ce42b0fa3422e1914ceda6b7fc035779be09897604a7048c94f149cac8f11",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-8c12549a13267819",
-          "locator": "states_requirement:foreign end products that do not consist wholly or predominantly of iron or steel or a combination of both, the offeror shall also indicate whether these foreign end products exceed 55 percent domestic content, except for those that are cots items. if the percentage of the domestic content is unkno...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c9e039d2a444f6fa525d4b24ef517e8/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "foreign end products that do not consist wholly or predominantly of iron or steel or a combination of both, the Offeror shall also indicate whether these foreign end products exceed 55 percent domestic content, except for those that are COTS items. If the percentage of the domestic content is unkno..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-eb7bf234831b8393",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "368ce42b0fa3422e1914ceda6b7fc035779be09897604a7048c94f149cac8f11",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-ca96955f338beac2",
-          "locator": "states_requirement:xcept for those that are cots items. if the percentage of the domestic content is unknown, select \u201cno\u201d. (3) the offeror shall separately list the line item numbers of domestic end products that contain a critical component (see far 25.105). (4) the terms \u201ccommercially available off-the-shelf (cots)...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c9e039d2a444f6fa525d4b24ef517e8/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "xcept for those that are COTS items. If the percentage of the domestic content is unknown, select \u201cno\u201d. (3) The Offeror shall separately list the line item numbers of domestic end products that contain a critical component (see FAR 25.105). (4) The terms \u201ccommercially available off-the-shelf (COTS)..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7f4ad9b90d01ab72",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-dcc93e919a67f7f4",
-          "locator": "states_requirement:he acquisition of covered defense telecommunications equipment or services-representation (may 2021) the offeror is not required to complete the representation in this provision if the offeror has represented in the provision at 252.204-7016, covered defense telecommunications equipment or services...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "HE ACQUISITION OF COVERED DEFENSE TELECOMMUNICATIONS EQUIPMENT OR SERVICES-REPRESENTATION (MAY 2021) The Offeror is not required to complete the representation in this provision if the Offeror has represented in the provision at 252.204-7016, Covered Defense Telecommunications Equipment or Services..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-87d111f11f3fd73d",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-1cfc371a93c5510c",
-          "locator": "states_requirement:a substantial or essential component of any system, or as critical technology as part of any system. (c) . the offeror shall review the list of excluded parties in the system for award procedures management (sam) at for entities that are excluded when providing any https://www.sam.gov equipment, sy...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "a substantial or essential component of any system, or as critical technology as part of any system. (c) . The Offeror shall review the list of excluded parties in the System for Award Procedures Management (SAM) at for entities that are excluded when providing any https://www.sam.gov equipment, sy..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-eb81987da1e631d0",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-ac378e97eac9a801",
-          "locator": "states_requirement:es to the government in the performance of any contract, subcontract, or other contractual instrument, then the offeror shall complete the following additional representation: the offeror represents that it will will not provide covered defense telecommunications equipment or services as a part of...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "es to the Government in the performance of any contract, subcontract, or other contractual instrument, then the Offeror shall complete the following additional representation: The Offeror represents that it will will not provide covered defense telecommunications equipment or services as a part of..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-727c65862e50d99b",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-3d240de1c9c9ce21",
-          "locator": "states_requirement:this provision that it \"will disclosures provide covered defense telecommunications equipment or services,\" the offeror shall provide the following information as part of the offer: (1) a description of all covered defense telecommunications equipment and services offered (include brand or manufact...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "this provision that it \"will Disclosures provide covered defense telecommunications equipment or services,\" the Offeror shall provide the following information as part of the offer: (1) A description of all covered defense telecommunications equipment and services offered (include brand or manufact..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f705275517f02f06",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-e82d559028ddbf84",
-          "locator": "states_requirement:fars) 252.232-7003, electronic submission of payment requests and receiving reports. (c) to access wawf, the contractor shall- wawf access. (1) have a designated electronic business point of contact in the system for award management at https://www.sam.gov; and (2) be registered to use wawf at http...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "FARS) 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (c) To access WAWF, the Contractor shall- WAWF access. (1) Have a designated electronic business point of contact in the System for Award Management at https://www.sam.gov; and (2) Be registered to use WAWF at http..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-055df74bea7fc0f4",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-88b499717fe149ae",
-          "locator": "states_requirement:entry, wawf methods of document submission. electronic data interchange, or file transfer protocol. (f) the contractor shall use the following information when wawf payment instructions. submitting payment requests and receiving reports in wawf for this contract or task or delivery order: (1) the c...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "entry, WAWF methods of document submission. Electronic Data Interchange, or File Transfer Protocol. (f) The Contractor shall use the following information when WAWF payment instructions. submitting payment requests and receiving reports in WAWF for this contract or task or delivery order: (1) The C..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a9f0795794b03802",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-03e346fb82831d91",
-          "locator": "states_requirement:bmitting payment requests and receiving reports in wawf for this contract or task or delivery order: (1) the contractor shall submit payment requests using the following document type. document type(s): (i) for cost-type line items, including labor-hour or time-and-materials, submit a cost voucher....",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "bmitting payment requests and receiving reports in WAWF for this contract or task or delivery order: (1) The Contractor shall submit payment requests using the following Document type. document type(s): (i) For cost-type line items, including labor-hour or time-and-materials, submit a cost voucher...."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-aae3608c4ec3ad3c",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-554a9e51e6ef79d4",
-          "locator": "states_requirement:wawf \"combo\" document type to create some combinations of invoice and receiving report in one step.] (3) the contractor shall use the information in the routing data table document routing. below only to fill in applicable fields in wawf when creating payment requests and receiving reports in the s...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "WAWF \"combo\" document type to create some combinations of invoice and receiving report in one step.] (3) The Contractor shall use the information in the Routing Data Table Document routing. below only to fill in applicable fields in WAWF when creating payment requests and receiving reports in the s..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a5f47666c1bda582",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_eligibility_term",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-99341f4fda267cc3",
-          "locator": "states_eligibility_term:d conditions-commercial products and commercial services. (deviation 2026-o0038) 2026-02 sec i 52.219-6 notice of total small business set-aside. (deviation 2026- o0038) 2026-02 sec i 52.222-19 child labor-cooperation with authorities and remedies. (deviation 2026-o0038) 2026-03 sec i 52.222-3 conv...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "d Conditions-Commercial Products and Commercial Services. (Deviation 2026-O0038) 2026-02 SEC I 52.219-6 Notice of Total Small Business Set-Aside. (Deviation 2026- O0038) 2026-02 SEC I 52.222-19 Child Labor-Cooperation with Authorities and Remedies. (Deviation 2026-O0038) 2026-03 SEC I 52.222-3 Conv..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-ea02dd68bb448e1f",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_eligibility_term",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-d543529e637147cb",
-          "locator": "states_eligibility_term:mmercial products and commercial services. (deviation 2026-o0038) 2026-02 sec i 52.219-6 notice of total small business set-aside. (deviation 2026- o0038) 2026-02 sec i 52.222-19 child labor-cooperation with authorities and remedies. (deviation 2026-o0038) 2026-03 sec i 52.222-3 convict labor. (dev...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "mmercial Products and Commercial Services. (Deviation 2026-O0038) 2026-02 SEC I 52.219-6 Notice of Total Small Business Set-Aside. (Deviation 2026- O0038) 2026-02 SEC I 52.222-19 Child Labor-Cooperation with Authorities and Remedies. (Deviation 2026-O0038) 2026-03 SEC I 52.222-3 Convict Labor. (Dev..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6a6a3ecfd521f166",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_eligibility_term",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-9341cfb20ff389c7",
-          "locator": "states_eligibility_term:ent by electronic funds transfer-system for award management. 2018-10 sec i 52.232-40 providing accelerated payments to small business subcontractors. 2023-03 sec i 52.233-3 protest after award. (deviation 2026-o0038) 2026-02 sec i 52.233-4 applicable law for breach of contract claim. (deviation 20...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "ent by Electronic Funds Transfer-System for Award Management. 2018-10 SEC I 52.232-40 Providing Accelerated Payments to Small Business Subcontractors. 2023-03 SEC I 52.233-3 Protest after Award. (Deviation 2026-O0038) 2026-02 SEC I 52.233-4 Applicable Law for Breach of Contract Claim. (Deviation 20..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-755883b1bf043fae",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-cf5e5e7aaf1a1a32",
-          "locator": "states_submission_instruction:0 prohibition on certain procurements from the xinjiang uyghur autonomous region. 2023-06 sec i 252.232-7003 electronic submission of payment requests and receiving reports. 2018-12 sec g 252.232-7010 levies on contract payments. 2006-12 sec i 252.232-7011 payments in support of emergencies and con...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "0 Prohibition on Certain Procurements from the Xinjiang Uyghur Autonomous Region. 2023-06 SEC I 252.232-7003 Electronic Submission of Payment Requests and Receiving Reports. 2018-12 SEC G 252.232-7010 Levies on Contract Payments. 2006-12 SEC I 252.232-7011 Payments in Support of Emergencies and Con..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-32de1327f542e627",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-8a18373063083647",
-          "locator": "states_submission_instruction:the entitlement system. \"payment request\" and \"receiving report\" are defined in the clause at 252.232-7003, electronic submission of payment requests and receiving reports. (b) the wawf system provides the method to electronically process electronic invoicing. vendor payment requests and receiving...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "the entitlement system. \"Payment request\" and \"receiving report\" are defined in the clause at 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (b) The WAWF system provides the method to electronically process Electronic invoicing. vendor payment requests and receiving..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f4092434ce8fd6a4",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-ea117b80c288fb57",
-          "locator": "states_submission_instruction:receiving reports, as authorized by defense federal acquisition regulation supplement (dfars) 252.232-7003, electronic submission of payment requests and receiving reports. (c) to access wawf, the contractor shall- wawf access. (1) have a designated electronic business point of contact in the syste...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "receiving reports, as authorized by Defense Federal Acquisition Regulation Supplement (DFARS) 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (c) To access WAWF, the Contractor shall- WAWF access. (1) Have a designated electronic business point of contact in the Syste..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4ce51f509b10af81",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-ab6b7219f304af3e",
-          "locator": "states_submission_instruction:e training instructions of the wawf web- wawf training. based training course and use the practice training site before submitting payment requests through wawf. both can be accessed by selecting the \"web based training\" link on the wawf home page at https://wawf.eb.mil/ (e) document submissions ma...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "e training instructions of the WAWF Web- WAWF training. Based Training Course and use the Practice Training Site before submitting payment requests through WAWF. Both can be accessed by selecting the \"Web Based Training\" link on the WAWF home page at https://wawf.eb.mil/ (e) Document submissions ma..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-51530d994e388248",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-bde928553ed1734f",
-          "locator": "states_submission_instruction:h can be accessed by selecting the \"web based training\" link on the wawf home page at https://wawf.eb.mil/ (e) document submissions may be via web entry, wawf methods of document submission. electronic data interchange, or file transfer protocol. (f) the contractor shall use the following informati...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "h can be accessed by selecting the \"Web Based Training\" link on the WAWF home page at https://wawf.eb.mil/ (e) Document submissions may be via web entry, WAWF methods of document submission. Electronic Data Interchange, or File Transfer Protocol. (f) The Contractor shall use the following informati..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-efa6c60b9dec6198",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_deliverable",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-fb7c03da26943358",
-          "locator": "states_deliverable:abor-hour or time-and-materials, submit a cost voucher. (ii) for fixed price line items- (a) that require shipment of a deliverable, submit the invoice and receiving report specified by the contracting officer. ____ (contracting officer: insert applicable invoice and receiving report document type(...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "abor-hour or time-and-materials, submit a cost voucher. (ii) For fixed price line items- (A) That require shipment of a deliverable, submit the invoice and receiving report specified by the Contracting Officer. ____ (Contracting Officer: Insert applicable invoice and receiving report document type(..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b2305bec6312be18",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_deliverable",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-923e49851c478b67",
-          "locator": "states_deliverable:insert applicable invoice and receiving report document type(s) for fixed price line items that require shipment of a deliverable.) (b) for services that do not require shipment of a deliverable, submit either the invoice 2in1, which meets the requirements for the invoice and receiving report, or t...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "Insert applicable invoice and receiving report document type(s) for fixed price line items that require shipment of a deliverable.) (B) For services that do not require shipment of a deliverable, submit either the Invoice 2in1, which meets the requirements for the invoice and receiving report, or t..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b43bcb199e6914d7",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "states_deliverable",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-c1e4454819c79553",
-          "locator": "states_deliverable:for fixed price line items that require shipment of a deliverable.) (b) for services that do not require shipment of a deliverable, submit either the invoice 2in1, which meets the requirements for the invoice and receiving report, or the applicable invoice and receiving report, as specified by the...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "for fixed price line items that require shipment of a deliverable.) (B) For services that do not require shipment of a deliverable, submit either the Invoice 2in1, which meets the requirements for the invoice and receiving report, or the applicable invoice and receiving report, as specified by the..."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e003131cc5d31dc6",
+      "claim_id": "claim-5a117c82a633458d",
       "confidence": "high",
       "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-74b2e86a6614d292",
+          "locator": "opportunity_status:open",
+          "title": "66--SENSOR,AMBIENT TEMP",
+          "url": "https://sam.gov/workspace/contract/opp/b749f496a21443708e47a8291f23ab44/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526T375T",
+        "label": "66--SENSOR,AMBIENT TEMP",
+        "node_id": "opportunity:sam_gov:SPE4A526T375T",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ba8da5af7ffb77e0",
+      "confidence": "high",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b2eacc8c0fbe32a4",
+          "locator": "deadline:2026-08-26",
+          "title": "66--SENSOR,AMBIENT TEMP",
+          "url": "https://sam.gov/workspace/contract/opp/b749f496a21443708e47a8291f23ab44/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526T375T",
+        "label": "66--SENSOR,AMBIENT TEMP",
+        "node_id": "opportunity:sam_gov:SPE4A526T375T",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-26"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-500e83ab3bb6ee86",
+      "confidence": "high",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "object": null,
+      "predicate": "set_aside",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fac514be63ca456f",
+          "locator": "set_aside:small business set aside - total",
+          "title": "66--SENSOR,AMBIENT TEMP",
+          "url": "https://sam.gov/workspace/contract/opp/b749f496a21443708e47a8291f23ab44/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526T375T",
+        "label": "66--SENSOR,AMBIENT TEMP",
+        "node_id": "opportunity:sam_gov:SPE4A526T375T",
+        "node_type": "opportunity"
+      },
+      "value": "Small Business Set Aside - Total"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-a0ca60905a6910f8",
+      "confidence": "high",
+      "effective_date": "2026-08-18",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f1970b3bc34a5a10",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
+          "title": "66--SENSOR,AMBIENT TEMP",
+          "url": "https://sam.gov/workspace/contract/opp/b749f496a21443708e47a8291f23ab44/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526T375T",
+        "label": "66--SENSOR,AMBIENT TEMP",
+        "node_id": "opportunity:sam_gov:SPE4A526T375T",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-e29b6dc469a22aae",
+      "confidence": "high",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -2488,29 +914,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9505be9fb43d4249",
-          "locator": "legal_business_name:the research foundation for the state university of new york",
-          "title": "The Research Foundation for The State University of New York",
-          "url": "https://sam.gov/entity/LMCJKRFW5R81/coreData",
+          "evidence_id": "evidence-32b6231c9ffd7f3f",
+          "locator": "legal_business_name:shorepoint llc",
+          "title": "SHOREPOINT LLC",
+          "url": "https://sam.gov/entity/KNJHHF1GWLF3/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:LMCJKRFW5R81",
-        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
+        "identifier": "uei:KNJHHF1GWLF3",
+        "label": "SHOREPOINT LLC",
+        "node_id": "recipient_or_contractor:uei:KNJHHF1GWLF3",
         "node_type": "recipient_or_contractor"
       },
-      "value": "The Research Foundation for The State University of New York"
+      "value": "SHOREPOINT LLC"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-8dff571b0c5b08e1",
+      "claim_id": "claim-6e5993a8e9f2dce5",
       "confidence": "high",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -2518,29 +944,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7e3404b97a5d70b4",
-          "locator": "uei:lmcjkrfw5r81",
-          "title": "The Research Foundation for The State University of New York",
-          "url": "https://sam.gov/entity/LMCJKRFW5R81/coreData",
+          "evidence_id": "evidence-52fa82cc971603d3",
+          "locator": "uei:knjhhf1gwlf3",
+          "title": "SHOREPOINT LLC",
+          "url": "https://sam.gov/entity/KNJHHF1GWLF3/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:LMCJKRFW5R81",
-        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
+        "identifier": "uei:KNJHHF1GWLF3",
+        "label": "SHOREPOINT LLC",
+        "node_id": "recipient_or_contractor:uei:KNJHHF1GWLF3",
         "node_type": "recipient_or_contractor"
       },
-      "value": "LMCJKRFW5R81"
+      "value": "KNJHHF1GWLF3"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-717955481007b6ca",
+      "claim_id": "claim-f8fba5505b7164ec",
       "confidence": "high",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -2548,29 +974,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-032124b3d4b68c4a",
-          "locator": "cage_code:3gqt6",
-          "title": "The Research Foundation for The State University of New York",
-          "url": "https://sam.gov/entity/LMCJKRFW5R81/coreData",
+          "evidence_id": "evidence-fd221415325a2312",
+          "locator": "cage_code:7wwj6",
+          "title": "SHOREPOINT LLC",
+          "url": "https://sam.gov/entity/KNJHHF1GWLF3/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:LMCJKRFW5R81",
-        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
+        "identifier": "uei:KNJHHF1GWLF3",
+        "label": "SHOREPOINT LLC",
+        "node_id": "recipient_or_contractor:uei:KNJHHF1GWLF3",
         "node_type": "recipient_or_contractor"
       },
-      "value": "3GQT6"
+      "value": "7WWJ6"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-401f570e8cf0242b",
+      "claim_id": "claim-30fd9ca4f2523b0b",
       "confidence": "high",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -2578,17 +1004,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fc56f7b771c38a4a",
+          "evidence_id": "evidence-8aad8a663d5c109e",
           "locator": "registration_status:active",
-          "title": "The Research Foundation for The State University of New York",
-          "url": "https://sam.gov/entity/LMCJKRFW5R81/coreData",
+          "title": "SHOREPOINT LLC",
+          "url": "https://sam.gov/entity/KNJHHF1GWLF3/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:LMCJKRFW5R81",
-        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
+        "identifier": "uei:KNJHHF1GWLF3",
+        "label": "SHOREPOINT LLC",
+        "node_id": "recipient_or_contractor:uei:KNJHHF1GWLF3",
         "node_type": "recipient_or_contractor"
       },
       "value": "Active"
@@ -2596,11 +1022,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-ae8a1f2ff82f1638",
+      "claim_id": "claim-411c55550670d8c4",
       "confidence": "high",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -2608,29 +1034,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-29917e5b7fdfa575",
-          "locator": "legal_business_name:oregon state university",
-          "title": "OREGON STATE UNIVERSITY",
-          "url": "https://sam.gov/entity/MZ4DYXE1SL98/coreData",
+          "evidence_id": "evidence-4d48fe9d83d5d12e",
+          "locator": "legal_business_name:secrecy labs llc",
+          "title": "SECRECY LABS LLC",
+          "url": "https://sam.gov/entity/SF98GF5PP282/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:MZ4DYXE1SL98",
-        "label": "OREGON STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MZ4DYXE1SL98",
+        "identifier": "uei:SF98GF5PP282",
+        "label": "SECRECY LABS LLC",
+        "node_id": "recipient_or_contractor:uei:SF98GF5PP282",
         "node_type": "recipient_or_contractor"
       },
-      "value": "OREGON STATE UNIVERSITY"
+      "value": "SECRECY LABS LLC"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-48125977c4ce35c3",
+      "claim_id": "claim-d2dd758df3612bf6",
       "confidence": "high",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -2638,29 +1064,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-dc43ef1053e817be",
-          "locator": "uei:mz4dyxe1sl98",
-          "title": "OREGON STATE UNIVERSITY",
-          "url": "https://sam.gov/entity/MZ4DYXE1SL98/coreData",
+          "evidence_id": "evidence-f4e3f72acad5cd1b",
+          "locator": "uei:sf98gf5pp282",
+          "title": "SECRECY LABS LLC",
+          "url": "https://sam.gov/entity/SF98GF5PP282/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:MZ4DYXE1SL98",
-        "label": "OREGON STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MZ4DYXE1SL98",
+        "identifier": "uei:SF98GF5PP282",
+        "label": "SECRECY LABS LLC",
+        "node_id": "recipient_or_contractor:uei:SF98GF5PP282",
         "node_type": "recipient_or_contractor"
       },
-      "value": "MZ4DYXE1SL98"
+      "value": "SF98GF5PP282"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-75acaff3b3e1e976",
+      "claim_id": "claim-9d758e887dba77f8",
       "confidence": "high",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -2668,29 +1094,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-aa9adb7de4a85355",
-          "locator": "cage_code:5d489",
-          "title": "OREGON STATE UNIVERSITY",
-          "url": "https://sam.gov/entity/MZ4DYXE1SL98/coreData",
+          "evidence_id": "evidence-b9326e9879142d95",
+          "locator": "cage_code:8jr76",
+          "title": "SECRECY LABS LLC",
+          "url": "https://sam.gov/entity/SF98GF5PP282/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:MZ4DYXE1SL98",
-        "label": "OREGON STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MZ4DYXE1SL98",
+        "identifier": "uei:SF98GF5PP282",
+        "label": "SECRECY LABS LLC",
+        "node_id": "recipient_or_contractor:uei:SF98GF5PP282",
         "node_type": "recipient_or_contractor"
       },
-      "value": "5D489"
+      "value": "8JR76"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-ef8bfc299ba8f846",
+      "claim_id": "claim-30e8bfbc3e62bd46",
       "confidence": "high",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -2698,17 +1124,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-455970042aa1d5bc",
+          "evidence_id": "evidence-0102ce63a6e9afd1",
           "locator": "registration_status:active",
-          "title": "OREGON STATE UNIVERSITY",
-          "url": "https://sam.gov/entity/MZ4DYXE1SL98/coreData",
+          "title": "SECRECY LABS LLC",
+          "url": "https://sam.gov/entity/SF98GF5PP282/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:MZ4DYXE1SL98",
-        "label": "OREGON STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MZ4DYXE1SL98",
+        "identifier": "uei:SF98GF5PP282",
+        "label": "SECRECY LABS LLC",
+        "node_id": "recipient_or_contractor:uei:SF98GF5PP282",
         "node_type": "recipient_or_contractor"
       },
       "value": "Active"
@@ -2716,11 +1142,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-bbb1199cb4e4f1ed",
+      "claim_id": "claim-ef1a3849929e12e8",
       "confidence": "high",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -2728,29 +1154,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8de1553c67776a5c",
-          "locator": "legal_business_name:deloitte consulting llp",
-          "title": "DELOITTE CONSULTING LLP",
-          "url": "https://sam.gov/entity/CKV2L9GZKJK3/coreData",
+          "evidence_id": "evidence-8f4aa336d9ce7f05",
+          "locator": "legal_business_name:aon consulting, inc.",
+          "title": "Aon Consulting, Inc.",
+          "url": "https://sam.gov/entity/SFE8M7RF4A37/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:CKV2L9GZKJK3",
-        "label": "DELOITTE CONSULTING LLP",
-        "node_id": "recipient_or_contractor:uei:CKV2L9GZKJK3",
+        "identifier": "uei:SFE8M7RF4A37",
+        "label": "AON CONSULTING, INC.",
+        "node_id": "recipient_or_contractor:uei:SFE8M7RF4A37",
         "node_type": "recipient_or_contractor"
       },
-      "value": "DELOITTE CONSULTING LLP"
+      "value": "Aon Consulting, Inc."
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-aaab340b1f666c20",
+      "claim_id": "claim-4f44f87831240fe3",
       "confidence": "high",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -2758,29 +1184,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9d29fe7b01660e4f",
-          "locator": "uei:ckv2l9gzkjk3",
-          "title": "DELOITTE CONSULTING LLP",
-          "url": "https://sam.gov/entity/CKV2L9GZKJK3/coreData",
+          "evidence_id": "evidence-9193eb53a2a036a5",
+          "locator": "uei:sfe8m7rf4a37",
+          "title": "Aon Consulting, Inc.",
+          "url": "https://sam.gov/entity/SFE8M7RF4A37/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:CKV2L9GZKJK3",
-        "label": "DELOITTE CONSULTING LLP",
-        "node_id": "recipient_or_contractor:uei:CKV2L9GZKJK3",
+        "identifier": "uei:SFE8M7RF4A37",
+        "label": "AON CONSULTING, INC.",
+        "node_id": "recipient_or_contractor:uei:SFE8M7RF4A37",
         "node_type": "recipient_or_contractor"
       },
-      "value": "CKV2L9GZKJK3"
+      "value": "SFE8M7RF4A37"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-ace7c9459dc06838",
+      "claim_id": "claim-9b8ea84fa0d078c0",
       "confidence": "high",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -2788,29 +1214,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c5fb096648de2b89",
-          "locator": "cage_code:1ttg5",
-          "title": "DELOITTE CONSULTING LLP",
-          "url": "https://sam.gov/entity/CKV2L9GZKJK3/coreData",
+          "evidence_id": "evidence-91078a169b9dc290",
+          "locator": "cage_code:34uw4",
+          "title": "Aon Consulting, Inc.",
+          "url": "https://sam.gov/entity/SFE8M7RF4A37/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:CKV2L9GZKJK3",
-        "label": "DELOITTE CONSULTING LLP",
-        "node_id": "recipient_or_contractor:uei:CKV2L9GZKJK3",
+        "identifier": "uei:SFE8M7RF4A37",
+        "label": "AON CONSULTING, INC.",
+        "node_id": "recipient_or_contractor:uei:SFE8M7RF4A37",
         "node_type": "recipient_or_contractor"
       },
-      "value": "1TTG5"
+      "value": "34UW4"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-69ab95b1b884313c",
+      "claim_id": "claim-65934268140dd257",
       "confidence": "high",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -2818,17 +1244,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-66b1bb1374ac236b",
+          "evidence_id": "evidence-ddb04892c6b5b6df",
           "locator": "registration_status:active",
-          "title": "DELOITTE CONSULTING LLP",
-          "url": "https://sam.gov/entity/CKV2L9GZKJK3/coreData",
+          "title": "Aon Consulting, Inc.",
+          "url": "https://sam.gov/entity/SFE8M7RF4A37/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:CKV2L9GZKJK3",
-        "label": "DELOITTE CONSULTING LLP",
-        "node_id": "recipient_or_contractor:uei:CKV2L9GZKJK3",
+        "identifier": "uei:SFE8M7RF4A37",
+        "label": "AON CONSULTING, INC.",
+        "node_id": "recipient_or_contractor:uei:SFE8M7RF4A37",
         "node_type": "recipient_or_contractor"
       },
       "value": "Active"
@@ -2836,11 +1262,11 @@
     {
       "authority": "analytical",
       "change_type": "added",
-      "claim_id": "claim-37b6e29368059f93",
+      "claim_id": "claim-91f61c79441e8944",
       "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "sources": [
@@ -2848,80 +1274,10 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-09c52a1ebc12aa4f",
+          "evidence_id": "evidence-14360499b5e4139a",
           "locator": "qualification_gate",
-          "title": "High-Performance Quantum Scalar Magnetometers",
-          "url": "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3aedd2bb137d9a55",
-          "locator": "qualification_gate",
-          "title": "High-Performance Quantum Scalar Magnetometers",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-828dbd06df6bee16",
-          "locator": "qualification_gate",
-          "title": "High-Performance Quantum Scalar Magnetometers",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c9e039d2a444f6fa525d4b24ef517e8/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-93d661cebadb1653",
-          "locator": "qualification_gate",
-          "title": "High-Performance Quantum Scalar Magnetometers",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a8acae87ca2ee124",
-          "locator": "qualification_gate",
-          "title": "High-Performance Quantum Scalar Magnetometers",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/58039c0f631e4cae8a30d940d37022bf/download",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA700026Q0063",
-        "label": "High-Performance Quantum Scalar Magnetometers",
-        "node_id": "opportunity:sam_gov:FA700026Q0063",
-        "node_type": "opportunity"
-      },
-      "value": "targeted review"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-f3b14cad06d31f24",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c6a34d91b04e1734",
-          "locator": "qualification_gate",
-          "title": "66--SENSOR,LIQUID FLOW",
-          "url": "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view",
+          "title": "63--SALINITY SENSOR,CON",
+          "url": "https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view",
           "verification_status": "source_reported"
         },
         {
@@ -2930,15 +1286,15 @@
           "controlling_status": "not_asserted",
           "evidence_id": "evidence-075bdcb08b78b6b5",
           "locator": "qualification_gate",
-          "title": "66--SENSOR,LIQUID FLOW",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9e75681b5bb5424389ad629ec4764b79",
+          "title": "63--SALINITY SENSOR,CON",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0f76f691fbc441681bc673240f79d62",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A126T2624",
-        "label": "66--SENSOR,LIQUID FLOW",
-        "node_id": "opportunity:sam_gov:SPE4A126T2624",
+        "identifier": "sam_gov:SPE4A526T373T",
+        "label": "63--SALINITY SENSOR,CON",
+        "node_id": "opportunity:sam_gov:SPE4A526T373T",
         "node_type": "opportunity"
       },
       "value": "hold"
@@ -2946,13 +1302,312 @@
     {
       "authority": "analytical",
       "change_type": "added",
-      "claim_id": "claim-299d94e1c6152815",
+      "claim_id": "claim-e333416cecdf7c29",
       "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
       "object": null,
       "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-29d22750886fe852",
+          "locator": "qualification_gate",
+          "title": "66--SENSOR,AMBIENT TEMP",
+          "url": "https://sam.gov/workspace/contract/opp/b749f496a21443708e47a8291f23ab44/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "66--SENSOR,AMBIENT TEMP",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b749f496a21443708e47a8291f23ab44",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526T375T",
+        "label": "66--SENSOR,AMBIENT TEMP",
+        "node_id": "opportunity:sam_gov:SPE4A526T375T",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-d0acf7df2d102412",
+      "confidence": "medium",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cbef34ab00f04379",
+          "locator": "qualification_gate",
+          "title": "29--SENSOR,MASS AIR FLO",
+          "url": "https://sam.gov/workspace/contract/opp/f9f8780939b843929ca1931cbff0001a/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "29--SENSOR,MASS AIR FLO",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f9f8780939b843929ca1931cbff0001a",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7L126T982G",
+        "label": "29--SENSOR,MASS AIR FLO",
+        "node_id": "opportunity:sam_gov:SPE7L126T982G",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-20b7a6fdedd837e1",
+      "confidence": "medium",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a96c41b813e60580",
+          "locator": "qualification_gate",
+          "title": "Sensor Agnostic Emulator & Trainer (SAET)",
+          "url": "https://sam.gov/workspace/contract/opp/eff0352a48d249619d9fb777d40cfbeb/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cfecd3e6f914c259",
+          "locator": "qualification_gate",
+          "title": "Sensor Agnostic Emulator & Trainer (SAET)",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4416c844ac354850ab8d351cac5d21a1/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Sensor Agnostic Emulator & Trainer (SAET)",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=eff0352a48d249619d9fb777d40cfbeb",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:FA852726RSAET",
+        "label": "Sensor Agnostic Emulator & Trainer (SAET)",
+        "node_id": "opportunity:sam_gov:FA852726RSAET",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-ad3a327a3d4d8c2e",
+      "confidence": "medium",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cd4e74919e4a3b23",
+          "locator": "qualification_gate",
+          "title": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+          "url": "https://sam.gov/workspace/contract/opp/ccb7fecdd0d54543afd2d740f3f84ac7/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-29173a97b089ab96",
+          "locator": "qualification_gate",
+          "title": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0b259bdf43a146588a1347569220e448/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a08fe5c7afae6a5e",
+          "locator": "qualification_gate",
+          "title": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3e448a78ead841adb2bfe7459e97fb89/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ccb7fecdd0d54543afd2d740f3f84ac7",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a7ce960566e242bbbf871a3e2fab3453",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:ATEC_RIW26_003",
+        "label": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+        "node_id": "opportunity:sam_gov:ATEC_RIW26_003",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-1586ba5e89f58404",
+      "confidence": "medium",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4a0678a0b752e1bc",
+          "locator": "qualification_gate",
+          "title": "University-led Networks for Innovation, Technology, and Expertise (UNITE)",
+          "url": "https://www.grants.gov/search-results-detail/363645",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:DOS-SAU-2603-PD",
+        "label": "University-led Networks for Innovation, Technology, and Expertise (UNITE)",
+        "node_id": "opportunity:grants_gov:DOS-SAU-2603-PD",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    }
+  ],
+  "baseline_initialized": false,
+  "changed": [
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-3176e7543bf10bff",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-38fd11ca5f6452ad",
+          "locator": "opportunity_status:closed",
+          "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+          "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:36C24W26Q0060",
+        "label": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
+        "node_id": "opportunity:sam_gov:36C24W26Q0060",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-ab93a58d8f73798a",
+      "confidence": "high",
+      "effective_date": "2026-08-04",
+      "first_observed_at": "2026-08-05T01:53:11.626011+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-062d0637046cb804",
+          "locator": "opportunity_status:closed",
+          "title": "Power Sensor Check Standard",
+          "url": "https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:NB672010-26-02284",
+        "label": "Power Sensor Check Standard",
+        "node_id": "opportunity:sam_gov:NB672010-26-02284",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-299d94e1c6152815",
+      "confidence": "medium",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "last_observed_at": "2026-08-19T00:50:32.420067+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
       "sources": [
         {
           "authority": "authoritative",
@@ -3002,341 +1657,27 @@
         "node_type": "opportunity"
       },
       "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-c0cf7bf95054f0e9",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a19ca33cb61fcc38",
-          "locator": "qualification_gate",
-          "title": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
-          "url": "https://sam.gov/workspace/contract/opp/b1f26e7ded2643d2835947cc08cb56fe/view",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-367472309e0b8976",
-          "locator": "qualification_gate",
-          "title": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b6844979abcd4017bb578d76c99602c8/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-09005201a59dfbf3",
-          "locator": "qualification_gate",
-          "title": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/efdd6863d9544a0d9759777fcfcb8938/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b1f26e7ded2643d2835947cc08cb56fe",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:HT0038RFSACADM",
-        "label": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
-        "node_id": "opportunity:sam_gov:HT0038RFSACADM",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    }
-  ],
-  "baseline_initialized": false,
-  "changed": [
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-cb6bd5404d4ef2a2",
-      "confidence": "high",
-      "effective_date": "2026-08-14",
-      "first_observed_at": "2026-08-15T00:51:02.586375+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "previous_object": null,
-      "previous_value": "open",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-69dacda34657d365",
-          "locator": "opportunity_status:closed",
-          "title": "Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech\u200b",
-          "url": "https://sam.gov/workspace/contract/opp/aeac410f5c844f4885353c70e0367dcb/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:W91QVP-26-S-GTEADAutonomousSustainment",
-        "label": "Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech\u200b",
-        "node_id": "opportunity:sam_gov:W91QVP-26-S-GTEADAutonomousSustainment",
-        "node_type": "opportunity"
-      },
-      "value": "closed"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-eb22ec5d0510f9d8",
-      "confidence": "high",
-      "effective_date": "2026-08-11",
-      "first_observed_at": "2026-08-12T01:17:45.977018+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "previous_object": null,
-      "previous_value": "open",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-74cd53582523574f",
-          "locator": "opportunity_status:closed",
-          "title": "AN12--Machine Learning Analytics for Total Brain Diagnostics Project",
-          "url": "https://sam.gov/workspace/contract/opp/c5583f99bec74dcd824cc37e8926512c/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:36C24E26Q0093",
-        "label": "AN12--Machine Learning Analytics for Total Brain Diagnostics Project",
-        "node_id": "opportunity:sam_gov:36C24E26Q0093",
-        "node_type": "opportunity"
-      },
-      "value": "closed"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-c333dc2ccebee2fa",
-      "confidence": "high",
-      "effective_date": "2026-08-10",
-      "first_observed_at": "2026-08-11T01:10:04.632160+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "previous_object": null,
-      "previous_value": "open",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cdb2cc19ab4508b6",
-          "locator": "opportunity_status:closed",
-          "title": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
-          "url": "https://sam.gov/workspace/contract/opp/f34d767fd1684bf3a8e2c3c0f17e9959/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:NIST-AMD-TC-RQ-26-01477",
-        "label": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
-        "node_id": "opportunity:sam_gov:NIST-AMD-TC-RQ-26-01477",
-        "node_type": "opportunity"
-      },
-      "value": "closed"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-60c1ae642d3030c4",
-      "confidence": "high",
-      "effective_date": "2026-08-09",
-      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "previous_object": null,
-      "previous_value": "open",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-de7ec9aa0899c084",
-          "locator": "opportunity_status:closed",
-          "title": "15--PLATE,STRUCTURAL,AI",
-          "url": "https://sam.gov/workspace/contract/opp/09fe7a517f284b6b893fba0df8b92de6/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE4A726T634Z",
-        "label": "15--PLATE,STRUCTURAL,AI",
-        "node_id": "opportunity:sam_gov:SPE4A726T634Z",
-        "node_type": "opportunity"
-      },
-      "value": "closed"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-4d602e9813dccd1f",
-      "confidence": "high",
-      "effective_date": "2026-08-06",
-      "first_observed_at": "2026-08-07T02:18:23.710417+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "previous_object": null,
-      "previous_value": "open",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a3d6b5b4bf0df70c",
-          "locator": "opportunity_status:closed",
-          "title": "29--SENSOR,AIR CHARGED",
-          "url": "https://sam.gov/workspace/contract/opp/e517e60215054acd9a4504fdfd7145a2/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE7L526T4804",
-        "label": "29--SENSOR,AIR CHARGED",
-        "node_id": "opportunity:sam_gov:SPE7L526T4804",
-        "node_type": "opportunity"
-      },
-      "value": "closed"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-9a472c1079963cb5",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-12T01:17:45.977018+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f820eadd8f0bdf1d",
-          "locator": "qualification_gate",
-          "title": "Decentralized Artificial Intelligence through Controlled Emergence (DICE)",
-          "url": "https://www.grants.gov/search-results-detail/362743",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:HR001126S0010",
-        "label": "Decentralized Artificial Intelligence through Controlled Emergence (DICE)",
-        "node_id": "opportunity:grants_gov:HR001126S0010",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-6ffec5b01476a46c",
-      "confidence": "medium",
-      "effective_date": "2026-08-18",
-      "first_observed_at": "2026-08-12T01:17:45.977018+00:00",
-      "last_observed_at": "2026-08-18T00:49:54.498894+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d542b21128ac80ce",
-          "locator": "qualification_gate",
-          "title": "29--SENSOR,EXHAUST GAS,",
-          "url": "https://sam.gov/workspace/contract/opp/b362ba053a6c4581a208828b2c12d401/view",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "29--SENSOR,EXHAUST GAS,",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b362ba053a6c4581a208828b2c12d401",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE4A526T345K",
-        "label": "29--SENSOR,EXHAUST GAS,",
-        "node_id": "opportunity:sam_gov:SPE4A526T345K",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
     }
   ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-08-18T00:49:54.498894+00:00",
-  "comparison_started_at": "2026-08-17T00:51:32.831772+00:00",
+  "comparison_ended_at": "2026-08-19T00:50:32.420067+00:00",
+  "comparison_started_at": "2026-08-18T00:49:54.498894+00:00",
   "conflict_opened": [
     {
       "authority": "authoritative",
       "change_type": "conflict_opened",
       "claim_ids": [
-        "claim-4f5af14b24892725",
-        "claim-cb6bd5404d4ef2a2"
+        "claim-34cfef97d8eb2c07",
+        "claim-c36800116c64b330"
       ],
-      "conflict_id": "conflict-8e89c7fd9387a79a",
-      "predicate": "opportunity_status",
-      "reason": "Equally authoritative sources assert different values; recency alone does not silently resolve cross-source disagreement",
-      "subject_label": "Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech\u200b",
-      "subject_node_id": "opportunity:sam_gov:W91QVP-26-S-GTEADAutonomousSustainment",
-      "values": [
-        "closed",
-        "open"
-      ]
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "conflict_opened",
-      "claim_ids": [
-        "claim-dde72462665f985f",
-        "claim-eca634e63045179f"
-      ],
-      "conflict_id": "conflict-93a775a4e8654c8c",
+      "conflict_id": "conflict-0818c6b30732b654",
       "predicate": "deadline",
       "reason": "Equally authoritative sources assert different values; recency alone does not silently resolve cross-source disagreement",
-      "subject_label": "Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)",
-      "subject_node_id": "opportunity:grants_gov:26-514",
+      "subject_label": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+      "subject_node_id": "opportunity:sam_gov:ATEC_RIW26_003",
       "values": [
-        "08/12/2076",
-        "08/17/2076"
+        "2026-08-19t15:00:00-04:00",
+        "2026-08-21t16:30:00-04:00"
       ]
     }
   ],
@@ -3346,34 +1687,17 @@
       "authority": "authoritative",
       "change_type": "conflict_opened",
       "claim_ids": [
-        "claim-4f5af14b24892725",
-        "claim-cb6bd5404d4ef2a2"
+        "claim-34cfef97d8eb2c07",
+        "claim-c36800116c64b330"
       ],
-      "conflict_id": "conflict-8e89c7fd9387a79a",
-      "predicate": "opportunity_status",
-      "reason": "Equally authoritative sources assert different values; recency alone does not silently resolve cross-source disagreement",
-      "subject_label": "Global Tactical Edge Acquisition Directorate (G-TEAD) USARPAC ACE 27-01: Autonomous Sustainment Powered by xTech\u200b",
-      "subject_node_id": "opportunity:sam_gov:W91QVP-26-S-GTEADAutonomousSustainment",
-      "values": [
-        "closed",
-        "open"
-      ]
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "conflict_opened",
-      "claim_ids": [
-        "claim-dde72462665f985f",
-        "claim-eca634e63045179f"
-      ],
-      "conflict_id": "conflict-93a775a4e8654c8c",
+      "conflict_id": "conflict-0818c6b30732b654",
       "predicate": "deadline",
       "reason": "Equally authoritative sources assert different values; recency alone does not silently resolve cross-source disagreement",
-      "subject_label": "Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)",
-      "subject_node_id": "opportunity:grants_gov:26-514",
+      "subject_label": "ATEC HQ 003 - AI Assurance & Autonomous System Validation",
+      "subject_node_id": "opportunity:sam_gov:ATEC_RIW26_003",
       "values": [
-        "08/12/2076",
-        "08/17/2076"
+        "2026-08-19t15:00:00-04:00",
+        "2026-08-21t16:30:00-04:00"
       ]
     }
   ],
@@ -4289,19 +2613,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-08-17T00:51:32.831772+00:00",
+  "since": "2026-08-18T00:49:54.498894+00:00",
   "summary": {
-    "active_claims": 2646,
-    "added": 95,
-    "changed": 7,
-    "conflicts": 6,
-    "conflicts_opened": 2,
+    "active_claims": 2690,
+    "added": 44,
+    "changed": 3,
+    "conflicts": 7,
+    "conflicts_opened": 1,
     "conflicts_resolved": 0,
-    "material_changes": 131,
+    "material_changes": 75,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-08-18T00:49:54.498894+00:00",
+  "updated_at": "2026-08-19T00:50:32.420067+00:00",
   "version": 1
 }

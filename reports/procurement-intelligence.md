@@ -2,16 +2,41 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-18T00:49:54.498894+00:00_
+_Updated 2026-08-19T00:50:32.420067+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
 - Opportunities reviewed: **20**
-- Documents extracted: **9** / **40** discovered
+- Documents extracted: **9** / **37** discovered
 - Changed documents: **0**
 - New amendments: **0**
-- Material amendment impacts this run: **0**
-- Decisions requiring revalidation: **2**
+- Material amendment impacts this run: **1**
+- Decisions requiring revalidation: **3**
+
+## [63--SALINITY SENSOR,CON](https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-26**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0f76f691fbc441681bc673240f79d62) — no_text
+
+## [66--SENSOR,AMBIENT TEMP](https://sam.gov/workspace/contract/opp/b749f496a21443708e47a8291f23ab44/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-26**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b749f496a21443708e47a8291f23ab44) — no_text
+
+## [29--SENSOR,MASS AIR FLO](https://sam.gov/workspace/contract/opp/f9f8780939b843929ca1931cbff0001a/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-31**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f9f8780939b843929ca1931cbff0001a) — no_text
+
+## [Sensor Agnostic Emulator & Trainer (SAET)](https://sam.gov/workspace/contract/opp/eff0352a48d249619d9fb777d40cfbeb/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-09-18T16:00:00-04:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4416c844ac354850ab8d351cac5d21a1/download) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=eff0352a48d249619d9fb777d40cfbeb) — not_fetched
 
 ## [High-Performance Quantum Scalar Magnetometers](https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view)
 
@@ -28,6 +53,31 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c9e039d2a444f6fa525d4b24ef517e8/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/58039c0f631e4cae8a30d940d37022bf/download) — not_fetched
+
+## [ATEC HQ 003 - AI Assurance & Autonomous System Validation](https://sam.gov/workspace/contract/opp/ccb7fecdd0d54543afd2d740f3f84ac7/view)
+
+Evidence completeness: **84 / 100** · Deadline: **2026-08-21T16:30:00-04:00**
+
+Requirements evidence:
+- nt. All payment obligations are subject to Congressional appropriations. • In order to be eligible for award, companies must: o Possess a Unique Entity ID (UEI) and be registered in the System for Award Management (SAM) prior to award and maintain active registration throughout the period of perfor...
+- government invoicing system (e.g., Wide Area Workflow). o Accurately represent their small business size and status as required. 4 o Be determined responsible by the Contracting/Agreements Officer and not be suspended, debarred, or otherwise prohibited from receiving an award. o Disclose any actual...
+- listed for each capability need. • Resellers and academic research proposals are not desired. • The Solution Submission must identify any intellectual property involved in the effort and associated restrictions on the Government’s use of that intellectual property. • The Government reserves the rig...
+- Responses are to be sent only to the Contracting Officer and Specialist listed in this Call for Solution. The following shall be utilized in the email subject line “Call for Solution - [Your Company Name] - ATEC_RIW26_003" (Example: Call for Solution - ABC Corp - ATEC_RIW26_003). Material questions...
+- 0 SOLUTION SUBMISSION REQUIREMENTS 6.1 Phase 1 – Solution Brief 6.1.1 Phase 1 – Solution Brief Content Solution Briefs shall not exceed six (6) written pages using 12-point Times New Roman font or, alternatively, may take the form of briefing slides not exceeding fifteen (15) slides. The Government...
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0b259bdf43a146588a1347569220e448/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3e448a78ead841adb2bfe7459e97fb89/download) — extracted
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ccb7fecdd0d54543afd2d740f3f84ac7) — not_fetched
+
+### Changes since the previous tracker snapshot
+
+**HIGH · 1 change(s) · decision revalidation required**
+
+_Version history is tracker-observed and may not include revisions published before monitoring began._
+
+| Impact | Change | Before | After | Evidence |
+|---|---|---|---|---|
+| HIGH | Response deadline extended from 2026-08-19 to 2026-08-21. | 2026-08-19T15:00:00-04:00 | 2026-08-21T16:30:00-04:00 | [Open](https://sam.gov/workspace/contract/opp/ccb7fecdd0d54543afd2d740f3f84ac7/view) |
 
 ## [66--SENSOR,LIQUID FLOW](https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view)
 
@@ -50,28 +100,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-28T10:00:00-04:00**
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b6844979abcd4017bb578d76c99602c8/download) — not_fetched
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/efdd6863d9544a0d9759777fcfcb8938/download) — not_fetched
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b1f26e7ded2643d2835947cc08cb56fe) — not_fetched
-
-## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-21**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0b0acdbbd7640858dec2985c5d76c54) — not_fetched
-
-## [6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment](https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-18T16:00:00-05:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee6bbed69f4b4d8bbb04c541cbf6918c/download) — not_fetched
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d6568c226f0745c087ac45acfc446e49) — not_fetched
-
-## [Power Sensor Check Standard](https://sam.gov/workspace/contract/opp/a916c0fefe6645099291c9d44fdfe3de/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-18T17:00:00-06:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7dbc8de283334dda94aa3e02d7a035c4/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7f507de2693c425ba6bf200289f6991e/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c420383a6e6246aa909bfa686165dadd/download) — not_fetched
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a916c0fefe6645099291c9d44fdfe3de) — not_fetched
 
 ## [16--MODIFICATION KIT,AI](https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view)
 
@@ -116,6 +144,12 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-20**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e167abdf96e74cb48727525b8fbf0bb1) — not_fetched
 
+## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-21**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0b0acdbbd7640858dec2985c5d76c54) — not_fetched
+
 ## [NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder](https://sam.gov/workspace/contract/opp/93064bc210294f239f395b372899ceab/view)
 
 Evidence completeness: **84 / 100** · Deadline: **2026-08-20T12:00:00-04:00**
@@ -147,39 +181,12 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download) — extracted
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=abf380cc0c634612a69ce193a212fbd4) — no_text
 
-## [ATEC HQ 003 - AI Assurance & Autonomous System Validation](https://sam.gov/workspace/contract/opp/a7ce960566e242bbbf871a3e2fab3453/view)
-
-Evidence completeness: **84 / 100** · Deadline: **2026-08-19T15:00:00-04:00**
-
-Requirements evidence:
-- nt. All payment obligations are subject to Congressional appropriations. • In order to be eligible for award, companies must: o Possess a Unique Entity ID (UEI) and be registered in the System for Award Management (SAM) prior to award and maintain active registration throughout the period of perfor...
-- government invoicing system (e.g., Wide Area Workflow). o Accurately represent their small business size and status as required. 4 o Be determined responsible by the Contracting/Agreements Officer and not be suspended, debarred, or otherwise prohibited from receiving an award. o Disclose any actual...
-- listed for each capability need. • Resellers and academic research proposals are not desired. • The Solution Submission must identify any intellectual property involved in the effort and associated restrictions on the Government’s use of that intellectual property. • The Government reserves the rig...
-- Responses are to be sent only to the Contracting Officer and Specialist listed in this Call for Solution. The following shall be utilized in the email subject line “Call for Solution - [Your Company Name] - ATEC_RIW26_003" (Example: Call for Solution - ABC Corp - ATEC_RIW26_003). Material questions...
-- 0 SOLUTION SUBMISSION REQUIREMENTS 6.1 Phase 1 – Solution Brief 6.1.1 Phase 1 – Solution Brief Content Solution Briefs shall not exceed six (6) written pages using 12-point Times New Roman font or, alternatively, may take the form of briefing slides not exceeding fifteen (15) slides. The Government...
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0b259bdf43a146588a1347569220e448/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3e448a78ead841adb2bfe7459e97fb89/download) — extracted
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a7ce960566e242bbbf871a3e2fab3453) — no_text
-
 ## [KEYSIGHT N8487A POWER SENSOR](https://sam.gov/workspace/contract/opp/10d5c382557249708dd444771cfc5753/view)
 
 Evidence completeness: **0 / 100** · Deadline: **2026-08-21T15:00:00-07:00**
 
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/51add446f08c4b9495dee91977852ab4/download) — failed
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=10d5c382557249708dd444771cfc5753) — no_text
-
-## [16--WHEEL HALF ASSEMBLY,AI](https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-24**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e851ec4b47fd44368f4f76b3e9aedd61) — no_text
-
-## [15--WINDSHIELD PANEL,AI](https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-24**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3113f3aafa0944639a0568e561195081) — no_text
 
 ## Method
 

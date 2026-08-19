@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-08-18 00:59 UTC_
+_Updated 2026-08-19 00:58 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
