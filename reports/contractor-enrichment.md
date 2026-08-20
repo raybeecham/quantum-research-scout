@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-19T00:50:32.420067+00:00_
+_Updated 2026-08-20T00:50:10.359719+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **45** (**60.0%** coverage)
+- SAM.gov-resolved entities: **48** (**64.0%** coverage)
 - Newly resolved this run: **3**
-- Pending bounded enrichment: **132**
+- Pending bounded enrichment: **129**
 - Ambiguous / no match: **2 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -27,6 +27,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | MORGAN STATE UNIVERSITY | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) | KULSKCCZJT27 | 8U547 | Active | Educational Institution, Historically Black College or University, Minority Institution |
 | CARNEGIE-MELLON UNIVERSITY | [CARNEGIE-MELLON UNIVERSITY](https://sam.gov/entity/U3NKNFLNQ613/coreData) | U3NKNFLNQ613 | 97668 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF ILLINOIS | [UNIVERSITY OF ILLINOIS](https://sam.gov/entity/Y8CWNJRCNN91/coreData) | Y8CWNJRCNN91 | 4B808 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
+| THE ARDIAN GROUP, INC | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) | UE9KZJJCMAS9 | 3BR42 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
 | FOUR POINTS TECHNOLOGY, L.L.C. | [FOUR POINTS TECHNOLOGY, L.L.C.](https://sam.gov/entity/H1KHJPJH9R51/coreData) | H1KHJPJH9R51 | 1YS78 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | ARETE CONSULTING LLC | [ARETE CONSULTING LLC](https://sam.gov/entity/C2PNBME1GYB5/coreData) | C2PNBME1GYB5 | 7LRX4 | Active | SBA Certified 8(a) Program Participant |
 | UNIVERSITY OF WISCONSIN SYSTEM | [UNIVERSITY OF WISCONSIN SYSTEM](https://sam.gov/entity/LCLSJAGTNZQ7/coreData) | LCLSJAGTNZQ7 | 09FZ2 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
@@ -57,8 +58,10 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | NATIONWIDE IT SERVICES INC | [NATIONWIDE IT SERVICES INC](https://sam.gov/entity/RR2VC8Y3MK47/coreData) | RR2VC8Y3MK47 | 4Q5A2 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
 | SHOREPOINT LLC | [SHOREPOINT LLC](https://sam.gov/entity/KNJHHF1GWLF3/coreData) | KNJHHF1GWLF3 | 7WWJ6 | Active | Business or Organization, For Profit Organization, Subchapter S Corporation |
 | SECRECY LABS LLC | [SECRECY LABS LLC](https://sam.gov/entity/SF98GF5PP282/coreData) | SF98GF5PP282 | 8JR76 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
+| GOVSMART, INC. | [GOVSMART, INC.](https://sam.gov/entity/DJACUETFQUL8/coreData) | DJACUETFQUL8 | 5WFZ8 | Active | SBA Certified HUBZone Firm |
 | DELOITTE CONSULTING LLP | [DELOITTE CONSULTING LLP](https://sam.gov/entity/CKV2L9GZKJK3/coreData) | CKV2L9GZKJK3 | 1TTG5 | Active | Business or Organization, For Profit Organization |
 | AON CONSULTING, INC. | [Aon Consulting, Inc.](https://sam.gov/entity/SFE8M7RF4A37/coreData) | SFE8M7RF4A37 | 34UW4 | Active | Business or Organization, For Profit Organization, Foreign Owned |
+| CLEARAVENUE LLC | [CLEARAVENUE LLC](https://sam.gov/entity/TZJXKXNHDLX1/coreData) | TZJXKXNHDLX1 | 3EG54 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
 | REDACTED DUE TO PII | REDACTED DUE TO PII | — | — | no_match | No active public SAM.gov entity matched |
 | POST QUANTUM LABS LLC | POST QUANTUM LABS LLC | — | — | pending | api key missing |
@@ -83,12 +86,9 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | ALVAREZ LLC | ALVAREZ LLC | — | — | pending | api key missing |
 | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | — | — | pending | api key missing |
 | NEW YORK UNIVERSITY | NEW YORK UNIVERSITY | — | — | pending | api key missing |
-| THE ARDIAN GROUP, INC | THE ARDIAN GROUP, INC | — | — | pending | Queued for a future bounded enrichment batch |
 | SHOREPOINT LLC | SHOREPOINT LLC | — | — | pending | api key missing |
 | SECRECY LABS LLC | SECRECY LABS LLC | — | — | pending | api key missing |
-| GOVSMART, INC. | GOVSMART, INC. | — | — | pending | Queued for a future bounded enrichment batch |
 | DELOITTE CONSULTING LLP | DELOITTE CONSULTING LLP | — | — | pending | api key missing |
-| W S DARLEY & CO | W S DARLEY & CO | — | — | pending | Queued for a future bounded enrichment batch |
 
 ## Method
 

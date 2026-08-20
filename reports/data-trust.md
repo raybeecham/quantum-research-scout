@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-19T00:50:32.420067+00:00_
+_Updated 2026-08-20T00:50:10.359719+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **509**
-- Quarantined evidence or relationships: **103**
-- Acceptance rate: **83.2%**
+- Accepted evidence: **517**
+- Quarantined evidence or relationships: **105**
+- Acceptance rate: **83.1%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 27 | 76 | 26.2% |
-| Federal funding | 482 | 27 | 94.7% |
+| Federal missions | 27 | 77 | 26.0% |
+| Federal funding | 490 | 28 | 94.6% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 103
-- **No relevant term in the evidence itself**: 103
-- **Official government source**: 98
+- **Match appears only in collector query metadata**: 105
+- **No relevant term in the evidence itself**: 105
+- **Official government source**: 100
 - **Source is not an official .gov or .mil domain**: 5
 
 ## Quarantined Evidence
@@ -72,6 +72,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: mission evidence admission
 - Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 10
+
+### [Lewis-Houghton Civics and Democracy Initiative: New Awards for 2027-2029](https://www.grants.gov/search-results-detail/363514)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Lewis-Houghton Civics and Democracy Initiative: New Awards for 2027-2029](https://www.grants.gov/search-results-detail/363514)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [U.S. National Science Foundation State and Regional Artificial Intelligence Infrastructure Hubs:](https://www.grants.gov/search-results-detail/363481)
 
@@ -704,20 +718,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [U.S. Embassy Praia Ambassador’s Special Self-Help (SSH) Program](https://www.grants.gov/search-results-detail/325599)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [AFCP 2020 Small Grants Competition](https://www.grants.gov/search-results-detail/322815)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [AFCP 2020 Small Grants Competition](https://www.grants.gov/search-results-detail/322814)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

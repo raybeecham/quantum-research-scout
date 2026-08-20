@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 120,
+      "days_to_close": 119,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -188,42 +188,38 @@
       "url": "https://www.grants.gov/search-results-detail/361526"
     },
     {
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.U.S. AIR FORCE ACADEMY.FA7000 10 CONS LGC",
+      "agency": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.US EMBASSY HANOI",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [
         {
-          "email": "ronald.wilson.26@us.af.mil",
-          "full_name": "Ronald Wilson",
-          "phone": "",
+          "email": "HanoiGSOProcurement@state.gov",
+          "full_name": "Hanoi GSO Procurement",
+          "phone": "84438505000",
           "title": "",
           "type": "primary"
         },
         {
-          "email": "wanda.farr@us.af.mil",
-          "full_name": "Wanda Farr",
-          "phone": "",
+          "email": "HurleySJ@state.gov",
+          "full_name": "Stephen Hurley",
+          "phone": "842438505135",
           "title": "",
           "type": "secondary"
-        },
-        {
-          "email": "james.anderson.72@us.af.mil",
-          "source": "document extraction"
         }
       ],
-      "days_to_close": 5,
-      "deadline": "2026-08-24T10:00:00-06:00",
+      "days_to_close": 4,
+      "deadline": "2026-08-24T17:00:00+07:00",
       "decision_freshness": {
         "current_gate": "targeted review",
-        "current_score": 46,
+        "current_score": 45,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "targeted review",
-        "previous_score": 46,
+        "previous_gate": null,
+        "previous_score": null,
         "status": "current"
       },
-      "decision_score": 46,
+      "decision_score": 45,
       "decision_trace": {
         "components": [
           {
@@ -236,22 +232,22 @@
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view"
+              "https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view"
             ],
             "points": 37
           },
           {
             "basis": [
-              "96 / 100 document evidence completeness"
+              "84 / 100 document evidence completeness"
             ],
             "code": "document_evidence",
             "evidence_urls": [
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c9e039d2a444f6fa525d4b24ef517e8/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/58039c0f631e4cae8a30d940d37022bf/download"
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/07b3e40151a049b8bbbd24947d2d08da/download",
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4364a083548f47839ea5c61ffd8cbbf3/download",
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/63d5abfd449a4a7f972664c98504d845/download",
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/bbd8cebc64754b7bb07988925bd951fb/download"
             ],
-            "points": 9
+            "points": 8
           },
           {
             "basis": [
@@ -259,7 +255,7 @@
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view"
+              "https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view"
             ],
             "points": 0
           }
@@ -267,66 +263,147 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 46,
+        "public_evidence_score": 45,
         "source_urls": [
-          "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c9e039d2a444f6fa525d4b24ef517e8/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/58039c0f631e4cae8a30d940d37022bf/download"
+          "https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/07b3e40151a049b8bbbd24947d2d08da/download",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4364a083548f47839ea5c61ffd8cbbf3/download",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/63d5abfd449a4a7f972664c98504d845/download",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/bbd8cebc64754b7bb07988925bd951fb/download"
         ],
-        "trace_hash": "b2aa24e8801f9e36"
+        "trace_hash": "684b98b5eadfad86"
       },
       "eligibility": [
-        "reimburse an offeror for any costs incurred in response to this solicitation. Solicitation Number FA700026Q0063 Type of Set-Aside 100% Total Small Business Set-Aside NAICS Code 334519 (Other Measuring and Controlling Device Manufacturing) Small Business Size Standard 600 Employees Product Service C...",
-        "for any costs incurred in response to this solicitation. Solicitation Number FA700026Q0063 Type of Set-Aside 100% Total Small Business Set-Aside NAICS Code 334519 (Other Measuring and Controlling Device Manufacturing) Small Business Size Standard 600 Employees Product Service Code (PSC) 6655 (Geoph...",
-        "ncurred in response to this solicitation. Solicitation Number FA700026Q0063 Type of Set-Aside 100% Total Small Business Set-Aside NAICS Code 334519 (Other Measuring and Controlling Device Manufacturing) Small Business Size Standard 600 Employees Product Service Code (PSC) 6655 (Geophysical Instrume...",
-        "response to this solicitation. Solicitation Number FA700026Q0063 Type of Set-Aside 100% Total Small Business Set-Aside NAICS Code 334519 (Other Measuring and Controlling Device Manufacturing) Small Business Size Standard 600 Employees Product Service Code (PSC) 6655 (Geophysical Instruments) 1. Gen..."
+        "JUL 2014 52.228-4 WORKERS\u2019 COMPENSA TION AND WAR-HAZARD INSURANCE APR 1984 52.232-40 PROVIDING ACCELE RATED PAYMENTS TO SMALL BUSINESS SUBCONTRACTORS MAR 2023 52.240-90 SECURITY PROHIBITION AND EXCLUSIONS REPRESENTATIONS AND CERTIFICATIONS (see full text below) JAN 2026 3 52.240-91 SECURITY PROHIBI...",
+        "ibition on Contracting with Inverted Domestic Corporations (NOV 2015). (5) 52.232-40, Providing Accelerated Payments to Small Business Subcontractors (MAR 2023) ( 31 U.S.C. 3903 and 10 U.S.C. 3801). (6) 52.233-3, Protest After Award (AUG 1996) ( 31 U.S.C. 3553). (7) 52.233-4, Applicable Law for Bre...",
+        "ormation Regarding Responsibility Matters (OCT 2018) ( 41 U.S.C. 2313). __ (10) [Reserved]. __ (11) 52.219-3, Notice of HUBZone Set-Aside or Sole-Source Award (OCT 2022) ( 15 U.S.C. 657a). __ (12) 52.219-4, Notice of Price Evaluation Preference for HUBZone Small Business Concerns (OCT 2022) (if the...",
+        "Regarding Responsibility Matters (OCT 2018) ( 41 U.S.C. 2313). __ (10) [Reserved]. __ (11) 52.219-3, Notice of HUBZone Set-Aside or Sole-Source Award (OCT 2022) ( 15 U.S.C. 657a). __ (12) 52.219-4, Notice of Price Evaluation Preference for HUBZone Small Business Concerns (OCT 2022) (if the offeror..."
       ],
-      "evaluation_criteria": [
-        "ward a firm-fixed-price contract resulting from this solicitation to the responsible offeror whose quote represents the Best Value / Trade-off to the Government. The evaluation factors are: 1. Technical Acceptability: Quotes will be evaluated to determine if the proposed product meets or exceeds al...",
-        "m this solicitation to the responsible offeror whose quote represents the Best Value / Trade-off to the Government. The evaluation factors are: 1. Technical Acceptability: Quotes will be evaluated to determine if the proposed product meets or exceeds all minimum specifications in the Salient Charac...",
-        "if the proposed product meets or exceeds all minimum specifications in the Salient Characteristics (Attachment 02). 2. Past Performance: The Government will evaluate the offeror\u2019s past performance to assess the risk of unsuccessful performance. Past performance will be evaluated by checking the Con...",
-        "cations in the Salient Characteristics (Attachment 02). 2. Past Performance: The Government will evaluate the offeror\u2019s past performance to assess the risk of unsuccessful performance. Past performance will be evaluated by checking the Contractor Performance Assessment Reporting System (CPARS) and..."
-      ],
-      "evidence_completeness": 96,
+      "evaluation_criteria": [],
+      "evidence_completeness": 84,
       "latest_amendment_impact": null,
-      "likely_market_participants": [],
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        }
+      ],
       "mission_fit": [],
-      "opportunity_key": "sam_gov:FA700026Q0063",
-      "potential_teaming_candidates": [],
+      "opportunity_key": "sam_gov:19VM3026Q0022",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+          "score": 2,
+          "uei": "MKAGLD59JRL1"
+        }
+      ],
       "provisional_gate": "targeted review",
-      "public_evidence_score": 46,
+      "public_evidence_score": 45,
       "record_type": "procurement_opportunity",
       "relevant_patents": [],
       "required_actions": [
+        "Confirm evaluation criteria in the controlling solicitation",
         "Confirm response calendar, internal reviews, and submission lead time",
         "Record an authorized bid/no-bid decision with owner and rationale"
       ],
       "requirements": [
-        "| Solicitation FA700026Q0063 Page 2 of 3 CLIN Description Qty Unit 0001 High-Performance Quantum Scalar Magnetometers (Must meet all minimum physical and performance requirements outlined in Attachment 02 \u2014 Salient Characteristics) 4 Each 3. Evaluation Criteria The Government intends to award a fir...",
-        "ificantly more important than price. 4. Instructions to Offerors \u2022 Questions: All questions regarding this solicitation must be submitted in writing via email to [Insert Contracting Officer Email] and [Insert Contract Specialist Email] no later than 20 August 2026 at 10:00 AM MDT. \u2022 Quote Deadline:...",
-        "er Email] and [Insert Contract Specialist Email] no later than 20 August 2026 at 10:00 AM MDT. \u2022 Quote Deadline: Quotes must be received no later than 24 August 2026 at 10:00 AM MDT. \u2022 Quote Validity: Offerors must state in their submission that their quote remains valid until 30 September 2026. \u2022...",
-        "MDT. \u2022 Quote Deadline: Quotes must be received no later than 24 August 2026 at 10:00 AM MDT. \u2022 Quote Validity: Offerors must state in their submission that their quote remains valid until 30 September 2026. \u2022 Buy American Certificate: Offerors MUST complete and return \u201cAttachment 03 \u2014 Buy American...",
-        "state in their submission that their quote remains valid until 30 September 2026. \u2022 Buy American Certificate: Offerors MUST complete and return \u201cAttachment 03 \u2014 Buy American Certificate\u201d with their quote submission. Failure to return the completed certificate may render the quote non-responsive. US..."
+        "king award decisions or enforce requirements. Agencies will not consider or use these representations. Entities are not required to, nor are they able to, update their entity registration to remove these representations in SAM. 52.252-2 CLAUSES INCORPORATED BY REFERENCE (FEB 1998) This purchase ord...",
+        "tted on the covered articles. (b)Contractor Cybersecurity Supply Chain Risk Management Responsibilities. The Contractor shall take all prudent actions and comply with all Government direction (as identified in 4 paragraph (c)) to regularly identify, assess, monitor, and mitigate cybersecurity suppl...",
+        "ly chain risks when providing covered articles or services affecting covered articles to the Government. The Contractor shall maintain artifacts that document its compliance with this paragraph and shall provide these artifacts to the Government within 48 hours of request. (c) Supporting Government...",
+        "rticles to the Government. The Contractor shall maintain artifacts that document its compliance with this paragraph and shall provide these artifacts to the Government within 48 hours of request. (c) Supporting Government Cybersecurity Supply Chain Risk Assessments. The Government may perform a cyb...",
+        "require Government approval of novation agreements. For proposed novation agreements for this contract, the Contractor shall provide any 5 information requested by the Government regarding the proposed successor\u2019s identity and information regarding its supply chain. (f) Software Bill of Materials (..."
       ],
       "risks": [
-        "Compressed response window: 5 day(s) remaining"
+        "Compressed response window: 4 day(s) remaining",
+        "Set-aside or eligibility status is not established in collected metadata"
       ],
-      "set_aside": "Small Business Set Aside - Total",
+      "set_aside": "",
       "source_urls": [
-        "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c9e039d2a444f6fa525d4b24ef517e8/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/58039c0f631e4cae8a30d940d37022bf/download"
+        "https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/07b3e40151a049b8bbbd24947d2d08da/download",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4364a083548f47839ea5c61ffd8cbbf3/download",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/63d5abfd449a4a7f972664c98504d845/download",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/bbd8cebc64754b7bb07988925bd951fb/download"
       ],
       "technology_fit": [
-        "quantum"
+        "artificial intelligence"
       ],
-      "title": "High-Performance Quantum Scalar Magnetometers",
-      "unknowns": [],
-      "url": "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view"
+      "title": "Request for Quotation # 19VM3026Q0022\u2013 Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams.",
+      "unknowns": [
+        "Confirm evaluation criteria in the controlling solicitation"
+      ],
+      "url": "https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view"
     },
     {
       "agency": "COMMERCE, DEPARTMENT OF.BUREAU OF INDUSTRY AND SECURITY",
@@ -350,7 +427,7 @@
           "source": "document extraction"
         }
       ],
-      "days_to_close": 21,
+      "days_to_close": 20,
       "deadline": "2026-09-09T09:00:00-04:00",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -624,7 +701,7 @@
         }
       ],
       "days_to_close": 6,
-      "deadline": "2026-08-25",
+      "deadline": "2026-08-26",
       "decision_freshness": {
         "current_gate": "hold",
         "current_score": 37,
@@ -633,203 +710,6 @@
         "note": "No unreviewed material amendment impact is currently identified.",
         "previous_gate": "hold",
         "previous_score": 37,
-        "status": "current"
-      },
-      "decision_score": 37,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +8",
-              "actionable procurement_opportunity +8",
-              "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view"
-            ],
-            "points": 37
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [
-              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9e75681b5bb5424389ad629ec4764b79"
-            ],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No public risk penalty"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view"
-            ],
-            "points": 0
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 37,
-        "source_urls": [
-          "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view",
-          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9e75681b5bb5424389ad629ec4764b79"
-        ],
-        "trace_hash": "01ca0f36a59320fe"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared agency history",
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "MARINE ELECTRIC SYSTEMS INC",
-          "score": 6,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "INTEGER TECHNOLOGIES LLC",
-          "score": 5,
-          "uei": "EVJCVE83BCJ1"
-        },
-        {
-          "basis": [
-            "shared agency history"
-          ],
-          "name": "PACIFIC SKY SUPPLY, INC.",
-          "score": 4,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared agency history"
-          ],
-          "name": "D-J ENGINEERING INC",
-          "score": 4,
-          "uei": null
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "sam_gov:SPE4A126T2624",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared agency history",
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "MARINE ELECTRIC SYSTEMS INC",
-          "score": 6,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "DRONE AMPLIFIED INC",
-          "score": 5,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared agency history"
-          ],
-          "name": "PACIFIC SKY SUPPLY, INC.",
-          "score": 4,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared agency history"
-          ],
-          "name": "D-J ENGINEERING INC",
-          "score": 4,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "WOODWARD, INC.",
-          "score": 2,
-          "uei": null
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 37,
-      "record_type": "procurement_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Compressed response window: 6 day(s) remaining",
-        "Document evidence is incomplete; review the controlling files manually"
-      ],
-      "set_aside": "Small Business Set Aside - Total",
-      "source_urls": [
-        "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view",
-        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9e75681b5bb5424389ad629ec4764b79"
-      ],
-      "technology_fit": [
-        "autonomy and sensing"
-      ],
-      "title": "66--SENSOR,LIQUID FLOW",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view"
-    },
-    {
-      "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [
-        {
-          "email": "DibbsBSM@dla.mil",
-          "full_name": "Questions regarding this solicitation should be emailed to the buyer listed in block 5 of the solicitation document which can be found under the Additional Information link. If the Additional Information link does not work, please go to https://www.dibbs.bsm.dla.mil/Solicitations/ and type the solicitation number in the Global Search box.",
-          "phone": "",
-          "title": "",
-          "type": "primary"
-        }
-      ],
-      "days_to_close": 7,
-      "deadline": "2026-08-26",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 37,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
         "status": "current"
       },
       "decision_score": 37,
@@ -984,7 +864,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 7 day(s) remaining",
+        "Compressed response window: 6 day(s) remaining",
         "Document evidence is incomplete; review the controlling files manually",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -1018,7 +898,7 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 7,
+      "days_to_close": 6,
       "deadline": "2026-08-26",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1026,8 +906,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 37,
         "status": "current"
       },
       "decision_score": 37,
@@ -1182,7 +1062,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 7 day(s) remaining",
+        "Compressed response window: 6 day(s) remaining",
         "Document evidence is incomplete; review the controlling files manually"
       ],
       "set_aside": "Small Business Set Aside - Total",
@@ -1203,35 +1083,28 @@
       "url": "https://sam.gov/workspace/contract/opp/b749f496a21443708e47a8291f23ab44/view"
     },
     {
-      "agency": "HOMELAND SECURITY, DEPARTMENT OF.OFFICE OF PROCUREMENT OPERATIONS.DEPARTMENTAL OPERATIONS ACQUISITIONS DIVISION I",
+      "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [
         {
-          "email": "Tracy.Miller@hq.dhs.gov",
-          "full_name": "Tracy Miller",
+          "email": "DibbsBSM@dla.mil",
+          "full_name": "Questions regarding this solicitation should be emailed to the buyer listed in block 5 of the solicitation document which can be found under the Additional Information link. If the Additional Information link does not work, please go to https://www.dibbs.bsm.dla.mil/Solicitations/ and type the solicitation number in the Global Search box.",
           "phone": "",
           "title": "",
           "type": "primary"
-        },
-        {
-          "email": "Mariah.Watt@hq.dhs.gov",
-          "full_name": "Mariah Watt",
-          "phone": "",
-          "title": "",
-          "type": "secondary"
         }
       ],
       "days_to_close": 7,
-      "deadline": "2026-08-26T10:00:00-04:00",
+      "deadline": "2026-08-27",
       "decision_freshness": {
         "current_gate": "hold",
         "current_score": 37,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 34,
+        "previous_gate": null,
+        "previous_score": null,
         "status": "current"
       },
       "decision_score": 37,
@@ -1247,7 +1120,7 @@
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/ff9d55d6a268428081b54dc02f5bf2c1/view"
+              "https://sam.gov/workspace/contract/opp/bb59f3e723bc475894c45c3b031ec406/view"
             ],
             "points": 37
           },
@@ -1257,9 +1130,7 @@
             ],
             "code": "document_evidence",
             "evidence_urls": [
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/86303141e08c4838a658b3e4e19bc393/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d307dbcbe6a743de999beacdac0a839a/download",
-              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ff9d55d6a268428081b54dc02f5bf2c1"
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bb59f3e723bc475894c45c3b031ec406"
             ],
             "points": 0
           },
@@ -1269,7 +1140,7 @@
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/ff9d55d6a268428081b54dc02f5bf2c1/view"
+              "https://sam.gov/workspace/contract/opp/bb59f3e723bc475894c45c3b031ec406/view"
             ],
             "points": 0
           }
@@ -1279,18 +1150,34 @@
         "model_version": "2",
         "public_evidence_score": 37,
         "source_urls": [
-          "https://sam.gov/workspace/contract/opp/ff9d55d6a268428081b54dc02f5bf2c1/view",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/86303141e08c4838a658b3e4e19bc393/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d307dbcbe6a743de999beacdac0a839a/download",
-          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ff9d55d6a268428081b54dc02f5bf2c1"
+          "https://sam.gov/workspace/contract/opp/bb59f3e723bc475894c45c3b031ec406/view",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bb59f3e723bc475894c45c3b031ec406"
         ],
-        "trace_hash": "d8ef84e22e066e6e"
+        "trace_hash": "45b9b8fe0807b92f"
       },
       "eligibility": [],
       "evaluation_criteria": [],
       "evidence_completeness": 0,
       "latest_amendment_impact": null,
       "likely_market_participants": [
+        {
+          "basis": [
+            "shared agency history",
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "PACIFIC SKY SUPPLY, INC.",
+          "score": 6,
+          "uei": null
+        },
+        {
+          "basis": [
+            "shared agency history",
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "D-J ENGINEERING INC",
+          "score": 6,
+          "uei": null
+        },
         {
           "basis": [
             "shared specialties: artificial intelligence"
@@ -1301,40 +1188,50 @@
         },
         {
           "basis": [
+            "shared agency history"
+          ],
+          "name": "MARINE ELECTRIC SYSTEMS INC",
+          "score": 4,
+          "uei": null
+        },
+        {
+          "basis": [
             "shared specialties: artificial intelligence"
           ],
           "name": "ZCORE GROUP LLC",
           "score": 2,
           "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WASHINGTON",
-          "score": 2,
-          "uei": "HD1WMN6945W6"
         }
       ],
       "mission_fit": [],
-      "opportunity_key": "sam_gov:70RDA126R00000009",
+      "opportunity_key": "sam_gov:SPE4A426T0190",
       "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared agency history",
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "PACIFIC SKY SUPPLY, INC.",
+          "score": 6,
+          "uei": null
+        },
+        {
+          "basis": [
+            "shared agency history",
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "D-J ENGINEERING INC",
+          "score": 6,
+          "uei": null
+        },
+        {
+          "basis": [
+            "shared agency history"
+          ],
+          "name": "MARINE ELECTRIC SYSTEMS INC",
+          "score": 4,
+          "uei": null
+        },
         {
           "basis": [
             "shared specialties: artificial intelligence"
@@ -1350,30 +1247,6 @@
           "name": "WTIA WORKFORCE INSTITUTE",
           "score": 2,
           "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WASHINGTON",
-          "score": 2,
-          "uei": "HD1WMN6945W6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
-          "score": 2,
-          "uei": "MKAGLD59JRL1"
         }
       ],
       "provisional_gate": "hold",
@@ -1391,232 +1264,22 @@
         "Compressed response window: 7 day(s) remaining",
         "Document evidence is incomplete; review the controlling files manually"
       ],
-      "set_aside": "No Set aside used",
+      "set_aside": "Small Business Set Aside - Total",
       "source_urls": [
-        "https://sam.gov/workspace/contract/opp/ff9d55d6a268428081b54dc02f5bf2c1/view",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/86303141e08c4838a658b3e4e19bc393/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d307dbcbe6a743de999beacdac0a839a/download",
-        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ff9d55d6a268428081b54dc02f5bf2c1"
+        "https://sam.gov/workspace/contract/opp/bb59f3e723bc475894c45c3b031ec406/view",
+        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bb59f3e723bc475894c45c3b031ec406"
       ],
       "technology_fit": [
         "artificial intelligence"
       ],
-      "title": "AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)",
+      "title": "15--PANEL,STRUCTURAL,AI",
       "unknowns": [
         "Confirm controlling requirements in the controlling solicitation",
         "Confirm evaluation criteria in the controlling solicitation",
         "Confirm eligibility and set-aside terms in the controlling solicitation",
         "Confirm submission instructions in the controlling solicitation"
       ],
-      "url": "https://sam.gov/workspace/contract/opp/ff9d55d6a268428081b54dc02f5bf2c1/view"
-    },
-    {
-      "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [
-        {
-          "email": "sharjeel.j.javaid.civ@health.mil",
-          "full_name": "Sharjeel Javaid",
-          "phone": "",
-          "title": "",
-          "type": "primary"
-        },
-        {
-          "email": "dominique.u.brown.civ@health.mil",
-          "full_name": "Dominique Brown",
-          "phone": "",
-          "title": "",
-          "type": "secondary"
-        }
-      ],
-      "days_to_close": 9,
-      "deadline": "2026-08-28T10:00:00-04:00",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 34,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 34,
-        "status": "current"
-      },
-      "decision_score": 34,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +8",
-              "actionable procurement_opportunity +8",
-              "closing_this_month +9",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/b1f26e7ded2643d2835947cc08cb56fe/view"
-            ],
-            "points": 34
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b6844979abcd4017bb578d76c99602c8/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/efdd6863d9544a0d9759777fcfcb8938/download",
-              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b1f26e7ded2643d2835947cc08cb56fe"
-            ],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No public risk penalty"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/b1f26e7ded2643d2835947cc08cb56fe/view"
-            ],
-            "points": 0
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 34,
-        "source_urls": [
-          "https://sam.gov/workspace/contract/opp/b1f26e7ded2643d2835947cc08cb56fe/view",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b6844979abcd4017bb578d76c99602c8/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/efdd6863d9544a0d9759777fcfcb8938/download",
-          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b1f26e7ded2643d2835947cc08cb56fe"
-        ],
-        "trace_hash": "c02218e1681d672e"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "INTEGER TECHNOLOGIES LLC",
-          "score": 5,
-          "uei": "EVJCVE83BCJ1"
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "WOODWARD, INC.",
-          "score": 2,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "W S DARLEY & CO",
-          "score": 2,
-          "uei": "TENRPZGMAGJ6"
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "sam_gov:HT0038RFSACADM",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "DRONE AMPLIFIED INC",
-          "score": 5,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "WOODWARD, INC.",
-          "score": 2,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "W S DARLEY & CO",
-          "score": 2,
-          "uei": "TENRPZGMAGJ6"
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "UNIVERSITY OF TEXAS AT ARLINGTON",
-          "score": 2,
-          "uei": "LMLUKUPJJ9N3"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 34,
-      "record_type": "procurement_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Document evidence is incomplete; review the controlling files manually",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": "",
-      "source_urls": [
-        "https://sam.gov/workspace/contract/opp/b1f26e7ded2643d2835947cc08cb56fe/view",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b6844979abcd4017bb578d76c99602c8/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/efdd6863d9544a0d9759777fcfcb8938/download",
-        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b1f26e7ded2643d2835947cc08cb56fe"
-      ],
-      "technology_fit": [
-        "autonomy and sensing"
-      ],
-      "title": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://sam.gov/workspace/contract/opp/b1f26e7ded2643d2835947cc08cb56fe/view"
+      "url": "https://sam.gov/workspace/contract/opp/bb59f3e723bc475894c45c3b031ec406/view"
     },
     {
       "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND COLUMBUS.DLA LAND AND MARITIME",
@@ -1631,7 +1294,7 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 12,
+      "days_to_close": 11,
       "deadline": "2026-08-31",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1639,8 +1302,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 34,
         "status": "current"
       },
       "decision_score": 34,
@@ -1818,20 +1481,20 @@
       "url": "https://sam.gov/workspace/contract/opp/f9f8780939b843929ca1931cbff0001a/view"
     },
     {
-      "agency": "DEPT OF DEFENSE",
+      "agency": "HOMELAND SECURITY, DEPARTMENT OF.US CUSTOMS AND BORDER PROTECTION.AIR AND MARINE CONTRACTING DIVISION",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [
         {
-          "email": "philip.holt@us.af.mil",
-          "full_name": "Philip Holt",
+          "email": "nicole.hubby@cbp.dhs.gov",
+          "full_name": "Nicole Hubby",
           "phone": "",
           "title": "",
           "type": "primary"
         }
       ],
-      "days_to_close": 30,
-      "deadline": "2026-09-18T16:00:00-04:00",
+      "days_to_close": 14,
+      "deadline": "2026-09-03T17:00:00-04:00",
       "decision_freshness": {
         "current_gate": "hold",
         "current_score": 34,
@@ -1855,7 +1518,7 @@
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/eff0352a48d249619d9fb777d40cfbeb/view"
+              "https://sam.gov/workspace/contract/opp/c6128676cad146828d2344a39dfb596c/view"
             ],
             "points": 34
           },
@@ -1865,8 +1528,7 @@
             ],
             "code": "document_evidence",
             "evidence_urls": [
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4416c844ac354850ab8d351cac5d21a1/download",
-              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=eff0352a48d249619d9fb777d40cfbeb"
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c6128676cad146828d2344a39dfb596c"
             ],
             "points": 0
           },
@@ -1876,7 +1538,7 @@
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/eff0352a48d249619d9fb777d40cfbeb/view"
+              "https://sam.gov/workspace/contract/opp/c6128676cad146828d2344a39dfb596c/view"
             ],
             "points": 0
           }
@@ -1886,11 +1548,10 @@
         "model_version": "2",
         "public_evidence_score": 34,
         "source_urls": [
-          "https://sam.gov/workspace/contract/opp/eff0352a48d249619d9fb777d40cfbeb/view",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4416c844ac354850ab8d351cac5d21a1/download",
-          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=eff0352a48d249619d9fb777d40cfbeb"
+          "https://sam.gov/workspace/contract/opp/c6128676cad146828d2344a39dfb596c/view",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c6128676cad146828d2344a39dfb596c"
         ],
-        "trace_hash": "d2725f351cab689f"
+        "trace_hash": "870cbe1f542c23a3"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -1899,97 +1560,87 @@
       "likely_market_participants": [
         {
           "basis": [
-            "shared agency history",
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "INTEGER TECHNOLOGIES LLC",
+          "score": 5,
+          "uei": "EVJCVE83BCJ1"
+        },
+        {
+          "basis": [
             "shared specialties: autonomy and sensing"
           ],
           "name": "WOODWARD, INC.",
-          "score": 6,
+          "score": 2,
           "uei": null
         },
         {
           "basis": [
-            "shared agency history",
             "shared specialties: autonomy and sensing"
           ],
-          "name": "OSHKOSH DEFENSE LLC",
-          "score": 6,
-          "uei": null
+          "name": "W S DARLEY & CO",
+          "score": 2,
+          "uei": "TENRPZGMAGJ6"
         },
         {
           "basis": [
-            "shared agency history",
             "shared specialties: autonomy and sensing"
           ],
-          "name": "MARINE ELECTRIC SYSTEMS INC",
-          "score": 6,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared agency history",
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "LEIDOS, INC.",
-          "score": 6,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared agency history",
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "Central Power Systems & Services, LLC",
-          "score": 6,
-          "uei": null
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
         }
       ],
       "mission_fit": [],
-      "opportunity_key": "sam_gov:FA852726RSAET",
+      "opportunity_key": "sam_gov:CBP_LGDS_USSP_PRESOLICITATION",
       "potential_teaming_candidates": [
         {
           "basis": [
-            "shared agency history",
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "DRONE AMPLIFIED INC",
+          "score": 5,
+          "uei": null
+        },
+        {
+          "basis": [
             "shared specialties: autonomy and sensing"
           ],
           "name": "WOODWARD, INC.",
-          "score": 6,
+          "score": 2,
           "uei": null
         },
         {
           "basis": [
-            "shared agency history",
             "shared specialties: autonomy and sensing"
           ],
-          "name": "OSHKOSH DEFENSE LLC",
-          "score": 6,
-          "uei": null
+          "name": "W S DARLEY & CO",
+          "score": 2,
+          "uei": "TENRPZGMAGJ6"
         },
         {
           "basis": [
-            "shared agency history",
             "shared specialties: autonomy and sensing"
           ],
-          "name": "MARINE ELECTRIC SYSTEMS INC",
-          "score": 6,
-          "uei": null
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
         },
         {
           "basis": [
-            "shared agency history",
             "shared specialties: autonomy and sensing"
           ],
-          "name": "LEIDOS, INC.",
-          "score": 6,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared agency history",
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "Central Power Systems & Services, LLC",
-          "score": 6,
-          "uei": null
+          "name": "UNIVERSITY OF TEXAS AT ARLINGTON",
+          "score": 2,
+          "uei": "LMLUKUPJJ9N3"
         }
       ],
       "provisional_gate": "hold",
@@ -1999,6 +1650,201 @@
       "required_actions": [
         "Confirm controlling requirements in the controlling solicitation",
         "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Document evidence is incomplete; review the controlling files manually"
+      ],
+      "set_aside": "Small Business Set Aside - Total",
+      "source_urls": [
+        "https://sam.gov/workspace/contract/opp/c6128676cad146828d2344a39dfb596c/view",
+        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c6128676cad146828d2344a39dfb596c"
+      ],
+      "technology_fit": [
+        "autonomy and sensing"
+      ],
+      "title": "LGDS - Unified Sensor Surveillance Processor Software",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://sam.gov/workspace/contract/opp/c6128676cad146828d2344a39dfb596c/view"
+    },
+    {
+      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS MECHANICSBURG.NAVSUP WEAPON SYSTEMS SUPPORT MECH",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [
+        {
+          "email": "AMELIA.E.HARPER.CIV@US.NAVY.MIL",
+          "full_name": "Telephone: 7712294504",
+          "phone": "",
+          "title": "",
+          "type": "primary"
+        }
+      ],
+      "days_to_close": 14,
+      "deadline": "2026-09-03T16:30:00-04:00",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 34,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": null,
+        "previous_score": null,
+        "status": "current"
+      },
+      "decision_score": 34,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +8",
+              "actionable procurement_opportunity +8",
+              "closing_this_month +9",
+              "technology fit +4",
+              "new since yesterday +5"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/a2efca763807413ab373bf41ac2f97eb/view"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a2efca763807413ab373bf41ac2f97eb"
+            ],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No public risk penalty"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/a2efca763807413ab373bf41ac2f97eb/view"
+            ],
+            "points": 0
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 34,
+        "source_urls": [
+          "https://sam.gov/workspace/contract/opp/a2efca763807413ab373bf41ac2f97eb/view",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a2efca763807413ab373bf41ac2f97eb"
+        ],
+        "trace_hash": "0edec39477234943"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "INTEGER TECHNOLOGIES LLC",
+          "score": 5,
+          "uei": "EVJCVE83BCJ1"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "WOODWARD, INC.",
+          "score": 2,
+          "uei": null
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "W S DARLEY & CO",
+          "score": 2,
+          "uei": "TENRPZGMAGJ6"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "sam_gov:N0010426QYAEE",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "DRONE AMPLIFIED INC",
+          "score": 5,
+          "uei": null
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "WOODWARD, INC.",
+          "score": 2,
+          "uei": null
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "W S DARLEY & CO",
+          "score": 2,
+          "uei": "TENRPZGMAGJ6"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "UNIVERSITY OF TEXAS AT ARLINGTON",
+          "score": 2,
+          "uei": "LMLUKUPJJ9N3"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 34,
+      "record_type": "procurement_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
         "Record an authorized bid/no-bid decision with owner and rationale"
       ],
       "requirements": [],
@@ -2008,21 +1854,20 @@
       ],
       "set_aside": "",
       "source_urls": [
-        "https://sam.gov/workspace/contract/opp/eff0352a48d249619d9fb777d40cfbeb/view",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4416c844ac354850ab8d351cac5d21a1/download",
-        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=eff0352a48d249619d9fb777d40cfbeb"
+        "https://sam.gov/workspace/contract/opp/a2efca763807413ab373bf41ac2f97eb/view",
+        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a2efca763807413ab373bf41ac2f97eb"
       ],
       "technology_fit": [
         "autonomy and sensing"
       ],
-      "title": "Sensor Agnostic Emulator & Trainer (SAET)",
+      "title": "61--SENSOR POWER DRAWER, IN REPAIR/MODIFICATION OF",
       "unknowns": [
         "Confirm controlling requirements in the controlling solicitation",
         "Confirm evaluation criteria in the controlling solicitation",
         "Confirm eligibility and set-aside terms in the controlling solicitation",
         "Confirm submission instructions in the controlling solicitation"
       ],
-      "url": "https://sam.gov/workspace/contract/opp/eff0352a48d249619d9fb777d40cfbeb/view"
+      "url": "https://sam.gov/workspace/contract/opp/a2efca763807413ab373bf41ac2f97eb/view"
     },
     {
       "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG",
@@ -2044,7 +1889,7 @@
           "type": "secondary"
         }
       ],
-      "days_to_close": 2,
+      "days_to_close": 1,
       "deadline": "2026-08-21T16:30:00-04:00",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2087,7 +1932,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 2 day(s)"
+              "Compressed response window: 1 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -2107,7 +1952,7 @@
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ccb7fecdd0d54543afd2d740f3f84ac7",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a7ce960566e242bbbf871a3e2fab3453"
         ],
-        "trace_hash": "a269069c35ba04ce"
+        "trace_hash": "12110db332509ce5"
       },
       "eligibility": [
         "of the United States Government. All payment obligations are subject to Congressional appropriations. \u2022 In order to be eligible for award, companies must: o Possess a Unique Entity ID (UEI) and be registered in the System for Award Management (SAM) prior to award and maintain active registration th...",
@@ -2178,7 +2023,7 @@
           }
         ],
         "detected_at": "2026-08-19T00:50:32.420067+00:00",
-        "detected_this_run": true,
+        "detected_this_run": false,
         "highest_materiality": "high",
         "history_completeness": "tracker_observed",
         "impact_id": "impact:cffa273207d8892e227b",
@@ -2300,7 +2145,7 @@
         "0 SOLUTION SUBMISSION REQUIREMENTS 6.1 Phase 1 \u2013 Solution Brief 6.1.1 Phase 1 \u2013 Solution Brief Content Solution Briefs shall not exceed six (6) written pages using 12-point Times New Roman font or, alternatively, may take the form of briefing slides not exceeding fifteen (15) slides. The Government..."
       ],
       "risks": [
-        "Compressed response window: 2 day(s) remaining",
+        "Compressed response window: 1 day(s) remaining",
         "A high amendment impact makes prior qualification assumptions stale",
         "Response deadline extended from 2026-08-19 to 2026-08-21.",
         "Set-aside or eligibility status is not established in collected metadata"
@@ -2326,7 +2171,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 29,
+      "days_to_close": 28,
       "deadline": "09/17/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2334,8 +2179,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 28,
         "status": "current"
       },
       "decision_score": 28,
@@ -2508,7 +2353,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 6,
+      "days_to_close": 5,
       "deadline": "08/25/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2666,7 +2511,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 6 day(s) remaining",
+        "Compressed response window: 5 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -2687,11 +2532,377 @@
       "url": "https://www.grants.gov/search-results-detail/362743"
     },
     {
+      "agency": "HHS-ACF-ANA",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 7,
+      "deadline": "08/27/2026",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 26,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": null,
+        "previous_score": null,
+        "status": "current"
+      },
+      "decision_score": 26,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/362270"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/362270"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/362270"
+        ],
+        "trace_hash": "2d32ea9b9b92221f"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:HHS-2026-ACF-ANA-NAI-0035",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+          "score": 2,
+          "uei": "MKAGLD59JRL1"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 26,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Compressed response window: 7 day(s) remaining",
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/362270"
+      ],
+      "technology_fit": [
+        "artificial intelligence"
+      ],
+      "title": "AI3 Action Institute - Artificial Intelligence for American Indians",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/362270"
+    },
+    {
+      "agency": "DOS-MEX",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 7,
+      "deadline": "08/27/2026",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 26,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": null,
+        "previous_score": null,
+        "status": "current"
+      },
+      "decision_score": 26,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363347"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363347"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363347"
+        ],
+        "trace_hash": "dce3e72ce7a66e11"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+          "score": 2,
+          "uei": "MKAGLD59JRL1"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 26,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Compressed response window: 7 day(s) remaining",
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/363347"
+      ],
+      "technology_fit": [
+        "artificial intelligence"
+      ],
+      "title": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/363347"
+    },
+    {
       "agency": "DOS-ALB",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "08/20/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2729,7 +2940,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 1 day(s)"
+              "Compressed response window: 0 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -2745,7 +2956,7 @@
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363249"
         ],
-        "trace_hash": "e8f6b28398b2db03"
+        "trace_hash": "74ea2216f41d64ff"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -2849,7 +3060,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 1 day(s) remaining",
+        "Compressed response window: 0 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -2875,7 +3086,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "08/20/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2913,7 +3124,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 1 day(s)"
+              "Compressed response window: 0 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -2929,7 +3140,7 @@
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363596"
         ],
-        "trace_hash": "0d9246e95fefc125"
+        "trace_hash": "cea4deefbbdb374e"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -3033,7 +3244,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 1 day(s) remaining",
+        "Compressed response window: 0 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -3058,7 +3269,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "08/20/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -3096,7 +3307,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 1 day(s)"
+              "Compressed response window: 0 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -3112,7 +3323,7 @@
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363319"
         ],
-        "trace_hash": "1f9f4a8c9c014389"
+        "trace_hash": "30304e0c4ad3d14d"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -3216,7 +3427,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 1 day(s) remaining",
+        "Compressed response window: 0 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -3241,7 +3452,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "08/20/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -3279,7 +3490,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 1 day(s)"
+              "Compressed response window: 0 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -3295,7 +3506,7 @@
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363320"
         ],
-        "trace_hash": "72e0d886f62bcfcc"
+        "trace_hash": "86642290629f87d8"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -3399,7 +3610,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 1 day(s) remaining",
+        "Compressed response window: 0 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -3424,7 +3635,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "08/20/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -3462,7 +3673,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 1 day(s)"
+              "Compressed response window: 0 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -3478,7 +3689,7 @@
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363269"
         ],
-        "trace_hash": "bcdd919403aa108b"
+        "trace_hash": "1e4e51488396f2bc"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -3582,7 +3793,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 1 day(s) remaining",
+        "Compressed response window: 0 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -3607,7 +3818,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "08/20/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -3645,7 +3856,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 1 day(s)"
+              "Compressed response window: 0 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -3661,7 +3872,7 @@
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363247"
         ],
-        "trace_hash": "c8385dc4130f71bd"
+        "trace_hash": "a1cb0f2ba70c132d"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -3765,7 +3976,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 1 day(s) remaining",
+        "Compressed response window: 0 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -3784,205 +3995,6 @@
         "Confirm submission instructions in the controlling solicitation"
       ],
       "url": "https://www.grants.gov/search-results-detail/363247"
-    },
-    {
-      "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [
-        {
-          "email": "DibbsBSM@dla.mil",
-          "full_name": "Questions regarding this solicitation should be emailed to the buyer listed in block 5 of the solicitation document which can be found under the Additional Information link. If the Additional Information link does not work, please go to https://www.dibbs.bsm.dla.mil/Solicitations/ and type the solicitation number in the Global Search box.",
-          "phone": "",
-          "title": "",
-          "type": "primary"
-        }
-      ],
-      "days_to_close": 0,
-      "deadline": "2026-08-19",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 17,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 17,
-        "status": "current"
-      },
-      "decision_score": 17,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +8",
-              "actionable procurement_opportunity +8",
-              "closing_soon +12",
-              "technology fit +4"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view"
-            ],
-            "points": 32
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [
-              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fda242bc18ec4faca34c5a9397261d24"
-            ],
-            "points": 0
-          },
-          {
-            "basis": [
-              "Compressed response window: 0 day(s)"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view"
-            ],
-            "points": -15
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 17,
-        "source_urls": [
-          "https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view",
-          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fda242bc18ec4faca34c5a9397261d24"
-        ],
-        "trace_hash": "67faa0c25277c4f0"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared agency history",
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "PACIFIC SKY SUPPLY, INC.",
-          "score": 6,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared agency history",
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "D-J ENGINEERING INC",
-          "score": 6,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared agency history"
-          ],
-          "name": "MARINE ELECTRIC SYSTEMS INC",
-          "score": 4,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "sam_gov:SPE4A726T643V",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared agency history",
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "PACIFIC SKY SUPPLY, INC.",
-          "score": 6,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared agency history",
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "D-J ENGINEERING INC",
-          "score": 6,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared agency history"
-          ],
-          "name": "MARINE ELECTRIC SYSTEMS INC",
-          "score": 4,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 17,
-      "record_type": "procurement_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Compressed response window: 0 day(s) remaining",
-        "Document evidence is incomplete; review the controlling files manually",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": "",
-      "source_urls": [
-        "https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view",
-        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fda242bc18ec4faca34c5a9397261d24"
-      ],
-      "technology_fit": [
-        "artificial intelligence"
-      ],
-      "title": "16--MODIFICATION KIT,AI",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view"
     }
   ],
   "scope_note": "Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.",
@@ -3994,6 +4006,6 @@
     "qualify": 1,
     "targeted_review": 2
   },
-  "updated_at": "2026-08-19T00:50:32.420067+00:00",
+  "updated_at": "2026-08-20T00:50:10.359719+00:00",
   "version": 1
 }

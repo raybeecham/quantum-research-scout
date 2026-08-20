@@ -128,23 +128,32 @@
           "source": "Quantum Zeitgeist",
           "title": "PubChem physics-based verification flags errors in 80% of cases",
           "url": "https://quantumzeitgeist.com/llms-physics-based-verification-flags-pubchem"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://quantumzeitgeist.com/large-language-model-trapped-ion-shuttling-code-generation",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 60,
+          "source": "Quantum Zeitgeist",
+          "title": "Researchers Generate LLM-Compiled Shuttling Code for Complex Trapped-Ion Architectures",
+          "url": "https://quantumzeitgeist.com/large-language-model-trapped-ion-shuttling-code-generation"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-08-08",
-      "momentum": "rising",
+      "latest_seen": "2026-08-19",
+      "momentum": "stable",
       "organizations": [
-        "arXiv RSS cs.CR",
         "Quantum Zeitgeist",
+        "arXiv RSS cs.CR",
         "QuantumNews.ai",
         "The Quantum Insider",
         "Cloudflare Blog"
       ],
-      "prior_count": 0,
-      "recent_count": 3,
-      "status": "actionable"
+      "prior_count": 1,
+      "recent_count": 1,
+      "status": "watching"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -1363,12 +1372,30 @@
           "source": "The Quantum Insider",
           "title": "Eclypses And Sterling Team Up to Deliver Quantum-Resistant Cryptography to Federal Government Systems",
           "url": "https://thequantuminsider.com/2026/08/18/eclypses-and-sterling-team-up-to-deliver-quantum-resistant-cryptography-to-federal-government-systems"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://quantumnews.ai/cryptography/corporate-approaches-to-hybrid-handshake-in-post-quantum-transition",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 50,
+          "source": "QuantumNews.ai",
+          "title": "Corporate Approaches to Hybrid Handshake in Post-Quantum Transition",
+          "url": "https://quantumnews.ai/cryptography/corporate-approaches-to-hybrid-handshake-in-post-quantum-transition"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://quantumzeitgeist.com/quantum-industry-senators-push-bill-qed",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 80,
+          "source": "Quantum Zeitgeist",
+          "title": "Senators push bill QED-C says will shield power grid from quantum hacking",
+          "url": "https://quantumzeitgeist.com/quantum-industry-senators-push-bill-qed"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-08-18",
+      "latest_seen": "2026-08-19",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -1378,7 +1405,7 @@
         "Keyfactor Quantum and Crypto-Agility"
       ],
       "prior_count": 15,
-      "recent_count": 17,
+      "recent_count": 16,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -1779,12 +1806,21 @@
           "source": "Quantum Zeitgeist",
           "title": "Researchers Limit Decoder Costs for Faster Fault-Tolerant Computation",
           "url": "https://quantumzeitgeist.com/surface-code-decoder-transversal-cnot-gate-optimisation"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://quantumzeitgeist.com/calderbank-shor-steane-xyz-quantum-stabilizer",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 67,
+          "source": "Quantum Zeitgeist",
+          "title": "Non-CSS Constraints Improve Decoding in XYZ Quantum Stabilizer Codes",
+          "url": "https://quantumzeitgeist.com/calderbank-shor-steane-xyz-quantum-stabilizer"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-08-17",
+      "latest_seen": "2026-08-19",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -1792,8 +1828,8 @@
         "The Quantum Insider",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 3,
-      "recent_count": 4,
+      "prior_count": 4,
+      "recent_count": 3,
       "status": "watching"
     },
     "Quantum Hardware": {
@@ -3634,12 +3670,66 @@
           "source": "Quantum Zeitgeist",
           "title": "Infleqtion says it\u2019s on track for 30 qubits this year",
           "url": "https://quantumzeitgeist.com/qubits-year-infleqtion-track-30-qubits"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://news.mit.edu/2026/securing-wireless-communication-next-generation-devices-0819",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 19,
+          "source": "QuantumNews.ai",
+          "title": "Securing wireless communication in next-generation devices",
+          "url": "https://news.mit.edu/2026/securing-wireless-communication-next-generation-devices-0819"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 21,
+          "source": "QuantumNews.ai",
+          "title": "Building a Quantum Computer, One Fragile Qubit at a Time",
+          "url": "https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://thequantuminsider.com/2026/08/19/ibm-connects-two-modular-cryogenic-systems-quantum-computing",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 23,
+          "source": "The Quantum Insider",
+          "title": "IBM Connects Two Modular Cryogenic Systems for Quantum Computing",
+          "url": "https://thequantuminsider.com/2026/08/19/ibm-connects-two-modular-cryogenic-systems-quantum-computing"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://thequantuminsider.com/2026/08/19/new-tantalum-process-could-ease-manufacturing-of-superconducting-quantum-chips",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 28,
+          "source": "The Quantum Insider",
+          "title": "New Tantalum Process Could Ease Manufacturing of Superconducting Quantum Chips",
+          "url": "https://thequantuminsider.com/2026/08/19/new-tantalum-process-could-ease-manufacturing-of-superconducting-quantum-chips"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://quantumzeitgeist.com/quantum-processor-cooling-system-ibm",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 39,
+          "source": "Quantum Zeitgeist",
+          "title": "IBM links two quantum processors with a new cooling system",
+          "url": "https://quantumzeitgeist.com/quantum-processor-cooling-system-ibm"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://quantumzeitgeist.com/ionq-qbraid-nvidia-fewer-54-percent",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 43,
+          "source": "Quantum Zeitgeist",
+          "title": "IonQ, qBraid & NVIDIA achieve 54% fewer chemistry errors with quantum computing.",
+          "url": "https://quantumzeitgeist.com/ionq-qbraid-nvidia-fewer-54-percent"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-08-18",
+      "latest_seen": "2026-08-19",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -3647,8 +3737,8 @@
         "QuantumNews.ai",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 23,
-      "recent_count": 20,
+      "prior_count": 25,
+      "recent_count": 19,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -4418,12 +4508,21 @@
           "source": "Quantum Zeitgeist",
           "title": "Allot chairs new group to build quantum-safe networks",
           "url": "https://quantumzeitgeist.com/allot-chairs-quantum-safe-networks"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://thequantuminsider.com/2026/08/19/allot-launches-post-quantum-communications-consortium",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 92,
+          "source": "The Quantum Insider",
+          "title": "Allot Leads New Consortium Focused on Post-Quantum Communications",
+          "url": "https://thequantuminsider.com/2026/08/19/allot-launches-post-quantum-communications-consortium"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-08-18",
+      "latest_seen": "2026-08-19",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -5365,12 +5464,21 @@
           "source": "QuantumNews.ai",
           "title": "OTI Lumionics and Samsung Advanced Institute of Technology Achieve 200+ Logical Qubit Quantum Emulation on Single Server Hardware",
           "url": "https://quantumcomputingreport.com/oti-lumionics-and-samsung-advanced-institute-of-technology-achieve-200-logical-qubit-quantum-emulation-on-single-server-hardware"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://thequantuminsider.com/2026/08/19/ionq-and-cmc-microsystems-announce-collaboration-to-expand-cloud-quantum-computing-access-in-canada",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 48,
+          "source": "The Quantum Insider",
+          "title": "IonQ and CMC Microsystems Announce Collaboration to Expand Cloud Quantum Computing Access in Canada",
+          "url": "https://thequantuminsider.com/2026/08/19/ionq-and-cmc-microsystems-announce-collaboration-to-expand-cloud-quantum-computing-access-in-canada"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-08-18",
+      "latest_seen": "2026-08-19",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -5380,7 +5488,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 2,
-      "recent_count": 7,
+      "recent_count": 8,
       "status": "actionable"
     },
     "Standards / Government": {
@@ -5637,13 +5745,22 @@
           "source": "The Quantum Insider",
           "title": "Guest Post: The Role of Silicon Photonics in Delivering Usable Quantum Computing",
           "url": "https://thequantuminsider.com/2026/08/18/guest-post-the-role-of-silicon-photonics-in-delivering-usable-quantum-computing"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://thequantuminsider.com/2026/08/19/eigenq-silicon-valley-acquisition-corp-advance-business-combination",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 23,
+          "source": "The Quantum Insider",
+          "title": "EigenQ and Silicon Valley Acquisition Corp Submit Draft S-4 for Proposed Business Combination",
+          "url": "https://thequantuminsider.com/2026/08/19/eigenq-silicon-valley-acquisition-corp-advance-business-combination"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-08-18",
-      "momentum": "declining",
+      "latest_seen": "2026-08-19",
+      "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
@@ -5651,11 +5768,11 @@
         "arXiv RSS cs.CR",
         "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 12,
+      "prior_count": 8,
       "recent_count": 8,
       "status": "watching"
     }
   },
-  "updated_at": "2026-08-19T00:58:32.450184+00:00",
+  "updated_at": "2026-08-20T00:58:52.297524+00:00",
   "version": 1
 }
