@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-20T00:50:10.359719+00:00_
+_Updated 2026-08-21T00:53:56.854986+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **48** (**64.0%** coverage)
+- SAM.gov-resolved entities: **51** (**68.0%** coverage)
 - Newly resolved this run: **3**
-- Pending bounded enrichment: **129**
+- Pending bounded enrichment: **126**
 - Ambiguous / no match: **2 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -61,6 +61,9 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | GOVSMART, INC. | [GOVSMART, INC.](https://sam.gov/entity/DJACUETFQUL8/coreData) | DJACUETFQUL8 | 5WFZ8 | Active | SBA Certified HUBZone Firm |
 | DELOITTE CONSULTING LLP | [DELOITTE CONSULTING LLP](https://sam.gov/entity/CKV2L9GZKJK3/coreData) | CKV2L9GZKJK3 | 1TTG5 | Active | Business or Organization, For Profit Organization |
 | AON CONSULTING, INC. | [Aon Consulting, Inc.](https://sam.gov/entity/SFE8M7RF4A37/coreData) | SFE8M7RF4A37 | 34UW4 | Active | Business or Organization, For Profit Organization, Foreign Owned |
+| W S DARLEY & CO | [W S DARLEY & CO](https://sam.gov/entity/TENRPZGMAGJ6/coreData) | TENRPZGMAGJ6 | 15852 | Active | Business or Organization, For Profit Organization, Subchapter S Corporation |
+| VALIANT SOLUTIONS, LLC | [VALIANT SOLUTIONS, LLC](https://sam.gov/entity/GKF8ERUXED41/coreData) | GKF8ERUXED41 | 4ESA7 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
+| RAVENTEK SOLUTION PARTNERS, LLC | [RAVENTEK SOLUTION PARTNERS, LLC](https://sam.gov/entity/RCKJZ5KGE3H6/coreData) | RCKJZ5KGE3H6 | 7J4B0 | Active | American Indian Owned, Business or Organization, For Profit Organization |
 | CLEARAVENUE LLC | [CLEARAVENUE LLC](https://sam.gov/entity/TZJXKXNHDLX1/coreData) | TZJXKXNHDLX1 | 3EG54 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
 | REDACTED DUE TO PII | REDACTED DUE TO PII | — | — | no_match | No active public SAM.gov entity matched |
@@ -86,9 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | ALVAREZ LLC | ALVAREZ LLC | — | — | pending | api key missing |
 | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | — | — | pending | api key missing |
 | NEW YORK UNIVERSITY | NEW YORK UNIVERSITY | — | — | pending | api key missing |
-| SHOREPOINT LLC | SHOREPOINT LLC | — | — | pending | api key missing |
-| SECRECY LABS LLC | SECRECY LABS LLC | — | — | pending | api key missing |
-| DELOITTE CONSULTING LLP | DELOITTE CONSULTING LLP | — | — | pending | api key missing |
 
 ## Method
 

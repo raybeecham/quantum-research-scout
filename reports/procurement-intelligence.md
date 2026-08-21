@@ -2,16 +2,87 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-20T00:50:10.359719+00:00_
+_Updated 2026-08-21T00:53:56.854986+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
 - Opportunities reviewed: **20**
-- Documents extracted: **11** / **35** discovered
+- Documents extracted: **10** / **44** discovered
 - Changed documents: **0**
 - New amendments: **0**
 - Material amendment impacts this run: **0**
-- Decisions requiring revalidation: **3**
+- Decisions requiring revalidation: **2**
+
+## [Optical Cryogenic Quantum System](https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view)
+
+Evidence completeness: **84 / 100** · Deadline: **2026-08-26T17:00:00-05:00**
+
+Requirements evidence:
+- 5-6 2 1. ASSIGNMENT (MAR 2023) Neither this contract nor any interest therein nor claim there under shall be assigned or transferred by the Contractor except as expressly authorized in writing by the Laboratory; provided, that the Contractor or its assignee's rights to be paid amounts
+- duties and liabilities owed to Laboratory. Laboratory will not be subject to audit or disclosure except to the extent required by U.S. law or authorized by DOE under the Prime Contract. DOE may access anything supplied to Argonne to the extent provided by federal laws, regulations or the Prime Cont...
+- act Disputes Act is inapplicable and any dispute between the parties that cannot be resolved by good faith negotiations shall be adjudicated in the State of Illinois, County of DuPage. Any provision requiring Laboratory to provide indemnification in Contractor’s terms and conditions is deemed null,...
+- 024) If Contractor considers that any direction or instruction by Laboratory personnel constitutes a change, Contractor shall not rely upon such instruction or direction without written confirmation from the Procurement Specialist. Nothing in this clause, including any disagreement with the Laborat...
+- ment Specialist. Nothing in this clause, including any disagreement with the Laboratory about the equitable adjustment, shall excuse the Contractor from proceeding with the Agreement as changed. 4. CONDUCT OF EMPLOYEES (NOV 2024) The contractor acknowledges the Laboratory’s Code of Business Ethics...
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1c347809e5ef4aae9a5761ca1b1029b8/download) — no_text
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5a5bf8c052264d4499f7b5e0b47f09e9/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/606ef670b4e64d25bd55a5a85f764f7d/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7a1750870dcf4a39959f15931abfaf94/download) — not_fetched
+
+## [Small Business Cybersecurity Network](https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-27T17:00:00-07:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9bd8d56ea7be4877b96d81753fd01de8/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c002c2804e02477783620f2773ecedf1/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/eaddcef7896445a19b3290aa19261856/download) — not_fetched
+
+## [CH-53K Electrical Optical (EO) / Infrared (IR) Sensor System Competition](https://sam.gov/workspace/contract/opp/ba634d6c594945d3b353c270bf7b1a4f/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-09-15T17:00:00-04:00**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ba634d6c594945d3b353c270bf7b1a4f) — not_fetched
+
+## [Wrong Way Sensor Replacement](https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-24T10:00:00-04:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4679791210ab4cd0a12345f42c1282c4/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6abb5bfaeadf4728904316efd78a2b6b/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/71b144a685314840a7eb913a8803b51c/download) — not_fetched
+
+## [66--SENSOR,LIQUID FLOW](https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-25**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9e75681b5bb5424389ad629ec4764b79) — not_fetched
+
+## [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-25T11:00:00-04:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/580cc4c02ed04729858dd795956faa91/download) — not_fetched
+
+## [High-Performance Quantum Scalar Magnetometers](https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view)
+
+Evidence completeness: **96 / 100** · Deadline: **2026-08-24T10:00:00-06:00**
+
+Requirements evidence:
+- | Solicitation FA700026Q0063 Page 2 of 3 CLIN Description Qty Unit 0001 High-Performance Quantum Scalar Magnetometers (Must meet all minimum physical and performance requirements outlined in Attachment 02 — Salient Characteristics) 4 Each 3. Evaluation Criteria The Government intends to award a fir...
+- ificantly more important than price. 4. Instructions to Offerors • Questions: All questions regarding this solicitation must be submitted in writing via email to [Insert Contracting Officer Email] and [Insert Contract Specialist Email] no later than 20 August 2026 at 10:00 AM MDT. • Quote Deadline:...
+- er Email] and [Insert Contract Specialist Email] no later than 20 August 2026 at 10:00 AM MDT. • Quote Deadline: Quotes must be received no later than 24 August 2026 at 10:00 AM MDT. • Quote Validity: Offerors must state in their submission that their quote remains valid until 30 September 2026. •...
+- MDT. • Quote Deadline: Quotes must be received no later than 24 August 2026 at 10:00 AM MDT. • Quote Validity: Offerors must state in their submission that their quote remains valid until 30 September 2026. • Buy American Certificate: Offerors MUST complete and return “Attachment 03 — Buy American...
+- state in their submission that their quote remains valid until 30 September 2026. • Buy American Certificate: Offerors MUST complete and return “Attachment 03 — Buy American Certificate” with their quote submission. Failure to return the completed certificate may render the quote non-responsive. US...
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c9e039d2a444f6fa525d4b24ef517e8/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/58039c0f631e4cae8a30d940d37022bf/download) — not_fetched
 
 ## [Request for Quotation # 19VM3026Q0022– Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams.](https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view)
 
@@ -47,6 +118,12 @@ Evidence completeness: **0 / 100** · Deadline: **2026-09-03T16:30:00-04:00**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a2efca763807413ab373bf41ac2f97eb) — not_fetched
 
+## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-21**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0b0acdbbd7640858dec2985c5d76c54) — not_fetched
+
 ## [16--WHEEL HALF ASSEMBLY,AI](https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view)
 
 Evidence completeness: **0 / 100** · Deadline: **2026-08-24**
@@ -77,56 +154,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-24T16:00:00-05:00**
 Evidence completeness: **0 / 100** · Deadline: **2026-08-24**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d2951a1479ad43218ffe25dba6b9185e) — not_fetched
-
-## [High-Performance Quantum Scalar Magnetometers](https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view)
-
-Evidence completeness: **96 / 100** · Deadline: **2026-08-24T10:00:00-06:00**
-
-Requirements evidence:
-- | Solicitation FA700026Q0063 Page 2 of 3 CLIN Description Qty Unit 0001 High-Performance Quantum Scalar Magnetometers (Must meet all minimum physical and performance requirements outlined in Attachment 02 — Salient Characteristics) 4 Each 3. Evaluation Criteria The Government intends to award a fir...
-- ificantly more important than price. 4. Instructions to Offerors • Questions: All questions regarding this solicitation must be submitted in writing via email to [Insert Contracting Officer Email] and [Insert Contract Specialist Email] no later than 20 August 2026 at 10:00 AM MDT. • Quote Deadline:...
-- er Email] and [Insert Contract Specialist Email] no later than 20 August 2026 at 10:00 AM MDT. • Quote Deadline: Quotes must be received no later than 24 August 2026 at 10:00 AM MDT. • Quote Validity: Offerors must state in their submission that their quote remains valid until 30 September 2026. •...
-- MDT. • Quote Deadline: Quotes must be received no later than 24 August 2026 at 10:00 AM MDT. • Quote Validity: Offerors must state in their submission that their quote remains valid until 30 September 2026. • Buy American Certificate: Offerors MUST complete and return “Attachment 03 — Buy American...
-- state in their submission that their quote remains valid until 30 September 2026. • Buy American Certificate: Offerors MUST complete and return “Attachment 03 — Buy American Certificate” with their quote submission. Failure to return the completed certificate may render the quote non-responsive. US...
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c9e039d2a444f6fa525d4b24ef517e8/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/58039c0f631e4cae8a30d940d37022bf/download) — not_fetched
-
-## [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/a9120fedc53c4e2f8a1a2a5b6322b185/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-20**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a9120fedc53c4e2f8a1a2a5b6322b185) — not_fetched
-
-## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/e167abdf96e74cb48727525b8fbf0bb1/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-20**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e167abdf96e74cb48727525b8fbf0bb1) — not_fetched
-
-## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-21**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0b0acdbbd7640858dec2985c5d76c54) — not_fetched
-
-## [NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder](https://sam.gov/workspace/contract/opp/93064bc210294f239f395b372899ceab/view)
-
-Evidence completeness: **84 / 100** · Deadline: **2026-08-20T12:00:00-04:00**
-
-Requirements evidence:
-- referenced with instructions in the solicitation. (b) As directed in Section L of this solicitation, interested vendors shall submit a quote or proposal via email to the Contract Specialist listed on the solicitation. The email shall include subject header: Proposal Submission SPRDL1-XX-X-XXXX (com...
-- ted vendors shall submit a quote or proposal via email to the Contract Specialist listed on the solicitation. The email shall include subject header: Proposal Submission SPRDL1-XX-X-XXXX (company name) on the solicitation. (c) Requirements for tracking solicitations and submitting bid submissions:...
-- mpany name) on the solicitation. (c) Requirements for tracking solicitations and submitting bid submissions: 1. Vendors must be registered for a sam.gov account through https://login.gov in order to manage searches and track solicitations. Using the Contract Opportunities search function in sam.gov...
-- ist. 2. Vendors may Request Access to controlled documents such as the Technical Data Package (TDP). Interested vendors must request TDPs as directed in Section C of this solicitation. 3. All bids and proposals must be submitted via email to the Contract Specialist on record. (d) Note to offerors:...
-- ge (TDP). Interested vendors must request TDPs as directed in Section C of this solicitation. 3. All bids and proposals must be submitted via email to the Contract Specialist on record. (d) Note to offerors: Please pay close attention to the solicitation closing date and time as stated on the cover...
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0185fb2f6df64b9ca13e3825ac75e181/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cd444cb6c5a46908f5af4673ebe1ec2/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/f048f98ab32b470387472b1193c100b5/download) — extracted
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=93064bc210294f239f395b372899ceab) — not_fetched
 
 ## [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
 
@@ -164,24 +191,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-21T15:00:00-07:00**
 
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/51add446f08c4b9495dee91977852ab4/download) — failed
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=10d5c382557249708dd444771cfc5753) — no_text
-
-## [63--SALINITY SENSOR,CON](https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-26**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0f76f691fbc441681bc673240f79d62) — no_text
-
-## [66--SENSOR,AMBIENT TEMP](https://sam.gov/workspace/contract/opp/b749f496a21443708e47a8291f23ab44/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-26**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b749f496a21443708e47a8291f23ab44) — no_text
-
-## [29--SENSOR,MASS AIR FLO](https://sam.gov/workspace/contract/opp/f9f8780939b843929ca1931cbff0001a/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-31**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f9f8780939b843929ca1931cbff0001a) — no_text
 
 ## Method
 

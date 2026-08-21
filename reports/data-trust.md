@@ -1,28 +1,42 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-20T00:50:10.359719+00:00_
+_Updated 2026-08-21T00:53:56.854986+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **517**
-- Quarantined evidence or relationships: **105**
+- Accepted evidence: **527**
+- Quarantined evidence or relationships: **107**
 - Acceptance rate: **83.1%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 27 | 77 | 26.0% |
-| Federal funding | 490 | 28 | 94.6% |
+| Federal missions | 27 | 79 | 25.5% |
+| Federal funding | 500 | 28 | 94.7% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 105
-- **No relevant term in the evidence itself**: 105
-- **Official government source**: 100
+- **Match appears only in collector query metadata**: 107
+- **No relevant term in the evidence itself**: 107
+- **Official government source**: 102
 - **Source is not an official .gov or .mil domain**: 5
 
 ## Quarantined Evidence
+
+### [Multimodal AI to Accelerate Precision Medicine for Type 1 Diabetes (U01- Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/363678)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Agriculture Risk Management Education Partnerships Competitive Grants Program](https://www.grants.gov/search-results-detail/363682)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [FY25 and FY26 Advanced Digital Construction Management Systems (ADCMS)](https://www.grants.gov/search-results-detail/363628)
 
@@ -704,20 +718,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [Mathematical Sciences Infrastructure Program](https://www.grants.gov/search-results-detail/328573)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Small Grants Program](https://www.grants.gov/search-results-detail/326733)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [U.S. Embassy Praia Ambassador’s Special Self-Help (SSH) Program](https://www.grants.gov/search-results-detail/325599)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

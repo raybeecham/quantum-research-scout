@@ -1,20 +1,66 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 26.0,
+      "acceptance_rate": 25.5,
       "accepted": 27,
-      "quarantined": 77,
+      "quarantined": 79,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 94.6,
-      "accepted": 490,
+      "acceptance_rate": 94.7,
+      "accepted": 500,
       "quarantined": 28,
       "scope": "Federal funding"
     }
   ],
   "method_note": "Quarantine is not a finding that evidence is false or irrelevant. It means the current evidence is too weak for automated promotion and remains available for review.",
   "quarantined_evidence": [
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-20",
+      "key": "https://www.grants.gov/search-results-detail/363678",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "mission evidence admission",
+      "title": "Multimodal AI to Accelerate Precision Medicine for Type 1 Diabetes (U01- Clinical Trials Not Allowed)",
+      "url": "https://www.grants.gov/search-results-detail/363678"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-20",
+      "key": "https://www.grants.gov/search-results-detail/363682",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Quantum Benchmarking Initiative",
+      "stage": "mission evidence admission",
+      "title": "Agriculture Risk Management Education Partnerships Competitive Grants Program",
+      "url": "https://www.grants.gov/search-results-detail/363682"
+    },
     {
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
@@ -2240,68 +2286,22 @@
       "stage": "mission evidence admission",
       "title": "Mathematical Sciences Infrastructure Program",
       "url": "https://www.grants.gov/search-results-detail/328573"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Genesis Mission",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2020-05-05",
-      "key": "https://www.grants.gov/search-results-detail/326733",
-      "mission_id": "genesis-mission",
-      "mission_name": "Genesis Mission",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "mission evidence admission",
-      "title": "Small Grants Program",
-      "url": "https://www.grants.gov/search-results-detail/326733"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Project Triad",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2020-03-19",
-      "key": "https://www.grants.gov/search-results-detail/325599",
-      "mission_id": "project-triad",
-      "mission_name": "Project Triad",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "mission evidence admission",
-      "title": "U.S. Embassy Praia Ambassador\u2019s Special Self-Help (SSH) Program",
-      "url": "https://www.grants.gov/search-results-detail/325599"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 105,
+      "count": 107,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 105,
+      "count": 107,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 100,
+      "count": 102,
       "label": "Official government source"
     },
     {
@@ -2313,13 +2313,13 @@
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
     "acceptance_rate": 83.1,
-    "accepted": 517,
-    "decisions": 622,
+    "accepted": 527,
+    "decisions": 634,
     "funding_quarantine": 28,
-    "mission_quarantine": 77,
-    "quarantined": 105,
+    "mission_quarantine": 79,
+    "quarantined": 107,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-20T00:50:10.359719+00:00",
+  "updated_at": "2026-08-21T00:53:56.854986+00:00",
   "version": 1
 }

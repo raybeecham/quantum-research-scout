@@ -298,9 +298,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 6,
+      "evidence_count": 7,
       "historical_evidence_count": 1,
-      "latest_evidence_at": "2026-08-13",
+      "latest_evidence_at": "2026-08-20",
       "name": "NIST",
       "priority": "critical",
       "source_count": 4,
@@ -338,6 +338,21 @@
           "source": "Quantum Zeitgeist",
           "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
+        },
+        {
+          "date": "2026-08-20",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "Crypto4A\u2019s module supports all NIST post-quantum algorithms",
+          "url": "https://quantumzeitgeist.com/post-quantum-algorithms-crypto4as-module-supports"
         },
         {
           "date": "2026-08-13",
@@ -1574,6 +1589,6 @@
     "not_assessed": 21,
     "organizations": 43
   },
-  "updated_at": "2026-08-20T00:58:52.760835+00:00",
+  "updated_at": "2026-08-21T01:00:53.391131+00:00",
   "version": 1
 }
