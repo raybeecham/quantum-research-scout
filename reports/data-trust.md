@@ -1,28 +1,35 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-21T00:53:56.854986+00:00_
+_Updated 2026-08-22T00:50:40.718732+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **527**
-- Quarantined evidence or relationships: **107**
-- Acceptance rate: **83.1%**
+- Accepted evidence: **528**
+- Quarantined evidence or relationships: **111**
+- Acceptance rate: **82.6%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 27 | 79 | 25.5% |
-| Federal funding | 500 | 28 | 94.7% |
+| Federal missions | 28 | 82 | 25.5% |
+| Federal funding | 500 | 29 | 94.5% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 107
-- **No relevant term in the evidence itself**: 107
-- **Official government source**: 102
-- **Source is not an official .gov or .mil domain**: 5
+- **Match appears only in collector query metadata**: 111
+- **No relevant term in the evidence itself**: 111
+- **Official government source**: 105
+- **Source is not an official .gov or .mil domain**: 6
 
 ## Quarantined Evidence
+
+### [Cryptography 12h ago Utimaco says US agencies must cut quantum risk by end of 2030](https://quantumzeitgeist.com/utimaco-agencies-must-cut-quantum)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [Multimodal AI to Accelerate Precision Medicine for Type 1 Diabetes (U01- Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/363678)
 
@@ -248,6 +255,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 10
 
+### [National Estuarine Research Reserve System (NERRS) Land Acquisition and Construction Program for Fiscal Year 2026](https://www.grants.gov/search-results-detail/363229)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [National Estuarine Research Reserve System (NERRS) Land Acquisition and Construction Program for Fiscal Year 2026](https://www.grants.gov/search-results-detail/363229)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
 ### [English Language Exchange Programs: AI and Educational Technology Integration](https://www.grants.gov/search-results-detail/363105)
 
 - Scope: Federal missions
@@ -434,6 +455,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal funding
 - Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [F26AS00083 Aquatic Invasive Species Grants to Great Lakes States - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362749)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
@@ -690,34 +718,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [FDA Support for Conferences and Scientific Meetings (R13 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/342752)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Faculty Early Career Development Program](https://www.grants.gov/search-results-detail/339594)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [National Defense Education Program (NDEP) Science, Technology, Engineering, and Mathematics (STEM) Consortia Request for Information (RFI) for the Office of the Under Secretary of Defense (Research & Engineering)](https://www.grants.gov/search-results-detail/334905)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Request for Information (RFI) No. 95332421K0004 - Community Engagement Services for the Solomon Islands Threshold Program](https://www.grants.gov/search-results-detail/331311)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Mathematical Sciences Infrastructure Program](https://www.grants.gov/search-results-detail/328573)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

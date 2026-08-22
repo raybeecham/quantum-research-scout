@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-08-21T00:53:56.854986+00:00_
+_Updated 2026-08-22T00:50:40.718732+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 86% · Genesis Mission
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-19?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-20?
 
 **Horizon:** 2026-10-29
 
@@ -44,7 +44,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 74% · Golden Dome for America
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-19?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-20?
 
 **Horizon:** 2026-10-29
 
@@ -136,7 +136,7 @@ Will authoritative evidence confirm “Advance selected NSF NQVL projects from d
 
 ### 59% · Genesis Mission
 
-Will authoritative evidence confirm “Review federal robotic and AI-directed laboratory capabilities” by 2026-09-20?
+Will authoritative evidence confirm “Review federal robotic and AI-directed laboratory capabilities” by 2026-09-21?
 
 **Horizon:** 2026-08-30
 
@@ -156,9 +156,9 @@ Will authoritative evidence confirm “Review federal robotic and AI-directed la
 - An official source delays, cancels, or materially rescopes the milestone.
 - The confirmation horizon passes without authoritative completion evidence.
 
-### 55% · Military AI Pace-Setting Projects
+### 54% · Military AI Pace-Setting Projects
 
-Will authoritative evidence confirm “Conduct initial Pace-Setting Project demonstrations with transition-partner users” by 2026-09-20?
+Will authoritative evidence confirm “Conduct initial Pace-Setting Project demonstrations with transition-partner users” by 2026-09-21?
 
 **Horizon:** 2026-08-30
 
@@ -180,7 +180,7 @@ Will authoritative evidence confirm “Conduct initial Pace-Setting Project demo
 
 ### 53% · Federal Post-Quantum Cryptography Transition
 
-Will authoritative evidence confirm “Agencies identify and report their PQC migration leads” by 2026-09-20?
+Will authoritative evidence confirm “Agencies identify and report their PQC migration leads” by 2026-09-21?
 
 **Horizon:** 2026-09-07
 

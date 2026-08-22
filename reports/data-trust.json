@@ -2,19 +2,42 @@
   "collector_metrics": [
     {
       "acceptance_rate": 25.5,
-      "accepted": 27,
-      "quarantined": 79,
+      "accepted": 28,
+      "quarantined": 82,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 94.7,
+      "acceptance_rate": 94.5,
       "accepted": 500,
-      "quarantined": 28,
+      "quarantined": 29,
       "scope": "Federal funding"
     }
   ],
   "method_note": "Quarantine is not a finding that evidence is false or irrelevant. It means the current evidence is too weak for automated promotion and remains available for review.",
   "quarantined_evidence": [
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Executive Order 14412",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-21",
+      "key": "https://quantumzeitgeist.com/utimaco-agencies-must-cut-quantum",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "scope": "Federal missions",
+      "source": "QuantumNews.ai",
+      "stage": "mission evidence admission",
+      "title": "Cryptography 12h ago Utimaco says US agencies must cut quantum risk by end of 2030",
+      "url": "https://quantumzeitgeist.com/utimaco-agencies-must-cut-quantum"
+    },
     {
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
@@ -746,6 +769,51 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-17",
+      "key": "https://www.grants.gov/search-results-detail/363229",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "National Estuarine Research Reserve System (NERRS) Land Acquisition and Construction Program for Fiscal Year 2026",
+      "url": "https://www.grants.gov/search-results-detail/363229"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-07-17",
+      "key": "grants_gov:NOAA-NOS-OCM-2026-33239",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "National Estuarine Research Reserve System (NERRS) Land Acquisition and Construction Program for Fiscal Year 2026",
+      "url": "https://www.grants.gov/search-results-detail/363229"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "AI Forge",
         "reason_codes": [
           "official_source",
@@ -1354,6 +1422,29 @@
       "stage": "funding evidence admission",
       "title": "FY26 Bureau of Land Management Youth Conservation Corps - Bureau wide",
       "url": "https://www.grants.gov/search-results-detail/362787"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "AI Forge",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-10",
+      "key": "https://www.grants.gov/search-results-detail/362749",
+      "mission_id": "ai-forge",
+      "mission_name": "AI Forge",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 AI Forge",
+      "stage": "mission evidence admission",
+      "title": "F26AS00083 Aquatic Invasive Species Grants to Great Lakes States - Fiscal Year 2026 Great Lakes Restoration Initiative",
+      "url": "https://www.grants.gov/search-results-detail/362749"
     },
     {
       "admission": {
@@ -2194,132 +2285,40 @@
       "stage": "mission evidence admission",
       "title": "FDA Support for Conferences and Scientific Meetings (R13 Clinical Trial Not Allowed)",
       "url": "https://www.grants.gov/search-results-detail/342752"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Genesis Mission",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2022-04-19",
-      "key": "https://www.grants.gov/search-results-detail/339594",
-      "mission_id": "genesis-mission",
-      "mission_name": "Genesis Mission",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "mission evidence admission",
-      "title": "Faculty Early Career Development Program",
-      "url": "https://www.grants.gov/search-results-detail/339594"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Genesis Mission",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2021-07-27",
-      "key": "https://www.grants.gov/search-results-detail/334905",
-      "mission_id": "genesis-mission",
-      "mission_name": "Genesis Mission",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "mission evidence admission",
-      "title": "National Defense Education Program (NDEP) Science, Technology, Engineering, and Mathematics (STEM) Consortia Request for Information (RFI) for the Office of the Under Secretary of Defense (Research & Engineering)",
-      "url": "https://www.grants.gov/search-results-detail/334905"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Project Triad",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2021-02-04",
-      "key": "https://www.grants.gov/search-results-detail/331311",
-      "mission_id": "project-triad",
-      "mission_name": "Project Triad",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "mission evidence admission",
-      "title": "Request for Information (RFI) No. 95332421K0004 - Community Engagement Services for the Solomon Islands Threshold Program",
-      "url": "https://www.grants.gov/search-results-detail/331311"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Project Triad",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2020-08-07",
-      "key": "https://www.grants.gov/search-results-detail/328573",
-      "mission_id": "project-triad",
-      "mission_name": "Project Triad",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "mission evidence admission",
-      "title": "Mathematical Sciences Infrastructure Program",
-      "url": "https://www.grants.gov/search-results-detail/328573"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 107,
+      "count": 111,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 107,
+      "count": 111,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 102,
+      "count": 105,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 5,
+      "count": 6,
       "label": "Source is not an official .gov or .mil domain"
     }
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 83.1,
-    "accepted": 527,
-    "decisions": 634,
-    "funding_quarantine": 28,
-    "mission_quarantine": 79,
-    "quarantined": 107,
+    "acceptance_rate": 82.6,
+    "accepted": 528,
+    "decisions": 639,
+    "funding_quarantine": 29,
+    "mission_quarantine": 82,
+    "quarantined": 111,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-21T00:53:56.854986+00:00",
+  "updated_at": "2026-08-22T00:50:40.718732+00:00",
   "version": 1
 }

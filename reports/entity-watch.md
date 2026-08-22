@@ -4,17 +4,17 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-08-21 01:00 UTC_
+_Updated 2026-08-22 00:56 UTC_
 
 ## Organizations
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
 | NIST | ➡️ stable (1 vs 1) | 🔴 critical | active | 2026-06-25 | 2026-08-20 | 9 | 1 |
-| IBM | ➡️ stable (3 vs 3) | 🟠 high | active | 2026-06-23 | 2026-08-19 | 22 | 0 |
+| IBM | ↗️ rising (3 vs 2) | 🟠 high | active | 2026-06-23 | 2026-08-19 | 22 | 0 |
 | Keyfactor | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-10-29 | 2026-07-31 | 22 | 14 |
 | Fortanix | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2024-08-19 | 2026-07-30 | 20 | 20 |
-| IonQ | ↘️ declining (2 vs 3) | 🟠 high | active | 2026-06-22 | 2026-08-19 | 13 | 0 |
+| IonQ | ↗️ rising (2 vs 1) | 🟠 high | active | 2026-06-22 | 2026-08-19 | 13 | 0 |
 | QuEra | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-07-22 | 2026-08-12 | 10 | 8 |
 | QuSecure | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2025-07-19 | 2026-08-11 | 9 | 4 |
 | PsiQuantum | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-02-26 | 2026-07-22 | 8 | 8 |
@@ -54,8 +54,8 @@ _Updated 2026-08-21 01:00 UTC_
 | Logical qubits | ↗️ rising (2 vs 1) | 🔴 critical | active | 2025-09-10 | 2026-08-18 | 17 | 3 |
 | ML-DSA | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2026-06-29 | 2026-07-23 | 2 | 0 |
 | Quantum key distribution | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-29 | 2026-07-23 | 9 | 1 |
-| Quantum networking | ↘️ declining (0 vs 3) | 🟠 high | quiet | 2026-07-07 | 2026-08-11 | 6 | 1 |
-| Quantum sensing | ↗️ rising (1 vs 0) | 🟡 medium | active | 2026-06-24 | 2026-08-14 | 14 | 1 |
+| Quantum networking | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2026-07-07 | 2026-08-11 | 6 | 1 |
+| Quantum sensing | ↘️ declining (0 vs 1) | 🟡 medium | active | 2026-06-24 | 2026-08-14 | 14 | 1 |
 
 **Configured, awaiting evidence (4):** CNSA 2.0, ML-KEM, Hybrid TLS, SLH-DSA
 

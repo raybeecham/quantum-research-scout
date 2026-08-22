@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-21T00:53:56.854986+00:00_
+_Updated 2026-08-22T00:50:40.718732+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **51** (**68.0%** coverage)
+- SAM.gov-resolved entities: **54** (**72.0%** coverage)
 - Newly resolved this run: **3**
-- Pending bounded enrichment: **126**
+- Pending bounded enrichment: **127**
 - Ambiguous / no match: **2 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -47,10 +47,13 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | THE REGENTS OF THE UNIVERSITY OF COLORADO | [The Regents of the University of Colorado](https://sam.gov/entity/SPVKK1RC2MZ3/coreData) | SPVKK1RC2MZ3 | 4B475 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | THE JOHNS HOPKINS UNIVERSITY | [THE JOHNS HOPKINS UNIVERSITY](https://sam.gov/entity/FTMTDMBR29C7/coreData) | FTMTDMBR29C7 | 5L406 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF TEXAS AT AUSTIN | [University of Texas at Austin](https://sam.gov/entity/V6AFQPN18437/coreData) | V6AFQPN18437 | 9B981 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| THE MITRE CORPORATION | [THE MITRE CORPORATION](https://sam.gov/entity/DMHDNDCPWUD1/coreData) | DMHDNDCPWUD1 | 7L030 | Active | Business or Organization, Non-Profit Organization |
 | ROCHESTER INSTITUTE OF TECHNOLOGY | [ROCHESTER INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/J6TWTRKC1X14/coreData) | J6TWTRKC1X14 | 0SWS3 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | PRIDE MOBILITY PRODUCTS CORPORATION | [Pride Mobility Products Corporation](https://sam.gov/entity/KFLDSFDM2VH3/coreData) | KFLDSFDM2VH3 | 1QRM1 | Active | Business or Organization, For Profit Organization |
 | NORTH CAROLINA STATE UNIVERSITY | [NORTH CAROLINA STATE UNIVERSITY](https://sam.gov/entity/U3NVH931QJJ3/coreData) | U3NVH931QJJ3 | 1E7H9 | Active | 1862 Land Grant College, Educational Institution, U.S. State Government |
 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | [MCKINSEY & COMPANY, INC. WASHINGTON D.C.](https://sam.gov/entity/N6JZARL64EW5/coreData) | N6JZARL64EW5 | 438P1 | Active | Business or Organization, For Profit Organization, Self-Certified HUBZone Joint Venture |
+| DUKE UNIVERSITY | [DUKE UNIVERSITY](https://sam.gov/entity/TP7EK8DZV6N5/coreData) | TP7EK8DZV6N5 | 4B478 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| UNIVERSITY OF CALIFORNIA, SAN DIEGO | [UNIVERSITY OF CALIFORNIA, SAN DIEGO](https://sam.gov/entity/UYTTZT6G9DT1/coreData) | UYTTZT6G9DT1 | 50854 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | [The Research Foundation for The State University of New York](https://sam.gov/entity/LMCJKRFW5R81/coreData) | LMCJKRFW5R81 | 3GQT6 | Active | Business or Organization, Non-Profit Organization |
 | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | [THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC](https://sam.gov/entity/C1HBCJ9RMBV3/coreData) | C1HBCJ9RMBV3 | 88898 | Active | Business or Organization, Educational Institution, Limited Liability Company |
 | OREGON STATE UNIVERSITY | [OREGON STATE UNIVERSITY](https://sam.gov/entity/MZ4DYXE1SL98/coreData) | MZ4DYXE1SL98 | 5D489 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |
@@ -86,9 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | COLOSSAL CONTRACTING LLC | COLOSSAL CONTRACTING LLC | — | — | ambiguous | Multiple or non-exact SAM.gov candidates require review |
 | V3GATE, LLC | V3GATE, LLC | — | — | ambiguous | Multiple or non-exact SAM.gov candidates require review |
 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | — | — | pending | api key missing |
-| ALVAREZ LLC | ALVAREZ LLC | — | — | pending | api key missing |
-| THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | — | — | pending | api key missing |
-| NEW YORK UNIVERSITY | NEW YORK UNIVERSITY | — | — | pending | api key missing |
 
 ## Method
 

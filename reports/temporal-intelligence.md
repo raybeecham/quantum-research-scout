@@ -2,91 +2,83 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-08-21T00:53:56.854986+00:00_
+_Updated 2026-08-22T00:50:40.718732+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **91**
-- Newly discovered historical evidence: **6**
+- Actual or recent changes: **59**
+- Newly discovered historical evidence: **3**
 - Newly observed with no reliable source date: **12**
 - Upcoming dated events: **119**
 
 ## Priority timeline
 
-- **Conflict opened since prior run** · Pax Silica Artificial Intelligence Assistance Project — opportunity status
+- **Conflict opened since prior run** · 28--BLADE,COMPRESSOR,AI — deadline
   - A new unresolved disagreement appeared in the claim ledger comparison.
-- **Conflict opened since prior run** · USAFA: Quantum Demonstration/Experiment System (Amendment 2) — deadline
+- **Conflict opened since prior run** · AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO) — deadline
   - A new unresolved disagreement appeared in the claim ledger comparison.
-- **Changed since prior run** · 15--PANEL,STRUCTURAL,AI — opportunity status ([evidence](https://sam.gov/workspace/contract/opp/e167abdf96e74cb48727525b8fbf0bb1/view))
+- **Conflict opened since prior run** · ATEC HQ 003 - AI Assurance & Autonomous System Validation — opportunity status
+  - A new unresolved disagreement appeared in the claim ledger comparison.
+- **Changed since prior run** · 15--PANEL,STRUCTURAL,AI — opportunity status ([evidence](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view))
   - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · 15--PLATE,STRUCTURAL,AI — opportunity status ([evidence](https://sam.gov/workspace/contract/opp/a9120fedc53c4e2f8a1a2a5b6322b185/view))
+- **Changed since prior run** · ATEC HQ 003 - AI Assurance & Autonomous System Validation — opportunity status ([evidence](https://sam.gov/workspace/contract/opp/ccb7fecdd0d54543afd2d740f3f84ac7/view))
   - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · CyberNext: Advance Cybersecurity and AI Readiness — opportunity status ([evidence](https://www.grants.gov/search-results-detail/363249))
+- **Changed since prior run** · KEYSIGHT N8487A POWER SENSOR — opportunity status ([evidence](https://sam.gov/workspace/contract/opp/10d5c382557249708dd444771cfc5753/view))
   - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · GameON – U.S.-Albania E-Sports and Innovation — opportunity status ([evidence](https://www.grants.gov/search-results-detail/363247))
+- **Changed since prior run** · Small Business Cybersecurity Network — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view))
   - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder — opportunity status ([evidence](https://sam.gov/workspace/contract/opp/93064bc210294f239f395b372899ceab/view))
-  - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · Pax Silica Artificial Intelligence Assistance Project — opportunity status ([evidence](https://www.grants.gov/search-results-detail/363596))
-  - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · Subnational Industrial Innovation and Resilient Entrepreneurship Accelerator — opportunity status ([evidence](https://www.grants.gov/search-results-detail/363319))
-  - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · U.S-Nigeria Creative, Digital, & Innovation Economy Initiative — opportunity status ([evidence](https://www.grants.gov/search-results-detail/363269))
-  - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · U.S.-Argentina Alumni Summit — opportunity status ([evidence](https://www.grants.gov/search-results-detail/363320))
-  - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · High-Performance Quantum Scalar Magnetometers — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view))
-  - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · Request for Quotation # 19VM3026Q0022– Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams. — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view))
-  - The assertion changed relative to the prior successful ledger build.
-- **Published today** · Agriculture Risk Management Education Partnerships Competitive Grants Program — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363682))
+- **Published today** · 28--BLADE,COMPRESSOR,AI — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/ab64eb89184b483885e3b7938dc683c4/view))
   - The source publication date is today or within the prior day.
-- **Published today** · CH-53K Electrical Optical (EO) / Infrared (IR) Sensor System Competition — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/ba634d6c594945d3b353c270bf7b1a4f/view))
+- **Published today** · AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO) — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/6cb8851eb547403780b604de93a1a406/view))
   - The source publication date is today or within the prior day.
-- **Published today** · Enterprise GPU Servers for Artificial Intelligence – Multiple-Award IDIQ — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/cd7967245d344984affc3f1acddcc379/view))
+- **Published today** · Autonomous Livestock Feed Monitoring Bins — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/b6ef60d7b5c846199b3628917dc4bb58/view))
   - The source publication date is today or within the prior day.
-- **Published today** · Multimodal AI to Accelerate Precision Medicine for Type 1 Diabetes (U01- Clinical Trials Not Allowed) — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363678))
+- **Published today** · Custom HPC cluster with AMD EPYC "Turin" CPUs — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/5633e09273894004967a7038a7362502/view))
   - The source publication date is today or within the prior day.
-- **Published today** · Optical Cryogenic Quantum System — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view))
+- **Published today** · Remote Evapotranspiration Sensor Package — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/38d5925003d84fd2b3de42dce90c6b10/view))
   - The source publication date is today or within the prior day.
-- **Published today** · Optical Cryogenic Quantum System — states deadline ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5a5bf8c052264d4499f7b5e0b47f09e9/download))
+- **Published today** · Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM) — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/ab5de2004b3a4549819300908e5f3ee1/view))
   - The source publication date is today or within the prior day.
-- **Published today** · Optical Cryogenic Quantum System — states deadline ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/606ef670b4e64d25bd55a5a85f764f7d/download))
+- **Published today** · SENSOR DEVICE — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/f6faa76eb4094480bb03ffa4ee07db0e/view))
   - The source publication date is today or within the prior day.
-- **Published today** · Small Business Cybersecurity Network — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view))
-  - The source publication date is today or within the prior day.
-- **Published today** · USAFA: Quantum Demonstration/Experiment System (Amendment 2) — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/88038d7669964d6da76168589483ef36/view))
-  - The source publication date is today or within the prior day.
-- **Occurred 3 days ago** · FICAM - CYBERSECURITY SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) PROGRAM SUPPORT — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_28321326FA0010187_2800_28321323A00040005_2800))
+- **Occurred 3 days ago** · OU77-FY26-181-NEW. TWO SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTORS (SNSPDS) FOR QUANTUM NETWORKING METROLOGY. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB770291_1341_-NONE-_-NONE-))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Published 4 days ago** · Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI) — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363614))
+- **Published 2 days ago** · Small Business Cybersecurity Network — states deliverable ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download))
   - A recently published source was newly incorporated into the ledger.
-- **Evidence trace changed** · 15--PANEL,STRUCTURAL,AI — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view))
+- **Published 2 days ago** · Small Business Cybersecurity Network — states requirement ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9bd8d56ea7be4877b96d81753fd01de8/download))
+  - A recently published source was newly incorporated into the ledger.
+- **Published 2 days ago** · Agriculture Risk Management Education Partnerships Competitive Grants Program — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363682))
+  - A recently published source was newly incorporated into the ledger.
+- **Evidence trace changed** · 29--SENSOR,MASS AIR FLO — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · 15--WINDSHIELD PANEL,AI — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view))
+- **Evidence trace changed** · Decentralized Artificial Intelligence through Controlled Emergence (DICE) — qualification gate ([evidence](https://www.grants.gov/search-results-detail/362743))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · 16--WHEEL HALF ASSEMBLY,AI — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view))
+- **Evidence trace changed** · Request for Quotation # 19VM3026Q0022– Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams. — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · 66--SENSOR,CURRENT — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/8f42834292314b9bb08ade0259ef007a/view))
+- **Evidence trace changed** · Wrong Way Sensor Replacement — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · INL_RFQ-PR15372268 TECHNOLOGICAL EQUIPMENT FOR AI — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/95813bd2ad944e7a89b5590605a0ccc9/view))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · KEYSIGHT N8487A POWER SENSOR — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/10d5c382557249708dd444771cfc5753/view))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Upcoming event date** · ARTIFICIAL INTELLIGENCE (AI) WORKFORCE HUB SUPPORT SERVICES — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1605C226F00028_1605_1605C223A0036_1605))
-  - The source date is in the future; Scout first observed it on 2026-08-21.
-- **Newly observed · event date unknown** · RAVENTEK SOLUTION PARTNERS, LLC — cage code ([evidence](https://sam.gov/entity/RCKJZ5KGE3H6/coreData))
+- **Upcoming event date** · CHARACTERIZING GLYCEMIC HETEROGENEITY IN PREDIABETES AND ITS RELATIONSHIPS WITH LIFESTYLE PATTERNS AND CARDIOMETABOLIC RISK FACTORS - PROJECT SUMMARY PREDIABETES (PD) AFFECTS NEAR... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_F31DK146694_075))
+  - The source date is in the future; Scout first observed it on 2026-08-22.
+- **Upcoming event date** · CMS FFRDC TASK ORDER - CYBERSECURITY RISK ASSESSMENT OF EMERGING AND LEGACY MEDICAL DEVICES — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_75F40126F80135_7524_75FCMC23D0004_7530))
+  - The source date is in the future; Scout first observed it on 2026-08-22.
+- **Upcoming event date** · ENHANCING COMPUTATIONAL SKILL DEVELOPMENT IN BIOMEDICAL EDUCATION AND RESEARCH THROUGH ACQUISITION OF A HIGH-PERFORMANCE COMPUTING ENGINE - PROJECT SUMMARY/ABSTRACT FUNDS ARE REQU... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_S10GM164901_075))
+  - The source date is in the future; Scout first observed it on 2026-08-22.
+- **Upcoming event date** · EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R.... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_F32EB040202_075))
+  - The source date is in the future; Scout first observed it on 2026-08-22.
+- **Upcoming event date** · INTERROGATING THE ROLE OF NUCLEAR HEPARAN SULFATES IN HEMATOPOIETIC CELLS - PROJECT SUMMARY HEMATOPOIESIS INVOLVES THE SELF-MAINTENANCE AND DIFFERENTIATION OF HEMATOPOIETIC STEM A... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_F31HL184589_075))
+  - The source date is in the future; Scout first observed it on 2026-08-22.
+- **Upcoming event date** · PURPOSE:THE PURPOSE OF THIS GRANT IS TO ESTABLISH AN AI RESEARCH FACILITY FOR THE AEROSPACE AND NATIONAL SECURITY SECTORS. THIS EFFORT WILL INCLUDE THE ESTABLISHMENT OF A HIGH-PER... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D130_013))
+  - The source date is in the future; Scout first observed it on 2026-08-22.
+- **Upcoming event date** · TRANSLATING GENETIC FINDINGS INTO NOVEL THERAPEUTICS FOR OPIOID USE DISORDER - PROJECT SUMMARY OPIOID USE DISORDER (OUD) REMAINS A MAJOR PUBLIC HEALTH CRISIS, WITH LIMITED PHARMAC... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_F31DA067203_075))
+  - The source date is in the future; Scout first observed it on 2026-08-22.
+- **Newly observed · event date unknown** · DUKE UNIVERSITY — cage code ([evidence](https://sam.gov/entity/TP7EK8DZV6N5/coreData))
   - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
-- **Newly observed · event date unknown** · VALIANT SOLUTIONS, LLC — cage code ([evidence](https://sam.gov/entity/GKF8ERUXED41/coreData))
+- **Newly observed · event date unknown** · THE MITRE CORPORATION — cage code ([evidence](https://sam.gov/entity/DMHDNDCPWUD1/coreData))
   - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
-- **Newly observed · event date unknown** · W S DARLEY & CO — cage code ([evidence](https://sam.gov/entity/TENRPZGMAGJ6/coreData))
+- **Newly observed · event date unknown** · UNIVERSITY OF CALIFORNIA, SAN DIEGO — cage code ([evidence](https://sam.gov/entity/UYTTZT6G9DT1/coreData))
   - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
-- **Newly discovered historical evidence** · BRAIN Initiative: Integrative Team-Research BRAIN Circuits Program - iTeamBCP (RM1 Clinical Trial Optional) — awarding agency ([evidence](https://www.grants.gov/search-results-detail/360398))
-  - Scout first observed this on 2026-08-21; the source date is 2025-08-28.
-- **Newly discovered historical evidence** · Effectiveness Trials to Test Mental Health System Interventions (R61/R33 Clinical Trial Required) — awarding agency ([evidence](https://www.grants.gov/search-results-detail/357434))
-  - Scout first observed this on 2026-08-21; the source date is 2024-11-26.
-- **Newly discovered historical evidence** · Transport Phenomena (TP) — deadline ([evidence](https://www.grants.gov/search-results-detail/362063))
-  - Scout first observed this on 2026-08-21; the source date is 2026-04-24.
+- **Newly discovered historical evidence** · F26AS00083 Aquatic Invasive Species Grants to Great Lakes States - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362749))
+  - Scout first observed this on 2026-08-22; the source date is 2026-06-10.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -126,17 +118,13 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 
 ## Upcoming
 
-- **2026-07-22** · Agencies identify and report their PQC migration leads — awaiting_confirmation ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
-- **2026-07-22** · Review federal robotic and AI-directed laboratory capabilities — awaiting_confirmation ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
 - **2026-07-31** · Receive abstracts for the expanded QBIT Stage A solicitation — overdue ([source](https://www.darpa.mil/news/2026/qbi-stage-a-qbit))
-- **2026-08-21** · 15--PANEL,STRUCTURAL,AI — closing_soon ([source](https://sam.gov/workspace/contract/opp/d0b0acdbbd7640858dec2985c5d76c54/view))
-- **2026-08-21** · ATEC HQ 003 - AI Assurance & Autonomous System Validation — closing_soon ([source](https://sam.gov/workspace/contract/opp/ccb7fecdd0d54543afd2d740f3f84ac7/view))
-- **2026-08-21** · KEYSIGHT N8487A POWER SENSOR — closing_soon ([source](https://sam.gov/workspace/contract/opp/10d5c382557249708dd444771cfc5753/view))
 - **2026-08-21** · Seek initial platform operating capability for at least one national challenge — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
 - **2026-08-24** · 15--WINDSHIELD PANEL,AI — closing_soon ([source](https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view))
 - **2026-08-24** · 16--WHEEL HALF ASSEMBLY,AI — closing_soon ([source](https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view))
 - **2026-08-24** · 29--SENSOR,MASS AIR FLO — closing_soon ([source](https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view))
 - **2026-08-24** · 66--SENSOR,CURRENT — closing_soon ([source](https://sam.gov/workspace/contract/opp/8f42834292314b9bb08ade0259ef007a/view))
+- **2026-08-24** · Custom HPC cluster with AMD EPYC "Turin" CPUs — closing_soon ([source](https://sam.gov/workspace/contract/opp/5633e09273894004967a7038a7362502/view))
 - **2026-08-24** · High-Performance Quantum Scalar Magnetometers — closing_soon ([source](https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view))
 - **2026-08-24** · INL_RFQ-PR15372268 TECHNOLOGICAL EQUIPMENT FOR AI — closing_soon ([source](https://sam.gov/workspace/contract/opp/95813bd2ad944e7a89b5590605a0ccc9/view))
 - **2026-08-24** · Request for Quotation # 19VM3026Q0022– Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams. — closing_soon ([source](https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view))
@@ -148,21 +136,25 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-08-25** · Maintenance agreement for a Quantum Design Cryocool system — closing_soon ([source](https://sam.gov/workspace/contract/opp/ffbf39d50ec4475b9c08b091df75f34a/view))
 - **2026-08-26** · 63--SALINITY SENSOR,CON — closing_soon ([source](https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view))
 - **2026-08-26** · 66--SENSOR,AMBIENT TEMP — closing_soon ([source](https://sam.gov/workspace/contract/opp/b749f496a21443708e47a8291f23ab44/view))
-- **2026-08-26** · AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO) — closing_soon ([source](https://sam.gov/workspace/contract/opp/ff9d55d6a268428081b54dc02f5bf2c1/view))
 - **2026-08-26** · OASES PCSB: PM2.5 Air Quality Monitoring Sensor — closing_soon ([source](https://sam.gov/workspace/contract/opp/b39f36f427ff4a7b9f0eb9fa0cb3ae74/view))
 - **2026-08-26** · Optical Cryogenic Quantum System — closing_soon ([source](https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view))
 - **2026-08-26** · USAFA: Quantum Demonstration/Experiment System (Amendment 2) — closing_soon ([source](https://sam.gov/workspace/contract/opp/88038d7669964d6da76168589483ef36/view))
 - **2026-08-27** · 15--PANEL,STRUCTURAL,AI — closing_soon ([source](https://sam.gov/workspace/contract/opp/bb59f3e723bc475894c45c3b031ec406/view))
 - **2026-08-27** · 59--SENSOR,ATMOSPHERIC — closing_soon ([source](https://sam.gov/workspace/contract/opp/998d3e083dae430b86aa9f078f696dcb/view))
+- **2026-08-27** · AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO) — closing_soon ([source](https://sam.gov/workspace/contract/opp/6cb8851eb547403780b604de93a1a406/view))
 - **2026-08-27** · AI3 Action Institute - Artificial Intelligence for American Indians — closing_soon ([source](https://www.grants.gov/search-results-detail/362270))
 - **2026-08-27** · Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico — closing_soon ([source](https://www.grants.gov/search-results-detail/363347))
 - **2026-08-27** · Small Business Cybersecurity Network — closing_soon ([source](https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view))
-- **2026-08-28** · Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM) — closing_soon ([source](https://sam.gov/workspace/contract/opp/b1f26e7ded2643d2835947cc08cb56fe/view))
+- **2026-08-28** · Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM) — closing_soon ([source](https://sam.gov/workspace/contract/opp/ab5de2004b3a4549819300908e5f3ee1/view))
 - **2026-08-28** · Vat Valve & Assorted Sensor Cables, No Equivalents Or Substitutions — closing_soon ([source](https://sam.gov/workspace/contract/opp/749c4f801ad143a4a273b0626ad3a298/view))
 - **2026-08-30** · American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy — closing_this_month ([source](https://www.grants.gov/search-results-detail/363293))
 - **2026-08-31** · 12FPC426Q0055 NRCS Michigan EMI Sensor — closing_this_month ([source](https://sam.gov/workspace/contract/opp/7a1eeac0b2c84da8b7e41ca488359392/view))
 - **2026-08-31** · 29--SENSOR,DIFFERENTIAL — closing_this_month ([source](https://sam.gov/workspace/contract/opp/f874fa9c0e224c3aa0fae289cfe3fc10/view))
 - **2026-08-31** · 29--SENSOR,MASS AIR FLO — closing_this_month ([source](https://sam.gov/workspace/contract/opp/f9f8780939b843929ca1931cbff0001a/view))
+- **2026-08-31** · Autonomous Livestock Feed Monitoring Bins — closing_this_month ([source](https://sam.gov/workspace/contract/opp/b6ef60d7b5c846199b3628917dc4bb58/view))
 - **2026-08-31** · ROSES 2025: A.10 INNOVATE — closing_this_month ([source](https://www.grants.gov/search-results-detail/360003))
 - **2026-08-31** · The 2027 YSEALI Regional Workshop: Securing Supply Chains — closing_this_month ([source](https://www.grants.gov/search-results-detail/362900))
 - **2026-09-01** · Advancing Investigative Journalism in Ukraine through U.S. AI Innovation — closing_this_month ([source](https://www.grants.gov/search-results-detail/363440))
+- **2026-09-01** · Common Autonomous Multi-Domain Launcher (CAML) Autonomous Mobility Platform (AMP) - Prototype - 36K Lbs. Variant , Leader Prototype, Autonomy Command and Control (C2) and Integration Request for Solutions Brief — closing_this_month ([source](https://sam.gov/workspace/contract/opp/cef79c7a0e9742e5bbd82017699f5ac8/view))
+- **2026-09-01** · Pathways to Enable Secure Open-Source Ecosystems — closing_this_month ([source](https://www.grants.gov/search-results-detail/361333))
+- **2026-09-03** · 61--SENSOR POWER DRAWER, IN REPAIR/MODIFICATION OF — closing_this_month ([source](https://sam.gov/workspace/contract/opp/a2efca763807413ab373bf41ac2f97eb/view))
