@@ -212,8 +212,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "targeted review",
+        "previous_score": 44,
         "status": "current"
       },
       "decision_score": 44,
@@ -1609,8 +1609,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 26,
         "status": "current"
       },
       "decision_score": 26,
@@ -2220,7 +2220,7 @@
         "impact_id": "impact:59aff6e2342ac269005c",
         "note": "The latest amendment impact requires analyst revalidation. The tracker did not change an authorized bid/no-bid decision.",
         "previous_gate": "hold",
-        "previous_score": 17,
+        "previous_score": 20,
         "status": "revalidation_required"
       },
       "decision_score": 20,
@@ -2603,7 +2603,7 @@
           }
         ],
         "detected_at": "2026-08-23T00:54:11.501661+00:00",
-        "detected_this_run": true,
+        "detected_this_run": false,
         "highest_materiality": "high",
         "history_completeness": "tracker_observed",
         "impact_id": "impact:59aff6e2342ac269005c",
@@ -3958,8 +3958,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 17,
         "status": "current"
       },
       "decision_score": 17,
@@ -4161,8 +4161,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 17,
         "status": "current"
       },
       "decision_score": 17,
@@ -4353,6 +4353,6 @@
     "qualify": 1,
     "targeted_review": 2
   },
-  "updated_at": "2026-08-23T00:54:11.501661+00:00",
+  "updated_at": "2026-08-23T03:45:44.113870+00:00",
   "version": 1
 }

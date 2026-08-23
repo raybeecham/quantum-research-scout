@@ -107812,6 +107812,366 @@
     {
       "authority": "authoritative",
       "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-4fcb4f7bf2f88935",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-23",
+      "evidence_ids": [
+        "evidence-1218a43dd38c01eb"
+      ],
+      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-1218a43dd38c01eb",
+          "locator": "states_requirement:amended as set forth in item 14. the hour and date specified for receipt of offers is extended. is not extended. offers must acknowledge receipt of this amendment prior to the hour and date specified in the solicitation or as amended, by one of the following methods: (a) by completing items 8 and 15,...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA480326Q0059",
+        "label": "Wrong Way Sensor Replacement",
+        "node_id": "opportunity:sam_gov:FA480326Q0059",
+        "node_type": "opportunity"
+      },
+      "value": "amended as set forth in Item 14. The hour and date speci\ufb01ed for receipt of Offers is extended. is not extended. Offers must acknowledge receipt of this amendment prior to the hour and date speci\ufb01ed in the solicitation or as amended, by one of the following methods: (a) By completing items 8 and 15,...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "f8642343df17cb97"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-5786de1a1e16c347",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-23",
+      "evidence_ids": [
+        "evidence-01faf20a92c14e7b"
+      ],
+      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-01faf20a92c14e7b",
+          "locator": "states_requirement:this amendment, and is received prior to the opening hour and date specified. 12. accounting and appropriation data (if required) see section g - contract administration data 13. this item applies only to modifications of contracts/orders. it modifies the contract/order number as described in item 1...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA480326Q0059",
+        "label": "Wrong Way Sensor Replacement",
+        "node_id": "opportunity:sam_gov:FA480326Q0059",
+        "node_type": "opportunity"
+      },
+      "value": "this amendment, and is received prior to the opening hour and date speci\ufb01ed. 12. ACCOUNTING AND APPROPRIATION DATA (if required) See Section G - Contract Administration Data 13. THIS ITEM APPLIES ONLY TO MODIFICATIONS OF CONTRACTS/ORDERS. IT MODIFIES THE CONTRACT/ORDER NUMBER AS DESCRIBED IN ITEM 1...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "0d10bad0c1315768"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
+      "claim_id": "claim-9bee5a0f768147ea",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-23",
+      "evidence_ids": [
+        "evidence-c68bcb8d9e6e6ffc"
+      ],
+      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_requirement",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-c68bcb8d9e6e6ffc",
+          "locator": "states_requirement:into pursuant to authority of: d. other (specify type of modification and authority) e. important: contractor is not is required to sign this document and return copies to the issuing office. 14. description of amendment/modification (organized by ucf section headings, including solicitation/contract...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA480326Q0059",
+        "label": "Wrong Way Sensor Replacement",
+        "node_id": "opportunity:sam_gov:FA480326Q0059",
+        "node_type": "opportunity"
+      },
+      "value": "INTO PURSUANT TO AUTHORITY OF: D. OTHER (Specify type of modi\ufb01cation and authority) E. IMPORTANT: Contractor is not is required to sign this document and return copies to the issuing of\ufb01ce. 14. DESCRIPTION OF AMENDMENT/MODIFICATION (Organized by UCF section headings, including solicitation/contract...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "b828aa4fff78714b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the submission instructions rule",
+      "claim_id": "claim-a4cb43bae6daa510",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-23",
+      "evidence_ids": [
+        "evidence-e94c47d1ca5e8f45"
+      ],
+      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-e94c47d1ca5e8f45",
+          "locator": "states_submission_instruction:and 15, and returning copies of the amendment; (b) by acknowledging receipt of this amendment on each copy of the offer submitted; 1 or (c) by separate letter or electronic communication which includes a reference to the solicitation and amendment numbers. failure of your acknowledgment to be recei...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA480326Q0059",
+        "label": "Wrong Way Sensor Replacement",
+        "node_id": "opportunity:sam_gov:FA480326Q0059",
+        "node_type": "opportunity"
+      },
+      "value": "and 15, and returning copies of the amendment; (b) By acknowledging receipt of this amendment on each copy of the offer submitted; 1 or (c) By separate letter or electronic communication which includes a reference to the solicitation and amendment numbers. FAILURE OF YOUR ACKNOWLEDGMENT TO BE RECEI...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "fad49eddd1726756"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the submission instructions rule",
+      "claim_id": "claim-823e68802c224eae",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-23",
+      "evidence_ids": [
+        "evidence-b7a0934c8d046e36"
+      ],
+      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-b7a0934c8d046e36",
+          "locator": "states_submission_instruction:e specified may result in rejection of your offer. if by virtue of this amendment you desire to change an offer already submitted, such change may be made by letter or electronic communication, provided each letter or electronic communication makes reference to the solicitation and this amendment,...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA480326Q0059",
+        "label": "Wrong Way Sensor Replacement",
+        "node_id": "opportunity:sam_gov:FA480326Q0059",
+        "node_type": "opportunity"
+      },
+      "value": "E SPECIFIED MAY RESULT IN REJECTION OF YOUR OFFER. If by virtue of this amendment you desire to change an offer already submitted, such change may be made by letter or electronic communication, provided each letter or electronic communication makes reference to the solicitation and this amendment,...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "c3d7da2022decf0a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the submission instructions rule",
+      "claim_id": "claim-118198b06cfcf3bd",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-23",
+      "evidence_ids": [
+        "evidence-04f3bb9c62f41445"
+      ],
+      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-04f3bb9c62f41445",
+          "locator": "states_submission_instruction:1. incorporate attachment 2 - questions and answers and attachment 3 - current system specs and manual 2. extend the due date to 24 aug 2026 10:00 am et except as provided herein, all terms and conditions of the document referenced in item 9a or 10a, as heretofore changed, remains unchanged and in...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA480326Q0059",
+        "label": "Wrong Way Sensor Replacement",
+        "node_id": "opportunity:sam_gov:FA480326Q0059",
+        "node_type": "opportunity"
+      },
+      "value": "1. Incorporate Attachment 2 - Questions and Answers and Attachment 3 - Current System Specs and Manual 2. Extend the due date to 24 Aug 2026 10:00 AM ET Except as provided herein, all terms and conditions of the document referenced in Item 9A or 10A, as heretofore changed, remains unchanged and in...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "dd3327b95ff61860"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the submission instructions rule",
+      "claim_id": "claim-7f07eb7a15dd2e28",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-23",
+      "evidence_ids": [
+        "evidence-9424cbbc8cbb5b8b"
+      ],
+      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-9424cbbc8cbb5b8b",
+          "locator": "states_submission_instruction:ntinuation page summary of changes solicitation/contract form the following modifications were made: information from to response due date 18 aug 2026 24 aug 2026 solicitation number fa480326q00590001 fa480326q00590002 list of attachments the following header attachment(s) were added: information va...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA480326Q0059",
+        "label": "Wrong Way Sensor Replacement",
+        "node_id": "opportunity:sam_gov:FA480326Q0059",
+        "node_type": "opportunity"
+      },
+      "value": "NTINUATION PAGE SUMMARY OF CHANGES Solicitation/Contract Form The following modi\ufb01cations were made: Information From To Response Due Date 18 Aug 2026 24 Aug 2026 Solicitation Number FA480326Q00590001 FA480326Q00590002 List of Attachments The following Header Attachment(s) were added: Information Va...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "b12ba2118f14338b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the submission instructions rule",
+      "claim_id": "claim-4e32bdb3766ad6a3",
+      "confidence": "medium",
+      "controlling_status": "not_established",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._analyze_text"
+      },
+      "effective_date": "2026-08-23",
+      "evidence_ids": [
+        "evidence-97368e80b28940d2"
+      ],
+      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "states_submission_instruction",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-97368e80b28940d2",
+          "locator": "states_submission_instruction:n page summary of changes solicitation/contract form the following modifications were made: information from to response due date 18 aug 2026 24 aug 2026 solicitation number fa480326q00590001 fa480326q00590002 list of attachments the following header attachment(s) were added: information value attac...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA480326Q0059",
+        "label": "Wrong Way Sensor Replacement",
+        "node_id": "opportunity:sam_gov:FA480326Q0059",
+        "node_type": "opportunity"
+      },
+      "value": "N PAGE SUMMARY OF CHANGES Solicitation/Contract Form The following modi\ufb01cations were made: Information From To Response Due Date 18 Aug 2026 24 Aug 2026 Solicitation Number FA480326Q00590001 FA480326Q00590002 List of Attachments The following Header Attachment(s) were added: Information Value Attac...",
+      "verification_status": "analyst_verification_required",
+      "version": 1,
+      "version_hash": "8bf957318c495200"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Bounded excerpt matched the requirements rule",
       "claim_id": "claim-63a2da37e0712e6c",
       "confidence": "medium",
       "controlling_status": "not_established",
@@ -109023,366 +109383,6 @@
       "verification_status": "analyst_verification_required",
       "version": 1,
       "version_hash": "a5ea149e771ccf6e"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Bounded excerpt matched the requirements rule",
-      "claim_id": "claim-4fcb4f7bf2f88935",
-      "confidence": "medium",
-      "controlling_status": "not_established",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "procurement_intelligence._analyze_text"
-      },
-      "effective_date": "2026-08-23",
-      "evidence_ids": [
-        "evidence-1218a43dd38c01eb"
-      ],
-      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-1218a43dd38c01eb",
-          "locator": "states_requirement:amended as set forth in item 14. the hour and date specified for receipt of offers is extended. is not extended. offers must acknowledge receipt of this amendment prior to the hour and date specified in the solicitation or as amended, by one of the following methods: (a) by completing items 8 and 15,...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:FA480326Q0059",
-        "label": "Wrong Way Sensor Replacement",
-        "node_id": "opportunity:sam_gov:FA480326Q0059",
-        "node_type": "opportunity"
-      },
-      "value": "amended as set forth in Item 14. The hour and date speci\ufb01ed for receipt of Offers is extended. is not extended. Offers must acknowledge receipt of this amendment prior to the hour and date speci\ufb01ed in the solicitation or as amended, by one of the following methods: (a) By completing items 8 and 15,...",
-      "verification_status": "analyst_verification_required",
-      "version": 1,
-      "version_hash": "f8642343df17cb97"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Bounded excerpt matched the requirements rule",
-      "claim_id": "claim-5786de1a1e16c347",
-      "confidence": "medium",
-      "controlling_status": "not_established",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "procurement_intelligence._analyze_text"
-      },
-      "effective_date": "2026-08-23",
-      "evidence_ids": [
-        "evidence-01faf20a92c14e7b"
-      ],
-      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-01faf20a92c14e7b",
-          "locator": "states_requirement:this amendment, and is received prior to the opening hour and date specified. 12. accounting and appropriation data (if required) see section g - contract administration data 13. this item applies only to modifications of contracts/orders. it modifies the contract/order number as described in item 1...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:FA480326Q0059",
-        "label": "Wrong Way Sensor Replacement",
-        "node_id": "opportunity:sam_gov:FA480326Q0059",
-        "node_type": "opportunity"
-      },
-      "value": "this amendment, and is received prior to the opening hour and date speci\ufb01ed. 12. ACCOUNTING AND APPROPRIATION DATA (if required) See Section G - Contract Administration Data 13. THIS ITEM APPLIES ONLY TO MODIFICATIONS OF CONTRACTS/ORDERS. IT MODIFIES THE CONTRACT/ORDER NUMBER AS DESCRIBED IN ITEM 1...",
-      "verification_status": "analyst_verification_required",
-      "version": 1,
-      "version_hash": "0d10bad0c1315768"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Bounded excerpt matched the requirements rule",
-      "claim_id": "claim-9bee5a0f768147ea",
-      "confidence": "medium",
-      "controlling_status": "not_established",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "procurement_intelligence._analyze_text"
-      },
-      "effective_date": "2026-08-23",
-      "evidence_ids": [
-        "evidence-c68bcb8d9e6e6ffc"
-      ],
-      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "states_requirement",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-c68bcb8d9e6e6ffc",
-          "locator": "states_requirement:into pursuant to authority of: d. other (specify type of modification and authority) e. important: contractor is not is required to sign this document and return copies to the issuing office. 14. description of amendment/modification (organized by ucf section headings, including solicitation/contract...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:FA480326Q0059",
-        "label": "Wrong Way Sensor Replacement",
-        "node_id": "opportunity:sam_gov:FA480326Q0059",
-        "node_type": "opportunity"
-      },
-      "value": "INTO PURSUANT TO AUTHORITY OF: D. OTHER (Specify type of modi\ufb01cation and authority) E. IMPORTANT: Contractor is not is required to sign this document and return copies to the issuing of\ufb01ce. 14. DESCRIPTION OF AMENDMENT/MODIFICATION (Organized by UCF section headings, including solicitation/contract...",
-      "verification_status": "analyst_verification_required",
-      "version": 1,
-      "version_hash": "b828aa4fff78714b"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Bounded excerpt matched the submission instructions rule",
-      "claim_id": "claim-a4cb43bae6daa510",
-      "confidence": "medium",
-      "controlling_status": "not_established",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "procurement_intelligence._analyze_text"
-      },
-      "effective_date": "2026-08-23",
-      "evidence_ids": [
-        "evidence-e94c47d1ca5e8f45"
-      ],
-      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-e94c47d1ca5e8f45",
-          "locator": "states_submission_instruction:and 15, and returning copies of the amendment; (b) by acknowledging receipt of this amendment on each copy of the offer submitted; 1 or (c) by separate letter or electronic communication which includes a reference to the solicitation and amendment numbers. failure of your acknowledgment to be recei...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:FA480326Q0059",
-        "label": "Wrong Way Sensor Replacement",
-        "node_id": "opportunity:sam_gov:FA480326Q0059",
-        "node_type": "opportunity"
-      },
-      "value": "and 15, and returning copies of the amendment; (b) By acknowledging receipt of this amendment on each copy of the offer submitted; 1 or (c) By separate letter or electronic communication which includes a reference to the solicitation and amendment numbers. FAILURE OF YOUR ACKNOWLEDGMENT TO BE RECEI...",
-      "verification_status": "analyst_verification_required",
-      "version": 1,
-      "version_hash": "fad49eddd1726756"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Bounded excerpt matched the submission instructions rule",
-      "claim_id": "claim-823e68802c224eae",
-      "confidence": "medium",
-      "controlling_status": "not_established",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "procurement_intelligence._analyze_text"
-      },
-      "effective_date": "2026-08-23",
-      "evidence_ids": [
-        "evidence-b7a0934c8d046e36"
-      ],
-      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-b7a0934c8d046e36",
-          "locator": "states_submission_instruction:e specified may result in rejection of your offer. if by virtue of this amendment you desire to change an offer already submitted, such change may be made by letter or electronic communication, provided each letter or electronic communication makes reference to the solicitation and this amendment,...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:FA480326Q0059",
-        "label": "Wrong Way Sensor Replacement",
-        "node_id": "opportunity:sam_gov:FA480326Q0059",
-        "node_type": "opportunity"
-      },
-      "value": "E SPECIFIED MAY RESULT IN REJECTION OF YOUR OFFER. If by virtue of this amendment you desire to change an offer already submitted, such change may be made by letter or electronic communication, provided each letter or electronic communication makes reference to the solicitation and this amendment,...",
-      "verification_status": "analyst_verification_required",
-      "version": 1,
-      "version_hash": "c3d7da2022decf0a"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Bounded excerpt matched the submission instructions rule",
-      "claim_id": "claim-118198b06cfcf3bd",
-      "confidence": "medium",
-      "controlling_status": "not_established",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "procurement_intelligence._analyze_text"
-      },
-      "effective_date": "2026-08-23",
-      "evidence_ids": [
-        "evidence-04f3bb9c62f41445"
-      ],
-      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-04f3bb9c62f41445",
-          "locator": "states_submission_instruction:1. incorporate attachment 2 - questions and answers and attachment 3 - current system specs and manual 2. extend the due date to 24 aug 2026 10:00 am et except as provided herein, all terms and conditions of the document referenced in item 9a or 10a, as heretofore changed, remains unchanged and in...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:FA480326Q0059",
-        "label": "Wrong Way Sensor Replacement",
-        "node_id": "opportunity:sam_gov:FA480326Q0059",
-        "node_type": "opportunity"
-      },
-      "value": "1. Incorporate Attachment 2 - Questions and Answers and Attachment 3 - Current System Specs and Manual 2. Extend the due date to 24 Aug 2026 10:00 AM ET Except as provided herein, all terms and conditions of the document referenced in Item 9A or 10A, as heretofore changed, remains unchanged and in...",
-      "verification_status": "analyst_verification_required",
-      "version": 1,
-      "version_hash": "dd3327b95ff61860"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Bounded excerpt matched the submission instructions rule",
-      "claim_id": "claim-7f07eb7a15dd2e28",
-      "confidence": "medium",
-      "controlling_status": "not_established",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "procurement_intelligence._analyze_text"
-      },
-      "effective_date": "2026-08-23",
-      "evidence_ids": [
-        "evidence-9424cbbc8cbb5b8b"
-      ],
-      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-9424cbbc8cbb5b8b",
-          "locator": "states_submission_instruction:ntinuation page summary of changes solicitation/contract form the following modifications were made: information from to response due date 18 aug 2026 24 aug 2026 solicitation number fa480326q00590001 fa480326q00590002 list of attachments the following header attachment(s) were added: information va...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:FA480326Q0059",
-        "label": "Wrong Way Sensor Replacement",
-        "node_id": "opportunity:sam_gov:FA480326Q0059",
-        "node_type": "opportunity"
-      },
-      "value": "NTINUATION PAGE SUMMARY OF CHANGES Solicitation/Contract Form The following modi\ufb01cations were made: Information From To Response Due Date 18 Aug 2026 24 Aug 2026 Solicitation Number FA480326Q00590001 FA480326Q00590002 List of Attachments The following Header Attachment(s) were added: Information Va...",
-      "verification_status": "analyst_verification_required",
-      "version": 1,
-      "version_hash": "b12ba2118f14338b"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Bounded excerpt matched the submission instructions rule",
-      "claim_id": "claim-4e32bdb3766ad6a3",
-      "confidence": "medium",
-      "controlling_status": "not_established",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "procurement_intelligence._analyze_text"
-      },
-      "effective_date": "2026-08-23",
-      "evidence_ids": [
-        "evidence-97368e80b28940d2"
-      ],
-      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "states_submission_instruction",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
-          "controlling_status": "not_established",
-          "evidence_id": "evidence-97368e80b28940d2",
-          "locator": "states_submission_instruction:n page summary of changes solicitation/contract form the following modifications were made: information from to response due date 18 aug 2026 24 aug 2026 solicitation number fa480326q00590001 fa480326q00590002 list of attachments the following header attachment(s) were added: information value attac...",
-          "title": "download",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
-          "verification_status": "analyst_verification_required"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:FA480326Q0059",
-        "label": "Wrong Way Sensor Replacement",
-        "node_id": "opportunity:sam_gov:FA480326Q0059",
-        "node_type": "opportunity"
-      },
-      "value": "N PAGE SUMMARY OF CHANGES Solicitation/Contract Form The following modi\ufb01cations were made: Information From To Response Due Date 18 Aug 2026 24 Aug 2026 Solicitation Number FA480326Q00590001 FA480326Q00590002 List of Attachments The following Header Attachment(s) were added: Information Value Attac...",
-      "verification_status": "analyst_verification_required",
-      "version": 1,
-      "version_hash": "8bf957318c495200"
     },
     {
       "authority": "authoritative",
@@ -154059,7 +154059,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154106,7 +154106,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154153,7 +154153,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154200,7 +154200,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154247,7 +154247,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154294,7 +154294,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154341,7 +154341,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154388,7 +154388,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154435,7 +154435,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154482,7 +154482,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154529,7 +154529,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154576,7 +154576,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154623,7 +154623,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154670,7 +154670,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154717,7 +154717,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154764,7 +154764,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154811,7 +154811,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154858,7 +154858,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154910,7 +154910,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -154962,7 +154962,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -155014,7 +155014,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -155066,7 +155066,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -155118,7 +155118,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -155170,7 +155170,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -155222,7 +155222,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -155274,7 +155274,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -155326,7 +155326,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-23T00:54:11.501661+00:00",
+      "retracted_at": "2026-08-23T03:45:44.113870+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -186809,6 +186809,6 @@
     "superseded_claims": 0,
     "total_claims": 3077
   },
-  "updated_at": "2026-08-23T00:54:11.501661+00:00",
+  "updated_at": "2026-08-23T03:45:44.113870+00:00",
   "version": 1
 }

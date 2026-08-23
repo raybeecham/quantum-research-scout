@@ -2,61 +2,16 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-23T00:54:11.501661+00:00_
+_Updated 2026-08-23T03:45:44.113870+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
 - Opportunities reviewed: **20**
 - Documents extracted: **10** / **50** discovered
 - Changed documents: **0**
-- New amendments: **1**
-- Material amendment impacts this run: **1**
+- New amendments: **0**
+- Material amendment impacts this run: **0**
 - Decisions requiring revalidation: **2**
-
-## [KIRA B100 Autonomous Floor Scrubbers Or Equal](https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view)
-
-Evidence completeness: **72 / 100** · Deadline: **2026-08-27T15:00:00-07:00**
-
-Requirements evidence:
-- ORDER INCORPORATES BY REFERENCE FAR 52.212-4. FAR 52.212-5 IS ATTACHED. ADDENDA ARE ARE NOT ATTACHED 28. CONTRACTOR IS REQUIRED TO SIGN THIS DOCUMENT AND RETURN _______________ 29. AWARD OF CONTRACT: REF. ___________________________________ OFFER COPIES TO ISSUING OFFICE. CONTRACTOR AGREES TO FURNI...
-- CONTINUATION Page VA Southern Nevada Healthcare System KIRA B100 Autonomous Floor Scrubber Submission of your response shall be received no later than August 27, 2026 at 1500 PDT at victoria.torres@va.gov. Any question or concerns regarding this solicitation should be forwarded in writing via email...
-- by Electronic Funds Transfer—System For Award Management, or [] 52.232-36, Payment by Third Party 3. INVOICES: Invoices shall be submitted in arrears: a. Quarterly [] b. Semi-Annually [] c. Other [X] Upon Delivery and Government Acceptance 4. GOVERNMENT INVOICE ADDRESS: All Invoices from the contra...
-- [] c. Other [X] Upon Delivery and Government Acceptance 4. GOVERNMENT INVOICE ADDRESS: All Invoices from the contractor shall be submitted electronically in accordance with VAAR Clause 852.232-72 Electronic Submission of Payment Requests. ACKNOWLEDGMENT OF AMENDMENTS: The offeror acknowledges recei...
-- areas while allowing staff to focus on other environmental services and patient care support tasks. The floor scrubber must be capable of both manual and autonomous robotic operation to support self-driving cleaning routes, obstacle avoidance, notifications, and reporting functions. 2. Scope The Co...
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c31a6fcf8ba04194acd817d4412b98ce/download) — extracted
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2a8d13181052413a8d82a7bd82714f79) — no_text
-
-## [Wrong Way Sensor Replacement](https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view)
-
-Evidence completeness: **36 / 100** · Deadline: **2026-08-24T10:00:00-04:00**
-
-Requirements evidence:
-- amended as set forth in Item 14. The hour and date speciﬁed for receipt of Offers is extended. is not extended. Offers must acknowledge receipt of this amendment prior to the hour and date speciﬁed in the solicitation or as amended, by one of the following methods: (a) By completing items 8 and 15,...
-- this amendment, and is received prior to the opening hour and date speciﬁed. 12. ACCOUNTING AND APPROPRIATION DATA (if required) See Section G - Contract Administration Data 13. THIS ITEM APPLIES ONLY TO MODIFICATIONS OF CONTRACTS/ORDERS. IT MODIFIES THE CONTRACT/ORDER NUMBER AS DESCRIBED IN ITEM 1...
-- INTO PURSUANT TO AUTHORITY OF: D. OTHER (Specify type of modiﬁcation and authority) E. IMPORTANT: Contractor is not is required to sign this document and return copies to the issuing ofﬁce. 14. DESCRIPTION OF AMENDMENT/MODIFICATION (Organized by UCF section headings, including solicitation/contract...
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) — extracted · **new amendment**
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4679791210ab4cd0a12345f42c1282c4/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6abb5bfaeadf4728904316efd78a2b6b/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/71b144a685314840a7eb913a8803b51c/download) — not_fetched
-
-### Changes since the previous tracker snapshot
-
-**HIGH · 8 change(s) · decision revalidation required**
-
-_Version history is tracker-observed and may not include revisions published before monitoring began._
-
-| Impact | Change | Before | After | Evidence |
-|---|---|---|---|---|
-| HIGH | New submission evidence was observed. | — | N PAGE SUMMARY OF CHANGES Solicitation/Contract Form The following modiﬁcations were made: Information From To Response... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
-| HIGH | New submission evidence was observed. | — | NTINUATION PAGE SUMMARY OF CHANGES Solicitation/Contract Form The following modiﬁcations were made: Information From To... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
-| HIGH | New submission evidence was observed. | — | 1. Incorporate Attachment 2 - Questions and Answers and Attachment 3 - Current System Specs and Manual 2. Extend the du... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
-| HIGH | New submission evidence was observed. | — | and 15, and returning copies of the amendment; (b) By acknowledging receipt of this amendment on each copy of the offer... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
-| HIGH | New submission evidence was observed. | — | E SPECIFIED MAY RESULT IN REJECTION OF YOUR OFFER. If by virtue of this amendment you desire to change an offer already... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
-| HIGH | New requirement evidence was observed. | — | amended as set forth in Item 14. The hour and date speciﬁed for receipt of Offers is extended. is not extended. Offers... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
-| HIGH | New requirement evidence was observed. | — | this amendment, and is received prior to the opening hour and date speciﬁed. 12. ACCOUNTING AND APPROPRIATION DATA (if... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
-| HIGH | New requirement evidence was observed. | — | INTO PURSUANT TO AUTHORITY OF: D. OTHER (Specify type of modiﬁcation and authority) E. IMPORTANT: Contractor is not is... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
 
 ## [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view)
 
@@ -75,12 +30,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-26T14:00:00-06:00**
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9da0cb93a8ab4d3fb218df323daf13ca/download) — not_fetched
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9e72f42c1f43474ead40df4c2c9388bf/download) — not_fetched
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ceea2b60c42942e2bc5d26a9a2a93696/download) — not_fetched
-
-## [63--SALINITY SENSOR,CON](https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-26**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0f76f691fbc441681bc673240f79d62) — not_fetched
 
 ## [High-Performance Quantum Scalar Magnetometers](https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view)
 
@@ -129,6 +78,20 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5a5bf8c052264d4499f7b5e0b47f09e9/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/606ef670b4e64d25bd55a5a85f764f7d/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7a1750870dcf4a39959f15931abfaf94/download) — not_fetched
+
+## [Wrong Way Sensor Replacement](https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view)
+
+Evidence completeness: **36 / 100** · Deadline: **2026-08-24T10:00:00-04:00**
+
+Requirements evidence:
+- amended as set forth in Item 14. The hour and date speciﬁed for receipt of Offers is extended. is not extended. Offers must acknowledge receipt of this amendment prior to the hour and date speciﬁed in the solicitation or as amended, by one of the following methods: (a) By completing items 8 and 15,...
+- this amendment, and is received prior to the opening hour and date speciﬁed. 12. ACCOUNTING AND APPROPRIATION DATA (if required) See Section G - Contract Administration Data 13. THIS ITEM APPLIES ONLY TO MODIFICATIONS OF CONTRACTS/ORDERS. IT MODIFIES THE CONTRACT/ORDER NUMBER AS DESCRIBED IN ITEM 1...
+- INTO PURSUANT TO AUTHORITY OF: D. OTHER (Specify type of modiﬁcation and authority) E. IMPORTANT: Contractor is not is required to sign this document and return copies to the issuing ofﬁce. 14. DESCRIPTION OF AMENDMENT/MODIFICATION (Organized by UCF section headings, including solicitation/contract...
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4679791210ab4cd0a12345f42c1282c4/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6abb5bfaeadf4728904316efd78a2b6b/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/71b144a685314840a7eb913a8803b51c/download) — not_fetched
 
 ## [Autonomous Livestock Feed Monitoring Bins](https://sam.gov/workspace/contract/opp/b6ef60d7b5c846199b3628917dc4bb58/view)
 
@@ -199,6 +162,12 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-25T13:00:00-04:00**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ffbf39d50ec4475b9c08b091df75f34a) — not_fetched
 
+## [63--SALINITY SENSOR,CON](https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-26**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0f76f691fbc441681bc673240f79d62) — not_fetched
+
 ## [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
 
 Evidence completeness: **72 / 100** · Deadline: **2026-09-09T09:00:00-04:00**
@@ -219,6 +188,20 @@ Requirements evidence:
 Evidence completeness: **0 / 100** · Deadline: **2026-08-24T08:00:00-04:00**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5633e09273894004967a7038a7362502) — no_text
+
+## [KIRA B100 Autonomous Floor Scrubbers Or Equal](https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view)
+
+Evidence completeness: **72 / 100** · Deadline: **2026-08-27T15:00:00-07:00**
+
+Requirements evidence:
+- ORDER INCORPORATES BY REFERENCE FAR 52.212-4. FAR 52.212-5 IS ATTACHED. ADDENDA ARE ARE NOT ATTACHED 28. CONTRACTOR IS REQUIRED TO SIGN THIS DOCUMENT AND RETURN _______________ 29. AWARD OF CONTRACT: REF. ___________________________________ OFFER COPIES TO ISSUING OFFICE. CONTRACTOR AGREES TO FURNI...
+- CONTINUATION Page VA Southern Nevada Healthcare System KIRA B100 Autonomous Floor Scrubber Submission of your response shall be received no later than August 27, 2026 at 1500 PDT at victoria.torres@va.gov. Any question or concerns regarding this solicitation should be forwarded in writing via email...
+- by Electronic Funds Transfer—System For Award Management, or [] 52.232-36, Payment by Third Party 3. INVOICES: Invoices shall be submitted in arrears: a. Quarterly [] b. Semi-Annually [] c. Other [X] Upon Delivery and Government Acceptance 4. GOVERNMENT INVOICE ADDRESS: All Invoices from the contra...
+- [] c. Other [X] Upon Delivery and Government Acceptance 4. GOVERNMENT INVOICE ADDRESS: All Invoices from the contractor shall be submitted electronically in accordance with VAAR Clause 852.232-72 Electronic Submission of Payment Requests. ACKNOWLEDGMENT OF AMENDMENTS: The offeror acknowledges recei...
+- areas while allowing staff to focus on other environmental services and patient care support tasks. The floor scrubber must be capable of both manual and autonomous robotic operation to support self-driving cleaning routes, obstacle avoidance, notifications, and reporting functions. 2. Scope The Co...
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c31a6fcf8ba04194acd817d4412b98ce/download) — extracted
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2a8d13181052413a8d82a7bd82714f79) — no_text
 
 ## Method
 

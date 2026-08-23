@@ -4,17 +4,17 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-08-23 01:01 UTC_
+_Updated 2026-08-23 03:45 UTC_
 
 ## Organizations
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| NIST | ➡️ stable (1 vs 1) | 🔴 critical | active | 2026-06-25 | 2026-08-20 | 9 | 1 |
+| NIST | ➡️ stable (1 vs 1) | 🔴 critical | active | 2026-06-25 | 2026-08-20 | 8 | 0 |
 | IBM | ↗️ rising (3 vs 1) | 🟠 high | active | 2026-06-23 | 2026-08-19 | 22 | 0 |
-| Keyfactor | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-10-29 | 2026-07-31 | 22 | 14 |
-| Fortanix | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2024-08-19 | 2026-07-30 | 20 | 20 |
+| Fortanix | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2024-10-28 | 2026-07-30 | 19 | 19 |
 | IonQ | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-06-22 | 2026-08-19 | 13 | 0 |
+| Keyfactor | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2024-10-02 | 2026-07-31 | 11 | 3 |
 | QuEra | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-07-22 | 2026-08-12 | 10 | 8 |
 | QuSecure | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2025-07-19 | 2026-08-11 | 9 | 4 |
 | PsiQuantum | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-02-26 | 2026-07-22 | 8 | 8 |
@@ -25,10 +25,10 @@ _Updated 2026-08-23 01:01 UTC_
 | Quantum Computing Inc. (QCi) | ➡️ stable (0 vs 0) | 🟠 high | documented | Unknown | Unknown | 4 | 4 |
 | Wiz | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-01-08 | 2026-07-02 | 4 | 4 |
 | D-Wave | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-30 | 2026-08-05 | 3 | 0 |
+| Lockheed Martin | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-25 | 2026-07-14 | 3 | 1 |
 | Booz Allen Hamilton | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-02-06 | 2026-07-30 | 2 | 1 |
 | Deloitte | ➡️ stable (0 vs 0) | 🟠 high | documented | Unknown | Unknown | 2 | 2 |
 | ISO/IEC | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-25 | 2026-07-15 | 2 | 0 |
-| Lockheed Martin | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-25 | 2026-07-14 | 2 | 0 |
 | PQCA | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-27 | 2026-07-27 | 2 | 0 |
 | PQShield | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-03 | 2026-07-23 | 2 | 0 |
 | Thales | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-08-04 | 2026-08-05 | 2 | 0 |
@@ -49,12 +49,12 @@ _Updated 2026-08-23 01:01 UTC_
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| Crypto-agility | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2025-08-06 | 2026-08-03 | 32 | 23 |
 | Quantum error correction | ↘️ declining (1 vs 2) | 🔴 critical | active | 2026-06-23 | 2026-08-22 | 23 | 0 |
+| Crypto-agility | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2024-10-02 | 2026-08-03 | 21 | 12 |
 | Logical qubits | ➡️ stable (1 vs 1) | 🔴 critical | active | 2025-09-10 | 2026-08-18 | 17 | 3 |
 | ML-DSA | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2026-06-29 | 2026-07-23 | 2 | 0 |
 | Quantum key distribution | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-29 | 2026-07-23 | 9 | 1 |
-| Quantum networking | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2026-07-07 | 2026-08-11 | 6 | 1 |
+| Quantum networking | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2026-07-16 | 2026-08-11 | 5 | 0 |
 | Quantum sensing | ↘️ declining (0 vs 1) | 🟡 medium | quiet | 2026-06-24 | 2026-08-14 | 14 | 1 |
 
 **Configured, awaiting evidence (4):** CNSA 2.0, ML-KEM, Hybrid TLS, SLH-DSA
@@ -71,7 +71,7 @@ _Updated 2026-08-23 01:01 UTC_
 | ISO/IEC | third-party | 0 | 2 |
 | Infleqtion | third-party | 0 | 19 |
 | Pasqal | third-party | 0 | 13 |
-| NIST | covered | 2 | 9 |
+| NIST | covered | 2 | 8 |
 | Accenture / Accenture Federal Services | covered | 2 | 5 |
 | Atom Computing | covered | 1 | 1 |
 | BSI Germany | covered | 1 | 0 |
@@ -83,13 +83,13 @@ _Updated 2026-08-23 01:01 UTC_
 | DigiCert | covered | 1 | 1 |
 | ENISA | covered | 1 | 0 |
 | ETSI | covered | 1 | 1 |
-| Fortanix | covered | 1 | 20 |
+| Fortanix | covered | 1 | 19 |
 | Google Quantum AI | covered | 2 | 1 |
 | IBM | covered | 1 | 22 |
 | IETF | covered | 1 | 0 |
 | IonQ | covered | 1 | 13 |
-| Keyfactor | covered | 1 | 22 |
-| Lockheed Martin | covered | 1 | 2 |
+| Keyfactor | covered | 1 | 11 |
+| Lockheed Martin | covered | 1 | 3 |
 | Microsoft Quantum | covered | 1 | 0 |
 | Open Quantum Safe | covered | 1 | 1 |
 | PQCA | covered | 2 | 2 |
