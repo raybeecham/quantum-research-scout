@@ -137,13 +137,22 @@
           "source": "Quantum Zeitgeist",
           "title": "Researchers Generate LLM-Compiled Shuttling Code for Complex Trapped-Ion Architectures",
           "url": "https://quantumzeitgeist.com/large-language-model-trapped-ion-shuttling-code-generation"
+        },
+        {
+          "date": "2026-08-22",
+          "key": "https://scottaaronson.blog/?p=10032",
+          "report": "2026-08/2026-08-22-digest.md",
+          "score": 20,
+          "source": "QuantumNews.ai",
+          "title": "Anthropic's LLM watermarking",
+          "url": "https://scottaaronson.blog/?p=10032"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-08-19",
-      "momentum": "stable",
+      "latest_seen": "2026-08-22",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "arXiv RSS cs.CR",
@@ -151,9 +160,9 @@
         "The Quantum Insider",
         "Cloudflare Blog"
       ],
-      "prior_count": 1,
-      "recent_count": 1,
-      "status": "watching"
+      "prior_count": 0,
+      "recent_count": 2,
+      "status": "actionable"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -1860,22 +1869,40 @@
           "source": "The Quantum Insider",
           "title": "Quantum X Labs Tests AI Quantum Error Decoder on Google Hardware Dataset",
           "url": "https://thequantuminsider.com/2026/08/21/quantum-x-labs-ai-quantum-error-correction-results"
+        },
+        {
+          "date": "2026-08-22",
+          "key": "https://quantumzeitgeist.com/quantum-error-correction-qldpc-codes-speedup-neutral-atoms",
+          "report": "2026-08/2026-08-22-digest.md",
+          "score": 41,
+          "source": "Quantum Zeitgeist",
+          "title": "Researchers Speed Quantum Error Correction by up to 42 Times",
+          "url": "https://quantumzeitgeist.com/quantum-error-correction-qldpc-codes-speedup-neutral-atoms"
+        },
+        {
+          "date": "2026-08-22",
+          "key": "https://quantumzeitgeist.com/topological-codes-integer-programming-decoder-implementation",
+          "report": "2026-08/2026-08-22-digest.md",
+          "score": 49,
+          "source": "Quantum Zeitgeist",
+          "title": "Chicago Team Builds Integer Programming Topological Decoder",
+          "url": "https://quantumzeitgeist.com/topological-codes-integer-programming-decoder-implementation"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-08-21",
-      "momentum": "stable",
+      "latest_seen": "2026-08-22",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
         "The Quantum Insider",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 4,
-      "recent_count": 4,
-      "status": "watching"
+      "prior_count": 3,
+      "recent_count": 5,
+      "status": "actionable"
     },
     "Quantum Hardware": {
       "confidence": "high",
@@ -3823,12 +3850,30 @@
           "source": "The Quantum Insider",
           "title": "What Is NISQ Quantum Computing: The Current Era of Quantum Machines",
           "url": "https://thequantuminsider.com/2026/08/21/what-is-nisq-quantum-computing-guide"
+        },
+        {
+          "date": "2026-08-22",
+          "key": "https://quantumzeitgeist.com/fault-tolerant-quantum-computing-lattice-surgery-optimisation",
+          "report": "2026-08/2026-08-22-digest.md",
+          "score": 24,
+          "source": "Quantum Zeitgeist",
+          "title": "Technical Munich Team Enables 86% More Quantum Benchmarks on Small Chips",
+          "url": "https://quantumzeitgeist.com/fault-tolerant-quantum-computing-lattice-surgery-optimisation"
+        },
+        {
+          "date": "2026-08-22",
+          "key": "https://quantumzeitgeist.com/qubits-mixedness-testing-state-discrimination-fidelity-bound",
+          "report": "2026-08/2026-08-22-digest.md",
+          "score": 32,
+          "source": "Quantum Zeitgeist",
+          "title": "Researchers Bound Qubits Needed for Mixedness Tests",
+          "url": "https://quantumzeitgeist.com/qubits-mixedness-testing-state-discrimination-fidelity-bound"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-08-21",
+      "latest_seen": "2026-08-22",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -3836,8 +3881,8 @@
         "QuantumNews.ai",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 22,
-      "recent_count": 20,
+      "prior_count": 19,
+      "recent_count": 21,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -5635,12 +5680,21 @@
           "source": "The Quantum Insider",
           "title": "Who Will Actually Use Quantum Computers? Study Identifies 11 User Types",
           "url": "https://thequantuminsider.com/2026/08/21/who-will-actually-use-quantum-computers-study-identifies-11-user-types"
+        },
+        {
+          "date": "2026-08-22",
+          "key": "https://quantumzeitgeist.com/quantum-metrology-phase-estimation-noise-mapping-precision",
+          "report": "2026-08/2026-08-22-digest.md",
+          "score": 28,
+          "source": "Quantum Zeitgeist",
+          "title": "Universit\u00e4t Ulm Team Maps Noise Impact on Metrology Precision",
+          "url": "https://quantumzeitgeist.com/quantum-metrology-phase-estimation-noise-mapping-precision"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-08-21",
+      "latest_seen": "2026-08-22",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -5953,6 +6007,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-08-22T00:56:50.398031+00:00",
+  "updated_at": "2026-08-23T01:01:39.126648+00:00",
   "version": 1
 }

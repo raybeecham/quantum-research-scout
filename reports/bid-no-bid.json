@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 117,
+      "days_to_close": 116,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -188,47 +188,35 @@
       "url": "https://www.grants.gov/search-results-detail/361526"
     },
     {
-      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.261-NETWORK CONTRACT OFFICE 21 (36C261)",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [
         {
-          "email": "mollyhunter@anl.gov",
-          "full_name": "Molly Hunter",
-          "phone": "6302523094",
+          "email": "VICTORIA.TORRES@VA.GOV",
+          "full_name": "VICTORIA TORRES",
+          "phone": "",
           "title": "",
           "type": "primary"
         },
         {
-          "email": "ap@anl.gov",
-          "source": "document extraction"
-        },
-        {
-          "email": "ighotline@hq.doe.gov",
-          "source": "document extraction"
-        },
-        {
-          "email": "paymentforms@anl.gov",
-          "source": "document extraction"
-        },
-        {
-          "email": "taxform@anl.gov",
+          "email": "victoria.torres@va.gov",
           "source": "document extraction"
         }
       ],
       "days_to_close": 4,
-      "deadline": "2026-08-26T17:00:00-05:00",
+      "deadline": "2026-08-27T15:00:00-07:00",
       "decision_freshness": {
         "current_gate": "targeted review",
-        "current_score": 45,
+        "current_score": 44,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "targeted review",
-        "previous_score": 45,
+        "previous_gate": null,
+        "previous_score": null,
         "status": "current"
       },
-      "decision_score": 45,
+      "decision_score": 44,
       "decision_trace": {
         "components": [
           {
@@ -241,22 +229,20 @@
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view"
+              "https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view"
             ],
             "points": 37
           },
           {
             "basis": [
-              "84 / 100 document evidence completeness"
+              "72 / 100 document evidence completeness"
             ],
             "code": "document_evidence",
             "evidence_urls": [
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1c347809e5ef4aae9a5761ca1b1029b8/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5a5bf8c052264d4499f7b5e0b47f09e9/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/606ef670b4e64d25bd55a5a85f764f7d/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7a1750870dcf4a39959f15931abfaf94/download"
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c31a6fcf8ba04194acd817d4412b98ce/download",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2a8d13181052413a8d82a7bd82714f79"
             ],
-            "points": 8
+            "points": 7
           },
           {
             "basis": [
@@ -264,7 +250,7 @@
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view"
+              "https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view"
             ],
             "points": 0
           }
@@ -272,31 +258,111 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 45,
+        "public_evidence_score": 44,
         "source_urls": [
-          "https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1c347809e5ef4aae9a5761ca1b1029b8/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5a5bf8c052264d4499f7b5e0b47f09e9/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/606ef670b4e64d25bd55a5a85f764f7d/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7a1750870dcf4a39959f15931abfaf94/download"
+          "https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c31a6fcf8ba04194acd817d4412b98ce/download",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2a8d13181052413a8d82a7bd82714f79"
         ],
-        "trace_hash": "8fdcece12f22154d"
+        "trace_hash": "7a77e3a1438546ab"
       },
       "eligibility": [
-        "OR CERTAIN TELECOMMUNICATIONS AND VIDEO SURVEILLANCE SERVICES OR EQUIPMENT (NOV 2021) 34. FAR 52.219-8 \u2013 UTILIZATION OF SMALL BUSINESS CONCERNS (FEB 2024) Applies to contract that offers further subcontracting opportunities. If the subcontract (except subcontracts to small business concerns) exceed...",
-        "2024) Applies to contract that offers further subcontracting opportunities. If the subcontract (except subcontracts to small business concerns) exceeds the applicable threshold specified in FAR 19.702(a) on the date of subcontract award, the Contractor must include this clause in lower-tier subcont...",
-        "en the Laboratory has accepted a signed certification for exemption from the Contractor. 49. FAR 52.222-54 \u2013 EMPLOYMENT ELIGIBILITY VERIFICATION (MAY 2022) Applies to Contracts that are >$3,500 and work performed inside the USA for >120 days, except for Commercial-Off-the-Shelf (COTS) and commercia...",
-        "2.232-39 \u2013 UNENFORCEABILITY OF UNAUTHORIZED OBLIGATIONS (JUN 2013) 59. FAR 52.232-40 \u2013 PROVIDING ACCELERATED PAYMENT TO SMALL BUSINESS SUBCONTRACTORS (MAR 2023) Applies to all contracts with small business concerns (including commercial products and services) 60. FAR 52.242-13 \u2013 BANKRUPTCY (JUL 199..."
+        "TELEPHONE NO. (No Collect Calls) 8. OFFER DUE DATE/LOCAL TIME 9. ISSUED BY CODE 10. THIS ACQUISITION IS UNRESTRICTED OR SET ASIDE: % FOR: SMALL BUSINESS HUBZONE SMALL BUSINESS SERVICE-DISABLED VETERAN-OWNED SMALL BUSINESS WOMEN-OWNED SMALL BUSINESS (WOSB) ELIGIBLE UNDER THE WOMEN-OWNED SMALL BUSINE...",
+        "Collect Calls) 8. OFFER DUE DATE/LOCAL TIME 9. ISSUED BY CODE 10. THIS ACQUISITION IS UNRESTRICTED OR SET ASIDE: % FOR: SMALL BUSINESS HUBZONE SMALL BUSINESS SERVICE-DISABLED VETERAN-OWNED SMALL BUSINESS WOMEN-OWNED SMALL BUSINESS (WOSB) ELIGIBLE UNDER THE WOMEN-OWNED SMALL BUSINESS PROGRAM EDWOSB...",
+        "8. OFFER DUE DATE/LOCAL TIME 9. ISSUED BY CODE 10. THIS ACQUISITION IS UNRESTRICTED OR SET ASIDE: % FOR: SMALL BUSINESS HUBZONE SMALL BUSINESS SERVICE-DISABLED VETERAN-OWNED SMALL BUSINESS WOMEN-OWNED SMALL BUSINESS (WOSB) ELIGIBLE UNDER THE WOMEN-OWNED SMALL BUSINESS PROGRAM EDWOSB 8(A) NAICS: SIZ...",
+        "DUE DATE/LOCAL TIME 9. ISSUED BY CODE 10. THIS ACQUISITION IS UNRESTRICTED OR SET ASIDE: % FOR: SMALL BUSINESS HUBZONE SMALL BUSINESS SERVICE-DISABLED VETERAN-OWNED SMALL BUSINESS WOMEN-OWNED SMALL BUSINESS (WOSB) ELIGIBLE UNDER THE WOMEN-OWNED SMALL BUSINESS PROGRAM EDWOSB 8(A) NAICS: SIZE STANDAR..."
       ],
       "evaluation_criteria": [],
-      "evidence_completeness": 84,
+      "evidence_completeness": 72,
       "latest_amendment_impact": null,
-      "likely_market_participants": [],
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "INTEGER TECHNOLOGIES LLC",
+          "score": 5,
+          "uei": "EVJCVE83BCJ1"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "WOODWARD, INC.",
+          "score": 2,
+          "uei": null
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "W S DARLEY & CO",
+          "score": 2,
+          "uei": "TENRPZGMAGJ6"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        }
+      ],
       "mission_fit": [],
-      "opportunity_key": "sam_gov:6-S176-Q-00414-00",
-      "potential_teaming_candidates": [],
+      "opportunity_key": "sam_gov:36C26126Q1197",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "DRONE AMPLIFIED INC",
+          "score": 5,
+          "uei": null
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "WOODWARD, INC.",
+          "score": 2,
+          "uei": null
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "W S DARLEY & CO",
+          "score": 2,
+          "uei": "TENRPZGMAGJ6"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "UNIVERSITY OF TEXAS AT ARLINGTON",
+          "score": 2,
+          "uei": "LMLUKUPJJ9N3"
+        }
+      ],
       "provisional_gate": "targeted review",
-      "public_evidence_score": 45,
+      "public_evidence_score": 44,
       "record_type": "procurement_opportunity",
       "relevant_patents": [],
       "required_actions": [
@@ -305,1119 +371,29 @@
         "Record an authorized bid/no-bid decision with owner and rationale"
       ],
       "requirements": [
-        "5-6 2 1. ASSIGNMENT (MAR 2023) Neither this contract nor any interest therein nor claim there under shall be assigned or transferred by the Contractor except as expressly authorized in writing by the Laboratory; provided, that the Contractor or its assignee's rights to be paid amounts",
-        "duties and liabilities owed to Laboratory. Laboratory will not be subject to audit or disclosure except to the extent required by U.S. law or authorized by DOE under the Prime Contract. DOE may access anything supplied to Argonne to the extent provided by federal laws, regulations or the Prime Cont...",
-        "act Disputes Act is inapplicable and any dispute between the parties that cannot be resolved by good faith negotiations shall be adjudicated in the State of Illinois, County of DuPage. Any provision requiring Laboratory to provide indemnification in Contractor\u2019s terms and conditions is deemed null,...",
-        "024) If Contractor considers that any direction or instruction by Laboratory personnel constitutes a change, Contractor shall not rely upon such instruction or direction without written confirmation from the Procurement Specialist. Nothing in this clause, including any disagreement with the Laborat...",
-        "ment Specialist. Nothing in this clause, including any disagreement with the Laboratory about the equitable adjustment, shall excuse the Contractor from proceeding with the Agreement as changed. 4. CONDUCT OF EMPLOYEES (NOV 2024) The contractor acknowledges the Laboratory\u2019s Code of Business Ethics..."
+        "ORDER INCORPORATES BY REFERENCE FAR 52.212-4. FAR 52.212-5 IS ATTACHED. ADDENDA ARE ARE NOT ATTACHED 28. CONTRACTOR IS REQUIRED TO SIGN THIS DOCUMENT AND RETURN _______________ 29. AWARD OF CONTRACT: REF. ___________________________________ OFFER COPIES TO ISSUING OFFICE. CONTRACTOR AGREES TO FURNI...",
+        "CONTINUATION Page VA Southern Nevada Healthcare System KIRA B100 Autonomous Floor Scrubber Submission of your response shall be received no later than August 27, 2026 at 1500 PDT at victoria.torres@va.gov. Any question or concerns regarding this solicitation should be forwarded in writing via email...",
+        "by Electronic Funds Transfer\u2014System For Award Management, or [] 52.232-36, Payment by Third Party 3. INVOICES: Invoices shall be submitted in arrears: a. Quarterly [] b. Semi-Annually [] c. Other [X] Upon Delivery and Government Acceptance 4. GOVERNMENT INVOICE ADDRESS: All Invoices from the contra...",
+        "[] c. Other [X] Upon Delivery and Government Acceptance 4. GOVERNMENT INVOICE ADDRESS: All Invoices from the contractor shall be submitted electronically in accordance with VAAR Clause 852.232-72 Electronic Submission of Payment Requests. ACKNOWLEDGMENT OF AMENDMENTS: The offeror acknowledges recei...",
+        "areas while allowing staff to focus on other environmental services and patient care support tasks. The floor scrubber must be capable of both manual and autonomous robotic operation to support self-driving cleaning routes, obstacle avoidance, notifications, and reporting functions. 2. Scope The Co..."
       ],
       "risks": [
-        "Compressed response window: 4 day(s) remaining",
-        "Set-aside or eligibility status is not established in collected metadata"
+        "Compressed response window: 4 day(s) remaining"
       ],
-      "set_aside": "",
+      "set_aside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
       "source_urls": [
-        "https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1c347809e5ef4aae9a5761ca1b1029b8/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5a5bf8c052264d4499f7b5e0b47f09e9/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/606ef670b4e64d25bd55a5a85f764f7d/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7a1750870dcf4a39959f15931abfaf94/download"
+        "https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c31a6fcf8ba04194acd817d4412b98ce/download",
+        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2a8d13181052413a8d82a7bd82714f79"
       ],
       "technology_fit": [
-        "quantum"
+        "autonomy and sensing"
       ],
-      "title": "Optical Cryogenic Quantum System",
+      "title": "KIRA B100 Autonomous Floor Scrubbers Or Equal",
       "unknowns": [
         "Confirm evaluation criteria in the controlling solicitation"
       ],
-      "url": "https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view"
-    },
-    {
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE TEST CENTER",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [
-        {
-          "email": "austen.siegler.1@us.af.mil",
-          "full_name": "Austen Siegler",
-          "phone": "5128096569",
-          "title": "",
-          "type": "primary"
-        },
-        {
-          "email": "tylan.mcbride.2@us.af.mil",
-          "full_name": "Tylan McBride",
-          "phone": "6615272704",
-          "title": "",
-          "type": "secondary"
-        }
-      ],
-      "days_to_close": 5,
-      "deadline": "2026-08-27T17:00:00-07:00",
-      "decision_freshness": {
-        "current_gate": "targeted review",
-        "current_score": 45,
-        "evidence_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-        "impact_id": "impact:eaba682240ef159f15b8",
-        "note": "The latest amendment impact requires analyst revalidation. The tracker did not change an authorized bid/no-bid decision.",
-        "previous_gate": "hold",
-        "previous_score": 37,
-        "status": "revalidation_required"
-      },
-      "decision_score": 45,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +8",
-              "actionable procurement_opportunity +8",
-              "closing_soon +12",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view"
-            ],
-            "points": 37
-          },
-          {
-            "basis": [
-              "84 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9bd8d56ea7be4877b96d81753fd01de8/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c002c2804e02477783620f2773ecedf1/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/eaddcef7896445a19b3290aa19261856/download"
-            ],
-            "points": 8
-          },
-          {
-            "basis": [
-              "No public risk penalty"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view"
-            ],
-            "points": 0
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 45,
-        "source_urls": [
-          "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9bd8d56ea7be4877b96d81753fd01de8/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c002c2804e02477783620f2773ecedf1/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/eaddcef7896445a19b3290aa19261856/download"
-        ],
-        "trace_hash": "23228dc49d84467b"
-      },
-      "eligibility": [
-        "Project Description : Pilot and Field Test of Affordable Secure Enclave Solutions for D AF-Furnished CUI Protection in Small Business Contracts Date: TBD Preparing Organization: HQ AFTC / AFWERX 1.0 Purpose The purpose of this Statement of Objectives (SOO) is to obtain contractor support to develop...",
-        "ctor support to develop and demonstrate a secure platform that enables the Department of the Air Force (DAF) to furnish small business (SB) contractors with compliant environments for handling Controlled Unclassified Information (CUI). This effort will provide the DAF with a scalable, cost-effectiv...",
-        "lable, cost-effective solution that enhances the level of cybersecurity protection and reduces the associated burden on small businesses by shifting responsibility for CUI protection to DAF-managed systems, ensuring mission readiness and operational superiority against advanced persistent threats (...",
-        "mpasses the design, development, prototyping, and field testing of affordable s ecure e nclave s olutions applicable to small business env ironments . In Scope: Provide a s calable architecture design, hardware, and software (system and application) that meet NIST SP 800 -53 ( 171/172 ) requirement..."
-      ],
-      "evaluation_criteria": [
-        "ge. A challenge is ensuring cyber security of d ata on hybrid systems from a mixed set of vendors. 7 .0 Rating Criteria Evaluation Factor Weight Description 1. Technical Approach & Security Compliance 40% Evaluates the robustness of the architecture (Zero Trust, multi-zone network ing, etc. ) and t...",
-        "ty of d ata on hybrid systems from a mixed set of vendors. 7 .0 Rating Criteria Evaluation Factor Weight Description 1. Technical Approach & Security Compliance 40% Evaluates the robustness of the architecture (Zero Trust, multi-zone network ing, etc. ) and the feasibility of achieving an ATO under..."
-      ],
-      "evidence_completeness": 84,
-      "latest_amendment_impact": {
-        "after_snapshot_id": "snapshot:21c97ca0246788f93263",
-        "baseline_status": "compared",
-        "before_snapshot_id": "snapshot:38c268ed9bcb3ef6a605",
-        "changes": [
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "eligibility",
-              "claim_id": "claim:ffdbd9597e8302afd02a",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "b5fd938e05054b2f546e8433b11f4cbb64d00fbcea23c68859923485fab0a053",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 5
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "ng, and CUI storage while using their commercial devices for their non-DoD business. 3. Scientific R&D Charlie LLC is a Small Business Innovation Research (SBIR) firm focused primarily on Do W needs . The firm's six organic employees, two independent sub contractors , and two student interns use re..."
-            },
-            "before": null,
-            "category": "eligibility",
-            "change_id": "change:d1dcf7a8f18516d78efe",
-            "change_type": "added",
-            "checklist_tags": [
-              "certification",
-              "eligibility",
-              "naics",
-              "set aside",
-              "set-aside",
-              "vehicle"
-            ],
-            "decision_effects": [
-              "eligibility and bid authority require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "critical",
-            "summary": "New eligibility evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "eligibility",
-              "claim_id": "claim:4f7c1a1d3a76164035a0",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "3e0d67d17124b2712f4c9f38117a3173bc81a2396bcd0f55894c1e83969b8dae",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 1
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "Project Description : Pilot and Field Test of Affordable Secure Enclave Solutions for D AF-Furnished CUI Protection in Small Business Contracts Date: TBD Preparing Organization: HQ AFTC / AFWERX 1.0 Purpose The purpose of this Statement of Objectives (SOO) is to obtain contractor support to develop..."
-            },
-            "before": null,
-            "category": "eligibility",
-            "change_id": "change:70d62f4da80bbf1daebe",
-            "change_type": "added",
-            "checklist_tags": [
-              "certification",
-              "eligibility",
-              "naics",
-              "set aside",
-              "set-aside",
-              "vehicle"
-            ],
-            "decision_effects": [
-              "eligibility and bid authority require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "critical",
-            "summary": "New eligibility evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "eligibility",
-              "claim_id": "claim:32d636a69e6473029fab",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "e35ad3b1242fe8f4c67963eeec46ee0e3ef929b3839dcaa9ceb9488b6e463d44",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 4
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "mpasses the design, development, prototyping, and field testing of affordable s ecure e nclave s olutions applicable to small business env ironments . In Scope: Provide a s calable architecture design, hardware, and software (system and application) that meet NIST SP 800 -53 ( 171/172 ) requirement..."
-            },
-            "before": null,
-            "category": "eligibility",
-            "change_id": "change:58ecf8a94725338f4055",
-            "change_type": "added",
-            "checklist_tags": [
-              "certification",
-              "eligibility",
-              "naics",
-              "set aside",
-              "set-aside",
-              "vehicle"
-            ],
-            "decision_effects": [
-              "eligibility and bid authority require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "critical",
-            "summary": "New eligibility evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "eligibility",
-              "claim_id": "claim:5069f13d7432b4f26786",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "05d4cf3916fa1814642337e6e0cccc58156591119743dd69b5f8d661fb8ae012",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 3
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "lable, cost-effective solution that enhances the level of cybersecurity protection and reduces the associated burden on small businesses by shifting responsibility for CUI protection to DAF-managed systems, ensuring mission readiness and operational superiority against advanced persistent threats (..."
-            },
-            "before": null,
-            "category": "eligibility",
-            "change_id": "change:4fc16b4ff31bb4057061",
-            "change_type": "added",
-            "checklist_tags": [
-              "certification",
-              "eligibility",
-              "naics",
-              "set aside",
-              "set-aside",
-              "vehicle"
-            ],
-            "decision_effects": [
-              "eligibility and bid authority require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "critical",
-            "summary": "New eligibility evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "eligibility",
-              "claim_id": "claim:03b168feadbd01518b74",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "d538db0df07b86512ec42ec2f79e4ac48136a83f1d76b678cb8b99541db58c18",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 2
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "ctor support to develop and demonstrate a secure platform that enables the Department of the Air Force (DAF) to furnish small business (SB) contractors with compliant environments for handling Controlled Unclassified Information (CUI). This effort will provide the DAF with a scalable, cost-effectiv..."
-            },
-            "before": null,
-            "category": "eligibility",
-            "change_id": "change:173132203b04880d72cd",
-            "change_type": "added",
-            "checklist_tags": [
-              "certification",
-              "eligibility",
-              "naics",
-              "set aside",
-              "set-aside",
-              "vehicle"
-            ],
-            "decision_effects": [
-              "eligibility and bid authority require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "critical",
-            "summary": "New eligibility evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "submission",
-              "claim_id": "claim:9461073fc25b5269e3b2",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "99eea760a3f82bdad176878c73775f8a5c2a1ab9ece362aba0eb26dd1740a597",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 2
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "se the system) who submits the Application Request Worksheet (ARW). Required Artifacts for Assessment: The sponsor must submit: Application Request Worksheet (ARW) RAVE User Agreement Installation Guide System/Network Topology (SV-2) Sponsor-developed Application Systems Requirements documents Secu..."
-            },
-            "before": null,
-            "category": "submission",
-            "change_id": "change:ebc0bf02dca7827dfa52",
-            "change_type": "added",
-            "checklist_tags": [
-              "format",
-              "page limit",
-              "portal",
-              "submission",
-              "volume"
-            ],
-            "decision_effects": [
-              "submission plan requires revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "high",
-            "summary": "New submission evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "submission",
-              "claim_id": "claim:970b243d476af1ef9387",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "69b1b730b3009c43760f6da025ecde48acc53d4aa4ab18d191635a0c5f5f461c",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 1
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "Environment (RAVE). Sponsorship: Software must have a government sponsor (an AF community that will use the system) who submits the Application Request Worksheet (ARW). Required Artifacts for Assessment: The sponsor must submit: Application Request Worksheet (ARW) RAVE User Agreement Installation G..."
-            },
-            "before": null,
-            "category": "submission",
-            "change_id": "change:b2bdad110a0bfcd05321",
-            "change_type": "added",
-            "checklist_tags": [
-              "format",
-              "page limit",
-              "portal",
-              "submission",
-              "volume"
-            ],
-            "decision_effects": [
-              "submission plan requires revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "high",
-            "summary": "New submission evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "requirement",
-              "claim_id": "claim:2312cba9f9f950d3ab56",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "3325b17d46aed3a1e3c595f86e021171d0246ce87ce567ceecb195c9e854aaef",
-              "source": {
-                "content_sha256": "cf6353405a063d68edf85523c0ca538174b659f6ad63cb201ab71ad1bb0db2b7",
-                "document_id": "document:182c14efbfe8fa9ff9b0",
-                "locator": {
-                  "excerpt": 1
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9bd8d56ea7be4877b96d81753fd01de8/download",
-                "version_id": "version:ae55a0e5c2adf6f2c269"
-              },
-              "text": "________________________________________________________________ Last 4 SSN: ________________ Please note: A Real ID is required to obtain Base Access. If you do not have a Real ID, you may present your Current Driver's License with a Passport OR your Current Driver's License with an Original Birth..."
-            },
-            "before": null,
-            "category": "requirement",
-            "change_id": "change:e0b3db45b6b200a36d66",
-            "change_type": "added",
-            "checklist_tags": [
-              "compliance",
-              "requirement",
-              "solution",
-              "technical"
-            ],
-            "decision_effects": [
-              "compliance matrix and solution fit require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "high",
-            "summary": "New requirement evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "requirement",
-              "claim_id": "claim:32225e792a8ee3fe4326",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "69fd58dd553badac1a9eeb2443c4a97b52a3b8dee7ee270ac19ac9e9ec55e922",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 1
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "2 .0 Background The DAF relies heavily on SB innovation to advance critical technologies. Currently, SB contractors are required to implement NIST SP 800-171 to fulfill DFARS 252.204-7012. Current Limitations: Implementing NIST SP 800-171 requires dedicated cybersecurity professionals costing $150K..."
-            },
-            "before": null,
-            "category": "requirement",
-            "change_id": "change:c979a7988f00335ada22",
-            "change_type": "added",
-            "checklist_tags": [
-              "compliance",
-              "requirement",
-              "solution",
-              "technical"
-            ],
-            "decision_effects": [
-              "compliance matrix and solution fit require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "high",
-            "summary": "New requirement evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "requirement",
-              "claim_id": "claim:36b270f9d4d1ade9ce00",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "ab6ea34432229f5a5df1c986e7c0246cf198e0beb94363f5f3a718fb55c5997f",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 7
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "Confidentiality, Integrity, and Availability impact levels). Authority to Operate (ATO): An Authorizing Official (AO) must formally accept the risk of operating the system. An ATO is typically valid for three years, or until a major system change occurs, provided the system maintains continuous mon..."
-            },
-            "before": null,
-            "category": "requirement",
-            "change_id": "change:9cb3cefada5067d09600",
-            "change_type": "added",
-            "checklist_tags": [
-              "compliance",
-              "requirement",
-              "solution",
-              "technical"
-            ],
-            "decision_effects": [
-              "compliance matrix and solution fit require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "high",
-            "summary": "New requirement evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "requirement",
-              "claim_id": "claim:b9a25580890d303069c2",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "b3099e09fcb084714acc70b3c27407257d5f1088fa9ca88221ca48ba92c007fa",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 8
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "continuous monitoring. Approval to Connect (ATC): Having an ATO does not automatically grant network access. The system must also obtain an ATC from the enclave owner (e.g., the AF Enterprise AO) which is a formal evaluation of the risk of connecting the system to the receiving network. Required Ar..."
-            },
-            "before": null,
-            "category": "requirement",
-            "change_id": "change:647e206ed4c9b14e7fb8",
-            "change_type": "added",
-            "checklist_tags": [
-              "compliance",
-              "requirement",
-              "solution",
-              "technical"
-            ],
-            "decision_effects": [
-              "compliance matrix and solution fit require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "high",
-            "summary": "New requirement evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "requirement",
-              "claim_id": "claim:85bb836a60cc49d0baaf",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "c81252bf89cc5572ebc8a02d7ad62bb142dde495b674181d15402a8d086d5169",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 2
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "l innovations to vulnerabilities and supply chain risks. Mission Need: A transition to DAF-furnished secure enclaves is required immediately to counter advanced persistent threats, particularly stealthy cyber espionage from state-sponsored actors targeting small defense innovators. The need is incr..."
-            },
-            "before": null,
-            "category": "requirement",
-            "change_id": "change:58f4cbab18eb9faf7376",
-            "change_type": "added",
-            "checklist_tags": [
-              "compliance",
-              "requirement",
-              "solution",
-              "technical"
-            ],
-            "decision_effects": [
-              "compliance matrix and solution fit require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "high",
-            "summary": "New requirement evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "requirement",
-              "claim_id": "claim:b55b80507bf85f48b007",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "42967c8475ca5757fb94f44cbd3812b30eba4a6b52bf0cef3dd0014f9686d003",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 4
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "sessment Primary Location(s): TBD Travel Requirements: TBD 5.0 Performance Objectives (Required Results) The contractor shall propose a comprehensive solution (in the form of a Performance Work Statement) that meets the requirements for a DAF enclave and the requirements for incorporation into the..."
-            },
-            "before": null,
-            "category": "requirement",
-            "change_id": "change:43d6443720a1fae6bede",
-            "change_type": "added",
-            "checklist_tags": [
-              "compliance",
-              "requirement",
-              "solution",
-              "technical"
-            ],
-            "decision_effects": [
-              "compliance matrix and solution fit require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "high",
-            "summary": "New requirement evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "requirement",
-              "claim_id": "claim:8112a142f1d1450410ba",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "88d38ce5981c2f4d4cfdae646700b5683d743d4a10091fe5ebad15ef6818747b",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 3
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "sts and/or additional use case assessment Primary Location(s): TBD Travel Requirements: TBD 5.0 Performance Objectives (Required Results) The contractor shall propose a comprehensive solution (in the form of a Performance Work Statement) that meets the requirements for a DAF enclave and the require..."
-            },
-            "before": null,
-            "category": "requirement",
-            "change_id": "change:3af3c3d0c6041db58e18",
-            "change_type": "added",
-            "checklist_tags": [
-              "compliance",
-              "requirement",
-              "solution",
-              "technical"
-            ],
-            "decision_effects": [
-              "compliance matrix and solution fit require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "high",
-            "summary": "New requirement evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "requirement",
-              "claim_id": "claim:bfaf663a987ebd760754",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "4264c009650c56562a70ed97146ff4fdc66a1756f35fa9b618b48126e82df664",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 6
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "in accordance with AFI 17-101 (Risk Management Framework for Air Force IT). Risk Management Framework (RMF): The system must implement and validate security controls based on NIST SP 800-53. The baseline controls are determined by the system's categorization (Confidentiality, Integrity, and Availab..."
-            },
-            "before": null,
-            "category": "requirement",
-            "change_id": "change:17ff4404728dd10339aa",
-            "change_type": "added",
-            "checklist_tags": [
-              "compliance",
-              "requirement",
-              "solution",
-              "technical"
-            ],
-            "decision_effects": [
-              "compliance matrix and solution fit require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "high",
-            "summary": "New requirement evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "requirement",
-              "claim_id": "claim:e2e0cb8785391def136e",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "949f7b1b7f4bf84311d889d226b5ea6f57db3c33609c762bdeb63b8ea9b48054",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 5
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "ion into the DAF software registry. 1. Requirements for a DAF Enclave (ATO & ATC) To operate on a DAF network, a system must prove that it can adequately protect confidentiality, integrity, and availability in accordance with AFI 17-101 (Risk Management Framework for Air Force IT). Risk Management..."
-            },
-            "before": null,
-            "category": "requirement",
-            "change_id": "change:122bc986fc97cd6e0d8e",
-            "change_type": "added",
-            "checklist_tags": [
-              "compliance",
-              "requirement",
-              "solution",
-              "technical"
-            ],
-            "decision_effects": [
-              "compliance matrix and solution fit require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "high",
-            "summary": "New requirement evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "evaluation",
-              "claim_id": "claim:9866eb7c57ae87518015",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "d679be0a0840b4b3f4e6731f35486970815d5257054c1824e78cea8eeeef8ead",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 2
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "ty of d ata on hybrid systems from a mixed set of vendors. 7 .0 Rating Criteria Evaluation Factor Weight Description 1. Technical Approach & Security Compliance 40% Evaluates the robustness of the architecture (Zero Trust, multi-zone network ing, etc. ) and the feasibility of achieving an ATO under..."
-            },
-            "before": null,
-            "category": "evaluation",
-            "change_id": "change:6555b0947b4755f69dfa",
-            "change_type": "added",
-            "checklist_tags": [
-              "evaluation",
-              "past performance",
-              "pricing",
-              "scoring",
-              "win theme"
-            ],
-            "decision_effects": [
-              "evaluation strategy and win themes require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "high",
-            "summary": "New evaluation evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "evaluation",
-              "claim_id": "claim:673525e7c905fb364e41",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "2f0b803aa6b7f7716c5e99402e166319e878f9ede6397bf34562b9b12b58f41e",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 1
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "ge. A challenge is ensuring cyber security of d ata on hybrid systems from a mixed set of vendors. 7 .0 Rating Criteria Evaluation Factor Weight Description 1. Technical Approach & Security Compliance 40% Evaluates the robustness of the architecture (Zero Trust, multi-zone network ing, etc. ) and t..."
-            },
-            "before": null,
-            "category": "evaluation",
-            "change_id": "change:146a931a2577f53a8208",
-            "change_type": "added",
-            "checklist_tags": [
-              "evaluation",
-              "past performance",
-              "pricing",
-              "scoring",
-              "win theme"
-            ],
-            "decision_effects": [
-              "evaluation strategy and win themes require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "high",
-            "summary": "New evaluation evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "deliverable",
-              "claim_id": "claim:bf3247a77b95deef6f5d",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "9302ac21a3fd3b0853a2926fbc9e9721ec1a85e0f6350ffb391872301d21d604",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 2
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "y of evidence, which typically includes: System Security Plan (SSP) Security Assessment Report (SAR) Plan of Action and Milestones (POA&M) for unmitigated vulnerabilities Hardware and Software lists with associated STIG (Security Technical Implementation Guide) checklists Network Topology and Data-..."
-            },
-            "before": null,
-            "category": "deliverable",
-            "change_id": "change:c6f388c841210599924a",
-            "change_type": "added",
-            "checklist_tags": [
-              "cost",
-              "deliverable",
-              "schedule",
-              "staffing",
-              "work breakdown"
-            ],
-            "decision_effects": [
-              "delivery, staffing, and cost assumptions require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "medium",
-            "summary": "New deliverable evidence was observed.",
-            "supersession_basis": null
-          },
-          {
-            "after": {
-              "authority": "official_sam_attachment",
-              "category": "deliverable",
-              "claim_id": "claim:db23905831899ad3a857",
-              "controlling_status": "analyst_verification_required",
-              "normalized_text_hash": "7bceb7ab3742ae82c306f185f2d65ebef7f47fc7e3006260db5d5c7852acfcb0",
-              "source": {
-                "content_sha256": "c08fd86ae8fd9b03fa7f047b703a0d7dd3d32edaaf70fcb936bd10558bbdbbe0",
-                "document_id": "document:3ffc2cbbe603023bf5ca",
-                "locator": {
-                  "excerpt": 1
-                },
-                "opportunity_key": "sam_gov:FA930426C0000",
-                "opportunity_url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-                "retrieved_at": "2026-08-22T00:50:40.718732+00:00",
-                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-                "version_id": "version:676c4eea64fd8195263b"
-              },
-              "text": "D 5.0 Performance Objectives (Required Results) The contractor shall propose a comprehensive solution (in the form of a Performance Work Statement) that meets the requirements for a DAF enclave and the requirements for incorporation into the DAF software registry. 1. Requirements for a DAF Enclave..."
-            },
-            "before": null,
-            "category": "deliverable",
-            "change_id": "change:23140c4c19f2794b261e",
-            "change_type": "added",
-            "checklist_tags": [
-              "cost",
-              "deliverable",
-              "schedule",
-              "staffing",
-              "work breakdown"
-            ],
-            "decision_effects": [
-              "delivery, staffing, and cost assumptions require revalidation"
-            ],
-            "match_confidence": null,
-            "materiality": "medium",
-            "summary": "New deliverable evidence was observed.",
-            "supersession_basis": null
-          }
-        ],
-        "detected_at": "2026-08-22T00:50:40.718732+00:00",
-        "detected_this_run": true,
-        "highest_materiality": "critical",
-        "history_completeness": "tracker_observed",
-        "impact_id": "impact:eaba682240ef159f15b8",
-        "impact_score": 100,
-        "material_change_count": 18,
-        "recommended_checklist_updates": [
-          {
-            "action": "Reconfirm eligibility, set-aside, NAICS, and vehicle assumptions.",
-            "category": "eligibility",
-            "change_ids": [
-              "change:d1dcf7a8f18516d78efe",
-              "change:70d62f4da80bbf1daebe",
-              "change:58ecf8a94725338f4055",
-              "change:4fc16b4ff31bb4057061",
-              "change:173132203b04880d72cd"
-            ]
-          },
-          {
-            "action": "Recheck submission method, format, page limits, and internal reviews.",
-            "category": "submission",
-            "change_ids": [
-              "change:ebc0bf02dca7827dfa52",
-              "change:b2bdad110a0bfcd05321"
-            ]
-          },
-          {
-            "action": "Revalidate the compliance matrix against changed requirements.",
-            "category": "requirement",
-            "change_ids": [
-              "change:e0b3db45b6b200a36d66",
-              "change:c979a7988f00335ada22",
-              "change:9cb3cefada5067d09600",
-              "change:647e206ed4c9b14e7fb8",
-              "change:58f4cbab18eb9faf7376",
-              "change:43d6443720a1fae6bede",
-              "change:3af3c3d0c6041db58e18",
-              "change:17ff4404728dd10339aa",
-              "change:122bc986fc97cd6e0d8e"
-            ]
-          },
-          {
-            "action": "Update evaluation mapping, response outline, and win themes.",
-            "category": "evaluation",
-            "change_ids": [
-              "change:6555b0947b4755f69dfa",
-              "change:146a931a2577f53a8208"
-            ]
-          },
-          {
-            "action": "Update delivery, staffing, schedule, and cost assumptions.",
-            "category": "deliverable",
-            "change_ids": [
-              "change:c6f388c841210599924a",
-              "change:23140c4c19f2794b261e"
-            ]
-          }
-        ],
-        "requires_decision_revalidation": true,
-        "requires_manual_comparison": false
-      },
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "YESHIVA UNIVERSITY",
-          "score": 2,
-          "uei": "CSSJGCRUZ9F3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WORCESTER POLYTECHNIC INSTITUTE",
-          "score": 2,
-          "uei": "HJNQME41NBU4"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WIRELESS BROADBAND ALLIANCE INC.",
-          "score": 2,
-          "uei": "LETXBAQZRA18"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "sam_gov:FA930426C0000",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "YESHIVA UNIVERSITY",
-          "score": 2,
-          "uei": "CSSJGCRUZ9F3"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WORCESTER POLYTECHNIC INSTITUTE",
-          "score": 2,
-          "uei": "HJNQME41NBU4"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "WIRELESS BROADBAND ALLIANCE INC.",
-          "score": 2,
-          "uei": "LETXBAQZRA18"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VALIANT SOLUTIONS, LLC",
-          "score": 2,
-          "uei": "GKF8ERUXED41"
-        }
-      ],
-      "provisional_gate": "targeted review",
-      "public_evidence_score": 45,
-      "record_type": "procurement_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Review the new amendment impact and revalidate the bid/no-bid decision; do not treat the prior decision as current",
-        "Reconfirm eligibility, set-aside, NAICS, and vehicle assumptions.",
-        "Recheck submission method, format, page limits, and internal reviews.",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [
-        "2 .0 Background The DAF relies heavily on SB innovation to advance critical technologies. Currently, SB contractors are required to implement NIST SP 800-171 to fulfill DFARS 252.204-7012. Current Limitations: Implementing NIST SP 800-171 requires dedicated cybersecurity professionals costing $150K...",
-        "l innovations to vulnerabilities and supply chain risks. Mission Need: A transition to DAF-furnished secure enclaves is required immediately to counter advanced persistent threats, particularly stealthy cyber espionage from state-sponsored actors targeting small defense innovators. The need is incr...",
-        "sts and/or additional use case assessment Primary Location(s): TBD Travel Requirements: TBD 5.0 Performance Objectives (Required Results) The contractor shall propose a comprehensive solution (in the form of a Performance Work Statement) that meets the requirements for a DAF enclave and the require...",
-        "sessment Primary Location(s): TBD Travel Requirements: TBD 5.0 Performance Objectives (Required Results) The contractor shall propose a comprehensive solution (in the form of a Performance Work Statement) that meets the requirements for a DAF enclave and the requirements for incorporation into the...",
-        "ion into the DAF software registry. 1. Requirements for a DAF Enclave (ATO & ATC) To operate on a DAF network, a system must prove that it can adequately protect confidentiality, integrity, and availability in accordance with AFI 17-101 (Risk Management Framework for Air Force IT). Risk Management..."
-      ],
-      "risks": [
-        "Compressed response window: 5 day(s) remaining",
-        "A critical amendment impact makes prior qualification assumptions stale",
-        "New eligibility evidence was observed.",
-        "New eligibility evidence was observed.",
-        "New eligibility evidence was observed."
-      ],
-      "set_aside": "Small Business Set Aside - Total",
-      "source_urls": [
-        "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9bd8d56ea7be4877b96d81753fd01de8/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c002c2804e02477783620f2773ecedf1/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/eaddcef7896445a19b3290aa19261856/download"
-      ],
-      "technology_fit": [
-        "cybersecurity"
-      ],
-      "title": "Small Business Cybersecurity Network",
-      "unknowns": [],
-      "url": "https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view"
+      "url": "https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view"
     },
     {
       "agency": "COMMERCE, DEPARTMENT OF.BUREAU OF INDUSTRY AND SECURITY",
@@ -1441,7 +417,7 @@
           "source": "document extraction"
         }
       ],
-      "days_to_close": 18,
+      "days_to_close": 17,
       "deadline": "2026-09-09T09:00:00-04:00",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -1714,7 +690,7 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 9,
+      "days_to_close": 8,
       "deadline": "2026-08-31T09:00:00-07:00",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1722,8 +698,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 34,
         "status": "current"
       },
       "decision_score": 34,
@@ -1924,7 +900,7 @@
           "type": "secondary"
         }
       ],
-      "days_to_close": 13,
+      "days_to_close": 12,
       "deadline": "2026-09-04T12:00:00-04:00",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1932,8 +908,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 34,
         "status": "current"
       },
       "decision_score": 34,
@@ -2115,300 +1091,6 @@
       "url": "https://sam.gov/workspace/contract/opp/38d5925003d84fd2b3de42dce90c6b10/view"
     },
     {
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVAIR.NAVAIR HQS.NAVAL AIR SYSTEMS COMMAND",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [
-        {
-          "email": "kimberly.leyva@navy.mil",
-          "full_name": "Kimberly Leyva",
-          "phone": "771-237-1564",
-          "title": "",
-          "type": "primary"
-        }
-      ],
-      "days_to_close": 24,
-      "deadline": "2026-09-15T17:00:00-04:00",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 34,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 34,
-        "status": "current"
-      },
-      "decision_score": 34,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +8",
-              "actionable procurement_opportunity +8",
-              "closing_this_month +9",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/ba634d6c594945d3b353c270bf7b1a4f/view"
-            ],
-            "points": 34
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [
-              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ba634d6c594945d3b353c270bf7b1a4f"
-            ],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No public risk penalty"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/ba634d6c594945d3b353c270bf7b1a4f/view"
-            ],
-            "points": 0
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 34,
-        "source_urls": [
-          "https://sam.gov/workspace/contract/opp/ba634d6c594945d3b353c270bf7b1a4f/view",
-          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ba634d6c594945d3b353c270bf7b1a4f"
-        ],
-        "trace_hash": "45fb5b648d2030c2"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "INTEGER TECHNOLOGIES LLC",
-          "score": 5,
-          "uei": "EVJCVE83BCJ1"
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "WOODWARD, INC.",
-          "score": 2,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "W S DARLEY & CO",
-          "score": 2,
-          "uei": "TENRPZGMAGJ6"
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "sam_gov:N0001927R1000",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "DRONE AMPLIFIED INC",
-          "score": 5,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "WOODWARD, INC.",
-          "score": 2,
-          "uei": null
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "W S DARLEY & CO",
-          "score": 2,
-          "uei": "TENRPZGMAGJ6"
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "UNIVERSITY OF TEXAS AT ARLINGTON",
-          "score": 2,
-          "uei": "LMLUKUPJJ9N3"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 34,
-      "record_type": "procurement_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Document evidence is incomplete; review the controlling files manually",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": "",
-      "source_urls": [
-        "https://sam.gov/workspace/contract/opp/ba634d6c594945d3b353c270bf7b1a4f/view",
-        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ba634d6c594945d3b353c270bf7b1a4f"
-      ],
-      "technology_fit": [
-        "autonomy and sensing"
-      ],
-      "title": "CH-53K Electrical Optical (EO) / Infrared (IR) Sensor System Competition",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://sam.gov/workspace/contract/opp/ba634d6c594945d3b353c270bf7b1a4f/view"
-    },
-    {
-      "agency": "USDA-NIFA",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 30,
-      "deadline": "09/21/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 28,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
-        "status": "current"
-      },
-      "decision_score": 28,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_this_month +9",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363682"
-            ],
-            "points": 36
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363682"
-            ],
-            "points": -8
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 28,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363682"
-        ],
-        "trace_hash": "66966cc5a4fac5ac"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:USDA-NIFA-ARPA-012381",
-      "potential_teaming_candidates": [],
-      "provisional_gate": "hold",
-      "public_evidence_score": 28,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/363682"
-      ],
-      "technology_fit": [
-        "quantum"
-      ],
-      "title": "Agriculture Risk Management Education Partnerships Competitive Grants Program",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/363682"
-    },
-    {
       "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.U.S. AIR FORCE ACADEMY.FA7000 10 CONS LGC",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
@@ -2432,7 +1114,7 @@
           "source": "document extraction"
         }
       ],
-      "days_to_close": 2,
+      "days_to_close": 1,
       "deadline": "2026-08-24T10:00:00-06:00",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2475,7 +1157,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 2 day(s)"
+              "Compressed response window: 1 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -2495,7 +1177,7 @@
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/58039c0f631e4cae8a30d940d37022bf/download"
         ],
-        "trace_hash": "8bdd64fda02c1a5b"
+        "trace_hash": "18d744ea52adb2bf"
       },
       "eligibility": [
         "reimburse an offeror for any costs incurred in response to this solicitation. Solicitation Number FA700026Q0063 Type of Set-Aside 100% Total Small Business Set-Aside NAICS Code 334519 (Other Measuring and Controlling Device Manufacturing) Small Business Size Standard 600 Employees Product Service C...",
@@ -2531,7 +1213,7 @@
         "state in their submission that their quote remains valid until 30 September 2026. \u2022 Buy American Certificate: Offerors MUST complete and return \u201cAttachment 03 \u2014 Buy American Certificate\u201d with their quote submission. Failure to return the completed certificate may render the quote non-responsive. US..."
       ],
       "risks": [
-        "Compressed response window: 2 day(s) remaining"
+        "Compressed response window: 1 day(s) remaining"
       ],
       "set_aside": "Small Business Set Aside - Total",
       "source_urls": [
@@ -2553,7 +1235,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 5,
+      "days_to_close": 4,
       "deadline": "08/27/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2711,7 +1393,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 5 day(s) remaining",
+        "Compressed response window: 4 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -2736,7 +1418,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 5,
+      "days_to_close": 4,
       "deadline": "08/27/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2894,7 +1576,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 5 day(s) remaining",
+        "Compressed response window: 4 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -2913,6 +1595,189 @@
         "Confirm submission instructions in the controlling solicitation"
       ],
       "url": "https://www.grants.gov/search-results-detail/363347"
+    },
+    {
+      "agency": "DOS-IDN",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 7,
+      "deadline": "08/30/2026",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 26,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": null,
+        "previous_score": null,
+        "status": "current"
+      },
+      "decision_score": 26,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363293"
+            ],
+            "points": 34
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363293"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 26,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363293"
+        ],
+        "trace_hash": "b0df67e4633e7a6b"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:PAS-JAKARTA-FY26-08",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+          "score": 2,
+          "uei": "MKAGLD59JRL1"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 26,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Compressed response window: 7 day(s) remaining",
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/363293"
+      ],
+      "technology_fit": [
+        "artificial intelligence"
+      ],
+      "title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/363293"
     },
     {
       "agency": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.US EMBASSY HANOI",
@@ -2934,7 +1799,7 @@
           "type": "secondary"
         }
       ],
-      "days_to_close": 2,
+      "days_to_close": 1,
       "deadline": "2026-08-24T17:00:00+07:00",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2943,7 +1808,7 @@
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
         "previous_gate": "hold",
-        "previous_score": 30,
+        "previous_score": 25,
         "status": "current"
       },
       "decision_score": 25,
@@ -2977,7 +1842,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 2 day(s)"
+              "Compressed response window: 1 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -2997,7 +1862,7 @@
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/63d5abfd449a4a7f972664c98504d845/download",
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/bbd8cebc64754b7bb07988925bd951fb/download"
         ],
-        "trace_hash": "f3510b6c01d476aa"
+        "trace_hash": "54fcb1a3ddafa88e"
       },
       "eligibility": [
         "JUL 2014 52.228-4 WORKERS\u2019 COMPENSA TION AND WAR-HAZARD INSURANCE APR 1984 52.232-40 PROVIDING ACCELE RATED PAYMENTS TO SMALL BUSINESS SUBCONTRACTORS MAR 2023 52.240-90 SECURITY PROHIBITION AND EXCLUSIONS REPRESENTATIONS AND CERTIFICATIONS (see full text below) JAN 2026 3 52.240-91 SECURITY PROHIBI...",
@@ -3111,7 +1976,7 @@
         "require Government approval of novation agreements. For proposed novation agreements for this contract, the Contractor shall provide any 5 information requested by the Government regarding the proposed successor\u2019s identity and information regarding its supply chain. (f) Software Bill of Materials (..."
       ],
       "risks": [
-        "Compressed response window: 2 day(s) remaining",
+        "Compressed response window: 1 day(s) remaining",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
       "set_aside": "",
@@ -3144,7 +2009,7 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 2,
+      "days_to_close": 1,
       "deadline": "2026-08-24T08:00:00-04:00",
       "decision_freshness": {
         "current_gate": "hold",
@@ -3152,8 +2017,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 22,
         "status": "current"
       },
       "decision_score": 22,
@@ -3185,7 +2050,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 2 day(s)"
+              "Compressed response window: 1 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -3202,7 +2067,7 @@
           "https://sam.gov/workspace/contract/opp/5633e09273894004967a7038a7362502/view",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5633e09273894004967a7038a7362502"
         ],
-        "trace_hash": "bf6c3b0480c6feb4"
+        "trace_hash": "0c51939b79740c76"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -3306,7 +2171,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 2 day(s) remaining",
+        "Compressed response window: 1 day(s) remaining",
         "Document evidence is incomplete; review the controlling files manually"
       ],
       "set_aside": "No Set aside used",
@@ -3327,11 +2192,581 @@
       "url": "https://sam.gov/workspace/contract/opp/5633e09273894004967a7038a7362502/view"
     },
     {
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR COMBAT COMMAND.FA4803 20 CONS LGCA",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [
+        {
+          "email": "michael.treaster@us.af.mil",
+          "full_name": "Michael Treaster",
+          "phone": "8038959197",
+          "title": "",
+          "type": "primary"
+        },
+        {
+          "email": "motaz.irshid@us.af.mil",
+          "full_name": "Motaz Irshid",
+          "phone": "8038955529",
+          "title": "",
+          "type": "secondary"
+        }
+      ],
+      "days_to_close": 1,
+      "deadline": "2026-08-24T10:00:00-04:00",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 20,
+        "evidence_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+        "impact_id": "impact:59aff6e2342ac269005c",
+        "note": "The latest amendment impact requires analyst revalidation. The tracker did not change an authorized bid/no-bid decision.",
+        "previous_gate": "hold",
+        "previous_score": 17,
+        "status": "revalidation_required"
+      },
+      "decision_score": 20,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +8",
+              "actionable procurement_opportunity +8",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view"
+            ],
+            "points": 32
+          },
+          {
+            "basis": [
+              "36 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4679791210ab4cd0a12345f42c1282c4/download",
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6abb5bfaeadf4728904316efd78a2b6b/download",
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/71b144a685314840a7eb913a8803b51c/download"
+            ],
+            "points": 3
+          },
+          {
+            "basis": [
+              "Compressed response window: 1 day(s)"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view"
+            ],
+            "points": -15
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 20,
+        "source_urls": [
+          "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4679791210ab4cd0a12345f42c1282c4/download",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6abb5bfaeadf4728904316efd78a2b6b/download",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/71b144a685314840a7eb913a8803b51c/download"
+        ],
+        "trace_hash": "98aab990d9b407ce"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 36,
+      "latest_amendment_impact": {
+        "after_snapshot_id": "snapshot:77cbdb0638da9b31fb6b",
+        "baseline_status": "compared",
+        "before_snapshot_id": "snapshot:98a6fec3f61b7dfc64ac",
+        "changes": [
+          {
+            "after": {
+              "authority": "official_sam_attachment",
+              "category": "submission",
+              "claim_id": "claim:a1e8e58a0a15a951ab69",
+              "controlling_status": "analyst_verification_required",
+              "normalized_text_hash": "1bd407fd69b7a52ed90b3c94140b2b41ed5e499a9b5a0fbace601704f8235441",
+              "source": {
+                "content_sha256": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+                "document_id": "document:15d30addb467cc547219",
+                "locator": {
+                  "excerpt": 5
+                },
+                "opportunity_key": "sam_gov:FA480326Q0059",
+                "opportunity_url": "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view",
+                "retrieved_at": "2026-08-23T00:54:11.501661+00:00",
+                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+                "version_id": "version:431b554d87cb2335869f"
+              },
+              "text": "N PAGE SUMMARY OF CHANGES Solicitation/Contract Form The following modi\ufb01cations were made: Information From To Response Due Date 18 Aug 2026 24 Aug 2026 Solicitation Number FA480326Q00590001 FA480326Q00590002 List of Attachments The following Header Attachment(s) were added: Information Value Attac..."
+            },
+            "before": null,
+            "category": "submission",
+            "change_id": "change:f11e7d5ad5a0603c8ba6",
+            "change_type": "added",
+            "checklist_tags": [
+              "format",
+              "page limit",
+              "portal",
+              "submission",
+              "volume"
+            ],
+            "decision_effects": [
+              "submission plan requires revalidation"
+            ],
+            "match_confidence": null,
+            "materiality": "high",
+            "summary": "New submission evidence was observed.",
+            "supersession_basis": null
+          },
+          {
+            "after": {
+              "authority": "official_sam_attachment",
+              "category": "submission",
+              "claim_id": "claim:8244d64c495341415bcd",
+              "controlling_status": "analyst_verification_required",
+              "normalized_text_hash": "8a65e83f83afdb893dfc6f8e04abf4934153e432a42cc4224a32fcc5460a0352",
+              "source": {
+                "content_sha256": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+                "document_id": "document:15d30addb467cc547219",
+                "locator": {
+                  "excerpt": 4
+                },
+                "opportunity_key": "sam_gov:FA480326Q0059",
+                "opportunity_url": "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view",
+                "retrieved_at": "2026-08-23T00:54:11.501661+00:00",
+                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+                "version_id": "version:431b554d87cb2335869f"
+              },
+              "text": "NTINUATION PAGE SUMMARY OF CHANGES Solicitation/Contract Form The following modi\ufb01cations were made: Information From To Response Due Date 18 Aug 2026 24 Aug 2026 Solicitation Number FA480326Q00590001 FA480326Q00590002 List of Attachments The following Header Attachment(s) were added: Information Va..."
+            },
+            "before": null,
+            "category": "submission",
+            "change_id": "change:ed812530ff387dcebc6b",
+            "change_type": "added",
+            "checklist_tags": [
+              "format",
+              "page limit",
+              "portal",
+              "submission",
+              "volume"
+            ],
+            "decision_effects": [
+              "submission plan requires revalidation"
+            ],
+            "match_confidence": null,
+            "materiality": "high",
+            "summary": "New submission evidence was observed.",
+            "supersession_basis": null
+          },
+          {
+            "after": {
+              "authority": "official_sam_attachment",
+              "category": "submission",
+              "claim_id": "claim:d3862106e20cb457eae7",
+              "controlling_status": "analyst_verification_required",
+              "normalized_text_hash": "7352a1e389fb61c34a808d56141112a174f4a12348aa859140fa458c4edf8a00",
+              "source": {
+                "content_sha256": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+                "document_id": "document:15d30addb467cc547219",
+                "locator": {
+                  "excerpt": 3
+                },
+                "opportunity_key": "sam_gov:FA480326Q0059",
+                "opportunity_url": "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view",
+                "retrieved_at": "2026-08-23T00:54:11.501661+00:00",
+                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+                "version_id": "version:431b554d87cb2335869f"
+              },
+              "text": "1. Incorporate Attachment 2 - Questions and Answers and Attachment 3 - Current System Specs and Manual 2. Extend the due date to 24 Aug 2026 10:00 AM ET Except as provided herein, all terms and conditions of the document referenced in Item 9A or 10A, as heretofore changed, remains unchanged and in..."
+            },
+            "before": null,
+            "category": "submission",
+            "change_id": "change:a988d4769b03e0fc30a8",
+            "change_type": "added",
+            "checklist_tags": [
+              "format",
+              "page limit",
+              "portal",
+              "submission",
+              "volume"
+            ],
+            "decision_effects": [
+              "submission plan requires revalidation"
+            ],
+            "match_confidence": null,
+            "materiality": "high",
+            "summary": "New submission evidence was observed.",
+            "supersession_basis": null
+          },
+          {
+            "after": {
+              "authority": "official_sam_attachment",
+              "category": "submission",
+              "claim_id": "claim:2fe1b8a9ce852983ea46",
+              "controlling_status": "analyst_verification_required",
+              "normalized_text_hash": "d9a56ca62e7b8a422a5fa62ea14f64b6b12ac20a34796d4a85f87e9d2d78cb31",
+              "source": {
+                "content_sha256": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+                "document_id": "document:15d30addb467cc547219",
+                "locator": {
+                  "excerpt": 1
+                },
+                "opportunity_key": "sam_gov:FA480326Q0059",
+                "opportunity_url": "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view",
+                "retrieved_at": "2026-08-23T00:54:11.501661+00:00",
+                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+                "version_id": "version:431b554d87cb2335869f"
+              },
+              "text": "and 15, and returning copies of the amendment; (b) By acknowledging receipt of this amendment on each copy of the offer submitted; 1 or (c) By separate letter or electronic communication which includes a reference to the solicitation and amendment numbers. FAILURE OF YOUR ACKNOWLEDGMENT TO BE RECEI..."
+            },
+            "before": null,
+            "category": "submission",
+            "change_id": "change:89662a7d5334a6ec8013",
+            "change_type": "added",
+            "checklist_tags": [
+              "format",
+              "page limit",
+              "portal",
+              "submission",
+              "volume"
+            ],
+            "decision_effects": [
+              "submission plan requires revalidation"
+            ],
+            "match_confidence": null,
+            "materiality": "high",
+            "summary": "New submission evidence was observed.",
+            "supersession_basis": null
+          },
+          {
+            "after": {
+              "authority": "official_sam_attachment",
+              "category": "submission",
+              "claim_id": "claim:9bd0d4ab00ef7a7df773",
+              "controlling_status": "analyst_verification_required",
+              "normalized_text_hash": "f70a1749a95c82c729d89527472a4911312763cec1d7357a1b781ad215502cd7",
+              "source": {
+                "content_sha256": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+                "document_id": "document:15d30addb467cc547219",
+                "locator": {
+                  "excerpt": 2
+                },
+                "opportunity_key": "sam_gov:FA480326Q0059",
+                "opportunity_url": "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view",
+                "retrieved_at": "2026-08-23T00:54:11.501661+00:00",
+                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+                "version_id": "version:431b554d87cb2335869f"
+              },
+              "text": "E SPECIFIED MAY RESULT IN REJECTION OF YOUR OFFER. If by virtue of this amendment you desire to change an offer already submitted, such change may be made by letter or electronic communication, provided each letter or electronic communication makes reference to the solicitation and this amendment,..."
+            },
+            "before": null,
+            "category": "submission",
+            "change_id": "change:5e3f4a7de9bf9c61cc52",
+            "change_type": "added",
+            "checklist_tags": [
+              "format",
+              "page limit",
+              "portal",
+              "submission",
+              "volume"
+            ],
+            "decision_effects": [
+              "submission plan requires revalidation"
+            ],
+            "match_confidence": null,
+            "materiality": "high",
+            "summary": "New submission evidence was observed.",
+            "supersession_basis": null
+          },
+          {
+            "after": {
+              "authority": "official_sam_attachment",
+              "category": "requirement",
+              "claim_id": "claim:e79d0b343f16ea264545",
+              "controlling_status": "analyst_verification_required",
+              "normalized_text_hash": "70dcae8b92d40d9a4b1d33057eacb20906c16ce7f11ad2b5c206694b816337be",
+              "source": {
+                "content_sha256": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+                "document_id": "document:15d30addb467cc547219",
+                "locator": {
+                  "excerpt": 1
+                },
+                "opportunity_key": "sam_gov:FA480326Q0059",
+                "opportunity_url": "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view",
+                "retrieved_at": "2026-08-23T00:54:11.501661+00:00",
+                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+                "version_id": "version:431b554d87cb2335869f"
+              },
+              "text": "amended as set forth in Item 14. The hour and date speci\ufb01ed for receipt of Offers is extended. is not extended. Offers must acknowledge receipt of this amendment prior to the hour and date speci\ufb01ed in the solicitation or as amended, by one of the following methods: (a) By completing items 8 and 15,..."
+            },
+            "before": null,
+            "category": "requirement",
+            "change_id": "change:eb886dc619c08005ea84",
+            "change_type": "added",
+            "checklist_tags": [
+              "compliance",
+              "requirement",
+              "solution",
+              "technical"
+            ],
+            "decision_effects": [
+              "compliance matrix and solution fit require revalidation"
+            ],
+            "match_confidence": null,
+            "materiality": "high",
+            "summary": "New requirement evidence was observed.",
+            "supersession_basis": null
+          },
+          {
+            "after": {
+              "authority": "official_sam_attachment",
+              "category": "requirement",
+              "claim_id": "claim:adf36340868aad993945",
+              "controlling_status": "analyst_verification_required",
+              "normalized_text_hash": "404a7765a99c355c8c2c67c8253420c76073e369a15c917b59f976a6b8864f87",
+              "source": {
+                "content_sha256": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+                "document_id": "document:15d30addb467cc547219",
+                "locator": {
+                  "excerpt": 2
+                },
+                "opportunity_key": "sam_gov:FA480326Q0059",
+                "opportunity_url": "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view",
+                "retrieved_at": "2026-08-23T00:54:11.501661+00:00",
+                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+                "version_id": "version:431b554d87cb2335869f"
+              },
+              "text": "this amendment, and is received prior to the opening hour and date speci\ufb01ed. 12. ACCOUNTING AND APPROPRIATION DATA (if required) See Section G - Contract Administration Data 13. THIS ITEM APPLIES ONLY TO MODIFICATIONS OF CONTRACTS/ORDERS. IT MODIFIES THE CONTRACT/ORDER NUMBER AS DESCRIBED IN ITEM 1..."
+            },
+            "before": null,
+            "category": "requirement",
+            "change_id": "change:c6ac98a3d1cd8b5a13e7",
+            "change_type": "added",
+            "checklist_tags": [
+              "compliance",
+              "requirement",
+              "solution",
+              "technical"
+            ],
+            "decision_effects": [
+              "compliance matrix and solution fit require revalidation"
+            ],
+            "match_confidence": null,
+            "materiality": "high",
+            "summary": "New requirement evidence was observed.",
+            "supersession_basis": null
+          },
+          {
+            "after": {
+              "authority": "official_sam_attachment",
+              "category": "requirement",
+              "claim_id": "claim:d20abe7f2b8bc4e466ff",
+              "controlling_status": "analyst_verification_required",
+              "normalized_text_hash": "fcb37177b0f75977638a188636a32c007ebbb692c52babe0f0e4aa63e7369073",
+              "source": {
+                "content_sha256": "e57c1d51c2ffba3732f368fa7b4bcd7162877fa2c3b03f8880ab5c49e00219b6",
+                "document_id": "document:15d30addb467cc547219",
+                "locator": {
+                  "excerpt": 3
+                },
+                "opportunity_key": "sam_gov:FA480326Q0059",
+                "opportunity_url": "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view",
+                "retrieved_at": "2026-08-23T00:54:11.501661+00:00",
+                "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+                "version_id": "version:431b554d87cb2335869f"
+              },
+              "text": "INTO PURSUANT TO AUTHORITY OF: D. OTHER (Specify type of modi\ufb01cation and authority) E. IMPORTANT: Contractor is not is required to sign this document and return copies to the issuing of\ufb01ce. 14. DESCRIPTION OF AMENDMENT/MODIFICATION (Organized by UCF section headings, including solicitation/contract..."
+            },
+            "before": null,
+            "category": "requirement",
+            "change_id": "change:0678158cb29dd474f92d",
+            "change_type": "added",
+            "checklist_tags": [
+              "compliance",
+              "requirement",
+              "solution",
+              "technical"
+            ],
+            "decision_effects": [
+              "compliance matrix and solution fit require revalidation"
+            ],
+            "match_confidence": null,
+            "materiality": "high",
+            "summary": "New requirement evidence was observed.",
+            "supersession_basis": null
+          }
+        ],
+        "detected_at": "2026-08-23T00:54:11.501661+00:00",
+        "detected_this_run": true,
+        "highest_materiality": "high",
+        "history_completeness": "tracker_observed",
+        "impact_id": "impact:59aff6e2342ac269005c",
+        "impact_score": 100,
+        "material_change_count": 8,
+        "recommended_checklist_updates": [
+          {
+            "action": "Recheck submission method, format, page limits, and internal reviews.",
+            "category": "submission",
+            "change_ids": [
+              "change:f11e7d5ad5a0603c8ba6",
+              "change:ed812530ff387dcebc6b",
+              "change:a988d4769b03e0fc30a8",
+              "change:89662a7d5334a6ec8013",
+              "change:5e3f4a7de9bf9c61cc52"
+            ]
+          },
+          {
+            "action": "Revalidate the compliance matrix against changed requirements.",
+            "category": "requirement",
+            "change_ids": [
+              "change:eb886dc619c08005ea84",
+              "change:c6ac98a3d1cd8b5a13e7",
+              "change:0678158cb29dd474f92d"
+            ]
+          }
+        ],
+        "requires_decision_revalidation": true,
+        "requires_manual_comparison": false
+      },
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "INTEGER TECHNOLOGIES LLC",
+          "score": 5,
+          "uei": "EVJCVE83BCJ1"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "WOODWARD, INC.",
+          "score": 2,
+          "uei": null
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "W S DARLEY & CO",
+          "score": 2,
+          "uei": "TENRPZGMAGJ6"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "sam_gov:FA480326Q0059",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "DRONE AMPLIFIED INC",
+          "score": 5,
+          "uei": null
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "WOODWARD, INC.",
+          "score": 2,
+          "uei": null
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "W S DARLEY & CO",
+          "score": 2,
+          "uei": "TENRPZGMAGJ6"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "UNIVERSITY OF TEXAS AT ARLINGTON",
+          "score": 2,
+          "uei": "LMLUKUPJJ9N3"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 20,
+      "record_type": "procurement_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Review the new amendment impact and revalidate the bid/no-bid decision; do not treat the prior decision as current",
+        "Recheck submission method, format, page limits, and internal reviews.",
+        "Revalidate the compliance matrix against changed requirements.",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation"
+      ],
+      "requirements": [
+        "amended as set forth in Item 14. The hour and date speci\ufb01ed for receipt of Offers is extended. is not extended. Offers must acknowledge receipt of this amendment prior to the hour and date speci\ufb01ed in the solicitation or as amended, by one of the following methods: (a) By completing items 8 and 15,...",
+        "this amendment, and is received prior to the opening hour and date speci\ufb01ed. 12. ACCOUNTING AND APPROPRIATION DATA (if required) See Section G - Contract Administration Data 13. THIS ITEM APPLIES ONLY TO MODIFICATIONS OF CONTRACTS/ORDERS. IT MODIFIES THE CONTRACT/ORDER NUMBER AS DESCRIBED IN ITEM 1...",
+        "INTO PURSUANT TO AUTHORITY OF: D. OTHER (Specify type of modi\ufb01cation and authority) E. IMPORTANT: Contractor is not is required to sign this document and return copies to the issuing of\ufb01ce. 14. DESCRIPTION OF AMENDMENT/MODIFICATION (Organized by UCF section headings, including solicitation/contract..."
+      ],
+      "risks": [
+        "Compressed response window: 1 day(s) remaining",
+        "Document evidence is incomplete; review the controlling files manually",
+        "A high amendment impact makes prior qualification assumptions stale",
+        "New submission evidence was observed.",
+        "New submission evidence was observed."
+      ],
+      "set_aside": "Small Business Set Aside - Total",
+      "source_urls": [
+        "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4679791210ab4cd0a12345f42c1282c4/download",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6abb5bfaeadf4728904316efd78a2b6b/download",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/71b144a685314840a7eb913a8803b51c/download"
+      ],
+      "technology_fit": [
+        "autonomy and sensing"
+      ],
+      "title": "Wrong Way Sensor Replacement",
+      "unknowns": [
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation"
+      ],
+      "url": "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view"
+    },
+    {
       "agency": "DOD-DARPA-IPTO",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 3,
+      "days_to_close": 2,
       "deadline": "08/25/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -3340,7 +2775,7 @@
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
         "previous_gate": "hold",
-        "previous_score": 26,
+        "previous_score": 19,
         "status": "current"
       },
       "decision_score": 19,
@@ -3369,7 +2804,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 3 day(s)"
+              "Compressed response window: 2 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -3385,7 +2820,7 @@
         "source_urls": [
           "https://www.grants.gov/search-results-detail/362743"
         ],
-        "trace_hash": "743d31758955cc9f"
+        "trace_hash": "7ed84f3688e67d99"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -3489,7 +2924,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 3 day(s) remaining",
+        "Compressed response window: 2 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -3522,7 +2957,7 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 2,
+      "days_to_close": 1,
       "deadline": "2026-08-24",
       "decision_freshness": {
         "current_gate": "hold",
@@ -3562,7 +2997,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 2 day(s)"
+              "Compressed response window: 1 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -3579,7 +3014,7 @@
           "https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e851ec4b47fd44368f4f76b3e9aedd61"
         ],
-        "trace_hash": "84bf0de86018a863"
+        "trace_hash": "8364b8afd7a8b7c0"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -3687,7 +3122,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 2 day(s) remaining",
+        "Compressed response window: 1 day(s) remaining",
         "Document evidence is incomplete; review the controlling files manually",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -3721,7 +3156,7 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 2,
+      "days_to_close": 1,
       "deadline": "2026-08-24",
       "decision_freshness": {
         "current_gate": "hold",
@@ -3761,7 +3196,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 2 day(s)"
+              "Compressed response window: 1 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -3778,7 +3213,7 @@
           "https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3113f3aafa0944639a0568e561195081"
         ],
-        "trace_hash": "a2f56b60f97c6c3e"
+        "trace_hash": "89538c132483e19b"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -3886,7 +3321,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 2 day(s) remaining",
+        "Compressed response window: 1 day(s) remaining",
         "Document evidence is incomplete; review the controlling files manually",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -3920,7 +3355,7 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 2,
+      "days_to_close": 1,
       "deadline": "2026-08-24",
       "decision_freshness": {
         "current_gate": "hold",
@@ -3960,7 +3395,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 2 day(s)"
+              "Compressed response window: 1 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -3977,7 +3412,7 @@
           "https://sam.gov/workspace/contract/opp/8f42834292314b9bb08ade0259ef007a/view",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8f42834292314b9bb08ade0259ef007a"
         ],
-        "trace_hash": "44151527d9a792ec"
+        "trace_hash": "3409fccf62fcb7f1"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -4085,7 +3520,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 2 day(s) remaining",
+        "Compressed response window: 1 day(s) remaining",
         "Document evidence is incomplete; review the controlling files manually"
       ],
       "set_aside": "Small Business Set Aside - Total",
@@ -4118,7 +3553,7 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 2,
+      "days_to_close": 1,
       "deadline": "2026-08-24T16:00:00-05:00",
       "decision_freshness": {
         "current_gate": "hold",
@@ -4159,7 +3594,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 2 day(s)"
+              "Compressed response window: 1 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -4177,7 +3612,7 @@
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/f322a3d83cc74cc0904ddf8154392f06/download",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=95813bd2ad944e7a89b5590605a0ccc9"
         ],
-        "trace_hash": "a73f6b6e04f87c98"
+        "trace_hash": "75f36c0e78969ee8"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -4281,7 +3716,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 2 day(s) remaining",
+        "Compressed response window: 1 day(s) remaining",
         "Document evidence is incomplete; review the controlling files manually",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -4316,7 +3751,7 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 2,
+      "days_to_close": 1,
       "deadline": "2026-08-24",
       "decision_freshness": {
         "current_gate": "hold",
@@ -4324,8 +3759,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 17,
         "status": "current"
       },
       "decision_score": 17,
@@ -4356,7 +3791,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 2 day(s)"
+              "Compressed response window: 1 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -4373,7 +3808,7 @@
           "https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d2951a1479ad43218ffe25dba6b9185e"
         ],
-        "trace_hash": "7aa652e1789fcf48"
+        "trace_hash": "7de281244bd2b204"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -4481,7 +3916,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 2 day(s) remaining",
+        "Compressed response window: 1 day(s) remaining",
         "Document evidence is incomplete; review the controlling files manually",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -4503,27 +3938,20 @@
       "url": "https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view"
     },
     {
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR COMBAT COMMAND.FA4803 20 CONS LGCA",
+      "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [
         {
-          "email": "michael.treaster@us.af.mil",
-          "full_name": "Michael Treaster",
-          "phone": "8038959197",
+          "email": "DibbsBSM@dla.mil",
+          "full_name": "Questions regarding this solicitation should be emailed to the buyer listed in block 5 of the solicitation document which can be found under the Additional Information link. If the Additional Information link does not work, please go to https://www.dibbs.bsm.dla.mil/Solicitations/ and type the solicitation number in the Global Search box.",
+          "phone": "",
           "title": "",
           "type": "primary"
-        },
-        {
-          "email": "motaz.irshid@us.af.mil",
-          "full_name": "Motaz Irshid",
-          "phone": "8038955529",
-          "title": "",
-          "type": "secondary"
         }
       ],
       "days_to_close": 2,
-      "deadline": "2026-08-24T10:00:00-04:00",
+      "deadline": "2026-08-25",
       "decision_freshness": {
         "current_gate": "hold",
         "current_score": 17,
@@ -4546,7 +3974,7 @@
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view"
+              "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view"
             ],
             "points": 32
           },
@@ -4556,10 +3984,7 @@
             ],
             "code": "document_evidence",
             "evidence_urls": [
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4679791210ab4cd0a12345f42c1282c4/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6abb5bfaeadf4728904316efd78a2b6b/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/71b144a685314840a7eb913a8803b51c/download"
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9e75681b5bb5424389ad629ec4764b79"
             ],
             "points": 0
           },
@@ -4569,7 +3994,7 @@
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view"
+              "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view"
             ],
             "points": -15
           }
@@ -4579,19 +4004,25 @@
         "model_version": "2",
         "public_evidence_score": 17,
         "source_urls": [
-          "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4679791210ab4cd0a12345f42c1282c4/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6abb5bfaeadf4728904316efd78a2b6b/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/71b144a685314840a7eb913a8803b51c/download"
+          "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9e75681b5bb5424389ad629ec4764b79"
         ],
-        "trace_hash": "f346a84332eb2f1e"
+        "trace_hash": "a664ec18bebca043"
       },
       "eligibility": [],
       "evaluation_criteria": [],
       "evidence_completeness": 0,
       "latest_amendment_impact": null,
       "likely_market_participants": [
+        {
+          "basis": [
+            "shared agency history",
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "MARINE ELECTRIC SYSTEMS INC",
+          "score": 6,
+          "uei": null
+        },
         {
           "basis": [
             "shared specialties: autonomy and sensing"
@@ -4610,32 +4041,33 @@
         },
         {
           "basis": [
-            "shared specialties: autonomy and sensing"
+            "shared agency history"
           ],
-          "name": "WOODWARD, INC.",
-          "score": 2,
+          "name": "PACIFIC SKY SUPPLY, INC.",
+          "score": 4,
           "uei": null
         },
         {
           "basis": [
-            "shared specialties: autonomy and sensing"
+            "shared agency history"
           ],
-          "name": "W S DARLEY & CO",
-          "score": 2,
-          "uei": "TENRPZGMAGJ6"
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
+          "name": "D-J ENGINEERING INC",
+          "score": 4,
+          "uei": null
         }
       ],
       "mission_fit": [],
-      "opportunity_key": "sam_gov:FA480326Q0059",
+      "opportunity_key": "sam_gov:SPE4A126T2624",
       "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared agency history",
+            "shared specialties: autonomy and sensing"
+          ],
+          "name": "MARINE ELECTRIC SYSTEMS INC",
+          "score": 6,
+          "uei": null
+        },
         {
           "basis": [
             "shared specialties: autonomy and sensing"
@@ -4646,35 +4078,27 @@
         },
         {
           "basis": [
-            "shared specialties: autonomy and sensing"
+            "shared agency history"
           ],
-          "name": "WOODWARD, INC.",
-          "score": 2,
+          "name": "PACIFIC SKY SUPPLY, INC.",
+          "score": 4,
+          "uei": null
+        },
+        {
+          "basis": [
+            "shared agency history"
+          ],
+          "name": "D-J ENGINEERING INC",
+          "score": 4,
           "uei": null
         },
         {
           "basis": [
             "shared specialties: autonomy and sensing"
           ],
-          "name": "W S DARLEY & CO",
+          "name": "WOODWARD, INC.",
           "score": 2,
-          "uei": "TENRPZGMAGJ6"
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: autonomy and sensing"
-          ],
-          "name": "UNIVERSITY OF TEXAS AT ARLINGTON",
-          "score": 2,
-          "uei": "LMLUKUPJJ9N3"
+          "uei": null
         }
       ],
       "provisional_gate": "hold",
@@ -4694,34 +4118,241 @@
       ],
       "set_aside": "Small Business Set Aside - Total",
       "source_urls": [
-        "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4679791210ab4cd0a12345f42c1282c4/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6abb5bfaeadf4728904316efd78a2b6b/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/71b144a685314840a7eb913a8803b51c/download"
+        "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view",
+        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9e75681b5bb5424389ad629ec4764b79"
       ],
       "technology_fit": [
         "autonomy and sensing"
       ],
-      "title": "Wrong Way Sensor Replacement",
+      "title": "66--SENSOR,LIQUID FLOW",
       "unknowns": [
         "Confirm controlling requirements in the controlling solicitation",
         "Confirm evaluation criteria in the controlling solicitation",
         "Confirm eligibility and set-aside terms in the controlling solicitation",
         "Confirm submission instructions in the controlling solicitation"
       ],
-      "url": "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view"
+      "url": "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view"
+    },
+    {
+      "agency": "DEPT OF DEFENSE.DEPT OF DEFENSE EDUCATION ACTIVITY (DODEA).DOD EDUCATION ACTIVITY",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [
+        {
+          "email": "tiffany.a.brown@dodea.edu",
+          "full_name": "Tiffany Brown",
+          "phone": "",
+          "title": "",
+          "type": "primary"
+        },
+        {
+          "email": "ShaHannah.Brown@Dodea.edu",
+          "full_name": "ShaHannah Brown",
+          "phone": "",
+          "title": "",
+          "type": "secondary"
+        }
+      ],
+      "days_to_close": 2,
+      "deadline": "2026-08-25T11:00:00-04:00",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 17,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": null,
+        "previous_score": null,
+        "status": "current"
+      },
+      "decision_score": 17,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +8",
+              "actionable procurement_opportunity +8",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view"
+            ],
+            "points": 32
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download",
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download",
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download",
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/580cc4c02ed04729858dd795956faa91/download"
+            ],
+            "points": 0
+          },
+          {
+            "basis": [
+              "Compressed response window: 2 day(s)"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view"
+            ],
+            "points": -15
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 17,
+        "source_urls": [
+          "https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/580cc4c02ed04729858dd795956faa91/download"
+        ],
+        "trace_hash": "ec2e89259baed19a"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "sam_gov:HE125426RE037",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 2,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+          "score": 2,
+          "uei": "MKAGLD59JRL1"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 17,
+      "record_type": "procurement_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Compressed response window: 2 day(s) remaining",
+        "Document evidence is incomplete; review the controlling files manually"
+      ],
+      "set_aside": "Small Business Set Aside - Total",
+      "source_urls": [
+        "https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/580cc4c02ed04729858dd795956faa91/download"
+      ],
+      "technology_fit": [
+        "artificial intelligence"
+      ],
+      "title": "Data, Analytics, and AI Modernization Services",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view"
     }
   ],
   "scope_note": "Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.",
   "summary": {
     "brief_count": 20,
     "decisions_revalidation_required": 2,
-    "hold": 16,
+    "hold": 17,
     "priority_qualification": 0,
     "qualify": 1,
-    "targeted_review": 3
+    "targeted_review": 2
   },
-  "updated_at": "2026-08-22T00:50:40.718732+00:00",
+  "updated_at": "2026-08-23T00:54:11.501661+00:00",
   "version": 1
 }

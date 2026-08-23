@@ -2,85 +2,61 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-22T00:50:40.718732+00:00_
+_Updated 2026-08-23T00:54:11.501661+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
 - Opportunities reviewed: **20**
-- Documents extracted: **10** / **52** discovered
+- Documents extracted: **10** / **50** discovered
 - Changed documents: **0**
-- New amendments: **0**
+- New amendments: **1**
 - Material amendment impacts this run: **1**
 - Decisions requiring revalidation: **2**
 
-## [Custom HPC cluster with AMD EPYC "Turin" CPUs](https://sam.gov/workspace/contract/opp/5633e09273894004967a7038a7362502/view)
+## [KIRA B100 Autonomous Floor Scrubbers Or Equal](https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view)
 
-Evidence completeness: **0 / 100** · Deadline: **2026-08-24T08:00:00-04:00**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5633e09273894004967a7038a7362502) — no_text
-
-## [Small Business Cybersecurity Network](https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view)
-
-Evidence completeness: **84 / 100** · Deadline: **2026-08-27T17:00:00-07:00**
+Evidence completeness: **72 / 100** · Deadline: **2026-08-27T15:00:00-07:00**
 
 Requirements evidence:
-- 2 .0 Background The DAF relies heavily on SB innovation to advance critical technologies. Currently, SB contractors are required to implement NIST SP 800-171 to fulfill DFARS 252.204-7012. Current Limitations: Implementing NIST SP 800-171 requires dedicated cybersecurity professionals costing $150K...
-- l innovations to vulnerabilities and supply chain risks. Mission Need: A transition to DAF-furnished secure enclaves is required immediately to counter advanced persistent threats, particularly stealthy cyber espionage from state-sponsored actors targeting small defense innovators. The need is incr...
-- sts and/or additional use case assessment Primary Location(s): TBD Travel Requirements: TBD 5.0 Performance Objectives (Required Results) The contractor shall propose a comprehensive solution (in the form of a Performance Work Statement) that meets the requirements for a DAF enclave and the require...
-- sessment Primary Location(s): TBD Travel Requirements: TBD 5.0 Performance Objectives (Required Results) The contractor shall propose a comprehensive solution (in the form of a Performance Work Statement) that meets the requirements for a DAF enclave and the requirements for incorporation into the...
-- ion into the DAF software registry. 1. Requirements for a DAF Enclave (ATO & ATC) To operate on a DAF network, a system must prove that it can adequately protect confidentiality, integrity, and availability in accordance with AFI 17-101 (Risk Management Framework for Air Force IT). Risk Management...
+- ORDER INCORPORATES BY REFERENCE FAR 52.212-4. FAR 52.212-5 IS ATTACHED. ADDENDA ARE ARE NOT ATTACHED 28. CONTRACTOR IS REQUIRED TO SIGN THIS DOCUMENT AND RETURN _______________ 29. AWARD OF CONTRACT: REF. ___________________________________ OFFER COPIES TO ISSUING OFFICE. CONTRACTOR AGREES TO FURNI...
+- CONTINUATION Page VA Southern Nevada Healthcare System KIRA B100 Autonomous Floor Scrubber Submission of your response shall be received no later than August 27, 2026 at 1500 PDT at victoria.torres@va.gov. Any question or concerns regarding this solicitation should be forwarded in writing via email...
+- by Electronic Funds Transfer—System For Award Management, or [] 52.232-36, Payment by Third Party 3. INVOICES: Invoices shall be submitted in arrears: a. Quarterly [] b. Semi-Annually [] c. Other [X] Upon Delivery and Government Acceptance 4. GOVERNMENT INVOICE ADDRESS: All Invoices from the contra...
+- [] c. Other [X] Upon Delivery and Government Acceptance 4. GOVERNMENT INVOICE ADDRESS: All Invoices from the contractor shall be submitted electronically in accordance with VAAR Clause 852.232-72 Electronic Submission of Payment Requests. ACKNOWLEDGMENT OF AMENDMENTS: The offeror acknowledges recei...
+- areas while allowing staff to focus on other environmental services and patient care support tasks. The floor scrubber must be capable of both manual and autonomous robotic operation to support self-driving cleaning routes, obstacle avoidance, notifications, and reporting functions. 2. Scope The Co...
 
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9bd8d56ea7be4877b96d81753fd01de8/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c002c2804e02477783620f2773ecedf1/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/eaddcef7896445a19b3290aa19261856/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c31a6fcf8ba04194acd817d4412b98ce/download) — extracted
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2a8d13181052413a8d82a7bd82714f79) — no_text
+
+## [Wrong Way Sensor Replacement](https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view)
+
+Evidence completeness: **36 / 100** · Deadline: **2026-08-24T10:00:00-04:00**
+
+Requirements evidence:
+- amended as set forth in Item 14. The hour and date speciﬁed for receipt of Offers is extended. is not extended. Offers must acknowledge receipt of this amendment prior to the hour and date speciﬁed in the solicitation or as amended, by one of the following methods: (a) By completing items 8 and 15,...
+- this amendment, and is received prior to the opening hour and date speciﬁed. 12. ACCOUNTING AND APPROPRIATION DATA (if required) See Section G - Contract Administration Data 13. THIS ITEM APPLIES ONLY TO MODIFICATIONS OF CONTRACTS/ORDERS. IT MODIFIES THE CONTRACT/ORDER NUMBER AS DESCRIBED IN ITEM 1...
+- INTO PURSUANT TO AUTHORITY OF: D. OTHER (Specify type of modiﬁcation and authority) E. IMPORTANT: Contractor is not is required to sign this document and return copies to the issuing ofﬁce. 14. DESCRIPTION OF AMENDMENT/MODIFICATION (Organized by UCF section headings, including solicitation/contract...
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) — extracted · **new amendment**
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4679791210ab4cd0a12345f42c1282c4/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6abb5bfaeadf4728904316efd78a2b6b/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/71b144a685314840a7eb913a8803b51c/download) — not_fetched
 
 ### Changes since the previous tracker snapshot
 
-**CRITICAL · 20 change(s) · decision revalidation required**
+**HIGH · 8 change(s) · decision revalidation required**
 
 _Version history is tracker-observed and may not include revisions published before monitoring began._
 
 | Impact | Change | Before | After | Evidence |
 |---|---|---|---|---|
-| CRITICAL | New eligibility evidence was observed. | — | ng, and CUI storage while using their commercial devices for their non-DoD business. 3. Scientific R&D Charlie LLC is a... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download) |
-| CRITICAL | New eligibility evidence was observed. | — | Project Description : Pilot and Field Test of Affordable Secure Enclave Solutions for D AF-Furnished CUI Protection in... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download) |
-| CRITICAL | New eligibility evidence was observed. | — | mpasses the design, development, prototyping, and field testing of affordable s ecure e nclave s olutions applicable to... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download) |
-| CRITICAL | New eligibility evidence was observed. | — | lable, cost-effective solution that enhances the level of cybersecurity protection and reduces the associated burden on... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download) |
-| CRITICAL | New eligibility evidence was observed. | — | ctor support to develop and demonstrate a secure platform that enables the Department of the Air Force (DAF) to furnish... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download) |
-| HIGH | New submission evidence was observed. | — | se the system) who submits the Application Request Worksheet (ARW). Required Artifacts for Assessment: The sponsor must... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download) |
-| HIGH | New submission evidence was observed. | — | Environment (RAVE). Sponsorship: Software must have a government sponsor (an AF community that will use the system) who... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download) |
-| HIGH | New requirement evidence was observed. | — | ________________________________________________________________ Last 4 SSN: ________________ Please note: A Real ID is... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9bd8d56ea7be4877b96d81753fd01de8/download) |
-| HIGH | New requirement evidence was observed. | — | 2 .0 Background The DAF relies heavily on SB innovation to advance critical technologies. Currently, SB contractors are... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download) |
-| HIGH | New requirement evidence was observed. | — | Confidentiality, Integrity, and Availability impact levels). Authority to Operate (ATO): An Authorizing Official (AO) m... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download) |
-| HIGH | New requirement evidence was observed. | — | continuous monitoring. Approval to Connect (ATC): Having an ATO does not automatically grant network access. The system... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download) |
-| HIGH | New requirement evidence was observed. | — | l innovations to vulnerabilities and supply chain risks. Mission Need: A transition to DAF-furnished secure enclaves is... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download) |
-
-## [Autonomous Livestock Feed Monitoring Bins](https://sam.gov/workspace/contract/opp/b6ef60d7b5c846199b3628917dc4bb58/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-31T09:00:00-07:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/05247ef8391d45d280bed97f1304d09b/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/653fa0fde444441eb79aa8718a9f8afc/download) — not_fetched
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b6ef60d7b5c846199b3628917dc4bb58) — not_fetched
-
-## [Remote Evapotranspiration Sensor Package](https://sam.gov/workspace/contract/opp/38d5925003d84fd2b3de42dce90c6b10/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-09-04T12:00:00-04:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/453add4963e048d5a33354c98df1dcc5/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e74f7e8816334c4ca455d0bf7a832e91/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/effc658355564edd98d17ec8ee95ae6b/download) — not_fetched
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=38d5925003d84fd2b3de42dce90c6b10) — not_fetched
-
-## [Wrong Way Sensor Replacement](https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-24T10:00:00-04:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4679791210ab4cd0a12345f42c1282c4/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6abb5bfaeadf4728904316efd78a2b6b/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/71b144a685314840a7eb913a8803b51c/download) — not_fetched
+| HIGH | New submission evidence was observed. | — | N PAGE SUMMARY OF CHANGES Solicitation/Contract Form The following modiﬁcations were made: Information From To Response... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
+| HIGH | New submission evidence was observed. | — | NTINUATION PAGE SUMMARY OF CHANGES Solicitation/Contract Form The following modiﬁcations were made: Information From To... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
+| HIGH | New submission evidence was observed. | — | 1. Incorporate Attachment 2 - Questions and Answers and Attachment 3 - Current System Specs and Manual 2. Extend the du... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
+| HIGH | New submission evidence was observed. | — | and 15, and returning copies of the amendment; (b) By acknowledging receipt of this amendment on each copy of the offer... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
+| HIGH | New submission evidence was observed. | — | E SPECIFIED MAY RESULT IN REJECTION OF YOUR OFFER. If by virtue of this amendment you desire to change an offer already... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
+| HIGH | New requirement evidence was observed. | — | amended as set forth in Item 14. The hour and date speciﬁed for receipt of Offers is extended. is not extended. Offers... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
+| HIGH | New requirement evidence was observed. | — | this amendment, and is received prior to the opening hour and date speciﬁed. 12. ACCOUNTING AND APPROPRIATION DATA (if... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
+| HIGH | New requirement evidence was observed. | — | INTO PURSUANT TO AUTHORITY OF: D. OTHER (Specify type of modiﬁcation and authority) E. IMPORTANT: Contractor is not is... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download) |
 
 ## [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view)
 
@@ -91,21 +67,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-25T11:00:00-04:00**
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) — not_fetched
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/580cc4c02ed04729858dd795956faa91/download) — not_fetched
 
-## [Laser for widefield quantum diamond microscope](https://sam.gov/workspace/contract/opp/b0c03fae4cd744a4a1eb7b1f16f50bb3/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-25T12:00:00-04:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/993a1b27cd744a45bf1c31343d61c010/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9dfd31f4f8d8448e9350d0f190ac8033/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b71ddb0fe2d54e88b8be8200fc04e54a/download) — not_fetched
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b0c03fae4cd744a4a1eb7b1f16f50bb3) — not_fetched
-
-## [Maintenance agreement for a Quantum Design Cryocool system](https://sam.gov/workspace/contract/opp/ffbf39d50ec4475b9c08b091df75f34a/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-25T13:00:00-04:00**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ffbf39d50ec4475b9c08b091df75f34a) — not_fetched
-
 ## [USAFA: Quantum Demonstration/Experiment System (Amendment 2)](https://sam.gov/workspace/contract/opp/88038d7669964d6da76168589483ef36/view)
 
 Evidence completeness: **0 / 100** · Deadline: **2026-08-26T14:00:00-06:00**
@@ -114,6 +75,12 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-26T14:00:00-06:00**
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9da0cb93a8ab4d3fb218df323daf13ca/download) — not_fetched
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9e72f42c1f43474ead40df4c2c9388bf/download) — not_fetched
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ceea2b60c42942e2bc5d26a9a2a93696/download) — not_fetched
+
+## [63--SALINITY SENSOR,CON](https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-26**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0f76f691fbc441681bc673240f79d62) — not_fetched
 
 ## [High-Performance Quantum Scalar Magnetometers](https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view)
 
@@ -163,11 +130,22 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/606ef670b4e64d25bd55a5a85f764f7d/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7a1750870dcf4a39959f15931abfaf94/download) — not_fetched
 
-## [CH-53K Electrical Optical (EO) / Infrared (IR) Sensor System Competition](https://sam.gov/workspace/contract/opp/ba634d6c594945d3b353c270bf7b1a4f/view)
+## [Autonomous Livestock Feed Monitoring Bins](https://sam.gov/workspace/contract/opp/b6ef60d7b5c846199b3628917dc4bb58/view)
 
-Evidence completeness: **0 / 100** · Deadline: **2026-09-15T17:00:00-04:00**
+Evidence completeness: **0 / 100** · Deadline: **2026-08-31T09:00:00-07:00**
 
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ba634d6c594945d3b353c270bf7b1a4f) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/05247ef8391d45d280bed97f1304d09b/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/653fa0fde444441eb79aa8718a9f8afc/download) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b6ef60d7b5c846199b3628917dc4bb58) — not_fetched
+
+## [Remote Evapotranspiration Sensor Package](https://sam.gov/workspace/contract/opp/38d5925003d84fd2b3de42dce90c6b10/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-09-04T12:00:00-04:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/453add4963e048d5a33354c98df1dcc5/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e74f7e8816334c4ca455d0bf7a832e91/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/effc658355564edd98d17ec8ee95ae6b/download) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=38d5925003d84fd2b3de42dce90c6b10) — not_fetched
 
 ## [16--WHEEL HALF ASSEMBLY,AI](https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view)
 
@@ -206,6 +184,21 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-25**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9e75681b5bb5424389ad629ec4764b79) — not_fetched
 
+## [Laser for widefield quantum diamond microscope](https://sam.gov/workspace/contract/opp/b0c03fae4cd744a4a1eb7b1f16f50bb3/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-25T12:00:00-04:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/993a1b27cd744a45bf1c31343d61c010/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9dfd31f4f8d8448e9350d0f190ac8033/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b71ddb0fe2d54e88b8be8200fc04e54a/download) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b0c03fae4cd744a4a1eb7b1f16f50bb3) — not_fetched
+
+## [Maintenance agreement for a Quantum Design Cryocool system](https://sam.gov/workspace/contract/opp/ffbf39d50ec4475b9c08b091df75f34a/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-25T13:00:00-04:00**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ffbf39d50ec4475b9c08b091df75f34a) — not_fetched
+
 ## [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
 
 Evidence completeness: **72 / 100** · Deadline: **2026-09-09T09:00:00-04:00**
@@ -220,6 +213,12 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1f682ffec5104ddc882a88b9e1b11121/download) — no_text
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download) — extracted
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=abf380cc0c634612a69ce193a212fbd4) — no_text
+
+## [Custom HPC cluster with AMD EPYC "Turin" CPUs](https://sam.gov/workspace/contract/opp/5633e09273894004967a7038a7362502/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-24T08:00:00-04:00**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5633e09273894004967a7038a7362502) — no_text
 
 ## Method
 

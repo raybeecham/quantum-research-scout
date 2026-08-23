@@ -116,7 +116,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.86,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
       "outcome": null,
       "probability": 0.86,
       "probability_factors": [
@@ -156,7 +156,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-20?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-21?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:genesis-mission:2026-Q3",
       "resolution_rule": {
@@ -274,7 +274,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.74,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
       "outcome": null,
       "probability": 0.74,
       "probability_factors": [
@@ -306,7 +306,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-20?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-21?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:golden-dome:2026-Q3",
       "resolution_rule": {
@@ -317,6 +317,138 @@
       "status": "active",
       "subject": "Golden Dome for America",
       "subject_id": "golden-dome",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Additional linked federal opportunity",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [
+        "mission_tracker:https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
+      ],
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-08-23T00:54:11.501661+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "Defense Advanced Research Projects Agency",
+          "National Science Foundation"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "ai-forge-forum",
+          "source_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+          "target_date": "2026-09-22",
+          "timing": "estimated",
+          "title": "Launch the AI Forge university-industry-government forum"
+        },
+        "official_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 1,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Stateful pretrained transformers in a generative response engine",
+            "url": "https://patents.google.com/patent/US12400074B1/en"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "SYSTEM AND METHOD FOR DETECTING MALICIOUS MESSAGES GENERATED BY A LARGE LANGUAGE MODEL (LLM)",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19573062/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "AI Forge",
+          "url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
+        }
+      ],
+      "forecast_id": "forecast-7688ed42dd53c8a5",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-11-21",
+      "impact": "critical",
+      "initial_probability": 0.46,
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
+      "outcome": null,
+      "probability": 0.46,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "near-term mission milestone",
+          "points": 0.08
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-08-23T00:54:11.501661+00:00",
+          "probability": 0.46,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-11-21?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:ai-forge:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "status": "active",
+      "subject": "AI Forge",
+      "subject_id": "ai-forge",
       "triggers": [
         {
           "direction": "confirming",
@@ -411,7 +543,7 @@
       "horizon_end": "2026-09-27",
       "impact": "critical",
       "initial_probability": 0.72,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
       "outcome": null,
       "probability": 0.72,
       "probability_factors": [
@@ -548,7 +680,7 @@
       "horizon_end": "2026-09-29",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -696,7 +828,7 @@
       "horizon_end": "2027-01-07",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -852,9 +984,9 @@
       "horizon_end": "2026-08-30",
       "impact": "critical",
       "initial_probability": 0.65,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
       "outcome": null,
-      "probability": 0.59,
+      "probability": 0.58,
       "probability_factors": [
         {
           "factor": "official dated milestone",
@@ -870,7 +1002,7 @@
         },
         {
           "factor": "confirmation delay",
-          "points": -0.1
+          "points": -0.11
         }
       ],
       "probability_history": [
@@ -880,7 +1012,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cReview federal robotic and AI-directed laboratory capabilities\u201d by 2026-09-21?",
+      "question": "Will authoritative evidence confirm \u201cReview federal robotic and AI-directed laboratory capabilities\u201d by 2026-09-22?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:genesis-mission:genesis-robotic-lab-review",
       "resolution_rule": {
@@ -997,7 +1129,7 @@
       "horizon_end": "2026-08-30",
       "impact": "critical",
       "initial_probability": 0.62,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
       "outcome": null,
       "probability": 0.54,
       "probability_factors": [
@@ -1025,7 +1157,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cConduct initial Pace-Setting Project demonstrations with transition-partner users\u201d by 2026-09-21?",
+      "question": "Will authoritative evidence confirm \u201cConduct initial Pace-Setting Project demonstrations with transition-partner users\u201d by 2026-09-22?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:military-ai-pace-setting-projects:military-ai-initial-user-demonstrations",
       "resolution_rule": {
@@ -1048,143 +1180,6 @@
       "status": "active",
       "subject": "Military AI Pace-Setting Projects",
       "subject_id": "military-ai-pace-setting-projects",
-      "triggers": [
-        {
-          "direction": "confirming",
-          "indicator": "Official completion evidence",
-          "status": "not_observed"
-        },
-        {
-          "direction": "disconfirming",
-          "indicator": "Delay, cancellation, or rescope",
-          "status": "not_observed"
-        }
-      ]
-    },
-    {
-      "baseline_record_keys": [],
-      "baseline_update_urls": [],
-      "confirming_indicators": [
-        "An official update states that the milestone was completed or delivered.",
-        "A resulting award, demonstration, report, or implementation artifact is published."
-      ],
-      "created_at": "2026-08-08T01:05:02.993371+00:00",
-      "disconfirming_indicators": [
-        "An official source delays, cancels, or materially rescopes the milestone.",
-        "The confirmation horizon passes without authoritative completion evidence."
-      ],
-      "dossier": {
-        "announced_funding_value": 0.0,
-        "award_count": 0,
-        "known_award_value": 0.0,
-        "lead_agencies": [
-          "Office of Management and Budget",
-          "Office of the National Cyber Director"
-        ],
-        "mission_status": "active",
-        "next_milestone": {
-          "id": "federal-pqc-agency-leads",
-          "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
-          "target_date": "2026-07-22",
-          "timing": "awaiting_confirmation",
-          "title": "Agencies identify and report their PQC migration leads"
-        },
-        "official_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
-        "open_opportunities": 0,
-        "priority": "critical",
-        "recipients_and_contractors": [],
-        "record_count": 0,
-        "related_patent_count": 8,
-        "related_patents": [
-          {
-            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-            "relationship_confidence": "low",
-            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-            "relationship_confidence": "low",
-            "title": "Mechanism for Post-Quantum Cryptographic Key Material Resilience",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-            "relationship_confidence": "low",
-            "title": "METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-            "relationship_confidence": "low",
-            "title": "METHOD AND SYSTEM FOR SECURING POST-QUANTUM BLOCKCHAINS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19404287/application-data"
-          }
-        ]
-      },
-      "evidence": [
-        {
-          "authority": "authoritative",
-          "date": "2026-07-22",
-          "role": "official milestone",
-          "title": "Agencies identify and report their PQC migration leads",
-          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/"
-        }
-      ],
-      "forecast_id": "forecast-3a815a206580629a",
-      "forecast_type": "mission_milestone_confirmation",
-      "horizon_end": "2026-09-07",
-      "impact": "critical",
-      "initial_probability": 0.57,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
-      "outcome": null,
-      "probability": 0.53,
-      "probability_factors": [
-        {
-          "factor": "official dated milestone",
-          "points": 0.55
-        },
-        {
-          "factor": "exact target date",
-          "points": 0.08
-        },
-        {
-          "factor": "confirmation delay",
-          "points": -0.1
-        }
-      ],
-      "probability_history": [
-        {
-          "at": "2026-08-08T01:05:02.993371+00:00",
-          "probability": 0.57,
-          "reason": "Forecast opened"
-        }
-      ],
-      "question": "Will authoritative evidence confirm \u201cAgencies identify and report their PQC migration leads\u201d by 2026-09-21?",
-      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
-      "registry_key": "mission_milestone:federal-pqc-transition:federal-pqc-agency-leads",
-      "resolution_rule": {
-        "kind": "mission_milestone_confirmation",
-        "milestone_id": "federal-pqc-agency-leads",
-        "negative": "No authoritative completion evidence appears by the horizon.",
-        "positive": "Official mission evidence confirms completion before the horizon.",
-        "target_terms": [
-          "agencies",
-          "identify",
-          "leads",
-          "migration",
-          "report"
-        ]
-      },
-      "status": "active",
-      "subject": "Federal Post-Quantum Cryptography Transition",
-      "subject_id": "federal-pqc-transition",
       "triggers": [
         {
           "direction": "confirming",
@@ -1330,7 +1325,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.86,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
       "outcome": null,
       "probability": 0.86,
       "probability_factors": [
@@ -1370,7 +1365,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-20?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-21?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:genesis-mission:2026-Q3",
       "resolution_rule": {
@@ -1488,7 +1483,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.74,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
       "outcome": null,
       "probability": 0.74,
       "probability_factors": [
@@ -1520,7 +1515,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-20?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-21?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:golden-dome:2026-Q3",
       "resolution_rule": {
@@ -1531,6 +1526,138 @@
       "status": "active",
       "subject": "Golden Dome for America",
       "subject_id": "golden-dome",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Additional linked federal opportunity",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [
+        "mission_tracker:https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
+      ],
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-08-23T00:54:11.501661+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "Defense Advanced Research Projects Agency",
+          "National Science Foundation"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "ai-forge-forum",
+          "source_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+          "target_date": "2026-09-22",
+          "timing": "estimated",
+          "title": "Launch the AI Forge university-industry-government forum"
+        },
+        "official_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 1,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Stateful pretrained transformers in a generative response engine",
+            "url": "https://patents.google.com/patent/US12400074B1/en"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "SYSTEM AND METHOD FOR DETECTING MALICIOUS MESSAGES GENERATED BY A LARGE LANGUAGE MODEL (LLM)",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19573062/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "AI Forge",
+          "url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
+        }
+      ],
+      "forecast_id": "forecast-7688ed42dd53c8a5",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-11-21",
+      "impact": "critical",
+      "initial_probability": 0.46,
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
+      "outcome": null,
+      "probability": 0.46,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "near-term mission milestone",
+          "points": 0.08
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-08-23T00:54:11.501661+00:00",
+          "probability": 0.46,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-11-21?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:ai-forge:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "status": "active",
+      "subject": "AI Forge",
+      "subject_id": "ai-forge",
       "triggers": [
         {
           "direction": "confirming",
@@ -1625,7 +1752,7 @@
       "horizon_end": "2026-09-27",
       "impact": "critical",
       "initial_probability": 0.72,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
       "outcome": null,
       "probability": 0.72,
       "probability_factors": [
@@ -1762,7 +1889,7 @@
       "horizon_end": "2026-09-29",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -1910,7 +2037,7 @@
       "horizon_end": "2027-01-07",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -2066,9 +2193,9 @@
       "horizon_end": "2026-08-30",
       "impact": "critical",
       "initial_probability": 0.65,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
       "outcome": null,
-      "probability": 0.59,
+      "probability": 0.58,
       "probability_factors": [
         {
           "factor": "official dated milestone",
@@ -2084,7 +2211,7 @@
         },
         {
           "factor": "confirmation delay",
-          "points": -0.1
+          "points": -0.11
         }
       ],
       "probability_history": [
@@ -2094,7 +2221,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cReview federal robotic and AI-directed laboratory capabilities\u201d by 2026-09-21?",
+      "question": "Will authoritative evidence confirm \u201cReview federal robotic and AI-directed laboratory capabilities\u201d by 2026-09-22?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:genesis-mission:genesis-robotic-lab-review",
       "resolution_rule": {
@@ -2211,7 +2338,7 @@
       "horizon_end": "2026-08-30",
       "impact": "critical",
       "initial_probability": 0.62,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_evaluated_at": "2026-08-23T00:54:11.501661+00:00",
       "outcome": null,
       "probability": 0.54,
       "probability_factors": [
@@ -2239,7 +2366,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cConduct initial Pace-Setting Project demonstrations with transition-partner users\u201d by 2026-09-21?",
+      "question": "Will authoritative evidence confirm \u201cConduct initial Pace-Setting Project demonstrations with transition-partner users\u201d by 2026-09-22?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:military-ai-pace-setting-projects:military-ai-initial-user-demonstrations",
       "resolution_rule": {
@@ -2262,143 +2389,6 @@
       "status": "active",
       "subject": "Military AI Pace-Setting Projects",
       "subject_id": "military-ai-pace-setting-projects",
-      "triggers": [
-        {
-          "direction": "confirming",
-          "indicator": "Official completion evidence",
-          "status": "not_observed"
-        },
-        {
-          "direction": "disconfirming",
-          "indicator": "Delay, cancellation, or rescope",
-          "status": "not_observed"
-        }
-      ]
-    },
-    {
-      "baseline_record_keys": [],
-      "baseline_update_urls": [],
-      "confirming_indicators": [
-        "An official update states that the milestone was completed or delivered.",
-        "A resulting award, demonstration, report, or implementation artifact is published."
-      ],
-      "created_at": "2026-08-08T01:05:02.993371+00:00",
-      "disconfirming_indicators": [
-        "An official source delays, cancels, or materially rescopes the milestone.",
-        "The confirmation horizon passes without authoritative completion evidence."
-      ],
-      "dossier": {
-        "announced_funding_value": 0.0,
-        "award_count": 0,
-        "known_award_value": 0.0,
-        "lead_agencies": [
-          "Office of Management and Budget",
-          "Office of the National Cyber Director"
-        ],
-        "mission_status": "active",
-        "next_milestone": {
-          "id": "federal-pqc-agency-leads",
-          "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
-          "target_date": "2026-07-22",
-          "timing": "awaiting_confirmation",
-          "title": "Agencies identify and report their PQC migration leads"
-        },
-        "official_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
-        "open_opportunities": 0,
-        "priority": "critical",
-        "recipients_and_contractors": [],
-        "record_count": 0,
-        "related_patent_count": 8,
-        "related_patents": [
-          {
-            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-            "relationship_confidence": "low",
-            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-            "relationship_confidence": "low",
-            "title": "Mechanism for Post-Quantum Cryptographic Key Material Resilience",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19458702/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-            "relationship_confidence": "low",
-            "title": "METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, post-quantum cryptography, cybersecurity",
-            "relationship_confidence": "low",
-            "title": "METHOD AND SYSTEM FOR SECURING POST-QUANTUM BLOCKCHAINS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19404287/application-data"
-          }
-        ]
-      },
-      "evidence": [
-        {
-          "authority": "authoritative",
-          "date": "2026-07-22",
-          "role": "official milestone",
-          "title": "Agencies identify and report their PQC migration leads",
-          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/"
-        }
-      ],
-      "forecast_id": "forecast-3a815a206580629a",
-      "forecast_type": "mission_milestone_confirmation",
-      "horizon_end": "2026-09-07",
-      "impact": "critical",
-      "initial_probability": 0.57,
-      "last_evaluated_at": "2026-08-22T00:50:40.718732+00:00",
-      "outcome": null,
-      "probability": 0.53,
-      "probability_factors": [
-        {
-          "factor": "official dated milestone",
-          "points": 0.55
-        },
-        {
-          "factor": "exact target date",
-          "points": 0.08
-        },
-        {
-          "factor": "confirmation delay",
-          "points": -0.1
-        }
-      ],
-      "probability_history": [
-        {
-          "at": "2026-08-08T01:05:02.993371+00:00",
-          "probability": 0.57,
-          "reason": "Forecast opened"
-        }
-      ],
-      "question": "Will authoritative evidence confirm \u201cAgencies identify and report their PQC migration leads\u201d by 2026-09-21?",
-      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
-      "registry_key": "mission_milestone:federal-pqc-transition:federal-pqc-agency-leads",
-      "resolution_rule": {
-        "kind": "mission_milestone_confirmation",
-        "milestone_id": "federal-pqc-agency-leads",
-        "negative": "No authoritative completion evidence appears by the horizon.",
-        "positive": "Official mission evidence confirms completion before the horizon.",
-        "target_terms": [
-          "agencies",
-          "identify",
-          "leads",
-          "migration",
-          "report"
-        ]
-      },
-      "status": "active",
-      "subject": "Federal Post-Quantum Cryptography Transition",
-      "subject_id": "federal-pqc-transition",
       "triggers": [
         {
           "direction": "confirming",
@@ -3361,16 +3351,16 @@
     "accuracy_rate": 0.0,
     "active": 8,
     "calibration_label": "Needs calibration",
-    "due_within_30_days": 3,
+    "due_within_30_days": 2,
     "invalidated": 2,
     "mean_brier_score": 0.4225,
     "observed_triggers": 0,
     "resolved": 1
   },
   "temporal_context": {
-    "comparison_started_at": "2026-08-21T00:53:56.854986+00:00",
-    "historical_discoveries": 3
+    "comparison_started_at": "2026-08-22T00:50:40.718732+00:00",
+    "historical_discoveries": 13
   },
-  "updated_at": "2026-08-22T00:50:40.718732+00:00",
+  "updated_at": "2026-08-23T00:54:11.501661+00:00",
   "version": 1
 }

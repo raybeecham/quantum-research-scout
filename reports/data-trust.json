@@ -7,9 +7,9 @@
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 94.5,
+      "acceptance_rate": 94.7,
       "accepted": 500,
-      "quarantined": 29,
+      "quarantined": 28,
       "scope": "Federal funding"
     }
   ],
@@ -35,7 +35,7 @@
       "scope": "Federal missions",
       "source": "QuantumNews.ai",
       "stage": "mission evidence admission",
-      "title": "Cryptography 12h ago Utimaco says US agencies must cut quantum risk by end of 2030",
+      "title": "Cryptography 1d ago Utimaco says US agencies must cut quantum risk by end of 2030",
       "url": "https://quantumzeitgeist.com/utimaco-agencies-must-cut-quantum"
     },
     {
@@ -1992,28 +1992,6 @@
     },
     {
       "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2024-07-23",
-      "key": "grants_gov:ESP24NOFODEFENSAYYO5",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "funding evidence admission",
-      "title": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
-      "url": "https://www.grants.gov/search-results-detail/355385"
-    },
-    {
-      "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
         "matched_alias": "Project Triad",
@@ -2285,22 +2263,45 @@
       "stage": "mission evidence admission",
       "title": "FDA Support for Conferences and Scientific Meetings (R13 Clinical Trial Not Allowed)",
       "url": "https://www.grants.gov/search-results-detail/342752"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2022-04-19",
+      "key": "https://www.grants.gov/search-results-detail/339594",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "stage": "mission evidence admission",
+      "title": "Faculty Early Career Development Program",
+      "url": "https://www.grants.gov/search-results-detail/339594"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 111,
+      "count": 110,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 111,
+      "count": 110,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 105,
+      "count": 104,
       "label": "Official government source"
     },
     {
@@ -2311,14 +2312,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 82.6,
+    "acceptance_rate": 82.8,
     "accepted": 528,
-    "decisions": 639,
-    "funding_quarantine": 29,
+    "decisions": 638,
+    "funding_quarantine": 28,
     "mission_quarantine": 82,
-    "quarantined": 111,
+    "quarantined": 110,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-22T00:50:40.718732+00:00",
+  "updated_at": "2026-08-23T00:54:11.501661+00:00",
   "version": 1
 }

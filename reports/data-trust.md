@@ -1,30 +1,30 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-22T00:50:40.718732+00:00_
+_Updated 2026-08-23T00:54:11.501661+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **528**
-- Quarantined evidence or relationships: **111**
-- Acceptance rate: **82.6%**
+- Quarantined evidence or relationships: **110**
+- Acceptance rate: **82.8%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
 | Federal missions | 28 | 82 | 25.5% |
-| Federal funding | 500 | 29 | 94.5% |
+| Federal funding | 500 | 28 | 94.7% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 111
-- **No relevant term in the evidence itself**: 111
-- **Official government source**: 105
+- **Match appears only in collector query metadata**: 110
+- **No relevant term in the evidence itself**: 110
+- **Official government source**: 104
 - **Source is not an official .gov or .mil domain**: 6
 
 ## Quarantined Evidence
 
-### [Cryptography 12h ago Utimaco says US agencies must cut quantum risk by end of 2030](https://quantumzeitgeist.com/utimaco-agencies-must-cut-quantum)
+### [Cryptography 1d ago Utimaco says US agencies must cut quantum risk by end of 2030](https://quantumzeitgeist.com/utimaco-agencies-must-cut-quantum)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
@@ -633,13 +633,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
-### [Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025](https://www.grants.gov/search-results-detail/355385)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
 ### [Alumni Engagement Innovation Fund 2024](https://www.grants.gov/search-results-detail/350831)
 
 - Scope: Federal missions
@@ -718,6 +711,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [FDA Support for Conferences and Scientific Meetings (R13 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/342752)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Faculty Early Career Development Program](https://www.grants.gov/search-results-detail/339594)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

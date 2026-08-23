@@ -2,12 +2,12 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-08-22T00:50:40.718732+00:00_
+_Updated 2026-08-23T00:54:11.501661+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
 - Active forecasts: **8**
-- Due within 30 days: **3**
+- Due within 30 days: **2**
 - Resolved forecasts: **1**
 - Withdrawn without scoring: **2**
 - Calibration: **Needs calibration**
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 86% · Genesis Mission
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-20?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-21?
 
 **Horizon:** 2026-10-29
 
@@ -44,7 +44,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 74% · Golden Dome for America
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-20?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-21?
 
 **Horizon:** 2026-10-29
 
@@ -55,6 +55,30 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 - [Department reports initial architecture, command-and-control consortium, and active contracts](https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html) — official funding announcement · 2026-04-23
 - [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) — official award · 2026-04-01
 - [Golden Dome for America](https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/) — official mission · date not reported
+
+**Confirming indicators**
+
+- A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.
+- A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.
+- An official funding or program update announces a new competitive workstream.
+
+**Disconfirming indicators**
+
+- The mission or related program is delayed, rescoped, or funding is withdrawn.
+- The horizon closes with no additional linked opportunity.
+- Execution moves entirely through existing vehicles without a new public notice.
+
+### 46% · AI Forge
+
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-11-21?
+
+**Horizon:** 2026-11-21
+
+**Why:** The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.
+
+**Evidence**
+
+- [AI Forge](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security) — official mission · date not reported
 
 **Confirming indicators**
 
@@ -134,9 +158,9 @@ Will authoritative evidence confirm “Advance selected NSF NQVL projects from d
 - An official source delays, cancels, or materially rescopes the milestone.
 - The confirmation horizon passes without authoritative completion evidence.
 
-### 59% · Genesis Mission
+### 58% · Genesis Mission
 
-Will authoritative evidence confirm “Review federal robotic and AI-directed laboratory capabilities” by 2026-09-21?
+Will authoritative evidence confirm “Review federal robotic and AI-directed laboratory capabilities” by 2026-09-22?
 
 **Horizon:** 2026-08-30
 
@@ -158,7 +182,7 @@ Will authoritative evidence confirm “Review federal robotic and AI-directed la
 
 ### 54% · Military AI Pace-Setting Projects
 
-Will authoritative evidence confirm “Conduct initial Pace-Setting Project demonstrations with transition-partner users” by 2026-09-21?
+Will authoritative evidence confirm “Conduct initial Pace-Setting Project demonstrations with transition-partner users” by 2026-09-22?
 
 **Horizon:** 2026-08-30
 
@@ -167,28 +191,6 @@ Will authoritative evidence confirm “Conduct initial Pace-Setting Project demo
 **Evidence**
 
 - [Conduct initial Pace-Setting Project demonstrations with transition-partner users](https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF) — official milestone · 2026-07-09
-
-**Confirming indicators**
-
-- An official update states that the milestone was completed or delivered.
-- A resulting award, demonstration, report, or implementation artifact is published.
-
-**Disconfirming indicators**
-
-- An official source delays, cancels, or materially rescopes the milestone.
-- The confirmation horizon passes without authoritative completion evidence.
-
-### 53% · Federal Post-Quantum Cryptography Transition
-
-Will authoritative evidence confirm “Agencies identify and report their PQC migration leads” by 2026-09-21?
-
-**Horizon:** 2026-09-07
-
-**Why:** The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.
-
-**Evidence**
-
-- [Agencies identify and report their PQC migration leads](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) — official milestone · 2026-07-22
 
 **Confirming indicators**
 

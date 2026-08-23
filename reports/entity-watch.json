@@ -1133,7 +1133,7 @@
       "latest_seen": "2026-08-19",
       "momentum": "rising",
       "name": "IBM",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 3,
       "status": "active",
@@ -2272,7 +2272,7 @@
       "latest_seen": "2026-08-19",
       "momentum": "rising",
       "name": "IonQ",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 2,
       "status": "active",
@@ -2915,7 +2915,7 @@
       "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "Quantum Hardware",
         "Quantum Software / Tooling",
@@ -4520,7 +4520,7 @@
       "latest_seen": "2026-08-18",
       "momentum": "declining",
       "name": "Infleqtion",
-      "prior_count": 6,
+      "prior_count": 5,
       "priority": "medium",
       "recent_count": 2,
       "status": "active",
@@ -4827,9 +4827,9 @@
       "first_seen": "2026-07-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-20",
-      "momentum": "stable",
+      "momentum": "rising",
       "name": "Rigetti",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "medium",
       "recent_count": 1,
       "status": "active",
@@ -5534,8 +5534,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 22,
+      "current_evidence_count": 23,
       "evidence": [
+        {
+          "date": "2026-08-22",
+          "key": "https://quantumzeitgeist.com/quantum-error-correction-qldpc-codes-speedup-neutral-atoms",
+          "report": "2026-08/2026-08-22-digest.md",
+          "score": 41,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Researchers Speed Quantum Error Correction by up to 42 Times",
+          "url": "https://quantumzeitgeist.com/quantum-error-correction-qldpc-codes-speedup-neutral-atoms"
+        },
         {
           "date": "2026-08-12",
           "key": "https://thequantuminsider.com/2026/08/12/alice-bob-partners-europe-first-doctoral-network-quantum-error-correction",
@@ -5801,16 +5813,16 @@
           "url": "https://quantumzeitgeist.com/what-is-the-surface-code"
         }
       ],
-      "evidence_count": 22,
+      "evidence_count": 23,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-12",
+      "latest_seen": "2026-08-22",
       "momentum": "declining",
       "name": "Quantum error correction",
-      "prior_count": 3,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "AI Security",
         "QEC / Fault Tolerance",
@@ -6071,11 +6083,11 @@
       "first_seen": "2025-09-10",
       "historical_evidence_count": 3,
       "latest_seen": "2026-08-18",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Logical qubits",
       "prior_count": 1,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -6585,7 +6597,7 @@
       "prior_count": 1,
       "priority": "medium",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Hardware",
         "Quantum Networking",
@@ -6742,6 +6754,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-22T00:56:50.405632+00:00",
+  "updated_at": "2026-08-23T01:01:39.134021+00:00",
   "version": 2
 }

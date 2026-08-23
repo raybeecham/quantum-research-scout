@@ -4,19 +4,19 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-22 00:56 UTC_
+_Updated 2026-08-23 01:01 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
-| AI Security | ➡️ stable (1 vs 1) | 🔴 critical | high | 👁️ watching | 2026-07-01 | 2026-08-19 | 15 |
+| AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-08-22 | 16 |
+| QEC / Fault Tolerance | ↗️ rising (5 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-08-22 | 48 |
 | PQC / Crypto Agility | ➡️ stable (15 vs 15) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-08-21 | 141 |
-| QEC / Fault Tolerance | ➡️ stable (4 vs 4) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-08-21 | 46 |
-| Quantum Hardware | ➡️ stable (20 vs 22) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-21 | 216 |
+| Quantum Hardware | ➡️ stable (21 vs 19) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-22 | 218 |
 | Quantum Networking | ➡️ stable (7 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-21 | 89 |
 | Quantum Sensing | ↘️ declining (3 vs 7) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-20 | 38 |
-| Quantum Software / Tooling | ➡️ stable (7 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-21 | 68 |
+| Quantum Software / Tooling | ➡️ stable (7 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-22 | 69 |
 | Standards / Government | ↘️ declining (6 vs 11) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-08-21 | 31 |
 
 ## AI Security
@@ -24,11 +24,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, arXiv RSS cs.CR, QuantumNews.ai, The Quantum Insider, Cloudflare Blog
 - Recommended follow-up: Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.
 - Recent supporting evidence:
+  - 2026-08-22 — [Anthropic's LLM watermarking](https://scottaaronson.blog/?p=10032) (QuantumNews.ai, score 20)
   - 2026-08-19 — [Researchers Generate LLM-Compiled Shuttling Code for Complex Trapped-Ion Architectures](https://quantumzeitgeist.com/large-language-model-trapped-ion-shuttling-code-generation) (Quantum Zeitgeist, score 60)
   - 2026-08-08 — [PubChem physics-based verification flags errors in 80% of cases](https://quantumzeitgeist.com/llms-physics-based-verification-flags-pubchem) (Quantum Zeitgeist, score 21)
   - 2026-08-04 — [NCSC statement in response to recent incidents resulting from frontier AI evaluations](https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations) (NCSC UK News, score 100)
   - 2026-08-03 — [Smaller, faster, safer: running Kimi and GLM at scale](https://blog.cloudflare.com/smaller-faster-safer-models) (Cloudflare Blog, score 22)
-  - 2026-07-23 — [PISmith: Reinforcement Learning-based Red Teaming for Prompt Injection Defenses](https://arxiv.org/abs/2603.13026) (arXiv RSS cs.CR, score 57)
+
+## QEC / Fault Tolerance
+
+- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
+- Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
+- Recent supporting evidence:
+  - 2026-08-22 — [Chicago Team Builds Integer Programming Topological Decoder](https://quantumzeitgeist.com/topological-codes-integer-programming-decoder-implementation) (Quantum Zeitgeist, score 49)
+  - 2026-08-22 — [Researchers Speed Quantum Error Correction by up to 42 Times](https://quantumzeitgeist.com/quantum-error-correction-qldpc-codes-speedup-neutral-atoms) (Quantum Zeitgeist, score 41)
+  - 2026-08-21 — [Quantum X Labs Tests AI Quantum Error Decoder on Google Hardware Dataset](https://thequantuminsider.com/2026/08/21/quantum-x-labs-ai-quantum-error-correction-results) (The Quantum Insider, score 97)
+  - 2026-08-19 — [Non-CSS Constraints Improve Decoding in XYZ Quantum Stabilizer Codes](https://quantumzeitgeist.com/calderbank-shor-steane-xyz-quantum-stabilizer) (Quantum Zeitgeist, score 67)
+  - 2026-08-17 — [Researchers Limit Decoder Costs for Faster Fault-Tolerant Computation](https://quantumzeitgeist.com/surface-code-decoder-transversal-cnot-gate-optimisation) (Quantum Zeitgeist, score 96)
 
 ## PQC / Crypto Agility
 
@@ -41,27 +52,16 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-08-20 — [GMV Builds Broad Quantum Portfolio Across Computing, Space, Communications and Cybersecurity](https://thequantuminsider.com/2026/08/20/gmv-builds-broad-quantum-portfolio-across-computing-space-communications-and-cybersecurity) (The Quantum Insider, score 42)
   - 2026-08-19 — [Senators push bill QED-C says will shield power grid from quantum hacking](https://quantumzeitgeist.com/quantum-industry-senators-push-bill-qed) (Quantum Zeitgeist, score 80)
 
-## QEC / Fault Tolerance
-
-- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
-- Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
-- Recent supporting evidence:
-  - 2026-08-21 — [Quantum X Labs Tests AI Quantum Error Decoder on Google Hardware Dataset](https://thequantuminsider.com/2026/08/21/quantum-x-labs-ai-quantum-error-correction-results) (The Quantum Insider, score 97)
-  - 2026-08-19 — [Non-CSS Constraints Improve Decoding in XYZ Quantum Stabilizer Codes](https://quantumzeitgeist.com/calderbank-shor-steane-xyz-quantum-stabilizer) (Quantum Zeitgeist, score 67)
-  - 2026-08-17 — [Researchers Limit Decoder Costs for Faster Fault-Tolerant Computation](https://quantumzeitgeist.com/surface-code-decoder-transversal-cnot-gate-optimisation) (Quantum Zeitgeist, score 96)
-  - 2026-08-15 — [A qubit chain cuts logical qubit decay by half](https://quantumzeitgeist.com/michigan-logical-qubit-decay-chain-cuts) (Quantum Zeitgeist, score 108)
-  - 2026-08-12 — [Alice & Bob Joins European Quantum Error Correction Doctoral Network](https://thequantuminsider.com/2026/08/12/alice-bob-partners-europe-first-doctoral-network-quantum-error-correction) (The Quantum Insider, score 109)
-
 ## Quantum Hardware
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-08-22 — [Researchers Bound Qubits Needed for Mixedness Tests](https://quantumzeitgeist.com/qubits-mixedness-testing-state-discrimination-fidelity-bound) (Quantum Zeitgeist, score 32)
+  - 2026-08-22 — [Technical Munich Team Enables 86% More Quantum Benchmarks on Small Chips](https://quantumzeitgeist.com/fault-tolerant-quantum-computing-lattice-surgery-optimisation) (Quantum Zeitgeist, score 24)
   - 2026-08-21 — [What Is NISQ Quantum Computing: The Current Era of Quantum Machines](https://thequantuminsider.com/2026/08/21/what-is-nisq-quantum-computing-guide) (The Quantum Insider, score 52)
   - 2026-08-21 — [FAMU-FSU College of Engineering designs qubit with floating electrons above chip](https://quantumzeitgeist.com/qubit-floating-electrons-famu-fsu-college) (QuantumNews.ai, score 25)
   - 2026-08-21 — [Optalysys aims to compute as data travels, not just when it arrives](https://quantumzeitgeist.com/compute-data-travels-optalysys-aims) (QuantumNews.ai, score 19)
-  - 2026-08-20 — [Rigetti Establishes Dedicated Systems Delivery Organization to Scale On-Premises Deployments](https://quantumcomputingreport.com/rigetti-establishes-systems-delivery-unit-and-names-new-coo-and-cto-to-scale-on-premises-deployments) (QuantumNews.ai, score 37)
-  - 2026-08-20 — [Pasqal and Bleichroeder Set August 25 Shareholder Vote on Business Combination](https://thequantuminsider.com/2026/08/20/pasqal-bleichroeder-shareholder-vote-august-25) (The Quantum Insider, score 35)
 
 ## Quantum Networking
 
@@ -90,11 +90,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, AWS Quantum Technologies Blog, arXiv RSS quant-ph
 - Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
 - Recent supporting evidence:
+  - 2026-08-22 — [Universität Ulm Team Maps Noise Impact on Metrology Precision](https://quantumzeitgeist.com/quantum-metrology-phase-estimation-noise-mapping-precision) (Quantum Zeitgeist, score 28)
   - 2026-08-21 — [Who Will Actually Use Quantum Computers? Study Identifies 11 User Types](https://thequantuminsider.com/2026/08/21/who-will-actually-use-quantum-computers-study-identifies-11-user-types) (The Quantum Insider, score 21)
   - 2026-08-20 — [Caltech Team Uses Quantum Simulator to Probe Universal Rules of Quantum Matter](https://thequantuminsider.com/2026/08/20/caltech-team-uses-quantum-simulator-to-probe-universal-rules-of-quantum-matter) (The Quantum Insider, score 28)
   - 2026-08-20 — [Superpositions Partners with EBU Luxembourg to Integrate Quantum Workflows into Business Curricula](https://quantumcomputingreport.com/superpositions-partners-with-ebu-luxembourg-to-integrate-quantum-workflows-into-business-curricula) (QuantumNews.ai, score 18)
   - 2026-08-19 — [IonQ and CMC Microsystems Announce Collaboration to Expand Cloud Quantum Computing Access in Canada](https://thequantuminsider.com/2026/08/19/ionq-and-cmc-microsystems-announce-collaboration-to-expand-cloud-quantum-computing-access-in-canada) (The Quantum Insider, score 48)
-  - 2026-08-18 — [OTI Lumionics and Samsung Advanced Institute of Technology Achieve 200+ Logical Qubit Quantum Emulation on Single Server Hardware](https://quantumcomputingreport.com/oti-lumionics-and-samsung-advanced-institute-of-technology-achieve-200-logical-qubit-quantum-emulation-on-single-server-hardware) (QuantumNews.ai, score 49)
 
 ## Standards / Government
 
