@@ -83,7 +83,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 19,
+      "evidence_count": 20,
       "first_party_evidence_count": 0,
       "name": "Infleqtion",
       "priority": "medium",
@@ -3703,7 +3703,7 @@
       "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -3994,8 +3994,20 @@
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 19,
+      "current_evidence_count": 20,
       "evidence": [
+        {
+          "date": "2026-08-23",
+          "key": "https://quantumzeitgeist.com/infleqtion-infq",
+          "report": "2026-08/2026-08-23-digest.md",
+          "score": 43,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Infleqtion (INFQ) and the Neutral-Atom Bet Behind Its NYSE Listing",
+          "url": "https://quantumzeitgeist.com/infleqtion-infq"
+        },
         {
           "date": "2026-08-18",
           "key": "https://infleqtion.com/infleqtion-opens-colorado-quantum-innovation-center-anchoring-americas-quantum-peak",
@@ -4225,15 +4237,15 @@
           "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
         }
       ],
-      "evidence_count": 19,
+      "evidence_count": 20,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-18",
+      "latest_seen": "2026-08-23",
       "momentum": "declining",
       "name": "Infleqtion",
       "prior_count": 5,
       "priority": "medium",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -5585,7 +5597,7 @@
       "prior_count": 0,
       "priority": "critical",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -5730,7 +5742,7 @@
       "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "Quantum Networking"
       ],
@@ -5743,8 +5755,20 @@
         "entanglement distribution"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 5,
+      "current_evidence_count": 6,
       "evidence": [
+        {
+          "date": "2026-08-23",
+          "key": "https://quantumzeitgeist.com/leeds-quantum-repeater-speed-balance",
+          "report": "2026-08/2026-08-23-digest.md",
+          "score": 53,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Leeds researchers balance quantum repeater speed and reach",
+          "url": "https://quantumzeitgeist.com/leeds-quantum-repeater-speed-balance"
+        },
         {
           "date": "2026-08-11",
           "key": "https://thequantuminsider.com/2026/08/11/qunnect-monarch-quantum-deployable-quantum-networking-systems",
@@ -5806,16 +5830,16 @@
           "url": "https://thequantuminsider.com/2026/07/16/arq-raises-1-4-million-pre-seed-round-to-lay-the-foundations-for-the-quantum-internet"
         }
       ],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "first_seen": "2026-07-16",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-11",
+      "latest_seen": "2026-08-23",
       "momentum": "declining",
       "name": "Quantum networking",
       "prior_count": 2,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Networking"
       ],
@@ -5827,8 +5851,20 @@
         "quantum metrology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 13,
+      "current_evidence_count": 14,
       "evidence": [
+        {
+          "date": "2026-08-23",
+          "key": "https://quantumzeitgeist.com/technical-denmark-protocol-balances-accuracy-privacy",
+          "report": "2026-08/2026-08-23-digest.md",
+          "score": 37,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Protocol balances accuracy and privacy in quantum sensing networks",
+          "url": "https://quantumzeitgeist.com/technical-denmark-protocol-balances-accuracy-privacy"
+        },
         {
           "date": "2026-08-14",
           "key": "https://quantumzeitgeist.com/universita-di-catania-machine-learning-plaquette",
@@ -6010,18 +6046,19 @@
           "url": "https://www.lockheedmartin.com/en-us/news/features/2026/the-quantum-opportunity-beyond-computing.html"
         }
       ],
-      "evidence_count": 14,
+      "evidence_count": 15,
       "first_seen": "2026-06-24",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-08-14",
-      "momentum": "declining",
+      "latest_seen": "2026-08-23",
+      "momentum": "stable",
       "name": "Quantum sensing",
       "prior_count": 1,
       "priority": "medium",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Hardware",
+        "Quantum Networking",
         "Quantum Sensing"
       ],
       "type": "technology"
@@ -6175,6 +6212,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-23T03:45:44.113870+00:00",
+  "updated_at": "2026-08-24T00:59:37.883824+00:00",
   "version": 2
 }

@@ -2,16 +2,34 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-23T03:45:44.113870+00:00_
+_Updated 2026-08-24T00:52:30.741253+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
 - Opportunities reviewed: **20**
-- Documents extracted: **10** / **50** discovered
+- Documents extracted: **10** / **45** discovered
 - Changed documents: **0**
 - New amendments: **0**
 - Material amendment impacts this run: **0**
 - Decisions requiring revalidation: **2**
+
+## [16--SENSOR,ANTI-LOCK BR](https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-28**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=55512f77b7fa4808936799f827cbae10) — no_text
+
+## [59--TAIL SENSOR](https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-31**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d032e7f6af9d4a2e8f11c50eae9d95da) — no_text
+
+## [30--FILL PUMP AC OIL,AI](https://sam.gov/workspace/contract/opp/e8ad08e63efd482288d9b38a93b295bb/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-09-08**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e8ad08e63efd482288d9b38a93b295bb) — no_text
 
 ## [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view)
 
@@ -93,23 +111,6 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6abb5bfaeadf4728904316efd78a2b6b/download) — not_fetched
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/71b144a685314840a7eb913a8803b51c/download) — not_fetched
 
-## [Autonomous Livestock Feed Monitoring Bins](https://sam.gov/workspace/contract/opp/b6ef60d7b5c846199b3628917dc4bb58/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-31T09:00:00-07:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/05247ef8391d45d280bed97f1304d09b/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/653fa0fde444441eb79aa8718a9f8afc/download) — not_fetched
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b6ef60d7b5c846199b3628917dc4bb58) — not_fetched
-
-## [Remote Evapotranspiration Sensor Package](https://sam.gov/workspace/contract/opp/38d5925003d84fd2b3de42dce90c6b10/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-09-04T12:00:00-04:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/453add4963e048d5a33354c98df1dcc5/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e74f7e8816334c4ca455d0bf7a832e91/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/effc658355564edd98d17ec8ee95ae6b/download) — not_fetched
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=38d5925003d84fd2b3de42dce90c6b10) — not_fetched
-
 ## [16--WHEEL HALF ASSEMBLY,AI](https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view)
 
 Evidence completeness: **0 / 100** · Deadline: **2026-08-24**
@@ -161,12 +162,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-25T12:00:00-04:00**
 Evidence completeness: **0 / 100** · Deadline: **2026-08-25T13:00:00-04:00**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ffbf39d50ec4475b9c08b091df75f34a) — not_fetched
-
-## [63--SALINITY SENSOR,CON](https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-26**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0f76f691fbc441681bc673240f79d62) — not_fetched
 
 ## [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
 

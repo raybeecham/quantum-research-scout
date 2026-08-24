@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-08-23T03:45:44.113870+00:00_
+_Updated 2026-08-24T00:52:30.741253+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **3050**
-- Authoritative claims: **2896**
-- Analytical claims: **151**
+- Active claims: **3078**
+- Authoritative claims: **2919**
+- Analytical claims: **156**
 - Conflicted claims: **30**
-- Evidence items / URLs: **3144 / 897**
+- Evidence items / URLs: **3172 / 906**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -44,6 +44,29 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | 30--FILL PUMP AC OIL,AI | opportunity status | open | authoritative / high | [30--FILL PUMP AC OIL,AI](https://sam.gov/workspace/contract/opp/e8ad08e63efd482288d9b38a93b295bb/view) |
+| active | 30--FILL PUMP AC OIL,AI | deadline | 2026-09-08 | authoritative / high | [30--FILL PUMP AC OIL,AI](https://sam.gov/workspace/contract/opp/e8ad08e63efd482288d9b38a93b295bb/view) |
+| active | 30--FILL PUMP AC OIL,AI | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND COLUMBUS.DLA LAND AND MARITIME | authoritative / high | [30--FILL PUMP AC OIL,AI](https://sam.gov/workspace/contract/opp/e8ad08e63efd482288d9b38a93b295bb/view) |
+| active | 59--TAIL SENSOR | opportunity status | open | authoritative / high | [59--TAIL SENSOR](https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view) |
+| active | 59--TAIL SENSOR | deadline | 2026-08-31 | authoritative / high | [59--TAIL SENSOR](https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view) |
+| active | 59--TAIL SENSOR | set aside | Small Business Set Aside - Total | authoritative / high | [59--TAIL SENSOR](https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view) |
+| active | 59--TAIL SENSOR | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME | authoritative / high | [59--TAIL SENSOR](https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view) |
+| active | 16--SENSOR,ANTI-LOCK BR | opportunity status | open | authoritative / high | [16--SENSOR,ANTI-LOCK BR](https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view) |
+| active | 16--SENSOR,ANTI-LOCK BR | deadline | 2026-08-28 | authoritative / high | [16--SENSOR,ANTI-LOCK BR](https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view) |
+| active | 16--SENSOR,ANTI-LOCK BR | set aside | Small Business Set Aside - Total | authoritative / high | [16--SENSOR,ANTI-LOCK BR](https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view) |
+| active | 16--SENSOR,ANTI-LOCK BR | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION | authoritative / high | [16--SENSOR,ANTI-LOCK BR](https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view) |
+| active | MARINE ELECTRIC SYSTEMS INC | legal business name | MARINE ELECTRIC SYSTEMS INC | authoritative / high | [MARINE ELECTRIC SYSTEMS INC](https://sam.gov/entity/U43WP4FHDJY3/coreData) |
+| active | MARINE ELECTRIC SYSTEMS INC | uei | U43WP4FHDJY3 | authoritative / high | [MARINE ELECTRIC SYSTEMS INC](https://sam.gov/entity/U43WP4FHDJY3/coreData) |
+| active | MARINE ELECTRIC SYSTEMS INC | cage code | 00062 | authoritative / high | [MARINE ELECTRIC SYSTEMS INC](https://sam.gov/entity/U43WP4FHDJY3/coreData) |
+| active | MARINE ELECTRIC SYSTEMS INC | registration status | Active | authoritative / high | [MARINE ELECTRIC SYSTEMS INC](https://sam.gov/entity/U43WP4FHDJY3/coreData) |
+| active | MAKPAR-NUAXIS JV LLC | legal business name | MAKPAR-NUAXIS JV LLC | authoritative / high | [MAKPAR-NUAXIS JV LLC](https://sam.gov/entity/YZ9MQDZJGHD5/coreData) |
+| active | MAKPAR-NUAXIS JV LLC | uei | YZ9MQDZJGHD5 | authoritative / high | [MAKPAR-NUAXIS JV LLC](https://sam.gov/entity/YZ9MQDZJGHD5/coreData) |
+| active | MAKPAR-NUAXIS JV LLC | cage code | 8HVP9 | authoritative / high | [MAKPAR-NUAXIS JV LLC](https://sam.gov/entity/YZ9MQDZJGHD5/coreData) |
+| active | MAKPAR-NUAXIS JV LLC | registration status | Active | authoritative / high | [MAKPAR-NUAXIS JV LLC](https://sam.gov/entity/YZ9MQDZJGHD5/coreData) |
+| active | ANDURIL INDUSTRIES, INC. | legal business name | ANDURIL INDUSTRIES, INC. | authoritative / high | [ANDURIL INDUSTRIES, INC.](https://sam.gov/entity/KC3CH2MSK7Q3/coreData) |
+| active | ANDURIL INDUSTRIES, INC. | uei | KC3CH2MSK7Q3 | authoritative / high | [ANDURIL INDUSTRIES, INC.](https://sam.gov/entity/KC3CH2MSK7Q3/coreData) |
+| active | ANDURIL INDUSTRIES, INC. | cage code | 85LD7 | authoritative / high | [ANDURIL INDUSTRIES, INC.](https://sam.gov/entity/KC3CH2MSK7Q3/coreData) |
+| active | ANDURIL INDUSTRIES, INC. | registration status | Active | authoritative / high | [ANDURIL INDUSTRIES, INC.](https://sam.gov/entity/KC3CH2MSK7Q3/coreData) |
 | active | THIS AWARD IS IN SUPPORT OF THE CHIEF DATA ARTIFICIAL INTELLIGENCE OFFICE CDAO WAR DATA PLATFORM WDP CORE INTEGRATION CI | reported amount | 17672846.0 | authoritative / high | [THIS AWARD IS IN SUPPORT OF THE CHIEF DATA ARTIFICIAL INTELLIGENCE OFFICE CDAO WAR DATA PLATFORM WDP CORE INTEGRATION CI](https://www.usaspending.gov/award/CONT_AWD_47QFCA26F0023_4732_47QTCK18D0036_4732) |
 | active | NHLBI: SERVICE: CYBERSECURITY AND RMF SUPPORT SERVICES | opportunity status | awarded | authoritative / high | [NHLBI: SERVICE: CYBERSECURITY AND RMF SUPPORT SERVICES](https://www.usaspending.gov/award/CONT_AWD_75N98026F00309_7529_47QTCA19D004D_4732) |
 | active | NHLBI: SERVICE: CYBERSECURITY AND RMF SUPPORT SERVICES | awarding agency | Department of Health and Human Services | authoritative / high | [NHLBI: SERVICE: CYBERSECURITY AND RMF SUPPORT SERVICES](https://www.usaspending.gov/award/CONT_AWD_75N98026F00309_7529_47QTCA19D004D_4732) |
@@ -200,7 +223,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | Small Business Cybersecurity Network | awarding agency | DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE TEST CENTER | authoritative / high | [Small Business Cybersecurity Network](https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view) |
 | active | NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder | opportunity status | closed | authoritative / high | [NSN: 6350-01-612-6614 - Vehicle Motion Sensor Encoder](https://sam.gov/workspace/contract/opp/93064bc210294f239f395b372899ceab/view) |
 | active | 15--PLATE,STRUCTURAL,AI | opportunity status | closed | authoritative / high | [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/a9120fedc53c4e2f8a1a2a5b6322b185/view) |
-| active | 15--PANEL,STRUCTURAL,AI | opportunity status | closed | authoritative / high | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/e167abdf96e74cb48727525b8fbf0bb1/view) |
 | active | W S DARLEY & CO | legal business name | W S DARLEY & CO | authoritative / high | [W S DARLEY & CO](https://sam.gov/entity/TENRPZGMAGJ6/coreData) |
 | active | W S DARLEY & CO | uei | TENRPZGMAGJ6 | authoritative / high | [W S DARLEY & CO](https://sam.gov/entity/TENRPZGMAGJ6/coreData) |
 | active | W S DARLEY & CO | cage code | 15852 | authoritative / high | [W S DARLEY & CO](https://sam.gov/entity/TENRPZGMAGJ6/coreData) |
@@ -213,6 +235,7 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | RAVENTEK SOLUTION PARTNERS, LLC | uei | RCKJZ5KGE3H6 | authoritative / high | [RAVENTEK SOLUTION PARTNERS, LLC](https://sam.gov/entity/RCKJZ5KGE3H6/coreData) |
 | active | RAVENTEK SOLUTION PARTNERS, LLC | cage code | 7J4B0 | authoritative / high | [RAVENTEK SOLUTION PARTNERS, LLC](https://sam.gov/entity/RCKJZ5KGE3H6/coreData) |
 | active | RAVENTEK SOLUTION PARTNERS, LLC | registration status | Active | authoritative / high | [RAVENTEK SOLUTION PARTNERS, LLC](https://sam.gov/entity/RCKJZ5KGE3H6/coreData) |
+| active | 15--PANEL,STRUCTURAL,AI | opportunity status | closed | authoritative / high | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/e167abdf96e74cb48727525b8fbf0bb1/view) |
 | active | RISK MAP ARCHITECT AND ENGINEERING FOR BUILDING SCIENCES IN ACCORDANCE WITH THE PWS AND QASP DATED 7/27/2026 TO DEVELOP BUILDING SCIENCES FOR ARTIFICIAL INTELLIGENCE FOR HAZARD MI... | opportunity status | awarded | authoritative / high | [RISK MAP ARCHITECT AND ENGINEERING FOR BUILDING SCIENCES IN ACCORDANCE WITH THE PWS AND QASP DATED 7/27/2026 TO DEVELOP BUILDING SCIENCES FOR ARTIFICIAL INTELLIGENCE FOR HAZARD MI...](https://www.usaspending.gov/award/CONT_AWD_70FA6026F00000025_7022_70FA6021D00000005_7022) |
 | active | RISK MAP ARCHITECT AND ENGINEERING FOR BUILDING SCIENCES IN ACCORDANCE WITH THE PWS AND QASP DATED 7/27/2026 TO DEVELOP BUILDING SCIENCES FOR ARTIFICIAL INTELLIGENCE FOR HAZARD MI... | awarding agency | Department of Homeland Security | authoritative / high | [RISK MAP ARCHITECT AND ENGINEERING FOR BUILDING SCIENCES IN ACCORDANCE WITH THE PWS AND QASP DATED 7/27/2026 TO DEVELOP BUILDING SCIENCES FOR ARTIFICIAL INTELLIGENCE FOR HAZARD MI...](https://www.usaspending.gov/award/CONT_AWD_70FA6026F00000025_7022_70FA6021D00000005_7022) |
 | active | RISK MAP ARCHITECT AND ENGINEERING FOR BUILDING SCIENCES IN ACCORDANCE WITH THE PWS AND QASP DATED 7/27/2026 TO DEVELOP BUILDING SCIENCES FOR ARTIFICIAL INTELLIGENCE FOR HAZARD MI... | reported amount | 999796.36 | authoritative / high | [RISK MAP ARCHITECT AND ENGINEERING FOR BUILDING SCIENCES IN ACCORDANCE WITH THE PWS AND QASP DATED 7/27/2026 TO DEVELOP BUILDING SCIENCES FOR ARTIFICIAL INTELLIGENCE FOR HAZARD MI...](https://www.usaspending.gov/award/CONT_AWD_70FA6026F00000025_7022_70FA6021D00000005_7022) |
@@ -241,29 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | DJ01--Cybersecurity Architecture and Engineering Services RFI Loopback (VA-26-00064748) | awarding agency | VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B) | authoritative / high | [DJ01--Cybersecurity Architecture and Engineering Services RFI Loopback (VA-26-00064748)](https://sam.gov/workspace/contract/opp/b5ce13c6970548caafc40bf3249a0cac/view) |
 | active | Request for Quotation # 19VM3026Q0022– Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams. | opportunity status | open | authoritative / high | [Request for Quotation # 19VM3026Q0022– Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams.](https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view) |
 | active | Request for Quotation # 19VM3026Q0022– Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams. | deadline | 2026-08-24T17:00:00+07:00 | authoritative / high | [Request for Quotation # 19VM3026Q0022– Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams.](https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view) |
-| active | Request for Quotation # 19VM3026Q0022– Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams. | awarding agency | STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.US EMBASSY HANOI | authoritative / high | [Request for Quotation # 19VM3026Q0022– Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams.](https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view) |
-| active | 61--SENSOR POWER DRAWER, IN REPAIR/MODIFICATION OF | opportunity status | open | authoritative / high | [61--SENSOR POWER DRAWER, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/a2efca763807413ab373bf41ac2f97eb/view) |
-| active | 61--SENSOR POWER DRAWER, IN REPAIR/MODIFICATION OF | deadline | 2026-09-03T16:30:00-04:00 | authoritative / high | [61--SENSOR POWER DRAWER, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/a2efca763807413ab373bf41ac2f97eb/view) |
-| active | 61--SENSOR POWER DRAWER, IN REPAIR/MODIFICATION OF | awarding agency | DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS MECHANICSBURG.NAVSUP WEAPON SYSTEMS SUPPORT MECH | authoritative / high | [61--SENSOR POWER DRAWER, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/a2efca763807413ab373bf41ac2f97eb/view) |
-| active | 16--MODIFICATION KIT,AI | opportunity status | closed | authoritative / high | [16--MODIFICATION KIT,AI](https://sam.gov/workspace/contract/opp/fda242bc18ec4faca34c5a9397261d24/view) |
-| active | 29--SENSOR,EXHAUST GAS, | opportunity status | closed | authoritative / high | [29--SENSOR,EXHAUST GAS,](https://sam.gov/workspace/contract/opp/b362ba053a6c4581a208828b2c12d401/view) |
-| active | THE ARDIAN GROUP, INC | legal business name | THE ARDIAN GROUP, INC | authoritative / high | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) |
-| active | THE ARDIAN GROUP, INC | uei | UE9KZJJCMAS9 | authoritative / high | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) |
-| active | THE ARDIAN GROUP, INC | cage code | 3BR42 | authoritative / high | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) |
-| active | THE ARDIAN GROUP, INC | registration status | Active | authoritative / high | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) |
-| active | GOVSMART, INC. | legal business name | GOVSMART, INC. | authoritative / high | [GOVSMART, INC.](https://sam.gov/entity/DJACUETFQUL8/coreData) |
-| active | GOVSMART, INC. | uei | DJACUETFQUL8 | authoritative / high | [GOVSMART, INC.](https://sam.gov/entity/DJACUETFQUL8/coreData) |
-| active | GOVSMART, INC. | cage code | 5WFZ8 | authoritative / high | [GOVSMART, INC.](https://sam.gov/entity/DJACUETFQUL8/coreData) |
-| active | GOVSMART, INC. | registration status | Active | authoritative / high | [GOVSMART, INC.](https://sam.gov/entity/DJACUETFQUL8/coreData) |
-| active | CLEARAVENUE LLC | legal business name | CLEARAVENUE LLC | authoritative / high | [CLEARAVENUE LLC](https://sam.gov/entity/TZJXKXNHDLX1/coreData) |
-| active | CLEARAVENUE LLC | uei | TZJXKXNHDLX1 | authoritative / high | [CLEARAVENUE LLC](https://sam.gov/entity/TZJXKXNHDLX1/coreData) |
-| active | CLEARAVENUE LLC | cage code | 3EG54 | authoritative / high | [CLEARAVENUE LLC](https://sam.gov/entity/TZJXKXNHDLX1/coreData) |
-| active | CLEARAVENUE LLC | registration status | Active | authoritative / high | [CLEARAVENUE LLC](https://sam.gov/entity/TZJXKXNHDLX1/coreData) |
-| active | ATEC HQ 001, Autonomous Swarm Dynamics & Counter-Drone (C-UAS) Technologies | opportunity status | closed | authoritative / high | [ATEC HQ 001, Autonomous Swarm Dynamics & Counter-Drone (C-UAS) Technologies](https://sam.gov/workspace/contract/opp/b1140aa605ee4f2bb775dfbfe42589f6/view) |
-| active | 66--SENSOR,OXYGEN | opportunity status | closed | authoritative / high | [66--SENSOR,OXYGEN](https://sam.gov/workspace/contract/opp/c5c7dac417be4b1b99d5b0f4aa213664/view) |
-| active | 66--SENSOR,NITROGEN | opportunity status | closed | authoritative / high | [66--SENSOR,NITROGEN](https://sam.gov/workspace/contract/opp/af6b37c37bd041a89ffb22d0f28ff722/view) |
-| active | 15--PLATE,STRUCTURAL,AI | opportunity status | awarded | authoritative / high | [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/9d2c776322a545f9aa9073e271c00090/view) |
-| active | 15--PLATE,STRUCTURAL,AI | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION | authoritative / high | [15--PLATE,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/9d2c776322a545f9aa9073e271c00090/view) |
 
 ## Method
 

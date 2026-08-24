@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-08-23 03:45 UTC_
+_Updated 2026-08-24 00:59 UTC_
 
 ## Organizations
 
@@ -30,7 +30,7 @@ _Updated 2026-08-23 03:45 UTC_
 | Deloitte | ➡️ stable (0 vs 0) | 🟠 high | documented | Unknown | Unknown | 2 | 2 |
 | ISO/IEC | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-25 | 2026-07-15 | 2 | 0 |
 | PQCA | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-27 | 2026-07-27 | 2 | 0 |
-| PQShield | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-03 | 2026-07-23 | 2 | 0 |
+| PQShield | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-03 | 2026-07-23 | 2 | 0 |
 | Thales | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-08-04 | 2026-08-05 | 2 | 0 |
 | ANSSI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-23 | 2026-06-23 | 1 | 0 |
 | Atom Computing | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-16 | 2026-06-16 | 1 | 1 |
@@ -38,7 +38,7 @@ _Updated 2026-08-23 03:45 UTC_
 | ETSI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-22 | 2026-06-22 | 1 | 1 |
 | Google Quantum AI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-27 | 2026-06-27 | 1 | 0 |
 | Open Quantum Safe | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-27 | 2026-07-27 | 1 | 0 |
-| Infleqtion | ↘️ declining (2 vs 5) | 🟡 medium | active | 2026-06-22 | 2026-08-18 | 19 | 0 |
+| Infleqtion | ↘️ declining (3 vs 5) | 🟡 medium | active | 2026-06-22 | 2026-08-23 | 20 | 0 |
 | Pasqal | ↘️ declining (1 vs 2) | 🟡 medium | active | 2026-06-29 | 2026-08-20 | 13 | 0 |
 | AWS | ➡️ stable (0 vs 0) | 🟡 medium | dormant | 2026-06-24 | 2026-07-20 | 4 | 0 |
 | Rigetti | ↗️ rising (1 vs 0) | 🟡 medium | active | 2026-07-29 | 2026-08-20 | 3 | 0 |
@@ -52,10 +52,10 @@ _Updated 2026-08-23 03:45 UTC_
 | Quantum error correction | ↘️ declining (1 vs 2) | 🔴 critical | active | 2026-06-23 | 2026-08-22 | 23 | 0 |
 | Crypto-agility | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2024-10-02 | 2026-08-03 | 21 | 12 |
 | Logical qubits | ➡️ stable (1 vs 1) | 🔴 critical | active | 2025-09-10 | 2026-08-18 | 17 | 3 |
-| ML-DSA | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2026-06-29 | 2026-07-23 | 2 | 0 |
-| Quantum key distribution | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-29 | 2026-07-23 | 9 | 1 |
-| Quantum networking | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2026-07-16 | 2026-08-11 | 5 | 0 |
-| Quantum sensing | ↘️ declining (0 vs 1) | 🟡 medium | quiet | 2026-06-24 | 2026-08-14 | 14 | 1 |
+| ML-DSA | ➡️ stable (0 vs 0) | 🔴 critical | dormant | 2026-06-29 | 2026-07-23 | 2 | 0 |
+| Quantum key distribution | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-29 | 2026-07-23 | 9 | 1 |
+| Quantum networking | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-07-16 | 2026-08-23 | 6 | 0 |
+| Quantum sensing | ➡️ stable (1 vs 1) | 🟡 medium | active | 2026-06-24 | 2026-08-23 | 15 | 1 |
 
 **Configured, awaiting evidence (4):** CNSA 2.0, ML-KEM, Hybrid TLS, SLH-DSA
 
@@ -69,7 +69,7 @@ _Updated 2026-08-23 03:45 UTC_
 | ANSSI | third-party | 0 | 1 |
 | D-Wave | third-party | 0 | 3 |
 | ISO/IEC | third-party | 0 | 2 |
-| Infleqtion | third-party | 0 | 19 |
+| Infleqtion | third-party | 0 | 20 |
 | Pasqal | third-party | 0 | 13 |
 | NIST | covered | 2 | 8 |
 | Accenture / Accenture Federal Services | covered | 2 | 5 |

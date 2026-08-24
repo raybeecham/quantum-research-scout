@@ -3,6 +3,459 @@
   "opportunities": [
     {
       "active": "Yes",
+      "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION",
+      "changed_document": false,
+      "classification_code": null,
+      "contacts": [
+        {
+          "email": "DibbsBSM@dla.mil",
+          "full_name": "Questions regarding this solicitation should be emailed to the buyer listed in block 5 of the solicitation document which can be found under the Additional Information link. If the Additional Information link does not work, please go to https://www.dibbs.bsm.dla.mil/Solicitations/ and type the solicitation number in the Global Search box.",
+          "phone": "",
+          "title": "",
+          "type": "primary"
+        }
+      ],
+      "current_snapshot": {
+        "document_version_ids": [
+          "version:54ffe3159a07c284a85b"
+        ],
+        "evidence_units": [],
+        "history_completeness": "tracker_observed",
+        "metadata": {
+          "active": {
+            "authority": "official_sam_metadata",
+            "category": "status",
+            "claim_id": "claim:f4f31e9aecbca82b9456",
+            "controlling_status": "analyst_verification_required",
+            "source": {
+              "locator": {
+                "field": "active"
+              },
+              "opportunity_key": "sam_gov:SPE4A726T685A",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view"
+            },
+            "value": "Yes"
+          },
+          "deadline": {
+            "authority": "official_sam_metadata",
+            "category": "deadline",
+            "claim_id": "claim:d92fc3fb7ca7e7d74ffb",
+            "controlling_status": "analyst_verification_required",
+            "source": {
+              "locator": {
+                "field": "deadline"
+              },
+              "opportunity_key": "sam_gov:SPE4A726T685A",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view"
+            },
+            "value": "2026-08-28"
+          },
+          "set_aside": {
+            "authority": "official_sam_metadata",
+            "category": "eligibility",
+            "claim_id": "claim:94fb2a0c392fc8d268f0",
+            "controlling_status": "analyst_verification_required",
+            "source": {
+              "locator": {
+                "field": "set_aside"
+              },
+              "opportunity_key": "sam_gov:SPE4A726T685A",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view"
+            },
+            "value": "Small Business Set Aside - Total"
+          },
+          "status": {
+            "authority": "official_sam_metadata",
+            "category": "status",
+            "claim_id": "claim:758f2671b78aa228589c",
+            "controlling_status": "analyst_verification_required",
+            "source": {
+              "locator": {
+                "field": "status"
+              },
+              "opportunity_key": "sam_gov:SPE4A726T685A",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view"
+            },
+            "value": "open"
+          }
+        },
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
+        "snapshot_id": "snapshot:30c000a4a20ba3386a3a"
+      },
+      "days_to_close": 4,
+      "deadline": "2026-08-28",
+      "deadline_mentions": [],
+      "deliverables": [],
+      "document_completeness_score": 0,
+      "documents": [
+        {
+          "active": true,
+          "byte_count": 539,
+          "cache_status": "refreshed",
+          "content_type": "application/hal+json",
+          "current_version_id": "version:54ffe3159a07c284a85b",
+          "deadline_mentions": [],
+          "deliverables": [],
+          "document_id": "document:99f65969f62625bd3984",
+          "document_role": "attachment",
+          "eligibility": [],
+          "emails": [],
+          "evaluation_criteria": [],
+          "extraction_status": "no_text",
+          "fetched_at": "2026-08-24T00:52:30.741253+00:00",
+          "format": "application/hal+json",
+          "is_amendment": false,
+          "is_changed": false,
+          "name": "noticedesc",
+          "new_amendment": false,
+          "phones": [],
+          "requirements": [],
+          "sha256": "52aa41018b185dd80f7d207b9feb1c13347c2aae4a09c5b9d55fe9b024d18cdf",
+          "source_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=55512f77b7fa4808936799f827cbae10",
+          "submission_instructions": [],
+          "unsupported_format": true,
+          "versions": [
+            {
+              "content_sha256": "52aa41018b185dd80f7d207b9feb1c13347c2aae4a09c5b9d55fe9b024d18cdf",
+              "document_role": "attachment",
+              "evidence_units": [],
+              "first_seen_at": "2026-08-24T00:52:30.741253+00:00",
+              "last_seen_at": "2026-08-24T00:52:30.741253+00:00",
+              "version_id": "version:54ffe3159a07c284a85b"
+            }
+          ]
+        }
+      ],
+      "eligibility": [],
+      "emails": [],
+      "evaluation_criteria": [],
+      "latest_amendment_impact": null,
+      "mission_links": [],
+      "naics_code": null,
+      "new_amendment": false,
+      "notice_id": null,
+      "notice_type": null,
+      "opportunity_key": "sam_gov:SPE4A726T685A",
+      "opportunity_score": 37,
+      "phones": [],
+      "requirements": [],
+      "set_aside": "Small Business Set Aside - Total",
+      "snapshot_history": [],
+      "solicitation_number": null,
+      "source_urls": [
+        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=55512f77b7fa4808936799f827cbae10"
+      ],
+      "status": "open",
+      "submission_instructions": [],
+      "technology_domains": [
+        "autonomy and sensing"
+      ],
+      "title": "16--SENSOR,ANTI-LOCK BR",
+      "url": "https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view"
+    },
+    {
+      "active": "Yes",
+      "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME",
+      "changed_document": false,
+      "classification_code": null,
+      "contacts": [
+        {
+          "email": "DibbsBSM@dla.mil",
+          "full_name": "Questions regarding this solicitation should be emailed to the buyer listed in block 5 of the solicitation document which can be found under the Additional Information link. If the Additional Information link does not work, please go to https://www.dibbs.bsm.dla.mil/Solicitations/ and type the solicitation number in the Global Search box.",
+          "phone": "",
+          "title": "",
+          "type": "primary"
+        }
+      ],
+      "current_snapshot": {
+        "document_version_ids": [
+          "version:966ee9168e8c2b42dd5f"
+        ],
+        "evidence_units": [],
+        "history_completeness": "tracker_observed",
+        "metadata": {
+          "active": {
+            "authority": "official_sam_metadata",
+            "category": "status",
+            "claim_id": "claim:8b381bbd1b6a843194f4",
+            "controlling_status": "analyst_verification_required",
+            "source": {
+              "locator": {
+                "field": "active"
+              },
+              "opportunity_key": "sam_gov:SPE7M526T432P",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view"
+            },
+            "value": "Yes"
+          },
+          "deadline": {
+            "authority": "official_sam_metadata",
+            "category": "deadline",
+            "claim_id": "claim:b6d23b68ac4cea14880c",
+            "controlling_status": "analyst_verification_required",
+            "source": {
+              "locator": {
+                "field": "deadline"
+              },
+              "opportunity_key": "sam_gov:SPE7M526T432P",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view"
+            },
+            "value": "2026-08-31"
+          },
+          "set_aside": {
+            "authority": "official_sam_metadata",
+            "category": "eligibility",
+            "claim_id": "claim:2998df7862024c336726",
+            "controlling_status": "analyst_verification_required",
+            "source": {
+              "locator": {
+                "field": "set_aside"
+              },
+              "opportunity_key": "sam_gov:SPE7M526T432P",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view"
+            },
+            "value": "Small Business Set Aside - Total"
+          },
+          "status": {
+            "authority": "official_sam_metadata",
+            "category": "status",
+            "claim_id": "claim:23f84e82bfaa94f82e30",
+            "controlling_status": "analyst_verification_required",
+            "source": {
+              "locator": {
+                "field": "status"
+              },
+              "opportunity_key": "sam_gov:SPE7M526T432P",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view"
+            },
+            "value": "open"
+          }
+        },
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
+        "snapshot_id": "snapshot:84ffb84be0f014371e6a"
+      },
+      "days_to_close": 7,
+      "deadline": "2026-08-31",
+      "deadline_mentions": [],
+      "deliverables": [],
+      "document_completeness_score": 0,
+      "documents": [
+        {
+          "active": true,
+          "byte_count": 523,
+          "cache_status": "refreshed",
+          "content_type": "application/hal+json",
+          "current_version_id": "version:966ee9168e8c2b42dd5f",
+          "deadline_mentions": [],
+          "deliverables": [],
+          "document_id": "document:61149419448aafb5bfa7",
+          "document_role": "attachment",
+          "eligibility": [],
+          "emails": [],
+          "evaluation_criteria": [],
+          "extraction_status": "no_text",
+          "fetched_at": "2026-08-24T00:52:30.741253+00:00",
+          "format": "application/hal+json",
+          "is_amendment": false,
+          "is_changed": false,
+          "name": "noticedesc",
+          "new_amendment": false,
+          "phones": [],
+          "requirements": [],
+          "sha256": "12f82e865fe1800c5f7d6dcb168ef434e7583b4a27719ac64929daaef7398772",
+          "source_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d032e7f6af9d4a2e8f11c50eae9d95da",
+          "submission_instructions": [],
+          "unsupported_format": true,
+          "versions": [
+            {
+              "content_sha256": "12f82e865fe1800c5f7d6dcb168ef434e7583b4a27719ac64929daaef7398772",
+              "document_role": "attachment",
+              "evidence_units": [],
+              "first_seen_at": "2026-08-24T00:52:30.741253+00:00",
+              "last_seen_at": "2026-08-24T00:52:30.741253+00:00",
+              "version_id": "version:966ee9168e8c2b42dd5f"
+            }
+          ]
+        }
+      ],
+      "eligibility": [],
+      "emails": [],
+      "evaluation_criteria": [],
+      "latest_amendment_impact": null,
+      "mission_links": [],
+      "naics_code": null,
+      "new_amendment": false,
+      "notice_id": null,
+      "notice_type": null,
+      "opportunity_key": "sam_gov:SPE7M526T432P",
+      "opportunity_score": 37,
+      "phones": [],
+      "requirements": [],
+      "set_aside": "Small Business Set Aside - Total",
+      "snapshot_history": [],
+      "solicitation_number": null,
+      "source_urls": [
+        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d032e7f6af9d4a2e8f11c50eae9d95da"
+      ],
+      "status": "open",
+      "submission_instructions": [],
+      "technology_domains": [
+        "autonomy and sensing"
+      ],
+      "title": "59--TAIL SENSOR",
+      "url": "https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view"
+    },
+    {
+      "active": "Yes",
+      "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND COLUMBUS.DLA LAND AND MARITIME",
+      "changed_document": false,
+      "classification_code": null,
+      "contacts": [
+        {
+          "email": "DibbsBSM@dla.mil",
+          "full_name": "Questions regarding this solicitation should be emailed to the buyer listed in block 5 of the solicitation document which can be found under the Additional Information link. If the Additional Information link does not work, please go to https://www.dibbs.bsm.dla.mil/Solicitations/ and type the solicitation number in the Global Search box.",
+          "phone": "",
+          "title": "",
+          "type": "primary"
+        }
+      ],
+      "current_snapshot": {
+        "document_version_ids": [
+          "version:b34e73d229bd89c7cd2f"
+        ],
+        "evidence_units": [],
+        "history_completeness": "tracker_observed",
+        "metadata": {
+          "active": {
+            "authority": "official_sam_metadata",
+            "category": "status",
+            "claim_id": "claim:320fe0023165fb13316e",
+            "controlling_status": "analyst_verification_required",
+            "source": {
+              "locator": {
+                "field": "active"
+              },
+              "opportunity_key": "sam_gov:SPE7LX26U9694",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/e8ad08e63efd482288d9b38a93b295bb/view"
+            },
+            "value": "Yes"
+          },
+          "deadline": {
+            "authority": "official_sam_metadata",
+            "category": "deadline",
+            "claim_id": "claim:96bd1e6065dbe689d2b8",
+            "controlling_status": "analyst_verification_required",
+            "source": {
+              "locator": {
+                "field": "deadline"
+              },
+              "opportunity_key": "sam_gov:SPE7LX26U9694",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/e8ad08e63efd482288d9b38a93b295bb/view"
+            },
+            "value": "2026-09-08"
+          },
+          "status": {
+            "authority": "official_sam_metadata",
+            "category": "status",
+            "claim_id": "claim:e9858264f94057cb5a9a",
+            "controlling_status": "analyst_verification_required",
+            "source": {
+              "locator": {
+                "field": "status"
+              },
+              "opportunity_key": "sam_gov:SPE7LX26U9694",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/e8ad08e63efd482288d9b38a93b295bb/view"
+            },
+            "value": "open"
+          }
+        },
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
+        "snapshot_id": "snapshot:c15ae86853f809423851"
+      },
+      "days_to_close": 15,
+      "deadline": "2026-09-08",
+      "deadline_mentions": [],
+      "deliverables": [],
+      "document_completeness_score": 0,
+      "documents": [
+        {
+          "active": true,
+          "byte_count": 927,
+          "cache_status": "refreshed",
+          "content_type": "application/hal+json",
+          "current_version_id": "version:b34e73d229bd89c7cd2f",
+          "deadline_mentions": [],
+          "deliverables": [],
+          "document_id": "document:1a429c7a9d537667ea69",
+          "document_role": "attachment",
+          "eligibility": [],
+          "emails": [],
+          "evaluation_criteria": [],
+          "extraction_status": "no_text",
+          "fetched_at": "2026-08-24T00:52:30.741253+00:00",
+          "format": "application/hal+json",
+          "is_amendment": false,
+          "is_changed": false,
+          "name": "noticedesc",
+          "new_amendment": false,
+          "phones": [],
+          "requirements": [],
+          "sha256": "b1bcf3c83fdd3974ba9fabfdc06bd39df9a11d5adeeb8ea812aeb2c79aff884d",
+          "source_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e8ad08e63efd482288d9b38a93b295bb",
+          "submission_instructions": [],
+          "unsupported_format": true,
+          "versions": [
+            {
+              "content_sha256": "b1bcf3c83fdd3974ba9fabfdc06bd39df9a11d5adeeb8ea812aeb2c79aff884d",
+              "document_role": "attachment",
+              "evidence_units": [],
+              "first_seen_at": "2026-08-24T00:52:30.741253+00:00",
+              "last_seen_at": "2026-08-24T00:52:30.741253+00:00",
+              "version_id": "version:b34e73d229bd89c7cd2f"
+            }
+          ]
+        }
+      ],
+      "eligibility": [],
+      "emails": [],
+      "evaluation_criteria": [],
+      "latest_amendment_impact": null,
+      "mission_links": [],
+      "naics_code": null,
+      "new_amendment": false,
+      "notice_id": null,
+      "notice_type": null,
+      "opportunity_key": "sam_gov:SPE7LX26U9694",
+      "opportunity_score": 34,
+      "phones": [],
+      "requirements": [],
+      "set_aside": "",
+      "snapshot_history": [],
+      "solicitation_number": null,
+      "source_urls": [
+        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e8ad08e63efd482288d9b38a93b295bb"
+      ],
+      "status": "open",
+      "submission_instructions": [],
+      "technology_domains": [
+        "artificial intelligence"
+      ],
+      "title": "30--FILL PUMP AC OIL,AI",
+      "url": "https://sam.gov/workspace/contract/opp/e8ad08e63efd482288d9b38a93b295bb/view"
+    },
+    {
+      "active": "Yes",
       "agency": "DEPT OF DEFENSE.DEPT OF DEFENSE EDUCATION ACTIVITY (DODEA).DOD EDUCATION ACTIVITY",
       "changed_document": false,
       "classification_code": null,
@@ -37,7 +490,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:HE125426RE037",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view"
             },
             "value": "Yes"
@@ -52,7 +505,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:HE125426RE037",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view"
             },
             "value": "2026-08-25T11:00:00-04:00"
@@ -67,7 +520,7 @@
                 "field": "set_aside"
               },
               "opportunity_key": "sam_gov:HE125426RE037",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view"
             },
             "value": "Small Business Set Aside - Total"
@@ -82,16 +535,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:HE125426RE037",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:841b23abbab61ee49c5b"
       },
-      "days_to_close": 2,
+      "days_to_close": 1,
       "deadline": "2026-08-25T11:00:00-04:00",
       "deadline_mentions": [],
       "deliverables": [],
@@ -216,7 +669,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:FA700026Q0057",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/88038d7669964d6da76168589483ef36/view"
             },
             "value": "Yes"
@@ -231,7 +684,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:FA700026Q0057",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/88038d7669964d6da76168589483ef36/view"
             },
             "value": "2026-08-26T14:00:00-06:00"
@@ -246,7 +699,7 @@
                 "field": "set_aside"
               },
               "opportunity_key": "sam_gov:FA700026Q0057",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/88038d7669964d6da76168589483ef36/view"
             },
             "value": "Small Business Set Aside - Total"
@@ -261,16 +714,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:FA700026Q0057",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/88038d7669964d6da76168589483ef36/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:a5b61ce169e4890047a0"
       },
-      "days_to_close": 3,
+      "days_to_close": 2,
       "deadline": "2026-08-26T14:00:00-06:00",
       "deadline_mentions": [],
       "deliverables": [],
@@ -1304,7 +1757,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:FA700026Q0063",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view"
             },
             "value": "Yes"
@@ -1319,7 +1772,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:FA700026Q0063",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view"
             },
             "value": "2026-08-24T10:00:00-06:00"
@@ -1334,7 +1787,7 @@
                 "field": "set_aside"
               },
               "opportunity_key": "sam_gov:FA700026Q0063",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view"
             },
             "value": "Small Business Set Aside - Total"
@@ -1349,16 +1802,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:FA700026Q0063",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:2f0da32fc83f719df3cc"
       },
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "2026-08-24T10:00:00-06:00",
       "deadline_mentions": [],
       "deliverables": [
@@ -3488,7 +3941,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:19VM3026Q0022",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view"
             },
             "value": "Yes"
@@ -3503,7 +3956,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:19VM3026Q0022",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view"
             },
             "value": "2026-08-24T17:00:00+07:00"
@@ -3518,16 +3971,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:19VM3026Q0022",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:a1fe0dbe6bb36638a71c"
       },
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "2026-08-24T17:00:00+07:00",
       "deadline_mentions": [
         "A SMALL BUSINESS- SMALL PURCHASE SET-ASIDE (52.219-4) PAGE 1 OF | | PAGES 6 1. REQUEST NO. 19VM3026Q0022 2. DATE ISSUED Aug 3, 2026 3. REQUISITION/PURCHASE REQUEST NO. PR16121442 4. CERT. FOR NAT. DEF. UNDER BDSA REG. 2 AND/OR DMS REG. 1 RATING 5A. ISSUED BY General Services Office, American Embass...",
@@ -5615,7 +6068,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:6-S176-Q-00414-00",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view"
             },
             "value": "Yes"
@@ -5630,7 +6083,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:6-S176-Q-00414-00",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view"
             },
             "value": "2026-08-26T17:00:00-05:00"
@@ -5645,16 +6098,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:6-S176-Q-00414-00",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:f154819ff110d8f5e62e"
       },
-      "days_to_close": 3,
+      "days_to_close": 2,
       "deadline": "2026-08-26T17:00:00-05:00",
       "deadline_mentions": [
         "ANL-71COM (October 22, 2025) 1 APPENDIX A Argonne Terms and Conditions For Commercial Goods and Services The clauses below that reference Federal Acquisition Regulations (FAR) and Department of Energy Acquis",
@@ -7016,7 +7469,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:FA480326Q0059",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view"
             },
             "value": "Yes"
@@ -7031,7 +7484,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:FA480326Q0059",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view"
             },
             "value": "2026-08-24T10:00:00-04:00"
@@ -7046,7 +7499,7 @@
                 "field": "set_aside"
               },
               "opportunity_key": "sam_gov:FA480326Q0059",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view"
             },
             "value": "Small Business Set Aside - Total"
@@ -7061,16 +7514,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:FA480326Q0059",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/c08a531bc25440edb9542f45e59d6dae/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:77cbdb0638da9b31fb6b"
       },
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "2026-08-24T10:00:00-04:00",
       "deadline_mentions": [],
       "deliverables": [],
@@ -7802,328 +8255,6 @@
     },
     {
       "active": "Yes",
-      "agency": "AGRICULTURE, DEPARTMENT OF.AGRICULTURAL RESEARCH SERVICE.USDA ARS AFM APD",
-      "changed_document": false,
-      "classification_code": null,
-      "contacts": [
-        {
-          "email": "elizabeth.calhoun@usda.gov",
-          "full_name": "Elizabeth Calhoun",
-          "phone": "",
-          "title": "",
-          "type": "primary"
-        }
-      ],
-      "current_snapshot": {
-        "document_version_ids": [],
-        "evidence_units": [],
-        "history_completeness": "tracker_observed",
-        "metadata": {
-          "active": {
-            "authority": "official_sam_metadata",
-            "category": "status",
-            "claim_id": "claim:12e7131a8867846f23e9",
-            "controlling_status": "analyst_verification_required",
-            "source": {
-              "locator": {
-                "field": "active"
-              },
-              "opportunity_key": "sam_gov:1232SA26Q1358",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/b6ef60d7b5c846199b3628917dc4bb58/view"
-            },
-            "value": "Yes"
-          },
-          "deadline": {
-            "authority": "official_sam_metadata",
-            "category": "deadline",
-            "claim_id": "claim:5946eec58ecb92b18624",
-            "controlling_status": "analyst_verification_required",
-            "source": {
-              "locator": {
-                "field": "deadline"
-              },
-              "opportunity_key": "sam_gov:1232SA26Q1358",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/b6ef60d7b5c846199b3628917dc4bb58/view"
-            },
-            "value": "2026-08-31T09:00:00-07:00"
-          },
-          "status": {
-            "authority": "official_sam_metadata",
-            "category": "status",
-            "claim_id": "claim:7e8ea0b58fff3252cf58",
-            "controlling_status": "analyst_verification_required",
-            "source": {
-              "locator": {
-                "field": "status"
-              },
-              "opportunity_key": "sam_gov:1232SA26Q1358",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/b6ef60d7b5c846199b3628917dc4bb58/view"
-            },
-            "value": "open"
-          }
-        },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
-        "snapshot_id": "snapshot:fa1138a99bd7072886fb"
-      },
-      "days_to_close": 8,
-      "deadline": "2026-08-31T09:00:00-07:00",
-      "deadline_mentions": [],
-      "deliverables": [],
-      "document_completeness_score": 0,
-      "documents": [
-        {
-          "active": true,
-          "cache_status": "unavailable",
-          "document_id": "document:83c11ff1684d1409a879",
-          "document_role": "attachment",
-          "error": "No download client or run download budget available",
-          "extraction_status": "not_fetched",
-          "is_changed": false,
-          "name": "download",
-          "new_amendment": false,
-          "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/05247ef8391d45d280bed97f1304d09b/download",
-          "versions": []
-        },
-        {
-          "active": true,
-          "cache_status": "unavailable",
-          "document_id": "document:a6008e706e1f1aee65e1",
-          "document_role": "attachment",
-          "error": "No download client or run download budget available",
-          "extraction_status": "not_fetched",
-          "is_changed": false,
-          "name": "download",
-          "new_amendment": false,
-          "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/653fa0fde444441eb79aa8718a9f8afc/download",
-          "versions": []
-        },
-        {
-          "active": true,
-          "cache_status": "unavailable",
-          "document_id": "document:83f70b4bf058966bb5f7",
-          "document_role": "attachment",
-          "error": "No download client or run download budget available",
-          "extraction_status": "not_fetched",
-          "is_changed": false,
-          "name": "noticedesc",
-          "new_amendment": false,
-          "source_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b6ef60d7b5c846199b3628917dc4bb58",
-          "versions": []
-        }
-      ],
-      "eligibility": [],
-      "emails": [],
-      "evaluation_criteria": [],
-      "latest_amendment_impact": null,
-      "mission_links": [],
-      "naics_code": null,
-      "new_amendment": false,
-      "notice_id": null,
-      "notice_type": null,
-      "opportunity_key": "sam_gov:1232SA26Q1358",
-      "opportunity_score": 34,
-      "phones": [],
-      "requirements": [],
-      "set_aside": "",
-      "snapshot_history": [],
-      "solicitation_number": null,
-      "source_urls": [
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/05247ef8391d45d280bed97f1304d09b/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/653fa0fde444441eb79aa8718a9f8afc/download",
-        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b6ef60d7b5c846199b3628917dc4bb58"
-      ],
-      "status": "open",
-      "submission_instructions": [],
-      "technology_domains": [
-        "autonomy and sensing"
-      ],
-      "title": "Autonomous Livestock Feed Monitoring Bins",
-      "url": "https://sam.gov/workspace/contract/opp/b6ef60d7b5c846199b3628917dc4bb58/view"
-    },
-    {
-      "active": "Yes",
-      "agency": "AGRICULTURE, DEPARTMENT OF.FOOD SAFETY AND INSPECTION SERVICE.USDA, FSIS, OAS PCMB",
-      "changed_document": false,
-      "classification_code": null,
-      "contacts": [
-        {
-          "email": "reginald.brown@fsis.usda.gov",
-          "full_name": "Reginald Brown",
-          "phone": "240 704 6068",
-          "title": "",
-          "type": "primary"
-        },
-        {
-          "email": "karen.petty2@usda.gov",
-          "full_name": "Karen Petty",
-          "phone": "",
-          "title": "",
-          "type": "secondary"
-        }
-      ],
-      "current_snapshot": {
-        "document_version_ids": [],
-        "evidence_units": [],
-        "history_completeness": "tracker_observed",
-        "metadata": {
-          "active": {
-            "authority": "official_sam_metadata",
-            "category": "status",
-            "claim_id": "claim:52a068e9d3395ea42551",
-            "controlling_status": "analyst_verification_required",
-            "source": {
-              "locator": {
-                "field": "active"
-              },
-              "opportunity_key": "sam_gov:123A9426Q0038",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/38d5925003d84fd2b3de42dce90c6b10/view"
-            },
-            "value": "Yes"
-          },
-          "deadline": {
-            "authority": "official_sam_metadata",
-            "category": "deadline",
-            "claim_id": "claim:24593f97e00e997d7c7c",
-            "controlling_status": "analyst_verification_required",
-            "source": {
-              "locator": {
-                "field": "deadline"
-              },
-              "opportunity_key": "sam_gov:123A9426Q0038",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/38d5925003d84fd2b3de42dce90c6b10/view"
-            },
-            "value": "2026-09-04T12:00:00-04:00"
-          },
-          "set_aside": {
-            "authority": "official_sam_metadata",
-            "category": "eligibility",
-            "claim_id": "claim:e0e17b53bc719fd3a506",
-            "controlling_status": "analyst_verification_required",
-            "source": {
-              "locator": {
-                "field": "set_aside"
-              },
-              "opportunity_key": "sam_gov:123A9426Q0038",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/38d5925003d84fd2b3de42dce90c6b10/view"
-            },
-            "value": "No Set aside used"
-          },
-          "status": {
-            "authority": "official_sam_metadata",
-            "category": "status",
-            "claim_id": "claim:12fab721ada335a6b5ac",
-            "controlling_status": "analyst_verification_required",
-            "source": {
-              "locator": {
-                "field": "status"
-              },
-              "opportunity_key": "sam_gov:123A9426Q0038",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/38d5925003d84fd2b3de42dce90c6b10/view"
-            },
-            "value": "open"
-          }
-        },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
-        "snapshot_id": "snapshot:8c9335ca474b23cdd4a3"
-      },
-      "days_to_close": 12,
-      "deadline": "2026-09-04T12:00:00-04:00",
-      "deadline_mentions": [],
-      "deliverables": [],
-      "document_completeness_score": 0,
-      "documents": [
-        {
-          "active": true,
-          "cache_status": "unavailable",
-          "document_id": "document:90ecb323132a84a06bd8",
-          "document_role": "attachment",
-          "error": "No download client or run download budget available",
-          "extraction_status": "not_fetched",
-          "is_changed": false,
-          "name": "download",
-          "new_amendment": false,
-          "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/453add4963e048d5a33354c98df1dcc5/download",
-          "versions": []
-        },
-        {
-          "active": true,
-          "cache_status": "unavailable",
-          "document_id": "document:382550891603b226d4e3",
-          "document_role": "attachment",
-          "error": "No download client or run download budget available",
-          "extraction_status": "not_fetched",
-          "is_changed": false,
-          "name": "download",
-          "new_amendment": false,
-          "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e74f7e8816334c4ca455d0bf7a832e91/download",
-          "versions": []
-        },
-        {
-          "active": true,
-          "cache_status": "unavailable",
-          "document_id": "document:012be3270d8c5b9ba1aa",
-          "document_role": "attachment",
-          "error": "No download client or run download budget available",
-          "extraction_status": "not_fetched",
-          "is_changed": false,
-          "name": "download",
-          "new_amendment": false,
-          "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/effc658355564edd98d17ec8ee95ae6b/download",
-          "versions": []
-        },
-        {
-          "active": true,
-          "cache_status": "unavailable",
-          "document_id": "document:72901c016137db3fe00b",
-          "document_role": "attachment",
-          "error": "No download client or run download budget available",
-          "extraction_status": "not_fetched",
-          "is_changed": false,
-          "name": "noticedesc",
-          "new_amendment": false,
-          "source_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=38d5925003d84fd2b3de42dce90c6b10",
-          "versions": []
-        }
-      ],
-      "eligibility": [],
-      "emails": [],
-      "evaluation_criteria": [],
-      "latest_amendment_impact": null,
-      "mission_links": [],
-      "naics_code": null,
-      "new_amendment": false,
-      "notice_id": null,
-      "notice_type": null,
-      "opportunity_key": "sam_gov:123A9426Q0038",
-      "opportunity_score": 34,
-      "phones": [],
-      "requirements": [],
-      "set_aside": "No Set aside used",
-      "snapshot_history": [],
-      "solicitation_number": null,
-      "source_urls": [
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/453add4963e048d5a33354c98df1dcc5/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e74f7e8816334c4ca455d0bf7a832e91/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/effc658355564edd98d17ec8ee95ae6b/download",
-        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=38d5925003d84fd2b3de42dce90c6b10"
-      ],
-      "status": "open",
-      "submission_instructions": [],
-      "technology_domains": [
-        "autonomy and sensing"
-      ],
-      "title": "Remote Evapotranspiration Sensor Package",
-      "url": "https://sam.gov/workspace/contract/opp/38d5925003d84fd2b3de42dce90c6b10/view"
-    },
-    {
-      "active": "Yes",
       "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION",
       "changed_document": false,
       "classification_code": null,
@@ -8151,7 +8282,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:SPE4A726T665A",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view"
             },
             "value": "Yes"
@@ -8166,7 +8297,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:SPE4A726T665A",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view"
             },
             "value": "2026-08-24"
@@ -8181,16 +8312,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:SPE4A726T665A",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:e4075e816f92c9b4dcc5"
       },
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "2026-08-24",
       "deadline_mentions": [],
       "deliverables": [],
@@ -8266,7 +8397,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:SPE4A626T18FW",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view"
             },
             "value": "Yes"
@@ -8281,7 +8412,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:SPE4A626T18FW",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view"
             },
             "value": "2026-08-24"
@@ -8296,16 +8427,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:SPE4A626T18FW",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:e4075e816f92c9b4dcc5"
       },
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "2026-08-24",
       "deadline_mentions": [],
       "deliverables": [],
@@ -8381,7 +8512,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:SPE7M126T278V",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/8f42834292314b9bb08ade0259ef007a/view"
             },
             "value": "Yes"
@@ -8396,7 +8527,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:SPE7M126T278V",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/8f42834292314b9bb08ade0259ef007a/view"
             },
             "value": "2026-08-24"
@@ -8411,7 +8542,7 @@
                 "field": "set_aside"
               },
               "opportunity_key": "sam_gov:SPE7M126T278V",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/8f42834292314b9bb08ade0259ef007a/view"
             },
             "value": "Small Business Set Aside - Total"
@@ -8426,16 +8557,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:SPE7M126T278V",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/8f42834292314b9bb08ade0259ef007a/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:939000cf66d9330308e4"
       },
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "2026-08-24",
       "deadline_mentions": [],
       "deliverables": [],
@@ -8511,7 +8642,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:INL_RFQ-PR15372268",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/95813bd2ad944e7a89b5590605a0ccc9/view"
             },
             "value": "Yes"
@@ -8526,7 +8657,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:INL_RFQ-PR15372268",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/95813bd2ad944e7a89b5590605a0ccc9/view"
             },
             "value": "2026-08-24T16:00:00-05:00"
@@ -8541,16 +8672,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:INL_RFQ-PR15372268",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/95813bd2ad944e7a89b5590605a0ccc9/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:ed4544147e02e4b3cbb3"
       },
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "2026-08-24T16:00:00-05:00",
       "deadline_mentions": [],
       "deliverables": [],
@@ -8640,7 +8771,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:SPE7L126T958V",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view"
             },
             "value": "Yes"
@@ -8655,7 +8786,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:SPE7L126T958V",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view"
             },
             "value": "2026-08-24"
@@ -8670,16 +8801,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:SPE7L126T958V",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:e4075e816f92c9b4dcc5"
       },
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "2026-08-24",
       "deadline_mentions": [],
       "deliverables": [],
@@ -8755,7 +8886,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:SPE4A126T2624",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view"
             },
             "value": "Yes"
@@ -8770,7 +8901,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:SPE4A126T2624",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view"
             },
             "value": "2026-08-25"
@@ -8785,7 +8916,7 @@
                 "field": "set_aside"
               },
               "opportunity_key": "sam_gov:SPE4A126T2624",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view"
             },
             "value": "Small Business Set Aside - Total"
@@ -8800,16 +8931,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:SPE4A126T2624",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:c361867fdcac1ce8b2b9"
       },
-      "days_to_close": 2,
+      "days_to_close": 1,
       "deadline": "2026-08-25",
       "deadline_mentions": [],
       "deliverables": [],
@@ -8885,7 +9016,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:1333ND26QNB680495",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/b0c03fae4cd744a4a1eb7b1f16f50bb3/view"
             },
             "value": "Yes"
@@ -8900,7 +9031,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:1333ND26QNB680495",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/b0c03fae4cd744a4a1eb7b1f16f50bb3/view"
             },
             "value": "2026-08-25T12:00:00-04:00"
@@ -8915,16 +9046,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:1333ND26QNB680495",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/b0c03fae4cd744a4a1eb7b1f16f50bb3/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:5cc8e51a461fffc14938"
       },
-      "days_to_close": 2,
+      "days_to_close": 1,
       "deadline": "2026-08-25T12:00:00-04:00",
       "deadline_mentions": [],
       "deliverables": [],
@@ -9042,7 +9173,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:NB305000-26-01470",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/ffbf39d50ec4475b9c08b091df75f34a/view"
             },
             "value": "Yes"
@@ -9057,7 +9188,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:NB305000-26-01470",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/ffbf39d50ec4475b9c08b091df75f34a/view"
             },
             "value": "2026-08-25T13:00:00-04:00"
@@ -9072,16 +9203,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:NB305000-26-01470",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/ffbf39d50ec4475b9c08b091df75f34a/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:dc23b71f8aa60f3fc381"
       },
-      "days_to_close": 2,
+      "days_to_close": 1,
       "deadline": "2026-08-25T13:00:00-04:00",
       "deadline_mentions": [],
       "deliverables": [],
@@ -9127,121 +9258,6 @@
       ],
       "title": "Maintenance agreement for a Quantum Design Cryocool system",
       "url": "https://sam.gov/workspace/contract/opp/ffbf39d50ec4475b9c08b091df75f34a/view"
-    },
-    {
-      "active": "Yes",
-      "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION",
-      "changed_document": false,
-      "classification_code": null,
-      "contacts": [
-        {
-          "email": "DibbsBSM@dla.mil",
-          "full_name": "Questions regarding this solicitation should be emailed to the buyer listed in block 5 of the solicitation document which can be found under the Additional Information link. If the Additional Information link does not work, please go to https://www.dibbs.bsm.dla.mil/Solicitations/ and type the solicitation number in the Global Search box.",
-          "phone": "",
-          "title": "",
-          "type": "primary"
-        }
-      ],
-      "current_snapshot": {
-        "document_version_ids": [],
-        "evidence_units": [],
-        "history_completeness": "tracker_observed",
-        "metadata": {
-          "active": {
-            "authority": "official_sam_metadata",
-            "category": "status",
-            "claim_id": "claim:f7541095f62c062343d3",
-            "controlling_status": "analyst_verification_required",
-            "source": {
-              "locator": {
-                "field": "active"
-              },
-              "opportunity_key": "sam_gov:SPE4A526T373T",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view"
-            },
-            "value": "Yes"
-          },
-          "deadline": {
-            "authority": "official_sam_metadata",
-            "category": "deadline",
-            "claim_id": "claim:74e9fe34edf124b21de2",
-            "controlling_status": "analyst_verification_required",
-            "source": {
-              "locator": {
-                "field": "deadline"
-              },
-              "opportunity_key": "sam_gov:SPE4A526T373T",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view"
-            },
-            "value": "2026-08-26"
-          },
-          "status": {
-            "authority": "official_sam_metadata",
-            "category": "status",
-            "claim_id": "claim:57efe4b765a1912fa0ad",
-            "controlling_status": "analyst_verification_required",
-            "source": {
-              "locator": {
-                "field": "status"
-              },
-              "opportunity_key": "sam_gov:SPE4A526T373T",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view"
-            },
-            "value": "open"
-          }
-        },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
-        "snapshot_id": "snapshot:119bbb809876d07779ae"
-      },
-      "days_to_close": 3,
-      "deadline": "2026-08-26",
-      "deadline_mentions": [],
-      "deliverables": [],
-      "document_completeness_score": 0,
-      "documents": [
-        {
-          "active": true,
-          "cache_status": "unavailable",
-          "document_id": "document:cc9a5bcc34f22b98dcbb",
-          "document_role": "attachment",
-          "error": "No download client or run download budget available",
-          "extraction_status": "not_fetched",
-          "is_changed": false,
-          "name": "noticedesc",
-          "new_amendment": false,
-          "source_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0f76f691fbc441681bc673240f79d62",
-          "versions": []
-        }
-      ],
-      "eligibility": [],
-      "emails": [],
-      "evaluation_criteria": [],
-      "latest_amendment_impact": null,
-      "mission_links": [],
-      "naics_code": null,
-      "new_amendment": false,
-      "notice_id": null,
-      "notice_type": null,
-      "opportunity_key": "sam_gov:SPE4A526T373T",
-      "opportunity_score": 32,
-      "phones": [],
-      "requirements": [],
-      "set_aside": "",
-      "snapshot_history": [],
-      "solicitation_number": null,
-      "source_urls": [
-        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d0f76f691fbc441681bc673240f79d62"
-      ],
-      "status": "open",
-      "submission_instructions": [],
-      "technology_domains": [
-        "autonomy and sensing"
-      ],
-      "title": "63--SALINITY SENSOR,CON",
-      "url": "https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view"
     },
     {
       "active": "Yes",
@@ -9866,7 +9882,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:RFP-ACT-SACT-26-81",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view"
             },
             "value": "Yes"
@@ -9881,7 +9897,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:RFP-ACT-SACT-26-81",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view"
             },
             "value": "2026-09-09T09:00:00-04:00"
@@ -9896,16 +9912,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:RFP-ACT-SACT-26-81",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:a6e424bfc73ed7776509"
       },
-      "days_to_close": 17,
+      "days_to_close": 16,
       "deadline": "2026-09-09T09:00:00-04:00",
       "deadline_mentions": [],
       "deliverables": [
@@ -10810,7 +10826,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:N0017326P-1301396057",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/5633e09273894004967a7038a7362502/view"
             },
             "value": "Yes"
@@ -10825,7 +10841,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:N0017326P-1301396057",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/5633e09273894004967a7038a7362502/view"
             },
             "value": "2026-08-24T08:00:00-04:00"
@@ -10840,7 +10856,7 @@
                 "field": "set_aside"
               },
               "opportunity_key": "sam_gov:N0017326P-1301396057",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/5633e09273894004967a7038a7362502/view"
             },
             "value": "No Set aside used"
@@ -10855,16 +10871,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:N0017326P-1301396057",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/5633e09273894004967a7038a7362502/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:1589b12b2f75af8377f6"
       },
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "2026-08-24T08:00:00-04:00",
       "deadline_mentions": [],
       "deliverables": [],
@@ -10919,7 +10935,7 @@
       "notice_id": null,
       "notice_type": null,
       "opportunity_key": "sam_gov:N0017326P-1301396057",
-      "opportunity_score": 37,
+      "opportunity_score": 32,
       "phones": [],
       "requirements": [],
       "set_aside": "No Set aside used",
@@ -11513,7 +11529,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:36C26126Q1197",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view"
             },
             "value": "Yes"
@@ -11528,7 +11544,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:36C26126Q1197",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view"
             },
             "value": "2026-08-27T15:00:00-07:00"
@@ -11543,7 +11559,7 @@
                 "field": "set_aside"
               },
               "opportunity_key": "sam_gov:36C26126Q1197",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view"
             },
             "value": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)"
@@ -11558,16 +11574,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:36C26126Q1197",
-              "retrieved_at": "2026-08-23T03:45:44.113870+00:00",
+              "retrieved_at": "2026-08-24T00:52:30.741253+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-08-23T03:45:44.113870+00:00",
+        "observed_at": "2026-08-24T00:52:30.741253+00:00",
         "snapshot_id": "snapshot:019b8964da2e56c91c9c"
       },
-      "days_to_close": 4,
+      "days_to_close": 3,
       "deadline": "2026-08-27T15:00:00-07:00",
       "deadline_mentions": [
         "evada Healthcare System KIRA B100 Autonomous Floor Scrubber Submission of your response shall be received no later than August 27, 2026 at 1500 PDT at victoria.torres@va.gov. Any question or concerns regarding this solicitation should be forwarded in writing via email to the Point of Contact listed...",
@@ -12293,13 +12309,13 @@
     "changed_documents": 0,
     "critical_amendment_impacts": 0,
     "decisions_revalidation_required": 2,
-    "documents_discovered": 50,
+    "documents_discovered": 45,
     "documents_extracted": 10,
     "downloads_remaining": 0,
     "material_amendment_impacts": 0,
     "new_amendments": 0,
     "opportunities_reviewed": 20
   },
-  "updated_at": "2026-08-23T03:45:44.113870+00:00",
+  "updated_at": "2026-08-24T00:52:30.741253+00:00",
   "version": 2
 }

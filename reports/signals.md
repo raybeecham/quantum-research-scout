@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-23 01:01 UTC_
+_Updated 2026-08-24 00:59 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
@@ -13,8 +13,8 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 | AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-08-22 | 16 |
 | QEC / Fault Tolerance | ↗️ rising (5 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-08-22 | 48 |
 | PQC / Crypto Agility | ➡️ stable (15 vs 15) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-08-21 | 141 |
-| Quantum Hardware | ➡️ stable (21 vs 19) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-22 | 218 |
-| Quantum Networking | ➡️ stable (7 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-21 | 89 |
+| Quantum Hardware | ➡️ stable (22 vs 20) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-23 | 220 |
+| Quantum Networking | ➡️ stable (11 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-23 | 93 |
 | Quantum Sensing | ↘️ declining (3 vs 7) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-20 | 38 |
 | Quantum Software / Tooling | ➡️ stable (7 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-22 | 69 |
 | Standards / Government | ↘️ declining (6 vs 11) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-08-21 | 31 |
@@ -57,22 +57,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-08-23 — [Infleqtion (INFQ) and the Neutral-Atom Bet Behind Its NYSE Listing](https://quantumzeitgeist.com/infleqtion-infq) (Quantum Zeitgeist, score 43)
+  - 2026-08-23 — [Diraq, Quantum Computing Built in Standard Silicon](https://quantumzeitgeist.com/diraq) (Quantum Zeitgeist, score 19)
   - 2026-08-22 — [Researchers Bound Qubits Needed for Mixedness Tests](https://quantumzeitgeist.com/qubits-mixedness-testing-state-discrimination-fidelity-bound) (Quantum Zeitgeist, score 32)
   - 2026-08-22 — [Technical Munich Team Enables 86% More Quantum Benchmarks on Small Chips](https://quantumzeitgeist.com/fault-tolerant-quantum-computing-lattice-surgery-optimisation) (Quantum Zeitgeist, score 24)
   - 2026-08-21 — [What Is NISQ Quantum Computing: The Current Era of Quantum Machines](https://thequantuminsider.com/2026/08/21/what-is-nisq-quantum-computing-guide) (The Quantum Insider, score 52)
-  - 2026-08-21 — [FAMU-FSU College of Engineering designs qubit with floating electrons above chip](https://quantumzeitgeist.com/qubit-floating-electrons-famu-fsu-college) (QuantumNews.ai, score 25)
-  - 2026-08-21 — [Optalysys aims to compute as data travels, not just when it arrives](https://quantumzeitgeist.com/compute-data-travels-optalysys-aims) (QuantumNews.ai, score 19)
 
 ## Quantum Networking
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph, USAspending · Quantum Technologies
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
+  - 2026-08-23 — [Leeds researchers balance quantum repeater speed and reach](https://quantumzeitgeist.com/leeds-quantum-repeater-speed-balance) (Quantum Zeitgeist, score 53)
+  - 2026-08-23 — [Brookhaven And Stony Brook Researchers Demonstrate ‘Wireless’ Capability for Quantum Network](https://thequantuminsider.com/2026/08/23/wireless-capability-quantum-network) (The Quantum Insider, score 40)
+  - 2026-08-23 — [Protocol balances accuracy and privacy in quantum sensing networks](https://quantumzeitgeist.com/technical-denmark-protocol-balances-accuracy-privacy) (Quantum Zeitgeist, score 37)
+  - 2026-08-23 — [Brookhaven Lab and Stony Brook send quantum data through the air](https://quantumzeitgeist.com/stony-brook-quantum-data-brookhaven-lab) (Quantum Zeitgeist, score 36)
   - 2026-08-21 — [Stony Brook Team Maps Limits of Entangled Bell Mixtures](https://quantumzeitgeist.com/entangled-bell-mixtures-noise-limits-mapping-teleportation) (QuantumNews.ai, score 36)
-  - 2026-08-20 — [Cost-Efficient Quantum Repeaters for National Defense Networks](https://quantumnews.ai/networking/cost-efficient-quantum-repeaters-for-national-defense-networks) (QuantumNews.ai, score 35)
-  - 2026-08-20 — [Polarization entanglement restored in solid-state photon sources](https://quantumzeitgeist.com/technion-israel-polarization-entanglement-restored-solid) (Quantum Zeitgeist, score 27)
-  - 2026-08-19 — [Allot Leads New Consortium Focused on Post-Quantum Communications](https://thequantuminsider.com/2026/08/19/allot-launches-post-quantum-communications-consortium) (The Quantum Insider, score 92)
-  - 2026-08-18 — [Allot chairs new group to build quantum-safe networks](https://quantumzeitgeist.com/allot-chairs-quantum-safe-networks) (Quantum Zeitgeist, score 105)
 
 ## Quantum Sensing
 
