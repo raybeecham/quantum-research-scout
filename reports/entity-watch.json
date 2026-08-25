@@ -83,7 +83,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 20,
+      "evidence_count": 22,
       "first_party_evidence_count": 0,
       "name": "Infleqtion",
       "priority": "medium",
@@ -114,7 +114,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 8,
+      "evidence_count": 9,
       "first_party_evidence_count": 0,
       "name": "NIST",
       "priority": "critical",
@@ -215,8 +215,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 6,
-      "first_party_evidence_count": 5,
+      "evidence_count": 7,
+      "first_party_evidence_count": 6,
       "name": "Cisco",
       "priority": "high",
       "status": "covered",
@@ -714,8 +714,20 @@
         "National Institute of Standards and Technology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 8,
+      "current_evidence_count": 9,
       "evidence": [
+        {
+          "date": "2026-08-24",
+          "key": "https://www.nist.gov/news-events/news/2026/08/nist-researchers-supersize-quantum-technology-help-detect-faint-photons",
+          "report": "2026-08/2026-08-24-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons",
+          "url": "https://www.nist.gov/news-events/news/2026/08/nist-researchers-supersize-quantum-technology-help-detect-faint-photons"
+        },
         {
           "date": "2026-08-20",
           "key": "https://quantumzeitgeist.com/post-quantum-algorithms-crypto4as-module-supports",
@@ -813,15 +825,15 @@
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
         }
       ],
-      "evidence_count": 8,
+      "evidence_count": 9,
       "first_seen": "2026-06-25",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-20",
-      "momentum": "stable",
+      "latest_seen": "2026-08-24",
+      "momentum": "rising",
       "name": "NIST",
       "prior_count": 1,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2611,6 +2623,114 @@
       "type": "company"
     },
     {
+      "aliases": [
+        "Cisco Systems"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 7,
+      "evidence": [
+        {
+          "date": "2026-08-24",
+          "key": "https://blogs.cisco.com/developer/mutual-post-quantum-auth-over-ikev2-ipsec-series-part-8",
+          "report": "2026-08/2026-08-24-digest.md",
+          "score": 158,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Mutual Post-Quantum Auth over IKEv2 \u2013 IPsec Series, Part 8",
+          "url": "https://blogs.cisco.com/developer/mutual-post-quantum-auth-over-ikev2-ipsec-series-part-8"
+        },
+        {
+          "date": "2026-08-17",
+          "key": "https://blogs.cisco.com/developer/the-great-certificate-size-explosion-ipsec-series-part-7",
+          "report": "2026-08/2026-08-17-digest.md",
+          "score": 42,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The Great Certificate Size Explosion \u2013 IPsec Series, Part 7",
+          "url": "https://blogs.cisco.com/developer/the-great-certificate-size-explosion-ipsec-series-part-7"
+        },
+        {
+          "date": "2026-08-10",
+          "key": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6",
+          "report": "2026-08/2026-08-10-digest.md",
+          "score": 194,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Who Goes There? Post-Quantum Authentication \u2013 IPsec Series, Part 6",
+          "url": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 42,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Quantum Computing: What IT and Business Leaders Need to Know",
+          "url": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 88,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "A Different Road to Quantum Safety: The PPK \u2013 IPsec Series, Part 5",
+          "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 25,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Cisco Routers Now Run Quantum Encryption via Live eQKD Network",
+          "url": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption"
+        },
+        {
+          "date": "2026-07-27",
+          "key": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4",
+          "report": "2026-07/2026-07-27-digest.md",
+          "score": 130,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
+          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
+        }
+      ],
+      "evidence_count": 7,
+      "first_seen": "2026-07-27",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-08-24",
+      "momentum": "stable",
+      "name": "Cisco",
+      "prior_count": 1,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Networking"
+      ],
+      "type": "company"
+    },
+    {
       "aliases": [],
       "case_sensitive_aliases": [],
       "current_evidence_count": 7,
@@ -2706,7 +2826,7 @@
       "latest_seen": "2026-08-11",
       "momentum": "declining",
       "name": "Cloudflare",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -2714,102 +2834,6 @@
         "AI Security",
         "PQC / Crypto Agility",
         "Standards / Government"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [
-        "Cisco Systems"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 6,
-      "evidence": [
-        {
-          "date": "2026-08-17",
-          "key": "https://blogs.cisco.com/developer/the-great-certificate-size-explosion-ipsec-series-part-7",
-          "report": "2026-08/2026-08-17-digest.md",
-          "score": 42,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The Great Certificate Size Explosion \u2013 IPsec Series, Part 7",
-          "url": "https://blogs.cisco.com/developer/the-great-certificate-size-explosion-ipsec-series-part-7"
-        },
-        {
-          "date": "2026-08-10",
-          "key": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6",
-          "report": "2026-08/2026-08-10-digest.md",
-          "score": 194,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Who Goes There? Post-Quantum Authentication \u2013 IPsec Series, Part 6",
-          "url": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 42,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Quantum Computing: What IT and Business Leaders Need to Know",
-          "url": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know"
-        },
-        {
-          "date": "2026-08-03",
-          "key": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5",
-          "report": "2026-08/2026-08-03-digest.md",
-          "score": 88,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "A Different Road to Quantum Safety: The PPK \u2013 IPsec Series, Part 5",
-          "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
-        },
-        {
-          "date": "2026-07-31",
-          "key": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 25,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "Cisco Routers Now Run Quantum Encryption via Live eQKD Network",
-          "url": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption"
-        },
-        {
-          "date": "2026-07-27",
-          "key": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4",
-          "report": "2026-07/2026-07-27-digest.md",
-          "score": 130,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
-          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
-        }
-      ],
-      "evidence_count": 6,
-      "first_seen": "2026-07-27",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-08-17",
-      "momentum": "stable",
-      "name": "Cisco",
-      "prior_count": 1,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility",
-        "Quantum Networking"
       ],
       "type": "company"
     },
@@ -3994,8 +4018,32 @@
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 20,
+      "current_evidence_count": 22,
       "evidence": [
+        {
+          "date": "2026-08-24",
+          "key": "https://thequantuminsider.com/2026/08/24/infleqtion-japan-operational-neutral-atom-quantum-computer",
+          "report": "2026-08/2026-08-24-digest.md",
+          "score": 49,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion Helps Launch Japan\u2019s First Operational Neutral-Atom Quantum Computer",
+          "url": "https://thequantuminsider.com/2026/08/24/infleqtion-japan-operational-neutral-atom-quantum-computer"
+        },
+        {
+          "date": "2026-08-24",
+          "key": "https://infleqtion.com/infleqtion-collaboration-with-japan-moonshot-program-achieves-major-milestone-shunkai-neutral-atom-quantum-computer-now-operational",
+          "report": "2026-08/2026-08-24-digest.md",
+          "score": 40,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion Collaboration with Japan Moonshot Program Achieves Major Milestone: \"Shunkai\" Neutral Atom Quantum Computer Now Operational",
+          "url": "https://infleqtion.com/infleqtion-collaboration-with-japan-moonshot-program-achieves-major-milestone-shunkai-neutral-atom-quantum-computer-now-operational"
+        },
         {
           "date": "2026-08-23",
           "key": "https://quantumzeitgeist.com/infleqtion-infq",
@@ -4237,15 +4285,15 @@
           "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
         }
       ],
-      "evidence_count": 20,
+      "evidence_count": 22,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-23",
-      "momentum": "declining",
+      "latest_seen": "2026-08-24",
+      "momentum": "rising",
       "name": "Infleqtion",
-      "prior_count": 5,
+      "prior_count": 3,
       "priority": "medium",
-      "recent_count": 3,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -4420,9 +4468,9 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-20",
-      "momentum": "declining",
+      "momentum": "rising",
       "name": "Pasqal",
-      "prior_count": 2,
+      "prior_count": 0,
       "priority": "medium",
       "recent_count": 1,
       "status": "active",
@@ -5834,9 +5882,9 @@
       "first_seen": "2026-07-16",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-23",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Quantum networking",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -6212,6 +6260,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-24T00:59:37.883824+00:00",
+  "updated_at": "2026-08-25T01:01:53.932744+00:00",
   "version": 2
 }

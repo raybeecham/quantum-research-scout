@@ -1,28 +1,35 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-24T00:52:30.741253+00:00_
+_Updated 2026-08-25T00:52:22.704574+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **528**
-- Quarantined evidence or relationships: **110**
-- Acceptance rate: **82.8%**
+- Quarantined evidence or relationships: **111**
+- Acceptance rate: **82.6%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 28 | 82 | 25.5% |
+| Federal missions | 28 | 83 | 25.2% |
 | Federal funding | 500 | 28 | 94.7% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 110
-- **No relevant term in the evidence itself**: 110
+- **Match appears only in collector query metadata**: 111
+- **No relevant term in the evidence itself**: 111
 - **Official government source**: 104
-- **Source is not an official .gov or .mil domain**: 6
+- **Source is not an official .gov or .mil domain**: 7
 
 ## Quarantined Evidence
+
+### [U.S. Treasury Announces the Quantum-Readiness Task Force](https://thequantuminsider.com/2026/08/24/u-s-treasury-announces-the-quantum-readiness-task-force)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [Cryptography 1d ago Utimaco says US agencies must cut quantum risk by end of 2030](https://quantumzeitgeist.com/utimaco-agencies-must-cut-quantum)
 
@@ -711,13 +718,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [FDA Support for Conferences and Scientific Meetings (R13 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/342752)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Faculty Early Career Development Program](https://www.grants.gov/search-results-detail/339594)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

@@ -860,9 +860,9 @@
     },
     {
       "confidence": "medium",
-      "evidence_count": 3,
+      "evidence_count": 4,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-08-10",
+      "latest_evidence_at": "2026-08-24",
       "name": "Cisco",
       "priority": "high",
       "source_count": 1,
@@ -870,6 +870,21 @@
       "stage_label": "Awareness",
       "stage_rank": 1,
       "supporting_evidence": [
+        {
+          "date": "2026-08-24",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Mutual Post-Quantum Auth over IKEv2 \u2013 IPsec Series, Part 8",
+          "url": "https://blogs.cisco.com/developer/mutual-post-quantum-auth-over-ikev2-ipsec-series-part-8"
+        },
         {
           "date": "2026-08-10",
           "date_confidence": "unknown",
@@ -1570,6 +1585,6 @@
     "not_assessed": 21,
     "organizations": 43
   },
-  "updated_at": "2026-08-24T00:59:38.367423+00:00",
+  "updated_at": "2026-08-25T01:01:54.431698+00:00",
   "version": 1
 }

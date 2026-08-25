@@ -231,11 +231,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-e2c16670ec0e9c2f",
+      "claim_id": "claim-d032df2741861f91",
       "confidence": "high",
-      "effective_date": "2026-08-23",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -243,59 +243,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e9fcfd1b7436080e",
-          "locator": "opportunity_status:open",
-          "title": "30--FILL PUMP AC OIL,AI",
-          "url": "https://sam.gov/workspace/contract/opp/e8ad08e63efd482288d9b38a93b295bb/view",
+          "evidence_id": "evidence-644c04095d800e28",
+          "locator": "opportunity_status:awarded",
+          "title": "16--MODIFICATION KIT,AI",
+          "url": "https://sam.gov/workspace/contract/opp/ba4f7146b90e425bac00d2b2a8b79c64/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE7LX26U9694",
-        "label": "30--FILL PUMP AC OIL,AI",
-        "node_id": "opportunity:sam_gov:SPE7LX26U9694",
-        "node_type": "opportunity"
+        "identifier": "sam_gov:SPE4A626RXA10",
+        "label": "16--MODIFICATION KIT,AI",
+        "node_id": "award_notice:sam_gov:SPE4A626RXA10",
+        "node_type": "award_notice"
       },
-      "value": "open"
+      "value": "awarded"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-ec28afa8744ae81d",
+      "claim_id": "claim-1a1c09925d6834a6",
       "confidence": "high",
-      "effective_date": "2026-08-23",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "object": null,
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-065ad917d80b6741",
-          "locator": "deadline:2026-09-08",
-          "title": "30--FILL PUMP AC OIL,AI",
-          "url": "https://sam.gov/workspace/contract/opp/e8ad08e63efd482288d9b38a93b295bb/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE7LX26U9694",
-        "label": "30--FILL PUMP AC OIL,AI",
-        "node_id": "opportunity:sam_gov:SPE7LX26U9694",
-        "node_type": "opportunity"
-      },
-      "value": "2026-09-08"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a76725317fbb9935",
-      "confidence": "high",
-      "effective_date": "2026-08-23",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -303,29 +273,129 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f73888896b63dfe7",
-          "locator": "awarding_agency:dept of defense.defense logistics agency.dla land.dla land columbus.dla land and maritime",
-          "title": "30--FILL PUMP AC OIL,AI",
-          "url": "https://sam.gov/workspace/contract/opp/e8ad08e63efd482288d9b38a93b295bb/view",
+          "evidence_id": "evidence-328d38e6e70d520f",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
+          "title": "16--MODIFICATION KIT,AI",
+          "url": "https://sam.gov/workspace/contract/opp/ba4f7146b90e425bac00d2b2a8b79c64/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE7LX26U9694",
-        "label": "30--FILL PUMP AC OIL,AI",
-        "node_id": "opportunity:sam_gov:SPE7LX26U9694",
-        "node_type": "opportunity"
+        "identifier": "sam_gov:SPE4A626RXA10",
+        "label": "16--MODIFICATION KIT,AI",
+        "node_id": "award_notice:sam_gov:SPE4A626RXA10",
+        "node_type": "award_notice"
       },
-      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND COLUMBUS.DLA LAND AND MARITIME"
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-f381274461bcffce",
+      "claim_id": "claim-d23d03e4d46cecd8",
       "confidence": "high",
-      "effective_date": "2026-08-22",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a3a3e124c62db92a",
+          "locator": "reported_amount:350000.0",
+          "title": "16--MODIFICATION KIT,AI",
+          "url": "https://sam.gov/workspace/contract/opp/ba4f7146b90e425bac00d2b2a8b79c64/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A626RXA10",
+        "label": "16--MODIFICATION KIT,AI",
+        "node_id": "award_notice:sam_gov:SPE4A626RXA10",
+        "node_type": "award_notice"
+      },
+      "value": 350000.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6079b595042c8601",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": {
+        "identifier": "name:thales defense and security",
+        "label": "THALES DEFENSE & SECURITY INC",
+        "node_id": "recipient_or_contractor:name:thales defense and security",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-55e0454c55012fc1",
+          "locator": "reported_recipient:recipient_or_contractor:name:thales defense and security",
+          "title": "16--MODIFICATION KIT,AI",
+          "url": "https://sam.gov/workspace/contract/opp/ba4f7146b90e425bac00d2b2a8b79c64/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A626RXA10",
+        "label": "16--MODIFICATION KIT,AI",
+        "node_id": "award_notice:sam_gov:SPE4A626RXA10",
+        "node_type": "award_notice"
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-c9246f3b1a5178b7",
+      "confidence": "high",
+      "effective_date": null,
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": {
+        "identifier": "US20260238350A1",
+        "label": "QUANTUM COMMUNICATION SYSTEM USING CORRECTION OF THE POLARIZATION OF PHOTONS",
+        "node_id": "patent:US20260238350A1",
+        "node_type": "patent"
+      },
+      "predicate": "has_related_patent",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6183c04f9ba1bc15",
+          "locator": "has_related_patent:patent:US20260238350A1",
+          "title": "QUANTUM COMMUNICATION SYSTEM USING CORRECTION OF THE POLARIZATION OF PHOTONS",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18988739/application-data",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "name:thales defense and security",
+        "label": "THALES DEFENSE & SECURITY INC",
+        "node_id": "recipient_or_contractor:name:thales defense and security",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-fbcad60255e57489",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -333,89 +403,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-02cdb8ea9f8d5aef",
-          "locator": "opportunity_status:open",
-          "title": "59--TAIL SENSOR",
-          "url": "https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view",
+          "evidence_id": "evidence-97a4b4f866f3886a",
+          "locator": "opportunity_status:awarded",
+          "title": "SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (SAMHSA), OFFICE OF MANAGEMENT, TECHNOLOGY AND OPERATIONS, DIVISION OF TECHNOLOGY MANAGEMENT (OMTO/DTM) CYBERSECURITY AND...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75S20326F80003_7522_75N98118D00043_7529",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE7M526T432P",
-        "label": "59--TAIL SENSOR",
-        "node_id": "opportunity:sam_gov:SPE7M526T432P",
-        "node_type": "opportunity"
+        "identifier": "usaspending:75S20326F80003",
+        "label": "SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (SAMHSA), OFFICE OF MANAGEMENT, TECHNOLOGY AND OPERATIONS, DIVISION OF TECHNOLOGY MANAGEMENT (OMTO/DTM) CYBERSECURITY AND...",
+        "node_id": "award:usaspending:75S20326F80003",
+        "node_type": "award"
       },
-      "value": "open"
+      "value": "awarded"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-0c83beca0d83f0d2",
+      "claim_id": "claim-f2623af5dc4022f5",
       "confidence": "high",
-      "effective_date": "2026-08-22",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "object": null,
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1b8fa1e11e82a70e",
-          "locator": "deadline:2026-08-31",
-          "title": "59--TAIL SENSOR",
-          "url": "https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE7M526T432P",
-        "label": "59--TAIL SENSOR",
-        "node_id": "opportunity:sam_gov:SPE7M526T432P",
-        "node_type": "opportunity"
-      },
-      "value": "2026-08-31"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-bb155852e4e67f2e",
-      "confidence": "high",
-      "effective_date": "2026-08-22",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "object": null,
-      "predicate": "set_aside",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ee032b48ef6cef3e",
-          "locator": "set_aside:small business set aside - total",
-          "title": "59--TAIL SENSOR",
-          "url": "https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE7M526T432P",
-        "label": "59--TAIL SENSOR",
-        "node_id": "opportunity:sam_gov:SPE7M526T432P",
-        "node_type": "opportunity"
-      },
-      "value": "Small Business Set Aside - Total"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-54c63f0695aef47a",
-      "confidence": "high",
-      "effective_date": "2026-08-22",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -423,29 +433,94 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3365b8e2baf9d098",
-          "locator": "awarding_agency:dept of defense.defense logistics agency.dla maritime.dla maritime columbus.dla land and maritime",
-          "title": "59--TAIL SENSOR",
-          "url": "https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view",
+          "evidence_id": "evidence-746e1ee00431a04c",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (SAMHSA), OFFICE OF MANAGEMENT, TECHNOLOGY AND OPERATIONS, DIVISION OF TECHNOLOGY MANAGEMENT (OMTO/DTM) CYBERSECURITY AND...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75S20326F80003_7522_75N98118D00043_7529",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE7M526T432P",
-        "label": "59--TAIL SENSOR",
-        "node_id": "opportunity:sam_gov:SPE7M526T432P",
-        "node_type": "opportunity"
+        "identifier": "usaspending:75S20326F80003",
+        "label": "SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (SAMHSA), OFFICE OF MANAGEMENT, TECHNOLOGY AND OPERATIONS, DIVISION OF TECHNOLOGY MANAGEMENT (OMTO/DTM) CYBERSECURITY AND...",
+        "node_id": "award:usaspending:75S20326F80003",
+        "node_type": "award"
       },
-      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME"
+      "value": "Department of Health and Human Services"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-c6b6bd74e517154c",
+      "claim_id": "claim-74d6c39de34cd9b8",
       "confidence": "high",
-      "effective_date": "2026-08-22",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7fedcb1392470ea4",
+          "locator": "reported_amount:684785.0",
+          "title": "SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (SAMHSA), OFFICE OF MANAGEMENT, TECHNOLOGY AND OPERATIONS, DIVISION OF TECHNOLOGY MANAGEMENT (OMTO/DTM) CYBERSECURITY AND...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75S20326F80003_7522_75N98118D00043_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75S20326F80003",
+        "label": "SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (SAMHSA), OFFICE OF MANAGEMENT, TECHNOLOGY AND OPERATIONS, DIVISION OF TECHNOLOGY MANAGEMENT (OMTO/DTM) CYBERSECURITY AND...",
+        "node_id": "award:usaspending:75S20326F80003",
+        "node_type": "award"
+      },
+      "value": 684785.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ad98f9bc07049a2f",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": {
+        "identifier": "uei:HSKBZDAKYH87",
+        "label": "CENTERPOINT LLC",
+        "node_id": "recipient_or_contractor:uei:HSKBZDAKYH87",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fcd2a533ad4bfd5c",
+          "locator": "reported_recipient:recipient_or_contractor:uei:HSKBZDAKYH87",
+          "title": "SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (SAMHSA), OFFICE OF MANAGEMENT, TECHNOLOGY AND OPERATIONS, DIVISION OF TECHNOLOGY MANAGEMENT (OMTO/DTM) CYBERSECURITY AND...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75S20326F80003_7522_75N98118D00043_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75S20326F80003",
+        "label": "SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (SAMHSA), OFFICE OF MANAGEMENT, TECHNOLOGY AND OPERATIONS, DIVISION OF TECHNOLOGY MANAGEMENT (OMTO/DTM) CYBERSECURITY AND...",
+        "node_id": "award:usaspending:75S20326F80003",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-94a8f48c9817b304",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -453,17 +528,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-58d24620914a1e44",
+          "evidence_id": "evidence-6cc7f548e6dd5097",
           "locator": "opportunity_status:open",
-          "title": "16--SENSOR,ANTI-LOCK BR",
-          "url": "https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view",
+          "title": "TECHNOLOGY TRANSFER OPPORTUNITY: 3D Lidar for Autonomous Landing Site Selection (GSC-TOPS-353)",
+          "url": "https://sam.gov/workspace/contract/opp/e68078da34b44580a43f7d97305b3b35/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A726T685A",
-        "label": "16--SENSOR,ANTI-LOCK BR",
-        "node_id": "opportunity:sam_gov:SPE4A726T685A",
+        "identifier": "sam_gov:T2P-GSFC-00073",
+        "label": "TECHNOLOGY TRANSFER OPPORTUNITY: 3D Lidar for Autonomous Landing Site Selection (GSC-TOPS-353)",
+        "node_id": "opportunity:sam_gov:T2P-GSFC-00073",
         "node_type": "opportunity"
       },
       "value": "open"
@@ -471,11 +546,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-accff759f32ced0a",
+      "claim_id": "claim-2718eaa53d1b5c6b",
       "confidence": "high",
-      "effective_date": "2026-08-22",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "deadline",
       "sources": [
@@ -483,17 +558,197 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c2c76f7189fc9da2",
+          "evidence_id": "evidence-fadb0acb98fccf71",
+          "locator": "deadline:2027-08-24t15:00:00-05:00",
+          "title": "TECHNOLOGY TRANSFER OPPORTUNITY: 3D Lidar for Autonomous Landing Site Selection (GSC-TOPS-353)",
+          "url": "https://sam.gov/workspace/contract/opp/e68078da34b44580a43f7d97305b3b35/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:T2P-GSFC-00073",
+        "label": "TECHNOLOGY TRANSFER OPPORTUNITY: 3D Lidar for Autonomous Landing Site Selection (GSC-TOPS-353)",
+        "node_id": "opportunity:sam_gov:T2P-GSFC-00073",
+        "node_type": "opportunity"
+      },
+      "value": "2027-08-24T15:00:00-05:00"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-d98e76efdd4cddca",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d1c48e1f997fee3b",
+          "locator": "awarding_agency:national aeronautics and space administration",
+          "title": "TECHNOLOGY TRANSFER OPPORTUNITY: 3D Lidar for Autonomous Landing Site Selection (GSC-TOPS-353)",
+          "url": "https://sam.gov/workspace/contract/opp/e68078da34b44580a43f7d97305b3b35/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:T2P-GSFC-00073",
+        "label": "TECHNOLOGY TRANSFER OPPORTUNITY: 3D Lidar for Autonomous Landing Site Selection (GSC-TOPS-353)",
+        "node_id": "opportunity:sam_gov:T2P-GSFC-00073",
+        "node_type": "opportunity"
+      },
+      "value": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-608f899040a80cf9",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ad892480d90dd080",
+          "locator": "opportunity_status:closed",
+          "title": "SENSOR CABLE",
+          "url": "https://sam.gov/workspace/contract/opp/9c0d2ac900524731b9a8b1da4fd3099f/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:N0010426QED00",
+        "label": "SENSOR CABLE",
+        "node_id": "opportunity:sam_gov:N0010426QED00",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c3c0ea8419588883",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c81d17f44b0bfc85",
+          "locator": "deadline:2026-08-24t16:30:00-04:00",
+          "title": "SENSOR CABLE",
+          "url": "https://sam.gov/workspace/contract/opp/9c0d2ac900524731b9a8b1da4fd3099f/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:N0010426QED00",
+        "label": "SENSOR CABLE",
+        "node_id": "opportunity:sam_gov:N0010426QED00",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-24T16:30:00-04:00"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c505292c298ebb73",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bbd6a55ba68af70b",
+          "locator": "awarding_agency:dept of defense.dept of the navy.navsup.navsup weapon systems support.navsup wss mechanicsburg.navsup weapon systems support mech",
+          "title": "SENSOR CABLE",
+          "url": "https://sam.gov/workspace/contract/opp/9c0d2ac900524731b9a8b1da4fd3099f/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:N0010426QED00",
+        "label": "SENSOR CABLE",
+        "node_id": "opportunity:sam_gov:N0010426QED00",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS MECHANICSBURG.NAVSUP WEAPON SYSTEMS SUPPORT MECH"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-fa6d8d1586100e01",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-449e7fd6f6bb5b21",
+          "locator": "opportunity_status:open",
+          "title": "66--SENSOR,SHAFT SPEED,FAN",
+          "url": "https://sam.gov/workspace/contract/opp/943f53ae04e54d1eada4cc728ca6fc56/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526T382Y",
+        "label": "66--SENSOR,SHAFT SPEED,FAN",
+        "node_id": "opportunity:sam_gov:SPE4A526T382Y",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-94f147331d0c471f",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d68bbce542c51607",
           "locator": "deadline:2026-08-28",
-          "title": "16--SENSOR,ANTI-LOCK BR",
-          "url": "https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view",
+          "title": "66--SENSOR,SHAFT SPEED,FAN",
+          "url": "https://sam.gov/workspace/contract/opp/943f53ae04e54d1eada4cc728ca6fc56/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A726T685A",
-        "label": "16--SENSOR,ANTI-LOCK BR",
-        "node_id": "opportunity:sam_gov:SPE4A726T685A",
+        "identifier": "sam_gov:SPE4A526T382Y",
+        "label": "66--SENSOR,SHAFT SPEED,FAN",
+        "node_id": "opportunity:sam_gov:SPE4A526T382Y",
         "node_type": "opportunity"
       },
       "value": "2026-08-28"
@@ -501,41 +756,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-283e416cca75dfd7",
+      "claim_id": "claim-2d7b1eaa07ba3cdd",
       "confidence": "high",
-      "effective_date": "2026-08-22",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "object": null,
-      "predicate": "set_aside",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0ae1ede483d73dd3",
-          "locator": "set_aside:small business set aside - total",
-          "title": "16--SENSOR,ANTI-LOCK BR",
-          "url": "https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE4A726T685A",
-        "label": "16--SENSOR,ANTI-LOCK BR",
-        "node_id": "opportunity:sam_gov:SPE4A726T685A",
-        "node_type": "opportunity"
-      },
-      "value": "Small Business Set Aside - Total"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-172cb85db15e6437",
-      "confidence": "high",
-      "effective_date": "2026-08-22",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -543,17 +768,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b8ae75316e1feb34",
+          "evidence_id": "evidence-b5c36e7c287f1510",
           "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
-          "title": "16--SENSOR,ANTI-LOCK BR",
-          "url": "https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view",
+          "title": "66--SENSOR,SHAFT SPEED,FAN",
+          "url": "https://sam.gov/workspace/contract/opp/943f53ae04e54d1eada4cc728ca6fc56/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A726T685A",
-        "label": "16--SENSOR,ANTI-LOCK BR",
-        "node_id": "opportunity:sam_gov:SPE4A726T685A",
+        "identifier": "sam_gov:SPE4A526T382Y",
+        "label": "66--SENSOR,SHAFT SPEED,FAN",
+        "node_id": "opportunity:sam_gov:SPE4A526T382Y",
         "node_type": "opportunity"
       },
       "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
@@ -561,11 +786,461 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-f28cdce5831f2c50",
+      "claim_id": "claim-abb8902ab1d5e404",
       "confidence": "high",
       "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f997f936a4744a59",
+          "locator": "opportunity_status:open",
+          "title": "66--SENSOR,CURRENT",
+          "url": "https://sam.gov/workspace/contract/opp/88113c0a9ee542ab9f8dfe17ac18d5f5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126T303Z",
+        "label": "66--SENSOR,CURRENT",
+        "node_id": "opportunity:sam_gov:SPE7M126T303Z",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-bad3eea17c33eb90",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-933e218a1c24c635",
+          "locator": "deadline:2026-09-04",
+          "title": "66--SENSOR,CURRENT",
+          "url": "https://sam.gov/workspace/contract/opp/88113c0a9ee542ab9f8dfe17ac18d5f5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126T303Z",
+        "label": "66--SENSOR,CURRENT",
+        "node_id": "opportunity:sam_gov:SPE7M126T303Z",
+        "node_type": "opportunity"
+      },
+      "value": "2026-09-04"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-170acf75d11b87b3",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f66a608d5b7d64bb",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla maritime.dla maritime columbus.dla land and maritime",
+          "title": "66--SENSOR,CURRENT",
+          "url": "https://sam.gov/workspace/contract/opp/88113c0a9ee542ab9f8dfe17ac18d5f5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126T303Z",
+        "label": "66--SENSOR,CURRENT",
+        "node_id": "opportunity:sam_gov:SPE7M126T303Z",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-977e69e70c499b65",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-965909da0ab2a239",
+          "locator": "opportunity_status:open",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/7e399176415443d480b3157622217aaa/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526T386B",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A526T386B",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ac82243d5da4526c",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5429bbef4dddc2a5",
+          "locator": "deadline:2026-09-01",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/7e399176415443d480b3157622217aaa/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526T386B",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A526T386B",
+        "node_type": "opportunity"
+      },
+      "value": "2026-09-01"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6ea64870ed884d92",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5aa938df60f212b0",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/7e399176415443d480b3157622217aaa/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526T386B",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A526T386B",
+        "node_type": "opportunity"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-98451169ab464b91",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6ffc38406cacbc8b",
+          "locator": "opportunity_status:open",
+          "title": "PINC AI Healthcare Database (PINC AI)",
+          "url": "https://sam.gov/workspace/contract/opp/6334bd59fc8e4fdf849e0b52549bec00/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:26-006633",
+        "label": "PINC AI Healthcare Database (PINC AI)",
+        "node_id": "opportunity:sam_gov:26-006633",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-654e8be823b896bb",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c039736f01b140b4",
+          "locator": "deadline:2026-08-28t12:00:00-04:00",
+          "title": "PINC AI Healthcare Database (PINC AI)",
+          "url": "https://sam.gov/workspace/contract/opp/6334bd59fc8e4fdf849e0b52549bec00/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:26-006633",
+        "label": "PINC AI Healthcare Database (PINC AI)",
+        "node_id": "opportunity:sam_gov:26-006633",
+        "node_type": "opportunity"
+      },
+      "value": "2026-08-28T12:00:00-04:00"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-55840a0e244e4f5c",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "set_aside",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-07592f3f402a4e29",
+          "locator": "set_aside:no set aside used",
+          "title": "PINC AI Healthcare Database (PINC AI)",
+          "url": "https://sam.gov/workspace/contract/opp/6334bd59fc8e4fdf849e0b52549bec00/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:26-006633",
+        "label": "PINC AI Healthcare Database (PINC AI)",
+        "node_id": "opportunity:sam_gov:26-006633",
+        "node_type": "opportunity"
+      },
+      "value": "No Set aside used"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-e3ad9c564738058a",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-67f5cf130a43c00c",
+          "locator": "awarding_agency:health and human services, department of.national institutes of health.national institutes of health olao",
+          "title": "PINC AI Healthcare Database (PINC AI)",
+          "url": "https://sam.gov/workspace/contract/opp/6334bd59fc8e4fdf849e0b52549bec00/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:26-006633",
+        "label": "PINC AI Healthcare Database (PINC AI)",
+        "node_id": "opportunity:sam_gov:26-006633",
+        "node_type": "opportunity"
+      },
+      "value": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.NATIONAL INSTITUTES OF HEALTH.NATIONAL INSTITUTES OF HEALTH OLAO"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6b07101b57f234fc",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d8ab110a2532ff1b",
+          "locator": "opportunity_status:open",
+          "title": "AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research",
+          "url": "https://sam.gov/workspace/contract/opp/5a72cbe8abf347e89b35be98a819eb84/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:36C24E26Q0110",
+        "label": "AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research",
+        "node_id": "opportunity:sam_gov:36C24E26Q0110",
+        "node_type": "opportunity"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8b739d066e048751",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8edf58b19b9c8c3e",
+          "locator": "deadline:2026-09-08t10:00:00-04:00",
+          "title": "AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research",
+          "url": "https://sam.gov/workspace/contract/opp/5a72cbe8abf347e89b35be98a819eb84/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:36C24E26Q0110",
+        "label": "AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research",
+        "node_id": "opportunity:sam_gov:36C24E26Q0110",
+        "node_type": "opportunity"
+      },
+      "value": "2026-09-08T10:00:00-04:00"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-77481fbcf8998b32",
+      "confidence": "high",
+      "effective_date": "2026-08-24",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d43b1d308f3573b5",
+          "locator": "awarding_agency:veterans affairs, department of.veterans affairs, department of.rpo east (36c24e)",
+          "title": "AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research",
+          "url": "https://sam.gov/workspace/contract/opp/5a72cbe8abf347e89b35be98a819eb84/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:36C24E26Q0110",
+        "label": "AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research",
+        "node_id": "opportunity:sam_gov:36C24E26Q0110",
+        "node_type": "opportunity"
+      },
+      "value": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.RPO EAST (36C24E)"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-f18bc951536604a3",
+      "confidence": "medium",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "states_deliverable",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "f3f79bc26fd64ce228ea56632a286d9a20d113460545daee6c93fbddc763e5e1",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-a9eda7559be16531",
+          "locator": "states_deliverable:enefit the epidemiologic studies at ccmd proposed for 2026-2027 to be expedited as well. furthermore, cii generated the deliverables requested by niaid dir on that previous contract in a timely and efficient manner. given their experience with cerner data, their services can be elicited for data cu...",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/33b1e66f88ae4f94a0b2fefdd6a64871/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:26-006633",
+        "label": "PINC AI Healthcare Database (PINC AI)",
+        "node_id": "opportunity:sam_gov:26-006633",
+        "node_type": "opportunity"
+      },
+      "value": "enefit the epidemiologic studies at CCMD proposed for 2026-2027 to be expedited as well. Furthermore, CII generated the deliverables requested by NIAID DIR on that previous contract in a timely and efficient manner. Given their experience with Cerner data, their services can be elicited for data cu..."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6196101485e1f727",
+      "confidence": "medium",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "states_deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": "f3f79bc26fd64ce228ea56632a286d9a20d113460545daee6c93fbddc763e5e1",
+          "controlling_status": "not_established",
+          "evidence_id": "evidence-eb87c2c857c64e93",
+          "locator": "states_deadline:may 28, 2026 to: office of procurement and contracts from: head, clinical epidemiology section, critical care medicine department re: sole source justification for data management service cont",
+          "title": "download",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/33b1e66f88ae4f94a0b2fefdd6a64871/download",
+          "verification_status": "analyst_verification_required"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:26-006633",
+        "label": "PINC AI Healthcare Database (PINC AI)",
+        "node_id": "opportunity:sam_gov:26-006633",
+        "node_type": "opportunity"
+      },
+      "value": "May 28, 2026 To: Office of Procurement and Contracts From: Head, Clinical Epidemiology Section, Critical Care Medicine Department Re: Sole Source Justification for Data Management Service Cont"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ccbea430db1588fd",
+      "confidence": "high",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -573,29 +1248,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-19870372fc85a99f",
-          "locator": "legal_business_name:marine electric systems inc",
-          "title": "MARINE ELECTRIC SYSTEMS INC",
-          "url": "https://sam.gov/entity/U43WP4FHDJY3/coreData",
+          "evidence_id": "evidence-f6d7a7349bc743c5",
+          "locator": "legal_business_name:thales defense & security inc",
+          "title": "THALES DEFENSE & SECURITY INC",
+          "url": "https://sam.gov/entity/HNNUJXHSXGU3/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "name:marine electric systems",
-        "label": "MARINE ELECTRIC SYSTEMS INC",
-        "node_id": "recipient_or_contractor:name:marine electric systems",
+        "identifier": "name:thales defense and security",
+        "label": "THALES DEFENSE & SECURITY INC",
+        "node_id": "recipient_or_contractor:name:thales defense and security",
         "node_type": "recipient_or_contractor"
       },
-      "value": "MARINE ELECTRIC SYSTEMS INC"
+      "value": "THALES DEFENSE & SECURITY INC"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-79a2d079649be782",
+      "claim_id": "claim-e0ae8764b567f6a2",
       "confidence": "high",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -603,29 +1278,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c58596b9c524ffd2",
-          "locator": "uei:u43wp4fhdjy3",
-          "title": "MARINE ELECTRIC SYSTEMS INC",
-          "url": "https://sam.gov/entity/U43WP4FHDJY3/coreData",
+          "evidence_id": "evidence-bde6dafd825ecd1d",
+          "locator": "uei:hnnujxhsxgu3",
+          "title": "THALES DEFENSE & SECURITY INC",
+          "url": "https://sam.gov/entity/HNNUJXHSXGU3/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "name:marine electric systems",
-        "label": "MARINE ELECTRIC SYSTEMS INC",
-        "node_id": "recipient_or_contractor:name:marine electric systems",
+        "identifier": "name:thales defense and security",
+        "label": "THALES DEFENSE & SECURITY INC",
+        "node_id": "recipient_or_contractor:name:thales defense and security",
         "node_type": "recipient_or_contractor"
       },
-      "value": "U43WP4FHDJY3"
+      "value": "HNNUJXHSXGU3"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-0b51661358ff0c47",
+      "claim_id": "claim-3313a006a44d0a2d",
       "confidence": "high",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -633,29 +1308,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e0e805d517e856ac",
-          "locator": "cage_code:00062",
-          "title": "MARINE ELECTRIC SYSTEMS INC",
-          "url": "https://sam.gov/entity/U43WP4FHDJY3/coreData",
+          "evidence_id": "evidence-870871fd17ffe25b",
+          "locator": "cage_code:23386",
+          "title": "THALES DEFENSE & SECURITY INC",
+          "url": "https://sam.gov/entity/HNNUJXHSXGU3/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "name:marine electric systems",
-        "label": "MARINE ELECTRIC SYSTEMS INC",
-        "node_id": "recipient_or_contractor:name:marine electric systems",
+        "identifier": "name:thales defense and security",
+        "label": "THALES DEFENSE & SECURITY INC",
+        "node_id": "recipient_or_contractor:name:thales defense and security",
         "node_type": "recipient_or_contractor"
       },
-      "value": "00062"
+      "value": "23386"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-f69df95c0c8d32e9",
+      "claim_id": "claim-3b740225641795be",
       "confidence": "high",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -663,17 +1338,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ca85218a09df5f62",
+          "evidence_id": "evidence-a8292f6ec1c2787e",
           "locator": "registration_status:active",
-          "title": "MARINE ELECTRIC SYSTEMS INC",
-          "url": "https://sam.gov/entity/U43WP4FHDJY3/coreData",
+          "title": "THALES DEFENSE & SECURITY INC",
+          "url": "https://sam.gov/entity/HNNUJXHSXGU3/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "name:marine electric systems",
-        "label": "MARINE ELECTRIC SYSTEMS INC",
-        "node_id": "recipient_or_contractor:name:marine electric systems",
+        "identifier": "name:thales defense and security",
+        "label": "THALES DEFENSE & SECURITY INC",
+        "node_id": "recipient_or_contractor:name:thales defense and security",
         "node_type": "recipient_or_contractor"
       },
       "value": "Active"
@@ -681,11 +1356,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-8c004bac8e386bc4",
+      "claim_id": "claim-e543f009bf906b93",
       "confidence": "high",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -693,29 +1368,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-73c55c4d9d41cde1",
-          "locator": "legal_business_name:makpar-nuaxis jv llc",
-          "title": "MAKPAR-NUAXIS JV LLC",
-          "url": "https://sam.gov/entity/YZ9MQDZJGHD5/coreData",
+          "evidence_id": "evidence-aab7f3796d893d39",
+          "locator": "legal_business_name:university of alaska fairbanks",
+          "title": "UNIVERSITY OF ALASKA FAIRBANKS",
+          "url": "https://sam.gov/entity/FDLEQSJ8FF63/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:YZ9MQDZJGHD5",
-        "label": "MAKPAR-NUAXIS JV LLC",
-        "node_id": "recipient_or_contractor:uei:YZ9MQDZJGHD5",
+        "identifier": "uei:FDLEQSJ8FF63",
+        "label": "UNIVERSITY OF ALASKA FAIRBANKS",
+        "node_id": "recipient_or_contractor:uei:FDLEQSJ8FF63",
         "node_type": "recipient_or_contractor"
       },
-      "value": "MAKPAR-NUAXIS JV LLC"
+      "value": "UNIVERSITY OF ALASKA FAIRBANKS"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-0c78a15e33033fce",
+      "claim_id": "claim-348c048920eac42e",
       "confidence": "high",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -723,29 +1398,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-dceaf93ee68dda80",
-          "locator": "uei:yz9mqdzjghd5",
-          "title": "MAKPAR-NUAXIS JV LLC",
-          "url": "https://sam.gov/entity/YZ9MQDZJGHD5/coreData",
+          "evidence_id": "evidence-0ca206b5f329da19",
+          "locator": "uei:fdleqsj8ff63",
+          "title": "UNIVERSITY OF ALASKA FAIRBANKS",
+          "url": "https://sam.gov/entity/FDLEQSJ8FF63/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:YZ9MQDZJGHD5",
-        "label": "MAKPAR-NUAXIS JV LLC",
-        "node_id": "recipient_or_contractor:uei:YZ9MQDZJGHD5",
+        "identifier": "uei:FDLEQSJ8FF63",
+        "label": "UNIVERSITY OF ALASKA FAIRBANKS",
+        "node_id": "recipient_or_contractor:uei:FDLEQSJ8FF63",
         "node_type": "recipient_or_contractor"
       },
-      "value": "YZ9MQDZJGHD5"
+      "value": "FDLEQSJ8FF63"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-22f3a6191d13cc1b",
+      "claim_id": "claim-ad33b3e57a3be3a3",
       "confidence": "high",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -753,29 +1428,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5098f1492b95d02c",
-          "locator": "cage_code:8hvp9",
-          "title": "MAKPAR-NUAXIS JV LLC",
-          "url": "https://sam.gov/entity/YZ9MQDZJGHD5/coreData",
+          "evidence_id": "evidence-eeef15da34877983",
+          "locator": "cage_code:3r2b4",
+          "title": "UNIVERSITY OF ALASKA FAIRBANKS",
+          "url": "https://sam.gov/entity/FDLEQSJ8FF63/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:YZ9MQDZJGHD5",
-        "label": "MAKPAR-NUAXIS JV LLC",
-        "node_id": "recipient_or_contractor:uei:YZ9MQDZJGHD5",
+        "identifier": "uei:FDLEQSJ8FF63",
+        "label": "UNIVERSITY OF ALASKA FAIRBANKS",
+        "node_id": "recipient_or_contractor:uei:FDLEQSJ8FF63",
         "node_type": "recipient_or_contractor"
       },
-      "value": "8HVP9"
+      "value": "3R2B4"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-ad7c1d7b412026a0",
+      "claim_id": "claim-89ce0752986d5910",
       "confidence": "high",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -783,17 +1458,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0d47090e2f1bd2cb",
+          "evidence_id": "evidence-cc1fabd7d870994b",
           "locator": "registration_status:active",
-          "title": "MAKPAR-NUAXIS JV LLC",
-          "url": "https://sam.gov/entity/YZ9MQDZJGHD5/coreData",
+          "title": "UNIVERSITY OF ALASKA FAIRBANKS",
+          "url": "https://sam.gov/entity/FDLEQSJ8FF63/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:YZ9MQDZJGHD5",
-        "label": "MAKPAR-NUAXIS JV LLC",
-        "node_id": "recipient_or_contractor:uei:YZ9MQDZJGHD5",
+        "identifier": "uei:FDLEQSJ8FF63",
+        "label": "UNIVERSITY OF ALASKA FAIRBANKS",
+        "node_id": "recipient_or_contractor:uei:FDLEQSJ8FF63",
         "node_type": "recipient_or_contractor"
       },
       "value": "Active"
@@ -801,11 +1476,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-d34e0671eace14da",
+      "claim_id": "claim-f16e766bdad31e25",
       "confidence": "high",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -813,29 +1488,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a00ef449ce338c69",
-          "locator": "legal_business_name:anduril industries, inc.",
-          "title": "ANDURIL INDUSTRIES, INC.",
-          "url": "https://sam.gov/entity/KC3CH2MSK7Q3/coreData",
+          "evidence_id": "evidence-b320732652be01d6",
+          "locator": "legal_business_name:autonomic integra llc",
+          "title": "AUTONOMIC INTEGRA LLC",
+          "url": "https://sam.gov/entity/YJCKJY5GSX71/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:KC3CH2MSK7Q3",
-        "label": "ANDURIL INDUSTRIES, INC.",
-        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
+        "identifier": "uei:YJCKJY5GSX71",
+        "label": "AUTONOMIC INTEGRA LLC",
+        "node_id": "recipient_or_contractor:uei:YJCKJY5GSX71",
         "node_type": "recipient_or_contractor"
       },
-      "value": "ANDURIL INDUSTRIES, INC."
+      "value": "AUTONOMIC INTEGRA LLC"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-02a5bccaea559129",
+      "claim_id": "claim-61a7655c69e49b94",
       "confidence": "high",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -843,29 +1518,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-59ad35aad4e5f104",
-          "locator": "uei:kc3ch2msk7q3",
-          "title": "ANDURIL INDUSTRIES, INC.",
-          "url": "https://sam.gov/entity/KC3CH2MSK7Q3/coreData",
+          "evidence_id": "evidence-8cb41159d3374f45",
+          "locator": "uei:yjckjy5gsx71",
+          "title": "AUTONOMIC INTEGRA LLC",
+          "url": "https://sam.gov/entity/YJCKJY5GSX71/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:KC3CH2MSK7Q3",
-        "label": "ANDURIL INDUSTRIES, INC.",
-        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
+        "identifier": "uei:YJCKJY5GSX71",
+        "label": "AUTONOMIC INTEGRA LLC",
+        "node_id": "recipient_or_contractor:uei:YJCKJY5GSX71",
         "node_type": "recipient_or_contractor"
       },
-      "value": "KC3CH2MSK7Q3"
+      "value": "YJCKJY5GSX71"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-3794d37c831ffd4e",
+      "claim_id": "claim-223e004ba6ce4a47",
       "confidence": "high",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -873,29 +1548,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-727e6c4a75c971d3",
-          "locator": "cage_code:85ld7",
-          "title": "ANDURIL INDUSTRIES, INC.",
-          "url": "https://sam.gov/entity/KC3CH2MSK7Q3/coreData",
+          "evidence_id": "evidence-24f71747c2b9ede2",
+          "locator": "cage_code:8lbn4",
+          "title": "AUTONOMIC INTEGRA LLC",
+          "url": "https://sam.gov/entity/YJCKJY5GSX71/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:KC3CH2MSK7Q3",
-        "label": "ANDURIL INDUSTRIES, INC.",
-        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
+        "identifier": "uei:YJCKJY5GSX71",
+        "label": "AUTONOMIC INTEGRA LLC",
+        "node_id": "recipient_or_contractor:uei:YJCKJY5GSX71",
         "node_type": "recipient_or_contractor"
       },
-      "value": "85LD7"
+      "value": "8LBN4"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-5107e5db7adc8f8a",
+      "claim_id": "claim-a8336aceca00ca14",
       "confidence": "high",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -903,17 +1578,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-654a573e12bb342f",
+          "evidence_id": "evidence-cc36dbd9bdb54548",
           "locator": "registration_status:active",
-          "title": "ANDURIL INDUSTRIES, INC.",
-          "url": "https://sam.gov/entity/KC3CH2MSK7Q3/coreData",
+          "title": "AUTONOMIC INTEGRA LLC",
+          "url": "https://sam.gov/entity/YJCKJY5GSX71/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:KC3CH2MSK7Q3",
-        "label": "ANDURIL INDUSTRIES, INC.",
-        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
+        "identifier": "uei:YJCKJY5GSX71",
+        "label": "AUTONOMIC INTEGRA LLC",
+        "node_id": "recipient_or_contractor:uei:YJCKJY5GSX71",
         "node_type": "recipient_or_contractor"
       },
       "value": "Active"
@@ -921,13 +1596,558 @@
     {
       "authority": "analytical",
       "change_type": "added",
-      "claim_id": "claim-790083e165238562",
+      "claim_id": "claim-6155325d0aa0b94c",
       "confidence": "medium",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
       "object": null,
       "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cb21533f6b09f7d0",
+          "locator": "qualification_gate",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/7e399176415443d480b3157622217aaa/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7e399176415443d480b3157622217aaa",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526T386B",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A526T386B",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-222dc8150775062c",
+      "confidence": "medium",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-56af82e62b3dec77",
+          "locator": "qualification_gate",
+          "title": "66--SENSOR,CURRENT",
+          "url": "https://sam.gov/workspace/contract/opp/88113c0a9ee542ab9f8dfe17ac18d5f5/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "66--SENSOR,CURRENT",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=88113c0a9ee542ab9f8dfe17ac18d5f5",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126T303Z",
+        "label": "66--SENSOR,CURRENT",
+        "node_id": "opportunity:sam_gov:SPE7M126T303Z",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-709da558f83a026a",
+      "confidence": "medium",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b23f04f5ea76f55f",
+          "locator": "qualification_gate",
+          "title": "AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research",
+          "url": "https://sam.gov/workspace/contract/opp/5a72cbe8abf347e89b35be98a819eb84/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1458964bd912e9ec",
+          "locator": "qualification_gate",
+          "title": "AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2f77bec51c46442e90dceea19ec9d8a9/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5a72cbe8abf347e89b35be98a819eb84",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:36C24E26Q0110",
+        "label": "AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research",
+        "node_id": "opportunity:sam_gov:36C24E26Q0110",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-162689a6c38026a6",
+      "confidence": "medium",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-02fc21b4a3b14625",
+          "locator": "qualification_gate",
+          "title": "PINC AI Healthcare Database (PINC AI)",
+          "url": "https://sam.gov/workspace/contract/opp/6334bd59fc8e4fdf849e0b52549bec00/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3c5a3294f617cc09",
+          "locator": "qualification_gate",
+          "title": "PINC AI Healthcare Database (PINC AI)",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/33b1e66f88ae4f94a0b2fefdd6a64871/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "PINC AI Healthcare Database (PINC AI)",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6334bd59fc8e4fdf849e0b52549bec00",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:26-006633",
+        "label": "PINC AI Healthcare Database (PINC AI)",
+        "node_id": "opportunity:sam_gov:26-006633",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-7bbb546f78528e06",
+      "confidence": "medium",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c39f39f34f666ca4",
+          "locator": "qualification_gate",
+          "title": "66--SENSOR,SHAFT SPEED,FAN",
+          "url": "https://sam.gov/workspace/contract/opp/943f53ae04e54d1eada4cc728ca6fc56/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "66--SENSOR,SHAFT SPEED,FAN",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=943f53ae04e54d1eada4cc728ca6fc56",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526T382Y",
+        "label": "66--SENSOR,SHAFT SPEED,FAN",
+        "node_id": "opportunity:sam_gov:SPE4A526T382Y",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    }
+  ],
+  "baseline_initialized": false,
+  "changed": [
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-24c1c5b554596b9b",
+      "confidence": "high",
+      "effective_date": "2026-08-21",
+      "first_observed_at": "2026-08-22T00:50:40.718732+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-56f78aa7150fe7c9",
+          "locator": "opportunity_status:closed",
+          "title": "Custom HPC cluster with AMD EPYC \"Turin\" CPUs",
+          "url": "https://sam.gov/workspace/contract/opp/5633e09273894004967a7038a7362502/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:N0017326P-1301396057",
+        "label": "Custom HPC cluster with AMD EPYC \"Turin\" CPUs",
+        "node_id": "opportunity:sam_gov:N0017326P-1301396057",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-06fb85cec3f3dbe3",
+      "confidence": "high",
+      "effective_date": "2026-08-19",
+      "first_observed_at": "2026-08-20T00:50:10.359719+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1208db4bf2b78598",
+          "locator": "opportunity_status:closed",
+          "title": "Request for Quotation # 19VM3026Q0022\u2013 Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams.",
+          "url": "https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:19VM3026Q0022",
+        "label": "Request for Quotation # 19VM3026Q0022\u2013 Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams.",
+        "node_id": "opportunity:sam_gov:19VM3026Q0022",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-b594c9f8534d69f9",
+      "confidence": "high",
+      "effective_date": "2026-08-17",
+      "first_observed_at": "2026-08-18T00:49:54.498894+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6783121f714dc532",
+          "locator": "opportunity_status:closed",
+          "title": "High-Performance Quantum Scalar Magnetometers",
+          "url": "https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:FA700026Q0063",
+        "label": "High-Performance Quantum Scalar Magnetometers",
+        "node_id": "opportunity:sam_gov:FA700026Q0063",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-9edd4dc70ec0d371",
+      "confidence": "high",
+      "effective_date": "2026-08-16",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7f8a142b66ad5de5",
+          "locator": "opportunity_status:closed",
+          "title": "16--WHEEL HALF ASSEMBLY,AI",
+          "url": "https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T665A",
+        "label": "16--WHEEL HALF ASSEMBLY,AI",
+        "node_id": "opportunity:sam_gov:SPE4A726T665A",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-3fc5981cf0cd30d5",
+      "confidence": "high",
+      "effective_date": "2026-08-16",
+      "first_observed_at": "2026-08-17T00:51:32.831772+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ca887463959d3071",
+          "locator": "opportunity_status:closed",
+          "title": "15--WINDSHIELD PANEL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A626T18FW",
+        "label": "15--WINDSHIELD PANEL,AI",
+        "node_id": "opportunity:sam_gov:SPE4A626T18FW",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-ce11b4a7ce3c5c26",
+      "confidence": "high",
+      "effective_date": "2026-08-13",
+      "first_observed_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-eebc6ad6e5d25995",
+          "locator": "opportunity_status:closed",
+          "title": "66--SENSOR,CURRENT",
+          "url": "https://sam.gov/workspace/contract/opp/8f42834292314b9bb08ade0259ef007a/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126T278V",
+        "label": "66--SENSOR,CURRENT",
+        "node_id": "opportunity:sam_gov:SPE7M126T278V",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-9fac08c48783fd2f",
+      "confidence": "high",
+      "effective_date": "2026-08-13",
+      "first_observed_at": "2026-08-14T01:18:50.250873+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fbda1c6cbd00600a",
+          "locator": "opportunity_status:closed",
+          "title": "INL_RFQ-PR15372268 TECHNOLOGICAL EQUIPMENT FOR AI",
+          "url": "https://sam.gov/workspace/contract/opp/95813bd2ad944e7a89b5590605a0ccc9/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:INL_RFQ-PR15372268",
+        "label": "INL_RFQ-PR15372268 TECHNOLOGICAL EQUIPMENT FOR AI",
+        "node_id": "opportunity:sam_gov:INL_RFQ-PR15372268",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-58a7ad41424e4836",
+      "confidence": "high",
+      "effective_date": "2026-08-12",
+      "first_observed_at": "2026-08-13T01:19:25.643416+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e3a8ea7094be8201",
+          "locator": "opportunity_status:closed",
+          "title": "29--SENSOR,MASS AIR FLO",
+          "url": "https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7L126T958V",
+        "label": "29--SENSOR,MASS AIR FLO",
+        "node_id": "opportunity:sam_gov:SPE7L126T958V",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-5a0b3e4bdf4ab948",
+      "confidence": "medium",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-02T02:05:25.412721+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0859d00a4811b833",
+          "locator": "qualification_gate",
+          "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+          "url": "https://www.grants.gov/search-results-detail/363440",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:PDS-UKRAINE-FY26-04",
+        "label": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+        "node_id": "opportunity:grants_gov:PDS-UKRAINE-FY26-04",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-72e7c04f71d9e5ef",
+      "confidence": "medium",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-09T01:09:22.763250+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-91893bc4ebce5221",
+          "locator": "qualification_gate",
+          "title": "Pathways to Enable Secure Open-Source Ecosystems",
+          "url": "https://www.grants.gov/search-results-detail/361333",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:26-506",
+        "label": "Pathways to Enable Secure Open-Source Ecosystems",
+        "node_id": "opportunity:grants_gov:26-506",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-790083e165238562",
+      "confidence": "medium",
+      "effective_date": "2026-08-25",
+      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
+      "last_observed_at": "2026-08-25T00:52:22.704574+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
       "sources": [
         {
           "authority": "authoritative",
@@ -957,312 +2177,11 @@
         "node_type": "opportunity"
       },
       "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-7b70af8700b000c2",
-      "confidence": "medium",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bd6199da660c5c72",
-          "locator": "qualification_gate",
-          "title": "59--TAIL SENSOR",
-          "url": "https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "59--TAIL SENSOR",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d032e7f6af9d4a2e8f11c50eae9d95da",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE7M526T432P",
-        "label": "59--TAIL SENSOR",
-        "node_id": "opportunity:sam_gov:SPE7M526T432P",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-f5687f70e8f6c08b",
-      "confidence": "medium",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6791033dba1ddd42",
-          "locator": "qualification_gate",
-          "title": "30--FILL PUMP AC OIL,AI",
-          "url": "https://sam.gov/workspace/contract/opp/e8ad08e63efd482288d9b38a93b295bb/view",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "30--FILL PUMP AC OIL,AI",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e8ad08e63efd482288d9b38a93b295bb",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE7LX26U9694",
-        "label": "30--FILL PUMP AC OIL,AI",
-        "node_id": "opportunity:sam_gov:SPE7LX26U9694",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-b6f7ce8a0bad90db",
-      "confidence": "medium",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a5f3cfbde377bbf3",
-          "locator": "qualification_gate",
-          "title": "The 2027 YSEALI Regional Workshop: Securing Supply Chains",
-          "url": "https://www.grants.gov/search-results-detail/362900",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:FY26-PAS-SURABAYA-01",
-        "label": "The 2027 YSEALI Regional Workshop: Securing Supply Chains",
-        "node_id": "opportunity:grants_gov:FY26-PAS-SURABAYA-01",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-07fbedea776a44a7",
-      "confidence": "medium",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-eec6527c4b699c84",
-          "locator": "qualification_gate",
-          "title": "ROSES 2025: A.10 INNOVATE",
-          "url": "https://www.grants.gov/search-results-detail/360003",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:NNH25ZDA001N-INNOVATE",
-        "label": "ROSES 2025: A.10 INNOVATE",
-        "node_id": "opportunity:grants_gov:NNH25ZDA001N-INNOVATE",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    }
-  ],
-  "baseline_initialized": false,
-  "changed": [
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-b6a820c92d49cd03",
-      "confidence": "medium",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-23T00:54:11.501661+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "targeted review",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-39feb5d0e2c802a1",
-          "locator": "qualification_gate",
-          "title": "KIRA B100 Autonomous Floor Scrubbers Or Equal",
-          "url": "https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-db53be9d2388bc1d",
-          "locator": "qualification_gate",
-          "title": "KIRA B100 Autonomous Floor Scrubbers Or Equal",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c31a6fcf8ba04194acd817d4412b98ce/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "KIRA B100 Autonomous Floor Scrubbers Or Equal",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2a8d13181052413a8d82a7bd82714f79",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:36C26126Q1197",
-        "label": "KIRA B100 Autonomous Floor Scrubbers Or Equal",
-        "node_id": "opportunity:sam_gov:36C26126Q1197",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-21dcfc488e62b78f",
-      "confidence": "medium",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-051ae29fa58114c7",
-          "locator": "qualification_gate",
-          "title": "AI3 Action Institute - Artificial Intelligence for American Indians",
-          "url": "https://www.grants.gov/search-results-detail/362270",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:HHS-2026-ACF-ANA-NAI-0035",
-        "label": "AI3 Action Institute - Artificial Intelligence for American Indians",
-        "node_id": "opportunity:grants_gov:HHS-2026-ACF-ANA-NAI-0035",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-9f45fe1af78140fe",
-      "confidence": "medium",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-09T01:09:22.763250+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fd0b58a49397cca4",
-          "locator": "qualification_gate",
-          "title": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
-          "url": "https://www.grants.gov/search-results-detail/363347",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
-        "label": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
-        "node_id": "opportunity:grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-620dc6b579969c7a",
-      "confidence": "medium",
-      "effective_date": "2026-08-24",
-      "first_observed_at": "2026-08-22T00:50:40.718732+00:00",
-      "last_observed_at": "2026-08-24T00:52:30.741253+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7af1c2c115ee0a4e",
-          "locator": "qualification_gate",
-          "title": "Custom HPC cluster with AMD EPYC \"Turin\" CPUs",
-          "url": "https://sam.gov/workspace/contract/opp/5633e09273894004967a7038a7362502/view",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "Custom HPC cluster with AMD EPYC \"Turin\" CPUs",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5633e09273894004967a7038a7362502",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:N0017326P-1301396057",
-        "label": "Custom HPC cluster with AMD EPYC \"Turin\" CPUs",
-        "node_id": "opportunity:sam_gov:N0017326P-1301396057",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
     }
   ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-08-24T00:52:30.741253+00:00",
-  "comparison_started_at": "2026-08-23T03:45:44.113870+00:00",
+  "comparison_ended_at": "2026-08-25T00:52:22.704574+00:00",
+  "comparison_started_at": "2026-08-24T00:52:30.741253+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -2178,19 +3097,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-08-23T03:45:44.113870+00:00",
+  "since": "2026-08-24T00:52:30.741253+00:00",
   "summary": {
-    "active_claims": 3078,
-    "added": 28,
-    "changed": 4,
+    "active_claims": 3128,
+    "added": 50,
+    "changed": 11,
     "conflicts": 14,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 59,
+    "material_changes": 88,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-08-24T00:52:30.741253+00:00",
+  "updated_at": "2026-08-25T00:52:22.704574+00:00",
   "version": 1
 }
