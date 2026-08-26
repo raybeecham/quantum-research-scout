@@ -1,9 +1,9 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 25.2,
+      "acceptance_rate": 24.6,
       "accepted": 28,
-      "quarantined": 83,
+      "quarantined": 86,
       "scope": "Federal missions"
     },
     {
@@ -15,6 +15,52 @@
   ],
   "method_note": "Quarantine is not a finding that evidence is false or irrelevant. It means the current evidence is too weak for automated promotion and remains available for review.",
   "quarantined_evidence": [
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Executive Order 14412",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-25",
+      "key": "https://quantumzeitgeist.com/quantum-readiness-treasury-task-force-shield",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "scope": "Federal missions",
+      "source": "QuantumNews.ai",
+      "stage": "mission evidence admission",
+      "title": "Policy 13h ago Treasury launches task force to shield finance from quantum hacks",
+      "url": "https://quantumzeitgeist.com/quantum-readiness-treasury-task-force-shield"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Executive Order 14412",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-25",
+      "key": "https://quantumcomputingreport.com/gsa-and-treasury-launch-dual-agency-post-quantum-cryptography-initiatives-for-u-s-federal-financial-infrastructure",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "scope": "Federal missions",
+      "source": "QuantumNews.ai",
+      "stage": "mission evidence admission",
+      "title": "Cryptography 7h ago GSA and Treasury Launch Dual-Agency Post-Quantum Cryptography Initiatives for U.S. Federal & Financial Infrastructure",
+      "url": "https://quantumcomputingreport.com/gsa-and-treasury-launch-dual-agency-post-quantum-cryptography-initiatives-for-u-s-federal-financial-infrastructure"
+    },
     {
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
@@ -2240,86 +2286,40 @@
       "stage": "mission evidence admission",
       "title": "DOD Defense Health Agency (DHA) Research & Development FY23-FY27 BROAD AGENCY ANNOUNCEMENT for Extramural Medical Research",
       "url": "https://www.grants.gov/search-results-detail/343725"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Genesis Mission",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2022-09-22",
-      "key": "https://www.grants.gov/search-results-detail/343725",
-      "mission_id": "genesis-mission",
-      "mission_name": "Genesis Mission",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "mission evidence admission",
-      "title": "DOD Defense Health Agency (DHA) Research & Development FY23-FY27 BROAD AGENCY ANNOUNCEMENT for Extramural Medical Research",
-      "url": "https://www.grants.gov/search-results-detail/343725"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Genesis Mission",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2022-07-27",
-      "key": "https://www.grants.gov/search-results-detail/342752",
-      "mission_id": "genesis-mission",
-      "mission_name": "Genesis Mission",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "mission evidence admission",
-      "title": "FDA Support for Conferences and Scientific Meetings (R13 Clinical Trial Not Allowed)",
-      "url": "https://www.grants.gov/search-results-detail/342752"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 111,
+      "count": 114,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 111,
+      "count": 114,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 104,
+      "count": 105,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 7,
+      "count": 9,
       "label": "Source is not an official .gov or .mil domain"
     }
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 82.6,
+    "acceptance_rate": 82.2,
     "accepted": 528,
-    "decisions": 639,
+    "decisions": 642,
     "funding_quarantine": 28,
-    "mission_quarantine": 83,
-    "quarantined": 111,
+    "mission_quarantine": 86,
+    "quarantined": 114,
     "relationship_quarantine": 0
   },
-  "updated_at": "2026-08-25T00:52:22.704574+00:00",
+  "updated_at": "2026-08-26T00:53:15.324629+00:00",
   "version": 1
 }

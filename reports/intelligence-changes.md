@@ -2,82 +2,63 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-08-25T00:52:22.704574+00:00_
+_Updated 2026-08-26T00:53:15.324629+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **88**
-- Added / changed / resolved: **50 / 11 / 27**
+- Material changes: **70**
+- Added / changed / resolved: **35 / 7 / 27**
 - Newly superseded: **0**
-- Active conflicts: **14**
-- Conflicts opened / resolved: **0 / 0**
+- Active conflicts: **15**
+- Conflicts opened / resolved: **1 / 0**
 
 ## Changed claims
 
-- **Custom HPC cluster with AMD EPYC "Turin" CPUs** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/5633e09273894004967a7038a7362502/view))
-- **Request for Quotation # 19VM3026Q0022– Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams.** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/acc09509c6014cc5955b23c92738a159/view))
-- **High-Performance Quantum Scalar Magnetometers** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/e9182c362f1546ee94a79d8e47fb9848/view))
-- **16--WHEEL HALF ASSEMBLY,AI** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/e851ec4b47fd44368f4f76b3e9aedd61/view))
-- **15--WINDSHIELD PANEL,AI** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/3113f3aafa0944639a0568e561195081/view))
-- **66--SENSOR,CURRENT** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/8f42834292314b9bb08ade0259ef007a/view))
-- **INL_RFQ-PR15372268 TECHNOLOGICAL EQUIPMENT FOR AI** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/95813bd2ad944e7a89b5590605a0ccc9/view))
-- **29--SENSOR,MASS AIR FLO** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view))
-- **Advancing Investigative Journalism in Ukraine through U.S. AI Innovation** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363440))
-- **Pathways to Enable Secure Open-Source Ecosystems** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/361333))
-- **16--SENSOR,ANTI-LOCK BR** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view))
+- **Decentralized Artificial Intelligence through Controlled Emergence (DICE)** — opportunity status: closed ([evidence](https://www.grants.gov/search-results-detail/362743))
+- **66--SENSOR,LIQUID FLOW** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view))
+- **Data, Analytics, and AI Modernization Services** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view))
+- **Laser for widefield quantum diamond microscope** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/b0c03fae4cd744a4a1eb7b1f16f50bb3/view))
+- **Optical Cryogenic Quantum System** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view))
+- **63--SALINITY SENSOR,CON** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view))
+- **66--SENSOR,AMBIENT TEMP** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/b749f496a21443708e47a8291f23ab44/view))
 
 ## New claims
 
-- **16--MODIFICATION KIT,AI** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/ba4f7146b90e425bac00d2b2a8b79c64/view))
-- **16--MODIFICATION KIT,AI** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION ([evidence](https://sam.gov/workspace/contract/opp/ba4f7146b90e425bac00d2b2a8b79c64/view))
-- **16--MODIFICATION KIT,AI** — reported amount: 350000.0 ([evidence](https://sam.gov/workspace/contract/opp/ba4f7146b90e425bac00d2b2a8b79c64/view))
-- **16--MODIFICATION KIT,AI** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/ba4f7146b90e425bac00d2b2a8b79c64/view))
-- **THALES DEFENSE & SECURITY INC** — has related patent: — ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/18988739/application-data))
-- **SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (SAMHSA), OFFICE OF MANAGEMENT, TECHNOLOGY AND OPERATIONS, DIVISION OF TECHNOLOGY MANAGEMENT (OMTO/DTM) CYBERSECURITY AND...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_75S20326F80003_7522_75N98118D00043_7529))
-- **SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (SAMHSA), OFFICE OF MANAGEMENT, TECHNOLOGY AND OPERATIONS, DIVISION OF TECHNOLOGY MANAGEMENT (OMTO/DTM) CYBERSECURITY AND...** — awarding agency: Department of Health and Human Services ([evidence](https://www.usaspending.gov/award/CONT_AWD_75S20326F80003_7522_75N98118D00043_7529))
-- **SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (SAMHSA), OFFICE OF MANAGEMENT, TECHNOLOGY AND OPERATIONS, DIVISION OF TECHNOLOGY MANAGEMENT (OMTO/DTM) CYBERSECURITY AND...** — reported amount: 684785.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_75S20326F80003_7522_75N98118D00043_7529))
-- **SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (SAMHSA), OFFICE OF MANAGEMENT, TECHNOLOGY AND OPERATIONS, DIVISION OF TECHNOLOGY MANAGEMENT (OMTO/DTM) CYBERSECURITY AND...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_75S20326F80003_7522_75N98118D00043_7529))
-- **TECHNOLOGY TRANSFER OPPORTUNITY: 3D Lidar for Autonomous Landing Site Selection (GSC-TOPS-353)** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/e68078da34b44580a43f7d97305b3b35/view))
-- **TECHNOLOGY TRANSFER OPPORTUNITY: 3D Lidar for Autonomous Landing Site Selection (GSC-TOPS-353)** — deadline: 2027-08-24T15:00:00-05:00 ([evidence](https://sam.gov/workspace/contract/opp/e68078da34b44580a43f7d97305b3b35/view))
-- **TECHNOLOGY TRANSFER OPPORTUNITY: 3D Lidar for Autonomous Landing Site Selection (GSC-TOPS-353)** — awarding agency: NATIONAL AERONAUTICS AND SPACE ADMINISTRATION ([evidence](https://sam.gov/workspace/contract/opp/e68078da34b44580a43f7d97305b3b35/view))
-- **SENSOR CABLE** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/9c0d2ac900524731b9a8b1da4fd3099f/view))
-- **SENSOR CABLE** — deadline: 2026-08-24T16:30:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/9c0d2ac900524731b9a8b1da4fd3099f/view))
-- **SENSOR CABLE** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS MECHANICSBURG.NAVSUP WEAPON SYSTEMS SUPPORT MECH ([evidence](https://sam.gov/workspace/contract/opp/9c0d2ac900524731b9a8b1da4fd3099f/view))
-- **66--SENSOR,SHAFT SPEED,FAN** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/943f53ae04e54d1eada4cc728ca6fc56/view))
-- **66--SENSOR,SHAFT SPEED,FAN** — deadline: 2026-08-28 ([evidence](https://sam.gov/workspace/contract/opp/943f53ae04e54d1eada4cc728ca6fc56/view))
-- **66--SENSOR,SHAFT SPEED,FAN** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION ([evidence](https://sam.gov/workspace/contract/opp/943f53ae04e54d1eada4cc728ca6fc56/view))
-- **66--SENSOR,CURRENT** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/88113c0a9ee542ab9f8dfe17ac18d5f5/view))
-- **66--SENSOR,CURRENT** — deadline: 2026-09-04 ([evidence](https://sam.gov/workspace/contract/opp/88113c0a9ee542ab9f8dfe17ac18d5f5/view))
-- **66--SENSOR,CURRENT** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME ([evidence](https://sam.gov/workspace/contract/opp/88113c0a9ee542ab9f8dfe17ac18d5f5/view))
-- **15--PANEL,STRUCTURAL,AI** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/7e399176415443d480b3157622217aaa/view))
-- **15--PANEL,STRUCTURAL,AI** — deadline: 2026-09-01 ([evidence](https://sam.gov/workspace/contract/opp/7e399176415443d480b3157622217aaa/view))
-- **15--PANEL,STRUCTURAL,AI** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION ([evidence](https://sam.gov/workspace/contract/opp/7e399176415443d480b3157622217aaa/view))
-- **PINC AI Healthcare Database (PINC AI)** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/6334bd59fc8e4fdf849e0b52549bec00/view))
-- **PINC AI Healthcare Database (PINC AI)** — deadline: 2026-08-28T12:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/6334bd59fc8e4fdf849e0b52549bec00/view))
-- **PINC AI Healthcare Database (PINC AI)** — set aside: No Set aside used ([evidence](https://sam.gov/workspace/contract/opp/6334bd59fc8e4fdf849e0b52549bec00/view))
-- **PINC AI Healthcare Database (PINC AI)** — awarding agency: HEALTH AND HUMAN SERVICES, DEPARTMENT OF.NATIONAL INSTITUTES OF HEALTH.NATIONAL INSTITUTES OF HEALTH OLAO ([evidence](https://sam.gov/workspace/contract/opp/6334bd59fc8e4fdf849e0b52549bec00/view))
-- **AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/5a72cbe8abf347e89b35be98a819eb84/view))
-- **AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research** — deadline: 2026-09-08T10:00:00-04:00 ([evidence](https://sam.gov/workspace/contract/opp/5a72cbe8abf347e89b35be98a819eb84/view))
-- **AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research** — awarding agency: VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.RPO EAST (36C24E) ([evidence](https://sam.gov/workspace/contract/opp/5a72cbe8abf347e89b35be98a819eb84/view))
-- **PINC AI Healthcare Database (PINC AI)** — states deliverable: enefit the epidemiologic studies at CCMD proposed for 2026-2027 to be expedited as well. Furthermore, CII generated the deliverables requested by NIAID DIR on that previous contract in a timely and efficient manner. Given their experience with Cerner data, their services can be elicited for data cu... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/33b1e66f88ae4f94a0b2fefdd6a64871/download))
-- **PINC AI Healthcare Database (PINC AI)** — states deadline: May 28, 2026 To: Office of Procurement and Contracts From: Head, Clinical Epidemiology Section, Critical Care Medicine Department Re: Sole Source Justification for Data Management Service Cont ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/33b1e66f88ae4f94a0b2fefdd6a64871/download))
-- **THALES DEFENSE & SECURITY INC** — legal business name: THALES DEFENSE & SECURITY INC ([evidence](https://sam.gov/entity/HNNUJXHSXGU3/coreData))
-- **THALES DEFENSE & SECURITY INC** — uei: HNNUJXHSXGU3 ([evidence](https://sam.gov/entity/HNNUJXHSXGU3/coreData))
-- **THALES DEFENSE & SECURITY INC** — cage code: 23386 ([evidence](https://sam.gov/entity/HNNUJXHSXGU3/coreData))
-- **THALES DEFENSE & SECURITY INC** — registration status: Active ([evidence](https://sam.gov/entity/HNNUJXHSXGU3/coreData))
-- **UNIVERSITY OF ALASKA FAIRBANKS** — legal business name: UNIVERSITY OF ALASKA FAIRBANKS ([evidence](https://sam.gov/entity/FDLEQSJ8FF63/coreData))
-- **UNIVERSITY OF ALASKA FAIRBANKS** — uei: FDLEQSJ8FF63 ([evidence](https://sam.gov/entity/FDLEQSJ8FF63/coreData))
-- **UNIVERSITY OF ALASKA FAIRBANKS** — cage code: 3R2B4 ([evidence](https://sam.gov/entity/FDLEQSJ8FF63/coreData))
-- **UNIVERSITY OF ALASKA FAIRBANKS** — registration status: Active ([evidence](https://sam.gov/entity/FDLEQSJ8FF63/coreData))
-- **AUTONOMIC INTEGRA LLC** — legal business name: AUTONOMIC INTEGRA LLC ([evidence](https://sam.gov/entity/YJCKJY5GSX71/coreData))
-- **AUTONOMIC INTEGRA LLC** — uei: YJCKJY5GSX71 ([evidence](https://sam.gov/entity/YJCKJY5GSX71/coreData))
-- **AUTONOMIC INTEGRA LLC** — cage code: 8LBN4 ([evidence](https://sam.gov/entity/YJCKJY5GSX71/coreData))
-- **AUTONOMIC INTEGRA LLC** — registration status: Active ([evidence](https://sam.gov/entity/YJCKJY5GSX71/coreData))
-- **15--PANEL,STRUCTURAL,AI** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/7e399176415443d480b3157622217aaa/view))
-- **66--SENSOR,CURRENT** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/88113c0a9ee542ab9f8dfe17ac18d5f5/view))
-- **AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/5a72cbe8abf347e89b35be98a819eb84/view))
-- **PINC AI Healthcare Database (PINC AI)** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/6334bd59fc8e4fdf849e0b52549bec00/view))
-- **66--SENSOR,SHAFT SPEED,FAN** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/943f53ae04e54d1eada4cc728ca6fc56/view))
+- **ARCHITECTURE, STANDARDS, CYBERSECURITY AND INTEROPERABILITY TECHNICAL SUPPORT** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ326F00118N_6925_693JJ321D000021_6925))
+- **ARCHITECTURE, STANDARDS, CYBERSECURITY AND INTEROPERABILITY TECHNICAL SUPPORT** — awarding agency: Department of Transportation ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ326F00118N_6925_693JJ321D000021_6925))
+- **ARCHITECTURE, STANDARDS, CYBERSECURITY AND INTEROPERABILITY TECHNICAL SUPPORT** — reported amount: 2650000.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ326F00118N_6925_693JJ321D000021_6925))
+- **ARCHITECTURE, STANDARDS, CYBERSECURITY AND INTEROPERABILITY TECHNICAL SUPPORT** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ326F00118N_6925_693JJ321D000021_6925))
+- **15--PANEL,STRUCTURAL,AI** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/b7200f5aead948d2940636acfc131bd4/view))
+- **15--PANEL,STRUCTURAL,AI** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION ([evidence](https://sam.gov/workspace/contract/opp/b7200f5aead948d2940636acfc131bd4/view))
+- **15--PANEL,STRUCTURAL,AI** — reported amount: 49206.0 ([evidence](https://sam.gov/workspace/contract/opp/b7200f5aead948d2940636acfc131bd4/view))
+- **15--PANEL,STRUCTURAL,AI** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/b7200f5aead948d2940636acfc131bd4/view))
+- **cybersecurity management support services** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/cfb8c5734ea443cfb629a39b076cf91d/view))
+- **cybersecurity management support services** — awarding agency: TRANSPORTATION, DEPARTMENT OF.FEDERAL HIGHWAY ADMINISTRATION.IT ACQUISITION CENTER OF EXCELLENCE (ACE) ([evidence](https://sam.gov/workspace/contract/opp/cfb8c5734ea443cfb629a39b076cf91d/view))
+- **Generative Artificial Intelligence (GenAI) Electronic Performance Support System (EPSS) under CSO N0003925S001.** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/c21f4f1ff5834867b7c2fe36835ec54e/view))
+- **Generative Artificial Intelligence (GenAI) Electronic Performance Support System (EPSS) under CSO N0003925S001.** — deadline: 2026-09-10T14:00:00-07:00 ([evidence](https://sam.gov/workspace/contract/opp/c21f4f1ff5834867b7c2fe36835ec54e/view))
+- **Generative Artificial Intelligence (GenAI) Electronic Performance Support System (EPSS) under CSO N0003925S001.** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.SPAWAR.SPAWAR HQ.NAVAL INFORMATION WARFARE SYSTEMS ([evidence](https://sam.gov/workspace/contract/opp/c21f4f1ff5834867b7c2fe36835ec54e/view))
+- **Notice of Intent to Sole Source - Innovative Algorithms Phalanx Shield Unattended Ground Sensor** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/8f7e558f3da743c2a3f5458f0ecf733d/view))
+- **Notice of Intent to Sole Source - Innovative Algorithms Phalanx Shield Unattended Ground Sensor** — deadline: 2026-09-09T13:00:00-06:00 ([evidence](https://sam.gov/workspace/contract/opp/8f7e558f3da743c2a3f5458f0ecf733d/view))
+- **Notice of Intent to Sole Source - Innovative Algorithms Phalanx Shield Unattended Ground Sensor** — set aside: Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) ([evidence](https://sam.gov/workspace/contract/opp/8f7e558f3da743c2a3f5458f0ecf733d/view))
+- **Notice of Intent to Sole Source - Innovative Algorithms Phalanx Shield Unattended Ground Sensor** — awarding agency: DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE SPECIAL OPERATIONS COMMAND.FA4855 27 SOCONS LGC ([evidence](https://sam.gov/workspace/contract/opp/8f7e558f3da743c2a3f5458f0ecf733d/view))
+- **USAFA: Quantum Demonstration/Experiment System (Amendment 2)** — states requirement: r those end products that do not consist wholly or predominantly of iron or steel or a combination of both, the Offeror shall also indicate whether these foreign end products exceed 55 percent domestic content, except for those that are COTS items. If the percentage of the domestic content is unkno... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03a7ed20a87f485aad973b332ef651df/download))
+- **USAFA: Quantum Demonstration/Experiment System (Amendment 2)** — states requirement: foreign end products that do not consist wholly or predominantly of iron or steel or a combination of both, the Offeror shall also indicate whether these foreign end products exceed 55 percent domestic content, except for those that are COTS items. If the percentage of the domestic content is unkno... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03a7ed20a87f485aad973b332ef651df/download))
+- **USAFA: Quantum Demonstration/Experiment System (Amendment 2)** — states requirement: known, select “no”. Line Item Number Country of Origin (If known) Exceeds 55% Domestic Content (yes/no) (4) The Offeror shall separately list the line item numbers of domestic end products that contain a critical component or a critical item (see Federal Acquisition Regulation 25.105). Domestic end... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03a7ed20a87f485aad973b332ef651df/download))
+- **THE PENNSYLVANIA STATE UNIVERSITY** — legal business name: THE PENNSYLVANIA STATE UNIVERSITY ([evidence](https://sam.gov/entity/NPM2J7MSCF61/coreData))
+- **THE PENNSYLVANIA STATE UNIVERSITY** — uei: NPM2J7MSCF61 ([evidence](https://sam.gov/entity/NPM2J7MSCF61/coreData))
+- **THE PENNSYLVANIA STATE UNIVERSITY** — cage code: 7A720 ([evidence](https://sam.gov/entity/NPM2J7MSCF61/coreData))
+- **THE PENNSYLVANIA STATE UNIVERSITY** — registration status: Active ([evidence](https://sam.gov/entity/NPM2J7MSCF61/coreData))
+- **PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC.** — legal business name: PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. ([evidence](https://sam.gov/entity/KL36P1L5H833/coreData))
+- **PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC.** — uei: KL36P1L5H833 ([evidence](https://sam.gov/entity/KL36P1L5H833/coreData))
+- **PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC.** — cage code: 1LLT3 ([evidence](https://sam.gov/entity/KL36P1L5H833/coreData))
+- **PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC.** — registration status: Active ([evidence](https://sam.gov/entity/KL36P1L5H833/coreData))
+- **THE UNIVERSITY OF ALABAMA IN HUNTSVILLE** — legal business name: THE UNIVERSITY OF ALABAMA IN HUNTSVILLE ([evidence](https://sam.gov/entity/HB6KNGVNJRU1/coreData))
+- **THE UNIVERSITY OF ALABAMA IN HUNTSVILLE** — uei: HB6KNGVNJRU1 ([evidence](https://sam.gov/entity/HB6KNGVNJRU1/coreData))
+- **THE UNIVERSITY OF ALABAMA IN HUNTSVILLE** — cage code: 9B944 ([evidence](https://sam.gov/entity/HB6KNGVNJRU1/coreData))
+- **THE UNIVERSITY OF ALABAMA IN HUNTSVILLE** — registration status: Active ([evidence](https://sam.gov/entity/HB6KNGVNJRU1/coreData))
+- **Notice of Intent to Sole Source - Innovative Algorithms Phalanx Shield Unattended Ground Sensor** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/8f7e558f3da743c2a3f5458f0ecf733d/view))
+- **Generative Artificial Intelligence (GenAI) Electronic Performance Support System (EPSS) under CSO N0003925S001.** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/c21f4f1ff5834867b7c2fe36835ec54e/view))
+- **USAFA: Quantum Demonstration/Experiment System (Amendment 2)** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/88038d7669964d6da76168589483ef36/view))
 
 ## Superseded claims
 
@@ -115,7 +96,7 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## Conflicts opened
 
-- None.
+- **Data, Analytics, and AI Modernization Services** — opportunity status: ['closed', 'open']
 
 ## Conflicts resolved
 

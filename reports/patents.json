@@ -2298,6 +2298,28 @@
     },
     {
       "application_count": 1,
+      "assignee": "Bundesdruckerei GmbH",
+      "citation_count": 0,
+      "family_basis": "continuation parent application",
+      "family_key": "application:PCTEP2024069710",
+      "grant_count": 0,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "19491890",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data"
+        }
+      ],
+      "primary_publication_number": null,
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data",
+      "significance_label": "high",
+      "strategic_significance_score": 60,
+      "title": "QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE"
+    },
+    {
+      "application_count": 1,
       "assignee": null,
       "citation_count": 0,
       "family_basis": "application number",
@@ -3109,6 +3131,28 @@
       "significance_label": "notable",
       "strategic_significance_score": 57,
       "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA"
+    },
+    {
+      "application_count": 1,
+      "assignee": "INTUIT INC.",
+      "citation_count": 0,
+      "family_basis": "continuation parent application",
+      "family_key": "application:18935242",
+      "grant_count": 0,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "19563940",
+          "document_type": "application",
+          "publication_number": "US20260203338A1",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19563940/application-data"
+        }
+      ],
+      "primary_publication_number": "US20260203338A1",
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19563940/application-data",
+      "significance_label": "notable",
+      "strategic_significance_score": 57,
+      "title": "LARGE LANGUAGE MODEL INPUT PREPROCESSING AND REFINEMENT"
     },
     {
       "application_count": 0,
@@ -4231,28 +4275,6 @@
       "significance_label": "notable",
       "strategic_significance_score": 49,
       "title": "APPARATUS AND METHOD FOR LARGE LANGUAGE MODEL (LLM) REINFORCEMENT LEARNING WITH HETEROGENEOUS PROCESSORS"
-    },
-    {
-      "application_count": 1,
-      "assignee": "INTUIT INC.",
-      "citation_count": 0,
-      "family_basis": "continuation parent application",
-      "family_key": "application:18935242",
-      "grant_count": 0,
-      "member_count": 1,
-      "members": [
-        {
-          "application_number": "19563940",
-          "document_type": "application",
-          "publication_number": "US20260203338A1",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19563940/application-data"
-        }
-      ],
-      "primary_publication_number": "US20260203338A1",
-      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19563940/application-data",
-      "significance_label": "notable",
-      "strategic_significance_score": 49,
-      "title": "LARGE LANGUAGE MODEL INPUT PREPROCESSING AND REFINEMENT"
     },
     {
       "application_count": 1,
@@ -12014,6 +12036,75 @@
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
     },
     {
+      "application_number": "19491890",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "Bundesdruckerei GmbH",
+      "backward_citation_count": 0,
+      "child_applications": [
+        "19491890"
+      ],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "application",
+      "family_basis": "continuation parent application",
+      "family_id": "",
+      "family_key": "application:PCTEP2024069710",
+      "family_members": [
+        {
+          "application_number": "19491890",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data"
+        }
+      ],
+      "family_size": 1,
+      "filing_date": "2025-12-10",
+      "forward_citation_count": 0,
+      "grant_date": "",
+      "inventors": "Wadim WORMSBECHER, Manfred PAESCHKE, Andreas WILKE",
+      "is_continuation": true,
+      "key": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data",
+      "kind_code": null,
+      "legal_status": "Application Undergoing Preexam Processing",
+      "legal_status_normalized": "pending",
+      "matched_keywords": [
+        "entanglement",
+        "quantum communication"
+      ],
+      "parent_applications": [
+        "PCTEP2024069710"
+      ],
+      "patent_number": null,
+      "priority": "critical",
+      "priority_date": "",
+      "priority_numbers": [
+        "1020231188658"
+      ],
+      "publication_date": null,
+      "publication_number": null,
+      "query": "Quantum Networking and Sensing Patents",
+      "score": 100,
+      "significance_factors": [
+        "strategic domain relevance +44",
+        "application stage +5",
+        "pending legal status +8",
+        "named assignee +3"
+      ],
+      "significance_label": "high",
+      "source": "Quantum Networking and Sensing Patents",
+      "strategic_domains": [
+        "Quantum technology"
+      ],
+      "strategic_relevance_score": 110,
+      "strategic_significance_score": 60,
+      "summary": "Applicant: Bundesdruckerei GmbH",
+      "title": "QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data"
+    },
+    {
       "application_number": "19489905",
       "application_type": "Utility",
       "assessment": null,
@@ -12764,7 +12855,7 @@
       "is_continuation": false,
       "key": "US20260235773A1",
       "kind_code": "A1",
-      "legal_status": "Final Rejection Counted, Not Yet Mailed",
+      "legal_status": "Final Rejection Mailed",
       "legal_status_normalized": "unknown",
       "matched_keywords": [
         "quantum sensing"
@@ -14063,6 +14154,73 @@
       "title": "PROACTIVE PERSONALIZATION OF MULTIMEDIA CONTENT AND DIALOG CONTENT THROUGH UTILIZATION OF LARGE LANGUAGE MODEL(S)",
       "tracking_type": "automated",
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19555593/application-data"
+    },
+    {
+      "application_number": "19563940",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "INTUIT INC.",
+      "backward_citation_count": 0,
+      "child_applications": [
+        "19563940"
+      ],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "application",
+      "family_basis": "continuation parent application",
+      "family_id": "",
+      "family_key": "application:18935242",
+      "family_members": [
+        {
+          "application_number": "19563940",
+          "document_type": "application",
+          "publication_number": "US20260203338A1",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19563940/application-data"
+        }
+      ],
+      "family_size": 1,
+      "filing_date": "2026-03-11",
+      "forward_citation_count": 0,
+      "grant_date": null,
+      "inventors": "Shon MENDELSON, Gal ELGAVISH, Hadar LACKRITZ, Kaaleb EDERY",
+      "is_continuation": true,
+      "key": "US20260203338A1",
+      "kind_code": "A1",
+      "legal_status": "Response to Non-Final Office Action Entered and Forwarded to Examiner",
+      "legal_status_normalized": "pending",
+      "matched_keywords": [
+        "large language model"
+      ],
+      "parent_applications": [
+        "18935242"
+      ],
+      "patent_number": null,
+      "priority": "critical",
+      "priority_date": null,
+      "priority_numbers": [],
+      "publication_date": "2026-07-16",
+      "publication_number": "US20260203338A1",
+      "query": "Strategic AI Systems Patents",
+      "score": 100,
+      "significance_factors": [
+        "strategic domain relevance +36",
+        "application stage +5",
+        "pending legal status +8",
+        "recent publication +5",
+        "named assignee +3"
+      ],
+      "significance_label": "notable",
+      "source": "Strategic AI Systems Patents",
+      "strategic_domains": [
+        "Artificial intelligence"
+      ],
+      "strategic_relevance_score": 90,
+      "strategic_significance_score": 57,
+      "summary": "Applicant: INTUIT INC. \u00b7 USPTO publication US20260203338A1",
+      "title": "LARGE LANGUAGE MODEL INPUT PREPROCESSING AND REFINEMENT",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19563940/application-data"
     },
     {
       "application_number": "19522826",
@@ -18129,72 +18287,6 @@
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19632146/application-data"
     },
     {
-      "application_number": "19563940",
-      "application_type": "Utility",
-      "assessment": null,
-      "assignee": "INTUIT INC.",
-      "backward_citation_count": 0,
-      "child_applications": [
-        "19563940"
-      ],
-      "citation_count": 0,
-      "cited_patents": [],
-      "continuation_type": null,
-      "document_type": "application",
-      "family_basis": "continuation parent application",
-      "family_id": "",
-      "family_key": "application:18935242",
-      "family_members": [
-        {
-          "application_number": "19563940",
-          "document_type": "application",
-          "publication_number": "US20260203338A1",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19563940/application-data"
-        }
-      ],
-      "family_size": 1,
-      "filing_date": "2026-03-11",
-      "forward_citation_count": 0,
-      "grant_date": null,
-      "inventors": "Shon MENDELSON, Gal ELGAVISH, Hadar LACKRITZ, Kaaleb EDERY",
-      "is_continuation": true,
-      "key": "US20260203338A1",
-      "kind_code": "A1",
-      "legal_status": "Non Final Action Mailed",
-      "legal_status_normalized": "unknown",
-      "matched_keywords": [
-        "large language model"
-      ],
-      "parent_applications": [
-        "18935242"
-      ],
-      "patent_number": null,
-      "priority": "critical",
-      "priority_date": null,
-      "priority_numbers": [],
-      "publication_date": "2026-07-16",
-      "publication_number": "US20260203338A1",
-      "query": "Strategic AI Systems Patents",
-      "score": 100,
-      "significance_factors": [
-        "strategic domain relevance +36",
-        "application stage +5",
-        "recent publication +5",
-        "named assignee +3"
-      ],
-      "significance_label": "notable",
-      "source": "Strategic AI Systems Patents",
-      "strategic_domains": [
-        "Artificial intelligence"
-      ],
-      "strategic_relevance_score": 90,
-      "strategic_significance_score": 49,
-      "summary": "Applicant: INTUIT INC. \u00b7 USPTO publication US20260203338A1",
-      "title": "LARGE LANGUAGE MODEL INPUT PREPROCESSING AND REFINEMENT",
-      "tracking_type": "automated",
-      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19563940/application-data"
-    },
-    {
       "application_number": "19561082",
       "application_type": "Utility",
       "assessment": null,
@@ -20720,19 +20812,19 @@
   "source": "Curated patent portfolio and USPTO Open Data Portal Patent File Wrapper metadata",
   "source_note": "Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.",
   "summary": {
-    "active_or_pending": 171,
-    "applications": 226,
-    "automated_total": 233,
+    "active_or_pending": 173,
+    "applications": 227,
+    "automated_total": 234,
     "curated_total": 2,
-    "families": 225,
+    "families": 226,
     "grants": 9,
     "last_30_days": 44,
     "latest_publication_date": "2026-08-20",
-    "status_known": 175,
-    "total": 235,
-    "unique_assignees": 146,
+    "status_known": 177,
+    "total": 236,
+    "unique_assignees": 147,
     "with_citations": 0
   },
-  "updated_at": "2026-08-25T00:52:22.704574+00:00",
+  "updated_at": "2026-08-26T00:53:15.324629+00:00",
   "version": 4
 }

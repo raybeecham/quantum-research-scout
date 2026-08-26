@@ -1,28 +1,42 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-25T00:52:22.704574+00:00_
+_Updated 2026-08-26T00:53:15.324629+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **528**
-- Quarantined evidence or relationships: **111**
-- Acceptance rate: **82.6%**
+- Quarantined evidence or relationships: **114**
+- Acceptance rate: **82.2%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 28 | 83 | 25.2% |
+| Federal missions | 28 | 86 | 24.6% |
 | Federal funding | 500 | 28 | 94.7% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 111
-- **No relevant term in the evidence itself**: 111
-- **Official government source**: 104
-- **Source is not an official .gov or .mil domain**: 7
+- **Match appears only in collector query metadata**: 114
+- **No relevant term in the evidence itself**: 114
+- **Official government source**: 105
+- **Source is not an official .gov or .mil domain**: 9
 
 ## Quarantined Evidence
+
+### [Policy 13h ago Treasury launches task force to shield finance from quantum hacks](https://quantumzeitgeist.com/quantum-readiness-treasury-task-force-shield)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [Cryptography 7h ago GSA and Treasury Launch Dual-Agency Post-Quantum Cryptography Initiatives for U.S. Federal & Financial Infrastructure](https://quantumcomputingreport.com/gsa-and-treasury-launch-dual-agency-post-quantum-cryptography-initiatives-for-u-s-federal-financial-infrastructure)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [U.S. Treasury Announces the Quantum-Readiness Task Force](https://thequantuminsider.com/2026/08/24/u-s-treasury-announces-the-quantum-readiness-task-force)
 
@@ -704,20 +718,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [DOD Defense Health Agency (DHA) Research & Development FY23-FY27 BROAD AGENCY ANNOUNCEMENT for Extramural Medical Research](https://www.grants.gov/search-results-detail/343725)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [DOD Defense Health Agency (DHA) Research & Development FY23-FY27 BROAD AGENCY ANNOUNCEMENT for Extramural Medical Research](https://www.grants.gov/search-results-detail/343725)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [FDA Support for Conferences and Scientific Meetings (R13 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/342752)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

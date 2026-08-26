@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-08-25T00:52:22.704574+00:00_
+_Updated 2026-08-26T00:53:15.324629+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
 **Ranking:** Strategic significance first, combining domain relevance, document stage, legal status, citation evidence, family depth, recency, and assignee attribution. Evidence score and publication date break ties.
 
-- Tracked publications: **235**
+- Tracked publications: **236**
 - Curated notable patents: **2**
-- Automated recent discoveries: **233**
+- Automated recent discoveries: **234**
 - Published in the last 30 days: **44**
-- Unique named assignees: **146**
-- Patent families: **225**
-- Applications / grants: **226 / 9**
-- Known legal status: **175 of 235**
+- Unique named assignees: **147**
+- Patent families: **226**
+- Applications / grants: **227 / 9**
+- Known legal status: **177 of 236**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -163,6 +163,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [METHOD FOR OPTIMIZING AN EXECUTION OF A GENERATION OF A CRYSTALS-DILITHIUM POST-QUANTUM SIGNATURE](https://data.uspto.gov/patent-file-wrapper/search/details/19157393/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | THALES DIS FRANCE SAS | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [AI-DRIVEN CROSS-CHANNEL FINANCIAL FRAUD DETECTION SYSTEM WITH QUANTUM-RESISTANT ENCRYPTION AND BLOCKCHAIN INTEGRATION](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025043982/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CYBERSMARTS.AI LLC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING](https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data)<br><small>Publication number unavailable</small> | Application · Pending | NEW YORK UNIVERSITY | 1 member(s) · 0 citation(s) | **60 · HIGH** |
+| [QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [Large-scale multi-qubit trapped-ion gates](https://data.uspto.gov/patent-file-wrapper/search/details/19489905/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Quantum Art Ltd., YEDA RESEARCH AND DEVELOPMENT CO. LTD. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [JOINT MODULAR MULTIPLICATIVE INVERSE OPERATIONS FOR ACTIVE VOLUME QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19489704/application-data)<br><small>Publication number unavailable</small> | Application · Pending | PsiQuantum, Corp. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [METHOD AND SYSTEM FOR UNLEARNING OF LARGE LANGUAGE MODEL, AND METHOD FOR CONTROLLING UNLEARNING SYSTEM OF LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19546288/application-data)<br><small>US20260187416A1</small> | Application · Pending | LG MANAGEMENT DEVELOPMENT INSTITUTE CO., LTD. | 2 member(s) · 0 citation(s) | **60 · HIGH** |
@@ -194,6 +195,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [GENERATION OF NATURAL LANGUAGE (NL) BASED SUMMARIES USING A LARGE LANGUAGE MODEL (LLM) AND SUBSEQUENT MODIFICATION THEREOF FOR ATTRIBUTION](https://data.uspto.gov/patent-file-wrapper/search/details/19566593/application-data)<br><small>US20260212135A1</small> | Application · Pending | GOOGLE LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [TECHNIQUES FOR ADAPTIVE LARGE LANGUAGE MODEL USAGE](https://data.uspto.gov/patent-file-wrapper/search/details/19565301/application-data)<br><small>US20260203502A1</small> | Application · Pending | Rubrik, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [PROACTIVE PERSONALIZATION OF MULTIMEDIA CONTENT AND DIALOG CONTENT THROUGH UTILIZATION OF LARGE LANGUAGE MODEL(S)](https://data.uspto.gov/patent-file-wrapper/search/details/19555593/application-data)<br><small>US20260203343A1</small> | Application · Pending | GOOGLE LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
+| [LARGE LANGUAGE MODEL INPUT PREPROCESSING AND REFINEMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19563940/application-data)<br><small>US20260203338A1</small> | Application · Pending | INTUIT INC. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [Enhanced Interactive Writing Tool that Allows Writers to Draft and Revise a Text Authentically and Efficiently Using a Large Language Model While Reducing Academic Misconduct](https://data.uspto.gov/patent-file-wrapper/search/details/19522826/application-data)<br><small>US20260203493A1</small> | Application · Pending | Carnegie Mellon University | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [Video Filtering Object Extraction and Application via Large Language Model](https://data.uspto.gov/patent-file-wrapper/search/details/19456321/application-data)<br><small>US20260195381A1</small> | Application · Pending | Matroid, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [GENERATING SMART TOPICS FOR VIDEO CALLS USING A LARGE LANGUAGE MODEL AND A CONTEXT TRANSFORMER ENGINE](https://data.uspto.gov/patent-file-wrapper/search/details/19556723/application-data)<br><small>US20260197420A1</small> | Application · Pending | Dropbox, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
@@ -256,7 +258,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [INTELLIGENT CYBERSECURE DATA SYSTEM FOR ORCHESTRATING RELATIONAL, NOSQL, GRAPH, AND ANALYTICAL DATABASES IN MULTI-CLOUD ENVIRONMENTS](https://data.uspto.gov/patent-file-wrapper/search/details/19458435/application-data)<br><small>US20260154438A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **50 · NOTABLE** |
 | [EXPLAINABLE LARGE LANGUAGE MODEL ROUTING WITH IMMUTABLE AUDIT TRAILS](https://data.uspto.gov/patent-file-wrapper/search/details/19631778/application-data)<br><small>US20260228267A1</small> | Application · Unknown | Citibank, N.A. | 1 member(s) · 0 citation(s) | **49 · NOTABLE** |
 | [APPARATUS AND METHOD FOR LARGE LANGUAGE MODEL (LLM) REINFORCEMENT LEARNING WITH HETEROGENEOUS PROCESSORS](https://data.uspto.gov/patent-file-wrapper/search/details/19632146/application-data)<br><small>US20260228552A1</small> | Application · Unknown | Intel Corporation | 1 member(s) · 0 citation(s) | **49 · NOTABLE** |
-| [LARGE LANGUAGE MODEL INPUT PREPROCESSING AND REFINEMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19563940/application-data)<br><small>US20260203338A1</small> | Application · Unknown | INTUIT INC. | 1 member(s) · 0 citation(s) | **49 · NOTABLE** |
 | [LARGE LANGUAGE MODEL BASED CONVERSATIONAL DATA UPDATE](https://data.uspto.gov/patent-file-wrapper/search/details/19561082/application-data)<br><small>US20260203094A1</small> | Application · Unknown | o9 Solutions, Inc. | 1 member(s) · 0 citation(s) | **49 · NOTABLE** |
 | [DYNAMIC ARTIFICIAL INTELLIGENCE AGENT ORCHESTRATION USING A LARGE LANGUAGE MODEL GATEWAY ROUTER](https://data.uspto.gov/patent-file-wrapper/search/details/19458425/application-data)<br><small>US20260154526A1</small> | Application · Unknown | Citibank, N.A. | 1 member(s) · 0 citation(s) | **49 · NOTABLE** |
 | [DATA SOURCE CURATION FOR LARGE LANGUAGE MODEL (LLM) PROMPTS](https://data.uspto.gov/patent-file-wrapper/search/details/19438539/application-data)<br><small>US20260140989A1</small> | Application · Unknown | Microsoft Technology Licensing, LLC | 1 member(s) · 0 citation(s) | **49 · NOTABLE** |

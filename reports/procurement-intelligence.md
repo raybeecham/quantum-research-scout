@@ -2,29 +2,109 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-25T00:52:22.704574+00:00_
+_Updated 2026-08-26T00:53:15.324629+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
 - Opportunities reviewed: **20**
-- Documents extracted: **5** / **40** discovered
+- Documents extracted: **6** / **40** discovered
 - Changed documents: **0**
 - New amendments: **0**
-- Material amendment impacts this run: **0**
-- Decisions requiring revalidation: **1**
+- Material amendment impacts this run: **1**
+- Decisions requiring revalidation: **2**
 
-## [66--SENSOR,SHAFT SPEED,FAN](https://sam.gov/workspace/contract/opp/943f53ae04e54d1eada4cc728ca6fc56/view)
+## [Notice of Intent to Sole Source - Innovative Algorithms Phalanx Shield Unattended Ground Sensor](https://sam.gov/workspace/contract/opp/8f7e558f3da743c2a3f5458f0ecf733d/view)
 
-Evidence completeness: **0 / 100** · Deadline: **2026-08-28**
+Evidence completeness: **0 / 100** · Deadline: **2026-09-09T13:00:00-06:00**
 
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=943f53ae04e54d1eada4cc728ca6fc56) — no_text
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8f7e558f3da743c2a3f5458f0ecf733d) — no_text
 
-## [PINC AI Healthcare Database (PINC AI)](https://sam.gov/workspace/contract/opp/6334bd59fc8e4fdf849e0b52549bec00/view)
+## [Generative Artificial Intelligence (GenAI) Electronic Performance Support System (EPSS) under CSO N0003925S001.](https://sam.gov/workspace/contract/opp/c21f4f1ff5834867b7c2fe36835ec54e/view)
 
-Evidence completeness: **36 / 100** · Deadline: **2026-08-28T12:00:00-04:00**
+Evidence completeness: **0 / 100** · Deadline: **2026-09-10T14:00:00-07:00**
 
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/33b1e66f88ae4f94a0b2fefdd6a64871/download) — extracted
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6334bd59fc8e4fdf849e0b52549bec00) — no_text
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c21f4f1ff5834867b7c2fe36835ec54e) — no_text
+
+## [USAFA: Quantum Demonstration/Experiment System (Amendment 2)](https://sam.gov/workspace/contract/opp/88038d7669964d6da76168589483ef36/view)
+
+Evidence completeness: **24 / 100** · Deadline: **2026-08-26T14:00:00-06:00**
+
+Requirements evidence:
+- r those end products that do not consist wholly or predominantly of iron or steel or a combination of both, the Offeror shall also indicate whether these foreign end products exceed 55 percent domestic content, except for those that are COTS items. If the percentage of the domestic content is unkno...
+- foreign end products that do not consist wholly or predominantly of iron or steel or a combination of both, the Offeror shall also indicate whether these foreign end products exceed 55 percent domestic content, except for those that are COTS items. If the percentage of the domestic content is unkno...
+- known, select “no”. Line Item Number Country of Origin (If known) Exceeds 55% Domestic Content (yes/no) (4) The Offeror shall separately list the line item numbers of domestic end products that contain a critical component or a critical item (see Federal Acquisition Regulation 25.105). Domestic end...
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03a7ed20a87f485aad973b332ef651df/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9da0cb93a8ab4d3fb218df323daf13ca/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9e72f42c1f43474ead40df4c2c9388bf/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ceea2b60c42942e2bc5d26a9a2a93696/download) — not_fetched
+
+### Changes since the previous tracker snapshot
+
+**HIGH · 3 change(s) · decision revalidation required**
+
+_Version history is tracker-observed and may not include revisions published before monitoring began._
+
+| Impact | Change | Before | After | Evidence |
+|---|---|---|---|---|
+| HIGH | New requirement evidence was observed. | — | r those end products that do not consist wholly or predominantly of iron or steel or a combination of both, the Offeror... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03a7ed20a87f485aad973b332ef651df/download) |
+| HIGH | New requirement evidence was observed. | — | known, select “no”. Line Item Number Country of Origin (If known) Exceeds 55% Domestic Content (yes/no) (4) The Offeror... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03a7ed20a87f485aad973b332ef651df/download) |
+| HIGH | New requirement evidence was observed. | — | foreign end products that do not consist wholly or predominantly of iron or steel or a combination of both, the Offeror... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03a7ed20a87f485aad973b332ef651df/download) |
+
+## [AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)](https://sam.gov/workspace/contract/opp/6cb8851eb547403780b604de93a1a406/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-27T13:00:00-04:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3ad09f3b7ac947679b893e452f259a85/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/86303141e08c4838a658b3e4e19bc393/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/887e0fe298984abcb139a6887fbe9962/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d307dbcbe6a743de999beacdac0a839a/download) — not_fetched
+
+## [Small Business Cybersecurity Network](https://sam.gov/workspace/contract/opp/86e5f7a6f4db4b1196246dbd1ec9e465/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-27T17:00:00-07:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9bd8d56ea7be4877b96d81753fd01de8/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c002c2804e02477783620f2773ecedf1/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/eaddcef7896445a19b3290aa19261856/download) — not_fetched
+
+## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/bb59f3e723bc475894c45c3b031ec406/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-27**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bb59f3e723bc475894c45c3b031ec406) — not_fetched
+
+## [59--SENSOR,ATMOSPHERIC](https://sam.gov/workspace/contract/opp/998d3e083dae430b86aa9f078f696dcb/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-27**
+
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=998d3e083dae430b86aa9f078f696dcb) — not_fetched
+
+## [Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)](https://sam.gov/workspace/contract/opp/ab5de2004b3a4549819300908e5f3ee1/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-08-28T10:00:00-04:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5aa0ab25da0f424d91318cf10ecfb981/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b6844979abcd4017bb578d76c99602c8/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/efdd6863d9544a0d9759777fcfcb8938/download) — not_fetched
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ab5de2004b3a4549819300908e5f3ee1) — not_fetched
+
+## [Optical Cryogenic Quantum System](https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view)
+
+Evidence completeness: **84 / 100** · Deadline: **2026-08-26T17:00:00-05:00**
+
+Requirements evidence:
+- 5-6 2 1. ASSIGNMENT (MAR 2023) Neither this contract nor any interest therein nor claim there under shall be assigned or transferred by the Contractor except as expressly authorized in writing by the Laboratory; provided, that the Contractor or its assignee's rights to be paid amounts
+- duties and liabilities owed to Laboratory. Laboratory will not be subject to audit or disclosure except to the extent required by U.S. law or authorized by DOE under the Prime Contract. DOE may access anything supplied to Argonne to the extent provided by federal laws, regulations or the Prime Cont...
+- act Disputes Act is inapplicable and any dispute between the parties that cannot be resolved by good faith negotiations shall be adjudicated in the State of Illinois, County of DuPage. Any provision requiring Laboratory to provide indemnification in Contractor’s terms and conditions is deemed null,...
+- 024) If Contractor considers that any direction or instruction by Laboratory personnel constitutes a change, Contractor shall not rely upon such instruction or direction without written confirmation from the Procurement Specialist. Nothing in this clause, including any disagreement with the Laborat...
+- ment Specialist. Nothing in this clause, including any disagreement with the Laboratory about the equitable adjustment, shall excuse the Contractor from proceeding with the Agreement as changed. 4. CONDUCT OF EMPLOYEES (NOV 2024) The contractor acknowledges the Laboratory’s Code of Business Ethics...
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1c347809e5ef4aae9a5761ca1b1029b8/download) — no_text
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5a5bf8c052264d4499f7b5e0b47f09e9/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/606ef670b4e64d25bd55a5a85f764f7d/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7a1750870dcf4a39959f15931abfaf94/download) — not_fetched
 
 ## [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/7e399176415443d480b3157622217aaa/view)
 
@@ -45,24 +125,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-09-08T10:00:00-04:00**
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2f77bec51c46442e90dceea19ec9d8a9/download) — not_fetched
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5a72cbe8abf347e89b35be98a819eb84) — not_fetched
 
-## [Data, Analytics, and AI Modernization Services](https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-25T11:00:00-04:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a0a66d14de4ec18ed28dc0e491b06b/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1cd7e90627864e6b9949e323f804873d/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c9adcc93e4428cb213acc5c11cdcce/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/580cc4c02ed04729858dd795956faa91/download) — not_fetched
-
-## [USAFA: Quantum Demonstration/Experiment System (Amendment 2)](https://sam.gov/workspace/contract/opp/88038d7669964d6da76168589483ef36/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-26T14:00:00-06:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03a7ed20a87f485aad973b332ef651df/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9da0cb93a8ab4d3fb218df323daf13ca/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9e72f42c1f43474ead40df4c2c9388bf/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ceea2b60c42942e2bc5d26a9a2a93696/download) — not_fetched
-
 ## [63--SALINITY SENSOR,CON](https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view)
 
 Evidence completeness: **0 / 100** · Deadline: **2026-08-26**
@@ -80,52 +142,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-26**
 Evidence completeness: **0 / 100** · Deadline: **2026-08-26T17:00:00-05:00**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b39f36f427ff4a7b9f0eb9fa0cb3ae74) — not_fetched
-
-## [AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)](https://sam.gov/workspace/contract/opp/6cb8851eb547403780b604de93a1a406/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-27T13:00:00-04:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3ad09f3b7ac947679b893e452f259a85/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/86303141e08c4838a658b3e4e19bc393/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/887e0fe298984abcb139a6887fbe9962/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d307dbcbe6a743de999beacdac0a839a/download) — not_fetched
-
-## [Optical Cryogenic Quantum System](https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view)
-
-Evidence completeness: **84 / 100** · Deadline: **2026-08-26T17:00:00-05:00**
-
-Requirements evidence:
-- 5-6 2 1. ASSIGNMENT (MAR 2023) Neither this contract nor any interest therein nor claim there under shall be assigned or transferred by the Contractor except as expressly authorized in writing by the Laboratory; provided, that the Contractor or its assignee's rights to be paid amounts
-- duties and liabilities owed to Laboratory. Laboratory will not be subject to audit or disclosure except to the extent required by U.S. law or authorized by DOE under the Prime Contract. DOE may access anything supplied to Argonne to the extent provided by federal laws, regulations or the Prime Cont...
-- act Disputes Act is inapplicable and any dispute between the parties that cannot be resolved by good faith negotiations shall be adjudicated in the State of Illinois, County of DuPage. Any provision requiring Laboratory to provide indemnification in Contractor’s terms and conditions is deemed null,...
-- 024) If Contractor considers that any direction or instruction by Laboratory personnel constitutes a change, Contractor shall not rely upon such instruction or direction without written confirmation from the Procurement Specialist. Nothing in this clause, including any disagreement with the Laborat...
-- ment Specialist. Nothing in this clause, including any disagreement with the Laboratory about the equitable adjustment, shall excuse the Contractor from proceeding with the Agreement as changed. 4. CONDUCT OF EMPLOYEES (NOV 2024) The contractor acknowledges the Laboratory’s Code of Business Ethics...
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1c347809e5ef4aae9a5761ca1b1029b8/download) — no_text
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5a5bf8c052264d4499f7b5e0b47f09e9/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/606ef670b4e64d25bd55a5a85f764f7d/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7a1750870dcf4a39959f15931abfaf94/download) — not_fetched
-
-## [66--SENSOR,LIQUID FLOW](https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-25**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9e75681b5bb5424389ad629ec4764b79) — not_fetched
-
-## [Laser for widefield quantum diamond microscope](https://sam.gov/workspace/contract/opp/b0c03fae4cd744a4a1eb7b1f16f50bb3/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-25T12:00:00-04:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/993a1b27cd744a45bf1c31343d61c010/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9dfd31f4f8d8448e9350d0f190ac8033/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b71ddb0fe2d54e88b8be8200fc04e54a/download) — not_fetched
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b0c03fae4cd744a4a1eb7b1f16f50bb3) — not_fetched
-
-## [Maintenance agreement for a Quantum Design Cryocool system](https://sam.gov/workspace/contract/opp/ffbf39d50ec4475b9c08b091df75f34a/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-08-25T13:00:00-04:00**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ffbf39d50ec4475b9c08b091df75f34a) — not_fetched
 
 ## [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
 
@@ -162,17 +178,18 @@ Evidence completeness: **0 / 100** · Deadline: **2026-08-28**
 
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=55512f77b7fa4808936799f827cbae10) — no_text
 
-## [59--TAIL SENSOR](https://sam.gov/workspace/contract/opp/d032e7f6af9d4a2e8f11c50eae9d95da/view)
+## [66--SENSOR,SHAFT SPEED,FAN](https://sam.gov/workspace/contract/opp/943f53ae04e54d1eada4cc728ca6fc56/view)
 
-Evidence completeness: **0 / 100** · Deadline: **2026-08-31**
+Evidence completeness: **0 / 100** · Deadline: **2026-08-28**
 
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d032e7f6af9d4a2e8f11c50eae9d95da) — no_text
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=943f53ae04e54d1eada4cc728ca6fc56) — no_text
 
-## [30--FILL PUMP AC OIL,AI](https://sam.gov/workspace/contract/opp/e8ad08e63efd482288d9b38a93b295bb/view)
+## [PINC AI Healthcare Database (PINC AI)](https://sam.gov/workspace/contract/opp/6334bd59fc8e4fdf849e0b52549bec00/view)
 
-Evidence completeness: **0 / 100** · Deadline: **2026-09-08**
+Evidence completeness: **36 / 100** · Deadline: **2026-08-28T12:00:00-04:00**
 
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e8ad08e63efd482288d9b38a93b295bb) — no_text
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/33b1e66f88ae4f94a0b2fefdd6a64871/download) — extracted
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6334bd59fc8e4fdf849e0b52549bec00) — no_text
 
 ## Method
 

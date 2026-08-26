@@ -4,31 +4,31 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-25 01:01 UTC_
+_Updated 2026-08-26 01:00 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
-| AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-08-22 | 16 |
+| AI Security | ↗️ rising (3 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-08-25 | 17 |
 | QEC / Fault Tolerance | ↗️ rising (5 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-08-22 | 48 |
-| PQC / Crypto Agility | ➡️ stable (17 vs 15) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-08-24 | 146 |
-| Quantum Hardware | ➡️ stable (19 vs 21) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-24 | 222 |
+| PQC / Crypto Agility | ➡️ stable (16 vs 17) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-08-25 | 151 |
+| Quantum Hardware | ➡️ stable (22 vs 20) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-25 | 226 |
 | Quantum Networking | ➡️ stable (11 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-23 | 93 |
 | Quantum Sensing | ➡️ stable (4 vs 3) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-24 | 40 |
 | Quantum Software / Tooling | ➡️ stable (7 vs 6) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-08-24 | 70 |
-| Standards / Government | ➡️ stable (9 vs 9) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-08-24 | 35 |
+| Standards / Government | ➡️ stable (8 vs 8) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-08-25 | 36 |
 
 ## AI Security
 
 - Organizations/sources: Quantum Zeitgeist, arXiv RSS cs.CR, QuantumNews.ai, The Quantum Insider, Cloudflare Blog
 - Recommended follow-up: Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.
 - Recent supporting evidence:
+  - 2026-08-25 — [Stony Brook and Brookhaven expand New York’s quantum network](https://quantumzeitgeist.com/stony-brook-brookhaven-yorks-quantum) (Quantum Zeitgeist, score 68)
   - 2026-08-22 — [Anthropic's LLM watermarking](https://scottaaronson.blog/?p=10032) (QuantumNews.ai, score 20)
   - 2026-08-19 — [Researchers Generate LLM-Compiled Shuttling Code for Complex Trapped-Ion Architectures](https://quantumzeitgeist.com/large-language-model-trapped-ion-shuttling-code-generation) (Quantum Zeitgeist, score 60)
   - 2026-08-08 — [PubChem physics-based verification flags errors in 80% of cases](https://quantumzeitgeist.com/llms-physics-based-verification-flags-pubchem) (Quantum Zeitgeist, score 21)
   - 2026-08-04 — [NCSC statement in response to recent incidents resulting from frontier AI evaluations](https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations) (NCSC UK News, score 100)
-  - 2026-08-03 — [Smaller, faster, safer: running Kimi and GLM at scale](https://blog.cloudflare.com/smaller-faster-safer-models) (Cloudflare Blog, score 22)
 
 ## QEC / Fault Tolerance
 
@@ -46,22 +46,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
-  - 2026-08-24 — [Mutual Post-Quantum Auth over IKEv2 – IPsec Series, Part 8](https://blogs.cisco.com/developer/mutual-post-quantum-auth-over-ikev2-ipsec-series-part-8) (Cisco Quantum-Safe Updates, score 158)
-  - 2026-08-24 — [TCG Defines Requirements for PQC-Ready Trusted Platform Modules](https://thequantuminsider.com/2026/08/24/tcg-requirements-pqc-ready-trusted-platform-modules) (The Quantum Insider, score 58)
-  - 2026-08-24 — [CSA guides Singapore’s infrastructure toward quantum safety](https://quantumzeitgeist.com/cybersecurity-agency-csa-guides-singapores-infrastructure) (Quantum Zeitgeist, score 51)
-  - 2026-08-24 — [RFI and Safeheron Test Post-Quantum Cryptography for Digital Asset Transactions](https://thequantuminsider.com/2026/08/24/rfi-safeheron-post-quantum-security-digital-assets) (The Quantum Insider, score 50)
-  - 2026-08-24 — [Banks and regulators test quantum-proof digital asset transfers](https://quantumzeitgeist.com/responsible-fintech-quantum-proof-digital-asset) (Quantum Zeitgeist, score 47)
+  - 2026-08-25 — [strongSwan helps Cisco build a test for post-quantum IKEv2 security](https://quantumzeitgeist.com/post-quantum-ikev2-security-strongswan-helps) (QuantumNews.ai, score 106)
+  - 2026-08-25 — [GSA Outlines Transition to Quantum-Resistant Technology](https://thequantuminsider.com/2026/08/25/gsa-outlines-transition-to-quantum-resistant-technology) (The Quantum Insider, score 100)
+  - 2026-08-25 — [GSA and Treasury Launch Dual-Agency Post-Quantum Cryptography Initiatives for U.S. Federal & Financial Infrastructure](https://quantumcomputingreport.com/gsa-and-treasury-launch-dual-agency-post-quantum-cryptography-initiatives-for-u-s-federal-financial-infrastructure) (QuantumNews.ai, score 100)
+  - 2026-08-25 — [Treasury launches task force to shield finance from quantum hacks](https://quantumzeitgeist.com/quantum-readiness-treasury-task-force-shield) (QuantumNews.ai, score 100)
+  - 2026-08-25 — [India's C-DOT Unveils 14 Indigenous Quantum Products During 43rd Foundation Day](https://quantumcomputingreport.com/indias-c-dot-unveils-14-indigenous-quantum-products-during-43rd-foundation-day) (QuantumNews.ai, score 54)
 
 ## Quantum Hardware
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-08-25 — [NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons](https://thequantuminsider.com/2026/08/25/nist-researchers-supersize-quantum-technology-to-help-detect-faint-photons) (The Quantum Insider, score 56)
+  - 2026-08-25 — [NIST physicists overcome size limits of quantum light sensors](https://quantumzeitgeist.com/quantum-light-sensors-nist-physicists) (QuantumNews.ai, score 56)
+  - 2026-08-25 — [Pasqal Welcomes Kingdom of Saudi Arabia Ministerial Delegation to French Headquarters](https://thequantuminsider.com/2026/08/25/pasqal-saudi-arabian-delegation-french-quantum-facility) (The Quantum Insider, score 35)
+  - 2026-08-25 — [Princeton to Lead $27.9M NSF Institute for Quantum Processor Manufacturing](https://thequantuminsider.com/2026/08/25/princeton-to-lead-27-9m-nsf-institute-for-quantum-processor-manufacturing) (The Quantum Insider, score 32)
   - 2026-08-24 — [Researchers Unify Strategies to Cut Quantum Computing Errors](https://quantumzeitgeist.com/quantum-error-correction-syndrome-measurement-unification-strategy) (Quantum Zeitgeist, score 63)
-  - 2026-08-24 — [Institute for Molecular Science leads Japan’s first neutral-atom quantum computer](https://quantumzeitgeist.com/institute-molecular-science-leads-japans) (Quantum Zeitgeist, score 43)
-  - 2026-08-23 — [Infleqtion (INFQ) and the Neutral-Atom Bet Behind Its NYSE Listing](https://quantumzeitgeist.com/infleqtion-infq) (Quantum Zeitgeist, score 43)
-  - 2026-08-23 — [Diraq, Quantum Computing Built in Standard Silicon](https://quantumzeitgeist.com/diraq) (Quantum Zeitgeist, score 19)
-  - 2026-08-22 — [Researchers Bound Qubits Needed for Mixedness Tests](https://quantumzeitgeist.com/qubits-mixedness-testing-state-discrimination-fidelity-bound) (Quantum Zeitgeist, score 32)
 
 ## Quantum Networking
 
@@ -101,8 +101,8 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, QuantumNews.ai, Quantum Zeitgeist, arXiv RSS cs.CR, USAspending · Quantum Technologies
 - Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
 - Recent supporting evidence:
+  - 2026-08-25 — [Quantum Sky Appoints Sean Thompson as Chief Growth Officer](https://thequantuminsider.com/2026/08/25/quantum-sky-sean-thompson-chief-growth-officer) (The Quantum Insider, score 100)
   - 2026-08-24 — [NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons](https://www.nist.gov/news-events/news/2026/08/nist-researchers-supersize-quantum-technology-help-detect-faint-photons) (QuantumNews.ai, score 100)
   - 2026-08-24 — [Sweden Sets 2036 Deadline for National Quantum Technology Strategy](https://thequantuminsider.com/2026/08/24/sweden-sets-2036-deadline-for-national-quantum-technology-strategy) (The Quantum Insider, score 100)
   - 2026-08-24 — [U.S. Treasury Announces the Quantum-Readiness Task Force](https://thequantuminsider.com/2026/08/24/u-s-treasury-announces-the-quantum-readiness-task-force) (The Quantum Insider, score 100)
   - 2026-08-24 — [China Puts Quantum Technology Among Priorities in New 2030 Cyber Industry Plan](https://thequantuminsider.com/2026/08/24/china-puts-quantum-technology-among-priorities-in-new-2030-cyber-industry-plan) (QuantumNews.ai, score 18)
-  - 2026-08-21 — [Q2B Copenhagen 2026 to Focus on Quantum Technology and Commercial Adoption](https://thequantuminsider.com/2026/08/21/q2b-copenhagen-2026-quantum-industry-leaders-denmark) (The Quantum Insider, score 100)
