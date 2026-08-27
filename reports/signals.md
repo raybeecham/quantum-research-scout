@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-26 01:00 UTC_
+_Updated 2026-08-27 06:44 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 

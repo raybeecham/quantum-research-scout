@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-26T00:53:15.324629+00:00_
+_Updated 2026-08-27T06:34:37.114174+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **66** (**88.0%** coverage)
-- Newly resolved this run: **3**
-- Pending bounded enrichment: **118**
-- Ambiguous / no match: **2 / 1**
+- SAM.gov-resolved entities: **68** (**90.7%** coverage)
+- Newly resolved this run: **2**
+- Pending bounded enrichment: **121**
+- Ambiguous / no match: **3 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
 |---|---|---|---|---|---|
@@ -18,8 +18,10 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | INUTEQ, LLC | [InuTeq, LLC](https://sam.gov/entity/NBEWZB8LQ8Z5/coreData) | NBEWZB8LQ8Z5 | 5NTT4 | Active | Alaskan Native Corporation Owned Firm, Business or Organization, For Profit Organization |
 | POST QUANTUM LABS LLC | [Post Quantum Labs LLC](https://sam.gov/entity/H53MXWJZPYU3/coreData) | H53MXWJZPYU3 | 9T5C5 | Active | Business or Organization, For Profit Organization, Individual or concern, other than one of the preceding |
 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | [MASSACHUSETTS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NYLCDML6V1/coreData) | E2NYLCDML6V1 | 80230 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
+| LOUISIANA STATE UNIVERSITY | [LOUISIANA STATE UNIVERSITY](https://sam.gov/entity/ECQEYCHRNKJ4/coreData) | ECQEYCHRNKJ4 | 4L859 | Active | 1862 Land Grant College, 1890 Land Grant College, Educational Institution |
 | ALVAREZ LLC | [Alvarez LLC](https://sam.gov/entity/Y928UVG75CT6/coreData) | Y928UVG75CT6 | 35LK3 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | UNIVERSITY OF OKLAHOMA | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) | EVTSTTLCEWS5 | 3G168 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
+| UNIVERSITY OF ALABAMA | [UNIVERSITY OF ALABAMA](https://sam.gov/entity/RCNJEHZ83EV6/coreData) | RCNJEHZ83EV6 | 77223 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF NORTH TEXAS | [UNIVERSITY OF NORTH TEXAS](https://sam.gov/entity/G47WN1XZNWX9/coreData) | G47WN1XZNWX9 | 6B783 | Active | Educational Institution, Hispanic Servicing Institution, Minority Institution |
 | THE UNIVERSITY OF IOWA | [THE UNIVERSITY OF IOWA](https://sam.gov/entity/Z1H9VJS8NG16/coreData) | Z1H9VJS8NG16 | 2D354 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | [VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY](https://sam.gov/entity/QDE5UHE5XD16/coreData) | QDE5UHE5XD16 | 4B976 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
@@ -81,14 +83,12 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | ANDURIL INDUSTRIES, INC. | [ANDURIL INDUSTRIES, INC.](https://sam.gov/entity/KC3CH2MSK7Q3/coreData) | KC3CH2MSK7Q3 | 85LD7 | Active | Business or Organization, For Profit Organization |
 | THE UNIVERSITY OF ALABAMA IN HUNTSVILLE | [THE UNIVERSITY OF ALABAMA IN HUNTSVILLE](https://sam.gov/entity/HB6KNGVNJRU1/coreData) | HB6KNGVNJRU1 | 9B944 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
+| ARIZONA STATE UNIVERSITY | ARIZONA STATE UNIVERSITY | — | — | ambiguous | Multiple or non-exact SAM.gov candidates require review |
 | REDACTED DUE TO PII | REDACTED DUE TO PII | — | — | no_match | No active public SAM.gov entity matched |
 | POST QUANTUM LABS LLC | POST QUANTUM LABS LLC | — | — | pending | api key missing |
 | CARNEGIE-MELLON UNIVERSITY | CARNEGIE-MELLON UNIVERSITY | — | — | pending | api key missing |
 | FOUR POINTS TECHNOLOGY, L.L.C. | FOUR POINTS TECHNOLOGY, L.L.C. | — | — | pending | api key missing |
 | ARETE CONSULTING LLC | ARETE CONSULTING LLC | — | — | pending | api key missing |
-| UNIVERSITY OF WISCONSIN SYSTEM | UNIVERSITY OF WISCONSIN SYSTEM | — | — | pending | api key missing |
-| UNIVERSITY OF WASHINGTON | UNIVERSITY OF WASHINGTON | — | — | pending | api key missing |
-| OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | — | — | pending | api key missing |
 
 ## Method
 

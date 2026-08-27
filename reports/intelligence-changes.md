@@ -2,63 +2,76 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-08-26T00:53:15.324629+00:00_
+_Updated 2026-08-27T06:34:37.114174+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **70**
-- Added / changed / resolved: **35 / 7 / 27**
+- Material changes: **344**
+- Added / changed / resolved: **312 / 5 / 27**
 - Newly superseded: **0**
 - Active conflicts: **15**
-- Conflicts opened / resolved: **1 / 0**
+- Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **Decentralized Artificial Intelligence through Controlled Emergence (DICE)** — opportunity status: closed ([evidence](https://www.grants.gov/search-results-detail/362743))
-- **66--SENSOR,LIQUID FLOW** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/9e75681b5bb5424389ad629ec4764b79/view))
-- **Data, Analytics, and AI Modernization Services** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view))
-- **Laser for widefield quantum diamond microscope** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/b0c03fae4cd744a4a1eb7b1f16f50bb3/view))
-- **Optical Cryogenic Quantum System** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view))
-- **63--SALINITY SENSOR,CON** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/d0f76f691fbc441681bc673240f79d62/view))
-- **66--SENSOR,AMBIENT TEMP** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/b749f496a21443708e47a8291f23ab44/view))
+- **TECHNICAL APPLICATION SUPPORT SERVICES (TASS)** — reported amount: 2827200.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1605C126F00016_1605_1605TA22A0003_1605))
+- **Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)** — deadline: 08/26/2076 ([evidence](https://www.grants.gov/search-results-detail/363614))
+- **Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/359269))
+- **Occupational Safety and Health Training Project Grants (T03)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/355722))
+- **American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363293))
 
 ## New claims
 
-- **ARCHITECTURE, STANDARDS, CYBERSECURITY AND INTEROPERABILITY TECHNICAL SUPPORT** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ326F00118N_6925_693JJ321D000021_6925))
-- **ARCHITECTURE, STANDARDS, CYBERSECURITY AND INTEROPERABILITY TECHNICAL SUPPORT** — awarding agency: Department of Transportation ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ326F00118N_6925_693JJ321D000021_6925))
-- **ARCHITECTURE, STANDARDS, CYBERSECURITY AND INTEROPERABILITY TECHNICAL SUPPORT** — reported amount: 2650000.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ326F00118N_6925_693JJ321D000021_6925))
-- **ARCHITECTURE, STANDARDS, CYBERSECURITY AND INTEROPERABILITY TECHNICAL SUPPORT** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ326F00118N_6925_693JJ321D000021_6925))
-- **15--PANEL,STRUCTURAL,AI** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/b7200f5aead948d2940636acfc131bd4/view))
-- **15--PANEL,STRUCTURAL,AI** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION ([evidence](https://sam.gov/workspace/contract/opp/b7200f5aead948d2940636acfc131bd4/view))
-- **15--PANEL,STRUCTURAL,AI** — reported amount: 49206.0 ([evidence](https://sam.gov/workspace/contract/opp/b7200f5aead948d2940636acfc131bd4/view))
-- **15--PANEL,STRUCTURAL,AI** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/b7200f5aead948d2940636acfc131bd4/view))
-- **cybersecurity management support services** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/cfb8c5734ea443cfb629a39b076cf91d/view))
-- **cybersecurity management support services** — awarding agency: TRANSPORTATION, DEPARTMENT OF.FEDERAL HIGHWAY ADMINISTRATION.IT ACQUISITION CENTER OF EXCELLENCE (ACE) ([evidence](https://sam.gov/workspace/contract/opp/cfb8c5734ea443cfb629a39b076cf91d/view))
-- **Generative Artificial Intelligence (GenAI) Electronic Performance Support System (EPSS) under CSO N0003925S001.** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/c21f4f1ff5834867b7c2fe36835ec54e/view))
-- **Generative Artificial Intelligence (GenAI) Electronic Performance Support System (EPSS) under CSO N0003925S001.** — deadline: 2026-09-10T14:00:00-07:00 ([evidence](https://sam.gov/workspace/contract/opp/c21f4f1ff5834867b7c2fe36835ec54e/view))
-- **Generative Artificial Intelligence (GenAI) Electronic Performance Support System (EPSS) under CSO N0003925S001.** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.SPAWAR.SPAWAR HQ.NAVAL INFORMATION WARFARE SYSTEMS ([evidence](https://sam.gov/workspace/contract/opp/c21f4f1ff5834867b7c2fe36835ec54e/view))
-- **Notice of Intent to Sole Source - Innovative Algorithms Phalanx Shield Unattended Ground Sensor** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/8f7e558f3da743c2a3f5458f0ecf733d/view))
-- **Notice of Intent to Sole Source - Innovative Algorithms Phalanx Shield Unattended Ground Sensor** — deadline: 2026-09-09T13:00:00-06:00 ([evidence](https://sam.gov/workspace/contract/opp/8f7e558f3da743c2a3f5458f0ecf733d/view))
-- **Notice of Intent to Sole Source - Innovative Algorithms Phalanx Shield Unattended Ground Sensor** — set aside: Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) ([evidence](https://sam.gov/workspace/contract/opp/8f7e558f3da743c2a3f5458f0ecf733d/view))
-- **Notice of Intent to Sole Source - Innovative Algorithms Phalanx Shield Unattended Ground Sensor** — awarding agency: DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE SPECIAL OPERATIONS COMMAND.FA4855 27 SOCONS LGC ([evidence](https://sam.gov/workspace/contract/opp/8f7e558f3da743c2a3f5458f0ecf733d/view))
-- **USAFA: Quantum Demonstration/Experiment System (Amendment 2)** — states requirement: r those end products that do not consist wholly or predominantly of iron or steel or a combination of both, the Offeror shall also indicate whether these foreign end products exceed 55 percent domestic content, except for those that are COTS items. If the percentage of the domestic content is unkno... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03a7ed20a87f485aad973b332ef651df/download))
-- **USAFA: Quantum Demonstration/Experiment System (Amendment 2)** — states requirement: foreign end products that do not consist wholly or predominantly of iron or steel or a combination of both, the Offeror shall also indicate whether these foreign end products exceed 55 percent domestic content, except for those that are COTS items. If the percentage of the domestic content is unkno... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03a7ed20a87f485aad973b332ef651df/download))
-- **USAFA: Quantum Demonstration/Experiment System (Amendment 2)** — states requirement: known, select “no”. Line Item Number Country of Origin (If known) Exceeds 55% Domestic Content (yes/no) (4) The Offeror shall separately list the line item numbers of domestic end products that contain a critical component or a critical item (see Federal Acquisition Regulation 25.105). Domestic end... ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03a7ed20a87f485aad973b332ef651df/download))
-- **THE PENNSYLVANIA STATE UNIVERSITY** — legal business name: THE PENNSYLVANIA STATE UNIVERSITY ([evidence](https://sam.gov/entity/NPM2J7MSCF61/coreData))
-- **THE PENNSYLVANIA STATE UNIVERSITY** — uei: NPM2J7MSCF61 ([evidence](https://sam.gov/entity/NPM2J7MSCF61/coreData))
-- **THE PENNSYLVANIA STATE UNIVERSITY** — cage code: 7A720 ([evidence](https://sam.gov/entity/NPM2J7MSCF61/coreData))
-- **THE PENNSYLVANIA STATE UNIVERSITY** — registration status: Active ([evidence](https://sam.gov/entity/NPM2J7MSCF61/coreData))
-- **PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC.** — legal business name: PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. ([evidence](https://sam.gov/entity/KL36P1L5H833/coreData))
-- **PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC.** — uei: KL36P1L5H833 ([evidence](https://sam.gov/entity/KL36P1L5H833/coreData))
-- **PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC.** — cage code: 1LLT3 ([evidence](https://sam.gov/entity/KL36P1L5H833/coreData))
-- **PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC.** — registration status: Active ([evidence](https://sam.gov/entity/KL36P1L5H833/coreData))
-- **THE UNIVERSITY OF ALABAMA IN HUNTSVILLE** — legal business name: THE UNIVERSITY OF ALABAMA IN HUNTSVILLE ([evidence](https://sam.gov/entity/HB6KNGVNJRU1/coreData))
-- **THE UNIVERSITY OF ALABAMA IN HUNTSVILLE** — uei: HB6KNGVNJRU1 ([evidence](https://sam.gov/entity/HB6KNGVNJRU1/coreData))
-- **THE UNIVERSITY OF ALABAMA IN HUNTSVILLE** — cage code: 9B944 ([evidence](https://sam.gov/entity/HB6KNGVNJRU1/coreData))
-- **THE UNIVERSITY OF ALABAMA IN HUNTSVILLE** — registration status: Active ([evidence](https://sam.gov/entity/HB6KNGVNJRU1/coreData))
-- **Notice of Intent to Sole Source - Innovative Algorithms Phalanx Shield Unattended Ground Sensor** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/8f7e558f3da743c2a3f5458f0ecf733d/view))
-- **Generative Artificial Intelligence (GenAI) Electronic Performance Support System (EPSS) under CSO N0003925S001.** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/c21f4f1ff5834867b7c2fe36835ec54e/view))
-- **USAFA: Quantum Demonstration/Experiment System (Amendment 2)** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/88038d7669964d6da76168589483ef36/view))
+- **CAIG: ADVANCING AI ATMOSPHERIC EMULATORS THROUGH RIGOROUS THEORETICAL EVALUATION AND UNCERTAINTY QUANTIFICATION -ACCURATELY PREDICTING HOW REGIONAL WEATHER EXTREMES LIKE HEAT WAVE...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_2616141_049))
+- **CAIG: ADVANCING AI ATMOSPHERIC EMULATORS THROUGH RIGOROUS THEORETICAL EVALUATION AND UNCERTAINTY QUANTIFICATION -ACCURATELY PREDICTING HOW REGIONAL WEATHER EXTREMES LIKE HEAT WAVE...** — awarding agency: National Science Foundation ([evidence](https://www.usaspending.gov/award/ASST_NON_2616141_049))
+- **CAIG: ADVANCING AI ATMOSPHERIC EMULATORS THROUGH RIGOROUS THEORETICAL EVALUATION AND UNCERTAINTY QUANTIFICATION -ACCURATELY PREDICTING HOW REGIONAL WEATHER EXTREMES LIKE HEAT WAVE...** — reported amount: 737081.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_2616141_049))
+- **CAIG: ADVANCING AI ATMOSPHERIC EMULATORS THROUGH RIGOROUS THEORETICAL EVALUATION AND UNCERTAINTY QUANTIFICATION -ACCURATELY PREDICTING HOW REGIONAL WEATHER EXTREMES LIKE HEAT WAVE...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_2616141_049))
+- **THE UNIVERSITY OF CHICAGO** — has related patent: — ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data))
+- **CATEGORY II: SAGEBRUSH - AN AI INFERENCE RESOURCE FOR ACCESS, NAIRR, AND THE NATION -SAGEBRUSH IS A TRANSFORMATIVE GENERATIVE ARTIFICIAL INTELLIGENCE (AI) INFERENCE PLATFORM, DESI...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_2537075_049))
+- **CATEGORY II: SAGEBRUSH - AN AI INFERENCE RESOURCE FOR ACCESS, NAIRR, AND THE NATION -SAGEBRUSH IS A TRANSFORMATIVE GENERATIVE ARTIFICIAL INTELLIGENCE (AI) INFERENCE PLATFORM, DESI...** — awarding agency: National Science Foundation ([evidence](https://www.usaspending.gov/award/ASST_NON_2537075_049))
+- **CATEGORY II: SAGEBRUSH - AN AI INFERENCE RESOURCE FOR ACCESS, NAIRR, AND THE NATION -SAGEBRUSH IS A TRANSFORMATIVE GENERATIVE ARTIFICIAL INTELLIGENCE (AI) INFERENCE PLATFORM, DESI...** — reported amount: 4999956.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_2537075_049))
+- **CATEGORY II: SAGEBRUSH - AN AI INFERENCE RESOURCE FOR ACCESS, NAIRR, AND THE NATION -SAGEBRUSH IS A TRANSFORMATIVE GENERATIVE ARTIFICIAL INTELLIGENCE (AI) INFERENCE PLATFORM, DESI...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_2537075_049))
+- **S-STEM: PATHWAYS TO A CYBERSECURITY/AI CAREER -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCIENTISTS, MATHEMATICIANS, ENGINEERS, AND TECHNICIANS BY SUPPOR...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_2619732_049))
+- **S-STEM: PATHWAYS TO A CYBERSECURITY/AI CAREER -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCIENTISTS, MATHEMATICIANS, ENGINEERS, AND TECHNICIANS BY SUPPOR...** — awarding agency: National Science Foundation ([evidence](https://www.usaspending.gov/award/ASST_NON_2619732_049))
+- **S-STEM: PATHWAYS TO A CYBERSECURITY/AI CAREER -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCIENTISTS, MATHEMATICIANS, ENGINEERS, AND TECHNICIANS BY SUPPOR...** — reported amount: 1993716.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_2619732_049))
+- **S-STEM: PATHWAYS TO A CYBERSECURITY/AI CAREER -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCIENTISTS, MATHEMATICIANS, ENGINEERS, AND TECHNICIANS BY SUPPOR...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_2619732_049))
+- **CIF: SMALL: MAB WITH QUERYING AND COST INFORMATION -MANY REAL-WORLD PROBLEMS INVOLVE CHOOSING AMONG SEVERAL OPTIONS OVER TIME, WITH THE RESULTS OF EARLIER CHOICES HELPING GUIDE LA...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_2530391_049))
+- **CIF: SMALL: MAB WITH QUERYING AND COST INFORMATION -MANY REAL-WORLD PROBLEMS INVOLVE CHOOSING AMONG SEVERAL OPTIONS OVER TIME, WITH THE RESULTS OF EARLIER CHOICES HELPING GUIDE LA...** — awarding agency: National Science Foundation ([evidence](https://www.usaspending.gov/award/ASST_NON_2530391_049))
+- **CIF: SMALL: MAB WITH QUERYING AND COST INFORMATION -MANY REAL-WORLD PROBLEMS INVOLVE CHOOSING AMONG SEVERAL OPTIONS OVER TIME, WITH THE RESULTS OF EARLIER CHOICES HELPING GUIDE LA...** — reported amount: 600000.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_2530391_049))
+- **CIF: SMALL: MAB WITH QUERYING AND COST INFORMATION -MANY REAL-WORLD PROBLEMS INVOLVE CHOOSING AMONG SEVERAL OPTIONS OVER TIME, WITH THE RESULTS OF EARLIER CHOICES HELPING GUIDE LA...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_2530391_049))
+- **COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_2612533_049))
+- **COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...** — awarding agency: National Science Foundation ([evidence](https://www.usaspending.gov/award/ASST_NON_2612533_049))
+- **COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...** — reported amount: 330000.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_2612533_049))
+- **COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_2612533_049))
+- **CICI: IPAAI: VERITAS - VERIFIED INFRASTRUCTURE FOR TRUSTWORTHY AI IN SCIENCE -ARTIFICIAL INTELLIGENCE (AI) HAS BECOME ESSENTIAL TO SCIENTIFIC DISCOVERY, YET ITS RAPID ADOPTION INT...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_2613693_049))
+- **CICI: IPAAI: VERITAS - VERIFIED INFRASTRUCTURE FOR TRUSTWORTHY AI IN SCIENCE -ARTIFICIAL INTELLIGENCE (AI) HAS BECOME ESSENTIAL TO SCIENTIFIC DISCOVERY, YET ITS RAPID ADOPTION INT...** — awarding agency: National Science Foundation ([evidence](https://www.usaspending.gov/award/ASST_NON_2613693_049))
+- **CICI: IPAAI: VERITAS - VERIFIED INFRASTRUCTURE FOR TRUSTWORTHY AI IN SCIENCE -ARTIFICIAL INTELLIGENCE (AI) HAS BECOME ESSENTIAL TO SCIENTIFIC DISCOVERY, YET ITS RAPID ADOPTION INT...** — reported amount: 896601.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_2613693_049))
+- **CICI: IPAAI: VERITAS - VERIFIED INFRASTRUCTURE FOR TRUSTWORTHY AI IN SCIENCE -ARTIFICIAL INTELLIGENCE (AI) HAS BECOME ESSENTIAL TO SCIENTIFIC DISCOVERY, YET ITS RAPID ADOPTION INT...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_2613693_049))
+- **COLLABORATIVE RESEARCH: SUSTAINED RESOURCES: ADVANCING AND EXPANDING THE VOLCANOLOGY INFRASTRUCTURE FOR COMPUTATIONAL TOOLS AND RESOURCES -COMPUTER MODELS ARE VITAL TO UNDERSTANDI...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_2514588_049))
+- **COLLABORATIVE RESEARCH: SUSTAINED RESOURCES: ADVANCING AND EXPANDING THE VOLCANOLOGY INFRASTRUCTURE FOR COMPUTATIONAL TOOLS AND RESOURCES -COMPUTER MODELS ARE VITAL TO UNDERSTANDI...** — awarding agency: National Science Foundation ([evidence](https://www.usaspending.gov/award/ASST_NON_2514588_049))
+- **COLLABORATIVE RESEARCH: SUSTAINED RESOURCES: ADVANCING AND EXPANDING THE VOLCANOLOGY INFRASTRUCTURE FOR COMPUTATIONAL TOOLS AND RESOURCES -COMPUTER MODELS ARE VITAL TO UNDERSTANDI...** — reported amount: 151939.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_2514588_049))
+- **COLLABORATIVE RESEARCH: SUSTAINED RESOURCES: ADVANCING AND EXPANDING THE VOLCANOLOGY INFRASTRUCTURE FOR COMPUTATIONAL TOOLS AND RESOURCES -COMPUTER MODELS ARE VITAL TO UNDERSTANDI...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_2514588_049))
+- **CYBERAI INNOVATION: EXPANDING WORKFORCE PATHWAYS INTO CYBERSECURITY AND AI THROUGH AN INTEGRATIVE CAREER AND TECHNICAL EDUCATION MODEL -ARTIFICIAL INTELLIGENCE (AI) AND CYBERSECUR...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_2622977_049))
+- **CYBERAI INNOVATION: EXPANDING WORKFORCE PATHWAYS INTO CYBERSECURITY AND AI THROUGH AN INTEGRATIVE CAREER AND TECHNICAL EDUCATION MODEL -ARTIFICIAL INTELLIGENCE (AI) AND CYBERSECUR...** — awarding agency: National Science Foundation ([evidence](https://www.usaspending.gov/award/ASST_NON_2622977_049))
+- **CYBERAI INNOVATION: EXPANDING WORKFORCE PATHWAYS INTO CYBERSECURITY AND AI THROUGH AN INTEGRATIVE CAREER AND TECHNICAL EDUCATION MODEL -ARTIFICIAL INTELLIGENCE (AI) AND CYBERSECUR...** — reported amount: 499663.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_2622977_049))
+- **CYBERAI INNOVATION: EXPANDING WORKFORCE PATHWAYS INTO CYBERSECURITY AND AI THROUGH AN INTEGRATIVE CAREER AND TECHNICAL EDUCATION MODEL -ARTIFICIAL INTELLIGENCE (AI) AND CYBERSECUR...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_2622977_049))
+- **COLLABORATIVE RESEARCH: CSR: CO-DESIGNING INTEGRATED AI-ENABLED COMPILER-RUNTIME SYSTEMS FOR FUTURE HPC ARCHITECTURES -MODERN SUPERCOMPUTERS COMBINE DIVERSE PROCESSORS AND ACCELER...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_2616612_049))
+- **COLLABORATIVE RESEARCH: CSR: CO-DESIGNING INTEGRATED AI-ENABLED COMPILER-RUNTIME SYSTEMS FOR FUTURE HPC ARCHITECTURES -MODERN SUPERCOMPUTERS COMBINE DIVERSE PROCESSORS AND ACCELER...** — awarding agency: National Science Foundation ([evidence](https://www.usaspending.gov/award/ASST_NON_2616612_049))
+- **COLLABORATIVE RESEARCH: CSR: CO-DESIGNING INTEGRATED AI-ENABLED COMPILER-RUNTIME SYSTEMS FOR FUTURE HPC ARCHITECTURES -MODERN SUPERCOMPUTERS COMBINE DIVERSE PROCESSORS AND ACCELER...** — reported amount: 500000.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_2616612_049))
+- **COLLABORATIVE RESEARCH: CSR: CO-DESIGNING INTEGRATED AI-ENABLED COMPILER-RUNTIME SYSTEMS FOR FUTURE HPC ARCHITECTURES -MODERN SUPERCOMPUTERS COMBINE DIVERSE PROCESSORS AND ACCELER...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_2616612_049))
+- **COLLABORATIVE RESEARCH: CSR: CO-DESIGNING INTEGRATED AI-ENABLED COMPILER-RUNTIME SYSTEMS FOR FUTURE HPC ARCHITECTURES -MODERN SUPERCOMPUTERS COMBINE DIVERSE PROCESSORS AND ACCELER...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_2616611_049))
+- **COLLABORATIVE RESEARCH: CSR: CO-DESIGNING INTEGRATED AI-ENABLED COMPILER-RUNTIME SYSTEMS FOR FUTURE HPC ARCHITECTURES -MODERN SUPERCOMPUTERS COMBINE DIVERSE PROCESSORS AND ACCELER...** — awarding agency: National Science Foundation ([evidence](https://www.usaspending.gov/award/ASST_NON_2616611_049))
+- **COLLABORATIVE RESEARCH: CSR: CO-DESIGNING INTEGRATED AI-ENABLED COMPILER-RUNTIME SYSTEMS FOR FUTURE HPC ARCHITECTURES -MODERN SUPERCOMPUTERS COMBINE DIVERSE PROCESSORS AND ACCELER...** — reported amount: 499896.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_2616611_049))
+- **COLLABORATIVE RESEARCH: CSR: CO-DESIGNING INTEGRATED AI-ENABLED COMPILER-RUNTIME SYSTEMS FOR FUTURE HPC ARCHITECTURES -MODERN SUPERCOMPUTERS COMBINE DIVERSE PROCESSORS AND ACCELER...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_2616611_049))
+- **EAGER: TERAHERTZ NEAR-FIELD STUDIES OF QUANTUM SENSING -THIS PROJECT WILL INVESTIGATE QUANTUM PHENOMENA USING INNOVATIVE TECHNIQUES TO PROBE LOW-FREQUENCY EXCITATIONS IN THE TERAH...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_2625530_049))
+- **EAGER: TERAHERTZ NEAR-FIELD STUDIES OF QUANTUM SENSING -THIS PROJECT WILL INVESTIGATE QUANTUM PHENOMENA USING INNOVATIVE TECHNIQUES TO PROBE LOW-FREQUENCY EXCITATIONS IN THE TERAH...** — awarding agency: National Science Foundation ([evidence](https://www.usaspending.gov/award/ASST_NON_2625530_049))
+- **EAGER: TERAHERTZ NEAR-FIELD STUDIES OF QUANTUM SENSING -THIS PROJECT WILL INVESTIGATE QUANTUM PHENOMENA USING INNOVATIVE TECHNIQUES TO PROBE LOW-FREQUENCY EXCITATIONS IN THE TERAH...** — reported amount: 280059.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_2625530_049))
+- **EAGER: TERAHERTZ NEAR-FIELD STUDIES OF QUANTUM SENSING -THIS PROJECT WILL INVESTIGATE QUANTUM PHENOMENA USING INNOVATIVE TECHNIQUES TO PROBE LOW-FREQUENCY EXCITATIONS IN THE TERAH...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_2625530_049))
+- **COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_2612144_049))
+- **COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...** — awarding agency: National Science Foundation ([evidence](https://www.usaspending.gov/award/ASST_NON_2612144_049))
+- **COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...** — reported amount: 230058.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_2612144_049))
+- **COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_2612144_049))
+- **COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_2612146_049))
 
 ## Superseded claims
 
@@ -96,7 +109,7 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## Conflicts opened
 
-- **Data, Analytics, and AI Modernization Services** — opportunity status: ['closed', 'open']
+- None.
 
 ## Conflicts resolved
 

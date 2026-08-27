@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-08-26T00:53:15.324629+00:00_
+_Updated 2026-08-27T06:34:37.114174+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
 **Ranking:** Strategic significance first, combining domain relevance, document stage, legal status, citation evidence, family depth, recency, and assignee attribution. Evidence score and publication date break ties.
 
-- Tracked publications: **236**
+- Tracked publications: **237**
 - Curated notable patents: **2**
-- Automated recent discoveries: **234**
-- Published in the last 30 days: **44**
+- Automated recent discoveries: **235**
+- Published in the last 30 days: **45**
 - Unique named assignees: **147**
-- Patent families: **226**
-- Applications / grants: **227 / 9**
-- Known legal status: **177 of 236**
+- Patent families: **227**
+- Applications / grants: **228 / 9**
+- Known legal status: **178 of 237**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -53,8 +53,8 @@ This curated portfolio keeps strategically important patents visible even when t
 
 | Publication | Stage / status | Assignee | Significance | Why tracked |
 |---|---|---|---:|---|
-| [Stateful pretrained transformers in a generative response engine](https://patents.google.com/patent/US12400074B1/en)<br><small>US12400074B1</small> | Grant · Active | OpenAI Opco LLC | **69 · HIGH** | Strategically relevant AI-state patent. It describes application memory and state transitions; the patent contains no shutdown-resistance or self-preservation claim. |
 | [Smart dust usage](https://patents.google.com/patent/US11354666B1/en)<br><small>US11354666B1</small> | Grant · Active | Wells Fargo Bank, N.A. | **68 · HIGH** | High-impact sensing and privacy signal. The patent covers airborne smart-dust authentication, but a patent grant alone does not establish deployment or a general surveillance program. |
+| [Stateful pretrained transformers in a generative response engine](https://patents.google.com/patent/US12400074B1/en)<br><small>US12400074B1</small> | Grant · Active | OpenAI Opco LLC | **66 · HIGH** | Strategically relevant AI-state patent. It describes application memory and state transitions; the patent contains no shutdown-resistance or self-preservation claim. |
 
 ## Recent Automated Discoveries
 
@@ -112,6 +112,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [METHOD, CONTROL PROGRAM, COMPUTER-READABLE DATA CARRIER, CONTROL UNIT, QUANTUM DEVICE, QUANTUM NETWORK, APPARATUS, AND QUANTUM COMPUTING ARRANGEMENT FOR ESTABLISHING A QUANTUM COMMUNICATION CHANNEL](https://data.uspto.gov/patent-file-wrapper/search/details/19289705/application-data)<br><small>US20260051959A1</small> | Application · Pending | Airbus SAS | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [NEAR IR LUMINESCENCE AND OPTICALLY ADDRESSABLE QUANTUM SENSING AND MAGNETIC IMAGING WITH RADICALOID TETRATHIAFULVALENE TETRATHIOLATES](https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data)<br><small>US20250319211A1</small> | Application · Pending | The University of Chicago | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [SEPARATION FILTER AND QUANTUM COMMUNICATION SYSTEM USING THE SAME](https://data.uspto.gov/patent-file-wrapper/search/details/19078645/application-data)<br><small>US20250306283A1</small> | Application · Pending | UNIVERSITY OF SEOUL INDUSTRY COOPERATION FOUNDATION | 1 member(s) · 0 citation(s) | **65 · HIGH** |
+| [METHODS FOR QUANTUM COMPUTING WITH IMPERFECT RESOURCE STATES](https://data.uspto.gov/patent-file-wrapper/search/details/19651185/application-data)<br><small>US20260252425A1</small> | Application · Pending | PsiQuantum, Corp. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [GENERATIVE NEURAL NETWORK SECURITY USING DATA SECURITY POLICIES](https://data.uspto.gov/patent-file-wrapper/search/details/19542646/application-data)<br><small>US20260244783A1</small> | Application · Pending | Google LLC | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [METHOD AND SYSTEM FOR GENERATING CYBERSECURITY VULNERABILITY REMEDIATION USING GENERATIVE AI](https://data.uspto.gov/patent-file-wrapper/search/details/19535555/application-data)<br><small>US20260236342A1</small> | Application · Pending | ObjectSecurity LLC | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [ENERGY LEVEL DIFFERENCE ESTIMATION METHOD AND QUANTUM COMPUTING SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19530342/application-data)<br><small>US20260236811A1</small> | Application · Pending | QunaSys Inc., Fujitsu Limited | 1 member(s) · 0 citation(s) | **65 · HIGH** |
@@ -163,7 +164,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [METHOD FOR OPTIMIZING AN EXECUTION OF A GENERATION OF A CRYSTALS-DILITHIUM POST-QUANTUM SIGNATURE](https://data.uspto.gov/patent-file-wrapper/search/details/19157393/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | THALES DIS FRANCE SAS | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [AI-DRIVEN CROSS-CHANNEL FINANCIAL FRAUD DETECTION SYSTEM WITH QUANTUM-RESISTANT ENCRYPTION AND BLOCKCHAIN INTEGRATION](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025043982/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CYBERSMARTS.AI LLC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING](https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data)<br><small>Publication number unavailable</small> | Application · Pending | NEW YORK UNIVERSITY | 1 member(s) · 0 citation(s) | **60 · HIGH** |
-| [QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [Large-scale multi-qubit trapped-ion gates](https://data.uspto.gov/patent-file-wrapper/search/details/19489905/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Quantum Art Ltd., YEDA RESEARCH AND DEVELOPMENT CO. LTD. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [JOINT MODULAR MULTIPLICATIVE INVERSE OPERATIONS FOR ACTIVE VOLUME QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19489704/application-data)<br><small>Publication number unavailable</small> | Application · Pending | PsiQuantum, Corp. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [METHOD AND SYSTEM FOR UNLEARNING OF LARGE LANGUAGE MODEL, AND METHOD FOR CONTROLLING UNLEARNING SYSTEM OF LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19546288/application-data)<br><small>US20260187416A1</small> | Application · Pending | LG MANAGEMENT DEVELOPMENT INSTITUTE CO., LTD. | 2 member(s) · 0 citation(s) | **60 · HIGH** |
@@ -185,6 +185,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [UTILIZING A MULTIMODAL LARGE LANGUAGE MODEL TO GENERATE SYNTHESIZED RESPONSES CORRESPONDING TO MULTIMODAL CONTENT ITEMS](https://data.uspto.gov/patent-file-wrapper/search/details/19632958/application-data)<br><small>US20260237110A1</small> | Application · Pending | Dropbox, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [STREAMING OF NATURAL LANGUAGE (NL) BASED OUTPUT GENERATED USING A LARGE LANGUAGE MODEL (LLM) TO REDUCE LATENCY IN RENDERING THEREOF](https://data.uspto.gov/patent-file-wrapper/search/details/19638893/application-data)<br><small>US20260236495A1</small> | Application · Pending | GOOGLE LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [LARGE LANGUAGE MODEL-PREDICTED RESPONSE BIASING FOR CONVERSATIONAL SYSTEMS](https://data.uspto.gov/patent-file-wrapper/search/details/19462632/application-data)<br><small>US20260229227A1</small> | Application · Pending | Google LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
+| [EXPLAINABLE LARGE LANGUAGE MODEL ROUTING WITH IMMUTABLE AUDIT TRAILS](https://data.uspto.gov/patent-file-wrapper/search/details/19631778/application-data)<br><small>US20260228267A1</small> | Application · Pending | Citibank, N.A. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [DOMAIN-AWARE LARGE LANGUAGE MODEL GOVERNANCE](https://data.uspto.gov/patent-file-wrapper/search/details/19632139/application-data)<br><small>US20260228538A1</small> | Application · Pending | Salesforce, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [LARGE LANGUAGE MODEL-BASED DATA QUERY OPTIMIZATION](https://data.uspto.gov/patent-file-wrapper/search/details/19543704/application-data)<br><small>US20260220132A1</small> | Application · Pending | PAYPAL, INC. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [LARGE LANGUAGE MODEL-ASSISTED FRAUDULENT CALL DETECTION](https://data.uspto.gov/patent-file-wrapper/search/details/19574154/application-data)<br><small>US20260222487A1</small> | Application · Pending | McAfee, LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
@@ -235,6 +236,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [SYSTEMS AND METHODS FOR HIGH-FIDELITY UNIVERSAL GATES IN THE YTTERBIUM-171 GROUND STATE NUCLEAR SPIN QUBIT](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025055803/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | ATOM COMPUTING INC. | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [QUANTUM PROCESSOR CHIP AND MULTI-LAYER PHOTONIC ROUTING NETWORK](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010838/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | HOMATCH.AI | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [QUANTUM COMPUTING SYSTEMS WITH SUPERCONDUCTING QUANTUM BIT CIRCUITRY AND SPATIALLY DISTRIBUTED HYBRID CRYOGENIC ELECTRONIC CONTROL ARCHITECTURE](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010670/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | SEEQC, INC. | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
+| [QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [MULTICORE OPTICAL FIBERS SUITABLE FOR SIMULTANEOUS DATA TRANSMISSION AND QUANTUM COMMUNICATION](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2024050681/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CORNING INCORPORATED | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [HIGH PEAK POWER AND CONTINUOUS WAVE TUNABLE GAN LASERS FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS](https://data.uspto.gov/patent-file-wrapper/search/details/63750272/application-data)<br><small>Publication number unavailable</small> | Application · Expired | Gallium Enterprises Pty Ltd | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [EMAIL THREAT DETECTION USING RETRIEVAL-AUGMENTED GENERATION AND LARGE LANGUAGE MODELS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026011462/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CISCO TECHNOLOGY, INC. | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
@@ -256,7 +258,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [PLATFORM-LEVEL INTELLIGENCE SYSTEM FOR CONTROL PLANE AND RUNTIME ORCHESTRATION OF MULTI-CLOUD DEPLOYMENT NORMALIZATION](https://data.uspto.gov/patent-file-wrapper/search/details/19534505/application-data)<br><small>US20260169813A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **50 · NOTABLE** |
 | [SYSTEM AND METHOD FOR FEDERATED AI-DRIVEN CONTROL AND OPTIMIZATION IN HYBRID CLOUD ENVIRONMENTS](https://data.uspto.gov/patent-file-wrapper/search/details/19457302/application-data)<br><small>US20260156048A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **50 · NOTABLE** |
 | [INTELLIGENT CYBERSECURE DATA SYSTEM FOR ORCHESTRATING RELATIONAL, NOSQL, GRAPH, AND ANALYTICAL DATABASES IN MULTI-CLOUD ENVIRONMENTS](https://data.uspto.gov/patent-file-wrapper/search/details/19458435/application-data)<br><small>US20260154438A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **50 · NOTABLE** |
-| [EXPLAINABLE LARGE LANGUAGE MODEL ROUTING WITH IMMUTABLE AUDIT TRAILS](https://data.uspto.gov/patent-file-wrapper/search/details/19631778/application-data)<br><small>US20260228267A1</small> | Application · Unknown | Citibank, N.A. | 1 member(s) · 0 citation(s) | **49 · NOTABLE** |
 | [APPARATUS AND METHOD FOR LARGE LANGUAGE MODEL (LLM) REINFORCEMENT LEARNING WITH HETEROGENEOUS PROCESSORS](https://data.uspto.gov/patent-file-wrapper/search/details/19632146/application-data)<br><small>US20260228552A1</small> | Application · Unknown | Intel Corporation | 1 member(s) · 0 citation(s) | **49 · NOTABLE** |
 | [LARGE LANGUAGE MODEL BASED CONVERSATIONAL DATA UPDATE](https://data.uspto.gov/patent-file-wrapper/search/details/19561082/application-data)<br><small>US20260203094A1</small> | Application · Unknown | o9 Solutions, Inc. | 1 member(s) · 0 citation(s) | **49 · NOTABLE** |
 | [DYNAMIC ARTIFICIAL INTELLIGENCE AGENT ORCHESTRATION USING A LARGE LANGUAGE MODEL GATEWAY ROUTER](https://data.uspto.gov/patent-file-wrapper/search/details/19458425/application-data)<br><small>US20260154526A1</small> | Application · Unknown | Citibank, N.A. | 1 member(s) · 0 citation(s) | **49 · NOTABLE** |

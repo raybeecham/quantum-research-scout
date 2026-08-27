@@ -2,7 +2,7 @@
 
 > **Quantum Research Scout** · Intelligence archive and operational dashboard
 
-_Updated 2026-08-26 01:00 UTC_
+_Updated 2026-08-27 06:44 UTC_
 
 [Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
 
@@ -10,7 +10,7 @@ _Updated 2026-08-26 01:00 UTC_
 
 ## Latest Reports
 
-- Daily: [2026-08-25-digest](2026-08/2026-08-25-digest.md)
+- Daily: [2026-08-27-digest](2026-08/2026-08-27-digest.md)
 - Weekly: [2026-08-17_to_2026-08-21-weekly](weekly/2026/2026-08-17_to_2026-08-21-weekly.md)
 - Monthly: [2026-07-monthly](monthly/2026/2026-07-monthly.md)
 
@@ -70,7 +70,7 @@ _Updated 2026-08-26 01:00 UTC_
 
 ## Archive Summary
 
-- Daily reports retained: **31**
+- Daily reports retained: **30**
 - Weekly syntheses retained: **14**
 - Monthly syntheses retained: **3**
 - Daily reports use a rolling 30-day retention window; weekly and monthly syntheses are retained indefinitely.

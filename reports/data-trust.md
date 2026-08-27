@@ -1,28 +1,50 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-26T00:53:15.324629+00:00_
+_Updated 2026-08-27T06:34:37.114174+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **528**
-- Quarantined evidence or relationships: **114**
-- Acceptance rate: **82.2%**
+- Quarantined evidence or relationships: **117**
+- Acceptance rate: **81.9%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 28 | 86 | 24.6% |
-| Federal funding | 500 | 28 | 94.7% |
+| Federal missions | 28 | 87 | 24.3% |
+| Federal funding | 500 | 30 | 94.3% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 114
-- **No relevant term in the evidence itself**: 114
+- **Match appears only in collector query metadata**: 115
+- **No relevant term in the evidence itself**: 115
 - **Official government source**: 105
-- **Source is not an official .gov or .mil domain**: 9
+- **Source is not an official .gov or .mil domain**: 10
+- **Agency and technology inference only**: 2
 
 ## Quarantined Evidence
+
+### [EAGER: TERAHERTZ NEAR-FIELD STUDIES OF QUANTUM SENSING -THIS PROJECT WILL INVESTIGATE QUANTUM PHENOMENA USING INNOVATIVE TECHNIQUES TO PROBE LOW-FREQUENCY EXCITATIONS IN THE TERAH...](https://www.usaspending.gov/award/ASST_NON_2625530_049)
+
+- Scope: Mission relationships
+- Stage: relationship admission
+- Reason: Agency and technology inference only
+- Admission score: 65
+
+### [CONFERENCE: ALABAMA QUANTUM WORKSHOP: QUANTUM SENSING, INFORMATION SCIENCE, AND EPSCOR COLLABORATION -QUANTUM INFORMATION SCIENCE PROVIDES NEW WAYS TO MEASURE, IMAGE, COMMUNICATE,...](https://www.usaspending.gov/award/ASST_NON_2631519_049)
+
+- Scope: Mission relationships
+- Stage: relationship admission
+- Reason: Agency and technology inference only
+- Admission score: 65
+
+### [Policy 16h ago Treasury launches task force to prepare finance for quantum threats](https://quantumzeitgeist.com/quantum-readiness-treasury-task-force-prepare)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [Policy 13h ago Treasury launches task force to shield finance from quantum hacks](https://quantumzeitgeist.com/quantum-readiness-treasury-task-force-shield)
 
@@ -697,27 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [DEVCOM ANALYSIS CENTER BROAD AGENCY ANNOUNCEMENT FOR APPLIED RESEARCH](https://www.grants.gov/search-results-detail/345241)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [DEVCOM ARMY RESEARCH LABORATORY BROAD AGENCY ANNOUNCEMENT FOR FOUNDATIONAL RESEARCH](https://www.grants.gov/search-results-detail/344592)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [U.S. Mission to the United Nations-Geneva, Small Grants Program](https://www.grants.gov/search-results-detail/344437)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [DOD Defense Health Agency (DHA) Research & Development FY23-FY27 BROAD AGENCY ANNOUNCEMENT for Extramural Medical Research](https://www.grants.gov/search-results-detail/343725)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

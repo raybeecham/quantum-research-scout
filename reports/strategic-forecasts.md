@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-08-26T00:53:15.324629+00:00_
+_Updated 2026-08-27T06:34:37.114174+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 86% · Genesis Mission
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-24?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-25?
 
 **Horizon:** 2026-10-29
 
@@ -44,7 +44,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 74% · Golden Dome for America
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-24?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-25?
 
 **Horizon:** 2026-10-29
 
@@ -70,7 +70,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 46% · AI Forge
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-11-24?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-11-25?
 
 **Horizon:** 2026-11-21
 
@@ -160,7 +160,7 @@ Will authoritative evidence confirm “Advance selected NSF NQVL projects from d
 
 ### 57% · Genesis Mission
 
-Will authoritative evidence confirm “Review federal robotic and AI-directed laboratory capabilities” by 2026-09-25?
+Will authoritative evidence confirm “Review federal robotic and AI-directed laboratory capabilities” by 2026-09-26?
 
 **Horizon:** 2026-08-30
 
@@ -182,7 +182,7 @@ Will authoritative evidence confirm “Review federal robotic and AI-directed la
 
 ### 53% · Military AI Pace-Setting Projects
 
-Will authoritative evidence confirm “Conduct initial Pace-Setting Project demonstrations with transition-partner users” by 2026-09-25?
+Will authoritative evidence confirm “Conduct initial Pace-Setting Project demonstrations with transition-partner users” by 2026-09-26?
 
 **Horizon:** 2026-08-30
 
