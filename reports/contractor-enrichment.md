@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-27T06:34:37.114174+00:00_
+_Updated 2026-08-28T08:24:42.158568+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **68** (**90.7%** coverage)
-- Newly resolved this run: **2**
-- Pending bounded enrichment: **121**
+- SAM.gov-resolved entities: **71** (**94.7%** coverage)
+- Newly resolved this run: **3**
+- Pending bounded enrichment: **118**
 - Ambiguous / no match: **3 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -22,6 +22,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | ALVAREZ LLC | [Alvarez LLC](https://sam.gov/entity/Y928UVG75CT6/coreData) | Y928UVG75CT6 | 35LK3 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | UNIVERSITY OF OKLAHOMA | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) | EVTSTTLCEWS5 | 3G168 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | UNIVERSITY OF ALABAMA | [UNIVERSITY OF ALABAMA](https://sam.gov/entity/RCNJEHZ83EV6/coreData) | RCNJEHZ83EV6 | 77223 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| MISSISSIPPI STATE UNIVERSITY | [MISSISSIPPI STATE UNIVERSITY](https://sam.gov/entity/NTXJM52SHKS7/coreData) | NTXJM52SHKS7 | 4E756 | Active | 1862 Land Grant College, Educational Institution, U.S. State Government |
 | UNIVERSITY OF NORTH TEXAS | [UNIVERSITY OF NORTH TEXAS](https://sam.gov/entity/G47WN1XZNWX9/coreData) | G47WN1XZNWX9 | 6B783 | Active | Educational Institution, Hispanic Servicing Institution, Minority Institution |
 | THE UNIVERSITY OF IOWA | [THE UNIVERSITY OF IOWA](https://sam.gov/entity/Z1H9VJS8NG16/coreData) | Z1H9VJS8NG16 | 2D354 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | [VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY](https://sam.gov/entity/QDE5UHE5XD16/coreData) | QDE5UHE5XD16 | 4B976 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
@@ -31,9 +32,11 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF ILLINOIS | [UNIVERSITY OF ILLINOIS](https://sam.gov/entity/Y8CWNJRCNN91/coreData) | Y8CWNJRCNN91 | 4B808 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | THE ARDIAN GROUP, INC | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) | UE9KZJJCMAS9 | 3BR42 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
 | FOUR POINTS TECHNOLOGY, L.L.C. | [FOUR POINTS TECHNOLOGY, L.L.C.](https://sam.gov/entity/H1KHJPJH9R51/coreData) | H1KHJPJH9R51 | 1YS78 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
+| BROWN UNIVERSITY | [BROWN UNIVERSITY](https://sam.gov/entity/E3FDXZ6TBHW3/coreData) | E3FDXZ6TBHW3 | 23242 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | ARETE CONSULTING LLC | [ARETE CONSULTING LLC](https://sam.gov/entity/C2PNBME1GYB5/coreData) | C2PNBME1GYB5 | 7LRX4 | Active | SBA Certified 8(a) Program Participant |
 | UNIVERSITY OF WISCONSIN SYSTEM | [UNIVERSITY OF WISCONSIN SYSTEM](https://sam.gov/entity/LCLSJAGTNZQ7/coreData) | LCLSJAGTNZQ7 | 09FZ2 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | UNIVERSITY OF WASHINGTON | [UNIVERSITY OF WASHINGTON](https://sam.gov/entity/HD1WMN6945W6/coreData) | HD1WMN6945W6 | 1HEX5 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. Local Government |
+| THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK | [THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK](https://sam.gov/entity/F4N1QNPB95M4/coreData) | F4N1QNPB95M4 | 1B053 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | PURDUE UNIVERSITY | [PURDUE UNIVERSITY](https://sam.gov/entity/YRXVL4JYCEF5/coreData) | YRXVL4JYCEF5 | 6D418 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | [OLD DOMINION UNIVERSITY RESEARCH FOUNDATION](https://sam.gov/entity/DSLXBD7UWRV6/coreData) | DSLXBD7UWRV6 | 5D075 | Active | Business or Organization, Foundation, Non-Profit Organization |
 | KPMG LLP | [KPMG LLP](https://sam.gov/entity/MAA3SBSDQVM1/coreData) | MAA3SBSDQVM1 | 7QEG9 | Active | Business or Organization, For Profit Organization |
@@ -86,9 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | ARIZONA STATE UNIVERSITY | ARIZONA STATE UNIVERSITY | — | — | ambiguous | Multiple or non-exact SAM.gov candidates require review |
 | REDACTED DUE TO PII | REDACTED DUE TO PII | — | — | no_match | No active public SAM.gov entity matched |
 | POST QUANTUM LABS LLC | POST QUANTUM LABS LLC | — | — | pending | api key missing |
-| CARNEGIE-MELLON UNIVERSITY | CARNEGIE-MELLON UNIVERSITY | — | — | pending | api key missing |
-| FOUR POINTS TECHNOLOGY, L.L.C. | FOUR POINTS TECHNOLOGY, L.L.C. | — | — | pending | api key missing |
-| ARETE CONSULTING LLC | ARETE CONSULTING LLC | — | — | pending | api key missing |
 
 ## Method
 

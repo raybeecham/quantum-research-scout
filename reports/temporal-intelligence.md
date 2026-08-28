@@ -2,167 +2,132 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-08-27T06:34:37.114174+00:00_
+_Updated 2026-08-28T08:24:42.158568+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **99**
-- Newly discovered historical evidence: **11**
-- Newly observed with no reliable source date: **8**
-- Upcoming dated events: **73**
+- Actual or recent changes: **61**
+- Newly discovered historical evidence: **2**
+- Newly observed with no reliable source date: **13**
+- Upcoming dated events: **69**
 
 ## Priority timeline
 
-- **Changed since prior run** · Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI) — deadline ([evidence](https://www.grants.gov/search-results-detail/363614))
+- **Conflict opened since prior run** · 66--DISPLAY,MULTIPLE AI, IN REPAIR/MODIFICATION OF — deadline
+  - A new unresolved disagreement appeared in the claim ledger comparison.
+- **Conflict opened since prior run** · KIRA B100 Autonomous Floor Scrubbers Or Equal — opportunity status
+  - A new unresolved disagreement appeared in the claim ledger comparison.
+- **Changed since prior run** · (C5ISRT), INTEGRATED TECHNOLOGY, AUTOMATION, UNCREWED AUTONOMOUS SYSTEM (UXS), COUNTER UNCREWED AUTONOMOUS SYSTEM (CUXS), SECURITY, AND NETWORK TECHNOLOGY SUPPORT — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_N6133126F0075_9700_N6133126D0008_9700))
   - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · TECHNICAL APPLICATION SUPPORT SERVICES (TASS) — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_1605C126F00016_1605_1605TA22A0003_1605))
+- **Changed since prior run** · AI3 Action Institute - Artificial Intelligence for American Indians — opportunity status ([evidence](https://www.grants.gov/search-results-detail/362270))
   - The assertion changed relative to the prior successful ledger build.
-- **Published today** · 15--PANEL,STRUCTURAL,AI — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/ec1f2235e7d542c6b5c19ea1053658ea/view))
+- **Changed since prior run** · Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico — opportunity status ([evidence](https://www.grants.gov/search-results-detail/363347))
+  - The assertion changed relative to the prior successful ledger build.
+- **Changed since prior run** · KIRA B100 Autonomous Floor Scrubbers Or Equal — opportunity status ([evidence](https://sam.gov/workspace/contract/opp/ba71c61e755e4b4caff3a8efb978cbf4/view))
+  - The assertion changed relative to the prior successful ledger build.
+- **Published today** · 15--WINDSHIELD PANEL,AI — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/b0fe481563b24ac1a4844a71a155ecc5/view))
   - The source publication date is today or within the prior day.
-- **Published today** · Blast Overpressure Sensor System (BOSS) — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/d1b4b589d97e402099704d98a474269c/view))
+- **Published today** · 49--HANDLING FIXTURE,AI — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/c7065f833fab4390b241d152b6dbc874/view))
   - The source publication date is today or within the prior day.
-- **Published today** · Communications, Network, Engineering, Cybersecurity, and Information Technology Services (CNECTS), aka "Connects" — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/9d03f82eee79407a8d447eb503d2a95a/view))
+- **Published today** · 61--INTERCONNECT PWA,AI, IN REPAIR/MODIFICATION OF — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/8868bb71db1948d7acb49b39720e09dc/view))
   - The source publication date is today or within the prior day.
-- **Published today** · KIRA B100 Autonomous Floor Scrubbers Or Equal — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/ba71c61e755e4b4caff3a8efb978cbf4/view))
+- **Published today** · 66--DISPLAY,MULTIPLE AI, IN REPAIR/MODIFICATION OF — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/d31d42e27f9a413a818f40f26cd5013c/view))
   - The source publication date is today or within the prior day.
-- **Published today** · Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM) — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/cd31a61720cf49ddbaa2c82137d69abd/view))
+- **Published today** · 7A--Machine Learning Assisted Electronic Monitoring — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/9bec1199600d4dce9fcac1b95f0ea26b/view))
   - The source publication date is today or within the prior day.
-- **Published today** · Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM) — states deadline ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2415fd600d1843909dadb6bd0a60075a/download))
+- **Published today** · 7A--Machine Learning Assisted Electronic Monitoring — states deadline ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0eb6b7bc29f94cb18c5344608bfb6ed9/download))
   - The source publication date is today or within the prior day.
-- **Published today** · Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM) — states deadline ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5aa0ab25da0f424d91318cf10ecfb981/download))
+- **Published today** · Annual Program Statement — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363723))
   - The source publication date is today or within the prior day.
-- **Published today** · Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM) — states deadline ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7f37f0d35f964794a9e388d5ed12da89/download))
+- **Published today** · Industry Engagement – Common Autonomous Multi-Domain Launcher (CAML) Strategy Overview — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/b0e78aae357b47d2bc424d2094d15f7c/view))
   - The source publication date is today or within the prior day.
-- **Published today** · USAFA: Quantum Demonstration/Experiment System (Amendment 3) — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/d57070e649cd40f6b9bc6e326a9afc54/view))
+- **Published today** · Industry Engagement – Common Autonomous Multi-Domain Launcher (CAML) Strategy Overview — states eligibility term ([evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c9084ab278448c598bb061c368592b9/download))
   - The source publication date is today or within the prior day.
-- **Occurred 3 days ago** · FY26-APH-MRP-ITD-CYBER_2- RISK MANAGEMENT FRAMEWORK (CYBER A&A) SECURITY CONTROL ASSESSMENT VENDORS TO PERFORM THE ANNUAL ASSESSMENT AND AUTHORIZATION (A&A) TO MAINTAIN AUTHORITY... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426F0305_1205_47QTCA24D0082_4732))
-  - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 2 days ago** · NATIONAL INSTITUTES OF HEALTH (NIH) KIDNEY ARTIFICIAL INTELLIGENCE DISCOVERY CHALLENGE: FROM NEBULAE TO NEPHRONS — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_80JSC026F0080_8000_80JSC025D0051_8000))
-  - A recent source-reported event was newly incorporated into the ledger.
-- **Evidence trace changed** · American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363293))
+- **Published today** · THE MITRE CORPORATION — has related patent ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/19455548/application-data))
+  - The source publication date is today or within the prior day.
+- **Evidence trace changed** · MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026 — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363586))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · Occupational Safety and Health Training Project Grants (T03) — qualification gate ([evidence](https://www.grants.gov/search-results-detail/355722))
+- **Evidence trace changed** · ROSES 2025: A.10 INNOVATE — qualification gate ([evidence](https://www.grants.gov/search-results-detail/360003))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Evidence trace changed** · Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed) — qualification gate ([evidence](https://www.grants.gov/search-results-detail/359269))
+- **Evidence trace changed** · The 2027 YSEALI Regional Workshop: Securing Supply Chains — qualification gate ([evidence](https://www.grants.gov/search-results-detail/362900))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Upcoming event date** · CAIG: ADVANCING AI ATMOSPHERIC EMULATORS THROUGH RIGOROUS THEORETICAL EVALUATION AND UNCERTAINTY QUANTIFICATION -ACCURATELY PREDICTING HOW REGIONAL WEATHER EXTREMES LIKE HEAT WAVE... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2616141_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · CAIG: LEVERAGING AI TO UNRAVEL MARINE HEATWAVE IMPACTS ON HURRICANE EVOLUTION AND COASTAL RESILIENCE AGAINST COMPOUND FLOODING -TROPICAL CYCLONES ARE BECOMING MORE DESTRUCTIVE AS... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2616172_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · CATEGORY II: SAGEBRUSH - AN AI INFERENCE RESOURCE FOR ACCESS, NAIRR, AND THE NATION -SAGEBRUSH IS A TRANSFORMATIVE GENERATIVE ARTIFICIAL INTELLIGENCE (AI) INFERENCE PLATFORM, DESI... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2537075_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · CENTER: UC SAN DIEGO MATERIALS RESEARCH SCIENCE AND ENGINEERING CENTER -NONTECHNICAL DESCRIPTION THE MATERIALS RESEARCH SCIENCE AND ENGINEERING CENTER AT THE UNIVERSITY OF CALIFOR... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2614051_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · CICI: IPAAI: VERITAS - VERIFIED INFRASTRUCTURE FOR TRUSTWORTHY AI IN SCIENCE -ARTIFICIAL INTELLIGENCE (AI) HAS BECOME ESSENTIAL TO SCIENTIFIC DISCOVERY, YET ITS RAPID ADOPTION INT... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2613693_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · CIF: SMALL: MAB WITH QUERYING AND COST INFORMATION -MANY REAL-WORLD PROBLEMS INVOLVE CHOOSING AMONG SEVERAL OPTIONS OVER TIME, WITH THE RESULTS OF EARLIER CHOICES HELPING GUIDE LA... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2530391_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: CSR: CO-DESIGNING INTEGRATED AI-ENABLED COMPILER-RUNTIME SYSTEMS FOR FUTURE HPC ARCHITECTURES -MODERN SUPERCOMPUTERS COMBINE DIVERSE PROCESSORS AND ACCELER... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2616612_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: CSR: CO-DESIGNING INTEGRATED AI-ENABLED COMPILER-RUNTIME SYSTEMS FOR FUTURE HPC ARCHITECTURES -MODERN SUPERCOMPUTERS COMBINE DIVERSE PROCESSORS AND ACCELER... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2616611_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2612144_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2612146_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2612145_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: POWERCYBER: SCALABLE WORKFORCE DEVELOPMENT FOR AI-ENABLED POWER GRIDS -THE U.S. ELECTRIC POWER SYSTEM IS UNDERGOING A... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2612493_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: POWERCYBER: SCALABLE WORKFORCE DEVELOPMENT FOR AI-ENABLED POWER GRIDS -THE U.S. ELECTRIC POWER SYSTEM IS UNDERGOING A... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2612494_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2612533_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2555491_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2555492_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: SHF: FLEXSCALE: EXPLOITING WORKLOAD ELASTICITY TO INCREASE HPC THROUGHPUT WHILE LOWERING COST VIA DYNAMIC POWER STEERING -HIGH-PERFORMANCE COMPUTING (HPC)... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2615188_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: SHF: FLEXSCALE: EXPLOITING WORKLOAD ELASTICITY TO INCREASE HPC THROUGHPUT WHILE LOWERING COST VIA DYNAMIC POWER STEERING -HIGH-PERFORMANCE COMPUTING (HPC)... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2615187_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: SHF: SCALABLE CROSS-LAYER CO-DESIGN FOR STABLE MIXED-PRECISION ACCELERATION -THE MOST CONSEQUENTIAL COMPUTING WORKLOADS TODAY ALL FACE SUBSTANTIAL CHALLENG... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2621699_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: SHF: SCALABLE CROSS-LAYER CO-DESIGN FOR STABLE MIXED-PRECISION ACCELERATION -THE MOST CONSEQUENTIAL COMPUTING WORKLOADS TODAY ALL FACE SUBSTANTIAL CHALLENG... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2621700_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: SUSTAINED RESOURCES: ADVANCING AND EXPANDING THE VOLCANOLOGY INFRASTRUCTURE FOR COMPUTATIONAL TOOLS AND RESOURCES -COMPUTER MODELS ARE VITAL TO UNDERSTANDI... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2514588_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: SUSTAINED RESOURCES: ADVANCING AND EXPANDING THE VOLCANOLOGY INFRASTRUCTURE FOR COMPUTATIONAL TOOLS AND RESOURCES -COMPUTER MODELS ARE VITAL TO UNDERSTANDI... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2514587_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2549233_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · CONFERENCE: ALABAMA QUANTUM WORKSHOP: QUANTUM SENSING, INFORMATION SCIENCE, AND EPSCOR COLLABORATION -QUANTUM INFORMATION SCIENCE PROVIDES NEW WAYS TO MEASURE, IMAGE, COMMUNICATE,... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2631519_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · CONFERENCE: JOINT WORKSHOP ON SECURE AND TRUSTWORTHY CYBERSPACE (NSF-CSA SINGAPORE) -CYBERSECURITY CHALLENGES INCREASINGLY SPAN NATIONAL BORDERS, AND THIS PROJECT SUPPORTS U.S.-BA... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2629538_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · CONFERENCE: NSF QUANTUM COMPUTING SECURITY WORKSHOP -INDUSTRY LEADERS ARE RELEASING QUANTUM COMPUTING INFRASTRUCTURES, SUCH AS QUANTUM COMPUTING AS A SERVICE (QCAAS), THAT ARE ACC... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2629256_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · CONFERENCE: QUANTUM ARTIFICIAL INTELLIGENCE FOR ENGINEERING EDUCATION -THIS PROJECT SERVES THE NATIONAL INTEREST BY BUILDING A COMMUNITY OF EDUCATORS AND RESEARCHERS IN ENGINEERIN... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2629633_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · CONFERENCE: SATC: US-KOREA JOINT WORKSHOP ON CYBERSECURITY INNOVATIONS -THIS PROJECT STRENGTHENS RESEARCH COLLABORATION BETWEEN THE UNITED STATES AND THE REPUBLIC OF KOREA RESEARC... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2629019_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · CYBERAI INNOVATION: EXPANDING WORKFORCE PATHWAYS INTO CYBERSECURITY AND AI THROUGH AN INTEGRATIVE CAREER AND TECHNICAL EDUCATION MODEL -ARTIFICIAL INTELLIGENCE (AI) AND CYBERSECUR... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2622977_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · EAGER: ANALOG CIRCUIT EMULATION OF QUANTUM CIRCUITS FOR DETERMINISTIC STATE EVALUATION AND QUANTUM RESULT VERIFICATION -THE WAY TODAY'S QUANTUM COMPUTERS REPORT ANSWERS IS FUNDAME... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2629188_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · EAGER: EXPLORING EXTREME THZ PHOTONICS WITH QUANTUM FLUIDS -PART 1. NONTECHNICAL DESCRIPTION TERAHERTZ (THZ) RADIATION LIES BETWEEN MICROWAVES AND INFRARED LIGHT IN THE ELECTROMAG... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2625134_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · EAGER: TERAHERTZ NEAR-FIELD STUDIES OF QUANTUM SENSING -THIS PROJECT WILL INVESTIGATE QUANTUM PHENOMENA USING INNOVATIVE TECHNIQUES TO PROBE LOW-FREQUENCY EXCITATIONS IN THE TERAH... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2625530_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · ELECTRONIC CONFINEMENT, DIELECTRIC PERTURBATIONS, AND STABILITY MECHANISMS IN WEYL SEMIMETALS FOR NANOSCALE INTERCONNECTS -EVERY SMARTPHONE, COMPUTER, DATA CENTER, AND ARTIFICIAL... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2614938_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · EXPANDING THE DOMESTIC COMPUTING PHD CAPACITY -THE UNITED STATES FACES A PERSISTENT SHORTFALL IN DOMESTIC STUDENTS TRAINED FOR CAREERS IN COMPUTING RESEARCH AT A TIME WHEN DEMAND... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2627242_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · HCC: HUMAN-CENTERED INTERFACES FOR SAFE AND EFFECTIVE SUPERVISION OF AUTONOMOUS DRONE SWARMS -AUTONOMOUS DRONE SWARMS, GROUPS OF AERIAL VEHICLES THAT OPERATE COOPERATIVELY WITHOUT... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2617355_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · HIGH-MOBILITY GERMANIUM-ON-ALAS NANOSHEET FETS AND CFET FOR ADAPTIVE AND ULTRA-LOW-POWER ELECTRONICS -HIGH-MOBILITY GERMANIUM-ON-ALAS NANOSHEET FETS AND CFET FOR ADAPTIVE AND ULTR... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2609791_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · HOW TEMPORAL NICHE PARTITIONING AND GROWTH ON UREA SELECTS FOR CYANOBACTERIA IN FRESH WATERS -HARMFUL CYANOBACTERIAL THREATEN DRINKING WATER, FISHERIES, RECREATION, AND LOCAL ECON... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2534721_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · III: A DECLARATIVE DATA MANAGEMENT SYSTEM FOR SEMANTIC MULTIMODAL WORKFLOWS -THE AMOUNT OF DATA STORED AS VIDEOS, AUDIO RECORDINGS, AND DOCUMENTS IS GROWING RAPIDLY AND NOW FAR EX... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2619236_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · INDEPENDENT ANALYSES, CONVENINGS, AND STUDIES TO ADVANCE COMPUTING RESEARCH -WITH SUPPORT FROM THIS PROJECT, THE NATIONAL ACADEMIES OF SCIENCES, ENGINEERING, AND MEDICINE WILL ADV... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2625161_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · INTEGRATED EXPERIMENTAL AND COMPUTATIONAL APPROACH TO UNVEIL MECHANISMS OF DEFORMATION IN FIBROUS BIOLOGICAL MATERIALS -HUMAN TISSUES ARE COMPOSED OF FIBERS THAT DEFORM IN RESPONS... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2619212_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · INTEGRATING BUILDING AUTOMATION AND CONTROL SYSTEMS INTO HVAC TECHNICIAN EDUCATION -THIS PROJECT WILL SERVE THE NATIONAL INTEREST AND THE NSF ADVANCED TECHNOLOGICAL EDUCATION (ATE... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2556086_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · NSFDEB-NERC: MICROBIAL NITROGEN CYCLING IN THE TROPICS (MINT) -TROPICAL FORESTS ARE THE LARGEST RESERVOIR OF TERRESTRIAL CARBON AND STRONGLY INFLUENCE THE FLOW OF NUTRIENTS BETWEE... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2546334_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · RUI: ENABLING PHYLOGENOMIC RESEARCH ON MICROBIAL EUKARYOTES WITH EUKPHYLO -THE VAST MAJORITY OF SPECIES ON EARTH ARE MICROBIAL, INCLUDING MOST EUKARYOTES (I.E. SPECIES WHOSE CELLS... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2620734_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
-- **Upcoming event date** · S-STEM: PATHWAYS TO A CYBERSECURITY/AI CAREER -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCIENTISTS, MATHEMATICIANS, ENGINEERS, AND TECHNICIANS BY SUPPOR... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2619732_049))
-  - The source date is in the future; Scout first observed it on 2026-08-27.
+- **Upcoming event date** · OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0 — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QFHA26F0005_4732_47QFHA24D0005_4732))
+  - The source date is in the future; Scout first observed it on 2026-08-28.
+- **Newly observed · event date unknown** · BROWN UNIVERSITY — cage code ([evidence](https://sam.gov/entity/E3FDXZ6TBHW3/coreData))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Newly observed · event date unknown** · MISSISSIPPI STATE UNIVERSITY — cage code ([evidence](https://sam.gov/entity/NTXJM52SHKS7/coreData))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Newly observed · event date unknown** · THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK — cage code ([evidence](https://sam.gov/entity/F4N1QNPB95M4/coreData))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Newly observed · event date unknown** · THE MITRE CORPORATION — has related patent ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/63762524/application-data))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Newly discovered historical evidence** · Computer and Information Science and Engineering (CISE): Future Computing Research — qualification gate ([evidence](https://www.grants.gov/search-results-detail/360149))
+  - Scout first observed this on 2026-08-28; the source date is 2025-07-25.
+- **Newly discovered historical evidence** · IUSE / Professional Formation of Engineers: Revolutionizing Engineering Departments (IUSE/PFE: RED) — qualification gate ([evidence](https://www.grants.gov/search-results-detail/353413))
+  - Scout first observed this on 2026-08-28; the source date is 2024-04-05.
+- **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · F27AS00008-NAWCA 2027-1 US Standard Grants — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363306))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional) — awarding agency ([evidence](https://www.grants.gov/search-results-detail/359862))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · Public Diplomacy Small Grants Competition — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363079))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · Rapid Reskill Employment Recovery National Dislocated Worker Grants — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362987))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026 — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362910))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · Tribal Colleges Research Grants Program — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362029))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · U.S. Embassy Jakarta Media Small Grants Competition — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363370))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · Genesis Mission — executes through ([evidence](https://www.grants.gov/search-results-detail/359862))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · Golden Dome for America — executes through ([evidence](https://www.grants.gov/search-results-detail/362961))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · Golden Dome for America — executes through ([evidence](https://www.grants.gov/search-results-detail/363306))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · Golden Dome for America — executes through ([evidence](https://www.grants.gov/search-results-detail/362987))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · Military AI Pace-Setting Projects — executes through ([evidence](https://www.grants.gov/search-results-detail/362498))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · Military AI Pace-Setting Projects — executes through ([evidence](https://www.grants.gov/search-results-detail/362029))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · Project Triad — executes through ([evidence](https://www.grants.gov/search-results-detail/363370))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · Project Triad — executes through ([evidence](https://www.grants.gov/search-results-detail/363079))
+  - The assertion moved out of the active set after comparison.
+- **Resolved since prior run** · Project Triad — executes through ([evidence](https://www.grants.gov/search-results-detail/362910))
+  - The assertion moved out of the active set after comparison.
 
 ## Upcoming
 
 - **2026-07-31** · Receive abstracts for the expanded QBIT Stage A solicitation — overdue ([source](https://www.darpa.mil/news/2026/qbi-stage-a-qbit))
 - **2026-08-21** · Seek initial platform operating capability for at least one national challenge — awaiting_confirmation ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
-- **2026-08-27** · AI3 Action Institute - Artificial Intelligence for American Indians — closing_soon ([source](https://www.grants.gov/search-results-detail/362270))
-- **2026-08-27** · Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico — closing_soon ([source](https://www.grants.gov/search-results-detail/363347))
-- **2026-08-27** · KIRA B100 Autonomous Floor Scrubbers Or Equal — closing_soon ([source](https://sam.gov/workspace/contract/opp/ba71c61e755e4b4caff3a8efb978cbf4/view))
-- **2026-08-28** · Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM) — closing_soon ([source](https://sam.gov/workspace/contract/opp/cd31a61720cf49ddbaa2c82137d69abd/view))
 - **2026-08-30** · American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy — closing_soon ([source](https://www.grants.gov/search-results-detail/363293))
+- **2026-08-31** · Industry Engagement – Common Autonomous Multi-Domain Launcher (CAML) Strategy Overview — closing_soon ([source](https://sam.gov/workspace/contract/opp/b0e78aae357b47d2bc424d2094d15f7c/view))
 - **2026-08-31** · ROSES 2025: A.10 INNOVATE — closing_soon ([source](https://www.grants.gov/search-results-detail/360003))
 - **2026-08-31** · The 2027 YSEALI Regional Workshop: Securing Supply Chains — closing_soon ([source](https://www.grants.gov/search-results-detail/362900))
-- **2026-08-31** · USAFA: Quantum Demonstration/Experiment System (Amendment 3) — closing_soon ([source](https://sam.gov/workspace/contract/opp/d57070e649cd40f6b9bc6e326a9afc54/view))
+- **2026-09-01** · 7A--Machine Learning Assisted Electronic Monitoring — closing_soon ([source](https://sam.gov/workspace/contract/opp/9bec1199600d4dce9fcac1b95f0ea26b/view))
 - **2026-09-01** · Advancing Investigative Journalism in Ukraine through U.S. AI Innovation — closing_soon ([source](https://www.grants.gov/search-results-detail/363440))
 - **2026-09-01** · Pathways to Enable Secure Open-Source Ecosystems — closing_soon ([source](https://www.grants.gov/search-results-detail/361333))
-- **2026-09-04** · MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026 — closing_this_month ([source](https://www.grants.gov/search-results-detail/363586))
+- **2026-09-04** · 49--HANDLING FIXTURE,AI — closing_soon ([source](https://sam.gov/workspace/contract/opp/c7065f833fab4390b241d152b6dbc874/view))
+- **2026-09-04** · MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026 — closing_soon ([source](https://www.grants.gov/search-results-detail/363586))
 - **2026-09-08** · AI Partnership & Exchange for Tech Leaders (APEX) — closing_this_month ([source](https://www.grants.gov/search-results-detail/363315))
 - **2026-09-08** · IUSE / Professional Formation of Engineers: Revolutionizing Engineering Departments (IUSE/PFE: RED) — closing_this_month ([source](https://www.grants.gov/search-results-detail/353413))
 - **2026-09-09** · NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) — closing_this_month ([source](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view))
-- **2026-09-09** · Notice of Intent to Sole Source - Innovative Algorithms Phalanx Shield Unattended Ground Sensor — closing_this_month ([source](https://sam.gov/workspace/contract/opp/8f7e558f3da743c2a3f5458f0ecf733d/view))
 - **2026-09-10** · Computer and Information Science and Engineering (CISE): Future Computing Research — closing_this_month ([source](https://www.grants.gov/search-results-detail/360149))
-- **2026-09-10** · Generative Artificial Intelligence (GenAI) Electronic Performance Support System (EPSS) under CSO N0003925S001. — closing_this_month ([source](https://sam.gov/workspace/contract/opp/c21f4f1ff5834867b7c2fe36835ec54e/view))
-- **2026-09-11** · Blast Overpressure Sensor System (BOSS) — closing_this_month ([source](https://sam.gov/workspace/contract/opp/d1b4b589d97e402099704d98a474269c/view))
 - **2026-09-11** · Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU) — closing_this_month ([source](https://www.grants.gov/search-results-detail/363537))
+- **2026-09-13** · Annual Program Statement — closing_this_month ([source](https://www.grants.gov/search-results-detail/363723))
 - **2026-09-15** · Measurement Science and Engineering (MSE) Research Grant Programs — closing_this_month ([source](https://www.grants.gov/search-results-detail/358955))
 - **2026-09-17** · University-led Networks for Innovation, Technology, and Expertise (UNITE) — closing_this_month ([source](https://www.grants.gov/search-results-detail/363645))
 - **2026-09-20** · OMB issues agency guidance for inventories, migration plans, and high-impact systems — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
 - **2026-09-20** · Publish a summary of QC-ADDS technical specifications — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
 - **2026-09-21** · Agriculture Risk Management Education Partnerships Competitive Grants Program — closing_this_month ([source](https://www.grants.gov/search-results-detail/363682))
 - **2026-09-22** · Launch the AI Forge university-industry-government forum — estimated ([source](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security))
+- **2026-09-28** · 66--DISPLAY,MULTIPLE AI, IN REPAIR/MODIFICATION OF — open_window ([source](https://sam.gov/workspace/contract/opp/d31d42e27f9a413a818f40f26cd5013c/view))
 - **2026-09-28** · Security, Privacy, and Trust in Cyberspace — open_window ([source](https://www.grants.gov/search-results-detail/357554))
 - **2026-09-29** · Postdoctoral Research Fellowships in Biology — open_window ([source](https://www.grants.gov/search-results-detail/361249))
 - **2026-09-30** · Close the QBIT Stage A full-proposal window — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
@@ -173,6 +138,9 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-10-02** · Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed) — open_window ([source](https://www.grants.gov/search-results-detail/359269))
 - **2026-10-09** · Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed) — open_window ([source](https://www.grants.gov/search-results-detail/359271))
 - **2026-10-09** · Mathematical Foundations of Artificial Intelligence — open_window ([source](https://www.grants.gov/search-results-detail/353936))
+- **2026-10-13** · 61--INTERCONNECT PWA,AI, IN REPAIR/MODIFICATION OF — open_window ([source](https://sam.gov/workspace/contract/opp/8868bb71db1948d7acb49b39720e09dc/view))
 - **2026-10-14** · Research Experiences for Teachers (RET) in Engineering and Computer Science — open_window ([source](https://www.grants.gov/search-results-detail/350802))
 - **2026-10-15** · Close the QBI independent verification and validation topic — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-10-15** · ROSES25: A.13 Accelerating Earth Solutions — open_window ([source](https://www.grants.gov/search-results-detail/363224))
+- **2026-10-19** · Model-to-Clinic (M2C) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (UG3/UH3, Clinical Trial Optional) — open_window ([source](https://www.grants.gov/search-results-detail/359666))
+- **2026-10-19** · PRIMED-AI: Data-to-Model Academic-Industrial Partnerships (D2M-AIP) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (UG3/UH3 Clinical Trial Optional) — open_window ([source](https://www.grants.gov/search-results-detail/359270))

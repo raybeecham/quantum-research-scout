@@ -173,9 +173,9 @@
     },
     {
       "confidence": "medium",
-      "evidence_count": 2,
+      "evidence_count": 3,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-07-23",
+      "latest_evidence_at": "2026-08-28",
       "name": "PQShield",
       "priority": "high",
       "source_count": 1,
@@ -212,6 +212,21 @@
           "source": "PQShield",
           "title": "EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.",
           "url": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness"
+        },
+        {
+          "date": "2026-08-28",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "PQShield",
+          "title": "We are speaking, Cybersweden 2026 Stockholm, Sweden 15 - 17 Sep, 2026 CTO, Graeme Hickey is speaking at CyberSweden 2026 in Stockholm. He\u2019ll present \"Beyond Quantum Safe: Building Systems that Can Survive the Next Cryptographic Transition\". CyberSweden runs Sept 15\u201317.",
+          "url": "https://pqshield.com/events/we-are-speaking-cybersweden-2026"
         }
       ],
       "type": "company"
@@ -1177,6 +1192,36 @@
       "confidence": "low",
       "evidence_count": 1,
       "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-08-28",
+      "name": "IETF",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-08-28",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "IETF workshop to speed up post-quantum authentication rollout",
+          "url": "https://quantumzeitgeist.com/nist-post-quantum-authentication-ietf-workshop"
+        }
+      ],
+      "type": "standards"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 0,
       "latest_evidence_at": "2026-08-04",
       "name": "IonQ",
       "priority": "high",
@@ -1396,20 +1441,6 @@
       "evidence_count": 0,
       "historical_evidence_count": 0,
       "latest_evidence_at": null,
-      "name": "IETF",
-      "priority": "high",
-      "source_count": 0,
-      "stage": "not_assessed",
-      "stage_label": "Not assessed",
-      "stage_rank": 0,
-      "supporting_evidence": [],
-      "type": "standards"
-    },
-    {
-      "confidence": "none",
-      "evidence_count": 0,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": null,
       "name": "Infleqtion",
       "priority": "medium",
       "source_count": 0,
@@ -1589,17 +1620,17 @@
     }
   ],
   "summary": {
-    "assessed": 22,
+    "assessed": 23,
     "by_stage": {
-      "awareness": 13,
+      "awareness": 14,
       "inventory": 1,
-      "not_assessed": 21,
+      "not_assessed": 20,
       "pilot": 3,
       "planning": 5
     },
-    "not_assessed": 21,
+    "not_assessed": 20,
     "organizations": 43
   },
-  "updated_at": "2026-08-27T06:44:31.752814+00:00",
+  "updated_at": "2026-08-28T08:35:57.429171+00:00",
   "version": 1
 }

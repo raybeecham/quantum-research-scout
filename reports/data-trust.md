@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-27T06:34:37.114174+00:00_
+_Updated 2026-08-28T08:24:42.158568+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **528**
-- Quarantined evidence or relationships: **117**
-- Acceptance rate: **81.9%**
+- Quarantined evidence or relationships: **119**
+- Acceptance rate: **81.6%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 28 | 87 | 24.3% |
-| Federal funding | 500 | 30 | 94.3% |
+| Federal missions | 28 | 88 | 24.1% |
+| Federal funding | 500 | 31 | 94.2% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 115
-- **No relevant term in the evidence itself**: 115
-- **Official government source**: 105
+- **Match appears only in collector query metadata**: 117
+- **No relevant term in the evidence itself**: 117
+- **Official government source**: 107
 - **Source is not an official .gov or .mil domain**: 10
 - **Agency and technology inference only**: 2
 
@@ -38,6 +38,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [FYs 2024 through 2026 - Promoting Resilient Operations for Transformative, Efficient, and Cost-saving Transportation (PROTECT) Competitive Grant Program Notice of Funding Opportunity](https://www.grants.gov/search-results-detail/363732)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [FYs 2024 through 2026 - Promoting Resilient Operations for Transformative, Efficient, and Cost-saving Transportation (PROTECT) Competitive Grant Program Notice of Funding Opportunity](https://www.grants.gov/search-results-detail/363732)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [Policy 16h ago Treasury launches task force to prepare finance for quantum threats](https://quantumzeitgeist.com/quantum-readiness-treasury-task-force-prepare)
 
@@ -705,20 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [Mgt, Species, Pollinators, Western Bumble bee Joint Base Elmendorf- Richardson, Alaska](https://www.grants.gov/search-results-detail/348746)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [FY 2025 EDA Public Works and Economic Adjustment Assistance Programs](https://www.grants.gov/search-results-detail/346815)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [DEVCOM ANALYSIS CENTER BROAD AGENCY ANNOUNCEMENT FOR APPLIED RESEARCH](https://www.grants.gov/search-results-detail/345241)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-08-27 06:34 UTC_
+_Updated 2026-08-28 08:24 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
 USAspending records describe reported awards; Grants.gov and SAM.gov records describe opportunities or notices. Analytical mission and patent links are not evidence that a patent was funded by, used by, or formally associated with a mission.
 
 - Tracked records: **500**
-- Awards / grant opportunities / procurement opportunities: **368 / 111 / 19**
-- Open opportunities: **99** (including 5 BAA and 3 RFI records)
-- Opportunity radar: **1 mission-linked**, **22 closing within 30 days**, **4 new since yesterday**
+- Awards / grant opportunities / procurement opportunities: **370 / 112 / 16**
+- Open opportunities: **94** (including 5 BAA and 2 RFI records)
+- Opportunity radar: **1 mission-linked**, **18 closing within 30 days**, **6 new since yesterday**
 - Mission-linked records: **14**
 - Missions with activity: **4 of 10**
-- Named recipients and contractors: **257**
-- Known reported award value: **$315.2M**
+- Named recipients and contractors: **258**
+- Known reported award value: **$316.3M**
 
 ## Opportunity Radar
 
@@ -26,35 +26,35 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | Rank | Opportunity | Type | Close | Mission | Technology | Score | Recommended action |
 |---:|---|---|---|---|---|---:|---|
 | 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
-| 2 | [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view) | PROCUREMENT_OPPORTUNITY | 2026-09-09T09:00:00-04:00 | Not linked | quantum, artificial intelligence | **35 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 3 | [AI3 Action Institute - Artificial Intelligence for American Indians](https://www.grants.gov/search-results-detail/362270) | GRANT_OPPORTUNITY | 08/27/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 4 | [Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico](https://www.grants.gov/search-results-detail/363347) | GRANT_OPPORTUNITY | 08/27/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 5 | [American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy](https://www.grants.gov/search-results-detail/363293) | GRANT_OPPORTUNITY | 08/30/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 6 | [The 2027 YSEALI Regional Workshop: Securing Supply Chains](https://www.grants.gov/search-results-detail/362900) | GRANT_OPPORTUNITY | 08/31/2026 | Not linked | cybersecurity | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 7 | [ROSES 2025: A.10 INNOVATE](https://www.grants.gov/search-results-detail/360003) | GRANT_OPPORTUNITY | 08/31/2026 | Not linked | advanced computing | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 8 | [Advancing Investigative Journalism in Ukraine through U.S. AI Innovation](https://www.grants.gov/search-results-detail/363440) | GRANT_OPPORTUNITY | 09/01/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 9 | [Pathways to Enable Secure Open-Source Ecosystems](https://www.grants.gov/search-results-detail/361333) | GRANT_OPPORTUNITY | 09/01/2026 | Not linked | cybersecurity | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 10 | [Notice of Intent to Sole Source - Innovative Algorithms Phalanx Shield Unattended Ground Sensor](https://sam.gov/workspace/contract/opp/8f7e558f3da743c2a3f5458f0ecf733d/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-09-09T13:00:00-06:00 | Not linked | autonomy and sensing | **34 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 11 | [Generative Artificial Intelligence (GenAI) Electronic Performance Support System (EPSS) under CSO N0003925S001.](https://sam.gov/workspace/contract/opp/c21f4f1ff5834867b7c2fe36835ec54e/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-09-10T14:00:00-07:00 | Not linked | artificial intelligence | **34 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 12 | [KIRA B100 Autonomous Floor Scrubbers Or Equal](https://sam.gov/workspace/contract/opp/ba71c61e755e4b4caff3a8efb978cbf4/view) | PROCUREMENT_OPPORTUNITY | 2026-08-27T15:00:00-07:00 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 13 | [Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)](https://sam.gov/workspace/contract/opp/cd31a61720cf49ddbaa2c82137d69abd/view) | PROCUREMENT_OPPORTUNITY | 2026-08-28T10:00:00-04:00 | Not linked | autonomy and sensing | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 14 | [USAFA: Quantum Demonstration/Experiment System (Amendment 3)](https://sam.gov/workspace/contract/opp/d57070e649cd40f6b9bc6e326a9afc54/view) | PROCUREMENT_OPPORTUNITY | 2026-08-31T14:00:00-06:00 | Not linked | quantum | **32 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 15 | [Blast Overpressure Sensor System (BOSS)](https://sam.gov/workspace/contract/opp/d1b4b589d97e402099704d98a474269c/view) · NEW | RFI | 2026-09-11T16:00:00-04:00 | Not linked | autonomy and sensing | **32 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 16 | [Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/359269) | GRANT_OPPORTUNITY | 10/02/2026 | Not linked | quantum, artificial intelligence | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 17 | [Cybersecurity Innovation for Cyberinfrastructure](https://www.grants.gov/search-results-detail/358004) | GRANT_OPPORTUNITY | 01/20/2027 | Not linked | artificial intelligence, cybersecurity | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 18 | [Advancing Global Health](https://www.grants.gov/search-results-detail/363649) | GRANT_OPPORTUNITY | 02/14/2027 | Not linked | quantum, post-quantum cryptography | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 19 | [Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)](https://www.grants.gov/search-results-detail/361238) | GRANT_OPPORTUNITY | 04/05/2027 | Not linked | artificial intelligence, cybersecurity | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 20 | [Occupational Safety and Health Training Project Grants (T03)](https://www.grants.gov/search-results-detail/355722) | GRANT_OPPORTUNITY | 10/26/2028 | Not linked | quantum, post-quantum cryptography | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 21 | [MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026](https://www.grants.gov/search-results-detail/363586) | GRANT_OPPORTUNITY | 09/04/2026 | Not linked | cybersecurity | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 22 | [AI Partnership & Exchange for Tech Leaders (APEX)](https://www.grants.gov/search-results-detail/363315) | GRANT_OPPORTUNITY | 09/08/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 23 | [IUSE / Professional Formation of Engineers: Revolutionizing Engineering Departments (IUSE/PFE: RED)](https://www.grants.gov/search-results-detail/353413) | GRANT_OPPORTUNITY | 09/08/2026 | Not linked | quantum | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 24 | [Computer and Information Science and Engineering (CISE): Future Computing Research](https://www.grants.gov/search-results-detail/360149) | GRANT_OPPORTUNITY | 09/10/2026 | Not linked | advanced computing | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 25 | [Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)](https://www.grants.gov/search-results-detail/363537) | GRANT_OPPORTUNITY | 09/11/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 26 | [Measurement Science and Engineering (MSE) Research Grant Programs](https://www.grants.gov/search-results-detail/358955) | GRANT_OPPORTUNITY | 09/15/2026 | Not linked | quantum | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 27 | [University-led Networks for Innovation, Technology, and Expertise (UNITE)](https://www.grants.gov/search-results-detail/363645) | GRANT_OPPORTUNITY | 09/17/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 28 | [Agriculture Risk Management Education Partnerships Competitive Grants Program](https://www.grants.gov/search-results-detail/363682) | GRANT_OPPORTUNITY | 09/21/2026 | Not linked | quantum | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 29 | [Bridge2AI Network for AI Health Science](https://www.grants.gov/search-results-detail/363107) | GRANT_OPPORTUNITY | Not reported | Not linked | artificial intelligence, autonomy and sensing | **28 · MONITOR** | Track the release and prepare capability evidence. |
-| 30 | [Alumni Engagement Innovation Fund (AEIF) 2026: Exchange Alumni Advancing Freedom250](https://www.grants.gov/search-results-detail/361614) | GRANT_OPPORTUNITY | Not reported | Not linked | quantum, post-quantum cryptography | **28 · MONITOR** | Track the release and prepare capability evidence. |
+| 2 | [Industry Engagement – Common Autonomous Multi-Domain Launcher (CAML) Strategy Overview](https://sam.gov/workspace/contract/opp/b0e78aae357b47d2bc424d2094d15f7c/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-08-31T13:00:00-05:00 | Not linked | autonomy and sensing | **37 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 3 | [7A--Machine Learning Assisted Electronic Monitoring](https://sam.gov/workspace/contract/opp/9bec1199600d4dce9fcac1b95f0ea26b/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-09-01T14:00:00-07:00 | Not linked | artificial intelligence | **37 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 4 | [49--HANDLING FIXTURE,AI](https://sam.gov/workspace/contract/opp/c7065f833fab4390b241d152b6dbc874/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-09-04 | Not linked | artificial intelligence | **37 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 5 | [Annual Program Statement](https://www.grants.gov/search-results-detail/363723) · NEW | GRANT_OPPORTUNITY | 09/13/2026 | Not linked | artificial intelligence | **36 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 6 | [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view) | PROCUREMENT_OPPORTUNITY | 2026-09-09T09:00:00-04:00 | Not linked | quantum, artificial intelligence | **35 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 7 | [American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy](https://www.grants.gov/search-results-detail/363293) | GRANT_OPPORTUNITY | 08/30/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 8 | [The 2027 YSEALI Regional Workshop: Securing Supply Chains](https://www.grants.gov/search-results-detail/362900) | GRANT_OPPORTUNITY | 08/31/2026 | Not linked | cybersecurity | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 9 | [ROSES 2025: A.10 INNOVATE](https://www.grants.gov/search-results-detail/360003) | GRANT_OPPORTUNITY | 08/31/2026 | Not linked | advanced computing | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 10 | [Advancing Investigative Journalism in Ukraine through U.S. AI Innovation](https://www.grants.gov/search-results-detail/363440) | GRANT_OPPORTUNITY | 09/01/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 11 | [Pathways to Enable Secure Open-Source Ecosystems](https://www.grants.gov/search-results-detail/361333) | GRANT_OPPORTUNITY | 09/01/2026 | Not linked | cybersecurity | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 12 | [MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026](https://www.grants.gov/search-results-detail/363586) | GRANT_OPPORTUNITY | 09/04/2026 | Not linked | cybersecurity | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
+| 13 | [Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/359269) | GRANT_OPPORTUNITY | 10/02/2026 | Not linked | quantum, artificial intelligence | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 14 | [Cybersecurity Innovation for Cyberinfrastructure](https://www.grants.gov/search-results-detail/358004) | GRANT_OPPORTUNITY | 01/20/2027 | Not linked | artificial intelligence, cybersecurity | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 15 | [Advancing Global Health](https://www.grants.gov/search-results-detail/363649) | GRANT_OPPORTUNITY | 02/14/2027 | Not linked | quantum, post-quantum cryptography | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 16 | [Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)](https://www.grants.gov/search-results-detail/361238) | GRANT_OPPORTUNITY | 04/05/2027 | Not linked | artificial intelligence, cybersecurity | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 17 | [Occupational Safety and Health Training Project Grants (T03)](https://www.grants.gov/search-results-detail/355722) | GRANT_OPPORTUNITY | 10/26/2028 | Not linked | quantum, post-quantum cryptography | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 18 | [AI Partnership & Exchange for Tech Leaders (APEX)](https://www.grants.gov/search-results-detail/363315) | GRANT_OPPORTUNITY | 09/08/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 19 | [IUSE / Professional Formation of Engineers: Revolutionizing Engineering Departments (IUSE/PFE: RED)](https://www.grants.gov/search-results-detail/353413) | GRANT_OPPORTUNITY | 09/08/2026 | Not linked | quantum | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 20 | [Computer and Information Science and Engineering (CISE): Future Computing Research](https://www.grants.gov/search-results-detail/360149) | GRANT_OPPORTUNITY | 09/10/2026 | Not linked | advanced computing | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 21 | [Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)](https://www.grants.gov/search-results-detail/363537) | GRANT_OPPORTUNITY | 09/11/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 22 | [Measurement Science and Engineering (MSE) Research Grant Programs](https://www.grants.gov/search-results-detail/358955) | GRANT_OPPORTUNITY | 09/15/2026 | Not linked | quantum | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 23 | [University-led Networks for Innovation, Technology, and Expertise (UNITE)](https://www.grants.gov/search-results-detail/363645) | GRANT_OPPORTUNITY | 09/17/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 24 | [Agriculture Risk Management Education Partnerships Competitive Grants Program](https://www.grants.gov/search-results-detail/363682) | GRANT_OPPORTUNITY | 09/21/2026 | Not linked | quantum | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 25 | [66--DISPLAY,MULTIPLE AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/d31d42e27f9a413a818f40f26cd5013c/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-09-28T16:30:00-04:00 | Not linked | artificial intelligence | **29 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 26 | [61--INTERCONNECT PWA,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/8868bb71db1948d7acb49b39720e09dc/view) · NEW | PROCUREMENT_OPPORTUNITY | 2026-10-13T00:00:00-04:00 | Not linked | artificial intelligence | **29 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 27 | [Bridge2AI Network for AI Health Science](https://www.grants.gov/search-results-detail/363107) | GRANT_OPPORTUNITY | Not reported | Not linked | artificial intelligence, autonomy and sensing | **28 · MONITOR** | Track the release and prepare capability evidence. |
+| 28 | [Alumni Engagement Innovation Fund (AEIF) 2026: Exchange Alumni Advancing Freedom250](https://www.grants.gov/search-results-detail/361614) | GRANT_OPPORTUNITY | Not reported | Not linked | quantum, post-quantum cryptography | **28 · MONITOR** | Track the release and prepare capability evidence. |
+| 29 | [NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI](https://www.grants.gov/search-results-detail/361318) | GRANT_OPPORTUNITY | Not reported | Not linked | artificial intelligence, advanced computing | **28 · MONITOR** | Track the release and prepare capability evidence. |
+| 30 | [Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025](https://www.grants.gov/search-results-detail/355385) | GRANT_OPPORTUNITY | Not reported | Not linked | quantum, post-quantum cryptography | **28 · MONITOR** | Track the release and prepare capability evidence. |
 
 ## Mission Funding Portfolios
 
@@ -91,6 +91,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [Broad Agency Announcement for Fundamental AI Research](https://www.grants.gov/search-results-detail/358687) | BAA | DOD-AMC-ACCRI | Not listed | Not linked | **21 · MONITOR** |
 | [NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research](https://www.grants.gov/search-results-detail/352741) | BAA | DOD-ONR-NRL | 09/30/2026 | Not linked | **21 · MONITOR** |
 | [Long Range Broad Agency Announcement (BAA) for NSWC Crane](https://www.grants.gov/search-results-detail/352238) | BAA | DOD-ONR-SEA-CRANE | Not listed | Not linked | **21 · MONITOR** |
+| [Annual Program Statement](https://www.grants.gov/search-results-detail/363723) | GRANT_OPPORTUNITY | DOS-ZWE | 09/13/2026 | Not linked | **19 · MONITOR** |
 | [Agriculture Risk Management Education Partnerships Competitive Grants Program](https://www.grants.gov/search-results-detail/363682) | GRANT_OPPORTUNITY | USDA-NIFA | 09/21/2026 | Not linked | **19 · MONITOR** |
 | [Multimodal AI to Accelerate Precision Medicine for Type 1 Diabetes (U01- Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/363678) | GRANT_OPPORTUNITY | HHS-NIH11 | Not listed | Not linked | **19 · MONITOR** |
 | [University-led Networks for Innovation, Technology, and Expertise (UNITE)](https://www.grants.gov/search-results-detail/363645) | GRANT_OPPORTUNITY | DOS-SAU | 09/17/2026 | Not linked | **19 · MONITOR** |
@@ -104,7 +105,6 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) – RESEARCH COLLABORATION (RC)](https://www.grants.gov/search-results-detail/363526) | GRANT_OPPORTUNITY | DOD-AFOSR | 04/05/2027 | Not linked | **19 · MONITOR** |
 | [U.S. National Science Foundation State and Regional Artificial Intelligence Infrastructure Hubs:](https://www.grants.gov/search-results-detail/363481) | GRANT_OPPORTUNITY | NSF | 11/04/2026 | Not linked | **19 · MONITOR** |
 | [RNomics Molecular Standards](https://www.grants.gov/search-results-detail/363475) | GRANT_OPPORTUNITY | HHS-NIH11 | Not listed | Not linked | **19 · MONITOR** |
-| [RNomics Outreach and Coordination (ROC) Center](https://www.grants.gov/search-results-detail/363476) | GRANT_OPPORTUNITY | HHS-NIH11 | Not listed | Not linked | **19 · MONITOR** |
 
 ## Awards and Funding Announcements
 
@@ -113,7 +113,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | UNIVERSITY OF MARYLAND, COLLEGE PARK | $8.7M | DARPA Quantum Benchmarking Initiative |
 | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | KPMG LLP | $3.8M | Golden Dome for America |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | $700.0K | Genesis Mission |
-| [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) | 2026-08-25 | Not listed | $293.0M | Genesis Mission |
+| [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) | 2026-08-27 | Not listed | $293.0M | Genesis Mission |
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | Not listed | $8 | DARPA Quantum Benchmarking Initiative |
 | [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) | 2026-08-21 | Not listed | Not reported | Genesis Mission |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | Not listed | $700 | Genesis Mission |
@@ -159,7 +159,9 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | CARNEGIE-MELLON UNIVERSITY | UEI U3NKNFLNQ613 | **39 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $5.6M | National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF ILLINOIS | UEI Y8CWNJRCNN91 | **39 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.7M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF TEXAS AT AUSTIN | UEI V6AFQPN18437 | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $5.7M | National Science Foundation | Not linked | 0 |
+| THE MITRE CORPORATION | UEI DMHDNDCPWUD1 | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $1.6M | Department of Health and Human Services, Department of Homeland Security | Not linked | 2 |
 | REDACTED DUE TO PII | Name-resolved | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $1.1M | National Science Foundation | Not linked | 0 |
+| BOOZ ALLEN HAMILTON INC | UEI JCBMLGPE6Z71 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $4.0M | Department of Homeland Security, General Services Administration, National Aeronautics and Space Administration | Not linked | 0 |
 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | UEI E2NYLCDML6V1 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.2M | National Science Foundation | Not linked | 0 |
 | LOUISIANA STATE UNIVERSITY | UEI ECQEYCHRNKJ4 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.2M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF ALABAMA | UEI RCNJEHZ83EV6 | **36 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.2M | National Science Foundation | Not linked | 0 |
@@ -181,12 +183,10 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | BROWN UNIVERSITY | UEI E3FDXZ6TBHW3 | **30 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $680.1K | National Science Foundation | Not linked | 0 |
 | THE ARDIAN GROUP, INC | UEI UE9KZJJCMAS9 | **30 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $631.3K | Department of Homeland Security | Not linked | 0 |
 | KPMG LLP | UEI MAA3SBSDQVM1 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 1 | $3.8M | Department of Defense | golden-dome | 0 |
-| BOOZ ALLEN HAMILTON INC | UEI JCBMLGPE6Z71 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $3.1M | Department of Homeland Security, National Aeronautics and Space Administration | Not linked | 0 |
 | THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK | UEI F4N1QNPB95M4 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $1.3M | National Science Foundation | Not linked | 0 |
 | FLORIDA INTERNATIONAL UNIVERSITY | UEI Q3KCVK5S9CP1 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $1.2M | National Science Foundation | Not linked | 0 |
 | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | UEI DSLXBD7UWRV6 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $908.8K | National Science Foundation | Not linked | 0 |
 | NORTHEASTERN UNIVERSITY | UEI HLTMVS2JZBS6 | **29 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $400.0K | National Science Foundation | Not linked | 0 |
-| KAIZEN LABORATORIES INC. | UEI KZ7NSHFWWSF8 | **28 · OBSERVED** | Emerging Entrant | New Entrant | 2 | $4.8M | General Services Administration | Not linked | 0 |
 
 ## Recipient and Contractor Patent Connections
 
@@ -196,6 +196,7 @@ These are assignee-name matches, not proof that an award funded a patent.
 |---|---:|---:|---:|---|
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | 2 | $9.4M | 2 | darpa-qbi |
 | CARNEGIE-MELLON UNIVERSITY | 2 | $5.6M | 1 | Not linked |
+| THE MITRE CORPORATION | 2 | $1.6M | 2 | Not linked |
 | UNIVERSITY OF SOUTH FLORIDA | 2 | $623.3K | 1 | Not linked |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | 2 | $780.0K | 1 | Not linked |
 | MORGAN STATE UNIVERSITY | 1 | $10.0M | 1 | Not linked |

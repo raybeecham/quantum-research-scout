@@ -1,15 +1,15 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 24.3,
+      "acceptance_rate": 24.1,
       "accepted": 28,
-      "quarantined": 87,
+      "quarantined": 88,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 94.3,
+      "acceptance_rate": 94.2,
       "accepted": 500,
-      "quarantined": 30,
+      "quarantined": 31,
       "scope": "Federal funding"
     }
   ],
@@ -54,6 +54,51 @@
       "stage": "relationship admission",
       "title": "CONFERENCE: ALABAMA QUANTUM WORKSHOP: QUANTUM SENSING, INFORMATION SCIENCE, AND EPSCOR COLLABORATION -QUANTUM INFORMATION SCIENCE PROVIDES NEW WAYS TO MEASURE, IMAGE, COMMUNICATE,...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2631519_049"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-27",
+      "key": "https://www.grants.gov/search-results-detail/363732",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "FYs 2024 through 2026 - Promoting Resilient Operations for Transformative, Efficient, and Cost-saving Transportation (PROTECT) Competitive Grant Program Notice of Funding Opportunity",
+      "url": "https://www.grants.gov/search-results-detail/363732"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-27",
+      "key": "grants_gov:FHWA-PROT-26-001",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "funding evidence admission",
+      "title": "FYs 2024 through 2026 - Promoting Resilient Operations for Transformative, Efficient, and Cost-saving Transportation (PROTECT) Competitive Grant Program Notice of Funding Opportunity",
+      "url": "https://www.grants.gov/search-results-detail/363732"
     },
     {
       "admission": {
@@ -2234,68 +2279,22 @@
       "stage": "mission evidence admission",
       "title": "Mgt, Species, Pollinators, Western Bumble bee Joint Base Elmendorf- Richardson, Alaska",
       "url": "https://www.grants.gov/search-results-detail/348746"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Golden Dome",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2023-03-14",
-      "key": "https://www.grants.gov/search-results-detail/346815",
-      "mission_id": "golden-dome",
-      "mission_name": "Golden Dome for America",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Golden Dome",
-      "stage": "mission evidence admission",
-      "title": "FY 2025 EDA Public Works and Economic Adjustment Assistance Programs",
-      "url": "https://www.grants.gov/search-results-detail/346815"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Genesis Mission",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2023-01-05",
-      "key": "https://www.grants.gov/search-results-detail/345241",
-      "mission_id": "genesis-mission",
-      "mission_name": "Genesis Mission",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "mission evidence admission",
-      "title": "DEVCOM ANALYSIS CENTER BROAD AGENCY ANNOUNCEMENT FOR APPLIED RESEARCH",
-      "url": "https://www.grants.gov/search-results-detail/345241"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 115,
+      "count": 117,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 115,
+      "count": 117,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 105,
+      "count": 107,
       "label": "Official government source"
     },
     {
@@ -2311,14 +2310,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 81.9,
+    "acceptance_rate": 81.6,
     "accepted": 528,
-    "decisions": 645,
-    "funding_quarantine": 28,
-    "mission_quarantine": 87,
-    "quarantined": 117,
+    "decisions": 647,
+    "funding_quarantine": 29,
+    "mission_quarantine": 88,
+    "quarantined": 119,
     "relationship_quarantine": 2
   },
-  "updated_at": "2026-08-27T06:34:37.114174+00:00",
+  "updated_at": "2026-08-28T08:24:42.158568+00:00",
   "version": 1
 }

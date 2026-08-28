@@ -4,16 +4,16 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-08-27 06:44 UTC_
+_Updated 2026-08-28 08:35 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
-Assessed **22 of 43** configured organizations.
+Assessed **23 of 43** configured organizations.
 
 | Organization | Observed stage | Confidence | PQC evidence | Sources | Historical | Latest dated evidence |
 |---|---|---|---:|---:|---:|---|
 | Keyfactor | Pilot / Testing | high | 10 | 3 | 3 | 2026-07-31 |
-| PQShield | Pilot / Testing | medium | 2 | 1 | 0 | 2026-07-23 |
+| PQShield | Pilot / Testing | medium | 3 | 1 | 0 | 2026-08-28 |
 | Wiz | Pilot / Testing | medium | 4 | 1 | 4 | 2026-07-02 |
 | NIST | Planning | high | 6 | 3 | 0 | 2026-08-20 |
 | QuSecure | Planning | high | 6 | 4 | 4 | 2026-08-11 |
@@ -30,6 +30,7 @@ Assessed **22 of 43** configured organizations.
 | DigiCert | Awareness | low | 1 | 1 | 0 | 2026-08-03 |
 | ETSI | Awareness | low | 1 | 1 | 1 | 2026-06-22 |
 | IBM | Awareness | low | 1 | 1 | 0 | 2026-07-29 |
+| IETF | Awareness | low | 1 | 1 | 0 | 2026-08-28 |
 | IonQ | Awareness | low | 1 | 1 | 0 | 2026-08-04 |
 | PQCA | Awareness | low | 1 | 1 | 0 | 2026-07-27 |
 | Quantinuum | Awareness | low | 1 | 1 | 0 | 2026-07-29 |
@@ -41,7 +42,6 @@ Assessed **22 of 43** configured organizations.
 | ENISA | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Entrust | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Google Quantum AI | Not assessed | none | 0 | 0 | 0 | Unknown |
-| IETF | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Infleqtion | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Intel Quantum | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Lockheed Martin | Not assessed | none | 0 | 0 | 0 | Unknown |
