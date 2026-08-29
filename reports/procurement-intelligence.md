@@ -2,60 +2,41 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-28T08:24:42.158568+00:00_
+_Updated 2026-08-29T05:05:39.790622+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
-- Opportunities reviewed: **6**
-- Documents extracted: **3** / **12** discovered
+- Opportunities reviewed: **2**
+- Documents extracted: **3** / **6** discovered
 - Changed documents: **0**
-- New amendments: **0**
-- Material amendment impacts this run: **0**
-- Decisions requiring revalidation: **1**
+- New amendments: **1**
+- Material amendment impacts this run: **1**
+- Decisions requiring revalidation: **2**
 
-## [Industry Engagement – Common Autonomous Multi-Domain Launcher (CAML) Strategy Overview](https://sam.gov/workspace/contract/opp/b0e78aae357b47d2bc424d2094d15f7c/view)
+## [EdUSA AI & Quantum Technologies Initiative in Australia](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view)
 
-Evidence completeness: **48 / 100** · Deadline: **2026-08-31T13:00:00-05:00**
-
-Requirements evidence:
-- ng as part of the consolidated Q&A described in Section 6. 4. Registration Requirements Parties interested in attending must submit the following to abigail.e.chatelain.civ@army.mil and amy.d.johnson30.ctr@army.mil no later than 1300 CDT on 31 August 2026: • Company name and CAGE code • Name(s) and...
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c9084ab278448c598bb061c368592b9/download) — extracted
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b0e78aae357b47d2bc424d2094d15f7c) — no_text
-
-## [7A--Machine Learning Assisted Electronic Monitoring](https://sam.gov/workspace/contract/opp/9bec1199600d4dce9fcac1b95f0ea26b/view)
-
-Evidence completeness: **60 / 100** · Deadline: **2026-09-01T14:00:00-07:00**
+Evidence completeness: **96 / 100** · Deadline: **2026-09-08T16:00:00+10:00**
 
 Requirements evidence:
-- ideo recognition, integrated vessel sensors (if applicable), or a combination of both. 2.0 Scope of Work The Contractor shall provide a comprehensive, ML-integrated Electronic Monitoring (EM) solution inclusive of hardware, software, and advanced data analytics to modernize scientific data collecti...
-- kflow to automatically derive weight estimates from ML- derived lengths. 2.3 Scalability and Integration The Contractor shall provide a comprehensive EM solution inclusive of hardware, software, and data analysis to support a representative sample of the West Coast Fixed Gear (WCFG) fleet. The proj...
-- er Training Manual. 3.0 Technical Requirements & Standards 3.1 Gear & Effort Tracking ● Trip Identification: The system must automatically identify and log the beginning and end of each fishing trip. ● Effort Identification & CPUE calculation: The system must identify and timestamp all "Start Set"...
-- lly identify and log the beginning and end of each fishing trip. ● Effort Identification & CPUE calculation: The system must identify and timestamp all "Start Set" and "End Haul" events. The system must be capable of calculating soak duration and associate each retrieval event (Haul) to its corresp...
-- tification & CPUE calculation: The system must identify and timestamp all "Start Set" and "End Haul" events. The system must be capable of calculating soak duration and associate each retrieval event (Haul) to its corresponding deployment event (Set). This association data must be encoded to allow...
+- Embassy Canberra. To submit a quotation, please follow the instructions in Section 3 of the solicitation, complete the required portions of the attached document, and submit it to the address listed on the enclosed Standard Form 1449. The U.S. Government intends to award a contract to the responsib...
+- ll hold a pre-quotation conference online via Microsoft Teams on August 24, 2026, at 11:00 AM AEST. Prospective quoters must email cnbgsoprocurement@state.gov by August 20, 2026, at 4:00 PM AEST to request the Teams meeting link and any additional information. Submission Deadline Quotations are due...
+- e by September 8th, 2026, at 4:00 PM AEST. Quotations received after this deadline will not be accepted. All quotations must be submitted in English; incomplete quotations will not be considered. Submission Instructions Quotations must be submitted electronically to cnbgsoprocurement@state.gov in o...
+- otations must be submitted in English; incomplete quotations will not be considered. Submission Instructions Quotations must be submitted electronically to cnbgsoprocurement@state.gov in one of the following formats: MS Word 2007/2010, MS Excel 2007/2010, or Adobe Acrobat (PDF). Each file must not...
+- ent@state.gov in one of the following formats: MS Word 2007/2010, MS Excel 2007/2010, or Adobe Acrobat (PDF). Each file must not exceed 30MB. If your total submission exceeds 30MB, please split it into multiple files and send them as separate emails, each under 30MB. In order for a quotation to be...
 
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0eb6b7bc29f94cb18c5344608bfb6ed9/download) — extracted
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/30fd2f7dd6224a8f82ad942857959ed7/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/697abeb08a694916b1f38c1d59147ee9/download) — not_fetched
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/f9891b3441644624a97ec66a494284e1/download) — not_fetched
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a74ea5c0fd9b4adbb0a39c09f8263834/download) — extracted
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download) — extracted · **new amendment**
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4863f6824dbc4040889e1d84101f0c96) — no_text
 
-## [49--HANDLING FIXTURE,AI](https://sam.gov/workspace/contract/opp/c7065f833fab4390b241d152b6dbc874/view)
+### Changes since the previous tracker snapshot
 
-Evidence completeness: **0 / 100** · Deadline: **2026-09-04**
+**HIGH · 1 change(s) · decision revalidation required**
 
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c7065f833fab4390b241d152b6dbc874) — not_fetched
+_No tracker baseline was available; compare the official amendment against the controlling solicitation manually._
 
-## [66--DISPLAY,MULTIPLE AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/d31d42e27f9a413a818f40f26cd5013c/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-09-28T16:30:00-04:00**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d31d42e27f9a413a818f40f26cd5013c) — not_fetched
-
-## [61--INTERCONNECT PWA,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/8868bb71db1948d7acb49b39720e09dc/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-10-13T00:00:00-04:00**
-
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8868bb71db1948d7acb49b39720e09dc) — not_fetched
+| Impact | Change | Before | After | Evidence |
+|---|---|---|---|---|
+| HIGH | New amendment observed; no tracker baseline is available for an automatic comparison. | — | set forth in Item 14. The hour and date specified for receipt of Offers. [ ] is extended, [X ] is not extended. Offers... | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download) |
 
 ## [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
 

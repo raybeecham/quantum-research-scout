@@ -1,29 +1,36 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-28T08:24:42.158568+00:00_
+_Updated 2026-08-29T05:05:39.790622+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **528**
-- Quarantined evidence or relationships: **119**
-- Acceptance rate: **81.6%**
+- Quarantined evidence or relationships: **121**
+- Acceptance rate: **81.4%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 28 | 88 | 24.1% |
-| Federal funding | 500 | 31 | 94.2% |
+| Federal missions | 28 | 89 | 23.9% |
+| Federal funding | 500 | 32 | 94.0% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 117
-- **No relevant term in the evidence itself**: 117
+- **Match appears only in collector query metadata**: 118
+- **No relevant term in the evidence itself**: 118
 - **Official government source**: 107
-- **Source is not an official .gov or .mil domain**: 10
-- **Agency and technology inference only**: 2
+- **Source is not an official .gov or .mil domain**: 11
+- **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
+
+### [S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCI...](https://www.usaspending.gov/award/ASST_NON_2620285_049)
+
+- Scope: Mission relationships
+- Stage: relationship admission
+- Reason: Agency and technology inference only
+- Admission score: 65
 
 ### [EAGER: TERAHERTZ NEAR-FIELD STUDIES OF QUANTUM SENSING -THIS PROJECT WILL INVESTIGATE QUANTUM PHENOMENA USING INNOVATIVE TECHNIQUES TO PROBE LOW-FREQUENCY EXCITATIONS IN THE TERAH...](https://www.usaspending.gov/award/ASST_NON_2625530_049)
 
@@ -38,6 +45,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [Policy 10h ago New Mexico Offers Matching Funds for DARPA Quantum Computing Projects](https://thequantuminsider.com/2026/08/28/new-mexico-darpa-quantum-benchmarking-matching-funds)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [FYs 2024 through 2026 - Promoting Resilient Operations for Transformative, Efficient, and Cost-saving Transportation (PROTECT) Competitive Grant Program Notice of Funding Opportunity](https://www.grants.gov/search-results-detail/363732)
 
@@ -705,20 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [Research in the Formation of Engineers](https://www.grants.gov/search-results-detail/350230)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Research in the Formation of Engineers](https://www.grants.gov/search-results-detail/350230)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Mgt, Species, Pollinators, Western Bumble bee Joint Base Elmendorf- Richardson, Alaska](https://www.grants.gov/search-results-detail/348746)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

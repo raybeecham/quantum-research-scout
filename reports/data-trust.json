@@ -1,20 +1,40 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 24.1,
+      "acceptance_rate": 23.9,
       "accepted": 28,
-      "quarantined": 88,
+      "quarantined": 89,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 94.2,
+      "acceptance_rate": 94.0,
       "accepted": 500,
-      "quarantined": 31,
+      "quarantined": 32,
       "scope": "Federal funding"
     }
   ],
   "method_note": "Quarantine is not a finding that evidence is false or irrelevant. It means the current evidence is too weak for automated promotion and remains available for review.",
   "quarantined_evidence": [
+    {
+      "admission": {
+        "basis": "agency/domain inference: National Science Foundation, quantum, autonomy and sensing",
+        "confidence": "medium",
+        "reason_codes": [
+          "agency_domain_inference"
+        ],
+        "score": 65,
+        "status": "quarantined"
+      },
+      "date": "2027-01-01",
+      "key": "usaspending:2620285|project-triad",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Mission relationships",
+      "source": "USAspending \u00b7 Quantum Technologies",
+      "stage": "relationship admission",
+      "title": "S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCI...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_2620285_049"
+    },
     {
       "admission": {
         "basis": "agency/domain inference: National Science Foundation, quantum, autonomy and sensing",
@@ -54,6 +74,29 @@
       "stage": "relationship admission",
       "title": "CONFERENCE: ALABAMA QUANTUM WORKSHOP: QUANTUM SENSING, INFORMATION SCIENCE, AND EPSCOR COLLABORATION -QUANTUM INFORMATION SCIENCE PROVIDES NEW WAYS TO MEASURE, IMAGE, COMMUNICATE,...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2631519_049"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "QBI",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-28",
+      "key": "https://thequantuminsider.com/2026/08/28/new-mexico-darpa-quantum-benchmarking-matching-funds",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "QuantumNews.ai",
+      "stage": "mission evidence admission",
+      "title": "Policy 10h ago New Mexico Offers Matching Funds for DARPA Quantum Computing Projects",
+      "url": "https://thequantuminsider.com/2026/08/28/new-mexico-darpa-quantum-benchmarking-matching-funds"
     },
     {
       "admission": {
@@ -2234,62 +2277,17 @@
       "stage": "mission evidence admission",
       "title": "Research in the Formation of Engineers",
       "url": "https://www.grants.gov/search-results-detail/350230"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2023-09-17",
-      "key": "grants_gov:PD-24-1340",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "funding evidence admission",
-      "title": "Research in the Formation of Engineers",
-      "url": "https://www.grants.gov/search-results-detail/350230"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Project Triad",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2023-06-15",
-      "key": "https://www.grants.gov/search-results-detail/348746",
-      "mission_id": "project-triad",
-      "mission_name": "Project Triad",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "mission evidence admission",
-      "title": "Mgt, Species, Pollinators, Western Bumble bee Joint Base Elmendorf- Richardson, Alaska",
-      "url": "https://www.grants.gov/search-results-detail/348746"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 117,
+      "count": 118,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 117,
+      "count": 118,
       "label": "No relevant term in the evidence itself"
     },
     {
@@ -2299,25 +2297,25 @@
     },
     {
       "code": "non_government_source",
-      "count": 10,
+      "count": 11,
       "label": "Source is not an official .gov or .mil domain"
     },
     {
       "code": "agency_domain_inference",
-      "count": 2,
+      "count": 3,
       "label": "Agency and technology inference only"
     }
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 81.6,
+    "acceptance_rate": 81.4,
     "accepted": 528,
-    "decisions": 647,
+    "decisions": 649,
     "funding_quarantine": 29,
-    "mission_quarantine": 88,
-    "quarantined": 119,
-    "relationship_quarantine": 2
+    "mission_quarantine": 89,
+    "quarantined": 121,
+    "relationship_quarantine": 3
   },
-  "updated_at": "2026-08-28T08:24:42.158568+00:00",
+  "updated_at": "2026-08-29T05:05:39.790622+00:00",
   "version": 1
 }

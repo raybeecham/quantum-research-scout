@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-08-28 08:35 UTC_
+_Updated 2026-08-29 05:15 UTC_
 
 ## Organizations
 
@@ -22,11 +22,11 @@ _Updated 2026-08-28 08:35 UTC_
 | Cloudflare | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-23 | 2026-08-11 | 7 | 0 |
 | Quantinuum | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-22 | 2026-08-12 | 6 | 0 |
 | Accenture / Accenture Federal Services | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-01-02 | 2026-01-02 | 5 | 5 |
+| PQShield | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-07-03 | 2026-08-28 | 4 | 0 |
 | Quantum Computing Inc. (QCi) | ➡️ stable (0 vs 0) | 🟠 high | documented | Unknown | Unknown | 4 | 4 |
 | Wiz | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-01-08 | 2026-07-02 | 4 | 4 |
 | D-Wave | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-30 | 2026-08-05 | 3 | 0 |
 | Lockheed Martin | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-25 | 2026-07-14 | 3 | 1 |
-| PQShield | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-07-03 | 2026-08-28 | 3 | 0 |
 | Booz Allen Hamilton | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-02-06 | 2026-07-30 | 2 | 1 |
 | Deloitte | ➡️ stable (0 vs 0) | 🟠 high | documented | Unknown | Unknown | 2 | 2 |
 | ISO/IEC | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-25 | 2026-07-15 | 2 | 0 |
@@ -40,7 +40,7 @@ _Updated 2026-08-28 08:35 UTC_
 | IETF | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-08-28 | 2026-08-28 | 1 | 0 |
 | Open Quantum Safe | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-27 | 2026-07-27 | 1 | 0 |
 | Infleqtion | ↗️ rising (3 vs 2) | 🟡 medium | active | 2026-06-22 | 2026-08-24 | 22 | 0 |
-| Pasqal | ↗️ rising (3 vs 1) | 🟡 medium | active | 2026-06-29 | 2026-08-28 | 16 | 0 |
+| Pasqal | ↗️ rising (2 vs 1) | 🟡 medium | active | 2026-06-29 | 2026-08-28 | 15 | 0 |
 | AWS | ➡️ stable (0 vs 0) | 🟡 medium | dormant | 2026-06-24 | 2026-07-20 | 4 | 0 |
 | Rigetti | ↘️ declining (0 vs 1) | 🟡 medium | quiet | 2026-07-29 | 2026-08-20 | 3 | 0 |
 
@@ -71,7 +71,7 @@ _Updated 2026-08-28 08:35 UTC_
 | D-Wave | third-party | 0 | 3 |
 | ISO/IEC | third-party | 0 | 2 |
 | Infleqtion | third-party | 0 | 22 |
-| Pasqal | third-party | 0 | 16 |
+| Pasqal | third-party | 0 | 15 |
 | NIST | covered | 2 | 11 |
 | Accenture / Accenture Federal Services | covered | 2 | 5 |
 | Atom Computing | covered | 1 | 1 |
@@ -94,7 +94,7 @@ _Updated 2026-08-28 08:35 UTC_
 | Microsoft Quantum | covered | 1 | 0 |
 | Open Quantum Safe | covered | 1 | 1 |
 | PQCA | covered | 2 | 2 |
-| PQShield | covered | 1 | 3 |
+| PQShield | covered | 1 | 4 |
 | PsiQuantum | covered | 1 | 8 |
 | QuEra | covered | 1 | 10 |
 | QuSecure | covered | 1 | 9 |

@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-08-28T08:24:42.158568+00:00_
+_Updated 2026-08-29T05:05:39.790622+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -301,9 +301,9 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [NON-CONTACT MICROELECTROMECHANICAL SYSTEMS](https://data.uspto.gov/patent-file-wrapper/search/details/18817013/application-data)<br><small>US20260062280A1</small> | Application · Unknown | TEXAS INSTRUMENTS INCORPORATED | 1 member(s) · 0 citation(s) | **33 · MONITOR** |
 | [RECONFIGURABLE ACOUSTIC SURFACE USING MICROELECTROMECHANICAL SYSTEMS (MEMS) ACTUATORS FOR CHANGING CAVITY RESONANCE](https://data.uspto.gov/patent-file-wrapper/search/details/18808961/application-data)<br><small>US20260051307A1</small> | Application · Unknown | Dell Products L.P. | 1 member(s) · 0 citation(s) | **33 · MONITOR** |
 | [DUAL RING MICROELECTROMECHANICAL SYSTEMS INTEGRATION FOR ANALOG TUNABILITY IN RECONFIGURABLE INTELLIGENT SURFACES](https://data.uspto.gov/patent-file-wrapper/search/details/18808987/application-data)<br><small>US20260051872A1</small> | Application · Unknown | Dell Products L.P. | 1 member(s) · 0 citation(s) | **33 · MONITOR** |
-| [DISTRIBUTED SENSOR NETWORK IMPLEMENTED BY SWARM OF UNMANNED AUTONOMOUS VEHICLES](https://data.uspto.gov/patent-file-wrapper/search/details/19063566/application-data)<br><small>US20250273060A1</small> | Application · Unknown | Alpine Eagle GmbH | 1 member(s) · 0 citation(s) | **33 · MONITOR** |
 | [THERMAL ANNEALING OF PIEZOELECTRIC MICROELECTROMECHANICAL SYSTEMS (MEMS) STACKS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025044954/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | QUALCOMM INCORPORATED | 2 member(s) · 0 citation(s) | **31 · MONITOR** |
 | [MONOLITHIC MICROELECTROMECHANICAL SYSTEMS BASED SPATIAL LIGHT MODULATORS INCLUDING MULTIPLE ARRAYS, EACH ARRAY CONFIGURED TO MODULATE DIFFERENT WAVELENGTHS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025035094/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | SILICON LIGHT MACHINE CORPORATION | 2 member(s) · 0 citation(s) | **31 · MONITOR** |
+| [DISTRIBUTED SENSOR NETWORK IMPLEMENTED BY SWARM OF UNMANNED AUTONOMOUS VEHICLES](https://data.uspto.gov/patent-file-wrapper/search/details/19063566/application-data)<br><small>US20250273060A1</small> | Application · Unknown | Alpine Eagle GmbH | 1 member(s) · 0 citation(s) | **30 · MONITOR** |
 | [MICROELECTROMECHANICAL SYSTEMS CONTACT AREA REDUCTION](https://data.uspto.gov/patent-file-wrapper/search/details/18924372/application-data)<br><small>US20250044576A1</small> | Application · Unknown | Texas Instruments Incorporated | 1 member(s) · 0 citation(s) | **30 · MONITOR** |
 | [CHIP WITH DIFFERENT TYPES OF MICROELECTROMECHANICAL SYSTEMS RESONATORS](https://data.uspto.gov/patent-file-wrapper/search/details/63764415/application-data)<br><small>Publication number unavailable</small> | Application · Expired | Skyworks Solutions, Inc. | 1 member(s) · 0 citation(s) | **28 · MONITOR** |
 | [Precision Drive and Sense Operation for Microelectromechanical Systems Devices](https://data.uspto.gov/patent-file-wrapper/search/details/63737712/application-data)<br><small>Publication number unavailable</small> | Application · Expired | Bright Silicon Technologies, Inc. | 1 member(s) · 0 citation(s) | **28 · MONITOR** |
