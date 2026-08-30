@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Document Intelligence](procurement-intelligence.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-08-29T05:05:39.790622+00:00_
+_Updated 2026-08-30T02:55:32.256505+00:00_
 
 Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.
 
@@ -99,35 +99,6 @@ Score and evidence trace:
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
-## [Annual Program Statement](https://www.grants.gov/search-results-detail/363723)
-
-**HOLD · 28 / 100** · Evidence 0 / 100 · Deadline 09/13/2026
-
-Agency: DOS-ZWE
-
-Recommended actions:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Record an authorized bid/no-bid decision with owner and rationale
-
-Risks:
-- No linked solicitation document was available for extraction
-- Set-aside or eligibility status is not established in collected metadata
-
-Unknowns:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Confirm eligibility and set-aside terms in the controlling solicitation
-- Confirm submission instructions in the controlling solicitation
-
-Score and evidence trace:
-- **opportunity evidence +36** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4; new since yesterday +5 · [evidence 1](https://www.grants.gov/search-results-detail/363723)
-- **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363723)
-- Trace hash: `94638a6f9da8a7c0` · model `public-opportunity-qualification@2`
-
-_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
-
 ## [MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026](https://www.grants.gov/search-results-detail/363586)
 
 **HOLD · 26 / 100** · Evidence 0 / 100 · Deadline 09/04/2026
@@ -141,7 +112,7 @@ Recommended actions:
 - Record an authorized bid/no-bid decision with owner and rationale
 
 Risks:
-- Compressed response window: 6 day(s) remaining
+- Compressed response window: 5 day(s) remaining
 - No linked solicitation document was available for extraction
 - Set-aside or eligibility status is not established in collected metadata
 
@@ -364,6 +335,36 @@ Score and evidence trace:
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
+## [Annual Program Statement](https://www.grants.gov/search-results-detail/363723)
+
+**HOLD · 23 / 100** · Evidence 0 / 100 · Deadline 09/13/2026
+
+Agency: DOS-ZWE
+
+Recommended actions:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
+- Record an authorized bid/no-bid decision with owner and rationale
+
+Risks:
+- No linked solicitation document was available for extraction
+- Set-aside or eligibility status is not established in collected metadata
+
+Unknowns:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm eligibility and set-aside terms in the controlling solicitation
+- Confirm submission instructions in the controlling solicitation
+
+Score and evidence trace:
+- **opportunity evidence +31** — strategic significance +9; actionable grant_opportunity +9; closing_this_month +9; technology fit +4 · [evidence 1](https://www.grants.gov/search-results-detail/363723)
+- **document evidence +0** — 0 / 100 document evidence completeness
+- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363723)
+- Trace hash: `661d2f22d252096d` · model `public-opportunity-qualification@2`
+
+_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
+
 ## [University-led Networks for Innovation, Technology, and Expertise (UNITE)](https://www.grants.gov/search-results-detail/363645)
 
 **HOLD · 23 / 100** · Evidence 0 / 100 · Deadline 09/17/2026
@@ -551,7 +552,7 @@ Recommended actions:
 - Record an authorized bid/no-bid decision with owner and rationale
 
 Risks:
-- Compressed response window: 1 day(s) remaining
+- Compressed response window: 0 day(s) remaining
 - No linked solicitation document was available for extraction
 - Set-aside or eligibility status is not established in collected metadata
 
@@ -564,8 +565,8 @@ Unknowns:
 Score and evidence trace:
 - **opportunity evidence +34** — strategic significance +9; actionable grant_opportunity +9; closing_soon +12; technology fit +4 · [evidence 1](https://www.grants.gov/search-results-detail/363293)
 - **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -15** — Compressed response window: 1 day(s) · [evidence 1](https://www.grants.gov/search-results-detail/363293)
-- Trace hash: `af086c736f41b4f8` · model `public-opportunity-qualification@2`
+- **deadline and evidence risk -15** — Compressed response window: 0 day(s) · [evidence 1](https://www.grants.gov/search-results-detail/363293)
+- Trace hash: `1820010045f98a15` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
@@ -582,7 +583,7 @@ Recommended actions:
 - Record an authorized bid/no-bid decision with owner and rationale
 
 Risks:
-- Compressed response window: 3 day(s) remaining
+- Compressed response window: 2 day(s) remaining
 - No linked solicitation document was available for extraction
 - Set-aside or eligibility status is not established in collected metadata
 
@@ -595,7 +596,7 @@ Unknowns:
 Score and evidence trace:
 - **opportunity evidence +34** — strategic significance +9; actionable grant_opportunity +9; closing_soon +12; technology fit +4 · [evidence 1](https://www.grants.gov/search-results-detail/363440)
 - **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -15** — Compressed response window: 3 day(s) · [evidence 1](https://www.grants.gov/search-results-detail/363440)
-- Trace hash: `a2157df6d9d2de79` · model `public-opportunity-qualification@2`
+- **deadline and evidence risk -15** — Compressed response window: 2 day(s) · [evidence 1](https://www.grants.gov/search-results-detail/363440)
+- Trace hash: `688449ecbf2f78c0` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._

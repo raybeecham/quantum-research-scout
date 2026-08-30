@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Funding & Procurement](federal-funding.md) · [Standards Timeline](standards-timeline.md) · [Entity Watch](entity-watch.md)
 
-_Updated 2026-08-29 05:05 UTC_
+_Updated 2026-08-30 02:55 UTC_
 
 Named, cross-agency or cross-sector federal science and technology missions, initiatives, and national efforts relevant to quantum technology, AI, cybersecurity, energy, discovery science, and national security. Routine agency mission statements and unrelated operational missions are excluded.
 

@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 110,
+      "days_to_close": 109,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -215,7 +215,7 @@
           "source": "document extraction"
         }
       ],
-      "days_to_close": 10,
+      "days_to_close": 9,
       "deadline": "2026-09-08T16:00:00+10:00",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -223,8 +223,8 @@
         "evidence_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download",
         "impact_id": "impact:19dbaf36c688be6b85c6",
         "note": "The latest amendment impact requires analyst revalidation. The tracker did not change an authorized bid/no-bid decision.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "targeted review",
+        "previous_score": 49,
         "status": "revalidation_required"
       },
       "decision_score": 49,
@@ -337,7 +337,7 @@
           }
         ],
         "detected_at": "2026-08-29T05:05:39.790622+00:00",
-        "detected_this_run": true,
+        "detected_this_run": false,
         "highest_materiality": "high",
         "history_completeness": "tracker_observed",
         "impact_id": "impact:19dbaf36c688be6b85c6",
@@ -498,7 +498,7 @@
           "source": "document extraction"
         }
       ],
-      "days_to_close": 11,
+      "days_to_close": 10,
       "deadline": "2026-09-09T09:00:00-04:00",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -760,193 +760,11 @@
       "url": "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view"
     },
     {
-      "agency": "DOS-ZWE",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 15,
-      "deadline": "09/13/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 28,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 28,
-        "status": "current"
-      },
-      "decision_score": 28,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_this_month +9",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363723"
-            ],
-            "points": 36
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363723"
-            ],
-            "points": -8
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 28,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363723"
-        ],
-        "trace_hash": "94638a6f9da8a7c0"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WASHINGTON STATE UNIVERSITY",
-          "score": 2,
-          "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:AF-HAR-FY26-03",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WASHINGTON STATE UNIVERSITY",
-          "score": 2,
-          "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 28,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/363723"
-      ],
-      "technology_fit": [
-        "artificial intelligence"
-      ],
-      "title": "Annual Program Statement",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/363723"
-    },
-    {
       "agency": "SBA",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 6,
+      "days_to_close": 5,
       "deadline": "09/04/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1104,7 +922,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 6 day(s) remaining",
+        "Compressed response window: 5 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -1129,7 +947,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 34,
+      "days_to_close": 33,
       "deadline": "10/02/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1311,7 +1129,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 144,
+      "days_to_close": 143,
       "deadline": "01/20/2027",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1493,7 +1311,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 169,
+      "days_to_close": 168,
       "deadline": "02/14/2027",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1675,7 +1493,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 219,
+      "days_to_close": 218,
       "deadline": "04/05/2027",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1857,7 +1675,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 789,
+      "days_to_close": 788,
       "deadline": "10/26/2028",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2039,7 +1857,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 10,
+      "days_to_close": 9,
       "deadline": "09/08/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2221,7 +2039,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 13,
+      "days_to_close": 12,
       "deadline": "09/11/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2229,8 +2047,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 23,
         "status": "current"
       },
       "decision_score": 23,
@@ -2399,11 +2217,193 @@
       "url": "https://www.grants.gov/search-results-detail/363537"
     },
     {
+      "agency": "DOS-ZWE",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 14,
+      "deadline": "09/13/2026",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 23,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": "hold",
+        "previous_score": 28,
+        "status": "current"
+      },
+      "decision_score": 23,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_this_month +9",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363723"
+            ],
+            "points": 31
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363723"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 23,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363723"
+        ],
+        "trace_hash": "661d2f22d252096d"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WASHINGTON STATE UNIVERSITY",
+          "score": 2,
+          "uei": "XRJSGX384TD6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+          "score": 2,
+          "uei": "QDE5UHE5XD16"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:AF-HAR-FY26-03",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WASHINGTON STATE UNIVERSITY",
+          "score": 2,
+          "uei": "XRJSGX384TD6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+          "score": 2,
+          "uei": "QDE5UHE5XD16"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 23,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/363723"
+      ],
+      "technology_fit": [
+        "artificial intelligence"
+      ],
+      "title": "Annual Program Statement",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/363723"
+    },
+    {
       "agency": "DOS-SAU",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 19,
+      "days_to_close": 18,
       "deadline": "09/17/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2411,8 +2411,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 23,
         "status": "current"
       },
       "decision_score": 23,
@@ -2584,7 +2584,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 23,
+      "days_to_close": 22,
       "deadline": "09/21/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2592,8 +2592,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 23,
         "status": "current"
       },
       "decision_score": 23,
@@ -2691,8 +2691,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 20,
         "status": "current"
       },
       "decision_score": 20,
@@ -2872,8 +2872,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 20,
         "status": "current"
       },
       "decision_score": 20,
@@ -3053,8 +3053,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 20,
         "status": "current"
       },
       "decision_score": 20,
@@ -3234,8 +3234,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 20,
         "status": "current"
       },
       "decision_score": 20,
@@ -3407,7 +3407,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "08/30/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -3445,7 +3445,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 1 day(s)"
+              "Compressed response window: 0 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -3461,7 +3461,7 @@
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363293"
         ],
-        "trace_hash": "af086c736f41b4f8"
+        "trace_hash": "1820010045f98a15"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -3565,7 +3565,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 1 day(s) remaining",
+        "Compressed response window: 0 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -3590,7 +3590,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 3,
+      "days_to_close": 2,
       "deadline": "09/01/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -3599,7 +3599,7 @@
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
         "previous_gate": "hold",
-        "previous_score": 26,
+        "previous_score": 19,
         "status": "current"
       },
       "decision_score": 19,
@@ -3628,7 +3628,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 3 day(s)"
+              "Compressed response window: 2 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -3644,7 +3644,7 @@
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363440"
         ],
-        "trace_hash": "a2157df6d9d2de79"
+        "trace_hash": "688449ecbf2f78c0"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -3748,7 +3748,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 3 day(s) remaining",
+        "Compressed response window: 2 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -3778,6 +3778,6 @@
     "qualify": 1,
     "targeted_review": 2
   },
-  "updated_at": "2026-08-29T05:05:39.790622+00:00",
+  "updated_at": "2026-08-30T02:55:32.256505+00:00",
   "version": 1
 }

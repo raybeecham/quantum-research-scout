@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-29T05:05:39.790622+00:00_
+_Updated 2026-08-30T02:55:32.256505+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **74** (**98.7%** coverage)
+- SAM.gov-resolved entities: **77** (**102.7%** coverage)
 - Newly resolved this run: **3**
-- Pending bounded enrichment: **130**
+- Pending bounded enrichment: **128**
 - Ambiguous / no match: **3 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -31,8 +31,11 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | [GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.](https://sam.gov/entity/SMNWM6HN79X5/coreData) | SMNWM6HN79X5 | 07MU1 | Active | Business or Organization, For Profit Organization |
 | MORGAN STATE UNIVERSITY | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) | KULSKCCZJT27 | 8U547 | Active | Educational Institution, Historically Black College or University, Minority Institution |
 | UNIVERSITY OF NEW MEXICO | [University Of New Mexico](https://sam.gov/entity/F6XLTRUQJEN4/coreData) | F6XLTRUQJEN4 | 6T086 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
+| NEW MEXICO STATE UNIVERSITY | [NEW MEXICO STATE UNIVERSITY](https://sam.gov/entity/J3M5GZAT8N85/coreData) | J3M5GZAT8N85 | 3X352 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
+| GEORGIA TECH RESEARCH CORP | [GEORGIA TECH RESEARCH CORP](https://sam.gov/entity/EMW9FC8J3HN4/coreData) | EMW9FC8J3HN4 | 1G474 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | CARNEGIE-MELLON UNIVERSITY | [CARNEGIE-MELLON UNIVERSITY](https://sam.gov/entity/U3NKNFLNQ613/coreData) | U3NKNFLNQ613 | 97668 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF ILLINOIS | [UNIVERSITY OF ILLINOIS](https://sam.gov/entity/Y8CWNJRCNN91/coreData) | Y8CWNJRCNN91 | 4B808 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
+| UNIVERSITY OF HOUSTON SYSTEM | [UNIVERSITY OF HOUSTON SYSTEM](https://sam.gov/entity/QKWEF8XLMTT3/coreData) | QKWEF8XLMTT3 | 9B955 | Active | Educational Institution, Hispanic Servicing Institution, State Controlled Institution of Higher Learning |
 | THE ARDIAN GROUP, INC | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) | UE9KZJJCMAS9 | 3BR42 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
 | FOUR POINTS TECHNOLOGY, L.L.C. | [FOUR POINTS TECHNOLOGY, L.L.C.](https://sam.gov/entity/H1KHJPJH9R51/coreData) | H1KHJPJH9R51 | 1YS78 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | BROWN UNIVERSITY | [BROWN UNIVERSITY](https://sam.gov/entity/E3FDXZ6TBHW3/coreData) | E3FDXZ6TBHW3 | 23242 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
@@ -86,9 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | MARINE ELECTRIC SYSTEMS INC | [MARINE ELECTRIC SYSTEMS INC](https://sam.gov/entity/U43WP4FHDJY3/coreData) | U43WP4FHDJY3 | 00062 | Active | Business or Organization, For Profit Organization, Manufacturer of Goods |
 | MAKPAR-NUAXIS JV LLC | [MAKPAR-NUAXIS JV LLC](https://sam.gov/entity/YZ9MQDZJGHD5/coreData) | YZ9MQDZJGHD5 | 8HVP9 | Active | SBA Certified 8(a) Joint Venture |
 | AUTONOMIC INTEGRA LLC | [AUTONOMIC INTEGRA LLC](https://sam.gov/entity/YJCKJY5GSX71/coreData) | YJCKJY5GSX71 | 8LBN4 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
-| ANDURIL INDUSTRIES, INC. | [ANDURIL INDUSTRIES, INC.](https://sam.gov/entity/KC3CH2MSK7Q3/coreData) | KC3CH2MSK7Q3 | 85LD7 | Active | Business or Organization, For Profit Organization |
-| THE UNIVERSITY OF ALABAMA IN HUNTSVILLE | [THE UNIVERSITY OF ALABAMA IN HUNTSVILLE](https://sam.gov/entity/HB6KNGVNJRU1/coreData) | HB6KNGVNJRU1 | 9B944 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
-| UNIVERSITY OF MARYLAND, COLLEGE PARK | UNIVERSITY OF MARYLAND, COLLEGE PARK | — | — | pending | api key missing |
 
 ## Method
 

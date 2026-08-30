@@ -1,6 +1,6 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-29T05:05:39.790622+00:00_
+_Updated 2026-08-30T02:55:32.256505+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
@@ -46,7 +46,7 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Agency and technology inference only
 - Admission score: 65
 
-### [Policy 10h ago New Mexico Offers Matching Funds for DARPA Quantum Computing Projects](https://thequantuminsider.com/2026/08/28/new-mexico-darpa-quantum-benchmarking-matching-funds)
+### [Policy 1d ago New Mexico Offers Matching Funds for DARPA Quantum Computing Projects](https://thequantuminsider.com/2026/08/28/new-mexico-darpa-quantum-benchmarking-matching-funds)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

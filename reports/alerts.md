@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-08-29 05:15 UTC_
+_Updated 2026-08-30 03:01 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 18 | 11 | 19 | 20 |
+| 50 | 7 | 11 | 15 | 24 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -66,25 +66,25 @@ _Updated 2026-08-29 05:15 UTC_
 - 🔴 Standards / Government has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography 🆕
+## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 85.7% reliability with 4 warning day(s).
+- 🔴 82.8% reliability with 4 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Computing 🆕
+## 🔴 Source failing: arXiv Quantum Computing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 85.7% reliability with 4 warning day(s).
+- 🔴 82.8% reliability with 4 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Networking and Sensing 🆕
+## 🔴 Source failing: arXiv Quantum Networking and Sensing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 85.7% reliability with 4 warning day(s).
+- 🔴 82.8% reliability with 4 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -108,59 +108,35 @@ _Updated 2026-08-29 05:15 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: Advancing Investigative Journalism in Ukraine through U.S. AI Innovation 🆕
+## 🟠 Changed: ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS 🆕
 
 - Severity: **high**
 - Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363440)
+- reported amount · authority authoritative · 1718875.0
+- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_1605C226C0006_1605_-NONE-_-NONE-)
 - [Open supporting view](intelligence-changes.md)
 
-## 🟠 Changed: Agriculture Risk Management Education Partnerships Competitive Grants Program 🆕
+## 🟠 Changed: Annual Program Statement 🆕
 
 - Severity: **high**
 - Status: **changed**
 - qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363682)
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363723)
 - [Open supporting view](intelligence-changes.md)
 
-## 🟠 Changed: Alumni Engagement Innovation Fund (AEIF) 2026: Exchange Alumni Advancing Freedom250 🆕
+## 🟠 Changed: CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT. 🆕
 
 - Severity: **high**
 - Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/361614)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: Bridge2AI Network for AI Health Science 🆕
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363107)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU) 🆕
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363537)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: University-led Networks for Innovation, Technology, and Expertise (UNITE) 🆕
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363645)
+- reported amount · authority authoritative · 505000.0
+- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000)
 - [Open supporting view](intelligence-changes.md)
 
 ## 🟠 Federal opportunity closing soon: Advancing Investigative Journalism in Ukraine through U.S. AI Innovation
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363440)
 - [Open supporting view](federal-funding.md)
 
@@ -168,17 +144,9 @@ _Updated 2026-08-29 05:15 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 1 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 0 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363293)
 - [Open supporting view](federal-funding.md)
-
-## 🟠 Procurement amendment impact: EdUSA AI & Quantum Technologies Initiative in Australia 🆕
-
-- Severity: **high**
-- Status: **decision-revalidation-required**
-- New amendment observed; no tracker baseline is available for an automatic comparison. Prior qualification and bid/no-bid assumptions require analyst revalidation; no analyst decision was changed automatically.
-- [Open direct evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download)
-- [Open supporting view](procurement-intelligence.md)
 
 ## 🟠 Rising momentum: AI Security
 
@@ -205,35 +173,35 @@ _Updated 2026-08-29 05:15 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 95.5% reliability with 2 warning day(s).
+- 🟠 95.6% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: IACR ePrint
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 97.7% reliability with 1 warning day(s).
+- 🟠 97.8% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Computing Patents
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.1% reliability with 2 warning day(s).
+- 🟠 94.3% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Networking and Sensing Patents
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.1% reliability with 1 warning day(s).
+- 🟠 94.3% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Federal opportunity closing soon: MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026
 
 - Severity: **medium**
 - Status: **closing-soon**
-- 6 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 5 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363586)
 - [Open supporting view](federal-funding.md)
 
@@ -314,58 +282,86 @@ _Updated 2026-08-29 05:15 UTC_
 - The latest dated item is from 2026-06-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Google Security Blog 🆕
+## 🟡 Source stale: Google Security Blog
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-04-23; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · AI Forge 🆕
+## 🟡 Source stale: Grants.gov · AI Forge
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Cybersecurity 🆕
+## 🟡 Source stale: Grants.gov · Cybersecurity
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-08-13; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Genesis Mission 🆕
+## 🟡 Source stale: Grants.gov · Genesis Mission
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-23; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Project Triad 🆕
+## 🟡 Source stale: Grants.gov · Project Triad
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-08-03; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Quantum Genesis 🆕
+## 🟡 Source stale: Grants.gov · Quantum Genesis
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-30; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: InfoQ Quantum Computing 🆕
+## 🟡 Source stale: InfoQ Quantum Computing
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-08; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Intel Quantum Research News 🆕
+## 🟡 Source stale: Intel Quantum Research News
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2023-06-15; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: IonQ News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-08-05; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Lockheed Martin Quantum Technology 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-07-14; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: NCSC UK Guidance 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-03-19; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: NCSC UK Reports 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2025-05-07; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
