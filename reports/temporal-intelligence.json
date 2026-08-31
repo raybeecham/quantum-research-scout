@@ -3,738 +3,13 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-5a1c22cafe84c63c",
-      "confidence": "high",
-      "effective_date": "2026-08-29",
-      "evidence_title": "58--RADAR HIGH POWER,AI",
-      "evidence_url": "https://sam.gov/workspace/contract/opp/f66ed1b1e931454eba85879053f6e84c/view",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d865e4744003d704",
-          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla aviation philadelphia.dla aviation at philadelphia, pa",
-          "title": "58--RADAR HIGH POWER,AI",
-          "url": "https://sam.gov/workspace/contract/opp/f66ed1b1e931454eba85879053f6e84c/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPRPA125QEU98",
-        "label": "58--RADAR HIGH POWER,AI",
-        "node_id": "award_notice:sam_gov:SPRPA125QEU98",
-        "node_type": "award_notice"
-      },
-      "temporal": {
-        "classification": "published_today",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source publication date is today or within the prior day.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Published today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-08-29",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-08-29"
-      },
-      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION PHILADELPHIA.DLA AVIATION AT PHILADELPHIA, PA"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4a5eca4eb79284ec",
-      "confidence": "high",
-      "effective_date": "2026-08-29",
-      "evidence_title": "58--RADAR HIGH POWER,AI",
-      "evidence_url": "https://sam.gov/workspace/contract/opp/f66ed1b1e931454eba85879053f6e84c/view",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6ca78067f62e8de7",
-          "locator": "opportunity_status:awarded",
-          "title": "58--RADAR HIGH POWER,AI",
-          "url": "https://sam.gov/workspace/contract/opp/f66ed1b1e931454eba85879053f6e84c/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPRPA125QEU98",
-        "label": "58--RADAR HIGH POWER,AI",
-        "node_id": "award_notice:sam_gov:SPRPA125QEU98",
-        "node_type": "award_notice"
-      },
-      "temporal": {
-        "classification": "published_today",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source publication date is today or within the prior day.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Published today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-08-29",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-08-29"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f1b833ed231e0fd9",
-      "confidence": "high",
-      "effective_date": "2026-08-29",
-      "evidence_title": "58--RADAR HIGH POWER,AI",
-      "evidence_url": "https://sam.gov/workspace/contract/opp/f66ed1b1e931454eba85879053f6e84c/view",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-204407f6cf877995",
-          "locator": "reported_amount:6557542.0",
-          "title": "58--RADAR HIGH POWER,AI",
-          "url": "https://sam.gov/workspace/contract/opp/f66ed1b1e931454eba85879053f6e84c/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPRPA125QEU98",
-        "label": "58--RADAR HIGH POWER,AI",
-        "node_id": "award_notice:sam_gov:SPRPA125QEU98",
-        "node_type": "award_notice"
-      },
-      "temporal": {
-        "classification": "published_today",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source publication date is today or within the prior day.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Published today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-08-29",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-08-29"
-      },
-      "value": 6557542.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6edf5f0e95c84860",
-      "confidence": "high",
-      "effective_date": "2026-08-29",
-      "evidence_title": "58--RADAR HIGH POWER,AI",
-      "evidence_url": "https://sam.gov/workspace/contract/opp/f66ed1b1e931454eba85879053f6e84c/view",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": {
-        "identifier": "name:lockheed martin",
-        "label": "Lockheed Martin Corporation",
-        "node_id": "recipient_or_contractor:name:lockheed martin",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b484aa2e807ae4ea",
-          "locator": "reported_recipient:recipient_or_contractor:name:lockheed martin",
-          "title": "58--RADAR HIGH POWER,AI",
-          "url": "https://sam.gov/workspace/contract/opp/f66ed1b1e931454eba85879053f6e84c/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPRPA125QEU98",
-        "label": "58--RADAR HIGH POWER,AI",
-        "node_id": "award_notice:sam_gov:SPRPA125QEU98",
-        "node_type": "award_notice"
-      },
-      "temporal": {
-        "classification": "published_today",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source publication date is today or within the prior day.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Published today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-08-29",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-08-29"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-0373ff45b2a25805",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "evidence_title": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00088N_6925_693JJ322A000004_6925",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-22c2197d84860a32",
-          "locator": "awarding_agency:department of transportation",
-          "title": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00088N_6925_693JJ322A000004_6925",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:693JJ326F00088N",
-        "label": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-        "node_id": "award:usaspending:693JJ326F00088N",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-10-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-10-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Transportation"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-8087fee50ec92e79",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "evidence_title": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00088N_6925_693JJ322A000004_6925",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5e3f1747a91f1f6a",
-          "locator": "opportunity_status:awarded",
-          "title": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00088N_6925_693JJ322A000004_6925",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:693JJ326F00088N",
-        "label": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-        "node_id": "award:usaspending:693JJ326F00088N",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-10-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-10-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5cf82cb8bb61a1ee",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "evidence_title": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00088N_6925_693JJ322A000004_6925",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2268a374f1bbbe6f",
-          "locator": "reported_amount:971814.14",
-          "title": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00088N_6925_693JJ322A000004_6925",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:693JJ326F00088N",
-        "label": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-        "node_id": "award:usaspending:693JJ326F00088N",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-10-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-10-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 971814.14
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-da0bf32433842476",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "evidence_title": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00088N_6925_693JJ322A000004_6925",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": {
-        "identifier": "uei:QHBLBNKKV4U3",
-        "label": "ICF INCORPORATED, L.L.C.",
-        "node_id": "recipient_or_contractor:uei:QHBLBNKKV4U3",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e245051522e1178f",
-          "locator": "reported_recipient:recipient_or_contractor:uei:QHBLBNKKV4U3",
-          "title": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00088N_6925_693JJ322A000004_6925",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:693JJ326F00088N",
-        "label": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-        "node_id": "award:usaspending:693JJ326F00088N",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-10-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-10-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-64f7c9f455354c11",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "evidence_title": "OPERATIONS AND MAINTENANCE (O&M) TECHNICAL, OPERATIONAL, CYBERSECURITY, INFRASTRUCTURE, BUSINESS ANALYSIS, AND PROJECT MANAGEMENT SUPPORT.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2099CF26F00020_2099_20341221A00001_2036",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-139183fa9fec6ac2",
-          "locator": "opportunity_status:awarded",
-          "title": "OPERATIONS AND MAINTENANCE (O&M) TECHNICAL, OPERATIONAL, CYBERSECURITY, INFRASTRUCTURE, BUSINESS ANALYSIS, AND PROJECT MANAGEMENT SUPPORT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF26F00020_2099_20341221A00001_2036",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2099CF26F00020",
-        "label": "OPERATIONS AND MAINTENANCE (O&M) TECHNICAL, OPERATIONAL, CYBERSECURITY, INFRASTRUCTURE, BUSINESS ANALYSIS, AND PROJECT MANAGEMENT SUPPORT.",
-        "node_id": "award:usaspending:2099CF26F00020",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-18",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-09-18",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-86d5f812892a0890",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "evidence_title": "OPERATIONS AND MAINTENANCE (O&M) TECHNICAL, OPERATIONAL, CYBERSECURITY, INFRASTRUCTURE, BUSINESS ANALYSIS, AND PROJECT MANAGEMENT SUPPORT.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2099CF26F00020_2099_20341221A00001_2036",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bd368f67c81ef997",
-          "locator": "reported_amount:1129970.16",
-          "title": "OPERATIONS AND MAINTENANCE (O&M) TECHNICAL, OPERATIONAL, CYBERSECURITY, INFRASTRUCTURE, BUSINESS ANALYSIS, AND PROJECT MANAGEMENT SUPPORT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF26F00020_2099_20341221A00001_2036",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2099CF26F00020",
-        "label": "OPERATIONS AND MAINTENANCE (O&M) TECHNICAL, OPERATIONAL, CYBERSECURITY, INFRASTRUCTURE, BUSINESS ANALYSIS, AND PROJECT MANAGEMENT SUPPORT.",
-        "node_id": "award:usaspending:2099CF26F00020",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-18",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-09-18",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 1129970.16
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a0458639ffe737b3",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "evidence_title": "OPERATIONS AND MAINTENANCE (O&M) TECHNICAL, OPERATIONAL, CYBERSECURITY, INFRASTRUCTURE, BUSINESS ANALYSIS, AND PROJECT MANAGEMENT SUPPORT.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2099CF26F00020_2099_20341221A00001_2036",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": {
-        "identifier": "uei:F9KSDU7L9VP6",
-        "label": "DELOITTE & TOUCHE LLP",
-        "node_id": "recipient_or_contractor:uei:F9KSDU7L9VP6",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cdbd01ebab5b82a2",
-          "locator": "reported_recipient:recipient_or_contractor:uei:F9KSDU7L9VP6",
-          "title": "OPERATIONS AND MAINTENANCE (O&M) TECHNICAL, OPERATIONAL, CYBERSECURITY, INFRASTRUCTURE, BUSINESS ANALYSIS, AND PROJECT MANAGEMENT SUPPORT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF26F00020_2099_20341221A00001_2036",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2099CF26F00020",
-        "label": "OPERATIONS AND MAINTENANCE (O&M) TECHNICAL, OPERATIONAL, CYBERSECURITY, INFRASTRUCTURE, BUSINESS ANALYSIS, AND PROJECT MANAGEMENT SUPPORT.",
-        "node_id": "award:usaspending:2099CF26F00020",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-18",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-09-18",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-62cf31d277e4d3bd",
-      "confidence": "high",
-      "effective_date": "2026-09-11",
-      "evidence_title": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0356_1205_NNG15SD60B_8000",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-94d59468b0242fd7",
-          "locator": "awarding_agency:department of agriculture",
-          "title": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0356_1205_NNG15SD60B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:12314426F0356",
-        "label": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-        "node_id": "award:usaspending:12314426F0356",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-11",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-09-11",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Agriculture"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-34f0fcb0245ecab1",
-      "confidence": "high",
-      "effective_date": "2026-09-11",
-      "evidence_title": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0356_1205_NNG15SD60B_8000",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b93fb47c006698c3",
-          "locator": "opportunity_status:awarded",
-          "title": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0356_1205_NNG15SD60B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:12314426F0356",
-        "label": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-        "node_id": "award:usaspending:12314426F0356",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-11",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-09-11",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4751967e87e4cd71",
-      "confidence": "high",
-      "effective_date": "2026-09-11",
-      "evidence_title": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0356_1205_NNG15SD60B_8000",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-83e86fb3823a222e",
-          "locator": "reported_amount:24653.8",
-          "title": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0356_1205_NNG15SD60B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:12314426F0356",
-        "label": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-        "node_id": "award:usaspending:12314426F0356",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-11",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-09-11",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 24653.8
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-cd20278264bb25c1",
-      "confidence": "high",
-      "effective_date": "2026-09-11",
-      "evidence_title": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0356_1205_NNG15SD60B_8000",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": {
-        "identifier": "uei:CGE8ABMZLZN9",
-        "label": "ADVANCED COMPUTER CONCEPTS, INC.",
-        "node_id": "recipient_or_contractor:uei:CGE8ABMZLZN9",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d0f93fc8221b982b",
-          "locator": "reported_recipient:recipient_or_contractor:uei:CGE8ABMZLZN9",
-          "title": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0356_1205_NNG15SD60B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:12314426F0356",
-        "label": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-        "node_id": "award:usaspending:12314426F0356",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-11",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-09-11",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-237ccb2373e07338",
+      "claim_id": "claim-bf5d09d88b2a1d4f",
       "confidence": "high",
       "effective_date": "2026-09-01",
-      "evidence_title": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3084_7009_70US0926D70092069_7009",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "evidence_title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -742,17 +17,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f1cc0192c2d0a036",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3084_7009_70US0926D70092069_7009",
+          "evidence_id": "evidence-dcfbb74e2869c84b",
+          "locator": "awarding_agency:department of the treasury",
+          "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:70US0926F3OTH3084",
-        "label": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-        "node_id": "award:usaspending:70US0926F3OTH3084",
+        "identifier": "usaspending:2032H826F00074",
+        "label": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+        "node_id": "award:usaspending:2032H826F00074",
         "node_type": "award"
       },
       "temporal": {
@@ -760,28 +35,28 @@
         "date_basis": "USAspending action date",
         "effective_date": null,
         "event_date": "2026-09-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "explanation": "The source date is in the future; Scout first observed it on 2026-08-31.",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Upcoming event date",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": "2026-09-01",
         "primary_date_role": "event_date",
         "publication_date": null
       },
-      "value": "Department of Homeland Security"
+      "value": "Department of the Treasury"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-e243fbd3ad3080f0",
+      "claim_id": "claim-72b148944f46948b",
       "confidence": "high",
       "effective_date": "2026-09-01",
-      "evidence_title": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3084_7009_70US0926D70092069_7009",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "evidence_title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -789,17 +64,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fae6d7460e7ef555",
+          "evidence_id": "evidence-1e6aab0b166f0d50",
           "locator": "opportunity_status:awarded",
-          "title": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3084_7009_70US0926D70092069_7009",
+          "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:70US0926F3OTH3084",
-        "label": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-        "node_id": "award:usaspending:70US0926F3OTH3084",
+        "identifier": "usaspending:2032H826F00074",
+        "label": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+        "node_id": "award:usaspending:2032H826F00074",
         "node_type": "award"
       },
       "temporal": {
@@ -807,12 +82,12 @@
         "date_basis": "USAspending action date",
         "effective_date": null,
         "event_date": "2026-09-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "explanation": "The source date is in the future; Scout first observed it on 2026-08-31.",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Upcoming event date",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": "2026-09-01",
         "primary_date_role": "event_date",
         "publication_date": null
@@ -822,13 +97,13 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-14a63c75dfa37a5b",
+      "claim_id": "claim-e32f690985dda69a",
       "confidence": "high",
       "effective_date": "2026-09-01",
-      "evidence_title": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3084_7009_70US0926D70092069_7009",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "evidence_title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -836,17 +111,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a1c55e81bd2cdb79",
-          "locator": "reported_amount:239398.73",
-          "title": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3084_7009_70US0926D70092069_7009",
+          "evidence_id": "evidence-e29c5939bb2326bb",
+          "locator": "reported_amount:485864.89",
+          "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:70US0926F3OTH3084",
-        "label": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-        "node_id": "award:usaspending:70US0926F3OTH3084",
+        "identifier": "usaspending:2032H826F00074",
+        "label": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+        "node_id": "award:usaspending:2032H826F00074",
         "node_type": "award"
       },
       "temporal": {
@@ -854,32 +129,32 @@
         "date_basis": "USAspending action date",
         "effective_date": null,
         "event_date": "2026-09-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "explanation": "The source date is in the future; Scout first observed it on 2026-08-31.",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Upcoming event date",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": "2026-09-01",
         "primary_date_role": "event_date",
         "publication_date": null
       },
-      "value": 239398.73
+      "value": 485864.89
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-17b413992052ab7e",
+      "claim_id": "claim-d86fb2ffc02e3a73",
       "confidence": "high",
       "effective_date": "2026-09-01",
-      "evidence_title": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3084_7009_70US0926D70092069_7009",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "evidence_title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": {
-        "identifier": "uei:JV4XG6EEQMP7",
-        "label": "BUCKEYE TECHNOLOGY SOLUTIONS, LLC",
-        "node_id": "recipient_or_contractor:uei:JV4XG6EEQMP7",
+        "identifier": "uei:NND1JNX2JBJ1",
+        "label": "UNISON VIRTUAL ACQUISITION OFFICE LLC",
+        "node_id": "recipient_or_contractor:uei:NND1JNX2JBJ1",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -888,17 +163,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-54bb291e1b64360c",
-          "locator": "reported_recipient:recipient_or_contractor:uei:JV4XG6EEQMP7",
-          "title": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3084_7009_70US0926D70092069_7009",
+          "evidence_id": "evidence-628bb5abe2c882c9",
+          "locator": "reported_recipient:recipient_or_contractor:uei:NND1JNX2JBJ1",
+          "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:70US0926F3OTH3084",
-        "label": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-        "node_id": "award:usaspending:70US0926F3OTH3084",
+        "identifier": "usaspending:2032H826F00074",
+        "label": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+        "node_id": "award:usaspending:2032H826F00074",
         "node_type": "award"
       },
       "temporal": {
@@ -906,12 +181,12 @@
         "date_basis": "USAspending action date",
         "effective_date": null,
         "event_date": "2026-09-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "explanation": "The source date is in the future; Scout first observed it on 2026-08-31.",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Upcoming event date",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": "2026-09-01",
         "primary_date_role": "event_date",
         "publication_date": null
@@ -921,13 +196,13 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-fddc0b8fc1903e43",
+      "claim_id": "claim-943e69c6bb03dfa3",
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "GEORGIA TECH RESEARCH CORP",
-      "evidence_url": "https://sam.gov/entity/EMW9FC8J3HN4/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "FLORIDA INTERNATIONAL UNIVERSITY",
+      "evidence_url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -935,17 +210,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-29d20b5af622fc16",
-          "locator": "cage_code:1g474",
-          "title": "GEORGIA TECH RESEARCH CORP",
-          "url": "https://sam.gov/entity/EMW9FC8J3HN4/coreData",
+          "evidence_id": "evidence-6119edc62b4ba864",
+          "locator": "cage_code:1jhm5",
+          "title": "FLORIDA INTERNATIONAL UNIVERSITY",
+          "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:EMW9FC8J3HN4",
-        "label": "GEORGIA TECH RESEARCH CORP",
-        "node_id": "recipient_or_contractor:uei:EMW9FC8J3HN4",
+        "identifier": "uei:Q3KCVK5S9CP1",
+        "label": "FLORIDA INTERNATIONAL UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:Q3KCVK5S9CP1",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -954,27 +229,27 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": "1G474"
+      "value": "1JHM5"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-9b30cee9b7018b27",
+      "claim_id": "claim-bfdc944ac9f1d695",
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "GEORGIA TECH RESEARCH CORP",
-      "evidence_url": "https://sam.gov/entity/EMW9FC8J3HN4/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "FLORIDA INTERNATIONAL UNIVERSITY",
+      "evidence_url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -982,17 +257,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7400de734712acd9",
-          "locator": "legal_business_name:georgia tech research corp",
-          "title": "GEORGIA TECH RESEARCH CORP",
-          "url": "https://sam.gov/entity/EMW9FC8J3HN4/coreData",
+          "evidence_id": "evidence-544613ca402a9084",
+          "locator": "legal_business_name:florida international university",
+          "title": "FLORIDA INTERNATIONAL UNIVERSITY",
+          "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:EMW9FC8J3HN4",
-        "label": "GEORGIA TECH RESEARCH CORP",
-        "node_id": "recipient_or_contractor:uei:EMW9FC8J3HN4",
+        "identifier": "uei:Q3KCVK5S9CP1",
+        "label": "FLORIDA INTERNATIONAL UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:Q3KCVK5S9CP1",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -1001,27 +276,27 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": "GEORGIA TECH RESEARCH CORP"
+      "value": "FLORIDA INTERNATIONAL UNIVERSITY"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-4c43d15d7bf654b2",
+      "claim_id": "claim-097407ea14a4a0d0",
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "GEORGIA TECH RESEARCH CORP",
-      "evidence_url": "https://sam.gov/entity/EMW9FC8J3HN4/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "FLORIDA INTERNATIONAL UNIVERSITY",
+      "evidence_url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -1029,17 +304,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4345fd89b6498805",
+          "evidence_id": "evidence-2e4762f85a549a9b",
           "locator": "registration_status:active",
-          "title": "GEORGIA TECH RESEARCH CORP",
-          "url": "https://sam.gov/entity/EMW9FC8J3HN4/coreData",
+          "title": "FLORIDA INTERNATIONAL UNIVERSITY",
+          "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:EMW9FC8J3HN4",
-        "label": "GEORGIA TECH RESEARCH CORP",
-        "node_id": "recipient_or_contractor:uei:EMW9FC8J3HN4",
+        "identifier": "uei:Q3KCVK5S9CP1",
+        "label": "FLORIDA INTERNATIONAL UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:Q3KCVK5S9CP1",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -1048,11 +323,11 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
@@ -1062,13 +337,13 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-90c33d9ca8c85bbb",
+      "claim_id": "claim-1bd0e6c63df2d4bb",
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "GEORGIA TECH RESEARCH CORP",
-      "evidence_url": "https://sam.gov/entity/EMW9FC8J3HN4/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "FLORIDA INTERNATIONAL UNIVERSITY",
+      "evidence_url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -1076,17 +351,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8833f8c27c90b46a",
-          "locator": "uei:emw9fc8j3hn4",
-          "title": "GEORGIA TECH RESEARCH CORP",
-          "url": "https://sam.gov/entity/EMW9FC8J3HN4/coreData",
+          "evidence_id": "evidence-2554536eff13c457",
+          "locator": "uei:q3kcvk5s9cp1",
+          "title": "FLORIDA INTERNATIONAL UNIVERSITY",
+          "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:EMW9FC8J3HN4",
-        "label": "GEORGIA TECH RESEARCH CORP",
-        "node_id": "recipient_or_contractor:uei:EMW9FC8J3HN4",
+        "identifier": "uei:Q3KCVK5S9CP1",
+        "label": "FLORIDA INTERNATIONAL UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:Q3KCVK5S9CP1",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -1095,27 +370,27 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": "EMW9FC8J3HN4"
+      "value": "Q3KCVK5S9CP1"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-9caf9428d2ede80b",
+      "claim_id": "claim-3ce5444df1fcae8e",
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "NEW MEXICO STATE UNIVERSITY",
-      "evidence_url": "https://sam.gov/entity/J3M5GZAT8N85/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "KEAN UNIVERSITY",
+      "evidence_url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -1123,17 +398,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cf07d0a99faa9b88",
-          "locator": "cage_code:3x352",
-          "title": "NEW MEXICO STATE UNIVERSITY",
-          "url": "https://sam.gov/entity/J3M5GZAT8N85/coreData",
+          "evidence_id": "evidence-2e923236674c6a46",
+          "locator": "cage_code:314s6",
+          "title": "KEAN UNIVERSITY",
+          "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:J3M5GZAT8N85",
-        "label": "NEW MEXICO STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:J3M5GZAT8N85",
+        "identifier": "uei:SQ62WM5KNSV8",
+        "label": "KEAN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -1142,27 +417,27 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": "3X352"
+      "value": "314S6"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-48f6b92f29218270",
+      "claim_id": "claim-fd57983bd7fcd226",
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "NEW MEXICO STATE UNIVERSITY",
-      "evidence_url": "https://sam.gov/entity/J3M5GZAT8N85/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "KEAN UNIVERSITY",
+      "evidence_url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -1170,17 +445,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e66a61f8e73ee84a",
-          "locator": "legal_business_name:new mexico state university",
-          "title": "NEW MEXICO STATE UNIVERSITY",
-          "url": "https://sam.gov/entity/J3M5GZAT8N85/coreData",
+          "evidence_id": "evidence-854b38f0f246a554",
+          "locator": "legal_business_name:kean university",
+          "title": "KEAN UNIVERSITY",
+          "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:J3M5GZAT8N85",
-        "label": "NEW MEXICO STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:J3M5GZAT8N85",
+        "identifier": "uei:SQ62WM5KNSV8",
+        "label": "KEAN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -1189,27 +464,27 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": "NEW MEXICO STATE UNIVERSITY"
+      "value": "KEAN UNIVERSITY"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-0c4282dacf4bbe2e",
+      "claim_id": "claim-4ac4177a00868c17",
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "NEW MEXICO STATE UNIVERSITY",
-      "evidence_url": "https://sam.gov/entity/J3M5GZAT8N85/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "KEAN UNIVERSITY",
+      "evidence_url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -1217,17 +492,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-dfc00c22c1b432dc",
+          "evidence_id": "evidence-cb6b096bd750dae6",
           "locator": "registration_status:active",
-          "title": "NEW MEXICO STATE UNIVERSITY",
-          "url": "https://sam.gov/entity/J3M5GZAT8N85/coreData",
+          "title": "KEAN UNIVERSITY",
+          "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:J3M5GZAT8N85",
-        "label": "NEW MEXICO STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:J3M5GZAT8N85",
+        "identifier": "uei:SQ62WM5KNSV8",
+        "label": "KEAN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -1236,11 +511,11 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
@@ -1250,13 +525,13 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-6bb3efa3095f3bab",
+      "claim_id": "claim-6600991a6b23bebf",
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "NEW MEXICO STATE UNIVERSITY",
-      "evidence_url": "https://sam.gov/entity/J3M5GZAT8N85/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "KEAN UNIVERSITY",
+      "evidence_url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -1264,17 +539,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-56f9e113e615e7e7",
-          "locator": "uei:j3m5gzat8n85",
-          "title": "NEW MEXICO STATE UNIVERSITY",
-          "url": "https://sam.gov/entity/J3M5GZAT8N85/coreData",
+          "evidence_id": "evidence-d7fd00314937f307",
+          "locator": "uei:sq62wm5knsv8",
+          "title": "KEAN UNIVERSITY",
+          "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:J3M5GZAT8N85",
-        "label": "NEW MEXICO STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:J3M5GZAT8N85",
+        "identifier": "uei:SQ62WM5KNSV8",
+        "label": "KEAN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -1283,27 +558,27 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": "J3M5GZAT8N85"
+      "value": "SQ62WM5KNSV8"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-a40fc1d0666ba418",
+      "claim_id": "claim-fc74f0bcd89b56cf",
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "UNIVERSITY OF HOUSTON SYSTEM",
-      "evidence_url": "https://sam.gov/entity/QKWEF8XLMTT3/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "UNIVERSITY OF TEXAS AT DALLAS",
+      "evidence_url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -1311,17 +586,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fa3dfb03a37416a9",
-          "locator": "cage_code:9b955",
-          "title": "UNIVERSITY OF HOUSTON SYSTEM",
-          "url": "https://sam.gov/entity/QKWEF8XLMTT3/coreData",
+          "evidence_id": "evidence-dc63d4351ba38908",
+          "locator": "cage_code:0w921",
+          "title": "UNIVERSITY OF TEXAS AT DALLAS",
+          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:QKWEF8XLMTT3",
-        "label": "UNIVERSITY OF HOUSTON SYSTEM",
-        "node_id": "recipient_or_contractor:uei:QKWEF8XLMTT3",
+        "identifier": "uei:EJCVPNN1WFS5",
+        "label": "UNIVERSITY OF TEXAS AT DALLAS",
+        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -1330,27 +605,27 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": "9B955"
+      "value": "0W921"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-1978ea992398cd1d",
+      "claim_id": "claim-fb97900d6f404cc3",
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "UNIVERSITY OF HOUSTON SYSTEM",
-      "evidence_url": "https://sam.gov/entity/QKWEF8XLMTT3/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "UNIVERSITY OF TEXAS AT DALLAS",
+      "evidence_url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -1358,17 +633,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d99ea50b613b2bf1",
-          "locator": "legal_business_name:university of houston system",
-          "title": "UNIVERSITY OF HOUSTON SYSTEM",
-          "url": "https://sam.gov/entity/QKWEF8XLMTT3/coreData",
+          "evidence_id": "evidence-462989fc831ab37f",
+          "locator": "legal_business_name:university of texas at dallas",
+          "title": "UNIVERSITY OF TEXAS AT DALLAS",
+          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:QKWEF8XLMTT3",
-        "label": "UNIVERSITY OF HOUSTON SYSTEM",
-        "node_id": "recipient_or_contractor:uei:QKWEF8XLMTT3",
+        "identifier": "uei:EJCVPNN1WFS5",
+        "label": "UNIVERSITY OF TEXAS AT DALLAS",
+        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -1377,27 +652,27 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": "UNIVERSITY OF HOUSTON SYSTEM"
+      "value": "UNIVERSITY OF TEXAS AT DALLAS"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-25ec16f439872638",
+      "claim_id": "claim-bc1d8771611ec991",
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "UNIVERSITY OF HOUSTON SYSTEM",
-      "evidence_url": "https://sam.gov/entity/QKWEF8XLMTT3/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "UNIVERSITY OF TEXAS AT DALLAS",
+      "evidence_url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -1405,17 +680,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-71e6d4f4562eab45",
+          "evidence_id": "evidence-0d4d264f6d3b7a9e",
           "locator": "registration_status:active",
-          "title": "UNIVERSITY OF HOUSTON SYSTEM",
-          "url": "https://sam.gov/entity/QKWEF8XLMTT3/coreData",
+          "title": "UNIVERSITY OF TEXAS AT DALLAS",
+          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:QKWEF8XLMTT3",
-        "label": "UNIVERSITY OF HOUSTON SYSTEM",
-        "node_id": "recipient_or_contractor:uei:QKWEF8XLMTT3",
+        "identifier": "uei:EJCVPNN1WFS5",
+        "label": "UNIVERSITY OF TEXAS AT DALLAS",
+        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -1424,11 +699,11 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
@@ -1438,13 +713,13 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-e3c50bd9c2b373cf",
+      "claim_id": "claim-00c2e4d37bc13c41",
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "UNIVERSITY OF HOUSTON SYSTEM",
-      "evidence_url": "https://sam.gov/entity/QKWEF8XLMTT3/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "UNIVERSITY OF TEXAS AT DALLAS",
+      "evidence_url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -1452,17 +727,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cec03a145c0c014f",
-          "locator": "uei:qkwef8xlmtt3",
-          "title": "UNIVERSITY OF HOUSTON SYSTEM",
-          "url": "https://sam.gov/entity/QKWEF8XLMTT3/coreData",
+          "evidence_id": "evidence-afa907aafe53fc3c",
+          "locator": "uei:ejcvpnn1wfs5",
+          "title": "UNIVERSITY OF TEXAS AT DALLAS",
+          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:QKWEF8XLMTT3",
-        "label": "UNIVERSITY OF HOUSTON SYSTEM",
-        "node_id": "recipient_or_contractor:uei:QKWEF8XLMTT3",
+        "identifier": "uei:EJCVPNN1WFS5",
+        "label": "UNIVERSITY OF TEXAS AT DALLAS",
+        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -1471,147 +746,222 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": "QKWEF8XLMTT3"
+      "value": "EJCVPNN1WFS5"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-2d9a3a18efc8667c",
+      "confidence": "medium",
+      "effective_date": "2026-08-31",
+      "evidence_title": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
+      "evidence_url": "https://www.grants.gov/search-results-detail/352741",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5364bc2860922a11",
+          "locator": "qualification_gate",
+          "title": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
+          "url": "https://www.grants.gov/search-results-detail/352741",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:N00173-24-S-BA01",
+        "label": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
+        "node_id": "opportunity:grants_gov:N00173-24-S-BA01",
+        "node_type": "opportunity"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "Source-reported posting/publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "Scout first observed this on 2026-08-31; the source date is 2024-03-01.",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+        "primary_date": "2024-03-01",
+        "primary_date_role": "publication_date",
+        "publication_date": "2024-03-01"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-1991226b3b6063b1",
+      "confidence": "medium",
+      "effective_date": "2026-08-31",
+      "evidence_title": "Rural Decentralized Water System Grant Program",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363364",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-28ab73f6c73fda2e",
+          "locator": "qualification_gate",
+          "title": "Rural Decentralized Water System Grant Program",
+          "url": "https://www.grants.gov/search-results-detail/363364",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:RDRUS-26-DWS2",
+        "label": "Rural Decentralized Water System Grant Program",
+        "node_id": "opportunity:grants_gov:RDRUS-26-DWS2",
+        "node_type": "opportunity"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "Source-reported posting/publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "Scout first observed this on 2026-08-31; the source date is 2026-07-28.",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+        "primary_date": "2026-07-28",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-07-28"
+      },
+      "value": "hold"
     }
   ],
   "changed": [
     {
       "authority": "authoritative",
       "change_type": "changed",
-      "claim_id": "claim-be543ccb7513ea5b",
+      "claim_id": "claim-27484ee1f9bc8227",
       "confidence": "high",
-      "effective_date": "2027-06-26",
-      "evidence_title": "ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_1605C226C0006_1605_-NONE-_-NONE-",
+      "effective_date": "2026-07-23",
+      "evidence_title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363293",
       "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
-      "predicate": "reported_amount",
+      "predicate": "opportunity_status",
       "previous_object": null,
-      "previous_value": 1861375.0,
+      "previous_value": "open",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2e3d8f126779905c",
-          "locator": "reported_amount:1718875.0",
-          "title": "ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1605C226C0006_1605_-NONE-_-NONE-",
+          "evidence_id": "evidence-ebfd7842fdf91927",
+          "locator": "opportunity_status:closed",
+          "title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
+          "url": "https://www.grants.gov/search-results-detail/363293",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:1605C226C0006",
-        "label": "ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS",
-        "node_id": "award:usaspending:1605C226C0006",
-        "node_type": "award"
+        "identifier": "grants_gov:PAS-JAKARTA-FY26-08",
+        "label": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
+        "node_id": "opportunity:grants_gov:PAS-JAKARTA-FY26-08",
+        "node_type": "opportunity"
       },
       "temporal": {
         "classification": "changed_since_prior_run",
-        "date_basis": "USAspending action date",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2027-06-26",
+        "event_date": null,
         "explanation": "The assertion changed relative to the prior successful ledger build.",
         "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
         "historical": false,
         "label": "Changed since prior run",
-        "last_changed_at": "2026-08-30T02:55:32.256505+00:00",
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2027-06-26",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "last_changed_at": "2026-08-31T02:49:14.453701+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+        "primary_date": "2026-07-23",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-07-23"
       },
-      "value": 1718875.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-58ade692cf2d4d0a",
-      "confidence": "high",
-      "effective_date": "2026-07-01",
-      "evidence_title": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "previous_object": null,
-      "previous_value": 445000.0,
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3912dec34c649258",
-          "locator": "reported_amount:505000.0",
-          "title": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80ARC026F7003",
-        "label": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7003",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "changed_since_prior_run",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-07-01",
-        "explanation": "The assertion changed relative to the prior successful ledger build.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Changed since prior run",
-        "last_changed_at": "2026-08-30T02:55:32.256505+00:00",
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-07-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 505000.0
+      "value": "closed"
     },
     {
       "authority": "analytical",
       "change_type": "changed",
-      "claim_id": "claim-0d43da524a2c675b",
+      "claim_id": "claim-7a258dbaa60f4994",
       "confidence": "medium",
-      "effective_date": "2026-08-30",
-      "evidence_title": "Annual Program Statement",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363723",
-      "first_observed_at": "2026-08-28T08:24:42.158568+00:00",
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
+      "first_observed_at": "2026-08-29T05:05:39.790622+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
-      "previous_value": "hold",
+      "previous_value": "targeted review",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-24201219db7557a4",
+          "evidence_id": "evidence-ece3733c2513bed0",
           "locator": "qualification_gate",
-          "title": "Annual Program Statement",
-          "url": "https://www.grants.gov/search-results-detail/363723",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bc417e797178ae7c",
+          "locator": "qualification_gate",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a74ea5c0fd9b4adbb0a39c09f8263834/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c40472f2d83434a9",
+          "locator": "qualification_gate",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4863f6824dbc4040889e1d84101f0c96",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:AF-HAR-FY26-03",
-        "label": "Annual Program Statement",
-        "node_id": "opportunity:grants_gov:AF-HAR-FY26-03",
+        "identifier": "sam_gov:19AS2026Q0032",
+        "label": "EdUSA AI & Quantum Technologies Initiative in Australia",
+        "node_id": "opportunity:sam_gov:19AS2026Q0032",
         "node_type": "opportunity"
       },
       "temporal": {
@@ -1620,232 +970,146 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-08-28T08:24:42.158568+00:00",
+        "first_observed_at": "2026-08-29T05:05:39.790622+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-30T02:55:32.256505+00:00",
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-08-27",
+        "last_changed_at": "2026-08-31T02:49:14.453701+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+        "primary_date": "2026-08-28",
         "primary_date_role": "publication_date",
-        "publication_date": "2026-08-27"
+        "publication_date": "2026-08-28"
       },
-      "value": "hold"
+      "value": "targeted review"
     }
   ],
-  "comparison_ended_at": "2026-08-30T02:55:32.256505+00:00",
-  "comparison_started_at": "2026-08-29T05:05:39.790622+00:00",
+  "comparison_ended_at": "2026-08-31T02:49:14.453701+00:00",
+  "comparison_started_at": "2026-08-30T08:49:22.498336+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
     {
       "authority": "authoritative",
       "change_type": "changed",
-      "claim_id": "claim-be543ccb7513ea5b",
+      "claim_id": "claim-27484ee1f9bc8227",
       "claim_ids": [
-        "claim-be543ccb7513ea5b"
+        "claim-27484ee1f9bc8227"
       ],
       "confidence": "high",
-      "effective_date": "2027-06-26",
-      "evidence_title": "ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_1605C226C0006_1605_-NONE-_-NONE-",
+      "effective_date": "2026-07-23",
+      "evidence_title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363293",
       "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
       "grouped_event_count": 1,
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
-      "predicate": "reported_amount",
+      "predicate": "opportunity_status",
       "predicates": [
-        "reported_amount"
+        "opportunity_status"
       ],
       "previous_object": null,
-      "previous_value": 1861375.0,
+      "previous_value": "open",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2e3d8f126779905c",
-          "locator": "reported_amount:1718875.0",
-          "title": "ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1605C226C0006_1605_-NONE-_-NONE-",
+          "evidence_id": "evidence-ebfd7842fdf91927",
+          "locator": "opportunity_status:closed",
+          "title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
+          "url": "https://www.grants.gov/search-results-detail/363293",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:1605C226C0006",
-        "label": "ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS",
-        "node_id": "award:usaspending:1605C226C0006",
-        "node_type": "award"
+        "identifier": "grants_gov:PAS-JAKARTA-FY26-08",
+        "label": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
+        "node_id": "opportunity:grants_gov:PAS-JAKARTA-FY26-08",
+        "node_type": "opportunity"
       },
       "temporal": {
         "classification": "changed_since_prior_run",
-        "date_basis": "USAspending action date",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2027-06-26",
+        "event_date": null,
         "explanation": "The assertion changed relative to the prior successful ledger build.",
         "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
         "historical": false,
         "label": "Changed since prior run",
-        "last_changed_at": "2026-08-30T02:55:32.256505+00:00",
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2027-06-26",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 1718875.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-58ade692cf2d4d0a",
-      "claim_ids": [
-        "claim-58ade692cf2d4d0a"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-07-01",
-      "evidence_title": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "predicates": [
-        "reported_amount"
-      ],
-      "previous_object": null,
-      "previous_value": 445000.0,
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3912dec34c649258",
-          "locator": "reported_amount:505000.0",
-          "title": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80ARC026F7003",
-        "label": "CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7003",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "changed_since_prior_run",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-07-01",
-        "explanation": "The assertion changed relative to the prior successful ledger build.",
-        "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-        "historical": false,
-        "label": "Changed since prior run",
-        "last_changed_at": "2026-08-30T02:55:32.256505+00:00",
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-07-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 505000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5a1c22cafe84c63c",
-      "claim_ids": [
-        "claim-4a5eca4eb79284ec",
-        "claim-5a1c22cafe84c63c",
-        "claim-6edf5f0e95c84860",
-        "claim-f1b833ed231e0fd9"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-08-29",
-      "evidence_title": "58--RADAR HIGH POWER,AI",
-      "evidence_url": "https://sam.gov/workspace/contract/opp/f66ed1b1e931454eba85879053f6e84c/view",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d865e4744003d704",
-          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla aviation philadelphia.dla aviation at philadelphia, pa",
-          "title": "58--RADAR HIGH POWER,AI",
-          "url": "https://sam.gov/workspace/contract/opp/f66ed1b1e931454eba85879053f6e84c/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPRPA125QEU98",
-        "label": "58--RADAR HIGH POWER,AI",
-        "node_id": "award_notice:sam_gov:SPRPA125QEU98",
-        "node_type": "award_notice"
-      },
-      "temporal": {
-        "classification": "published_today",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source publication date is today or within the prior day.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Published today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-08-29",
+        "last_changed_at": "2026-08-31T02:49:14.453701+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+        "primary_date": "2026-07-23",
         "primary_date_role": "publication_date",
-        "publication_date": "2026-08-29"
+        "publication_date": "2026-07-23"
       },
-      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION PHILADELPHIA.DLA AVIATION AT PHILADELPHIA, PA"
+      "value": "closed"
     },
     {
       "authority": "analytical",
       "change_type": "changed",
-      "claim_id": "claim-0d43da524a2c675b",
+      "claim_id": "claim-7a258dbaa60f4994",
       "claim_ids": [
-        "claim-0d43da524a2c675b"
+        "claim-7a258dbaa60f4994"
       ],
       "confidence": "medium",
-      "effective_date": "2026-08-30",
-      "evidence_title": "Annual Program Statement",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363723",
-      "first_observed_at": "2026-08-28T08:24:42.158568+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
+      "first_observed_at": "2026-08-29T05:05:39.790622+00:00",
       "grouped_event_count": 1,
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "predicates": [
         "qualification_gate"
       ],
       "previous_object": null,
-      "previous_value": "hold",
+      "previous_value": "targeted review",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-24201219db7557a4",
+          "evidence_id": "evidence-ece3733c2513bed0",
           "locator": "qualification_gate",
-          "title": "Annual Program Statement",
-          "url": "https://www.grants.gov/search-results-detail/363723",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bc417e797178ae7c",
+          "locator": "qualification_gate",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a74ea5c0fd9b4adbb0a39c09f8263834/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c40472f2d83434a9",
+          "locator": "qualification_gate",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4863f6824dbc4040889e1d84101f0c96",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:AF-HAR-FY26-03",
-        "label": "Annual Program Statement",
-        "node_id": "opportunity:grants_gov:AF-HAR-FY26-03",
+        "identifier": "sam_gov:19AS2026Q0032",
+        "label": "EdUSA AI & Quantum Technologies Initiative in Australia",
+        "node_id": "opportunity:sam_gov:19AS2026Q0032",
         "node_type": "opportunity"
       },
       "temporal": {
@@ -1854,212 +1118,34 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-08-28T08:24:42.158568+00:00",
+        "first_observed_at": "2026-08-29T05:05:39.790622+00:00",
         "historical": false,
         "label": "Evidence trace changed",
-        "last_changed_at": "2026-08-30T02:55:32.256505+00:00",
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-08-27",
+        "last_changed_at": "2026-08-31T02:49:14.453701+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+        "primary_date": "2026-08-28",
         "primary_date_role": "publication_date",
-        "publication_date": "2026-08-27"
+        "publication_date": "2026-08-28"
       },
-      "value": "hold"
+      "value": "targeted review"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-0373ff45b2a25805",
+      "claim_id": "claim-bf5d09d88b2a1d4f",
       "claim_ids": [
-        "claim-0373ff45b2a25805",
-        "claim-5cf82cb8bb61a1ee",
-        "claim-8087fee50ec92e79",
-        "claim-da0bf32433842476"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "evidence_title": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00088N_6925_693JJ322A000004_6925",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-22c2197d84860a32",
-          "locator": "awarding_agency:department of transportation",
-          "title": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00088N_6925_693JJ322A000004_6925",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:693JJ326F00088N",
-        "label": "ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER",
-        "node_id": "award:usaspending:693JJ326F00088N",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-10-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-10-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Transportation"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-64f7c9f455354c11",
-      "claim_ids": [
-        "claim-64f7c9f455354c11",
-        "claim-86d5f812892a0890",
-        "claim-a0458639ffe737b3"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "evidence_title": "OPERATIONS AND MAINTENANCE (O&M) TECHNICAL, OPERATIONAL, CYBERSECURITY, INFRASTRUCTURE, BUSINESS ANALYSIS, AND PROJECT MANAGEMENT SUPPORT.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2099CF26F00020_2099_20341221A00001_2036",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "grouped_event_count": 3,
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "predicates": [
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-139183fa9fec6ac2",
-          "locator": "opportunity_status:awarded",
-          "title": "OPERATIONS AND MAINTENANCE (O&M) TECHNICAL, OPERATIONAL, CYBERSECURITY, INFRASTRUCTURE, BUSINESS ANALYSIS, AND PROJECT MANAGEMENT SUPPORT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF26F00020_2099_20341221A00001_2036",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2099CF26F00020",
-        "label": "OPERATIONS AND MAINTENANCE (O&M) TECHNICAL, OPERATIONAL, CYBERSECURITY, INFRASTRUCTURE, BUSINESS ANALYSIS, AND PROJECT MANAGEMENT SUPPORT.",
-        "node_id": "award:usaspending:2099CF26F00020",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-18",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-09-18",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-62cf31d277e4d3bd",
-      "claim_ids": [
-        "claim-34f0fcb0245ecab1",
-        "claim-4751967e87e4cd71",
-        "claim-62cf31d277e4d3bd",
-        "claim-cd20278264bb25c1"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-09-11",
-      "evidence_title": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0356_1205_NNG15SD60B_8000",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-94d59468b0242fd7",
-          "locator": "awarding_agency:department of agriculture",
-          "title": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0356_1205_NNG15SD60B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:12314426F0356",
-        "label": "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER",
-        "node_id": "award:usaspending:12314426F0356",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-11",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
-        "primary_date": "2026-09-11",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Agriculture"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-237ccb2373e07338",
-      "claim_ids": [
-        "claim-14a63c75dfa37a5b",
-        "claim-17b413992052ab7e",
-        "claim-237ccb2373e07338",
-        "claim-e243fbd3ad3080f0"
+        "claim-72b148944f46948b",
+        "claim-bf5d09d88b2a1d4f",
+        "claim-d86fb2ffc02e3a73",
+        "claim-e32f690985dda69a"
       ],
       "confidence": "high",
       "effective_date": "2026-09-01",
-      "evidence_title": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3084_7009_70US0926D70092069_7009",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "evidence_title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "grouped_event_count": 4,
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "predicates": [
@@ -2073,17 +1159,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f1cc0192c2d0a036",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3084_7009_70US0926D70092069_7009",
+          "evidence_id": "evidence-dcfbb74e2869c84b",
+          "locator": "awarding_agency:department of the treasury",
+          "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:70US0926F3OTH3084",
-        "label": "THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK.",
-        "node_id": "award:usaspending:70US0926F3OTH3084",
+        "identifier": "usaspending:2032H826F00074",
+        "label": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+        "node_id": "award:usaspending:2032H826F00074",
         "node_type": "award"
       },
       "temporal": {
@@ -2091,35 +1177,35 @@
         "date_basis": "USAspending action date",
         "effective_date": null,
         "event_date": "2026-09-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-08-30.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "explanation": "The source date is in the future; Scout first observed it on 2026-08-31.",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Upcoming event date",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": "2026-09-01",
         "primary_date_role": "event_date",
         "publication_date": null
       },
-      "value": "Department of Homeland Security"
+      "value": "Department of the Treasury"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-fddc0b8fc1903e43",
+      "claim_id": "claim-943e69c6bb03dfa3",
       "claim_ids": [
-        "claim-4c43d15d7bf654b2",
-        "claim-90c33d9ca8c85bbb",
-        "claim-9b30cee9b7018b27",
-        "claim-fddc0b8fc1903e43"
+        "claim-097407ea14a4a0d0",
+        "claim-1bd0e6c63df2d4bb",
+        "claim-943e69c6bb03dfa3",
+        "claim-bfdc944ac9f1d695"
       ],
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "GEORGIA TECH RESEARCH CORP",
-      "evidence_url": "https://sam.gov/entity/EMW9FC8J3HN4/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "FLORIDA INTERNATIONAL UNIVERSITY",
+      "evidence_url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "grouped_event_count": 4,
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "cage_code",
       "predicates": [
@@ -2133,17 +1219,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-29d20b5af622fc16",
-          "locator": "cage_code:1g474",
-          "title": "GEORGIA TECH RESEARCH CORP",
-          "url": "https://sam.gov/entity/EMW9FC8J3HN4/coreData",
+          "evidence_id": "evidence-6119edc62b4ba864",
+          "locator": "cage_code:1jhm5",
+          "title": "FLORIDA INTERNATIONAL UNIVERSITY",
+          "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:EMW9FC8J3HN4",
-        "label": "GEORGIA TECH RESEARCH CORP",
-        "node_id": "recipient_or_contractor:uei:EMW9FC8J3HN4",
+        "identifier": "uei:Q3KCVK5S9CP1",
+        "label": "FLORIDA INTERNATIONAL UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:Q3KCVK5S9CP1",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -2152,34 +1238,34 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": "1G474"
+      "value": "1JHM5"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-9caf9428d2ede80b",
+      "claim_id": "claim-3ce5444df1fcae8e",
       "claim_ids": [
-        "claim-0c4282dacf4bbe2e",
-        "claim-48f6b92f29218270",
-        "claim-6bb3efa3095f3bab",
-        "claim-9caf9428d2ede80b"
+        "claim-3ce5444df1fcae8e",
+        "claim-4ac4177a00868c17",
+        "claim-6600991a6b23bebf",
+        "claim-fd57983bd7fcd226"
       ],
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "NEW MEXICO STATE UNIVERSITY",
-      "evidence_url": "https://sam.gov/entity/J3M5GZAT8N85/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "KEAN UNIVERSITY",
+      "evidence_url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "grouped_event_count": 4,
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "cage_code",
       "predicates": [
@@ -2193,17 +1279,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cf07d0a99faa9b88",
-          "locator": "cage_code:3x352",
-          "title": "NEW MEXICO STATE UNIVERSITY",
-          "url": "https://sam.gov/entity/J3M5GZAT8N85/coreData",
+          "evidence_id": "evidence-2e923236674c6a46",
+          "locator": "cage_code:314s6",
+          "title": "KEAN UNIVERSITY",
+          "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:J3M5GZAT8N85",
-        "label": "NEW MEXICO STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:J3M5GZAT8N85",
+        "identifier": "uei:SQ62WM5KNSV8",
+        "label": "KEAN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -2212,34 +1298,34 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": "3X352"
+      "value": "314S6"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-a40fc1d0666ba418",
+      "claim_id": "claim-fc74f0bcd89b56cf",
       "claim_ids": [
-        "claim-1978ea992398cd1d",
-        "claim-25ec16f439872638",
-        "claim-a40fc1d0666ba418",
-        "claim-e3c50bd9c2b373cf"
+        "claim-00c2e4d37bc13c41",
+        "claim-bc1d8771611ec991",
+        "claim-fb97900d6f404cc3",
+        "claim-fc74f0bcd89b56cf"
       ],
       "confidence": "high",
-      "effective_date": "2026-08-30",
-      "evidence_title": "UNIVERSITY OF HOUSTON SYSTEM",
-      "evidence_url": "https://sam.gov/entity/QKWEF8XLMTT3/coreData",
-      "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "effective_date": "2026-08-31",
+      "evidence_title": "UNIVERSITY OF TEXAS AT DALLAS",
+      "evidence_url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "grouped_event_count": 4,
-      "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
       "object": null,
       "predicate": "cage_code",
       "predicates": [
@@ -2253,17 +1339,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fa3dfb03a37416a9",
-          "locator": "cage_code:9b955",
-          "title": "UNIVERSITY OF HOUSTON SYSTEM",
-          "url": "https://sam.gov/entity/QKWEF8XLMTT3/coreData",
+          "evidence_id": "evidence-dc63d4351ba38908",
+          "locator": "cage_code:0w921",
+          "title": "UNIVERSITY OF TEXAS AT DALLAS",
+          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:QKWEF8XLMTT3",
-        "label": "UNIVERSITY OF HOUSTON SYSTEM",
-        "node_id": "recipient_or_contractor:uei:QKWEF8XLMTT3",
+        "identifier": "uei:EJCVPNN1WFS5",
+        "label": "UNIVERSITY OF TEXAS AT DALLAS",
+        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
         "node_type": "recipient_or_contractor"
       },
       "temporal": {
@@ -2272,16 +1358,124 @@
         "effective_date": null,
         "event_date": null,
         "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
-        "first_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "historical": false,
         "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-08-30T02:55:32.256505+00:00",
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
         "primary_date": null,
         "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": "9B955"
+      "value": "0W921"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-2d9a3a18efc8667c",
+      "claim_ids": [
+        "claim-2d9a3a18efc8667c"
+      ],
+      "confidence": "medium",
+      "effective_date": "2026-08-31",
+      "evidence_title": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
+      "evidence_url": "https://www.grants.gov/search-results-detail/352741",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "grouped_event_count": 1,
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "predicates": [
+        "qualification_gate"
+      ],
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5364bc2860922a11",
+          "locator": "qualification_gate",
+          "title": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
+          "url": "https://www.grants.gov/search-results-detail/352741",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:N00173-24-S-BA01",
+        "label": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
+        "node_id": "opportunity:grants_gov:N00173-24-S-BA01",
+        "node_type": "opportunity"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "Source-reported posting/publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "Scout first observed this on 2026-08-31; the source date is 2024-03-01.",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+        "primary_date": "2024-03-01",
+        "primary_date_role": "publication_date",
+        "publication_date": "2024-03-01"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-1991226b3b6063b1",
+      "claim_ids": [
+        "claim-1991226b3b6063b1"
+      ],
+      "confidence": "medium",
+      "effective_date": "2026-08-31",
+      "evidence_title": "Rural Decentralized Water System Grant Program",
+      "evidence_url": "https://www.grants.gov/search-results-detail/363364",
+      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "grouped_event_count": 1,
+      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "predicates": [
+        "qualification_gate"
+      ],
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-28ab73f6c73fda2e",
+          "locator": "qualification_gate",
+          "title": "Rural Decentralized Water System Grant Program",
+          "url": "https://www.grants.gov/search-results-detail/363364",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:RDRUS-26-DWS2",
+        "label": "Rural Decentralized Water System Grant Program",
+        "node_id": "opportunity:grants_gov:RDRUS-26-DWS2",
+        "node_type": "opportunity"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "Source-reported posting/publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "Scout first observed this on 2026-08-31; the source date is 2026-07-28.",
+        "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+        "primary_date": "2026-07-28",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-07-28"
+      },
+      "value": "hold"
     },
     {
       "authority": "authoritative",
@@ -4727,35 +3921,26 @@
   ],
   "scope_note": "Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.",
   "summary": {
-    "actual_or_recent_changes": 6,
+    "actual_or_recent_changes": 1,
     "classifications": {
-      "changed_since_prior_run": 2,
+      "changed_since_prior_run": 1,
       "evidence_changed_since_prior_run": 1,
+      "historical_discovery": 2,
       "newly_observed": 12,
-      "published_today": 4,
       "resolved": 27,
-      "upcoming": 15
+      "upcoming": 4
     },
     "evidence_trace_changes": 1,
-    "historical_discoveries": 0,
-    "material_events": 61,
+    "historical_discoveries": 2,
+    "material_events": 47,
     "newly_observed_undated": 12,
-    "upcoming": 36
+    "upcoming": 34
   },
   "superseded": [],
   "upcoming": [
     {
-      "date": "2026-07-31",
-      "days_remaining": -30,
-      "kind": "mission_milestone",
-      "status": "overdue",
-      "subject": "DARPA Quantum Benchmarking Initiative",
-      "title": "Receive abstracts for the expanded QBIT Stage A solicitation",
-      "url": "https://www.darpa.mil/news/2026/qbi-stage-a-qbit"
-    },
-    {
       "date": "2026-08-21",
-      "days_remaining": -9,
+      "days_remaining": -10,
       "kind": "mission_milestone",
       "status": "awaiting_confirmation",
       "subject": "Genesis Mission",
@@ -4763,17 +3948,8 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/"
     },
     {
-      "date": "2026-08-30",
-      "days_remaining": 0,
-      "kind": "opportunity_deadline",
-      "status": "closing_soon",
-      "subject": "DOS-IDN",
-      "title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
-      "url": "https://www.grants.gov/search-results-detail/363293"
-    },
-    {
       "date": "2026-09-01",
-      "days_remaining": 2,
+      "days_remaining": 1,
       "kind": "opportunity_deadline",
       "status": "closing_soon",
       "subject": "DOS-UKR",
@@ -4782,7 +3958,7 @@
     },
     {
       "date": "2026-09-04",
-      "days_remaining": 5,
+      "days_remaining": 4,
       "kind": "opportunity_deadline",
       "status": "closing_soon",
       "subject": "SBA",
@@ -4791,7 +3967,7 @@
     },
     {
       "date": "2026-09-08",
-      "days_remaining": 9,
+      "days_remaining": 8,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "DOS-SAU",
@@ -4800,7 +3976,7 @@
     },
     {
       "date": "2026-09-08",
-      "days_remaining": 9,
+      "days_remaining": 8,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.US EMBASSY CANBERRA",
@@ -4809,7 +3985,7 @@
     },
     {
       "date": "2026-09-09",
-      "days_remaining": 10,
+      "days_remaining": 9,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "COMMERCE, DEPARTMENT OF.BUREAU OF INDUSTRY AND SECURITY",
@@ -4818,7 +3994,7 @@
     },
     {
       "date": "2026-09-11",
-      "days_remaining": 12,
+      "days_remaining": 11,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "DOI-USGS1",
@@ -4827,7 +4003,7 @@
     },
     {
       "date": "2026-09-13",
-      "days_remaining": 14,
+      "days_remaining": 13,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "DOS-ZWE",
@@ -4836,7 +4012,7 @@
     },
     {
       "date": "2026-09-17",
-      "days_remaining": 18,
+      "days_remaining": 17,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "DOS-SAU",
@@ -4845,7 +4021,7 @@
     },
     {
       "date": "2026-09-20",
-      "days_remaining": 21,
+      "days_remaining": 20,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -4854,7 +4030,7 @@
     },
     {
       "date": "2026-09-20",
-      "days_remaining": 21,
+      "days_remaining": 20,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -4863,7 +4039,7 @@
     },
     {
       "date": "2026-09-21",
-      "days_remaining": 22,
+      "days_remaining": 21,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "USDA-NIFA",
@@ -4872,7 +4048,7 @@
     },
     {
       "date": "2026-09-22",
-      "days_remaining": 23,
+      "days_remaining": 22,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "AI Forge",
@@ -4881,7 +4057,7 @@
     },
     {
       "date": "2026-09-30",
-      "days_remaining": 31,
+      "days_remaining": 30,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -4890,25 +4066,25 @@
     },
     {
       "date": "2026-09-30",
-      "days_remaining": 31,
+      "days_remaining": 30,
       "kind": "opportunity_deadline",
-      "status": "open_window",
+      "status": "closing_this_month",
       "subject": "DOD-ONR-NRL",
       "title": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
       "url": "https://www.grants.gov/search-results-detail/352741"
     },
     {
       "date": "2026-09-30",
-      "days_remaining": 31,
+      "days_remaining": 30,
       "kind": "opportunity_deadline",
-      "status": "open_window",
+      "status": "closing_this_month",
       "subject": "USDA-RUS",
       "title": "Rural Decentralized Water System Grant Program",
       "url": "https://www.grants.gov/search-results-detail/363364"
     },
     {
       "date": "2026-10-02",
-      "days_remaining": 33,
+      "days_remaining": 32,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "HHS-NIH11",
@@ -4917,7 +4093,7 @@
     },
     {
       "date": "2026-10-15",
-      "days_remaining": 46,
+      "days_remaining": 45,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -4926,7 +4102,7 @@
     },
     {
       "date": "2026-11-04",
-      "days_remaining": 66,
+      "days_remaining": 65,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "NSF",
@@ -4935,7 +4111,7 @@
     },
     {
       "date": "2026-11-14",
-      "days_remaining": 76,
+      "days_remaining": 75,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -4944,7 +4120,7 @@
     },
     {
       "date": "2026-11-24",
-      "days_remaining": 86,
+      "days_remaining": 85,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Genesis Mission",
@@ -4953,7 +4129,7 @@
     },
     {
       "date": "2026-12-17",
-      "days_remaining": 109,
+      "days_remaining": 108,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -4962,7 +4138,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 111,
+      "days_remaining": 110,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -4971,7 +4147,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 111,
+      "days_remaining": 110,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -4980,7 +4156,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 111,
+      "days_remaining": 110,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -4989,7 +4165,7 @@
     },
     {
       "date": "2026-12-31",
-      "days_remaining": 123,
+      "days_remaining": 122,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "Project Triad",
@@ -4998,7 +4174,7 @@
     },
     {
       "date": "2027-01-20",
-      "days_remaining": 143,
+      "days_remaining": 142,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "NSF",
@@ -5007,7 +4183,7 @@
     },
     {
       "date": "2027-02-11",
-      "days_remaining": 165,
+      "days_remaining": 164,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "NSF",
@@ -5016,7 +4192,7 @@
     },
     {
       "date": "2027-02-14",
-      "days_remaining": 168,
+      "days_remaining": 167,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "DOS-GHSD",
@@ -5025,7 +4201,7 @@
     },
     {
       "date": "2027-03-19",
-      "days_remaining": 201,
+      "days_remaining": 200,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -5034,7 +4210,7 @@
     },
     {
       "date": "2027-04-05",
-      "days_remaining": 218,
+      "days_remaining": 217,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "NSF",
@@ -5043,7 +4219,7 @@
     },
     {
       "date": "2027-04-05",
-      "days_remaining": 218,
+      "days_remaining": 217,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "DOD-AFOSR",
@@ -5052,7 +4228,7 @@
     },
     {
       "date": "2027-06-22",
-      "days_remaining": 296,
+      "days_remaining": 295,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -5061,7 +4237,7 @@
     },
     {
       "date": "2027-07-27",
-      "days_remaining": 331,
+      "days_remaining": 330,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "NSF",
@@ -5069,6 +4245,6 @@
       "url": "https://www.grants.gov/search-results-detail/363623"
     }
   ],
-  "updated_at": "2026-08-30T02:55:32.256505+00:00",
+  "updated_at": "2026-08-31T02:49:14.453701+00:00",
   "version": 1
 }

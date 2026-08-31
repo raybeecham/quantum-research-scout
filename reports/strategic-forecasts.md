@@ -2,13 +2,13 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-08-30T02:55:32.256505+00:00_
+_Updated 2026-08-31T02:49:14.453701+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
-- Active forecasts: **8**
-- Due within 30 days: **4**
-- Resolved forecasts: **1**
+- Active forecasts: **7**
+- Due within 30 days: **3**
+- Resolved forecasts: **3**
 - Withdrawn without scoring: **2**
 - Calibration: **Needs calibration**
 
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 86% · Genesis Mission
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-28?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-29?
 
 **Horizon:** 2026-10-29
 
@@ -44,7 +44,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 74% · Golden Dome for America
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-28?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-29?
 
 **Horizon:** 2026-10-29
 
@@ -70,7 +70,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 46% · AI Forge
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-11-28?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-11-29?
 
 **Horizon:** 2026-11-21
 
@@ -158,39 +158,17 @@ Will authoritative evidence confirm “Advance selected NSF NQVL projects from d
 - An official source delays, cancels, or materially rescopes the milestone.
 - The confirmation horizon passes without authoritative completion evidence.
 
-### 56% · Genesis Mission
+### 50% · Federal Post-Quantum Cryptography Transition
 
-Will authoritative evidence confirm “Review federal robotic and AI-directed laboratory capabilities” by 2026-09-29?
+Will authoritative evidence confirm “Agencies identify and report their PQC migration leads” by 2026-09-30?
 
-**Horizon:** 2026-08-30
-
-**Why:** The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.
-
-**Evidence**
-
-- [Review federal robotic and AI-directed laboratory capabilities](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/) — official milestone · 2026-07-22
-
-**Confirming indicators**
-
-- An official update states that the milestone was completed or delivered.
-- A resulting award, demonstration, report, or implementation artifact is published.
-
-**Disconfirming indicators**
-
-- An official source delays, cancels, or materially rescopes the milestone.
-- The confirmation horizon passes without authoritative completion evidence.
-
-### 52% · Military AI Pace-Setting Projects
-
-Will authoritative evidence confirm “Conduct initial Pace-Setting Project demonstrations with transition-partner users” by 2026-09-29?
-
-**Horizon:** 2026-08-30
+**Horizon:** 2026-09-30
 
 **Why:** The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.
 
 **Evidence**
 
-- [Conduct initial Pace-Setting Project demonstrations with transition-partner users](https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF) — official milestone · 2026-07-09
+- [Agencies identify and report their PQC migration leads](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) — official milestone · 2026-07-22
 
 **Confirming indicators**
 
@@ -204,6 +182,8 @@ Will authoritative evidence confirm “Conduct initial Pace-Setting Project demo
 
 ## Resolved and scored
 
+- **Did not occur** · Will authoritative evidence confirm “Conduct initial Pace-Setting Project demonstrations with transition-partner users” by 2026-09-30? · closing probability 51% · Brier 0.2601
+- **Did not occur** · Will authoritative evidence confirm “Review federal robotic and AI-directed laboratory capabilities” by 2026-09-30? · closing probability 56% · Brier 0.3136
 - **Did not occur** · Will authoritative evidence confirm “Receive abstracts for the expanded QBIT Stage A solicitation” by 2026-09-07? · closing probability 65% · Brier 0.4225
 
 ## Withdrawn without scoring

@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-08-30",
+  "as_of_date": "2026-08-31",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,792 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-72b148944f46948b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-01",
+      "evidence_ids": [
+        "evidence-1e6aab0b166f0d50"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1e6aab0b166f0d50",
+          "locator": "opportunity_status:awarded",
+          "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2032H826F00074",
+        "label": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+        "node_id": "award:usaspending:2032H826F00074",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "943278bfced91cba"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-bf5d09d88b2a1d4f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-01",
+      "evidence_ids": [
+        "evidence-dcfbb74e2869c84b"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-dcfbb74e2869c84b",
+          "locator": "awarding_agency:department of the treasury",
+          "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2032H826F00074",
+        "label": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+        "node_id": "award:usaspending:2032H826F00074",
+        "node_type": "award"
+      },
+      "value": "Department of the Treasury",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "afc7f5ad0f999b7a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-e32f690985dda69a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-01",
+      "evidence_ids": [
+        "evidence-e29c5939bb2326bb"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e29c5939bb2326bb",
+          "locator": "reported_amount:485864.89",
+          "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2032H826F00074",
+        "label": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+        "node_id": "award:usaspending:2032H826F00074",
+        "node_type": "award"
+      },
+      "value": 485864.89,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3587b844074e6384"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-d86fb2ffc02e3a73",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-01",
+      "evidence_ids": [
+        "evidence-628bb5abe2c882c9"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:NND1JNX2JBJ1",
+        "label": "UNISON VIRTUAL ACQUISITION OFFICE LLC",
+        "node_id": "recipient_or_contractor:uei:NND1JNX2JBJ1",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-628bb5abe2c882c9",
+          "locator": "reported_recipient:recipient_or_contractor:uei:NND1JNX2JBJ1",
+          "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2032H826F00074",
+        "label": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+        "node_id": "award:usaspending:2032H826F00074",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6193e15d0fc2baa2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-27484ee1f9bc8227",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-23",
+      "evidence_ids": [
+        "evidence-ebfd7842fdf91927"
+      ],
+      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported status in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-50b90ae007c18d8c"
+          ],
+          "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "object": null,
+          "status": "active",
+          "value": "open",
+          "version": 1,
+          "version_hash": "b20a2d1845c2602b"
+        }
+      ],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ebfd7842fdf91927",
+          "locator": "opportunity_status:closed",
+          "title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
+          "url": "https://www.grants.gov/search-results-detail/363293",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PAS-JAKARTA-FY26-08",
+        "label": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
+        "node_id": "opportunity:grants_gov:PAS-JAKARTA-FY26-08",
+        "node_type": "opportunity"
+      },
+      "value": "closed",
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "5ba9c61ab43b416d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-fb97900d6f404cc3",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-462989fc831ab37f"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-462989fc831ab37f",
+          "locator": "legal_business_name:university of texas at dallas",
+          "title": "UNIVERSITY OF TEXAS AT DALLAS",
+          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:EJCVPNN1WFS5",
+        "label": "UNIVERSITY OF TEXAS AT DALLAS",
+        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "UNIVERSITY OF TEXAS AT DALLAS",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "0f48a8bf832dc311"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-00c2e4d37bc13c41",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-afa907aafe53fc3c"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-afa907aafe53fc3c",
+          "locator": "uei:ejcvpnn1wfs5",
+          "title": "UNIVERSITY OF TEXAS AT DALLAS",
+          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:EJCVPNN1WFS5",
+        "label": "UNIVERSITY OF TEXAS AT DALLAS",
+        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "EJCVPNN1WFS5",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e61a5ee3c67891c4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-fc74f0bcd89b56cf",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-dc63d4351ba38908"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-dc63d4351ba38908",
+          "locator": "cage_code:0w921",
+          "title": "UNIVERSITY OF TEXAS AT DALLAS",
+          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:EJCVPNN1WFS5",
+        "label": "UNIVERSITY OF TEXAS AT DALLAS",
+        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "0W921",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "34367eaac2f038fa"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-bc1d8771611ec991",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-0d4d264f6d3b7a9e"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0d4d264f6d3b7a9e",
+          "locator": "registration_status:active",
+          "title": "UNIVERSITY OF TEXAS AT DALLAS",
+          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:EJCVPNN1WFS5",
+        "label": "UNIVERSITY OF TEXAS AT DALLAS",
+        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e792494b6726d598"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-fd57983bd7fcd226",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-854b38f0f246a554"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-854b38f0f246a554",
+          "locator": "legal_business_name:kean university",
+          "title": "KEAN UNIVERSITY",
+          "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:SQ62WM5KNSV8",
+        "label": "KEAN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "KEAN UNIVERSITY",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "a0caef6ac8473dfa"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-6600991a6b23bebf",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-d7fd00314937f307"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d7fd00314937f307",
+          "locator": "uei:sq62wm5knsv8",
+          "title": "KEAN UNIVERSITY",
+          "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:SQ62WM5KNSV8",
+        "label": "KEAN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "SQ62WM5KNSV8",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "56d23ef254cf72cb"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-3ce5444df1fcae8e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-2e923236674c6a46"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2e923236674c6a46",
+          "locator": "cage_code:314s6",
+          "title": "KEAN UNIVERSITY",
+          "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:SQ62WM5KNSV8",
+        "label": "KEAN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "314S6",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ec164e7f357adcc4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-4ac4177a00868c17",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-cb6b096bd750dae6"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cb6b096bd750dae6",
+          "locator": "registration_status:active",
+          "title": "KEAN UNIVERSITY",
+          "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:SQ62WM5KNSV8",
+        "label": "KEAN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "97466551605b969e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-bfdc944ac9f1d695",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-544613ca402a9084"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-544613ca402a9084",
+          "locator": "legal_business_name:florida international university",
+          "title": "FLORIDA INTERNATIONAL UNIVERSITY",
+          "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:Q3KCVK5S9CP1",
+        "label": "FLORIDA INTERNATIONAL UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:Q3KCVK5S9CP1",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "FLORIDA INTERNATIONAL UNIVERSITY",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "76366f245f205b83"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-1bd0e6c63df2d4bb",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-2554536eff13c457"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2554536eff13c457",
+          "locator": "uei:q3kcvk5s9cp1",
+          "title": "FLORIDA INTERNATIONAL UNIVERSITY",
+          "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:Q3KCVK5S9CP1",
+        "label": "FLORIDA INTERNATIONAL UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:Q3KCVK5S9CP1",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Q3KCVK5S9CP1",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "afd22e8a6fced36e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-943e69c6bb03dfa3",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-6119edc62b4ba864"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6119edc62b4ba864",
+          "locator": "cage_code:1jhm5",
+          "title": "FLORIDA INTERNATIONAL UNIVERSITY",
+          "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:Q3KCVK5S9CP1",
+        "label": "FLORIDA INTERNATIONAL UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:Q3KCVK5S9CP1",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "1JHM5",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "769805899109b395"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-097407ea14a4a0d0",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-2e4762f85a549a9b"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2e4762f85a549a9b",
+          "locator": "registration_status:active",
+          "title": "FLORIDA INTERNATIONAL UNIVERSITY",
+          "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:Q3KCVK5S9CP1",
+        "label": "FLORIDA INTERNATIONAL UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:Q3KCVK5S9CP1",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "25d668e6a99ff337"
     },
     {
       "authority": "authoritative",
@@ -42046,67 +42832,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-bedfb74878c4f77c",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-22",
-      "evidence_ids": [
-        "evidence-0114ceed5d3ce3b4"
-      ],
-      "first_seen_at": "2026-08-11T01:10:04.632160+00:00",
-      "history": [
-        {
-          "authority": "authoritative",
-          "basis": "Reported status in the federal record",
-          "confidence": "high",
-          "evidence_ids": [
-            "evidence-28d9e86852aea538"
-          ],
-          "first_seen_at": "2026-08-11T01:10:04.632160+00:00",
-          "last_seen_at": "2026-08-11T01:10:04.632160+00:00",
-          "object": null,
-          "status": "active",
-          "value": "open",
-          "version": 1,
-          "version_hash": "17781f04f42f1108"
-        }
-      ],
-      "last_seen_at": "2026-08-21T00:53:56.854986+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0114ceed5d3ce3b4",
-          "locator": "opportunity_status:closed",
-          "title": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
-          "url": "https://www.grants.gov/search-results-detail/363269",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:PDS-APS-FY26-01",
-        "label": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
-        "node_id": "opportunity:grants_gov:PDS-APS-FY26-01",
-        "node_type": "opportunity"
-      },
-      "value": "closed",
-      "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "f5da4bbb44875683"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-d293dd93b805fa4c",
       "confidence": "high",
@@ -42644,6 +43369,67 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "a1068691d8ccf5df"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-bedfb74878c4f77c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-22",
+      "evidence_ids": [
+        "evidence-0114ceed5d3ce3b4"
+      ],
+      "first_seen_at": "2026-08-11T01:10:04.632160+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported status in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-28d9e86852aea538"
+          ],
+          "first_seen_at": "2026-08-11T01:10:04.632160+00:00",
+          "last_seen_at": "2026-08-11T01:10:04.632160+00:00",
+          "object": null,
+          "status": "active",
+          "value": "open",
+          "version": 1,
+          "version_hash": "17781f04f42f1108"
+        }
+      ],
+      "last_seen_at": "2026-08-21T00:53:56.854986+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0114ceed5d3ce3b4",
+          "locator": "opportunity_status:closed",
+          "title": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
+          "url": "https://www.grants.gov/search-results-detail/363269",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PDS-APS-FY26-01",
+        "label": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
+        "node_id": "opportunity:grants_gov:PDS-APS-FY26-01",
+        "node_type": "opportunity"
+      },
+      "value": "closed",
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "f5da4bbb44875683"
     },
     {
       "authority": "authoritative",
@@ -65100,96 +65886,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-19c40b3c9df0062b",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-22",
-      "evidence_ids": [
-        "evidence-c1900d1588eaa81a"
-      ],
-      "first_seen_at": "2026-08-11T01:10:04.632160+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-11T01:10:04.632160+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c1900d1588eaa81a",
-          "locator": "deadline:08/20/2026",
-          "title": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
-          "url": "https://www.grants.gov/search-results-detail/363269",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:PDS-APS-FY26-01",
-        "label": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
-        "node_id": "opportunity:grants_gov:PDS-APS-FY26-01",
-        "node_type": "opportunity"
-      },
-      "value": "08/20/2026",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "61c050597186880f"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-484d9e71c494b542",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-22",
-      "evidence_ids": [
-        "evidence-f963ef5a5d46565e"
-      ],
-      "first_seen_at": "2026-08-11T01:10:04.632160+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-11T01:10:04.632160+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f963ef5a5d46565e",
-          "locator": "awarding_agency:dos-nga",
-          "title": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
-          "url": "https://www.grants.gov/search-results-detail/363269",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:PDS-APS-FY26-01",
-        "label": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
-        "node_id": "opportunity:grants_gov:PDS-APS-FY26-01",
-        "node_type": "opportunity"
-      },
-      "value": "DOS-NGA",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "02b34cbcf67456f0"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-f4c4871b31b4150e",
       "confidence": "high",
@@ -65727,6 +66423,96 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "0185ce3a9d9e772b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-19c40b3c9df0062b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-22",
+      "evidence_ids": [
+        "evidence-c1900d1588eaa81a"
+      ],
+      "first_seen_at": "2026-08-11T01:10:04.632160+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-11T01:10:04.632160+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c1900d1588eaa81a",
+          "locator": "deadline:08/20/2026",
+          "title": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
+          "url": "https://www.grants.gov/search-results-detail/363269",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PDS-APS-FY26-01",
+        "label": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
+        "node_id": "opportunity:grants_gov:PDS-APS-FY26-01",
+        "node_type": "opportunity"
+      },
+      "value": "08/20/2026",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "61c050597186880f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-484d9e71c494b542",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-22",
+      "evidence_ids": [
+        "evidence-f963ef5a5d46565e"
+      ],
+      "first_seen_at": "2026-08-11T01:10:04.632160+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-11T01:10:04.632160+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f963ef5a5d46565e",
+          "locator": "awarding_agency:dos-nga",
+          "title": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
+          "url": "https://www.grants.gov/search-results-detail/363269",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PDS-APS-FY26-01",
+        "label": "U.S-Nigeria Creative, Digital, & Innovation Economy Initiative",
+        "node_id": "opportunity:grants_gov:PDS-APS-FY26-01",
+        "node_type": "opportunity"
+      },
+      "value": "DOS-NGA",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "02b34cbcf67456f0"
     },
     {
       "authority": "authoritative",
@@ -131970,51 +132756,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-27484ee1f9bc8227",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-23",
-      "evidence_ids": [
-        "evidence-50b90ae007c18d8c"
-      ],
-      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "history": [],
-      "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-50b90ae007c18d8c",
-          "locator": "opportunity_status:open",
-          "title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
-          "url": "https://www.grants.gov/search-results-detail/363293",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:PAS-JAKARTA-FY26-08",
-        "label": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
-        "node_id": "opportunity:grants_gov:PAS-JAKARTA-FY26-08",
-        "node_type": "opportunity"
-      },
-      "value": "open",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "b20a2d1845c2602b"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Reported close date in the federal record",
       "claim_id": "claim-7afaf0d56aea8509",
       "confidence": "high",
@@ -175706,132 +176447,7 @@
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 23 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-0d43da524a2c675b",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_this_month +9",
-              "technology fit +4"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363723"
-            ],
-            "points": 31
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363723"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-0c41f4c70601939d",
-          "evidence-24201219db7557a4"
-        ],
-        "input_claim_hashes": {
-          "claim-2daff13dc4e73862": "533d9a2e83874127"
-        },
-        "input_claim_ids": [
-          "claim-2daff13dc4e73862"
-        ],
-        "input_claim_versions": {
-          "claim-2daff13dc4e73862": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 23,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363723"
-        ],
-        "trace_complete": true,
-        "trace_hash": "81a5ed74896d43e1",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-2daff13dc4e73862"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-08-30",
-      "evidence_ids": [
-        "evidence-24201219db7557a4"
-      ],
-      "first_seen_at": "2026-08-28T08:24:42.158568+00:00",
-      "history": [
-        {
-          "authority": "analytical",
-          "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
-          "confidence": "medium",
-          "evidence_ids": [
-            "evidence-24201219db7557a4"
-          ],
-          "first_seen_at": "2026-08-28T08:24:42.158568+00:00",
-          "last_seen_at": "2026-08-28T08:24:42.158568+00:00",
-          "object": null,
-          "status": "active",
-          "value": "hold",
-          "version": 1,
-          "version_hash": "6c5d9fc6832ad946"
-        }
-      ],
-      "last_seen_at": "2026-08-30T02:55:32.256505+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-24201219db7557a4",
-          "locator": "qualification_gate",
-          "title": "Annual Program Statement",
-          "url": "https://www.grants.gov/search-results-detail/363723",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:AF-HAR-FY26-03",
-        "label": "Annual Program Statement",
-        "node_id": "opportunity:grants_gov:AF-HAR-FY26-03",
-        "node_type": "opportunity"
-      },
-      "value": "hold",
-      "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "0148e3685b89573c"
-    },
-    {
-      "authority": "analytical",
-      "basis": "Deterministic qualification score 49 / 100 with 96 / 100 evidence completeness",
+      "basis": "Deterministic qualification score 44 / 100 with 96 / 100 evidence completeness",
       "claim_id": "claim-7a258dbaa60f4994",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -175842,14 +176458,13 @@
               "strategic significance +10",
               "actionable procurement_opportunity +8",
               "closing_this_month +9",
-              "technology fit +8",
-              "new since yesterday +5"
+              "technology fit +8"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view"
             ],
-            "points": 40
+            "points": 35
           },
           {
             "basis": [
@@ -175992,7 +176607,7 @@
         },
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 49,
+        "public_evidence_score": 44,
         "requires_revalidation": false,
         "source_urls": [
           "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
@@ -176034,7 +176649,7 @@
         ],
         "rule": "procurement_intelligence._build_decision_briefs"
       },
-      "effective_date": "2026-08-29",
+      "effective_date": "2026-08-31",
       "evidence_ids": [
         "evidence-ece3733c2513bed0",
         "evidence-bc417e797178ae7c",
@@ -176042,8 +176657,27 @@
         "evidence-075bdcb08b78b6b5"
       ],
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 49 / 100 with 96 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-ece3733c2513bed0",
+            "evidence-bc417e797178ae7c",
+            "evidence-c40472f2d83434a9",
+            "evidence-075bdcb08b78b6b5"
+          ],
+          "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+          "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+          "object": null,
+          "status": "active",
+          "value": "targeted review",
+          "version": 1,
+          "version_hash": "2b1017f133741ef8"
+        }
+      ],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
       "missing_observations": 0,
       "object": null,
       "observation_status": "observed",
@@ -176099,8 +176733,351 @@
       },
       "value": "targeted review",
       "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "431a038b683dd9cd"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 24 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-2d9a3a18efc8667c",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable baa +10",
+              "closing_this_month +9",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/352741"
+            ],
+            "points": 32
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/352741"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-5364bc2860922a11",
+          "evidence-9af19d83a8602720"
+        ],
+        "input_claim_hashes": {
+          "claim-bc10e5916b99a7b3": "13454335b50ce595"
+        },
+        "input_claim_ids": [
+          "claim-bc10e5916b99a7b3"
+        ],
+        "input_claim_versions": {
+          "claim-bc10e5916b99a7b3": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 24,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/352741"
+        ],
+        "trace_complete": true,
+        "trace_hash": "317c8ff65e0fc6f9",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-bc10e5916b99a7b3"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-5364bc2860922a11"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5364bc2860922a11",
+          "locator": "qualification_gate",
+          "title": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
+          "url": "https://www.grants.gov/search-results-detail/352741",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:N00173-24-S-BA01",
+        "label": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
+        "node_id": "opportunity:grants_gov:N00173-24-S-BA01",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
       "version": 1,
-      "version_hash": "2b1017f133741ef8"
+      "version_hash": "6246a86779d36b04"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 23 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-1991226b3b6063b1",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_this_month +9",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363364"
+            ],
+            "points": 31
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363364"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-28ab73f6c73fda2e",
+          "evidence-7022f97a251b4a57"
+        ],
+        "input_claim_hashes": {
+          "claim-0f419ae42f6650e9": "99b4a58dfa7c8517"
+        },
+        "input_claim_ids": [
+          "claim-0f419ae42f6650e9"
+        ],
+        "input_claim_versions": {
+          "claim-0f419ae42f6650e9": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 23,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363364"
+        ],
+        "trace_complete": true,
+        "trace_hash": "18f8ec7ccc1eeb54",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-0f419ae42f6650e9"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-28ab73f6c73fda2e"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-28ab73f6c73fda2e",
+          "locator": "qualification_gate",
+          "title": "Rural Decentralized Water System Grant Program",
+          "url": "https://www.grants.gov/search-results-detail/363364",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:RDRUS-26-DWS2",
+        "label": "Rural Decentralized Water System Grant Program",
+        "node_id": "opportunity:grants_gov:RDRUS-26-DWS2",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "01d19cd4ea2677d6"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 23 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-0d43da524a2c675b",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_this_month +9",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363723"
+            ],
+            "points": 31
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363723"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-0c41f4c70601939d",
+          "evidence-24201219db7557a4"
+        ],
+        "input_claim_hashes": {
+          "claim-2daff13dc4e73862": "533d9a2e83874127"
+        },
+        "input_claim_ids": [
+          "claim-2daff13dc4e73862"
+        ],
+        "input_claim_versions": {
+          "claim-2daff13dc4e73862": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 23,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363723"
+        ],
+        "trace_complete": true,
+        "trace_hash": "81a5ed74896d43e1",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-2daff13dc4e73862"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-30",
+      "evidence_ids": [
+        "evidence-24201219db7557a4"
+      ],
+      "first_seen_at": "2026-08-28T08:24:42.158568+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-24201219db7557a4"
+          ],
+          "first_seen_at": "2026-08-28T08:24:42.158568+00:00",
+          "last_seen_at": "2026-08-28T08:24:42.158568+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 1,
+          "version_hash": "6c5d9fc6832ad946"
+        }
+      ],
+      "last_seen_at": "2026-08-30T02:55:32.256505+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-24201219db7557a4",
+          "locator": "qualification_gate",
+          "title": "Annual Program Statement",
+          "url": "https://www.grants.gov/search-results-detail/363723",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:AF-HAR-FY26-03",
+        "label": "Annual Program Statement",
+        "node_id": "opportunity:grants_gov:AF-HAR-FY26-03",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "0148e3685b89573c"
     },
     {
       "authority": "analytical",
@@ -176808,105 +177785,6 @@
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 20 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-893a9c7ee121e0cc",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +11",
-              "actionable grant_opportunity +9",
-              "technology fit +8"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/355385"
-            ],
-            "points": 28
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/355385"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-6fc5d1fdea685333"
-        ],
-        "input_claim_hashes": {},
-        "input_claim_ids": [],
-        "input_claim_versions": {},
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 20,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/355385"
-        ],
-        "trace_complete": true,
-        "trace_hash": "9299e1f8712e4517",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-08-29",
-      "evidence_ids": [
-        "evidence-6fc5d1fdea685333"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6fc5d1fdea685333",
-          "locator": "qualification_gate",
-          "title": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
-          "url": "https://www.grants.gov/search-results-detail/355385",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:ESP24NOFODEFENSAYYO5",
-        "label": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
-        "node_id": "opportunity:grants_gov:ESP24NOFODEFENSAYYO5",
-        "node_type": "opportunity"
-      },
-      "value": "hold",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "acef2c88f2e923e7"
-    },
-    {
-      "authority": "analytical",
       "basis": "Deterministic qualification score 19 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-5a0b3e4bdf4ab948",
       "confidence": "medium",
@@ -177059,6 +177937,105 @@
       "verification_status": "source_reported",
       "version": 4,
       "version_hash": "6204586e80de82df"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 20 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-893a9c7ee121e0cc",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +11",
+              "actionable grant_opportunity +9",
+              "technology fit +8"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/355385"
+            ],
+            "points": 28
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/355385"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-6fc5d1fdea685333"
+        ],
+        "input_claim_hashes": {},
+        "input_claim_ids": [],
+        "input_claim_versions": {},
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 20,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/355385"
+        ],
+        "trace_complete": true,
+        "trace_hash": "9299e1f8712e4517",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-08-29",
+      "evidence_ids": [
+        "evidence-6fc5d1fdea685333"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6fc5d1fdea685333",
+          "locator": "qualification_gate",
+          "title": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
+          "url": "https://www.grants.gov/search-results-detail/355385",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:ESP24NOFODEFENSAYYO5",
+        "label": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
+        "node_id": "opportunity:grants_gov:ESP24NOFODEFENSAYYO5",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "acef2c88f2e923e7"
     },
     {
       "authority": "analytical",
@@ -178998,9 +179975,9 @@
         }
       ],
       "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -198787,7 +199764,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -198834,7 +199811,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -198881,7 +199858,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -198928,7 +199905,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -198975,7 +199952,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199022,7 +199999,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199069,7 +200046,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199116,7 +200093,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199163,7 +200140,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199210,7 +200187,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199257,7 +200234,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199304,7 +200281,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199351,7 +200328,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199398,7 +200375,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199445,7 +200422,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199492,7 +200469,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199539,7 +200516,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199586,7 +200563,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199638,7 +200615,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199690,7 +200667,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199742,7 +200719,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199794,7 +200771,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199846,7 +200823,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199898,7 +200875,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -199950,7 +200927,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -200002,7 +200979,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -200054,7 +201031,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-08-30T08:49:22.498336+00:00",
+      "retracted_at": "2026-08-31T02:49:14.453701+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202410,6 +203387,16 @@
       "locator": "opportunity_status:open",
       "title": "U.S. National Science Foundation State and Regional Artificial Intelligence Infrastructure Hubs:",
       "url": "https://www.grants.gov/search-results-detail/363481",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0d4d264f6d3b7a9e",
+      "locator": "registration_status:active",
+      "title": "UNIVERSITY OF TEXAS AT DALLAS",
+      "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -205036,6 +206023,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-1e6aab0b166f0d50",
+      "locator": "opportunity_status:awarded",
+      "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-1e71c9eadaf1b558",
       "locator": "opportunity_status:awarded",
       "title": "CREDENTIALING. 2(D).",
@@ -206096,6 +207093,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-2554536eff13c457",
+      "locator": "uei:q3kcvk5s9cp1",
+      "title": "FLORIDA INTERNATIONAL UNIVERSITY",
+      "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-2556a381774e52f0",
       "locator": "reported_recipient:recipient_or_contractor:uei:M7PNRH24BBM8",
       "title": "EPSCOR RESEARCH FELLOWS: NSF: FROM MAGNETIC COMPETITION TO FUNCTION: SPONTANEOUS MAGNETIZATION REVERSAL AS A DESIGN PRINCIPLE -THIS RESEARCH INFRASTRUCTURE IMPROVEMENT (RII) EPSCO...",
@@ -206560,6 +207567,16 @@
       "locator": "awarding_agency:department of defense",
       "title": "PROJECT ARES (ADVANCED RECONFIGURABLE AND EVOLVING SWARM) A QUANTUM-SECURE GENERATIVE ARTIFICIAL INTELLIGENCE FOR ROBUST AND ADAPTIVE DRONE SWARMS",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0198_9700_-NONE-_-NONE-/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-28ab73f6c73fda2e",
+      "locator": "qualification_gate",
+      "title": "Rural Decentralized Water System Grant Program",
+      "url": "https://www.grants.gov/search-results-detail/363364",
       "verification_status": "source_reported"
     },
     {
@@ -207547,6 +208564,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-2e4762f85a549a9b",
+      "locator": "registration_status:active",
+      "title": "FLORIDA INTERNATIONAL UNIVERSITY",
+      "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-2e584e20fa72ab38",
       "locator": "opportunity_status:awarded",
       "title": "CAREER: EXPLOITING SYMMETRY FOR EXTREME-SCALE CONSTRAINED DYNAMICAL SYSTEMS -AUTOMATION AND ARTIFICIAL INTELLIGENCE ARE TRANSFORMING SOCIETY, INCREASING PRODUCTIVITY BY IMPROVING...",
@@ -207572,6 +208599,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2415fd600d1843909dadb6bd0a60075a/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-2e923236674c6a46",
+      "locator": "cage_code:314s6",
+      "title": "KEAN UNIVERSITY",
+      "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -211177,6 +212214,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-462989fc831ab37f",
+      "locator": "legal_business_name:university of texas at dallas",
+      "title": "UNIVERSITY OF TEXAS AT DALLAS",
+      "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-4632e6d3a9f82d51",
       "locator": "opportunity_status:open",
       "title": "28--BLADE,COMPRESSOR,AI",
@@ -213037,16 +214084,6 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
-      "evidence_id": "evidence-50b90ae007c18d8c",
-      "locator": "opportunity_status:open",
-      "title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
-      "url": "https://www.grants.gov/search-results-detail/363293",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
       "evidence_id": "evidence-50ce4d66d59ad9ed",
       "locator": "registration_status:active",
       "title": "QUANTUM FOODS INC",
@@ -213467,6 +214504,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-5364bc2860922a11",
+      "locator": "qualification_gate",
+      "title": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
+      "url": "https://www.grants.gov/search-results-detail/352741",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-53804c8b2c35485e",
       "locator": "awarding_agency:nsf",
       "title": "Security, Privacy, and Trust in Cyberspace",
@@ -213581,6 +214628,16 @@
       "locator": "deadline:2026-09-01",
       "title": "15--PANEL,STRUCTURAL,AI",
       "url": "https://sam.gov/workspace/contract/opp/7e399176415443d480b3157622217aaa/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-544613ca402a9084",
+      "locator": "legal_business_name:florida international university",
+      "title": "FLORIDA INTERNATIONAL UNIVERSITY",
+      "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -215457,6 +216514,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-6119edc62b4ba864",
+      "locator": "cage_code:1jhm5",
+      "title": "FLORIDA INTERNATIONAL UNIVERSITY",
+      "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-615fb28eb06e8457",
       "locator": "reported_amount:878485.0",
       "title": "COLLABORATIVE RESEARCH: SUSTAINED RESOURCES: ADVANCING AND EXPANDING THE VOLCANOLOGY INFRASTRUCTURE FOR COMPUTATIONAL TOOLS AND RESOURCES -COMPUTER MODELS ARE VITAL TO UNDERSTANDI...",
@@ -215621,6 +216688,16 @@
       "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
       "title": "15--PANEL,STRUCTURAL,AI",
       "url": "https://sam.gov/workspace/contract/opp/ec1f2235e7d542c6b5c19ea1053658ea/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-628bb5abe2c882c9",
+      "locator": "reported_recipient:recipient_or_contractor:uei:NND1JNX2JBJ1",
+      "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
       "verification_status": "source_reported"
     },
     {
@@ -220951,6 +222028,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:KL36P1L5H833",
       "title": "PSA CALL 1367 - REGIONAL DIGITAL TRADE AND CYBERSECURITY WORKSHOP TASHKENT NOV26",
       "url": "https://www.usaspending.gov/award/CONT_AWD_1331L526F13OS0349_1301_1331L522A13OS1004_1301",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-854b38f0f246a554",
+      "locator": "legal_business_name:kean university",
+      "title": "KEAN UNIVERSITY",
+      "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -227497,6 +228584,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-afa907aafe53fc3c",
+      "locator": "uei:ejcvpnn1wfs5",
+      "title": "UNIVERSITY OF TEXAS AT DALLAS",
+      "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-afaec0da2261c370",
       "locator": "reported_recipient:recipient_or_contractor:uei:YEALULA7ZVC5",
       "title": "TECHNICAL WORKFORCE DEVELOPMENT & TRAINING - ARTIFICIAL INTELLIGENCE ENGINEER WORKFORCE DEVELOPMENT",
@@ -231905,6 +233002,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-cb6b096bd750dae6",
+      "locator": "registration_status:active",
+      "title": "KEAN UNIVERSITY",
+      "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "68c424315ddf8acce77116ac3dd77a684ffa27afa9d775a5b8fd8d2512c8651f",
       "controlling_status": "not_established",
       "evidence_id": "evidence-cb73d01cdc63ff62",
@@ -233997,6 +235104,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d7fd00314937f307",
+      "locator": "uei:sq62wm5knsv8",
+      "title": "KEAN UNIVERSITY",
+      "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-d7ffb79977f48375",
       "locator": "qualification_gate",
       "title": "15--ARMOR ASSY PANEL AI",
@@ -234735,6 +235852,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-dc63d4351ba38908",
+      "locator": "cage_code:0w921",
+      "title": "UNIVERSITY OF TEXAS AT DALLAS",
+      "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "905ac5d78d22096891324d000c72f3d2afe09b089de2b06c149534d6e87bdc8e",
       "controlling_status": "not_established",
       "evidence_id": "evidence-dc641c77e00f409d",
@@ -234831,6 +235958,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:Y8CWNJRCNN91",
       "title": "CICI: IPAAI: VERITAS - VERIFIED INFRASTRUCTURE FOR TRUSTWORTHY AI IN SCIENCE -ARTIFICIAL INTELLIGENCE (AI) HAS BECOME ESSENTIAL TO SCIENTIFIC DISCOVERY, YET ITS RAPID ADOPTION INT...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2613693_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-dcfbb74e2869c84b",
+      "locator": "awarding_agency:department of the treasury",
+      "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
       "verification_status": "source_reported"
     },
     {
@@ -235861,6 +236998,16 @@
       "locator": "opportunity_status:awarded",
       "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2549233_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e29c5939bb2326bb",
+      "locator": "reported_amount:485864.89",
+      "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
       "verification_status": "source_reported"
     },
     {
@@ -237421,6 +238568,16 @@
       "locator": "qualification_gate",
       "title": "NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI",
       "url": "https://www.grants.gov/search-results-detail/361318",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ebfd7842fdf91927",
+      "locator": "opportunity_status:closed",
+      "title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
+      "url": "https://www.grants.gov/search-results-detail/363293",
       "verification_status": "source_reported"
     },
     {
@@ -240687,16 +241844,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 3949,
-    "authoritative_claims": 3762,
+    "active_claims": 3967,
+    "authoritative_claims": 3778,
     "conflicted_claims": 38,
-    "derived_claims": 184,
-    "evidence_items": 4060,
-    "source_urls": 1120,
-    "subjects": 770,
+    "derived_claims": 186,
+    "evidence_items": 4078,
+    "source_urls": 1124,
+    "subjects": 774,
     "superseded_claims": 0,
-    "total_claims": 3976
+    "total_claims": 3994
   },
-  "updated_at": "2026-08-30T08:49:22.498336+00:00",
+  "updated_at": "2026-08-31T02:49:14.453701+00:00",
   "version": 1
 }

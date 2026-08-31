@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-08-30 08:49 UTC_
+_Updated 2026-08-31 02:55 UTC_
 
 ## Organizations
 
@@ -39,7 +39,7 @@ _Updated 2026-08-30 08:49 UTC_
 | Google Quantum AI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-27 | 2026-06-27 | 1 | 0 |
 | IETF | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-08-28 | 2026-08-28 | 1 | 0 |
 | Open Quantum Safe | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-27 | 2026-07-27 | 1 | 0 |
-| Infleqtion | ↗️ rising (3 vs 2) | 🟡 medium | active | 2026-06-22 | 2026-08-24 | 22 | 0 |
+| Infleqtion | ↘️ declining (2 vs 3) | 🟡 medium | active | 2026-06-22 | 2026-08-24 | 22 | 0 |
 | Pasqal | ↗️ rising (2 vs 1) | 🟡 medium | active | 2026-06-29 | 2026-08-28 | 15 | 0 |
 | AWS | ➡️ stable (0 vs 0) | 🟡 medium | dormant | 2026-06-24 | 2026-07-20 | 4 | 0 |
 | Rigetti | ↘️ declining (0 vs 1) | 🟡 medium | quiet | 2026-07-29 | 2026-08-20 | 3 | 0 |
@@ -51,13 +51,13 @@ _Updated 2026-08-30 08:49 UTC_
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
 | Crypto-agility | ↗️ rising (2 vs 0) | 🔴 critical | active | 2025-06-06 | 2026-08-28 | 34 | 25 |
-| Quantum error correction | ↗️ rising (1 vs 0) | 🔴 critical | quiet | 2026-06-23 | 2026-08-22 | 23 | 0 |
-| Logical qubits | ↘️ declining (1 vs 2) | 🔴 critical | active | 2025-09-10 | 2026-08-28 | 18 | 3 |
+| Quantum error correction | ↘️ declining (0 vs 1) | 🔴 critical | quiet | 2026-06-23 | 2026-08-22 | 23 | 0 |
+| Logical qubits | ➡️ stable (1 vs 1) | 🔴 critical | active | 2025-09-10 | 2026-08-28 | 18 | 3 |
 | ML-DSA | ➡️ stable (0 vs 0) | 🔴 critical | dormant | 2026-06-29 | 2026-07-23 | 2 | 0 |
 | Quantum key distribution | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-29 | 2026-07-23 | 9 | 1 |
-| Quantum networking | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-07-16 | 2026-08-23 | 6 | 0 |
+| Quantum networking | ↘️ declining (0 vs 1) | 🟠 high | active | 2026-07-16 | 2026-08-23 | 6 | 0 |
 | Hybrid TLS | ➡️ stable (0 vs 0) | 🟠 high | documented | Unknown | Unknown | 1 | 1 |
-| Quantum sensing | ↗️ rising (2 vs 0) | 🟡 medium | active | 2026-06-24 | 2026-08-28 | 16 | 1 |
+| Quantum sensing | ➡️ stable (1 vs 1) | 🟡 medium | active | 2026-06-24 | 2026-08-28 | 16 | 1 |
 
 **Configured, awaiting evidence (3):** CNSA 2.0, ML-KEM, SLH-DSA
 

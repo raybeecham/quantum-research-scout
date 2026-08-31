@@ -2263,6 +2263,81 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-30",
+      "key": "https://quantumzeitgeist.com/darpa-mexico-funds-target-utility-scale",
+      "kind": "observed official update",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "score": 18,
+      "source": "QuantumNews.ai",
+      "stage": "mission evidence admission",
+      "summary": "New Mexico\u2019s Technology and Innovation Office is offering matching funds to quantum companies working on DARPA\u2019s Quantum Benchmarking Initiative, Stage C. This initiative targets utility-scale quantum computing by 2033.",
+      "title": "Policy 17h ago New Mexico funds target utility-scale quantum by 2033",
+      "url": "https://quantumzeitgeist.com/darpa-mexico-funds-target-utility-scale"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "QuantumEAGLe",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-29",
+      "key": "https://quantumcomputingreport.com/new-mexico-adds-darpa-qbi-stage-c-and-quantumeagle-to-targeted-federal-match-grant-program",
+      "kind": "observed official update",
+      "mission_id": "quantumeagle",
+      "mission_name": "QuantumEAGLe",
+      "score": 38,
+      "source": "QuantumNews.ai",
+      "stage": "mission evidence admission",
+      "summary": "The Technology and Innovation Office (TIO) within Economic Development New Mexico has expanded its Targeted Federal Match grant solicitation to include two major defense and national security quantum initiatives: DARPA\u2019s Quantum Benchmarking Initiative (QBI) Stage C and the Army Research Office/NSA...",
+      "title": "Policy 1d ago New Mexico Adds DARPA QBI Stage C and QuantumEAGLe to Targeted Federal Match Grant Program",
+      "url": "https://quantumcomputingreport.com/new-mexico-adds-darpa-qbi-stage-c-and-quantumeagle-to-targeted-federal-match-grant-program"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-29",
+      "key": "https://quantumcomputingreport.com/new-mexico-adds-darpa-qbi-stage-c-and-quantumeagle-to-targeted-federal-match-grant-program",
+      "kind": "observed official update",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "score": 38,
+      "source": "QuantumNews.ai",
+      "stage": "mission evidence admission",
+      "summary": "The Technology and Innovation Office (TIO) within Economic Development New Mexico has expanded its Targeted Federal Match grant solicitation to include two major defense and national security quantum initiatives: DARPA\u2019s Quantum Benchmarking Initiative (QBI) Stage C and the Army Research Office/NSA...",
+      "title": "Policy 1d ago New Mexico Adds DARPA QBI Stage C and QuantumEAGLe to Targeted Federal Match Grant Program",
+      "url": "https://quantumcomputingreport.com/new-mexico-adds-darpa-qbi-stage-c-and-quantumeagle-to-targeted-federal-match-grant-program"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "QBI",
         "reason_codes": [
           "non_government_source",
@@ -2281,7 +2356,7 @@
       "source": "QuantumNews.ai",
       "stage": "mission evidence admission",
       "summary": "New Mexico is offering matching funds to quantum companies pursuing DARPA\u2019s QBI Stage C, provided they conduct the work in the state.",
-      "title": "Policy 1d ago New Mexico Offers Matching Funds for DARPA Quantum Computing Projects",
+      "title": "Policy 2d ago New Mexico Offers Matching Funds for DARPA Quantum Computing Projects",
       "url": "https://thequantuminsider.com/2026/08/28/new-mexico-darpa-quantum-benchmarking-matching-funds"
     },
     {
@@ -4493,7 +4568,7 @@
     "completed": 0,
     "discovery_candidates": 5,
     "overdue_milestones": 1,
-    "quarantined_evidence": 89,
+    "quarantined_evidence": 92,
     "recent_launches": 8,
     "tracked": 10,
     "upcoming": 0,
@@ -4838,6 +4913,6 @@
       "title": "Double the productivity and impact of American research and engineering"
     }
   ],
-  "updated_at": "2026-08-30T08:49:22.498336+00:00",
+  "updated_at": "2026-08-31T02:49:14.453701+00:00",
   "version": 1
 }

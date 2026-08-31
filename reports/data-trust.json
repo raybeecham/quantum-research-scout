@@ -1,9 +1,9 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 23.9,
+      "acceptance_rate": 23.3,
       "accepted": 28,
-      "quarantined": 89,
+      "quarantined": 92,
       "scope": "Federal missions"
     },
     {
@@ -79,6 +79,75 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-30",
+      "key": "https://quantumzeitgeist.com/darpa-mexico-funds-target-utility-scale",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "QuantumNews.ai",
+      "stage": "mission evidence admission",
+      "title": "Policy 17h ago New Mexico funds target utility-scale quantum by 2033",
+      "url": "https://quantumzeitgeist.com/darpa-mexico-funds-target-utility-scale"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "QuantumEAGLe",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-29",
+      "key": "https://quantumcomputingreport.com/new-mexico-adds-darpa-qbi-stage-c-and-quantumeagle-to-targeted-federal-match-grant-program",
+      "mission_id": "quantumeagle",
+      "mission_name": "QuantumEAGLe",
+      "scope": "Federal missions",
+      "source": "QuantumNews.ai",
+      "stage": "mission evidence admission",
+      "title": "Policy 1d ago New Mexico Adds DARPA QBI Stage C and QuantumEAGLe to Targeted Federal Match Grant Program",
+      "url": "https://quantumcomputingreport.com/new-mexico-adds-darpa-qbi-stage-c-and-quantumeagle-to-targeted-federal-match-grant-program"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-29",
+      "key": "https://quantumcomputingreport.com/new-mexico-adds-darpa-qbi-stage-c-and-quantumeagle-to-targeted-federal-match-grant-program",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "QuantumNews.ai",
+      "stage": "mission evidence admission",
+      "title": "Policy 1d ago New Mexico Adds DARPA QBI Stage C and QuantumEAGLe to Targeted Federal Match Grant Program",
+      "url": "https://quantumcomputingreport.com/new-mexico-adds-darpa-qbi-stage-c-and-quantumeagle-to-targeted-federal-match-grant-program"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "QBI",
         "reason_codes": [
           "non_government_source",
@@ -95,7 +164,7 @@
       "scope": "Federal missions",
       "source": "QuantumNews.ai",
       "stage": "mission evidence admission",
-      "title": "Policy 1d ago New Mexico Offers Matching Funds for DARPA Quantum Computing Projects",
+      "title": "Policy 2d ago New Mexico Offers Matching Funds for DARPA Quantum Computing Projects",
       "url": "https://thequantuminsider.com/2026/08/28/new-mexico-darpa-quantum-benchmarking-matching-funds"
     },
     {
@@ -2209,85 +2278,17 @@
       "stage": "mission evidence admission",
       "title": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
       "url": "https://www.grants.gov/search-results-detail/355385"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Project Triad",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2023-11-02",
-      "key": "https://www.grants.gov/search-results-detail/350831",
-      "mission_id": "project-triad",
-      "mission_name": "Project Triad",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "mission evidence admission",
-      "title": "Alumni Engagement Innovation Fund 2024",
-      "url": "https://www.grants.gov/search-results-detail/350831"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2023-11-02",
-      "key": "grants_gov:2024-01",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "funding evidence admission",
-      "title": "Alumni Engagement Innovation Fund 2024",
-      "url": "https://www.grants.gov/search-results-detail/350831"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Project Triad",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2023-09-17",
-      "key": "https://www.grants.gov/search-results-detail/350230",
-      "mission_id": "project-triad",
-      "mission_name": "Project Triad",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "mission evidence admission",
-      "title": "Research in the Formation of Engineers",
-      "url": "https://www.grants.gov/search-results-detail/350230"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 118,
+      "count": 121,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 118,
+      "count": 121,
       "label": "No relevant term in the evidence itself"
     },
     {
@@ -2297,7 +2298,7 @@
     },
     {
       "code": "non_government_source",
-      "count": 11,
+      "count": 14,
       "label": "Source is not an official .gov or .mil domain"
     },
     {
@@ -2308,14 +2309,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 81.4,
+    "acceptance_rate": 81.0,
     "accepted": 528,
-    "decisions": 649,
+    "decisions": 652,
     "funding_quarantine": 29,
-    "mission_quarantine": 89,
-    "quarantined": 121,
+    "mission_quarantine": 92,
+    "quarantined": 124,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-08-30T02:55:32.256505+00:00",
+  "updated_at": "2026-08-31T02:49:14.453701+00:00",
   "version": 1
 }

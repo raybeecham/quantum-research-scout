@@ -2,23 +2,41 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-08-30T08:49:22.498336+00:00_
+_Updated 2026-08-31T02:49:14.453701+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **27**
-- Added / changed / resolved: **0 / 0 / 27**
+- Material changes: **47**
+- Added / changed / resolved: **18 / 2 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- None.
+- **American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy** — opportunity status: closed ([evidence](https://www.grants.gov/search-results-detail/363293))
+- **EdUSA AI & Quantum Technologies Initiative in Australia** — qualification gate: targeted review ([evidence](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view))
 
 ## New claims
 
-- None.
+- **VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732))
+- **VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...** — awarding agency: Department of the Treasury ([evidence](https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732))
+- **VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...** — reported amount: 485864.89 ([evidence](https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732))
+- **VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732))
+- **UNIVERSITY OF TEXAS AT DALLAS** — legal business name: UNIVERSITY OF TEXAS AT DALLAS ([evidence](https://sam.gov/entity/EJCVPNN1WFS5/coreData))
+- **UNIVERSITY OF TEXAS AT DALLAS** — uei: EJCVPNN1WFS5 ([evidence](https://sam.gov/entity/EJCVPNN1WFS5/coreData))
+- **UNIVERSITY OF TEXAS AT DALLAS** — cage code: 0W921 ([evidence](https://sam.gov/entity/EJCVPNN1WFS5/coreData))
+- **UNIVERSITY OF TEXAS AT DALLAS** — registration status: Active ([evidence](https://sam.gov/entity/EJCVPNN1WFS5/coreData))
+- **KEAN UNIVERSITY** — legal business name: KEAN UNIVERSITY ([evidence](https://sam.gov/entity/SQ62WM5KNSV8/coreData))
+- **KEAN UNIVERSITY** — uei: SQ62WM5KNSV8 ([evidence](https://sam.gov/entity/SQ62WM5KNSV8/coreData))
+- **KEAN UNIVERSITY** — cage code: 314S6 ([evidence](https://sam.gov/entity/SQ62WM5KNSV8/coreData))
+- **KEAN UNIVERSITY** — registration status: Active ([evidence](https://sam.gov/entity/SQ62WM5KNSV8/coreData))
+- **FLORIDA INTERNATIONAL UNIVERSITY** — legal business name: FLORIDA INTERNATIONAL UNIVERSITY ([evidence](https://sam.gov/entity/Q3KCVK5S9CP1/coreData))
+- **FLORIDA INTERNATIONAL UNIVERSITY** — uei: Q3KCVK5S9CP1 ([evidence](https://sam.gov/entity/Q3KCVK5S9CP1/coreData))
+- **FLORIDA INTERNATIONAL UNIVERSITY** — cage code: 1JHM5 ([evidence](https://sam.gov/entity/Q3KCVK5S9CP1/coreData))
+- **FLORIDA INTERNATIONAL UNIVERSITY** — registration status: Active ([evidence](https://sam.gov/entity/Q3KCVK5S9CP1/coreData))
+- **NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/352741))
+- **Rural Decentralized Water System Grant Program** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363364))
 
 ## Superseded claims
 

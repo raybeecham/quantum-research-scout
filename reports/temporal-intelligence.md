@@ -2,39 +2,33 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-08-30T02:55:32.256505+00:00_
+_Updated 2026-08-31T02:49:14.453701+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **6**
-- Newly discovered historical evidence: **0**
+- Actual or recent changes: **1**
+- Newly discovered historical evidence: **2**
 - Newly observed with no reliable source date: **12**
-- Upcoming dated events: **36**
+- Upcoming dated events: **34**
 
 ## Priority timeline
 
-- **Changed since prior run** · ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_1605C226C0006_1605_-NONE-_-NONE-))
+- **Changed since prior run** · American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy — opportunity status ([evidence](https://www.grants.gov/search-results-detail/363293))
   - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · CORE MANAGEMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT. — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7003_8000_80ARC018D0010_8000))
-  - The assertion changed relative to the prior successful ledger build.
-- **Published today** · 58--RADAR HIGH POWER,AI — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/f66ed1b1e931454eba85879053f6e84c/view))
-  - The source publication date is today or within the prior day.
-- **Evidence trace changed** · Annual Program Statement — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363723))
+- **Evidence trace changed** · EdUSA AI & Quantum Technologies Initiative in Australia — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Upcoming event date** · ARTIFICIAL INTELLIGENCE (AI) TECHNICAL RESOURCE DEVELOPMENT AND KNOWLEDGE TRANSFER — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ326F00088N_6925_693JJ322A000004_6925))
-  - The source date is in the future; Scout first observed it on 2026-08-30.
-- **Upcoming event date** · OPERATIONS AND MAINTENANCE (O&M) TECHNICAL, OPERATIONAL, CYBERSECURITY, INFRASTRUCTURE, BUSINESS ANALYSIS, AND PROJECT MANAGEMENT SUPPORT. — opportunity status ([evidence](https://www.usaspending.gov/award/CONT_AWD_2099CF26F00020_2099_20341221A00001_2036))
-  - The source date is in the future; Scout first observed it on 2026-08-30.
-- **Upcoming event date** · SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426F0356_1205_NNG15SD60B_8000))
-  - The source date is in the future; Scout first observed it on 2026-08-30.
-- **Upcoming event date** · THIS FFP ORDER IS OFF OF 70US0926D70092069 FOR VIDEO WALL SERVICES FOR SEATTLE FO IN ACCORDANCE WITH THE ATTACHED STATEMENT OF WORK. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3084_7009_70US0926D70092069_7009))
-  - The source date is in the future; Scout first observed it on 2026-08-30.
-- **Newly observed · event date unknown** · GEORGIA TECH RESEARCH CORP — cage code ([evidence](https://sam.gov/entity/EMW9FC8J3HN4/coreData))
+- **Upcoming event date** · VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732))
+  - The source date is in the future; Scout first observed it on 2026-08-31.
+- **Newly observed · event date unknown** · FLORIDA INTERNATIONAL UNIVERSITY — cage code ([evidence](https://sam.gov/entity/Q3KCVK5S9CP1/coreData))
   - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
-- **Newly observed · event date unknown** · NEW MEXICO STATE UNIVERSITY — cage code ([evidence](https://sam.gov/entity/J3M5GZAT8N85/coreData))
+- **Newly observed · event date unknown** · KEAN UNIVERSITY — cage code ([evidence](https://sam.gov/entity/SQ62WM5KNSV8/coreData))
   - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
-- **Newly observed · event date unknown** · UNIVERSITY OF HOUSTON SYSTEM — cage code ([evidence](https://sam.gov/entity/QKWEF8XLMTT3/coreData))
+- **Newly observed · event date unknown** · UNIVERSITY OF TEXAS AT DALLAS — cage code ([evidence](https://sam.gov/entity/EJCVPNN1WFS5/coreData))
   - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Newly discovered historical evidence** · NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research — qualification gate ([evidence](https://www.grants.gov/search-results-detail/352741))
+  - Scout first observed this on 2026-08-31; the source date is 2024-03-01.
+- **Newly discovered historical evidence** · Rural Decentralized Water System Grant Program — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363364))
+  - Scout first observed this on 2026-08-31; the source date is 2026-07-28.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -74,9 +68,7 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 
 ## Upcoming
 
-- **2026-07-31** · Receive abstracts for the expanded QBIT Stage A solicitation — overdue ([source](https://www.darpa.mil/news/2026/qbi-stage-a-qbit))
 - **2026-08-21** · Seek initial platform operating capability for at least one national challenge — awaiting_confirmation ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
-- **2026-08-30** · American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy — closing_soon ([source](https://www.grants.gov/search-results-detail/363293))
 - **2026-09-01** · Advancing Investigative Journalism in Ukraine through U.S. AI Innovation — closing_soon ([source](https://www.grants.gov/search-results-detail/363440))
 - **2026-09-04** · MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026 — closing_soon ([source](https://www.grants.gov/search-results-detail/363586))
 - **2026-09-08** · AI Partnership & Exchange for Tech Leaders (APEX) — closing_this_month ([source](https://www.grants.gov/search-results-detail/363315))
@@ -90,8 +82,8 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-09-21** · Agriculture Risk Management Education Partnerships Competitive Grants Program — closing_this_month ([source](https://www.grants.gov/search-results-detail/363682))
 - **2026-09-22** · Launch the AI Forge university-industry-government forum — estimated ([source](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security))
 - **2026-09-30** · Close the QBIT Stage A full-proposal window — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
-- **2026-09-30** · NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research — open_window ([source](https://www.grants.gov/search-results-detail/352741))
-- **2026-09-30** · Rural Decentralized Water System Grant Program — open_window ([source](https://www.grants.gov/search-results-detail/363364))
+- **2026-09-30** · NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research — closing_this_month ([source](https://www.grants.gov/search-results-detail/352741))
+- **2026-09-30** · Rural Decentralized Water System Grant Program — closing_this_month ([source](https://www.grants.gov/search-results-detail/363364))
 - **2026-10-02** · Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed) — open_window ([source](https://www.grants.gov/search-results-detail/359269))
 - **2026-10-15** · Close the QBI independent verification and validation topic — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-11-04** · U.S. National Science Foundation State and Regional Artificial Intelligence Infrastructure Hubs: — open_window ([source](https://www.grants.gov/search-results-detail/363481))

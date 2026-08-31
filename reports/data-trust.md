@@ -1,26 +1,26 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-30T02:55:32.256505+00:00_
+_Updated 2026-08-31T02:49:14.453701+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **528**
-- Quarantined evidence or relationships: **121**
-- Acceptance rate: **81.4%**
+- Quarantined evidence or relationships: **124**
+- Acceptance rate: **81.0%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 28 | 89 | 23.9% |
+| Federal missions | 28 | 92 | 23.3% |
 | Federal funding | 500 | 32 | 94.0% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 118
-- **No relevant term in the evidence itself**: 118
+- **Match appears only in collector query metadata**: 121
+- **No relevant term in the evidence itself**: 121
 - **Official government source**: 107
-- **Source is not an official .gov or .mil domain**: 11
+- **Source is not an official .gov or .mil domain**: 14
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -46,7 +46,28 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Agency and technology inference only
 - Admission score: 65
 
-### [Policy 1d ago New Mexico Offers Matching Funds for DARPA Quantum Computing Projects](https://thequantuminsider.com/2026/08/28/new-mexico-darpa-quantum-benchmarking-matching-funds)
+### [Policy 17h ago New Mexico funds target utility-scale quantum by 2033](https://quantumzeitgeist.com/darpa-mexico-funds-target-utility-scale)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [Policy 1d ago New Mexico Adds DARPA QBI Stage C and QuantumEAGLe to Targeted Federal Match Grant Program](https://quantumcomputingreport.com/new-mexico-adds-darpa-qbi-stage-c-and-quantumeagle-to-targeted-federal-match-grant-program)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [Policy 1d ago New Mexico Adds DARPA QBI Stage C and QuantumEAGLe to Targeted Federal Match Grant Program](https://quantumcomputingreport.com/new-mexico-adds-darpa-qbi-stage-c-and-quantumeagle-to-targeted-federal-match-grant-program)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [Policy 2d ago New Mexico Offers Matching Funds for DARPA Quantum Computing Projects](https://thequantuminsider.com/2026/08/28/new-mexico-darpa-quantum-benchmarking-matching-funds)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
@@ -698,27 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025](https://www.grants.gov/search-results-detail/355385)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Alumni Engagement Innovation Fund 2024](https://www.grants.gov/search-results-detail/350831)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Alumni Engagement Innovation Fund 2024](https://www.grants.gov/search-results-detail/350831)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Research in the Formation of Engineers](https://www.grants.gov/search-results-detail/350230)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
