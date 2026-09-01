@@ -4,11 +4,11 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-08-31 02:55 UTC_
+_Updated 2026-09-01 03:07 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
-Assessed **23 of 43** configured organizations.
+Assessed **24 of 43** configured organizations.
 
 | Organization | Observed stage | Confidence | PQC evidence | Sources | Historical | Latest dated evidence |
 |---|---|---|---:|---:|---:|---|
@@ -33,6 +33,7 @@ Assessed **23 of 43** configured organizations.
 | IETF | Awareness | low | 1 | 1 | 0 | 2026-08-28 |
 | IonQ | Awareness | low | 1 | 1 | 0 | 2026-08-04 |
 | PQCA | Awareness | low | 1 | 1 | 0 | 2026-07-27 |
+| Pasqal | Awareness | low | 1 | 1 | 0 | 2026-08-31 |
 | Quantinuum | Awareness | low | 1 | 1 | 0 | 2026-07-29 |
 | Quantum Computing Inc. (QCi) | Awareness | low | 1 | 1 | 1 | Unknown |
 | Atom Computing | Not assessed | none | 0 | 0 | 0 | Unknown |
@@ -49,7 +50,6 @@ Assessed **23 of 43** configured organizations.
 | Microsoft Quantum | Not assessed | none | 0 | 0 | 0 | Unknown |
 | NSA | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Open Quantum Safe | Not assessed | none | 0 | 0 | 0 | Unknown |
-| Pasqal | Not assessed | none | 0 | 0 | 0 | Unknown |
 | PsiQuantum | Not assessed | none | 0 | 0 | 0 | Unknown |
 | QuEra | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Rigetti | Not assessed | none | 0 | 0 | 0 | Unknown |

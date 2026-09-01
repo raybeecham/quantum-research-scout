@@ -2,33 +2,33 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-08-31T02:49:14.453701+00:00_
+_Updated 2026-09-01T02:58:55.591634+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **1**
-- Newly discovered historical evidence: **2**
+- Actual or recent changes: **8**
+- Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **12**
-- Upcoming dated events: **34**
+- Upcoming dated events: **35**
 
 ## Priority timeline
 
-- **Changed since prior run** · American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy — opportunity status ([evidence](https://www.grants.gov/search-results-detail/363293))
-  - The assertion changed relative to the prior successful ledger build.
+- **Published today** · 16--MODIFICATION KIT,AI — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view))
+  - The source publication date is today or within the prior day.
+- **Published today** · U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP) — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363744))
+  - The source publication date is today or within the prior day.
+- **Evidence trace changed** · AI Partnership & Exchange for Tech Leaders (APEX) — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363315))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
 - **Evidence trace changed** · EdUSA AI & Quantum Technologies Initiative in Australia — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Upcoming event date** · VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732))
-  - The source date is in the future; Scout first observed it on 2026-08-31.
-- **Newly observed · event date unknown** · FLORIDA INTERNATIONAL UNIVERSITY — cage code ([evidence](https://sam.gov/entity/Q3KCVK5S9CP1/coreData))
+- **Evidence trace changed** · MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026 — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363586))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Newly observed · event date unknown** · NATIONAL ACADEMY OF SCIENCES — cage code ([evidence](https://sam.gov/entity/PKFJZHG2MLG9/coreData))
   - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
-- **Newly observed · event date unknown** · KEAN UNIVERSITY — cage code ([evidence](https://sam.gov/entity/SQ62WM5KNSV8/coreData))
+- **Newly observed · event date unknown** · NORTHEASTERN UNIVERSITY — cage code ([evidence](https://sam.gov/entity/HLTMVS2JZBS6/coreData))
   - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
-- **Newly observed · event date unknown** · UNIVERSITY OF TEXAS AT DALLAS — cage code ([evidence](https://sam.gov/entity/EJCVPNN1WFS5/coreData))
+- **Newly observed · event date unknown** · UNIVERSITY OF NORTH DAKOTA — cage code ([evidence](https://sam.gov/entity/RSWNKK6J8CF3/coreData))
   - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
-- **Newly discovered historical evidence** · NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research — qualification gate ([evidence](https://www.grants.gov/search-results-detail/352741))
-  - Scout first observed this on 2026-08-31; the source date is 2024-03-01.
-- **Newly discovered historical evidence** · Rural Decentralized Water System Grant Program — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363364))
-  - Scout first observed this on 2026-08-31; the source date is 2026-07-28.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -71,11 +71,12 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-08-21** · Seek initial platform operating capability for at least one national challenge — awaiting_confirmation ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
 - **2026-09-01** · Advancing Investigative Journalism in Ukraine through U.S. AI Innovation — closing_soon ([source](https://www.grants.gov/search-results-detail/363440))
 - **2026-09-04** · MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026 — closing_soon ([source](https://www.grants.gov/search-results-detail/363586))
-- **2026-09-08** · AI Partnership & Exchange for Tech Leaders (APEX) — closing_this_month ([source](https://www.grants.gov/search-results-detail/363315))
-- **2026-09-08** · EdUSA AI & Quantum Technologies Initiative in Australia — closing_this_month ([source](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view))
+- **2026-09-08** · AI Partnership & Exchange for Tech Leaders (APEX) — closing_soon ([source](https://www.grants.gov/search-results-detail/363315))
+- **2026-09-08** · EdUSA AI & Quantum Technologies Initiative in Australia — closing_soon ([source](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view))
 - **2026-09-09** · NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) — closing_this_month ([source](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view))
 - **2026-09-11** · Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU) — closing_this_month ([source](https://www.grants.gov/search-results-detail/363537))
 - **2026-09-13** · Annual Program Statement — closing_this_month ([source](https://www.grants.gov/search-results-detail/363723))
+- **2026-09-14** · U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP) — closing_this_month ([source](https://www.grants.gov/search-results-detail/363744))
 - **2026-09-17** · University-led Networks for Innovation, Technology, and Expertise (UNITE) — closing_this_month ([source](https://www.grants.gov/search-results-detail/363645))
 - **2026-09-20** · OMB issues agency guidance for inventories, migration plans, and high-impact systems — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
 - **2026-09-20** · Publish a summary of QC-ADDS technical specifications — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))

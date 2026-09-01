@@ -282,11 +282,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-72b148944f46948b",
+      "claim_id": "claim-34fd3f109867c626",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "effective_date": "2026-08-31",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -294,29 +294,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1e6aab0b166f0d50",
+          "evidence_id": "evidence-22cf1dbe8528115f",
           "locator": "opportunity_status:awarded",
-          "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
+          "title": "16--MODIFICATION KIT,AI",
+          "url": "https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2032H826F00074",
-        "label": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
-        "node_id": "award:usaspending:2032H826F00074",
-        "node_type": "award"
+        "identifier": "sam_gov:SPE4A726T564C",
+        "label": "16--MODIFICATION KIT,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T564C",
+        "node_type": "award_notice"
       },
       "value": "awarded"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-bf5d09d88b2a1d4f",
+      "claim_id": "claim-7ecde7d6c03187d7",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "effective_date": "2026-08-31",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -324,29 +324,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-dcfbb74e2869c84b",
-          "locator": "awarding_agency:department of the treasury",
-          "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
+          "evidence_id": "evidence-8f454b7c8724226d",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
+          "title": "16--MODIFICATION KIT,AI",
+          "url": "https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2032H826F00074",
-        "label": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
-        "node_id": "award:usaspending:2032H826F00074",
-        "node_type": "award"
+        "identifier": "sam_gov:SPE4A726T564C",
+        "label": "16--MODIFICATION KIT,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T564C",
+        "node_type": "award_notice"
       },
-      "value": "Department of the Treasury"
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-e32f690985dda69a",
+      "claim_id": "claim-74fa6cb16b81e7af",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "effective_date": "2026-08-31",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -354,33 +354,33 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e29c5939bb2326bb",
-          "locator": "reported_amount:485864.89",
-          "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
+          "evidence_id": "evidence-8f3e6618890d7fe6",
+          "locator": "reported_amount:28080.0",
+          "title": "16--MODIFICATION KIT,AI",
+          "url": "https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2032H826F00074",
-        "label": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
-        "node_id": "award:usaspending:2032H826F00074",
-        "node_type": "award"
+        "identifier": "sam_gov:SPE4A726T564C",
+        "label": "16--MODIFICATION KIT,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T564C",
+        "node_type": "award_notice"
       },
-      "value": 485864.89
+      "value": 28080.0
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-d86fb2ffc02e3a73",
+      "claim_id": "claim-a8fe3f0635aed6ca",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "effective_date": "2026-08-31",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
       "object": {
-        "identifier": "uei:NND1JNX2JBJ1",
-        "label": "UNISON VIRTUAL ACQUISITION OFFICE LLC",
-        "node_id": "recipient_or_contractor:uei:NND1JNX2JBJ1",
+        "identifier": "name:thales defense and security",
+        "label": "THALES DEFENSE & SECURITY INC",
+        "node_id": "recipient_or_contractor:name:thales defense and security",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -389,419 +389,479 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-628bb5abe2c882c9",
-          "locator": "reported_recipient:recipient_or_contractor:uei:NND1JNX2JBJ1",
-          "title": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732",
+          "evidence_id": "evidence-30503bd3616043ef",
+          "locator": "reported_recipient:recipient_or_contractor:name:thales defense and security",
+          "title": "16--MODIFICATION KIT,AI",
+          "url": "https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2032H826F00074",
-        "label": "VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...",
-        "node_id": "award:usaspending:2032H826F00074",
-        "node_type": "award"
+        "identifier": "sam_gov:SPE4A726T564C",
+        "label": "16--MODIFICATION KIT,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T564C",
+        "node_type": "award_notice"
       },
       "value": null
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-fb97900d6f404cc3",
+      "claim_id": "claim-a247198995d2ae9d",
       "confidence": "high",
       "effective_date": "2026-08-31",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
       "object": null,
-      "predicate": "legal_business_name",
+      "predicate": "opportunity_status",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-462989fc831ab37f",
-          "locator": "legal_business_name:university of texas at dallas",
-          "title": "UNIVERSITY OF TEXAS AT DALLAS",
-          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+          "evidence_id": "evidence-4c951b0f599d686a",
+          "locator": "opportunity_status:open",
+          "title": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
+          "url": "https://www.grants.gov/search-results-detail/363744",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:EJCVPNN1WFS5",
-        "label": "UNIVERSITY OF TEXAS AT DALLAS",
-        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "UNIVERSITY OF TEXAS AT DALLAS"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-00c2e4d37bc13c41",
-      "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "object": null,
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-afa907aafe53fc3c",
-          "locator": "uei:ejcvpnn1wfs5",
-          "title": "UNIVERSITY OF TEXAS AT DALLAS",
-          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:EJCVPNN1WFS5",
-        "label": "UNIVERSITY OF TEXAS AT DALLAS",
-        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "EJCVPNN1WFS5"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-fc74f0bcd89b56cf",
-      "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "object": null,
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-dc63d4351ba38908",
-          "locator": "cage_code:0w921",
-          "title": "UNIVERSITY OF TEXAS AT DALLAS",
-          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:EJCVPNN1WFS5",
-        "label": "UNIVERSITY OF TEXAS AT DALLAS",
-        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "0W921"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-bc1d8771611ec991",
-      "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "object": null,
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0d4d264f6d3b7a9e",
-          "locator": "registration_status:active",
-          "title": "UNIVERSITY OF TEXAS AT DALLAS",
-          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:EJCVPNN1WFS5",
-        "label": "UNIVERSITY OF TEXAS AT DALLAS",
-        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-fd57983bd7fcd226",
-      "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "object": null,
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-854b38f0f246a554",
-          "locator": "legal_business_name:kean university",
-          "title": "KEAN UNIVERSITY",
-          "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:SQ62WM5KNSV8",
-        "label": "KEAN UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "KEAN UNIVERSITY"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6600991a6b23bebf",
-      "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "object": null,
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d7fd00314937f307",
-          "locator": "uei:sq62wm5knsv8",
-          "title": "KEAN UNIVERSITY",
-          "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:SQ62WM5KNSV8",
-        "label": "KEAN UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "SQ62WM5KNSV8"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3ce5444df1fcae8e",
-      "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "object": null,
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2e923236674c6a46",
-          "locator": "cage_code:314s6",
-          "title": "KEAN UNIVERSITY",
-          "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:SQ62WM5KNSV8",
-        "label": "KEAN UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "314S6"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4ac4177a00868c17",
-      "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "object": null,
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cb6b096bd750dae6",
-          "locator": "registration_status:active",
-          "title": "KEAN UNIVERSITY",
-          "url": "https://sam.gov/entity/SQ62WM5KNSV8/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:SQ62WM5KNSV8",
-        "label": "KEAN UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-bfdc944ac9f1d695",
-      "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "object": null,
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-544613ca402a9084",
-          "locator": "legal_business_name:florida international university",
-          "title": "FLORIDA INTERNATIONAL UNIVERSITY",
-          "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:Q3KCVK5S9CP1",
-        "label": "FLORIDA INTERNATIONAL UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:Q3KCVK5S9CP1",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "FLORIDA INTERNATIONAL UNIVERSITY"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1bd0e6c63df2d4bb",
-      "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "object": null,
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2554536eff13c457",
-          "locator": "uei:q3kcvk5s9cp1",
-          "title": "FLORIDA INTERNATIONAL UNIVERSITY",
-          "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:Q3KCVK5S9CP1",
-        "label": "FLORIDA INTERNATIONAL UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:Q3KCVK5S9CP1",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Q3KCVK5S9CP1"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-943e69c6bb03dfa3",
-      "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "object": null,
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6119edc62b4ba864",
-          "locator": "cage_code:1jhm5",
-          "title": "FLORIDA INTERNATIONAL UNIVERSITY",
-          "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:Q3KCVK5S9CP1",
-        "label": "FLORIDA INTERNATIONAL UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:Q3KCVK5S9CP1",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "1JHM5"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-097407ea14a4a0d0",
-      "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "object": null,
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2e4762f85a549a9b",
-          "locator": "registration_status:active",
-          "title": "FLORIDA INTERNATIONAL UNIVERSITY",
-          "url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:Q3KCVK5S9CP1",
-        "label": "FLORIDA INTERNATIONAL UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:Q3KCVK5S9CP1",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-2d9a3a18efc8667c",
-      "confidence": "medium",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5364bc2860922a11",
-          "locator": "qualification_gate",
-          "title": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
-          "url": "https://www.grants.gov/search-results-detail/352741",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:N00173-24-S-BA01",
-        "label": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
-        "node_id": "opportunity:grants_gov:N00173-24-S-BA01",
+        "identifier": "grants_gov:DOS-SAU-2605-PD",
+        "label": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
+        "node_id": "opportunity:grants_gov:DOS-SAU-2605-PD",
         "node_type": "opportunity"
       },
-      "value": "hold"
+      "value": "open"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1aa9669fa28f53ef",
+      "confidence": "high",
+      "effective_date": "2026-08-31",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-603c346a9f0f1c1c",
+          "locator": "deadline:09/14/2026",
+          "title": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
+          "url": "https://www.grants.gov/search-results-detail/363744",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:DOS-SAU-2605-PD",
+        "label": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
+        "node_id": "opportunity:grants_gov:DOS-SAU-2605-PD",
+        "node_type": "opportunity"
+      },
+      "value": "09/14/2026"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-124eb68f3bfc4672",
+      "confidence": "high",
+      "effective_date": "2026-08-31",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7cd2c246a64658ce",
+          "locator": "awarding_agency:dos-sau",
+          "title": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
+          "url": "https://www.grants.gov/search-results-detail/363744",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:DOS-SAU-2605-PD",
+        "label": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
+        "node_id": "opportunity:grants_gov:DOS-SAU-2605-PD",
+        "node_type": "opportunity"
+      },
+      "value": "DOS-SAU"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-161fd0b0b9df40a1",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3d89b45bb531c815",
+          "locator": "legal_business_name:university of north dakota",
+          "title": "UNIVERSITY OF NORTH DAKOTA",
+          "url": "https://sam.gov/entity/RSWNKK6J8CF3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:RSWNKK6J8CF3",
+        "label": "UNIVERSITY OF NORTH DAKOTA",
+        "node_id": "recipient_or_contractor:uei:RSWNKK6J8CF3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "UNIVERSITY OF NORTH DAKOTA"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-9b36116e7d6a33ca",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-001cf379f5ee7ba8",
+          "locator": "uei:rswnkk6j8cf3",
+          "title": "UNIVERSITY OF NORTH DAKOTA",
+          "url": "https://sam.gov/entity/RSWNKK6J8CF3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:RSWNKK6J8CF3",
+        "label": "UNIVERSITY OF NORTH DAKOTA",
+        "node_id": "recipient_or_contractor:uei:RSWNKK6J8CF3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "RSWNKK6J8CF3"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-afba3396dbc27c66",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-36f109d4c22488d5",
+          "locator": "cage_code:4b858",
+          "title": "UNIVERSITY OF NORTH DAKOTA",
+          "url": "https://sam.gov/entity/RSWNKK6J8CF3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:RSWNKK6J8CF3",
+        "label": "UNIVERSITY OF NORTH DAKOTA",
+        "node_id": "recipient_or_contractor:uei:RSWNKK6J8CF3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "4B858"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c4db2bb60ed755b5",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-73fed8ebed08137c",
+          "locator": "registration_status:active",
+          "title": "UNIVERSITY OF NORTH DAKOTA",
+          "url": "https://sam.gov/entity/RSWNKK6J8CF3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:RSWNKK6J8CF3",
+        "label": "UNIVERSITY OF NORTH DAKOTA",
+        "node_id": "recipient_or_contractor:uei:RSWNKK6J8CF3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-598aefc6ce9b1444",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bee850ef49c14cf4",
+          "locator": "legal_business_name:northeastern university",
+          "title": "NORTHEASTERN UNIVERSITY",
+          "url": "https://sam.gov/entity/HLTMVS2JZBS6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:HLTMVS2JZBS6",
+        "label": "NORTHEASTERN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:HLTMVS2JZBS6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "NORTHEASTERN UNIVERSITY"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-dd48d11032efedb9",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a5a7729b23ab650c",
+          "locator": "uei:hltmvs2jzbs6",
+          "title": "NORTHEASTERN UNIVERSITY",
+          "url": "https://sam.gov/entity/HLTMVS2JZBS6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:HLTMVS2JZBS6",
+        "label": "NORTHEASTERN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:HLTMVS2JZBS6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "HLTMVS2JZBS6"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-365e4efe2e219fa3",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bfe6903d5e066998",
+          "locator": "cage_code:9a140",
+          "title": "NORTHEASTERN UNIVERSITY",
+          "url": "https://sam.gov/entity/HLTMVS2JZBS6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:HLTMVS2JZBS6",
+        "label": "NORTHEASTERN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:HLTMVS2JZBS6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "9A140"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-d509f863dd7d2264",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-35b0058884ffa2a4",
+          "locator": "registration_status:active",
+          "title": "NORTHEASTERN UNIVERSITY",
+          "url": "https://sam.gov/entity/HLTMVS2JZBS6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:HLTMVS2JZBS6",
+        "label": "NORTHEASTERN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:HLTMVS2JZBS6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-9b7f85a64ad355ad",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-62aa92e4f0f8c292",
+          "locator": "legal_business_name:national academy of sciences",
+          "title": "NATIONAL ACADEMY OF SCIENCES",
+          "url": "https://sam.gov/entity/PKFJZHG2MLG9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:PKFJZHG2MLG9",
+        "label": "NATIONAL ACADEMY OF SCIENCES",
+        "node_id": "recipient_or_contractor:uei:PKFJZHG2MLG9",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "NATIONAL ACADEMY OF SCIENCES"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-84e798cb26494695",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2c49236184ceb338",
+          "locator": "uei:pkfjzhg2mlg9",
+          "title": "NATIONAL ACADEMY OF SCIENCES",
+          "url": "https://sam.gov/entity/PKFJZHG2MLG9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:PKFJZHG2MLG9",
+        "label": "NATIONAL ACADEMY OF SCIENCES",
+        "node_id": "recipient_or_contractor:uei:PKFJZHG2MLG9",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "PKFJZHG2MLG9"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-f2b40993a90dfee1",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-13442c7c54a117f9",
+          "locator": "cage_code:1d969",
+          "title": "NATIONAL ACADEMY OF SCIENCES",
+          "url": "https://sam.gov/entity/PKFJZHG2MLG9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:PKFJZHG2MLG9",
+        "label": "NATIONAL ACADEMY OF SCIENCES",
+        "node_id": "recipient_or_contractor:uei:PKFJZHG2MLG9",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "1D969"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-5289b5cb1a0b4448",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1c4b0f3ed0483e2b",
+          "locator": "registration_status:active",
+          "title": "NATIONAL ACADEMY OF SCIENCES",
+          "url": "https://sam.gov/entity/PKFJZHG2MLG9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:PKFJZHG2MLG9",
+        "label": "NATIONAL ACADEMY OF SCIENCES",
+        "node_id": "recipient_or_contractor:uei:PKFJZHG2MLG9",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
     },
     {
       "authority": "analytical",
       "change_type": "added",
-      "claim_id": "claim-1991226b3b6063b1",
+      "claim_id": "claim-a8a99fec1a1252ae",
       "confidence": "medium",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "sources": [
@@ -809,17 +869,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-28ab73f6c73fda2e",
+          "evidence_id": "evidence-d56934da2a7dc459",
           "locator": "qualification_gate",
-          "title": "Rural Decentralized Water System Grant Program",
-          "url": "https://www.grants.gov/search-results-detail/363364",
+          "title": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
+          "url": "https://www.grants.gov/search-results-detail/363744",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:RDRUS-26-DWS2",
-        "label": "Rural Decentralized Water System Grant Program",
-        "node_id": "opportunity:grants_gov:RDRUS-26-DWS2",
+        "identifier": "grants_gov:DOS-SAU-2605-PD",
+        "label": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
+        "node_id": "opportunity:grants_gov:DOS-SAU-2605-PD",
         "node_type": "opportunity"
       },
       "value": "hold"
@@ -828,45 +888,13 @@
   "baseline_initialized": false,
   "changed": [
     {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-27484ee1f9bc8227",
-      "confidence": "high",
-      "effective_date": "2026-07-23",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "previous_object": null,
-      "previous_value": "open",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ebfd7842fdf91927",
-          "locator": "opportunity_status:closed",
-          "title": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
-          "url": "https://www.grants.gov/search-results-detail/363293",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:PAS-JAKARTA-FY26-08",
-        "label": "American Innovation Hub: AI & Digital Skills for the Creative & Tech Economy",
-        "node_id": "opportunity:grants_gov:PAS-JAKARTA-FY26-08",
-        "node_type": "opportunity"
-      },
-      "value": "closed"
-    },
-    {
       "authority": "analytical",
       "change_type": "changed",
       "claim_id": "claim-7a258dbaa60f4994",
       "confidence": "medium",
-      "effective_date": "2026-08-31",
+      "effective_date": "2026-09-01",
       "first_observed_at": "2026-08-29T05:05:39.790622+00:00",
-      "last_observed_at": "2026-08-31T02:49:14.453701+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
@@ -920,11 +948,75 @@
         "node_type": "opportunity"
       },
       "value": "targeted review"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-125372c0dd6a453a",
+      "confidence": "medium",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-627bde0aed13c0b5",
+          "locator": "qualification_gate",
+          "title": "AI Partnership & Exchange for Tech Leaders (APEX)",
+          "url": "https://www.grants.gov/search-results-detail/363315",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:DOS-SAU-2602",
+        "label": "AI Partnership & Exchange for Tech Leaders (APEX)",
+        "node_id": "opportunity:grants_gov:DOS-SAU-2602",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-7a77c2bb73b1d40c",
+      "confidence": "medium",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-08-14T01:18:50.250873+00:00",
+      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "hold",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-02f64f0e9d99b06a",
+          "locator": "qualification_gate",
+          "title": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
+          "url": "https://www.grants.gov/search-results-detail/363586",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:SB-OEDCS-26-002",
+        "label": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
+        "node_id": "opportunity:grants_gov:SB-OEDCS-26-002",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
     }
   ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-08-31T02:49:14.453701+00:00",
-  "comparison_started_at": "2026-08-30T08:49:22.498336+00:00",
+  "comparison_ended_at": "2026-09-01T02:58:55.591634+00:00",
+  "comparison_started_at": "2026-08-31T02:49:14.453701+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1840,19 +1932,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-08-30T08:49:22.498336+00:00",
+  "since": "2026-08-31T02:49:14.453701+00:00",
   "summary": {
-    "active_claims": 3967,
-    "added": 18,
-    "changed": 2,
+    "active_claims": 3987,
+    "added": 20,
+    "changed": 3,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 47,
+    "material_changes": 50,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-08-31T02:49:14.453701+00:00",
+  "updated_at": "2026-09-01T02:58:55.591634+00:00",
   "version": 1
 }

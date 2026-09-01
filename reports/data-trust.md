@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-08-31T02:49:14.453701+00:00_
+_Updated 2026-09-01T02:58:55.591634+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **528**
-- Quarantined evidence or relationships: **124**
-- Acceptance rate: **81.0%**
+- Accepted evidence: **530**
+- Quarantined evidence or relationships: **126**
+- Acceptance rate: **80.8%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 28 | 92 | 23.3% |
-| Federal funding | 500 | 32 | 94.0% |
+| Federal missions | 30 | 93 | 24.4% |
+| Federal funding | 500 | 33 | 93.8% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 121
-- **No relevant term in the evidence itself**: 121
-- **Official government source**: 107
+- **Match appears only in collector query metadata**: 123
+- **No relevant term in the evidence itself**: 123
+- **Official government source**: 109
 - **Source is not an official .gov or .mil domain**: 14
 - **Agency and technology inference only**: 3
 
@@ -67,7 +67,7 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 10
 
-### [Policy 2d ago New Mexico Offers Matching Funds for DARPA Quantum Computing Projects](https://thequantuminsider.com/2026/08/28/new-mexico-darpa-quantum-benchmarking-matching-funds)
+### [New Mexico Offers Matching Funds for DARPA Quantum Computing Projects](https://thequantuminsider.com/2026/08/28/new-mexico-darpa-quantum-benchmarking-matching-funds)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
@@ -508,6 +508,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
+### [Silvio O. Conte Digestive Diseases Research Core Centers (P30-Clinical Trial Optional)](https://www.grants.gov/search-results-detail/360436)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Silvio O. Conte Digestive Diseases Research Core Centers (P30-Clinical Trial Optional)](https://www.grants.gov/search-results-detail/360436)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
 ### [FY 2027 Fulbright Scholar Program](https://www.grants.gov/search-results-detail/362828)
 
 - Scope: Federal missions
@@ -705,20 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [Mid-scale Research Infrastructure-1](https://www.grants.gov/search-results-detail/356129)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Mid-scale Research Infrastructure-1](https://www.grants.gov/search-results-detail/356129)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025](https://www.grants.gov/search-results-detail/355385)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

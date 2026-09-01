@@ -1344,6 +1344,36 @@
       "confidence": "low",
       "evidence_count": 1,
       "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-08-31",
+      "name": "Pasqal",
+      "priority": "medium",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-08-31",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum-safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "The Quantum Insider",
+          "title": "Pasqal and KACST Partner on Quantum-Safe Cryptography Research",
+          "url": "https://thequantuminsider.com/2026/08/31/pasqal-kacst-quantum-research-saudi-arabia"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
+      "historical_evidence_count": 0,
       "latest_evidence_at": "2026-07-29",
       "name": "Quantinuum",
       "priority": "high",
@@ -1601,20 +1631,6 @@
       "evidence_count": 0,
       "historical_evidence_count": 0,
       "latest_evidence_at": null,
-      "name": "Pasqal",
-      "priority": "medium",
-      "source_count": 0,
-      "stage": "not_assessed",
-      "stage_label": "Not assessed",
-      "stage_rank": 0,
-      "supporting_evidence": [],
-      "type": "company"
-    },
-    {
-      "confidence": "none",
-      "evidence_count": 0,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": null,
       "name": "PsiQuantum",
       "priority": "high",
       "source_count": 0,
@@ -1682,17 +1698,17 @@
     }
   ],
   "summary": {
-    "assessed": 23,
+    "assessed": 24,
     "by_stage": {
-      "awareness": 14,
+      "awareness": 15,
       "inventory": 1,
-      "not_assessed": 20,
+      "not_assessed": 19,
       "pilot": 2,
       "planning": 6
     },
-    "not_assessed": 20,
+    "not_assessed": 19,
     "organizations": 43
   },
-  "updated_at": "2026-08-31T02:55:30.577828+00:00",
+  "updated_at": "2026-09-01T03:07:10.249461+00:00",
   "version": 1
 }

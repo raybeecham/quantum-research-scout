@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-08-31T02:49:14.453701+00:00_
+_Updated 2026-09-01T02:58:55.591634+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **80** (**106.7%** coverage)
+- SAM.gov-resolved entities: **83** (**110.7%** coverage)
 - Newly resolved this run: **3**
-- Pending bounded enrichment: **125**
+- Pending bounded enrichment: **122**
 - Ambiguous / no match: **3 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -43,9 +43,12 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | ARETE CONSULTING LLC | [ARETE CONSULTING LLC](https://sam.gov/entity/C2PNBME1GYB5/coreData) | C2PNBME1GYB5 | 7LRX4 | Active | SBA Certified 8(a) Program Participant |
 | UNIVERSITY OF WISCONSIN SYSTEM | [UNIVERSITY OF WISCONSIN SYSTEM](https://sam.gov/entity/LCLSJAGTNZQ7/coreData) | LCLSJAGTNZQ7 | 09FZ2 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | UNIVERSITY OF WASHINGTON | [UNIVERSITY OF WASHINGTON](https://sam.gov/entity/HD1WMN6945W6/coreData) | HD1WMN6945W6 | 1HEX5 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. Local Government |
+| UNIVERSITY OF NORTH DAKOTA | [UNIVERSITY OF NORTH DAKOTA](https://sam.gov/entity/RSWNKK6J8CF3/coreData) | RSWNKK6J8CF3 | 4B858 | Active | Business or Organization, Educational Institution, Other Not For Profit Organization |
 | THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK | [THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK](https://sam.gov/entity/F4N1QNPB95M4/coreData) | F4N1QNPB95M4 | 1B053 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | PURDUE UNIVERSITY | [PURDUE UNIVERSITY](https://sam.gov/entity/YRXVL4JYCEF5/coreData) | YRXVL4JYCEF5 | 6D418 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | [OLD DOMINION UNIVERSITY RESEARCH FOUNDATION](https://sam.gov/entity/DSLXBD7UWRV6/coreData) | DSLXBD7UWRV6 | 5D075 | Active | Business or Organization, Foundation, Non-Profit Organization |
+| NORTHEASTERN UNIVERSITY | [NORTHEASTERN UNIVERSITY](https://sam.gov/entity/HLTMVS2JZBS6/coreData) | HLTMVS2JZBS6 | 9A140 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| NATIONAL ACADEMY OF SCIENCES | [NATIONAL ACADEMY OF SCIENCES](https://sam.gov/entity/PKFJZHG2MLG9/coreData) | PKFJZHG2MLG9 | 1D969 | Active | Business or Organization, Non-Profit Organization |
 | KPMG LLP | [KPMG LLP](https://sam.gov/entity/MAA3SBSDQVM1/coreData) | MAA3SBSDQVM1 | 7QEG9 | Active | Business or Organization, For Profit Organization |
 | KEAN UNIVERSITY | [KEAN UNIVERSITY](https://sam.gov/entity/SQ62WM5KNSV8/coreData) | SQ62WM5KNSV8 | 314S6 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
 | FLORIDA INTERNATIONAL UNIVERSITY | [FLORIDA INTERNATIONAL UNIVERSITY](https://sam.gov/entity/Q3KCVK5S9CP1/coreData) | Q3KCVK5S9CP1 | 1JHM5 | Active | Educational Institution, Hispanic Servicing Institution, Minority Institution |
@@ -86,9 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | RAVENTEK SOLUTION PARTNERS, LLC | [RAVENTEK SOLUTION PARTNERS, LLC](https://sam.gov/entity/RCKJZ5KGE3H6/coreData) | RCKJZ5KGE3H6 | 7J4B0 | Active | American Indian Owned, Business or Organization, For Profit Organization |
 | IZUM INC | [IZUM INC](https://sam.gov/entity/C4HKEB7DRCR8/coreData) | C4HKEB7DRCR8 | 7EHR5 | Active | SBA Certified 8(a) Program Participant |
 | CLEARAVENUE LLC | [CLEARAVENUE LLC](https://sam.gov/entity/TZJXKXNHDLX1/coreData) | TZJXKXNHDLX1 | 3EG54 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
-| UNIVERSITY OF ALASKA FAIRBANKS | [UNIVERSITY OF ALASKA FAIRBANKS](https://sam.gov/entity/FDLEQSJ8FF63/coreData) | FDLEQSJ8FF63 | 3R2B4 | Active | 1862 Land Grant College, Alaskan Native Servicing Institution, Educational Institution |
-| THE PENNSYLVANIA STATE UNIVERSITY | [THE PENNSYLVANIA STATE UNIVERSITY](https://sam.gov/entity/NPM2J7MSCF61/coreData) | NPM2J7MSCF61 | 7A720 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
-| PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC. | [PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC.](https://sam.gov/entity/KL36P1L5H833/coreData) | KL36P1L5H833 | 1LLT3 | Active | Business or Organization, For Profit Organization, Hispanic American Owned |
 
 ## Method
 

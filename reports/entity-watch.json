@@ -93,7 +93,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 15,
+      "evidence_count": 17,
       "first_party_evidence_count": 0,
       "name": "Pasqal",
       "priority": "medium",
@@ -385,7 +385,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 13,
+      "evidence_count": 14,
       "first_party_evidence_count": 0,
       "name": "IonQ",
       "priority": "high",
@@ -877,11 +877,11 @@
       "first_seen": "2026-06-25",
       "historical_evidence_count": 1,
       "latest_seen": "2026-08-25",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "NIST",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -1836,11 +1836,11 @@
       "first_seen": "2026-07-27",
       "historical_evidence_count": 14,
       "latest_seen": "2026-08-25",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Cisco",
       "prior_count": 1,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2609,11 +2609,11 @@
       "first_seen": "2024-10-28",
       "historical_evidence_count": 19,
       "latest_seen": "2026-08-24",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Fortanix",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -2623,8 +2623,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 13,
+      "current_evidence_count": 14,
       "evidence": [
+        {
+          "date": "2026-08-31",
+          "key": "https://thequantuminsider.com/2026/08/31/ionq-researchers-run-megaquop-scale-quantum-error-decoder-on-a-macbook-pro",
+          "report": "2026-08/2026-08-31-digest.md",
+          "score": 107,
+          "source": "The Quantum Insider",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "IonQ Researchers Run MegaQuOp-Scale Quantum Error Decoder on a MacBook Pro",
+          "url": "https://thequantuminsider.com/2026/08/31/ionq-researchers-run-megaquop-scale-quantum-error-decoder-on-a-macbook-pro"
+        },
         {
           "date": "2026-08-19",
           "key": "https://thequantuminsider.com/2026/08/19/ionq-and-cmc-microsystems-announce-collaboration-to-expand-cloud-quantum-computing-access-in-canada",
@@ -2782,16 +2794,16 @@
           "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
         }
       ],
-      "evidence_count": 13,
+      "evidence_count": 14,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-19",
+      "latest_seen": "2026-08-31",
       "momentum": "declining",
       "name": "IonQ",
       "prior_count": 2,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility",
         "QEC / Fault Tolerance",
@@ -5035,9 +5047,9 @@
       "latest_seen": "2026-08-24",
       "momentum": "declining",
       "name": "Infleqtion",
-      "prior_count": 3,
+      "prior_count": 5,
       "priority": "medium",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -5049,8 +5061,32 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 15,
+      "current_evidence_count": 17,
       "evidence": [
+        {
+          "date": "2026-08-31",
+          "key": "https://thequantuminsider.com/2026/08/31/pasqal-kacst-quantum-research-saudi-arabia",
+          "report": "2026-08/2026-08-31-digest.md",
+          "score": 67,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal and KACST Partner on Quantum-Safe Cryptography Research",
+          "url": "https://thequantuminsider.com/2026/08/31/pasqal-kacst-quantum-research-saudi-arabia"
+        },
+        {
+          "date": "2026-08-31",
+          "key": "https://quantumzeitgeist.com/quantum-cryptography-pasqal-kacst-saudi",
+          "report": "2026-08/2026-08-31-digest.md",
+          "score": 47,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Pasqal and KACST team up to build quantum cryptography in Saudi Arabia",
+          "url": "https://quantumzeitgeist.com/quantum-cryptography-pasqal-kacst-saudi"
+        },
         {
           "date": "2026-08-28",
           "key": "https://thequantuminsider.com/2026/08/28/pasqal-announces-board-of-directors-ahead-of-nasdaq-trading",
@@ -5232,17 +5268,18 @@
           "url": "https://thequantuminsider.com/2026/06/29/pasqal-appoints-stephane-rougeot-chief-financial-officer"
         }
       ],
-      "evidence_count": 15,
+      "evidence_count": 17,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-28",
+      "latest_seen": "2026-08-31",
       "momentum": "rising",
       "name": "Pasqal",
       "prior_count": 1,
       "priority": "medium",
-      "recent_count": 2,
+      "recent_count": 4,
       "status": "active",
       "themes": [
+        "PQC / Crypto Agility",
         "Quantum Hardware"
       ],
       "type": "company"
@@ -6422,8 +6459,20 @@
         "fault-tolerant quantum"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 15,
+      "current_evidence_count": 16,
       "evidence": [
+        {
+          "date": "2026-08-31",
+          "key": "https://thequantuminsider.com/2026/08/31/xanadu-1000-logical-qubits-2031",
+          "report": "2026-08/2026-08-31-digest.md",
+          "score": 93,
+          "source": "The Quantum Insider",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Xanadu Targets More Than 1,000 Logical Qubits by 2031",
+          "url": "https://thequantuminsider.com/2026/08/31/xanadu-1000-logical-qubits-2031"
+        },
         {
           "date": "2026-08-28",
           "key": "https://quantumzeitgeist.com/mitsubishi-chemical-xanadu-aim-fault-tolerant",
@@ -6677,15 +6726,15 @@
           "url": "https://www.quera.com/press-releases/quera-selected-for-phase-1-of-darpas-quantum-benchmarking-initiative"
         }
       ],
-      "evidence_count": 18,
+      "evidence_count": 19,
       "first_seen": "2025-09-10",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-08-28",
-      "momentum": "stable",
+      "latest_seen": "2026-08-31",
+      "momentum": "rising",
       "name": "Logical qubits",
       "prior_count": 1,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -6979,7 +7028,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Networking"
       ],
@@ -7392,6 +7441,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-08-31T02:55:30.116080+00:00",
+  "updated_at": "2026-09-01T03:07:09.715790+00:00",
   "version": 2
 }
