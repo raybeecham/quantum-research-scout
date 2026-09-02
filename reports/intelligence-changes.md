@@ -2,44 +2,51 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-01T02:58:55.591634+00:00_
+_Updated 2026-09-02T02:19:14.986810+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **50**
-- Added / changed / resolved: **20 / 3 / 27**
+- Material changes: **57**
+- Added / changed / resolved: **26 / 4 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **EdUSA AI & Quantum Technologies Initiative in Australia** — qualification gate: targeted review ([evidence](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view))
-- **AI Partnership & Exchange for Tech Leaders (APEX)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363315))
-- **MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363586))
+- **CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)** — deadline: 09/15/2026 ([evidence](https://www.grants.gov/search-results-detail/360651))
+- **Advancing Investigative Journalism in Ukraine through U.S. AI Innovation** — opportunity status: closed ([evidence](https://www.grants.gov/search-results-detail/363440))
+- **NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)** — qualification gate: targeted review ([evidence](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view))
+- **Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/359269))
 
 ## New claims
 
-- **16--MODIFICATION KIT,AI** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view))
-- **16--MODIFICATION KIT,AI** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION ([evidence](https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view))
-- **16--MODIFICATION KIT,AI** — reported amount: 28080.0 ([evidence](https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view))
-- **16--MODIFICATION KIT,AI** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view))
-- **U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/363744))
-- **U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)** — deadline: 09/14/2026 ([evidence](https://www.grants.gov/search-results-detail/363744))
-- **U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)** — awarding agency: DOS-SAU ([evidence](https://www.grants.gov/search-results-detail/363744))
-- **UNIVERSITY OF NORTH DAKOTA** — legal business name: UNIVERSITY OF NORTH DAKOTA ([evidence](https://sam.gov/entity/RSWNKK6J8CF3/coreData))
-- **UNIVERSITY OF NORTH DAKOTA** — uei: RSWNKK6J8CF3 ([evidence](https://sam.gov/entity/RSWNKK6J8CF3/coreData))
-- **UNIVERSITY OF NORTH DAKOTA** — cage code: 4B858 ([evidence](https://sam.gov/entity/RSWNKK6J8CF3/coreData))
-- **UNIVERSITY OF NORTH DAKOTA** — registration status: Active ([evidence](https://sam.gov/entity/RSWNKK6J8CF3/coreData))
-- **NORTHEASTERN UNIVERSITY** — legal business name: NORTHEASTERN UNIVERSITY ([evidence](https://sam.gov/entity/HLTMVS2JZBS6/coreData))
-- **NORTHEASTERN UNIVERSITY** — uei: HLTMVS2JZBS6 ([evidence](https://sam.gov/entity/HLTMVS2JZBS6/coreData))
-- **NORTHEASTERN UNIVERSITY** — cage code: 9A140 ([evidence](https://sam.gov/entity/HLTMVS2JZBS6/coreData))
-- **NORTHEASTERN UNIVERSITY** — registration status: Active ([evidence](https://sam.gov/entity/HLTMVS2JZBS6/coreData))
-- **NATIONAL ACADEMY OF SCIENCES** — legal business name: NATIONAL ACADEMY OF SCIENCES ([evidence](https://sam.gov/entity/PKFJZHG2MLG9/coreData))
-- **NATIONAL ACADEMY OF SCIENCES** — uei: PKFJZHG2MLG9 ([evidence](https://sam.gov/entity/PKFJZHG2MLG9/coreData))
-- **NATIONAL ACADEMY OF SCIENCES** — cage code: 1D969 ([evidence](https://sam.gov/entity/PKFJZHG2MLG9/coreData))
-- **NATIONAL ACADEMY OF SCIENCES** — registration status: Active ([evidence](https://sam.gov/entity/PKFJZHG2MLG9/coreData))
-- **U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363744))
+- **Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view))
+- **Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)** — set aside: No Set aside used ([evidence](https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view))
+- **Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)** — awarding agency: COMMERCE, DEPARTMENT OF.NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY.DEPT OF COMMERCE NIST ([evidence](https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view))
+- **Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)** — reported amount: 101380.0 ([evidence](https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view))
+- **Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view))
+- **15--PANEL,STRUCTURAL,AI** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/ae7c5c9616a1405da810c7543121798f/view))
+- **15--PANEL,STRUCTURAL,AI** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND COLUMBUS.DLA LAND AND MARITIME ([evidence](https://sam.gov/workspace/contract/opp/ae7c5c9616a1405da810c7543121798f/view))
+- **15--PANEL,STRUCTURAL,AI** — reported amount: 46384.28 ([evidence](https://sam.gov/workspace/contract/opp/ae7c5c9616a1405da810c7543121798f/view))
+- **15--PANEL,STRUCTURAL,AI** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/ae7c5c9616a1405da810c7543121798f/view))
+- **66--Quantum Cascade Laser (QCL) System** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view))
+- **66--Quantum Cascade Laser (QCL) System** — awarding agency: ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.NATIONAL ENERGY TECHNOLOGY LABORATORY ([evidence](https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view))
+- **66--Quantum Cascade Laser (QCL) System** — reported amount: 23786.0 ([evidence](https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view))
+- **66--Quantum Cascade Laser (QCL) System** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view))
+- **TRUSTEES OF BOSTON UNIVERSITY** — legal business name: TRUSTEES OF BOSTON UNIVERSITY ([evidence](https://sam.gov/entity/THL6A6JLE1S7/coreData))
+- **TRUSTEES OF BOSTON UNIVERSITY** — uei: THL6A6JLE1S7 ([evidence](https://sam.gov/entity/THL6A6JLE1S7/coreData))
+- **TRUSTEES OF BOSTON UNIVERSITY** — cage code: 3A817 ([evidence](https://sam.gov/entity/THL6A6JLE1S7/coreData))
+- **TRUSTEES OF BOSTON UNIVERSITY** — registration status: Active ([evidence](https://sam.gov/entity/THL6A6JLE1S7/coreData))
+- **CLEMSON UNIVERSITY** — legal business name: Clemson University ([evidence](https://sam.gov/entity/H2BMNX7DSKU8/coreData))
+- **CLEMSON UNIVERSITY** — uei: H2BMNX7DSKU8 ([evidence](https://sam.gov/entity/H2BMNX7DSKU8/coreData))
+- **CLEMSON UNIVERSITY** — cage code: 1D5U5 ([evidence](https://sam.gov/entity/H2BMNX7DSKU8/coreData))
+- **CLEMSON UNIVERSITY** — registration status: Active ([evidence](https://sam.gov/entity/H2BMNX7DSKU8/coreData))
+- **KANSAS STATE UNIVERSITY** — legal business name: KANSAS STATE UNIVERSITY ([evidence](https://sam.gov/entity/CFMMM5JM7HJ9/coreData))
+- **KANSAS STATE UNIVERSITY** — uei: CFMMM5JM7HJ9 ([evidence](https://sam.gov/entity/CFMMM5JM7HJ9/coreData))
+- **KANSAS STATE UNIVERSITY** — cage code: 4B817 ([evidence](https://sam.gov/entity/CFMMM5JM7HJ9/coreData))
+- **KANSAS STATE UNIVERSITY** — registration status: Active ([evidence](https://sam.gov/entity/CFMMM5JM7HJ9/coreData))
+- **CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/360651))
 
 ## Superseded claims
 

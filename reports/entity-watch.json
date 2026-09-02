@@ -215,8 +215,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 22,
-      "first_party_evidence_count": 20,
+      "evidence_count": 23,
+      "first_party_evidence_count": 21,
       "name": "Cisco",
       "priority": "high",
       "status": "covered",
@@ -385,7 +385,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 14,
+      "evidence_count": 15,
       "first_party_evidence_count": 0,
       "name": "IonQ",
       "priority": "high",
@@ -877,11 +877,11 @@
       "first_seen": "2026-06-25",
       "historical_evidence_count": 1,
       "latest_seen": "2026-08-25",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "NIST",
-      "prior_count": 2,
+      "prior_count": 4,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -1397,8 +1397,20 @@
         "Cisco Systems"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 8,
+      "current_evidence_count": 9,
       "evidence": [
+        {
+          "date": "2026-09-01",
+          "key": "https://blogs.cisco.com/developer/post-quantum-key-exchange-on-cisco-routers-ipsec-series-part-9",
+          "report": "2026-09/2026-09-01-digest.md",
+          "score": 106,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post-Quantum Key Exchange on Cisco Routers \u2013 IPsec Series, Part 9",
+          "url": "https://blogs.cisco.com/developer/post-quantum-key-exchange-on-cisco-routers-ipsec-series-part-9"
+        },
         {
           "date": "2026-08-25",
           "key": "https://quantumzeitgeist.com/post-quantum-ikev2-security-strongswan-helps",
@@ -1832,13 +1844,13 @@
           "url": "https://blogs.cisco.com/tag/post-quantum-cryptography-pqc"
         }
       ],
-      "evidence_count": 22,
+      "evidence_count": 23,
       "first_seen": "2026-07-27",
       "historical_evidence_count": 14,
-      "latest_seen": "2026-08-25",
-      "momentum": "stable",
+      "latest_seen": "2026-09-01",
+      "momentum": "declining",
       "name": "Cisco",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -2127,7 +2139,7 @@
       "latest_seen": "2026-08-19",
       "momentum": "declining",
       "name": "IBM",
-      "prior_count": 3,
+      "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -2614,7 +2626,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -2623,8 +2635,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 14,
+      "current_evidence_count": 15,
       "evidence": [
+        {
+          "date": "2026-09-01",
+          "key": "https://thequantuminsider.com/2026/09/01/qc-ware-ionq-hybrid-quantum-chemistry-drug-discovery",
+          "report": "2026-09/2026-09-01-digest.md",
+          "score": 48,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "QC Ware and IonQ Demonstrate Hybrid Quantum Chemistry Workflow for Drug Discovery",
+          "url": "https://thequantuminsider.com/2026/09/01/qc-ware-ionq-hybrid-quantum-chemistry-drug-discovery"
+        },
         {
           "date": "2026-08-31",
           "key": "https://thequantuminsider.com/2026/08/31/ionq-researchers-run-megaquop-scale-quantum-error-decoder-on-a-macbook-pro",
@@ -2794,15 +2818,15 @@
           "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
         }
       ],
-      "evidence_count": 14,
+      "evidence_count": 15,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-31",
-      "momentum": "declining",
+      "latest_seen": "2026-09-01",
+      "momentum": "stable",
       "name": "IonQ",
       "prior_count": 2,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -5047,10 +5071,10 @@
       "latest_seen": "2026-08-24",
       "momentum": "declining",
       "name": "Infleqtion",
-      "prior_count": 5,
+      "prior_count": 3,
       "priority": "medium",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Hardware",
         "Quantum Sensing",
@@ -5274,9 +5298,9 @@
       "latest_seen": "2026-08-31",
       "momentum": "rising",
       "name": "Pasqal",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "medium",
-      "recent_count": 4,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -6732,7 +6756,7 @@
       "latest_seen": "2026-08-31",
       "momentum": "rising",
       "name": "Logical qubits",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "critical",
       "recent_count": 2,
       "status": "active",
@@ -7441,6 +7465,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-09-01T03:07:09.715790+00:00",
+  "updated_at": "2026-09-02T02:29:06.134083+00:00",
   "version": 2
 }

@@ -282,11 +282,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-34fd3f109867c626",
+      "claim_id": "claim-bc4e0de785128de3",
       "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -294,17 +294,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-22cf1dbe8528115f",
+          "evidence_id": "evidence-a39e7d39f6385d5b",
           "locator": "opportunity_status:awarded",
-          "title": "16--MODIFICATION KIT,AI",
-          "url": "https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view",
+          "title": "Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)",
+          "url": "https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A726T564C",
-        "label": "16--MODIFICATION KIT,AI",
-        "node_id": "award_notice:sam_gov:SPE4A726T564C",
+        "identifier": "sam_gov:1333ND26PNB030160",
+        "label": "Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)",
+        "node_id": "award_notice:sam_gov:1333ND26PNB030160",
         "node_type": "award_notice"
       },
       "value": "awarded"
@@ -312,11 +312,41 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-7ecde7d6c03187d7",
+      "claim_id": "claim-789c207bb97a0c4e",
       "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "object": null,
+      "predicate": "set_aside",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d8a48b43341a254e",
+          "locator": "set_aside:no set aside used",
+          "title": "Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)",
+          "url": "https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:1333ND26PNB030160",
+        "label": "Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)",
+        "node_id": "award_notice:sam_gov:1333ND26PNB030160",
+        "node_type": "award_notice"
+      },
+      "value": "No Set aside used"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-e7298fa05d5f0242",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -324,29 +354,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8f454b7c8724226d",
-          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
-          "title": "16--MODIFICATION KIT,AI",
-          "url": "https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view",
+          "evidence_id": "evidence-4527016ebfb85336",
+          "locator": "awarding_agency:commerce, department of.national institute of standards and technology.dept of commerce nist",
+          "title": "Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)",
+          "url": "https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A726T564C",
-        "label": "16--MODIFICATION KIT,AI",
-        "node_id": "award_notice:sam_gov:SPE4A726T564C",
+        "identifier": "sam_gov:1333ND26PNB030160",
+        "label": "Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)",
+        "node_id": "award_notice:sam_gov:1333ND26PNB030160",
         "node_type": "award_notice"
       },
-      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
+      "value": "COMMERCE, DEPARTMENT OF.NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY.DEPT OF COMMERCE NIST"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-74fa6cb16b81e7af",
+      "claim_id": "claim-5ad422c7ed2cd6a0",
       "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -354,33 +384,33 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8f3e6618890d7fe6",
-          "locator": "reported_amount:28080.0",
-          "title": "16--MODIFICATION KIT,AI",
-          "url": "https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view",
+          "evidence_id": "evidence-ba0596f0140a0e7f",
+          "locator": "reported_amount:101380.0",
+          "title": "Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)",
+          "url": "https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A726T564C",
-        "label": "16--MODIFICATION KIT,AI",
-        "node_id": "award_notice:sam_gov:SPE4A726T564C",
+        "identifier": "sam_gov:1333ND26PNB030160",
+        "label": "Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)",
+        "node_id": "award_notice:sam_gov:1333ND26PNB030160",
         "node_type": "award_notice"
       },
-      "value": 28080.0
+      "value": 101380.0
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-a8fe3f0635aed6ca",
+      "claim_id": "claim-cb8486b51573cb14",
       "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": {
-        "identifier": "name:thales defense and security",
-        "label": "THALES DEFENSE & SECURITY INC",
-        "node_id": "recipient_or_contractor:name:thales defense and security",
+        "identifier": "name:quantum design",
+        "label": "QUANTUM DESIGN, INC.",
+        "node_id": "recipient_or_contractor:name:quantum design",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -389,17 +419,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-30503bd3616043ef",
-          "locator": "reported_recipient:recipient_or_contractor:name:thales defense and security",
-          "title": "16--MODIFICATION KIT,AI",
-          "url": "https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view",
+          "evidence_id": "evidence-e5ea9aeba2e40189",
+          "locator": "reported_recipient:recipient_or_contractor:name:quantum design",
+          "title": "Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)",
+          "url": "https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A726T564C",
-        "label": "16--MODIFICATION KIT,AI",
-        "node_id": "award_notice:sam_gov:SPE4A726T564C",
+        "identifier": "sam_gov:1333ND26PNB030160",
+        "label": "Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)",
+        "node_id": "award_notice:sam_gov:1333ND26PNB030160",
         "node_type": "award_notice"
       },
       "value": null
@@ -407,11 +437,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-a247198995d2ae9d",
+      "claim_id": "claim-8b4c12ecb869032b",
       "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -419,59 +449,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4c951b0f599d686a",
-          "locator": "opportunity_status:open",
-          "title": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
-          "url": "https://www.grants.gov/search-results-detail/363744",
+          "evidence_id": "evidence-02736c51aa91bbaf",
+          "locator": "opportunity_status:awarded",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/ae7c5c9616a1405da810c7543121798f/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:DOS-SAU-2605-PD",
-        "label": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
-        "node_id": "opportunity:grants_gov:DOS-SAU-2605-PD",
-        "node_type": "opportunity"
+        "identifier": "sam_gov:SPE7L126T305Y",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE7L126T305Y",
+        "node_type": "award_notice"
       },
-      "value": "open"
+      "value": "awarded"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-1aa9669fa28f53ef",
+      "claim_id": "claim-cfec4d3a9c1312b3",
       "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "object": null,
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-603c346a9f0f1c1c",
-          "locator": "deadline:09/14/2026",
-          "title": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
-          "url": "https://www.grants.gov/search-results-detail/363744",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:DOS-SAU-2605-PD",
-        "label": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
-        "node_id": "opportunity:grants_gov:DOS-SAU-2605-PD",
-        "node_type": "opportunity"
-      },
-      "value": "09/14/2026"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-124eb68f3bfc4672",
-      "confidence": "high",
-      "effective_date": "2026-08-31",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -479,29 +479,219 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7cd2c246a64658ce",
-          "locator": "awarding_agency:dos-sau",
-          "title": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
-          "url": "https://www.grants.gov/search-results-detail/363744",
+          "evidence_id": "evidence-c6c6e69a7e8ce54e",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla land.dla land columbus.dla land and maritime",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/ae7c5c9616a1405da810c7543121798f/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:DOS-SAU-2605-PD",
-        "label": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
-        "node_id": "opportunity:grants_gov:DOS-SAU-2605-PD",
-        "node_type": "opportunity"
+        "identifier": "sam_gov:SPE7L126T305Y",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE7L126T305Y",
+        "node_type": "award_notice"
       },
-      "value": "DOS-SAU"
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND COLUMBUS.DLA LAND AND MARITIME"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-161fd0b0b9df40a1",
+      "claim_id": "claim-8617eb2b70516b05",
       "confidence": "high",
       "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-458f9c80ab6dfda7",
+          "locator": "reported_amount:46384.28",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/ae7c5c9616a1405da810c7543121798f/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7L126T305Y",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE7L126T305Y",
+        "node_type": "award_notice"
+      },
+      "value": 46384.28
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-efdf0b1542dc35e9",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "object": {
+        "identifier": "name:bae systems land and armaments l p",
+        "label": "BAE SYSTEMS LAND & ARMAMENTS L.P.",
+        "node_id": "recipient_or_contractor:name:bae systems land and armaments l p",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-381811ec81d33267",
+          "locator": "reported_recipient:recipient_or_contractor:name:bae systems land and armaments l p",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/ae7c5c9616a1405da810c7543121798f/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7L126T305Y",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE7L126T305Y",
+        "node_type": "award_notice"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c9ac979e55c208a9",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-807004f7a07aea33",
+          "locator": "opportunity_status:awarded",
+          "title": "66--Quantum Cascade Laser (QCL) System",
+          "url": "https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:89243326QFE000539",
+        "label": "66--Quantum Cascade Laser (QCL) System",
+        "node_id": "award_notice:sam_gov:89243326QFE000539",
+        "node_type": "award_notice"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c64c9f5df2b77f93",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-462d45398398f409",
+          "locator": "awarding_agency:energy, department of.energy, department of.national energy technology laboratory",
+          "title": "66--Quantum Cascade Laser (QCL) System",
+          "url": "https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:89243326QFE000539",
+        "label": "66--Quantum Cascade Laser (QCL) System",
+        "node_id": "award_notice:sam_gov:89243326QFE000539",
+        "node_type": "award_notice"
+      },
+      "value": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.NATIONAL ENERGY TECHNOLOGY LABORATORY"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1b7b641ecff54b01",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-063f14c44131c405",
+          "locator": "reported_amount:23786.0",
+          "title": "66--Quantum Cascade Laser (QCL) System",
+          "url": "https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:89243326QFE000539",
+        "label": "66--Quantum Cascade Laser (QCL) System",
+        "node_id": "award_notice:sam_gov:89243326QFE000539",
+        "node_type": "award_notice"
+      },
+      "value": 23786.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-042b991360dfd373",
+      "confidence": "high",
+      "effective_date": "2026-09-01",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "object": {
+        "identifier": "name:49chestnut",
+        "label": "49CHESTNUT LLC",
+        "node_id": "recipient_or_contractor:name:49chestnut",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c0aee8aaa6f0479f",
+          "locator": "reported_recipient:recipient_or_contractor:name:49chestnut",
+          "title": "66--Quantum Cascade Laser (QCL) System",
+          "url": "https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:89243326QFE000539",
+        "label": "66--Quantum Cascade Laser (QCL) System",
+        "node_id": "award_notice:sam_gov:89243326QFE000539",
+        "node_type": "award_notice"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-9d8b37adade6a755",
+      "confidence": "high",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -509,29 +699,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3d89b45bb531c815",
-          "locator": "legal_business_name:university of north dakota",
-          "title": "UNIVERSITY OF NORTH DAKOTA",
-          "url": "https://sam.gov/entity/RSWNKK6J8CF3/coreData",
+          "evidence_id": "evidence-8630eade047640fe",
+          "locator": "legal_business_name:trustees of boston university",
+          "title": "TRUSTEES OF BOSTON UNIVERSITY",
+          "url": "https://sam.gov/entity/THL6A6JLE1S7/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:RSWNKK6J8CF3",
-        "label": "UNIVERSITY OF NORTH DAKOTA",
-        "node_id": "recipient_or_contractor:uei:RSWNKK6J8CF3",
+        "identifier": "uei:THL6A6JLE1S7",
+        "label": "TRUSTEES OF BOSTON UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:THL6A6JLE1S7",
         "node_type": "recipient_or_contractor"
       },
-      "value": "UNIVERSITY OF NORTH DAKOTA"
+      "value": "TRUSTEES OF BOSTON UNIVERSITY"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-9b36116e7d6a33ca",
+      "claim_id": "claim-f53b3783a4e5d7dc",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -539,29 +729,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-001cf379f5ee7ba8",
-          "locator": "uei:rswnkk6j8cf3",
-          "title": "UNIVERSITY OF NORTH DAKOTA",
-          "url": "https://sam.gov/entity/RSWNKK6J8CF3/coreData",
+          "evidence_id": "evidence-f6ac2c2a2ae361d0",
+          "locator": "uei:thl6a6jle1s7",
+          "title": "TRUSTEES OF BOSTON UNIVERSITY",
+          "url": "https://sam.gov/entity/THL6A6JLE1S7/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:RSWNKK6J8CF3",
-        "label": "UNIVERSITY OF NORTH DAKOTA",
-        "node_id": "recipient_or_contractor:uei:RSWNKK6J8CF3",
+        "identifier": "uei:THL6A6JLE1S7",
+        "label": "TRUSTEES OF BOSTON UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:THL6A6JLE1S7",
         "node_type": "recipient_or_contractor"
       },
-      "value": "RSWNKK6J8CF3"
+      "value": "THL6A6JLE1S7"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-afba3396dbc27c66",
+      "claim_id": "claim-eff09feafd7ebceb",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -569,29 +759,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-36f109d4c22488d5",
-          "locator": "cage_code:4b858",
-          "title": "UNIVERSITY OF NORTH DAKOTA",
-          "url": "https://sam.gov/entity/RSWNKK6J8CF3/coreData",
+          "evidence_id": "evidence-0b37fbde7a5dd61b",
+          "locator": "cage_code:3a817",
+          "title": "TRUSTEES OF BOSTON UNIVERSITY",
+          "url": "https://sam.gov/entity/THL6A6JLE1S7/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:RSWNKK6J8CF3",
-        "label": "UNIVERSITY OF NORTH DAKOTA",
-        "node_id": "recipient_or_contractor:uei:RSWNKK6J8CF3",
+        "identifier": "uei:THL6A6JLE1S7",
+        "label": "TRUSTEES OF BOSTON UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:THL6A6JLE1S7",
         "node_type": "recipient_or_contractor"
       },
-      "value": "4B858"
+      "value": "3A817"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-c4db2bb60ed755b5",
+      "claim_id": "claim-283025dc98e96657",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -599,17 +789,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-73fed8ebed08137c",
+          "evidence_id": "evidence-3f388aedb33c2d2c",
           "locator": "registration_status:active",
-          "title": "UNIVERSITY OF NORTH DAKOTA",
-          "url": "https://sam.gov/entity/RSWNKK6J8CF3/coreData",
+          "title": "TRUSTEES OF BOSTON UNIVERSITY",
+          "url": "https://sam.gov/entity/THL6A6JLE1S7/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:RSWNKK6J8CF3",
-        "label": "UNIVERSITY OF NORTH DAKOTA",
-        "node_id": "recipient_or_contractor:uei:RSWNKK6J8CF3",
+        "identifier": "uei:THL6A6JLE1S7",
+        "label": "TRUSTEES OF BOSTON UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:THL6A6JLE1S7",
         "node_type": "recipient_or_contractor"
       },
       "value": "Active"
@@ -617,11 +807,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-598aefc6ce9b1444",
+      "claim_id": "claim-860632b2f44230f9",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -629,29 +819,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bee850ef49c14cf4",
-          "locator": "legal_business_name:northeastern university",
-          "title": "NORTHEASTERN UNIVERSITY",
-          "url": "https://sam.gov/entity/HLTMVS2JZBS6/coreData",
+          "evidence_id": "evidence-dc20b699f3cbab4d",
+          "locator": "legal_business_name:clemson university",
+          "title": "Clemson University",
+          "url": "https://sam.gov/entity/H2BMNX7DSKU8/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:HLTMVS2JZBS6",
-        "label": "NORTHEASTERN UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:HLTMVS2JZBS6",
+        "identifier": "uei:H2BMNX7DSKU8",
+        "label": "CLEMSON UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:H2BMNX7DSKU8",
         "node_type": "recipient_or_contractor"
       },
-      "value": "NORTHEASTERN UNIVERSITY"
+      "value": "Clemson University"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-dd48d11032efedb9",
+      "claim_id": "claim-89cbf9a31d7e2406",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -659,29 +849,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a5a7729b23ab650c",
-          "locator": "uei:hltmvs2jzbs6",
-          "title": "NORTHEASTERN UNIVERSITY",
-          "url": "https://sam.gov/entity/HLTMVS2JZBS6/coreData",
+          "evidence_id": "evidence-be2a2a4cca93c877",
+          "locator": "uei:h2bmnx7dsku8",
+          "title": "Clemson University",
+          "url": "https://sam.gov/entity/H2BMNX7DSKU8/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:HLTMVS2JZBS6",
-        "label": "NORTHEASTERN UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:HLTMVS2JZBS6",
+        "identifier": "uei:H2BMNX7DSKU8",
+        "label": "CLEMSON UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:H2BMNX7DSKU8",
         "node_type": "recipient_or_contractor"
       },
-      "value": "HLTMVS2JZBS6"
+      "value": "H2BMNX7DSKU8"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-365e4efe2e219fa3",
+      "claim_id": "claim-e2cc3779e76db06c",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -689,29 +879,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bfe6903d5e066998",
-          "locator": "cage_code:9a140",
-          "title": "NORTHEASTERN UNIVERSITY",
-          "url": "https://sam.gov/entity/HLTMVS2JZBS6/coreData",
+          "evidence_id": "evidence-893ee5bc7ad4abef",
+          "locator": "cage_code:1d5u5",
+          "title": "Clemson University",
+          "url": "https://sam.gov/entity/H2BMNX7DSKU8/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:HLTMVS2JZBS6",
-        "label": "NORTHEASTERN UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:HLTMVS2JZBS6",
+        "identifier": "uei:H2BMNX7DSKU8",
+        "label": "CLEMSON UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:H2BMNX7DSKU8",
         "node_type": "recipient_or_contractor"
       },
-      "value": "9A140"
+      "value": "1D5U5"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-d509f863dd7d2264",
+      "claim_id": "claim-e8c7c519d18e44a1",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -719,17 +909,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-35b0058884ffa2a4",
+          "evidence_id": "evidence-2d893106bfd3d15b",
           "locator": "registration_status:active",
-          "title": "NORTHEASTERN UNIVERSITY",
-          "url": "https://sam.gov/entity/HLTMVS2JZBS6/coreData",
+          "title": "Clemson University",
+          "url": "https://sam.gov/entity/H2BMNX7DSKU8/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:HLTMVS2JZBS6",
-        "label": "NORTHEASTERN UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:HLTMVS2JZBS6",
+        "identifier": "uei:H2BMNX7DSKU8",
+        "label": "CLEMSON UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:H2BMNX7DSKU8",
         "node_type": "recipient_or_contractor"
       },
       "value": "Active"
@@ -737,11 +927,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-9b7f85a64ad355ad",
+      "claim_id": "claim-e99e73660253d699",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -749,29 +939,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-62aa92e4f0f8c292",
-          "locator": "legal_business_name:national academy of sciences",
-          "title": "NATIONAL ACADEMY OF SCIENCES",
-          "url": "https://sam.gov/entity/PKFJZHG2MLG9/coreData",
+          "evidence_id": "evidence-20b290d4527279ea",
+          "locator": "legal_business_name:kansas state university",
+          "title": "KANSAS STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/CFMMM5JM7HJ9/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:PKFJZHG2MLG9",
-        "label": "NATIONAL ACADEMY OF SCIENCES",
-        "node_id": "recipient_or_contractor:uei:PKFJZHG2MLG9",
+        "identifier": "uei:CFMMM5JM7HJ9",
+        "label": "KANSAS STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:CFMMM5JM7HJ9",
         "node_type": "recipient_or_contractor"
       },
-      "value": "NATIONAL ACADEMY OF SCIENCES"
+      "value": "KANSAS STATE UNIVERSITY"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-84e798cb26494695",
+      "claim_id": "claim-f337602512fe17a4",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -779,29 +969,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2c49236184ceb338",
-          "locator": "uei:pkfjzhg2mlg9",
-          "title": "NATIONAL ACADEMY OF SCIENCES",
-          "url": "https://sam.gov/entity/PKFJZHG2MLG9/coreData",
+          "evidence_id": "evidence-3ea7d57caf58e3a7",
+          "locator": "uei:cfmmm5jm7hj9",
+          "title": "KANSAS STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/CFMMM5JM7HJ9/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:PKFJZHG2MLG9",
-        "label": "NATIONAL ACADEMY OF SCIENCES",
-        "node_id": "recipient_or_contractor:uei:PKFJZHG2MLG9",
+        "identifier": "uei:CFMMM5JM7HJ9",
+        "label": "KANSAS STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:CFMMM5JM7HJ9",
         "node_type": "recipient_or_contractor"
       },
-      "value": "PKFJZHG2MLG9"
+      "value": "CFMMM5JM7HJ9"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-f2b40993a90dfee1",
+      "claim_id": "claim-d6ae87d2715dd5a8",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -809,29 +999,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-13442c7c54a117f9",
-          "locator": "cage_code:1d969",
-          "title": "NATIONAL ACADEMY OF SCIENCES",
-          "url": "https://sam.gov/entity/PKFJZHG2MLG9/coreData",
+          "evidence_id": "evidence-306e3685394ba1e7",
+          "locator": "cage_code:4b817",
+          "title": "KANSAS STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/CFMMM5JM7HJ9/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:PKFJZHG2MLG9",
-        "label": "NATIONAL ACADEMY OF SCIENCES",
-        "node_id": "recipient_or_contractor:uei:PKFJZHG2MLG9",
+        "identifier": "uei:CFMMM5JM7HJ9",
+        "label": "KANSAS STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:CFMMM5JM7HJ9",
         "node_type": "recipient_or_contractor"
       },
-      "value": "1D969"
+      "value": "4B817"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-5289b5cb1a0b4448",
+      "claim_id": "claim-31b1ca05f50f6b33",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -839,17 +1029,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1c4b0f3ed0483e2b",
+          "evidence_id": "evidence-1f25e26993180ff5",
           "locator": "registration_status:active",
-          "title": "NATIONAL ACADEMY OF SCIENCES",
-          "url": "https://sam.gov/entity/PKFJZHG2MLG9/coreData",
+          "title": "KANSAS STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/CFMMM5JM7HJ9/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:PKFJZHG2MLG9",
-        "label": "NATIONAL ACADEMY OF SCIENCES",
-        "node_id": "recipient_or_contractor:uei:PKFJZHG2MLG9",
+        "identifier": "uei:CFMMM5JM7HJ9",
+        "label": "KANSAS STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:CFMMM5JM7HJ9",
         "node_type": "recipient_or_contractor"
       },
       "value": "Active"
@@ -857,11 +1047,11 @@
     {
       "authority": "analytical",
       "change_type": "added",
-      "claim_id": "claim-a8a99fec1a1252ae",
+      "claim_id": "claim-1d126d2fa9c467a8",
       "confidence": "medium",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "sources": [
@@ -869,17 +1059,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d56934da2a7dc459",
+          "evidence_id": "evidence-ebf2349cad1bd35e",
           "locator": "qualification_gate",
-          "title": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
-          "url": "https://www.grants.gov/search-results-detail/363744",
+          "title": "CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)",
+          "url": "https://www.grants.gov/search-results-detail/360651",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:DOS-SAU-2605-PD",
-        "label": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
-        "node_id": "opportunity:grants_gov:DOS-SAU-2605-PD",
+        "identifier": "grants_gov:2025-NIST-CHIPS-CRDO-01",
+        "label": "CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)",
+        "node_id": "opportunity:grants_gov:2025-NIST-CHIPS-CRDO-01",
         "node_type": "opportunity"
       },
       "value": "hold"
@@ -888,13 +1078,77 @@
   "baseline_initialized": false,
   "changed": [
     {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-b71f0f8b44e99e95",
+      "confidence": "high",
+      "effective_date": "2025-09-24",
+      "first_observed_at": "2026-08-14T01:18:50.250873+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "previous_object": null,
+      "previous_value": "09/30/2029",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-505fadf0d1014ad8",
+          "locator": "deadline:09/15/2026",
+          "title": "CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)",
+          "url": "https://www.grants.gov/search-results-detail/360651",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:2025-NIST-CHIPS-CRDO-01",
+        "label": "CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)",
+        "node_id": "opportunity:grants_gov:2025-NIST-CHIPS-CRDO-01",
+        "node_type": "opportunity"
+      },
+      "value": "09/15/2026"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-a80ab62d7a209158",
+      "confidence": "high",
+      "effective_date": "2026-08-01",
+      "first_observed_at": "2026-08-02T02:05:25.412721+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5734401fdee3ac49",
+          "locator": "opportunity_status:closed",
+          "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+          "url": "https://www.grants.gov/search-results-detail/363440",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:PDS-UKRAINE-FY26-04",
+        "label": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
+        "node_id": "opportunity:grants_gov:PDS-UKRAINE-FY26-04",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    },
+    {
       "authority": "analytical",
       "change_type": "changed",
-      "claim_id": "claim-7a258dbaa60f4994",
+      "claim_id": "claim-766fd469da036220",
       "confidence": "medium",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-08-29T05:05:39.790622+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-08-10T01:11:12.453336+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
@@ -904,30 +1158,30 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ece3733c2513bed0",
+          "evidence_id": "evidence-019b097efed7e848",
           "locator": "qualification_gate",
-          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
-          "url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
+          "title": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+          "url": "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view",
           "verification_status": "source_reported"
         },
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bc417e797178ae7c",
+          "evidence_id": "evidence-5a40388f943529b6",
           "locator": "qualification_gate",
-          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a74ea5c0fd9b4adbb0a39c09f8263834/download",
+          "title": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1f682ffec5104ddc882a88b9e1b11121/download",
           "verification_status": "source_reported"
         },
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c40472f2d83434a9",
+          "evidence_id": "evidence-3b46c1f41ae0d9ca",
           "locator": "qualification_gate",
-          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download",
+          "title": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
           "verification_status": "source_reported"
         },
         {
@@ -936,15 +1190,15 @@
           "controlling_status": "not_asserted",
           "evidence_id": "evidence-075bdcb08b78b6b5",
           "locator": "qualification_gate",
-          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4863f6824dbc4040889e1d84101f0c96",
+          "title": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=abf380cc0c634612a69ce193a212fbd4",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:19AS2026Q0032",
-        "label": "EdUSA AI & Quantum Technologies Initiative in Australia",
-        "node_id": "opportunity:sam_gov:19AS2026Q0032",
+        "identifier": "sam_gov:RFP-ACT-SACT-26-81",
+        "label": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
+        "node_id": "opportunity:sam_gov:RFP-ACT-SACT-26-81",
         "node_type": "opportunity"
       },
       "value": "targeted review"
@@ -952,11 +1206,11 @@
     {
       "authority": "analytical",
       "change_type": "changed",
-      "claim_id": "claim-125372c0dd6a453a",
+      "claim_id": "claim-ea8b41c158602113",
       "confidence": "medium",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-08-07T02:18:23.710417+00:00",
+      "last_observed_at": "2026-09-02T02:19:14.986810+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
@@ -966,57 +1220,25 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-627bde0aed13c0b5",
+          "evidence_id": "evidence-988e172fc81c909b",
           "locator": "qualification_gate",
-          "title": "AI Partnership & Exchange for Tech Leaders (APEX)",
-          "url": "https://www.grants.gov/search-results-detail/363315",
+          "title": "Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)",
+          "url": "https://www.grants.gov/search-results-detail/359269",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:DOS-SAU-2602",
-        "label": "AI Partnership & Exchange for Tech Leaders (APEX)",
-        "node_id": "opportunity:grants_gov:DOS-SAU-2602",
-        "node_type": "opportunity"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-7a77c2bb73b1d40c",
-      "confidence": "medium",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-08-14T01:18:50.250873+00:00",
-      "last_observed_at": "2026-09-01T02:58:55.591634+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "hold",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-02f64f0e9d99b06a",
-          "locator": "qualification_gate",
-          "title": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
-          "url": "https://www.grants.gov/search-results-detail/363586",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:SB-OEDCS-26-002",
-        "label": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
-        "node_id": "opportunity:grants_gov:SB-OEDCS-26-002",
+        "identifier": "grants_gov:RFA-RM-27-014",
+        "label": "Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)",
+        "node_id": "opportunity:grants_gov:RFA-RM-27-014",
         "node_type": "opportunity"
       },
       "value": "hold"
     }
   ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-09-01T02:58:55.591634+00:00",
-  "comparison_started_at": "2026-08-31T02:49:14.453701+00:00",
+  "comparison_ended_at": "2026-09-02T02:19:14.986810+00:00",
+  "comparison_started_at": "2026-09-01T02:58:55.591634+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1932,19 +2154,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-08-31T02:49:14.453701+00:00",
+  "since": "2026-09-01T02:58:55.591634+00:00",
   "summary": {
-    "active_claims": 3987,
-    "added": 20,
-    "changed": 3,
+    "active_claims": 4013,
+    "added": 26,
+    "changed": 4,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 50,
+    "material_changes": 57,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-09-01T02:58:55.591634+00:00",
+  "updated_at": "2026-09-02T02:19:14.986810+00:00",
   "version": 1
 }

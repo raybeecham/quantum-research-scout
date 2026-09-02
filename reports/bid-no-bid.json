@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 107,
+      "days_to_close": 106,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -72,6 +72,14 @@
           "basis": [
             "shared specialties: artificial intelligence"
           ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 5,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
           "name": "POST QUANTUM LABS LLC",
           "score": 5,
           "uei": "H53MXWJZPYU3"
@@ -99,14 +107,6 @@
           "name": "WASHINGTON STATE UNIVERSITY",
           "score": 2,
           "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
         }
       ],
       "mission_fit": [
@@ -215,7 +215,7 @@
           "source": "document extraction"
         }
       ],
-      "days_to_close": 7,
+      "days_to_close": 6,
       "deadline": "2026-09-08T16:00:00+10:00",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -224,7 +224,7 @@
         "impact_id": "impact:19dbaf36c688be6b85c6",
         "note": "The latest amendment impact requires analyst revalidation. The tracker did not change an authorized bid/no-bid decision.",
         "previous_gate": "targeted review",
-        "previous_score": 44,
+        "previous_score": 47,
         "status": "revalidation_required"
       },
       "decision_score": 47,
@@ -359,6 +359,14 @@
           "basis": [
             "shared specialties: artificial intelligence"
           ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 5,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
           "name": "POST QUANTUM LABS LLC",
           "score": 5,
           "uei": "H53MXWJZPYU3"
@@ -386,14 +394,6 @@
           "name": "WASHINGTON STATE UNIVERSITY",
           "score": 2,
           "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
         }
       ],
       "mission_fit": [],
@@ -458,7 +458,7 @@
         "ent@state.gov in one of the following formats: MS Word 2007/2010, MS Excel 2007/2010, or Adobe Acrobat (PDF). Each file must not exceed 30MB. If your total submission exceeds 30MB, please split it into multiple files and send them as separate emails, each under 30MB. In order for a quotation to be..."
       ],
       "risks": [
-        "Compressed response window: 7 day(s) remaining",
+        "Compressed response window: 6 day(s) remaining",
         "A newly observed amendment has no tracker baseline; its impact requires manual comparison"
       ],
       "set_aside": "No Set aside used",
@@ -498,11 +498,11 @@
           "source": "document extraction"
         }
       ],
-      "days_to_close": 8,
+      "days_to_close": 7,
       "deadline": "2026-09-09T09:00:00-04:00",
       "decision_freshness": {
         "current_gate": "targeted review",
-        "current_score": 42,
+        "current_score": 45,
         "evidence_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
         "impact_id": "impact:93dc0861d43eaa29d9cd",
         "note": "The latest amendment impact requires analyst revalidation. The tracker did not change an authorized bid/no-bid decision.",
@@ -510,21 +510,21 @@
         "previous_score": 42,
         "status": "revalidation_required"
       },
-      "decision_score": 42,
+      "decision_score": 45,
       "decision_trace": {
         "components": [
           {
             "basis": [
               "strategic significance +10",
               "actionable procurement_opportunity +8",
-              "closing_this_month +9",
+              "closing_soon +12",
               "technology fit +8"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view"
             ],
-            "points": 35
+            "points": 38
           },
           {
             "basis": [
@@ -552,14 +552,14 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 42,
+        "public_evidence_score": 45,
         "source_urls": [
           "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view",
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1f682ffec5104ddc882a88b9e1b11121/download",
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=abf380cc0c634612a69ce193a212fbd4"
         ],
-        "trace_hash": "fab0494c78765193"
+        "trace_hash": "6a6328ce30ec6903"
       },
       "eligibility": [
         "3 4. Eligibility .................................................................................................................... 3 5. Duration of Contract",
@@ -642,6 +642,14 @@
           "basis": [
             "shared specialties: artificial intelligence"
           ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 5,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
           "name": "POST QUANTUM LABS LLC",
           "score": 5,
           "uei": "H53MXWJZPYU3"
@@ -669,14 +677,6 @@
           "name": "WASHINGTON STATE UNIVERSITY",
           "score": 2,
           "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
         }
       ],
       "mission_fit": [],
@@ -724,7 +724,7 @@
         }
       ],
       "provisional_gate": "targeted review",
-      "public_evidence_score": 42,
+      "public_evidence_score": 45,
       "record_type": "procurement_opportunity",
       "relevant_patents": [],
       "required_actions": [
@@ -741,6 +741,7 @@
         "he purpose of determining compliance of the successful bid(s) , per the technical specifications. f. The term \u201cHQ SACT\u201d shall refer to Headquarters Supreme Allied Commander Transformation. g. The term \u201cACT\u201d shall refer to Allied Command Transformation. h. The term \u201cNATO\u201d shall refer to the North At..."
       ],
       "risks": [
+        "Compressed response window: 7 day(s) remaining",
         "A newly observed amendment has no tracker baseline; its impact requires manual comparison",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -760,11 +761,193 @@
       "url": "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view"
     },
     {
+      "agency": "HHS-NIH11",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 30,
+      "deadline": "10/02/2026",
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 29,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": "hold",
+        "previous_score": 24,
+        "status": "current"
+      },
+      "decision_score": 29,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +11",
+              "actionable grant_opportunity +9",
+              "closing_this_month +9",
+              "technology fit +8"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/359269"
+            ],
+            "points": 37
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/359269"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 29,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/359269"
+        ],
+        "trace_hash": "87a6930f8eaf32ff"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 5,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WASHINGTON STATE UNIVERSITY",
+          "score": 2,
+          "uei": "XRJSGX384TD6"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:RFA-RM-27-014",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "ZCORE GROUP LLC",
+          "score": 2,
+          "uei": "FJ58SNSJTV68"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WTIA WORKFORCE INSTITUTE",
+          "score": 2,
+          "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WASHINGTON STATE UNIVERSITY",
+          "score": 2,
+          "uei": "XRJSGX384TD6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+          "score": 2,
+          "uei": "QDE5UHE5XD16"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "score": 2,
+          "uei": "LCLSJAGTNZQ7"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 29,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/359269"
+      ],
+      "technology_fit": [
+        "quantum",
+        "artificial intelligence"
+      ],
+      "title": "Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/359269"
+    },
+    {
       "agency": "DOS-SAU",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 13,
+      "days_to_close": 12,
       "deadline": "09/14/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -772,8 +955,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "hold",
+        "previous_score": 28,
         "status": "current"
       },
       "decision_score": 28,
@@ -830,6 +1013,14 @@
           "basis": [
             "shared specialties: artificial intelligence"
           ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 5,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
           "name": "POST QUANTUM LABS LLC",
           "score": 5,
           "uei": "H53MXWJZPYU3"
@@ -857,14 +1048,6 @@
           "name": "WASHINGTON STATE UNIVERSITY",
           "score": 2,
           "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
         }
       ],
       "mission_fit": [],
@@ -943,37 +1126,37 @@
       "url": "https://www.grants.gov/search-results-detail/363744"
     },
     {
-      "agency": "DOS-SAU",
+      "agency": "DOC-NIST",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 7,
-      "deadline": "09/08/2026",
+      "days_to_close": 13,
+      "deadline": "09/15/2026",
       "decision_freshness": {
         "current_gate": "hold",
-        "current_score": 26,
+        "current_score": 24,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 23,
+        "previous_gate": null,
+        "previous_score": null,
         "status": "current"
       },
-      "decision_score": 26,
+      "decision_score": 24,
       "decision_trace": {
         "components": [
           {
             "basis": [
               "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
+              "actionable baa +10",
+              "closing_this_month +9",
               "technology fit +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363315"
+              "https://www.grants.gov/search-results-detail/360651"
             ],
-            "points": 34
+            "points": 32
           },
           {
             "basis": [
@@ -989,7 +1172,7 @@
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363315"
+              "https://www.grants.gov/search-results-detail/360651"
             ],
             "points": -8
           }
@@ -997,105 +1180,23 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 26,
+        "public_evidence_score": 24,
         "source_urls": [
-          "https://www.grants.gov/search-results-detail/363315"
+          "https://www.grants.gov/search-results-detail/360651"
         ],
-        "trace_hash": "42fa4662c3cb9681"
+        "trace_hash": "6c53dc562a5d62a8"
       },
       "eligibility": [],
       "evaluation_criteria": [],
       "evidence_completeness": 0,
       "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WASHINGTON STATE UNIVERSITY",
-          "score": 2,
-          "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        }
-      ],
+      "likely_market_participants": [],
       "mission_fit": [],
-      "opportunity_key": "grants_gov:DOS-SAU-2602",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WASHINGTON STATE UNIVERSITY",
-          "score": 2,
-          "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        }
-      ],
+      "opportunity_key": "grants_gov:2025-NIST-CHIPS-CRDO-01",
+      "potential_teaming_candidates": [],
       "provisional_gate": "hold",
-      "public_evidence_score": 26,
-      "record_type": "grant_opportunity",
+      "public_evidence_score": 24,
+      "record_type": "baa",
       "relevant_patents": [],
       "required_actions": [
         "Confirm controlling requirements in the controlling solicitation",
@@ -1105,32 +1206,31 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 7 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
       "set_aside": null,
       "source_urls": [
-        "https://www.grants.gov/search-results-detail/363315"
+        "https://www.grants.gov/search-results-detail/360651"
       ],
       "technology_fit": [
-        "artificial intelligence"
+        "quantum"
       ],
-      "title": "AI Partnership & Exchange for Tech Leaders (APEX)",
+      "title": "CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)",
       "unknowns": [
         "Confirm controlling requirements in the controlling solicitation",
         "Confirm evaluation criteria in the controlling solicitation",
         "Confirm eligibility and set-aside terms in the controlling solicitation",
         "Confirm submission instructions in the controlling solicitation"
       ],
-      "url": "https://www.grants.gov/search-results-detail/363315"
+      "url": "https://www.grants.gov/search-results-detail/360651"
     },
     {
       "agency": "DOD-ONR-NRL",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 29,
+      "days_to_close": 28,
       "deadline": "09/30/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1307,193 +1407,11 @@
       "url": "https://www.grants.gov/search-results-detail/352741"
     },
     {
-      "agency": "HHS-NIH11",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 31,
-      "deadline": "10/02/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 24,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 24,
-        "status": "current"
-      },
-      "decision_score": 24,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +11",
-              "actionable grant_opportunity +9",
-              "open_window +4",
-              "technology fit +8"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/359269"
-            ],
-            "points": 32
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/359269"
-            ],
-            "points": -8
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 24,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/359269"
-        ],
-        "trace_hash": "0ffe195f1ebb45c9"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WASHINGTON STATE UNIVERSITY",
-          "score": 2,
-          "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:RFA-RM-27-014",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WASHINGTON STATE UNIVERSITY",
-          "score": 2,
-          "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 24,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/359269"
-      ],
-      "technology_fit": [
-        "quantum",
-        "artificial intelligence"
-      ],
-      "title": "Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/359269"
-    },
-    {
       "agency": "NSF",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 141,
+      "days_to_close": 140,
       "deadline": "01/20/2027",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1558,6 +1476,14 @@
           "basis": [
             "shared specialties: artificial intelligence, cybersecurity"
           ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 7,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence, cybersecurity"
+          ],
           "name": "POST QUANTUM LABS LLC",
           "score": 7,
           "uei": "H53MXWJZPYU3"
@@ -1585,14 +1511,6 @@
           "name": "UNIVERSITY OF RHODE ISLAND",
           "score": 4,
           "uei": "CJDNG9D14MW7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence, cybersecurity"
-          ],
-          "name": "UNIVERSITY OF OKLAHOMA",
-          "score": 4,
-          "uei": "EVTSTTLCEWS5"
         }
       ],
       "mission_fit": [],
@@ -1675,7 +1593,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 166,
+      "days_to_close": 165,
       "deadline": "02/14/2027",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1740,6 +1658,14 @@
           "basis": [
             "shared specialties: post-quantum cryptography"
           ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 5,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: post-quantum cryptography"
+          ],
           "name": "POST QUANTUM LABS LLC",
           "score": 5,
           "uei": "H53MXWJZPYU3"
@@ -1767,14 +1693,6 @@
           "name": "VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA",
           "score": 2,
           "uei": "EYNYSU6L8ZX6"
-        },
-        {
-          "basis": [
-            "shared specialties: post-quantum cryptography"
-          ],
-          "name": "VALIANT SOLUTIONS, LLC",
-          "score": 2,
-          "uei": "GKF8ERUXED41"
         }
       ],
       "mission_fit": [],
@@ -1857,7 +1775,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 216,
+      "days_to_close": 215,
       "deadline": "04/05/2027",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1922,6 +1840,14 @@
           "basis": [
             "shared specialties: artificial intelligence, cybersecurity"
           ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 7,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence, cybersecurity"
+          ],
           "name": "POST QUANTUM LABS LLC",
           "score": 7,
           "uei": "H53MXWJZPYU3"
@@ -1949,14 +1875,6 @@
           "name": "UNIVERSITY OF RHODE ISLAND",
           "score": 4,
           "uei": "CJDNG9D14MW7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence, cybersecurity"
-          ],
-          "name": "UNIVERSITY OF OKLAHOMA",
-          "score": 4,
-          "uei": "EVTSTTLCEWS5"
         }
       ],
       "mission_fit": [],
@@ -2039,7 +1957,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 786,
+      "days_to_close": 785,
       "deadline": "10/26/2028",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2104,6 +2022,14 @@
           "basis": [
             "shared specialties: post-quantum cryptography"
           ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 5,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: post-quantum cryptography"
+          ],
           "name": "POST QUANTUM LABS LLC",
           "score": 5,
           "uei": "H53MXWJZPYU3"
@@ -2131,14 +2057,6 @@
           "name": "VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA",
           "score": 2,
           "uei": "EYNYSU6L8ZX6"
-        },
-        {
-          "basis": [
-            "shared specialties: post-quantum cryptography"
-          ],
-          "name": "VALIANT SOLUTIONS, LLC",
-          "score": 2,
-          "uei": "GKF8ERUXED41"
         }
       ],
       "mission_fit": [],
@@ -2221,7 +2139,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 10,
+      "days_to_close": 9,
       "deadline": "09/11/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2286,6 +2204,14 @@
           "basis": [
             "shared specialties: artificial intelligence"
           ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 5,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
           "name": "POST QUANTUM LABS LLC",
           "score": 5,
           "uei": "H53MXWJZPYU3"
@@ -2313,14 +2239,6 @@
           "name": "WASHINGTON STATE UNIVERSITY",
           "score": 2,
           "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
         }
       ],
       "mission_fit": [],
@@ -2403,7 +2321,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 12,
+      "days_to_close": 11,
       "deadline": "09/13/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2468,6 +2386,14 @@
           "basis": [
             "shared specialties: artificial intelligence"
           ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 5,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
           "name": "POST QUANTUM LABS LLC",
           "score": 5,
           "uei": "H53MXWJZPYU3"
@@ -2495,14 +2421,6 @@
           "name": "WASHINGTON STATE UNIVERSITY",
           "score": 2,
           "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
         }
       ],
       "mission_fit": [],
@@ -2585,7 +2503,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 16,
+      "days_to_close": 15,
       "deadline": "09/17/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2650,6 +2568,14 @@
           "basis": [
             "shared specialties: artificial intelligence"
           ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 5,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
           "name": "POST QUANTUM LABS LLC",
           "score": 5,
           "uei": "H53MXWJZPYU3"
@@ -2677,14 +2603,6 @@
           "name": "WASHINGTON STATE UNIVERSITY",
           "score": 2,
           "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
         }
       ],
       "mission_fit": [],
@@ -2766,7 +2684,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 20,
+      "days_to_close": 19,
       "deadline": "09/21/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -2865,7 +2783,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 29,
+      "days_to_close": 28,
       "deadline": "09/30/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -3116,6 +3034,14 @@
         },
         {
           "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 5,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
             "shared specialties: autonomy and sensing"
           ],
           "name": "INTEGER TECHNOLOGIES LLC",
@@ -3137,14 +3063,6 @@
           "name": "UNIVERSITY OF WISCONSIN SYSTEM",
           "score": 4,
           "uei": "LCLSJAGTNZQ7"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence, autonomy and sensing"
-          ],
-          "name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
-          "score": 4,
-          "uei": "MKAGLD59JRL1"
         }
       ],
       "mission_fit": [],
@@ -3291,6 +3209,14 @@
           "basis": [
             "shared specialties: post-quantum cryptography"
           ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 5,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: post-quantum cryptography"
+          ],
           "name": "POST QUANTUM LABS LLC",
           "score": 5,
           "uei": "H53MXWJZPYU3"
@@ -3318,14 +3244,6 @@
           "name": "VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA",
           "score": 2,
           "uei": "EYNYSU6L8ZX6"
-        },
-        {
-          "basis": [
-            "shared specialties: post-quantum cryptography"
-          ],
-          "name": "VALIANT SOLUTIONS, LLC",
-          "score": 2,
-          "uei": "GKF8ERUXED41"
         }
       ],
       "mission_fit": [],
@@ -3404,12 +3322,193 @@
       "url": "https://www.grants.gov/search-results-detail/361614"
     },
     {
-      "agency": "DOS-UKR",
+      "agency": "HHS-NIH11",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 0,
-      "deadline": "09/01/2026",
+      "days_to_close": null,
+      "deadline": null,
+      "decision_freshness": {
+        "current_gate": "hold",
+        "current_score": 20,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": null,
+        "previous_score": null,
+        "status": "current"
+      },
+      "decision_score": 20,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +11",
+              "actionable grant_opportunity +9",
+              "technology fit +8"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/361318"
+            ],
+            "points": 28
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/361318"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 20,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/361318"
+        ],
+        "trace_hash": "0a5b083a1b932f92"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 5,
+          "uei": "EVTSTTLCEWS5"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 5,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing, artificial intelligence"
+          ],
+          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+          "score": 4,
+          "uei": "QDE5UHE5XD16"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing, artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 4,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing, artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF TEXAS AT DALLAS",
+          "score": 4,
+          "uei": "EJCVPNN1WFS5"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "grants_gov:RFA-LM-26-004",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared specialties: advanced computing, artificial intelligence"
+          ],
+          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+          "score": 4,
+          "uei": "QDE5UHE5XD16"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing, artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF WASHINGTON",
+          "score": 4,
+          "uei": "HD1WMN6945W6"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing, artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF TEXAS AT DALLAS",
+          "score": 4,
+          "uei": "EJCVPNN1WFS5"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing, artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF TEXAS AT AUSTIN",
+          "score": 4,
+          "uei": "V6AFQPN18437"
+        },
+        {
+          "basis": [
+            "shared specialties: advanced computing, artificial intelligence"
+          ],
+          "name": "UNIVERSITY OF SOUTH FLORIDA",
+          "score": 4,
+          "uei": "NKAZLXLL7Z91"
+        }
+      ],
+      "provisional_gate": "hold",
+      "public_evidence_score": 20,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/361318"
+      ],
+      "technology_fit": [
+        "artificial intelligence",
+        "advanced computing"
+      ],
+      "title": "NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/361318"
+    },
+    {
+      "agency": "SBA",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 2,
+      "deadline": "09/04/2026",
       "decision_freshness": {
         "current_gate": "hold",
         "current_score": 19,
@@ -3432,189 +3531,6 @@
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363440"
-            ],
-            "points": 34
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "Compressed response window: 0 day(s)"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363440"
-            ],
-            "points": -15
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 19,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363440"
-        ],
-        "trace_hash": "595a725d1e6689d3"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WASHINGTON STATE UNIVERSITY",
-          "score": 2,
-          "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:PDS-UKRAINE-FY26-04",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WASHINGTON STATE UNIVERSITY",
-          "score": 2,
-          "uei": "XRJSGX384TD6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "score": 2,
-          "uei": "LCLSJAGTNZQ7"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 19,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Compressed response window: 0 day(s) remaining",
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/363440"
-      ],
-      "technology_fit": [
-        "artificial intelligence"
-      ],
-      "title": "Advancing Investigative Journalism in Ukraine through U.S. AI Innovation",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/363440"
-    },
-    {
-      "agency": "SBA",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 3,
-      "deadline": "09/04/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 19,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 26,
-        "status": "current"
-      },
-      "decision_score": 19,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +4"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
               "https://www.grants.gov/search-results-detail/363586"
             ],
             "points": 34
@@ -3629,7 +3545,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 3 day(s)"
+              "Compressed response window: 2 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -3645,13 +3561,21 @@
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363586"
         ],
-        "trace_hash": "9dd7ec7f5009b96d"
+        "trace_hash": "6b95a4d4755590f0"
       },
       "eligibility": [],
       "evaluation_criteria": [],
       "evidence_completeness": 0,
       "latest_amendment_impact": null,
       "likely_market_participants": [
+        {
+          "basis": [
+            "shared specialties: cybersecurity"
+          ],
+          "name": "UNIVERSITY OF OKLAHOMA",
+          "score": 5,
+          "uei": "EVTSTTLCEWS5"
+        },
         {
           "basis": [
             "shared specialties: cybersecurity"
@@ -3683,14 +3607,6 @@
           "name": "WIRELESS BROADBAND ALLIANCE INC.",
           "score": 2,
           "uei": "LETXBAQZRA18"
-        },
-        {
-          "basis": [
-            "shared specialties: cybersecurity"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
         }
       ],
       "mission_fit": [],
@@ -3749,7 +3665,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 3 day(s) remaining",
+        "Compressed response window: 2 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -3779,6 +3695,6 @@
     "qualify": 1,
     "targeted_review": 2
   },
-  "updated_at": "2026-09-01T02:58:55.591634+00:00",
+  "updated_at": "2026-09-02T02:19:14.986810+00:00",
   "version": 1
 }

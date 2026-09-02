@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-09-01T02:58:55.591634+00:00_
+_Updated 2026-09-02T02:19:14.986810+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
@@ -12,21 +12,6 @@ Bounded extraction of public procurement attachments and descriptions linked by 
 - New amendments: **0**
 - Material amendment impacts this run: **0**
 - Decisions requiring revalidation: **2**
-
-## [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
-
-Evidence completeness: **72 / 100** · Deadline: **2026-09-09T09:00:00-04:00**
-
-Requirements evidence:
-- ure 4: Past Performance Information Form ............................................................. 12 Enclosure 5 – Mandatory Price Proposal Excel Spreadsheet ................................................ 13 M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) ..................
-- ssification This Request for Proposal (RFP) is a NATO UNCLASSIFIED document. 3. Definitions a. The “Prospective Bidder” shall refer to the entity that has indicated its intention without commitment, to participate in this RFP. b. The term “Bidder” shall refer to the bidding entity that has complete...
-- fer to the entity that has indicated its intention without commitment, to participate in this RFP. b. The term “Bidder” shall refer to the bidding entity that has completed a bid in response to this RFP. c. The term “Contractor” shall refer to the bidding entity to which the contract(s) is awarded....
-- m “Bidder” shall refer to the bidding entity that has completed a bid in response to this RFP. c. The term “Contractor” shall refer to the bidding entity to which the contract(s) is awarded. d. The term “Contracting Officer” designates the official who executes this RFP on behalf of HQ SACT. e. “Co...
-- he purpose of determining compliance of the successful bid(s) , per the technical specifications. f. The term “HQ SACT” shall refer to Headquarters Supreme Allied Commander Transformation. g. The term “ACT” shall refer to Allied Command Transformation. h. The term “NATO” shall refer to the North At...
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1f682ffec5104ddc882a88b9e1b11121/download) — no_text
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download) — extracted
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=abf380cc0c634612a69ce193a212fbd4) — no_text
 
 ## [EdUSA AI & Quantum Technologies Initiative in Australia](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view)
 
@@ -42,6 +27,21 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a74ea5c0fd9b4adbb0a39c09f8263834/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download) — extracted
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4863f6824dbc4040889e1d84101f0c96) — no_text
+
+## [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
+
+Evidence completeness: **72 / 100** · Deadline: **2026-09-09T09:00:00-04:00**
+
+Requirements evidence:
+- ure 4: Past Performance Information Form ............................................................. 12 Enclosure 5 – Mandatory Price Proposal Excel Spreadsheet ................................................ 13 M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) ..................
+- ssification This Request for Proposal (RFP) is a NATO UNCLASSIFIED document. 3. Definitions a. The “Prospective Bidder” shall refer to the entity that has indicated its intention without commitment, to participate in this RFP. b. The term “Bidder” shall refer to the bidding entity that has complete...
+- fer to the entity that has indicated its intention without commitment, to participate in this RFP. b. The term “Bidder” shall refer to the bidding entity that has completed a bid in response to this RFP. c. The term “Contractor” shall refer to the bidding entity to which the contract(s) is awarded....
+- m “Bidder” shall refer to the bidding entity that has completed a bid in response to this RFP. c. The term “Contractor” shall refer to the bidding entity to which the contract(s) is awarded. d. The term “Contracting Officer” designates the official who executes this RFP on behalf of HQ SACT. e. “Co...
+- he purpose of determining compliance of the successful bid(s) , per the technical specifications. f. The term “HQ SACT” shall refer to Headquarters Supreme Allied Commander Transformation. g. The term “ACT” shall refer to Allied Command Transformation. h. The term “NATO” shall refer to the North At...
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1f682ffec5104ddc882a88b9e1b11121/download) — no_text
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download) — extracted
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=abf380cc0c634612a69ce193a212fbd4) — no_text
 
 ## Method
 

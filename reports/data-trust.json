@@ -1,9 +1,9 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 24.4,
-      "accepted": 30,
-      "quarantined": 93,
+      "acceptance_rate": 24.8,
+      "accepted": 31,
+      "quarantined": 94,
       "scope": "Federal missions"
     },
     {
@@ -1807,6 +1807,51 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-08",
+      "key": "https://www.grants.gov/search-results-detail/362717",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "Readiness and Recreation Initiative (RARI) \u2013 Recurring 5 Year Notice",
+      "url": "https://www.grants.gov/search-results-detail/362717"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-08",
+      "key": "grants_gov:P26AS00146",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "Readiness and Recreation Initiative (RARI) \u2013 Recurring 5 Year Notice",
+      "url": "https://www.grants.gov/search-results-detail/362717"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "Military AI Pace-Setting Projects",
         "reason_codes": [
           "official_source",
@@ -2233,67 +2278,22 @@
       "stage": "mission evidence admission",
       "title": "SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY",
       "url": "https://www.grants.gov/search-results-detail/356623"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2024-10-02",
-      "key": "grants_gov:DE-FOA-0003467",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "funding evidence admission",
-      "title": "SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY",
-      "url": "https://www.grants.gov/search-results-detail/356623"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Project Triad",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2024-08-20",
-      "key": "https://www.grants.gov/search-results-detail/356129",
-      "mission_id": "project-triad",
-      "mission_name": "Project Triad",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "mission evidence admission",
-      "title": "Mid-scale Research Infrastructure-1",
-      "url": "https://www.grants.gov/search-results-detail/356129"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 123,
+      "count": 124,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 123,
+      "count": 124,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 109,
+      "count": 110,
       "label": "Official government source"
     },
     {
@@ -2309,14 +2309,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 80.8,
-    "accepted": 530,
-    "decisions": 656,
+    "acceptance_rate": 80.7,
+    "accepted": 531,
+    "decisions": 658,
     "funding_quarantine": 30,
-    "mission_quarantine": 93,
-    "quarantined": 126,
+    "mission_quarantine": 94,
+    "quarantined": 127,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-09-01T02:58:55.591634+00:00",
+  "updated_at": "2026-09-02T02:19:14.986810+00:00",
   "version": 1
 }

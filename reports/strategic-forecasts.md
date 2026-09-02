@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-09-01T02:58:55.591634+00:00_
+_Updated 2026-09-02T02:19:14.986810+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 86% · Genesis Mission
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-11-30?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-01?
 
 **Horizon:** 2026-10-29
 
@@ -24,7 +24,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 **Evidence**
 
-- [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) — official funding announcement · 2026-08-31
+- [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) — official funding announcement · 2026-09-01
 - [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) — official award notice · 2026-08-21
 - [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) — official award · 2026-05-19
 - [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) — official grant opportunity · 2026-03-17
@@ -44,7 +44,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 74% · Golden Dome for America
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-11-30?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-01?
 
 **Horizon:** 2026-10-29
 
@@ -70,7 +70,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 46% · AI Forge
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-11-30?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-01?
 
 **Horizon:** 2026-11-21
 
@@ -160,7 +160,7 @@ Will authoritative evidence confirm “Advance selected NSF NQVL projects from d
 
 ### 49% · Federal Post-Quantum Cryptography Transition
 
-Will authoritative evidence confirm “Agencies identify and report their PQC migration leads” by 2026-10-01?
+Will authoritative evidence confirm “Agencies identify and report their PQC migration leads” by 2026-10-02?
 
 **Horizon:** 2026-09-30
 

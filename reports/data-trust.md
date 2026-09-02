@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-09-01T02:58:55.591634+00:00_
+_Updated 2026-09-02T02:19:14.986810+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **530**
-- Quarantined evidence or relationships: **126**
-- Acceptance rate: **80.8%**
+- Accepted evidence: **531**
+- Quarantined evidence or relationships: **127**
+- Acceptance rate: **80.7%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 30 | 93 | 24.4% |
+| Federal missions | 31 | 94 | 24.8% |
 | Federal funding | 500 | 33 | 93.8% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 123
-- **No relevant term in the evidence itself**: 123
-- **Official government source**: 109
+- **Match appears only in collector query metadata**: 124
+- **No relevant term in the evidence itself**: 124
+- **Official government source**: 110
 - **Source is not an official .gov or .mil domain**: 14
 - **Agency and technology inference only**: 3
 
@@ -578,6 +578,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
+### [Readiness and Recreation Initiative (RARI) – Recurring 5 Year Notice](https://www.grants.gov/search-results-detail/362717)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Readiness and Recreation Initiative (RARI) – Recurring 5 Year Notice](https://www.grants.gov/search-results-detail/362717)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
 ### [Novel Experiential Technologies Assisting Individual Learning (NExT AI) Hubs (P20 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359949)
 
 - Scope: Federal missions
@@ -705,20 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY](https://www.grants.gov/search-results-detail/356623)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY](https://www.grants.gov/search-results-detail/356623)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Mid-scale Research Infrastructure-1](https://www.grants.gov/search-results-detail/356129)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

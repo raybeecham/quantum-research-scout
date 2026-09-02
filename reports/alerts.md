@@ -4,24 +4,24 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-01 03:07 UTC_
+_Updated 2026-09-02 02:29 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 10 | 8 | 16 | 26 |
+| 50 | 7 | 8 | 14 | 28 |
 
 ## 🔴 Critical theme: AI Security
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 AI Security has critical strategic importance and rising momentum.
+- 🔴 AI Security has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 PQC / Crypto Agility has critical strategic importance and declining momentum.
+- 🔴 PQC / Crypto Agility has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: QEC / Fault Tolerance
@@ -66,13 +66,6 @@ _Updated 2026-09-01 03:07 UTC_
 - 🔴 Standards / Government has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: AI Security
-
-- Severity: **high**
-- Status: **actionable**
-- 🎯 AI Security is actionable with high confidence.
-- [Open supporting view](signals.md)
-
 ## 🟠 Actionable signal: Quantum Sensing
 
 - Severity: **high**
@@ -80,52 +73,45 @@ _Updated 2026-09-01 03:07 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: AI Partnership & Exchange for Tech Leaders (APEX) 🆕
+## 🟠 Changed: Advancing Investigative Journalism in Ukraine through U.S. AI Innovation 🆕
 
 - Severity: **high**
 - Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363315)
+- opportunity status · authority authoritative · closed
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363440)
 - [Open supporting view](intelligence-changes.md)
 
-## 🟠 Changed: EdUSA AI & Quantum Technologies Initiative in Australia
+## 🟠 Changed: CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA) 🆕
+
+- Severity: **high**
+- Status: **changed**
+- deadline · authority authoritative · 09/15/2026
+- [Open direct evidence](https://www.grants.gov/search-results-detail/360651)
+- [Open supporting view](intelligence-changes.md)
+
+## 🟠 Changed: NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) 🆕
 
 - Severity: **high**
 - Status: **changed**
 - qualification gate · authority analytical · targeted review
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view)
+- [Open direct evidence](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
 - [Open supporting view](intelligence-changes.md)
 
-## 🟠 Changed: MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026 🆕
+## 🟠 Changed: Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed) 🆕
 
 - Severity: **high**
 - Status: **changed**
 - qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363586)
+- [Open direct evidence](https://www.grants.gov/search-results-detail/359269)
 - [Open supporting view](intelligence-changes.md)
-
-## 🟠 Federal opportunity closing soon: Advancing Investigative Journalism in Ukraine through U.S. AI Innovation
-
-- Severity: **high**
-- Status: **closing-soon**
-- 0 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363440)
-- [Open supporting view](federal-funding.md)
 
 ## 🟠 Federal opportunity closing soon: MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363586)
 - [Open supporting view](federal-funding.md)
-
-## 🟠 Rising momentum: AI Security
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 3 versus 0 in the prior period.
-- [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
 
@@ -138,7 +124,7 @@ _Updated 2026-09-01 03:07 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 95.7% reliability with 2 warning day(s).
+- 🟠 95.8% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: IACR ePrint
@@ -152,51 +138,51 @@ _Updated 2026-09-01 03:07 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.6% reliability with 2 warning day(s).
+- 🟠 94.7% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Networking and Sensing Patents
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.6% reliability with 1 warning day(s).
+- 🟠 94.7% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: arXiv PQC and Quantum-Safe Cryptography 🆕
+## 🟠 Source degraded: arXiv PQC and Quantum-Safe Cryptography
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 80.6% reliability with 5 warning day(s).
+- 🟠 81.2% reliability with 5 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: arXiv Quantum Computing 🆕
+## 🟠 Source degraded: arXiv Quantum Computing
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 80.6% reliability with 5 warning day(s).
+- 🟠 81.2% reliability with 5 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: arXiv Quantum Networking and Sensing 🆕
+## 🟠 Source degraded: arXiv Quantum Networking and Sensing
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 80.6% reliability with 5 warning day(s).
+- 🟠 81.2% reliability with 5 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟡 Federal opportunity closing soon: AI Partnership & Exchange for Tech Leaders (APEX) 🆕
+## 🟡 Federal opportunity closing soon: EdUSA AI & Quantum Technologies Initiative in Australia
 
 - Severity: **medium**
 - Status: **closing-soon**
-- 7 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363315)
+- 6 day(s) remain · radar score 38 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view)
 - [Open supporting view](federal-funding.md)
 
-## 🟡 Federal opportunity closing soon: EdUSA AI & Quantum Technologies Initiative in Australia 🆕
+## 🟡 Federal opportunity closing soon: NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) 🆕
 
 - Severity: **medium**
 - Status: **closing-soon**
 - 7 day(s) remain · radar score 38 · Review requirements and make a bid/no-bid decision immediately.
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view)
+- [Open direct evidence](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
 - [Open supporting view](federal-funding.md)
 
 ## 🟡 Source stale: AWS Quantum Technologies Blog
@@ -290,14 +276,14 @@ _Updated 2026-09-01 03:07 UTC_
 - The latest dated item is from 2026-07-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Advanced Computing 🆕
+## 🟡 Source stale: Grants.gov · Advanced Computing
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-08-17; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Autonomy and Sensing 🆕
+## 🟡 Source stale: Grants.gov · Autonomy and Sensing
 
 - Severity: **medium**
 - Status: **stale**
@@ -318,6 +304,13 @@ _Updated 2026-09-01 03:07 UTC_
 - The latest dated item is from 2026-07-23; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: Grants.gov · Post-Quantum Cybersecurity 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-08-18; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: Grants.gov · Project Triad
 
 - Severity: **medium**
@@ -332,7 +325,7 @@ _Updated 2026-09-01 03:07 UTC_
 - The latest dated item is from 2026-06-30; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Quantum Technologies 🆕
+## 🟡 Source stale: Grants.gov · Quantum Technologies
 
 - Severity: **medium**
 - Status: **stale**
@@ -365,4 +358,11 @@ _Updated 2026-09-01 03:07 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-14; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: NCSC UK Guidance 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-03-19; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

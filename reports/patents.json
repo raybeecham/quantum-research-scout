@@ -2392,6 +2392,50 @@
     },
     {
       "application_count": 1,
+      "assignee": "Bundesdruckerei GmbH",
+      "citation_count": 0,
+      "family_basis": "continuation parent application",
+      "family_key": "application:PCTEP2024069710",
+      "grant_count": 0,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "19491890",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data"
+        }
+      ],
+      "primary_publication_number": null,
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data",
+      "significance_label": "high",
+      "strategic_significance_score": 60,
+      "title": "QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE"
+    },
+    {
+      "application_count": 0,
+      "assignee": "AMESA, Inc.",
+      "citation_count": 0,
+      "family_basis": "continuation parent application",
+      "family_key": "application:63768213",
+      "grant_count": 1,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "19557333",
+          "document_type": "grant",
+          "publication_number": "12725090",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19557333/application-data"
+        }
+      ],
+      "primary_publication_number": "12725090",
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19557333/application-data",
+      "significance_label": "notable",
+      "strategic_significance_score": 59,
+      "title": "AUTONOMOUS AI AGENT TRAINING USING TIME-BASED SIMULATION MODELS"
+    },
+    {
+      "application_count": 1,
       "assignee": null,
       "citation_count": 0,
       "family_basis": "application number",
@@ -3973,28 +4017,6 @@
       "significance_label": "notable",
       "strategic_significance_score": 52,
       "title": "QUANTUM COMPUTING SYSTEMS WITH SUPERCONDUCTING QUANTUM BIT CIRCUITRY AND SPATIALLY DISTRIBUTED HYBRID CRYOGENIC ELECTRONIC CONTROL ARCHITECTURE"
-    },
-    {
-      "application_count": 1,
-      "assignee": "Bundesdruckerei GmbH",
-      "citation_count": 0,
-      "family_basis": "continuation parent application",
-      "family_key": "application:PCTEP2024069710",
-      "grant_count": 0,
-      "member_count": 1,
-      "members": [
-        {
-          "application_number": "19491890",
-          "document_type": "application",
-          "publication_number": null,
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data"
-        }
-      ],
-      "primary_publication_number": null,
-      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data",
-      "significance_label": "notable",
-      "strategic_significance_score": 52,
-      "title": "QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE"
     },
     {
       "application_count": 1,
@@ -12556,6 +12578,75 @@
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
     },
     {
+      "application_number": "19491890",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "Bundesdruckerei GmbH",
+      "backward_citation_count": 0,
+      "child_applications": [
+        "19491890"
+      ],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "application",
+      "family_basis": "continuation parent application",
+      "family_id": "",
+      "family_key": "application:PCTEP2024069710",
+      "family_members": [
+        {
+          "application_number": "19491890",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data"
+        }
+      ],
+      "family_size": 1,
+      "filing_date": "2025-12-10",
+      "forward_citation_count": 0,
+      "grant_date": "",
+      "inventors": "Wadim WORMSBECHER, Manfred PAESCHKE, Andreas WILKE",
+      "is_continuation": true,
+      "key": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data",
+      "kind_code": null,
+      "legal_status": "Docketed New Case - Ready for Examination",
+      "legal_status_normalized": "pending",
+      "matched_keywords": [
+        "entanglement",
+        "quantum communication"
+      ],
+      "parent_applications": [
+        "PCTEP2024069710"
+      ],
+      "patent_number": null,
+      "priority": "critical",
+      "priority_date": "",
+      "priority_numbers": [
+        "1020231188658"
+      ],
+      "publication_date": null,
+      "publication_number": null,
+      "query": "Quantum Networking and Sensing Patents",
+      "score": 100,
+      "significance_factors": [
+        "strategic domain relevance +44",
+        "application stage +5",
+        "pending legal status +8",
+        "named assignee +3"
+      ],
+      "significance_label": "high",
+      "source": "Quantum Networking and Sensing Patents",
+      "strategic_domains": [
+        "Quantum technology"
+      ],
+      "strategic_relevance_score": 110,
+      "strategic_significance_score": 60,
+      "summary": "Applicant: Bundesdruckerei GmbH",
+      "title": "QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data"
+    },
+    {
       "application_number": "19489905",
       "application_type": "Utility",
       "assessment": null,
@@ -12846,6 +12937,70 @@
       "title": "METHOD AND SYSTEM FOR UNLEARNING OF LARGE LANGUAGE MODEL, AND METHOD FOR CONTROLLING UNLEARNING SYSTEM OF LARGE LANGUAGE MODEL",
       "tracking_type": "automated",
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19543874/application-data"
+    },
+    {
+      "application_number": "19557333",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "AMESA, Inc.",
+      "backward_citation_count": 0,
+      "child_applications": [
+        "19557333"
+      ],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "grant",
+      "family_basis": "continuation parent application",
+      "family_id": "",
+      "family_key": "application:63768213",
+      "family_members": [
+        {
+          "application_number": "19557333",
+          "document_type": "grant",
+          "publication_number": "12725090",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19557333/application-data"
+        }
+      ],
+      "family_size": 1,
+      "filing_date": "2026-03-05",
+      "forward_citation_count": 0,
+      "grant_date": "2026-09-01",
+      "inventors": "Octavio B. Santiago, Kence Anderson",
+      "is_continuation": true,
+      "key": "12725090",
+      "kind_code": null,
+      "legal_status": "Patented Case",
+      "legal_status_normalized": "granted",
+      "matched_keywords": [],
+      "parent_applications": [
+        "63768213"
+      ],
+      "patent_number": "12725090",
+      "priority": "monitor",
+      "priority_date": "",
+      "priority_numbers": [],
+      "publication_date": null,
+      "publication_number": "12725090",
+      "query": "Strategic AI Systems Patents",
+      "score": 0,
+      "significance_factors": [
+        "strategic domain relevance +36",
+        "grant stage +12",
+        "granted legal status +8",
+        "named assignee +3"
+      ],
+      "significance_label": "notable",
+      "source": "Strategic AI Systems Patents",
+      "strategic_domains": [
+        "Artificial intelligence"
+      ],
+      "strategic_relevance_score": 90,
+      "strategic_significance_score": 59,
+      "summary": "Applicant: AMESA, Inc. \u00b7 USPTO publication 12725090",
+      "title": "AUTONOMOUS AI AGENT TRAINING USING TIME-BASED SIMULATION MODELS",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19557333/application-data"
     },
     {
       "application_number": "19633652",
@@ -15541,7 +15696,7 @@
       "is_continuation": true,
       "key": "https://data.uspto.gov/patent-file-wrapper/search/details/19101550/application-data",
       "kind_code": null,
-      "legal_status": "Non Final Action Counted, Not Yet Mailed",
+      "legal_status": "Non Final Action Mailed",
       "legal_status_normalized": "unknown",
       "matched_keywords": [
         "quantum communication"
@@ -17700,74 +17855,6 @@
       "title": "QUANTUM COMPUTING SYSTEMS WITH SUPERCONDUCTING QUANTUM BIT CIRCUITRY AND SPATIALLY DISTRIBUTED HYBRID CRYOGENIC ELECTRONIC CONTROL ARCHITECTURE",
       "tracking_type": "automated",
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010670/application-data"
-    },
-    {
-      "application_number": "19491890",
-      "application_type": "Utility",
-      "assessment": null,
-      "assignee": "Bundesdruckerei GmbH",
-      "backward_citation_count": 0,
-      "child_applications": [
-        "19491890"
-      ],
-      "citation_count": 0,
-      "cited_patents": [],
-      "continuation_type": null,
-      "document_type": "application",
-      "family_basis": "continuation parent application",
-      "family_id": "",
-      "family_key": "application:PCTEP2024069710",
-      "family_members": [
-        {
-          "application_number": "19491890",
-          "document_type": "application",
-          "publication_number": null,
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data"
-        }
-      ],
-      "family_size": 1,
-      "filing_date": "2025-12-10",
-      "forward_citation_count": 0,
-      "grant_date": "",
-      "inventors": "Wadim WORMSBECHER, Manfred PAESCHKE, Andreas WILKE",
-      "is_continuation": true,
-      "key": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data",
-      "kind_code": null,
-      "legal_status": "Sent to Classification contractor",
-      "legal_status_normalized": "unknown",
-      "matched_keywords": [
-        "entanglement",
-        "quantum communication"
-      ],
-      "parent_applications": [
-        "PCTEP2024069710"
-      ],
-      "patent_number": null,
-      "priority": "critical",
-      "priority_date": "",
-      "priority_numbers": [
-        "1020231188658"
-      ],
-      "publication_date": null,
-      "publication_number": null,
-      "query": "Quantum Networking and Sensing Patents",
-      "score": 100,
-      "significance_factors": [
-        "strategic domain relevance +44",
-        "application stage +5",
-        "named assignee +3"
-      ],
-      "significance_label": "notable",
-      "source": "Quantum Networking and Sensing Patents",
-      "strategic_domains": [
-        "Quantum technology"
-      ],
-      "strategic_relevance_score": 110,
-      "strategic_significance_score": 52,
-      "summary": "Applicant: Bundesdruckerei GmbH",
-      "title": "QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE",
-      "tracking_type": "automated",
-      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data"
     },
     {
       "application_number": "PCTUS2024050681",
@@ -21925,19 +22012,19 @@
   "source": "Curated patent portfolio and USPTO Open Data Portal Patent File Wrapper metadata",
   "source_note": "Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.",
   "summary": {
-    "active_or_pending": 180,
+    "active_or_pending": 182,
     "applications": 240,
-    "automated_total": 247,
+    "automated_total": 248,
     "curated_total": 2,
-    "families": 237,
-    "grants": 9,
+    "families": 238,
+    "grants": 10,
     "last_30_days": 41,
     "latest_publication_date": "2026-08-27",
-    "status_known": 188,
-    "total": 249,
-    "unique_assignees": 151,
+    "status_known": 190,
+    "total": 250,
+    "unique_assignees": 152,
     "with_citations": 0
   },
-  "updated_at": "2026-09-01T02:58:55.591634+00:00",
+  "updated_at": "2026-09-02T02:19:14.986810+00:00",
   "version": 4
 }
