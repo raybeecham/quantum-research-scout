@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-09-02T02:19:14.986810+00:00_
+_Updated 2026-09-03T02:26:59.168647+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -15,7 +15,7 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Automated recent discoveries: **248**
 - Published in the last 30 days: **41**
 - Unique named assignees: **152**
-- Patent families: **238**
+- Patent families: **239**
 - Applications / grants: **240 / 10**
 - Known legal status: **190 of 250**
 - Publications with citation evidence: **0**
@@ -169,6 +169,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING](https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data)<br><small>Publication number unavailable</small> | Application · Pending | NEW YORK UNIVERSITY | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [Large-scale multi-qubit trapped-ion gates](https://data.uspto.gov/patent-file-wrapper/search/details/19489905/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Quantum Art Ltd., YEDA RESEARCH AND DEVELOPMENT CO. LTD. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
+| [APPARATUS AND METHOD FOR PERFORMING QUANTUM STATE MODULATION ON BASIS OF QUANTUM SECURE DIRECT COMMUNICATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19128044/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [JOINT MODULAR MULTIPLICATIVE INVERSE OPERATIONS FOR ACTIVE VOLUME QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19489704/application-data)<br><small>Publication number unavailable</small> | Application · Pending | PsiQuantum, Corp. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [METHOD AND SYSTEM FOR UNLEARNING OF LARGE LANGUAGE MODEL, AND METHOD FOR CONTROLLING UNLEARNING SYSTEM OF LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19546288/application-data)<br><small>US20260187416A1</small> | Application · Pending | LG MANAGEMENT DEVELOPMENT INSTITUTE CO., LTD. | 2 member(s) · 0 citation(s) | **60 · HIGH** |
 | [METHOD AND SYSTEM FOR UNLEARNING OF LARGE LANGUAGE MODEL, AND METHOD FOR CONTROLLING UNLEARNING SYSTEM OF LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19543874/application-data)<br><small>US20260186688A1</small> | Application · Pending | LG MANAGEMENT DEVELOPMENT INSTITUTE CO., LTD. | 2 member(s) · 0 citation(s) | **60 · HIGH** |
@@ -309,4 +310,3 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [CHIP WITH DIFFERENT TYPES OF MICROELECTROMECHANICAL SYSTEMS RESONATORS](https://data.uspto.gov/patent-file-wrapper/search/details/63764415/application-data)<br><small>Publication number unavailable</small> | Application · Expired | Skyworks Solutions, Inc. | 1 member(s) · 0 citation(s) | **28 · MONITOR** |
 | [Precision Drive and Sense Operation for Microelectromechanical Systems Devices](https://data.uspto.gov/patent-file-wrapper/search/details/63737712/application-data)<br><small>Publication number unavailable</small> | Application · Expired | Bright Silicon Technologies, Inc. | 1 member(s) · 0 citation(s) | **28 · MONITOR** |
 | [PHASE-LOCKED LOOP ARCHITECTURE WITH DIFFERENT TYPES OF MICROELECTROMECHANICAL SYSTEMS RESONATORS](https://data.uspto.gov/patent-file-wrapper/search/details/63764417/application-data)<br><small>Publication number unavailable</small> | Application · Expired | Skyworks Solutions, Inc. | 1 member(s) · 0 citation(s) | **28 · MONITOR** |
-| [Microelectromechanical Systems (MEMS) Transducers for High Sound Pressure Level (SPL) Measurements](https://data.uspto.gov/patent-file-wrapper/search/details/63762466/application-data)<br><small>Publication number unavailable</small> | Application · Expired | Not listed | 2 member(s) · 0 citation(s) | **28 · MONITOR** |

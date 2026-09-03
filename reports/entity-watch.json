@@ -93,7 +93,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 17,
+      "evidence_count": 19,
       "first_party_evidence_count": 0,
       "name": "Pasqal",
       "priority": "medium",
@@ -508,7 +508,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 8,
+      "evidence_count": 9,
       "first_party_evidence_count": 8,
       "name": "PsiQuantum",
       "priority": "high",
@@ -540,8 +540,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 9,
-      "first_party_evidence_count": 1,
+      "evidence_count": 11,
+      "first_party_evidence_count": 2,
       "name": "QuSecure",
       "priority": "high",
       "status": "covered",
@@ -882,7 +882,7 @@
       "prior_count": 4,
       "priority": "critical",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware",
@@ -2137,9 +2137,9 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-19",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "IBM",
-      "prior_count": 2,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -2822,9 +2822,9 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-01",
-      "momentum": "stable",
+      "momentum": "rising",
       "name": "IonQ",
-      "prior_count": 2,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 2,
       "status": "active",
@@ -2834,6 +2834,436 @@
         "Quantum Hardware",
         "Quantum Networking",
         "Quantum Sensing",
+        "Quantum Software / Tooling",
+        "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "QuProtect"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 7,
+      "evidence": [
+        {
+          "date": "2026-09-02",
+          "key": "https://thequantuminsider.com/2026/09/02/qusecure-post-quantum-security-us-army-project-convergence",
+          "report": "2026-09/2026-09-02-digest.md",
+          "score": 79,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure Demonstrates Post-Quantum Security for U.S. Army at Project Convergence",
+          "url": "https://thequantuminsider.com/2026/09/02/qusecure-post-quantum-security-us-army-project-convergence"
+        },
+        {
+          "date": "2026-09-02",
+          "key": "https://www.qusecure.com/category/press-releases",
+          "report": "2026-09/2026-09-02-digest.md",
+          "score": 42,
+          "source": "QuSecure Press Releases",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Resources in Press Releases",
+          "url": "https://www.qusecure.com/category/press-releases"
+        },
+        {
+          "date": "2026-08-11",
+          "key": "https://quantumzeitgeist.com/carahsoft-simplifies-qusecures-quantum-security",
+          "report": "2026-08/2026-08-11-digest.md",
+          "score": 100,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Carahsoft simplifies QuSecure\u2019s quantum security for US government buyers",
+          "url": "https://quantumzeitgeist.com/carahsoft-simplifies-qusecures-quantum-security"
+        },
+        {
+          "date": "2026-08-11",
+          "key": "https://thequantuminsider.com/2026/08/11/qusecure-post-quantum-cryptography-solutions-carahsoft-gsa-schedule",
+          "report": "2026-08/2026-08-11-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure Adds Post-Quantum Cryptography Platform to Carahsoft GSA Schedule",
+          "url": "https://thequantuminsider.com/2026/08/11/qusecure-post-quantum-cryptography-solutions-carahsoft-gsa-schedule"
+        },
+        {
+          "date": "2026-07-25",
+          "key": "https://quantumzeitgeist.com/post-quantum-crypto-qusecures-platform-simplifies",
+          "report": "2026-07/2026-07-25-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure\u2019s Platform Simplifies Post-Quantum Crypto for Federal Networks",
+          "url": "https://quantumzeitgeist.com/post-quantum-crypto-qusecures-platform-simplifies"
+        },
+        {
+          "date": "2026-07-15",
+          "key": "https://thequantuminsider.com/2026/07/15/qusecure-quprotect-r3-listed-in-aws-icmp-for-the-us-federal-government",
+          "report": "2026-07/2026-07-15-digest.md",
+          "score": 59,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure Lists QuProtect R3 on AWS Marketplace for U.S. Intelligence Community",
+          "url": "https://thequantuminsider.com/2026/07/15/qusecure-quprotect-r3-listed-in-aws-icmp-for-the-us-federal-government"
+        },
+        {
+          "date": "2026-07-07",
+          "key": "https://thequantuminsider.com/2026/07/07/qusecure-doug-small-federal-advisory-board",
+          "report": "2026-07/2026-07-07-digest.md",
+          "score": 59,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure Appoints Former Navy Rear Admiral Doug Small to Federal Advisory Board",
+          "url": "https://thequantuminsider.com/2026/07/07/qusecure-doug-small-federal-advisory-board"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2025-07-19",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "json_ld:datePublished",
+          "entities": [
+            "QuSecure"
+          ],
+          "historical": true,
+          "key": "https://www.qusecure.com/press-releases",
+          "observed_at": "2026-08-30T08:49:22.498336+00:00",
+          "published_at": "2025-07-19T08:33:26+00:00",
+          "score": 28,
+          "source": "QuSecure Press Releases",
+          "source_type": "watch",
+          "summary": "Post Quantum Cryptography Made Simple | Press Releases",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Press Releases",
+          "url": "https://www.qusecure.com/press-releases/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization",
+          "observed_at": "2026-08-30T08:49:22.498336+00:00",
+          "published_at": null,
+          "score": 100,
+          "source": "Accenture Quantum and PQC News",
+          "source_type": "watch",
+          "summary": "The companies demonstrate that crypto-agility, successfully rotating to a less vulnerable algorithm, is real and possible",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
+          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure",
+          "observed_at": "2026-08-30T08:49:22.498336+00:00",
+          "published_at": null,
+          "score": 72,
+          "source": "Accenture Quantum and PQC News",
+          "source_type": "watch",
+          "summary": "Banco Sabadell has successfully completed a joint project with Accenture (NYSE: ACN) and QuSecure to explore the adoption of Post-Quantum Cryptography (PQC) technologies in the bank\u2019s infrastructure.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Banco Sabadell Collaborates with Accenture and QuSecure to Advance Quantum Safe Infrastructure",
+          "url": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Crypto Agility",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Accenture / Accenture Federal Services"
+          ],
+          "historical": true,
+          "key": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility",
+          "observed_at": "2026-08-30T08:49:22.498336+00:00",
+          "published_at": null,
+          "score": 69,
+          "source": "Accenture Quantum and PQC News",
+          "source_type": "watch",
+          "summary": "Accenture has made a strategic investment, through Accenture Ventures, in QuSecure \u2122 a leader in post-quantum cybersecurity.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
+          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+        }
+      ],
+      "evidence_count": 11,
+      "first_seen": "2025-07-19",
+      "historical_evidence_count": 4,
+      "latest_seen": "2026-09-02",
+      "momentum": "rising",
+      "name": "QuSecure",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
+      "evidence": [
+        {
+          "date": "2026-09-02",
+          "key": "https://quantumcomputingreport.com/psiquantum-and-brookhaven-national-lab-partner-to-develop-fault-tolerant-algorithms-on-construct-platform",
+          "report": "2026-09/2026-09-02-digest.md",
+          "score": 73,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "PsiQuantum and Brookhaven National Lab Partner to Develop Fault-Tolerant Algorithms on Construct Platform",
+          "url": "https://quantumcomputingreport.com/psiquantum-and-brookhaven-national-lab-partner-to-develop-fault-tolerant-algorithms-on-construct-platform"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Standards / Policy",
+          "date": "2026-07-22",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/psiquantum-signs-125-million-agreement-with-darpa",
+          "observed_at": "2026-08-30T08:49:22.498336+00:00",
+          "published_at": "2026-07-22T13:00:39+00:00",
+          "score": 100,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "PsiQuantum today announced that the company has signed a new $125 million contract with the Defense Advanced Research Projects Agency (DARPA) under DARPA\u2019s Quantum Benchmarking Initiative (QBI), the U.S. government\u2019s most rigorous effort to evaluate commercial pathways to utility-scale quantum compu",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "PsiQuantum Signs $125 Million Agreement with DARPA \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/psiquantum-signs-125-million-agreement-with-darpa"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Standards / Policy",
+          "date": "2026-05-21",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/us-department-of-commerce",
+          "observed_at": "2026-08-30T08:49:22.498336+00:00",
+          "published_at": "2026-05-21T10:42:56+00:00",
+          "score": 16,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "PsiQuantum has signed a Letter of Intent with the U.S. Department of Commerce for $100 million in proposed federal incentives under the CHIPS and Science Act to advance American quantum computing and semiconductor leadership.",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "PsiQuantum Signs $100 Million Letter of Intent with the U.S. Department of Commerce \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/us-department-of-commerce"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Standards / Policy",
+          "date": "2026-04-16",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/utokyo-mitsubishi-partnership",
+          "observed_at": "2026-08-30T08:49:22.498336+00:00",
+          "published_at": "2026-04-16T01:00:15+00:00",
+          "score": 100,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "PsiQuantum, the University of Tokyo, and the Mitsubishi Chemical Corporation today announced a partnership to provide education and training for Japan\u2019s growing quantum workforce. This initiative is supported by the Government of Japan\u2019s New Energy and Industrial Technology Development Organization",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "PsiQuantum, the University of Tokyo, and Mitsubishi Chemical Corporation Announce Partnership to Bolster Quantum Workforce Development in Japan \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/utokyo-mitsubishi-partnership"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Software / Tooling",
+          "date": "2026-03-16",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/construct-nvidia-cudaq",
+          "observed_at": "2026-08-30T08:49:22.498336+00:00",
+          "published_at": "2026-03-16T20:30:34+00:00",
+          "score": 56,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "PsiQuantum announced the integration of NVIDIA CUDA-Q with Construct, PsiQuantum\u2019s software suite for fault-tolerant quantum application development. The integration enables GPU-accelerated state-vector simulation of large-scale quantum algorithms, delivering up to 450x faster performance compared t",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "PsiQuantum Construct Enables Utility-Scale Quantum Application Development with CUDA-Q Integration \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/construct-nvidia-cudaq"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-09-10",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/psiquantum-1b-fundraise",
+          "observed_at": "2026-08-30T08:49:22.498336+00:00",
+          "published_at": "2025-09-10T10:54:16+00:00",
+          "score": 73,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "PsiQuantum today announced it has raised $1 billion in funding for its Series E round to build the world\u2019s first commercially useful, fault-tolerant quantum computers. This funding will equip the company to break ground on utility-scale quantum computing sites in Brisbane and Chicago, deploy large-s",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "PsiQuantum Raises $1 Billion to Build Million-Qubit Scale, Fault-Tolerant Quantum Computers \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/psiquantum-1b-fundraise"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-05-08",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/psiquantum-linde",
+          "observed_at": "2026-08-30T08:49:22.498336+00:00",
+          "published_at": "2025-05-08T11:52:45+00:00",
+          "score": 14,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "Read more here. PsiQuantum today announced a major milestone in its Brisbane project: a partnership with Linde Engineering to build and deliver one of the largest cryogenic plants ever planned for quantum computing. The plant will be constructed and tested by Linde, then installed at PsiQuantum\u2019s",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "PsiQuantum and Linde Engineering Collaborate to Deliver Cryogenic Plant for World\u2019s First Utility-Scale Quantum Computer in Brisbane \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/psiquantum-linde"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-04-15",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/psiquantum-afrl-omega",
+          "observed_at": "2026-08-30T08:49:22.498336+00:00",
+          "published_at": "2025-04-15T13:00:00+00:00",
+          "score": 14,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "Read more here. PsiQuantum today announced a $10.8M contract with the Air Force Research Laboratory (AFRL) in Rome, N.Y., continuing a partnership that began in 2022. This phase will give AFRL a design space for comparative quantum circuits on PsiQuantum\u2019s circuit tapeout, part of its ongoing Omeg",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "PsiQuantum Announces $10.8M Contract with Air Force Research Laboratory to Deliver Novel Quantum Chip Capabilities to the U.S. Air Force \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/psiquantum-afrl-omega"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-02-26",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:datepublished",
+          "entities": [
+            "PsiQuantum"
+          ],
+          "historical": true,
+          "key": "https://www.psiquantum.com/news-import/omega",
+          "observed_at": "2026-08-30T08:49:22.498336+00:00",
+          "published_at": "2025-02-26T16:00:00+00:00",
+          "score": 23,
+          "source": "PsiQuantum News",
+          "source_type": "watch",
+          "summary": "PsiQuantum announces Omega, a quantum photonic chipset purpose-built for utility-scale quantum computing.",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "PsiQuantum Announces Omega, a Manufacturable Chipset for Photonic Quantum Computing \u2014 PsiQuantum",
+          "url": "https://www.psiquantum.com/news-import/omega"
+        }
+      ],
+      "evidence_count": 9,
+      "first_seen": "2025-02-26",
+      "historical_evidence_count": 8,
+      "latest_seen": "2026-09-02",
+      "momentum": "rising",
+      "name": "PsiQuantum",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "Quantum Hardware",
         "Quantum Software / Tooling",
         "Standards / Government"
       ],
@@ -3049,400 +3479,6 @@
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
-      "themes": [
-        "Quantum Hardware",
-        "Quantum Software / Tooling",
-        "Standards / Government"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [
-        "QuProtect"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 5,
-      "evidence": [
-        {
-          "date": "2026-08-11",
-          "key": "https://quantumzeitgeist.com/carahsoft-simplifies-qusecures-quantum-security",
-          "report": "2026-08/2026-08-11-digest.md",
-          "score": 100,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Carahsoft simplifies QuSecure\u2019s quantum security for US government buyers",
-          "url": "https://quantumzeitgeist.com/carahsoft-simplifies-qusecures-quantum-security"
-        },
-        {
-          "date": "2026-08-11",
-          "key": "https://thequantuminsider.com/2026/08/11/qusecure-post-quantum-cryptography-solutions-carahsoft-gsa-schedule",
-          "report": "2026-08/2026-08-11-digest.md",
-          "score": 100,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "QuSecure Adds Post-Quantum Cryptography Platform to Carahsoft GSA Schedule",
-          "url": "https://thequantuminsider.com/2026/08/11/qusecure-post-quantum-cryptography-solutions-carahsoft-gsa-schedule"
-        },
-        {
-          "date": "2026-07-25",
-          "key": "https://quantumzeitgeist.com/post-quantum-crypto-qusecures-platform-simplifies",
-          "report": "2026-07/2026-07-25-digest.md",
-          "score": 55,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "QuSecure\u2019s Platform Simplifies Post-Quantum Crypto for Federal Networks",
-          "url": "https://quantumzeitgeist.com/post-quantum-crypto-qusecures-platform-simplifies"
-        },
-        {
-          "date": "2026-07-15",
-          "key": "https://thequantuminsider.com/2026/07/15/qusecure-quprotect-r3-listed-in-aws-icmp-for-the-us-federal-government",
-          "report": "2026-07/2026-07-15-digest.md",
-          "score": 59,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "QuSecure Lists QuProtect R3 on AWS Marketplace for U.S. Intelligence Community",
-          "url": "https://thequantuminsider.com/2026/07/15/qusecure-quprotect-r3-listed-in-aws-icmp-for-the-us-federal-government"
-        },
-        {
-          "date": "2026-07-07",
-          "key": "https://thequantuminsider.com/2026/07/07/qusecure-doug-small-federal-advisory-board",
-          "report": "2026-07/2026-07-07-digest.md",
-          "score": 59,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "QuSecure Appoints Former Navy Rear Admiral Doug Small to Federal Advisory Board",
-          "url": "https://thequantuminsider.com/2026/07/07/qusecure-doug-small-federal-advisory-board"
-        },
-        {
-          "alert_eligible": false,
-          "category": "PQC",
-          "date": "2025-07-19",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "json_ld:datePublished",
-          "entities": [
-            "QuSecure"
-          ],
-          "historical": true,
-          "key": "https://www.qusecure.com/press-releases",
-          "observed_at": "2026-08-30T08:49:22.498336+00:00",
-          "published_at": "2025-07-19T08:33:26+00:00",
-          "score": 28,
-          "source": "QuSecure Press Releases",
-          "source_type": "watch",
-          "summary": "Post Quantum Cryptography Made Simple | Press Releases",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Press Releases",
-          "url": "https://www.qusecure.com/press-releases/"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Crypto Agility",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Accenture / Accenture Federal Services"
-          ],
-          "historical": true,
-          "key": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization",
-          "observed_at": "2026-08-30T08:49:22.498336+00:00",
-          "published_at": null,
-          "score": 100,
-          "source": "Accenture Quantum and PQC News",
-          "source_type": "watch",
-          "summary": "The companies demonstrate that crypto-agility, successfully rotating to a less vulnerable algorithm, is real and possible",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
-          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
-        },
-        {
-          "alert_eligible": false,
-          "category": "PQC",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Accenture / Accenture Federal Services"
-          ],
-          "historical": true,
-          "key": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure",
-          "observed_at": "2026-08-30T08:49:22.498336+00:00",
-          "published_at": null,
-          "score": 72,
-          "source": "Accenture Quantum and PQC News",
-          "source_type": "watch",
-          "summary": "Banco Sabadell has successfully completed a joint project with Accenture (NYSE: ACN) and QuSecure to explore the adoption of Post-Quantum Cryptography (PQC) technologies in the bank\u2019s infrastructure.",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Banco Sabadell Collaborates with Accenture and QuSecure to Advance Quantum Safe Infrastructure",
-          "url": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Crypto Agility",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Accenture / Accenture Federal Services"
-          ],
-          "historical": true,
-          "key": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility",
-          "observed_at": "2026-08-30T08:49:22.498336+00:00",
-          "published_at": null,
-          "score": 69,
-          "source": "Accenture Quantum and PQC News",
-          "source_type": "watch",
-          "summary": "Accenture has made a strategic investment, through Accenture Ventures, in QuSecure \u2122 a leader in post-quantum cybersecurity.",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
-          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
-        }
-      ],
-      "evidence_count": 9,
-      "first_seen": "2025-07-19",
-      "historical_evidence_count": 4,
-      "latest_seen": "2026-08-11",
-      "momentum": "stable",
-      "name": "QuSecure",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 0,
-      "evidence": [
-        {
-          "alert_eligible": false,
-          "category": "Standards / Policy",
-          "date": "2026-07-22",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "explicit_metadata:datepublished",
-          "entities": [
-            "PsiQuantum"
-          ],
-          "historical": true,
-          "key": "https://www.psiquantum.com/news-import/psiquantum-signs-125-million-agreement-with-darpa",
-          "observed_at": "2026-08-30T08:49:22.498336+00:00",
-          "published_at": "2026-07-22T13:00:39+00:00",
-          "score": 100,
-          "source": "PsiQuantum News",
-          "source_type": "watch",
-          "summary": "PsiQuantum today announced that the company has signed a new $125 million contract with the Defense Advanced Research Projects Agency (DARPA) under DARPA\u2019s Quantum Benchmarking Initiative (QBI), the U.S. government\u2019s most rigorous effort to evaluate commercial pathways to utility-scale quantum compu",
-          "themes": [
-            "Standards / Government"
-          ],
-          "title": "PsiQuantum Signs $125 Million Agreement with DARPA \u2014 PsiQuantum",
-          "url": "https://www.psiquantum.com/news-import/psiquantum-signs-125-million-agreement-with-darpa"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Standards / Policy",
-          "date": "2026-05-21",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "explicit_metadata:datepublished",
-          "entities": [
-            "PsiQuantum"
-          ],
-          "historical": true,
-          "key": "https://www.psiquantum.com/news-import/us-department-of-commerce",
-          "observed_at": "2026-08-30T08:49:22.498336+00:00",
-          "published_at": "2026-05-21T10:42:56+00:00",
-          "score": 16,
-          "source": "PsiQuantum News",
-          "source_type": "watch",
-          "summary": "PsiQuantum has signed a Letter of Intent with the U.S. Department of Commerce for $100 million in proposed federal incentives under the CHIPS and Science Act to advance American quantum computing and semiconductor leadership.",
-          "themes": [
-            "Standards / Government"
-          ],
-          "title": "PsiQuantum Signs $100 Million Letter of Intent with the U.S. Department of Commerce \u2014 PsiQuantum",
-          "url": "https://www.psiquantum.com/news-import/us-department-of-commerce"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Standards / Policy",
-          "date": "2026-04-16",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "explicit_metadata:datepublished",
-          "entities": [
-            "PsiQuantum"
-          ],
-          "historical": true,
-          "key": "https://www.psiquantum.com/news-import/utokyo-mitsubishi-partnership",
-          "observed_at": "2026-08-30T08:49:22.498336+00:00",
-          "published_at": "2026-04-16T01:00:15+00:00",
-          "score": 100,
-          "source": "PsiQuantum News",
-          "source_type": "watch",
-          "summary": "PsiQuantum, the University of Tokyo, and the Mitsubishi Chemical Corporation today announced a partnership to provide education and training for Japan\u2019s growing quantum workforce. This initiative is supported by the Government of Japan\u2019s New Energy and Industrial Technology Development Organization",
-          "themes": [
-            "Standards / Government"
-          ],
-          "title": "PsiQuantum, the University of Tokyo, and Mitsubishi Chemical Corporation Announce Partnership to Bolster Quantum Workforce Development in Japan \u2014 PsiQuantum",
-          "url": "https://www.psiquantum.com/news-import/utokyo-mitsubishi-partnership"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Software / Tooling",
-          "date": "2026-03-16",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "explicit_metadata:datepublished",
-          "entities": [
-            "PsiQuantum"
-          ],
-          "historical": true,
-          "key": "https://www.psiquantum.com/news-import/construct-nvidia-cudaq",
-          "observed_at": "2026-08-30T08:49:22.498336+00:00",
-          "published_at": "2026-03-16T20:30:34+00:00",
-          "score": 56,
-          "source": "PsiQuantum News",
-          "source_type": "watch",
-          "summary": "PsiQuantum announced the integration of NVIDIA CUDA-Q with Construct, PsiQuantum\u2019s software suite for fault-tolerant quantum application development. The integration enables GPU-accelerated state-vector simulation of large-scale quantum algorithms, delivering up to 450x faster performance compared t",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "PsiQuantum Construct Enables Utility-Scale Quantum Application Development with CUDA-Q Integration \u2014 PsiQuantum",
-          "url": "https://www.psiquantum.com/news-import/construct-nvidia-cudaq"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2025-09-10",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "explicit_metadata:datepublished",
-          "entities": [
-            "PsiQuantum"
-          ],
-          "historical": true,
-          "key": "https://www.psiquantum.com/news-import/psiquantum-1b-fundraise",
-          "observed_at": "2026-08-30T08:49:22.498336+00:00",
-          "published_at": "2025-09-10T10:54:16+00:00",
-          "score": 73,
-          "source": "PsiQuantum News",
-          "source_type": "watch",
-          "summary": "PsiQuantum today announced it has raised $1 billion in funding for its Series E round to build the world\u2019s first commercially useful, fault-tolerant quantum computers. This funding will equip the company to break ground on utility-scale quantum computing sites in Brisbane and Chicago, deploy large-s",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "PsiQuantum Raises $1 Billion to Build Million-Qubit Scale, Fault-Tolerant Quantum Computers \u2014 PsiQuantum",
-          "url": "https://www.psiquantum.com/news-import/psiquantum-1b-fundraise"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2025-05-08",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "explicit_metadata:datepublished",
-          "entities": [
-            "PsiQuantum"
-          ],
-          "historical": true,
-          "key": "https://www.psiquantum.com/news-import/psiquantum-linde",
-          "observed_at": "2026-08-30T08:49:22.498336+00:00",
-          "published_at": "2025-05-08T11:52:45+00:00",
-          "score": 14,
-          "source": "PsiQuantum News",
-          "source_type": "watch",
-          "summary": "Read more here. PsiQuantum today announced a major milestone in its Brisbane project: a partnership with Linde Engineering to build and deliver one of the largest cryogenic plants ever planned for quantum computing. The plant will be constructed and tested by Linde, then installed at PsiQuantum\u2019s",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "PsiQuantum and Linde Engineering Collaborate to Deliver Cryogenic Plant for World\u2019s First Utility-Scale Quantum Computer in Brisbane \u2014 PsiQuantum",
-          "url": "https://www.psiquantum.com/news-import/psiquantum-linde"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2025-04-15",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "explicit_metadata:datepublished",
-          "entities": [
-            "PsiQuantum"
-          ],
-          "historical": true,
-          "key": "https://www.psiquantum.com/news-import/psiquantum-afrl-omega",
-          "observed_at": "2026-08-30T08:49:22.498336+00:00",
-          "published_at": "2025-04-15T13:00:00+00:00",
-          "score": 14,
-          "source": "PsiQuantum News",
-          "source_type": "watch",
-          "summary": "Read more here. PsiQuantum today announced a $10.8M contract with the Air Force Research Laboratory (AFRL) in Rome, N.Y., continuing a partnership that began in 2022. This phase will give AFRL a design space for comparative quantum circuits on PsiQuantum\u2019s circuit tapeout, part of its ongoing Omeg",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "PsiQuantum Announces $10.8M Contract with Air Force Research Laboratory to Deliver Novel Quantum Chip Capabilities to the U.S. Air Force \u2014 PsiQuantum",
-          "url": "https://www.psiquantum.com/news-import/psiquantum-afrl-omega"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2025-02-26",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "explicit_metadata:datepublished",
-          "entities": [
-            "PsiQuantum"
-          ],
-          "historical": true,
-          "key": "https://www.psiquantum.com/news-import/omega",
-          "observed_at": "2026-08-30T08:49:22.498336+00:00",
-          "published_at": "2025-02-26T16:00:00+00:00",
-          "score": 23,
-          "source": "PsiQuantum News",
-          "source_type": "watch",
-          "summary": "PsiQuantum announces Omega, a quantum photonic chipset purpose-built for utility-scale quantum computing.",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "PsiQuantum Announces Omega, a Manufacturable Chipset for Photonic Quantum Computing \u2014 PsiQuantum",
-          "url": "https://www.psiquantum.com/news-import/omega"
-        }
-      ],
-      "evidence_count": 8,
-      "first_seen": "2025-02-26",
-      "historical_evidence_count": 8,
-      "latest_seen": "2026-07-22",
-      "momentum": "stable",
-      "name": "PsiQuantum",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "dormant",
       "themes": [
         "Quantum Hardware",
         "Quantum Software / Tooling",
@@ -5085,8 +5121,32 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 17,
+      "current_evidence_count": 19,
       "evidence": [
+        {
+          "date": "2026-09-02",
+          "key": "https://quantumcomputingreport.com/pasqal-and-true-nexus-encode-protein-gelation-structures-on-neutral-atom-qpus",
+          "report": "2026-09/2026-09-02-digest.md",
+          "score": 38,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal and True Nexus Encode Protein Gelation Structures on Neutral-Atom QPUs",
+          "url": "https://quantumcomputingreport.com/pasqal-and-true-nexus-encode-protein-gelation-structures-on-neutral-atom-qpus"
+        },
+        {
+          "date": "2026-09-02",
+          "key": "https://quantumzeitgeist.com/pasqals-demonstration-quantum-tech-proteins",
+          "report": "2026-09/2026-09-02-digest.md",
+          "score": 35,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal\u2019s quantum tech models how proteins turn liquids to gels",
+          "url": "https://quantumzeitgeist.com/pasqals-demonstration-quantum-tech-proteins"
+        },
         {
           "date": "2026-08-31",
           "key": "https://thequantuminsider.com/2026/08/31/pasqal-kacst-quantum-research-saudi-arabia",
@@ -5292,15 +5352,15 @@
           "url": "https://thequantuminsider.com/2026/06/29/pasqal-appoints-stephane-rougeot-chief-financial-officer"
         }
       ],
-      "evidence_count": 17,
+      "evidence_count": 19,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-31",
+      "latest_seen": "2026-09-02",
       "momentum": "rising",
       "name": "Pasqal",
       "prior_count": 2,
       "priority": "medium",
-      "recent_count": 3,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -7465,6 +7525,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-09-02T02:29:06.134083+00:00",
+  "updated_at": "2026-09-03T02:35:33.645069+00:00",
   "version": 2
 }

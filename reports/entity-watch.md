@@ -4,21 +4,21 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-09-02 02:29 UTC_
+_Updated 2026-09-03 02:35 UTC_
 
 ## Organizations
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| NIST | ↘️ declining (0 vs 4) | 🔴 critical | active | 2026-06-25 | 2026-08-25 | 12 | 1 |
+| NIST | ↘️ declining (0 vs 4) | 🔴 critical | quiet | 2026-06-25 | 2026-08-25 | 12 | 1 |
 | Keyfactor | ↗️ rising (2 vs 0) | 🟠 high | active | 2025-06-06 | 2026-08-28 | 24 | 16 |
 | Cisco | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-07-27 | 2026-09-01 | 23 | 14 |
-| IBM | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2026-06-23 | 2026-08-19 | 22 | 0 |
+| IBM | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-23 | 2026-08-19 | 22 | 0 |
 | Fortanix | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2024-10-28 | 2026-08-24 | 19 | 19 |
-| IonQ | ➡️ stable (2 vs 2) | 🟠 high | active | 2026-06-22 | 2026-09-01 | 15 | 0 |
+| IonQ | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-06-22 | 2026-09-01 | 15 | 0 |
+| QuSecure | ↗️ rising (2 vs 0) | 🟠 high | active | 2025-07-19 | 2026-09-02 | 11 | 4 |
+| PsiQuantum | ↗️ rising (1 vs 0) | 🟠 high | active | 2025-02-26 | 2026-09-02 | 9 | 8 |
 | QuEra | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-22 | 2026-08-12 | 9 | 7 |
-| QuSecure | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-07-19 | 2026-08-11 | 9 | 4 |
-| PsiQuantum | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-02-26 | 2026-07-22 | 8 | 8 |
 | Cloudflare | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-23 | 2026-08-11 | 7 | 0 |
 | Quantinuum | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-22 | 2026-08-12 | 6 | 0 |
 | Accenture / Accenture Federal Services | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-01-02 | 2026-01-02 | 5 | 5 |
@@ -40,7 +40,7 @@ _Updated 2026-09-02 02:29 UTC_
 | IETF | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-08-28 | 2026-08-28 | 1 | 0 |
 | Open Quantum Safe | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-27 | 2026-07-27 | 1 | 0 |
 | Infleqtion | ↘️ declining (0 vs 3) | 🟡 medium | quiet | 2026-06-22 | 2026-08-24 | 22 | 0 |
-| Pasqal | ↗️ rising (3 vs 2) | 🟡 medium | active | 2026-06-29 | 2026-08-31 | 17 | 0 |
+| Pasqal | ↗️ rising (5 vs 2) | 🟡 medium | active | 2026-06-29 | 2026-09-02 | 19 | 0 |
 | AWS | ➡️ stable (0 vs 0) | 🟡 medium | dormant | 2026-06-24 | 2026-07-20 | 4 | 0 |
 | Rigetti | ↘️ declining (0 vs 1) | 🟡 medium | quiet | 2026-07-29 | 2026-08-20 | 3 | 0 |
 
@@ -72,7 +72,7 @@ _Updated 2026-09-02 02:29 UTC_
 | D-Wave | third-party | 0 | 3 |
 | ISO/IEC | third-party | 0 | 2 |
 | Infleqtion | third-party | 0 | 22 |
-| Pasqal | third-party | 0 | 17 |
+| Pasqal | third-party | 0 | 19 |
 | NIST | covered | 2 | 12 |
 | Accenture / Accenture Federal Services | covered | 2 | 5 |
 | Atom Computing | covered | 1 | 1 |
@@ -96,9 +96,9 @@ _Updated 2026-09-02 02:29 UTC_
 | Open Quantum Safe | covered | 1 | 1 |
 | PQCA | covered | 2 | 2 |
 | PQShield | covered | 1 | 4 |
-| PsiQuantum | covered | 1 | 8 |
+| PsiQuantum | covered | 1 | 9 |
 | QuEra | covered | 1 | 9 |
-| QuSecure | covered | 1 | 9 |
+| QuSecure | covered | 1 | 11 |
 | Quantinuum | covered | 1 | 6 |
 | Quantum Computing Inc. (QCi) | covered | 1 | 4 |
 | SandboxAQ | covered | 1 | 0 |

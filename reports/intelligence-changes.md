@@ -2,51 +2,37 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-02T02:19:14.986810+00:00_
+_Updated 2026-09-03T02:26:59.168647+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **57**
-- Added / changed / resolved: **26 / 4 / 27**
+- Material changes: **43**
+- Added / changed / resolved: **15 / 1 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)** — deadline: 09/15/2026 ([evidence](https://www.grants.gov/search-results-detail/360651))
-- **Advancing Investigative Journalism in Ukraine through U.S. AI Innovation** — opportunity status: closed ([evidence](https://www.grants.gov/search-results-detail/363440))
-- **NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)** — qualification gate: targeted review ([evidence](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view))
-- **Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/359269))
+- **U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363744))
 
 ## New claims
 
-- **Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view))
-- **Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)** — set aside: No Set aside used ([evidence](https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view))
-- **Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)** — awarding agency: COMMERCE, DEPARTMENT OF.NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY.DEPT OF COMMERCE NIST ([evidence](https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view))
-- **Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)** — reported amount: 101380.0 ([evidence](https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view))
-- **Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view))
-- **15--PANEL,STRUCTURAL,AI** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/ae7c5c9616a1405da810c7543121798f/view))
-- **15--PANEL,STRUCTURAL,AI** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND COLUMBUS.DLA LAND AND MARITIME ([evidence](https://sam.gov/workspace/contract/opp/ae7c5c9616a1405da810c7543121798f/view))
-- **15--PANEL,STRUCTURAL,AI** — reported amount: 46384.28 ([evidence](https://sam.gov/workspace/contract/opp/ae7c5c9616a1405da810c7543121798f/view))
-- **15--PANEL,STRUCTURAL,AI** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/ae7c5c9616a1405da810c7543121798f/view))
-- **66--Quantum Cascade Laser (QCL) System** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view))
-- **66--Quantum Cascade Laser (QCL) System** — awarding agency: ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.NATIONAL ENERGY TECHNOLOGY LABORATORY ([evidence](https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view))
-- **66--Quantum Cascade Laser (QCL) System** — reported amount: 23786.0 ([evidence](https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view))
-- **66--Quantum Cascade Laser (QCL) System** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view))
-- **TRUSTEES OF BOSTON UNIVERSITY** — legal business name: TRUSTEES OF BOSTON UNIVERSITY ([evidence](https://sam.gov/entity/THL6A6JLE1S7/coreData))
-- **TRUSTEES OF BOSTON UNIVERSITY** — uei: THL6A6JLE1S7 ([evidence](https://sam.gov/entity/THL6A6JLE1S7/coreData))
-- **TRUSTEES OF BOSTON UNIVERSITY** — cage code: 3A817 ([evidence](https://sam.gov/entity/THL6A6JLE1S7/coreData))
-- **TRUSTEES OF BOSTON UNIVERSITY** — registration status: Active ([evidence](https://sam.gov/entity/THL6A6JLE1S7/coreData))
-- **CLEMSON UNIVERSITY** — legal business name: Clemson University ([evidence](https://sam.gov/entity/H2BMNX7DSKU8/coreData))
-- **CLEMSON UNIVERSITY** — uei: H2BMNX7DSKU8 ([evidence](https://sam.gov/entity/H2BMNX7DSKU8/coreData))
-- **CLEMSON UNIVERSITY** — cage code: 1D5U5 ([evidence](https://sam.gov/entity/H2BMNX7DSKU8/coreData))
-- **CLEMSON UNIVERSITY** — registration status: Active ([evidence](https://sam.gov/entity/H2BMNX7DSKU8/coreData))
-- **KANSAS STATE UNIVERSITY** — legal business name: KANSAS STATE UNIVERSITY ([evidence](https://sam.gov/entity/CFMMM5JM7HJ9/coreData))
-- **KANSAS STATE UNIVERSITY** — uei: CFMMM5JM7HJ9 ([evidence](https://sam.gov/entity/CFMMM5JM7HJ9/coreData))
-- **KANSAS STATE UNIVERSITY** — cage code: 4B817 ([evidence](https://sam.gov/entity/CFMMM5JM7HJ9/coreData))
-- **KANSAS STATE UNIVERSITY** — registration status: Active ([evidence](https://sam.gov/entity/CFMMM5JM7HJ9/coreData))
-- **CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/360651))
+- **THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001))
+- **THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...** — awarding agency: Department of Homeland Security ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001))
+- **THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...** — reported amount: 11132892.29 ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001))
+- **THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001))
+- **FY26 National Dam Safety Program State Assistance Program** — opportunity status: closed ([evidence](https://www.grants.gov/search-results-detail/363603))
+- **FY26 National Dam Safety Program State Assistance Program** — deadline: 09/02/2026 ([evidence](https://www.grants.gov/search-results-detail/363603))
+- **FY26 National Dam Safety Program State Assistance Program** — awarding agency: DHS-DHS ([evidence](https://www.grants.gov/search-results-detail/363603))
+- **UNIVERSITY OF NOTRE DAME DU LAC** — legal business name: UNIVERSITY OF NOTRE DAME DU LAC ([evidence](https://sam.gov/entity/FPU6XGFXMBE9/coreData))
+- **UNIVERSITY OF NOTRE DAME DU LAC** — uei: FPU6XGFXMBE9 ([evidence](https://sam.gov/entity/FPU6XGFXMBE9/coreData))
+- **UNIVERSITY OF NOTRE DAME DU LAC** — cage code: 5B002 ([evidence](https://sam.gov/entity/FPU6XGFXMBE9/coreData))
+- **UNIVERSITY OF NOTRE DAME DU LAC** — registration status: Active ([evidence](https://sam.gov/entity/FPU6XGFXMBE9/coreData))
+- **NEVADA SYSTEM OF HIGHER EDUCATION** — legal business name: NEVADA SYSTEM OF HIGHER EDUCATION ([evidence](https://sam.gov/entity/MV1JFXA4S621/coreData))
+- **NEVADA SYSTEM OF HIGHER EDUCATION** — uei: MV1JFXA4S621 ([evidence](https://sam.gov/entity/MV1JFXA4S621/coreData))
+- **NEVADA SYSTEM OF HIGHER EDUCATION** — cage code: 0K5F8 ([evidence](https://sam.gov/entity/MV1JFXA4S621/coreData))
+- **NEVADA SYSTEM OF HIGHER EDUCATION** — registration status: Active ([evidence](https://sam.gov/entity/MV1JFXA4S621/coreData))
 
 ## Superseded claims
 

@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-09-02",
+  "as_of_date": "2026-09-03",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,686 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-d1f2ac96ef627953",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-21ece0629ca128f2"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-21ece0629ca128f2",
+          "locator": "opportunity_status:awarded",
+          "title": "THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70CTD026FC0000032",
+        "label": "THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...",
+        "node_id": "award:usaspending:70CTD026FC0000032",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7bc4278a3e6b859e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-c2d1430d440a0915",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-d1f9dac92c1819a5"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d1f9dac92c1819a5",
+          "locator": "awarding_agency:department of homeland security",
+          "title": "THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70CTD026FC0000032",
+        "label": "THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...",
+        "node_id": "award:usaspending:70CTD026FC0000032",
+        "node_type": "award"
+      },
+      "value": "Department of Homeland Security",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "72991e980f672a00"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-14e46e2fa2bd9a28",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-ba238e73704de151"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ba238e73704de151",
+          "locator": "reported_amount:11132892.29",
+          "title": "THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70CTD026FC0000032",
+        "label": "THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...",
+        "node_id": "award:usaspending:70CTD026FC0000032",
+        "node_type": "award"
+      },
+      "value": 11132892.29,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e311edfe15849fbc"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-5cd361d7dabf728c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-af0693c01cd88b7c"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:DT8KJHZXVJH5",
+        "label": "CARAHSOFT TECHNOLOGY CORP",
+        "node_id": "recipient_or_contractor:uei:DT8KJHZXVJH5",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-af0693c01cd88b7c",
+          "locator": "reported_recipient:recipient_or_contractor:uei:DT8KJHZXVJH5",
+          "title": "THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70CTD026FC0000032",
+        "label": "THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...",
+        "node_id": "award:usaspending:70CTD026FC0000032",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9c91049eb3743ce9"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-ed5ca12ddf6530e6",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-18",
+      "evidence_ids": [
+        "evidence-abb07b1061f87f8f"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-abb07b1061f87f8f",
+          "locator": "opportunity_status:closed",
+          "title": "FY26 National Dam Safety Program State Assistance Program",
+          "url": "https://www.grants.gov/search-results-detail/363603",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:DHS-26-MT-041-00-99",
+        "label": "FY26 National Dam Safety Program State Assistance Program",
+        "node_id": "opportunity:grants_gov:DHS-26-MT-041-00-99",
+        "node_type": "opportunity"
+      },
+      "value": "closed",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "925f762f73c9afd0"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-2f87f209daafc0db",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-18",
+      "evidence_ids": [
+        "evidence-c2805f0026369466"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c2805f0026369466",
+          "locator": "deadline:09/02/2026",
+          "title": "FY26 National Dam Safety Program State Assistance Program",
+          "url": "https://www.grants.gov/search-results-detail/363603",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:DHS-26-MT-041-00-99",
+        "label": "FY26 National Dam Safety Program State Assistance Program",
+        "node_id": "opportunity:grants_gov:DHS-26-MT-041-00-99",
+        "node_type": "opportunity"
+      },
+      "value": "09/02/2026",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d4a4bb40a07165ac"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-6ca7cf2559b853b2",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-18",
+      "evidence_ids": [
+        "evidence-ada875d7a600401e"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ada875d7a600401e",
+          "locator": "awarding_agency:dhs-dhs",
+          "title": "FY26 National Dam Safety Program State Assistance Program",
+          "url": "https://www.grants.gov/search-results-detail/363603",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:DHS-26-MT-041-00-99",
+        "label": "FY26 National Dam Safety Program State Assistance Program",
+        "node_id": "opportunity:grants_gov:DHS-26-MT-041-00-99",
+        "node_type": "opportunity"
+      },
+      "value": "DHS-DHS",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "46210f6ade0a0479"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-c949084e11ee8775",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-03",
+      "evidence_ids": [
+        "evidence-58c1ede120d0ebef"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-58c1ede120d0ebef",
+          "locator": "legal_business_name:university of notre dame du lac",
+          "title": "UNIVERSITY OF NOTRE DAME DU LAC",
+          "url": "https://sam.gov/entity/FPU6XGFXMBE9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:FPU6XGFXMBE9",
+        "label": "UNIVERSITY OF NOTRE DAME DU LAC",
+        "node_id": "recipient_or_contractor:uei:FPU6XGFXMBE9",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "UNIVERSITY OF NOTRE DAME DU LAC",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "054e8fe5d7747b10"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-e588011b8c8ceea1",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-03",
+      "evidence_ids": [
+        "evidence-55bfcb1d442ab149"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-55bfcb1d442ab149",
+          "locator": "uei:fpu6xgfxmbe9",
+          "title": "UNIVERSITY OF NOTRE DAME DU LAC",
+          "url": "https://sam.gov/entity/FPU6XGFXMBE9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:FPU6XGFXMBE9",
+        "label": "UNIVERSITY OF NOTRE DAME DU LAC",
+        "node_id": "recipient_or_contractor:uei:FPU6XGFXMBE9",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "FPU6XGFXMBE9",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4788ef5cbb1c7c10"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-a844026c162d6144",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-03",
+      "evidence_ids": [
+        "evidence-a34e170bee980c5f"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a34e170bee980c5f",
+          "locator": "cage_code:5b002",
+          "title": "UNIVERSITY OF NOTRE DAME DU LAC",
+          "url": "https://sam.gov/entity/FPU6XGFXMBE9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:FPU6XGFXMBE9",
+        "label": "UNIVERSITY OF NOTRE DAME DU LAC",
+        "node_id": "recipient_or_contractor:uei:FPU6XGFXMBE9",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "5B002",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5bf806f92b952501"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-f3c4064d0af4be43",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-03",
+      "evidence_ids": [
+        "evidence-e5bdf069fb7ee314"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e5bdf069fb7ee314",
+          "locator": "registration_status:active",
+          "title": "UNIVERSITY OF NOTRE DAME DU LAC",
+          "url": "https://sam.gov/entity/FPU6XGFXMBE9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:FPU6XGFXMBE9",
+        "label": "UNIVERSITY OF NOTRE DAME DU LAC",
+        "node_id": "recipient_or_contractor:uei:FPU6XGFXMBE9",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5a312e859e557be6"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-6aed2fec36a0b794",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-03",
+      "evidence_ids": [
+        "evidence-842f90918fcd26f4"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-842f90918fcd26f4",
+          "locator": "legal_business_name:nevada system of higher education",
+          "title": "NEVADA SYSTEM OF HIGHER EDUCATION",
+          "url": "https://sam.gov/entity/MV1JFXA4S621/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MV1JFXA4S621",
+        "label": "NEVADA SYSTEM OF HIGHER EDUCATION",
+        "node_id": "recipient_or_contractor:uei:MV1JFXA4S621",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "NEVADA SYSTEM OF HIGHER EDUCATION",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4b42630b20d39e56"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-5cf05f74387bf31b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-03",
+      "evidence_ids": [
+        "evidence-c0429ee5fee27326"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c0429ee5fee27326",
+          "locator": "uei:mv1jfxa4s621",
+          "title": "NEVADA SYSTEM OF HIGHER EDUCATION",
+          "url": "https://sam.gov/entity/MV1JFXA4S621/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MV1JFXA4S621",
+        "label": "NEVADA SYSTEM OF HIGHER EDUCATION",
+        "node_id": "recipient_or_contractor:uei:MV1JFXA4S621",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "MV1JFXA4S621",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c94e47bc415fcaee"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-d9ba57962ff8d7de",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-03",
+      "evidence_ids": [
+        "evidence-144ff0b8d1b17c1e"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-144ff0b8d1b17c1e",
+          "locator": "cage_code:0k5f8",
+          "title": "NEVADA SYSTEM OF HIGHER EDUCATION",
+          "url": "https://sam.gov/entity/MV1JFXA4S621/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MV1JFXA4S621",
+        "label": "NEVADA SYSTEM OF HIGHER EDUCATION",
+        "node_id": "recipient_or_contractor:uei:MV1JFXA4S621",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "0K5F8",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "892338c26ef6243d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-70835f7838f0a927",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-03",
+      "evidence_ids": [
+        "evidence-4d4d345b8353901b"
+      ],
+      "first_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4d4d345b8353901b",
+          "locator": "registration_status:active",
+          "title": "NEVADA SYSTEM OF HIGHER EDUCATION",
+          "url": "https://sam.gov/entity/MV1JFXA4S621/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MV1JFXA4S621",
+        "label": "NEVADA SYSTEM OF HIGHER EDUCATION",
+        "node_id": "recipient_or_contractor:uei:MV1JFXA4S621",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4d52885ef72af5aa"
     },
     {
       "authority": "authoritative",
@@ -21528,67 +22208,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-486b5b8de20c41f2",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-28",
-      "evidence_ids": [
-        "evidence-2989363dbba9d206"
-      ],
-      "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
-      "history": [
-        {
-          "authority": "authoritative",
-          "basis": "Reported status in the federal record",
-          "confidence": "high",
-          "evidence_ids": [
-            "evidence-d9cdf4a82751eb91"
-          ],
-          "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
-          "last_seen_at": "2026-08-09T01:09:22.763250+00:00",
-          "object": null,
-          "status": "active",
-          "value": "open",
-          "version": 1,
-          "version_hash": "9b510f577af55078"
-        }
-      ],
-      "last_seen_at": "2026-08-28T08:24:42.158568+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2989363dbba9d206",
-          "locator": "opportunity_status:closed",
-          "title": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
-          "url": "https://www.grants.gov/search-results-detail/363347",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
-        "label": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
-        "node_id": "opportunity:grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
-        "node_type": "opportunity"
-      },
-      "value": "closed",
-      "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "4c307fea9facaeef"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-ded42c089cfb784c",
       "confidence": "high",
@@ -22126,6 +22745,67 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "f79723e6be1371c9"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-486b5b8de20c41f2",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-28",
+      "evidence_ids": [
+        "evidence-2989363dbba9d206"
+      ],
+      "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported status in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-d9cdf4a82751eb91"
+          ],
+          "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
+          "last_seen_at": "2026-08-09T01:09:22.763250+00:00",
+          "object": null,
+          "status": "active",
+          "value": "open",
+          "version": 1,
+          "version_hash": "9b510f577af55078"
+        }
+      ],
+      "last_seen_at": "2026-08-28T08:24:42.158568+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2989363dbba9d206",
+          "locator": "opportunity_status:closed",
+          "title": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
+          "url": "https://www.grants.gov/search-results-detail/363347",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
+        "label": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
+        "node_id": "opportunity:grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
+        "node_type": "opportunity"
+      },
+      "value": "closed",
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "4c307fea9facaeef"
     },
     {
       "authority": "authoritative",
@@ -72038,96 +72718,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-8cb0acc8ddbbc08d",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-28",
-      "evidence_ids": [
-        "evidence-e75cdb63ab3db05f"
-      ],
-      "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-09T01:09:22.763250+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e75cdb63ab3db05f",
-          "locator": "deadline:08/27/2026",
-          "title": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
-          "url": "https://www.grants.gov/search-results-detail/363347",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
-        "label": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
-        "node_id": "opportunity:grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
-        "node_type": "opportunity"
-      },
-      "value": "08/27/2026",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "007d6cd86872a1d0"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-72e619aba015b8d1",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-28",
-      "evidence_ids": [
-        "evidence-5919bfcd15eb564a"
-      ],
-      "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-09T01:09:22.763250+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5919bfcd15eb564a",
-          "locator": "awarding_agency:dos-mex",
-          "title": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
-          "url": "https://www.grants.gov/search-results-detail/363347",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
-        "label": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
-        "node_id": "opportunity:grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
-        "node_type": "opportunity"
-      },
-      "value": "DOS-MEX",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "e7113cfea1975015"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-ea2c06880428fb9f",
       "confidence": "high",
@@ -72665,6 +73255,96 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "d43dde85fb861a65"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-8cb0acc8ddbbc08d",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-28",
+      "evidence_ids": [
+        "evidence-e75cdb63ab3db05f"
+      ],
+      "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-09T01:09:22.763250+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e75cdb63ab3db05f",
+          "locator": "deadline:08/27/2026",
+          "title": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
+          "url": "https://www.grants.gov/search-results-detail/363347",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
+        "label": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
+        "node_id": "opportunity:grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
+        "node_type": "opportunity"
+      },
+      "value": "08/27/2026",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "007d6cd86872a1d0"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-72e619aba015b8d1",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-28",
+      "evidence_ids": [
+        "evidence-5919bfcd15eb564a"
+      ],
+      "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-09T01:09:22.763250+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5919bfcd15eb564a",
+          "locator": "awarding_agency:dos-mex",
+          "title": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
+          "url": "https://www.grants.gov/search-results-detail/363347",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
+        "label": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
+        "node_id": "opportunity:grants_gov:PD-TIJUANA-NOGALES-HERMOSILLO-FY2026-01",
+        "node_type": "opportunity"
+      },
+      "value": "DOS-MEX",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e7113cfea1975015"
     },
     {
       "authority": "authoritative",
@@ -98477,9 +99157,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -98522,9 +99202,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "deadline",
       "sources": [
         {
@@ -98567,9 +99247,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -178479,6 +179159,230 @@
     },
     {
       "authority": "analytical",
+      "basis": "Deterministic qualification score 23 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-a8a99fec1a1252ae",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "closing_this_month +9",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363744"
+            ],
+            "points": 31
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363744"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-603c346a9f0f1c1c",
+          "evidence-d56934da2a7dc459"
+        ],
+        "input_claim_hashes": {
+          "claim-1aa9669fa28f53ef": "c08c900f60bd36b1"
+        },
+        "input_claim_ids": [
+          "claim-1aa9669fa28f53ef"
+        ],
+        "input_claim_versions": {
+          "claim-1aa9669fa28f53ef": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 23,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363744"
+        ],
+        "trace_complete": true,
+        "trace_hash": "0f776d847888a2b1",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-1aa9669fa28f53ef"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-09-03",
+      "evidence_ids": [
+        "evidence-d56934da2a7dc459"
+      ],
+      "first_seen_at": "2026-09-01T02:58:55.591634+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-d56934da2a7dc459"
+          ],
+          "first_seen_at": "2026-09-01T02:58:55.591634+00:00",
+          "last_seen_at": "2026-09-01T02:58:55.591634+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 1,
+          "version_hash": "7444769dfba9781a"
+        }
+      ],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d56934da2a7dc459",
+          "locator": "qualification_gate",
+          "title": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
+          "url": "https://www.grants.gov/search-results-detail/363744",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:DOS-SAU-2605-PD",
+        "label": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
+        "node_id": "opportunity:grants_gov:DOS-SAU-2605-PD",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "55fc727e27f34636"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 20 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-893a9c7ee121e0cc",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +11",
+              "actionable grant_opportunity +9",
+              "technology fit +8"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/355385"
+            ],
+            "points": 28
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/355385"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-6fc5d1fdea685333"
+        ],
+        "input_claim_hashes": {},
+        "input_claim_ids": [],
+        "input_claim_versions": {},
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 20,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/355385"
+        ],
+        "trace_complete": true,
+        "trace_hash": "9299e1f8712e4517",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-09-03",
+      "evidence_ids": [
+        "evidence-6fc5d1fdea685333"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-03T02:26:59.168647+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6fc5d1fdea685333",
+          "locator": "qualification_gate",
+          "title": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
+          "url": "https://www.grants.gov/search-results-detail/355385",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:ESP24NOFODEFENSAYYO5",
+        "label": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
+        "node_id": "opportunity:grants_gov:ESP24NOFODEFENSAYYO5",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "acef2c88f2e923e7"
+    },
+    {
+      "authority": "analytical",
       "basis": "Deterministic qualification score 45 / 100 with 72 / 100 evidence completeness",
       "claim_id": "claim-766fd469da036220",
       "confidence": "medium",
@@ -179445,116 +180349,6 @@
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 28 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-a8a99fec1a1252ae",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +9",
-              "actionable grant_opportunity +9",
-              "closing_this_month +9",
-              "technology fit +4",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363744"
-            ],
-            "points": 36
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363744"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-603c346a9f0f1c1c",
-          "evidence-d56934da2a7dc459"
-        ],
-        "input_claim_hashes": {
-          "claim-1aa9669fa28f53ef": "c08c900f60bd36b1"
-        },
-        "input_claim_ids": [
-          "claim-1aa9669fa28f53ef"
-        ],
-        "input_claim_versions": {
-          "claim-1aa9669fa28f53ef": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 28,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363744"
-        ],
-        "trace_complete": true,
-        "trace_hash": "0f776d847888a2b1",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-1aa9669fa28f53ef"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-09-01",
-      "evidence_ids": [
-        "evidence-d56934da2a7dc459"
-      ],
-      "first_seen_at": "2026-09-01T02:58:55.591634+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-01T02:58:55.591634+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d56934da2a7dc459",
-          "locator": "qualification_gate",
-          "title": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
-          "url": "https://www.grants.gov/search-results-detail/363744",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:DOS-SAU-2605-PD",
-        "label": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
-        "node_id": "opportunity:grants_gov:DOS-SAU-2605-PD",
-        "node_type": "opportunity"
-      },
-      "value": "hold",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "7444769dfba9781a"
-    },
-    {
-      "authority": "analytical",
       "basis": "Deterministic qualification score 19 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-7a77c2bb73b1d40c",
       "confidence": "medium",
@@ -180008,9 +180802,9 @@
       "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
       "history": [],
       "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -180920,105 +181714,6 @@
       "verification_status": "source_reported",
       "version": 4,
       "version_hash": "6204586e80de82df"
-    },
-    {
-      "authority": "analytical",
-      "basis": "Deterministic qualification score 20 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-893a9c7ee121e0cc",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +11",
-              "actionable grant_opportunity +9",
-              "technology fit +8"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/355385"
-            ],
-            "points": 28
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/355385"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-6fc5d1fdea685333"
-        ],
-        "input_claim_hashes": {},
-        "input_claim_ids": [],
-        "input_claim_versions": {},
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 20,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/355385"
-        ],
-        "trace_complete": true,
-        "trace_hash": "9299e1f8712e4517",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-08-29",
-      "evidence_ids": [
-        "evidence-6fc5d1fdea685333"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 1,
-      "object": null,
-      "observation_status": "not_observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6fc5d1fdea685333",
-          "locator": "qualification_gate",
-          "title": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
-          "url": "https://www.grants.gov/search-results-detail/355385",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:ESP24NOFODEFENSAYYO5",
-        "label": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
-        "node_id": "opportunity:grants_gov:ESP24NOFODEFENSAYYO5",
-        "node_type": "opportunity"
-      },
-      "value": "hold",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "acef2c88f2e923e7"
     },
     {
       "authority": "analytical",
@@ -202097,7 +202792,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202144,7 +202839,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202191,7 +202886,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202238,7 +202933,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202285,7 +202980,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202332,7 +203027,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202379,7 +203074,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202426,7 +203121,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202473,7 +203168,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202520,7 +203215,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202567,7 +203262,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202614,7 +203309,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202661,7 +203356,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202708,7 +203403,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202755,7 +203450,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202802,7 +203497,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202849,7 +203544,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202896,7 +203591,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -202948,7 +203643,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -203000,7 +203695,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -203052,7 +203747,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -203104,7 +203799,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -203156,7 +203851,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -203208,7 +203903,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -203260,7 +203955,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -203312,7 +204007,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -203364,7 +204059,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-02T02:19:14.986810+00:00",
+      "retracted_at": "2026-09-03T02:26:59.168647+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -206906,6 +207601,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-144ff0b8d1b17c1e",
+      "locator": "cage_code:0k5f8",
+      "title": "NEVADA SYSTEM OF HIGHER EDUCATION",
+      "url": "https://sam.gov/entity/MV1JFXA4S621/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-1458964bd912e9ec",
       "locator": "qualification_gate",
       "title": "AN13--Intent to sole source - Miniaturized CO2 Sensor Prototype Development and Novel Physiologic Gas Monitoring Research",
@@ -208940,6 +209645,16 @@
       "locator": "uei:kfldsfdm2vh3",
       "title": "Pride Mobility Products Corporation",
       "url": "https://sam.gov/entity/KFLDSFDM2VH3/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-21ece0629ca128f2",
+      "locator": "opportunity_status:awarded",
+      "title": "THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001",
       "verification_status": "source_reported"
     },
     {
@@ -216047,6 +216762,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-4d4d345b8353901b",
+      "locator": "registration_status:active",
+      "title": "NEVADA SYSTEM OF HIGHER EDUCATION",
+      "url": "https://sam.gov/entity/MV1JFXA4S621/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-4d55ac03aa7efd80",
       "locator": "qualification_gate",
       "title": "Request for Quotation # 19VM3026Q0022\u2013 Procurement of a nationwide public awareness campaign on AI-enabled fraud and online scams.",
@@ -217487,6 +218212,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-55bfcb1d442ab149",
+      "locator": "uei:fpu6xgfxmbe9",
+      "title": "UNIVERSITY OF NOTRE DAME DU LAC",
+      "url": "https://sam.gov/entity/FPU6XGFXMBE9/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-55cd3a7bad335f27",
       "locator": "reported_recipient:recipient_or_contractor:uei:UBH4QVF8WC95",
       "title": "TO INTEGRATE CONDUCTOR OS, AN AI/ML AUTONOMY ORCHESTRATION SYSTEM, INTO PROJECT LINCHPIN TO ACT AS A CONDUIT FOR INTEROPERABILITY BETWEEN DISPARATE AUTONOMOUS SYSTEMS, ENABLING SE...",
@@ -217952,6 +218687,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2415fd600d1843909dadb6bd0a60075a/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-58c1ede120d0ebef",
+      "locator": "legal_business_name:university of notre dame du lac",
+      "title": "UNIVERSITY OF NOTRE DAME DU LAC",
+      "url": "https://sam.gov/entity/FPU6XGFXMBE9/coreData",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -224447,6 +225192,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-842f90918fcd26f4",
+      "locator": "legal_business_name:nevada system of higher education",
+      "title": "NEVADA SYSTEM OF HIGHER EDUCATION",
+      "url": "https://sam.gov/entity/MV1JFXA4S621/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-844cd90a6e527dc6",
       "locator": "awarding_agency:national science foundation",
       "title": "CAREER: INTROSPECTIVE REASONING WITH IMPRECISE MODELS FOR RELIABLE AUTONOMY -THE REAL WORLD IS TOO COMPLEX TO MODEL ACCURATELY. AUTONOMOUS AGENTS AND ROBOTS THAT PERFORM COMPLEX T...",
@@ -229267,6 +230022,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-a34e170bee980c5f",
+      "locator": "cage_code:5b002",
+      "title": "UNIVERSITY OF NOTRE DAME DU LAC",
+      "url": "https://sam.gov/entity/FPU6XGFXMBE9/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-a35576d524bc694a",
       "locator": "legal_business_name:booz allen hamilton inc",
       "title": "BOOZ ALLEN HAMILTON INC",
@@ -230717,6 +231482,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-abb07b1061f87f8f",
+      "locator": "opportunity_status:closed",
+      "title": "FY26 National Dam Safety Program State Assistance Program",
+      "url": "https://www.grants.gov/search-results-detail/363603",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-abb1011ce83a33d4",
       "locator": "awarding_agency:dept of defense.defense logistics agency.dla maritime.dla maritime columbus.dla land and maritime",
       "title": "NSN: 6665-01-415-4957 Sensor Assembly",
@@ -230957,6 +231732,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ada875d7a600401e",
+      "locator": "awarding_agency:dhs-dhs",
+      "title": "FY26 National Dam Safety Program State Assistance Program",
+      "url": "https://www.grants.gov/search-results-detail/363603",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-adaa72137a910919",
       "locator": "awarding_agency:dept of defense.dept of the navy.navsup.navsup weapon systems support.navsup wss philadelphia.navsup weapon systems support",
       "title": "SENSOR DEVICE",
@@ -231171,6 +231956,16 @@
       "locator": "reported_recipient:recipient_or_contractor:name:university of missouri system",
       "title": "SUPPORTING MODEL-BASED REASONING IN SEMICONDUCTOR ENGINEERING INSTRUCTION: AN AI-GUIDED IMMERSIVE LEARNING APPROACH -THIS PROJECT AIMS TO SERVE THE NATIONAL INTEREST BY ADDRESSING...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2613481_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-af0693c01cd88b7c",
+      "locator": "reported_recipient:recipient_or_contractor:uei:DT8KJHZXVJH5",
+      "title": "THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001",
       "verification_status": "source_reported"
     },
     {
@@ -232967,6 +233762,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ba238e73704de151",
+      "locator": "reported_amount:11132892.29",
+      "title": "THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-ba396577db5bba76",
       "locator": "reported_recipient:recipient_or_contractor:name:zcore group",
       "title": "ARTIFICIAL INTELLIGENCE LLM API",
@@ -233897,6 +234702,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-c0429ee5fee27326",
+      "locator": "uei:mv1jfxa4s621",
+      "title": "NEVADA SYSTEM OF HIGHER EDUCATION",
+      "url": "https://sam.gov/entity/MV1JFXA4S621/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-c0495579ab7100b1",
       "locator": "awarding_agency:dept of defense.defense logistics agency.dla land.dla land columbus.dla land and maritime",
       "title": "29--SENSOR,AIR CLEANER",
@@ -234341,6 +235156,16 @@
       "locator": "reported_amount:50203.5",
       "title": "PSA 1475 - BIH CYBERSECURITY SME",
       "url": "https://www.usaspending.gov/award/CONT_AWD_1331L526F13OS0356_1301_1331L522A13OS1004_1301/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-c2805f0026369466",
+      "locator": "deadline:09/02/2026",
+      "title": "FY26 National Dam Safety Program State Assistance Program",
+      "url": "https://www.grants.gov/search-results-detail/363603",
       "verification_status": "source_reported"
     },
     {
@@ -236931,6 +237756,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:Q9GDDQV47MX7",
       "title": "COLLABORATIVE NETWORK FOR STEM UNDERGRADUATE EDUCATION THROUGH COMPUTATIONAL TRAINING IN HIGH PERFORMANCE COMPUTING -THIS PROJECT AIMS TO SERVE THE NATIONAL INTEREST BY STRENGTHEN...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2539366_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d1f9dac92c1819a5",
+      "locator": "awarding_agency:department of homeland security",
+      "title": "THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001",
       "verification_status": "source_reported"
     },
     {
@@ -240351,6 +241186,16 @@
       "locator": "awarding_agency:dos-lbn",
       "title": "Notice of Funding Opportunity 2026 \u2013 Lebanon",
       "url": "https://www.grants.gov/search-results-detail/363090",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e5bdf069fb7ee314",
+      "locator": "registration_status:active",
+      "title": "UNIVERSITY OF NOTRE DAME DU LAC",
+      "url": "https://sam.gov/entity/FPU6XGFXMBE9/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -244637,16 +245482,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4013,
-    "authoritative_claims": 3822,
+    "active_claims": 4028,
+    "authoritative_claims": 3837,
     "conflicted_claims": 38,
     "derived_claims": 188,
-    "evidence_items": 4124,
-    "source_urls": 1135,
-    "subjects": 785,
+    "evidence_items": 4139,
+    "source_urls": 1139,
+    "subjects": 789,
     "superseded_claims": 0,
-    "total_claims": 4040
+    "total_claims": 4055
   },
-  "updated_at": "2026-09-02T02:19:14.986810+00:00",
+  "updated_at": "2026-09-03T02:26:59.168647+00:00",
   "version": 1
 }

@@ -432,9 +432,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 6,
+      "evidence_count": 7,
       "historical_evidence_count": 4,
-      "latest_evidence_at": "2026-08-11",
+      "latest_evidence_at": "2026-09-02",
       "name": "QuSecure",
       "priority": "high",
       "source_count": 4,
@@ -471,6 +471,21 @@
           "source": "Accenture Quantum and PQC News",
           "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
           "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+        },
+        {
+          "date": "2026-09-02",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "The Quantum Insider",
+          "title": "QuSecure Demonstrates Post-Quantum Security for U.S. Army at Project Convergence",
+          "url": "https://thequantuminsider.com/2026/09/02/qusecure-post-quantum-security-us-army-project-convergence"
         },
         {
           "date": "2026-08-11",
@@ -1709,6 +1724,6 @@
     "not_assessed": 19,
     "organizations": 43
   },
-  "updated_at": "2026-09-02T02:29:06.677961+00:00",
+  "updated_at": "2026-09-03T02:35:34.189382+00:00",
   "version": 1
 }
