@@ -2,7 +2,7 @@
 
 > **Quantum Research Scout** · Intelligence archive and operational dashboard
 
-_Updated 2026-09-04 02:31 UTC_
+_Updated 2026-09-04 16:49 UTC_
 
 [Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
 
@@ -10,8 +10,8 @@ _Updated 2026-09-04 02:31 UTC_
 
 ## Latest Reports
 
-- Daily: [2026-09-03-digest](2026-09/2026-09-03-digest.md)
-- Weekly: [2026-08-24_to_2026-08-28-weekly](weekly/2026/2026-08-24_to_2026-08-28-weekly.md)
+- Daily: [2026-09-04-digest](2026-09/2026-09-04-digest.md)
+- Weekly: [2026-08-31_to_2026-09-04-weekly](weekly/2026/2026-08-31_to_2026-09-04-weekly.md)
 - Monthly: [2026-08-monthly](monthly/2026/2026-08-monthly.md)
 
 ## Intelligence Tracking
@@ -38,17 +38,18 @@ _Updated 2026-09-04 02:31 UTC_
 
 ## Current High-Priority Themes
 
-- PQC migration and crypto-agility appeared in 19 signal(s), with emphasis on readiness, inventory, and implementation planning.
+- PQC migration and crypto-agility appeared in 28 signal(s), with emphasis on readiness, inventory, and implementation planning.
 - Watch for TLS, PKI, CBOM, FIPS, HNDL, and inventory-specific movement next week.
 - Quantum-safe platform claims appeared and should be checked against concrete standards alignment.
+- QEC and fault-tolerance signals centered on logical-qubit reliability and code overhead.
+- Track whether decoder, LDPC, surface-code, or logical-qubit results translate into implementation guidance.
 - Hardware activity focused on scaling architectures, qubit modalities, and processor integration choices.
 - The practical question is whether device-level progress connects to lower error rates and manufacturable systems.
-- Sensing signals pointed to RF, detection, timing, or sensor-platform applications rather than general compute scaling.
-- Watch whether sensing announcements include measurable sensitivity, deployment, or integration details.
-- Tooling updates lowered friction for simulation, compilers, SDKs, or application workflows.
+- Networking signals emphasized distributed quantum computing, entanglement, and network resilience.
 
 ## Recent Weekly Reports
 
+- [2026-08-31_to_2026-09-04-weekly](weekly/2026/2026-08-31_to_2026-09-04-weekly.md)
 - [2026-08-24_to_2026-08-28-weekly](weekly/2026/2026-08-24_to_2026-08-28-weekly.md)
 - [2026-08-17_to_2026-08-21-weekly](weekly/2026/2026-08-17_to_2026-08-21-weekly.md)
 - [2026-08-10_to_2026-08-14-weekly](weekly/2026/2026-08-10_to_2026-08-14-weekly.md)
@@ -60,7 +61,6 @@ _Updated 2026-09-04 02:31 UTC_
 - [2026-06-22_to_2026-06-28-weekly](weekly/2026/2026-06-22_to_2026-06-28-weekly.md)
 - [2026-06-15_to_2026-06-21-weekly](weekly/2026/2026-06-15_to_2026-06-21-weekly.md)
 - [2026-06-08_to_2026-06-14-weekly](weekly/2026/2026-06-08_to_2026-06-14-weekly.md)
-- [2026-06-01_to_2026-06-07-weekly](weekly/2026/2026-06-01_to_2026-06-07-weekly.md)
 
 ## Recent Monthly Reports
 
@@ -71,7 +71,7 @@ _Updated 2026-09-04 02:31 UTC_
 
 ## Archive Summary
 
-- Daily reports retained: **30**
-- Weekly syntheses retained: **15**
+- Daily reports retained: **31**
+- Weekly syntheses retained: **16**
 - Monthly syntheses retained: **4**
 - Daily reports use a rolling 30-day retention window; weekly and monthly syntheses are retained indefinitely.
