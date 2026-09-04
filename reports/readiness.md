@@ -4,11 +4,11 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-09-03 02:35 UTC_
+_Updated 2026-09-04 02:31 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
-Assessed **24 of 43** configured organizations.
+Assessed **25 of 43** configured organizations.
 
 | Organization | Observed stage | Confidence | PQC evidence | Sources | Historical | Latest dated evidence |
 |---|---|---|---:|---:|---:|---|
@@ -16,15 +16,16 @@ Assessed **24 of 43** configured organizations.
 | Wiz | Pilot / Testing | medium | 4 | 1 | 4 | 2026-07-02 |
 | Keyfactor | Planning | high | 20 | 3 | 13 | 2026-08-28 |
 | NIST | Planning | high | 7 | 4 | 1 | 2026-08-20 |
-| QuSecure | Planning | high | 7 | 4 | 4 | 2026-09-02 |
+| QuSecure | Planning | high | 8 | 4 | 4 | 2026-09-03 |
 | Accenture / Accenture Federal Services | Planning | medium | 3 | 1 | 3 | Unknown |
 | Fortanix | Planning | medium | 19 | 1 | 19 | 2026-08-24 |
 | Thales | Planning | medium | 2 | 2 | 0 | 2026-08-05 |
+| CISA | Planning | low | 1 | 1 | 0 | 2026-09-03 |
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
 | Cisco | Awareness | high | 20 | 2 | 14 | 2026-09-01 |
 | Cloudflare | Awareness | high | 4 | 3 | 0 | 2026-08-10 |
+| ANSSI | Awareness | medium | 2 | 1 | 0 | 2026-09-03 |
 | ISO/IEC | Awareness | medium | 2 | 2 | 0 | 2026-07-15 |
-| ANSSI | Awareness | low | 1 | 1 | 0 | 2026-06-23 |
 | AWS | Awareness | low | 1 | 1 | 0 | 2026-07-01 |
 | Booz Allen Hamilton | Awareness | low | 1 | 1 | 1 | 2025-02-06 |
 | DigiCert | Awareness | low | 1 | 1 | 0 | 2026-08-03 |
@@ -38,7 +39,6 @@ Assessed **24 of 43** configured organizations.
 | Quantum Computing Inc. (QCi) | Awareness | low | 1 | 1 | 1 | Unknown |
 | Atom Computing | Not assessed | none | 0 | 0 | 0 | Unknown |
 | BSI Germany | Not assessed | none | 0 | 0 | 0 | Unknown |
-| CISA | Not assessed | none | 0 | 0 | 0 | Unknown |
 | D-Wave | Not assessed | none | 0 | 0 | 0 | Unknown |
 | ENISA | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Entrust | Not assessed | none | 0 | 0 | 0 | Unknown |

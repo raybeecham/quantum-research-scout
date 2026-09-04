@@ -53,7 +53,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 1,
+      "evidence_count": 2,
       "first_party_evidence_count": 0,
       "name": "ANSSI",
       "priority": "high",
@@ -199,8 +199,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 0,
-      "first_party_evidence_count": 0,
+      "evidence_count": 1,
+      "first_party_evidence_count": 1,
       "name": "CISA",
       "priority": "high",
       "status": "covered",
@@ -353,7 +353,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 22,
+      "evidence_count": 23,
       "first_party_evidence_count": 0,
       "name": "IBM",
       "priority": "high",
@@ -540,7 +540,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 11,
+      "evidence_count": 13,
       "first_party_evidence_count": 2,
       "name": "QuSecure",
       "priority": "high",
@@ -879,7 +879,7 @@
       "latest_seen": "2026-08-25",
       "momentum": "declining",
       "name": "NIST",
-      "prior_count": 4,
+      "prior_count": 3,
       "priority": "critical",
       "recent_count": 0,
       "status": "quiet",
@@ -1381,11 +1381,11 @@
       "first_seen": "2025-06-06",
       "historical_evidence_count": 16,
       "latest_seen": "2026-08-28",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Keyfactor",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -1866,8 +1866,20 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 22,
+      "current_evidence_count": 23,
       "evidence": [
+        {
+          "date": "2026-09-03",
+          "key": "https://thequantuminsider.com/2026/09/03/ibms-nighthawk-r2-quantum-processor-targets-a-25-fold-increase-in-circuit-speed",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 30,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM\u2019s Nighthawk r2 Quantum Processor Targets a 25-Fold Increase in Circuit Speed",
+          "url": "https://thequantuminsider.com/2026/09/03/ibms-nighthawk-r2-quantum-processor-targets-a-25-fold-increase-in-circuit-speed"
+        },
         {
           "date": "2026-08-19",
           "key": "https://quantumzeitgeist.com/quantum-processor-cooling-system-ibm",
@@ -2133,16 +2145,16 @@
           "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
         }
       ],
-      "evidence_count": 22,
+      "evidence_count": 23,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-19",
-      "momentum": "stable",
+      "latest_seen": "2026-09-03",
+      "momentum": "rising",
       "name": "IBM",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware",
@@ -2844,8 +2856,32 @@
         "QuProtect"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 7,
+      "current_evidence_count": 9,
       "evidence": [
+        {
+          "date": "2026-09-03",
+          "key": "https://quantumzeitgeist.com/qusecures-quantum-resistant-pqc-solution-passes",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 79,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "QuSecure\u2019s quantum-resistant PQC solution passes critical Army test",
+          "url": "https://quantumzeitgeist.com/qusecures-quantum-resistant-pqc-solution-passes"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://quantumzeitgeist.com/quantum-key-distribution-qusecures-trl",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 53,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "QuSecure\u2019s quantum key distribution reaches TRL 7 with Army testing",
+          "url": "https://quantumzeitgeist.com/quantum-key-distribution-qusecures-trl"
+        },
         {
           "date": "2026-09-02",
           "key": "https://thequantuminsider.com/2026/09/02/qusecure-post-quantum-security-us-army-project-convergence",
@@ -3027,18 +3063,19 @@
           "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
         }
       ],
-      "evidence_count": 11,
+      "evidence_count": 13,
       "first_seen": "2025-07-19",
       "historical_evidence_count": 4,
-      "latest_seen": "2026-09-02",
+      "latest_seen": "2026-09-03",
       "momentum": "rising",
       "name": "QuSecure",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 4,
       "status": "active",
       "themes": [
-        "PQC / Crypto Agility"
+        "PQC / Crypto Agility",
+        "Quantum Networking"
       ],
       "type": "company"
     },
@@ -4283,6 +4320,54 @@
     },
     {
       "aliases": [
+        "French National Cybersecurity Agency",
+        "Agence nationale de la securite des systemes d'information"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 2,
+      "evidence": [
+        {
+          "date": "2026-09-03",
+          "key": "https://quantumzeitgeist.com/quantum-resistant-encryption-anssi-leads-push",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 67,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "ANSSI leads G7 push for quantum-resistant encryption",
+          "url": "https://quantumzeitgeist.com/quantum-resistant-encryption-anssi-leads-push"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://quantumzeitgeist.com/anssi-post-quantum-mandate-sealsqs-qs7001",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "SEALSQ\u2019s QS7001 Validated for ANSSI\u2019s Post-Quantum Mandate",
+          "url": "https://quantumzeitgeist.com/anssi-post-quantum-mandate-sealsqs-qs7001"
+        }
+      ],
+      "evidence_count": 2,
+      "first_seen": "2026-06-23",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-03",
+      "momentum": "rising",
+      "name": "ANSSI",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "government"
+    },
+    {
+      "aliases": [
         "Booz Allen"
       ],
       "case_sensitive_aliases": [
@@ -4561,42 +4646,6 @@
       "type": "company"
     },
     {
-      "aliases": [
-        "French National Cybersecurity Agency",
-        "Agence nationale de la securite des systemes d'information"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 1,
-      "evidence": [
-        {
-          "date": "2026-06-23",
-          "key": "https://quantumzeitgeist.com/anssi-post-quantum-mandate-sealsqs-qs7001",
-          "report": "2026-06/2026-06-23-digest.md",
-          "score": 55,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "SEALSQ\u2019s QS7001 Validated for ANSSI\u2019s Post-Quantum Mandate",
-          "url": "https://quantumzeitgeist.com/anssi-post-quantum-mandate-sealsqs-qs7001"
-        }
-      ],
-      "evidence_count": 1,
-      "first_seen": "2026-06-23",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-06-23",
-      "momentum": "stable",
-      "name": "ANSSI",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "dormant",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "type": "government"
-    },
-    {
       "aliases": [],
       "case_sensitive_aliases": [],
       "current_evidence_count": 0,
@@ -4642,6 +4691,41 @@
       "type": "company"
     },
     {
+      "aliases": [
+        "Cybersecurity and Infrastructure Security Agency"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
+      "evidence": [
+        {
+          "date": "2026-09-03",
+          "key": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 100,
+          "source": "CISA Cybersecurity Advisories",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Preparing for the Post-Quantum Era: A Call to Action",
+          "url": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2026-09-03",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-03",
+      "momentum": "rising",
+      "name": "CISA",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "government"
+    },
+    {
       "aliases": [],
       "case_sensitive_aliases": [],
       "current_evidence_count": 1,
@@ -4668,7 +4752,7 @@
       "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -5358,7 +5442,7 @@
       "latest_seen": "2026-09-02",
       "momentum": "rising",
       "name": "Pasqal",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "medium",
       "recent_count": 5,
       "status": "active",
@@ -5487,9 +5571,9 @@
       "first_seen": "2026-07-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-08-20",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Rigetti",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "medium",
       "recent_count": 0,
       "status": "quiet",
@@ -6223,11 +6307,11 @@
       "first_seen": "2025-06-06",
       "historical_evidence_count": 25,
       "latest_seen": "2026-08-28",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Crypto-agility",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -6883,8 +6967,20 @@
       "case_sensitive_aliases": [
         "QKD"
       ],
-      "current_evidence_count": 8,
+      "current_evidence_count": 9,
       "evidence": [
+        {
+          "date": "2026-09-03",
+          "key": "https://quantumzeitgeist.com/quantum-key-distribution-qusecures-trl",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 53,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "QuSecure\u2019s quantum key distribution reaches TRL 7 with Army testing",
+          "url": "https://quantumzeitgeist.com/quantum-key-distribution-qusecures-trl"
+        },
         {
           "date": "2026-07-23",
           "key": "https://arxiv.org/abs/2607.20840",
@@ -7006,16 +7102,16 @@
           "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-and-ciena-demonstrate-next-generation-quantum-secured-communications-with-high-speed-encryption-using-pqc-and-qkd-at-ofc-2026"
         }
       ],
-      "evidence_count": 9,
+      "evidence_count": 10,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-07-23",
-      "momentum": "stable",
+      "latest_seen": "2026-09-03",
+      "momentum": "rising",
       "name": "Quantum key distribution",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 0,
-      "status": "dormant",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Networking"
       ],
@@ -7172,8 +7268,20 @@
         "quantum metrology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 15,
+      "current_evidence_count": 16,
       "evidence": [
+        {
+          "date": "2026-09-03",
+          "key": "https://quantumnews.ai/networking/economic-and-technical-impacts-of-quantum-sensing-in-maritime-navigation",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 26,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Economic and Technical Impacts of Quantum Sensing in Maritime Navigation",
+          "url": "https://quantumnews.ai/networking/economic-and-technical-impacts-of-quantum-sensing-in-maritime-navigation"
+        },
         {
           "date": "2026-08-28",
           "key": "https://thequantuminsider.com/2026/08/28/higher-energy-x-rays-could-enable-a-new-form-of-quantum-sensing",
@@ -7379,15 +7487,15 @@
           "url": "https://www.lockheedmartin.com/en-us/news/features/2026/the-quantum-opportunity-beyond-computing.html"
         }
       ],
-      "evidence_count": 16,
+      "evidence_count": 17,
       "first_seen": "2026-06-24",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-08-28",
-      "momentum": "stable",
+      "latest_seen": "2026-09-03",
+      "momentum": "rising",
       "name": "Quantum sensing",
       "prior_count": 1,
       "priority": "medium",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -7405,15 +7513,6 @@
       ],
       "case_sensitive_aliases": [],
       "name": "BSI Germany",
-      "priority": "high",
-      "type": "government"
-    },
-    {
-      "aliases": [
-        "Cybersecurity and Infrastructure Security Agency"
-      ],
-      "case_sensitive_aliases": [],
-      "name": "CISA",
       "priority": "high",
       "type": "government"
     },
@@ -7525,6 +7624,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-09-03T02:35:33.645069+00:00",
+  "updated_at": "2026-09-04T02:31:56.734531+00:00",
   "version": 2
 }

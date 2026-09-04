@@ -2,27 +2,39 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-09-03T02:26:59.168647+00:00_
+_Updated 2026-09-04T02:21:51.764000+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **4**
-- Newly discovered historical evidence: **3**
-- Newly observed with no reliable source date: **8**
-- Upcoming dated events: **33**
+- Actual or recent changes: **15**
+- Newly discovered historical evidence: **0**
+- Newly observed with no reliable source date: **2**
+- Upcoming dated events: **32**
 
 ## Priority timeline
 
-- **Occurred 3 days ago** · THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001))
+- **Changed since prior run** · IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT. — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000))
+  - The assertion changed relative to the prior successful ledger build.
+- **Occurred 3 days ago** · COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426C0033_1205_-NONE-_-NONE-))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Evidence trace changed** · U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP) — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363744))
+- **Occurred 3 days ago** · OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB030160_1341_-NONE-_-NONE-))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Occurred 3 days ago** · QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_89243326PFE000986_8900_-NONE-_-NONE-))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Published 3 days ago** · 66--Quantum Cascade Laser (QCL) System — reported recipient ([evidence](https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view))
+  - A recently published source was newly incorporated into the ledger.
+- **Published 3 days ago** · Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM) — reported recipient ([evidence](https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view))
+  - A recently published source was newly incorporated into the ledger.
+- **Evidence trace changed** · Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU) — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363537))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Newly observed · event date unknown** · NEVADA SYSTEM OF HIGHER EDUCATION — cage code ([evidence](https://sam.gov/entity/MV1JFXA4S621/coreData))
+- **Upcoming event date** · DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_99115S26_068))
+  - The source date is in the future; Scout first observed it on 2026-09-04.
+- **Upcoming event date** · DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426F0364_1205_NNG15SD76B_8000))
+  - The source date is in the future; Scout first observed it on 2026-09-04.
+- **Newly observed · event date unknown** · REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE — has related patent ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025026280/application-data))
   - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
-- **Newly observed · event date unknown** · UNIVERSITY OF NOTRE DAME DU LAC — cage code ([evidence](https://sam.gov/entity/FPU6XGFXMBE9/coreData))
+- **Newly observed · event date unknown** · REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE — has related patent ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025026280/application-data))
   - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
-- **Newly discovered historical evidence** · FY26 National Dam Safety Program State Assistance Program — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363603))
-  - Scout first observed this on 2026-09-03; the source date is 2026-08-18.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -66,7 +78,7 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-09-04** · MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026 — closing_soon ([source](https://www.grants.gov/search-results-detail/363586))
 - **2026-09-08** · EdUSA AI & Quantum Technologies Initiative in Australia — closing_soon ([source](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view))
 - **2026-09-09** · NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) — closing_soon ([source](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view))
-- **2026-09-11** · Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU) — closing_this_month ([source](https://www.grants.gov/search-results-detail/363537))
+- **2026-09-11** · Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU) — closing_soon ([source](https://www.grants.gov/search-results-detail/363537))
 - **2026-09-13** · Annual Program Statement — closing_this_month ([source](https://www.grants.gov/search-results-detail/363723))
 - **2026-09-14** · U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP) — closing_this_month ([source](https://www.grants.gov/search-results-detail/363744))
 - **2026-09-15** · CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA) — closing_this_month ([source](https://www.grants.gov/search-results-detail/360651))
@@ -79,7 +91,6 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-09-30** · NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research — closing_this_month ([source](https://www.grants.gov/search-results-detail/352741))
 - **2026-10-02** · Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed) — closing_this_month ([source](https://www.grants.gov/search-results-detail/359269))
 - **2026-10-15** · Close the QBI independent verification and validation topic — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
-- **2026-11-04** · U.S. National Science Foundation State and Regional Artificial Intelligence Infrastructure Hubs: — open_window ([source](https://www.grants.gov/search-results-detail/363481))
 - **2026-11-14** · Close the umbrella QBI 2026 announcement — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-11-24** · Submit the first annual Genesis Mission progress report — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
 - **2026-12-17** · The Genesis Mission: Transforming Science and Energy with AI — open_window ([source](https://www.grants.gov/search-results-detail/361526))

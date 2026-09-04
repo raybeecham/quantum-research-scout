@@ -2,37 +2,47 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-03T02:26:59.168647+00:00_
+_Updated 2026-09-04T02:21:51.764000+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **43**
-- Added / changed / resolved: **15 / 1 / 27**
+- Material changes: **53**
+- Added / changed / resolved: **24 / 2 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363744))
+- **IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.** — reported amount: 18667019.14 ([evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000))
+- **Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363537))
 
 ## New claims
 
-- **THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001))
-- **THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...** — awarding agency: Department of Homeland Security ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001))
-- **THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...** — reported amount: 11132892.29 ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001))
-- **THIS AWARD PROVIDES SERVICENOW LICENSES FOR THE ICE CORE ENGINE, SERVICE AND OPERATIONS MANAGEMENT, CUSTOMER SERVICE, PORTFOLIO STRATEGY, WORKFLOW DATA, INTERFACE MANAGEMENT, ARTI...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CTD026FC0000032_7012_70RTAC26A00000011_7001))
-- **FY26 National Dam Safety Program State Assistance Program** — opportunity status: closed ([evidence](https://www.grants.gov/search-results-detail/363603))
-- **FY26 National Dam Safety Program State Assistance Program** — deadline: 09/02/2026 ([evidence](https://www.grants.gov/search-results-detail/363603))
-- **FY26 National Dam Safety Program State Assistance Program** — awarding agency: DHS-DHS ([evidence](https://www.grants.gov/search-results-detail/363603))
-- **UNIVERSITY OF NOTRE DAME DU LAC** — legal business name: UNIVERSITY OF NOTRE DAME DU LAC ([evidence](https://sam.gov/entity/FPU6XGFXMBE9/coreData))
-- **UNIVERSITY OF NOTRE DAME DU LAC** — uei: FPU6XGFXMBE9 ([evidence](https://sam.gov/entity/FPU6XGFXMBE9/coreData))
-- **UNIVERSITY OF NOTRE DAME DU LAC** — cage code: 5B002 ([evidence](https://sam.gov/entity/FPU6XGFXMBE9/coreData))
-- **UNIVERSITY OF NOTRE DAME DU LAC** — registration status: Active ([evidence](https://sam.gov/entity/FPU6XGFXMBE9/coreData))
-- **NEVADA SYSTEM OF HIGHER EDUCATION** — legal business name: NEVADA SYSTEM OF HIGHER EDUCATION ([evidence](https://sam.gov/entity/MV1JFXA4S621/coreData))
-- **NEVADA SYSTEM OF HIGHER EDUCATION** — uei: MV1JFXA4S621 ([evidence](https://sam.gov/entity/MV1JFXA4S621/coreData))
-- **NEVADA SYSTEM OF HIGHER EDUCATION** — cage code: 0K5F8 ([evidence](https://sam.gov/entity/MV1JFXA4S621/coreData))
-- **NEVADA SYSTEM OF HIGHER EDUCATION** — registration status: Active ([evidence](https://sam.gov/entity/MV1JFXA4S621/coreData))
+- **REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE** — has related patent: — ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025026280/application-data))
+- **DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_99115S26_068))
+- **DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...** — awarding agency: Environmental Protection Agency ([evidence](https://www.usaspending.gov/award/ASST_NON_99115S26_068))
+- **DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...** — reported amount: 24888000.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_99115S26_068))
+- **DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_99115S26_068))
+- **REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE** — has related patent: — ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025026280/application-data))
+- **COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426C0033_1205_-NONE-_-NONE-))
+- **COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...** — awarding agency: Department of Agriculture ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426C0033_1205_-NONE-_-NONE-))
+- **COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...** — reported amount: 3723999.4 ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426C0033_1205_-NONE-_-NONE-))
+- **COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426C0033_1205_-NONE-_-NONE-))
+- **DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426F0364_1205_NNG15SD76B_8000))
+- **DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.** — awarding agency: Department of Agriculture ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426F0364_1205_NNG15SD76B_8000))
+- **DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.** — reported amount: 130454.86 ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426F0364_1205_NNG15SD76B_8000))
+- **DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426F0364_1205_NNG15SD76B_8000))
+- **Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view))
+- **OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB030160_1341_-NONE-_-NONE-))
+- **OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB030160_1341_-NONE-_-NONE-))
+- **OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...** — reported amount: 101380.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB030160_1341_-NONE-_-NONE-))
+- **OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB030160_1341_-NONE-_-NONE-))
+- **66--Quantum Cascade Laser (QCL) System** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view))
+- **QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_89243326PFE000986_8900_-NONE-_-NONE-))
+- **QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...** — awarding agency: Department of Energy ([evidence](https://www.usaspending.gov/award/CONT_AWD_89243326PFE000986_8900_-NONE-_-NONE-))
+- **QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...** — reported amount: 23786.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_89243326PFE000986_8900_-NONE-_-NONE-))
+- **QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_89243326PFE000986_8900_-NONE-_-NONE-))
 
 ## Superseded claims
 

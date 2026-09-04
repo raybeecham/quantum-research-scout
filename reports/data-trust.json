@@ -1,9 +1,9 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 24.8,
+      "acceptance_rate": 24.6,
       "accepted": 31,
-      "quarantined": 94,
+      "quarantined": 95,
       "scope": "Federal missions"
     },
     {
@@ -74,6 +74,29 @@
       "stage": "relationship admission",
       "title": "CONFERENCE: ALABAMA QUANTUM WORKSHOP: QUANTUM SENSING, INFORMATION SCIENCE, AND EPSCOR COLLABORATION -QUANTUM INFORMATION SCIENCE PROVIDES NEW WAYS TO MEASURE, IMAGE, COMMUNICATE,...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2631519_049"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Genesis",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-09-03",
+      "key": "https://quantumzeitgeist.com/psiquantum-brookhaven-lab-tools-quantum",
+      "mission_id": "quantum-genesis",
+      "mission_name": "Quantum Genesis",
+      "scope": "Federal missions",
+      "source": "Quantum Zeitgeist",
+      "stage": "mission evidence admission",
+      "title": "PsiQuantum and Brookhaven Lab build tools for future quantum computers",
+      "url": "https://quantumzeitgeist.com/psiquantum-brookhaven-lab-tools-quantum"
     },
     {
       "admission": {
@@ -2255,40 +2278,17 @@
       "stage": "funding evidence admission",
       "title": "Pilot Studies of Biological, Behavioral and Social Mechanisms Contributing to HIV Pathogenesis Within the Mission of NIDDK (R21 Clinical Trial Not Allowed)",
       "url": "https://www.grants.gov/search-results-detail/358082"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Project Triad",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2024-10-02",
-      "key": "https://www.grants.gov/search-results-detail/356623",
-      "mission_id": "project-triad",
-      "mission_name": "Project Triad",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "mission evidence admission",
-      "title": "SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY",
-      "url": "https://www.grants.gov/search-results-detail/356623"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 124,
+      "count": 125,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 124,
+      "count": 125,
       "label": "No relevant term in the evidence itself"
     },
     {
@@ -2298,7 +2298,7 @@
     },
     {
       "code": "non_government_source",
-      "count": 14,
+      "count": 15,
       "label": "Source is not an official .gov or .mil domain"
     },
     {
@@ -2309,14 +2309,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 80.7,
+    "acceptance_rate": 80.6,
     "accepted": 531,
-    "decisions": 658,
+    "decisions": 659,
     "funding_quarantine": 30,
-    "mission_quarantine": 94,
-    "quarantined": 127,
+    "mission_quarantine": 95,
+    "quarantined": 128,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-09-03T02:26:59.168647+00:00",
+  "updated_at": "2026-09-04T02:21:51.764000+00:00",
   "version": 1
 }

@@ -432,9 +432,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 7,
+      "evidence_count": 8,
       "historical_evidence_count": 4,
-      "latest_evidence_at": "2026-09-02",
+      "latest_evidence_at": "2026-09-03",
       "name": "QuSecure",
       "priority": "high",
       "source_count": 4,
@@ -471,6 +471,22 @@
           "source": "Accenture Quantum and PQC News",
           "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
           "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+        },
+        {
+          "date": "2026-09-03",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "pqc",
+            "quantum-resistant"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "QuSecure\u2019s quantum-resistant PQC solution passes critical Army test",
+          "url": "https://quantumzeitgeist.com/qusecures-quantum-resistant-pqc-solution-passes"
         },
         {
           "date": "2026-09-02",
@@ -803,6 +819,36 @@
     {
       "confidence": "low",
       "evidence_count": 1,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-09-03",
+      "name": "CISA",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": "2026-09-03",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "preparing for"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "CISA Cybersecurity Advisories",
+          "title": "Preparing for the Post-Quantum Era: A Call to Action",
+          "url": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action"
+        }
+      ],
+      "type": "government"
+    },
+    {
+      "confidence": "low",
+      "evidence_count": 1,
       "historical_evidence_count": 1,
       "latest_evidence_at": null,
       "name": "Deloitte",
@@ -1044,6 +1090,51 @@
       "confidence": "medium",
       "evidence_count": 2,
       "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-09-03",
+      "name": "ANSSI",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-09-03",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum-resistant"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "ANSSI leads G7 push for quantum-resistant encryption",
+          "url": "https://quantumzeitgeist.com/quantum-resistant-encryption-anssi-leads-push"
+        },
+        {
+          "date": "2026-06-23",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "SEALSQ\u2019s QS7001 Validated for ANSSI\u2019s Post-Quantum Mandate",
+          "url": "https://quantumzeitgeist.com/anssi-post-quantum-mandate-sealsqs-qs7001"
+        }
+      ],
+      "type": "government"
+    },
+    {
+      "confidence": "medium",
+      "evidence_count": 2,
+      "historical_evidence_count": 0,
       "latest_evidence_at": "2026-07-15",
       "name": "ISO/IEC",
       "priority": "high",
@@ -1084,36 +1175,6 @@
         }
       ],
       "type": "standards"
-    },
-    {
-      "confidence": "low",
-      "evidence_count": 1,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-06-23",
-      "name": "ANSSI",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-06-23",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Quantum Zeitgeist",
-          "title": "SEALSQ\u2019s QS7001 Validated for ANSSI\u2019s Post-Quantum Mandate",
-          "url": "https://quantumzeitgeist.com/anssi-post-quantum-mandate-sealsqs-qs7001"
-        }
-      ],
-      "type": "government"
     },
     {
       "confidence": "low",
@@ -1478,20 +1539,6 @@
       "evidence_count": 0,
       "historical_evidence_count": 0,
       "latest_evidence_at": null,
-      "name": "CISA",
-      "priority": "high",
-      "source_count": 0,
-      "stage": "not_assessed",
-      "stage_label": "Not assessed",
-      "stage_rank": 0,
-      "supporting_evidence": [],
-      "type": "government"
-    },
-    {
-      "confidence": "none",
-      "evidence_count": 0,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": null,
       "name": "D-Wave",
       "priority": "high",
       "source_count": 0,
@@ -1713,17 +1760,17 @@
     }
   ],
   "summary": {
-    "assessed": 24,
+    "assessed": 25,
     "by_stage": {
       "awareness": 15,
       "inventory": 1,
-      "not_assessed": 19,
+      "not_assessed": 18,
       "pilot": 2,
-      "planning": 6
+      "planning": 7
     },
-    "not_assessed": 19,
+    "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-09-03T02:35:34.189382+00:00",
+  "updated_at": "2026-09-04T02:31:57.292224+00:00",
   "version": 1
 }

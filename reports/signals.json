@@ -164,22 +164,31 @@
           "source": "QuantumNews.ai",
           "title": "LLMs and self-referentiality",
           "url": "https://scottaaronson.blog/?p=10046"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://www.quantamagazine.org/in-an-age-of-ai-a-physicist-seeks-what-endures-20260903",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 24,
+          "source": "QuantumNews.ai",
+          "title": "In an Age of AI, a Physicist Seeks What Endures",
+          "url": "https://www.quantamagazine.org/in-an-age-of-ai-a-physicist-seeks-what-endures-20260903"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-09-01",
-      "momentum": "declining",
+      "latest_seen": "2026-09-03",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
-        "arXiv RSS cs.CR",
         "QuantumNews.ai",
+        "arXiv RSS cs.CR",
         "The Quantum Insider",
         "Cloudflare Blog"
       ],
-      "prior_count": 3,
-      "recent_count": 1,
+      "prior_count": 2,
+      "recent_count": 2,
       "status": "watching"
     },
     "PQC / Crypto Agility": {
@@ -1696,13 +1705,76 @@
           "source": "The Quantum Insider",
           "title": "Former U.S. Army Cyber Command Chief of Staff Joins Qtonic Quantum",
           "url": "https://thequantuminsider.com/2026/09/02/former-army-cyber-command-chief-of-staff-joins-qtonic-quantum"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://quantumzeitgeist.com/sparkle-quantum-safe-satellite-data-cyprus",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "title": "Cyprus and Greece link up with quantum-safe satellite data",
+          "url": "https://quantumzeitgeist.com/sparkle-quantum-safe-satellite-data-cyprus"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://quantumzeitgeist.com/wolftpm-sealsq-wolfssl-quantum-safe-security",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "title": "SEALSQ and wolfSSL bring quantum-safe security to devices",
+          "url": "https://quantumzeitgeist.com/wolftpm-sealsq-wolfssl-quantum-safe-security"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://quantumzeitgeist.com/quantum-resistant-encryption-anssi-leads-push",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 67,
+          "source": "Quantum Zeitgeist",
+          "title": "ANSSI leads G7 push for quantum-resistant encryption",
+          "url": "https://quantumzeitgeist.com/quantum-resistant-encryption-anssi-leads-push"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://quantumzeitgeist.com/qusecures-quantum-resistant-pqc-solution-passes",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 79,
+          "source": "Quantum Zeitgeist",
+          "title": "QuSecure\u2019s quantum-resistant PQC solution passes critical Army test",
+          "url": "https://quantumzeitgeist.com/qusecures-quantum-resistant-pqc-solution-passes"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://thequantuminsider.com/2026/09/03/gd-quantum-safe-next-generation-identity-cards",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 83,
+          "source": "The Quantum Insider",
+          "title": "G+D Develops Quantum-Safe Technologies for Next-Generation Identity Cards",
+          "url": "https://thequantuminsider.com/2026/09/03/gd-quantum-safe-next-generation-identity-cards"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 100,
+          "source": "CISA Cybersecurity Advisories",
+          "title": "Preparing for the Post-Quantum Era: A Call to Action",
+          "url": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://thequantuminsider.com/2026/09/03/sealsq-announces-wolftpm-support-post-quantum-tpm-technology",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 158,
+          "source": "The Quantum Insider",
+          "title": "SEALSQ and wolfSSL Add wolfTPM Support for QVault Post-Quantum TPM",
+          "url": "https://thequantuminsider.com/2026/09/03/sealsq-announces-wolftpm-support-post-quantum-tpm-technology"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-09-02",
-      "momentum": "stable",
+      "latest_seen": "2026-09-03",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -1710,9 +1782,9 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 14,
-      "recent_count": 17,
-      "status": "watching"
+      "prior_count": 12,
+      "recent_count": 24,
+      "status": "actionable"
     },
     "QEC / Fault Tolerance": {
       "confidence": "high",
@@ -4408,22 +4480,49 @@
           "source": "QuantumNews.ai",
           "title": "PsiQuantum and Brookhaven National Lab Partner to Develop Fault-Tolerant Algorithms on Construct Platform",
           "url": "https://quantumcomputingreport.com/psiquantum-and-brookhaven-national-lab-partner-to-develop-fault-tolerant-algorithms-on-construct-platform"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://thequantuminsider.com/2026/09/03/quobly-orange-quantum-systems-silicon-spin-qubit-testing",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 26,
+          "source": "The Quantum Insider",
+          "title": "Quobly and Orange Quantum Systems Partner on Silicon Spin Qubit Testing",
+          "url": "https://thequantuminsider.com/2026/09/03/quobly-orange-quantum-systems-silicon-spin-qubit-testing"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://thequantuminsider.com/2026/09/03/ibms-nighthawk-r2-quantum-processor-targets-a-25-fold-increase-in-circuit-speed",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 30,
+          "source": "The Quantum Insider",
+          "title": "IBM\u2019s Nighthawk r2 Quantum Processor Targets a 25-Fold Increase in Circuit Speed",
+          "url": "https://thequantuminsider.com/2026/09/03/ibms-nighthawk-r2-quantum-processor-targets-a-25-fold-increase-in-circuit-speed"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://quantumcomputingreport.com/sealsq-integrates-wolftpm-support-into-post-quantum-silicon-semiconductor-platform-qvault-tpm",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 58,
+          "source": "QuantumNews.ai",
+          "title": "SEALSQ Integrates wolfTPM Support into Post-Quantum Silicon Semiconductor Platform (QVault TPM)",
+          "url": "https://quantumcomputingreport.com/sealsq-integrates-wolftpm-support-into-post-quantum-silicon-semiconductor-platform-qvault-tpm"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-09-02",
-      "momentum": "stable",
+      "latest_seen": "2026-09-03",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
         "QuantumNews.ai",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 16,
-      "recent_count": 20,
-      "status": "watching"
+      "prior_count": 13,
+      "recent_count": 23,
+      "status": "actionable"
     },
     "Quantum Networking": {
       "confidence": "high",
@@ -5300,13 +5399,22 @@
           "source": "Quantum Zeitgeist",
           "title": "Sydney Quantum Academy scholarship connects student to Sydney quantum network",
           "url": "https://quantumzeitgeist.com/sydney-quantum-academy-scholarship-connects"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://quantumzeitgeist.com/quantum-key-distribution-qusecures-trl",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 53,
+          "source": "Quantum Zeitgeist",
+          "title": "QuSecure\u2019s quantum key distribution reaches TRL 7 with Army testing",
+          "url": "https://quantumzeitgeist.com/quantum-key-distribution-qusecures-trl"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-09-01",
-      "momentum": "declining",
+      "latest_seen": "2026-09-03",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -5314,8 +5422,8 @@
         "arXiv RSS quant-ph",
         "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 8,
-      "recent_count": 4,
+      "prior_count": 5,
+      "recent_count": 5,
       "status": "watching"
     },
     "Quantum Sensing": {
@@ -5689,21 +5797,30 @@
           "source": "The Quantum Insider",
           "title": "Higher-Energy X-Rays Could Enable a New Form of Quantum Sensing",
           "url": "https://thequantuminsider.com/2026/08/28/higher-energy-x-rays-could-enable-a-new-form-of-quantum-sensing"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://quantumnews.ai/networking/economic-and-technical-impacts-of-quantum-sensing-in-maritime-navigation",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 26,
+          "source": "QuantumNews.ai",
+          "title": "Economic and Technical Impacts of Quantum Sensing in Maritime Navigation",
+          "url": "https://quantumnews.ai/networking/economic-and-technical-impacts-of-quantum-sensing-in-maritime-navigation"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.",
       "importance": "critical",
-      "latest_seen": "2026-08-28",
-      "momentum": "rising",
+      "latest_seen": "2026-09-03",
+      "momentum": "stable",
       "organizations": [
         "QuantumNews.ai",
         "The Quantum Insider",
         "Quantum Zeitgeist"
       ],
       "prior_count": 2,
-      "recent_count": 3,
-      "status": "actionable"
+      "recent_count": 2,
+      "status": "watching"
     },
     "Quantum Software / Tooling": {
       "confidence": "high",
@@ -6382,13 +6499,31 @@
           "source": "Quantum Zeitgeist",
           "title": "Researchers Unlock Universal Control of Qubit-Rotor Systems",
           "url": "https://quantumzeitgeist.com/qubit-rotor-systems-universal-coherent-control-coupling"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://quantumcomputingreport.com/classiq-expands-in-taiwan-via-go-to-market-partnerships-with-scientek-and-kensho",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 18,
+          "source": "QuantumNews.ai",
+          "title": "Classiq Expands in Taiwan via Go-to-Market Partnerships with Scientek and Kensho",
+          "url": "https://quantumcomputingreport.com/classiq-expands-in-taiwan-via-go-to-market-partnerships-with-scientek-and-kensho"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://thequantuminsider.com/2026/09/03/kensho-classiq-quantum-software-taiwan",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "Kensho and Classiq Partner to Expand Quantum Software Access in Taiwan",
+          "url": "https://thequantuminsider.com/2026/09/03/kensho-classiq-quantum-software-taiwan"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-09-02",
-      "momentum": "stable",
+      "latest_seen": "2026-09-03",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
@@ -6396,9 +6531,9 @@
         "AWS Quantum Technologies Blog",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 5,
-      "recent_count": 5,
-      "status": "watching"
+      "prior_count": 3,
+      "recent_count": 7,
+      "status": "actionable"
     },
     "Standards / Government": {
       "confidence": "high",
@@ -6799,6 +6934,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-09-03T02:35:33.637054+00:00",
+  "updated_at": "2026-09-04T02:31:56.725915+00:00",
   "version": 1
 }

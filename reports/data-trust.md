@@ -1,26 +1,26 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-09-03T02:26:59.168647+00:00_
+_Updated 2026-09-04T02:21:51.764000+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **531**
-- Quarantined evidence or relationships: **127**
-- Acceptance rate: **80.7%**
+- Quarantined evidence or relationships: **128**
+- Acceptance rate: **80.6%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 31 | 94 | 24.8% |
+| Federal missions | 31 | 95 | 24.6% |
 | Federal funding | 500 | 33 | 93.8% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 124
-- **No relevant term in the evidence itself**: 124
+- **Match appears only in collector query metadata**: 125
+- **No relevant term in the evidence itself**: 125
 - **Official government source**: 110
-- **Source is not an official .gov or .mil domain**: 14
+- **Source is not an official .gov or .mil domain**: 15
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -45,6 +45,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [PsiQuantum and Brookhaven Lab build tools for future quantum computers](https://quantumzeitgeist.com/psiquantum-brookhaven-lab-tools-quantum)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [Policy 17h ago New Mexico funds target utility-scale quantum by 2033](https://quantumzeitgeist.com/darpa-mexico-funds-target-utility-scale)
 
@@ -715,13 +722,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal funding
 - Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY](https://www.grants.gov/search-results-detail/356623)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 

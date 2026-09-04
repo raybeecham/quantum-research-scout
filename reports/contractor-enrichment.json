@@ -10,9 +10,9 @@
         "State Controlled Institution of Higher Learning",
         "U.S. State Government"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "0UB92",
-      "checked_at": "2026-08-04T21:31:34.443424+00:00",
+      "checked_at": "2026-09-04T02:21:51.764000+00:00",
       "contractor_name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
       "contractor_score": 51,
       "dba_name": "OFFICE OF RESEARCH ADMINISTRATION & ADVANCEMENT",
@@ -168,9 +168,9 @@
         "Native American Owned",
         "Self Certified Small Disadvantaged Business"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "5NTT4",
-      "checked_at": "2026-08-04T21:31:34.443424+00:00",
+      "checked_at": "2026-09-04T02:21:51.764000+00:00",
       "contractor_name": "INUTEQ, LLC",
       "contractor_score": 44,
       "dba_name": null,
@@ -303,9 +303,9 @@
         "Service-Disabled Veteran-Owned Business",
         "Veteran-Owned Business"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "9T5C5",
-      "checked_at": "2026-08-04T21:31:34.443424+00:00",
+      "checked_at": "2026-09-04T02:21:51.764000+00:00",
       "contractor_name": "POST QUANTUM LABS LLC",
       "contractor_score": 42,
       "dba_name": null,
@@ -4884,7 +4884,7 @@
         "Non-Profit Organization",
         "Private University or College"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "5B002",
       "checked_at": "2026-09-03T02:26:59.168647+00:00",
       "contractor_name": "UNIVERSITY OF NOTRE DAME DU LAC",
@@ -5136,7 +5136,7 @@
         "Business or Organization",
         "Non-Profit Organization"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "0K5F8",
       "checked_at": "2026-09-03T02:26:59.168647+00:00",
       "contractor_name": "NEVADA SYSTEM OF HIGHER EDUCATION",
@@ -6527,7 +6527,7 @@
         "Service-Disabled Veteran-Owned Business",
         "Veteran-Owned Business"
       ],
-      "cache_status": "fresh",
+      "cache_status": "retained",
       "cage_code": "4Q5A2",
       "checked_at": "2026-08-17T00:51:32.831772+00:00",
       "contractor_name": "NATIONWIDE IT SERVICES INC",
@@ -9753,7 +9753,7 @@
       "aliases": [
         "CARAHSOFT TECHNOLOGY CORP"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "candidates": [
         {
           "cage_code": "1P3C5",
@@ -9992,6 +9992,19 @@
       "resolution_basis": "Multiple or non-exact SAM.gov candidates require review",
       "resolution_confidence": "low",
       "resolution_status": "ambiguous"
+    },
+    {
+      "aliases": [
+        "REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE"
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE",
+      "contractor_score": 26,
+      "identity_id": "uei:MR5QC5FCAVH5",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
     },
     {
       "aliases": [
@@ -11286,15 +11299,15 @@
   "summary": {
     "ambiguous": 4,
     "api_key_configured": true,
-    "name_only": 121,
-    "newly_resolved": 2,
+    "name_only": 122,
+    "newly_resolved": 0,
     "no_match": 1,
-    "pending": 116,
+    "pending": 117,
     "queries_remaining": 0,
     "resolved": 88,
     "tracked_contractors": 75,
     "uei_coverage_percent": 117.3
   },
-  "updated_at": "2026-09-03T02:26:59.168647+00:00",
+  "updated_at": "2026-09-04T02:21:51.764000+00:00",
   "version": 1
 }

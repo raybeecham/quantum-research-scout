@@ -4,24 +4,24 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-03 02:35 UTC_
+_Updated 2026-09-04 02:31 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 4 | 8 | 12 | 30 |
+| 50 | 11 | 8 | 17 | 25 |
 
 ## 🔴 Critical theme: AI Security
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 AI Security has critical strategic importance and declining momentum.
+- 🔴 AI Security has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 PQC / Crypto Agility has critical strategic importance and stable momentum.
+- 🔴 PQC / Crypto Agility has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: QEC / Fault Tolerance
@@ -35,28 +35,28 @@ _Updated 2026-09-03 02:35 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Hardware has critical strategic importance and stable momentum.
+- 🔴 Quantum Hardware has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Networking
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Networking has critical strategic importance and declining momentum.
+- 🔴 Quantum Networking has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Sensing
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Sensing has critical strategic importance and rising momentum.
+- 🔴 Quantum Sensing has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Software / Tooling
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Software / Tooling has critical strategic importance and stable momentum.
+- 🔴 Quantum Software / Tooling has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Standards / Government
@@ -66,30 +66,52 @@ _Updated 2026-09-03 02:35 UTC_
 - 🔴 Standards / Government has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Sensing
+## 🟠 Actionable signal: PQC / Crypto Agility 🆕
 
 - Severity: **high**
 - Status: **actionable**
-- 🎯 Quantum Sensing is actionable with high confidence.
+- 🎯 PQC / Crypto Agility is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP) 🆕
+## 🟠 Actionable signal: Quantum Hardware 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 Quantum Hardware is actionable with high confidence.
+- [Open supporting view](signals.md)
+
+## 🟠 Actionable signal: Quantum Software / Tooling 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 Quantum Software / Tooling is actionable with high confidence.
+- [Open supporting view](signals.md)
+
+## 🟠 Changed: Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU) 🆕
 
 - Severity: **high**
 - Status: **changed**
 - qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363744)
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363537)
+- [Open supporting view](intelligence-changes.md)
+
+## 🟠 Changed: IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT. 🆕
+
+- Severity: **high**
+- Status: **changed**
+- reported amount · authority authoritative · 18667019.14
+- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000)
 - [Open supporting view](intelligence-changes.md)
 
 ## 🟠 Federal opportunity closing soon: MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026
 
 - Severity: **high**
 - Status: **closing-soon**
-- 1 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- 0 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363586)
 - [Open supporting view](federal-funding.md)
 
-## 🟠 Product Launch: QuSecure 🆕
+## 🟠 Product Launch: QuSecure
 
 - Severity: **high**
 - Status: **product-launch**
@@ -97,18 +119,32 @@ _Updated 2026-09-03 02:35 UTC_
 - [Open direct evidence](https://www.qusecure.com/category/press-releases)
 - [Open supporting view](entity-watch.md)
 
-## 🟠 Rising momentum: Quantum Sensing
+## 🟠 Rising momentum: PQC / Crypto Agility 🆕
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 3 versus 2 in the prior period.
+- ↗️ Recent evidence is 24 versus 12 in the prior period.
+- [Open supporting view](signals.md)
+
+## 🟠 Rising momentum: Quantum Hardware 🆕
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 23 versus 13 in the prior period.
+- [Open supporting view](signals.md)
+
+## 🟠 Rising momentum: Quantum Software / Tooling 🆕
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 7 versus 3 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Source degraded: ETSI Quantum Standards News
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 95.9% reliability with 2 warning day(s).
+- 🟠 96.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: IACR ePrint
@@ -122,42 +158,50 @@ _Updated 2026-09-03 02:35 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.9% reliability with 2 warning day(s).
+- 🟠 95.0% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Networking and Sensing Patents
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.9% reliability with 1 warning day(s).
+- 🟠 95.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv PQC and Quantum-Safe Cryptography
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 81.8% reliability with 5 warning day(s).
+- 🟠 82.4% reliability with 5 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv Quantum Computing
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 81.8% reliability with 5 warning day(s).
+- 🟠 82.4% reliability with 5 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv Quantum Networking and Sensing
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 81.8% reliability with 5 warning day(s).
+- 🟠 82.4% reliability with 5 warning day(s).
 - [Open supporting view](source-health.md)
+
+## 🟡 Federal opportunity closing soon: Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU) 🆕
+
+- Severity: **medium**
+- Status: **closing-soon**
+- 7 day(s) remain · radar score 34 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363537)
+- [Open supporting view](federal-funding.md)
 
 ## 🟡 Federal opportunity closing soon: EdUSA AI & Quantum Technologies Initiative in Australia
 
 - Severity: **medium**
 - Status: **closing-soon**
-- 5 day(s) remain · radar score 38 · Review requirements and make a bid/no-bid decision immediately.
+- 4 day(s) remain · radar score 38 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view)
 - [Open supporting view](federal-funding.md)
 
@@ -165,7 +209,7 @@ _Updated 2026-09-03 02:35 UTC_
 
 - Severity: **medium**
 - Status: **closing-soon**
-- 6 day(s) remain · radar score 38 · Review requirements and make a bid/no-bid decision immediately.
+- 5 day(s) remain · radar score 38 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
 - [Open supporting view](federal-funding.md)
 
@@ -288,6 +332,13 @@ _Updated 2026-09-03 02:35 UTC_
 - The latest dated item is from 2026-07-23; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: Grants.gov · Military AI Pace-Setting Projects 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-08-20; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: Grants.gov · Post-Quantum Cybersecurity
 
 - Severity: **medium**
@@ -302,65 +353,16 @@ _Updated 2026-09-03 02:35 UTC_
 - The latest dated item is from 2026-08-03; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: Grants.gov · Quantum Benchmarking Initiative 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-08-20; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: Grants.gov · Quantum Genesis
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-30; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Grants.gov · Quantum Technologies
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-08-17; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: InfoQ Quantum Computing
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-06-08; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Intel Quantum Research News
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2023-06-15; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: IonQ News
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-08-05; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Lockheed Martin Quantum Technology
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-07-14; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: NCSC UK Guidance
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-03-19; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: NCSC UK Reports 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2025-05-07; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: NIST Post-Quantum Cryptography Project 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2025-03-07; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
