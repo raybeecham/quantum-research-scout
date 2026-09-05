@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-09-04",
+  "as_of_date": "2026-09-05",
   "claims": [
     {
       "authority": "authoritative",
@@ -487,9 +487,9 @@
         }
       ],
       "last_seen_at": "2026-08-21T00:53:56.854986+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -1838,6 +1838,1116 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-50f1de07be5577ea",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-08",
+      "evidence_ids": [
+        "evidence-0f4966d754a333a1"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0f4966d754a333a1",
+          "locator": "opportunity_status:awarded",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1305M326F0167",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+        "node_id": "award:usaspending:1305M326F0167",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4cbc6d9e095040dd"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-9cc7165adbbb231f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-08",
+      "evidence_ids": [
+        "evidence-696757da42a30d14"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-696757da42a30d14",
+          "locator": "awarding_agency:department of commerce",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1305M326F0167",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+        "node_id": "award:usaspending:1305M326F0167",
+        "node_type": "award"
+      },
+      "value": "Department of Commerce",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "0487a6f7ad1b18c8"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-53e6b3869ecb1ce8",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-08",
+      "evidence_ids": [
+        "evidence-bc500396c55e8fce"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bc500396c55e8fce",
+          "locator": "reported_amount:7984545.4",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1305M326F0167",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+        "node_id": "award:usaspending:1305M326F0167",
+        "node_type": "award"
+      },
+      "value": 7984545.4,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "feeebc79ecf75898"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-bd65911c8de78b6f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-08",
+      "evidence_ids": [
+        "evidence-ab9f60e2469badb6"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:MMLKPW9JLX64",
+        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ab9f60e2469badb6",
+          "locator": "reported_recipient:recipient_or_contractor:uei:MMLKPW9JLX64",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1305M326F0167",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+        "node_id": "award:usaspending:1305M326F0167",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "82d7fb7ec7985141"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-8f21e1527e6626e2",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-02",
+      "evidence_ids": [
+        "evidence-7c2feef524fbbf1c"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7c2feef524fbbf1c",
+          "locator": "opportunity_status:awarded",
+          "title": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:7571TE26F80245",
+        "label": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+        "node_id": "award:usaspending:7571TE26F80245",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "33a5e3b4a06bec64"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-29b09a2c39fac486",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-02",
+      "evidence_ids": [
+        "evidence-f9e9f77704779ed4"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f9e9f77704779ed4",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:7571TE26F80245",
+        "label": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+        "node_id": "award:usaspending:7571TE26F80245",
+        "node_type": "award"
+      },
+      "value": "Department of Health and Human Services",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "bc92be6a9470b72f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-c107eb8be68dc385",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-02",
+      "evidence_ids": [
+        "evidence-a6a92812e83a11ad"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a6a92812e83a11ad",
+          "locator": "reported_amount:5802109.44",
+          "title": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:7571TE26F80245",
+        "label": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+        "node_id": "award:usaspending:7571TE26F80245",
+        "node_type": "award"
+      },
+      "value": 5802109.44,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ff1f8d0e6a5a4f04"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-5050021b54f49e15",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-02",
+      "evidence_ids": [
+        "evidence-69522368381c9125"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:GFZVKNF7RVJ3",
+        "label": "ALYN, INC.",
+        "node_id": "recipient_or_contractor:uei:GFZVKNF7RVJ3",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-69522368381c9125",
+          "locator": "reported_recipient:recipient_or_contractor:uei:GFZVKNF7RVJ3",
+          "title": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:7571TE26F80245",
+        "label": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+        "node_id": "award:usaspending:7571TE26F80245",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7a51e7767fb5c7d1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-693b75c96b27525e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-29",
+      "evidence_ids": [
+        "evidence-e31bed64fa3069b9"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e31bed64fa3069b9",
+          "locator": "opportunity_status:awarded",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1305M326F0138",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+        "node_id": "award:usaspending:1305M326F0138",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1cdebbd488a90859"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-113063a153cda827",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-29",
+      "evidence_ids": [
+        "evidence-843eec3cc1703d2b"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-843eec3cc1703d2b",
+          "locator": "awarding_agency:department of commerce",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1305M326F0138",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+        "node_id": "award:usaspending:1305M326F0138",
+        "node_type": "award"
+      },
+      "value": "Department of Commerce",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "03025ee7d8b2912a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-1493481e433e0f07",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-29",
+      "evidence_ids": [
+        "evidence-5ff6cb3a3c73d02c"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5ff6cb3a3c73d02c",
+          "locator": "reported_amount:2221040.48",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1305M326F0138",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+        "node_id": "award:usaspending:1305M326F0138",
+        "node_type": "award"
+      },
+      "value": 2221040.48,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7f9a06d3fc03f060"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-02ded2899accfcc2",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-29",
+      "evidence_ids": [
+        "evidence-05ea919b56e62a53"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:MMLKPW9JLX64",
+        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-05ea919b56e62a53",
+          "locator": "reported_recipient:recipient_or_contractor:uei:MMLKPW9JLX64",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1305M326F0138",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+        "node_id": "award:usaspending:1305M326F0138",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1eec64d924a00a69"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-845e5258a5322eac",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-e85d577790cbff0b"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e85d577790cbff0b",
+          "locator": "opportunity_status:awarded",
+          "title": "SENSOR,COMPRESSION",
+          "url": "https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPRTA1-26-R-0208",
+        "label": "SENSOR,COMPRESSION",
+        "node_id": "award_notice:sam_gov:SPRTA1-26-R-0208",
+        "node_type": "award_notice"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7e1e4e0b53d05ee9"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-75a0575372c960a7",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-0cd79da535c5cc4a"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0cd79da535c5cc4a",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla aviation oklahoma city.dla aviation at oklahoma city, ok",
+          "title": "SENSOR,COMPRESSION",
+          "url": "https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPRTA1-26-R-0208",
+        "label": "SENSOR,COMPRESSION",
+        "node_id": "award_notice:sam_gov:SPRTA1-26-R-0208",
+        "node_type": "award_notice"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "0656e5a8baf1ed09"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-6e94f182bdd483e6",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-9c92657379665ef8"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9c92657379665ef8",
+          "locator": "reported_amount:1869922.26",
+          "title": "SENSOR,COMPRESSION",
+          "url": "https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPRTA1-26-R-0208",
+        "label": "SENSOR,COMPRESSION",
+        "node_id": "award_notice:sam_gov:SPRTA1-26-R-0208",
+        "node_type": "award_notice"
+      },
+      "value": 1869922.26,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3947488c866c916a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-e5851dee84fa8445",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-bfc3bb4bcda41d26"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "name:woodward",
+        "label": "WOODWARD, INC.",
+        "node_id": "recipient_or_contractor:name:woodward",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bfc3bb4bcda41d26",
+          "locator": "reported_recipient:recipient_or_contractor:name:woodward",
+          "title": "SENSOR,COMPRESSION",
+          "url": "https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPRTA1-26-R-0208",
+        "label": "SENSOR,COMPRESSION",
+        "node_id": "award_notice:sam_gov:SPRTA1-26-R-0208",
+        "node_type": "award_notice"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "16c5ae9c6f509ca0"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-f6fab1add54a2437",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-9ac678ff42a0a659"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9ac678ff42a0a659",
+          "locator": "opportunity_status:awarded",
+          "title": "99--FITTING HOLDBACK AI",
+          "url": "https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:N0038326QSA17",
+        "label": "99--FITTING HOLDBACK AI",
+        "node_id": "award_notice:sam_gov:N0038326QSA17",
+        "node_type": "award_notice"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "861b9be5021a2ac6"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-42ccd6fcdd317c02",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-e3d4b818744cac25"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e3d4b818744cac25",
+          "locator": "awarding_agency:dept of defense.dept of the navy.navsup.navsup weapon systems support.navsup wss philadelphia.navsup weapon systems support",
+          "title": "99--FITTING HOLDBACK AI",
+          "url": "https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:N0038326QSA17",
+        "label": "99--FITTING HOLDBACK AI",
+        "node_id": "award_notice:sam_gov:N0038326QSA17",
+        "node_type": "award_notice"
+      },
+      "value": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1828336edb1cfea7"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-c19efb2c3e4a0eac",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-7ff92e872fad1922"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7ff92e872fad1922",
+          "locator": "reported_amount:1707670.0",
+          "title": "99--FITTING HOLDBACK AI",
+          "url": "https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:N0038326QSA17",
+        "label": "99--FITTING HOLDBACK AI",
+        "node_id": "award_notice:sam_gov:N0038326QSA17",
+        "node_type": "award_notice"
+      },
+      "value": 1707670.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9f97ef5c5e7d5059"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-7db00f1bc9ef18af",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-924a745b4b6aa622"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "name:triumph actuation systems yakima",
+        "label": "TRIUMPH ACTUATION SYSTEMS - YAKIMA, LLC",
+        "node_id": "recipient_or_contractor:name:triumph actuation systems yakima",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-924a745b4b6aa622",
+          "locator": "reported_recipient:recipient_or_contractor:name:triumph actuation systems yakima",
+          "title": "99--FITTING HOLDBACK AI",
+          "url": "https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:N0038326QSA17",
+        "label": "99--FITTING HOLDBACK AI",
+        "node_id": "award_notice:sam_gov:N0038326QSA17",
+        "node_type": "award_notice"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "743901a4dc0c92f0"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-bbe60073b3b01749",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-b7d44e32df7a8639"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b7d44e32df7a8639",
+          "locator": "opportunity_status:awarded",
+          "title": "Autonomous Livestock Feed Monitoring Bins",
+          "url": "https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1232SA26P0672",
+        "label": "Autonomous Livestock Feed Monitoring Bins",
+        "node_id": "award_notice:sam_gov:1232SA26P0672",
+        "node_type": "award_notice"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "fd5afa23cdc71b4c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-c50ac6c914814a6c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-b7cd0b7eec88c320"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b7cd0b7eec88c320",
+          "locator": "awarding_agency:agriculture, department of.agricultural research service.usda ars afm apd",
+          "title": "Autonomous Livestock Feed Monitoring Bins",
+          "url": "https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1232SA26P0672",
+        "label": "Autonomous Livestock Feed Monitoring Bins",
+        "node_id": "award_notice:sam_gov:1232SA26P0672",
+        "node_type": "award_notice"
+      },
+      "value": "AGRICULTURE, DEPARTMENT OF.AGRICULTURAL RESEARCH SERVICE.USDA ARS AFM APD",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "071870c1785c1e78"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-a7017a081751c4ad",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-d0f6ec3d7529c830"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d0f6ec3d7529c830",
+          "locator": "reported_amount:106060.0",
+          "title": "Autonomous Livestock Feed Monitoring Bins",
+          "url": "https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1232SA26P0672",
+        "label": "Autonomous Livestock Feed Monitoring Bins",
+        "node_id": "award_notice:sam_gov:1232SA26P0672",
+        "node_type": "award_notice"
+      },
+      "value": 106060.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ec2da113d6bade1a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-6a617e86717eed49",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-ec505c7a205e1003"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "name:c lock",
+        "label": "C-LOCK, INC.",
+        "node_id": "recipient_or_contractor:name:c lock",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ec505c7a205e1003",
+          "locator": "reported_recipient:recipient_or_contractor:name:c lock",
+          "title": "Autonomous Livestock Feed Monitoring Bins",
+          "url": "https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1232SA26P0672",
+        "label": "Autonomous Livestock Feed Monitoring Bins",
+        "node_id": "award_notice:sam_gov:1232SA26P0672",
+        "node_type": "award_notice"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4320c073dc45a893"
     },
     {
       "authority": "authoritative",
@@ -34636,67 +35746,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-4103e40456b9811b",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-17",
-      "evidence_ids": [
-        "evidence-3b107b68a6765f38"
-      ],
-      "first_seen_at": "2026-08-21T00:53:56.854986+00:00",
-      "history": [
-        {
-          "authority": "authoritative",
-          "basis": "Reported close date in the federal record",
-          "confidence": "high",
-          "evidence_ids": [
-            "evidence-c3d2422966e43e41"
-          ],
-          "first_seen_at": "2026-08-21T00:53:56.854986+00:00",
-          "last_seen_at": "2026-08-21T00:53:56.854986+00:00",
-          "object": null,
-          "status": "active",
-          "value": "08/18/2076",
-          "version": 1,
-          "version_hash": "f1bc6eefefc08dc6"
-        }
-      ],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3b107b68a6765f38",
-          "locator": "deadline:08/26/2076",
-          "title": "Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)",
-          "url": "https://www.grants.gov/search-results-detail/363614",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:26-515",
-        "label": "Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)",
-        "node_id": "opportunity:grants_gov:26-515",
-        "node_type": "opportunity"
-      },
-      "value": "08/26/2076",
-      "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "e133515fb98fc528"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-577a2553ace8f7cf",
       "confidence": "high",
@@ -35054,6 +36103,67 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "a79f67a64487d41f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-4103e40456b9811b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-17",
+      "evidence_ids": [
+        "evidence-3b107b68a6765f38"
+      ],
+      "first_seen_at": "2026-08-21T00:53:56.854986+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported close date in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-c3d2422966e43e41"
+          ],
+          "first_seen_at": "2026-08-21T00:53:56.854986+00:00",
+          "last_seen_at": "2026-08-21T00:53:56.854986+00:00",
+          "object": null,
+          "status": "active",
+          "value": "08/18/2076",
+          "version": 1,
+          "version_hash": "f1bc6eefefc08dc6"
+        }
+      ],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3b107b68a6765f38",
+          "locator": "deadline:08/26/2076",
+          "title": "Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)",
+          "url": "https://www.grants.gov/search-results-detail/363614",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:26-515",
+        "label": "Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)",
+        "node_id": "opportunity:grants_gov:26-515",
+        "node_type": "opportunity"
+      },
+      "value": "08/26/2076",
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "e133515fb98fc528"
     },
     {
       "authority": "authoritative",
@@ -46523,96 +47633,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-caecc1bade4becc9",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-17",
-      "evidence_ids": [
-        "evidence-5be1d2625ab337c6"
-      ],
-      "first_seen_at": "2026-08-21T00:53:56.854986+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-21T00:53:56.854986+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5be1d2625ab337c6",
-          "locator": "opportunity_status:open",
-          "title": "Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)",
-          "url": "https://www.grants.gov/search-results-detail/363614",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:26-515",
-        "label": "Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)",
-        "node_id": "opportunity:grants_gov:26-515",
-        "node_type": "opportunity"
-      },
-      "value": "open",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "64398b0e1a90e508"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-2700d01dd47fa53f",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-17",
-      "evidence_ids": [
-        "evidence-87f3a8bfdd8b6362"
-      ],
-      "first_seen_at": "2026-08-21T00:53:56.854986+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-21T00:53:56.854986+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-87f3a8bfdd8b6362",
-          "locator": "awarding_agency:nsf",
-          "title": "Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)",
-          "url": "https://www.grants.gov/search-results-detail/363614",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:26-515",
-        "label": "Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)",
-        "node_id": "opportunity:grants_gov:26-515",
-        "node_type": "opportunity"
-      },
-      "value": "NSF",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "5bfc8c3e925d98fe"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-d293dd93b805fa4c",
       "confidence": "high",
@@ -47150,6 +48170,96 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "a1068691d8ccf5df"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-caecc1bade4becc9",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-17",
+      "evidence_ids": [
+        "evidence-5be1d2625ab337c6"
+      ],
+      "first_seen_at": "2026-08-21T00:53:56.854986+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-21T00:53:56.854986+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5be1d2625ab337c6",
+          "locator": "opportunity_status:open",
+          "title": "Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)",
+          "url": "https://www.grants.gov/search-results-detail/363614",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:26-515",
+        "label": "Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)",
+        "node_id": "opportunity:grants_gov:26-515",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "64398b0e1a90e508"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-2700d01dd47fa53f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-17",
+      "evidence_ids": [
+        "evidence-87f3a8bfdd8b6362"
+      ],
+      "first_seen_at": "2026-08-21T00:53:56.854986+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-21T00:53:56.854986+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-87f3a8bfdd8b6362",
+          "locator": "awarding_agency:nsf",
+          "title": "Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)",
+          "url": "https://www.grants.gov/search-results-detail/363614",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:26-515",
+        "label": "Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)",
+        "node_id": "opportunity:grants_gov:26-515",
+        "node_type": "opportunity"
+      },
+      "value": "NSF",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5bfc8c3e925d98fe"
     },
     {
       "authority": "authoritative",
@@ -52937,141 +54047,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-fcd519a631fcd559",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-17",
-      "evidence_ids": [
-        "evidence-28b1e66b703df5e8"
-      ],
-      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-28b1e66b703df5e8",
-          "locator": "opportunity_status:open",
-          "title": "Expeditions in Computing (Expeditions)",
-          "url": "https://www.grants.gov/search-results-detail/363623",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:26-525",
-        "label": "Expeditions in Computing (Expeditions)",
-        "node_id": "opportunity:grants_gov:26-525",
-        "node_type": "opportunity"
-      },
-      "value": "open",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "5a19887eeadb9493"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-3d588cff04459ebd",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-17",
-      "evidence_ids": [
-        "evidence-eb81d77b97e935a0"
-      ],
-      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-eb81d77b97e935a0",
-          "locator": "deadline:07/27/2027",
-          "title": "Expeditions in Computing (Expeditions)",
-          "url": "https://www.grants.gov/search-results-detail/363623",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:26-525",
-        "label": "Expeditions in Computing (Expeditions)",
-        "node_id": "opportunity:grants_gov:26-525",
-        "node_type": "opportunity"
-      },
-      "value": "07/27/2027",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "0a7e439abe4679a8"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-207800c4c0724fab",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-17",
-      "evidence_ids": [
-        "evidence-0e24437cf7e8c650"
-      ],
-      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0e24437cf7e8c650",
-          "locator": "awarding_agency:nsf",
-          "title": "Expeditions in Computing (Expeditions)",
-          "url": "https://www.grants.gov/search-results-detail/363623",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:26-525",
-        "label": "Expeditions in Computing (Expeditions)",
-        "node_id": "opportunity:grants_gov:26-525",
-        "node_type": "opportunity"
-      },
-      "value": "NSF",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "f111867e458cba01"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-e003131cc5d31dc6",
       "confidence": "high",
@@ -53609,6 +54584,141 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "d3bff482eb4a2277"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-fcd519a631fcd559",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-17",
+      "evidence_ids": [
+        "evidence-28b1e66b703df5e8"
+      ],
+      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-28b1e66b703df5e8",
+          "locator": "opportunity_status:open",
+          "title": "Expeditions in Computing (Expeditions)",
+          "url": "https://www.grants.gov/search-results-detail/363623",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:26-525",
+        "label": "Expeditions in Computing (Expeditions)",
+        "node_id": "opportunity:grants_gov:26-525",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5a19887eeadb9493"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-3d588cff04459ebd",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-17",
+      "evidence_ids": [
+        "evidence-eb81d77b97e935a0"
+      ],
+      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-eb81d77b97e935a0",
+          "locator": "deadline:07/27/2027",
+          "title": "Expeditions in Computing (Expeditions)",
+          "url": "https://www.grants.gov/search-results-detail/363623",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:26-525",
+        "label": "Expeditions in Computing (Expeditions)",
+        "node_id": "opportunity:grants_gov:26-525",
+        "node_type": "opportunity"
+      },
+      "value": "07/27/2027",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "0a7e439abe4679a8"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-207800c4c0724fab",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-17",
+      "evidence_ids": [
+        "evidence-0e24437cf7e8c650"
+      ],
+      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0e24437cf7e8c650",
+          "locator": "awarding_agency:nsf",
+          "title": "Expeditions in Computing (Expeditions)",
+          "url": "https://www.grants.gov/search-results-detail/363623",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:26-525",
+        "label": "Expeditions in Computing (Expeditions)",
+        "node_id": "opportunity:grants_gov:26-525",
+        "node_type": "opportunity"
+      },
+      "value": "NSF",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "f111867e458cba01"
     },
     {
       "authority": "authoritative",
@@ -57954,231 +59064,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-e6c81541cf08ea62",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-14",
-      "evidence_ids": [
-        "evidence-d1a6cab882e6cc11"
-      ],
-      "first_seen_at": "2026-08-15T00:51:02.586375+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-15T00:51:02.586375+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d1a6cab882e6cc11",
-          "locator": "deadline:08/20/2026",
-          "title": "Pax Silica Artificial Intelligence Assistance Project",
-          "url": "https://www.grants.gov/search-results-detail/363596",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:DFOP0019193",
-        "label": "Pax Silica Artificial Intelligence Assistance Project",
-        "node_id": "opportunity:grants_gov:DFOP0019193",
-        "node_type": "opportunity"
-      },
-      "value": "08/20/2026",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "ee0f02dcea1c6183"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-1035ef1e302c8998",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-14",
-      "evidence_ids": [
-        "evidence-bc22d469c18825a1"
-      ],
-      "first_seen_at": "2026-08-15T00:51:02.586375+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-15T00:51:02.586375+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bc22d469c18825a1",
-          "locator": "awarding_agency:dos-eb",
-          "title": "Pax Silica Artificial Intelligence Assistance Project",
-          "url": "https://www.grants.gov/search-results-detail/363596",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:DFOP0019193",
-        "label": "Pax Silica Artificial Intelligence Assistance Project",
-        "node_id": "opportunity:grants_gov:DFOP0019193",
-        "node_type": "opportunity"
-      },
-      "value": "DOS-EB",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "3e282efc1a731df2"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-a1bf5f4cf2b6cbec",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-10",
-      "evidence_ids": [
-        "evidence-0e20fcda985f2246"
-      ],
-      "first_seen_at": "2026-08-15T00:51:02.586375+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-15T00:51:02.586375+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0e20fcda985f2246",
-          "locator": "opportunity_status:open",
-          "title": "FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) \u2013 RESEARCH COLLABORATION (RC)",
-          "url": "https://www.grants.gov/search-results-detail/363526",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:NOFOAFRLAFOSR20260004",
-        "label": "FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) \u2013 RESEARCH COLLABORATION (RC)",
-        "node_id": "opportunity:grants_gov:NOFOAFRLAFOSR20260004",
-        "node_type": "opportunity"
-      },
-      "value": "open",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "b2e9478daf866816"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-6f80e41a905297fd",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-10",
-      "evidence_ids": [
-        "evidence-6b020068891549d8"
-      ],
-      "first_seen_at": "2026-08-15T00:51:02.586375+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-15T00:51:02.586375+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6b020068891549d8",
-          "locator": "deadline:04/05/2027",
-          "title": "FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) \u2013 RESEARCH COLLABORATION (RC)",
-          "url": "https://www.grants.gov/search-results-detail/363526",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:NOFOAFRLAFOSR20260004",
-        "label": "FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) \u2013 RESEARCH COLLABORATION (RC)",
-        "node_id": "opportunity:grants_gov:NOFOAFRLAFOSR20260004",
-        "node_type": "opportunity"
-      },
-      "value": "04/05/2027",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "0b55458d5b411784"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-c4c7ccca3ba17cf9",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-10",
-      "evidence_ids": [
-        "evidence-aa8c8dd1c64a13d7"
-      ],
-      "first_seen_at": "2026-08-15T00:51:02.586375+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-15T00:51:02.586375+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-aa8c8dd1c64a13d7",
-          "locator": "awarding_agency:dod-afosr",
-          "title": "FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) \u2013 RESEARCH COLLABORATION (RC)",
-          "url": "https://www.grants.gov/search-results-detail/363526",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:NOFOAFRLAFOSR20260004",
-        "label": "FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) \u2013 RESEARCH COLLABORATION (RC)",
-        "node_id": "opportunity:grants_gov:NOFOAFRLAFOSR20260004",
-        "node_type": "opportunity"
-      },
-      "value": "DOD-AFOSR",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "2f01f7d8e9b24d2d"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-909af78423f60221",
       "confidence": "high",
@@ -58716,6 +59601,231 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "b152731d254a0f95"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-e6c81541cf08ea62",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-14",
+      "evidence_ids": [
+        "evidence-d1a6cab882e6cc11"
+      ],
+      "first_seen_at": "2026-08-15T00:51:02.586375+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-15T00:51:02.586375+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d1a6cab882e6cc11",
+          "locator": "deadline:08/20/2026",
+          "title": "Pax Silica Artificial Intelligence Assistance Project",
+          "url": "https://www.grants.gov/search-results-detail/363596",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:DFOP0019193",
+        "label": "Pax Silica Artificial Intelligence Assistance Project",
+        "node_id": "opportunity:grants_gov:DFOP0019193",
+        "node_type": "opportunity"
+      },
+      "value": "08/20/2026",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ee0f02dcea1c6183"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-1035ef1e302c8998",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-14",
+      "evidence_ids": [
+        "evidence-bc22d469c18825a1"
+      ],
+      "first_seen_at": "2026-08-15T00:51:02.586375+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-15T00:51:02.586375+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bc22d469c18825a1",
+          "locator": "awarding_agency:dos-eb",
+          "title": "Pax Silica Artificial Intelligence Assistance Project",
+          "url": "https://www.grants.gov/search-results-detail/363596",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:DFOP0019193",
+        "label": "Pax Silica Artificial Intelligence Assistance Project",
+        "node_id": "opportunity:grants_gov:DFOP0019193",
+        "node_type": "opportunity"
+      },
+      "value": "DOS-EB",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3e282efc1a731df2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-a1bf5f4cf2b6cbec",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-10",
+      "evidence_ids": [
+        "evidence-0e20fcda985f2246"
+      ],
+      "first_seen_at": "2026-08-15T00:51:02.586375+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-15T00:51:02.586375+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0e20fcda985f2246",
+          "locator": "opportunity_status:open",
+          "title": "FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) \u2013 RESEARCH COLLABORATION (RC)",
+          "url": "https://www.grants.gov/search-results-detail/363526",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:NOFOAFRLAFOSR20260004",
+        "label": "FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) \u2013 RESEARCH COLLABORATION (RC)",
+        "node_id": "opportunity:grants_gov:NOFOAFRLAFOSR20260004",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "b2e9478daf866816"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-6f80e41a905297fd",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-10",
+      "evidence_ids": [
+        "evidence-6b020068891549d8"
+      ],
+      "first_seen_at": "2026-08-15T00:51:02.586375+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-15T00:51:02.586375+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6b020068891549d8",
+          "locator": "deadline:04/05/2027",
+          "title": "FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) \u2013 RESEARCH COLLABORATION (RC)",
+          "url": "https://www.grants.gov/search-results-detail/363526",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:NOFOAFRLAFOSR20260004",
+        "label": "FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) \u2013 RESEARCH COLLABORATION (RC)",
+        "node_id": "opportunity:grants_gov:NOFOAFRLAFOSR20260004",
+        "node_type": "opportunity"
+      },
+      "value": "04/05/2027",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "0b55458d5b411784"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-c4c7ccca3ba17cf9",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-10",
+      "evidence_ids": [
+        "evidence-aa8c8dd1c64a13d7"
+      ],
+      "first_seen_at": "2026-08-15T00:51:02.586375+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-15T00:51:02.586375+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-aa8c8dd1c64a13d7",
+          "locator": "awarding_agency:dod-afosr",
+          "title": "FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) \u2013 RESEARCH COLLABORATION (RC)",
+          "url": "https://www.grants.gov/search-results-detail/363526",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:NOFOAFRLAFOSR20260004",
+        "label": "FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) \u2013 RESEARCH COLLABORATION (RC)",
+        "node_id": "opportunity:grants_gov:NOFOAFRLAFOSR20260004",
+        "node_type": "opportunity"
+      },
+      "value": "DOD-AFOSR",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "2f01f7d8e9b24d2d"
     },
     {
       "authority": "authoritative",
@@ -61770,141 +62880,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-7cdf0ffd17953b3f",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-13",
-      "evidence_ids": [
-        "evidence-94c47a2b1a448995"
-      ],
-      "first_seen_at": "2026-08-14T01:18:50.250873+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-14T01:18:50.250873+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-94c47a2b1a448995",
-          "locator": "opportunity_status:open",
-          "title": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
-          "url": "https://www.grants.gov/search-results-detail/363586",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:SB-OEDCS-26-002",
-        "label": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
-        "node_id": "opportunity:grants_gov:SB-OEDCS-26-002",
-        "node_type": "opportunity"
-      },
-      "value": "open",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "66cdf2488b2ed604"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-6ceba852ce2720f9",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-13",
-      "evidence_ids": [
-        "evidence-f715ff2cf45cef9c"
-      ],
-      "first_seen_at": "2026-08-14T01:18:50.250873+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-14T01:18:50.250873+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f715ff2cf45cef9c",
-          "locator": "deadline:09/04/2026",
-          "title": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
-          "url": "https://www.grants.gov/search-results-detail/363586",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:SB-OEDCS-26-002",
-        "label": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
-        "node_id": "opportunity:grants_gov:SB-OEDCS-26-002",
-        "node_type": "opportunity"
-      },
-      "value": "09/04/2026",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "ef0bc5f431e9c2dd"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-bae19c10eb89eb8c",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-13",
-      "evidence_ids": [
-        "evidence-269e28771e621994"
-      ],
-      "first_seen_at": "2026-08-14T01:18:50.250873+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-14T01:18:50.250873+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-269e28771e621994",
-          "locator": "awarding_agency:sba",
-          "title": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
-          "url": "https://www.grants.gov/search-results-detail/363586",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:SB-OEDCS-26-002",
-        "label": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
-        "node_id": "opportunity:grants_gov:SB-OEDCS-26-002",
-        "node_type": "opportunity"
-      },
-      "value": "SBA",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "7ae15f6930ed37ac"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-84e4bdbbe3f5feef",
       "confidence": "high",
@@ -62442,6 +63417,141 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "0fc4ff8159c18eab"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-7cdf0ffd17953b3f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-13",
+      "evidence_ids": [
+        "evidence-94c47a2b1a448995"
+      ],
+      "first_seen_at": "2026-08-14T01:18:50.250873+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-14T01:18:50.250873+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-94c47a2b1a448995",
+          "locator": "opportunity_status:open",
+          "title": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
+          "url": "https://www.grants.gov/search-results-detail/363586",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:SB-OEDCS-26-002",
+        "label": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
+        "node_id": "opportunity:grants_gov:SB-OEDCS-26-002",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "66cdf2488b2ed604"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-6ceba852ce2720f9",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-13",
+      "evidence_ids": [
+        "evidence-f715ff2cf45cef9c"
+      ],
+      "first_seen_at": "2026-08-14T01:18:50.250873+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-14T01:18:50.250873+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f715ff2cf45cef9c",
+          "locator": "deadline:09/04/2026",
+          "title": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
+          "url": "https://www.grants.gov/search-results-detail/363586",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:SB-OEDCS-26-002",
+        "label": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
+        "node_id": "opportunity:grants_gov:SB-OEDCS-26-002",
+        "node_type": "opportunity"
+      },
+      "value": "09/04/2026",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ef0bc5f431e9c2dd"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-bae19c10eb89eb8c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-13",
+      "evidence_ids": [
+        "evidence-269e28771e621994"
+      ],
+      "first_seen_at": "2026-08-14T01:18:50.250873+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-14T01:18:50.250873+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-269e28771e621994",
+          "locator": "awarding_agency:sba",
+          "title": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
+          "url": "https://www.grants.gov/search-results-detail/363586",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:SB-OEDCS-26-002",
+        "label": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
+        "node_id": "opportunity:grants_gov:SB-OEDCS-26-002",
+        "node_type": "opportunity"
+      },
+      "value": "SBA",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7ae15f6930ed37ac"
     },
     {
       "authority": "authoritative",
@@ -66695,141 +67805,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-44170726fd5ceb84",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-11",
-      "evidence_ids": [
-        "evidence-2d39036d7fe7b83f"
-      ],
-      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2d39036d7fe7b83f",
-          "locator": "opportunity_status:open",
-          "title": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
-          "url": "https://www.grants.gov/search-results-detail/363537",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:G26AS00156",
-        "label": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
-        "node_id": "opportunity:grants_gov:G26AS00156",
-        "node_type": "opportunity"
-      },
-      "value": "open",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "f891d5f73f5572d5"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-f5e7b726cea0a4ea",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-11",
-      "evidence_ids": [
-        "evidence-a0f8dde943472268"
-      ],
-      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a0f8dde943472268",
-          "locator": "deadline:09/11/2026",
-          "title": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
-          "url": "https://www.grants.gov/search-results-detail/363537",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:G26AS00156",
-        "label": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
-        "node_id": "opportunity:grants_gov:G26AS00156",
-        "node_type": "opportunity"
-      },
-      "value": "09/11/2026",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "3903e6a3b5f811c1"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-9fe6e5d29f603735",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-11",
-      "evidence_ids": [
-        "evidence-c496a444f077a7dd"
-      ],
-      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c496a444f077a7dd",
-          "locator": "awarding_agency:doi-usgs1",
-          "title": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
-          "url": "https://www.grants.gov/search-results-detail/363537",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:G26AS00156",
-        "label": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
-        "node_id": "opportunity:grants_gov:G26AS00156",
-        "node_type": "opportunity"
-      },
-      "value": "DOI-USGS1",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "3a01bde0c30ab5de"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-84c11c3ce8f1f423",
       "confidence": "high",
@@ -67367,6 +68342,141 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "9a3f62989501369c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-44170726fd5ceb84",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-11",
+      "evidence_ids": [
+        "evidence-2d39036d7fe7b83f"
+      ],
+      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2d39036d7fe7b83f",
+          "locator": "opportunity_status:open",
+          "title": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
+          "url": "https://www.grants.gov/search-results-detail/363537",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:G26AS00156",
+        "label": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
+        "node_id": "opportunity:grants_gov:G26AS00156",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "f891d5f73f5572d5"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-f5e7b726cea0a4ea",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-11",
+      "evidence_ids": [
+        "evidence-a0f8dde943472268"
+      ],
+      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a0f8dde943472268",
+          "locator": "deadline:09/11/2026",
+          "title": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
+          "url": "https://www.grants.gov/search-results-detail/363537",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:G26AS00156",
+        "label": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
+        "node_id": "opportunity:grants_gov:G26AS00156",
+        "node_type": "opportunity"
+      },
+      "value": "09/11/2026",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3903e6a3b5f811c1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-9fe6e5d29f603735",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-11",
+      "evidence_ids": [
+        "evidence-c496a444f077a7dd"
+      ],
+      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c496a444f077a7dd",
+          "locator": "awarding_agency:doi-usgs1",
+          "title": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
+          "url": "https://www.grants.gov/search-results-detail/363537",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:G26AS00156",
+        "label": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
+        "node_id": "opportunity:grants_gov:G26AS00156",
+        "node_type": "opportunity"
+      },
+      "value": "DOI-USGS1",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3a01bde0c30ab5de"
     },
     {
       "authority": "authoritative",
@@ -80895,186 +82005,6 @@
     {
       "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
-      "claim_id": "claim-94ac7439b673207f",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-06",
-      "evidence_ids": [
-        "evidence-1fa6927e73ccd76e"
-      ],
-      "first_seen_at": "2026-08-06T01:55:17.903256+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-06T01:55:17.903256+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1fa6927e73ccd76e",
-          "locator": "legal_business_name:the university of iowa",
-          "title": "THE UNIVERSITY OF IOWA",
-          "url": "https://sam.gov/entity/Z1H9VJS8NG16/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:Z1H9VJS8NG16",
-        "label": "THE UNIVERSITY OF IOWA",
-        "node_id": "recipient_or_contractor:uei:Z1H9VJS8NG16",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "THE UNIVERSITY OF IOWA",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "ee277331c5272cc4"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity uei",
-      "claim_id": "claim-d4783d8a03ea6fb1",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-06",
-      "evidence_ids": [
-        "evidence-6bc347ecf2068a42"
-      ],
-      "first_seen_at": "2026-08-06T01:55:17.903256+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-06T01:55:17.903256+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6bc347ecf2068a42",
-          "locator": "uei:z1h9vjs8ng16",
-          "title": "THE UNIVERSITY OF IOWA",
-          "url": "https://sam.gov/entity/Z1H9VJS8NG16/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:Z1H9VJS8NG16",
-        "label": "THE UNIVERSITY OF IOWA",
-        "node_id": "recipient_or_contractor:uei:Z1H9VJS8NG16",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Z1H9VJS8NG16",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "e4980ff35a41806c"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity cage code",
-      "claim_id": "claim-1c9d66181f00ac94",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-06",
-      "evidence_ids": [
-        "evidence-aec44582cc76fc77"
-      ],
-      "first_seen_at": "2026-08-06T01:55:17.903256+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-06T01:55:17.903256+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-aec44582cc76fc77",
-          "locator": "cage_code:2d354",
-          "title": "THE UNIVERSITY OF IOWA",
-          "url": "https://sam.gov/entity/Z1H9VJS8NG16/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:Z1H9VJS8NG16",
-        "label": "THE UNIVERSITY OF IOWA",
-        "node_id": "recipient_or_contractor:uei:Z1H9VJS8NG16",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "2D354",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "732645a1cb7db756"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity registration status",
-      "claim_id": "claim-c5e2bee78d8f1d92",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-06",
-      "evidence_ids": [
-        "evidence-1f4d8141ed25624d"
-      ],
-      "first_seen_at": "2026-08-06T01:55:17.903256+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-06T01:55:17.903256+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1f4d8141ed25624d",
-          "locator": "registration_status:active",
-          "title": "THE UNIVERSITY OF IOWA",
-          "url": "https://sam.gov/entity/Z1H9VJS8NG16/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:Z1H9VJS8NG16",
-        "label": "THE UNIVERSITY OF IOWA",
-        "node_id": "recipient_or_contractor:uei:Z1H9VJS8NG16",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "1b21fc1819075cdb"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-547d3a2c2d0fed94",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -81251,6 +82181,186 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "0e72aa16de131df8"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-94ac7439b673207f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-06",
+      "evidence_ids": [
+        "evidence-1fa6927e73ccd76e"
+      ],
+      "first_seen_at": "2026-08-06T01:55:17.903256+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-06T01:55:17.903256+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1fa6927e73ccd76e",
+          "locator": "legal_business_name:the university of iowa",
+          "title": "THE UNIVERSITY OF IOWA",
+          "url": "https://sam.gov/entity/Z1H9VJS8NG16/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:Z1H9VJS8NG16",
+        "label": "THE UNIVERSITY OF IOWA",
+        "node_id": "recipient_or_contractor:uei:Z1H9VJS8NG16",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "THE UNIVERSITY OF IOWA",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ee277331c5272cc4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-d4783d8a03ea6fb1",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-06",
+      "evidence_ids": [
+        "evidence-6bc347ecf2068a42"
+      ],
+      "first_seen_at": "2026-08-06T01:55:17.903256+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-06T01:55:17.903256+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6bc347ecf2068a42",
+          "locator": "uei:z1h9vjs8ng16",
+          "title": "THE UNIVERSITY OF IOWA",
+          "url": "https://sam.gov/entity/Z1H9VJS8NG16/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:Z1H9VJS8NG16",
+        "label": "THE UNIVERSITY OF IOWA",
+        "node_id": "recipient_or_contractor:uei:Z1H9VJS8NG16",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Z1H9VJS8NG16",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e4980ff35a41806c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-1c9d66181f00ac94",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-06",
+      "evidence_ids": [
+        "evidence-aec44582cc76fc77"
+      ],
+      "first_seen_at": "2026-08-06T01:55:17.903256+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-06T01:55:17.903256+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-aec44582cc76fc77",
+          "locator": "cage_code:2d354",
+          "title": "THE UNIVERSITY OF IOWA",
+          "url": "https://sam.gov/entity/Z1H9VJS8NG16/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:Z1H9VJS8NG16",
+        "label": "THE UNIVERSITY OF IOWA",
+        "node_id": "recipient_or_contractor:uei:Z1H9VJS8NG16",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "2D354",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "732645a1cb7db756"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-c5e2bee78d8f1d92",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-06",
+      "evidence_ids": [
+        "evidence-1f4d8141ed25624d"
+      ],
+      "first_seen_at": "2026-08-06T01:55:17.903256+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-06T01:55:17.903256+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1f4d8141ed25624d",
+          "locator": "registration_status:active",
+          "title": "THE UNIVERSITY OF IOWA",
+          "url": "https://sam.gov/entity/Z1H9VJS8NG16/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:Z1H9VJS8NG16",
+        "label": "THE UNIVERSITY OF IOWA",
+        "node_id": "recipient_or_contractor:uei:Z1H9VJS8NG16",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1b21fc1819075cdb"
     },
     {
       "authority": "authoritative",
@@ -180299,6 +181409,551 @@
     },
     {
       "authority": "analytical",
+      "basis": "Deterministic qualification score 32 / 100 with 96 / 100 evidence completeness",
+      "claim_id": "claim-7a258dbaa60f4994",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +10",
+              "actionable procurement_opportunity +8",
+              "closing_soon +12",
+              "technology fit +8"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view"
+            ],
+            "points": 38
+          },
+          {
+            "basis": [
+              "96 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a74ea5c0fd9b4adbb0a39c09f8263834/download",
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4863f6824dbc4040889e1d84101f0c96"
+            ],
+            "points": 9
+          },
+          {
+            "basis": [
+              "Compressed response window: 3 day(s)"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view"
+            ],
+            "points": -15
+          }
+        ],
+        "evidence_ids": [
+          "evidence-075bdcb08b78b6b5",
+          "evidence-28d6c318e05f460a",
+          "evidence-340ffd66cfe7222b",
+          "evidence-3564f207c0e46762",
+          "evidence-47e55e4b5bf4e8e8",
+          "evidence-47f632ddd10eab91",
+          "evidence-50aa618262b2c539",
+          "evidence-6050f28af5c99fe0",
+          "evidence-779cde56ae56fe75",
+          "evidence-7b27e5a60c93ecb3",
+          "evidence-94a8c0956dcaab46",
+          "evidence-9ff04e9b4b909045",
+          "evidence-b28fb99624c631de",
+          "evidence-b43fcec9a2f208ee",
+          "evidence-bc417e797178ae7c",
+          "evidence-c18603cf65d4ba85",
+          "evidence-c3075f34d93a9ae8",
+          "evidence-c40472f2d83434a9",
+          "evidence-c5bef19cda09b88b",
+          "evidence-d1a1e81e9143ec91",
+          "evidence-e0ba01f9e29c0657",
+          "evidence-e52df262dcbf7b17",
+          "evidence-ec007edefc6b6511",
+          "evidence-ec59cb8519309a0c",
+          "evidence-ece3733c2513bed0",
+          "evidence-f946d1b59a618123",
+          "evidence-fb09b505e9c57487",
+          "evidence-fb23421ebda0f923",
+          "evidence-fca9d969440b782a"
+        ],
+        "input_claim_hashes": {
+          "claim-0559b7b641b4002b": "434456bfbeaea80c",
+          "claim-0f08d5155fc02e2c": "ad211c80e3497cf5",
+          "claim-0fd91742b1175b9d": "186275291b069e05",
+          "claim-1922a492de69742f": "a5657f0d1c71bdd1",
+          "claim-21ac7182b1161283": "32d74f5e848ff0e5",
+          "claim-2a0935e2c934af22": "0491b8388cddd251",
+          "claim-2afdeeb784c61498": "86d8f5bf47697a1c",
+          "claim-2e67c5ff1d42adba": "0b698c6157aeca6d",
+          "claim-40ed8e37d60cd408": "e22d20e494cec83e",
+          "claim-5474c3a81ca584ac": "613499effe204835",
+          "claim-581e57d5b21e4853": "76c90819b819082e",
+          "claim-5c37459c203505fe": "aa37fd785e172c43",
+          "claim-62e7595d036ba49f": "4d68a40ce1c4fa1b",
+          "claim-6bc159871a77a9e9": "58c0343ba166b358",
+          "claim-6c4937c79b19d45c": "87223a8d84f6a852",
+          "claim-70553420faa75031": "2f81a08ca5bed06e",
+          "claim-71e1a0ed8e24dd14": "3239be4ad7bc1f61",
+          "claim-789a18efe59ee144": "201792dd47b7a1d7",
+          "claim-7b55d43e7c2ad497": "e071c324090c792b",
+          "claim-7e271c1ee7ace905": "ee323b7ff5361fe8",
+          "claim-8d027cfaf7effe85": "fffbb14d1b777f0a",
+          "claim-9cf32689e1b07c58": "d51748f82982934c",
+          "claim-a9ae5b5e0e13324f": "53151e1cf387dfbc",
+          "claim-afe9b2876e7beb52": "923fb55ff7ecda0a",
+          "claim-b3b96e8ec08ba459": "1b80d9c7e54b146a"
+        },
+        "input_claim_ids": [
+          "claim-0559b7b641b4002b",
+          "claim-0f08d5155fc02e2c",
+          "claim-0fd91742b1175b9d",
+          "claim-1922a492de69742f",
+          "claim-21ac7182b1161283",
+          "claim-2a0935e2c934af22",
+          "claim-2afdeeb784c61498",
+          "claim-2e67c5ff1d42adba",
+          "claim-40ed8e37d60cd408",
+          "claim-5474c3a81ca584ac",
+          "claim-581e57d5b21e4853",
+          "claim-5c37459c203505fe",
+          "claim-62e7595d036ba49f",
+          "claim-6bc159871a77a9e9",
+          "claim-6c4937c79b19d45c",
+          "claim-70553420faa75031",
+          "claim-71e1a0ed8e24dd14",
+          "claim-789a18efe59ee144",
+          "claim-7b55d43e7c2ad497",
+          "claim-7e271c1ee7ace905",
+          "claim-8d027cfaf7effe85",
+          "claim-9cf32689e1b07c58",
+          "claim-a9ae5b5e0e13324f",
+          "claim-afe9b2876e7beb52",
+          "claim-b3b96e8ec08ba459"
+        ],
+        "input_claim_versions": {
+          "claim-0559b7b641b4002b": 1,
+          "claim-0f08d5155fc02e2c": 1,
+          "claim-0fd91742b1175b9d": 1,
+          "claim-1922a492de69742f": 1,
+          "claim-21ac7182b1161283": 1,
+          "claim-2a0935e2c934af22": 1,
+          "claim-2afdeeb784c61498": 1,
+          "claim-2e67c5ff1d42adba": 1,
+          "claim-40ed8e37d60cd408": 1,
+          "claim-5474c3a81ca584ac": 1,
+          "claim-581e57d5b21e4853": 1,
+          "claim-5c37459c203505fe": 1,
+          "claim-62e7595d036ba49f": 1,
+          "claim-6bc159871a77a9e9": 1,
+          "claim-6c4937c79b19d45c": 1,
+          "claim-70553420faa75031": 1,
+          "claim-71e1a0ed8e24dd14": 1,
+          "claim-789a18efe59ee144": 1,
+          "claim-7b55d43e7c2ad497": 1,
+          "claim-7e271c1ee7ace905": 1,
+          "claim-8d027cfaf7effe85": 1,
+          "claim-9cf32689e1b07c58": 1,
+          "claim-a9ae5b5e0e13324f": 1,
+          "claim-afe9b2876e7beb52": 1,
+          "claim-b3b96e8ec08ba459": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 32,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a74ea5c0fd9b4adbb0a39c09f8263834/download",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4863f6824dbc4040889e1d84101f0c96"
+        ],
+        "trace_complete": true,
+        "trace_hash": "8a28522e93bc80b9",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-0559b7b641b4002b",
+          "claim-0f08d5155fc02e2c",
+          "claim-0fd91742b1175b9d",
+          "claim-1922a492de69742f",
+          "claim-21ac7182b1161283",
+          "claim-2a0935e2c934af22",
+          "claim-2afdeeb784c61498",
+          "claim-2e67c5ff1d42adba",
+          "claim-40ed8e37d60cd408",
+          "claim-5474c3a81ca584ac",
+          "claim-581e57d5b21e4853",
+          "claim-5c37459c203505fe",
+          "claim-62e7595d036ba49f",
+          "claim-6bc159871a77a9e9",
+          "claim-6c4937c79b19d45c",
+          "claim-70553420faa75031",
+          "claim-71e1a0ed8e24dd14",
+          "claim-789a18efe59ee144",
+          "claim-7b55d43e7c2ad497",
+          "claim-7e271c1ee7ace905",
+          "claim-8d027cfaf7effe85",
+          "claim-9cf32689e1b07c58",
+          "claim-a9ae5b5e0e13324f",
+          "claim-afe9b2876e7beb52",
+          "claim-b3b96e8ec08ba459"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-09-05",
+      "evidence_ids": [
+        "evidence-ece3733c2513bed0",
+        "evidence-bc417e797178ae7c",
+        "evidence-c40472f2d83434a9",
+        "evidence-075bdcb08b78b6b5"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 49 / 100 with 96 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-ece3733c2513bed0",
+            "evidence-bc417e797178ae7c",
+            "evidence-c40472f2d83434a9",
+            "evidence-075bdcb08b78b6b5"
+          ],
+          "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+          "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+          "object": null,
+          "status": "active",
+          "value": "targeted review",
+          "version": 1,
+          "version_hash": "2b1017f133741ef8"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 44 / 100 with 96 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-ece3733c2513bed0",
+            "evidence-bc417e797178ae7c",
+            "evidence-c40472f2d83434a9",
+            "evidence-075bdcb08b78b6b5"
+          ],
+          "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+          "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+          "object": null,
+          "status": "active",
+          "value": "targeted review",
+          "version": 2,
+          "version_hash": "431a038b683dd9cd"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 47 / 100 with 96 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-ece3733c2513bed0",
+            "evidence-bc417e797178ae7c",
+            "evidence-c40472f2d83434a9",
+            "evidence-075bdcb08b78b6b5"
+          ],
+          "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+          "last_seen_at": "2026-09-01T02:58:55.591634+00:00",
+          "object": null,
+          "status": "active",
+          "value": "targeted review",
+          "version": 3,
+          "version_hash": "ad9f709c98dfb46b"
+        }
+      ],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ece3733c2513bed0",
+          "locator": "qualification_gate",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bc417e797178ae7c",
+          "locator": "qualification_gate",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a74ea5c0fd9b4adbb0a39c09f8263834/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c40472f2d83434a9",
+          "locator": "qualification_gate",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4863f6824dbc4040889e1d84101f0c96",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:19AS2026Q0032",
+        "label": "EdUSA AI & Quantum Technologies Initiative in Australia",
+        "node_id": "opportunity:sam_gov:19AS2026Q0032",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 4,
+      "version_hash": "44fa9a11ee08dd98"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 18 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-d12c4977d42f65af",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "open_window +4",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363622"
+            ],
+            "points": 26
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363622"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-54cfa2983e765351",
+          "evidence-f5df8a4f28b7f012"
+        ],
+        "input_claim_hashes": {
+          "claim-9e959468ba445f47": "60416d7b2a15f9e4"
+        },
+        "input_claim_ids": [
+          "claim-9e959468ba445f47"
+        ],
+        "input_claim_versions": {
+          "claim-9e959468ba445f47": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 18,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363622"
+        ],
+        "trace_complete": true,
+        "trace_hash": "edf7cb03d694c256",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-9e959468ba445f47"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-09-05",
+      "evidence_ids": [
+        "evidence-54cfa2983e765351"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-54cfa2983e765351",
+          "locator": "qualification_gate",
+          "title": "EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)",
+          "url": "https://www.grants.gov/search-results-detail/363622",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:26-524",
+        "label": "EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)",
+        "node_id": "opportunity:grants_gov:26-524",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "fda6fa0a793f85c3"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 18 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-f0f3efcaaf73e9ac",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +9",
+              "actionable grant_opportunity +9",
+              "open_window +4",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363621"
+            ],
+            "points": 26
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363621"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-69b6d349ef391e1f",
+          "evidence-ed9c4c502acc3394"
+        ],
+        "input_claim_hashes": {
+          "claim-33094e3853821176": "11a8d4eeb1d0bab0"
+        },
+        "input_claim_ids": [
+          "claim-33094e3853821176"
+        ],
+        "input_claim_versions": {
+          "claim-33094e3853821176": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 18,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363621"
+        ],
+        "trace_complete": true,
+        "trace_hash": "0db7af35bbc55e8a",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-33094e3853821176"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-09-05",
+      "evidence_ids": [
+        "evidence-ed9c4c502acc3394"
+      ],
+      "first_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ed9c4c502acc3394",
+          "locator": "qualification_gate",
+          "title": "MPS Physics Research Programs (MPS Physics)",
+          "url": "https://www.grants.gov/search-results-detail/363621",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:26-523",
+        "label": "MPS Physics Research Programs (MPS Physics)",
+        "node_id": "opportunity:grants_gov:26-523",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4f05e317b18a3eea"
+    },
+    {
+      "authority": "analytical",
       "basis": "Deterministic qualification score 26 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-a2e9e3e73fdcc51b",
       "confidence": "medium",
@@ -180409,9 +182064,9 @@
         }
       ],
       "last_seen_at": "2026-09-04T02:21:51.764000+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -181320,315 +182975,6 @@
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 47 / 100 with 96 / 100 evidence completeness",
-      "claim_id": "claim-7a258dbaa60f4994",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +10",
-              "actionable procurement_opportunity +8",
-              "closing_soon +12",
-              "technology fit +8"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view"
-            ],
-            "points": 38
-          },
-          {
-            "basis": [
-              "96 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a74ea5c0fd9b4adbb0a39c09f8263834/download",
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download",
-              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4863f6824dbc4040889e1d84101f0c96"
-            ],
-            "points": 9
-          },
-          {
-            "basis": [
-              "No public risk penalty"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view"
-            ],
-            "points": 0
-          }
-        ],
-        "evidence_ids": [
-          "evidence-075bdcb08b78b6b5",
-          "evidence-28d6c318e05f460a",
-          "evidence-340ffd66cfe7222b",
-          "evidence-3564f207c0e46762",
-          "evidence-47e55e4b5bf4e8e8",
-          "evidence-47f632ddd10eab91",
-          "evidence-50aa618262b2c539",
-          "evidence-6050f28af5c99fe0",
-          "evidence-779cde56ae56fe75",
-          "evidence-7b27e5a60c93ecb3",
-          "evidence-94a8c0956dcaab46",
-          "evidence-9ff04e9b4b909045",
-          "evidence-b28fb99624c631de",
-          "evidence-b43fcec9a2f208ee",
-          "evidence-bc417e797178ae7c",
-          "evidence-c18603cf65d4ba85",
-          "evidence-c3075f34d93a9ae8",
-          "evidence-c40472f2d83434a9",
-          "evidence-c5bef19cda09b88b",
-          "evidence-d1a1e81e9143ec91",
-          "evidence-e0ba01f9e29c0657",
-          "evidence-e52df262dcbf7b17",
-          "evidence-ec007edefc6b6511",
-          "evidence-ec59cb8519309a0c",
-          "evidence-ece3733c2513bed0",
-          "evidence-f946d1b59a618123",
-          "evidence-fb09b505e9c57487",
-          "evidence-fb23421ebda0f923",
-          "evidence-fca9d969440b782a"
-        ],
-        "input_claim_hashes": {
-          "claim-0559b7b641b4002b": "434456bfbeaea80c",
-          "claim-0f08d5155fc02e2c": "ad211c80e3497cf5",
-          "claim-0fd91742b1175b9d": "186275291b069e05",
-          "claim-1922a492de69742f": "a5657f0d1c71bdd1",
-          "claim-21ac7182b1161283": "32d74f5e848ff0e5",
-          "claim-2a0935e2c934af22": "0491b8388cddd251",
-          "claim-2afdeeb784c61498": "86d8f5bf47697a1c",
-          "claim-2e67c5ff1d42adba": "0b698c6157aeca6d",
-          "claim-40ed8e37d60cd408": "e22d20e494cec83e",
-          "claim-5474c3a81ca584ac": "613499effe204835",
-          "claim-581e57d5b21e4853": "76c90819b819082e",
-          "claim-5c37459c203505fe": "aa37fd785e172c43",
-          "claim-62e7595d036ba49f": "4d68a40ce1c4fa1b",
-          "claim-6bc159871a77a9e9": "58c0343ba166b358",
-          "claim-6c4937c79b19d45c": "87223a8d84f6a852",
-          "claim-70553420faa75031": "2f81a08ca5bed06e",
-          "claim-71e1a0ed8e24dd14": "3239be4ad7bc1f61",
-          "claim-789a18efe59ee144": "201792dd47b7a1d7",
-          "claim-7b55d43e7c2ad497": "e071c324090c792b",
-          "claim-7e271c1ee7ace905": "ee323b7ff5361fe8",
-          "claim-8d027cfaf7effe85": "fffbb14d1b777f0a",
-          "claim-9cf32689e1b07c58": "d51748f82982934c",
-          "claim-a9ae5b5e0e13324f": "53151e1cf387dfbc",
-          "claim-afe9b2876e7beb52": "923fb55ff7ecda0a",
-          "claim-b3b96e8ec08ba459": "1b80d9c7e54b146a"
-        },
-        "input_claim_ids": [
-          "claim-0559b7b641b4002b",
-          "claim-0f08d5155fc02e2c",
-          "claim-0fd91742b1175b9d",
-          "claim-1922a492de69742f",
-          "claim-21ac7182b1161283",
-          "claim-2a0935e2c934af22",
-          "claim-2afdeeb784c61498",
-          "claim-2e67c5ff1d42adba",
-          "claim-40ed8e37d60cd408",
-          "claim-5474c3a81ca584ac",
-          "claim-581e57d5b21e4853",
-          "claim-5c37459c203505fe",
-          "claim-62e7595d036ba49f",
-          "claim-6bc159871a77a9e9",
-          "claim-6c4937c79b19d45c",
-          "claim-70553420faa75031",
-          "claim-71e1a0ed8e24dd14",
-          "claim-789a18efe59ee144",
-          "claim-7b55d43e7c2ad497",
-          "claim-7e271c1ee7ace905",
-          "claim-8d027cfaf7effe85",
-          "claim-9cf32689e1b07c58",
-          "claim-a9ae5b5e0e13324f",
-          "claim-afe9b2876e7beb52",
-          "claim-b3b96e8ec08ba459"
-        ],
-        "input_claim_versions": {
-          "claim-0559b7b641b4002b": 1,
-          "claim-0f08d5155fc02e2c": 1,
-          "claim-0fd91742b1175b9d": 1,
-          "claim-1922a492de69742f": 1,
-          "claim-21ac7182b1161283": 1,
-          "claim-2a0935e2c934af22": 1,
-          "claim-2afdeeb784c61498": 1,
-          "claim-2e67c5ff1d42adba": 1,
-          "claim-40ed8e37d60cd408": 1,
-          "claim-5474c3a81ca584ac": 1,
-          "claim-581e57d5b21e4853": 1,
-          "claim-5c37459c203505fe": 1,
-          "claim-62e7595d036ba49f": 1,
-          "claim-6bc159871a77a9e9": 1,
-          "claim-6c4937c79b19d45c": 1,
-          "claim-70553420faa75031": 1,
-          "claim-71e1a0ed8e24dd14": 1,
-          "claim-789a18efe59ee144": 1,
-          "claim-7b55d43e7c2ad497": 1,
-          "claim-7e271c1ee7ace905": 1,
-          "claim-8d027cfaf7effe85": 1,
-          "claim-9cf32689e1b07c58": 1,
-          "claim-a9ae5b5e0e13324f": 1,
-          "claim-afe9b2876e7beb52": 1,
-          "claim-b3b96e8ec08ba459": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 47,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a74ea5c0fd9b4adbb0a39c09f8263834/download",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download",
-          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4863f6824dbc4040889e1d84101f0c96"
-        ],
-        "trace_complete": true,
-        "trace_hash": "8a28522e93bc80b9",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-0559b7b641b4002b",
-          "claim-0f08d5155fc02e2c",
-          "claim-0fd91742b1175b9d",
-          "claim-1922a492de69742f",
-          "claim-21ac7182b1161283",
-          "claim-2a0935e2c934af22",
-          "claim-2afdeeb784c61498",
-          "claim-2e67c5ff1d42adba",
-          "claim-40ed8e37d60cd408",
-          "claim-5474c3a81ca584ac",
-          "claim-581e57d5b21e4853",
-          "claim-5c37459c203505fe",
-          "claim-62e7595d036ba49f",
-          "claim-6bc159871a77a9e9",
-          "claim-6c4937c79b19d45c",
-          "claim-70553420faa75031",
-          "claim-71e1a0ed8e24dd14",
-          "claim-789a18efe59ee144",
-          "claim-7b55d43e7c2ad497",
-          "claim-7e271c1ee7ace905",
-          "claim-8d027cfaf7effe85",
-          "claim-9cf32689e1b07c58",
-          "claim-a9ae5b5e0e13324f",
-          "claim-afe9b2876e7beb52",
-          "claim-b3b96e8ec08ba459"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-09-01",
-      "evidence_ids": [
-        "evidence-ece3733c2513bed0",
-        "evidence-bc417e797178ae7c",
-        "evidence-c40472f2d83434a9",
-        "evidence-075bdcb08b78b6b5"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [
-        {
-          "authority": "analytical",
-          "basis": "Deterministic qualification score 49 / 100 with 96 / 100 evidence completeness",
-          "confidence": "medium",
-          "evidence_ids": [
-            "evidence-ece3733c2513bed0",
-            "evidence-bc417e797178ae7c",
-            "evidence-c40472f2d83434a9",
-            "evidence-075bdcb08b78b6b5"
-          ],
-          "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-          "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-          "object": null,
-          "status": "active",
-          "value": "targeted review",
-          "version": 1,
-          "version_hash": "2b1017f133741ef8"
-        },
-        {
-          "authority": "analytical",
-          "basis": "Deterministic qualification score 44 / 100 with 96 / 100 evidence completeness",
-          "confidence": "medium",
-          "evidence_ids": [
-            "evidence-ece3733c2513bed0",
-            "evidence-bc417e797178ae7c",
-            "evidence-c40472f2d83434a9",
-            "evidence-075bdcb08b78b6b5"
-          ],
-          "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-          "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
-          "object": null,
-          "status": "active",
-          "value": "targeted review",
-          "version": 2,
-          "version_hash": "431a038b683dd9cd"
-        }
-      ],
-      "last_seen_at": "2026-09-01T02:58:55.591634+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ece3733c2513bed0",
-          "locator": "qualification_gate",
-          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
-          "url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bc417e797178ae7c",
-          "locator": "qualification_gate",
-          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a74ea5c0fd9b4adbb0a39c09f8263834/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c40472f2d83434a9",
-          "locator": "qualification_gate",
-          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4863f6824dbc4040889e1d84101f0c96",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:19AS2026Q0032",
-        "label": "EdUSA AI & Quantum Technologies Initiative in Australia",
-        "node_id": "opportunity:sam_gov:19AS2026Q0032",
-        "node_type": "opportunity"
-      },
-      "value": "targeted review",
-      "verification_status": "source_reported",
-      "version": 3,
-      "version_hash": "ad9f709c98dfb46b"
-    },
-    {
-      "authority": "analytical",
       "basis": "Deterministic qualification score 19 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-7a77c2bb73b1d40c",
       "confidence": "medium",
@@ -181739,9 +183085,9 @@
         }
       ],
       "last_seen_at": "2026-09-01T02:58:55.591634+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -203947,7 +205293,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -203994,7 +205340,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204041,7 +205387,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204088,7 +205434,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204135,7 +205481,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204182,7 +205528,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204229,7 +205575,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204276,7 +205622,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204323,7 +205669,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204370,7 +205716,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204417,7 +205763,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204464,7 +205810,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204511,7 +205857,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204558,7 +205904,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204605,7 +205951,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204652,7 +205998,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204699,7 +206045,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204746,7 +206092,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204798,7 +206144,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204850,7 +206196,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204902,7 +206248,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -204954,7 +206300,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -205006,7 +206352,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -205058,7 +206404,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -205110,7 +206456,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -205162,7 +206508,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -205214,7 +206560,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-04T02:21:51.764000+00:00",
+      "retracted_at": "2026-09-05T02:22:37.229027+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -206234,6 +207580,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-05ea919b56e62a53",
+      "locator": "reported_recipient:recipient_or_contractor:uei:MMLKPW9JLX64",
+      "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "a06dc0687739401e90170a90396d7f326c5e352199c1fcf051e0abd8268312d0",
       "controlling_status": "not_established",
       "evidence_id": "evidence-05ecd0f2516095c3",
@@ -206508,8 +207864,8 @@
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-075bdcb08b78b6b5",
       "locator": "qualification_gate",
-      "title": "NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)",
-      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=abf380cc0c634612a69ce193a212fbd4",
+      "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4863f6824dbc4040889e1d84101f0c96",
       "verification_status": "source_reported"
     },
     {
@@ -207526,6 +208882,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0cd79da535c5cc4a",
+      "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla aviation oklahoma city.dla aviation at oklahoma city, ok",
+      "title": "SENSOR,COMPRESSION",
+      "url": "https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-0cde40e03de6011f",
       "locator": "awarding_agency:usda-fns1",
       "title": "FY 2026 CN Technology Innovation Grant for Child and Adult Care Food Program Integrity",
@@ -207950,6 +209316,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:NNYDFK5FTSX9",
       "title": "VINES: TRACK 1: NSF-RCF: ELEVATING RESILIENCE IN AERIAL PLATFORM INTEGRATED THZ BACKHAUL -WIRELESS COMMUNICATION LINKS USING VERY HIGH FREQUENCY SIGNALS IN THE TERAHERTZ BAND CAN...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2549316_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0f4966d754a333a1",
+      "locator": "opportunity_status:awarded",
+      "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330",
       "verification_status": "source_reported"
     },
     {
@@ -219317,6 +220693,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-54cfa2983e765351",
+      "locator": "qualification_gate",
+      "title": "EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)",
+      "url": "https://www.grants.gov/search-results-detail/363622",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-54e3aac6eb98090a",
       "locator": "reported_amount:200000.0",
       "title": "CODE INVARIANTS IN CLASSICAL AND QUANTUM ERROR CORRECTION -ERROR-CORRECTING CODES ARE MATHEMATICAL STRUCTURES THAT KEEP COMMUNICATION, DATA STORAGE, AND COMPUTATION RELIABLE WHEN...",
@@ -220987,6 +222373,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-5ff6cb3a3c73d02c",
+      "locator": "reported_amount:2221040.48",
+      "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-5ff8124e8cf50692",
       "locator": "qualification_gate",
       "title": "Industry Engagement \u2013 Common Autonomous Multi-Domain Launcher (CAML) Strategy Overview",
@@ -222367,6 +223763,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-69522368381c9125",
+      "locator": "reported_recipient:recipient_or_contractor:uei:GFZVKNF7RVJ3",
+      "title": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-695e8918903aba21",
       "locator": "opportunity_status:awarded",
       "title": "ARCHITECTURE, STANDARDS, CYBERSECURITY AND INTEROPERABILITY TECHNICAL SUPPORT",
@@ -222382,6 +223788,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fcdc2c47c18462398e7b898f7671338/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-696757da42a30d14",
+      "locator": "awarding_agency:department of commerce",
+      "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -225157,6 +226573,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7c2feef524fbbf1c",
+      "locator": "opportunity_status:awarded",
+      "title": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-7c310bcdeff11a2b",
       "locator": "awarding_agency:department of defense",
       "title": "NEXT-GEN DRONE COMMUNICATIONS: POST-QUANTUM CRYPTOGRAPHY BASED PROTOCOL FOR REDUCED TRAFFIC OVERHEAD",
@@ -225791,6 +227217,16 @@
       "locator": "reported_amount:684785.0",
       "title": "SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (SAMHSA), OFFICE OF MANAGEMENT, TECHNOLOGY AND OPERATIONS, DIVISION OF TECHNOLOGY MANAGEMENT (OMTO/DTM) CYBERSECURITY AND...",
       "url": "https://www.usaspending.gov/award/CONT_AWD_75S20326F80003_7522_75N98118D00043_7529",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7ff92e872fad1922",
+      "locator": "reported_amount:1707670.0",
+      "title": "99--FITTING HOLDBACK AI",
+      "url": "https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view",
       "verification_status": "source_reported"
     },
     {
@@ -226441,6 +227877,16 @@
       "locator": "legal_business_name:nevada system of higher education",
       "title": "NEVADA SYSTEM OF HIGHER EDUCATION",
       "url": "https://sam.gov/entity/MV1JFXA4S621/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-843eec3cc1703d2b",
+      "locator": "awarding_agency:department of commerce",
+      "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330",
       "verification_status": "source_reported"
     },
     {
@@ -228577,6 +230023,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-924a745b4b6aa622",
+      "locator": "reported_recipient:recipient_or_contractor:name:triumph actuation systems yakima",
+      "title": "99--FITTING HOLDBACK AI",
+      "url": "https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-9257bcb9a3978896",
       "locator": "reported_amount:380655.15",
       "title": "OU77-FY26-129-NEW CYBERSECURITY FRAMEWORK & RISK MANAGEMENT PROGRAM TECHNICAL SERVICES",
@@ -229877,6 +231333,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-9ac678ff42a0a659",
+      "locator": "opportunity_status:awarded",
+      "title": "99--FITTING HOLDBACK AI",
+      "url": "https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-9ad8ea0366839f9a",
       "locator": "awarding_agency:dos-eb",
       "title": "Pax Silica Artificial Intelligence Assistance Project",
@@ -230162,6 +231628,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5aa0ab25da0f424d91318cf10ecfb981/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-9c92657379665ef8",
+      "locator": "reported_amount:1869922.26",
+      "title": "SENSOR,COMPRESSION",
+      "url": "https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -231867,6 +233343,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-a6a92812e83a11ad",
+      "locator": "reported_amount:5802109.44",
+      "title": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-a6c1e63907c0a0fe",
       "locator": "reported_amount:124902.93",
       "title": "PSA CALL 1367 - REGIONAL DIGITAL TRADE AND CYBERSECURITY WORKSHOP TASHKENT NOV26",
@@ -232801,6 +234287,16 @@
       "locator": "opportunity_status:open",
       "title": "Pax Silica Artificial Intelligence Assistance Project",
       "url": "https://www.grants.gov/search-results-detail/363513",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ab9f60e2469badb6",
+      "locator": "reported_recipient:recipient_or_contractor:uei:MMLKPW9JLX64",
+      "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330",
       "verification_status": "source_reported"
     },
     {
@@ -234635,6 +236131,26 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-b7cd0b7eec88c320",
+      "locator": "awarding_agency:agriculture, department of.agricultural research service.usda ars afm apd",
+      "title": "Autonomous Livestock Feed Monitoring Bins",
+      "url": "https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-b7d44e32df7a8639",
+      "locator": "opportunity_status:awarded",
+      "title": "Autonomous Livestock Feed Monitoring Bins",
+      "url": "https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "68c424315ddf8acce77116ac3dd77a684ffa27afa9d775a5b8fd8d2512c8651f",
       "controlling_status": "not_established",
       "evidence_id": "evidence-b7e681964a13b751",
@@ -235537,6 +237053,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-bc500396c55e8fce",
+      "locator": "reported_amount:7984545.4",
+      "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-bc53f3077797b48e",
       "locator": "reported_recipient:recipient_or_contractor:uei:QB12VPNQQFE8",
       "title": "EPSCOR RESEARCH FELLOWS: NSF: DEVELOPING A PRACTICAL PHYSICS-INFORMED AI BENCHMARK FOR ESTUARINE PHYSICAL-BIOGEOCHEMICAL PREDICTION AND DATA ASSIMILATION -THIS RESEARCH INFRASTRUC...",
@@ -235961,6 +237487,16 @@
       "locator": "uei:c47bna8gm833",
       "title": "ACCENTURE FEDERAL SERVICES LLC",
       "url": "https://sam.gov/entity/C47BNA8GM833/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-bfc3bb4bcda41d26",
+      "locator": "reported_recipient:recipient_or_contractor:name:woodward",
+      "title": "SENSOR,COMPRESSION",
+      "url": "https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view",
       "verification_status": "source_reported"
     },
     {
@@ -238881,6 +240417,16 @@
       "locator": "opportunity_status:awarded",
       "title": "CAREER: OPENGPRXAI: OPEN-SOURCE, AI-POWERED GROUND PENETRATING RADAR TECHNOLOGIES FOR REAL-TIME SUBSURFACE VISION -THIS PROJECT AIMS TO SIGNIFICANTLY ADVANCE SUBSURFACE IMAGING BY...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2543048_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d0f6ec3d7529c830",
+      "locator": "reported_amount:106060.0",
+      "title": "Autonomous Livestock Feed Monitoring Bins",
+      "url": "https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view",
       "verification_status": "source_reported"
     },
     {
@@ -242037,6 +243583,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e31bed64fa3069b9",
+      "locator": "opportunity_status:awarded",
+      "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-e31ca2866b775f75",
       "locator": "awarding_agency:commerce, department of.national institute of standards and technology.dept of commerce nist",
       "title": "Power Sensor Check Standard",
@@ -242172,6 +243728,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0185fb2f6df64b9ca13e3825ac75e181/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e3d4b818744cac25",
+      "locator": "awarding_agency:dept of defense.dept of the navy.navsup.navsup weapon systems support.navsup wss philadelphia.navsup weapon systems support",
+      "title": "99--FITTING HOLDBACK AI",
+      "url": "https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -242945,6 +244511,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e85d577790cbff0b",
+      "locator": "opportunity_status:awarded",
+      "title": "SENSOR,COMPRESSION",
+      "url": "https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "5e3a4d0d543a14670102969062ef2e0e507458420f01aa09c20fa8f90a8ab226",
       "controlling_status": "not_established",
       "evidence_id": "evidence-e85e4096380a0b4b",
@@ -243675,6 +245251,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ec505c7a205e1003",
+      "locator": "reported_recipient:recipient_or_contractor:name:c lock",
+      "title": "Autonomous Livestock Feed Monitoring Bins",
+      "url": "https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "5943867ddbc38a82ae98d35a5743440995b35e4f5721dbae7319052efff6428e",
       "controlling_status": "not_established",
       "evidence_id": "evidence-ec5350ebc18c4eb2",
@@ -243841,6 +245427,16 @@
       "locator": "awarding_agency:department of agriculture",
       "title": "THE UNITED STATES DEPARTMENT OF AGRICULTURE (USDA), OFFICE OF THE CHIEF INFORMATION OFFICER (OCIO), CYBERSECURITY AND PRIVACY OPERATIONS CENTER (CPOC) REQUIRES THE RENEWAL OF RED...",
       "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0226_1205_NNG15SD26B_8000/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ed9c4c502acc3394",
+      "locator": "qualification_gate",
+      "title": "MPS Physics Research Programs (MPS Physics)",
+      "url": "https://www.grants.gov/search-results-detail/363621",
       "verification_status": "source_reported"
     },
     {
@@ -245907,6 +247503,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-f9e9f77704779ed4",
+      "locator": "awarding_agency:department of health and human services",
+      "title": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-f9fe23a8bf995d25",
       "locator": "deadline:08/11/2026",
       "title": "Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU)",
@@ -246867,16 +248473,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4052,
-    "authoritative_claims": 3859,
+    "active_claims": 4078,
+    "authoritative_claims": 3883,
     "conflicted_claims": 38,
-    "derived_claims": 190,
-    "evidence_items": 4162,
-    "source_urls": 1145,
-    "subjects": 795,
+    "derived_claims": 192,
+    "evidence_items": 4188,
+    "source_urls": 1151,
+    "subjects": 801,
     "superseded_claims": 0,
-    "total_claims": 4079
+    "total_claims": 4105
   },
-  "updated_at": "2026-09-04T02:21:51.764000+00:00",
+  "updated_at": "2026-09-05T02:22:37.229027+00:00",
   "version": 1
 }

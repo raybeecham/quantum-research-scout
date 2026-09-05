@@ -280,48 +280,13 @@
   ],
   "added": [
     {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-f620e5c6646cc3cc",
-      "confidence": "high",
-      "effective_date": null,
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": {
-        "identifier": "PCTUS2025026280",
-        "label": "HIGH-PRECISION CHEMICAL QUANTUM SENSING IN FLOWING MONODISPERSE MICRODROPLETS",
-        "node_id": "patent:PCTUS2025026280",
-        "node_type": "patent"
-      },
-      "predicate": "has_related_patent",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-00634fa6b762a145",
-          "locator": "has_related_patent:patent:PCTUS2025026280",
-          "title": "HIGH-PRECISION CHEMICAL QUANTUM SENSING IN FLOWING MONODISPERSE MICRODROPLETS",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025026280/application-data",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:GS3YEVSS12N6",
-        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
-        "node_id": "recipient_or_contractor:uei:GS3YEVSS12N6",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": null
-    },
-    {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-fe5b2bc5700ed4c3",
+      "claim_id": "claim-50f1de07be5577ea",
       "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
+      "effective_date": "2026-09-08",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -329,17 +294,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7e77f35b87d74065",
+          "evidence_id": "evidence-0f4966d754a333a1",
           "locator": "opportunity_status:awarded",
-          "title": "DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_99115S26_068",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:99115S26",
-        "label": "DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...",
-        "node_id": "award:usaspending:99115S26",
+        "identifier": "usaspending:1305M326F0167",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+        "node_id": "award:usaspending:1305M326F0167",
         "node_type": "award"
       },
       "value": "awarded"
@@ -347,11 +312,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-230bba0ec15d1403",
+      "claim_id": "claim-9cc7165adbbb231f",
       "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
+      "effective_date": "2026-09-08",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -359,462 +324,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ed5753b86b5a2bd0",
-          "locator": "awarding_agency:environmental protection agency",
-          "title": "DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_99115S26_068",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:99115S26",
-        "label": "DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...",
-        "node_id": "award:usaspending:99115S26",
-        "node_type": "award"
-      },
-      "value": "Environmental Protection Agency"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f90e5d31ced525ff",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-277c68991ca84f58",
-          "locator": "reported_amount:24888000.0",
-          "title": "DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_99115S26_068",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:99115S26",
-        "label": "DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...",
-        "node_id": "award:usaspending:99115S26",
-        "node_type": "award"
-      },
-      "value": 24888000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-d3ae009d7e8bd73c",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": {
-        "identifier": "uei:NG6PGJFQBML3",
-        "label": "ENVIRONMENTAL SERVICES, NEW HAMPSHIRE DEPARTMENT OF",
-        "node_id": "recipient_or_contractor:uei:NG6PGJFQBML3",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4b68956530a6f95f",
-          "locator": "reported_recipient:recipient_or_contractor:uei:NG6PGJFQBML3",
-          "title": "DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_99115S26_068",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:99115S26",
-        "label": "DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...",
-        "node_id": "award:usaspending:99115S26",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-cdcc6b414ac23ebc",
-      "confidence": "high",
-      "effective_date": null,
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": {
-        "identifier": "PCTUS2025026280",
-        "label": "HIGH-PRECISION CHEMICAL QUANTUM SENSING IN FLOWING MONODISPERSE MICRODROPLETS",
-        "node_id": "patent:PCTUS2025026280",
-        "node_type": "patent"
-      },
-      "predicate": "has_related_patent",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-00634fa6b762a145",
-          "locator": "has_related_patent:patent:PCTUS2025026280",
-          "title": "HIGH-PRECISION CHEMICAL QUANTUM SENSING IN FLOWING MONODISPERSE MICRODROPLETS",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025026280/application-data",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:MR5QC5FCAVH5",
-        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE",
-        "node_id": "recipient_or_contractor:uei:MR5QC5FCAVH5",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c6de08ee161e8440",
-      "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2499bcd0307a3863",
-          "locator": "opportunity_status:awarded",
-          "title": "COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426C0033_1205_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:12314426C0033",
-        "label": "COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...",
-        "node_id": "award:usaspending:12314426C0033",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-241cd7af2a327744",
-      "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a0a9d1706eb39f0f",
-          "locator": "awarding_agency:department of agriculture",
-          "title": "COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426C0033_1205_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:12314426C0033",
-        "label": "COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...",
-        "node_id": "award:usaspending:12314426C0033",
-        "node_type": "award"
-      },
-      "value": "Department of Agriculture"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4abd3771789a9642",
-      "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1e5bd0b5ffc5597a",
-          "locator": "reported_amount:3723999.4",
-          "title": "COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426C0033_1205_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:12314426C0033",
-        "label": "COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...",
-        "node_id": "award:usaspending:12314426C0033",
-        "node_type": "award"
-      },
-      "value": 3723999.4
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c8954aa2e1b6ceda",
-      "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": {
-        "identifier": "uei:CA11RWJPADV6",
-        "label": "ASRC FEDERAL TECHNOLOGY SOLUTIONS, LLC",
-        "node_id": "recipient_or_contractor:uei:CA11RWJPADV6",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e056222e126f3047",
-          "locator": "reported_recipient:recipient_or_contractor:uei:CA11RWJPADV6",
-          "title": "COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426C0033_1205_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:12314426C0033",
-        "label": "COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...",
-        "node_id": "award:usaspending:12314426C0033",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7cae934647f180e0",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a155e1a07d344931",
-          "locator": "opportunity_status:awarded",
-          "title": "DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0364_1205_NNG15SD76B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:12314426F0364",
-        "label": "DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.",
-        "node_id": "award:usaspending:12314426F0364",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-72bfa3cdd60ae782",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-120efee8d62c2d6b",
-          "locator": "awarding_agency:department of agriculture",
-          "title": "DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0364_1205_NNG15SD76B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:12314426F0364",
-        "label": "DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.",
-        "node_id": "award:usaspending:12314426F0364",
-        "node_type": "award"
-      },
-      "value": "Department of Agriculture"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2871e6406948c972",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a3dd837a4ebb1f0e",
-          "locator": "reported_amount:130454.86",
-          "title": "DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0364_1205_NNG15SD76B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:12314426F0364",
-        "label": "DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.",
-        "node_id": "award:usaspending:12314426F0364",
-        "node_type": "award"
-      },
-      "value": 130454.86
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-ede3d91cc2da5a53",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": {
-        "identifier": "uei:FBRMCGPMN963",
-        "label": "ENTERPRISE TECHNOLOGY SOLUTIONS, INC.",
-        "node_id": "recipient_or_contractor:uei:FBRMCGPMN963",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-001d151a3e889a52",
-          "locator": "reported_recipient:recipient_or_contractor:uei:FBRMCGPMN963",
-          "title": "DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0364_1205_NNG15SD76B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:12314426F0364",
-        "label": "DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.",
-        "node_id": "award:usaspending:12314426F0364",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7f28dc567ac41ee1",
-      "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": {
-        "identifier": "uei:JEATS22MKKM6",
-        "label": "QUANTUM DESIGN, INC.",
-        "node_id": "recipient_or_contractor:uei:JEATS22MKKM6",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a5b105f8f8d38616",
-          "locator": "reported_recipient:recipient_or_contractor:uei:JEATS22MKKM6",
-          "title": "Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)",
-          "url": "https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1333ND26PNB030160",
-        "label": "Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)",
-        "node_id": "award_notice:sam_gov:1333ND26PNB030160",
-        "node_type": "award_notice"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1568aee0dc5192ee",
-      "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ad0ff48f493f6649",
-          "locator": "opportunity_status:awarded",
-          "title": "OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB030160_1341_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:1333ND26PNB030160",
-        "label": "OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...",
-        "node_id": "award:usaspending:1333ND26PNB030160",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5847d7d119ee7459",
-      "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-492174b2279b8049",
+          "evidence_id": "evidence-696757da42a30d14",
           "locator": "awarding_agency:department of commerce",
-          "title": "OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB030160_1341_-NONE-_-NONE-",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:1333ND26PNB030160",
-        "label": "OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...",
-        "node_id": "award:usaspending:1333ND26PNB030160",
+        "identifier": "usaspending:1305M326F0167",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+        "node_id": "award:usaspending:1305M326F0167",
         "node_type": "award"
       },
       "value": "Department of Commerce"
@@ -822,11 +342,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-60417ca1596a78ab",
+      "claim_id": "claim-53e6b3869ecb1ce8",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
+      "effective_date": "2026-09-08",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -834,33 +354,33 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-eab8f5a3cc1e817b",
-          "locator": "reported_amount:101380.0",
-          "title": "OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB030160_1341_-NONE-_-NONE-",
+          "evidence_id": "evidence-bc500396c55e8fce",
+          "locator": "reported_amount:7984545.4",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:1333ND26PNB030160",
-        "label": "OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...",
-        "node_id": "award:usaspending:1333ND26PNB030160",
+        "identifier": "usaspending:1305M326F0167",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+        "node_id": "award:usaspending:1305M326F0167",
         "node_type": "award"
       },
-      "value": 101380.0
+      "value": 7984545.4
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-e29e7192083d75c2",
+      "claim_id": "claim-bd65911c8de78b6f",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
+      "effective_date": "2026-09-08",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
       "object": {
-        "identifier": "uei:JEATS22MKKM6",
-        "label": "QUANTUM DESIGN, INC.",
-        "node_id": "recipient_or_contractor:uei:JEATS22MKKM6",
+        "identifier": "uei:MMLKPW9JLX64",
+        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -869,17 +389,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a9ece93148d0729f",
-          "locator": "reported_recipient:recipient_or_contractor:uei:JEATS22MKKM6",
-          "title": "OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB030160_1341_-NONE-_-NONE-",
+          "evidence_id": "evidence-ab9f60e2469badb6",
+          "locator": "reported_recipient:recipient_or_contractor:uei:MMLKPW9JLX64",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:1333ND26PNB030160",
-        "label": "OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...",
-        "node_id": "award:usaspending:1333ND26PNB030160",
+        "identifier": "usaspending:1305M326F0167",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL",
+        "node_id": "award:usaspending:1305M326F0167",
         "node_type": "award"
       },
       "value": null
@@ -887,46 +407,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-53557f66b471d2de",
+      "claim_id": "claim-8f21e1527e6626e2",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": {
-        "identifier": "uei:ECLMHG6B3V55",
-        "label": "49CHESTNUT LLC",
-        "node_id": "recipient_or_contractor:uei:ECLMHG6B3V55",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-91ca89b02bbd31cc",
-          "locator": "reported_recipient:recipient_or_contractor:uei:ECLMHG6B3V55",
-          "title": "66--Quantum Cascade Laser (QCL) System",
-          "url": "https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:89243326QFE000539",
-        "label": "66--Quantum Cascade Laser (QCL) System",
-        "node_id": "award_notice:sam_gov:89243326QFE000539",
-        "node_type": "award_notice"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6d0277b7063e4f52",
-      "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -934,17 +419,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a059f5066cd7488c",
+          "evidence_id": "evidence-7c2feef524fbbf1c",
           "locator": "opportunity_status:awarded",
-          "title": "QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89243326PFE000986_8900_-NONE-_-NONE-",
+          "title": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:89243326PFE000986",
-        "label": "QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...",
-        "node_id": "award:usaspending:89243326PFE000986",
+        "identifier": "usaspending:7571TE26F80245",
+        "label": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+        "node_id": "award:usaspending:7571TE26F80245",
         "node_type": "award"
       },
       "value": "awarded"
@@ -952,11 +437,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-772097f1833c81fe",
+      "claim_id": "claim-29b09a2c39fac486",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -964,29 +449,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-dffd3abd69e265b2",
-          "locator": "awarding_agency:department of energy",
-          "title": "QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89243326PFE000986_8900_-NONE-_-NONE-",
+          "evidence_id": "evidence-f9e9f77704779ed4",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:89243326PFE000986",
-        "label": "QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...",
-        "node_id": "award:usaspending:89243326PFE000986",
+        "identifier": "usaspending:7571TE26F80245",
+        "label": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+        "node_id": "award:usaspending:7571TE26F80245",
         "node_type": "award"
       },
-      "value": "Department of Energy"
+      "value": "Department of Health and Human Services"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-ec853d543d9ce92d",
+      "claim_id": "claim-c107eb8be68dc385",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -994,33 +479,33 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-47b14cd0a58ecafe",
-          "locator": "reported_amount:23786.0",
-          "title": "QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89243326PFE000986_8900_-NONE-_-NONE-",
+          "evidence_id": "evidence-a6a92812e83a11ad",
+          "locator": "reported_amount:5802109.44",
+          "title": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:89243326PFE000986",
-        "label": "QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...",
-        "node_id": "award:usaspending:89243326PFE000986",
+        "identifier": "usaspending:7571TE26F80245",
+        "label": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+        "node_id": "award:usaspending:7571TE26F80245",
         "node_type": "award"
       },
-      "value": 23786.0
+      "value": 5802109.44
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-76650d710e2d9cb9",
+      "claim_id": "claim-5050021b54f49e15",
       "confidence": "high",
-      "effective_date": "2026-09-01",
-      "first_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
+      "effective_date": "2026-09-02",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
       "object": {
-        "identifier": "uei:ECLMHG6B3V55",
-        "label": "49CHESTNUT LLC",
-        "node_id": "recipient_or_contractor:uei:ECLMHG6B3V55",
+        "identifier": "uei:GFZVKNF7RVJ3",
+        "label": "ALYN, INC.",
+        "node_id": "recipient_or_contractor:uei:GFZVKNF7RVJ3",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -1029,92 +514,650 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a8fa728b5f8c6c82",
-          "locator": "reported_recipient:recipient_or_contractor:uei:ECLMHG6B3V55",
-          "title": "QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89243326PFE000986_8900_-NONE-_-NONE-",
+          "evidence_id": "evidence-69522368381c9125",
+          "locator": "reported_recipient:recipient_or_contractor:uei:GFZVKNF7RVJ3",
+          "title": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:89243326PFE000986",
-        "label": "QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...",
-        "node_id": "award:usaspending:89243326PFE000986",
+        "identifier": "usaspending:7571TE26F80245",
+        "label": "THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...",
+        "node_id": "award:usaspending:7571TE26F80245",
         "node_type": "award"
       },
       "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-693b75c96b27525e",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e31bed64fa3069b9",
+          "locator": "opportunity_status:awarded",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:1305M326F0138",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+        "node_id": "award:usaspending:1305M326F0138",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-113063a153cda827",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-843eec3cc1703d2b",
+          "locator": "awarding_agency:department of commerce",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:1305M326F0138",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+        "node_id": "award:usaspending:1305M326F0138",
+        "node_type": "award"
+      },
+      "value": "Department of Commerce"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1493481e433e0f07",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5ff6cb3a3c73d02c",
+          "locator": "reported_amount:2221040.48",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:1305M326F0138",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+        "node_id": "award:usaspending:1305M326F0138",
+        "node_type": "award"
+      },
+      "value": 2221040.48
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-02ded2899accfcc2",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": {
+        "identifier": "uei:MMLKPW9JLX64",
+        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-05ea919b56e62a53",
+          "locator": "reported_recipient:recipient_or_contractor:uei:MMLKPW9JLX64",
+          "title": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:1305M326F0138",
+        "label": "HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)",
+        "node_id": "award:usaspending:1305M326F0138",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-845e5258a5322eac",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e85d577790cbff0b",
+          "locator": "opportunity_status:awarded",
+          "title": "SENSOR,COMPRESSION",
+          "url": "https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPRTA1-26-R-0208",
+        "label": "SENSOR,COMPRESSION",
+        "node_id": "award_notice:sam_gov:SPRTA1-26-R-0208",
+        "node_type": "award_notice"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-75a0575372c960a7",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0cd79da535c5cc4a",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla aviation oklahoma city.dla aviation at oklahoma city, ok",
+          "title": "SENSOR,COMPRESSION",
+          "url": "https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPRTA1-26-R-0208",
+        "label": "SENSOR,COMPRESSION",
+        "node_id": "award_notice:sam_gov:SPRTA1-26-R-0208",
+        "node_type": "award_notice"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6e94f182bdd483e6",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9c92657379665ef8",
+          "locator": "reported_amount:1869922.26",
+          "title": "SENSOR,COMPRESSION",
+          "url": "https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPRTA1-26-R-0208",
+        "label": "SENSOR,COMPRESSION",
+        "node_id": "award_notice:sam_gov:SPRTA1-26-R-0208",
+        "node_type": "award_notice"
+      },
+      "value": 1869922.26
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-e5851dee84fa8445",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": {
+        "identifier": "name:woodward",
+        "label": "WOODWARD, INC.",
+        "node_id": "recipient_or_contractor:name:woodward",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bfc3bb4bcda41d26",
+          "locator": "reported_recipient:recipient_or_contractor:name:woodward",
+          "title": "SENSOR,COMPRESSION",
+          "url": "https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPRTA1-26-R-0208",
+        "label": "SENSOR,COMPRESSION",
+        "node_id": "award_notice:sam_gov:SPRTA1-26-R-0208",
+        "node_type": "award_notice"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-f6fab1add54a2437",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9ac678ff42a0a659",
+          "locator": "opportunity_status:awarded",
+          "title": "99--FITTING HOLDBACK AI",
+          "url": "https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:N0038326QSA17",
+        "label": "99--FITTING HOLDBACK AI",
+        "node_id": "award_notice:sam_gov:N0038326QSA17",
+        "node_type": "award_notice"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-42ccd6fcdd317c02",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e3d4b818744cac25",
+          "locator": "awarding_agency:dept of defense.dept of the navy.navsup.navsup weapon systems support.navsup wss philadelphia.navsup weapon systems support",
+          "title": "99--FITTING HOLDBACK AI",
+          "url": "https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:N0038326QSA17",
+        "label": "99--FITTING HOLDBACK AI",
+        "node_id": "award_notice:sam_gov:N0038326QSA17",
+        "node_type": "award_notice"
+      },
+      "value": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c19efb2c3e4a0eac",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7ff92e872fad1922",
+          "locator": "reported_amount:1707670.0",
+          "title": "99--FITTING HOLDBACK AI",
+          "url": "https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:N0038326QSA17",
+        "label": "99--FITTING HOLDBACK AI",
+        "node_id": "award_notice:sam_gov:N0038326QSA17",
+        "node_type": "award_notice"
+      },
+      "value": 1707670.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-7db00f1bc9ef18af",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": {
+        "identifier": "name:triumph actuation systems yakima",
+        "label": "TRIUMPH ACTUATION SYSTEMS - YAKIMA, LLC",
+        "node_id": "recipient_or_contractor:name:triumph actuation systems yakima",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-924a745b4b6aa622",
+          "locator": "reported_recipient:recipient_or_contractor:name:triumph actuation systems yakima",
+          "title": "99--FITTING HOLDBACK AI",
+          "url": "https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:N0038326QSA17",
+        "label": "99--FITTING HOLDBACK AI",
+        "node_id": "award_notice:sam_gov:N0038326QSA17",
+        "node_type": "award_notice"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-bbe60073b3b01749",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b7d44e32df7a8639",
+          "locator": "opportunity_status:awarded",
+          "title": "Autonomous Livestock Feed Monitoring Bins",
+          "url": "https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:1232SA26P0672",
+        "label": "Autonomous Livestock Feed Monitoring Bins",
+        "node_id": "award_notice:sam_gov:1232SA26P0672",
+        "node_type": "award_notice"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c50ac6c914814a6c",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b7cd0b7eec88c320",
+          "locator": "awarding_agency:agriculture, department of.agricultural research service.usda ars afm apd",
+          "title": "Autonomous Livestock Feed Monitoring Bins",
+          "url": "https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:1232SA26P0672",
+        "label": "Autonomous Livestock Feed Monitoring Bins",
+        "node_id": "award_notice:sam_gov:1232SA26P0672",
+        "node_type": "award_notice"
+      },
+      "value": "AGRICULTURE, DEPARTMENT OF.AGRICULTURAL RESEARCH SERVICE.USDA ARS AFM APD"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-a7017a081751c4ad",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d0f6ec3d7529c830",
+          "locator": "reported_amount:106060.0",
+          "title": "Autonomous Livestock Feed Monitoring Bins",
+          "url": "https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:1232SA26P0672",
+        "label": "Autonomous Livestock Feed Monitoring Bins",
+        "node_id": "award_notice:sam_gov:1232SA26P0672",
+        "node_type": "award_notice"
+      },
+      "value": 106060.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6a617e86717eed49",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": {
+        "identifier": "name:c lock",
+        "label": "C-LOCK, INC.",
+        "node_id": "recipient_or_contractor:name:c lock",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ec505c7a205e1003",
+          "locator": "reported_recipient:recipient_or_contractor:name:c lock",
+          "title": "Autonomous Livestock Feed Monitoring Bins",
+          "url": "https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:1232SA26P0672",
+        "label": "Autonomous Livestock Feed Monitoring Bins",
+        "node_id": "award_notice:sam_gov:1232SA26P0672",
+        "node_type": "award_notice"
+      },
+      "value": null
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-d12c4977d42f65af",
+      "confidence": "medium",
+      "effective_date": "2026-09-05",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-54cfa2983e765351",
+          "locator": "qualification_gate",
+          "title": "EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)",
+          "url": "https://www.grants.gov/search-results-detail/363622",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:26-524",
+        "label": "EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)",
+        "node_id": "opportunity:grants_gov:26-524",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-f0f3efcaaf73e9ac",
+      "confidence": "medium",
+      "effective_date": "2026-09-05",
+      "first_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ed9c4c502acc3394",
+          "locator": "qualification_gate",
+          "title": "MPS Physics Research Programs (MPS Physics)",
+          "url": "https://www.grants.gov/search-results-detail/363621",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:26-523",
+        "label": "MPS Physics Research Programs (MPS Physics)",
+        "node_id": "opportunity:grants_gov:26-523",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
     }
   ],
   "baseline_initialized": false,
   "changed": [
     {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-1cd28a92754a4006",
-      "confidence": "high",
-      "effective_date": "2026-07-01",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "previous_object": null,
-      "previous_value": 18251288.39,
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9a5ec4b27299a43a",
-          "locator": "reported_amount:18667019.14",
-          "title": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80ARC026F7006",
-        "label": "IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7006",
-        "node_type": "award"
-      },
-      "value": 18667019.14
-    },
-    {
       "authority": "analytical",
       "change_type": "changed",
-      "claim_id": "claim-a2e9e3e73fdcc51b",
+      "claim_id": "claim-7a258dbaa60f4994",
       "confidence": "medium",
-      "effective_date": "2026-09-04",
-      "first_observed_at": "2026-08-12T01:17:45.977018+00:00",
-      "last_observed_at": "2026-09-04T02:21:51.764000+00:00",
+      "effective_date": "2026-09-05",
+      "first_observed_at": "2026-08-29T05:05:39.790622+00:00",
+      "last_observed_at": "2026-09-05T02:22:37.229027+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
-      "previous_value": "hold",
+      "previous_value": "targeted review",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-78e4e803547dc84a",
+          "evidence_id": "evidence-ece3733c2513bed0",
           "locator": "qualification_gate",
-          "title": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
-          "url": "https://www.grants.gov/search-results-detail/363537",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bc417e797178ae7c",
+          "locator": "qualification_gate",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a74ea5c0fd9b4adbb0a39c09f8263834/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c40472f2d83434a9",
+          "locator": "qualification_gate",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4863f6824dbc4040889e1d84101f0c96",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:G26AS00156",
-        "label": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
-        "node_id": "opportunity:grants_gov:G26AS00156",
+        "identifier": "sam_gov:19AS2026Q0032",
+        "label": "EdUSA AI & Quantum Technologies Initiative in Australia",
+        "node_id": "opportunity:sam_gov:19AS2026Q0032",
         "node_type": "opportunity"
       },
       "value": "hold"
     }
   ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-09-04T02:21:51.764000+00:00",
-  "comparison_started_at": "2026-09-03T02:26:59.168647+00:00",
+  "comparison_ended_at": "2026-09-05T02:22:37.229027+00:00",
+  "comparison_started_at": "2026-09-04T02:21:51.764000+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -2030,19 +2073,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-09-03T02:26:59.168647+00:00",
+  "since": "2026-09-04T02:21:51.764000+00:00",
   "summary": {
-    "active_claims": 4052,
-    "added": 24,
-    "changed": 2,
+    "active_claims": 4078,
+    "added": 26,
+    "changed": 1,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 53,
+    "material_changes": 54,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-09-04T02:21:51.764000+00:00",
+  "updated_at": "2026-09-05T02:22:37.229027+00:00",
   "version": 1
 }

@@ -2,47 +2,48 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-04T02:21:51.764000+00:00_
+_Updated 2026-09-05T02:22:37.229027+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **53**
-- Added / changed / resolved: **24 / 2 / 27**
+- Material changes: **54**
+- Added / changed / resolved: **26 / 1 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **IDIQ PROCUREMENT SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.** — reported amount: 18667019.14 ([evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7006_8000_80ARC018D0010_8000))
-- **Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363537))
+- **EdUSA AI & Quantum Technologies Initiative in Australia** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view))
 
 ## New claims
 
-- **REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE** — has related patent: — ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025026280/application-data))
-- **DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_99115S26_068))
-- **DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...** — awarding agency: Environmental Protection Agency ([evidence](https://www.usaspending.gov/award/ASST_NON_99115S26_068))
-- **DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...** — reported amount: 24888000.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_99115S26_068))
-- **DESCRIPTION:THIS AGREEMENT PROVIDES A CAPITALIZATION GRANT, FUNDED BY THE INFRASTRUCTURE INVESTMENT AND JOBS ACT (IIJA) (PL 117-58), FOR THE RECIPIENT'S DRINKING WATER STATE REVOL...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_99115S26_068))
-- **REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE** — has related patent: — ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025026280/application-data))
-- **COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426C0033_1205_-NONE-_-NONE-))
-- **COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...** — awarding agency: Department of Agriculture ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426C0033_1205_-NONE-_-NONE-))
-- **COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...** — reported amount: 3723999.4 ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426C0033_1205_-NONE-_-NONE-))
-- **COMPREHENSIVE TECHNICAL, OPERATIONAL, AND CYBERSECURITY SERVICES TO RE-DEPLOY, SUSTAIN, REFINE, AND ADVANCE THE MRP SCIENTIFIC COMPUTING PLATFORM (SCICOMP) HIGH PERFORMANCE COMPUT...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426C0033_1205_-NONE-_-NONE-))
-- **DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426F0364_1205_NNG15SD76B_8000))
-- **DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.** — awarding agency: Department of Agriculture ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426F0364_1205_NNG15SD76B_8000))
-- **DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.** — reported amount: 130454.86 ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426F0364_1205_NNG15SD76B_8000))
-- **DIGICERT DIGITAL CERTIFICATE LICENSES FOR THE U.S. DEPARTMENT OF AGRICULTURE - OFFICE OF THE CHIEF INFORMATION OFFICER, CYBERSECURITY AND PRIVACY OPERATIONS CENTER.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_12314426F0364_1205_NNG15SD76B_8000))
-- **Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view))
-- **OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB030160_1341_-NONE-_-NONE-))
-- **OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB030160_1341_-NONE-_-NONE-))
-- **OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...** — reported amount: 101380.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB030160_1341_-NONE-_-NONE-))
-- **OU03-FY26-203-NEW CHIPS R&D REPLACEMENT PROBE FOR EXISTING MAGNETIC PROPERTY MEASUREMENT SYSTEM 3 (MPMS3) SUPERCONDUCTING QUANTUM INTERFERENCE DEVICE VIBRATING SAMPLE MAGNETOMETER...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB030160_1341_-NONE-_-NONE-))
-- **66--Quantum Cascade Laser (QCL) System** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view))
-- **QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_89243326PFE000986_8900_-NONE-_-NONE-))
-- **QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...** — awarding agency: Department of Energy ([evidence](https://www.usaspending.gov/award/CONT_AWD_89243326PFE000986_8900_-NONE-_-NONE-))
-- **QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...** — reported amount: 23786.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_89243326PFE000986_8900_-NONE-_-NONE-))
-- **QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_89243326PFE000986_8900_-NONE-_-NONE-))
+- **HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330))
+- **HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330))
+- **HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL** — reported amount: 7984545.4 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330))
+- **HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330))
+- **THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732))
+- **THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...** — awarding agency: Department of Health and Human Services ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732))
+- **THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...** — reported amount: 5802109.44 ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732))
+- **THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732))
+- **HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330))
+- **HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330))
+- **HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)** — reported amount: 2221040.48 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330))
+- **HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS)** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330))
+- **SENSOR,COMPRESSION** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view))
+- **SENSOR,COMPRESSION** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK ([evidence](https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view))
+- **SENSOR,COMPRESSION** — reported amount: 1869922.26 ([evidence](https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view))
+- **SENSOR,COMPRESSION** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view))
+- **99--FITTING HOLDBACK AI** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view))
+- **99--FITTING HOLDBACK AI** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT ([evidence](https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view))
+- **99--FITTING HOLDBACK AI** — reported amount: 1707670.0 ([evidence](https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view))
+- **99--FITTING HOLDBACK AI** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view))
+- **Autonomous Livestock Feed Monitoring Bins** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view))
+- **Autonomous Livestock Feed Monitoring Bins** — awarding agency: AGRICULTURE, DEPARTMENT OF.AGRICULTURAL RESEARCH SERVICE.USDA ARS AFM APD ([evidence](https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view))
+- **Autonomous Livestock Feed Monitoring Bins** — reported amount: 106060.0 ([evidence](https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view))
+- **Autonomous Livestock Feed Monitoring Bins** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view))
+- **EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363622))
+- **MPS Physics Research Programs (MPS Physics)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363621))
 
 ## Superseded claims
 

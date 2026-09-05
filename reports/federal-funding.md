@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-09-04 02:21 UTC_
+_Updated 2026-09-05 02:22 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
 USAspending records describe reported awards; Grants.gov and SAM.gov records describe opportunities or notices. Analytical mission and patent links are not evidence that a patent was funded by, used by, or formally associated with a mission.
 
 - Tracked records: **500**
-- Awards / grant opportunities / procurement opportunities: **461 / 26 / 11**
-- Open opportunities: **30** (including 5 BAA and 2 RFI records)
-- Opportunity radar: **1 mission-linked**, **11 closing within 30 days**, **0 new since yesterday**
+- Awards / grant opportunities / procurement opportunities: **467 / 20 / 11**
+- Open opportunities: **25** (including 5 BAA and 2 RFI records)
+- Opportunity radar: **1 mission-linked**, **9 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **14**
 - Missions with activity: **4 of 10**
-- Named recipients and contractors: **298**
-- Known reported award value: **$400.1M**
+- Named recipients and contractors: **302**
+- Known reported award value: **$419.8M**
 
 ## Opportunity Radar
 
@@ -29,32 +29,27 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | 2 | [EdUSA AI & Quantum Technologies Initiative in Australia](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view) | PROCUREMENT_OPPORTUNITY | 2026-09-08T16:00:00+10:00 | Not linked | quantum, artificial intelligence | **38 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
 | 3 | [NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view) | PROCUREMENT_OPPORTUNITY | 2026-09-09T09:00:00-04:00 | Not linked | quantum, artificial intelligence | **38 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
 | 4 | [Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/359269) | GRANT_OPPORTUNITY | 10/02/2026 | Not linked | quantum, artificial intelligence | **37 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 5 | [MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026](https://www.grants.gov/search-results-detail/363586) | GRANT_OPPORTUNITY | 09/04/2026 | Not linked | cybersecurity | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 6 | [Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)](https://www.grants.gov/search-results-detail/363537) | GRANT_OPPORTUNITY | 09/11/2026 | Not linked | artificial intelligence | **34 · MONITOR** | Review requirements and make a bid/no-bid decision immediately. |
-| 7 | [CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)](https://www.grants.gov/search-results-detail/360651) | BAA | 09/15/2026 | Not linked | quantum | **32 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 8 | [NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research](https://www.grants.gov/search-results-detail/352741) | BAA | 09/30/2026 | Not linked | advanced computing | **32 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 9 | [Cybersecurity Innovation for Cyberinfrastructure](https://www.grants.gov/search-results-detail/358004) | GRANT_OPPORTUNITY | 01/20/2027 | Not linked | artificial intelligence, cybersecurity | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 10 | [Advancing Global Health](https://www.grants.gov/search-results-detail/363649) | GRANT_OPPORTUNITY | 02/14/2027 | Not linked | quantum, post-quantum cryptography | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 11 | [Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)](https://www.grants.gov/search-results-detail/361238) | GRANT_OPPORTUNITY | 04/05/2027 | Not linked | artificial intelligence, cybersecurity | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 12 | [Occupational Safety and Health Training Project Grants (T03)](https://www.grants.gov/search-results-detail/355722) | GRANT_OPPORTUNITY | 10/26/2028 | Not linked | quantum, post-quantum cryptography | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 13 | [Annual Program Statement](https://www.grants.gov/search-results-detail/363723) | GRANT_OPPORTUNITY | 09/13/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 14 | [U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)](https://www.grants.gov/search-results-detail/363744) | GRANT_OPPORTUNITY | 09/14/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 15 | [University-led Networks for Innovation, Technology, and Expertise (UNITE)](https://www.grants.gov/search-results-detail/363645) | GRANT_OPPORTUNITY | 09/17/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 16 | [Agriculture Risk Management Education Partnerships Competitive Grants Program](https://www.grants.gov/search-results-detail/363682) | GRANT_OPPORTUNITY | 09/21/2026 | Not linked | quantum | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 17 | [Bridge2AI Network for AI Health Science](https://www.grants.gov/search-results-detail/363107) | GRANT_OPPORTUNITY | Not reported | Not linked | artificial intelligence, autonomy and sensing | **28 · MONITOR** | Track the release and prepare capability evidence. |
-| 18 | [Alumni Engagement Innovation Fund (AEIF) 2026: Exchange Alumni Advancing Freedom250](https://www.grants.gov/search-results-detail/361614) | GRANT_OPPORTUNITY | Not reported | Not linked | quantum, post-quantum cryptography | **28 · MONITOR** | Track the release and prepare capability evidence. |
-| 19 | [NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI](https://www.grants.gov/search-results-detail/361318) | GRANT_OPPORTUNITY | Not reported | Not linked | artificial intelligence, advanced computing | **28 · MONITOR** | Track the release and prepare capability evidence. |
-| 20 | [Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025](https://www.grants.gov/search-results-detail/355385) | GRANT_OPPORTUNITY | Not reported | Not linked | quantum, post-quantum cryptography | **28 · MONITOR** | Track the release and prepare capability evidence. |
-| 21 | [EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)](https://www.grants.gov/search-results-detail/363622) | GRANT_OPPORTUNITY | 02/11/2027 | Not linked | advanced computing | **26 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 22 | [FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) – RESEARCH COLLABORATION (RC)](https://www.grants.gov/search-results-detail/363526) | GRANT_OPPORTUNITY | 04/05/2027 | Not linked | quantum | **26 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 23 | [Expeditions in Computing (Expeditions)](https://www.grants.gov/search-results-detail/363623) | GRANT_OPPORTUNITY | 07/27/2027 | Not linked | advanced computing | **26 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 24 | [MPS Physics Research Programs (MPS Physics)](https://www.grants.gov/search-results-detail/363621) | GRANT_OPPORTUNITY | 08/17/2076 | Not linked | quantum | **26 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 25 | [Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)](https://www.grants.gov/search-results-detail/363613) | GRANT_OPPORTUNITY | 08/19/2076 | Not linked | quantum | **26 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 26 | [Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)](https://www.grants.gov/search-results-detail/363614) | GRANT_OPPORTUNITY | 08/26/2076 | Not linked | autonomy and sensing | **26 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 27 | [Naval Engineering Education Consortium (NEEC) Broad Agency Announcement for Fiscal Year 2026](https://www.grants.gov/search-results-detail/360183) | BAA | Not reported | Not linked | autonomy and sensing | **23 · MONITOR** | Track the release and prepare capability evidence. |
-| 28 | [Broad Agency Announcement for Fundamental AI Research](https://www.grants.gov/search-results-detail/358687) | BAA | Not reported | Not linked | artificial intelligence | **23 · MONITOR** | Track the release and prepare capability evidence. |
-| 29 | [Long Range Broad Agency Announcement (BAA) for NSWC Crane](https://www.grants.gov/search-results-detail/352238) | BAA | Not reported | Not linked | autonomy and sensing | **23 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 30 | [Multimodal AI to Accelerate Precision Medicine for Type 1 Diabetes (U01- Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/363678) | GRANT_OPPORTUNITY | Not reported | Not linked | artificial intelligence | **22 · MONITOR** | Track the release and prepare capability evidence. |
+| 5 | [CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)](https://www.grants.gov/search-results-detail/360651) | BAA | 09/15/2026 | Not linked | quantum | **32 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 6 | [NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research](https://www.grants.gov/search-results-detail/352741) | BAA | 09/30/2026 | Not linked | advanced computing | **32 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 7 | [Cybersecurity Innovation for Cyberinfrastructure](https://www.grants.gov/search-results-detail/358004) | GRANT_OPPORTUNITY | 01/20/2027 | Not linked | artificial intelligence, cybersecurity | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 8 | [Advancing Global Health](https://www.grants.gov/search-results-detail/363649) | GRANT_OPPORTUNITY | 02/14/2027 | Not linked | quantum, post-quantum cryptography | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 9 | [Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)](https://www.grants.gov/search-results-detail/361238) | GRANT_OPPORTUNITY | 04/05/2027 | Not linked | artificial intelligence, cybersecurity | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 10 | [Occupational Safety and Health Training Project Grants (T03)](https://www.grants.gov/search-results-detail/355722) | GRANT_OPPORTUNITY | 10/26/2028 | Not linked | quantum, post-quantum cryptography | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 11 | [Annual Program Statement](https://www.grants.gov/search-results-detail/363723) | GRANT_OPPORTUNITY | 09/13/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 12 | [U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)](https://www.grants.gov/search-results-detail/363744) | GRANT_OPPORTUNITY | 09/14/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 13 | [University-led Networks for Innovation, Technology, and Expertise (UNITE)](https://www.grants.gov/search-results-detail/363645) | GRANT_OPPORTUNITY | 09/17/2026 | Not linked | artificial intelligence | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 14 | [Agriculture Risk Management Education Partnerships Competitive Grants Program](https://www.grants.gov/search-results-detail/363682) | GRANT_OPPORTUNITY | 09/21/2026 | Not linked | quantum | **31 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 15 | [Bridge2AI Network for AI Health Science](https://www.grants.gov/search-results-detail/363107) | GRANT_OPPORTUNITY | Not reported | Not linked | artificial intelligence, autonomy and sensing | **28 · MONITOR** | Track the release and prepare capability evidence. |
+| 16 | [Alumni Engagement Innovation Fund (AEIF) 2026: Exchange Alumni Advancing Freedom250](https://www.grants.gov/search-results-detail/361614) | GRANT_OPPORTUNITY | Not reported | Not linked | quantum, post-quantum cryptography | **28 · MONITOR** | Track the release and prepare capability evidence. |
+| 17 | [NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI](https://www.grants.gov/search-results-detail/361318) | GRANT_OPPORTUNITY | Not reported | Not linked | artificial intelligence, advanced computing | **28 · MONITOR** | Track the release and prepare capability evidence. |
+| 18 | [Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025](https://www.grants.gov/search-results-detail/355385) | GRANT_OPPORTUNITY | Not reported | Not linked | quantum, post-quantum cryptography | **28 · MONITOR** | Track the release and prepare capability evidence. |
+| 19 | [EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)](https://www.grants.gov/search-results-detail/363622) | GRANT_OPPORTUNITY | 02/11/2027 | Not linked | advanced computing | **26 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 20 | [MPS Physics Research Programs (MPS Physics)](https://www.grants.gov/search-results-detail/363621) | GRANT_OPPORTUNITY | 08/17/2076 | Not linked | quantum | **26 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 21 | [Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)](https://www.grants.gov/search-results-detail/363613) | GRANT_OPPORTUNITY | 08/19/2076 | Not linked | quantum | **26 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 22 | [Naval Engineering Education Consortium (NEEC) Broad Agency Announcement for Fiscal Year 2026](https://www.grants.gov/search-results-detail/360183) | BAA | Not reported | Not linked | autonomy and sensing | **23 · MONITOR** | Track the release and prepare capability evidence. |
+| 23 | [Broad Agency Announcement for Fundamental AI Research](https://www.grants.gov/search-results-detail/358687) | BAA | Not reported | Not linked | artificial intelligence | **23 · MONITOR** | Track the release and prepare capability evidence. |
+| 24 | [Long Range Broad Agency Announcement (BAA) for NSWC Crane](https://www.grants.gov/search-results-detail/352238) | BAA | Not reported | Not linked | autonomy and sensing | **23 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 25 | [Multimodal AI to Accelerate Precision Medicine for Type 1 Diabetes (U01- Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/363678) | GRANT_OPPORTUNITY | Not reported | Not linked | artificial intelligence | **22 · MONITOR** | Track the release and prepare capability evidence. |
 
 ## Mission Funding Portfolios
 
@@ -100,11 +95,6 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)](https://www.grants.gov/search-results-detail/363613) | GRANT_OPPORTUNITY | NSF | 08/19/2076 | Not linked | **19 · MONITOR** |
 | [MPS Physics Research Programs (MPS Physics)](https://www.grants.gov/search-results-detail/363621) | GRANT_OPPORTUNITY | NSF | 08/17/2076 | Not linked | **19 · MONITOR** |
 | [EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)](https://www.grants.gov/search-results-detail/363622) | GRANT_OPPORTUNITY | NSF | 02/11/2027 | Not linked | **19 · MONITOR** |
-| [Expeditions in Computing (Expeditions)](https://www.grants.gov/search-results-detail/363623) | GRANT_OPPORTUNITY | NSF | 07/27/2027 | Not linked | **19 · MONITOR** |
-| [Engineering (ENG): Civil, Mechanical and Manufacturing Innovation (CMMI)](https://www.grants.gov/search-results-detail/363614) | GRANT_OPPORTUNITY | NSF | 08/26/2076 | Not linked | **19 · MONITOR** |
-| [MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026](https://www.grants.gov/search-results-detail/363586) | GRANT_OPPORTUNITY | SBA | 09/04/2026 | Not linked | **19 · MONITOR** |
-| [Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)](https://www.grants.gov/search-results-detail/363537) | GRANT_OPPORTUNITY | DOI-USGS1 | 09/11/2026 | Not linked | **19 · MONITOR** |
-| [FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) – RESEARCH COLLABORATION (RC)](https://www.grants.gov/search-results-detail/363526) | GRANT_OPPORTUNITY | DOD-AFOSR | 04/05/2027 | Not linked | **19 · MONITOR** |
 
 ## Awards and Funding Announcements
 
