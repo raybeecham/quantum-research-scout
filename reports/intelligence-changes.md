@@ -2,57 +2,23 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-06T02:18:38.997053+00:00_
+_Updated 2026-09-06T07:29:58.808091+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **63**
-- Added / changed / resolved: **33 / 3 / 27**
+- Material changes: **27**
+- Added / changed / resolved: **0 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT** — reported amount: 2207146.74 ([evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7005_8000_80ARC018D0010_8000))
-- **NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view))
-- **Broad Agency Announcement for Fundamental AI Research** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/358687))
+- None.
 
 ## New claims
 
-- **OU77-FY26-136-NEW SPACE SYSTEMS COMMAND (SSC) S6 CYBERSECURITY TECHNICAL SUPPORT** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB770121_1341_DOCSB134114CQ0010_1341))
-- **OU77-FY26-136-NEW SPACE SYSTEMS COMMAND (SSC) S6 CYBERSECURITY TECHNICAL SUPPORT** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB770121_1341_DOCSB134114CQ0010_1341))
-- **OU77-FY26-136-NEW SPACE SYSTEMS COMMAND (SSC) S6 CYBERSECURITY TECHNICAL SUPPORT** — reported amount: 370250.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB770121_1341_DOCSB134114CQ0010_1341))
-- **OU77-FY26-136-NEW SPACE SYSTEMS COMMAND (SSC) S6 CYBERSECURITY TECHNICAL SUPPORT** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB770121_1341_DOCSB134114CQ0010_1341))
-- **WIZ INC. CLOUD NATIVE APPLICATION PROTECTION PLATFORM (CNAPP) WITH ARTIFICIAL INTELLIGENCE (AI) AND APPLICATION PROGRAMMING INTERFACE (API) SECURITY** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_2099CH26F00017_2099_NNG15SD80B_8000))
-- **WIZ INC. CLOUD NATIVE APPLICATION PROTECTION PLATFORM (CNAPP) WITH ARTIFICIAL INTELLIGENCE (AI) AND APPLICATION PROGRAMMING INTERFACE (API) SECURITY** — reported amount: 195047.05 ([evidence](https://www.usaspending.gov/award/CONT_AWD_2099CH26F00017_2099_NNG15SD80B_8000))
-- **WIZ INC. CLOUD NATIVE APPLICATION PROTECTION PLATFORM (CNAPP) WITH ARTIFICIAL INTELLIGENCE (AI) AND APPLICATION PROGRAMMING INTERFACE (API) SECURITY** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_2099CH26F00017_2099_NNG15SD80B_8000))
-- **ENTERPRISE CYBERSECURITY SUPPORT SERVICES (ECSS)** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_140D0426F0990_1406_140D0424A0023_1406))
-- **ENTERPRISE CYBERSECURITY SUPPORT SERVICES (ECSS)** — awarding agency: Department of the Interior ([evidence](https://www.usaspending.gov/award/CONT_AWD_140D0426F0990_1406_140D0424A0023_1406))
-- **ENTERPRISE CYBERSECURITY SUPPORT SERVICES (ECSS)** — reported amount: 3594474.12 ([evidence](https://www.usaspending.gov/award/CONT_AWD_140D0426F0990_1406_140D0424A0023_1406))
-- **ENTERPRISE CYBERSECURITY SUPPORT SERVICES (ECSS)** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_140D0426F0990_1406_140D0424A0023_1406))
-- **CYBERSECURITY, COMPLIANCE, AND QUALITY ASSURANCE SUPPORT SERVICES.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_12SAD126F0011_12E3_47QTCA24D00ED_4732))
-- **CYBERSECURITY, COMPLIANCE, AND QUALITY ASSURANCE SUPPORT SERVICES.** — awarding agency: Department of Agriculture ([evidence](https://www.usaspending.gov/award/CONT_AWD_12SAD126F0011_12E3_47QTCA24D00ED_4732))
-- **CYBERSECURITY, COMPLIANCE, AND QUALITY ASSURANCE SUPPORT SERVICES.** — reported amount: 1346350.73 ([evidence](https://www.usaspending.gov/award/CONT_AWD_12SAD126F0011_12E3_47QTCA24D00ED_4732))
-- **CYBERSECURITY, COMPLIANCE, AND QUALITY ASSURANCE SUPPORT SERVICES.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_12SAD126F0011_12E3_47QTCA24D00ED_4732))
-- **TOWARD AUTOMATED, SCALABLE KNOWLEDGE ENGINEERING FOR REAL WORLD DATA USING CLINICAL TERMINOLOGIES - PROJECT SUMMARY HIGH-QUALITY REAL-WORLD EVIDENCE DEPENDS ON TWO INTERTWINED CAP...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_F31LM015316_075))
-- **TOWARD AUTOMATED, SCALABLE KNOWLEDGE ENGINEERING FOR REAL WORLD DATA USING CLINICAL TERMINOLOGIES - PROJECT SUMMARY HIGH-QUALITY REAL-WORLD EVIDENCE DEPENDS ON TWO INTERTWINED CAP...** — awarding agency: Department of Health and Human Services ([evidence](https://www.usaspending.gov/award/ASST_NON_F31LM015316_075))
-- **TOWARD AUTOMATED, SCALABLE KNOWLEDGE ENGINEERING FOR REAL WORLD DATA USING CLINICAL TERMINOLOGIES - PROJECT SUMMARY HIGH-QUALITY REAL-WORLD EVIDENCE DEPENDS ON TWO INTERTWINED CAP...** — reported amount: 50114.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_F31LM015316_075))
-- **TOWARD AUTOMATED, SCALABLE KNOWLEDGE ENGINEERING FOR REAL WORLD DATA USING CLINICAL TERMINOLOGIES - PROJECT SUMMARY HIGH-QUALITY REAL-WORLD EVIDENCE DEPENDS ON TWO INTERTWINED CAP...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_F31LM015316_075))
-- **DEEP LEARNING FOR HIGH-THROUGHPUT HISTOPATHOLOGY MAPPING IN ALZHEIMER'S DISEASE - PROJECT SUMMARY/ABSTRACT ALZHEIMER’S DISEASE (AD) IS A NEURODEGENERATIVE DISEASE ASSOCIATED WITH...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_F31AG094285_075))
-- **DEEP LEARNING FOR HIGH-THROUGHPUT HISTOPATHOLOGY MAPPING IN ALZHEIMER'S DISEASE - PROJECT SUMMARY/ABSTRACT ALZHEIMER’S DISEASE (AD) IS A NEURODEGENERATIVE DISEASE ASSOCIATED WITH...** — awarding agency: Department of Health and Human Services ([evidence](https://www.usaspending.gov/award/ASST_NON_F31AG094285_075))
-- **DEEP LEARNING FOR HIGH-THROUGHPUT HISTOPATHOLOGY MAPPING IN ALZHEIMER'S DISEASE - PROJECT SUMMARY/ABSTRACT ALZHEIMER’S DISEASE (AD) IS A NEURODEGENERATIVE DISEASE ASSOCIATED WITH...** — reported amount: 46564.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_F31AG094285_075))
-- **DEEP LEARNING FOR HIGH-THROUGHPUT HISTOPATHOLOGY MAPPING IN ALZHEIMER'S DISEASE - PROJECT SUMMARY/ABSTRACT ALZHEIMER’S DISEASE (AD) IS A NEURODEGENERATIVE DISEASE ASSOCIATED WITH...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_F31AG094285_075))
-- **AHI- ARTIFICIAL INTELLIGENCE PROFESSIONAL SERVICES** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_191S4026P0689_1900_-NONE-_-NONE-))
-- **AHI- ARTIFICIAL INTELLIGENCE PROFESSIONAL SERVICES** — awarding agency: Department of State ([evidence](https://www.usaspending.gov/award/CONT_AWD_191S4026P0689_1900_-NONE-_-NONE-))
-- **AHI- ARTIFICIAL INTELLIGENCE PROFESSIONAL SERVICES** — reported amount: 33750.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_191S4026P0689_1900_-NONE-_-NONE-))
-- **AHI- ARTIFICIAL INTELLIGENCE PROFESSIONAL SERVICES** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_191S4026P0689_1900_-NONE-_-NONE-))
-- **CERBERUS LICENSES ENABLE SECURE ADMINISTRATOR AUTHENTICATION AND FTP BACKUP MANAGEMENT FOR SYSTEM RECOVERY. RENEWAL ENSURES CONTINUED OEM CYBERSECURITY SUPPORT, VULNERABILITY REME...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0003926F0017_9700_NNG15SD09B_8000))
-- **CERBERUS LICENSES ENABLE SECURE ADMINISTRATOR AUTHENTICATION AND FTP BACKUP MANAGEMENT FOR SYSTEM RECOVERY. RENEWAL ENSURES CONTINUED OEM CYBERSECURITY SUPPORT, VULNERABILITY REME...** — awarding agency: Department of Defense ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0003926F0017_9700_NNG15SD09B_8000))
-- **CERBERUS LICENSES ENABLE SECURE ADMINISTRATOR AUTHENTICATION AND FTP BACKUP MANAGEMENT FOR SYSTEM RECOVERY. RENEWAL ENSURES CONTINUED OEM CYBERSECURITY SUPPORT, VULNERABILITY REME...** — reported amount: 17654.98 ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0003926F0017_9700_NNG15SD09B_8000))
-- **CERBERUS LICENSES ENABLE SECURE ADMINISTRATOR AUTHENTICATION AND FTP BACKUP MANAGEMENT FOR SYSTEM RECOVERY. RENEWAL ENSURES CONTINUED OEM CYBERSECURITY SUPPORT, VULNERABILITY REME...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0003926F0017_9700_NNG15SD09B_8000))
-- **Naval Engineering Education Consortium (NEEC) Broad Agency Announcement for Fiscal Year 2026** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/360183))
-- **Long Range Broad Agency Announcement (BAA) for NSWC Crane** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/352238))
+- None.
 
 ## Superseded claims
 

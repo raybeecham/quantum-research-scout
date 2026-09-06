@@ -175,8 +175,8 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 20,
-      "historical_evidence_count": 13,
+      "evidence_count": 17,
+      "historical_evidence_count": 10,
       "latest_evidence_at": "2026-08-28",
       "name": "Keyfactor",
       "priority": "high",
@@ -199,6 +199,36 @@
           "source": "Keyfactor Quantum and Crypto-Agility",
           "title": "Post-Quantum Resilience Has to Go All the Way to the Silicon",
           "url": "https://www.keyfactor.com/blog/post-quantum-resilience-has-to-go-all-the-way-to-the-silicon/"
+        },
+        {
+          "date": "2026-08-24",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Post-Quantum Readiness for FinServ",
+          "url": "https://www.keyfactor.com/compliance-hub/post-quantum-readiness-for-finserv/"
+        },
+        {
+          "date": "2026-08-21",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Post-Quantum Readiness for IT & Software",
+          "url": "https://www.keyfactor.com/compliance-hub/post-quantum-readiness-for-it-and-software/"
         },
         {
           "date": "2026-07-31",
@@ -275,36 +305,6 @@
           "source": "The Quantum Insider",
           "title": "Keyfactor Expands Partner Program for Post-Quantum Cryptography Readiness",
           "url": "https://thequantuminsider.com/2026/07/22/keyfactor-expands-partner-program-for-post-quantum-security"
-        },
-        {
-          "date": "2026-07-06",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "crypto-agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "AgileSec 3.6 Gives Security Teams More Visibility, More Control, and a Faster Path to Cryptographic-Agility",
-          "url": "https://www.keyfactor.com/blog/agilesec-3-6-gives-security-teams-more-visibility-more-control-and-a-faster-path-to-cryptographic-agility/"
-        },
-        {
-          "date": "2026-06-23",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "readiness"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Explaining Executive Order: Securing the Nation Against Advanced Cryptographic Attacks & What This Means for Your Organization",
-          "url": "https://www.keyfactor.com/blog/explaining-executive-order-securing-the-nation-against-advanced-cryptographic-attacks-what-this-means-for-your-organization/"
         }
       ],
       "type": "company"
@@ -490,6 +490,22 @@
         },
         {
           "date": "2026-09-02",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum",
+            "quantum cyber"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuSecure Press Releases",
+          "title": "Resources in Press Releases",
+          "url": "https://www.qusecure.com/category/press-releases/"
+        },
+        {
+          "date": "2026-09-02",
           "date_confidence": "unknown",
           "date_kind": "unknown",
           "historical": false,
@@ -532,21 +548,6 @@
           "source": "Quantum Zeitgeist",
           "title": "QuSecure\u2019s Platform Simplifies Post-Quantum Crypto for Federal Networks",
           "url": "https://quantumzeitgeist.com/post-quantum-crypto-qusecures-platform-simplifies"
-        },
-        {
-          "date": "2025-07-19",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "post quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "QuSecure Press Releases",
-          "title": "Press Releases",
-          "url": "https://www.qusecure.com/press-releases/"
         },
         {
           "date": null,
@@ -878,8 +879,8 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 20,
-      "historical_evidence_count": 14,
+      "evidence_count": 6,
+      "historical_evidence_count": 0,
       "latest_evidence_at": "2026-09-01",
       "name": "Cisco",
       "priority": "high",
@@ -977,36 +978,6 @@
           "source": "Cisco Quantum-Safe Updates",
           "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
           "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
-        },
-        {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": true,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "post-quantum tls Archives",
-          "url": "https://blogs.cisco.com/tag/post-quantum-tls"
-        },
-        {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": true,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "post-quantum ssh Archives",
-          "url": "https://blogs.cisco.com/tag/post-quantum-ssh"
         }
       ],
       "type": "company"
@@ -1771,6 +1742,6 @@
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-09-06T02:25:42.376216+00:00",
+  "updated_at": "2026-09-06T07:29:58.808091+00:00",
   "version": 1
 }
