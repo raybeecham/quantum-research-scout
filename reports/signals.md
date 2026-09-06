@@ -4,17 +4,17 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-05 02:26 UTC_
+_Updated 2026-09-06 02:25 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
-| PQC / Crypto Agility | ↗️ rising (21 vs 14) | 🔴 critical | high | 🎯 actionable | 2026-06-21 | 2026-09-04 | 176 |
-| Quantum Hardware | ↗️ rising (23 vs 13) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-04 | 252 |
+| PQC / Crypto Agility | ↗️ rising (22 vs 14) | 🔴 critical | high | 🎯 actionable | 2026-06-21 | 2026-09-05 | 177 |
+| QEC / Fault Tolerance | ↗️ rising (5 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-09-05 | 53 |
+| Quantum Hardware | ↗️ rising (26 vs 11) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-05 | 255 |
 | Quantum Software / Tooling | ↗️ rising (8 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-04 | 80 |
 | AI Security | ➡️ stable (2 vs 2) | 🔴 critical | high | 👁️ watching | 2026-07-01 | 2026-09-03 | 19 |
-| QEC / Fault Tolerance | ➡️ stable (3 vs 4) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-08-31 | 51 |
 | Quantum Networking | ➡️ stable (5 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-03 | 98 |
 | Quantum Sensing | ↘️ declining (2 vs 3) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-04 | 43 |
 | Standards / Government | ➡️ stable (7 vs 5) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-09-04 | 43 |
@@ -24,22 +24,33 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-09-05 — [What do you wanna talk about?](https://www.insidequantumtechnology.com/news-archive/what-do-you-wanna-talk-about) (QuantumNews.ai, score 26)
   - 2026-09-04 — [QuFi Launches Post-Quantum Verification Platform for Digital Assets](https://thequantuminsider.com/2026/09/04/qufi-post-quantum-verification-platform-digital-assets) (The Quantum Insider, score 55)
   - 2026-09-03 — [SEALSQ and wolfSSL Add wolfTPM Support for QVault Post-Quantum TPM](https://thequantuminsider.com/2026/09/03/sealsq-announces-wolftpm-support-post-quantum-tpm-technology) (The Quantum Insider, score 158)
   - 2026-09-03 — [Preparing for the Post-Quantum Era: A Call to Action](https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action) (CISA Cybersecurity Advisories, score 100)
   - 2026-09-03 — [G+D Develops Quantum-Safe Technologies for Next-Generation Identity Cards](https://thequantuminsider.com/2026/09/03/gd-quantum-safe-next-generation-identity-cards) (The Quantum Insider, score 83)
-  - 2026-09-03 — [QuSecure’s quantum-resistant PQC solution passes critical Army test](https://quantumzeitgeist.com/qusecures-quantum-resistant-pqc-solution-passes) (Quantum Zeitgeist, score 79)
+
+## QEC / Fault Tolerance
+
+- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
+- Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
+- Recent supporting evidence:
+  - 2026-09-05 — [The Steane Code Explained](https://quantumzeitgeist.com/steane-code) (Quantum Zeitgeist, score 95)
+  - 2026-09-05 — [How Do Photonic Quantum Computers Work?](https://quantumzeitgeist.com/how-do-photonic-quantum-computers-work) (Quantum Zeitgeist, score 93)
+  - 2026-08-31 — [IonQ Researchers Run MegaQuOp-Scale Quantum Error Decoder on a MacBook Pro](https://thequantuminsider.com/2026/08/31/ionq-researchers-run-megaquop-scale-quantum-error-decoder-on-a-macbook-pro) (The Quantum Insider, score 107)
+  - 2026-08-31 — [Xanadu Targets More Than 1,000 Logical Qubits by 2031](https://thequantuminsider.com/2026/08/31/xanadu-1000-logical-qubits-2031) (The Quantum Insider, score 93)
+  - 2026-08-31 — [Researchers Build Codes with Optimal Log N Circuit Depth](https://quantumzeitgeist.com/quantum-error-correction-optimal-log-n-circuit-depth) (Quantum Zeitgeist, score 56)
 
 ## Quantum Hardware
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-09-05 — [Four-qubit entanglement structure fully characterized](https://quantumzeitgeist.com/quantum-circuits-four-qubit-entanglement-structure) (Quantum Zeitgeist, score 34)
+  - 2026-09-05 — [Perfect qubit transfer no longer needs a laser pulse](https://quantumzeitgeist.com/qubit-transfer-laser-perfect-longer) (Quantum Zeitgeist, score 28)
+  - 2026-09-05 — [Quantum Measurement, How Reading a Qubit Works](https://quantumzeitgeist.com/what-is-quantum-measurement) (Quantum Zeitgeist, score 28)
   - 2026-09-04 — [Jülich Launches Trapped-Ion Quantum Computer For Supercomputing Integration](https://thequantuminsider.com/2026/09/04/julich-launches-trapped-ion-quantum-computer-for-supercomputing-integration) (The Quantum Insider, score 52)
   - 2026-09-04 — [Forschungszentrum Jülich Operates eleQtron's JION Trapped-Ion QPU via JUNIQ Infrastructure](https://quantumcomputingreport.com/forschungszentrum-julich-operates-eleqtrons-jion-trapped-ion-qpu-via-juniq-infrastructure) (QuantumNews.ai, score 38)
-  - 2026-09-04 — [MIT Qubit Design Could Speed Quantum Operations While Preserving Data](https://thequantuminsider.com/2026/09/04/mit-qubit-design-could-speed-quantum-operations-while-preserving-data) (The Quantum Insider, score 35)
-  - 2026-09-03 — [SEALSQ Integrates wolfTPM Support into Post-Quantum Silicon Semiconductor Platform (QVault TPM)](https://quantumcomputingreport.com/sealsq-integrates-wolftpm-support-into-post-quantum-silicon-semiconductor-platform-qvault-tpm) (QuantumNews.ai, score 58)
-  - 2026-09-03 — [IBM’s Nighthawk r2 Quantum Processor Targets a 25-Fold Increase in Circuit Speed](https://thequantuminsider.com/2026/09/03/ibms-nighthawk-r2-quantum-processor-targets-a-25-fold-increase-in-circuit-speed) (The Quantum Insider, score 30)
 
 ## Quantum Software / Tooling
 
@@ -62,17 +73,6 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-08-25 — [Stony Brook and Brookhaven expand New York’s quantum network](https://quantumzeitgeist.com/stony-brook-brookhaven-yorks-quantum) (Quantum Zeitgeist, score 68)
   - 2026-08-22 — [Anthropic's LLM watermarking](https://scottaaronson.blog/?p=10032) (QuantumNews.ai, score 20)
   - 2026-08-19 — [Researchers Generate LLM-Compiled Shuttling Code for Complex Trapped-Ion Architectures](https://quantumzeitgeist.com/large-language-model-trapped-ion-shuttling-code-generation) (Quantum Zeitgeist, score 60)
-
-## QEC / Fault Tolerance
-
-- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
-- Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
-- Recent supporting evidence:
-  - 2026-08-31 — [IonQ Researchers Run MegaQuOp-Scale Quantum Error Decoder on a MacBook Pro](https://thequantuminsider.com/2026/08/31/ionq-researchers-run-megaquop-scale-quantum-error-decoder-on-a-macbook-pro) (The Quantum Insider, score 107)
-  - 2026-08-31 — [Xanadu Targets More Than 1,000 Logical Qubits by 2031](https://thequantuminsider.com/2026/08/31/xanadu-1000-logical-qubits-2031) (The Quantum Insider, score 93)
-  - 2026-08-31 — [Researchers Build Codes with Optimal Log N Circuit Depth](https://quantumzeitgeist.com/quantum-error-correction-optimal-log-n-circuit-depth) (Quantum Zeitgeist, score 56)
-  - 2026-08-22 — [Chicago Team Builds Integer Programming Topological Decoder](https://quantumzeitgeist.com/topological-codes-integer-programming-decoder-implementation) (Quantum Zeitgeist, score 49)
-  - 2026-08-22 — [Researchers Speed Quantum Error Correction by up to 42 Times](https://quantumzeitgeist.com/quantum-error-correction-qldpc-codes-speedup-neutral-atoms) (Quantum Zeitgeist, score 41)
 
 ## Quantum Networking
 

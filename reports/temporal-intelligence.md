@@ -2,35 +2,43 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-09-05T02:22:37.229027+00:00_
+_Updated 2026-09-06T02:18:38.997053+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
 - Actual or recent changes: **17**
 - Newly discovered historical evidence: **2**
 - Newly observed with no reliable source date: **0**
-- Upcoming dated events: **28**
+- Upcoming dated events: **24**
 
 ## Priority timeline
 
-- **Changed since prior run** · EdUSA AI & Quantum Technologies Initiative in Australia — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view))
+- **Changed since prior run** · TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7005_8000_80ARC018D0010_8000))
   - The assertion changed relative to the prior successful ledger build.
-- **Published today** · 99--FITTING HOLDBACK AI — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/97a3a73636f4440f8780ffc9a7c66e1b/view))
-  - The source publication date is today or within the prior day.
-- **Published today** · Autonomous Livestock Feed Monitoring Bins — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/22534ac6f06f40e9beaca30f738ba09f/view))
-  - The source publication date is today or within the prior day.
-- **Published today** · SENSOR,COMPRESSION — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/5a663550ccd84410ae90c122c7a7064b/view))
-  - The source publication date is today or within the prior day.
-- **Occurred 3 days ago** · THE CONTRACTOR SHALL ENSURE OIS CONTINUES TO EXPAND THE HTOC SERVICES, INCREASES FEDERAL PARTNERSHIP INTEGRATION, PROVIDES STRATEGIC RECOMMENDATIONS, AND ENABLES CYBERSECURITY THR... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80245_7571_47QTCA20D004B_4732))
+- **Changed since prior run** · NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view))
+  - The assertion changed relative to the prior successful ledger build.
+- **Occurred 4 days ago** · AHI- ARTIFICIAL INTELLIGENCE PROFESSIONAL SERVICES — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_191S4026P0689_1900_-NONE-_-NONE-))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Upcoming event date** · HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0138_1330_1305M321ANRMA0003_1330))
-  - The source date is in the future; Scout first observed it on 2026-09-05.
-- **Upcoming event date** · HIGH PERFORMANCE COMPUTING (HPC) SOFTWARE DEVELOPMENT AND TECHNICAL SERVICES (SDTS) FOR GFDL — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0167_1330_1305M321ANRMA0003_1330))
-  - The source date is in the future; Scout first observed it on 2026-09-05.
-- **Newly discovered historical evidence** · EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC) — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363622))
-  - Scout first observed this on 2026-09-05; the source date is 2026-08-17.
-- **Newly discovered historical evidence** · MPS Physics Research Programs (MPS Physics) — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363621))
-  - Scout first observed this on 2026-09-05; the source date is 2026-08-17.
+- **Occurred 2 days ago** · CYBERSECURITY, COMPLIANCE, AND QUALITY ASSURANCE SUPPORT SERVICES. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_12SAD126F0011_12E3_47QTCA24D00ED_4732))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Occurred 4 days ago** · OU77-FY26-136-NEW SPACE SYSTEMS COMMAND (SSC) S6 CYBERSECURITY TECHNICAL SUPPORT — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB770121_1341_DOCSB134114CQ0010_1341))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Occurred 5 days ago** · WIZ INC. CLOUD NATIVE APPLICATION PROTECTION PLATFORM (CNAPP) WITH ARTIFICIAL INTELLIGENCE (AI) AND APPLICATION PROGRAMMING INTERFACE (API) SECURITY — opportunity status ([evidence](https://www.usaspending.gov/award/CONT_AWD_2099CH26F00017_2099_NNG15SD80B_8000))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Evidence trace changed** · Broad Agency Announcement for Fundamental AI Research — qualification gate ([evidence](https://www.grants.gov/search-results-detail/358687))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Upcoming event date** · CERBERUS LICENSES ENABLE SECURE ADMINISTRATOR AUTHENTICATION AND FTP BACKUP MANAGEMENT FOR SYSTEM RECOVERY. RENEWAL ENSURES CONTINUED OEM CYBERSECURITY SUPPORT, VULNERABILITY REME... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0003926F0017_9700_NNG15SD09B_8000))
+  - The source date is in the future; Scout first observed it on 2026-09-06.
+- **Upcoming event date** · DEEP LEARNING FOR HIGH-THROUGHPUT HISTOPATHOLOGY MAPPING IN ALZHEIMER'S DISEASE - PROJECT SUMMARY/ABSTRACT ALZHEIMER’S DISEASE (AD) IS A NEURODEGENERATIVE DISEASE ASSOCIATED WITH... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_F31AG094285_075))
+  - The source date is in the future; Scout first observed it on 2026-09-06.
+- **Upcoming event date** · ENTERPRISE CYBERSECURITY SUPPORT SERVICES (ECSS) — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_140D0426F0990_1406_140D0424A0023_1406))
+  - The source date is in the future; Scout first observed it on 2026-09-06.
+- **Upcoming event date** · TOWARD AUTOMATED, SCALABLE KNOWLEDGE ENGINEERING FOR REAL WORLD DATA USING CLINICAL TERMINOLOGIES - PROJECT SUMMARY HIGH-QUALITY REAL-WORLD EVIDENCE DEPENDS ON TWO INTERTWINED CAP... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_F31LM015316_075))
+  - The source date is in the future; Scout first observed it on 2026-09-06.
+- **Newly discovered historical evidence** · Long Range Broad Agency Announcement (BAA) for NSWC Crane — qualification gate ([evidence](https://www.grants.gov/search-results-detail/352238))
+  - Scout first observed this on 2026-09-06; the source date is 2024-02-08.
+- **Newly discovered historical evidence** · Naval Engineering Education Consortium (NEEC) Broad Agency Announcement for Fiscal Year 2026 — qualification gate ([evidence](https://www.grants.gov/search-results-detail/360183))
+  - Scout first observed this on 2026-09-06; the source date is 2025-07-30.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -73,13 +81,10 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-08-21** · Seek initial platform operating capability for at least one national challenge — awaiting_confirmation ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
 - **2026-09-08** · EdUSA AI & Quantum Technologies Initiative in Australia — closing_soon ([source](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view))
 - **2026-09-09** · NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) — closing_soon ([source](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view))
-- **2026-09-13** · Annual Program Statement — closing_this_month ([source](https://www.grants.gov/search-results-detail/363723))
 - **2026-09-14** · U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP) — closing_this_month ([source](https://www.grants.gov/search-results-detail/363744))
 - **2026-09-15** · CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA) — closing_this_month ([source](https://www.grants.gov/search-results-detail/360651))
-- **2026-09-17** · University-led Networks for Innovation, Technology, and Expertise (UNITE) — closing_this_month ([source](https://www.grants.gov/search-results-detail/363645))
 - **2026-09-20** · OMB issues agency guidance for inventories, migration plans, and high-impact systems — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
 - **2026-09-20** · Publish a summary of QC-ADDS technical specifications — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
-- **2026-09-21** · Agriculture Risk Management Education Partnerships Competitive Grants Program — closing_this_month ([source](https://www.grants.gov/search-results-detail/363682))
 - **2026-09-22** · Launch the AI Forge university-industry-government forum — estimated ([source](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security))
 - **2026-09-30** · Close the QBIT Stage A full-proposal window — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-09-30** · NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research — closing_this_month ([source](https://www.grants.gov/search-results-detail/352741))
@@ -93,7 +98,6 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-12-19** · NIST, NSA, and the FAR Council complete the order's initial 180-day actions — upcoming ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
 - **2026-12-31** · Advance selected NSF NQVL projects from design to implementation — estimated ([source](https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real))
 - **2027-01-20** · Cybersecurity Innovation for Cyberinfrastructure — open_window ([source](https://www.grants.gov/search-results-detail/358004))
-- **2027-02-11** · EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC) — open_window ([source](https://www.grants.gov/search-results-detail/363622))
 - **2027-02-14** · Advancing Global Health — open_window ([source](https://www.grants.gov/search-results-detail/363649))
 - **2027-03-19** · CISA and the FAR Council publish cryptographic inventory and disclosure proposals — upcoming ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
 - **2027-04-05** · Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS) — open_window ([source](https://www.grants.gov/search-results-detail/361238))

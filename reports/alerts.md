@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-05 02:26 UTC_
+_Updated 2026-09-06 02:25 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 5 | 8 | 15 | 27 |
+| 50 | 9 | 12 | 16 | 22 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -28,7 +28,7 @@ _Updated 2026-09-05 02:26 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 QEC / Fault Tolerance has critical strategic importance and stable momentum.
+- 🔴 QEC / Fault Tolerance has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Hardware
@@ -66,11 +66,46 @@ _Updated 2026-09-05 02:26 UTC_
 - 🔴 Standards / Government has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
+## 🔴 Source failing: Lockheed Martin Quantum Technology 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 98.1% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 80.6% reliability with 6 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv Quantum Computing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 80.6% reliability with 6 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv Quantum Networking and Sensing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 80.6% reliability with 6 warning day(s).
+- [Open supporting view](source-health.md)
+
 ## 🟠 Actionable signal: PQC / Crypto Agility
 
 - Severity: **high**
 - Status: **actionable**
 - 🎯 PQC / Crypto Agility is actionable with high confidence.
+- [Open supporting view](signals.md)
+
+## 🟠 Actionable signal: QEC / Fault Tolerance 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 QEC / Fault Tolerance is actionable with high confidence.
 - [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: Quantum Hardware
@@ -87,42 +122,65 @@ _Updated 2026-09-05 02:26 UTC_
 - 🎯 Quantum Software / Tooling is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: EdUSA AI & Quantum Technologies Initiative in Australia 🆕
+## 🟠 Changed: Broad Agency Announcement for Fundamental AI Research 🆕
 
 - Severity: **high**
 - Status: **changed**
 - qualification gate · authority analytical · hold
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view)
+- [Open direct evidence](https://www.grants.gov/search-results-detail/358687)
+- [Open supporting view](intelligence-changes.md)
+
+## 🟠 Changed: NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) 🆕
+
+- Severity: **high**
+- Status: **changed**
+- qualification gate · authority analytical · hold
+- [Open direct evidence](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
+- [Open supporting view](intelligence-changes.md)
+
+## 🟠 Changed: TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT 🆕
+
+- Severity: **high**
+- Status: **changed**
+- reported amount · authority authoritative · 2207146.74
+- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7005_8000_80ARC018D0010_8000)
 - [Open supporting view](intelligence-changes.md)
 
 ## 🟠 Federal opportunity closing soon: EdUSA AI & Quantum Technologies Initiative in Australia
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 38 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 38 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view)
 - [Open supporting view](federal-funding.md)
 
-## 🟠 Product Launch: QuSecure
+## 🟠 Federal opportunity closing soon: NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)
 
 - Severity: **high**
-- Status: **product-launch**
-- QuSecure matched a product launch event: Resources in Press Releases
-- [Open direct evidence](https://www.qusecure.com/category/press-releases)
-- [Open supporting view](entity-watch.md)
+- Status: **closing-soon**
+- 3 day(s) remain · radar score 38 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
+- [Open supporting view](federal-funding.md)
 
 ## 🟠 Rising momentum: PQC / Crypto Agility
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 21 versus 14 in the prior period.
+- ↗️ Recent evidence is 22 versus 14 in the prior period.
+- [Open supporting view](signals.md)
+
+## 🟠 Rising momentum: QEC / Fault Tolerance 🆕
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 5 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Hardware
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 23 versus 13 in the prior period.
+- ↗️ Recent evidence is 26 versus 11 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Software / Tooling
@@ -136,51 +194,22 @@ _Updated 2026-09-05 02:26 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 98.0% reliability with 1 warning day(s).
+- 🟠 98.1% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Computing Patents
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 95.1% reliability with 2 warning day(s).
+- 🟠 95.2% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Networking and Sensing Patents
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 95.1% reliability with 1 warning day(s).
+- 🟠 95.2% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
-
-## 🟠 Source degraded: arXiv PQC and Quantum-Safe Cryptography
-
-- Severity: **high**
-- Status: **degraded**
-- 🟠 82.9% reliability with 5 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Source degraded: arXiv Quantum Computing
-
-- Severity: **high**
-- Status: **degraded**
-- 🟠 82.9% reliability with 5 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Source degraded: arXiv Quantum Networking and Sensing
-
-- Severity: **high**
-- Status: **degraded**
-- 🟠 82.9% reliability with 5 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟡 Federal opportunity closing soon: NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ)
-
-- Severity: **medium**
-- Status: **closing-soon**
-- 4 day(s) remain · radar score 38 · Review requirements and make a bid/no-bid decision immediately.
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view)
-- [Open supporting view](federal-funding.md)
 
 ## 🟡 Source stale: AWS Quantum Technologies Blog
 
@@ -334,32 +363,4 @@ _Updated 2026-09-05 02:26 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-30; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Grants.gov · Quantum Technologies 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-08-17; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: InfoQ Quantum Computing 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-06-08; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Intel Quantum Research News 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2023-06-15; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: IonQ News 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-08-05; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
