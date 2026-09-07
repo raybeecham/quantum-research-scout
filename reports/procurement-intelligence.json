@@ -624,7 +624,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:RFP-ACT-SACT-26-81",
-              "retrieved_at": "2026-09-06T07:29:58.808091+00:00",
+              "retrieved_at": "2026-09-07T02:15:53.866028+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view"
             },
             "value": "Yes"
@@ -639,7 +639,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:RFP-ACT-SACT-26-81",
-              "retrieved_at": "2026-09-06T07:29:58.808091+00:00",
+              "retrieved_at": "2026-09-07T02:15:53.866028+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view"
             },
             "value": "2026-09-09T09:00:00-04:00"
@@ -654,16 +654,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:RFP-ACT-SACT-26-81",
-              "retrieved_at": "2026-09-06T07:29:58.808091+00:00",
+              "retrieved_at": "2026-09-07T02:15:53.866028+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-09-06T07:29:58.808091+00:00",
+        "observed_at": "2026-09-07T02:15:53.866028+00:00",
         "snapshot_id": "snapshot:a6e424bfc73ed7776509"
       },
-      "days_to_close": 3,
+      "days_to_close": 2,
       "deadline": "2026-09-09T09:00:00-04:00",
       "deadline_mentions": [],
       "deliverables": [
@@ -678,7 +678,7 @@
         {
           "active": true,
           "byte_count": 21929,
-          "cache_status": "unavailable",
+          "cache_status": "refreshed",
           "content_type": "application/octet-stream",
           "current_version_id": "version:34b6afada0a9950f1275",
           "deadline_mentions": [],
@@ -687,10 +687,9 @@
           "document_role": "attachment",
           "eligibility": [],
           "emails": [],
-          "error": "No download client or run download budget available",
           "evaluation_criteria": [],
           "extraction_status": "no_text",
-          "fetched_at": "2026-09-05T02:22:37.229027+00:00",
+          "fetched_at": "2026-09-07T02:15:53.866028+00:00",
           "format": "xlsx",
           "is_amendment": false,
           "is_changed": false,
@@ -708,7 +707,7 @@
               "document_role": "attachment",
               "evidence_units": [],
               "first_seen_at": "2026-08-10T01:11:12.453336+00:00",
-              "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+              "last_seen_at": "2026-09-07T02:15:53.866028+00:00",
               "version_id": "version:34b6afada0a9950f1275"
             }
           ]
@@ -716,7 +715,7 @@
         {
           "active": true,
           "byte_count": 426471,
-          "cache_status": "unavailable",
+          "cache_status": "refreshed",
           "characters_extracted": 48278,
           "content_type": "application/octet-stream",
           "current_version_id": "version:39684e636a409fce2eda",
@@ -743,7 +742,6 @@
             "hqsact.priceproposal@nato.int",
             "hqsact.techproposal@nato.int"
           ],
-          "error": "No download client or run download budget available",
           "evaluation_criteria": [
             "pliance Statement ..................................................................................... 10 Enclosure 4: Past Performance Information Form ............................................................. 12 Enclosure 5 \u2013 Mandatory Price Proposal Excel Spreadsheet",
             "e in the country and state in which this contract is to be performed, at the time of bidding. Has performed the desired past performance including size, cost and scope, as described in this RFP; and d. All proposed key personnel identified to work on this requirement must be citizens of a NATO memb...",
@@ -753,7 +751,7 @@
             "Q SACT intends to award a firm fixed price deliverables contract to the successful bidder whose proposal represents the Best Value offer to NATO. Partial awards will not be considered. b. HQ SACT will collect information from references provided by the successful bidder on its past performance. Con..."
           ],
           "extraction_status": "extracted",
-          "fetched_at": "2026-09-05T02:22:37.229027+00:00",
+          "fetched_at": "2026-09-07T02:15:53.866028+00:00",
           "format": "pdf",
           "is_amendment": true,
           "is_changed": false,
@@ -1368,7 +1366,7 @@
                 }
               ],
               "first_seen_at": "2026-08-10T01:11:12.453336+00:00",
-              "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+              "last_seen_at": "2026-09-07T02:15:53.866028+00:00",
               "version_id": "version:39684e636a409fce2eda"
             }
           ]
@@ -1376,7 +1374,7 @@
         {
           "active": true,
           "byte_count": 2184,
-          "cache_status": "unavailable",
+          "cache_status": "refreshed",
           "content_type": "application/hal+json",
           "current_version_id": "version:ba49e0d5a48f490d3b02",
           "deadline_mentions": [],
@@ -1385,10 +1383,9 @@
           "document_role": "attachment",
           "eligibility": [],
           "emails": [],
-          "error": "No download client or run download budget available",
           "evaluation_criteria": [],
           "extraction_status": "no_text",
-          "fetched_at": "2026-09-05T02:22:37.229027+00:00",
+          "fetched_at": "2026-09-07T02:15:53.866028+00:00",
           "format": "application/hal+json",
           "is_amendment": false,
           "is_changed": false,
@@ -1406,7 +1403,7 @@
               "document_role": "attachment",
               "evidence_units": [],
               "first_seen_at": "2026-08-10T01:11:12.453336+00:00",
-              "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
+              "last_seen_at": "2026-09-07T02:15:53.866028+00:00",
               "version_id": "version:ba49e0d5a48f490d3b02"
             }
           ]
@@ -2566,7 +2563,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:19AS2026Q0032",
-              "retrieved_at": "2026-09-06T07:29:58.808091+00:00",
+              "retrieved_at": "2026-09-07T02:15:53.866028+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view"
             },
             "value": "Yes"
@@ -2581,7 +2578,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:19AS2026Q0032",
-              "retrieved_at": "2026-09-06T07:29:58.808091+00:00",
+              "retrieved_at": "2026-09-07T02:15:53.866028+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view"
             },
             "value": "2026-09-08T16:00:00+10:00"
@@ -2596,7 +2593,7 @@
                 "field": "set_aside"
               },
               "opportunity_key": "sam_gov:19AS2026Q0032",
-              "retrieved_at": "2026-09-06T07:29:58.808091+00:00",
+              "retrieved_at": "2026-09-07T02:15:53.866028+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view"
             },
             "value": "No Set aside used"
@@ -2611,16 +2608,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:19AS2026Q0032",
-              "retrieved_at": "2026-09-06T07:29:58.808091+00:00",
+              "retrieved_at": "2026-09-07T02:15:53.866028+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-09-06T07:29:58.808091+00:00",
+        "observed_at": "2026-09-07T02:15:53.866028+00:00",
         "snapshot_id": "snapshot:7a6bf7bfdfe9fd91201b"
       },
-      "days_to_close": 2,
+      "days_to_close": 1,
       "deadline": "2026-09-08T16:00:00+10:00",
       "deadline_mentions": [
         "tion Conference Pre-Quotation Conference The Embassy will hold a pre-quotation conference online via Microsoft Teams on August 24, 2026, at 11:00 AM AEST. Prospective quoters must email cnbgsoprocurement@state.gov by August 20, 2026, at 4:00 PM AEST to request the Teams meeting link and any additio...",
@@ -3948,6 +3945,6 @@
     "new_amendments": 0,
     "opportunities_reviewed": 2
   },
-  "updated_at": "2026-09-06T07:29:58.808091+00:00",
+  "updated_at": "2026-09-07T02:15:53.866028+00:00",
   "version": 2
 }

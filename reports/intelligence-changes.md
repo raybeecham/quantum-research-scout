@@ -2,23 +2,30 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-06T07:29:58.808091+00:00_
+_Updated 2026-09-07T02:15:53.866028+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **27**
-- Added / changed / resolved: **0 / 0 / 27**
+- Material changes: **36**
+- Added / changed / resolved: **8 / 1 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- None.
+- **CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.** — reported amount: 2600002.13 ([evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000))
 
 ## New claims
 
-- None.
+- **OU77-FY26-163-NEW. QUANTUM NETWORK PLUGGABLE 4-CHANNEL SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTOR (SNSPD) SYSTEM** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB770450_1341_-NONE-_-NONE-))
+- **OU77-FY26-163-NEW. QUANTUM NETWORK PLUGGABLE 4-CHANNEL SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTOR (SNSPD) SYSTEM** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB770450_1341_-NONE-_-NONE-))
+- **OU77-FY26-163-NEW. QUANTUM NETWORK PLUGGABLE 4-CHANNEL SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTOR (SNSPD) SYSTEM** — reported amount: 142000.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB770450_1341_-NONE-_-NONE-))
+- **OU77-FY26-163-NEW. QUANTUM NETWORK PLUGGABLE 4-CHANNEL SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTOR (SNSPD) SYSTEM** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB770450_1341_-NONE-_-NONE-))
+- **START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80229_7571_47QTCA21D00BX_4732))
+- **START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...** — awarding agency: Department of Health and Human Services ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80229_7571_47QTCA21D00BX_4732))
+- **START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...** — reported amount: 99333.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80229_7571_47QTCA21D00BX_4732))
+- **START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80229_7571_47QTCA21D00BX_4732))
 
 ## Superseded claims
 
