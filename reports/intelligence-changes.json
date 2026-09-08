@@ -282,11 +282,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-4335a660b93f1740",
+      "claim_id": "claim-c04a380ed343b4e6",
       "confidence": "high",
-      "effective_date": "2026-09-08",
-      "first_observed_at": "2026-09-07T02:15:53.866028+00:00",
-      "last_observed_at": "2026-09-07T02:15:53.866028+00:00",
+      "effective_date": "2026-09-07",
+      "first_observed_at": "2026-09-08T02:28:05.665263+00:00",
+      "last_observed_at": "2026-09-08T02:28:05.665263+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -294,29 +294,59 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5095f6cabe78a986",
-          "locator": "opportunity_status:awarded",
-          "title": "OU77-FY26-163-NEW. QUANTUM NETWORK PLUGGABLE 4-CHANNEL SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTOR (SNSPD) SYSTEM",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB770450_1341_-NONE-_-NONE-",
+          "evidence_id": "evidence-76b4d7f411aaa58d",
+          "locator": "opportunity_status:open",
+          "title": "AEIF 2026 Alumni Summit: Freedom 250",
+          "url": "https://www.grants.gov/search-results-detail/363824",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:1333ND26PNB770450",
-        "label": "OU77-FY26-163-NEW. QUANTUM NETWORK PLUGGABLE 4-CHANNEL SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTOR (SNSPD) SYSTEM",
-        "node_id": "award:usaspending:1333ND26PNB770450",
-        "node_type": "award"
+        "identifier": "grants_gov:PDS-SAU-FY26-07",
+        "label": "AEIF 2026 Alumni Summit: Freedom 250",
+        "node_id": "opportunity:grants_gov:PDS-SAU-FY26-07",
+        "node_type": "opportunity"
       },
-      "value": "awarded"
+      "value": "open"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-30c76a5b15211a66",
+      "claim_id": "claim-ec682ab9c832a62f",
       "confidence": "high",
-      "effective_date": "2026-09-08",
-      "first_observed_at": "2026-09-07T02:15:53.866028+00:00",
-      "last_observed_at": "2026-09-07T02:15:53.866028+00:00",
+      "effective_date": "2026-09-07",
+      "first_observed_at": "2026-09-08T02:28:05.665263+00:00",
+      "last_observed_at": "2026-09-08T02:28:05.665263+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7512909df478a1b5",
+          "locator": "deadline:09/14/2026",
+          "title": "AEIF 2026 Alumni Summit: Freedom 250",
+          "url": "https://www.grants.gov/search-results-detail/363824",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:PDS-SAU-FY26-07",
+        "label": "AEIF 2026 Alumni Summit: Freedom 250",
+        "node_id": "opportunity:grants_gov:PDS-SAU-FY26-07",
+        "node_type": "opportunity"
+      },
+      "value": "09/14/2026"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-b4d3dae39c0552fe",
+      "confidence": "high",
+      "effective_date": "2026-09-07",
+      "first_observed_at": "2026-09-08T02:28:05.665263+00:00",
+      "last_observed_at": "2026-09-08T02:28:05.665263+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -324,250 +354,90 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d48d9ee92e2be742",
-          "locator": "awarding_agency:department of commerce",
-          "title": "OU77-FY26-163-NEW. QUANTUM NETWORK PLUGGABLE 4-CHANNEL SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTOR (SNSPD) SYSTEM",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB770450_1341_-NONE-_-NONE-",
+          "evidence_id": "evidence-c1dde78819cb6ba5",
+          "locator": "awarding_agency:dos-sau",
+          "title": "AEIF 2026 Alumni Summit: Freedom 250",
+          "url": "https://www.grants.gov/search-results-detail/363824",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:1333ND26PNB770450",
-        "label": "OU77-FY26-163-NEW. QUANTUM NETWORK PLUGGABLE 4-CHANNEL SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTOR (SNSPD) SYSTEM",
-        "node_id": "award:usaspending:1333ND26PNB770450",
-        "node_type": "award"
+        "identifier": "grants_gov:PDS-SAU-FY26-07",
+        "label": "AEIF 2026 Alumni Summit: Freedom 250",
+        "node_id": "opportunity:grants_gov:PDS-SAU-FY26-07",
+        "node_type": "opportunity"
       },
-      "value": "Department of Commerce"
+      "value": "DOS-SAU"
     },
     {
-      "authority": "authoritative",
+      "authority": "analytical",
       "change_type": "added",
-      "claim_id": "claim-faf203446b75d25c",
-      "confidence": "high",
+      "claim_id": "claim-faaae0d125f39e41",
+      "confidence": "medium",
       "effective_date": "2026-09-08",
-      "first_observed_at": "2026-09-07T02:15:53.866028+00:00",
-      "last_observed_at": "2026-09-07T02:15:53.866028+00:00",
+      "first_observed_at": "2026-09-08T02:28:05.665263+00:00",
+      "last_observed_at": "2026-09-08T02:28:05.665263+00:00",
       "object": null,
-      "predicate": "reported_amount",
+      "predicate": "qualification_gate",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-29838cc1963e73bc",
-          "locator": "reported_amount:142000.0",
-          "title": "OU77-FY26-163-NEW. QUANTUM NETWORK PLUGGABLE 4-CHANNEL SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTOR (SNSPD) SYSTEM",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB770450_1341_-NONE-_-NONE-",
+          "evidence_id": "evidence-925aaf31eb95777a",
+          "locator": "qualification_gate",
+          "title": "AEIF 2026 Alumni Summit: Freedom 250",
+          "url": "https://www.grants.gov/search-results-detail/363824",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:1333ND26PNB770450",
-        "label": "OU77-FY26-163-NEW. QUANTUM NETWORK PLUGGABLE 4-CHANNEL SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTOR (SNSPD) SYSTEM",
-        "node_id": "award:usaspending:1333ND26PNB770450",
-        "node_type": "award"
+        "identifier": "grants_gov:PDS-SAU-FY26-07",
+        "label": "AEIF 2026 Alumni Summit: Freedom 250",
+        "node_id": "opportunity:grants_gov:PDS-SAU-FY26-07",
+        "node_type": "opportunity"
       },
-      "value": 142000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c9c06f50081b49c3",
-      "confidence": "high",
-      "effective_date": "2026-09-08",
-      "first_observed_at": "2026-09-07T02:15:53.866028+00:00",
-      "last_observed_at": "2026-09-07T02:15:53.866028+00:00",
-      "object": {
-        "identifier": "uei:E89XDAEZ2252",
-        "label": "QUANTUM OPUS LLC",
-        "node_id": "recipient_or_contractor:uei:E89XDAEZ2252",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-89a6d73edb720d64",
-          "locator": "reported_recipient:recipient_or_contractor:uei:E89XDAEZ2252",
-          "title": "OU77-FY26-163-NEW. QUANTUM NETWORK PLUGGABLE 4-CHANNEL SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTOR (SNSPD) SYSTEM",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB770450_1341_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:1333ND26PNB770450",
-        "label": "OU77-FY26-163-NEW. QUANTUM NETWORK PLUGGABLE 4-CHANNEL SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTOR (SNSPD) SYSTEM",
-        "node_id": "award:usaspending:1333ND26PNB770450",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-77128cd76186a162",
-      "confidence": "high",
-      "effective_date": "2026-09-08",
-      "first_observed_at": "2026-09-07T02:15:53.866028+00:00",
-      "last_observed_at": "2026-09-07T02:15:53.866028+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-05d6675978841f04",
-          "locator": "opportunity_status:awarded",
-          "title": "START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80229_7571_47QTCA21D00BX_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571TE26F80229",
-        "label": "START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...",
-        "node_id": "award:usaspending:7571TE26F80229",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-55b69c5a15ce49ca",
-      "confidence": "high",
-      "effective_date": "2026-09-08",
-      "first_observed_at": "2026-09-07T02:15:53.866028+00:00",
-      "last_observed_at": "2026-09-07T02:15:53.866028+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c789e03f2665bc6b",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80229_7571_47QTCA21D00BX_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571TE26F80229",
-        "label": "START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...",
-        "node_id": "award:usaspending:7571TE26F80229",
-        "node_type": "award"
-      },
-      "value": "Department of Health and Human Services"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-aae745ab9a1cccef",
-      "confidence": "high",
-      "effective_date": "2026-09-08",
-      "first_observed_at": "2026-09-07T02:15:53.866028+00:00",
-      "last_observed_at": "2026-09-07T02:15:53.866028+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-619bdd2da44e5fcf",
-          "locator": "reported_amount:99333.0",
-          "title": "START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80229_7571_47QTCA21D00BX_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571TE26F80229",
-        "label": "START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...",
-        "node_id": "award:usaspending:7571TE26F80229",
-        "node_type": "award"
-      },
-      "value": 99333.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5ec9b85f742de36d",
-      "confidence": "high",
-      "effective_date": "2026-09-08",
-      "first_observed_at": "2026-09-07T02:15:53.866028+00:00",
-      "last_observed_at": "2026-09-07T02:15:53.866028+00:00",
-      "object": {
-        "identifier": "uei:NPDNZJARZF95",
-        "label": "QUANTUM INSIGHTS LLC",
-        "node_id": "recipient_or_contractor:uei:NPDNZJARZF95",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8e5a298a3ed0f1b0",
-          "locator": "reported_recipient:recipient_or_contractor:uei:NPDNZJARZF95",
-          "title": "START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80229_7571_47QTCA21D00BX_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571TE26F80229",
-        "label": "START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...",
-        "node_id": "award:usaspending:7571TE26F80229",
-        "node_type": "award"
-      },
-      "value": null
+      "value": "hold"
     }
   ],
   "baseline_initialized": false,
   "changed": [
     {
-      "authority": "authoritative",
+      "authority": "analytical",
       "change_type": "changed",
-      "claim_id": "claim-2b74aba1c4b4fd46",
-      "confidence": "high",
-      "effective_date": "2026-07-01",
-      "first_observed_at": "2026-08-01T02:08:14.362509+00:00",
-      "last_observed_at": "2026-09-07T02:15:53.866028+00:00",
+      "claim_id": "claim-1d126d2fa9c467a8",
+      "confidence": "medium",
+      "effective_date": "2026-09-08",
+      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
+      "last_observed_at": "2026-09-08T02:28:05.665263+00:00",
       "object": null,
-      "predicate": "reported_amount",
+      "predicate": "qualification_gate",
       "previous_object": null,
-      "previous_value": 1529127.18,
+      "previous_value": "hold",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-67c1eecf72378529",
-          "locator": "reported_amount:2600002.13",
-          "title": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000",
+          "evidence_id": "evidence-ebf2349cad1bd35e",
+          "locator": "qualification_gate",
+          "title": "CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)",
+          "url": "https://www.grants.gov/search-results-detail/360651",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:80ARC026F7007",
-        "label": "CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
-        "node_id": "award:usaspending:80ARC026F7007",
-        "node_type": "award"
+        "identifier": "grants_gov:2025-NIST-CHIPS-CRDO-01",
+        "label": "CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)",
+        "node_id": "opportunity:grants_gov:2025-NIST-CHIPS-CRDO-01",
+        "node_type": "opportunity"
       },
-      "value": 2600002.13
+      "value": "hold"
     }
   ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-09-07T02:15:53.866028+00:00",
-  "comparison_started_at": "2026-09-06T07:29:58.808091+00:00",
+  "comparison_ended_at": "2026-09-08T02:28:05.665263+00:00",
+  "comparison_started_at": "2026-09-07T02:15:53.866028+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1483,19 +1353,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-09-06T07:29:58.808091+00:00",
+  "since": "2026-09-07T02:15:53.866028+00:00",
   "summary": {
-    "active_claims": 4119,
-    "added": 8,
+    "active_claims": 4123,
+    "added": 4,
     "changed": 1,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 36,
+    "material_changes": 32,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-09-07T02:15:53.866028+00:00",
+  "updated_at": "2026-09-08T02:28:05.665263+00:00",
   "version": 1
 }

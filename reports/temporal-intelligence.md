@@ -2,23 +2,21 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-09-07T02:15:53.866028+00:00_
+_Updated 2026-09-08T02:28:05.665263+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **1**
+- Actual or recent changes: **4**
 - Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
-- Upcoming dated events: **23**
+- Upcoming dated events: **24**
 
 ## Priority timeline
 
-- **Changed since prior run** · CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT. — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000))
-  - The assertion changed relative to the prior successful ledger build.
-- **Upcoming event date** · OU77-FY26-163-NEW. QUANTUM NETWORK PLUGGABLE 4-CHANNEL SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTOR (SNSPD) SYSTEM — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB770450_1341_-NONE-_-NONE-))
-  - The source date is in the future; Scout first observed it on 2026-09-07.
-- **Upcoming event date** · START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80229_7571_47QTCA21D00BX_4732))
-  - The source date is in the future; Scout first observed it on 2026-09-07.
+- **Published today** · AEIF 2026 Alumni Summit: Freedom 250 — awarding agency ([evidence](https://www.grants.gov/search-results-detail/363824))
+  - The source publication date is today or within the prior day.
+- **Evidence trace changed** · CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA) — qualification gate ([evidence](https://www.grants.gov/search-results-detail/360651))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -61,7 +59,8 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-08-21** · Seek initial platform operating capability for at least one national challenge — awaiting_confirmation ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
 - **2026-09-08** · EdUSA AI & Quantum Technologies Initiative in Australia — closing_soon ([source](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view))
 - **2026-09-09** · NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) — closing_soon ([source](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view))
-- **2026-09-15** · CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA) — closing_this_month ([source](https://www.grants.gov/search-results-detail/360651))
+- **2026-09-14** · AEIF 2026 Alumni Summit: Freedom 250 — closing_soon ([source](https://www.grants.gov/search-results-detail/363824))
+- **2026-09-15** · CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA) — closing_soon ([source](https://www.grants.gov/search-results-detail/360651))
 - **2026-09-20** · OMB issues agency guidance for inventories, migration plans, and high-impact systems — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
 - **2026-09-20** · Publish a summary of QC-ADDS technical specifications — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
 - **2026-09-22** · Launch the AI Forge university-industry-government forum — estimated ([source](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security))
