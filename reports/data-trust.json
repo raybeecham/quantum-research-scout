@@ -79,6 +79,51 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-09-08",
+      "key": "https://www.grants.gov/search-results-detail/363396",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "Powering Affordable Reliable Technology (PART) Energy Program",
+      "url": "https://www.grants.gov/search-results-detail/363396"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-09-08",
+      "key": "grants_gov:RUS-PART-2026",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "Powering Affordable Reliable Technology (PART) Energy Program",
+      "url": "https://www.grants.gov/search-results-detail/363396"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "Quantum Genesis",
         "reason_codes": [
           "non_government_source",
@@ -736,51 +781,6 @@
       "stage": "mission evidence admission",
       "title": "RNomics Molecular Standards",
       "url": "https://www.grants.gov/search-results-detail/363475"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Project Triad",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-08-03",
-      "key": "https://www.grants.gov/search-results-detail/363396",
-      "mission_id": "project-triad",
-      "mission_name": "Project Triad",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "mission evidence admission",
-      "title": "Powering Affordable Reliable Technology (PART) Energy Program",
-      "url": "https://www.grants.gov/search-results-detail/363396"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-08-03",
-      "key": "grants_gov:RUS-PART-2026",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "funding evidence admission",
-      "title": "Powering Affordable Reliable Technology (PART) Energy Program",
-      "url": "https://www.grants.gov/search-results-detail/363396"
     },
     {
       "admission": {
@@ -2317,6 +2317,6 @@
     "quarantined": 129,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-09-08T02:28:05.665263+00:00",
+  "updated_at": "2026-09-09T02:29:55.448127+00:00",
   "version": 1
 }

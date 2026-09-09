@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-09-08",
+  "as_of_date": "2026-09-09",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,437 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-fd31cbc67aa080de",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-08",
+      "evidence_ids": [
+        "evidence-897a634ac7c66dba"
+      ],
+      "first_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-897a634ac7c66dba",
+          "locator": "opportunity_status:awarded",
+          "title": "59--TAIL SENSOR",
+          "url": "https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPE7M526T432P",
+        "label": "59--TAIL SENSOR",
+        "node_id": "award_notice:sam_gov:SPE7M526T432P",
+        "node_type": "award_notice"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "74e2ed5ce89d5da1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-55458632b1e9c9d5",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-08",
+      "evidence_ids": [
+        "evidence-b347e34bd6681618"
+      ],
+      "first_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b347e34bd6681618",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla maritime.dla maritime columbus.dla land and maritime",
+          "title": "59--TAIL SENSOR",
+          "url": "https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPE7M526T432P",
+        "label": "59--TAIL SENSOR",
+        "node_id": "award_notice:sam_gov:SPE7M526T432P",
+        "node_type": "award_notice"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "45684bb2b119ce80"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-d269a1c24d966a52",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-08",
+      "evidence_ids": [
+        "evidence-037eda8dda2aaf90"
+      ],
+      "first_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-037eda8dda2aaf90",
+          "locator": "reported_amount:50200.0",
+          "title": "59--TAIL SENSOR",
+          "url": "https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPE7M526T432P",
+        "label": "59--TAIL SENSOR",
+        "node_id": "award_notice:sam_gov:SPE7M526T432P",
+        "node_type": "award_notice"
+      },
+      "value": 50200.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7474495cfded2411"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-bfa871175d8d9b3e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-08",
+      "evidence_ids": [
+        "evidence-6e2778598586daea"
+      ],
+      "first_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "name:habco industries",
+        "label": "HABCO INDUSTRIES LLC",
+        "node_id": "recipient_or_contractor:name:habco industries",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6e2778598586daea",
+          "locator": "reported_recipient:recipient_or_contractor:name:habco industries",
+          "title": "59--TAIL SENSOR",
+          "url": "https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPE7M526T432P",
+        "label": "59--TAIL SENSOR",
+        "node_id": "award_notice:sam_gov:SPE7M526T432P",
+        "node_type": "award_notice"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ef5e5ccd01111e46"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-6962ad5fc0f4eb84",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-619a1142e334c8d3"
+      ],
+      "first_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-619a1142e334c8d3",
+          "locator": "opportunity_status:awarded",
+          "title": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:47QSCC26F6RXW",
+        "label": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+        "node_id": "award:usaspending:47QSCC26F6RXW",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4999567bd96fb32f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-8de2b8b25df21548",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-7c7450caa2e8f216"
+      ],
+      "first_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7c7450caa2e8f216",
+          "locator": "awarding_agency:general services administration",
+          "title": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:47QSCC26F6RXW",
+        "label": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+        "node_id": "award:usaspending:47QSCC26F6RXW",
+        "node_type": "award"
+      },
+      "value": "General Services Administration",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "a418c65d1fc4b5a5"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-29349b41393afc24",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-78e450c24a4d44f2"
+      ],
+      "first_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-78e450c24a4d44f2",
+          "locator": "reported_amount:1740.0",
+          "title": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:47QSCC26F6RXW",
+        "label": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+        "node_id": "award:usaspending:47QSCC26F6RXW",
+        "node_type": "award"
+      },
+      "value": 1740.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "308c69d7fe48ad44"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-240fbd1b9afff3ad",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-04",
+      "evidence_ids": [
+        "evidence-a453fc892464e86b"
+      ],
+      "first_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:DBQGN324ULK3",
+        "label": "W.W. GRAINGER, INC.",
+        "node_id": "recipient_or_contractor:uei:DBQGN324ULK3",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a453fc892464e86b",
+          "locator": "reported_recipient:recipient_or_contractor:uei:DBQGN324ULK3",
+          "title": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:47QSCC26F6RXW",
+        "label": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+        "node_id": "award:usaspending:47QSCC26F6RXW",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c1361f14f9dd7617"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-76385636f12353cd",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-28",
+      "evidence_ids": [
+        "evidence-0fa52bcddcfe6395"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported status in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-4f8b4d0ad25f5b0f"
+          ],
+          "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+          "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+          "object": null,
+          "status": "active",
+          "value": "open",
+          "version": 1,
+          "version_hash": "c5fdbaf3ae362ad4"
+        }
+      ],
+      "last_seen_at": "2026-09-09T02:29:55.448127+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0fa52bcddcfe6395",
+          "locator": "opportunity_status:closed",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:19AS2026Q0032",
+        "label": "EdUSA AI & Quantum Technologies Initiative in Australia",
+        "node_id": "opportunity:sam_gov:19AS2026Q0032",
+        "node_type": "opportunity"
+      },
+      "value": "closed",
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "d8ecada6e1984fd4"
     },
     {
       "authority": "authoritative",
@@ -25161,51 +25592,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "123fd7cadfe36442"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-76385636f12353cd",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-28",
-      "evidence_ids": [
-        "evidence-4f8b4d0ad25f5b0f"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4f8b4d0ad25f5b0f",
-          "locator": "opportunity_status:open",
-          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
-          "url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:19AS2026Q0032",
-        "label": "EdUSA AI & Quantum Technologies Initiative in Australia",
-        "node_id": "opportunity:sam_gov:19AS2026Q0032",
-        "node_type": "opportunity"
-      },
-      "value": "open",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "c5fdbaf3ae362ad4"
     },
     {
       "authority": "authoritative",
@@ -75239,186 +75625,6 @@
     {
       "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
-      "claim_id": "claim-fa63bb3a6c6926b6",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-10",
-      "evidence_ids": [
-        "evidence-435299bf5d547080"
-      ],
-      "first_seen_at": "2026-08-10T01:11:12.453336+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-10T01:11:12.453336+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-435299bf5d547080",
-          "locator": "legal_business_name:university of wisconsin system",
-          "title": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "url": "https://sam.gov/entity/LCLSJAGTNZQ7/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:LCLSJAGTNZQ7",
-        "label": "UNIVERSITY OF WISCONSIN SYSTEM",
-        "node_id": "recipient_or_contractor:uei:LCLSJAGTNZQ7",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "UNIVERSITY OF WISCONSIN SYSTEM",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "050d1a0cde78745e"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity uei",
-      "claim_id": "claim-4919f35edad82523",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-10",
-      "evidence_ids": [
-        "evidence-2b648bef07459e04"
-      ],
-      "first_seen_at": "2026-08-10T01:11:12.453336+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-10T01:11:12.453336+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2b648bef07459e04",
-          "locator": "uei:lclsjagtnzq7",
-          "title": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "url": "https://sam.gov/entity/LCLSJAGTNZQ7/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:LCLSJAGTNZQ7",
-        "label": "UNIVERSITY OF WISCONSIN SYSTEM",
-        "node_id": "recipient_or_contractor:uei:LCLSJAGTNZQ7",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "LCLSJAGTNZQ7",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "6422d30c5fa6a4f1"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity cage code",
-      "claim_id": "claim-4e6cd50a62fc69c9",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-10",
-      "evidence_ids": [
-        "evidence-83b6cfb2c7c18534"
-      ],
-      "first_seen_at": "2026-08-10T01:11:12.453336+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-10T01:11:12.453336+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-83b6cfb2c7c18534",
-          "locator": "cage_code:09fz2",
-          "title": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "url": "https://sam.gov/entity/LCLSJAGTNZQ7/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:LCLSJAGTNZQ7",
-        "label": "UNIVERSITY OF WISCONSIN SYSTEM",
-        "node_id": "recipient_or_contractor:uei:LCLSJAGTNZQ7",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "09FZ2",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "c000061398a6a4f4"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity registration status",
-      "claim_id": "claim-71ba7a7e7d0292cb",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-10",
-      "evidence_ids": [
-        "evidence-b9f3b8d629cdc25c"
-      ],
-      "first_seen_at": "2026-08-10T01:11:12.453336+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-10T01:11:12.453336+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b9f3b8d629cdc25c",
-          "locator": "registration_status:active",
-          "title": "UNIVERSITY OF WISCONSIN SYSTEM",
-          "url": "https://sam.gov/entity/LCLSJAGTNZQ7/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:LCLSJAGTNZQ7",
-        "label": "UNIVERSITY OF WISCONSIN SYSTEM",
-        "node_id": "recipient_or_contractor:uei:LCLSJAGTNZQ7",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "29b0fc27095413db"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-975d5c08bd09adf5",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -75595,6 +75801,186 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "d23ed70a7a0657f4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-fa63bb3a6c6926b6",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-10",
+      "evidence_ids": [
+        "evidence-435299bf5d547080"
+      ],
+      "first_seen_at": "2026-08-10T01:11:12.453336+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-10T01:11:12.453336+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-435299bf5d547080",
+          "locator": "legal_business_name:university of wisconsin system",
+          "title": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "url": "https://sam.gov/entity/LCLSJAGTNZQ7/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:LCLSJAGTNZQ7",
+        "label": "UNIVERSITY OF WISCONSIN SYSTEM",
+        "node_id": "recipient_or_contractor:uei:LCLSJAGTNZQ7",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "UNIVERSITY OF WISCONSIN SYSTEM",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "050d1a0cde78745e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-4919f35edad82523",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-10",
+      "evidence_ids": [
+        "evidence-2b648bef07459e04"
+      ],
+      "first_seen_at": "2026-08-10T01:11:12.453336+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-10T01:11:12.453336+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2b648bef07459e04",
+          "locator": "uei:lclsjagtnzq7",
+          "title": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "url": "https://sam.gov/entity/LCLSJAGTNZQ7/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:LCLSJAGTNZQ7",
+        "label": "UNIVERSITY OF WISCONSIN SYSTEM",
+        "node_id": "recipient_or_contractor:uei:LCLSJAGTNZQ7",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "LCLSJAGTNZQ7",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6422d30c5fa6a4f1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-4e6cd50a62fc69c9",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-10",
+      "evidence_ids": [
+        "evidence-83b6cfb2c7c18534"
+      ],
+      "first_seen_at": "2026-08-10T01:11:12.453336+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-10T01:11:12.453336+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-83b6cfb2c7c18534",
+          "locator": "cage_code:09fz2",
+          "title": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "url": "https://sam.gov/entity/LCLSJAGTNZQ7/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:LCLSJAGTNZQ7",
+        "label": "UNIVERSITY OF WISCONSIN SYSTEM",
+        "node_id": "recipient_or_contractor:uei:LCLSJAGTNZQ7",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "09FZ2",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c000061398a6a4f4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-71ba7a7e7d0292cb",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-10",
+      "evidence_ids": [
+        "evidence-b9f3b8d629cdc25c"
+      ],
+      "first_seen_at": "2026-08-10T01:11:12.453336+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-10T01:11:12.453336+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b9f3b8d629cdc25c",
+          "locator": "registration_status:active",
+          "title": "UNIVERSITY OF WISCONSIN SYSTEM",
+          "url": "https://sam.gov/entity/LCLSJAGTNZQ7/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:LCLSJAGTNZQ7",
+        "label": "UNIVERSITY OF WISCONSIN SYSTEM",
+        "node_id": "recipient_or_contractor:uei:LCLSJAGTNZQ7",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "29b0fc27095413db"
     },
     {
       "authority": "authoritative",
@@ -103052,9 +103438,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -103097,9 +103483,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "deadline",
       "sources": [
         {
@@ -103142,9 +103528,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -139288,9 +139674,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -139333,9 +139719,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -148908,9 +149294,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -148953,9 +149339,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -148998,9 +149384,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -149043,9 +149429,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -149088,9 +149474,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -149133,9 +149519,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -149178,9 +149564,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -149223,9 +149609,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -149268,9 +149654,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_evaluation_criterion",
       "sources": [
         {
@@ -149313,9 +149699,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_evaluation_criterion",
       "sources": [
         {
@@ -149358,9 +149744,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_evaluation_criterion",
       "sources": [
         {
@@ -149403,9 +149789,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_evaluation_criterion",
       "sources": [
         {
@@ -149448,9 +149834,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_evaluation_criterion",
       "sources": [
         {
@@ -149493,9 +149879,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_evaluation_criterion",
       "sources": [
         {
@@ -149538,9 +149924,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_eligibility_term",
       "sources": [
         {
@@ -149583,9 +149969,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_eligibility_term",
       "sources": [
         {
@@ -149628,9 +150014,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_eligibility_term",
       "sources": [
         {
@@ -149673,9 +150059,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_eligibility_term",
       "sources": [
         {
@@ -149718,9 +150104,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_eligibility_term",
       "sources": [
         {
@@ -149763,9 +150149,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_submission_instruction",
       "sources": [
         {
@@ -149808,9 +150194,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_submission_instruction",
       "sources": [
         {
@@ -149853,9 +150239,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_submission_instruction",
       "sources": [
         {
@@ -149898,9 +150284,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_submission_instruction",
       "sources": [
         {
@@ -149943,9 +150329,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_submission_instruction",
       "sources": [
         {
@@ -149988,9 +150374,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_deliverable",
       "sources": [
         {
@@ -150033,9 +150419,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_deliverable",
       "sources": [
         {
@@ -150078,9 +150464,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_deliverable",
       "sources": [
         {
@@ -150123,9 +150509,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_deliverable",
       "sources": [
         {
@@ -150168,9 +150554,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_deliverable",
       "sources": [
         {
@@ -150213,9 +150599,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_deadline",
       "sources": [
         {
@@ -150258,9 +150644,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_deadline",
       "sources": [
         {
@@ -150303,9 +150689,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_deadline",
       "sources": [
         {
@@ -150348,9 +150734,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_deadline",
       "sources": [
         {
@@ -150393,9 +150779,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_deadline",
       "sources": [
         {
@@ -150438,9 +150824,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -150483,9 +150869,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -150528,9 +150914,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -150573,9 +150959,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -150618,9 +151004,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -150663,9 +151049,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -150708,9 +151094,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -150753,9 +151139,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_requirement",
       "sources": [
         {
@@ -150798,9 +151184,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_submission_instruction",
       "sources": [
         {
@@ -150843,9 +151229,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_submission_instruction",
       "sources": [
         {
@@ -150888,9 +151274,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_submission_instruction",
       "sources": [
         {
@@ -150933,9 +151319,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_submission_instruction",
       "sources": [
         {
@@ -150978,9 +151364,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_submission_instruction",
       "sources": [
         {
@@ -151023,9 +151409,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_deliverable",
       "sources": [
         {
@@ -151068,9 +151454,9 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "states_deliverable",
       "sources": [
         {
@@ -184125,9 +184511,9 @@
         }
       ],
       "last_seen_at": "2026-09-06T02:18:38.997053+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -184521,9 +184907,9 @@
         }
       ],
       "last_seen_at": "2026-09-05T02:22:37.229027+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -185746,9 +186132,9 @@
       "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
       "history": [],
       "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -207620,7 +208006,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -207667,7 +208053,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -207714,7 +208100,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -207761,7 +208147,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -207808,7 +208194,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -207855,7 +208241,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -207902,7 +208288,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -207949,7 +208335,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -207996,7 +208382,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208043,7 +208429,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208090,7 +208476,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208137,7 +208523,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208184,7 +208570,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208231,7 +208617,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208278,7 +208664,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208325,7 +208711,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208372,7 +208758,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208419,7 +208805,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208471,7 +208857,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208523,7 +208909,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208575,7 +208961,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208627,7 +209013,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208679,7 +209065,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208731,7 +209117,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208783,7 +209169,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208835,7 +209221,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -208887,7 +209273,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-08T02:28:05.665263+00:00",
+      "retracted_at": "2026-09-09T02:29:55.448127+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -209534,6 +209920,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4024dabc22234a0e9751ec4cb946abaa/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-037eda8dda2aaf90",
+      "locator": "reported_amount:50200.0",
+      "title": "59--TAIL SENSOR",
+      "url": "https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -211703,6 +212099,16 @@
       "locator": "awarding_agency:national science foundation",
       "title": "COLLABORATIVE RESEARCH: CER: FROM CLASSROOM TO CAREER READINESS: ENHANCING UNDERGRADUATE COMPUTING EDUCATION THROUGH COLLABORATIVE RESEARCH EXPERIENCE IN AI SECURITY AND PRIVACY -...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2551963_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0fa52bcddcfe6395",
+      "locator": "opportunity_status:closed",
+      "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+      "url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
       "verification_status": "source_reported"
     },
     {
@@ -222150,16 +222556,6 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
-      "evidence_id": "evidence-4f8b4d0ad25f5b0f",
-      "locator": "opportunity_status:open",
-      "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
-      "url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
       "evidence_id": "evidence-4facd8cc3b8d6cd6",
       "locator": "awarding_agency:department of defense",
       "title": "PROPOSAL NO. F2D-12896 - NEXT GENERATION SECURE VPN NETWORKS FOR AGILE COMBAT EMPLOYMENT (ACE) WITH POST-QUANTUM ENCRYPTION",
@@ -225030,6 +225426,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-619a1142e334c8d3",
+      "locator": "opportunity_status:awarded",
+      "title": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-619bdd2da44e5fcf",
       "locator": "reported_amount:99333.0",
       "title": "START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...",
@@ -226988,6 +227394,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-6e2778598586daea",
+      "locator": "reported_recipient:recipient_or_contractor:name:habco industries",
+      "title": "59--TAIL SENSOR",
+      "url": "https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "b887116ab473426fedaf2ddee3a97b99c4661ecd78a812a4524d5e276490e108",
       "controlling_status": "not_established",
       "evidence_id": "evidence-6e4a9e02f7eb9178",
@@ -228750,6 +229166,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-78e450c24a4d44f2",
+      "locator": "reported_amount:1740.0",
+      "title": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-78e4e803547dc84a",
       "locator": "qualification_gate",
       "title": "Cooperative Agreement for Affiliated Partner with the Alaska Cooperative Ecosystem Studies Unit (CESU)",
@@ -229145,6 +229571,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3170af85c2c84c90976c386e133a604b/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7c7450caa2e8f216",
+      "locator": "awarding_agency:general services administration",
+      "title": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -231374,6 +231810,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:NQ69URJMVEG6",
       "title": "RISK MAP ARCHITECT AND ENGINEERING FOR BUILDING SCIENCES IN ACCORDANCE WITH THE PWS AND QASP DATED 7/27/2026 TO DEVELOP BUILDING SCIENCES FOR ARTIFICIAL INTELLIGENCE FOR HAZARD MI...",
       "url": "https://www.usaspending.gov/award/CONT_AWD_70FA6026F00000025_7022_70FA6021D00000005_7022",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-897a634ac7c66dba",
+      "locator": "opportunity_status:awarded",
+      "title": "59--TAIL SENSOR",
+      "url": "https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view",
       "verification_status": "source_reported"
     },
     {
@@ -235558,6 +236004,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-a453fc892464e86b",
+      "locator": "reported_recipient:recipient_or_contractor:uei:DBQGN324ULK3",
+      "title": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "b345c50e1213488f58c9ad2761d28bf17765b3b0d1d27c570265cba665017dd0",
       "controlling_status": "not_established",
       "evidence_id": "evidence-a45e6717fdc601d8",
@@ -238204,6 +238660,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:C4BXLBC11LC6",
       "title": "EFFICIENT HIGH-ORDER METHODS FOR RADIATIVE TRANSFER VIA SUBSTRUCTURING -MANY PROBLEMS IN SCIENCE AND ENGINEERING REQUIRE PREDICTING HOW RADIATION, LIGHT, OR PARTICLES MOVE THROUGH...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2608769_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-b347e34bd6681618",
+      "locator": "awarding_agency:dept of defense.defense logistics agency.dla maritime.dla maritime columbus.dla land and maritime",
+      "title": "59--TAIL SENSOR",
+      "url": "https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view",
       "verification_status": "source_reported"
     },
     {
@@ -251250,16 +251716,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4123,
-    "authoritative_claims": 3925,
+    "active_claims": 4131,
+    "authoritative_claims": 3933,
     "conflicted_claims": 38,
     "derived_claims": 195,
-    "evidence_items": 4233,
-    "source_urls": 1162,
-    "subjects": 812,
+    "evidence_items": 4241,
+    "source_urls": 1164,
+    "subjects": 814,
     "superseded_claims": 0,
-    "total_claims": 4150
+    "total_claims": 4158
   },
-  "updated_at": "2026-09-08T02:28:05.665263+00:00",
+  "updated_at": "2026-09-09T02:29:55.448127+00:00",
   "version": 1
 }

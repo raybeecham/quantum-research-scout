@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-09-08T02:28:05.665263+00:00_
+_Updated 2026-09-09T02:29:55.448127+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **4123**
-- Authoritative claims: **3925**
+- Active claims: **4131**
+- Authoritative claims: **3933**
 - Analytical claims: **195**
 - Conflicted claims: **38**
-- Evidence items / URLs: **4233 / 1162**
+- Evidence items / URLs: **4241 / 1164**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,15 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | 59--TAIL SENSOR | opportunity status | awarded | authoritative / high | [59--TAIL SENSOR](https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view) |
+| active | 59--TAIL SENSOR | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME | authoritative / high | [59--TAIL SENSOR](https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view) |
+| active | 59--TAIL SENSOR | reported amount | 50200.0 | authoritative / high | [59--TAIL SENSOR](https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view) |
+| active | 59--TAIL SENSOR | reported recipient | HABCO INDUSTRIES LLC | authoritative / high | [59--TAIL SENSOR](https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view) |
+| active | CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC | opportunity status | awarded | authoritative / high | [CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC](https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732) |
+| active | CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC | awarding agency | General Services Administration | authoritative / high | [CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC](https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732) |
+| active | CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC | reported amount | 1740.0 | authoritative / high | [CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC](https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732) |
+| active | CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC | reported recipient | W.W. GRAINGER, INC. | authoritative / high | [CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC](https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732) |
+| active | EdUSA AI & Quantum Technologies Initiative in Australia | opportunity status | closed | authoritative / high | [EdUSA AI & Quantum Technologies Initiative in Australia](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view) |
 | active | AEIF 2026 Alumni Summit: Freedom 250 | opportunity status | open | authoritative / high | [AEIF 2026 Alumni Summit: Freedom 250](https://www.grants.gov/search-results-detail/363824) |
 | active | AEIF 2026 Alumni Summit: Freedom 250 | deadline | 09/14/2026 | authoritative / high | [AEIF 2026 Alumni Summit: Freedom 250](https://www.grants.gov/search-results-detail/363824) |
 | active | AEIF 2026 Alumni Summit: Freedom 250 | awarding agency | DOS-SAU | authoritative / high | [AEIF 2026 Alumni Summit: Freedom 250](https://www.grants.gov/search-results-detail/363824) |
@@ -255,15 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | UNIVERSITY OF HOUSTON SYSTEM | cage code | 9B955 | authoritative / high | [UNIVERSITY OF HOUSTON SYSTEM](https://sam.gov/entity/QKWEF8XLMTT3/coreData) |
 | active | UNIVERSITY OF HOUSTON SYSTEM | registration status | Active | authoritative / high | [UNIVERSITY OF HOUSTON SYSTEM](https://sam.gov/entity/QKWEF8XLMTT3/coreData) |
 | active | COLLABORATIVE RESEARCH: VINES: TRACK 1:QUANTUM-READY AND AI-ENABLED BY DESIGN: RESILIENT AND DEPLOYABLE NEXT-GEN CELLULAR NETWORKS -THIS COLLABORATIVE PROJECT AIMS TO IMPROVE THE... | opportunity status | awarded | authoritative / high | [COLLABORATIVE RESEARCH: VINES: TRACK 1:QUANTUM-READY AND AI-ENABLED BY DESIGN: RESILIENT AND DEPLOYABLE NEXT-GEN CELLULAR NETWORKS -THIS COLLABORATIVE PROJECT AIMS TO IMPROVE THE...](https://www.usaspending.gov/award/ASST_NON_2548947_049) |
-| active | COLLABORATIVE RESEARCH: VINES: TRACK 1:QUANTUM-READY AND AI-ENABLED BY DESIGN: RESILIENT AND DEPLOYABLE NEXT-GEN CELLULAR NETWORKS -THIS COLLABORATIVE PROJECT AIMS TO IMPROVE THE... | awarding agency | National Science Foundation | authoritative / high | [COLLABORATIVE RESEARCH: VINES: TRACK 1:QUANTUM-READY AND AI-ENABLED BY DESIGN: RESILIENT AND DEPLOYABLE NEXT-GEN CELLULAR NETWORKS -THIS COLLABORATIVE PROJECT AIMS TO IMPROVE THE...](https://www.usaspending.gov/award/ASST_NON_2548947_049) |
-| active | COLLABORATIVE RESEARCH: VINES: TRACK 1:QUANTUM-READY AND AI-ENABLED BY DESIGN: RESILIENT AND DEPLOYABLE NEXT-GEN CELLULAR NETWORKS -THIS COLLABORATIVE PROJECT AIMS TO IMPROVE THE... | reported amount | 559850.0 | authoritative / high | [COLLABORATIVE RESEARCH: VINES: TRACK 1:QUANTUM-READY AND AI-ENABLED BY DESIGN: RESILIENT AND DEPLOYABLE NEXT-GEN CELLULAR NETWORKS -THIS COLLABORATIVE PROJECT AIMS TO IMPROVE THE...](https://www.usaspending.gov/award/ASST_NON_2548947_049) |
-| active | COLLABORATIVE RESEARCH: VINES: TRACK 1:QUANTUM-READY AND AI-ENABLED BY DESIGN: RESILIENT AND DEPLOYABLE NEXT-GEN CELLULAR NETWORKS -THIS COLLABORATIVE PROJECT AIMS TO IMPROVE THE... | reported recipient | UNIVERSITY OF SOUTH FLORIDA | authoritative / high | [COLLABORATIVE RESEARCH: VINES: TRACK 1:QUANTUM-READY AND AI-ENABLED BY DESIGN: RESILIENT AND DEPLOYABLE NEXT-GEN CELLULAR NETWORKS -THIS COLLABORATIVE PROJECT AIMS TO IMPROVE THE...](https://www.usaspending.gov/award/ASST_NON_2548947_049) |
-| active | THE APPLE TEA PROJECT: EXPERIENTIAL LEARNING ACTIVITIES WITH AI-AUGMENTED PATHWAYS TO BUILD TEAMWORK SKILLS IN COMMUNITY COLLEGE CYBERSECURITY EDUCATION -THE APPLE TEA PROJECT AIM... | opportunity status | awarded | authoritative / high | [THE APPLE TEA PROJECT: EXPERIENTIAL LEARNING ACTIVITIES WITH AI-AUGMENTED PATHWAYS TO BUILD TEAMWORK SKILLS IN COMMUNITY COLLEGE CYBERSECURITY EDUCATION -THE APPLE TEA PROJECT AIM...](https://www.usaspending.gov/award/ASST_NON_2600274_049) |
-| active | THE APPLE TEA PROJECT: EXPERIENTIAL LEARNING ACTIVITIES WITH AI-AUGMENTED PATHWAYS TO BUILD TEAMWORK SKILLS IN COMMUNITY COLLEGE CYBERSECURITY EDUCATION -THE APPLE TEA PROJECT AIM... | awarding agency | National Science Foundation | authoritative / high | [THE APPLE TEA PROJECT: EXPERIENTIAL LEARNING ACTIVITIES WITH AI-AUGMENTED PATHWAYS TO BUILD TEAMWORK SKILLS IN COMMUNITY COLLEGE CYBERSECURITY EDUCATION -THE APPLE TEA PROJECT AIM...](https://www.usaspending.gov/award/ASST_NON_2600274_049) |
-| active | THE APPLE TEA PROJECT: EXPERIENTIAL LEARNING ACTIVITIES WITH AI-AUGMENTED PATHWAYS TO BUILD TEAMWORK SKILLS IN COMMUNITY COLLEGE CYBERSECURITY EDUCATION -THE APPLE TEA PROJECT AIM... | reported amount | 999502.0 | authoritative / high | [THE APPLE TEA PROJECT: EXPERIENTIAL LEARNING ACTIVITIES WITH AI-AUGMENTED PATHWAYS TO BUILD TEAMWORK SKILLS IN COMMUNITY COLLEGE CYBERSECURITY EDUCATION -THE APPLE TEA PROJECT AIM...](https://www.usaspending.gov/award/ASST_NON_2600274_049) |
-| active | THE APPLE TEA PROJECT: EXPERIENTIAL LEARNING ACTIVITIES WITH AI-AUGMENTED PATHWAYS TO BUILD TEAMWORK SKILLS IN COMMUNITY COLLEGE CYBERSECURITY EDUCATION -THE APPLE TEA PROJECT AIM... | reported recipient | CARNEGIE-MELLON UNIVERSITY | authoritative / high | [THE APPLE TEA PROJECT: EXPERIENTIAL LEARNING ACTIVITIES WITH AI-AUGMENTED PATHWAYS TO BUILD TEAMWORK SKILLS IN COMMUNITY COLLEGE CYBERSECURITY EDUCATION -THE APPLE TEA PROJECT AIM...](https://www.usaspending.gov/award/ASST_NON_2600274_049) |
-| active | S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCI... | opportunity status | awarded | authoritative / high | [S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCI...](https://www.usaspending.gov/award/ASST_NON_2620285_049) |
-| active | S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCI... | awarding agency | National Science Foundation | authoritative / high | [S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCI...](https://www.usaspending.gov/award/ASST_NON_2620285_049) |
 
 ## Method
 

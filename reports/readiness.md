@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-09-08 02:38 UTC_
+_Updated 2026-09-09 02:36 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
@@ -23,16 +23,16 @@ Assessed **25 of 43** configured organizations.
 | CISA | Planning | low | 1 | 1 | 0 | 2026-09-03 |
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
 | Cisco | Awareness | high | 6 | 2 | 0 | 2026-09-01 |
-| Cloudflare | Awareness | high | 4 | 3 | 0 | 2026-08-10 |
+| Cloudflare | Awareness | high | 5 | 3 | 0 | 2026-09-08 |
 | ANSSI | Awareness | medium | 2 | 1 | 0 | 2026-09-03 |
 | ISO/IEC | Awareness | medium | 2 | 2 | 0 | 2026-07-15 |
+| IonQ | Awareness | medium | 2 | 1 | 0 | 2026-09-08 |
 | AWS | Awareness | low | 1 | 1 | 0 | 2026-07-01 |
 | Booz Allen Hamilton | Awareness | low | 1 | 1 | 1 | 2025-02-06 |
 | DigiCert | Awareness | low | 1 | 1 | 0 | 2026-08-03 |
 | ETSI | Awareness | low | 1 | 1 | 1 | 2026-06-22 |
 | IBM | Awareness | low | 1 | 1 | 0 | 2026-07-29 |
 | IETF | Awareness | low | 1 | 1 | 0 | 2026-08-28 |
-| IonQ | Awareness | low | 1 | 1 | 0 | 2026-08-04 |
 | PQCA | Awareness | low | 1 | 1 | 0 | 2026-07-27 |
 | Pasqal | Awareness | low | 1 | 1 | 0 | 2026-08-31 |
 | Quantinuum | Awareness | low | 1 | 1 | 0 | 2026-07-29 |

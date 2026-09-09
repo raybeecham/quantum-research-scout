@@ -63,7 +63,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 3,
+      "evidence_count": 4,
       "first_party_evidence_count": 0,
       "name": "D-Wave",
       "priority": "high",
@@ -83,7 +83,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 22,
+      "evidence_count": 23,
       "first_party_evidence_count": 0,
       "name": "Infleqtion",
       "priority": "medium",
@@ -215,8 +215,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 9,
-      "first_party_evidence_count": 7,
+      "evidence_count": 10,
+      "first_party_evidence_count": 8,
       "name": "Cisco",
       "priority": "high",
       "status": "covered",
@@ -236,8 +236,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 7,
-      "first_party_evidence_count": 5,
+      "evidence_count": 8,
+      "first_party_evidence_count": 6,
       "name": "Cloudflare",
       "priority": "high",
       "status": "covered",
@@ -385,7 +385,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 16,
+      "evidence_count": 19,
       "first_party_evidence_count": 0,
       "name": "IonQ",
       "priority": "high",
@@ -476,8 +476,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 2,
-      "first_party_evidence_count": 2,
+      "evidence_count": 3,
+      "first_party_evidence_count": 3,
       "name": "PQCA",
       "priority": "high",
       "status": "covered",
@@ -694,7 +694,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 3,
+      "evidence_count": 5,
       "first_party_evidence_count": 0,
       "name": "Rigetti",
       "priority": "medium",
@@ -877,9 +877,9 @@
       "first_seen": "2026-06-25",
       "historical_evidence_count": 1,
       "latest_seen": "2026-08-25",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "NIST",
-      "prior_count": 2,
+      "prior_count": 0,
       "priority": "critical",
       "recent_count": 0,
       "status": "quiet",
@@ -2143,8 +2143,44 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 16,
+      "current_evidence_count": 19,
       "evidence": [
+        {
+          "date": "2026-09-08",
+          "key": "https://quantumcomputingreport.com/ionq-and-congruity360-execute-8-18-million-commercial-quantum-safe-network-agreement",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 128,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "IonQ and Congruity360 Execute $8.18 Million Commercial Quantum-Safe Network Agreement",
+          "url": "https://quantumcomputingreport.com/ionq-and-congruity360-execute-8-18-million-commercial-quantum-safe-network-agreement"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://thequantuminsider.com/2026/09/08/ionq-estimates-20000-qubit-machine-could-break-bitcoin-secp256k1-26-days",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 65,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IonQ Estimates 20,000-Qubit Machine Could Break Bitcoin\u2019s secp256k1 in 26 Days",
+          "url": "https://thequantuminsider.com/2026/09/08/ionq-estimates-20000-qubit-machine-could-break-bitcoin-secp256k1-26-days"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://quantumzeitgeist.com/ionq-superion-256",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 31,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IonQ Superion 256 platform aims for quantum chip manufacturing at scale",
+          "url": "https://quantumzeitgeist.com/ionq-superion-256"
+        },
         {
           "date": "2026-09-07",
           "key": "https://quantumzeitgeist.com/ionq-quantum-innovation-dubais-event",
@@ -2338,15 +2374,15 @@
           "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
         }
       ],
-      "evidence_count": 16,
+      "evidence_count": 19,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-07",
+      "latest_seen": "2026-09-08",
       "momentum": "rising",
       "name": "IonQ",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2592,8 +2628,20 @@
         "Cisco Systems"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 9,
+      "current_evidence_count": 10,
       "evidence": [
+        {
+          "date": "2026-09-08",
+          "key": "https://blogs.cisco.com/developer/ml-dsa-certificates-on-cisco-routers-ipsec-series-part-10",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 120,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "ML-DSA Certificates on Cisco Routers \u2013 IPsec Series, Part 10",
+          "url": "https://blogs.cisco.com/developer/ml-dsa-certificates-on-cisco-routers-ipsec-series-part-10"
+        },
         {
           "date": "2026-09-01",
           "key": "https://blogs.cisco.com/developer/post-quantum-key-exchange-on-cisco-routers-ipsec-series-part-9",
@@ -2703,10 +2751,10 @@
           "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
         }
       ],
-      "evidence_count": 9,
+      "evidence_count": 10,
       "first_seen": "2026-07-27",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-01",
+      "latest_seen": "2026-09-08",
       "momentum": "stable",
       "name": "Cisco",
       "prior_count": 1,
@@ -3166,8 +3214,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 7,
+      "current_evidence_count": 8,
       "evidence": [
+        {
+          "date": "2026-09-08",
+          "key": "https://blog.cloudflare.com/automatic-key-exchange-for-origins",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 69,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+          "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins"
+        },
         {
           "date": "2026-08-11",
           "key": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government",
@@ -3253,16 +3313,16 @@
           "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
         }
       ],
-      "evidence_count": 7,
+      "evidence_count": 8,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-11",
-      "momentum": "stable",
+      "latest_seen": "2026-09-08",
+      "momentum": "rising",
       "name": "Cloudflare",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "AI Security",
         "PQC / Crypto Agility",
@@ -3596,6 +3656,79 @@
     },
     {
       "aliases": [
+        "D-Wave Quantum"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 4,
+      "evidence": [
+        {
+          "date": "2026-09-08",
+          "key": "https://thequantuminsider.com/2026/09/08/d-wave-signs-100m-us-government-agreement-quantum-computing-rd",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "D-Wave Finalizes $100M U.S. Government Agreement for Quantum Computing R&D",
+          "url": "https://thequantuminsider.com/2026/09/08/d-wave-signs-100m-us-government-agreement-quantum-computing-rd"
+        },
+        {
+          "date": "2026-08-05",
+          "key": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing",
+          "report": "2026-08/2026-08-05-digest.md",
+          "score": 91,
+          "source": "The Quantum Insider",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "D-Wave Publishes Research on Dual-Rail Qubit Gate for Quantum Error Correction",
+          "url": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing"
+        },
+        {
+          "date": "2026-07-02",
+          "key": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical",
+          "report": "2026-07/2026-07-02-digest.md",
+          "score": 146,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "D-Wave Targets 100 Logical Qubits With Million-Operation Fault Tolerance",
+          "url": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical"
+        },
+        {
+          "date": "2026-06-30",
+          "key": "https://quantumcomputingreport.com/d-wave-selected-for-1-5-million-nsf-grant-to-provide-dual-rail-hardware-for-yale-led-fault-tolerant-erase-project",
+          "report": "2026-06/2026-06-30-digest.md",
+          "score": 66,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "D-Wave Selected for $1.5 Million NSF Grant to Provide Dual-Rail Hardware for Yale-Led Fault-Tolerant 'ERASE' Project",
+          "url": "https://quantumcomputingreport.com/d-wave-selected-for-1-5-million-nsf-grant-to-provide-dual-rail-hardware-for-yale-led-fault-tolerant-erase-project"
+        }
+      ],
+      "evidence_count": 4,
+      "first_seen": "2026-06-30",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-08",
+      "momentum": "rising",
+      "name": "D-Wave",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "QEC / Fault Tolerance",
+        "Quantum Hardware",
+        "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
         "Quantum Computing Inc",
         "QUBT"
       ],
@@ -3839,66 +3972,6 @@
     },
     {
       "aliases": [
-        "D-Wave Quantum"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 3,
-      "evidence": [
-        {
-          "date": "2026-08-05",
-          "key": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing",
-          "report": "2026-08/2026-08-05-digest.md",
-          "score": 91,
-          "source": "The Quantum Insider",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "D-Wave Publishes Research on Dual-Rail Qubit Gate for Quantum Error Correction",
-          "url": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing"
-        },
-        {
-          "date": "2026-07-02",
-          "key": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical",
-          "report": "2026-07/2026-07-02-digest.md",
-          "score": 146,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "D-Wave Targets 100 Logical Qubits With Million-Operation Fault Tolerance",
-          "url": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical"
-        },
-        {
-          "date": "2026-06-30",
-          "key": "https://quantumcomputingreport.com/d-wave-selected-for-1-5-million-nsf-grant-to-provide-dual-rail-hardware-for-yale-led-fault-tolerant-erase-project",
-          "report": "2026-06/2026-06-30-digest.md",
-          "score": 66,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "D-Wave Selected for $1.5 Million NSF Grant to Provide Dual-Rail Hardware for Yale-Led Fault-Tolerant 'ERASE' Project",
-          "url": "https://quantumcomputingreport.com/d-wave-selected-for-1-5-million-nsf-grant-to-provide-dual-rail-hardware-for-yale-led-fault-tolerant-erase-project"
-        }
-      ],
-      "evidence_count": 3,
-      "first_seen": "2026-06-30",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-08-05",
-      "momentum": "stable",
-      "name": "D-Wave",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "dormant",
-      "themes": [
-        "QEC / Fault Tolerance",
-        "Quantum Hardware"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [
         "Lockheed",
         "Lockheed Martin Corporation"
       ],
@@ -3969,6 +4042,65 @@
         "Quantum Software / Tooling"
       ],
       "type": "aerospace-defense"
+    },
+    {
+      "aliases": [
+        "Post-Quantum Cryptography Alliance"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 3,
+      "evidence": [
+        {
+          "date": "2026-09-08",
+          "key": "https://pqca.org/blog/2026/sonar-cryptography-plugin",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 52,
+          "source": "PQCA Blog and News",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Sonar Cryptography Plugin",
+          "url": "https://pqca.org/blog/2026/sonar-cryptography-plugin"
+        },
+        {
+          "date": "2026-07-27",
+          "key": "https://pqca.org/blog/2026/leadership-spotlight-qa-with-rodrigo-martin-sanchez-ledesma-oqs-tsc-co-chair",
+          "report": "2026-07/2026-07-27-digest.md",
+          "score": 63,
+          "source": "PQCA Blog and News",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Leadership Spotlight: Q&A With Rodrigo Mart\u00edn S\u00e1nchez-Ledesma, OQS TSC Co-Chair",
+          "url": "https://pqca.org/blog/2026/leadership-spotlight-qa-with-rodrigo-martin-sanchez-ledesma-oqs-tsc-co-chair"
+        },
+        {
+          "date": "2026-07-27",
+          "key": "https://pqca.org/blog/2026/member-spotlight-in-africa-pqcas-tools-meet-a-continents-backbone",
+          "report": "2026-07/2026-07-27-digest.md",
+          "score": 57,
+          "source": "PQCA Blog and News",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Member Spotlight: In Africa, PQCA\u2019s Tools Meet a Continent\u2019s Backbone",
+          "url": "https://pqca.org/blog/2026/member-spotlight-in-africa-pqcas-tools-meet-a-continents-backbone"
+        }
+      ],
+      "evidence_count": 3,
+      "first_seen": "2026-07-27",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-08",
+      "momentum": "rising",
+      "name": "PQCA",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "consortium"
     },
     {
       "aliases": [
@@ -4202,53 +4334,6 @@
         "PQC / Crypto Agility"
       ],
       "type": "standards"
-    },
-    {
-      "aliases": [
-        "Post-Quantum Cryptography Alliance"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 2,
-      "evidence": [
-        {
-          "date": "2026-07-27",
-          "key": "https://pqca.org/blog/2026/leadership-spotlight-qa-with-rodrigo-martin-sanchez-ledesma-oqs-tsc-co-chair",
-          "report": "2026-07/2026-07-27-digest.md",
-          "score": 63,
-          "source": "PQCA Blog and News",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Leadership Spotlight: Q&A With Rodrigo Mart\u00edn S\u00e1nchez-Ledesma, OQS TSC Co-Chair",
-          "url": "https://pqca.org/blog/2026/leadership-spotlight-qa-with-rodrigo-martin-sanchez-ledesma-oqs-tsc-co-chair"
-        },
-        {
-          "date": "2026-07-27",
-          "key": "https://pqca.org/blog/2026/member-spotlight-in-africa-pqcas-tools-meet-a-continents-backbone",
-          "report": "2026-07/2026-07-27-digest.md",
-          "score": 57,
-          "source": "PQCA Blog and News",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Member Spotlight: In Africa, PQCA\u2019s Tools Meet a Continent\u2019s Backbone",
-          "url": "https://pqca.org/blog/2026/member-spotlight-in-africa-pqcas-tools-meet-a-continents-backbone"
-        }
-      ],
-      "evidence_count": 2,
-      "first_seen": "2026-07-27",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-07-27",
-      "momentum": "stable",
-      "name": "PQCA",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "dormant",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "type": "consortium"
     },
     {
       "aliases": [
@@ -4570,8 +4655,20 @@
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 22,
+      "current_evidence_count": 23,
       "evidence": [
+        {
+          "date": "2026-09-08",
+          "key": "https://infleqtion.com/infleqtion-leaders-to-speak-at-quantum-world-congress-2026",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 36,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion Leaders to Speak at Quantum World Congress 2026",
+          "url": "https://infleqtion.com/infleqtion-leaders-to-speak-at-quantum-world-congress-2026"
+        },
         {
           "date": "2026-08-24",
           "key": "https://thequantuminsider.com/2026/08/24/infleqtion-japan-operational-neutral-atom-quantum-computer",
@@ -4837,16 +4934,16 @@
           "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
         }
       ],
-      "evidence_count": 22,
+      "evidence_count": 23,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-24",
-      "momentum": "stable",
+      "latest_seen": "2026-09-08",
+      "momentum": "rising",
       "name": "Infleqtion",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Hardware",
         "Quantum Sensing",
@@ -5094,12 +5191,93 @@
       "latest_seen": "2026-09-02",
       "momentum": "declining",
       "name": "Pasqal",
-      "prior_count": 4,
+      "prior_count": 3,
       "priority": "medium",
       "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
+        "Quantum Hardware"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 5,
+      "evidence": [
+        {
+          "date": "2026-09-08",
+          "key": "https://thequantuminsider.com/2026/09/08/us-department-commerce-awards-rigetti-100m-quantum-computing-rd",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Rigetti Signs Definitive Agreement for $100M with U.S. Government for Quantum Computing R&D",
+          "url": "https://thequantuminsider.com/2026/09/08/us-department-commerce-awards-rigetti-100m-quantum-computing-rd"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://quantumzeitgeist.com/rigetti-win-quantum-wins-100m",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Rigetti wins $100M from US government for quantum R&D",
+          "url": "https://quantumzeitgeist.com/rigetti-win-quantum-wins-100m"
+        },
+        {
+          "date": "2026-08-20",
+          "key": "https://quantumcomputingreport.com/rigetti-establishes-systems-delivery-unit-and-names-new-coo-and-cto-to-scale-on-premises-deployments",
+          "report": "2026-08/2026-08-20-digest.md",
+          "score": 37,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Rigetti Establishes Dedicated Systems Delivery Organization to Scale On-Premises Deployments",
+          "url": "https://quantumcomputingreport.com/rigetti-establishes-systems-delivery-unit-and-names-new-coo-and-cto-to-scale-on-premises-deployments"
+        },
+        {
+          "date": "2026-08-08",
+          "key": "https://quantumcomputingreport.com/rigetti-computing-reports-q2-2026-financial-results-revenue-up-185-yoy-100m-chips-act-loi-and-hpe-supercomputing-partnership",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Rigetti Computing Reports Q2 2026 Financial Results: Revenue Up 185% YoY, $100M CHIPS Act LOI, and HPE Supercomputing Partnership",
+          "url": "https://quantumcomputingreport.com/rigetti-computing-reports-q2-2026-financial-results-revenue-up-185-yoy-100m-chips-act-loi-and-hpe-supercomputing-partnership"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumzeitgeist.com/rigetti-computing-superconducting-qubit-temperature-bridges",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 50,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Rigetti Superconducting Bridges Track Qubit Temperature With Millikelvin Precision",
+          "url": "https://quantumzeitgeist.com/rigetti-computing-superconducting-qubit-temperature-bridges"
+        }
+      ],
+      "evidence_count": 5,
+      "first_seen": "2026-07-29",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-08",
+      "momentum": "rising",
+      "name": "Rigetti",
+      "prior_count": 0,
+      "priority": "medium",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
         "Quantum Hardware"
       ],
       "type": "company"
@@ -5174,63 +5352,6 @@
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Software / Tooling"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 3,
-      "evidence": [
-        {
-          "date": "2026-08-20",
-          "key": "https://quantumcomputingreport.com/rigetti-establishes-systems-delivery-unit-and-names-new-coo-and-cto-to-scale-on-premises-deployments",
-          "report": "2026-08/2026-08-20-digest.md",
-          "score": 37,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Rigetti Establishes Dedicated Systems Delivery Organization to Scale On-Premises Deployments",
-          "url": "https://quantumcomputingreport.com/rigetti-establishes-systems-delivery-unit-and-names-new-coo-and-cto-to-scale-on-premises-deployments"
-        },
-        {
-          "date": "2026-08-08",
-          "key": "https://quantumcomputingreport.com/rigetti-computing-reports-q2-2026-financial-results-revenue-up-185-yoy-100m-chips-act-loi-and-hpe-supercomputing-partnership",
-          "report": "2026-08/2026-08-08-digest.md",
-          "score": 100,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Rigetti Computing Reports Q2 2026 Financial Results: Revenue Up 185% YoY, $100M CHIPS Act LOI, and HPE Supercomputing Partnership",
-          "url": "https://quantumcomputingreport.com/rigetti-computing-reports-q2-2026-financial-results-revenue-up-185-yoy-100m-chips-act-loi-and-hpe-supercomputing-partnership"
-        },
-        {
-          "date": "2026-07-29",
-          "key": "https://quantumzeitgeist.com/rigetti-computing-superconducting-qubit-temperature-bridges",
-          "report": "2026-07/2026-07-29-digest.md",
-          "score": 50,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Rigetti Superconducting Bridges Track Qubit Temperature With Millikelvin Precision",
-          "url": "https://quantumzeitgeist.com/rigetti-computing-superconducting-qubit-temperature-bridges"
-        }
-      ],
-      "evidence_count": 3,
-      "first_seen": "2026-07-29",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-08-20",
-      "momentum": "stable",
-      "name": "Rigetti",
-      "prior_count": 0,
-      "priority": "medium",
-      "recent_count": 0,
-      "status": "quiet",
-      "themes": [
-        "Quantum Hardware"
       ],
       "type": "company"
     },
@@ -6566,7 +6687,7 @@
       "prior_count": 2,
       "priority": "critical",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -6581,8 +6702,20 @@
         "Dilithium"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 2,
+      "current_evidence_count": 3,
       "evidence": [
+        {
+          "date": "2026-09-08",
+          "key": "https://blogs.cisco.com/developer/ml-dsa-certificates-on-cisco-routers-ipsec-series-part-10",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 120,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "ML-DSA Certificates on Cisco Routers \u2013 IPsec Series, Part 10",
+          "url": "https://blogs.cisco.com/developer/ml-dsa-certificates-on-cisco-routers-ipsec-series-part-10"
+        },
         {
           "date": "2026-07-23",
           "key": "https://arxiv.org/abs/2603.22109",
@@ -6608,16 +6741,16 @@
           "url": "https://eprint.iacr.org/2026/1333"
         }
       ],
-      "evidence_count": 2,
+      "evidence_count": 3,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-07-23",
-      "momentum": "stable",
+      "latest_seen": "2026-09-08",
+      "momentum": "rising",
       "name": "ML-DSA",
       "prior_count": 0,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "dormant",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -7264,6 +7397,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-09-08T02:38:11.430850+00:00",
+  "updated_at": "2026-09-09T02:36:38.994608+00:00",
   "version": 2
 }

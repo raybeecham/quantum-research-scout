@@ -282,11 +282,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-c04a380ed343b4e6",
+      "claim_id": "claim-fd31cbc67aa080de",
       "confidence": "high",
-      "effective_date": "2026-09-07",
-      "first_observed_at": "2026-09-08T02:28:05.665263+00:00",
-      "last_observed_at": "2026-09-08T02:28:05.665263+00:00",
+      "effective_date": "2026-09-08",
+      "first_observed_at": "2026-09-09T02:29:55.448127+00:00",
+      "last_observed_at": "2026-09-09T02:29:55.448127+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -294,59 +294,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-76b4d7f411aaa58d",
-          "locator": "opportunity_status:open",
-          "title": "AEIF 2026 Alumni Summit: Freedom 250",
-          "url": "https://www.grants.gov/search-results-detail/363824",
+          "evidence_id": "evidence-897a634ac7c66dba",
+          "locator": "opportunity_status:awarded",
+          "title": "59--TAIL SENSOR",
+          "url": "https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:PDS-SAU-FY26-07",
-        "label": "AEIF 2026 Alumni Summit: Freedom 250",
-        "node_id": "opportunity:grants_gov:PDS-SAU-FY26-07",
-        "node_type": "opportunity"
+        "identifier": "sam_gov:SPE7M526T432P",
+        "label": "59--TAIL SENSOR",
+        "node_id": "award_notice:sam_gov:SPE7M526T432P",
+        "node_type": "award_notice"
       },
-      "value": "open"
+      "value": "awarded"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-ec682ab9c832a62f",
+      "claim_id": "claim-55458632b1e9c9d5",
       "confidence": "high",
-      "effective_date": "2026-09-07",
-      "first_observed_at": "2026-09-08T02:28:05.665263+00:00",
-      "last_observed_at": "2026-09-08T02:28:05.665263+00:00",
-      "object": null,
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7512909df478a1b5",
-          "locator": "deadline:09/14/2026",
-          "title": "AEIF 2026 Alumni Summit: Freedom 250",
-          "url": "https://www.grants.gov/search-results-detail/363824",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:PDS-SAU-FY26-07",
-        "label": "AEIF 2026 Alumni Summit: Freedom 250",
-        "node_id": "opportunity:grants_gov:PDS-SAU-FY26-07",
-        "node_type": "opportunity"
-      },
-      "value": "09/14/2026"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b4d3dae39c0552fe",
-      "confidence": "high",
-      "effective_date": "2026-09-07",
-      "first_observed_at": "2026-09-08T02:28:05.665263+00:00",
-      "last_observed_at": "2026-09-08T02:28:05.665263+00:00",
+      "effective_date": "2026-09-08",
+      "first_observed_at": "2026-09-09T02:29:55.448127+00:00",
+      "last_observed_at": "2026-09-09T02:29:55.448127+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -354,90 +324,250 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c1dde78819cb6ba5",
-          "locator": "awarding_agency:dos-sau",
-          "title": "AEIF 2026 Alumni Summit: Freedom 250",
-          "url": "https://www.grants.gov/search-results-detail/363824",
+          "evidence_id": "evidence-b347e34bd6681618",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla maritime.dla maritime columbus.dla land and maritime",
+          "title": "59--TAIL SENSOR",
+          "url": "https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:PDS-SAU-FY26-07",
-        "label": "AEIF 2026 Alumni Summit: Freedom 250",
-        "node_id": "opportunity:grants_gov:PDS-SAU-FY26-07",
-        "node_type": "opportunity"
+        "identifier": "sam_gov:SPE7M526T432P",
+        "label": "59--TAIL SENSOR",
+        "node_id": "award_notice:sam_gov:SPE7M526T432P",
+        "node_type": "award_notice"
       },
-      "value": "DOS-SAU"
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME"
     },
     {
-      "authority": "analytical",
+      "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-faaae0d125f39e41",
-      "confidence": "medium",
+      "claim_id": "claim-d269a1c24d966a52",
+      "confidence": "high",
       "effective_date": "2026-09-08",
-      "first_observed_at": "2026-09-08T02:28:05.665263+00:00",
-      "last_observed_at": "2026-09-08T02:28:05.665263+00:00",
+      "first_observed_at": "2026-09-09T02:29:55.448127+00:00",
+      "last_observed_at": "2026-09-09T02:29:55.448127+00:00",
       "object": null,
-      "predicate": "qualification_gate",
+      "predicate": "reported_amount",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-925aaf31eb95777a",
-          "locator": "qualification_gate",
-          "title": "AEIF 2026 Alumni Summit: Freedom 250",
-          "url": "https://www.grants.gov/search-results-detail/363824",
+          "evidence_id": "evidence-037eda8dda2aaf90",
+          "locator": "reported_amount:50200.0",
+          "title": "59--TAIL SENSOR",
+          "url": "https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:PDS-SAU-FY26-07",
-        "label": "AEIF 2026 Alumni Summit: Freedom 250",
-        "node_id": "opportunity:grants_gov:PDS-SAU-FY26-07",
-        "node_type": "opportunity"
+        "identifier": "sam_gov:SPE7M526T432P",
+        "label": "59--TAIL SENSOR",
+        "node_id": "award_notice:sam_gov:SPE7M526T432P",
+        "node_type": "award_notice"
       },
-      "value": "hold"
+      "value": 50200.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-bfa871175d8d9b3e",
+      "confidence": "high",
+      "effective_date": "2026-09-08",
+      "first_observed_at": "2026-09-09T02:29:55.448127+00:00",
+      "last_observed_at": "2026-09-09T02:29:55.448127+00:00",
+      "object": {
+        "identifier": "name:habco industries",
+        "label": "HABCO INDUSTRIES LLC",
+        "node_id": "recipient_or_contractor:name:habco industries",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6e2778598586daea",
+          "locator": "reported_recipient:recipient_or_contractor:name:habco industries",
+          "title": "59--TAIL SENSOR",
+          "url": "https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M526T432P",
+        "label": "59--TAIL SENSOR",
+        "node_id": "award_notice:sam_gov:SPE7M526T432P",
+        "node_type": "award_notice"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6962ad5fc0f4eb84",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-09T02:29:55.448127+00:00",
+      "last_observed_at": "2026-09-09T02:29:55.448127+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-619a1142e334c8d3",
+          "locator": "opportunity_status:awarded",
+          "title": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:47QSCC26F6RXW",
+        "label": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+        "node_id": "award:usaspending:47QSCC26F6RXW",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8de2b8b25df21548",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-09T02:29:55.448127+00:00",
+      "last_observed_at": "2026-09-09T02:29:55.448127+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7c7450caa2e8f216",
+          "locator": "awarding_agency:general services administration",
+          "title": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:47QSCC26F6RXW",
+        "label": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+        "node_id": "award:usaspending:47QSCC26F6RXW",
+        "node_type": "award"
+      },
+      "value": "General Services Administration"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-29349b41393afc24",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-09T02:29:55.448127+00:00",
+      "last_observed_at": "2026-09-09T02:29:55.448127+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-78e450c24a4d44f2",
+          "locator": "reported_amount:1740.0",
+          "title": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:47QSCC26F6RXW",
+        "label": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+        "node_id": "award:usaspending:47QSCC26F6RXW",
+        "node_type": "award"
+      },
+      "value": 1740.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-240fbd1b9afff3ad",
+      "confidence": "high",
+      "effective_date": "2026-09-04",
+      "first_observed_at": "2026-09-09T02:29:55.448127+00:00",
+      "last_observed_at": "2026-09-09T02:29:55.448127+00:00",
+      "object": {
+        "identifier": "uei:DBQGN324ULK3",
+        "label": "W.W. GRAINGER, INC.",
+        "node_id": "recipient_or_contractor:uei:DBQGN324ULK3",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a453fc892464e86b",
+          "locator": "reported_recipient:recipient_or_contractor:uei:DBQGN324ULK3",
+          "title": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:47QSCC26F6RXW",
+        "label": "CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC",
+        "node_id": "award:usaspending:47QSCC26F6RXW",
+        "node_type": "award"
+      },
+      "value": null
     }
   ],
   "baseline_initialized": false,
   "changed": [
     {
-      "authority": "analytical",
+      "authority": "authoritative",
       "change_type": "changed",
-      "claim_id": "claim-1d126d2fa9c467a8",
-      "confidence": "medium",
-      "effective_date": "2026-09-08",
-      "first_observed_at": "2026-09-02T02:19:14.986810+00:00",
-      "last_observed_at": "2026-09-08T02:28:05.665263+00:00",
+      "claim_id": "claim-76385636f12353cd",
+      "confidence": "high",
+      "effective_date": "2026-08-28",
+      "first_observed_at": "2026-08-29T05:05:39.790622+00:00",
+      "last_observed_at": "2026-09-09T02:29:55.448127+00:00",
       "object": null,
-      "predicate": "qualification_gate",
+      "predicate": "opportunity_status",
       "previous_object": null,
-      "previous_value": "hold",
+      "previous_value": "open",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ebf2349cad1bd35e",
-          "locator": "qualification_gate",
-          "title": "CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)",
-          "url": "https://www.grants.gov/search-results-detail/360651",
+          "evidence_id": "evidence-0fa52bcddcfe6395",
+          "locator": "opportunity_status:closed",
+          "title": "EdUSA AI & Quantum Technologies Initiative in Australia",
+          "url": "https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:2025-NIST-CHIPS-CRDO-01",
-        "label": "CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)",
-        "node_id": "opportunity:grants_gov:2025-NIST-CHIPS-CRDO-01",
+        "identifier": "sam_gov:19AS2026Q0032",
+        "label": "EdUSA AI & Quantum Technologies Initiative in Australia",
+        "node_id": "opportunity:sam_gov:19AS2026Q0032",
         "node_type": "opportunity"
       },
-      "value": "hold"
+      "value": "closed"
     }
   ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-09-08T02:28:05.665263+00:00",
-  "comparison_started_at": "2026-09-07T02:15:53.866028+00:00",
+  "comparison_ended_at": "2026-09-09T02:29:55.448127+00:00",
+  "comparison_started_at": "2026-09-08T02:28:05.665263+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1353,19 +1483,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-09-07T02:15:53.866028+00:00",
+  "since": "2026-09-08T02:28:05.665263+00:00",
   "summary": {
-    "active_claims": 4123,
-    "added": 4,
+    "active_claims": 4131,
+    "added": 8,
     "changed": 1,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 32,
+    "material_changes": 36,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-09-08T02:28:05.665263+00:00",
+  "updated_at": "2026-09-09T02:29:55.448127+00:00",
   "version": 1
 }

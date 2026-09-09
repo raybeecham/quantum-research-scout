@@ -1813,12 +1813,48 @@
           "source": "PQShield",
           "title": "We are presenting at GSA PQC Summit 2026 Washington DC 16 - 16 Sep, 2026 We're attending and presenting this year at the 2026 GSA Post-Quantum Cryptography Summit.",
           "url": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://thequantuminsider.com/2026/09/08/quantum-ready-tokenized-finance-requirements",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 50,
+          "source": "The Quantum Insider",
+          "title": "Guest Post: How Tokenized Finance Can Prepare for Post-Quantum Security",
+          "url": "https://thequantuminsider.com/2026/09/08/quantum-ready-tokenized-finance-requirements"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://pqca.org/blog/2026/sonar-cryptography-plugin",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 52,
+          "source": "PQCA Blog and News",
+          "title": "Sonar Cryptography Plugin",
+          "url": "https://pqca.org/blog/2026/sonar-cryptography-plugin"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://blog.cloudflare.com/automatic-key-exchange-for-origins",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 69,
+          "source": "Cloudflare Blog",
+          "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+          "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://blogs.cisco.com/developer/ml-dsa-certificates-on-cisco-routers-ipsec-series-part-10",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 120,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "ML-DSA Certificates on Cisco Routers \u2013 IPsec Series, Part 10",
+          "url": "https://blogs.cisco.com/developer/ml-dsa-certificates-on-cisco-routers-ipsec-series-part-10"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-09-07",
+      "latest_seen": "2026-09-08",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -1827,8 +1863,8 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 11,
-      "recent_count": 23,
+      "prior_count": 12,
+      "recent_count": 21,
       "status": "actionable"
     },
     "QEC / Fault Tolerance": {
@@ -4651,12 +4687,57 @@
           "source": "QuantumNews.ai",
           "title": "Reducing Overheads in Trapped Ion Quantum Processors",
           "url": "https://quantumnews.ai/hardware/reducing-overheads-in-trapped-ion-quantum-processors"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://quantumzeitgeist.com/ionq-superion-256",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 31,
+          "source": "QuantumNews.ai",
+          "title": "IonQ Superion 256 platform aims for quantum chip manufacturing at scale",
+          "url": "https://quantumzeitgeist.com/ionq-superion-256"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://quantumzeitgeist.com/superfluid-helium-qubit-university-surrey",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 37,
+          "source": "Quantum Zeitgeist",
+          "title": "University of Surrey designs superfluid helium qubit to cut errors by 100x",
+          "url": "https://quantumzeitgeist.com/superfluid-helium-qubit-university-surrey"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://thequantuminsider.com/2026/09/08/ionq-estimates-20000-qubit-machine-could-break-bitcoin-secp256k1-26-days",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 65,
+          "source": "The Quantum Insider",
+          "title": "IonQ Estimates 20,000-Qubit Machine Could Break Bitcoin\u2019s secp256k1 in 26 Days",
+          "url": "https://thequantuminsider.com/2026/09/08/ionq-estimates-20000-qubit-machine-could-break-bitcoin-secp256k1-26-days"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://thequantuminsider.com/2026/09/08/us-department-commerce-awards-rigetti-100m-quantum-computing-rd",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "Rigetti Signs Definitive Agreement for $100M with U.S. Government for Quantum Computing R&D",
+          "url": "https://thequantuminsider.com/2026/09/08/us-department-commerce-awards-rigetti-100m-quantum-computing-rd"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://quantumzeitgeist.com/rigetti-win-quantum-wins-100m",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "title": "Rigetti wins $100M from US government for quantum R&D",
+          "url": "https://quantumzeitgeist.com/rigetti-win-quantum-wins-100m"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-09-07",
+      "latest_seen": "2026-09-08",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -4664,8 +4745,8 @@
         "QuantumNews.ai",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 16,
-      "recent_count": 20,
+      "prior_count": 15,
+      "recent_count": 22,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -5570,12 +5651,21 @@
           "source": "USAspending \u00b7 Quantum Technologies",
           "title": "OU77-FY26-163-NEW. QUANTUM NETWORK PLUGGABLE 4-CHANNEL SUPERCONDUCTING NANOWIRE SINGLE-PHOTON DETECTOR (SNSPD) SYSTEM",
           "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB770450_1341_-NONE-_-NONE-"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://quantumcomputingreport.com/ionq-and-congruity360-execute-8-18-million-commercial-quantum-safe-network-agreement",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 128,
+          "source": "QuantumNews.ai",
+          "title": "IonQ and Congruity360 Execute $8.18 Million Commercial Quantum-Safe Network Agreement",
+          "url": "https://quantumcomputingreport.com/ionq-and-congruity360-execute-8-18-million-commercial-quantum-safe-network-agreement"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-09-07",
+      "latest_seen": "2026-09-08",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -5584,7 +5674,7 @@
         "arXiv RSS quant-ph",
         "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 3,
+      "prior_count": 4,
       "recent_count": 4,
       "status": "watching"
     },
@@ -5977,22 +6067,31 @@
           "source": "Department of War Strategic Technology News",
           "title": "GPS-Free Test Flight Success Marks Critical Advance for Aviation, National Security",
           "url": "https://www.war.gov/News/News-Stories/Article/Article/4591661/gps-free-test-flight-success-marks-critical-advance-for-aviation-national-secur"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://infleqtion.com/infleqtion-leaders-to-speak-at-quantum-world-congress-2026",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 36,
+          "source": "QuantumNews.ai",
+          "title": "Infleqtion Leaders to Speak at Quantum World Congress 2026",
+          "url": "https://infleqtion.com/infleqtion-leaders-to-speak-at-quantum-world-congress-2026"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.",
       "importance": "critical",
-      "latest_seen": "2026-09-04",
-      "momentum": "declining",
+      "latest_seen": "2026-09-08",
+      "momentum": "rising",
       "organizations": [
         "QuantumNews.ai",
         "The Quantum Insider",
         "Quantum Zeitgeist",
         "Department of War Strategic Technology News"
       ],
-      "prior_count": 3,
-      "recent_count": 2,
-      "status": "watching"
+      "prior_count": 1,
+      "recent_count": 3,
+      "status": "actionable"
     },
     "Quantum Software / Tooling": {
       "confidence": "high",
@@ -6725,12 +6824,21 @@
           "source": "QuantumNews.ai",
           "title": "New method automatically finds errors in quantum states",
           "url": "https://quantumzeitgeist.com/ntt-errors-quantum-states-method-automatically"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://quantumzeitgeist.com/qoro-hartree-centre-link-quantum",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 25,
+          "source": "Quantum Zeitgeist",
+          "title": "Qoro and Hartree Centre link quantum software to UK supercomputers",
+          "url": "https://quantumzeitgeist.com/qoro-hartree-centre-link-quantum"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-09-07",
+      "latest_seen": "2026-09-08",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -6739,7 +6847,7 @@
         "AWS Quantum Technologies Blog",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 3,
+      "prior_count": 4,
       "recent_count": 8,
       "status": "actionable"
     },
@@ -7141,12 +7249,21 @@
           "source": "USAspending \u00b7 Quantum Technologies",
           "title": "START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...",
           "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80229_7571_47QTCA21D00BX_4732"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://thequantuminsider.com/2026/09/08/d-wave-signs-100m-us-government-agreement-quantum-computing-rd",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "D-Wave Finalizes $100M U.S. Government Agreement for Quantum Computing R&D",
+          "url": "https://thequantuminsider.com/2026/09/08/d-wave-signs-100m-us-government-agreement-quantum-computing-rd"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-09-07",
+      "latest_seen": "2026-09-08",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -7160,6 +7277,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-09-08T02:38:11.424803+00:00",
+  "updated_at": "2026-09-09T02:36:38.986052+00:00",
   "version": 1
 }

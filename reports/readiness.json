@@ -1000,9 +1000,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 4,
+      "evidence_count": 5,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-08-10",
+      "latest_evidence_at": "2026-09-08",
       "name": "Cloudflare",
       "priority": "high",
       "source_count": 3,
@@ -1010,6 +1010,21 @@
       "stage_label": "Awareness",
       "stage_rank": 1,
       "supporting_evidence": [
+        {
+          "date": "2026-09-08",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cloudflare Blog",
+          "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+          "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins"
+        },
         {
           "date": "2026-08-10",
           "date_confidence": "unknown",
@@ -1162,6 +1177,51 @@
         }
       ],
       "type": "standards"
+    },
+    {
+      "confidence": "medium",
+      "evidence_count": 2,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-09-08",
+      "name": "IonQ",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-09-08",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum-safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuantumNews.ai",
+          "title": "IonQ and Congruity360 Execute $8.18 Million Commercial Quantum-Safe Network Agreement",
+          "url": "https://quantumcomputingreport.com/ionq-and-congruity360-execute-8-18-million-commercial-quantum-safe-network-agreement"
+        },
+        {
+          "date": "2026-08-04",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuantumNews.ai",
+          "title": "IonQ says orders set 2030 deadline for post-quantum crypto migration",
+          "url": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders"
+        }
+      ],
+      "type": "company"
     },
     {
       "confidence": "low",
@@ -1342,36 +1402,6 @@
         }
       ],
       "type": "standards"
-    },
-    {
-      "confidence": "low",
-      "evidence_count": 1,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-08-04",
-      "name": "IonQ",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-08-04",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "QuantumNews.ai",
-          "title": "IonQ says orders set 2030 deadline for post-quantum crypto migration",
-          "url": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders"
-        }
-      ],
-      "type": "company"
     },
     {
       "confidence": "low",
@@ -1758,6 +1788,6 @@
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-09-08T02:38:11.800484+00:00",
+  "updated_at": "2026-09-09T02:36:39.557591+00:00",
   "version": 1
 }

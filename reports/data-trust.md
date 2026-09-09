@@ -1,6 +1,6 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-09-08T02:28:05.665263+00:00_
+_Updated 2026-09-09T02:29:55.448127+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
@@ -45,6 +45,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [Powering Affordable Reliable Technology (PART) Energy Program](https://www.grants.gov/search-results-detail/363396)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Powering Affordable Reliable Technology (PART) Energy Program](https://www.grants.gov/search-results-detail/363396)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [PsiQuantum and Brookhaven Lab build tools for future quantum computers](https://quantumzeitgeist.com/psiquantum-brookhaven-lab-tools-quantum)
 
@@ -246,20 +260,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal missions
 - Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Powering Affordable Reliable Technology (PART) Energy Program](https://www.grants.gov/search-results-detail/363396)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Powering Affordable Reliable Technology (PART) Energy Program](https://www.grants.gov/search-results-detail/363396)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 

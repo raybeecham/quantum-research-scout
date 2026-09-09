@@ -2,26 +2,30 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-08T02:28:05.665263+00:00_
+_Updated 2026-09-09T02:29:55.448127+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **32**
-- Added / changed / resolved: **4 / 1 / 27**
+- Material changes: **36**
+- Added / changed / resolved: **8 / 1 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA)** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/360651))
+- **EdUSA AI & Quantum Technologies Initiative in Australia** — opportunity status: closed ([evidence](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view))
 
 ## New claims
 
-- **AEIF 2026 Alumni Summit: Freedom 250** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/363824))
-- **AEIF 2026 Alumni Summit: Freedom 250** — deadline: 09/14/2026 ([evidence](https://www.grants.gov/search-results-detail/363824))
-- **AEIF 2026 Alumni Summit: Freedom 250** — awarding agency: DOS-SAU ([evidence](https://www.grants.gov/search-results-detail/363824))
-- **AEIF 2026 Alumni Summit: Freedom 250** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363824))
+- **59--TAIL SENSOR** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view))
+- **59--TAIL SENSOR** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME ([evidence](https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view))
+- **59--TAIL SENSOR** — reported amount: 50200.0 ([evidence](https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view))
+- **59--TAIL SENSOR** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view))
+- **CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732))
+- **CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC** — awarding agency: General Services Administration ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732))
+- **CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC** — reported amount: 1740.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732))
+- **CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732))
 
 ## Superseded claims
 
