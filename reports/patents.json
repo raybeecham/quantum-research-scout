@@ -2297,6 +2297,50 @@
       "title": "Conditional SSH Tunneling as a Policy Enforcement Point for Seamless Zero Trust Integration"
     },
     {
+      "application_count": 1,
+      "assignee": "Cisco Technology, Inc.",
+      "citation_count": 0,
+      "family_basis": "continuation parent application",
+      "family_key": "application:19550597",
+      "grant_count": 0,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "19638035",
+          "document_type": "application",
+          "publication_number": "US20260238669A1",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19638035/application-data"
+        }
+      ],
+      "primary_publication_number": "US20260238669A1",
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19638035/application-data",
+      "significance_label": "high",
+      "strategic_significance_score": 61,
+      "title": "CORRELATING FIREWALL AND ZERO TRUST DATA TO MONITOR REMOTE AND HYBRID WORKER SESSIONS"
+    },
+    {
+      "application_count": 1,
+      "assignee": "Permiso Security Inc.",
+      "citation_count": 0,
+      "family_basis": "continuation parent application",
+      "family_key": "application:19394310",
+      "grant_count": 0,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "19547437",
+          "document_type": "application",
+          "publication_number": "US20260189579A1",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19547437/application-data"
+        }
+      ],
+      "primary_publication_number": "US20260189579A1",
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19547437/application-data",
+      "significance_label": "high",
+      "strategic_significance_score": 61,
+      "title": "SYSTEMS AND METHODS FOR AUTOMATED DETECTION OF CYBERSECURITY THREATS ACROSS DIGITAL PLATFORMS"
+    },
+    {
       "application_count": 2,
       "assignee": "LG MANAGEMENT DEVELOPMENT INSTITUTE CO., LTD.",
       "citation_count": 0,
@@ -3599,50 +3643,6 @@
       "significance_label": "notable",
       "strategic_significance_score": 53,
       "title": "PORTABLE DOCUMENT FORMAT (PDF) FILE MALWARE DETECTION"
-    },
-    {
-      "application_count": 1,
-      "assignee": "Cisco Technology, Inc.",
-      "citation_count": 0,
-      "family_basis": "continuation parent application",
-      "family_key": "application:19550597",
-      "grant_count": 0,
-      "member_count": 1,
-      "members": [
-        {
-          "application_number": "19638035",
-          "document_type": "application",
-          "publication_number": "US20260238669A1",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19638035/application-data"
-        }
-      ],
-      "primary_publication_number": "US20260238669A1",
-      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19638035/application-data",
-      "significance_label": "notable",
-      "strategic_significance_score": 53,
-      "title": "CORRELATING FIREWALL AND ZERO TRUST DATA TO MONITOR REMOTE AND HYBRID WORKER SESSIONS"
-    },
-    {
-      "application_count": 1,
-      "assignee": "Permiso Security Inc.",
-      "citation_count": 0,
-      "family_basis": "continuation parent application",
-      "family_key": "application:19394310",
-      "grant_count": 0,
-      "member_count": 1,
-      "members": [
-        {
-          "application_number": "19547437",
-          "document_type": "application",
-          "publication_number": "US20260189579A1",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19547437/application-data"
-        }
-      ],
-      "primary_publication_number": "US20260189579A1",
-      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19547437/application-data",
-      "significance_label": "notable",
-      "strategic_significance_score": 53,
-      "title": "SYSTEMS AND METHODS FOR AUTOMATED DETECTION OF CYBERSECURITY THREATS ACROSS DIGITAL PLATFORMS"
     },
     {
       "application_count": 1,
@@ -11434,6 +11434,73 @@
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19645080/application-data"
     },
     {
+      "application_number": "19638035",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "Cisco Technology, Inc.",
+      "backward_citation_count": 0,
+      "child_applications": [
+        "19638035",
+        "19550597"
+      ],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "application",
+      "family_basis": "continuation parent application",
+      "family_id": "",
+      "family_key": "application:19550597",
+      "family_members": [
+        {
+          "application_number": "19638035",
+          "document_type": "application",
+          "publication_number": "US20260238669A1",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19638035/application-data"
+        }
+      ],
+      "family_size": 1,
+      "filing_date": "2026-04-02",
+      "forward_citation_count": 0,
+      "grant_date": "",
+      "inventors": "Doron Levari, Vincent E. Parla, Tariq Ahmed Farhan, Siddhu Warrier, Jason M Perry",
+      "is_continuation": true,
+      "key": "US20260238669A1",
+      "kind_code": "A1",
+      "legal_status": "Response to Non-Final Office Action Entered and Forwarded to Examiner",
+      "legal_status_normalized": "pending",
+      "matched_keywords": [],
+      "parent_applications": [
+        "19550597",
+        "18175218"
+      ],
+      "patent_number": null,
+      "priority": "monitor",
+      "priority_date": "",
+      "priority_numbers": [],
+      "publication_date": "2026-08-13",
+      "publication_number": "US20260238669A1",
+      "query": "Cybersecurity and Cryptography Patents",
+      "score": 0,
+      "significance_factors": [
+        "strategic domain relevance +40",
+        "application stage +5",
+        "pending legal status +8",
+        "recent publication +5",
+        "named assignee +3"
+      ],
+      "significance_label": "high",
+      "source": "Cybersecurity and Cryptography Patents",
+      "strategic_domains": [
+        "Cybersecurity and cryptography"
+      ],
+      "strategic_relevance_score": 100,
+      "strategic_significance_score": 61,
+      "summary": "Applicant: Cisco Technology, Inc. \u00b7 USPTO publication US20260238669A1",
+      "title": "CORRELATING FIREWALL AND ZERO TRUST DATA TO MONITOR REMOTE AND HYBRID WORKER SESSIONS",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19638035/application-data"
+    },
+    {
       "application_number": "19635309",
       "application_type": "Utility",
       "assessment": null,
@@ -12250,6 +12317,73 @@
       "title": "SYSTEMS AND METHODS FOR INTELLIGENT CYBERSECURITY ALERT SIMILARITY DETECTION AND CYBERSECURITY ALERT HANDLING",
       "tracking_type": "automated",
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19544537/application-data"
+    },
+    {
+      "application_number": "19547437",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "Permiso Security Inc.",
+      "backward_citation_count": 0,
+      "child_applications": [
+        "19547437"
+      ],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "application",
+      "family_basis": "continuation parent application",
+      "family_id": "",
+      "family_key": "application:19394310",
+      "family_members": [
+        {
+          "application_number": "19547437",
+          "document_type": "application",
+          "publication_number": "US20260189579A1",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19547437/application-data"
+        }
+      ],
+      "family_size": 1,
+      "filing_date": "2026-02-23",
+      "forward_citation_count": 0,
+      "grant_date": "",
+      "inventors": "Stephen Demjanenko, Wei Quan, Jason Martin, Thomas Kurty, Andrew Shu, Nihar Patel, Charan Sunkara, Xavier Chemla, Nathan Eades, Ian Ahl, Phani Modali",
+      "is_continuation": true,
+      "key": "US20260189579A1",
+      "kind_code": "A1",
+      "legal_status": "Patented Case",
+      "legal_status_normalized": "granted",
+      "matched_keywords": [],
+      "parent_applications": [
+        "19394310",
+        "63762366",
+        "63722623"
+      ],
+      "patent_number": null,
+      "priority": "monitor",
+      "priority_date": "",
+      "priority_numbers": [],
+      "publication_date": "2026-07-02",
+      "publication_number": "US20260189579A1",
+      "query": "Cybersecurity and Cryptography Patents",
+      "score": 0,
+      "significance_factors": [
+        "strategic domain relevance +40",
+        "application stage +5",
+        "granted legal status +8",
+        "recent publication +5",
+        "named assignee +3"
+      ],
+      "significance_label": "high",
+      "source": "Cybersecurity and Cryptography Patents",
+      "strategic_domains": [
+        "Cybersecurity and cryptography"
+      ],
+      "strategic_relevance_score": 100,
+      "strategic_significance_score": 61,
+      "summary": "Applicant: Permiso Security Inc. \u00b7 USPTO publication US20260189579A1",
+      "title": "SYSTEMS AND METHODS FOR AUTOMATED DETECTION OF CYBERSECURITY THREATS ACROSS DIGITAL PLATFORMS",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19547437/application-data"
     },
     {
       "application_number": "19544899",
@@ -16716,138 +16850,6 @@
       "title": "PORTABLE DOCUMENT FORMAT (PDF) FILE MALWARE DETECTION",
       "tracking_type": "automated",
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19640228/application-data"
-    },
-    {
-      "application_number": "19638035",
-      "application_type": "Utility",
-      "assessment": null,
-      "assignee": "Cisco Technology, Inc.",
-      "backward_citation_count": 0,
-      "child_applications": [
-        "19638035",
-        "19550597"
-      ],
-      "citation_count": 0,
-      "cited_patents": [],
-      "continuation_type": null,
-      "document_type": "application",
-      "family_basis": "continuation parent application",
-      "family_id": "",
-      "family_key": "application:19550597",
-      "family_members": [
-        {
-          "application_number": "19638035",
-          "document_type": "application",
-          "publication_number": "US20260238669A1",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19638035/application-data"
-        }
-      ],
-      "family_size": 1,
-      "filing_date": "2026-04-02",
-      "forward_citation_count": 0,
-      "grant_date": "",
-      "inventors": "Doron Levari, Vincent E. Parla, Tariq Ahmed Farhan, Siddhu Warrier, Jason M Perry",
-      "is_continuation": true,
-      "key": "US20260238669A1",
-      "kind_code": "A1",
-      "legal_status": "Non Final Action Mailed",
-      "legal_status_normalized": "unknown",
-      "matched_keywords": [],
-      "parent_applications": [
-        "19550597",
-        "18175218"
-      ],
-      "patent_number": null,
-      "priority": "monitor",
-      "priority_date": "",
-      "priority_numbers": [],
-      "publication_date": "2026-08-13",
-      "publication_number": "US20260238669A1",
-      "query": "Cybersecurity and Cryptography Patents",
-      "score": 0,
-      "significance_factors": [
-        "strategic domain relevance +40",
-        "application stage +5",
-        "recent publication +5",
-        "named assignee +3"
-      ],
-      "significance_label": "notable",
-      "source": "Cybersecurity and Cryptography Patents",
-      "strategic_domains": [
-        "Cybersecurity and cryptography"
-      ],
-      "strategic_relevance_score": 100,
-      "strategic_significance_score": 53,
-      "summary": "Applicant: Cisco Technology, Inc. \u00b7 USPTO publication US20260238669A1",
-      "title": "CORRELATING FIREWALL AND ZERO TRUST DATA TO MONITOR REMOTE AND HYBRID WORKER SESSIONS",
-      "tracking_type": "automated",
-      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19638035/application-data"
-    },
-    {
-      "application_number": "19547437",
-      "application_type": "Utility",
-      "assessment": null,
-      "assignee": "Permiso Security Inc.",
-      "backward_citation_count": 0,
-      "child_applications": [
-        "19547437"
-      ],
-      "citation_count": 0,
-      "cited_patents": [],
-      "continuation_type": null,
-      "document_type": "application",
-      "family_basis": "continuation parent application",
-      "family_id": "",
-      "family_key": "application:19394310",
-      "family_members": [
-        {
-          "application_number": "19547437",
-          "document_type": "application",
-          "publication_number": "US20260189579A1",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19547437/application-data"
-        }
-      ],
-      "family_size": 1,
-      "filing_date": "2026-02-23",
-      "forward_citation_count": 0,
-      "grant_date": "",
-      "inventors": "Stephen Demjanenko, Wei Quan, Jason Martin, Thomas Kurty, Andrew Shu, Nihar Patel, Charan Sunkara, Xavier Chemla, Nathan Eades, Ian Ahl, Phani Modali",
-      "is_continuation": true,
-      "key": "US20260189579A1",
-      "kind_code": "A1",
-      "legal_status": "Publications -- Issue Fee Payment Verified",
-      "legal_status_normalized": "unknown",
-      "matched_keywords": [],
-      "parent_applications": [
-        "19394310",
-        "63762366",
-        "63722623"
-      ],
-      "patent_number": null,
-      "priority": "monitor",
-      "priority_date": "",
-      "priority_numbers": [],
-      "publication_date": "2026-07-02",
-      "publication_number": "US20260189579A1",
-      "query": "Cybersecurity and Cryptography Patents",
-      "score": 0,
-      "significance_factors": [
-        "strategic domain relevance +40",
-        "application stage +5",
-        "recent publication +5",
-        "named assignee +3"
-      ],
-      "significance_label": "notable",
-      "source": "Cybersecurity and Cryptography Patents",
-      "strategic_domains": [
-        "Cybersecurity and cryptography"
-      ],
-      "strategic_relevance_score": 100,
-      "strategic_significance_score": 53,
-      "summary": "Applicant: Permiso Security Inc. \u00b7 USPTO publication US20260189579A1",
-      "title": "SYSTEMS AND METHODS FOR AUTOMATED DETECTION OF CYBERSECURITY THREATS ACROSS DIGITAL PLATFORMS",
-      "tracking_type": "automated",
-      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19547437/application-data"
     },
     {
       "application_number": "19653080",
@@ -22195,7 +22197,7 @@
   "source": "Curated patent portfolio and USPTO Open Data Portal Patent File Wrapper metadata",
   "source_note": "Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.",
   "summary": {
-    "active_or_pending": 188,
+    "active_or_pending": 190,
     "applications": 240,
     "automated_total": 248,
     "curated_total": 2,
@@ -22203,11 +22205,11 @@
     "grants": 10,
     "last_30_days": 40,
     "latest_publication_date": "2026-09-03",
-    "status_known": 192,
+    "status_known": 194,
     "total": 250,
     "unique_assignees": 151,
     "with_citations": 0
   },
-  "updated_at": "2026-09-09T02:29:55.448127+00:00",
+  "updated_at": "2026-09-10T02:30:47.339976+00:00",
   "version": 4
 }

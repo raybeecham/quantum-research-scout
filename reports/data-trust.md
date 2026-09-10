@@ -1,26 +1,26 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-09-09T02:29:55.448127+00:00_
+_Updated 2026-09-10T02:30:47.339976+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **531**
-- Quarantined evidence or relationships: **129**
-- Acceptance rate: **80.5%**
+- Quarantined evidence or relationships: **131**
+- Acceptance rate: **80.2%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 31 | 95 | 24.6% |
+| Federal missions | 31 | 97 | 24.2% |
 | Federal funding | 500 | 34 | 93.6% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 126
-- **No relevant term in the evidence itself**: 126
-- **Official government source**: 111
-- **Source is not an official .gov or .mil domain**: 15
+- **Match appears only in collector query metadata**: 128
+- **No relevant term in the evidence itself**: 128
+- **Official government source**: 112
+- **Source is not an official .gov or .mil domain**: 16
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -46,6 +46,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Agency and technology inference only
 - Admission score: 65
 
+### [Cryptography 7h ago US financial sector quantum threat prep led by Quantum Readiness Task Force](https://quantumzeitgeist.com/quantum-readiness-threat-prep-financial-sector)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
 ### [Powering Affordable Reliable Technology (PART) Energy Program](https://www.grants.gov/search-results-detail/363396)
 
 - Scope: Federal missions
@@ -66,6 +73,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: mission evidence admission
 - Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 10
+
+### [Egypt Annual Program Statement](https://www.grants.gov/search-results-detail/363786)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [Policy 17h ago New Mexico funds target utility-scale quantum by 2033](https://quantumzeitgeist.com/darpa-mexico-funds-target-utility-scale)
 
@@ -705,20 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [Space Technology Research, Development, Demonstration, and Infusion (SpaceTech REDDI-2026)](https://www.grants.gov/search-results-detail/360954)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Pilot Studies of Biological, Behavioral and Social Mechanisms Contributing to HIV Pathogenesis Within the Mission of NIDDK (R21 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/358082)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Pilot Studies of Biological, Behavioral and Social Mechanisms Contributing to HIV Pathogenesis Within the Mission of NIDDK (R21 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/358082)
 
 - Scope: Federal funding
 - Stage: funding evidence admission

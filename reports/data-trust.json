@@ -1,9 +1,9 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 24.6,
+      "acceptance_rate": 24.2,
       "accepted": 31,
-      "quarantined": 95,
+      "quarantined": 97,
       "scope": "Federal missions"
     },
     {
@@ -79,6 +79,29 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Executive Order 14412",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-09-09",
+      "key": "https://quantumzeitgeist.com/quantum-readiness-threat-prep-financial-sector",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "scope": "Federal missions",
+      "source": "QuantumNews.ai",
+      "stage": "mission evidence admission",
+      "title": "Cryptography 7h ago US financial sector quantum threat prep led by Quantum Readiness Task Force",
+      "url": "https://quantumzeitgeist.com/quantum-readiness-threat-prep-financial-sector"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "Project Triad",
         "reason_codes": [
           "official_source",
@@ -142,6 +165,29 @@
       "stage": "mission evidence admission",
       "title": "PsiQuantum and Brookhaven Lab build tools for future quantum computers",
       "url": "https://quantumzeitgeist.com/psiquantum-brookhaven-lab-tools-quantum"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-09-02",
+      "key": "https://www.grants.gov/search-results-detail/363786",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "mission evidence admission",
+      "title": "Egypt Annual Program Statement",
+      "url": "https://www.grants.gov/search-results-detail/363786"
     },
     {
       "admission": {
@@ -2233,72 +2279,27 @@
       "stage": "funding evidence admission",
       "title": "Space Technology Research, Development, Demonstration, and Infusion (SpaceTech REDDI-2026)",
       "url": "https://www.grants.gov/search-results-detail/360954"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Genesis Mission",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2025-01-08",
-      "key": "https://www.grants.gov/search-results-detail/358082",
-      "mission_id": "genesis-mission",
-      "mission_name": "Genesis Mission",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "mission evidence admission",
-      "title": "Pilot Studies of Biological, Behavioral and Social Mechanisms Contributing to HIV Pathogenesis Within the Mission of NIDDK (R21 Clinical Trial Not Allowed)",
-      "url": "https://www.grants.gov/search-results-detail/358082"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2025-01-08",
-      "key": "grants_gov:PAR-25-068",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "funding evidence admission",
-      "title": "Pilot Studies of Biological, Behavioral and Social Mechanisms Contributing to HIV Pathogenesis Within the Mission of NIDDK (R21 Clinical Trial Not Allowed)",
-      "url": "https://www.grants.gov/search-results-detail/358082"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 126,
+      "count": 128,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 126,
+      "count": 128,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 111,
+      "count": 112,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 15,
+      "count": 16,
       "label": "Source is not an official .gov or .mil domain"
     },
     {
@@ -2309,14 +2310,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 80.5,
+    "acceptance_rate": 80.2,
     "accepted": 531,
-    "decisions": 660,
+    "decisions": 662,
     "funding_quarantine": 31,
-    "mission_quarantine": 95,
-    "quarantined": 129,
+    "mission_quarantine": 97,
+    "quarantined": 131,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-09-09T02:29:55.448127+00:00",
+  "updated_at": "2026-09-10T02:30:47.339976+00:00",
   "version": 1
 }

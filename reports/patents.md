@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-09-09T02:29:55.448127+00:00_
+_Updated 2026-09-10T02:30:47.339976+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -17,7 +17,7 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Unique named assignees: **151**
 - Patent families: **244**
 - Applications / grants: **240 / 10**
-- Known legal status: **192 of 250**
+- Known legal status: **194 of 250**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -148,6 +148,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [TECHNIQUES FOR CREATING SNAPSHOTS AND PERFORMING RECOVERY OF A HARDWARE SECURITY MODULE](https://data.uspto.gov/patent-file-wrapper/search/details/19637436/application-data)<br><small>US20260236593A1</small> | Application · Pending | Oracle International Corporation | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [TECHNIQUES FOR CLOUD DEPLOYMENT AUTOMATION BASED ON CYBERSECURITY SCANNING](https://data.uspto.gov/patent-file-wrapper/search/details/19633687/application-data)<br><small>US20260236249A1</small> | Application · Pending | Wiz, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [MULTIVARIATE THREAT DETECTION FOR A CI/CD PIPELINE](https://data.uspto.gov/patent-file-wrapper/search/details/19645080/application-data)<br><small>US20260236578A1</small> | Application · Pending | Microsoft Technology Licensing, LLC | 1 member(s) · 0 citation(s) | **61 · HIGH** |
+| [CORRELATING FIREWALL AND ZERO TRUST DATA TO MONITOR REMOTE AND HYBRID WORKER SESSIONS](https://data.uspto.gov/patent-file-wrapper/search/details/19638035/application-data)<br><small>US20260238669A1</small> | Application · Pending | Cisco Technology, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [REDUCING CYBERSECURITY RISK LEVEL OF A PORTFOLIO OF COMPANIES USING A CYBERSECURITY RISK MULTIPLIER](https://data.uspto.gov/patent-file-wrapper/search/details/19635309/application-data)<br><small>US20260228666A1</small> | Application · Pending | SecurityScorecard, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [Dynamically Providing Cybersecurity Training Based on User-Specific Threat Information](https://data.uspto.gov/patent-file-wrapper/search/details/19637142/application-data)<br><small>US20260228698A1</small> | Application · Pending | Proofpoint, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [VIRTUAL MICROCONTROLLER FOR DEVICE AUTHENTICATION IN A CONFIDENTIAL COMPUTING ENVIRONMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19573341/application-data)<br><small>US20260222229A1</small> | Application · Pending | Intel Corporation | 1 member(s) · 0 citation(s) | **61 · HIGH** |
@@ -160,6 +161,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [CORRELATING FIREWALL AND ZERO TRUST DATA TO MONITOR REMOTE AND HYBRID WORKER SESSIONS](https://data.uspto.gov/patent-file-wrapper/search/details/19550597/application-data)<br><small>US20260197336A1</small> | Application · Pending | Cisco Technology, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [VIRTUALIZING SECURE VAULT OF DATA PROCESSING UNIT FOR SECURE HARDWARE SECURITY MODULE FOR HOSTS](https://data.uspto.gov/patent-file-wrapper/search/details/19542404/application-data)<br><small>US20260187257A1</small> | Application · Pending | Cisco Technology, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [SYSTEMS AND METHODS FOR INTELLIGENT CYBERSECURITY ALERT SIMILARITY DETECTION AND CYBERSECURITY ALERT HANDLING](https://data.uspto.gov/patent-file-wrapper/search/details/19544537/application-data)<br><small>US20260187239A1</small> | Application · Pending | Expel, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
+| [SYSTEMS AND METHODS FOR AUTOMATED DETECTION OF CYBERSECURITY THREATS ACROSS DIGITAL PLATFORMS](https://data.uspto.gov/patent-file-wrapper/search/details/19547437/application-data)<br><small>US20260189579A1</small> | Application · Granted | Permiso Security Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [Cybersecurity Active Defense for Data Stored on Third Party Storage Systems](https://data.uspto.gov/patent-file-wrapper/search/details/19544899/application-data)<br><small>US20260187240A1</small> | Application · Pending | RackTop Systems, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [Zero Trust Network Access and Virtual Private Network Client Offloading](https://data.uspto.gov/patent-file-wrapper/search/details/19539268/application-data)<br><small>US20260180956A1</small> | Application · Pending | AT&T Intellectual Property I, L.P. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [TECHNIQUES FOR CYBERSECURITY THREAT DETECTION UTILIZING SENSOR-BASED AGGREGATED RUNTIME EXECUTION DATA](https://data.uspto.gov/patent-file-wrapper/search/details/19449080/application-data)<br><small>US20260161781A1</small> | Application · Pending | Wiz, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
@@ -227,8 +229,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [ACTION-LEVEL CONSTRAINT ENFORCEMENT AND CONTAINMENT INTEGRITY MONITORING FOR AGENTIC LARGE LANGUAGE MODEL SYSTEMS WITH AUTONOMOUS TOOL ACCESS](https://data.uspto.gov/patent-file-wrapper/search/details/19645306/application-data)<br><small>US20260238651A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **54 · NOTABLE** |
 | [SYSTEMS AND METHODS FOR AUTOMATED THREAT DETECTION USING RETROSPECTIVE AND PROSPECTIVE ASSESSMENT OF INDICATORS OF COMPROMISE](https://data.uspto.gov/patent-file-wrapper/search/details/19652750/application-data)<br><small>US20260254823A1</small> | Application · Unknown | Expel, Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [PORTABLE DOCUMENT FORMAT (PDF) FILE MALWARE DETECTION](https://data.uspto.gov/patent-file-wrapper/search/details/19640228/application-data)<br><small>US20260236579A1</small> | Application · Unknown | Netskope, Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
-| [CORRELATING FIREWALL AND ZERO TRUST DATA TO MONITOR REMOTE AND HYBRID WORKER SESSIONS](https://data.uspto.gov/patent-file-wrapper/search/details/19638035/application-data)<br><small>US20260238669A1</small> | Application · Unknown | Cisco Technology, Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
-| [SYSTEMS AND METHODS FOR AUTOMATED DETECTION OF CYBERSECURITY THREATS ACROSS DIGITAL PLATFORMS](https://data.uspto.gov/patent-file-wrapper/search/details/19547437/application-data)<br><small>US20260189579A1</small> | Application · Unknown | Permiso Security Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [SYSTEMS AND METHODS FOR SERVING SHORT-FORM DATA REQUESTS RELATED TO USAGE OF CLOUD COMPUTING RESOURCES](https://data.uspto.gov/patent-file-wrapper/search/details/19653080/application-data)<br><small>US20260252655A1</small> | Application · Pending | Capital One Services, LLC | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [Edge Computing Nodes Supported by Smart Contract Enabled Blockchain Network](https://data.uspto.gov/patent-file-wrapper/search/details/19646364/application-data)<br><small>US20260245112A1</small> | Application · Pending | Theta Labs, Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [SYSTEMS AND METHODS FOR PROVIDING CLOUD COMPUTING SEMANTIC LAYER OPERATIONS](https://data.uspto.gov/patent-file-wrapper/search/details/19633794/application-data)<br><small>US20260236318A1</small> | Application · Pending | Fidelity Information Services, LLC | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |

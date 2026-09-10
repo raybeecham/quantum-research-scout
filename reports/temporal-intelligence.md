@@ -2,23 +2,43 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-09-09T02:29:55.448127+00:00_
+_Updated 2026-09-10T02:30:47.339976+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **9**
-- Newly discovered historical evidence: **0**
-- Newly observed with no reliable source date: **0**
-- Upcoming dated events: **22**
+- Actual or recent changes: **0**
+- Newly discovered historical evidence: **4**
+- Newly observed with no reliable source date: **4**
+- Upcoming dated events: **20**
 
 ## Priority timeline
 
-- **Changed since prior run** · EdUSA AI & Quantum Technologies Initiative in Australia — opportunity status ([evidence](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view))
-  - The assertion changed relative to the prior successful ledger build.
-- **Published today** · 59--TAIL SENSOR — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view))
-  - The source publication date is today or within the prior day.
-- **Occurred 5 days ago** · CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732))
-  - A recent source-reported event was newly incorporated into the ledger.
+- **Evidence trace changed** · AEIF 2026 Alumni Summit: Freedom 250 — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363824))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Upcoming event date** · DESCRIPTION:THIS PROJECT BY BRING RECYCLING WILL DESIGN, DEMONSTRATE, AND DISSEMINATE ENVIRONMENTAL EDUCATION PRACTICES, METHODS, AND TECHNIQUES THAT WILL SERVE TO INCREASE ENVIRO... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_84121201_068))
+  - The source date is in the future; Scout first observed it on 2026-09-10.
+- **Upcoming event date** · DESCRIPTION:THIS PROJECT WILL DESIGN, DEMONSTRATE, AND DISSEMINATE ENVIRONMENTAL EDUCATION PRACTICES, METHODS, AND TECHNIQUES, THAT WILL SERVE TO INCREASE ENVIRONMENTAL LITERACY A... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_84121301_068))
+  - The source date is in the future; Scout first observed it on 2026-09-10.
+- **Upcoming event date** · PURPOSE: THE HIGH PERFORMANCE COMPUTING (HPC) SYSTEMS PROJECT WILL ENABLE AUBURN UNIVERSITY TO SUPPORT SENSITIVE DEFENSE AND NON-DEFENSE RESEARCH CAPABILITIES, INCLUDING RADIATION... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D062_013))
+  - The source date is in the future; Scout first observed it on 2026-09-10.
+- **Upcoming event date** · PURPOSE: THE PURPOSE OF THIS GRANT IS TO ADVANCE INTEGRATED SENSING, ROBOTICS, SMART MACHINERY, CYBERSECURITY, AND WORKFORCE DEVELOPMENT TO ACCELERATE THE ADOPTION OF PRACTICAL, S... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D063_013))
+  - The source date is in the future; Scout first observed it on 2026-09-10.
+- **Upcoming event date** · PURPOSE: THE PURPOSE OF THIS GRANT IS TO IDENTIFY, VALIDATE, AND MITIGATE CYBER VULNERABILITIES WITHIN MARITIME PORT TERMINALS THROUGH A STRUCTURED APPROACH CENTERED ON ZERO TRUST... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D061_013))
+  - The source date is in the future; Scout first observed it on 2026-09-10.
+- **Upcoming event date** · PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE ANDERSON COLLEGE CENTER FOR CYBER SECURITY DEFENSE (CCSD) AT REGIS UNIVERSITY. THE CENTER WILL SERVE AS A FULLY EQUIPPED A... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D106_013))
+  - The source date is in the future; Scout first observed it on 2026-09-10.
+- **Upcoming event date** · PURPOSE:THE BUSINESS DEVELOPMENT BOARD FOUNDATION OF PALM BEACH COUNTY (BDBF) PROPOSES A COORDINATED 12-MONTH INITIATIVE TO STRENGTHEN PALM BEACH COUNTY'S EMERGING QUANTUM TECHNOL... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D083_013))
+  - The source date is in the future; Scout first observed it on 2026-09-10.
+- **Upcoming event date** · PURPOSE:THE GRANT FOR THE NEXT GENERATION SEMICONDUCTOR TEST FACILITY (NGST) AT OREGON STATE UNIVERSITY WILL PROVIDE HIGH-SPEED, HIGH-FREQUENCY, HIGH-RESOLUTION, AND THERMAL CHARA... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D162_013))
+  - The source date is in the future; Scout first observed it on 2026-09-10.
+- **Upcoming event date** · PURPOSE:THE MAINE HIGH-PERFORMANCE COMPUTING HUB (MHPCH) WILL ESTABLISH A STATE-OF-THE-ART COMPUTATIONAL RESOURCE IN WATERVILLE, MAINE, TO SERVE BUSINESSES, RESEARCH INSTITUTIONS,... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D101_013))
+  - The source date is in the future; Scout first observed it on 2026-09-10.
+- **Upcoming event date** · PURPOSE:THE PROJECT WILL ESTABLISH A DEDICATED FACILITY, EQUIPPED WITH BEST-AVAILABLE EQUIPMENT, TO ENABLE EDUCATION, RESEARCH, AND DEVELOPMENT OF INNOVATIVE AI AND CYBERSECURITY... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D170_013))
+  - The source date is in the future; Scout first observed it on 2026-09-10.
+- **Newly observed · event date unknown** · AUBURN UNIVERSITY — cage code ([evidence](https://sam.gov/entity/DMQNDJDHTDG4/coreData))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Newly discovered historical evidence** · PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE PURCHASE AND INTEGRATION OF EQUIPMENT TO EXPAND THE AI/ML CAPABILITIESOF THE CENTER FOR ADVANCED MATERIALS & STEEL MANUFACTURIN... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D060_013))
+  - Scout first observed this on 2026-09-10; the source date is 2026-09-01.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -59,9 +79,7 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 ## Upcoming
 
 - **2026-08-21** · Seek initial platform operating capability for at least one national challenge — awaiting_confirmation ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
-- **2026-09-09** · NATO Business Opportunity: M&S Paradigm Framework for Adaptive AI Simulation on Quantum (FAASQ) — closing_soon ([source](https://sam.gov/workspace/contract/opp/abf380cc0c634612a69ce193a212fbd4/view))
 - **2026-09-14** · AEIF 2026 Alumni Summit: Freedom 250 — closing_soon ([source](https://www.grants.gov/search-results-detail/363824))
-- **2026-09-15** · CHIPS Research and Development Office (CRDO) Broad Agency Announcement (BAA) — closing_soon ([source](https://www.grants.gov/search-results-detail/360651))
 - **2026-09-20** · OMB issues agency guidance for inventories, migration plans, and high-impact systems — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
 - **2026-09-20** · Publish a summary of QC-ADDS technical specifications — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
 - **2026-09-22** · Launch the AI Forge university-industry-government forum — estimated ([source](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security))
