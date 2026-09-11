@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-09-10 02:30 UTC_
+_Updated 2026-09-11 02:25 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -16,8 +16,8 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Opportunity radar: **1 mission-linked**, **2 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **14**
 - Missions with activity: **4 of 10**
-- Named recipients and contractors: **312**
-- Known reported award value: **$449.2M**
+- Named recipients and contractors: **313**
+- Known reported award value: **$450.2M**
 
 ## Opportunity Radar
 
@@ -42,7 +42,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 |---|---:|---:|---:|---:|---|
 | [Genesis Mission](https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission) | 6 | 1 | $700.7K | $293.0M | 1 / 8 |
 | [DARPA Quantum Benchmarking Initiative](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative) | 2 | 0 | $8.7M | $0 | 1 / 8 |
-| [Golden Dome for America](https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/) | 5 | 0 | $3.8M | $0 | 2 / 8 |
+| [Golden Dome for America](https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/) | 5 | 0 | $4.4M | $0 | 2 / 8 |
 | [AI Forge](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security) | 1 | 0 | $0 | $0 | 0 / 8 |
 | [Military AI Pace-Setting Projects](https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF) | 0 | 0 | $0 | $0 | 0 / 8 |
 | [Federal Post-Quantum Cryptography Transition](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | 0 | 0 | $0 | $0 | 0 / 8 |
@@ -71,13 +71,13 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | Record | Date | Recipient | Value | Mission link |
 |---|---|---|---:|---|
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | UNIVERSITY OF MARYLAND, COLLEGE PARK | $8.7M | DARPA Quantum Benchmarking Initiative |
-| [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | KPMG LLP | $3.8M | Golden Dome for America |
+| [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | KPMG LLP | $4.4M | Golden Dome for America |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | $700.0K | Genesis Mission |
-| [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) | 2026-09-09 | Not listed | $293.0M | Genesis Mission |
+| [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) | 2026-09-10 | Not listed | $293.0M | Genesis Mission |
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | Not listed | $8 | DARPA Quantum Benchmarking Initiative |
 | [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) | 2026-08-21 | Not listed | Not reported | Genesis Mission |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | Not listed | $700 | Genesis Mission |
-| [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | Not listed | $3 | Golden Dome for America |
+| [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | Not listed | $4 | Golden Dome for America |
 | [VENUE TO SUPPORT THE GOLDEN DOME FOR AMERICA INDUSTRY SUMMIT, JUNE 10-11, 2025](https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-) | 2025-06-10 | CITY OF HUNTSVILLE | $11.9K | Golden Dome for America |
 | [VENUE TO SUPPORT THE GOLDEN DOME FOR AMERICA INDUSTRY SUMMIT, JUNE 10-11, 2025](https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-) | 2025-06-10 | Not listed | $11 | Golden Dome for America |
 | [COLLABORATIVE RESEARCH: VINES: TRACK 1:QUANTUM-READY AND AI-ENABLED BY DESIGN: RESILIENT AND DEPLOYABLE NEXT-GEN CELLULAR NETWORKS -THIS COLLABORATIVE PROJECT AIMS TO IMPROVE THE...](https://www.usaspending.gov/award/ASST_NON_2548947_049) | 2026-10-01 | UNIVERSITY OF SOUTH FLORIDA | $559.9K | Not linked |
@@ -162,7 +162,6 @@ These are assignee-name matches, not proof that an award funded a patent.
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | 3 | $2.5M | 1 | Not linked |
 | FLORIDA ATLANTIC UNIVERSITY | 2 | $800.0K | 1 | Not linked |
 | MORGAN STATE UNIVERSITY | 1 | $10.0M | 1 | Not linked |
-| GEORGIA TECH RESEARCH CORP | 2 | $528.4K | 1 | Not linked |
 | THALES DEFENSE & SECURITY INC | 2 | $378.1K | 1 | Not linked |
 | THE JOHNS HOPKINS UNIVERSITY | 1 | $505.4K | 1 | Not linked |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE | 2 | $110.0K | 1 | Not linked |

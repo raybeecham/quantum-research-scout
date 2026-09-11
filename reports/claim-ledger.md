@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-09-10T02:30:47.339976+00:00_
+_Updated 2026-09-11T02:25:03.931737+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **4179**
-- Authoritative claims: **3981**
+- Active claims: **4187**
+- Authoritative claims: **3989**
 - Analytical claims: **195**
 - Conflicted claims: **38**
-- Evidence items / URLs: **4289 / 1176**
+- Evidence items / URLs: **4297 / 1178**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,16 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. | reported amount | 4394360.0 | authoritative / high | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) |
+| active | THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. | reported amount | 4.0 | authoritative / high | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) |
+| active | PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER | opportunity status | awarded | authoritative / high | [PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-) |
+| active | PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER | awarding agency | National Aeronautics and Space Administration | authoritative / high | [PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-) |
+| active | PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER | reported amount | 224998.0 | authoritative / high | [PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-) |
+| active | PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER | reported recipient | OPTO-ATOMICS CORP | authoritative / high | [PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-) |
+| active | BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI). | opportunity status | awarded | authoritative / high | [BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).](https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605) |
+| active | BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI). | awarding agency | Department of Labor | authoritative / high | [BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).](https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605) |
+| active | BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI). | reported amount | 159651.09 | authoritative / high | [BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).](https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605) |
+| active | BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI). | reported recipient | IPSOS PUBLIC AFFAIRS, LLC | authoritative / high | [BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).](https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605) |
 | active | PURPOSE:THE PROJECT WILL ESTABLISH A DEDICATED FACILITY, EQUIPPED WITH BEST-AVAILABLE EQUIPMENT, TO ENABLE EDUCATION, RESEARCH, AND DEVELOPMENT OF INNOVATIVE AI AND CYBERSECURITY... | opportunity status | awarded | authoritative / high | [PURPOSE:THE PROJECT WILL ESTABLISH A DEDICATED FACILITY, EQUIPPED WITH BEST-AVAILABLE EQUIPMENT, TO ENABLE EDUCATION, RESEARCH, AND DEVELOPMENT OF INNOVATIVE AI AND CYBERSECURITY...](https://www.usaspending.gov/award/ASST_NON_60NANB26D170_013) |
 | active | PURPOSE:THE PROJECT WILL ESTABLISH A DEDICATED FACILITY, EQUIPPED WITH BEST-AVAILABLE EQUIPMENT, TO ENABLE EDUCATION, RESEARCH, AND DEVELOPMENT OF INNOVATIVE AI AND CYBERSECURITY... | awarding agency | Department of Commerce | authoritative / high | [PURPOSE:THE PROJECT WILL ESTABLISH A DEDICATED FACILITY, EQUIPPED WITH BEST-AVAILABLE EQUIPMENT, TO ENABLE EDUCATION, RESEARCH, AND DEVELOPMENT OF INNOVATIVE AI AND CYBERSECURITY...](https://www.usaspending.gov/award/ASST_NON_60NANB26D170_013) |
 | active | PURPOSE:THE PROJECT WILL ESTABLISH A DEDICATED FACILITY, EQUIPPED WITH BEST-AVAILABLE EQUIPMENT, TO ENABLE EDUCATION, RESEARCH, AND DEVELOPMENT OF INNOVATIVE AI AND CYBERSECURITY... | reported amount | 2000000.0 | authoritative / high | [PURPOSE:THE PROJECT WILL ESTABLISH A DEDICATED FACILITY, EQUIPPED WITH BEST-AVAILABLE EQUIPMENT, TO ENABLE EDUCATION, RESEARCH, AND DEVELOPMENT OF INNOVATIVE AI AND CYBERSECURITY...](https://www.usaspending.gov/award/ASST_NON_60NANB26D170_013) |
@@ -254,16 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | NORTHEASTERN UNIVERSITY | uei | HLTMVS2JZBS6 | authoritative / high | [NORTHEASTERN UNIVERSITY](https://sam.gov/entity/HLTMVS2JZBS6/coreData) |
 | active | NORTHEASTERN UNIVERSITY | cage code | 9A140 | authoritative / high | [NORTHEASTERN UNIVERSITY](https://sam.gov/entity/HLTMVS2JZBS6/coreData) |
 | active | NORTHEASTERN UNIVERSITY | registration status | Active | authoritative / high | [NORTHEASTERN UNIVERSITY](https://sam.gov/entity/HLTMVS2JZBS6/coreData) |
-| active | NATIONAL ACADEMY OF SCIENCES | legal business name | NATIONAL ACADEMY OF SCIENCES | authoritative / high | [NATIONAL ACADEMY OF SCIENCES](https://sam.gov/entity/PKFJZHG2MLG9/coreData) |
-| active | NATIONAL ACADEMY OF SCIENCES | uei | PKFJZHG2MLG9 | authoritative / high | [NATIONAL ACADEMY OF SCIENCES](https://sam.gov/entity/PKFJZHG2MLG9/coreData) |
-| active | NATIONAL ACADEMY OF SCIENCES | cage code | 1D969 | authoritative / high | [NATIONAL ACADEMY OF SCIENCES](https://sam.gov/entity/PKFJZHG2MLG9/coreData) |
-| active | NATIONAL ACADEMY OF SCIENCES | registration status | Active | authoritative / high | [NATIONAL ACADEMY OF SCIENCES](https://sam.gov/entity/PKFJZHG2MLG9/coreData) |
-| active | U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP) | opportunity status | open | authoritative / high | [U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)](https://www.grants.gov/search-results-detail/363744) |
-| active | U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP) | deadline | 09/14/2026 | authoritative / high | [U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)](https://www.grants.gov/search-results-detail/363744) |
-| active | U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP) | awarding agency | DOS-SAU | authoritative / high | [U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)](https://www.grants.gov/search-results-detail/363744) |
-| active | VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES... | opportunity status | awarded | authoritative / high | [VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...](https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732) |
-| active | VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES... | awarding agency | Department of the Treasury | authoritative / high | [VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...](https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732) |
-| active | VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES... | reported amount | 485864.89 | authoritative / high | [VIRTUAL ACQUISITION OFFICE IS A WEB-BASED, ARTIFICIAL INTELLIGENCE ENHANCED SUBSCRIPTION PLATFORM THAT SERVES AS A DIGITAL TOOLKIT AND KNOWLEDGE HUB FOR FEDERAL PROCUREMENT PROFES...](https://www.usaspending.gov/award/CONT_AWD_2032H826F00074_2050_GS35F131GA_4732) |
 
 ## Method
 

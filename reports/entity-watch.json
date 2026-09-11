@@ -83,7 +83,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 23,
+      "evidence_count": 25,
       "first_party_evidence_count": 0,
       "name": "Infleqtion",
       "priority": "medium",
@@ -114,7 +114,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 13,
+      "evidence_count": 14,
       "first_party_evidence_count": 0,
       "name": "NIST",
       "priority": "critical",
@@ -215,7 +215,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 10,
+      "evidence_count": 12,
       "first_party_evidence_count": 8,
       "name": "Cisco",
       "priority": "high",
@@ -236,8 +236,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 8,
-      "first_party_evidence_count": 6,
+      "evidence_count": 9,
+      "first_party_evidence_count": 7,
       "name": "Cloudflare",
       "priority": "high",
       "status": "covered",
@@ -492,8 +492,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 5,
-      "first_party_evidence_count": 5,
+      "evidence_count": 6,
+      "first_party_evidence_count": 6,
       "name": "PQShield",
       "priority": "high",
       "status": "covered",
@@ -714,8 +714,20 @@
         "National Institute of Standards and Technology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 12,
+      "current_evidence_count": 13,
       "evidence": [
+        {
+          "date": "2026-09-10",
+          "key": "https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "NIST-Developed Quantum Sensors Improve Nuclear Monitoring",
+          "url": "https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring"
+        },
         {
           "date": "2026-09-09",
           "key": "https://quantumzeitgeist.com/nist-luce-cristallina-100x-thicker",
@@ -885,20 +897,21 @@
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
         }
       ],
-      "evidence_count": 13,
+      "evidence_count": 14,
       "first_seen": "2026-06-25",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-09-09",
+      "latest_seen": "2026-09-10",
       "momentum": "rising",
       "name": "NIST",
       "prior_count": 0,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware",
         "Quantum Networking",
+        "Quantum Sensing",
         "Standards / Government"
       ],
       "type": "government"
@@ -1369,9 +1382,9 @@
       "first_seen": "2025-10-29",
       "historical_evidence_count": 14,
       "latest_seen": "2026-09-09",
-      "momentum": "stable",
+      "momentum": "rising",
       "name": "Keyfactor",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 2,
       "status": "active",
@@ -1669,11 +1682,11 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-03",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "IBM",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2637,9 +2650,9 @@
       "latest_seen": "2026-09-03",
       "momentum": "declining",
       "name": "QuSecure",
-      "prior_count": 3,
+      "prior_count": 5,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2652,8 +2665,32 @@
         "Cisco Systems"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 10,
+      "current_evidence_count": 12,
       "evidence": [
+        {
+          "date": "2026-09-10",
+          "key": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 81,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Infleqtion and Cisco Collaborate on Quantum Networking Research",
+          "url": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://infleqtion.com/infleqtion-and-cisco-announce-collaboration-to-advance-networked-quantum-technology",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 64,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Infleqtion and Cisco Announce Collaboration to Advance Networked Quantum Technology",
+          "url": "https://infleqtion.com/infleqtion-and-cisco-announce-collaboration-to-advance-networked-quantum-technology"
+        },
         {
           "date": "2026-09-08",
           "key": "https://blogs.cisco.com/developer/ml-dsa-certificates-on-cisco-routers-ipsec-series-part-10",
@@ -2775,19 +2812,150 @@
           "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
         }
       ],
-      "evidence_count": 10,
+      "evidence_count": 12,
       "first_seen": "2026-07-27",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-08",
-      "momentum": "stable",
+      "latest_seen": "2026-09-10",
+      "momentum": "rising",
       "name": "Cisco",
       "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Networking"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 9,
+      "evidence": [
+        {
+          "date": "2026-09-10",
+          "key": "https://blog.cloudflare.com/post-quantum-dnssec-1111",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 144,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+          "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://blog.cloudflare.com/automatic-key-exchange-for-origins",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 69,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+          "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins"
+        },
+        {
+          "date": "2026-08-11",
+          "key": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government",
+          "report": "2026-08/2026-08-11-digest.md",
+          "score": 100,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "Cloudflare achieves quantum-secure FedRAMP High for U.S. government work",
+          "url": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government"
+        },
+        {
+          "date": "2026-08-10",
+          "key": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high",
+          "report": "2026-08/2026-08-10-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Cloudflare Expands Quantum-Safe Government Security Platform With FedRAMP High Authorization",
+          "url": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high"
+        },
+        {
+          "date": "2026-08-06",
+          "key": "https://blog.cloudflare.com/mcp-v2",
+          "report": "2026-08/2026-08-06-digest.md",
+          "score": 26,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The next generation of MCP",
+          "url": "https://blog.cloudflare.com/mcp-v2"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://blog.cloudflare.com/smaller-faster-safer-models",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 22,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+          "url": "https://blog.cloudflare.com/smaller-faster-safer-models"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 55,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post-quantum authentication to origins is now supported",
+          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
+        },
+        {
+          "date": "2026-07-09",
+          "key": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
+          "report": "2026-07/2026-07-09-digest.md",
+          "score": 139,
+          "source": "Cloudflare Post-Quantum Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why we cannot wait for better post-quantum signature algorithms",
+          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://blog.cloudflare.com/post-quantum-eo-2026",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 50,
+          "source": "Cloudflare Post-Quantum Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
+          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
+        }
+      ],
+      "evidence_count": 9,
+      "first_seen": "2026-06-23",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-10",
+      "momentum": "rising",
+      "name": "Cloudflare",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "AI Security",
+        "PQC / Crypto Agility",
+        "Standards / Government"
       ],
       "type": "company"
     },
@@ -3010,7 +3178,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Hardware",
         "Quantum Software / Tooling",
@@ -3238,125 +3406,6 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 8,
-      "evidence": [
-        {
-          "date": "2026-09-08",
-          "key": "https://blog.cloudflare.com/automatic-key-exchange-for-origins",
-          "report": "2026-09/2026-09-08-digest.md",
-          "score": 69,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
-          "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins"
-        },
-        {
-          "date": "2026-08-11",
-          "key": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government",
-          "report": "2026-08/2026-08-11-digest.md",
-          "score": 100,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Standards / Government"
-          ],
-          "title": "Cloudflare achieves quantum-secure FedRAMP High for U.S. government work",
-          "url": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government"
-        },
-        {
-          "date": "2026-08-10",
-          "key": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high",
-          "report": "2026-08/2026-08-10-digest.md",
-          "score": 100,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Cloudflare Expands Quantum-Safe Government Security Platform With FedRAMP High Authorization",
-          "url": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high"
-        },
-        {
-          "date": "2026-08-06",
-          "key": "https://blog.cloudflare.com/mcp-v2",
-          "report": "2026-08/2026-08-06-digest.md",
-          "score": 26,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The next generation of MCP",
-          "url": "https://blog.cloudflare.com/mcp-v2"
-        },
-        {
-          "date": "2026-08-03",
-          "key": "https://blog.cloudflare.com/smaller-faster-safer-models",
-          "report": "2026-08/2026-08-03-digest.md",
-          "score": 22,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "AI Security"
-          ],
-          "title": "Smaller, faster, safer: running Kimi and GLM at scale",
-          "url": "https://blog.cloudflare.com/smaller-faster-safer-models"
-        },
-        {
-          "date": "2026-07-29",
-          "key": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
-          "report": "2026-07/2026-07-29-digest.md",
-          "score": 55,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Post-quantum authentication to origins is now supported",
-          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
-        },
-        {
-          "date": "2026-07-09",
-          "key": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
-          "report": "2026-07/2026-07-09-digest.md",
-          "score": 139,
-          "source": "Cloudflare Post-Quantum Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Why we cannot wait for better post-quantum signature algorithms",
-          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
-        },
-        {
-          "date": "2026-06-23",
-          "key": "https://blog.cloudflare.com/post-quantum-eo-2026",
-          "report": "2026-06/2026-06-23-digest.md",
-          "score": 50,
-          "source": "Cloudflare Post-Quantum Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
-          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
-        }
-      ],
-      "evidence_count": 8,
-      "first_seen": "2026-06-23",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-09-08",
-      "momentum": "rising",
-      "name": "Cloudflare",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "AI Security",
-        "PQC / Crypto Agility",
-        "Standards / Government"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
       "current_evidence_count": 7,
       "evidence": [
         {
@@ -3457,6 +3506,99 @@
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 6,
+      "evidence": [
+        {
+          "date": "2026-09-10",
+          "key": "https://pqshield.com/reframing-quantum-risk-for-board-governance",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 50,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Reframing quantum risk for board governance Top security leaders from HSBC, Microsoft, Citi, and industry experts break down the executive mandate for post-quantum security. Learn how to reframe cryptographic risk for the C-suite, bridge governance gaps, and execute enterprise migration.",
+          "url": "https://pqshield.com/reframing-quantum-risk-for-board-governance"
+        },
+        {
+          "date": "2026-09-07",
+          "key": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026",
+          "report": "2026-09/2026-09-07-digest.md",
+          "score": 66,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "We are presenting at GSA PQC Summit 2026 Washington DC 16 - 16 Sep, 2026 We're attending and presenting this year at the 2026 GSA Post-Quantum Cryptography Summit.",
+          "url": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026"
+        },
+        {
+          "date": "2026-08-28",
+          "key": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca",
+          "report": "2026-08/2026-08-28-digest.md",
+          "score": 42,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "We are attending, Embedded World North America, Anaheim, CA Anaheim, CA 22 - 24 Sep, 2026 We'll be back at eWNA, 22-24 September 2026, Anaheim, CA. It's always a great opportunity to catch up with the latest developments in hardware, software, IoT and embedded solutions.",
+          "url": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca"
+        },
+        {
+          "date": "2026-08-28",
+          "key": "https://pqshield.com/events/we-are-speaking-cybersweden-2026",
+          "report": "2026-08/2026-08-28-digest.md",
+          "score": 32,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "We are speaking, CyberSweden 2026, Stockholm Stockholm, Sweden 15 - 17 Sep, 2026 CTO, Graeme Hickey is speaking at CyberSweden 2026 in Stockholm. He\u2019ll present \"Beyond Quantum Safe: Building Systems that Can Survive the Next Cryptographic Transition\". CyberSweden runs Sept 15\u201317.",
+          "url": "https://pqshield.com/events/we-are-speaking-cybersweden-2026"
+        },
+        {
+          "date": "2026-07-23",
+          "key": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 50,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.",
+          "url": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness"
+        },
+        {
+          "date": "2026-07-03",
+          "key": "https://pqshield.com/why-crypto-agility-requires-real-governance",
+          "report": "2026-07/2026-07-03-digest.md",
+          "score": 108,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why crypto-agility requires real governance Eric Amador explains how pqctoday.com uses AI and WebAssembly to remove friction from testing quantum-safe algorithms. Learn how different organizational personas can map out global migration timelines and prepare for upcoming compliance mandates.",
+          "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
+        }
+      ],
+      "evidence_count": 6,
+      "first_seen": "2026-07-03",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-10",
+      "momentum": "stable",
+      "name": "PQShield",
+      "prior_count": 2,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
       ],
       "type": "company"
     },
@@ -3608,87 +3750,6 @@
         "Standards / Government"
       ],
       "type": "consulting"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 5,
-      "evidence": [
-        {
-          "date": "2026-09-07",
-          "key": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026",
-          "report": "2026-09/2026-09-07-digest.md",
-          "score": 66,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "We are presenting at GSA PQC Summit 2026 Washington DC 16 - 16 Sep, 2026 We're attending and presenting this year at the 2026 GSA Post-Quantum Cryptography Summit.",
-          "url": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026"
-        },
-        {
-          "date": "2026-08-28",
-          "key": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca",
-          "report": "2026-08/2026-08-28-digest.md",
-          "score": 42,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "We are attending, Embedded World North America, Anaheim, CA Anaheim, CA 22 - 24 Sep, 2026 We'll be back at eWNA, 22-24 September 2026, Anaheim, CA. It's always a great opportunity to catch up with the latest developments in hardware, software, IoT and embedded solutions.",
-          "url": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca"
-        },
-        {
-          "date": "2026-08-28",
-          "key": "https://pqshield.com/events/we-are-speaking-cybersweden-2026",
-          "report": "2026-08/2026-08-28-digest.md",
-          "score": 32,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "We are speaking, CyberSweden 2026, Stockholm Stockholm, Sweden 15 - 17 Sep, 2026 CTO, Graeme Hickey is speaking at CyberSweden 2026 in Stockholm. He\u2019ll present \"Beyond Quantum Safe: Building Systems that Can Survive the Next Cryptographic Transition\". CyberSweden runs Sept 15\u201317.",
-          "url": "https://pqshield.com/events/we-are-speaking-cybersweden-2026"
-        },
-        {
-          "date": "2026-07-23",
-          "key": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 50,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.",
-          "url": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness"
-        },
-        {
-          "date": "2026-07-03",
-          "key": "https://pqshield.com/why-crypto-agility-requires-real-governance",
-          "report": "2026-07/2026-07-03-digest.md",
-          "score": 108,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Why crypto-agility requires real governance Eric Amador explains how pqctoday.com uses AI and WebAssembly to remove friction from testing quantum-safe algorithms. Learn how different organizational personas can map out global migration timelines and prepare for upcoming compliance mandates.",
-          "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
-        }
-      ],
-      "evidence_count": 5,
-      "first_seen": "2026-07-03",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-09-07",
-      "momentum": "declining",
-      "name": "PQShield",
-      "prior_count": 2,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "type": "company"
     },
     {
       "aliases": [
@@ -4175,11 +4236,11 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-03",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "ANSSI",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -4487,11 +4548,11 @@
       "first_seen": "2026-09-03",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-03",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "CISA",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -4691,8 +4752,32 @@
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 23,
+      "current_evidence_count": 25,
       "evidence": [
+        {
+          "date": "2026-09-10",
+          "key": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 81,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Infleqtion and Cisco Collaborate on Quantum Networking Research",
+          "url": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://infleqtion.com/infleqtion-and-cisco-announce-collaboration-to-advance-networked-quantum-technology",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 64,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Infleqtion and Cisco Announce Collaboration to Advance Networked Quantum Technology",
+          "url": "https://infleqtion.com/infleqtion-and-cisco-announce-collaboration-to-advance-networked-quantum-technology"
+        },
         {
           "date": "2026-09-08",
           "key": "https://infleqtion.com/infleqtion-leaders-to-speak-at-quantum-world-congress-2026",
@@ -4970,18 +5055,19 @@
           "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
         }
       ],
-      "evidence_count": 23,
+      "evidence_count": 25,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-08",
+      "latest_seen": "2026-09-10",
       "momentum": "rising",
       "name": "Infleqtion",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 1,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "Quantum Hardware",
+        "Quantum Networking",
         "Quantum Sensing",
         "Standards / Government"
       ],
@@ -5230,7 +5316,7 @@
       "prior_count": 5,
       "priority": "medium",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware"
@@ -6127,9 +6213,9 @@
       "first_seen": "2025-08-06",
       "historical_evidence_count": 23,
       "latest_seen": "2026-09-07",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Crypto-agility",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "critical",
       "recent_count": 1,
       "status": "active",
@@ -6145,8 +6231,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 23,
+      "current_evidence_count": 24,
       "evidence": [
+        {
+          "date": "2026-09-10",
+          "key": "https://thequantuminsider.com/2026/09/10/altera-riverlane-partner-bring-quantum-error-correction-support-agilex-fpgas",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 56,
+          "source": "The Quantum Insider",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Altera and Riverlane Partner to Bring Quantum Error Correction Support to Agilex FPGAs",
+          "url": "https://thequantuminsider.com/2026/09/10/altera-riverlane-partner-bring-quantum-error-correction-support-agilex-fpgas"
+        },
         {
           "date": "2026-08-22",
           "key": "https://quantumzeitgeist.com/quantum-error-correction-qldpc-codes-speedup-neutral-atoms",
@@ -6424,16 +6522,16 @@
           "url": "https://quantumzeitgeist.com/what-is-the-surface-code"
         }
       ],
-      "evidence_count": 23,
+      "evidence_count": 24,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-22",
-      "momentum": "stable",
+      "latest_seen": "2026-09-10",
+      "momentum": "rising",
       "name": "Quantum error correction",
       "prior_count": 0,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "AI Security",
         "QEC / Fault Tolerance",
@@ -6447,8 +6545,20 @@
         "fault-tolerant quantum"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 16,
+      "current_evidence_count": 17,
       "evidence": [
+        {
+          "date": "2026-09-10",
+          "key": "https://quantumzeitgeist.com/logical-qubits-iqm-europes-first",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 100,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "IQM to build Europe\u2019s first quantum computer with logical qubits",
+          "url": "https://quantumzeitgeist.com/logical-qubits-iqm-europes-first"
+        },
         {
           "date": "2026-08-31",
           "key": "https://thequantuminsider.com/2026/08/31/xanadu-1000-logical-qubits-2031",
@@ -6714,16 +6824,16 @@
           "url": "https://www.quera.com/press-releases/quera-selected-for-phase-1-of-darpas-quantum-benchmarking-initiative"
         }
       ],
-      "evidence_count": 19,
+      "evidence_count": 20,
       "first_seen": "2025-09-10",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-08-31",
+      "latest_seen": "2026-09-10",
       "momentum": "declining",
       "name": "Logical qubits",
       "prior_count": 2,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -6799,8 +6909,32 @@
       "case_sensitive_aliases": [
         "QKD"
       ],
-      "current_evidence_count": 10,
+      "current_evidence_count": 12,
       "evidence": [
+        {
+          "date": "2026-09-10",
+          "key": "https://quantumzeitgeist.com/quantum-key-distribution-convex-optimisation-finite-size-rates",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 47,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Researchers Simplify Quantum Key Distribution Calculations",
+          "url": "https://quantumzeitgeist.com/quantum-key-distribution-convex-optimisation-finite-size-rates"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://quantumzeitgeist.com/pirandola-laurenza-ottaviani-banchi-bound-unlocks",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 46,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Pirandola-Laurenza-Ottaviani-Banchi bound unlocks longer QKD links",
+          "url": "https://quantumzeitgeist.com/pirandola-laurenza-ottaviani-banchi-bound-unlocks"
+        },
         {
           "date": "2026-09-09",
           "key": "https://quantumnews.ai/cryptography/evaluating-bb84-qkd-in-2026-quantum-networks",
@@ -6946,15 +7080,15 @@
           "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-and-ciena-demonstrate-next-generation-quantum-secured-communications-with-high-speed-encryption-using-pqc-and-qkd-at-ofc-2026"
         }
       ],
-      "evidence_count": 11,
+      "evidence_count": 13,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-09-09",
+      "latest_seen": "2026-09-10",
       "momentum": "rising",
       "name": "Quantum key distribution",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -6968,8 +7102,20 @@
         "entanglement distribution"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 6,
+      "current_evidence_count": 7,
       "evidence": [
+        {
+          "date": "2026-09-10",
+          "key": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 81,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Infleqtion and Cisco Collaborate on Quantum Networking Research",
+          "url": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems"
+        },
         {
           "date": "2026-08-23",
           "key": "https://quantumzeitgeist.com/leeds-quantum-repeater-speed-balance",
@@ -7043,16 +7189,16 @@
           "url": "https://thequantuminsider.com/2026/07/16/arq-raises-1-4-million-pre-seed-round-to-lay-the-foundations-for-the-quantum-internet"
         }
       ],
-      "evidence_count": 6,
+      "evidence_count": 7,
       "first_seen": "2026-07-16",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-08-23",
-      "momentum": "stable",
+      "latest_seen": "2026-09-10",
+      "momentum": "rising",
       "name": "Quantum networking",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Networking"
       ],
@@ -7311,11 +7457,11 @@
       "first_seen": "2026-06-24",
       "historical_evidence_count": 2,
       "latest_seen": "2026-09-04",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Quantum sensing",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "medium",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -7445,6 +7591,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-09-10T02:39:04.926424+00:00",
+  "updated_at": "2026-09-11T02:38:15.906575+00:00",
   "version": 2
 }

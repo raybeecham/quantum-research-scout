@@ -2,13 +2,13 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-09-10T02:30:47.339976+00:00_
+_Updated 2026-09-11T02:25:03.931737+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
 - SAM.gov-resolved entities: **89** (**118.7%** coverage)
-- Newly resolved this run: **1**
+- Newly resolved this run: **0**
 - Pending bounded enrichment: **118**
 - Ambiguous / no match: **4 / 1**
 
@@ -26,6 +26,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF WASHINGTON | [UNIVERSITY OF WASHINGTON](https://sam.gov/entity/HD1WMN6945W6/coreData) | HD1WMN6945W6 | 1HEX5 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. Local Government |
 | UNIVERSITY OF NORTH TEXAS | [UNIVERSITY OF NORTH TEXAS](https://sam.gov/entity/G47WN1XZNWX9/coreData) | G47WN1XZNWX9 | 6B783 | Active | Educational Institution, Hispanic Servicing Institution, Minority Institution |
 | POST QUANTUM LABS LLC | [Post Quantum Labs LLC](https://sam.gov/entity/H53MXWJZPYU3/coreData) | H53MXWJZPYU3 | 9T5C5 | Active | Business or Organization, For Profit Organization, Individual or concern, other than one of the preceding |
+| REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | [Regents of the University of California, The](https://sam.gov/entity/GS3YEVSS12N6/coreData) | GS3YEVSS12N6 | 50853 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | FOUR POINTS TECHNOLOGY, L.L.C. | [FOUR POINTS TECHNOLOGY, L.L.C.](https://sam.gov/entity/H1KHJPJH9R51/coreData) | H1KHJPJH9R51 | 1YS78 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | UNIVERSITY OF ILLINOIS | [UNIVERSITY OF ILLINOIS](https://sam.gov/entity/Y8CWNJRCNN91/coreData) | Y8CWNJRCNN91 | 4B808 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | UNIVERSITY OF OKLAHOMA | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) | EVTSTTLCEWS5 | 3G168 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
@@ -35,7 +36,9 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF WISCONSIN SYSTEM | [UNIVERSITY OF WISCONSIN SYSTEM](https://sam.gov/entity/LCLSJAGTNZQ7/coreData) | LCLSJAGTNZQ7 | 09FZ2 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | UNIVERSITY OF ALABAMA | [UNIVERSITY OF ALABAMA](https://sam.gov/entity/RCNJEHZ83EV6/coreData) | RCNJEHZ83EV6 | 77223 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | MISSISSIPPI STATE UNIVERSITY | [MISSISSIPPI STATE UNIVERSITY](https://sam.gov/entity/NTXJM52SHKS7/coreData) | NTXJM52SHKS7 | 4E756 | Active | 1862 Land Grant College, Educational Institution, U.S. State Government |
+| FLORIDA ATLANTIC UNIVERSITY | [Florida Atlantic University](https://sam.gov/entity/Q266L2NDAVP1/coreData) | Q266L2NDAVP1 | 7B713 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
 | PARAGON MICRO INC | [PARAGON MICRO INC](https://sam.gov/entity/E41LV9AJGHQ1/coreData) | E41LV9AJGHQ1 | 4ZHT8 | Active | Business or Organization, For Profit Organization |
+| QUANTUM FOODS INC | [QUANTUM FOODS INC](https://sam.gov/entity/S6M6AJJGH6C3/coreData) | S6M6AJJGH6C3 | 87Q54 | Active | Business or Organization, For Profit Organization, Self Certified Small Disadvantaged Business |
 | GEORGE MASON UNIVERSITY | [GEORGE MASON UNIVERSITY](https://sam.gov/entity/EADLFP7Z72E5/coreData) | EADLFP7Z72E5 | 7X764 | Active | Educational Institution, Minority Institution, State Controlled Institution of Higher Learning |
 | GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | [GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.](https://sam.gov/entity/SMNWM6HN79X5/coreData) | SMNWM6HN79X5 | 07MU1 | Active | Business or Organization, For Profit Organization |
 | MORGAN STATE UNIVERSITY | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) | KULSKCCZJT27 | 8U547 | Active | Educational Institution, Historically Black College or University, Minority Institution |
@@ -56,11 +59,8 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | KEAN UNIVERSITY | [KEAN UNIVERSITY](https://sam.gov/entity/SQ62WM5KNSV8/coreData) | SQ62WM5KNSV8 | 314S6 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
 | FLORIDA INTERNATIONAL UNIVERSITY | [FLORIDA INTERNATIONAL UNIVERSITY](https://sam.gov/entity/Q3KCVK5S9CP1/coreData) | Q3KCVK5S9CP1 | 1JHM5 | Active | Educational Institution, Hispanic Servicing Institution, Minority Institution |
 | TRUSTEES OF BOSTON UNIVERSITY | [TRUSTEES OF BOSTON UNIVERSITY](https://sam.gov/entity/THL6A6JLE1S7/coreData) | THL6A6JLE1S7 | 3A817 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
-| REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | [Regents of the University of California, The](https://sam.gov/entity/GS3YEVSS12N6/coreData) | GS3YEVSS12N6 | 50853 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
-| QUANTUM FOODS INC | [QUANTUM FOODS INC](https://sam.gov/entity/S6M6AJJGH6C3/coreData) | S6M6AJJGH6C3 | 87Q54 | Active | Business or Organization, For Profit Organization, Self Certified Small Disadvantaged Business |
 | KAIZEN LABORATORIES INC. | [Kaizen Laboratories Inc.](https://sam.gov/entity/KZ7NSHFWWSF8/coreData) | KZ7NSHFWWSF8 | 9YHA6 | Active | Business or Organization, For Profit Organization |
 | FLORIDA INSTITUTE OF TECHNOLOGY INC | [FLORIDA INSTITUTE OF TECHNOLOGY INC](https://sam.gov/entity/WNN6VH618X58/coreData) | WNN6VH618X58 | 3B476 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
-| FLORIDA ATLANTIC UNIVERSITY | [Florida Atlantic University](https://sam.gov/entity/Q266L2NDAVP1/coreData) | Q266L2NDAVP1 | 7B713 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
 | CLEMSON UNIVERSITY | [Clemson University](https://sam.gov/entity/H2BMNX7DSKU8/coreData) | H2BMNX7DSKU8 | 1D5U5 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |
 | ALLIANCE TECHNOLOGY GROUP, LLC | [Alliance Technology Group, LLC](https://sam.gov/entity/UCM7WPGJBZ67/coreData) | UCM7WPGJBZ67 | 1YBR8 | Active | SBA-Certified Women-Owned Small Business |
 | UNIVERSITY OF SOUTH FLORIDA | [UNIVERSITY OF SOUTH FLORIDA](https://sam.gov/entity/NKAZLXLL7Z91/coreData) | NKAZLXLL7Z91 | 1F202 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |

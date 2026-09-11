@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-09-10",
+  "as_of_date": "2026-09-11",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,498 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-04a04263d838f7ab",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-04-01",
+      "evidence_ids": [
+        "evidence-ffc317bf1d1085c4"
+      ],
+      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported amount in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-a5378ca9c549f109"
+          ],
+          "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "object": null,
+          "status": "active",
+          "value": 3795036.0,
+          "version": 1,
+          "version_hash": "8e19d9f1eb4a5c18"
+        }
+      ],
+      "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ffc317bf1d1085c4",
+          "locator": "reported_amount:4394360.0",
+          "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:FA714626C0012",
+        "label": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
+        "node_id": "award:usaspending:FA714626C0012",
+        "node_type": "award"
+      },
+      "value": 4394360.0,
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "5558b949892d340e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-eb338201ddde09ec",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-04-01",
+      "evidence_ids": [
+        "evidence-d12549298b1f1957"
+      ],
+      "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported amount in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-cb86ec32894cad33"
+          ],
+          "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
+          "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
+          "object": null,
+          "status": "active",
+          "value": 3.0,
+          "version": 1,
+          "version_hash": "981cc391f03141da"
+        }
+      ],
+      "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d12549298b1f1957",
+          "locator": "reported_amount:4.0",
+          "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
+        "label": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
+        "node_id": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
+        "node_type": "award_notice"
+      },
+      "value": 4.0,
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "3771bc10bc52159e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-ba6afcb8230ba972",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-5b033084149169d3"
+      ],
+      "first_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5b033084149169d3",
+          "locator": "opportunity_status:awarded",
+          "title": "PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80NSSC26C0294",
+        "label": "PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER",
+        "node_id": "award:usaspending:80NSSC26C0294",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6d77e1f8980fad6b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-63e567766ac0fc06",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-2b0edf9dc372d6d0"
+      ],
+      "first_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2b0edf9dc372d6d0",
+          "locator": "awarding_agency:national aeronautics and space administration",
+          "title": "PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80NSSC26C0294",
+        "label": "PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER",
+        "node_id": "award:usaspending:80NSSC26C0294",
+        "node_type": "award"
+      },
+      "value": "National Aeronautics and Space Administration",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "21b0a5c4c3f019a6"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-e22d018d8f0b6814",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-7d88993d3842354d"
+      ],
+      "first_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7d88993d3842354d",
+          "locator": "reported_amount:224998.0",
+          "title": "PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80NSSC26C0294",
+        "label": "PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER",
+        "node_id": "award:usaspending:80NSSC26C0294",
+        "node_type": "award"
+      },
+      "value": 224998.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "b9b052c677abf729"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-4011e2c2271436ec",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-b5feb91b9cabd818"
+      ],
+      "first_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:J8XPLN7HWME6",
+        "label": "OPTO-ATOMICS CORP",
+        "node_id": "recipient_or_contractor:uei:J8XPLN7HWME6",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b5feb91b9cabd818",
+          "locator": "reported_recipient:recipient_or_contractor:uei:J8XPLN7HWME6",
+          "title": "PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80NSSC26C0294",
+        "label": "PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER",
+        "node_id": "award:usaspending:80NSSC26C0294",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9f810e80d62f0c45"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-99d3a0ba48bd53b1",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-08",
+      "evidence_ids": [
+        "evidence-dec276f183f11f42"
+      ],
+      "first_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-dec276f183f11f42",
+          "locator": "opportunity_status:awarded",
+          "title": "BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1605C526F00023",
+        "label": "BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).",
+        "node_id": "award:usaspending:1605C526F00023",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "75c1ae76e5601e8f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-0de8e7cf87d8bb11",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-08",
+      "evidence_ids": [
+        "evidence-0e12f018c7f9b22a"
+      ],
+      "first_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0e12f018c7f9b22a",
+          "locator": "awarding_agency:department of labor",
+          "title": "BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1605C526F00023",
+        "label": "BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).",
+        "node_id": "award:usaspending:1605C526F00023",
+        "node_type": "award"
+      },
+      "value": "Department of Labor",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "92690b3a64887f92"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-54119dfd344f03ae",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-08",
+      "evidence_ids": [
+        "evidence-2f2340fa5cfa115d"
+      ],
+      "first_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2f2340fa5cfa115d",
+          "locator": "reported_amount:159651.09",
+          "title": "BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1605C526F00023",
+        "label": "BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).",
+        "node_id": "award:usaspending:1605C526F00023",
+        "node_type": "award"
+      },
+      "value": 159651.09,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9acdfbfdd9507c5e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-ee9a5c871af56e22",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-08",
+      "evidence_ids": [
+        "evidence-5118bdd7fc16f0e5"
+      ],
+      "first_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:G3HKA2SVBNK7",
+        "label": "IPSOS PUBLIC AFFAIRS, LLC",
+        "node_id": "recipient_or_contractor:uei:G3HKA2SVBNK7",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5118bdd7fc16f0e5",
+          "locator": "reported_recipient:recipient_or_contractor:uei:G3HKA2SVBNK7",
+          "title": "BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1605C526F00023",
+        "label": "BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).",
+        "node_id": "award:usaspending:1605C526F00023",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4f0c281f31c84382"
     },
     {
       "authority": "authoritative",
@@ -16526,191 +17018,6 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
-      "claim_id": "claim-4ce4964314c1e522",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-134d20547ce1f7a9"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-134d20547ce1f7a9",
-          "locator": "opportunity_status:awarded",
-          "title": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2625831_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2625831",
-        "label": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
-        "node_id": "award:usaspending:2625831",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "7f343c2fde9ff84c"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-a9fb1ce40db824aa",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-796a078c23fd9b5f"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-796a078c23fd9b5f",
-          "locator": "awarding_agency:national science foundation",
-          "title": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2625831_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2625831",
-        "label": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
-        "node_id": "award:usaspending:2625831",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "2a85ea80e6b7a83f"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-75b9de5f13c86d54",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-36449a13a7cda3f1"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-36449a13a7cda3f1",
-          "locator": "reported_amount:495000.0",
-          "title": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2625831_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2625831",
-        "label": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
-        "node_id": "award:usaspending:2625831",
-        "node_type": "award"
-      },
-      "value": 495000.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "19742e5950842039"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-0e8083ca0e8b8c36",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-fc1ea305c451e85e"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:EMW9FC8J3HN4",
-        "label": "GEORGIA TECH RESEARCH CORP",
-        "node_id": "recipient_or_contractor:uei:EMW9FC8J3HN4",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fc1ea305c451e85e",
-          "locator": "reported_recipient:recipient_or_contractor:uei:EMW9FC8J3HN4",
-          "title": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2625831_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2625831",
-        "label": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
-        "node_id": "award:usaspending:2625831",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "be245bcb5e02f511"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
       "claim_id": "claim-85d3513cc2f3d6d3",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -18372,191 +18679,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "65f5466eff7736f8"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-33333df9c4afb7da",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-04-01",
-      "evidence_ids": [
-        "evidence-7e4ece5e918166cd"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7e4ece5e918166cd",
-          "locator": "opportunity_status:awarded",
-          "title": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2628131_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2628131",
-        "label": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
-        "node_id": "award:usaspending:2628131",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "dbad53f0432194cd"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-21d08ef537030aab",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-04-01",
-      "evidence_ids": [
-        "evidence-c1ce0e1abbcd1b27"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c1ce0e1abbcd1b27",
-          "locator": "awarding_agency:national science foundation",
-          "title": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2628131_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2628131",
-        "label": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
-        "node_id": "award:usaspending:2628131",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "ab57a91d4d4a1a2d"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-10965c1e474c29e7",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-04-01",
-      "evidence_ids": [
-        "evidence-f8de11a2575c557f"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f8de11a2575c557f",
-          "locator": "reported_amount:33379.0",
-          "title": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2628131_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2628131",
-        "label": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
-        "node_id": "award:usaspending:2628131",
-        "node_type": "award"
-      },
-      "value": 33379.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "684297edc1029896"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-87b00a5eb33b17da",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-04-01",
-      "evidence_ids": [
-        "evidence-35c43ebacc227024"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:EMW9FC8J3HN4",
-        "label": "GEORGIA TECH RESEARCH CORP",
-        "node_id": "recipient_or_contractor:uei:EMW9FC8J3HN4",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-35c43ebacc227024",
-          "locator": "reported_recipient:recipient_or_contractor:uei:EMW9FC8J3HN4",
-          "title": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2628131_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2628131",
-        "label": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
-        "node_id": "award:usaspending:2628131",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "53368cd1189f7296"
     },
     {
       "authority": "authoritative",
@@ -22072,6 +22194,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "5e0ed8eb67b6ea23"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-4ce4964314c1e522",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-134d20547ce1f7a9"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-134d20547ce1f7a9",
+          "locator": "opportunity_status:awarded",
+          "title": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2625831_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2625831",
+        "label": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
+        "node_id": "award:usaspending:2625831",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7f343c2fde9ff84c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-a9fb1ce40db824aa",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-796a078c23fd9b5f"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-796a078c23fd9b5f",
+          "locator": "awarding_agency:national science foundation",
+          "title": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2625831_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2625831",
+        "label": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
+        "node_id": "award:usaspending:2625831",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "2a85ea80e6b7a83f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-75b9de5f13c86d54",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-36449a13a7cda3f1"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-36449a13a7cda3f1",
+          "locator": "reported_amount:495000.0",
+          "title": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2625831_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2625831",
+        "label": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
+        "node_id": "award:usaspending:2625831",
+        "node_type": "award"
+      },
+      "value": 495000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "19742e5950842039"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-0e8083ca0e8b8c36",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-fc1ea305c451e85e"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:EMW9FC8J3HN4",
+        "label": "GEORGIA TECH RESEARCH CORP",
+        "node_id": "recipient_or_contractor:uei:EMW9FC8J3HN4",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fc1ea305c451e85e",
+          "locator": "reported_recipient:recipient_or_contractor:uei:EMW9FC8J3HN4",
+          "title": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2625831_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2625831",
+        "label": "DIFFERENTIABLE REACHABILITY FOR SCALABLE VERIFICATION AND SAFE TRAINING OF NEURAL NETWORK CONTROLLERS -THIS NSF PROJECT AIMS TO MAKE IT POSSIBLE TO MATHEMATICALLY GUARANTEE THE SA...",
+        "node_id": "award:usaspending:2625831",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "be245bcb5e02f511"
     },
     {
       "authority": "authoritative",
@@ -26882,6 +27189,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "4bf93aea31bd44e1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-33333df9c4afb7da",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-04-01",
+      "evidence_ids": [
+        "evidence-7e4ece5e918166cd"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7e4ece5e918166cd",
+          "locator": "opportunity_status:awarded",
+          "title": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2628131_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2628131",
+        "label": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
+        "node_id": "award:usaspending:2628131",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "dbad53f0432194cd"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-21d08ef537030aab",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-04-01",
+      "evidence_ids": [
+        "evidence-c1ce0e1abbcd1b27"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c1ce0e1abbcd1b27",
+          "locator": "awarding_agency:national science foundation",
+          "title": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2628131_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2628131",
+        "label": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
+        "node_id": "award:usaspending:2628131",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ab57a91d4d4a1a2d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-10965c1e474c29e7",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-04-01",
+      "evidence_ids": [
+        "evidence-f8de11a2575c557f"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f8de11a2575c557f",
+          "locator": "reported_amount:33379.0",
+          "title": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2628131_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2628131",
+        "label": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
+        "node_id": "award:usaspending:2628131",
+        "node_type": "award"
+      },
+      "value": 33379.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "684297edc1029896"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-87b00a5eb33b17da",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-04-01",
+      "evidence_ids": [
+        "evidence-35c43ebacc227024"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:EMW9FC8J3HN4",
+        "label": "GEORGIA TECH RESEARCH CORP",
+        "node_id": "recipient_or_contractor:uei:EMW9FC8J3HN4",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-35c43ebacc227024",
+          "locator": "reported_recipient:recipient_or_contractor:uei:EMW9FC8J3HN4",
+          "title": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2628131_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2628131",
+        "label": "CONFERENCE: MEETING ON APPLIED ALGEBRAIC GEOMETRY -THIS AWARD PROVIDES SUPPORT FOR THE MEETING ON APPLIED ALGEBRAIC GEOMETRY (MAAG) CONFERENCE TO BE HELD AT GEORGIA TECH IN APRIL...",
+        "node_id": "award:usaspending:2628131",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "53368cd1189f7296"
     },
     {
       "authority": "authoritative",
@@ -72679,186 +73171,6 @@
     {
       "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
-      "claim_id": "claim-763d9ed824e35f46",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-12",
-      "evidence_ids": [
-        "evidence-c0c75791a09ed00e"
-      ],
-      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c0c75791a09ed00e",
-          "locator": "legal_business_name:quantum foods inc",
-          "title": "QUANTUM FOODS INC",
-          "url": "https://sam.gov/entity/S6M6AJJGH6C3/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:S6M6AJJGH6C3",
-        "label": "QUANTUM FOODS INC",
-        "node_id": "recipient_or_contractor:uei:S6M6AJJGH6C3",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "QUANTUM FOODS INC",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "b3f3a1bdacf02944"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity uei",
-      "claim_id": "claim-dc3f91a272935d72",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-12",
-      "evidence_ids": [
-        "evidence-10e30224c745ced5"
-      ],
-      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-10e30224c745ced5",
-          "locator": "uei:s6m6ajjgh6c3",
-          "title": "QUANTUM FOODS INC",
-          "url": "https://sam.gov/entity/S6M6AJJGH6C3/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:S6M6AJJGH6C3",
-        "label": "QUANTUM FOODS INC",
-        "node_id": "recipient_or_contractor:uei:S6M6AJJGH6C3",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "S6M6AJJGH6C3",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "c5b63c076f5e103e"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity cage code",
-      "claim_id": "claim-d306398155484092",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-12",
-      "evidence_ids": [
-        "evidence-f64dcdf16c49143e"
-      ],
-      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f64dcdf16c49143e",
-          "locator": "cage_code:87q54",
-          "title": "QUANTUM FOODS INC",
-          "url": "https://sam.gov/entity/S6M6AJJGH6C3/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:S6M6AJJGH6C3",
-        "label": "QUANTUM FOODS INC",
-        "node_id": "recipient_or_contractor:uei:S6M6AJJGH6C3",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "87Q54",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "f6c191b99b6296b2"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity registration status",
-      "claim_id": "claim-bfe2be463efc80f3",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-12",
-      "evidence_ids": [
-        "evidence-50ce4d66d59ad9ed"
-      ],
-      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-50ce4d66d59ad9ed",
-          "locator": "registration_status:active",
-          "title": "QUANTUM FOODS INC",
-          "url": "https://sam.gov/entity/S6M6AJJGH6C3/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:S6M6AJJGH6C3",
-        "label": "QUANTUM FOODS INC",
-        "node_id": "recipient_or_contractor:uei:S6M6AJJGH6C3",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "26b12b91553222d4"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-10ce6453ca5f00ae",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -73035,6 +73347,186 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "9a3f62989501369c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-763d9ed824e35f46",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-12",
+      "evidence_ids": [
+        "evidence-c0c75791a09ed00e"
+      ],
+      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c0c75791a09ed00e",
+          "locator": "legal_business_name:quantum foods inc",
+          "title": "QUANTUM FOODS INC",
+          "url": "https://sam.gov/entity/S6M6AJJGH6C3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:S6M6AJJGH6C3",
+        "label": "QUANTUM FOODS INC",
+        "node_id": "recipient_or_contractor:uei:S6M6AJJGH6C3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "QUANTUM FOODS INC",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "b3f3a1bdacf02944"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-dc3f91a272935d72",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-12",
+      "evidence_ids": [
+        "evidence-10e30224c745ced5"
+      ],
+      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-10e30224c745ced5",
+          "locator": "uei:s6m6ajjgh6c3",
+          "title": "QUANTUM FOODS INC",
+          "url": "https://sam.gov/entity/S6M6AJJGH6C3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:S6M6AJJGH6C3",
+        "label": "QUANTUM FOODS INC",
+        "node_id": "recipient_or_contractor:uei:S6M6AJJGH6C3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "S6M6AJJGH6C3",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c5b63c076f5e103e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-d306398155484092",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-12",
+      "evidence_ids": [
+        "evidence-f64dcdf16c49143e"
+      ],
+      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f64dcdf16c49143e",
+          "locator": "cage_code:87q54",
+          "title": "QUANTUM FOODS INC",
+          "url": "https://sam.gov/entity/S6M6AJJGH6C3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:S6M6AJJGH6C3",
+        "label": "QUANTUM FOODS INC",
+        "node_id": "recipient_or_contractor:uei:S6M6AJJGH6C3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "87Q54",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "f6c191b99b6296b2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-bfe2be463efc80f3",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-12",
+      "evidence_ids": [
+        "evidence-50ce4d66d59ad9ed"
+      ],
+      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-50ce4d66d59ad9ed",
+          "locator": "registration_status:active",
+          "title": "QUANTUM FOODS INC",
+          "url": "https://sam.gov/entity/S6M6AJJGH6C3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:S6M6AJJGH6C3",
+        "label": "QUANTUM FOODS INC",
+        "node_id": "recipient_or_contractor:uei:S6M6AJJGH6C3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "26b12b91553222d4"
     },
     {
       "authority": "authoritative",
@@ -105193,9 +105685,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -105238,9 +105730,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -105283,9 +105775,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -105328,14 +105820,14 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:DBQGN324ULK3",
         "label": "W.W. GRAINGER, INC.",
         "node_id": "recipient_or_contractor:uei:DBQGN324ULK3",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -111426,51 +111918,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "cb7281ffcd91d537"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-eb338201ddde09ec",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-04-01",
-      "evidence_ids": [
-        "evidence-cb86ec32894cad33"
-      ],
-      "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "history": [],
-      "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cb86ec32894cad33",
-          "locator": "reported_amount:3.0",
-          "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
-        "label": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
-        "node_id": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
-        "node_type": "award_notice"
-      },
-      "value": 3.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "981cc391f03141da"
     },
     {
       "authority": "authoritative",
@@ -119224,14 +119671,14 @@
       "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
       "history": [],
       "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:C4S6Z1ALKEP1",
         "label": "MONO MACHINES LLC",
         "node_id": "recipient_or_contractor:uei:C4S6Z1ALKEP1",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -119681,51 +120128,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "26efd36fbf9e5dcf"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-04a04263d838f7ab",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-04-01",
-      "evidence_ids": [
-        "evidence-a5378ca9c549f109"
-      ],
-      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "history": [],
-      "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a5378ca9c549f109",
-          "locator": "reported_amount:3795036.0",
-          "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-/",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:FA714626C0012",
-        "label": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
-        "node_id": "award:usaspending:FA714626C0012",
-        "node_type": "award"
-      },
-      "value": 3795036.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "8e19d9f1eb4a5c18"
     },
     {
       "authority": "authoritative",
@@ -141214,9 +141616,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -141259,9 +141661,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -141304,9 +141706,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -184145,14 +184547,14 @@
       "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
       "history": [],
       "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "19486222",
         "label": "CONTROL OF THE TEMPERATURE COEFFICIENT OF FREQUENCY OF A MICROELECTROMECHANICAL SYSTEMS (MEMS) RESONATOR VIA MANIPULATION BY STRESS",
         "node_id": "patent:19486222",
         "node_type": "patent"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "has_related_patent",
       "sources": [
         {
@@ -185980,7 +186382,7 @@
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 32 / 100 with 0 / 100 evidence completeness",
+      "basis": "Deterministic qualification score 25 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-faaae0d125f39e41",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -186009,13 +186411,13 @@
           },
           {
             "basis": [
-              "No extracted procurement document evidence"
+              "Compressed response window: 3 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/363824"
             ],
-            "points": -8
+            "points": -15
           }
         ],
         "evidence_ids": [
@@ -186037,7 +186439,7 @@
         },
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 32,
+        "public_evidence_score": 25,
         "requires_revalidation": false,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363824"
@@ -186052,7 +186454,7 @@
         ],
         "rule": "procurement_intelligence._build_decision_briefs"
       },
-      "effective_date": "2026-09-10",
+      "effective_date": "2026-09-11",
       "evidence_ids": [
         "evidence-925aaf31eb95777a"
       ],
@@ -186072,9 +186474,24 @@
           "value": "hold",
           "version": 1,
           "version_hash": "cf3de4254f1c13f8"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 32 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-925aaf31eb95777a"
+          ],
+          "first_seen_at": "2026-09-08T02:28:05.665263+00:00",
+          "last_seen_at": "2026-09-10T02:30:47.339976+00:00",
+          "object": null,
+          "status": "active",
+          "value": "hold",
+          "version": 2,
+          "version_hash": "bd352a4805f3ae4a"
         }
       ],
-      "last_seen_at": "2026-09-10T02:30:47.339976+00:00",
+      "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
       "missing_observations": 0,
       "object": null,
       "observation_status": "observed",
@@ -186100,8 +186517,8 @@
       },
       "value": "hold",
       "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "bd352a4805f3ae4a"
+      "version": 3,
+      "version_hash": "0588352aad6a229c"
     },
     {
       "authority": "analytical",
@@ -210236,7 +210653,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210283,7 +210700,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210330,7 +210747,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210377,7 +210794,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210424,7 +210841,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210471,7 +210888,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210518,7 +210935,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210565,7 +210982,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210612,7 +211029,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210659,7 +211076,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210706,7 +211123,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210753,7 +211170,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210800,7 +211217,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210847,7 +211264,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210894,7 +211311,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210941,7 +211358,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -210988,7 +211405,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -211035,7 +211452,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -211087,7 +211504,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -211139,7 +211556,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -211191,7 +211608,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -211243,7 +211660,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -211295,7 +211712,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -211347,7 +211764,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -211399,7 +211816,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -211451,7 +211868,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -211503,7 +211920,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-10T02:30:47.339976+00:00",
+      "retracted_at": "2026-09-11T02:25:03.931737+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -214149,6 +214566,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:THL6A6JLE1S7",
       "title": "COLLABORATIVE RESEARCH: SHF: SCALABLE CROSS-LAYER CO-DESIGN FOR STABLE MIXED-PRECISION ACCELERATION -THE MOST CONSEQUENTIAL COMPUTING WORKLOADS TODAY ALL FACE SUBSTANTIAL CHALLENG...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2621700_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0e12f018c7f9b22a",
+      "locator": "awarding_agency:department of labor",
+      "title": "BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605",
       "verification_status": "source_reported"
     },
     {
@@ -218793,6 +219220,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-2b0edf9dc372d6d0",
+      "locator": "awarding_agency:national aeronautics and space administration",
+      "title": "PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "ff7ff3711dba83610559b97f11e70264be60a9fda742a022b6be9f4083725a12",
       "controlling_status": "not_established",
       "evidence_id": "evidence-2b41dcec46788f3e",
@@ -219500,6 +219937,16 @@
       "locator": "uei:kl36p1l5h833",
       "title": "PROFESSIONAL AND SCIENTIFIC ASSOCIATES, INC.",
       "url": "https://sam.gov/entity/KL36P1L5H833/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-2f2340fa5cfa115d",
+      "locator": "reported_amount:159651.09",
+      "title": "BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605",
       "verification_status": "source_reported"
     },
     {
@@ -225286,6 +225733,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-5118bdd7fc16f0e5",
+      "locator": "reported_recipient:recipient_or_contractor:uei:G3HKA2SVBNK7",
+      "title": "BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-511bd4e15bc34d9f",
       "locator": "opportunity_status:awarded",
       "title": "CONTINUOUS PROCESS VERIFICATION FOR TRUSTWORTHY MANUFACTURING -THIS PROJECT SUPPORTS RESEARCH TO ADVANCE THE TRUSTWORTHINESS OF MANUFACTURING SYSTEMS. MANUFACTURING IS UNDERGOING...",
@@ -226930,6 +227387,16 @@
       "locator": "opportunity_status:awarded",
       "title": "COLLABORATIVE RESEARCH: ANALYSIS AND COMPUTATIONAL METHODS FOR BLENDED MODELING OF DYNAMIC AND QUASISTATIC FRACTURE -THE DEVELOPMENT OF THEORY AND NUMERICAL METHODS FOR COMPUTING...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2607263_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-5b033084149169d3",
+      "locator": "opportunity_status:awarded",
+      "title": "PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -232200,6 +232667,16 @@
       "locator": "awarding_agency:dept of defense.dept of the navy.spawar.spawar hq.naval information warfare systems",
       "title": "Generative Artificial Intelligence (GenAI) Electronic Performance Support System (EPSS) under CSO N0003925S001.",
       "url": "https://sam.gov/workspace/contract/opp/c21f4f1ff5834867b7c2fe36835ec54e/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7d88993d3842354d",
+      "locator": "reported_amount:224998.0",
+      "title": "PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -238674,16 +239151,6 @@
     },
     {
       "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
-      "evidence_id": "evidence-a5378ca9c549f109",
-      "locator": "reported_amount:3795036.0",
-      "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-/",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
       "content_hash": "fa3478b8b42359713f20c232acd22c2a03f7156796c08a6ad12c57517af6e329",
       "controlling_status": "not_established",
       "evidence_id": "evidence-a53da135c08abeee",
@@ -241660,6 +242127,16 @@
       "locator": "qualification_gate",
       "title": "Pax Silica Artificial Intelligence Assistance Project",
       "url": "https://www.grants.gov/search-results-detail/363513",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-b5feb91b9cabd818",
+      "locator": "reported_recipient:recipient_or_contractor:uei:J8XPLN7HWME6",
+      "title": "PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -245274,16 +245751,6 @@
     },
     {
       "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
-      "evidence_id": "evidence-cb86ec32894cad33",
-      "locator": "reported_amount:3.0",
-      "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
       "content_hash": "5b6e9e92ad74a96d07a8285dbb76c23ac2102572a7c5d1540fd2719cdec64feb",
       "controlling_status": "not_established",
       "evidence_id": "evidence-cbc042d5792c7d08",
@@ -246290,6 +246757,16 @@
       "locator": "legal_business_name:university of washington",
       "title": "UNIVERSITY OF WASHINGTON",
       "url": "https://sam.gov/entity/HD1WMN6945W6/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d12549298b1f1957",
+      "locator": "reported_amount:4.0",
+      "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -248550,6 +249027,16 @@
       "locator": "reported_amount:634148.78",
       "title": "HIGH PERFORMANCE COMPUTING DATADIRECT NETWORKS (DDN) HARDWARE AND SOFTWARE SUPPORT RENEWAL",
       "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00009_7529_HHSN316201500061W_7529/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-dec276f183f11f42",
+      "locator": "opportunity_status:awarded",
+      "title": "BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605",
       "verification_status": "source_reported"
     },
     {
@@ -254396,6 +254883,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ffc317bf1d1085c4",
+      "locator": "reported_amount:4394360.0",
+      "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-ffe20dc4a13b679e",
       "locator": "reported_recipient:recipient_or_contractor:uei:V6AFQPN18437",
       "title": "FAST RANDOMIZED ALGORITHMS FOR GLOBAL OPERATORS -COMPUTATIONAL SIMULATION IS ESSENTIAL FOR DESIGNING ELECTROMAGNETIC DEVICES, PREDICTING RADAR AND SONAR SIGNATURES, IMPROVING MEDI...",
@@ -254426,16 +254923,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4179,
-    "authoritative_claims": 3981,
+    "active_claims": 4187,
+    "authoritative_claims": 3989,
     "conflicted_claims": 38,
     "derived_claims": 195,
-    "evidence_items": 4289,
-    "source_urls": 1176,
-    "subjects": 826,
+    "evidence_items": 4297,
+    "source_urls": 1178,
+    "subjects": 828,
     "superseded_claims": 0,
-    "total_claims": 4206
+    "total_claims": 4214
   },
-  "updated_at": "2026-09-10T02:30:47.339976+00:00",
+  "updated_at": "2026-09-11T02:25:03.931737+00:00",
   "version": 1
 }

@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Document Intelligence](procurement-intelligence.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-09-10T02:30:47.339976+00:00_
+_Updated 2026-09-11T02:25:03.931737+00:00_
 
 Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.
 
@@ -42,37 +42,6 @@ Score and evidence trace:
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
-## [AEIF 2026 Alumni Summit: Freedom 250](https://www.grants.gov/search-results-detail/363824)
-
-**HOLD · 32 / 100** · Evidence 0 / 100 · Deadline 09/14/2026
-
-Agency: DOS-SAU
-
-Recommended actions:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Confirm response calendar, internal reviews, and submission lead time
-- Record an authorized bid/no-bid decision with owner and rationale
-
-Risks:
-- Compressed response window: 4 day(s) remaining
-- No linked solicitation document was available for extraction
-- Set-aside or eligibility status is not established in collected metadata
-
-Unknowns:
-- Confirm controlling requirements in the controlling solicitation
-- Confirm evaluation criteria in the controlling solicitation
-- Confirm eligibility and set-aside terms in the controlling solicitation
-- Confirm submission instructions in the controlling solicitation
-
-Score and evidence trace:
-- **opportunity evidence +40** — strategic significance +11; actionable grant_opportunity +9; closing_soon +12; technology fit +8 · [evidence 1](https://www.grants.gov/search-results-detail/363824)
-- **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/363824)
-- Trace hash: `8cc3885d76889fa1` · model `public-opportunity-qualification@2`
-
-_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
-
 ## [Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/359269)
 
 **HOLD · 29 / 100** · Evidence 0 / 100 · Deadline 10/02/2026
@@ -99,6 +68,37 @@ Score and evidence trace:
 - **document evidence +0** — 0 / 100 document evidence completeness
 - **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/359269)
 - Trace hash: `87a6930f8eaf32ff` · model `public-opportunity-qualification@2`
+
+_This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
+
+## [AEIF 2026 Alumni Summit: Freedom 250](https://www.grants.gov/search-results-detail/363824)
+
+**HOLD · 25 / 100** · Evidence 0 / 100 · Deadline 09/14/2026
+
+Agency: DOS-SAU
+
+Recommended actions:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm response calendar, internal reviews, and submission lead time
+- Record an authorized bid/no-bid decision with owner and rationale
+
+Risks:
+- Compressed response window: 3 day(s) remaining
+- No linked solicitation document was available for extraction
+- Set-aside or eligibility status is not established in collected metadata
+
+Unknowns:
+- Confirm controlling requirements in the controlling solicitation
+- Confirm evaluation criteria in the controlling solicitation
+- Confirm eligibility and set-aside terms in the controlling solicitation
+- Confirm submission instructions in the controlling solicitation
+
+Score and evidence trace:
+- **opportunity evidence +40** — strategic significance +11; actionable grant_opportunity +9; closing_soon +12; technology fit +8 · [evidence 1](https://www.grants.gov/search-results-detail/363824)
+- **document evidence +0** — 0 / 100 document evidence completeness
+- **deadline and evidence risk -15** — Compressed response window: 3 day(s) · [evidence 1](https://www.grants.gov/search-results-detail/363824)
+- Trace hash: `16c8aa28004466ad` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 

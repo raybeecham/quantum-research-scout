@@ -1912,12 +1912,30 @@
           "source": "Quantum Zeitgeist",
           "title": "US financial sector quantum threat prep led by Quantum Readiness Task Force",
           "url": "https://quantumzeitgeist.com/quantum-readiness-threat-prep-financial-sector"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://pqshield.com/reframing-quantum-risk-for-board-governance",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 50,
+          "source": "PQShield",
+          "title": "Reframing quantum risk for board governance Top security leaders from HSBC, Microsoft, Citi, and industry experts break down the executive mandate for post-quantum security. Learn how to reframe cryptographic risk for the C-suite, bridge governance gaps, and execute enterprise migration.",
+          "url": "https://pqshield.com/reframing-quantum-risk-for-board-governance"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://blog.cloudflare.com/post-quantum-dnssec-1111",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 144,
+          "source": "Cloudflare Blog",
+          "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+          "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-09-09",
+      "latest_seen": "2026-09-10",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -1926,8 +1944,8 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 17,
-      "recent_count": 23,
+      "prior_count": 24,
+      "recent_count": 18,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -2418,13 +2436,31 @@
           "source": "QuantumNews.ai",
           "title": "Xanadu and ASML Partner to Optimize Lithography Processes for Ultra-Low-Loss Quantum Photonics",
           "url": "https://quantumcomputingreport.com/xanadu-and-asml-partner-to-optimize-lithography-processes-for-ultra-low-loss-quantum-photonics"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://thequantuminsider.com/2026/09/10/altera-riverlane-partner-bring-quantum-error-correction-support-agilex-fpgas",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 56,
+          "source": "The Quantum Insider",
+          "title": "Altera and Riverlane Partner to Bring Quantum Error Correction Support to Agilex FPGAs",
+          "url": "https://thequantuminsider.com/2026/09/10/altera-riverlane-partner-bring-quantum-error-correction-support-agilex-fpgas"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://quantumzeitgeist.com/logical-qubits-iqm-europes-first",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 100,
+          "source": "Quantum Zeitgeist",
+          "title": "IQM to build Europe\u2019s first quantum computer with logical qubits",
+          "url": "https://quantumzeitgeist.com/logical-qubits-iqm-europes-first"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-09-09",
-      "momentum": "stable",
+      "latest_seen": "2026-09-10",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
@@ -2432,8 +2468,8 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 3,
-      "recent_count": 3,
-      "status": "watching"
+      "recent_count": 5,
+      "status": "actionable"
     },
     "Quantum Hardware": {
       "confidence": "high",
@@ -4849,12 +4885,30 @@
           "source": "QuantumNews.ai",
           "title": "Quantinuum Finalizes $100 Million CHIPS Act R&D Award to Accelerate Trapped-Ion Manufacturing",
           "url": "https://quantumcomputingreport.com/quantinuum-finalizes-100-million-chips-act-rd-award-to-accelerate-trapped-ion-manufacturing"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://quantumzeitgeist.com/integrated-laser-single-qubit-gate-fidelity",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 56,
+          "source": "Quantum Zeitgeist",
+          "title": "Researchers Achieve 99.61% Single-Qubit Gate Fidelity with Integrated Laser",
+          "url": "https://quantumzeitgeist.com/integrated-laser-single-qubit-gate-fidelity"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://thequantuminsider.com/2026/09/10/iqm-plans-logical-qubit-system-for-finlands-lumi-ai-factory",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 69,
+          "source": "The Quantum Insider",
+          "title": "IQM Plans Logical-Qubit System for Finland\u2019s LUMI AI Factory",
+          "url": "https://thequantuminsider.com/2026/09/10/iqm-plans-logical-qubit-system-for-finlands-lumi-ai-factory"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-09-09",
+      "latest_seen": "2026-09-10",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -4862,8 +4916,8 @@
         "QuantumNews.ai",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 20,
-      "recent_count": 22,
+      "prior_count": 23,
+      "recent_count": 21,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -5795,22 +5849,94 @@
           "source": "QuantumNews.ai",
           "title": "QNu Labs Closes \u20b9200 Crore ($21.02M USD) Series A1 Round to Scale Sovereign Quantum Security Hardware Stack",
           "url": "https://quantumcomputingreport.com/qnu-labs-closes-%E2%82%B9200-crore-21-02m-usd-series-a1-round-to-scale-sovereign-quantum-security-hardware-stack"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://quantumzeitgeist.com/quantum-local-algorithms-four-colouring-directed-cycles",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 33,
+          "source": "QuantumNews.ai",
+          "title": "Cambridge Team Bounds Four-Colouring of Cycles Using Quantum Methods",
+          "url": "https://quantumzeitgeist.com/quantum-local-algorithms-four-colouring-directed-cycles"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://thequantuminsider.com/2026/09/10/researchers-send-twin-photons-7-kilometers-across-brazils-guanabara-bay",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 33,
+          "source": "The Quantum Insider",
+          "title": "Researchers Send Twin Photons 7 Kilometers Across Brazil\u2019s Guanabara Bay",
+          "url": "https://thequantuminsider.com/2026/09/10/researchers-send-twin-photons-7-kilometers-across-brazils-guanabara-bay"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://quantumnews.ai/networking/evaluating-progress-of-paris-s-metropolitan-quantum-network-in-2026",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 35,
+          "source": "QuantumNews.ai",
+          "title": "Evaluating Progress of Paris's Metropolitan Quantum Network in 2026",
+          "url": "https://quantumnews.ai/networking/evaluating-progress-of-paris-s-metropolitan-quantum-network-in-2026"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://quantumzeitgeist.com/entanglement-steerability-bell-nonlocality-noise-thresholds",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 45,
+          "source": "Quantum Zeitgeist",
+          "title": "Stony Brook Team Bounds Noisy Entanglement Thresholds",
+          "url": "https://quantumzeitgeist.com/entanglement-steerability-bell-nonlocality-noise-thresholds"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://quantumzeitgeist.com/pirandola-laurenza-ottaviani-banchi-bound-unlocks",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 46,
+          "source": "Quantum Zeitgeist",
+          "title": "Pirandola-Laurenza-Ottaviani-Banchi bound unlocks longer QKD links",
+          "url": "https://quantumzeitgeist.com/pirandola-laurenza-ottaviani-banchi-bound-unlocks"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://quantumzeitgeist.com/quantum-key-distribution-convex-optimisation-finite-size-rates",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 47,
+          "source": "Quantum Zeitgeist",
+          "title": "Researchers Simplify Quantum Key Distribution Calculations",
+          "url": "https://quantumzeitgeist.com/quantum-key-distribution-convex-optimisation-finite-size-rates"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://infleqtion.com/infleqtion-and-cisco-announce-collaboration-to-advance-networked-quantum-technology",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 64,
+          "source": "QuantumNews.ai",
+          "title": "Infleqtion and Cisco Announce Collaboration to Advance Networked Quantum Technology",
+          "url": "https://infleqtion.com/infleqtion-and-cisco-announce-collaboration-to-advance-networked-quantum-technology"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 81,
+          "source": "The Quantum Insider",
+          "title": "Infleqtion and Cisco Collaborate on Quantum Networking Research",
+          "url": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-09-09",
+      "latest_seen": "2026-09-10",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
-        "The Quantum Insider",
         "QuantumNews.ai",
+        "The Quantum Insider",
         "arXiv RSS quant-ph",
         "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 4,
-      "recent_count": 6,
+      "prior_count": 5,
+      "recent_count": 13,
       "status": "actionable"
     },
     "Quantum Sensing": {
@@ -6211,12 +6337,21 @@
           "source": "QuantumNews.ai",
           "title": "Infleqtion Leaders to Speak at Quantum World Congress 2026",
           "url": "https://infleqtion.com/infleqtion-leaders-to-speak-at-quantum-world-congress-2026"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 100,
+          "source": "QuantumNews.ai",
+          "title": "NIST-Developed Quantum Sensors Improve Nuclear Monitoring",
+          "url": "https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.",
       "importance": "critical",
-      "latest_seen": "2026-09-08",
+      "latest_seen": "2026-09-10",
       "momentum": "rising",
       "organizations": [
         "QuantumNews.ai",
@@ -6224,7 +6359,7 @@
         "Quantum Zeitgeist",
         "Department of War Strategic Technology News"
       ],
-      "prior_count": 1,
+      "prior_count": 2,
       "recent_count": 3,
       "status": "actionable"
     },
@@ -7412,6 +7547,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-09-10T02:39:04.918956+00:00",
+  "updated_at": "2026-09-11T02:38:15.898262+00:00",
   "version": 1
 }

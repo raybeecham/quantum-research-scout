@@ -2,43 +2,27 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-09-10T02:30:47.339976+00:00_
+_Updated 2026-09-11T02:25:03.931737+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **0**
-- Newly discovered historical evidence: **4**
-- Newly observed with no reliable source date: **4**
+- Actual or recent changes: **6**
+- Newly discovered historical evidence: **0**
+- Newly observed with no reliable source date: **0**
 - Upcoming dated events: **20**
 
 ## Priority timeline
 
+- **Changed since prior run** · THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-))
+  - The assertion changed relative to the prior successful ledger build.
+- **Changed since prior run** · THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-))
+  - The assertion changed relative to the prior successful ledger build.
+- **Occurred 3 days ago** · BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI). — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605))
+  - A recent source-reported event was newly incorporated into the ledger.
 - **Evidence trace changed** · AEIF 2026 Alumni Summit: Freedom 250 — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363824))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Upcoming event date** · DESCRIPTION:THIS PROJECT BY BRING RECYCLING WILL DESIGN, DEMONSTRATE, AND DISSEMINATE ENVIRONMENTAL EDUCATION PRACTICES, METHODS, AND TECHNIQUES THAT WILL SERVE TO INCREASE ENVIRO... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_84121201_068))
-  - The source date is in the future; Scout first observed it on 2026-09-10.
-- **Upcoming event date** · DESCRIPTION:THIS PROJECT WILL DESIGN, DEMONSTRATE, AND DISSEMINATE ENVIRONMENTAL EDUCATION PRACTICES, METHODS, AND TECHNIQUES, THAT WILL SERVE TO INCREASE ENVIRONMENTAL LITERACY A... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_84121301_068))
-  - The source date is in the future; Scout first observed it on 2026-09-10.
-- **Upcoming event date** · PURPOSE: THE HIGH PERFORMANCE COMPUTING (HPC) SYSTEMS PROJECT WILL ENABLE AUBURN UNIVERSITY TO SUPPORT SENSITIVE DEFENSE AND NON-DEFENSE RESEARCH CAPABILITIES, INCLUDING RADIATION... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D062_013))
-  - The source date is in the future; Scout first observed it on 2026-09-10.
-- **Upcoming event date** · PURPOSE: THE PURPOSE OF THIS GRANT IS TO ADVANCE INTEGRATED SENSING, ROBOTICS, SMART MACHINERY, CYBERSECURITY, AND WORKFORCE DEVELOPMENT TO ACCELERATE THE ADOPTION OF PRACTICAL, S... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D063_013))
-  - The source date is in the future; Scout first observed it on 2026-09-10.
-- **Upcoming event date** · PURPOSE: THE PURPOSE OF THIS GRANT IS TO IDENTIFY, VALIDATE, AND MITIGATE CYBER VULNERABILITIES WITHIN MARITIME PORT TERMINALS THROUGH A STRUCTURED APPROACH CENTERED ON ZERO TRUST... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D061_013))
-  - The source date is in the future; Scout first observed it on 2026-09-10.
-- **Upcoming event date** · PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE ANDERSON COLLEGE CENTER FOR CYBER SECURITY DEFENSE (CCSD) AT REGIS UNIVERSITY. THE CENTER WILL SERVE AS A FULLY EQUIPPED A... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D106_013))
-  - The source date is in the future; Scout first observed it on 2026-09-10.
-- **Upcoming event date** · PURPOSE:THE BUSINESS DEVELOPMENT BOARD FOUNDATION OF PALM BEACH COUNTY (BDBF) PROPOSES A COORDINATED 12-MONTH INITIATIVE TO STRENGTHEN PALM BEACH COUNTY'S EMERGING QUANTUM TECHNOL... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D083_013))
-  - The source date is in the future; Scout first observed it on 2026-09-10.
-- **Upcoming event date** · PURPOSE:THE GRANT FOR THE NEXT GENERATION SEMICONDUCTOR TEST FACILITY (NGST) AT OREGON STATE UNIVERSITY WILL PROVIDE HIGH-SPEED, HIGH-FREQUENCY, HIGH-RESOLUTION, AND THERMAL CHARA... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D162_013))
-  - The source date is in the future; Scout first observed it on 2026-09-10.
-- **Upcoming event date** · PURPOSE:THE MAINE HIGH-PERFORMANCE COMPUTING HUB (MHPCH) WILL ESTABLISH A STATE-OF-THE-ART COMPUTATIONAL RESOURCE IN WATERVILLE, MAINE, TO SERVE BUSINESSES, RESEARCH INSTITUTIONS,... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D101_013))
-  - The source date is in the future; Scout first observed it on 2026-09-10.
-- **Upcoming event date** · PURPOSE:THE PROJECT WILL ESTABLISH A DEDICATED FACILITY, EQUIPPED WITH BEST-AVAILABLE EQUIPMENT, TO ENABLE EDUCATION, RESEARCH, AND DEVELOPMENT OF INNOVATIVE AI AND CYBERSECURITY... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D170_013))
-  - The source date is in the future; Scout first observed it on 2026-09-10.
-- **Newly observed · event date unknown** · AUBURN UNIVERSITY — cage code ([evidence](https://sam.gov/entity/DMQNDJDHTDG4/coreData))
-  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
-- **Newly discovered historical evidence** · PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE PURCHASE AND INTEGRATION OF EQUIPMENT TO EXPAND THE AI/ML CAPABILITIESOF THE CENTER FOR ADVANCED MATERIALS & STEEL MANUFACTURIN... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D060_013))
-  - Scout first observed this on 2026-09-10; the source date is 2026-09-01.
+- **Upcoming event date** · PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-))
+  - The source date is in the future; Scout first observed it on 2026-09-11.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

@@ -1,9 +1,9 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 24.2,
+      "acceptance_rate": 24.0,
       "accepted": 31,
-      "quarantined": 97,
+      "quarantined": 98,
       "scope": "Federal missions"
     },
     {
@@ -188,6 +188,29 @@
       "stage": "mission evidence admission",
       "title": "Egypt Annual Program Statement",
       "url": "https://www.grants.gov/search-results-detail/363786"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-31",
+      "key": "https://www.grants.gov/search-results-detail/363744",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "mission evidence admission",
+      "title": "U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)",
+      "url": "https://www.grants.gov/search-results-detail/363744"
     },
     {
       "admission": {
@@ -2257,44 +2280,22 @@
       "stage": "mission evidence admission",
       "title": "Space Technology Research, Development, Demonstration, and Infusion (SpaceTech REDDI-2026)",
       "url": "https://www.grants.gov/search-results-detail/360954"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2025-12-09",
-      "key": "grants_gov:NNH26ZTR001N",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "funding evidence admission",
-      "title": "Space Technology Research, Development, Demonstration, and Infusion (SpaceTech REDDI-2026)",
-      "url": "https://www.grants.gov/search-results-detail/360954"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 128,
+      "count": 129,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 128,
+      "count": 129,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 112,
+      "count": 113,
       "label": "Official government source"
     },
     {
@@ -2310,14 +2311,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 80.2,
+    "acceptance_rate": 80.1,
     "accepted": 531,
-    "decisions": 662,
+    "decisions": 663,
     "funding_quarantine": 31,
-    "mission_quarantine": 97,
-    "quarantined": 131,
+    "mission_quarantine": 98,
+    "quarantined": 132,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-09-10T02:30:47.339976+00:00",
+  "updated_at": "2026-09-11T02:25:03.931737+00:00",
   "version": 1
 }
