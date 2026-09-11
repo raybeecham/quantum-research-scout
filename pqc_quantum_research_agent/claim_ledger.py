@@ -8,7 +8,6 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
 
-
 SINGLE_VALUE_PREDICATES = {
     "awarding_agency",
     "cage_code",
@@ -64,18 +63,12 @@ def write_claim_ledger(
     incoming_decisions = [
         item for item in incoming if item.get("predicate") == "qualification_gate"
     ]
-    incoming_facts = [
-        item for item in incoming if item.get("predicate") != "qualification_gate"
-    ]
+    incoming_facts = [item for item in incoming if item.get("predicate") != "qualification_gate"]
     previous_decisions = [
-        item
-        for item in previous_claims
-        if item.get("predicate") == "qualification_gate"
+        item for item in previous_claims if item.get("predicate") == "qualification_gate"
     ]
     previous_facts = [
-        item
-        for item in previous_claims
-        if item.get("predicate") != "qualification_gate"
+        item for item in previous_claims if item.get("predicate") != "qualification_gate"
     ]
     fact_claims, changes = _merge_versions(
         incoming_facts,
@@ -111,16 +104,10 @@ def write_claim_ledger(
     summary = {
         "total_claims": len(claims),
         "active_claims": len(active),
-        "authoritative_claims": sum(
-            item.get("authority") == "authoritative" for item in active
-        ),
-        "derived_claims": sum(
-            item.get("authority") == "analytical" for item in active
-        ),
+        "authoritative_claims": sum(item.get("authority") == "authoritative" for item in active),
+        "derived_claims": sum(item.get("authority") == "analytical" for item in active),
         "conflicted_claims": sum(item.get("status") == "conflicted" for item in claims),
-        "superseded_claims": sum(
-            item.get("status") == "superseded" for item in claims
-        ),
+        "superseded_claims": sum(item.get("status") == "superseded" for item in claims),
         "subjects": len(
             {
                 (item.get("subject") or {}).get("node_id")
@@ -164,17 +151,13 @@ def write_claim_ledger(
         baseline,
         comparison_started_at=previous.get("updated_at"),
     )
-    ledger_json.write_text(
-        json.dumps(ledger, indent=2, sort_keys=True) + "\n", encoding="utf-8"
-    )
+    ledger_json.write_text(json.dumps(ledger, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     ledger_markdown.write_text(_render_ledger(ledger), encoding="utf-8")
     changes_json.write_text(
         json.dumps(change_payload, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
-    changes_markdown.write_text(
-        _render_changes(change_payload), encoding="utf-8"
-    )
+    changes_markdown.write_text(_render_changes(change_payload), encoding="utf-8")
     return ledger_json, ledger_markdown, changes_json, changes_markdown
 
 
@@ -194,8 +177,7 @@ def _collect_claims(reports: Path, generated: datetime) -> list[dict]:
         record_type = str(record.get("record_type") or "federal_record")
         subject = _node(
             "opportunity"
-            if record_type
-            in {"grant_opportunity", "procurement_opportunity", "baa", "rfi"}
+            if record_type in {"grant_opportunity", "procurement_opportunity", "baa", "rfi"}
             else record_type,
             str(record["key"]),
             record.get("title"),
@@ -264,9 +246,7 @@ def _collect_claims(reports: Path, generated: datetime) -> list[dict]:
                 )
             )
             for patent in record.get("related_patents", []):
-                patent_id = patent.get("patent_id") or patent.get(
-                    "publication_number"
-                )
+                patent_id = patent.get("patent_id") or patent.get("publication_number")
                 if not patent_id:
                     continue
                 patent_source = patent.get("url") or patent.get("source_url")
@@ -286,9 +266,7 @@ def _collect_claims(reports: Path, generated: datetime) -> list[dict]:
                         source_url=str(patent_source or source_url),
                         source_title=patent.get("title"),
                         effective_date=patent.get("publication_date"),
-                        confidence=str(
-                            patent.get("relationship_confidence") or "low"
-                        ),
+                        confidence=str(patent.get("relationship_confidence") or "low"),
                         authority="analytical",
                         basis=str(
                             patent.get("relationship_basis")
@@ -314,8 +292,7 @@ def _collect_claims(reports: Path, generated: datetime) -> list[dict]:
                             predicate,
                             value,
                             source_url=source_url,
-                            source_title=document.get("name")
-                            or opportunity.get("title"),
+                            source_title=document.get("name") or opportunity.get("title"),
                             effective_date=document.get("fetched_at"),
                             confidence="medium",
                             authority=_authority_for_url(source_url),
@@ -366,8 +343,7 @@ def _collect_claims(reports: Path, generated: datetime) -> list[dict]:
                         predicate,
                         pursuit.get(field),
                         source_title="Public pursuit configuration",
-                        effective_date=pursuit.get("decision_due")
-                        or generated.isoformat(),
+                        effective_date=pursuit.get("decision_due") or generated.isoformat(),
                         confidence="high",
                         authority="analyst",
                         basis="Explicit analyst-managed public pursuit state",
@@ -422,9 +398,7 @@ def _decision_claims(decisions: dict, available: list[dict]) -> list[dict]:
     for brief in decisions.get("briefs", []):
         opportunity_id = str(brief.get("opportunity_key"))
         subject = _node("opportunity", opportunity_id, brief.get("title"))
-        source_urls = [
-            str(value) for value in brief.get("source_urls", []) if value
-        ]
+        source_urls = [str(value) for value in brief.get("source_urls", []) if value]
         claim = _claim(
             subject,
             "qualification_gate",
@@ -447,14 +421,12 @@ def _decision_claims(decisions: dict, available: list[dict]) -> list[dict]:
             locator="qualification_gate",
         )
         claim["evidence_ids"] = [
-            source["evidence_id"]
-            for source in claim["sources"]
-            if source.get("evidence_id")
+            source["evidence_id"] for source in claim["sources"] if source.get("evidence_id")
         ]
         subject_node_id = subject["node_id"]
-        claim["derivation"]["input_claim_ids"] = sorted(
-            set(by_subject.get(subject_node_id, []))
-        )[:25]
+        claim["derivation"]["input_claim_ids"] = sorted(set(by_subject.get(subject_node_id, [])))[
+            :25
+        ]
         claim["decision_trace"] = brief.get("decision_trace") or {}
         claim["version_hash"] = _semantic_version_hash(claim)
         claims.append(claim)
@@ -482,12 +454,8 @@ def _claim(
     normalized_value = _normalize_value(value)
     object_id = str((object_node or {}).get("node_id") or "")
     source_key = _canonical_source(source_url) or derivation_rule or "unsourced"
-    identity_value = (
-        f"|{object_id or normalized_value}" if multi_value or object_node else ""
-    )
-    key_material = (
-        f"{subject['node_id']}|{predicate}|{source_key}{identity_value}"
-    )
+    identity_value = f"|{object_id or normalized_value}" if multi_value or object_node else ""
+    key_material = f"{subject['node_id']}|{predicate}|{source_key}{identity_value}"
     claim_id = "claim-" + hashlib.sha256(key_material.encode("utf-8")).hexdigest()[:16]
     sources = _sources(
         [source_url],
@@ -509,9 +477,7 @@ def _claim(
         "effective_date": _date_text(effective_date),
         "basis": basis,
         "sources": sources,
-        "evidence_ids": [
-            source["evidence_id"] for source in sources if source.get("evidence_id")
-        ],
+        "evidence_ids": [source["evidence_id"] for source in sources if source.get("evidence_id")],
         "verification_status": verification_status,
         "controlling_status": controlling_status,
         "derivation": {
@@ -639,18 +605,15 @@ def _is_removed_derived_mission_claim(claim: dict) -> bool:
 def _resolve_conflicts_and_supersession(claims: list[dict]) -> list[dict]:
     groups: dict[tuple[str, str], list[dict]] = defaultdict(list)
     for claim in claims:
-        if (
-            claim.get("predicate") in SINGLE_VALUE_PREDICATES
-            and claim.get("status") not in {"resolved", "retracted"}
-        ):
+        if claim.get("predicate") in SINGLE_VALUE_PREDICATES and claim.get("status") not in {
+            "resolved",
+            "retracted",
+        }:
             # Recompute resolution from retained assertions on every run. A claim
             # that was merely absent from this collection remains an assertion.
             claim["status"] = "active"
             claim.pop("superseded_by", None)
-        if (
-            claim.get("status") == "active"
-            and claim.get("predicate") in SINGLE_VALUE_PREDICATES
-        ):
+        if claim.get("status") == "active" and claim.get("predicate") in SINGLE_VALUE_PREDICATES:
             groups[
                 (
                     str((claim.get("subject") or {}).get("node_id")),
@@ -675,15 +638,11 @@ def _resolve_conflicts_and_supersession(claims: list[dict]) -> list[dict]:
             ),
             reverse=True,
         )
-        top_rank = max(
-            AUTHORITY_RANK.get(str(item.get("authority")), 0) for item in ranked
-        )
-        top = [item for item in ranked if AUTHORITY_RANK.get(str(item.get("authority")), 0) == top_rank]
-        top_values = {
-            _claim_value(item)
-            for item in top
-            if _claim_value(item)
-        }
+        top_rank = max(AUTHORITY_RANK.get(str(item.get("authority")), 0) for item in ranked)
+        top = [
+            item for item in ranked if AUTHORITY_RANK.get(str(item.get("authority")), 0) == top_rank
+        ]
+        top_values = {_claim_value(item) for item in top if _claim_value(item)}
         if len(top_values) == 1:
             winning_value = next(iter(top_values))
             winners = [item for item in top if _claim_value(item) == winning_value]
@@ -711,13 +670,7 @@ def _resolve_conflicts_and_supersession(claims: list[dict]) -> list[dict]:
                     "subject_label": (ranked[0].get("subject") or {}).get("label"),
                     "predicate": predicate,
                     "claim_ids": sorted(str(item["claim_id"]) for item in ranked),
-                    "values": sorted(
-                        {
-                            _claim_value(item)
-                            for item in ranked
-                            if _claim_value(item)
-                        }
-                    ),
+                    "values": sorted({_claim_value(item) for item in ranked if _claim_value(item)}),
                     "authority": ranked[0].get("authority"),
                     "reason": (
                         "Equally authoritative sources assert different values; recency alone "
@@ -745,17 +698,11 @@ def _record_resolution_changes(
         return
 
     previous_by_id = {
-        str(item.get("claim_id")): item
-        for item in previous_claims
-        if item.get("claim_id")
+        str(item.get("claim_id")): item for item in previous_claims if item.get("claim_id")
     }
     for item in claims:
         old = previous_by_id.get(str(item.get("claim_id")))
-        if (
-            old
-            and item.get("status") == "superseded"
-            and old.get("status") != "superseded"
-        ):
+        if old and item.get("status") == "superseded" and old.get("status") != "superseded":
             changes.setdefault("superseded", []).append(
                 {
                     **_change_ref(item, "superseded"),
@@ -766,9 +713,7 @@ def _record_resolution_changes(
             )
 
     previous_conflicts = _conflicts_from_claim_status(previous_claims)
-    previous_ids = {
-        str(item.get("conflict_id")) for item in previous_conflicts
-    }
+    previous_ids = {str(item.get("conflict_id")) for item in previous_conflicts}
     active_ids = {str(item.get("conflict_id")) for item in active_conflicts}
     changes["conflict_opened"] = [
         {**item, "change_type": "conflict_opened"}
@@ -804,16 +749,8 @@ def _conflicts_from_claim_status(claims: list[dict]) -> list[dict]:
                 "subject_node_id": subject_id,
                 "subject_label": (values[0].get("subject") or {}).get("label"),
                 "predicate": predicate,
-                "claim_ids": sorted(
-                    str(item.get("claim_id")) for item in values
-                ),
-                "values": sorted(
-                    {
-                        _claim_value(item)
-                        for item in values
-                        if _claim_value(item)
-                    }
-                ),
+                "claim_ids": sorted(str(item.get("claim_id")) for item in values),
+                "values": sorted({_claim_value(item) for item in values if _claim_value(item)}),
                 "authority": values[0].get("authority"),
                 "reason": "Previously observed unresolved source disagreement",
             }
@@ -826,16 +763,12 @@ def _prepare_decision_traces(
     available_claims: list[dict],
 ) -> None:
     available_by_id = {
-        str(item.get("claim_id")): item
-        for item in available_claims
-        if item.get("claim_id")
+        str(item.get("claim_id")): item for item in available_claims if item.get("claim_id")
     }
     for decision in decision_claims:
         requested = [
             str(value)
-            for value in (decision.get("derivation") or {}).get(
-                "input_claim_ids", []
-            )
+            for value in (decision.get("derivation") or {}).get("input_claim_ids", [])
             if value
         ]
         existing_trace = (
@@ -843,17 +776,12 @@ def _prepare_decision_traces(
             if isinstance(decision.get("decision_trace"), dict)
             else {}
         )
-        requested.extend(
-            str(value)
-            for value in existing_trace.get("input_claim_ids", [])
-            if value
-        )
+        requested.extend(str(value) for value in existing_trace.get("input_claim_ids", []) if value)
         input_ids = sorted(
             {
                 claim_id
                 for claim_id in requested
-                if claim_id in available_by_id
-                and claim_id != decision.get("claim_id")
+                if claim_id in available_by_id and claim_id != decision.get("claim_id")
             }
         )
         input_claims = [available_by_id[claim_id] for claim_id in input_ids]
@@ -866,8 +794,7 @@ def _prepare_decision_traces(
             }
         )
         input_hashes = {
-            claim_id: _stored_semantic_hash(available_by_id[claim_id])
-            for claim_id in input_ids
+            claim_id: _stored_semantic_hash(available_by_id[claim_id]) for claim_id in input_ids
         }
         unresolved = [
             claim_id
@@ -885,10 +812,7 @@ def _prepare_decision_traces(
             "input_claim_hashes": input_hashes,
             "evidence_ids": evidence_ids,
             "trace_complete": bool(evidence_ids)
-            and all(
-                available_by_id[claim_id].get("evidence_ids")
-                for claim_id in input_ids
-            ),
+            and all(available_by_id[claim_id].get("evidence_ids") for claim_id in input_ids),
             "unresolved_input_claim_ids": unresolved,
             "requires_revalidation": bool(unresolved),
         }
@@ -899,11 +823,7 @@ def _prepare_decision_traces(
 
 
 def _finalize_decision_traces(claims: list[dict]) -> None:
-    by_id = {
-        str(item.get("claim_id")): item
-        for item in claims
-        if item.get("claim_id")
-    }
+    by_id = {str(item.get("claim_id")): item for item in claims if item.get("claim_id")}
     for decision in claims:
         if decision.get("predicate") != "qualification_gate":
             continue
@@ -918,14 +838,11 @@ def _finalize_decision_traces(claims: list[dict]) -> None:
             if str(value) in by_id and str(value) != decision.get("claim_id")
         ]
         unresolved = [
-            claim_id
-            for claim_id in input_ids
-            if by_id[claim_id].get("status") == "conflicted"
+            claim_id for claim_id in input_ids if by_id[claim_id].get("status") == "conflicted"
         ]
         trace["input_claim_ids"] = input_ids
         trace["input_claim_versions"] = {
-            claim_id: int(by_id[claim_id].get("version") or 1)
-            for claim_id in input_ids
+            claim_id: int(by_id[claim_id].get("version") or 1) for claim_id in input_ids
         }
         trace["unresolved_input_claim_ids"] = unresolved
         trace["requires_revalidation"] = bool(unresolved)
@@ -942,9 +859,7 @@ def _trace_hash(trace: dict) -> str:
         "input_claim_ids": trace.get("input_claim_ids", []),
         "input_claim_hashes": trace.get("input_claim_hashes", {}),
         "evidence_ids": trace.get("evidence_ids", []),
-        "unresolved_input_claim_ids": trace.get(
-            "unresolved_input_claim_ids", []
-        ),
+        "unresolved_input_claim_ids": trace.get("unresolved_input_claim_ids", []),
         "requires_revalidation": bool(trace.get("requires_revalidation")),
     }
     return hashlib.sha256(
@@ -983,16 +898,11 @@ def _change_payload(
     return {
         "version": 1,
         "updated_at": generated.isoformat(),
-        "since": str(
-            comparison_started_at
-            or (generated.date() - timedelta(days=1)).isoformat()
-        ),
+        "since": str(comparison_started_at or (generated.date() - timedelta(days=1)).isoformat()),
         "comparison_started_at": comparison_started_at,
         "comparison_ended_at": generated.isoformat(),
         "comparison_basis": (
-            "prior_successful_ledger_build"
-            if comparison_started_at
-            else "initial_daily_window"
+            "prior_successful_ledger_build" if comparison_started_at else "initial_daily_window"
         ),
         "baseline_initialized": baseline,
         "scope_note": (
@@ -1008,9 +918,7 @@ def _change_payload(
             "conflicts": len(active_conflicts),
             "conflicts_opened": 0 if suppress else len(conflict_opened),
             "conflicts_resolved": 0 if suppress else len(conflict_resolved),
-            "active_claims": sum(
-                item.get("status") in {"active", "conflicted"} for item in claims
-            ),
+            "active_claims": sum(item.get("status") in {"active", "conflicted"} for item in claims),
         },
         "added": [] if suppress else changes.get("added", []),
         "changed": [] if suppress else changes.get("changed", []),
@@ -1078,11 +986,7 @@ def _sources(
     controlling_status: str = "not_asserted",
 ) -> list[dict]:
     values = []
-    normalized_urls = [
-        url
-        for url in dict.fromkeys(str(value or "") for value in urls)
-        if url
-    ]
+    normalized_urls = [url for url in dict.fromkeys(str(value or "") for value in urls) if url]
     for url in normalized_urls:
         evidence_id = _evidence_id(
             url=url,
@@ -1131,9 +1035,7 @@ def _evidence_id(
     locator: str = "",
 ) -> str:
     source_locator = _canonical_source(url) or str(source_ref or "unsourced")
-    material = (
-        f"{source_locator}|{str(content_hash or '')}|{str(locator or '')}"
-    )
+    material = f"{source_locator}|{content_hash or ''!s}|{locator or ''!s}"
     return "evidence-" + hashlib.sha256(material.encode("utf-8")).hexdigest()[:16]
 
 
@@ -1177,9 +1079,7 @@ def _claim_sort_key(item: dict) -> tuple:
     return (
         item.get("status") == "conflicted",
         AUTHORITY_RANK.get(str(item.get("authority")), 0),
-        {"high": 3, "medium": 2, "low": 1}.get(
-            str(item.get("confidence")), 0
-        ),
+        {"high": 3, "medium": 2, "low": 1}.get(str(item.get("confidence")), 0),
         str(item.get("last_seen_at") or ""),
     )
 
@@ -1203,13 +1103,9 @@ def _semantic_version_hash(item: dict) -> str:
                 str(value) for value in trace.get("input_claim_ids", []) if value
             ),
             "input_claim_hashes": trace.get("input_claim_hashes", {}),
-            "evidence_ids": sorted(
-                str(value) for value in trace.get("evidence_ids", []) if value
-            ),
+            "evidence_ids": sorted(str(value) for value in trace.get("evidence_ids", []) if value),
             "unresolved_input_claim_ids": sorted(
-                str(value)
-                for value in trace.get("unresolved_input_claim_ids", [])
-                if value
+                str(value) for value in trace.get("unresolved_input_claim_ids", []) if value
             ),
             "requires_revalidation": bool(trace.get("requires_revalidation")),
         }
@@ -1219,17 +1115,13 @@ def _semantic_version_hash(item: dict) -> str:
         "authority": item.get("authority"),
         "confidence": item.get("confidence"),
         "basis": item.get("basis"),
-        "evidence_ids": sorted(
-            str(value) for value in item.get("evidence_ids", []) if value
-        ),
+        "evidence_ids": sorted(str(value) for value in item.get("evidence_ids", []) if value),
         "verification_status": item.get("verification_status"),
         "controlling_status": item.get("controlling_status"),
         "derivation_rule": (item.get("derivation") or {}).get("rule"),
         "input_claim_ids": sorted(
             str(value)
-            for value in (item.get("derivation") or {}).get(
-                "input_claim_ids", []
-            )
+            for value in (item.get("derivation") or {}).get("input_claim_ids", [])
             if value
         ),
         "decision_trace": trace_material,
@@ -1384,9 +1276,7 @@ def _render_changes(payload: dict) -> str:
         for item in values[:50]:
             subject = item.get("subject") or {}
             sources = item.get("sources") or []
-            source = (
-                f" ([evidence]({sources[0].get('url')}))" if sources else ""
-            )
+            source = f" ([evidence]({sources[0].get('url')}))" if sources else ""
             lines.append(
                 f"- **{subject.get('label') or item.get('subject_label')}** — "
                 f"{str(item.get('predicate') or '').replace('_', ' ')}: "

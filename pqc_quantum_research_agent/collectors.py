@@ -61,12 +61,22 @@ def collect_all(config: AgentConfig) -> CollectionResult:
             "iacr_eprint",
             lambda: collect_iacr(client, config.iacr_eprint, settings.max_items_per_source),
         ),
-        ("RSS feeds", "rss", lambda: collect_rss_feeds(client, config.rss_feeds, settings.max_items_per_source)),
-        ("Configured URLs", "url", lambda: collect_urls(client, config.urls, settings.max_items_per_source)),
+        (
+            "RSS feeds",
+            "rss",
+            lambda: collect_rss_feeds(client, config.rss_feeds, settings.max_items_per_source),
+        ),
+        (
+            "Configured URLs",
+            "url",
+            lambda: collect_urls(client, config.urls, settings.max_items_per_source),
+        ),
         (
             "Watchlist sources",
             "watch",
-            lambda: collect_watch_sources(client, config.watch_sources, settings.max_items_per_source),
+            lambda: collect_watch_sources(
+                client, config.watch_sources, settings.max_items_per_source
+            ),
         ),
     )
 
@@ -75,7 +85,9 @@ def collect_all(config: AgentConfig) -> CollectionResult:
             collected = collect()
         except Exception as exc:  # pragma: no cover - last-resort collector isolation
             LOGGER.warning("Collector failed for %s: %s", source_name, exc)
-            result.warnings.append(SourceWarning(source_name, source_type, f"Collector failed: {exc}"))
+            result.warnings.append(
+                SourceWarning(source_name, source_type, f"Collector failed: {exc}")
+            )
             continue
         result.items.extend(collected.items)
         result.warnings.extend(collected.warnings)
@@ -137,14 +149,18 @@ def _collect_uspto_patents(
             )
         except RuntimeError as exc:
             result.warnings.append(
-                SourceWarning(query_name, "patent", _source_failure_message(exc, "USPTO ODP"), endpoint)
+                SourceWarning(
+                    query_name, "patent", _source_failure_message(exc, "USPTO ODP"), endpoint
+                )
             )
             continue
         try:
             payload = json.loads(response_text)
         except (json.JSONDecodeError, TypeError) as exc:
             result.warnings.append(
-                SourceWarning(query_name, "patent", f"Failed to parse USPTO ODP response: {exc}", resolved_url)
+                SourceWarning(
+                    query_name, "patent", f"Failed to parse USPTO ODP response: {exc}", resolved_url
+                )
             )
             continue
 
@@ -268,7 +284,9 @@ def _collect_uspto_patents(
                             part
                             for part in (
                                 f"Applicant: {applicants}" if applicants else "",
-                                f"USPTO publication {publication_number}" if publication_number else "",
+                                f"USPTO publication {publication_number}"
+                                if publication_number
+                                else "",
                             )
                             if part
                         ),
@@ -335,7 +353,9 @@ def _party_names(value: object, *keys: str) -> str:
         name = _first_text(value, *keys)
         return name
     if isinstance(value, list):
-        return ", ".join(dict.fromkeys(name for item in value if (name := _party_names(item, *keys))))
+        return ", ".join(
+            dict.fromkeys(name for item in value if (name := _party_names(item, *keys)))
+        )
     return ""
 
 
@@ -445,8 +465,7 @@ def _collect_usaspending_awards(
             combined.warnings.extend(collected.warnings)
         return combined
     endpoint = str(
-        provider.get("endpoint")
-        or "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+        provider.get("endpoint") or "https://api.usaspending.gov/api/v2/search/spending_by_award/"
     )
     max_items = int(provider.get("max_items_per_query", max_items_per_source))
     start_date, end_date = _funding_date_range(funding_config)
@@ -525,7 +544,8 @@ def _collect_usaspending_awards(
                     source_name=query_name,
                     source_type="federal_award",
                     title=compact_summary(
-                        description or f"{award_id} awarded to {recipient or 'recipient not listed'}",
+                        description
+                        or f"{award_id} awarded to {recipient or 'recipient not listed'}",
                         180,
                     ),
                     url=award_url,
@@ -535,7 +555,9 @@ def _collect_usaspending_awards(
                             for part in (
                                 f"Recipient: {recipient}" if recipient else "",
                                 f"Federal award: {award_id}" if award_id else "",
-                                f"Obligated/award amount: ${amount:,.0f}" if amount is not None else "",
+                                f"Obligated/award amount: ${amount:,.0f}"
+                                if amount is not None
+                                else "",
                                 f"Matched search: {query['keyword']}",
                             )
                             if part
@@ -712,7 +734,9 @@ def _collect_sam_opportunities(
         )
 
     max_items = int(provider.get("max_items_per_query", max_items_per_source))
-    lookback_days = min(364, int(provider.get("lookback_days", funding_config.get("lookback_days", 365))))
+    lookback_days = min(
+        364, int(provider.get("lookback_days", funding_config.get("lookback_days", 365)))
+    )
     start_date, end_date = _funding_date_range(
         funding_config,
         sam_format=True,
@@ -927,9 +951,7 @@ def _sam_research_item(
     query_keywords = [str(query["keyword"]) for query in matched_queries]
     mission_ids = list(
         dict.fromkeys(
-            str(value)
-            for query in matched_queries
-            for value in query.get("mission_ids", [])
+            str(value) for query in matched_queries for value in query.get("mission_ids", [])
         )
     )
     return ResearchItem(
@@ -1071,7 +1093,9 @@ def collect_arxiv_rss(
         url = feed.get("url")
         if not url:
             continue
-        collected = _collect_feed(client, name, "arxiv_rss", url, int(feed.get("max_items", max_items_per_source)))
+        collected = _collect_feed(
+            client, name, "arxiv_rss", url, int(feed.get("max_items", max_items_per_source))
+        )
         result.items.extend(collected.items)
         result.warnings.extend(collected.warnings)
     LOGGER.info("Collected %d arXiv RSS candidates", len(result.items))
@@ -1134,14 +1158,18 @@ def collect_arxiv(client: HttpClient, arxiv_config: dict) -> CollectionResult:
             last_request_at = _throttle_arxiv_request(last_request_at, pause_seconds)
             xml_text, resolved_url = client.get_text(ARXIV_API_URL, params=params)
         except RuntimeError as exc:
-            result.warnings.append(SourceWarning(name, "arxiv", _source_failure_message(exc, "arXiv"), ARXIV_API_URL))
+            result.warnings.append(
+                SourceWarning(name, "arxiv", _source_failure_message(exc, "arXiv"), ARXIV_API_URL)
+            )
             continue
 
         try:
             entries = parse_feed(xml_text)
         except Exception as exc:  # pragma: no cover - parser hardening fallback
             LOGGER.warning("Failed to parse arXiv response for %s: %s", name, exc)
-            result.warnings.append(SourceWarning(name, "arxiv", f"Failed to parse arXiv response: {exc}", resolved_url))
+            result.warnings.append(
+                SourceWarning(name, "arxiv", f"Failed to parse arXiv response: {exc}", resolved_url)
+            )
             continue
 
         for entry in entries:
@@ -1156,7 +1184,10 @@ def collect_arxiv(client: HttpClient, arxiv_config: dict) -> CollectionResult:
                     published_at=entry.published_at,
                     date_source="rss_feed_timestamp:arxiv",
                     date_confidence="high" if entry.published_at else "unknown",
-                    raw_payload={"api_url": f"{ARXIV_API_URL}?{urlencode(params)}", "resolved_url": resolved_url},
+                    raw_payload={
+                        "api_url": f"{ARXIV_API_URL}?{urlencode(params)}",
+                        "resolved_url": resolved_url,
+                    },
                 )
             )
     LOGGER.info("Collected %d arXiv candidates", len(result.items))
@@ -1188,7 +1219,9 @@ def collect_rss_feeds(
         url = feed.get("url")
         if not url:
             continue
-        collected = _collect_feed(client, name, "rss", url, int(feed.get("max_items", max_items_per_source)))
+        collected = _collect_feed(
+            client, name, "rss", url, int(feed.get("max_items", max_items_per_source))
+        )
         result.items.extend(collected.items)
         result.warnings.extend(collected.warnings)
         supplemental_urls = _string_list(
@@ -1211,7 +1244,9 @@ def collect_rss_feeds(
     return result
 
 
-def collect_urls(client: HttpClient, urls: list[dict], max_items_per_source: int) -> CollectionResult:
+def collect_urls(
+    client: HttpClient, urls: list[dict], max_items_per_source: int
+) -> CollectionResult:
     result = CollectionResult()
     for source in urls:
         if not source.get("enabled", True):
@@ -1237,7 +1272,9 @@ def collect_urls(client: HttpClient, urls: list[dict], max_items_per_source: int
             )
         except Exception as exc:  # pragma: no cover - parser hardening fallback
             LOGGER.warning("Failed to parse links for %s: %s", name, exc)
-            result.warnings.append(SourceWarning(name, "url", f"Failed to parse links: {exc}", source_url))
+            result.warnings.append(
+                SourceWarning(name, "url", f"Failed to parse links: {exc}", source_url)
+            )
             continue
         source_count = 0
         for link in links:
@@ -1261,17 +1298,25 @@ def collect_urls(client: HttpClient, urls: list[dict], max_items_per_source: int
                     source_type="url",
                     title=title,
                     url=article_url,
-                    summary=compact_summary(article_metadata.description if article_metadata else "", 500),
+                    summary=compact_summary(
+                        article_metadata.description if article_metadata else "", 500
+                    ),
                     published_at=article_metadata.published_at if article_metadata else None,
                     date_source=article_metadata.date_source if article_metadata else "",
-                    date_confidence=article_metadata.date_confidence if article_metadata else "unknown",
+                    date_confidence=article_metadata.date_confidence
+                    if article_metadata
+                    else "unknown",
                     raw_payload={
                         "source_url": source_url,
                         "resolved_url": resolved_url,
                         "page_title": page_title,
                         "page_description": meta_description,
-                        "metadata_date_source": article_metadata.date_source if article_metadata else "",
-                        "metadata_date_text": article_metadata.date_text if article_metadata else "",
+                        "metadata_date_source": article_metadata.date_source
+                        if article_metadata
+                        else "",
+                        "metadata_date_text": article_metadata.date_text
+                        if article_metadata
+                        else "",
                         "metadata_error": metadata_error,
                     },
                 )
@@ -1283,7 +1328,9 @@ def collect_urls(client: HttpClient, urls: list[dict], max_items_per_source: int
     return result
 
 
-def collect_watch_sources(client: HttpClient, sources: list[dict], max_items_per_source: int) -> CollectionResult:
+def collect_watch_sources(
+    client: HttpClient, sources: list[dict], max_items_per_source: int
+) -> CollectionResult:
     """Collect a first-party source with RSS -> sitemap -> HTML fallback discovery."""
     result = CollectionResult()
     for source in sources:
@@ -1296,7 +1343,9 @@ def collect_watch_sources(client: HttpClient, sources: list[dict], max_items_per
     return result
 
 
-def _collect_watch_source(client: HttpClient, source: dict, default_max_items: int) -> CollectionResult:
+def _collect_watch_source(
+    client: HttpClient, source: dict, default_max_items: int
+) -> CollectionResult:
     name = str(source.get("name") or source.get("url") or "Watchlist source")
     max_items = int(source.get("max_items", default_max_items))
     attempts: list[str] = []
@@ -1334,7 +1383,9 @@ def _collect_watch_source(client: HttpClient, source: dict, default_max_items: i
 
     detail = "; ".join(dict.fromkeys(attempts)) or "no discovery method was configured"
     return CollectionResult(
-        warnings=[SourceWarning(name, "watch", f"All discovery methods failed: {detail}", primary_url)]
+        warnings=[
+            SourceWarning(name, "watch", f"All discovery methods failed: {detail}", primary_url)
+        ]
     )
 
 
@@ -1350,7 +1401,9 @@ def _collect_watch_sitemap(
         xml_text, resolved_url = client.get_text(sitemap_url)
         root = ET.fromstring(xml_text.encode("utf-8"))
     except (RuntimeError, ET.ParseError) as exc:
-        result.warnings.append(SourceWarning(source_name, "watch", f"Sitemap failed: {exc}", sitemap_url))
+        result.warnings.append(
+            SourceWarning(source_name, "watch", f"Sitemap failed: {exc}", sitemap_url)
+        )
         return result
 
     page_entries = _sitemap_page_entries(root)
@@ -1359,7 +1412,9 @@ def _collect_watch_sitemap(
         page_entries = []
         child_patterns = _string_list(source.get("sitemap_include_patterns"))
         if child_patterns:
-            child_entries = [entry for entry in child_entries if _matches_any(entry[0], child_patterns)]
+            child_entries = [
+                entry for entry in child_entries if _matches_any(entry[0], child_patterns)
+            ]
         for child_url, _ in child_entries[: int(source.get("max_sitemaps", 6))]:
             try:
                 child_text, _ = client.get_text(child_url)
@@ -1384,7 +1439,9 @@ def _collect_watch_sitemap(
         if not title:
             continue
         use_sitemap_lastmod = bool(source.get("use_sitemap_lastmod_as_published", False))
-        published_at = metadata.published_at or (parse_datetime(last_modified) if use_sitemap_lastmod else None)
+        published_at = metadata.published_at or (
+            parse_datetime(last_modified) if use_sitemap_lastmod else None
+        )
         used_sitemap_lastmod = metadata.published_at is None and published_at is not None
         result.items.append(
             ResearchItem(
@@ -1394,14 +1451,25 @@ def _collect_watch_sitemap(
                 url=article_url,
                 summary=compact_summary(metadata.description, 500),
                 published_at=published_at,
-                date_source=metadata.date_source or ("sitemap:lastmod" if used_sitemap_lastmod else ""),
-                date_confidence=metadata.date_confidence if metadata.published_at else ("medium" if used_sitemap_lastmod else "unknown"),
-                raw_payload={"source_url": sitemap_url, "resolved_url": resolved_url, "sitemap_lastmod": last_modified},
+                date_source=metadata.date_source
+                or ("sitemap:lastmod" if used_sitemap_lastmod else ""),
+                date_confidence=metadata.date_confidence
+                if metadata.published_at
+                else ("medium" if used_sitemap_lastmod else "unknown"),
+                raw_payload={
+                    "source_url": sitemap_url,
+                    "resolved_url": resolved_url,
+                    "sitemap_lastmod": last_modified,
+                },
             )
         )
     result.items = _filter_watch_items(result.items, source)
     if not result.items:
-        result.warnings.append(SourceWarning(source_name, "watch", "Sitemap returned no matching entries.", sitemap_url))
+        result.warnings.append(
+            SourceWarning(
+                source_name, "watch", "Sitemap returned no matching entries.", sitemap_url
+            )
+        )
     return result
 
 
@@ -1419,7 +1487,9 @@ def _collect_watch_page(
             html_text, resolved_url, same_domain_only=bool(source.get("same_domain_only", True))
         )
     except Exception as exc:
-        result.warnings.append(SourceWarning(source_name, "watch", f"HTML discovery failed: {exc}", source_url))
+        result.warnings.append(
+            SourceWarning(source_name, "watch", f"HTML discovery failed: {exc}", source_url)
+        )
         return result
 
     if source.get("include_source_page"):
@@ -1446,7 +1516,11 @@ def _collect_watch_page(
         if len(result.items) >= max_items:
             break
         title = strip_html(link.title)
-        if link.url == resolved_url or len(title) < min_title_chars or not _watch_candidate(link.url, title, source):
+        if (
+            link.url == resolved_url
+            or len(title) < min_title_chars
+            or not _watch_candidate(link.url, title, source)
+        ):
             continue
         metadata = None
         article_url = link.url
@@ -1471,15 +1545,33 @@ def _collect_watch_page(
         )
     result.items = _filter_watch_items(result.items, source)
     if not result.items:
-        result.warnings.append(SourceWarning(source_name, "watch", "HTML page returned no matching entries.", source_url))
+        result.warnings.append(
+            SourceWarning(
+                source_name, "watch", "HTML page returned no matching entries.", source_url
+            )
+        )
     return result
 
 
 def _sitemap_page_entries(root: ET.Element) -> list[tuple[str, str]]:
     entries: list[tuple[str, str]] = []
     for node in list(root):
-        loc = next((child.text.strip() for child in list(node) if _xml_local_name(child.tag) == "loc" and child.text), "")
-        lastmod = next((child.text.strip() for child in list(node) if _xml_local_name(child.tag) == "lastmod" and child.text), "")
+        loc = next(
+            (
+                child.text.strip()
+                for child in list(node)
+                if _xml_local_name(child.tag) == "loc" and child.text
+            ),
+            "",
+        )
+        lastmod = next(
+            (
+                child.text.strip()
+                for child in list(node)
+                if _xml_local_name(child.tag) == "lastmod" and child.text
+            ),
+            "",
+        )
         if loc:
             entries.append((loc, lastmod))
     return entries
@@ -1519,7 +1611,9 @@ def _filter_watch_items(items: list[ResearchItem], source: dict) -> list[Researc
     patterns = _string_list(source.get("match_patterns"))
     if not patterns:
         return items
-    return [item for item in items if _matches_any(f"{item.title} {item.summary} {item.url}", patterns)]
+    return [
+        item for item in items if _matches_any(f"{item.title} {item.summary} {item.url}", patterns)
+    ]
 
 
 def _tag_watch_items(items: list[ResearchItem], source: dict, method: str) -> None:
@@ -1562,10 +1656,14 @@ def _collect_feed(
         entries = parse_feed(xml_text)
     except Exception as exc:  # pragma: no cover - parser hardening fallback
         LOGGER.warning("Failed to parse feed for %s: %s", source_name, exc)
-        result.warnings.append(SourceWarning(source_name, source_type, f"Failed to parse feed: {exc}", feed_url))
+        result.warnings.append(
+            SourceWarning(source_name, source_type, f"Failed to parse feed: {exc}", feed_url)
+        )
         return result
     if not entries:
-        result.warnings.append(SourceWarning(source_name, source_type, "Feed returned no parseable entries.", feed_url))
+        result.warnings.append(
+            SourceWarning(source_name, source_type, "Feed returned no parseable entries.", feed_url)
+        )
         return result
 
     for entry in entries[:max_items]:
@@ -1580,7 +1678,11 @@ def _collect_feed(
                 published_at=entry.published_at,
                 date_source=f"rss_feed_timestamp:{source_type}",
                 date_confidence="high" if entry.published_at else "unknown",
-                raw_payload={"feed_url": feed_url, "resolved_url": resolved_url, **(entry.raw or {})},
+                raw_payload={
+                    "feed_url": feed_url,
+                    "resolved_url": resolved_url,
+                    **(entry.raw or {}),
+                },
             )
         )
     return result

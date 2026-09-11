@@ -119,7 +119,12 @@ def _render(payload: dict) -> str:
     ]
     ordered = sorted(
         payload.get("milestones", []),
-        key=lambda item: ({"overdue": 0, "due_soon": 1, "upcoming": 2, "estimated": 3, "completed": 4}.get(item["timing"], 9), item["target_date"]),
+        key=lambda item: (
+            {"overdue": 0, "due_soon": 1, "upcoming": 2, "estimated": 3, "completed": 4}.get(
+                item["timing"], 9
+            ),
+            item["target_date"],
+        ),
     )
     for item in ordered:
         timing = _timing_label(item)
@@ -131,7 +136,8 @@ def _render(payload: dict) -> str:
     lines.extend(
         [
             "",
-            "Year-only dates are planning estimates or phase endpoints and are labeled separately from exact deadlines.",
+            "Year-only dates are planning estimates or phase endpoints and are labeled "
+            "separately from exact deadlines.",
         ]
     )
     return "\n".join(lines) + "\n"

@@ -29,7 +29,10 @@ class CollectionHealthCheckTests(unittest.TestCase):
                 encoding="utf-8",
             )
 
-            with patch("sys.argv", ["check", str(path), "--fail-on-degraded"]), redirect_stdout(StringIO()):
+            with (
+                patch("sys.argv", ["check", str(path), "--fail-on-degraded"]),
+                redirect_stdout(StringIO()),
+            ):
                 result = main()
 
             self.assertEqual(result, 1)
@@ -51,7 +54,10 @@ class CollectionHealthCheckTests(unittest.TestCase):
                 encoding="utf-8",
             )
 
-            with patch("sys.argv", ["check", str(path), "--fail-on-degraded"]), redirect_stdout(StringIO()):
+            with (
+                patch("sys.argv", ["check", str(path), "--fail-on-degraded"]),
+                redirect_stdout(StringIO()),
+            ):
                 result = main()
 
             self.assertEqual(result, 0)
@@ -74,7 +80,10 @@ class CollectionHealthCheckTests(unittest.TestCase):
                 encoding="utf-8",
             )
 
-            with patch("sys.argv", ["check", str(path), "--fail-on-degraded"]), redirect_stdout(StringIO()):
+            with (
+                patch("sys.argv", ["check", str(path), "--fail-on-degraded"]),
+                redirect_stdout(StringIO()),
+            ):
                 result = main()
 
             self.assertEqual(result, 0)

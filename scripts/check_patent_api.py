@@ -10,9 +10,9 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from pqc_quantum_research_agent.collectors import collect_patents
-from pqc_quantum_research_agent.config import load_config
-from pqc_quantum_research_agent.http import HttpClient
+from pqc_quantum_research_agent.collectors import collect_patents  # noqa: E402
+from pqc_quantum_research_agent.config import load_config  # noqa: E402
+from pqc_quantum_research_agent.http import HttpClient  # noqa: E402
 
 
 def main() -> int:
@@ -45,7 +45,8 @@ def main() -> int:
         for warning in result.warnings:
             print(f"{warning.source_name}: {warning.message}", file=sys.stderr)
         print(
-            f"Patent API smoke test failed: {len(result.warnings)} of {len(queries)} queries returned warnings.",
+            f"Patent API smoke test failed: {len(result.warnings)} of {len(queries)} queries "
+            f"returned warnings.",
             file=sys.stderr,
         )
         return 1

@@ -18,8 +18,21 @@ class AlertDeliveryTests(unittest.TestCase):
                     {
                         "updated_at": "2026-07-21T00:00:00+00:00",
                         "alerts": [
-                            {"title": "New alert", "is_new": True, "severity": "high", "summary": "New", "link": "signals.md", "evidence_url": "https://example.com/evidence"},
-                            {"title": "Old alert", "is_new": False, "severity": "medium", "summary": "Old", "link": "signals.md"},
+                            {
+                                "title": "New alert",
+                                "is_new": True,
+                                "severity": "high",
+                                "summary": "New",
+                                "link": "signals.md",
+                                "evidence_url": "https://example.com/evidence",
+                            },
+                            {
+                                "title": "Old alert",
+                                "is_new": False,
+                                "severity": "medium",
+                                "summary": "Old",
+                                "link": "signals.md",
+                            },
                         ],
                     }
                 ),
@@ -27,7 +40,9 @@ class AlertDeliveryTests(unittest.TestCase):
             )
             body = root / "issue.md"
 
-            should_create, title = prepare_alert_issue(alerts, body, repo_url="https://github.com/example/repo")
+            should_create, title = prepare_alert_issue(
+                alerts, body, repo_url="https://github.com/example/repo"
+            )
 
             self.assertTrue(should_create)
             self.assertIn("1 new", title)

@@ -6,14 +6,11 @@ from pqc_quantum_research_agent.strategic_forecasts import (
     build_forecast_registry,
 )
 
-
 NOW = datetime(2026, 7, 31, 14, tzinfo=timezone.utc)
 
 
 def test_opens_evidence_backed_opportunity_and_milestone_forecasts() -> None:
-    payload = build_forecast_registry(
-        _missions(), _funding(), {}, generated_at=NOW
-    )
+    payload = build_forecast_registry(_missions(), _funding(), {}, generated_at=NOW)
 
     assert payload["summary"]["active"] == 2
     by_type = {item["forecast_type"]: item for item in payload["active_forecasts"]}
@@ -31,9 +28,7 @@ def test_opens_evidence_backed_opportunity_and_milestone_forecasts() -> None:
 
 
 def test_forecast_identity_horizon_and_initial_probability_are_stable() -> None:
-    first = build_forecast_registry(
-        _missions(), _funding(), {}, generated_at=NOW
-    )
+    first = build_forecast_registry(_missions(), _funding(), {}, generated_at=NOW)
     second = build_forecast_registry(
         _missions(),
         _funding(),
@@ -49,13 +44,14 @@ def test_forecast_identity_horizon_and_initial_probability_are_stable() -> None:
     for forecast_id in common:
         assert second_by_id[forecast_id]["created_at"] == first_by_id[forecast_id]["created_at"]
         assert second_by_id[forecast_id]["horizon_end"] == first_by_id[forecast_id]["horizon_end"]
-        assert second_by_id[forecast_id]["initial_probability"] == first_by_id[forecast_id]["initial_probability"]
+        assert (
+            second_by_id[forecast_id]["initial_probability"]
+            == first_by_id[forecast_id]["initial_probability"]
+        )
 
 
 def test_new_linked_opportunity_resolves_true_and_updates_calibration() -> None:
-    first = build_forecast_registry(
-        _missions(), _funding(), {}, generated_at=NOW
-    )
+    first = build_forecast_registry(_missions(), _funding(), {}, generated_at=NOW)
     funding = _funding()
     funding["records"].append(
         {
@@ -118,9 +114,7 @@ def test_past_horizon_resolves_false_and_scores_probability() -> None:
 
 
 def test_forecast_is_withdrawn_without_scoring_when_linkage_is_corrected() -> None:
-    first = build_forecast_registry(
-        _missions(), _funding(), {}, generated_at=NOW
-    )
+    first = build_forecast_registry(_missions(), _funding(), {}, generated_at=NOW)
     corrected_funding = {"records": [], "mission_portfolios": []}
 
     second = build_forecast_registry(

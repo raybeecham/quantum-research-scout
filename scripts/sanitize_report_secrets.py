@@ -8,8 +8,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from pqc_quantum_research_agent.redaction import redact_text
-
+from pqc_quantum_research_agent.redaction import redact_text  # noqa: E402
 
 TEXT_SUFFIXES = {".csv", ".html", ".json", ".md", ".txt", ".yaml", ".yml"}
 

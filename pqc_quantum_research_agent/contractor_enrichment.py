@@ -10,7 +10,6 @@ from .contractor_identity import normalize_contractor_name
 from .http import HttpClient
 from .text import compact_summary
 
-
 FORBIDDEN_QUERY_CHARACTERS = re.compile(r"[&|{}^\\]")
 
 
@@ -49,10 +48,7 @@ def write_contractor_enrichment(
     enabled = bool(config.get("enabled", True))
     budget = [int(config.get("max_entities_per_run", 12))]
     cache_days = int(config.get("cache_days", 30))
-    endpoint = str(
-        config.get("endpoint")
-        or "https://api.sam.gov/entity-information/v4/entities"
-    )
+    endpoint = str(config.get("endpoint") or "https://api.sam.gov/entity-information/v4/entities")
     enriched: list[dict] = []
     newly_resolved = 0
 
@@ -105,9 +101,10 @@ def write_contractor_enrichment(
                 "cache_status": "refreshed",
                 **resolution,
             }
-            if record.get("resolution_status") == "resolved" and cached.get(
-                "resolution_status"
-            ) != "resolved":
+            if (
+                record.get("resolution_status") == "resolved"
+                and cached.get("resolution_status") != "resolved"
+            ):
                 newly_resolved += 1
             enriched.append(record)
         except (RuntimeError, json.JSONDecodeError, TypeError, ValueError) as exc:
@@ -143,17 +140,11 @@ def write_contractor_enrichment(
             item.get("resolution_status") in {"pending", "no_match", "ambiguous", "error"}
             for item in enriched
         ),
-        "pending": sum(
-            item.get("resolution_status") == "pending" for item in enriched
-        ),
-        "ambiguous": sum(
-            item.get("resolution_status") == "ambiguous" for item in enriched
-        ),
+        "pending": sum(item.get("resolution_status") == "pending" for item in enriched),
+        "ambiguous": sum(item.get("resolution_status") == "ambiguous" for item in enriched),
         "no_match": sum(item.get("resolution_status") == "no_match" for item in enriched),
         "newly_resolved": newly_resolved,
-        "uei_coverage_percent": round(
-            100 * len(resolved) / len(contractors), 1
-        )
+        "uei_coverage_percent": round(100 * len(resolved) / len(contractors), 1)
         if contractors
         else 0.0,
         "api_key_configured": bool(api_key),
@@ -182,11 +173,7 @@ def write_contractor_enrichment(
 
 
 def _resolve_entity_match(contractor: dict, response: dict) -> dict:
-    candidates = [
-        value
-        for value in response.get("entityData", [])
-        if isinstance(value, dict)
-    ]
+    candidates = [value for value in response.get("entityData", []) if isinstance(value, dict)]
     expected_uei = re.sub(r"[^A-Z0-9]", "", str(contractor.get("uei") or "").upper())
     if expected_uei:
         matches = [
@@ -223,9 +210,7 @@ def _resolve_entity_match(contractor: dict, response: dict) -> dict:
         }
     candidate_summaries = [
         {
-            "legal_business_name": (value.get("entityRegistration") or {}).get(
-                "legalBusinessName"
-            ),
+            "legal_business_name": (value.get("entityRegistration") or {}).get("legalBusinessName"),
             "uei": (value.get("entityRegistration") or {}).get("ueiSAM"),
             "cage_code": (value.get("entityRegistration") or {}).get("cageCode"),
         }
@@ -260,9 +245,7 @@ def _public_entity_record(entity: dict) -> dict:
         "legal_business_name": registration.get("legalBusinessName"),
         "dba_name": registration.get("dbaName"),
         "registration_status": registration.get("registrationStatus"),
-        "registration_expiration_date": registration.get(
-            "registrationExpirationDate"
-        ),
+        "registration_expiration_date": registration.get("registrationExpirationDate"),
         "purpose_of_registration": registration.get("purposeOfRegistrationDesc"),
         "exclusion_status": registration.get("exclusionStatusFlag"),
         "entity_structure": _find_value(core, "entityStructureDesc"),
@@ -425,9 +408,10 @@ def _render_markdown(payload: dict) -> str:
         if item.get("resolution_status") == "resolved":
             name = item.get("legal_business_name") or item.get("contractor_name")
             name_text = f"[{name}]({item.get('source_url')})"
-            business_types = ", ".join(
-                (item.get("sba_business_types") or item.get("business_types") or [])[:3]
-            ) or "Not listed"
+            business_types = (
+                ", ".join((item.get("sba_business_types") or item.get("business_types") or [])[:3])
+                or "Not listed"
+            )
         else:
             name_text = str(item.get("contractor_name") or "Unknown")
             business_types = item.get("resolution_basis") or "Pending"

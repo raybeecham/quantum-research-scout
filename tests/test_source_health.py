@@ -8,7 +8,10 @@ from pathlib import Path
 
 from pqc_quantum_research_agent.config import load_config
 from pqc_quantum_research_agent.models import CollectionResult, ResearchItem, SourceWarning
-from pqc_quantum_research_agent.source_health import write_source_health_report, write_source_observations
+from pqc_quantum_research_agent.source_health import (
+    write_source_health_report,
+    write_source_observations,
+)
 
 
 class SourceHealthTests(unittest.TestCase):
@@ -39,13 +42,20 @@ class SourceHealthTests(unittest.TestCase):
             )
             content = output.read_text(encoding="utf-8")
 
-            self.assertIn("| Broken Feed | rss | 50% | 1 | 0 | — | — | unverified | 🔴 failing |", content)
-            self.assertIn("| Healthy Feed | rss | 100% | 0 | 0 | — | — | unverified | 🟢 healthy |", content)
+            self.assertIn(
+                "| Broken Feed | rss | 50% | 1 | 0 | — | — | unverified | 🔴 failing |", content
+            )
+            self.assertIn(
+                "| Healthy Feed | rss | 100% | 0 | 0 | — | — | unverified | 🟢 healthy |", content
+            )
             self.assertIn("> **Collection Operations**", content)
             self.assertIn("- Disabled Feed [rss]", content)
             data = json.loads((root / "reports" / "source-health.json").read_text(encoding="utf-8"))
             self.assertEqual(data["report_days"], 2)
-            self.assertEqual(next(item for item in data["sources"] if item["name"] == "Broken Feed")["status"], "failing")
+            self.assertEqual(
+                next(item for item in data["sources"] if item["name"] == "Broken Feed")["status"],
+                "failing",
+            )
             self.assertEqual(data["operational_summary"]["status"], "watch")
 
     def test_observations_record_checks_items_and_failures(self) -> None:
@@ -74,12 +84,20 @@ class SourceHealthTests(unittest.TestCase):
                 warnings=[SourceWarning("Broken Feed", "rss", "Feed unavailable")],
             )
 
-            write_source_observations(reports, load_config(config_path), collection, generated_at=generated)
+            write_source_observations(
+                reports, load_config(config_path), collection, generated_at=generated
+            )
             write_source_health_report(reports, config_path, generated_at=generated)
-            observations = json.loads((reports / "source-observations.json").read_text(encoding="utf-8"))
+            observations = json.loads(
+                (reports / "source-observations.json").read_text(encoding="utf-8")
+            )
             health = json.loads((reports / "source-health.json").read_text(encoding="utf-8"))
-            fresh_observation = next(item for item in observations["sources"] if item["name"] == "Fresh Feed")
-            broken_observation = next(item for item in observations["sources"] if item["name"] == "Broken Feed")
+            fresh_observation = next(
+                item for item in observations["sources"] if item["name"] == "Fresh Feed"
+            )
+            broken_observation = next(
+                item for item in observations["sources"] if item["name"] == "Broken Feed"
+            )
             fresh_health = next(item for item in health["sources"] if item["name"] == "Fresh Feed")
 
             self.assertEqual(fresh_observation["last_outcome"], "success")
@@ -195,9 +213,7 @@ class SourceHealthTests(unittest.TestCase):
             reports = root / "reports"
             config_path = root / "sources.yaml"
             config_path.write_text(
-                "arxiv_rss:\n"
-                "  - name: arXiv RSS cs.CR\n"
-                "    url: https://rss.arxiv.org/rss/cs.CR\n",
+                "arxiv_rss:\n  - name: arXiv RSS cs.CR\n    url: https://rss.arxiv.org/rss/cs.CR\n",
                 encoding="utf-8",
             )
             # 02:00 UTC Monday is still Sunday evening in America/Chicago.
@@ -223,8 +239,6 @@ class SourceHealthTests(unittest.TestCase):
             )
 
             arxiv = next(
-                item
-                for item in observations["sources"]
-                if item["name"] == "arXiv RSS cs.CR"
+                item for item in observations["sources"] if item["name"] == "arXiv RSS cs.CR"
             )
             self.assertEqual(arxiv["last_outcome"], "expected-idle")

@@ -4,8 +4,9 @@ import unittest
 
 from pqc_quantum_research_agent.collectors import collect_rss_feeds, collect_watch_sources
 
-
-EMPTY_RSS = """<?xml version="1.0"?><rss version="2.0"><channel><title>Empty</title></channel></rss>"""
+EMPTY_RSS = (
+    """<?xml version="1.0"?><rss version="2.0"><channel><title>Empty</title></channel></rss>"""
+)
 SITEMAP = """<?xml version="1.0"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://example.com/news/quantum-contract</loc><lastmod>2026-07-20</lastmod></url>
@@ -80,7 +81,9 @@ class WatchSourceTests(unittest.TestCase):
         self.assertIn("White House quantum strategy", [item.title for item in result.items])
         self.assertIn("https://example.com/post-sitemap8.xml", client.calls)
         self.assertNotIn("https://example.com/post-sitemap.xml", client.calls)
-        supplemental = next(item for item in result.items if item.title == "White House quantum strategy")
+        supplemental = next(
+            item for item in result.items if item.title == "White House quantum strategy"
+        )
         self.assertEqual(supplemental.raw_payload["discovery_method"], "supplemental_sitemap")
 
     def test_watch_source_falls_back_from_empty_rss_to_sitemap(self) -> None:
@@ -152,7 +155,13 @@ class WatchSourceTests(unittest.TestCase):
     def test_watch_source_emits_one_warning_after_all_fallbacks_fail(self) -> None:
         result = collect_watch_sources(
             MappingClient(fail=True),  # type: ignore[arg-type]
-            [{"name": "Broken", "rss_url": "https://example.com/feed", "url": "https://example.com/news"}],
+            [
+                {
+                    "name": "Broken",
+                    "rss_url": "https://example.com/feed",
+                    "url": "https://example.com/news",
+                }
+            ],
             10,
         )
 
@@ -187,7 +196,13 @@ class WatchSourceTests(unittest.TestCase):
                     "https://example.com/news/quantum-contract": ARTICLE,
                 }
             ),  # type: ignore[arg-type]
-            [{"name": "Company News", "url": "https://example.com/news", "include_patterns": ["quantum"]}],
+            [
+                {
+                    "name": "Company News",
+                    "url": "https://example.com/news",
+                    "include_patterns": ["quantum"],
+                }
+            ],
             10,
         )
 

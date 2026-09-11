@@ -41,14 +41,18 @@ def write_historical_evidence(
         for item in previous.get("items", [])
         if item.get("key")
         and str(item.get("source", "")).casefold() not in replace_sources
-        and _record_in_window(item, cutoff=cutoff, generated=generated, include_undated=include_undated)
+        and _record_in_window(
+            item, cutoff=cutoff, generated=generated, include_undated=include_undated
+        )
     }
     excluded_old = 0
     excluded_undated = 0
     excluded_irrelevant = 0
     accepted: dict[str, dict] = {}
     for item in items:
-        if item.score < min_score or not is_report_relevant(item, min_topic_confidence=min_topic_confidence):
+        if item.score < min_score or not is_report_relevant(
+            item, min_topic_confidence=min_topic_confidence
+        ):
             excluded_irrelevant += 1
             continue
         published = ensure_utc(item.published_at) if item.published_at else None
@@ -70,7 +74,12 @@ def write_historical_evidence(
         reverse=True,
     )
     warning_records = [
-        {"source": warning.source_name, "type": warning.source_type, "message": warning.message, "url": warning.url}
+        {
+            "source": warning.source_name,
+            "type": warning.source_type,
+            "message": warning.message,
+            "url": warning.url,
+        }
         for warning in (warnings or [])
     ]
     payload = {
@@ -117,8 +126,10 @@ def theme_for_category(category: str, title: str = "", summary: str = "") -> str
         return "Quantum Software / Tooling"
     if "ai security" in folded_category:
         return "AI Security"
-    if "standard" in folded_category or "policy" in folded_category or any(
-        term in text for term in ("nist", "cisa", "federal", "cnsa")
+    if (
+        "standard" in folded_category
+        or "policy" in folded_category
+        or any(term in text for term in ("nist", "cisa", "federal", "cnsa"))
     ):
         return "Standards / Government"
     return "Vendor / Industry"
@@ -152,7 +163,12 @@ def _date_kind(source: str) -> str:
     folded = source.casefold()
     if "modified" in folded or "updated" in folded or "sitemap" in folded:
         return "modified"
-    if "published" in folded or "pubdate" in folded or "time.datetime" in folded or "rss_feed_timestamp" in folded:
+    if (
+        "published" in folded
+        or "pubdate" in folded
+        or "time.datetime" in folded
+        or "rss_feed_timestamp" in folded
+    ):
         return "published"
     if "url" in folded or "heuristic" in folded:
         return "inferred"
@@ -169,7 +185,9 @@ def _read_json(path: Path) -> dict:
     return data if isinstance(data, dict) else {}
 
 
-def _record_in_window(item: dict, *, cutoff: datetime, generated: datetime, include_undated: bool) -> bool:
+def _record_in_window(
+    item: dict, *, cutoff: datetime, generated: datetime, include_undated: bool
+) -> bool:
     value = item.get("published_at")
     if not value:
         return include_undated
@@ -193,8 +211,10 @@ def _render(payload: dict) -> str:
         f"This bounded ledger retains up to **{payload['lookback_days']} days** of official-source history. "
         "Backfilled records enrich profiles but never create retroactive alerts.",
         "",
-        f"- Evidence: **{payload['item_count']}** ({payload['dated_count']} dated; {payload['undated_count']} undated)",
-        f"- Last run: **{payload['run_summary']['accepted']} accepted** from {payload['run_summary']['collected']} collected",
+        f"- Evidence: **{payload['item_count']}** ({payload['dated_count']} dated; "
+        f"{payload['undated_count']} undated)",
+        f"- Last run: **{payload['run_summary']['accepted']} accepted** from "
+        f"{payload['run_summary']['collected']} collected",
         f"- Source warnings: **{payload['run_summary']['warnings']}**",
         "",
         "| Date | Date basis | Confidence | Source | Evidence | Score |",

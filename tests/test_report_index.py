@@ -26,7 +26,10 @@ class ReportIndexTests(unittest.TestCase):
             for path in (daily, weekly, monthly):
                 path.parent.mkdir(parents=True, exist_ok=True)
             daily.write_text("# Daily\n", encoding="utf-8")
-            weekly.write_text("# Weekly\n\n## Strategic Themes\n\n- PQC migration accelerated.\n\n## Next\n", encoding="utf-8")
+            weekly.write_text(
+                "# Weekly\n\n## Strategic Themes\n\n- PQC migration accelerated.\n\n## Next\n",
+                encoding="utf-8",
+            )
             monthly.write_text("# Monthly\n", encoding="utf-8")
             signals.write_text("# Signals\n", encoding="utf-8")
             missions.write_text("# Missions\n", encoding="utf-8")

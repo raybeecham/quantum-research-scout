@@ -14,7 +14,6 @@ from pqc_quantum_research_agent.scoring_calibration import (
     write_scoring_calibration,
 )
 
-
 NOW = datetime(2026, 7, 30, 18, 0, tzinfo=timezone.utc)
 
 
@@ -49,9 +48,7 @@ def _decision(
         "reason_codes": ["capability_gap"] if stage == "no-bid" else ["mission_fit"],
         "confidence": "high",
         "supersedes_event_id": supersedes,
-        "snapshot": _snapshot(
-            *features, captured_at=occurred_at - timedelta(minutes=1)
-        ),
+        "snapshot": _snapshot(*features, captured_at=occurred_at - timedelta(minutes=1)),
     }
 
 
@@ -101,16 +98,11 @@ class ScoringCalibrationTests(unittest.TestCase):
         self.assertTrue(result["explanations"])
         self.assertIn("historical opportunities", result["explanations"][0]["basis"])
 
-        hard_stop = apply_calibration(
-            80, ["domain:quantum", "agency:doe"], model, hard_stop=True
-        )
+        hard_stop = apply_calibration(80, ["domain:quantum", "agency:doe"], model, hard_stop=True)
         self.assertLessEqual(hard_stop["recommendation_score"], 25)
 
     def test_minimum_classes_and_rare_factors_do_not_adjust(self) -> None:
-        events = [
-            _decision(index, "bid", "domain:quantum", f"rare:{index}")
-            for index in range(20)
-        ]
+        events = [_decision(index, "bid", "domain:quantum", f"rare:{index}") for index in range(20)]
         model = build_calibration_model(
             events, {"calibration": {"mode": "active"}}, generated_at=NOW
         )
@@ -161,10 +153,7 @@ class ScoringCalibrationTests(unittest.TestCase):
             tampered, {"calibration": {"mode": "active"}}, generated_at=NOW
         )
         self.assertTrue(
-            any(
-                item["reason"] == "outcome_snapshot_mismatch"
-                for item in rejected["excluded"]
-            )
+            any(item["reason"] == "outcome_snapshot_mismatch" for item in rejected["excluded"])
         )
 
     def test_model_version_is_deterministic_and_ignores_input_order(self) -> None:
@@ -202,9 +191,7 @@ class ScoringCalibrationTests(unittest.TestCase):
     def test_future_and_superseded_events_are_not_active(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             path = Path(temp_dir) / "feedback.jsonl"
-            original = _decision(
-                1, "no-bid", "domain:quantum", occurred_at=NOW - timedelta(days=2)
-            )
+            original = _decision(1, "no-bid", "domain:quantum", occurred_at=NOW - timedelta(days=2))
             correction = _decision(
                 2,
                 "bid",
@@ -213,12 +200,9 @@ class ScoringCalibrationTests(unittest.TestCase):
                 supersedes=original["event_id"],
             )
             correction["opportunity_key"] = original["opportunity_key"]
-            future = _decision(
-                3, "bid", "domain:quantum", occurred_at=NOW + timedelta(days=1)
-            )
+            future = _decision(3, "bid", "domain:quantum", occurred_at=NOW + timedelta(days=1))
             path.write_text(
-                "\n".join(json.dumps(item) for item in [original, correction, future])
-                + "\n",
+                "\n".join(json.dumps(item) for item in [original, correction, future]) + "\n",
                 encoding="utf-8",
             )
 
@@ -228,9 +212,7 @@ class ScoringCalibrationTests(unittest.TestCase):
             [item["event_id"] for item in ledger["events"]],
             [correction["event_id"]],
         )
-        self.assertTrue(
-            any(item["reason"] == "future_event" for item in ledger["excluded"])
-        )
+        self.assertTrue(any(item["reason"] == "future_event" for item in ledger["excluded"]))
 
     def test_writer_creates_only_local_reports(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:

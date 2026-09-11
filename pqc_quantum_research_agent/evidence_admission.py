@@ -5,7 +5,6 @@ from urllib.parse import urlsplit
 
 from .models import ResearchItem
 
-
 REASON_LABELS = {
     "official_source": "Official government source",
     "configured_identifier": "Configured identifier",
@@ -51,7 +50,8 @@ def mission_item_admission(item: ResearchItem, mission: dict) -> dict:
             "quarantined",
             25 if official else 10,
             [*reason_codes, "query_metadata_only", "no_contextual_match"],
-            "The collector query names the mission, but the evidence title, summary, and URL do not.",
+            "The collector query names the mission, but the evidence title, summary, and URL "
+            "do not.",
             matched_alias=metadata_match,
         )
     return _decision(
@@ -65,9 +65,7 @@ def mission_item_admission(item: ResearchItem, mission: dict) -> dict:
 def mission_update_admission(update: dict, mission: dict) -> dict:
     """Re-evaluate previously observed mission evidence under the current gate."""
     aliases = _mission_aliases(mission)
-    evidence_text = _evidence_text(
-        update.get("title"), update.get("summary"), update.get("url")
-    )
+    evidence_text = _evidence_text(update.get("title"), update.get("summary"), update.get("url"))
     matched_alias = _matched_alias(aliases, evidence_text)
     official = is_official_government_url(str(update.get("url") or ""))
     if official and matched_alias:
@@ -132,7 +130,11 @@ def funding_record_admission(
             [source_reason, "contextual_domain_match"],
             "The record itself names a technology within the tracker scope.",
         )
-    if record.get("configured_mission_ids") or record.get("query_name") or record.get("query_keyword"):
+    if (
+        record.get("configured_mission_ids")
+        or record.get("query_name")
+        or record.get("query_keyword")
+    ):
         return _decision(
             "quarantined",
             25 if official else 10,
@@ -177,9 +179,7 @@ def _mission_aliases(mission: dict) -> list[str]:
 
 
 def _evidence_text(*values: object) -> str:
-    return _QUERY_METADATA.sub(
-        " ", " ".join(str(value or "") for value in values)
-    ).casefold()
+    return _QUERY_METADATA.sub(" ", " ".join(str(value or "") for value in values)).casefold()
 
 
 def _matched_alias(aliases: list[str], text: str) -> str | None:

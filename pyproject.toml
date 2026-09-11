@@ -8,11 +8,40 @@ version = "0.1.0"
 description = "Automated research scout for post-quantum cryptography and quantum computing updates."
 readme = "README.md"
 requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = [
+  "post-quantum-cryptography",
+  "quantum-computing",
+  "threat-intelligence",
+  "open-source-intelligence",
+  "federal-procurement",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Information Technology",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Security :: Cryptography",
+]
 dependencies = [
   "PyYAML>=6.0.1",
   "pypdf>=5.0,<7",
   "requests>=2.31.0",
 ]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.6",
+]
+
+[project.urls]
+Homepage = "https://github.com/raybeecham/quantum-research-scout"
+Dashboard = "https://raybeecham.github.io/quantum-research-scout/"
+Issues = "https://github.com/raybeecham/quantum-research-scout/issues"
 
 [project.scripts]
 pqc-quantum-research-agent = "pqc_quantum_research_agent.cli:main"
@@ -20,3 +49,42 @@ pqc-quantum-research-agent = "pqc_quantum_research_agent.cli:main"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["pqc_quantum_research_agent*"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "--strict-markers --strict-config"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = ["reports", "site"]
+
+[tool.ruff.lint]
+select = [
+  "E",    # pycodestyle errors
+  "F",    # pyflakes
+  "I",    # import sorting
+  "UP",   # pyupgrade
+  "B",    # bugbear
+  "C4",   # comprehensions
+  "SIM",  # simplification
+  "RUF",  # ruff-specific
+]
+ignore = [
+  "E501",    # line length is owned by the formatter; the rest are unsplittable literals
+  "SIM103",  # guard-clause chains stay uniform instead of collapsing the final pair
+  "B008",    # function call in argument default (used deliberately for CLI wiring)
+  "SIM108",  # ternary is not always more readable than an if/else block
+  "RUF001",  # reports intentionally use typographic punctuation (em dash, ellipsis)
+  "RUF002",
+  "RUF003",
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["pqc_quantum_research_agent"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

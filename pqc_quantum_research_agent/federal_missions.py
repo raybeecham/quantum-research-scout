@@ -9,10 +9,9 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
-from .models import ResearchItem
 from .evidence_admission import mission_item_admission, mission_update_admission
+from .models import ResearchItem
 from .text import compact_summary
-
 
 DISCOVERY_PATTERN = re.compile(
     r"\b(?:launch(?:es|ed|ing)?|announc(?:e|es|ed|ing)|establish(?:es|ed|ing)?|unveil(?:s|ed|ing)?)\b"
@@ -76,9 +75,7 @@ def write_federal_mission_tracker(
     matched_urls: set[str] = set()
     accepted_evidence_keys: set[str] = set()
     quarantined_evidence = [
-        item
-        for item in existing.get("quarantined_evidence", [])
-        if isinstance(item, dict)
+        item for item in existing.get("quarantined_evidence", []) if isinstance(item, dict)
     ]
     for raw in config.get("missions", []):
         if not isinstance(raw, dict):
@@ -92,9 +89,7 @@ def write_federal_mission_tracker(
             if admission["status"] == "accepted":
                 previous_updates.append({**item, "admission": admission})
             else:
-                quarantined_evidence.append(
-                    _quarantined_mission_item(item, raw, admission)
-                )
+                quarantined_evidence.append(_quarantined_mission_item(item, raw, admission))
         new_updates = []
         for item in research_items:
             admission = mission_item_admission(item, raw)
@@ -109,8 +104,7 @@ def write_federal_mission_tracker(
             new_updates,
         )
         accepted_evidence_keys.update(
-            _quarantine_key({**item, "mission_id": mission_id})
-            for item in observed_updates
+            _quarantine_key({**item, "mission_id": mission_id}) for item in observed_updates
         )
         matched_urls.update(str(item.get("url", "")) for item in observed_updates)
         missions.append(
@@ -131,7 +125,11 @@ def write_federal_mission_tracker(
         if _is_federal_item(item)
         and _looks_like_mission_announcement(item)
         and (item.canonical_url or item.url) not in matched_urls
-        and not any(_matches_mission(item, raw) for raw in config.get("missions", []) if isinstance(raw, dict))
+        and not any(
+            _matches_mission(item, raw)
+            for raw in config.get("missions", [])
+            if isinstance(raw, dict)
+        )
     ]
     candidate_cutoff = today - timedelta(days=retention_days)
     discovery_candidates = [
@@ -140,7 +138,11 @@ def write_federal_mission_tracker(
         if not item.get("date") or _parse_optional_date(item.get("date")) >= candidate_cutoff
     ]
     discovery_candidates.sort(
-        key=lambda item: (str(item.get("date") or ""), int(item.get("score") or 0), str(item.get("title") or "")),
+        key=lambda item: (
+            str(item.get("date") or ""),
+            int(item.get("score") or 0),
+            str(item.get("title") or ""),
+        ),
         reverse=True,
     )
     quarantined_evidence = [
@@ -155,7 +157,8 @@ def write_federal_mission_tracker(
             {**milestone, "mission_id": mission["id"], "mission_name": mission["name"]}
             for mission in missions
             for milestone in mission["milestones"]
-            if milestone["timing"] in {"awaiting_confirmation", "overdue", "due_soon", "upcoming", "estimated"}
+            if milestone["timing"]
+            in {"awaiting_confirmation", "overdue", "due_soon", "upcoming", "estimated"}
         ),
         key=lambda item: (item["target_date"], item["mission_name"]),
     )
@@ -165,7 +168,9 @@ def write_federal_mission_tracker(
         "upcoming": sum(item["status"] == "upcoming" for item in missions),
         "completed": sum(item["status"] == "completed" for item in missions),
         "recent_launches": sum(item["is_recent_launch"] for item in missions),
-        "upcoming_milestones": sum(item["timing"] in {"due_soon", "upcoming", "estimated"} for item in upcoming_milestones),
+        "upcoming_milestones": sum(
+            item["timing"] in {"due_soon", "upcoming", "estimated"} for item in upcoming_milestones
+        ),
         "awaiting_confirmation_milestones": sum(
             item["timing"] == "awaiting_confirmation" for item in upcoming_milestones
         ),
@@ -184,7 +189,8 @@ def write_federal_mission_tracker(
         "scope_note": str(
             config.get(
                 "scope_note",
-                "Named federal science and technology missions with strategic relevance to this tracker.",
+                "Named federal science and technology missions with strategic relevance to "
+                "this tracker.",
             )
         ),
         "summary": summary,
@@ -207,21 +213,37 @@ def _normalize_mission(
     recent_launch_days: int,
 ) -> dict:
     announcement_date = _parse_optional_date(raw.get("announcement_date"))
-    configured_updates = [_normalize_update(item) for item in raw.get("updates", []) if isinstance(item, dict)]
+    configured_updates = [
+        _normalize_update(item) for item in raw.get("updates", []) if isinstance(item, dict)
+    ]
     updates = _merge_updates(configured_updates, observed_updates)
-    updates.sort(key=lambda item: (str(item.get("date") or ""), str(item.get("title") or "")), reverse=True)
-    milestones = [_normalize_milestone(item, today) for item in raw.get("milestones", []) if isinstance(item, dict)]
+    updates.sort(
+        key=lambda item: (str(item.get("date") or ""), str(item.get("title") or "")), reverse=True
+    )
+    milestones = [
+        _normalize_milestone(item, today)
+        for item in raw.get("milestones", [])
+        if isinstance(item, dict)
+    ]
     milestones.sort(key=lambda item: (item["target_date"], item["title"]))
     next_milestone = next(
         (
             item
             for item in milestones
-            if item["timing"] in {"awaiting_confirmation", "overdue", "due_soon", "upcoming", "estimated"}
+            if item["timing"]
+            in {"awaiting_confirmation", "overdue", "due_soon", "upcoming", "estimated"}
         ),
         None,
     )
     last_update = max(
-        [value for value in [announcement_date, *(_parse_optional_date(item.get("date")) for item in updates)] if value],
+        [
+            value
+            for value in [
+                announcement_date,
+                *(_parse_optional_date(item.get("date")) for item in updates),
+            ]
+            if value
+        ],
         default=None,
     )
     return {
@@ -232,7 +254,9 @@ def _normalize_mission(
         "phase": str(raw.get("phase", "execution")),
         "priority": str(raw.get("priority", "high")).casefold(),
         "announcement_date": announcement_date.isoformat() if announcement_date else None,
-        "is_recent_launch": bool(announcement_date and (today - announcement_date).days <= recent_launch_days),
+        "is_recent_launch": bool(
+            announcement_date and (today - announcement_date).days <= recent_launch_days
+        ),
         "last_update_date": last_update.isoformat() if last_update else None,
         "objective": str(raw.get("objective", "")),
         "lead_agencies": [str(value) for value in raw.get("lead_agencies", [])],
@@ -271,7 +295,10 @@ def _normalize_milestone(raw: dict, today: date) -> dict:
         "title": str(raw.get("title", "Untitled milestone")),
         "target_date": target.isoformat(),
         "date_precision": precision,
-        "date_label": str(raw.get("date_label") or (str(target.year) if precision == "year" else target.isoformat())),
+        "date_label": str(
+            raw.get("date_label")
+            or (str(target.year) if precision == "year" else target.isoformat())
+        ),
         "configured_status": configured_status,
         "timing": timing,
         "days_remaining": remaining,
@@ -410,7 +437,11 @@ def _looks_like_mission_announcement(item: ResearchItem) -> bool:
 def _mission_sort_key(item: dict) -> tuple:
     status_order = {"active": 0, "upcoming": 1, "completed": 2, "paused": 3}
     priority_order = {"critical": 0, "high": 1, "medium": 2, "low": 3}
-    next_date = item.get("next_milestone", {}).get("target_date") if item.get("next_milestone") else "9999-12-31"
+    next_date = (
+        item.get("next_milestone", {}).get("target_date")
+        if item.get("next_milestone")
+        else "9999-12-31"
+    )
     return (
         status_order.get(item["status"], 9),
         priority_order.get(item["priority"], 9),
@@ -458,7 +489,8 @@ def _render_markdown(payload: dict) -> str:
     lines = [
         "# Federal Mission Tracker",
         "",
-        "> **Named national efforts** · Science and technology · Official milestones · Cross-sector execution",
+        "> **Named national efforts** · Science and technology · Official milestones · "
+        "Cross-sector execution",
         "",
         "[Report Index](README.md) · [Funding & Procurement](federal-funding.md) · "
         "[Standards Timeline](standards-timeline.md) · [Entity Watch](entity-watch.md)",
@@ -475,7 +507,9 @@ def _render_markdown(payload: dict) -> str:
     ]
     for mission in payload["missions"]:
         leads = ", ".join(mission["lead_agencies"]) or "Lead agency not listed"
-        relation = f" · Parent: **{mission['parent_mission']}**" if mission.get("parent_mission") else ""
+        relation = (
+            f" · Parent: **{mission['parent_mission']}**" if mission.get("parent_mission") else ""
+        )
         next_milestone = mission.get("next_milestone")
         lines.extend(
             [

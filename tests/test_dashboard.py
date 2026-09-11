@@ -13,7 +13,15 @@ class DashboardBuildTests(unittest.TestCase):
         html = (Path(__file__).parents[1] / "dashboard" / "index.html").read_text(encoding="utf-8")
         script = (Path(__file__).parents[1] / "dashboard" / "app.js").read_text(encoding="utf-8")
         self.assertIn("What the labels mean", html)
-        for label in ("Rising", "Stable", "Declining", "Critical importance", "Actionable", "Watching", "Stale"):
+        for label in (
+            "Rising",
+            "Stable",
+            "Declining",
+            "Critical importance",
+            "Actionable",
+            "Watching",
+            "Stale",
+        ):
             self.assertIn(label, html)
         self.assertIn("const definitions", script)
         self.assertIn("operational_summary", script)
@@ -27,8 +35,15 @@ class DashboardBuildTests(unittest.TestCase):
             reports = root / "reports"
             dashboard.mkdir()
             reports.mkdir()
-            for name in ("index.html", "entity.html", "styles.css", "components.css", "app.js", "entity.js"):
-                content = f'{name}?v=__ASSET_VERSION__'
+            for name in (
+                "index.html",
+                "entity.html",
+                "styles.css",
+                "components.css",
+                "app.js",
+                "entity.js",
+            ):
+                content = f"{name}?v=__ASSET_VERSION__"
                 (dashboard / name).write_text(content, encoding="utf-8")
             (reports / "signals.json").write_text(
                 json.dumps(
@@ -40,7 +55,12 @@ class DashboardBuildTests(unittest.TestCase):
                                 "importance": "critical",
                                 "momentum": "rising",
                                 "evidence": [
-                                    {"date": "2026-07-20", "score": 80, "title": "Signal", "url": "https://example.com"}
+                                    {
+                                        "date": "2026-07-20",
+                                        "score": 80,
+                                        "title": "Signal",
+                                        "url": "https://example.com",
+                                    }
                                 ],
                             }
                         },
@@ -83,20 +103,32 @@ class DashboardBuildTests(unittest.TestCase):
                 encoding="utf-8",
             )
             (reports / "alerts.json").write_text(
-                json.dumps({"active_count": 1, "new_count": 1, "alerts": [{"id": "test"}]}), encoding="utf-8"
+                json.dumps({"active_count": 1, "new_count": 1, "alerts": [{"id": "test"}]}),
+                encoding="utf-8",
             )
             (reports / "entity-watch.json").write_text(
                 json.dumps(
                     {
                         "entities": [{"name": "NIST"}],
                         "technologies": [],
-                        "coverage": [{"name": "NIST", "status": "covered", "active_sources": [{"name": "NIST News"}]}],
+                        "coverage": [
+                            {
+                                "name": "NIST",
+                                "status": "covered",
+                                "active_sources": [{"name": "NIST News"}],
+                            }
+                        ],
                     }
                 ),
                 encoding="utf-8",
             )
             (reports / "readiness.json").write_text(
-                json.dumps({"summary": {"assessed": 1}, "organizations": [{"name": "NIST", "stage": "planning"}]}),
+                json.dumps(
+                    {
+                        "summary": {"assessed": 1},
+                        "organizations": [{"name": "NIST", "stage": "planning"}],
+                    }
+                ),
                 encoding="utf-8",
             )
             (reports / "standards-timeline.json").write_text(
@@ -148,7 +180,11 @@ class DashboardBuildTests(unittest.TestCase):
                             }
                         ],
                         "mission_portfolios": [
-                            {"mission_id": "genesis", "mission_name": "Genesis Mission", "record_count": 1}
+                            {
+                                "mission_id": "genesis",
+                                "mission_name": "Genesis Mission",
+                                "record_count": 1,
+                            }
                         ],
                         "recipients_and_contractors": [
                             {
@@ -365,7 +401,14 @@ class DashboardBuildTests(unittest.TestCase):
                 encoding="utf-8",
             )
             (reports / "historical-evidence.json").write_text(
-                json.dumps({"item_count": 2, "dated_count": 1, "undated_count": 1, "items": [{"key": "one"}]}),
+                json.dumps(
+                    {
+                        "item_count": 2,
+                        "dated_count": 1,
+                        "undated_count": 1,
+                        "items": [{"key": "one"}],
+                    }
+                ),
                 encoding="utf-8",
             )
             (reports / "patents.json").write_text(
@@ -395,13 +438,19 @@ class DashboardBuildTests(unittest.TestCase):
             daily.write_text("# Daily", encoding="utf-8")
             (daily.parent / "2026-07-21-digest.md").write_text("# Newer Daily", encoding="utf-8")
 
-            data_path = build_dashboard(root, root / "site", repo_url="https://github.com/example/repo")
+            data_path = build_dashboard(
+                root, root / "site", repo_url="https://github.com/example/repo"
+            )
             payload = json.loads(data_path.read_text(encoding="utf-8"))
 
             self.assertTrue((root / "site" / "index.html").exists())
             self.assertTrue((root / "site" / "entity.html").exists())
-            self.assertNotIn("__ASSET_VERSION__", (root / "site" / "index.html").read_text(encoding="utf-8"))
-            self.assertIn(payload["build_id"], (root / "site" / "app.js").read_text(encoding="utf-8"))
+            self.assertNotIn(
+                "__ASSET_VERSION__", (root / "site" / "index.html").read_text(encoding="utf-8")
+            )
+            self.assertIn(
+                payload["build_id"], (root / "site" / "app.js").read_text(encoding="utf-8")
+            )
             self.assertEqual(payload["signals"]["themes"][0]["name"], "PQC / Crypto Agility")
             self.assertEqual(payload["signals"]["themes"][0]["evidence_count"], 1)
             self.assertEqual(payload["reports"]["latest_daily"]["name"], "2026-07-21-digest")
@@ -413,15 +462,21 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["federal_missions"]["missions"][0]["name"], "Genesis Mission")
             self.assertEqual(payload["federal_funding"]["summary"]["linked_records"], 1)
             self.assertEqual(payload["federal_funding"]["records"][0]["record_type"], "baa")
-            self.assertEqual(payload["federal_funding"]["opportunity_radar"][0]["opportunity_score"], 82)
-            self.assertEqual(payload["federal_funding"]["contractor_profiles"][0]["name"], "Acme Quantum LLC")
             self.assertEqual(
-                payload["federal_funding"]["contractor_profiles"][0][
-                    "entity_enrichment"
-                ]["cage_code"],
+                payload["federal_funding"]["opportunity_radar"][0]["opportunity_score"], 82
+            )
+            self.assertEqual(
+                payload["federal_funding"]["contractor_profiles"][0]["name"], "Acme Quantum LLC"
+            )
+            self.assertEqual(
+                payload["federal_funding"]["contractor_profiles"][0]["entity_enrichment"][
+                    "cage_code"
+                ],
                 "1A2B3",
             )
-            self.assertEqual(payload["federal_funding"]["relationship_explorer"]["summary"]["edges"], 1)
+            self.assertEqual(
+                payload["federal_funding"]["relationship_explorer"]["summary"]["edges"], 1
+            )
             self.assertEqual(
                 payload["procurement_intelligence"]["summary"]["documents_extracted"],
                 1,
@@ -445,26 +500,31 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["decision_center"]["summary"]["total"], 0)
             self.assertIn("browser", payload["decision_center"]["privacy_note"])
             self.assertEqual(
-                payload["federal_funding"]["relationship_explorer"]["edges"][0][
-                    "claim_id"
-                ],
+                payload["federal_funding"]["relationship_explorer"]["edges"][0]["claim_id"],
                 "claim-mission-baa",
             )
             self.assertEqual(payload["historical_evidence"]["item_count"], 2)
             self.assertEqual(payload["patents"]["summary"]["total"], 1)
             self.assertEqual(payload["patents"]["summary"]["curated_total"], 1)
-            self.assertEqual(payload["patents"]["patents"][0]["publication_number"], "US20260234567A1")
+            self.assertEqual(
+                payload["patents"]["patents"][0]["publication_number"], "US20260234567A1"
+            )
             self.assertEqual(payload["signals"]["overall_trend"][0]["count"], 1)
             self.assertEqual(payload["data_trust"]["summary"]["quarantined"], 1)
             self.assertEqual(
                 payload["data_trust"]["quarantined_evidence"][0]["title"],
                 "Unrelated grant",
             )
-            self.assertIn("github.com/example/repo/blob/main/reports/", payload["reports"]["latest_daily"]["url"])
+            self.assertIn(
+                "github.com/example/repo/blob/main/reports/",
+                payload["reports"]["latest_daily"]["url"],
+            )
 
     def test_watch_cards_and_coverage_link_to_profiles(self) -> None:
         script = (Path(__file__).parents[1] / "dashboard" / "app.js").read_text(encoding="utf-8")
-        profile = (Path(__file__).parents[1] / "dashboard" / "entity.js").read_text(encoding="utf-8")
+        profile = (Path(__file__).parents[1] / "dashboard" / "entity.js").read_text(
+            encoding="utf-8"
+        )
         self.assertIn("entity.html?name=", script)
         self.assertIn("profile-timeline", profile)
         self.assertIn("profile-sources", profile)

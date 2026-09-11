@@ -13,7 +13,6 @@ from .amendment_intelligence import (
 from .capabilities import capability_publication_enabled, score_capability_fit
 from .scoring_calibration import score_private_opportunity
 
-
 VALID_STAGES = {
     "watch",
     "qualify",
@@ -70,9 +69,7 @@ def write_pursuit_workspace(
     if auto_seed.get("enabled", True):
         allowed_gates = {
             str(value).casefold()
-            for value in auto_seed.get(
-                "gates", ["priority qualification", "qualify"]
-            )
+            for value in auto_seed.get("gates", ["priority qualification", "qualify"])
         }
         limit = int(auto_seed.get("limit", 12))
         for brief in brief_payload.get("briefs", []):
@@ -80,8 +77,7 @@ def write_pursuit_workspace(
             if (
                 not key
                 or key in entries_by_key
-                or str(brief.get("provisional_gate") or "").casefold()
-                not in allowed_gates
+                or str(brief.get("provisional_gate") or "").casefold() not in allowed_gates
             ):
                 continue
             entries_by_key[key] = {
@@ -121,16 +117,12 @@ def write_pursuit_workspace(
         json.dumps(public_payload, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
-    public_markdown.write_text(
-        _render_markdown(public_payload, public=True), encoding="utf-8"
-    )
+    public_markdown.write_text(_render_markdown(public_payload, public=True), encoding="utf-8")
     private_json.write_text(
         json.dumps(private_payload, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
-    private_markdown.write_text(
-        _render_markdown(private_payload, public=False), encoding="utf-8"
-    )
+    private_markdown.write_text(_render_markdown(private_payload, public=False), encoding="utf-8")
     return public_json, public_markdown, private_json, private_markdown
 
 
@@ -165,14 +157,10 @@ def _build_record(
         else None
     )
     review = (
-        entry.get("amendment_review")
-        if isinstance(entry.get("amendment_review"), dict)
-        else {}
+        entry.get("amendment_review") if isinstance(entry.get("amendment_review"), dict) else {}
     )
     acknowledged = {
-        str(value)
-        for value in review.get("acknowledged_impact_ids") or []
-        if str(value).strip()
+        str(value) for value in review.get("acknowledged_impact_ids") or [] if str(value).strip()
     }
     checklist, impacted_checklist_items = annotate_checklist_for_impact(
         checklist,
@@ -185,9 +173,7 @@ def _build_record(
         and impact_id not in acknowledged
         and (impact or {}).get("requires_decision_revalidation")
     )
-    complete = sum(
-        item["status"] in {"done", "complete", "waived"} for item in checklist
-    )
+    complete = sum(item["status"] in {"done", "complete", "waived"} for item in checklist)
     next_milestone = next(
         (
             item
@@ -229,9 +215,7 @@ def _build_record(
         "checklist": checklist,
         "checklist_complete": complete,
         "checklist_total": len(checklist),
-        "checklist_percent": round(100 * complete / len(checklist))
-        if checklist
-        else 0,
+        "checklist_percent": round(100 * complete / len(checklist)) if checklist else 0,
         "impacted_checklist_items": impacted_checklist_items,
         "decision_revalidation_required": decision_revalidation_required,
         "amendment_review_status": (
@@ -257,9 +241,7 @@ def _build_record(
         "public_evidence_score": private_scorecard["public_evidence_score"],
         "raw_private_score": private_scorecard["raw_private_score"],
         "recommendation_score": private_scorecard["recommendation_score"],
-        "score_model_version": (
-            private_scorecard.get("calibration") or {}
-        ).get("model_version")
+        "score_model_version": (private_scorecard.get("calibration") or {}).get("model_version")
         or "public-v1",
         "private_scorecard": private_scorecard,
     }
@@ -305,9 +287,7 @@ def _public_record(item: dict, *, publish_fit: bool) -> dict:
 
 def _payload(records: list[dict], generated: datetime, *, public: bool) -> dict:
     active = [
-        item
-        for item in records
-        if item.get("stage") not in {"won", "lost", "no-bid", "archived"}
+        item for item in records if item.get("stage") not in {"won", "lost", "no-bid", "archived"}
     ]
     stages = {
         stage: sum(item.get("stage") == stage for item in records)
@@ -329,12 +309,9 @@ def _payload(records: list[dict], generated: datetime, *, public: bool) -> dict:
             "active": len(active),
             "managed": sum(bool(item.get("managed")) for item in records),
             "auto_seeded": sum(not item.get("managed", True) for item in records),
-            "overdue_milestones": sum(
-                int(item.get("overdue_milestones") or 0) for item in active
-            ),
+            "overdue_milestones": sum(int(item.get("overdue_milestones") or 0) for item in active),
             "decisions_due_7_days": sum(
-                isinstance(item.get("days_to_decision"), int)
-                and 0 <= item["days_to_decision"] <= 7
+                isinstance(item.get("days_to_decision"), int) and 0 <= item["days_to_decision"] <= 7
                 for item in active
             ),
             "decisions_revalidation_required": sum(
@@ -379,9 +356,7 @@ def _render_markdown(payload: dict, *, public: bool) -> str:
     for item in payload["pursuits"]:
         title = str(item.get("title") or "Untitled").replace("|", "/")
         title = f"[{title}]({item['url']})" if item.get("url") else title
-        next_step = item.get("decision") or (
-            (item.get("next_milestone") or {}).get("name")
-        )
+        next_step = item.get("decision") or ((item.get("next_milestone") or {}).get("name"))
         if not next_step:
             next_step = (
                 "Assign owner and qualify"
@@ -389,9 +364,7 @@ def _render_markdown(payload: dict, *, public: bool) -> str:
                 else "No next milestone recorded"
             )
         if not public and item.get("recommendation_score") is not None:
-            calibration = (item.get("private_scorecard") or {}).get(
-                "calibration", {}
-            )
+            calibration = (item.get("private_scorecard") or {}).get("calibration", {})
             next_step = (
                 f"{next_step} · private recommendation "
                 f"{item['recommendation_score']} "

@@ -5,7 +5,6 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
 
-
 CHANGE_GROUPS = (
     "conflict_opened",
     "conflict_resolved",
@@ -47,9 +46,7 @@ def write_temporal_intelligence(
     )
     json_path = reports / "temporal-intelligence.json"
     markdown_path = reports / "temporal-intelligence.md"
-    json_path.write_text(
-        json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8"
-    )
+    json_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     markdown_path.write_text(_render_markdown(payload), encoding="utf-8")
     return json_path, markdown_path
 
@@ -165,15 +162,9 @@ def _enrich_event(
     generated: datetime,
 ) -> dict:
     first_observed = (
-        claim.get("first_seen_at")
-        or record.get("first_seen_at")
-        or generated.isoformat()
+        claim.get("first_seen_at") or record.get("first_seen_at") or generated.isoformat()
     )
-    last_observed = (
-        claim.get("last_seen_at")
-        or record.get("last_seen_at")
-        or generated.isoformat()
-    )
+    last_observed = claim.get("last_seen_at") or record.get("last_seen_at") or generated.isoformat()
     event_date, publication_date, date_basis = _record_dates(record)
     predicate = str(event.get("predicate") or "")
     effective_date = _effective_date(event, claim, predicate)
@@ -400,7 +391,8 @@ def _classify_time(
     return (
         "newly_observed",
         "Newly observed · event date unknown",
-        "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
+        "Scout observed the assertion during this comparison, but the source does not provide "
+        "a reliable event or publication date.",
     )
 
 
@@ -439,10 +431,8 @@ def _upcoming_events(missions: dict, funding: dict, today: date) -> list[dict]:
                     "subject": mission.get("name"),
                     "date": target.isoformat(),
                     "days_remaining": (target - today).days,
-                    "status": milestone.get("timing")
-                    or milestone.get("configured_status"),
-                    "url": milestone.get("source_url")
-                    or mission.get("official_url"),
+                    "status": milestone.get("timing") or milestone.get("configured_status"),
+                    "url": milestone.get("source_url") or mission.get("official_url"),
                 }
             )
     for record in funding.get("records", []):
@@ -455,8 +445,7 @@ def _upcoming_events(missions: dict, funding: dict, today: date) -> list[dict]:
             {
                 "kind": "opportunity_deadline",
                 "title": record.get("title"),
-                "subject": record.get("awarding_agency")
-                or record.get("funding_agency"),
+                "subject": record.get("awarding_agency") or record.get("funding_agency"),
                 "date": target.isoformat(),
                 "days_remaining": (target - today).days,
                 "status": record.get("deadline_status") or "upcoming",
@@ -505,15 +494,9 @@ def _render_markdown(payload: dict) -> str:
     if not payload["priority_events"]:
         lines.append("- No material temporal events since the prior comparison.")
     for item in payload["priority_events"][:60]:
-        subject = (item.get("subject") or {}).get("label") or item.get(
-            "subject_label"
-        )
+        subject = (item.get("subject") or {}).get("label") or item.get("subject_label")
         temporal = item.get("temporal") or {}
-        source = (
-            f" ([evidence]({item.get('evidence_url')}))"
-            if item.get("evidence_url")
-            else ""
-        )
+        source = f" ([evidence]({item.get('evidence_url')}))" if item.get("evidence_url") else ""
         lines.append(
             f"- **{temporal.get('label')}** · {subject} — "
             f"{str(item.get('predicate') or 'claim').replace('_', ' ')}{source}"

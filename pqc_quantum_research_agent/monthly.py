@@ -8,7 +8,9 @@ from .dates import operational_today
 from .weekly import load_weekly_inputs, render_weekly_report
 
 
-def resolve_month_range(*, month: str | None = None, generated_at: datetime | None = None) -> tuple[date, date]:
+def resolve_month_range(
+    *, month: str | None = None, generated_at: datetime | None = None
+) -> tuple[date, date]:
     if month:
         try:
             start = datetime.strptime(month, "%Y-%m").date().replace(day=1)

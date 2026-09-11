@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import unittest
 from datetime import date, datetime, timezone
-from tempfile import TemporaryDirectory
 from pathlib import Path
+from tempfile import TemporaryDirectory
 
 from pqc_quantum_research_agent.weekly import (
     dedupe_weekly_items,
@@ -209,7 +209,9 @@ class WeeklyReportTests(unittest.TestCase):
         unique = dedupe_weekly_items([item for report in weekly.reports for item in report.items])
 
         self.assertEqual(len(unique), 1)
-        self.assertEqual(unique[0].title, "Infleqtion launches Quantum Spectrum RF sensing platform")
+        self.assertEqual(
+            unique[0].title, "Infleqtion launches Quantum Spectrum RF sensing platform"
+        )
 
     def test_weekly_report_generation(self) -> None:
         with TemporaryDirectory() as reports_dir:
@@ -244,9 +246,13 @@ class WeeklyReportTests(unittest.TestCase):
 
         self.assertEqual(output_path.name, "2026-05-12_to_2026-05-13-weekly.md")
         self.assertEqual(output_path.parent.name, "2026")
-        self.assertIn("# PQC and Quantum Weekly Intelligence Synthesis - 2026-05-12 to 2026-05-13", content)
+        self.assertIn(
+            "# PQC and Quantum Weekly Intelligence Synthesis - 2026-05-12 to 2026-05-13", content
+        )
         self.assertIn("> **Weekly Intelligence Brief**", content)
-        self.assertIn("| Daily reports | Unique signals | Missing days | Source warnings |", content)
+        self.assertIn(
+            "| Daily reports | Unique signals | Missing days | Source warnings |", content
+        )
         self.assertIn("## Strategic Themes", content)
         self.assertIn("## Top Strategic Signals", content)
         self.assertIn("## PQC and Crypto-Agility Watch", content)
@@ -275,8 +281,12 @@ class WeeklyReportTests(unittest.TestCase):
             weekly = load_weekly_inputs(reports_path, date(2026, 5, 12), date(2026, 5, 14))
             content = render_weekly_report(weekly)
 
-        self.assertEqual([day.isoformat() for day in weekly.missing_dates], ["2026-05-13", "2026-05-14"])
-        self.assertIn("> Coverage caveat: This synthesis is based on 1 of 3 daily reports.", content)
+        self.assertEqual(
+            [day.isoformat() for day in weekly.missing_dates], ["2026-05-13", "2026-05-14"]
+        )
+        self.assertIn(
+            "> Coverage caveat: This synthesis is based on 1 of 3 daily reports.", content
+        )
         self.assertIn("Missing days: 2026-05-13, 2026-05-14", content)
         self.assertIn("Daily reports processed: 1", content)
 
@@ -322,7 +332,9 @@ class WeeklyReportTests(unittest.TestCase):
         self.assertNotIn("Key points:\n\n", content)
         self.assertRegex(content, r"(?ms)^## PQC and Crypto-Agility Watch\n\n- \*\*")
 
-        follow_up = content.split("## Suggested Follow-Up", 1)[1].split("## Source Coverage Summary", 1)[0]
+        follow_up = content.split("## Suggested Follow-Up", 1)[1].split(
+            "## Source Coverage Summary", 1
+        )[0]
         follow_up_lines = [line for line in follow_up.splitlines() if line.strip()]
         self.assertTrue(follow_up_lines)
         self.assertTrue(all(line.startswith("- ") for line in follow_up_lines))
@@ -351,7 +363,10 @@ class WeeklyReportTests(unittest.TestCase):
 
         self.assertIn("## Federal / Standards Implications", content)
         self.assertIn("Federal teams should map this signal to cryptographic inventory", content)
-        self.assertNotIn("No federal, standards, governance, or compliance implications were identified.", content)
+        self.assertNotIn(
+            "No federal, standards, governance, or compliance implications were identified.",
+            content,
+        )
 
     def test_vendor_movement_recognizes_company_activity(self) -> None:
         with TemporaryDirectory() as reports_dir:
@@ -371,7 +386,9 @@ class WeeklyReportTests(unittest.TestCase):
             content = render_weekly_report(weekly)
 
         self.assertIn("## Vendor and Ecosystem Movement", content)
-        self.assertIn("**Photonic closes investment round for distributed quantum computing**", content)
+        self.assertIn(
+            "**Photonic closes investment round for distributed quantum computing**", content
+        )
         self.assertNotIn("No vendor or ecosystem movement was found.", content)
 
     def test_vendor_movement_recognizes_product_launch_without_known_company_hint(self) -> None:
@@ -392,7 +409,9 @@ class WeeklyReportTests(unittest.TestCase):
             weekly = load_weekly_inputs(reports_path, date(2026, 5, 18), date(2026, 5, 18))
             content = render_weekly_report(weekly)
 
-        vendor_section = content.split("## Vendor and Ecosystem Movement", 1)[1].split("## Federal / Standards", 1)[0]
+        vendor_section = content.split("## Vendor and Ecosystem Movement", 1)[1].split(
+            "## Federal / Standards", 1
+        )[0]
         self.assertIn("**Sitehop Launches Compact Post-Quantum Encryption Device**", vendor_section)
         self.assertNotIn("No vendor or ecosystem movement was found.", vendor_section)
 
@@ -414,7 +433,9 @@ class WeeklyReportTests(unittest.TestCase):
             weekly = load_weekly_inputs(reports_path, date(2026, 5, 18), date(2026, 5, 18))
             content = render_weekly_report(weekly)
 
-        vendor_section = content.split("## Vendor and Ecosystem Movement", 1)[1].split("## Federal / Standards", 1)[0]
+        vendor_section = content.split("## Vendor and Ecosystem Movement", 1)[1].split(
+            "## Federal / Standards", 1
+        )[0]
         self.assertNotIn("Clemson University Advances", vendor_section)
         self.assertIn("No vendor or ecosystem movement was found.", vendor_section)
 
@@ -525,9 +546,14 @@ class WeeklyReportTests(unittest.TestCase):
             weekly = load_weekly_inputs(reports_path, date(2026, 5, 13), date(2026, 5, 13))
             content = render_weekly_report(weekly)
 
-        self.assertIn("No federal, standards, governance, or compliance implications were identified.", content)
+        self.assertIn(
+            "No federal, standards, governance, or compliance implications were identified.",
+            content,
+        )
 
-    def test_qkd_bitcoin_claims_do_not_automatically_appear_under_federal_implications(self) -> None:
+    def test_qkd_bitcoin_claims_do_not_automatically_appear_under_federal_implications(
+        self,
+    ) -> None:
         with TemporaryDirectory() as reports_dir:
             reports_path = Path(reports_dir)
             (reports_path / "2026-05-13-digest.md").write_text(
@@ -545,9 +571,14 @@ class WeeklyReportTests(unittest.TestCase):
             weekly = load_weekly_inputs(reports_path, date(2026, 5, 13), date(2026, 5, 13))
             content = render_weekly_report(weekly)
 
-        federal_section = content.split("## Federal / Standards Implications", 1)[1].split("## What Changed This Week", 1)[0]
+        federal_section = content.split("## Federal / Standards Implications", 1)[1].split(
+            "## What Changed This Week", 1
+        )[0]
         self.assertNotIn("MicroCloud Hologram", federal_section)
-        self.assertIn("No federal, standards, governance, or compliance implications were identified.", federal_section)
+        self.assertIn(
+            "No federal, standards, governance, or compliance implications were identified.",
+            federal_section,
+        )
 
 
 def _daily_report(
@@ -558,7 +589,8 @@ def _daily_report(
     score: int,
     link: str,
     point: str = "NIST guidance prioritizes ML-KEM migration for enterprise PKI.",
-    second_point: str | None = "Organizations should update cryptographic inventories before hybrid TLS deployment.",
+    second_point: str
+    | None = "Organizations should update cryptographic inventories before hybrid TLS deployment.",
     warning_count: int = 0,
 ) -> str:
     warnings = (

@@ -191,8 +191,7 @@ class ResearchStore:
 
     def _add_column_if_missing(self, table: str, column: str, definition: str) -> None:
         columns = {
-            row["name"]
-            for row in self.connection.execute(f"PRAGMA table_info({table})").fetchall()
+            row["name"] for row in self.connection.execute(f"PRAGMA table_info({table})").fetchall()
         }
         if column not in columns:
             self.connection.execute(f"ALTER TABLE {table} ADD COLUMN {column} {definition}")

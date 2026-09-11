@@ -101,9 +101,7 @@ class AmendmentIntelligenceTests(unittest.TestCase):
                 for item in impact["changes"]
             )
         )
-        requirement = next(
-            item for item in impact["changes"] if item["category"] == "requirement"
-        )
+        requirement = next(item for item in impact["changes"] if item["category"] == "requirement")
         self.assertIn(requirement["change_type"], {"modified", "superseded"})
         self.assertEqual(
             requirement["after"]["source"]["content_sha256"],
@@ -267,10 +265,7 @@ def _document(
         evidence={"requirements": [requirement]},
         document_role=role,
     )
-    source = (
-        (version.get("evidence_units") or [{}])[0]
-        .get("source", {})
-    )
+    source = (version.get("evidence_units") or [{}])[0].get("source", {})
     return {
         "source_url": "https://files.sam.gov/solicitation.txt",
         "document_id": source.get("document_id"),

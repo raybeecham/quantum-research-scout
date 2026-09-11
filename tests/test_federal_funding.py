@@ -110,7 +110,7 @@ class FakeFundingClient:
                                 },
                             },
                         }
-                    ]
+                    ],
                 }
             ),
             url,
@@ -295,7 +295,7 @@ class FederalFundingTests(unittest.TestCase):
                                     "Artificial intelligence",
                                 ],
                                 "strategic_significance_score": 65,
-                            }
+                            },
                         ]
                     }
                 ),
@@ -373,7 +373,10 @@ class FederalFundingTests(unittest.TestCase):
             )
         )
         self.assertTrue(
-            all(edge.get("source_id") and edge.get("target_id") for edge in payload["relationship_edges"])
+            all(
+                edge.get("source_id") and edge.get("target_id")
+                for edge in payload["relationship_edges"]
+            )
         )
         self.assertEqual(payload["opportunity_radar"][0]["record_type"], "baa")
         self.assertEqual(payload["opportunity_radar"][0]["days_to_close"], 6)

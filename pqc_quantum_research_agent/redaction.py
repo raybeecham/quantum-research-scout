@@ -3,7 +3,6 @@ from __future__ import annotations
 import re
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
-
 REDACTED = "[REDACTED]"
 SENSITIVE_PARAMETER_NAMES = {
     "api_key",
@@ -25,12 +24,8 @@ _SAM_KEY_RE = re.compile(r"\bSAM-[A-Za-z0-9-]{16,}\b")
 def redact_text(value: object) -> str:
     """Remove credentials from URLs, exception strings, logs, and persisted reports."""
     text = "" if value is None else str(value)
-    text = _SENSITIVE_ASSIGNMENT_RE.sub(
-        lambda match: f"{match.group('prefix')}{REDACTED}", text
-    )
-    text = _BEARER_RE.sub(
-        lambda match: f"{match.group('prefix')}{REDACTED}", text
-    )
+    text = _SENSITIVE_ASSIGNMENT_RE.sub(lambda match: f"{match.group('prefix')}{REDACTED}", text)
+    text = _BEARER_RE.sub(lambda match: f"{match.group('prefix')}{REDACTED}", text)
     return _SAM_KEY_RE.sub(REDACTED, text)
 
 

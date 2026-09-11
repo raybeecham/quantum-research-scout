@@ -30,7 +30,11 @@ def prepare_alert_issue(
                 "",
                 f"- Severity: **{alert.get('severity', 'unknown')}**",
                 f"- {alert.get('summary', '')}",
-                *([f"- [Open direct evidence]({alert['evidence_url']})"] if alert.get("evidence_url") else []),
+                *(
+                    [f"- [Open direct evidence]({alert['evidence_url']})"]
+                    if alert.get("evidence_url")
+                    else []
+                ),
                 f"- [Open supporting view]({link})",
                 "",
             ]
@@ -41,11 +45,15 @@ def prepare_alert_issue(
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Prepare a GitHub issue body for new intelligence alerts.")
+    parser = argparse.ArgumentParser(
+        description="Prepare a GitHub issue body for new intelligence alerts."
+    )
     parser.add_argument("--alerts", default="reports/alerts.json")
     parser.add_argument("--body", default="alert-issue.md")
     parser.add_argument("--github-output", default=None)
-    parser.add_argument("--repo-url", default="https://github.com/raybeecham/quantum-research-scout")
+    parser.add_argument(
+        "--repo-url", default="https://github.com/raybeecham/quantum-research-scout"
+    )
     args = parser.parse_args()
     should_create, title = prepare_alert_issue(args.alerts, args.body, repo_url=args.repo_url)
     if args.github_output:

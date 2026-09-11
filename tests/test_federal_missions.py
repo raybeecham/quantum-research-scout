@@ -73,7 +73,10 @@ missions:
             self.assertEqual(mission["next_milestone"]["timing"], "awaiting_confirmation")
             self.assertEqual(mission["milestones"][1]["date_label"], "Summer 2026")
             self.assertEqual(mission["observed_updates"][0]["url"], update.url)
-            self.assertIn("Test Mission announces its first projects", markdown_path.read_text(encoding="utf-8"))
+            self.assertIn(
+                "Test Mission announces its first projects",
+                markdown_path.read_text(encoding="utf-8"),
+            )
 
     def test_unmatched_official_announcement_is_queued_for_review(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -188,9 +191,7 @@ missions:
             quarantine = payload["quarantined_evidence"][0]
             self.assertEqual(quarantine["mission_id"], "golden-dome")
             self.assertEqual(quarantine["admission"]["status"], "quarantined")
-            self.assertIn(
-                "query_metadata_only", quarantine["admission"]["reason_codes"]
-            )
+            self.assertIn("query_metadata_only", quarantine["admission"]["reason_codes"])
 
 
 if __name__ == "__main__":

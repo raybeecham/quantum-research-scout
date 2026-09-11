@@ -6,7 +6,6 @@ from pqc_quantum_research_agent.temporal_intelligence import (
     build_temporal_intelligence,
 )
 
-
 NOW = datetime(2026, 7, 31, 14, tzinfo=timezone.utc)
 
 
@@ -74,9 +73,7 @@ def test_distinguishes_historical_award_from_recent_publication() -> None:
         ]
     }
 
-    payload = build_temporal_intelligence(
-        ledger, changes, funding, {}, {}, generated_at=NOW
-    )
+    payload = build_temporal_intelligence(ledger, changes, funding, {}, {}, generated_at=NOW)
 
     by_claim = {item["claim_id"]: item for item in payload["priority_events"]}
     historical = by_claim["claim-old-award"]["temporal"]
@@ -117,9 +114,7 @@ def test_changed_claim_uses_comparison_time_not_source_recency() -> None:
         ]
     }
 
-    payload = build_temporal_intelligence(
-        ledger, changes, {}, {}, {}, generated_at=NOW
-    )
+    payload = build_temporal_intelligence(ledger, changes, {}, {}, {}, generated_at=NOW)
 
     temporal = payload["changed"][0]["temporal"]
     assert temporal["classification"] == "changed_since_prior_run"
@@ -155,9 +150,7 @@ def test_builds_bounded_upcoming_mission_and_opportunity_timeline() -> None:
         ]
     }
 
-    payload = build_temporal_intelligence(
-        {}, {}, funding, missions, {}, generated_at=NOW
-    )
+    payload = build_temporal_intelligence({}, {}, funding, missions, {}, generated_at=NOW)
 
     assert [item["kind"] for item in payload["upcoming"]] == [
         "opportunity_deadline",

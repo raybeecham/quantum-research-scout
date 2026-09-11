@@ -31,15 +31,9 @@ def _workspace(path: Path, *, managed: bool = True) -> None:
                             "configured": True,
                             "score": 80,
                             "hard_stops": [],
-                            "matched_capabilities": [
-                                {"name": "Quantum systems"}
-                            ],
-                            "matched_contract_vehicles": [
-                                {"name": "Example vehicle"}
-                            ],
-                            "relevant_past_performance": [
-                                {"name": "Example engagement"}
-                            ],
+                            "matched_capabilities": [{"name": "Quantum systems"}],
+                            "matched_contract_vehicles": [{"name": "Example vehicle"}],
+                            "relevant_past_performance": [{"name": "Example engagement"}],
                         },
                     }
                 ]

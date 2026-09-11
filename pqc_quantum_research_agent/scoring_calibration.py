@@ -7,12 +7,11 @@ import os
 import re
 import tempfile
 import uuid
+from collections.abc import Iterable
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Iterable
 
 import yaml
-
 
 ALGORITHM_VERSION = "explainable-factor-calibration-v1"
 VALID_STAGES = {"qualify", "pursue", "bid", "submitted", "no-bid"}
@@ -102,9 +101,7 @@ def load_calibration_config(path_or_config: str | Path | dict | None = None) -> 
         else "shadow"
     )
     config["lookback_days"] = max(1, _integer(config.get("lookback_days"), 730))
-    config["prior_strength"] = max(
-        0.0, _number(config.get("prior_strength"), 12.0)
-    )
+    config["prior_strength"] = max(0.0, _number(config.get("prior_strength"), 12.0))
     config["maximum_combined_adjustment"] = max(
         0, _integer(config.get("maximum_combined_adjustment"), 10)
     )
@@ -234,8 +231,7 @@ def load_feedback_ledger(
     active = [
         event
         for event in parsed
-        if event["event_id"] not in superseded
-        and event["event_id"] not in invalid_superseders
+        if event["event_id"] not in superseded and event["event_id"] not in invalid_superseders
     ]
     active.sort(key=_event_sort_key)
     return {
@@ -307,9 +303,7 @@ def validate_feedback_event(event: object) -> dict:
         outcome = None
     else:
         if outcome not in VALID_OUTCOMES:
-            raise ValueError(
-                f"outcome must be one of: {', '.join(sorted(VALID_OUTCOMES))}"
-            )
+            raise ValueError(f"outcome must be one of: {', '.join(sorted(VALID_OUTCOMES))}")
         stage = None
     reason_codes = sorted(
         {
@@ -324,9 +318,7 @@ def validate_feedback_event(event: object) -> dict:
         raise ValueError("snapshot.captured_at cannot be later than occurred_at")
     scope = str(event.get("learning_scope") or "automatic").casefold()
     if scope not in {"automatic", "selection", "outcome", "audit_only"}:
-        raise ValueError(
-            "learning_scope must be automatic, selection, outcome, or audit_only"
-        )
+        raise ValueError("learning_scope must be automatic, selection, outcome, or audit_only")
     normalized = {
         "schema_version": 1,
         "event_id": event_id,
@@ -377,8 +369,7 @@ def record_feedback_event(
         (
             item
             for item in records
-            if isinstance(item, dict)
-            and str(item.get("opportunity_key")) == str(opportunity_key)
+            if isinstance(item, dict) and str(item.get("opportunity_key")) == str(opportunity_key)
         ),
         None,
     )
@@ -542,8 +533,7 @@ def extract_calibration_features(
             add("past_performance", "matched")
 
     return [
-        {"id": identifier, "label": features[identifier]}
-        for identifier in sorted(features)[:30]
+        {"id": identifier, "label": features[identifier]} for identifier in sorted(features)[:30]
     ]
 
 
@@ -574,25 +564,17 @@ def build_calibration_model(
             continue
         occurred = _parse_datetime(event["occurred_at"])
         if occurred is None or occurred > generated:
-            excluded.append(
-                {"event_id": event["event_id"], "reason": "future_event"}
-            )
+            excluded.append({"event_id": event["event_id"], "reason": "future_event"})
             continue
         if occurred < cutoff:
-            excluded.append(
-                {"event_id": event["event_id"], "reason": "outside_lookback"}
-            )
+            excluded.append({"event_id": event["event_id"], "reason": "outside_lookback"})
             continue
         if not event["snapshot"].get("features"):
-            excluded.append(
-                {"event_id": event["event_id"], "reason": "missing_feature_snapshot"}
-            )
+            excluded.append({"event_id": event["event_id"], "reason": "missing_feature_snapshot"})
             continue
         eligible_events.append(event)
 
-    decision_events = [
-        item for item in eligible_events if item["event_type"] == "stage_decision"
-    ]
+    decision_events = [item for item in eligible_events if item["event_type"] == "stage_decision"]
     decisions_by_id = {item["event_id"]: item for item in decision_events}
     linked_outcomes = []
     for event in eligible_events:
@@ -603,8 +585,7 @@ def build_calibration_model(
             decision is None
             or decision["opportunity_key"] != event["opportunity_key"]
             or decision.get("stage") not in {"bid", "submitted"}
-            or _parse_datetime(decision["occurred_at"])
-            > _parse_datetime(event["occurred_at"])
+            or _parse_datetime(decision["occurred_at"]) > _parse_datetime(event["occurred_at"])
         ):
             excluded.append(
                 {
@@ -647,9 +628,7 @@ def build_calibration_model(
     outcome_rows: list[dict] = []
     for event in latest_outcomes:
         if not _outcome_event_is_trainable(event):
-            excluded.append(
-                {"event_id": event["event_id"], "reason": "audit_only_outcome"}
-            )
+            excluded.append({"event_id": event["event_id"], "reason": "audit_only_outcome"})
             continue
         outcome_rows.append(
             _training_row(
@@ -664,9 +643,7 @@ def build_calibration_model(
     selection = _build_axis(
         "selection", selection_rows, settings["selection"], settings["prior_strength"]
     )
-    outcome = _build_axis(
-        "outcome", outcome_rows, settings["outcome"], settings["prior_strength"]
-    )
+    outcome = _build_axis("outcome", outcome_rows, settings["outcome"], settings["prior_strength"])
     training_material = {
         "algorithm": ALGORITHM_VERSION,
         "settings": settings,
@@ -717,22 +694,12 @@ def apply_calibration(
     feature_ids = sorted({_feature_id(item) for item in features if _feature_id(item)})
     selection_matches = _matched_effects(feature_ids, model.get("selection") or {})
     outcome_matches = _matched_effects(feature_ids, model.get("outcome") or {})
-    selection_matches = _limited_effects(
-        selection_matches, model, axis_name="selection"
-    )
-    outcome_matches = _limited_effects(
-        outcome_matches, model, axis_name="outcome"
-    )
-    selection_applied = _limited_effects(
-        selection_matches, model, axis_name="selection"
-    )
+    selection_matches = _limited_effects(selection_matches, model, axis_name="selection")
+    outcome_matches = _limited_effects(outcome_matches, model, axis_name="outcome")
+    selection_applied = _limited_effects(selection_matches, model, axis_name="selection")
     outcome_applied = _limited_effects(outcome_matches, model, axis_name="outcome")
-    selection_adjustment = _axis_adjustment(
-        selection_applied, model, axis_name="selection"
-    )
-    outcome_adjustment = _axis_adjustment(
-        outcome_applied, model, axis_name="outcome"
-    )
+    selection_adjustment = _axis_adjustment(selection_applied, model, axis_name="selection")
+    outcome_adjustment = _axis_adjustment(outcome_applied, model, axis_name="outcome")
     combined_limit = max(
         0,
         _integer(
@@ -756,9 +723,9 @@ def apply_calibration(
     if hard_stop:
         recommendation = min(25, recommendation)
         shadow_score = min(25, shadow_score)
-    explanations = [
-        _effect_explanation("selection", item) for item in selection_applied
-    ] + [_effect_explanation("outcome", item) for item in outcome_applied]
+    explanations = [_effect_explanation("selection", item) for item in selection_applied] + [
+        _effect_explanation("outcome", item) for item in outcome_applied
+    ]
     return {
         "model_version": model.get("model_version"),
         "mode": model.get("mode") or "shadow",
@@ -790,9 +757,7 @@ def score_private_opportunity(
     public_score = _clamp(round(public_score or 0), 0, 100)
     capability = capability_fit or {}
     capability_score = (
-        _optional_number(capability.get("score"))
-        if capability.get("configured")
-        else None
+        _optional_number(capability.get("score")) if capability.get("configured") else None
     )
     raw_score = (
         round(public_score * 0.65 + capability_score * 0.35)
@@ -808,9 +773,7 @@ def score_private_opportunity(
     calibrated = apply_calibration(raw_score, features, model, hard_stop=hard_stop)
     return {
         "public_evidence_score": public_score,
-        "capability_fit_score": round(capability_score)
-        if capability_score is not None
-        else None,
+        "capability_fit_score": round(capability_score) if capability_score is not None else None,
         "raw_private_score": calibrated["raw_private_score"],
         "features": features,
         "calibration": calibrated,
@@ -827,9 +790,7 @@ def write_calibration_reports(
     output.mkdir(parents=True, exist_ok=True)
     json_path = output / "scoring-calibration.json"
     markdown_path = output / "scoring-calibration.md"
-    json_path.write_text(
-        json.dumps(model, indent=2, sort_keys=True) + "\n", encoding="utf-8"
-    )
+    json_path.write_text(json.dumps(model, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     markdown_path.write_text(_render_calibration_markdown(model), encoding="utf-8")
     return json_path, markdown_path
 
@@ -844,12 +805,8 @@ def write_scoring_calibration(
     """Rebuild the deterministic local model and its private JSON/Markdown reports."""
     generated = _utc(generated_at or datetime.now(timezone.utc))
     ledger = load_feedback_ledger(feedback_log_path, as_of=generated)
-    model = build_calibration_model(
-        ledger, calibration_config, generated_at=generated
-    )
-    json_path, markdown_path = write_calibration_reports(
-        model, local_intelligence_dir
-    )
+    model = build_calibration_model(ledger, calibration_config, generated_at=generated)
+    json_path, markdown_path = write_calibration_reports(model, local_intelligence_dir)
     return model, json_path, markdown_path
 
 
@@ -863,16 +820,13 @@ def _build_axis(
     negative = sum(bool(item["negative_class"]) for item in rows)
     if name == "selection":
         gates = {
-            "minimum_opportunities": len(rows)
-            >= settings["minimum_opportunities"],
-            "minimum_mature_positive": positive
-            >= settings["minimum_mature_positive"],
+            "minimum_opportunities": len(rows) >= settings["minimum_opportunities"],
+            "minimum_mature_positive": positive >= settings["minimum_mature_positive"],
             "minimum_negative": negative >= settings["minimum_negative"],
         }
     else:
         gates = {
-            "minimum_opportunities": len(rows)
-            >= settings["minimum_opportunities"],
+            "minimum_opportunities": len(rows) >= settings["minimum_opportunities"],
             "minimum_wins": positive >= settings["minimum_wins"],
             "minimum_losses": negative >= settings["minimum_losses"],
         }
@@ -903,9 +857,7 @@ def _build_axis(
         factor_mean = _weighted_mean(factor_rows)
         effective_n = sum(float(item["weight"]) for item in factor_rows)
         shrinkage = (
-            effective_n / (effective_n + prior_strength)
-            if effective_n + prior_strength
-            else 0.0
+            effective_n / (effective_n + prior_strength) if effective_n + prior_strength else 0.0
         )
         raw_points = 100 * shrinkage * (factor_mean - baseline)
         points = _clamp(
@@ -1016,17 +968,13 @@ def _matched_effects(feature_ids: list[str], axis: dict) -> list[dict]:
         if item.get("eligible") and int(item.get("adjustment") or 0)
     }
     matched = [effects[identifier] for identifier in feature_ids if identifier in effects]
-    matched.sort(
-        key=lambda item: (-abs(int(item["adjustment"])), str(item["factor"]))
-    )
+    matched.sort(key=lambda item: (-abs(int(item["adjustment"])), str(item["factor"])))
     return matched
 
 
 def _axis_adjustment(matches: list[dict], model: dict, *, axis_name: str) -> int:
-    settings = ((model.get("settings") or {}).get(axis_name) or {})
-    limit_points = max(
-        0, _integer(settings.get("maximum_total_adjustment"), 0)
-    )
+    settings = (model.get("settings") or {}).get(axis_name) or {}
+    limit_points = max(0, _integer(settings.get("maximum_total_adjustment"), 0))
     return _clamp(
         sum(int(item.get("adjustment") or 0) for item in matches),
         -limit_points,
@@ -1035,7 +983,7 @@ def _axis_adjustment(matches: list[dict], model: dict, *, axis_name: str) -> int
 
 
 def _limited_effects(matches: list[dict], model: dict, *, axis_name: str) -> list[dict]:
-    settings = ((model.get("settings") or {}).get(axis_name) or {})
+    settings = (model.get("settings") or {}).get(axis_name) or {}
     limit_count = max(0, _integer(settings.get("maximum_factors"), 0))
     return matches[:limit_count]
 
@@ -1066,9 +1014,7 @@ def _snapshot_from_private_opportunity(record: dict) -> dict:
     )
     public_score = _clamp(round(public_score or 0), 0, 100)
     capability_score = (
-        _optional_number(capability.get("score"))
-        if capability.get("configured")
-        else None
+        _optional_number(capability.get("score")) if capability.get("configured") else None
     )
     raw_private = (
         round(public_score * 0.65 + capability_score * 0.35)
@@ -1085,20 +1031,14 @@ def _snapshot_from_private_opportunity(record: dict) -> dict:
             if value
         }
     )
-    source_digest = hashlib.sha256(
-        _canonical(evidence_ids).encode("utf-8")
-    ).hexdigest()
+    source_digest = hashlib.sha256(_canonical(evidence_ids).encode("utf-8")).hexdigest()
     return {
         "captured_at": datetime.now(timezone.utc).isoformat(),
         "score_model_version": str(
-            record.get("score_model_version")
-            or record.get("model_version")
-            or "public-v1"
+            record.get("score_model_version") or record.get("model_version") or "public-v1"
         ),
         "public_evidence_score": public_score,
-        "capability_fit_score": round(capability_score)
-        if capability_score is not None
-        else None,
+        "capability_fit_score": round(capability_score) if capability_score is not None else None,
         "raw_private_score": _clamp(raw_private, 0, 100),
         "hard_stop": any(
             bool(item.get("hard_stop", True))
@@ -1106,9 +1046,7 @@ def _snapshot_from_private_opportunity(record: dict) -> dict:
             if isinstance(item, dict)
         ),
         "features": extract_calibration_features(record, capability),
-        "evidence_claim_ids": [
-            value for value in record.get("evidence_claim_ids") or [] if value
-        ],
+        "evidence_claim_ids": [value for value in record.get("evidence_claim_ids") or [] if value],
         "source_digest": f"sha256:{source_digest}",
     }
 
@@ -1139,8 +1077,7 @@ def _normalize_snapshot(value: object) -> dict:
         "raw_private_score": _optional_integer(value.get("raw_private_score")),
         "hard_stop": bool(value.get("hard_stop", False)),
         "features": [
-            {"id": identifier, "label": features[identifier]}
-            for identifier in sorted(features)
+            {"id": identifier, "label": features[identifier]} for identifier in sorted(features)
         ],
         "evidence_claim_ids": sorted(
             {str(item) for item in value.get("evidence_claim_ids") or [] if item}
@@ -1178,9 +1115,7 @@ def _render_calibration_markdown(model: dict) -> str:
         lines.append(f"### {axis_name}")
         lines.append("")
         for gate, passed in axis["gates"].items():
-            lines.append(
-                f"- {'PASS' if passed else 'WAIT'} · {gate.replace('_', ' ')}"
-            )
+            lines.append(f"- {'PASS' if passed else 'WAIT'} · {gate.replace('_', ' ')}")
         lines.append("")
     lines.extend(
         [

@@ -651,7 +651,13 @@ def classify_item(
     content_text_lower = content_text.casefold()
     source_match_text = f"{content_text} {item.source_name}".casefold()
 
-    matched = sorted({keyword for keyword in merged_keyword_weights if phrase_in_text(keyword, content_text_lower)})
+    matched = sorted(
+        {
+            keyword
+            for keyword in merged_keyword_weights
+            if phrase_in_text(keyword, content_text_lower)
+        }
+    )
     category_scores: dict[str, int] = defaultdict(int)
     content_category_scores: dict[str, int] = defaultdict(int)
 
@@ -689,7 +695,9 @@ def classify_item(
     source_type_bonus = SOURCE_TYPE_BONUS.get(item.source_type, 0)
     source_weight_allowed = _allows_source_weight(topic_confidence)
     if source_weight_allowed:
-        source_weight_bonus, matched_sources = _source_weight_bonus(source_match_text, merged_source_weights)
+        source_weight_bonus, matched_sources = _source_weight_bonus(
+            source_match_text, merged_source_weights
+        )
     else:
         source_weight_bonus, matched_sources = 0, []
     category_weight_bonus = _category_weight_bonus(item)
@@ -709,9 +717,15 @@ def classify_item(
         - marketing_penalty
         - low_relevance_penalty,
     )
-    item.score = max(calculated_score, GOVERNMENT_PRIORITY_SCORE) if government_priority else calculated_score
+    item.score = (
+        max(calculated_score, GOVERNMENT_PRIORITY_SCORE)
+        if government_priority
+        else calculated_score
+    )
     item.matched_keywords = matched
-    rationales = _confidence_rationales(item, matched, matched_sources, content_text_lower, topic_confidence)
+    rationales = _confidence_rationales(
+        item, matched, matched_sources, content_text_lower, topic_confidence
+    )
     if government_priority:
         rationales.insert(0, "government/White House highest-priority signal")
     item.score_explanation = (
@@ -746,7 +760,9 @@ def _phrase_occurrences(phrase: str, text: str) -> int:
     return len(re.findall(_phrase_pattern(phrase), text.casefold()))
 
 
-def _merge_weights(defaults: Mapping[str, int], overrides: Mapping[str, int] | None) -> dict[str, int]:
+def _merge_weights(
+    defaults: Mapping[str, int], overrides: Mapping[str, int] | None
+) -> dict[str, int]:
     merged = {str(key).casefold(): int(value) for key, value in defaults.items()}
     for key, value in (overrides or {}).items():
         merged[str(key).casefold()] = int(value)
@@ -756,7 +772,9 @@ def _merge_weights(defaults: Mapping[str, int], overrides: Mapping[str, int] | N
 def _best_category(scores: dict[str, int]) -> str:
     if not scores:
         return "Classical Cybersecurity"
-    return max(CATEGORIES, key=lambda category: (scores.get(category, 0), -CATEGORIES.index(category)))
+    return max(
+        CATEGORIES, key=lambda category: (scores.get(category, 0), -CATEGORIES.index(category))
+    )
 
 
 def _disambiguate_quantum_category(content_text: str) -> str | None:
@@ -805,19 +823,22 @@ def _select_category(
     unsupported_categories: set[str] = set()
     if content_scores:
         supported_scores = dict(content_scores)
-        if _best_category(supported_scores) == "QEC / Fault Tolerance" and not _has_qec_signal(content_text):
+        if _best_category(supported_scores) == "QEC / Fault Tolerance" and not _has_qec_signal(
+            content_text
+        ):
             supported_scores.pop("QEC / Fault Tolerance", None)
             unsupported_categories.add("QEC / Fault Tolerance")
-        if (
-            _best_category(supported_scores) == "Quantum Software / Tooling"
-            and not _has_quantum_software_signal(content_text)
-        ):
+        if _best_category(
+            supported_scores
+        ) == "Quantum Software / Tooling" and not _has_quantum_software_signal(content_text):
             supported_scores.pop("Quantum Software / Tooling", None)
             unsupported_categories.add("Quantum Software / Tooling")
         if supported_scores:
             return _best_category(supported_scores)
     filtered_category_scores = {
-        category: score for category, score in category_scores.items() if category not in unsupported_categories
+        category: score
+        for category, score in category_scores.items()
+        if category not in unsupported_categories
     }
     return _best_category(filtered_category_scores)
 
@@ -965,7 +986,9 @@ def _topic_confidence(content_scores: dict[str, int], content_text: str) -> int:
         "Quantum Software / Tooling",
         "AI Security",
     )
-    confidence = max((supported_scores.get(category, 0) for category in topical_categories), default=0)
+    confidence = max(
+        (supported_scores.get(category, 0) for category in topical_categories), default=0
+    )
 
     if _has_pqc_signal(content_text):
         confidence += 4
@@ -986,7 +1009,9 @@ def _topic_confidence(content_scores: dict[str, int], content_text: str) -> int:
     if _has_standards_signal(content_text) and _has_quantum_context(content_text):
         confidence = max(confidence, 8)
 
-    if _has_any_signal(GENERIC_AI_TERMS, content_text) and not _has_ai_security_signal(content_text):
+    if _has_any_signal(GENERIC_AI_TERMS, content_text) and not _has_ai_security_signal(
+        content_text
+    ):
         confidence = max(0, confidence - 3)
     if _has_classical_cybersecurity_signal(content_text) and not (
         _has_pqc_signal(content_text) or _has_ai_security_signal(content_text)
@@ -1014,7 +1039,9 @@ def _allows_source_weight(topic_confidence: int) -> bool:
     return topic_confidence >= SOURCE_BOOST_TOPIC_CONFIDENCE_THRESHOLD
 
 
-def _source_weight_bonus(content_text: str, source_weights: Mapping[str, int]) -> tuple[int, list[str]]:
+def _source_weight_bonus(
+    content_text: str, source_weights: Mapping[str, int]
+) -> tuple[int, list[str]]:
     matches: list[str] = []
     total = 0
     for source, weight in source_weights.items():
@@ -1043,7 +1070,9 @@ def _category_weight_bonus(item: ResearchItem) -> int:
 def _vendor_marketing_penalty(item: ResearchItem, content_text: str) -> int:
     if item.category != "Vendor / Industry":
         return 0
-    return min(12, sum(3 for term in VENDOR_MARKETING_PENALTY_TERMS if phrase_in_text(term, content_text)))
+    return min(
+        12, sum(3 for term in VENDOR_MARKETING_PENALTY_TERMS if phrase_in_text(term, content_text))
+    )
 
 
 def _low_relevance_penalty(item: ResearchItem, content_text: str, topic_confidence: int) -> int:
@@ -1054,11 +1083,13 @@ def _low_relevance_penalty(item: ResearchItem, content_text: str, topic_confiden
         return penalty
     if item.category == "Classical Cybersecurity" and not _has_strong_research_signal(content_text):
         penalty += 24
-    if _has_any_signal(("blockchain", "smart contract", "cryptocurrency", "bitcoin"), content_text) and not (
-        _has_pqc_signal(content_text) or _has_ai_security_signal(content_text)
-    ):
+    if _has_any_signal(
+        ("blockchain", "smart contract", "cryptocurrency", "bitcoin"), content_text
+    ) and not (_has_pqc_signal(content_text) or _has_ai_security_signal(content_text)):
         penalty += 20
-    if _has_any_signal(GENERIC_AI_TERMS, content_text) and not _has_ai_security_signal(content_text):
+    if _has_any_signal(GENERIC_AI_TERMS, content_text) and not _has_ai_security_signal(
+        content_text
+    ):
         penalty += 18
     if "cs.cr" in content_text and not _has_strong_research_signal(content_text):
         penalty += 12
@@ -1106,7 +1137,8 @@ def _confidence_rationales(
     if item.category == "Quantum Software / Tooling":
         rationales.append("tooling/framework relevance")
     if item.category == "Standards / Policy" or any(
-        phrase_in_text(term, content_text) for term in ("nist", "cisa", "fips", "standard", "guidance")
+        phrase_in_text(term, content_text)
+        for term in ("nist", "cisa", "fips", "standard", "guidance")
     ):
         rationales.append("standards/governance relevance")
     if not rationales:

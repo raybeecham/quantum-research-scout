@@ -30,7 +30,8 @@ def prepare_notifications(
     immediate = [
         item
         for item in alerts
-        if item.get("is_new") and SEVERITY_RANK.get(str(item.get("severity", "low")).casefold(), 9) <= maximum_rank
+        if item.get("is_new")
+        and SEVERITY_RANK.get(str(item.get("severity", "low")).casefold(), 9) <= maximum_rank
     ][:max_items]
     daily_summary = bool(config.get("daily_summary", True))
     digest = alerts[:max_items] if daily_summary else []
@@ -40,13 +41,21 @@ def prepare_notifications(
 
     immediate_title = f"Quantum Research Scout: {len(immediate)} new {minimum}+ alert{'s' if len(immediate) != 1 else ''}"
     digest_title = f"Quantum Research Scout daily summary: {len(alerts)} active alert{'s' if len(alerts) != 1 else ''}"
-    _write_channel_payloads(output, "immediate", immediate_title, immediate, updated_at, repo_url, dashboard_url)
-    _write_channel_payloads(output, "digest", digest_title, digest, updated_at, repo_url, dashboard_url)
+    _write_channel_payloads(
+        output, "immediate", immediate_title, immediate, updated_at, repo_url, dashboard_url
+    )
+    _write_channel_payloads(
+        output, "digest", digest_title, digest, updated_at, repo_url, dashboard_url
+    )
 
     recipients = [value.strip() for value in email_to.split(",") if value.strip()][:50]
     email_ready = bool(recipients and email_from.strip())
-    _write_email_payload(output, "immediate", immediate_title, immediate, dashboard_url, recipients, email_from)
-    _write_email_payload(output, "digest", digest_title, digest, dashboard_url, recipients, email_from)
+    _write_email_payload(
+        output, "immediate", immediate_title, immediate, dashboard_url, recipients, email_from
+    )
+    _write_email_payload(
+        output, "digest", digest_title, digest, dashboard_url, recipients, email_from
+    )
     return {
         "send_immediate": bool(immediate),
         "send_digest": daily_summary,
@@ -80,7 +89,16 @@ def _write_channel_payloads(
         "blocks": [
             {"type": "header", "text": {"type": "plain_text", "text": title[:150]}},
             {"type": "section", "text": {"type": "mrkdwn", "text": text[:2900]}},
-            {"type": "actions", "elements": [{"type": "button", "text": {"type": "plain_text", "text": "Open dashboard"}, "url": dashboard_url}]},
+            {
+                "type": "actions",
+                "elements": [
+                    {
+                        "type": "button",
+                        "text": {"type": "plain_text", "text": "Open dashboard"},
+                        "url": dashboard_url,
+                    }
+                ],
+            },
         ],
     }
     teams = {
@@ -94,16 +112,26 @@ def _write_channel_payloads(
                     "type": "AdaptiveCard",
                     "version": "1.2",
                     "body": [
-                        {"type": "TextBlock", "size": "Large", "weight": "Bolder", "text": title, "wrap": True},
+                        {
+                            "type": "TextBlock",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "text": title,
+                            "wrap": True,
+                        },
                         {"type": "TextBlock", "text": text, "wrap": True},
                     ],
-                    "actions": [{"type": "Action.OpenUrl", "title": "Open dashboard", "url": dashboard_url}],
+                    "actions": [
+                        {"type": "Action.OpenUrl", "title": "Open dashboard", "url": dashboard_url}
+                    ],
                 },
             }
         ],
     }
     for name, body in (("generic", generic), ("slack", slack), ("teams", teams)):
-        (output / f"{name}-{kind}.json").write_text(json.dumps(body, indent=2) + "\n", encoding="utf-8")
+        (output / f"{name}-{kind}.json").write_text(
+            json.dumps(body, indent=2) + "\n", encoding="utf-8"
+        )
 
 
 def _write_email_payload(
@@ -121,18 +149,24 @@ def _write_email_payload(
         for item in alerts
     )
     body = (
-        "<h2>" + html.escape(subject) + "</h2>"
+        "<h2>"
+        + html.escape(subject)
+        + "</h2>"
         + (f"<ul>{entries}</ul>" if entries else "<p>No active alerts.</p>")
         + f'<p><a href="{html.escape(dashboard_url, quote=True)}">Open the intelligence dashboard</a></p>'
     )
     payload = {"from": sender, "to": recipients, "subject": subject, "html": body}
-    (output / f"email-{kind}.json").write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    (output / f"email-{kind}.json").write_text(
+        json.dumps(payload, indent=2) + "\n", encoding="utf-8"
+    )
 
 
 def _plain_text(title: str, alerts: list[dict], dashboard_url: str) -> str:
     lines = [f"*{title}*"]
     for item in alerts:
-        lines.append(f"• *{str(item.get('severity', 'unknown')).upper()}* — {item.get('title', 'Alert')}: {item.get('summary', '')}")
+        lines.append(
+            f"• *{str(item.get('severity', 'unknown')).upper()}* — {item.get('title', 'Alert')}: {item.get('summary', '')}"
+        )
     lines.append(f"Dashboard: {dashboard_url}")
     return "\n".join(lines)
 
@@ -146,13 +180,19 @@ def _load_config(path: str | Path) -> dict:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Prepare opt-in alert and daily-summary notification payloads.")
+    parser = argparse.ArgumentParser(
+        description="Prepare opt-in alert and daily-summary notification payloads."
+    )
     parser.add_argument("--alerts", default="reports/alerts.json")
     parser.add_argument("--config", default="alerts.yaml")
     parser.add_argument("--output-dir", default=".notifications")
     parser.add_argument("--github-output", default=None)
-    parser.add_argument("--repo-url", default="https://github.com/raybeecham/quantum-research-scout")
-    parser.add_argument("--dashboard-url", default="https://raybeecham.github.io/quantum-research-scout/")
+    parser.add_argument(
+        "--repo-url", default="https://github.com/raybeecham/quantum-research-scout"
+    )
+    parser.add_argument(
+        "--dashboard-url", default="https://raybeecham.github.io/quantum-research-scout/"
+    )
     parser.add_argument("--email-to", default="")
     parser.add_argument("--email-from", default="")
     args = parser.parse_args()

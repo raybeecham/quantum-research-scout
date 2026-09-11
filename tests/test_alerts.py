@@ -14,12 +14,8 @@ class AlertTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp_dir:
             reports = Path(temp_dir)
             (reports / "signals.json").write_text('{"themes": {}}', encoding="utf-8")
-            (reports / "source-health.json").write_text(
-                '{"sources": []}', encoding="utf-8"
-            )
-            (reports / "entity-watch.json").write_text(
-                '{"entities": []}', encoding="utf-8"
-            )
+            (reports / "source-health.json").write_text('{"sources": []}', encoding="utf-8")
+            (reports / "entity-watch.json").write_text('{"entities": []}', encoding="utf-8")
             (reports / "federal-funding.json").write_text(
                 '{"opportunity_radar": []}', encoding="utf-8"
             )
@@ -43,11 +39,7 @@ class AlertTests(unittest.TestCase):
                                             {
                                                 "summary": "Response deadline moved earlier.",
                                                 "materiality": "critical",
-                                                "after": {
-                                                    "source": {
-                                                        "source_url": evidence_url
-                                                    }
-                                                },
+                                                "after": {"source": {"source_url": evidence_url}},
                                             }
                                         ],
                                     },
@@ -205,13 +197,24 @@ class AlertTests(unittest.TestCase):
             )
             (reports / "source-health.json").write_text(
                 json.dumps(
-                    {"sources": [{"name": "Test Feed", "status": "degraded", "success_rate": 80, "warning_days": 2}]}
+                    {
+                        "sources": [
+                            {
+                                "name": "Test Feed",
+                                "status": "degraded",
+                                "success_rate": 80,
+                                "warning_days": 2,
+                            }
+                        ]
+                    }
                 ),
                 encoding="utf-8",
             )
             generated = datetime(2026, 7, 21, tzinfo=timezone.utc)
 
-            _, json_path, markdown_path = write_alerts(reports, reports / "missing.yaml", generated_at=generated)
+            _, json_path, markdown_path = write_alerts(
+                reports, reports / "missing.yaml", generated_at=generated
+            )
             first = json.loads(json_path.read_text(encoding="utf-8"))
             write_alerts(reports, reports / "missing.yaml", generated_at=generated)
             second = json.loads(json_path.read_text(encoding="utf-8"))
@@ -290,7 +293,9 @@ class AlertTests(unittest.TestCase):
             )
 
             _, json_path, _ = write_alerts(
-                reports, reports / "missing.yaml", generated_at=datetime(2026, 7, 21, tzinfo=timezone.utc)
+                reports,
+                reports / "missing.yaml",
+                generated_at=datetime(2026, 7, 21, tzinfo=timezone.utc),
             )
             payload = json.loads(json_path.read_text(encoding="utf-8"))
 

@@ -6,14 +6,13 @@ import re
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from .models import ResearchItem
 from .contractor_identity import resolve_contractor_identities
 from .evidence_admission import (
     funding_record_admission,
     inferred_relationship_admission,
 )
+from .models import ResearchItem
 from .text import compact_summary
-
 
 FUNDING_SOURCE_TYPES = {"federal_award", "grant_opportunity", "procurement"}
 FUNDING_UPDATE_PATTERN = re.compile(
@@ -32,10 +31,27 @@ DOMAIN_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
         "post-quantum cryptography",
         re.compile(r"\b(?:post[- ]quantum|quantum[- ]safe|pqc|ml-kem|ml-dsa)\b", re.IGNORECASE),
     ),
-    ("artificial intelligence", re.compile(r"\b(?:artificial intelligence|machine learning|AI)\b", re.IGNORECASE)),
-    ("cybersecurity", re.compile(r"\b(?:cybersecurity|cyber security|zero trust|cryptograph)\w*\b", re.IGNORECASE)),
-    ("advanced computing", re.compile(r"\b(?:high[- ]performance computing|supercomput|cloud|edge computing)\w*\b", re.IGNORECASE)),
-    ("autonomy and sensing", re.compile(r"\b(?:autonom\w*|robotic\w*|sensor\w*|sensing)\b", re.IGNORECASE)),
+    (
+        "artificial intelligence",
+        re.compile(r"\b(?:artificial intelligence|machine learning|AI)\b", re.IGNORECASE),
+    ),
+    (
+        "cybersecurity",
+        re.compile(
+            r"\b(?:cybersecurity|cyber security|zero trust|cryptograph)\w*\b", re.IGNORECASE
+        ),
+    ),
+    (
+        "advanced computing",
+        re.compile(
+            r"\b(?:high[- ]performance computing|supercomput|cloud|edge computing)\w*\b",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "autonomy and sensing",
+        re.compile(r"\b(?:autonom\w*|robotic\w*|sensor\w*|sensing)\b", re.IGNORECASE),
+    ),
 )
 WEAK_MISSION_ALIASES = {"project grant"}
 OPPORTUNITY_TYPES = {"grant_opportunity", "procurement_opportunity", "baa", "rfi"}
@@ -58,11 +74,15 @@ def write_federal_funding_tracker(
     markdown_path = reports / "federal-funding.md"
     generated = (generated_at or datetime.now(timezone.utc)).astimezone(timezone.utc)
     today = generated.date()
-    missions_payload = _read_json(Path(missions_path) if missions_path else reports / "federal-missions.json")
+    missions_payload = _read_json(
+        Path(missions_path) if missions_path else reports / "federal-missions.json"
+    )
     patents_payload = _read_json(Path(patents_path) if patents_path else reports / "patents.json")
     existing = _read_json(json_path)
     missions = [
-        item for item in missions_payload.get("missions", []) if isinstance(item, dict) and item.get("id")
+        item
+        for item in missions_payload.get("missions", [])
+        if isinstance(item, dict) and item.get("id")
     ]
     patents = [item for item in patents_payload.get("patents", []) if isinstance(item, dict)]
 
@@ -77,7 +97,8 @@ def write_federal_funding_tracker(
     by_key = {
         str(item["key"]): item
         for item in existing_records
-        if isinstance(item, dict) and item.get("key")
+        if isinstance(item, dict)
+        and item.get("key")
         and (
             item.get("provider") != "mission_tracker"
             or str(item.get("key")) in valid_mission_tracker_keys
@@ -163,16 +184,15 @@ def write_federal_funding_tracker(
     portfolios = _mission_portfolios(missions, records, recipients, patents)
     edges = _relationship_edges(portfolios, records)
     relationship_explorer = _relationship_explorer(portfolios, records, recipients, edges)
-    linked_keys = {
-        str(record["key"]) for record in records if record.get("mission_links")
-    }
+    linked_keys = {str(record["key"]) for record in records if record.get("mission_links")}
     summary = {
         "total_records": len(records),
         "awards": sum(item.get("record_type") in {"award", "award_notice"} for item in records),
-        "grant_opportunities": sum(item.get("record_type") == "grant_opportunity" for item in records),
+        "grant_opportunities": sum(
+            item.get("record_type") == "grant_opportunity" for item in records
+        ),
         "procurement_opportunities": sum(
-            item.get("record_type") in {"procurement_opportunity", "baa", "rfi"}
-            for item in records
+            item.get("record_type") in {"procurement_opportunity", "baa", "rfi"} for item in records
         ),
         "baas": sum(item.get("record_type") == "baa" for item in records),
         "rfis": sum(item.get("record_type") == "rfi" for item in records),
@@ -199,12 +219,12 @@ def write_federal_funding_tracker(
         ),
         "linked_records": len(linked_keys),
         "unlinked_records": len(records) - len(linked_keys),
-        "missions_with_activity": sum(int(item.get("record_count") or 0) > 0 for item in portfolios),
+        "missions_with_activity": sum(
+            int(item.get("record_count") or 0) > 0 for item in portfolios
+        ),
         "tracked_missions": len(portfolios),
         "unique_recipients_and_contractors": len(recipients),
-        "uei_resolved_contractors": sum(
-            bool(item.get("uei")) for item in contractor_identities
-        ),
+        "uei_resolved_contractors": sum(bool(item.get("uei")) for item in contractor_identities),
         "known_award_value": sum(
             float(item.get("amount") or 0)
             for item in records
@@ -212,8 +232,7 @@ def write_federal_funding_tracker(
         ),
         "quarantined_records": len(quarantined_records),
         "quarantined_mission_links": sum(
-            len(item.get("quarantined_mission_links", []))
-            for item in records
+            len(item.get("quarantined_mission_links", [])) for item in records
         ),
     }
     payload = {
@@ -261,9 +280,7 @@ def _candidate_record(item: ResearchItem, generated: datetime) -> dict:
     record_date = (
         item.published_at.date().isoformat()
         if item.published_at
-        else raw.get("posted_date")
-        or raw.get("open_date")
-        or raw.get("start_date")
+        else raw.get("posted_date") or raw.get("open_date") or raw.get("start_date")
     )
     amount = raw.get("amount")
     if amount is None:
@@ -288,15 +305,15 @@ def _candidate_record(item: ResearchItem, generated: datetime) -> dict:
         "parent_uei": raw.get("parent_uei"),
         "parent_name": raw.get("parent_name"),
         "award_type": raw.get("award_type") or raw.get("notice_type"),
-        "awarding_agency": raw.get("awarding_agency") or raw.get("agency") or raw.get("organization"),
+        "awarding_agency": raw.get("awarding_agency")
+        or raw.get("agency")
+        or raw.get("organization"),
         "funding_agency": raw.get("funding_agency"),
         "subagency": raw.get("awarding_subagency") or raw.get("funding_subagency"),
         "status_raw": raw.get("status"),
         "query_name": raw.get("query_name"),
         "query_keyword": raw.get("query_keyword"),
-        "configured_mission_ids": [
-            str(value) for value in raw.get("mission_ids", []) if value
-        ],
+        "configured_mission_ids": [str(value) for value in raw.get("mission_ids", []) if value],
         "assistance_listing_numbers": raw.get("assistance_listing_numbers") or [],
         "naics_code": raw.get("naics_code"),
         "classification_code": raw.get("classification_code"),
@@ -320,9 +337,7 @@ def _mission_funding_announcements(missions: list[dict], generated: datetime) ->
         for update in mission.get("updates", []):
             if not isinstance(update, dict):
                 continue
-            text = " ".join(
-                str(update.get(key) or "") for key in ("kind", "title", "summary")
-            )
+            text = " ".join(str(update.get(key) or "") for key in ("kind", "title", "summary"))
             if not FUNDING_UPDATE_PATTERN.search(text):
                 continue
             url = str(update.get("url") or mission.get("official_url") or "")
@@ -366,9 +381,7 @@ def _mission_links(record: dict, missions: list[dict]) -> list[dict]:
     return links
 
 
-def _mission_link_decisions(
-    record: dict, missions: list[dict]
-) -> tuple[list[dict], list[dict]]:
+def _mission_link_decisions(record: dict, missions: list[dict]) -> tuple[list[dict], list[dict]]:
     text = " ".join(
         str(record.get(key) or "")
         for key in (
@@ -401,8 +414,7 @@ def _mission_link_decisions(
             domain_matches = _mission_domain_matches(mission, text)
             score = (35 if agency_matches else 0) + min(30, len(domain_matches) * 15)
             basis = (
-                "agency/domain inference: "
-                + ", ".join([*agency_matches[:1], *domain_matches[:2]])
+                "agency/domain inference: " + ", ".join([*agency_matches[:1], *domain_matches[:2]])
                 if score >= 50
                 else ""
             )
@@ -481,9 +493,7 @@ def _aggregate_recipients(
 ) -> list[dict]:
     by_name: dict[str, dict] = {}
     identities_by_id = {
-        str(item["identity_id"]): item
-        for item in contractor_identities
-        if item.get("identity_id")
+        str(item["identity_id"]): item for item in contractor_identities if item.get("identity_id")
     }
     for record in records:
         name = str(record.get("recipient") or record.get("awardee") or "").strip()
@@ -504,8 +514,7 @@ def _aggregate_recipients(
                 "parent_name": identity.get("parent_name"),
                 "resolution_basis": identity.get("resolution_basis")
                 or "exact normalized legal name",
-                "resolution_confidence": identity.get("resolution_confidence")
-                or "medium",
+                "resolution_confidence": identity.get("resolution_confidence") or "medium",
                 "record_count": 0,
                 "award_count": 0,
                 "opportunity_count": 0,
@@ -531,16 +540,12 @@ def _aggregate_recipients(
                     "amount": record.get("amount"),
                     "agency": record.get("awarding_agency") or record.get("funding_agency"),
                     "url": record.get("url"),
-                    "mission_ids": [
-                        link["mission_id"] for link in record.get("mission_links", [])
-                    ],
+                    "mission_ids": [link["mission_id"] for link in record.get("mission_links", [])],
                 }
             )
         else:
             aggregate["opportunity_count"] += 1
-        agency = str(
-            record.get("awarding_agency") or record.get("funding_agency") or ""
-        ).strip()
+        agency = str(record.get("awarding_agency") or record.get("funding_agency") or "").strip()
         if agency:
             aggregate["agencies"].add(agency)
         subagency = str(record.get("subagency") or "").strip()
@@ -563,17 +568,13 @@ def _aggregate_recipients(
         for alias in item.get("aliases") or [item["name"]]:
             for patent in _organization_patents(alias, patents):
                 patent_key = str(
-                    patent.get("patent_id")
-                    or patent.get("publication_number")
-                    or patent.get("url")
+                    patent.get("patent_id") or patent.get("publication_number") or patent.get("url")
                 )
                 patent_matches[patent_key] = patent
         item["related_patents"] = list(patent_matches.values())
         for patent in item["related_patents"]:
             item["technology_specialties"].update(
-                _specialty_label(value)
-                for value in patent.get("strategic_domains", [])
-                if value
+                _specialty_label(value) for value in patent.get("strategic_domains", []) if value
             )
         award_records = sorted(
             item.pop("award_records"),
@@ -653,9 +654,10 @@ def _award_momentum(
 def _incumbency_label(contractor: dict) -> str:
     if contractor.get("award_momentum") == "new entrant":
         return "emerging entrant"
-    if int(contractor.get("award_count") or 0) >= 3 or float(
-        contractor.get("known_award_value") or 0
-    ) >= 10_000_000:
+    if (
+        int(contractor.get("award_count") or 0) >= 3
+        or float(contractor.get("known_award_value") or 0) >= 10_000_000
+    ):
         return "established incumbent"
     if int(contractor.get("award_count") or 0) >= 2:
         return "active incumbent"
@@ -757,11 +759,7 @@ def _add_contractor_peers(contractors: list[dict]) -> None:
             shared_specialties = sorted(
                 specialties & set(candidate.get("technology_specialties") or [])
             )
-            score = (
-                len(shared_missions) * 5
-                + len(shared_agencies) * 2
-                + len(shared_specialties)
-            )
+            score = len(shared_missions) * 5 + len(shared_agencies) * 2 + len(shared_specialties)
             if not shared_missions and not (shared_agencies and shared_specialties):
                 continue
             peers.append(
@@ -874,7 +872,9 @@ def _organization_patents(name: object, patents: list[dict]) -> list[dict]:
     for patent in patents:
         assignees = patent.get("assignee")
         values = assignees if isinstance(assignees, list) else [assignees]
-        if not any(_organization_equivalent(normalized, _normalize_organization(value)) for value in values):
+        if not any(
+            _organization_equivalent(normalized, _normalize_organization(value)) for value in values
+        ):
             continue
         matches.append(_patent_reference(patent, "assignee match", "high"))
     matches.sort(
@@ -1070,8 +1070,7 @@ def _relationship_explorer(
             status=record.get("status"),
             amount=record.get("amount"),
             close_date=record.get("close_date"),
-            score=record.get("opportunity_score")
-            or record.get("strategic_significance_score"),
+            score=record.get("opportunity_score") or record.get("strategic_significance_score"),
         )
         for patent in record.get("related_patents", []):
             add_node(
@@ -1112,9 +1111,7 @@ def _relationship_explorer(
             }
         )
 
-    included = {
-        node_id for node_id, node in nodes.items() if node.get("node_type") == "mission"
-    }
+    included = {node_id for node_id, node in nodes.items() if node.get("node_type") == "mission"}
     frontier = set(included)
     selected_edges: list[dict] = []
     for _ in range(3):
@@ -1157,13 +1154,11 @@ def _relationship_explorer(
             "edges": len(selected_edges),
             "missions": sum(node.get("node_type") == "mission" for node in selected_nodes),
             "execution_records": sum(
-                node.get("node_type")
-                not in {"mission", "recipient_or_contractor", "patent"}
+                node.get("node_type") not in {"mission", "recipient_or_contractor", "patent"}
                 for node in selected_nodes
             ),
             "contractors": sum(
-                node.get("node_type") == "recipient_or_contractor"
-                for node in selected_nodes
+                node.get("node_type") == "recipient_or_contractor" for node in selected_nodes
             ),
             "patents": sum(node.get("node_type") == "patent" for node in selected_nodes),
         },
@@ -1276,8 +1271,7 @@ def _opportunity_score(record: dict, missions: list[dict]) -> tuple[int, list[st
         score += mission_points
         factors.append(f"mission fit +{mission_points}")
         priority_by_id = {
-            str(mission.get("id")): str(mission.get("priority") or "")
-            for mission in missions
+            str(mission.get("id")): str(mission.get("priority") or "") for mission in missions
         }
         if any(priority_by_id.get(str(link.get("mission_id"))) == "critical" for link in links):
             score += 8
@@ -1525,9 +1519,7 @@ def _safe_date(value: object) -> date | None:
 def _merge_record(existing: dict, incoming: dict) -> dict:
     merged = dict(existing)
     for key, value in incoming.items():
-        if value not in (None, "", [], {}):
-            merged[key] = value
-        elif key not in merged:
+        if value not in (None, "", [], {}) or key not in merged:
             merged[key] = value
     if existing.get("first_seen_at"):
         merged["first_seen_at"] = existing["first_seen_at"]
@@ -1549,7 +1541,8 @@ def _render_markdown(payload: dict) -> str:
     lines = [
         "# Federal Funding and Procurement",
         "",
-        "> **Mission execution evidence** · Awards · Grants · BAAs and RFIs · Contractors · Patent connections",
+        "> **Mission execution evidence** · Awards · Grants · BAAs and RFIs · Contractors · "
+        "Patent connections",
         "",
         "[Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)",
         "",
@@ -1582,9 +1575,10 @@ def _render_markdown(payload: dict) -> str:
     ]
     for rank, item in enumerate(payload["opportunity_radar"][:30], start=1):
         title = _markdown_text(item.get("title") or "Untitled opportunity")
-        missions = ", ".join(
-            str(link["mission_name"]) for link in item.get("mission_links", [])
-        ) or "Not linked"
+        missions = (
+            ", ".join(str(link["mission_name"]) for link in item.get("mission_links", []))
+            or "Not linked"
+        )
         domains = ", ".join(str(value) for value in item.get("technology_domains", [])) or "General"
         new_label = " · NEW" if item.get("new_since_yesterday") else ""
         lines.append(
@@ -1597,14 +1591,17 @@ def _render_markdown(payload: dict) -> str:
             f"| {_markdown_text(item.get('recommended_action') or '')} |"
         )
     if not payload["opportunity_radar"]:
-        lines.append("| — | No open opportunities are currently available. | — | — | — | — | — | — |")
+        lines.append(
+            "| — | No open opportunities are currently available. | — | — | — | — | — | — |"
+        )
     lines.extend(
         [
-        "",
-        "## Mission Funding Portfolios",
-        "",
-        "| Mission | Records | Open | Known awards | Announced funding | Contractors / analytical patent matches |",
-        "|---|---:|---:|---:|---:|---|",
+            "",
+            "## Mission Funding Portfolios",
+            "",
+            "| Mission | Records | Open | Known awards | Announced funding | Contractors / "
+            "analytical patent matches |",
+            "|---|---:|---:|---:|---:|---|",
         ]
     )
     for portfolio in payload["mission_portfolios"]:
@@ -1637,10 +1634,13 @@ def _render_markdown(payload: dict) -> str:
         agency = _markdown_text(
             item.get("awarding_agency") or item.get("funding_agency") or "Not listed"
         )
-        missions = ", ".join(
-            f"{link['mission_name']} ({link['confidence']})"
-            for link in item.get("mission_links", [])
-        ) or "Not linked"
+        missions = (
+            ", ".join(
+                f"{link['mission_name']} ({link['confidence']})"
+                for link in item.get("mission_links", [])
+            )
+            or "Not linked"
+        )
         lines.append(
             f"| [{title}]({item.get('url') or '#'}) | {str(item['record_type']).upper()} "
             f"| {agency} "
@@ -1666,19 +1666,20 @@ def _render_markdown(payload: dict) -> str:
     )
     for item in awards[:30]:
         title = str(item["title"]).replace("|", r"\|")
-        recipient = _markdown_text(
-            item.get("recipient") or item.get("awardee") or "Not listed"
+        recipient = _markdown_text(item.get("recipient") or item.get("awardee") or "Not listed")
+        missions = (
+            ", ".join(str(link["mission_name"]) for link in item.get("mission_links", []))
+            or "Not linked"
         )
-        missions = ", ".join(
-            str(link["mission_name"]) for link in item.get("mission_links", [])
-        ) or "Not linked"
         lines.append(
             f"| [{title}]({item.get('url') or '#'}) | {item.get('date') or 'Unknown'} "
             f"| {recipient} "
             f"| {_money(item.get('amount')) if item.get('amount') else 'Not reported'} | {missions} |"
         )
     if not awards:
-        lines.append("| No awards or funding announcements have been collected yet. | — | — | — | — |")
+        lines.append(
+            "| No awards or funding announcements have been collected yet. | — | — | — | — |"
+        )
 
     lines.extend(
         [
@@ -1689,7 +1690,8 @@ def _render_markdown(payload: dict) -> str:
             "365 days. Peer labels are analytical indicators of shared missions, agencies, "
             "or technologies—not confirmed partnerships or competitive relationships.",
             "",
-            "| Contractor | Identity | Score | Incumbency | Momentum | Awards | Recent value | Agencies | Missions | Patents |",
+            "| Contractor | Identity | Score | Incumbency | Momentum | Awards | Recent value | "
+            "Agencies | Missions | Patents |",
             "|---|---|---:|---|---|---:|---:|---|---|---:|",
         ]
     )
@@ -1709,12 +1711,12 @@ def _render_markdown(payload: dict) -> str:
             f"| {len(item.get('related_patents') or [])} |"
         )
     if not payload["recipients_and_contractors"]:
-        lines.append("| No contractor profiles are available. | — | — | — | — | — | — | — | — | — |")
+        lines.append(
+            "| No contractor profiles are available. | — | — | — | — | — | — | — | — | — |"
+        )
 
     connected = [
-        item
-        for item in payload["recipients_and_contractors"]
-        if item.get("related_patents")
+        item for item in payload["recipients_and_contractors"] if item.get("related_patents")
     ]
     lines.extend(
         [
@@ -1735,7 +1737,9 @@ def _render_markdown(payload: dict) -> str:
             f"| {', '.join(item['mission_ids']) or 'Not linked'} |"
         )
     if not connected:
-        lines.append("| No recipient-to-patent assignee matches are available yet. | — | — | — | — |")
+        lines.append(
+            "| No recipient-to-patent assignee matches are available yet. | — | — | — | — |"
+        )
     lines.append("")
     return "\n".join(lines)
 

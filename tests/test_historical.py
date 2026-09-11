@@ -16,9 +16,15 @@ class HistoricalEvidenceTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp_dir:
             reports = Path(temp_dir)
             items = [
-                _item("Deloitte publishes a post-quantum readiness roadmap", "https://example.com/current", "2026-06-01"),
+                _item(
+                    "Deloitte publishes a post-quantum readiness roadmap",
+                    "https://example.com/current",
+                    "2026-06-01",
+                ),
                 _item("Deloitte explains post-quantum risk", "https://example.com/undated", None),
-                _item("Deloitte legacy post-quantum article", "https://example.com/old", "2020-01-01"),
+                _item(
+                    "Deloitte legacy post-quantum article", "https://example.com/old", "2020-01-01"
+                ),
             ]
             json_path, markdown_path = write_historical_evidence(
                 reports,
@@ -43,7 +49,13 @@ class HistoricalEvidenceTests(unittest.TestCase):
             reports = Path(temp_dir)
             write_historical_evidence(
                 reports,
-                [_item("Old official post-quantum evidence", "https://example.com/old", "2024-01-01")],
+                [
+                    _item(
+                        "Old official post-quantum evidence",
+                        "https://example.com/old",
+                        "2024-01-01",
+                    )
+                ],
                 selected_source_names={"Deloitte Quantum"},
                 lookback_days=1000,
                 generated_at=datetime(2026, 7, 21, tzinfo=timezone.utc),
@@ -65,7 +77,13 @@ class HistoricalEvidenceTests(unittest.TestCase):
             (reports / "signals.json").write_text('{"themes": {}}', encoding="utf-8")
             write_historical_evidence(
                 reports,
-                [_item("Deloitte post-quantum readiness services", "https://example.com/deloitte", None)],
+                [
+                    _item(
+                        "Deloitte post-quantum readiness services",
+                        "https://example.com/deloitte",
+                        None,
+                    )
+                ],
                 selected_source_names={"Deloitte Quantum"},
                 generated_at=datetime(2026, 7, 21, tzinfo=timezone.utc),
             )

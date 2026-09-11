@@ -12,7 +12,6 @@ from pqc_quantum_research_agent.collectors import collect_patents
 from pqc_quantum_research_agent.config import load_config
 from pqc_quantum_research_agent.patents import write_patent_tracker
 
-
 PATENT_RESPONSE = {
     "patentFileWrapperDataBag": [
         {
@@ -65,7 +64,7 @@ class PatentIntelligenceTests(unittest.TestCase):
             "queries": [
                 {"name": "PQC Patents", "search_query": '"post-quantum"'},
                 {"name": "Network Patents", "search_query": '"secure networks"'},
-            ]
+            ],
         }
 
         with patch.dict("os.environ", {"USPTO_ODP_API_KEY": "test-key"}):
@@ -101,7 +100,12 @@ class PatentIntelligenceTests(unittest.TestCase):
         config = {
             "provider": "uspto_odp",
             "api_key_env": "USPTO_ODP_API_KEY",
-            "queries": [{"name": "PQC Patents", "search_query": 'applicationMetaData.inventionTitle:"quantum"'}],
+            "queries": [
+                {
+                    "name": "PQC Patents",
+                    "search_query": 'applicationMetaData.inventionTitle:"quantum"',
+                }
+            ],
         }
 
         with patch.dict("os.environ", {"USPTO_ODP_API_KEY": "test-key"}):

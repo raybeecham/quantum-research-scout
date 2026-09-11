@@ -58,12 +58,8 @@ class ProcurementIntelligenceTests(unittest.TestCase):
         }
 
         self.assertGreater(
-            _document_refresh_priority(
-                unfetched_lower_score, {}, set(), generated
-            ),
-            _document_refresh_priority(
-                fresh_high_score, previous, set(), generated
-            ),
+            _document_refresh_priority(unfetched_lower_score, {}, set(), generated),
+            _document_refresh_priority(fresh_high_score, previous, set(), generated),
         )
 
     def test_extracts_document_evidence_and_builds_provisional_brief(self) -> None:
@@ -88,9 +84,7 @@ class ProcurementIntelligenceTests(unittest.TestCase):
                                         "mission_name": "Test Mission",
                                     }
                                 ],
-                                "resource_links": [
-                                    "https://files.sam.gov/amendment-0001.txt"
-                                ],
+                                "resource_links": ["https://files.sam.gov/amendment-0001.txt"],
                                 "points_of_contact": [
                                     {
                                         "full_name": "Alex Contracting",
@@ -136,10 +130,7 @@ class ProcurementIntelligenceTests(unittest.TestCase):
         )
         self.assertIn("https://files.sam.gov/amendment-0001.txt", brief["source_urls"])
         self.assertEqual(
-            sum(
-                int(component["points"])
-                for component in brief["decision_trace"]["components"]
-            ),
+            sum(int(component["points"]) for component in brief["decision_trace"]["components"]),
             brief["public_evidence_score"],
         )
         self.assertEqual(brief["decision_score"], brief["public_evidence_score"])
@@ -194,9 +185,7 @@ class ProcurementIntelligenceTests(unittest.TestCase):
                                 "title": "Post-quantum migration",
                                 "awarding_agency": "Department of Defense",
                                 "opportunity_score": 70,
-                                "technology_domains": [
-                                    "post-quantum cryptography"
-                                ],
+                                "technology_domains": ["post-quantum cryptography"],
                             }
                         ]
                     }

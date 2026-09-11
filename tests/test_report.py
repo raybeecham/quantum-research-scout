@@ -168,7 +168,8 @@ class ReportTests(unittest.TestCase):
         self.assertIn("## Top Hardware / QEC Signals", digest)
         self.assertIn("### Logical qubit QEC architecture improves fault tolerance", digest)
         self.assertIn(
-            "_QEC / Fault Tolerance • arXiv quant-ph • Published 2026-05-12 07:00 America/Chicago • CRITICAL 72_",
+            "_QEC / Fault Tolerance • arXiv quant-ph • Published 2026-05-12 07:00 "
+            "America/Chicago • CRITICAL 72_",
             digest,
         )
         self.assertIn("## Strategic Signals", digest)
@@ -180,7 +181,9 @@ class ReportTests(unittest.TestCase):
         self.assertNotIn("Summary:", digest)
         self.assertNotIn("Confidence rationale:", digest)
 
-        key_points = _key_points_for(digest, "Logical qubit QEC architecture improves fault tolerance")
+        key_points = _key_points_for(
+            digest, "Logical qubit QEC architecture improves fault tolerance"
+        )
         self.assertGreaterEqual(len(key_points), 1)
         self.assertLessEqual(len(key_points), 4)
         self.assertTrue(all(len(point.removeprefix("- ")) <= 220 for point in key_points))
@@ -242,8 +245,12 @@ class ReportTests(unittest.TestCase):
         self.assertIn("### Prompt injection defenses for LLM agents", digest)
         self.assertIn("model abuse", digest)
 
-        hardware_section = digest.split("## Top Hardware / QEC Signals", 1)[1].split("## Top Quantum Networking Signals", 1)[0]
-        networking_section = digest.split("## Top Quantum Networking Signals", 1)[1].split("## Research", 1)[0]
+        hardware_section = digest.split("## Top Hardware / QEC Signals", 1)[1].split(
+            "## Top Quantum Networking Signals", 1
+        )[0]
+        networking_section = digest.split("## Top Quantum Networking Signals", 1)[1].split(
+            "## Research", 1
+        )[0]
         self.assertNotIn("Prompt injection defenses for LLM agents", hardware_section)
         self.assertNotIn("Prompt injection defenses for LLM agents", networking_section)
 
@@ -296,7 +303,9 @@ class ReportTests(unittest.TestCase):
 
         digest = render_digest(items, date(2026, 5, 12), summary=summary, top_n=6, min_score=3)
 
-        strategic_section = digest.split("## Strategic Signals", 1)[1].split("## Top PQC / Security Signals", 1)[0]
+        strategic_section = digest.split("## Strategic Signals", 1)[1].split(
+            "## Top PQC / Security Signals", 1
+        )[0]
         self.assertEqual(strategic_section.count("### "), 5)
         self.assertIn("ML-KEM certificate migration roadmap", strategic_section)
         self.assertNotIn("CBOM audit requirement", strategic_section)
@@ -338,7 +347,11 @@ class ReportTests(unittest.TestCase):
             date_filter_status="included_today",
             category="Quantum Networking",
             score=52,
-            matched_keywords=["nonreciprocity", "entanglement distribution", "quantum communication"],
+            matched_keywords=[
+                "nonreciprocity",
+                "entanglement distribution",
+                "quantum communication",
+            ],
             score_explanation="topic_confidence=12; rationale=quantum networking or repeater relevance",
         )
         summary = DateFilterSummary(
@@ -397,7 +410,12 @@ class ReportTests(unittest.TestCase):
             date_filter_status="included_today",
             category="Crypto Agility",
             score=78,
-            matched_keywords=["ml-kem", "certificate migration", "hybrid tls", "cryptographic inventory"],
+            matched_keywords=[
+                "ml-kem",
+                "certificate migration",
+                "hybrid tls",
+                "cryptographic inventory",
+            ],
             score_explanation="topic_confidence=14; rationale=strong PQC keyword match",
         )
         summary = DateFilterSummary(
@@ -450,11 +468,14 @@ class ReportTests(unittest.TestCase):
         )
 
         digest = render_digest([item], date(2026, 5, 12), summary=summary, min_score=3)
-        strategic_section = digest.split("## Strategic Signals", 1)[1].split("## Top PQC / Security Signals", 1)[0]
+        strategic_section = digest.split("## Strategic Signals", 1)[1].split(
+            "## Top PQC / Security Signals", 1
+        )[0]
 
         self.assertIn("---", strategic_section)
         self.assertIn(
-            "_QEC / Fault Tolerance • arXiv RSS quant-ph • Published 2026-05-12 07:00 America/Chicago • CRITICAL 82_",
+            "_QEC / Fault Tolerance • arXiv RSS quant-ph • Published 2026-05-12 07:00 "
+            "America/Chicago • CRITICAL 82_",
             strategic_section,
         )
         self.assertIn("Key points:", strategic_section)
@@ -545,7 +566,11 @@ class ReportTests(unittest.TestCase):
             date_filter_status="included_today",
             category="Quantum Networking",
             score=66,
-            matched_keywords=["distributed quantum computing", "entanglement distribution", "repeater"],
+            matched_keywords=[
+                "distributed quantum computing",
+                "entanglement distribution",
+                "repeater",
+            ],
             score_explanation="topic_confidence=14; rationale=quantum networking or repeater relevance",
         )
         summary = DateFilterSummary(
@@ -556,7 +581,9 @@ class ReportTests(unittest.TestCase):
         )
 
         digest = render_digest([item], date(2026, 5, 12), summary=summary, min_score=3)
-        key_points = _key_points_for(digest, "Distributed quantum computer tolerates device failure")
+        key_points = _key_points_for(
+            digest, "Distributed quantum computer tolerates device failure"
+        )
 
         self.assertTrue(key_points)
         self.assertTrue(all(len(point.removeprefix("- ")) <= 220 for point in key_points))
@@ -571,8 +598,12 @@ class ReportTests(unittest.TestCase):
 
         sentences = split_candidate_sentences(summary)
 
-        self.assertIn("The U.S. program tests QKD links with modular quantum network nodes.", sentences)
-        self.assertTrue(any("stable entanglement distribution" in sentence for sentence in sentences))
+        self.assertIn(
+            "The U.S. program tests QKD links with modular quantum network nodes.", sentences
+        )
+        self.assertTrue(
+            any("stable entanglement distribution" in sentence for sentence in sentences)
+        )
 
     def test_key_points_remain_readable(self) -> None:
         item = ResearchItem(
@@ -605,7 +636,9 @@ class ReportTests(unittest.TestCase):
 
         self.assertGreaterEqual(len(key_points), 2)
         self.assertLessEqual(len(key_points), 4)
-        self.assertFalse(any("coherent phases as" in point or "abili" in point for point in key_points))
+        self.assertFalse(
+            any("coherent phases as" in point or "abili" in point for point in key_points)
+        )
         self.assertTrue(any("ML-KEM" in point for point in key_points))
         self.assertTrue(any("cryptographic inventories" in point for point in key_points))
 
@@ -666,7 +699,9 @@ class ReportTests(unittest.TestCase):
         )
 
         digest = render_digest([item], date(2026, 5, 12), summary=summary, min_score=3)
-        key_point_lines = _key_points_block_for(digest, "Quantum simulator framework improves benchmarking")
+        key_point_lines = _key_points_block_for(
+            digest, "Quantum simulator framework improves benchmarking"
+        )
 
         self.assertGreaterEqual(len(key_point_lines), 2)
         self.assertTrue(all(line.startswith("- ") for line in key_point_lines))
@@ -701,7 +736,9 @@ class ReportTests(unittest.TestCase):
         digest = render_digest([item], date(2026, 5, 12), summary=summary, min_score=3)
         key_points = _key_points_for(digest, "NIST publishes ML-KEM migration guidance")
 
-        self.assertFalse(any(point == "- NIST publishes ML-KEM migration guidance" for point in key_points))
+        self.assertFalse(
+            any(point == "- NIST publishes ML-KEM migration guidance" for point in key_points)
+        )
         self.assertTrue(any("PKI" in point for point in key_points))
         self.assertTrue(any("crypto-agility" in point for point in key_points))
 
@@ -728,7 +765,9 @@ class ReportTests(unittest.TestCase):
 
         digest = render_digest([item], date(2026, 5, 12), summary=summary, min_score=3)
 
-        self.assertIn("### IBM Quantum Network Adds NYU for Quantum Computing Collaboration", digest)
+        self.assertIn(
+            "### IBM Quantum Network Adds NYU for Quantum Computing Collaboration", digest
+        )
         self.assertNotIn("### Networking 7h ago", digest)
         self.assertNotIn("Top signal: Networking 7h ago", digest)
 
@@ -755,7 +794,9 @@ class ReportTests(unittest.TestCase):
 
         digest = render_digest([item], date(2026, 5, 12), summary=summary, min_score=3)
 
-        self.assertEqual(digest.count("### Spatial overhead reduction for 2D hypergraph product codes"), 1)
+        self.assertEqual(
+            digest.count("### Spatial overhead reduction for 2D hypergraph product codes"), 1
+        )
         self.assertIn(
             "- Spatial overhead reduction for 2D hypergraph product codes — already featured in Strategic Signals. "
             "[Open item](https://example.com/strategic-dedupe)",
@@ -871,10 +912,14 @@ class ReportTests(unittest.TestCase):
         )
 
         digest = render_digest([item], date(2026, 5, 12), summary=summary, min_score=3)
-        strategic_section = digest.split("## Strategic Signals", 1)[1].split("## Top PQC / Security Signals", 1)[0]
+        strategic_section = digest.split("## Strategic Signals", 1)[1].split(
+            "## Top PQC / Security Signals", 1
+        )[0]
 
         self.assertNotIn("### IonQ secures Series B partner ecosystem funding", strategic_section)
-        self.assertIn("No high-impact strategic signals met the current report filters.", strategic_section)
+        self.assertIn(
+            "No high-impact strategic signals met the current report filters.", strategic_section
+        )
 
     def test_strategic_signals_include_pqc_qec_and_networking(self) -> None:
         items = [
@@ -914,7 +959,11 @@ class ReportTests(unittest.TestCase):
                 date_filter_status="included_today",
                 category="Quantum Networking",
                 score=65,
-                matched_keywords=["distributed quantum computing", "repeater", "entanglement distribution"],
+                matched_keywords=[
+                    "distributed quantum computing",
+                    "repeater",
+                    "entanglement distribution",
+                ],
                 score_explanation="topic_confidence=14; rationale=quantum networking or repeater relevance",
             ),
         ]
@@ -926,9 +975,13 @@ class ReportTests(unittest.TestCase):
         )
 
         digest = render_digest(items, date(2026, 5, 12), summary=summary, top_n=3, min_score=3)
-        strategic_section = digest.split("## Strategic Signals", 1)[1].split("## Top PQC / Security Signals", 1)[0]
+        strategic_section = digest.split("## Strategic Signals", 1)[1].split(
+            "## Top PQC / Security Signals", 1
+        )[0]
 
-        self.assertIn("### NIST publishes ML-KEM crypto-agility migration guidance", strategic_section)
+        self.assertIn(
+            "### NIST publishes ML-KEM crypto-agility migration guidance", strategic_section
+        )
         self.assertIn("### LDPC decoder improves logical qubit fault tolerance", strategic_section)
         self.assertIn("### Distributed quantum computing over repeater networks", strategic_section)
 
@@ -946,7 +999,12 @@ class ReportTests(unittest.TestCase):
             date_filter_status="included_today",
             category="Crypto Agility",
             score=78,
-            matched_keywords=["ml-kem", "certificate migration", "hybrid tls", "cryptographic inventory"],
+            matched_keywords=[
+                "ml-kem",
+                "certificate migration",
+                "hybrid tls",
+                "cryptographic inventory",
+            ],
             score_explanation="topic_confidence=14; rationale=strong PQC keyword match",
         )
         summary = DateFilterSummary(
@@ -1093,13 +1151,17 @@ class ReportTests(unittest.TestCase):
         )
 
         digest = render_digest(items, date(2026, 5, 12), summary=summary, top_n=2, min_score=3)
-        strategic_section = digest.split("## Strategic Signals", 1)[1].split("## Top PQC / Security Signals", 1)[0]
+        strategic_section = digest.split("## Strategic Signals", 1)[1].split(
+            "## Top PQC / Security Signals", 1
+        )[0]
         hardware_section = digest.split("## Top Hardware / QEC Signals", 1)[1].split(
             "## Top Quantum Networking Signals", 1
         )[0]
 
         self.assertEqual(strategic_section.count("### Infleqtion"), 1)
-        self.assertIn("### Infleqtion launches Quantum Spectrum RF sensing platform", strategic_section)
+        self.assertIn(
+            "### Infleqtion launches Quantum Spectrum RF sensing platform", strategic_section
+        )
         self.assertEqual(hardware_section.count("already featured in Strategic Signals"), 1)
         self.assertIn(
             "- Infleqtion launches Quantum Spectrum RF sensing platform — already featured in Strategic Signals. "
@@ -1256,7 +1318,12 @@ def _exact_markdown_item(url: str) -> ResearchItem:
         date_filter_status="included_today",
         category="Crypto Agility",
         score=78,
-        matched_keywords=["ml-kem", "certificate migration", "hybrid tls", "cryptographic inventory"],
+        matched_keywords=[
+            "ml-kem",
+            "certificate migration",
+            "hybrid tls",
+            "cryptographic inventory",
+        ],
         score_explanation="topic_confidence=14; rationale=strong PQC keyword match",
     )
 
