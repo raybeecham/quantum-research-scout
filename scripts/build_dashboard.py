@@ -192,6 +192,7 @@ def build_dashboard(
         "components.css",
         "app.js",
         "entity.js",
+        "favicon.svg",
     )
     version_input = generated_at + "".join(
         (assets / name).read_text(encoding="utf-8") for name in asset_names

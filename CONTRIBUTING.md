@@ -21,8 +21,10 @@ Run all three before opening a pull request. CI runs the same commands.
 
 ```bash
 ruff check .            # lint
-ruff format .           # format (use --check in CI mode)
-pytest                  # 250+ unit tests, no network access required
+ruff format .           # format Python (use --check in CI mode)
+pytest                  # 260 unit tests, no network access required
+
+npx prettier@3 --write "dashboard/*.{js,css,html}"   # format dashboard source
 ```
 
 Tests never reach the network. Collectors are exercised through fixtures and fakes,

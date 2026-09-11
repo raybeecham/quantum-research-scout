@@ -36,6 +36,14 @@ jobs:
       - name: Check formatting
         run: ruff format --check --diff .
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Check dashboard formatting
+        run: npx --yes prettier@3.9.6 --check "dashboard/*.{js,css,html}"
+
   test:
     name: Tests (Python ${{ matrix.python-version }})
     runs-on: ubuntu-latest
@@ -82,6 +90,6 @@ jobs:
 
       - name: Confirm the build produced the expected assets
         run: |
-          for asset in index.html entity.html styles.css app.js entity.js data/dashboard.json; do
+          for asset in index.html entity.html styles.css components.css app.js entity.js favicon.svg data/dashboard.json; do
             test -s "site/$asset" || { echo "missing or empty: site/$asset"; exit 1; }
           done

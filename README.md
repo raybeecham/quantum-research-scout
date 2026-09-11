@@ -138,7 +138,7 @@ Patent records can reveal technical investment and IP positioning. They do not p
 git clone https://github.com/raybeecham/quantum-research-scout.git
 cd quantum-research-scout
 python -m venv .venv
-python -m pip install -e .
+python -m pip install -e .          # add ".[dev]" for pytest and ruff
 ```
 
 Activate the environment:
@@ -243,9 +243,13 @@ These labels prioritize review. They do not replace the underlying evidence.
 ```text
 pqc_quantum_research_agent/  collection, scoring, ledgers, and report generation
 dashboard/                   static GitHub Pages source
+  styles.css                 design tokens, base elements, layout, shared primitives
+  components.css             feature modules, built on those tokens
+  app.js / entity.js         dashboard and organization-profile behavior
 reports/                     generated briefings and structured intelligence
 scripts/                     dashboard, backfill, and notification utilities
-.github/workflows/           daily, weekly, monthly, backfill, and deployment automation
+tests/                       unit tests, mirroring the module they cover
+.github/workflows/           CI plus daily, weekly, monthly, backfill, and deployment automation
 
 sources.yaml                 collection and query configuration
 missions.yaml                federal mission portfolio
@@ -263,6 +267,16 @@ alerts.yaml                  alert and delivery policy
 - Daily reports use America/Chicago operational dates and retain 30 days; weekly and monthly syntheses remain available.
 - Empty or rate-limited sources do not stop the remaining collection run.
 - Human review remains essential for procurement decisions, patent interpretation, readiness claims, and strategic conclusions.
+
+## Contributing
+
+Setup, checks, conventions, and the evidence rules that changes must respect are in
+[CONTRIBUTING.md](CONTRIBUTING.md). Run `ruff check .`, `ruff format .`, and `pytest`
+before opening a pull request; CI runs the same commands on Python 3.10 through 3.12.
+
+## License
+
+[MIT](LICENSE).
 
 ---
 

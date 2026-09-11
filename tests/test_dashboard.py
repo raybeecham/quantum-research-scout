@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import tempfile
 import unittest
 from pathlib import Path
@@ -42,6 +43,7 @@ class DashboardBuildTests(unittest.TestCase):
                 "components.css",
                 "app.js",
                 "entity.js",
+                "favicon.svg",
             ):
                 content = f"{name}?v=__ASSET_VERSION__"
                 (dashboard / name).write_text(content, encoding="utf-8")
@@ -626,7 +628,8 @@ class DashboardBuildTests(unittest.TestCase):
     def test_dashboard_vibrant_experience_stays_dynamic_and_accessible(self) -> None:
         root = Path(__file__).parents[1]
         html = (root / "dashboard" / "index.html").read_text(encoding="utf-8")
-        styles = (root / "dashboard" / "components.css").read_text(encoding="utf-8")
+        tokens = (root / "dashboard" / "styles.css").read_text(encoding="utf-8")
+        components = (root / "dashboard" / "components.css").read_text(encoding="utf-8")
         script = (root / "dashboard" / "app.js").read_text(encoding="utf-8")
 
         self.assertIn('class="hero-visual"', html)
@@ -638,11 +641,39 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("Decision-ready intelligence", html)
         self.assertNotIn("Fresh intelligence", html)
         self.assertNotIn("89 tracked", html)
-        self.assertIn("--bg:#0b1020", styles)
-        self.assertNotIn(".hero-radar-card{", styles)
-        self.assertIn("--surface:#151d32", styles)
-        self.assertIn("prefers-reduced-motion:reduce", styles)
+        self.assertNotIn(".hero-radar-card {", components)
+        self.assertIn("prefers-reduced-motion: reduce", tokens)
         self.assertIn("setupReveal", script)
         self.assertIn("animateMetrics", script)
-        self.assertIn("--type-caption:11px", styles)
-        self.assertIn("--type-body-readable:14px", styles)
+
+        # styles.css is the single source of the palette and type scale.
+        self.assertIn("--bg: #0b1020", tokens)
+        self.assertIn("--surface: #151d32", tokens)
+        self.assertIn("--text-2xs: 11px", tokens)
+        self.assertIn("--text-md: 14px", tokens)
+
+    def test_dashboard_styles_keep_one_token_source_and_a_legible_floor(self) -> None:
+        root = Path(__file__).parents[1]
+        tokens = (root / "dashboard" / "styles.css").read_text(encoding="utf-8")
+        components = (root / "dashboard" / "components.css").read_text(encoding="utf-8")
+
+        # Feature modules consume tokens; they must not re-declare the palette.
+        self.assertNotIn(":root {", components)
+
+        # Nothing on the page may drop below the 11px floor. The hero orb glyph
+        # is decorative and deliberately oversized, so only small values matter.
+        undersized = [
+            int(match)
+            for match in re.findall(r"font-size: (\d+)px", tokens + components)
+            if int(match) < 11
+        ]
+        self.assertEqual(undersized, [], f"font sizes below the 11px floor: {sorted(undersized)}")
+
+        # Colours are tokenised, so no raw rgba()/hex literals outside styles.css.
+        self.assertEqual(re.findall(r"rgba\(\s*\d", components), [])
+        stray_hex = [
+            value
+            for value in re.findall(r"#[0-9a-fA-F]{3,8}\b", components)
+            if value != "#000"  # mask layers need a plain opaque paint
+        ]
+        self.assertEqual(stray_hex, [])
