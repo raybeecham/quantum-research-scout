@@ -25,7 +25,6 @@ from .capabilities import capability_publication_enabled, score_capability_fit
 from .http import HttpClient
 from .text import compact_summary, strip_html
 
-
 REQUIREMENT_PATTERN = re.compile(
     r"\b(?:shall|must|required|mandatory|minimum requirement|offeror will)\b",
     re.IGNORECASE,
@@ -65,9 +64,7 @@ DATE_PATTERN = re.compile(
     re.IGNORECASE,
 )
 EMAIL_PATTERN = re.compile(r"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b", re.IGNORECASE)
-PHONE_PATTERN = re.compile(
-    r"(?<!\d)(?:\+?1[\s.-]?)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}(?!\d)"
-)
+PHONE_PATTERN = re.compile(r"(?<!\d)(?:\+?1[\s.-]?)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}(?!\d)")
 SUPPORTED_TEXT_TYPES = {
     ".txt",
     ".csv",
@@ -103,10 +100,7 @@ def write_procurement_intelligence(
         for item in funding.get("opportunity_radar", [])
         if isinstance(item, dict)
         and item.get("key")
-        and (
-            str(item.get("key")).startswith("sam_gov:")
-            or bool(_document_urls(item))
-        )
+        and (str(item.get("key")).startswith("sam_gov:") or bool(_document_urls(item)))
     ][: int(config.get("max_opportunities", 20))]
     if not config.get("enabled", True):
         opportunities = []
@@ -150,14 +144,10 @@ def write_procurement_intelligence(
         for doc in item.get("documents", [])
     )
     changed_documents = sum(
-        bool(doc.get("is_changed"))
-        for item in analyzed
-        for doc in item.get("documents", [])
+        bool(doc.get("is_changed")) for item in analyzed for doc in item.get("documents", [])
     )
     new_amendments = sum(
-        bool(doc.get("new_amendment"))
-        for item in analyzed
-        for doc in item.get("documents", [])
+        bool(doc.get("new_amendment")) for item in analyzed for doc in item.get("documents", [])
     )
     material_impacts = [
         item.get("latest_amendment_impact")
@@ -425,9 +415,7 @@ def _analyze_opportunity_documents(
         previous_snapshot if isinstance(previous_snapshot, dict) else None,
         current_snapshot,
         detected_at=generated.isoformat(),
-        new_amendment_documents=[
-            item for item in documents if item.get("new_amendment")
-        ],
+        new_amendment_documents=[item for item in documents if item.get("new_amendment")],
         similarity_threshold=float(config.get("amendment_similarity_threshold", 0.62)),
     )
     if impact is None:
@@ -442,8 +430,7 @@ def _analyze_opportunity_documents(
         and previous_snapshot.get("snapshot_id")
         and previous_snapshot.get("snapshot_id") != current_snapshot.get("snapshot_id")
         and not any(
-            item.get("snapshot_id") == previous_snapshot.get("snapshot_id")
-            for item in history
+            item.get("snapshot_id") == previous_snapshot.get("snapshot_id") for item in history
         )
     ):
         history.append(compact_snapshot(previous_snapshot))
@@ -513,10 +500,7 @@ def _document_refresh_priority(
     ]
     never_fetched = bool(current_urls) and len(fetched) < len(current_urls)
     oldest_age = max(
-        (
-            max(0.0, (generated - value).total_seconds())
-            for value in fetched
-        ),
+        (max(0.0, (generated - value).total_seconds()) for value in fetched),
         default=10**12,
     )
     return (
@@ -564,10 +548,15 @@ def _extract_document_text(
     elif suffix in {".html", ".htm"} or "html" in media_type:
         text = strip_html(_decode_text(content))
         metadata["format"] = "html"
-    elif suffix in SUPPORTED_TEXT_TYPES or media_type.startswith("text/") or media_type in {
-        "application/json",
-        "application/xml",
-    }:
+    elif (
+        suffix in SUPPORTED_TEXT_TYPES
+        or media_type.startswith("text/")
+        or media_type
+        in {
+            "application/json",
+            "application/xml",
+        }
+    ):
         text = strip_html(_decode_text(content))
         metadata["format"] = suffix.lstrip(".") or media_type
     else:
@@ -682,9 +671,7 @@ def _build_decision_briefs(
         risk_penalty = 15 if isinstance(days, int) and days <= 3 else 8 if not documents else 0
         base_opportunity_score = int(opportunity.get("opportunity_score") or 0)
         document_evidence_bonus = min(10, completeness // 10)
-        unclamped_score = (
-            base_opportunity_score + document_evidence_bonus - risk_penalty
-        )
+        unclamped_score = base_opportunity_score + document_evidence_bonus - risk_penalty
         score = max(
             0,
             min(
@@ -697,16 +684,12 @@ def _build_decision_briefs(
                 "code": "opportunity_evidence",
                 "points": base_opportunity_score,
                 "basis": opportunity.get("opportunity_factors") or [],
-                "evidence_urls": [opportunity.get("url")]
-                if opportunity.get("url")
-                else [],
+                "evidence_urls": [opportunity.get("url")] if opportunity.get("url") else [],
             },
             {
                 "code": "document_evidence",
                 "points": document_evidence_bonus,
-                "basis": [
-                    f"{completeness} / 100 document evidence completeness"
-                ],
+                "basis": [f"{completeness} / 100 document evidence completeness"],
                 "evidence_urls": documents.get("source_urls") or [],
             },
             {
@@ -721,9 +704,7 @@ def _build_decision_briefs(
                         else "No public risk penalty"
                     )
                 ],
-                "evidence_urls": [opportunity.get("url")]
-                if opportunity.get("url")
-                else [],
+                "evidence_urls": [opportunity.get("url")] if opportunity.get("url") else [],
             },
         ]
         clamp_adjustment = score - unclamped_score
@@ -736,14 +717,11 @@ def _build_decision_briefs(
                     "evidence_urls": [],
                 }
             )
-        publish_capability_fit = capability_publication_enabled(
-            capability_profile or {}
-        )
+        publish_capability_fit = capability_publication_enabled(capability_profile or {})
         capability_fit = score_capability_fit(
             {
                 **opportunity,
-                "agency": opportunity.get("awarding_agency")
-                or opportunity.get("funding_agency"),
+                "agency": opportunity.get("awarding_agency") or opportunity.get("funding_agency"),
                 "technology_fit": opportunity.get("technology_domains") or [],
                 "requirements": documents.get("requirements") or [],
                 "evaluation_criteria": documents.get("evaluation_criteria") or [],
@@ -776,16 +754,14 @@ def _build_decision_briefs(
         ]
         impact = documents.get("latest_amendment_impact")
         requires_revalidation = bool(
-            isinstance(impact, dict)
-            and impact.get("requires_decision_revalidation")
+            isinstance(impact, dict) and impact.get("requires_decision_revalidation")
         )
         decision_freshness = {
             "status": (
                 "revalidation_required"
                 if requires_revalidation
                 else "baseline_unavailable"
-                if isinstance(impact, dict)
-                and impact.get("baseline_status") == "unavailable"
+                if isinstance(impact, dict) and impact.get("baseline_status") == "unavailable"
                 else "current"
             ),
             "impact_id": impact.get("impact_id") if isinstance(impact, dict) else None,
@@ -813,48 +789,49 @@ def _build_decision_briefs(
             json.dumps(decision_trace, sort_keys=True).encode("utf-8")
         ).hexdigest()[:16]
         brief = {
-                "opportunity_key": opportunity.get("key"),
-                "title": opportunity.get("title"),
-                "url": opportunity.get("url"),
-                "agency": opportunity.get("awarding_agency")
-                or opportunity.get("funding_agency"),
-                "deadline": opportunity.get("close_date"),
-                "days_to_close": days,
-                "record_type": opportunity.get("record_type"),
-                "amount": opportunity.get("amount"),
-                "set_aside": opportunity.get("set_aside"),
-                "public_evidence_score": score,
-                "decision_score": score,
-                "provisional_gate": gate,
-                "evidence_completeness": completeness,
-                "mission_fit": [
-                    link.get("mission_name") or link.get("mission_id")
-                    for link in opportunity.get("mission_links", [])
-                ],
-                "technology_fit": opportunity.get("technology_domains") or [],
-                "requirements": (documents.get("requirements") or [])[:5],
-                "evaluation_criteria": (documents.get("evaluation_criteria") or [])[:4],
-                "eligibility": (documents.get("eligibility") or [])[:4],
-                "contacts": (documents.get("contacts") or opportunity.get("points_of_contact") or [])[:6],
-                "relevant_patents": (opportunity.get("related_patents") or [])[:5],
-                "likely_market_participants": _market_participants(
-                    opportunity, contractors, mode="incumbent"
-                ),
-                "potential_teaming_candidates": _market_participants(
-                    opportunity, contractors, mode="teaming"
-                ),
-                "risks": _brief_risks(opportunity, documents),
-                "unknowns": unknowns,
-                "required_actions": _required_actions(gate, days, unknowns, documents),
-                "decision_freshness": decision_freshness,
-                "decision_trace": decision_trace,
-                "latest_amendment_impact": impact,
-                "source_urls": list(dict.fromkeys(source_urls)),
-                "analytical_caveat": (
-                    "This is a provisional qualification gate, not an authorized bid/no-bid "
-                    "decision. Market participants and teaming candidates are analytical matches."
-                ),
-            }
+            "opportunity_key": opportunity.get("key"),
+            "title": opportunity.get("title"),
+            "url": opportunity.get("url"),
+            "agency": opportunity.get("awarding_agency") or opportunity.get("funding_agency"),
+            "deadline": opportunity.get("close_date"),
+            "days_to_close": days,
+            "record_type": opportunity.get("record_type"),
+            "amount": opportunity.get("amount"),
+            "set_aside": opportunity.get("set_aside"),
+            "public_evidence_score": score,
+            "decision_score": score,
+            "provisional_gate": gate,
+            "evidence_completeness": completeness,
+            "mission_fit": [
+                link.get("mission_name") or link.get("mission_id")
+                for link in opportunity.get("mission_links", [])
+            ],
+            "technology_fit": opportunity.get("technology_domains") or [],
+            "requirements": (documents.get("requirements") or [])[:5],
+            "evaluation_criteria": (documents.get("evaluation_criteria") or [])[:4],
+            "eligibility": (documents.get("eligibility") or [])[:4],
+            "contacts": (documents.get("contacts") or opportunity.get("points_of_contact") or [])[
+                :6
+            ],
+            "relevant_patents": (opportunity.get("related_patents") or [])[:5],
+            "likely_market_participants": _market_participants(
+                opportunity, contractors, mode="incumbent"
+            ),
+            "potential_teaming_candidates": _market_participants(
+                opportunity, contractors, mode="teaming"
+            ),
+            "risks": _brief_risks(opportunity, documents),
+            "unknowns": unknowns,
+            "required_actions": _required_actions(gate, days, unknowns, documents),
+            "decision_freshness": decision_freshness,
+            "decision_trace": decision_trace,
+            "latest_amendment_impact": impact,
+            "source_urls": list(dict.fromkeys(source_urls)),
+            "analytical_caveat": (
+                "This is a provisional qualification gate, not an authorized bid/no-bid "
+                "decision. Market participants and teaming candidates are analytical matches."
+            ),
+        }
         if publish_capability_fit and capability_fit.get("configured"):
             brief["capability_fit"] = capability_fit
             published_recommendation = round(
@@ -862,9 +839,7 @@ def _build_decision_briefs(
             )
             if capability_fit.get("hard_stops"):
                 published_recommendation = min(published_recommendation, 25)
-            brief["published_capability_recommendation_score"] = (
-                published_recommendation
-            )
+            brief["published_capability_recommendation_score"] = published_recommendation
         briefs.append(brief)
     briefs.sort(
         key=lambda item: (
@@ -900,8 +875,7 @@ def _build_decision_briefs(
             ),
             "hold": sum(item["provisional_gate"] == "hold" for item in briefs),
             "decisions_revalidation_required": sum(
-                item.get("decision_freshness", {}).get("status")
-                == "revalidation_required"
+                item.get("decision_freshness", {}).get("status") == "revalidation_required"
                 for item in briefs
             ),
         },
@@ -937,7 +911,11 @@ def _market_participants(opportunity: dict, contractors: list[dict], *, mode: st
                 "score": score,
                 "basis": [
                     *(["shared agency history"] if agency_match else []),
-                    *([f"shared specialties: {', '.join(sorted(specialty_match))}"] if specialty_match else []),
+                    *(
+                        [f"shared specialties: {', '.join(sorted(specialty_match))}"]
+                        if specialty_match
+                        else []
+                    ),
                 ],
             }
         )
@@ -1081,10 +1059,9 @@ def _render_procurement_markdown(payload: dict) -> str:
             for change in (impact.get("changes") or [])[:12]:
                 before = _change_value(change.get("before"))
                 after = _change_value(change.get("after"))
-                evidence_url = (
-                    ((change.get("after") or {}).get("source") or {}).get("source_url")
-                    or ((change.get("before") or {}).get("source") or {}).get("source_url")
-                )
+                evidence_url = ((change.get("after") or {}).get("source") or {}).get(
+                    "source_url"
+                ) or ((change.get("before") or {}).get("source") or {}).get("source_url")
                 evidence = f"[Open]({evidence_url})" if evidence_url else "—"
                 lines.append(
                     f"| {str(change.get('materiality') or 'low').upper()} "
@@ -1194,8 +1171,7 @@ def _ensure_document_versions(
         return {}
     result = dict(document)
     role = str(
-        result.get("document_role")
-        or ("amendment" if result.get("is_amendment") else "attachment")
+        result.get("document_role") or ("amendment" if result.get("is_amendment") else "attachment")
     )
     result["document_role"] = role
     result["document_id"] = result.get("document_id") or _document_identifier(

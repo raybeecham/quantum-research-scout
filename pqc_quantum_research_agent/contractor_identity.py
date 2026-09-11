@@ -3,7 +3,6 @@ from __future__ import annotations
 import re
 from collections import Counter, defaultdict
 
-
 LEGAL_SUFFIX_PATTERN = re.compile(
     r"\b(?:incorporated|inc|corporation|corp|company|co|limited|ltd|llc|llp|pllc)\b",
     re.IGNORECASE,
@@ -47,9 +46,7 @@ def resolve_contractor_identities(
             inferred_uei = next(iter(uei_by_name[normalized_name]))
         identity_uei = uei or inferred_uei
         identity_id = (
-            f"uei:{identity_uei}"
-            if identity_uei
-            else f"name:{normalized_name or 'unknown'}"
+            f"uei:{identity_uei}" if identity_uei else f"name:{normalized_name or 'unknown'}"
         )
         group = groups.setdefault(
             identity_id,

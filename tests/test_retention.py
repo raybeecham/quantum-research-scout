@@ -5,8 +5,8 @@ from datetime import date
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from pqc_quantum_research_agent.retention import prune_daily_reports
 from pqc_quantum_research_agent.cli import build_parser
+from pqc_quantum_research_agent.retention import prune_daily_reports
 
 
 class RetentionTests(unittest.TestCase):
@@ -63,13 +63,12 @@ class RetentionTests(unittest.TestCase):
             self.assertFalse(old_month.exists())
 
     def test_retention_days_must_be_positive(self) -> None:
-        with TemporaryDirectory() as reports_dir:
-            with self.assertRaises(ValueError):
-                prune_daily_reports(
-                    reports_dir,
-                    reference_date=date(2026, 6, 8),
-                    retention_days=0,
-                )
+        with TemporaryDirectory() as reports_dir, self.assertRaises(ValueError):
+            prune_daily_reports(
+                reports_dir,
+                reference_date=date(2026, 6, 8),
+                retention_days=0,
+            )
 
 
 if __name__ == "__main__":

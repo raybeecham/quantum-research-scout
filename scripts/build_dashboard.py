@@ -28,7 +28,9 @@ def build_dashboard(
     (output / "data").mkdir(parents=True, exist_ok=True)
 
     signals = _read_json(reports / "signals.json", {"themes": {}, "updated_at": None})
-    source_health = _read_json(reports / "source-health.json", {"sources": [], "disabled_sources": []})
+    source_health = _read_json(
+        reports / "source-health.json", {"sources": [], "disabled_sources": []}
+    )
     data_trust = _read_json(
         reports / "data-trust.json",
         {"summary": {}, "collector_metrics": [], "reason_counts": [], "quarantined_evidence": []},
@@ -147,38 +149,24 @@ def build_dashboard(
         },
         "intelligence_changes": {
             "updated_at": intelligence_changes.get("updated_at"),
-            "baseline_initialized": intelligence_changes.get(
-                "baseline_initialized", False
-            ),
+            "baseline_initialized": intelligence_changes.get("baseline_initialized", False),
             "summary": intelligence_changes.get("summary", {}),
             "changed": (intelligence_changes.get("changed") or [])[:20],
             "added": (intelligence_changes.get("added") or [])[:20],
             "resolved": (intelligence_changes.get("resolved") or [])[:20],
             "superseded": (intelligence_changes.get("superseded") or [])[:20],
-            "conflict_opened": (
-                intelligence_changes.get("conflict_opened") or []
-            )[:20],
-            "conflict_resolved": (
-                intelligence_changes.get("conflict_resolved") or []
-            )[:20],
+            "conflict_opened": (intelligence_changes.get("conflict_opened") or [])[:20],
+            "conflict_resolved": (intelligence_changes.get("conflict_resolved") or [])[:20],
             "conflicts": (intelligence_changes.get("conflicts") or [])[:20],
-            "active_conflicts": (
-                intelligence_changes.get("active_conflicts") or []
-            )[:20],
+            "active_conflicts": (intelligence_changes.get("active_conflicts") or [])[:20],
         },
         "temporal_intelligence": {
             "updated_at": temporal_intelligence.get("updated_at"),
-            "comparison_started_at": temporal_intelligence.get(
-                "comparison_started_at"
-            ),
-            "comparison_ended_at": temporal_intelligence.get(
-                "comparison_ended_at"
-            ),
+            "comparison_started_at": temporal_intelligence.get("comparison_started_at"),
+            "comparison_ended_at": temporal_intelligence.get("comparison_ended_at"),
             "scope_note": temporal_intelligence.get("scope_note"),
             "summary": temporal_intelligence.get("summary", {}),
-            "priority_events": (
-                temporal_intelligence.get("priority_events") or []
-            )[:60],
+            "priority_events": (temporal_intelligence.get("priority_events") or [])[:60],
             "upcoming": (temporal_intelligence.get("upcoming") or [])[:40],
         },
         "strategic_forecasts": {
@@ -187,25 +175,34 @@ def build_dashboard(
             "method_note": strategic_forecasts.get("method_note"),
             "summary": strategic_forecasts.get("summary", {}),
             "calibration": strategic_forecasts.get("calibration", {}),
-            "active_forecasts": (
-                strategic_forecasts.get("active_forecasts") or []
-            )[:12],
-            "resolved_forecasts": (
-                strategic_forecasts.get("resolved_forecasts") or []
-            )[:20],
+            "active_forecasts": (strategic_forecasts.get("active_forecasts") or [])[:12],
+            "resolved_forecasts": (strategic_forecasts.get("resolved_forecasts") or [])[:20],
         },
         "historical_evidence": {
-            key: historical.get(key) for key in ("updated_at", "lookback_days", "item_count", "dated_count", "undated_count")
+            key: historical.get(key)
+            for key in ("updated_at", "lookback_days", "item_count", "dated_count", "undated_count")
         },
         "patents": _dashboard_patents(patents),
         "reports": _report_links(reports, repo_url.rstrip("/")),
     }
-    asset_names = ("index.html", "entity.html", "styles.css", "components.css", "app.js", "entity.js")
-    version_input = generated_at + "".join((assets / name).read_text(encoding="utf-8") for name in asset_names)
+    asset_names = (
+        "index.html",
+        "entity.html",
+        "styles.css",
+        "components.css",
+        "app.js",
+        "entity.js",
+        "favicon.svg",
+    )
+    version_input = generated_at + "".join(
+        (assets / name).read_text(encoding="utf-8") for name in asset_names
+    )
     asset_version = hashlib.sha256(version_input.encode("utf-8")).hexdigest()[:12]
     payload["build_id"] = asset_version
     for name in asset_names:
-        content = (assets / name).read_text(encoding="utf-8").replace("__ASSET_VERSION__", asset_version)
+        content = (
+            (assets / name).read_text(encoding="utf-8").replace("__ASSET_VERSION__", asset_version)
+        )
         (output / name).write_text(content, encoding="utf-8")
 
     data_path = output / "data" / "dashboard.json"
@@ -231,7 +228,9 @@ def _dashboard_signals(state: dict) -> dict:
             if not item_date:
                 continue
             trend_counts[item_date] = trend_counts.get(item_date, 0) + 1
-            overall_by_date.setdefault(item_date, set()).add(str(item.get("key") or item.get("url") or item.get("title")))
+            overall_by_date.setdefault(item_date, set()).add(
+                str(item.get("key") or item.get("url") or item.get("title"))
+            )
         evidence = sorted(
             summary.get("evidence", []),
             key=lambda item: (item.get("date", ""), item.get("score", 0)),
@@ -242,14 +241,24 @@ def _dashboard_signals(state: dict) -> dict:
                 "name": name,
                 "evidence_count": len(summary.get("evidence", [])),
                 "evidence": evidence,
-                "trend": [{"date": day, "count": count} for day, count in sorted(trend_counts.items())],
+                "trend": [
+                    {"date": day, "count": count} for day, count in sorted(trend_counts.items())
+                ],
             }
         )
         themes.append(entry)
     status_order = {"actionable": 0, "watching": 1, "stale": 2}
     importance_order = {"critical": 0, "high": 1, "medium": 2}
-    themes.sort(key=lambda item: (status_order.get(item.get("status"), 9), importance_order.get(item.get("importance"), 9), item["name"]))
-    overall_trend = [{"date": day, "count": len(keys)} for day, keys in sorted(overall_by_date.items())]
+    themes.sort(
+        key=lambda item: (
+            status_order.get(item.get("status"), 9),
+            importance_order.get(item.get("importance"), 9),
+            item["name"],
+        )
+    )
+    overall_trend = [
+        {"date": day, "count": len(keys)} for day, keys in sorted(overall_by_date.items())
+    ]
     return {"updated_at": state.get("updated_at"), "themes": themes, "overall_trend": overall_trend}
 
 
@@ -292,9 +301,7 @@ def _dashboard_federal_funding(
     portfolios = []
     for item in payload.get("mission_portfolios", []):
         entry = {
-            key: value
-            for key, value in item.items()
-            if key not in {"records", "related_patents"}
+            key: value for key, value in item.items() if key not in {"records", "related_patents"}
         }
         entry["related_patent_count"] = len(item.get("related_patents") or [])
         portfolios.append(entry)
@@ -358,9 +365,7 @@ def _dashboard_federal_funding(
         "relationship_explorer",
         {"summary": {}, "nodes": [], "edges": []},
     )
-    relationship_explorer = _attach_relationship_claims(
-        relationship_explorer, claim_ledger or {}
-    )
+    relationship_explorer = _attach_relationship_claims(relationship_explorer, claim_ledger or {})
     return {
         "updated_at": payload.get("updated_at"),
         "as_of_date": payload.get("as_of_date"),
@@ -382,9 +387,7 @@ def _attach_relationship_claims(explorer: dict, claim_ledger: dict) -> dict:
         target = claim.get("object") or {}
         if not subject.get("identifier") or not target.get("identifier"):
             continue
-        relationship_claims[
-            (str(subject["identifier"]), str(target["identifier"]))
-        ] = claim
+        relationship_claims[(str(subject["identifier"]), str(target["identifier"]))] = claim
     edges = []
     for edge in explorer.get("edges", []):
         source_identifier = str(edge.get("source_node") or "").split(":", 1)[-1]
@@ -459,10 +462,14 @@ def _report_entry(path: Path, reports: Path, repo_url: str) -> dict:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Build the static Quantum Research Scout dashboard.")
+    parser = argparse.ArgumentParser(
+        description="Build the static Quantum Research Scout dashboard."
+    )
     parser.add_argument("--project-root", default=".")
     parser.add_argument("--output", default="site")
-    parser.add_argument("--repo-url", default="https://github.com/raybeecham/quantum-research-scout")
+    parser.add_argument(
+        "--repo-url", default="https://github.com/raybeecham/quantum-research-scout"
+    )
     args = parser.parse_args()
     print(build_dashboard(args.project_root, args.output, repo_url=args.repo_url))
     return 0

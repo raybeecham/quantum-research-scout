@@ -2,7 +2,13 @@ from __future__ import annotations
 
 from datetime import date, datetime, time, timedelta
 
-from .dates import OPERATIONAL_TIMEZONE, ensure_operational_timezone, ensure_utc, operational_day_window, operational_today
+from .dates import (
+    OPERATIONAL_TIMEZONE,
+    ensure_operational_timezone,
+    ensure_utc,
+    operational_day_window,
+    operational_today,
+)
 from .models import DateFilterSummary, ResearchItem
 
 INCLUDED_TODAY = "included_today"
@@ -175,7 +181,9 @@ def _resolve_coverage_window(
     return ensure_utc(start_local), ensure_utc(end_local)
 
 
-def _is_in_coverage_window(value: datetime, coverage_start_at: datetime, coverage_end_at: datetime) -> bool:
+def _is_in_coverage_window(
+    value: datetime, coverage_start_at: datetime, coverage_end_at: datetime
+) -> bool:
     value_utc = ensure_utc(value)
     return coverage_start_at <= value_utc <= coverage_end_at
 

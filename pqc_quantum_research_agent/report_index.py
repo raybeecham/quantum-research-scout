@@ -17,7 +17,11 @@ def write_report_index(reports_dir: str | Path, *, generated_at: datetime | None
     latest_daily = daily[-1] if daily else None
     latest_weekly = weekly[-1] if weekly else None
     latest_monthly = monthly[-1] if monthly else None
-    themes = _extract_section_bullets(latest_weekly, "Strategic Themes", limit=8) if latest_weekly else []
+    themes = (
+        _extract_section_bullets(latest_weekly, "Strategic Themes", limit=8)
+        if latest_weekly
+        else []
+    )
     generated = generated_at or datetime.now(timezone.utc)
 
     lines = [
@@ -80,7 +84,8 @@ def write_report_index(reports_dir: str | Path, *, generated_at: datetime | None
             f"- Daily reports retained: **{len(daily)}**",
             f"- Weekly syntheses retained: **{len(weekly)}**",
             f"- Monthly syntheses retained: **{len(monthly)}**",
-            "- Daily reports use a rolling 30-day retention window; weekly and monthly syntheses are retained indefinitely.",
+            "- Daily reports use a rolling 30-day retention window; weekly and monthly "
+            "syntheses are retained indefinitely.",
             "",
         ]
     )

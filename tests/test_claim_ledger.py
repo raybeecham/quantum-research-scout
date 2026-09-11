@@ -12,7 +12,6 @@ from pqc_quantum_research_agent.claim_ledger import (
     write_claim_ledger,
 )
 
-
 FIRST_RUN = datetime(2026, 7, 30, 12, tzinfo=timezone.utc)
 SECOND_RUN = datetime(2026, 7, 31, 12, tzinfo=timezone.utc)
 THIRD_RUN = datetime(2026, 8, 1, 12, tzinfo=timezone.utc)
@@ -49,9 +48,7 @@ class ClaimLedgerTests(unittest.TestCase):
         self.assertNotEqual(first_ledger["updated_at"], second_ledger["updated_at"])
 
         relationship = next(
-            item
-            for item in second_ledger["claims"]
-            if item["predicate"] == "executes_through"
+            item for item in second_ledger["claims"] if item["predicate"] == "executes_through"
         )
         evidence_ids = {item["evidence_id"] for item in second_ledger["evidence"]}
         self.assertTrue(relationship["evidence_ids"])
@@ -105,11 +102,7 @@ class ClaimLedgerTests(unittest.TestCase):
             outputs = write_claim_ledger(reports, generated_at=THIRD_RUN)
             repeated_changes = _read_json(outputs[2])
 
-        names = [
-            item
-            for item in ledger["claims"]
-            if item["predicate"] == "legal_business_name"
-        ]
+        names = [item for item in ledger["claims"] if item["predicate"] == "legal_business_name"]
         self.assertEqual({item["status"] for item in names}, {"conflicted"})
         self.assertEqual(changes["summary"]["conflicts_opened"], 1)
         self.assertEqual(len(changes["conflict_opened"]), 1)
@@ -160,14 +153,11 @@ class ClaimLedgerTests(unittest.TestCase):
             ledger = _read_json(outputs[0])
             changes = _read_json(outputs[2])
 
-        low_after = next(
-            item for item in ledger["claims"] if item["claim_id"] == low["claim_id"]
-        )
+        low_after = next(item for item in ledger["claims"] if item["claim_id"] == low["claim_id"])
         high = next(
             item
             for item in ledger["claims"]
-            if item["predicate"] == "legal_business_name"
-            and item["claim_id"] != low["claim_id"]
+            if item["predicate"] == "legal_business_name" and item["claim_id"] != low["claim_id"]
         )
         self.assertEqual(low_after["status"], "superseded")
         self.assertEqual(low_after["superseded_by"], high["claim_id"])
@@ -206,9 +196,7 @@ class ClaimLedgerTests(unittest.TestCase):
             ledger = _read_json(outputs[0])
 
         requirements = [
-            item
-            for item in ledger["claims"]
-            if item["predicate"] == "states_requirement"
+            item for item in ledger["claims"] if item["predicate"] == "states_requirement"
         ]
         self.assertEqual(len(requirements), 2)
         self.assertEqual({item["status"] for item in requirements}, {"active"})
@@ -303,14 +291,9 @@ class ClaimLedgerTests(unittest.TestCase):
             set(trace["input_claim_ids"]),
             set(trace["input_claim_versions"]),
         )
+        self.assertTrue(all(claim_id in by_id for claim_id in trace["input_claim_ids"]))
         self.assertTrue(
-            all(claim_id in by_id for claim_id in trace["input_claim_ids"])
-        )
-        self.assertTrue(
-            all(
-                by_id[claim_id]["evidence_ids"]
-                for claim_id in trace["input_claim_ids"]
-            )
+            all(by_id[claim_id]["evidence_ids"] for claim_id in trace["input_claim_ids"])
         )
         self.assertTrue(set(trace["evidence_ids"]) <= evidence_ids)
         self.assertTrue(decision["evidence_ids"])
@@ -351,12 +334,8 @@ def _write_procurement_and_decision(reports: Path) -> None:
                             "name": "Solicitation",
                             "sha256": "document-hash-1",
                             "fetched_at": "2026-07-30T10:00:00Z",
-                            "requirements": [
-                                "The offeror shall demonstrate migration experience."
-                            ],
-                            "evaluation_criteria": [
-                                "Past performance is an evaluation factor."
-                            ],
+                            "requirements": ["The offeror shall demonstrate migration experience."],
+                            "evaluation_criteria": ["Past performance is an evaluation factor."],
                         }
                     ],
                 }
@@ -397,9 +376,7 @@ def _entity(legal_name: str, source_url: str) -> dict:
 
 
 def _claim_for(payload: dict, predicate: str) -> dict:
-    return next(
-        item for item in payload["claims"] if item["predicate"] == predicate
-    )
+    return next(item for item in payload["claims"] if item["predicate"] == predicate)
 
 
 def _write_json(path: Path, payload: dict) -> None:

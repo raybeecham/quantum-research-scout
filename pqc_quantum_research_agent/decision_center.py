@@ -8,7 +8,6 @@ from urllib.parse import urlsplit
 
 from .amendment_intelligence import highest_evidence_url
 
-
 PRIORITY_RANK = {"critical": 0, "high": 1, "medium": 2, "low": 3}
 HIGH_SIGNAL_TERMS = {
     "artificial intelligence",
@@ -76,11 +75,7 @@ def build_decision_center(
         "claim_conflict",
     ):
         queue_items = sorted(
-            (
-                item
-                for item in deduped.values()
-                if item.get("queue_type") == queue_type
-            ),
+            (item for item in deduped.values() if item.get("queue_type") == queue_type),
             key=_sort_key,
         )[:max_items_per_queue]
         selected.extend(queue_items)
@@ -96,9 +91,7 @@ def build_decision_center(
         "authoritative_changes": sum(
             item.get("queue_type") == "authoritative_change" for item in selected
         ),
-        "claim_conflicts": sum(
-            item.get("queue_type") == "claim_conflict" for item in selected
-        ),
+        "claim_conflicts": sum(item.get("queue_type") == "claim_conflict" for item in selected),
     }
     return {
         "version": 1,
@@ -132,18 +125,10 @@ def _amendment_items(procurement: dict) -> list[dict]:
         )
         highest = str(impact.get("highest_materiality") or "high").casefold()
         priority = "critical" if highest == "critical" else "high"
-        changes = [
-            item
-            for item in impact.get("changes") or []
-            if isinstance(item, dict)
-        ]
-        categories = sorted(
-            {str(item.get("category")) for item in changes if item.get("category")}
-        )
+        changes = [item for item in impact.get("changes") or [] if isinstance(item, dict)]
+        categories = sorted({str(item.get("category")) for item in changes if item.get("category")})
         effects = _unique_strings(
-            effect
-            for item in changes
-            for effect in (item.get("decision_effects") or [])
+            effect for item in changes for effect in (item.get("decision_effects") or [])
         )
         checklist_actions = _unique_strings(
             item.get("action")
@@ -151,16 +136,10 @@ def _amendment_items(procurement: dict) -> list[dict]:
             if isinstance(item, dict)
         )
         summary = next(
-            (
-                str(item.get("summary"))
-                for item in changes
-                if item.get("summary")
-            ),
+            (str(item.get("summary")) for item in changes if item.get("summary")),
             "A tracker-observed solicitation amendment changed material pursuit evidence.",
         )
-        evidence_url = highest_evidence_url(impact) or str(
-            opportunity.get("url") or ""
-        )
+        evidence_url = highest_evidence_url(impact) or str(opportunity.get("url") or "")
         items.append(
             {
                 "decision_id": _decision_id("amendment", impact_id),
@@ -175,9 +154,7 @@ def _amendment_items(procurement: dict) -> list[dict]:
                     else "Revalidate the qualification and bid/no-bid assumptions."
                 ),
                 "observed_at": str(
-                    impact.get("detected_at")
-                    or procurement.get("updated_at")
-                    or ""
+                    impact.get("detected_at") or procurement.get("updated_at") or ""
                 ),
                 "evidence": _evidence(
                     evidence_url,
@@ -203,9 +180,7 @@ def _government_change_items(changes: dict, federal_funding: dict) -> list[dict]
         for item in federal_funding.get("records") or []
         if isinstance(item, dict) and item.get("key")
     }
-    observed_date = _parse_date(changes.get("updated_at")) or datetime.now(
-        timezone.utc
-    ).date()
+    observed_date = _parse_date(changes.get("updated_at")) or datetime.now(timezone.utc).date()
     candidates: list[tuple[int, dict]] = []
     for change_type in ("changed", "superseded", "added"):
         for event in changes.get(change_type) or []:
@@ -275,12 +250,22 @@ def _government_change_items(changes: dict, federal_funding: dict) -> list[dict]
         if value in (None, ""):
             value = (event.get("object") or {}).get("label") or "See authoritative evidence"
         previous = event.get("previous_value")
-        priority = "critical" if change_type in {"changed", "superseded"} and score >= 75 else "high" if score >= 60 else "medium"
+        priority = (
+            "critical"
+            if change_type in {"changed", "superseded"} and score >= 75
+            else "high"
+            if score >= 60
+            else "medium"
+        )
         items.append(
             {
                 "decision_id": _decision_id(
                     "government",
-                    str(event.get("_group_subject_id") or event.get("claim_id") or _event_signature(event)),
+                    str(
+                        event.get("_group_subject_id")
+                        or event.get("claim_id")
+                        or _event_signature(event)
+                    ),
                     change_type,
                 ),
                 "queue_type": "authoritative_change",
@@ -322,9 +307,7 @@ def _government_change_items(changes: dict, federal_funding: dict) -> list[dict]
                     "subject_type": subject.get("node_type"),
                     "selection_score": score,
                     "record_date": record.get("date"),
-                    "strategic_significance_score": record.get(
-                        "strategic_significance_score"
-                    ),
+                    "strategic_significance_score": record.get("strategic_significance_score"),
                     "awarding_agency": record.get("awarding_agency"),
                 },
             }
@@ -335,9 +318,7 @@ def _government_change_items(changes: dict, federal_funding: dict) -> list[dict]
 def _conflict_items(changes: dict, claim_ledger: dict) -> list[dict]:
     conflicts: list[dict] = []
     for key in ("conflict_opened", "active_conflicts", "conflicts"):
-        conflicts.extend(
-            {**item} for item in changes.get(key) or [] if isinstance(item, dict)
-        )
+        conflicts.extend({**item} for item in changes.get(key) or [] if isinstance(item, dict))
     known_conflicts = {
         (
             str(item.get("subject_node_id") or ""),
@@ -398,11 +379,7 @@ def _conflict_items(changes: dict, claim_ledger: dict) -> list[dict]:
         if decision_id in seen:
             continue
         seen.add(decision_id)
-        sources = [
-            source
-            for source in conflict.get("sources") or []
-            if isinstance(source, dict)
-        ]
+        sources = [source for source in conflict.get("sources") or [] if isinstance(source, dict)]
         source = sources[0] if sources else {}
         values = [str(value) for value in conflict.get("values") or []]
         authority = str(conflict.get("authority") or "unknown")
@@ -420,7 +397,9 @@ def _conflict_items(changes: dict, claim_ledger: dict) -> list[dict]:
                 "recommended_action": (
                     "Determine whether the claims describe different scopes or select the controlling evidence."
                 ),
-                "observed_at": str(changes.get("updated_at") or claim_ledger.get("updated_at") or ""),
+                "observed_at": str(
+                    changes.get("updated_at") or claim_ledger.get("updated_at") or ""
+                ),
                 "evidence": [
                     item
                     for source_item in sources[:4]

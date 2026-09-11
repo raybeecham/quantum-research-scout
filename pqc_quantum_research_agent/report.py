@@ -8,15 +8,15 @@ from difflib import SequenceMatcher
 from pathlib import Path
 from urllib.parse import urlsplit
 
+from .classifier import DEFAULT_MIN_TOPIC_CONFIDENCE, phrase_in_text
+from .date_filter import INCLUDED_STATUSES
 from .dates import (
     OPERATIONAL_TIMEZONE_NAME,
     ensure_operational_timezone,
+    ensure_utc,
     operational_day_window,
     operational_today,
-    ensure_utc,
 )
-from .classifier import DEFAULT_MIN_TOPIC_CONFIDENCE, phrase_in_text
-from .date_filter import INCLUDED_STATUSES
 from .models import DateFilterSummary, ResearchItem, SourceWarning
 from .redaction import redact_text, redact_url
 from .text import normalize_title, normalize_whitespace, strip_html
@@ -133,7 +133,12 @@ QUANTUM_NETWORKING_KEYWORDS = {
     "modular quantum network",
     "network topology",
 }
-QUANTUM_NETWORKING_CONTEXTUAL_KEYWORDS = {"entanglement", "nonreciprocity", "repeater", "network topology"}
+QUANTUM_NETWORKING_CONTEXTUAL_KEYWORDS = {
+    "entanglement",
+    "nonreciprocity",
+    "repeater",
+    "network topology",
+}
 QUANTUM_NETWORKING_SIGNAL_GROUPS = (
     ("distributed quantum computing", "distributed quantum"),
     ("repeater", "quantum repeater"),
@@ -225,14 +230,18 @@ TOPICAL_VENDOR_SOURCE_HINTS = {
     "rigetti",
     "sandboxaq",
 }
-STRATEGIC_COMPANY_HINTS = TOPICAL_VENDOR_SOURCE_HINTS | VENDOR_HINTS | {
-    "atom computing",
-    "alice & bob",
-    "infleqtion",
-    "nvision",
-    "pasqal",
-    "quera",
-}
+STRATEGIC_COMPANY_HINTS = (
+    TOPICAL_VENDOR_SOURCE_HINTS
+    | VENDOR_HINTS
+    | {
+        "atom computing",
+        "alice & bob",
+        "infleqtion",
+        "nvision",
+        "pasqal",
+        "quera",
+    }
+)
 
 CRITICAL_SCORE_THRESHOLD = 70
 HIGH_SCORE_THRESHOLD = 35
@@ -464,7 +473,9 @@ def is_report_relevant(
     *,
     min_topic_confidence: int = DEFAULT_MIN_TOPIC_CONFIDENCE,
 ) -> bool:
-    return _has_required_topic_relevance(item) and _item_topic_confidence(item) >= min_topic_confidence
+    return (
+        _has_required_topic_relevance(item) and _item_topic_confidence(item) >= min_topic_confidence
+    )
 
 
 def _render_key_takeaways(
@@ -512,18 +523,26 @@ def _render_key_takeaways(
             f"{networking_count} networking signal(s) touch quantum internet, repeater, entanglement, or QKD themes."
         )
     if research_count:
-        takeaways.append(f"{research_count} research item(s) made the digest after score and source limits.")
+        takeaways.append(
+            f"{research_count} research item(s) made the digest after score and source limits."
+        )
     if vendor_count:
-        takeaways.append(f"{vendor_count} vendor/industry item(s) were condensed into watch-list style coverage.")
+        takeaways.append(
+            f"{vendor_count} vendor/industry item(s) were condensed into watch-list style coverage."
+        )
     if warnings:
-        takeaways.append(f"{len(warnings)} source warning(s) should be reviewed for collection blind spots.")
+        takeaways.append(
+            f"{len(warnings)} source warning(s) should be reviewed for collection blind spots."
+        )
     if confidence["label"] in {"LOW", "MODERATE"}:
         takeaways.append(
             f"Briefing confidence is {str(confidence['label']).lower()} because {confidence['summary']}"
         )
 
     if not takeaways:
-        takeaways.append("No eligible high-scoring items met the report filters for the target publication date.")
+        takeaways.append(
+            "No eligible high-scoring items met the report filters for the target publication date."
+        )
 
     takeaways.append(
         f"SQLite retained {summary.new_unique_items_saved} new unique item(s); "
@@ -578,10 +597,14 @@ def _render_executive_summary(
         ),
     ]
     if category_counts:
-        category_text = ", ".join(f"{category}: {count}" for category, count in category_counts.most_common())
+        category_text = ", ".join(
+            f"{category}: {count}" for category, count in category_counts.most_common()
+        )
         lines.append(f"- Report category mix: {category_text}")
     if source_counts:
-        top_sources = ", ".join(f"{source}: {count}" for source, count in source_counts.most_common(5))
+        top_sources = ", ".join(
+            f"{source}: {count}" for source, count in source_counts.most_common(5)
+        )
         lines.append(f"- Top report sources: {top_sources}")
     if not report_items:
         lines.append("- No new items met the current report filters.")
@@ -659,7 +682,9 @@ def _is_authoritative_evidence(item: ResearchItem) -> bool:
     return hostname.endswith(".gov") or hostname.endswith(".mil")
 
 
-def _group_by_report_section(items: list[ResearchItem]) -> tuple[dict[str, list[ResearchItem]], list[ResearchItem]]:
+def _group_by_report_section(
+    items: list[ResearchItem],
+) -> tuple[dict[str, list[ResearchItem]], list[ResearchItem]]:
     grouped: dict[str, list[ResearchItem]] = defaultdict(list)
     vendor_items: list[ResearchItem] = []
     assigned_urls: set[str] = set()
@@ -703,7 +728,9 @@ def _belongs_in_section(item: ResearchItem, section: str) -> bool:
 
 
 def _sorted_items(items: list[ResearchItem]) -> list[ResearchItem]:
-    return sorted(items, key=lambda item: (item.score, item.published_at or item.discovered_at), reverse=True)
+    return sorted(
+        items, key=lambda item: (item.score, item.published_at or item.discovered_at), reverse=True
+    )
 
 
 def _render_full_entries(
@@ -787,7 +814,11 @@ def _published_display(item: ResearchItem) -> str:
 
 def _date_verb(item: ResearchItem) -> str:
     source = item.date_source.casefold()
-    return "Updated" if any(term in source for term in ("modified", "updated", "sitemap:lastmod")) else "Published"
+    return (
+        "Updated"
+        if any(term in source for term in ("modified", "updated", "sitemap:lastmod"))
+        else "Published"
+    )
 
 
 def _clean_summary(value: str, max_chars: int = SUMMARY_MAX_CHARS) -> str:
@@ -924,7 +955,17 @@ def truncate_at_word_boundary(value: str, max_chars: int = KEY_POINT_MAX_CHARS) 
 
     cutoff = max_chars - 3
     candidate = text[:cutoff].rstrip(" ,;:-")
-    if cutoff < len(text) and text[cutoff : cutoff + 1] not in {"", " ", "\t", "\n", ",", ";", ":", ".", "-"}:
+    if cutoff < len(text) and text[cutoff : cutoff + 1] not in {
+        "",
+        " ",
+        "\t",
+        "\n",
+        ",",
+        ";",
+        ":",
+        ".",
+        "-",
+    }:
         boundary = max(candidate.rfind(" "), candidate.rfind("-"))
         if boundary > 0:
             candidate = candidate[:boundary].rstrip(" ,;:-")
@@ -945,7 +986,10 @@ def is_complete_key_point(value: str) -> bool:
         return False
     if len(text) < 40:
         return _is_meaningful_short_statement(text)
-    if re.search(r"\b(as|the|a|an|to|for|of|and|or|in|with|by|from|into|under|over|between|that|this)$", lowered):
+    if re.search(
+        r"\b(as|the|a|an|to|for|of|and|or|in|with|by|from|into|under|over|between|that|this)$",
+        lowered,
+    ):
         return False
     return True
 
@@ -1114,11 +1158,12 @@ def _is_meaningful_short_statement(value: str) -> bool:
         "tests",
         "updates",
     }
-    return any(term in text for term in meaningful_terms) and any(term in text for term in action_terms)
+    return any(term in text for term in meaningful_terms) and any(
+        term in text for term in action_terms
+    )
 
 
 def _why_it_matters(item: ResearchItem) -> str:
-    text = _item_text(item)
     if _is_patent_signal(item):
         return (
             "Patent publications can reveal technical investment and IP positioning before products reach the market. "
@@ -1200,7 +1245,8 @@ def _is_patent_signal(item: ResearchItem) -> bool:
 def _is_standards_government_signal(item: ResearchItem) -> bool:
     text = _item_text(item)
     return item.category == "Standards / Policy" or any(
-        term in text for term in ("standard", "standards", "guidance", "policy", "fips", "nist", "cisa", "nsa")
+        term in text
+        for term in ("standard", "standards", "guidance", "policy", "fips", "nist", "cisa", "nsa")
     )
 
 
@@ -1287,7 +1333,10 @@ def _is_qec_signal(item: ResearchItem) -> bool:
         return False
     if item.category == "QEC / Fault Tolerance":
         return True
-    if item.category in {"Quantum Networking", "Quantum Software / Tooling"} and _qec_explicit_density(item) < 2:
+    if (
+        item.category in {"Quantum Networking", "Quantum Software / Tooling"}
+        and _qec_explicit_density(item) < 2
+    ):
         return False
     return _qec_signal_count(item) >= 2 or _qec_explicit_density(item) >= 2
 
@@ -1312,7 +1361,8 @@ def _is_sensing_signal(item: ResearchItem) -> bool:
     keywords = {keyword.casefold() for keyword in item.matched_keywords}
     text = _item_text(item)
     return item.category == "Quantum Sensing" or bool(
-        keywords & QUANTUM_SENSING_KEYWORDS or any(term in text for term in QUANTUM_SENSING_KEYWORDS)
+        keywords & QUANTUM_SENSING_KEYWORDS
+        or any(term in text for term in QUANTUM_SENSING_KEYWORDS)
     )
 
 
@@ -1410,7 +1460,9 @@ def _has_crypto_agility_signal(item: ResearchItem) -> bool:
 
 def _has_side_channel_signal(item: ResearchItem) -> bool:
     text = _item_text(item)
-    return any(term in text for term in ("side-channel", "side channel", "timing attack", "power analysis"))
+    return any(
+        term in text for term in ("side-channel", "side channel", "timing attack", "power analysis")
+    )
 
 
 def _is_ai_security_signal(item: ResearchItem) -> bool:
@@ -1435,7 +1487,9 @@ def _is_ai_security_signal(item: ResearchItem) -> bool:
 
 def _is_vendor_signal(item: ResearchItem) -> bool:
     source = item.source_name.casefold()
-    return item.category in {"Vendor / Industry", "Vendor / Product"} or any(hint in source for hint in VENDOR_HINTS)
+    return item.category in {"Vendor / Industry", "Vendor / Product"} or any(
+        hint in source for hint in VENDOR_HINTS
+    )
 
 
 def _select_strategic_signals(items: list[ResearchItem]) -> list[ResearchItem]:
@@ -1470,7 +1524,9 @@ def _matching_story_cluster_key(
 ) -> str:
     for existing in selected:
         if _is_near_duplicate_strategic_signal(item, existing):
-            return featured_cluster_by_id.get(_item_reference_id(existing), _story_cluster(existing).key)
+            return featured_cluster_by_id.get(
+                _item_reference_id(existing), _story_cluster(existing).key
+            )
     return ""
 
 
@@ -1520,7 +1576,9 @@ def _story_cluster(item: ResearchItem) -> StoryCluster:
 
 
 def _core_story_topic(item: ResearchItem) -> str:
-    text = normalize_title(f"{clean_report_title(item.title)} {item.summary} {' '.join(item.matched_keywords)}")
+    text = normalize_title(
+        f"{clean_report_title(item.title)} {item.summary} {' '.join(item.matched_keywords)}"
+    )
     phrase_topics = (
         ("quantum spectrum", "quantum-spectrum"),
         ("ml kem", "ml-kem"),
@@ -1563,7 +1621,8 @@ def _canonical_domain_story_key(item: ResearchItem) -> str:
     slug_tokens = [
         token
         for token in re.split(r"[^a-z0-9]+", parsed.path.casefold())
-        if (len(token) > 2 or token.isdigit()) and token not in {"news", "blog", "press", "release", "article"}
+        if (len(token) > 2 or token.isdigit())
+        and token not in {"news", "blog", "press", "release", "article"}
     ]
     return f"{domain}:{'-'.join(slug_tokens[:5])}" if slug_tokens else domain
 
@@ -1639,7 +1698,9 @@ def _is_strategic_candidate(item: ResearchItem) -> bool:
 
 def _has_hndl_signal(item: ResearchItem) -> bool:
     text = _item_text(item)
-    return any(term in text for term in ("harvest now decrypt later", "hndl", "store now decrypt later"))
+    return any(
+        term in text for term in ("harvest now decrypt later", "hndl", "store now decrypt later")
+    )
 
 
 def _is_scalable_quantum_hardware_signal(item: ResearchItem) -> bool:
@@ -1705,7 +1766,12 @@ def _is_national_security_or_standards_signal(item: ResearchItem) -> bool:
             "procurement",
             "compliance",
         )
-    ) and (_is_pqc_security_signal(item) or _is_qec_signal(item) or _is_networking_signal(item) or _has_crypto_agility_signal(item))
+    ) and (
+        _is_pqc_security_signal(item)
+        or _is_qec_signal(item)
+        or _is_networking_signal(item)
+        or _has_crypto_agility_signal(item)
+    )
 
 
 def _is_major_ai_security_signal(item: ResearchItem) -> bool:
@@ -1732,7 +1798,9 @@ def _is_major_vendor_platform_shift(item: ResearchItem) -> bool:
     if _is_low_strategic_news_item(item):
         return False
     text = _item_text(item)
-    return any(term in text for term in ("platform", "architecture", "standard", "production", "category")) and any(
+    return any(
+        term in text for term in ("platform", "architecture", "standard", "production", "category")
+    ) and any(
         term in text
         for term in (
             "first",

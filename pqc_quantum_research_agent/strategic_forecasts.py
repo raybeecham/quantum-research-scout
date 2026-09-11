@@ -8,7 +8,6 @@ from pathlib import Path
 
 import yaml
 
-
 OPPORTUNITY_TYPES = {
     "baa",
     "grant_opportunity",
@@ -45,9 +44,7 @@ def write_strategic_forecasts(
         generated_at=generated,
     )
     markdown_path = reports / "strategic-forecasts.md"
-    json_path.write_text(
-        json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8"
-    )
+    json_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     markdown_path.write_text(_render_markdown(payload), encoding="utf-8")
     return json_path, markdown_path
 
@@ -73,9 +70,7 @@ def build_forecast_registry(
         and item.get("status") in {"active", "upcoming"}
         and item.get("priority") in set(settings["mission_priorities"])
     ]
-    records = [
-        item for item in federal_funding.get("records", []) if isinstance(item, dict)
-    ]
+    records = [item for item in federal_funding.get("records", []) if isinstance(item, dict)]
     portfolios = {
         str(item.get("mission_id")): item
         for item in federal_funding.get("mission_portfolios", [])
@@ -145,16 +140,12 @@ def build_forecast_registry(
         if forecast_id in candidate_ids:
             continue
         mission_records = records_by_mission.get(str(forecast.get("subject_id")), [])
-        if (
-            forecast.get("forecast_type") == "mission_opportunity_release"
-            and not mission_records
-        ):
+        if forecast.get("forecast_type") == "mission_opportunity_release" and not mission_records:
             current.append(
                 {
                     **forecast,
                     "status": "invalidated",
-                    "invalidated_at": forecast.get("invalidated_at")
-                    or generated.isoformat(),
+                    "invalidated_at": forecast.get("invalidated_at") or generated.isoformat(),
                     "invalidation_reason": (
                         "The upstream mission relationship no longer has qualifying evidence. "
                         "This forecast is withdrawn without affecting calibration."
@@ -187,9 +178,7 @@ def build_forecast_registry(
     )
     resolved = resolved[: int(settings["max_resolved_forecasts"])]
     invalidated = [item for item in current if item.get("status") == "invalidated"]
-    invalidated.sort(
-        key=lambda item: str(item.get("invalidated_at") or ""), reverse=True
-    )
+    invalidated.sort(key=lambda item: str(item.get("invalidated_at") or ""), reverse=True)
     forecasts = [*active, *resolved, *invalidated]
     calibration = _calibration(resolved)
     trigger_count = sum(
@@ -233,12 +222,10 @@ def build_forecast_registry(
         "resolved_forecasts": resolved,
         "invalidated_forecasts": invalidated,
         "temporal_context": {
-            "comparison_started_at": (temporal_intelligence or {}).get(
-                "comparison_started_at"
+            "comparison_started_at": (temporal_intelligence or {}).get("comparison_started_at"),
+            "historical_discoveries": ((temporal_intelligence or {}).get("summary") or {}).get(
+                "historical_discoveries", 0
             ),
-            "historical_discoveries": (
-                (temporal_intelligence or {}).get("summary") or {}
-            ).get("historical_discoveries", 0),
         },
     }
 
@@ -262,9 +249,7 @@ def _opportunity_forecast(
         if item.get("record_type") in {"funding_announcement", "award_notice"}
     ]
     recent_awards = [
-        item
-        for item in recent_records
-        if item.get("record_type") in {"award", "contract_award"}
+        item for item in recent_records if item.get("record_type") in {"award", "contract_award"}
     ]
     open_opportunities = [
         item
@@ -327,7 +312,8 @@ def _opportunity_forecast(
         ),
         "probability_factors": factors,
         "confirming_indicators": [
-            "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+            "A new SAM.gov, Grants.gov, or official agency notice names the mission or a "
+            "configured alias.",
             "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
             "An official funding or program update announces a new competitive workstream.",
         ],
@@ -395,9 +381,7 @@ def _milestone_forecast(
     if awaiting:
         overdue_penalty = min(0.18, max(0.04, abs(days_to_target) / 300))
         probability -= overdue_penalty
-        factors.append(
-            {"factor": "confirmation delay", "points": round(-overdue_penalty, 2)}
-        )
+        factors.append({"factor": "confirmation delay", "points": round(-overdue_penalty, 2)})
     probability = round(min(0.88, max(0.10, probability)), 2)
     horizon = (
         generated.date() + timedelta(days=int(settings["milestone_confirmation_days"]))
@@ -485,8 +469,7 @@ def _merge_forecast(candidate: dict, previous: dict | None, generated: datetime)
         **candidate,
         "created_at": previous.get("created_at") or generated.isoformat(),
         "horizon_end": previous.get("horizon_end") or candidate.get("horizon_end"),
-        "initial_probability": previous.get("initial_probability")
-        or candidate.get("probability"),
+        "initial_probability": previous.get("initial_probability") or candidate.get("probability"),
         "baseline_record_keys": previous.get("baseline_record_keys")
         or candidate.get("baseline_record_keys", []),
         "baseline_update_urls": previous.get("baseline_update_urls")
@@ -547,10 +530,7 @@ def _evaluate_forecast(
                 continue
             update_terms = set(
                 _significant_terms(
-                    " ".join(
-                        str(update.get(key) or "")
-                        for key in ("title", "summary", "kind")
-                    )
+                    " ".join(str(update.get(key) or "") for key in ("title", "summary", "kind"))
                 )
             )
             completion = re.search(
@@ -604,12 +584,8 @@ def _dossier(mission: dict, portfolio: dict) -> dict:
         "open_opportunities": int(portfolio.get("open_opportunities") or 0),
         "award_count": int(portfolio.get("award_count") or 0),
         "known_award_value": float(portfolio.get("known_award_value") or 0),
-        "announced_funding_value": float(
-            portfolio.get("announced_funding_value") or 0
-        ),
-        "recipients_and_contractors": (
-            portfolio.get("recipients_and_contractors") or []
-        )[:8],
+        "announced_funding_value": float(portfolio.get("announced_funding_value") or 0),
+        "recipients_and_contractors": (portfolio.get("recipients_and_contractors") or [])[:8],
         "related_patent_count": len(patents),
         "related_patents": [
             {
@@ -713,19 +689,14 @@ def _calibration(resolved: list[dict]) -> dict:
                 "count": len(members),
                 "mean_probability": round(
                     sum(
-                        float(
-                            item.get("closing_probability")
-                            or item.get("probability")
-                            or 0
-                        )
+                        float(item.get("closing_probability") or item.get("probability") or 0)
                         for item in members
                     )
                     / len(members),
                     3,
                 ),
                 "observed_rate": round(
-                    sum(bool(item.get("outcome")) for item in members)
-                    / len(members),
+                    sum(bool(item.get("outcome")) for item in members) / len(members),
                     3,
                 ),
             }
@@ -861,11 +832,16 @@ def _evidence_role(item: dict) -> str:
 
 def _government_url(url: str) -> bool:
     host = re.sub(r"^www\.", "", _hostname(url))
-    return host.endswith(".gov") or host.endswith(".mil") or host in {
-        "sam.gov",
-        "grants.gov",
-        "usaspending.gov",
-    }
+    return (
+        host.endswith(".gov")
+        or host.endswith(".mil")
+        or host
+        in {
+            "sam.gov",
+            "grants.gov",
+            "usaspending.gov",
+        }
+    )
 
 
 def _hostname(url: str) -> str:

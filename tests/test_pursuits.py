@@ -73,11 +73,7 @@ class PursuitWorkspaceTests(unittest.TestCase):
                 reports,
                 public_config,
                 private_config,
-                capability_profile={
-                    "capabilities": [
-                        {"name": "Quantum", "domains": ["quantum"]}
-                    ]
-                },
+                capability_profile={"capabilities": [{"name": "Quantum", "domains": ["quantum"]}]},
                 local_intelligence_dir=root / ".local-intelligence",
                 generated_at=datetime(2026, 7, 30, tzinfo=timezone.utc),
             )
@@ -91,9 +87,7 @@ class PursuitWorkspaceTests(unittest.TestCase):
         self.assertNotIn("notes", public_payload["pursuits"][0])
         self.assertEqual(private_payload["summary"]["total"], 2)
         private_record = next(
-            item
-            for item in private_payload["pursuits"]
-            if item["opportunity_key"] == "sam_gov:TWO"
+            item for item in private_payload["pursuits"] if item["opportunity_key"] == "sam_gov:TWO"
         )
         self.assertEqual(private_record["notes"], ["Sensitive working note"])
         self.assertTrue(private_record["capability_fit"]["configured"])
@@ -161,11 +155,7 @@ class PursuitWorkspaceTests(unittest.TestCase):
                         "change_id": "change:deadline",
                         "category": "deadline",
                         "materiality": "critical",
-                        "after": {
-                            "source": {
-                                "source_url": "https://files.sam.gov/amendment.pdf"
-                            }
-                        },
+                        "after": {"source": {"source_url": "https://files.sam.gov/amendment.pdf"}},
                     }
                 ],
             }

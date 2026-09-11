@@ -101,21 +101,33 @@ class EntityWatchTests(unittest.TestCase):
             self.assertEqual(payload["entities"][0]["name"], "NIST")
             self.assertEqual(payload["technologies"][0]["name"], "ML-KEM")
             self.assertEqual(payload["entities"][0]["evidence_count"], 1)
-            qci = next(item for item in payload["entities"] if item["name"] == "Quantum Computing Inc. (QCi)")
+            qci = next(
+                item
+                for item in payload["entities"]
+                if item["name"] == "Quantum Computing Inc. (QCi)"
+            )
             self.assertEqual(qci["evidence_count"], 1)
             self.assertEqual(qci["evidence"][0]["key"], "two")
             accenture = next(
-                item for item in payload["entities"] if item["name"] == "Accenture / Accenture Federal Services"
+                item
+                for item in payload["entities"]
+                if item["name"] == "Accenture / Accenture Federal Services"
             )
             self.assertEqual(accenture["evidence_count"], 1)
             self.assertEqual(accenture["evidence"][0]["key"], "four")
-            qkd = next(item for item in payload["technologies"] if item["name"] == "Quantum key distribution")
+            qkd = next(
+                item
+                for item in payload["technologies"]
+                if item["name"] == "Quantum key distribution"
+            )
             self.assertEqual(qkd["evidence_count"], 1)
             self.assertEqual(qkd["evidence"][0]["key"], "five")
             self.assertEqual(payload["unseen_entities"][0]["name"], "Cisco")
             cisco_coverage = next(item for item in payload["coverage"] if item["name"] == "Cisco")
             self.assertEqual(cisco_coverage["status"], "covered")
-            self.assertEqual(cisco_coverage["active_sources"][0]["name"], "Cisco Quantum-Safe Updates")
+            self.assertEqual(
+                cisco_coverage["active_sources"][0]["name"], "Cisco Quantum-Safe Updates"
+            )
             markdown = markdown_path.read_text(encoding="utf-8")
             self.assertIn("# Entity and Technology Watch", markdown)
             self.assertIn("Configured, awaiting evidence (1):** Cisco", markdown)

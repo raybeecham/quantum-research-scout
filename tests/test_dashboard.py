@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import tempfile
 import unittest
 from pathlib import Path
@@ -13,7 +14,15 @@ class DashboardBuildTests(unittest.TestCase):
         html = (Path(__file__).parents[1] / "dashboard" / "index.html").read_text(encoding="utf-8")
         script = (Path(__file__).parents[1] / "dashboard" / "app.js").read_text(encoding="utf-8")
         self.assertIn("What the labels mean", html)
-        for label in ("Rising", "Stable", "Declining", "Critical importance", "Actionable", "Watching", "Stale"):
+        for label in (
+            "Rising",
+            "Stable",
+            "Declining",
+            "Critical importance",
+            "Actionable",
+            "Watching",
+            "Stale",
+        ):
             self.assertIn(label, html)
         self.assertIn("const definitions", script)
         self.assertIn("operational_summary", script)
@@ -27,8 +36,16 @@ class DashboardBuildTests(unittest.TestCase):
             reports = root / "reports"
             dashboard.mkdir()
             reports.mkdir()
-            for name in ("index.html", "entity.html", "styles.css", "components.css", "app.js", "entity.js"):
-                content = f'{name}?v=__ASSET_VERSION__'
+            for name in (
+                "index.html",
+                "entity.html",
+                "styles.css",
+                "components.css",
+                "app.js",
+                "entity.js",
+                "favicon.svg",
+            ):
+                content = f"{name}?v=__ASSET_VERSION__"
                 (dashboard / name).write_text(content, encoding="utf-8")
             (reports / "signals.json").write_text(
                 json.dumps(
@@ -40,7 +57,12 @@ class DashboardBuildTests(unittest.TestCase):
                                 "importance": "critical",
                                 "momentum": "rising",
                                 "evidence": [
-                                    {"date": "2026-07-20", "score": 80, "title": "Signal", "url": "https://example.com"}
+                                    {
+                                        "date": "2026-07-20",
+                                        "score": 80,
+                                        "title": "Signal",
+                                        "url": "https://example.com",
+                                    }
                                 ],
                             }
                         },
@@ -83,20 +105,32 @@ class DashboardBuildTests(unittest.TestCase):
                 encoding="utf-8",
             )
             (reports / "alerts.json").write_text(
-                json.dumps({"active_count": 1, "new_count": 1, "alerts": [{"id": "test"}]}), encoding="utf-8"
+                json.dumps({"active_count": 1, "new_count": 1, "alerts": [{"id": "test"}]}),
+                encoding="utf-8",
             )
             (reports / "entity-watch.json").write_text(
                 json.dumps(
                     {
                         "entities": [{"name": "NIST"}],
                         "technologies": [],
-                        "coverage": [{"name": "NIST", "status": "covered", "active_sources": [{"name": "NIST News"}]}],
+                        "coverage": [
+                            {
+                                "name": "NIST",
+                                "status": "covered",
+                                "active_sources": [{"name": "NIST News"}],
+                            }
+                        ],
                     }
                 ),
                 encoding="utf-8",
             )
             (reports / "readiness.json").write_text(
-                json.dumps({"summary": {"assessed": 1}, "organizations": [{"name": "NIST", "stage": "planning"}]}),
+                json.dumps(
+                    {
+                        "summary": {"assessed": 1},
+                        "organizations": [{"name": "NIST", "stage": "planning"}],
+                    }
+                ),
                 encoding="utf-8",
             )
             (reports / "standards-timeline.json").write_text(
@@ -148,7 +182,11 @@ class DashboardBuildTests(unittest.TestCase):
                             }
                         ],
                         "mission_portfolios": [
-                            {"mission_id": "genesis", "mission_name": "Genesis Mission", "record_count": 1}
+                            {
+                                "mission_id": "genesis",
+                                "mission_name": "Genesis Mission",
+                                "record_count": 1,
+                            }
                         ],
                         "recipients_and_contractors": [
                             {
@@ -365,7 +403,14 @@ class DashboardBuildTests(unittest.TestCase):
                 encoding="utf-8",
             )
             (reports / "historical-evidence.json").write_text(
-                json.dumps({"item_count": 2, "dated_count": 1, "undated_count": 1, "items": [{"key": "one"}]}),
+                json.dumps(
+                    {
+                        "item_count": 2,
+                        "dated_count": 1,
+                        "undated_count": 1,
+                        "items": [{"key": "one"}],
+                    }
+                ),
                 encoding="utf-8",
             )
             (reports / "patents.json").write_text(
@@ -395,13 +440,19 @@ class DashboardBuildTests(unittest.TestCase):
             daily.write_text("# Daily", encoding="utf-8")
             (daily.parent / "2026-07-21-digest.md").write_text("# Newer Daily", encoding="utf-8")
 
-            data_path = build_dashboard(root, root / "site", repo_url="https://github.com/example/repo")
+            data_path = build_dashboard(
+                root, root / "site", repo_url="https://github.com/example/repo"
+            )
             payload = json.loads(data_path.read_text(encoding="utf-8"))
 
             self.assertTrue((root / "site" / "index.html").exists())
             self.assertTrue((root / "site" / "entity.html").exists())
-            self.assertNotIn("__ASSET_VERSION__", (root / "site" / "index.html").read_text(encoding="utf-8"))
-            self.assertIn(payload["build_id"], (root / "site" / "app.js").read_text(encoding="utf-8"))
+            self.assertNotIn(
+                "__ASSET_VERSION__", (root / "site" / "index.html").read_text(encoding="utf-8")
+            )
+            self.assertIn(
+                payload["build_id"], (root / "site" / "app.js").read_text(encoding="utf-8")
+            )
             self.assertEqual(payload["signals"]["themes"][0]["name"], "PQC / Crypto Agility")
             self.assertEqual(payload["signals"]["themes"][0]["evidence_count"], 1)
             self.assertEqual(payload["reports"]["latest_daily"]["name"], "2026-07-21-digest")
@@ -413,15 +464,21 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["federal_missions"]["missions"][0]["name"], "Genesis Mission")
             self.assertEqual(payload["federal_funding"]["summary"]["linked_records"], 1)
             self.assertEqual(payload["federal_funding"]["records"][0]["record_type"], "baa")
-            self.assertEqual(payload["federal_funding"]["opportunity_radar"][0]["opportunity_score"], 82)
-            self.assertEqual(payload["federal_funding"]["contractor_profiles"][0]["name"], "Acme Quantum LLC")
             self.assertEqual(
-                payload["federal_funding"]["contractor_profiles"][0][
-                    "entity_enrichment"
-                ]["cage_code"],
+                payload["federal_funding"]["opportunity_radar"][0]["opportunity_score"], 82
+            )
+            self.assertEqual(
+                payload["federal_funding"]["contractor_profiles"][0]["name"], "Acme Quantum LLC"
+            )
+            self.assertEqual(
+                payload["federal_funding"]["contractor_profiles"][0]["entity_enrichment"][
+                    "cage_code"
+                ],
                 "1A2B3",
             )
-            self.assertEqual(payload["federal_funding"]["relationship_explorer"]["summary"]["edges"], 1)
+            self.assertEqual(
+                payload["federal_funding"]["relationship_explorer"]["summary"]["edges"], 1
+            )
             self.assertEqual(
                 payload["procurement_intelligence"]["summary"]["documents_extracted"],
                 1,
@@ -445,26 +502,31 @@ class DashboardBuildTests(unittest.TestCase):
             self.assertEqual(payload["decision_center"]["summary"]["total"], 0)
             self.assertIn("browser", payload["decision_center"]["privacy_note"])
             self.assertEqual(
-                payload["federal_funding"]["relationship_explorer"]["edges"][0][
-                    "claim_id"
-                ],
+                payload["federal_funding"]["relationship_explorer"]["edges"][0]["claim_id"],
                 "claim-mission-baa",
             )
             self.assertEqual(payload["historical_evidence"]["item_count"], 2)
             self.assertEqual(payload["patents"]["summary"]["total"], 1)
             self.assertEqual(payload["patents"]["summary"]["curated_total"], 1)
-            self.assertEqual(payload["patents"]["patents"][0]["publication_number"], "US20260234567A1")
+            self.assertEqual(
+                payload["patents"]["patents"][0]["publication_number"], "US20260234567A1"
+            )
             self.assertEqual(payload["signals"]["overall_trend"][0]["count"], 1)
             self.assertEqual(payload["data_trust"]["summary"]["quarantined"], 1)
             self.assertEqual(
                 payload["data_trust"]["quarantined_evidence"][0]["title"],
                 "Unrelated grant",
             )
-            self.assertIn("github.com/example/repo/blob/main/reports/", payload["reports"]["latest_daily"]["url"])
+            self.assertIn(
+                "github.com/example/repo/blob/main/reports/",
+                payload["reports"]["latest_daily"]["url"],
+            )
 
     def test_watch_cards_and_coverage_link_to_profiles(self) -> None:
         script = (Path(__file__).parents[1] / "dashboard" / "app.js").read_text(encoding="utf-8")
-        profile = (Path(__file__).parents[1] / "dashboard" / "entity.js").read_text(encoding="utf-8")
+        profile = (Path(__file__).parents[1] / "dashboard" / "entity.js").read_text(
+            encoding="utf-8"
+        )
         self.assertIn("entity.html?name=", script)
         self.assertIn("profile-timeline", profile)
         self.assertIn("profile-sources", profile)
@@ -566,7 +628,8 @@ class DashboardBuildTests(unittest.TestCase):
     def test_dashboard_vibrant_experience_stays_dynamic_and_accessible(self) -> None:
         root = Path(__file__).parents[1]
         html = (root / "dashboard" / "index.html").read_text(encoding="utf-8")
-        styles = (root / "dashboard" / "components.css").read_text(encoding="utf-8")
+        tokens = (root / "dashboard" / "styles.css").read_text(encoding="utf-8")
+        components = (root / "dashboard" / "components.css").read_text(encoding="utf-8")
         script = (root / "dashboard" / "app.js").read_text(encoding="utf-8")
 
         self.assertIn('class="hero-visual"', html)
@@ -578,11 +641,43 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("Decision-ready intelligence", html)
         self.assertNotIn("Fresh intelligence", html)
         self.assertNotIn("89 tracked", html)
-        self.assertIn("--bg:#0b1020", styles)
-        self.assertNotIn(".hero-radar-card{", styles)
-        self.assertIn("--surface:#151d32", styles)
-        self.assertIn("prefers-reduced-motion:reduce", styles)
+        self.assertNotIn(".hero-radar-card {", components)
+        self.assertIn("prefers-reduced-motion: reduce", tokens)
         self.assertIn("setupReveal", script)
         self.assertIn("animateMetrics", script)
-        self.assertIn("--type-caption:11px", styles)
-        self.assertIn("--type-body-readable:14px", styles)
+
+        # styles.css is the single source of the palette and type scale.
+        self.assertIn("--bg: #0b1020", tokens)
+        self.assertIn("--surface: #151d32", tokens)
+        self.assertIn("--text-2xs: 11px", tokens)
+        self.assertIn("--text-md: 14px", tokens)
+
+    def test_dashboard_styles_keep_one_token_source_and_a_legible_floor(self) -> None:
+        root = Path(__file__).parents[1]
+        tokens = (root / "dashboard" / "styles.css").read_text(encoding="utf-8")
+        components = (root / "dashboard" / "components.css").read_text(encoding="utf-8")
+
+        # Feature modules consume tokens; they must not re-declare the palette.
+        self.assertNotIn(":root {", components)
+
+        # Nothing on the page may drop below the 11px floor. The hero orb glyph
+        # is decorative and deliberately oversized, so only small values matter.
+        undersized = [
+            int(match)
+            for match in re.findall(r"font-size: (\d+)px", tokens + components)
+            if int(match) < 11
+        ]
+        self.assertEqual(undersized, [], f"font sizes below the 11px floor: {sorted(undersized)}")
+
+        # font-size:0 was previously used to swap a disclosure label via ::before,
+        # which left the accessible name out of step with the visible text.
+        self.assertNotIn("font-size: 0", tokens + components)
+
+        # Colours are tokenised, so no raw rgba()/hex literals outside styles.css.
+        self.assertEqual(re.findall(r"rgba\(\s*\d", components), [])
+        stray_hex = [
+            value
+            for value in re.findall(r"#[0-9a-fA-F]{3,8}\b", components)
+            if value != "#000"  # mask layers need a plain opaque paint
+        ]
+        self.assertEqual(stray_hex, [])

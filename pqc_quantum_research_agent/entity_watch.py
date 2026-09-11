@@ -27,18 +27,29 @@ def write_entity_watch(
     today = operational_today(generated)
     evidence_dates = [date.fromisoformat(item["date"]) for item in evidence if item.get("date")]
     anchor_date = max(evidence_dates) if evidence_dates else today
-    entity_profiles = [_profile(item, evidence, today, anchor_date) for item in config.get("entities", [])]
-    technology_profiles = [_profile(item, evidence, today, anchor_date) for item in config.get("technologies", [])]
+    entity_profiles = [
+        _profile(item, evidence, today, anchor_date) for item in config.get("entities", [])
+    ]
+    technology_profiles = [
+        _profile(item, evidence, today, anchor_date) for item in config.get("technologies", [])
+    ]
     entities = [item for item in entity_profiles if item["evidence_count"]]
     technologies = [item for item in technology_profiles if item["evidence_count"]]
-    unseen_entities = [_unseen_summary(item) for item in entity_profiles if not item["evidence_count"]]
-    unseen_technologies = [_unseen_summary(item) for item in technology_profiles if not item["evidence_count"]]
+    unseen_entities = [
+        _unseen_summary(item) for item in entity_profiles if not item["evidence_count"]
+    ]
+    unseen_technologies = [
+        _unseen_summary(item) for item in technology_profiles if not item["evidence_count"]
+    ]
     entities.sort(key=_profile_sort_key)
     technologies.sort(key=_profile_sort_key)
     unseen_entities.sort(key=_profile_sort_key)
     unseen_technologies.sort(key=_profile_sort_key)
     coverage = _source_coverage(entity_profiles, sources_config_path)
-    coverage_summary = {status: sum(item["status"] == status for item in coverage) for status in ("covered", "disabled", "third-party", "gap")}
+    coverage_summary = {
+        status: sum(item["status"] == status for item in coverage)
+        for status in ("covered", "disabled", "third-party", "gap")
+    }
 
     payload = {
         "version": 2,
@@ -106,7 +117,9 @@ def _profile(config: dict, evidence: list[dict], today: date, anchor_date: date)
     matches = [
         item
         for item in evidence
-        if _matches(names, f"{item.get('title', '')} {item.get('summary', '')} {item.get('source', '')}")
+        if _matches(
+            names, f"{item.get('title', '')} {item.get('summary', '')} {item.get('source', '')}"
+        )
         or _matches(
             case_sensitive_names,
             f"{item.get('title', '')} {item.get('summary', '')} {item.get('source', '')}",
@@ -141,7 +154,10 @@ def _profile(config: dict, evidence: list[dict], today: date, anchor_date: date)
 
 def _matches(names: list[str], text: str, *, ignore_case: bool = True) -> bool:
     flags = re.IGNORECASE if ignore_case else 0
-    return any(name and re.search(rf"(?<![A-Za-z0-9]){re.escape(name)}(?![A-Za-z0-9])", text, flags) for name in names)
+    return any(
+        name and re.search(rf"(?<![A-Za-z0-9]){re.escape(name)}(?![A-Za-z0-9])", text, flags)
+        for name in names
+    )
 
 
 def _period_counts(dates: list[date], latest: date | None) -> tuple[int, int]:
@@ -149,7 +165,9 @@ def _period_counts(dates: list[date], latest: date | None) -> tuple[int, int]:
         return 0, 0
     recent_start = latest - timedelta(days=6)
     prior_start = latest - timedelta(days=13)
-    return sum(day >= recent_start for day in dates), sum(prior_start <= day < recent_start for day in dates)
+    return sum(day >= recent_start for day in dates), sum(
+        prior_start <= day < recent_start for day in dates
+    )
 
 
 def _momentum(recent: int, prior: int) -> str:
@@ -175,18 +193,30 @@ def _safe_date(value) -> date | None:
 
 
 def _profile_sort_key(item: dict) -> tuple:
-    return ({"critical": 0, "high": 1, "medium": 2}.get(item["priority"], 9), -item.get("evidence_count", 0), item["name"])
+    return (
+        {"critical": 0, "high": 1, "medium": 2}.get(item["priority"], 9),
+        -item.get("evidence_count", 0),
+        item["name"],
+    )
 
 
 def _unseen_summary(item: dict) -> dict:
-    return {key: item[key] for key in ("name", "type", "priority", "aliases", "case_sensitive_aliases")}
+    return {
+        key: item[key] for key in ("name", "type", "priority", "aliases", "case_sensitive_aliases")
+    }
 
 
-def _source_coverage(entity_profiles: list[dict], sources_config_path: str | Path | None) -> list[dict]:
+def _source_coverage(
+    entity_profiles: list[dict], sources_config_path: str | Path | None
+) -> list[dict]:
     configured: dict[str, list[dict]] = {}
     if sources_config_path and Path(sources_config_path).exists():
         raw = yaml.safe_load(Path(sources_config_path).read_text(encoding="utf-8")) or {}
-        for section, source_type in (("rss_feeds", "rss"), ("urls", "url"), ("watch_sources", "watch")):
+        for section, source_type in (
+            ("rss_feeds", "rss"),
+            ("urls", "url"),
+            ("watch_sources", "watch"),
+        ):
             for source in raw.get(section, []) or []:
                 entities = source.get("entities") or source.get("entity") or []
                 if isinstance(entities, str):
@@ -206,7 +236,8 @@ def _source_coverage(entity_profiles: list[dict], sources_config_path: str | Pat
         disabled_sources = [item for item in sources if not item["enabled"]]
         source_names = {item["name"].casefold() for item in sources}
         first_party_evidence = sum(
-            str(item.get("source", "")).casefold() in source_names for item in profile.get("evidence", [])
+            str(item.get("source", "")).casefold() in source_names
+            for item in profile.get("evidence", [])
         )
         if active_sources:
             status = "covered"
@@ -255,7 +286,8 @@ def _render(payload: dict) -> str:
             [
                 f"## {heading}",
                 "",
-                "| Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |",
+                "| Watch item | Momentum | Priority | Status | First seen | Latest seen | "
+                "Evidence | Historical |",
                 "|---|---|---|---|---|---|---:|---:|",
             ]
         )

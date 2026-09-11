@@ -62,9 +62,7 @@ def score_capability_fit(opportunity: dict, profile: dict) -> dict:
         capability_domains = {_normalize(value) for value in capability.get("domains") or []}
         keywords = [str(value) for value in capability.get("keywords") or []]
         domain_matches = sorted(value for value in capability_domains & domains if value)
-        keyword_matches = sorted(
-            value for value in keywords if _contains_phrase(text, value)
-        )
+        keyword_matches = sorted(value for value in keywords if _contains_phrase(text, value))
         if not domain_matches and not keyword_matches:
             continue
         matched_capabilities.append(
@@ -100,9 +98,7 @@ def score_capability_fit(opportunity: dict, profile: dict) -> dict:
             continue
         record_agencies = [_normalize(value) for value in record.get("agencies") or []]
         record_domains = {_normalize(value) for value in record.get("domains") or []}
-        keyword_match = any(
-            _contains_phrase(text, value) for value in record.get("keywords") or []
-        )
+        keyword_match = any(_contains_phrase(text, value) for value in record.get("keywords") or [])
         agency_match = any(
             _organizations_overlap(value, agency) for value in record_agencies if value
         )
@@ -144,9 +140,7 @@ def score_capability_fit(opportunity: dict, profile: dict) -> dict:
     elif profile.get("contract_vehicles"):
         gaps.append("No active configured contract vehicle matched the agency")
 
-    eligible_set_asides = [
-        _normalize(value) for value in profile.get("eligible_set_asides") or []
-    ]
+    eligible_set_asides = [_normalize(value) for value in profile.get("eligible_set_asides") or []]
     if set_aside:
         matched_set_asides = [
             value for value in eligible_set_asides if value and value in set_aside
@@ -173,9 +167,7 @@ def score_capability_fit(opportunity: dict, profile: dict) -> dict:
         if not isinstance(rule, dict):
             continue
         matches = [
-            str(value)
-            for value in rule.get("patterns") or []
-            if _contains_phrase(text, value)
+            str(value) for value in rule.get("patterns") or [] if _contains_phrase(text, value)
         ]
         if matches:
             hard_stops.append(
@@ -205,10 +197,7 @@ def score_capability_fit(opportunity: dict, profile: dict) -> dict:
 
 def capability_publication_enabled(profile: dict) -> bool:
     publication = profile.get("publication") or {}
-    return bool(
-        isinstance(publication, dict)
-        and publication.get("publish_fit_assessment", False)
-    )
+    return bool(isinstance(publication, dict) and publication.get("publish_fit_assessment", False))
 
 
 def _opportunity_text(opportunity: dict) -> str:
@@ -230,8 +219,7 @@ def _opportunity_text(opportunity: dict) -> str:
 def _contains_phrase(text: str, phrase: object) -> bool:
     normalized = _normalize(phrase)
     return bool(
-        normalized
-        and re.search(rf"(?<![a-z0-9]){re.escape(normalized)}(?![a-z0-9])", text)
+        normalized and re.search(rf"(?<![a-z0-9]){re.escape(normalized)}(?![a-z0-9])", text)
     )
 
 

@@ -71,9 +71,7 @@ def main() -> int:
     occurred_at = None
     if args.occurred_at:
         try:
-            occurred_at = datetime.fromisoformat(
-                args.occurred_at.replace("Z", "+00:00")
-            )
+            occurred_at = datetime.fromisoformat(args.occurred_at.replace("Z", "+00:00"))
         except ValueError as exc:
             parser.error(f"Invalid --occurred-at timestamp: {exc}")
     try:

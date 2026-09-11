@@ -41,7 +41,9 @@ class HttpClient:
         last_error: Exception | None = None
         for attempt in range(self.retries + 1):
             try:
-                response = self.session.get(url, params=params, headers=headers, timeout=self.timeout_seconds)
+                response = self.session.get(
+                    url, params=params, headers=headers, timeout=self.timeout_seconds
+                )
                 response.raise_for_status()
                 response.encoding = _best_response_encoding(response)
                 return response.text, redact_url(response.url)
@@ -65,9 +67,7 @@ class HttpClient:
                     time.sleep(1 + attempt)
                     continue
                 LOGGER.warning("Fetch failed for %s: %s", redact_url(url), redact_text(exc))
-        raise RuntimeError(
-            f"Failed to fetch {redact_url(url)}: {redact_text(last_error)}"
-        )
+        raise RuntimeError(f"Failed to fetch {redact_url(url)}: {redact_text(last_error)}")
 
     def get_bytes(
         self,
@@ -121,27 +121,19 @@ class HttpClient:
                 if attempt < self.retries and delay is not None:
                     time.sleep(delay)
                     continue
-                LOGGER.warning(
-                    "Binary fetch failed for %s: %s", redact_url(url), redact_text(exc)
-                )
+                LOGGER.warning("Binary fetch failed for %s: %s", redact_url(url), redact_text(exc))
                 break
             except requests.RequestException as exc:
                 last_error = exc
                 if attempt < self.retries:
                     time.sleep(1 + attempt)
                     continue
-                LOGGER.warning(
-                    "Binary fetch failed for %s: %s", redact_url(url), redact_text(exc)
-                )
+                LOGGER.warning("Binary fetch failed for %s: %s", redact_url(url), redact_text(exc))
             except (RuntimeError, ValueError) as exc:
                 last_error = exc
-                LOGGER.warning(
-                    "Binary fetch failed for %s: %s", redact_url(url), redact_text(exc)
-                )
+                LOGGER.warning("Binary fetch failed for %s: %s", redact_url(url), redact_text(exc))
                 break
-        raise RuntimeError(
-            f"Failed to fetch document {redact_url(url)}: {redact_text(last_error)}"
-        )
+        raise RuntimeError(f"Failed to fetch document {redact_url(url)}: {redact_text(last_error)}")
 
     def post_text(
         self,
@@ -182,9 +174,7 @@ class HttpClient:
                     time.sleep(1 + attempt)
                     continue
                 LOGGER.warning("POST failed for %s: %s", redact_url(url), redact_text(exc))
-        raise RuntimeError(
-            f"Failed to post to {redact_url(url)}: {redact_text(last_error)}"
-        )
+        raise RuntimeError(f"Failed to post to {redact_url(url)}: {redact_text(last_error)}")
 
 
 def _http_retry_delay(

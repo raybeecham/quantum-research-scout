@@ -6,36 +6,41 @@ import sys
 from datetime import datetime, time, timezone
 from pathlib import Path
 
-from .classifier import classify_item
+from .alerts import write_alerts
 from .capabilities import load_capability_profile
 from .claim_ledger import write_claim_ledger
-from .temporal_intelligence import write_temporal_intelligence
-from .strategic_forecasts import write_strategic_forecasts
-from .scoring_calibration import write_scoring_calibration
+from .classifier import classify_item
 from .collectors import collect_all
 from .config import load_config, load_weight_file
-from .date_filter import COVERAGE_WINDOW_INCLUDED_STATUSES, apply_date_filter, build_coverage_window, summarize_date_filter
+from .contractor_enrichment import write_contractor_enrichment
+from .data_trust import write_data_trust_report
+from .date_filter import (
+    COVERAGE_WINDOW_INCLUDED_STATUSES,
+    apply_date_filter,
+    build_coverage_window,
+    summarize_date_filter,
+)
 from .dates import OPERATIONAL_TIMEZONE_NAME, operational_today
 from .dedupe import dedupe_items, prepare_identity
-from .report import is_report_relevant, select_report_items, write_daily_digest
-from .retention import prune_daily_reports
+from .entity_watch import write_entity_watch
+from .federal_funding import write_federal_funding_tracker
+from .federal_missions import write_federal_mission_tracker
+from .http import HttpClient
 from .monthly import write_monthly_report
 from .patents import write_patent_tracker
-from .report_index import write_report_index
-from .signals import write_signal_tracker
-from .source_health import write_source_health_report, write_source_observations
-from .alerts import write_alerts
-from .entity_watch import write_entity_watch
-from .federal_missions import write_federal_mission_tracker
-from .federal_funding import write_federal_funding_tracker
-from .data_trust import write_data_trust_report
-from .contractor_enrichment import write_contractor_enrichment
-from .http import HttpClient
 from .procurement_intelligence import write_procurement_intelligence
 from .pursuits import write_pursuit_workspace
 from .readiness import write_readiness_report
+from .report import is_report_relevant, select_report_items, write_daily_digest
+from .report_index import write_report_index
+from .retention import prune_daily_reports
+from .scoring_calibration import write_scoring_calibration
+from .signals import write_signal_tracker
+from .source_health import write_source_health_report, write_source_observations
 from .standards import write_standards_timeline
 from .storage import ResearchStore
+from .strategic_forecasts import write_strategic_forecasts
+from .temporal_intelligence import write_temporal_intelligence
 from .weekly import write_weekly_report
 
 LOGGER = logging.getLogger(__name__)
@@ -47,21 +52,53 @@ def build_parser() -> argparse.ArgumentParser:
         description="Collect, classify, deduplicate, store, and report PQC and quantum research updates.",
     )
     parser.add_argument("--config", default="sources.yaml", help="Path to sources YAML file.")
-    parser.add_argument("--db", default="data/research_items.sqlite", help="Path to SQLite database.")
+    parser.add_argument(
+        "--db", default="data/research_items.sqlite", help="Path to SQLite database."
+    )
     parser.add_argument("--reports-dir", default="reports", help="Directory for Markdown digests.")
-    parser.add_argument("--weekly", action="store_true", help="Generate a weekly synthesis from existing daily reports.")
-    parser.add_argument("--monthly", action="store_true", help="Generate a monthly synthesis from existing daily reports.")
-    parser.add_argument("--month", default=None, help="Monthly synthesis target in YYYY-MM format; defaults to last month.")
-    parser.add_argument("--update-report-index", action="store_true", help="Refresh reports/README.md after report generation.")
+    parser.add_argument(
+        "--weekly",
+        action="store_true",
+        help="Generate a weekly synthesis from existing daily reports.",
+    )
+    parser.add_argument(
+        "--monthly",
+        action="store_true",
+        help="Generate a monthly synthesis from existing daily reports.",
+    )
+    parser.add_argument(
+        "--month",
+        default=None,
+        help="Monthly synthesis target in YYYY-MM format; defaults to last month.",
+    )
+    parser.add_argument(
+        "--update-report-index",
+        action="store_true",
+        help="Refresh reports/README.md after report generation.",
+    )
     parser.add_argument(
         "--update-intelligence-tracking",
         action="store_true",
         help="Refresh the persistent signal tracker and rolling source-health report after daily generation.",
     )
-    parser.add_argument("--alerts-config", default="alerts.yaml", help="Path to alert rules YAML file.")
-    parser.add_argument("--watchlists-config", default="watchlists.yaml", help="Path to entity and technology watchlists YAML file.")
-    parser.add_argument("--readiness-config", default="readiness.yaml", help="Path to evidence-backed PQC readiness rules.")
-    parser.add_argument("--standards-config", default="standards.yaml", help="Path to standards and migration milestones.")
+    parser.add_argument(
+        "--alerts-config", default="alerts.yaml", help="Path to alert rules YAML file."
+    )
+    parser.add_argument(
+        "--watchlists-config",
+        default="watchlists.yaml",
+        help="Path to entity and technology watchlists YAML file.",
+    )
+    parser.add_argument(
+        "--readiness-config",
+        default="readiness.yaml",
+        help="Path to evidence-backed PQC readiness rules.",
+    )
+    parser.add_argument(
+        "--standards-config",
+        default="standards.yaml",
+        help="Path to standards and migration milestones.",
+    )
     parser.add_argument(
         "--missions-config",
         default="missions.yaml",
@@ -102,8 +139,12 @@ def build_parser() -> argparse.ArgumentParser:
         default="forecasts.yaml",
         help="Transparent strategic-forecast rules, horizons, and safeguards.",
     )
-    parser.add_argument("--week-start", default=None, help="Weekly synthesis start date in YYYY-MM-DD format.")
-    parser.add_argument("--week-end", default=None, help="Weekly synthesis end date in YYYY-MM-DD format.")
+    parser.add_argument(
+        "--week-start", default=None, help="Weekly synthesis start date in YYYY-MM-DD format."
+    )
+    parser.add_argument(
+        "--week-end", default=None, help="Weekly synthesis end date in YYYY-MM-DD format."
+    )
     parser.add_argument(
         "--date",
         default=None,
@@ -148,15 +189,21 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--since-days", type=int, default=None, help=argparse.SUPPRESS)
     parser.add_argument("--days-back", type=int, default=None, help=argparse.SUPPRESS)
-    parser.add_argument("--min-score", type=int, default=None, help="Minimum score for report inclusion.")
+    parser.add_argument(
+        "--min-score", type=int, default=None, help="Minimum score for report inclusion."
+    )
     parser.add_argument(
         "--min-topic-confidence",
         type=int,
         default=None,
         help="Minimum topical confidence for report inclusion. Default comes from sources.yaml settings.",
     )
-    parser.add_argument("--top-n", type=int, default=None, help="Maximum number of items to include in the report.")
-    parser.add_argument("--arxiv-max-results", type=int, default=None, help="Override arXiv max_results per query.")
+    parser.add_argument(
+        "--top-n", type=int, default=None, help="Maximum number of items to include in the report."
+    )
+    parser.add_argument(
+        "--arxiv-max-results", type=int, default=None, help="Override arXiv max_results per query."
+    )
     parser.add_argument(
         "--source-weights",
         default="source_weights.yaml",
@@ -178,7 +225,11 @@ def build_parser() -> argparse.ArgumentParser:
         default=None,
         help="Maximum report items per source. Use 0 for unlimited.",
     )
-    parser.add_argument("--dry-run", action="store_true", help="Collect and classify without writing SQLite/report files.")
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Collect and classify without writing SQLite/report files.",
+    )
     parser.add_argument("--verbose", action="store_true", help="Enable debug logging.")
     return parser
 
@@ -235,12 +286,16 @@ def main(argv: list[str] | None = None) -> int:
         config.arxiv_rss = []
     report_top_n = args.top_n if args.top_n is not None else config.settings.report_top_n
     report_limit_per_source = (
-        args.limit_per_source if args.limit_per_source is not None else config.settings.report_limit_per_source
+        args.limit_per_source
+        if args.limit_per_source is not None
+        else config.settings.report_limit_per_source
     )
 
     generated_at = datetime.now(timezone.utc)
     target_date = _parse_target_date(args.date) if args.date else operational_today(generated_at)
-    coverage_end_time = _parse_coverage_end_time(args.coverage_end_time) if args.coverage_end_time else None
+    coverage_end_time = (
+        _parse_coverage_end_time(args.coverage_end_time) if args.coverage_end_time else None
+    )
     try:
         coverage_start_at, coverage_end_at = build_coverage_window(
             generated_at=generated_at,
@@ -426,15 +481,17 @@ def main(argv: list[str] | None = None) -> int:
             generated_at=generated_at,
         )
         write_signal_tracker(Path(args.reports_dir))
-        write_entity_watch(Path(args.reports_dir), args.watchlists_config, sources_config_path=args.config)
+        write_entity_watch(
+            Path(args.reports_dir), args.watchlists_config, sources_config_path=args.config
+        )
         write_readiness_report(Path(args.reports_dir), args.readiness_config)
         write_standards_timeline(Path(args.reports_dir), args.standards_config)
-        write_source_observations(Path(args.reports_dir), config, collection, generated_at=generated_at)
+        write_source_observations(
+            Path(args.reports_dir), config, collection, generated_at=generated_at
+        )
         write_source_health_report(Path(args.reports_dir), args.config)
         write_claim_ledger(Path(args.reports_dir), generated_at=generated_at)
-        write_temporal_intelligence(
-            Path(args.reports_dir), generated_at=generated_at
-        )
+        write_temporal_intelligence(Path(args.reports_dir), generated_at=generated_at)
         write_strategic_forecasts(
             Path(args.reports_dir),
             args.forecasts_config,

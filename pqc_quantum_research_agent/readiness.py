@@ -23,7 +23,9 @@ def write_readiness_report(
     stages = sorted(config.get("stages", []), key=lambda item: int(item.get("rank", 0)))
     profiles = [*(watch.get("entities", []) or []), *(watch.get("unseen_entities", []) or [])]
     organizations = [_score_profile(profile, topic_patterns, stages) for profile in profiles]
-    organizations.sort(key=lambda item: (-item["stage_rank"], _confidence_rank(item["confidence"]), item["name"]))
+    organizations.sort(
+        key=lambda item: (-item["stage_rank"], _confidence_rank(item["confidence"]), item["name"])
+    )
     stage_counts = Counter(item["stage"] for item in organizations)
     payload = {
         "version": 1,
@@ -93,7 +95,10 @@ def _score_profile(profile: dict, topic_patterns: list[str], stages: list[dict])
             }
         )
 
-    relevant.sort(key=lambda item: (item.get("rank", 0), item.get("date") or "", item.get("title", "")), reverse=True)
+    relevant.sort(
+        key=lambda item: (item.get("rank", 0), item.get("date") or "", item.get("title", "")),
+        reverse=True,
+    )
     if relevant:
         strongest = relevant[0]
         stage = strongest["observed_stage"]
@@ -182,15 +187,18 @@ def _render(payload: dict) -> str:
         "",
         "> **Observed engagement** · Awareness → Inventory → Planning → Pilot / Testing → Production",
         "",
-        "[Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)",
+        "[Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · "
+        "[Standards Timeline](standards-timeline.md)",
         "",
         f"_Updated {datetime.fromisoformat(payload['updated_at']):%Y-%m-%d %H:%M UTC}_",
         "",
         payload["methodology"]["disclaimer"],
         "",
-        f"Assessed **{payload['summary']['assessed']} of {payload['summary']['organizations']}** configured organizations.",
+        f"Assessed **{payload['summary']['assessed']} of "
+        f"{payload['summary']['organizations']}** configured organizations.",
         "",
-        "| Organization | Observed stage | Confidence | PQC evidence | Sources | Historical | Latest dated evidence |",
+        "| Organization | Observed stage | Confidence | PQC evidence | Sources | Historical | "
+        "Latest dated evidence |",
         "|---|---|---|---:|---:|---:|---|",
     ]
     for item in payload.get("organizations", []):
@@ -204,7 +212,8 @@ def _render(payload: dict) -> str:
     lines.extend(
         [
             "",
-            "The highest explicitly matched stage is shown. Backfilled evidence contributes to the scorecard but is marked historical and cannot generate retroactive alerts.",
+            "The highest explicitly matched stage is shown. Backfilled evidence contributes to "
+            "the scorecard but is marked historical and cannot generate retroactive alerts.",
         ]
     )
     return "\n".join(lines) + "\n"

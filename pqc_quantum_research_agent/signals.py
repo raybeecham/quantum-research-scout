@@ -6,8 +6,8 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from .text import normalize_title
-from .weekly import WeeklyItem, parse_daily_report
 from .visuals import momentum_icon, priority_icon, status_icon
+from .weekly import WeeklyItem, parse_daily_report
 
 THEMES = (
     "Patent Intelligence",
@@ -74,8 +74,16 @@ def write_signal_tracker(
             }
 
     generated = generated_at or datetime.now(timezone.utc)
-    themes = {theme: _summarize_theme(theme, list(evidence.values()), generated.date()) for theme, evidence in evidence_by_theme.items() if evidence}
-    state = {"version": 1, "updated_at": generated.astimezone(timezone.utc).isoformat(), "themes": themes}
+    themes = {
+        theme: _summarize_theme(theme, list(evidence.values()), generated.date())
+        for theme, evidence in evidence_by_theme.items()
+        if evidence
+    }
+    state = {
+        "version": 1,
+        "updated_at": generated.astimezone(timezone.utc).isoformat(),
+        "themes": themes,
+    }
     state_path.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
     markdown_path = reports_path / "signals.md"
@@ -105,9 +113,21 @@ def _summarize_theme(theme: str, evidence: list[dict], today: date) -> dict:
     max_score = max(item["score"] for item in evidence)
     importance = "critical" if max_score >= 100 else "high" if max_score >= 50 else "medium"
     source_counts = Counter(item["source"] for item in evidence)
-    confidence = "high" if len(evidence) >= 5 and len(source_counts) >= 3 else "medium" if len(evidence) >= 2 else "low"
+    confidence = (
+        "high"
+        if len(evidence) >= 5 and len(source_counts) >= 3
+        else "medium"
+        if len(evidence) >= 2
+        else "low"
+    )
     age_days = (today - latest).days
-    status = "stale" if age_days > 14 else "actionable" if momentum == "rising" and importance in {"critical", "high"} else "watching"
+    status = (
+        "stale"
+        if age_days > 14
+        else "actionable"
+        if momentum == "rising" and importance in {"critical", "high"}
+        else "watching"
+    )
     return {
         "first_seen": min(dates).isoformat(),
         "latest_seen": latest.isoformat(),
@@ -150,7 +170,11 @@ def _theme_for_item(item: WeeklyItem) -> str:
         return "Quantum Software / Tooling"
     if "ai security" in category:
         return "AI Security"
-    if "standard" in category or "policy" in category or any(term in text for term in ("nist", "cisa", "federal")):
+    if (
+        "standard" in category
+        or "policy" in category
+        or any(term in text for term in ("nist", "cisa", "federal"))
+    ):
         return "Standards / Government"
     return "Vendor / Industry"
 
@@ -165,9 +189,11 @@ def _render_tracker(state: dict, generated_at: datetime) -> str:
         "",
         f"_Updated {generated_at.astimezone(timezone.utc):%Y-%m-%d %H:%M UTC}_",
         "",
-        "Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.",
+        "Signals are deduplicated across retained reports and preserved in `signals.json` as "
+        "the durable evidence ledger.",
         "",
-        "| Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |",
+        "| Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | "
+        "Evidence |",
         "|---|---|---|---|---|---|---|---:|",
     ]
     themes = state.get("themes", {})
@@ -193,7 +219,11 @@ def _render_tracker(state: dict, generated_at: datetime) -> str:
         lines.append(f"- Organizations/sources: {', '.join(summary['organizations'])}")
         lines.append(f"- Recommended follow-up: {summary['follow_up']}")
         lines.append("- Recent supporting evidence:")
-        for item in sorted(summary["evidence"], key=lambda value: (value["date"], value["score"]), reverse=True)[:5]:
+        for item in sorted(
+            summary["evidence"], key=lambda value: (value["date"], value["score"]), reverse=True
+        )[:5]:
             target = item["url"] or item["report"]
-            lines.append(f"  - {item['date']} — [{item['title']}]({target}) ({item['source']}, score {item['score']})")
+            lines.append(
+                f"  - {item['date']} — [{item['title']}]({target}) ({item['source']}, score {item['score']})"
+            )
     return "\n".join(lines) + "\n"

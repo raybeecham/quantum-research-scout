@@ -7,7 +7,6 @@ from datetime import date, datetime
 from difflib import SequenceMatcher
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
-
 EVIDENCE_FIELDS = {
     "requirements": "requirement",
     "evaluation_criteria": "evaluation",
@@ -97,17 +96,16 @@ def build_document_version(
             if not text:
                 continue
             normalized = _normalize_text(text)
-            claim_id = "claim:" + hashlib.sha256(
-                f"{version_id}|{category}|{normalized}".encode("utf-8")
-            ).hexdigest()[:20]
+            claim_id = (
+                "claim:"
+                + hashlib.sha256(f"{version_id}|{category}|{normalized}".encode()).hexdigest()[:20]
+            )
             units.append(
                 {
                     "claim_id": claim_id,
                     "category": category,
                     "text": text,
-                    "normalized_text_hash": hashlib.sha256(
-                        normalized.encode("utf-8")
-                    ).hexdigest(),
+                    "normalized_text_hash": hashlib.sha256(normalized.encode("utf-8")).hexdigest(),
                     "authority": authority,
                     "controlling_status": "analyst_verification_required",
                     "source": {
@@ -160,11 +158,7 @@ def merge_document_versions(
         )
         versions.append(legacy)
     match = next(
-        (
-            item
-            for item in versions
-            if item.get("version_id") == current_version.get("version_id")
-        ),
+        (item for item in versions if item.get("version_id") == current_version.get("version_id")),
         None,
     )
     if match is None:
@@ -186,9 +180,7 @@ def build_opportunity_snapshot(
     key = str(opportunity.get("opportunity_key") or opportunity.get("key") or "")
     opportunity_url = str(opportunity.get("url") or "")
     authority = (
-        "official_sam_metadata"
-        if key.startswith("sam_gov:")
-        else "official_opportunity_metadata"
+        "official_sam_metadata" if key.startswith("sam_gov:") else "official_opportunity_metadata"
     )
     metadata: dict[str, dict] = {}
     for field in (
@@ -208,9 +200,8 @@ def build_opportunity_snapshot(
             continue
         normalized = _normalize_text(str(value))
         metadata[field] = {
-            "claim_id": "claim:" + hashlib.sha256(
-                f"{key}|metadata|{field}|{normalized}".encode("utf-8")
-            ).hexdigest()[:20],
+            "claim_id": "claim:"
+            + hashlib.sha256(f"{key}|metadata|{field}|{normalized}".encode()).hexdigest()[:20],
             "category": _metadata_category(field),
             "value": value,
             "authority": authority,
@@ -229,9 +220,7 @@ def build_opportunity_snapshot(
         if document.get("active") is False:
             continue
         version_id = str(document.get("current_version_id") or "")
-        versions = [
-            item for item in document.get("versions") or [] if isinstance(item, dict)
-        ]
+        versions = [item for item in document.get("versions") or [] if isinstance(item, dict)]
         current = next(
             (item for item in versions if item.get("version_id") == version_id),
             versions[-1] if versions else None,
@@ -259,9 +248,7 @@ def build_opportunity_snapshot(
             if isinstance(item, dict) and item.get("claim_id")
         )
     signature = {
-        "metadata": {
-            field: claim.get("value") for field, claim in sorted(metadata.items())
-        },
+        "metadata": {field: claim.get("value") for field, claim in sorted(metadata.items())},
         "document_version_ids": sorted(value for value in active_version_ids if value),
         "evidence": sorted(
             (
@@ -271,9 +258,12 @@ def build_opportunity_snapshot(
             for item in evidence_units
         ),
     }
-    snapshot_id = "snapshot:" + hashlib.sha256(
-        json.dumps(signature, sort_keys=True, separators=(",", ":")).encode("utf-8")
-    ).hexdigest()[:20]
+    snapshot_id = (
+        "snapshot:"
+        + hashlib.sha256(
+            json.dumps(signature, sort_keys=True, separators=(",", ":")).encode("utf-8")
+        ).hexdigest()[:20]
+    )
     return {
         "snapshot_id": snapshot_id,
         "observed_at": observed_at,
@@ -308,9 +298,7 @@ def compare_snapshots(
     similarity_threshold: float = 0.62,
 ) -> dict | None:
     """Compare tracker-observed snapshots and return a stable, sourced impact."""
-    new_amendments = [
-        item for item in (new_amendment_documents or []) if isinstance(item, dict)
-    ]
+    new_amendments = [item for item in (new_amendment_documents or []) if isinstance(item, dict)]
     if not before or not before.get("snapshot_id"):
         if not new_amendments:
             return None
@@ -394,9 +382,7 @@ def annotate_checklist_for_impact(
         and impact_id not in acknowledged
         and (impact or {}).get("requires_decision_revalidation")
     )
-    changes = [
-        item for item in (impact or {}).get("changes") or [] if isinstance(item, dict)
-    ]
+    changes = [item for item in (impact or {}).get("changes") or [] if isinstance(item, dict)]
     annotated: list[dict] = []
     impacted_count = 0
     for item in checklist:
@@ -433,11 +419,7 @@ def annotate_checklist_for_impact(
 
 def highest_evidence_url(impact: dict | None) -> str:
     changes = sorted(
-        [
-            item
-            for item in (impact or {}).get("changes") or []
-            if isinstance(item, dict)
-        ],
+        [item for item in (impact or {}).get("changes") or [] if isinstance(item, dict)],
         key=lambda item: MATERIALITY_RANK.get(str(item.get("materiality")), 0),
         reverse=True,
     )
@@ -472,9 +454,7 @@ def _metadata_changes(before: dict, after: dict) -> list[dict]:
                 materiality = "critical" if new_date < old_date else "high"
             else:
                 materiality = "high"
-        elif field in {"set_aside", "naics_code"}:
-            materiality = "critical"
-        elif field in {"active", "status"}:
+        elif field in {"set_aside", "naics_code"} or field in {"active", "status"}:
             materiality = "critical"
         changes.append(
             _change(
@@ -538,9 +518,7 @@ def _evidence_changes(
                 _change(
                     category=category,
                     change_type=(
-                        "superseded"
-                        if basis == "explicit amendment language"
-                        else "modified"
+                        "superseded" if basis == "explicit amendment language" else "modified"
                     ),
                     materiality=_category_materiality(category),
                     summary=f"{category.title()} evidence was {('superseded' if basis.startswith('explicit') else 'modified')}.",
@@ -641,9 +619,12 @@ def _change(
         "before": _claim_signature(before),
         "after": _claim_signature(after),
     }
-    change_id = "change:" + hashlib.sha256(
-        json.dumps(stable, sort_keys=True, separators=(",", ":")).encode("utf-8")
-    ).hexdigest()[:20]
+    change_id = (
+        "change:"
+        + hashlib.sha256(
+            json.dumps(stable, sort_keys=True, separators=(",", ":")).encode("utf-8")
+        ).hexdigest()[:20]
+    )
     return {
         "change_id": change_id,
         "category": category,
@@ -680,9 +661,7 @@ def _impact(
     impact_score = min(
         100,
         sum(
-            {"critical": 30, "high": 15, "medium": 6, "low": 2}.get(
-                str(item.get("materiality")), 0
-            )
+            {"critical": 30, "high": 15, "medium": 6, "low": 2}.get(str(item.get("materiality")), 0)
             for item in changes
         ),
     )
@@ -696,9 +675,12 @@ def _impact(
         "after": after.get("snapshot_id"),
         "changes": sorted(str(item.get("change_id")) for item in changes),
     }
-    impact_id = "impact:" + hashlib.sha256(
-        json.dumps(stable, sort_keys=True, separators=(",", ":")).encode("utf-8")
-    ).hexdigest()[:20]
+    impact_id = (
+        "impact:"
+        + hashlib.sha256(
+            json.dumps(stable, sort_keys=True, separators=(",", ":")).encode("utf-8")
+        ).hexdigest()[:20]
+    )
     return {
         "impact_id": impact_id,
         "detected_at": detected_at,
@@ -713,9 +695,7 @@ def _impact(
             item.get("materiality") in {"critical", "high"} for item in changes
         ),
         "requires_decision_revalidation": bool(
-            requires_manual_comparison
-            or critical
-            or impact_score >= 15
+            requires_manual_comparison or critical or impact_score >= 15
         ),
         "requires_manual_comparison": requires_manual_comparison,
         "changes": changes,
@@ -771,9 +751,7 @@ def _decision_effects(category: str, change_type: str) -> list[str]:
 
 
 def _document_evidence(document: dict) -> dict | None:
-    versions = [
-        item for item in document.get("versions") or [] if isinstance(item, dict)
-    ]
+    versions = [item for item in document.get("versions") or [] if isinstance(item, dict)]
     current_id = document.get("current_version_id")
     current = next(
         (item for item in versions if item.get("version_id") == current_id),
@@ -785,9 +763,10 @@ def _document_evidence(document: dict) -> dict | None:
     if not source_url:
         return None
     return {
-        "claim_id": "claim:" + hashlib.sha256(
-            f"document|{source_url}|{document.get('sha256')}".encode("utf-8")
-        ).hexdigest()[:20],
+        "claim_id": "claim:"
+        + hashlib.sha256(f"document|{source_url}|{document.get('sha256')}".encode()).hexdigest()[
+            :20
+        ],
         "category": "attachment",
         "text": str(document.get("name") or "Official procurement document"),
         "authority": "official_sam_attachment",
@@ -806,9 +785,7 @@ def _claim_signature(claim: dict | None) -> object:
     if not isinstance(claim, dict):
         return None
     return (
-        claim.get("claim_id")
-        or claim.get("value")
-        or _normalize_text(str(claim.get("text") or ""))
+        claim.get("claim_id") or claim.get("value") or _normalize_text(str(claim.get("text") or ""))
     )
 
 
@@ -834,15 +811,11 @@ def _metadata_category(field: str) -> str:
 
 
 def _document_id(source_url: str) -> str:
-    return "document:" + hashlib.sha256(
-        _canonical_url(source_url).encode("utf-8")
-    ).hexdigest()[:20]
+    return "document:" + hashlib.sha256(_canonical_url(source_url).encode("utf-8")).hexdigest()[:20]
 
 
 def _version_id(document_id: str, content_sha256: str) -> str:
-    return "version:" + hashlib.sha256(
-        f"{document_id}|{content_sha256}".encode("utf-8")
-    ).hexdigest()[:20]
+    return "version:" + hashlib.sha256(f"{document_id}|{content_sha256}".encode()).hexdigest()[:20]
 
 
 def _canonical_url(value: str) -> str:

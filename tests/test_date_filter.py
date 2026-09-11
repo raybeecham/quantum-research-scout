@@ -17,7 +17,6 @@ from pqc_quantum_research_agent.date_filter import (
 from pqc_quantum_research_agent.dates import operational_today
 from pqc_quantum_research_agent.models import ResearchItem
 
-
 TARGET_DATE = date(2026, 5, 13)
 RUN_AT_UTC = datetime(2026, 5, 14, 0, 0, tzinfo=timezone.utc)
 COVERAGE_START_AT, COVERAGE_END_AT = build_coverage_window(
@@ -171,7 +170,9 @@ class DateFilterTests(unittest.TestCase):
         self.assertEqual(inside_end.date_filter_status, INCLUDED_TODAY)
 
     def test_previous_day_11_pm_central_is_excluded_by_default(self) -> None:
-        previous_day_11pm = item("previous day 11pm", datetime(2026, 5, 13, 4, 0, tzinfo=timezone.utc))
+        previous_day_11pm = item(
+            "previous day 11pm", datetime(2026, 5, 13, 4, 0, tzinfo=timezone.utc)
+        )
 
         included = apply_date_filter([previous_day_11pm], **coverage_kwargs())
 
@@ -179,7 +180,9 @@ class DateFilterTests(unittest.TestCase):
         self.assertEqual(previous_day_11pm.date_filter_status, EXCLUDED_OLD)
 
     def test_previous_day_item_is_included_with_rolling_lookback_override(self) -> None:
-        previous_day_11pm = item("previous day 11pm", datetime(2026, 5, 13, 4, 0, tzinfo=timezone.utc))
+        previous_day_11pm = item(
+            "previous day 11pm", datetime(2026, 5, 13, 4, 0, tzinfo=timezone.utc)
+        )
 
         included = apply_date_filter([previous_day_11pm], **rolling_coverage_kwargs())
 
@@ -191,7 +194,9 @@ class DateFilterTests(unittest.TestCase):
         inside_window = item("inside window", datetime(2026, 5, 13, 5, 0, tzinfo=timezone.utc))
         after_window = item("after window", datetime(2026, 5, 14, 0, 0, 1, tzinfo=timezone.utc))
 
-        included = apply_date_filter([before_window, inside_window, after_window], **coverage_kwargs())
+        included = apply_date_filter(
+            [before_window, inside_window, after_window], **coverage_kwargs()
+        )
 
         self.assertEqual(included, [inside_window])
         self.assertEqual(before_window.date_filter_status, EXCLUDED_OLD)

@@ -19,9 +19,24 @@ class NotificationTests(unittest.TestCase):
                     {
                         "updated_at": "2026-07-21T12:00:00+00:00",
                         "alerts": [
-                            {"title": "Critical new", "summary": "Act now", "severity": "critical", "is_new": True},
-                            {"title": "High new", "summary": "Review", "severity": "high", "is_new": True},
-                            {"title": "Existing", "summary": "Monitor", "severity": "medium", "is_new": False},
+                            {
+                                "title": "Critical new",
+                                "summary": "Act now",
+                                "severity": "critical",
+                                "is_new": True,
+                            },
+                            {
+                                "title": "High new",
+                                "summary": "Review",
+                                "severity": "high",
+                                "is_new": True,
+                            },
+                            {
+                                "title": "Existing",
+                                "summary": "Monitor",
+                                "severity": "medium",
+                                "is_new": False,
+                            },
                         ],
                     }
                 ),
@@ -44,7 +59,9 @@ class NotificationTests(unittest.TestCase):
             self.assertEqual(result["immediate_count"], 1)
             self.assertEqual(result["digest_count"], 3)
             self.assertTrue(result["email_ready"])
-            generic = json.loads((root / "out" / "generic-immediate.json").read_text(encoding="utf-8"))
+            generic = json.loads(
+                (root / "out" / "generic-immediate.json").read_text(encoding="utf-8")
+            )
             slack = json.loads((root / "out" / "slack-digest.json").read_text(encoding="utf-8"))
             teams = json.loads((root / "out" / "teams-digest.json").read_text(encoding="utf-8"))
             email = json.loads((root / "out" / "email-immediate.json").read_text(encoding="utf-8"))
@@ -57,7 +74,9 @@ class NotificationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)
             alerts = root / "alerts.json"
-            alerts.write_text('{"updated_at":"2026-07-21T12:00:00+00:00","alerts":[]}', encoding="utf-8")
+            alerts.write_text(
+                '{"updated_at":"2026-07-21T12:00:00+00:00","alerts":[]}', encoding="utf-8"
+            )
 
             result = prepare_notifications(alerts, root / "out", config_path=root / "missing.yaml")
 

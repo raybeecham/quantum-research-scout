@@ -10,7 +10,6 @@ from .models import ResearchItem
 from .report import is_report_relevant
 from .text import compact_summary
 
-
 STRATEGIC_DOMAIN_RULES: tuple[tuple[str, int, re.Pattern[str]], ...] = (
     (
         "Post-quantum cryptography",
@@ -149,7 +148,8 @@ def write_patent_tracker(
         "summary": {
             "total": len(records),
             "last_30_days": sum(
-                bool(item.get("publication_date")) and str(item["publication_date"]) >= recent_cutoff
+                bool(item.get("publication_date"))
+                and str(item["publication_date"]) >= recent_cutoff
                 for item in records
             ),
             "unique_assignees": len(assignees),
@@ -166,7 +166,9 @@ def write_patent_tracker(
                 item.get("legal_status_normalized") in {"active", "pending", "granted"}
                 for item in records
             ),
-            "status_known": sum(item.get("legal_status_normalized") != "unknown" for item in records),
+            "status_known": sum(
+                item.get("legal_status_normalized") != "unknown" for item in records
+            ),
             "with_citations": sum(int(item.get("citation_count") or 0) > 0 for item in records),
         },
         "families": families,
@@ -251,12 +253,8 @@ def _curated_patent_record(item: dict) -> dict[str, object]:
         "parent_applications": [
             str(value) for value in item.get("parent_applications", []) if value
         ],
-        "child_applications": [
-            str(value) for value in item.get("child_applications", []) if value
-        ],
-        "priority_numbers": [
-            str(value) for value in item.get("priority_numbers", []) if value
-        ],
+        "child_applications": [str(value) for value in item.get("child_applications", []) if value],
+        "priority_numbers": [str(value) for value in item.get("priority_numbers", []) if value],
         "continuation_type": item.get("continuation_type"),
         "cited_patents": [str(value) for value in item.get("cited_patents", []) if value],
         "backward_citation_count": int(item.get("backward_citation_count") or 0),
@@ -299,9 +297,7 @@ def _with_strategic_relevance(item: dict) -> dict:
 def _merge_record(existing: dict, incoming: dict) -> dict:
     merged = dict(existing)
     for key, value in incoming.items():
-        if value not in (None, "", [], {}):
-            merged[key] = value
-        elif key not in merged:
+        if value not in (None, "", [], {}) or key not in merged:
             merged[key] = value
     return merged
 
@@ -332,12 +328,8 @@ def _normalize_patent_enrichment(item: dict) -> dict:
         record.get("legal_status"),
         document_type=document_type,
     )
-    record["parent_applications"] = _normalized_identifier_list(
-        record.get("parent_applications")
-    )
-    record["child_applications"] = _normalized_identifier_list(
-        record.get("child_applications")
-    )
+    record["parent_applications"] = _normalized_identifier_list(record.get("parent_applications"))
+    record["child_applications"] = _normalized_identifier_list(record.get("child_applications"))
     record["priority_numbers"] = _normalized_identifier_list(record.get("priority_numbers"))
     record["cited_patents"] = _normalized_identifier_list(record.get("cited_patents"))
     record["backward_citation_count"] = max(
@@ -348,7 +340,9 @@ def _normalize_patent_enrichment(item: dict) -> dict:
     return record
 
 
-def _enrich_patent_families(records: list[dict], generated: datetime) -> tuple[list[dict], list[dict]]:
+def _enrich_patent_families(
+    records: list[dict], generated: datetime
+) -> tuple[list[dict], list[dict]]:
     publication_lookup = {
         _normalized_patent_identifier(item.get("publication_number")): item
         for item in records
@@ -358,9 +352,9 @@ def _enrich_patent_families(records: list[dict], generated: datetime) -> tuple[l
         for cited in item.get("cited_patents", []):
             cited_record = publication_lookup.get(_normalized_patent_identifier(cited))
             if cited_record is not None:
-                cited_record["forward_citation_count"] = int(
-                    cited_record.get("forward_citation_count") or 0
-                ) + 1
+                cited_record["forward_citation_count"] = (
+                    int(cited_record.get("forward_citation_count") or 0) + 1
+                )
 
     by_family: dict[str, list[dict]] = {}
     for item in records:
@@ -537,9 +531,7 @@ def _normalized_identifier_list(value: object) -> list[str]:
         values = []
     return list(
         dict.fromkeys(
-            identifier
-            for item in values
-            if (identifier := _normalized_patent_identifier(item))
+            identifier for item in values if (identifier := _normalized_patent_identifier(item))
         )
     )
 
@@ -570,7 +562,8 @@ def _render_markdown(payload: dict) -> str:
     lines = [
         "# Patent Intelligence",
         "",
-        "> **Early IP signals** · Quantum and PQC · AI systems · Distributed sensing · Security and privacy",
+        "> **Early IP signals** · Quantum and PQC · AI systems · Distributed sensing · "
+        "Security and privacy",
         "",
         "[Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)",
         "",
@@ -613,20 +606,22 @@ def _render_markdown(payload: dict) -> str:
         lines.append("| No patent families are available. | — | — | — | — |")
     lines.extend(
         [
-        "",
-        "## Notable Patent Watchlist",
-        "",
-        "This curated portfolio keeps strategically important patents visible even when they are older than the "
-        "rolling discovery window or the USPTO API key is unavailable.",
-        "",
-        "| Publication | Stage / status | Assignee | Significance | Why tracked |",
-        "|---|---|---|---:|---|",
+            "",
+            "## Notable Patent Watchlist",
+            "",
+            "This curated portfolio keeps strategically important patents visible even when they are older than the "
+            "rolling discovery window or the USPTO API key is unavailable.",
+            "",
+            "| Publication | Stage / status | Assignee | Significance | Why tracked |",
+            "|---|---|---|---:|---|",
         ]
     )
     for item in curated:
         title = str(item["title"]).replace("|", r"\|")
         assignee = str(item.get("assignee") or "Not listed").replace("|", r"\|")
-        assessment = str(item.get("assessment") or item.get("summary") or "Curated for review").replace("|", r"\|")
+        assessment = str(
+            item.get("assessment") or item.get("summary") or "Curated for review"
+        ).replace("|", r"\|")
         link = f"[{title}]({item['url']})"
         lines.append(
             f"| {link}<br><small>{item.get('publication_number') or 'Publication number unavailable'}</small> "

@@ -163,9 +163,7 @@ def test_builds_three_public_safe_decision_queues() -> None:
     government = next(
         item for item in payload["items"] if item["queue_type"] == "authoritative_change"
     )
-    conflict = next(
-        item for item in payload["items"] if item["queue_type"] == "claim_conflict"
-    )
+    conflict = next(item for item in payload["items"] if item["queue_type"] == "claim_conflict")
     assert government["details"]["claim_id"] == "claim-genesis-award"
     assert government["evidence"][0]["evidence_id"] == "evidence-genesis"
     assert len(conflict["evidence"]) == 2
@@ -306,9 +304,7 @@ def test_oldly_dated_award_does_not_displace_current_government_evidence() -> No
         federal_funding={"records": records},
     )
 
-    assert [item["title"] for item in payload["items"]] == [
-        "Post-quantum cyber award current"
-    ]
+    assert [item["title"] for item in payload["items"]] == ["Post-quantum cyber award current"]
 
 
 def test_groups_multiple_authoritative_claims_for_one_government_action() -> None:

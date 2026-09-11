@@ -16,9 +16,7 @@ class DataTrustTests(unittest.TestCase):
             (reports / "federal-missions.json").write_text(
                 json.dumps(
                     {
-                        "missions": [
-                            {"observed_updates": [{"title": "Admitted update"}]}
-                        ],
+                        "missions": [{"observed_updates": [{"title": "Admitted update"}]}],
                         "quarantined_evidence": [
                             {
                                 "key": "false-match",
@@ -49,9 +47,7 @@ class DataTrustTests(unittest.TestCase):
                                         "admission": {
                                             "status": "quarantined",
                                             "score": 65,
-                                            "reason_codes": [
-                                                "agency_domain_inference"
-                                            ],
+                                            "reason_codes": ["agency_domain_inference"],
                                         },
                                     }
                                 ],

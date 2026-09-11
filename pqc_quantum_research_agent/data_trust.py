@@ -62,14 +62,10 @@ def write_data_trust_report(
     quarantine_count = len(quarantined)
     decisions = accepted_count + quarantine_count
     reasons = Counter(
-        code
-        for item in quarantined
-        for code in item.get("admission", {}).get("reason_codes", [])
+        code for item in quarantined for code in item.get("admission", {}).get("reason_codes", [])
     )
     collector_metrics = [
-        _collector_metric(
-            "Federal missions", len(mission_accepted), len(mission_quarantine)
-        ),
+        _collector_metric("Federal missions", len(mission_accepted), len(mission_quarantine)),
         _collector_metric(
             "Federal funding",
             len(funding_accepted),
@@ -91,9 +87,7 @@ def write_data_trust_report(
             "decisions": decisions,
             "accepted": accepted_count,
             "quarantined": quarantine_count,
-            "acceptance_rate": round(accepted_count / decisions * 100, 1)
-            if decisions
-            else 100.0,
+            "acceptance_rate": round(accepted_count / decisions * 100, 1) if decisions else 100.0,
             "mission_quarantine": len(mission_quarantine),
             "funding_quarantine": len(funding_quarantine),
             "relationship_quarantine": len(relationship_quarantine),
@@ -107,9 +101,7 @@ def write_data_trust_report(
     }
     json_path = reports / "data-trust.json"
     markdown_path = reports / "data-trust.md"
-    json_path.write_text(
-        json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8"
-    )
+    json_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     markdown_path.write_text(_render_markdown(payload), encoding="utf-8")
     return json_path, markdown_path
 
@@ -179,10 +171,7 @@ def _render_markdown(payload: dict) -> str:
         )
     lines.extend(["", "## Quarantine Reasons", ""])
     if payload["reason_counts"]:
-        lines.extend(
-            f"- **{item['label']}**: {item['count']}"
-            for item in payload["reason_counts"]
-        )
+        lines.extend(f"- **{item['label']}**: {item['count']}" for item in payload["reason_counts"])
     else:
         lines.append("- No evidence is currently quarantined.")
     lines.extend(["", "## Quarantined Evidence", ""])
@@ -193,9 +182,7 @@ def _render_markdown(payload: dict) -> str:
         title = str(item.get("title") or "Untitled evidence")
         url = str(item.get("url") or "")
         label = f"[{title}]({url})" if url else title
-        reasons = ", ".join(
-            reason_label(code) for code in admission.get("reason_codes", [])
-        )
+        reasons = ", ".join(reason_label(code) for code in admission.get("reason_codes", []))
         lines.extend(
             [
                 f"### {label}",

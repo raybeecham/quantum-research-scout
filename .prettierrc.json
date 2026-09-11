@@ -1,0 +1,11 @@
+{
+  "printWidth": 100,
+  "singleQuote": false,
+  "arrowParens": "avoid",
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": { "printWidth": 120, "htmlWhitespaceSensitivity": "ignore" }
+    }
+  ]
+}

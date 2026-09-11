@@ -1,2 +1,6 @@
+# Runtime dependencies, kept in sync with [project.dependencies] in pyproject.toml.
+# Prefer `pip install -e .` for development; use this file where a plain
+# requirements install is needed (CI images, constrained runners).
 PyYAML>=6.0.1
+pypdf>=5.0,<7
 requests>=2.31.0

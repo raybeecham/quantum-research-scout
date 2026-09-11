@@ -1,8 +1,8 @@
 from __future__ import annotations
 
+import json
 import logging
 import re
-import json
 from dataclasses import dataclass
 from datetime import datetime
 from html.parser import HTMLParser
@@ -59,6 +59,10 @@ class PageMetadata:
     date_confidence: str = "unknown"
 
 
+# A malformed page can nest unterminated <title> elements; bound the repair work.
+MAX_TITLE_RECOVERY_PASSES = 4
+
+
 class LinkExtractor(HTMLParser):
     def __init__(self, base_url: str) -> None:
         super().__init__(convert_charrefs=True)
@@ -100,10 +104,7 @@ class LinkExtractor(HTMLParser):
                 self._json_ld_parts = []
         elif tag.lower() == "meta":
             name = (
-                attr_map.get("property")
-                or attr_map.get("name")
-                or attr_map.get("itemprop")
-                or ""
+                attr_map.get("property") or attr_map.get("name") or attr_map.get("itemprop") or ""
             ).lower()
             if name in {"description", "og:description"} and not self.meta_description:
                 self.meta_description = normalize_whitespace(attr_map.get("content", ""))
@@ -141,10 +142,39 @@ class LinkExtractor(HTMLParser):
         if self._in_json_ld:
             self._json_ld_parts.append(data)
 
+    def close(self) -> None:
+        super().close()
+        self._recover_unterminated_title()
 
-def extract_links(html_text: str, base_url: str, same_domain_only: bool = True) -> tuple[str, str, list[PageLink]]:
+    def _recover_unterminated_title(self) -> None:
+        """Re-parse markup swallowed by a ``<title>`` element that is never closed.
+
+        ``HTMLParser`` reads title content as raw text until ``</title>`` appears, so a
+        malformed head would otherwise discard every later tag: Open Graph titles,
+        descriptions, dates, structured data, and links.
+        """
+        for _ in range(MAX_TITLE_RECOVERY_PASSES):
+            if not self._in_title:
+                return
+            swallowed = "".join(self._title_parts)
+            self._in_title = False
+            self._title_parts = []
+            head, marker, tail = swallowed.partition("<")
+            if not self.page_title:
+                self.page_title = normalize_whitespace(head)
+            if not marker:
+                return
+            self.reset()  # leave CDATA mode without discarding what was already collected
+            self.feed(marker + tail)
+            super().close()
+
+
+def extract_links(
+    html_text: str, base_url: str, same_domain_only: bool = True
+) -> tuple[str, str, list[PageLink]]:
     parser = LinkExtractor(base_url)
     parser.feed(html_text)
+    parser.close()
     source_host = _safe_host(base_url)
     seen: set[str] = set()
     links: list[PageLink] = []
@@ -163,9 +193,12 @@ def extract_links(html_text: str, base_url: str, same_domain_only: bool = True) 
     return parser.meta_title or parser.page_title, parser.meta_description, links
 
 
-def extract_page_metadata(html_text: str, base_url: str = "", source_name: str = "") -> PageMetadata:
+def extract_page_metadata(
+    html_text: str, base_url: str = "", source_name: str = ""
+) -> PageMetadata:
     parser = LinkExtractor(base_url)
     parser.feed(html_text)
+    parser.close()
     extraction = _best_publication_date(parser, base_url, source_name)
     return PageMetadata(
         title=parser.meta_title or parser.page_title,
@@ -184,36 +217,57 @@ def _best_publication_date(
 ) -> tuple[datetime | None, str, str, str]:
     candidates: list[tuple[datetime | None, str, str, str]] = []
 
-    candidates.append((_parse_date_candidate(parser.time_datetime_text), "explicit_metadata:time.datetime", parser.time_datetime_text, "high"))
+    candidates.append(
+        (
+            _parse_date_candidate(parser.time_datetime_text),
+            "explicit_metadata:time.datetime",
+            parser.time_datetime_text,
+            "high",
+        )
+    )
     candidates.append(
         (
             _parse_date_candidate(parser.published_date_text),
-            f"explicit_metadata:{parser.published_date_source}" if parser.published_date_source else "explicit_metadata",
+            f"explicit_metadata:{parser.published_date_source}"
+            if parser.published_date_source
+            else "explicit_metadata",
             parser.published_date_text,
             "high",
         )
     )
 
     json_published, json_modified = _json_ld_dates(parser.json_ld_blocks)
-    candidates.append((_parse_date_candidate(json_published), "json_ld:datePublished", json_published, "high"))
-    candidates.append((_parse_date_candidate(json_modified), "json_ld:dateModified", json_modified, "medium"))
+    candidates.append(
+        (_parse_date_candidate(json_published), "json_ld:datePublished", json_published, "high")
+    )
+    candidates.append(
+        (_parse_date_candidate(json_modified), "json_ld:dateModified", json_modified, "medium")
+    )
 
     source_date = _source_specific_url_date(base_url, source_name)
     if source_date:
-        candidates.append((_parse_date_candidate(source_date), "source_override:url_date", source_date, "medium"))
+        candidates.append(
+            (_parse_date_candidate(source_date), "source_override:url_date", source_date, "medium")
+        )
 
     url_date = _url_derived_date(base_url)
     if url_date:
         candidates.append((_parse_date_candidate(url_date), "url_derived_date", url_date, "medium"))
 
-    heuristic_date = _fallback_heuristic_date(" ".join([parser.page_title, parser.meta_description]))
+    heuristic_date = _fallback_heuristic_date(
+        " ".join([parser.page_title, parser.meta_description])
+    )
     if heuristic_date:
-        candidates.append((_parse_date_candidate(heuristic_date), "fallback_heuristic", heuristic_date, "low"))
+        candidates.append(
+            (_parse_date_candidate(heuristic_date), "fallback_heuristic", heuristic_date, "low")
+        )
 
     candidates.append(
         (
             _parse_date_candidate(parser.updated_date_text),
-            f"opengraph_fallback:{parser.updated_date_source}" if parser.updated_date_source else "opengraph_fallback",
+            f"opengraph_fallback:{parser.updated_date_source}"
+            if parser.updated_date_source
+            else "opengraph_fallback",
             parser.updated_date_text,
             "low",
         )
@@ -399,9 +453,7 @@ def is_placeholder_or_template_url(value: str | None) -> bool:
         return False
     if re.search(r"\{\{.*?\}\}|\$\{.*?\}|<%.*?%>", value):
         return True
-    if PLACEHOLDER_HOST_RE.search(value):
-        return True
-    return False
+    return bool(PLACEHOLDER_HOST_RE.search(value))
 
 
 def _safe_urlsplit(url: str):

@@ -46,9 +46,7 @@ class ContractorEnrichmentTests(unittest.TestCase):
                             }
                         },
                         "businessTypes": {
-                            "businessTypeList": [
-                                {"businessTypeDesc": "Small Business"}
-                            ]
+                            "businessTypeList": [{"businessTypeDesc": "Small Business"}]
                         },
                     },
                     "assertions": {

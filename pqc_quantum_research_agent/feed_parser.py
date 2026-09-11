@@ -44,7 +44,12 @@ def _parse_rss(root: ET.Element) -> list[ParsedFeedEntry]:
             continue
         summary = _text(item, "description") or _text(item, "encoded")
         authors = _text(item, "creator") or _text(item, "author")
-        date_text = _text(item, "pubDate") or _text(item, "published") or _text(item, "updated") or _text(item, "date")
+        date_text = (
+            _text(item, "pubDate")
+            or _text(item, "published")
+            or _text(item, "updated")
+            or _text(item, "date")
+        )
         entries.append(
             ParsedFeedEntry(
                 title=strip_html(title),
@@ -67,7 +72,9 @@ def _parse_atom(root: ET.Element) -> list[ParsedFeedEntry]:
             continue
         summary = _text(entry, "summary") or _text(entry, "content")
         authors = ", ".join(
-            strip_html(_text(author, "name")) for author in _children(entry, "author") if _text(author, "name")
+            strip_html(_text(author, "name"))
+            for author in _children(entry, "author")
+            if _text(author, "name")
         )
         date_text = _text(entry, "published") or _text(entry, "updated")
         entries.append(

@@ -14,7 +14,9 @@ from .redaction import redact_text, redact_url
 from .visuals import health_icon
 
 DAILY_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})-digest\.md$")
-WARNING_RE = re.compile(r"^- \*\*(?P<name>.+?)\*\* \[(?P<type>[^]]+)] \((?P<url>[^)]+)\): (?P<message>.+)$")
+WARNING_RE = re.compile(
+    r"^- \*\*(?P<name>.+?)\*\* \[(?P<type>[^]]+)] \((?P<url>[^)]+)\): (?P<message>.+)$"
+)
 
 
 def write_source_observations(
@@ -92,7 +94,9 @@ def write_source_observations(
                 "last_item_url": last_item_url,
                 "last_outcome": outcome,
                 "last_run_items": len(items),
-                "last_warning": redact_text(failure_warnings[0].message) if failure_warnings else None,
+                "last_warning": redact_text(failure_warnings[0].message)
+                if failure_warnings
+                else None,
                 "last_advisory": redact_text(advisory_warnings[0].message)
                 if advisory_warnings
                 else None,
@@ -101,8 +105,11 @@ def write_source_observations(
                 + (outcome in {"success", "partial"}),
                 "partial_runs": int(prior.get("partial_runs", 0)) + (outcome == "partial"),
                 "failure_runs": int(prior.get("failure_runs", 0)) + (outcome == "failing"),
-                "expected_idle_runs": int(prior.get("expected_idle_runs", 0)) + (outcome == "expected-idle"),
-                "consecutive_failures": int(prior.get("consecutive_failures", 0)) + 1 if outcome == "failing" else 0,
+                "expected_idle_runs": int(prior.get("expected_idle_runs", 0))
+                + (outcome == "expected-idle"),
+                "consecutive_failures": int(prior.get("consecutive_failures", 0)) + 1
+                if outcome == "failing"
+                else 0,
             }
         )
     payload = {"version": 1, "updated_at": generated_text, "sources": observations}
@@ -165,13 +172,19 @@ def write_source_health_report(
         "",
         f"_Updated {generated.astimezone(timezone.utc):%Y-%m-%d %H:%M UTC}_",
         "",
-        f"Rolling health is inferred from **{len(set(report_dates))}** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.",
+        f"Rolling health is inferred from **{len(set(report_dates))}** retained daily "
+        f"report(s). A successful attempt means no source failure was recorded; advisory "
+        f"coverage limits are tracked separately.",
         "",
-        f"Freshness uses the latest dated item observed during scheduled collection and becomes stale after **{stale_after_days} days**. Sources remain unverified until the observation ledger records a run.",
+        f"Freshness uses the latest dated item observed during scheduled collection and "
+        f"becomes stale after **{stale_after_days} days**. Sources remain unverified until the "
+        f"observation ledger records a run.",
         "",
-        "Weekend arXiv feeds with no entries are counted as expected idle days, not failures. Bounded snapshots that return valid data are marked partial, not failed.",
+        "Weekend arXiv feeds with no entries are counted as expected idle days, not failures. "
+        "Bounded snapshots that return valid data are marked partial, not failed.",
         "",
-        "| Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |",
+        "| Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest "
+        "item | Freshness | Status |",
         "|---|---|---:|---:|---:|---|---|---|---|",
     ]
     total_days = len(set(report_dates))
@@ -196,8 +209,14 @@ def write_source_health_report(
         last_advisory = max((item["date"] for item in advisories.get(name, [])), default="none")
         observation = observations.get(name, {})
         if observation:
-            observed_runs = int(observation.get("successful_runs", 0)) + int(observation.get("failure_runs", 0))
-            success_rate = (int(observation.get("successful_runs", 0)) / observed_runs * 100) if observed_runs else 100.0
+            observed_runs = int(observation.get("successful_runs", 0)) + int(
+                observation.get("failure_runs", 0)
+            )
+            success_rate = (
+                (int(observation.get("successful_runs", 0)) / observed_runs * 100)
+                if observed_runs
+                else 100.0
+            )
             status = (
                 "failing"
                 if observation.get("last_outcome") == "failing"
@@ -245,9 +264,16 @@ def write_source_health_report(
             }
         )
     health_by_name = {str(item["name"]): item for item in health_entries}
-    for failure_days, advisory_days, name, source_type, success_rate, idle_days, last_warning, status in sorted(
-        rows, key=lambda row: (-row[0], -row[1], row[2])
-    ):
+    for (
+        failure_days,
+        advisory_days,
+        name,
+        source_type,
+        success_rate,
+        _idle_days,
+        _last_warning,
+        status,
+    ) in sorted(rows, key=lambda row: (-row[0], -row[1], row[2])):
         health = health_by_name[name]
         lines.append(
             f"| {name} | {source_type} | {success_rate:.0f}% | {failure_days} | {advisory_days} | {_short_date(health.get('last_checked_at'))} | "
@@ -318,8 +344,12 @@ def write_source_health_report(
                 "version": 1,
                 "updated_at": generated.astimezone(timezone.utc).isoformat(),
                 "report_days": total_days,
-                "sources": sorted(health_entries, key=lambda item: (str(item["status"]), str(item["name"]))),
-                "disabled_sources": [{"name": name, "type": source_type} for name, source_type in disabled],
+                "sources": sorted(
+                    health_entries, key=lambda item: (str(item["status"]), str(item["name"]))
+                ),
+                "disabled_sources": [
+                    {"name": name, "type": source_type} for name, source_type in disabled
+                ],
                 "recent_warnings": recent,
                 "recent_advisories": recent_advisories,
                 "observation_updated_at": observation_payload.get("updated_at"),
@@ -357,7 +387,12 @@ def _freshness(observation: dict, generated: datetime, stale_after_days: int) ->
             item_time = item_time.replace(tzinfo=timezone.utc)
     except ValueError:
         return "unknown"
-    return "stale" if (generated.astimezone(timezone.utc) - item_time.astimezone(timezone.utc)).days > stale_after_days else "fresh"
+    return (
+        "stale"
+        if (generated.astimezone(timezone.utc) - item_time.astimezone(timezone.utc)).days
+        > stale_after_days
+        else "fresh"
+    )
 
 
 def _verification_status(observation: dict) -> str:
@@ -393,9 +428,7 @@ def _operational_summary(
         if item.get("last_outcome") == "partial" or item.get("status") == "partial"
     ]
     critical_failures = sorted(
-        str(item.get("name"))
-        for item in failing
-        if str(item.get("type")) in critical_types
+        str(item.get("name")) for item in failing if str(item.get("type")) in critical_types
     )
     status = "degraded" if critical_failures else "watch" if failing or partial else "healthy"
     return {
@@ -443,8 +476,7 @@ def _configured_sources(config: AgentConfig) -> tuple[list[tuple[str, str]], lis
             if provider.get("enabled", True):
                 if (
                     provider_key == "sam_gov"
-                    and str(provider.get("collection_mode") or "query").casefold()
-                    == "snapshot"
+                    and str(provider.get("collection_mode") or "query").casefold() == "snapshot"
                 ):
                     sources.append(("SAM.gov Opportunities", source_type, True))
                     continue
@@ -456,13 +488,25 @@ def _configured_sources(config: AgentConfig) -> tuple[list[tuple[str, str]], lis
                     )
                     for item in funding_queries
                 )
-    sources.extend((item.get("name", item.get("url", "arXiv RSS")), "arxiv_rss", item.get("enabled", True)) for item in config.arxiv_rss)
+    sources.extend(
+        (item.get("name", item.get("url", "arXiv RSS")), "arxiv_rss", item.get("enabled", True))
+        for item in config.arxiv_rss
+    )
     if config.arxiv.get("enabled", True):
-        sources.extend((item.get("name", "arXiv"), "arxiv", item.get("enabled", True)) for item in config.arxiv.get("queries", []))
+        sources.extend(
+            (item.get("name", "arXiv"), "arxiv", item.get("enabled", True))
+            for item in config.arxiv.get("queries", [])
+        )
     if config.iacr_eprint.get("enabled", True):
         sources.append((config.iacr_eprint.get("name", "IACR ePrint"), "iacr_eprint", True))
-    sources.extend((item.get("name", item.get("url", "RSS")), "rss", item.get("enabled", True)) for item in config.rss_feeds)
-    sources.extend((item.get("name", item.get("url", "URL")), "url", item.get("enabled", True)) for item in config.urls)
+    sources.extend(
+        (item.get("name", item.get("url", "RSS")), "rss", item.get("enabled", True))
+        for item in config.rss_feeds
+    )
+    sources.extend(
+        (item.get("name", item.get("url", "URL")), "url", item.get("enabled", True))
+        for item in config.urls
+    )
     sources.extend(
         (item.get("name", item.get("url", "Watch source")), "watch", item.get("enabled", True))
         for item in config.watch_sources

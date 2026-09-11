@@ -35,7 +35,9 @@ class StandardsTimelineTests(unittest.TestCase):
             self.assertEqual(by_id["soon"]["days_remaining"], 1)
             self.assertEqual(payload["next_milestone"]["id"], "soon")
             self.assertEqual(payload["timezone"], "America/Chicago")
-            self.assertIn("Standards and Migration Timeline", markdown_path.read_text(encoding="utf-8"))
+            self.assertIn(
+                "Standards and Migration Timeline", markdown_path.read_text(encoding="utf-8")
+            )
 
     def test_countdown_uses_configured_operational_timezone(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:

@@ -13,7 +13,6 @@ from pqc_quantum_research_agent.collectors import (
 )
 from pqc_quantum_research_agent.config import AgentConfig, RuntimeSettings
 
-
 EMPTY_ATOM_FEED = """<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>arXiv Query</title>
@@ -144,10 +143,13 @@ class ArxivCollectorTests(unittest.TestCase):
         self.assertEqual(len(result.items), 1)
         self.assertEqual(result.items[0].source_type, "arxiv")
         self.assertEqual(result.warnings, [])
-        self.assertEqual([call[0] for call in client.calls], [
-            "https://rss.arxiv.org/rss/cs.CR",
-            ARXIV_API_URL,
-        ])
+        self.assertEqual(
+            [call[0] for call in client.calls],
+            [
+                "https://rss.arxiv.org/rss/cs.CR",
+                ARXIV_API_URL,
+            ],
+        )
 
 
 if __name__ == "__main__":

@@ -62,7 +62,9 @@ class ReadinessTests(unittest.TestCase):
                                 ],
                             },
                         ],
-                        "unseen_entities": [{"name": "Unseen", "type": "company", "priority": "medium"}],
+                        "unseen_entities": [
+                            {"name": "Unseen", "type": "company", "priority": "medium"}
+                        ],
                     }
                 ),
                 encoding="utf-8",

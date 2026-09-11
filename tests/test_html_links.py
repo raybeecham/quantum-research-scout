@@ -10,7 +10,6 @@ from pqc_quantum_research_agent.html_links import (
     safe_urljoin,
 )
 
-
 BASE_URL = "https://example.com/news/index.html"
 
 
@@ -110,6 +109,27 @@ class SafeUrlJoinTests(unittest.TestCase):
         )
 
         self.assertEqual(metadata.title, "Clean article title")
+
+    def test_metadata_after_a_malformed_html_title_is_still_parsed(self) -> None:
+        html = (
+            "<html><head><title>Unclosed title"
+            '<meta name="description" content="Summary of the article">'
+            '<meta property="article:published_time" content="2026-05-12T10:00:00Z">'
+            '</head><body><a href="/story">Story link</a></body></html>'
+        )
+
+        metadata = extract_page_metadata(html, BASE_URL)
+        _, _, links = extract_links(html, BASE_URL)
+
+        self.assertEqual(metadata.title, "Unclosed title")
+        self.assertEqual(metadata.description, "Summary of the article")
+        self.assertEqual(metadata.published_at.isoformat(), "2026-05-12T10:00:00+00:00")
+        self.assertEqual([link.url for link in links], ["https://example.com/story"])
+
+    def test_repeated_unterminated_titles_terminate(self) -> None:
+        metadata = extract_page_metadata("<title>" * 20 + "trailing", BASE_URL)
+
+        self.assertEqual(metadata.title, "")
 
     def test_json_ld_date_published_is_extracted(self) -> None:
         html = """
