@@ -669,6 +669,10 @@ class DashboardBuildTests(unittest.TestCase):
         ]
         self.assertEqual(undersized, [], f"font sizes below the 11px floor: {sorted(undersized)}")
 
+        # font-size:0 was previously used to swap a disclosure label via ::before,
+        # which left the accessible name out of step with the visible text.
+        self.assertNotIn("font-size: 0", tokens + components)
+
         # Colours are tokenised, so no raw rgba()/hex literals outside styles.css.
         self.assertEqual(re.findall(r"rgba\(\s*\d", components), [])
         stray_hex = [

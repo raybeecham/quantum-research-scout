@@ -687,10 +687,11 @@
 }
 
 .advanced-analysis > summary > span {
-  padding: 8px 13px;
+  padding: var(--space-2) var(--space-3);
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
   color: var(--cyan);
+  font-size: var(--text-md);
   white-space: nowrap;
 }
 
@@ -698,16 +699,16 @@
   border-bottom: 1px solid var(--line);
 }
 
-.advanced-analysis[open] > summary > span:before {
-  content: "Close ";
+/* Both labels are real text so the accessible name matches what is shown;
+   the previous font-size:0 swap left screen readers announcing "Open" while
+   sighted users saw "Close". */
+.advanced-analysis > summary .disclosure-open,
+.advanced-analysis[open] > summary .disclosure-closed {
+  display: none;
 }
 
-.advanced-analysis[open] > summary > span {
-  font-size: 0;
-}
-
-.advanced-analysis[open] > summary > span:before {
-  font-size: var(--text-md);
+.advanced-analysis[open] > summary .disclosure-open {
+  display: inline;
 }
 
 .advanced-content {

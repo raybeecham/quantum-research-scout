@@ -225,6 +225,12 @@ body::before {
   mask-image: linear-gradient(to bottom, #000, transparent 75%);
 }
 
+/* Without this, <small> resolves to the browser's `smaller` keyword and lands
+   below the 11px floor wherever a parent does not set a size explicitly. */
+small {
+  font-size: var(--text-xs);
+}
+
 ::selection {
   background: var(--tint-violet-strong);
   color: var(--text);
