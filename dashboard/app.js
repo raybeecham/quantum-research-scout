@@ -683,8 +683,8 @@ function renderDecisionCenter(payload, changePayload = {}){
     const record = state.analystDecisions[item.decision_id] || {};
     const disposition = record.disposition || "open";
     const handled = isHandled(item);
-    const evidence = (item.evidence || []).slice(0,4).map(source =>
-      `<a href="${escapeHtml(safeUrl(source.url))}" target="_blank" rel="noopener">${escapeHtml(source.title || "Open evidence")} →</a>`
+    const evidence = labelDuplicateTitles(dedupeByUrl(item.evidence).slice(0,4)).map(source =>
+      `<a href="${escapeHtml(safeUrl(source.url))}" target="_blank" rel="noopener">${escapeHtml(source.label)} →</a>`
     ).join("");
     const detailEntries = decisionDetailEntries(item.details || {});
     return `<article class="analyst-decision-card ${escapeHtml(item.priority || "medium")} ${handled ? "handled" : ""}">
@@ -732,13 +732,47 @@ function recentlyClearedChanges(payload){
   return {total:Math.max(total,reportedTotal),items};
 }
 
+function dedupeByUrl(sources){
+  const seen = new Set();
+  return (sources || []).filter(source => {
+    const key = source?.url || source?.title;
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function labelDuplicateTitles(sources){
+  // Two conflicting records legitimately share a title. Number them so the
+  // reader can tell which link is which instead of seeing the same text twice.
+  const counts = new Map();
+  for (const source of sources) {
+    const title = source.title || "Open evidence";
+    counts.set(title, (counts.get(title) || 0) + 1);
+  }
+  const seen = new Map();
+  return sources.map(source => {
+    const title = source.title || "Open evidence";
+    if (counts.get(title) < 2) return {...source, label: title};
+    const index = (seen.get(title) || 0) + 1;
+    seen.set(title, index);
+    return {...source, label: `${title} · source ${index}`};
+  });
+}
+
 function decisionActionButton(action, label, disposition){
   return `<button type="button" data-decision-action="${action}" class="${disposition === action ? "selected" : ""}" aria-pressed="${disposition === action}">${label}</button>`;
 }
 
 function decisionDetailEntries(details){
   const order = ["previous_value","value","affected_areas","decision_effects","checklist_actions","values","predicate","predicates","record_date","awarding_agency","claim_ids","claim_id","impact_id"];
-  return order.filter(key => details[key] != null && details[key] !== "" && (!Array.isArray(details[key]) || details[key].length)).map(key => {
+  // "Claim Id: x" next to "Claim Ids: x · y" is noise; keep only the plural in that case.
+  const covered = new Set();
+  for (const [singular, plural] of [["predicate","predicates"],["claim_id","claim_ids"],["value","values"]]) {
+    const list = details[plural];
+    if (Array.isArray(list) && list.map(String).includes(String(details[singular]))) covered.add(singular);
+  }
+  return order.filter(key => !covered.has(key) && details[key] != null && details[key] !== "" && (!Array.isArray(details[key]) || details[key].length)).map(key => {
     const label = key.replaceAll("_"," ").replace(/\b\w/g, value => value.toUpperCase());
     const raw = details[key];
     const value = Array.isArray(raw) ? raw.join(" · ") : typeof raw === "object" ? JSON.stringify(raw) : String(raw);
