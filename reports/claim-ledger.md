@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-09-11T02:25:03.931737+00:00_
+_Updated 2026-09-12T02:32:57.646974+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **4187**
-- Authoritative claims: **3989**
+- Active claims: **4199**
+- Authoritative claims: **4001**
 - Analytical claims: **195**
 - Conflicted claims: **38**
-- Evidence items / URLs: **4297 / 1178**
+- Evidence items / URLs: **4309 / 1181**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,18 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS | opportunity status | awarded | authoritative / high | [STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0301_8000_-NONE-_-NONE-) |
+| active | STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS | awarding agency | National Aeronautics and Space Administration | authoritative / high | [STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0301_8000_-NONE-_-NONE-) |
+| active | STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS | reported amount | 224965.0 | authoritative / high | [STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0301_8000_-NONE-_-NONE-) |
+| active | STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS | reported recipient | PENDAR TECHNOLOGIES LLC | authoritative / high | [STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0301_8000_-NONE-_-NONE-) |
+| active | CLOUD SERVICES SUPPORT | opportunity status | awarded | authoritative / high | [CLOUD SERVICES SUPPORT](https://www.usaspending.gov/award/CONT_AWD_50310226F0135_5000_50310223A0005_5000) |
+| active | CLOUD SERVICES SUPPORT | awarding agency | Securities and Exchange Commission | authoritative / high | [CLOUD SERVICES SUPPORT](https://www.usaspending.gov/award/CONT_AWD_50310226F0135_5000_50310223A0005_5000) |
+| active | CLOUD SERVICES SUPPORT | reported amount | 1347596.64 | authoritative / high | [CLOUD SERVICES SUPPORT](https://www.usaspending.gov/award/CONT_AWD_50310226F0135_5000_50310223A0005_5000) |
+| active | CLOUD SERVICES SUPPORT | reported recipient | ODDBALL, INC. | authoritative / high | [CLOUD SERVICES SUPPORT](https://www.usaspending.gov/award/CONT_AWD_50310226F0135_5000_50310223A0005_5000) |
+| active | THIS AWARD PROCURES CYBRARY FOR TEAMS, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATION CYBERSECURITY WORKFORCE WITH AN ENTERPRISE TRAINING PLATFORM THAT TRACK THE PROGRESS OF SECUR... | opportunity status | awarded | authoritative / high | [THIS AWARD PROCURES CYBRARY FOR TEAMS, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATION CYBERSECURITY WORKFORCE WITH AN ENTERPRISE TRAINING PLATFORM THAT TRACK THE PROGRESS OF SECUR...](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000122_7012_NNG15SD60B_8000) |
+| active | THIS AWARD PROCURES CYBRARY FOR TEAMS, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATION CYBERSECURITY WORKFORCE WITH AN ENTERPRISE TRAINING PLATFORM THAT TRACK THE PROGRESS OF SECUR... | awarding agency | Department of Homeland Security | authoritative / high | [THIS AWARD PROCURES CYBRARY FOR TEAMS, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATION CYBERSECURITY WORKFORCE WITH AN ENTERPRISE TRAINING PLATFORM THAT TRACK THE PROGRESS OF SECUR...](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000122_7012_NNG15SD60B_8000) |
+| active | THIS AWARD PROCURES CYBRARY FOR TEAMS, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATION CYBERSECURITY WORKFORCE WITH AN ENTERPRISE TRAINING PLATFORM THAT TRACK THE PROGRESS OF SECUR... | reported amount | 99860.0 | authoritative / high | [THIS AWARD PROCURES CYBRARY FOR TEAMS, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATION CYBERSECURITY WORKFORCE WITH AN ENTERPRISE TRAINING PLATFORM THAT TRACK THE PROGRESS OF SECUR...](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000122_7012_NNG15SD60B_8000) |
+| active | THIS AWARD PROCURES CYBRARY FOR TEAMS, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATION CYBERSECURITY WORKFORCE WITH AN ENTERPRISE TRAINING PLATFORM THAT TRACK THE PROGRESS OF SECUR... | reported recipient | ADVANCED COMPUTER CONCEPTS, INC. | authoritative / high | [THIS AWARD PROCURES CYBRARY FOR TEAMS, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATION CYBERSECURITY WORKFORCE WITH AN ENTERPRISE TRAINING PLATFORM THAT TRACK THE PROGRESS OF SECUR...](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000122_7012_NNG15SD60B_8000) |
 | active | THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. | reported amount | 4394360.0 | authoritative / high | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) |
 | active | THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. | reported amount | 4.0 | authoritative / high | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) |
 | active | PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER | opportunity status | awarded | authoritative / high | [PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-) |
@@ -252,18 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM) | reported recipient | QUANTUM DESIGN, INC. | authoritative / high | [Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)](https://sam.gov/workspace/contract/opp/d81b6a138b5741afbadb37a7c90c6cf0/view) |
 | active | 66--Quantum Cascade Laser (QCL) System | reported recipient | 49CHESTNUT LLC | authoritative / high | [66--Quantum Cascade Laser (QCL) System](https://sam.gov/workspace/contract/opp/9528cdc683614ba39d04bc28f6029a2e/view) |
 | active | Advancing Investigative Journalism in Ukraine through U.S. AI Innovation | opportunity status | closed | authoritative / high | [Advancing Investigative Journalism in Ukraine through U.S. AI Innovation](https://www.grants.gov/search-results-detail/363440) |
-| active | 16--MODIFICATION KIT,AI | opportunity status | awarded | authoritative / high | [16--MODIFICATION KIT,AI](https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view) |
-| active | 16--MODIFICATION KIT,AI | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION | authoritative / high | [16--MODIFICATION KIT,AI](https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view) |
-| active | 16--MODIFICATION KIT,AI | reported amount | 28080.0 | authoritative / high | [16--MODIFICATION KIT,AI](https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view) |
-| active | 16--MODIFICATION KIT,AI | reported recipient | THALES DEFENSE & SECURITY INC | authoritative / high | [16--MODIFICATION KIT,AI](https://sam.gov/workspace/contract/opp/ccc621c6f4724fb1b974021fb95449a7/view) |
-| active | UNIVERSITY OF NORTH DAKOTA | legal business name | UNIVERSITY OF NORTH DAKOTA | authoritative / high | [UNIVERSITY OF NORTH DAKOTA](https://sam.gov/entity/RSWNKK6J8CF3/coreData) |
-| active | UNIVERSITY OF NORTH DAKOTA | uei | RSWNKK6J8CF3 | authoritative / high | [UNIVERSITY OF NORTH DAKOTA](https://sam.gov/entity/RSWNKK6J8CF3/coreData) |
-| active | UNIVERSITY OF NORTH DAKOTA | cage code | 4B858 | authoritative / high | [UNIVERSITY OF NORTH DAKOTA](https://sam.gov/entity/RSWNKK6J8CF3/coreData) |
-| active | UNIVERSITY OF NORTH DAKOTA | registration status | Active | authoritative / high | [UNIVERSITY OF NORTH DAKOTA](https://sam.gov/entity/RSWNKK6J8CF3/coreData) |
-| active | NORTHEASTERN UNIVERSITY | legal business name | NORTHEASTERN UNIVERSITY | authoritative / high | [NORTHEASTERN UNIVERSITY](https://sam.gov/entity/HLTMVS2JZBS6/coreData) |
-| active | NORTHEASTERN UNIVERSITY | uei | HLTMVS2JZBS6 | authoritative / high | [NORTHEASTERN UNIVERSITY](https://sam.gov/entity/HLTMVS2JZBS6/coreData) |
-| active | NORTHEASTERN UNIVERSITY | cage code | 9A140 | authoritative / high | [NORTHEASTERN UNIVERSITY](https://sam.gov/entity/HLTMVS2JZBS6/coreData) |
-| active | NORTHEASTERN UNIVERSITY | registration status | Active | authoritative / high | [NORTHEASTERN UNIVERSITY](https://sam.gov/entity/HLTMVS2JZBS6/coreData) |
 
 ## Method
 

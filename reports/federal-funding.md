@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-09-11 02:25 UTC_
+_Updated 2026-09-12 02:32 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -16,8 +16,8 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Opportunity radar: **1 mission-linked**, **2 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **14**
 - Missions with activity: **4 of 10**
-- Named recipients and contractors: **313**
-- Known reported award value: **$450.2M**
+- Named recipients and contractors: **312**
+- Known reported award value: **$451.9M**
 
 ## Opportunity Radar
 

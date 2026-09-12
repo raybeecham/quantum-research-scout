@@ -2,27 +2,23 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-09-11T02:25:03.931737+00:00_
+_Updated 2026-09-12T02:32:57.646974+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **6**
+- Actual or recent changes: **0**
 - Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **20**
 
 ## Priority timeline
 
-- **Changed since prior run** · THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-))
-  - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-))
-  - The assertion changed relative to the prior successful ledger build.
-- **Occurred 3 days ago** · BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI). — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605))
-  - A recent source-reported event was newly incorporated into the ledger.
-- **Evidence trace changed** · AEIF 2026 Alumni Summit: Freedom 250 — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363824))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Upcoming event date** · PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-))
-  - The source date is in the future; Scout first observed it on 2026-09-11.
+- **Upcoming event date** · CLOUD SERVICES SUPPORT — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_50310226F0135_5000_50310223A0005_5000))
+  - The source date is in the future; Scout first observed it on 2026-09-12.
+- **Upcoming event date** · STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0301_8000_-NONE-_-NONE-))
+  - The source date is in the future; Scout first observed it on 2026-09-12.
+- **Upcoming event date** · THIS AWARD PROCURES CYBRARY FOR TEAMS, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATION CYBERSECURITY WORKFORCE WITH AN ENTERPRISE TRAINING PLATFORM THAT TRACK THE PROGRESS OF SECUR... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000122_7012_NNG15SD60B_8000))
+  - The source date is in the future; Scout first observed it on 2026-09-12.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

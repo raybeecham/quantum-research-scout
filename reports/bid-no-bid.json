@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 97,
+      "days_to_close": 96,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -192,7 +192,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 21,
+      "days_to_close": 20,
       "deadline": "10/02/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -374,7 +374,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 3,
+      "days_to_close": 2,
       "deadline": "09/14/2026",
       "decision_freshness": {
         "current_gate": "hold",
@@ -383,7 +383,7 @@
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
         "previous_gate": "hold",
-        "previous_score": 32,
+        "previous_score": 25,
         "status": "current"
       },
       "decision_score": 25,
@@ -412,7 +412,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 3 day(s)"
+              "Compressed response window: 2 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -428,7 +428,7 @@
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363824"
         ],
-        "trace_hash": "16c8aa28004466ad"
+        "trace_hash": "dbbd090c982cd3ac"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -532,7 +532,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 3 day(s) remaining",
+        "Compressed response window: 2 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -558,7 +558,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 131,
+      "days_to_close": 130,
       "deadline": "01/20/2027",
       "decision_freshness": {
         "current_gate": "hold",
@@ -740,7 +740,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 156,
+      "days_to_close": 155,
       "deadline": "02/14/2027",
       "decision_freshness": {
         "current_gate": "hold",
@@ -922,7 +922,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 206,
+      "days_to_close": 205,
       "deadline": "04/05/2027",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1104,7 +1104,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 776,
+      "days_to_close": 775,
       "deadline": "10/26/2028",
       "decision_freshness": {
         "current_gate": "hold",
@@ -1834,6 +1834,6 @@
     "qualify": 1,
     "targeted_review": 0
   },
-  "updated_at": "2026-09-11T02:25:03.931737+00:00",
+  "updated_at": "2026-09-12T02:32:57.646974+00:00",
   "version": 1
 }

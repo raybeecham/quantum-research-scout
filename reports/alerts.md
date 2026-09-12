@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-11 02:38 UTC_
+_Updated 2026-09-12 02:39 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 8 | 9 | 22 | 19 |
+| 50 | 3 | 9 | 19 | 22 |
 
 ## 🔴 Contract: Quantinuum
 
@@ -22,7 +22,7 @@ _Updated 2026-09-11 02:38 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 AI Security has critical strategic importance and stable momentum.
+- 🔴 AI Security has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: PQC / Crypto Agility
@@ -71,10 +71,10 @@ _Updated 2026-09-11 02:38 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Standards / Government has critical strategic importance and stable momentum.
+- 🔴 Standards / Government has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: QEC / Fault Tolerance 🆕
+## 🟠 Actionable signal: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **actionable**
@@ -102,39 +102,15 @@ _Updated 2026-09-11 02:38 UTC_
 - 🎯 Quantum Software / Tooling is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: AEIF 2026 Alumni Summit: Freedom 250
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363824)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. 🆕
-
-- Severity: **high**
-- Status: **changed**
-- reported amount · authority authoritative · 4394360.0
-- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Changed: THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. 🆕
-
-- Severity: **high**
-- Status: **changed**
-- reported amount · authority authoritative · 4.0
-- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-)
-- [Open supporting view](intelligence-changes.md)
-
 ## 🟠 Federal opportunity closing soon: AEIF 2026 Alumni Summit: Freedom 250
 
 - Severity: **high**
 - Status: **closing-soon**
-- 3 day(s) remain · radar score 40 · Review requirements and make a bid/no-bid decision immediately.
+- 2 day(s) remain · radar score 40 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363824)
 - [Open supporting view](federal-funding.md)
 
-## 🟠 Partnership: Cisco 🆕
+## 🟠 Partnership: Cisco
 
 - Severity: **high**
 - Status: **partnership**
@@ -142,7 +118,7 @@ _Updated 2026-09-11 02:38 UTC_
 - [Open direct evidence](https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems)
 - [Open supporting view](entity-watch.md)
 
-## 🟠 Partnership: Cisco 🆕
+## 🟠 Partnership: Cisco
 
 - Severity: **high**
 - Status: **partnership**
@@ -150,7 +126,7 @@ _Updated 2026-09-11 02:38 UTC_
 - [Open direct evidence](https://infleqtion.com/infleqtion-and-cisco-announce-collaboration-to-advance-networked-quantum-technology)
 - [Open supporting view](entity-watch.md)
 
-## 🟠 Rising momentum: QEC / Fault Tolerance 🆕
+## 🟠 Rising momentum: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **rising**
@@ -161,7 +137,7 @@ _Updated 2026-09-11 02:38 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 13 versus 5 in the prior period.
+- ↗️ Recent evidence is 15 versus 5 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -182,56 +158,56 @@ _Updated 2026-09-11 02:38 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 98.2% reliability with 1 warning day(s).
+- 🟠 98.3% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Lockheed Martin Quantum Technology
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 96.5% reliability with 2 warning day(s).
+- 🟠 96.6% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Computing Patents
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.6% reliability with 3 warning day(s).
+- 🟠 93.8% reliability with 3 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv PQC and Quantum-Safe Cryptography
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 78.0% reliability with 6 warning day(s).
+- 🟠 78.6% reliability with 6 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv Quantum Computing
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 78.0% reliability with 6 warning day(s).
+- 🟠 78.6% reliability with 6 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv Quantum Networking and Sensing
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 78.0% reliability with 6 warning day(s).
+- 🟠 78.6% reliability with 6 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.6% reliability with 1 warning day(s).
+- 🟠 93.8% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.6% reliability with 1 warning day(s).
+- 🟠 93.8% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: AWS Quantum Technologies Blog
@@ -290,7 +266,7 @@ _Updated 2026-09-11 02:38 UTC_
 - The latest dated item is from 2026-07-30; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Distributed Sensing and Smart Dust Patents 🆕
+## 🟡 Source stale: Distributed Sensing and Smart Dust Patents
 
 - Severity: **medium**
 - Status: **stale**
@@ -353,7 +329,7 @@ _Updated 2026-09-11 02:38 UTC_
 - The latest dated item is from 2026-07-23; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Golden Dome 🆕
+## 🟡 Source stale: Grants.gov · Golden Dome
 
 - Severity: **medium**
 - Status: **stale**
@@ -365,4 +341,25 @@ _Updated 2026-09-11 02:38 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-08-20; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Grants.gov · Quantum Genesis 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-06-30; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: InfoQ Quantum Computing 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-06-08; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Intel Quantum Research News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2023-06-15; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

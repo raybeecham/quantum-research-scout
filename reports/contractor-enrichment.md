@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-09-11T02:25:03.931737+00:00_
+_Updated 2026-09-12T02:32:57.646974+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
 - SAM.gov-resolved entities: **89** (**118.7%** coverage)
 - Newly resolved this run: **0**
-- Pending bounded enrichment: **118**
+- Pending bounded enrichment: **119**
 - Ambiguous / no match: **4 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -30,6 +30,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | FOUR POINTS TECHNOLOGY, L.L.C. | [FOUR POINTS TECHNOLOGY, L.L.C.](https://sam.gov/entity/H1KHJPJH9R51/coreData) | H1KHJPJH9R51 | 1YS78 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | UNIVERSITY OF ILLINOIS | [UNIVERSITY OF ILLINOIS](https://sam.gov/entity/Y8CWNJRCNN91/coreData) | Y8CWNJRCNN91 | 4B808 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | UNIVERSITY OF OKLAHOMA | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) | EVTSTTLCEWS5 | 3G168 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
+| THE REGENTS OF THE UNIVERSITY OF COLORADO | [The Regents of the University of Colorado](https://sam.gov/entity/SPVKK1RC2MZ3/coreData) | SPVKK1RC2MZ3 | 4B475 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | [MASSACHUSETTS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NYLCDML6V1/coreData) | E2NYLCDML6V1 | 80230 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | LOUISIANA STATE UNIVERSITY | [LOUISIANA STATE UNIVERSITY](https://sam.gov/entity/ECQEYCHRNKJ4/coreData) | ECQEYCHRNKJ4 | 4L859 | Active | 1862 Land Grant College, 1890 Land Grant College, Educational Institution |
 | IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY | [IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY](https://sam.gov/entity/DQDBM7FGJPC5/coreData) | DQDBM7FGJPC5 | 5J949 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
@@ -48,6 +49,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF TEXAS AT DALLAS | [UNIVERSITY OF TEXAS AT DALLAS](https://sam.gov/entity/EJCVPNN1WFS5/coreData) | EJCVPNN1WFS5 | 0W921 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | UNIVERSITY OF HOUSTON SYSTEM | [UNIVERSITY OF HOUSTON SYSTEM](https://sam.gov/entity/QKWEF8XLMTT3/coreData) | QKWEF8XLMTT3 | 9B955 | Active | Educational Institution, Hispanic Servicing Institution, State Controlled Institution of Higher Learning |
 | THE ARDIAN GROUP, INC | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) | UE9KZJJCMAS9 | 3BR42 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
+| KPMG LLP | [KPMG LLP](https://sam.gov/entity/MAA3SBSDQVM1/coreData) | MAA3SBSDQVM1 | 7QEG9 | Active | Business or Organization, For Profit Organization |
 | BROWN UNIVERSITY | [BROWN UNIVERSITY](https://sam.gov/entity/E3FDXZ6TBHW3/coreData) | E3FDXZ6TBHW3 | 23242 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | ARETE CONSULTING LLC | [ARETE CONSULTING LLC](https://sam.gov/entity/C2PNBME1GYB5/coreData) | C2PNBME1GYB5 | 7LRX4 | Active | SBA Certified 8(a) Program Participant |
 | UNIVERSITY OF NORTH DAKOTA | [UNIVERSITY OF NORTH DAKOTA](https://sam.gov/entity/RSWNKK6J8CF3/coreData) | RSWNKK6J8CF3 | 4B858 | Active | Business or Organization, Educational Institution, Other Not For Profit Organization |
@@ -55,7 +57,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | [OLD DOMINION UNIVERSITY RESEARCH FOUNDATION](https://sam.gov/entity/DSLXBD7UWRV6/coreData) | DSLXBD7UWRV6 | 5D075 | Active | Business or Organization, Foundation, Non-Profit Organization |
 | NORTHEASTERN UNIVERSITY | [NORTHEASTERN UNIVERSITY](https://sam.gov/entity/HLTMVS2JZBS6/coreData) | HLTMVS2JZBS6 | 9A140 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | NATIONAL ACADEMY OF SCIENCES | [NATIONAL ACADEMY OF SCIENCES](https://sam.gov/entity/PKFJZHG2MLG9/coreData) | PKFJZHG2MLG9 | 1D969 | Active | Business or Organization, Non-Profit Organization |
-| KPMG LLP | [KPMG LLP](https://sam.gov/entity/MAA3SBSDQVM1/coreData) | MAA3SBSDQVM1 | 7QEG9 | Active | Business or Organization, For Profit Organization |
 | KEAN UNIVERSITY | [KEAN UNIVERSITY](https://sam.gov/entity/SQ62WM5KNSV8/coreData) | SQ62WM5KNSV8 | 314S6 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
 | FLORIDA INTERNATIONAL UNIVERSITY | [FLORIDA INTERNATIONAL UNIVERSITY](https://sam.gov/entity/Q3KCVK5S9CP1/coreData) | Q3KCVK5S9CP1 | 1JHM5 | Active | Educational Institution, Hispanic Servicing Institution, Minority Institution |
 | TRUSTEES OF BOSTON UNIVERSITY | [TRUSTEES OF BOSTON UNIVERSITY](https://sam.gov/entity/THL6A6JLE1S7/coreData) | THL6A6JLE1S7 | 3A817 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
@@ -65,7 +66,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | ALLIANCE TECHNOLOGY GROUP, LLC | [Alliance Technology Group, LLC](https://sam.gov/entity/UCM7WPGJBZ67/coreData) | UCM7WPGJBZ67 | 1YBR8 | Active | SBA-Certified Women-Owned Small Business |
 | UNIVERSITY OF SOUTH FLORIDA | [UNIVERSITY OF SOUTH FLORIDA](https://sam.gov/entity/NKAZLXLL7Z91/coreData) | NKAZLXLL7Z91 | 1F202 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | UNIVERSITY OF NOTRE DAME DU LAC | [UNIVERSITY OF NOTRE DAME DU LAC](https://sam.gov/entity/FPU6XGFXMBE9/coreData) | FPU6XGFXMBE9 | 5B002 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
-| THE REGENTS OF THE UNIVERSITY OF COLORADO | [The Regents of the University of Colorado](https://sam.gov/entity/SPVKK1RC2MZ3/coreData) | SPVKK1RC2MZ3 | 4B475 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | THE JOHNS HOPKINS UNIVERSITY | [THE JOHNS HOPKINS UNIVERSITY](https://sam.gov/entity/FTMTDMBR29C7/coreData) | FTMTDMBR29C7 | 5L406 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | NEVADA SYSTEM OF HIGHER EDUCATION | [NEVADA SYSTEM OF HIGHER EDUCATION](https://sam.gov/entity/MV1JFXA4S621/coreData) | MV1JFXA4S621 | 0K5F8 | Active | Business or Organization, Non-Profit Organization |
 | KANSAS STATE UNIVERSITY | [KANSAS STATE UNIVERSITY](https://sam.gov/entity/CFMMM5JM7HJ9/coreData) | CFMMM5JM7HJ9 | 4B817 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |

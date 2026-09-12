@@ -2,32 +2,34 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-11T02:25:03.931737+00:00_
+_Updated 2026-09-12T02:32:57.646974+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **38**
-- Added / changed / resolved: **8 / 3 / 27**
+- Material changes: **39**
+- Added / changed / resolved: **12 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.** — reported amount: 4394360.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-))
-- **THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.** — reported amount: 4.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-))
-- **AEIF 2026 Alumni Summit: Freedom 250** — qualification gate: hold ([evidence](https://www.grants.gov/search-results-detail/363824))
+- None.
 
 ## New claims
 
-- **PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-))
-- **PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER** — awarding agency: National Aeronautics and Space Administration ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-))
-- **PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER** — reported amount: 224998.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-))
-- **PHASE I SBIR - QUANTUM RYDBERG-ATOM FIELD TRANSDUCER** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0294_8000_-NONE-_-NONE-))
-- **BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605))
-- **BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).** — awarding agency: Department of Labor ([evidence](https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605))
-- **BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).** — reported amount: 159651.09 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605))
-- **BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605))
+- **STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0301_8000_-NONE-_-NONE-))
+- **STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS** — awarding agency: National Aeronautics and Space Administration ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0301_8000_-NONE-_-NONE-))
+- **STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS** — reported amount: 224965.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0301_8000_-NONE-_-NONE-))
+- **STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0301_8000_-NONE-_-NONE-))
+- **CLOUD SERVICES SUPPORT** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_50310226F0135_5000_50310223A0005_5000))
+- **CLOUD SERVICES SUPPORT** — awarding agency: Securities and Exchange Commission ([evidence](https://www.usaspending.gov/award/CONT_AWD_50310226F0135_5000_50310223A0005_5000))
+- **CLOUD SERVICES SUPPORT** — reported amount: 1347596.64 ([evidence](https://www.usaspending.gov/award/CONT_AWD_50310226F0135_5000_50310223A0005_5000))
+- **CLOUD SERVICES SUPPORT** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_50310226F0135_5000_50310223A0005_5000))
+- **THIS AWARD PROCURES CYBRARY FOR TEAMS, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATION CYBERSECURITY WORKFORCE WITH AN ENTERPRISE TRAINING PLATFORM THAT TRACK THE PROGRESS OF SECUR...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000122_7012_NNG15SD60B_8000))
+- **THIS AWARD PROCURES CYBRARY FOR TEAMS, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATION CYBERSECURITY WORKFORCE WITH AN ENTERPRISE TRAINING PLATFORM THAT TRACK THE PROGRESS OF SECUR...** — awarding agency: Department of Homeland Security ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000122_7012_NNG15SD60B_8000))
+- **THIS AWARD PROCURES CYBRARY FOR TEAMS, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATION CYBERSECURITY WORKFORCE WITH AN ENTERPRISE TRAINING PLATFORM THAT TRACK THE PROGRESS OF SECUR...** — reported amount: 99860.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000122_7012_NNG15SD60B_8000))
+- **THIS AWARD PROCURES CYBRARY FOR TEAMS, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATION CYBERSECURITY WORKFORCE WITH AN ENTERPRISE TRAINING PLATFORM THAT TRACK THE PROGRESS OF SECUR...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000122_7012_NNG15SD60B_8000))
 
 ## Superseded claims
 
