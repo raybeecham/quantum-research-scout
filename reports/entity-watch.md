@@ -4,25 +4,25 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-09-13 02:39 UTC_
+_Updated 2026-09-13 07:54 UTC_
 
 ## Organizations
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| NIST | ↗️ rising (2 vs 0) | 🔴 critical | active | 2026-06-25 | 2026-09-10 | 14 | 1 |
-| Keyfactor | ↗️ rising (2 vs 0) | 🟠 high | active | 2025-10-29 | 2026-09-09 | 24 | 14 |
+| NIST | ↗️ rising (2 vs 0) | 🔴 critical | active | 2026-06-25 | 2026-09-10 | 13 | 0 |
+| Cisco | ↗️ rising (3 vs 1) | 🟠 high | active | 2026-07-27 | 2026-09-10 | 23 | 11 |
 | IBM | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-06-23 | 2026-09-03 | 23 | 0 |
+| Keyfactor | ↗️ rising (3 vs 0) | 🟠 high | active | 2025-07-24 | 2026-09-09 | 21 | 11 |
 | Fortanix | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2024-10-28 | 2026-08-24 | 19 | 19 |
 | IonQ | ↗️ rising (4 vs 2) | 🟠 high | active | 2026-06-22 | 2026-09-08 | 19 | 0 |
 | QuSecure | ↘️ declining (0 vs 5) | 🟠 high | quiet | 2026-07-07 | 2026-09-03 | 13 | 4 |
-| Cisco | ↗️ rising (3 vs 1) | 🟠 high | active | 2026-07-27 | 2026-09-10 | 12 | 0 |
 | Cloudflare | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-06-23 | 2026-09-10 | 9 | 0 |
-| PsiQuantum | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2025-02-26 | 2026-09-02 | 9 | 8 |
 | QuEra | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-22 | 2026-08-12 | 9 | 7 |
+| PsiQuantum | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2025-04-15 | 2026-09-02 | 8 | 7 |
 | Quantinuum | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-06-22 | 2026-09-09 | 7 | 0 |
 | PQShield | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-07-03 | 2026-09-10 | 6 | 0 |
-| Accenture / Accenture Federal Services | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-08-04 | 2026-08-04 | 5 | 5 |
+| Accenture / Accenture Federal Services | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-03-31 | 2025-03-31 | 5 | 5 |
 | D-Wave | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-06-30 | 2026-09-08 | 4 | 0 |
 | Quantum Computing Inc. (QCi) | ➡️ stable (0 vs 0) | 🟠 high | documented | Unknown | Unknown | 4 | 4 |
 | Wiz | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-01-08 | 2026-07-02 | 4 | 4 |
@@ -52,7 +52,7 @@ _Updated 2026-09-13 02:39 UTC_
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| Crypto-agility | ↗️ rising (1 vs 0) | 🔴 critical | active | 2025-08-06 | 2026-09-07 | 33 | 23 |
+| Crypto-agility | ↗️ rising (2 vs 0) | 🔴 critical | active | 2025-07-24 | 2026-09-08 | 30 | 20 |
 | Quantum error correction | ↗️ rising (1 vs 0) | 🔴 critical | active | 2026-06-23 | 2026-09-10 | 24 | 0 |
 | Logical qubits | ➡️ stable (1 vs 1) | 🔴 critical | active | 2025-09-10 | 2026-09-10 | 20 | 3 |
 | ML-DSA | ↗️ rising (1 vs 0) | 🔴 critical | active | 2026-06-29 | 2026-09-08 | 3 | 0 |
@@ -74,13 +74,13 @@ _Updated 2026-09-13 02:39 UTC_
 | ISO/IEC | third-party | 0 | 2 |
 | Infleqtion | third-party | 0 | 25 |
 | Pasqal | third-party | 0 | 19 |
-| NIST | covered | 2 | 14 |
+| NIST | covered | 2 | 13 |
 | Accenture / Accenture Federal Services | covered | 2 | 5 |
 | Atom Computing | covered | 1 | 1 |
 | BSI Germany | covered | 1 | 0 |
 | Booz Allen Hamilton | covered | 1 | 2 |
 | CISA | covered | 1 | 1 |
-| Cisco | covered | 1 | 12 |
+| Cisco | covered | 1 | 23 |
 | Cloudflare | covered | 2 | 9 |
 | Deloitte | covered | 1 | 2 |
 | DigiCert | covered | 1 | 1 |
@@ -91,13 +91,13 @@ _Updated 2026-09-13 02:39 UTC_
 | IBM | covered | 1 | 23 |
 | IETF | covered | 1 | 1 |
 | IonQ | covered | 1 | 19 |
-| Keyfactor | covered | 1 | 24 |
+| Keyfactor | covered | 1 | 21 |
 | Lockheed Martin | covered | 1 | 3 |
 | Microsoft Quantum | covered | 1 | 0 |
 | Open Quantum Safe | covered | 1 | 1 |
 | PQCA | covered | 2 | 3 |
 | PQShield | covered | 1 | 6 |
-| PsiQuantum | covered | 1 | 9 |
+| PsiQuantum | covered | 1 | 8 |
 | QuEra | covered | 1 | 9 |
 | QuSecure | covered | 1 | 13 |
 | Quantinuum | covered | 1 | 7 |
