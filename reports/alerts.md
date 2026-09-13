@@ -4,19 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-12 02:39 UTC_
+_Updated 2026-09-13 02:39 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 3 | 9 | 19 | 22 |
-
-## 🔴 Contract: Quantinuum
-
-- Severity: **critical**
-- Status: **contract**
-- Quantinuum matched a contract event: Quantinuum Finalizes $100 Million CHIPS Act R&D Award to Accelerate Trapped-Ion Manufacturing
-- [Open direct evidence](https://quantumcomputingreport.com/quantinuum-finalizes-100-million-chips-act-rd-award-to-accelerate-trapped-ion-manufacturing)
-- [Open supporting view](entity-watch.md)
+| 50 | 4 | 11 | 16 | 23 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -74,6 +66,27 @@ _Updated 2026-09-12 02:39 UTC_
 - 🔴 Standards / Government has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
+## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 76.7% reliability with 7 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv Quantum Computing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 76.7% reliability with 7 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv Quantum Networking and Sensing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 76.7% reliability with 7 warning day(s).
+- [Open supporting view](source-health.md)
+
 ## 🟠 Actionable signal: QEC / Fault Tolerance
 
 - Severity: **high**
@@ -106,7 +119,7 @@ _Updated 2026-09-12 02:39 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 2 day(s) remain · radar score 40 · Review requirements and make a bid/no-bid decision immediately.
+- 1 day(s) remain · radar score 40 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363824)
 - [Open supporting view](federal-funding.md)
 
@@ -137,7 +150,7 @@ _Updated 2026-09-12 02:39 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 15 versus 5 in the prior period.
+- ↗️ Recent evidence is 16 versus 5 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -172,28 +185,7 @@ _Updated 2026-09-12 02:39 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.8% reliability with 3 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Source degraded: arXiv PQC and Quantum-Safe Cryptography
-
-- Severity: **high**
-- Status: **degraded**
-- 🟠 78.6% reliability with 6 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Source degraded: arXiv Quantum Computing
-
-- Severity: **high**
-- Status: **degraded**
-- 🟠 78.6% reliability with 6 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Source degraded: arXiv Quantum Networking and Sensing
-
-- Severity: **high**
-- Status: **degraded**
-- 🟠 78.6% reliability with 6 warning day(s).
+- 🟠 93.9% reliability with 3 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
@@ -343,23 +335,30 @@ _Updated 2026-09-12 02:39 UTC_
 - The latest dated item is from 2026-08-20; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Quantum Genesis 🆕
+## 🟡 Source stale: Grants.gov · Quantum Genesis
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-30; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: InfoQ Quantum Computing 🆕
+## 🟡 Source stale: InfoQ Quantum Computing
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-08; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Intel Quantum Research News 🆕
+## 🟡 Source stale: Intel Quantum Research News
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2023-06-15; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: IonQ News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-08-05; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

@@ -2,23 +2,67 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-09-12T02:32:57.646974+00:00_
+_Updated 2026-09-13T02:31:49.784910+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **0**
-- Newly discovered historical evidence: **0**
-- Newly observed with no reliable source date: **0**
-- Upcoming dated events: **20**
+- Actual or recent changes: **12**
+- Newly discovered historical evidence: **8**
+- Newly observed with no reliable source date: **4**
+- Upcoming dated events: **17**
 
 ## Priority timeline
 
-- **Upcoming event date** · CLOUD SERVICES SUPPORT — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_50310226F0135_5000_50310223A0005_5000))
-  - The source date is in the future; Scout first observed it on 2026-09-12.
-- **Upcoming event date** · STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0301_8000_-NONE-_-NONE-))
-  - The source date is in the future; Scout first observed it on 2026-09-12.
-- **Upcoming event date** · THIS AWARD PROCURES CYBRARY FOR TEAMS, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATION CYBERSECURITY WORKFORCE WITH AN ENTERPRISE TRAINING PLATFORM THAT TRACK THE PROGRESS OF SECUR... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000122_7012_NNG15SD60B_8000))
-  - The source date is in the future; Scout first observed it on 2026-09-12.
+- **Occurred 3 days ago** · ORDER OFF OF IDIQ 70US0922D70090003 — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3074_7009_70US0922D70090003_7009))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Occurred 3 days ago** · THIS AWARD PROCURES DESKTOP AND LAPTOP COMPUTERS, GRAPHIC CARDS, SCANNERS, AND RELATED ACCESSORIES TO SUPPORT HOMELAND SECURITY INVESTIGATIONS CYBERSECURITY AND FORENSIC TRAINING... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FC0000042_7012_70CTD023A00000001_7012))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Occurred 3 days ago** · WEKA SERVER MAINTENANCE — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_140G0226F0280_1434_NNG15SD74B_8000))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Upcoming event date** · ART TRACK 2: GROW: IL-TECHFORWARD -OUR NATION?S LONG-TERM ECONOMIC COMPETITIVENESS AND STAYING AT THE CUTTING EDGE OF TECHNOLOGIES DEPENDS ON THE ABILITY OF UNIVERSITIES TO MOVE R... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2612408_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · BUILDING EMPLOYER-DRIVEN PATHWAYS FOR ARTIFICIAL INTELLIGENCE TECHNICIANS -ARTIFICIAL INTELLIGENCE (AI) IS RAPIDLY TRANSFORMING BUSINESSES, INDUSTRIES, AND PUBLIC ORGANIZATIONS. A... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2600140_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2605835_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2605836_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · CONFERENCE: NSF WORKSHOP ON QUANTUM TECHNOLOGIES FOR CYBER-PHYSICAL SYSTEMS -THIS PROPOSAL FOCUSES ON THE INTERSECTION OF CYBER-PHYSICAL SYSTEMS (CPS) AND QUANTUM INFORMATION SCIE... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2628842_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): UNIVERSITY OF DELAWARE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP) SUPPORTS EGFP DESIGNATED IN... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2535424_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · EPSCOR RESEARCH FELLOWS: NSF INVESTIGATE MULTIFERROIC PROPERTIES OF RESTACKING FERROMAGNETIC V-DOPED WSE2 BILAYER -THIS RESEARCH INFRASTRUCTURE IMPROVEMENT (RII) EPSCOR RESEARCH F... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2624456_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · EPSCOR RESEARCH FELLOWS: NSF: A GENOTYPE-FORWARD FRAMEWORK FOR MECHANISTIC PENETRANCE ESTIMATION IN ALZHEIMER'S DISEASE -THIS RESEARCH INFRASTRUCTURE IMPROVEMENT (RII) EPSCOR RESE... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2624584_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · EPSCOR RESEARCH FELLOWS: NSF: ENGINEERING A TRANSLATIONAL SERS IMMUNOPHENOTYPING AND MULTIMODAL ANALYTICS FRAMEWORK FOR LIQUID-BIOPSY BASED EARLY DETECTION OF OVARIAN CANCER -THIS... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2624329_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · EPSCOR RESEARCH FELLOWS: NSF: TRANSFORMING TRANSPORTATION PLANNING IN EPSCOR JURISDICTIONS THROUGH AI-ENHANCED MOBILITY DATA AND FOUNDATIONAL MODELING -THIS RESEARCH INFRASTRUCTUR... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2624508_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · EXCELLENCE IN RESEARCH: EMPOWERING SUSTAINABLE AQUAPONICS WITH AI AND ROBOTICS FOR ENHANCED RESOURCE EFFICIENCY -THIS PROJECT WILL ADVANCE FOOD PRODUCTION BY DEVELOPING SMARTER AQ... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2602928_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · GOALI: COOPERATIVE HOMOGENEOUS-HETEROGENEOUS CATALYSIS FOR HYDROGEN ISOTOPE LABELING OF PHARMACEUTICALS -IN THIS PROJECT, PROFESSOR LONG LUO OF THE DEPARTMENT OF CHEMISTRY AT THE... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2555020_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · INTEGRATING ARTIFICIAL INTELLIGENCE SKILLS INTO TECHNICIAN EDUCATION FOR COMPUTING AND MANUFACTURING CAREERS -AS ARTIFICIAL INTELLIGENCE (AI) RESHAPES TECHNICAL OCCUPATIONS, TWO-Y... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2555720_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · MODELING OF III-NITRIDE DEVICES FOR DEVICE-CIRCUIT CO-OPTIMIZATION UNDER CRYOGENIC ENVIRONMENTS -MODELING OF III-NITRIDE DEVICES FOR DEVICE-CIRCUIT CO-OPTIMIZATION UNDER CRYOGENIC... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2537290_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · MRI: TRACK 1: DEVELOPMENT OF A COMPUTATIONAL SYSTEM FOR AGRICULTURAL STRUCTURAL MODELING AND ANALYSIS -THIS PROJECT WILL BUILD A SHARED RESEARCH INSTRUMENT THAT HELPS PLANT SCIENT... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2511126_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · NATIONAL CYBERSECURITY TRAINING & EDUCATION (NCYTE) CENTER -THE CYBERSECURITY LANDSCAPE IS RAPIDLY EVOLVING, WITH INCREASINGLY SOPHISTICATED THREATS TARGETING ALL 16 CRITICAL INFR... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2600198_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · REU SITE: APPLIED AND COMPUTATIONAL MATHEMATICS -THE UNIVERSITY OF CALIFORNIA, LOS ANGELES RESEARCH EXPERIENCES FOR UNDERGRADUATES (REU) SITE WILL PROVIDE INTENSIVE SUMMER RESEARC... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2548181_049))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · THIS CONTRACT PROCURES HACK THE BOX TRAINING COURSES, WHICH ALLOWS STUDENTS TO PARTICIPATE IN CYBERSECURITY TRAINING, WHICH SUPPORTS HOMELAND SECURITY INVESTIGATIONS IN COMBATING... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000131_7012_NNG15SD60B_8000))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Upcoming event date** · THIS PROGRAM STRENGTHENS THE CYBERSECURITY RESILIENCE OF KOSOVO 'S RAPIDLY DIGITALIZING ENERGY SECTOR, WHICH INCREASINGLY RELIES ON SCADA, SMART METERS, AND REMOTE MONITORING SYST... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_SKV42026GR0005_019))
+  - The source date is in the future; Scout first observed it on 2026-09-13.
+- **Newly observed · event date unknown** · ADVANCED COMPUTER CONCEPTS, INC. — cage code ([evidence](https://sam.gov/entity/CGE8ABMZLZN9/coreData))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Newly discovered historical evidence** · I-CORPS: TRANSLATION POTENTIAL OF QUANTUM-ARTIFICIAL INTELLIGENCE (AI) IN ENERGY AND INFRASTRUCTURE SECURITY AND RESILIENCE -THIS I-CORPS PROJECT IS BASED ON THE DEVELOPMENT OF A... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2632169_049))
+  - Scout first observed this on 2026-09-13; the source date is 2026-09-01.
+- **Newly discovered historical evidence** · PLANNING: POST-QUANTUM IDENTITY AND AUDIT FOR MEDICAL XR TRAINING -IN HEALTHCARE PROVIDER ORGANIZATIONS, IMMERSIVE SIMULATION SYSTEMS INCLUDE VIRTUAL AND AUGMENTED REALITY HEADSET... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2603380_049))
+  - Scout first observed this on 2026-09-13; the source date is 2026-09-01.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -64,7 +108,6 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-09-20** · Publish a summary of QC-ADDS technical specifications — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
 - **2026-09-22** · Launch the AI Forge university-industry-government forum — estimated ([source](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security))
 - **2026-09-30** · Close the QBIT Stage A full-proposal window — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
-- **2026-10-02** · Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed) — closing_this_month ([source](https://www.grants.gov/search-results-detail/359269))
 - **2026-10-15** · Close the QBI independent verification and validation topic — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-11-14** · Close the umbrella QBI 2026 announcement — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-11-24** · Submit the first annual Genesis Mission progress report — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
@@ -73,8 +116,6 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-12-19** · Explore private-sector partnership models and commercial contribution plans — upcoming ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
 - **2026-12-19** · NIST, NSA, and the FAR Council complete the order's initial 180-day actions — upcoming ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
 - **2026-12-31** · Advance selected NSF NQVL projects from design to implementation — estimated ([source](https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real))
-- **2027-01-20** · Cybersecurity Innovation for Cyberinfrastructure — open_window ([source](https://www.grants.gov/search-results-detail/358004))
 - **2027-02-14** · Advancing Global Health — open_window ([source](https://www.grants.gov/search-results-detail/363649))
 - **2027-03-19** · CISA and the FAR Council publish cryptographic inventory and disclosure proposals — upcoming ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
-- **2027-04-05** · Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS) — open_window ([source](https://www.grants.gov/search-results-detail/361238))
 - **2027-06-22** · Report national-security implications of increasing commercial quantum capability — upcoming ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))

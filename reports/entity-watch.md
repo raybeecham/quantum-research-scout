@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-09-12 02:39 UTC_
+_Updated 2026-09-13 02:39 UTC_
 
 ## Organizations
 
@@ -19,7 +19,7 @@ _Updated 2026-09-12 02:39 UTC_
 | Cisco | ↗️ rising (3 vs 1) | 🟠 high | active | 2026-07-27 | 2026-09-10 | 12 | 0 |
 | Cloudflare | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-06-23 | 2026-09-10 | 9 | 0 |
 | PsiQuantum | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2025-02-26 | 2026-09-02 | 9 | 8 |
-| QuEra | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-22 | 2026-08-12 | 9 | 7 |
+| QuEra | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-22 | 2026-08-12 | 9 | 7 |
 | Quantinuum | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-06-22 | 2026-09-09 | 7 | 0 |
 | PQShield | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-07-03 | 2026-09-10 | 6 | 0 |
 | Accenture / Accenture Federal Services | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-08-04 | 2026-08-04 | 5 | 5 |
@@ -57,8 +57,8 @@ _Updated 2026-09-12 02:39 UTC_
 | Logical qubits | ➡️ stable (1 vs 1) | 🔴 critical | active | 2025-09-10 | 2026-09-10 | 20 | 3 |
 | ML-DSA | ↗️ rising (1 vs 0) | 🔴 critical | active | 2026-06-29 | 2026-09-08 | 3 | 0 |
 | Quantum key distribution | ↗️ rising (3 vs 1) | 🟠 high | active | 2026-06-29 | 2026-09-10 | 13 | 1 |
-| Quantum networking | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-07-16 | 2026-09-10 | 7 | 0 |
-| Quantum sensing | ↘️ declining (0 vs 2) | 🟡 medium | active | 2026-06-24 | 2026-09-04 | 18 | 2 |
+| Quantum networking | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-07-16 | 2026-09-12 | 8 | 0 |
+| Quantum sensing | ↘️ declining (0 vs 2) | 🟡 medium | quiet | 2026-06-24 | 2026-09-04 | 18 | 2 |
 
 **Configured, awaiting evidence (4):** CNSA 2.0, ML-KEM, Hybrid TLS, SLH-DSA
 

@@ -3395,7 +3395,7 @@
       "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "Quantum Hardware",
         "Quantum Software / Tooling",
@@ -7102,8 +7102,20 @@
         "entanglement distribution"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 7,
+      "current_evidence_count": 8,
       "evidence": [
+        {
+          "date": "2026-09-12",
+          "key": "https://quantumcomputingreport.com/geant-and-quantum-internet-alliance-partner-to-advance-european-quantum-networking-architecture",
+          "report": "2026-09/2026-09-12-digest.md",
+          "score": 101,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "G\u00c9ANT and Quantum Internet Alliance Partner to Advance European Quantum Networking Architecture",
+          "url": "https://quantumcomputingreport.com/geant-and-quantum-internet-alliance-partner-to-advance-european-quantum-networking-architecture"
+        },
         {
           "date": "2026-09-10",
           "key": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems",
@@ -7189,15 +7201,15 @@
           "url": "https://thequantuminsider.com/2026/07/16/arq-raises-1-4-million-pre-seed-round-to-lay-the-foundations-for-the-quantum-internet"
         }
       ],
-      "evidence_count": 7,
+      "evidence_count": 8,
       "first_seen": "2026-07-16",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-10",
+      "latest_seen": "2026-09-12",
       "momentum": "rising",
       "name": "Quantum networking",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -7462,7 +7474,7 @@
       "prior_count": 2,
       "priority": "medium",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Hardware",
         "Quantum Networking",
@@ -7591,6 +7603,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-09-12T02:39:09.200856+00:00",
+  "updated_at": "2026-09-13T02:39:42.487773+00:00",
   "version": 2
 }

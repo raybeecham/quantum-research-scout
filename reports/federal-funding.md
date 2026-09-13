@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-09-12 02:32 UTC_
+_Updated 2026-09-13 02:31 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
 USAspending records describe reported awards; Grants.gov and SAM.gov records describe opportunities or notices. Analytical mission and patent links are not evidence that a patent was funded by, used by, or formally associated with a mission.
 
 - Tracked records: **500**
-- Awards / grant opportunities / procurement opportunities: **485 / 11 / 2**
-- Open opportunities: **10** (including 0 BAA and 2 RFI records)
-- Opportunity radar: **1 mission-linked**, **2 closing within 30 days**, **0 new since yesterday**
+- Awards / grant opportunities / procurement opportunities: **493 / 3 / 2**
+- Open opportunities: **3** (including 0 BAA and 2 RFI records)
+- Opportunity radar: **1 mission-linked**, **1 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **14**
 - Missions with activity: **4 of 10**
-- Named recipients and contractors: **312**
-- Known reported award value: **$451.9M**
+- Named recipients and contractors: **317**
+- Known reported award value: **$473.4M**
 
 ## Opportunity Radar
 
@@ -27,14 +27,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 |---:|---|---|---|---|---|---:|---|
 | 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 | 2 | [AEIF 2026 Alumni Summit: Freedom 250](https://www.grants.gov/search-results-detail/363824) | GRANT_OPPORTUNITY | 09/14/2026 | Not linked | quantum, post-quantum cryptography | **40 · QUALIFY** | Review requirements and make a bid/no-bid decision immediately. |
-| 3 | [Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/359269) | GRANT_OPPORTUNITY | 10/02/2026 | Not linked | quantum, artificial intelligence | **37 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
-| 4 | [Cybersecurity Innovation for Cyberinfrastructure](https://www.grants.gov/search-results-detail/358004) | GRANT_OPPORTUNITY | 01/20/2027 | Not linked | artificial intelligence, cybersecurity | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 5 | [Advancing Global Health](https://www.grants.gov/search-results-detail/363649) | GRANT_OPPORTUNITY | 02/14/2027 | Not linked | quantum, post-quantum cryptography | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 6 | [Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)](https://www.grants.gov/search-results-detail/361238) | GRANT_OPPORTUNITY | 04/05/2027 | Not linked | artificial intelligence, cybersecurity | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 7 | [Occupational Safety and Health Training Project Grants (T03)](https://www.grants.gov/search-results-detail/355722) | GRANT_OPPORTUNITY | 10/26/2028 | Not linked | quantum, post-quantum cryptography | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
-| 8 | [Bridge2AI Network for AI Health Science](https://www.grants.gov/search-results-detail/363107) | GRANT_OPPORTUNITY | Not reported | Not linked | artificial intelligence, autonomy and sensing | **28 · MONITOR** | Track the release and prepare capability evidence. |
-| 9 | [Alumni Engagement Innovation Fund (AEIF) 2026: Exchange Alumni Advancing Freedom250](https://www.grants.gov/search-results-detail/361614) | GRANT_OPPORTUNITY | Not reported | Not linked | quantum, post-quantum cryptography | **28 · MONITOR** | Track the release and prepare capability evidence. |
-| 10 | [NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI](https://www.grants.gov/search-results-detail/361318) | GRANT_OPPORTUNITY | Not reported | Not linked | artificial intelligence, advanced computing | **28 · MONITOR** | Track the release and prepare capability evidence. |
+| 3 | [Advancing Global Health](https://www.grants.gov/search-results-detail/363649) | GRANT_OPPORTUNITY | 02/14/2027 | Not linked | quantum, post-quantum cryptography | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
 
 ## Mission Funding Portfolios
 
@@ -58,13 +51,6 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | PAMS-SC | 12/17/2026 | Genesis Mission (high) | **59 · HIGH** |
 | [AEIF 2026 Alumni Summit: Freedom 250](https://www.grants.gov/search-results-detail/363824) | GRANT_OPPORTUNITY | DOS-SAU | 09/14/2026 | Not linked | **24 · MONITOR** |
 | [Advancing Global Health](https://www.grants.gov/search-results-detail/363649) | GRANT_OPPORTUNITY | DOS-GHSD | 02/14/2027 | Not linked | **24 · MONITOR** |
-| [Bridge2AI Network for AI Health Science](https://www.grants.gov/search-results-detail/363107) | GRANT_OPPORTUNITY | HHS-NIH11 | Not listed | Not linked | **24 · MONITOR** |
-| [Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/359269) | GRANT_OPPORTUNITY | HHS-NIH11 | 10/02/2026 | Not linked | **24 · MONITOR** |
-| [Alumni Engagement Innovation Fund (AEIF) 2026: Exchange Alumni Advancing Freedom250](https://www.grants.gov/search-results-detail/361614) | GRANT_OPPORTUNITY | DOS-NER | Not listed | Not linked | **24 · MONITOR** |
-| [NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI](https://www.grants.gov/search-results-detail/361318) | GRANT_OPPORTUNITY | HHS-NIH11 | Not listed | Not linked | **24 · MONITOR** |
-| [Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)](https://www.grants.gov/search-results-detail/361238) | GRANT_OPPORTUNITY | NSF | 04/05/2027 | Not linked | **24 · MONITOR** |
-| [Cybersecurity Innovation for Cyberinfrastructure](https://www.grants.gov/search-results-detail/358004) | GRANT_OPPORTUNITY | NSF | 01/20/2027 | Not linked | **24 · MONITOR** |
-| [Occupational Safety and Health Training Project Grants (T03)](https://www.grants.gov/search-results-detail/355722) | GRANT_OPPORTUNITY | HHS-CDC-HHSCDCERA | 10/26/2028 | Not linked | **24 · MONITOR** |
 
 ## Awards and Funding Announcements
 
@@ -87,6 +73,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE](https://www.usaspending.gov/award/ASST_NON_W911NF261A284_097) | 2026-08-31 | MORGAN STATE UNIVERSITY | $10.0M | Not linked |
 | [CATEGORY II: TANGLELAB: A NATIONAL HYBRID COMPUTING PLATFORM TO UNLOCK QUANTUM INFORMATION SCIENCE AND ENGINEERING RESEARCH AND EDUCATION -TANGLELAB IS THE PITTSBURGH SUPERCOMPUTI...](https://www.usaspending.gov/award/ASST_NON_2537076_049) | 2026-09-15 | CARNEGIE-MELLON UNIVERSITY | $5.0M | Not linked |
 | [PURPOSE:THE PROJECT WILL ESTABLISH A DEDICATED FACILITY, EQUIPPED WITH BEST-AVAILABLE EQUIPMENT, TO ENABLE EDUCATION, RESEARCH, AND DEVELOPMENT OF INNOVATIVE AI AND CYBERSECURITY...](https://www.usaspending.gov/award/ASST_NON_60NANB26D170_013) | 2026-10-01 | UNIVERSITY OF SOUTH FLORIDA | $2.0M | Not linked |
+| [I-CORPS: TRANSLATION POTENTIAL OF QUANTUM-ARTIFICIAL INTELLIGENCE (AI) IN ENERGY AND INFRASTRUCTURE SECURITY AND RESILIENCE -THIS I-CORPS PROJECT IS BASED ON THE DEVELOPMENT OF A...](https://www.usaspending.gov/award/ASST_NON_2632169_049) | 2026-09-01 | CARNEGIE-MELLON UNIVERSITY | $50.0K | Not linked |
 | [THE APPLE TEA PROJECT: EXPERIENTIAL LEARNING ACTIVITIES WITH AI-AUGMENTED PATHWAYS TO BUILD TEAMWORK SKILLS IN COMMUNITY COLLEGE CYBERSECURITY EDUCATION -THE APPLE TEA PROJECT AIM...](https://www.usaspending.gov/award/ASST_NON_2600274_049) | 2026-10-15 | CARNEGIE-MELLON UNIVERSITY | $999.5K | Not linked |
 | [S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCI...](https://www.usaspending.gov/award/ASST_NON_2620285_049) | 2027-01-01 | THE REGENTS OF THE UNIVERSITY OF COLORADO | $2.0M | Not linked |
 | [NSF AI INSTITUTE FOR EDGE COMPUTING AND SYSTEMS (ATHENA) -THE NSF ARTIFICIAL INTELLIGENCE (AI) INSTITUTE FOR EDGE COMPUTING AND SYSTEMS (ATHENA) CONDUCTS RESEARCH TOWARD ?BIG AI F...](https://www.usaspending.gov/award/ASST_NON_2625580_049) | 2026-11-01 | DUKE UNIVERSITY | $3.0M | Not linked |
@@ -99,7 +86,6 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [SPARTAN - SECURE PATH-ROUTING WITH AUTONOMOUS RESILIENCE FOR TARGETING AND ADAPTIVE NAVIGATION SBIR PHASE II](https://www.usaspending.gov/award/CONT_AWD_FA237725CB008_9700_-NONE-_-NONE-) | 2025-05-14 | POST QUANTUM LABS LLC | $1.4M | Not linked |
 | [CER: STUDENTS TECHNICAL AND PROFESSIONAL DEVELOPMENT IN ARTIFICIAL INTELLIGENCE AND QUANTUM COMPUTING -THIS PROJECT PROVIDES SUPPORT FOR A TOTAL OF 600 STUDENTS AND FACULTY FROM A...](https://www.usaspending.gov/award/ASST_NON_2625956_049) | 2026-10-01 | NEW MEXICO STATE UNIVERSITY | $600.0K | Not linked |
 | [COLLABORATIVE RESEARCH: VINES: TRACK 1:QUANTUM-READY AND AI-ENABLED BY DESIGN: RESILIENT AND DEPLOYABLE NEXT-GEN CELLULAR NETWORKS -THIS COLLABORATIVE PROJECT AIMS TO IMPROVE THE...](https://www.usaspending.gov/award/ASST_NON_2548945_049) | 2026-10-01 | PURDUE UNIVERSITY | $332.9K | Not linked |
-| [CAREER: SECURING AND OPTIMIZING QUANTUM-RESILIENT CRYPTOGRAPHY FOR VERSATILE COMPUTING ARCHITECTURES -THE RAPIDLY ADVANCING QUANTUM COMPUTERS CHALLENGE THE CRYPTOGRAPHIC SYSTEMS T...](https://www.usaspending.gov/award/ASST_NON_2541979_049) | 2026-07-01 | UNIVERSITY OF CALIFORNIA, MERCED | $347.1K | Not linked |
 
 ## Contractor Intelligence Profiles
 
@@ -107,17 +93,17 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 
 | Contractor | Identity | Score | Incumbency | Momentum | Awards | Recent value | Agencies | Missions | Patents |
 |---|---|---:|---|---|---:|---:|---|---|---:|
+| CARNEGIE-MELLON UNIVERSITY | UEI U3NKNFLNQ613 | **53 · SIGNIFICANT** | Emerging Entrant | New Entrant | 4 | $6.6M | National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF SOUTH FLORIDA | UEI NKAZLXLL7Z91 | **52 · SIGNIFICANT** | Emerging Entrant | New Entrant | 4 | $3.2M | Department of Commerce, National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UEI NPU8ULVAAS23 | **51 · SIGNIFICANT** | Emerging Entrant | New Entrant | 2 | $9.4M | Department of Defense, National Science Foundation | darpa-qbi | 2 |
 | THE MITRE CORPORATION | UEI DMHDNDCPWUD1 | **51 · SIGNIFICANT** | Emerging Entrant | New Entrant | 4 | $3.2M | Department of Commerce, Department of Health and Human Services, Department of Homeland Security | Not linked | 2 |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | UEI LMCJKRFW5R81 | **48 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.1M | National Science Foundation | Not linked | 1 |
+| ARIZONA STATE UNIVERSITY | UEI NTLHJXM55KZ6 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 8 | $2.1M | National Science Foundation | Not linked | 0 |
 | PURDUE UNIVERSITY | UEI YRXVL4JYCEF5 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $1.6M | National Science Foundation | Not linked | 0 |
-| ARIZONA STATE UNIVERSITY | UEI NTLHJXM55KZ6 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 7 | $1.5M | National Science Foundation | Not linked | 0 |
 | AUBURN UNIVERSITY | UEI DMQNDJDHTDG4 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $6.7M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | THE UNIVERSITY OF IOWA | UEI Z1H9VJS8NG16 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $3.7M | Environmental Protection Agency, National Science Foundation | Not linked | 0 |
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | UEI QDE5UHE5XD16 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $1.1M | National Science Foundation | Not linked | 0 |
 | BOOZ ALLEN HAMILTON INC | UEI JCBMLGPE6Z71 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $7.6M | Department of Homeland Security, Department of the Interior, General Services Administration | Not linked | 0 |
-| CARNEGIE-MELLON UNIVERSITY | UEI U3NKNFLNQ613 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $6.6M | National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF ALABAMA | UEI RCNJEHZ83EV6 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.4M | National Science Foundation | Not linked | 0 |
 | NORTH CAROLINA STATE UNIVERSITY | UEI U3NVH931QJJ3 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $1.4M | National Science Foundation | Not linked | 0 |
 | INUTEQ, LLC | UEI NBEWZB8LQ8Z5 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $29.4M | National Aeronautics and Space Administration | Not linked | 0 |
@@ -126,25 +112,25 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | UNIVERSITY OF WASHINGTON | UEI HD1WMN6945W6 | **43 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $3.2M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF NORTH TEXAS | UEI G47WN1XZNWX9 | **43 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.1M | Department of Health and Human Services, National Science Foundation | Not linked | 0 |
 | POST QUANTUM LABS LLC | UEI H53MXWJZPYU3 | **42 · DEVELOPING** | Established Incumbent | Declining | 4 | $0 | Department of Defense | Not linked | 0 |
+| UNIVERSITY OF OKLAHOMA | UEI EVTSTTLCEWS5 | **42 · DEVELOPING** | Established Incumbent | Rising | 4 | $412.1K | National Science Foundation | Not linked | 0 |
 | FOUR POINTS TECHNOLOGY, L.L.C. | UEI H1KHJPJH9R51 | **40 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $15.4M | Department of Commerce, Department of Health and Human Services | Not linked | 0 |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | UEI GS3YEVSS12N6 | **40 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.5M | Department of Energy, National Science Foundation | Not linked | 1 |
-| DUKE UNIVERSITY | UEI TP7EK8DZV6N5 | **39 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.5M | Department of Health and Human Services, National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF ILLINOIS | UEI Y8CWNJRCNN91 | **39 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.7M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF TEXAS AT AUSTIN | UEI V6AFQPN18437 | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $5.7M | National Science Foundation | Not linked | 0 |
+| THE ARDIAN GROUP, INC | UEI UE9KZJJCMAS9 | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.4M | Department of Homeland Security | Not linked | 0 |
 | REDACTED DUE TO PII | Name-resolved | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $1.1M | National Science Foundation | Not linked | 0 |
+| DUKE UNIVERSITY | UEI TP7EK8DZV6N5 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.5M | Department of Health and Human Services, National Science Foundation | Not linked | 0 |
 | THE REGENTS OF THE UNIVERSITY OF COLORADO | UEI SPVKK1RC2MZ3 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.8M | National Science Foundation | Not linked | 0 |
-| MASSACHUSETTS INSTITUTE OF TECHNOLOGY | UEI E2NYLCDML6V1 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.2M | National Science Foundation | Not linked | 0 |
 | BROWN UNIVERSITY | UEI E3FDXZ6TBHW3 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $980.1K | National Science Foundation | Not linked | 0 |
 | ROCHESTER INSTITUTE OF TECHNOLOGY | UEI J6TWTRKC1X14 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $894.0K | National Science Foundation | Not linked | 0 |
 | IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY | UEI DQDBM7FGJPC5 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $851.6K | National Science Foundation | Not linked | 0 |
-| UNIVERSITY OF OKLAHOMA | UEI EVTSTTLCEWS5 | **37 · DEVELOPING** | Established Incumbent | Declining | 4 | $140.1K | Department of Commerce, National Science Foundation | Not linked | 0 |
+| ADVANCED COMPUTER CONCEPTS, INC. | UEI CGE8ABMZLZN9 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $244.8K | Department of Agriculture, Department of Homeland Security, National Aeronautics and Space Administration | Not linked | 0 |
 | UNIVERSITY OF WISCONSIN SYSTEM | UEI LCLSJAGTNZQ7 | **36 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.0M | National Science Foundation | Not linked | 0 |
 | MISSISSIPPI STATE UNIVERSITY | UEI NTXJM52SHKS7 | **36 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.3M | National Science Foundation | Not linked | 0 |
 | FLORIDA ATLANTIC UNIVERSITY | UEI Q266L2NDAVP1 | **36 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $800.0K | National Science Foundation | Not linked | 1 |
 | OREGON STATE UNIVERSITY | UEI MZ4DYXE1SL98 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.1M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | PARAGON MICRO INC | UEI E41LV9AJGHQ1 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.0M | Department of Health and Human Services | Not linked | 0 |
 | UNIVERSITY OF CALIFORNIA, SAN DIEGO | UEI UYTTZT6G9DT1 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.9M | Department of Defense, Department of Health and Human Services, National Science Foundation | Not linked | 0 |
-| QUANTUM FOODS INC | UEI S6M6AJJGH6C3 | **34 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $219.4K | Department of Justice | Not linked | 0 |
 | GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | UEI SMNWM6HN79X5 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | Department of Commerce, Department of the Interior | Not linked | 0 |
 | GEORGE MASON UNIVERSITY | UEI EADLFP7Z72E5 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | Department of Commerce, National Science Foundation | Not linked | 0 |
 
@@ -154,11 +140,11 @@ These are assignee-name matches, not proof that an award funded a patent.
 
 | Recipient / contractor | Records | Known awards | Related patents | Missions |
 |---|---:|---:|---:|---|
+| CARNEGIE-MELLON UNIVERSITY | 4 | $6.6M | 1 | Not linked |
 | UNIVERSITY OF SOUTH FLORIDA | 4 | $3.2M | 1 | Not linked |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | 2 | $9.4M | 2 | darpa-qbi |
 | THE MITRE CORPORATION | 4 | $3.2M | 2 | Not linked |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | 4 | $1.1M | 1 | Not linked |
-| CARNEGIE-MELLON UNIVERSITY | 3 | $6.6M | 1 | Not linked |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | 3 | $2.5M | 1 | Not linked |
 | FLORIDA ATLANTIC UNIVERSITY | 2 | $800.0K | 1 | Not linked |
 | MORGAN STATE UNIVERSITY | 1 | $10.0M | 1 | Not linked |
