@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Document Intelligence](procurement-intelligence.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-09-13T07:54:54.531532+00:00_
+_Updated 2026-09-14T02:47:59.662764+00:00_
 
 Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.
 
@@ -55,7 +55,7 @@ Recommended actions:
 - Record an authorized bid/no-bid decision with owner and rationale
 
 Risks:
-- Compressed response window: 1 day(s) remaining
+- Compressed response window: 0 day(s) remaining
 - No linked solicitation document was available for extraction
 - Set-aside or eligibility status is not established in collected metadata
 
@@ -68,8 +68,8 @@ Unknowns:
 Score and evidence trace:
 - **opportunity evidence +40** — strategic significance +11; actionable grant_opportunity +9; closing_soon +12; technology fit +8 · [evidence 1](https://www.grants.gov/search-results-detail/363824)
 - **document evidence +0** — 0 / 100 document evidence completeness
-- **deadline and evidence risk -15** — Compressed response window: 1 day(s) · [evidence 1](https://www.grants.gov/search-results-detail/363824)
-- Trace hash: `b385037b32fce118` · model `public-opportunity-qualification@2`
+- **deadline and evidence risk -15** — Compressed response window: 0 day(s) · [evidence 1](https://www.grants.gov/search-results-detail/363824)
+- Trace hash: `e2ba1ce80c57969d` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 

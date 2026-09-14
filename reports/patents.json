@@ -2699,6 +2699,28 @@
       "title": "JOINT MODULAR MULTIPLICATIVE INVERSE OPERATIONS FOR ACTIVE VOLUME QUANTUM COMPUTING"
     },
     {
+      "application_count": 1,
+      "assignee": "Diraq Pty Ltd",
+      "citation_count": 0,
+      "family_basis": "continuation parent application",
+      "family_key": "application:PCTAU2024050723",
+      "grant_count": 0,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "19497230",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19497230/application-data"
+        }
+      ],
+      "primary_publication_number": null,
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19497230/application-data",
+      "significance_label": "high",
+      "strategic_significance_score": 60,
+      "title": "QUBIT INITIALISATION METHOD AND DEVICE"
+    },
+    {
       "application_count": 0,
       "assignee": "AMESA, Inc.",
       "citation_count": 0,
@@ -13864,6 +13886,74 @@
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
     },
     {
+      "application_number": "19497230",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "Diraq Pty Ltd",
+      "backward_citation_count": 0,
+      "child_applications": [
+        "19497230"
+      ],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "application",
+      "family_basis": "continuation parent application",
+      "family_id": "",
+      "family_key": "application:PCTAU2024050723",
+      "family_members": [
+        {
+          "application_number": "19497230",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19497230/application-data"
+        }
+      ],
+      "family_size": 1,
+      "filing_date": "2025-12-24",
+      "forward_citation_count": 0,
+      "grant_date": "",
+      "inventors": "Andre Luiz SARAIVA DE OLIVEIRA, Chih-Hwan Henry Yang, Jonathan Yue HUANG",
+      "is_continuation": true,
+      "key": "https://data.uspto.gov/patent-file-wrapper/search/details/19497230/application-data",
+      "kind_code": null,
+      "legal_status": "Application Undergoing Preexam Processing",
+      "legal_status_normalized": "pending",
+      "matched_keywords": [
+        "qubit"
+      ],
+      "parent_applications": [
+        "PCTAU2024050723"
+      ],
+      "patent_number": null,
+      "priority": "critical",
+      "priority_date": "",
+      "priority_numbers": [
+        "2023902138"
+      ],
+      "publication_date": null,
+      "publication_number": null,
+      "query": "Quantum Computing Patents",
+      "score": 100,
+      "significance_factors": [
+        "strategic domain relevance +44",
+        "application stage +5",
+        "pending legal status +8",
+        "named assignee +3"
+      ],
+      "significance_label": "high",
+      "source": "Quantum Computing Patents",
+      "strategic_domains": [
+        "Quantum technology"
+      ],
+      "strategic_relevance_score": 110,
+      "strategic_significance_score": 60,
+      "summary": "Applicant: Diraq Pty Ltd",
+      "title": "QUBIT INITIALISATION METHOD AND DEVICE",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19497230/application-data"
+    },
+    {
       "application_number": "19491890",
       "application_type": "Utility",
       "assessment": null,
@@ -22462,78 +22552,6 @@
       "title": "THERMAL ANNEALING OF PIEZOELECTRIC MICROELECTROMECHANICAL SYSTEMS (MEMS) STACKS",
       "tracking_type": "automated",
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18896641/application-data"
-    },
-    {
-      "application_number": "19248351",
-      "application_type": "Utility",
-      "assessment": null,
-      "assignee": "SILICON LIGHT MACHINES CORPORATION",
-      "backward_citation_count": 0,
-      "child_applications": [
-        "19248351"
-      ],
-      "citation_count": 0,
-      "cited_patents": [],
-      "continuation_type": null,
-      "document_type": "application",
-      "family_basis": "continuation parent application",
-      "family_id": "",
-      "family_key": "application:63663245",
-      "family_members": [
-        {
-          "application_number": "19248351",
-          "document_type": "application",
-          "publication_number": "US20250389950A1",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19248351/application-data"
-        },
-        {
-          "application_number": "PCTUS2025035094",
-          "document_type": "application",
-          "publication_number": null,
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025035094/application-data"
-        }
-      ],
-      "family_size": 2,
-      "filing_date": "2025-06-24",
-      "forward_citation_count": 0,
-      "grant_date": "",
-      "inventors": "Mr. Stephen Hamann, Mr. Alexander Payne, Mr. James Hunter, Tianbo Liu, Lars Eng",
-      "is_continuation": true,
-      "key": "US20250389950A1",
-      "kind_code": "A1",
-      "legal_status": "Docketed New Case - Ready for Examination",
-      "legal_status_normalized": "pending",
-      "matched_keywords": [],
-      "parent_applications": [
-        "63663245"
-      ],
-      "patent_number": null,
-      "priority": "monitor",
-      "priority_date": "",
-      "priority_numbers": [],
-      "publication_date": "2025-12-25",
-      "publication_number": "US20250389950A1",
-      "query": "Distributed Sensing and Smart Dust Patents",
-      "score": 0,
-      "significance_factors": [
-        "strategic domain relevance +20",
-        "application stage +5",
-        "pending legal status +8",
-        "2-member family +3",
-        "recent publication +5",
-        "named assignee +3"
-      ],
-      "significance_label": "notable",
-      "source": "Distributed Sensing and Smart Dust Patents",
-      "strategic_domains": [
-        "Distributed sensing and autonomous systems"
-      ],
-      "strategic_relevance_score": 50,
-      "strategic_significance_score": 44,
-      "summary": "Applicant: SILICON LIGHT MACHINES CORPORATION \u00b7 USPTO publication US20250389950A1",
-      "title": "Monolithic Microelectromechanical Systems Based Spatial Light Modulators Including Multiple Arrays, Each Array Configured To Modulate Different Wavelengths",
-      "tracking_type": "automated",
-      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19248351/application-data"
     }
   ],
   "ranking": "Strategic significance first, combining domain relevance, document stage, legal status, citation evidence, family depth, recency, and assignee attribution. Evidence score and publication date break ties.",
@@ -22544,7 +22562,7 @@
     "applications": 240,
     "automated_total": 248,
     "curated_total": 2,
-    "families": 260,
+    "families": 261,
     "grants": 10,
     "last_30_days": 38,
     "latest_publication_date": "2026-09-10",
@@ -22553,6 +22571,6 @@
     "unique_assignees": 148,
     "with_citations": 0
   },
-  "updated_at": "2026-09-13T02:31:49.784910+00:00",
+  "updated_at": "2026-09-14T02:47:59.662764+00:00",
   "version": 4
 }

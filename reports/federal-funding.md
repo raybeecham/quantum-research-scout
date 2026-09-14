@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-09-13 07:54 UTC_
+_Updated 2026-09-14 02:47 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -16,8 +16,8 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Opportunity radar: **1 mission-linked**, **1 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **14**
 - Missions with activity: **4 of 10**
-- Named recipients and contractors: **317**
-- Known reported award value: **$473.4M**
+- Named recipients and contractors: **318**
+- Known reported award value: **$504.0M**
 
 ## Opportunity Radar
 
@@ -93,31 +93,30 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 
 | Contractor | Identity | Score | Incumbency | Momentum | Awards | Recent value | Agencies | Missions | Patents |
 |---|---|---:|---|---|---:|---:|---|---|---:|
+| THE MITRE CORPORATION | UEI DMHDNDCPWUD1 | **55 · SIGNIFICANT** | Emerging Entrant | New Entrant | 5 | $4.9M | Department of Commerce, Department of Health and Human Services, Department of Homeland Security | Not linked | 2 |
 | CARNEGIE-MELLON UNIVERSITY | UEI U3NKNFLNQ613 | **53 · SIGNIFICANT** | Emerging Entrant | New Entrant | 4 | $6.6M | National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF SOUTH FLORIDA | UEI NKAZLXLL7Z91 | **52 · SIGNIFICANT** | Emerging Entrant | New Entrant | 4 | $3.2M | Department of Commerce, National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UEI NPU8ULVAAS23 | **51 · SIGNIFICANT** | Emerging Entrant | New Entrant | 2 | $9.4M | Department of Defense, National Science Foundation | darpa-qbi | 2 |
-| THE MITRE CORPORATION | UEI DMHDNDCPWUD1 | **51 · SIGNIFICANT** | Emerging Entrant | New Entrant | 4 | $3.2M | Department of Commerce, Department of Health and Human Services, Department of Homeland Security | Not linked | 2 |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | UEI LMCJKRFW5R81 | **48 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.1M | National Science Foundation | Not linked | 1 |
+| BOOZ ALLEN HAMILTON INC | UEI JCBMLGPE6Z71 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $31.5M | Department of Homeland Security, Department of the Interior, General Services Administration | Not linked | 0 |
 | ARIZONA STATE UNIVERSITY | UEI NTLHJXM55KZ6 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 8 | $2.1M | National Science Foundation | Not linked | 0 |
 | PURDUE UNIVERSITY | UEI YRXVL4JYCEF5 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $1.6M | National Science Foundation | Not linked | 0 |
 | AUBURN UNIVERSITY | UEI DMQNDJDHTDG4 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $6.7M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | THE UNIVERSITY OF IOWA | UEI Z1H9VJS8NG16 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $3.7M | Environmental Protection Agency, National Science Foundation | Not linked | 0 |
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | UEI QDE5UHE5XD16 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $1.1M | National Science Foundation | Not linked | 0 |
-| BOOZ ALLEN HAMILTON INC | UEI JCBMLGPE6Z71 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $7.6M | Department of Homeland Security, Department of the Interior, General Services Administration | Not linked | 0 |
 | UNIVERSITY OF ALABAMA | UEI RCNJEHZ83EV6 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.4M | National Science Foundation | Not linked | 0 |
 | NORTH CAROLINA STATE UNIVERSITY | UEI U3NVH931QJJ3 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $1.4M | National Science Foundation | Not linked | 0 |
 | INUTEQ, LLC | UEI NBEWZB8LQ8Z5 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $29.4M | National Aeronautics and Space Administration | Not linked | 0 |
 | LOUISIANA STATE UNIVERSITY | UEI ECQEYCHRNKJ4 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.5M | National Science Foundation | Not linked | 0 |
-| ALVAREZ LLC | UEI Y928UVG75CT6 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $1.1M | Department of Health and Human Services, Department of Homeland Security, Department of Justice | Not linked | 0 |
 | UNIVERSITY OF WASHINGTON | UEI HD1WMN6945W6 | **43 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $3.2M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF NORTH TEXAS | UEI G47WN1XZNWX9 | **43 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.1M | Department of Health and Human Services, National Science Foundation | Not linked | 0 |
+| ALVAREZ LLC | UEI Y928UVG75CT6 | **43 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.1M | Department of Health and Human Services, Department of Homeland Security, Department of Justice | Not linked | 0 |
 | POST QUANTUM LABS LLC | UEI H53MXWJZPYU3 | **42 · DEVELOPING** | Established Incumbent | Declining | 4 | $0 | Department of Defense | Not linked | 0 |
 | UNIVERSITY OF OKLAHOMA | UEI EVTSTTLCEWS5 | **42 · DEVELOPING** | Established Incumbent | Rising | 4 | $412.1K | National Science Foundation | Not linked | 0 |
 | FOUR POINTS TECHNOLOGY, L.L.C. | UEI H1KHJPJH9R51 | **40 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $15.4M | Department of Commerce, Department of Health and Human Services | Not linked | 0 |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | UEI GS3YEVSS12N6 | **40 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.5M | Department of Energy, National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF ILLINOIS | UEI Y8CWNJRCNN91 | **39 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.7M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF TEXAS AT AUSTIN | UEI V6AFQPN18437 | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $5.7M | National Science Foundation | Not linked | 0 |
-| THE ARDIAN GROUP, INC | UEI UE9KZJJCMAS9 | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.4M | Department of Homeland Security | Not linked | 0 |
 | REDACTED DUE TO PII | Name-resolved | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $1.1M | National Science Foundation | Not linked | 0 |
 | DUKE UNIVERSITY | UEI TP7EK8DZV6N5 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.5M | Department of Health and Human Services, National Science Foundation | Not linked | 0 |
 | THE REGENTS OF THE UNIVERSITY OF COLORADO | UEI SPVKK1RC2MZ3 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.8M | National Science Foundation | Not linked | 0 |
@@ -133,6 +132,7 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | UNIVERSITY OF CALIFORNIA, SAN DIEGO | UEI UYTTZT6G9DT1 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.9M | Department of Defense, Department of Health and Human Services, National Science Foundation | Not linked | 0 |
 | GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | UEI SMNWM6HN79X5 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | Department of Commerce, Department of the Interior | Not linked | 0 |
 | GEORGE MASON UNIVERSITY | UEI EADLFP7Z72E5 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | Department of Commerce, National Science Foundation | Not linked | 0 |
+| MORGAN STATE UNIVERSITY | UEI KULSKCCZJT27 | **32 · DEVELOPING** | Emerging Entrant | New Entrant | 1 | $10.0M | Department of Defense | Not linked | 1 |
 
 ## Recipient and Contractor Patent Connections
 
@@ -140,10 +140,10 @@ These are assignee-name matches, not proof that an award funded a patent.
 
 | Recipient / contractor | Records | Known awards | Related patents | Missions |
 |---|---:|---:|---:|---|
+| THE MITRE CORPORATION | 5 | $4.9M | 2 | Not linked |
 | CARNEGIE-MELLON UNIVERSITY | 4 | $6.6M | 1 | Not linked |
 | UNIVERSITY OF SOUTH FLORIDA | 4 | $3.2M | 1 | Not linked |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | 2 | $9.4M | 2 | darpa-qbi |
-| THE MITRE CORPORATION | 4 | $3.2M | 2 | Not linked |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | 4 | $1.1M | 1 | Not linked |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | 3 | $2.5M | 1 | Not linked |
 | FLORIDA ATLANTIC UNIVERSITY | 2 | $800.0K | 1 | Not linked |

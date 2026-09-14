@@ -83,7 +83,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 25,
+      "evidence_count": 26,
       "first_party_evidence_count": 0,
       "name": "Infleqtion",
       "priority": "medium",
@@ -215,7 +215,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 23,
+      "evidence_count": 24,
       "first_party_evidence_count": 19,
       "name": "Cisco",
       "priority": "high",
@@ -556,7 +556,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 7,
+      "evidence_count": 8,
       "first_party_evidence_count": 0,
       "name": "Quantinuum",
       "priority": "high",
@@ -897,8 +897,20 @@
         "Cisco Systems"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 12,
+      "current_evidence_count": 13,
       "evidence": [
+        {
+          "date": "2026-09-13",
+          "key": "https://quantumzeitgeist.com/quantum-computer-networks-infleqtion-cisco",
+          "report": "2026-09/2026-09-13-digest.md",
+          "score": 30,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Infleqtion and Cisco link quantum computers into early networks",
+          "url": "https://quantumzeitgeist.com/quantum-computer-networks-infleqtion-cisco"
+        },
         {
           "date": "2026-09-10",
           "key": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems",
@@ -1308,18 +1320,19 @@
           "url": "https://blogs.cisco.com/tag/quantum-safecomputing"
         }
       ],
-      "evidence_count": 23,
+      "evidence_count": 24,
       "first_seen": "2026-07-27",
       "historical_evidence_count": 11,
-      "latest_seen": "2026-09-10",
+      "latest_seen": "2026-09-13",
       "momentum": "rising",
       "name": "Cisco",
       "prior_count": 1,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
+        "Quantum Hardware",
         "Quantum Networking"
       ],
       "type": "company"
@@ -3550,8 +3563,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 7,
+      "current_evidence_count": 8,
       "evidence": [
+        {
+          "date": "2026-09-13",
+          "key": "https://quantumzeitgeist.com/helix-heterogenous-qec-codes-boost-efficiency",
+          "report": "2026-09/2026-09-13-digest.md",
+          "score": 95,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Heterogenous QEC codes boost efficiency in Quantinuum\u2019s Helix architecture",
+          "url": "https://quantumzeitgeist.com/helix-heterogenous-qec-codes-boost-efficiency"
+        },
         {
           "date": "2026-09-09",
           "key": "https://quantumcomputingreport.com/quantinuum-finalizes-100-million-chips-act-rd-award-to-accelerate-trapped-ion-manufacturing",
@@ -3637,18 +3662,19 @@
           "url": "https://quantumzeitgeist.com/quantinuum-qnt"
         }
       ],
-      "evidence_count": 7,
+      "evidence_count": 8,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-09",
+      "latest_seen": "2026-09-13",
       "momentum": "rising",
       "name": "Quantinuum",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
+        "QEC / Fault Tolerance",
         "Quantum Hardware"
       ],
       "type": "company"
@@ -4896,8 +4922,20 @@
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 25,
+      "current_evidence_count": 26,
       "evidence": [
+        {
+          "date": "2026-09-13",
+          "key": "https://quantumzeitgeist.com/quantum-computer-networks-infleqtion-cisco",
+          "report": "2026-09/2026-09-13-digest.md",
+          "score": 30,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Infleqtion and Cisco link quantum computers into early networks",
+          "url": "https://quantumzeitgeist.com/quantum-computer-networks-infleqtion-cisco"
+        },
         {
           "date": "2026-09-10",
           "key": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems",
@@ -5199,15 +5237,15 @@
           "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
         }
       ],
-      "evidence_count": 25,
+      "evidence_count": 26,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-10",
+      "latest_seen": "2026-09-13",
       "momentum": "rising",
       "name": "Infleqtion",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 3,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -6303,8 +6341,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 24,
+      "current_evidence_count": 25,
       "evidence": [
+        {
+          "date": "2026-09-13",
+          "key": "https://quantumzeitgeist.com/helix-heterogenous-qec-codes-boost-efficiency",
+          "report": "2026-09/2026-09-13-digest.md",
+          "score": 95,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Heterogenous QEC codes boost efficiency in Quantinuum\u2019s Helix architecture",
+          "url": "https://quantumzeitgeist.com/helix-heterogenous-qec-codes-boost-efficiency"
+        },
         {
           "date": "2026-09-10",
           "key": "https://thequantuminsider.com/2026/09/10/altera-riverlane-partner-bring-quantum-error-correction-support-agilex-fpgas",
@@ -6594,15 +6644,15 @@
           "url": "https://quantumzeitgeist.com/what-is-the-surface-code"
         }
       ],
-      "evidence_count": 24,
+      "evidence_count": 25,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-10",
+      "latest_seen": "2026-09-13",
       "momentum": "rising",
       "name": "Quantum error correction",
       "prior_count": 0,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "AI Security",
@@ -7675,6 +7725,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-09-13T07:54:54.531532+00:00",
+  "updated_at": "2026-09-14T02:56:06.048088+00:00",
   "version": 2
 }

@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-09-13T02:31:49.784910+00:00_
+_Updated 2026-09-14T02:47:59.662764+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -15,7 +15,7 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Automated recent discoveries: **248**
 - Published in the last 30 days: **38**
 - Unique named assignees: **148**
-- Patent families: **260**
+- Patent families: **261**
 - Applications / grants: **240 / 10**
 - Known legal status: **192 of 250**
 - Publications with citation evidence: **0**
@@ -179,6 +179,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [METHOD FOR OPTIMIZING AN EXECUTION OF A GENERATION OF A CRYSTALS-DILITHIUM POST-QUANTUM SIGNATURE](https://data.uspto.gov/patent-file-wrapper/search/details/19157393/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | THALES DIS FRANCE SAS | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [AI-DRIVEN CROSS-CHANNEL FINANCIAL FRAUD DETECTION SYSTEM WITH QUANTUM-RESISTANT ENCRYPTION AND BLOCKCHAIN INTEGRATION](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025043982/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CYBERSMARTS.AI LLC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING](https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data)<br><small>Publication number unavailable</small> | Application · Pending | NEW YORK UNIVERSITY | 1 member(s) · 0 citation(s) | **60 · HIGH** |
+| [QUBIT INITIALISATION METHOD AND DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19497230/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Diraq Pty Ltd | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [Large-scale multi-qubit trapped-ion gates](https://data.uspto.gov/patent-file-wrapper/search/details/19489905/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Quantum Art Ltd., YEDA RESEARCH AND DEVELOPMENT CO. LTD. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [DEVICE AND METHOD FOR UPDATING NETWORK INFORMATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147505/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
@@ -309,4 +310,3 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [Microelectromechanical Systems (MEMS) Transducers for High Sound Pressure Level (SPL) Measurements](https://data.uspto.gov/patent-file-wrapper/search/details/19386914/application-data)<br><small>US20260136140A1</small> | Application · Pending | Shure Acquisition Holdings, Inc. | 3 member(s) · 0 citation(s) | **47 · NOTABLE** |
 | [Entropy Integrity and Forensics Framework (EIF) for Large Language Model Security](https://data.uspto.gov/patent-file-wrapper/search/details/19446666/application-data)<br><small>US20260141120A1</small> | Application · Unknown | Not listed | 1 member(s) · 0 citation(s) | **46 · NOTABLE** |
 | [THERMAL ANNEALING OF PIEZOELECTRIC MICROELECTROMECHANICAL SYSTEMS (MEMS) STACKS](https://data.uspto.gov/patent-file-wrapper/search/details/18896641/application-data)<br><small>US20260090275A1</small> | Application · Pending | QUALCOMM Incorporated | 2 member(s) · 0 citation(s) | **44 · NOTABLE** |
-| [Monolithic Microelectromechanical Systems Based Spatial Light Modulators Including Multiple Arrays, Each Array Configured To Modulate Different Wavelengths](https://data.uspto.gov/patent-file-wrapper/search/details/19248351/application-data)<br><small>US20250389950A1</small> | Application · Pending | SILICON LIGHT MACHINES CORPORATION | 2 member(s) · 0 citation(s) | **44 · NOTABLE** |

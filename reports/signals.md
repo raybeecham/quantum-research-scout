@@ -4,42 +4,31 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-13 02:39 UTC_
+_Updated 2026-09-14 02:56 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
-| QEC / Fault Tolerance | ↗️ rising (5 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-09-10 | 56 |
-| Quantum Networking | ↗️ rising (16 vs 5) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-12 | 114 |
+| Quantum Networking | ↗️ rising (17 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-13 | 115 |
 | Quantum Sensing | ↗️ rising (3 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-10 | 45 |
-| Quantum Software / Tooling | ↗️ rising (8 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-08 | 82 |
 | AI Security | ↘️ declining (1 vs 2) | 🔴 critical | high | 👁️ watching | 2026-07-01 | 2026-09-11 | 20 |
 | PQC / Crypto Agility | ➡️ stable (22 vs 21) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-11 | 198 |
-| Quantum Hardware | ➡️ stable (21 vs 26) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-12 | 276 |
+| QEC / Fault Tolerance | ➡️ stable (4 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-09-13 | 57 |
+| Quantum Hardware | ➡️ stable (24 vs 24) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-13 | 279 |
+| Quantum Software / Tooling | ↘️ declining (4 vs 7) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-13 | 84 |
 | Standards / Government | ↘️ declining (4 vs 7) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-09-12 | 47 |
-
-## QEC / Fault Tolerance
-
-- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
-- Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
-- Recent supporting evidence:
-  - 2026-09-10 — [IQM to build Europe’s first quantum computer with logical qubits](https://quantumzeitgeist.com/logical-qubits-iqm-europes-first) (Quantum Zeitgeist, score 100)
-  - 2026-09-10 — [Altera and Riverlane Partner to Bring Quantum Error Correction Support to Agilex FPGAs](https://thequantuminsider.com/2026/09/10/altera-riverlane-partner-bring-quantum-error-correction-support-agilex-fpgas) (The Quantum Insider, score 56)
-  - 2026-09-09 — [Xanadu and ASML Partner to Optimize Lithography Processes for Ultra-Low-Loss Quantum Photonics](https://quantumcomputingreport.com/xanadu-and-asml-partner-to-optimize-lithography-processes-for-ultra-low-loss-quantum-photonics) (QuantumNews.ai, score 82)
-  - 2026-09-05 — [The Steane Code Explained](https://quantumzeitgeist.com/steane-code) (Quantum Zeitgeist, score 95)
-  - 2026-09-05 — [How Do Photonic Quantum Computers Work?](https://quantumzeitgeist.com/how-do-photonic-quantum-computers-work) (Quantum Zeitgeist, score 93)
 
 ## Quantum Networking
 
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph, USAspending · Quantum Technologies
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
+  - 2026-09-13 — [Sound waves—SEAS—shield qubits, extending quantum memory](https://quantumzeitgeist.com/harvard-john-sound-waves-shield-qubits) (QuantumNews.ai, score 33)
   - 2026-09-12 — [GÉANT and Quantum Internet Alliance Partner to Advance European Quantum Networking Architecture](https://quantumcomputingreport.com/geant-and-quantum-internet-alliance-partner-to-advance-european-quantum-networking-architecture) (QuantumNews.ai, score 101)
   - 2026-09-11 — [QClairvoyance and Samgnya Sign MoU on Quantum Technology Research](https://thequantuminsider.com/2026/09/11/qclairvoyance-and-samgnya-sign-mou-on-quantum-technology-research) (The Quantum Insider, score 100)
   - 2026-09-11 — [memQ compares gate teleportation to circuit cutting for quantum computing](https://quantumzeitgeist.com/memq-compares-gate-teleportation-circuit) (QuantumNews.ai, score 47)
   - 2026-09-10 — [Infleqtion and Cisco Collaborate on Quantum Networking Research](https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems) (The Quantum Insider, score 81)
-  - 2026-09-10 — [Infleqtion and Cisco Announce Collaboration to Advance Networked Quantum Technology](https://infleqtion.com/infleqtion-and-cisco-announce-collaboration-to-advance-networked-quantum-technology) (QuantumNews.ai, score 64)
 
 ## Quantum Sensing
 
@@ -51,17 +40,6 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-09-04 — [GPS-Free Test Flight Success Marks Critical Advance for Aviation, National Security](https://www.war.gov/News/News-Stories/Article/Article/4591661/gps-free-test-flight-success-marks-critical-advance-for-aviation-national-secur) (Department of War Strategic Technology News, score 100)
   - 2026-09-03 — [Economic and Technical Impacts of Quantum Sensing in Maritime Navigation](https://quantumnews.ai/networking/economic-and-technical-impacts-of-quantum-sensing-in-maritime-navigation) (QuantumNews.ai, score 26)
   - 2026-08-28 — [Higher-Energy X-Rays Could Enable a New Form of Quantum Sensing](https://thequantuminsider.com/2026/08/28/higher-energy-x-rays-could-enable-a-new-form-of-quantum-sensing) (The Quantum Insider, score 22)
-
-## Quantum Software / Tooling
-
-- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, AWS Quantum Technologies Blog, arXiv RSS quant-ph
-- Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
-- Recent supporting evidence:
-  - 2026-09-08 — [Qoro and Hartree Centre link quantum software to UK supercomputers](https://quantumzeitgeist.com/qoro-hartree-centre-link-quantum) (Quantum Zeitgeist, score 25)
-  - 2026-09-07 — [New method automatically finds errors in quantum states](https://quantumzeitgeist.com/ntt-errors-quantum-states-method-automatically) (QuantumNews.ai, score 15)
-  - 2026-09-04 — [Scientek and Classiq Partner to Accelerate Quantum Software Adoption in Taiwan](https://thequantuminsider.com/2026/09/04/scientek-classiq-quantum-software-access-taiwan) (The Quantum Insider, score 100)
-  - 2026-09-04 — [RIKEN Adopts QunaSys QURI SDK for Quantum-HPC Hybrid Computing](https://thequantuminsider.com/2026/09/04/riken-qunasys-software-jhpc-quantum-project) (The Quantum Insider, score 32)
-  - 2026-09-04 — [RIKEN Integrates QunaSys QURI SDK Enterprise into Japan's JHPC-quantum Platform](https://quantumcomputingreport.com/riken-integrates-qunasys-quri-sdk-enterprise-into-japans-jhpc-quantum-platform) (QuantumNews.ai, score 27)
 
 ## AI Security
 
@@ -85,16 +63,38 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-09-11 — [Qtonic Quantum Publishes Q4 2026 Quantum Cybersecurity Report](https://thequantuminsider.com/2026/09/11/qtonic-quantum-q4-2026-quantum-cybersecurity-report) (The Quantum Insider, score 47)
   - 2026-09-11 — [Quantum Cybersecurity Explained: Preparing for Quantum Computing](https://thequantuminsider.com/2026/09/11/quantum-cybersecurity-explained-comprehensive-guide) (The Quantum Insider, score 28)
 
+## QEC / Fault Tolerance
+
+- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
+- Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
+- Recent supporting evidence:
+  - 2026-09-13 — [Heterogenous QEC codes boost efficiency in Quantinuum’s Helix architecture](https://quantumzeitgeist.com/helix-heterogenous-qec-codes-boost-efficiency) (QuantumNews.ai, score 95)
+  - 2026-09-10 — [IQM to build Europe’s first quantum computer with logical qubits](https://quantumzeitgeist.com/logical-qubits-iqm-europes-first) (Quantum Zeitgeist, score 100)
+  - 2026-09-10 — [Altera and Riverlane Partner to Bring Quantum Error Correction Support to Agilex FPGAs](https://thequantuminsider.com/2026/09/10/altera-riverlane-partner-bring-quantum-error-correction-support-agilex-fpgas) (The Quantum Insider, score 56)
+  - 2026-09-09 — [Xanadu and ASML Partner to Optimize Lithography Processes for Ultra-Low-Loss Quantum Photonics](https://quantumcomputingreport.com/xanadu-and-asml-partner-to-optimize-lithography-processes-for-ultra-low-loss-quantum-photonics) (QuantumNews.ai, score 82)
+  - 2026-09-05 — [The Steane Code Explained](https://quantumzeitgeist.com/steane-code) (Quantum Zeitgeist, score 95)
+
 ## Quantum Hardware
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-09-13 — [Shuttling electrons like on a conveyor belt boosts qubit performance](https://quantumzeitgeist.com/simos-shuttling-qubit-performance-electrons-like) (Quantum Zeitgeist, score 72)
+  - 2026-09-13 — [Quantum cryogenic tests move from research labs into chip fabrication](https://quantumzeitgeist.com/formfactor-quantum-cryogenic-tests-move-research) (Quantum Zeitgeist, score 32)
+  - 2026-09-13 — [Infleqtion and Cisco link quantum computers into early networks](https://quantumzeitgeist.com/quantum-computer-networks-infleqtion-cisco) (QuantumNews.ai, score 30)
   - 2026-09-12 — [Klea Dhmitri (Hamamatsu): Photonics as the hidden backbone of quantum hardware scaling](https://thequantuminsider.com/2026/09/12/klea-dhmitri-hamamatsu-photonics-as-the-hidden-backbone-of-quantum-hardware-scaling) (The Quantum Insider, score 71)
   - 2026-09-11 — [$1.5M contract follows $3.5M seed for Qubic’s quantum hardware](https://quantumzeitgeist.com/qubic-15m-contract-quantum-follows-35m) (Quantum Zeitgeist, score 100)
-  - 2026-09-11 — [Qubic Secures $1.5 Million Canadian Government Contract for Cryogenic Amplifiers](https://thequantuminsider.com/2026/09/11/qubic-secures-1-5-million-canadian-government-contract-cryogenic-amplifiers) (The Quantum Insider, score 100)
-  - 2026-09-11 — [Qubic lands $1.5M Canadian deal for quantum amplifiers](https://quantumzeitgeist.com/qubic-lands-15m-canadian-deal) (QuantumNews.ai, score 100)
-  - 2026-09-11 — [Seoul and SEALSQ build center for post-quantum chip security](https://quantumzeitgeist.com/post-quantum-chip-security-seoul-sealsq) (Quantum Zeitgeist, score 65)
+
+## Quantum Software / Tooling
+
+- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, AWS Quantum Technologies Blog, arXiv RSS quant-ph
+- Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
+- Recent supporting evidence:
+  - 2026-09-13 — [RIKEN protein model reaches 12,635 atoms using quantum-classical computing](https://quantumzeitgeist.com/quantum-classical-computing-riken-protein-atoms) (Quantum Zeitgeist, score 20)
+  - 2026-09-13 — [Kyushu University finds quantum gravity tests may mirror normal gravity](https://quantumzeitgeist.com/quantum-gravity-tests-kyushu-university) (QuantumNews.ai, score 15)
+  - 2026-09-08 — [Qoro and Hartree Centre link quantum software to UK supercomputers](https://quantumzeitgeist.com/qoro-hartree-centre-link-quantum) (Quantum Zeitgeist, score 25)
+  - 2026-09-07 — [New method automatically finds errors in quantum states](https://quantumzeitgeist.com/ntt-errors-quantum-states-method-automatically) (QuantumNews.ai, score 15)
+  - 2026-09-04 — [Scientek and Classiq Partner to Accelerate Quantum Software Adoption in Taiwan](https://thequantuminsider.com/2026/09/04/scientek-classiq-quantum-software-access-taiwan) (The Quantum Insider, score 100)
 
 ## Standards / Government
 

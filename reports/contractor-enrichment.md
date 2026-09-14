@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-09-13T07:54:54.531532+00:00_
+_Updated 2026-09-14T02:47:59.662764+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **90** (**120.0%** coverage)
-- Newly resolved this run: **0**
-- Pending bounded enrichment: **122**
+- SAM.gov-resolved entities: **91** (**121.3%** coverage)
+- Newly resolved this run: **1**
+- Pending bounded enrichment: **121**
 - Ambiguous / no match: **4 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -20,6 +20,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | [VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY](https://sam.gov/entity/QDE5UHE5XD16/coreData) | QDE5UHE5XD16 | 4B976 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | THE UNIVERSITY OF IOWA | [THE UNIVERSITY OF IOWA](https://sam.gov/entity/Z1H9VJS8NG16/coreData) | Z1H9VJS8NG16 | 2D354 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | AUBURN UNIVERSITY | [AUBURN UNIVERSITY](https://sam.gov/entity/DMQNDJDHTDG4/coreData) | DMQNDJDHTDG4 | 8H404 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
+| NORTH CAROLINA STATE UNIVERSITY | [NORTH CAROLINA STATE UNIVERSITY](https://sam.gov/entity/U3NVH931QJJ3/coreData) | U3NVH931QJJ3 | 1E7H9 | Active | 1862 Land Grant College, Educational Institution, U.S. State Government |
 | CARNEGIE-MELLON UNIVERSITY | [CARNEGIE-MELLON UNIVERSITY](https://sam.gov/entity/U3NKNFLNQ613/coreData) | U3NKNFLNQ613 | 97668 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | BOOZ ALLEN HAMILTON INC | [BOOZ ALLEN HAMILTON INC](https://sam.gov/entity/JCBMLGPE6Z71/coreData) | JCBMLGPE6Z71 | 17038 | Active | Business or Organization, For Profit Organization |
 | INUTEQ, LLC | [InuTeq, LLC](https://sam.gov/entity/NBEWZB8LQ8Z5/coreData) | NBEWZB8LQ8Z5 | 5NTT4 | Active | Alaskan Native Corporation Owned Firm, Business or Organization, For Profit Organization |
@@ -33,6 +34,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF TEXAS AT AUSTIN | [University of Texas at Austin](https://sam.gov/entity/V6AFQPN18437/coreData) | V6AFQPN18437 | 9B981 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF OKLAHOMA | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) | EVTSTTLCEWS5 | 3G168 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | THE REGENTS OF THE UNIVERSITY OF COLORADO | [The Regents of the University of Colorado](https://sam.gov/entity/SPVKK1RC2MZ3/coreData) | SPVKK1RC2MZ3 | 4B475 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
+| ROCHESTER INSTITUTE OF TECHNOLOGY | [ROCHESTER INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/J6TWTRKC1X14/coreData) | J6TWTRKC1X14 | 0SWS3 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | [MASSACHUSETTS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NYLCDML6V1/coreData) | E2NYLCDML6V1 | 80230 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | LOUISIANA STATE UNIVERSITY | [LOUISIANA STATE UNIVERSITY](https://sam.gov/entity/ECQEYCHRNKJ4/coreData) | ECQEYCHRNKJ4 | 4L859 | Active | 1862 Land Grant College, 1890 Land Grant College, Educational Institution |
 | IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY | [IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY](https://sam.gov/entity/DQDBM7FGJPC5/coreData) | DQDBM7FGJPC5 | 5J949 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
@@ -53,6 +55,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF HOUSTON SYSTEM | [UNIVERSITY OF HOUSTON SYSTEM](https://sam.gov/entity/QKWEF8XLMTT3/coreData) | QKWEF8XLMTT3 | 9B955 | Active | Educational Institution, Hispanic Servicing Institution, State Controlled Institution of Higher Learning |
 | THE ARDIAN GROUP, INC | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) | UE9KZJJCMAS9 | 3BR42 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
 | KPMG LLP | [KPMG LLP](https://sam.gov/entity/MAA3SBSDQVM1/coreData) | MAA3SBSDQVM1 | 7QEG9 | Active | Business or Organization, For Profit Organization |
+| ILLINOIS INSTITUTE OF TECHNOLOGY | [ILLINOIS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NDENMDUEG8/coreData) | E2NDENMDUEG8 | 8B088 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | BROWN UNIVERSITY | [BROWN UNIVERSITY](https://sam.gov/entity/E3FDXZ6TBHW3/coreData) | E3FDXZ6TBHW3 | 23242 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | ARETE CONSULTING LLC | [ARETE CONSULTING LLC](https://sam.gov/entity/C2PNBME1GYB5/coreData) | C2PNBME1GYB5 | 7LRX4 | Active | SBA Certified 8(a) Program Participant |
 | UNIVERSITY OF NORTH DAKOTA | [UNIVERSITY OF NORTH DAKOTA](https://sam.gov/entity/RSWNKK6J8CF3/coreData) | RSWNKK6J8CF3 | 4B858 | Active | Business or Organization, Educational Institution, Other Not For Profit Organization |
@@ -72,9 +75,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | NEVADA SYSTEM OF HIGHER EDUCATION | [NEVADA SYSTEM OF HIGHER EDUCATION](https://sam.gov/entity/MV1JFXA4S621/coreData) | MV1JFXA4S621 | 0K5F8 | Active | Business or Organization, Non-Profit Organization |
 | KANSAS STATE UNIVERSITY | [KANSAS STATE UNIVERSITY](https://sam.gov/entity/CFMMM5JM7HJ9/coreData) | CFMMM5JM7HJ9 | 4B817 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |
 | THE MITRE CORPORATION | [THE MITRE CORPORATION](https://sam.gov/entity/DMHDNDCPWUD1/coreData) | DMHDNDCPWUD1 | 7L030 | Active | Business or Organization, Non-Profit Organization |
-| ROCHESTER INSTITUTE OF TECHNOLOGY | [ROCHESTER INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/J6TWTRKC1X14/coreData) | J6TWTRKC1X14 | 0SWS3 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | PRIDE MOBILITY PRODUCTS CORPORATION | [Pride Mobility Products Corporation](https://sam.gov/entity/KFLDSFDM2VH3/coreData) | KFLDSFDM2VH3 | 1QRM1 | Active | Business or Organization, For Profit Organization |
-| NORTH CAROLINA STATE UNIVERSITY | [NORTH CAROLINA STATE UNIVERSITY](https://sam.gov/entity/U3NVH931QJJ3/coreData) | U3NVH931QJJ3 | 1E7H9 | Active | 1862 Land Grant College, Educational Institution, U.S. State Government |
 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | [MCKINSEY & COMPANY, INC. WASHINGTON D.C.](https://sam.gov/entity/N6JZARL64EW5/coreData) | N6JZARL64EW5 | 438P1 | Active | Business or Organization, For Profit Organization, Self-Certified HUBZone Joint Venture |
 | DUKE UNIVERSITY | [DUKE UNIVERSITY](https://sam.gov/entity/TP7EK8DZV6N5/coreData) | TP7EK8DZV6N5 | 4B478 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF CALIFORNIA, SAN DIEGO | [UNIVERSITY OF CALIFORNIA, SAN DIEGO](https://sam.gov/entity/UYTTZT6G9DT1/coreData) | UYTTZT6G9DT1 | 50854 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
@@ -88,7 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | SECRECY LABS LLC | [SECRECY LABS LLC](https://sam.gov/entity/SF98GF5PP282/coreData) | SF98GF5PP282 | 8JR76 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | GOVSMART, INC. | [GOVSMART, INC.](https://sam.gov/entity/DJACUETFQUL8/coreData) | DJACUETFQUL8 | 5WFZ8 | Active | SBA Certified HUBZone Firm |
 | DELOITTE CONSULTING LLP | [DELOITTE CONSULTING LLP](https://sam.gov/entity/CKV2L9GZKJK3/coreData) | CKV2L9GZKJK3 | 1TTG5 | Active | Business or Organization, For Profit Organization |
-| AON CONSULTING, INC. | [Aon Consulting, Inc.](https://sam.gov/entity/SFE8M7RF4A37/coreData) | SFE8M7RF4A37 | 34UW4 | Active | Business or Organization, For Profit Organization, Foreign Owned |
 
 ## Method
 
