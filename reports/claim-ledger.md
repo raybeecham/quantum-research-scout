@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-09-14T02:47:59.662764+00:00_
+_Updated 2026-09-15T02:50:31.121146+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **4327**
-- Authoritative claims: **4129**
+- Active claims: **4335**
+- Authoritative claims: **4137**
 - Analytical claims: **195**
 - Conflicted claims: **38**
-- Evidence items / URLs: **4437 / 1213**
+- Evidence items / URLs: **4445 / 1215**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,15 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | AEIF 2026 Alumni Summit: Freedom 250 | opportunity status | closed | authoritative / high | [AEIF 2026 Alumni Summit: Freedom 250](https://www.grants.gov/search-results-detail/363824) |
+| active | VANDERBILT UNIVERSITY | legal business name | VANDERBILT UNIVERSITY | authoritative / high | [VANDERBILT UNIVERSITY](https://sam.gov/entity/GTNBNWXJ12D5/coreData) |
+| active | VANDERBILT UNIVERSITY | uei | GTNBNWXJ12D5 | authoritative / high | [VANDERBILT UNIVERSITY](https://sam.gov/entity/GTNBNWXJ12D5/coreData) |
+| active | VANDERBILT UNIVERSITY | cage code | 5E694 | authoritative / high | [VANDERBILT UNIVERSITY](https://sam.gov/entity/GTNBNWXJ12D5/coreData) |
+| active | VANDERBILT UNIVERSITY | registration status | Active | authoritative / high | [VANDERBILT UNIVERSITY](https://sam.gov/entity/GTNBNWXJ12D5/coreData) |
+| active | SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | legal business name | SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | authoritative / high | [SCIENCE APPLICATIONS INTERNATIONAL CORPORATION](https://sam.gov/entity/MMLKPW9JLX64/coreData) |
+| active | SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | uei | MMLKPW9JLX64 | authoritative / high | [SCIENCE APPLICATIONS INTERNATIONAL CORPORATION](https://sam.gov/entity/MMLKPW9JLX64/coreData) |
+| active | SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | cage code | 6XWA8 | authoritative / high | [SCIENCE APPLICATIONS INTERNATIONAL CORPORATION](https://sam.gov/entity/MMLKPW9JLX64/coreData) |
+| active | SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | registration status | Active | authoritative / high | [SCIENCE APPLICATIONS INTERNATIONAL CORPORATION](https://sam.gov/entity/MMLKPW9JLX64/coreData) |
 | active | IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT | opportunity status | awarded | authoritative / high | [IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT](https://www.usaspending.gov/award/CONT_AWD_2032H526F00087_2050_TIRNO99D00005_2050) |
 | active | IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT | awarding agency | Department of the Treasury | authoritative / high | [IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT](https://www.usaspending.gov/award/CONT_AWD_2032H526F00087_2050_TIRNO99D00005_2050) |
 | active | IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT | reported amount | 1734979.0 | authoritative / high | [IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT](https://www.usaspending.gov/award/CONT_AWD_2032H526F00087_2050_TIRNO99D00005_2050) |
@@ -255,15 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | 59--TAIL SENSOR | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME | authoritative / high | [59--TAIL SENSOR](https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view) |
 | active | 59--TAIL SENSOR | reported amount | 50200.0 | authoritative / high | [59--TAIL SENSOR](https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view) |
 | active | 59--TAIL SENSOR | reported recipient | HABCO INDUSTRIES LLC | authoritative / high | [59--TAIL SENSOR](https://sam.gov/workspace/contract/opp/ee0b1ff3e312471aaf5bc8d0e2b36a54/view) |
-| active | CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC | opportunity status | awarded | authoritative / high | [CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC](https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732) |
-| active | CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC | awarding agency | General Services Administration | authoritative / high | [CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC](https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732) |
-| active | CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC | reported amount | 1740.0 | authoritative / high | [CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC](https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732) |
-| active | CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC | reported recipient | W.W. GRAINGER, INC. | authoritative / high | [CUTOFFWHEEL, 7/8 CONNECT, QUANTUM3RIGHTC](https://www.usaspending.gov/award/CONT_AWD_47QSCC26F6RXW_4732_47QSCC26A0001_4732) |
-| active | EdUSA AI & Quantum Technologies Initiative in Australia | opportunity status | closed | authoritative / high | [EdUSA AI & Quantum Technologies Initiative in Australia](https://sam.gov/workspace/contract/opp/4863f6824dbc4040889e1d84101f0c96/view) |
-| active | AEIF 2026 Alumni Summit: Freedom 250 | opportunity status | open | authoritative / high | [AEIF 2026 Alumni Summit: Freedom 250](https://www.grants.gov/search-results-detail/363824) |
-| active | AEIF 2026 Alumni Summit: Freedom 250 | deadline | 09/14/2026 | authoritative / high | [AEIF 2026 Alumni Summit: Freedom 250](https://www.grants.gov/search-results-detail/363824) |
-| active | AEIF 2026 Alumni Summit: Freedom 250 | awarding agency | DOS-SAU | authoritative / high | [AEIF 2026 Alumni Summit: Freedom 250](https://www.grants.gov/search-results-detail/363824) |
-| active | CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT. | reported amount | 2600002.13 | authoritative / high | [CPFF IDIQ TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.](https://www.usaspending.gov/award/CONT_AWD_80ARC026F7007_8000_80ARC018D0010_8000) |
 
 ## Method
 

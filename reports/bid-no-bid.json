@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 94,
+      "days_to_close": 93,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -188,195 +188,11 @@
       "url": "https://www.grants.gov/search-results-detail/361526"
     },
     {
-      "agency": "DOS-SAU",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 0,
-      "deadline": "09/14/2026",
-      "decision_freshness": {
-        "current_gate": "hold",
-        "current_score": 25,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "hold",
-        "previous_score": 25,
-        "status": "current"
-      },
-      "decision_score": 25,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +11",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +8"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363824"
-            ],
-            "points": 40
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "Compressed response window: 0 day(s)"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363824"
-            ],
-            "points": -15
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 25,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363824"
-        ],
-        "trace_hash": "e2ba1ce80c57969d"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: post-quantum cryptography"
-          ],
-          "name": "UNIVERSITY OF OKLAHOMA",
-          "score": 5,
-          "uei": "EVTSTTLCEWS5"
-        },
-        {
-          "basis": [
-            "shared specialties: post-quantum cryptography"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: post-quantum cryptography"
-          ],
-          "name": "YESHIVA UNIVERSITY",
-          "score": 2,
-          "uei": "CSSJGCRUZ9F3"
-        },
-        {
-          "basis": [
-            "shared specialties: post-quantum cryptography"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        },
-        {
-          "basis": [
-            "shared specialties: post-quantum cryptography"
-          ],
-          "name": "VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA",
-          "score": 2,
-          "uei": "EYNYSU6L8ZX6"
-        }
-      ],
-      "mission_fit": [],
-      "opportunity_key": "grants_gov:PDS-SAU-FY26-07",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: post-quantum cryptography"
-          ],
-          "name": "YESHIVA UNIVERSITY",
-          "score": 2,
-          "uei": "CSSJGCRUZ9F3"
-        },
-        {
-          "basis": [
-            "shared specialties: post-quantum cryptography"
-          ],
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "score": 2,
-          "uei": "QDE5UHE5XD16"
-        },
-        {
-          "basis": [
-            "shared specialties: post-quantum cryptography"
-          ],
-          "name": "VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA",
-          "score": 2,
-          "uei": "EYNYSU6L8ZX6"
-        },
-        {
-          "basis": [
-            "shared specialties: post-quantum cryptography"
-          ],
-          "name": "VALIANT SOLUTIONS, LLC",
-          "score": 2,
-          "uei": "GKF8ERUXED41"
-        },
-        {
-          "basis": [
-            "shared specialties: post-quantum cryptography"
-          ],
-          "name": "UNIVERSITY OF TEXAS AT DALLAS",
-          "score": 2,
-          "uei": "EJCVPNN1WFS5"
-        }
-      ],
-      "provisional_gate": "hold",
-      "public_evidence_score": 25,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Compressed response window: 0 day(s) remaining",
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/363824"
-      ],
-      "technology_fit": [
-        "quantum",
-        "post-quantum cryptography"
-      ],
-      "title": "AEIF 2026 Alumni Summit: Freedom 250",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/363824"
-    },
-    {
       "agency": "DOS-GHSD",
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 153,
+      "days_to_close": 152,
       "deadline": "02/14/2027",
       "decision_freshness": {
         "current_gate": "hold",
@@ -556,13 +372,13 @@
   ],
   "scope_note": "Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.",
   "summary": {
-    "brief_count": 3,
+    "brief_count": 2,
     "decisions_revalidation_required": 0,
-    "hold": 2,
+    "hold": 1,
     "priority_qualification": 0,
     "qualify": 1,
     "targeted_review": 0
   },
-  "updated_at": "2026-09-14T02:47:59.662764+00:00",
+  "updated_at": "2026-09-15T02:50:31.121146+00:00",
   "version": 1
 }

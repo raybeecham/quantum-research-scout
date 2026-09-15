@@ -2,50 +2,30 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-14T02:47:59.662764+00:00_
+_Updated 2026-09-15T02:50:31.121146+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **56**
-- Added / changed / resolved: **28 / 1 / 27**
+- Material changes: **36**
+- Added / changed / resolved: **8 / 1 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0** — reported amount: 24834516.57 ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QFHA26F0005_4732_47QFHA24D0005_4732))
+- **AEIF 2026 Alumni Summit: Freedom 250** — opportunity status: closed ([evidence](https://www.grants.gov/search-results-detail/363824))
 
 ## New claims
 
-- **IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_2032H526F00087_2050_TIRNO99D00005_2050))
-- **IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT** — awarding agency: Department of the Treasury ([evidence](https://www.usaspending.gov/award/CONT_AWD_2032H526F00087_2050_TIRNO99D00005_2050))
-- **IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT** — reported amount: 1734979.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_2032H526F00087_2050_TIRNO99D00005_2050))
-- **IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_2032H526F00087_2050_TIRNO99D00005_2050))
-- **THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-))
-- **THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-))
-- **THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...** — reported amount: 3265215.83 ([evidence](https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-))
-- **THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-))
-- **HIGH PERFORMANCE COMPUTING (HPC) SERVER - NIH/CSR** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F65002_7571_HHSN316201500064W_7529))
-- **HIGH PERFORMANCE COMPUTING (HPC) SERVER - NIH/CSR** — awarding agency: Department of Health and Human Services ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F65002_7571_HHSN316201500064W_7529))
-- **HIGH PERFORMANCE COMPUTING (HPC) SERVER - NIH/CSR** — reported amount: 880920.63 ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F65002_7571_HHSN316201500064W_7529))
-- **HIGH PERFORMANCE COMPUTING (HPC) SERVER - NIH/CSR** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F65002_7571_HHSN316201500064W_7529))
-- **CYBERSECURITY SUPPORT SERVICES** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_63NLRB26F0073_6300_63NLRB25D0001_6300))
-- **CYBERSECURITY SUPPORT SERVICES** — awarding agency: National Labor Relations Board ([evidence](https://www.usaspending.gov/award/CONT_AWD_63NLRB26F0073_6300_63NLRB25D0001_6300))
-- **CYBERSECURITY SUPPORT SERVICES** — reported amount: 656678.4 ([evidence](https://www.usaspending.gov/award/CONT_AWD_63NLRB26F0073_6300_63NLRB25D0001_6300))
-- **CYBERSECURITY SUPPORT SERVICES** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_63NLRB26F0073_6300_63NLRB25D0001_6300))
-- **SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0296_8000_-NONE-_-NONE-))
-- **SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING** — awarding agency: National Aeronautics and Space Administration ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0296_8000_-NONE-_-NONE-))
-- **SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING** — reported amount: 224986.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0296_8000_-NONE-_-NONE-))
-- **SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0296_8000_-NONE-_-NONE-))
-- **SANS CYBERSECURITY CLASSES** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_70US0926F1DHS2629_7009_70Z02324D79100001_7008))
-- **SANS CYBERSECURITY CLASSES** — awarding agency: Department of Homeland Security ([evidence](https://www.usaspending.gov/award/CONT_AWD_70US0926F1DHS2629_7009_70Z02324D79100001_7008))
-- **SANS CYBERSECURITY CLASSES** — reported amount: 79897.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_70US0926F1DHS2629_7009_70Z02324D79100001_7008))
-- **SANS CYBERSECURITY CLASSES** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_70US0926F1DHS2629_7009_70Z02324D79100001_7008))
-- **ILLINOIS INSTITUTE OF TECHNOLOGY** — legal business name: ILLINOIS INSTITUTE OF TECHNOLOGY ([evidence](https://sam.gov/entity/E2NDENMDUEG8/coreData))
-- **ILLINOIS INSTITUTE OF TECHNOLOGY** — uei: E2NDENMDUEG8 ([evidence](https://sam.gov/entity/E2NDENMDUEG8/coreData))
-- **ILLINOIS INSTITUTE OF TECHNOLOGY** — cage code: 8B088 ([evidence](https://sam.gov/entity/E2NDENMDUEG8/coreData))
-- **ILLINOIS INSTITUTE OF TECHNOLOGY** — registration status: Active ([evidence](https://sam.gov/entity/E2NDENMDUEG8/coreData))
+- **VANDERBILT UNIVERSITY** — legal business name: VANDERBILT UNIVERSITY ([evidence](https://sam.gov/entity/GTNBNWXJ12D5/coreData))
+- **VANDERBILT UNIVERSITY** — uei: GTNBNWXJ12D5 ([evidence](https://sam.gov/entity/GTNBNWXJ12D5/coreData))
+- **VANDERBILT UNIVERSITY** — cage code: 5E694 ([evidence](https://sam.gov/entity/GTNBNWXJ12D5/coreData))
+- **VANDERBILT UNIVERSITY** — registration status: Active ([evidence](https://sam.gov/entity/GTNBNWXJ12D5/coreData))
+- **SCIENCE APPLICATIONS INTERNATIONAL CORPORATION** — legal business name: SCIENCE APPLICATIONS INTERNATIONAL CORPORATION ([evidence](https://sam.gov/entity/MMLKPW9JLX64/coreData))
+- **SCIENCE APPLICATIONS INTERNATIONAL CORPORATION** — uei: MMLKPW9JLX64 ([evidence](https://sam.gov/entity/MMLKPW9JLX64/coreData))
+- **SCIENCE APPLICATIONS INTERNATIONAL CORPORATION** — cage code: 6XWA8 ([evidence](https://sam.gov/entity/MMLKPW9JLX64/coreData))
+- **SCIENCE APPLICATIONS INTERNATIONAL CORPORATION** — registration status: Active ([evidence](https://sam.gov/entity/MMLKPW9JLX64/coreData))
 
 ## Superseded claims
 

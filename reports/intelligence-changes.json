@@ -282,761 +282,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-23154ff9284f8b57",
+      "claim_id": "claim-dc050fa021ea4bbd",
       "confidence": "high",
-      "effective_date": "2026-09-09",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-55487d1ce4ac1ac0",
-          "locator": "opportunity_status:awarded",
-          "title": "IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H526F00087_2050_TIRNO99D00005_2050",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2032H526F00087",
-        "label": "IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT",
-        "node_id": "award:usaspending:2032H526F00087",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-abf7850985aad2f4",
-      "confidence": "high",
-      "effective_date": "2026-09-09",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-dbf8f47d7c2be433",
-          "locator": "awarding_agency:department of the treasury",
-          "title": "IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H526F00087_2050_TIRNO99D00005_2050",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2032H526F00087",
-        "label": "IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT",
-        "node_id": "award:usaspending:2032H526F00087",
-        "node_type": "award"
-      },
-      "value": "Department of the Treasury"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e5700ab83f5eca6d",
-      "confidence": "high",
-      "effective_date": "2026-09-09",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-930474e2ba5c7e3c",
-          "locator": "reported_amount:1734979.0",
-          "title": "IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H526F00087_2050_TIRNO99D00005_2050",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2032H526F00087",
-        "label": "IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT",
-        "node_id": "award:usaspending:2032H526F00087",
-        "node_type": "award"
-      },
-      "value": 1734979.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-caf4d737095fd492",
-      "confidence": "high",
-      "effective_date": "2026-09-09",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": {
-        "identifier": "uei:DMHDNDCPWUD1",
-        "label": "THE MITRE CORPORATION",
-        "node_id": "recipient_or_contractor:uei:DMHDNDCPWUD1",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-caa995db19987ea8",
-          "locator": "reported_recipient:recipient_or_contractor:uei:DMHDNDCPWUD1",
-          "title": "IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2032H526F00087_2050_TIRNO99D00005_2050",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2032H526F00087",
-        "label": "IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT",
-        "node_id": "award:usaspending:2032H526F00087",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5aa14582c53091ed",
-      "confidence": "high",
-      "effective_date": "2026-09-16",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-339b3f8f8e5199b7",
-          "locator": "opportunity_status:awarded",
-          "title": "THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:13TECH26C0004",
-        "label": "THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...",
-        "node_id": "award:usaspending:13TECH26C0004",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-8fa54153cd775bb0",
-      "confidence": "high",
-      "effective_date": "2026-09-16",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-62063015b8c7422b",
-          "locator": "awarding_agency:department of commerce",
-          "title": "THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:13TECH26C0004",
-        "label": "THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...",
-        "node_id": "award:usaspending:13TECH26C0004",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-0999d94919210ea2",
-      "confidence": "high",
-      "effective_date": "2026-09-16",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ffed1b2892f0d9e8",
-          "locator": "reported_amount:3265215.83",
-          "title": "THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:13TECH26C0004",
-        "label": "THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...",
-        "node_id": "award:usaspending:13TECH26C0004",
-        "node_type": "award"
-      },
-      "value": 3265215.83
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-15c5ea4ef810699f",
-      "confidence": "high",
-      "effective_date": "2026-09-16",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": {
-        "identifier": "uei:SJCMX81V3ZL9",
-        "label": "KATMAI QUANTUM LLC",
-        "node_id": "recipient_or_contractor:uei:SJCMX81V3ZL9",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-87c5a1f45ff5e2f6",
-          "locator": "reported_recipient:recipient_or_contractor:uei:SJCMX81V3ZL9",
-          "title": "THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:13TECH26C0004",
-        "label": "THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...",
-        "node_id": "award:usaspending:13TECH26C0004",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-098e8d91a919e862",
-      "confidence": "high",
-      "effective_date": "2026-09-11",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fbe5fa016fcf5ef9",
-          "locator": "opportunity_status:awarded",
-          "title": "HIGH PERFORMANCE COMPUTING (HPC) SERVER - NIH/CSR",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F65002_7571_HHSN316201500064W_7529",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571TE26F65002",
-        "label": "HIGH PERFORMANCE COMPUTING (HPC) SERVER - NIH/CSR",
-        "node_id": "award:usaspending:7571TE26F65002",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-74c0b7e7e74c0f8a",
-      "confidence": "high",
-      "effective_date": "2026-09-11",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3521a3b2a1f2ca14",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "HIGH PERFORMANCE COMPUTING (HPC) SERVER - NIH/CSR",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F65002_7571_HHSN316201500064W_7529",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571TE26F65002",
-        "label": "HIGH PERFORMANCE COMPUTING (HPC) SERVER - NIH/CSR",
-        "node_id": "award:usaspending:7571TE26F65002",
-        "node_type": "award"
-      },
-      "value": "Department of Health and Human Services"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-90f2b7784f76c6fe",
-      "confidence": "high",
-      "effective_date": "2026-09-11",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2296b5284d35e8be",
-          "locator": "reported_amount:880920.63",
-          "title": "HIGH PERFORMANCE COMPUTING (HPC) SERVER - NIH/CSR",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F65002_7571_HHSN316201500064W_7529",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571TE26F65002",
-        "label": "HIGH PERFORMANCE COMPUTING (HPC) SERVER - NIH/CSR",
-        "node_id": "award:usaspending:7571TE26F65002",
-        "node_type": "award"
-      },
-      "value": 880920.63
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4c26880812c1d8a4",
-      "confidence": "high",
-      "effective_date": "2026-09-11",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": {
-        "identifier": "uei:G8LCAVK5AVW7",
-        "label": "NORSEMAN INC",
-        "node_id": "recipient_or_contractor:uei:G8LCAVK5AVW7",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-88901d8d4654d10f",
-          "locator": "reported_recipient:recipient_or_contractor:uei:G8LCAVK5AVW7",
-          "title": "HIGH PERFORMANCE COMPUTING (HPC) SERVER - NIH/CSR",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F65002_7571_HHSN316201500064W_7529",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571TE26F65002",
-        "label": "HIGH PERFORMANCE COMPUTING (HPC) SERVER - NIH/CSR",
-        "node_id": "award:usaspending:7571TE26F65002",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-055c839034ef1fd0",
-      "confidence": "high",
-      "effective_date": "2026-09-24",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-26bef77d26508843",
-          "locator": "opportunity_status:awarded",
-          "title": "CYBERSECURITY SUPPORT SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_63NLRB26F0073_6300_63NLRB25D0001_6300",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:63NLRB26F0073",
-        "label": "CYBERSECURITY SUPPORT SERVICES",
-        "node_id": "award:usaspending:63NLRB26F0073",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1607fd276aaf3eb1",
-      "confidence": "high",
-      "effective_date": "2026-09-24",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-09008835038efa7d",
-          "locator": "awarding_agency:national labor relations board",
-          "title": "CYBERSECURITY SUPPORT SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_63NLRB26F0073_6300_63NLRB25D0001_6300",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:63NLRB26F0073",
-        "label": "CYBERSECURITY SUPPORT SERVICES",
-        "node_id": "award:usaspending:63NLRB26F0073",
-        "node_type": "award"
-      },
-      "value": "National Labor Relations Board"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b292c304e0a487eb",
-      "confidence": "high",
-      "effective_date": "2026-09-24",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fa821585f6cfb524",
-          "locator": "reported_amount:656678.4",
-          "title": "CYBERSECURITY SUPPORT SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_63NLRB26F0073_6300_63NLRB25D0001_6300",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:63NLRB26F0073",
-        "label": "CYBERSECURITY SUPPORT SERVICES",
-        "node_id": "award:usaspending:63NLRB26F0073",
-        "node_type": "award"
-      },
-      "value": 656678.4
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-029d8cb0243f44f5",
-      "confidence": "high",
-      "effective_date": "2026-09-24",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": {
-        "identifier": "uei:VLLKTRK4ANF3",
-        "label": "DISTRIBUTED COMPUTING SYSTEM SOLUTIONS PROVIDER, INC",
-        "node_id": "recipient_or_contractor:uei:VLLKTRK4ANF3",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cfcadf1cc62baaa4",
-          "locator": "reported_recipient:recipient_or_contractor:uei:VLLKTRK4ANF3",
-          "title": "CYBERSECURITY SUPPORT SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_63NLRB26F0073_6300_63NLRB25D0001_6300",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:63NLRB26F0073",
-        "label": "CYBERSECURITY SUPPORT SERVICES",
-        "node_id": "award:usaspending:63NLRB26F0073",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-879881cbfd9eb45c",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cf8b259be7cb9018",
-          "locator": "opportunity_status:awarded",
-          "title": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0296_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0296",
-        "label": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
-        "node_id": "award:usaspending:80NSSC26C0296",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3408065cf1d2803b",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b8f84e975fc5e0b9",
-          "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0296_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0296",
-        "label": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
-        "node_id": "award:usaspending:80NSSC26C0296",
-        "node_type": "award"
-      },
-      "value": "National Aeronautics and Space Administration"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-bb11ac10d31db142",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6b8e16ab26319608",
-          "locator": "reported_amount:224986.0",
-          "title": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0296_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0296",
-        "label": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
-        "node_id": "award:usaspending:80NSSC26C0296",
-        "node_type": "award"
-      },
-      "value": 224986.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-cda6d6740727cfae",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": {
-        "identifier": "uei:VLL4N165PT51",
-        "label": "OUTPOST TECHNOLOGIES, INC.",
-        "node_id": "recipient_or_contractor:uei:VLL4N165PT51",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6b658c6f3638bdc2",
-          "locator": "reported_recipient:recipient_or_contractor:uei:VLL4N165PT51",
-          "title": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0296_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0296",
-        "label": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
-        "node_id": "award:usaspending:80NSSC26C0296",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-bc6793ac735c479f",
-      "confidence": "high",
-      "effective_date": "2026-09-20",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bb077c0fa759a863",
-          "locator": "opportunity_status:awarded",
-          "title": "SANS CYBERSECURITY CLASSES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F1DHS2629_7009_70Z02324D79100001_7008",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70US0926F1DHS2629",
-        "label": "SANS CYBERSECURITY CLASSES",
-        "node_id": "award:usaspending:70US0926F1DHS2629",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2e40acf759ddd13b",
-      "confidence": "high",
-      "effective_date": "2026-09-20",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3cdd3dccf8ad7b37",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "SANS CYBERSECURITY CLASSES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F1DHS2629_7009_70Z02324D79100001_7008",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70US0926F1DHS2629",
-        "label": "SANS CYBERSECURITY CLASSES",
-        "node_id": "award:usaspending:70US0926F1DHS2629",
-        "node_type": "award"
-      },
-      "value": "Department of Homeland Security"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-81199366d5b4f8fd",
-      "confidence": "high",
-      "effective_date": "2026-09-20",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f365861e46c421f9",
-          "locator": "reported_amount:79897.0",
-          "title": "SANS CYBERSECURITY CLASSES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F1DHS2629_7009_70Z02324D79100001_7008",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70US0926F1DHS2629",
-        "label": "SANS CYBERSECURITY CLASSES",
-        "node_id": "award:usaspending:70US0926F1DHS2629",
-        "node_type": "award"
-      },
-      "value": 79897.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e2ac9b2675c79cd0",
-      "confidence": "high",
-      "effective_date": "2026-09-20",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "object": {
-        "identifier": "uei:NA37S3SKQW65",
-        "label": "THE ESCAL INSTITUTE OF ADVANCED TECHNOLOGIES, INC.",
-        "node_id": "recipient_or_contractor:uei:NA37S3SKQW65",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a35d05295f27be7e",
-          "locator": "reported_recipient:recipient_or_contractor:uei:NA37S3SKQW65",
-          "title": "SANS CYBERSECURITY CLASSES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F1DHS2629_7009_70Z02324D79100001_7008",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70US0926F1DHS2629",
-        "label": "SANS CYBERSECURITY CLASSES",
-        "node_id": "award:usaspending:70US0926F1DHS2629",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-018f14c16861c3b6",
-      "confidence": "high",
-      "effective_date": "2026-09-14",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -1044,29 +294,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f66133be88963962",
-          "locator": "legal_business_name:illinois institute of technology",
-          "title": "ILLINOIS INSTITUTE OF TECHNOLOGY",
-          "url": "https://sam.gov/entity/E2NDENMDUEG8/coreData",
+          "evidence_id": "evidence-7935776727bd510a",
+          "locator": "legal_business_name:vanderbilt university",
+          "title": "VANDERBILT UNIVERSITY",
+          "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:E2NDENMDUEG8",
-        "label": "ILLINOIS INSTITUTE OF TECHNOLOGY",
-        "node_id": "recipient_or_contractor:uei:E2NDENMDUEG8",
+        "identifier": "uei:GTNBNWXJ12D5",
+        "label": "VANDERBILT UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:GTNBNWXJ12D5",
         "node_type": "recipient_or_contractor"
       },
-      "value": "ILLINOIS INSTITUTE OF TECHNOLOGY"
+      "value": "VANDERBILT UNIVERSITY"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-fcd88fc05c9ed4d7",
+      "claim_id": "claim-b4ea777985154d20",
       "confidence": "high",
-      "effective_date": "2026-09-14",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -1074,29 +324,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4ec3b458b79b49b3",
-          "locator": "uei:e2ndenmdueg8",
-          "title": "ILLINOIS INSTITUTE OF TECHNOLOGY",
-          "url": "https://sam.gov/entity/E2NDENMDUEG8/coreData",
+          "evidence_id": "evidence-419b2f83b4807fed",
+          "locator": "uei:gtnbnwxj12d5",
+          "title": "VANDERBILT UNIVERSITY",
+          "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:E2NDENMDUEG8",
-        "label": "ILLINOIS INSTITUTE OF TECHNOLOGY",
-        "node_id": "recipient_or_contractor:uei:E2NDENMDUEG8",
+        "identifier": "uei:GTNBNWXJ12D5",
+        "label": "VANDERBILT UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:GTNBNWXJ12D5",
         "node_type": "recipient_or_contractor"
       },
-      "value": "E2NDENMDUEG8"
+      "value": "GTNBNWXJ12D5"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-6e186d98c7c6bc80",
+      "claim_id": "claim-a96809d775a8c722",
       "confidence": "high",
-      "effective_date": "2026-09-14",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -1104,29 +354,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-44acf2543fe339d1",
-          "locator": "cage_code:8b088",
-          "title": "ILLINOIS INSTITUTE OF TECHNOLOGY",
-          "url": "https://sam.gov/entity/E2NDENMDUEG8/coreData",
+          "evidence_id": "evidence-154a8ef77c299b94",
+          "locator": "cage_code:5e694",
+          "title": "VANDERBILT UNIVERSITY",
+          "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:E2NDENMDUEG8",
-        "label": "ILLINOIS INSTITUTE OF TECHNOLOGY",
-        "node_id": "recipient_or_contractor:uei:E2NDENMDUEG8",
+        "identifier": "uei:GTNBNWXJ12D5",
+        "label": "VANDERBILT UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:GTNBNWXJ12D5",
         "node_type": "recipient_or_contractor"
       },
-      "value": "8B088"
+      "value": "5E694"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-fd9026f2dc7b7593",
+      "claim_id": "claim-8060f11d4e17c8ea",
       "confidence": "high",
-      "effective_date": "2026-09-14",
-      "first_observed_at": "2026-09-14T02:47:59.662764+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -1134,17 +384,137 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e569e15f48f0f036",
+          "evidence_id": "evidence-f694fcd329203627",
           "locator": "registration_status:active",
-          "title": "ILLINOIS INSTITUTE OF TECHNOLOGY",
-          "url": "https://sam.gov/entity/E2NDENMDUEG8/coreData",
+          "title": "VANDERBILT UNIVERSITY",
+          "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:E2NDENMDUEG8",
-        "label": "ILLINOIS INSTITUTE OF TECHNOLOGY",
-        "node_id": "recipient_or_contractor:uei:E2NDENMDUEG8",
+        "identifier": "uei:GTNBNWXJ12D5",
+        "label": "VANDERBILT UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:GTNBNWXJ12D5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-4bab2dcb05773817",
+      "confidence": "high",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fc8efc8520872ee3",
+          "locator": "legal_business_name:science applications international corporation",
+          "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:MMLKPW9JLX64",
+        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-53b0abf8516603cb",
+      "confidence": "high",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d730ea14d31f947f",
+          "locator": "uei:mmlkpw9jlx64",
+          "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:MMLKPW9JLX64",
+        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "MMLKPW9JLX64"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ec7b8ded3570643f",
+      "confidence": "high",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-99c67b29a61bb49a",
+          "locator": "cage_code:6xwa8",
+          "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:MMLKPW9JLX64",
+        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "6XWA8"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-b9081a41194adbf3",
+      "confidence": "high",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ea601a211e46a625",
+          "locator": "registration_status:active",
+          "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:MMLKPW9JLX64",
+        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
         "node_type": "recipient_or_contractor"
       },
       "value": "Active"
@@ -1155,39 +525,39 @@
     {
       "authority": "authoritative",
       "change_type": "changed",
-      "claim_id": "claim-eaa9734550d88a39",
+      "claim_id": "claim-c04a380ed343b4e6",
       "confidence": "high",
-      "effective_date": "2026-09-15",
-      "first_observed_at": "2026-08-28T08:24:42.158568+00:00",
-      "last_observed_at": "2026-09-14T02:47:59.662764+00:00",
+      "effective_date": "2026-09-07",
+      "first_observed_at": "2026-09-08T02:28:05.665263+00:00",
+      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
       "object": null,
-      "predicate": "reported_amount",
+      "predicate": "opportunity_status",
       "previous_object": null,
-      "previous_value": 910498.6,
+      "previous_value": "open",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c0d3447a38b0147b",
-          "locator": "reported_amount:24834516.57",
-          "title": "OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_47QFHA26F0005_4732_47QFHA24D0005_4732",
+          "evidence_id": "evidence-feb8fb38a1bdc538",
+          "locator": "opportunity_status:closed",
+          "title": "AEIF 2026 Alumni Summit: Freedom 250",
+          "url": "https://www.grants.gov/search-results-detail/363824",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:47QFHA26F0005",
-        "label": "OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0",
-        "node_id": "award:usaspending:47QFHA26F0005",
-        "node_type": "award"
+        "identifier": "grants_gov:PDS-SAU-FY26-07",
+        "label": "AEIF 2026 Alumni Summit: Freedom 250",
+        "node_id": "opportunity:grants_gov:PDS-SAU-FY26-07",
+        "node_type": "opportunity"
       },
-      "value": 24834516.57
+      "value": "closed"
     }
   ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-09-14T02:47:59.662764+00:00",
-  "comparison_started_at": "2026-09-13T07:54:54.531532+00:00",
+  "comparison_ended_at": "2026-09-15T02:50:31.121146+00:00",
+  "comparison_started_at": "2026-09-14T02:47:59.662764+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -2103,19 +1473,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-09-13T07:54:54.531532+00:00",
+  "since": "2026-09-14T02:47:59.662764+00:00",
   "summary": {
-    "active_claims": 4327,
-    "added": 28,
+    "active_claims": 4335,
+    "added": 8,
     "changed": 1,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 56,
+    "material_changes": 36,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-09-14T02:47:59.662764+00:00",
+  "updated_at": "2026-09-15T02:50:31.121146+00:00",
   "version": 1
 }

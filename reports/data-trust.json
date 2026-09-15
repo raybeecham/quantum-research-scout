@@ -1,9 +1,9 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 24.0,
+      "acceptance_rate": 23.7,
       "accepted": 31,
-      "quarantined": 98,
+      "quarantined": 100,
       "scope": "Federal missions"
     },
     {
@@ -74,6 +74,29 @@
       "stage": "relationship admission",
       "title": "CONFERENCE: ALABAMA QUANTUM WORKSHOP: QUANTUM SENSING, INFORMATION SCIENCE, AND EPSCOR COLLABORATION -QUANTUM INFORMATION SCIENCE PROVIDES NEW WAYS TO MEASURE, IMAGE, COMMUNICATE,...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2631519_049"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-09-14",
+      "key": "https://www.grants.gov/search-results-detail/363860",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Quantum Benchmarking Initiative",
+      "stage": "mission evidence admission",
+      "title": "Somatic Mosaicism across Human Tissues (SMaHT) Program: Experimental and Computational Technology Development (RM1 Clinical Trial Not Allowed)",
+      "url": "https://www.grants.gov/search-results-detail/363860"
     },
     {
       "admission": {
@@ -1456,6 +1479,29 @@
         "status": "quarantined"
       },
       "date": "2026-06-30",
+      "key": "https://www.grants.gov/search-results-detail/359268",
+      "mission_id": "ai-forge",
+      "mission_name": "AI Forge",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 AI Forge",
+      "stage": "mission evidence admission",
+      "title": "Logistics Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U24 Clinical Trials Not Allowed)",
+      "url": "https://www.grants.gov/search-results-detail/359268"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "AI Forge",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-30",
       "key": "https://www.grants.gov/search-results-detail/359271",
       "mission_id": "ai-forge",
       "mission_name": "AI Forge",
@@ -2235,67 +2281,22 @@
       "stage": "mission evidence admission",
       "title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
       "url": "https://www.grants.gov/search-results-detail/359862"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2025-12-11",
-      "key": "grants_gov:PAR-26-121",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "funding evidence admission",
-      "title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
-      "url": "https://www.grants.gov/search-results-detail/359862"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Genesis Mission",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2025-12-09",
-      "key": "https://www.grants.gov/search-results-detail/360954",
-      "mission_id": "genesis-mission",
-      "mission_name": "Genesis Mission",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "mission evidence admission",
-      "title": "Space Technology Research, Development, Demonstration, and Infusion (SpaceTech REDDI-2026)",
-      "url": "https://www.grants.gov/search-results-detail/360954"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 129,
+      "count": 131,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 129,
+      "count": 131,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 113,
+      "count": 115,
       "label": "Official government source"
     },
     {
@@ -2311,14 +2312,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 80.1,
+    "acceptance_rate": 79.8,
     "accepted": 531,
-    "decisions": 663,
+    "decisions": 665,
     "funding_quarantine": 31,
-    "mission_quarantine": 98,
-    "quarantined": 132,
+    "mission_quarantine": 100,
+    "quarantined": 134,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-09-14T02:47:59.662764+00:00",
+  "updated_at": "2026-09-15T02:50:31.121146+00:00",
   "version": 1
 }

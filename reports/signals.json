@@ -1984,12 +1984,39 @@
           "source": "QuantumNews.ai",
           "title": "SEALSQ Reports H1 2026 Financial Results: Revenue Surges 131% to $11.2M, $486M Cash Balance, and Post-Quantum Hardware Progress",
           "url": "https://quantumcomputingreport.com/sealsq-reports-h1-2026-financial-results-revenue-surges-131-to-11-2m-486m-cash-balance-and-post-quantum-hardware-progress"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://eprint.iacr.org/2026/2017",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 66,
+          "source": "IACR ePrint",
+          "title": "On the eCK Security of MQV-Style LWE-Based Authenticated Key Exchange",
+          "url": "https://eprint.iacr.org/2026/2017"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://eprint.iacr.org/2026/2016",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 70,
+          "source": "IACR ePrint",
+          "title": "Refining Leakage Diagram Analyses for Random Probing Security",
+          "url": "https://eprint.iacr.org/2026/2016"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://blogs.cisco.com/developer/the-honest-migration-playbook-ipsec-series-part-11",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 70,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "The Honest Migration Playbook \u2013 IPsec Series, Part 11",
+          "url": "https://blogs.cisco.com/developer/the-honest-migration-playbook-ipsec-series-part-11"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-09-11",
+      "latest_seen": "2026-09-14",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -1998,8 +2025,8 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 21,
-      "recent_count": 22,
+      "prior_count": 23,
+      "recent_count": 21,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -2517,22 +2544,67 @@
           "source": "QuantumNews.ai",
           "title": "Heterogenous QEC codes boost efficiency in Quantinuum\u2019s Helix architecture",
           "url": "https://quantumzeitgeist.com/helix-heterogenous-qec-codes-boost-efficiency"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://infleqtion.com/infleqtion-at-ieee-quantum-week-2026",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 83,
+          "source": "QuantumNews.ai",
+          "title": "Infleqtion at IEEE Quantum Week 2026: Advancing Fault-Tolerant Quantum Computing with NVIDIA CUDA-Q Logical",
+          "url": "https://infleqtion.com/infleqtion-at-ieee-quantum-week-2026"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://quantumzeitgeist.com/fault-tolerant-quantum-computing-nvidia-outside",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 87,
+          "source": "Quantum Zeitgeist",
+          "title": "NVIDIA opens fault-tolerant quantum computing to outside code",
+          "url": "https://quantumzeitgeist.com/fault-tolerant-quantum-computing-nvidia-outside"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://quantumzeitgeist.com/cuda-q-logical-compiles-nvidias-qec",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 94,
+          "source": "Quantum Zeitgeist",
+          "title": "NVIDIA\u2019s QEC-powered CUDA-Q Logical compiles for error-corrected quantum chips",
+          "url": "https://quantumzeitgeist.com/cuda-q-logical-compiles-nvidias-qec"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://thequantuminsider.com/2026/09/14/nvidia-expands-open-source-cuda-q-platform",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 121,
+          "source": "The Quantum Insider",
+          "title": "NVIDIA Expands Open Source CUDA-Q Platform",
+          "url": "https://thequantuminsider.com/2026/09/14/nvidia-expands-open-source-cuda-q-platform"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://quantumzeitgeist.com/cuda-q-fault-tolerant-quantum-nvidia",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 129,
+          "source": "Quantum Zeitgeist",
+          "title": "NVIDIA opens CUDA-Q platform to test fault-tolerant quantum applications",
+          "url": "https://quantumzeitgeist.com/cuda-q-fault-tolerant-quantum-nvidia"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-09-13",
-      "momentum": "stable",
+      "latest_seen": "2026-09-14",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
         "The Quantum Insider",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 5,
-      "recent_count": 4,
-      "status": "watching"
+      "prior_count": 2,
+      "recent_count": 9,
+      "status": "actionable"
     },
     "Quantum Hardware": {
       "confidence": "high",
@@ -5047,21 +5119,40 @@
           "source": "Quantum Zeitgeist",
           "title": "Shuttling electrons like on a conveyor belt boosts qubit performance",
           "url": "https://quantumzeitgeist.com/simos-shuttling-qubit-performance-electrons-like"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://quantumnews.ai/hardware/evaluating-quantinuum-h2-s-trapped-ion-platform-in-2026",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 38,
+          "source": "QuantumNews.ai",
+          "title": "Evaluating Quantinuum H2's Trapped Ion Platform in 2026",
+          "url": "https://quantumnews.ai/hardware/evaluating-quantinuum-h2-s-trapped-ion-platform-in-2026"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://eprint.iacr.org/2026/2014",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 95,
+          "source": "IACR ePrint",
+          "title": "Quantum Discrete Logarithms on Elliptic Curves with $5n/2+o(n)$ Logical Qubits and $\\widetilde O(n^2)$ Toffoli Gates",
+          "url": "https://eprint.iacr.org/2026/2014"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-09-13",
+      "latest_seen": "2026-09-14",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
         "QuantumNews.ai",
-        "arXiv RSS quant-ph"
+        "arXiv RSS quant-ph",
+        "IACR ePrint"
       ],
-      "prior_count": 24,
-      "recent_count": 24,
+      "prior_count": 20,
+      "recent_count": 23,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -6101,12 +6192,30 @@
           "source": "QuantumNews.ai",
           "title": "Sound waves\u2014SEAS\u2014shield qubits, extending quantum memory",
           "url": "https://quantumzeitgeist.com/harvard-john-sound-waves-shield-qubits"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://quantumzeitgeist.com/geant-quantum-internet-alliance-europes-networks-2",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 81,
+          "source": "QuantumNews.ai",
+          "title": "G\u00c9ANT and Quantum Internet Alliance team up to build Europe\u2019s quantum networks",
+          "url": "https://quantumzeitgeist.com/geant-quantum-internet-alliance-europes-networks-2"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://quantumzeitgeist.com/geant-quantum-internet-alliance-europes-networks-3",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 86,
+          "source": "Quantum Zeitgeist",
+          "title": "G\u00c9ANT and Quantum Internet Alliance team up to build Europe\u2019s quantum networks",
+          "url": "https://quantumzeitgeist.com/geant-quantum-internet-alliance-europes-networks-3"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-09-13",
+      "latest_seen": "2026-09-14",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -6115,7 +6224,7 @@
         "arXiv RSS quant-ph",
         "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 3,
+      "prior_count": 4,
       "recent_count": 17,
       "status": "actionable"
     },
@@ -7301,12 +7410,30 @@
           "source": "Quantum Zeitgeist",
           "title": "RIKEN protein model reaches 12,635 atoms using quantum-classical computing",
           "url": "https://quantumzeitgeist.com/quantum-classical-computing-riken-protein-atoms"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://thequantuminsider.com/2026/09/14/infleqtion-advances-fault-tolerant-quantum-computing-software-nvidia-cuda-q-logical",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 60,
+          "source": "The Quantum Insider",
+          "title": "Infleqtion Integrates qLDPC With NVIDIA CUDA-Q Logical",
+          "url": "https://thequantuminsider.com/2026/09/14/infleqtion-advances-fault-tolerant-quantum-computing-software-nvidia-cuda-q-logical"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://quantumzeitgeist.com/logical-advantage-pinnacle-spin-qubit-hardware",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 70,
+          "source": "Quantum Zeitgeist",
+          "title": "Logical advantage of Pinnacle confirmed on spin-qubit hardware",
+          "url": "https://quantumzeitgeist.com/logical-advantage-pinnacle-spin-qubit-hardware"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-09-13",
+      "latest_seen": "2026-09-14",
       "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
@@ -7315,8 +7442,8 @@
         "AWS Quantum Technologies Blog",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 7,
-      "recent_count": 4,
+      "prior_count": 8,
+      "recent_count": 5,
       "status": "watching"
     },
     "Standards / Government": {
@@ -7744,13 +7871,22 @@
           "source": "QuantumNews.ai",
           "title": "QMIT launches quantum fellowships to train next-gen leaders",
           "url": "https://quantumzeitgeist.com/qmit-quantum-fellowships-train-next-gen"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://eprint.iacr.org/2026/2015",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 70,
+          "source": "IACR ePrint",
+          "title": "A Unified Analysis of Refresh Gadgets in the Random Probing Model",
+          "url": "https://eprint.iacr.org/2026/2015"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-09-12",
-      "momentum": "declining",
+      "latest_seen": "2026-09-14",
+      "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
         "QuantumNews.ai",
@@ -7758,11 +7894,11 @@
         "USAspending \u00b7 Quantum Technologies",
         "USAspending \u00b7 Advanced Computing"
       ],
-      "prior_count": 7,
+      "prior_count": 5,
       "recent_count": 4,
       "status": "watching"
     }
   },
-  "updated_at": "2026-09-14T02:56:06.038423+00:00",
+  "updated_at": "2026-09-15T03:00:53.116675+00:00",
   "version": 1
 }

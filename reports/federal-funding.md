@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-09-14 02:47 UTC_
+_Updated 2026-09-15 02:50 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -12,8 +12,8 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 
 - Tracked records: **500**
 - Awards / grant opportunities / procurement opportunities: **493 / 3 / 2**
-- Open opportunities: **3** (including 0 BAA and 2 RFI records)
-- Opportunity radar: **1 mission-linked**, **1 closing within 30 days**, **0 new since yesterday**
+- Open opportunities: **2** (including 0 BAA and 2 RFI records)
+- Opportunity radar: **1 mission-linked**, **0 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **14**
 - Missions with activity: **4 of 10**
 - Named recipients and contractors: **318**
@@ -26,8 +26,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | Rank | Opportunity | Type | Close | Mission | Technology | Score | Recommended action |
 |---:|---|---|---|---|---|---:|---|
 | 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
-| 2 | [AEIF 2026 Alumni Summit: Freedom 250](https://www.grants.gov/search-results-detail/363824) | GRANT_OPPORTUNITY | 09/14/2026 | Not linked | quantum, post-quantum cryptography | **40 · QUALIFY** | Review requirements and make a bid/no-bid decision immediately. |
-| 3 | [Advancing Global Health](https://www.grants.gov/search-results-detail/363649) | GRANT_OPPORTUNITY | 02/14/2027 | Not linked | quantum, post-quantum cryptography | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
+| 2 | [Advancing Global Health](https://www.grants.gov/search-results-detail/363649) | GRANT_OPPORTUNITY | 02/14/2027 | Not linked | quantum, post-quantum cryptography | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
 
 ## Mission Funding Portfolios
 
@@ -49,7 +48,6 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | Opportunity | Type | Agency | Close | Mission link | Significance |
 |---|---|---|---|---|---:|
 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | PAMS-SC | 12/17/2026 | Genesis Mission (high) | **59 · HIGH** |
-| [AEIF 2026 Alumni Summit: Freedom 250](https://www.grants.gov/search-results-detail/363824) | GRANT_OPPORTUNITY | DOS-SAU | 09/14/2026 | Not linked | **24 · MONITOR** |
 | [Advancing Global Health](https://www.grants.gov/search-results-detail/363649) | GRANT_OPPORTUNITY | DOS-GHSD | 02/14/2027 | Not linked | **24 · MONITOR** |
 
 ## Awards and Funding Announcements

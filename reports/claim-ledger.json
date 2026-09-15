@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-09-14",
+  "as_of_date": "2026-09-15",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,427 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-c04a380ed343b4e6",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-07",
+      "evidence_ids": [
+        "evidence-feb8fb38a1bdc538"
+      ],
+      "first_seen_at": "2026-09-08T02:28:05.665263+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported status in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-76b4d7f411aaa58d"
+          ],
+          "first_seen_at": "2026-09-08T02:28:05.665263+00:00",
+          "last_seen_at": "2026-09-08T02:28:05.665263+00:00",
+          "object": null,
+          "status": "active",
+          "value": "open",
+          "version": 1,
+          "version_hash": "3aa97d823de196da"
+        }
+      ],
+      "last_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-feb8fb38a1bdc538",
+          "locator": "opportunity_status:closed",
+          "title": "AEIF 2026 Alumni Summit: Freedom 250",
+          "url": "https://www.grants.gov/search-results-detail/363824",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:PDS-SAU-FY26-07",
+        "label": "AEIF 2026 Alumni Summit: Freedom 250",
+        "node_id": "opportunity:grants_gov:PDS-SAU-FY26-07",
+        "node_type": "opportunity"
+      },
+      "value": "closed",
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "33da95eefe6fd107"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-dc050fa021ea4bbd",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-15",
+      "evidence_ids": [
+        "evidence-7935776727bd510a"
+      ],
+      "first_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7935776727bd510a",
+          "locator": "legal_business_name:vanderbilt university",
+          "title": "VANDERBILT UNIVERSITY",
+          "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:GTNBNWXJ12D5",
+        "label": "VANDERBILT UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:GTNBNWXJ12D5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "VANDERBILT UNIVERSITY",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "a106439c85ba4a40"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-b4ea777985154d20",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-15",
+      "evidence_ids": [
+        "evidence-419b2f83b4807fed"
+      ],
+      "first_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-419b2f83b4807fed",
+          "locator": "uei:gtnbnwxj12d5",
+          "title": "VANDERBILT UNIVERSITY",
+          "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:GTNBNWXJ12D5",
+        "label": "VANDERBILT UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:GTNBNWXJ12D5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "GTNBNWXJ12D5",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "b07cdfc325831d4a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-a96809d775a8c722",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-15",
+      "evidence_ids": [
+        "evidence-154a8ef77c299b94"
+      ],
+      "first_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-154a8ef77c299b94",
+          "locator": "cage_code:5e694",
+          "title": "VANDERBILT UNIVERSITY",
+          "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:GTNBNWXJ12D5",
+        "label": "VANDERBILT UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:GTNBNWXJ12D5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "5E694",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "46f099544bedfd6c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-8060f11d4e17c8ea",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-15",
+      "evidence_ids": [
+        "evidence-f694fcd329203627"
+      ],
+      "first_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f694fcd329203627",
+          "locator": "registration_status:active",
+          "title": "VANDERBILT UNIVERSITY",
+          "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:GTNBNWXJ12D5",
+        "label": "VANDERBILT UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:GTNBNWXJ12D5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "eac197510d3ef705"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-4bab2dcb05773817",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-15",
+      "evidence_ids": [
+        "evidence-fc8efc8520872ee3"
+      ],
+      "first_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fc8efc8520872ee3",
+          "locator": "legal_business_name:science applications international corporation",
+          "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MMLKPW9JLX64",
+        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7efef2b588ef3cc7"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-53b0abf8516603cb",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-15",
+      "evidence_ids": [
+        "evidence-d730ea14d31f947f"
+      ],
+      "first_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d730ea14d31f947f",
+          "locator": "uei:mmlkpw9jlx64",
+          "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MMLKPW9JLX64",
+        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "MMLKPW9JLX64",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "b3ca0fc207520847"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-ec7b8ded3570643f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-15",
+      "evidence_ids": [
+        "evidence-99c67b29a61bb49a"
+      ],
+      "first_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-99c67b29a61bb49a",
+          "locator": "cage_code:6xwa8",
+          "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MMLKPW9JLX64",
+        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "6XWA8",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3e2e83b58e271557"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-b9081a41194adbf3",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-15",
+      "evidence_ids": [
+        "evidence-ea601a211e46a625"
+      ],
+      "first_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-15T02:50:31.121146+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ea601a211e46a625",
+          "locator": "registration_status:active",
+          "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MMLKPW9JLX64",
+        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d2e760969fcea26c"
     },
     {
       "authority": "authoritative",
@@ -11502,51 +11923,6 @@
       "verification_status": "source_reported",
       "version": 2,
       "version_hash": "d8ecada6e1984fd4"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-c04a380ed343b4e6",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-09-07",
-      "evidence_ids": [
-        "evidence-76b4d7f411aaa58d"
-      ],
-      "first_seen_at": "2026-09-08T02:28:05.665263+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-08T02:28:05.665263+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-76b4d7f411aaa58d",
-          "locator": "opportunity_status:open",
-          "title": "AEIF 2026 Alumni Summit: Freedom 250",
-          "url": "https://www.grants.gov/search-results-detail/363824",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:PDS-SAU-FY26-07",
-        "label": "AEIF 2026 Alumni Summit: Freedom 250",
-        "node_id": "opportunity:grants_gov:PDS-SAU-FY26-07",
-        "node_type": "opportunity"
-      },
-      "value": "open",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "3aa97d823de196da"
     },
     {
       "authority": "authoritative",
@@ -192973,9 +193349,9 @@
         }
       ],
       "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -217134,7 +217510,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217181,7 +217557,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217228,7 +217604,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217275,7 +217651,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217322,7 +217698,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217369,7 +217745,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217416,7 +217792,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217463,7 +217839,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217510,7 +217886,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217557,7 +217933,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217604,7 +217980,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217651,7 +218027,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217698,7 +218074,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217745,7 +218121,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217792,7 +218168,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217839,7 +218215,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217886,7 +218262,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217933,7 +218309,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217985,7 +218361,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218037,7 +218413,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218089,7 +218465,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218141,7 +218517,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218193,7 +218569,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218245,7 +218621,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218297,7 +218673,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218349,7 +218725,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218401,7 +218777,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-14T02:47:59.662764+00:00",
+      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222327,6 +222703,16 @@
       "locator": "awarding_agency:national science foundation",
       "title": "CAREER: HARNESSING THE POWER OF OFF-DYNAMICS REINFORCEMENT LEARNING: FOUNDATIONS, ALGORITHMS, AND APPLICATIONS -MANY IMPORTANT DECISIONS IN EVERYDAY LIFE, SUCH AS CHOOSING EFFECTI...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2541960_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-154a8ef77c299b94",
+      "locator": "cage_code:5e694",
+      "title": "VANDERBILT UNIVERSITY",
+      "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -229708,6 +230094,16 @@
       "locator": "reported_recipient:recipient_or_contractor:name:mainsail industries",
       "title": "POST-QUANTUM CRYPTOGRAPHY TO ENCRYPT DATA AT REST AND DEFEND AGAINST HARVEST NOW DECRYPT LATER ATTACKS",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0164_9700_-NONE-_-NONE-/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-419b2f83b4807fed",
+      "locator": "uei:gtnbnwxj12d5",
+      "title": "VANDERBILT UNIVERSITY",
+      "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -238794,16 +239190,6 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
-      "evidence_id": "evidence-76b4d7f411aaa58d",
-      "locator": "opportunity_status:open",
-      "title": "AEIF 2026 Alumni Summit: Freedom 250",
-      "url": "https://www.grants.gov/search-results-detail/363824",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
       "evidence_id": "evidence-76b87fa40b2512a8",
       "locator": "reported_recipient:recipient_or_contractor:name:w s darley and",
       "title": "4571060272!MARITIME FLY-AWAY AUTONOMOUS SYSTEM",
@@ -239238,6 +239624,16 @@
       "locator": "opportunity_status:awarded",
       "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2627740_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7935776727bd510a",
+      "locator": "legal_business_name:vanderbilt university",
+      "title": "VANDERBILT UNIVERSITY",
+      "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -244418,6 +244814,16 @@
       "locator": "awarding_agency:national aeronautics and space administration",
       "title": "CORE TECHNICAL SERVICES TASK ORDER UNDER NASA ADVANCED COMPUTING SERVICES (NACS) CONTRACT.",
       "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026F7017_8000_80ARC018D0010_8000",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-99c67b29a61bb49a",
+      "locator": "cage_code:6xwa8",
+      "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -255424,6 +255830,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d730ea14d31f947f",
+      "locator": "uei:mmlkpw9jlx64",
+      "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-d734d8d4b95c30a0",
       "locator": "reported_recipient:recipient_or_contractor:uei:KZ7NSHFWWSF8",
       "title": "ARTIFICIAL INTELLIGENCE EXPORTS PROGRAM RESIDENT SERVICES PLATFORM ARTIFICIAL INTELLIGENCE CENTER",
@@ -258894,6 +259310,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ea601a211e46a625",
+      "locator": "registration_status:active",
+      "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-ea85bc838b54325c",
       "locator": "awarding_agency:department of defense",
       "title": "PROCUREMENT OF COMPUTER MONITORS IN SUPPORT OF CAPABILITY PROGRAM EXECUTIVE COMMAND AND CONTROL INFORMATION NETWORK, PROJECT MANAGER COMMAND AND CONTROL DATA AND ARTIFICIAL INTELL...",
@@ -261182,6 +261608,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-f694fcd329203627",
+      "locator": "registration_status:active",
+      "title": "VANDERBILT UNIVERSITY",
+      "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "cb7ad8d62a4d6bf370ca663dff8fffe142e38cf95d32a7784e1842b51df1696a",
       "controlling_status": "not_established",
       "evidence_id": "evidence-f69b0d18d5def3c1",
@@ -262244,6 +262680,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-fc8efc8520872ee3",
+      "locator": "legal_business_name:science applications international corporation",
+      "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-fca0ddc9ef61dc98",
       "locator": "reported_amount:19469.8",
       "title": "EXPRESS REPORT: QUANTUM OUTBACK POWER WHEELCHAIR",
@@ -262634,6 +263080,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-feb8fb38a1bdc538",
+      "locator": "opportunity_status:closed",
+      "title": "AEIF 2026 Alumni Summit: Freedom 250",
+      "url": "https://www.grants.gov/search-results-detail/363824",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-febeddb3c5f89d70",
       "locator": "reported_amount:27399.0",
       "title": "NETSKOPE CLOUD SECURITY PLATFORM WILL BE UTILIZED AS PART OF ITS ENTERPRISE CYBERSECURITY ARCHITECTURE TO PROVIDE CLOUD ACCESS SECURITY BROKER (CASB).",
@@ -262804,16 +263260,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4327,
-    "authoritative_claims": 4129,
+    "active_claims": 4335,
+    "authoritative_claims": 4137,
     "conflicted_claims": 38,
     "derived_claims": 195,
-    "evidence_items": 4437,
-    "source_urls": 1213,
-    "subjects": 863,
+    "evidence_items": 4445,
+    "source_urls": 1215,
+    "subjects": 865,
     "superseded_claims": 0,
-    "total_claims": 4354
+    "total_claims": 4362
   },
-  "updated_at": "2026-09-14T02:47:59.662764+00:00",
+  "updated_at": "2026-09-15T02:50:31.121146+00:00",
   "version": 1
 }

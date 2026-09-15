@@ -2,32 +2,22 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-09-14T02:47:59.662764+00:00_
+_Updated 2026-09-15T02:50:31.121146+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **9**
+- Actual or recent changes: **1**
 - Newly discovered historical evidence: **0**
-- Newly observed with no reliable source date: **4**
-- Upcoming dated events: **17**
+- Newly observed with no reliable source date: **8**
+- Upcoming dated events: **16**
 
 ## Priority timeline
 
-- **Changed since prior run** · OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0 — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QFHA26F0005_4732_47QFHA24D0005_4732))
+- **Changed since prior run** · AEIF 2026 Alumni Summit: Freedom 250 — opportunity status ([evidence](https://www.grants.gov/search-results-detail/363824))
   - The assertion changed relative to the prior successful ledger build.
-- **Occurred 3 days ago** · HIGH PERFORMANCE COMPUTING (HPC) SERVER - NIH/CSR — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F65002_7571_HHSN316201500064W_7529))
-  - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 5 days ago** · IRS RESEARCH, APPLIED ANALYTICS, AND STATISTICS (RAAS) LEVERAGING ARTIFICIAL INTELLIGENCE TO IMPROVE CASE SELECTION AND RESOURCE ALLOCATION. BASE CONTRACT — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_2032H526F00087_2050_TIRNO99D00005_2050))
-  - A recent source-reported event was newly incorporated into the ledger.
-- **Upcoming event date** · CYBERSECURITY SUPPORT SERVICES — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_63NLRB26F0073_6300_63NLRB25D0001_6300))
-  - The source date is in the future; Scout first observed it on 2026-09-14.
-- **Upcoming event date** · SANS CYBERSECURITY CLASSES — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70US0926F1DHS2629_7009_70Z02324D79100001_7008))
-  - The source date is in the future; Scout first observed it on 2026-09-14.
-- **Upcoming event date** · SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0296_8000_-NONE-_-NONE-))
-  - The source date is in the future; Scout first observed it on 2026-09-14.
-- **Upcoming event date** · THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-))
-  - The source date is in the future; Scout first observed it on 2026-09-14.
-- **Newly observed · event date unknown** · ILLINOIS INSTITUTE OF TECHNOLOGY — cage code ([evidence](https://sam.gov/entity/E2NDENMDUEG8/coreData))
+- **Newly observed · event date unknown** · SCIENCE APPLICATIONS INTERNATIONAL CORPORATION — cage code ([evidence](https://sam.gov/entity/MMLKPW9JLX64/coreData))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Newly observed · event date unknown** · VANDERBILT UNIVERSITY — cage code ([evidence](https://sam.gov/entity/GTNBNWXJ12D5/coreData))
   - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
@@ -69,7 +59,6 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 ## Upcoming
 
 - **2026-08-21** · Seek initial platform operating capability for at least one national challenge — awaiting_confirmation ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
-- **2026-09-14** · AEIF 2026 Alumni Summit: Freedom 250 — closing_soon ([source](https://www.grants.gov/search-results-detail/363824))
 - **2026-09-20** · OMB issues agency guidance for inventories, migration plans, and high-impact systems — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
 - **2026-09-20** · Publish a summary of QC-ADDS technical specifications — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
 - **2026-09-22** · Launch the AI Forge university-industry-government forum — estimated ([source](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security))

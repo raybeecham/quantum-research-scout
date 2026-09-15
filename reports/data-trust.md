@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-09-14T02:47:59.662764+00:00_
+_Updated 2026-09-15T02:50:31.121146+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **531**
-- Quarantined evidence or relationships: **132**
-- Acceptance rate: **80.1%**
+- Quarantined evidence or relationships: **134**
+- Acceptance rate: **79.8%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 31 | 98 | 24.0% |
+| Federal missions | 31 | 100 | 23.7% |
 | Federal funding | 500 | 34 | 93.6% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 129
-- **No relevant term in the evidence itself**: 129
-- **Official government source**: 113
+- **Match appears only in collector query metadata**: 131
+- **No relevant term in the evidence itself**: 131
+- **Official government source**: 115
 - **Source is not an official .gov or .mil domain**: 16
 - **Agency and technology inference only**: 3
 
@@ -45,6 +45,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [Somatic Mosaicism across Human Tissues (SMaHT) Program: Experimental and Computational Technology Development (RM1 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/363860)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [Cryptography 7h ago US financial sector quantum threat prep led by Quantum Readiness Task Force](https://quantumzeitgeist.com/quantum-readiness-threat-prep-financial-sector)
 
@@ -466,6 +473,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
+### [Logistics Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U24 Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/359268)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
 ### [Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/359271)
 
 - Scope: Federal missions
@@ -705,20 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359862)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359862)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Space Technology Research, Development, Demonstration, and Infusion (SpaceTech REDDI-2026)](https://www.grants.gov/search-results-detail/360954)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
