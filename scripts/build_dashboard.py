@@ -26,6 +26,7 @@ def build_dashboard(
     output = Path(output_dir)
     assets = root / "dashboard"
     reports = root / "reports"
+    citations = _read_json(reports / "citations.json", {"records": {}})
     output.mkdir(parents=True, exist_ok=True)
     (output / "data").mkdir(parents=True, exist_ok=True)
 
@@ -103,7 +104,9 @@ def build_dashboard(
             source_health=source_health,
             funding=federal_funding,
             temporal=temporal_intelligence,
+            citations=citations,
         ),
+        "citation_records": citations.get("records", {}),
         "generated_at": generated_at,
         "repository_url": repo_url.rstrip("/"),
         "signals": _dashboard_signals(signals),
@@ -203,6 +206,10 @@ def build_dashboard(
         "favicon.svg",
         "desk.css",
         "desk.js",
+        "research.js",
+        "questions.js",
+        "landscape.js",
+        "federal-research.js",
         "math.js",
     )
     version_input = generated_at + "".join(
@@ -386,6 +393,41 @@ def _dashboard_federal_funding(
         "method_note": payload.get("method_note"),
         "summary": payload.get("summary", {}),
         "records": prioritized,
+        # A compact academic view must not inherit the legacy 60-record display cap.
+        "research_records": [
+            {
+                key: item[key]
+                for key in (
+                    "key",
+                    "title",
+                    "url",
+                    "summary",
+                    "description",
+                    "record_type",
+                    "provider",
+                    "status",
+                    "status_raw",
+                    "date",
+                    "close_date",
+                    "open_date",
+                    "last_seen_at",
+                    "awarding_agency",
+                    "funding_agency",
+                    "subagency",
+                    "recipient",
+                    "awardee",
+                    "eligibility",
+                    "eligible_applicants",
+                    "mission_links",
+                    "source",
+                    "set_aside",
+                )
+                if key in item
+            }
+            for item in records[:500]
+            if isinstance(item, dict)
+        ],
+        "research_record_total": len(records),
         "opportunity_radar": opportunity_radar,
         "mission_portfolios": portfolios,
         "contractor_profiles": contractor_profiles,

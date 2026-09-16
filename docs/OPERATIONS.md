@@ -44,6 +44,12 @@ The installable command retains the original package name: `pqc-quantum-research
 
 ## Automation
 
+### Scholarly citation enrichment
+
+The daily workflow runs `python scripts/enrich_citations.py --reports reports --max-items 12` after collection. This bounded, best-effort step retrieves paper metadata from arXiv/ePrint and article metadata from explicitly allowlisted public publishers in the current seven-day window, newest report first. It needs no API key, spaces requests by three seconds, and limits response size and request time. Only validated same-host HTTPS redirects are followed (for example, adding a trailing slash); cross-host and downgrade redirects are refused. Article URLs with query strings or credentials are not fetched. A successful record is normally refreshed after seven days; failures can retry after one day while retaining any last good metadata and its retrieval date. Larger backfills can use `--max-items 30`; unchecked items can remain when the daily budget is exhausted. Use `--retry-failed` for a bounded manual retry after correcting a collector issue.
+
+Public bibliographic records are cached in `reports/citations.json` and committed with the generated reports. Cache writes are atomic. Run the same command locally to populate/refresh metadata before `python scripts/build_dashboard.py --output site`. The static build remains offline and uses only the cache. Enrichment failure does not block the daily report. DOI and venue fields are repository-reported, not an independent publisher or peer-review check. Linked papers/DOIs remain separate, unverified relationships and are not fetched recursively.
+
 | Workflow | Schedule | Result |
 |---|---|---|
 | **Daily research scout** | Daily at `00:00 UTC` | Collects evidence, writes the digest, refreshes ledgers and alerts, and prunes daily reports older than 30 days |

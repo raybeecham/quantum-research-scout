@@ -23,7 +23,7 @@ Read new work, question its assumptions, and develop your own source-linked rese
 | What needs a second look? | **[Review desk](https://raybeecham.github.io/quantum-research-scout/#decisions)** — evidence changes, amendments, conflicts, and testable forecasts |
 | Can I trust the coverage? | **[Sources & methods](https://raybeecham.github.io/quantum-research-scout/#operations)** — source health, collection gaps, evidence admission, and label definitions |
 
-Start with the **latest edition**, or widen the view to **Past 7 days**. Filter for preprint repositories or supporting sources; search with **/**, mark readings as read, and save sources to annotate. Prefer larger text? Use **Aa**. Notes and reading state stay in this browser, with no account or device sync. Export a JSON backup or incomplete BibTeX source-link records.
+Start with the **latest edition**, or widen the view to **Past 7 days**. **Research first** prioritizes core papers and technical findings with visible match reasons; government-priority and chronological views remain available. Search with **/**, save sources to annotate, and use **Aa** for larger text. Notes stay in your browser: export a JSON backup and restore it with a non-overwriting import preview. Citation exports include retrieved repository metadata where available, with missing fields and peer-review uncertainty kept explicit.
 
 ## What makes it useful
 

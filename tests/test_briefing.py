@@ -37,9 +37,9 @@ def test_reads_separate_stories_and_keeps_source_excerpt(tmp_path):
         + entry("Cyber migration", "https://nist.gov/news"),
     )
     assert len(result["stories"]) == 2
-    assert result["stories"][0]["title"] == "Cyber migration"
-    assert result["stories"][0]["authority"] == "Government source"
-    assert result["stories"][1]["summary"] == "The source reports a new technical capability."
+    assert result["stories"][0]["title"] == "Quantum paper"
+    assert result["stories"][1]["authority"] == "Government source"
+    assert result["stories"][0]["summary"] == "The source reports a new technical capability."
     assert result["collected_at"] is None  # A site build is not a collection event.
 
 
@@ -62,6 +62,30 @@ def test_source_type_is_provenance_not_peer_review(tmp_path, url, source, kind):
     assert story["source_kind_label"]
     assert story["source_kind_note"]
     assert "peer_reviewed" not in story
+
+
+def test_research_order_ignores_generic_category_and_preserves_scores(tmp_path):
+    result = build(
+        tmp_path,
+        entry("Task order for contractor resources", "https://usaspending.gov/task")
+        + entry("Post-quantum security policy", "https://nist.gov/pqc")
+        + entry("Quantum resource estimates", "https://eprint.iacr.org/2026/12"),
+    )
+    assert [s["research_priority"]["tier"] for s in result["stories"]] == [4, 3, 0]
+    routine = result["stories"][-1]
+    assert "quantum" not in routine["lenses"]
+    assert routine["score"] == 70
+    assert result["stories"][0]["research_priority"]["matched_terms"] == ["quantum"]
+
+
+def test_recipient_name_and_matched_query_are_not_technical_evidence(tmp_path):
+    text = entry("Task order for contractor resources", "https://usaspending.gov/task").replace(
+        "The source reports a new technical capability.",
+        "Recipient: KATMAI QUANTUM LLC · Federal award: 123 · Matched search: quantum",
+    )
+    story = build(tmp_path, text)["stories"][0]
+    assert "quantum" not in story["lenses"]
+    assert story["research_priority"]["tier"] == 0
 
 
 def test_preprint_is_not_hidden_under_related_news(tmp_path):

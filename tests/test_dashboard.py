@@ -46,6 +46,10 @@ class DashboardBuildTests(unittest.TestCase):
                 "favicon.svg",
                 "desk.css",
                 "desk.js",
+                "research.js",
+                "questions.js",
+                "landscape.js",
+                "federal-research.js",
                 "math.js",
             ):
                 content = f"{name}?v=__ASSET_VERSION__"

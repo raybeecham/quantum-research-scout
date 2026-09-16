@@ -39,6 +39,10 @@
           <span aria-hidden="true">◈</span>
           Research briefing
         </a>
+        <a href="#questions" data-workspace="questions">
+          <span aria-hidden="true">◇</span>
+          Question lab
+        </a>
         <a href="#saved" data-workspace="saved">
           <span aria-hidden="true">☆</span>
           Research notebook
@@ -160,6 +164,12 @@
               <option value="industry">Industry sources</option>
               <option value="other">Other / unverified</option>
             </select>
+            <label for="reading-order">Order</label>
+            <select id="reading-order">
+              <option value="research">Research first</option>
+              <option value="government">Government priority</option>
+              <option value="recent">Latest report first</option>
+            </select>
             <label class="unread-option">
               <input type="checkbox" id="unread-only" />
               Unread only
@@ -227,13 +237,248 @@
           <div id="desk-reports"></div>
         </div>
       </section>
+      <section id="questions" class="desk-workspace" hidden>
+        <div class="workspace-heading">
+          <span class="desk-kicker">FROM CURIOSITY TO A TESTABLE QUESTION</span>
+          <h1>Research Question Lab</h1>
+          <p>
+            Develop questions—not just a reading list. Explore a direction, examine the evidence, and design a small
+            first test.
+          </p>
+        </div>
+        <p class="notebook-caveat">
+          Saved questions stay in this browser. AI assistance sends only your topic, refinement request and selected
+          source excerpts to Google Gemini. Free-tier content may be used to improve Google's products. It does not
+          search the literature or establish novelty. Do not submit sensitive research.
+        </p>
+        <div class="lab-layout">
+          <aside class="lab-panel">
+            <h2>Your questions</h2>
+            <button id="lab-new" class="desk-button" type="button">+ New question</button>
+            <div id="lab-list"></div>
+            <button id="lab-export" class="desk-button" type="button">Export lab backup</button>
+            <label>
+              Restore backup (adds new questions only)
+              <input id="lab-import" type="file" accept=".json,application/json" />
+            </label>
+          </aside>
+          <div class="lab-panel">
+            <h2>Help me find a research question</h2>
+            <label>
+              Research interest
+              <input id="lab-interest" maxlength="500" placeholder="e.g. PQC migration in cloud services" />
+            </label>
+            <label>
+              Starting lens
+              <select id="lab-lens">
+                <option value="pqc">Cybersecurity / PQC</option>
+                <option value="quantum">Quantum computing</option>
+                <option value="custom">My own topic</option>
+              </select>
+            </label>
+            <details>
+              <summary>Optional: ground ideas in saved readings</summary>
+              <label>
+                Select up to four sources (Ctrl/Cmd-click for multiple)
+                <select id="lab-ai-sources" multiple size="4"></select>
+              </label>
+              <p>
+                Only titles, URLs and saved excerpts are sent—not your private notebook notes. No selected sources means
+                general AI brainstorming.
+              </p>
+            </details>
+            <label>
+              <span>
+                <input id="lab-consent" type="checkbox" style="width: auto" />
+                Send this topic and selected excerpts to Gemini (two calls per generation: draft + critique; 20 call
+                slots/day; use a free-tier Google project. Billing-enabled projects may incur charges).
+              </span>
+            </label>
+            <button id="lab-suggest" class="desk-button" type="button">Generate research questions</button>
+            <section id="lab-federal-context" hidden>
+              <h3>Federal source brought into this question</h3>
+              <p id="lab-federal-source"></p>
+              <details>
+                <summary>Preview public source context</summary>
+                <p id="lab-federal-excerpt"></p>
+              </details>
+              <label>
+                <input id="lab-federal-include" type="checkbox" style="width: auto" />
+                Include this public source in the next AI request (counts toward the four-source limit).
+              </label>
+              <button id="lab-federal-clear" class="desk-button" type="button">Remove staged source</button>
+            </section>
+            <details>
+              <summary>Gemini unavailable? Use the backup</summary>
+              <p>
+                Groq is an independent provider. Requires GROQ_API_KEY in the private server's .env.local file. Account
+                limits and billing terms apply. Both providers share the 20-call daily cap; a backup generation uses two
+                more call slots.
+              </p>
+              <label>
+                <input id="lab-backup-consent" type="checkbox" style="width: auto" />
+                Send this topic and selected excerpts to Groq. Do not send private notebook notes.
+              </label>
+              <button id="lab-backup" class="desk-button" type="button">Try Groq backup</button>
+            </details>
+            <div id="lab-prompts"></div>
+          </div>
+        </div>
+        <p id="lab-status" role="status" aria-live="polite"></p>
+        <form id="lab-editor" class="lab-panel" hidden>
+          <div class="workspace-heading">
+            <span class="desk-kicker">WORKING QUESTION · NOVELTY NOT ESTABLISHED</span>
+            <h2>Shape the investigation</h2>
+          </div>
+          <label>
+            Research question
+            <textarea name="question" maxlength="2000" required rows="3"></textarea>
+          </label>
+          <div class="lab-layout">
+            <label>
+              Stage
+              <select name="stage">
+                <option>Exploring</option>
+                <option>Checking prior work</option>
+                <option>Designing a study</option>
+                <option>Testing</option>
+                <option>Parked</option>
+              </select>
+            </label>
+            <label>
+              Interest / scope
+              <input name="interest" maxlength="500" />
+            </label>
+          </div>
+          <details id="lab-plan-details">
+            <summary>Review or edit the drafted research plan (optional)</summary>
+            <label>
+              Why it matters
+              <textarea
+                name="motivation"
+                maxlength="6000"
+                rows="3"
+                placeholder="Who would use the result? What decision or understanding would it change?"
+              ></textarea>
+            </label>
+            <label>
+              Candidate gap or assumption to test
+              <textarea
+                name="gap"
+                maxlength="6000"
+                rows="3"
+                placeholder="Distinguish what a source explicitly says from your interpretation. Absence from Scout is not evidence of a gap."
+              ></textarea>
+            </label>
+            <label>
+              Prior-work check
+              <textarea
+                name="prior"
+                maxlength="6000"
+                rows="3"
+                placeholder="Record databases, exact queries, dates, closest papers, and how they differ. Include evidence that this question is already answered."
+              ></textarea>
+            </label>
+            <p id="lab-search-links"></p>
+            <label>
+              Testable hypothesis / competing explanation
+              <textarea
+                name="hypothesis"
+                maxlength="6000"
+                rows="3"
+                placeholder="What would support the hypothesis? What observation would count against it?"
+              ></textarea>
+            </label>
+            <label>
+              Method and first experiment
+              <textarea
+                name="method"
+                maxlength="6000"
+                rows="4"
+                placeholder="Specify variables, baseline, outcomes, controls, dataset or testbed, and the smallest useful pilot."
+              ></textarea>
+            </label>
+            <label>
+              Feasibility and limitations
+              <textarea
+                name="feasibility"
+                maxlength="6000"
+                rows="3"
+                placeholder="Hardware, data access, skills, time, ethics/permissions, confounders, and limits on generalization."
+              ></textarea>
+            </label>
+            <label>
+              Next concrete step
+              <textarea name="next" maxlength="2000" rows="2"></textarea>
+            </label>
+          </details>
+          <button class="desk-button" type="submit">Save question &amp; revision</button>
+          <button id="lab-brief" class="desk-button" type="button">Export research brief (.md)</button>
+          <section class="lab-paper-search" aria-labelledby="lab-paper-heading">
+            <h3 id="lab-paper-heading">Find papers for this question</h3>
+            <p>
+              Search Crossref and arXiv, open papers to review, then attach the ones you choose. Your question is sent
+              to these public indexes; private notes are not. No Gemini calls are used.
+            </p>
+            <button id="lab-find-papers" class="desk-button primary" type="button">Find papers</button>
+            <p id="lab-paper-status" role="status"></p>
+            <div id="lab-paper-results"></div>
+          </section>
+          <h3>Evidence attached to this question</h3>
+          <p>
+            Attach saved readings or an original source. Roles and interpretations are your assessments, not verified
+            findings.
+          </p>
+          <label>
+            Saved reading
+            <select id="lab-reading">
+              <option value="">Choose a saved reading…</option>
+            </select>
+          </label>
+          <div class="lab-layout">
+            <label>
+              Source title
+              <input id="lab-source-title" maxlength="2000" />
+            </label>
+            <label>
+              Source URL
+              <input id="lab-source-url" type="url" maxlength="4000" />
+            </label>
+          </div>
+          <label>
+            Role
+            <select id="lab-role">
+              <option>Background</option>
+              <option>Supports</option>
+              <option>Challenges</option>
+              <option>Method / baseline</option>
+              <option>Closest prior work</option>
+            </select>
+          </label>
+          <label>
+            Exact passage / location and your interpretation
+            <textarea
+              id="lab-source-note"
+              maxlength="6000"
+              rows="3"
+              placeholder="e.g. Section 4, Table 2. Record what it establishes and what it does not."
+            ></textarea>
+          </label>
+          <button id="lab-attach" class="desk-button" type="button">Attach evidence</button>
+          <div id="lab-evidence"></div>
+          <details>
+            <summary>Question revision history</summary>
+            <div id="lab-history"></div>
+          </details>
+        </form>
+      </section>
       <section id="saved" class="desk-workspace" hidden>
         <div class="workspace-heading">
           <span class="desk-kicker">FROM READING TO RESEARCH</span>
           <h1>Research notebook</h1>
           <p>
-            Connect each source to a question, a critical appraisal, and a next step. Your notes are yours—not generated
-            findings. Saved copies and notes stay in this browser; export a backup before clearing site data.
+            Your literature, connected to your questions. Choose a paper, read critically, and keep what matters. Notes
+            stay in this browser; export a backup before clearing site data.
           </p>
         </div>
         <div class="saved-tools">
@@ -242,14 +487,44 @@
             <input type="search" id="saved-search" placeholder="Title, source, question, or notes…" />
           </label>
           <button type="button" id="export-saved" class="desk-button" disabled>Export notebook ↓</button>
-          <button type="button" id="export-bibtex" class="desk-button" disabled>Source links (.bib) ↓</button>
+          <button type="button" id="export-bibtex" class="desk-button" disabled>Export citations (.bib) ↓</button>
+          <label class="import-file-label">
+            Import notebook
+            <input id="import-notebook" type="file" accept=".json,application/json" />
+          </label>
           <span id="saved-result-count" role="status"></span>
         </div>
         <p class="notebook-caveat">
-          BibTeX contains source-link records, not verified academic citations. Check authors, venue, DOI, version, and
-          publication date at the original source before citing. No import or device sync yet.
+          Citation exports use retrieved repository metadata where available; missing fields stay blank. Review source
+          versions before citing. Import accepts notebook JSON exports and preserves existing notes. No device sync.
         </p>
-        <div id="saved-stories" class="desk-stories"></div>
+        <p id="notebook-import-status" role="status"></p>
+        <section id="notebook-import-preview" class="import-preview" hidden aria-labelledby="import-heading">
+          <h2 id="import-heading">Review notebook import</h2>
+          <p id="import-summary"></p>
+          <ul id="import-conflicts"></ul>
+          <p>
+            Existing sources and notes win on conflicts; nothing is overwritten. Keep the original backup to retain any
+            skipped entries. Download a backup of this browser before importing.
+          </p>
+          <button id="import-confirm" class="desk-button" type="button">Merge new readings</button>
+          <button id="import-cancel" class="desk-button" type="button">Cancel</button>
+        </section>
+        <div class="notebook-workbench">
+          <aside class="notebook-queue" aria-label="Reading queue">
+            <label>
+              Reading queue
+              <select id="notebook-filter">
+                <option>All readings</option>
+                <option>To review</option>
+                <option>Reading</option>
+                <option>Reviewed</option>
+              </select>
+            </label>
+            <div id="notebook-list"></div>
+          </aside>
+          <div id="saved-stories" class="notebook-paper"></div>
+        </div>
       </section>
 
       <section id="reports" class="section briefing-section priority-section">
@@ -391,8 +666,8 @@
           <section id="funding" class="section funding-section">
             <div class="section-heading">
               <div>
-                <p class="eyebrow">FEDERAL EXECUTION LAYER</p>
-                <h2>Funding and procurement</h2>
+                <p class="eyebrow">FEDERAL RESEARCH SUPPORT</p>
+                <h2>Funding, research priorities &amp; procurement</h2>
               </div>
               <p id="funding-summary" class="updated"></p>
             </div>
@@ -761,8 +1036,37 @@
                   <span>Peak day</span>
                   <strong id="trend-peak">—</strong>
                 </div>
+                <div>
+                  <span>Recent 7 days / prior 7 days</span>
+                  <strong id="trend-comparison">—</strong>
+                </div>
+                <div>
+                  <span>Recorded days in view</span>
+                  <strong id="trend-coverage">—</strong>
+                </div>
               </div>
+              <p id="trend-insight" class="trend-insight" role="status"></p>
+              <p id="trend-freshness" class="section-note"></p>
               <div id="trend-chart" class="trend-chart" role="img" aria-label="Daily evidence activity chart"></div>
+              <p class="section-note">
+                Teal bars: recorded evidence. A dash: missing day, not zero. Counts describe collected coverage, not
+                research quality or field-wide progress. Weekly comparisons end on the latest recorded date, regardless
+                of the chart range.
+              </p>
+              <details class="trend-records">
+                <summary>Inspect daily counts</summary>
+                <div class="table-wrap">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Evidence items</th>
+                      </tr>
+                    </thead>
+                    <tbody id="trend-daily"></tbody>
+                  </table>
+                </div>
+              </details>
             </article>
           </section>
 
@@ -937,7 +1241,11 @@
     </noscript>
     <script src="vendor/katex-0.18.7/dist/katex.min.js" defer></script>
     <script src="math.js?v=__ASSET_VERSION__" defer></script>
+    <script src="research.js?v=__ASSET_VERSION__" defer></script>
+    <script src="landscape.js?v=__ASSET_VERSION__" defer></script>
+    <script src="federal-research.js?v=__ASSET_VERSION__" defer></script>
     <script src="desk.js?v=__ASSET_VERSION__" defer></script>
+    <script src="questions.js?v=__ASSET_VERSION__" defer></script>
     <script src="app.js?v=__ASSET_VERSION__" defer></script>
   </body>
 </html>

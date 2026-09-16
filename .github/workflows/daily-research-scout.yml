@@ -74,6 +74,11 @@ jobs:
             --update-intelligence-tracking \
             --update-report-index
 
+      - name: Refresh cached scholarly citation metadata
+        timeout-minutes: 5
+        continue-on-error: true
+        run: python scripts/enrich_citations.py --reports reports --max-items 12
+
       - name: Sanitize generated reports
         run: |
           python scripts/sanitize_report_secrets.py reports --write

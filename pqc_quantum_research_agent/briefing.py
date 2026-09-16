@@ -12,6 +12,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import urlsplit
 
+from .citations import metadata_url
 from .redaction import redact_text, redact_url
 
 _ENTRY = re.compile(r"^### ([^\n]+)\n_([^\n]+)_\n(.*?)(?=^### |^## |\Z)", re.M | re.S)
@@ -43,6 +44,69 @@ _LENSES = {
     "ai": r"\bai\b|artificial intelligence|machine learning|llm|cloud|\bmodel[s]?\b",
     "government": r"policy|standard|nist|white house|federal|defense|government|mission",
 }
+_TECHNICAL = re.compile(
+    r"\b(?:pqc|post.quantum|crypt\w*|cyber\w*|qubits?|qec|quantum|fault.toleran\w*|"
+    r"ml.kem|ml.dsa|slh.dsa|toffoli|lattice.based|zero.knowledge|side.channel|"
+    r"tls|ipsec|entangl\w*|error.correction)\b",
+    re.I,
+)
+
+
+def _research_text(title: str, points: list[str]) -> str:
+    # Administrative collector labels describe search/recipient metadata, not
+    # the award's technical work (e.g. a company named Katmai Quantum).
+    excerpts = [
+        re.sub(
+            r"\b(?:Recipient|Federal award|Obligated/award amount|Matched search):[^·]*",
+            "",
+            point,
+            flags=re.I,
+        )
+        for point in points
+    ]
+    return f"{title} {' '.join(excerpts)}"
+
+
+def _research_priority(item: dict) -> dict:
+    """Transparent reading tiers, independent of operational severity scores."""
+    text = _research_text(item["title"], item["key_points"])
+    matched = sorted({m.group(0).lower() for m in _TECHNICAL.finditer(text)})[:8]
+    routine = urlsplit(item["url"]).hostname in {
+        "www.usaspending.gov",
+        "usaspending.gov",
+        "sam.gov",
+        "www.sam.gov",
+        "grants.gov",
+        "www.grants.gov",
+    } or bool(
+        re.search(
+            r"\b(task order|procure|contractor resources|janitorial|repair parts)\b",
+            item["title"],
+            re.I,
+        )
+    )
+    if routine:
+        tier, label = (
+            (1, "Core-topic funding/procurement context, not a research finding")
+            if matched
+            else (0, "Procurement context; no explicit core technical match")
+        )
+    elif matched and item["source_kind"] == "preprint":
+        tier, label = 4, "Core-topic primary research repository"
+    elif matched and item["source_kind"] == "official":
+        tier, label = 3, "Core-topic official evidence or policy"
+    elif matched:
+        tier, label = 2, "Core-topic technical coverage"
+    elif set(item["lenses"]) & {"security", "quantum"}:
+        tier, label = 1, "Broad topic match; inspect technical relevance"
+    else:
+        tier, label = 0, "Supporting context"
+    return {
+        "tier": tier,
+        "label": label,
+        "matched_terms": matched,
+        "note": "Reading relevance heuristic, not peer-review status or scientific quality.",
+    }
 
 
 def _day(value: object) -> date | None:
@@ -158,6 +222,8 @@ def _related(left: dict, right: dict) -> bool:
     # Keep source-type filters honest: a preprint cannot disappear under a news card.
     if left.get("source_kind") != right.get("source_kind"):
         return False
+    if left.get("source_kind") == "preprint":
+        return False  # Similar titles do not establish that two papers are one work.
     if not left["date"] or left["date"] != right["date"]:
         return False
     a = set(_WORDS.findall(left["title"].lower())) - _STOP
@@ -176,7 +242,12 @@ def _excerpt(title: str, points: list[str]) -> str:
 
 
 def build_reading_brief(
-    reports: Path, *, source_health: dict, funding: dict, temporal: dict
+    reports: Path,
+    *,
+    source_health: dict,
+    funding: dict,
+    temporal: dict,
+    citations: dict | None = None,
 ) -> dict:
     dated_paths = sorted(
         (report_day, path)
@@ -217,7 +288,8 @@ def build_reading_brief(
                 r"\b(?:CRITICAL|HIGH|MODERATE|MEDIUM|LOW|INFO)\s+(\d+)\s*$", meta
             )
             authority = _authority(url, source)
-            lenses = _lenses(f"{title} {category} {' '.join(points)}")
+            # Report category alone must not make a routine award quantum research.
+            lenses = _lenses(_research_text(title, points))
             if authority == "Government source" and "government" not in lenses:
                 lenses.append("government")
             candidates[url] = {
@@ -241,9 +313,13 @@ def build_reading_brief(
                 "review_prompt": _reading_prompt(lenses, authority),
                 "related": [],
             }
+            candidates[url]["research_priority"] = _research_priority(candidates[url])
+            candidates[url]["citation"] = (
+                (citations or {}).get("records", {}).get(metadata_url(url), {})
+            )
     ranked = sorted(
         candidates.values(),
-        key=lambda x: (x["report_date"], x["authority"] == "Government source", x["score"]),
+        key=lambda x: (x["research_priority"]["tier"], x["report_date"], x["score"]),
         reverse=True,
     )
     stories: list[dict] = []
@@ -257,14 +333,6 @@ def build_reading_brief(
         else:
             stories.append(candidate)
 
-    # Limit repeated sources in the first reading screen; retain every group in search.
-    lead, rest, counts = [], [], {}
-    for item in stories:
-        if len(lead) < 6 and counts.get(item["source"], 0) < 2:
-            lead.append(item)
-            counts[item["source"]] = counts.get(item["source"], 0) + 1
-        else:
-            rest.append(item)
     deadlines = []
     for item in funding.get("opportunity_radar", []):
         deadline = _day(item.get("close_date"))
@@ -308,7 +376,7 @@ def build_reading_brief(
     return {
         "edition_date": latest.isoformat() if latest else None,
         "collected_at": source_health.get("observation_updated_at"),
-        "stories": lead + rest,
+        "stories": stories,
         "source_count": len({item["source"] for item in candidates.values()}),
         "grouped_count": len(candidates) - len(stories),
         "coverage": {
@@ -321,5 +389,5 @@ def build_reading_brief(
         },
         "deadlines": sorted(deadlines, key=lambda x: x["date"])[:12],
         "changes": changes[:8],
-        "method": "Reports within seven calendar days of the latest edition; government sources first within each report day, then evidence score. Related headlines with matching publication dates and substantial keyword overlap are grouped. The first six cards include at most two from one source. Review prompts are editorial guidance, not source claims.",
+        "method": "Research-first: core-topic preprint repositories, core official evidence, technical coverage, broad matches, then supporting context. Tier ties use report day then the existing score. Matching uses titles and excerpts, not report categories. This is reading relevance, not academic quality. Original operational scores are unchanged; Government priority remains an optional view. Related headlines are not corroboration.",
     }

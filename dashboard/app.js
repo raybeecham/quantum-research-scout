@@ -227,53 +227,71 @@ function render() {
 }
 
 function renderTrend() {
-  const raw = state.data.signals.overall_trend || [];
-  if (!raw.length) {
+  const trend = window.ScoutResearch.evidenceTrend(
+    state.data.signals?.overall_trend,
+    state.trendDays,
+  );
+  if (!trend) {
+    for (const id of ["trend-total", "trend-peak", "trend-comparison", "trend-coverage"])
+      document.getElementById(id).textContent = "—";
+    document.getElementById("trend-insight").textContent =
+      "No valid dated evidence is available for comparison.";
+    document.getElementById("trend-freshness").textContent = "";
+    document.getElementById("trend-daily").replaceChildren();
     document.getElementById("trend-chart").innerHTML =
       "<p>No historical evidence is available yet.</p>";
     return;
   }
-  const points = raw.map(item => ({
-    date: new Date(`${item.date}T00:00:00Z`),
-    label: item.date,
-    count: item.count,
-  }));
-  const latest = points[points.length - 1].date;
-  const cutoff =
-    state.trendDays === "all"
-      ? points[0].date
-      : new Date(latest.getTime() - (Number(state.trendDays) - 1) * 86400000);
-  const filtered = points.filter(item => item.date >= cutoff);
-  const byDay = new Map(filtered.map(item => [item.label, item.count]));
-  const series = [];
-  for (let day = new Date(cutoff); day <= latest; day = new Date(day.getTime() + 86400000)) {
-    const label = day.toISOString().slice(0, 10);
-    series.push({ label, count: byDay.get(label) || 0 });
-  }
-  const max = Math.max(...series.map(item => item.count), 1),
-    width = 1000,
-    height = 220,
-    pad = 28;
-  const x = index => pad + index * ((width - pad * 2) / Math.max(series.length - 1, 1));
-  const y = count => height - pad - (count / max) * (height - pad * 2);
-  const line = series
-    .map((item, index) => `${index ? "L" : "M"}${x(index).toFixed(1)},${y(item.count).toFixed(1)}`)
-    .join(" ");
-  const area = `${line} L${x(series.length - 1)},${height - pad} L${x(0)},${height - pad} Z`;
-  const grid = [0, 0.25, 0.5, 0.75, 1]
+  const { series, recent, prior } = trend;
+  document.getElementById("trend-total").textContent = trend.total;
+  document.getElementById("trend-peak").textContent = `${trend.peak.count} · ${trend.peak.date}`;
+  document.getElementById("trend-comparison").textContent = `${recent.total} / ${prior.total}`;
+  document.getElementById("trend-coverage").textContent = `${trend.observed} / ${series.length}`;
+  const comparison =
+    trend.delta === null
+      ? `Comparison incomplete: recent week has ${recent.days}/7 recorded days; prior week has ${prior.days}/7. Missing days are not treated as zero.`
+      : trend.delta === 0
+        ? "The two complete seven-day windows have equal recorded evidence totals."
+        : `${Math.abs(trend.delta)} ${trend.delta > 0 ? "more" : "fewer"} evidence items in the recent seven days${prior.total ? ` (${Math.round((Math.abs(trend.delta) / prior.total) * 100)}% ${trend.delta > 0 ? "increase" : "decrease"})` : "; the prior total was zero, so no percentage is calculated"}.`;
+  document.getElementById("trend-insight").textContent =
+    comparison +
+    ` ${trend.missing} missing day${trend.missing === 1 ? "" : "s"} in the selected chart window.`;
+  const age = Math.floor((Date.now() - Date.parse(trend.latest + "T00:00:00Z")) / 86400000);
+  document.getElementById("trend-freshness").textContent =
+    `Latest recorded date: ${trend.latest}. ${age > 2 ? `Historical snapshot (${age} UTC calendar days ago)—check source health before interpreting this as current activity.` : "The chart ends at the latest recorded date, not the site build date."}`;
+  const width = 1000,
+    height = 240,
+    pad = 36,
+    max = Math.max(...series.map(p => p.count || 0), 1),
+    step = (width - 2 * pad) / series.length;
+  const y = n => height - pad - (n / max) * (height - 2 * pad);
+  const grid = [0, 0.5, 1]
     .map(
-      ratio =>
-        `<line class="trend-grid" x1="${pad}" y1="${y(max * ratio)}" x2="${width - pad}" y2="${y(max * ratio)}"/>`,
+      r =>
+        `<line class="trend-grid" x1="${pad}" y1="${y(max * r)}" x2="${width - pad}" y2="${y(max * r)}"/><text class="trend-label" x="2" y="${y(max * r) - 3}">${Math.round(max * r)}</text>`,
     )
     .join("");
-  document.getElementById("trend-chart").innerHTML =
-    `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="trend-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a66bff" stop-opacity=".34"/><stop offset=".55" stop-color="#48e4ff" stop-opacity=".12"/><stop offset="1" stop-color="#48e4ff" stop-opacity="0"/></linearGradient><linearGradient id="trend-stroke" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a66bff"/><stop offset=".5" stop-color="#7085ff"/><stop offset="1" stop-color="#48e4ff"/></linearGradient></defs>${grid}<path class="trend-area" d="${area}"/><path class="trend-line" d="${line}"/><text class="trend-label" x="${pad}" y="${height - 5}">${series[0].label}</text><text class="trend-label" text-anchor="end" x="${width - pad}" y="${height - 5}">${series[series.length - 1].label}</text></svg>`;
-  document.getElementById("trend-total").textContent = series.reduce(
-    (sum, item) => sum + item.count,
-    0,
+  const bars = series
+    .map((p, i) => {
+      const x = pad + i * step;
+      return p.count === null
+        ? `<line class="trend-missing" x1="${x}" x2="${x + Math.max(step * 0.7, 0.5)}" y1="${height - pad + 5}" y2="${height - pad + 5}"><title>${p.date}: missing</title></line>`
+        : `<rect class="trend-recorded" x="${x}" y="${y(p.count)}" width="${Math.max(step * 0.7, 0.5)}" height="${Math.max((p.count / max) * (height - 2 * pad), 1)}"><title>${p.date}: ${p.count} items</title></rect>`;
+    })
+    .join("");
+  const chart = document.getElementById("trend-chart");
+  chart.setAttribute(
+    "aria-label",
+    `Daily recorded evidence from ${series[0].date} to ${trend.latest}: ${trend.total} items, ${trend.missing} missing days. Exact counts are in Inspect daily counts below.`,
   );
-  const peak = series.reduce((best, item) => (item.count > best.count ? item : best), series[0]);
-  document.getElementById("trend-peak").textContent = `${peak.count} · ${peak.label}`;
+  chart.innerHTML = `<svg viewBox="0 0 ${width} ${height}" aria-hidden="true">${grid}${bars}<text class="trend-label" x="${pad}" y="${height - 5}">${series[0].date}</text><text class="trend-label" text-anchor="end" x="${width - pad}" y="${height - 5}">${trend.latest}</text></svg>`;
+  document.getElementById("trend-daily").innerHTML = [...series]
+    .reverse()
+    .map(
+      p =>
+        `<tr><th scope="row">${p.date}</th><td>${p.count === null ? "Missing—not recorded" : p.count}</td></tr>`,
+    )
+    .join("");
 }
 
 function renderAlerts(payload, temporalPayload = {}) {
@@ -961,7 +979,7 @@ function renderFunding(payload) {
   const records = payload.records || [];
   const portfolios = (payload.mission_portfolios || []).filter(item => item.record_count);
   document.getElementById("funding-summary").textContent =
-    `${summary.linked_records || 0} mission-linked · ${summary.open_opportunities || 0} open`;
+    `${summary.linked_records || 0} mission-linked · ${summary.open_opportunities || 0} listed open at collection`;
   document.getElementById("funding-report-link").href = safeUrl(
     `${state.data.repository_url}/blob/main/reports/federal-funding.md`,
   );
@@ -1740,6 +1758,7 @@ function renderSignals() {
     button.addEventListener("click", () => {
       const list = document.getElementById(button.dataset.target);
       list.classList.toggle("open");
+      button.setAttribute("aria-expanded", String(list.classList.contains("open")));
       button.textContent = list.classList.contains("open") ? "Hide evidence" : "View evidence";
     }),
   );
@@ -1800,7 +1819,7 @@ function renderWatch() {
   const unseen = payload[`unseen_${state.watchType}`] || [];
   const watchCard = item => {
     const evidence = item.evidence?.[0];
-    return `<article class="watch-card"><span class="watch-type">${escapeHtml(item.type || state.watchType)}</span><h3><a class="profile-link" href="${escapeHtml(profileUrl(item.name, state.watchType))}">${escapeHtml(item.name)}</a></h3><div class="badges"><span class="badge ${escapeHtml(item.momentum)}">${escapeHtml(item.momentum)}</span><span class="badge ${escapeHtml(item.priority)}">${escapeHtml(item.priority)}</span><span class="badge">${escapeHtml(item.status)}</span></div><div class="watch-stats"><div><span>Evidence</span><strong>${item.evidence_count}</strong></div><div><span>Recent</span><strong>${item.recent_count}</strong></div><div><span>Prior</span><strong>${item.prior_count}</strong></div></div><p class="themes">${escapeHtml((item.themes || []).slice(0, 3).join(" · "))}</p><div class="watch-actions"><a class="watch-link" href="${escapeHtml(profileUrl(item.name, state.watchType))}">View profile →</a>${evidence ? `<a class="watch-link muted-link" href="${escapeHtml(safeUrl(evidence.url))}" target="_blank" rel="noopener">Latest evidence ↗</a>` : ""}</div></article>`;
+    return `<article class="watch-card"><span class="watch-type">${escapeHtml(item.type || state.watchType)}</span><h3><a class="profile-link" href="${escapeHtml(profileUrl(item.name, state.watchType))}">${escapeHtml(item.name)}</a></h3><div class="badges"><span class="badge ${escapeHtml(item.momentum)}" title="Momentum">${escapeHtml(item.momentum)}</span><span class="badge ${escapeHtml(item.priority)}" title="Priority">${escapeHtml(item.priority)}</span><span class="badge ${escapeHtml(item.status)}" title="Activity status">${escapeHtml(item.status)}</span></div><div class="watch-stats"><div><span>Evidence</span><strong>${item.evidence_count}</strong></div><div><span>Recent</span><strong>${item.recent_count}</strong></div><div><span>Prior</span><strong>${item.prior_count}</strong></div></div><p class="themes">${escapeHtml((item.themes || []).slice(0, 3).join(" · "))}</p><div class="watch-actions"><a class="watch-link" href="${escapeHtml(profileUrl(item.name, state.watchType))}">View profile →</a>${evidence ? `<a class="watch-link muted-link" href="${escapeHtml(safeUrl(evidence.url))}" target="_blank" rel="noopener">Latest evidence ↗</a>` : ""}</div></article>`;
   };
   const matched = items.length
     ? items.slice(0, 6).map(watchCard).join("")
@@ -1950,8 +1969,6 @@ function renderComparison() {
 }
 
 function signalCard(item, index) {
-  const max = Math.max(item.recent_count || 0, item.prior_count || 0, 1);
-  const width = Math.max(8, Math.round(((item.recent_count || 0) / max) * 100));
   const evidence = (item.evidence || [])
     .map(
       x =>
@@ -1959,11 +1976,22 @@ function signalCard(item, index) {
     )
     .join("");
   const evidenceId = `evidence-${index}`;
-  return `<article class="signal-card"><div class="signal-head"><h3>${escapeHtml(item.name)}</h3><span>${icons[item.momentum] || "•"}</span></div>
-    <div class="badges"><span class="badge ${escapeHtml(item.momentum)}" tabindex="0" title="${escapeHtml(definitions[item.momentum])}">${escapeHtml(item.momentum)}</span><span class="badge ${escapeHtml(item.importance)}" tabindex="0" title="${escapeHtml(definitions[item.importance])}">${escapeHtml(item.importance)}</span><span class="badge ${escapeHtml(item.status)}" tabindex="0" title="${escapeHtml(definitions[item.status])}">${escapeHtml(item.status)}</span><span class="badge" tabindex="0" title="Confidence reflects evidence volume and source diversity.">${escapeHtml(item.confidence)} confidence</span></div>
-    <div class="momentum"><div class="momentum-label"><span>Recent ${item.recent_count || 0}</span><span>Prior ${item.prior_count || 0}</span></div><div class="bar"><span style="width:${width}%"></span></div></div>
-    <p class="organizations"><strong>Leading sources:</strong> ${escapeHtml((item.organizations || []).join(", "))}</p><p class="follow-up"><strong>Follow-up:</strong> ${escapeHtml(item.follow_up)}</p>
-    <button class="evidence-toggle" data-target="${evidenceId}">View evidence</button><ul id="${evidenceId}" class="evidence">${evidence}</ul></article>`;
+  return `<article class="signal-card signal-card-refined"><header class="signal-head"><span class="signal-eyebrow">RESEARCH SIGNAL</span><h3>${escapeHtml(item.name)}</h3></header>
+    <dl class="signal-classification">${[
+      ["Momentum", item.momentum],
+      ["Priority", item.importance],
+      ["Status", item.status],
+      ["Evidence confidence", item.confidence],
+    ]
+      .map(
+        ([label, value]) =>
+          `<div><dt>${label}</dt><dd class="signal-value ${escapeHtml(value)}" tabindex="0" title="${escapeHtml(label === "Evidence confidence" ? "Evidence volume and source diversity, not scientific certainty." : definitions[value] || "Not assessed")}">${escapeHtml(value || "Not assessed")}</dd></div>`,
+      )
+      .join("")}</dl>
+    <div class="signal-counts" aria-label="Evidence counts"><div><span>Recent evidence</span><strong>${escapeHtml(item.recent_count || 0)}</strong></div><div><span>Prior evidence</span><strong>${escapeHtml(item.prior_count || 0)}</strong></div></div>
+    <div class="signal-source-list"><h4>Leading sources</h4><p>${escapeHtml((item.organizations || []).join(" · ") || "No sources recorded")}</p></div>
+    <div class="signal-next-step"><h4>What to investigate</h4><p>${escapeHtml(item.follow_up || "Review the supporting evidence before drawing conclusions.")}</p></div>
+    <button type="button" class="evidence-toggle" aria-expanded="false" aria-controls="${evidenceId}" data-target="${evidenceId}">View evidence</button><ul id="${evidenceId}" class="evidence">${evidence || "<li>No evidence links recorded.</li>"}</ul></article>`;
 }
 
 function renderSources(sources) {

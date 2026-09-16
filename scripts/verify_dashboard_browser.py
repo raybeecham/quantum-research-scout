@@ -43,6 +43,221 @@ def main() -> None:
             )
         )
         assert not errors, errors
+        # Question development is isolated from the reading notebook's state.
+        lab_context = browser.new_context(viewport={"width": 1440, "height": 1100})
+        lab = lab_context.new_page()
+        # Deterministic UI fixtures; browser regression checks never spend API credits.
+        ai_fixture = {
+            "model": "test-model",
+            "generated_at": "2026-09-16T00:00:00Z",
+            "basis": "Test fixture; no literature search",
+            "sources": [],
+            "candidates": [
+                {
+                    "question": "How does loss affect tail connection latency?",
+                    "motivation": "Measure a tradeoff",
+                    "gap": "Candidate only",
+                    "hypothesis": "Loss changes overhead",
+                    "method": "Controlled testbed",
+                    "feasibility": "Small pilot",
+                    "next": "Check prior work",
+                    "source_ids": [],
+                    "critique": {
+                        "changes": "Removed an unsupported claim",
+                        "ground_truth": "Seeded test cases",
+                        "alignment": "Measure recall against known cases",
+                        "remaining_concerns": "Check prior work",
+                    },
+                }
+                for _ in range(3)
+            ],
+        }
+        lab.route("**/api/lab/config", lambda route: route.fulfill(json={"token": "test-token"}))
+        lab.route("**/api/lab/generate", lambda route: route.fulfill(json=ai_fixture))
+        lab.route(
+            "**/api/lab/papers",
+            lambda route: route.fulfill(
+                json={
+                    "papers": [
+                        {
+                            "title": "Hybrid TLS study",
+                            "url": "https://arxiv.org/abs/2501.01234",
+                            "authors": ["Test Author"],
+                            "date": "2025",
+                            "venue": "arXiv",
+                            "index": "arXiv",
+                            "type": "Preprint",
+                            "abstract": "A test abstract.",
+                            "match_note": "Keyword overlap (not AI appraisal): TLS",
+                            "doi": "",
+                        }
+                    ],
+                    "warnings": [],
+                    "searched_at": "2026-09-16T00:00:00Z",
+                }
+            ),
+        )
+        lab_errors = []
+        lab.on("pageerror", lambda error: lab_errors.append(str(error)))
+        lab.goto(args.url + "/#questions")
+        expect(lab.locator("#questions")).to_be_visible()
+        lab.locator("#lab-interest").fill("PQC migration in cloud services")
+        lab.locator("#lab-consent").check()
+        lab.locator("#lab-suggest").click()
+        expect(lab.locator("#lab-prompts article")).to_have_count(3)
+        expect(lab.locator(".lab-critique")).to_have_count(3)
+        lab.locator(".lab-critique summary").first.click()
+        expect(lab.locator(".lab-critique").first).to_contain_text("Seeded test cases")
+        lab.get_by_role("button", name="Develop this question").first.click()
+        question = lab.locator('#lab-editor [name="question"]')
+        assert "tail connection latency" in question.input_value()
+        question.fill("Which network conditions change hybrid TLS tail latency?")
+        lab.locator("#lab-plan-details summary").click()
+        lab.locator('#lab-editor [name="prior"]').fill("Search not yet performed; novelty unknown.")
+        lab.get_by_role("button", name="Save question & revision").click()
+        lab.locator("#lab-source-title").fill("<script>window.labInjected=true</script>")
+        lab.locator("#lab-source-url").fill("https://eprint.iacr.org/2026/2014")
+        lab.locator("#lab-role").select_option("Challenges")
+        lab.locator("#lab-source-note").fill(
+            "Background only; does not establish a TLS performance result."
+        )
+        lab.locator("#lab-attach").click()
+        expect(lab.locator("#lab-evidence")).to_contain_text("Challenges")
+        assert lab.evaluate("window.labInjected") is None
+        lab.locator("#lab-find-papers").click()
+        expect(lab.locator("#lab-paper-results")).to_contain_text("Test Author")
+        lab.get_by_role("button", name="Attach to question", exact=True).click()
+        expect(lab.locator("#lab-evidence article")).to_have_count(2)
+        expect(lab.locator("#lab-evidence article").last).to_contain_text("Not reviewed")
+        lab.locator("#lab-evidence article").last.get_by_role(
+            "button", name="Mark reviewed", exact=True
+        ).click()
+        expect(lab.locator("#lab-evidence article").last).to_contain_text("Reviewed by you")
+        lab.locator("#lab-find-papers").click()
+        lab.get_by_role("button", name="Attach to question", exact=True).click()
+        expect(lab.locator("#lab-status")).to_contain_text("already attached")
+        expect(lab.locator("#lab-evidence article")).to_have_count(2)
+        lab.get_by_role("button", name="Dismiss result").click()
+        expect(lab.locator("#lab-paper-results article")).to_have_count(0)
+        lab.reload()
+        lab.locator(".lab-question").first.click()
+        expect(question).to_have_value("Which network conditions change hybrid TLS tail latency?")
+        expect(lab.locator("#lab-history")).to_contain_text("tail connection latency")
+        with lab.expect_download() as lab_download:
+            lab.locator("#lab-export").click()
+        lab_backup = Path(lab_download.value.path()).read_text(encoding="utf-8")
+        assert json.loads(lab_backup)["questions"][0]["evidence"][0]["role"] == "Challenges"
+        assert json.loads(lab_backup)["questions"][0]["evidence"][1]["reviewed"] is True
+        lab.evaluate("localStorage.removeItem('quantum-scout:question-lab:v1')")
+        lab.reload()
+        expect(lab.locator(".lab-question")).to_have_count(0)
+        lab.on("dialog", lambda dialog: dialog.accept())
+        lab.locator("#lab-import").set_input_files(
+            {"name": "restore.json", "mimeType": "application/json", "buffer": lab_backup.encode()}
+        )
+        expect(lab.locator("#lab-status")).to_contain_text("Added 1 questions")
+        lab.locator(".lab-question").first.click()
+        expect(question).to_have_value("Which network conditions change hybrid TLS tail latency?")
+        lab.locator("#lab-import").set_input_files(
+            {"name": "backup.json", "mimeType": "application/json", "buffer": lab_backup.encode()}
+        )
+        expect(lab.locator("#lab-status")).to_contain_text("Added 0 questions")
+        expect(lab.locator("#lab-evidence article").last).to_contain_text("Reviewed by you")
+        with lab.expect_download() as brief_download:
+            lab.locator("#lab-brief").click()
+        assert "novelty not established" in Path(brief_download.value.path()).read_text(
+            encoding="utf-8"
+        )
+        lab.screenshot(path=str(args.output / "question-lab-desktop.png"), full_page=True)
+        lab.set_viewport_size({"width": 390, "height": 844})
+        assert lab.evaluate("document.documentElement.scrollWidth <= innerWidth")
+        lab.screenshot(path=str(args.output / "question-lab-mobile.png"), full_page=True)
+        # Failed storage must not falsely report a saved edit.
+        lab.unroute("**/api/lab/generate")
+        lab.route(
+            "**/api/lab/generate",
+            lambda route: route.fulfill(
+                status=502,
+                json={"error": "AI provider returned HTTP 429. No automatic retry was made."},
+            ),
+        )
+        lab.locator("#lab-interest").fill("A different research topic")
+        lab.locator("#lab-consent").check()
+        lab.locator("#lab-suggest").click()
+        expect(lab.locator("#lab-status")).to_contain_text("HTTP 429")
+        expect(lab.locator("#lab-prompts article")).to_have_count(0)
+        expect(question).to_have_value("Which network conditions change hybrid TLS tail latency?")
+        lab.get_by_text("Gemini unavailable? Use the backup", exact=True).click()
+        lab.locator("#lab-backup").click()
+        expect(lab.locator("#lab-status")).to_contain_text("Confirm that you want")
+        lab.unroute("**/api/lab/generate")
+        backup_requests = []
+
+        def backup_reply(route):
+            backup_requests.append(route.request.post_data_json)
+            route.fulfill(json={**ai_fixture, "provider": "groq", "model": "test-groq"})
+
+        lab.route("**/api/lab/generate", backup_reply)
+        lab.locator("#lab-backup-consent").check()
+        lab.locator("#lab-backup").click()
+        expect(lab.locator("#lab-prompts article")).to_have_count(3)
+        expect(lab.locator("#lab-prompts")).to_contain_text("groq · test-groq")
+        assert backup_requests[0]["provider"] == "groq"
+        assert backup_requests[0]["backup_consent"] is True
+        assert "Search not yet performed" not in json.dumps(backup_requests)
+        lab.get_by_role("button", name="Narrow it", exact=True).first.click()
+        expect(lab.locator("#lab-status")).to_contain_text("Three AI-generated candidates ready")
+        assert len(backup_requests) == 2
+        assert backup_requests[1]["provider"] == "groq"
+        expect(question).to_have_value("Which network conditions change hybrid TLS tail latency?")
+        lab.goto(args.url + "/#saved")
+        expect(lab.locator("#notebook-list [data-paper]")).to_have_count(2)
+        lab.locator("#notebook-list [data-paper]").filter(has_text="Hybrid TLS study").click()
+        expect(lab.locator("#notebook-status-select")).to_have_value("Reviewed")
+        expect(lab.locator(".notebook-connections")).to_contain_text("Which network conditions")
+        lab.locator("#notebook-status-select").select_option("Reading")
+        expect(lab.locator("#notebook-list")).to_contain_text("Reading")
+        lab.locator(".research-notes summary").click()
+        lab.locator('[data-note="finding"]').fill("PRIVATE analysis marker")
+        reading_requests = []
+
+        def reading_reply(route):
+            reading_requests.append(route.request.post_data_json)
+            route.fulfill(
+                json={
+                    "answer": "Inspect the full paper to verify the baseline.",
+                    "provider": "gemini",
+                    "model": "fixture",
+                }
+            )
+
+        lab.route("**/api/lab/read", reading_reply)
+        lab.locator("#reader-run").click()
+        expect(lab.locator("#reader-result")).to_contain_text("Please consent")
+        assert not reading_requests
+        lab.locator("#reader-consent").check()
+        lab.locator("#reader-run").click()
+        expect(lab.locator("#reader-result")).to_contain_text("Supplied excerpt only")
+        assert reading_requests[0]["excerpt"] == "A test abstract."
+        assert "PRIVATE analysis" not in json.dumps(reading_requests)
+        lab.set_viewport_size({"width": 1440, "height": 1100})
+        lab.locator(".research-notes summary").click()
+        lab.evaluate("window.scrollTo(0, 0)")
+        lab.screenshot(path=str(args.output / "notebook-desktop.png"), full_page=True)
+        lab.set_viewport_size({"width": 390, "height": 844})
+        assert lab.evaluate("document.documentElement.scrollWidth <= innerWidth")
+        lab.screenshot(path=str(args.output / "notebook-mobile.png"), full_page=True)
+        lab.locator("#notebook-status-select").select_option("Reviewed")
+        lab.locator("[data-open-question]").first.click()
+        expect(lab.locator("#lab-evidence article").last).to_contain_text("Reviewed by you")
+        before = lab.evaluate("localStorage.getItem('quantum-scout:question-lab:v1')")
+        lab.evaluate("() => { Storage.prototype.setItem = () => { throw new Error('quota'); }; }")
+        question.fill("Unsaved draft")
+        lab.get_by_role("button", name="Save question & revision").click()
+        expect(lab.locator("#lab-status")).to_contain_text("Not saved")
+        assert lab.evaluate("localStorage.getItem('quantum-scout:question-lab:v1')") == before
+        assert not lab_errors, lab_errors
+        lab_context.close()
         assert page.locator(".desk-workspace:visible").count() == 1
         expect(page.locator('[data-lens="core"]')).to_have_attribute("aria-pressed", "true")
         core_count = sum(
@@ -62,6 +277,17 @@ def main() -> None:
         )
         expect(page.locator("#desk-result-count")).to_contain_text(f"{latest_count} reading")
         lead_id = page.locator(".lead-story").get_attribute("data-story")
+        lead_record = next(
+            (s for s in payload["reading_brief"]["stories"] if s["id"] == lead_id), {}
+        )
+        if lead_record.get("citation", {}).get("kind") == "article":
+            page.locator(".lead-story .citation-details summary").click()
+            expect(page.locator(".lead-story .citation-details")).to_contain_text(
+                "Article metadata"
+            )
+            expect(page.locator(".lead-story .citation-details")).to_contain_text("Publisher")
+            page.locator(".lead-story").screenshot(path=str(args.output / "article-citation.png"))
+            page.locator(".lead-story .citation-details summary").click()
         page.locator(".lead-story [data-read]").click()
         expect(page.locator("#reading-progress")).to_contain_text("1 of")
         page.locator("#unread-only").check()
@@ -144,7 +370,7 @@ def main() -> None:
         with page.expect_download() as download_info:
             page.locator("#export-saved").click()
         downloaded = json.loads(Path(download_info.value.path()).read_text(encoding="utf-8"))
-        assert downloaded["format"] == "quantum-scout-reading-list-v1"
+        assert downloaded["format"] == "quantum-scout-notebook-v2"
         assert len(downloaded["readings"]) == 1
         assert downloaded["readings"][0]["url"].startswith("https://")
         assert "threat model" in downloaded["readings"][0]["notebook"]["question"]
@@ -152,8 +378,17 @@ def main() -> None:
             page.locator("#export-bibtex").click()
         bib = Path(bib_info.value.path()).read_text(encoding="utf-8")
         assert "@misc{scout1," in bib
-        assert "Verify authors" in bib
-        assert "author =" not in bib and "year =" not in bib
+        if downloaded["readings"][0].get("citation", {}).get("status") == "source_metadata":
+            citation = downloaded["readings"][0]["citation"]
+            if citation.get("authors"):
+                assert "author =" in bib
+            if citation.get("kind") == "article":
+                assert "Source-reported article metadata" in bib
+            else:
+                assert "Peer review:" in bib
+        else:
+            assert "Verify authors" in bib
+            assert "author =" not in bib and "year =" not in bib
         # A newer feed must not replace the excerpt to which personal notes refer.
         changed_feed = copy.deepcopy(payload)
         saved_id = downloaded["readings"][0]["id"]
@@ -208,6 +443,120 @@ def main() -> None:
             assert page.locator('[data-workspace][aria-current="page"]').count() == 1
             page.mouse.move(1000, 20)
             page.screenshot(path=str(args.output / f"{route}-desktop.png"))
+        page.locator('[data-workspace="research"]').click()
+        page.locator('[data-workspace="federal"]').click()
+        expect(page.locator('[data-federal-view="funding"]')).to_have_attribute(
+            "aria-pressed", "true"
+        )
+        expect(page.locator("#federal-research-cards")).to_contain_text("Eligibility not collected")
+        assert not page.locator("#funding-operational").evaluate("e => e.open")
+        page.locator("#federal-research-search").fill("no-such-program-fixture")
+        expect(page.locator("#federal-research-cards")).to_contain_text("No collected records")
+        page.locator("#federal-research-search").fill("")
+        page.locator('[data-federal-view="procurement"]').click()
+        page.locator("#federal-research-status").select_option("award")
+        expect(
+            page.locator("#federal-research-cards .federal-research-card").first
+        ).to_contain_text("Not an application opportunity")
+        page.locator("#federal-research-status").select_option("all")
+        page.locator('[data-federal-view="priorities"]').click()
+        expect(page.locator("#federal-research-explanation")).to_contain_text("Official-source")
+        page.locator('[data-federal-view="funding"]').click()
+        page.screenshot(path=str(args.output / "federal-academic-desktop.png"))
+        page.locator(".federal-research-card").first.screenshot(path=str(args.output / "federal-academic-card.png"))
+        page.set_viewport_size({"width": 390, "height": 844})
+        assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
+        page.screenshot(path=str(args.output / "federal-academic-mobile.png"))
+        page.set_viewport_size({"width": 1440, "height": 1100})
+        federal_requests = []
+        page.route("**/api/lab/config", lambda route: route.fulfill(json={"token": "test-token"}))
+
+        def federal_ai_reply(route):
+            federal_requests.append(route.request.post_data_json)
+            route.fulfill(json=ai_fixture)
+
+        page.route("**/api/lab/generate", federal_ai_reply)
+        page.locator("[data-federal-question]").first.click()
+        expect(page.locator("#lab-federal-context")).to_be_visible()
+        assert not page.locator("#lab-consent").is_checked()
+        assert not page.locator("#lab-federal-include").is_checked()
+        assert not federal_requests
+        page.locator("#lab-consent").check()
+        page.locator("#lab-suggest").click()
+        expect(page.locator("#lab-prompts article")).to_have_count(3)
+        assert federal_requests[-1]["sources"] == []
+        page.locator("#lab-federal-include").check()
+        page.locator("#lab-suggest").click()
+        expect(page.locator("#lab-status")).to_contain_text("Three AI-generated candidates ready")
+        assert len(federal_requests[-1]["sources"]) == 1
+        assert federal_requests[-1]["sources"][0]["url"].startswith("https://")
+        page.unroute("**/api/lab/config")
+        page.unroute("**/api/lab/generate")
+        page.locator('[data-workspace="research"]').click()
+        expect(page.locator("#landscape-topics [data-topic]")).to_have_count(7)
+        assert page.locator(".landscape-advanced[open]").count() == 0
+        page.locator('[data-topic="pqc"]').click()
+        expect(page.locator("#landscape-title")).to_have_text("PQC & crypto agility")
+        page.locator("#landscape-search").fill("no-such-research-fixture-12345")
+        expect(page.locator("#landscape-results")).to_contain_text(
+            "does not establish a literature gap"
+        )
+        page.locator("#landscape-search").fill("")
+        page.locator("#landscape-question").click()
+        expect(page.locator("#lab-interest")).to_have_value("PQC & crypto agility")
+        assert not page.locator("#lab-consent").is_checked()
+        expect(page.locator("#lab-status")).to_contain_text("Nothing has been sent to AI")
+        page.goto(args.url + "/#signals")
+        expect(page.locator("#signals")).to_be_visible()
+        signal = page.locator(".signal-card-refined").first
+        expect(signal.locator(".signal-classification dt")).to_have_count(4)
+        expect(signal.locator(".signal-counts strong")).to_have_count(2)
+        signal.locator(".evidence-toggle").click()
+        expect(signal.locator(".evidence-toggle")).to_have_attribute("aria-expanded", "true")
+        signal.locator(".evidence-toggle").click()
+        expect(signal.locator(".evidence-toggle")).to_have_attribute("aria-expanded", "false")
+        signal.screenshot(path=str(args.output / "signal-card-refined.png"))
+        assert page.locator(".landscape-advanced[open]").count() == 1
+        page.goto(args.url + "/#watch")
+        expect(page.locator("#watch .badge.active").first).to_be_visible()
+        assert page.locator("#watch .badge.active").first.evaluate(
+            "e => getComputedStyle(e).backgroundColor"
+        ) != page.locator("#watch .badge.stable").first.evaluate(
+            "e => getComputedStyle(e).backgroundColor"
+        )
+        page.locator("#watch").screenshot(path=str(args.output / "watch-label-colors.png"))
+        page.goto(args.url + "/#trends")
+        expect(page.locator("#trend-insight")).to_contain_text("selected chart window")
+        recorded = page.locator("#trend-chart .trend-recorded").count()
+        missing = page.locator("#trend-chart .trend-missing").count()
+        expect(page.locator("#trend-coverage")).to_have_text(f"{recorded} / 30")
+        assert recorded + missing == 30
+        page.locator(".trend-records summary").click()
+        expect(page.locator("#trend-daily tr")).to_have_count(30)
+        page.locator(".trend-records summary").click()
+        page.locator("#trends").screenshot(path=str(args.output / "evidence-activity.png"))
+        for width in (1200, 1440, 390):
+            page.set_viewport_size({"width": width, "height": 1100})
+            tops = page.locator("#trends .trend-summary strong").evaluate_all(
+                "elements => elements.map(e => e.getBoundingClientRect().top)"
+            )
+            columns = 2 if width == 390 else 4
+            for start in range(0, 4, columns):
+                row = tops[start : start + columns]
+                assert max(row) - min(row) < 1, (width, tops)
+            assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
+            if width == 1200:
+                page.locator("#trends .trend-summary").screenshot(
+                    path=str(args.output / "trend-summary-aligned.png")
+                )
+        page.set_viewport_size({"width": 1440, "height": 1100})
+        page.goto(args.url + "/#research")
+        while page.locator(".landscape-advanced[open] > summary").count():
+            page.locator(".landscape-advanced[open] > summary").first.click()
+        page.set_viewport_size({"width": 390, "height": 844})
+        assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
+        page.screenshot(path=str(args.output / "research-mobile.png"))
+        page.set_viewport_size({"width": 1440, "height": 1100})
         page.locator('[data-workspace="decisions"]').click()
         expect(page.locator('[data-decision-focus="technology"]')).to_have_attribute(
             "aria-pressed", "true"
@@ -328,6 +677,10 @@ def main() -> None:
             '<img src=x onerror="window.scoutInjected=1">'
         )
         hostile["reading_brief"]["stories"][0]["url"] = "javascript:window.scoutInjected=1"
+        hostile["reading_brief"]["stories"][0]["report_date"] = payload["reading_brief"][
+            "edition_date"
+        ]
+        hostile["reading_brief"]["stories"] = hostile["reading_brief"]["stories"][:1]
         safe = context.new_page()
         safe.route("**/data/dashboard.json*", lambda route: route.fulfill(json=hostile))
         safe.goto(args.url)
@@ -367,6 +720,25 @@ def main() -> None:
         expect(math_page.locator(".story-summary math mfrac")).to_have_count(1)
         expect(math_page.locator(".story-summary math mover")).to_have_count(1)
         assert math_page.locator(".math-fallback").count() == 0
+        if (
+            payload.get("citation_records", {})
+            .get("https://eprint.iacr.org/2026/2014", {})
+            .get("status")
+            == "source_metadata"
+        ):
+            math_page.locator(".lead-story .citation-details summary").click()
+            expect(math_page.locator(".lead-story .citation-details")).to_contain_text(
+                "source-backed"
+            )
+            expect(math_page.locator(".lead-story .citation-details")).to_contain_text(
+                "Not verified"
+            )
+            expect(math_page.locator(".lead-story .citation-details a")).to_have_attribute(
+                "href", "https://eprint.iacr.org/2026/2014"
+            )
+            math_page.locator(".lead-story").screenshot(
+                path=str(args.output / "citation-metadata.png")
+            )
         math_page.locator(".lead-story [data-save]").click()
         archived_math = math_page.evaluate(
             "JSON.parse(localStorage.getItem('quantum-scout:reading-desk:v1')).stories.find(x => x.id === 'math-verification')"
@@ -403,6 +775,75 @@ def main() -> None:
         expect(math_page.locator("#math-test-wide .scout-math")).to_have_attribute("tabindex", "0")
         assert not math_page.evaluate("document.documentElement.scrollWidth > innerWidth")
         math_page.close()
+
+        # Restore into a fresh browser, preview/cancel, duplicates, and quota failure.
+        restore_context = browser.new_context(viewport={"width": 1440, "height": 1100})
+        restore_context.on("weberror", lambda error: errors.append(str(error.error)))
+        restore = restore_context.new_page()
+        restore.goto(args.url + "/#saved")
+        expect(restore.locator("#saved-result-count")).to_have_text("0 of 0 saved readings")
+        backup_file = {
+            "name": "notebook.json",
+            "mimeType": "application/json",
+            "buffer": json.dumps(downloaded).encode(),
+        }
+        restore.locator("#import-notebook").set_input_files(backup_file)
+        expect(restore.locator("#import-summary")).to_contain_text("1 new readings")
+        assert restore.locator("#saved-stories .reading-card").count() == 0
+        restore.locator("#import-cancel").click()
+        expect(restore.locator("#notebook-import-preview")).to_be_hidden()
+        restore.locator("#import-notebook").set_input_files(backup_file)
+        restore.locator("#import-confirm").click()
+        expect(restore.locator("#notebook-import-status")).to_contain_text(
+            "Imported 1 new readings"
+        )
+        restore.reload()
+        restore.wait_for_selector("#saved-stories .reading-card")
+        restore.locator(".research-notes summary").click()
+        expect(restore.locator('[data-note="question"]')).to_have_value(
+            downloaded["readings"][0]["notebook"]["question"]
+        )
+        assert restore.evaluate("window.noteInjected") is None
+        restore.locator('[data-note="question"]').fill("Keep my newer local notes")
+        restore.locator("#import-notebook").set_input_files(backup_file)
+        expect(restore.locator("#import-summary")).to_contain_text("1 already present")
+        expect(restore.locator("#import-confirm")).to_be_disabled()
+        expect(restore.locator('[data-note="question"]')).to_have_value("Keep my newer local notes")
+        restore.locator("#import-cancel").click()
+        invalid_file = {
+            "name": "bad.json",
+            "mimeType": "application/json",
+            "buffer": b'{"format":"unknown","readings":[]}',
+        }
+        restore.locator("#import-notebook").set_input_files(invalid_file)
+        expect(restore.locator("#notebook-import-status")).to_contain_text("Import rejected")
+        assert restore.locator("#saved-stories .reading-card").count() == 1
+        extra = copy.deepcopy(downloaded)
+        extra["readings"][0]["url"] = "https://example.org/new-import-record"
+        extra_file = {
+            "name": "extra.json",
+            "mimeType": "application/json",
+            "buffer": json.dumps(extra).encode(),
+        }
+        restore.locator("#import-notebook").set_input_files(extra_file)
+        expect(restore.locator("#import-summary")).to_contain_text("1 new readings")
+        restore.evaluate(
+            "() => { Storage.prototype.setItem = () => { throw new DOMException('Storage full','QuotaExceededError'); }; }"
+        )
+        restore.locator("#import-confirm").click()
+        expect(restore.locator("#notebook-import-status")).to_contain_text("Import not applied")
+        assert restore.locator("#saved-stories .reading-card").count() == 1
+        restore.reload()
+        restore.wait_for_selector("#saved-stories .reading-card")
+        assert restore.locator("#saved-stories .reading-card").count() == 1
+        restore.locator(".research-notes summary").click()
+        expect(restore.locator('[data-note="question"]')).to_have_value("Keep my newer local notes")
+        restore.locator("#import-notebook").set_input_files(extra_file)
+        expect(restore.locator("#import-summary")).to_contain_text("1 new readings")
+        restore.screenshot(path=str(args.output / "notebook-import-preview.png"), full_page=True)
+        restore.set_viewport_size({"width": 390, "height": 900})
+        assert not restore.evaluate("document.documentElement.scrollWidth > innerWidth")
+        restore_context.close()
 
         failed = context.new_page()
         failed.route("**/data/dashboard.json*", lambda route: route.abort())
