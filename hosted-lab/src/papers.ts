@@ -144,7 +144,7 @@ export async function searchPapers(query: string) {
     ),
     (async () => {
       const response = await fetch(ar.href, {
-        redirect: "error",
+        redirect: "manual",
         signal: AbortSignal.timeout(20000),
       });
       if (!response.ok) {

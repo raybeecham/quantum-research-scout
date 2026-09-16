@@ -97,7 +97,10 @@ export async function upstream(
   try {
     const res = await fetch(url, {
       ...init,
-      redirect: "error",
+      // Workerd does not accept redirect:"error" in all runtime versions.
+      // Manual mode plus the non-2xx check below rejects redirects without
+      // forwarding credentials or the request body to another destination.
+      redirect: "manual",
       signal: AbortSignal.timeout(timeout),
     });
     if (!res.ok) {

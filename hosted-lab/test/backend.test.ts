@@ -2,7 +2,7 @@ import { env } from "cloudflare:workers";
 import { runInDurableObject } from "cloudflare:test";
 import { beforeEach, afterEach, describe, expect, it, vi } from "vitest";
 import worker from "../src/index";
-import { day, hash, randomToken, boundedText, AppEnv } from "../src/support";
+import { day, hash, randomToken, boundedText, upstream, AppEnv } from "../src/support";
 import { questionSchema, modelSchema, revisedSchema } from "../src/validation";
 import { parseArxiv, parseCrossref } from "../src/papers";
 
@@ -83,6 +83,20 @@ beforeEach(async () => {
   vi.spyOn(globalThis, "fetch").mockRejectedValue(new Error("Network disabled in tests"));
 });
 afterEach(() => vi.restoreAllMocks());
+
+describe("upstream runtime compatibility", () => {
+  it("constructs a real Workers request and refuses redirects", async () => {
+    vi.mocked(fetch).mockImplementation(async (url, init) => {
+      const outbound = new Request(url, init);
+      expect(outbound.redirect).toBe("manual");
+      return new Response(null, { status: 302, headers: { Location: "https://example.com" } });
+    });
+    await expect(upstream("https://github.com/login/oauth/access_token", {
+      method: "POST", body: "fixture",
+    })).rejects.toMatchObject({ code: "upstream", message: expect.stringContaining("HTTP 302") });
+    expect(fetch).toHaveBeenCalledTimes(1);
+  });
+});
 
 describe("authentication and boundaries", () => {
   it("requires authentication and never leaks token/config secrets", async () => {
