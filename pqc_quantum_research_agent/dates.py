@@ -10,6 +10,7 @@ OPERATIONAL_TIMEZONE = ZoneInfo(OPERATIONAL_TIMEZONE_NAME)
 COMMON_DATE_FORMATS = (
     "%d %b %Y",
     "%Y-%m-%d",
+    "%Y%m%d",
     "%Y-%m-%dT%H:%M:%S",
     "%Y-%m-%dT%H:%M:%SZ",
     "%a, %d %b %Y %H:%M:%S %z",
