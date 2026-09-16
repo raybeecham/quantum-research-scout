@@ -621,9 +621,7 @@
     button.disabled = true;
     output.textContent = "Reading the supplied excerpt…";
     try {
-      const config = await fetch("api/lab/config", { signal: AbortSignal.timeout(10000) });
-      if (!config.ok) throw Error("Use the private lab server for AI assistance.");
-      const { token } = await config.json();
+      const { token } = await window.ScoutResearch.labConfig();
       const provider = $("reader-provider").value;
       const response = await fetch("api/lab/read", {
         method: "POST",
@@ -645,7 +643,7 @@
         output.textContent = `AI assistance · ${data.provider} · ${data.model} · Supplied excerpt only; verify against the full paper.\n\n${data.answer}`;
     } catch (error) {
       if (serial === readerRequest)
-        output.textContent = `${error.message} Your notes are unchanged. You can explicitly choose the other provider and try again.`;
+        output.textContent = `${error.name === "TypeError" || error.name === "SyntaxError" ? "Private service connection failed. Check that the private lab server is running and your internet connection is available. No automatic retry was made." : error.message} Your notes are unchanged.`;
     } finally {
       button.disabled = false;
     }

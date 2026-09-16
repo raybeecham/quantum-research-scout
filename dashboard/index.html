@@ -248,9 +248,44 @@
         </div>
         <p class="notebook-caveat">
           Saved questions stay in this browser. AI assistance sends only your topic, refinement request and selected
-          source excerpts to Google Gemini. Free-tier content may be used to improve Google's products. It does not
-          search the literature or establish novelty. Do not submit sensitive research.
+          source excerpts to your explicitly selected provider, Gemini or Groq. Google's free-tier content may be used
+          to improve Google's products. It does not search the literature or establish novelty. Do not submit sensitive
+          research.
         </p>
+        <section class="lab-connection" aria-labelledby="lab-connection-heading">
+          <h2 id="lab-connection-heading">Private lab connection</h2>
+          <p id="lab-connection-status" role="status">Checking the private lab connection…</p>
+          <div class="lab-connection-actions">
+            <button id="lab-reconnect" class="desk-button" type="button">Check connection again</button>
+            <a
+              id="lab-open-local"
+              class="desk-button"
+              href="http://127.0.0.1:8765/#questions"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open private lab ↗
+            </a>
+          </div>
+          <details id="lab-connection-help">
+            <summary>How to use the private lab</summary>
+            <p>
+              On the computer with this repository, run
+              <code>python scripts/serve_question_lab.py</code>
+              from the project folder. Then open the private lab link above. Keep API keys in the ignored
+              <code>.env.local</code>
+              file, never in this page.
+            </p>
+            <p>
+              The public site and private lab have separate browser storage. Export your lab backup and notebook backup
+              before switching if you want to bring saved work with you. Nothing transfers automatically.
+            </p>
+            <p>
+              GitHub Pages does not host the AI service. Public AI access needs a separately deployed, authenticated
+              backend. Groq is a provider backup, not a backup server.
+            </p>
+          </details>
+        </section>
         <div class="lab-layout">
           <aside class="lab-panel">
             <h2>Your questions</h2>
@@ -266,7 +301,12 @@
             <h2>Help me find a research question</h2>
             <label>
               Research interest
-              <input id="lab-interest" maxlength="500" placeholder="e.g. PQC migration in cloud services" />
+              <textarea
+                id="lab-interest"
+                rows="3"
+                maxlength="500"
+                placeholder="e.g. PQC migration in cloud services"
+              ></textarea>
             </label>
             <label>
               Starting lens
@@ -287,14 +327,14 @@
                 general AI brainstorming.
               </p>
             </details>
-            <label>
+            <label class="lab-consent-row">
+              <input id="lab-consent" type="checkbox" />
               <span>
-                <input id="lab-consent" type="checkbox" style="width: auto" />
                 Send this topic and selected excerpts to Gemini (two calls per generation: draft + critique; 20 call
                 slots/day; use a free-tier Google project. Billing-enabled projects may incur charges).
               </span>
             </label>
-            <button id="lab-suggest" class="desk-button" type="button">Generate research questions</button>
+            <button id="lab-suggest" class="desk-button" type="button" disabled>Generate research questions</button>
             <section id="lab-federal-context" hidden>
               <h3>Federal source brought into this question</h3>
               <p id="lab-federal-source"></p>
@@ -302,9 +342,9 @@
                 <summary>Preview public source context</summary>
                 <p id="lab-federal-excerpt"></p>
               </details>
-              <label>
-                <input id="lab-federal-include" type="checkbox" style="width: auto" />
-                Include this public source in the next AI request (counts toward the four-source limit).
+              <label class="lab-consent-row">
+                <input id="lab-federal-include" type="checkbox" />
+                <span>Include this public source in the next AI request (counts toward the four-source limit).</span>
               </label>
               <button id="lab-federal-clear" class="desk-button" type="button">Remove staged source</button>
             </section>
@@ -313,13 +353,13 @@
               <p>
                 Groq is an independent provider. Requires GROQ_API_KEY in the private server's .env.local file. Account
                 limits and billing terms apply. Both providers share the 20-call daily cap; a backup generation uses two
-                more call slots.
+                more call slots. The private lab server must be connected for either provider to work.
               </p>
-              <label>
-                <input id="lab-backup-consent" type="checkbox" style="width: auto" />
-                Send this topic and selected excerpts to Groq. Do not send private notebook notes.
+              <label class="lab-consent-row">
+                <input id="lab-backup-consent" type="checkbox" />
+                <span>Send this topic and selected excerpts to Groq. Do not send private notebook notes.</span>
               </label>
-              <button id="lab-backup" class="desk-button" type="button">Try Groq backup</button>
+              <button id="lab-backup" class="desk-button" type="button" disabled>Try Groq backup</button>
             </details>
             <div id="lab-prompts"></div>
           </div>

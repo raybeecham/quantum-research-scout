@@ -113,6 +113,8 @@ Question Lab attachments are added to the notebook automatically, deduplicated b
 
 ## Independent AI backup
 
+The Question Lab checks its private server connection before enabling generation or paper search. On the public site, a connection banner explains the limitation and offers **Open private lab**; it does not probe your computer or send requests to either AI provider. Start `python scripts/serve_question_lab.py` in the repository, open the local lab, and use **Check connection again** after a restart. A successful connection check does not validate provider keys or quotas and consumes no AI calls. Export both notebook and lab backups before switching sites: public and local browser storage are separate. A provider failure may offer Groq; a missing server or shared daily-limit failure does not.
+
 Gemini remains the default. Expand **Gemini unavailable? Use the backup**, explicitly consent to sending the current topic and selected excerpts to **Groq**, then click **Try Groq backup**. There is no silent provider switch. Refinement buttons on Groq-generated candidates stay with Groq. Previously saved questions remain intact if either provider fails; paper search is independent of both.
 
 Configure a Groq key locally by adding `GROQ_API_KEY=your-key` to the gitignored `.env.local` file, alongside—not instead of—`GEMINI_API_KEY`. Restart the private server. Never paste keys in chat or browser controls. The backup uses Groq's `openai/gpt-oss-20b` hosted model; it does not use OpenAI's API, billing, or an OpenAI key. Availability and free-tier quotas depend on the Groq account; paid plans can incur charges. See [Groq limits](https://console.groq.com/docs/rate-limits).

@@ -5,7 +5,9 @@ from __future__ import annotations
 import argparse
 import copy
 import json
+import mimetypes
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from playwright.sync_api import expect, sync_playwright
 
@@ -258,6 +260,88 @@ def main() -> None:
         assert lab.evaluate("localStorage.getItem('quantum-scout:question-lab:v1')") == before
         assert not lab_errors, lab_errors
         lab_context.close()
+        # Missing backend is not a provider outage: no backup suggestion or lost local data.
+        outage_context = browser.new_context(viewport={"width": 1440, "height": 1100})
+        outage = outage_context.new_page()
+        outage.route("**/api/lab/config", lambda route: route.fulfill(status=404, body="Not found"))
+        outage.goto(args.url + "/#questions")
+        expect(outage.locator("#lab-connection-status")).to_contain_text(
+            "Private lab server unavailable"
+        )
+        expect(outage.locator("#lab-suggest")).to_be_disabled()
+        expect(outage.locator("#lab-backup")).to_be_disabled()
+        outage.locator("#lab-new").click()
+        expect(outage.locator("#lab-editor")).to_be_visible()
+        expect(outage.locator("#lab-find-papers")).to_be_disabled()
+        outage.unroute("**/api/lab/config")
+        outage.route("**/api/lab/config", lambda route: route.fulfill(json={"token": "test-token"}))
+        outage.locator("#lab-reconnect").click()
+        expect(outage.locator("#lab-suggest")).to_be_enabled()
+        expect(outage.locator("#lab-find-papers")).to_be_enabled()
+        outage.route(
+            "**/api/lab/generate",
+            lambda route: route.fulfill(status=400, json={"error": "Daily pilot limit reached"}),
+        )
+        outage.locator("#lab-interest").fill("Quantum research")
+        outage.locator("#lab-consent").check()
+        outage.locator("#lab-suggest").click()
+        expect(outage.locator("#lab-status")).to_contain_text("Daily pilot limit reached")
+        assert "Groq" not in outage.locator("#lab-status").inner_text()
+        outage.route("**/api/lab/config", lambda route: route.abort())
+        outage.locator("#lab-suggest").click()
+        expect(outage.locator("#lab-status")).to_contain_text("Private lab server unavailable")
+        expect(outage.locator("#lab-backup")).to_be_disabled()
+        outage_context.close()
+
+        # Simulate the published site from local build files, without touching GitHub.
+        public_context = browser.new_context(viewport={"width": 1440, "height": 1100})
+        public_page = public_context.new_page()
+        public_api_calls = []
+        site_root = Path("site").resolve()
+
+        def public_asset(route):
+            path = urlsplit(route.request.url).path.removeprefix("/quantum-research-scout/")
+            if path.startswith("api/"):
+                public_api_calls.append(path)
+                route.fulfill(status=404)
+                return
+            asset = (site_root / (path or "index.html")).resolve()
+            if not asset.is_relative_to(site_root) or not asset.is_file():
+                route.fulfill(status=404)
+                return
+            route.fulfill(
+                path=str(asset),
+                content_type=mimetypes.guess_type(asset)[0] or "application/octet-stream",
+            )
+
+        public_page.route("https://raybeecham.github.io/quantum-research-scout/**", public_asset)
+        public_page.goto("https://raybeecham.github.io/quantum-research-scout/#questions")
+        expect(public_page.locator("#lab-connection-status")).to_contain_text(
+            "public research desk"
+        )
+        expect(public_page.locator("#lab-suggest")).to_be_disabled()
+        expect(public_page.locator("#lab-backup")).to_be_disabled()
+        expect(public_page.locator("#lab-open-local")).to_have_attribute(
+            "href", "http://127.0.0.1:8765/#questions"
+        )
+        public_page.locator("#lab-reconnect").click()
+        public_page.get_by_text("Gemini unavailable? Use the backup", exact=True).click()
+        public_page.locator("#lab-interest").fill(
+            "How can cryptographic-inventory confidence be quantified when discovery mechanisms provide incomplete and partially overlapping evidence?"
+        )
+        for width in (1440, 390):
+            public_page.set_viewport_size({"width": width, "height": 1100})
+            public_page.evaluate("document.activeElement.blur(); window.scrollTo(0, 0)")
+            assert public_page.evaluate("document.documentElement.scrollWidth <= innerWidth")
+            checkbox = public_page.locator("#lab-backup-consent").bounding_box()
+            label = public_page.locator("#lab-backup-consent + span").bounding_box()
+            assert checkbox and label and checkbox["x"] < label["x"]
+            assert abs(checkbox["y"] - label["y"]) < 12
+            public_page.screenshot(
+                path=str(args.output / f"lab-connection-{width}.png"), full_page=True
+            )
+        assert not public_api_calls, public_api_calls
+        public_context.close()
         assert page.locator(".desk-workspace:visible").count() == 1
         expect(page.locator('[data-lens="core"]')).to_have_attribute("aria-pressed", "true")
         core_count = sum(
@@ -463,7 +547,9 @@ def main() -> None:
         expect(page.locator("#federal-research-explanation")).to_contain_text("Official-source")
         page.locator('[data-federal-view="funding"]').click()
         page.screenshot(path=str(args.output / "federal-academic-desktop.png"))
-        page.locator(".federal-research-card").first.screenshot(path=str(args.output / "federal-academic-card.png"))
+        page.locator(".federal-research-card").first.screenshot(
+            path=str(args.output / "federal-academic-card.png")
+        )
         page.set_viewport_size({"width": 390, "height": 844})
         assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
         page.screenshot(path=str(args.output / "federal-academic-mobile.png"))

@@ -273,6 +273,32 @@
     };
   }
   const api = {
+    async labConfig() {
+      const local = location.protocol === "http:" && location.hostname === "127.0.0.1";
+      const unavailable = () =>
+        Object.assign(
+          new Error(
+            local
+              ? "Private lab server unavailable. Start python scripts/serve_question_lab.py from the project folder, then check the connection again. AI and paper search both need this server. Saved questions and notes remain available."
+              : "This is the public research desk. AI and paper search require the private lab on your computer; neither Gemini nor Groq can run here. Saved questions and notes remain available.",
+          ),
+          { name: "LabConnectionError" },
+        );
+      // Do not probe loopback from a public origin or expose a configurable key-bearing endpoint.
+      if (!local) throw unavailable();
+      try {
+        const response = await fetch("api/lab/config", {
+          cache: "no-store",
+          signal: AbortSignal.timeout(10000),
+        });
+        if (!response.ok) throw unavailable();
+        const config = await response.json();
+        if (typeof config.token !== "string" || !config.token.trim()) throw unavailable();
+        return config;
+      } catch {
+        throw unavailable();
+      }
+    },
     evidenceTrend,
     sourceUrl,
     validateBackup,

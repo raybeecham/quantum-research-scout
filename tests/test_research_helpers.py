@@ -53,6 +53,37 @@ def test_notebook_review_fields_survive_backup_validation():
     assert result["appraisal"] == "Preserve old notes"
 
 
+@pytest.mark.parametrize(
+    "mode", ["public", "offline", "html", "missing_token", "empty_token", "404", "timeout", "ready"]
+)
+def test_lab_connection_is_local_only_and_reports_recoverable_errors(mode):
+    result = js_check(
+        """
+        global.location = { protocol: value === 'public' ? 'https:' : 'http:',
+          hostname: value === 'public' ? 'raybeecham.github.io' : '127.0.0.1' };
+        let calls = 0;
+        global.fetch = async () => {
+          calls++;
+          if (value === 'offline') throw new TypeError('Failed to fetch');
+          if (value === 'timeout') throw Object.assign(new Error(), {name:'TimeoutError'});
+          return { ok: value !== '404', json: async () => {
+            if (value === 'html') throw new SyntaxError('Unexpected <');
+            return value === 'missing_token' ? {} : {token: value === 'empty_token' ? '' : 'test-token'};
+          }};
+        };
+        r.labConfig().then(config => console.log(JSON.stringify({ok: true, calls, config})))
+          .catch(e => console.log(JSON.stringify({ok: false, calls, name: e.name, message: e.message})));
+        """,
+        mode,
+    )
+    assert result["calls"] == (0 if mode == "public" else 1)
+    assert result["ok"] == (mode == "ready")
+    if mode != "ready":
+        assert result["name"] == "LabConnectionError"
+        assert "Saved questions and notes remain available" in result["message"]
+        assert "paper search" in result["message"]
+
+
 def test_evidence_trend_distinguishes_missing_from_zero():
     result = js_check(
         "console.log(JSON.stringify(r.evidenceTrend(value, 30)));",

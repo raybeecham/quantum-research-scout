@@ -2988,6 +2988,44 @@ body:has(.profile-hero) > footer {
   margin-block: 1rem;
   background: #eaf0e8;
 }
+.lab-connection {
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #839992;
+  border-left: 4px solid #007887;
+  background: #fffaf0;
+}
+.lab-connection h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+.lab-connection-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-block: 1rem;
+}
+.lab-connection code {
+  overflow-wrap: anywhere;
+}
+.lab-panel .lab-consent-row {
+  display: grid;
+  grid-template-columns: 1.25rem minmax(0, 1fr);
+  align-items: start;
+  gap: 0.65rem;
+}
+.lab-panel .lab-consent-row input[type="checkbox"] {
+  width: 1.1rem;
+  height: 1.1rem;
+  padding: 0;
+  margin: 0.3rem 0 0;
+  accent-color: #007887;
+}
+.lab-panel .desk-button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  box-shadow: none;
+}
 @media (max-width: 900px) {
   .federal-research-cards {
     grid-template-columns: 1fr;

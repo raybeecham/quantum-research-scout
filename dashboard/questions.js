@@ -31,6 +31,41 @@
   const status = s => {
     $("lab-status").textContent = s;
   };
+  let connected = false;
+  let paperBusy = false;
+  function connectionState(ready, message) {
+    connected = ready;
+    $("lab-connection-status").textContent = message;
+    $("lab-suggest").disabled = !ready || generating;
+    $("lab-backup").disabled = !ready || generating;
+    $("lab-find-papers").disabled = !ready || paperBusy;
+    $("lab-connection-help").open = !ready;
+    $("lab-open-local").hidden = ready;
+  }
+  async function labConfig() {
+    try {
+      const config = await window.ScoutResearch.labConfig();
+      connectionState(
+        true,
+        "Private lab connected. AI and paper search can be requested. Provider keys and quotas are checked when you submit; this connection check uses no AI calls.",
+      );
+      return config;
+    } catch (error) {
+      connectionState(false, error.message);
+      throw error;
+    }
+  }
+  async function checkConnection() {
+    $("lab-reconnect").disabled = true;
+    try {
+      await labConfig();
+    } catch {
+      /* The connection banner contains recovery steps. */
+    } finally {
+      $("lab-reconnect").disabled = false;
+    }
+  }
+  $("lab-reconnect").onclick = checkConnection;
   function validate(rows) {
     if (!Array.isArray(rows) || rows.length > 200)
       throw Error("Backup must contain at most 200 questions.");
@@ -187,9 +222,10 @@
   }
   function open(id) {
     paperRequest++;
+    paperBusy = false;
     $("lab-paper-results").replaceChildren();
     $("lab-paper-status").textContent = "";
-    $("lab-find-papers").disabled = false;
+    $("lab-find-papers").disabled = !connected;
     active = id;
     const row = rows.find(r => r.id === id);
     if (!row) return;
@@ -368,6 +404,7 @@
   };
   let paperRequest = 0;
   $("lab-find-papers").onclick = async () => {
+    if (paperBusy || !connected) return;
     const query = $("lab-editor").elements.namedItem("question").value.trim();
     const output = $("lab-paper-status");
     if (!query) {
@@ -375,19 +412,12 @@
       return;
     }
     const request = ++paperRequest;
+    paperBusy = true;
     $("lab-find-papers").disabled = true;
     $("lab-paper-results").replaceChildren();
     output.textContent = "Searching scholarly indexes…";
     try {
-      const configResponse = await fetch("api/lab/config", {
-        cache: "no-store",
-        signal: AbortSignal.timeout(10000),
-      });
-      if (!configResponse.ok)
-        throw Error(
-          "Paper search requires the private lab server; GitHub Pages cannot run this search.",
-        );
-      const config = await configResponse.json();
+      const config = await labConfig();
       const response = await fetch("api/lab/papers", {
         method: "POST",
         headers: { "Content-Type": "application/json", "X-Scout-Token": config.token },
@@ -449,9 +479,14 @@
         output.textContent =
           error.name === "TimeoutError"
             ? "Search timed out. Try again; no AI calls were used."
-            : `Search unavailable: ${error.message}`;
+            : error.name === "TypeError"
+              ? "Connection lost. Check the private lab server and your internet connection, then try again. No AI calls were used."
+              : `Search unavailable: ${error.message}`;
     } finally {
-      if (request === paperRequest) $("lab-find-papers").disabled = false;
+      if (request === paperRequest) {
+        paperBusy = false;
+        $("lab-find-papers").disabled = !connected;
+      }
     }
   };
   let federalSource = null;
@@ -483,12 +518,17 @@
   let lastRefinement = "";
   async function generateQuestions(refinement = "", provider = "gemini") {
     if (generating) return;
+    if (!connected) {
+      status($("lab-connection-status").textContent);
+      return;
+    }
     const interest = $("lab-interest").value.trim();
     if (!interest) {
       status("Enter a research interest first.");
       return;
     }
     if (!$(provider === "groq" ? "lab-backup-consent" : "lab-consent").checked) {
+      $(provider === "groq" ? "lab-backup-consent" : "lab-consent").focus();
       status(
         `Confirm that you want to send this topic and selected excerpts to ${provider === "groq" ? "Groq" : "Google Gemini"}.`,
       );
@@ -521,13 +561,7 @@
       `Drafting and critically reviewing questions with ${provider} (two AI calls)… Your saved questions will not be changed.`,
     );
     try {
-      const configResponse = await fetch("api/lab/config", { cache: "no-store" });
-      if (!configResponse.ok)
-        throw Error(
-          "AI is not connected here. Start the private lab server; public GitHub Pages does not run AI.",
-        );
-      const config = await configResponse.json();
-      if (!config.token) throw Error("Private AI service unavailable.");
+      const config = await labConfig();
       const response = await fetch("api/lab/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json", "X-Scout-Token": config.token },
@@ -542,7 +576,12 @@
         signal: AbortSignal.timeout(180000),
       });
       const data = await response.json();
-      if (!response.ok) throw Error(data.error || "AI generation failed.");
+      if (!response.ok)
+        throw Object.assign(Error(data.error || "AI generation failed."), {
+          providerFailure:
+            response.status === 502 ||
+            (response.status === 503 && /is not configured/.test(data.error || "")),
+        });
       if (!Array.isArray(data.candidates) || data.candidates.length !== 3)
         throw Error("Invalid AI response.");
       const box = $("lab-prompts");
@@ -636,12 +675,14 @@
       status(
         error.name === "TimeoutError"
           ? "The request timed out; it may still count toward usage. No automatic retry was made."
-          : `${error.message}${provider === "gemini" ? " You can opt in to Groq under ‘Gemini unavailable? Use the backup’. Saved questions and paper search are unaffected." : " Saved questions and paper search are unaffected."}`,
+          : error.name === "TypeError" || error.name === "SyntaxError"
+            ? "The private service connection failed or returned an unexpected response. Check the connection above before trying again. The request may still count toward usage; no automatic retry was made. Your saved questions are unchanged."
+            : `${error.message}${provider === "gemini" && error.providerFailure ? " You may explicitly opt in to Groq under ‘Gemini unavailable? Use the backup’. Both providers share the daily cap." : ""} Your saved questions are unchanged.`,
       );
     } finally {
       generating = false;
-      $("lab-suggest").disabled = false;
-      $("lab-backup").disabled = false;
+      $("lab-suggest").disabled = !connected;
+      $("lab-backup").disabled = !connected;
     }
   }
   $("lab-suggest").onclick = () => generateQuestions();
@@ -772,4 +813,5 @@
   });
   list();
   sources();
+  checkConnection();
 })();
