@@ -55,6 +55,8 @@ Collection runs daily. Weekly synthesis covers Monday through **Friday at 8:00 a
 
 [Collection, schedules & API keys](docs/OPERATIONS.md) · [Reading-desk guide](docs/READING-DESK.md) · [Development & tests](CONTRIBUTING.md)
 
+**Optional AI research assistance:** The Question Lab can use a private local server or an invite-only hosted backend with GitHub sign-in, Gemini/Groq assistance, and paper discovery. Hosting is disabled until configured; keys stay server-side and notebook notes stay in your browser. [Setup, safeguards & testing →](docs/HOSTED-LAB.md)
+
 ## Make it your own
 
 Edit [sources.yaml](sources.yaml) for coverage, [watchlists.yaml](watchlists.yaml) for organizations and technologies, and [missions.yaml](missions.yaml) for the federal portfolio. Optional SAM.gov and USPTO credentials belong in repository secrets or your local environment—never in committed files.

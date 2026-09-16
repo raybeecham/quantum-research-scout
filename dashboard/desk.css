@@ -2908,11 +2908,24 @@ body:has(.profile-hero) > footer {
   line-height: 1.5;
   margin: 0;
 }
-.federal-research-card h3 a { color:var(--text); text-decoration:none; }
-.federal-research-card a:hover { color:var(--accent); text-decoration:underline; }
-.federal-research-card footer a { color:var(--accent); font-weight:600; }
-.federal-academic-intro h3 { margin-bottom:.7rem; }
-.federal-academic-intro .section-note { margin-top:.6rem; }
+.federal-research-card h3 a {
+  color: var(--text);
+  text-decoration: none;
+}
+.federal-research-card a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+.federal-research-card footer a {
+  color: var(--accent);
+  font-weight: 600;
+}
+.federal-academic-intro h3 {
+  margin-bottom: 0.7rem;
+}
+.federal-academic-intro .section-note {
+  margin-top: 0.6rem;
+}
 .federal-card-meta {
   display: flex;
   flex-wrap: wrap;

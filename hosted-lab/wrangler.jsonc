@@ -1,0 +1,38 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "quantum-scout-lab",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-16",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "preview_urls": false,
+  "vars": {
+    "PUBLIC_ORIGIN": "https://raybeecham.github.io",
+    "BACKEND_ORIGIN": "https://quantum-scout-lab.raybeecham2009.workers.dev",
+    "GITHUB_CLIENT_ID": "Ov23liI9MM3Bs0PUaCTu",
+    "ALLOWED_GITHUB_IDS": "20392385",
+    "LAB_ENABLED": "true",
+    "USER_DAILY_CALLS": "10",
+    "GLOBAL_DAILY_CALLS": "20",
+    "USER_DAILY_SEARCHES": "20",
+    "GLOBAL_DAILY_SEARCHES": "100",
+    "GEMINI_MODEL": "gemini-3.6-flash",
+    "GROQ_MODEL": "openai/gpt-oss-20b",
+  },
+  "durable_objects": {
+    "bindings": [
+      { "name": "AUTH", "class_name": "AuthRecord" },
+      { "name": "BUDGET", "class_name": "DailyBudget" },
+    ],
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["AuthRecord", "DailyBudget"] }],
+  "ratelimits": [
+    { "name": "EDGE_LIMIT", "namespace_id": "761501", "simple": { "limit": 60, "period": 60 } },
+  ],
+  // Never record invocation URLs (OAuth codes) or request/response payloads.
+  "observability": {
+    "enabled": true,
+    "logs": { "enabled": true, "invocation_logs": false },
+    "traces": { "enabled": false },
+  },
+}

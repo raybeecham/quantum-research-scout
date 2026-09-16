@@ -33,22 +33,37 @@
   };
   let connected = false;
   let paperBusy = false;
+  let providers = null;
   function connectionState(ready, message) {
     connected = ready;
     $("lab-connection-status").textContent = message;
-    $("lab-suggest").disabled = !ready || generating;
-    $("lab-backup").disabled = !ready || generating;
+    $("lab-suggest").disabled = !ready || generating || providers?.gemini === false;
+    $("lab-backup").disabled = !ready || generating || providers?.groq === false;
     $("lab-find-papers").disabled = !ready || paperBusy;
-    $("lab-connection-help").open = !ready;
+    const hosted = window.ScoutLab.mode() === "hosted";
+    $("lab-connection-help").open = !ready && !hosted;
+    $("lab-sign-in").hidden = !hosted || window.ScoutLab.signedIn();
+    $("lab-sign-out").hidden = !hosted || !window.ScoutLab.signedIn();
+    $("lab-hosted-note").hidden = !hosted;
+    if (!ready) $("lab-usage").hidden = true;
     $("lab-open-local").hidden = ready;
   }
   async function labConfig() {
     try {
       const config = await window.ScoutResearch.labConfig();
+      providers = config.providers || null;
       connectionState(
         true,
-        "Private lab connected. AI and paper search can be requested. Provider keys and quotas are checked when you submit; this connection check uses no AI calls.",
+        config.hosted
+          ? `Hosted lab connected · signed in as ${config.user}. Gemini: ${config.providers.gemini ? "configured" : "not configured"}; Groq: ${config.providers.groq ? "configured" : "not configured"}. Provider availability is checked when you submit.`
+          : "Private lab connected. AI and paper search can be requested. Provider keys and quotas are checked when you submit; this connection check uses no AI calls.",
       );
+      if (config.hosted) {
+        const u = config.usage;
+        $("lab-usage").hidden = false;
+        $("lab-usage").textContent =
+          `AI call slots: you ${u.user_calls}/${u.userCalls} · shared ${u.global_calls}/${u.globalCalls}. Paper searches: you ${u.user_searches}/${u.userSearches} · shared ${u.global_searches}/${u.globalSearches}. Resets at midnight UTC. Failed AI attempts count; generation reserves two slots.`;
+      }
       return config;
     } catch (error) {
       connectionState(false, error.message);
@@ -66,6 +81,34 @@
     }
   }
   $("lab-reconnect").onclick = checkConnection;
+  window.addEventListener("hashchange", () => {
+    if (location.hash === "#questions" && window.ScoutLab.mode() === "hosted") checkConnection();
+  });
+  $("lab-sign-in").onclick = async () => {
+    try {
+      await window.ScoutLab.signIn();
+      status(
+        "Complete GitHub sign-in in the new window. Only invited accounts can use the hosted lab.",
+      );
+    } catch (error) {
+      status(error.message);
+    }
+  };
+  $("lab-sign-out").onclick = async () => {
+    try {
+      await window.ScoutLab.signOut();
+      status("Signed out. Your saved questions and notes remain in this browser.");
+    } catch {
+      status(
+        "Signed out in this tab. Server revocation could not be confirmed; the session expires within one hour.",
+      );
+    }
+  };
+  window.addEventListener("scout-lab-auth", () => {
+    $("lab-consent").checked = false;
+    $("lab-backup-consent").checked = false;
+    checkConnection();
+  });
   function validate(rows) {
     if (!Array.isArray(rows) || rows.length > 200)
       throw Error("Backup must contain at most 200 questions.");
@@ -418,12 +461,7 @@
     output.textContent = "Searching scholarly indexes…";
     try {
       const config = await labConfig();
-      const response = await fetch("api/lab/papers", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", "X-Scout-Token": config.token },
-        body: JSON.stringify({ query }),
-        signal: AbortSignal.timeout(65000),
-      });
+      const response = await window.ScoutLab.request(config, "papers", { query }, 65000);
       const data = await response.json();
       if (!response.ok) throw Error(data.error || "Paper search failed.");
       if (request !== paperRequest) return;
@@ -486,6 +524,7 @@
       if (request === paperRequest) {
         paperBusy = false;
         $("lab-find-papers").disabled = !connected;
+        if (window.ScoutLab.mode() === "hosted") await checkConnection();
       }
     }
   };
@@ -562,19 +601,20 @@
     );
     try {
       const config = await labConfig();
-      const response = await fetch("api/lab/generate", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", "X-Scout-Token": config.token },
-        body: JSON.stringify({
+      const response = await window.ScoutLab.request(
+        config,
+        "generate",
+        {
           interest,
           lens: $("lab-lens").value,
           refinement,
           sources,
           provider,
+          consent: true,
           backup_consent: provider === "groq" && $("lab-backup-consent").checked,
-        }),
-        signal: AbortSignal.timeout(180000),
-      });
+        },
+        180000,
+      );
       const data = await response.json();
       if (!response.ok)
         throw Object.assign(Error(data.error || "AI generation failed."), {
@@ -681,8 +721,9 @@
       );
     } finally {
       generating = false;
-      $("lab-suggest").disabled = !connected;
-      $("lab-backup").disabled = !connected;
+      $("lab-suggest").disabled = !connected || providers?.gemini === false;
+      $("lab-backup").disabled = !connected || providers?.groq === false;
+      if (window.ScoutLab.mode() === "hosted") await checkConnection();
     }
   }
   $("lab-suggest").onclick = () => generateQuestions();

@@ -274,6 +274,10 @@
   }
   const api = {
     async labConfig() {
+      if (typeof window !== "undefined" && window.ScoutLab) {
+        const hosted = await window.ScoutLab.hostedConfig();
+        if (hosted) return hosted;
+      }
       const local = location.protocol === "http:" && location.hostname === "127.0.0.1";
       const unavailable = () =>
         Object.assign(

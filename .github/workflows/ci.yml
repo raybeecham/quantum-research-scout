@@ -14,6 +14,25 @@ permissions:
   contents: read
 
 jobs:
+  hosted-lab:
+    name: Hosted lab security and contract tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: hosted-lab
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: hosted-lab/package-lock.json
+      - run: npm ci
+      - run: npm run check
+      - run: npm run lint
+      - run: npm test
+      - run: npm run dry-run
+
   lint:
     name: Lint and format
     runs-on: ubuntu-latest
@@ -103,6 +122,9 @@ jobs:
           preview_pid=$!
           trap 'kill "$preview_pid"' EXIT
           python scripts/verify_dashboard_browser.py --channel chromium
+
+      - name: Verify hosted lab sign-in with mocked services
+        run: python scripts/verify_hosted_lab_browser.py --channel chromium
 
       - name: Keep browser screenshots
         if: always()

@@ -1,0 +1,28 @@
+{
+  "name": "scout-hosted-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "types": "wrangler types --strict-vars=false",
+    "check": "wrangler types --strict-vars=false && tsc --noEmit",
+    "test": "vitest run",
+    "lint": "eslint src",
+    "deploy": "wrangler deploy",
+    "dry-run": "wrangler deploy --dry-run"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.11.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-plugin": "^1.1.11",
+    "@cloudflare/workers-types": "^5.20260916.1",
+    "@types/node": "^22.20.3",
+    "eslint": "^10.10.0",
+    "typescript": "~6.0.0",
+    "typescript-eslint": "^8.70.0",
+    "vitest": "^4.1.11",
+    "wrangler": "^4.133.0"
+  }
+}

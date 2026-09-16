@@ -6,11 +6,42 @@ settings:
   report_limit_per_source: 5
   fuzzy_title_threshold: 0.92
   request_timeout_seconds: 20
-  user_agent: "pqc-quantum-research-agent/0.1 (project: project: https://github.com/raybeecham/quantum-research-scout; contact: configure-in-sources-yaml)"
+  user_agent: "quantum-research-scout/0.1 (+https://github.com/raybeecham/quantum-research-scout)"
 
 source_health:
   stale_after_days: 14
   critical_source_types: [federal_award, grant_opportunity, procurement]
+  source_policies:
+    NIST Post-Quantum Cryptography Project:
+      role: reference
+      note: "Standards/project reference; an older publication date is not a collection failure."
+    IETF PQUIP:
+      role: reference
+      note: "Working-group reference; consult the linked drafts for revision dates."
+    Deloitte Quantum Cyber Readiness:
+      role: reference
+      note: "Capability/reference material, not a dated news feed."
+    Accenture Federal Services Quantum Readiness:
+      role: reference
+      note: "Federal quantum-readiness reference; separate Accenture collector tracks news."
+    BSI Germany Quantum-Safe Guidance:
+      role: reference
+      note: "Long-lived official guidance; check the document version before citing."
+    ENISA Cryptography and PQC:
+      role: reference
+      note: "Guidance hub, not daily news; older papers remain useful background."
+    Intel Quantum Research:
+      role: reference
+      note: "Official research overview replaces the fixed 2023 chip announcement; not a news feed."
+    Google Quantum AI:
+      stale_after_days: 90
+      note: "Focused research announcements publish less often than general news."
+    AWS Quantum Technologies Blog:
+      stale_after_days: 90
+      note: "Specialist research/product blog; reviewed on a quarterly freshness window."
+    NCSC UK Reports:
+      stale_after_days: 180
+      note: "Periodic reports; NCSC News provides the higher-frequency updates."
 
 historical_backfill:
   lookback_days: 730
@@ -238,6 +269,12 @@ rss_feeds:
     sitemap_max_items: 40
   - name: "Quantum Zeitgeist"
     url: "https://quantumzeitgeist.com/feed/"
+    enabled: false  # HTTP 403 in the September audit; replaced by Quantum Computing Report.
+  - name: "Quantum Computing Report"
+    url: "https://quantumcomputingreport.com/feed/"
+  - name: "Quantum Journal"
+    url: "https://quantum-journal.org/feed/"
+    max_items: 30
   - name: "CISA Cybersecurity Advisories"
     url: "https://www.cisa.gov/cybersecurity-advisories/all.xml"
     entities: [CISA]
@@ -273,8 +310,23 @@ rss_feeds:
     url: "https://feed.infoq.com/quantumcomputing/news/"
     max_items: 25
   - name: "DigiCert Blog"
-    url: "https://www.digicert.com/blog/feed/"
+    url: "https://www.digicert.com/blog/rss.xml"
     entities: [DigiCert]
+  - name: "Rigetti News"
+    url: "https://investors.rigetti.com/rss/news-releases.xml"
+    entities: [Rigetti]
+  - name: "Microsoft Quantum Blog"
+    url: "https://azure.microsoft.com/en-us/blog/quantum/feed/"
+    entities: [Microsoft Quantum]
+  - name: "Open Quantum Safe"
+    url: "https://github.com/open-quantum-safe/liboqs/releases.atom"
+    entities: [Open Quantum Safe]
+  - name: "IonQ News"
+    url: "https://investors.ionq.com/rss/pressrelease.aspx"
+    entities: [IonQ]
+  - name: "PQShield"
+    url: "https://pqshield.com/feed/"
+    entities: [PQShield]
   - name: "Keyfactor Blog"
     url: "https://www.keyfactor.com/blog/feed/"
     enabled: false  # Official endpoint no longer returns a parseable feed.
@@ -283,54 +335,39 @@ rss_feeds:
 urls:
   - name: "QuantumNews.ai"
     url: "https://quantumnews.ai/"
+    enabled: false  # Duplicate aggregator links, blocked articles, intermittent timeout; use Quantum Journal.
     same_domain_only: false
     max_items: 60
   - name: "NIST CSRC News"
     url: "https://csrc.nist.gov/news"
-    entities: [NIST]
-  - name: "NIST Post-Quantum Cryptography Project"
-    url: "https://csrc.nist.gov/projects/post-quantum-cryptography"
+    include_patterns: [/news/20]
     entities: [NIST]
   - name: "NSA Cybersecurity Advisories"
     url: "https://www.nsa.gov/Cybersecurity/Cybersecurity-Advisories-Guidance/"
     enabled: false  # NSA blocks this automated HTML collector with HTTP 403.
     entities: [NSA]
-  - name: "IETF PQUIP"
-    url: "https://datatracker.ietf.org/group/pquip/about/"
-    entities: [IETF]
-  - name: "Google Quantum AI"
-    url: "https://quantumai.google/"
-    entities: [Google Quantum AI]
-  - name: "Open Quantum Safe"
-    url: "https://openquantumsafe.org/news/"
-    entities: [Open Quantum Safe]
   - name: "Cloudflare Post-Quantum Blog"
     url: "https://blog.cloudflare.com/tag/post-quantum/"
     min_title_chars: 18
+    exclude_patterns: [/tag/, /author/]
     entities: [Cloudflare]
-  - name: "PQShield"
-    url: "https://pqshield.com/"
-    entities: [PQShield]
   - name: "IBM Quantum Blog"
     url: "https://www.ibm.com/quantum/blog"
+    include_patterns: [/quantum/blog/]
+    exclude_patterns: [/blog/tag/, /blog/category/]
     entities: [IBM]
-  - name: "Microsoft Quantum Blog"
-    url: "https://quantum.microsoft.com/en-us/insights/blogs"
-    entities: [Microsoft Quantum]
-  - name: "IonQ News"
-    url: "https://www.ionq.com/news"
-    entities: [IonQ]
   - name: "Quantinuum News"
     url: "https://www.quantinuum.com/news/news"
+    include_patterns: [/press-releases/]
     entities: [Quantinuum]
-  - name: "Rigetti News"
-    url: "https://www.rigetti.com/news"
-    entities: [Rigetti]
   - name: "SandboxAQ Blog"
     url: "https://www.sandboxaq.com/blog"
+    include_patterns: [/post/, /blog/]
     entities: [SandboxAQ]
   - name: "Thales Cybersecurity Blog"
     url: "https://cpl.thalesgroup.com/blog"
+    include_patterns: [/blog/]
+    exclude_patterns: [/blog/author, /blog/category, /blog/tag, "/blog?page"]
     entities: [Thales]
   - name: "Entrust Blog"
     url: "https://www.entrust.com/blog"
@@ -338,11 +375,28 @@ urls:
     entities: [Entrust]
 
 watch_sources:
+  - name: "NIST Post-Quantum Cryptography Project"
+    url: "https://csrc.nist.gov/projects/post-quantum-cryptography"
+    entities: [NIST]
+    include_source_page: true
+    max_items: 1
+  - name: "IETF PQUIP"
+    url: "https://datatracker.ietf.org/group/pquip/about/"
+    entities: [IETF]
+    include_source_page: true
+    max_items: 1
+  - name: "Google Quantum AI"
+    entities: [Google Quantum AI]
+    url: "https://research.google/blog/label/quantum/"
+    include_patterns: [/blog/]
+    exclude_patterns: [/blog/label/, /blog/year/]
+    match_patterns: [quantum, qubit]
+    max_items: 15
   - name: "DOE Federal Science Missions"
     entities: [Department of Energy]
     url: "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
     include_source_page: true
-    include_patterns: [genesis-mission, quantum-genesis, quantum, mission, initiative]
+    include_patterns: [genesis, quantum]
     match_patterns: [Genesis Mission, Quantum Genesis, QC-ADDS, quantum mission, national initiative]
     max_items: 30
   - name: "White House Science and Technology Missions"
@@ -367,14 +421,14 @@ watch_sources:
     max_items: 40
   - name: "Department of War Strategic Technology News"
     entities: [Department of War]
-    rss_url: "https://www.war.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=100"
+    rss_url: "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1"
     url: "https://www.war.gov/News/News-Stories/"
-    include_patterns: [mission, initiative, project, program, artificial-intelligence, quantum, cyber, technology, innovation, missile, space]
-    match_patterns: [mission, initiative, project, program, campaign, strategy, artificial intelligence, quantum, cyber, technology, innovation, autonomy, missile defense, space]
+    include_patterns: [artificial-intelligence, quantum, cyber, technology, innovation, missile, space, autonomous, computing]
+    match_patterns: [artificial intelligence, quantum, cyber, technology, innovation, autonomous, autonomy, missile defense, space, computing]
     max_items: 40
   - name: "Department of War Strategic Technology Releases"
     entities: [Department of War]
-    rss_url: "https://www.war.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9&Site=945&max=100"
+    rss_url: "https://www.war.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9&Site=945&max=40"
     url: "https://www.war.gov/News/Releases/"
     include_patterns: [mission, initiative, project, program, artificial-intelligence, quantum, cyber, technology, innovation, missile, space]
     match_patterns: [mission, initiative, project, program, campaign, strategy, artificial intelligence, quantum, cyber, technology, innovation, autonomy, missile defense, space]
@@ -403,7 +457,6 @@ watch_sources:
     max_items: 30
   - name: "Fortanix Quantum Security"
     entities: [Fortanix]
-    rss_url: "https://www.fortanix.com/blog/rss.xml"
     sitemap_urls: ["https://www.fortanix.com/sitemap.xml"]
     url: "https://www.fortanix.com/blog"
     include_patterns: [/blog/, quantum, cryptograph]
@@ -456,9 +509,11 @@ watch_sources:
     max_items: 25
   - name: "QuSecure Press Releases"
     entities: [QuSecure]
+    rss_url: "https://www.qusecure.com/feed.xml"
     sitemap_urls: ["https://www.qusecure.com/sitemap_index.xml"]
     url: "https://www.qusecure.com/press-releases/"
-    include_patterns: [press-release, press_releases, /press-releases/]
+    exclude_patterns: [/category/, /tag/]
+    match_patterns: [quantum, cryptograph, crypto-agil]
     max_items: 25
   - name: "Keyfactor Quantum and Crypto-Agility"
     entities: [Keyfactor]
@@ -503,10 +558,10 @@ watch_sources:
     url: "https://www.quera.com/"
     include_patterns: [/press-releases/]
     max_items: 25
-  - name: "Intel Quantum Research News"
+  - name: "Intel Quantum Research"
     entities: [Intel Quantum]
-    urls: ["https://www.intel.com/content/www/us/en/research/news/news-archive.html", "https://newsroom.intel.com/new-technologies/quantum-computing-chip-to-advance-research"]
+    url: "https://www.intel.com/content/www/us/en/research/quantum-computing.html"
     include_source_page: true
     include_patterns: [quantum, qubit, tunnel-falls]
     match_patterns: [quantum, qubit, tunnel falls, tunnel-falls]
-    max_items: 20
+    max_items: 1

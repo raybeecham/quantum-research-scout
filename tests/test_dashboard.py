@@ -47,6 +47,8 @@ class DashboardBuildTests(unittest.TestCase):
                 "desk.css",
                 "desk.js",
                 "research.js",
+                "lab-service.js",
+                "lab-config.json",
                 "questions.js",
                 "landscape.js",
                 "federal-research.js",

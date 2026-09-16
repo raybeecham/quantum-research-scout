@@ -25,6 +25,7 @@ def write_source_observations(
     collection: CollectionResult,
     *,
     generated_at: datetime | None = None,
+    checked_sources: set[str] | None = None,
 ) -> Path:
     """Persist what the current collection run proved about each enabled source."""
     reports_path = Path(reports_dir)
@@ -41,9 +42,20 @@ def write_source_observations(
     for warning in collection.warnings:
         warnings_by_source[warning.source_name].append(warning)
 
-    observations: list[dict[str, object]] = []
+    observations: list[dict[str, object]] = [
+        prior
+        for name, prior in previous_sources.items()
+        if checked_sources is not None and name not in checked_sources
+    ]
     for name, source_type in _configured_sources(config)[0]:
+        if checked_sources is not None and name not in checked_sources:
+            continue
         prior = previous_sources.get(name, {})
+        if name in collection.skipped_sources:
+            observations.append(
+                {**prior, "name": name, "type": source_type, "collection_state": "standby"}
+            )
+            continue
         items = items_by_source.get(name, [])
         warnings = warnings_by_source.get(name, [])
         failure_warnings = [warning for warning in warnings if warning.severity == "failure"]
@@ -68,13 +80,19 @@ def write_source_observations(
             else "success"
         )
         latest_item = max(
-            (item for item in items if item.published_at is not None),
+            (
+                item
+                for item in items
+                if item.published_at is not None and item.published_at <= generated
+            ),
             key=lambda item: item.published_at,
             default=None,
         )
         last_item_at = str(prior.get("last_item_at") or "") or None
         last_item_title = str(prior.get("last_item_title") or "") or None
         last_item_url = redact_url(prior.get("last_item_url") or "") or None
+        if _freshness(prior, generated, 14) == "invalid-date":
+            last_item_at = last_item_title = last_item_url = None
         if latest_item is not None:
             candidate_at = latest_item.published_at.astimezone(timezone.utc).isoformat()
             if not last_item_at or candidate_at > last_item_at:
@@ -85,6 +103,7 @@ def write_source_observations(
             {
                 "name": name,
                 "type": source_type,
+                "collection_state": "checked",
                 "last_checked_at": generated_text,
                 "last_success_at": generated_text
                 if outcome in {"success", "partial"}
@@ -125,10 +144,11 @@ def write_source_health_report(
 ) -> Path:
     reports_path = Path(reports_dir)
     config = load_config(config_path)
-    active, disabled = _configured_sources(config)
+    active, disabled = _configured_sources(config, include_configured_patents=True)
     observation_payload = _read_json(reports_path / "source-observations.json")
     observations = {str(item.get("name")): item for item in observation_payload.get("sources", [])}
     stale_after_days = int(config.source_health.get("stale_after_days", 14))
+    policies = config.source_health.get("source_policies", {})
     report_dates: list[str] = []
     failures: dict[str, list[dict[str, str]]] = defaultdict(list)
     expected_idle: dict[str, list[dict[str, str]]] = defaultdict(list)
@@ -177,7 +197,8 @@ def write_source_health_report(
         f"coverage limits are tracked separately.",
         "",
         f"Freshness uses the latest dated item observed during scheduled collection and "
-        f"becomes stale after **{stale_after_days} days**. Sources remain unverified until the "
+        f"becomes stale after **{stale_after_days} days** by default; source-specific cadence "
+        f"is shown below. Reference pages are not daily news. Sources remain unverified until the "
         f"observation ledger records a run.",
         "",
         "Weekend arXiv feeds with no entries are counted as expected idle days, not failures. "
@@ -226,7 +247,16 @@ def write_source_health_report(
                 if failure_days == 0 and advisory_days == 0
                 else status
             )
-        freshness = _freshness(observation, generated, stale_after_days)
+        policy = policies.get(name, {})
+        cadence = int(policy.get("stale_after_days", stale_after_days))
+        freshness = _freshness(observation, generated, cadence)
+        role = str(policy.get("role", "updates"))
+        standby = observation.get("collection_state") == "standby"
+        if standby:
+            status = "standby"
+            freshness = "standby"
+        elif role == "reference" and observation.get("last_checked_at"):
+            freshness = "reference"
         verification_status = _verification_status(observation)
         rows.append(
             (
@@ -253,6 +283,9 @@ def write_source_health_report(
                 "status": status,
                 "verification_status": verification_status,
                 "freshness": freshness,
+                "role": role,
+                "stale_after_days": cadence,
+                "source_note": policy.get("note", ""),
                 "last_checked_at": observation.get("last_checked_at"),
                 "last_success_at": observation.get("last_success_at"),
                 "last_item_at": observation.get("last_item_at"),
@@ -387,6 +420,8 @@ def _freshness(observation: dict, generated: datetime, stale_after_days: int) ->
             item_time = item_time.replace(tzinfo=timezone.utc)
     except ValueError:
         return "unknown"
+    if item_time > generated:
+        return "invalid-date"
     return (
         "stale"
         if (generated.astimezone(timezone.utc) - item_time.astimezone(timezone.utc)).days
@@ -396,7 +431,7 @@ def _freshness(observation: dict, generated: datetime, stale_after_days: int) ->
 
 
 def _verification_status(observation: dict) -> str:
-    if not observation:
+    if not observation or not observation.get("last_checked_at"):
         return "unverified"
     return "failing" if observation.get("last_outcome") == "failing" else "verified"
 
@@ -420,7 +455,8 @@ def _operational_summary(
     failing = [
         item
         for item in health_entries
-        if item.get("last_outcome") == "failing" or item.get("status") == "failing"
+        if item.get("status") != "standby"
+        and (item.get("last_outcome") == "failing" or item.get("status") == "failing")
     ]
     partial = [
         item
@@ -457,10 +493,14 @@ def _is_advisory(item: dict[str, str]) -> bool:
     return "partial coverage:" in message or "recent snapshot was truncated" in message
 
 
-def _configured_sources(config: AgentConfig) -> tuple[list[tuple[str, str]], list[tuple[str, str]]]:
+def _configured_sources(
+    config: AgentConfig, *, include_configured_patents: bool = False
+) -> tuple[list[tuple[str, str]], list[tuple[str, str]]]:
     sources: list[tuple[str, str, bool]] = []
     patent_key_env = str(config.patents.get("api_key_env") or "")
-    if config.patents.get("enabled", True) and (not patent_key_env or os.getenv(patent_key_env)):
+    if config.patents.get("enabled", True) and (
+        include_configured_patents or not patent_key_env or os.getenv(patent_key_env)
+    ):
         sources.extend(
             (item.get("name", "USPTO Patent Intelligence"), "patent", item.get("enabled", True))
             for item in config.patents.get("queries", [])

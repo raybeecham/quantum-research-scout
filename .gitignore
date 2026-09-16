@@ -6,6 +6,13 @@ __pycache__/
 .venv/
 venv/
 .env.local
+node_modules/
+.wrangler/
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+hosted-lab/worker-configuration.d.ts
+hosted-lab/dist/
 data/*.sqlite
 data/*.sqlite-*
 site/

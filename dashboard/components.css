@@ -1185,6 +1185,25 @@
   color: var(--green);
 }
 
+.source-policy-note {
+  display: block;
+  max-width: 34rem;
+  margin-top: var(--space-1);
+  font-size: var(--text-sm);
+  font-weight: normal;
+}
+.freshness.reference {
+  color: var(--violet);
+  background: var(--tint-violet);
+}
+.freshness.standby {
+  color: var(--info);
+  background: var(--tint-info);
+}
+.freshness.invalid-date {
+  color: var(--critical);
+  background: var(--tint-critical);
+}
 .freshness.stale,
 .freshness.failing {
   background: var(--tint-critical);

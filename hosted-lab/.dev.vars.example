@@ -1,0 +1,5 @@
+# Names only. Copy to .dev.vars (ignored) for local testing; use wrangler secret put for deployment.
+# These are deliberately empty and are never provider credentials.
+GITHUB_CLIENT_SECRET=
+GEMINI_API_KEY=
+GROQ_API_KEY=

@@ -1995,12 +1995,12 @@ function signalCard(item, index) {
 }
 
 function renderSources(sources) {
-  const order = { failing: 0, degraded: 1, partial: 2, healthy: 3 };
+  const order = { failing: 0, degraded: 1, partial: 2, healthy: 3, standby: 4 };
   document.getElementById("source-table").innerHTML = [...sources]
     .sort((a, b) => order[a.status] - order[b.status] || a.name.localeCompare(b.name))
     .map(
       item =>
-        `<tr><td>${escapeHtml(item.name)}</td><td>${escapeHtml(item.type)}</td><td>${item.success_rate ?? "—"}${item.success_rate == null ? "" : "%"}</td><td>${item.warning_days || 0}</td><td>${escapeHtml(formatShortDate(item.last_checked_at))}</td><td>${escapeHtml(formatShortDate(item.last_item_at))}</td><td><span class="freshness ${escapeHtml(item.freshness || "unverified")}">${escapeHtml(item.freshness || "unverified")}</span></td><td><span class="health"><i class="dot ${escapeHtml(item.status)}"></i>${escapeHtml(item.status)} · ${escapeHtml(item.verification_status || "unverified")}</span></td></tr>`,
+        `<tr><td>${escapeHtml(item.name)}${item.source_note ? `<small class="source-policy-note">${escapeHtml(item.source_note)}</small>` : ""}</td><td>${escapeHtml(item.role === "reference" ? "reference" : item.type)}</td><td>${item.success_rate ?? "—"}${item.success_rate == null ? "" : "%"}</td><td>${item.warning_days || 0}</td><td>${escapeHtml(formatShortDate(item.last_checked_at))}</td><td>${escapeHtml(formatShortDate(item.last_item_at))}</td><td><span class="freshness ${escapeHtml(item.freshness || "unverified")}" title="${escapeHtml(item.role === "reference" ? "Publication age does not measure reference validity. Check the document version." : `Latest dated item; review window ${item.stale_after_days || 14} days. Not proof of complete coverage.`)}">${escapeHtml(item.freshness || "unverified")}</span></td><td><span class="health"><i class="dot ${escapeHtml(item.status)}"></i>${escapeHtml(item.status)} · ${escapeHtml(item.verification_status || "unverified")}</span></td></tr>`,
     )
     .join("");
 }

@@ -91,6 +91,7 @@ def collect_all(config: AgentConfig) -> CollectionResult:
             continue
         result.items.extend(collected.items)
         result.warnings.extend(collected.warnings)
+        result.skipped_sources.update(collected.skipped_sources)
     return result
 
 
@@ -1113,6 +1114,12 @@ def collect_arxiv_sources(
     api_enabled = bool(arxiv_config.get("enabled", False))
     fallback_only = bool(arxiv_config.get("fallback_only", True))
     if not api_enabled or (fallback_only and rss.items):
+        if api_enabled:
+            rss.skipped_sources.update(
+                query.get("name", "arXiv")
+                for query in arxiv_config.get("queries", [])
+                if query.get("enabled", True)
+            )
         return rss
 
     api = collect_arxiv(client, arxiv_config)
@@ -1277,9 +1284,10 @@ def collect_urls(
             )
             continue
         source_count = 0
+        metadata_failures = 0
         for link in links:
             title = strip_html(link.title)
-            if len(title) < min_title_chars:
+            if len(title) < min_title_chars or not _watch_candidate(link.url, title, source):
                 continue
             article_metadata = None
             article_url = link.url
@@ -1291,12 +1299,16 @@ def collect_urls(
                 metadata_error = str(exc)
             except Exception as exc:  # pragma: no cover - parser hardening fallback
                 metadata_error = f"Failed to parse article metadata: {exc}"
+            if metadata_error:
+                metadata_failures += 1
 
             result.items.append(
                 ResearchItem(
                     source_name=name,
                     source_type="url",
-                    title=title,
+                    title=article_metadata.title
+                    if article_metadata and article_metadata.title
+                    else title,
                     url=article_url,
                     summary=compact_summary(
                         article_metadata.description if article_metadata else "", 500
@@ -1324,6 +1336,21 @@ def collect_urls(
             source_count += 1
             if source_count >= max_items:
                 break
+        if not source_count:
+            result.warnings.append(
+                SourceWarning(name, "url", "HTML page returned no matching entries.", source_url)
+            )
+        elif metadata_failures:
+            result.warnings.append(
+                SourceWarning(
+                    name,
+                    "url",
+                    f"Partial coverage: {metadata_failures} article pages could not be read; "
+                    "their link titles are available but article metadata is unverified.",
+                    source_url,
+                    severity="advisory",
+                )
+            )
     LOGGER.info("Collected %d URL page candidates", len(result.items))
     return result
 
@@ -1512,6 +1539,7 @@ def _collect_watch_page(
             )
 
     min_title_chars = int(source.get("min_title_chars", 12))
+    metadata_failures = 0
     for link in links:
         if len(result.items) >= max_items:
             break
@@ -1528,7 +1556,7 @@ def _collect_watch_page(
             article_html, article_url = client.get_text(link.url)
             metadata = extract_page_metadata(article_html, article_url, source_name)
         except Exception:
-            pass
+            metadata_failures += 1
         item_title = metadata.title if metadata and metadata.title else title
         result.items.append(
             ResearchItem(
@@ -1544,6 +1572,17 @@ def _collect_watch_page(
             )
         )
     result.items = _filter_watch_items(result.items, source)
+    if result.items and metadata_failures:
+        result.warnings.append(
+            SourceWarning(
+                source_name,
+                "watch",
+                f"Partial coverage: {metadata_failures} article pages could not be read; "
+                "their link titles are available but article metadata is unverified.",
+                source_url,
+                severity="advisory",
+            )
+        )
     if not result.items:
         result.warnings.append(
             SourceWarning(
@@ -1666,6 +1705,10 @@ def _collect_feed(
         )
         return result
 
+    entries.sort(
+        key=lambda entry: entry.published_at or datetime.min.replace(tzinfo=timezone.utc),
+        reverse=True,
+    )
     for entry in entries[:max_items]:
         result.items.append(
             ResearchItem(

@@ -621,22 +621,23 @@
     button.disabled = true;
     output.textContent = "Reading the supplied excerpt…";
     try {
-      const { token } = await window.ScoutResearch.labConfig();
+      const config = await window.ScoutResearch.labConfig();
       const provider = $("reader-provider").value;
-      const response = await fetch("api/lab/read", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", "X-Scout-Token": token },
-        body: JSON.stringify({
+      const response = await window.ScoutLab.request(
+        config,
+        "read",
+        {
           provider,
+          consent: true,
           backup_consent: provider === "groq",
           reading_consent: true,
           title: item.title.slice(0, 1000),
           excerpt: item.summary.slice(0, 6000),
           task: $("reader-task").value,
           question: $("reader-question").value,
-        }),
-        signal: AbortSignal.timeout(90000),
-      });
+        },
+        90000,
+      );
       const data = await response.json();
       if (!response.ok) throw Error(data.error || "Reading assistance unavailable.");
       if (serial === readerRequest)

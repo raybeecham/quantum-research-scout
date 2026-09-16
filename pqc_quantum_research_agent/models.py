@@ -56,6 +56,7 @@ class SourceWarning:
 class CollectionResult:
     items: list[ResearchItem] = field(default_factory=list)
     warnings: list[SourceWarning] = field(default_factory=list)
+    skipped_sources: set[str] = field(default_factory=set)
 
 
 @dataclass(slots=True)

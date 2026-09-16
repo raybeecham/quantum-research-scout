@@ -215,6 +215,30 @@ def extract_page_metadata(
     parser.feed(html_text)
     parser.close()
     extraction = _best_publication_date(parser, base_url, source_name)
+    if extraction[0] is None:
+        host = _safe_host(base_url)
+        match = None
+        date_source = ""
+        if host in {"www.ibm.com", "ibm.com"} and "/quantum/blog/" in base_url:
+            match = re.search(
+                r"<p\b[^>]*>\s*Date\s*</p>\s*<p\b[^>]*>\s*(\d{1,2} [A-Za-z]{3} \d{4})\s*</p>",
+                html_text,
+                re.IGNORECASE,
+            )
+            date_source = "explicit_metadata:ibm_article_date"
+        elif host == "research.google":
+            match = re.search(r"data-gt-publish-date=[\"\x27](\d{8})[\"\x27]", html_text)
+            date_source = "explicit_metadata:google_publish_date"
+        elif host in {"www.quantinuum.com", "www.quera.com"} and "/press-releases/" in base_url:
+            # Ignore dates on related-story cards and global navigation.
+            field = "pr_date_text" if host == "www.quantinuum.com" else "inner_details-text"
+            match = re.search(
+                rf'<div\b[^>]*class="{field}"[^>]*>\s*([A-Za-z]+ \d{{1,2}}, \d{{4}})\s*</div>',
+                html_text,
+            )
+            date_source = f"explicit_metadata:{field}"
+        if match and (published := parse_datetime(match.group(1))) is not None:
+            extraction = (published, date_source, match.group(1), "high")
     return PageMetadata(
         title=parser.meta_title or parser.page_title,
         description=parser.meta_description,

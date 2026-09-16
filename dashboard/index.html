@@ -253,9 +253,11 @@
           research.
         </p>
         <section class="lab-connection" aria-labelledby="lab-connection-heading">
-          <h2 id="lab-connection-heading">Private lab connection</h2>
+          <h2 id="lab-connection-heading">Lab connection</h2>
           <p id="lab-connection-status" role="status">Checking the private lab connection…</p>
           <div class="lab-connection-actions">
+            <button id="lab-sign-in" class="desk-button" type="button" hidden>Sign in with GitHub</button>
+            <button id="lab-sign-out" class="desk-button" type="button" hidden>Sign out</button>
             <button id="lab-reconnect" class="desk-button" type="button">Check connection again</button>
             <a
               id="lab-open-local"
@@ -267,6 +269,12 @@
               Open private lab ↗
             </a>
           </div>
+          <p id="lab-usage" hidden></p>
+          <p id="lab-hosted-note" hidden>
+            Invite-only hosted lab. Sign-in lasts up to one hour in this tab; refreshing requires sign-in again. Only
+            your explicitly submitted topic and excerpts leave this browser, not notebook notes. Usage limits are shared
+            across providers. Provider billing and data-use terms still apply.
+          </p>
           <details id="lab-connection-help">
             <summary>How to use the private lab</summary>
             <p>
@@ -331,7 +339,7 @@
               <input id="lab-consent" type="checkbox" />
               <span>
                 Send this topic and selected excerpts to Gemini (two calls per generation: draft + critique; 20 call
-                slots/day; use a free-tier Google project. Billing-enabled projects may incur charges).
+                slots/day on the private server; hosted limits appear above. Provider billing terms apply).
               </span>
             </label>
             <button id="lab-suggest" class="desk-button" type="button" disabled>Generate research questions</button>
@@ -351,9 +359,9 @@
             <details>
               <summary>Gemini unavailable? Use the backup</summary>
               <p>
-                Groq is an independent provider. Requires GROQ_API_KEY in the private server's .env.local file. Account
-                limits and billing terms apply. Both providers share the 20-call daily cap; a backup generation uses two
-                more call slots. The private lab server must be connected for either provider to work.
+                Groq is an independent provider configured by the server operator. Account limits and billing terms
+                apply. Both providers share the server's daily cap; a backup generation uses two more call slots. A
+                connected lab server is required for either provider to work.
               </p>
               <label class="lab-consent-row">
                 <input id="lab-backup-consent" type="checkbox" />
@@ -1224,6 +1232,12 @@
               </div>
               <p id="source-summary" class="updated"></p>
             </div>
+            <p class="source-health-explainer">
+              Reliability measures collection attempts, not scientific credibility. Stale means no recent dated item was
+              observed—not that a source is broken. Reference sources contain long-lived guidance. Standby collectors
+              run only when their primary feed is empty. Unknown dates remain unknown; future dates do not count as
+              fresh evidence.
+            </p>
             <div class="table-wrap">
               <table>
                 <thead>
@@ -1281,6 +1295,7 @@
     </noscript>
     <script src="vendor/katex-0.18.7/dist/katex.min.js" defer></script>
     <script src="math.js?v=__ASSET_VERSION__" defer></script>
+    <script src="lab-service.js?v=__ASSET_VERSION__" defer></script>
     <script src="research.js?v=__ASSET_VERSION__" defer></script>
     <script src="landscape.js?v=__ASSET_VERSION__" defer></script>
     <script src="federal-research.js?v=__ASSET_VERSION__" defer></script>
@@ -1289,3 +1304,4 @@
     <script src="app.js?v=__ASSET_VERSION__" defer></script>
   </body>
 </html>
+
