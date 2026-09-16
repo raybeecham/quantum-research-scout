@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-09-15 02:50 UTC_
+_Updated 2026-09-16 02:45 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
 USAspending records describe reported awards; Grants.gov and SAM.gov records describe opportunities or notices. Analytical mission and patent links are not evidence that a patent was funded by, used by, or formally associated with a mission.
 
 - Tracked records: **500**
-- Awards / grant opportunities / procurement opportunities: **493 / 3 / 2**
-- Open opportunities: **2** (including 0 BAA and 2 RFI records)
+- Awards / grant opportunities / procurement opportunities: **494 / 2 / 2**
+- Open opportunities: **1** (including 0 BAA and 2 RFI records)
 - Opportunity radar: **1 mission-linked**, **0 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **14**
 - Missions with activity: **4 of 10**
 - Named recipients and contractors: **318**
-- Known reported award value: **$504.0M**
+- Known reported award value: **$517.1M**
 
 ## Opportunity Radar
 
@@ -26,7 +26,6 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | Rank | Opportunity | Type | Close | Mission | Technology | Score | Recommended action |
 |---:|---|---|---|---|---|---:|---|
 | 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
-| 2 | [Advancing Global Health](https://www.grants.gov/search-results-detail/363649) | GRANT_OPPORTUNITY | 02/14/2027 | Not linked | quantum, post-quantum cryptography | **32 · MONITOR** | Review technical fit, eligibility, and submission requirements. |
 
 ## Mission Funding Portfolios
 
@@ -48,7 +47,6 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | Opportunity | Type | Agency | Close | Mission link | Significance |
 |---|---|---|---|---|---:|
 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | PAMS-SC | 12/17/2026 | Genesis Mission (high) | **59 · HIGH** |
-| [Advancing Global Health](https://www.grants.gov/search-results-detail/363649) | GRANT_OPPORTUNITY | DOS-GHSD | 02/14/2027 | Not linked | **24 · MONITOR** |
 
 ## Awards and Funding Announcements
 
@@ -73,6 +71,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [PURPOSE:THE PROJECT WILL ESTABLISH A DEDICATED FACILITY, EQUIPPED WITH BEST-AVAILABLE EQUIPMENT, TO ENABLE EDUCATION, RESEARCH, AND DEVELOPMENT OF INNOVATIVE AI AND CYBERSECURITY...](https://www.usaspending.gov/award/ASST_NON_60NANB26D170_013) | 2026-10-01 | UNIVERSITY OF SOUTH FLORIDA | $2.0M | Not linked |
 | [I-CORPS: TRANSLATION POTENTIAL OF QUANTUM-ARTIFICIAL INTELLIGENCE (AI) IN ENERGY AND INFRASTRUCTURE SECURITY AND RESILIENCE -THIS I-CORPS PROJECT IS BASED ON THE DEVELOPMENT OF A...](https://www.usaspending.gov/award/ASST_NON_2632169_049) | 2026-09-01 | CARNEGIE-MELLON UNIVERSITY | $50.0K | Not linked |
 | [THE APPLE TEA PROJECT: EXPERIENTIAL LEARNING ACTIVITIES WITH AI-AUGMENTED PATHWAYS TO BUILD TEAMWORK SKILLS IN COMMUNITY COLLEGE CYBERSECURITY EDUCATION -THE APPLE TEA PROJECT AIM...](https://www.usaspending.gov/award/ASST_NON_2600274_049) | 2026-10-15 | CARNEGIE-MELLON UNIVERSITY | $999.5K | Not linked |
+| [QUANTUM SENSORS FFRDC](https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001) | 2026-09-15 | THE MITRE CORPORATION | $1.3M | Not linked |
 | [S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCI...](https://www.usaspending.gov/award/ASST_NON_2620285_049) | 2027-01-01 | THE REGENTS OF THE UNIVERSITY OF COLORADO | $2.0M | Not linked |
 | [NSF AI INSTITUTE FOR EDGE COMPUTING AND SYSTEMS (ATHENA) -THE NSF ARTIFICIAL INTELLIGENCE (AI) INSTITUTE FOR EDGE COMPUTING AND SYSTEMS (ATHENA) CONDUCTS RESEARCH TOWARD ?BIG AI F...](https://www.usaspending.gov/award/ASST_NON_2625580_049) | 2026-11-01 | DUKE UNIVERSITY | $3.0M | Not linked |
 | [REU SITE: AI IN SENSING, ROBOTICS, AND HEALTHCARE (AI-CARE) -DURING A TEN-WEEK SUMMER SESSION, UNDERGRADUATE PARTICIPANTS FROM INSTITUTIONS NATIONWIDE WILL ENGAGE IN EXCITING AND...](https://www.usaspending.gov/award/ASST_NON_2545697_049) | 2026-10-15 | THE JOHNS HOPKINS UNIVERSITY | $505.4K | Not linked |
@@ -83,7 +82,6 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [INFORMATION SYSTEMS SECURITY SUPPORT SERVICES - CALL ORDER 6 POST QUANTUM CRYPTOGRAPHY](https://www.usaspending.gov/award/CONT_AWD_91990025F0111_9100_91990023A0002_9100) | 2025-09-30 | VALIANT SOLUTIONS, LLC | $764.4K | Not linked |
 | [SPARTAN - SECURE PATH-ROUTING WITH AUTONOMOUS RESILIENCE FOR TARGETING AND ADAPTIVE NAVIGATION SBIR PHASE II](https://www.usaspending.gov/award/CONT_AWD_FA237725CB008_9700_-NONE-_-NONE-) | 2025-05-14 | POST QUANTUM LABS LLC | $1.4M | Not linked |
 | [CER: STUDENTS TECHNICAL AND PROFESSIONAL DEVELOPMENT IN ARTIFICIAL INTELLIGENCE AND QUANTUM COMPUTING -THIS PROJECT PROVIDES SUPPORT FOR A TOTAL OF 600 STUDENTS AND FACULTY FROM A...](https://www.usaspending.gov/award/ASST_NON_2625956_049) | 2026-10-01 | NEW MEXICO STATE UNIVERSITY | $600.0K | Not linked |
-| [COLLABORATIVE RESEARCH: VINES: TRACK 1:QUANTUM-READY AND AI-ENABLED BY DESIGN: RESILIENT AND DEPLOYABLE NEXT-GEN CELLULAR NETWORKS -THIS COLLABORATIVE PROJECT AIMS TO IMPROVE THE...](https://www.usaspending.gov/award/ASST_NON_2548945_049) | 2026-10-01 | PURDUE UNIVERSITY | $332.9K | Not linked |
 
 ## Contractor Intelligence Profiles
 
@@ -91,7 +89,7 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 
 | Contractor | Identity | Score | Incumbency | Momentum | Awards | Recent value | Agencies | Missions | Patents |
 |---|---|---:|---|---|---:|---:|---|---|---:|
-| THE MITRE CORPORATION | UEI DMHDNDCPWUD1 | **55 · SIGNIFICANT** | Emerging Entrant | New Entrant | 5 | $4.9M | Department of Commerce, Department of Health and Human Services, Department of Homeland Security | Not linked | 2 |
+| THE MITRE CORPORATION | UEI DMHDNDCPWUD1 | **57 · SIGNIFICANT** | Emerging Entrant | New Entrant | 6 | $6.2M | Department of Commerce, Department of Health and Human Services, Department of Homeland Security | Not linked | 2 |
 | CARNEGIE-MELLON UNIVERSITY | UEI U3NKNFLNQ613 | **53 · SIGNIFICANT** | Emerging Entrant | New Entrant | 4 | $6.6M | National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF SOUTH FLORIDA | UEI NKAZLXLL7Z91 | **52 · SIGNIFICANT** | Emerging Entrant | New Entrant | 4 | $3.2M | Department of Commerce, National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UEI NPU8ULVAAS23 | **51 · SIGNIFICANT** | Emerging Entrant | New Entrant | 2 | $9.4M | Department of Defense, National Science Foundation | darpa-qbi | 2 |
@@ -138,7 +136,7 @@ These are assignee-name matches, not proof that an award funded a patent.
 
 | Recipient / contractor | Records | Known awards | Related patents | Missions |
 |---|---:|---:|---:|---|
-| THE MITRE CORPORATION | 5 | $4.9M | 2 | Not linked |
+| THE MITRE CORPORATION | 6 | $6.2M | 2 | Not linked |
 | CARNEGIE-MELLON UNIVERSITY | 4 | $6.6M | 1 | Not linked |
 | UNIVERSITY OF SOUTH FLORIDA | 4 | $3.2M | 1 | Not linked |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | 2 | $9.4M | 2 | darpa-qbi |

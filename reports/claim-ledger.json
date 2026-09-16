@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-09-15",
+  "as_of_date": "2026-09-16",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,741 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-5917e99baa2070b7",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-15",
+      "evidence_ids": [
+        "evidence-8783fb23acc00fcc"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8783fb23acc00fcc",
+          "locator": "opportunity_status:awarded",
+          "title": "QUANTUM SENSORS FFRDC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70RSAT26FR0000048",
+        "label": "QUANTUM SENSORS FFRDC",
+        "node_id": "award:usaspending:70RSAT26FR0000048",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e02746d5eb61d5a4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-490fd179211d729c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-15",
+      "evidence_ids": [
+        "evidence-cacccf4f99dec43e"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cacccf4f99dec43e",
+          "locator": "awarding_agency:department of homeland security",
+          "title": "QUANTUM SENSORS FFRDC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70RSAT26FR0000048",
+        "label": "QUANTUM SENSORS FFRDC",
+        "node_id": "award:usaspending:70RSAT26FR0000048",
+        "node_type": "award"
+      },
+      "value": "Department of Homeland Security",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ed48d73c54a66418"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-daf36a432b7cd5e0",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-15",
+      "evidence_ids": [
+        "evidence-a5a7ba5fa6877106"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a5a7ba5fa6877106",
+          "locator": "reported_amount:1271800.0",
+          "title": "QUANTUM SENSORS FFRDC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70RSAT26FR0000048",
+        "label": "QUANTUM SENSORS FFRDC",
+        "node_id": "award:usaspending:70RSAT26FR0000048",
+        "node_type": "award"
+      },
+      "value": 1271800.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "334ccc6ba0957333"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-8f77a72c7e413c84",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-15",
+      "evidence_ids": [
+        "evidence-9528c97518224a08"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:DMHDNDCPWUD1",
+        "label": "THE MITRE CORPORATION",
+        "node_id": "recipient_or_contractor:uei:DMHDNDCPWUD1",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9528c97518224a08",
+          "locator": "reported_recipient:recipient_or_contractor:uei:DMHDNDCPWUD1",
+          "title": "QUANTUM SENSORS FFRDC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70RSAT26FR0000048",
+        "label": "QUANTUM SENSORS FFRDC",
+        "node_id": "award:usaspending:70RSAT26FR0000048",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "29d022810a0c7c9f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-aeed952f62fe641a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-02-13",
+      "evidence_ids": [
+        "evidence-2bfa7a86157178ef"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2bfa7a86157178ef",
+          "locator": "opportunity_status:awarded",
+          "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:W912HZ26CA026",
+        "label": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+        "node_id": "award:usaspending:W912HZ26CA026",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7b302f2636fb411a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-a355c25a6574402c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-02-13",
+      "evidence_ids": [
+        "evidence-dca7f95eb0fe36ea"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-dca7f95eb0fe36ea",
+          "locator": "awarding_agency:department of defense",
+          "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:W912HZ26CA026",
+        "label": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+        "node_id": "award:usaspending:W912HZ26CA026",
+        "node_type": "award"
+      },
+      "value": "Department of Defense",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "a7f33255b6b038e6"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-cbeb6748fa6ca316",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-02-13",
+      "evidence_ids": [
+        "evidence-6ee16ca4e3f92903"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6ee16ca4e3f92903",
+          "locator": "reported_amount:11716059.0",
+          "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:W912HZ26CA026",
+        "label": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+        "node_id": "award:usaspending:W912HZ26CA026",
+        "node_type": "award"
+      },
+      "value": 11716059.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3e14ea458d0b40a6"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-3b31f673a1f853ac",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-02-13",
+      "evidence_ids": [
+        "evidence-3e412c330e18dee4"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:FYLAKMN93AK5",
+        "label": "HEWLETT PACKARD ENTERPRISE CO",
+        "node_id": "recipient_or_contractor:uei:FYLAKMN93AK5",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3e412c330e18dee4",
+          "locator": "reported_recipient:recipient_or_contractor:uei:FYLAKMN93AK5",
+          "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:W912HZ26CA026",
+        "label": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+        "node_id": "award:usaspending:W912HZ26CA026",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ed319cd998e83360"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-2bc6308de86258e4",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-14",
+      "evidence_ids": [
+        "evidence-f59c7256fe4ac273"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f59c7256fe4ac273",
+          "locator": "opportunity_status:awarded",
+          "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98026F00340",
+        "label": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+        "node_id": "award:usaspending:75N98026F00340",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d57c7ce794fe5cfb"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-3724221e5895989a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-14",
+      "evidence_ids": [
+        "evidence-d073e9565a411d99"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d073e9565a411d99",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98026F00340",
+        "label": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+        "node_id": "award:usaspending:75N98026F00340",
+        "node_type": "award"
+      },
+      "value": "Department of Health and Human Services",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "2cd1e371ef35d328"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-cec19c68481cc9a9",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-14",
+      "evidence_ids": [
+        "evidence-27b4801dfd6d0b9f"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-27b4801dfd6d0b9f",
+          "locator": "reported_amount:111954.0",
+          "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98026F00340",
+        "label": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+        "node_id": "award:usaspending:75N98026F00340",
+        "node_type": "award"
+      },
+      "value": 111954.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "793764c202ad9a1e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-bb3e5752d9db0249",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-14",
+      "evidence_ids": [
+        "evidence-26e1bf279198cb27"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:GNL2NWC66HJ9",
+        "label": "H. CO. COMPUTER PRODUCTS",
+        "node_id": "recipient_or_contractor:uei:GNL2NWC66HJ9",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-26e1bf279198cb27",
+          "locator": "reported_recipient:recipient_or_contractor:uei:GNL2NWC66HJ9",
+          "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98026F00340",
+        "label": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+        "node_id": "award:usaspending:75N98026F00340",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e0ce7f38cbfcdc5a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-2d730f446083a694",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-16",
+      "evidence_ids": [
+        "evidence-0e43f155bc66d103"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0e43f155bc66d103",
+          "locator": "legal_business_name:oddball, inc.",
+          "title": "ODDBALL, INC.",
+          "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MHNFNJ1J5RF5",
+        "label": "ODDBALL, INC.",
+        "node_id": "recipient_or_contractor:uei:MHNFNJ1J5RF5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "ODDBALL, INC.",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "213470edbe08a5b4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-89e411a6544130b4",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-16",
+      "evidence_ids": [
+        "evidence-a61093aa4455cb12"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a61093aa4455cb12",
+          "locator": "uei:mhnfnj1j5rf5",
+          "title": "ODDBALL, INC.",
+          "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MHNFNJ1J5RF5",
+        "label": "ODDBALL, INC.",
+        "node_id": "recipient_or_contractor:uei:MHNFNJ1J5RF5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "MHNFNJ1J5RF5",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "2f3d95195631a06f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-965908f93c886293",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-16",
+      "evidence_ids": [
+        "evidence-212cff7469c063fc"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-212cff7469c063fc",
+          "locator": "cage_code:7hl75",
+          "title": "ODDBALL, INC.",
+          "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MHNFNJ1J5RF5",
+        "label": "ODDBALL, INC.",
+        "node_id": "recipient_or_contractor:uei:MHNFNJ1J5RF5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "7HL75",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "2f75fe3a5ca3a281"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-d35c18d7cb83c960",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-16",
+      "evidence_ids": [
+        "evidence-252e3dcae6d3c431"
+      ],
+      "first_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-16T02:45:46.761366+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-252e3dcae6d3c431",
+          "locator": "registration_status:active",
+          "title": "ODDBALL, INC.",
+          "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MHNFNJ1J5RF5",
+        "label": "ODDBALL, INC.",
+        "node_id": "recipient_or_contractor:uei:MHNFNJ1J5RF5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "30706cfbb7411910"
     },
     {
       "authority": "authoritative",
@@ -54667,191 +55402,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-d1067b80f1dcfb5d",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-19",
-      "evidence_ids": [
-        "evidence-cdd2664c929c0e7e"
-      ],
-      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cdd2664c929c0e7e",
-          "locator": "opportunity_status:awarded",
-          "title": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_68HERL26P0292_6800_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:68HERL26P0292",
-        "label": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
-        "node_id": "award:usaspending:68HERL26P0292",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "98c71a2507180d7f"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-77f4b848831c17a8",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-19",
-      "evidence_ids": [
-        "evidence-d85ae98b8124d522"
-      ],
-      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d85ae98b8124d522",
-          "locator": "awarding_agency:environmental protection agency",
-          "title": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_68HERL26P0292_6800_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:68HERL26P0292",
-        "label": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
-        "node_id": "award:usaspending:68HERL26P0292",
-        "node_type": "award"
-      },
-      "value": "Environmental Protection Agency",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "621dd929a47128f8"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-5c0477cab30e7be5",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-19",
-      "evidence_ids": [
-        "evidence-66fe07012af36a8c"
-      ],
-      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-66fe07012af36a8c",
-          "locator": "reported_amount:27110.34",
-          "title": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_68HERL26P0292_6800_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:68HERL26P0292",
-        "label": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
-        "node_id": "award:usaspending:68HERL26P0292",
-        "node_type": "award"
-      },
-      "value": 27110.34,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "62f14bb98dce36ff"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-591782b6bdb9c740",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-19",
-      "evidence_ids": [
-        "evidence-283ad0a4ed429292"
-      ],
-      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:YZTLALWM4UC7",
-        "label": "STERLING COMPUTERS CORPORATION",
-        "node_id": "recipient_or_contractor:uei:YZTLALWM4UC7",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-283ad0a4ed429292",
-          "locator": "reported_recipient:recipient_or_contractor:uei:YZTLALWM4UC7",
-          "title": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_68HERL26P0292_6800_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:68HERL26P0292",
-        "label": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
-        "node_id": "award:usaspending:68HERL26P0292",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "fb0ec8c1a27dde2f"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-b0cfa49dca23c89e",
       "confidence": "high",
@@ -55389,6 +55939,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "320a4f2d0ee2442b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-d1067b80f1dcfb5d",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-19",
+      "evidence_ids": [
+        "evidence-cdd2664c929c0e7e"
+      ],
+      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cdd2664c929c0e7e",
+          "locator": "opportunity_status:awarded",
+          "title": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_68HERL26P0292_6800_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:68HERL26P0292",
+        "label": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
+        "node_id": "award:usaspending:68HERL26P0292",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "98c71a2507180d7f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-77f4b848831c17a8",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-19",
+      "evidence_ids": [
+        "evidence-d85ae98b8124d522"
+      ],
+      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d85ae98b8124d522",
+          "locator": "awarding_agency:environmental protection agency",
+          "title": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_68HERL26P0292_6800_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:68HERL26P0292",
+        "label": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
+        "node_id": "award:usaspending:68HERL26P0292",
+        "node_type": "award"
+      },
+      "value": "Environmental Protection Agency",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "621dd929a47128f8"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-5c0477cab30e7be5",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-19",
+      "evidence_ids": [
+        "evidence-66fe07012af36a8c"
+      ],
+      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-66fe07012af36a8c",
+          "locator": "reported_amount:27110.34",
+          "title": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_68HERL26P0292_6800_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:68HERL26P0292",
+        "label": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
+        "node_id": "award:usaspending:68HERL26P0292",
+        "node_type": "award"
+      },
+      "value": 27110.34,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "62f14bb98dce36ff"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-591782b6bdb9c740",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-19",
+      "evidence_ids": [
+        "evidence-283ad0a4ed429292"
+      ],
+      "first_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:YZTLALWM4UC7",
+        "label": "STERLING COMPUTERS CORPORATION",
+        "node_id": "recipient_or_contractor:uei:YZTLALWM4UC7",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-283ad0a4ed429292",
+          "locator": "reported_recipient:recipient_or_contractor:uei:YZTLALWM4UC7",
+          "title": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_68HERL26P0292_6800_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:68HERL26P0292",
+        "label": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
+        "node_id": "award:usaspending:68HERL26P0292",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "fb0ec8c1a27dde2f"
     },
     {
       "authority": "authoritative",
@@ -63982,141 +64717,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-573d537a5ba07c15",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-18",
-      "evidence_ids": [
-        "evidence-a0733b621a11f86f"
-      ],
-      "first_seen_at": "2026-08-19T00:50:32.420067+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-19T00:50:32.420067+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a0733b621a11f86f",
-          "locator": "opportunity_status:open",
-          "title": "Advancing Global Health",
-          "url": "https://www.grants.gov/search-results-detail/363649",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:DFOP0017890",
-        "label": "Advancing Global Health",
-        "node_id": "opportunity:grants_gov:DFOP0017890",
-        "node_type": "opportunity"
-      },
-      "value": "open",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "6953e11b9ca30cee"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-f6e706ba64ed348f",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-18",
-      "evidence_ids": [
-        "evidence-1ea861461c621a95"
-      ],
-      "first_seen_at": "2026-08-19T00:50:32.420067+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-19T00:50:32.420067+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1ea861461c621a95",
-          "locator": "deadline:02/14/2027",
-          "title": "Advancing Global Health",
-          "url": "https://www.grants.gov/search-results-detail/363649",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:DFOP0017890",
-        "label": "Advancing Global Health",
-        "node_id": "opportunity:grants_gov:DFOP0017890",
-        "node_type": "opportunity"
-      },
-      "value": "02/14/2027",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "9fd1b54409d1e393"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-6741726396572a7a",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-18",
-      "evidence_ids": [
-        "evidence-3fd1fd0bc037fda6"
-      ],
-      "first_seen_at": "2026-08-19T00:50:32.420067+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-19T00:50:32.420067+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3fd1fd0bc037fda6",
-          "locator": "awarding_agency:dos-ghsd",
-          "title": "Advancing Global Health",
-          "url": "https://www.grants.gov/search-results-detail/363649",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:DFOP0017890",
-        "label": "Advancing Global Health",
-        "node_id": "opportunity:grants_gov:DFOP0017890",
-        "node_type": "opportunity"
-      },
-      "value": "DOS-GHSD",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "69d90ef9589868f9"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-e29b6dc469a22aae",
       "confidence": "high",
@@ -64654,6 +65254,141 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "666db55df257e076"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-573d537a5ba07c15",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-18",
+      "evidence_ids": [
+        "evidence-a0733b621a11f86f"
+      ],
+      "first_seen_at": "2026-08-19T00:50:32.420067+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-19T00:50:32.420067+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a0733b621a11f86f",
+          "locator": "opportunity_status:open",
+          "title": "Advancing Global Health",
+          "url": "https://www.grants.gov/search-results-detail/363649",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:DFOP0017890",
+        "label": "Advancing Global Health",
+        "node_id": "opportunity:grants_gov:DFOP0017890",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6953e11b9ca30cee"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-f6e706ba64ed348f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-18",
+      "evidence_ids": [
+        "evidence-1ea861461c621a95"
+      ],
+      "first_seen_at": "2026-08-19T00:50:32.420067+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-19T00:50:32.420067+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1ea861461c621a95",
+          "locator": "deadline:02/14/2027",
+          "title": "Advancing Global Health",
+          "url": "https://www.grants.gov/search-results-detail/363649",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:DFOP0017890",
+        "label": "Advancing Global Health",
+        "node_id": "opportunity:grants_gov:DFOP0017890",
+        "node_type": "opportunity"
+      },
+      "value": "02/14/2027",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9fd1b54409d1e393"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-6741726396572a7a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-18",
+      "evidence_ids": [
+        "evidence-3fd1fd0bc037fda6"
+      ],
+      "first_seen_at": "2026-08-19T00:50:32.420067+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-19T00:50:32.420067+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3fd1fd0bc037fda6",
+          "locator": "awarding_agency:dos-ghsd",
+          "title": "Advancing Global Health",
+          "url": "https://www.grants.gov/search-results-detail/363649",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:DFOP0017890",
+        "label": "Advancing Global Health",
+        "node_id": "opportunity:grants_gov:DFOP0017890",
+        "node_type": "opportunity"
+      },
+      "value": "DOS-GHSD",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "69d90ef9589868f9"
     },
     {
       "authority": "authoritative",
@@ -126128,14 +126863,14 @@
       "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
       "history": [],
       "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:EACWBKJV6636",
         "label": "ZAYO GROUP LLC",
         "node_id": "recipient_or_contractor:uei:EACWBKJV6636",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -147078,9 +147813,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -147123,9 +147858,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -147168,9 +147903,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -197598,9 +198333,9 @@
       "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
       "history": [],
       "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -217510,7 +218245,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217557,7 +218292,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217604,7 +218339,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217651,7 +218386,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217698,7 +218433,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217745,7 +218480,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217792,7 +218527,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217839,7 +218574,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217886,7 +218621,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217933,7 +218668,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -217980,7 +218715,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218027,7 +218762,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218074,7 +218809,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218121,7 +218856,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218168,7 +218903,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218215,7 +218950,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218262,7 +218997,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218309,7 +219044,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218361,7 +219096,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218413,7 +219148,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218465,7 +219200,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218517,7 +219252,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218569,7 +219304,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218621,7 +219356,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218673,7 +219408,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218725,7 +219460,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -218777,7 +219512,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-15T02:50:31.121146+00:00",
+      "retracted_at": "2026-09-16T02:45:46.761366+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221583,6 +222318,16 @@
       "locator": "reported_amount:76780.0",
       "title": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
       "url": "https://www.usaspending.gov/award/ASST_NON_F32EB040202_075",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0e43f155bc66d103",
+      "locator": "legal_business_name:oddball, inc.",
+      "title": "ODDBALL, INC.",
+      "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -224657,6 +225402,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-212cff7469c063fc",
+      "locator": "cage_code:7hl75",
+      "title": "ODDBALL, INC.",
+      "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "5943867ddbc38a82ae98d35a5743440995b35e4f5721dbae7319052efff6428e",
       "controlling_status": "not_established",
       "evidence_id": "evidence-2130f1a755f5a466",
@@ -225319,6 +226074,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-252e3dcae6d3c431",
+      "locator": "registration_status:active",
+      "title": "ODDBALL, INC.",
+      "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-2547cf474d51d588",
       "locator": "reported_recipient:recipient_or_contractor:uei:SZPJL5ZRCLF4",
       "title": "SUPPORTING MODEL-BASED REASONING IN SEMICONDUCTOR ENGINEERING INSTRUCTION: AN AI-GUIDED IMMERSIVE LEARNING APPROACH -THIS PROJECT AIMS TO SERVE THE NATIONAL INTEREST BY ADDRESSING...",
@@ -225589,6 +226354,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-26e1bf279198cb27",
+      "locator": "reported_recipient:recipient_or_contractor:uei:GNL2NWC66HJ9",
+      "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-26f0d5fe082b8889",
       "locator": "reported_recipient:recipient_or_contractor:uei:MKAGLD59JRL1",
       "title": "CONFERENCE: WORKSHOP ON BREAKTHROUGH RESEARCH IN INTRACORTICAL DYNAMICS AND GALVANIZING EXPLORATION OF SENSORIMOTOR TECHNOLOGY THROUGH INTEGRATING MULTI-SPECIES DATA -THE BRAIN WO...",
@@ -225723,6 +226498,16 @@
       "locator": "opportunity_status:awarded",
       "title": "STTR PHASE I COMPACT, RUGGED ALKALI-LINE SEMICONDUCTOR LASER PLATFORM FOR RB/K QUANTUM SENSORS",
       "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0301_8000_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-27b4801dfd6d0b9f",
+      "locator": "reported_amount:111954.0",
+      "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
       "verification_status": "source_reported"
     },
     {
@@ -226484,6 +227269,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b09149ecba8348d591c8283eeb722a81/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-2bfa7a86157178ef",
+      "locator": "opportunity_status:awarded",
+      "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -229664,6 +230459,16 @@
       "locator": "awarding_agency:national science foundation",
       "title": "COLLABORATIVE RESEARCH: CER: FROM CLASSROOM TO CAREER READINESS: ENHANCING UNDERGRADUATE COMPUTING EDUCATION THROUGH COLLABORATIVE RESEARCH EXPERIENCE IN AI SECURITY AND PRIVACY -...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2551962_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-3e412c330e18dee4",
+      "locator": "reported_recipient:recipient_or_contractor:uei:FYLAKMN93AK5",
+      "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -237820,6 +238625,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-6ee16ca4e3f92903",
+      "locator": "reported_amount:11716059.0",
+      "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-6f0fe752f0989851",
       "locator": "cage_code:6t086",
       "title": "University Of New Mexico",
@@ -241940,6 +242755,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-8783fb23acc00fcc",
+      "locator": "opportunity_status:awarded",
+      "title": "QUANTUM SENSORS FFRDC",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-87901d5f909da87e",
       "locator": "deadline:12/31/2026",
       "title": "ROSES 2025: A.4 Rapid Response and Novel Research in Earth Science",
@@ -244164,6 +244989,16 @@
       "locator": "reported_amount:18503.28",
       "title": "AUTONOMOUS SYSTEMS LAB MEE3 EQUIPMENT",
       "url": "https://www.usaspending.gov/award/CONT_AWD_N0017325P0852_9700_-NONE-_-NONE-/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-9528c97518224a08",
+      "locator": "reported_recipient:recipient_or_contractor:uei:DMHDNDCPWUD1",
+      "title": "QUANTUM SENSORS FFRDC",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
       "verification_status": "source_reported"
     },
     {
@@ -246950,6 +247785,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-a5a7ba5fa6877106",
+      "locator": "reported_amount:1271800.0",
+      "title": "QUANTUM SENSORS FFRDC",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-a5b105f8f8d38616",
       "locator": "reported_recipient:recipient_or_contractor:uei:JEATS22MKKM6",
       "title": "Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)",
@@ -247014,6 +247859,16 @@
       "locator": "qualification_gate",
       "title": "The 2027 YSEALI Regional Workshop: Securing Supply Chains",
       "url": "https://www.grants.gov/search-results-detail/362900",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-a61093aa4455cb12",
+      "locator": "uei:mhnfnj1j5rf5",
+      "title": "ODDBALL, INC.",
+      "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -253480,6 +254335,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-cacccf4f99dec43e",
+      "locator": "awarding_agency:department of homeland security",
+      "title": "QUANTUM SENSORS FFRDC",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-cace204d9e546a67",
       "locator": "awarding_agency:national science foundation",
       "title": "BUILDING AI AND CYBERSECURITY PATHWAYS FOR A MODERN SOFTWARE ENGINEERING WORKFORCE -THIS PROJECT AIMS TO SERVE THE NATIONAL INTEREST BY MODERNIZING TWO-YEAR COMPUTER SCIENCE EDUCA...",
@@ -254654,6 +255519,16 @@
       "locator": "reported_amount:733067.0",
       "title": "INDEPENDENT ANALYSES, CONVENINGS, AND STUDIES TO ADVANCE COMPUTING RESEARCH -WITH SUPPORT FROM THIS PROJECT, THE NATIONAL ACADEMIES OF SCIENCES, ENGINEERING, AND MEDICINE WILL ADV...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2625161_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d073e9565a411d99",
+      "locator": "awarding_agency:department of health and human services",
+      "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
       "verification_status": "source_reported"
     },
     {
@@ -256745,6 +257620,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2beadc0cbce44de582e622e7aa2f9b9d/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-dca7f95eb0fe36ea",
+      "locator": "awarding_agency:department of defense",
+      "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -261410,6 +262295,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-f59c7256fe4ac273",
+      "locator": "opportunity_status:awarded",
+      "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-f5d17eec035cc062",
       "locator": "deadline:08/02/2026",
       "title": "Vietnam CyberSafe Hacks 2026",
@@ -263260,16 +264155,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4335,
-    "authoritative_claims": 4137,
+    "active_claims": 4351,
+    "authoritative_claims": 4153,
     "conflicted_claims": 38,
     "derived_claims": 195,
-    "evidence_items": 4445,
-    "source_urls": 1215,
-    "subjects": 865,
+    "evidence_items": 4461,
+    "source_urls": 1219,
+    "subjects": 869,
     "superseded_claims": 0,
-    "total_claims": 4362
+    "total_claims": 4378
   },
-  "updated_at": "2026-09-15T02:50:31.121146+00:00",
+  "updated_at": "2026-09-16T02:45:46.761366+00:00",
   "version": 1
 }

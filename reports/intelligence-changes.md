@@ -2,30 +2,38 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-15T02:50:31.121146+00:00_
+_Updated 2026-09-16T02:45:46.761366+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **36**
-- Added / changed / resolved: **8 / 1 / 27**
+- Material changes: **43**
+- Added / changed / resolved: **16 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **AEIF 2026 Alumni Summit: Freedom 250** — opportunity status: closed ([evidence](https://www.grants.gov/search-results-detail/363824))
+- None.
 
 ## New claims
 
-- **VANDERBILT UNIVERSITY** — legal business name: VANDERBILT UNIVERSITY ([evidence](https://sam.gov/entity/GTNBNWXJ12D5/coreData))
-- **VANDERBILT UNIVERSITY** — uei: GTNBNWXJ12D5 ([evidence](https://sam.gov/entity/GTNBNWXJ12D5/coreData))
-- **VANDERBILT UNIVERSITY** — cage code: 5E694 ([evidence](https://sam.gov/entity/GTNBNWXJ12D5/coreData))
-- **VANDERBILT UNIVERSITY** — registration status: Active ([evidence](https://sam.gov/entity/GTNBNWXJ12D5/coreData))
-- **SCIENCE APPLICATIONS INTERNATIONAL CORPORATION** — legal business name: SCIENCE APPLICATIONS INTERNATIONAL CORPORATION ([evidence](https://sam.gov/entity/MMLKPW9JLX64/coreData))
-- **SCIENCE APPLICATIONS INTERNATIONAL CORPORATION** — uei: MMLKPW9JLX64 ([evidence](https://sam.gov/entity/MMLKPW9JLX64/coreData))
-- **SCIENCE APPLICATIONS INTERNATIONAL CORPORATION** — cage code: 6XWA8 ([evidence](https://sam.gov/entity/MMLKPW9JLX64/coreData))
-- **SCIENCE APPLICATIONS INTERNATIONAL CORPORATION** — registration status: Active ([evidence](https://sam.gov/entity/MMLKPW9JLX64/coreData))
+- **QUANTUM SENSORS FFRDC** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001))
+- **QUANTUM SENSORS FFRDC** — awarding agency: Department of Homeland Security ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001))
+- **QUANTUM SENSORS FFRDC** — reported amount: 1271800.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001))
+- **QUANTUM SENSORS FFRDC** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001))
+- **HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-))
+- **HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.** — awarding agency: Department of Defense ([evidence](https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-))
+- **HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.** — reported amount: 11716059.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-))
+- **HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-))
+- **BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732))
+- **BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER** — awarding agency: Department of Health and Human Services ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732))
+- **BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER** — reported amount: 111954.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732))
+- **BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732))
+- **ODDBALL, INC.** — legal business name: ODDBALL, INC. ([evidence](https://sam.gov/entity/MHNFNJ1J5RF5/coreData))
+- **ODDBALL, INC.** — uei: MHNFNJ1J5RF5 ([evidence](https://sam.gov/entity/MHNFNJ1J5RF5/coreData))
+- **ODDBALL, INC.** — cage code: 7HL75 ([evidence](https://sam.gov/entity/MHNFNJ1J5RF5/coreData))
+- **ODDBALL, INC.** — registration status: Active ([evidence](https://sam.gov/entity/MHNFNJ1J5RF5/coreData))
 
 ## Superseded claims
 

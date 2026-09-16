@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-09-15T02:50:31.121146+00:00_
+_Updated 2026-09-16T02:45:46.761366+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -17,7 +17,7 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Unique named assignees: **148**
 - Patent families: **261**
 - Applications / grants: **240 / 10**
-- Known legal status: **191 of 250**
+- Known legal status: **192 of 250**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -182,6 +182,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [QUBIT INITIALISATION METHOD AND DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19497230/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Diraq Pty Ltd | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [Large-scale multi-qubit trapped-ion gates](https://data.uspto.gov/patent-file-wrapper/search/details/19489905/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Quantum Art Ltd., YEDA RESEARCH AND DEVELOPMENT CO. LTD. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
+| [DEVICE AND METHOD FOR CARRYING OUT LINK SET CONFIGURATION-BASED QUANTUM RESOURCE ALLOCATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147275/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [JOINT MODULAR MULTIPLICATIVE INVERSE OPERATIONS FOR ACTIVE VOLUME QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19489704/application-data)<br><small>Publication number unavailable</small> | Application · Pending | PsiQuantum, Corp. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [METHOD AND SYSTEM FOR UNLEARNING OF LARGE LANGUAGE MODEL, AND METHOD FOR CONTROLLING UNLEARNING SYSTEM OF LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19546288/application-data)<br><small>US20260187416A1</small> | Application · Pending | LG MANAGEMENT DEVELOPMENT INSTITUTE CO., LTD. | 2 member(s) · 0 citation(s) | **60 · HIGH** |
 | [METHOD AND SYSTEM FOR UNLEARNING OF LARGE LANGUAGE MODEL, AND METHOD FOR CONTROLLING UNLEARNING SYSTEM OF LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19543874/application-data)<br><small>US20260186688A1</small> | Application · Pending | LG MANAGEMENT DEVELOPMENT INSTITUTE CO., LTD. | 2 member(s) · 0 citation(s) | **60 · HIGH** |
@@ -277,7 +278,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [DEVICE FOR PROVIDING A FLUX QUBIT BASED ON SPIN-TRIPLET SUPERCONDUCTORS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025057828/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | THE JOHNS HOPKINS UNIVERSITY | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [DEVICE AND METHOD FOR UPDATING NETWORK INFORMATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147505/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [DEVICE AND METHOD FOR PERFORMING DISCONTINUOUS PATH SELECTION-BASED QUANTUM RESOURCE ALLOCATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147661/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
-| [DEVICE AND METHOD FOR CARRYING OUT LINK SET CONFIGURATION-BASED QUANTUM RESOURCE ALLOCATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147275/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [APPARATUS AND METHOD FOR PERFORMING QUANTUM STATE MODULATION ON BASIS OF QUANTUM SECURE DIRECT COMMUNICATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19128044/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [A QUANTUM SYSTEM FOR STABILIZING A BOSONIC QUBIT](https://data.uspto.gov/patent-file-wrapper/search/details/19486916/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | ALICE & BOB | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [SYSTEMS AND METHODS FOR ENCODING CUBE-BASED DATA WITHIN A CUBE-BASED DATA MODEL USING QUANTUM COMPUTING PROCESSING](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026011834/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CUBENEXUS INC | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |

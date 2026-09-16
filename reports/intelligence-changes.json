@@ -282,11 +282,386 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-dc050fa021ea4bbd",
+      "claim_id": "claim-5917e99baa2070b7",
       "confidence": "high",
       "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
-      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8783fb23acc00fcc",
+          "locator": "opportunity_status:awarded",
+          "title": "QUANTUM SENSORS FFRDC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:70RSAT26FR0000048",
+        "label": "QUANTUM SENSORS FFRDC",
+        "node_id": "award:usaspending:70RSAT26FR0000048",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-490fd179211d729c",
+      "confidence": "high",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cacccf4f99dec43e",
+          "locator": "awarding_agency:department of homeland security",
+          "title": "QUANTUM SENSORS FFRDC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:70RSAT26FR0000048",
+        "label": "QUANTUM SENSORS FFRDC",
+        "node_id": "award:usaspending:70RSAT26FR0000048",
+        "node_type": "award"
+      },
+      "value": "Department of Homeland Security"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-daf36a432b7cd5e0",
+      "confidence": "high",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a5a7ba5fa6877106",
+          "locator": "reported_amount:1271800.0",
+          "title": "QUANTUM SENSORS FFRDC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:70RSAT26FR0000048",
+        "label": "QUANTUM SENSORS FFRDC",
+        "node_id": "award:usaspending:70RSAT26FR0000048",
+        "node_type": "award"
+      },
+      "value": 1271800.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8f77a72c7e413c84",
+      "confidence": "high",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "object": {
+        "identifier": "uei:DMHDNDCPWUD1",
+        "label": "THE MITRE CORPORATION",
+        "node_id": "recipient_or_contractor:uei:DMHDNDCPWUD1",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9528c97518224a08",
+          "locator": "reported_recipient:recipient_or_contractor:uei:DMHDNDCPWUD1",
+          "title": "QUANTUM SENSORS FFRDC",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:70RSAT26FR0000048",
+        "label": "QUANTUM SENSORS FFRDC",
+        "node_id": "award:usaspending:70RSAT26FR0000048",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-aeed952f62fe641a",
+      "confidence": "high",
+      "effective_date": "2027-02-13",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2bfa7a86157178ef",
+          "locator": "opportunity_status:awarded",
+          "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:W912HZ26CA026",
+        "label": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+        "node_id": "award:usaspending:W912HZ26CA026",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-a355c25a6574402c",
+      "confidence": "high",
+      "effective_date": "2027-02-13",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-dca7f95eb0fe36ea",
+          "locator": "awarding_agency:department of defense",
+          "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:W912HZ26CA026",
+        "label": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+        "node_id": "award:usaspending:W912HZ26CA026",
+        "node_type": "award"
+      },
+      "value": "Department of Defense"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-cbeb6748fa6ca316",
+      "confidence": "high",
+      "effective_date": "2027-02-13",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6ee16ca4e3f92903",
+          "locator": "reported_amount:11716059.0",
+          "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:W912HZ26CA026",
+        "label": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+        "node_id": "award:usaspending:W912HZ26CA026",
+        "node_type": "award"
+      },
+      "value": 11716059.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3b31f673a1f853ac",
+      "confidence": "high",
+      "effective_date": "2027-02-13",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "object": {
+        "identifier": "uei:FYLAKMN93AK5",
+        "label": "HEWLETT PACKARD ENTERPRISE CO",
+        "node_id": "recipient_or_contractor:uei:FYLAKMN93AK5",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3e412c330e18dee4",
+          "locator": "reported_recipient:recipient_or_contractor:uei:FYLAKMN93AK5",
+          "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:W912HZ26CA026",
+        "label": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
+        "node_id": "award:usaspending:W912HZ26CA026",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-2bc6308de86258e4",
+      "confidence": "high",
+      "effective_date": "2026-09-14",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f59c7256fe4ac273",
+          "locator": "opportunity_status:awarded",
+          "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75N98026F00340",
+        "label": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+        "node_id": "award:usaspending:75N98026F00340",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3724221e5895989a",
+      "confidence": "high",
+      "effective_date": "2026-09-14",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d073e9565a411d99",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75N98026F00340",
+        "label": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+        "node_id": "award:usaspending:75N98026F00340",
+        "node_type": "award"
+      },
+      "value": "Department of Health and Human Services"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-cec19c68481cc9a9",
+      "confidence": "high",
+      "effective_date": "2026-09-14",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-27b4801dfd6d0b9f",
+          "locator": "reported_amount:111954.0",
+          "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75N98026F00340",
+        "label": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+        "node_id": "award:usaspending:75N98026F00340",
+        "node_type": "award"
+      },
+      "value": 111954.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-bb3e5752d9db0249",
+      "confidence": "high",
+      "effective_date": "2026-09-14",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "object": {
+        "identifier": "uei:GNL2NWC66HJ9",
+        "label": "H. CO. COMPUTER PRODUCTS",
+        "node_id": "recipient_or_contractor:uei:GNL2NWC66HJ9",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-26e1bf279198cb27",
+          "locator": "reported_recipient:recipient_or_contractor:uei:GNL2NWC66HJ9",
+          "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75N98026F00340",
+        "label": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
+        "node_id": "award:usaspending:75N98026F00340",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-2d730f446083a694",
+      "confidence": "high",
+      "effective_date": "2026-09-16",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -294,29 +669,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7935776727bd510a",
-          "locator": "legal_business_name:vanderbilt university",
-          "title": "VANDERBILT UNIVERSITY",
-          "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
+          "evidence_id": "evidence-0e43f155bc66d103",
+          "locator": "legal_business_name:oddball, inc.",
+          "title": "ODDBALL, INC.",
+          "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:GTNBNWXJ12D5",
-        "label": "VANDERBILT UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:GTNBNWXJ12D5",
+        "identifier": "uei:MHNFNJ1J5RF5",
+        "label": "ODDBALL, INC.",
+        "node_id": "recipient_or_contractor:uei:MHNFNJ1J5RF5",
         "node_type": "recipient_or_contractor"
       },
-      "value": "VANDERBILT UNIVERSITY"
+      "value": "ODDBALL, INC."
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-b4ea777985154d20",
+      "claim_id": "claim-89e411a6544130b4",
       "confidence": "high",
-      "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
-      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "effective_date": "2026-09-16",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -324,29 +699,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-419b2f83b4807fed",
-          "locator": "uei:gtnbnwxj12d5",
-          "title": "VANDERBILT UNIVERSITY",
-          "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
+          "evidence_id": "evidence-a61093aa4455cb12",
+          "locator": "uei:mhnfnj1j5rf5",
+          "title": "ODDBALL, INC.",
+          "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:GTNBNWXJ12D5",
-        "label": "VANDERBILT UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:GTNBNWXJ12D5",
+        "identifier": "uei:MHNFNJ1J5RF5",
+        "label": "ODDBALL, INC.",
+        "node_id": "recipient_or_contractor:uei:MHNFNJ1J5RF5",
         "node_type": "recipient_or_contractor"
       },
-      "value": "GTNBNWXJ12D5"
+      "value": "MHNFNJ1J5RF5"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-a96809d775a8c722",
+      "claim_id": "claim-965908f93c886293",
       "confidence": "high",
-      "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
-      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "effective_date": "2026-09-16",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -354,29 +729,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-154a8ef77c299b94",
-          "locator": "cage_code:5e694",
-          "title": "VANDERBILT UNIVERSITY",
-          "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
+          "evidence_id": "evidence-212cff7469c063fc",
+          "locator": "cage_code:7hl75",
+          "title": "ODDBALL, INC.",
+          "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:GTNBNWXJ12D5",
-        "label": "VANDERBILT UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:GTNBNWXJ12D5",
+        "identifier": "uei:MHNFNJ1J5RF5",
+        "label": "ODDBALL, INC.",
+        "node_id": "recipient_or_contractor:uei:MHNFNJ1J5RF5",
         "node_type": "recipient_or_contractor"
       },
-      "value": "5E694"
+      "value": "7HL75"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-8060f11d4e17c8ea",
+      "claim_id": "claim-d35c18d7cb83c960",
       "confidence": "high",
-      "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
-      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
+      "effective_date": "2026-09-16",
+      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -384,180 +759,27 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f694fcd329203627",
+          "evidence_id": "evidence-252e3dcae6d3c431",
           "locator": "registration_status:active",
-          "title": "VANDERBILT UNIVERSITY",
-          "url": "https://sam.gov/entity/GTNBNWXJ12D5/coreData",
+          "title": "ODDBALL, INC.",
+          "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:GTNBNWXJ12D5",
-        "label": "VANDERBILT UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:GTNBNWXJ12D5",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4bab2dcb05773817",
-      "confidence": "high",
-      "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
-      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
-      "object": null,
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fc8efc8520872ee3",
-          "locator": "legal_business_name:science applications international corporation",
-          "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
-          "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:MMLKPW9JLX64",
-        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
-        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-53b0abf8516603cb",
-      "confidence": "high",
-      "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
-      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
-      "object": null,
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d730ea14d31f947f",
-          "locator": "uei:mmlkpw9jlx64",
-          "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
-          "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:MMLKPW9JLX64",
-        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
-        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "MMLKPW9JLX64"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-ec7b8ded3570643f",
-      "confidence": "high",
-      "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
-      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
-      "object": null,
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-99c67b29a61bb49a",
-          "locator": "cage_code:6xwa8",
-          "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
-          "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:MMLKPW9JLX64",
-        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
-        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "6XWA8"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b9081a41194adbf3",
-      "confidence": "high",
-      "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-15T02:50:31.121146+00:00",
-      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
-      "object": null,
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ea601a211e46a625",
-          "locator": "registration_status:active",
-          "title": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
-          "url": "https://sam.gov/entity/MMLKPW9JLX64/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:MMLKPW9JLX64",
-        "label": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
-        "node_id": "recipient_or_contractor:uei:MMLKPW9JLX64",
+        "identifier": "uei:MHNFNJ1J5RF5",
+        "label": "ODDBALL, INC.",
+        "node_id": "recipient_or_contractor:uei:MHNFNJ1J5RF5",
         "node_type": "recipient_or_contractor"
       },
       "value": "Active"
     }
   ],
   "baseline_initialized": false,
-  "changed": [
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-c04a380ed343b4e6",
-      "confidence": "high",
-      "effective_date": "2026-09-07",
-      "first_observed_at": "2026-09-08T02:28:05.665263+00:00",
-      "last_observed_at": "2026-09-15T02:50:31.121146+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "previous_object": null,
-      "previous_value": "open",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-feb8fb38a1bdc538",
-          "locator": "opportunity_status:closed",
-          "title": "AEIF 2026 Alumni Summit: Freedom 250",
-          "url": "https://www.grants.gov/search-results-detail/363824",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:PDS-SAU-FY26-07",
-        "label": "AEIF 2026 Alumni Summit: Freedom 250",
-        "node_id": "opportunity:grants_gov:PDS-SAU-FY26-07",
-        "node_type": "opportunity"
-      },
-      "value": "closed"
-    }
-  ],
+  "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-09-15T02:50:31.121146+00:00",
-  "comparison_started_at": "2026-09-14T02:47:59.662764+00:00",
+  "comparison_ended_at": "2026-09-16T02:45:46.761366+00:00",
+  "comparison_started_at": "2026-09-15T02:50:31.121146+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1473,19 +1695,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-09-14T02:47:59.662764+00:00",
+  "since": "2026-09-15T02:50:31.121146+00:00",
   "summary": {
-    "active_claims": 4335,
-    "added": 8,
-    "changed": 1,
+    "active_claims": 4351,
+    "added": 16,
+    "changed": 0,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 36,
+    "material_changes": 43,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-09-15T02:50:31.121146+00:00",
+  "updated_at": "2026-09-16T02:45:46.761366+00:00",
   "version": 1
 }

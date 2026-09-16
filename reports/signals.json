@@ -2011,12 +2011,66 @@
           "source": "Cisco Quantum-Safe Updates",
           "title": "The Honest Migration Playbook \u2013 IPsec Series, Part 11",
           "url": "https://blogs.cisco.com/developer/the-honest-migration-playbook-ipsec-series-part-11"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://quantumzeitgeist.com/quantum-b-post-security-gdansk-conference",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "title": "Gda\u0144sk conference hears Quantum B on post-quantum security",
+          "url": "https://quantumzeitgeist.com/quantum-b-post-security-gdansk-conference"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://quantumzeitgeist.com/qnu-labs-quantum-pki-post-security",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 66,
+          "source": "QuantumNews.ai",
+          "title": "Quantum PKI from QNu Labs builds a full platform for post-quantum security",
+          "url": "https://quantumzeitgeist.com/qnu-labs-quantum-pki-post-security"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://thequantuminsider.com/2026/09/15/entrust-adds-cbom-capabilities-cryptographic-security-platform",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 69,
+          "source": "The Quantum Insider",
+          "title": "Entrust Turns CBOM Data Into Action With Expanded Cryptographic Security Platform",
+          "url": "https://thequantuminsider.com/2026/09/15/entrust-adds-cbom-capabilities-cryptographic-security-platform"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://quantumzeitgeist.com/exequantum-eqcore-quantum-enhanced-encryption",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 69,
+          "source": "Quantum Zeitgeist",
+          "title": "ExeQuantum launches EQCore for quantum-enhanced encryption system mapping",
+          "url": "https://quantumzeitgeist.com/exequantum-eqcore-quantum-enhanced-encryption"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://thequantuminsider.com/2026/09/15/oracle-java-27-post-quantum-cryptography-support",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 71,
+          "source": "The Quantum Insider",
+          "title": "Oracle Java 27 Adds Post-Quantum Hybrid Key Exchange for TLS 1.3",
+          "url": "https://thequantuminsider.com/2026/09/15/oracle-java-27-post-quantum-cryptography-support"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://quantumzeitgeist.com/quantum-resistant-key-exchange-oracles-java",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 83,
+          "source": "Quantum Zeitgeist",
+          "title": "Oracle\u2019s Java 27 boosts TLS 1.3 with quantum-resistant hybrid key exchange.",
+          "url": "https://quantumzeitgeist.com/quantum-resistant-key-exchange-oracles-java"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-09-14",
+      "latest_seen": "2026-09-15",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -2025,8 +2079,8 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 23,
-      "recent_count": 21,
+      "prior_count": 21,
+      "recent_count": 23,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -2589,12 +2643,30 @@
           "source": "Quantum Zeitgeist",
           "title": "NVIDIA opens CUDA-Q platform to test fault-tolerant quantum applications",
           "url": "https://quantumzeitgeist.com/cuda-q-fault-tolerant-quantum-nvidia"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://thequantuminsider.com/2026/09/15/usc-and-quantum-elements-error-correction-technique-demonstrates-surface-code-scaling-with-logical-qubits",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 84,
+          "source": "The Quantum Insider",
+          "title": "USC And Quantum Elements' Error Correction Technique Demonstrates Surface Code Scaling with Logical Qubits",
+          "url": "https://thequantuminsider.com/2026/09/15/usc-and-quantum-elements-error-correction-technique-demonstrates-surface-code-scaling-with-logical-qubits"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://thequantuminsider.com/2026/09/15/qc-design-plaquette-nvidia-cuda-q-logical-qec-simulation",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 90,
+          "source": "The Quantum Insider",
+          "title": "QC Design Integrates Plaquette With NVIDIA CUDA-Q Logical for Hardware-Realistic QEC Simulation",
+          "url": "https://thequantuminsider.com/2026/09/15/qc-design-plaquette-nvidia-cuda-q-logical-qec-simulation"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-09-14",
+      "latest_seen": "2026-09-15",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -2603,7 +2675,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 2,
-      "recent_count": 9,
+      "recent_count": 11,
       "status": "actionable"
     },
     "Quantum Hardware": {
@@ -5137,12 +5209,30 @@
           "source": "IACR ePrint",
           "title": "Quantum Discrete Logarithms on Elliptic Curves with $5n/2+o(n)$ Logical Qubits and $\\widetilde O(n^2)$ Toffoli Gates",
           "url": "https://eprint.iacr.org/2026/2014"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://quantumzeitgeist.com/quops-quantum-benchmark-quantinuum-sandia-labs",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 50,
+          "source": "Quantum Zeitgeist",
+          "title": "Quantinuum and Sandia Labs launch QUOPS, a new quantum benchmark",
+          "url": "https://quantumzeitgeist.com/quops-quantum-benchmark-quantinuum-sandia-labs"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://quantumcomputingreport.com/emergence-quantum-and-airtrunk-partner-to-develop-hyperscale-cryogenic-data-center-infrastructure",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 67,
+          "source": "QuantumNews.ai",
+          "title": "Emergence Quantum and AirTrunk Partner to Develop Hyperscale Cryogenic Data Center Infrastructure",
+          "url": "https://quantumcomputingreport.com/emergence-quantum-and-airtrunk-partner-to-develop-hyperscale-cryogenic-data-center-infrastructure"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-09-14",
+      "latest_seen": "2026-09-15",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -5151,8 +5241,8 @@
         "arXiv RSS quant-ph",
         "IACR ePrint"
       ],
-      "prior_count": 20,
-      "recent_count": 23,
+      "prior_count": 22,
+      "recent_count": 20,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -6210,12 +6300,30 @@
           "source": "Quantum Zeitgeist",
           "title": "G\u00c9ANT and Quantum Internet Alliance team up to build Europe\u2019s quantum networks",
           "url": "https://quantumzeitgeist.com/geant-quantum-internet-alliance-europes-networks-3"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://quantumcomputingreport.com/parityqc-launches-parity-twine-optimizer-via-ibm-qiskit-functions-catalog",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 57,
+          "source": "QuantumNews.ai",
+          "title": "ParityQC Launches Parity Twine Optimizer via IBM Qiskit Functions Catalog",
+          "url": "https://quantumcomputingreport.com/parityqc-launches-parity-twine-optimizer-via-ibm-qiskit-functions-catalog"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://quantumzeitgeist.com/q-bird-falqon-system-gains-million",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 61,
+          "source": "Quantum Zeitgeist",
+          "title": "Falqon system gains \u20ac2.5 million for quantum network buildout",
+          "url": "https://quantumzeitgeist.com/q-bird-falqon-system-gains-million"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-09-14",
+      "latest_seen": "2026-09-15",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -6225,7 +6333,7 @@
         "USAspending \u00b7 Quantum Technologies"
       ],
       "prior_count": 4,
-      "recent_count": 17,
+      "recent_count": 18,
       "status": "actionable"
     },
     "Quantum Sensing": {
@@ -7880,12 +7988,30 @@
           "source": "IACR ePrint",
           "title": "A Unified Analysis of Refresh Gadgets in the Random Probing Model",
           "url": "https://eprint.iacr.org/2026/2015"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "title": "THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://pqshield.com/events/we-are-attending-jaif-2026",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 100,
+          "source": "PQShield",
+          "title": "We are attending JAIF 2026 Montpellier, France 01 Oct, 2026 JAIF 2026 focuses on fault injection prevention - an increasingly complex technique used by attackers. We'll be attending in Montpellier, France, along with experts from industry, government and academia.",
+          "url": "https://pqshield.com/events/we-are-attending-jaif-2026"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-09-14",
+      "latest_seen": "2026-09-15",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -7895,10 +8021,10 @@
         "USAspending \u00b7 Advanced Computing"
       ],
       "prior_count": 5,
-      "recent_count": 4,
+      "recent_count": 5,
       "status": "watching"
     }
   },
-  "updated_at": "2026-09-15T03:00:53.116675+00:00",
+  "updated_at": "2026-09-16T03:02:17.024933+00:00",
   "version": 1
 }

@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-15 03:00 UTC_
+_Updated 2026-09-16 03:02 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 4 | 11 | 12 | 27 |
+| 50 | 3 | 11 | 11 | 28 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -70,24 +70,24 @@ _Updated 2026-09-15 03:00 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 75.6% reliability with 8 warning day(s).
+- 🔴 76.1% reliability with 8 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: arXiv Quantum Computing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 75.6% reliability with 8 warning day(s).
+- 🔴 76.1% reliability with 8 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: arXiv Quantum Networking and Sensing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 75.6% reliability with 8 warning day(s).
+- 🔴 76.1% reliability with 8 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Actionable signal: QEC / Fault Tolerance 🆕
+## 🟠 Actionable signal: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **actionable**
@@ -108,26 +108,26 @@ _Updated 2026-09-15 03:00 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: AEIF 2026 Alumni Summit: Freedom 250 🆕
+## 🟠 Product Launch: IBM 🆕
 
 - Severity: **high**
-- Status: **changed**
-- opportunity status · authority authoritative · closed
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363824)
-- [Open supporting view](intelligence-changes.md)
+- Status: **product-launch**
+- IBM matched a product launch event: ParityQC Launches Parity Twine Optimizer via IBM Qiskit Functions Catalog
+- [Open direct evidence](https://quantumcomputingreport.com/parityqc-launches-parity-twine-optimizer-via-ibm-qiskit-functions-catalog)
+- [Open supporting view](entity-watch.md)
 
-## 🟠 Rising momentum: QEC / Fault Tolerance 🆕
+## 🟠 Rising momentum: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 9 versus 2 in the prior period.
+- ↗️ Recent evidence is 11 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Networking
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 17 versus 4 in the prior period.
+- ↗️ Recent evidence is 18 versus 4 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -137,39 +137,32 @@ _Updated 2026-09-15 03:00 UTC_
 - ↗️ Recent evidence is 3 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Source degraded: IACR ePrint
-
-- Severity: **high**
-- Status: **degraded**
-- 🟠 98.4% reliability with 1 warning day(s).
-- [Open supporting view](source-health.md)
-
 ## 🟠 Source degraded: Lockheed Martin Quantum Technology
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 96.7% reliability with 2 warning day(s).
+- 🟠 96.8% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Computing Patents
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.1% reliability with 2 warning day(s).
+- 🟠 94.2% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.9% reliability with 1 warning day(s).
+- 🟠 94.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.9% reliability with 1 warning day(s).
+- 🟠 94.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: AWS Quantum Technologies Blog
@@ -277,7 +270,7 @@ _Updated 2026-09-15 03:00 UTC_
 - The latest dated item is from 2026-08-17; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Artificial Intelligence 🆕
+## 🟡 Source stale: Grants.gov · Artificial Intelligence
 
 - Severity: **medium**
 - Status: **stale**
@@ -340,13 +333,6 @@ _Updated 2026-09-15 03:00 UTC_
 - The latest dated item is from 2026-03-19; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: NCSC UK News
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-08-27; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
 ## 🟡 Source stale: NCSC UK Reports
 
 - Severity: **medium**
@@ -359,4 +345,18 @@ _Updated 2026-09-15 03:00 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2025-03-07; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Quantinuum News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-08-11; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Quantum Computing Patents 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-08-27; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
