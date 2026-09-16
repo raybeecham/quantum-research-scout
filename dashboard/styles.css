@@ -20,33 +20,46 @@
   /* --- Surfaces ------------------------------------------------------------
      A five-step ladder from page background to the most raised element.
      Card gradients pair two adjacent steps.                                  */
-  --bg: #0b1020;
-  --surface-sunken: #0e1426;
-  --surface: #151d32;
-  --surface-raised: #1b2740;
-  --surface-high: #25334f;
+  --bg: #f3eddf;
+  --surface-sunken: #e8e1d0;
+  --surface: #fffdf6;
+  --surface-raised: #f5f0e3;
+  --surface-high: #dce8df;
 
   /* --- Lines --------------------------------------------------------------- */
-  --line-subtle: rgba(170, 190, 232, 0.12);
-  --line: rgba(170, 190, 232, 0.22);
-  --line-strong: rgba(170, 190, 232, 0.38);
+  --line-subtle: #e4dece;
+  --line: #c6c5b5;
+  --line-strong: #71877e;
 
   /* --- Text ----------------------------------------------------------------
      Every step clears 4.5:1 against --surface except --text-faint, which is
      reserved for decorative or duplicated labels.                            */
-  --text: #f2f5ff;
-  --text-secondary: #ccd5e7;
-  --muted: #9fadc6;
-  --text-faint: #7d8aa3;
+  --text: #182f3a;
+  --text-secondary: #354d52;
+  --muted: #52645f;
+  --text-faint: #62706a;
 
   /* --- Accent and semantics ------------------------------------------------ */
-  --accent: #62d6e6;
-  --accent-bright: #8ee6f2;
-  --info: #8b9ef0;
-  --violet: #a496ee;
-  --positive: #63d2a0;
-  --caution: #e2b968;
-  --critical: #ef8497;
+  --accent: #08645c;
+  --accent-bright: #08776a;
+  --info: #315f93;
+  --violet: #6850a1;
+  --positive: #14704e;
+  --caution: #91600b;
+  --critical: #af374b;
+
+  /* Atompunk: enamel instruments, printed technical manuals, signal markings.
+     Orange is decorative on light surfaces; rust is the readable text variant. */
+  --retro-navy: #182f3a;
+  --retro-navy-raised: #254650;
+  --retro-cream: #fff3d6;
+  --retro-mint: #b8dec4;
+  --retro-orange: #ef8247;
+  --retro-rust: #a33e1d;
+  --retro-grid: rgba(24, 47, 58, 0.055);
+  --retro-shadow: #d4cbb7;
+  --font-display: Bahnschrift, "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+  --font-instrument: "Cascadia Mono", Consolas, "Liberation Mono", monospace;
 
   /* --- Tints ---------------------------------------------------------------
      Four alpha steps per hue. Use these instead of ad-hoc rgba() values.      */
@@ -88,12 +101,12 @@
   /* --- Type ----------------------------------------------------------------
      A 12-step scale. --text-2xs is the floor; uppercase micro-labels use it
      with letter-spacing rather than dropping below it.                        */
-  --text-2xs: 11px;
-  --text-xs: 12px;
-  --text-sm: 13px;
-  --text-md: 14px;
-  --text-base: 15px;
-  --text-lg: 17px;
+  --text-2xs: 12px;
+  --text-xs: 13px;
+  --text-sm: 14px;
+  --text-md: 15px;
+  --text-base: 16px;
+  --text-lg: 18px;
   --text-xl: 19px;
   --text-2xl: 21px;
   --text-3xl: 25px;
@@ -127,19 +140,19 @@
   --space-10: 72px;
 
   /* --- Radii --------------------------------------------------------------- */
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 14px;
-  --radius-xl: 20px;
+  --radius-sm: 2px;
+  --radius-md: 2px;
+  --radius-lg: 2px;
+  --radius-xl: 2px;
   --radius-pill: 999px;
 
   /* --- Elevation and motion ------------------------------------------------ */
-  --shadow-sm: 0 2px 10px rgba(3, 7, 22, 0.3);
-  --shadow: 0 14px 40px rgba(3, 7, 22, 0.38);
-  --shadow-lg: 0 24px 70px rgba(1, 4, 18, 0.45);
-  --scrim-weak: rgba(3, 7, 22, 0.25);
-  --scrim: rgba(3, 7, 22, 0.4);
-  --scrim-strong: rgba(3, 7, 22, 0.6);
+  --shadow-sm: 0 2px 8px rgba(17, 45, 56, 0.04);
+  --shadow: 0 12px 32px rgba(17, 45, 56, 0.06);
+  --shadow-lg: 0 24px 64px rgba(17, 45, 56, 0.12);
+  --scrim-weak: rgba(17, 45, 56, 0.02);
+  --scrim: rgba(17, 45, 56, 0.04);
+  --scrim-strong: rgba(17, 45, 56, 0.08);
   --glow: 0 0 40px rgba(98, 214, 230, 0.14);
   --ease: cubic-bezier(0.2, 0.7, 0.3, 1);
   --duration: 0.2s;
@@ -190,10 +203,7 @@ body {
      without it the page falls back to the browser's white canvas when scrolled
      or printed. */
   background-color: var(--bg);
-  background-image:
-    radial-gradient(circle at 8% 18%, var(--tint-info-strong), transparent 25rem),
-    radial-gradient(circle at 92% 48%, var(--tint-accent), transparent 28rem),
-    linear-gradient(180deg, #0c1121 0%, #0d1426 48%, #09121e 100%);
+  background-image: none;
   background-attachment: fixed;
   color: var(--text);
   font-family:

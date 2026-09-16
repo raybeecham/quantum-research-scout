@@ -81,10 +81,14 @@ class LinkExtractor(HTMLParser):
         self._active_text: list[str] = []
         self._in_title = False
         self._title_parts: list[str] = []
+        self._interrupted_titles = 0
         self._in_json_ld = False
         self._json_ld_parts: list[str] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        # Python 3.10–3.12 emit nested tags from an unclosed title instead of
+        # swallowing them as raw text. Stop title capture before body text leaks in.
+        self._finish_interrupted_title()
         attr_map = {key.lower(): value or "" for key, value in attrs}
         if tag.lower() == "a":
             url = safe_urljoin(self.base_url, attr_map.get("href", ""))
@@ -92,7 +96,7 @@ class LinkExtractor(HTMLParser):
                 self._active_href = url
                 self._active_text = []
         elif tag.lower() == "title":
-            self._in_title = True
+            self._in_title = self._interrupted_titles < MAX_TITLE_RECOVERY_PASSES
         elif tag.lower() == "time":
             datetime_text = normalize_whitespace(attr_map.get("datetime", ""))
             if datetime_text and not self.time_datetime_text:
@@ -119,6 +123,8 @@ class LinkExtractor(HTMLParser):
                 self.updated_date_source = name
 
     def handle_endtag(self, tag: str) -> None:
+        if tag.lower() != "title":
+            self._finish_interrupted_title()
         if tag.lower() == "a" and self._active_href:
             title = normalize_whitespace(" ".join(self._active_text))
             if title:
@@ -141,6 +147,15 @@ class LinkExtractor(HTMLParser):
             self._title_parts.append(data)
         if self._in_json_ld:
             self._json_ld_parts.append(data)
+
+    def _finish_interrupted_title(self) -> None:
+        if not self._in_title:
+            return
+        self._interrupted_titles += 1
+        self._in_title = False
+        if not self.page_title:
+            self.page_title = normalize_whitespace(" ".join(self._title_parts))
+        self._title_parts = []
 
     def close(self) -> None:
         super().close()

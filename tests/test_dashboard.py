@@ -44,6 +44,9 @@ class DashboardBuildTests(unittest.TestCase):
                 "app.js",
                 "entity.js",
                 "favicon.svg",
+                "desk.css",
+                "desk.js",
+                "math.js",
             ):
                 content = f"{name}?v=__ASSET_VERSION__"
                 (dashboard / name).write_text(content, encoding="utf-8")
@@ -555,13 +558,18 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("renderDataTrust", script)
         self.assertIn("historical", profile)
 
-    def test_dashboard_prioritizes_briefing_and_collapses_deeper_views(self) -> None:
+    def test_dashboard_prioritizes_reading_and_preserves_deeper_views(self) -> None:
         root = Path(__file__).parents[1]
         html = (root / "dashboard" / "index.html").read_text(encoding="utf-8")
         script = (root / "dashboard" / "app.js").read_text(encoding="utf-8")
 
-        self.assertIn('<details id="explore"', html)
-        self.assertIn('<details id="advanced"', html)
+        desk = (root / "dashboard" / "desk.js").read_text(encoding="utf-8")
+        self.assertIn('id="briefing"', html)
+        self.assertIn('id="desk-lead"', html)
+        self.assertIn('id="desk-stories"', html)
+        self.assertIn('data-workspace="federal"', html)
+        self.assertIn('data-workspace="operations"', html)
+        self.assertIn("el.hidden = name !== key", desk)
         self.assertIn('id="missions"', html)
         self.assertIn('id="funding"', html)
         self.assertIn('id="patents"', html)
@@ -569,7 +577,7 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn('status: "priority"', script)
         self.assertIn("renderPatents", script)
         self.assertIn("patent-assessment", script)
-        self.assertIn("curated_total", script)
+        self.assertIn("strategic_significance_score", script)
         self.assertIn("renderMissions", script)
         self.assertIn("renderFunding", script)
 
@@ -622,40 +630,73 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertNotIn("<h3>Top conditions</h3>", html)
         self.assertNotIn("alerts.slice(0, 3)", script)
         self.assertIn("friendlyReportName", script)
-        self.assertIn("revealHashSection", script)
-        self.assertIn("scrollIntoView", script)
+        desk = (root / "dashboard" / "desk.js").read_text(encoding="utf-8")
+        self.assertIn('window.addEventListener("hashchange", route)', desk)
+        self.assertIn("scrollIntoView", desk)
 
     def test_dashboard_vibrant_experience_stays_dynamic_and_accessible(self) -> None:
         root = Path(__file__).parents[1]
         html = (root / "dashboard" / "index.html").read_text(encoding="utf-8")
         tokens = (root / "dashboard" / "styles.css").read_text(encoding="utf-8")
         components = (root / "dashboard" / "components.css").read_text(encoding="utf-8")
-        script = (root / "dashboard" / "app.js").read_text(encoding="utf-8")
+        desk = (root / "dashboard" / "desk.js").read_text(encoding="utf-8")
+        layout = (root / "dashboard" / "desk.css").read_text(encoding="utf-8")
 
-        self.assertIn('class="hero-visual"', html)
-        self.assertIn("Priority sources", html)
-        self.assertNotIn('class="hero-radar-card"', html)
-        self.assertIn('class="live-pill"', html)
-        self.assertIn('id="hero-patent-count"', html)
-        self.assertIn('id="hero-mission-count"', html)
-        self.assertIn("Decision-ready intelligence", html)
-        self.assertNotIn("Fresh intelligence", html)
+        self.assertIn('id="edition-date"', html)
+        self.assertIn('id="freshness-notice"', html)
+        self.assertIn('id="search-dialog"', html)
+        self.assertIn('id="desk-lenses"', html)
+        self.assertIn('class="skip-link"', html)
+        self.assertIn("collected_at", desk)
+        self.assertIn("aria-pressed", desk)
+        self.assertIn("NOT INDEPENDENT VERIFICATION", desk)
+        self.assertNotIn('class="hero-visual"', html)
         self.assertNotIn("89 tracked", html)
         self.assertNotIn(".hero-radar-card {", components)
         self.assertIn("prefers-reduced-motion: reduce", tokens)
-        self.assertIn("setupReveal", script)
-        self.assertIn("animateMetrics", script)
+        self.assertIn("prefers-reduced-motion: reduce", layout)
 
         # styles.css is the single source of the palette and type scale.
-        self.assertIn("--bg: #0b1020", tokens)
-        self.assertIn("--surface: #151d32", tokens)
-        self.assertIn("--text-2xs: 11px", tokens)
-        self.assertIn("--text-md: 14px", tokens)
+        self.assertIn("--bg: #f3eddf", tokens)
+        self.assertIn("--surface: #fffdf6", tokens)
+        self.assertIn("--retro-orange: #ef8247", tokens)
+        self.assertIn("--font-instrument:", tokens)
+        self.assertIn("--text-2xs: 12px", tokens)
+        self.assertIn("--text-md: 15px", tokens)
+
+    def test_atompunk_reading_palette_has_accessible_text_contrast(self) -> None:
+        tokens = (Path(__file__).parents[1] / "dashboard" / "styles.css").read_text(
+            encoding="utf-8"
+        )
+        palette = dict(re.findall(r"--([\w-]+):\s*(#[0-9a-fA-F]{6});", tokens))
+
+        def luminance(value: str) -> float:
+            rgb = [int(value[i : i + 2], 16) / 255 for i in (1, 3, 5)]
+            linear = [v / 12.92 if v <= 0.04045 else ((v + 0.055) / 1.055) ** 2.4 for v in rgb]
+            return sum(
+                v * weight for v, weight in zip(linear, (0.2126, 0.7152, 0.0722), strict=True)
+            )
+
+        for foreground, background in (
+            ("text", "bg"),
+            ("text", "surface"),
+            ("muted", "bg"),
+            ("muted", "surface-high"),
+            ("accent", "surface"),
+            ("retro-rust", "retro-cream"),
+            ("retro-cream", "retro-navy"),
+            ("retro-mint", "retro-navy"),
+            ("retro-orange", "retro-navy"),
+        ):
+            with self.subTest(foreground=foreground, background=background):
+                levels = sorted((luminance(palette[foreground]), luminance(palette[background])))
+                self.assertGreaterEqual((levels[1] + 0.05) / (levels[0] + 0.05), 4.5)
 
     def test_dashboard_styles_keep_one_token_source_and_a_legible_floor(self) -> None:
         root = Path(__file__).parents[1]
         tokens = (root / "dashboard" / "styles.css").read_text(encoding="utf-8")
         components = (root / "dashboard" / "components.css").read_text(encoding="utf-8")
+        layout = (root / "dashboard" / "desk.css").read_text(encoding="utf-8")
 
         # Feature modules consume tokens; they must not re-declare the palette.
         self.assertNotIn(":root {", components)
@@ -664,7 +705,7 @@ class DashboardBuildTests(unittest.TestCase):
         # is decorative and deliberately oversized, so only small values matter.
         undersized = [
             int(match)
-            for match in re.findall(r"font-size: (\d+)px", tokens + components)
+            for match in re.findall(r"font-size: (\d+)px", tokens + components + layout)
             if int(match) < 11
         ]
         self.assertEqual(undersized, [], f"font sizes below the 11px floor: {sorted(undersized)}")

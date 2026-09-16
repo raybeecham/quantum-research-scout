@@ -5,150 +5,251 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="PQC, quantum technology, federal funding, patent, and AI security intelligence dashboard"
+      content="A source-linked research desk for cybersecurity, post-quantum cryptography, and quantum computing."
     />
-    <meta name="theme-color" content="#090b1f" />
+    <meta name="theme-color" content="#182f3a" />
     <title>Quantum Research Scout</title>
     <link rel="icon" href="favicon.svg?v=__ASSET_VERSION__" type="image/svg+xml" />
     <meta property="og:title" content="Quantum Research Scout" />
     <meta
       property="og:description"
-      content="Evidence-first intelligence on quantum technology, post-quantum security, federal missions, procurement, and patents."
+      content="A research desk for cybersecurity, post-quantum cryptography, and quantum computing. Read critically, trace sources, and build your research notebook."
     />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
+    <link rel="stylesheet" href="vendor/katex-0.18.7/dist/katex.min.css" />
     <link rel="stylesheet" href="styles.css?v=__ASSET_VERSION__" />
     <link rel="stylesheet" href="components.css?v=__ASSET_VERSION__" />
+    <link rel="stylesheet" href="desk.css?v=__ASSET_VERSION__" />
   </head>
   <body>
-    <header class="hero">
-      <nav class="nav shell" aria-label="Primary navigation">
-        <a class="brand" href="#top">
-          <span class="brand-mark">Q</span>
-          <span>Quantum Research Scout</span>
+    <a class="skip-link" href="#main">Skip to research</a>
+    <aside class="desk-rail">
+      <a class="desk-brand" href="#briefing" aria-label="Quantum Research Scout home">
+        <img src="favicon.svg" width="36" height="36" alt="" />
+        <span>
+          QUANTUM
+          <br />
+          <b>RESEARCH SCOUT</b>
+        </span>
+      </a>
+      <span class="rail-caption">RESEARCH WORKSPACE</span>
+      <nav class="desk-nav" aria-label="Primary navigation">
+        <a href="#briefing" data-workspace="briefing">
+          <span aria-hidden="true">◈</span>
+          Research briefing
         </a>
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-links">
-          <span></span>
-          <span></span>
-          <span></span>
-          <b>Menu</b>
-        </button>
-        <div id="primary-links" class="nav-links">
-          <a href="#briefing">Briefing</a>
-          <a href="#explore">Explore</a>
-          <a href="#advanced">Methods</a>
-          <a id="repo-link" class="button secondary" href="#">Repository</a>
-        </div>
+        <a href="#saved" data-workspace="saved">
+          <span aria-hidden="true">☆</span>
+          Research notebook
+          <span id="saved-count">0</span>
+        </a>
+        <a href="#research" data-workspace="research">
+          <span aria-hidden="true">↗</span>
+          Research landscape
+        </a>
+        <a href="#federal" data-workspace="federal">
+          <span aria-hidden="true">◎</span>
+          Federal landscape
+        </a>
+        <a href="#patents" data-workspace="patents">
+          <span aria-hidden="true">⌘</span>
+          Patent watch
+        </a>
+        <a href="#decisions" data-workspace="decisions">
+          <span aria-hidden="true">◇</span>
+          Review desk
+        </a>
+        <a href="#library" data-workspace="library">
+          <span aria-hidden="true">▤</span>
+          Report library
+        </a>
       </nav>
-      <div id="top" class="hero-content shell">
-        <div class="hero-copy-block">
-          <div class="live-pill">
-            <i aria-hidden="true"></i>
-            <span>Monitoring active</span>
-            <b>Updated daily</b>
+      <div class="rail-bottom">
+        <a href="#operations" data-workspace="operations">
+          <span aria-hidden="true">◉</span>
+          Sources &amp; methods
+        </a>
+        <a id="repo-link" href="https://github.com/raybeecham/quantum-research-scout">
+          Open repository
+          <span aria-hidden="true">↗</span>
+        </a>
+        <p>
+          PUBLIC EVIDENCE.
+          <br />
+          YOUR PERSPECTIVE.
+        </p>
+      </div>
+    </aside>
+    <header class="desk-topbar">
+      <span class="workspace-label">
+        RESEARCH /
+        <b id="workspace-name">RESEARCH BRIEFING</b>
+      </span>
+      <button class="search-launch" id="open-search" type="button">
+        <span>Search the research desk</span>
+        <kbd>/</kbd>
+      </button>
+      <a class="collection-pill" id="desk-health" href="#operations">Checking collection</a>
+      <button
+        id="comfort-type"
+        class="comfort-type"
+        type="button"
+        aria-pressed="false"
+        aria-label="Use larger reading text"
+        title="Larger reading text"
+      >
+        Aa
+      </button>
+    </header>
+    <main class="shell desk-main" id="main" tabindex="-1">
+      <div id="desk-error" class="desk-loading" role="alert" hidden></div>
+      <p id="storage-notice" class="freshness-notice" role="status" hidden>
+        Browser storage is unavailable or full. Notes, saved items, and filters may not survive a reload. Export your
+        notebook before leaving.
+      </p>
+      <section id="briefing" class="desk-workspace">
+        <div class="edition-line">
+          <span>
+            <i></i>
+            CYBERSECURITY / PQC / QUANTUM COMPUTING
+          </span>
+          <time id="edition-date">Loading edition…</time>
+        </div>
+        <div class="desk-intro">
+          <div>
+            <h1>
+              Follow the question.
+              <br />
+              <em>Examine the evidence.</em>
+            </h1>
+            <p>
+              A reading desk for cybersecurity, post-quantum cryptography, and quantum computing.
+              <br class="desktop-only" />
+              Trace the claim. Examine the method. Develop your next research question.
+            </p>
           </div>
-          <p class="eyebrow">QUANTUM · POLICY · CYBERSECURITY INTELLIGENCE</p>
-          <h1>
-            The signal,
-            <br />
-            <span>without the noise.</span>
-          </h1>
-          <p class="hero-copy">
-            Decision-ready intelligence on quantum technology, government missions, patents, standards, and
-            cybersecurity—grounded in linked public evidence.
-          </p>
-          <div class="hero-actions">
-            <a id="hero-report-link" class="button hero-button" href="#reports">
-              Open latest digest
+          <a id="hero-report-link" class="desk-button" href="#library">
+            Read the latest digest
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <p id="freshness-notice" class="freshness-notice" hidden></p>
+        <div id="desk-loading" class="desk-loading" role="status">Preparing your briefing…</div>
+        <details class="reading-toolbar" id="reading-controls" open>
+          <summary id="reading-controls-label">Customize your reading view</summary>
+          <div class="desk-lenses" id="desk-lenses" role="group" aria-label="Filter research by interest">
+            <button type="button" data-lens="core" aria-pressed="true">Cyber / PQC + quantum</button>
+            <button type="button" data-lens="all" aria-pressed="false">All sources</button>
+            <button type="button" data-lens="security" aria-pressed="false">Cyber &amp; PQC</button>
+            <button type="button" data-lens="quantum" aria-pressed="false">Quantum</button>
+            <button type="button" data-lens="ai" aria-pressed="false">AI &amp; cloud</button>
+            <button type="button" data-lens="government" aria-pressed="false">Government</button>
+          </div>
+          <div class="reading-options">
+            <label for="reading-window">Show</label>
+            <select id="reading-window">
+              <option value="edition">Latest edition</option>
+              <option value="week">Past 7 days</option>
+            </select>
+            <label for="source-kind">Source type</label>
+            <select id="source-kind">
+              <option value="all">All types</option>
+              <option value="preprint">Preprint repositories</option>
+              <option value="official">Government documents</option>
+              <option value="industry">Industry sources</option>
+              <option value="other">Other / unverified</option>
+            </select>
+            <label class="unread-option">
+              <input type="checkbox" id="unread-only" />
+              Unread only
+            </label>
+            <span id="reading-progress" role="status" tabindex="-1"></span>
+          </div>
+        </details>
+        <div class="desk-overview" id="desk-overview" hidden>
+          <div class="desk-lead" id="desk-lead"></div>
+          <aside class="desk-pulse">
+            <div class="pulse-heading">
+              <span>THE RESEARCH PULSE</span>
+              <span aria-hidden="true">↗</span>
+            </div>
+            <h2>Follow the evidence.</h2>
+            <p>Unique linked items across tracked themes.</p>
+            <div id="desk-sparkline" class="desk-sparkline"></div>
+            <div id="desk-pulse-stats" class="pulse-stats"></div>
+            <a href="#research">
+              Explore signals
               <span aria-hidden="true">→</span>
             </a>
-            <a class="hero-text-link" href="#explore">
-              View intelligence tracker
-              <span aria-hidden="true">↓</span>
-            </a>
-          </div>
-          <div class="hero-trust" aria-label="Dashboard highlights">
-            <span>
-              <i class="trust-policy" aria-hidden="true"></i>
-              Government-prioritized
-            </span>
-            <span>
-              <i class="trust-sources" aria-hidden="true"></i>
-              Multi-source analysis
-            </span>
-            <span>
-              <i class="trust-evidence" aria-hidden="true"></i>
-              Linked evidence
-            </span>
-          </div>
+          </aside>
         </div>
-        <div class="hero-visual" aria-hidden="true">
-          <div class="orbit orbit-one"></div>
-          <div class="orbit orbit-two"></div>
-          <div class="orbit orbit-three"></div>
-          <div class="radar-sweep"></div>
-          <div class="quantum-core">
-            <span>Q</span>
-            <small>SCOUT</small>
+        <div class="desk-feed-heading">
+          <div>
+            <span class="desk-kicker">YOUR READING LIST</span>
+            <h2>Worth your attention</h2>
           </div>
-          <div class="signal-node node-policy">
-            <i></i>
-            <span>Policy</span>
-            <strong>Priority sources</strong>
-          </div>
-          <div class="signal-node node-pqc">
-            <i></i>
-            <span>PQC</span>
-            <strong>Rising activity</strong>
-          </div>
-          <div class="signal-node node-patents">
-            <i></i>
-            <span>Patents</span>
-            <strong id="hero-patent-count">Tracking</strong>
-          </div>
-          <div class="signal-node node-missions">
-            <i></i>
-            <span>Missions</span>
-            <strong id="hero-mission-count">Active</strong>
-          </div>
+          <span id="desk-result-count"></span>
         </div>
-      </div>
-    </header>
-
-    <main class="shell">
-      <section id="briefing" class="metrics" aria-label="Dashboard summary">
-        <article data-accent="coral">
-          <div class="metric-top">
-            <span>New alerts</span>
-            <i aria-hidden="true">!</i>
+        <div class="desk-columns">
+          <div>
+            <div id="desk-stories" class="desk-stories" aria-live="polite"></div>
+            <button type="button" class="desk-more" id="desk-more" hidden>Show more readings ↓</button>
           </div>
-          <strong id="metric-alerts">—</strong>
-          <small id="metric-alerts-detail">active overall</small>
-        </article>
-        <article data-accent="violet">
-          <div class="metric-top">
-            <span>Actionable signals</span>
-            <i aria-hidden="true">↗</i>
+          <aside class="desk-context">
+            <section class="desk-agenda">
+              <span class="desk-kicker">ON THE HORIZON</span>
+              <h2>Dates to keep in view</h2>
+              <div id="desk-deadlines"></div>
+              <a href="#funding">Open the opportunity radar →</a>
+            </section>
+            <section class="desk-changes">
+              <span class="desk-kicker">SINCE THE PREVIOUS RUN</span>
+              <h2>What changed</h2>
+              <div id="desk-changes"></div>
+              <a href="#decisions">Go to the review desk →</a>
+            </section>
+            <section class="desk-method">
+              <span class="desk-kicker">HOW TO READ THIS</span>
+              <p>
+                Source excerpts are not critical appraisals. Preprints are not automatically peer reviewed. Source-type
+                labels describe provenance, not quality. Related coverage is not independent verification.
+              </p>
+              <a href="#guide">Understand the labels →</a>
+            </section>
+          </aside>
+        </div>
+        <div class="desk-library-strip">
+          <div>
+            <span class="desk-kicker">THE LONGER VIEW</span>
+            <h2>Make time for the full picture.</h2>
           </div>
-          <strong id="metric-actionable">—</strong>
-          <small>need near-term review</small>
-        </article>
-        <article data-accent="amber">
-          <div class="metric-top">
-            <span>Critical themes</span>
-            <i aria-hidden="true">◆</i>
-          </div>
-          <strong id="metric-critical">—</strong>
-          <small>highest importance</small>
-        </article>
-        <article data-accent="cyan">
-          <div class="metric-top">
-            <span>Patent portfolio</span>
-            <i aria-hidden="true">⌁</i>
-          </div>
-          <strong id="metric-patents">—</strong>
-          <small id="metric-patents-detail">tracked publications</small>
-        </article>
+          <div id="desk-reports"></div>
+        </div>
+      </section>
+      <section id="saved" class="desk-workspace" hidden>
+        <div class="workspace-heading">
+          <span class="desk-kicker">FROM READING TO RESEARCH</span>
+          <h1>Research notebook</h1>
+          <p>
+            Connect each source to a question, a critical appraisal, and a next step. Your notes are yours—not generated
+            findings. Saved copies and notes stay in this browser; export a backup before clearing site data.
+          </p>
+        </div>
+        <div class="saved-tools">
+          <label for="saved-search">
+            Find a saved reading
+            <input type="search" id="saved-search" placeholder="Title, source, question, or notes…" />
+          </label>
+          <button type="button" id="export-saved" class="desk-button" disabled>Export notebook ↓</button>
+          <button type="button" id="export-bibtex" class="desk-button" disabled>Source links (.bib) ↓</button>
+          <span id="saved-result-count" role="status"></span>
+        </div>
+        <p class="notebook-caveat">
+          BibTeX contains source-link records, not verified academic citations. Check authors, venue, DOI, version, and
+          publication date at the original source before citing. No import or device sync yet.
+        </p>
+        <div id="saved-stories" class="desk-stories"></div>
       </section>
 
       <section id="reports" class="section briefing-section priority-section">
@@ -807,6 +908,36 @@
         <span id="footer-updated"></span>
       </div>
     </footer>
+    <dialog id="search-dialog" aria-labelledby="search-title">
+      <div class="search-dialog-head">
+        <h2 id="search-title">Find the evidence</h2>
+        <button type="button" id="close-search" aria-label="Close search">✕</button>
+      </div>
+      <label for="desk-search">Search stories, patents, missions, and organizations</label>
+      <input id="desk-search" type="search" placeholder="Try cryptography, Genesis, Cisco…" autocomplete="off" />
+      <div id="search-kinds" class="search-kinds" role="group" aria-label="Search result type">
+        <button type="button" data-search-kind="all" aria-pressed="true">Everything</button>
+        <button type="button" data-search-kind="Reading" aria-pressed="false">Readings</button>
+        <button type="button" data-search-kind="Patent" aria-pressed="false">Patents</button>
+        <button type="button" data-search-kind="Mission" aria-pressed="false">Missions</button>
+        <button type="button" data-search-kind="profile" aria-pressed="false">Organizations &amp; tech</button>
+        <button type="button" data-search-kind="Opportunity / award" aria-pressed="false">Funding</button>
+      </div>
+      <p id="search-count" role="status">Start with a technology, organization, or mission.</p>
+      <div id="search-results"></div>
+      <button type="button" id="search-more" class="desk-more" hidden>Show more results ↓</button>
+    </dialog>
+    <noscript>
+      <p class="noscript-note">
+        This workspace needs JavaScript.
+        <a href="https://github.com/raybeecham/quantum-research-scout/tree/main/reports">
+          Read the Markdown reports on GitHub.
+        </a>
+      </p>
+    </noscript>
+    <script src="vendor/katex-0.18.7/dist/katex.min.js" defer></script>
+    <script src="math.js?v=__ASSET_VERSION__" defer></script>
+    <script src="desk.js?v=__ASSET_VERSION__" defer></script>
     <script src="app.js?v=__ASSET_VERSION__" defer></script>
   </body>
 </html>

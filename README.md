@@ -1,285 +1,66 @@
-<p align="center">
-  <img src="docs/assets/quantum-research-scout-banner.webp" alt="Quantum Research Scout connects quantum, cybersecurity, government, procurement, and patent intelligence." width="100%">
-</p>
+# Quantum Research Scout
 
-<h1 align="center">Quantum Research Scout</h1>
+### Follow the question. Examine the evidence.
 
-<p align="center">
-  <strong>Evidence-first intelligence for quantum technology, post-quantum security, federal missions, procurement, and patents.</strong>
-</p>
+A research desk for **cybersecurity, post-quantum cryptography, and quantum computing**.
+Read new work, question its assumptions, and develop your own source-linked research notebook. Keep policy, missions, funding, organizations, and patents in view as supporting context.
 
-<p align="center">
-  <a href="https://raybeecham.github.io/quantum-research-scout/"><strong>Open the live dashboard</strong></a>
-  ·
-  <a href="reports/README.md">Browse reports</a>
-  ·
-  <a href="reports/alerts.md">Review alerts</a>
-</p>
+**[Open the research desk →](https://raybeecham.github.io/quantum-research-scout/)** · [Browse reports](reports/README.md) · [How it works](docs/METHODOLOGY.md)
 
-<p align="center">
-  <a href="https://github.com/raybeecham/quantum-research-scout/actions/workflows/daily-research-scout.yml"><img alt="Daily research scout" src="https://github.com/raybeecham/quantum-research-scout/actions/workflows/daily-research-scout.yml/badge.svg"></a>
-  <a href="https://raybeecham.github.io/quantum-research-scout/"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-live-2ea44f?logo=github"></a>
-  <img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white">
-  <img alt="Evidence first" src="https://img.shields.io/badge/method-evidence--first-635bff">
-</p>
+[![The Scout briefing: a source-linked lead story, reading filters, evidence activity, and a focused reading list.](docs/assets/scout-reading-desk.png)](https://raybeecham.github.io/quantum-research-scout/)
 
-Quantum Research Scout turns a noisy stream of papers, standards, government announcements, acquisition notices, patents, and industry updates into a focused intelligence picture. It runs automatically, preserves source provenance, labels inference, and publishes everything as GitHub-native reports plus a static visual dashboard.
+*An actual published-data snapshot, not a mockup. The live desk changes as new reports arrive.*
 
-It is designed to answer four practical questions:
+## Start with a question
 
-1. What changed?
-2. Why does it matter?
-3. Which organizations, technologies, and missions are connected?
-4. What deserves attention next?
-
-## At a Glance
-
-| Intelligence layer | What it provides |
+| What you want to know | Where to go |
 |---|---|
-| **Strategic radar** | Daily evidence, persistent themes, momentum, importance, confidence, and actionable conditions |
-| **Temporal intelligence** | Explicit event, publication, effective, and observation dates—with historical discoveries kept separate from new events |
-| **Forecast registry** | Testable mission and opportunity forecasts with probabilities, triggers, expiration dates, evidence, and public calibration |
-| **Federal execution** | Missions connected to awards, grants, BAAs, RFIs, contractors, milestones, and relevant patents |
-| **Procurement intelligence** | Ranked opportunities, bounded document extraction, amendment detection, and provisional qualification briefs |
-| **Analyst decision center** | A focused queue for amendment revalidation, authoritative government changes, and unresolved claim conflicts |
-| **Patent intelligence** | Applications and grants grouped by explicit family evidence, with legal status, citations, and strategic significance |
-| **Organization tracking** | Entity profiles, public PQC-readiness evidence, source coverage, and peer relationships |
-| **Operational trust** | Evidence admission, visible quarantine, source reliability, freshness, warning history, and confidence labels |
+| What is worth reading? | **[Research briefing](https://raybeecham.github.io/quantum-research-scout/#briefing)** — cyber/PQC and quantum focus, source-type filters, excerpts, and critical reading prompts |
+| How does this inform my research? | **[Research notebook](https://raybeecham.github.io/quantum-research-scout/#saved)** — your question, critical appraisal, next step, and portable exports |
+| Where is government moving? | **[Federal landscape](https://raybeecham.github.io/quantum-research-scout/#federal)** — missions, grants, acquisition notices, awards, and contractors |
+| Who is investing in the technology? | **[Patent watch](https://raybeecham.github.io/quantum-research-scout/#patents)** — searchable applications and grants, family evidence, and strategic relevance |
+| How does the field connect? | **[Research landscape](https://raybeecham.github.io/quantum-research-scout/#research)** — technology trends, organization profiles, and PQC readiness |
+| What needs a second look? | **[Review desk](https://raybeecham.github.io/quantum-research-scout/#decisions)** — evidence changes, amendments, conflicts, and testable forecasts |
+| Can I trust the coverage? | **[Sources & methods](https://raybeecham.github.io/quantum-research-scout/#operations)** — source health, collection gaps, evidence admission, and label definitions |
 
-## From Source to Decision
+Start with the **latest edition**, or widen the view to **Past 7 days**. Filter for preprint repositories or supporting sources; search with **/**, mark readings as read, and save sources to annotate. Prefer larger text? Use **Aa**. Notes and reading state stay in this browser, with no account or device sync. Export a JSON backup or incomplete BibTeX source-link records.
 
-```mermaid
-flowchart LR
-    A["Official APIs<br/>Feeds · Papers · Web"] --> B["Collect & normalize"]
-    B --> C["Classify · score<br/>deduplicate"]
-    C --> Q{"Evidence gate"}
-    Q -->|admit| D["Evidence ledgers"]
-    Q -->|review| X["Auditable quarantine"]
-    D --> E["Signals · relationships<br/>opportunity radar"]
-    E --> F["Reports · alerts<br/>dashboard"]
+## What makes it useful
 
-    D --> G["Missions"]
-    D --> H["Contractors"]
-    D --> I["Patents"]
-    G --> E
-    H --> E
-    I --> E
-```
+**Evidence, then interpretation.** Original links and publication dates stay attached. Review prompts are labeled separately from source excerpts. Related headlines are grouped for reading—not counted as independent confirmation.
 
-The system favors explainable evidence over black-box conclusions. Exact relationships retain their source; analytical relationships retain their basis and confidence.
+**Critical reading, not automatic conclusions.** Preprints are explicitly labeled; peer review is not inferred. Prompts ask about threat models, baselines, assumptions, and reproducibility. Your appraisal stays separate from the source. This is a discovery aid, not an exhaustive literature review or a novelty assessment.
 
-The dashboard's Analyst Decision Center turns the highest-consequence changes into a compact review queue. Review, escalation, deferral, and dismissal actions remain in browser-local storage and can be exported as JSON; they are never added to the public dashboard payload.
+**Context beyond the headline.** Follow a government initiative into funding, procurement, technical requirements, and patent activity. Exact matches and inferred relationships remain distinguishable.
 
-## Explore the Intelligence
+**A visible record of uncertainty.** Old discoveries are not fresh events. Passed milestone dates are not proof of completion. Forecasts remain hypotheses, and patent filings are not evidence of deployment.
 
-| View | Best for |
-|---|---|
-| [**Visual dashboard**](https://raybeecham.github.io/quantum-research-scout/) | Fast scanning, trends, ranked opportunities, missions, patents, and organization profiles |
-| [**Report index**](reports/README.md) | Latest daily, weekly, and monthly briefings |
-| [**Signal tracker**](reports/signals.md) | Themes that are rising, stable, declining, actionable, watching, or stale |
-| [**Federal missions**](reports/federal-missions.md) | Named national initiatives, milestones, agencies, relationships, and updates |
-| [**Funding and procurement**](reports/federal-funding.md) | Awards, grants, acquisition notices, contractors, and mission execution |
-| [**Data trust**](reports/data-trust.md) | Admission decisions, quarantine reasons, and evidence excluded from downstream intelligence |
-| [**Contractor enrichment**](reports/contractor-enrichment.md) | Public SAM.gov registrations, UEIs, CAGE codes, business types, NAICS, and corporate hierarchy |
-| [**Decision briefs**](reports/bid-no-bid.md) | Provisional opportunity qualification, risks, unknowns, and recommended actions |
-| [**Pursuit workspace**](reports/pursuits.md) | Public-safe stages, owners, milestones, checklists, and upcoming decisions |
-| [**Evidence and claim ledger**](reports/claim-ledger.md) | Stable claims, connection explanations, source authority, versions, conflicts, and supersession |
-| [**What changed**](reports/intelligence-changes.md) | Claim-level additions, revisions, resolutions, and conflicts since the prior daily baseline |
-| [**Temporal intelligence**](reports/temporal-intelligence.md) | What actually happened, what was merely published or discovered, and what is upcoming |
-| [**Strategic forecasts**](reports/strategic-forecasts.md) | Time-bounded hypotheses, probability factors, confirmation triggers, outcomes, and calibration |
-| [**Procurement documents**](reports/procurement-intelligence.md) | Requirements evidence, evaluation criteria, deadlines, contacts, and amendments |
-| [**Patent intelligence**](reports/patents.md) | Patent families, stage, status, citations, assignees, and significance |
-| [**Intelligence alerts**](reports/alerts.md) | New critical conditions, opportunity deadlines, amendments, and source problems |
+[Read the evidence rules and limitations →](docs/METHODOLOGY.md)
 
-## What Makes It Different
+## Run it locally
 
-### Evidence stays attached
-
-Scores, signals, mission links, contractor relationships, and alerts retain supporting URLs and explicit reasoning. Inferred connections are not presented as established facts.
-
-Before mission or funding evidence can affect claims, relationships, scoring, or forecasts, it passes a deterministic admission gate. Query-only matches and weak agency/domain inferences remain in an auditable quarantine with reason codes instead of silently entering—or disappearing from—the intelligence chain.
-
-The claim ledger goes further: each material assertion and relationship receives a stable ID, source-authority label, confidence, derivation rule, version, and lifecycle status. Equal-authority disagreements remain visible as conflicts; later or stronger evidence can supersede a claim without erasing its history.
-
-The temporal layer prevents a newly collected old document from masquerading as a new event. It records event, publication, effective, first-observed, last-observed, and last-changed times separately, and compares each run with the exact prior successful baseline.
-
-Forecasts are published as testable hypotheses rather than conclusions. Every forecast states its probability, horizon, evidence, confirming and disconfirming indicators, and resolution rule; completed forecasts feed a visible accuracy and Brier-score calibration record.
-
-### Government activity gets priority
-
-White House, federal agency, standards, cybersecurity, mission, funding, and procurement evidence receives elevated attention. USAspending and Grants.gov work without credentials; SAM.gov adds acquisition notices and public solicitation links when configured.
-
-### Procurement goes beyond opportunity listings
-
-The acquisition layer can:
-
-- rank open grants, BAAs, RFIs, and solicitations;
-- resolve contractors using UEIs, CAGE codes, and conservative aliases;
-- enrich exact entity matches with public SAM.gov registration, business-type, NAICS, PSC, and parent-organization evidence;
-- extract bounded evidence from public PDF, DOCX, HTML, JSON, XML, and text documents;
-- detect newly observed amendments and content changes;
-- preserve tracker-observed document versions and identify which requirements, deadlines, eligibility terms, risks, checklist areas, or prior decisions need review;
-- produce provisional qualification briefs with risks, unknowns, and next actions;
-- move selected opportunities into an owner, milestone, checklist, and decision workflow.
-
-Raw solicitation files and full document text are not retained. Qualification briefs support human review; they are not authorized bid/no-bid decisions.
-
-Organization capability data and private pursuit notes stay local by default. The generated public dashboard only receives explicit public-safe pursuit fields; private configuration and working views are gitignored.
-
-Analyst feedback follows the same boundary. Explicit, append-only local decisions can produce a separate recommendation score, but the public evidence score is never silently rewritten. Calibration begins in shadow mode, requires balanced minimum samples, caps its effect, and explains every applied factor.
-
-### Patents are treated as signals—not proof
-
-Patent records can reveal technical investment and IP positioning. They do not prove implementation, validity, deployment, infringement, commercial readiness, or freedom to operate. Family grouping occurs only when explicit continuity evidence is available.
-
-## Quick Start
+Python 3.10+ is required. No API key is needed to preview the checked-in intelligence:
 
 ```bash
 git clone https://github.com/raybeecham/quantum-research-scout.git
 cd quantum-research-scout
-python -m venv .venv
-python -m pip install -e .          # add ".[dev]" for pytest and ruff
+python -m pip install -e ".[dev]"
+python scripts/build_dashboard.py --output site
+python -m http.server 8765 --bind 127.0.0.1 --directory site
 ```
 
-Activate the environment:
+Open [localhost:8765](http://localhost:8765). The dashboard is static HTML, CSS, and JavaScript—no frontend build system or paid AI service required.
 
-```powershell
-# Windows PowerShell
-.\.venv\Scripts\Activate.ps1
-```
+Collection runs daily. Weekly synthesis covers Monday through **Friday at 8:00 a.m. America/Chicago**; monthly reports provide the longer view. The page shows the report edition separately from collection health and site build time.
 
-```bash
-# macOS or Linux
-source .venv/bin/activate
-```
+[Collection, schedules & API keys](docs/OPERATIONS.md) · [Reading-desk guide](docs/READING-DESK.md) · [Development & tests](CONTRIBUTING.md)
 
-Preview collection without writing reports or the database:
+## Make it your own
 
-```bash
-pqc-quantum-research-agent --config sources.yaml --dry-run
-```
+Edit [sources.yaml](sources.yaml) for coverage, [watchlists.yaml](watchlists.yaml) for organizations and technologies, and [missions.yaml](missions.yaml) for the federal portfolio. Optional SAM.gov and USPTO credentials belong in repository secrets or your local environment—never in committed files.
 
-Run the scout and refresh the intelligence ledgers:
-
-```bash
-pqc-quantum-research-agent \
-  --config sources.yaml \
-  --reports-dir reports \
-  --update-intelligence-tracking \
-  --update-report-index
-```
-
-The installable command retains the original package name: `pqc-quantum-research-agent`.
-
-## Automation
-
-| Workflow | Schedule | Result |
-|---|---|---|
-| **Daily research scout** | Daily at `00:00 UTC` | Collects evidence, writes the digest, refreshes ledgers and alerts, and prunes daily reports older than 30 days |
-| **Weekly synthesis** | Friday at `08:00 America/Chicago` | Consolidates Monday through Friday morning into a deterministic weekly briefing |
-| **Monthly synthesis** | First day of each month | Consolidates the completed operational month |
-| **Historical backfill** | Sunday at `03:00 UTC` | Refreshes bounded official-source history and readiness evidence without triggering retroactive alerts |
-| **Pages deployment** | After intelligence workflows and relevant pushes | Rebuilds the static dashboard with versioned assets |
-
-Core collection requires no paid AI service. Optional repository secrets unlock additional official data:
-
-| Secret | Enables |
-|---|---|
-| `SAM_GOV_API_KEY` | SAM.gov notices, solicitation links, entity registrations, UEIs, CAGE codes, and procurement document intelligence |
-| `USPTO_ODP_API_KEY` | Automated USPTO patent-publication discovery |
-
-Slack, Teams, generic webhook, email, and GitHub Issue notification routes are independently configurable in [`alerts.yaml`](alerts.yaml).
-
-## Configure Your Scout
-
-- [`sources.yaml`](sources.yaml) — collectors, search queries, document limits, and source definitions
-- [`missions.yaml`](missions.yaml) — federal missions, relationships, milestones, and discovery rules
-- [`watchlists.yaml`](watchlists.yaml) — organizations, agencies, standards, algorithms, and technologies
-- [`alerts.yaml`](alerts.yaml) — alert thresholds and delivery behavior
-- [`pursuits.yaml`](pursuits.yaml) — public-safe pursuit status and automatic candidate seeding
-- [`calibration.yaml`](calibration.yaml) — private recommendation-score safeguards, minimum samples, caps, and shadow/active mode
-- [`capabilities.example.yaml`](capabilities.example.yaml) — template for a private organization capability profile
-- [`pursuits.example.yaml`](pursuits.example.yaml) — template for a private pursuit workspace
-- [`readiness.yaml`](readiness.yaml) — public PQC-engagement stages and evidence rules
-- [`standards.yaml`](standards.yaml) — authoritative standards, policy, and migration milestones
-- [`source_weights.yaml`](source_weights.yaml) and [`keyword_weights.yaml`](keyword_weights.yaml) — optional scoring adjustments
-
-Run `pqc-quantum-research-agent --help` for the complete CLI reference, including daily backfills, rolling lookbacks, weekly and monthly generation, retention, and score controls.
-
-For organization-specific fit and internal pursuit management, copy the example files to `capabilities.local.yaml` and `pursuits.local.yaml`. Those files—and generated `.local-intelligence/` views—are excluded from Git. Keep `publish_fit_assessment: false` unless the capability assessment is intentionally approved for the public reports and dashboard.
-
-Record an explicit, local pursuit decision after the private workspace has been generated:
-
-```powershell
-python scripts/record_pursuit_feedback.py `
-  --opportunity-key "sam_gov:replace-with-opportunity-id" `
-  --stage pursue `
-  --reason strong_capability_fit `
-  --reason vehicle_access
-```
-
-The recorder snapshots the pre-decision evidence and scores into the gitignored `pursuit-feedback.local.jsonl` ledger. Win/loss outcomes must reference a prior bid or submitted event, preventing future information from leaking backward into the training snapshot. Review `.local-intelligence/scoring-calibration.md` before changing calibration from `shadow` to `active`.
-
-<details>
-<summary><strong>How to read the labels</strong></summary>
-
-| Label | Meaning |
-|---|---|
-| **Rising** | Recent seven-day evidence is materially higher than the prior seven days |
-| **Stable** | Evidence did not move enough to meet rising or declining thresholds |
-| **Declining** | Recent evidence is materially lower than the prior period |
-| **Critical / High / Medium** | Strategic importance derived from the strongest supporting evidence |
-| **Actionable** | High- or critical-importance evidence with rising momentum |
-| **Watching** | Relevant evidence without a current action trigger |
-| **Stale** | No supporting evidence has appeared for more than 14 days |
-
-These labels prioritize review. They do not replace the underlying evidence.
-
-</details>
-
-<details>
-<summary><strong>Repository map</strong></summary>
-
-```text
-pqc_quantum_research_agent/  collection, scoring, ledgers, and report generation
-dashboard/                   static GitHub Pages source
-  styles.css                 design tokens, base elements, layout, shared primitives
-  components.css             feature modules, built on those tokens
-  app.js / entity.js         dashboard and organization-profile behavior
-reports/                     generated briefings and structured intelligence
-scripts/                     dashboard, backfill, and notification utilities
-tests/                       unit tests, mirroring the module they cover
-.github/workflows/           CI plus daily, weekly, monthly, backfill, and deployment automation
-
-sources.yaml                 collection and query configuration
-missions.yaml                federal mission portfolio
-watchlists.yaml              tracked organizations and technologies
-alerts.yaml                  alert and delivery policy
-```
-
-</details>
-
-## Method and Guardrails
-
-- Source reputation cannot promote unrelated content without topical evidence.
-- Public-source relationships distinguish exact matches from analytical inference.
-- Historical backfill enriches profiles but is structurally excluded from alerts.
-- Daily reports use America/Chicago operational dates and retain 30 days; weekly and monthly syntheses remain available.
-- Empty or rate-limited sources do not stop the remaining collection run.
-- Human review remains essential for procurement decisions, patent interpretation, readiness claims, and strategic conclusions.
-
-## Contributing
-
-Setup, checks, conventions, and the evidence rules that changes must respect are in
-[CONTRIBUTING.md](CONTRIBUTING.md). Run `ruff check .`, `ruff format .`, and `pytest`
-before opening a pull request; CI runs the same commands on Python 3.10 through 3.12.
-
-## License
-
-[MIT](LICENSE).
+Public evidence powers the site. Private capability profiles, pursuit notes, and analyst feedback remain local by default. See the [operations guide](docs/OPERATIONS.md) before enabling private workflows or changing publication settings.
 
 ---
 
-<p align="center">
-  Built as a transparent, GitHub-native research system: inspect the evidence, challenge the inference, and improve the watch.
-</p>
+[MIT License](LICENSE) · [Report an issue](https://github.com/raybeecham/quantum-research-scout/issues) · Built for curious researchers who want the source, not just the score.

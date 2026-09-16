@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import shutil
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -11,6 +12,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
+from pqc_quantum_research_agent.briefing import build_reading_brief  # noqa: E402
 from pqc_quantum_research_agent.decision_center import build_decision_center  # noqa: E402
 
 
@@ -96,6 +98,12 @@ def build_dashboard(
     )
     generated_at = datetime.now(timezone.utc).isoformat()
     payload = {
+        "reading_brief": build_reading_brief(
+            reports,
+            source_health=source_health,
+            funding=federal_funding,
+            temporal=temporal_intelligence,
+        ),
         "generated_at": generated_at,
         "repository_url": repo_url.rstrip("/"),
         "signals": _dashboard_signals(signals),
@@ -193,6 +201,9 @@ def build_dashboard(
         "app.js",
         "entity.js",
         "favicon.svg",
+        "desk.css",
+        "desk.js",
+        "math.js",
     )
     version_input = generated_at + "".join(
         (assets / name).read_text(encoding="utf-8") for name in asset_names
@@ -204,6 +215,9 @@ def build_dashboard(
             (assets / name).read_text(encoding="utf-8").replace("__ASSET_VERSION__", asset_version)
         )
         (output / name).write_text(content, encoding="utf-8")
+
+    if (assets / "vendor").is_dir():
+        shutil.copytree(assets / "vendor", output / "vendor", dirs_exist_ok=True)
 
     data_path = output / "data" / "dashboard.json"
     data_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
@@ -412,7 +426,7 @@ def _attach_relationship_claims(explorer: dict, claim_ledger: dict) -> dict:
 
 def _dashboard_patents(payload: dict) -> dict:
     records = []
-    for item in payload.get("patents", [])[:12]:
+    for item in payload.get("patents", []):
         records.append(
             {
                 key: value

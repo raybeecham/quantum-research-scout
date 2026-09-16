@@ -8,10 +8,14 @@ const state = {
   compareSecond: "",
   opportunityFilter: "all",
   decisionFilter: "open",
+  decisionFocus: "technology",
   analystDecisions: {},
   relationshipMission: "",
   relationshipNode: "",
   contractorQuery: "",
+  patentQuery: "",
+  patentSort: "significance",
+  patentLimit: 24,
 };
 const icons = { rising: "↗", stable: "→", declining: "↘" };
 const definitions = {
@@ -128,6 +132,7 @@ fetch("data/dashboard.json?v=__ASSET_VERSION__")
     render();
   })
   .catch(error => {
+    window.ScoutDesk?.error(error.message);
     document.getElementById("signal-grid").innerHTML =
       `<p>Unable to load dashboard data: ${escapeHtml(error.message)}</p>`;
   });
@@ -177,25 +182,9 @@ function render() {
   document.getElementById("hero-report-link").href = safeUrl(
     state.data.reports?.latest_daily?.url || "#reports",
   );
-  document.getElementById("metric-actionable").textContent = themes.filter(
-    x => x.status === "actionable",
-  ).length;
-  document.getElementById("metric-critical").textContent = themes.filter(
-    x => x.importance === "critical",
-  ).length;
   const healthy = sources.filter(x => x.status === "healthy").length;
   const partial = sources.filter(x => x.status === "partial").length;
   const alerts = state.data.alerts || { alerts: [], active_count: 0, new_count: 0 };
-  document.getElementById("metric-alerts").textContent = alerts.new_count || 0;
-  document.getElementById("metric-alerts-detail").textContent =
-    `${alerts.active_count || 0} active overall`;
-  document.getElementById("metric-patents").textContent = patentPayload.summary?.total || 0;
-  document.getElementById("metric-patents-detail").textContent =
-    `${patentPayload.summary?.last_30_days || 0} published in 30 days · ${patentPayload.summary?.curated_total || 0} notable`;
-  document.getElementById("hero-patent-count").textContent =
-    `${patentPayload.summary?.total || 0} tracked`;
-  document.getElementById("hero-mission-count").textContent =
-    `${missionPayload.summary?.active || 0} active`;
   document.getElementById("signal-updated").textContent =
     `Updated ${formatDate(state.data.signals.updated_at)}`;
   const verified = sources.filter(x => x.verification_status === "verified").length;
@@ -234,9 +223,7 @@ function render() {
   renderCoverage();
   renderDataTrust(dataTrustPayload);
   renderSources(sources);
-  animateMetrics();
-  setupReveal();
-  revealHashSection();
+  window.ScoutDesk?.init(state.data);
 }
 
 function renderTrend() {
@@ -912,15 +899,24 @@ function renderMissions(payload, fundingPayload) {
     (fundingPayload.mission_portfolios || []).map(item => [item.mission_id, item]),
   );
   document.getElementById("mission-summary").textContent =
-    `${summary.active || 0} active · ${summary.upcoming_milestones || 0} milestones · ${fundingPayload.summary?.missions_with_activity || 0} with funding activity`;
+    `${summary.active || 0} active · ${summary.upcoming_milestones || 0} recorded milestones · ${fundingPayload.summary?.missions_with_activity || 0} with funding activity`;
   document.getElementById("mission-report-link").href = safeUrl(
     `${state.data.repository_url}/blob/main/reports/federal-missions.md`,
   );
   document.getElementById("mission-grid").innerHTML = missions.length
     ? missions
-        .slice(0, 6)
         .map(item => {
           const next = item.next_milestone;
+          const today = new Intl.DateTimeFormat("en-CA", {
+            timeZone: "America/Chicago",
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit",
+          }).format(new Date());
+          const pastMilestone =
+            next?.target_date &&
+            /^\d{4}-\d{2}-\d{2}$/.test(next.target_date) &&
+            next.target_date < today;
           const parent = item.parent_mission
             ? `<span>Part of ${escapeHtml(item.parent_mission)}</span>`
             : "";
@@ -935,7 +931,7 @@ function renderMissions(payload, fundingPayload) {
       <p>${escapeHtml(item.objective)}</p>
       <dl class="mission-facts">
         <div><dt>Lead</dt><dd>${escapeHtml((item.lead_agencies || []).join(", ") || "Not listed")}</dd></div>
-        <div><dt>Next milestone</dt><dd>${next ? `${escapeHtml(formatShortDate(next.target_date))} · ${escapeHtml(next.title)}` : "No dated milestone published"}</dd></div>
+        <div><dt>${pastMilestone ? "Recorded milestone · date passed" : "Next recorded milestone"}</dt><dd>${next ? `${escapeHtml(formatShortDate(next.target_date))} · ${escapeHtml(next.title)}${pastMilestone ? '<small class="milestone-caveat">Completion not verified here; check the official source.</small>' : ""}` : "No dated milestone published"}</dd></div>
         ${fundingFact}
       </dl>
       <div class="profile-themes">${(item.domains || [])
@@ -1067,6 +1063,88 @@ function renderOpportunityRadar(payload) {
     : '<div class="empty-state">No open opportunities match this view.</div>';
 }
 
+function decisionTechnologyFocus(item) {
+  // A presentation filter, not a change to evidence admission or original severity.
+  // Do not scan agency names, action boilerplate, priority, or bare "AI" in parts titles.
+  const details = item.details || {};
+  const textValues = value =>
+    (Array.isArray(value) ? value : [value]).filter(value => typeof value === "string");
+  const fields = [
+    ["Title", [item.title]],
+    ["Subject", [item.subject_label, item.subject?.label, details.subject_label]],
+    ["Domain", [...textValues(item.domains), ...textValues(details.domains)]],
+    ["Mission", [...textValues(item.missions), ...textValues(details.missions)]],
+  ];
+  const themes = [
+    ["Quantum", /\b(?:quantum|qubits?|qec|qkd|pqc)\b/i],
+    [
+      "Cybersecurity",
+      /\b(?:cyber(?:security)?|cyber[ -]security|cryptograph(?:y|ic)|encryption|zero[ -]trust|ml[ -](?:kem|dsa))\b/i,
+    ],
+    [
+      "AI & machine learning",
+      /\b(?:artificial intelligence|machine learning|large language models?|neural networks?|generative ai)\b/i,
+    ],
+    [
+      "Contextual AI phrase",
+      /\bai(?:\s+(?:models?|research|infrastructure|policy|governance|safety|security|deployment|adoption)|[ -]enabled)\b/i,
+    ],
+    ["Cloud", /\b(?:cloud|confidential computing)\b/i],
+    ["Named technology mission", /\b(?:genesis mission|golden dome)\b/i],
+  ];
+  const matches = new Set();
+  fields.forEach(([field, values]) => {
+    values
+      .filter(value => typeof value === "string")
+      .forEach(value => {
+        themes.forEach(([theme, pattern]) => {
+          if (pattern.test(value)) matches.add(`${field}: ${theme}`);
+        });
+        if (field === "Domain" && /^(?:ai|ai\s*[&/]\s*ml)$/i.test(value.trim()))
+          matches.add("Domain: AI & machine learning");
+        if (field === "Mission" && /^genesis$/i.test(value.trim())) matches.add("Mission: Genesis");
+      });
+  });
+  return [...matches];
+}
+
+function renderDecisionFocusControls(items, focusedItems) {
+  let controls = document.getElementById("decision-focus-controls");
+  if (!controls) {
+    controls = document.createElement("div");
+    controls.id = "decision-focus-controls";
+    controls.className = "decision-focus-controls";
+    controls.innerHTML =
+      '<div class="decision-focus-options" role="group" aria-label="Decision relevance view"><button type="button" data-decision-focus="technology"></button><button type="button" data-decision-focus="all"></button></div><p id="decision-focus-note" role="status"></p>';
+    document
+      .getElementById("analyst-decision-filters")
+      .closest(".decision-center-toolbar")
+      .before(controls);
+    controls.addEventListener("click", event => {
+      const button = event.target.closest("[data-decision-focus]");
+      if (!button) return;
+      state.decisionFocus = button.dataset.decisionFocus;
+      renderDecisionCenter(
+        state.data?.decision_center || {},
+        state.data?.intelligence_changes || {},
+      );
+    });
+  }
+  controls.querySelectorAll("[data-decision-focus]").forEach(button => {
+    const focused = button.dataset.decisionFocus === "technology";
+    button.textContent = focused
+      ? `Technology focus · ${focusedItems.length}`
+      : `All records · ${items.length}`;
+    button.setAttribute(
+      "aria-pressed",
+      String(button.dataset.decisionFocus === state.decisionFocus),
+    );
+  });
+  const outside = items.length - focusedItems.length;
+  document.getElementById("decision-focus-note").textContent =
+    `Focus matches explicit technology terms in titles, subjects, domains, or named missions; bare “AI” in part names is excluded. ${outside} record${outside === 1 ? " is" : "s are"} outside this filter and remain available in All records. Original severity is unchanged.`;
+}
+
 function renderDecisionCenter(payload, changePayload = {}) {
   const remoteItems = payload.items || [];
   const remoteIds = new Set(remoteItems.map(item => item.decision_id));
@@ -1082,17 +1160,22 @@ function renderDecisionCenter(payload, changePayload = {}) {
     [...remoteItems, ...retainedItems].map(item => [item.decision_id, item]),
   );
   const items = [...itemsById.values()];
+  const focusById = new Map(items.map(item => [item.decision_id, decisionTechnologyFocus(item)]));
+  const focusedItems = items.filter(item => focusById.get(item.decision_id).length);
+  const scopedItems = state.decisionFocus === "technology" ? focusedItems : items;
+  renderDecisionFocusControls(items, focusedItems);
   const isHandled = item =>
     ["reviewed", "dismissed"].includes(state.analystDecisions[item.decision_id]?.disposition);
-  const filtered = items.filter(item => {
+  const filtered = scopedItems.filter(item => {
     if (state.decisionFilter === "handled") return isHandled(item);
     if (state.decisionFilter === "open") return !isHandled(item);
     return item.queue_type === state.decisionFilter;
   });
-  const openItems = items.filter(item => !isHandled(item));
+  const openItems = scopedItems.filter(item => !isHandled(item));
+  const allOpenCount = items.filter(item => !isHandled(item)).length;
   const critical = openItems.filter(item => item.priority === "critical").length;
   document.getElementById("analyst-decision-summary").textContent =
-    `${openItems.length} open · ${critical} critical · ${Object.keys(state.analystDecisions).length} local actions`;
+    `${openItems.length} open${state.decisionFocus === "technology" ? " in focus" : ""} · ${critical} critical${state.decisionFocus === "technology" ? ` · ${allOpenCount} open overall` : ""} · ${Object.keys(state.analystDecisions).length} local actions`;
   const queueLabels = {
     amendment_revalidation: "Amendment",
     authoritative_change: "Government",
@@ -1100,6 +1183,15 @@ function renderDecisionCenter(payload, changePayload = {}) {
   };
   const list = document.getElementById("analyst-decision-list");
   if (!filtered.length) {
+    if (state.decisionFocus === "technology" && items.length > focusedItems.length) {
+      const outside = items.length - focusedItems.length;
+      list.innerHTML = `<div class="decision-center-empty"><div class="queue-clear-status"><div><strong>No records in this focused queue</strong><span>${outside} record${outside === 1 ? " remains" : "s remain"} outside the title/metadata technology filter across all queues. This is a reading preference, not a judgment that those records are unimportant.</span></div></div><button type="button" class="decision-focus-show-all">View all ${items.length} records →</button></div>`;
+      list.querySelector(".decision-focus-show-all").addEventListener("click", () => {
+        state.decisionFocus = "all";
+        renderDecisionCenter(payload, changePayload);
+      });
+      return;
+    }
     const message =
       state.decisionFilter === "handled"
         ? "No reviewed or dismissed decisions are stored in this browser."
@@ -1138,10 +1230,12 @@ function renderDecisionCenter(payload, changePayload = {}) {
         )
         .join("");
       const detailEntries = decisionDetailEntries(item.details || {});
+      const focusBasis = focusById.get(item.decision_id);
       return `<article class="analyst-decision-card ${escapeHtml(item.priority || "medium")} ${handled ? "handled" : ""}">
       <div class="analyst-decision-head"><div><span class="decision-priority ${escapeHtml(item.priority || "medium")}">${escapeHtml(item.priority || "medium")}</span><span class="decision-queue">${escapeHtml(queueLabels[item.queue_type] || item.queue_type || "Decision")}</span></div>${disposition !== "open" ? `<span class="decision-disposition">${escapeHtml(disposition)}</span>` : ""}</div>
       <h3>${escapeHtml(item.title || "Analyst decision")}</h3>
       <p class="analyst-decision-context">${escapeHtml(item.context || "Evidence review")}${item.retained_locally ? " · retained locally" : ""}</p>
+      <p class="decision-focus-basis">${focusBasis.length ? `Focus match: ${escapeHtml(focusBasis.join(" · "))}` : "Outside title/metadata technology focus · available for review"}</p>
       <p class="analyst-decision-why">${escapeHtml(item.why || "New evidence requires review.")}</p>
       <div class="analyst-decision-action"><b>Recommended action</b>${escapeHtml(item.recommended_action || "Review the supporting evidence.")}</div>
       <details class="analyst-decision-detail"><summary>Evidence and decision trace</summary><div class="decision-detail-grid">${detailEntries}${item.observed_at ? `<p><b>Observed:</b> ${escapeHtml(formatDate(item.observed_at))}</p>` : ""}</div><div class="decision-evidence">${evidence || "<span>No direct evidence link is available.</span>"}</div></details>
@@ -1652,16 +1746,32 @@ function renderSignals() {
 }
 
 function renderPatents(payload) {
-  const patents = payload.patents || [];
+  const query = state.patentQuery.toLowerCase().trim();
+  const patents = (payload.patents || [])
+    .filter(item =>
+      `${item.title} ${item.assignee} ${(item.strategic_domains || []).join(" ")}`
+        .toLowerCase()
+        .includes(query),
+    )
+    .sort((a, b) =>
+      state.patentSort === "recent"
+        ? String(b.publication_date || b.grant_date || "").localeCompare(
+            String(a.publication_date || a.grant_date || ""),
+          )
+        : (b.strategic_significance_score || 0) - (a.strategic_significance_score || 0),
+    );
+  document.getElementById("patent-visible-count").textContent =
+    `${Math.min(patents.length, state.patentLimit)} of ${patents.length} matching patents`;
+  document.getElementById("patent-more").hidden = patents.length <= state.patentLimit;
   const summary = payload.summary || {};
   document.getElementById("patent-summary").textContent =
-    `${summary.families || 0} families · ${summary.applications || 0} applications · ${summary.grants || 0} grants · ranked by significance`;
+    `${summary.families || 0} families · ${summary.applications || 0} applications · ${summary.grants || 0} grants`;
   document.getElementById("patent-report-link").href = safeUrl(
     `${state.data.repository_url}/blob/main/reports/patents.md`,
   );
   document.getElementById("patent-grid").innerHTML = patents.length
     ? patents
-        .slice(0, 6)
+        .slice(0, state.patentLimit)
         .map(item => {
           const number =
             item.publication_number ||
@@ -1678,10 +1788,10 @@ function renderPatents(payload) {
             : "";
           const stage = `${item.document_type || "unknown"} · ${item.legal_status_normalized || "status unknown"}`;
           const intelligence = `${item.family_size || 1} family member${item.family_size === 1 ? "" : "s"} · ${item.citation_count || 0} citations`;
-          return `<article class="patent-card"><div class="patent-meta"><span><b class="patent-track">${escapeHtml(trackingLabel)}</b>${escapeHtml(number)}</span><time>${escapeHtml(formatShortDate(item.publication_date))}</time></div><h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3><p class="patent-assignee">${escapeHtml(item.assignee || "Assignee not listed")}</p><div class="patent-intelligence"><span>${escapeHtml(stage)}</span><span>${escapeHtml(intelligence)}</span></div><p>${escapeHtml(item.summary || "No abstract snippet is available.")}</p>${assessment}<div class="patent-footer"><div class="profile-themes">${topics.map(topic => `<span>${escapeHtml(topic)}</span>`).join("")}</div><span class="patent-priority ${escapeHtml(priority)}">${item.strategic_significance_score || 0} · ${escapeHtml(priority)}</span></div></article>`;
+          return `<article class="patent-card"><div class="patent-meta"><span><b class="patent-track">${escapeHtml(trackingLabel)}</b>${escapeHtml(number)}</span><time>${item.publication_date ? "Published" : item.grant_date ? "Granted" : "Date unverified"} ${escapeHtml(formatShortDate(item.publication_date || item.grant_date))}</time></div><h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3><p class="patent-assignee">${escapeHtml(item.assignee || "Assignee not listed")}</p><div class="patent-intelligence"><span>${escapeHtml(stage)}</span><span>${escapeHtml(intelligence)}</span></div><p>${escapeHtml(item.summary || "No abstract snippet is available.")}</p>${assessment}<div class="patent-footer"><div class="profile-themes">${topics.map(topic => `<span>${escapeHtml(topic)}</span>`).join("")}</div><span class="patent-priority ${escapeHtml(priority)}">${item.strategic_significance_score || 0} · ${escapeHtml(priority)}</span></div></article>`;
         })
         .join("")
-    : '<div class="empty-state">No patents are configured. Add notable records to the curated portfolio; automated discovery additionally requires USPTO_ODP_API_KEY.</div>';
+    : `<div class="empty-state">${query ? "No patents match this search. Try a technology, assignee, or broader term." : "No patent evidence is available in this snapshot. Check Sources & methods for collection coverage."}</div>`;
 }
 
 function renderWatch() {
@@ -1916,53 +2026,6 @@ function renderReports(reports) {
     .join("");
 }
 
-function animateMetrics() {
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-  document.querySelectorAll("#briefing.metrics strong").forEach(element => {
-    const target = Number(element.textContent);
-    if (!Number.isFinite(target) || target <= 0) return;
-    const duration = 650;
-    const start = performance.now();
-    const tick = now => {
-      const progress = Math.min((now - start) / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      element.textContent = Math.round(target * eased);
-      if (progress < 1) requestAnimationFrame(tick);
-    };
-    element.textContent = "0";
-    requestAnimationFrame(tick);
-  });
-}
-
-function setupReveal() {
-  if (
-    document.documentElement.dataset.revealSetup ||
-    window.matchMedia("(prefers-reduced-motion: reduce)").matches
-  )
-    return;
-  document.documentElement.dataset.revealSetup = "true";
-  const targets = document.querySelectorAll(
-    "#briefing.metrics article,.briefing-panel,.signal-card,.mission-card,.funding-card,.opportunity-card,.contractor-card,.patent-card,.watch-card,.guide-grid article,.milestone-card",
-  );
-  if (!("IntersectionObserver" in window)) return;
-  document.documentElement.classList.add("reveal-ready");
-  const observer = new IntersectionObserver(
-    entries => {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add("is-visible");
-        observer.unobserve(entry.target);
-      });
-    },
-    { rootMargin: "0px 0px -35px", threshold: 0.08 },
-  );
-  targets.forEach((element, index) => {
-    element.classList.add("reveal-item");
-    element.style.transitionDelay = `${Math.min(index % 4, 3) * 55}ms`;
-    observer.observe(element);
-  });
-}
-
 document.getElementById("signal-search").addEventListener("input", event => {
   state.query = event.target.value;
   if (state.data) renderSignals();
@@ -2080,60 +2143,17 @@ document.getElementById("contractor-search").addEventListener("input", event => 
   if (state.data) renderContractors(state.data.federal_funding || {});
 });
 
-const navToggle = document.querySelector(".nav-toggle");
-const navLinks = document.getElementById("primary-links");
-const closeNav = () => {
-  navLinks?.classList.remove("open");
-  navToggle?.setAttribute("aria-expanded", "false");
-};
-navToggle?.addEventListener("click", () => {
-  const open = navLinks.classList.toggle("open");
-  navToggle.setAttribute("aria-expanded", String(open));
+document.getElementById("patent-search").addEventListener("input", event => {
+  state.patentQuery = event.target.value;
+  state.patentLimit = 24;
+  if (state.data) renderPatents(state.data.patents || {});
 });
-navLinks?.addEventListener("click", event => {
-  if (event.target.closest("a")) closeNav();
+document.getElementById("patent-sort").addEventListener("change", event => {
+  state.patentSort = event.target.value;
+  state.patentLimit = 24;
+  if (state.data) renderPatents(state.data.patents || {});
 });
-document.addEventListener("keydown", event => {
-  if (event.key === "Escape") closeNav();
+document.getElementById("patent-more").addEventListener("click", () => {
+  state.patentLimit += 24;
+  if (state.data) renderPatents(state.data.patents || {});
 });
-
-const landingHero = document.querySelector(".hero:not(.profile-hero)");
-if (
-  landingHero &&
-  window.matchMedia("(pointer: fine)").matches &&
-  !window.matchMedia("(prefers-reduced-motion: reduce)").matches
-) {
-  landingHero.addEventListener("pointermove", event => {
-    const bounds = landingHero.getBoundingClientRect();
-    landingHero.style.setProperty(
-      "--pointer-x",
-      `${(((event.clientX - bounds.left) / bounds.width) * 100).toFixed(1)}%`,
-    );
-    landingHero.style.setProperty(
-      "--pointer-y",
-      `${(((event.clientY - bounds.top) / bounds.height) * 100).toFixed(1)}%`,
-    );
-  });
-  landingHero.addEventListener("pointerleave", () => {
-    landingHero.style.setProperty("--pointer-x", "74%");
-    landingHero.style.setProperty("--pointer-y", "38%");
-  });
-}
-
-const revealHashSection = () => {
-  if (!window.location.hash) return;
-  const target = document.querySelector(window.location.hash);
-  for (
-    let parent = target?.closest("details");
-    parent;
-    parent = parent.parentElement?.closest("details")
-  )
-    parent.open = true;
-  if (target) {
-    const scrollToTarget = () => target.scrollIntoView({ block: "start" });
-    requestAnimationFrame(() => requestAnimationFrame(scrollToTarget));
-    setTimeout(scrollToTarget, 120);
-  }
-};
-window.addEventListener("hashchange", revealHashSection);
-revealHashSection();

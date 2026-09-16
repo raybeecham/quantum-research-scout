@@ -82,14 +82,32 @@ jobs:
           python-version: "3.11"
           cache: pip
 
-      - name: Install package
-        run: python -m pip install -e .
+      - name: Install package and browser checks
+        run: python -m pip install -e ".[browser]"
 
       - name: Build static dashboard
         run: python scripts/build_dashboard.py --output site
 
       - name: Confirm the build produced the expected assets
         run: |
-          for asset in index.html entity.html styles.css components.css app.js entity.js favicon.svg data/dashboard.json; do
+          for asset in index.html entity.html styles.css components.css desk.css app.js desk.js math.js entity.js favicon.svg data/dashboard.json vendor/katex-0.18.7/dist/katex.min.js vendor/katex-0.18.7/dist/katex.min.css vendor/katex-0.18.7/dist/fonts/KaTeX_Main-Regular.woff2; do
             test -s "site/$asset" || { echo "missing or empty: site/$asset"; exit 1; }
           done
+
+      - name: Install Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: Verify the reading desk in a browser
+        run: |
+          python -m http.server 8765 --bind 127.0.0.1 --directory site &
+          preview_pid=$!
+          trap 'kill "$preview_pid"' EXIT
+          python scripts/verify_dashboard_browser.py --channel chromium
+
+      - name: Keep browser screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dashboard-browser-checks
+          path: site/verification/
+          if-no-files-found: ignore

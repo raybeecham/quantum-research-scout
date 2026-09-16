@@ -17,14 +17,14 @@ The `dev` extra installs `pytest` and `ruff` alongside the runtime dependencies.
 
 ## Checks
 
-Run all three before opening a pull request. CI runs the same commands.
+Run these before opening a pull request. CI runs the same checks.
 
 ```bash
 ruff check .            # lint
 ruff format .           # format Python (use --check in CI mode)
-pytest                  # 260 unit tests, no network access required
+pytest                  # unit tests, no network access required
 
-npx prettier@3 --write "dashboard/*.{js,css,html}"   # format dashboard source
+npx --yes prettier@3.9.6 --write "dashboard/*.{js,css,html}"   # format dashboard source
 ```
 
 Tests never reach the network. Collectors are exercised through fixtures and fakes,
@@ -60,12 +60,38 @@ Preview it locally:
 
 ```bash
 python scripts/build_dashboard.py --output site
-python -m http.server --directory site 8000
+python -m http.server 8765 --bind 127.0.0.1 --directory site
 ```
 
-`dashboard/styles.css` is the single stylesheet and is organized top to bottom: design
-tokens, base elements, layout, then components. Add new rules to the matching section and
-use the existing tokens (`--text-sm`, `--space-4`, `--accent`, …) instead of literal values.
+The presentation is split by responsibility:
+
+- `styles.css`: shared design tokens, elements, layout, and primitives.
+- `components.css`: the deeper intelligence modules.
+- `desk.css`: the reading desk, navigation, responsive layouts, and profile theme.
+- `desk.js`: workspaces, search, reading filters, and browser-local saved excerpts.
+- `app.js` / `entity.js`: intelligence-module and organization-profile rendering.
+- `pqc_quantum_research_agent/briefing.py`: deterministic, source-linked reading selection.
+
+Use shared tokens where possible. Keep the site build independent of external APIs and
+private files. Legacy hash links must keep working when reorganizing workspaces.
+
+### Browser checks
+
+With the preview server running in a separate terminal:
+
+```bash
+python -m pip install -e ".[browser]"
+python -m playwright install chromium
+python scripts/verify_dashboard_browser.py --channel chromium
+```
+
+On Windows, `--channel msedge` can use an installed Microsoft Edge instead. The check
+exercises navigation, deep links, search, saved readings, patent pagination, responsive
+layouts, stale and missing data, and failed loading. Screenshots go to the ignored
+`site/verification/` directory. CI also runs this check on the built static site.
+
+The README screenshot is an actual browser capture. Refresh it intentionally after
+material layout changes; it is an illustration of one edition, not a live status image.
 
 ## Configuration files
 
