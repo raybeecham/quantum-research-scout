@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-16 03:02 UTC_
+_Updated 2026-09-17 03:03 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | QEC / Fault Tolerance | ↗️ rising (11 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-09-15 | 64 |
-| Quantum Networking | ↗️ rising (18 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-15 | 119 |
+| Quantum Networking | ↗️ rising (17 vs 6) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-16 | 120 |
 | Quantum Sensing | ↗️ rising (3 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-10 | 45 |
+| Standards / Government | ↗️ rising (6 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-09-16 | 51 |
 | AI Security | ↘️ declining (1 vs 2) | 🔴 critical | high | 👁️ watching | 2026-07-01 | 2026-09-11 | 20 |
-| PQC / Crypto Agility | ➡️ stable (23 vs 21) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-15 | 207 |
-| Quantum Hardware | ➡️ stable (20 vs 22) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-15 | 283 |
+| PQC / Crypto Agility | ➡️ stable (17 vs 23) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-16 | 208 |
+| Quantum Hardware | ➡️ stable (21 vs 22) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-16 | 289 |
 | Quantum Software / Tooling | ↘️ declining (5 vs 8) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-14 | 86 |
-| Standards / Government | ➡️ stable (5 vs 5) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-09-15 | 50 |
 
 ## QEC / Fault Tolerance
 
@@ -35,11 +35,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph, USAspending · Quantum Technologies
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
+  - 2026-09-16 — [CSIC Inaugurates Spain’s Quantum Nanofabrication Area at IMB-CNM in Barcelona](https://quantumcomputingreport.com/csic-inaugurates-spains-quantum-nanofabrication-area-at-imb-cnm-in-barcelona) (Quantum Computing Report, score 23)
   - 2026-09-15 — [Falqon system gains €2.5 million for quantum network buildout](https://quantumzeitgeist.com/q-bird-falqon-system-gains-million) (Quantum Zeitgeist, score 61)
   - 2026-09-15 — [ParityQC Launches Parity Twine Optimizer via IBM Qiskit Functions Catalog](https://quantumcomputingreport.com/parityqc-launches-parity-twine-optimizer-via-ibm-qiskit-functions-catalog) (QuantumNews.ai, score 57)
   - 2026-09-14 — [GÉANT and Quantum Internet Alliance team up to build Europe’s quantum networks](https://quantumzeitgeist.com/geant-quantum-internet-alliance-europes-networks-3) (Quantum Zeitgeist, score 86)
   - 2026-09-14 — [GÉANT and Quantum Internet Alliance team up to build Europe’s quantum networks](https://quantumzeitgeist.com/geant-quantum-internet-alliance-europes-networks-2) (QuantumNews.ai, score 81)
-  - 2026-09-13 — [Sound waves—SEAS—shield qubits, extending quantum memory](https://quantumzeitgeist.com/harvard-john-sound-waves-shield-qubits) (QuantumNews.ai, score 33)
 
 ## Quantum Sensing
 
@@ -51,6 +51,17 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-09-04 — [GPS-Free Test Flight Success Marks Critical Advance for Aviation, National Security](https://www.war.gov/News/News-Stories/Article/Article/4591661/gps-free-test-flight-success-marks-critical-advance-for-aviation-national-secur) (Department of War Strategic Technology News, score 100)
   - 2026-09-03 — [Economic and Technical Impacts of Quantum Sensing in Maritime Navigation](https://quantumnews.ai/networking/economic-and-technical-impacts-of-quantum-sensing-in-maritime-navigation) (QuantumNews.ai, score 26)
   - 2026-08-28 — [Higher-Energy X-Rays Could Enable a New Form of Quantum Sensing](https://thequantuminsider.com/2026/08/28/higher-energy-x-rays-could-enable-a-new-form-of-quantum-sensing) (The Quantum Insider, score 22)
+
+## Standards / Government
+
+- Organizations/sources: The Quantum Insider, QuantumNews.ai, Quantum Zeitgeist, USAspending · Quantum Technologies, USAspending · Advanced Computing
+- Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
+- Recent supporting evidence:
+  - 2026-09-16 — [Beijing Launches Program to Connect Quantum Companies With Industrial Customers](https://thequantuminsider.com/2026/09/16/beijing-launches-program-to-connect-quantum-companies-with-industrial-customers) (The Quantum Insider, score 100)
+  - 2026-09-15 — [THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...](https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
+  - 2026-09-15 — [We are attending JAIF 2026 Montpellier, France 01 Oct, 2026 JAIF 2026 focuses on fault injection prevention - an increasingly complex technique used by attackers. We'll be attending in Montpellier, France, along with experts from industry, government and academia.](https://pqshield.com/events/we-are-attending-jaif-2026) (PQShield, score 100)
+  - 2026-09-14 — [A Unified Analysis of Refresh Gadgets in the Random Probing Model](https://eprint.iacr.org/2026/2015) (IACR ePrint, score 70)
+  - 2026-09-12 — [QMIT launches quantum fellowships to train next-gen leaders](https://quantumzeitgeist.com/qmit-quantum-fellowships-train-next-gen) (QuantumNews.ai, score 27)
 
 ## AI Security
 
@@ -68,22 +79,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-09-16 — [Java 27 Delivers Post-Quantum Cryptography, Future Language Innovation, Helidon 27, JavaFX 27](https://www.infoq.com/news/2026/09/java27-released) (InfoQ Quantum Computing, score 60)
   - 2026-09-15 — [Oracle’s Java 27 boosts TLS 1.3 with quantum-resistant hybrid key exchange.](https://quantumzeitgeist.com/quantum-resistant-key-exchange-oracles-java) (Quantum Zeitgeist, score 83)
   - 2026-09-15 — [Oracle Java 27 Adds Post-Quantum Hybrid Key Exchange for TLS 1.3](https://thequantuminsider.com/2026/09/15/oracle-java-27-post-quantum-cryptography-support) (The Quantum Insider, score 71)
   - 2026-09-15 — [Entrust Turns CBOM Data Into Action With Expanded Cryptographic Security Platform](https://thequantuminsider.com/2026/09/15/entrust-adds-cbom-capabilities-cryptographic-security-platform) (The Quantum Insider, score 69)
   - 2026-09-15 — [ExeQuantum launches EQCore for quantum-enhanced encryption system mapping](https://quantumzeitgeist.com/exequantum-eqcore-quantum-enhanced-encryption) (Quantum Zeitgeist, score 69)
-  - 2026-09-15 — [Quantum PKI from QNu Labs builds a full platform for post-quantum security](https://quantumzeitgeist.com/qnu-labs-quantum-pki-post-security) (QuantumNews.ai, score 66)
 
 ## Quantum Hardware
 
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph, IACR ePrint
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph, Quantum Computing Report
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
-  - 2026-09-15 — [Emergence Quantum and AirTrunk Partner to Develop Hyperscale Cryogenic Data Center Infrastructure](https://quantumcomputingreport.com/emergence-quantum-and-airtrunk-partner-to-develop-hyperscale-cryogenic-data-center-infrastructure) (QuantumNews.ai, score 67)
-  - 2026-09-15 — [Quantinuum and Sandia Labs launch QUOPS, a new quantum benchmark](https://quantumzeitgeist.com/quops-quantum-benchmark-quantinuum-sandia-labs) (Quantum Zeitgeist, score 50)
-  - 2026-09-14 — [Quantum Discrete Logarithms on Elliptic Curves with $5n/2+o(n)$ Logical Qubits and $\widetilde O(n^2)$ Toffoli Gates](https://eprint.iacr.org/2026/2014) (IACR ePrint, score 95)
-  - 2026-09-14 — [Evaluating Quantinuum H2's Trapped Ion Platform in 2026](https://quantumnews.ai/hardware/evaluating-quantinuum-h2-s-trapped-ion-platform-in-2026) (QuantumNews.ai, score 38)
-  - 2026-09-13 — [Shuttling electrons like on a conveyor belt boosts qubit performance](https://quantumzeitgeist.com/simos-shuttling-qubit-performance-electrons-like) (Quantum Zeitgeist, score 72)
+  - 2026-09-16 — [Gold’s Quantum Moment](https://thequantuminsider.com/2026/09/16/golds-quantum-moment) (The Quantum Insider, score 60)
+  - 2026-09-16 — [Better Together: IBM Researchers Cut Sampling Demands 63-Fold by Combining Quantum Error Detection And Mitigation](https://thequantuminsider.com/2026/09/16/better-together-ibm-researchers-cut-sampling-demands-63-fold-by-combining-quantum-error-detection-and-mitigation) (The Quantum Insider, score 36)
+  - 2026-09-16 — [Anderon Finalizes $1 Billion CHIPS Act Award to Scale 300mm Pure-Play Quantum Wafer Foundry](https://quantumcomputingreport.com/anderon-finalizes-1-billion-chips-act-award-to-scale-300mm-pure-play-quantum-wafer-foundry) (Quantum Computing Report, score 31)
+  - 2026-09-16 — [Quobly Demonstrates Key Quantum Operations on 300 mm Silicon Chip](https://thequantuminsider.com/2026/09/16/quobly-key-quantum-operations-industrial-silicon-chip) (The Quantum Insider, score 28)
+  - 2026-09-16 — [Quobly Demonstrates Single-Chip Readout and Gates on 300mm Industrial Silicon Process](https://quantumcomputingreport.com/quobly-demonstrates-single-chip-readout-and-gates-on-300mm-industrial-silicon-process) (Quantum Computing Report, score 28)
 
 ## Quantum Software / Tooling
 
@@ -95,14 +106,3 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-09-13 — [RIKEN protein model reaches 12,635 atoms using quantum-classical computing](https://quantumzeitgeist.com/quantum-classical-computing-riken-protein-atoms) (Quantum Zeitgeist, score 20)
   - 2026-09-13 — [Kyushu University finds quantum gravity tests may mirror normal gravity](https://quantumzeitgeist.com/quantum-gravity-tests-kyushu-university) (QuantumNews.ai, score 15)
   - 2026-09-08 — [Qoro and Hartree Centre link quantum software to UK supercomputers](https://quantumzeitgeist.com/qoro-hartree-centre-link-quantum) (Quantum Zeitgeist, score 25)
-
-## Standards / Government
-
-- Organizations/sources: The Quantum Insider, QuantumNews.ai, Quantum Zeitgeist, USAspending · Quantum Technologies, USAspending · Advanced Computing
-- Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
-- Recent supporting evidence:
-  - 2026-09-15 — [THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...](https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
-  - 2026-09-15 — [We are attending JAIF 2026 Montpellier, France 01 Oct, 2026 JAIF 2026 focuses on fault injection prevention - an increasingly complex technique used by attackers. We'll be attending in Montpellier, France, along with experts from industry, government and academia.](https://pqshield.com/events/we-are-attending-jaif-2026) (PQShield, score 100)
-  - 2026-09-14 — [A Unified Analysis of Refresh Gadgets in the Random Probing Model](https://eprint.iacr.org/2026/2015) (IACR ePrint, score 70)
-  - 2026-09-12 — [QMIT launches quantum fellowships to train next-gen leaders](https://quantumzeitgeist.com/qmit-quantum-fellowships-train-next-gen) (QuantumNews.ai, score 27)
-  - 2026-09-11 — [TITLE: LINE 8.46 - SPARTA QUANTUM XCELLIS REQUESTOR: GARY A NEWCOMB AFT#: 2026-TC-0037 REF AWARD/BPA: 15DDHQ25F00000403/P00002 POP DATES: 09/12/2026 TO 09/11/2027](https://www.usaspending.gov/award/CONT_AWD_15DDHQ26F00000605_1524_NNG15SD19B_8000) (USAspending · Quantum Technologies, score 100)

@@ -1,26 +1,26 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-09-16T02:45:46.761366+00:00_
+_Updated 2026-09-17T02:49:46.870870+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **531**
-- Quarantined evidence or relationships: **134**
-- Acceptance rate: **79.8%**
+- Quarantined evidence or relationships: **133**
+- Acceptance rate: **80.0%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
 | Federal missions | 31 | 100 | 23.7% |
-| Federal funding | 500 | 34 | 93.6% |
+| Federal funding | 500 | 33 | 93.8% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 131
-- **No relevant term in the evidence itself**: 131
-- **Official government source**: 115
-- **Source is not an official .gov or .mil domain**: 16
+- **Match appears only in collector query metadata**: 130
+- **No relevant term in the evidence itself**: 130
+- **Official government source**: 111
+- **Source is not an official .gov or .mil domain**: 19
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -52,6 +52,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: mission evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
+
+### [US launches Quantum Readiness Task Force](https://pqshield.com/us-launches-quantum-readiness-task-force)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [Cryptography 7h ago US financial sector quantum threat prep led by Quantum Readiness Task Force](https://quantumzeitgeist.com/quantum-readiness-threat-prep-financial-sector)
 
@@ -117,6 +124,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 10
 
 ### [New Mexico Offers Matching Funds for DARPA Quantum Computing Projects](https://thequantuminsider.com/2026/08/28/new-mexico-darpa-quantum-benchmarking-matching-funds)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [US National Security Science & Technology Strategy emphasizes quantum readiness](https://pqshield.com/us-national-security-science-technology-strategy)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
@@ -290,6 +304,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: mission evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
+
+### [EO 14412: What the federal PQC mandate means for you | DigiCert](https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [U.S. Embassy Jakarta Media Small Grants Competition](https://www.grants.gov/search-results-detail/363370)
 
@@ -701,27 +722,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal funding
 - Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [NIH Collaborative International Research Project (Parent PF5 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/360581)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [NIH Collaborative International Research Project (Parent PF5 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/360581)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359862)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 

@@ -2678,28 +2678,6 @@
     },
     {
       "application_count": 1,
-      "assignee": "PsiQuantum, Corp.",
-      "citation_count": 0,
-      "family_basis": "continuation parent application",
-      "family_key": "application:PCTUS2024033884",
-      "grant_count": 0,
-      "member_count": 1,
-      "members": [
-        {
-          "application_number": "19489704",
-          "document_type": "application",
-          "publication_number": null,
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19489704/application-data"
-        }
-      ],
-      "primary_publication_number": null,
-      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19489704/application-data",
-      "significance_label": "high",
-      "strategic_significance_score": 60,
-      "title": "JOINT MODULAR MULTIPLICATIVE INVERSE OPERATIONS FOR ACTIVE VOLUME QUANTUM COMPUTING"
-    },
-    {
-      "application_count": 1,
       "assignee": "LG ELECTRONICS INC.",
       "citation_count": 0,
       "family_basis": "continuation parent application",
@@ -2719,6 +2697,28 @@
       "significance_label": "high",
       "strategic_significance_score": 60,
       "title": "DEVICE AND METHOD FOR CARRYING OUT LINK SET CONFIGURATION-BASED QUANTUM RESOURCE ALLOCATION IN QUANTUM COMMUNICATION SYSTEM"
+    },
+    {
+      "application_count": 1,
+      "assignee": "PsiQuantum, Corp.",
+      "citation_count": 0,
+      "family_basis": "continuation parent application",
+      "family_key": "application:PCTUS2024033884",
+      "grant_count": 0,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "19489704",
+          "document_type": "application",
+          "publication_number": null,
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19489704/application-data"
+        }
+      ],
+      "primary_publication_number": null,
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19489704/application-data",
+      "significance_label": "high",
+      "strategic_significance_score": 60,
+      "title": "JOINT MODULAR MULTIPLICATIVE INVERSE OPERATIONS FOR ACTIVE VOLUME QUANTUM COMPUTING"
     },
     {
       "application_count": 0,
@@ -17954,7 +17954,8 @@
       "child_applications": [
         "19657743",
         "19293744",
-        "19022083"
+        "19022083",
+        "PCTUS2023085667"
       ],
       "citation_count": 0,
       "cited_patents": [],
@@ -17985,6 +17986,7 @@
       "parent_applications": [
         "19293744",
         "19022083",
+        "PCTUS2023085667",
         "63548187",
         "63543095",
         "63540345",
@@ -22571,6 +22573,6 @@
     "unique_assignees": 148,
     "with_citations": 0
   },
-  "updated_at": "2026-09-16T02:45:46.761366+00:00",
+  "updated_at": "2026-09-17T02:49:46.870870+00:00",
   "version": 4
 }

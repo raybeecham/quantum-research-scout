@@ -2,38 +2,58 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-16T02:45:46.761366+00:00_
+_Updated 2026-09-17T02:49:46.870870+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **43**
-- Added / changed / resolved: **16 / 0 / 27**
+- Material changes: **64**
+- Added / changed / resolved: **36 / 1 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- None.
+- **OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0** — reported amount: 26071833.05 ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QFHA26F0005_4732_47QFHA24D0005_4732))
 
 ## New claims
 
-- **QUANTUM SENSORS FFRDC** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001))
-- **QUANTUM SENSORS FFRDC** — awarding agency: Department of Homeland Security ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001))
-- **QUANTUM SENSORS FFRDC** — reported amount: 1271800.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001))
-- **QUANTUM SENSORS FFRDC** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001))
-- **HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-))
-- **HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.** — awarding agency: Department of Defense ([evidence](https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-))
-- **HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.** — reported amount: 11716059.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-))
-- **HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-))
-- **BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732))
-- **BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER** — awarding agency: Department of Health and Human Services ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732))
-- **BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER** — reported amount: 111954.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732))
-- **BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732))
-- **ODDBALL, INC.** — legal business name: ODDBALL, INC. ([evidence](https://sam.gov/entity/MHNFNJ1J5RF5/coreData))
-- **ODDBALL, INC.** — uei: MHNFNJ1J5RF5 ([evidence](https://sam.gov/entity/MHNFNJ1J5RF5/coreData))
-- **ODDBALL, INC.** — cage code: 7HL75 ([evidence](https://sam.gov/entity/MHNFNJ1J5RF5/coreData))
-- **ODDBALL, INC.** — registration status: Active ([evidence](https://sam.gov/entity/MHNFNJ1J5RF5/coreData))
+- **SBIR PHASE I MESA-Q: MICROGRAVITY ENGINEERED SEMICONDUCTOR DEVICE ARCHITECTURE AND PRODUCTION FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0361_8000_-NONE-_-NONE-))
+- **SBIR PHASE I MESA-Q: MICROGRAVITY ENGINEERED SEMICONDUCTOR DEVICE ARCHITECTURE AND PRODUCTION FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS** — awarding agency: National Aeronautics and Space Administration ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0361_8000_-NONE-_-NONE-))
+- **SBIR PHASE I MESA-Q: MICROGRAVITY ENGINEERED SEMICONDUCTOR DEVICE ARCHITECTURE AND PRODUCTION FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS** — reported amount: 224997.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0361_8000_-NONE-_-NONE-))
+- **SBIR PHASE I MESA-Q: MICROGRAVITY ENGINEERED SEMICONDUCTOR DEVICE ARCHITECTURE AND PRODUCTION FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0361_8000_-NONE-_-NONE-))
+- **---------- COMMENTS: PLEASE ISSUE A NEW TASK ORDER FOR DTET'S IT CYBERSECURITY TRAINING SUPPORT SERVICES CONTRACT. VENDOR: THUNDER RIDGE SOLUTIONS POP: SEPTEMBER 28, 2026 TO SEPTE...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_19FS1A26F0019_1900_19FS1A21D0002_1900))
+- **---------- COMMENTS: PLEASE ISSUE A NEW TASK ORDER FOR DTET'S IT CYBERSECURITY TRAINING SUPPORT SERVICES CONTRACT. VENDOR: THUNDER RIDGE SOLUTIONS POP: SEPTEMBER 28, 2026 TO SEPTE...** — awarding agency: Department of State ([evidence](https://www.usaspending.gov/award/CONT_AWD_19FS1A26F0019_1900_19FS1A21D0002_1900))
+- **---------- COMMENTS: PLEASE ISSUE A NEW TASK ORDER FOR DTET'S IT CYBERSECURITY TRAINING SUPPORT SERVICES CONTRACT. VENDOR: THUNDER RIDGE SOLUTIONS POP: SEPTEMBER 28, 2026 TO SEPTE...** — reported amount: 4731295.9 ([evidence](https://www.usaspending.gov/award/CONT_AWD_19FS1A26F0019_1900_19FS1A21D0002_1900))
+- **---------- COMMENTS: PLEASE ISSUE A NEW TASK ORDER FOR DTET'S IT CYBERSECURITY TRAINING SUPPORT SERVICES CONTRACT. VENDOR: THUNDER RIDGE SOLUTIONS POP: SEPTEMBER 28, 2026 TO SEPTE...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_19FS1A26F0019_1900_19FS1A21D0002_1900))
+- **GENISIS HIGH-PERFORMANCE COMPUTING (HPC) HARDWARE TECHNICAL REFRESH** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0337_3600_NNG15SD30B_8000))
+- **GENISIS HIGH-PERFORMANCE COMPUTING (HPC) HARDWARE TECHNICAL REFRESH** — awarding agency: Department of Veterans Affairs ([evidence](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0337_3600_NNG15SD30B_8000))
+- **GENISIS HIGH-PERFORMANCE COMPUTING (HPC) HARDWARE TECHNICAL REFRESH** — reported amount: 2957514.17 ([evidence](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0337_3600_NNG15SD30B_8000))
+- **GENISIS HIGH-PERFORMANCE COMPUTING (HPC) HARDWARE TECHNICAL REFRESH** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0337_3600_NNG15SD30B_8000))
+- **AGENTIC ARTIFICIAL INTELLIGENCE IMPLEMENTATION AI AGENT** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QACA26F0383_4732_NNG15SC27B_8000))
+- **AGENTIC ARTIFICIAL INTELLIGENCE IMPLEMENTATION AI AGENT** — awarding agency: General Services Administration ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QACA26F0383_4732_NNG15SC27B_8000))
+- **AGENTIC ARTIFICIAL INTELLIGENCE IMPLEMENTATION AI AGENT** — reported amount: 1666999.96 ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QACA26F0383_4732_NNG15SC27B_8000))
+- **AGENTIC ARTIFICIAL INTELLIGENCE IMPLEMENTATION AI AGENT** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QACA26F0383_4732_NNG15SC27B_8000))
+- **SUPPORT TO THE SEMANTIC LAYER** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_50310226F0133_5000_50310223A0006_5000))
+- **SUPPORT TO THE SEMANTIC LAYER** — awarding agency: Securities and Exchange Commission ([evidence](https://www.usaspending.gov/award/CONT_AWD_50310226F0133_5000_50310223A0006_5000))
+- **SUPPORT TO THE SEMANTIC LAYER** — reported amount: 1141256.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_50310226F0133_5000_50310223A0006_5000))
+- **SUPPORT TO THE SEMANTIC LAYER** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_50310226F0133_5000_50310223A0006_5000))
+- **BUSINESS INTELLIGENCE (BI) SYSTEMS PROGRAM SUPPORT & OUTREACH OFFICE OF DATA & ARTIFICIAL INTELLIGENCE SERVICES (CG-TECH-ODA)** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_70Z02326FDCMS0006_7008_47QRCA24DW187_4732))
+- **BUSINESS INTELLIGENCE (BI) SYSTEMS PROGRAM SUPPORT & OUTREACH OFFICE OF DATA & ARTIFICIAL INTELLIGENCE SERVICES (CG-TECH-ODA)** — awarding agency: Department of Homeland Security ([evidence](https://www.usaspending.gov/award/CONT_AWD_70Z02326FDCMS0006_7008_47QRCA24DW187_4732))
+- **BUSINESS INTELLIGENCE (BI) SYSTEMS PROGRAM SUPPORT & OUTREACH OFFICE OF DATA & ARTIFICIAL INTELLIGENCE SERVICES (CG-TECH-ODA)** — reported amount: 567738.33 ([evidence](https://www.usaspending.gov/award/CONT_AWD_70Z02326FDCMS0006_7008_47QRCA24DW187_4732))
+- **BUSINESS INTELLIGENCE (BI) SYSTEMS PROGRAM SUPPORT & OUTREACH OFFICE OF DATA & ARTIFICIAL INTELLIGENCE SERVICES (CG-TECH-ODA)** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_70Z02326FDCMS0006_7008_47QRCA24DW187_4732))
+- **NIEHS RISK MANAGEMENT FRAMEWORK (RMF), ASSESSMENT AND AUTHORIZATION (A&A), AND CONTINUOUS MONITORING CYBERSECURITY SUPPORT SERVICES** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N96026F00009_7529_47QTCA20D00DK_4732))
+- **NIEHS RISK MANAGEMENT FRAMEWORK (RMF), ASSESSMENT AND AUTHORIZATION (A&A), AND CONTINUOUS MONITORING CYBERSECURITY SUPPORT SERVICES** — awarding agency: Department of Health and Human Services ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N96026F00009_7529_47QTCA20D00DK_4732))
+- **NIEHS RISK MANAGEMENT FRAMEWORK (RMF), ASSESSMENT AND AUTHORIZATION (A&A), AND CONTINUOUS MONITORING CYBERSECURITY SUPPORT SERVICES** — reported amount: 364999.92 ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N96026F00009_7529_47QTCA20D00DK_4732))
+- **NIEHS RISK MANAGEMENT FRAMEWORK (RMF), ASSESSMENT AND AUTHORIZATION (A&A), AND CONTINUOUS MONITORING CYBERSECURITY SUPPORT SERVICES** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N96026F00009_7529_47QTCA20D00DK_4732))
+- **OU67-FY26-159-NEW. QUANTUM NETWORK MANAGEMENT AND SIMULATION SUPPORT** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670133_1341_1333ND21DNB770022_1341))
+- **OU67-FY26-159-NEW. QUANTUM NETWORK MANAGEMENT AND SIMULATION SUPPORT** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670133_1341_1333ND21DNB770022_1341))
+- **OU67-FY26-159-NEW. QUANTUM NETWORK MANAGEMENT AND SIMULATION SUPPORT** — reported amount: 154091.52 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670133_1341_1333ND21DNB770022_1341))
+- **OU67-FY26-159-NEW. QUANTUM NETWORK MANAGEMENT AND SIMULATION SUPPORT** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670133_1341_1333ND21DNB770022_1341))
+- **FY26 A1 1ST QTR RED SHAVER FOODS EDD 10-9-2026 "EO 14398"** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_15B61726P00000128_1540_-NONE-_-NONE-))
+- **FY26 A1 1ST QTR RED SHAVER FOODS EDD 10-9-2026 "EO 14398"** — awarding agency: Department of Justice ([evidence](https://www.usaspending.gov/award/CONT_AWD_15B61726P00000128_1540_-NONE-_-NONE-))
+- **FY26 A1 1ST QTR RED SHAVER FOODS EDD 10-9-2026 "EO 14398"** — reported amount: 72339.2 ([evidence](https://www.usaspending.gov/award/CONT_AWD_15B61726P00000128_1540_-NONE-_-NONE-))
+- **FY26 A1 1ST QTR RED SHAVER FOODS EDD 10-9-2026 "EO 14398"** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_15B61726P00000128_1540_-NONE-_-NONE-))
 
 ## Superseded claims
 

@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-09-16 02:45 UTC_
+_Updated 2026-09-17 02:49 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
 USAspending records describe reported awards; Grants.gov and SAM.gov records describe opportunities or notices. Analytical mission and patent links are not evidence that a patent was funded by, used by, or formally associated with a mission.
 
 - Tracked records: **500**
-- Awards / grant opportunities / procurement opportunities: **494 / 2 / 2**
+- Awards / grant opportunities / procurement opportunities: **495 / 1 / 2**
 - Open opportunities: **1** (including 0 BAA and 2 RFI records)
 - Opportunity radar: **1 mission-linked**, **0 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **14**
 - Missions with activity: **4 of 10**
-- Named recipients and contractors: **318**
-- Known reported award value: **$517.1M**
+- Named recipients and contractors: **319**
+- Known reported award value: **$530.0M**
 
 ## Opportunity Radar
 
@@ -55,7 +55,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | UNIVERSITY OF MARYLAND, COLLEGE PARK | $8.7M | DARPA Quantum Benchmarking Initiative |
 | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | KPMG LLP | $4.4M | Golden Dome for America |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | $700.0K | Genesis Mission |
-| [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) | 2026-09-10 | Not listed | $293.0M | Genesis Mission |
+| [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) | 2026-09-16 | Not listed | $293.0M | Genesis Mission |
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | Not listed | $8 | DARPA Quantum Benchmarking Initiative |
 | [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) | 2026-08-21 | Not listed | Not reported | Genesis Mission |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | Not listed | $700 | Genesis Mission |
@@ -94,15 +94,15 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | UNIVERSITY OF SOUTH FLORIDA | UEI NKAZLXLL7Z91 | **52 · SIGNIFICANT** | Emerging Entrant | New Entrant | 4 | $3.2M | Department of Commerce, National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UEI NPU8ULVAAS23 | **51 · SIGNIFICANT** | Emerging Entrant | New Entrant | 2 | $9.4M | Department of Defense, National Science Foundation | darpa-qbi | 2 |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | UEI LMCJKRFW5R81 | **48 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.1M | National Science Foundation | Not linked | 1 |
-| BOOZ ALLEN HAMILTON INC | UEI JCBMLGPE6Z71 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $31.5M | Department of Homeland Security, Department of the Interior, General Services Administration | Not linked | 0 |
+| BOOZ ALLEN HAMILTON INC | UEI JCBMLGPE6Z71 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $32.8M | Department of Homeland Security, Department of the Interior, General Services Administration | Not linked | 0 |
 | ARIZONA STATE UNIVERSITY | UEI NTLHJXM55KZ6 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 8 | $2.1M | National Science Foundation | Not linked | 0 |
 | PURDUE UNIVERSITY | UEI YRXVL4JYCEF5 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $1.6M | National Science Foundation | Not linked | 0 |
 | AUBURN UNIVERSITY | UEI DMQNDJDHTDG4 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $6.7M | Department of Commerce, National Science Foundation | Not linked | 0 |
-| THE UNIVERSITY OF IOWA | UEI Z1H9VJS8NG16 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $3.7M | Environmental Protection Agency, National Science Foundation | Not linked | 0 |
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | UEI QDE5UHE5XD16 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $1.1M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF ALABAMA | UEI RCNJEHZ83EV6 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.4M | National Science Foundation | Not linked | 0 |
 | NORTH CAROLINA STATE UNIVERSITY | UEI U3NVH931QJJ3 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $1.4M | National Science Foundation | Not linked | 0 |
 | INUTEQ, LLC | UEI NBEWZB8LQ8Z5 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $29.4M | National Aeronautics and Space Administration | Not linked | 0 |
+| THE UNIVERSITY OF IOWA | UEI Z1H9VJS8NG16 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $3.7M | Environmental Protection Agency, National Science Foundation | Not linked | 0 |
 | LOUISIANA STATE UNIVERSITY | UEI ECQEYCHRNKJ4 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.5M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF WASHINGTON | UEI HD1WMN6945W6 | **43 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $3.2M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF NORTH TEXAS | UEI G47WN1XZNWX9 | **43 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.1M | Department of Health and Human Services, National Science Foundation | Not linked | 0 |
@@ -119,7 +119,7 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | BROWN UNIVERSITY | UEI E3FDXZ6TBHW3 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $980.1K | National Science Foundation | Not linked | 0 |
 | ROCHESTER INSTITUTE OF TECHNOLOGY | UEI J6TWTRKC1X14 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $894.0K | National Science Foundation | Not linked | 0 |
 | IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY | UEI DQDBM7FGJPC5 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $851.6K | National Science Foundation | Not linked | 0 |
-| ADVANCED COMPUTER CONCEPTS, INC. | UEI CGE8ABMZLZN9 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $244.8K | Department of Agriculture, Department of Homeland Security, National Aeronautics and Space Administration | Not linked | 0 |
+| CARAHSOFT TECHNOLOGY CORP | UEI DT8KJHZXVJH5 | **36 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $16.8M | Department of Homeland Security, Department of the Treasury, General Services Administration | Not linked | 0 |
 | UNIVERSITY OF WISCONSIN SYSTEM | UEI LCLSJAGTNZQ7 | **36 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.0M | National Science Foundation | Not linked | 0 |
 | MISSISSIPPI STATE UNIVERSITY | UEI NTXJM52SHKS7 | **36 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.3M | National Science Foundation | Not linked | 0 |
 | FLORIDA ATLANTIC UNIVERSITY | UEI Q266L2NDAVP1 | **36 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $800.0K | National Science Foundation | Not linked | 1 |

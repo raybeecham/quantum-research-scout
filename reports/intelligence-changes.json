@@ -282,11 +282,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-5917e99baa2070b7",
+      "claim_id": "claim-9485f727bafd966d",
       "confidence": "high",
-      "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -294,17 +294,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8783fb23acc00fcc",
+          "evidence_id": "evidence-8d4d926499c65c14",
           "locator": "opportunity_status:awarded",
-          "title": "QUANTUM SENSORS FFRDC",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+          "title": "SBIR PHASE I MESA-Q: MICROGRAVITY ENGINEERED SEMICONDUCTOR DEVICE ARCHITECTURE AND PRODUCTION FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0361_8000_-NONE-_-NONE-",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:70RSAT26FR0000048",
-        "label": "QUANTUM SENSORS FFRDC",
-        "node_id": "award:usaspending:70RSAT26FR0000048",
+        "identifier": "usaspending:80NSSC26C0361",
+        "label": "SBIR PHASE I MESA-Q: MICROGRAVITY ENGINEERED SEMICONDUCTOR DEVICE ARCHITECTURE AND PRODUCTION FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS",
+        "node_id": "award:usaspending:80NSSC26C0361",
         "node_type": "award"
       },
       "value": "awarded"
@@ -312,11 +312,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-490fd179211d729c",
+      "claim_id": "claim-745e8e165b41cf7c",
       "confidence": "high",
-      "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -324,17 +324,642 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cacccf4f99dec43e",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "QUANTUM SENSORS FFRDC",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+          "evidence_id": "evidence-e194daaae75188b4",
+          "locator": "awarding_agency:national aeronautics and space administration",
+          "title": "SBIR PHASE I MESA-Q: MICROGRAVITY ENGINEERED SEMICONDUCTOR DEVICE ARCHITECTURE AND PRODUCTION FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0361_8000_-NONE-_-NONE-",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:70RSAT26FR0000048",
-        "label": "QUANTUM SENSORS FFRDC",
-        "node_id": "award:usaspending:70RSAT26FR0000048",
+        "identifier": "usaspending:80NSSC26C0361",
+        "label": "SBIR PHASE I MESA-Q: MICROGRAVITY ENGINEERED SEMICONDUCTOR DEVICE ARCHITECTURE AND PRODUCTION FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS",
+        "node_id": "award:usaspending:80NSSC26C0361",
+        "node_type": "award"
+      },
+      "value": "National Aeronautics and Space Administration"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-9e977b1ac2af421d",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a21b35491c519d76",
+          "locator": "reported_amount:224997.0",
+          "title": "SBIR PHASE I MESA-Q: MICROGRAVITY ENGINEERED SEMICONDUCTOR DEVICE ARCHITECTURE AND PRODUCTION FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0361_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:80NSSC26C0361",
+        "label": "SBIR PHASE I MESA-Q: MICROGRAVITY ENGINEERED SEMICONDUCTOR DEVICE ARCHITECTURE AND PRODUCTION FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS",
+        "node_id": "award:usaspending:80NSSC26C0361",
+        "node_type": "award"
+      },
+      "value": 224997.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-78f69a2fad88d1d6",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": {
+        "identifier": "uei:KMH6FCH19UE6",
+        "label": "UNITED SEMICONDUCTORS, LLC",
+        "node_id": "recipient_or_contractor:uei:KMH6FCH19UE6",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-382d4aaa90c8e8cf",
+          "locator": "reported_recipient:recipient_or_contractor:uei:KMH6FCH19UE6",
+          "title": "SBIR PHASE I MESA-Q: MICROGRAVITY ENGINEERED SEMICONDUCTOR DEVICE ARCHITECTURE AND PRODUCTION FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0361_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:80NSSC26C0361",
+        "label": "SBIR PHASE I MESA-Q: MICROGRAVITY ENGINEERED SEMICONDUCTOR DEVICE ARCHITECTURE AND PRODUCTION FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS",
+        "node_id": "award:usaspending:80NSSC26C0361",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-50e01813ad101eb7",
+      "confidence": "high",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-11b4f983b329b2b3",
+          "locator": "opportunity_status:awarded",
+          "title": "---------- COMMENTS: PLEASE ISSUE A NEW TASK ORDER FOR DTET'S IT CYBERSECURITY TRAINING SUPPORT SERVICES CONTRACT. VENDOR: THUNDER RIDGE SOLUTIONS POP: SEPTEMBER 28, 2026 TO SEPTE...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_19FS1A26F0019_1900_19FS1A21D0002_1900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:19FS1A26F0019",
+        "label": "---------- COMMENTS: PLEASE ISSUE A NEW TASK ORDER FOR DTET'S IT CYBERSECURITY TRAINING SUPPORT SERVICES CONTRACT. VENDOR: THUNDER RIDGE SOLUTIONS POP: SEPTEMBER 28, 2026 TO SEPTE...",
+        "node_id": "award:usaspending:19FS1A26F0019",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6182313aa064c81c",
+      "confidence": "high",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b24ae2cc6b943b25",
+          "locator": "awarding_agency:department of state",
+          "title": "---------- COMMENTS: PLEASE ISSUE A NEW TASK ORDER FOR DTET'S IT CYBERSECURITY TRAINING SUPPORT SERVICES CONTRACT. VENDOR: THUNDER RIDGE SOLUTIONS POP: SEPTEMBER 28, 2026 TO SEPTE...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_19FS1A26F0019_1900_19FS1A21D0002_1900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:19FS1A26F0019",
+        "label": "---------- COMMENTS: PLEASE ISSUE A NEW TASK ORDER FOR DTET'S IT CYBERSECURITY TRAINING SUPPORT SERVICES CONTRACT. VENDOR: THUNDER RIDGE SOLUTIONS POP: SEPTEMBER 28, 2026 TO SEPTE...",
+        "node_id": "award:usaspending:19FS1A26F0019",
+        "node_type": "award"
+      },
+      "value": "Department of State"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-0999e1ff8f056f78",
+      "confidence": "high",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8b8e6a43e4d6374f",
+          "locator": "reported_amount:4731295.9",
+          "title": "---------- COMMENTS: PLEASE ISSUE A NEW TASK ORDER FOR DTET'S IT CYBERSECURITY TRAINING SUPPORT SERVICES CONTRACT. VENDOR: THUNDER RIDGE SOLUTIONS POP: SEPTEMBER 28, 2026 TO SEPTE...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_19FS1A26F0019_1900_19FS1A21D0002_1900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:19FS1A26F0019",
+        "label": "---------- COMMENTS: PLEASE ISSUE A NEW TASK ORDER FOR DTET'S IT CYBERSECURITY TRAINING SUPPORT SERVICES CONTRACT. VENDOR: THUNDER RIDGE SOLUTIONS POP: SEPTEMBER 28, 2026 TO SEPTE...",
+        "node_id": "award:usaspending:19FS1A26F0019",
+        "node_type": "award"
+      },
+      "value": 4731295.9
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ef6c810e4d2d2563",
+      "confidence": "high",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": {
+        "identifier": "uei:JSCHHWMLJHA5",
+        "label": "HO-CHUNK SHARED SERVICES COMPANY",
+        "node_id": "recipient_or_contractor:uei:JSCHHWMLJHA5",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b1b2d9e52fc0ac72",
+          "locator": "reported_recipient:recipient_or_contractor:uei:JSCHHWMLJHA5",
+          "title": "---------- COMMENTS: PLEASE ISSUE A NEW TASK ORDER FOR DTET'S IT CYBERSECURITY TRAINING SUPPORT SERVICES CONTRACT. VENDOR: THUNDER RIDGE SOLUTIONS POP: SEPTEMBER 28, 2026 TO SEPTE...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_19FS1A26F0019_1900_19FS1A21D0002_1900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:19FS1A26F0019",
+        "label": "---------- COMMENTS: PLEASE ISSUE A NEW TASK ORDER FOR DTET'S IT CYBERSECURITY TRAINING SUPPORT SERVICES CONTRACT. VENDOR: THUNDER RIDGE SOLUTIONS POP: SEPTEMBER 28, 2026 TO SEPTE...",
+        "node_id": "award:usaspending:19FS1A26F0019",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-47c6950fe5a51392",
+      "confidence": "high",
+      "effective_date": "2026-09-14",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c5e55e7fc769ea36",
+          "locator": "opportunity_status:awarded",
+          "title": "GENISIS HIGH-PERFORMANCE COMPUTING (HPC) HARDWARE TECHNICAL REFRESH",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0337_3600_NNG15SD30B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:36C10B26F0337",
+        "label": "GENISIS HIGH-PERFORMANCE COMPUTING (HPC) HARDWARE TECHNICAL REFRESH",
+        "node_id": "award:usaspending:36C10B26F0337",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-50c64e432ccceb6b",
+      "confidence": "high",
+      "effective_date": "2026-09-14",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-730687b59693bb38",
+          "locator": "awarding_agency:department of veterans affairs",
+          "title": "GENISIS HIGH-PERFORMANCE COMPUTING (HPC) HARDWARE TECHNICAL REFRESH",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0337_3600_NNG15SD30B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:36C10B26F0337",
+        "label": "GENISIS HIGH-PERFORMANCE COMPUTING (HPC) HARDWARE TECHNICAL REFRESH",
+        "node_id": "award:usaspending:36C10B26F0337",
+        "node_type": "award"
+      },
+      "value": "Department of Veterans Affairs"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-2d6514e64ea81faf",
+      "confidence": "high",
+      "effective_date": "2026-09-14",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-72ef6fec2a1fdb6b",
+          "locator": "reported_amount:2957514.17",
+          "title": "GENISIS HIGH-PERFORMANCE COMPUTING (HPC) HARDWARE TECHNICAL REFRESH",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0337_3600_NNG15SD30B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:36C10B26F0337",
+        "label": "GENISIS HIGH-PERFORMANCE COMPUTING (HPC) HARDWARE TECHNICAL REFRESH",
+        "node_id": "award:usaspending:36C10B26F0337",
+        "node_type": "award"
+      },
+      "value": 2957514.17
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-944d6ca8545e51c3",
+      "confidence": "high",
+      "effective_date": "2026-09-14",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": {
+        "identifier": "uei:LQ48B9A9QJC8",
+        "label": "EPOCH CONCEPTS LLC",
+        "node_id": "recipient_or_contractor:uei:LQ48B9A9QJC8",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1eecd5ee611d792f",
+          "locator": "reported_recipient:recipient_or_contractor:uei:LQ48B9A9QJC8",
+          "title": "GENISIS HIGH-PERFORMANCE COMPUTING (HPC) HARDWARE TECHNICAL REFRESH",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0337_3600_NNG15SD30B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:36C10B26F0337",
+        "label": "GENISIS HIGH-PERFORMANCE COMPUTING (HPC) HARDWARE TECHNICAL REFRESH",
+        "node_id": "award:usaspending:36C10B26F0337",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-2c22c49fa7dbd819",
+      "confidence": "high",
+      "effective_date": "2026-09-14",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2aa98c734767a747",
+          "locator": "opportunity_status:awarded",
+          "title": "AGENTIC ARTIFICIAL INTELLIGENCE IMPLEMENTATION AI AGENT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QACA26F0383_4732_NNG15SC27B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:47QACA26F0383",
+        "label": "AGENTIC ARTIFICIAL INTELLIGENCE IMPLEMENTATION AI AGENT",
+        "node_id": "award:usaspending:47QACA26F0383",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-845ce3dff99b524c",
+      "confidence": "high",
+      "effective_date": "2026-09-14",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-19e85e6614146877",
+          "locator": "awarding_agency:general services administration",
+          "title": "AGENTIC ARTIFICIAL INTELLIGENCE IMPLEMENTATION AI AGENT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QACA26F0383_4732_NNG15SC27B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:47QACA26F0383",
+        "label": "AGENTIC ARTIFICIAL INTELLIGENCE IMPLEMENTATION AI AGENT",
+        "node_id": "award:usaspending:47QACA26F0383",
+        "node_type": "award"
+      },
+      "value": "General Services Administration"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8785195558967555",
+      "confidence": "high",
+      "effective_date": "2026-09-14",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a61c8e169f5a6b4e",
+          "locator": "reported_amount:1666999.96",
+          "title": "AGENTIC ARTIFICIAL INTELLIGENCE IMPLEMENTATION AI AGENT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QACA26F0383_4732_NNG15SC27B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:47QACA26F0383",
+        "label": "AGENTIC ARTIFICIAL INTELLIGENCE IMPLEMENTATION AI AGENT",
+        "node_id": "award:usaspending:47QACA26F0383",
+        "node_type": "award"
+      },
+      "value": 1666999.96
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-93137b8a0ebc4033",
+      "confidence": "high",
+      "effective_date": "2026-09-14",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": {
+        "identifier": "uei:DT8KJHZXVJH5",
+        "label": "CARAHSOFT TECHNOLOGY CORP",
+        "node_id": "recipient_or_contractor:uei:DT8KJHZXVJH5",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-be8e91dd985d5da2",
+          "locator": "reported_recipient:recipient_or_contractor:uei:DT8KJHZXVJH5",
+          "title": "AGENTIC ARTIFICIAL INTELLIGENCE IMPLEMENTATION AI AGENT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QACA26F0383_4732_NNG15SC27B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:47QACA26F0383",
+        "label": "AGENTIC ARTIFICIAL INTELLIGENCE IMPLEMENTATION AI AGENT",
+        "node_id": "award:usaspending:47QACA26F0383",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ed6af37e4e1aa512",
+      "confidence": "high",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-91e8c959e387d95a",
+          "locator": "opportunity_status:awarded",
+          "title": "SUPPORT TO THE SEMANTIC LAYER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_50310226F0133_5000_50310223A0006_5000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:50310226F0133",
+        "label": "SUPPORT TO THE SEMANTIC LAYER",
+        "node_id": "award:usaspending:50310226F0133",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ae0ce9059c97954c",
+      "confidence": "high",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5e7f099b7bfe2783",
+          "locator": "awarding_agency:securities and exchange commission",
+          "title": "SUPPORT TO THE SEMANTIC LAYER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_50310226F0133_5000_50310223A0006_5000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:50310226F0133",
+        "label": "SUPPORT TO THE SEMANTIC LAYER",
+        "node_id": "award:usaspending:50310226F0133",
+        "node_type": "award"
+      },
+      "value": "Securities and Exchange Commission"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1fa77016a2c28c42",
+      "confidence": "high",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d8d655a0dc6abf21",
+          "locator": "reported_amount:1141256.0",
+          "title": "SUPPORT TO THE SEMANTIC LAYER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_50310226F0133_5000_50310223A0006_5000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:50310226F0133",
+        "label": "SUPPORT TO THE SEMANTIC LAYER",
+        "node_id": "award:usaspending:50310226F0133",
+        "node_type": "award"
+      },
+      "value": 1141256.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3c36bf82979197e6",
+      "confidence": "high",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": {
+        "identifier": "uei:KJFKQCAW9G33",
+        "label": "TRUSSWORKS, INC.",
+        "node_id": "recipient_or_contractor:uei:KJFKQCAW9G33",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-26774aa4ab26aa80",
+          "locator": "reported_recipient:recipient_or_contractor:uei:KJFKQCAW9G33",
+          "title": "SUPPORT TO THE SEMANTIC LAYER",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_50310226F0133_5000_50310223A0006_5000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:50310226F0133",
+        "label": "SUPPORT TO THE SEMANTIC LAYER",
+        "node_id": "award:usaspending:50310226F0133",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-fb69fc6f7e79ffe2",
+      "confidence": "high",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7afb8512726870f4",
+          "locator": "opportunity_status:awarded",
+          "title": "BUSINESS INTELLIGENCE (BI) SYSTEMS PROGRAM SUPPORT & OUTREACH OFFICE OF DATA & ARTIFICIAL INTELLIGENCE SERVICES (CG-TECH-ODA)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FDCMS0006_7008_47QRCA24DW187_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:70Z02326FDCMS0006",
+        "label": "BUSINESS INTELLIGENCE (BI) SYSTEMS PROGRAM SUPPORT & OUTREACH OFFICE OF DATA & ARTIFICIAL INTELLIGENCE SERVICES (CG-TECH-ODA)",
+        "node_id": "award:usaspending:70Z02326FDCMS0006",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-47c2f3fd7780020a",
+      "confidence": "high",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a8e7b02f2e833255",
+          "locator": "awarding_agency:department of homeland security",
+          "title": "BUSINESS INTELLIGENCE (BI) SYSTEMS PROGRAM SUPPORT & OUTREACH OFFICE OF DATA & ARTIFICIAL INTELLIGENCE SERVICES (CG-TECH-ODA)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FDCMS0006_7008_47QRCA24DW187_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:70Z02326FDCMS0006",
+        "label": "BUSINESS INTELLIGENCE (BI) SYSTEMS PROGRAM SUPPORT & OUTREACH OFFICE OF DATA & ARTIFICIAL INTELLIGENCE SERVICES (CG-TECH-ODA)",
+        "node_id": "award:usaspending:70Z02326FDCMS0006",
         "node_type": "award"
       },
       "value": "Department of Homeland Security"
@@ -342,11 +967,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-daf36a432b7cd5e0",
+      "claim_id": "claim-ae5b94647f5d701a",
       "confidence": "high",
       "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -354,33 +979,33 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a5a7ba5fa6877106",
-          "locator": "reported_amount:1271800.0",
-          "title": "QUANTUM SENSORS FFRDC",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+          "evidence_id": "evidence-92fed764faca1db7",
+          "locator": "reported_amount:567738.33",
+          "title": "BUSINESS INTELLIGENCE (BI) SYSTEMS PROGRAM SUPPORT & OUTREACH OFFICE OF DATA & ARTIFICIAL INTELLIGENCE SERVICES (CG-TECH-ODA)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FDCMS0006_7008_47QRCA24DW187_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:70RSAT26FR0000048",
-        "label": "QUANTUM SENSORS FFRDC",
-        "node_id": "award:usaspending:70RSAT26FR0000048",
+        "identifier": "usaspending:70Z02326FDCMS0006",
+        "label": "BUSINESS INTELLIGENCE (BI) SYSTEMS PROGRAM SUPPORT & OUTREACH OFFICE OF DATA & ARTIFICIAL INTELLIGENCE SERVICES (CG-TECH-ODA)",
+        "node_id": "award:usaspending:70Z02326FDCMS0006",
         "node_type": "award"
       },
-      "value": 1271800.0
+      "value": 567738.33
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-8f77a72c7e413c84",
+      "claim_id": "claim-834b8dfc900bb92a",
       "confidence": "high",
       "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
       "object": {
-        "identifier": "uei:DMHDNDCPWUD1",
-        "label": "THE MITRE CORPORATION",
-        "node_id": "recipient_or_contractor:uei:DMHDNDCPWUD1",
+        "identifier": "uei:H3UEVKGGU2A4",
+        "label": "CHEVO LLC",
+        "node_id": "recipient_or_contractor:uei:H3UEVKGGU2A4",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -389,17 +1014,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9528c97518224a08",
-          "locator": "reported_recipient:recipient_or_contractor:uei:DMHDNDCPWUD1",
-          "title": "QUANTUM SENSORS FFRDC",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001",
+          "evidence_id": "evidence-20b853537edca5bf",
+          "locator": "reported_recipient:recipient_or_contractor:uei:H3UEVKGGU2A4",
+          "title": "BUSINESS INTELLIGENCE (BI) SYSTEMS PROGRAM SUPPORT & OUTREACH OFFICE OF DATA & ARTIFICIAL INTELLIGENCE SERVICES (CG-TECH-ODA)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FDCMS0006_7008_47QRCA24DW187_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:70RSAT26FR0000048",
-        "label": "QUANTUM SENSORS FFRDC",
-        "node_id": "award:usaspending:70RSAT26FR0000048",
+        "identifier": "usaspending:70Z02326FDCMS0006",
+        "label": "BUSINESS INTELLIGENCE (BI) SYSTEMS PROGRAM SUPPORT & OUTREACH OFFICE OF DATA & ARTIFICIAL INTELLIGENCE SERVICES (CG-TECH-ODA)",
+        "node_id": "award:usaspending:70Z02326FDCMS0006",
         "node_type": "award"
       },
       "value": null
@@ -407,11 +1032,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-aeed952f62fe641a",
+      "claim_id": "claim-df49c82a9c8de144",
       "confidence": "high",
-      "effective_date": "2027-02-13",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -419,17 +1044,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2bfa7a86157178ef",
+          "evidence_id": "evidence-cb69a96f89e817d6",
           "locator": "opportunity_status:awarded",
-          "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
+          "title": "NIEHS RISK MANAGEMENT FRAMEWORK (RMF), ASSESSMENT AND AUTHORIZATION (A&A), AND CONTINUOUS MONITORING CYBERSECURITY SUPPORT SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N96026F00009_7529_47QTCA20D00DK_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:W912HZ26CA026",
-        "label": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
-        "node_id": "award:usaspending:W912HZ26CA026",
+        "identifier": "usaspending:75N96026F00009",
+        "label": "NIEHS RISK MANAGEMENT FRAMEWORK (RMF), ASSESSMENT AND AUTHORIZATION (A&A), AND CONTINUOUS MONITORING CYBERSECURITY SUPPORT SERVICES",
+        "node_id": "award:usaspending:75N96026F00009",
         "node_type": "award"
       },
       "value": "awarded"
@@ -437,11 +1062,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-a355c25a6574402c",
+      "claim_id": "claim-2011e574638629a2",
       "confidence": "high",
-      "effective_date": "2027-02-13",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -449,142 +1074,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-dca7f95eb0fe36ea",
-          "locator": "awarding_agency:department of defense",
-          "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:W912HZ26CA026",
-        "label": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
-        "node_id": "award:usaspending:W912HZ26CA026",
-        "node_type": "award"
-      },
-      "value": "Department of Defense"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-cbeb6748fa6ca316",
-      "confidence": "high",
-      "effective_date": "2027-02-13",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6ee16ca4e3f92903",
-          "locator": "reported_amount:11716059.0",
-          "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:W912HZ26CA026",
-        "label": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
-        "node_id": "award:usaspending:W912HZ26CA026",
-        "node_type": "award"
-      },
-      "value": 11716059.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3b31f673a1f853ac",
-      "confidence": "high",
-      "effective_date": "2027-02-13",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "object": {
-        "identifier": "uei:FYLAKMN93AK5",
-        "label": "HEWLETT PACKARD ENTERPRISE CO",
-        "node_id": "recipient_or_contractor:uei:FYLAKMN93AK5",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3e412c330e18dee4",
-          "locator": "reported_recipient:recipient_or_contractor:uei:FYLAKMN93AK5",
-          "title": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:W912HZ26CA026",
-        "label": "HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING.",
-        "node_id": "award:usaspending:W912HZ26CA026",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2bc6308de86258e4",
-      "confidence": "high",
-      "effective_date": "2026-09-14",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f59c7256fe4ac273",
-          "locator": "opportunity_status:awarded",
-          "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026F00340",
-        "label": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
-        "node_id": "award:usaspending:75N98026F00340",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3724221e5895989a",
-      "confidence": "high",
-      "effective_date": "2026-09-14",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d073e9565a411d99",
+          "evidence_id": "evidence-bd66f0d71dabb333",
           "locator": "awarding_agency:department of health and human services",
-          "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
+          "title": "NIEHS RISK MANAGEMENT FRAMEWORK (RMF), ASSESSMENT AND AUTHORIZATION (A&A), AND CONTINUOUS MONITORING CYBERSECURITY SUPPORT SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N96026F00009_7529_47QTCA20D00DK_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:75N98026F00340",
-        "label": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
-        "node_id": "award:usaspending:75N98026F00340",
+        "identifier": "usaspending:75N96026F00009",
+        "label": "NIEHS RISK MANAGEMENT FRAMEWORK (RMF), ASSESSMENT AND AUTHORIZATION (A&A), AND CONTINUOUS MONITORING CYBERSECURITY SUPPORT SERVICES",
+        "node_id": "award:usaspending:75N96026F00009",
         "node_type": "award"
       },
       "value": "Department of Health and Human Services"
@@ -592,11 +1092,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-cec19c68481cc9a9",
+      "claim_id": "claim-217e70ae43498c6d",
       "confidence": "high",
-      "effective_date": "2026-09-14",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -604,33 +1104,33 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-27b4801dfd6d0b9f",
-          "locator": "reported_amount:111954.0",
-          "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
+          "evidence_id": "evidence-7da5164d053be55d",
+          "locator": "reported_amount:364999.92",
+          "title": "NIEHS RISK MANAGEMENT FRAMEWORK (RMF), ASSESSMENT AND AUTHORIZATION (A&A), AND CONTINUOUS MONITORING CYBERSECURITY SUPPORT SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N96026F00009_7529_47QTCA20D00DK_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:75N98026F00340",
-        "label": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
-        "node_id": "award:usaspending:75N98026F00340",
+        "identifier": "usaspending:75N96026F00009",
+        "label": "NIEHS RISK MANAGEMENT FRAMEWORK (RMF), ASSESSMENT AND AUTHORIZATION (A&A), AND CONTINUOUS MONITORING CYBERSECURITY SUPPORT SERVICES",
+        "node_id": "award:usaspending:75N96026F00009",
         "node_type": "award"
       },
-      "value": 111954.0
+      "value": 364999.92
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-bb3e5752d9db0249",
+      "claim_id": "claim-c8afc5f91ac0f633",
       "confidence": "high",
-      "effective_date": "2026-09-14",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
       "object": {
-        "identifier": "uei:GNL2NWC66HJ9",
-        "label": "H. CO. COMPUTER PRODUCTS",
-        "node_id": "recipient_or_contractor:uei:GNL2NWC66HJ9",
+        "identifier": "uei:U3NSUPUB2ML7",
+        "label": "COMPASS FEDERAL CONSULTING LIMITED LIABILITY COMPANY",
+        "node_id": "recipient_or_contractor:uei:U3NSUPUB2ML7",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -639,17 +1139,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-26e1bf279198cb27",
-          "locator": "reported_recipient:recipient_or_contractor:uei:GNL2NWC66HJ9",
-          "title": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732",
+          "evidence_id": "evidence-084c1759e190c866",
+          "locator": "reported_recipient:recipient_or_contractor:uei:U3NSUPUB2ML7",
+          "title": "NIEHS RISK MANAGEMENT FRAMEWORK (RMF), ASSESSMENT AND AUTHORIZATION (A&A), AND CONTINUOUS MONITORING CYBERSECURITY SUPPORT SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N96026F00009_7529_47QTCA20D00DK_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:75N98026F00340",
-        "label": "BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER",
-        "node_id": "award:usaspending:75N98026F00340",
+        "identifier": "usaspending:75N96026F00009",
+        "label": "NIEHS RISK MANAGEMENT FRAMEWORK (RMF), ASSESSMENT AND AUTHORIZATION (A&A), AND CONTINUOUS MONITORING CYBERSECURITY SUPPORT SERVICES",
+        "node_id": "award:usaspending:75N96026F00009",
         "node_type": "award"
       },
       "value": null
@@ -657,129 +1157,292 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-2d730f446083a694",
+      "claim_id": "claim-387189ba8cb5e8a0",
       "confidence": "high",
-      "effective_date": "2026-09-16",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "effective_date": "2026-11-01",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
       "object": null,
-      "predicate": "legal_business_name",
+      "predicate": "opportunity_status",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0e43f155bc66d103",
-          "locator": "legal_business_name:oddball, inc.",
-          "title": "ODDBALL, INC.",
-          "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
+          "evidence_id": "evidence-3ad8512d2251ac06",
+          "locator": "opportunity_status:awarded",
+          "title": "OU67-FY26-159-NEW. QUANTUM NETWORK MANAGEMENT AND SIMULATION SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670133_1341_1333ND21DNB770022_1341",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:MHNFNJ1J5RF5",
-        "label": "ODDBALL, INC.",
-        "node_id": "recipient_or_contractor:uei:MHNFNJ1J5RF5",
-        "node_type": "recipient_or_contractor"
+        "identifier": "usaspending:1333ND26FNB670133",
+        "label": "OU67-FY26-159-NEW. QUANTUM NETWORK MANAGEMENT AND SIMULATION SUPPORT",
+        "node_id": "award:usaspending:1333ND26FNB670133",
+        "node_type": "award"
       },
-      "value": "ODDBALL, INC."
+      "value": "awarded"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-89e411a6544130b4",
+      "claim_id": "claim-df6efa49ae88a71f",
       "confidence": "high",
-      "effective_date": "2026-09-16",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "effective_date": "2026-11-01",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
       "object": null,
-      "predicate": "uei",
+      "predicate": "awarding_agency",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a61093aa4455cb12",
-          "locator": "uei:mhnfnj1j5rf5",
-          "title": "ODDBALL, INC.",
-          "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
+          "evidence_id": "evidence-8b0b0c732aba0086",
+          "locator": "awarding_agency:department of commerce",
+          "title": "OU67-FY26-159-NEW. QUANTUM NETWORK MANAGEMENT AND SIMULATION SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670133_1341_1333ND21DNB770022_1341",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:MHNFNJ1J5RF5",
-        "label": "ODDBALL, INC.",
-        "node_id": "recipient_or_contractor:uei:MHNFNJ1J5RF5",
-        "node_type": "recipient_or_contractor"
+        "identifier": "usaspending:1333ND26FNB670133",
+        "label": "OU67-FY26-159-NEW. QUANTUM NETWORK MANAGEMENT AND SIMULATION SUPPORT",
+        "node_id": "award:usaspending:1333ND26FNB670133",
+        "node_type": "award"
       },
-      "value": "MHNFNJ1J5RF5"
+      "value": "Department of Commerce"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-965908f93c886293",
+      "claim_id": "claim-39f06857e57c6d1f",
       "confidence": "high",
-      "effective_date": "2026-09-16",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
+      "effective_date": "2026-11-01",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
       "object": null,
-      "predicate": "cage_code",
+      "predicate": "reported_amount",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-212cff7469c063fc",
-          "locator": "cage_code:7hl75",
-          "title": "ODDBALL, INC.",
-          "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
+          "evidence_id": "evidence-6b70dbd8414885d2",
+          "locator": "reported_amount:154091.52",
+          "title": "OU67-FY26-159-NEW. QUANTUM NETWORK MANAGEMENT AND SIMULATION SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670133_1341_1333ND21DNB770022_1341",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:MHNFNJ1J5RF5",
-        "label": "ODDBALL, INC.",
-        "node_id": "recipient_or_contractor:uei:MHNFNJ1J5RF5",
-        "node_type": "recipient_or_contractor"
+        "identifier": "usaspending:1333ND26FNB670133",
+        "label": "OU67-FY26-159-NEW. QUANTUM NETWORK MANAGEMENT AND SIMULATION SUPPORT",
+        "node_id": "award:usaspending:1333ND26FNB670133",
+        "node_type": "award"
       },
-      "value": "7HL75"
+      "value": 154091.52
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-d35c18d7cb83c960",
+      "claim_id": "claim-54b635b60f2b10d3",
       "confidence": "high",
-      "effective_date": "2026-09-16",
-      "first_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "last_observed_at": "2026-09-16T02:45:46.761366+00:00",
-      "object": null,
-      "predicate": "registration_status",
+      "effective_date": "2026-11-01",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": {
+        "identifier": "uei:MSBDRH33EBK6",
+        "label": "PROMETHEUS COMPUTING, LLC",
+        "node_id": "recipient_or_contractor:uei:MSBDRH33EBK6",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-252e3dcae6d3c431",
-          "locator": "registration_status:active",
-          "title": "ODDBALL, INC.",
-          "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
+          "evidence_id": "evidence-d9f31849e72457c9",
+          "locator": "reported_recipient:recipient_or_contractor:uei:MSBDRH33EBK6",
+          "title": "OU67-FY26-159-NEW. QUANTUM NETWORK MANAGEMENT AND SIMULATION SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670133_1341_1333ND21DNB770022_1341",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:MHNFNJ1J5RF5",
-        "label": "ODDBALL, INC.",
-        "node_id": "recipient_or_contractor:uei:MHNFNJ1J5RF5",
+        "identifier": "usaspending:1333ND26FNB670133",
+        "label": "OU67-FY26-159-NEW. QUANTUM NETWORK MANAGEMENT AND SIMULATION SUPPORT",
+        "node_id": "award:usaspending:1333ND26FNB670133",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-a637db92db563308",
+      "confidence": "high",
+      "effective_date": "2026-10-09",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-074d740b514e326e",
+          "locator": "opportunity_status:awarded",
+          "title": "FY26 A1 1ST QTR RED SHAVER FOODS EDD 10-9-2026 \"EO 14398\"",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_15B61726P00000128_1540_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:15B61726P00000128",
+        "label": "FY26 A1 1ST QTR RED SHAVER FOODS EDD 10-9-2026 \"EO 14398\"",
+        "node_id": "award:usaspending:15B61726P00000128",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-19090c0fd9fb2722",
+      "confidence": "high",
+      "effective_date": "2026-10-09",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e0600075fdb20eed",
+          "locator": "awarding_agency:department of justice",
+          "title": "FY26 A1 1ST QTR RED SHAVER FOODS EDD 10-9-2026 \"EO 14398\"",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_15B61726P00000128_1540_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:15B61726P00000128",
+        "label": "FY26 A1 1ST QTR RED SHAVER FOODS EDD 10-9-2026 \"EO 14398\"",
+        "node_id": "award:usaspending:15B61726P00000128",
+        "node_type": "award"
+      },
+      "value": "Department of Justice"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-353f6d5a0b58301c",
+      "confidence": "high",
+      "effective_date": "2026-10-09",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6e41e366d0c9a9dd",
+          "locator": "reported_amount:72339.2",
+          "title": "FY26 A1 1ST QTR RED SHAVER FOODS EDD 10-9-2026 \"EO 14398\"",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_15B61726P00000128_1540_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:15B61726P00000128",
+        "label": "FY26 A1 1ST QTR RED SHAVER FOODS EDD 10-9-2026 \"EO 14398\"",
+        "node_id": "award:usaspending:15B61726P00000128",
+        "node_type": "award"
+      },
+      "value": 72339.2
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-055d6a7cca3a3ca1",
+      "confidence": "high",
+      "effective_date": "2026-10-09",
+      "first_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": {
+        "identifier": "uei:S6M6AJJGH6C3",
+        "label": "QUANTUM FOODS INC",
+        "node_id": "recipient_or_contractor:uei:S6M6AJJGH6C3",
         "node_type": "recipient_or_contractor"
       },
-      "value": "Active"
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5a07b8b5282b2eb0",
+          "locator": "reported_recipient:recipient_or_contractor:uei:S6M6AJJGH6C3",
+          "title": "FY26 A1 1ST QTR RED SHAVER FOODS EDD 10-9-2026 \"EO 14398\"",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_15B61726P00000128_1540_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:15B61726P00000128",
+        "label": "FY26 A1 1ST QTR RED SHAVER FOODS EDD 10-9-2026 \"EO 14398\"",
+        "node_id": "award:usaspending:15B61726P00000128",
+        "node_type": "award"
+      },
+      "value": null
     }
   ],
   "baseline_initialized": false,
-  "changed": [],
+  "changed": [
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-eaa9734550d88a39",
+      "confidence": "high",
+      "effective_date": "2026-09-15",
+      "first_observed_at": "2026-08-28T08:24:42.158568+00:00",
+      "last_observed_at": "2026-09-17T02:49:46.870870+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "previous_object": null,
+      "previous_value": 24834516.57,
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-974ef2e9dea09f96",
+          "locator": "reported_amount:26071833.05",
+          "title": "OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QFHA26F0005_4732_47QFHA24D0005_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:47QFHA26F0005",
+        "label": "OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0",
+        "node_id": "award:usaspending:47QFHA26F0005",
+        "node_type": "award"
+      },
+      "value": 26071833.05
+    }
+  ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-09-16T02:45:46.761366+00:00",
-  "comparison_started_at": "2026-09-15T02:50:31.121146+00:00",
+  "comparison_ended_at": "2026-09-17T02:49:46.870870+00:00",
+  "comparison_started_at": "2026-09-16T02:45:46.761366+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1695,19 +2358,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-09-15T02:50:31.121146+00:00",
+  "since": "2026-09-16T02:45:46.761366+00:00",
   "summary": {
-    "active_claims": 4351,
-    "added": 16,
-    "changed": 0,
+    "active_claims": 4387,
+    "added": 36,
+    "changed": 1,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 43,
+    "material_changes": 64,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-09-16T02:45:46.761366+00:00",
+  "updated_at": "2026-09-17T02:49:46.870870+00:00",
   "version": 1
 }

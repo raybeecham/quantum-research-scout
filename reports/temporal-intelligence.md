@@ -2,25 +2,37 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-09-16T02:45:46.761366+00:00_
+_Updated 2026-09-17T02:49:46.870870+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **8**
+- Actual or recent changes: **17**
 - Newly discovered historical evidence: **0**
-- Newly observed with no reliable source date: **4**
+- Newly observed with no reliable source date: **0**
 - Upcoming dated events: **15**
 
 ## Priority timeline
 
-- **Happened today** · QUANTUM SENSORS FFRDC — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001))
-  - The source-reported event date is today or within the prior day.
-- **Occurred 2 days ago** · BACKUP STORAGE SERVER FOR LOBOS HIGH-PERFORMANCE COMPUTING CLUSTER — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026F00340_7529_47QTCA18D005K_4732))
+- **Changed since prior run** · OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0 — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QFHA26F0005_4732_47QFHA24D0005_4732))
+  - The assertion changed relative to the prior successful ledger build.
+- **Occurred 3 days ago** · AGENTIC ARTIFICIAL INTELLIGENCE IMPLEMENTATION AI AGENT — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QACA26F0383_4732_NNG15SC27B_8000))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Upcoming event date** · HPE AI FACTORY FOR TRANSFORMATIVE ARTIFICIAL INTELLIGENCE/MACHINE LEARNING HIGH-PERFORMANCE COMPUTING. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_W912HZ26CA026_9700_-NONE-_-NONE-))
-  - The source date is in the future; Scout first observed it on 2026-09-16.
-- **Newly observed · event date unknown** · ODDBALL, INC. — cage code ([evidence](https://sam.gov/entity/MHNFNJ1J5RF5/coreData))
-  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Occurred 2 days ago** · BUSINESS INTELLIGENCE (BI) SYSTEMS PROGRAM SUPPORT & OUTREACH OFFICE OF DATA & ARTIFICIAL INTELLIGENCE SERVICES (CG-TECH-ODA) — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70Z02326FDCMS0006_7008_47QRCA24DW187_4732))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Occurred 3 days ago** · GENISIS HIGH-PERFORMANCE COMPUTING (HPC) HARDWARE TECHNICAL REFRESH — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0337_3600_NNG15SD30B_8000))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Occurred 2 days ago** · NIEHS RISK MANAGEMENT FRAMEWORK (RMF), ASSESSMENT AND AUTHORIZATION (A&A), AND CONTINUOUS MONITORING CYBERSECURITY SUPPORT SERVICES — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N96026F00009_7529_47QTCA20D00DK_4732))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Upcoming event date** · ---------- COMMENTS: PLEASE ISSUE A NEW TASK ORDER FOR DTET'S IT CYBERSECURITY TRAINING SUPPORT SERVICES CONTRACT. VENDOR: THUNDER RIDGE SOLUTIONS POP: SEPTEMBER 28, 2026 TO SEPTE... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_19FS1A26F0019_1900_19FS1A21D0002_1900))
+  - The source date is in the future; Scout first observed it on 2026-09-17.
+- **Upcoming event date** · FY26 A1 1ST QTR RED SHAVER FOODS EDD 10-9-2026 "EO 14398" — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_15B61726P00000128_1540_-NONE-_-NONE-))
+  - The source date is in the future; Scout first observed it on 2026-09-17.
+- **Upcoming event date** · OU67-FY26-159-NEW. QUANTUM NETWORK MANAGEMENT AND SIMULATION SUPPORT — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670133_1341_1333ND21DNB770022_1341))
+  - The source date is in the future; Scout first observed it on 2026-09-17.
+- **Upcoming event date** · SBIR PHASE I MESA-Q: MICROGRAVITY ENGINEERED SEMICONDUCTOR DEVICE ARCHITECTURE AND PRODUCTION FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0361_8000_-NONE-_-NONE-))
+  - The source date is in the future; Scout first observed it on 2026-09-17.
+- **Upcoming event date** · SUPPORT TO THE SEMANTIC LAYER — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_50310226F0133_5000_50310223A0006_5000))
+  - The source date is in the future; Scout first observed it on 2026-09-17.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

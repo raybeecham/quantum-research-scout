@@ -2,13 +2,13 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-09-16T02:45:46.761366+00:00_
+_Updated 2026-09-17T02:49:46.870870+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
 - SAM.gov-resolved entities: **94** (**125.3%** coverage)
-- Newly resolved this run: **1**
+- Newly resolved this run: **0**
 - Pending bounded enrichment: **118**
 - Ambiguous / no match: **4 / 1**
 
@@ -16,6 +16,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 |---|---|---|---|---|---|
 | UNIVERSITY OF SOUTH FLORIDA | [UNIVERSITY OF SOUTH FLORIDA](https://sam.gov/entity/NKAZLXLL7Z91/coreData) | NKAZLXLL7Z91 | 1F202 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | [UNIVERSITY OF MARYLAND, COLLEGE PARK](https://sam.gov/entity/NPU8ULVAAS23/coreData) | NPU8ULVAAS23 | 0UB92 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
+| THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | [The Research Foundation for The State University of New York](https://sam.gov/entity/LMCJKRFW5R81/coreData) | LMCJKRFW5R81 | 3GQT6 | Active | Business or Organization, Non-Profit Organization |
 | PURDUE UNIVERSITY | [PURDUE UNIVERSITY](https://sam.gov/entity/YRXVL4JYCEF5/coreData) | YRXVL4JYCEF5 | 6D418 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | [VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY](https://sam.gov/entity/QDE5UHE5XD16/coreData) | QDE5UHE5XD16 | 4B976 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | THE UNIVERSITY OF IOWA | [THE UNIVERSITY OF IOWA](https://sam.gov/entity/Z1H9VJS8NG16/coreData) | Z1H9VJS8NG16 | 2D354 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
@@ -44,6 +45,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | MISSISSIPPI STATE UNIVERSITY | [MISSISSIPPI STATE UNIVERSITY](https://sam.gov/entity/NTXJM52SHKS7/coreData) | NTXJM52SHKS7 | 4E756 | Active | 1862 Land Grant College, Educational Institution, U.S. State Government |
 | FLORIDA ATLANTIC UNIVERSITY | [Florida Atlantic University](https://sam.gov/entity/Q266L2NDAVP1/coreData) | Q266L2NDAVP1 | 7B713 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
 | PARAGON MICRO INC | [PARAGON MICRO INC](https://sam.gov/entity/E41LV9AJGHQ1/coreData) | E41LV9AJGHQ1 | 4ZHT8 | Active | Business or Organization, For Profit Organization |
+| OREGON STATE UNIVERSITY | [OREGON STATE UNIVERSITY](https://sam.gov/entity/MZ4DYXE1SL98/coreData) | MZ4DYXE1SL98 | 5D489 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |
 | QUANTUM FOODS INC | [QUANTUM FOODS INC](https://sam.gov/entity/S6M6AJJGH6C3/coreData) | S6M6AJJGH6C3 | 87Q54 | Active | Business or Organization, For Profit Organization, Self Certified Small Disadvantaged Business |
 | GEORGE MASON UNIVERSITY | [GEORGE MASON UNIVERSITY](https://sam.gov/entity/EADLFP7Z72E5/coreData) | EADLFP7Z72E5 | 7X764 | Active | Educational Institution, Minority Institution, State Controlled Institution of Higher Learning |
 | GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | [GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.](https://sam.gov/entity/SMNWM6HN79X5/coreData) | SMNWM6HN79X5 | 07MU1 | Active | Business or Organization, For Profit Organization |
@@ -82,9 +84,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | [MCKINSEY & COMPANY, INC. WASHINGTON D.C.](https://sam.gov/entity/N6JZARL64EW5/coreData) | N6JZARL64EW5 | 438P1 | Active | Business or Organization, For Profit Organization, Self-Certified HUBZone Joint Venture |
 | DUKE UNIVERSITY | [DUKE UNIVERSITY](https://sam.gov/entity/TP7EK8DZV6N5/coreData) | TP7EK8DZV6N5 | 4B478 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF CALIFORNIA, SAN DIEGO | [UNIVERSITY OF CALIFORNIA, SAN DIEGO](https://sam.gov/entity/UYTTZT6G9DT1/coreData) | UYTTZT6G9DT1 | 50854 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
-| THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | [The Research Foundation for The State University of New York](https://sam.gov/entity/LMCJKRFW5R81/coreData) | LMCJKRFW5R81 | 3GQT6 | Active | Business or Organization, Non-Profit Organization |
 | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | [THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC](https://sam.gov/entity/C1HBCJ9RMBV3/coreData) | C1HBCJ9RMBV3 | 88898 | Active | Business or Organization, Educational Institution, Limited Liability Company |
-| OREGON STATE UNIVERSITY | [OREGON STATE UNIVERSITY](https://sam.gov/entity/MZ4DYXE1SL98/coreData) | MZ4DYXE1SL98 | 5D489 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |
 | NEW YORK UNIVERSITY | [NEW YORK UNIVERSITY](https://sam.gov/entity/NX9PXMKW5KW8/coreData) | NX9PXMKW5KW8 | 72061 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | NATIONWIDE IT SERVICES INC | [NATIONWIDE IT SERVICES INC](https://sam.gov/entity/RR2VC8Y3MK47/coreData) | RR2VC8Y3MK47 | 4Q5A2 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
 | THALES DEFENSE & SECURITY INC | [THALES DEFENSE & SECURITY INC](https://sam.gov/entity/HNNUJXHSXGU3/coreData) | HNNUJXHSXGU3 | 23386 | Active | Business or Organization, For Profit Organization, Foreign Owned |

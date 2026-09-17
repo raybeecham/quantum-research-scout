@@ -7,9 +7,9 @@
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 93.6,
+      "acceptance_rate": 93.8,
       "accepted": 500,
-      "quarantined": 34,
+      "quarantined": 33,
       "scope": "Federal funding"
     }
   ],
@@ -97,6 +97,29 @@
       "stage": "mission evidence admission",
       "title": "Somatic Mosaicism across Human Tissues (SMaHT) Program: Experimental and Computational Technology Development (RM1 Clinical Trial Not Allowed)",
       "url": "https://www.grants.gov/search-results-detail/363860"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Executive Order 14412",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-09-09",
+      "key": "https://pqshield.com/us-launches-quantum-readiness-task-force",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "scope": "Federal missions",
+      "source": "PQShield",
+      "stage": "mission evidence admission",
+      "title": "US launches Quantum Readiness Task Force",
+      "url": "https://pqshield.com/us-launches-quantum-readiness-task-force"
     },
     {
       "admission": {
@@ -326,6 +349,29 @@
       "stage": "mission evidence admission",
       "title": "New Mexico Offers Matching Funds for DARPA Quantum Computing Projects",
       "url": "https://thequantuminsider.com/2026/08/28/new-mexico-darpa-quantum-benchmarking-matching-funds"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Executive Order 14412",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-08-27",
+      "key": "https://pqshield.com/us-national-security-science-technology-strategy",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "scope": "Federal missions",
+      "source": "PQShield",
+      "stage": "mission evidence admission",
+      "title": "US National Security Science & Technology Strategy emphasizes quantum readiness",
+      "url": "https://pqshield.com/us-national-security-science-technology-strategy"
     },
     {
       "admission": {
@@ -873,6 +919,29 @@
       "stage": "mission evidence admission",
       "title": "RNomics Molecular Standards",
       "url": "https://www.grants.gov/search-results-detail/363475"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Executive Order 14412",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-07-31",
+      "key": "https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "scope": "Federal missions",
+      "source": "DigiCert Blog",
+      "stage": "mission evidence admission",
+      "title": "EO 14412: What the federal PQC mandate means for you | DigiCert",
+      "url": "https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you"
     },
     {
       "admission": {
@@ -2213,95 +2282,27 @@
       "stage": "funding evidence admission",
       "title": "Early-Stage Dissemination and Implementation Research in Communication Disorders (R21 Clinical Trial Optional)",
       "url": "https://www.grants.gov/search-results-detail/359274"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Genesis Mission",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-01-20",
-      "key": "https://www.grants.gov/search-results-detail/360581",
-      "mission_id": "genesis-mission",
-      "mission_name": "Genesis Mission",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "mission evidence admission",
-      "title": "NIH Collaborative International Research Project (Parent PF5 Clinical Trial Optional)",
-      "url": "https://www.grants.gov/search-results-detail/360581"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-01-20",
-      "key": "grants_gov:PA-26-002",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "funding evidence admission",
-      "title": "NIH Collaborative International Research Project (Parent PF5 Clinical Trial Optional)",
-      "url": "https://www.grants.gov/search-results-detail/360581"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Genesis Mission",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2025-12-11",
-      "key": "https://www.grants.gov/search-results-detail/359862",
-      "mission_id": "genesis-mission",
-      "mission_name": "Genesis Mission",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "mission evidence admission",
-      "title": "Maximizing Investigators' Research Award (MIRA) (R35 - Clinical Trial Optional)",
-      "url": "https://www.grants.gov/search-results-detail/359862"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 131,
+      "count": 130,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 131,
+      "count": 130,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 115,
+      "count": 111,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 16,
+      "count": 19,
       "label": "Source is not an official .gov or .mil domain"
     },
     {
@@ -2312,14 +2313,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 79.8,
+    "acceptance_rate": 80.0,
     "accepted": 531,
-    "decisions": 665,
-    "funding_quarantine": 31,
+    "decisions": 664,
+    "funding_quarantine": 30,
     "mission_quarantine": 100,
-    "quarantined": 134,
+    "quarantined": 133,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-09-16T02:45:46.761366+00:00",
+  "updated_at": "2026-09-17T02:49:46.870870+00:00",
   "version": 1
 }
