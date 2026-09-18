@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-09-17 03:03 UTC_
+_Updated 2026-09-18 02:42 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
@@ -12,7 +12,7 @@ Assessed **25 of 43** configured organizations.
 
 | Organization | Observed stage | Confidence | PQC evidence | Sources | Historical | Latest dated evidence |
 |---|---|---|---:|---:|---:|---|
-| PQShield | Pilot / Testing | medium | 5 | 1 | 0 | 2026-09-10 |
+| PQShield | Pilot / Testing | medium | 6 | 1 | 0 | 2026-09-17 |
 | Wiz | Pilot / Testing | medium | 4 | 1 | 4 | 2026-07-02 |
 | Keyfactor | Planning | high | 14 | 3 | 7 | 2026-09-08 |
 | NIST | Planning | high | 6 | 3 | 0 | 2026-08-20 |

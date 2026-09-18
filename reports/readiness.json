@@ -38,9 +38,9 @@
   "organizations": [
     {
       "confidence": "medium",
-      "evidence_count": 5,
+      "evidence_count": 6,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-09-10",
+      "latest_evidence_at": "2026-09-17",
       "name": "PQShield",
       "priority": "high",
       "source_count": 1,
@@ -92,6 +92,22 @@
           "source": "PQShield",
           "title": "EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.",
           "url": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness"
+        },
+        {
+          "date": "2026-09-17",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum",
+            "quantum cyber"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "PQShield",
+          "title": "Why the energy sector must plan for post-quantum cyber security now, WEF, Sep 2026",
+          "url": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026"
         },
         {
           "date": "2026-09-07",
@@ -1831,6 +1847,6 @@
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-09-17T03:03:11.827659+00:00",
+  "updated_at": "2026-09-18T02:42:29.000398+00:00",
   "version": 1
 }

@@ -2,11 +2,11 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-09-17T02:49:46.870870+00:00_
+_Updated 2026-09-18T02:36:20.942459+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
-- Active forecasts: **7**
+- Active forecasts: **8**
 - Due within 30 days: **3**
 - Resolved forecasts: **3**
 - Withdrawn without scoring: **2**
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 86% · Genesis Mission
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-16?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-17?
 
 **Horizon:** 2026-10-29
 
@@ -44,7 +44,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 74% · Golden Dome for America
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-16?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-17?
 
 **Horizon:** 2026-10-29
 
@@ -70,7 +70,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 46% · AI Forge
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-16?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-17?
 
 **Horizon:** 2026-11-21
 
@@ -79,6 +79,31 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 **Evidence**
 
 - [AI Forge](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security) — official mission · date not reported
+
+**Confirming indicators**
+
+- A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.
+- A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.
+- An official funding or program update announces a new competitive workstream.
+
+**Disconfirming indicators**
+
+- The mission or related program is delayed, rescoped, or funding is withdrawn.
+- The horizon closes with no additional linked opportunity.
+- Execution moves entirely through existing vehicles without a new public notice.
+
+### 46% · Quantum Genesis
+
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2026-12-17?
+
+**Horizon:** 2026-12-17
+
+**Why:** The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.
+
+**Evidence**
+
+- [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) — official grant opportunity · 2026-09-17
+- [Quantum Genesis](https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first) — official mission · date not reported
 
 **Confirming indicators**
 
@@ -160,7 +185,7 @@ Will authoritative evidence confirm “Advance selected NSF NQVL projects from d
 
 ### 45% · Federal Post-Quantum Cryptography Transition
 
-Will authoritative evidence confirm “Agencies identify and report their PQC migration leads” by 2026-10-17?
+Will authoritative evidence confirm “Agencies identify and report their PQC migration leads” by 2026-10-18?
 
 **Horizon:** 2026-09-30
 

@@ -2,7 +2,7 @@
 
 > **Quantum Research Scout** · Intelligence archive and operational dashboard
 
-_Updated 2026-09-17 03:03 UTC_
+_Updated 2026-09-18 02:42 UTC_
 
 [Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
 
@@ -10,7 +10,7 @@ _Updated 2026-09-17 03:03 UTC_
 
 ## Latest Reports
 
-- Daily: [2026-09-16-digest](2026-09/2026-09-16-digest.md)
+- Daily: [2026-09-17-digest](2026-09/2026-09-17-digest.md)
 - Weekly: [2026-09-07_to_2026-09-11-weekly](weekly/2026/2026-09-07_to_2026-09-11-weekly.md)
 - Monthly: [2026-08-monthly](monthly/2026/2026-08-monthly.md)
 

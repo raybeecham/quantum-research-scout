@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-09-17 02:49 UTC_
+_Updated 2026-09-18 02:36 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
 USAspending records describe reported awards; Grants.gov and SAM.gov records describe opportunities or notices. Analytical mission and patent links are not evidence that a patent was funded by, used by, or formally associated with a mission.
 
 - Tracked records: **500**
-- Awards / grant opportunities / procurement opportunities: **495 / 1 / 2**
-- Open opportunities: **1** (including 0 BAA and 2 RFI records)
-- Opportunity radar: **1 mission-linked**, **0 closing within 30 days**, **0 new since yesterday**
-- Mission-linked records: **14**
-- Missions with activity: **4 of 10**
-- Named recipients and contractors: **319**
-- Known reported award value: **$530.0M**
+- Awards / grant opportunities / procurement opportunities: **494 / 2 / 2**
+- Open opportunities: **2** (including 0 BAA and 2 RFI records)
+- Opportunity radar: **2 mission-linked**, **0 closing within 30 days**, **1 new since yesterday**
+- Mission-linked records: **15**
+- Missions with activity: **5 of 10**
+- Named recipients and contractors: **318**
+- Known reported award value: **$530.8M**
 
 ## Opportunity Radar
 
@@ -26,12 +26,14 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | Rank | Opportunity | Type | Close | Mission | Technology | Score | Recommended action |
 |---:|---|---|---|---|---|---:|---|
 | 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
+| 2 | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) · NEW | GRANT_OPPORTUNITY | 10/19/2026 | Quantum Genesis | quantum | **76 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 
 ## Mission Funding Portfolios
 
 | Mission | Records | Open | Known awards | Announced funding | Contractors / analytical patent matches |
 |---|---:|---:|---:|---:|---|
 | [Genesis Mission](https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission) | 6 | 1 | $700.7K | $293.0M | 1 / 8 |
+| [Quantum Genesis](https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first) | 1 | 1 | $0 | $0 | 0 / 8 |
 | [DARPA Quantum Benchmarking Initiative](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative) | 2 | 0 | $8.7M | $0 | 1 / 8 |
 | [Golden Dome for America](https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/) | 5 | 0 | $4.4M | $0 | 2 / 8 |
 | [AI Forge](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security) | 1 | 0 | $0 | $0 | 0 / 8 |
@@ -39,7 +41,6 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [Federal Post-Quantum Cryptography Transition](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | 0 | 0 | $0 | $0 | 0 / 8 |
 | [QC-ADDS](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/) | 0 | 0 | $0 | $0 | 0 / 8 |
 | [Project Triad](https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real) | 0 | 0 | $0 | $0 | 0 / 8 |
-| [Quantum Genesis](https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first) | 0 | 0 | $0 | $0 | 0 / 8 |
 | [QuantumEAGLe](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4529557/nsa-devcom-army-research-office-launch-quantumeagle-initiative/) | 0 | 0 | $0 | $0 | 0 / 8 |
 
 ## Open Opportunities
@@ -47,6 +48,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | Opportunity | Type | Agency | Close | Mission link | Significance |
 |---|---|---|---|---|---:|
 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | PAMS-SC | 12/17/2026 | Genesis Mission (high) | **59 · HIGH** |
+| [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) | GRANT_OPPORTUNITY | PAMS-SC | 10/19/2026 | Quantum Genesis (high) | **54 · NOTABLE** |
 
 ## Awards and Funding Announcements
 
@@ -98,9 +100,9 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | ARIZONA STATE UNIVERSITY | UEI NTLHJXM55KZ6 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 8 | $2.1M | National Science Foundation | Not linked | 0 |
 | PURDUE UNIVERSITY | UEI YRXVL4JYCEF5 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $1.6M | National Science Foundation | Not linked | 0 |
 | AUBURN UNIVERSITY | UEI DMQNDJDHTDG4 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $6.7M | Department of Commerce, National Science Foundation | Not linked | 0 |
-| VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | UEI QDE5UHE5XD16 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $1.1M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF ALABAMA | UEI RCNJEHZ83EV6 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.4M | National Science Foundation | Not linked | 0 |
 | NORTH CAROLINA STATE UNIVERSITY | UEI U3NVH931QJJ3 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $1.4M | National Science Foundation | Not linked | 0 |
+| VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | UEI QDE5UHE5XD16 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.1M | National Science Foundation | Not linked | 0 |
 | INUTEQ, LLC | UEI NBEWZB8LQ8Z5 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $29.4M | National Aeronautics and Space Administration | Not linked | 0 |
 | THE UNIVERSITY OF IOWA | UEI Z1H9VJS8NG16 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $3.7M | Environmental Protection Agency, National Science Foundation | Not linked | 0 |
 | LOUISIANA STATE UNIVERSITY | UEI ECQEYCHRNKJ4 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.5M | National Science Foundation | Not linked | 0 |

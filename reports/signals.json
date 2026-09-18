@@ -182,13 +182,22 @@
           "source": "Quantum Zeitgeist",
           "title": "LLMs & quantum physics could speed up research, QuSoft symposium finds",
           "url": "https://quantumzeitgeist.com/qusoft-llms-quantum-physics-speed"
+        },
+        {
+          "date": "2026-09-17",
+          "key": "https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know",
+          "report": "2026-09/2026-09-17-digest.md",
+          "score": 100,
+          "source": "NCSC UK Guidance",
+          "title": "Adversary simulation: what you need to know",
+          "url": "https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-09-11",
-      "momentum": "declining",
+      "latest_seen": "2026-09-17",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
@@ -196,9 +205,9 @@
         "The Quantum Insider",
         "Cloudflare Blog"
       ],
-      "prior_count": 2,
-      "recent_count": 1,
-      "status": "watching"
+      "prior_count": 0,
+      "recent_count": 2,
+      "status": "actionable"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -2074,22 +2083,58 @@
           "source": "InfoQ Quantum Computing",
           "title": "Java 27 Delivers Post-Quantum Cryptography, Future Language Innovation, Helidon 27, JavaFX 27",
           "url": "https://www.infoq.com/news/2026/09/java27-released"
+        },
+        {
+          "date": "2026-09-17",
+          "key": "https://thequantuminsider.com/2026/09/17/post-quantum-security-ai-agent-economy",
+          "report": "2026-09/2026-09-17-digest.md",
+          "score": 55,
+          "source": "The Quantum Insider",
+          "title": "Guest Post: Why AI Agent Identities Need Post-Quantum Cryptography",
+          "url": "https://thequantuminsider.com/2026/09/17/post-quantum-security-ai-agent-economy"
+        },
+        {
+          "date": "2026-09-17",
+          "key": "https://thequantuminsider.com/2026/09/17/sectigo-launches-quantum-ready-pqc-readiness",
+          "report": "2026-09/2026-09-17-digest.md",
+          "score": 55,
+          "source": "The Quantum Insider",
+          "title": "Sectigo Launches Quantum Ready for Enterprise PQC Readiness",
+          "url": "https://thequantuminsider.com/2026/09/17/sectigo-launches-quantum-ready-pqc-readiness"
+        },
+        {
+          "date": "2026-09-17",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
+          "report": "2026-09/2026-09-17-digest.md",
+          "score": 67,
+          "source": "Thales Cybersecurity Blog",
+          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
+        },
+        {
+          "date": "2026-09-17",
+          "key": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026",
+          "report": "2026-09/2026-09-17-digest.md",
+          "score": 67,
+          "source": "PQShield",
+          "title": "Why the energy sector must plan for post-quantum cyber security now, WEF, Sep 2026",
+          "url": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-09-16",
+      "latest_seen": "2026-09-17",
       "momentum": "stable",
       "organizations": [
-        "Quantum Zeitgeist",
         "The Quantum Insider",
+        "Quantum Zeitgeist",
         "QuantumNews.ai",
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 23,
-      "recent_count": 17,
+      "prior_count": 18,
+      "recent_count": 19,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -2670,12 +2715,21 @@
           "source": "The Quantum Insider",
           "title": "QC Design Integrates Plaquette With NVIDIA CUDA-Q Logical for Hardware-Realistic QEC Simulation",
           "url": "https://thequantuminsider.com/2026/09/15/qc-design-plaquette-nvidia-cuda-q-logical-qec-simulation"
+        },
+        {
+          "date": "2026-09-17",
+          "key": "https://thequantuminsider.com/2026/09/17/riverlane-establishes-u-s-headquarters-in-maryland-to-accelerate-quantum-computing-innovation",
+          "report": "2026-09/2026-09-17-digest.md",
+          "score": 52,
+          "source": "The Quantum Insider",
+          "title": "Riverlane Establishes U.S. Headquarters in Maryland to Accelerate Quantum Computing Innovation",
+          "url": "https://thequantuminsider.com/2026/09/17/riverlane-establishes-u-s-headquarters-in-maryland-to-accelerate-quantum-computing-innovation"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-09-15",
+      "latest_seen": "2026-09-17",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -2683,8 +2737,8 @@
         "The Quantum Insider",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 2,
-      "recent_count": 11,
+      "prior_count": 5,
+      "recent_count": 9,
       "status": "actionable"
     },
     "Quantum Hardware": {
@@ -7608,13 +7662,22 @@
           "source": "Quantum Zeitgeist",
           "title": "Logical advantage of Pinnacle confirmed on spin-qubit hardware",
           "url": "https://quantumzeitgeist.com/logical-advantage-pinnacle-spin-qubit-hardware"
+        },
+        {
+          "date": "2026-09-17",
+          "key": "https://thequantuminsider.com/2026/09/17/alice-bob-partners-with-the-cea-to-accelerate-quantum-hpc-integration-and-industrial-use-cases",
+          "report": "2026-09/2026-09-17-digest.md",
+          "score": 73,
+          "source": "The Quantum Insider",
+          "title": "Alice & Bob Partners With The CEA to Accelerate Quantum-HPC Integration And Industrial Use Cases",
+          "url": "https://thequantuminsider.com/2026/09/17/alice-bob-partners-with-the-cea-to-accelerate-quantum-hpc-integration-and-industrial-use-cases"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-09-14",
-      "momentum": "declining",
+      "latest_seen": "2026-09-17",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
@@ -7622,7 +7685,7 @@
         "AWS Quantum Technologies Blog",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 8,
+      "prior_count": 5,
       "recent_count": 5,
       "status": "watching"
     },
@@ -8087,12 +8150,21 @@
           "source": "The Quantum Insider",
           "title": "Beijing Launches Program to Connect Quantum Companies With Industrial Customers",
           "url": "https://thequantuminsider.com/2026/09/16/beijing-launches-program-to-connect-quantum-companies-with-industrial-customers"
+        },
+        {
+          "date": "2026-09-17",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01631_7529_-NONE-_-NONE-",
+          "report": "2026-09/2026-09-17-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "title": "NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01631_7529_-NONE-_-NONE-"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-09-16",
+      "latest_seen": "2026-09-17",
       "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
@@ -8102,10 +8174,10 @@
         "USAspending \u00b7 Advanced Computing"
       ],
       "prior_count": 3,
-      "recent_count": 6,
+      "recent_count": 7,
       "status": "actionable"
     }
   },
-  "updated_at": "2026-09-17T03:03:11.455378+00:00",
+  "updated_at": "2026-09-18T02:42:28.528570+00:00",
   "version": 1
 }

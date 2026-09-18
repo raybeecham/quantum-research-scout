@@ -492,8 +492,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 7,
-      "first_party_evidence_count": 7,
+      "evidence_count": 8,
+      "first_party_evidence_count": 8,
       "name": "PQShield",
       "priority": "high",
       "status": "covered",
@@ -604,8 +604,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 2,
-      "first_party_evidence_count": 0,
+      "evidence_count": 3,
+      "first_party_evidence_count": 1,
       "name": "Thales",
       "priority": "high",
       "status": "covered",
@@ -877,11 +877,11 @@
       "first_seen": "2026-06-25",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-10",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "NIST",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -1336,11 +1336,11 @@
       "first_seen": "2026-07-27",
       "historical_evidence_count": 11,
       "latest_seen": "2026-09-14",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Cisco",
-      "prior_count": 1,
+      "prior_count": 3,
       "priority": "high",
-      "recent_count": 4,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -1664,7 +1664,7 @@
       "latest_seen": "2026-09-16",
       "momentum": "rising",
       "name": "IBM",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 2,
       "status": "active",
@@ -2075,7 +2075,7 @@
       "prior_count": 3,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -3033,9 +3033,9 @@
       "first_seen": "2026-07-07",
       "historical_evidence_count": 4,
       "latest_seen": "2026-09-03",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "QuSecure",
-      "prior_count": 2,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -3306,11 +3306,11 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-10",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Cloudflare",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "AI Security",
@@ -3539,6 +3539,124 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 8,
+      "evidence": [
+        {
+          "date": "2026-09-17",
+          "key": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026",
+          "report": "2026-09/2026-09-17-digest.md",
+          "score": 67,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why the energy sector must plan for post-quantum cyber security now, WEF, Sep 2026",
+          "url": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://pqshield.com/events/we-are-attending-jaif-2026",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 100,
+          "source": "PQShield",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "We are attending JAIF 2026 Montpellier, France 01 Oct, 2026 JAIF 2026 focuses on fault injection prevention - an increasingly complex technique used by attackers. We'll be attending in Montpellier, France, along with experts from industry, government and academia.",
+          "url": "https://pqshield.com/events/we-are-attending-jaif-2026"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://pqshield.com/reframing-quantum-risk-for-board-governance",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 50,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Reframing quantum risk for board governance Top security leaders from HSBC, Microsoft, Citi, and industry experts break down the executive mandate for post-quantum security. Learn how to reframe cryptographic risk for the C-suite, bridge governance gaps, and execute enterprise migration.",
+          "url": "https://pqshield.com/reframing-quantum-risk-for-board-governance"
+        },
+        {
+          "date": "2026-09-07",
+          "key": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026",
+          "report": "2026-09/2026-09-07-digest.md",
+          "score": 66,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "We are presenting at GSA PQC Summit 2026 Washington DC 16 - 16 Sep, 2026 We're attending and presenting this year at the 2026 GSA Post-Quantum Cryptography Summit.",
+          "url": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026"
+        },
+        {
+          "date": "2026-08-28",
+          "key": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca",
+          "report": "2026-08/2026-08-28-digest.md",
+          "score": 42,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "We are attending, Embedded World North America, Anaheim, CA Anaheim, CA 22 - 24 Sep, 2026 We'll be back at eWNA, 22-24 September 2026, Anaheim, CA. It's always a great opportunity to catch up with the latest developments in hardware, software, IoT and embedded solutions.",
+          "url": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca"
+        },
+        {
+          "date": "2026-08-28",
+          "key": "https://pqshield.com/events/we-are-speaking-cybersweden-2026",
+          "report": "2026-08/2026-08-28-digest.md",
+          "score": 32,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "We are speaking, CyberSweden 2026, Stockholm Stockholm, Sweden 15 - 17 Sep, 2026 CTO, Graeme Hickey is speaking at CyberSweden 2026 in Stockholm. He\u2019ll present \"Beyond Quantum Safe: Building Systems that Can Survive the Next Cryptographic Transition\". CyberSweden runs Sept 15\u201317.",
+          "url": "https://pqshield.com/events/we-are-speaking-cybersweden-2026"
+        },
+        {
+          "date": "2026-07-23",
+          "key": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 50,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.",
+          "url": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness"
+        },
+        {
+          "date": "2026-07-03",
+          "key": "https://pqshield.com/why-crypto-agility-requires-real-governance",
+          "report": "2026-07/2026-07-03-digest.md",
+          "score": 108,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why crypto-agility requires real governance Eric Amador explains how pqctoday.com uses AI and WebAssembly to remove friction from testing quantum-safe algorithms. Learn how different organizational personas can map out global migration timelines and prepare for upcoming compliance mandates.",
+          "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
+        }
+      ],
+      "evidence_count": 8,
+      "first_seen": "2026-07-03",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-17",
+      "momentum": "stable",
+      "name": "PQShield",
+      "prior_count": 2,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
       "current_evidence_count": 1,
       "evidence": [
         {
@@ -3735,112 +3853,6 @@
       "themes": [
         "Quantum Hardware",
         "Quantum Software / Tooling",
-        "Standards / Government"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 7,
-      "evidence": [
-        {
-          "date": "2026-09-15",
-          "key": "https://pqshield.com/events/we-are-attending-jaif-2026",
-          "report": "2026-09/2026-09-15-digest.md",
-          "score": 100,
-          "source": "PQShield",
-          "themes": [
-            "Standards / Government"
-          ],
-          "title": "We are attending JAIF 2026 Montpellier, France 01 Oct, 2026 JAIF 2026 focuses on fault injection prevention - an increasingly complex technique used by attackers. We'll be attending in Montpellier, France, along with experts from industry, government and academia.",
-          "url": "https://pqshield.com/events/we-are-attending-jaif-2026"
-        },
-        {
-          "date": "2026-09-10",
-          "key": "https://pqshield.com/reframing-quantum-risk-for-board-governance",
-          "report": "2026-09/2026-09-10-digest.md",
-          "score": 50,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Reframing quantum risk for board governance Top security leaders from HSBC, Microsoft, Citi, and industry experts break down the executive mandate for post-quantum security. Learn how to reframe cryptographic risk for the C-suite, bridge governance gaps, and execute enterprise migration.",
-          "url": "https://pqshield.com/reframing-quantum-risk-for-board-governance"
-        },
-        {
-          "date": "2026-09-07",
-          "key": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026",
-          "report": "2026-09/2026-09-07-digest.md",
-          "score": 66,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "We are presenting at GSA PQC Summit 2026 Washington DC 16 - 16 Sep, 2026 We're attending and presenting this year at the 2026 GSA Post-Quantum Cryptography Summit.",
-          "url": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026"
-        },
-        {
-          "date": "2026-08-28",
-          "key": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca",
-          "report": "2026-08/2026-08-28-digest.md",
-          "score": 42,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "We are attending, Embedded World North America, Anaheim, CA Anaheim, CA 22 - 24 Sep, 2026 We'll be back at eWNA, 22-24 September 2026, Anaheim, CA. It's always a great opportunity to catch up with the latest developments in hardware, software, IoT and embedded solutions.",
-          "url": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca"
-        },
-        {
-          "date": "2026-08-28",
-          "key": "https://pqshield.com/events/we-are-speaking-cybersweden-2026",
-          "report": "2026-08/2026-08-28-digest.md",
-          "score": 32,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "We are speaking, CyberSweden 2026, Stockholm Stockholm, Sweden 15 - 17 Sep, 2026 CTO, Graeme Hickey is speaking at CyberSweden 2026 in Stockholm. He\u2019ll present \"Beyond Quantum Safe: Building Systems that Can Survive the Next Cryptographic Transition\". CyberSweden runs Sept 15\u201317.",
-          "url": "https://pqshield.com/events/we-are-speaking-cybersweden-2026"
-        },
-        {
-          "date": "2026-07-23",
-          "key": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 50,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.",
-          "url": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness"
-        },
-        {
-          "date": "2026-07-03",
-          "key": "https://pqshield.com/why-crypto-agility-requires-real-governance",
-          "report": "2026-07/2026-07-03-digest.md",
-          "score": 108,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Why crypto-agility requires real governance Eric Amador explains how pqctoday.com uses AI and WebAssembly to remove friction from testing quantum-safe algorithms. Learn how different organizational personas can map out global migration timelines and prepare for upcoming compliance mandates.",
-          "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
-        }
-      ],
-      "evidence_count": 7,
-      "first_seen": "2026-07-03",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-09-15",
-      "momentum": "rising",
-      "name": "PQShield",
-      "prior_count": 1,
-      "priority": "high",
-      "recent_count": 2,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility",
         "Standards / Government"
       ],
       "type": "company"
@@ -4444,6 +4456,65 @@
     },
     {
       "aliases": [
+        "Thales Group"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 3,
+      "evidence": [
+        {
+          "date": "2026-09-17",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
+          "report": "2026-09/2026-09-17-digest.md",
+          "score": 67,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
+        },
+        {
+          "date": "2026-08-05",
+          "key": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption",
+          "report": "2026-08/2026-08-05-digest.md",
+          "score": 64,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
+          "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 89,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
+          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
+        }
+      ],
+      "evidence_count": 3,
+      "first_seen": "2026-08-04",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-17",
+      "momentum": "rising",
+      "name": "Thales",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
         "French National Cybersecurity Agency",
         "Agence nationale de la securite des systemes d'information"
       ],
@@ -4479,9 +4550,9 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-03",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "ANSSI",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -4676,53 +4747,6 @@
       "type": "standards"
     },
     {
-      "aliases": [
-        "Thales Group"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 2,
-      "evidence": [
-        {
-          "date": "2026-08-05",
-          "key": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption",
-          "report": "2026-08/2026-08-05-digest.md",
-          "score": 64,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
-          "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 89,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
-          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
-        }
-      ],
-      "evidence_count": 2,
-      "first_seen": "2026-08-04",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-08-05",
-      "momentum": "stable",
-      "name": "Thales",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "dormant",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "type": "company"
-    },
-    {
       "aliases": [],
       "case_sensitive_aliases": [],
       "current_evidence_count": 0,
@@ -4791,9 +4815,9 @@
       "first_seen": "2026-09-03",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-03",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "CISA",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5338,11 +5362,11 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-14",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Infleqtion",
-      "prior_count": 1,
+      "prior_count": 3,
       "priority": "medium",
-      "recent_count": 5,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -6832,9 +6856,9 @@
       "latest_seen": "2026-09-15",
       "momentum": "rising",
       "name": "Quantum error correction",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "critical",
-      "recent_count": 5,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "AI Security",
@@ -7194,9 +7218,9 @@
       "latest_seen": "2026-09-15",
       "momentum": "rising",
       "name": "Logical qubits",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "critical",
-      "recent_count": 6,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -7448,11 +7472,11 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 1,
       "latest_seen": "2026-09-10",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Quantum key distribution",
-      "prior_count": 2,
+      "prior_count": 3,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -7595,9 +7619,9 @@
       "latest_seen": "2026-09-14",
       "momentum": "rising",
       "name": "Quantum networking",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 4,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -7859,7 +7883,7 @@
       "latest_seen": "2026-09-04",
       "momentum": "declining",
       "name": "Quantum sensing",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "medium",
       "recent_count": 0,
       "status": "quiet",
@@ -7982,6 +8006,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-09-17T03:03:11.461847+00:00",
+  "updated_at": "2026-09-18T02:42:28.536390+00:00",
   "version": 2
 }

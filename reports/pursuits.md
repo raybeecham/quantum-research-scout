@@ -2,13 +2,13 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-09-17T02:49:46.870870+00:00_
+_Updated 2026-09-18T02:36:20.942459+00:00_
 
 Public-safe pursuit status derived from tracked configuration and qualification evidence. Internal notes, questions, partners, and capability evidence are excluded.
 
-- Active pursuits and candidates: **1**
+- Active pursuits and candidates: **2**
 - Analyst-managed: **0**
-- Auto-seeded candidates: **1**
+- Auto-seeded candidates: **2**
 - Decisions due within 7 days: **0**
 - Overdue milestones: **0**
 - Decisions requiring amendment revalidation: **0**
@@ -16,6 +16,7 @@ Public-safe pursuit status derived from tracked configuration and qualification 
 | Stage | Opportunity | Agency | Owner | Deadline | Decision / next step |
 |---|---|---|---|---|---|
 | qualify | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | PAMS-SC | Unassigned | — | Assign owner and qualify |
+| qualify | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) | PAMS-SC | Unassigned | — | Assign owner and qualify |
 
 ## Operating model
 
