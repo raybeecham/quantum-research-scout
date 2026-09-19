@@ -2,48 +2,26 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-18T02:36:20.942459+00:00_
+_Updated 2026-09-19T02:35:39.621697+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **53**
-- Added / changed / resolved: **26 / 0 / 27**
+- Material changes: **32**
+- Added / changed / resolved: **4 / 1 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- None.
+- **The DOE Quantum Genesis Q Competition** — qualification gate: qualify ([evidence](https://www.grants.gov/search-results-detail/363869))
 
 ## New claims
 
-- **The DOE Quantum Genesis Q Competition** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/363869))
-- **The DOE Quantum Genesis Q Competition** — deadline: 10/19/2026 ([evidence](https://www.grants.gov/search-results-detail/363869))
-- **The DOE Quantum Genesis Q Competition** — awarding agency: PAMS-SC ([evidence](https://www.grants.gov/search-results-detail/363869))
-- **Quantum Genesis** — executes through: — ([evidence](https://www.grants.gov/search-results-detail/363869))
-- **STTR PHASE I Q-BITS: QUANTUM-INSPIRED BITSTREAM INTELLIGENCE FOR REMOTE SENSING SCIENCE** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0321_8000_-NONE-_-NONE-))
-- **STTR PHASE I Q-BITS: QUANTUM-INSPIRED BITSTREAM INTELLIGENCE FOR REMOTE SENSING SCIENCE** — awarding agency: National Aeronautics and Space Administration ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0321_8000_-NONE-_-NONE-))
-- **STTR PHASE I Q-BITS: QUANTUM-INSPIRED BITSTREAM INTELLIGENCE FOR REMOTE SENSING SCIENCE** — reported amount: 224694.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0321_8000_-NONE-_-NONE-))
-- **STTR PHASE I Q-BITS: QUANTUM-INSPIRED BITSTREAM INTELLIGENCE FOR REMOTE SENSING SCIENCE** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0321_8000_-NONE-_-NONE-))
-- **THIS FIRM FIXED PRICE DELIVERY ORDER IS AWARDED IN ACCORDANCE WITH FAR 8.405 FOR AI-ASSISTED MEDIDATA RAVE MIGRATION AND RELATED SERVICES TO QUANTUM INSIGHTS LLC:1462936 IN THE AM...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026F00373_7529_47QTCA21D00BX_4732))
-- **THIS FIRM FIXED PRICE DELIVERY ORDER IS AWARDED IN ACCORDANCE WITH FAR 8.405 FOR AI-ASSISTED MEDIDATA RAVE MIGRATION AND RELATED SERVICES TO QUANTUM INSIGHTS LLC:1462936 IN THE AM...** — awarding agency: Department of Health and Human Services ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026F00373_7529_47QTCA21D00BX_4732))
-- **THIS FIRM FIXED PRICE DELIVERY ORDER IS AWARDED IN ACCORDANCE WITH FAR 8.405 FOR AI-ASSISTED MEDIDATA RAVE MIGRATION AND RELATED SERVICES TO QUANTUM INSIGHTS LLC:1462936 IN THE AM...** — reported amount: 96783.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026F00373_7529_47QTCA21D00BX_4732))
-- **THIS FIRM FIXED PRICE DELIVERY ORDER IS AWARDED IN ACCORDANCE WITH FAR 8.405 FOR AI-ASSISTED MEDIDATA RAVE MIGRATION AND RELATED SERVICES TO QUANTUM INSIGHTS LLC:1462936 IN THE AM...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026F00373_7529_47QTCA21D00BX_4732))
-- **NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026P01631_7529_-NONE-_-NONE-))
-- **NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A** — awarding agency: Department of Health and Human Services ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026P01631_7529_-NONE-_-NONE-))
-- **NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A** — reported amount: 287650.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026P01631_7529_-NONE-_-NONE-))
-- **NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026P01631_7529_-NONE-_-NONE-))
-- **THIS AWARD PROVIDES COMPUTING INFRASTRUCTURE TO DEVELOP, TEST, AND DEPLOY ARTIFICIAL INTELLIGENCE TOOLS THAT HELP ANALYZE DIGITAL EVIDENCE AND SUPPORT CYBER CRIME INVESTIGATIONS.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000156_7012_NNG15SD76B_8000))
-- **THIS AWARD PROVIDES COMPUTING INFRASTRUCTURE TO DEVELOP, TEST, AND DEPLOY ARTIFICIAL INTELLIGENCE TOOLS THAT HELP ANALYZE DIGITAL EVIDENCE AND SUPPORT CYBER CRIME INVESTIGATIONS.** — awarding agency: Department of Homeland Security ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000156_7012_NNG15SD76B_8000))
-- **THIS AWARD PROVIDES COMPUTING INFRASTRUCTURE TO DEVELOP, TEST, AND DEPLOY ARTIFICIAL INTELLIGENCE TOOLS THAT HELP ANALYZE DIGITAL EVIDENCE AND SUPPORT CYBER CRIME INVESTIGATIONS.** — reported amount: 274202.6 ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000156_7012_NNG15SD76B_8000))
-- **THIS AWARD PROVIDES COMPUTING INFRASTRUCTURE TO DEVELOP, TEST, AND DEPLOY ARTIFICIAL INTELLIGENCE TOOLS THAT HELP ANALYZE DIGITAL EVIDENCE AND SUPPORT CYBER CRIME INVESTIGATIONS.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000156_7012_NNG15SD76B_8000))
-- **The DOE Quantum Genesis Q Competition** — pursuit stage: qualify ([evidence]())
-- **UNIVERSITY OF UTAH** — legal business name: UNIVERSITY OF UTAH ([evidence](https://sam.gov/entity/LL8GLEVH6MG3/coreData))
-- **UNIVERSITY OF UTAH** — uei: LL8GLEVH6MG3 ([evidence](https://sam.gov/entity/LL8GLEVH6MG3/coreData))
-- **UNIVERSITY OF UTAH** — cage code: 3T624 ([evidence](https://sam.gov/entity/LL8GLEVH6MG3/coreData))
-- **UNIVERSITY OF UTAH** — registration status: Active ([evidence](https://sam.gov/entity/LL8GLEVH6MG3/coreData))
-- **The DOE Quantum Genesis Q Competition** — qualification gate: qualify ([evidence](https://www.grants.gov/search-results-detail/363869))
+- **Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view))
+- **Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance** — awarding agency: DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.SCO ALEXANDRIA.ENGINEER CENTER SUPPORT ACT HUMPHREYS.W4LD USA HECSA ([evidence](https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view))
+- **Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance** — reported amount: 1802484.0 ([evidence](https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view))
+- **Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view))
 
 ## Superseded claims
 

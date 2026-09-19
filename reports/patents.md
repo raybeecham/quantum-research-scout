@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-09-18T02:36:20.942459+00:00_
+_Updated 2026-09-19T02:35:39.621697+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -15,7 +15,7 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Automated recent discoveries: **248**
 - Published in the last 30 days: **52**
 - Unique named assignees: **150**
-- Patent families: **277**
+- Patent families: **267**
 - Applications / grants: **240 / 10**
 - Known legal status: **201 of 250**
 - Publications with citation evidence: **0**
@@ -42,10 +42,10 @@ Family grouping uses provider family identifiers, parent/priority applications, 
 | [LIGHTWEIGHT POST-QUANTUM AUTHENTICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19363608/application-data)<br><small>US20260046148A1</small> | UNIVERSITY OF SOUTH FLORIDA | 1 / 0 | 0 | **73 · HIGH** |
 | [Distributed Seed Storage for Quantum-Safe Private Key Generation on Constrained Devices](https://data.uspto.gov/patent-file-wrapper/search/details/19360819/application-data)<br><small>US20260046116A1</small> | DigiCert, Inc. | 1 / 0 | 0 | **73 · HIGH** |
 | [MULTI-PARTY AND MULTI-USE QUANTUM RESISTANT SIGNATURES AND KEY ESTABLISHMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19347195/application-data)<br><small>US20260025282A1</small> | PRIVATEGRITY CORPORATION | 1 / 0 | 0 | **73 · HIGH** |
+| [RECOGNITION-STATE QUANTUM INFORMATIONAL ENCRYPTION (RSQIE) FOR QUANTUM-RESISTANT SECURE DIGITAL COMMUNICATION AND DATA PROTECTION](https://data.uspto.gov/patent-file-wrapper/search/details/19562605/application-data)<br><small>US20260280876A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 | [Systems and Methods for a Quantum Safe Certificate Ledger](https://data.uspto.gov/patent-file-wrapper/search/details/19632363/application-data)<br><small>US20260238465A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 | [VIBRATION-INDUCED, POST-QUANTUM ENCRYPTION SYSTEM USING CYMATICS-BASED KEY GENERATION](https://data.uspto.gov/patent-file-wrapper/search/details/19303413/application-data)<br><small>US20260205280A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 | [Hardware-Anchored DAO Governance Engine with Quantum-Resistant Attestation](https://data.uspto.gov/patent-file-wrapper/search/details/19562608/application-data)<br><small>US20260205302A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
-| [SYMBOLIC PHOTONIC LOGIC GATE ARCHITECTURE FOR LIGHT-SPEED DATA PROCESSING AND QUANTUM-RESISTANT OPTICAL ENCRYPTION](https://data.uspto.gov/patent-file-wrapper/search/details/19458148/application-data)<br><small>US20260153781A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 
 ## Notable Patent Watchlist
 

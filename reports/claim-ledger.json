@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-09-18",
+  "as_of_date": "2026-09-19",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-3fbc5736bcf0d8c3",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-18",
+      "evidence_ids": [
+        "evidence-8382317ef2ef8dcf"
+      ],
+      "first_seen_at": "2026-09-19T02:35:39.621697+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-19T02:35:39.621697+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8382317ef2ef8dcf",
+          "locator": "opportunity_status:awarded",
+          "title": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+          "url": "https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:W912HQ26CA077",
+        "label": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+        "node_id": "award_notice:sam_gov:W912HQ26CA077",
+        "node_type": "award_notice"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "655d473121be548d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-80bccd03a0e35584",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-18",
+      "evidence_ids": [
+        "evidence-5121ed4d34e89a0e"
+      ],
+      "first_seen_at": "2026-09-19T02:35:39.621697+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-19T02:35:39.621697+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5121ed4d34e89a0e",
+          "locator": "awarding_agency:dept of defense.dept of the army.us army corps of engineers.sco alexandria.engineer center support act humphreys.w4ld usa hecsa",
+          "title": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+          "url": "https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:W912HQ26CA077",
+        "label": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+        "node_id": "award_notice:sam_gov:W912HQ26CA077",
+        "node_type": "award_notice"
+      },
+      "value": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.SCO ALEXANDRIA.ENGINEER CENTER SUPPORT ACT HUMPHREYS.W4LD USA HECSA",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "aec03f5f7741c23b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-9b3581db533117fc",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-18",
+      "evidence_ids": [
+        "evidence-97a93440ca6e446f"
+      ],
+      "first_seen_at": "2026-09-19T02:35:39.621697+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-19T02:35:39.621697+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-97a93440ca6e446f",
+          "locator": "reported_amount:1802484.0",
+          "title": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+          "url": "https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:W912HQ26CA077",
+        "label": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+        "node_id": "award_notice:sam_gov:W912HQ26CA077",
+        "node_type": "award_notice"
+      },
+      "value": 1802484.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3bae3ea5a5c7e4a8"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-dac5c2c685d7d4f8",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-18",
+      "evidence_ids": [
+        "evidence-eb6325ad97ac37d5"
+      ],
+      "first_seen_at": "2026-09-19T02:35:39.621697+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-19T02:35:39.621697+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "name:advantek consulting",
+        "label": "ADVANTEK CONSULTING, INC",
+        "node_id": "recipient_or_contractor:name:advantek consulting",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-eb6325ad97ac37d5",
+          "locator": "reported_recipient:recipient_or_contractor:name:advantek consulting",
+          "title": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+          "url": "https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:W912HQ26CA077",
+        "label": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+        "node_id": "award_notice:sam_gov:W912HQ26CA077",
+        "node_type": "award_notice"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "42e8e7db99a88f8f"
     },
     {
       "authority": "authoritative",
@@ -38304,191 +38489,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-c5f42c2ce3c54ace",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-379fd01f08280c00"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-379fd01f08280c00",
-          "locator": "opportunity_status:awarded",
-          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2627738_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2627738",
-        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-        "node_id": "award:usaspending:2627738",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "fc54632582d7d3e2"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-7650d723abc8ee22",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-43baee3af9f22445"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-43baee3af9f22445",
-          "locator": "awarding_agency:national science foundation",
-          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2627738_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2627738",
-        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-        "node_id": "award:usaspending:2627738",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "a8ca3fe71eecd446"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-70aa7733bc86efc0",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-64ea47ddcdfc4306"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-64ea47ddcdfc4306",
-          "locator": "reported_amount:30000.0",
-          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2627738_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2627738",
-        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-        "node_id": "award:usaspending:2627738",
-        "node_type": "award"
-      },
-      "value": 30000.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "78e21268b9388a35"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-550d6905d8ae6c10",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-6718799c7cec4e62"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:NNYDFK5FTSX9",
-        "label": "OKLAHOMA STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:NNYDFK5FTSX9",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6718799c7cec4e62",
-          "locator": "reported_recipient:recipient_or_contractor:uei:NNYDFK5FTSX9",
-          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2627738_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2627738",
-        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-        "node_id": "award:usaspending:2627738",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "d140a2bba6d3b60e"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-bfb77d1896770134",
       "confidence": "high",
@@ -39026,6 +39026,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "884ff924a90c62e2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-c5f42c2ce3c54ace",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-379fd01f08280c00"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-379fd01f08280c00",
+          "locator": "opportunity_status:awarded",
+          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2627738_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2627738",
+        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+        "node_id": "award:usaspending:2627738",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "fc54632582d7d3e2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-7650d723abc8ee22",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-43baee3af9f22445"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-43baee3af9f22445",
+          "locator": "awarding_agency:national science foundation",
+          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2627738_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2627738",
+        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+        "node_id": "award:usaspending:2627738",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "a8ca3fe71eecd446"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-70aa7733bc86efc0",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-64ea47ddcdfc4306"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-64ea47ddcdfc4306",
+          "locator": "reported_amount:30000.0",
+          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2627738_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2627738",
+        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+        "node_id": "award:usaspending:2627738",
+        "node_type": "award"
+      },
+      "value": 30000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "78e21268b9388a35"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-550d6905d8ae6c10",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-6718799c7cec4e62"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:NNYDFK5FTSX9",
+        "label": "OKLAHOMA STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:NNYDFK5FTSX9",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6718799c7cec4e62",
+          "locator": "reported_recipient:recipient_or_contractor:uei:NNYDFK5FTSX9",
+          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2627738_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2627738",
+        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+        "node_id": "award:usaspending:2627738",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d140a2bba6d3b60e"
     },
     {
       "authority": "authoritative",
@@ -196805,7 +196990,7 @@
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 68 / 100 with 0 / 100 evidence completeness",
+      "basis": "Deterministic qualification score 73 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-352bc7c9512c056c",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -196817,7 +197002,7 @@
               "mission fit +22",
               "critical mission +8",
               "actionable grant_opportunity +9",
-              "open_window +4",
+              "closing_this_month +9",
               "technology fit +4",
               "new since yesterday +5"
             ],
@@ -196825,7 +197010,7 @@
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/363869"
             ],
-            "points": 76
+            "points": 81
           },
           {
             "basis": [
@@ -196865,7 +197050,7 @@
         },
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 68,
+        "public_evidence_score": 73,
         "requires_revalidation": false,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363869"
@@ -196880,13 +197065,29 @@
         ],
         "rule": "procurement_intelligence._build_decision_briefs"
       },
-      "effective_date": "2026-09-18",
+      "effective_date": "2026-09-19",
       "evidence_ids": [
         "evidence-bfd565fa4072d5d4"
       ],
       "first_seen_at": "2026-09-18T02:36:20.942459+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-18T02:36:20.942459+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 68 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-bfd565fa4072d5d4"
+          ],
+          "first_seen_at": "2026-09-18T02:36:20.942459+00:00",
+          "last_seen_at": "2026-09-18T02:36:20.942459+00:00",
+          "object": null,
+          "status": "active",
+          "value": "qualify",
+          "version": 1,
+          "version_hash": "1ec49e69e32174e3"
+        }
+      ],
+      "last_seen_at": "2026-09-19T02:35:39.621697+00:00",
       "missing_observations": 0,
       "object": null,
       "observation_status": "observed",
@@ -196912,8 +197113,8 @@
       },
       "value": "qualify",
       "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "1ec49e69e32174e3"
+      "version": 2,
+      "version_hash": "5f07b2e6f7e9e66e"
     },
     {
       "authority": "analytical",
@@ -221188,7 +221389,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221235,7 +221436,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221282,7 +221483,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221329,7 +221530,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221376,7 +221577,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221423,7 +221624,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221470,7 +221671,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221517,7 +221718,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221564,7 +221765,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221611,7 +221812,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221658,7 +221859,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221705,7 +221906,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221752,7 +221953,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221799,7 +222000,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221846,7 +222047,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221893,7 +222094,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221940,7 +222141,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221987,7 +222188,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222039,7 +222240,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222091,7 +222292,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222143,7 +222344,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222195,7 +222396,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222247,7 +222448,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222299,7 +222500,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222351,7 +222552,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222403,7 +222604,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222455,7 +222656,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-18T02:36:20.942459+00:00",
+      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -236928,6 +237129,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-5121ed4d34e89a0e",
+      "locator": "awarding_agency:dept of defense.dept of the army.us army corps of engineers.sco alexandria.engineer center support act humphreys.w4ld usa hecsa",
+      "title": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+      "url": "https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-513aec8d8fcab322",
       "locator": "reported_amount:266449.0",
       "title": "QUANTUM COMPUTING APPROACH FOR PREDICTING EXTREME ATMOSPHERIC EVENTS -THIS PROJECT WILL EXPLORE THE FEASIBILITY OF USING QUANTUM COMPUTING TO HELP PREDICT EXTREME ATMOSPHERIC EVEN...",
@@ -245278,6 +245489,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-8382317ef2ef8dcf",
+      "locator": "opportunity_status:awarded",
+      "title": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+      "url": "https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-83af5fb1893ea152",
       "locator": "opportunity_status:awarded",
       "title": "PURPOSE:THE GRANT FOR THE NEXT GENERATION SEMICONDUCTOR TEST FACILITY (NGST) AT OREGON STATE UNIVERSITY WILL PROVIDE HIGH-SPEED, HIGH-FREQUENCY, HIGH-RESOLUTION, AND THERMAL CHARA...",
@@ -248632,6 +248853,16 @@
       "locator": "opportunity_status:awarded",
       "title": "SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (SAMHSA), OFFICE OF MANAGEMENT, TECHNOLOGY AND OPERATIONS, DIVISION OF TECHNOLOGY MANAGEMENT (OMTO/DTM) CYBERSECURITY AND...",
       "url": "https://www.usaspending.gov/award/CONT_AWD_75S20326F80003_7522_75N98118D00043_7529",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-97a93440ca6e446f",
+      "locator": "reported_amount:1802484.0",
+      "title": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+      "url": "https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view",
       "verification_status": "source_reported"
     },
     {
@@ -263838,6 +264069,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-eb6325ad97ac37d5",
+      "locator": "reported_recipient:recipient_or_contractor:name:advantek consulting",
+      "title": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+      "url": "https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-eb63c773f32e3117",
       "locator": "opportunity_status:open",
       "title": "Notice of Intent to Sole Source - Innovative Algorithms Phalanx Shield Unattended Ground Sensor",
@@ -267708,16 +267949,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4413,
-    "authoritative_claims": 4212,
+    "active_claims": 4417,
+    "authoritative_claims": 4216,
     "conflicted_claims": 38,
     "derived_claims": 197,
-    "evidence_items": 4522,
-    "source_urls": 1234,
-    "subjects": 885,
+    "evidence_items": 4526,
+    "source_urls": 1235,
+    "subjects": 886,
     "superseded_claims": 0,
-    "total_claims": 4440
+    "total_claims": 4444
   },
-  "updated_at": "2026-09-18T02:36:20.942459+00:00",
+  "updated_at": "2026-09-19T02:35:39.621697+00:00",
   "version": 1
 }

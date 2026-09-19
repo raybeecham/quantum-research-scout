@@ -1,10 +1,10 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-09-18T02:36:20.942459+00:00_
+_Updated 2026-09-19T02:35:39.621697+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **532**
+- Accepted evidence: **533**
 - Quarantined evidence or relationships: **133**
 - Acceptance rate: **80.0%**
 
@@ -12,15 +12,15 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 32 | 100 | 24.2% |
+| Federal missions | 33 | 100 | 24.8% |
 | Federal funding | 500 | 33 | 93.8% |
 
 ## Quarantine Reasons
 
 - **Match appears only in collector query metadata**: 130
 - **No relevant term in the evidence itself**: 130
-- **Official government source**: 111
-- **Source is not an official .gov or .mil domain**: 19
+- **Official government source**: 110
+- **Source is not an official .gov or .mil domain**: 20
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -45,6 +45,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [DOE Launches $215 Million Quantum Genesis Q Competition](https://thequantuminsider.com/2026/09/18/doe-215-million-quantum-genesis-q-competition)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [Somatic Mosaicism across Human Tissues (SMaHT) Program: Experimental and Computational Technology Development (RM1 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/363860)
 
@@ -715,13 +722,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal missions
 - Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Early-Stage Dissemination and Implementation Research in Communication Disorders (R21 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359274)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 

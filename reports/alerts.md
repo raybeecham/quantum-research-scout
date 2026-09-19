@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-18 02:42 UTC_
+_Updated 2026-09-19 02:41 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 5 | 9 | 16 | 25 |
+| 50 | 4 | 9 | 15 | 26 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -42,7 +42,7 @@ _Updated 2026-09-18 02:42 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Networking has critical strategic importance and rising momentum.
+- 🔴 Quantum Networking has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Sensing
@@ -66,14 +66,14 @@ _Updated 2026-09-18 02:42 UTC_
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Source failing: Quantum Computing Report 🆕
+## 🔴 Source failing: White House Science and Technology Missions 🆕
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 66.7% reliability with 1 warning day(s).
+- 🔴 98.2% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Actionable signal: AI Security 🆕
+## 🟠 Actionable signal: AI Security
 
 - Severity: **high**
 - Status: **actionable**
@@ -85,13 +85,6 @@ _Updated 2026-09-18 02:42 UTC_
 - Severity: **high**
 - Status: **actionable**
 - 🎯 QEC / Fault Tolerance is actionable with high confidence.
-- [Open supporting view](signals.md)
-
-## 🟠 Actionable signal: Quantum Networking
-
-- Severity: **high**
-- Status: **actionable**
-- 🎯 Quantum Networking is actionable with high confidence.
 - [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: Quantum Sensing
@@ -108,23 +101,23 @@ _Updated 2026-09-18 02:42 UTC_
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 New high-priority federal opportunity: The DOE Quantum Genesis Q Competition 🆕
+## 🟠 Changed: The DOE Quantum Genesis Q Competition 🆕
+
+- Severity: **high**
+- Status: **changed**
+- qualification gate · authority analytical · qualify
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363869)
+- [Open supporting view](intelligence-changes.md)
+
+## 🟠 New high-priority federal opportunity: The DOE Quantum Genesis Q Competition
 
 - Severity: **high**
 - Status: **new-opportunity**
-- Radar score 76 · Review technical fit, eligibility, and submission requirements.
+- Radar score 81 · Qualify fit, identify partners, and prepare the response.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363869)
 - [Open supporting view](federal-funding.md)
 
-## 🟠 Product Launch: IBM
-
-- Severity: **high**
-- Status: **product-launch**
-- IBM matched a product launch event: ParityQC Launches Parity Twine Optimizer via IBM Qiskit Functions Catalog
-- [Open direct evidence](https://quantumcomputingreport.com/parityqc-launches-parity-twine-optimizer-via-ibm-qiskit-functions-catalog)
-- [Open supporting view](entity-watch.md)
-
-## 🟠 Rising momentum: AI Security 🆕
+## 🟠 Rising momentum: AI Security
 
 - Severity: **high**
 - Status: **rising**
@@ -135,14 +128,7 @@ _Updated 2026-09-18 02:42 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 9 versus 5 in the prior period.
-- [Open supporting view](signals.md)
-
-## 🟠 Rising momentum: Quantum Networking
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 17 versus 6 in the prior period.
+- ↗️ Recent evidence is 12 versus 5 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -163,28 +149,35 @@ _Updated 2026-09-18 02:42 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 96.9% reliability with 2 warning day(s).
+- 🟠 97.0% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Computing Patents
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.4% reliability with 2 warning day(s).
+- 🟠 94.5% reliability with 2 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Source degraded: Quantum Computing Report 🆕
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 75.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.4% reliability with 1 warning day(s).
+- 🟠 94.5% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.3% reliability with 1 warning day(s).
+- 🟠 94.4% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -213,6 +206,13 @@ _Updated 2026-09-18 02:42 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-08-09; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Department of War Strategic Technology Releases 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-09-03; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Distributed Sensing and Smart Dust Patents
@@ -313,7 +313,7 @@ _Updated 2026-09-18 02:42 UTC_
 - The latest dated item is from 2026-07-09; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: QuSecure Press Releases 🆕
+## 🟡 Source stale: QuSecure Press Releases
 
 - Severity: **medium**
 - Status: **stale**

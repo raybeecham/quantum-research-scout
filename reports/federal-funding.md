@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-09-18 02:36 UTC_
+_Updated 2026-09-19 02:35 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -13,11 +13,11 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Tracked records: **500**
 - Awards / grant opportunities / procurement opportunities: **494 / 2 / 2**
 - Open opportunities: **2** (including 0 BAA and 2 RFI records)
-- Opportunity radar: **2 mission-linked**, **0 closing within 30 days**, **1 new since yesterday**
+- Opportunity radar: **2 mission-linked**, **1 closing within 30 days**, **1 new since yesterday**
 - Mission-linked records: **15**
 - Missions with activity: **5 of 10**
-- Named recipients and contractors: **318**
-- Known reported award value: **$530.8M**
+- Named recipients and contractors: **319**
+- Known reported award value: **$532.6M**
 
 ## Opportunity Radar
 
@@ -25,8 +25,8 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 
 | Rank | Opportunity | Type | Close | Mission | Technology | Score | Recommended action |
 |---:|---|---|---|---|---|---:|---|
-| 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
-| 2 | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) · NEW | GRANT_OPPORTUNITY | 10/19/2026 | Quantum Genesis | quantum | **76 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
+| 1 | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) · NEW | GRANT_OPPORTUNITY | 10/19/2026 | Quantum Genesis | quantum | **81 · ACT NOW** | Qualify fit, identify partners, and prepare the response. |
+| 2 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 
 ## Mission Funding Portfolios
 

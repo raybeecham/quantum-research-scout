@@ -2104,27 +2104,45 @@
         },
         {
           "date": "2026-09-17",
-          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-09/2026-09-17-digest.md",
-          "score": 67,
-          "source": "Thales Cybersecurity Blog",
-          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
-        },
-        {
-          "date": "2026-09-17",
           "key": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026",
           "report": "2026-09/2026-09-17-digest.md",
           "score": 67,
           "source": "PQShield",
           "title": "Why the energy sector must plan for post-quantum cyber security now, WEF, Sep 2026",
           "url": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026"
+        },
+        {
+          "date": "2026-09-18",
+          "key": "https://quantumcomputingreport.com/ictk-and-jiran-security-partner-on-q-bridge-to-commercialize-end-to-end-pqc-migration-frameworks",
+          "report": "2026-09/2026-09-18-digest.md",
+          "score": 63,
+          "source": "Quantum Computing Report",
+          "title": "ICTK and Jiran Security Partner on \u2018Q-BRIDGE\u2019 to Commercialize End-to-End PQC Migration Frameworks",
+          "url": "https://quantumcomputingreport.com/ictk-and-jiran-security-partner-on-q-bridge-to-commercialize-end-to-end-pqc-migration-frameworks"
+        },
+        {
+          "date": "2026-09-18",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
+          "report": "2026-09/2026-09-18-digest.md",
+          "score": 67,
+          "source": "Thales Cybersecurity Blog",
+          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
+        },
+        {
+          "date": "2026-09-18",
+          "key": "https://quantumcomputingreport.com/eigenq-and-silicon-valley-acquisition-corp-secure-45m-committed-convertible-financing-ahead-of-3b-spac-merger",
+          "report": "2026-09/2026-09-18-digest.md",
+          "score": 100,
+          "source": "Quantum Computing Report",
+          "title": "EigenQ and Silicon Valley Acquisition Corp. Secure $45M Committed Convertible Financing Ahead of $3B SPAC Merger",
+          "url": "https://quantumcomputingreport.com/eigenq-and-silicon-valley-acquisition-corp-secure-45m-committed-convertible-financing-ahead-of-3b-spac-merger"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-09-17",
+      "latest_seen": "2026-09-18",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -2133,8 +2151,8 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 18,
-      "recent_count": 19,
+      "prior_count": 22,
+      "recent_count": 16,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -2724,21 +2742,49 @@
           "source": "The Quantum Insider",
           "title": "Riverlane Establishes U.S. Headquarters in Maryland to Accelerate Quantum Computing Innovation",
           "url": "https://thequantuminsider.com/2026/09/17/riverlane-establishes-u-s-headquarters-in-maryland-to-accelerate-quantum-computing-innovation"
+        },
+        {
+          "date": "2026-09-18",
+          "key": "https://quantumcomputingreport.com/usc-and-quantum-elements-demonstrate-surface-code-scaling-on-ibm-heavy-hex-processors",
+          "report": "2026-09/2026-09-18-digest.md",
+          "score": 46,
+          "source": "Quantum Computing Report",
+          "title": "USC and Quantum Elements Demonstrate Surface Code Scaling on IBM Heavy-Hex Processors",
+          "url": "https://quantumcomputingreport.com/usc-and-quantum-elements-demonstrate-surface-code-scaling-on-ibm-heavy-hex-processors"
+        },
+        {
+          "date": "2026-09-18",
+          "key": "https://quantumcomputingreport.com/riverlane-establishes-u-s-headquarters-in-marylands-discovery-district-to-scale-real-time-qec-deployments",
+          "report": "2026-09/2026-09-18-digest.md",
+          "score": 100,
+          "source": "Quantum Computing Report",
+          "title": "Riverlane Establishes U.S. Headquarters in Maryland\u2019s Discovery District to Scale Real-Time QEC Deployments",
+          "url": "https://quantumcomputingreport.com/riverlane-establishes-u-s-headquarters-in-marylands-discovery-district-to-scale-real-time-qec-deployments"
+        },
+        {
+          "date": "2026-09-18",
+          "key": "https://thequantuminsider.com/2026/09/18/doe-215-million-quantum-genesis-q-competition",
+          "report": "2026-09/2026-09-18-digest.md",
+          "score": 114,
+          "source": "The Quantum Insider",
+          "title": "DOE Launches $215 Million Quantum Genesis Q Competition",
+          "url": "https://thequantuminsider.com/2026/09/18/doe-215-million-quantum-genesis-q-competition"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-09-17",
+      "latest_seen": "2026-09-18",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
         "The Quantum Insider",
+        "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
       "prior_count": 5,
-      "recent_count": 9,
+      "recent_count": 12,
       "status": "actionable"
     },
     "Quantum Hardware": {
@@ -6444,13 +6490,40 @@
           "source": "Quantum Computing Report",
           "title": "CSIC Inaugurates Spain\u2019s Quantum Nanofabrication Area at IMB-CNM in Barcelona",
           "url": "https://quantumcomputingreport.com/csic-inaugurates-spains-quantum-nanofabrication-area-at-imb-cnm-in-barcelona"
+        },
+        {
+          "date": "2026-09-18",
+          "key": "https://quantum-journal.org/papers/q-2026-09-18-2211",
+          "report": "2026-09/2026-09-18-digest.md",
+          "score": 27,
+          "source": "Quantum Journal",
+          "title": "Spatial structure of multipartite entanglement at measurement induced phase transitions",
+          "url": "https://quantum-journal.org/papers/q-2026-09-18-2211"
+        },
+        {
+          "date": "2026-09-18",
+          "key": "https://thequantuminsider.com/2026/09/18/qtonic-quantum-launches-qshield-post-quantum-network-protection",
+          "report": "2026-09/2026-09-18-digest.md",
+          "score": 67,
+          "source": "The Quantum Insider",
+          "title": "Qtonic Quantum Launches QShield for Post-Quantum Network Protection",
+          "url": "https://thequantuminsider.com/2026/09/18/qtonic-quantum-launches-qshield-post-quantum-network-protection"
+        },
+        {
+          "date": "2026-09-18",
+          "key": "https://quantumcomputingreport.com/q-safe-solutions-unveils-eu-27-carrier-grade-quantum-safe-network-platform",
+          "report": "2026-09/2026-09-18-digest.md",
+          "score": 103,
+          "source": "Quantum Computing Report",
+          "title": "Q-SAFE Solutions Unveils EU-27 Carrier-Grade Quantum-Safe Network Platform",
+          "url": "https://quantumcomputingreport.com/q-safe-solutions-unveils-eu-27-carrier-grade-quantum-safe-network-platform"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-09-16",
-      "momentum": "rising",
+      "latest_seen": "2026-09-18",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
@@ -6458,9 +6531,9 @@
         "arXiv RSS quant-ph",
         "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 6,
-      "recent_count": 17,
-      "status": "actionable"
+      "prior_count": 15,
+      "recent_count": 10,
+      "status": "watching"
     },
     "Quantum Sensing": {
       "confidence": "high",
@@ -8159,12 +8232,21 @@
           "source": "USAspending \u00b7 Quantum Technologies",
           "title": "NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A",
           "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01631_7529_-NONE-_-NONE-"
+        },
+        {
+          "date": "2026-09-18",
+          "key": "https://thequantuminsider.com/2026/09/18/guest-post-the-quantum-inflection-point-charting-a-science-first-roadmap-for-the-nation",
+          "report": "2026-09/2026-09-18-digest.md",
+          "score": 23,
+          "source": "The Quantum Insider",
+          "title": "Guest Post \u2014 The Quantum Inflection Point: Charting a Science-First Roadmap for the Nation",
+          "url": "https://thequantuminsider.com/2026/09/18/guest-post-the-quantum-inflection-point-charting-a-science-first-roadmap-for-the-nation"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-09-17",
+      "latest_seen": "2026-09-18",
       "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
@@ -8178,6 +8260,6 @@
       "status": "actionable"
     }
   },
-  "updated_at": "2026-09-18T02:42:28.528570+00:00",
+  "updated_at": "2026-09-19T02:41:04.279867+00:00",
   "version": 1
 }

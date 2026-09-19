@@ -282,11 +282,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-530f9eb80e78d41d",
+      "claim_id": "claim-3fbc5736bcf0d8c3",
       "confidence": "high",
-      "effective_date": "2026-09-17",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
+      "effective_date": "2026-09-18",
+      "first_observed_at": "2026-09-19T02:35:39.621697+00:00",
+      "last_observed_at": "2026-09-19T02:35:39.621697+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -294,59 +294,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c714f29520979314",
-          "locator": "opportunity_status:open",
-          "title": "The DOE Quantum Genesis Q Competition",
-          "url": "https://www.grants.gov/search-results-detail/363869",
+          "evidence_id": "evidence-8382317ef2ef8dcf",
+          "locator": "opportunity_status:awarded",
+          "title": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+          "url": "https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:DE-FOA-0003657",
-        "label": "The DOE Quantum Genesis Q Competition",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003657",
-        "node_type": "opportunity"
+        "identifier": "sam_gov:W912HQ26CA077",
+        "label": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+        "node_id": "award_notice:sam_gov:W912HQ26CA077",
+        "node_type": "award_notice"
       },
-      "value": "open"
+      "value": "awarded"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-b8b85063deb9e8f0",
+      "claim_id": "claim-80bccd03a0e35584",
       "confidence": "high",
-      "effective_date": "2026-09-17",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fbfc2041400eebb6",
-          "locator": "deadline:10/19/2026",
-          "title": "The DOE Quantum Genesis Q Competition",
-          "url": "https://www.grants.gov/search-results-detail/363869",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:DE-FOA-0003657",
-        "label": "The DOE Quantum Genesis Q Competition",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003657",
-        "node_type": "opportunity"
-      },
-      "value": "10/19/2026"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1fb702068e0a19db",
-      "confidence": "high",
-      "effective_date": "2026-09-17",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
+      "effective_date": "2026-09-18",
+      "first_observed_at": "2026-09-19T02:35:39.621697+00:00",
+      "last_observed_at": "2026-09-19T02:35:39.621697+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -354,717 +324,101 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-475548ff7ad0c88e",
-          "locator": "awarding_agency:pams-sc",
-          "title": "The DOE Quantum Genesis Q Competition",
-          "url": "https://www.grants.gov/search-results-detail/363869",
+          "evidence_id": "evidence-5121ed4d34e89a0e",
+          "locator": "awarding_agency:dept of defense.dept of the army.us army corps of engineers.sco alexandria.engineer center support act humphreys.w4ld usa hecsa",
+          "title": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+          "url": "https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:DE-FOA-0003657",
-        "label": "The DOE Quantum Genesis Q Competition",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003657",
-        "node_type": "opportunity"
+        "identifier": "sam_gov:W912HQ26CA077",
+        "label": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+        "node_id": "award_notice:sam_gov:W912HQ26CA077",
+        "node_type": "award_notice"
       },
-      "value": "PAMS-SC"
+      "value": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.SCO ALEXANDRIA.ENGINEER CENTER SUPPORT ACT HUMPHREYS.W4LD USA HECSA"
     },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-9b3581db533117fc",
+      "confidence": "high",
+      "effective_date": "2026-09-18",
+      "first_observed_at": "2026-09-19T02:35:39.621697+00:00",
+      "last_observed_at": "2026-09-19T02:35:39.621697+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-97a93440ca6e446f",
+          "locator": "reported_amount:1802484.0",
+          "title": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+          "url": "https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:W912HQ26CA077",
+        "label": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+        "node_id": "award_notice:sam_gov:W912HQ26CA077",
+        "node_type": "award_notice"
+      },
+      "value": 1802484.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-dac5c2c685d7d4f8",
+      "confidence": "high",
+      "effective_date": "2026-09-18",
+      "first_observed_at": "2026-09-19T02:35:39.621697+00:00",
+      "last_observed_at": "2026-09-19T02:35:39.621697+00:00",
+      "object": {
+        "identifier": "name:advantek consulting",
+        "label": "ADVANTEK CONSULTING, INC",
+        "node_id": "recipient_or_contractor:name:advantek consulting",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-eb6325ad97ac37d5",
+          "locator": "reported_recipient:recipient_or_contractor:name:advantek consulting",
+          "title": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+          "url": "https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:W912HQ26CA077",
+        "label": "Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance",
+        "node_id": "award_notice:sam_gov:W912HQ26CA077",
+        "node_type": "award_notice"
+      },
+      "value": null
+    }
+  ],
+  "baseline_initialized": false,
+  "changed": [
     {
       "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-bc5fd2ace5d829f7",
-      "confidence": "high",
-      "effective_date": "2026-09-17",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": {
-        "identifier": "grants_gov:DE-FOA-0003657",
-        "label": "The DOE Quantum Genesis Q Competition",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003657",
-        "node_type": "opportunity"
-      },
-      "predicate": "executes_through",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-be2dcfe7dfcfd1bd",
-          "locator": "executes_through:opportunity:grants_gov:DE-FOA-0003657",
-          "title": "The DOE Quantum Genesis Q Competition",
-          "url": "https://www.grants.gov/search-results-detail/363869",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "quantum-genesis",
-        "label": "Quantum Genesis",
-        "node_id": "mission:quantum-genesis",
-        "node_type": "mission"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6a77b5fab252630a",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-244fafd0a1fcdd65",
-          "locator": "opportunity_status:awarded",
-          "title": "STTR PHASE I Q-BITS: QUANTUM-INSPIRED BITSTREAM INTELLIGENCE FOR REMOTE SENSING SCIENCE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0321_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0321",
-        "label": "STTR PHASE I Q-BITS: QUANTUM-INSPIRED BITSTREAM INTELLIGENCE FOR REMOTE SENSING SCIENCE",
-        "node_id": "award:usaspending:80NSSC26C0321",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e47f90f934024805",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b9e62e4880e3e5ab",
-          "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "STTR PHASE I Q-BITS: QUANTUM-INSPIRED BITSTREAM INTELLIGENCE FOR REMOTE SENSING SCIENCE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0321_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0321",
-        "label": "STTR PHASE I Q-BITS: QUANTUM-INSPIRED BITSTREAM INTELLIGENCE FOR REMOTE SENSING SCIENCE",
-        "node_id": "award:usaspending:80NSSC26C0321",
-        "node_type": "award"
-      },
-      "value": "National Aeronautics and Space Administration"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-61ea08c6f7b444c7",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4c4de514eec27de1",
-          "locator": "reported_amount:224694.0",
-          "title": "STTR PHASE I Q-BITS: QUANTUM-INSPIRED BITSTREAM INTELLIGENCE FOR REMOTE SENSING SCIENCE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0321_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0321",
-        "label": "STTR PHASE I Q-BITS: QUANTUM-INSPIRED BITSTREAM INTELLIGENCE FOR REMOTE SENSING SCIENCE",
-        "node_id": "award:usaspending:80NSSC26C0321",
-        "node_type": "award"
-      },
-      "value": 224694.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1b9db69031890e1d",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": {
-        "identifier": "uei:KXA7XMEHPD53",
-        "label": "ROBUST INTELLIGENCE LLC",
-        "node_id": "recipient_or_contractor:uei:KXA7XMEHPD53",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f742d0679a215334",
-          "locator": "reported_recipient:recipient_or_contractor:uei:KXA7XMEHPD53",
-          "title": "STTR PHASE I Q-BITS: QUANTUM-INSPIRED BITSTREAM INTELLIGENCE FOR REMOTE SENSING SCIENCE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0321_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0321",
-        "label": "STTR PHASE I Q-BITS: QUANTUM-INSPIRED BITSTREAM INTELLIGENCE FOR REMOTE SENSING SCIENCE",
-        "node_id": "award:usaspending:80NSSC26C0321",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-0cb51145ccbe1faa",
-      "confidence": "high",
-      "effective_date": "2026-09-21",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-74b8110409bce388",
-          "locator": "opportunity_status:awarded",
-          "title": "THIS FIRM FIXED PRICE DELIVERY ORDER IS AWARDED IN ACCORDANCE WITH FAR 8.405 FOR AI-ASSISTED MEDIDATA RAVE MIGRATION AND RELATED SERVICES TO QUANTUM INSIGHTS LLC:1462936 IN THE AM...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00373_7529_47QTCA21D00BX_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026F00373",
-        "label": "THIS FIRM FIXED PRICE DELIVERY ORDER IS AWARDED IN ACCORDANCE WITH FAR 8.405 FOR AI-ASSISTED MEDIDATA RAVE MIGRATION AND RELATED SERVICES TO QUANTUM INSIGHTS LLC:1462936 IN THE AM...",
-        "node_id": "award:usaspending:75N98026F00373",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7cfd59f4df2f3959",
-      "confidence": "high",
-      "effective_date": "2026-09-21",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f534aa1518a9b676",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "THIS FIRM FIXED PRICE DELIVERY ORDER IS AWARDED IN ACCORDANCE WITH FAR 8.405 FOR AI-ASSISTED MEDIDATA RAVE MIGRATION AND RELATED SERVICES TO QUANTUM INSIGHTS LLC:1462936 IN THE AM...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00373_7529_47QTCA21D00BX_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026F00373",
-        "label": "THIS FIRM FIXED PRICE DELIVERY ORDER IS AWARDED IN ACCORDANCE WITH FAR 8.405 FOR AI-ASSISTED MEDIDATA RAVE MIGRATION AND RELATED SERVICES TO QUANTUM INSIGHTS LLC:1462936 IN THE AM...",
-        "node_id": "award:usaspending:75N98026F00373",
-        "node_type": "award"
-      },
-      "value": "Department of Health and Human Services"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-58b7fb58bfceadef",
-      "confidence": "high",
-      "effective_date": "2026-09-21",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-21bb866109404143",
-          "locator": "reported_amount:96783.0",
-          "title": "THIS FIRM FIXED PRICE DELIVERY ORDER IS AWARDED IN ACCORDANCE WITH FAR 8.405 FOR AI-ASSISTED MEDIDATA RAVE MIGRATION AND RELATED SERVICES TO QUANTUM INSIGHTS LLC:1462936 IN THE AM...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00373_7529_47QTCA21D00BX_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026F00373",
-        "label": "THIS FIRM FIXED PRICE DELIVERY ORDER IS AWARDED IN ACCORDANCE WITH FAR 8.405 FOR AI-ASSISTED MEDIDATA RAVE MIGRATION AND RELATED SERVICES TO QUANTUM INSIGHTS LLC:1462936 IN THE AM...",
-        "node_id": "award:usaspending:75N98026F00373",
-        "node_type": "award"
-      },
-      "value": 96783.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-fe675a042f746e38",
-      "confidence": "high",
-      "effective_date": "2026-09-21",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": {
-        "identifier": "uei:NPDNZJARZF95",
-        "label": "QUANTUM INSIGHTS LLC",
-        "node_id": "recipient_or_contractor:uei:NPDNZJARZF95",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9f58d7e0711b0423",
-          "locator": "reported_recipient:recipient_or_contractor:uei:NPDNZJARZF95",
-          "title": "THIS FIRM FIXED PRICE DELIVERY ORDER IS AWARDED IN ACCORDANCE WITH FAR 8.405 FOR AI-ASSISTED MEDIDATA RAVE MIGRATION AND RELATED SERVICES TO QUANTUM INSIGHTS LLC:1462936 IN THE AM...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00373_7529_47QTCA21D00BX_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026F00373",
-        "label": "THIS FIRM FIXED PRICE DELIVERY ORDER IS AWARDED IN ACCORDANCE WITH FAR 8.405 FOR AI-ASSISTED MEDIDATA RAVE MIGRATION AND RELATED SERVICES TO QUANTUM INSIGHTS LLC:1462936 IN THE AM...",
-        "node_id": "award:usaspending:75N98026F00373",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-654b75c78e99e024",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ec133f01743387b2",
-          "locator": "opportunity_status:awarded",
-          "title": "NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01631_7529_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026P01631",
-        "label": "NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A",
-        "node_id": "award:usaspending:75N98026P01631",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a2dc4bf8b749448f",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-535b40c39c331238",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01631_7529_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026P01631",
-        "label": "NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A",
-        "node_id": "award:usaspending:75N98026P01631",
-        "node_type": "award"
-      },
-      "value": "Department of Health and Human Services"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c94c45f9ee254891",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-085e90a4be5440b5",
-          "locator": "reported_amount:287650.0",
-          "title": "NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01631_7529_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026P01631",
-        "label": "NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A",
-        "node_id": "award:usaspending:75N98026P01631",
-        "node_type": "award"
-      },
-      "value": 287650.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-efc4868000cfc5b4",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": {
-        "identifier": "uei:PU1YNCN6XDN9",
-        "label": "MIL SERVE INTERNATIONAL INC",
-        "node_id": "recipient_or_contractor:uei:PU1YNCN6XDN9",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f078240eaa1ff996",
-          "locator": "reported_recipient:recipient_or_contractor:uei:PU1YNCN6XDN9",
-          "title": "NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01631_7529_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026P01631",
-        "label": "NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A",
-        "node_id": "award:usaspending:75N98026P01631",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-79be70712bb0edfd",
-      "confidence": "high",
-      "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b70f0001e3d79a1f",
-          "locator": "opportunity_status:awarded",
-          "title": "THIS AWARD PROVIDES COMPUTING INFRASTRUCTURE TO DEVELOP, TEST, AND DEPLOY ARTIFICIAL INTELLIGENCE TOOLS THAT HELP ANALYZE DIGITAL EVIDENCE AND SUPPORT CYBER CRIME INVESTIGATIONS.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000156_7012_NNG15SD76B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70CMSD26FR0000156",
-        "label": "THIS AWARD PROVIDES COMPUTING INFRASTRUCTURE TO DEVELOP, TEST, AND DEPLOY ARTIFICIAL INTELLIGENCE TOOLS THAT HELP ANALYZE DIGITAL EVIDENCE AND SUPPORT CYBER CRIME INVESTIGATIONS.",
-        "node_id": "award:usaspending:70CMSD26FR0000156",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-de471551f4410989",
-      "confidence": "high",
-      "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f827d1838624b737",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "THIS AWARD PROVIDES COMPUTING INFRASTRUCTURE TO DEVELOP, TEST, AND DEPLOY ARTIFICIAL INTELLIGENCE TOOLS THAT HELP ANALYZE DIGITAL EVIDENCE AND SUPPORT CYBER CRIME INVESTIGATIONS.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000156_7012_NNG15SD76B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70CMSD26FR0000156",
-        "label": "THIS AWARD PROVIDES COMPUTING INFRASTRUCTURE TO DEVELOP, TEST, AND DEPLOY ARTIFICIAL INTELLIGENCE TOOLS THAT HELP ANALYZE DIGITAL EVIDENCE AND SUPPORT CYBER CRIME INVESTIGATIONS.",
-        "node_id": "award:usaspending:70CMSD26FR0000156",
-        "node_type": "award"
-      },
-      "value": "Department of Homeland Security"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2707be219a2d8ce2",
-      "confidence": "high",
-      "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-66ea6341a69979d0",
-          "locator": "reported_amount:274202.6",
-          "title": "THIS AWARD PROVIDES COMPUTING INFRASTRUCTURE TO DEVELOP, TEST, AND DEPLOY ARTIFICIAL INTELLIGENCE TOOLS THAT HELP ANALYZE DIGITAL EVIDENCE AND SUPPORT CYBER CRIME INVESTIGATIONS.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000156_7012_NNG15SD76B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70CMSD26FR0000156",
-        "label": "THIS AWARD PROVIDES COMPUTING INFRASTRUCTURE TO DEVELOP, TEST, AND DEPLOY ARTIFICIAL INTELLIGENCE TOOLS THAT HELP ANALYZE DIGITAL EVIDENCE AND SUPPORT CYBER CRIME INVESTIGATIONS.",
-        "node_id": "award:usaspending:70CMSD26FR0000156",
-        "node_type": "award"
-      },
-      "value": 274202.6
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-53f30160cec74cb8",
-      "confidence": "high",
-      "effective_date": "2026-09-15",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": {
-        "identifier": "uei:FBRMCGPMN963",
-        "label": "ENTERPRISE TECHNOLOGY SOLUTIONS, INC.",
-        "node_id": "recipient_or_contractor:uei:FBRMCGPMN963",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d5c2768c49606f51",
-          "locator": "reported_recipient:recipient_or_contractor:uei:FBRMCGPMN963",
-          "title": "THIS AWARD PROVIDES COMPUTING INFRASTRUCTURE TO DEVELOP, TEST, AND DEPLOY ARTIFICIAL INTELLIGENCE TOOLS THAT HELP ANALYZE DIGITAL EVIDENCE AND SUPPORT CYBER CRIME INVESTIGATIONS.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000156_7012_NNG15SD76B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70CMSD26FR0000156",
-        "label": "THIS AWARD PROVIDES COMPUTING INFRASTRUCTURE TO DEVELOP, TEST, AND DEPLOY ARTIFICIAL INTELLIGENCE TOOLS THAT HELP ANALYZE DIGITAL EVIDENCE AND SUPPORT CYBER CRIME INVESTIGATIONS.",
-        "node_id": "award:usaspending:70CMSD26FR0000156",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "analyst",
-      "change_type": "added",
-      "claim_id": "claim-a5610be7250583bd",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "pursuit_stage",
-      "sources": [
-        {
-          "authority": "unknown",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2ce730be59077f6c",
-          "locator": "pursuit_stage:qualify",
-          "source_ref": "pursuits.yaml",
-          "title": "Public pursuit configuration",
-          "url": "",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:DE-FOA-0003657",
-        "label": "The DOE Quantum Genesis Q Competition",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003657",
-        "node_type": "opportunity"
-      },
-      "value": "qualify"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-afaf323f5a6a3757",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f6e897ab27c546bf",
-          "locator": "legal_business_name:university of utah",
-          "title": "UNIVERSITY OF UTAH",
-          "url": "https://sam.gov/entity/LL8GLEVH6MG3/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:LL8GLEVH6MG3",
-        "label": "UNIVERSITY OF UTAH",
-        "node_id": "recipient_or_contractor:uei:LL8GLEVH6MG3",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "UNIVERSITY OF UTAH"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-61664ad6bf9ac929",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-115405b43bc7b280",
-          "locator": "uei:ll8glevh6mg3",
-          "title": "UNIVERSITY OF UTAH",
-          "url": "https://sam.gov/entity/LL8GLEVH6MG3/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:LL8GLEVH6MG3",
-        "label": "UNIVERSITY OF UTAH",
-        "node_id": "recipient_or_contractor:uei:LL8GLEVH6MG3",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "LL8GLEVH6MG3"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-11d20db75e5e8c75",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-801e528fe4ba35c4",
-          "locator": "cage_code:3t624",
-          "title": "UNIVERSITY OF UTAH",
-          "url": "https://sam.gov/entity/LL8GLEVH6MG3/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:LL8GLEVH6MG3",
-        "label": "UNIVERSITY OF UTAH",
-        "node_id": "recipient_or_contractor:uei:LL8GLEVH6MG3",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "3T624"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-daf73ab1c58f0ada",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "object": null,
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-84d056f96e2743c6",
-          "locator": "registration_status:active",
-          "title": "UNIVERSITY OF UTAH",
-          "url": "https://sam.gov/entity/LL8GLEVH6MG3/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:LL8GLEVH6MG3",
-        "label": "UNIVERSITY OF UTAH",
-        "node_id": "recipient_or_contractor:uei:LL8GLEVH6MG3",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
+      "change_type": "changed",
       "claim_id": "claim-352bc7c9512c056c",
       "confidence": "medium",
-      "effective_date": "2026-09-18",
+      "effective_date": "2026-09-19",
       "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-09-18T02:36:20.942459+00:00",
+      "last_observed_at": "2026-09-19T02:35:39.621697+00:00",
       "object": null,
       "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "qualify",
       "sources": [
         {
           "authority": "authoritative",
@@ -1086,11 +440,9 @@
       "value": "qualify"
     }
   ],
-  "baseline_initialized": false,
-  "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-09-18T02:36:20.942459+00:00",
-  "comparison_started_at": "2026-09-17T02:49:46.870870+00:00",
+  "comparison_ended_at": "2026-09-19T02:35:39.621697+00:00",
+  "comparison_started_at": "2026-09-18T02:36:20.942459+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -2006,19 +1358,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-09-17T02:49:46.870870+00:00",
+  "since": "2026-09-18T02:36:20.942459+00:00",
   "summary": {
-    "active_claims": 4413,
-    "added": 26,
-    "changed": 0,
+    "active_claims": 4417,
+    "added": 4,
+    "changed": 1,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 53,
+    "material_changes": 32,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-09-18T02:36:20.942459+00:00",
+  "updated_at": "2026-09-19T02:35:39.621697+00:00",
   "version": 1
 }

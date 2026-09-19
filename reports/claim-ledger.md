@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-09-18T02:36:20.942459+00:00_
+_Updated 2026-09-19T02:35:39.621697+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **4413**
-- Authoritative claims: **4212**
+- Active claims: **4417**
+- Authoritative claims: **4216**
 - Analytical claims: **197**
 - Conflicted claims: **38**
-- Evidence items / URLs: **4522 / 1234**
+- Evidence items / URLs: **4526 / 1235**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,10 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance | opportunity status | awarded | authoritative / high | [Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance](https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view) |
+| active | Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance | awarding agency | DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.SCO ALEXANDRIA.ENGINEER CENTER SUPPORT ACT HUMPHREYS.W4LD USA HECSA | authoritative / high | [Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance](https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view) |
+| active | Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance | reported amount | 1802484.0 | authoritative / high | [Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance](https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view) |
+| active | Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance | reported recipient | ADVANTEK CONSULTING, INC | authoritative / high | [Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance](https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view) |
 | active | The DOE Quantum Genesis Q Competition | opportunity status | open | authoritative / high | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) |
 | active | The DOE Quantum Genesis Q Competition | deadline | 10/19/2026 | authoritative / high | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) |
 | active | The DOE Quantum Genesis Q Competition | awarding agency | PAMS-SC | authoritative / high | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) |
@@ -260,10 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | THIS PROGRAM STRENGTHENS THE CYBERSECURITY RESILIENCE OF KOSOVO 'S RAPIDLY DIGITALIZING ENERGY SECTOR, WHICH INCREASINGLY RELIES ON SCADA, SMART METERS, AND REMOTE MONITORING SYST... | opportunity status | awarded | authoritative / high | [THIS PROGRAM STRENGTHENS THE CYBERSECURITY RESILIENCE OF KOSOVO 'S RAPIDLY DIGITALIZING ENERGY SECTOR, WHICH INCREASINGLY RELIES ON SCADA, SMART METERS, AND REMOTE MONITORING SYST...](https://www.usaspending.gov/award/ASST_NON_SKV42026GR0005_019) |
 | active | THIS PROGRAM STRENGTHENS THE CYBERSECURITY RESILIENCE OF KOSOVO 'S RAPIDLY DIGITALIZING ENERGY SECTOR, WHICH INCREASINGLY RELIES ON SCADA, SMART METERS, AND REMOTE MONITORING SYST... | awarding agency | Department of State | authoritative / high | [THIS PROGRAM STRENGTHENS THE CYBERSECURITY RESILIENCE OF KOSOVO 'S RAPIDLY DIGITALIZING ENERGY SECTOR, WHICH INCREASINGLY RELIES ON SCADA, SMART METERS, AND REMOTE MONITORING SYST...](https://www.usaspending.gov/award/ASST_NON_SKV42026GR0005_019) |
 | active | THIS PROGRAM STRENGTHENS THE CYBERSECURITY RESILIENCE OF KOSOVO 'S RAPIDLY DIGITALIZING ENERGY SECTOR, WHICH INCREASINGLY RELIES ON SCADA, SMART METERS, AND REMOTE MONITORING SYST... | reported amount | 28560.0 | authoritative / high | [THIS PROGRAM STRENGTHENS THE CYBERSECURITY RESILIENCE OF KOSOVO 'S RAPIDLY DIGITALIZING ENERGY SECTOR, WHICH INCREASINGLY RELIES ON SCADA, SMART METERS, AND REMOTE MONITORING SYST...](https://www.usaspending.gov/award/ASST_NON_SKV42026GR0005_019) |
-| active | THIS PROGRAM STRENGTHENS THE CYBERSECURITY RESILIENCE OF KOSOVO 'S RAPIDLY DIGITALIZING ENERGY SECTOR, WHICH INCREASINGLY RELIES ON SCADA, SMART METERS, AND REMOTE MONITORING SYST... | reported recipient | KOSOVO UNITED STATES ALUMNI (KUSA) | authoritative / high | [THIS PROGRAM STRENGTHENS THE CYBERSECURITY RESILIENCE OF KOSOVO 'S RAPIDLY DIGITALIZING ENERGY SECTOR, WHICH INCREASINGLY RELIES ON SCADA, SMART METERS, AND REMOTE MONITORING SYST...](https://www.usaspending.gov/award/ASST_NON_SKV42026GR0005_019) |
-| active | WEKA SERVER MAINTENANCE | opportunity status | awarded | authoritative / high | [WEKA SERVER MAINTENANCE](https://www.usaspending.gov/award/CONT_AWD_140G0226F0280_1434_NNG15SD74B_8000) |
-| active | WEKA SERVER MAINTENANCE | awarding agency | Department of the Interior | authoritative / high | [WEKA SERVER MAINTENANCE](https://www.usaspending.gov/award/CONT_AWD_140G0226F0280_1434_NNG15SD74B_8000) |
-| active | WEKA SERVER MAINTENANCE | reported amount | 20325.94 | authoritative / high | [WEKA SERVER MAINTENANCE](https://www.usaspending.gov/award/CONT_AWD_140G0226F0280_1434_NNG15SD74B_8000) |
 
 ## Method
 

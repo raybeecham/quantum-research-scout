@@ -4,19 +4,19 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-18 02:42 UTC_
+_Updated 2026-09-19 02:41 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-09-17 | 21 |
-| QEC / Fault Tolerance | ↗️ rising (9 vs 5) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-09-17 | 65 |
-| Quantum Networking | ↗️ rising (17 vs 6) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-16 | 120 |
+| QEC / Fault Tolerance | ↗️ rising (12 vs 5) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-09-18 | 68 |
 | Quantum Sensing | ↗️ rising (3 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-10 | 45 |
-| Standards / Government | ↗️ rising (7 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-09-17 | 52 |
-| PQC / Crypto Agility | ➡️ stable (19 vs 18) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-17 | 212 |
+| Standards / Government | ↗️ rising (7 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-09-18 | 53 |
+| PQC / Crypto Agility | ➡️ stable (16 vs 22) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-18 | 214 |
 | Quantum Hardware | ➡️ stable (21 vs 22) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-16 | 289 |
+| Quantum Networking | ↘️ declining (10 vs 15) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-18 | 123 |
 | Quantum Software / Tooling | ➡️ stable (5 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-17 | 87 |
 
 ## AI Security
@@ -32,25 +32,14 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 
 ## QEC / Fault Tolerance
 
-- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph
+- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
 - Recent supporting evidence:
+  - 2026-09-18 — [DOE Launches $215 Million Quantum Genesis Q Competition](https://thequantuminsider.com/2026/09/18/doe-215-million-quantum-genesis-q-competition) (The Quantum Insider, score 114)
+  - 2026-09-18 — [Riverlane Establishes U.S. Headquarters in Maryland’s Discovery District to Scale Real-Time QEC Deployments](https://quantumcomputingreport.com/riverlane-establishes-u-s-headquarters-in-marylands-discovery-district-to-scale-real-time-qec-deployments) (Quantum Computing Report, score 100)
+  - 2026-09-18 — [USC and Quantum Elements Demonstrate Surface Code Scaling on IBM Heavy-Hex Processors](https://quantumcomputingreport.com/usc-and-quantum-elements-demonstrate-surface-code-scaling-on-ibm-heavy-hex-processors) (Quantum Computing Report, score 46)
   - 2026-09-17 — [Riverlane Establishes U.S. Headquarters in Maryland to Accelerate Quantum Computing Innovation](https://thequantuminsider.com/2026/09/17/riverlane-establishes-u-s-headquarters-in-maryland-to-accelerate-quantum-computing-innovation) (The Quantum Insider, score 52)
   - 2026-09-15 — [QC Design Integrates Plaquette With NVIDIA CUDA-Q Logical for Hardware-Realistic QEC Simulation](https://thequantuminsider.com/2026/09/15/qc-design-plaquette-nvidia-cuda-q-logical-qec-simulation) (The Quantum Insider, score 90)
-  - 2026-09-15 — [USC And Quantum Elements' Error Correction Technique Demonstrates Surface Code Scaling with Logical Qubits](https://thequantuminsider.com/2026/09/15/usc-and-quantum-elements-error-correction-technique-demonstrates-surface-code-scaling-with-logical-qubits) (The Quantum Insider, score 84)
-  - 2026-09-14 — [NVIDIA opens CUDA-Q platform to test fault-tolerant quantum applications](https://quantumzeitgeist.com/cuda-q-fault-tolerant-quantum-nvidia) (Quantum Zeitgeist, score 129)
-  - 2026-09-14 — [NVIDIA Expands Open Source CUDA-Q Platform](https://thequantuminsider.com/2026/09/14/nvidia-expands-open-source-cuda-q-platform) (The Quantum Insider, score 121)
-
-## Quantum Networking
-
-- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph, USAspending · Quantum Technologies
-- Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
-- Recent supporting evidence:
-  - 2026-09-16 — [CSIC Inaugurates Spain’s Quantum Nanofabrication Area at IMB-CNM in Barcelona](https://quantumcomputingreport.com/csic-inaugurates-spains-quantum-nanofabrication-area-at-imb-cnm-in-barcelona) (Quantum Computing Report, score 23)
-  - 2026-09-15 — [Falqon system gains €2.5 million for quantum network buildout](https://quantumzeitgeist.com/q-bird-falqon-system-gains-million) (Quantum Zeitgeist, score 61)
-  - 2026-09-15 — [ParityQC Launches Parity Twine Optimizer via IBM Qiskit Functions Catalog](https://quantumcomputingreport.com/parityqc-launches-parity-twine-optimizer-via-ibm-qiskit-functions-catalog) (QuantumNews.ai, score 57)
-  - 2026-09-14 — [GÉANT and Quantum Internet Alliance team up to build Europe’s quantum networks](https://quantumzeitgeist.com/geant-quantum-internet-alliance-europes-networks-3) (Quantum Zeitgeist, score 86)
-  - 2026-09-14 — [GÉANT and Quantum Internet Alliance team up to build Europe’s quantum networks](https://quantumzeitgeist.com/geant-quantum-internet-alliance-europes-networks-2) (QuantumNews.ai, score 81)
 
 ## Quantum Sensing
 
@@ -68,22 +57,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, QuantumNews.ai, Quantum Zeitgeist, USAspending · Quantum Technologies, USAspending · Advanced Computing
 - Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
 - Recent supporting evidence:
+  - 2026-09-18 — [Guest Post — The Quantum Inflection Point: Charting a Science-First Roadmap for the Nation](https://thequantuminsider.com/2026/09/18/guest-post-the-quantum-inflection-point-charting-a-science-first-roadmap-for-the-nation) (The Quantum Insider, score 23)
   - 2026-09-17 — [NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A](https://www.usaspending.gov/award/CONT_AWD_75N98026P01631_7529_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
   - 2026-09-16 — [Beijing Launches Program to Connect Quantum Companies With Industrial Customers](https://thequantuminsider.com/2026/09/16/beijing-launches-program-to-connect-quantum-companies-with-industrial-customers) (The Quantum Insider, score 100)
   - 2026-09-15 — [THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...](https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
   - 2026-09-15 — [We are attending JAIF 2026 Montpellier, France 01 Oct, 2026 JAIF 2026 focuses on fault injection prevention - an increasingly complex technique used by attackers. We'll be attending in Montpellier, France, along with experts from industry, government and academia.](https://pqshield.com/events/we-are-attending-jaif-2026) (PQShield, score 100)
-  - 2026-09-14 — [A Unified Analysis of Refresh Gadgets in the Random Probing Model](https://eprint.iacr.org/2026/2015) (IACR ePrint, score 70)
 
 ## PQC / Crypto Agility
 
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
-  - 2026-09-17 — [HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next](https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks) (Thales Cybersecurity Blog, score 67)
+  - 2026-09-18 — [EigenQ and Silicon Valley Acquisition Corp. Secure $45M Committed Convertible Financing Ahead of $3B SPAC Merger](https://quantumcomputingreport.com/eigenq-and-silicon-valley-acquisition-corp-secure-45m-committed-convertible-financing-ahead-of-3b-spac-merger) (Quantum Computing Report, score 100)
+  - 2026-09-18 — [HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next](https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks) (Thales Cybersecurity Blog, score 67)
+  - 2026-09-18 — [ICTK and Jiran Security Partner on ‘Q-BRIDGE’ to Commercialize End-to-End PQC Migration Frameworks](https://quantumcomputingreport.com/ictk-and-jiran-security-partner-on-q-bridge-to-commercialize-end-to-end-pqc-migration-frameworks) (Quantum Computing Report, score 63)
   - 2026-09-17 — [Why the energy sector must plan for post-quantum cyber security now, WEF, Sep 2026](https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026) (PQShield, score 67)
   - 2026-09-17 — [Guest Post: Why AI Agent Identities Need Post-Quantum Cryptography](https://thequantuminsider.com/2026/09/17/post-quantum-security-ai-agent-economy) (The Quantum Insider, score 55)
-  - 2026-09-17 — [Sectigo Launches Quantum Ready for Enterprise PQC Readiness](https://thequantuminsider.com/2026/09/17/sectigo-launches-quantum-ready-pqc-readiness) (The Quantum Insider, score 55)
-  - 2026-09-16 — [Java 27 Delivers Post-Quantum Cryptography, Future Language Innovation, Helidon 27, JavaFX 27](https://www.infoq.com/news/2026/09/java27-released) (InfoQ Quantum Computing, score 60)
 
 ## Quantum Hardware
 
@@ -95,6 +84,17 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-09-16 — [Anderon Finalizes $1 Billion CHIPS Act Award to Scale 300mm Pure-Play Quantum Wafer Foundry](https://quantumcomputingreport.com/anderon-finalizes-1-billion-chips-act-award-to-scale-300mm-pure-play-quantum-wafer-foundry) (Quantum Computing Report, score 31)
   - 2026-09-16 — [Quobly Demonstrates Key Quantum Operations on 300 mm Silicon Chip](https://thequantuminsider.com/2026/09/16/quobly-key-quantum-operations-industrial-silicon-chip) (The Quantum Insider, score 28)
   - 2026-09-16 — [Quobly Demonstrates Single-Chip Readout and Gates on 300mm Industrial Silicon Process](https://quantumcomputingreport.com/quobly-demonstrates-single-chip-readout-and-gates-on-300mm-industrial-silicon-process) (Quantum Computing Report, score 28)
+
+## Quantum Networking
+
+- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph, USAspending · Quantum Technologies
+- Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
+- Recent supporting evidence:
+  - 2026-09-18 — [Q-SAFE Solutions Unveils EU-27 Carrier-Grade Quantum-Safe Network Platform](https://quantumcomputingreport.com/q-safe-solutions-unveils-eu-27-carrier-grade-quantum-safe-network-platform) (Quantum Computing Report, score 103)
+  - 2026-09-18 — [Qtonic Quantum Launches QShield for Post-Quantum Network Protection](https://thequantuminsider.com/2026/09/18/qtonic-quantum-launches-qshield-post-quantum-network-protection) (The Quantum Insider, score 67)
+  - 2026-09-18 — [Spatial structure of multipartite entanglement at measurement induced phase transitions](https://quantum-journal.org/papers/q-2026-09-18-2211) (Quantum Journal, score 27)
+  - 2026-09-16 — [CSIC Inaugurates Spain’s Quantum Nanofabrication Area at IMB-CNM in Barcelona](https://quantumcomputingreport.com/csic-inaugurates-spains-quantum-nanofabrication-area-at-imb-cnm-in-barcelona) (Quantum Computing Report, score 23)
+  - 2026-09-15 — [Falqon system gains €2.5 million for quantum network buildout](https://quantumzeitgeist.com/q-bird-falqon-system-gains-million) (Quantum Zeitgeist, score 61)
 
 ## Quantum Software / Tooling
 

@@ -353,7 +353,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 25,
+      "evidence_count": 26,
       "first_party_evidence_count": 0,
       "name": "IBM",
       "priority": "high",
@@ -882,7 +882,7 @@
       "prior_count": 2,
       "priority": "critical",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware",
@@ -891,6 +891,346 @@
         "Standards / Government"
       ],
       "type": "government"
+    },
+    {
+      "aliases": [
+        "IBM Quantum",
+        "IBM Research"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 26,
+      "evidence": [
+        {
+          "date": "2026-09-18",
+          "key": "https://quantumcomputingreport.com/usc-and-quantum-elements-demonstrate-surface-code-scaling-on-ibm-heavy-hex-processors",
+          "report": "2026-09/2026-09-18-digest.md",
+          "score": 46,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "USC and Quantum Elements Demonstrate Surface Code Scaling on IBM Heavy-Hex Processors",
+          "url": "https://quantumcomputingreport.com/usc-and-quantum-elements-demonstrate-surface-code-scaling-on-ibm-heavy-hex-processors"
+        },
+        {
+          "date": "2026-09-16",
+          "key": "https://thequantuminsider.com/2026/09/16/better-together-ibm-researchers-cut-sampling-demands-63-fold-by-combining-quantum-error-detection-and-mitigation",
+          "report": "2026-09/2026-09-16-digest.md",
+          "score": 36,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Better Together: IBM Researchers Cut Sampling Demands 63-Fold by Combining Quantum Error Detection And Mitigation",
+          "url": "https://thequantuminsider.com/2026/09/16/better-together-ibm-researchers-cut-sampling-demands-63-fold-by-combining-quantum-error-detection-and-mitigation"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://quantumcomputingreport.com/parityqc-launches-parity-twine-optimizer-via-ibm-qiskit-functions-catalog",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 57,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "ParityQC Launches Parity Twine Optimizer via IBM Qiskit Functions Catalog",
+          "url": "https://quantumcomputingreport.com/parityqc-launches-parity-twine-optimizer-via-ibm-qiskit-functions-catalog"
+        },
+        {
+          "date": "2026-09-03",
+          "key": "https://thequantuminsider.com/2026/09/03/ibms-nighthawk-r2-quantum-processor-targets-a-25-fold-increase-in-circuit-speed",
+          "report": "2026-09/2026-09-03-digest.md",
+          "score": 30,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM\u2019s Nighthawk r2 Quantum Processor Targets a 25-Fold Increase in Circuit Speed",
+          "url": "https://thequantuminsider.com/2026/09/03/ibms-nighthawk-r2-quantum-processor-targets-a-25-fold-increase-in-circuit-speed"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://quantumzeitgeist.com/quantum-processor-cooling-system-ibm",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 39,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM links two quantum processors with a new cooling system",
+          "url": "https://quantumzeitgeist.com/quantum-processor-cooling-system-ibm"
+        },
+        {
+          "date": "2026-08-19",
+          "key": "https://thequantuminsider.com/2026/08/19/ibm-connects-two-modular-cryogenic-systems-quantum-computing",
+          "report": "2026-08/2026-08-19-digest.md",
+          "score": 23,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM Connects Two Modular Cryogenic Systems for Quantum Computing",
+          "url": "https://thequantuminsider.com/2026/08/19/ibm-connects-two-modular-cryogenic-systems-quantum-computing"
+        },
+        {
+          "date": "2026-08-18",
+          "key": "https://quantumzeitgeist.com/sit-ibm-test-quantum-security",
+          "report": "2026-08/2026-08-18-digest.md",
+          "score": 75,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "SIT and IBM will test quantum security at new Punggol center",
+          "url": "https://quantumzeitgeist.com/sit-ibm-test-quantum-security"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://thequantuminsider.com/2026/08/12/yonsei-quantum-initiative-ibm-nighthawk-processor-installation",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 28,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Yonsei to Install IBM Nighthawk Quantum Processor for Research and Industry Applications",
+          "url": "https://thequantuminsider.com/2026/08/12/yonsei-quantum-initiative-ibm-nighthawk-processor-installation"
+        },
+        {
+          "date": "2026-08-08",
+          "key": "https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum",
+          "report": "2026-08/2026-08-08-digest.md",
+          "score": 35,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow Using Promethium and IBM Quantum",
+          "url": "https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum"
+        },
+        {
+          "date": "2026-08-07",
+          "key": "https://thequantuminsider.com/2026/08/07/qc-ware-hybrid-quantum-classical-chemistry-workflow-ibm-quantum",
+          "report": "2026-08/2026-08-07-digest.md",
+          "score": 50,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow with IBM Quantum Hardware",
+          "url": "https://thequantuminsider.com/2026/08/07/qc-ware-hybrid-quantum-classical-chemistry-workflow-ibm-quantum"
+        },
+        {
+          "date": "2026-08-02",
+          "key": "https://quantumzeitgeist.com/bluequbit-ibm-riken-quantum-potential",
+          "report": "2026-08/2026-08-02-digest.md",
+          "score": 24,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "BlueQubit, IBM, and RIKEN Demonstrate Quantum R&D Potential",
+          "url": "https://quantumzeitgeist.com/bluequbit-ibm-riken-quantum-potential"
+        },
+        {
+          "date": "2026-08-01",
+          "key": "https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago",
+          "report": "2026-08/2026-08-01-digest.md",
+          "score": 63,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM & Chicago Verify Quantum Advantage With New Error Correction",
+          "url": "https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 63,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "BlueQubit Supports Qedma, IBM and RIKEN Study on Error-Mitigated Quantum Simulation",
+          "url": "https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study"
+        },
+        {
+          "date": "2026-07-30",
+          "key": "https://thequantuminsider.com/2026/07/30/cleveland-clinic-and-ibm-researchers-create-quantum-machine-learning-framework-to-predict-neoantigen-immune-response",
+          "report": "2026-07/2026-07-30-digest.md",
+          "score": 24,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Cleveland Clinic and IBM Researchers Create Quantum Machine Learning Framework to Predict Neoantigen Immune Response",
+          "url": "https://thequantuminsider.com/2026/07/30/cleveland-clinic-and-ibm-researchers-create-quantum-machine-learning-framework-to-predict-neoantigen-immune-response"
+        },
+        {
+          "date": "2026-07-30",
+          "key": "https://thequantuminsider.com/2026/07/30/ibm-algorithmiq-quantum-computation-verification-framework",
+          "report": "2026-07/2026-07-30-digest.md",
+          "score": 24,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "IBM and Algorithmiq Develop Framework for Verifying Quantum Computations Beyond Classical Simulation",
+          "url": "https://thequantuminsider.com/2026/07/30/ibm-algorithmiq-quantum-computation-verification-framework"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 60,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
+          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
+        },
+        {
+          "date": "2026-07-27",
+          "key": "https://quantumnews.ai/hardware/ibm-heron-vs-room-temp-photonics-superconducting-qubit-integration",
+          "report": "2026-07/2026-07-27-digest.md",
+          "score": 36,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM Heron vs Room-Temp Photonics: Superconducting Qubit Integration",
+          "url": "https://quantumnews.ai/hardware/ibm-heron-vs-room-temp-photonics-superconducting-qubit-integration"
+        },
+        {
+          "date": "2026-07-20",
+          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
+          "report": "2026-07/2026-07-20-digest.md",
+          "score": 14,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
+          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
+        },
+        {
+          "date": "2026-07-17",
+          "key": "https://quantumcomputingreport.com/ibm-improves-qubit-reset-by-25x-and-releases-qiskit-v2-5",
+          "report": "2026-07/2026-07-17-digest.md",
+          "score": 26,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "IBM Improves Qubit Reset by 25x and Releases Qiskit v2.5",
+          "url": "https://quantumcomputingreport.com/ibm-improves-qubit-reset-by-25x-and-releases-qiskit-v2-5"
+        },
+        {
+          "date": "2026-07-16",
+          "key": "https://thequantuminsider.com/2026/07/16/denise-ruffner-joins-haiqu-to-expand-quantum-software-adoption",
+          "report": "2026-07/2026-07-16-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Former IBM Quantum Executive Denise Ruffner Joins Haiqu to Expand Quantum Software Adoption",
+          "url": "https://thequantuminsider.com/2026/07/16/denise-ruffner-joins-haiqu-to-expand-quantum-software-adoption"
+        },
+        {
+          "date": "2026-07-15",
+          "key": "https://quantumzeitgeist.com/throughput-gain-ibm-quantums-reset",
+          "report": "2026-07/2026-07-15-digest.md",
+          "score": 36,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "25\u00d7 Throughput Gain From IBM Quantum\u2019s New Reset Design",
+          "url": "https://quantumzeitgeist.com/throughput-gain-ibm-quantums-reset"
+        },
+        {
+          "date": "2026-07-13",
+          "key": "https://quantumnews.ai/hardware/fabrication-challenges-for-ibm-heron-s-superconducting-qubits-in-2026",
+          "report": "2026-07/2026-07-13-digest.md",
+          "score": 27,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Fabrication Challenges for IBM Heron's Superconducting Qubits in 2026",
+          "url": "https://quantumnews.ai/hardware/fabrication-challenges-for-ibm-heron-s-superconducting-qubits-in-2026"
+        },
+        {
+          "date": "2026-07-07",
+          "key": "https://quantumzeitgeist.com/qubit-system-reconstructed-ibm-reduced",
+          "report": "2026-07/2026-07-07-digest.md",
+          "score": 45,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM: 10-Qubit System Reconstructed With Reduced Exponential Cost",
+          "url": "https://quantumzeitgeist.com/qubit-system-reconstructed-ibm-reduced"
+        },
+        {
+          "date": "2026-06-25",
+          "key": "https://quantumzeitgeist.com/qcd%e2%82%82-100-qubit-rensselaer-ibm",
+          "report": "2026-06/2026-06-25-digest.md",
+          "score": 61,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Rensselaer & IBM Quantum Network Map QCD\u2082 on 100+ Qubit Chip",
+          "url": "https://quantumzeitgeist.com/qcd%e2%82%82-100-qubit-rensselaer-ibm"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://quantumzeitgeist.com/quantum-simulation-qcd%e2%82%82-ibm-maps",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 39,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantum Simulation Maps QCD\u2082 Interaction on 100+ Qubit IBM Chip",
+          "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%e2%82%82-ibm-maps"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 34,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantum Simulation Maps QCD\u2082 Interaction on 100+ Qubit IBM Chip",
+          "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
+        }
+      ],
+      "evidence_count": 26,
+      "first_seen": "2026-06-23",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-18",
+      "momentum": "rising",
+      "name": "IBM",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 3,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "QEC / Fault Tolerance",
+        "Quantum Hardware",
+        "Quantum Networking",
+        "Quantum Software / Tooling"
+      ],
+      "type": "company"
     },
     {
       "aliases": [
@@ -1346,333 +1686,6 @@
         "PQC / Crypto Agility",
         "Quantum Hardware",
         "Quantum Networking"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [
-        "IBM Quantum",
-        "IBM Research"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 25,
-      "evidence": [
-        {
-          "date": "2026-09-16",
-          "key": "https://thequantuminsider.com/2026/09/16/better-together-ibm-researchers-cut-sampling-demands-63-fold-by-combining-quantum-error-detection-and-mitigation",
-          "report": "2026-09/2026-09-16-digest.md",
-          "score": 36,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Better Together: IBM Researchers Cut Sampling Demands 63-Fold by Combining Quantum Error Detection And Mitigation",
-          "url": "https://thequantuminsider.com/2026/09/16/better-together-ibm-researchers-cut-sampling-demands-63-fold-by-combining-quantum-error-detection-and-mitigation"
-        },
-        {
-          "date": "2026-09-15",
-          "key": "https://quantumcomputingreport.com/parityqc-launches-parity-twine-optimizer-via-ibm-qiskit-functions-catalog",
-          "report": "2026-09/2026-09-15-digest.md",
-          "score": 57,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "ParityQC Launches Parity Twine Optimizer via IBM Qiskit Functions Catalog",
-          "url": "https://quantumcomputingreport.com/parityqc-launches-parity-twine-optimizer-via-ibm-qiskit-functions-catalog"
-        },
-        {
-          "date": "2026-09-03",
-          "key": "https://thequantuminsider.com/2026/09/03/ibms-nighthawk-r2-quantum-processor-targets-a-25-fold-increase-in-circuit-speed",
-          "report": "2026-09/2026-09-03-digest.md",
-          "score": 30,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IBM\u2019s Nighthawk r2 Quantum Processor Targets a 25-Fold Increase in Circuit Speed",
-          "url": "https://thequantuminsider.com/2026/09/03/ibms-nighthawk-r2-quantum-processor-targets-a-25-fold-increase-in-circuit-speed"
-        },
-        {
-          "date": "2026-08-19",
-          "key": "https://quantumzeitgeist.com/quantum-processor-cooling-system-ibm",
-          "report": "2026-08/2026-08-19-digest.md",
-          "score": 39,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IBM links two quantum processors with a new cooling system",
-          "url": "https://quantumzeitgeist.com/quantum-processor-cooling-system-ibm"
-        },
-        {
-          "date": "2026-08-19",
-          "key": "https://thequantuminsider.com/2026/08/19/ibm-connects-two-modular-cryogenic-systems-quantum-computing",
-          "report": "2026-08/2026-08-19-digest.md",
-          "score": 23,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IBM Connects Two Modular Cryogenic Systems for Quantum Computing",
-          "url": "https://thequantuminsider.com/2026/08/19/ibm-connects-two-modular-cryogenic-systems-quantum-computing"
-        },
-        {
-          "date": "2026-08-18",
-          "key": "https://quantumzeitgeist.com/sit-ibm-test-quantum-security",
-          "report": "2026-08/2026-08-18-digest.md",
-          "score": 75,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "SIT and IBM will test quantum security at new Punggol center",
-          "url": "https://quantumzeitgeist.com/sit-ibm-test-quantum-security"
-        },
-        {
-          "date": "2026-08-12",
-          "key": "https://thequantuminsider.com/2026/08/12/yonsei-quantum-initiative-ibm-nighthawk-processor-installation",
-          "report": "2026-08/2026-08-12-digest.md",
-          "score": 28,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Yonsei to Install IBM Nighthawk Quantum Processor for Research and Industry Applications",
-          "url": "https://thequantuminsider.com/2026/08/12/yonsei-quantum-initiative-ibm-nighthawk-processor-installation"
-        },
-        {
-          "date": "2026-08-08",
-          "key": "https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum",
-          "report": "2026-08/2026-08-08-digest.md",
-          "score": 35,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow Using Promethium and IBM Quantum",
-          "url": "https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum"
-        },
-        {
-          "date": "2026-08-07",
-          "key": "https://thequantuminsider.com/2026/08/07/qc-ware-hybrid-quantum-classical-chemistry-workflow-ibm-quantum",
-          "report": "2026-08/2026-08-07-digest.md",
-          "score": 50,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow with IBM Quantum Hardware",
-          "url": "https://thequantuminsider.com/2026/08/07/qc-ware-hybrid-quantum-classical-chemistry-workflow-ibm-quantum"
-        },
-        {
-          "date": "2026-08-02",
-          "key": "https://quantumzeitgeist.com/bluequbit-ibm-riken-quantum-potential",
-          "report": "2026-08/2026-08-02-digest.md",
-          "score": 24,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "BlueQubit, IBM, and RIKEN Demonstrate Quantum R&D Potential",
-          "url": "https://quantumzeitgeist.com/bluequbit-ibm-riken-quantum-potential"
-        },
-        {
-          "date": "2026-08-01",
-          "key": "https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago",
-          "report": "2026-08/2026-08-01-digest.md",
-          "score": 63,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IBM & Chicago Verify Quantum Advantage With New Error Correction",
-          "url": "https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago"
-        },
-        {
-          "date": "2026-07-31",
-          "key": "https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 63,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "BlueQubit Supports Qedma, IBM and RIKEN Study on Error-Mitigated Quantum Simulation",
-          "url": "https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study"
-        },
-        {
-          "date": "2026-07-30",
-          "key": "https://thequantuminsider.com/2026/07/30/cleveland-clinic-and-ibm-researchers-create-quantum-machine-learning-framework-to-predict-neoantigen-immune-response",
-          "report": "2026-07/2026-07-30-digest.md",
-          "score": 24,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "Cleveland Clinic and IBM Researchers Create Quantum Machine Learning Framework to Predict Neoantigen Immune Response",
-          "url": "https://thequantuminsider.com/2026/07/30/cleveland-clinic-and-ibm-researchers-create-quantum-machine-learning-framework-to-predict-neoantigen-immune-response"
-        },
-        {
-          "date": "2026-07-30",
-          "key": "https://thequantuminsider.com/2026/07/30/ibm-algorithmiq-quantum-computation-verification-framework",
-          "report": "2026-07/2026-07-30-digest.md",
-          "score": 24,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "IBM and Algorithmiq Develop Framework for Verifying Quantum Computations Beyond Classical Simulation",
-          "url": "https://thequantuminsider.com/2026/07/30/ibm-algorithmiq-quantum-computation-verification-framework"
-        },
-        {
-          "date": "2026-07-29",
-          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
-          "report": "2026-07/2026-07-29-digest.md",
-          "score": 60,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
-          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
-        },
-        {
-          "date": "2026-07-27",
-          "key": "https://quantumnews.ai/hardware/ibm-heron-vs-room-temp-photonics-superconducting-qubit-integration",
-          "report": "2026-07/2026-07-27-digest.md",
-          "score": 36,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IBM Heron vs Room-Temp Photonics: Superconducting Qubit Integration",
-          "url": "https://quantumnews.ai/hardware/ibm-heron-vs-room-temp-photonics-superconducting-qubit-integration"
-        },
-        {
-          "date": "2026-07-20",
-          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
-          "report": "2026-07/2026-07-20-digest.md",
-          "score": 14,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
-          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
-        },
-        {
-          "date": "2026-07-17",
-          "key": "https://quantumcomputingreport.com/ibm-improves-qubit-reset-by-25x-and-releases-qiskit-v2-5",
-          "report": "2026-07/2026-07-17-digest.md",
-          "score": 26,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "IBM Improves Qubit Reset by 25x and Releases Qiskit v2.5",
-          "url": "https://quantumcomputingreport.com/ibm-improves-qubit-reset-by-25x-and-releases-qiskit-v2-5"
-        },
-        {
-          "date": "2026-07-16",
-          "key": "https://thequantuminsider.com/2026/07/16/denise-ruffner-joins-haiqu-to-expand-quantum-software-adoption",
-          "report": "2026-07/2026-07-16-digest.md",
-          "score": 35,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "Former IBM Quantum Executive Denise Ruffner Joins Haiqu to Expand Quantum Software Adoption",
-          "url": "https://thequantuminsider.com/2026/07/16/denise-ruffner-joins-haiqu-to-expand-quantum-software-adoption"
-        },
-        {
-          "date": "2026-07-15",
-          "key": "https://quantumzeitgeist.com/throughput-gain-ibm-quantums-reset",
-          "report": "2026-07/2026-07-15-digest.md",
-          "score": 36,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "25\u00d7 Throughput Gain From IBM Quantum\u2019s New Reset Design",
-          "url": "https://quantumzeitgeist.com/throughput-gain-ibm-quantums-reset"
-        },
-        {
-          "date": "2026-07-13",
-          "key": "https://quantumnews.ai/hardware/fabrication-challenges-for-ibm-heron-s-superconducting-qubits-in-2026",
-          "report": "2026-07/2026-07-13-digest.md",
-          "score": 27,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Fabrication Challenges for IBM Heron's Superconducting Qubits in 2026",
-          "url": "https://quantumnews.ai/hardware/fabrication-challenges-for-ibm-heron-s-superconducting-qubits-in-2026"
-        },
-        {
-          "date": "2026-07-07",
-          "key": "https://quantumzeitgeist.com/qubit-system-reconstructed-ibm-reduced",
-          "report": "2026-07/2026-07-07-digest.md",
-          "score": 45,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IBM: 10-Qubit System Reconstructed With Reduced Exponential Cost",
-          "url": "https://quantumzeitgeist.com/qubit-system-reconstructed-ibm-reduced"
-        },
-        {
-          "date": "2026-06-25",
-          "key": "https://quantumzeitgeist.com/qcd%e2%82%82-100-qubit-rensselaer-ibm",
-          "report": "2026-06/2026-06-25-digest.md",
-          "score": 61,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "Rensselaer & IBM Quantum Network Map QCD\u2082 on 100+ Qubit Chip",
-          "url": "https://quantumzeitgeist.com/qcd%e2%82%82-100-qubit-rensselaer-ibm"
-        },
-        {
-          "date": "2026-06-23",
-          "key": "https://quantumzeitgeist.com/quantum-simulation-qcd%e2%82%82-ibm-maps",
-          "report": "2026-06/2026-06-23-digest.md",
-          "score": 39,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantum Simulation Maps QCD\u2082 Interaction on 100+ Qubit IBM Chip",
-          "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%e2%82%82-ibm-maps"
-        },
-        {
-          "date": "2026-06-23",
-          "key": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps",
-          "report": "2026-06/2026-06-23-digest.md",
-          "score": 34,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantum Simulation Maps QCD\u2082 Interaction on 100+ Qubit IBM Chip",
-          "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
-        }
-      ],
-      "evidence_count": 25,
-      "first_seen": "2026-06-23",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-09-16",
-      "momentum": "rising",
-      "name": "IBM",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 2,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility",
-        "Quantum Hardware",
-        "Quantum Networking",
-        "Quantum Software / Tooling"
       ],
       "type": "company"
     },
@@ -3311,7 +3324,7 @@
       "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "AI Security",
         "PQC / Crypto Agility",
@@ -4462,9 +4475,9 @@
       "current_evidence_count": 3,
       "evidence": [
         {
-          "date": "2026-09-17",
+          "date": "2026-09-18",
           "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-09/2026-09-17-digest.md",
+          "report": "2026-09/2026-09-18-digest.md",
           "score": 67,
           "source": "Thales Cybersecurity Blog",
           "themes": [
@@ -4501,7 +4514,7 @@
       "evidence_count": 3,
       "first_seen": "2026-08-04",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-17",
+      "latest_seen": "2026-09-18",
       "momentum": "rising",
       "name": "Thales",
       "prior_count": 0,
@@ -6511,8 +6524,32 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 28,
+      "current_evidence_count": 30,
       "evidence": [
+        {
+          "date": "2026-09-18",
+          "key": "https://quantumcomputingreport.com/riverlane-establishes-u-s-headquarters-in-marylands-discovery-district-to-scale-real-time-qec-deployments",
+          "report": "2026-09/2026-09-18-digest.md",
+          "score": 100,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Riverlane Establishes U.S. Headquarters in Maryland\u2019s Discovery District to Scale Real-Time QEC Deployments",
+          "url": "https://quantumcomputingreport.com/riverlane-establishes-u-s-headquarters-in-marylands-discovery-district-to-scale-real-time-qec-deployments"
+        },
+        {
+          "date": "2026-09-18",
+          "key": "https://quantumcomputingreport.com/usc-and-quantum-elements-demonstrate-surface-code-scaling-on-ibm-heavy-hex-processors",
+          "report": "2026-09/2026-09-18-digest.md",
+          "score": 46,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "USC and Quantum Elements Demonstrate Surface Code Scaling on IBM Heavy-Hex Processors",
+          "url": "https://quantumcomputingreport.com/usc-and-quantum-elements-demonstrate-surface-code-scaling-on-ibm-heavy-hex-processors"
+        },
         {
           "date": "2026-09-15",
           "key": "https://thequantuminsider.com/2026/09/15/qc-design-plaquette-nvidia-cuda-q-logical-qec-simulation",
@@ -6850,15 +6887,15 @@
           "url": "https://quantumzeitgeist.com/what-is-the-surface-code"
         }
       ],
-      "evidence_count": 28,
+      "evidence_count": 30,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-15",
+      "latest_seen": "2026-09-18",
       "momentum": "rising",
       "name": "Quantum error correction",
       "prior_count": 1,
       "priority": "critical",
-      "recent_count": 4,
+      "recent_count": 6,
       "status": "active",
       "themes": [
         "AI Security",
@@ -7477,7 +7514,7 @@
       "prior_count": 3,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Networking"
       ],
@@ -7881,9 +7918,9 @@
       "first_seen": "2026-06-24",
       "historical_evidence_count": 2,
       "latest_seen": "2026-09-04",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Quantum sensing",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "medium",
       "recent_count": 0,
       "status": "quiet",
@@ -8006,6 +8043,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-09-18T02:42:28.536390+00:00",
+  "updated_at": "2026-09-19T02:41:04.290451+00:00",
   "version": 2
 }

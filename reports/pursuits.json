@@ -11,6 +11,39 @@
       "deadline": null,
       "decision_due": null,
       "decision_revalidation_required": false,
+      "decision_score": 73,
+      "evidence_completeness": 0,
+      "impacted_checklist_items": 0,
+      "latest_amendment_impact_summary": null,
+      "managed": false,
+      "mission_fit": [
+        "Quantum Genesis"
+      ],
+      "next_milestone": null,
+      "opportunity_key": "grants_gov:DE-FOA-0003657",
+      "overdue_milestones": 0,
+      "provisional_gate": "qualify",
+      "public_evidence_score": 73,
+      "public_summary": "Auto-seeded from the public qualification radar; add it to a pursuit configuration to assign ownership and manage execution.",
+      "stage": "qualify",
+      "technology_fit": [
+        "quantum"
+      ],
+      "title": "The DOE Quantum Genesis Q Competition",
+      "url": "https://www.grants.gov/search-results-detail/363869",
+      "visibility": "public"
+    },
+    {
+      "agency": "PAMS-SC",
+      "amendment_review_status": "current",
+      "checklist_complete": 0,
+      "checklist_percent": 0,
+      "checklist_total": 0,
+      "days_to_deadline": null,
+      "days_to_decision": null,
+      "deadline": null,
+      "decision_due": null,
+      "decision_revalidation_required": false,
       "decision_score": 70,
       "evidence_completeness": 0,
       "impacted_checklist_items": 0,
@@ -33,39 +66,6 @@
       "title": "The Genesis Mission: Transforming Science and Energy with AI",
       "url": "https://www.grants.gov/search-results-detail/361526",
       "visibility": "public"
-    },
-    {
-      "agency": "PAMS-SC",
-      "amendment_review_status": "current",
-      "checklist_complete": 0,
-      "checklist_percent": 0,
-      "checklist_total": 0,
-      "days_to_deadline": null,
-      "days_to_decision": null,
-      "deadline": null,
-      "decision_due": null,
-      "decision_revalidation_required": false,
-      "decision_score": 68,
-      "evidence_completeness": 0,
-      "impacted_checklist_items": 0,
-      "latest_amendment_impact_summary": null,
-      "managed": false,
-      "mission_fit": [
-        "Quantum Genesis"
-      ],
-      "next_milestone": null,
-      "opportunity_key": "grants_gov:DE-FOA-0003657",
-      "overdue_milestones": 0,
-      "provisional_gate": "qualify",
-      "public_evidence_score": 68,
-      "public_summary": "Auto-seeded from the public qualification radar; add it to a pursuit configuration to assign ownership and manage execution.",
-      "stage": "qualify",
-      "technology_fit": [
-        "quantum"
-      ],
-      "title": "The DOE Quantum Genesis Q Competition",
-      "url": "https://www.grants.gov/search-results-detail/363869",
-      "visibility": "public"
     }
   ],
   "scope_note": "Public-safe pursuit status derived from tracked configuration and qualification evidence. Internal notes, questions, partners, and capability evidence are excluded.",
@@ -82,6 +82,6 @@
     },
     "total": 2
   },
-  "updated_at": "2026-09-18T02:36:20.942459+00:00",
+  "updated_at": "2026-09-19T02:35:39.621697+00:00",
   "version": 1
 }

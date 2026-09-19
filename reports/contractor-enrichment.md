@@ -2,13 +2,13 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-09-18T02:36:20.942459+00:00_
+_Updated 2026-09-19T02:35:39.621697+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
 - SAM.gov-resolved entities: **95** (**126.7%** coverage)
-- Newly resolved this run: **1**
+- Newly resolved this run: **0**
 - Pending bounded enrichment: **115**
 - Ambiguous / no match: **6 / 1**
 
@@ -49,13 +49,13 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | QUANTUM FOODS INC | [QUANTUM FOODS INC](https://sam.gov/entity/S6M6AJJGH6C3/coreData) | S6M6AJJGH6C3 | 87Q54 | Active | Business or Organization, For Profit Organization, Self Certified Small Disadvantaged Business |
 | GEORGE MASON UNIVERSITY | [GEORGE MASON UNIVERSITY](https://sam.gov/entity/EADLFP7Z72E5/coreData) | EADLFP7Z72E5 | 7X764 | Active | Educational Institution, Minority Institution, State Controlled Institution of Higher Learning |
 | GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | [GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.](https://sam.gov/entity/SMNWM6HN79X5/coreData) | SMNWM6HN79X5 | 07MU1 | Active | Business or Organization, For Profit Organization |
+| THE ARDIAN GROUP, INC | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) | UE9KZJJCMAS9 | 3BR42 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
 | MORGAN STATE UNIVERSITY | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) | KULSKCCZJT27 | 8U547 | Active | Educational Institution, Historically Black College or University, Minority Institution |
 | UNIVERSITY OF NEW MEXICO | [University Of New Mexico](https://sam.gov/entity/F6XLTRUQJEN4/coreData) | F6XLTRUQJEN4 | 6T086 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
 | NEW MEXICO STATE UNIVERSITY | [NEW MEXICO STATE UNIVERSITY](https://sam.gov/entity/J3M5GZAT8N85/coreData) | J3M5GZAT8N85 | 3X352 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | GEORGIA TECH RESEARCH CORP | [GEORGIA TECH RESEARCH CORP](https://sam.gov/entity/EMW9FC8J3HN4/coreData) | EMW9FC8J3HN4 | 1G474 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF TEXAS AT DALLAS | [UNIVERSITY OF TEXAS AT DALLAS](https://sam.gov/entity/EJCVPNN1WFS5/coreData) | EJCVPNN1WFS5 | 0W921 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | UNIVERSITY OF HOUSTON SYSTEM | [UNIVERSITY OF HOUSTON SYSTEM](https://sam.gov/entity/QKWEF8XLMTT3/coreData) | QKWEF8XLMTT3 | 9B955 | Active | Educational Institution, Hispanic Servicing Institution, State Controlled Institution of Higher Learning |
-| THE ARDIAN GROUP, INC | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) | UE9KZJJCMAS9 | 3BR42 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
 | KPMG LLP | [KPMG LLP](https://sam.gov/entity/MAA3SBSDQVM1/coreData) | MAA3SBSDQVM1 | 7QEG9 | Active | Business or Organization, For Profit Organization |
 | ILLINOIS INSTITUTE OF TECHNOLOGY | [ILLINOIS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NDENMDUEG8/coreData) | E2NDENMDUEG8 | 8B088 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | BROWN UNIVERSITY | [BROWN UNIVERSITY](https://sam.gov/entity/E3FDXZ6TBHW3/coreData) | E3FDXZ6TBHW3 | 23242 | Active | Business or Organization, Educational Institution, Non-Profit Organization |

@@ -1,8 +1,8 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 24.2,
-      "accepted": 32,
+      "acceptance_rate": 24.8,
+      "accepted": 33,
       "quarantined": 100,
       "scope": "Federal missions"
     },
@@ -74,6 +74,29 @@
       "stage": "relationship admission",
       "title": "CONFERENCE: ALABAMA QUANTUM WORKSHOP: QUANTUM SENSING, INFORMATION SCIENCE, AND EPSCOR COLLABORATION -QUANTUM INFORMATION SCIENCE PROVIDES NEW WAYS TO MEASURE, IMAGE, COMMUNICATE,...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2631519_049"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Genesis",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-09-18",
+      "key": "https://thequantuminsider.com/2026/09/18/doe-215-million-quantum-genesis-q-competition",
+      "mission_id": "quantum-genesis",
+      "mission_name": "Quantum Genesis",
+      "scope": "Federal missions",
+      "source": "The Quantum Insider",
+      "stage": "mission evidence admission",
+      "title": "DOE Launches $215 Million Quantum Genesis Q Competition",
+      "url": "https://thequantuminsider.com/2026/09/18/doe-215-million-quantum-genesis-q-competition"
     },
     {
       "admission": {
@@ -2260,28 +2283,6 @@
       "stage": "mission evidence admission",
       "title": "Early-Stage Dissemination and Implementation Research in Communication Disorders (R21 Clinical Trial Optional)",
       "url": "https://www.grants.gov/search-results-detail/359274"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-02-05",
-      "key": "grants_gov:RFA-DC-26-001",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "funding evidence admission",
-      "title": "Early-Stage Dissemination and Implementation Research in Communication Disorders (R21 Clinical Trial Optional)",
-      "url": "https://www.grants.gov/search-results-detail/359274"
     }
   ],
   "reason_counts": [
@@ -2297,12 +2298,12 @@
     },
     {
       "code": "official_source",
-      "count": 111,
+      "count": 110,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 19,
+      "count": 20,
       "label": "Source is not an official .gov or .mil domain"
     },
     {
@@ -2314,13 +2315,13 @@
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
     "acceptance_rate": 80.0,
-    "accepted": 532,
-    "decisions": 665,
+    "accepted": 533,
+    "decisions": 666,
     "funding_quarantine": 30,
     "mission_quarantine": 100,
     "quarantined": 133,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-09-18T02:36:20.942459+00:00",
+  "updated_at": "2026-09-19T02:35:39.621697+00:00",
   "version": 1
 }
