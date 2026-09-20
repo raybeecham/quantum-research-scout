@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-09-20 02:53 UTC_
+_Updated 2026-09-20 08:11 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
@@ -12,27 +12,27 @@ Assessed **25 of 43** configured organizations.
 
 | Organization | Observed stage | Confidence | PQC evidence | Sources | Historical | Latest dated evidence |
 |---|---|---|---:|---:|---:|---|
+| QuSecure | Pilot / Testing | high | 20 | 4 | 16 | 2026-09-03 |
 | PQShield | Pilot / Testing | medium | 6 | 1 | 0 | 2026-09-17 |
 | Wiz | Pilot / Testing | medium | 4 | 1 | 4 | 2026-07-02 |
-| Keyfactor | Planning | high | 14 | 3 | 7 | 2026-09-08 |
+| Accenture / Accenture Federal Services | Planning | high | 4 | 2 | 4 | 2026-08-27 |
+| Keyfactor | Planning | high | 13 | 3 | 6 | 2026-09-08 |
 | NIST | Planning | high | 6 | 3 | 0 | 2026-08-20 |
-| QuSecure | Planning | high | 8 | 4 | 4 | 2026-09-03 |
-| Accenture / Accenture Federal Services | Planning | medium | 3 | 1 | 3 | Unknown |
+| AWS | Planning | medium | 3 | 2 | 2 | 2026-07-14 |
 | Fortanix | Planning | medium | 19 | 1 | 19 | 2026-08-24 |
 | Thales | Planning | medium | 2 | 2 | 0 | 2026-08-05 |
 | CISA | Planning | low | 1 | 1 | 0 | 2026-09-03 |
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
-| Cisco | Awareness | high | 17 | 2 | 11 | 2026-09-01 |
+| Cisco | Awareness | high | 6 | 2 | 0 | 2026-09-01 |
 | Cloudflare | Awareness | high | 6 | 3 | 0 | 2026-09-10 |
 | ANSSI | Awareness | medium | 2 | 1 | 0 | 2026-09-03 |
+| IETF | Awareness | medium | 2 | 2 | 1 | 2026-08-28 |
 | ISO/IEC | Awareness | medium | 2 | 2 | 0 | 2026-07-15 |
 | IonQ | Awareness | medium | 2 | 1 | 0 | 2026-09-08 |
-| AWS | Awareness | low | 1 | 1 | 0 | 2026-07-01 |
 | Booz Allen Hamilton | Awareness | low | 1 | 1 | 1 | 2025-02-06 |
 | DigiCert | Awareness | low | 1 | 1 | 0 | 2026-08-03 |
 | ETSI | Awareness | low | 1 | 1 | 1 | 2026-06-22 |
 | IBM | Awareness | low | 1 | 1 | 0 | 2026-07-29 |
-| IETF | Awareness | low | 1 | 1 | 0 | 2026-08-28 |
 | PQCA | Awareness | low | 1 | 1 | 0 | 2026-07-27 |
 | Pasqal | Awareness | low | 1 | 1 | 0 | 2026-08-31 |
 | Quantinuum | Awareness | low | 1 | 1 | 0 | 2026-07-29 |

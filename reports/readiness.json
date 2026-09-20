@@ -37,6 +37,143 @@
   },
   "organizations": [
     {
+      "confidence": "high",
+      "evidence_count": 20,
+      "historical_evidence_count": 16,
+      "latest_evidence_at": "2026-09-03",
+      "name": "QuSecure",
+      "priority": "high",
+      "source_count": 4,
+      "stage": "pilot",
+      "stage_label": "Pilot / Testing",
+      "stage_rank": 4,
+      "supporting_evidence": [
+        {
+          "date": "2026-08-28",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "pilot",
+            "trial"
+          ],
+          "observed_stage": "pilot",
+          "observed_stage_label": "Pilot / Testing",
+          "rank": 4,
+          "source": "QuSecure Press Releases",
+          "title": "Case Study: Oil and Gas Operator Validates Post-Quantum Encryption on Systems With No Migration Path",
+          "url": "https://www.qusecure.com/oil-gas-critical-infrastructure-post-quantum-case-study/"
+        },
+        {
+          "date": "2026-09-02",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness",
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "QuSecure Press Releases",
+          "title": "QuSecure Delivers Field-Ready Post-Quantum Cryptography and Crypto-Agility for U.S. Army at Project Convergence Capstone 6",
+          "url": "https://www.qusecure.com/qusecure-army-project-convergence-capstone-6-trl-7/"
+        },
+        {
+          "date": "2026-07-31",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "QuSecure Press Releases",
+          "title": "QuSecure Recognized as a Sample Vendor for Crypto-Agility in Three Separate Gartner\u00ae Hype Cycle\u2122 Reports",
+          "url": "https://www.qusecure.com/qusecure-gartner-hype-cycle-crypto-agility/"
+        },
+        {
+          "date": "2026-07-14",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "QuSecure Press Releases",
+          "title": "QuSecure QuProtect R3 Listed in AWS \"ICMP\" for the U.S. Federal Government",
+          "url": "https://www.qusecure.com/quprotect-r3-aws-icmp-us-federal-government/"
+        },
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Accenture Quantum and PQC News",
+          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
+          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
+        },
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "crypto agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Accenture Quantum and PQC News",
+          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
+          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+        },
+        {
+          "date": "2026-08-30",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "cryptographic inventory"
+          ],
+          "observed_stage": "inventory",
+          "observed_stage_label": "Inventory",
+          "rank": 2,
+          "source": "QuSecure Press Releases",
+          "title": "What PCI DSS 4.0 Requirement 12.3.3 Asks of Your Cryptography",
+          "url": "https://www.qusecure.com/pci-dss-4-0-cryptographic-inventory/"
+        },
+        {
+          "date": "2026-08-30",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "cryptographic inventory"
+          ],
+          "observed_stage": "inventory",
+          "observed_stage_label": "Inventory",
+          "rank": 2,
+          "source": "QuSecure Press Releases",
+          "title": "OMB M-23-02: The Memo That Made Federal Cryptographic Inventory a Requirement",
+          "url": "https://www.qusecure.com/omb-m-23-02-federal-cryptographic-inventory/"
+        }
+      ],
+      "type": "company"
+    },
+    {
       "confidence": "medium",
       "evidence_count": 6,
       "historical_evidence_count": 0,
@@ -222,8 +359,85 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 14,
-      "historical_evidence_count": 7,
+      "evidence_count": 4,
+      "historical_evidence_count": 4,
+      "latest_evidence_at": "2026-08-27",
+      "name": "Accenture / Accenture Federal Services",
+      "priority": "high",
+      "source_count": 2,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Accenture Quantum and PQC News",
+          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
+          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
+        },
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "crypto agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Accenture Quantum and PQC News",
+          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
+          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
+        },
+        {
+          "date": "2026-08-27",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "pqc"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuSecure Press Releases",
+          "title": "World Economic Forum Cites QuSecure's Multi-Orbit Link in Its Quantum Roadmap for ICT Leaders",
+          "url": "https://www.qusecure.com/wef-quantum-technologies-ict-leaders/"
+        },
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum",
+            "pqc",
+            "quantum safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Accenture Quantum and PQC News",
+          "title": "Banco Sabadell Collaborates with Accenture and QuSecure to Advance Quantum Safe Infrastructure",
+          "url": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure"
+        }
+      ],
+      "type": "consulting"
+    },
+    {
+      "confidence": "high",
+      "evidence_count": 13,
+      "historical_evidence_count": 6,
       "latest_evidence_at": "2026-09-08",
       "name": "Keyfactor",
       "priority": "high",
@@ -461,21 +675,21 @@
       "type": "government"
     },
     {
-      "confidence": "high",
-      "evidence_count": 8,
-      "historical_evidence_count": 4,
-      "latest_evidence_at": "2026-09-03",
-      "name": "QuSecure",
-      "priority": "high",
-      "source_count": 4,
+      "confidence": "medium",
+      "evidence_count": 3,
+      "historical_evidence_count": 2,
+      "latest_evidence_at": "2026-07-14",
+      "name": "AWS",
+      "priority": "medium",
+      "source_count": 2,
       "stage": "planning",
       "stage_label": "Planning",
       "stage_rank": 3,
       "supporting_evidence": [
         {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
+          "date": "2026-07-14",
+          "date_confidence": "high",
+          "date_kind": "published",
           "historical": true,
           "matched_patterns": [
             "crypto-agility"
@@ -483,89 +697,27 @@
           "observed_stage": "planning",
           "observed_stage_label": "Planning",
           "rank": 3,
-          "source": "Accenture Quantum and PQC News",
-          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
-          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
+          "source": "QuSecure Press Releases",
+          "title": "QuSecure QuProtect R3 Listed in AWS \"ICMP\" for the U.S. Federal Government",
+          "url": "https://www.qusecure.com/quprotect-r3-aws-icmp-us-federal-government/"
         },
         {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": true,
-          "matched_patterns": [
-            "crypto agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Accenture Quantum and PQC News",
-          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
-          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
-        },
-        {
-          "date": "2026-09-03",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "pqc",
-            "quantum-resistant"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Quantum Zeitgeist",
-          "title": "QuSecure\u2019s quantum-resistant PQC solution passes critical Army test",
-          "url": "https://quantumzeitgeist.com/qusecures-quantum-resistant-pqc-solution-passes"
-        },
-        {
-          "date": "2026-09-02",
+          "date": "2026-07-14",
           "date_confidence": "high",
           "date_kind": "published",
           "historical": true,
           "matched_patterns": [
-            "post-quantum",
-            "quantum cyber"
+            "post-quantum"
           ],
           "observed_stage": "awareness",
           "observed_stage_label": "Awareness",
           "rank": 1,
           "source": "QuSecure Press Releases",
-          "title": "Resources in Press Releases",
-          "url": "https://www.qusecure.com/category/press-releases/"
+          "title": "QuSecure Featured in Quantum Computing Report: QuProtect R3 Listed in AWS ICMP Post-Quantum Cryptography",
+          "url": "https://www.qusecure.com/quantum-computing-report-aws-icmp-quprotect-r3/"
         },
         {
-          "date": "2026-09-02",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "The Quantum Insider",
-          "title": "QuSecure Demonstrates Post-Quantum Security for U.S. Army at Project Convergence",
-          "url": "https://thequantuminsider.com/2026/09/02/qusecure-post-quantum-security-us-army-project-convergence"
-        },
-        {
-          "date": "2026-08-11",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "The Quantum Insider",
-          "title": "QuSecure Adds Post-Quantum Cryptography Platform to Carahsoft GSA Schedule",
-          "url": "https://thequantuminsider.com/2026/08/11/qusecure-post-quantum-cryptography-solutions-carahsoft-gsa-schedule"
-        },
-        {
-          "date": "2026-07-25",
+          "date": "2026-07-01",
           "date_confidence": "unknown",
           "date_kind": "unknown",
           "historical": false,
@@ -576,90 +728,11 @@
           "observed_stage_label": "Awareness",
           "rank": 1,
           "source": "Quantum Zeitgeist",
-          "title": "QuSecure\u2019s Platform Simplifies Post-Quantum Crypto for Federal Networks",
-          "url": "https://quantumzeitgeist.com/post-quantum-crypto-qusecures-platform-simplifies"
-        },
-        {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": true,
-          "matched_patterns": [
-            "post-quantum",
-            "pqc",
-            "quantum safe"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Accenture Quantum and PQC News",
-          "title": "Banco Sabadell Collaborates with Accenture and QuSecure to Advance Quantum Safe Infrastructure",
-          "url": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure"
+          "title": "AWS Builds for Quantum Computing & Post-Quantum Security Mandates",
+          "url": "https://quantumzeitgeist.com/quantum-computing-security-aws-post"
         }
       ],
       "type": "company"
-    },
-    {
-      "confidence": "medium",
-      "evidence_count": 3,
-      "historical_evidence_count": 3,
-      "latest_evidence_at": null,
-      "name": "Accenture / Accenture Federal Services",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "planning",
-      "stage_label": "Planning",
-      "stage_rank": 3,
-      "supporting_evidence": [
-        {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": true,
-          "matched_patterns": [
-            "crypto-agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Accenture Quantum and PQC News",
-          "title": "QuSecure and Accenture Team in First Successful Multi-Orbit Communications Link Showcasing Post-Quantum Crypto Modernization",
-          "url": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization"
-        },
-        {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": true,
-          "matched_patterns": [
-            "crypto agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Accenture Quantum and PQC News",
-          "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
-          "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
-        },
-        {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": true,
-          "matched_patterns": [
-            "post-quantum",
-            "pqc",
-            "quantum safe"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Accenture Quantum and PQC News",
-          "title": "Banco Sabadell Collaborates with Accenture and QuSecure to Advance Quantum Safe Infrastructure",
-          "url": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure"
-        }
-      ],
-      "type": "consulting"
     },
     {
       "confidence": "medium",
@@ -909,8 +982,8 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 17,
-      "historical_evidence_count": 11,
+      "evidence_count": 6,
+      "historical_evidence_count": 0,
       "latest_evidence_at": "2026-09-01",
       "name": "Cisco",
       "priority": "high",
@@ -1008,36 +1081,6 @@
           "source": "Cisco Quantum-Safe Updates",
           "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
           "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
-        },
-        {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": true,
-          "matched_patterns": [
-            "quantum-safe"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "quantum-safe encryption Archives",
-          "url": "https://blogs.cisco.com/tag/quantum-safe-encryption"
-        },
-        {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": true,
-          "matched_patterns": [
-            "quantum-safe"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "quantum-safe computing Archives",
-          "url": "https://blogs.cisco.com/tag/quantum-safe-computing"
         }
       ],
       "type": "company"
@@ -1195,6 +1238,51 @@
     {
       "confidence": "medium",
       "evidence_count": 2,
+      "historical_evidence_count": 1,
+      "latest_evidence_at": "2026-08-28",
+      "name": "IETF",
+      "priority": "high",
+      "source_count": 2,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-08-28",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "IETF workshop to speed up post-quantum authentication rollout",
+          "url": "https://quantumzeitgeist.com/nist-post-quantum-authentication-ietf-workshop"
+        },
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "IETF PQUIP",
+          "title": "Post-Quantum Use In Protocols (pquip)",
+          "url": "https://datatracker.ietf.org/group/pquip/about/"
+        }
+      ],
+      "type": "standards"
+    },
+    {
+      "confidence": "medium",
+      "evidence_count": 2,
       "historical_evidence_count": 0,
       "latest_evidence_at": "2026-07-15",
       "name": "ISO/IEC",
@@ -1278,36 +1366,6 @@
           "source": "QuantumNews.ai",
           "title": "IonQ says orders set 2030 deadline for post-quantum crypto migration",
           "url": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders"
-        }
-      ],
-      "type": "company"
-    },
-    {
-      "confidence": "low",
-      "evidence_count": 1,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-07-01",
-      "name": "AWS",
-      "priority": "medium",
-      "source_count": 1,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-07-01",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Quantum Zeitgeist",
-          "title": "AWS Builds for Quantum Computing & Post-Quantum Security Mandates",
-          "url": "https://quantumzeitgeist.com/quantum-computing-security-aws-post"
         }
       ],
       "type": "company"
@@ -1431,36 +1489,6 @@
         }
       ],
       "type": "company"
-    },
-    {
-      "confidence": "low",
-      "evidence_count": 1,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-08-28",
-      "name": "IETF",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-08-28",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Quantum Zeitgeist",
-          "title": "IETF workshop to speed up post-quantum authentication rollout",
-          "url": "https://quantumzeitgeist.com/nist-post-quantum-authentication-ietf-workshop"
-        }
-      ],
-      "type": "standards"
     },
     {
       "confidence": "low",
@@ -1838,15 +1866,15 @@
   "summary": {
     "assessed": 25,
     "by_stage": {
-      "awareness": 15,
+      "awareness": 14,
       "inventory": 1,
       "not_assessed": 18,
-      "pilot": 2,
+      "pilot": 3,
       "planning": 7
     },
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-09-20T02:53:04.130187+00:00",
+  "updated_at": "2026-09-20T08:11:01.442553+00:00",
   "version": 1
 }
