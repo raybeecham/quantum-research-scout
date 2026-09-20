@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-09-19T02:35:39.621697+00:00_
+_Updated 2026-09-20T02:47:24.692142+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 86% · Genesis Mission
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-18?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-19?
 
 **Horizon:** 2026-10-29
 
@@ -44,7 +44,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 74% · Golden Dome for America
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-18?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-19?
 
 **Horizon:** 2026-10-29
 
@@ -70,7 +70,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 46% · AI Forge
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-18?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-19?
 
 **Horizon:** 2026-11-21
 
@@ -94,7 +94,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 46% · Quantum Genesis
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2026-12-18?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2026-12-19?
 
 **Horizon:** 2026-12-17
 
@@ -185,7 +185,7 @@ Will authoritative evidence confirm “Advance selected NSF NQVL projects from d
 
 ### 45% · Federal Post-Quantum Cryptography Transition
 
-Will authoritative evidence confirm “Agencies identify and report their PQC migration leads” by 2026-10-19?
+Will authoritative evidence confirm “Agencies identify and report their PQC migration leads” by 2026-10-20?
 
 **Horizon:** 2026-09-30
 

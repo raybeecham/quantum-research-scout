@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-09-19",
+  "as_of_date": "2026-09-20",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,556 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-4fdf0e765db213cb",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-595813a2c4c09ce8"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-595813a2c4c09ce8",
+          "locator": "opportunity_status:awarded",
+          "title": "COLLABORATIVE RESEARCH: CER: EDUCATING THE NEXT GENERATION FOR COPYRIGHT AND PRIVACY RISKS IN LLMS -ARTIFICIAL INTELLIGENCE (AI) TOOLS THAT GENERATE TEXT AND IMAGES, KNOWN AS LARG...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2618892_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2618892",
+        "label": "COLLABORATIVE RESEARCH: CER: EDUCATING THE NEXT GENERATION FOR COPYRIGHT AND PRIVACY RISKS IN LLMS -ARTIFICIAL INTELLIGENCE (AI) TOOLS THAT GENERATE TEXT AND IMAGES, KNOWN AS LARG...",
+        "node_id": "award:usaspending:2618892",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "829ba9358a5249ae"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-dd718b5e364dbd0e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-c81a0b687e1d32f2"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c81a0b687e1d32f2",
+          "locator": "awarding_agency:national science foundation",
+          "title": "COLLABORATIVE RESEARCH: CER: EDUCATING THE NEXT GENERATION FOR COPYRIGHT AND PRIVACY RISKS IN LLMS -ARTIFICIAL INTELLIGENCE (AI) TOOLS THAT GENERATE TEXT AND IMAGES, KNOWN AS LARG...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2618892_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2618892",
+        "label": "COLLABORATIVE RESEARCH: CER: EDUCATING THE NEXT GENERATION FOR COPYRIGHT AND PRIVACY RISKS IN LLMS -ARTIFICIAL INTELLIGENCE (AI) TOOLS THAT GENERATE TEXT AND IMAGES, KNOWN AS LARG...",
+        "node_id": "award:usaspending:2618892",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "fd95935d04c94f26"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-a35695e095c91a23",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-d265828cf6bb1d10"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d265828cf6bb1d10",
+          "locator": "reported_amount:300000.0",
+          "title": "COLLABORATIVE RESEARCH: CER: EDUCATING THE NEXT GENERATION FOR COPYRIGHT AND PRIVACY RISKS IN LLMS -ARTIFICIAL INTELLIGENCE (AI) TOOLS THAT GENERATE TEXT AND IMAGES, KNOWN AS LARG...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2618892_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2618892",
+        "label": "COLLABORATIVE RESEARCH: CER: EDUCATING THE NEXT GENERATION FOR COPYRIGHT AND PRIVACY RISKS IN LLMS -ARTIFICIAL INTELLIGENCE (AI) TOOLS THAT GENERATE TEXT AND IMAGES, KNOWN AS LARG...",
+        "node_id": "award:usaspending:2618892",
+        "node_type": "award"
+      },
+      "value": 300000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e632fcf159093f3b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-9c406b12c3e5ab31",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-7af6c3eb9590ee7b"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:JJ6CN5Y5A2R5",
+        "label": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+        "node_id": "recipient_or_contractor:uei:JJ6CN5Y5A2R5",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7af6c3eb9590ee7b",
+          "locator": "reported_recipient:recipient_or_contractor:uei:JJ6CN5Y5A2R5",
+          "title": "COLLABORATIVE RESEARCH: CER: EDUCATING THE NEXT GENERATION FOR COPYRIGHT AND PRIVACY RISKS IN LLMS -ARTIFICIAL INTELLIGENCE (AI) TOOLS THAT GENERATE TEXT AND IMAGES, KNOWN AS LARG...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2618892_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2618892",
+        "label": "COLLABORATIVE RESEARCH: CER: EDUCATING THE NEXT GENERATION FOR COPYRIGHT AND PRIVACY RISKS IN LLMS -ARTIFICIAL INTELLIGENCE (AI) TOOLS THAT GENERATE TEXT AND IMAGES, KNOWN AS LARG...",
+        "node_id": "award:usaspending:2618892",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "98fbca3657470b6a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-7254c2da4472f745",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-6d52d991f42f4cbc"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6d52d991f42f4cbc",
+          "locator": "opportunity_status:awarded",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549232",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+        "node_id": "award:usaspending:2549232",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d26e014b591bdeac"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-9e743fb3dfe1e1ef",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-cc6d46dfd9df3b56"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cc6d46dfd9df3b56",
+          "locator": "awarding_agency:national science foundation",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549232",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+        "node_id": "award:usaspending:2549232",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "cec32cbb57eaf889"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-db38c08948d717ee",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-ffbe4291a417dea3"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ffbe4291a417dea3",
+          "locator": "reported_amount:266667.0",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549232",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+        "node_id": "award:usaspending:2549232",
+        "node_type": "award"
+      },
+      "value": 266667.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e64140f84b29a7ac"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-49ccb5dda652cf8f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-952800926cdc53f2"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:FL6GV84CKN57",
+        "label": "YALE UNIV",
+        "node_id": "recipient_or_contractor:uei:FL6GV84CKN57",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-952800926cdc53f2",
+          "locator": "reported_recipient:recipient_or_contractor:uei:FL6GV84CKN57",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549232",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+        "node_id": "award:usaspending:2549232",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "72dc2bcb61e9d865"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-e129a366ba97663c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-20",
+      "evidence_ids": [
+        "evidence-d0f03ed470f5fc85"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d0f03ed470f5fc85",
+          "locator": "legal_business_name:the trustees of the stevens institute of technology",
+          "title": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+          "url": "https://sam.gov/entity/JJ6CN5Y5A2R5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:JJ6CN5Y5A2R5",
+        "label": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+        "node_id": "recipient_or_contractor:uei:JJ6CN5Y5A2R5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "cc189e78e9e93c31"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-f006ab0c3bc7943d",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-20",
+      "evidence_ids": [
+        "evidence-82458bbbd4e99823"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-82458bbbd4e99823",
+          "locator": "uei:jj6cn5y5a2r5",
+          "title": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+          "url": "https://sam.gov/entity/JJ6CN5Y5A2R5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:JJ6CN5Y5A2R5",
+        "label": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+        "node_id": "recipient_or_contractor:uei:JJ6CN5Y5A2R5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "JJ6CN5Y5A2R5",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1ac9cac7813e353c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-aa558ce9afc79808",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-20",
+      "evidence_ids": [
+        "evidence-308fed4ab76fb36c"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-308fed4ab76fb36c",
+          "locator": "cage_code:07069",
+          "title": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+          "url": "https://sam.gov/entity/JJ6CN5Y5A2R5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:JJ6CN5Y5A2R5",
+        "label": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+        "node_id": "recipient_or_contractor:uei:JJ6CN5Y5A2R5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "07069",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "48cac50af4d6ad58"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-ea0b76789e5decd3",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-20",
+      "evidence_ids": [
+        "evidence-522487de16b87de7"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-522487de16b87de7",
+          "locator": "registration_status:active",
+          "title": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+          "url": "https://sam.gov/entity/JJ6CN5Y5A2R5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:JJ6CN5Y5A2R5",
+        "label": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+        "node_id": "recipient_or_contractor:uei:JJ6CN5Y5A2R5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e244db9a0d899860"
     },
     {
       "authority": "authoritative",
@@ -38119,376 +38669,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-ec7bc3b18b73528b",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-793213fed7a77476"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-793213fed7a77476",
-          "locator": "opportunity_status:awarded",
-          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2627740_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2627740",
-        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-        "node_id": "award:usaspending:2627740",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "e374593b4e9c21f1"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-bbd2357ef9476da2",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-df9022f886ce566b"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-df9022f886ce566b",
-          "locator": "awarding_agency:national science foundation",
-          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2627740_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2627740",
-        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-        "node_id": "award:usaspending:2627740",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "b47c4a097e779a0d"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-4b1901bbc1a405a6",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-df4e26f06316a142"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-df4e26f06316a142",
-          "locator": "reported_amount:30000.0",
-          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2627740_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2627740",
-        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-        "node_id": "award:usaspending:2627740",
-        "node_type": "award"
-      },
-      "value": 30000.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "d30acf5c1db5fa80"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-ae67363a63f2aec9",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-0f6fd38a444dc4f1"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:EVTSTTLCEWS5",
-        "label": "UNIVERSITY OF OKLAHOMA",
-        "node_id": "recipient_or_contractor:uei:EVTSTTLCEWS5",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0f6fd38a444dc4f1",
-          "locator": "reported_recipient:recipient_or_contractor:uei:EVTSTTLCEWS5",
-          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2627740_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2627740",
-        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-        "node_id": "award:usaspending:2627740",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "6445551f63aafac1"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-21c1e6d383fec53c",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-788194fb064ac88d"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-788194fb064ac88d",
-          "locator": "opportunity_status:awarded",
-          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2627739_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2627739",
-        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-        "node_id": "award:usaspending:2627739",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "562287195b9ebd99"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-5870423a4584de51",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-b263e6cc397980fe"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b263e6cc397980fe",
-          "locator": "awarding_agency:national science foundation",
-          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2627739_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2627739",
-        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-        "node_id": "award:usaspending:2627739",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "ea6838bb464ce2c4"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-bc30c5e285713839",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-71f50dcbe370447a"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-71f50dcbe370447a",
-          "locator": "reported_amount:30000.0",
-          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2627739_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2627739",
-        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-        "node_id": "award:usaspending:2627739",
-        "node_type": "award"
-      },
-      "value": 30000.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "843403d1fb070b70"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-d37e75a16d861f20",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-a9fda2b7e518b0df"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:G47WN1XZNWX9",
-        "label": "UNIVERSITY OF NORTH TEXAS",
-        "node_id": "recipient_or_contractor:uei:G47WN1XZNWX9",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a9fda2b7e518b0df",
-          "locator": "reported_recipient:recipient_or_contractor:uei:G47WN1XZNWX9",
-          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2627739_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2627739",
-        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
-        "node_id": "award:usaspending:2627739",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "8b61b312872af32d"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-bfb77d1896770134",
       "confidence": "high",
@@ -39026,6 +39206,376 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "884ff924a90c62e2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-ec7bc3b18b73528b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-793213fed7a77476"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-793213fed7a77476",
+          "locator": "opportunity_status:awarded",
+          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2627740_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2627740",
+        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+        "node_id": "award:usaspending:2627740",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e374593b4e9c21f1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-bbd2357ef9476da2",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-df9022f886ce566b"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-df9022f886ce566b",
+          "locator": "awarding_agency:national science foundation",
+          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2627740_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2627740",
+        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+        "node_id": "award:usaspending:2627740",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "b47c4a097e779a0d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-4b1901bbc1a405a6",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-df4e26f06316a142"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-df4e26f06316a142",
+          "locator": "reported_amount:30000.0",
+          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2627740_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2627740",
+        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+        "node_id": "award:usaspending:2627740",
+        "node_type": "award"
+      },
+      "value": 30000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d30acf5c1db5fa80"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-ae67363a63f2aec9",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-0f6fd38a444dc4f1"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:EVTSTTLCEWS5",
+        "label": "UNIVERSITY OF OKLAHOMA",
+        "node_id": "recipient_or_contractor:uei:EVTSTTLCEWS5",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0f6fd38a444dc4f1",
+          "locator": "reported_recipient:recipient_or_contractor:uei:EVTSTTLCEWS5",
+          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2627740_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2627740",
+        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+        "node_id": "award:usaspending:2627740",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6445551f63aafac1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-21c1e6d383fec53c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-788194fb064ac88d"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-788194fb064ac88d",
+          "locator": "opportunity_status:awarded",
+          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2627739_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2627739",
+        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+        "node_id": "award:usaspending:2627739",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "562287195b9ebd99"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-5870423a4584de51",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-b263e6cc397980fe"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b263e6cc397980fe",
+          "locator": "awarding_agency:national science foundation",
+          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2627739_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2627739",
+        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+        "node_id": "award:usaspending:2627739",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ea6838bb464ce2c4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-bc30c5e285713839",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-71f50dcbe370447a"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-71f50dcbe370447a",
+          "locator": "reported_amount:30000.0",
+          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2627739_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2627739",
+        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+        "node_id": "award:usaspending:2627739",
+        "node_type": "award"
+      },
+      "value": 30000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "843403d1fb070b70"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-d37e75a16d861f20",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-a9fda2b7e518b0df"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:G47WN1XZNWX9",
+        "label": "UNIVERSITY OF NORTH TEXAS",
+        "node_id": "recipient_or_contractor:uei:G47WN1XZNWX9",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a9fda2b7e518b0df",
+          "locator": "reported_recipient:recipient_or_contractor:uei:G47WN1XZNWX9",
+          "title": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2627739_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2627739",
+        "label": "COLLABORATIVE RESEARCH: CONFERENCE: TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC FORMS (TORA) -THIS AWARD PROVIDES FUNDING FOR THE TEXAS-OKLAHOMA REPRESENTATIONS AND AUTOMORPHIC...",
+        "node_id": "award:usaspending:2627739",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8b61b312872af32d"
     },
     {
       "authority": "authoritative",
@@ -196990,7 +197540,7 @@
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 73 / 100 with 0 / 100 evidence completeness",
+      "basis": "Deterministic qualification score 68 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-352bc7c9512c056c",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -197003,14 +197553,13 @@
               "critical mission +8",
               "actionable grant_opportunity +9",
               "closing_this_month +9",
-              "technology fit +4",
-              "new since yesterday +5"
+              "technology fit +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/363869"
             ],
-            "points": 81
+            "points": 76
           },
           {
             "basis": [
@@ -197050,7 +197599,7 @@
         },
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 73,
+        "public_evidence_score": 68,
         "requires_revalidation": false,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363869"
@@ -197065,7 +197614,7 @@
         ],
         "rule": "procurement_intelligence._build_decision_briefs"
       },
-      "effective_date": "2026-09-19",
+      "effective_date": "2026-09-20",
       "evidence_ids": [
         "evidence-bfd565fa4072d5d4"
       ],
@@ -197085,9 +197634,24 @@
           "value": "qualify",
           "version": 1,
           "version_hash": "1ec49e69e32174e3"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 73 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-bfd565fa4072d5d4"
+          ],
+          "first_seen_at": "2026-09-18T02:36:20.942459+00:00",
+          "last_seen_at": "2026-09-19T02:35:39.621697+00:00",
+          "object": null,
+          "status": "active",
+          "value": "qualify",
+          "version": 2,
+          "version_hash": "5f07b2e6f7e9e66e"
         }
       ],
-      "last_seen_at": "2026-09-19T02:35:39.621697+00:00",
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
       "missing_observations": 0,
       "object": null,
       "observation_status": "observed",
@@ -197113,8 +197677,8 @@
       },
       "value": "qualify",
       "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "5f07b2e6f7e9e66e"
+      "version": 3,
+      "version_hash": "1ec49e69e32174e3"
     },
     {
       "authority": "analytical",
@@ -221389,7 +221953,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221436,7 +222000,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221483,7 +222047,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221530,7 +222094,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221577,7 +222141,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221624,7 +222188,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221671,7 +222235,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221718,7 +222282,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221765,7 +222329,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221812,7 +222376,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221859,7 +222423,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221906,7 +222470,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -221953,7 +222517,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222000,7 +222564,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222047,7 +222611,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222094,7 +222658,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222141,7 +222705,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222188,7 +222752,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222240,7 +222804,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222292,7 +222856,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222344,7 +222908,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222396,7 +222960,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222448,7 +223012,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222500,7 +223064,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222552,7 +223116,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222604,7 +223168,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -222656,7 +223220,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-19T02:35:39.621697+00:00",
+      "retracted_at": "2026-09-20T02:47:24.692142+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -231299,6 +231863,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-308fed4ab76fb36c",
+      "locator": "cage_code:07069",
+      "title": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+      "url": "https://sam.gov/entity/JJ6CN5Y5A2R5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-3091977439ecc660",
       "locator": "reported_amount:350000.0",
       "title": "66--SENSOR,COMBUSTABLE,",
@@ -237279,6 +237853,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-522487de16b87de7",
+      "locator": "registration_status:active",
+      "title": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+      "url": "https://sam.gov/entity/JJ6CN5Y5A2R5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-5234bf04229552bf",
       "locator": "opportunity_status:open",
       "title": "Computer and Information Science and Engineering (CISE): Future Computing Research",
@@ -238543,6 +239127,16 @@
       "locator": "registration_status:active",
       "title": "Alliance Technology Group, LLC",
       "url": "https://sam.gov/entity/UCM7WPGJBZ67/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-595813a2c4c09ce8",
+      "locator": "opportunity_status:awarded",
+      "title": "COLLABORATIVE RESEARCH: CER: EDUCATING THE NEXT GENERATION FOR COPYRIGHT AND PRIVACY RISKS IN LLMS -ARTIFICIAL INTELLIGENCE (AI) TOOLS THAT GENERATE TEXT AND IMAGES, KNOWN AS LARG...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_2618892_049",
       "verification_status": "source_reported"
     },
     {
@@ -241749,6 +242343,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-6d52d991f42f4cbc",
+      "locator": "opportunity_status:awarded",
+      "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-6d54a5d5078f239e",
       "locator": "reported_recipient:recipient_or_contractor:name:pacific sky supply",
       "title": "28--BLADE,COMPRESSOR,AI",
@@ -244099,6 +244703,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7af6c3eb9590ee7b",
+      "locator": "reported_recipient:recipient_or_contractor:uei:JJ6CN5Y5A2R5",
+      "title": "COLLABORATIVE RESEARCH: CER: EDUCATING THE NEXT GENERATION FOR COPYRIGHT AND PRIVACY RISKS IN LLMS -ARTIFICIAL INTELLIGENCE (AI) TOOLS THAT GENERATE TEXT AND IMAGES, KNOWN AS LARG...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_2618892_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-7afb8512726870f4",
       "locator": "opportunity_status:awarded",
       "title": "BUSINESS INTELLIGENCE (BI) SYSTEMS PROGRAM SUPPORT & OUTREACH OFFICE OF DATA & ARTIFICIAL INTELLIGENCE SERVICES (CG-TECH-ODA)",
@@ -245203,6 +245817,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:RSWNKK6J8CF3",
       "title": "EPSCOR RESEARCH FELLOWS: NSF: PREDICTIVE PRESSURE-DRIVEN STRUCTURAL CONTROL IN CORRELATED QUANTUM MATERIALS -THIS RESEARCH INFRASTRUCTURE IMPROVEMENT (RII) EPSCOR RESEARCH FELLOWS...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2624670_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-82458bbbd4e99823",
+      "locator": "uei:jj6cn5y5a2r5",
+      "title": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+      "url": "https://sam.gov/entity/JJ6CN5Y5A2R5/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -248493,6 +249117,16 @@
       "locator": "reported_amount:18503.28",
       "title": "AUTONOMOUS SYSTEMS LAB MEE3 EQUIPMENT",
       "url": "https://www.usaspending.gov/award/CONT_AWD_N0017325P0852_9700_-NONE-_-NONE-/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-952800926cdc53f2",
+      "locator": "reported_recipient:recipient_or_contractor:uei:FL6GV84CKN57",
+      "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
       "verification_status": "source_reported"
     },
     {
@@ -257609,6 +258243,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-c81a0b687e1d32f2",
+      "locator": "awarding_agency:national science foundation",
+      "title": "COLLABORATIVE RESEARCH: CER: EDUCATING THE NEXT GENERATION FOR COPYRIGHT AND PRIVACY RISKS IN LLMS -ARTIFICIAL INTELLIGENCE (AI) TOOLS THAT GENERATE TEXT AND IMAGES, KNOWN AS LARG...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_2618892_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-c81ba9e2964316dc",
       "locator": "reported_amount:600000.0",
       "title": "SATC 2.0: RES: CLASSICAL AND QUANTUM ALGORITHMS FOR PROBLEMS IN CRYPTOGRAPHY -THIS PROJECT FOCUSES ON THE SECURITY AND EFFICIENCY OF CERTAIN CRYPTOSYSTEMS. SINCE CURRENTLY USED SY...",
@@ -258343,6 +258987,16 @@
       "locator": "reported_amount:465000.0",
       "title": "REU SITE: SAFE, EFFICIENT, AND COLLABORATIVE INTELLIGENCE FOR AUTONOMOUS SYSTEMS -THIS THREE-YEAR REU SITE, ?SAFE, EFFICIENT, AND COLLABORATIVE INTELLIGENCE FOR AUTONOMOUS SYSTEMS...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2547887_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-cc6d46dfd9df3b56",
+      "locator": "awarding_agency:national science foundation",
+      "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
       "verification_status": "source_reported"
     },
     {
@@ -259259,6 +259913,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d0f03ed470f5fc85",
+      "locator": "legal_business_name:the trustees of the stevens institute of technology",
+      "title": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+      "url": "https://sam.gov/entity/JJ6CN5Y5A2R5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-d0f6ec3d7529c830",
       "locator": "reported_amount:106060.0",
       "title": "Autonomous Livestock Feed Monitoring Bins",
@@ -259613,6 +260277,16 @@
       "locator": "awarding_agency:national science foundation",
       "title": "COLLABORATIVE RESEARCH: SHF: FLEXSCALE: EXPLOITING WORKLOAD ELASTICITY TO INCREASE HPC THROUGHPUT WHILE LOWERING COST VIA DYNAMIC POWER STEERING -HIGH-PERFORMANCE COMPUTING (HPC)...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2615187_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d265828cf6bb1d10",
+      "locator": "reported_amount:300000.0",
+      "title": "COLLABORATIVE RESEARCH: CER: EDUCATING THE NEXT GENERATION FOR COPYRIGHT AND PRIVACY RISKS IN LLMS -ARTIFICIAL INTELLIGENCE (AI) TOOLS THAT GENERATE TEXT AND IMAGES, KNOWN AS LARG...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_2618892_049",
       "verification_status": "source_reported"
     },
     {
@@ -267899,6 +268573,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ffbe4291a417dea3",
+      "locator": "reported_amount:266667.0",
+      "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-ffc317bf1d1085c4",
       "locator": "reported_amount:4394360.0",
       "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
@@ -267949,16 +268633,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4417,
-    "authoritative_claims": 4216,
+    "active_claims": 4429,
+    "authoritative_claims": 4228,
     "conflicted_claims": 38,
     "derived_claims": 197,
-    "evidence_items": 4526,
-    "source_urls": 1235,
-    "subjects": 886,
+    "evidence_items": 4538,
+    "source_urls": 1238,
+    "subjects": 889,
     "superseded_claims": 0,
-    "total_claims": 4444
+    "total_claims": 4456
   },
-  "updated_at": "2026-09-19T02:35:39.621697+00:00",
+  "updated_at": "2026-09-20T02:47:24.692142+00:00",
   "version": 1
 }

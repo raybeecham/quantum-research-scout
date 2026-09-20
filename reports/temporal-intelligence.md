@@ -2,21 +2,25 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-09-19T02:35:39.621697+00:00_
+_Updated 2026-09-20T02:47:24.692142+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **4**
+- Actual or recent changes: **0**
 - Newly discovered historical evidence: **0**
-- Newly observed with no reliable source date: **0**
+- Newly observed with no reliable source date: **4**
 - Upcoming dated events: **16**
 
 ## Priority timeline
 
-- **Published today** · Project ARIA - AI Virtual BAS Operator for Enhanced DoD Building Performance — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/45ca548df3aa4458b9eb0ea8ea91a95b/view))
-  - The source publication date is today or within the prior day.
 - **Evidence trace changed** · The DOE Quantum Genesis Q Competition — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363869))
   - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Upcoming event date** · COLLABORATIVE RESEARCH: CER: EDUCATING THE NEXT GENERATION FOR COPYRIGHT AND PRIVACY RISKS IN LLMS -ARTIFICIAL INTELLIGENCE (AI) TOOLS THAT GENERATE TEXT AND IMAGES, KNOWN AS LARG... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2618892_049))
+  - The source date is in the future; Scout first observed it on 2026-09-20.
+- **Upcoming event date** · COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_2549232_049))
+  - The source date is in the future; Scout first observed it on 2026-09-20.
+- **Newly observed · event date unknown** · THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY — cage code ([evidence](https://sam.gov/entity/JJ6CN5Y5A2R5/coreData))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

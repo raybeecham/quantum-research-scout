@@ -93,7 +93,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 19,
+      "evidence_count": 21,
       "first_party_evidence_count": 0,
       "name": "Pasqal",
       "priority": "medium",
@@ -353,7 +353,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 26,
+      "evidence_count": 27,
       "first_party_evidence_count": 0,
       "name": "IBM",
       "priority": "high",
@@ -898,8 +898,20 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 26,
+      "current_evidence_count": 27,
       "evidence": [
+        {
+          "date": "2026-09-19",
+          "key": "https://quantumcomputingreport.com/ibm-research-demonstrates-hybrid-spacetime-pec-to-reduce-error-mitigation-sampling-overhead-by-63x",
+          "report": "2026-09/2026-09-19-digest.md",
+          "score": 46,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "IBM Research Demonstrates Hybrid Spacetime PEC to Reduce Error-Mitigation Sampling Overhead by 63\u00d7",
+          "url": "https://quantumcomputingreport.com/ibm-research-demonstrates-hybrid-spacetime-pec-to-reduce-error-mitigation-sampling-overhead-by-63x"
+        },
         {
           "date": "2026-09-18",
           "key": "https://quantumcomputingreport.com/usc-and-quantum-elements-demonstrate-surface-code-scaling-on-ibm-heavy-hex-processors",
@@ -1213,15 +1225,15 @@
           "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
         }
       ],
-      "evidence_count": 26,
+      "evidence_count": 27,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-18",
+      "latest_seen": "2026-09-19",
       "momentum": "rising",
       "name": "IBM",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -5394,8 +5406,32 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 19,
+      "current_evidence_count": 21,
       "evidence": [
+        {
+          "date": "2026-09-19",
+          "key": "https://quantumcomputingreport.com/pasqal-and-lg-cns-sign-three-year-mou-to-integrate-neutral-atom-qpus-into-ai-data-center-infrastructure",
+          "report": "2026-09/2026-09-19-digest.md",
+          "score": 43,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal and LG CNS Sign Three-Year MoU to Integrate Neutral-Atom QPUs into AI Data Center Infrastructure",
+          "url": "https://quantumcomputingreport.com/pasqal-and-lg-cns-sign-three-year-mou-to-integrate-neutral-atom-qpus-into-ai-data-center-infrastructure"
+        },
+        {
+          "date": "2026-09-19",
+          "key": "https://quantumcomputingreport.com/whos-news-strategic-appointments-at-quantum-motion-sqc-lawrence-semiconductor-and-pasqal",
+          "report": "2026-09/2026-09-19-digest.md",
+          "score": 42,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Who\u2019s News: Strategic Appointments at Quantum Motion, SQC, Lawrence Semiconductor, and Pasqal",
+          "url": "https://quantumcomputingreport.com/whos-news-strategic-appointments-at-quantum-motion-sqc-lawrence-semiconductor-and-pasqal"
+        },
         {
           "date": "2026-09-02",
           "key": "https://quantumcomputingreport.com/pasqal-and-true-nexus-encode-protein-gelation-structures-on-neutral-atom-qpus",
@@ -5625,16 +5661,16 @@
           "url": "https://thequantuminsider.com/2026/06/29/pasqal-appoints-stephane-rougeot-chief-financial-officer"
         }
       ],
-      "evidence_count": 19,
+      "evidence_count": 21,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-02",
-      "momentum": "stable",
+      "latest_seen": "2026-09-19",
+      "momentum": "rising",
       "name": "Pasqal",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 2,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware"
@@ -7654,11 +7690,11 @@
       "first_seen": "2026-07-16",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-14",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Quantum networking",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -8043,6 +8079,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-09-19T02:41:04.290451+00:00",
+  "updated_at": "2026-09-20T02:53:03.498325+00:00",
   "version": 2
 }

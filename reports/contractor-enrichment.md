@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-09-19T02:35:39.621697+00:00_
+_Updated 2026-09-20T02:47:24.692142+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **95** (**126.7%** coverage)
-- Newly resolved this run: **0**
-- Pending bounded enrichment: **115**
+- SAM.gov-resolved entities: **96** (**128.0%** coverage)
+- Newly resolved this run: **1**
+- Pending bounded enrichment: **114**
 - Ambiguous / no match: **6 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -52,6 +52,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | THE ARDIAN GROUP, INC | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) | UE9KZJJCMAS9 | 3BR42 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
 | MORGAN STATE UNIVERSITY | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) | KULSKCCZJT27 | 8U547 | Active | Educational Institution, Historically Black College or University, Minority Institution |
 | UNIVERSITY OF NEW MEXICO | [University Of New Mexico](https://sam.gov/entity/F6XLTRUQJEN4/coreData) | F6XLTRUQJEN4 | 6T086 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
+| THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | [THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/JJ6CN5Y5A2R5/coreData) | JJ6CN5Y5A2R5 | 07069 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | NEW MEXICO STATE UNIVERSITY | [NEW MEXICO STATE UNIVERSITY](https://sam.gov/entity/J3M5GZAT8N85/coreData) | J3M5GZAT8N85 | 3X352 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | GEORGIA TECH RESEARCH CORP | [GEORGIA TECH RESEARCH CORP](https://sam.gov/entity/EMW9FC8J3HN4/coreData) | EMW9FC8J3HN4 | 1G474 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF TEXAS AT DALLAS | [UNIVERSITY OF TEXAS AT DALLAS](https://sam.gov/entity/EJCVPNN1WFS5/coreData) | EJCVPNN1WFS5 | 0W921 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
@@ -88,7 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC | [THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC](https://sam.gov/entity/C1HBCJ9RMBV3/coreData) | C1HBCJ9RMBV3 | 88898 | Active | Business or Organization, Educational Institution, Limited Liability Company |
 | NEW YORK UNIVERSITY | [NEW YORK UNIVERSITY](https://sam.gov/entity/NX9PXMKW5KW8/coreData) | NX9PXMKW5KW8 | 72061 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | NATIONWIDE IT SERVICES INC | [NATIONWIDE IT SERVICES INC](https://sam.gov/entity/RR2VC8Y3MK47/coreData) | RR2VC8Y3MK47 | 4Q5A2 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
-| THALES DEFENSE & SECURITY INC | [THALES DEFENSE & SECURITY INC](https://sam.gov/entity/HNNUJXHSXGU3/coreData) | HNNUJXHSXGU3 | 23386 | Active | Business or Organization, For Profit Organization, Foreign Owned |
 
 ## Method
 

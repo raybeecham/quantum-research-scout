@@ -7,9 +7,9 @@
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 93.8,
+      "acceptance_rate": 93.6,
       "accepted": 500,
-      "quarantined": 33,
+      "quarantined": 34,
       "scope": "Federal funding"
     }
   ],
@@ -2174,6 +2174,51 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-05-20",
+      "key": "https://www.grants.gov/search-results-detail/362498",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+      "url": "https://www.grants.gov/search-results-detail/362498"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-05-20",
+      "key": "grants_gov:F26AS00085",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
+      "url": "https://www.grants.gov/search-results-detail/362498"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "AI Forge",
         "reason_codes": [
           "official_source",
@@ -2237,68 +2282,22 @@
       "stage": "funding evidence admission",
       "title": "INSPIRING GENERATIONS OF NEW INNOVATORS TO IMPACT TECHNOLOGIES IN ENERGY 2026 (IGNIITE 2026)",
       "url": "https://www.grants.gov/search-results-detail/362036"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Military AI Pace-Setting Projects",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-04-22",
-      "key": "https://www.grants.gov/search-results-detail/362029",
-      "mission_id": "military-ai-pace-setting-projects",
-      "mission_name": "Military AI Pace-Setting Projects",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
-      "stage": "mission evidence admission",
-      "title": "Tribal Colleges Research Grants Program",
-      "url": "https://www.grants.gov/search-results-detail/362029"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Genesis Mission",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-02-05",
-      "key": "https://www.grants.gov/search-results-detail/359274",
-      "mission_id": "genesis-mission",
-      "mission_name": "Genesis Mission",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "mission evidence admission",
-      "title": "Early-Stage Dissemination and Implementation Research in Communication Disorders (R21 Clinical Trial Optional)",
-      "url": "https://www.grants.gov/search-results-detail/359274"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 130,
+      "count": 131,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 130,
+      "count": 131,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 110,
+      "count": 111,
       "label": "Official government source"
     },
     {
@@ -2314,14 +2313,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 80.0,
+    "acceptance_rate": 79.9,
     "accepted": 533,
-    "decisions": 666,
-    "funding_quarantine": 30,
+    "decisions": 667,
+    "funding_quarantine": 31,
     "mission_quarantine": 100,
-    "quarantined": 133,
+    "quarantined": 134,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-09-19T02:35:39.621697+00:00",
+  "updated_at": "2026-09-20T02:47:24.692142+00:00",
   "version": 1
 }

@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-09-19 02:35 UTC_
+_Updated 2026-09-20 02:47 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -13,11 +13,11 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Tracked records: **500**
 - Awards / grant opportunities / procurement opportunities: **494 / 2 / 2**
 - Open opportunities: **2** (including 0 BAA and 2 RFI records)
-- Opportunity radar: **2 mission-linked**, **1 closing within 30 days**, **1 new since yesterday**
+- Opportunity radar: **2 mission-linked**, **1 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **15**
 - Missions with activity: **5 of 10**
-- Named recipients and contractors: **319**
-- Known reported award value: **$532.6M**
+- Named recipients and contractors: **320**
+- Known reported award value: **$533.1M**
 
 ## Opportunity Radar
 
@@ -25,8 +25,8 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 
 | Rank | Opportunity | Type | Close | Mission | Technology | Score | Recommended action |
 |---:|---|---|---|---|---|---:|---|
-| 1 | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) · NEW | GRANT_OPPORTUNITY | 10/19/2026 | Quantum Genesis | quantum | **81 · ACT NOW** | Qualify fit, identify partners, and prepare the response. |
-| 2 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
+| 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
+| 2 | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) | GRANT_OPPORTUNITY | 10/19/2026 | Quantum Genesis | quantum | **76 · HIGH PRIORITY** | Qualify fit, identify partners, and prepare the response. |
 
 ## Mission Funding Portfolios
 
@@ -107,10 +107,8 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | THE UNIVERSITY OF IOWA | UEI Z1H9VJS8NG16 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $3.7M | Environmental Protection Agency, National Science Foundation | Not linked | 0 |
 | LOUISIANA STATE UNIVERSITY | UEI ECQEYCHRNKJ4 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.5M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF WASHINGTON | UEI HD1WMN6945W6 | **43 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $3.2M | National Science Foundation | Not linked | 0 |
-| UNIVERSITY OF NORTH TEXAS | UEI G47WN1XZNWX9 | **43 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.1M | Department of Health and Human Services, National Science Foundation | Not linked | 0 |
 | ALVAREZ LLC | UEI Y928UVG75CT6 | **43 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.1M | Department of Health and Human Services, Department of Homeland Security, Department of Justice | Not linked | 0 |
 | POST QUANTUM LABS LLC | UEI H53MXWJZPYU3 | **42 · DEVELOPING** | Established Incumbent | Declining | 4 | $0 | Department of Defense | Not linked | 0 |
-| UNIVERSITY OF OKLAHOMA | UEI EVTSTTLCEWS5 | **42 · DEVELOPING** | Established Incumbent | Rising | 4 | $412.1K | National Science Foundation | Not linked | 0 |
 | FOUR POINTS TECHNOLOGY, L.L.C. | UEI H1KHJPJH9R51 | **40 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $15.4M | Department of Commerce, Department of Health and Human Services | Not linked | 0 |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | UEI GS3YEVSS12N6 | **40 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.5M | Department of Energy, National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF ILLINOIS | UEI Y8CWNJRCNN91 | **39 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.7M | National Science Foundation | Not linked | 0 |
@@ -128,9 +126,11 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | OREGON STATE UNIVERSITY | UEI MZ4DYXE1SL98 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.1M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | PARAGON MICRO INC | UEI E41LV9AJGHQ1 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.0M | Department of Health and Human Services | Not linked | 0 |
 | UNIVERSITY OF CALIFORNIA, SAN DIEGO | UEI UYTTZT6G9DT1 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.9M | Department of Defense, Department of Health and Human Services, National Science Foundation | Not linked | 0 |
+| UNIVERSITY OF NORTH TEXAS | UEI G47WN1XZNWX9 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | Department of Health and Human Services, National Science Foundation | Not linked | 0 |
 | GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | UEI SMNWM6HN79X5 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | Department of Commerce, Department of the Interior | Not linked | 0 |
 | GEORGE MASON UNIVERSITY | UEI EADLFP7Z72E5 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | MORGAN STATE UNIVERSITY | UEI KULSKCCZJT27 | **32 · DEVELOPING** | Emerging Entrant | New Entrant | 1 | $10.0M | Department of Defense | Not linked | 1 |
+| THE ARDIAN GROUP, INC | UEI UE9KZJJCMAS9 | **32 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.4M | Department of Homeland Security | Not linked | 0 |
 
 ## Recipient and Contractor Patent Connections
 
