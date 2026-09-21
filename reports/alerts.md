@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-20 02:53 UTC_
+_Updated 2026-09-21 02:49 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 5 | 12 | 16 | 22 |
+| 50 | 2 | 12 | 17 | 21 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -70,28 +70,28 @@ _Updated 2026-09-20 02:53 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 96.5% reliability with 2 warning day(s).
+- 🔴 94.8% reliability with 3 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography 🆕
+## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 74.5% reliability with 9 warning day(s).
+- 🔴 75.0% reliability with 9 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Computing 🆕
+## 🔴 Source failing: arXiv Quantum Computing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 74.5% reliability with 9 warning day(s).
+- 🔴 75.0% reliability with 9 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Networking and Sensing 🆕
+## 🔴 Source failing: arXiv Quantum Networking and Sensing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 76.6% reliability with 8 warning day(s).
+- 🔴 77.1% reliability with 8 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -115,7 +115,7 @@ _Updated 2026-09-20 02:53 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Software / Tooling 🆕
+## 🟠 Actionable signal: Quantum Software / Tooling
 
 - Severity: **high**
 - Status: **actionable**
@@ -129,12 +129,20 @@ _Updated 2026-09-20 02:53 UTC_
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: The DOE Quantum Genesis Q Competition
+## 🟠 Changed: ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS 🆕
 
 - Severity: **high**
 - Status: **changed**
-- qualification gate · authority analytical · qualify
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363869)
+- reported amount · authority authoritative · 1861375.0
+- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_1605C226C0006_1605_-NONE-_-NONE-)
+- [Open supporting view](intelligence-changes.md)
+
+## 🟠 Changed: PROGRAM MANAGEMENT, TECHNICAL & SYSTEMS ENGINEERING, CYBERSECURITY, AND LIFE-CYCLE LOGISTICS SUPPORT TO THE USCG UNMANNED AVIATION SYSTEMS (UAS) PROGRAM OFFICE WITHIN THE ROBOTICS... 🆕
+
+- Severity: **high**
+- Status: **changed**
+- reported amount · authority authoritative · 4492594.43
+- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_70Z02326F93130001_7008_47QRCA25DA145_4732)
 - [Open supporting view](intelligence-changes.md)
 
 ## 🟠 Rising momentum: AI Security
@@ -158,7 +166,7 @@ _Updated 2026-09-20 02:53 UTC_
 - ↗️ Recent evidence is 3 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Quantum Software / Tooling 🆕
+## 🟠 Rising momentum: Quantum Software / Tooling
 
 - Severity: **high**
 - Status: **rising**
@@ -169,42 +177,42 @@ _Updated 2026-09-20 02:53 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 7 versus 3 in the prior period.
+- ↗️ Recent evidence is 7 versus 4 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Source degraded: Lockheed Martin Quantum Technology
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 97.0% reliability with 2 warning day(s).
+- 🟠 97.1% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Computing Patents
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.6% reliability with 2 warning day(s).
+- 🟠 94.7% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Computing Report
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 80.0% reliability with 1 warning day(s).
+- 🟠 83.3% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.5% reliability with 1 warning day(s).
+- 🟠 94.6% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.4% reliability with 1 warning day(s).
+- 🟠 94.5% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -352,11 +360,4 @@ _Updated 2026-09-20 02:53 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-08-27; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Autonomy and Sensing
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-07-28; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

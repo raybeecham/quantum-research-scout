@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-09-20T02:47:24.692142+00:00_
+_Updated 2026-09-21T02:44:40.606467+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **533**
-- Quarantined evidence or relationships: **134**
-- Acceptance rate: **79.9%**
+- Quarantined evidence or relationships: **133**
+- Acceptance rate: **80.0%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
 | Federal missions | 33 | 100 | 24.8% |
-| Federal funding | 500 | 34 | 93.6% |
+| Federal funding | 500 | 33 | 93.8% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 131
-- **No relevant term in the evidence itself**: 131
-- **Official government source**: 111
+- **Match appears only in collector query metadata**: 130
+- **No relevant term in the evidence itself**: 130
+- **Official government source**: 110
 - **Source is not an official .gov or .mil domain**: 20
 - **Agency and technology inference only**: 3
 

@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-20 02:53 UTC_
+_Updated 2026-09-21 02:48 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
@@ -14,8 +14,8 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 | QEC / Fault Tolerance | ↗️ rising (12 vs 5) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-09-18 | 68 |
 | Quantum Sensing | ↗️ rising (3 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-10 | 45 |
 | Quantum Software / Tooling | ↗️ rising (6 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-19 | 88 |
-| Standards / Government | ↗️ rising (7 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-09-18 | 53 |
-| PQC / Crypto Agility | ➡️ stable (18 vs 21) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-19 | 216 |
+| Standards / Government | ↗️ rising (7 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-09-20 | 54 |
+| PQC / Crypto Agility | ➡️ stable (19 vs 21) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-20 | 217 |
 | Quantum Hardware | ➡️ stable (16 vs 21) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-19 | 292 |
 | Quantum Networking | ↘️ declining (10 vs 16) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-19 | 124 |
 
@@ -68,22 +68,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, QuantumNews.ai, Quantum Zeitgeist, USAspending · Quantum Technologies, USAspending · Advanced Computing
 - Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
 - Recent supporting evidence:
+  - 2026-09-20 — [CGC VINCENT DANZ - FIN TECH SUPPORT SERVICES](https://www.usaspending.gov/award/CONT_AWD_70Z08026PPBPL0111_7008_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
   - 2026-09-18 — [Guest Post — The Quantum Inflection Point: Charting a Science-First Roadmap for the Nation](https://thequantuminsider.com/2026/09/18/guest-post-the-quantum-inflection-point-charting-a-science-first-roadmap-for-the-nation) (The Quantum Insider, score 23)
   - 2026-09-17 — [NIEHS: SUPPLY: QUANTUM NUOVA QUANTUM MAGNETOMETRY SYSTEM: N/A](https://www.usaspending.gov/award/CONT_AWD_75N98026P01631_7529_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
   - 2026-09-16 — [Beijing Launches Program to Connect Quantum Companies With Industrial Customers](https://thequantuminsider.com/2026/09/16/beijing-launches-program-to-connect-quantum-companies-with-industrial-customers) (The Quantum Insider, score 100)
   - 2026-09-15 — [THE PURPOSE OF THIS TASK ORDER IS TO PROCURE CONTRACTOR RESOURCES TO PROVIDE PROJECT MANAGEMENT, APPLICATION DEVELOPMENT, FUNCTIONAL TESTING, DATABASE DEVELOPMENT AND SERVER ADMIN...](https://www.usaspending.gov/award/CONT_AWD_13TECH26C0004_1323_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
-  - 2026-09-15 — [We are attending JAIF 2026 Montpellier, France 01 Oct, 2026 JAIF 2026 focuses on fault injection prevention - an increasingly complex technique used by attackers. We'll be attending in Montpellier, France, along with experts from industry, government and academia.](https://pqshield.com/events/we-are-attending-jaif-2026) (PQShield, score 100)
 
 ## PQC / Crypto Agility
 
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-09-20 — [THIS FIRM FIXED PRICE DELIVERY ORDER IS AWARDED IN ACCORDANCE WITH FAR 8.405 FOR AI-ASSISTED MEDIDATA RAVE MIGRATION AND RELATED SERVICES TO QUANTUM INSIGHTS LLC:1462936 IN THE AM...](https://www.usaspending.gov/award/CONT_AWD_75N98026F00373_7529_47QTCA21D00BX_4732) (USAspending · Quantum Technologies, score 100)
   - 2026-09-19 — [Fortaegis Technologies Raises $50 Million Series A to Deploy Hardware-Rooted Quantum-Safe Secure Compute Architecture](https://quantumcomputingreport.com/fortaegis-technologies-raises-50-million-series-a-to-deploy-hardware-rooted-quantum-safe-secure-compute-architecture) (Quantum Computing Report, score 93)
   - 2026-09-19 — [Sectigo Launches Quantum Ready™ Platform to Drive Enterprise Quantum Security Posture Management (QSPM)](https://quantumcomputingreport.com/sectigo-launches-quantum-ready-platform-to-drive-enterprise-quantum-security-posture-management-qspm) (Quantum Computing Report, score 68)
   - 2026-09-18 — [EigenQ and Silicon Valley Acquisition Corp. Secure $45M Committed Convertible Financing Ahead of $3B SPAC Merger](https://quantumcomputingreport.com/eigenq-and-silicon-valley-acquisition-corp-secure-45m-committed-convertible-financing-ahead-of-3b-spac-merger) (Quantum Computing Report, score 100)
   - 2026-09-18 — [HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next](https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks) (Thales Cybersecurity Blog, score 67)
-  - 2026-09-18 — [ICTK and Jiran Security Partner on ‘Q-BRIDGE’ to Commercialize End-to-End PQC Migration Frameworks](https://quantumcomputingreport.com/ictk-and-jiran-security-partner-on-q-bridge-to-commercialize-end-to-end-pqc-migration-frameworks) (Quantum Computing Report, score 63)
 
 ## Quantum Hardware
 

@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-09-20 08:11 UTC_
+_Updated 2026-09-21 02:44 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -16,8 +16,8 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Opportunity radar: **2 mission-linked**, **1 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **15**
 - Missions with activity: **5 of 10**
-- Named recipients and contractors: **320**
-- Known reported award value: **$533.1M**
+- Named recipients and contractors: **322**
+- Known reported award value: **$545.2M**
 
 ## Opportunity Radar
 
@@ -77,13 +77,13 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCI...](https://www.usaspending.gov/award/ASST_NON_2620285_049) | 2027-01-01 | THE REGENTS OF THE UNIVERSITY OF COLORADO | $2.0M | Not linked |
 | [NSF AI INSTITUTE FOR EDGE COMPUTING AND SYSTEMS (ATHENA) -THE NSF ARTIFICIAL INTELLIGENCE (AI) INSTITUTE FOR EDGE COMPUTING AND SYSTEMS (ATHENA) CONDUCTS RESEARCH TOWARD ?BIG AI F...](https://www.usaspending.gov/award/ASST_NON_2625580_049) | 2026-11-01 | DUKE UNIVERSITY | $3.0M | Not linked |
 | [REU SITE: AI IN SENSING, ROBOTICS, AND HEALTHCARE (AI-CARE) -DURING A TEN-WEEK SUMMER SESSION, UNDERGRADUATE PARTICIPANTS FROM INSTITUTIONS NATIONWIDE WILL ENGAGE IN EXCITING AND...](https://www.usaspending.gov/award/ASST_NON_2545697_049) | 2026-10-15 | THE JOHNS HOPKINS UNIVERSITY | $505.4K | Not linked |
+| [ZERO TRUST POST QUANTUM ENCRYPTION SERVICES](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000) | 2026-09-25 | GREENBRIER GOVERNMENT SOLUTIONS INC | $2.0M | Not linked |
 | [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES - POST QUANTUM CRYPTOGRAPHY CALL ORDER 4](https://www.usaspending.gov/award/CONT_AWD_91990025F0108_9100_91990022A0018_9100) | 2025-09-30 | SHOREPOINT LLC | $1.8M | Not linked |
 | [BPA CALL 2 TRUSTED INTERNET CONNECTIONS (TIC) 3.0 MODERNIZATION AND POST QUANTUM CRYPTOGRAPHY INVENTORY AND DATA LOGGING](https://www.usaspending.gov/award/CONT_AWD_75N92025F00001_7529_75N92025A00002_7529) | 2025-09-29 | DELOITTE CONSULTING LLP | $2.3M | Not linked |
 | [COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...](https://www.usaspending.gov/award/ASST_NON_2549124_049) | 2026-10-01 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | $301.7K | Not linked |
 | [SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...](https://www.usaspending.gov/award/ASST_NON_2534400_049) | 2026-05-15 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | $1.2M | Not linked |
 | [INFORMATION SYSTEMS SECURITY SUPPORT SERVICES - CALL ORDER 6 POST QUANTUM CRYPTOGRAPHY](https://www.usaspending.gov/award/CONT_AWD_91990025F0111_9100_91990023A0002_9100) | 2025-09-30 | VALIANT SOLUTIONS, LLC | $764.4K | Not linked |
 | [SPARTAN - SECURE PATH-ROUTING WITH AUTONOMOUS RESILIENCE FOR TARGETING AND ADAPTIVE NAVIGATION SBIR PHASE II](https://www.usaspending.gov/award/CONT_AWD_FA237725CB008_9700_-NONE-_-NONE-) | 2025-05-14 | POST QUANTUM LABS LLC | $1.4M | Not linked |
-| [CER: STUDENTS TECHNICAL AND PROFESSIONAL DEVELOPMENT IN ARTIFICIAL INTELLIGENCE AND QUANTUM COMPUTING -THIS PROJECT PROVIDES SUPPORT FOR A TOTAL OF 600 STUDENTS AND FACULTY FROM A...](https://www.usaspending.gov/award/ASST_NON_2625956_049) | 2026-10-01 | NEW MEXICO STATE UNIVERSITY | $600.0K | Not linked |
 
 ## Contractor Intelligence Profiles
 
@@ -130,7 +130,7 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | UEI SMNWM6HN79X5 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | Department of Commerce, Department of the Interior | Not linked | 0 |
 | GEORGE MASON UNIVERSITY | UEI EADLFP7Z72E5 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | MORGAN STATE UNIVERSITY | UEI KULSKCCZJT27 | **32 · DEVELOPING** | Emerging Entrant | New Entrant | 1 | $10.0M | Department of Defense | Not linked | 1 |
-| THE ARDIAN GROUP, INC | UEI UE9KZJJCMAS9 | **32 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.4M | Department of Homeland Security | Not linked | 0 |
+| THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | UEI JJ6CN5Y5A2R5 | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $2.9M | Department of Defense, National Science Foundation | Not linked | 0 |
 
 ## Recipient and Contractor Patent Connections
 

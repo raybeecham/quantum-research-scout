@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-09-20 08:11 UTC_
+_Updated 2026-09-21 02:48 UTC_
 
 ## Organizations
 
@@ -16,8 +16,8 @@ _Updated 2026-09-20 08:11 UTC_
 | Keyfactor | ↘️ declining (0 vs 4) | 🟠 high | quiet | 2025-07-24 | 2026-09-09 | 21 | 11 |
 | Fortanix | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2024-10-28 | 2026-08-24 | 19 | 19 |
 | IonQ | ↘️ declining (0 vs 4) | 🟠 high | quiet | 2026-06-22 | 2026-09-08 | 19 | 0 |
-| Cisco | ↘️ declining (2 vs 3) | 🟠 high | active | 2026-07-27 | 2026-09-14 | 14 | 0 |
-| Quantinuum | ↗️ rising (3 vs 1) | 🟠 high | active | 2026-06-22 | 2026-09-15 | 10 | 0 |
+| Cisco | ↘️ declining (1 vs 4) | 🟠 high | active | 2026-07-27 | 2026-09-14 | 14 | 0 |
+| Quantinuum | ➡️ stable (2 vs 2) | 🟠 high | active | 2026-06-22 | 2026-09-15 | 10 | 0 |
 | Cloudflare | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2026-06-23 | 2026-09-10 | 9 | 0 |
 | QuEra | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-04-29 | 2026-08-12 | 9 | 7 |
 | PQShield | ➡️ stable (2 vs 2) | 🟠 high | active | 2026-07-03 | 2026-09-17 | 8 | 0 |
@@ -40,7 +40,7 @@ _Updated 2026-09-20 08:11 UTC_
 | DigiCert | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-08-03 | 2026-08-03 | 1 | 0 |
 | ETSI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-22 | 2026-06-22 | 1 | 1 |
 | Open Quantum Safe | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-27 | 2026-07-27 | 1 | 0 |
-| Infleqtion | ➡️ stable (3 vs 3) | 🟡 medium | active | 2026-06-22 | 2026-09-14 | 28 | 0 |
+| Infleqtion | ↘️ declining (2 vs 4) | 🟡 medium | active | 2026-06-22 | 2026-09-14 | 28 | 0 |
 | Pasqal | ↗️ rising (2 vs 0) | 🟡 medium | active | 2026-06-29 | 2026-09-19 | 21 | 0 |
 | AWS | ➡️ stable (0 vs 0) | 🟡 medium | dormant | 2026-06-24 | 2026-07-20 | 7 | 3 |
 | Rigetti | ↘️ declining (0 vs 2) | 🟡 medium | quiet | 2026-07-29 | 2026-09-08 | 5 | 0 |
@@ -54,7 +54,7 @@ _Updated 2026-09-20 08:11 UTC_
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
 | Crypto-agility | ↘️ declining (1 vs 3) | 🔴 critical | active | 2025-07-24 | 2026-09-15 | 37 | 26 |
-| Quantum error correction | ↗️ rising (6 vs 1) | 🔴 critical | active | 2026-01-13 | 2026-09-18 | 31 | 1 |
+| Quantum error correction | ↗️ rising (5 vs 2) | 🔴 critical | active | 2026-01-13 | 2026-09-18 | 31 | 1 |
 | Logical qubits | ↗️ rising (5 vs 1) | 🔴 critical | active | 2025-04-29 | 2026-09-15 | 25 | 3 |
 | ML-DSA | ↘️ declining (0 vs 1) | 🔴 critical | quiet | 2026-06-29 | 2026-09-08 | 3 | 0 |
 | Quantum key distribution | ↘️ declining (0 vs 3) | 🟠 high | quiet | 2026-06-29 | 2026-09-10 | 15 | 3 |
