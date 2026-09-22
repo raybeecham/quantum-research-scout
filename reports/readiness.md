@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-09-21 02:49 UTC_
+_Updated 2026-09-22 02:53 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
@@ -17,7 +17,7 @@ Assessed **25 of 43** configured organizations.
 | Wiz | Pilot / Testing | medium | 4 | 1 | 4 | 2026-07-02 |
 | Accenture / Accenture Federal Services | Planning | high | 4 | 2 | 4 | 2026-08-27 |
 | Keyfactor | Planning | high | 13 | 3 | 6 | 2026-09-08 |
-| NIST | Planning | high | 6 | 3 | 0 | 2026-08-20 |
+| NIST | Planning | high | 7 | 4 | 0 | 2026-09-21 |
 | AWS | Planning | medium | 3 | 2 | 2 | 2026-07-14 |
 | Fortanix | Planning | medium | 19 | 1 | 19 | 2026-08-24 |
 | Thales | Planning | medium | 2 | 2 | 0 | 2026-08-05 |
@@ -25,12 +25,12 @@ Assessed **25 of 43** configured organizations.
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
 | Cisco | Awareness | high | 6 | 2 | 0 | 2026-09-01 |
 | Cloudflare | Awareness | high | 6 | 3 | 0 | 2026-09-10 |
+| DigiCert | Awareness | high | 4 | 2 | 0 | 2026-09-21 |
 | ANSSI | Awareness | medium | 2 | 1 | 0 | 2026-09-03 |
 | IETF | Awareness | medium | 2 | 2 | 1 | 2026-08-28 |
 | ISO/IEC | Awareness | medium | 2 | 2 | 0 | 2026-07-15 |
 | IonQ | Awareness | medium | 2 | 1 | 0 | 2026-09-08 |
 | Booz Allen Hamilton | Awareness | low | 1 | 1 | 1 | 2025-02-06 |
-| DigiCert | Awareness | low | 1 | 1 | 0 | 2026-08-03 |
 | ETSI | Awareness | low | 1 | 1 | 1 | 2026-06-22 |
 | IBM | Awareness | low | 1 | 1 | 0 | 2026-07-29 |
 | PQCA | Awareness | low | 1 | 1 | 0 | 2026-07-27 |

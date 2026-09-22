@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-09-21",
+  "as_of_date": "2026-09-22",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,421 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-41142490fa2132cb",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-21",
+      "evidence_ids": [
+        "evidence-5436e888063829ad"
+      ],
+      "first_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5436e888063829ad",
+          "locator": "opportunity_status:awarded",
+          "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+          "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA860426DB012",
+        "label": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+        "node_id": "award_notice:sam_gov:FA860426DB012",
+        "node_type": "award_notice"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "04ee7e863be713b2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported set aside in the federal record",
+      "claim_id": "claim-9e80d8dac2a5ee10",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-21",
+      "evidence_ids": [
+        "evidence-0339fd732843354b"
+      ],
+      "first_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "set_aside",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0339fd732843354b",
+          "locator": "set_aside:no set aside used",
+          "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+          "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA860426DB012",
+        "label": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+        "node_id": "award_notice:sam_gov:FA860426DB012",
+        "node_type": "award_notice"
+      },
+      "value": "No Set aside used",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3b81047c8b2fcff5"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-4e921ac3741cba6b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-21",
+      "evidence_ids": [
+        "evidence-6967e72a88508658"
+      ],
+      "first_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6967e72a88508658",
+          "locator": "awarding_agency:dept of defense.dept of the air force.air force materiel command.air force life cycle management center.fa8604 aflcmc pzi",
+          "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+          "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA860426DB012",
+        "label": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+        "node_id": "award_notice:sam_gov:FA860426DB012",
+        "node_type": "award_notice"
+      },
+      "value": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.FA8604 AFLCMC PZI",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7aa9b201766ce61a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-ae34a65688a9189a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-21",
+      "evidence_ids": [
+        "evidence-30fbd91c616fd00f"
+      ],
+      "first_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-30fbd91c616fd00f",
+          "locator": "reported_amount:60000000.0",
+          "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+          "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA860426DB012",
+        "label": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+        "node_id": "award_notice:sam_gov:FA860426DB012",
+        "node_type": "award_notice"
+      },
+      "value": 60000000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d4ffeeeef776f764"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-eb106367261d8130",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-21",
+      "evidence_ids": [
+        "evidence-6aecde6863d3e3b1"
+      ],
+      "first_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "name:dsd laboratories",
+        "label": "DSD LABORATORIES INC",
+        "node_id": "recipient_or_contractor:name:dsd laboratories",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6aecde6863d3e3b1",
+          "locator": "reported_recipient:recipient_or_contractor:name:dsd laboratories",
+          "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+          "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:FA860426DB012",
+        "label": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+        "node_id": "award_notice:sam_gov:FA860426DB012",
+        "node_type": "award_notice"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ea2b77f5eb7b1b3f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-371f729ff3b6ecb0",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-21",
+      "evidence_ids": [
+        "evidence-666fde8996a1a552"
+      ],
+      "first_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-666fde8996a1a552",
+          "locator": "opportunity_status:awarded",
+          "title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+          "url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1305M326Q0505",
+        "label": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+        "node_id": "award_notice:sam_gov:1305M326Q0505",
+        "node_type": "award_notice"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3177a274dc282409"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-fcf0ae9ebf59702e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-21",
+      "evidence_ids": [
+        "evidence-e02a33fbe5a0a622"
+      ],
+      "first_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e02a33fbe5a0a622",
+          "locator": "awarding_agency:commerce, department of.national oceanic and atmospheric administration.dept of commerce noaa",
+          "title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+          "url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1305M326Q0505",
+        "label": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+        "node_id": "award_notice:sam_gov:1305M326Q0505",
+        "node_type": "award_notice"
+      },
+      "value": "COMMERCE, DEPARTMENT OF.NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION.DEPT OF COMMERCE NOAA",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8f83568b2ccf8254"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-5add576c8ff15924",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-21",
+      "evidence_ids": [
+        "evidence-d174b3e4a59c0746"
+      ],
+      "first_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d174b3e4a59c0746",
+          "locator": "reported_amount:82816.44",
+          "title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+          "url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1305M326Q0505",
+        "label": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+        "node_id": "award_notice:sam_gov:1305M326Q0505",
+        "node_type": "award_notice"
+      },
+      "value": 82816.44,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "b2cf92d0be111ae5"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-a563b96f871771fc",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-21",
+      "evidence_ids": [
+        "evidence-deb4609ca9d9e8dc"
+      ],
+      "first_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-22T02:45:29.401531+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "name:parymon",
+        "label": "PARYMON CORP",
+        "node_id": "recipient_or_contractor:name:parymon",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-deb4609ca9d9e8dc",
+          "locator": "reported_recipient:recipient_or_contractor:name:parymon",
+          "title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+          "url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1305M326Q0505",
+        "label": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+        "node_id": "award_notice:sam_gov:1305M326Q0505",
+        "node_type": "award_notice"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e284fdb5d53c3807"
     },
     {
       "authority": "authoritative",
@@ -20180,9 +20595,9 @@
       "first_seen_at": "2026-09-06T02:18:38.997053+00:00",
       "history": [],
       "last_seen_at": "2026-09-06T02:18:38.997053+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -20225,9 +20640,9 @@
       "first_seen_at": "2026-09-06T02:18:38.997053+00:00",
       "history": [],
       "last_seen_at": "2026-09-06T02:18:38.997053+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -20270,9 +20685,9 @@
       "first_seen_at": "2026-09-06T02:18:38.997053+00:00",
       "history": [],
       "last_seen_at": "2026-09-06T02:18:38.997053+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -20315,14 +20730,14 @@
       "first_seen_at": "2026-09-06T02:18:38.997053+00:00",
       "history": [],
       "last_seen_at": "2026-09-06T02:18:38.997053+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:LN9PU5M2YZN5",
         "label": "MISCELLANEOUS FOREIGN AWARDEES",
         "node_id": "recipient_or_contractor:uei:LN9PU5M2YZN5",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -117288,9 +117703,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -117333,9 +117748,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -117378,9 +117793,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -117423,14 +117838,14 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:TV7UMZ6QA8F7",
         "label": "FUJIFILM HEALTHCARE AMERICAS CORP",
         "node_id": "recipient_or_contractor:uei:TV7UMZ6QA8F7",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -224204,7 +224619,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224251,7 +224666,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224298,7 +224713,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224345,7 +224760,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224392,7 +224807,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224439,7 +224854,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224486,7 +224901,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224533,7 +224948,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224580,7 +224995,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224627,7 +225042,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224674,7 +225089,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224721,7 +225136,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224768,7 +225183,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224815,7 +225230,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224862,7 +225277,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224909,7 +225324,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -224956,7 +225371,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -225003,7 +225418,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -225055,7 +225470,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -225107,7 +225522,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -225159,7 +225574,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -225211,7 +225626,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -225263,7 +225678,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -225315,7 +225730,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -225367,7 +225782,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -225419,7 +225834,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -225471,7 +225886,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-21T02:44:40.606467+00:00",
+      "retracted_at": "2026-09-22T02:45:29.401531+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -226107,6 +226522,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:F125YU6SWK59",
       "title": "CONDUCT RDT_E PROJECTS FOCUSED ON PROVIDING SOLUTIONS TO IDENTIFIED AIRBASE TECHNOLOGY CAPABILITY GAPS IN THE AREAS OF CIVIL ENGINEER ROBOTIC AND AUTONOMOUS SYSTEMS TECHNOLOGIES (...",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA805126F0003_9700_47QRCA25DU046_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0339fd732843354b",
+      "locator": "set_aside:no set aside used",
+      "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+      "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
       "verification_status": "source_reported"
     },
     {
@@ -234284,6 +234709,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-30fbd91c616fd00f",
+      "locator": "reported_amount:60000000.0",
+      "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+      "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-311815335e32b31c",
       "locator": "opportunity_status:open",
       "title": "Unlocking Dataset Value for AI-Enabled Scientific Discovery",
@@ -240544,6 +240979,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-5436e888063829ad",
+      "locator": "opportunity_status:awarded",
+      "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+      "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-544613ca402a9084",
       "locator": "legal_business_name:florida international university",
       "title": "FLORIDA INTERNATIONAL UNIVERSITY",
@@ -243544,6 +243989,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-666fde8996a1a552",
+      "locator": "opportunity_status:awarded",
+      "title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+      "url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-66725d03aec4884c",
       "locator": "opportunity_status:open",
       "title": "Communications, Network, Engineering, Cybersecurity, and Information Technology Services (CNECTS), aka \"Connects\"",
@@ -244084,6 +244539,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-6967e72a88508658",
+      "locator": "awarding_agency:dept of defense.dept of the air force.air force materiel command.air force life cycle management center.fa8604 aflcmc pzi",
+      "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+      "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-69b6d349ef391e1f",
       "locator": "deadline:08/17/2076",
       "title": "MPS Physics Research Programs (MPS Physics)",
@@ -244269,6 +244734,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a295f5f74ca141cb97ac1de3bac2dd9f/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-6aecde6863d3e3b1",
+      "locator": "reported_recipient:recipient_or_contractor:name:dsd laboratories",
+      "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+      "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -262674,6 +263149,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d174b3e4a59c0746",
+      "locator": "reported_amount:82816.44",
+      "title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+      "url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-d17c295352e57d38",
       "locator": "reported_amount:94998.0",
       "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: PILOT: A ZERO TRUST-BASED SECURITY TRAINING PROGRAM IN OPEN RAN CYBERINFRASTRUCTURE -THE OPEN RADIO ACCESS NETWORK (O-RAN) HAS EMERGED AS A...",
@@ -264984,6 +265469,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-deb4609ca9d9e8dc",
+      "locator": "reported_recipient:recipient_or_contractor:name:parymon",
+      "title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+      "url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-deb582c160dfb351",
       "locator": "awarding_agency:national science foundation",
       "title": "EAGER: EXPLORING EXTREME THZ PHOTONICS WITH QUANTUM FLUIDS -PART 1. NONTECHNICAL DESCRIPTION TERAHERTZ (THZ) RADIATION LIES BETWEEN MICROWAVES AND INFRARED LIGHT IN THE ELECTROMAG...",
@@ -265308,6 +265803,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:TME1ADLUMMD8",
       "title": "BUILDING EMPLOYER-DRIVEN PATHWAYS FOR ARTIFICIAL INTELLIGENCE TECHNICIANS -ARTIFICIAL INTELLIGENCE (AI) IS RAPIDLY TRANSFORMING BUSINESSES, INDUSTRIES, AND PUBLIC ORGANIZATIONS. A...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2600140_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e02a33fbe5a0a622",
+      "locator": "awarding_agency:commerce, department of.national oceanic and atmospheric administration.dept of commerce noaa",
+      "title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+      "url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
       "verification_status": "source_reported"
     },
     {
@@ -271364,16 +271869,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4477,
-    "authoritative_claims": 4276,
+    "active_claims": 4486,
+    "authoritative_claims": 4285,
     "conflicted_claims": 38,
     "derived_claims": 197,
-    "evidence_items": 4586,
-    "source_urls": 1250,
-    "subjects": 901,
+    "evidence_items": 4595,
+    "source_urls": 1252,
+    "subjects": 903,
     "superseded_claims": 0,
-    "total_claims": 4504
+    "total_claims": 4513
   },
-  "updated_at": "2026-09-21T02:44:40.606467+00:00",
+  "updated_at": "2026-09-22T02:45:29.401531+00:00",
   "version": 1
 }

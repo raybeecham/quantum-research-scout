@@ -3,399 +3,13 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-8ab69549944619c1",
-      "confidence": "high",
-      "effective_date": "2026-09-20",
-      "evidence_title": "CYBERSECURITY TRAINING TASK ORDER #4",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70Z07926FCYBR0001_7008_70Z07924DCYBR0001_7008",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8b5b1dc83a999cc9",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "CYBERSECURITY TRAINING TASK ORDER #4",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z07926FCYBR0001_7008_70Z07924DCYBR0001_7008",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70Z07926FCYBR0001",
-        "label": "CYBERSECURITY TRAINING TASK ORDER #4",
-        "node_id": "award:usaspending:70Z07926FCYBR0001",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-20",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-20",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Homeland Security"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-ae897c487dedbd90",
-      "confidence": "high",
-      "effective_date": "2026-09-20",
-      "evidence_title": "CYBERSECURITY TRAINING TASK ORDER #4",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70Z07926FCYBR0001_7008_70Z07924DCYBR0001_7008",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ae127bc415f2b2cc",
-          "locator": "opportunity_status:awarded",
-          "title": "CYBERSECURITY TRAINING TASK ORDER #4",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z07926FCYBR0001_7008_70Z07924DCYBR0001_7008",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70Z07926FCYBR0001",
-        "label": "CYBERSECURITY TRAINING TASK ORDER #4",
-        "node_id": "award:usaspending:70Z07926FCYBR0001",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-20",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-20",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-ff091771c6f88ef2",
-      "confidence": "high",
-      "effective_date": "2026-09-20",
-      "evidence_title": "CYBERSECURITY TRAINING TASK ORDER #4",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70Z07926FCYBR0001_7008_70Z07924DCYBR0001_7008",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-215022fd8bf13469",
-          "locator": "reported_amount:876129.34",
-          "title": "CYBERSECURITY TRAINING TASK ORDER #4",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z07926FCYBR0001_7008_70Z07924DCYBR0001_7008",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70Z07926FCYBR0001",
-        "label": "CYBERSECURITY TRAINING TASK ORDER #4",
-        "node_id": "award:usaspending:70Z07926FCYBR0001",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-20",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-20",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 876129.34
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c54ff8a5c444bec9",
-      "confidence": "high",
-      "effective_date": "2026-09-20",
-      "evidence_title": "CYBERSECURITY TRAINING TASK ORDER #4",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70Z07926FCYBR0001_7008_70Z07924DCYBR0001_7008",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": {
-        "identifier": "uei:C9V9UN9KAQF7",
-        "label": "ACADEMY OF APPLIED TECHNOLOGY, LLC",
-        "node_id": "recipient_or_contractor:uei:C9V9UN9KAQF7",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f6436ae11991722b",
-          "locator": "reported_recipient:recipient_or_contractor:uei:C9V9UN9KAQF7",
-          "title": "CYBERSECURITY TRAINING TASK ORDER #4",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z07926FCYBR0001_7008_70Z07924DCYBR0001_7008",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70Z07926FCYBR0001",
-        "label": "CYBERSECURITY TRAINING TASK ORDER #4",
-        "node_id": "award:usaspending:70Z07926FCYBR0001",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-20",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-20",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e5f7be2c5881b602",
-      "confidence": "high",
-      "effective_date": "2026-09-20",
-      "evidence_title": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F1177_1406_GS00F0007X_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4936c2612d5f6ebe",
-          "locator": "awarding_agency:department of the interior",
-          "title": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F1177_1406_GS00F0007X_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:140D0426F1177",
-        "label": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-        "node_id": "award:usaspending:140D0426F1177",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-20",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-20",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of the Interior"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b609e35ad100c183",
-      "confidence": "high",
-      "effective_date": "2026-09-20",
-      "evidence_title": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F1177_1406_GS00F0007X_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e038cc52a0cc2449",
-          "locator": "opportunity_status:awarded",
-          "title": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F1177_1406_GS00F0007X_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:140D0426F1177",
-        "label": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-        "node_id": "award:usaspending:140D0426F1177",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-20",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-20",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-90fb257a29eca438",
-      "confidence": "high",
-      "effective_date": "2026-09-20",
-      "evidence_title": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F1177_1406_GS00F0007X_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-864f9d18748a9d1c",
-          "locator": "reported_amount:45000.0",
-          "title": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F1177_1406_GS00F0007X_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:140D0426F1177",
-        "label": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-        "node_id": "award:usaspending:140D0426F1177",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-20",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-20",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 45000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-16d450d5a499f8c0",
-      "confidence": "high",
-      "effective_date": "2026-09-20",
-      "evidence_title": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F1177_1406_GS00F0007X_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": {
-        "identifier": "uei:S5ZCFWYN4KK3",
-        "label": "POTOMACWAVE, INC.",
-        "node_id": "recipient_or_contractor:uei:S5ZCFWYN4KK3",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-56dbdfb936b4fb9f",
-          "locator": "reported_recipient:recipient_or_contractor:uei:S5ZCFWYN4KK3",
-          "title": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F1177_1406_GS00F0007X_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:140D0426F1177",
-        "label": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-        "node_id": "award:usaspending:140D0426F1177",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-20",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-20",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-cb7ea84ba174a382",
+      "claim_id": "claim-fcf0ae9ebf59702e",
       "confidence": "high",
       "effective_date": "2026-09-21",
-      "evidence_title": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000231_7003_47QTCB21D0239_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+      "evidence_title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
+      "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
+      "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -403,46 +17,46 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-74714945204e4e9e",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000231_7003_47QTCB21D0239_4732",
+          "evidence_id": "evidence-e02a33fbe5a0a622",
+          "locator": "awarding_agency:commerce, department of.national oceanic and atmospheric administration.dept of commerce noaa",
+          "title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+          "url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:70SBUR26F00000231",
-        "label": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-        "node_id": "award:usaspending:70SBUR26F00000231",
-        "node_type": "award"
+        "identifier": "sam_gov:1305M326Q0505",
+        "label": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+        "node_id": "award_notice:sam_gov:1305M326Q0505",
+        "node_type": "award_notice"
       },
       "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-09-21",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "historical": false,
-        "label": "Happened today",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "primary_date": "2026-09-21",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-09-21"
       },
-      "value": "Department of Homeland Security"
+      "value": "COMMERCE, DEPARTMENT OF.NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION.DEPT OF COMMERCE NOAA"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-5a4db7a2807dd18f",
+      "claim_id": "claim-371f729ff3b6ecb0",
       "confidence": "high",
       "effective_date": "2026-09-21",
-      "evidence_title": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000231_7003_47QTCB21D0239_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+      "evidence_title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
+      "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
+      "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -450,46 +64,46 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-12b2fb6bf47c0c6b",
+          "evidence_id": "evidence-666fde8996a1a552",
           "locator": "opportunity_status:awarded",
-          "title": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000231_7003_47QTCB21D0239_4732",
+          "title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+          "url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:70SBUR26F00000231",
-        "label": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-        "node_id": "award:usaspending:70SBUR26F00000231",
-        "node_type": "award"
+        "identifier": "sam_gov:1305M326Q0505",
+        "label": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+        "node_id": "award_notice:sam_gov:1305M326Q0505",
+        "node_type": "award_notice"
       },
       "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-09-21",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "historical": false,
-        "label": "Happened today",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "primary_date": "2026-09-21",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-09-21"
       },
       "value": "awarded"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-eb1810b2cbfe264c",
+      "claim_id": "claim-5add576c8ff15924",
       "confidence": "high",
       "effective_date": "2026-09-21",
-      "evidence_title": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000231_7003_47QTCB21D0239_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+      "evidence_title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
+      "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
+      "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -497,50 +111,50 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-23c1fc91eab20fbc",
-          "locator": "reported_amount:2157552.0",
-          "title": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000231_7003_47QTCB21D0239_4732",
+          "evidence_id": "evidence-d174b3e4a59c0746",
+          "locator": "reported_amount:82816.44",
+          "title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+          "url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:70SBUR26F00000231",
-        "label": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-        "node_id": "award:usaspending:70SBUR26F00000231",
-        "node_type": "award"
+        "identifier": "sam_gov:1305M326Q0505",
+        "label": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+        "node_id": "award_notice:sam_gov:1305M326Q0505",
+        "node_type": "award_notice"
       },
       "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-09-21",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "historical": false,
-        "label": "Happened today",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "primary_date": "2026-09-21",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-09-21"
       },
-      "value": 2157552.0
+      "value": 82816.44
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-5ea206a87062753b",
+      "claim_id": "claim-a563b96f871771fc",
       "confidence": "high",
       "effective_date": "2026-09-21",
-      "evidence_title": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000231_7003_47QTCB21D0239_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+      "evidence_title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
+      "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
+      "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
       "object": {
-        "identifier": "uei:KK2AW3NSF3U5",
-        "label": "JCS SOLUTIONS LLC",
-        "node_id": "recipient_or_contractor:uei:KK2AW3NSF3U5",
+        "identifier": "name:parymon",
+        "label": "PARYMON CORP",
+        "node_id": "recipient_or_contractor:name:parymon",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -549,46 +163,46 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f9363d293f9eda16",
-          "locator": "reported_recipient:recipient_or_contractor:uei:KK2AW3NSF3U5",
-          "title": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000231_7003_47QTCB21D0239_4732",
+          "evidence_id": "evidence-deb4609ca9d9e8dc",
+          "locator": "reported_recipient:recipient_or_contractor:name:parymon",
+          "title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+          "url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:70SBUR26F00000231",
-        "label": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-        "node_id": "award:usaspending:70SBUR26F00000231",
-        "node_type": "award"
+        "identifier": "sam_gov:1305M326Q0505",
+        "label": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+        "node_id": "award_notice:sam_gov:1305M326Q0505",
+        "node_type": "award_notice"
       },
       "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-09-21",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "historical": false,
-        "label": "Happened today",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "primary_date": "2026-09-21",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-09-21"
       },
       "value": null
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-69323830d9cf851f",
+      "claim_id": "claim-4e921ac3741cba6b",
       "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_36C78626C0037_3600_-NONE-_-NONE-",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+      "effective_date": "2026-09-21",
+      "evidence_title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+      "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
+      "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -596,46 +210,46 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f23e1f2b9ea4d086",
-          "locator": "awarding_agency:department of veterans affairs",
-          "title": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_36C78626C0037_3600_-NONE-_-NONE-",
+          "evidence_id": "evidence-6967e72a88508658",
+          "locator": "awarding_agency:dept of defense.dept of the air force.air force materiel command.air force life cycle management center.fa8604 aflcmc pzi",
+          "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+          "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:36C78626C0037",
-        "label": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-        "node_id": "award:usaspending:36C78626C0037",
-        "node_type": "award"
+        "identifier": "sam_gov:FA860426DB012",
+        "label": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+        "node_id": "award_notice:sam_gov:FA860426DB012",
+        "node_type": "award_notice"
       },
       "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "historical": false,
-        "label": "Occurred 4 days ago",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
+        "primary_date": "2026-09-21",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-09-21"
       },
-      "value": "Department of Veterans Affairs"
+      "value": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.FA8604 AFLCMC PZI"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-55682541dcefc8f6",
+      "claim_id": "claim-41142490fa2132cb",
       "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_36C78626C0037_3600_-NONE-_-NONE-",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+      "effective_date": "2026-09-21",
+      "evidence_title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+      "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
+      "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -643,46 +257,46 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6bff38a7f7e3b595",
+          "evidence_id": "evidence-5436e888063829ad",
           "locator": "opportunity_status:awarded",
-          "title": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_36C78626C0037_3600_-NONE-_-NONE-",
+          "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+          "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:36C78626C0037",
-        "label": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-        "node_id": "award:usaspending:36C78626C0037",
-        "node_type": "award"
+        "identifier": "sam_gov:FA860426DB012",
+        "label": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+        "node_id": "award_notice:sam_gov:FA860426DB012",
+        "node_type": "award_notice"
       },
       "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "historical": false,
-        "label": "Occurred 4 days ago",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
+        "primary_date": "2026-09-21",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-09-21"
       },
       "value": "awarded"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-3623c6b1d6681164",
+      "claim_id": "claim-ae34a65688a9189a",
       "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_36C78626C0037_3600_-NONE-_-NONE-",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+      "effective_date": "2026-09-21",
+      "evidence_title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+      "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
+      "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -690,50 +304,50 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-93c72c81f3c9776a",
-          "locator": "reported_amount:298262.15",
-          "title": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_36C78626C0037_3600_-NONE-_-NONE-",
+          "evidence_id": "evidence-30fbd91c616fd00f",
+          "locator": "reported_amount:60000000.0",
+          "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+          "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:36C78626C0037",
-        "label": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-        "node_id": "award:usaspending:36C78626C0037",
-        "node_type": "award"
+        "identifier": "sam_gov:FA860426DB012",
+        "label": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+        "node_id": "award_notice:sam_gov:FA860426DB012",
+        "node_type": "award_notice"
       },
       "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "historical": false,
-        "label": "Occurred 4 days ago",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
+        "primary_date": "2026-09-21",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-09-21"
       },
-      "value": 298262.15
+      "value": 60000000.0
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-630037b0002cad92",
+      "claim_id": "claim-eb106367261d8130",
       "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_36C78626C0037_3600_-NONE-_-NONE-",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+      "effective_date": "2026-09-21",
+      "evidence_title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+      "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
+      "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
       "object": {
-        "identifier": "uei:T2DWN4TUNL93",
-        "label": "QUANTUM FEDERAL INFRASTRUCTURE GROUP LLC",
-        "node_id": "recipient_or_contractor:uei:T2DWN4TUNL93",
+        "identifier": "name:dsd laboratories",
+        "label": "DSD LABORATORIES INC",
+        "node_id": "recipient_or_contractor:name:dsd laboratories",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -742,1935 +356,107 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f0fe6bed257a27ce",
-          "locator": "reported_recipient:recipient_or_contractor:uei:T2DWN4TUNL93",
-          "title": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_36C78626C0037_3600_-NONE-_-NONE-",
+          "evidence_id": "evidence-6aecde6863d3e3b1",
+          "locator": "reported_recipient:recipient_or_contractor:name:dsd laboratories",
+          "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+          "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:36C78626C0037",
-        "label": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-        "node_id": "award:usaspending:36C78626C0037",
-        "node_type": "award"
+        "identifier": "sam_gov:FA860426DB012",
+        "label": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+        "node_id": "award_notice:sam_gov:FA860426DB012",
+        "node_type": "award_notice"
       },
       "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "historical": false,
-        "label": "Occurred 4 days ago",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
+        "primary_date": "2026-09-21",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-09-21"
       },
       "value": null
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-73d74fc931651f12",
+      "claim_id": "claim-9e80d8dac2a5ee10",
       "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0105_8000_80JSC025D0044_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+      "effective_date": "2026-09-21",
+      "evidence_title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+      "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
+      "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
       "object": null,
-      "predicate": "awarding_agency",
+      "predicate": "set_aside",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a34190ff8c904869",
-          "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0105_8000_80JSC025D0044_8000",
+          "evidence_id": "evidence-0339fd732843354b",
+          "locator": "set_aside:no set aside used",
+          "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+          "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:80JSC026F0105",
-        "label": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-        "node_id": "award:usaspending:80JSC026F0105",
-        "node_type": "award"
+        "identifier": "sam_gov:FA860426DB012",
+        "label": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+        "node_id": "award_notice:sam_gov:FA860426DB012",
+        "node_type": "award_notice"
       },
       "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "historical": false,
-        "label": "Occurred 4 days ago",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "National Aeronautics and Space Administration"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-fd286ea23e587173",
-      "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0105_8000_80JSC025D0044_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-62f23500f4b939ab",
-          "locator": "opportunity_status:awarded",
-          "title": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0105_8000_80JSC025D0044_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80JSC026F0105",
-        "label": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-        "node_id": "award:usaspending:80JSC026F0105",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 4 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3daf1fdf1ffa2f6b",
-      "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0105_8000_80JSC025D0044_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c81858f0f8bf16f5",
-          "locator": "reported_amount:462493.0",
-          "title": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0105_8000_80JSC025D0044_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80JSC026F0105",
-        "label": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-        "node_id": "award:usaspending:80JSC026F0105",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 4 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 462493.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7d56780eec1fe269",
-      "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0105_8000_80JSC025D0044_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": {
-        "identifier": "uei:JZ72AL5DUEW7",
-        "label": "HYPERION TECHNOLOGIES LLC",
-        "node_id": "recipient_or_contractor:uei:JZ72AL5DUEW7",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-acdb0e1c9ef00cdc",
-          "locator": "reported_recipient:recipient_or_contractor:uei:JZ72AL5DUEW7",
-          "title": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0105_8000_80JSC025D0044_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80JSC026F0105",
-        "label": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-        "node_id": "award:usaspending:80JSC026F0105",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 4 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e314527b3f3686e3",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "evidence_title": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000167_7012_NNG15SC23B_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4b5e893416c15735",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000167_7012_NNG15SC23B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70CMSD26FR0000167",
-        "label": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-        "node_id": "award:usaspending:70CMSD26FR0000167",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-18",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 3 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-18",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Homeland Security"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-8949fe8ee9d575d9",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "evidence_title": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000167_7012_NNG15SC23B_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6d61bde8470399a2",
-          "locator": "opportunity_status:awarded",
-          "title": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000167_7012_NNG15SC23B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70CMSD26FR0000167",
-        "label": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-        "node_id": "award:usaspending:70CMSD26FR0000167",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-18",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 3 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-18",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a68760f65ffd1c01",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "evidence_title": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000167_7012_NNG15SC23B_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3a4d4ed8342d5f68",
-          "locator": "reported_amount:45139.14",
-          "title": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000167_7012_NNG15SC23B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70CMSD26FR0000167",
-        "label": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-        "node_id": "award:usaspending:70CMSD26FR0000167",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-18",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 3 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-18",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 45139.14
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5a471f4491b6bf14",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "evidence_title": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000167_7012_NNG15SC23B_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": {
-        "identifier": "uei:HMXCQJ8ADNL7",
-        "label": "ACCESSAGILITY LLC",
-        "node_id": "recipient_or_contractor:uei:HMXCQJ8ADNL7",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4e22521c725b5716",
-          "locator": "reported_recipient:recipient_or_contractor:uei:HMXCQJ8ADNL7",
-          "title": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000167_7012_NNG15SC23B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70CMSD26FR0000167",
-        "label": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-        "node_id": "award:usaspending:70CMSD26FR0000167",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-18",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 3 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-18",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-011aadf52a153c69",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "evidence_title": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70B04C26F00000114_7014_47QTCA18D003J_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-582157c379aae3a4",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70B04C26F00000114_7014_47QTCA18D003J_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70B04C26F00000114",
-        "label": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-        "node_id": "award:usaspending:70B04C26F00000114",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-18",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 3 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-18",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Homeland Security"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c0dfac90b0ba85c5",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "evidence_title": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70B04C26F00000114_7014_47QTCA18D003J_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-72ae02809ba914d5",
-          "locator": "opportunity_status:awarded",
-          "title": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70B04C26F00000114_7014_47QTCA18D003J_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70B04C26F00000114",
-        "label": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-        "node_id": "award:usaspending:70B04C26F00000114",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-18",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 3 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-18",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7fa6c82f14a3859a",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "evidence_title": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70B04C26F00000114_7014_47QTCA18D003J_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e55422b571291d48",
-          "locator": "reported_amount:2456774.4",
-          "title": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70B04C26F00000114_7014_47QTCA18D003J_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70B04C26F00000114",
-        "label": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-        "node_id": "award:usaspending:70B04C26F00000114",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-18",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 3 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-18",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 2456774.4
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-30590c1b56424992",
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "evidence_title": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70B04C26F00000114_7014_47QTCA18D003J_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": {
-        "identifier": "uei:W4TNAZRK27D7",
-        "label": "CENTRIFUGE, LLC",
-        "node_id": "recipient_or_contractor:uei:W4TNAZRK27D7",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9e5045301fd47d25",
-          "locator": "reported_recipient:recipient_or_contractor:uei:W4TNAZRK27D7",
-          "title": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70B04C26F00000114_7014_47QTCA18D003J_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70B04C26F00000114",
-        "label": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-        "node_id": "award:usaspending:70B04C26F00000114",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-18",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 3 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-18",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6d2be155ee524057",
-      "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0101_8000_80JSC025D0044_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-dc749c19643170c0",
-          "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0101_8000_80JSC025D0044_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80JSC026F0101",
-        "label": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-        "node_id": "award:usaspending:80JSC026F0101",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 4 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "National Aeronautics and Space Administration"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-27920c1c75845e38",
-      "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0101_8000_80JSC025D0044_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0661961ced91002b",
-          "locator": "opportunity_status:awarded",
-          "title": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0101_8000_80JSC025D0044_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80JSC026F0101",
-        "label": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-        "node_id": "award:usaspending:80JSC026F0101",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 4 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-9a4b631e944a31ff",
-      "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0101_8000_80JSC025D0044_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2738082dfd7ee7c8",
-          "locator": "reported_amount:1300000.0",
-          "title": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0101_8000_80JSC025D0044_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80JSC026F0101",
-        "label": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-        "node_id": "award:usaspending:80JSC026F0101",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 4 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 1300000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b1db5b526ca57acd",
-      "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0101_8000_80JSC025D0044_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": {
-        "identifier": "uei:JZ72AL5DUEW7",
-        "label": "HYPERION TECHNOLOGIES LLC",
-        "node_id": "recipient_or_contractor:uei:JZ72AL5DUEW7",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-953824319d0e6b77",
-          "locator": "reported_recipient:recipient_or_contractor:uei:JZ72AL5DUEW7",
-          "title": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0101_8000_80JSC025D0044_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80JSC026F0101",
-        "label": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-        "node_id": "award:usaspending:80JSC026F0101",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 4 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-35a39ec593cac34f",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "evidence_title": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_15BNAS26F00000259_1540_15BNAS26D00000208_1540",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-96eb4f479b9146c8",
-          "locator": "awarding_agency:department of justice",
-          "title": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_15BNAS26F00000259_1540_15BNAS26D00000208_1540",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:15BNAS26F00000259",
-        "label": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-        "node_id": "award:usaspending:15BNAS26F00000259",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-28",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-28",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Justice"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-83c137e8d9d1ad63",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "evidence_title": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_15BNAS26F00000259_1540_15BNAS26D00000208_1540",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d24d14d30cddbaff",
-          "locator": "opportunity_status:awarded",
-          "title": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_15BNAS26F00000259_1540_15BNAS26D00000208_1540",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:15BNAS26F00000259",
-        "label": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-        "node_id": "award:usaspending:15BNAS26F00000259",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-28",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-28",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-53ac345e2f6a124b",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "evidence_title": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_15BNAS26F00000259_1540_15BNAS26D00000208_1540",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ca5fea1bb679eb8c",
-          "locator": "reported_amount:450000.0",
-          "title": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_15BNAS26F00000259_1540_15BNAS26D00000208_1540",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:15BNAS26F00000259",
-        "label": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-        "node_id": "award:usaspending:15BNAS26F00000259",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-28",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-28",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 450000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-660b82bd02524bfe",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "evidence_title": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_15BNAS26F00000259_1540_15BNAS26D00000208_1540",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": {
-        "identifier": "uei:NZM1FQMQ4MN7",
-        "label": "RECIDIVIZ INC",
-        "node_id": "recipient_or_contractor:uei:NZM1FQMQ4MN7",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8fe8d6ea6a243bd5",
-          "locator": "reported_recipient:recipient_or_contractor:uei:NZM1FQMQ4MN7",
-          "title": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_15BNAS26F00000259_1540_15BNAS26D00000208_1540",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:15BNAS26F00000259",
-        "label": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-        "node_id": "award:usaspending:15BNAS26F00000259",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-28",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-28",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-83b6960f1a386016",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "evidence_title": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00380_7529_47QTCA18D005K_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cc33ebe32c6f3398",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00380_7529_47QTCA18D005K_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026F00380",
-        "label": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-        "node_id": "award:usaspending:75N98026F00380",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-22",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-22",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Health and Human Services"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e5e02d5690f75673",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "evidence_title": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00380_7529_47QTCA18D005K_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7c42f06b82f72b22",
-          "locator": "opportunity_status:awarded",
-          "title": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00380_7529_47QTCA18D005K_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026F00380",
-        "label": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-        "node_id": "award:usaspending:75N98026F00380",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-22",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-22",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-057192d2bbfa7862",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "evidence_title": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00380_7529_47QTCA18D005K_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c243c928320c8285",
-          "locator": "reported_amount:58279.0",
-          "title": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00380_7529_47QTCA18D005K_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026F00380",
-        "label": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-        "node_id": "award:usaspending:75N98026F00380",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-22",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-22",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 58279.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6111328c7155cf37",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "evidence_title": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00380_7529_47QTCA18D005K_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": {
-        "identifier": "uei:GNL2NWC66HJ9",
-        "label": "H. CO. COMPUTER PRODUCTS",
-        "node_id": "recipient_or_contractor:uei:GNL2NWC66HJ9",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0eeb798be43381cd",
-          "locator": "reported_recipient:recipient_or_contractor:uei:GNL2NWC66HJ9",
-          "title": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00380_7529_47QTCA18D005K_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026F00380",
-        "label": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-        "node_id": "award:usaspending:75N98026F00380",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-22",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-22",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-ee8cbd1e1a0f9950",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "evidence_title": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0286_8000_-NONE-_-NONE-",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-de52d570127e7300",
-          "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0286_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0286",
-        "label": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-        "node_id": "award:usaspending:80NSSC26C0286",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-30",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-30",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "National Aeronautics and Space Administration"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-484d921ad25e9275",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "evidence_title": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0286_8000_-NONE-_-NONE-",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ed902a17f3f7c764",
-          "locator": "opportunity_status:awarded",
-          "title": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0286_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0286",
-        "label": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-        "node_id": "award:usaspending:80NSSC26C0286",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-30",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-30",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-14743315235b3b4f",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "evidence_title": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0286_8000_-NONE-_-NONE-",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ff310c2e46bd29ed",
-          "locator": "reported_amount:224839.0",
-          "title": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0286_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0286",
-        "label": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-        "node_id": "award:usaspending:80NSSC26C0286",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-30",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-30",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 224839.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3664e718d5a0d06e",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "evidence_title": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0286_8000_-NONE-_-NONE-",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": {
-        "identifier": "uei:JS5WBZAD8NV6",
-        "label": "OFFSET STRATEGIC SERVICES, LLC",
-        "node_id": "recipient_or_contractor:uei:JS5WBZAD8NV6",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1885145768517809",
-          "locator": "reported_recipient:recipient_or_contractor:uei:JS5WBZAD8NV6",
-          "title": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0286_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0286",
-        "label": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-        "node_id": "award:usaspending:80NSSC26C0286",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-30",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-30",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-09c3eda2056e71c4",
-      "confidence": "high",
-      "effective_date": "2026-09-25",
-      "evidence_title": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9c8d40c3c240b7c6",
-          "locator": "awarding_agency:department of veterans affairs",
-          "title": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:36C10B26F0387",
-        "label": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-        "node_id": "award:usaspending:36C10B26F0387",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-25",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-25",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Veterans Affairs"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-00a4a6444faeab36",
-      "confidence": "high",
-      "effective_date": "2026-09-25",
-      "evidence_title": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1028e1817ac69f83",
-          "locator": "opportunity_status:awarded",
-          "title": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:36C10B26F0387",
-        "label": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-        "node_id": "award:usaspending:36C10B26F0387",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-25",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-25",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c619e9dd6a770a47",
-      "confidence": "high",
-      "effective_date": "2026-09-25",
-      "evidence_title": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-92dec4389841862e",
-          "locator": "reported_amount:1967809.04",
-          "title": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:36C10B26F0387",
-        "label": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-        "node_id": "award:usaspending:36C10B26F0387",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-25",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-25",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 1967809.04
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f85691ab9e23cca4",
-      "confidence": "high",
-      "effective_date": "2026-09-25",
-      "evidence_title": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": {
-        "identifier": "uei:KVMTJANNET58",
-        "label": "GREENBRIER GOVERNMENT SOLUTIONS INC",
-        "node_id": "recipient_or_contractor:uei:KVMTJANNET58",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f2fc3701637ab0ed",
-          "locator": "reported_recipient:recipient_or_contractor:uei:KVMTJANNET58",
-          "title": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:36C10B26F0387",
-        "label": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-        "node_id": "award:usaspending:36C10B26F0387",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-25",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-25",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
+        "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
+        "primary_date": "2026-09-21",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-09-21"
+      },
+      "value": "No Set aside used"
     }
   ],
-  "changed": [
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-be543ccb7513ea5b",
-      "confidence": "high",
-      "effective_date": "2027-06-26",
-      "evidence_title": "ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_1605C226C0006_1605_-NONE-_-NONE-",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "previous_object": null,
-      "previous_value": 1718875.0,
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a9fe7feae1e19f14",
-          "locator": "reported_amount:1861375.0",
-          "title": "ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1605C226C0006_1605_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:1605C226C0006",
-        "label": "ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS",
-        "node_id": "award:usaspending:1605C226C0006",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "changed_since_prior_run",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2027-06-26",
-        "explanation": "The assertion changed relative to the prior successful ledger build.",
-        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-        "historical": false,
-        "label": "Changed since prior run",
-        "last_changed_at": "2026-09-21T02:44:40.606467+00:00",
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2027-06-26",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 1861375.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-38ec4b3a8d485336",
-      "confidence": "high",
-      "effective_date": "2025-09-30",
-      "evidence_title": "PROGRAM MANAGEMENT, TECHNICAL & SYSTEMS ENGINEERING, CYBERSECURITY, AND LIFE-CYCLE LOGISTICS SUPPORT TO THE USCG UNMANNED AVIATION SYSTEMS (UAS) PROGRAM OFFICE WITHIN THE ROBOTICS...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326F93130001_7008_47QRCA25DA145_4732",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "previous_object": null,
-      "previous_value": 2227274.77,
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c7a9e46628000f5d",
-          "locator": "reported_amount:4492594.43",
-          "title": "PROGRAM MANAGEMENT, TECHNICAL & SYSTEMS ENGINEERING, CYBERSECURITY, AND LIFE-CYCLE LOGISTICS SUPPORT TO THE USCG UNMANNED AVIATION SYSTEMS (UAS) PROGRAM OFFICE WITHIN THE ROBOTICS...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326F93130001_7008_47QRCA25DA145_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70Z02326F93130001",
-        "label": "PROGRAM MANAGEMENT, TECHNICAL & SYSTEMS ENGINEERING, CYBERSECURITY, AND LIFE-CYCLE LOGISTICS SUPPORT TO THE USCG UNMANNED AVIATION SYSTEMS (UAS) PROGRAM OFFICE WITHIN THE ROBOTICS...",
-        "node_id": "award:usaspending:70Z02326F93130001",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "changed_since_prior_run",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2025-09-30",
-        "explanation": "The assertion changed relative to the prior successful ledger build.",
-        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-        "historical": false,
-        "label": "Changed since prior run",
-        "last_changed_at": "2026-09-21T02:44:40.606467+00:00",
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2025-09-30",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 4492594.43
-    }
-  ],
-  "comparison_ended_at": "2026-09-21T02:44:40.606467+00:00",
-  "comparison_started_at": "2026-09-20T08:11:01.442553+00:00",
+  "changed": [],
+  "comparison_ended_at": "2026-09-22T02:45:29.401531+00:00",
+  "comparison_started_at": "2026-09-21T02:44:40.606467+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
     {
       "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-be543ccb7513ea5b",
-      "claim_ids": [
-        "claim-be543ccb7513ea5b"
-      ],
-      "confidence": "high",
-      "effective_date": "2027-06-26",
-      "evidence_title": "ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_1605C226C0006_1605_-NONE-_-NONE-",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "predicates": [
-        "reported_amount"
-      ],
-      "previous_object": null,
-      "previous_value": 1718875.0,
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a9fe7feae1e19f14",
-          "locator": "reported_amount:1861375.0",
-          "title": "ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1605C226C0006_1605_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:1605C226C0006",
-        "label": "ADVANCING ARTIFICIAL INTELLIGENCE SKILLS IN REGISTERED APPRENTICESHIPS",
-        "node_id": "award:usaspending:1605C226C0006",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "changed_since_prior_run",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2027-06-26",
-        "explanation": "The assertion changed relative to the prior successful ledger build.",
-        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-        "historical": false,
-        "label": "Changed since prior run",
-        "last_changed_at": "2026-09-21T02:44:40.606467+00:00",
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2027-06-26",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 1861375.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-38ec4b3a8d485336",
-      "claim_ids": [
-        "claim-38ec4b3a8d485336"
-      ],
-      "confidence": "high",
-      "effective_date": "2025-09-30",
-      "evidence_title": "PROGRAM MANAGEMENT, TECHNICAL & SYSTEMS ENGINEERING, CYBERSECURITY, AND LIFE-CYCLE LOGISTICS SUPPORT TO THE USCG UNMANNED AVIATION SYSTEMS (UAS) PROGRAM OFFICE WITHIN THE ROBOTICS...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326F93130001_7008_47QRCA25DA145_4732",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "predicates": [
-        "reported_amount"
-      ],
-      "previous_object": null,
-      "previous_value": 2227274.77,
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c7a9e46628000f5d",
-          "locator": "reported_amount:4492594.43",
-          "title": "PROGRAM MANAGEMENT, TECHNICAL & SYSTEMS ENGINEERING, CYBERSECURITY, AND LIFE-CYCLE LOGISTICS SUPPORT TO THE USCG UNMANNED AVIATION SYSTEMS (UAS) PROGRAM OFFICE WITHIN THE ROBOTICS...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326F93130001_7008_47QRCA25DA145_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70Z02326F93130001",
-        "label": "PROGRAM MANAGEMENT, TECHNICAL & SYSTEMS ENGINEERING, CYBERSECURITY, AND LIFE-CYCLE LOGISTICS SUPPORT TO THE USCG UNMANNED AVIATION SYSTEMS (UAS) PROGRAM OFFICE WITHIN THE ROBOTICS...",
-        "node_id": "award:usaspending:70Z02326F93130001",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "changed_since_prior_run",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2025-09-30",
-        "explanation": "The assertion changed relative to the prior successful ledger build.",
-        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-        "historical": false,
-        "label": "Changed since prior run",
-        "last_changed_at": "2026-09-21T02:44:40.606467+00:00",
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2025-09-30",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 4492594.43
-    },
-    {
-      "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-8ab69549944619c1",
+      "claim_id": "claim-fcf0ae9ebf59702e",
       "claim_ids": [
-        "claim-8ab69549944619c1",
-        "claim-ae897c487dedbd90",
-        "claim-c54ff8a5c444bec9",
-        "claim-ff091771c6f88ef2"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-09-20",
-      "evidence_title": "CYBERSECURITY TRAINING TASK ORDER #4",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70Z07926FCYBR0001_7008_70Z07924DCYBR0001_7008",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8b5b1dc83a999cc9",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "CYBERSECURITY TRAINING TASK ORDER #4",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z07926FCYBR0001_7008_70Z07924DCYBR0001_7008",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70Z07926FCYBR0001",
-        "label": "CYBERSECURITY TRAINING TASK ORDER #4",
-        "node_id": "award:usaspending:70Z07926FCYBR0001",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-20",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-20",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Homeland Security"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e5f7be2c5881b602",
-      "claim_ids": [
-        "claim-16d450d5a499f8c0",
-        "claim-90fb257a29eca438",
-        "claim-b609e35ad100c183",
-        "claim-e5f7be2c5881b602"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-09-20",
-      "evidence_title": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F1177_1406_GS00F0007X_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4936c2612d5f6ebe",
-          "locator": "awarding_agency:department of the interior",
-          "title": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F1177_1406_GS00F0007X_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:140D0426F1177",
-        "label": "DEPARTMENT OF INTERIOR ON BEHALF OF PENSION BENEFIT GUARANTY CORPORATION (PBGC), PROCUREMENT DEPARTMENT (PD) FOR DATA QUALITY (FEDDATACHECK) CONTRACT REPORTING, AUTOMATED DATA AND...",
-        "node_id": "award:usaspending:140D0426F1177",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-20",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Happened today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-20",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of the Interior"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-cb7ea84ba174a382",
-      "claim_ids": [
-        "claim-5a4db7a2807dd18f",
-        "claim-5ea206a87062753b",
-        "claim-cb7ea84ba174a382",
-        "claim-eb1810b2cbfe264c"
+        "claim-371f729ff3b6ecb0",
+        "claim-5add576c8ff15924",
+        "claim-a563b96f871771fc",
+        "claim-fcf0ae9ebf59702e"
       ],
       "confidence": "high",
       "effective_date": "2026-09-21",
-      "evidence_title": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000231_7003_47QTCB21D0239_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
+      "evidence_title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
+      "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
       "grouped_event_count": 4,
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+      "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "predicates": [
@@ -2684,575 +470,97 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-74714945204e4e9e",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000231_7003_47QTCB21D0239_4732",
+          "evidence_id": "evidence-e02a33fbe5a0a622",
+          "locator": "awarding_agency:commerce, department of.national oceanic and atmospheric administration.dept of commerce noaa",
+          "title": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+          "url": "https://sam.gov/workspace/contract/opp/a279619059084f9e81002d03b7d36aea/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:70SBUR26F00000231",
-        "label": "GCACS IV WILL DELIVER CRITICAL CYBERSECURITY AND OPERATIONAL SUPPORT TO USCIS INFORMATION SECURITY DIVISION, HELPING SECURE OVER 200 INFORMATION SYSTEMS AND SUSTAIN IMMIGRATION OP...",
-        "node_id": "award:usaspending:70SBUR26F00000231",
-        "node_type": "award"
+        "identifier": "sam_gov:1305M326Q0505",
+        "label": "R--Autonomous Underwater Vehicle (AUV) Operation and",
+        "node_id": "award_notice:sam_gov:1305M326Q0505",
+        "node_type": "award_notice"
       },
       "temporal": {
-        "classification": "happened_today",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-09-21",
-        "explanation": "The source-reported event date is today or within the prior day.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "historical": false,
-        "label": "Happened today",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "primary_date": "2026-09-21",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-09-21"
       },
-      "value": "Department of Homeland Security"
+      "value": "COMMERCE, DEPARTMENT OF.NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION.DEPT OF COMMERCE NOAA"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-69323830d9cf851f",
+      "claim_id": "claim-4e921ac3741cba6b",
       "claim_ids": [
-        "claim-3623c6b1d6681164",
-        "claim-55682541dcefc8f6",
-        "claim-630037b0002cad92",
-        "claim-69323830d9cf851f"
+        "claim-41142490fa2132cb",
+        "claim-4e921ac3741cba6b",
+        "claim-9e80d8dac2a5ee10",
+        "claim-ae34a65688a9189a",
+        "claim-eb106367261d8130"
       ],
       "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_36C78626C0037_3600_-NONE-_-NONE-",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
+      "effective_date": "2026-09-21",
+      "evidence_title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
+      "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
+      "grouped_event_count": 5,
+      "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "predicates": [
         "awarding_agency",
         "opportunity_status",
         "reported_amount",
-        "reported_recipient"
+        "reported_recipient",
+        "set_aside"
       ],
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f23e1f2b9ea4d086",
-          "locator": "awarding_agency:department of veterans affairs",
-          "title": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_36C78626C0037_3600_-NONE-_-NONE-",
+          "evidence_id": "evidence-6967e72a88508658",
+          "locator": "awarding_agency:dept of defense.dept of the air force.air force materiel command.air force life cycle management center.fa8604 aflcmc pzi",
+          "title": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+          "url": "https://sam.gov/workspace/contract/opp/fff9363c13ba4eb291e0832af785a179/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:36C78626C0037",
-        "label": "CONSTRUCTION SERVICES AT HOUSTON NATIONAL CEMETERY TO RAISE AND REALIGN HEADSTONES.",
-        "node_id": "award:usaspending:36C78626C0037",
-        "node_type": "award"
+        "identifier": "sam_gov:FA860426DB012",
+        "label": "Synopsis of Contract Award: Air Force Materiel Command (AFMC) Logistics Information Technology (LogIT) System(s) Agentic AI Sustainment and DevSecOps",
+        "node_id": "award_notice:sam_gov:FA860426DB012",
+        "node_type": "award_notice"
       },
       "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-09-22T02:45:29.401531+00:00",
         "historical": false,
-        "label": "Occurred 4 days ago",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "last_observed_at": "2026-09-22T02:45:29.401531+00:00",
+        "primary_date": "2026-09-21",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-09-21"
       },
-      "value": "Department of Veterans Affairs"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-73d74fc931651f12",
-      "claim_ids": [
-        "claim-3daf1fdf1ffa2f6b",
-        "claim-73d74fc931651f12",
-        "claim-7d56780eec1fe269",
-        "claim-fd286ea23e587173"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0105_8000_80JSC025D0044_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a34190ff8c904869",
-          "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0105_8000_80JSC025D0044_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80JSC026F0105",
-        "label": "NIH QUANTUM-ENABLED AND ADVANCED DETECTION APPROACHES FOR PREDICTIVE PRECLINICAL NAMS FOR TOXICITY AND SAFETY (QU-SAFE) CHALLENGE",
-        "node_id": "award:usaspending:80JSC026F0105",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 4 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "National Aeronautics and Space Administration"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e314527b3f3686e3",
-      "claim_ids": [
-        "claim-5a471f4491b6bf14",
-        "claim-8949fe8ee9d575d9",
-        "claim-a68760f65ffd1c01",
-        "claim-e314527b3f3686e3"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "evidence_title": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000167_7012_NNG15SC23B_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4b5e893416c15735",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000167_7012_NNG15SC23B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70CMSD26FR0000167",
-        "label": "THIS AWARD PROVIDES ENTERPRISE SUPPORT TO HELP MAINTAIN ARTIFICIAL INTELLIGENCE SOFTWARE PERFORMANCE AND CONTINUITY FOR MISSION CRITICAL INVESTIGATIVE TECHNOLOGY PROJECTS.",
-        "node_id": "award:usaspending:70CMSD26FR0000167",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-18",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 3 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-18",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Homeland Security"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-011aadf52a153c69",
-      "claim_ids": [
-        "claim-011aadf52a153c69",
-        "claim-30590c1b56424992",
-        "claim-7fa6c82f14a3859a",
-        "claim-c0dfac90b0ba85c5"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-09-18",
-      "evidence_title": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_70B04C26F00000114_7014_47QTCA18D003J_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-582157c379aae3a4",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70B04C26F00000114_7014_47QTCA18D003J_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70B04C26F00000114",
-        "label": "THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP).",
-        "node_id": "award:usaspending:70B04C26F00000114",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-18",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 3 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-18",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Homeland Security"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6d2be155ee524057",
-      "claim_ids": [
-        "claim-27920c1c75845e38",
-        "claim-6d2be155ee524057",
-        "claim-9a4b631e944a31ff",
-        "claim-b1db5b526ca57acd"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0101_8000_80JSC025D0044_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-dc749c19643170c0",
-          "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F0101_8000_80JSC025D0044_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80JSC026F0101",
-        "label": "U.S. NATIONAL SCIENCE FOUNDATION (NSF) QUANTUM ALGORITHM CHALLENGE",
-        "node_id": "award:usaspending:80JSC026F0101",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-17",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Occurred 4 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "National Aeronautics and Space Administration"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-35a39ec593cac34f",
-      "claim_ids": [
-        "claim-35a39ec593cac34f",
-        "claim-53ac345e2f6a124b",
-        "claim-660b82bd02524bfe",
-        "claim-83c137e8d9d1ad63"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "evidence_title": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_15BNAS26F00000259_1540_15BNAS26D00000208_1540",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-96eb4f479b9146c8",
-          "locator": "awarding_agency:department of justice",
-          "title": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_15BNAS26F00000259_1540_15BNAS26D00000208_1540",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:15BNAS26F00000259",
-        "label": "ENTERPRISE FIRST STEP ACT (FSA) TIME CREDIT MANAGEMENT SOLUTION IMPLEMENTATION, CONFIGURATION, INTEGRATION, CYBERSECURITY, AND SUSTAINMENT SERVICES",
-        "node_id": "award:usaspending:15BNAS26F00000259",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-28",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-28",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Justice"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-83b6960f1a386016",
-      "claim_ids": [
-        "claim-057192d2bbfa7862",
-        "claim-6111328c7155cf37",
-        "claim-83b6960f1a386016",
-        "claim-e5e02d5690f75673"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "evidence_title": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00380_7529_47QTCA18D005K_4732",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cc33ebe32c6f3398",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00380_7529_47QTCA18D005K_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026F00380",
-        "label": "GPU-ACCELERATED HIGH-PERFORMANCE COMPUTING SERVER FOR RUSAN LAB",
-        "node_id": "award:usaspending:75N98026F00380",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-22",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-22",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Health and Human Services"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-ee8cbd1e1a0f9950",
-      "claim_ids": [
-        "claim-14743315235b3b4f",
-        "claim-3664e718d5a0d06e",
-        "claim-484d921ad25e9275",
-        "claim-ee8cbd1e1a0f9950"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "evidence_title": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0286_8000_-NONE-_-NONE-",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-de52d570127e7300",
-          "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0286_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0286",
-        "label": "STTR PHASE I CONSTRAINT-AWARE QUANTUM OPTIMIZATION FOR SATELLITE DATA ACQUISITION AND SCHEDULING",
-        "node_id": "award:usaspending:80NSSC26C0286",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-30",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-30",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "National Aeronautics and Space Administration"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-09c3eda2056e71c4",
-      "claim_ids": [
-        "claim-00a4a6444faeab36",
-        "claim-09c3eda2056e71c4",
-        "claim-c619e9dd6a770a47",
-        "claim-f85691ab9e23cca4"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-09-25",
-      "evidence_title": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000",
-      "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9c8d40c3c240b7c6",
-          "locator": "awarding_agency:department of veterans affairs",
-          "title": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:36C10B26F0387",
-        "label": "ZERO TRUST POST QUANTUM ENCRYPTION SERVICES",
-        "node_id": "award:usaspending:36C10B26F0387",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-25",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-09-21.",
-        "first_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-09-21T02:44:40.606467+00:00",
-        "primary_date": "2026-09-25",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Veterans Affairs"
+      "value": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.FA8604 AFLCMC PZI"
     },
     {
       "authority": "authoritative",
@@ -5698,17 +3006,14 @@
   ],
   "scope_note": "Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.",
   "summary": {
-    "actual_or_recent_changes": 34,
+    "actual_or_recent_changes": 9,
     "classifications": {
-      "changed_since_prior_run": 2,
-      "happened_today": 12,
-      "recent_event": 20,
-      "resolved": 27,
-      "upcoming": 16
+      "published_today": 9,
+      "resolved": 27
     },
     "evidence_trace_changes": 0,
     "historical_discoveries": 0,
-    "material_events": 77,
+    "material_events": 36,
     "newly_observed_undated": 0,
     "upcoming": 15
   },
@@ -5716,25 +3021,25 @@
   "upcoming": [
     {
       "date": "2026-09-20",
-      "days_remaining": -1,
+      "days_remaining": -2,
       "kind": "mission_milestone",
-      "status": "due_soon",
+      "status": "overdue",
       "subject": "Federal Post-Quantum Cryptography Transition",
       "title": "OMB issues agency guidance for inventories, migration plans, and high-impact systems",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/"
     },
     {
       "date": "2026-09-20",
-      "days_remaining": -1,
+      "days_remaining": -2,
       "kind": "mission_milestone",
-      "status": "due_soon",
+      "status": "overdue",
       "subject": "QC-ADDS",
       "title": "Publish a summary of QC-ADDS technical specifications",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
     },
     {
       "date": "2026-09-22",
-      "days_remaining": 1,
+      "days_remaining": 0,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "AI Forge",
@@ -5743,7 +3048,7 @@
     },
     {
       "date": "2026-09-30",
-      "days_remaining": 9,
+      "days_remaining": 8,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -5752,7 +3057,7 @@
     },
     {
       "date": "2026-10-15",
-      "days_remaining": 24,
+      "days_remaining": 23,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -5761,7 +3066,7 @@
     },
     {
       "date": "2026-10-19",
-      "days_remaining": 28,
+      "days_remaining": 27,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "PAMS-SC",
@@ -5770,7 +3075,7 @@
     },
     {
       "date": "2026-11-14",
-      "days_remaining": 54,
+      "days_remaining": 53,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -5779,7 +3084,7 @@
     },
     {
       "date": "2026-11-24",
-      "days_remaining": 64,
+      "days_remaining": 63,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Genesis Mission",
@@ -5788,7 +3093,7 @@
     },
     {
       "date": "2026-12-17",
-      "days_remaining": 87,
+      "days_remaining": 86,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -5797,7 +3102,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 89,
+      "days_remaining": 88,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -5806,7 +3111,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 89,
+      "days_remaining": 88,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -5815,7 +3120,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 89,
+      "days_remaining": 88,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -5824,7 +3129,7 @@
     },
     {
       "date": "2026-12-31",
-      "days_remaining": 101,
+      "days_remaining": 100,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "Project Triad",
@@ -5833,7 +3138,7 @@
     },
     {
       "date": "2027-03-19",
-      "days_remaining": 179,
+      "days_remaining": 178,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -5842,7 +3147,7 @@
     },
     {
       "date": "2027-06-22",
-      "days_remaining": 274,
+      "days_remaining": 273,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -5850,6 +3155,6 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
     }
   ],
-  "updated_at": "2026-09-21T02:44:40.606467+00:00",
+  "updated_at": "2026-09-22T02:45:29.401531+00:00",
   "version": 1
 }

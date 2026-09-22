@@ -8,7 +8,7 @@
         "Business or Organization",
         "Non-Profit Organization"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "7L030",
       "checked_at": "2026-09-21T02:44:40.606467+00:00",
       "contractor_name": "THE MITRE CORPORATION",
@@ -2680,7 +2680,7 @@
         "Non-Profit Organization",
         "Private University or College"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "4B478",
       "checked_at": "2026-09-21T02:44:40.606467+00:00",
       "contractor_name": "DUKE UNIVERSITY",
@@ -3268,7 +3268,7 @@
         "Educational Institution",
         "Other Not For Profit Organization"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "50854",
       "checked_at": "2026-09-21T02:44:40.606467+00:00",
       "contractor_name": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
@@ -6889,9 +6889,9 @@
         "Non-Profit Organization",
         "Private University or College"
       ],
-      "cache_status": "retained",
+      "cache_status": "refreshed",
       "cage_code": "5L406",
-      "checked_at": "2026-08-14T01:18:50.250873+00:00",
+      "checked_at": "2026-09-22T02:45:29.401531+00:00",
       "contractor_name": "THE JOHNS HOPKINS UNIVERSITY",
       "contractor_score": 27,
       "dba_name": null,
@@ -6905,13 +6905,19 @@
       "legal_business_name": "THE JOHNS HOPKINS UNIVERSITY",
       "naics": [
         {
-          "code": "541330",
+          "code": "621112",
           "name": null,
           "primary": null,
           "small_business": null
         },
         {
-          "code": "541611",
+          "code": "611430",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "611310",
           "name": null,
           "primary": null,
           "small_business": null
@@ -6929,31 +6935,19 @@
           "small_business": null
         },
         {
-          "code": "541720",
+          "code": "541330",
           "name": null,
           "primary": null,
           "small_business": null
         },
         {
-          "code": "541990",
+          "code": "541611",
           "name": null,
           "primary": null,
           "small_business": null
         },
         {
-          "code": "611310",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "611430",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "621112",
+          "code": "541715",
           "name": null,
           "primary": null,
           "small_business": null
@@ -6969,6 +6963,48 @@
           "name": null,
           "primary": null,
           "small_business": null
+        },
+        {
+          "code": "541330",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541990",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541330",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541720",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541715",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541715",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541330",
+          "name": null,
+          "primary": null,
+          "small_business": null
         }
       ],
       "organization_structure": null,
@@ -6979,7 +7015,7 @@
         }
       ],
       "purpose_of_registration": "All Awards",
-      "registration_expiration_date": "2026-09-19",
+      "registration_expiration_date": "2027-09-08",
       "registration_status": "Active",
       "resolution_basis": "exact UEI match",
       "resolution_confidence": "high",
@@ -12664,11 +12700,11 @@
     "newly_resolved": 0,
     "no_match": 1,
     "pending": 114,
-    "queries_remaining": 0,
+    "queries_remaining": 2,
     "resolved": 96,
     "tracked_contractors": 75,
     "uei_coverage_percent": 128.0
   },
-  "updated_at": "2026-09-21T02:44:40.606467+00:00",
+  "updated_at": "2026-09-22T02:45:29.401531+00:00",
   "version": 1
 }

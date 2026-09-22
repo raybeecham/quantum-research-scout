@@ -571,12 +571,12 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 6,
+      "evidence_count": 7,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-08-20",
+      "latest_evidence_at": "2026-09-21",
       "name": "NIST",
       "priority": "critical",
-      "source_count": 3,
+      "source_count": 4,
       "stage": "planning",
       "stage_label": "Planning",
       "stage_rank": 3,
@@ -595,6 +595,21 @@
           "source": "Quantum Zeitgeist",
           "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
+        },
+        {
+          "date": "2026-09-21",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "DigiCert Blog",
+          "title": "NIST advances post-quantum signature algorithms | DigiCert",
+          "url": "https://www.digicert.com/blog/nist-advances-post-quantum-signature-algorithms"
         },
         {
           "date": "2026-08-20",
@@ -1191,6 +1206,82 @@
       "type": "company"
     },
     {
+      "confidence": "high",
+      "evidence_count": 4,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-09-21",
+      "name": "DigiCert",
+      "priority": "high",
+      "source_count": 2,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-09-21",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "DigiCert Blog",
+          "title": "NIST advances post-quantum signature algorithms | DigiCert",
+          "url": "https://www.digicert.com/blog/nist-advances-post-quantum-signature-algorithms"
+        },
+        {
+          "date": "2026-09-21",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "pqc"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "DigiCert Blog",
+          "title": "EO 14412: What the federal PQC mandate means for you | DigiCert",
+          "url": "https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you"
+        },
+        {
+          "date": "2026-09-21",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "pqc",
+            "quantum-safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "DigiCert Blog",
+          "title": "Do PQC Certificates Require Quantum-Safe HSMs? | DigiCert",
+          "url": "https://www.digicert.com/blog/do-pqc-certificates-require-quantum-safe-hsms"
+        },
+        {
+          "date": "2026-08-03",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "DigiCert\u2019s New Edition Simplifies Post-Quantum Cryptography Planning",
+          "url": "https://quantumzeitgeist.com/post-quantum-cryptography-digicerts-edition-simplifies"
+        }
+      ],
+      "type": "company"
+    },
+    {
       "confidence": "medium",
       "evidence_count": 2,
       "historical_evidence_count": 0,
@@ -1399,36 +1490,6 @@
         }
       ],
       "type": "consulting"
-    },
-    {
-      "confidence": "low",
-      "evidence_count": 1,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-08-03",
-      "name": "DigiCert",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-08-03",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Quantum Zeitgeist",
-          "title": "DigiCert\u2019s New Edition Simplifies Post-Quantum Cryptography Planning",
-          "url": "https://quantumzeitgeist.com/post-quantum-cryptography-digicerts-edition-simplifies"
-        }
-      ],
-      "type": "company"
     },
     {
       "confidence": "low",
@@ -1875,6 +1936,6 @@
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-09-21T02:49:00.102286+00:00",
+  "updated_at": "2026-09-22T02:53:13.179037+00:00",
   "version": 1
 }

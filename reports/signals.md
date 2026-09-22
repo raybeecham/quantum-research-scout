@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-21 02:48 UTC_
+_Updated 2026-09-22 02:53 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
@@ -15,9 +15,9 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 | Quantum Sensing | ↗️ rising (3 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-10 | 45 |
 | Quantum Software / Tooling | ↗️ rising (6 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-19 | 88 |
 | Standards / Government | ↗️ rising (7 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-09-20 | 54 |
-| PQC / Crypto Agility | ➡️ stable (19 vs 21) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-20 | 217 |
-| Quantum Hardware | ➡️ stable (16 vs 21) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-19 | 292 |
-| Quantum Networking | ↘️ declining (10 vs 16) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-19 | 124 |
+| PQC / Crypto Agility | ➡️ stable (21 vs 21) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-21 | 222 |
+| Quantum Hardware | ↘️ declining (14 vs 23) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-21 | 295 |
+| Quantum Networking | ↘️ declining (10 vs 17) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-21 | 127 |
 
 ## AI Security
 
@@ -79,30 +79,30 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
-  - 2026-09-20 — [THIS FIRM FIXED PRICE DELIVERY ORDER IS AWARDED IN ACCORDANCE WITH FAR 8.405 FOR AI-ASSISTED MEDIDATA RAVE MIGRATION AND RELATED SERVICES TO QUANTUM INSIGHTS LLC:1462936 IN THE AM...](https://www.usaspending.gov/award/CONT_AWD_75N98026F00373_7529_47QTCA21D00BX_4732) (USAspending · Quantum Technologies, score 100)
-  - 2026-09-19 — [Fortaegis Technologies Raises $50 Million Series A to Deploy Hardware-Rooted Quantum-Safe Secure Compute Architecture](https://quantumcomputingreport.com/fortaegis-technologies-raises-50-million-series-a-to-deploy-hardware-rooted-quantum-safe-secure-compute-architecture) (Quantum Computing Report, score 93)
-  - 2026-09-19 — [Sectigo Launches Quantum Ready™ Platform to Drive Enterprise Quantum Security Posture Management (QSPM)](https://quantumcomputingreport.com/sectigo-launches-quantum-ready-platform-to-drive-enterprise-quantum-security-posture-management-qspm) (Quantum Computing Report, score 68)
-  - 2026-09-18 — [EigenQ and Silicon Valley Acquisition Corp. Secure $45M Committed Convertible Financing Ahead of $3B SPAC Merger](https://quantumcomputingreport.com/eigenq-and-silicon-valley-acquisition-corp-secure-45m-committed-convertible-financing-ahead-of-3b-spac-merger) (Quantum Computing Report, score 100)
-  - 2026-09-18 — [HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next](https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks) (Thales Cybersecurity Blog, score 67)
+  - 2026-09-21 — [Too Small to Hide: Single-Trace Key Recovery from ML-KEM Key Generation](https://eprint.iacr.org/2026/2137) (IACR ePrint, score 112)
+  - 2026-09-21 — [EO 14412: What the federal PQC mandate means for you | DigiCert](https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you) (DigiCert Blog, score 100)
+  - 2026-09-21 — [Do PQC Certificates Require Quantum-Safe HSMs? | DigiCert](https://www.digicert.com/blog/do-pqc-certificates-require-quantum-safe-hsms) (DigiCert Blog, score 95)
+  - 2026-09-21 — [NIST advances post-quantum signature algorithms | DigiCert](https://www.digicert.com/blog/nist-advances-post-quantum-signature-algorithms) (DigiCert Blog, score 90)
+  - 2026-09-21 — [SEALSQ, WISeKey and Jura Sign MoU for Swiss Post-Quantum Semiconductor Center](https://thequantuminsider.com/2026/09/21/sealsq-wisekey-jura-post-quantum-semiconductor-center) (The Quantum Insider, score 69)
 
 ## Quantum Hardware
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph, Quantum Computing Report
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-09-21 — [Heuristic and Optimal Synthesis of CNOT and Clifford Circuits](https://quantum-journal.org/papers/q-2026-09-21-2212) (Quantum Journal, score 34)
+  - 2026-09-21 — [Cornell Researchers Demonstrate Standing-Wave EIT Cooling for Trapped Ions](https://thequantuminsider.com/2026/09/21/cornell-standing-wave-eit-cooling-trapped-ions) (The Quantum Insider, score 29)
+  - 2026-09-21 — [NLM Photonics and SilOriX Partner on Silicon Organic Hybrid Photonics](https://thequantuminsider.com/2026/09/21/nlm-photonics-silorix-joint-development-agreement) (The Quantum Insider, score 24)
   - 2026-09-19 — [DOE Panel Ties Future National Quantum Facility to Proof of Scientific Use](https://thequantuminsider.com/2026/09/19/doe-panel-ties-future-national-quantum-facility-to-proof-of-scientific-use) (The Quantum Insider, score 100)
   - 2026-09-19 — [Pasqal and LG CNS Sign Three-Year MoU to Integrate Neutral-Atom QPUs into AI Data Center Infrastructure](https://quantumcomputingreport.com/pasqal-and-lg-cns-sign-three-year-mou-to-integrate-neutral-atom-qpus-into-ai-data-center-infrastructure) (Quantum Computing Report, score 43)
-  - 2026-09-19 — [Who’s News: Strategic Appointments at Quantum Motion, SQC, Lawrence Semiconductor, and Pasqal](https://quantumcomputingreport.com/whos-news-strategic-appointments-at-quantum-motion-sqc-lawrence-semiconductor-and-pasqal) (Quantum Computing Report, score 42)
-  - 2026-09-16 — [Gold’s Quantum Moment](https://thequantuminsider.com/2026/09/16/golds-quantum-moment) (The Quantum Insider, score 60)
-  - 2026-09-16 — [Better Together: IBM Researchers Cut Sampling Demands 63-Fold by Combining Quantum Error Detection And Mitigation](https://thequantuminsider.com/2026/09/16/better-together-ibm-researchers-cut-sampling-demands-63-fold-by-combining-quantum-error-detection-and-mitigation) (The Quantum Insider, score 36)
 
 ## Quantum Networking
 
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, arXiv RSS quant-ph, USAspending · Quantum Technologies
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
+  - 2026-09-21 — [IonQ and SDT Announce the First Strategic Partnership to Bring Both Advanced Quantum Computing and Quantum Networking to the Asia-Pacific Region](https://investors.ionq.com/news/news-details/2026/IonQ-and-SDT-Announce-the-First-Strategic-Partnership-to-Bring-Both-Advanced-Quantum-Computing-and-Quantum-Networking-to-the-Asia-Pacific-Region/default.aspx) (IonQ News, score 73)
+  - 2026-09-21 — [IEEE-Presented Study Tests Quantum-to-Classical Handoff for Distributed Computing](https://thequantuminsider.com/2026/09/21/ieee-presented-study-tests-quantum-to-classical-handoff-for-distributed-computing) (The Quantum Insider, score 39)
+  - 2026-09-21 — [New Sandpit Program Targets Quantum Silicon Photonics Platforms](https://thequantuminsider.com/2026/09/21/new-sandpit-program-targets-quantum-silicon-photonics-platforms) (The Quantum Insider, score 36)
   - 2026-09-19 — [Tom Darras (Welinq): Scaling quantum computers by networking shared entanglement](https://thequantuminsider.com/2026/09/19/tom-darras-welinq-scaling-quantum-computers-by-networking-shared-entanglement) (The Quantum Insider, score 105)
   - 2026-09-18 — [Q-SAFE Solutions Unveils EU-27 Carrier-Grade Quantum-Safe Network Platform](https://quantumcomputingreport.com/q-safe-solutions-unveils-eu-27-carrier-grade-quantum-safe-network-platform) (Quantum Computing Report, score 103)
-  - 2026-09-18 — [Qtonic Quantum Launches QShield for Post-Quantum Network Protection](https://thequantuminsider.com/2026/09/18/qtonic-quantum-launches-qshield-post-quantum-network-protection) (The Quantum Insider, score 67)
-  - 2026-09-18 — [Spatial structure of multipartite entanglement at measurement induced phase transitions](https://quantum-journal.org/papers/q-2026-09-18-2211) (Quantum Journal, score 27)
-  - 2026-09-16 — [CSIC Inaugurates Spain’s Quantum Nanofabrication Area at IMB-CNM in Barcelona](https://quantumcomputingreport.com/csic-inaugurates-spains-quantum-nanofabrication-area-at-imb-cnm-in-barcelona) (Quantum Computing Report, score 23)

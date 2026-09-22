@@ -1,6 +1,6 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-09-21T02:44:40.606467+00:00_
+_Updated 2026-09-22T02:45:29.401531+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
@@ -45,6 +45,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [EO 14412: What the federal PQC mandate means for you | DigiCert](https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [DOE Launches $215 Million Quantum Genesis Q Competition](https://thequantuminsider.com/2026/09/18/doe-215-million-quantum-genesis-q-competition)
 
@@ -311,13 +318,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: mission evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
-
-### [EO 14412: What the federal PQC mandate means for you | DigiCert](https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 10
 
 ### [U.S. Embassy Jakarta Media Small Grants Competition](https://www.grants.gov/search-results-detail/363370)
 
