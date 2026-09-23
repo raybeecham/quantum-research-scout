@@ -215,8 +215,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 14,
-      "first_party_evidence_count": 9,
+      "evidence_count": 15,
+      "first_party_evidence_count": 10,
       "name": "Cisco",
       "priority": "high",
       "status": "covered",
@@ -385,7 +385,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 20,
+      "evidence_count": 21,
       "first_party_evidence_count": 1,
       "name": "IonQ",
       "priority": "high",
@@ -407,8 +407,8 @@
           "type": "rss"
         }
       ],
-      "evidence_count": 21,
-      "first_party_evidence_count": 17,
+      "evidence_count": 23,
+      "first_party_evidence_count": 19,
       "name": "Keyfactor",
       "priority": "high",
       "status": "covered",
@@ -439,7 +439,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 0,
+      "evidence_count": 1,
       "first_party_evidence_count": 0,
       "name": "Microsoft Quantum",
       "priority": "high",
@@ -524,7 +524,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 9,
+      "evidence_count": 10,
       "first_party_evidence_count": 7,
       "name": "QuEra",
       "priority": "high",
@@ -1291,9 +1291,9 @@
       "latest_seen": "2026-09-19",
       "momentum": "rising",
       "name": "IBM",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 4,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -1897,8 +1897,32 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 10,
+      "current_evidence_count": 12,
       "evidence": [
+        {
+          "date": "2026-09-22",
+          "key": "https://www.keyfactor.com/blog/the-government-just-set-a-quantum-computing-deadline-heres-what-it-actually-means-for-you",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 100,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "The Government Just Set a Quantum Computing Deadline. Here's What It Actually Means for You.",
+          "url": "https://www.keyfactor.com/blog/the-government-just-set-a-quantum-computing-deadline-heres-what-it-actually-means-for-you"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://www.keyfactor.com/blog/the-eu-cyber-resilience-act-a-cryptography-and-pki-playbook-for-software-publishers",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 34,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The EU Cyber Resilience Act: A Cryptography and PKI Playbook for Software Publishers",
+          "url": "https://www.keyfactor.com/blog/the-eu-cyber-resilience-act-a-cryptography-and-pki-playbook-for-software-publishers"
+        },
         {
           "date": "2026-09-09",
           "key": "https://thequantuminsider.com/2026/09/09/keyfactor-surpasses-200-million-annual-recurring-revenue",
@@ -2284,26 +2308,39 @@
           "url": "https://www.keyfactor.com/blog_categories/crypto-agility/"
         }
       ],
-      "evidence_count": 21,
+      "evidence_count": 23,
       "first_seen": "2025-07-24",
       "historical_evidence_count": 11,
-      "latest_seen": "2026-09-09",
-      "momentum": "declining",
+      "latest_seen": "2026-09-22",
+      "momentum": "rising",
       "name": "Keyfactor",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 2,
+      "status": "active",
       "themes": [
-        "PQC / Crypto Agility"
+        "PQC / Crypto Agility",
+        "Standards / Government"
       ],
       "type": "company"
     },
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 20,
+      "current_evidence_count": 21,
       "evidence": [
+        {
+          "date": "2026-09-22",
+          "key": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 125,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "IonQ Demonstrates Real-Time QEC Decoding at MegaQuOp Scale on Single Commodity CPU",
+          "url": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu"
+        },
         {
           "date": "2026-09-21",
           "key": "https://investors.ionq.com/news/news-details/2026/IonQ-and-SDT-Announce-the-First-Strategic-Partnership-to-Bring-Both-Advanced-Quantum-Computing-and-Quantum-Networking-to-the-Asia-Pacific-Region/default.aspx",
@@ -2545,15 +2582,15 @@
           "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
         }
       ],
-      "evidence_count": 20,
+      "evidence_count": 21,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-21",
-      "momentum": "declining",
+      "latest_seen": "2026-09-22",
+      "momentum": "rising",
       "name": "IonQ",
-      "prior_count": 3,
+      "prior_count": 0,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -3052,8 +3089,20 @@
         "Cisco Systems"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 14,
+      "current_evidence_count": 15,
       "evidence": [
+        {
+          "date": "2026-09-22",
+          "key": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 58,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "PQC for Dummies\u2014Cisco Special Edition: Why we wrote it",
+          "url": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it"
+        },
         {
           "date": "2026-09-14",
           "key": "https://blogs.cisco.com/developer/the-honest-migration-playbook-ipsec-series-part-11",
@@ -3223,15 +3272,15 @@
           "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
         }
       ],
-      "evidence_count": 14,
+      "evidence_count": 15,
       "first_seen": "2026-07-27",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-14",
+      "latest_seen": "2026-09-22",
       "momentum": "declining",
       "name": "Cisco",
-      "prior_count": 5,
+      "prior_count": 4,
       "priority": "high",
-      "recent_count": 0,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -3241,286 +3290,24 @@
       "type": "company"
     },
     {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 10,
-      "evidence": [
-        {
-          "date": "2026-09-15",
-          "key": "https://quantumzeitgeist.com/quops-quantum-benchmark-quantinuum-sandia-labs",
-          "report": "2026-09/2026-09-15-digest.md",
-          "score": 50,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum and Sandia Labs launch QUOPS, a new quantum benchmark",
-          "url": "https://quantumzeitgeist.com/quops-quantum-benchmark-quantinuum-sandia-labs"
-        },
-        {
-          "date": "2026-09-14",
-          "key": "https://quantumnews.ai/hardware/evaluating-quantinuum-h2-s-trapped-ion-platform-in-2026",
-          "report": "2026-09/2026-09-14-digest.md",
-          "score": 38,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Evaluating Quantinuum H2's Trapped Ion Platform in 2026",
-          "url": "https://quantumnews.ai/hardware/evaluating-quantinuum-h2-s-trapped-ion-platform-in-2026"
-        },
-        {
-          "date": "2026-09-13",
-          "key": "https://quantumzeitgeist.com/helix-heterogenous-qec-codes-boost-efficiency",
-          "report": "2026-09/2026-09-13-digest.md",
-          "score": 95,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Heterogenous QEC codes boost efficiency in Quantinuum\u2019s Helix architecture",
-          "url": "https://quantumzeitgeist.com/helix-heterogenous-qec-codes-boost-efficiency"
-        },
-        {
-          "date": "2026-09-09",
-          "key": "https://quantumcomputingreport.com/quantinuum-finalizes-100-million-chips-act-rd-award-to-accelerate-trapped-ion-manufacturing",
-          "report": "2026-09/2026-09-09-digest.md",
-          "score": 92,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum Finalizes $100 Million CHIPS Act R&D Award to Accelerate Trapped-Ion Manufacturing",
-          "url": "https://quantumcomputingreport.com/quantinuum-finalizes-100-million-chips-act-rd-award-to-accelerate-trapped-ion-manufacturing"
-        },
-        {
-          "date": "2026-08-12",
-          "key": "https://quantumcomputingreport.com/quantinuum-and-oracle-partner-to-bring-helios-quantum-computer-to-oracle-cloud-infrastructure",
-          "report": "2026-08/2026-08-12-digest.md",
-          "score": 47,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum and Oracle Partner to Bring Helios Quantum Computer to Oracle Cloud Infrastructure",
-          "url": "https://quantumcomputingreport.com/quantinuum-and-oracle-partner-to-bring-helios-quantum-computer-to-oracle-cloud-infrastructure"
-        },
-        {
-          "date": "2026-08-12",
-          "key": "https://thequantuminsider.com/2026/08/12/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure",
-          "report": "2026-08/2026-08-12-digest.md",
-          "score": 40,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum and Oracle Partner to Accelerate Hybrid Quantum Compute Adoption on Oracle Cloud Infrastructure",
-          "url": "https://thequantuminsider.com/2026/08/12/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 36,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum & Partners Run 98-Qubit Quantum Fourier Transform",
-          "url": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft"
-        },
-        {
-          "date": "2026-07-29",
-          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
-          "report": "2026-07/2026-07-29-digest.md",
-          "score": 60,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
-          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
-        },
-        {
-          "date": "2026-07-20",
-          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
-          "report": "2026-07/2026-07-20-digest.md",
-          "score": 14,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
-          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
-        },
-        {
-          "date": "2026-06-22",
-          "key": "https://quantumzeitgeist.com/quantinuum-qnt",
-          "report": "2026-06/2026-06-22-digest.md",
-          "score": 45,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum (QNT): A Commercial History",
-          "url": "https://quantumzeitgeist.com/quantinuum-qnt"
-        }
-      ],
-      "evidence_count": 10,
-      "first_seen": "2026-06-22",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-09-15",
-      "momentum": "declining",
-      "name": "Quantinuum",
-      "prior_count": 3,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility",
-        "QEC / Fault Tolerance",
-        "Quantum Hardware"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 9,
-      "evidence": [
-        {
-          "date": "2026-09-10",
-          "key": "https://blog.cloudflare.com/post-quantum-dnssec-1111",
-          "report": "2026-09/2026-09-10-digest.md",
-          "score": 144,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
-          "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111"
-        },
-        {
-          "date": "2026-09-08",
-          "key": "https://blog.cloudflare.com/automatic-key-exchange-for-origins",
-          "report": "2026-09/2026-09-08-digest.md",
-          "score": 69,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
-          "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins"
-        },
-        {
-          "date": "2026-08-11",
-          "key": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government",
-          "report": "2026-08/2026-08-11-digest.md",
-          "score": 100,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Standards / Government"
-          ],
-          "title": "Cloudflare achieves quantum-secure FedRAMP High for U.S. government work",
-          "url": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government"
-        },
-        {
-          "date": "2026-08-10",
-          "key": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high",
-          "report": "2026-08/2026-08-10-digest.md",
-          "score": 100,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Cloudflare Expands Quantum-Safe Government Security Platform With FedRAMP High Authorization",
-          "url": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high"
-        },
-        {
-          "date": "2026-08-06",
-          "key": "https://blog.cloudflare.com/mcp-v2",
-          "report": "2026-08/2026-08-06-digest.md",
-          "score": 26,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The next generation of MCP",
-          "url": "https://blog.cloudflare.com/mcp-v2"
-        },
-        {
-          "date": "2026-08-03",
-          "key": "https://blog.cloudflare.com/smaller-faster-safer-models",
-          "report": "2026-08/2026-08-03-digest.md",
-          "score": 22,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "AI Security"
-          ],
-          "title": "Smaller, faster, safer: running Kimi and GLM at scale",
-          "url": "https://blog.cloudflare.com/smaller-faster-safer-models"
-        },
-        {
-          "date": "2026-07-29",
-          "key": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
-          "report": "2026-07/2026-07-29-digest.md",
-          "score": 55,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Post-quantum authentication to origins is now supported",
-          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
-        },
-        {
-          "date": "2026-07-09",
-          "key": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
-          "report": "2026-07/2026-07-09-digest.md",
-          "score": 139,
-          "source": "Cloudflare Post-Quantum Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Why we cannot wait for better post-quantum signature algorithms",
-          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
-        },
-        {
-          "date": "2026-06-23",
-          "key": "https://blog.cloudflare.com/post-quantum-eo-2026",
-          "report": "2026-06/2026-06-23-digest.md",
-          "score": 50,
-          "source": "Cloudflare Post-Quantum Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
-          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
-        }
-      ],
-      "evidence_count": 9,
-      "first_seen": "2026-06-23",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-09-10",
-      "momentum": "declining",
-      "name": "Cloudflare",
-      "prior_count": 2,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
-      "themes": [
-        "AI Security",
-        "PQC / Crypto Agility",
-        "Standards / Government"
-      ],
-      "type": "company"
-    },
-    {
       "aliases": [
         "QuEra Computing"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 2,
+      "current_evidence_count": 3,
       "evidence": [
+        {
+          "date": "2026-09-22",
+          "key": "https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 94,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QuEra and HPE Partner on Fault-Tolerant Quantum Computing for HPC",
+          "url": "https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc"
+        },
         {
           "date": "2026-08-12",
           "key": "https://thequantuminsider.com/2026/08/12/zapata-quantum-quera-quantum-application-development",
@@ -3714,19 +3501,293 @@
           "url": "https://www.quera.com/press-releases/quera-selected-for-phase-1-of-darpas-quantum-benchmarking-initiative"
         }
       ],
-      "evidence_count": 9,
+      "evidence_count": 10,
       "first_seen": "2025-04-29",
       "historical_evidence_count": 7,
-      "latest_seen": "2026-08-12",
-      "momentum": "stable",
+      "latest_seen": "2026-09-22",
+      "momentum": "rising",
       "name": "QuEra",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 0,
-      "status": "dormant",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Hardware",
         "Quantum Software / Tooling",
+        "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 10,
+      "evidence": [
+        {
+          "date": "2026-09-15",
+          "key": "https://quantumzeitgeist.com/quops-quantum-benchmark-quantinuum-sandia-labs",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 50,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum and Sandia Labs launch QUOPS, a new quantum benchmark",
+          "url": "https://quantumzeitgeist.com/quops-quantum-benchmark-quantinuum-sandia-labs"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://quantumnews.ai/hardware/evaluating-quantinuum-h2-s-trapped-ion-platform-in-2026",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 38,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Evaluating Quantinuum H2's Trapped Ion Platform in 2026",
+          "url": "https://quantumnews.ai/hardware/evaluating-quantinuum-h2-s-trapped-ion-platform-in-2026"
+        },
+        {
+          "date": "2026-09-13",
+          "key": "https://quantumzeitgeist.com/helix-heterogenous-qec-codes-boost-efficiency",
+          "report": "2026-09/2026-09-13-digest.md",
+          "score": 95,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Heterogenous QEC codes boost efficiency in Quantinuum\u2019s Helix architecture",
+          "url": "https://quantumzeitgeist.com/helix-heterogenous-qec-codes-boost-efficiency"
+        },
+        {
+          "date": "2026-09-09",
+          "key": "https://quantumcomputingreport.com/quantinuum-finalizes-100-million-chips-act-rd-award-to-accelerate-trapped-ion-manufacturing",
+          "report": "2026-09/2026-09-09-digest.md",
+          "score": 92,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum Finalizes $100 Million CHIPS Act R&D Award to Accelerate Trapped-Ion Manufacturing",
+          "url": "https://quantumcomputingreport.com/quantinuum-finalizes-100-million-chips-act-rd-award-to-accelerate-trapped-ion-manufacturing"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://quantumcomputingreport.com/quantinuum-and-oracle-partner-to-bring-helios-quantum-computer-to-oracle-cloud-infrastructure",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 47,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum and Oracle Partner to Bring Helios Quantum Computer to Oracle Cloud Infrastructure",
+          "url": "https://quantumcomputingreport.com/quantinuum-and-oracle-partner-to-bring-helios-quantum-computer-to-oracle-cloud-infrastructure"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://thequantuminsider.com/2026/08/12/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 40,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum and Oracle Partner to Accelerate Hybrid Quantum Compute Adoption on Oracle Cloud Infrastructure",
+          "url": "https://thequantuminsider.com/2026/08/12/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 36,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum & Partners Run 98-Qubit Quantum Fourier Transform",
+          "url": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 60,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
+          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
+        },
+        {
+          "date": "2026-07-20",
+          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
+          "report": "2026-07/2026-07-20-digest.md",
+          "score": 14,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
+          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://quantumzeitgeist.com/quantinuum-qnt",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 45,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum (QNT): A Commercial History",
+          "url": "https://quantumzeitgeist.com/quantinuum-qnt"
+        }
+      ],
+      "evidence_count": 10,
+      "first_seen": "2026-06-22",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-15",
+      "momentum": "declining",
+      "name": "Quantinuum",
+      "prior_count": 4,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "QEC / Fault Tolerance",
+        "Quantum Hardware"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 9,
+      "evidence": [
+        {
+          "date": "2026-09-10",
+          "key": "https://blog.cloudflare.com/post-quantum-dnssec-1111",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 144,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+          "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://blog.cloudflare.com/automatic-key-exchange-for-origins",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 69,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+          "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins"
+        },
+        {
+          "date": "2026-08-11",
+          "key": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government",
+          "report": "2026-08/2026-08-11-digest.md",
+          "score": 100,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "Cloudflare achieves quantum-secure FedRAMP High for U.S. government work",
+          "url": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government"
+        },
+        {
+          "date": "2026-08-10",
+          "key": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high",
+          "report": "2026-08/2026-08-10-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Cloudflare Expands Quantum-Safe Government Security Platform With FedRAMP High Authorization",
+          "url": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high"
+        },
+        {
+          "date": "2026-08-06",
+          "key": "https://blog.cloudflare.com/mcp-v2",
+          "report": "2026-08/2026-08-06-digest.md",
+          "score": 26,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The next generation of MCP",
+          "url": "https://blog.cloudflare.com/mcp-v2"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://blog.cloudflare.com/smaller-faster-safer-models",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 22,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+          "url": "https://blog.cloudflare.com/smaller-faster-safer-models"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 55,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post-quantum authentication to origins is now supported",
+          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
+        },
+        {
+          "date": "2026-07-09",
+          "key": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
+          "report": "2026-07/2026-07-09-digest.md",
+          "score": 139,
+          "source": "Cloudflare Post-Quantum Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why we cannot wait for better post-quantum signature algorithms",
+          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://blog.cloudflare.com/post-quantum-eo-2026",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 50,
+          "source": "Cloudflare Post-Quantum Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
+          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
+        }
+      ],
+      "evidence_count": 9,
+      "first_seen": "2026-06-23",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-10",
+      "momentum": "declining",
+      "name": "Cloudflare",
+      "prior_count": 1,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "AI Security",
+        "PQC / Crypto Agility",
         "Standards / Government"
       ],
       "type": "company"
@@ -3837,11 +3898,11 @@
       "first_seen": "2026-07-03",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-17",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "PQShield",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -4457,9 +4518,9 @@
       "first_seen": "2026-06-30",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-08",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "D-Wave",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -4865,9 +4926,9 @@
       "first_seen": "2026-07-27",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-08",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "PQCA",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5357,6 +5418,41 @@
     },
     {
       "aliases": [
+        "Microsoft Research Quantum"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
+      "evidence": [
+        {
+          "date": "2026-09-22",
+          "key": "https://thequantuminsider.com/2026/09/22/microsoft-quantum-qolab-propose-higher-bar-for-scalable-logical-qubits",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 92,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Microsoft Quantum, QOLAB Propose Higher Bar For \u2018Scalable\u2019 Logical Qubits",
+          "url": "https://thequantuminsider.com/2026/09/22/microsoft-quantum-qolab-propose-higher-bar-for-scalable-logical-qubits"
+        }
+      ],
+      "evidence_count": 1,
+      "first_seen": "2026-09-22",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-22",
+      "momentum": "rising",
+      "name": "Microsoft Quantum",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "Quantum Software / Tooling"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
         "OQS",
         "liboqs"
       ],
@@ -5741,10 +5837,10 @@
       "latest_seen": "2026-09-14",
       "momentum": "declining",
       "name": "Infleqtion",
-      "prior_count": 6,
+      "prior_count": 5,
       "priority": "medium",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -6245,9 +6341,9 @@
       "first_seen": "2026-07-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-08",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Rigetti",
-      "prior_count": 2,
+      "prior_count": 0,
       "priority": "medium",
       "recent_count": 0,
       "status": "quiet",
@@ -6351,11 +6447,11 @@
       "first_seen": "2026-09-15",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-15",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Entrust",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "medium",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -6372,8 +6468,32 @@
         "cryptographic inventory"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 11,
+      "current_evidence_count": 13,
       "evidence": [
+        {
+          "date": "2026-09-22",
+          "key": "https://www.keyfactor.com/blog/the-government-just-set-a-quantum-computing-deadline-heres-what-it-actually-means-for-you",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 100,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "The Government Just Set a Quantum Computing Deadline. Here's What It Actually Means for You.",
+          "url": "https://www.keyfactor.com/blog/the-government-just-set-a-quantum-computing-deadline-heres-what-it-actually-means-for-you"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://www.keyfactor.com/blog/the-eu-cyber-resilience-act-a-cryptography-and-pki-playbook-for-software-publishers",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 34,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The EU Cyber Resilience Act: A Cryptography and PKI Playbook for Software Publishers",
+          "url": "https://www.keyfactor.com/blog/the-eu-cyber-resilience-act-a-cryptography-and-pki-playbook-for-software-publishers"
+        },
         {
           "date": "2026-09-15",
           "key": "https://thequantuminsider.com/2026/09/15/entrust-adds-cbom-capabilities-cryptographic-security-platform",
@@ -7131,18 +7251,19 @@
           "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf"
         }
       ],
-      "evidence_count": 37,
+      "evidence_count": 39,
       "first_seen": "2025-07-24",
       "historical_evidence_count": 26,
-      "latest_seen": "2026-09-15",
-      "momentum": "stable",
+      "latest_seen": "2026-09-22",
+      "momentum": "rising",
       "name": "Crypto-agility",
       "prior_count": 1,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
-        "PQC / Crypto Agility"
+        "PQC / Crypto Agility",
+        "Standards / Government"
       ],
       "type": "technology"
     },
@@ -7153,8 +7274,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 30,
+      "current_evidence_count": 31,
       "evidence": [
+        {
+          "date": "2026-09-22",
+          "key": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 125,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "IonQ Demonstrates Real-Time QEC Decoding at MegaQuOp Scale on Single Commodity CPU",
+          "url": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu"
+        },
         {
           "date": "2026-09-18",
           "key": "https://quantumcomputingreport.com/riverlane-establishes-u-s-headquarters-in-marylands-discovery-district-to-scale-real-time-qec-deployments",
@@ -7540,15 +7673,15 @@
           "url": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/"
         }
       ],
-      "evidence_count": 31,
+      "evidence_count": 32,
       "first_seen": "2026-01-13",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-09-18",
-      "momentum": "stable",
+      "latest_seen": "2026-09-22",
+      "momentum": "declining",
       "name": "Quantum error correction",
-      "prior_count": 3,
+      "prior_count": 5,
       "priority": "critical",
-      "recent_count": 4,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "AI Security",
@@ -7563,8 +7696,32 @@
         "fault-tolerant quantum"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 22,
+      "current_evidence_count": 24,
       "evidence": [
+        {
+          "date": "2026-09-22",
+          "key": "https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 94,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QuEra and HPE Partner on Fault-Tolerant Quantum Computing for HPC",
+          "url": "https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://thequantuminsider.com/2026/09/22/microsoft-quantum-qolab-propose-higher-bar-for-scalable-logical-qubits",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 92,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Microsoft Quantum, QOLAB Propose Higher Bar For \u2018Scalable\u2019 Logical Qubits",
+          "url": "https://thequantuminsider.com/2026/09/22/microsoft-quantum-qolab-propose-higher-bar-for-scalable-logical-qubits"
+        },
         {
           "date": "2026-09-15",
           "key": "https://thequantuminsider.com/2026/09/15/usc-and-quantum-elements-error-correction-technique-demonstrates-surface-code-scaling-with-logical-qubits",
@@ -7902,15 +8059,15 @@
           "url": "https://www.quera.com/press-releases/quera-selected-for-phase-1-of-darpas-quantum-benchmarking-initiative"
         }
       ],
-      "evidence_count": 25,
+      "evidence_count": 27,
       "first_seen": "2025-04-29",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-09-15",
+      "latest_seen": "2026-09-22",
       "momentum": "declining",
       "name": "Logical qubits",
-      "prior_count": 5,
+      "prior_count": 6,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -7969,9 +8126,9 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-08",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "ML-DSA",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "critical",
       "recent_count": 0,
       "status": "quiet",
@@ -8690,15 +8847,6 @@
     },
     {
       "aliases": [
-        "Microsoft Research Quantum"
-      ],
-      "case_sensitive_aliases": [],
-      "name": "Microsoft Quantum",
-      "priority": "high",
-      "type": "company"
-    },
-    {
-      "aliases": [
         "National Security Agency"
       ],
       "case_sensitive_aliases": [],
@@ -8758,6 +8906,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-09-22T02:53:12.694237+00:00",
+  "updated_at": "2026-09-23T02:53:16.271005+00:00",
   "version": 2
 }

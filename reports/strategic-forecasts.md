@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-09-22T02:45:29.401531+00:00_
+_Updated 2026-09-23T02:46:09.605997+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 86% · Genesis Mission
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-21?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-22?
 
 **Horizon:** 2026-10-29
 
@@ -44,7 +44,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 74% · Golden Dome for America
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-21?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-22?
 
 **Horizon:** 2026-10-29
 
@@ -70,7 +70,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 46% · AI Forge
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-21?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-22?
 
 **Horizon:** 2026-11-21
 
@@ -94,7 +94,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 46% · Quantum Genesis
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2026-12-21?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2026-12-22?
 
 **Horizon:** 2026-12-17
 
@@ -116,28 +116,6 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 - The mission or related program is delayed, rescoped, or funding is withdrawn.
 - The horizon closes with no additional linked opportunity.
 - Execution moves entirely through existing vehicles without a new public notice.
-
-### 70% · AI Forge
-
-Will authoritative evidence confirm “Launch the AI Forge university-industry-government forum” by 2026-09-29?
-
-**Horizon:** 2026-09-29
-
-**Why:** The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.
-
-**Evidence**
-
-- [Launch the AI Forge university-industry-government forum](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security) — official milestone · 2026-09-22
-
-**Confirming indicators**
-
-- An official update states that the milestone was completed or delivered.
-- A resulting award, demonstration, report, or implementation artifact is published.
-
-**Disconfirming indicators**
-
-- An official source delays, cancels, or materially rescopes the milestone.
-- The confirmation horizon passes without authoritative completion evidence.
 
 ### 70% · Project Triad
 
@@ -163,7 +141,7 @@ Will authoritative evidence confirm “Advance selected NSF NQVL projects from d
 
 ### 59% · QC-ADDS
 
-Will authoritative evidence confirm “Publish a summary of QC-ADDS technical specifications” by 2026-10-22?
+Will authoritative evidence confirm “Publish a summary of QC-ADDS technical specifications” by 2026-10-23?
 
 **Horizon:** 2026-09-27
 
@@ -172,6 +150,28 @@ Will authoritative evidence confirm “Publish a summary of QC-ADDS technical sp
 **Evidence**
 
 - [Publish a summary of QC-ADDS technical specifications](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/) — official milestone · 2026-09-20
+
+**Confirming indicators**
+
+- An official update states that the milestone was completed or delivered.
+- A resulting award, demonstration, report, or implementation artifact is published.
+
+**Disconfirming indicators**
+
+- An official source delays, cancels, or materially rescopes the milestone.
+- The confirmation horizon passes without authoritative completion evidence.
+
+### 57% · AI Forge
+
+Will authoritative evidence confirm “Launch the AI Forge university-industry-government forum” by 2026-10-23?
+
+**Horizon:** 2026-09-29
+
+**Why:** The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.
+
+**Evidence**
+
+- [Launch the AI Forge university-industry-government forum](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security) — official milestone · 2026-09-22
 
 **Confirming indicators**
 

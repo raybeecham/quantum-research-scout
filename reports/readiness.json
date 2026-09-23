@@ -997,9 +997,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 6,
+      "evidence_count": 7,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-09-01",
+      "latest_evidence_at": "2026-09-22",
       "name": "Cisco",
       "priority": "high",
       "source_count": 2,
@@ -1007,6 +1007,21 @@
       "stage_label": "Awareness",
       "stage_rank": 1,
       "supporting_evidence": [
+        {
+          "date": "2026-09-22",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "pqc"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "PQC for Dummies\u2014Cisco Special Edition: Why we wrote it",
+          "url": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it"
+        },
         {
           "date": "2026-09-01",
           "date_confidence": "unknown",
@@ -1936,6 +1951,6 @@
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-09-22T02:53:13.179037+00:00",
+  "updated_at": "2026-09-23T02:53:16.919503+00:00",
   "version": 1
 }

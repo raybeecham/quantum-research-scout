@@ -2209,12 +2209,48 @@
           "source": "IACR ePrint",
           "title": "Too Small to Hide: Single-Trace Key Recovery from ML-KEM Key Generation",
           "url": "https://eprint.iacr.org/2026/2137"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://www.keyfactor.com/blog/the-eu-cyber-resilience-act-a-cryptography-and-pki-playbook-for-software-publishers",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 34,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "The EU Cyber Resilience Act: A Cryptography and PKI Playbook for Software Publishers",
+          "url": "https://www.keyfactor.com/blog/the-eu-cyber-resilience-act-a-cryptography-and-pki-playbook-for-software-publishers"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 58,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "PQC for Dummies\u2014Cisco Special Edition: Why we wrote it",
+          "url": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://eprint.iacr.org/2026/2149",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 88,
+          "source": "IACR ePrint",
+          "title": "Identify Post-Quantum Cryptographic Algorithms for Automotive Security: Performance-Driven Guidance for Secure Boot, OTA, and V2X Communication",
+          "url": "https://eprint.iacr.org/2026/2149"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://thequantuminsider.com/2026/09/22/quantum-xchange-carahsoft-post-quantum-cryptography-government",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "Quantum XChange and Carahsoft Partner on Post-Quantum Cryptography for Government",
+          "url": "https://thequantuminsider.com/2026/09/22/quantum-xchange-carahsoft-post-quantum-cryptography-government"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-09-21",
+      "latest_seen": "2026-09-22",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -2223,8 +2259,8 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 21,
-      "recent_count": 21,
+      "prior_count": 23,
+      "recent_count": 19,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -2841,13 +2877,22 @@
           "source": "The Quantum Insider",
           "title": "DOE Launches $215 Million Quantum Genesis Q Competition",
           "url": "https://thequantuminsider.com/2026/09/18/doe-215-million-quantum-genesis-q-competition"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 125,
+          "source": "Quantum Computing Report",
+          "title": "IonQ Demonstrates Real-Time QEC Decoding at MegaQuOp Scale on Single Commodity CPU",
+          "url": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-09-18",
-      "momentum": "rising",
+      "latest_seen": "2026-09-22",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
@@ -2855,9 +2900,9 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 5,
-      "recent_count": 12,
-      "status": "actionable"
+      "prior_count": 11,
+      "recent_count": 5,
+      "status": "watching"
     },
     "Quantum Hardware": {
       "confidence": "high",
@@ -5516,21 +5561,39 @@
           "source": "Quantum Journal",
           "title": "Heuristic and Optimal Synthesis of CNOT and Clifford Circuits",
           "url": "https://quantum-journal.org/papers/q-2026-09-21-2212"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://quantumcomputingreport.com/quobly-integrates-alloy-forge-emulator-with-qbraid-cloud-to-accelerate-silicon-spin-qubit-application-development",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 26,
+          "source": "Quantum Computing Report",
+          "title": "Quobly Integrates Alloy Forge Emulator with qBraid Cloud to Accelerate Silicon Spin-Qubit Application Development",
+          "url": "https://quantumcomputingreport.com/quobly-integrates-alloy-forge-emulator-with-qbraid-cloud-to-accelerate-silicon-spin-qubit-application-development"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 94,
+          "source": "The Quantum Insider",
+          "title": "QuEra and HPE Partner on Fault-Tolerant Quantum Computing for HPC",
+          "url": "https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-09-21",
-      "momentum": "declining",
+      "latest_seen": "2026-09-22",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
         "QuantumNews.ai",
-        "arXiv RSS quant-ph",
-        "Quantum Computing Report"
+        "Quantum Computing Report",
+        "arXiv RSS quant-ph"
       ],
-      "prior_count": 23,
+      "prior_count": 20,
       "recent_count": 14,
       "status": "watching"
     },
@@ -7915,13 +7978,22 @@
           "source": "Quantum Computing Report",
           "title": "IBM Research Demonstrates Hybrid Spacetime PEC to Reduce Error-Mitigation Sampling Overhead by 63\u00d7",
           "url": "https://quantumcomputingreport.com/ibm-research-demonstrates-hybrid-spacetime-pec-to-reduce-error-mitigation-sampling-overhead-by-63x"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://thequantuminsider.com/2026/09/22/microsoft-quantum-qolab-propose-higher-bar-for-scalable-logical-qubits",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 92,
+          "source": "The Quantum Insider",
+          "title": "Microsoft Quantum, QOLAB Propose Higher Bar For \u2018Scalable\u2019 Logical Qubits",
+          "url": "https://thequantuminsider.com/2026/09/22/microsoft-quantum-qolab-propose-higher-bar-for-scalable-logical-qubits"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-09-19",
-      "momentum": "rising",
+      "latest_seen": "2026-09-22",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
@@ -7929,9 +8001,9 @@
         "AWS Quantum Technologies Blog",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 2,
-      "recent_count": 6,
-      "status": "actionable"
+      "prior_count": 4,
+      "recent_count": 3,
+      "status": "watching"
     },
     "Standards / Government": {
       "confidence": "high",
@@ -8421,13 +8493,31 @@
           "source": "USAspending \u00b7 Quantum Technologies",
           "title": "CGC VINCENT DANZ - FIN TECH SUPPORT SERVICES",
           "url": "https://www.usaspending.gov/award/CONT_AWD_70Z08026PPBPL0111_7008_-NONE-_-NONE-"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://thequantuminsider.com/2026/09/22/microsoft-gives-darpa-access-to-majorana-system-opens-maryland-quantum-research-center",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "Microsoft Gives DARPA Access to Majorana System, Opens Maryland Quantum Research Center",
+          "url": "https://thequantuminsider.com/2026/09/22/microsoft-gives-darpa-access-to-majorana-system-opens-maryland-quantum-research-center"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://www.keyfactor.com/blog/the-government-just-set-a-quantum-computing-deadline-heres-what-it-actually-means-for-you",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 100,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "The Government Just Set a Quantum Computing Deadline. Here's What It Actually Means for You.",
+          "url": "https://www.keyfactor.com/blog/the-government-just-set-a-quantum-computing-deadline-heres-what-it-actually-means-for-you"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-09-20",
-      "momentum": "rising",
+      "latest_seen": "2026-09-22",
+      "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
         "QuantumNews.ai",
@@ -8435,11 +8525,11 @@
         "USAspending \u00b7 Quantum Technologies",
         "USAspending \u00b7 Advanced Computing"
       ],
-      "prior_count": 4,
-      "recent_count": 7,
-      "status": "actionable"
+      "prior_count": 5,
+      "recent_count": 6,
+      "status": "watching"
     }
   },
-  "updated_at": "2026-09-22T02:53:12.685875+00:00",
+  "updated_at": "2026-09-23T02:53:16.261033+00:00",
   "version": 1
 }

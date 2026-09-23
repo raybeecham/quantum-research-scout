@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-22 02:53 UTC_
+_Updated 2026-09-23 02:53 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 6 | 10 | 15 | 25 |
+| 49 | 6 | 9 | 11 | 29 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -28,14 +28,14 @@ _Updated 2026-09-22 02:53 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 QEC / Fault Tolerance has critical strategic importance and rising momentum.
+- 🔴 QEC / Fault Tolerance has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Hardware
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Hardware has critical strategic importance and declining momentum.
+- 🔴 Quantum Hardware has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Networking
@@ -56,28 +56,21 @@ _Updated 2026-09-22 02:53 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Software / Tooling has critical strategic importance and rising momentum.
+- 🔴 Quantum Software / Tooling has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Standards / Government
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Standards / Government has critical strategic importance and rising momentum.
+- 🔴 Standards / Government has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
-
-## 🔴 Source failing: Quantum Computing Report 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 71.4% reliability with 2 warning day(s).
-- [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: White House Science and Technology Missions
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 93.2% reliability with 4 warning day(s).
+- 🔴 91.7% reliability with 5 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -87,13 +80,6 @@ _Updated 2026-09-22 02:53 UTC_
 - 🎯 AI Security is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: QEC / Fault Tolerance
-
-- Severity: **high**
-- Status: **actionable**
-- 🎯 QEC / Fault Tolerance is actionable with high confidence.
-- [Open supporting view](signals.md)
-
 ## 🟠 Actionable signal: Quantum Sensing
 
 - Severity: **high**
@@ -101,21 +87,15 @@ _Updated 2026-09-22 02:53 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Software / Tooling
+## 🟠 Changed: INFORMATION SYSTEMS SECURITY SUPPORT SERVICES - CALL ORDER 6 POST QUANTUM CRYPTOGRAPHY 🆕
 
 - Severity: **high**
-- Status: **actionable**
-- 🎯 Quantum Software / Tooling is actionable with high confidence.
-- [Open supporting view](signals.md)
+- Status: **changed**
+- reported amount · authority authoritative · 1536712.0
+- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_91990025F0111_9100_91990023A0002_9100)
+- [Open supporting view](intelligence-changes.md)
 
-## 🟠 Actionable signal: Standards / Government
-
-- Severity: **high**
-- Status: **actionable**
-- 🎯 Standards / Government is actionable with high confidence.
-- [Open supporting view](signals.md)
-
-## 🟠 Partnership: IonQ 🆕
+## 🟠 Partnership: IonQ
 
 - Severity: **high**
 - Status: **partnership**
@@ -130,32 +110,11 @@ _Updated 2026-09-22 02:53 UTC_
 - ↗️ Recent evidence is 2 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: QEC / Fault Tolerance
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 12 versus 5 in the prior period.
-- [Open supporting view](signals.md)
-
 ## 🟠 Rising momentum: Quantum Sensing
 
 - Severity: **high**
 - Status: **rising**
 - ↗️ Recent evidence is 3 versus 2 in the prior period.
-- [Open supporting view](signals.md)
-
-## 🟠 Rising momentum: Quantum Software / Tooling
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 6 versus 2 in the prior period.
-- [Open supporting view](signals.md)
-
-## 🟠 Rising momentum: Standards / Government
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 7 versus 4 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Source degraded: Lockheed Martin Quantum Technology
@@ -169,21 +128,28 @@ _Updated 2026-09-22 02:53 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.8% reliability with 2 warning day(s).
+- 🟠 94.9% reliability with 2 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Source degraded: Quantum Computing Report 🆕
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 75.0% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.7% reliability with 1 warning day(s).
+- 🟠 94.8% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.6% reliability with 1 warning day(s).
+- 🟠 94.7% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -284,6 +250,13 @@ _Updated 2026-09-22 02:53 UTC_
 - The latest dated item is from 2026-09-02; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: Grants.gov · Project Triad 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-09-08; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: Grants.gov · Quantum Genesis
 
 - Severity: **medium**
@@ -333,30 +306,51 @@ _Updated 2026-09-22 02:53 UTC_
 - The latest dated item is from 2026-08-27; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: USAspending · Autonomy and Sensing 🆕
+## 🟡 Source stale: USAspending · Autonomy and Sensing
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-28; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: USAspending · Genesis Mission 🆕
+## 🟡 Source stale: USAspending · Genesis Mission
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: USAspending · Golden Dome 🆕
+## 🟡 Source stale: USAspending · Golden Dome
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-04-01; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: USAspending · Post-Quantum Cybersecurity 🆕
+## 🟡 Source stale: USAspending · Post-Quantum Cybersecurity
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-01; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · Quantum Benchmarking Initiative 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2025-10-06; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: White House Science and Technology Missions 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-06-22; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Wiz Post-Quantum Security 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-07-21; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

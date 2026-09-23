@@ -88,6 +88,29 @@
         "score": 10,
         "status": "quarantined"
       },
+      "date": "2026-09-22",
+      "key": "https://www.keyfactor.com/blog/the-government-just-set-a-quantum-computing-deadline-heres-what-it-actually-means-for-you",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "scope": "Federal missions",
+      "source": "Keyfactor Quantum and Crypto-Agility",
+      "stage": "mission evidence admission",
+      "title": "The Government Just Set a Quantum Computing Deadline. Here's What It Actually Means for You.",
+      "url": "https://www.keyfactor.com/blog/the-government-just-set-a-quantum-computing-deadline-heres-what-it-actually-means-for-you"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Executive Order 14412",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
       "date": "2026-09-21",
       "key": "https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you",
       "mission_id": "federal-pqc-transition",
@@ -2260,28 +2283,6 @@
       "stage": "mission evidence admission",
       "title": "INSPIRING GENERATIONS OF NEW INNOVATORS TO IMPACT TECHNOLOGIES IN ENERGY 2026 (IGNIITE 2026)",
       "url": "https://www.grants.gov/search-results-detail/362036"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-04-23",
-      "key": "grants_gov:DE-FOA-0003624",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Golden Dome",
-      "stage": "funding evidence admission",
-      "title": "INSPIRING GENERATIONS OF NEW INNOVATORS TO IMPACT TECHNOLOGIES IN ENERGY 2026 (IGNIITE 2026)",
-      "url": "https://www.grants.gov/search-results-detail/362036"
     }
   ],
   "reason_counts": [
@@ -2297,12 +2298,12 @@
     },
     {
       "code": "official_source",
-      "count": 110,
+      "count": 109,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 20,
+      "count": 21,
       "label": "Source is not an official .gov or .mil domain"
     },
     {
@@ -2321,6 +2322,6 @@
     "quarantined": 133,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-09-22T02:45:29.401531+00:00",
+  "updated_at": "2026-09-23T02:46:09.605997+00:00",
   "version": 1
 }

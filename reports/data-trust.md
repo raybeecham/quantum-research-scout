@@ -1,6 +1,6 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-09-22T02:45:29.401531+00:00_
+_Updated 2026-09-23T02:46:09.605997+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
@@ -19,8 +19,8 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - **Match appears only in collector query metadata**: 130
 - **No relevant term in the evidence itself**: 130
-- **Official government source**: 110
-- **Source is not an official .gov or .mil domain**: 20
+- **Official government source**: 109
+- **Source is not an official .gov or .mil domain**: 21
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -45,6 +45,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [The Government Just Set a Quantum Computing Deadline. Here's What It Actually Means for You.](https://www.keyfactor.com/blog/the-government-just-set-a-quantum-computing-deadline-heres-what-it-actually-means-for-you)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [EO 14412: What the federal PQC mandate means for you | DigiCert](https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you)
 
@@ -715,13 +722,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal missions
 - Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [INSPIRING GENERATIONS OF NEW INNOVATORS TO IMPACT TECHNOLOGIES IN ENERGY 2026 (IGNIITE 2026)](https://www.grants.gov/search-results-detail/362036)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 

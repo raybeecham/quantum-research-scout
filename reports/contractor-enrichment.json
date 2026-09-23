@@ -3601,7 +3601,7 @@
         "Self Certified Small Disadvantaged Business",
         "Subchapter S Corporation"
       ],
-      "cache_status": "fresh",
+      "cache_status": "retained",
       "cage_code": "87Q54",
       "checked_at": "2026-09-11T02:25:03.931737+00:00",
       "contractor_name": "QUANTUM FOODS INC",
@@ -6079,6 +6079,58 @@
     },
     {
       "aliases": [
+        "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE"
+      ],
+      "business_types": [
+        "Educational Institution",
+        "State Controlled Institution of Higher Learning",
+        "U.S. State Government"
+      ],
+      "cache_status": "refreshed",
+      "cage_code": "4B560",
+      "checked_at": "2026-09-23T02:46:09.605997+00:00",
+      "contractor_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
+      "contractor_score": 28,
+      "dba_name": null,
+      "entity_structure": "U.S. Government Entity",
+      "exclusion_status": "N",
+      "identity_id": "uei:KMH5K9V7S518",
+      "immediate_parent": {
+        "name": null,
+        "uei": null
+      },
+      "legal_business_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
+      "naics": [
+        {
+          "code": "611310",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        }
+      ],
+      "organization_structure": null,
+      "psc": [
+        {
+          "code": null,
+          "name": null
+        }
+      ],
+      "purpose_of_registration": "All Awards",
+      "registration_expiration_date": "2026-11-14",
+      "registration_status": "Active",
+      "resolution_basis": "exact UEI match",
+      "resolution_confidence": "high",
+      "resolution_status": "resolved",
+      "sba_business_types": [],
+      "source_url": "https://sam.gov/entity/KMH5K9V7S518/coreData",
+      "uei": "KMH5K9V7S518",
+      "ultimate_parent": {
+        "name": null,
+        "uei": null
+      }
+    },
+    {
+      "aliases": [
         "ODDBALL, INC."
       ],
       "business_types": [
@@ -6650,6 +6702,77 @@
     },
     {
       "aliases": [
+        "VIRGINIA COMMONWEALTH UNIVERSITY"
+      ],
+      "business_types": [
+        "Educational Institution",
+        "Minority Institution",
+        "State Controlled Institution of Higher Learning",
+        "U.S. State Government"
+      ],
+      "cache_status": "refreshed",
+      "cage_code": "46050",
+      "checked_at": "2026-09-23T02:46:09.605997+00:00",
+      "contractor_name": "VIRGINIA COMMONWEALTH UNIVERSITY",
+      "contractor_score": 27,
+      "dba_name": null,
+      "entity_structure": "U.S. Government Entity",
+      "exclusion_status": "N",
+      "identity_id": "uei:MLQFL4JSSAA9",
+      "immediate_parent": {
+        "name": null,
+        "uei": null
+      },
+      "legal_business_name": "VIRGINIA COMMONWEALTH UNIVERSITY",
+      "naics": [
+        {
+          "code": "541690",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541714",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541715",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "611310",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        }
+      ],
+      "organization_structure": null,
+      "psc": [
+        {
+          "code": null,
+          "name": null
+        }
+      ],
+      "purpose_of_registration": "All Awards",
+      "registration_expiration_date": "2027-04-17",
+      "registration_status": "Active",
+      "resolution_basis": "exact UEI match",
+      "resolution_confidence": "high",
+      "resolution_status": "resolved",
+      "sba_business_types": [],
+      "source_url": "https://sam.gov/entity/MLQFL4JSSAA9/coreData",
+      "uei": "MLQFL4JSSAA9",
+      "ultimate_parent": {
+        "name": null,
+        "uei": null
+      }
+    },
+    {
+      "aliases": [
         "UNIVERSITY OF UTAH"
       ],
       "business_types": [
@@ -6889,7 +7012,7 @@
         "Non-Profit Organization",
         "Private University or College"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "retained",
       "cage_code": "5L406",
       "checked_at": "2026-09-22T02:45:29.401531+00:00",
       "contractor_name": "THE JOHNS HOPKINS UNIVERSITY",
@@ -12697,14 +12820,14 @@
     "ambiguous": 6,
     "api_key_configured": true,
     "name_only": 121,
-    "newly_resolved": 0,
+    "newly_resolved": 2,
     "no_match": 1,
     "pending": 114,
-    "queries_remaining": 2,
-    "resolved": 96,
+    "queries_remaining": 1,
+    "resolved": 98,
     "tracked_contractors": 75,
-    "uei_coverage_percent": 128.0
+    "uei_coverage_percent": 130.7
   },
-  "updated_at": "2026-09-22T02:45:29.401531+00:00",
+  "updated_at": "2026-09-23T02:46:09.605997+00:00",
   "version": 1
 }
