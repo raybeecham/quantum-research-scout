@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-09-23 02:46 UTC_
+_Updated 2026-09-24 02:35 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -17,7 +17,7 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Mission-linked records: **15**
 - Missions with activity: **5 of 10**
 - Named recipients and contractors: **327**
-- Known reported award value: **$655.5M**
+- Known reported award value: **$669.8M**
 
 ## Opportunity Radar
 
@@ -99,6 +99,7 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | BOOZ ALLEN HAMILTON INC | UEI JCBMLGPE6Z71 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $32.8M | Department of Homeland Security, Department of the Interior, General Services Administration | Not linked | 0 |
 | ARIZONA STATE UNIVERSITY | UEI NTLHJXM55KZ6 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 8 | $2.1M | National Science Foundation | Not linked | 0 |
 | PURDUE UNIVERSITY | UEI YRXVL4JYCEF5 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $1.6M | National Science Foundation | Not linked | 0 |
+| FOUR POINTS TECHNOLOGY, L.L.C. | UEI H1KHJPJH9R51 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $15.6M | Department of Commerce, Department of Health and Human Services | Not linked | 0 |
 | UNIVERSITY OF WASHINGTON | UEI HD1WMN6945W6 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $13.2M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | AUBURN UNIVERSITY | UEI DMQNDJDHTDG4 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $6.7M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | LOUISIANA STATE UNIVERSITY | UEI ECQEYCHRNKJ4 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $3.2M | National Science Foundation | Not linked | 0 |
@@ -110,7 +111,6 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | THE UNIVERSITY OF IOWA | UEI Z1H9VJS8NG16 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $3.7M | Environmental Protection Agency, National Science Foundation | Not linked | 0 |
 | ALVAREZ LLC | UEI Y928UVG75CT6 | **43 · DEVELOPING** | Established Incumbent | Rising | 4 | $1.1M | Department of Health and Human Services, Department of Homeland Security, Department of Justice | Not linked | 0 |
 | POST QUANTUM LABS LLC | UEI H53MXWJZPYU3 | **42 · DEVELOPING** | Established Incumbent | Declining | 4 | $0 | Department of Defense | Not linked | 0 |
-| FOUR POINTS TECHNOLOGY, L.L.C. | UEI H1KHJPJH9R51 | **40 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $15.4M | Department of Commerce, Department of Health and Human Services | Not linked | 0 |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | UEI GS3YEVSS12N6 | **40 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.5M | Department of Energy, National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF ILLINOIS | UEI Y8CWNJRCNN91 | **39 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.7M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF TEXAS AT AUSTIN | UEI V6AFQPN18437 | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $5.7M | National Science Foundation | Not linked | 0 |

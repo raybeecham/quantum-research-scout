@@ -282,11 +282,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-a545f4c7dbedd1aa",
+      "claim_id": "claim-00acf5a67138c8f0",
       "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-21",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -294,17 +294,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-535282c175b232cc",
+          "evidence_id": "evidence-a8fa3b11b444261f",
           "locator": "opportunity_status:awarded",
-          "title": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO ENABLE UC SAN FRANCISCO TO INVEST IN HIGH-PERFORMANCE COMPUTING (HPC) INFRASTRUCTURE THAT WILL SERVE AS A FOUNDATIONAL RESOURCE FOR AI RESE...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D305_013",
+          "title": "TO PURCHASE ENTERPRISE SERVERS, HYPERCONVERGED INFRASTRUCTURE, NETWORK SWITCHES AND ARTIFICIAL INTELLIGENCE COMPUTING HARDWARE.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB26F00050_2041_NNG15SC20B_8000",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:60NANB26D305",
-        "label": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO ENABLE UC SAN FRANCISCO TO INVEST IN HIGH-PERFORMANCE COMPUTING (HPC) INFRASTRUCTURE THAT WILL SERVE AS A FOUNDATIONAL RESOURCE FOR AI RESE...",
-        "node_id": "award:usaspending:60NANB26D305",
+        "identifier": "usaspending:2031ZB26F00050",
+        "label": "TO PURCHASE ENTERPRISE SERVERS, HYPERCONVERGED INFRASTRUCTURE, NETWORK SWITCHES AND ARTIFICIAL INTELLIGENCE COMPUTING HARDWARE.",
+        "node_id": "award:usaspending:2031ZB26F00050",
         "node_type": "award"
       },
       "value": "awarded"
@@ -312,11 +312,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-b6eab93e3115ed1b",
+      "claim_id": "claim-36365b1dde47890c",
       "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-21",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -324,29 +324,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-89e1e2309590e6de",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO ENABLE UC SAN FRANCISCO TO INVEST IN HIGH-PERFORMANCE COMPUTING (HPC) INFRASTRUCTURE THAT WILL SERVE AS A FOUNDATIONAL RESOURCE FOR AI RESE...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D305_013",
+          "evidence_id": "evidence-1c4586c45f6fddb2",
+          "locator": "awarding_agency:department of the treasury",
+          "title": "TO PURCHASE ENTERPRISE SERVERS, HYPERCONVERGED INFRASTRUCTURE, NETWORK SWITCHES AND ARTIFICIAL INTELLIGENCE COMPUTING HARDWARE.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB26F00050_2041_NNG15SC20B_8000",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:60NANB26D305",
-        "label": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO ENABLE UC SAN FRANCISCO TO INVEST IN HIGH-PERFORMANCE COMPUTING (HPC) INFRASTRUCTURE THAT WILL SERVE AS A FOUNDATIONAL RESOURCE FOR AI RESE...",
-        "node_id": "award:usaspending:60NANB26D305",
+        "identifier": "usaspending:2031ZB26F00050",
+        "label": "TO PURCHASE ENTERPRISE SERVERS, HYPERCONVERGED INFRASTRUCTURE, NETWORK SWITCHES AND ARTIFICIAL INTELLIGENCE COMPUTING HARDWARE.",
+        "node_id": "award:usaspending:2031ZB26F00050",
         "node_type": "award"
       },
-      "value": "Department of Commerce"
+      "value": "Department of the Treasury"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-241d11a616268a16",
+      "claim_id": "claim-412a84dfaa99669d",
       "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-21",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -354,33 +354,33 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5e87e392e09c6cac",
-          "locator": "reported_amount:1031000.0",
-          "title": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO ENABLE UC SAN FRANCISCO TO INVEST IN HIGH-PERFORMANCE COMPUTING (HPC) INFRASTRUCTURE THAT WILL SERVE AS A FOUNDATIONAL RESOURCE FOR AI RESE...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D305_013",
+          "evidence_id": "evidence-4eea2c57a777f900",
+          "locator": "reported_amount:7692933.33",
+          "title": "TO PURCHASE ENTERPRISE SERVERS, HYPERCONVERGED INFRASTRUCTURE, NETWORK SWITCHES AND ARTIFICIAL INTELLIGENCE COMPUTING HARDWARE.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB26F00050_2041_NNG15SC20B_8000",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:60NANB26D305",
-        "label": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO ENABLE UC SAN FRANCISCO TO INVEST IN HIGH-PERFORMANCE COMPUTING (HPC) INFRASTRUCTURE THAT WILL SERVE AS A FOUNDATIONAL RESOURCE FOR AI RESE...",
-        "node_id": "award:usaspending:60NANB26D305",
+        "identifier": "usaspending:2031ZB26F00050",
+        "label": "TO PURCHASE ENTERPRISE SERVERS, HYPERCONVERGED INFRASTRUCTURE, NETWORK SWITCHES AND ARTIFICIAL INTELLIGENCE COMPUTING HARDWARE.",
+        "node_id": "award:usaspending:2031ZB26F00050",
         "node_type": "award"
       },
-      "value": 1031000.0
+      "value": 7692933.33
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-3601e49d34ccadfb",
+      "claim_id": "claim-5578b274d3d689bf",
       "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-21",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": {
-        "identifier": "uei:KMH5K9V7S518",
-        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
-        "node_id": "recipient_or_contractor:uei:KMH5K9V7S518",
+        "identifier": "uei:YZTLALWM4UC7",
+        "label": "STERLING COMPUTERS CORPORATION",
+        "node_id": "recipient_or_contractor:uei:YZTLALWM4UC7",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -389,64 +389,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d25c0dba2eb9d571",
-          "locator": "reported_recipient:recipient_or_contractor:uei:KMH5K9V7S518",
-          "title": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO ENABLE UC SAN FRANCISCO TO INVEST IN HIGH-PERFORMANCE COMPUTING (HPC) INFRASTRUCTURE THAT WILL SERVE AS A FOUNDATIONAL RESOURCE FOR AI RESE...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D305_013",
+          "evidence_id": "evidence-4866942a21916a35",
+          "locator": "reported_recipient:recipient_or_contractor:uei:YZTLALWM4UC7",
+          "title": "TO PURCHASE ENTERPRISE SERVERS, HYPERCONVERGED INFRASTRUCTURE, NETWORK SWITCHES AND ARTIFICIAL INTELLIGENCE COMPUTING HARDWARE.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB26F00050_2041_NNG15SC20B_8000",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:60NANB26D305",
-        "label": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO ENABLE UC SAN FRANCISCO TO INVEST IN HIGH-PERFORMANCE COMPUTING (HPC) INFRASTRUCTURE THAT WILL SERVE AS A FOUNDATIONAL RESOURCE FOR AI RESE...",
-        "node_id": "award:usaspending:60NANB26D305",
+        "identifier": "usaspending:2031ZB26F00050",
+        "label": "TO PURCHASE ENTERPRISE SERVERS, HYPERCONVERGED INFRASTRUCTURE, NETWORK SWITCHES AND ARTIFICIAL INTELLIGENCE COMPUTING HARDWARE.",
+        "node_id": "award:usaspending:2031ZB26F00050",
         "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-5a741c8321a32220",
-      "confidence": "high",
-      "effective_date": null,
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "PCTUS2025026280",
-        "label": "HIGH-PRECISION CHEMICAL QUANTUM SENSING IN FLOWING MONODISPERSE MICRODROPLETS",
-        "node_id": "patent:PCTUS2025026280",
-        "node_type": "patent"
-      },
-      "predicate": "has_related_patent",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-00634fa6b762a145",
-          "locator": "has_related_patent:patent:PCTUS2025026280",
-          "title": "HIGH-PRECISION CHEMICAL QUANTUM SENSING IN FLOWING MONODISPERSE MICRODROPLETS",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025026280/application-data",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:KMH5K9V7S518",
-        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
-        "node_id": "recipient_or_contractor:uei:KMH5K9V7S518",
-        "node_type": "recipient_or_contractor"
       },
       "value": null
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-03db0b3f8b2cc1b0",
+      "claim_id": "claim-7c554b6013e9a375",
       "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-21",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -454,17 +419,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-532ba92b22cf6a55",
+          "evidence_id": "evidence-6cb1106d5ccc1063",
           "locator": "opportunity_status:awarded",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AIM FELLOWS - ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING INDUSTRY PHD FELLOWSHIPS WITH DATA SCIENCE, CYBERSECURITY, AND ONLINE SAFETY...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535355_049",
+          "title": "EDUSA AI & QUANTUM TECHNOLOGIES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_19AS2026P1012_1900_-NONE-_-NONE-",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2535355",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AIM FELLOWS - ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING INDUSTRY PHD FELLOWSHIPS WITH DATA SCIENCE, CYBERSECURITY, AND ONLINE SAFETY...",
-        "node_id": "award:usaspending:2535355",
+        "identifier": "usaspending:19AS2026P1012",
+        "label": "EDUSA AI & QUANTUM TECHNOLOGIES",
+        "node_id": "award:usaspending:19AS2026P1012",
         "node_type": "award"
       },
       "value": "awarded"
@@ -472,11 +437,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-ad1d6df95a7fe856",
+      "claim_id": "claim-accf2a54a034d6d4",
       "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-21",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -484,29 +449,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6e51f919b1c32db8",
-          "locator": "awarding_agency:national science foundation",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AIM FELLOWS - ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING INDUSTRY PHD FELLOWSHIPS WITH DATA SCIENCE, CYBERSECURITY, AND ONLINE SAFETY...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535355_049",
+          "evidence_id": "evidence-16055f32d0c405bd",
+          "locator": "awarding_agency:department of state",
+          "title": "EDUSA AI & QUANTUM TECHNOLOGIES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_19AS2026P1012_1900_-NONE-_-NONE-",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2535355",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AIM FELLOWS - ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING INDUSTRY PHD FELLOWSHIPS WITH DATA SCIENCE, CYBERSECURITY, AND ONLINE SAFETY...",
-        "node_id": "award:usaspending:2535355",
+        "identifier": "usaspending:19AS2026P1012",
+        "label": "EDUSA AI & QUANTUM TECHNOLOGIES",
+        "node_id": "award:usaspending:19AS2026P1012",
         "node_type": "award"
       },
-      "value": "National Science Foundation"
+      "value": "Department of State"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-f7d812780913b74d",
+      "claim_id": "claim-6bd6b66c4d0abf41",
       "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-21",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -514,33 +479,33 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5bcf879d13c0b4d4",
-          "locator": "reported_amount:954000.0",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AIM FELLOWS - ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING INDUSTRY PHD FELLOWSHIPS WITH DATA SCIENCE, CYBERSECURITY, AND ONLINE SAFETY...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535355_049",
+          "evidence_id": "evidence-7c10288593256789",
+          "locator": "reported_amount:268201.0",
+          "title": "EDUSA AI & QUANTUM TECHNOLOGIES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_19AS2026P1012_1900_-NONE-_-NONE-",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2535355",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AIM FELLOWS - ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING INDUSTRY PHD FELLOWSHIPS WITH DATA SCIENCE, CYBERSECURITY, AND ONLINE SAFETY...",
-        "node_id": "award:usaspending:2535355",
+        "identifier": "usaspending:19AS2026P1012",
+        "label": "EDUSA AI & QUANTUM TECHNOLOGIES",
+        "node_id": "award:usaspending:19AS2026P1012",
         "node_type": "award"
       },
-      "value": 954000.0
+      "value": 268201.0
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-afc0198a44a67bc2",
+      "claim_id": "claim-0551e8a38b43d5f3",
       "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-21",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": {
-        "identifier": "uei:Z94KLERAG5V9",
-        "label": "UNIVERSITY OF VERMONT & STATE AGRICULTURAL COLLEGE",
-        "node_id": "recipient_or_contractor:uei:Z94KLERAG5V9",
+        "identifier": "uei:WWH4L4GKKW58",
+        "label": "EDUCATION DEVELOPMENT CENTER, INC.",
+        "node_id": "recipient_or_contractor:uei:WWH4L4GKKW58",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -549,17 +514,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0801b0de939f0f09",
-          "locator": "reported_recipient:recipient_or_contractor:uei:Z94KLERAG5V9",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AIM FELLOWS - ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING INDUSTRY PHD FELLOWSHIPS WITH DATA SCIENCE, CYBERSECURITY, AND ONLINE SAFETY...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535355_049",
+          "evidence_id": "evidence-5308f842e81ae6da",
+          "locator": "reported_recipient:recipient_or_contractor:uei:WWH4L4GKKW58",
+          "title": "EDUSA AI & QUANTUM TECHNOLOGIES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_19AS2026P1012_1900_-NONE-_-NONE-",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2535355",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AIM FELLOWS - ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING INDUSTRY PHD FELLOWSHIPS WITH DATA SCIENCE, CYBERSECURITY, AND ONLINE SAFETY...",
-        "node_id": "award:usaspending:2535355",
+        "identifier": "usaspending:19AS2026P1012",
+        "label": "EDUSA AI & QUANTUM TECHNOLOGIES",
+        "node_id": "award:usaspending:19AS2026P1012",
         "node_type": "award"
       },
       "value": null
@@ -567,11 +532,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-585df632109eeb66",
+      "claim_id": "claim-b8ee45d6460e351f",
       "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-23",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -579,17 +544,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9adedec44321a451",
+          "evidence_id": "evidence-936af6a27c6a88ee",
           "locator": "opportunity_status:awarded",
-          "title": "Award Notice: Aircraft Sensor Support Services",
-          "url": "https://sam.gov/workspace/contract/opp/7147a9f246d64084a8007978abc6eeb2/view",
+          "title": "AN13--Miniaturized CO2 Sensor Prototype Development",
+          "url": "https://sam.gov/workspace/contract/opp/bfe559b589684232916e4bb0afe058ec/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:CBP_AwardNotice_09222026",
-        "label": "Award Notice: Aircraft Sensor Support Services",
-        "node_id": "award_notice:sam_gov:CBP_AwardNotice_09222026",
+        "identifier": "sam_gov:36C24E26Q0041",
+        "label": "AN13--Miniaturized CO2 Sensor Prototype Development",
+        "node_id": "award_notice:sam_gov:36C24E26Q0041",
         "node_type": "award_notice"
       },
       "value": "awarded"
@@ -597,11 +562,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-d495540e97bb65aa",
+      "claim_id": "claim-e93d47cc346dc537",
       "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-23",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "set_aside",
       "sources": [
@@ -609,184 +574,184 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-804ebb3a6d93314b",
-          "locator": "set_aside:no set aside used",
-          "title": "Award Notice: Aircraft Sensor Support Services",
-          "url": "https://sam.gov/workspace/contract/opp/7147a9f246d64084a8007978abc6eeb2/view",
+          "evidence_id": "evidence-8742e34b694ef2fb",
+          "locator": "set_aside:service-disabled veteran-owned small business (sdvosb) set-aside (far 19.14)",
+          "title": "AN13--Miniaturized CO2 Sensor Prototype Development",
+          "url": "https://sam.gov/workspace/contract/opp/bfe559b589684232916e4bb0afe058ec/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:CBP_AwardNotice_09222026",
-        "label": "Award Notice: Aircraft Sensor Support Services",
-        "node_id": "award_notice:sam_gov:CBP_AwardNotice_09222026",
+        "identifier": "sam_gov:36C24E26Q0041",
+        "label": "AN13--Miniaturized CO2 Sensor Prototype Development",
+        "node_id": "award_notice:sam_gov:36C24E26Q0041",
         "node_type": "award_notice"
       },
-      "value": "No Set aside used"
+      "value": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-7ffc0cb3cf3a3760",
+      "claim_id": "claim-3ff1a673232bf30d",
+      "confidence": "high",
+      "effective_date": "2026-09-23",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5af43f157010078b",
+          "locator": "awarding_agency:veterans affairs, department of.veterans affairs, department of.rpo east (36c24e)",
+          "title": "AN13--Miniaturized CO2 Sensor Prototype Development",
+          "url": "https://sam.gov/workspace/contract/opp/bfe559b589684232916e4bb0afe058ec/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:36C24E26Q0041",
+        "label": "AN13--Miniaturized CO2 Sensor Prototype Development",
+        "node_id": "award_notice:sam_gov:36C24E26Q0041",
+        "node_type": "award_notice"
+      },
+      "value": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.RPO EAST (36C24E)"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1862074b3e650787",
+      "confidence": "high",
+      "effective_date": "2026-09-23",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ed7e49719688d13e",
+          "locator": "reported_amount:1499888.0",
+          "title": "AN13--Miniaturized CO2 Sensor Prototype Development",
+          "url": "https://sam.gov/workspace/contract/opp/bfe559b589684232916e4bb0afe058ec/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:36C24E26Q0041",
+        "label": "AN13--Miniaturized CO2 Sensor Prototype Development",
+        "node_id": "award_notice:sam_gov:36C24E26Q0041",
+        "node_type": "award_notice"
+      },
+      "value": 1499888.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-e2831e37672fa8fa",
+      "confidence": "high",
+      "effective_date": "2026-09-23",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "object": {
+        "identifier": "name:red duke strategies",
+        "label": "Red Duke Strategies LLC",
+        "node_id": "recipient_or_contractor:name:red duke strategies",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9ded37e2d5135a63",
+          "locator": "reported_recipient:recipient_or_contractor:name:red duke strategies",
+          "title": "AN13--Miniaturized CO2 Sensor Prototype Development",
+          "url": "https://sam.gov/workspace/contract/opp/bfe559b589684232916e4bb0afe058ec/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:36C24E26Q0041",
+        "label": "AN13--Miniaturized CO2 Sensor Prototype Development",
+        "node_id": "award_notice:sam_gov:36C24E26Q0041",
+        "node_type": "award_notice"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-b224306752f66abb",
       "confidence": "high",
       "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
-      "predicate": "awarding_agency",
+      "predicate": "opportunity_status",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8584dae054346c04",
-          "locator": "awarding_agency:homeland security, department of.us customs and border protection.air and marine contracting division",
-          "title": "Award Notice: Aircraft Sensor Support Services",
-          "url": "https://sam.gov/workspace/contract/opp/7147a9f246d64084a8007978abc6eeb2/view",
+          "evidence_id": "evidence-c8e78574e3e5ae3e",
+          "locator": "opportunity_status:awarded",
+          "title": "ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0372_3600_47QTCA25D00AX_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:CBP_AwardNotice_09222026",
-        "label": "Award Notice: Aircraft Sensor Support Services",
-        "node_id": "award_notice:sam_gov:CBP_AwardNotice_09222026",
-        "node_type": "award_notice"
+        "identifier": "usaspending:36C10B26F0372",
+        "label": "ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO...",
+        "node_id": "award:usaspending:36C10B26F0372",
+        "node_type": "award"
       },
-      "value": "HOMELAND SECURITY, DEPARTMENT OF.US CUSTOMS AND BORDER PROTECTION.AIR AND MARINE CONTRACTING DIVISION"
+      "value": "awarded"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-04e3289ccf1c66e6",
+      "claim_id": "claim-cff51adeb1fc6d90",
       "confidence": "high",
       "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
-      "predicate": "reported_amount",
+      "predicate": "awarding_agency",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ad9cf83fb0f262e0",
-          "locator": "reported_amount:22154397.0",
-          "title": "Award Notice: Aircraft Sensor Support Services",
-          "url": "https://sam.gov/workspace/contract/opp/7147a9f246d64084a8007978abc6eeb2/view",
+          "evidence_id": "evidence-da667b6472fd808a",
+          "locator": "awarding_agency:department of veterans affairs",
+          "title": "ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0372_3600_47QTCA25D00AX_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:CBP_AwardNotice_09222026",
-        "label": "Award Notice: Aircraft Sensor Support Services",
-        "node_id": "award_notice:sam_gov:CBP_AwardNotice_09222026",
-        "node_type": "award_notice"
+        "identifier": "usaspending:36C10B26F0372",
+        "label": "ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO...",
+        "node_id": "award:usaspending:36C10B26F0372",
+        "node_type": "award"
       },
-      "value": 22154397.0
+      "value": "Department of Veterans Affairs"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-5e4fdb0cf06a9676",
+      "claim_id": "claim-9ae262e82b6c6a23",
       "confidence": "high",
       "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "name:scientific research",
-        "label": "SCIENTIFIC RESEARCH CORPORATION",
-        "node_id": "recipient_or_contractor:name:scientific research",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-545146abb26be3dc",
-          "locator": "reported_recipient:recipient_or_contractor:name:scientific research",
-          "title": "Award Notice: Aircraft Sensor Support Services",
-          "url": "https://sam.gov/workspace/contract/opp/7147a9f246d64084a8007978abc6eeb2/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:CBP_AwardNotice_09222026",
-        "label": "Award Notice: Aircraft Sensor Support Services",
-        "node_id": "award_notice:sam_gov:CBP_AwardNotice_09222026",
-        "node_type": "award_notice"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-344a2edb711d2e7a",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-51a3a8c311bc4aa4",
-          "locator": "opportunity_status:awarded",
-          "title": "PURPOSE: THE UNIVERSITY OF WASHINGTON (UW) WILL DEPLOY THE HUSKY SECURE COMPUTING DATA & INFRASTRUCTURE PROJECT TO BUILD A SECURE, INTEGRATED COMPUTING AND DATA PLATFORM FOR ADVAN...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D053_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D053",
-        "label": "PURPOSE: THE UNIVERSITY OF WASHINGTON (UW) WILL DEPLOY THE HUSKY SECURE COMPUTING DATA & INFRASTRUCTURE PROJECT TO BUILD A SECURE, INTEGRATED COMPUTING AND DATA PLATFORM FOR ADVAN...",
-        "node_id": "award:usaspending:60NANB26D053",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5c988743acd52ec6",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e4c17fd160a35ae1",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSE: THE UNIVERSITY OF WASHINGTON (UW) WILL DEPLOY THE HUSKY SECURE COMPUTING DATA & INFRASTRUCTURE PROJECT TO BUILD A SECURE, INTEGRATED COMPUTING AND DATA PLATFORM FOR ADVAN...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D053_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D053",
-        "label": "PURPOSE: THE UNIVERSITY OF WASHINGTON (UW) WILL DEPLOY THE HUSKY SECURE COMPUTING DATA & INFRASTRUCTURE PROJECT TO BUILD A SECURE, INTEGRATED COMPUTING AND DATA PLATFORM FOR ADVAN...",
-        "node_id": "award:usaspending:60NANB26D053",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-88c963382ddcc995",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -794,158 +759,33 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-04d0ffb568098abf",
-          "locator": "reported_amount:10000000.0",
-          "title": "PURPOSE: THE UNIVERSITY OF WASHINGTON (UW) WILL DEPLOY THE HUSKY SECURE COMPUTING DATA & INFRASTRUCTURE PROJECT TO BUILD A SECURE, INTEGRATED COMPUTING AND DATA PLATFORM FOR ADVAN...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D053_013",
+          "evidence_id": "evidence-cce95725a70e0878",
+          "locator": "reported_amount:2926310.46",
+          "title": "ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0372_3600_47QTCA25D00AX_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:60NANB26D053",
-        "label": "PURPOSE: THE UNIVERSITY OF WASHINGTON (UW) WILL DEPLOY THE HUSKY SECURE COMPUTING DATA & INFRASTRUCTURE PROJECT TO BUILD A SECURE, INTEGRATED COMPUTING AND DATA PLATFORM FOR ADVAN...",
-        "node_id": "award:usaspending:60NANB26D053",
+        "identifier": "usaspending:36C10B26F0372",
+        "label": "ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO...",
+        "node_id": "award:usaspending:36C10B26F0372",
         "node_type": "award"
       },
-      "value": 10000000.0
+      "value": 2926310.46
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-28db681f010084bc",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "uei:HD1WMN6945W6",
-        "label": "UNIVERSITY OF WASHINGTON",
-        "node_id": "recipient_or_contractor:uei:HD1WMN6945W6",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-eaaeb3d5df304225",
-          "locator": "reported_recipient:recipient_or_contractor:uei:HD1WMN6945W6",
-          "title": "PURPOSE: THE UNIVERSITY OF WASHINGTON (UW) WILL DEPLOY THE HUSKY SECURE COMPUTING DATA & INFRASTRUCTURE PROJECT TO BUILD A SECURE, INTEGRATED COMPUTING AND DATA PLATFORM FOR ADVAN...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D053_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D053",
-        "label": "PURPOSE: THE UNIVERSITY OF WASHINGTON (UW) WILL DEPLOY THE HUSKY SECURE COMPUTING DATA & INFRASTRUCTURE PROJECT TO BUILD A SECURE, INTEGRATED COMPUTING AND DATA PLATFORM FOR ADVAN...",
-        "node_id": "award:usaspending:60NANB26D053",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-084bb09ce65b1e97",
+      "claim_id": "claim-e6b8abaee165fe9e",
       "confidence": "high",
       "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ef6a813bf9f6a808",
-          "locator": "opportunity_status:awarded",
-          "title": "DA01--Rapid AI Enterprise Implementation",
-          "url": "https://sam.gov/workspace/contract/opp/95d3f87ca8a5481486eb11e411cc9281/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:36C10B26Q0621",
-        "label": "DA01--Rapid AI Enterprise Implementation",
-        "node_id": "award_notice:sam_gov:36C10B26Q0621",
-        "node_type": "award_notice"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-464743d29e288fa4",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-591a62a789c3516f",
-          "locator": "awarding_agency:veterans affairs, department of.veterans affairs, department of.technology acquisition center nj (36c10b)",
-          "title": "DA01--Rapid AI Enterprise Implementation",
-          "url": "https://sam.gov/workspace/contract/opp/95d3f87ca8a5481486eb11e411cc9281/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:36C10B26Q0621",
-        "label": "DA01--Rapid AI Enterprise Implementation",
-        "node_id": "award_notice:sam_gov:36C10B26Q0621",
-        "node_type": "award_notice"
-      },
-      "value": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-707957d0771ff89a",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e7c5e38e2973a3b9",
-          "locator": "reported_amount:3823956.88",
-          "title": "DA01--Rapid AI Enterprise Implementation",
-          "url": "https://sam.gov/workspace/contract/opp/95d3f87ca8a5481486eb11e411cc9281/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:36C10B26Q0621",
-        "label": "DA01--Rapid AI Enterprise Implementation",
-        "node_id": "award_notice:sam_gov:36C10B26Q0621",
-        "node_type": "award_notice"
-      },
-      "value": 3823956.88
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-9a08b14867770033",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": {
-        "identifier": "name:ischemaview",
-        "label": "ISCHEMAVIEW, INC.",
-        "node_id": "recipient_or_contractor:name:ischemaview",
+        "identifier": "uei:KA6QJ7CECP13",
+        "label": "WILCORE TECHNOLOGIES INC",
+        "node_id": "recipient_or_contractor:uei:KA6QJ7CECP13",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -954,142 +794,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8e1009d327e5473c",
-          "locator": "reported_recipient:recipient_or_contractor:name:ischemaview",
-          "title": "DA01--Rapid AI Enterprise Implementation",
-          "url": "https://sam.gov/workspace/contract/opp/95d3f87ca8a5481486eb11e411cc9281/view",
+          "evidence_id": "evidence-70ef7f3ce7235d1b",
+          "locator": "reported_recipient:recipient_or_contractor:uei:KA6QJ7CECP13",
+          "title": "ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0372_3600_47QTCA25D00AX_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:36C10B26Q0621",
-        "label": "DA01--Rapid AI Enterprise Implementation",
-        "node_id": "award_notice:sam_gov:36C10B26Q0621",
-        "node_type": "award_notice"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a302d0565717f710",
-      "confidence": "high",
-      "effective_date": "2027-09-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-49be3fd94ace50b1",
-          "locator": "opportunity_status:awarded",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AI-DRIVEN MULTIFUNCTIONAL POLYMER RESEARCH -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP) SUPPORT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535322_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2535322",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AI-DRIVEN MULTIFUNCTIONAL POLYMER RESEARCH -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP) SUPPORT...",
-        "node_id": "award:usaspending:2535322",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4bdf8db7d8d32cb4",
-      "confidence": "high",
-      "effective_date": "2027-09-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6fbb66b1b41deb7d",
-          "locator": "awarding_agency:national science foundation",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AI-DRIVEN MULTIFUNCTIONAL POLYMER RESEARCH -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP) SUPPORT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535322_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2535322",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AI-DRIVEN MULTIFUNCTIONAL POLYMER RESEARCH -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP) SUPPORT...",
-        "node_id": "award:usaspending:2535322",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6877070f14d05667",
-      "confidence": "high",
-      "effective_date": "2027-09-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d76dd73b1b363c78",
-          "locator": "reported_amount:1749000.0",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AI-DRIVEN MULTIFUNCTIONAL POLYMER RESEARCH -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP) SUPPORT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535322_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2535322",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AI-DRIVEN MULTIFUNCTIONAL POLYMER RESEARCH -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP) SUPPORT...",
-        "node_id": "award:usaspending:2535322",
-        "node_type": "award"
-      },
-      "value": 1749000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-fd6f59be32667d34",
-      "confidence": "high",
-      "effective_date": "2027-09-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "uei:ECQEYCHRNKJ4",
-        "label": "LOUISIANA STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:ECQEYCHRNKJ4",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-870f3a555dffac80",
-          "locator": "reported_recipient:recipient_or_contractor:uei:ECQEYCHRNKJ4",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AI-DRIVEN MULTIFUNCTIONAL POLYMER RESEARCH -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP) SUPPORT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535322_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2535322",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): AI-DRIVEN MULTIFUNCTIONAL POLYMER RESEARCH -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP) SUPPORT...",
-        "node_id": "award:usaspending:2535322",
+        "identifier": "usaspending:36C10B26F0372",
+        "label": "ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO...",
+        "node_id": "award:usaspending:36C10B26F0372",
         "node_type": "award"
       },
       "value": null
@@ -1097,11 +812,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-610ed0ace293cb93",
+      "claim_id": "claim-08fe32b068d4ecaa",
       "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -1109,17 +824,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-29335f51d4731406",
+          "evidence_id": "evidence-bc2933889de0f034",
           "locator": "opportunity_status:awarded",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): BUILDING A NEXT-GENERATION RHODE ISLAND WORKFORCE AT THE AI-BIOLOGY INTERFACE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUAT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535023_049",
+          "title": "NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80332_7571_NNG15SD22B_8000",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2535023",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): BUILDING A NEXT-GENERATION RHODE ISLAND WORKFORCE AT THE AI-BIOLOGY INTERFACE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUAT...",
-        "node_id": "award:usaspending:2535023",
+        "identifier": "usaspending:7571TE26F80332",
+        "label": "NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027",
+        "node_id": "award:usaspending:7571TE26F80332",
         "node_type": "award"
       },
       "value": "awarded"
@@ -1127,11 +842,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-d1621020f50dd2d2",
+      "claim_id": "claim-7b11fb1e2ce24b1e",
       "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -1139,1392 +854,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-40ea98ebd9cbf630",
-          "locator": "awarding_agency:national science foundation",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): BUILDING A NEXT-GENERATION RHODE ISLAND WORKFORCE AT THE AI-BIOLOGY INTERFACE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUAT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535023_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2535023",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): BUILDING A NEXT-GENERATION RHODE ISLAND WORKFORCE AT THE AI-BIOLOGY INTERFACE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUAT...",
-        "node_id": "award:usaspending:2535023",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5e8b6069c338f66c",
-      "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-498ebaae8e6499b7",
-          "locator": "reported_amount:1749000.0",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): BUILDING A NEXT-GENERATION RHODE ISLAND WORKFORCE AT THE AI-BIOLOGY INTERFACE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUAT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535023_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2535023",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): BUILDING A NEXT-GENERATION RHODE ISLAND WORKFORCE AT THE AI-BIOLOGY INTERFACE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUAT...",
-        "node_id": "award:usaspending:2535023",
-        "node_type": "award"
-      },
-      "value": 1749000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-999e9ae08aa813a9",
-      "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "uei:E3FDXZ6TBHW3",
-        "label": "BROWN UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:E3FDXZ6TBHW3",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a083562499be01fe",
-          "locator": "reported_recipient:recipient_or_contractor:uei:E3FDXZ6TBHW3",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): BUILDING A NEXT-GENERATION RHODE ISLAND WORKFORCE AT THE AI-BIOLOGY INTERFACE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUAT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535023_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2535023",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): BUILDING A NEXT-GENERATION RHODE ISLAND WORKFORCE AT THE AI-BIOLOGY INTERFACE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPSCOR GRADUAT...",
-        "node_id": "award:usaspending:2535023",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2f8cbb22687f913b",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-99b64a52a6bd328e",
-          "locator": "opportunity_status:awarded",
-          "title": "PURPOSE: UTAH-MEP WILL LEVERAGE ITS ALLIANCE PARTNERSHIPS TO SUPPORT SECTOR-SPECIFIC ADVANCED MANUFACTURING INVESTMENT, POSITIONING THE ORGANIZATION TO DELIVER TARGETED ASSISTANCE...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H398_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H398",
-        "label": "PURPOSE: UTAH-MEP WILL LEVERAGE ITS ALLIANCE PARTNERSHIPS TO SUPPORT SECTOR-SPECIFIC ADVANCED MANUFACTURING INVESTMENT, POSITIONING THE ORGANIZATION TO DELIVER TARGETED ASSISTANCE...",
-        "node_id": "award:usaspending:70NANB26H398",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4dbb408f4e385a0f",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7bbde423d24fa225",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSE: UTAH-MEP WILL LEVERAGE ITS ALLIANCE PARTNERSHIPS TO SUPPORT SECTOR-SPECIFIC ADVANCED MANUFACTURING INVESTMENT, POSITIONING THE ORGANIZATION TO DELIVER TARGETED ASSISTANCE...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H398_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H398",
-        "label": "PURPOSE: UTAH-MEP WILL LEVERAGE ITS ALLIANCE PARTNERSHIPS TO SUPPORT SECTOR-SPECIFIC ADVANCED MANUFACTURING INVESTMENT, POSITIONING THE ORGANIZATION TO DELIVER TARGETED ASSISTANCE...",
-        "node_id": "award:usaspending:70NANB26H398",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-76fd6341f9633f40",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c3a6eb444938d4ba",
-          "locator": "reported_amount:1492598.0",
-          "title": "PURPOSE: UTAH-MEP WILL LEVERAGE ITS ALLIANCE PARTNERSHIPS TO SUPPORT SECTOR-SPECIFIC ADVANCED MANUFACTURING INVESTMENT, POSITIONING THE ORGANIZATION TO DELIVER TARGETED ASSISTANCE...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H398_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H398",
-        "label": "PURPOSE: UTAH-MEP WILL LEVERAGE ITS ALLIANCE PARTNERSHIPS TO SUPPORT SECTOR-SPECIFIC ADVANCED MANUFACTURING INVESTMENT, POSITIONING THE ORGANIZATION TO DELIVER TARGETED ASSISTANCE...",
-        "node_id": "award:usaspending:70NANB26H398",
-        "node_type": "award"
-      },
-      "value": 1492598.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-bd9520b13ea6cb29",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "uei:LL8GLEVH6MG3",
-        "label": "UNIVERSITY OF UTAH",
-        "node_id": "recipient_or_contractor:uei:LL8GLEVH6MG3",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-da7d65733ad3c678",
-          "locator": "reported_recipient:recipient_or_contractor:uei:LL8GLEVH6MG3",
-          "title": "PURPOSE: UTAH-MEP WILL LEVERAGE ITS ALLIANCE PARTNERSHIPS TO SUPPORT SECTOR-SPECIFIC ADVANCED MANUFACTURING INVESTMENT, POSITIONING THE ORGANIZATION TO DELIVER TARGETED ASSISTANCE...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H398_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H398",
-        "label": "PURPOSE: UTAH-MEP WILL LEVERAGE ITS ALLIANCE PARTNERSHIPS TO SUPPORT SECTOR-SPECIFIC ADVANCED MANUFACTURING INVESTMENT, POSITIONING THE ORGANIZATION TO DELIVER TARGETED ASSISTANCE...",
-        "node_id": "award:usaspending:70NANB26H398",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2b7232917821d791",
-      "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-835aea381ffc24ec",
-          "locator": "opportunity_status:awarded",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): EXPERIENTIAL LEARNING AND WORKFORCE TRAINING IN THE ATMOSPHERIC, ENVIRONMENTAL, AND DISASTER SCIENCES -THE NATIONAL SCIENCE FOUNDATION (...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2534958_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2534958",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): EXPERIENTIAL LEARNING AND WORKFORCE TRAINING IN THE ATMOSPHERIC, ENVIRONMENTAL, AND DISASTER SCIENCES -THE NATIONAL SCIENCE FOUNDATION (...",
-        "node_id": "award:usaspending:2534958",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2e48c678088c717c",
-      "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-62c698445b45affb",
-          "locator": "awarding_agency:national science foundation",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): EXPERIENTIAL LEARNING AND WORKFORCE TRAINING IN THE ATMOSPHERIC, ENVIRONMENTAL, AND DISASTER SCIENCES -THE NATIONAL SCIENCE FOUNDATION (...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2534958_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2534958",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): EXPERIENTIAL LEARNING AND WORKFORCE TRAINING IN THE ATMOSPHERIC, ENVIRONMENTAL, AND DISASTER SCIENCES -THE NATIONAL SCIENCE FOUNDATION (...",
-        "node_id": "award:usaspending:2534958",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b37d51791e516c8a",
-      "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0f649a0ec631bab1",
-          "locator": "reported_amount:1113000.0",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): EXPERIENTIAL LEARNING AND WORKFORCE TRAINING IN THE ATMOSPHERIC, ENVIRONMENTAL, AND DISASTER SCIENCES -THE NATIONAL SCIENCE FOUNDATION (...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2534958_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2534958",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): EXPERIENTIAL LEARNING AND WORKFORCE TRAINING IN THE ATMOSPHERIC, ENVIRONMENTAL, AND DISASTER SCIENCES -THE NATIONAL SCIENCE FOUNDATION (...",
-        "node_id": "award:usaspending:2534958",
-        "node_type": "award"
-      },
-      "value": 1113000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e995f1ed16fe34fc",
-      "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "uei:U5GMACGETKJ1",
-        "label": "WESTERN KENTUCKY UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:U5GMACGETKJ1",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-54cb2f9676e921d7",
-          "locator": "reported_recipient:recipient_or_contractor:uei:U5GMACGETKJ1",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): EXPERIENTIAL LEARNING AND WORKFORCE TRAINING IN THE ATMOSPHERIC, ENVIRONMENTAL, AND DISASTER SCIENCES -THE NATIONAL SCIENCE FOUNDATION (...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2534958_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2534958",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): EXPERIENTIAL LEARNING AND WORKFORCE TRAINING IN THE ATMOSPHERIC, ENVIRONMENTAL, AND DISASTER SCIENCES -THE NATIONAL SCIENCE FOUNDATION (...",
-        "node_id": "award:usaspending:2534958",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1437b7c3e65c9c52",
-      "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8dd94d7e4092bbec",
-          "locator": "opportunity_status:awarded",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): IMPACTS - INTEGRATING MENTORSHIP AND PRACTICE TO ADVANCE CAREERS IN TECHNOLOGY & SCIENCE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPS...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535324_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2535324",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): IMPACTS - INTEGRATING MENTORSHIP AND PRACTICE TO ADVANCE CAREERS IN TECHNOLOGY & SCIENCE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPS...",
-        "node_id": "award:usaspending:2535324",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-cc54c9c6f2ce872e",
-      "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a561fb3a6517c615",
-          "locator": "awarding_agency:national science foundation",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): IMPACTS - INTEGRATING MENTORSHIP AND PRACTICE TO ADVANCE CAREERS IN TECHNOLOGY & SCIENCE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPS...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535324_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2535324",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): IMPACTS - INTEGRATING MENTORSHIP AND PRACTICE TO ADVANCE CAREERS IN TECHNOLOGY & SCIENCE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPS...",
-        "node_id": "award:usaspending:2535324",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e9aea5594fbade45",
-      "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-93be742fbf687687",
-          "locator": "reported_amount:795000.0",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): IMPACTS - INTEGRATING MENTORSHIP AND PRACTICE TO ADVANCE CAREERS IN TECHNOLOGY & SCIENCE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPS...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535324_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2535324",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): IMPACTS - INTEGRATING MENTORSHIP AND PRACTICE TO ADVANCE CAREERS IN TECHNOLOGY & SCIENCE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPS...",
-        "node_id": "award:usaspending:2535324",
-        "node_type": "award"
-      },
-      "value": 795000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1ece51ae8c53e2d1",
-      "confidence": "high",
-      "effective_date": "2027-03-15",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "uei:U9EDNSCHTBE7",
-        "label": "THE UNIVERSITY OF SOUTH DAKOTA",
-        "node_id": "recipient_or_contractor:uei:U9EDNSCHTBE7",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7031ed0747c3624d",
-          "locator": "reported_recipient:recipient_or_contractor:uei:U9EDNSCHTBE7",
-          "title": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): IMPACTS - INTEGRATING MENTORSHIP AND PRACTICE TO ADVANCE CAREERS IN TECHNOLOGY & SCIENCE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPS...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2535324_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2535324",
-        "label": "EPSCOR GRADUATE FELLOWSHIP PROGRAM (EGFP): IMPACTS - INTEGRATING MENTORSHIP AND PRACTICE TO ADVANCE CAREERS IN TECHNOLOGY & SCIENCE -THE NATIONAL SCIENCE FOUNDATION (NSF), NSF EPS...",
-        "node_id": "award:usaspending:2535324",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-d025bd0d2d581fff",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5ece73417e67cc79",
-          "locator": "opportunity_status:awarded",
-          "title": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH A STEM WORKFORCE DEVELOPMENT AND APPLIED RESEARCH TRAINING PROGRAM AT YORK COLLEGE OF THE CITY UNIVERSITY OF NEW YORK (CUNY)....",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D318_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D318",
-        "label": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH A STEM WORKFORCE DEVELOPMENT AND APPLIED RESEARCH TRAINING PROGRAM AT YORK COLLEGE OF THE CITY UNIVERSITY OF NEW YORK (CUNY)....",
-        "node_id": "award:usaspending:60NANB26D318",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-96e7b68c73941109",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-693fbc4f9f80ef7a",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH A STEM WORKFORCE DEVELOPMENT AND APPLIED RESEARCH TRAINING PROGRAM AT YORK COLLEGE OF THE CITY UNIVERSITY OF NEW YORK (CUNY)....",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D318_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D318",
-        "label": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH A STEM WORKFORCE DEVELOPMENT AND APPLIED RESEARCH TRAINING PROGRAM AT YORK COLLEGE OF THE CITY UNIVERSITY OF NEW YORK (CUNY)....",
-        "node_id": "award:usaspending:60NANB26D318",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b5b8552432d426a7",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6824c4535f740c44",
-          "locator": "reported_amount:1039000.0",
-          "title": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH A STEM WORKFORCE DEVELOPMENT AND APPLIED RESEARCH TRAINING PROGRAM AT YORK COLLEGE OF THE CITY UNIVERSITY OF NEW YORK (CUNY)....",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D318_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D318",
-        "label": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH A STEM WORKFORCE DEVELOPMENT AND APPLIED RESEARCH TRAINING PROGRAM AT YORK COLLEGE OF THE CITY UNIVERSITY OF NEW YORK (CUNY)....",
-        "node_id": "award:usaspending:60NANB26D318",
-        "node_type": "award"
-      },
-      "value": 1039000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5603d6e78f759508",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "uei:S742ULFT5GK3",
-        "label": "RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:S742ULFT5GK3",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4dab38b8ff854a3f",
-          "locator": "reported_recipient:recipient_or_contractor:uei:S742ULFT5GK3",
-          "title": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH A STEM WORKFORCE DEVELOPMENT AND APPLIED RESEARCH TRAINING PROGRAM AT YORK COLLEGE OF THE CITY UNIVERSITY OF NEW YORK (CUNY)....",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D318_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D318",
-        "label": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH A STEM WORKFORCE DEVELOPMENT AND APPLIED RESEARCH TRAINING PROGRAM AT YORK COLLEGE OF THE CITY UNIVERSITY OF NEW YORK (CUNY)....",
-        "node_id": "award:usaspending:60NANB26D318",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a72971a630afdca3",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f5bcff78f58fd9e3",
-          "locator": "opportunity_status:awarded",
-          "title": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE CREATION OF A WORKING GROUP FOR DIGITAL FORENSICS AT QUEENS COLLEGE. THIS GROUP WILL SERVE AS A FOUNDATION FOR A CYBERSECURITY...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D313_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D313",
-        "label": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE CREATION OF A WORKING GROUP FOR DIGITAL FORENSICS AT QUEENS COLLEGE. THIS GROUP WILL SERVE AS A FOUNDATION FOR A CYBERSECURITY...",
-        "node_id": "award:usaspending:60NANB26D313",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-8c0b2fc6dbcad709",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b0f13eeda9c04e8a",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE CREATION OF A WORKING GROUP FOR DIGITAL FORENSICS AT QUEENS COLLEGE. THIS GROUP WILL SERVE AS A FOUNDATION FOR A CYBERSECURITY...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D313_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D313",
-        "label": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE CREATION OF A WORKING GROUP FOR DIGITAL FORENSICS AT QUEENS COLLEGE. THIS GROUP WILL SERVE AS A FOUNDATION FOR A CYBERSECURITY...",
-        "node_id": "award:usaspending:60NANB26D313",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4f09057fd1422504",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-eafe4e925a75b9c6",
-          "locator": "reported_amount:1031000.0",
-          "title": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE CREATION OF A WORKING GROUP FOR DIGITAL FORENSICS AT QUEENS COLLEGE. THIS GROUP WILL SERVE AS A FOUNDATION FOR A CYBERSECURITY...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D313_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D313",
-        "label": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE CREATION OF A WORKING GROUP FOR DIGITAL FORENSICS AT QUEENS COLLEGE. THIS GROUP WILL SERVE AS A FOUNDATION FOR A CYBERSECURITY...",
-        "node_id": "award:usaspending:60NANB26D313",
-        "node_type": "award"
-      },
-      "value": 1031000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-fa525c22316a55e8",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "uei:EJABWGUJM228",
-        "label": "RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:EJABWGUJM228",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-82caf333acd3b495",
-          "locator": "reported_recipient:recipient_or_contractor:uei:EJABWGUJM228",
-          "title": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE CREATION OF A WORKING GROUP FOR DIGITAL FORENSICS AT QUEENS COLLEGE. THIS GROUP WILL SERVE AS A FOUNDATION FOR A CYBERSECURITY...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D313_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D313",
-        "label": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE CREATION OF A WORKING GROUP FOR DIGITAL FORENSICS AT QUEENS COLLEGE. THIS GROUP WILL SERVE AS A FOUNDATION FOR A CYBERSECURITY...",
-        "node_id": "award:usaspending:60NANB26D313",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5191e4dd49223dc4",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6719cfbddfe66ad8",
-          "locator": "opportunity_status:awarded",
-          "title": "PURPOSE:UTHEALTH HOUSTON PROPOSES TO DEPLOY AND OPERATIONALIZE A CENTRALLY MANAGED, SECURE HIGH-PERFORMANCE COMPUTING (HPC) CLUSTER TO SUPPORT DATA-INTENSIVE ARTIFICIAL INTELLIGEN...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D272_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D272",
-        "label": "PURPOSE:UTHEALTH HOUSTON PROPOSES TO DEPLOY AND OPERATIONALIZE A CENTRALLY MANAGED, SECURE HIGH-PERFORMANCE COMPUTING (HPC) CLUSTER TO SUPPORT DATA-INTENSIVE ARTIFICIAL INTELLIGEN...",
-        "node_id": "award:usaspending:60NANB26D272",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-930b9969cd4fa42c",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0e63ed9c4094c868",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSE:UTHEALTH HOUSTON PROPOSES TO DEPLOY AND OPERATIONALIZE A CENTRALLY MANAGED, SECURE HIGH-PERFORMANCE COMPUTING (HPC) CLUSTER TO SUPPORT DATA-INTENSIVE ARTIFICIAL INTELLIGEN...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D272_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D272",
-        "label": "PURPOSE:UTHEALTH HOUSTON PROPOSES TO DEPLOY AND OPERATIONALIZE A CENTRALLY MANAGED, SECURE HIGH-PERFORMANCE COMPUTING (HPC) CLUSTER TO SUPPORT DATA-INTENSIVE ARTIFICIAL INTELLIGEN...",
-        "node_id": "award:usaspending:60NANB26D272",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-aa87fcd20c75bc6f",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-87a6e2b1182b1928",
-          "locator": "reported_amount:1031000.0",
-          "title": "PURPOSE:UTHEALTH HOUSTON PROPOSES TO DEPLOY AND OPERATIONALIZE A CENTRALLY MANAGED, SECURE HIGH-PERFORMANCE COMPUTING (HPC) CLUSTER TO SUPPORT DATA-INTENSIVE ARTIFICIAL INTELLIGEN...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D272_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D272",
-        "label": "PURPOSE:UTHEALTH HOUSTON PROPOSES TO DEPLOY AND OPERATIONALIZE A CENTRALLY MANAGED, SECURE HIGH-PERFORMANCE COMPUTING (HPC) CLUSTER TO SUPPORT DATA-INTENSIVE ARTIFICIAL INTELLIGEN...",
-        "node_id": "award:usaspending:60NANB26D272",
-        "node_type": "award"
-      },
-      "value": 1031000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5adbcaf3d305903f",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "uei:ZUFBNVZ587D4",
-        "label": "UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER AT HOUSTON",
-        "node_id": "recipient_or_contractor:uei:ZUFBNVZ587D4",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bbf419cbea73076b",
-          "locator": "reported_recipient:recipient_or_contractor:uei:ZUFBNVZ587D4",
-          "title": "PURPOSE:UTHEALTH HOUSTON PROPOSES TO DEPLOY AND OPERATIONALIZE A CENTRALLY MANAGED, SECURE HIGH-PERFORMANCE COMPUTING (HPC) CLUSTER TO SUPPORT DATA-INTENSIVE ARTIFICIAL INTELLIGEN...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D272_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D272",
-        "label": "PURPOSE:UTHEALTH HOUSTON PROPOSES TO DEPLOY AND OPERATIONALIZE A CENTRALLY MANAGED, SECURE HIGH-PERFORMANCE COMPUTING (HPC) CLUSTER TO SUPPORT DATA-INTENSIVE ARTIFICIAL INTELLIGEN...",
-        "node_id": "award:usaspending:60NANB26D272",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a7fd3bfd3851f7a6",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-166945006afbe337",
-          "locator": "opportunity_status:awarded",
-          "title": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE PURCHASE OF EQUIPMENT FOR A NEW ROBOTICS AND AUTONOMOUS SYSTEMS ENGINEERING RESEARCH PROGRAM. THE RESEARCH PROGRAM FOCUSES ON A...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D232_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D232",
-        "label": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE PURCHASE OF EQUIPMENT FOR A NEW ROBOTICS AND AUTONOMOUS SYSTEMS ENGINEERING RESEARCH PROGRAM. THE RESEARCH PROGRAM FOCUSES ON A...",
-        "node_id": "award:usaspending:60NANB26D232",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-ce0901ebb0cad931",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-96ed33f797472820",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE PURCHASE OF EQUIPMENT FOR A NEW ROBOTICS AND AUTONOMOUS SYSTEMS ENGINEERING RESEARCH PROGRAM. THE RESEARCH PROGRAM FOCUSES ON A...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D232_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D232",
-        "label": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE PURCHASE OF EQUIPMENT FOR A NEW ROBOTICS AND AUTONOMOUS SYSTEMS ENGINEERING RESEARCH PROGRAM. THE RESEARCH PROGRAM FOCUSES ON A...",
-        "node_id": "award:usaspending:60NANB26D232",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-11f4d783802ff768",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-87c9d7f118fd1d7c",
-          "locator": "reported_amount:1000000.0",
-          "title": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE PURCHASE OF EQUIPMENT FOR A NEW ROBOTICS AND AUTONOMOUS SYSTEMS ENGINEERING RESEARCH PROGRAM. THE RESEARCH PROGRAM FOCUSES ON A...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D232_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D232",
-        "label": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE PURCHASE OF EQUIPMENT FOR A NEW ROBOTICS AND AUTONOMOUS SYSTEMS ENGINEERING RESEARCH PROGRAM. THE RESEARCH PROGRAM FOCUSES ON A...",
-        "node_id": "award:usaspending:60NANB26D232",
-        "node_type": "award"
-      },
-      "value": 1000000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6dde4671223382fd",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "uei:MLQFL4JSSAA9",
-        "label": "VIRGINIA COMMONWEALTH UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MLQFL4JSSAA9",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7d96eb33af546845",
-          "locator": "reported_recipient:recipient_or_contractor:uei:MLQFL4JSSAA9",
-          "title": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE PURCHASE OF EQUIPMENT FOR A NEW ROBOTICS AND AUTONOMOUS SYSTEMS ENGINEERING RESEARCH PROGRAM. THE RESEARCH PROGRAM FOCUSES ON A...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D232_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D232",
-        "label": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE PURCHASE OF EQUIPMENT FOR A NEW ROBOTICS AND AUTONOMOUS SYSTEMS ENGINEERING RESEARCH PROGRAM. THE RESEARCH PROGRAM FOCUSES ON A...",
-        "node_id": "award:usaspending:60NANB26D232",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-07f8b4e49bfa6c47",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ebfe1763289d0cb2",
-          "locator": "opportunity_status:awarded",
-          "title": "PURPOSE: VMEC WILL CONTINUE TO STRENGTHEN THE COMPETITIVENESS, PRODUCTIVITY, RESILIENCE, AND TECHNOLOGICAL CAPABILITY OF VERMONT?S SMALL AND MEDIUM-SIZED MANUFACTURERS (SMMS) BY S...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H388_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H388",
-        "label": "PURPOSE: VMEC WILL CONTINUE TO STRENGTHEN THE COMPETITIVENESS, PRODUCTIVITY, RESILIENCE, AND TECHNOLOGICAL CAPABILITY OF VERMONT?S SMALL AND MEDIUM-SIZED MANUFACTURERS (SMMS) BY S...",
-        "node_id": "award:usaspending:70NANB26H388",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-84c1209f8ef2cec1",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-574ce585d1fe8d30",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSE: VMEC WILL CONTINUE TO STRENGTHEN THE COMPETITIVENESS, PRODUCTIVITY, RESILIENCE, AND TECHNOLOGICAL CAPABILITY OF VERMONT?S SMALL AND MEDIUM-SIZED MANUFACTURERS (SMMS) BY S...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H388_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H388",
-        "label": "PURPOSE: VMEC WILL CONTINUE TO STRENGTHEN THE COMPETITIVENESS, PRODUCTIVITY, RESILIENCE, AND TECHNOLOGICAL CAPABILITY OF VERMONT?S SMALL AND MEDIUM-SIZED MANUFACTURERS (SMMS) BY S...",
-        "node_id": "award:usaspending:70NANB26H388",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-9a8c3a142f10ef5b",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c90b9873f5dfdaf8",
-          "locator": "reported_amount:812300.0",
-          "title": "PURPOSE: VMEC WILL CONTINUE TO STRENGTHEN THE COMPETITIVENESS, PRODUCTIVITY, RESILIENCE, AND TECHNOLOGICAL CAPABILITY OF VERMONT?S SMALL AND MEDIUM-SIZED MANUFACTURERS (SMMS) BY S...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H388_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H388",
-        "label": "PURPOSE: VMEC WILL CONTINUE TO STRENGTHEN THE COMPETITIVENESS, PRODUCTIVITY, RESILIENCE, AND TECHNOLOGICAL CAPABILITY OF VERMONT?S SMALL AND MEDIUM-SIZED MANUFACTURERS (SMMS) BY S...",
-        "node_id": "award:usaspending:70NANB26H388",
-        "node_type": "award"
-      },
-      "value": 812300.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-511d976b49fd9b65",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "uei:XKUDY4MDJHX5",
-        "label": "VERMONT STATE COLLEGES",
-        "node_id": "recipient_or_contractor:uei:XKUDY4MDJHX5",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-17ae7caa25c71875",
-          "locator": "reported_recipient:recipient_or_contractor:uei:XKUDY4MDJHX5",
-          "title": "PURPOSE: VMEC WILL CONTINUE TO STRENGTHEN THE COMPETITIVENESS, PRODUCTIVITY, RESILIENCE, AND TECHNOLOGICAL CAPABILITY OF VERMONT?S SMALL AND MEDIUM-SIZED MANUFACTURERS (SMMS) BY S...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H388_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H388",
-        "label": "PURPOSE: VMEC WILL CONTINUE TO STRENGTHEN THE COMPETITIVENESS, PRODUCTIVITY, RESILIENCE, AND TECHNOLOGICAL CAPABILITY OF VERMONT?S SMALL AND MEDIUM-SIZED MANUFACTURERS (SMMS) BY S...",
-        "node_id": "award:usaspending:70NANB26H388",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2e20e36fadab1ee2",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5c918330905f84f2",
-          "locator": "opportunity_status:awarded",
-          "title": "7A--Machine Learning Assisted Electronic Monitoring",
-          "url": "https://sam.gov/workspace/contract/opp/867ec9c1cec44c7e8d4462c0dc09800a/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1305M326Q0437",
-        "label": "7A--Machine Learning Assisted Electronic Monitoring",
-        "node_id": "award_notice:sam_gov:1305M326Q0437",
-        "node_type": "award_notice"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-ecd181baaa3d6c73",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-11a85c742c1256cf",
-          "locator": "awarding_agency:commerce, department of.national oceanic and atmospheric administration.dept of commerce noaa",
-          "title": "7A--Machine Learning Assisted Electronic Monitoring",
-          "url": "https://sam.gov/workspace/contract/opp/867ec9c1cec44c7e8d4462c0dc09800a/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1305M326Q0437",
-        "label": "7A--Machine Learning Assisted Electronic Monitoring",
-        "node_id": "award_notice:sam_gov:1305M326Q0437",
-        "node_type": "award_notice"
-      },
-      "value": "COMMERCE, DEPARTMENT OF.NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION.DEPT OF COMMERCE NOAA"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e587105635bf6d68",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c8cfe9c3f5c52ece",
-          "locator": "reported_amount:434727.8",
-          "title": "7A--Machine Learning Assisted Electronic Monitoring",
-          "url": "https://sam.gov/workspace/contract/opp/867ec9c1cec44c7e8d4462c0dc09800a/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1305M326Q0437",
-        "label": "7A--Machine Learning Assisted Electronic Monitoring",
-        "node_id": "award_notice:sam_gov:1305M326Q0437",
-        "node_type": "award_notice"
-      },
-      "value": 434727.8
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e448ec2bca06276b",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "name:integrated monitoring",
-        "label": "INTEGRATED MONITORING, INC.",
-        "node_id": "recipient_or_contractor:name:integrated monitoring",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-07df7a3dce60a528",
-          "locator": "reported_recipient:recipient_or_contractor:name:integrated monitoring",
-          "title": "7A--Machine Learning Assisted Electronic Monitoring",
-          "url": "https://sam.gov/workspace/contract/opp/867ec9c1cec44c7e8d4462c0dc09800a/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1305M326Q0437",
-        "label": "7A--Machine Learning Assisted Electronic Monitoring",
-        "node_id": "award_notice:sam_gov:1305M326Q0437",
-        "node_type": "award_notice"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f2f918b6b790ca1b",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3671708cf5c773d9",
-          "locator": "opportunity_status:awarded",
-          "title": "SBIR PHASE I QUASAR: QUANTUM ATOMIC HYBRID SCALAR-VECTOR MAGNETOMETER FOR SPACE APPLICATIONS",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0242_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0242",
-        "label": "SBIR PHASE I QUASAR: QUANTUM ATOMIC HYBRID SCALAR-VECTOR MAGNETOMETER FOR SPACE APPLICATIONS",
-        "node_id": "award:usaspending:80NSSC26C0242",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b021dc1a4f901e5d",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-10dea13918359a62",
-          "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "SBIR PHASE I QUASAR: QUANTUM ATOMIC HYBRID SCALAR-VECTOR MAGNETOMETER FOR SPACE APPLICATIONS",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0242_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0242",
-        "label": "SBIR PHASE I QUASAR: QUANTUM ATOMIC HYBRID SCALAR-VECTOR MAGNETOMETER FOR SPACE APPLICATIONS",
-        "node_id": "award:usaspending:80NSSC26C0242",
-        "node_type": "award"
-      },
-      "value": "National Aeronautics and Space Administration"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c618cab9f58c5930",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5d9b997e65b62c80",
-          "locator": "reported_amount:224569.0",
-          "title": "SBIR PHASE I QUASAR: QUANTUM ATOMIC HYBRID SCALAR-VECTOR MAGNETOMETER FOR SPACE APPLICATIONS",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0242_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0242",
-        "label": "SBIR PHASE I QUASAR: QUANTUM ATOMIC HYBRID SCALAR-VECTOR MAGNETOMETER FOR SPACE APPLICATIONS",
-        "node_id": "award:usaspending:80NSSC26C0242",
-        "node_type": "award"
-      },
-      "value": 224569.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2ebf63b3f9e70cd3",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "uei:VN68KF4MNS63",
-        "label": "FIELDLINE INDUSTRIES INC",
-        "node_id": "recipient_or_contractor:uei:VN68KF4MNS63",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7ed9b58c2c4e73c7",
-          "locator": "reported_recipient:recipient_or_contractor:uei:VN68KF4MNS63",
-          "title": "SBIR PHASE I QUASAR: QUANTUM ATOMIC HYBRID SCALAR-VECTOR MAGNETOMETER FOR SPACE APPLICATIONS",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0242_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0242",
-        "label": "SBIR PHASE I QUASAR: QUANTUM ATOMIC HYBRID SCALAR-VECTOR MAGNETOMETER FOR SPACE APPLICATIONS",
-        "node_id": "award:usaspending:80NSSC26C0242",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-fb00d0902e60c020",
-      "confidence": "high",
-      "effective_date": "2027-03-11",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-440fd0c90c769a6e",
-          "locator": "opportunity_status:awarded",
-          "title": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32AG099689_075",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:F32AG099689",
-        "label": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-        "node_id": "award:usaspending:F32AG099689",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a0649aa3a24441f5",
-      "confidence": "high",
-      "effective_date": "2027-03-11",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-338bbf33c00f708d",
+          "evidence_id": "evidence-611e8a79ebb8cc09",
           "locator": "awarding_agency:department of health and human services",
-          "title": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32AG099689_075",
+          "title": "NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80332_7571_NNG15SD22B_8000",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:F32AG099689",
-        "label": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-        "node_id": "award:usaspending:F32AG099689",
+        "identifier": "usaspending:7571TE26F80332",
+        "label": "NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027",
+        "node_id": "award:usaspending:7571TE26F80332",
         "node_type": "award"
       },
       "value": "Department of Health and Human Services"
@@ -2532,11 +872,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-9580555337d5d712",
+      "claim_id": "claim-9d9fad44ba1ec178",
       "confidence": "high",
-      "effective_date": "2027-03-11",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -2544,33 +884,33 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5a88452ea253f452",
-          "locator": "reported_amount:76780.0",
-          "title": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32AG099689_075",
+          "evidence_id": "evidence-35bdfca654847d16",
+          "locator": "reported_amount:268868.52",
+          "title": "NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80332_7571_NNG15SD22B_8000",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:F32AG099689",
-        "label": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-        "node_id": "award:usaspending:F32AG099689",
+        "identifier": "usaspending:7571TE26F80332",
+        "label": "NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027",
+        "node_id": "award:usaspending:7571TE26F80332",
         "node_type": "award"
       },
-      "value": 76780.0
+      "value": 268868.52
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-7ad52c84f6d61446",
+      "claim_id": "claim-c894878abf19fecb",
       "confidence": "high",
-      "effective_date": "2027-03-11",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": {
-        "identifier": "uei:MLQFL4JSSAA9",
-        "label": "VIRGINIA COMMONWEALTH UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MLQFL4JSSAA9",
+        "identifier": "uei:H1KHJPJH9R51",
+        "label": "FOUR POINTS TECHNOLOGY, L.L.C.",
+        "node_id": "recipient_or_contractor:uei:H1KHJPJH9R51",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -2579,17 +919,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5c91b7c8f6f74e1f",
-          "locator": "reported_recipient:recipient_or_contractor:uei:MLQFL4JSSAA9",
-          "title": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32AG099689_075",
+          "evidence_id": "evidence-e62c9ed3c0b90a9b",
+          "locator": "reported_recipient:recipient_or_contractor:uei:H1KHJPJH9R51",
+          "title": "NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80332_7571_NNG15SD22B_8000",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:F32AG099689",
-        "label": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-        "node_id": "award:usaspending:F32AG099689",
+        "identifier": "usaspending:7571TE26F80332",
+        "label": "NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027",
+        "node_id": "award:usaspending:7571TE26F80332",
         "node_type": "award"
       },
       "value": null
@@ -2597,511 +937,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-1005f9b1e5207f3b",
+      "claim_id": "claim-49f1301310523c2e",
       "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-11ec42efe8df8d1d",
-          "locator": "opportunity_status:awarded",
-          "title": "PURPOSETHE PROJECT WILL SUPPORT TARGETED ACTIVITIES OF THE NATIONAL ACADEMIES FORUM ON CYBER RESILIENCE TO EXAMINE EMERGING CYBERSECURITY CHALLENGES RELEVANT TO THE NATIONAL INSTI...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D325_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D325",
-        "label": "PURPOSETHE PROJECT WILL SUPPORT TARGETED ACTIVITIES OF THE NATIONAL ACADEMIES FORUM ON CYBER RESILIENCE TO EXAMINE EMERGING CYBERSECURITY CHALLENGES RELEVANT TO THE NATIONAL INSTI...",
-        "node_id": "award:usaspending:60NANB26D325",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6f92a64f204d6524",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0a8b233278de98c5",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSETHE PROJECT WILL SUPPORT TARGETED ACTIVITIES OF THE NATIONAL ACADEMIES FORUM ON CYBER RESILIENCE TO EXAMINE EMERGING CYBERSECURITY CHALLENGES RELEVANT TO THE NATIONAL INSTI...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D325_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D325",
-        "label": "PURPOSETHE PROJECT WILL SUPPORT TARGETED ACTIVITIES OF THE NATIONAL ACADEMIES FORUM ON CYBER RESILIENCE TO EXAMINE EMERGING CYBERSECURITY CHALLENGES RELEVANT TO THE NATIONAL INSTI...",
-        "node_id": "award:usaspending:60NANB26D325",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-03e720daecb11976",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cdcce7c3236d7c02",
-          "locator": "reported_amount:100000.0",
-          "title": "PURPOSETHE PROJECT WILL SUPPORT TARGETED ACTIVITIES OF THE NATIONAL ACADEMIES FORUM ON CYBER RESILIENCE TO EXAMINE EMERGING CYBERSECURITY CHALLENGES RELEVANT TO THE NATIONAL INSTI...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D325_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D325",
-        "label": "PURPOSETHE PROJECT WILL SUPPORT TARGETED ACTIVITIES OF THE NATIONAL ACADEMIES FORUM ON CYBER RESILIENCE TO EXAMINE EMERGING CYBERSECURITY CHALLENGES RELEVANT TO THE NATIONAL INSTI...",
-        "node_id": "award:usaspending:60NANB26D325",
-        "node_type": "award"
-      },
-      "value": 100000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-10fa399601df3705",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "uei:PKFJZHG2MLG9",
-        "label": "NATIONAL ACADEMY OF SCIENCES",
-        "node_id": "recipient_or_contractor:uei:PKFJZHG2MLG9",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a9e754f994cab633",
-          "locator": "reported_recipient:recipient_or_contractor:uei:PKFJZHG2MLG9",
-          "title": "PURPOSETHE PROJECT WILL SUPPORT TARGETED ACTIVITIES OF THE NATIONAL ACADEMIES FORUM ON CYBER RESILIENCE TO EXAMINE EMERGING CYBERSECURITY CHALLENGES RELEVANT TO THE NATIONAL INSTI...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D325_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D325",
-        "label": "PURPOSETHE PROJECT WILL SUPPORT TARGETED ACTIVITIES OF THE NATIONAL ACADEMIES FORUM ON CYBER RESILIENCE TO EXAMINE EMERGING CYBERSECURITY CHALLENGES RELEVANT TO THE NATIONAL INSTI...",
-        "node_id": "award:usaspending:60NANB26D325",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-cb2a90c7afe74f5d",
-      "confidence": "high",
-      "effective_date": "2026-09-27",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2dc22819738c678c",
-          "locator": "opportunity_status:awarded",
-          "title": "HIGH PERFORMANCE COMPUTING SYSTEM (HPCS) BPA CALL UNDER GLINDA 2.0",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_31310026F0023_3100_31310026A0001_3100",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:31310026F0023",
-        "label": "HIGH PERFORMANCE COMPUTING SYSTEM (HPCS) BPA CALL UNDER GLINDA 2.0",
-        "node_id": "award:usaspending:31310026F0023",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-acb987aa37c4fff0",
-      "confidence": "high",
-      "effective_date": "2026-09-27",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-53dd2525751ea960",
-          "locator": "awarding_agency:nuclear regulatory commission",
-          "title": "HIGH PERFORMANCE COMPUTING SYSTEM (HPCS) BPA CALL UNDER GLINDA 2.0",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_31310026F0023_3100_31310026A0001_3100",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:31310026F0023",
-        "label": "HIGH PERFORMANCE COMPUTING SYSTEM (HPCS) BPA CALL UNDER GLINDA 2.0",
-        "node_id": "award:usaspending:31310026F0023",
-        "node_type": "award"
-      },
-      "value": "Nuclear Regulatory Commission"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2de1a25b7ac02799",
-      "confidence": "high",
-      "effective_date": "2026-09-27",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-85c2439b9e940d5b",
-          "locator": "reported_amount:90000.0",
-          "title": "HIGH PERFORMANCE COMPUTING SYSTEM (HPCS) BPA CALL UNDER GLINDA 2.0",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_31310026F0023_3100_31310026A0001_3100",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:31310026F0023",
-        "label": "HIGH PERFORMANCE COMPUTING SYSTEM (HPCS) BPA CALL UNDER GLINDA 2.0",
-        "node_id": "award:usaspending:31310026F0023",
-        "node_type": "award"
-      },
-      "value": 90000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1f1bf08696825fe0",
-      "confidence": "high",
-      "effective_date": "2026-09-27",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "uei:C2T2JWN1D2K4",
-        "label": "TEKSYNAP CORPORATION",
-        "node_id": "recipient_or_contractor:uei:C2T2JWN1D2K4",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-67b37ab13957b58b",
-          "locator": "reported_recipient:recipient_or_contractor:uei:C2T2JWN1D2K4",
-          "title": "HIGH PERFORMANCE COMPUTING SYSTEM (HPCS) BPA CALL UNDER GLINDA 2.0",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_31310026F0023_3100_31310026A0001_3100",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:31310026F0023",
-        "label": "HIGH PERFORMANCE COMPUTING SYSTEM (HPCS) BPA CALL UNDER GLINDA 2.0",
-        "node_id": "award:usaspending:31310026F0023",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-015d30ab2d1e7146",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6e45ac3ac749fe49",
-          "locator": "opportunity_status:awarded",
-          "title": "AI Enabled Technology Transfer Tools",
-          "url": "https://sam.gov/workspace/contract/opp/9b762ae7d558414b9ce3d4a83754f02e/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1333ND26QNB400403",
-        "label": "AI Enabled Technology Transfer Tools",
-        "node_id": "award_notice:sam_gov:1333ND26QNB400403",
-        "node_type": "award_notice"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-ce02eb7b4b819f38",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-efca240a4c456820",
-          "locator": "awarding_agency:commerce, department of.national institute of standards and technology.dept of commerce nist",
-          "title": "AI Enabled Technology Transfer Tools",
-          "url": "https://sam.gov/workspace/contract/opp/9b762ae7d558414b9ce3d4a83754f02e/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1333ND26QNB400403",
-        "label": "AI Enabled Technology Transfer Tools",
-        "node_id": "award_notice:sam_gov:1333ND26QNB400403",
-        "node_type": "award_notice"
-      },
-      "value": "COMMERCE, DEPARTMENT OF.NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY.DEPT OF COMMERCE NIST"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-69c91165ac0f2e17",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1003ae75e0480c3c",
-          "locator": "reported_amount:81000.0",
-          "title": "AI Enabled Technology Transfer Tools",
-          "url": "https://sam.gov/workspace/contract/opp/9b762ae7d558414b9ce3d4a83754f02e/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1333ND26QNB400403",
-        "label": "AI Enabled Technology Transfer Tools",
-        "node_id": "award_notice:sam_gov:1333ND26QNB400403",
-        "node_type": "award_notice"
-      },
-      "value": 81000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-0fc2bc45b7492039",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "name:firstignite",
-        "label": "FIRSTIGNITE LTD",
-        "node_id": "recipient_or_contractor:name:firstignite",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c1a77acf784957ab",
-          "locator": "reported_recipient:recipient_or_contractor:name:firstignite",
-          "title": "AI Enabled Technology Transfer Tools",
-          "url": "https://sam.gov/workspace/contract/opp/9b762ae7d558414b9ce3d4a83754f02e/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1333ND26QNB400403",
-        "label": "AI Enabled Technology Transfer Tools",
-        "node_id": "award_notice:sam_gov:1333ND26QNB400403",
-        "node_type": "award_notice"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-960e64db82288132",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-eb3df943aac361e3",
-          "locator": "opportunity_status:awarded",
-          "title": "Carbon Flux Sensor and Tower",
-          "url": "https://sam.gov/workspace/contract/opp/a5cb0a6a47be4acd92d824ee197755f7/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1232SA26Q1354",
-        "label": "Carbon Flux Sensor and Tower",
-        "node_id": "award_notice:sam_gov:1232SA26Q1354",
-        "node_type": "award_notice"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-47ababf0a11c49a0",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a69ea9104bee0aea",
-          "locator": "awarding_agency:agriculture, department of.agricultural research service.usda ars afm apd",
-          "title": "Carbon Flux Sensor and Tower",
-          "url": "https://sam.gov/workspace/contract/opp/a5cb0a6a47be4acd92d824ee197755f7/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1232SA26Q1354",
-        "label": "Carbon Flux Sensor and Tower",
-        "node_id": "award_notice:sam_gov:1232SA26Q1354",
-        "node_type": "award_notice"
-      },
-      "value": "AGRICULTURE, DEPARTMENT OF.AGRICULTURAL RESEARCH SERVICE.USDA ARS AFM APD"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7faf547b18f10315",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0f3dac60d2d4f98e",
-          "locator": "reported_amount:69908.0",
-          "title": "Carbon Flux Sensor and Tower",
-          "url": "https://sam.gov/workspace/contract/opp/a5cb0a6a47be4acd92d824ee197755f7/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1232SA26Q1354",
-        "label": "Carbon Flux Sensor and Tower",
-        "node_id": "award_notice:sam_gov:1232SA26Q1354",
-        "node_type": "award_notice"
-      },
-      "value": 69908.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e63bab39baddd64c",
-      "confidence": "high",
-      "effective_date": "2026-09-22",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": {
-        "identifier": "name:li cor",
-        "label": "LI-COR, INC.",
-        "node_id": "recipient_or_contractor:name:li cor",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d9d85025186dbc81",
-          "locator": "reported_recipient:recipient_or_contractor:name:li cor",
-          "title": "Carbon Flux Sensor and Tower",
-          "url": "https://sam.gov/workspace/contract/opp/a5cb0a6a47be4acd92d824ee197755f7/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1232SA26Q1354",
-        "label": "Carbon Flux Sensor and Tower",
-        "node_id": "award_notice:sam_gov:1232SA26Q1354",
-        "node_type": "award_notice"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4dfe970d0d512dda",
-      "confidence": "high",
-      "effective_date": "2026-09-23",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-24",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "legal_business_name",
       "sources": [
@@ -3109,29 +949,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7d3b9a9a23424753",
-          "locator": "legal_business_name:regents of the university of california, san francisco, the",
-          "title": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
-          "url": "https://sam.gov/entity/KMH5K9V7S518/coreData",
+          "evidence_id": "evidence-7bec9084153bd4de",
+          "locator": "legal_business_name:dsd laboratories inc",
+          "title": "DSD LABORATORIES INC",
+          "url": "https://sam.gov/entity/MBMHMGJMQFC7/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:KMH5K9V7S518",
-        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
-        "node_id": "recipient_or_contractor:uei:KMH5K9V7S518",
+        "identifier": "name:dsd laboratories",
+        "label": "DSD LABORATORIES INC",
+        "node_id": "recipient_or_contractor:name:dsd laboratories",
         "node_type": "recipient_or_contractor"
       },
-      "value": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE"
+      "value": "DSD LABORATORIES INC"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-af0078331f9b53b3",
+      "claim_id": "claim-403b5aa9650d4f30",
       "confidence": "high",
-      "effective_date": "2026-09-23",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-24",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "uei",
       "sources": [
@@ -3139,29 +979,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-851207234a176c51",
-          "locator": "uei:kmh5k9v7s518",
-          "title": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
-          "url": "https://sam.gov/entity/KMH5K9V7S518/coreData",
+          "evidence_id": "evidence-eae28df52519f60d",
+          "locator": "uei:mbmhmgjmqfc7",
+          "title": "DSD LABORATORIES INC",
+          "url": "https://sam.gov/entity/MBMHMGJMQFC7/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:KMH5K9V7S518",
-        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
-        "node_id": "recipient_or_contractor:uei:KMH5K9V7S518",
+        "identifier": "name:dsd laboratories",
+        "label": "DSD LABORATORIES INC",
+        "node_id": "recipient_or_contractor:name:dsd laboratories",
         "node_type": "recipient_or_contractor"
       },
-      "value": "KMH5K9V7S518"
+      "value": "MBMHMGJMQFC7"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-51f96e0e5d3971c9",
+      "claim_id": "claim-b13a621a1d43c265",
       "confidence": "high",
-      "effective_date": "2026-09-23",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-24",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "cage_code",
       "sources": [
@@ -3169,29 +1009,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ebeb38c915ea11a7",
-          "locator": "cage_code:4b560",
-          "title": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
-          "url": "https://sam.gov/entity/KMH5K9V7S518/coreData",
+          "evidence_id": "evidence-47f20ed9784ba637",
+          "locator": "cage_code:0abu8",
+          "title": "DSD LABORATORIES INC",
+          "url": "https://sam.gov/entity/MBMHMGJMQFC7/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:KMH5K9V7S518",
-        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
-        "node_id": "recipient_or_contractor:uei:KMH5K9V7S518",
+        "identifier": "name:dsd laboratories",
+        "label": "DSD LABORATORIES INC",
+        "node_id": "recipient_or_contractor:name:dsd laboratories",
         "node_type": "recipient_or_contractor"
       },
-      "value": "4B560"
+      "value": "0ABU8"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-3ed9aaed3e7de55e",
+      "claim_id": "claim-508d3e6e261b9082",
       "confidence": "high",
-      "effective_date": "2026-09-23",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "effective_date": "2026-09-24",
+      "first_observed_at": "2026-09-24T02:35:42.095877+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "registration_status",
       "sources": [
@@ -3199,137 +1039,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-66f490693989a823",
+          "evidence_id": "evidence-ac4c191de671f780",
           "locator": "registration_status:active",
-          "title": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
-          "url": "https://sam.gov/entity/KMH5K9V7S518/coreData",
+          "title": "DSD LABORATORIES INC",
+          "url": "https://sam.gov/entity/MBMHMGJMQFC7/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:KMH5K9V7S518",
-        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
-        "node_id": "recipient_or_contractor:uei:KMH5K9V7S518",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-aae13dbdd3e6550c",
-      "confidence": "high",
-      "effective_date": "2026-09-23",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-796ad35c43296de5",
-          "locator": "legal_business_name:virginia commonwealth university",
-          "title": "VIRGINIA COMMONWEALTH UNIVERSITY",
-          "url": "https://sam.gov/entity/MLQFL4JSSAA9/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:MLQFL4JSSAA9",
-        "label": "VIRGINIA COMMONWEALTH UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MLQFL4JSSAA9",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "VIRGINIA COMMONWEALTH UNIVERSITY"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-77ad1b778853edba",
-      "confidence": "high",
-      "effective_date": "2026-09-23",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-72814f0ee524b8ca",
-          "locator": "uei:mlqfl4jssaa9",
-          "title": "VIRGINIA COMMONWEALTH UNIVERSITY",
-          "url": "https://sam.gov/entity/MLQFL4JSSAA9/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:MLQFL4JSSAA9",
-        "label": "VIRGINIA COMMONWEALTH UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MLQFL4JSSAA9",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "MLQFL4JSSAA9"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-8469764d0fe059d2",
-      "confidence": "high",
-      "effective_date": "2026-09-23",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e0b1c7d8e0519802",
-          "locator": "cage_code:46050",
-          "title": "VIRGINIA COMMONWEALTH UNIVERSITY",
-          "url": "https://sam.gov/entity/MLQFL4JSSAA9/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:MLQFL4JSSAA9",
-        "label": "VIRGINIA COMMONWEALTH UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MLQFL4JSSAA9",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "46050"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3dd7b27f8e4fcfed",
-      "confidence": "high",
-      "effective_date": "2026-09-23",
-      "first_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
-      "object": null,
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-03f3a9148af185ad",
-          "locator": "registration_status:active",
-          "title": "VIRGINIA COMMONWEALTH UNIVERSITY",
-          "url": "https://sam.gov/entity/MLQFL4JSSAA9/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:MLQFL4JSSAA9",
-        "label": "VIRGINIA COMMONWEALTH UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MLQFL4JSSAA9",
+        "identifier": "name:dsd laboratories",
+        "label": "DSD LABORATORIES INC",
+        "node_id": "recipient_or_contractor:name:dsd laboratories",
         "node_type": "recipient_or_contractor"
       },
       "value": "Active"
@@ -3340,39 +1060,39 @@
     {
       "authority": "authoritative",
       "change_type": "changed",
-      "claim_id": "claim-b08b9f514ddf62f3",
+      "claim_id": "claim-f78e93d2782c9e84",
       "confidence": "high",
-      "effective_date": "2025-09-30",
+      "effective_date": "2025-09-22",
       "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "last_observed_at": "2026-09-23T02:46:09.605997+00:00",
+      "last_observed_at": "2026-09-24T02:35:42.095877+00:00",
       "object": null,
       "predicate": "reported_amount",
       "previous_object": null,
-      "previous_value": 764445.6,
+      "previous_value": 2195460.26,
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7a6121d38db0e0b4",
-          "locator": "reported_amount:1536712.0",
-          "title": "INFORMATION SYSTEMS SECURITY SUPPORT SERVICES - CALL ORDER 6 POST QUANTUM CRYPTOGRAPHY",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_91990025F0111_9100_91990023A0002_9100",
+          "evidence_id": "evidence-d0ba04be9dd13991",
+          "locator": "reported_amount:4432225.82",
+          "title": "SUBJECT MATTER EXPERTISE SERVICES TO ESTABLISH NEW ROBOTICS AND AUTONOMOUS SYSTEMS DOMAIN FOR \"DRONE\" AND COUNTER-UNMANNED AUTONOMOUS SYSTEMS.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02325F71100013_7008_47QRCA25DA145_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:91990025F0111",
-        "label": "INFORMATION SYSTEMS SECURITY SUPPORT SERVICES - CALL ORDER 6 POST QUANTUM CRYPTOGRAPHY",
-        "node_id": "award:usaspending:91990025F0111",
+        "identifier": "usaspending:70Z02325F71100013",
+        "label": "SUBJECT MATTER EXPERTISE SERVICES TO ESTABLISH NEW ROBOTICS AND AUTONOMOUS SYSTEMS DOMAIN FOR \"DRONE\" AND COUNTER-UNMANNED AUTONOMOUS SYSTEMS.",
+        "node_id": "award:usaspending:70Z02325F71100013",
         "node_type": "award"
       },
-      "value": 1536712.0
+      "value": 4432225.82
     }
   ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-09-23T02:46:09.605997+00:00",
-  "comparison_started_at": "2026-09-22T02:45:29.401531+00:00",
+  "comparison_ended_at": "2026-09-24T02:35:42.095877+00:00",
+  "comparison_started_at": "2026-09-23T02:46:09.605997+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -4288,19 +2008,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-09-22T02:45:29.401531+00:00",
+  "since": "2026-09-23T02:46:09.605997+00:00",
   "summary": {
-    "active_claims": 4584,
-    "added": 98,
+    "active_claims": 4609,
+    "added": 25,
     "changed": 1,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 126,
+    "material_changes": 53,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-09-23T02:46:09.605997+00:00",
+  "updated_at": "2026-09-24T02:35:42.095877+00:00",
   "version": 1
 }

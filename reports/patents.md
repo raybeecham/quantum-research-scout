@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-09-23T02:46:09.605997+00:00_
+_Updated 2026-09-24T02:35:42.095877+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -17,7 +17,7 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Unique named assignees: **150**
 - Patent families: **267**
 - Applications / grants: **240 / 10**
-- Known legal status: **201 of 250**
+- Known legal status: **203 of 250**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -152,6 +152,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [Hook-Based Technique for Countering Ransomware](https://data.uspto.gov/patent-file-wrapper/search/details/19672423/application-data)<br><small>US20260278103A1</small> | Application · Pending | Halcyon Tech, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [Detecting and Protecting Against Cybersecurity Attacks Using Unprintable Tracking Characters](https://data.uspto.gov/patent-file-wrapper/search/details/19678324/application-data)<br><small>US20260278089A1</small> | Application · Pending | Proofpoint, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [SYSTEMS AND METHODS FOR FACILITATING REMEDIAL ACTIONS TO CYBERSECURITY VULNERABILITIES](https://data.uspto.gov/patent-file-wrapper/search/details/19560362/application-data)<br><small>US20260267974A1</small> | Application · Pending | Guardare, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
+| [SYSTEM AND METHOD FOR SUMMARIZATION OF COMPLEX CYBERSECURITY BEHAVIORAL ONTOLOGICAL GRAPH](https://data.uspto.gov/patent-file-wrapper/search/details/19659503/application-data)<br><small>US20260267998A1</small> | Application · Pending | Cisco Technology, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [Pattern Analysis Threat Detection Engine](https://data.uspto.gov/patent-file-wrapper/search/details/19671020/application-data)<br><small>US20260270278A1</small> | Application · Pending | Bank of America Corporation | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [Modeling Simulated Cybersecurity Attack Difficulty](https://data.uspto.gov/patent-file-wrapper/search/details/19671645/application-data)<br><small>US20260270289A1</small> | Application · Pending | Proofpoint, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [Zero Trust System Architecture](https://data.uspto.gov/patent-file-wrapper/search/details/19653620/application-data)<br><small>US20260261565A1</small> | Application · Pending | Zscaler, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
@@ -251,8 +252,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [QUANTUM NETWORK DEVICES, SYSTEMS, AND METHODS](https://data.uspto.gov/patent-file-wrapper/search/details/18962046/application-data)<br><small>US20250097021A1</small> | Application · Unknown | QUNNECT, INC., THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | 1 member(s) · 0 citation(s) | **54 · NOTABLE** |
 | [ACTION-LEVEL CONSTRAINT ENFORCEMENT AND CONTAINMENT INTEGRITY MONITORING FOR AGENTIC LARGE LANGUAGE MODEL SYSTEMS WITH AUTONOMOUS TOOL ACCESS](https://data.uspto.gov/patent-file-wrapper/search/details/19645306/application-data)<br><small>US20260238651A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **54 · NOTABLE** |
 | [Methods and Systems for Efficient Encrypted SNI Filtering for Cybersecurity Applications](https://data.uspto.gov/patent-file-wrapper/search/details/19669032/application-data)<br><small>US20260281080A1</small> | Application · Unknown | Centripetal Networks, LLC | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
-| [SYSTEM AND METHOD FOR SUMMARIZATION OF COMPLEX CYBERSECURITY BEHAVIORAL ONTOLOGICAL GRAPH](https://data.uspto.gov/patent-file-wrapper/search/details/19659503/application-data)<br><small>US20260267998A1</small> | Application · Unknown | Cisco Technology, Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
-| [INTEGRATED AI-DRIVEN SYSTEM FOR AUTOMATING IT AND CYBERSECURITY OPERATIONS](https://data.uspto.gov/patent-file-wrapper/search/details/19657743/application-data)<br><small>US20260267774A1</small> | Application · Unknown | Augstra LLC | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
+| [INTEGRATED AI-DRIVEN SYSTEM FOR AUTOMATING IT AND CYBERSECURITY OPERATIONS](https://data.uspto.gov/patent-file-wrapper/search/details/19657743/application-data)<br><small>US20260267774A1</small> | Application · Abandoned | Augstra LLC | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [SYSTEMS AND METHODS FOR AUTOMATED THREAT DETECTION USING RETROSPECTIVE AND PROSPECTIVE ASSESSMENT OF INDICATORS OF COMPROMISE](https://data.uspto.gov/patent-file-wrapper/search/details/19652750/application-data)<br><small>US20260254823A1</small> | Application · Unknown | Expel, Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [PORTABLE DOCUMENT FORMAT (PDF) FILE MALWARE DETECTION](https://data.uspto.gov/patent-file-wrapper/search/details/19640228/application-data)<br><small>US20260236579A1</small> | Application · Unknown | Netskope, Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [WEAK PASSWORD DETECTION IN CLOUD COMPUTING ENVIRONMENTS](https://data.uspto.gov/patent-file-wrapper/search/details/19680354/application-data)<br><small>US20260278068A1</small> | Application · Pending | Wiz, Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
