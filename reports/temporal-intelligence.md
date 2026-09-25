@@ -2,31 +2,35 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-09-24T02:35:42.095877+00:00_
+_Updated 2026-09-25T02:53:03.340017+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **18**
+- Actual or recent changes: **25**
 - Newly discovered historical evidence: **0**
-- Newly observed with no reliable source date: **4**
+- Newly observed with no reliable source date: **0**
 - Upcoming dated events: **15**
 
 ## Priority timeline
 
-- **Changed since prior run** · SUBJECT MATTER EXPERTISE SERVICES TO ESTABLISH NEW ROBOTICS AND AUTONOMOUS SYSTEMS DOMAIN FOR "DRONE" AND COUNTER-UNMANNED AUTONOMOUS SYSTEMS. — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_70Z02325F71100013_7008_47QRCA25DA145_4732))
-  - The assertion changed relative to the prior successful ledger build.
-- **Published today** · AN13--Miniaturized CO2 Sensor Prototype Development — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/bfe559b589684232916e4bb0afe058ec/view))
+- **Published today** · D--FWS IT Services BPA - FWS DIV OF MGT ATHRY - AI FO — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/9199c9fe13e54c87b4949d1e48d43c7a/view))
   - The source publication date is today or within the prior day.
-- **Occurred 2 days ago** · ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0372_3600_47QTCA25D00AX_4732))
+- **Published today** · F110 BLADE,COMPRESSOR,AI (AMC 3V) — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/c77e84f07efd4c1dbd4fa519ef53e377/view))
+  - The source publication date is today or within the prior day.
+- **Occurred 3 days ago** · ARTIFICIAL INTELLIGENCE AND MUSEUMS LITERACY CONFERENCE SERVICES EVENT PLANNING SUPPORT TO ENCOURAGE AND ADVANCE LEADERSHIP AND INNOVATION WITHIN MUSEUM COMMUNITIES PURSUANT TO 20... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_53987126FC012_5300_53987124A0001_5300))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 3 days ago** · EDUSA AI & QUANTUM TECHNOLOGIES — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_19AS2026P1012_1900_-NONE-_-NONE-))
+- **Occurred 3 days ago** · NEW TASK ORDER FOR CYBERSECURITY, PRIVACY, AND AUTHORIZATION AND ASSESSMENT (A&A) SUPPORT SERVICES — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303026FIM400081_8900_89303025DIM000006_8900))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 3 days ago** · TO PURCHASE ENTERPRISE SERVERS, HYPERCONVERGED INFRASTRUCTURE, NETWORK SWITCHES AND ARTIFICIAL INTELLIGENCE COMPUTING HARDWARE. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB26F00050_2041_NNG15SC20B_8000))
+- **Occurred 3 days ago** · OU68-FY26-104-NEW OPTICAL ACCESS DILUTION REFRIGERATOR — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB680611_1341_-NONE-_-NONE-))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Upcoming event date** · NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027 — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80332_7571_NNG15SD22B_8000))
-  - The source date is in the future; Scout first observed it on 2026-09-24.
-- **Newly observed · event date unknown** · DSD LABORATORIES INC — cage code ([evidence](https://sam.gov/entity/MBMHMGJMQFC7/coreData))
-  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Occurred 3 days ago** · OU68-FY26-492-NEW OPTICAL ATOMIC CLOCKS TO UPGRADE OFFICIAL US TIME — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB680629_1341_-NONE-_-NONE-))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Upcoming event date** · ARTIFICIAL INTELLIGENCE FOR NUMERICAL WEATHER PREDICTION (AI4NWP): FROM TRAINING DATA/REANALYSIS TO MODEL DESIGN IN ACCORDANCE WITH THE PERFORMANCE WORK STATEMENT (PWS). — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0273_1330_1331L523D13OS0003_1301))
+  - The source date is in the future; Scout first observed it on 2026-09-25.
+- **Upcoming event date** · OU77-FY26-101-NEW NCCOE CYBERSECURITY RESEARCH, DEVELOPMENT, AND ENGINEERING SUPPORT SERVICE — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB770131_1341_DOCSB134114CQ0010_1341))
+  - The source date is in the future; Scout first observed it on 2026-09-25.
+- **Upcoming event date** · RESEARCH AND TECHNOLOGY TO PROMOTE SAFETY OF COMMERCIAL MOTOR VEHICLES, DRIVERS, AND CARRIERS, MULTIPLE AWARD, INDEFINITE DELIVERY, INDEFINITE QUANTITY CONTRACT- ENGAGING FLEETS O... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ426F00050N_6953_693JJ426D000019_6953))
+  - The source date is in the future; Scout first observed it on 2026-09-25.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

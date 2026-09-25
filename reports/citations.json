@@ -1508,12 +1508,12 @@
     },
     "https://www.usaspending.gov/award/CONT_AWD_75N98026F00373_7529_47QTCA21D00BX_4732": {
       "status": "lookup_failed",
-      "attempted_at": "2026-09-23T02:53:18.491070+00:00",
+      "attempted_at": "2026-09-25T03:08:15.263001+00:00",
       "refresh_status": "failed"
     },
     "https://www.usaspending.gov/award/CONT_AWD_70Z08026PPBPL0111_7008_-NONE-_-NONE-": {
       "status": "lookup_failed",
-      "attempted_at": "2026-09-23T02:53:18.491070+00:00",
+      "attempted_at": "2026-09-25T03:08:15.263001+00:00",
       "refresh_status": "failed"
     },
     "https://eprint.iacr.org/2026/2137": {
@@ -1687,9 +1687,29 @@
       ]
     },
     "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu": {
-      "status": "lookup_failed",
-      "attempted_at": "2026-09-23T02:53:18.491070+00:00",
-      "refresh_status": "failed"
+      "title": "IonQ Demonstrates Real-Time QEC Decoding at MegaQuOp Scale on Single Commodity CPU",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "publisher": "Quantum Computing Report",
+      "publication_date": "2026-09-23",
+      "canonical_url": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu/",
+      "status": "source_metadata",
+      "kind": "article",
+      "metadata_url": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu",
+      "retrieved_at": "2026-09-25T03:08:15.263001+00:00",
+      "peer_review_status": "Not verified",
+      "provenance": "Source-reported article metadata (JSON-LD or HTML meta tags). Not independently verified; linked papers are separate sources.",
+      "field_sources": {
+        "title": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu",
+        "authors": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu",
+        "publisher": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu",
+        "publication_date": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu",
+        "canonical_url": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu"
+      },
+      "linked_papers": [
+        "https://arxiv.org/abs/2608.25027"
+      ]
     },
     "https://thequantuminsider.com/2026/09/22/quantum-xchange-carahsoft-post-quantum-cryptography-government": {
       "title": "Quantum XChange and Carahsoft Partner on Post-Quantum Cryptography for Government",
@@ -1945,7 +1965,159 @@
         "canonical_url": "https://thequantuminsider.com/2026/09/23/cisco-kets-integrate-qkd-ios-xr-routers"
       },
       "linked_papers": []
+    },
+    "https://quantumcomputingreport.com/patenting-quantum-computing-innovations-part-3-implementing-a-logical-qubit-in-a-surface-code": {
+      "status": "lookup_failed",
+      "attempted_at": "2026-09-25T03:08:15.263001+00:00",
+      "refresh_status": "failed"
+    },
+    "https://thequantuminsider.com/2026/09/24/memq-open-source-distributed-quantum-compiler": {
+      "title": "memQ Releases Open-Source Distributed Quantum Compiler",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "publisher": "The Quantum Insider",
+      "publication_date": "2026-09-24",
+      "canonical_url": "https://thequantuminsider.com/2026/09/24/memq-open-source-distributed-quantum-compiler/",
+      "status": "source_metadata",
+      "kind": "article",
+      "metadata_url": "https://thequantuminsider.com/2026/09/24/memq-open-source-distributed-quantum-compiler",
+      "retrieved_at": "2026-09-25T03:08:15.263001+00:00",
+      "peer_review_status": "Not verified",
+      "provenance": "Source-reported article metadata (JSON-LD or HTML meta tags). Not independently verified; linked papers are separate sources.",
+      "field_sources": {
+        "title": "https://thequantuminsider.com/2026/09/24/memq-open-source-distributed-quantum-compiler",
+        "authors": "https://thequantuminsider.com/2026/09/24/memq-open-source-distributed-quantum-compiler",
+        "publisher": "https://thequantuminsider.com/2026/09/24/memq-open-source-distributed-quantum-compiler",
+        "publication_date": "https://thequantuminsider.com/2026/09/24/memq-open-source-distributed-quantum-compiler",
+        "canonical_url": "https://thequantuminsider.com/2026/09/24/memq-open-source-distributed-quantum-compiler"
+      },
+      "linked_papers": []
+    },
+    "https://thequantuminsider.com/2026/09/24/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer": {
+      "title": "Infleqtion Achieves 30 Entangled Logical Qubits on Its Sqale Quantum Computer",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "publisher": "The Quantum Insider",
+      "publication_date": "2026-09-24",
+      "canonical_url": "https://thequantuminsider.com/2026/09/24/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer/",
+      "status": "source_metadata",
+      "kind": "article",
+      "metadata_url": "https://thequantuminsider.com/2026/09/24/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer",
+      "retrieved_at": "2026-09-25T03:08:15.263001+00:00",
+      "peer_review_status": "Not verified",
+      "provenance": "Source-reported article metadata (JSON-LD or HTML meta tags). Not independently verified; linked papers are separate sources.",
+      "field_sources": {
+        "title": "https://thequantuminsider.com/2026/09/24/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer",
+        "authors": "https://thequantuminsider.com/2026/09/24/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer",
+        "publisher": "https://thequantuminsider.com/2026/09/24/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer",
+        "publication_date": "https://thequantuminsider.com/2026/09/24/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer",
+        "canonical_url": "https://thequantuminsider.com/2026/09/24/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer"
+      },
+      "linked_papers": []
+    },
+    "https://thequantuminsider.com/2026/09/24/tezos-launches-quantumnet-post-quantum-testnet": {
+      "title": "Tezos Launches Quantumnet Post-Quantum Testnet",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "publisher": "The Quantum Insider",
+      "publication_date": "2026-09-24",
+      "canonical_url": "https://thequantuminsider.com/2026/09/24/tezos-launches-quantumnet-post-quantum-testnet/",
+      "status": "source_metadata",
+      "kind": "article",
+      "metadata_url": "https://thequantuminsider.com/2026/09/24/tezos-launches-quantumnet-post-quantum-testnet",
+      "retrieved_at": "2026-09-25T03:08:15.263001+00:00",
+      "peer_review_status": "Not verified",
+      "provenance": "Source-reported article metadata (JSON-LD or HTML meta tags). Not independently verified; linked papers are separate sources.",
+      "field_sources": {
+        "title": "https://thequantuminsider.com/2026/09/24/tezos-launches-quantumnet-post-quantum-testnet",
+        "authors": "https://thequantuminsider.com/2026/09/24/tezos-launches-quantumnet-post-quantum-testnet",
+        "publisher": "https://thequantuminsider.com/2026/09/24/tezos-launches-quantumnet-post-quantum-testnet",
+        "publication_date": "https://thequantuminsider.com/2026/09/24/tezos-launches-quantumnet-post-quantum-testnet",
+        "canonical_url": "https://thequantuminsider.com/2026/09/24/tezos-launches-quantumnet-post-quantum-testnet"
+      },
+      "linked_papers": []
+    },
+    "https://thequantuminsider.com/2026/09/24/developers-push-quantum-safe-bitcoin-transaction-cost-below-70": {
+      "title": "Developers Push Quantum-Safe Bitcoin Transaction Cost Below $70",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "publisher": "The Quantum Insider",
+      "publication_date": "2026-09-24",
+      "canonical_url": "https://thequantuminsider.com/2026/09/24/developers-push-quantum-safe-bitcoin-transaction-cost-below-70/",
+      "status": "source_metadata",
+      "kind": "article",
+      "metadata_url": "https://thequantuminsider.com/2026/09/24/developers-push-quantum-safe-bitcoin-transaction-cost-below-70",
+      "retrieved_at": "2026-09-25T03:08:15.263001+00:00",
+      "peer_review_status": "Not verified",
+      "provenance": "Source-reported article metadata (JSON-LD or HTML meta tags). Not independently verified; linked papers are separate sources.",
+      "field_sources": {
+        "title": "https://thequantuminsider.com/2026/09/24/developers-push-quantum-safe-bitcoin-transaction-cost-below-70",
+        "authors": "https://thequantuminsider.com/2026/09/24/developers-push-quantum-safe-bitcoin-transaction-cost-below-70",
+        "publisher": "https://thequantuminsider.com/2026/09/24/developers-push-quantum-safe-bitcoin-transaction-cost-below-70",
+        "publication_date": "https://thequantuminsider.com/2026/09/24/developers-push-quantum-safe-bitcoin-transaction-cost-below-70",
+        "canonical_url": "https://thequantuminsider.com/2026/09/24/developers-push-quantum-safe-bitcoin-transaction-cost-below-70"
+      },
+      "linked_papers": [
+        "https://arxiv.org/abs/2609.09582"
+      ]
+    },
+    "https://thequantuminsider.com/2026/09/24/ionq-superion-256-florida-international-university": {
+      "title": "IonQ to Deploy Superion 256 Quantum Computer at Florida International University",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "publisher": "The Quantum Insider",
+      "publication_date": "2026-09-24",
+      "canonical_url": "https://thequantuminsider.com/2026/09/24/ionq-superion-256-florida-international-university/",
+      "status": "source_metadata",
+      "kind": "article",
+      "metadata_url": "https://thequantuminsider.com/2026/09/24/ionq-superion-256-florida-international-university",
+      "retrieved_at": "2026-09-25T03:08:15.263001+00:00",
+      "peer_review_status": "Not verified",
+      "provenance": "Source-reported article metadata (JSON-LD or HTML meta tags). Not independently verified; linked papers are separate sources.",
+      "field_sources": {
+        "title": "https://thequantuminsider.com/2026/09/24/ionq-superion-256-florida-international-university",
+        "authors": "https://thequantuminsider.com/2026/09/24/ionq-superion-256-florida-international-university",
+        "publisher": "https://thequantuminsider.com/2026/09/24/ionq-superion-256-florida-international-university",
+        "publication_date": "https://thequantuminsider.com/2026/09/24/ionq-superion-256-florida-international-university",
+        "canonical_url": "https://thequantuminsider.com/2026/09/24/ionq-superion-256-florida-international-university"
+      },
+      "linked_papers": []
+    },
+    "https://quantumcomputingreport.com/classiq-ingl-and-ionq-advance-quantum-optimization-for-natural-gas-transmission-networks": {
+      "title": "Classiq, INGL, and IonQ Advance Quantum Optimization for Natural Gas Transmission Networks",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "publisher": "Quantum Computing Report",
+      "publication_date": "2026-09-24",
+      "canonical_url": "https://quantumcomputingreport.com/classiq-ingl-and-ionq-advance-quantum-optimization-for-natural-gas-transmission-networks/",
+      "status": "source_metadata",
+      "kind": "article",
+      "metadata_url": "https://quantumcomputingreport.com/classiq-ingl-and-ionq-advance-quantum-optimization-for-natural-gas-transmission-networks",
+      "retrieved_at": "2026-09-25T03:08:15.263001+00:00",
+      "peer_review_status": "Not verified",
+      "provenance": "Source-reported article metadata (JSON-LD or HTML meta tags). Not independently verified; linked papers are separate sources.",
+      "field_sources": {
+        "title": "https://quantumcomputingreport.com/classiq-ingl-and-ionq-advance-quantum-optimization-for-natural-gas-transmission-networks",
+        "authors": "https://quantumcomputingreport.com/classiq-ingl-and-ionq-advance-quantum-optimization-for-natural-gas-transmission-networks",
+        "publisher": "https://quantumcomputingreport.com/classiq-ingl-and-ionq-advance-quantum-optimization-for-natural-gas-transmission-networks",
+        "publication_date": "https://quantumcomputingreport.com/classiq-ingl-and-ionq-advance-quantum-optimization-for-natural-gas-transmission-networks",
+        "canonical_url": "https://quantumcomputingreport.com/classiq-ingl-and-ionq-advance-quantum-optimization-for-natural-gas-transmission-networks"
+      },
+      "linked_papers": [
+        "https://arxiv.org/abs/2609.00825"
+      ]
+    },
+    "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000": {
+      "status": "lookup_failed",
+      "attempted_at": "2026-09-25T03:08:15.263001+00:00",
+      "refresh_status": "failed"
     }
   },
-  "updated_at": "2026-09-24T02:46:32.488717+00:00"
+  "updated_at": "2026-09-25T03:08:15.263001+00:00"
 }

@@ -2,13 +2,13 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-09-24T02:35:42.095877+00:00_
+_Updated 2026-09-25T02:53:03.340017+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
 - SAM.gov-resolved entities: **99** (**132.0%** coverage)
-- Newly resolved this run: **1**
+- Newly resolved this run: **0**
 - Pending bounded enrichment: **114**
 - Ambiguous / no match: **6 / 1**
 
@@ -56,6 +56,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | MORGAN STATE UNIVERSITY | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) | KULSKCCZJT27 | 8U547 | Active | Educational Institution, Historically Black College or University, Minority Institution |
 | UNIVERSITY OF NEW MEXICO | [University Of New Mexico](https://sam.gov/entity/F6XLTRUQJEN4/coreData) | F6XLTRUQJEN4 | 6T086 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
 | THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | [THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/JJ6CN5Y5A2R5/coreData) | JJ6CN5Y5A2R5 | 07069 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| THE PENNSYLVANIA STATE UNIVERSITY | [THE PENNSYLVANIA STATE UNIVERSITY](https://sam.gov/entity/NPM2J7MSCF61/coreData) | NPM2J7MSCF61 | 7A720 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | NEW MEXICO STATE UNIVERSITY | [NEW MEXICO STATE UNIVERSITY](https://sam.gov/entity/J3M5GZAT8N85/coreData) | J3M5GZAT8N85 | 3X352 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | GEORGIA TECH RESEARCH CORP | [GEORGIA TECH RESEARCH CORP](https://sam.gov/entity/EMW9FC8J3HN4/coreData) | EMW9FC8J3HN4 | 1G474 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF TEXAS AT DALLAS | [UNIVERSITY OF TEXAS AT DALLAS](https://sam.gov/entity/EJCVPNN1WFS5/coreData) | EJCVPNN1WFS5 | 0W921 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
@@ -88,7 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | NEVADA SYSTEM OF HIGHER EDUCATION | [NEVADA SYSTEM OF HIGHER EDUCATION](https://sam.gov/entity/MV1JFXA4S621/coreData) | MV1JFXA4S621 | 0K5F8 | Active | Business or Organization, Non-Profit Organization |
 | KANSAS STATE UNIVERSITY | [KANSAS STATE UNIVERSITY](https://sam.gov/entity/CFMMM5JM7HJ9/coreData) | CFMMM5JM7HJ9 | 4B817 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |
 | PRIDE MOBILITY PRODUCTS CORPORATION | [Pride Mobility Products Corporation](https://sam.gov/entity/KFLDSFDM2VH3/coreData) | KFLDSFDM2VH3 | 1QRM1 | Active | Business or Organization, For Profit Organization |
-| MCKINSEY & COMPANY, INC. WASHINGTON D.C. | [MCKINSEY & COMPANY, INC. WASHINGTON D.C.](https://sam.gov/entity/N6JZARL64EW5/coreData) | N6JZARL64EW5 | 438P1 | Active | Business or Organization, For Profit Organization, Self-Certified HUBZone Joint Venture |
 
 ## Method
 

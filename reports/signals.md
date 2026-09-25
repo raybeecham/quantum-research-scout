@@ -4,18 +4,18 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-24 02:46 UTC_
+_Updated 2026-09-25 03:08 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-09-17 | 21 |
-| Quantum Sensing | ↗️ rising (3 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-10 | 45 |
-| PQC / Crypto Agility | ➡️ stable (20 vs 17) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-23 | 228 |
-| QEC / Fault Tolerance | ↘️ declining (5 vs 11) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-09-22 | 69 |
-| Quantum Hardware | ➡️ stable (14 vs 20) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-22 | 297 |
-| Quantum Networking | ↘️ declining (11 vs 17) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-23 | 131 |
+| Quantum Sensing | ↗️ rising (1 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-24 | 46 |
+| PQC / Crypto Agility | ➡️ stable (20 vs 18) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-24 | 231 |
+| QEC / Fault Tolerance | ↘️ declining (5 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-09-24 | 70 |
+| Quantum Hardware | ↘️ declining (10 vs 19) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-24 | 299 |
+| Quantum Networking | ➡️ stable (12 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-24 | 132 |
 | Quantum Software / Tooling | ➡️ stable (4 vs 4) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-23 | 90 |
 | Standards / Government | ➡️ stable (6 vs 6) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-09-23 | 57 |
 
@@ -35,55 +35,55 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: QuantumNews.ai, The Quantum Insider, Quantum Zeitgeist, Department of War Strategic Technology News
 - Recommended follow-up: Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.
 - Recent supporting evidence:
+  - 2026-09-24 — [Infleqtion Achieves 30 Entangled Logical Qubits on Its Sqale Quantum Computer](https://thequantuminsider.com/2026/09/24/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer) (The Quantum Insider, score 93)
   - 2026-09-10 — [NIST-Developed Quantum Sensors Improve Nuclear Monitoring](https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring) (QuantumNews.ai, score 100)
   - 2026-09-08 — [Infleqtion Leaders to Speak at Quantum World Congress 2026](https://infleqtion.com/infleqtion-leaders-to-speak-at-quantum-world-congress-2026) (QuantumNews.ai, score 36)
   - 2026-09-04 — [GPS-Free Test Flight Success Marks Critical Advance for Aviation, National Security](https://www.war.gov/News/News-Stories/Article/Article/4591661/gps-free-test-flight-success-marks-critical-advance-for-aviation-national-secur) (Department of War Strategic Technology News, score 100)
   - 2026-09-03 — [Economic and Technical Impacts of Quantum Sensing in Maritime Navigation](https://quantumnews.ai/networking/economic-and-technical-impacts-of-quantum-sensing-in-maritime-navigation) (QuantumNews.ai, score 26)
-  - 2026-08-28 — [Higher-Energy X-Rays Could Enable a New Form of Quantum Sensing](https://thequantuminsider.com/2026/08/28/higher-energy-x-rays-could-enable-a-new-form-of-quantum-sensing) (The Quantum Insider, score 22)
 
 ## PQC / Crypto Agility
 
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-09-24 — [ZERO TRUST POST QUANTUM ENCRYPTION SERVICES](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000) (USAspending · Quantum Technologies, score 100)
+  - 2026-09-24 — [Tezos Launches Quantumnet Post-Quantum Testnet](https://thequantuminsider.com/2026/09/24/tezos-launches-quantumnet-post-quantum-testnet) (The Quantum Insider, score 55)
+  - 2026-09-24 — [Developers Push Quantum-Safe Bitcoin Transaction Cost Below $70](https://thequantuminsider.com/2026/09/24/developers-push-quantum-safe-bitcoin-transaction-cost-below-70) (The Quantum Insider, score 50)
   - 2026-09-23 — [SAE EV PKI Trust Platform Launch Explained | DigiCert](https://www.digicert.com/blog/digicert-drives-sae-evpki-trust-platform-launch) (DigiCert Blog, score 47)
   - 2026-09-23 — [Prepare for Shorter TLS Certificate Lifespans | DigiCert](https://www.digicert.com/blog/how-to-prepare-for-the-reduction-in-certificate-lifespans) (DigiCert Blog, score 39)
-  - 2026-09-22 — [Quantum XChange and Carahsoft Partner on Post-Quantum Cryptography for Government](https://thequantuminsider.com/2026/09/22/quantum-xchange-carahsoft-post-quantum-cryptography-government) (The Quantum Insider, score 100)
-  - 2026-09-22 — [Identify Post-Quantum Cryptographic Algorithms for Automotive Security: Performance-Driven Guidance for Secure Boot, OTA, and V2X Communication](https://eprint.iacr.org/2026/2149) (IACR ePrint, score 88)
-  - 2026-09-22 — [PQC for Dummies—Cisco Special Edition: Why we wrote it](https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it) (Cisco Quantum-Safe Updates, score 58)
 
 ## QEC / Fault Tolerance
 
 - Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
 - Recent supporting evidence:
+  - 2026-09-24 — [Patenting Quantum Computing Innovations – Part 3: Implementing a Logical Qubit in a Surface Code](https://quantumcomputingreport.com/patenting-quantum-computing-innovations-part-3-implementing-a-logical-qubit-in-a-surface-code) (Quantum Computing Report, score 128)
   - 2026-09-22 — [IonQ Demonstrates Real-Time QEC Decoding at MegaQuOp Scale on Single Commodity CPU](https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu) (Quantum Computing Report, score 125)
   - 2026-09-18 — [DOE Launches $215 Million Quantum Genesis Q Competition](https://thequantuminsider.com/2026/09/18/doe-215-million-quantum-genesis-q-competition) (The Quantum Insider, score 114)
   - 2026-09-18 — [Riverlane Establishes U.S. Headquarters in Maryland’s Discovery District to Scale Real-Time QEC Deployments](https://quantumcomputingreport.com/riverlane-establishes-u-s-headquarters-in-marylands-discovery-district-to-scale-real-time-qec-deployments) (Quantum Computing Report, score 100)
   - 2026-09-18 — [USC and Quantum Elements Demonstrate Surface Code Scaling on IBM Heavy-Hex Processors](https://quantumcomputingreport.com/usc-and-quantum-elements-demonstrate-surface-code-scaling-on-ibm-heavy-hex-processors) (Quantum Computing Report, score 46)
-  - 2026-09-17 — [Riverlane Establishes U.S. Headquarters in Maryland to Accelerate Quantum Computing Innovation](https://thequantuminsider.com/2026/09/17/riverlane-establishes-u-s-headquarters-in-maryland-to-accelerate-quantum-computing-innovation) (The Quantum Insider, score 52)
 
 ## Quantum Hardware
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-09-24 — [IonQ to Deploy Superion 256 Quantum Computer at Florida International University](https://thequantuminsider.com/2026/09/24/ionq-superion-256-florida-international-university) (The Quantum Insider, score 50)
+  - 2026-09-24 — [Classiq, INGL, and IonQ Advance Quantum Optimization for Natural Gas Transmission Networks](https://quantumcomputingreport.com/classiq-ingl-and-ionq-advance-quantum-optimization-for-natural-gas-transmission-networks) (Quantum Computing Report, score 26)
   - 2026-09-22 — [QuEra and HPE Partner on Fault-Tolerant Quantum Computing for HPC](https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc) (The Quantum Insider, score 94)
   - 2026-09-22 — [Quobly Integrates Alloy Forge Emulator with qBraid Cloud to Accelerate Silicon Spin-Qubit Application Development](https://quantumcomputingreport.com/quobly-integrates-alloy-forge-emulator-with-qbraid-cloud-to-accelerate-silicon-spin-qubit-application-development) (Quantum Computing Report, score 26)
   - 2026-09-21 — [Heuristic and Optimal Synthesis of CNOT and Clifford Circuits](https://quantum-journal.org/papers/q-2026-09-21-2212) (Quantum Journal, score 34)
-  - 2026-09-21 — [Cornell Researchers Demonstrate Standing-Wave EIT Cooling for Trapped Ions](https://thequantuminsider.com/2026/09/21/cornell-standing-wave-eit-cooling-trapped-ions) (The Quantum Insider, score 29)
-  - 2026-09-21 — [NLM Photonics and SilOriX Partner on Silicon Organic Hybrid Photonics](https://thequantuminsider.com/2026/09/21/nlm-photonics-silorix-joint-development-agreement) (The Quantum Insider, score 24)
 
 ## Quantum Networking
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph, USAspending · Quantum Technologies
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
+  - 2026-09-24 — [memQ Releases Open-Source Distributed Quantum Compiler](https://thequantuminsider.com/2026/09/24/memq-open-source-distributed-quantum-compiler) (The Quantum Insider, score 98)
   - 2026-09-23 — [Qunnect Publishes Research on Quantum Security Beyond QKD](https://thequantuminsider.com/2026/09/23/qunnect-quantum-security-beyond-qkd) (The Quantum Insider, score 100)
   - 2026-09-23 — [Photonic Inc. and Microsoft Collaborate on Quantum Resource Estimation](https://thequantuminsider.com/2026/09/23/photonic-microsoft-quantum-resource-estimation) (The Quantum Insider, score 73)
   - 2026-09-23 — [Stony Brook Hosts Congressional Briefing on Quantum Technology](https://thequantuminsider.com/2026/09/23/stony-brook-congressional-briefing-quantum-technology) (The Quantum Insider, score 52)
   - 2026-09-23 — [Cisco and KETS Integrate Quantum Key Distribution With Cisco IOS XR Routers](https://thequantuminsider.com/2026/09/23/cisco-kets-integrate-qkd-ios-xr-routers) (The Quantum Insider, score 37)
-  - 2026-09-21 — [IonQ and SDT Announce the First Strategic Partnership to Bring Both Advanced Quantum Computing and Quantum Networking to the Asia-Pacific Region](https://investors.ionq.com/news/news-details/2026/IonQ-and-SDT-Announce-the-First-Strategic-Partnership-to-Bring-Both-Advanced-Quantum-Computing-and-Quantum-Networking-to-the-Asia-Pacific-Region/default.aspx) (IonQ News, score 73)
 
 ## Quantum Software / Tooling
 

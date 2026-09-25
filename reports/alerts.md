@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-24 02:46 UTC_
+_Updated 2026-09-25 03:08 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 6 | 12 | 9 | 29 |
+| 50 | 6 | 9 | 10 | 31 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -35,14 +35,14 @@ _Updated 2026-09-24 02:46 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Hardware has critical strategic importance and stable momentum.
+- 🔴 Quantum Hardware has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Networking
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Networking has critical strategic importance and declining momentum.
+- 🔴 Quantum Networking has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Sensing
@@ -66,32 +66,11 @@ _Updated 2026-09-24 02:46 UTC_
 - 🔴 Standards / Government has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Source failing: Quantum Computing Patents 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 93.3% reliability with 3 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🔴 Source failing: Quantum Computing Report 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 66.7% reliability with 3 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🔴 Source failing: Quantum Journal 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 88.9% reliability with 1 warning day(s).
-- [Open supporting view](source-health.md)
-
 ## 🔴 Source failing: White House Science and Technology Missions
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 90.2% reliability with 6 warning day(s).
+- 🔴 88.7% reliability with 7 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -108,22 +87,6 @@ _Updated 2026-09-24 02:46 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: SUBJECT MATTER EXPERTISE SERVICES TO ESTABLISH NEW ROBOTICS AND AUTONOMOUS SYSTEMS DOMAIN FOR "DRONE" AND COUNTER-UNMANNED AUTONOMOUS SYSTEMS. 🆕
-
-- Severity: **high**
-- Status: **changed**
-- reported amount · authority authoritative · 4432225.82
-- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_70Z02325F71100013_7008_47QRCA25DA145_4732)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Partnership: IonQ
-
-- Severity: **high**
-- Status: **partnership**
-- IonQ matched a partnership event: IonQ and SDT Announce the First Strategic Partnership to Bring Both Advanced Quantum Computing and Quantum Networking to the Asia-Pacific Region
-- [Open direct evidence](https://investors.ionq.com/news/news-details/2026/IonQ-and-SDT-Announce-the-First-Strategic-Partnership-to-Bring-Both-Advanced-Quantum-Computing-and-Quantum-Networking-to-the-Asia-Pacific-Region/default.aspx)
-- [Open supporting view](entity-watch.md)
-
 ## 🟠 Rising momentum: AI Security
 
 - Severity: **high**
@@ -135,7 +98,7 @@ _Updated 2026-09-24 02:46 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 3 versus 2 in the prior period.
+- ↗️ Recent evidence is 1 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Source degraded: Lockheed Martin Quantum Technology
@@ -145,18 +108,39 @@ _Updated 2026-09-24 02:46 UTC_
 - 🟠 97.2% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
+## 🟠 Source degraded: Quantum Computing Patents 🆕
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 93.4% reliability with 3 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Source degraded: Quantum Computing Report 🆕
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 70.0% reliability with 3 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Source degraded: Quantum Journal 🆕
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 90.0% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
 ## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.9% reliability with 1 warning day(s).
+- 🟠 95.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.8% reliability with 1 warning day(s).
+- 🟠 94.9% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -229,6 +213,13 @@ _Updated 2026-09-24 02:46 UTC_
 - The latest dated item is from 2026-08-31; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: Grants.gov · Cybersecurity 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-09-10; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: Grants.gov · Genesis Mission
 
 - Severity: **medium**
@@ -292,11 +283,18 @@ _Updated 2026-09-24 02:46 UTC_
 - The latest dated item is from 2026-07-09; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: PQCA Blog and News 🆕
+## 🟡 Source stale: PQCA Blog and News
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-08; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: PsiQuantum News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-09-09; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: QuSecure Press Releases
@@ -306,18 +304,18 @@ _Updated 2026-09-24 02:46 UTC_
 - The latest dated item is from 2026-09-02; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Quantum Networking and Sensing Patents
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-08-27; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Rigetti News 🆕
+## 🟡 Source stale: Rigetti News
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-08; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: SandboxAQ Blog 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-09-10; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: USAspending · Autonomy and Sensing

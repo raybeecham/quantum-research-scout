@@ -4,20 +4,20 @@
 
 [Readiness Scorecards](readiness.md) · [Entity Watch](entity-watch.md) · [Report Index](README.md)
 
-_Updated 2026-09-24 02:46 UTC_
+_Updated 2026-09-25 03:08 UTC_
 
 Tracking **15 milestones**: 6 completed, 2 due within 90 days, 1 overdue.
 
 | Target | Timing | Authority | Milestone | Technologies |
 |---|---|---|---|---|
-| 2026-07-22 | overdue (63 days overdue) | White House / OMB | [Federal agencies designate PQC migration leads](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | Crypto-agility |
-| 2026-10-22 | due soon (29 days remaining) | OMB / ONCD | [Federal agency PQC migration plans due](https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf) | Crypto-agility, Cryptographic inventory |
-| 2026-12-19 | due soon (87 days remaining) | FAR Council | [Proposed FAR rule for PQC-capable covered contractors](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | FIPS 203, FIPS 204, FIPS 205 |
-| 2027-03-19 | upcoming (177 days remaining) | CISA / NIST | [CISA guidance for minimum CBOM elements](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | CBOM, Cryptographic inventory |
-| 2027-12-31 | upcoming (464 days remaining) | NIST | [NIST federal PQC migration pilot complete](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | ML-KEM, ML-DSA, Crypto-agility |
-| 2030-12-31 | upcoming (1560 days remaining) | White House / OMB | [Federal HVA and high-impact key establishment migrated](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | ML-KEM, FIPS 203 |
-| 2031-12-31 | upcoming (1925 days remaining) | White House / OMB | [Federal HVA and high-impact digital signatures migrated](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | ML-DSA, SLH-DSA, FIPS 204, FIPS 205 |
-| 2035 | upcoming (3386 days remaining) | OMB | [Remaining federal systems complete risk-based PQC migration](https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf) | Crypto-agility, ML-KEM, ML-DSA |
+| 2026-07-22 | overdue (64 days overdue) | White House / OMB | [Federal agencies designate PQC migration leads](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | Crypto-agility |
+| 2026-10-22 | due soon (28 days remaining) | OMB / ONCD | [Federal agency PQC migration plans due](https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf) | Crypto-agility, Cryptographic inventory |
+| 2026-12-19 | due soon (86 days remaining) | FAR Council | [Proposed FAR rule for PQC-capable covered contractors](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | FIPS 203, FIPS 204, FIPS 205 |
+| 2027-03-19 | upcoming (176 days remaining) | CISA / NIST | [CISA guidance for minimum CBOM elements](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | CBOM, Cryptographic inventory |
+| 2027-12-31 | upcoming (463 days remaining) | NIST | [NIST federal PQC migration pilot complete](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | ML-KEM, ML-DSA, Crypto-agility |
+| 2030-12-31 | upcoming (1559 days remaining) | White House / OMB | [Federal HVA and high-impact key establishment migrated](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | ML-KEM, FIPS 203 |
+| 2031-12-31 | upcoming (1924 days remaining) | White House / OMB | [Federal HVA and high-impact digital signatures migrated](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | ML-DSA, SLH-DSA, FIPS 204, FIPS 205 |
+| 2035 | upcoming (3385 days remaining) | OMB | [Remaining federal systems complete risk-based PQC migration](https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf) | Crypto-agility, ML-KEM, ML-DSA |
 | 2027 | estimated | NIST | [HQC standard expected](https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption) | HQC |
 | 2024-08-13 | completed | NIST | [FIPS 203 (ML-KEM) finalized](https://csrc.nist.gov/pubs/fips/203/final) | ML-KEM, FIPS 203 |
 | 2024-08-13 | completed | NIST | [FIPS 204 (ML-DSA) finalized](https://csrc.nist.gov/pubs/fips/204/final) | ML-DSA, FIPS 204 |

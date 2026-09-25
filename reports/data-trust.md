@@ -1,6 +1,6 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-09-24T02:35:42.095877+00:00_
+_Updated 2026-09-25T02:53:03.340017+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
