@@ -2,35 +2,45 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-09-25T02:53:03.340017+00:00_
+_Updated 2026-09-26T02:56:23.445384+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **25**
+- Actual or recent changes: **26**
 - Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **15**
 
 ## Priority timeline
 
-- **Published today** · D--FWS IT Services BPA - FWS DIV OF MGT ATHRY - AI FO — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/9199c9fe13e54c87b4949d1e48d43c7a/view))
-  - The source publication date is today or within the prior day.
-- **Published today** · F110 BLADE,COMPRESSOR,AI (AMC 3V) — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/c77e84f07efd4c1dbd4fa519ef53e377/view))
-  - The source publication date is today or within the prior day.
-- **Occurred 3 days ago** · ARTIFICIAL INTELLIGENCE AND MUSEUMS LITERACY CONFERENCE SERVICES EVENT PLANNING SUPPORT TO ENCOURAGE AND ADVANCE LEADERSHIP AND INNOVATION WITHIN MUSEUM COMMUNITIES PURSUANT TO 20... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_53987126FC012_5300_53987124A0001_5300))
+- **Changed since prior run** · OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0 — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QFHA26F0005_4732_47QFHA24D0005_4732))
+  - The assertion changed relative to the prior successful ledger build.
+- **Happened today** · MSU HPC SERVICES TO-2 — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0120_1330_1305M425D0026_1330))
+  - The source-reported event date is today or within the prior day.
+- **Happened today** · THIS FFP ORDER IS OFF OF 70US0926D70092079 FOR VIDEO WALL SERVICES FOR NCFI EQUIPMENT IN ACCORDANCE WITH THE ATTACHED STATEMENT OF REQUIREMENTS. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3157_7009_70US0926D70092079_7009))
+  - The source-reported event date is today or within the prior day.
+- **Occurred 3 days ago** · TO-65 - FY26 CROSS-SITE INFRASTRUCTURE & GFDL MAINTENANCE — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0115_1330_DOCST133018CQ0073_1330))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 3 days ago** · NEW TASK ORDER FOR CYBERSECURITY, PRIVACY, AND AUTHORIZATION AND ASSESSMENT (A&A) SUPPORT SERVICES — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303026FIM400081_8900_89303025DIM000006_8900))
+- **Occurred 3 days ago** · TO-66 - RDHPCS FY26 NESCC SUPPORT AND MAINTENANCE — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0117_1330_DOCST133018CQ0073_1330))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 3 days ago** · OU68-FY26-104-NEW OPTICAL ACCESS DILUTION REFRIGERATOR — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB680611_1341_-NONE-_-NONE-))
+- **Occurred 3 days ago** · TO-67 - FY26 CLOUD HPC MAINTENANCE & ENHANCEMENTS — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0119_1330_DOCST133018CQ0073_1330))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 3 days ago** · OU68-FY26-492-NEW OPTICAL ATOMIC CLOCKS TO UPGRADE OFFICIAL US TIME — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB680629_1341_-NONE-_-NONE-))
-  - A recent source-reported event was newly incorporated into the ledger.
-- **Upcoming event date** · ARTIFICIAL INTELLIGENCE FOR NUMERICAL WEATHER PREDICTION (AI4NWP): FROM TRAINING DATA/REANALYSIS TO MODEL DESIGN IN ACCORDANCE WITH THE PERFORMANCE WORK STATEMENT (PWS). — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0273_1330_1331L523D13OS0003_1301))
-  - The source date is in the future; Scout first observed it on 2026-09-25.
-- **Upcoming event date** · OU77-FY26-101-NEW NCCOE CYBERSECURITY RESEARCH, DEVELOPMENT, AND ENGINEERING SUPPORT SERVICE — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB770131_1341_DOCSB134114CQ0010_1341))
-  - The source date is in the future; Scout first observed it on 2026-09-25.
-- **Upcoming event date** · RESEARCH AND TECHNOLOGY TO PROMOTE SAFETY OF COMMERCIAL MOTOR VEHICLES, DRIVERS, AND CARRIERS, MULTIPLE AWARD, INDEFINITE DELIVERY, INDEFINITE QUANTITY CONTRACT- ENGAGING FLEETS O... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ426F00050N_6953_693JJ426D000019_6953))
-  - The source date is in the future; Scout first observed it on 2026-09-25.
+- **Published 2 days ago** · 7A21--VISN 1 Radiology Artificial Intelligence 523C68325 — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/f857d583e7a240bf8a13e2d3ad25dc06/view))
+  - A recently published source was newly incorporated into the ledger.
+- **Upcoming event date** · NESTED-EXPERIMENTAL ARTIFICIAL INTELLIGENCE (AI) GLOBAL AND LIMITED-AREA ENSEMBLE (EAGLE) PROGRAM IN ACCORDANCE WITH THE PERFORMANCE WORK STATEMENT (PWS). — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0278_1330_1331L523D13OS0003_1301))
+  - The source date is in the future; Scout first observed it on 2026-09-26.
+- **Upcoming event date** · PROVIDE ADMINISTRATIVE AND PROGRAMMATIC SUPPORT TO IOD AND DEVELOP AND DRIVE INFORMATION CONTINUITY AND AWARENESS OF THE STATE AND LOCAL CYBERSECURITY GRANT PROGRAM (SLCGP) AND TH... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000047_7001_47QRCA25DA027_4732))
+  - The source date is in the future; Scout first observed it on 2026-09-26.
+- **Upcoming event date** · QUANTUM SOFTWARE LICENSES AND SUPPORT FOR BEP VIDEO MANAGEMENT SYSTEM. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB26F00054_2041_47QTCA23D001S_4732))
+  - The source date is in the future; Scout first observed it on 2026-09-26.
+- **Upcoming event date** · SBIR PHASE I QUANTUM CAMERA FOR HIGH RESOLUTION ORBITAL DEBRIS TRACKING — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0324_8000_-NONE-_-NONE-))
+  - The source date is in the future; Scout first observed it on 2026-09-26.
+- **Upcoming event date** · STTR PHASE I NON-HERMITIAN COUPLED LASER ARRAY READOUT FOR QUANTUM SENSORS — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0291_8000_-NONE-_-NONE-))
+  - The source date is in the future; Scout first observed it on 2026-09-26.
+- **Upcoming event date** · STTR PHASE I QUANTUM-ENGINEERED MULTISPECTRAL ARRAY PLATFORM FOR TRACE NEUTRAL GAS MONITORING — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0278_8000_-NONE-_-NONE-))
+  - The source date is in the future; Scout first observed it on 2026-09-26.
+- **Upcoming event date** · VISN 1 RADIOLOGY ARTIFICIAL INTELLIGENCE PLATFORM — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_36C24126P0730_3600_-NONE-_-NONE-))
+  - The source date is in the future; Scout first observed it on 2026-09-26.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

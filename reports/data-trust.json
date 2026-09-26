@@ -79,6 +79,51 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-09-25",
+      "key": "https://www.grants.gov/search-results-detail/363971",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "Field Initiated Projects Program (Development)",
+      "url": "https://www.grants.gov/search-results-detail/363971"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-09-25",
+      "key": "grants_gov:HHS-2027-ACL-NIDILRR-IFDV-0304",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "Field Initiated Projects Program (Development)",
+      "url": "https://www.grants.gov/search-results-detail/363971"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "Executive Order 14412",
         "reason_codes": [
           "non_government_source",
@@ -2218,28 +2263,6 @@
     },
     {
       "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-05-20",
-      "key": "grants_gov:F26AS00085",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "funding evidence admission",
-      "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
-      "url": "https://www.grants.gov/search-results-detail/362498"
-    },
-    {
-      "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
         "matched_alias": "AI Forge",
@@ -2260,29 +2283,6 @@
       "stage": "mission evidence admission",
       "title": "F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
       "url": "https://www.grants.gov/search-results-detail/362303"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Golden Dome",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-04-23",
-      "key": "https://www.grants.gov/search-results-detail/362036",
-      "mission_id": "golden-dome",
-      "mission_name": "Golden Dome for America",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Golden Dome",
-      "stage": "mission evidence admission",
-      "title": "INSPIRING GENERATIONS OF NEW INNOVATORS TO IMPACT TECHNOLOGIES IN ENERGY 2026 (IGNIITE 2026)",
-      "url": "https://www.grants.gov/search-results-detail/362036"
     }
   ],
   "reason_counts": [
@@ -2322,6 +2322,6 @@
     "quarantined": 133,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-09-25T02:53:03.340017+00:00",
+  "updated_at": "2026-09-26T02:56:23.445384+00:00",
   "version": 1
 }

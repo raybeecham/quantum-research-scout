@@ -4350,7 +4350,7 @@
         "Educational Institution",
         "Other Not For Profit Organization"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "7A720",
       "checked_at": "2026-09-25T02:53:03.340017+00:00",
       "contractor_name": "THE PENNSYLVANIA STATE UNIVERSITY",
@@ -5318,7 +5318,7 @@
         "Service-Disabled Veteran-Owned Business",
         "Veteran-Owned Business"
       ],
-      "cache_status": "fresh",
+      "cache_status": "retained",
       "cage_code": "7LRX4",
       "checked_at": "2026-09-12T02:32:57.646974+00:00",
       "contractor_name": "ARETE CONSULTING LLC",
@@ -11403,6 +11403,31 @@
     },
     {
       "aliases": [
+        "V3GATE, LLC"
+      ],
+      "cache_status": "refreshed",
+      "candidates": [
+        {
+          "cage_code": "57D99",
+          "legal_business_name": "V3GATE, LLC",
+          "uei": "J4KHM5JY79E3"
+        },
+        {
+          "cage_code": "4Y8H0",
+          "legal_business_name": "V3GATE, LLC",
+          "uei": "J4KHM5JY79E3"
+        }
+      ],
+      "checked_at": "2026-09-26T02:56:23.445384+00:00",
+      "contractor_name": "V3GATE, LLC",
+      "contractor_score": 37,
+      "identity_id": "uei:J4KHM5JY79E3",
+      "resolution_basis": "Multiple or non-exact SAM.gov candidates require review",
+      "resolution_confidence": "low",
+      "resolution_status": "ambiguous"
+    },
+    {
+      "aliases": [
         "POST QUANTUM LABS LLC"
       ],
       "cache_status": "retained",
@@ -11745,31 +11770,6 @@
       "contractor_name": "COLOSSAL CONTRACTING LLC",
       "contractor_score": 27,
       "identity_id": "uei:F4M9NB1HD785",
-      "resolution_basis": "Multiple or non-exact SAM.gov candidates require review",
-      "resolution_confidence": "low",
-      "resolution_status": "ambiguous"
-    },
-    {
-      "aliases": [
-        "V3GATE, LLC"
-      ],
-      "cache_status": "retained",
-      "candidates": [
-        {
-          "cage_code": "4Y8H0",
-          "legal_business_name": "V3GATE, LLC",
-          "uei": "J4KHM5JY79E3"
-        },
-        {
-          "cage_code": "57D99",
-          "legal_business_name": "V3GATE, LLC",
-          "uei": "J4KHM5JY79E3"
-        }
-      ],
-      "checked_at": "2026-08-16T00:53:15.272234+00:00",
-      "contractor_name": "V3GATE, LLC",
-      "contractor_score": 26,
-      "identity_id": "uei:J4KHM5JY79E3",
       "resolution_basis": "Multiple or non-exact SAM.gov candidates require review",
       "resolution_confidence": "low",
       "resolution_status": "ambiguous"
@@ -13050,6 +13050,6 @@
     "tracked_contractors": 75,
     "uei_coverage_percent": 132.0
   },
-  "updated_at": "2026-09-25T02:53:03.340017+00:00",
+  "updated_at": "2026-09-26T02:56:23.445384+00:00",
   "version": 1
 }

@@ -268,7 +268,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 6,
+      "evidence_count": 8,
       "first_party_evidence_count": 5,
       "name": "DigiCert",
       "priority": "high",
@@ -1289,11 +1289,11 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 1,
       "latest_seen": "2026-09-19",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "IBM",
-      "prior_count": 2,
+      "prior_count": 3,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -3834,6 +3834,123 @@
       "current_evidence_count": 8,
       "evidence": [
         {
+          "date": "2026-09-25",
+          "key": "https://quantumcomputingreport.com/digicert-announces-general-availability-of-quantum-central-platform-for-pqc-migration-management",
+          "report": "2026-09/2026-09-25-digest.md",
+          "score": 67,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "DigiCert Announces General Availability of Quantum Central Platform for PQC Migration Management",
+          "url": "https://quantumcomputingreport.com/digicert-announces-general-availability-of-quantum-central-platform-for-pqc-migration-management"
+        },
+        {
+          "date": "2026-09-25",
+          "key": "https://thequantuminsider.com/2026/09/25/digicert-quantum-central-pqc-plans-action",
+          "report": "2026-09/2026-09-25-digest.md",
+          "score": 67,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "DigiCert Launches Quantum Central for Post-Quantum Cryptography Readiness",
+          "url": "https://thequantuminsider.com/2026/09/25/digicert-quantum-central-pqc-plans-action"
+        },
+        {
+          "date": "2026-09-23",
+          "key": "https://www.digicert.com/blog/digicert-drives-sae-evpki-trust-platform-launch",
+          "report": "2026-09/2026-09-23-digest.md",
+          "score": 47,
+          "source": "DigiCert Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "SAE EV PKI Trust Platform Launch Explained | DigiCert",
+          "url": "https://www.digicert.com/blog/digicert-drives-sae-evpki-trust-platform-launch"
+        },
+        {
+          "date": "2026-09-23",
+          "key": "https://www.digicert.com/blog/how-to-prepare-for-the-reduction-in-certificate-lifespans",
+          "report": "2026-09/2026-09-23-digest.md",
+          "score": 39,
+          "source": "DigiCert Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Prepare for Shorter TLS Certificate Lifespans | DigiCert",
+          "url": "https://www.digicert.com/blog/how-to-prepare-for-the-reduction-in-certificate-lifespans"
+        },
+        {
+          "date": "2026-09-21",
+          "key": "https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you",
+          "report": "2026-09/2026-09-21-digest.md",
+          "score": 100,
+          "source": "DigiCert Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "EO 14412: What the federal PQC mandate means for you | DigiCert",
+          "url": "https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you"
+        },
+        {
+          "date": "2026-09-21",
+          "key": "https://www.digicert.com/blog/do-pqc-certificates-require-quantum-safe-hsms",
+          "report": "2026-09/2026-09-21-digest.md",
+          "score": 95,
+          "source": "DigiCert Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Do PQC Certificates Require Quantum-Safe HSMs? | DigiCert",
+          "url": "https://www.digicert.com/blog/do-pqc-certificates-require-quantum-safe-hsms"
+        },
+        {
+          "date": "2026-09-21",
+          "key": "https://www.digicert.com/blog/nist-advances-post-quantum-signature-algorithms",
+          "report": "2026-09/2026-09-21-digest.md",
+          "score": 90,
+          "source": "DigiCert Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "NIST advances post-quantum signature algorithms | DigiCert",
+          "url": "https://www.digicert.com/blog/nist-advances-post-quantum-signature-algorithms"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://quantumzeitgeist.com/post-quantum-cryptography-digicerts-edition-simplifies",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 133,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "DigiCert\u2019s New Edition Simplifies Post-Quantum Cryptography Planning",
+          "url": "https://quantumzeitgeist.com/post-quantum-cryptography-digicerts-edition-simplifies"
+        }
+      ],
+      "evidence_count": 8,
+      "first_seen": "2026-08-03",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-25",
+      "momentum": "rising",
+      "name": "DigiCert",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 7,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 8,
+      "evidence": [
+        {
           "date": "2026-09-17",
           "key": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026",
           "report": "2026-09/2026-09-17-digest.md",
@@ -3939,7 +4056,7 @@
       "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "Standards / Government"
@@ -4321,99 +4438,6 @@
         "Standards / Government"
       ],
       "type": "consulting"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 6,
-      "evidence": [
-        {
-          "date": "2026-09-23",
-          "key": "https://www.digicert.com/blog/digicert-drives-sae-evpki-trust-platform-launch",
-          "report": "2026-09/2026-09-23-digest.md",
-          "score": 47,
-          "source": "DigiCert Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "SAE EV PKI Trust Platform Launch Explained | DigiCert",
-          "url": "https://www.digicert.com/blog/digicert-drives-sae-evpki-trust-platform-launch"
-        },
-        {
-          "date": "2026-09-23",
-          "key": "https://www.digicert.com/blog/how-to-prepare-for-the-reduction-in-certificate-lifespans",
-          "report": "2026-09/2026-09-23-digest.md",
-          "score": 39,
-          "source": "DigiCert Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Prepare for Shorter TLS Certificate Lifespans | DigiCert",
-          "url": "https://www.digicert.com/blog/how-to-prepare-for-the-reduction-in-certificate-lifespans"
-        },
-        {
-          "date": "2026-09-21",
-          "key": "https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you",
-          "report": "2026-09/2026-09-21-digest.md",
-          "score": 100,
-          "source": "DigiCert Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "EO 14412: What the federal PQC mandate means for you | DigiCert",
-          "url": "https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you"
-        },
-        {
-          "date": "2026-09-21",
-          "key": "https://www.digicert.com/blog/do-pqc-certificates-require-quantum-safe-hsms",
-          "report": "2026-09/2026-09-21-digest.md",
-          "score": 95,
-          "source": "DigiCert Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Do PQC Certificates Require Quantum-Safe HSMs? | DigiCert",
-          "url": "https://www.digicert.com/blog/do-pqc-certificates-require-quantum-safe-hsms"
-        },
-        {
-          "date": "2026-09-21",
-          "key": "https://www.digicert.com/blog/nist-advances-post-quantum-signature-algorithms",
-          "report": "2026-09/2026-09-21-digest.md",
-          "score": 90,
-          "source": "DigiCert Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "NIST advances post-quantum signature algorithms | DigiCert",
-          "url": "https://www.digicert.com/blog/nist-advances-post-quantum-signature-algorithms"
-        },
-        {
-          "date": "2026-08-03",
-          "key": "https://quantumzeitgeist.com/post-quantum-cryptography-digicerts-edition-simplifies",
-          "report": "2026-08/2026-08-03-digest.md",
-          "score": 133,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "DigiCert\u2019s New Edition Simplifies Post-Quantum Cryptography Planning",
-          "url": "https://quantumzeitgeist.com/post-quantum-cryptography-digicerts-edition-simplifies"
-        }
-      ],
-      "evidence_count": 6,
-      "first_seen": "2026-08-03",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-09-23",
-      "momentum": "rising",
-      "name": "DigiCert",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 5,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "type": "company"
     },
     {
       "aliases": [
@@ -5045,11 +5069,11 @@
       "first_seen": "2026-08-04",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-18",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Thales",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -7773,11 +7797,11 @@
       "first_seen": "2026-01-13",
       "historical_evidence_count": 1,
       "latest_seen": "2026-09-24",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Quantum error correction",
-      "prior_count": 4,
+      "prior_count": 6,
       "priority": "critical",
-      "recent_count": 4,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "AI Security",
@@ -8301,8 +8325,32 @@
       "case_sensitive_aliases": [
         "QKD"
       ],
-      "current_evidence_count": 14,
+      "current_evidence_count": 16,
       "evidence": [
+        {
+          "date": "2026-09-25",
+          "key": "https://thequantuminsider.com/2026/09/25/creotech-quantum-qkd-system-commercialization",
+          "report": "2026-09/2026-09-25-digest.md",
+          "score": 37,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Creotech Quantum Prepares QKD System for Commercialization",
+          "url": "https://thequantuminsider.com/2026/09/25/creotech-quantum-qkd-system-commercialization"
+        },
+        {
+          "date": "2026-09-25",
+          "key": "https://quantumcomputingreport.com/european-commission-approves-ecausis-results-as-creotech-quantum-prepares-qkd-system-for-commercial-rollout",
+          "report": "2026-09/2026-09-25-digest.md",
+          "score": 27,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "European Commission Approves eCAUSIS Results as Creotech Quantum Prepares QKD System for Commercial Rollout",
+          "url": "https://quantumcomputingreport.com/european-commission-approves-ecausis-results-as-creotech-quantum-prepares-qkd-system-for-commercial-rollout"
+        },
         {
           "date": "2026-09-23",
           "key": "https://thequantuminsider.com/2026/09/23/qunnect-quantum-security-beyond-qkd",
@@ -8544,15 +8592,15 @@
           "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-to-showcase-quantum-secure-communications-beyond-quantum-key-distribution-at-ecoc-2026"
         }
       ],
-      "evidence_count": 17,
+      "evidence_count": 19,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-09-23",
+      "latest_seen": "2026-09-25",
       "momentum": "rising",
       "name": "Quantum key distribution",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -9051,6 +9099,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-09-25T03:08:12.950525+00:00",
+  "updated_at": "2026-09-26T02:59:44.879377+00:00",
   "version": 2
 }

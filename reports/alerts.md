@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-25 03:08 UTC_
+_Updated 2026-09-26 02:59 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 6 | 9 | 10 | 31 |
+| 50 | 5 | 9 | 13 | 28 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -35,7 +35,7 @@ _Updated 2026-09-25 03:08 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Hardware has critical strategic importance and declining momentum.
+- 🔴 Quantum Hardware has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Networking
@@ -70,7 +70,7 @@ _Updated 2026-09-25 03:08 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 88.7% reliability with 7 warning day(s).
+- 🔴 87.3% reliability with 8 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -87,6 +87,30 @@ _Updated 2026-09-25 03:08 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
+## 🟠 Changed: OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0 🆕
+
+- Severity: **high**
+- Status: **changed**
+- reported amount · authority authoritative · 28668941.79
+- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_47QFHA26F0005_4732_47QFHA24D0005_4732)
+- [Open supporting view](intelligence-changes.md)
+
+## 🟠 Product Launch: DigiCert 🆕
+
+- Severity: **high**
+- Status: **product-launch**
+- DigiCert matched a product launch event: DigiCert Announces General Availability of Quantum Central Platform for PQC Migration Management
+- [Open direct evidence](https://quantumcomputingreport.com/digicert-announces-general-availability-of-quantum-central-platform-for-pqc-migration-management)
+- [Open supporting view](entity-watch.md)
+
+## 🟠 Product Launch: DigiCert 🆕
+
+- Severity: **high**
+- Status: **product-launch**
+- DigiCert matched a product launch event: DigiCert Launches Quantum Central for Post-Quantum Cryptography Readiness
+- [Open direct evidence](https://thequantuminsider.com/2026/09/25/digicert-quantum-central-pqc-plans-action)
+- [Open supporting view](entity-watch.md)
+
 ## 🟠 Rising momentum: AI Security
 
 - Severity: **high**
@@ -98,49 +122,49 @@ _Updated 2026-09-25 03:08 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 1 versus 0 in the prior period.
+- ↗️ Recent evidence is 3 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Source degraded: Lockheed Martin Quantum Technology
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 97.2% reliability with 2 warning day(s).
+- 🟠 97.3% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: Quantum Computing Patents 🆕
+## 🟠 Source degraded: Quantum Computing Patents
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.4% reliability with 3 warning day(s).
+- 🟠 93.5% reliability with 3 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: Quantum Computing Report 🆕
+## 🟠 Source degraded: Quantum Computing Report
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 70.0% reliability with 3 warning day(s).
+- 🟠 72.7% reliability with 3 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: Quantum Journal 🆕
+## 🟠 Source degraded: Quantum Journal
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 90.0% reliability with 1 warning day(s).
+- 🟠 90.9% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 95.0% reliability with 1 warning day(s).
+- 🟠 95.1% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.9% reliability with 1 warning day(s).
+- 🟠 95.0% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -162,6 +186,13 @@ _Updated 2026-09-25 03:08 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2025-09-11; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Cloudflare Post-Quantum Blog 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-09-10; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: DARPA Strategic Technology Missions
@@ -213,7 +244,7 @@ _Updated 2026-09-25 03:08 UTC_
 - The latest dated item is from 2026-08-31; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Cybersecurity 🆕
+## 🟡 Source stale: Grants.gov · Cybersecurity
 
 - Severity: **medium**
 - Status: **stale**
@@ -239,13 +270,6 @@ _Updated 2026-09-25 03:08 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-02; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Grants.gov · Project Triad
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-08; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Grants.gov · Quantum Genesis
@@ -290,7 +314,7 @@ _Updated 2026-09-25 03:08 UTC_
 - The latest dated item is from 2026-09-08; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: PsiQuantum News 🆕
+## 🟡 Source stale: PsiQuantum News
 
 - Severity: **medium**
 - Status: **stale**
@@ -304,6 +328,13 @@ _Updated 2026-09-25 03:08 UTC_
 - The latest dated item is from 2026-09-02; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: Quantinuum News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-09-11; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: Rigetti News
 
 - Severity: **medium**
@@ -311,7 +342,7 @@ _Updated 2026-09-25 03:08 UTC_
 - The latest dated item is from 2026-09-08; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: SandboxAQ Blog 🆕
+## 🟡 Source stale: SandboxAQ Blog
 
 - Severity: **medium**
 - Status: **stale**
@@ -330,32 +361,4 @@ _Updated 2026-09-25 03:08 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Golden Dome
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-04-01; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Post-Quantum Cybersecurity
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-01; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Quantum Benchmarking Initiative
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2025-10-06; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: White House Science and Technology Missions
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-06-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

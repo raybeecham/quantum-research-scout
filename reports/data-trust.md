@@ -1,6 +1,6 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-09-25T02:53:03.340017+00:00_
+_Updated 2026-09-26T02:56:23.445384+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
@@ -45,6 +45,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [Field Initiated Projects Program (Development)](https://www.grants.gov/search-results-detail/363971)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Field Initiated Projects Program (Development)](https://www.grants.gov/search-results-detail/363971)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [The Government Just Set a Quantum Computing Deadline. Here's What It Actually Means for You.](https://www.keyfactor.com/blog/the-government-just-set-a-quantum-computing-deadline-heres-what-it-actually-means-for-you)
 
@@ -704,21 +718,7 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
-### [F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362498)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
 ### [F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362303)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [INSPIRING GENERATIONS OF NEW INNOVATORS TO IMPACT TECHNOLOGIES IN ENERGY 2026 (IGNIITE 2026)](https://www.grants.gov/search-results-detail/362036)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

@@ -2,59 +2,72 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-25T02:53:03.340017+00:00_
+_Updated 2026-09-26T02:56:23.445384+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **64**
-- Added / changed / resolved: **37 / 0 / 27**
+- Material changes: **81**
+- Added / changed / resolved: **53 / 1 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- None.
+- **OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0** — reported amount: 28668941.79 ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QFHA26F0005_4732_47QFHA24D0005_4732))
 
 ## New claims
 
-- **OU77-FY26-101-NEW NCCOE CYBERSECURITY RESEARCH, DEVELOPMENT, AND ENGINEERING SUPPORT SERVICE** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB770131_1341_DOCSB134114CQ0010_1341))
-- **OU77-FY26-101-NEW NCCOE CYBERSECURITY RESEARCH, DEVELOPMENT, AND ENGINEERING SUPPORT SERVICE** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB770131_1341_DOCSB134114CQ0010_1341))
-- **OU77-FY26-101-NEW NCCOE CYBERSECURITY RESEARCH, DEVELOPMENT, AND ENGINEERING SUPPORT SERVICE** — reported amount: 13590000.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB770131_1341_DOCSB134114CQ0010_1341))
-- **OU77-FY26-101-NEW NCCOE CYBERSECURITY RESEARCH, DEVELOPMENT, AND ENGINEERING SUPPORT SERVICE** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB770131_1341_DOCSB134114CQ0010_1341))
-- **ARTIFICIAL INTELLIGENCE FOR NUMERICAL WEATHER PREDICTION (AI4NWP): FROM TRAINING DATA/REANALYSIS TO MODEL DESIGN IN ACCORDANCE WITH THE PERFORMANCE WORK STATEMENT (PWS).** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0273_1330_1331L523D13OS0003_1301))
-- **ARTIFICIAL INTELLIGENCE FOR NUMERICAL WEATHER PREDICTION (AI4NWP): FROM TRAINING DATA/REANALYSIS TO MODEL DESIGN IN ACCORDANCE WITH THE PERFORMANCE WORK STATEMENT (PWS).** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0273_1330_1331L523D13OS0003_1301))
-- **ARTIFICIAL INTELLIGENCE FOR NUMERICAL WEATHER PREDICTION (AI4NWP): FROM TRAINING DATA/REANALYSIS TO MODEL DESIGN IN ACCORDANCE WITH THE PERFORMANCE WORK STATEMENT (PWS).** — reported amount: 838594.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0273_1330_1331L523D13OS0003_1301))
-- **ARTIFICIAL INTELLIGENCE FOR NUMERICAL WEATHER PREDICTION (AI4NWP): FROM TRAINING DATA/REANALYSIS TO MODEL DESIGN IN ACCORDANCE WITH THE PERFORMANCE WORK STATEMENT (PWS).** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0273_1330_1331L523D13OS0003_1301))
-- **NEW TASK ORDER FOR CYBERSECURITY, PRIVACY, AND AUTHORIZATION AND ASSESSMENT (A&A) SUPPORT SERVICES** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303026FIM400081_8900_89303025DIM000006_8900))
-- **NEW TASK ORDER FOR CYBERSECURITY, PRIVACY, AND AUTHORIZATION AND ASSESSMENT (A&A) SUPPORT SERVICES** — awarding agency: Department of Energy ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303026FIM400081_8900_89303025DIM000006_8900))
-- **NEW TASK ORDER FOR CYBERSECURITY, PRIVACY, AND AUTHORIZATION AND ASSESSMENT (A&A) SUPPORT SERVICES** — reported amount: 5155150.8 ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303026FIM400081_8900_89303025DIM000006_8900))
-- **NEW TASK ORDER FOR CYBERSECURITY, PRIVACY, AND AUTHORIZATION AND ASSESSMENT (A&A) SUPPORT SERVICES** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303026FIM400081_8900_89303025DIM000006_8900))
-- **RESEARCH AND TECHNOLOGY TO PROMOTE SAFETY OF COMMERCIAL MOTOR VEHICLES, DRIVERS, AND CARRIERS, MULTIPLE AWARD, INDEFINITE DELIVERY, INDEFINITE QUANTITY CONTRACT- ENGAGING FLEETS O...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ426F00050N_6953_693JJ426D000019_6953))
-- **RESEARCH AND TECHNOLOGY TO PROMOTE SAFETY OF COMMERCIAL MOTOR VEHICLES, DRIVERS, AND CARRIERS, MULTIPLE AWARD, INDEFINITE DELIVERY, INDEFINITE QUANTITY CONTRACT- ENGAGING FLEETS O...** — awarding agency: Department of Transportation ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ426F00050N_6953_693JJ426D000019_6953))
-- **RESEARCH AND TECHNOLOGY TO PROMOTE SAFETY OF COMMERCIAL MOTOR VEHICLES, DRIVERS, AND CARRIERS, MULTIPLE AWARD, INDEFINITE DELIVERY, INDEFINITE QUANTITY CONTRACT- ENGAGING FLEETS O...** — reported amount: 1499656.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ426F00050N_6953_693JJ426D000019_6953))
-- **RESEARCH AND TECHNOLOGY TO PROMOTE SAFETY OF COMMERCIAL MOTOR VEHICLES, DRIVERS, AND CARRIERS, MULTIPLE AWARD, INDEFINITE DELIVERY, INDEFINITE QUANTITY CONTRACT- ENGAGING FLEETS O...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_693JJ426F00050N_6953_693JJ426D000019_6953))
-- **F110 BLADE,COMPRESSOR,AI (AMC 3V)** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/c77e84f07efd4c1dbd4fa519ef53e377/view))
-- **F110 BLADE,COMPRESSOR,AI (AMC 3V)** — set aside: No Set aside used ([evidence](https://sam.gov/workspace/contract/opp/c77e84f07efd4c1dbd4fa519ef53e377/view))
-- **F110 BLADE,COMPRESSOR,AI (AMC 3V)** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK ([evidence](https://sam.gov/workspace/contract/opp/c77e84f07efd4c1dbd4fa519ef53e377/view))
-- **F110 BLADE,COMPRESSOR,AI (AMC 3V)** — reported amount: 746226.82 ([evidence](https://sam.gov/workspace/contract/opp/c77e84f07efd4c1dbd4fa519ef53e377/view))
-- **F110 BLADE,COMPRESSOR,AI (AMC 3V)** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/c77e84f07efd4c1dbd4fa519ef53e377/view))
-- **D--FWS IT Services BPA - FWS DIV OF MGT ATHRY - AI FO** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/9199c9fe13e54c87b4949d1e48d43c7a/view))
-- **D--FWS IT Services BPA - FWS DIV OF MGT ATHRY - AI FO** — awarding agency: INTERIOR, DEPARTMENT OF THE.US FISH AND WILDLIFE SERVICE.FWS, IT SERVICES ([evidence](https://sam.gov/workspace/contract/opp/9199c9fe13e54c87b4949d1e48d43c7a/view))
-- **D--FWS IT Services BPA - FWS DIV OF MGT ATHRY - AI FO** — reported amount: 735950.4 ([evidence](https://sam.gov/workspace/contract/opp/9199c9fe13e54c87b4949d1e48d43c7a/view))
-- **D--FWS IT Services BPA - FWS DIV OF MGT ATHRY - AI FO** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/9199c9fe13e54c87b4949d1e48d43c7a/view))
-- **ARTIFICIAL INTELLIGENCE AND MUSEUMS LITERACY CONFERENCE SERVICES EVENT PLANNING SUPPORT TO ENCOURAGE AND ADVANCE LEADERSHIP AND INNOVATION WITHIN MUSEUM COMMUNITIES PURSUANT TO 20...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_53987126FC012_5300_53987124A0001_5300))
-- **ARTIFICIAL INTELLIGENCE AND MUSEUMS LITERACY CONFERENCE SERVICES EVENT PLANNING SUPPORT TO ENCOURAGE AND ADVANCE LEADERSHIP AND INNOVATION WITHIN MUSEUM COMMUNITIES PURSUANT TO 20...** — awarding agency: Institute of Museum and Library Services ([evidence](https://www.usaspending.gov/award/CONT_AWD_53987126FC012_5300_53987124A0001_5300))
-- **ARTIFICIAL INTELLIGENCE AND MUSEUMS LITERACY CONFERENCE SERVICES EVENT PLANNING SUPPORT TO ENCOURAGE AND ADVANCE LEADERSHIP AND INNOVATION WITHIN MUSEUM COMMUNITIES PURSUANT TO 20...** — reported amount: 851461.25 ([evidence](https://www.usaspending.gov/award/CONT_AWD_53987126FC012_5300_53987124A0001_5300))
-- **ARTIFICIAL INTELLIGENCE AND MUSEUMS LITERACY CONFERENCE SERVICES EVENT PLANNING SUPPORT TO ENCOURAGE AND ADVANCE LEADERSHIP AND INNOVATION WITHIN MUSEUM COMMUNITIES PURSUANT TO 20...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_53987126FC012_5300_53987124A0001_5300))
-- **OU68-FY26-104-NEW OPTICAL ACCESS DILUTION REFRIGERATOR** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB680611_1341_-NONE-_-NONE-))
-- **OU68-FY26-104-NEW OPTICAL ACCESS DILUTION REFRIGERATOR** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB680611_1341_-NONE-_-NONE-))
-- **OU68-FY26-104-NEW OPTICAL ACCESS DILUTION REFRIGERATOR** — reported amount: 644289.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB680611_1341_-NONE-_-NONE-))
-- **OU68-FY26-104-NEW OPTICAL ACCESS DILUTION REFRIGERATOR** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB680611_1341_-NONE-_-NONE-))
-- **OU68-FY26-492-NEW OPTICAL ATOMIC CLOCKS TO UPGRADE OFFICIAL US TIME** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB680629_1341_-NONE-_-NONE-))
-- **OU68-FY26-492-NEW OPTICAL ATOMIC CLOCKS TO UPGRADE OFFICIAL US TIME** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB680629_1341_-NONE-_-NONE-))
-- **OU68-FY26-492-NEW OPTICAL ATOMIC CLOCKS TO UPGRADE OFFICIAL US TIME** — reported amount: 418750.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB680629_1341_-NONE-_-NONE-))
-- **OU68-FY26-492-NEW OPTICAL ATOMIC CLOCKS TO UPGRADE OFFICIAL US TIME** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB680629_1341_-NONE-_-NONE-))
+- **NESTED-EXPERIMENTAL ARTIFICIAL INTELLIGENCE (AI) GLOBAL AND LIMITED-AREA ENSEMBLE (EAGLE) PROGRAM IN ACCORDANCE WITH THE PERFORMANCE WORK STATEMENT (PWS).** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0278_1330_1331L523D13OS0003_1301))
+- **NESTED-EXPERIMENTAL ARTIFICIAL INTELLIGENCE (AI) GLOBAL AND LIMITED-AREA ENSEMBLE (EAGLE) PROGRAM IN ACCORDANCE WITH THE PERFORMANCE WORK STATEMENT (PWS).** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0278_1330_1331L523D13OS0003_1301))
+- **NESTED-EXPERIMENTAL ARTIFICIAL INTELLIGENCE (AI) GLOBAL AND LIMITED-AREA ENSEMBLE (EAGLE) PROGRAM IN ACCORDANCE WITH THE PERFORMANCE WORK STATEMENT (PWS).** — reported amount: 197283.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0278_1330_1331L523D13OS0003_1301))
+- **NESTED-EXPERIMENTAL ARTIFICIAL INTELLIGENCE (AI) GLOBAL AND LIMITED-AREA ENSEMBLE (EAGLE) PROGRAM IN ACCORDANCE WITH THE PERFORMANCE WORK STATEMENT (PWS).** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M326F0278_1330_1331L523D13OS0003_1301))
+- **SBIR PHASE I QUANTUM CAMERA FOR HIGH RESOLUTION ORBITAL DEBRIS TRACKING** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0324_8000_-NONE-_-NONE-))
+- **SBIR PHASE I QUANTUM CAMERA FOR HIGH RESOLUTION ORBITAL DEBRIS TRACKING** — awarding agency: National Aeronautics and Space Administration ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0324_8000_-NONE-_-NONE-))
+- **SBIR PHASE I QUANTUM CAMERA FOR HIGH RESOLUTION ORBITAL DEBRIS TRACKING** — reported amount: 224939.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0324_8000_-NONE-_-NONE-))
+- **SBIR PHASE I QUANTUM CAMERA FOR HIGH RESOLUTION ORBITAL DEBRIS TRACKING** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0324_8000_-NONE-_-NONE-))
+- **STTR PHASE I NON-HERMITIAN COUPLED LASER ARRAY READOUT FOR QUANTUM SENSORS** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0291_8000_-NONE-_-NONE-))
+- **STTR PHASE I NON-HERMITIAN COUPLED LASER ARRAY READOUT FOR QUANTUM SENSORS** — awarding agency: National Aeronautics and Space Administration ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0291_8000_-NONE-_-NONE-))
+- **STTR PHASE I NON-HERMITIAN COUPLED LASER ARRAY READOUT FOR QUANTUM SENSORS** — reported amount: 224480.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0291_8000_-NONE-_-NONE-))
+- **STTR PHASE I NON-HERMITIAN COUPLED LASER ARRAY READOUT FOR QUANTUM SENSORS** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0291_8000_-NONE-_-NONE-))
+- **MSU HPC SERVICES TO-2** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0120_1330_1305M425D0026_1330))
+- **MSU HPC SERVICES TO-2** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0120_1330_1305M425D0026_1330))
+- **MSU HPC SERVICES TO-2** — reported amount: 14634000.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0120_1330_1305M425D0026_1330))
+- **MSU HPC SERVICES TO-2** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0120_1330_1305M425D0026_1330))
+- **TO-65 - FY26 CROSS-SITE INFRASTRUCTURE & GFDL MAINTENANCE** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0115_1330_DOCST133018CQ0073_1330))
+- **TO-65 - FY26 CROSS-SITE INFRASTRUCTURE & GFDL MAINTENANCE** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0115_1330_DOCST133018CQ0073_1330))
+- **TO-65 - FY26 CROSS-SITE INFRASTRUCTURE & GFDL MAINTENANCE** — reported amount: 5007309.41 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0115_1330_DOCST133018CQ0073_1330))
+- **TO-65 - FY26 CROSS-SITE INFRASTRUCTURE & GFDL MAINTENANCE** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0115_1330_DOCST133018CQ0073_1330))
+- **TO-66 - RDHPCS FY26 NESCC SUPPORT AND MAINTENANCE** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0117_1330_DOCST133018CQ0073_1330))
+- **TO-66 - RDHPCS FY26 NESCC SUPPORT AND MAINTENANCE** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0117_1330_DOCST133018CQ0073_1330))
+- **TO-66 - RDHPCS FY26 NESCC SUPPORT AND MAINTENANCE** — reported amount: 4432636.13 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0117_1330_DOCST133018CQ0073_1330))
+- **TO-66 - RDHPCS FY26 NESCC SUPPORT AND MAINTENANCE** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0117_1330_DOCST133018CQ0073_1330))
+- **PROVIDE ADMINISTRATIVE AND PROGRAMMATIC SUPPORT TO IOD AND DEVELOP AND DRIVE INFORMATION CONTINUITY AND AWARENESS OF THE STATE AND LOCAL CYBERSECURITY GRANT PROGRAM (SLCGP) AND TH...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000047_7001_47QRCA25DA027_4732))
+- **PROVIDE ADMINISTRATIVE AND PROGRAMMATIC SUPPORT TO IOD AND DEVELOP AND DRIVE INFORMATION CONTINUITY AND AWARENESS OF THE STATE AND LOCAL CYBERSECURITY GRANT PROGRAM (SLCGP) AND TH...** — awarding agency: Department of Homeland Security ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000047_7001_47QRCA25DA027_4732))
+- **PROVIDE ADMINISTRATIVE AND PROGRAMMATIC SUPPORT TO IOD AND DEVELOP AND DRIVE INFORMATION CONTINUITY AND AWARENESS OF THE STATE AND LOCAL CYBERSECURITY GRANT PROGRAM (SLCGP) AND TH...** — reported amount: 2498261.38 ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000047_7001_47QRCA25DA027_4732))
+- **PROVIDE ADMINISTRATIVE AND PROGRAMMATIC SUPPORT TO IOD AND DEVELOP AND DRIVE INFORMATION CONTINUITY AND AWARENESS OF THE STATE AND LOCAL CYBERSECURITY GRANT PROGRAM (SLCGP) AND TH...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000047_7001_47QRCA25DA027_4732))
+- **7A21--VISN 1 Radiology Artificial Intelligence 523C68325** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/f857d583e7a240bf8a13e2d3ad25dc06/view))
+- **7A21--VISN 1 Radiology Artificial Intelligence 523C68325** — set aside: Small Business Set Aside - Total ([evidence](https://sam.gov/workspace/contract/opp/f857d583e7a240bf8a13e2d3ad25dc06/view))
+- **7A21--VISN 1 Radiology Artificial Intelligence 523C68325** — awarding agency: VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.241-NETWORK CONTRACT OFFICE 01 (36C241) ([evidence](https://sam.gov/workspace/contract/opp/f857d583e7a240bf8a13e2d3ad25dc06/view))
+- **7A21--VISN 1 Radiology Artificial Intelligence 523C68325** — reported amount: 1952000.0 ([evidence](https://sam.gov/workspace/contract/opp/f857d583e7a240bf8a13e2d3ad25dc06/view))
+- **7A21--VISN 1 Radiology Artificial Intelligence 523C68325** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/f857d583e7a240bf8a13e2d3ad25dc06/view))
+- **TO-67 - FY26 CLOUD HPC MAINTENANCE & ENHANCEMENTS** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0119_1330_DOCST133018CQ0073_1330))
+- **TO-67 - FY26 CLOUD HPC MAINTENANCE & ENHANCEMENTS** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0119_1330_DOCST133018CQ0073_1330))
+- **TO-67 - FY26 CLOUD HPC MAINTENANCE & ENHANCEMENTS** — reported amount: 2985214.82 ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0119_1330_DOCST133018CQ0073_1330))
+- **TO-67 - FY26 CLOUD HPC MAINTENANCE & ENHANCEMENTS** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_1305M426F0119_1330_DOCST133018CQ0073_1330))
+- **QUANTUM SOFTWARE LICENSES AND SUPPORT FOR BEP VIDEO MANAGEMENT SYSTEM.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB26F00054_2041_47QTCA23D001S_4732))
+- **QUANTUM SOFTWARE LICENSES AND SUPPORT FOR BEP VIDEO MANAGEMENT SYSTEM.** — awarding agency: Department of the Treasury ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB26F00054_2041_47QTCA23D001S_4732))
+- **QUANTUM SOFTWARE LICENSES AND SUPPORT FOR BEP VIDEO MANAGEMENT SYSTEM.** — reported amount: 1074214.59 ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB26F00054_2041_47QTCA23D001S_4732))
+- **QUANTUM SOFTWARE LICENSES AND SUPPORT FOR BEP VIDEO MANAGEMENT SYSTEM.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB26F00054_2041_47QTCA23D001S_4732))
+- **THIS FFP ORDER IS OFF OF 70US0926D70092079 FOR VIDEO WALL SERVICES FOR NCFI EQUIPMENT IN ACCORDANCE WITH THE ATTACHED STATEMENT OF REQUIREMENTS.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3157_7009_70US0926D70092079_7009))
+- **THIS FFP ORDER IS OFF OF 70US0926D70092079 FOR VIDEO WALL SERVICES FOR NCFI EQUIPMENT IN ACCORDANCE WITH THE ATTACHED STATEMENT OF REQUIREMENTS.** — awarding agency: Department of Homeland Security ([evidence](https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3157_7009_70US0926D70092079_7009))
+- **THIS FFP ORDER IS OFF OF 70US0926D70092079 FOR VIDEO WALL SERVICES FOR NCFI EQUIPMENT IN ACCORDANCE WITH THE ATTACHED STATEMENT OF REQUIREMENTS.** — reported amount: 1028639.16 ([evidence](https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3157_7009_70US0926D70092079_7009))
+- **THIS FFP ORDER IS OFF OF 70US0926D70092079 FOR VIDEO WALL SERVICES FOR NCFI EQUIPMENT IN ACCORDANCE WITH THE ATTACHED STATEMENT OF REQUIREMENTS.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3157_7009_70US0926D70092079_7009))
+- **VISN 1 RADIOLOGY ARTIFICIAL INTELLIGENCE PLATFORM** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_36C24126P0730_3600_-NONE-_-NONE-))
+- **VISN 1 RADIOLOGY ARTIFICIAL INTELLIGENCE PLATFORM** — awarding agency: Department of Veterans Affairs ([evidence](https://www.usaspending.gov/award/CONT_AWD_36C24126P0730_3600_-NONE-_-NONE-))
+- **VISN 1 RADIOLOGY ARTIFICIAL INTELLIGENCE PLATFORM** — reported amount: 362400.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_36C24126P0730_3600_-NONE-_-NONE-))
+- **VISN 1 RADIOLOGY ARTIFICIAL INTELLIGENCE PLATFORM** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_36C24126P0730_3600_-NONE-_-NONE-))
+- **STTR PHASE I QUANTUM-ENGINEERED MULTISPECTRAL ARRAY PLATFORM FOR TRACE NEUTRAL GAS MONITORING** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0278_8000_-NONE-_-NONE-))
 
 ## Superseded claims
 

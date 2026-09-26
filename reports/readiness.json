@@ -436,6 +436,112 @@
     },
     {
       "confidence": "high",
+      "evidence_count": 6,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-09-25",
+      "name": "DigiCert",
+      "priority": "high",
+      "source_count": 4,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": "2026-09-25",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "readiness"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "The Quantum Insider",
+          "title": "DigiCert Launches Quantum Central for Post-Quantum Cryptography Readiness",
+          "url": "https://thequantuminsider.com/2026/09/25/digicert-quantum-central-pqc-plans-action"
+        },
+        {
+          "date": "2026-09-25",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "pqc"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Computing Report",
+          "title": "DigiCert Announces General Availability of Quantum Central Platform for PQC Migration Management",
+          "url": "https://quantumcomputingreport.com/digicert-announces-general-availability-of-quantum-central-platform-for-pqc-migration-management"
+        },
+        {
+          "date": "2026-09-21",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "DigiCert Blog",
+          "title": "NIST advances post-quantum signature algorithms | DigiCert",
+          "url": "https://www.digicert.com/blog/nist-advances-post-quantum-signature-algorithms"
+        },
+        {
+          "date": "2026-09-21",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "pqc"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "DigiCert Blog",
+          "title": "EO 14412: What the federal PQC mandate means for you | DigiCert",
+          "url": "https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you"
+        },
+        {
+          "date": "2026-09-21",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "pqc",
+            "quantum-safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "DigiCert Blog",
+          "title": "Do PQC Certificates Require Quantum-Safe HSMs? | DigiCert",
+          "url": "https://www.digicert.com/blog/do-pqc-certificates-require-quantum-safe-hsms"
+        },
+        {
+          "date": "2026-08-03",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "DigiCert\u2019s New Edition Simplifies Post-Quantum Cryptography Planning",
+          "url": "https://quantumzeitgeist.com/post-quantum-cryptography-digicerts-edition-simplifies"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "high",
       "evidence_count": 13,
       "historical_evidence_count": 6,
       "latest_evidence_at": "2026-09-08",
@@ -1221,82 +1327,6 @@
       "type": "company"
     },
     {
-      "confidence": "high",
-      "evidence_count": 4,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-09-21",
-      "name": "DigiCert",
-      "priority": "high",
-      "source_count": 2,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-09-21",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "DigiCert Blog",
-          "title": "NIST advances post-quantum signature algorithms | DigiCert",
-          "url": "https://www.digicert.com/blog/nist-advances-post-quantum-signature-algorithms"
-        },
-        {
-          "date": "2026-09-21",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "pqc"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "DigiCert Blog",
-          "title": "EO 14412: What the federal PQC mandate means for you | DigiCert",
-          "url": "https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you"
-        },
-        {
-          "date": "2026-09-21",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "pqc",
-            "quantum-safe"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "DigiCert Blog",
-          "title": "Do PQC Certificates Require Quantum-Safe HSMs? | DigiCert",
-          "url": "https://www.digicert.com/blog/do-pqc-certificates-require-quantum-safe-hsms"
-        },
-        {
-          "date": "2026-08-03",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Quantum Zeitgeist",
-          "title": "DigiCert\u2019s New Edition Simplifies Post-Quantum Cryptography Planning",
-          "url": "https://quantumzeitgeist.com/post-quantum-cryptography-digicerts-edition-simplifies"
-        }
-      ],
-      "type": "company"
-    },
-    {
       "confidence": "medium",
       "evidence_count": 2,
       "historical_evidence_count": 0,
@@ -1942,15 +1972,15 @@
   "summary": {
     "assessed": 25,
     "by_stage": {
-      "awareness": 14,
+      "awareness": 13,
       "inventory": 1,
       "not_assessed": 18,
       "pilot": 3,
-      "planning": 7
+      "planning": 8
     },
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-09-25T03:08:13.619168+00:00",
+  "updated_at": "2026-09-26T02:59:45.545017+00:00",
   "version": 1
 }
