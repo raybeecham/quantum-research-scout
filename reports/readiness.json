@@ -38,9 +38,9 @@
   "organizations": [
     {
       "confidence": "high",
-      "evidence_count": 20,
-      "historical_evidence_count": 16,
-      "latest_evidence_at": "2026-09-03",
+      "evidence_count": 21,
+      "historical_evidence_count": 17,
+      "latest_evidence_at": "2026-09-22",
       "name": "QuSecure",
       "priority": "high",
       "source_count": 4,
@@ -542,9 +542,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 13,
-      "historical_evidence_count": 6,
-      "latest_evidence_at": "2026-09-08",
+      "evidence_count": 14,
+      "historical_evidence_count": 7,
+      "latest_evidence_at": "2026-07-31",
       "name": "Keyfactor",
       "priority": "high",
       "source_count": 3,
@@ -643,21 +643,6 @@
           "url": "https://www.keyfactor.com/events/preparing-for-the-uks-quantum-safe-future/"
         },
         {
-          "date": "2026-09-08",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Post-Quantum Resilience for Financial Services",
-          "url": "https://www.keyfactor.com/post-quantum-resilience-for-financial-services/"
-        },
-        {
           "date": "2026-07-25",
           "date_confidence": "unknown",
           "date_kind": "unknown",
@@ -671,6 +656,21 @@
           "source": "Quantum Zeitgeist",
           "title": "Keyfactor Partners Gain Tools for AI & Post-Quantum Security Services",
           "url": "https://quantumzeitgeist.com/keyfactor-security-services-ai-post-quantum"
+        },
+        {
+          "date": "2026-07-22",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Keyfactor Expands Global Partner Ecosystem to Help Partners Lead the AI and Post-Quantum Era",
+          "url": "https://www.keyfactor.com/press-releases/keyfactor-expands-global-partner-ecosystem-to-help-partners-lead-the-ai-and-post-quantum-era"
         }
       ],
       "type": "company"
@@ -1981,6 +1981,6 @@
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-09-27T03:04:10.050164+00:00",
+  "updated_at": "2026-09-27T08:50:22.626232+00:00",
   "version": 1
 }

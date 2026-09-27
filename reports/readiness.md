@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-09-27 03:04 UTC_
+_Updated 2026-09-27 08:50 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
@@ -12,12 +12,12 @@ Assessed **25 of 43** configured organizations.
 
 | Organization | Observed stage | Confidence | PQC evidence | Sources | Historical | Latest dated evidence |
 |---|---|---|---:|---:|---:|---|
-| QuSecure | Pilot / Testing | high | 20 | 4 | 16 | 2026-09-03 |
+| QuSecure | Pilot / Testing | high | 21 | 4 | 17 | 2026-09-22 |
 | PQShield | Pilot / Testing | medium | 6 | 1 | 0 | 2026-09-17 |
 | Wiz | Pilot / Testing | medium | 4 | 1 | 4 | 2026-07-02 |
 | Accenture / Accenture Federal Services | Planning | high | 4 | 2 | 4 | 2026-08-27 |
 | DigiCert | Planning | high | 6 | 4 | 0 | 2026-09-25 |
-| Keyfactor | Planning | high | 13 | 3 | 6 | 2026-09-08 |
+| Keyfactor | Planning | high | 14 | 3 | 7 | 2026-07-31 |
 | NIST | Planning | high | 7 | 4 | 0 | 2026-09-21 |
 | AWS | Planning | medium | 3 | 2 | 2 | 2026-07-14 |
 | Fortanix | Planning | medium | 19 | 1 | 19 | 2026-08-24 |
