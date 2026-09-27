@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-26 02:59 UTC_
+_Updated 2026-09-27 03:04 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 5 | 9 | 13 | 28 |
+| 50 | 4 | 12 | 13 | 25 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -56,7 +56,7 @@ _Updated 2026-09-26 02:59 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Software / Tooling has critical strategic importance and stable momentum.
+- 🔴 Quantum Software / Tooling has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Standards / Government
@@ -70,7 +70,28 @@ _Updated 2026-09-26 02:59 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 87.3% reliability with 8 warning day(s).
+- 🔴 85.9% reliability with 9 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 73.5% reliability with 9 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv Quantum Computing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 73.5% reliability with 9 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv Quantum Networking and Sensing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 75.5% reliability with 8 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -87,15 +108,15 @@ _Updated 2026-09-26 02:59 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0 🆕
+## 🟠 Changed: THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP). 🆕
 
 - Severity: **high**
 - Status: **changed**
-- reported amount · authority authoritative · 28668941.79
-- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_47QFHA26F0005_4732_47QFHA24D0005_4732)
+- reported amount · authority authoritative · 2500000.0
+- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_70B04C26F00000114_7014_47QTCA18D003J_4732)
 - [Open supporting view](intelligence-changes.md)
 
-## 🟠 Product Launch: DigiCert 🆕
+## 🟠 Product Launch: DigiCert
 
 - Severity: **high**
 - Status: **product-launch**
@@ -103,7 +124,7 @@ _Updated 2026-09-26 02:59 UTC_
 - [Open direct evidence](https://quantumcomputingreport.com/digicert-announces-general-availability-of-quantum-central-platform-for-pqc-migration-management)
 - [Open supporting view](entity-watch.md)
 
-## 🟠 Product Launch: DigiCert 🆕
+## 🟠 Product Launch: DigiCert
 
 - Severity: **high**
 - Status: **product-launch**
@@ -136,21 +157,21 @@ _Updated 2026-09-26 02:59 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.5% reliability with 3 warning day(s).
+- 🟠 93.7% reliability with 3 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Computing Report
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 72.7% reliability with 3 warning day(s).
+- 🟠 75.0% reliability with 3 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Journal
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 90.9% reliability with 1 warning day(s).
+- 🟠 91.7% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
@@ -188,18 +209,11 @@ _Updated 2026-09-26 02:59 UTC_
 - The latest dated item is from 2025-09-11; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Cloudflare Post-Quantum Blog 🆕
+## 🟡 Source stale: Cloudflare Post-Quantum Blog
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-10; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: DARPA Strategic Technology Missions
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-08-09; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Distributed Sensing and Smart Dust Patents
@@ -321,14 +335,7 @@ _Updated 2026-09-26 02:59 UTC_
 - The latest dated item is from 2026-09-09; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: QuSecure Press Releases
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-02; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Quantinuum News 🆕
+## 🟡 Source stale: Quantinuum News
 
 - Severity: **medium**
 - Status: **stale**
@@ -354,11 +361,4 @@ _Updated 2026-09-26 02:59 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-28; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Genesis Mission
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

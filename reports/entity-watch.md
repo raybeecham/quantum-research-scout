@@ -4,14 +4,14 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-09-26 02:59 UTC_
+_Updated 2026-09-27 03:04 UTC_
 
 ## Organizations
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
 | NIST | ↗️ rising (1 vs 0) | 🔴 critical | active | 2026-06-25 | 2026-09-21 | 15 | 1 |
-| IBM | ↘️ declining (1 vs 3) | 🟠 high | active | 2026-06-23 | 2026-09-19 | 28 | 1 |
+| IBM | ↘️ declining (0 vs 4) | 🟠 high | active | 2026-06-23 | 2026-09-19 | 28 | 1 |
 | QuSecure | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-07 | 2026-09-03 | 28 | 19 |
 | IonQ | ↗️ rising (4 vs 0) | 🟠 high | active | 2026-06-22 | 2026-09-24 | 23 | 0 |
 | Keyfactor | ↗️ rising (2 vs 0) | 🟠 high | active | 2025-07-24 | 2026-09-22 | 23 | 11 |
@@ -30,19 +30,19 @@ _Updated 2026-09-26 02:59 UTC_
 | Google Quantum AI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-11-13 | 2026-06-27 | 3 | 2 |
 | Lockheed Martin | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-25 | 2026-07-14 | 3 | 1 |
 | PQCA | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-27 | 2026-09-08 | 3 | 0 |
-| Thales | ↘️ declining (0 vs 1) | 🟠 high | active | 2026-08-04 | 2026-09-18 | 3 | 0 |
+| Thales | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-08-04 | 2026-09-18 | 3 | 0 |
 | ANSSI | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-23 | 2026-09-03 | 2 | 0 |
 | Booz Allen Hamilton | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-02-06 | 2026-07-30 | 2 | 1 |
 | Deloitte | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-08-20 | 2025-08-20 | 2 | 2 |
+| ETSI | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-06-22 | 2026-09-26 | 2 | 1 |
 | IETF | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-08-28 | 2026-08-28 | 2 | 1 |
 | ISO/IEC | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-25 | 2026-07-15 | 2 | 0 |
 | Atom Computing | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-16 | 2026-06-16 | 1 | 1 |
 | CISA | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-09-03 | 2026-09-03 | 1 | 0 |
-| ETSI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-22 | 2026-06-22 | 1 | 1 |
 | Microsoft Quantum | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-09-22 | 2026-09-22 | 1 | 0 |
 | Open Quantum Safe | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-27 | 2026-07-27 | 1 | 0 |
 | Infleqtion | ↘️ declining (1 vs 3) | 🟡 medium | active | 2026-06-22 | 2026-09-24 | 29 | 0 |
-| Pasqal | ↗️ rising (2 vs 0) | 🟡 medium | active | 2026-06-29 | 2026-09-19 | 21 | 0 |
+| Pasqal | ↘️ declining (1 vs 2) | 🟡 medium | active | 2026-06-29 | 2026-09-26 | 22 | 0 |
 | AWS | ↗️ rising (1 vs 0) | 🟡 medium | active | 2026-06-24 | 2026-09-23 | 8 | 3 |
 | Rigetti | ➡️ stable (0 vs 0) | 🟡 medium | quiet | 2026-07-29 | 2026-09-08 | 5 | 0 |
 | Intel Quantum | ➡️ stable (0 vs 0) | 🟡 medium | documented | Unknown | Unknown | 2 | 2 |
@@ -60,7 +60,7 @@ _Updated 2026-09-26 02:59 UTC_
 | ML-DSA | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2026-06-29 | 2026-09-08 | 3 | 0 |
 | ML-KEM | ↗️ rising (1 vs 0) | 🔴 critical | active | 2026-09-21 | 2026-09-21 | 1 | 0 |
 | Quantum key distribution | ↗️ rising (4 vs 0) | 🟠 high | active | 2026-06-29 | 2026-09-25 | 19 | 3 |
-| Quantum networking | ↘️ declining (1 vs 3) | 🟠 high | active | 2026-07-16 | 2026-09-21 | 11 | 0 |
+| Quantum networking | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-07-16 | 2026-09-21 | 11 | 0 |
 | Quantum sensing | ➡️ stable (0 vs 0) | 🟡 medium | quiet | 2026-06-24 | 2026-09-03 | 17 | 1 |
 
 **Configured, awaiting evidence (3):** CNSA 2.0, Hybrid TLS, SLH-DSA
@@ -76,7 +76,7 @@ _Updated 2026-09-26 02:59 UTC_
 | D-Wave | third-party | 0 | 4 |
 | ISO/IEC | third-party | 0 | 2 |
 | Infleqtion | third-party | 0 | 29 |
-| Pasqal | third-party | 0 | 21 |
+| Pasqal | third-party | 0 | 22 |
 | NIST | covered | 2 | 15 |
 | Accenture / Accenture Federal Services | covered | 2 | 6 |
 | Atom Computing | covered | 1 | 1 |
@@ -88,7 +88,7 @@ _Updated 2026-09-26 02:59 UTC_
 | Deloitte | covered | 1 | 2 |
 | DigiCert | covered | 1 | 8 |
 | ENISA | covered | 1 | 0 |
-| ETSI | covered | 1 | 1 |
+| ETSI | covered | 1 | 2 |
 | Fortanix | covered | 1 | 19 |
 | Google Quantum AI | covered | 2 | 3 |
 | IBM | covered | 1 | 28 |

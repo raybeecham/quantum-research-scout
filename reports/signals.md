@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-26 02:59 UTC_
+_Updated 2026-09-27 03:04 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
@@ -14,9 +14,9 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 | Quantum Sensing | ↗️ rising (3 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-25 | 48 |
 | PQC / Crypto Agility | ➡️ stable (20 vs 16) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-25 | 234 |
 | QEC / Fault Tolerance | ↘️ declining (5 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-09-24 | 70 |
-| Quantum Hardware | ➡️ stable (11 vs 14) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-25 | 300 |
+| Quantum Hardware | ➡️ stable (12 vs 16) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-26 | 304 |
 | Quantum Networking | ➡️ stable (12 vs 10) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-25 | 135 |
-| Quantum Software / Tooling | ➡️ stable (4 vs 4) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-23 | 90 |
+| Quantum Software / Tooling | ↘️ declining (3 vs 6) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-26 | 91 |
 | Standards / Government | ➡️ stable (5 vs 7) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-09-25 | 58 |
 
 ## AI Security
@@ -68,11 +68,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-09-26 — [Pasqal Reports H1 2026 Financial Results: €312.9M Post-SPAC Cash Balance, 14% Revenue Growth, and 1,000-Atom Scale](https://quantumcomputingreport.com/pasqal-reports-h1-2026-financial-results-e312-9m-post-spac-cash-balance-14-revenue-growth-and-1000-atom-scale) (Quantum Computing Report, score 44)
+  - 2026-09-26 — [Sebastian Hassinger (The New Quantum Era): why neutral atoms lead the qubit race for now](https://thequantuminsider.com/2026/09/26/sebastian-hassinger-the-new-quantum-era-why-neutral-atoms-lead-the-qubit-race-for-now) (The Quantum Insider, score 40)
+  - 2026-09-26 — [MANA Reveals Atomic-Scale Rails for Guiding Superconducting Vortices](https://thequantuminsider.com/2026/09/26/mana-reveals-atomic-scale-rails-for-guiding-superconducting-vortices) (The Quantum Insider, score 28)
+  - 2026-09-26 — [Fairfax County Public Schools to Install XeedQ 4-Qubit Quantum Computer at Skyview High School](https://quantumcomputingreport.com/fairfax-county-public-schools-to-install-xeedq-4-qubit-quantum-computer-at-skyview-high-school) (Quantum Computing Report, score 26)
   - 2026-09-25 — [QuiX Quantum Partners with Tohoku Electronic Industrial for Exclusive Distribution in Japan](https://quantumcomputingreport.com/quix-quantum-partners-with-tohoku-electronic-industrial-for-exclusive-distribution-in-japan) (Quantum Computing Report, score 24)
-  - 2026-09-24 — [IonQ to Deploy Superion 256 Quantum Computer at Florida International University](https://thequantuminsider.com/2026/09/24/ionq-superion-256-florida-international-university) (The Quantum Insider, score 50)
-  - 2026-09-24 — [Classiq, INGL, and IonQ Advance Quantum Optimization for Natural Gas Transmission Networks](https://quantumcomputingreport.com/classiq-ingl-and-ionq-advance-quantum-optimization-for-natural-gas-transmission-networks) (Quantum Computing Report, score 26)
-  - 2026-09-22 — [QuEra and HPE Partner on Fault-Tolerant Quantum Computing for HPC](https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc) (The Quantum Insider, score 94)
-  - 2026-09-22 — [Quobly Integrates Alloy Forge Emulator with qBraid Cloud to Accelerate Silicon Spin-Qubit Application Development](https://quantumcomputingreport.com/quobly-integrates-alloy-forge-emulator-with-qbraid-cloud-to-accelerate-silicon-spin-qubit-application-development) (Quantum Computing Report, score 26)
 
 ## Quantum Networking
 
@@ -87,14 +87,14 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 
 ## Quantum Software / Tooling
 
-- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, AWS Quantum Technologies Blog, arXiv RSS quant-ph
+- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, AWS Quantum Technologies Blog, Quantum Computing Report
 - Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
 - Recent supporting evidence:
+  - 2026-09-26 — [ETSI Identifies Technical Limitations and Implementation Vulnerabilities in Quantum Random Number Generators (ETSI TR 104 171)](https://quantumcomputingreport.com/etsi-identifies-technical-limitations-and-implementation-vulnerabilities-in-quantum-random-number-generators-etsi-tr-104-171) (Quantum Computing Report, score 92)
   - 2026-09-23 — [Demonstrating genuine multipartite non-locality on quantum processors using Amazon Braket](https://aws.amazon.com/blogs/quantum-computing/demonstrating-genuine-multipartite-non-locality-on-quantum-processors-using-amazon-braket) (AWS Quantum Technologies Blog, score 33)
   - 2026-09-22 — [Microsoft Quantum, QOLAB Propose Higher Bar For ‘Scalable’ Logical Qubits](https://thequantuminsider.com/2026/09/22/microsoft-quantum-qolab-propose-higher-bar-for-scalable-logical-qubits) (The Quantum Insider, score 92)
   - 2026-09-19 — [IBM Research Demonstrates Hybrid Spacetime PEC to Reduce Error-Mitigation Sampling Overhead by 63×](https://quantumcomputingreport.com/ibm-research-demonstrates-hybrid-spacetime-pec-to-reduce-error-mitigation-sampling-overhead-by-63x) (Quantum Computing Report, score 46)
   - 2026-09-17 — [Alice & Bob Partners With The CEA to Accelerate Quantum-HPC Integration And Industrial Use Cases](https://thequantuminsider.com/2026/09/17/alice-bob-partners-with-the-cea-to-accelerate-quantum-hpc-integration-and-industrial-use-cases) (The Quantum Insider, score 73)
-  - 2026-09-14 — [Logical advantage of Pinnacle confirmed on spin-qubit hardware](https://quantumzeitgeist.com/logical-advantage-pinnacle-spin-qubit-hardware) (Quantum Zeitgeist, score 70)
 
 ## Standards / Government
 

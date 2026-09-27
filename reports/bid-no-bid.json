@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 82,
+      "days_to_close": 81,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -72,14 +72,6 @@
           "basis": [
             "shared specialties: artificial intelligence"
           ],
-          "name": "UNIVERSITY OF OKLAHOMA",
-          "score": 5,
-          "uei": "EVTSTTLCEWS5"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
           "name": "POST QUANTUM LABS LLC",
           "score": 5,
           "uei": "H53MXWJZPYU3"
@@ -107,6 +99,14 @@
           "name": "WTIA WORKFORCE INSTITUTE",
           "score": 2,
           "uei": "MDM9F73QJ1Z1"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
+          "name": "WINTRIO LLC",
+          "score": 2,
+          "uei": "E9GWUWJTVME7"
         }
       ],
       "mission_fit": [
@@ -150,9 +150,9 @@
           "basis": [
             "shared specialties: artificial intelligence"
           ],
-          "name": "WILCORE TECHNOLOGIES INC",
+          "name": "WINTRIO LLC",
           "score": 2,
-          "uei": "KA6QJ7CECP13"
+          "uei": "E9GWUWJTVME7"
         }
       ],
       "provisional_gate": "qualify",
@@ -192,7 +192,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 23,
+      "days_to_close": 22,
       "deadline": "10/19/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -301,6 +301,6 @@
     "qualify": 2,
     "targeted_review": 0
   },
-  "updated_at": "2026-09-26T02:56:23.445384+00:00",
+  "updated_at": "2026-09-27T03:00:03.251309+00:00",
   "version": 1
 }

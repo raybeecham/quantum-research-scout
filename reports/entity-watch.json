@@ -93,7 +93,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 21,
+      "evidence_count": 22,
       "first_party_evidence_count": 0,
       "name": "Pasqal",
       "priority": "medium",
@@ -300,7 +300,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 1,
+      "evidence_count": 2,
       "first_party_evidence_count": 1,
       "name": "ETSI",
       "priority": "high",
@@ -1291,9 +1291,9 @@
       "latest_seen": "2026-09-19",
       "momentum": "declining",
       "name": "IBM",
-      "prior_count": 3,
+      "prior_count": 4,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -5074,7 +5074,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -5266,6 +5266,66 @@
     },
     {
       "aliases": [
+        "European Telecommunications Standards Institute"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 1,
+      "evidence": [
+        {
+          "date": "2026-09-26",
+          "key": "https://quantumcomputingreport.com/etsi-identifies-technical-limitations-and-implementation-vulnerabilities-in-quantum-random-number-generators-etsi-tr-104-171",
+          "report": "2026-09/2026-09-26-digest.md",
+          "score": 92,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "ETSI Identifies Technical Limitations and Implementation Vulnerabilities in Quantum Random Number Generators (ETSI TR 104 171)",
+          "url": "https://quantumcomputingreport.com/etsi-identifies-technical-limitations-and-implementation-vulnerabilities-in-quantum-random-number-generators-etsi-tr-104-171"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": "2026-06-22",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:article:published_time",
+          "entities": [
+            "ETSI"
+          ],
+          "historical": true,
+          "key": "https://www.etsi.org/newsroom/news/wait-see-is-not-an-option-q-day-is-here",
+          "observed_at": "2026-09-20T08:11:01.442553+00:00",
+          "published_at": "2026-06-22T08:51:46+00:00",
+          "score": 42,
+          "source": "ETSI Quantum Standards News",
+          "source_type": "watch",
+          "summary": "More than 250 participants from around the world gathered to discuss advancing the transition to quantum-safe security.",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Wait & see is not an option: Q-day is here - ETSI",
+          "url": "https://www.etsi.org/newsroom/news/wait-see-is-not-an-option-q-day-is-here/"
+        }
+      ],
+      "evidence_count": 2,
+      "first_seen": "2026-06-22",
+      "historical_evidence_count": 1,
+      "latest_seen": "2026-09-26",
+      "momentum": "rising",
+      "name": "ETSI",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Software / Tooling"
+      ],
+      "type": "standards"
+    },
+    {
+      "aliases": [
         "Internet Engineering Task Force",
         "PQUIP"
       ],
@@ -5452,53 +5512,6 @@
         "PQC / Crypto Agility"
       ],
       "type": "government"
-    },
-    {
-      "aliases": [
-        "European Telecommunications Standards Institute"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 0,
-      "evidence": [
-        {
-          "alert_eligible": false,
-          "category": "PQC",
-          "date": "2026-06-22",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "explicit_metadata:article:published_time",
-          "entities": [
-            "ETSI"
-          ],
-          "historical": true,
-          "key": "https://www.etsi.org/newsroom/news/wait-see-is-not-an-option-q-day-is-here",
-          "observed_at": "2026-09-20T08:11:01.442553+00:00",
-          "published_at": "2026-06-22T08:51:46+00:00",
-          "score": 42,
-          "source": "ETSI Quantum Standards News",
-          "source_type": "watch",
-          "summary": "More than 250 participants from around the world gathered to discuss advancing the transition to quantum-safe security.",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Wait & see is not an option: Q-day is here - ETSI",
-          "url": "https://www.etsi.org/newsroom/news/wait-see-is-not-an-option-q-day-is-here/"
-        }
-      ],
-      "evidence_count": 1,
-      "first_seen": "2026-06-22",
-      "historical_evidence_count": 1,
-      "latest_seen": "2026-06-22",
-      "momentum": "stable",
-      "name": "ETSI",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "dormant",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "type": "standards"
     },
     {
       "aliases": [
@@ -5950,8 +5963,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 21,
+      "current_evidence_count": 22,
       "evidence": [
+        {
+          "date": "2026-09-26",
+          "key": "https://quantumcomputingreport.com/pasqal-reports-h1-2026-financial-results-e312-9m-post-spac-cash-balance-14-revenue-growth-and-1000-atom-scale",
+          "report": "2026-09/2026-09-26-digest.md",
+          "score": 44,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal Reports H1 2026 Financial Results: \u20ac312.9M Post-SPAC Cash Balance, 14% Revenue Growth, and 1,000-Atom Scale",
+          "url": "https://quantumcomputingreport.com/pasqal-reports-h1-2026-financial-results-e312-9m-post-spac-cash-balance-14-revenue-growth-and-1000-atom-scale"
+        },
         {
           "date": "2026-09-19",
           "key": "https://quantumcomputingreport.com/pasqal-and-lg-cns-sign-three-year-mou-to-integrate-neutral-atom-qpus-into-ai-data-center-infrastructure",
@@ -6205,15 +6230,15 @@
           "url": "https://thequantuminsider.com/2026/06/29/pasqal-appoints-stephane-rougeot-chief-financial-officer"
         }
       ],
-      "evidence_count": 21,
+      "evidence_count": 22,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-19",
-      "momentum": "rising",
+      "latest_seen": "2026-09-26",
+      "momentum": "declining",
       "name": "Pasqal",
-      "prior_count": 0,
+      "prior_count": 2,
       "priority": "medium",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -8755,7 +8780,7 @@
       "latest_seen": "2026-09-21",
       "momentum": "declining",
       "name": "Quantum networking",
-      "prior_count": 3,
+      "prior_count": 2,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -9099,6 +9124,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-09-26T02:59:44.879377+00:00",
+  "updated_at": "2026-09-27T03:04:09.383852+00:00",
   "version": 2
 }
