@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-27 03:04 UTC_
+_Updated 2026-09-28 03:03 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
@@ -12,7 +12,7 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-09-17 | 21 |
 | Quantum Sensing | ↗️ rising (3 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-25 | 48 |
-| PQC / Crypto Agility | ➡️ stable (20 vs 16) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-25 | 234 |
+| PQC / Crypto Agility | ➡️ stable (18 vs 19) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-27 | 235 |
 | QEC / Fault Tolerance | ↘️ declining (5 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-09-24 | 70 |
 | Quantum Hardware | ➡️ stable (12 vs 16) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-26 | 304 |
 | Quantum Networking | ➡️ stable (12 vs 10) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-25 | 135 |
@@ -46,11 +46,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-09-27 — [OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT](https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732) (USAspending · Post-Quantum Cybersecurity, score 100)
   - 2026-09-25 — [DigiCert Announces General Availability of Quantum Central Platform for PQC Migration Management](https://quantumcomputingreport.com/digicert-announces-general-availability-of-quantum-central-platform-for-pqc-migration-management) (Quantum Computing Report, score 67)
   - 2026-09-25 — [DigiCert Launches Quantum Central for Post-Quantum Cryptography Readiness](https://thequantuminsider.com/2026/09/25/digicert-quantum-central-pqc-plans-action) (The Quantum Insider, score 67)
   - 2026-09-25 — [Guest Post: Quantum Investment May Start With Post-Quantum Security](https://thequantuminsider.com/2026/09/25/quantum-investment-post-quantum-security) (The Quantum Insider, score 55)
   - 2026-09-24 — [ZERO TRUST POST QUANTUM ENCRYPTION SERVICES](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000) (USAspending · Quantum Technologies, score 100)
-  - 2026-09-24 — [Tezos Launches Quantumnet Post-Quantum Testnet](https://thequantuminsider.com/2026/09/24/tezos-launches-quantumnet-post-quantum-testnet) (The Quantum Insider, score 55)
 
 ## QEC / Fault Tolerance
 

@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-27 03:04 UTC_
+_Updated 2026-09-28 03:03 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 4 | 12 | 13 | 25 |
+| 50 | 2 | 13 | 11 | 26 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -66,32 +66,39 @@ _Updated 2026-09-27 03:04 UTC_
 - 🔴 Standards / Government has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
+## 🔴 Source failing: Quantum Computing Report 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 69.2% reliability with 4 warning day(s).
+- [Open supporting view](source-health.md)
+
 ## 🔴 Source failing: White House Science and Technology Missions
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 85.9% reliability with 9 warning day(s).
+- 🔴 84.6% reliability with 10 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography 🆕
+## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 73.5% reliability with 9 warning day(s).
+- 🔴 74.0% reliability with 9 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Computing 🆕
+## 🔴 Source failing: arXiv Quantum Computing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 73.5% reliability with 9 warning day(s).
+- 🔴 74.0% reliability with 9 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Networking and Sensing 🆕
+## 🔴 Source failing: arXiv Quantum Networking and Sensing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 75.5% reliability with 8 warning day(s).
+- 🔴 76.0% reliability with 8 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -107,14 +114,6 @@ _Updated 2026-09-27 03:04 UTC_
 - Status: **actionable**
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
-
-## 🟠 Changed: THIS IS FOR THE DESIGN AND DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ENHANCED SURVEILLANCE DATA PLATFORM (AI-ESDP). 🆕
-
-- Severity: **high**
-- Status: **changed**
-- reported amount · authority authoritative · 2500000.0
-- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_70B04C26F00000114_7014_47QTCA18D003J_4732)
-- [Open supporting view](intelligence-changes.md)
 
 ## 🟠 Product Launch: DigiCert
 
@@ -157,35 +156,28 @@ _Updated 2026-09-27 03:04 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.7% reliability with 3 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Source degraded: Quantum Computing Report
-
-- Severity: **high**
-- Status: **degraded**
-- 🟠 75.0% reliability with 3 warning day(s).
+- 🟠 93.8% reliability with 3 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Journal
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 91.7% reliability with 1 warning day(s).
+- 🟠 92.3% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 95.1% reliability with 1 warning day(s).
+- 🟠 95.2% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 95.0% reliability with 1 warning day(s).
+- 🟠 95.1% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -361,4 +353,11 @@ _Updated 2026-09-27 03:04 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-28; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · Genesis Mission 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

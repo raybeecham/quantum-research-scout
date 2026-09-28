@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-09-27",
+  "as_of_date": "2026-09-28",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,2041 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-e8dfe4cbaf606c54",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-73068f9ea1c94af8"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-73068f9ea1c94af8",
+          "locator": "opportunity_status:awarded",
+          "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:91990026F0124",
+        "label": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
+        "node_id": "award:usaspending:91990026F0124",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "34d8d9d3a01eda68"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-153c914067b194b6",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-a6940cacb36eb29a"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a6940cacb36eb29a",
+          "locator": "awarding_agency:department of education",
+          "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:91990026F0124",
+        "label": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
+        "node_id": "award:usaspending:91990026F0124",
+        "node_type": "award"
+      },
+      "value": "Department of Education",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7282f9e6245aeeaf"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-e8900e0b258af382",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-3c5bbb973df8ecb4"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3c5bbb973df8ecb4",
+          "locator": "reported_amount:1819257.2",
+          "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:91990026F0124",
+        "label": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
+        "node_id": "award:usaspending:91990026F0124",
+        "node_type": "award"
+      },
+      "value": 1819257.2,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3509b2a39481fd57"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-bf90b29a5e160e31",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-ca3bec61fc2e0748"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:KNJHHF1GWLF3",
+        "label": "SHOREPOINT LLC",
+        "node_id": "recipient_or_contractor:uei:KNJHHF1GWLF3",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ca3bec61fc2e0748",
+          "locator": "reported_recipient:recipient_or_contractor:uei:KNJHHF1GWLF3",
+          "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:91990026F0124",
+        "label": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
+        "node_id": "award:usaspending:91990026F0124",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6392c74325cc2cb6"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-a64c4b5ae0d49982",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-5a12058a44b459f5"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5a12058a44b459f5",
+          "locator": "opportunity_status:awarded",
+          "title": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75R60226F80061",
+        "label": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
+        "node_id": "award:usaspending:75R60226F80061",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d7a624407a09c79c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-43f86c3738f01167",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-aeb6a67c35017a76"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-aeb6a67c35017a76",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75R60226F80061",
+        "label": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
+        "node_id": "award:usaspending:75R60226F80061",
+        "node_type": "award"
+      },
+      "value": "Department of Health and Human Services",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "80525000f7e7f0e1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-86b74fa5210f0d3d",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-f7bfc553183989ad"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f7bfc553183989ad",
+          "locator": "reported_amount:1999705.7",
+          "title": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75R60226F80061",
+        "label": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
+        "node_id": "award:usaspending:75R60226F80061",
+        "node_type": "award"
+      },
+      "value": 1999705.7,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d030eedbd4d72759"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-f1351fa073bf795d",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-6d6d5fd45413a68f"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:CKV2L9GZKJK3",
+        "label": "DELOITTE CONSULTING LLP",
+        "node_id": "recipient_or_contractor:uei:CKV2L9GZKJK3",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6d6d5fd45413a68f",
+          "locator": "reported_recipient:recipient_or_contractor:uei:CKV2L9GZKJK3",
+          "title": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75R60226F80061",
+        "label": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
+        "node_id": "award:usaspending:75R60226F80061",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "eb1c0814bd185ac9"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-f8328a897142cbec",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-25",
+      "evidence_ids": [
+        "evidence-d84c926f358440e2"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d84c926f358440e2",
+          "locator": "opportunity_status:awarded",
+          "title": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QTCX26F0010_4732_47QTCA24D00CA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:47QTCX26F0010",
+        "label": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
+        "node_id": "award:usaspending:47QTCX26F0010",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1b0572039aba3a9e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-299f58975904e06e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-25",
+      "evidence_ids": [
+        "evidence-918e3b9ae05bc72b"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-918e3b9ae05bc72b",
+          "locator": "awarding_agency:general services administration",
+          "title": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QTCX26F0010_4732_47QTCA24D00CA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:47QTCX26F0010",
+        "label": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
+        "node_id": "award:usaspending:47QTCX26F0010",
+        "node_type": "award"
+      },
+      "value": "General Services Administration",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "dc078b21211e7a64"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-1b9eee61650d349f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-25",
+      "evidence_ids": [
+        "evidence-c8f8dde51a9498d6"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c8f8dde51a9498d6",
+          "locator": "reported_amount:194300.0",
+          "title": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QTCX26F0010_4732_47QTCA24D00CA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:47QTCX26F0010",
+        "label": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
+        "node_id": "award:usaspending:47QTCX26F0010",
+        "node_type": "award"
+      },
+      "value": 194300.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "296064b0ce798740"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-2abadfcfeb368337",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-25",
+      "evidence_ids": [
+        "evidence-19b1c0b1704ec417"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:H8UVK64KWLQ3",
+        "label": "DUNU TECH, LLC",
+        "node_id": "recipient_or_contractor:uei:H8UVK64KWLQ3",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-19b1c0b1704ec417",
+          "locator": "reported_recipient:recipient_or_contractor:uei:H8UVK64KWLQ3",
+          "title": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47QTCX26F0010_4732_47QTCA24D00CA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:47QTCX26F0010",
+        "label": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
+        "node_id": "award:usaspending:47QTCX26F0010",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "fad7288e6220ae84"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-c5601f99f135b9a6",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-25",
+      "evidence_ids": [
+        "evidence-068ff80fc5d49c49"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-068ff80fc5d49c49",
+          "locator": "opportunity_status:awarded",
+          "title": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1232SA26P0484",
+        "label": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
+        "node_id": "award:usaspending:1232SA26P0484",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "86b6f467e453b771"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-4b0178b857137b59",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-25",
+      "evidence_ids": [
+        "evidence-6abfdb4119a0b8fd"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6abfdb4119a0b8fd",
+          "locator": "awarding_agency:department of agriculture",
+          "title": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1232SA26P0484",
+        "label": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
+        "node_id": "award:usaspending:1232SA26P0484",
+        "node_type": "award"
+      },
+      "value": "Department of Agriculture",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8ab1f5018bd7296c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-b044fa100b0267ec",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-25",
+      "evidence_ids": [
+        "evidence-9eb8e1294e003f0a"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9eb8e1294e003f0a",
+          "locator": "reported_amount:393222.0",
+          "title": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1232SA26P0484",
+        "label": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
+        "node_id": "award:usaspending:1232SA26P0484",
+        "node_type": "award"
+      },
+      "value": 393222.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ba7544a798ad4ee3"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-076ff7ed97d8bca1",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-25",
+      "evidence_ids": [
+        "evidence-9d1816712fabc251"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:CG78ATJ18YX5",
+        "label": "BOSTON DYNAMICS, INC.",
+        "node_id": "recipient_or_contractor:uei:CG78ATJ18YX5",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9d1816712fabc251",
+          "locator": "reported_recipient:recipient_or_contractor:uei:CG78ATJ18YX5",
+          "title": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1232SA26P0484",
+        "label": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
+        "node_id": "award:usaspending:1232SA26P0484",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "10c95a056008d8b7"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-41a76bc19a6c0397",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-46548c9d2dadf974"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-46548c9d2dadf974",
+          "locator": "opportunity_status:awarded",
+          "title": "CYBERSECURITY SUPPORT SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70Z02326FOES30001",
+        "label": "CYBERSECURITY SUPPORT SERVICES",
+        "node_id": "award:usaspending:70Z02326FOES30001",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1044bf2a8151c64d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-8330c543bdb31879",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-00b9d2a803904fb7"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-00b9d2a803904fb7",
+          "locator": "awarding_agency:department of homeland security",
+          "title": "CYBERSECURITY SUPPORT SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70Z02326FOES30001",
+        "label": "CYBERSECURITY SUPPORT SERVICES",
+        "node_id": "award:usaspending:70Z02326FOES30001",
+        "node_type": "award"
+      },
+      "value": "Department of Homeland Security",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "aaa8984df56fd52e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-39df4bd47e67b487",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-bc7e9a69a72adf16"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bc7e9a69a72adf16",
+          "locator": "reported_amount:2998805.69",
+          "title": "CYBERSECURITY SUPPORT SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70Z02326FOES30001",
+        "label": "CYBERSECURITY SUPPORT SERVICES",
+        "node_id": "award:usaspending:70Z02326FOES30001",
+        "node_type": "award"
+      },
+      "value": 2998805.69,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8cff0a4a1096108a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-7c7817724d84d608",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-a6583a3981a1b533"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:X42HKHSX66U1",
+        "label": "ONEOMEGA LLC",
+        "node_id": "recipient_or_contractor:uei:X42HKHSX66U1",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a6583a3981a1b533",
+          "locator": "reported_recipient:recipient_or_contractor:uei:X42HKHSX66U1",
+          "title": "CYBERSECURITY SUPPORT SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70Z02326FOES30001",
+        "label": "CYBERSECURITY SUPPORT SERVICES",
+        "node_id": "award:usaspending:70Z02326FOES30001",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "52c7ec530ef00255"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-c9a70e4812618107",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-cf076a17a40c0af9"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cf076a17a40c0af9",
+          "locator": "opportunity_status:awarded",
+          "title": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00003_7529_75N91023A00008_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98026F00003",
+        "label": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
+        "node_id": "award:usaspending:75N98026F00003",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c9d767cefd3b3615"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-a13a235bad376d74",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-c3e31a48854b84b1"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c3e31a48854b84b1",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00003_7529_75N91023A00008_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98026F00003",
+        "label": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
+        "node_id": "award:usaspending:75N98026F00003",
+        "node_type": "award"
+      },
+      "value": "Department of Health and Human Services",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "b73bc045761410e4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-5c8d0e564b1f50db",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-ea020085dfdfe4e9"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ea020085dfdfe4e9",
+          "locator": "reported_amount:3029648.38",
+          "title": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00003_7529_75N91023A00008_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98026F00003",
+        "label": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
+        "node_id": "award:usaspending:75N98026F00003",
+        "node_type": "award"
+      },
+      "value": 3029648.38,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "33923194ca192793"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-5f33b8d558cd5c34",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-1c1cc65dc67f6c9e"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:NQL3JEME2443",
+        "label": "DLH, LLC",
+        "node_id": "recipient_or_contractor:uei:NQL3JEME2443",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1c1cc65dc67f6c9e",
+          "locator": "reported_recipient:recipient_or_contractor:uei:NQL3JEME2443",
+          "title": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00003_7529_75N91023A00008_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98026F00003",
+        "label": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
+        "node_id": "award:usaspending:75N98026F00003",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6fac620704ad66d1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-f969b73323c428aa",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-c9ee065a7ca9ea57"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c9ee065a7ca9ea57",
+          "locator": "opportunity_status:awarded",
+          "title": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000060_7001_47QRCA24DV361_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70RCSJ26FR0000060",
+        "label": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
+        "node_id": "award:usaspending:70RCSJ26FR0000060",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9f9a3bb6d23c06f3"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-26e33a89352e1e4e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-35d0a41927fb37cb"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-35d0a41927fb37cb",
+          "locator": "awarding_agency:department of homeland security",
+          "title": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000060_7001_47QRCA24DV361_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70RCSJ26FR0000060",
+        "label": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
+        "node_id": "award:usaspending:70RCSJ26FR0000060",
+        "node_type": "award"
+      },
+      "value": "Department of Homeland Security",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7f157016c74166e7"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-5f699f8ef70b20e9",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-26a240299920d341"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-26a240299920d341",
+          "locator": "reported_amount:936632.48",
+          "title": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000060_7001_47QRCA24DV361_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70RCSJ26FR0000060",
+        "label": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
+        "node_id": "award:usaspending:70RCSJ26FR0000060",
+        "node_type": "award"
+      },
+      "value": 936632.48,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "afae776e94a0cb74"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-7eee0643779e3b1e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-bb0437c72c9fb27b"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:K6BVRM8LQ4Q8",
+        "label": "ARROW ARC LLC",
+        "node_id": "recipient_or_contractor:uei:K6BVRM8LQ4Q8",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bb0437c72c9fb27b",
+          "locator": "reported_recipient:recipient_or_contractor:uei:K6BVRM8LQ4Q8",
+          "title": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000060_7001_47QRCA24DV361_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70RCSJ26FR0000060",
+        "label": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
+        "node_id": "award:usaspending:70RCSJ26FR0000060",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "33765e3adc7b1ffb"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-52298faa665af8b8",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-c3c43d6b7c5f3492"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c3c43d6b7c5f3492",
+          "locator": "opportunity_status:awarded",
+          "title": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_6913G626F50023N_6901_75N98119D00077_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:6913G626F50023N",
+        "label": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
+        "node_id": "award:usaspending:6913G626F50023N",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6e0ccb77bf137a64"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-0aeac024361a9303",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-ab47bab776143014"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ab47bab776143014",
+          "locator": "awarding_agency:department of transportation",
+          "title": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_6913G626F50023N_6901_75N98119D00077_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:6913G626F50023N",
+        "label": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
+        "node_id": "award:usaspending:6913G626F50023N",
+        "node_type": "award"
+      },
+      "value": "Department of Transportation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "0c7811d0990e4960"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-78cd279e7ade9967",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-cce4142a90c46a75"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cce4142a90c46a75",
+          "locator": "reported_amount:501022.48",
+          "title": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_6913G626F50023N_6901_75N98119D00077_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:6913G626F50023N",
+        "label": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
+        "node_id": "award:usaspending:6913G626F50023N",
+        "node_type": "award"
+      },
+      "value": 501022.48,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "baec60102dd93cab"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-e5085ac98b5e8687",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-05d51378517b4491"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:JSDBBMD7H323",
+        "label": "VERSATECH INC",
+        "node_id": "recipient_or_contractor:uei:JSDBBMD7H323",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-05d51378517b4491",
+          "locator": "reported_recipient:recipient_or_contractor:uei:JSDBBMD7H323",
+          "title": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_6913G626F50023N_6901_75N98119D00077_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:6913G626F50023N",
+        "label": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
+        "node_id": "award:usaspending:6913G626F50023N",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "691fc3a44bb645de"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-a98a8fdace39013b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-8ea1f22957e98660"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8ea1f22957e98660",
+          "locator": "opportunity_status:awarded",
+          "title": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3163_7009_70US0926D70092069_7009",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70US0926F3OTH3163",
+        "label": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
+        "node_id": "award:usaspending:70US0926F3OTH3163",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e131149a3e4faa91"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-27fd983493b4477d",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-e85f5acb8a2205ad"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e85f5acb8a2205ad",
+          "locator": "awarding_agency:department of homeland security",
+          "title": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3163_7009_70US0926D70092069_7009",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70US0926F3OTH3163",
+        "label": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
+        "node_id": "award:usaspending:70US0926F3OTH3163",
+        "node_type": "award"
+      },
+      "value": "Department of Homeland Security",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3873eecd523083a4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-3d2d4f035acf412b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-e21bb21a9d634bd5"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e21bb21a9d634bd5",
+          "locator": "reported_amount:363242.62",
+          "title": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3163_7009_70US0926D70092069_7009",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70US0926F3OTH3163",
+        "label": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
+        "node_id": "award:usaspending:70US0926F3OTH3163",
+        "node_type": "award"
+      },
+      "value": 363242.62,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9db3c3410a014e4b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-7930c02ddd728edb",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-ff169834485dba9e"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:JV4XG6EEQMP7",
+        "label": "BUCKEYE TECHNOLOGY SOLUTIONS, LLC",
+        "node_id": "recipient_or_contractor:uei:JV4XG6EEQMP7",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ff169834485dba9e",
+          "locator": "reported_recipient:recipient_or_contractor:uei:JV4XG6EEQMP7",
+          "title": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3163_7009_70US0926D70092069_7009",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:70US0926F3OTH3163",
+        "label": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
+        "node_id": "award:usaspending:70US0926F3OTH3163",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "bef345f9c35ab067"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-e9ec2fbcbdc5612c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-afba5bf88d371151"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-afba5bf88d371151",
+          "locator": "opportunity_status:awarded",
+          "title": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80NSSC26C0192",
+        "label": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
+        "node_id": "award:usaspending:80NSSC26C0192",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "a57cab88afc32422"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-e02486c1275f0631",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-e50e9b63d74bae8c"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e50e9b63d74bae8c",
+          "locator": "awarding_agency:national aeronautics and space administration",
+          "title": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80NSSC26C0192",
+        "label": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
+        "node_id": "award:usaspending:80NSSC26C0192",
+        "node_type": "award"
+      },
+      "value": "National Aeronautics and Space Administration",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "cb4ae5b72fc991ec"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-ac94c7d93040be08",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-225ba1193783bcc8"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-225ba1193783bcc8",
+          "locator": "reported_amount:224961.0",
+          "title": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80NSSC26C0192",
+        "label": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
+        "node_id": "award:usaspending:80NSSC26C0192",
+        "node_type": "award"
+      },
+      "value": 224961.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8da2365941d3e96c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-bd12c375e813b352",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-30",
+      "evidence_ids": [
+        "evidence-f35651a9d97b11bb"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:HDXFHZTWJBU7",
+        "label": "ADVENT INNOVATIONS LTD CO",
+        "node_id": "recipient_or_contractor:uei:HDXFHZTWJBU7",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f35651a9d97b11bb",
+          "locator": "reported_recipient:recipient_or_contractor:uei:HDXFHZTWJBU7",
+          "title": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80NSSC26C0192",
+        "label": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
+        "node_id": "award:usaspending:80NSSC26C0192",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1cf5ce4d954c8ce5"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-3d8b92ac3ddc81b4",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-29",
+      "evidence_ids": [
+        "evidence-d8d74ffad62c2e71"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d8d74ffad62c2e71",
+          "locator": "opportunity_status:awarded",
+          "title": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00159N_6925_693JJ323D000034_6925",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:693JJ326F00159N",
+        "label": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
+        "node_id": "award:usaspending:693JJ326F00159N",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c1095c38eb991dc6"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-388320cc1738c008",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-29",
+      "evidence_ids": [
+        "evidence-871bf4f9cba400c7"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-871bf4f9cba400c7",
+          "locator": "awarding_agency:department of transportation",
+          "title": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00159N_6925_693JJ323D000034_6925",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:693JJ326F00159N",
+        "label": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
+        "node_id": "award:usaspending:693JJ326F00159N",
+        "node_type": "award"
+      },
+      "value": "Department of Transportation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "aac3c285544fc044"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-092ff380a8c8c7cf",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-29",
+      "evidence_ids": [
+        "evidence-5ce3d6d0bfd3bdc0"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5ce3d6d0bfd3bdc0",
+          "locator": "reported_amount:299877.0",
+          "title": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00159N_6925_693JJ323D000034_6925",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:693JJ326F00159N",
+        "label": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
+        "node_id": "award:usaspending:693JJ326F00159N",
+        "node_type": "award"
+      },
+      "value": 299877.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "372d0b33e2dfa659"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-adcd6a03a3993de2",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-29",
+      "evidence_ids": [
+        "evidence-1fecbde1179df1a2"
+      ],
+      "first_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-28T02:58:03.521796+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:DGKHQAGH9CF5",
+        "label": "SYNTEK TECHNOLOGIES, INC.",
+        "node_id": "recipient_or_contractor:uei:DGKHQAGH9CF5",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1fecbde1179df1a2",
+          "locator": "reported_recipient:recipient_or_contractor:uei:DGKHQAGH9CF5",
+          "title": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00159N_6925_693JJ323D000034_6925",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:693JJ326F00159N",
+        "label": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
+        "node_id": "award:usaspending:693JJ326F00159N",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "aa9d4395adcc3591"
     },
     {
       "authority": "authoritative",
@@ -12835,191 +14870,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-fb00d0902e60c020",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-03-11",
-      "evidence_ids": [
-        "evidence-440fd0c90c769a6e"
-      ],
-      "first_seen_at": "2026-09-23T02:46:09.605997+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-23T02:46:09.605997+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-440fd0c90c769a6e",
-          "locator": "opportunity_status:awarded",
-          "title": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32AG099689_075",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:F32AG099689",
-        "label": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-        "node_id": "award:usaspending:F32AG099689",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "9d540a6af4d5eee5"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-a0649aa3a24441f5",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-03-11",
-      "evidence_ids": [
-        "evidence-338bbf33c00f708d"
-      ],
-      "first_seen_at": "2026-09-23T02:46:09.605997+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-23T02:46:09.605997+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-338bbf33c00f708d",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32AG099689_075",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:F32AG099689",
-        "label": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-        "node_id": "award:usaspending:F32AG099689",
-        "node_type": "award"
-      },
-      "value": "Department of Health and Human Services",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "1e82d3b774f433d8"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-9580555337d5d712",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-03-11",
-      "evidence_ids": [
-        "evidence-5a88452ea253f452"
-      ],
-      "first_seen_at": "2026-09-23T02:46:09.605997+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-23T02:46:09.605997+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5a88452ea253f452",
-          "locator": "reported_amount:76780.0",
-          "title": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32AG099689_075",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:F32AG099689",
-        "label": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-        "node_id": "award:usaspending:F32AG099689",
-        "node_type": "award"
-      },
-      "value": 76780.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "170c87e88e8331a6"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-7ad52c84f6d61446",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-03-11",
-      "evidence_ids": [
-        "evidence-5c91b7c8f6f74e1f"
-      ],
-      "first_seen_at": "2026-09-23T02:46:09.605997+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-23T02:46:09.605997+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:MLQFL4JSSAA9",
-        "label": "VIRGINIA COMMONWEALTH UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MLQFL4JSSAA9",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5c91b7c8f6f74e1f",
-          "locator": "reported_recipient:recipient_or_contractor:uei:MLQFL4JSSAA9",
-          "title": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32AG099689_075",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:F32AG099689",
-        "label": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
-        "node_id": "award:usaspending:F32AG099689",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "4dd9663cdd536f6c"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-4dfe970d0d512dda",
       "confidence": "high",
@@ -13377,6 +15227,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "17aac7d9d9d86b30"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-fb00d0902e60c020",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-03-11",
+      "evidence_ids": [
+        "evidence-440fd0c90c769a6e"
+      ],
+      "first_seen_at": "2026-09-23T02:46:09.605997+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-23T02:46:09.605997+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-440fd0c90c769a6e",
+          "locator": "opportunity_status:awarded",
+          "title": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_F32AG099689_075",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:F32AG099689",
+        "label": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
+        "node_id": "award:usaspending:F32AG099689",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9d540a6af4d5eee5"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-a0649aa3a24441f5",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-03-11",
+      "evidence_ids": [
+        "evidence-338bbf33c00f708d"
+      ],
+      "first_seen_at": "2026-09-23T02:46:09.605997+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-23T02:46:09.605997+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-338bbf33c00f708d",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_F32AG099689_075",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:F32AG099689",
+        "label": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
+        "node_id": "award:usaspending:F32AG099689",
+        "node_type": "award"
+      },
+      "value": "Department of Health and Human Services",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1e82d3b774f433d8"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-9580555337d5d712",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-03-11",
+      "evidence_ids": [
+        "evidence-5a88452ea253f452"
+      ],
+      "first_seen_at": "2026-09-23T02:46:09.605997+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-23T02:46:09.605997+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5a88452ea253f452",
+          "locator": "reported_amount:76780.0",
+          "title": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_F32AG099689_075",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:F32AG099689",
+        "label": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
+        "node_id": "award:usaspending:F32AG099689",
+        "node_type": "award"
+      },
+      "value": 76780.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "170c87e88e8331a6"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-7ad52c84f6d61446",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-03-11",
+      "evidence_ids": [
+        "evidence-5c91b7c8f6f74e1f"
+      ],
+      "first_seen_at": "2026-09-23T02:46:09.605997+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-23T02:46:09.605997+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:MLQFL4JSSAA9",
+        "label": "VIRGINIA COMMONWEALTH UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:MLQFL4JSSAA9",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5c91b7c8f6f74e1f",
+          "locator": "reported_recipient:recipient_or_contractor:uei:MLQFL4JSSAA9",
+          "title": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_F32AG099689_075",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:F32AG099689",
+        "label": "A SYNERGISTIC ARTIFICIAL INTELLIGENCE (AI) APPROACH: INTEGRATING STRUCTURED AND UNSTRUCTURED DATA FOR ENHANCED FALL RISK PREDICTION AMONG OLDER ADULT CANCER SURVIVORS - PROJECT SU...",
+        "node_id": "award:usaspending:F32AG099689",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4dd9663cdd536f6c"
     },
     {
       "authority": "authoritative",
@@ -75246,191 +77281,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-23179c39d981214a",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-02-18",
-      "evidence_ids": [
-        "evidence-9d858a3bd19442ef"
-      ],
-      "first_seen_at": "2026-08-22T00:50:40.718732+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-22T00:50:40.718732+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9d858a3bd19442ef",
-          "locator": "opportunity_status:awarded",
-          "title": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32EB040202_075",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:F32EB040202",
-        "label": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
-        "node_id": "award:usaspending:F32EB040202",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "79b2a6339d62afa3"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-4b6ab043ebbc6235",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-02-18",
-      "evidence_ids": [
-        "evidence-07ba7b06e9ecb928"
-      ],
-      "first_seen_at": "2026-08-22T00:50:40.718732+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-22T00:50:40.718732+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-07ba7b06e9ecb928",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32EB040202_075",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:F32EB040202",
-        "label": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
-        "node_id": "award:usaspending:F32EB040202",
-        "node_type": "award"
-      },
-      "value": "Department of Health and Human Services",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "95db6ecf620c02b2"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-4918bbfeee8ec7de",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-02-18",
-      "evidence_ids": [
-        "evidence-0e3cc5428e690384"
-      ],
-      "first_seen_at": "2026-08-22T00:50:40.718732+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-22T00:50:40.718732+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0e3cc5428e690384",
-          "locator": "reported_amount:76780.0",
-          "title": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32EB040202_075",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:F32EB040202",
-        "label": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
-        "node_id": "award:usaspending:F32EB040202",
-        "node_type": "award"
-      },
-      "value": 76780.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "e4f858fdeef4cb6a"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-0932e779d8d0c291",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-02-18",
-      "evidence_ids": [
-        "evidence-00cf9cc9eba8e77e"
-      ],
-      "first_seen_at": "2026-08-22T00:50:40.718732+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-22T00:50:40.718732+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:QN6MS4VN7BD1",
-        "label": "BRIGHAM & WOMENS HOSPITAL INC",
-        "node_id": "recipient_or_contractor:uei:QN6MS4VN7BD1",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-00cf9cc9eba8e77e",
-          "locator": "reported_recipient:recipient_or_contractor:uei:QN6MS4VN7BD1",
-          "title": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32EB040202_075",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:F32EB040202",
-        "label": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
-        "node_id": "award:usaspending:F32EB040202",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "aea95e21927fdbbf"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-541ac9c1f313b2b9",
       "confidence": "high",
@@ -75968,6 +77818,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "22ac468d86508023"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-23179c39d981214a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-02-18",
+      "evidence_ids": [
+        "evidence-9d858a3bd19442ef"
+      ],
+      "first_seen_at": "2026-08-22T00:50:40.718732+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-22T00:50:40.718732+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9d858a3bd19442ef",
+          "locator": "opportunity_status:awarded",
+          "title": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
+          "url": "https://www.usaspending.gov/award/ASST_NON_F32EB040202_075",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:F32EB040202",
+        "label": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
+        "node_id": "award:usaspending:F32EB040202",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "79b2a6339d62afa3"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-4b6ab043ebbc6235",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-02-18",
+      "evidence_ids": [
+        "evidence-07ba7b06e9ecb928"
+      ],
+      "first_seen_at": "2026-08-22T00:50:40.718732+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-22T00:50:40.718732+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-07ba7b06e9ecb928",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
+          "url": "https://www.usaspending.gov/award/ASST_NON_F32EB040202_075",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:F32EB040202",
+        "label": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
+        "node_id": "award:usaspending:F32EB040202",
+        "node_type": "award"
+      },
+      "value": "Department of Health and Human Services",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "95db6ecf620c02b2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-4918bbfeee8ec7de",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-02-18",
+      "evidence_ids": [
+        "evidence-0e3cc5428e690384"
+      ],
+      "first_seen_at": "2026-08-22T00:50:40.718732+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-22T00:50:40.718732+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0e3cc5428e690384",
+          "locator": "reported_amount:76780.0",
+          "title": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
+          "url": "https://www.usaspending.gov/award/ASST_NON_F32EB040202_075",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:F32EB040202",
+        "label": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
+        "node_id": "award:usaspending:F32EB040202",
+        "node_type": "award"
+      },
+      "value": 76780.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e4f858fdeef4cb6a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-0932e779d8d0c291",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-02-18",
+      "evidence_ids": [
+        "evidence-00cf9cc9eba8e77e"
+      ],
+      "first_seen_at": "2026-08-22T00:50:40.718732+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-22T00:50:40.718732+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:QN6MS4VN7BD1",
+        "label": "BRIGHAM & WOMENS HOSPITAL INC",
+        "node_id": "recipient_or_contractor:uei:QN6MS4VN7BD1",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-00cf9cc9eba8e77e",
+          "locator": "reported_recipient:recipient_or_contractor:uei:QN6MS4VN7BD1",
+          "title": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
+          "url": "https://www.usaspending.gov/award/ASST_NON_F32EB040202_075",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:F32EB040202",
+        "label": "EVALUATING THE IMPACT OF AI-ENABLED CLINICAL DECISION SUPPORT ON PHYSICIAN DECISION-MAKING AND PATIENT OUTCOMES - PROJECT SUMMARY/ABSTRACT THIS F32 AWARD WILL ESTABLISH VISHAL R....",
+        "node_id": "award:usaspending:F32EB040202",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "aea95e21927fdbbf"
     },
     {
       "authority": "authoritative",
@@ -110004,191 +112039,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-28cd752a0e19bd4d",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-02-01",
-      "evidence_ids": [
-        "evidence-c4cb6f74673395cb"
-      ],
-      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c4cb6f74673395cb",
-          "locator": "opportunity_status:awarded",
-          "title": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32GM161114_075",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:F32GM161114",
-        "label": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
-        "node_id": "award:usaspending:F32GM161114",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "40a33674216dc25d"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-9b7d3c0f749bce98",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-02-01",
-      "evidence_ids": [
-        "evidence-9ba06e81fc8fc186"
-      ],
-      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9ba06e81fc8fc186",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32GM161114_075",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:F32GM161114",
-        "label": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
-        "node_id": "award:usaspending:F32GM161114",
-        "node_type": "award"
-      },
-      "value": "Department of Health and Human Services",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "43bd649c967d9f1b"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-56432f746b005d31",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-02-01",
-      "evidence_ids": [
-        "evidence-7ca8bd3769bfa631"
-      ],
-      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7ca8bd3769bfa631",
-          "locator": "reported_amount:76780.0",
-          "title": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32GM161114_075",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:F32GM161114",
-        "label": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
-        "node_id": "award:usaspending:F32GM161114",
-        "node_type": "award"
-      },
-      "value": 76780.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "b409845db417f0f1"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-2db96519ffcf79f8",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-02-01",
-      "evidence_ids": [
-        "evidence-ff2c2b2b8e84a203"
-      ],
-      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:KG76WYENL5K1",
-        "label": "NORTHWESTERN UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:KG76WYENL5K1",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ff2c2b2b8e84a203",
-          "locator": "reported_recipient:recipient_or_contractor:uei:KG76WYENL5K1",
-          "title": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_F32GM161114_075",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:F32GM161114",
-        "label": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
-        "node_id": "award:usaspending:F32GM161114",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "5cb04b822bbbd40f"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-e83e96a6629e1e3c",
       "confidence": "high",
@@ -110726,6 +112576,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "683922e33421cfb2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-28cd752a0e19bd4d",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-02-01",
+      "evidence_ids": [
+        "evidence-c4cb6f74673395cb"
+      ],
+      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c4cb6f74673395cb",
+          "locator": "opportunity_status:awarded",
+          "title": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_F32GM161114_075",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:F32GM161114",
+        "label": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
+        "node_id": "award:usaspending:F32GM161114",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "40a33674216dc25d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-9b7d3c0f749bce98",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-02-01",
+      "evidence_ids": [
+        "evidence-9ba06e81fc8fc186"
+      ],
+      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9ba06e81fc8fc186",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_F32GM161114_075",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:F32GM161114",
+        "label": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
+        "node_id": "award:usaspending:F32GM161114",
+        "node_type": "award"
+      },
+      "value": "Department of Health and Human Services",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "43bd649c967d9f1b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-56432f746b005d31",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-02-01",
+      "evidence_ids": [
+        "evidence-7ca8bd3769bfa631"
+      ],
+      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7ca8bd3769bfa631",
+          "locator": "reported_amount:76780.0",
+          "title": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_F32GM161114_075",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:F32GM161114",
+        "label": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
+        "node_id": "award:usaspending:F32GM161114",
+        "node_type": "award"
+      },
+      "value": 76780.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "b409845db417f0f1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-2db96519ffcf79f8",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-02-01",
+      "evidence_ids": [
+        "evidence-ff2c2b2b8e84a203"
+      ],
+      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:KG76WYENL5K1",
+        "label": "NORTHWESTERN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:KG76WYENL5K1",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ff2c2b2b8e84a203",
+          "locator": "reported_recipient:recipient_or_contractor:uei:KG76WYENL5K1",
+          "title": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_F32GM161114_075",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:F32GM161114",
+        "label": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
+        "node_id": "award:usaspending:F32GM161114",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5cb04b822bbbd40f"
     },
     {
       "authority": "authoritative",
@@ -128381,9 +130416,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -128426,9 +130461,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -128471,9 +130506,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -128516,14 +130551,14 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:LMLUKUPJJ9N3",
         "label": "UNIVERSITY OF TEXAS AT ARLINGTON",
         "node_id": "recipient_or_contractor:uei:LMLUKUPJJ9N3",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -128566,9 +130601,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -128611,9 +130646,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -128656,9 +130691,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -128701,14 +130736,14 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:J4TDZHLCUGW3",
         "label": "METGREEN SOLUTIONS INC",
         "node_id": "recipient_or_contractor:uei:J4TDZHLCUGW3",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -143852,14 +145887,14 @@
       "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
       "history": [],
       "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:WKMCZLH1KJM4",
         "label": "GUIDEHOUSE DIGITAL LLC",
         "node_id": "recipient_or_contractor:uei:WKMCZLH1KJM4",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -143902,14 +145937,14 @@
       "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
       "history": [],
       "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:C4HKEB7DRCR8",
         "label": "IZUM INC",
         "node_id": "recipient_or_contractor:uei:C4HKEB7DRCR8",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -143952,14 +145987,14 @@
       "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
       "history": [],
       "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:MSBDRH33EBK6",
         "label": "PROMETHEUS COMPUTING, LLC",
         "node_id": "recipient_or_contractor:uei:MSBDRH33EBK6",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -144002,14 +146037,14 @@
       "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
       "history": [],
       "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:TENRPZGMAGJ6",
         "label": "W S DARLEY & CO",
         "node_id": "recipient_or_contractor:uei:TENRPZGMAGJ6",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -144052,14 +146087,14 @@
       "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
       "history": [],
       "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:T2RXVVH2H735",
         "label": "QUALTECH SYSTEMS, INC.",
         "node_id": "recipient_or_contractor:uei:T2RXVVH2H735",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -144102,14 +146137,14 @@
       "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
       "history": [],
       "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:QQHRWD12J958",
         "label": "PIXAMETTIC SOLUTIONS LLC",
         "node_id": "recipient_or_contractor:uei:QQHRWD12J958",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -162417,9 +164452,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -162462,9 +164497,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -162507,9 +164542,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -162552,9 +164587,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -162597,9 +164632,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -162642,9 +164677,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -162687,9 +164722,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -162732,9 +164767,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -162777,9 +164812,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -162822,9 +164857,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -162867,9 +164902,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -162912,9 +164947,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -162957,9 +164992,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -163002,9 +165037,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -163047,9 +165082,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -163092,9 +165127,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -163137,9 +165172,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -163182,9 +165217,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -236737,7 +238772,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -236784,7 +238819,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -236831,7 +238866,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -236878,7 +238913,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -236925,7 +238960,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -236972,7 +239007,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237019,7 +239054,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237066,7 +239101,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237113,7 +239148,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237160,7 +239195,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237207,7 +239242,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237254,7 +239289,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237301,7 +239336,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237348,7 +239383,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237395,7 +239430,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237442,7 +239477,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237489,7 +239524,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237536,7 +239571,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237588,7 +239623,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237640,7 +239675,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237692,7 +239727,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237744,7 +239779,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237796,7 +239831,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237848,7 +239883,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237900,7 +239935,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -237952,7 +239987,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -238004,7 +240039,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-27T08:50:22.626232+00:00",
+      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -238230,6 +240265,16 @@
       "locator": "opportunity_status:awarded",
       "title": "SENSOR,COMPRESSION",
       "url": "https://sam.gov/workspace/contract/opp/a005d8de018549c992363c8e48b668c5/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-00b9d2a803904fb7",
+      "locator": "awarding_agency:department of homeland security",
+      "title": "CYBERSECURITY SUPPORT SERVICES",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008",
       "verification_status": "source_reported"
     },
     {
@@ -239136,6 +241181,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-05d51378517b4491",
+      "locator": "reported_recipient:recipient_or_contractor:uei:JSDBBMD7H323",
+      "title": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_6913G626F50023N_6901_75N98119D00077_7529",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-05d6675978841f04",
       "locator": "opportunity_status:awarded",
       "title": "START SERVES AS NIH'S CENTRALIZED ENTERPRISE PLATFORM FOR STRATEGIC PLAN TRACKING, PERFORMANCE MONITORING, PORTFOLIO ANALYSIS, AND REPORTING ACROSS ALL NIH INSTITUTES, CENTERS, AN...",
@@ -239360,6 +241415,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:U3NKNFLNQ613",
       "title": "CATEGORY II: TANGLELAB: A NATIONAL HYBRID COMPUTING PLATFORM TO UNLOCK QUANTUM INFORMATION SCIENCE AND ENGINEERING RESEARCH AND EDUCATION -TANGLELAB IS THE PITTSBURGH SUPERCOMPUTI...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2537076_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-068ff80fc5d49c49",
+      "locator": "opportunity_status:awarded",
+      "title": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -242946,6 +245011,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-19b1c0b1704ec417",
+      "locator": "reported_recipient:recipient_or_contractor:uei:H8UVK64KWLQ3",
+      "title": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_47QTCX26F0010_4732_47QTCA24D00CA_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-19cae9805ba2dc02",
       "locator": "reported_amount:187340.9",
       "title": "GW OT CYBERSECURITY MONITORING SYSTEM",
@@ -243330,6 +245405,16 @@
       "locator": "cage_code:4b478",
       "title": "DUKE UNIVERSITY",
       "url": "https://sam.gov/entity/TP7EK8DZV6N5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-1c1cc65dc67f6c9e",
+      "locator": "reported_recipient:recipient_or_contractor:uei:NQL3JEME2443",
+      "title": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00003_7529_75N91023A00008_7529",
       "verification_status": "source_reported"
     },
     {
@@ -244026,6 +246111,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-1fecbde1179df1a2",
+      "locator": "reported_recipient:recipient_or_contractor:uei:DGKHQAGH9CF5",
+      "title": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00159N_6925_693JJ323D000034_6925",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-1ff3b31ca7dc410f",
       "locator": "uei:nx9pxmkw5kw8",
       "title": "NEW YORK UNIVERSITY",
@@ -244450,6 +246545,16 @@
       "locator": "deadline:08/02/2026",
       "title": "FY26 American Spaces Vietnam Programming",
       "url": "https://www.grants.gov/search-results-detail/363080",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-225ba1193783bcc8",
+      "locator": "reported_amount:224961.0",
+      "title": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -245240,6 +247345,16 @@
       "locator": "awarding_agency:sba",
       "title": "MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026",
       "url": "https://www.grants.gov/search-results-detail/363586",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-26a240299920d341",
+      "locator": "reported_amount:936632.48",
+      "title": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000060_7001_47QRCA24DV361_4732",
       "verification_status": "source_reported"
     },
     {
@@ -248145,6 +250260,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-35d0a41927fb37cb",
+      "locator": "awarding_agency:department of homeland security",
+      "title": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000060_7001_47QRCA24DV361_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "9180002e339eafffa4e09a2e241b8953bcace872c1c845ee2cf1fa6b540a4fcb",
       "controlling_status": "not_established",
       "evidence_id": "evidence-35dba156db4957b7",
@@ -249382,6 +251507,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2468de76de314837a6fcecd482c670f6/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-3c5bbb973df8ecb4",
+      "locator": "reported_amount:1819257.2",
+      "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -250991,6 +253126,16 @@
       "locator": "reported_amount:280059.0",
       "title": "EAGER: TERAHERTZ NEAR-FIELD STUDIES OF QUANTUM SENSING -THIS PROJECT WILL INVESTIGATE QUANTUM PHENOMENA USING INNOVATIVE TECHNIQUES TO PROBE LOW-FREQUENCY EXCITATIONS IN THE TERAH...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2625530_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-46548c9d2dadf974",
+      "locator": "opportunity_status:awarded",
+      "title": "CYBERSECURITY SUPPORT SERVICES",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008",
       "verification_status": "source_reported"
     },
     {
@@ -255007,6 +257152,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-5a12058a44b459f5",
+      "locator": "opportunity_status:awarded",
+      "title": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-5a13f3c6cfa9ecb8",
       "locator": "reported_amount:10000000.0",
       "title": "RESEARCH AND EDUCATION IN TRUSTED AI AUTONOMOUS SYSTEMS FOR NATIONAL DEFENSE",
@@ -255561,6 +257716,16 @@
       "locator": "opportunity_status:awarded",
       "title": "CODE INVARIANTS IN CLASSICAL AND QUANTUM ERROR CORRECTION -ERROR-CORRECTING CODES ARE MATHEMATICAL STRUCTURES THAT KEEP COMMUNICATION, DATA STORAGE, AND COMPUTATION RELIABLE WHEN...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2554002_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-5ce3d6d0bfd3bdc0",
+      "locator": "reported_amount:299877.0",
+      "title": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00159N_6925_693JJ323D000034_6925",
       "verification_status": "source_reported"
     },
     {
@@ -257937,6 +260102,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-6abfdb4119a0b8fd",
+      "locator": "awarding_agency:department of agriculture",
+      "title": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-6ad4f172e55fcfa1",
       "locator": "qualification_gate",
       "title": "Remote Evapotranspiration Sensor Package",
@@ -258502,6 +260677,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/81a3cfc9eb0c446b8e725e3a2b1a937e/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-6d6d5fd45413a68f",
+      "locator": "reported_recipient:recipient_or_contractor:uei:CKV2L9GZKJK3",
+      "title": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -259531,6 +261716,16 @@
       "locator": "awarding_agency:department of veterans affairs",
       "title": "GENISIS HIGH-PERFORMANCE COMPUTING (HPC) HARDWARE TECHNICAL REFRESH",
       "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0337_3600_NNG15SD30B_8000",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-73068f9ea1c94af8",
+      "locator": "opportunity_status:awarded",
+      "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100",
       "verification_status": "source_reported"
     },
     {
@@ -263307,6 +265502,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-871bf4f9cba400c7",
+      "locator": "awarding_agency:department of transportation",
+      "title": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00159N_6925_693JJ323D000034_6925",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-8741c8962c8accd0",
       "locator": "reported_recipient:recipient_or_contractor:name:redacted due to pii",
       "title": "POSTDOCTORAL FELLOWSHIP: MSPRF: TRAVELING WATER WAVES AND STELLAR COLLAPSE: NONLINEAR ANALYSIS OF FREE BOUNDARY PROBLEMS IN FLUID MECHANICS -THIS AWARD IS MADE AS PART OF THE FY 2...",
@@ -264677,6 +266882,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-8ea1f22957e98660",
+      "locator": "opportunity_status:awarded",
+      "title": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3163_7009_70US0926D70092069_7009",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-8eabcc270cd4f621",
       "locator": "reported_amount:79797.0",
       "title": "PURPOSE: THE PURPOSE OF THIS GRANT IS TO DEVELOP AND VALIDATE CRYOGENIC CMOS CIRCUITS AND INTERCONNECT SYSTEMS THAT ENABLE SCALABLE QUANTUM COMPUTING AND SENSING APPLICATIONS. THE...",
@@ -265071,6 +267286,16 @@
       "locator": "qualification_gate",
       "title": "Pathways to Enable Secure Open-Source Ecosystems",
       "url": "https://www.grants.gov/search-results-detail/361333",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-918e3b9ae05bc72b",
+      "locator": "awarding_agency:general services administration",
+      "title": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_47QTCX26F0010_4732_47QTCA24D00CA_4732",
       "verification_status": "source_reported"
     },
     {
@@ -267247,6 +269472,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-9d1816712fabc251",
+      "locator": "reported_recipient:recipient_or_contractor:uei:CG78ATJ18YX5",
+      "title": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-9d1b0305c46c0e36",
       "locator": "awarding_agency:national science foundation",
       "title": "COLLABORATIVE RESEARCH: CER: EDUCATING THE NEXT GENERATION FOR COPYRIGHT AND PRIVACY RISKS IN LLMS -ARTIFICIAL INTELLIGENCE (AI) TOOLS THAT GENERATE TEXT AND IMAGES, KNOWN AS LARG...",
@@ -267531,6 +269766,16 @@
       "locator": "reported_amount:1799042.0",
       "title": "PROJECT ARES ADVANCED RECONFIGURABLE EVOLVING SWARM",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0487_9700_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-9eb8e1294e003f0a",
+      "locator": "reported_amount:393222.0",
+      "title": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -269017,6 +271262,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-a6583a3981a1b533",
+      "locator": "reported_recipient:recipient_or_contractor:uei:X42HKHSX66U1",
+      "title": "CYBERSECURITY SUPPORT SERVICES",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-a659846975a6ab6c",
       "locator": "qualification_gate",
       "title": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
@@ -269071,6 +271326,16 @@
       "locator": "reported_recipient:recipient_or_contractor:name:thundercat technology",
       "title": "GW OT CYBERSECURITY MONITORING SYSTEM",
       "url": "https://www.usaspending.gov/award/CONT_AWD_15F06726F0000844_1549_NNG15SC92B_8000/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-a6940cacb36eb29a",
+      "locator": "awarding_agency:department of education",
+      "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100",
       "verification_status": "source_reported"
     },
     {
@@ -270065,6 +272330,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ab47bab776143014",
+      "locator": "awarding_agency:department of transportation",
+      "title": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_6913G626F50023N_6901_75N98119D00077_7529",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "f7a7073fbde43145c93d5292792303aeb661e0bc088608e87ff12bfdefce49a6",
       "controlling_status": "not_established",
       "evidence_id": "evidence-ab4fbd11c804b148",
@@ -270717,6 +272992,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-aeb6a67c35017a76",
+      "locator": "awarding_agency:department of health and human services",
+      "title": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-aec44582cc76fc77",
       "locator": "cage_code:2d354",
       "title": "THE UNIVERSITY OF IOWA",
@@ -270901,6 +273186,16 @@
       "locator": "awarding_agency:dept of defense.defense logistics agency.dla land.dla land columbus.dla land and maritime",
       "title": "29--SENSOR,MASS AIR FLO",
       "url": "https://sam.gov/workspace/contract/opp/d2951a1479ad43218ffe25dba6b9185e/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-afba5bf88d371151",
+      "locator": "opportunity_status:awarded",
+      "title": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -272937,6 +275232,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-bb0437c72c9fb27b",
+      "locator": "reported_recipient:recipient_or_contractor:uei:K6BVRM8LQ4Q8",
+      "title": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000060_7001_47QRCA24DV361_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-bb077c0fa759a863",
       "locator": "opportunity_status:awarded",
       "title": "SANS CYBERSECURITY CLASSES",
@@ -273351,6 +275656,16 @@
       "locator": "awarding_agency:hhs-nih11",
       "title": "Advancing Bioinformatics, Translational Bioinformatics and Computational Biology Research (R01 Clinical Trial Optional)",
       "url": "https://www.grants.gov/search-results-detail/359003",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-bc7e9a69a72adf16",
+      "locator": "reported_amount:2998805.69",
+      "title": "CYBERSECURITY SUPPORT SERVICES",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008",
       "verification_status": "source_reported"
     },
     {
@@ -274667,10 +276982,30 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-c3c43d6b7c5f3492",
+      "locator": "opportunity_status:awarded",
+      "title": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_6913G626F50023N_6901_75N98119D00077_7529",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-c3d64c23c72bdf7a",
       "locator": "deadline:08/13/2026",
       "title": "EARLY STAGE INNOVATIONS (ESI26)",
       "url": "https://www.grants.gov/search-results-detail/363066",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-c3e31a48854b84b1",
+      "locator": "awarding_agency:department of health and human services",
+      "title": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00003_7529_75N91023A00008_7529",
       "verification_status": "source_reported"
     },
     {
@@ -275627,6 +277962,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-c8f8dde51a9498d6",
+      "locator": "reported_amount:194300.0",
+      "title": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_47QTCX26F0010_4732_47QTCA24D00CA_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-c90b9873f5dfdaf8",
       "locator": "reported_amount:812300.0",
       "title": "PURPOSE: VMEC WILL CONTINUE TO STRENGTHEN THE COMPETITIVENESS, PRODUCTIVITY, RESILIENCE, AND TECHNOLOGICAL CAPABILITY OF VERMONT?S SMALL AND MEDIUM-SIZED MANUFACTURERS (SMMS) BY S...",
@@ -275737,6 +278082,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-c9ee065a7ca9ea57",
+      "locator": "opportunity_status:awarded",
+      "title": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000060_7001_47QRCA24DV361_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-c9f44ab8c5f20e22",
       "locator": "reported_amount:2014312.08",
       "title": "CYBERSECURITY TALENT MANAGEMENT SYSTEM (CTMS) ASSESSMENT PROGRAM",
@@ -275782,6 +278137,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2631d60d4ee4441498a474990d5afcfa/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ca3bec61fc2e0748",
+      "locator": "reported_recipient:recipient_or_contractor:uei:KNJHHF1GWLF3",
+      "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -276407,6 +278772,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-cce4142a90c46a75",
+      "locator": "reported_amount:501022.48",
+      "title": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_6913G626F50023N_6901_75N98119D00077_7529",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-cce5c8a96b9c00c1",
       "locator": "opportunity_status:open",
       "title": "MPS Physics Research Programs (MPS Physics)",
@@ -276901,6 +279276,16 @@
       "locator": "deadline:10/19/2026",
       "title": "Model-to-Clinic (M2C) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (UG3/UH3, Clinical Trial Optional)",
       "url": "https://www.grants.gov/search-results-detail/359666",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-cf076a17a40c0af9",
+      "locator": "opportunity_status:awarded",
+      "title": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00003_7529_75N91023A00008_7529",
       "verification_status": "source_reported"
     },
     {
@@ -278717,6 +281102,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d84c926f358440e2",
+      "locator": "opportunity_status:awarded",
+      "title": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_47QTCX26F0010_4732_47QTCA24D00CA_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-d85ae98b8124d522",
       "locator": "awarding_agency:environmental protection agency",
       "title": "NAREL ARADDS (ANALYTICAL RADIATION DATA SYSTEM) SOLARWINDS IT CYBERSECURITY AND MANAGEMENT SOFTWARE ANNUAL LICENSE RENEWAL",
@@ -278871,6 +281266,16 @@
       "locator": "reported_amount:1141256.0",
       "title": "SUPPORT TO THE SEMANTIC LAYER",
       "url": "https://www.usaspending.gov/award/CONT_AWD_50310226F0133_5000_50310223A0006_5000",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d8d74ffad62c2e71",
+      "locator": "opportunity_status:awarded",
+      "title": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00159N_6925_693JJ323D000034_6925",
       "verification_status": "source_reported"
     },
     {
@@ -280667,6 +283072,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e21bb21a9d634bd5",
+      "locator": "reported_amount:363242.62",
+      "title": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3163_7009_70US0926D70092069_7009",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-e21f9c307fc02a99",
       "locator": "reported_amount:49000.0",
       "title": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
@@ -281335,6 +283750,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e50e9b63d74bae8c",
+      "locator": "awarding_agency:national aeronautics and space administration",
+      "title": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "c941f8588cd9718ae06bd859032d84d9eb9c409dcf21a6ba95035d883a8c52eb",
       "controlling_status": "not_established",
       "evidence_id": "evidence-e511955624f0d3d4",
@@ -281927,6 +284352,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e85f5acb8a2205ad",
+      "locator": "awarding_agency:department of homeland security",
+      "title": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3163_7009_70US0926D70092069_7009",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-e86c997996538dcb",
       "locator": "awarding_agency:national science foundation",
       "title": "CAREER: SECURING AND OPTIMIZING QUANTUM-RESILIENT CRYPTOGRAPHY FOR VERSATILE COMPUTING ARCHITECTURES -THE RAPIDLY ADVANCING QUANTUM COMPUTERS CHALLENGE THE CRYPTOGRAPHIC SYSTEMS T...",
@@ -282201,6 +284636,16 @@
       "locator": "opportunity_status:open",
       "title": "30--FILL PUMP AC OIL,AI",
       "url": "https://sam.gov/workspace/contract/opp/e8ad08e63efd482288d9b38a93b295bb/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ea020085dfdfe4e9",
+      "locator": "reported_amount:3029648.38",
+      "title": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00003_7529_75N91023A00008_7529",
       "verification_status": "source_reported"
     },
     {
@@ -284187,6 +286632,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-f35651a9d97b11bb",
+      "locator": "reported_recipient:recipient_or_contractor:uei:HDXFHZTWJBU7",
+      "title": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-f3647253455b2ee0",
       "locator": "reported_recipient:recipient_or_contractor:uei:E41LV9AJGHQ1",
       "title": "HIGH PERFORMANCE COMPUTING DATADIRECT NETWORKS (DDN) HARDWARE AND SOFTWARE SUPPORT RENEWAL",
@@ -285051,6 +287506,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:Q266L2NDAVP1",
       "title": "COLLABORATIVE RESEARCH: SATC 2.0: RES: POST-QUANTUM CRYPTOGRAPHIC PROTOCOLS WITH ADVANCED FUNCTIONALITIES -THIS PROJECT AIMS TO DEVELOP THE CRYPTOGRAPHIC FOUNDATIONS FOR SECURE CO...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2528909_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-f7bfc553183989ad",
+      "locator": "reported_amount:1999705.7",
+      "title": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732",
       "verification_status": "source_reported"
     },
     {
@@ -286417,6 +288882,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ff169834485dba9e",
+      "locator": "reported_recipient:recipient_or_contractor:uei:JV4XG6EEQMP7",
+      "title": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3163_7009_70US0926D70092069_7009",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-ff2c2b2b8e84a203",
       "locator": "reported_recipient:recipient_or_contractor:uei:KG76WYENL5K1",
       "title": "HYPERPOLARIZATION OF BIOLOGICAL WATER USING NANODIAMONDS BY RESONANCE MATCHING - PROJECT SUMMARY BIOLOGICAL WATER CONTAINS A HUGE AMOUNT OF INFORMATION ON CELLULAR HEALTH AND FUNC...",
@@ -286587,16 +289062,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4747,
-    "authoritative_claims": 4545,
+    "active_claims": 4791,
+    "authoritative_claims": 4589,
     "conflicted_claims": 38,
     "derived_claims": 198,
-    "evidence_items": 4855,
-    "source_urls": 1316,
-    "subjects": 967,
+    "evidence_items": 4899,
+    "source_urls": 1327,
+    "subjects": 978,
     "superseded_claims": 0,
-    "total_claims": 4774
+    "total_claims": 4818
   },
-  "updated_at": "2026-09-27T08:50:22.626232+00:00",
+  "updated_at": "2026-09-28T02:58:03.521796+00:00",
   "version": 1
 }
