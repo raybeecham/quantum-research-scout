@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { authenticate, startLogin, finishLogin } from "./auth";
-import { assist, generate, selectedProvider } from "./providers";
+import { assist, generate, comparePapers, selectedProvider } from "./providers";
+import { comparisonSchema } from "./comparison";
 import { searchPapers } from "./papers";
 import { questionSchema, readingSchema, providerSchema, searchSchema } from "./validation";
 import { AppEnv, LabError, boundedText, day, fail, hash, httpsOrigin, limits } from "./support";
@@ -63,6 +64,7 @@ async function route(request: Request, env: AppEnv): Promise<Response> {
   if (request.method === "GET" && path === "/api/lab/config")
     return Response.json({
       hosted: true,
+      features: { related_work: true, paper_comparison: true, comparison_evidence_version: 3 },
       user: user.login,
       providers: { gemini: Boolean(env.GEMINI_API_KEY), groq: Boolean(env.GROQ_API_KEY) },
       usage: await budget.usage(user.id),
@@ -74,12 +76,13 @@ async function route(request: Request, env: AppEnv): Promise<Response> {
     await record.revoke();
     return Response.json({ signed_out: true });
   }
-  if (!["/api/lab/generate", "/api/lab/read", "/api/lab/papers"].includes(path))
+  if (!["/api/lab/generate", "/api/lab/read", "/api/lab/papers", "/api/lab/compare"].includes(path))
     fail(404, "not_found", "Not found.");
   // Stream cap applies even to absent or forged Content-Length headers.
   const raw: unknown = JSON.parse(await boundedText(request, 24000));
   const search = path.endsWith("/papers"),
-    read = path.endsWith("/read");
+    read = path.endsWith("/read"),
+    comparison = path.endsWith("/compare");
   if (search) {
     const data = searchSchema.parse(raw);
     const reservation = await budget.reserve(user.id, "search", 0);
@@ -93,15 +96,23 @@ async function route(request: Request, env: AppEnv): Promise<Response> {
   const consent = providerSchema.parse(raw);
   if (read && consent.reading_consent !== true)
     fail(400, "consent", "Explicit consent is required for reading assistance.");
-  const input = read ? readingSchema.parse(raw) : questionSchema.parse(raw);
+  if (comparison && consent.comparison_consent !== true)
+    fail(400, "consent", "Explicit consent is required for paper comparison.");
+  const input = comparison
+    ? comparisonSchema.parse(raw)
+    : read
+      ? readingSchema.parse(raw)
+      : questionSchema.parse(raw);
   selectedProvider(env, consent.provider); // Missing keys do not consume call slots.
-  const reservation = await budget.reserve(user.id, "ai", read ? 1 : 2);
+  const reservation = await budget.reserve(user.id, "ai", read || comparison ? 1 : 2);
   if (!reservation.ok) fail(429, "limit", reservation.error);
   try {
     // Only allowlisted source fields are sent, never arbitrary client data or private notes.
-    const result = read
-      ? await assist(env, consent.provider, readingSchema.parse(input))
-      : await generate(env, consent.provider, questionSchema.parse(input));
+    const result = comparison
+      ? await comparePapers(env, consent.provider, comparisonSchema.parse(input))
+      : read
+        ? await assist(env, consent.provider, readingSchema.parse(input))
+        : await generate(env, consent.provider, questionSchema.parse(input));
     return Response.json(result);
   } finally {
     await budget.finish(user.id, "ai", reservation.lease!);

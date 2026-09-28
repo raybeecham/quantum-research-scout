@@ -12,6 +12,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from pqc_quantum_research_agent.paper_comparison import clean_comparison, compare_papers
 from pqc_quantum_research_agent.paper_search import PaperSearch
 from pqc_quantum_research_agent.question_ai import clean_input, generate
 from pqc_quantum_research_agent.reading_ai import assist_reading, clean_reading
@@ -88,7 +89,18 @@ def handler(site, key, port, budget, backup_key=""):
             if not self.allowed():
                 return self.reply(403, {"error": "Local host only"})
             if self.path == "/api/lab/config":
-                return self.reply(200, {"token": token, "daily_limit": 20})
+                return self.reply(
+                    200,
+                    {
+                        "token": token,
+                        "daily_limit": 20,
+                        "features": {
+                            "related_work": True,
+                            "paper_comparison": True,
+                            "comparison_evidence_version": 3,
+                        },
+                    },
+                )
             path = (site / unquote(urlsplit(self.path).path).lstrip("/")).resolve()
             if not path.is_relative_to(site) or any(
                 p.startswith(".") for p in path.relative_to(site).parts
@@ -104,7 +116,8 @@ def handler(site, key, port, budget, backup_key=""):
         def do_POST(self):
             if (
                 not self.allowed()
-                or self.path not in {"/api/lab/generate", "/api/lab/papers", "/api/lab/read"}
+                or self.path
+                not in {"/api/lab/generate", "/api/lab/papers", "/api/lab/read", "/api/lab/compare"}
                 or self.headers.get("Origin") != origin
                 or not secrets.compare_digest(self.headers.get("X-Scout-Token", ""), token)
                 or self.headers.get("Content-Type") != "application/json"
@@ -123,7 +136,14 @@ def handler(site, key, port, budget, backup_key=""):
                         raise ValueError("Invalid search request")
                     return self.reply(200, papers.search(raw.get("query")))
                 reading = self.path == "/api/lab/read"
-                data = clean_reading(raw) if reading else clean_input(raw)
+                comparison = self.path == "/api/lab/compare"
+                data = (
+                    clean_comparison(raw)
+                    if comparison
+                    else clean_reading(raw)
+                    if reading
+                    else clean_input(raw)
+                )
                 provider = raw.get("provider", "gemini")
                 if provider not in {"gemini", "groq"}:
                     raise ValueError("Unsupported AI provider")
@@ -138,10 +158,12 @@ def handler(site, key, port, budget, backup_key=""):
                         },
                     )
                 budget.reserve(
-                    1 if reading else 2
+                    1 if reading or comparison else 2
                 )  # Reserve draft + critique before either call; no refunds/retries.
                 result = (
-                    assist_reading(data, selected_key, provider)
+                    compare_papers(data, selected_key, provider)
+                    if comparison
+                    else assist_reading(data, selected_key, provider)
                     if reading
                     else (
                         generate(data, selected_key)

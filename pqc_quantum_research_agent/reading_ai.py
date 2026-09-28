@@ -35,6 +35,15 @@ def assist_reading(data, key, provider):
         "required": ["answer"],
         "additionalProperties": False,
     }
+    value, model = request_json(data, key, provider, instructions, schema)
+    answer = value.get("answer") if isinstance(value, dict) else None
+    if not isinstance(answer, str) or not answer.strip() or len(answer) > 6000:
+        raise ValueError("Invalid reading response")
+    return {"answer": answer, "provider": provider, "model": model}
+
+
+def request_json(data, key, provider, instructions, schema, gemini_tokens=1500, groq_tokens=2500):
+    """One bounded provider call; caller validates its task-specific result."""
     if provider == "groq":
         model = GROQ_MODEL
         url = "https://api.groq.com/openai/v1/chat/completions"
@@ -46,7 +55,7 @@ def assist_reading(data, key, provider):
                 {"role": "user", "content": json.dumps(data)},
             ],
             "reasoning_effort": "low",
-            "max_completion_tokens": 2500,
+            "max_completion_tokens": groq_tokens,
             "response_format": {
                 "type": "json_schema",
                 "json_schema": {"name": "reading_help", "strict": True, "schema": schema},
@@ -60,7 +69,7 @@ def assist_reading(data, key, provider):
             "systemInstruction": {"parts": [{"text": instructions}]},
             "contents": [{"role": "user", "parts": [{"text": json.dumps(data)}]}],
             "generationConfig": {
-                "maxOutputTokens": 1500,
+                "maxOutputTokens": gemini_tokens,
                 "thinkingConfig": {"thinkingLevel": "low"},
                 "responseMimeType": "application/json",
                 "responseJsonSchema": schema,
@@ -94,8 +103,4 @@ def assist_reading(data, key, provider):
             for p in choices[0].get("content", {}).get("parts", [])
             if not p.get("thought")
         )
-    value = json.loads(text)
-    answer = value.get("answer") if isinstance(value, dict) else None
-    if not isinstance(answer, str) or not answer.strip() or len(answer) > 6000:
-        raise ValueError("Invalid reading response")
-    return {"answer": answer, "provider": provider, "model": model}
+    return json.loads(text), model

@@ -1192,6 +1192,21 @@
   font-size: var(--text-sm);
   font-weight: normal;
 }
+.lab-discovery-panel,
+.lab-prior-work {
+  border-inline-start: 3px solid var(--accent);
+  padding: var(--space-4);
+  margin-block: var(--space-4);
+  background: var(--surface);
+}
+#lab-discovery-results {
+  max-height: 36rem;
+  overflow-y: auto;
+  overflow-wrap: anywhere;
+}
+.lab-prior-work h4 {
+  margin-top: 0;
+}
 .freshness.reference {
   color: var(--violet);
   background: var(--tint-violet);

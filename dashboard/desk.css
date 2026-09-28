@@ -2139,6 +2139,219 @@ body:has(.profile-hero) > footer {
   border: 2px solid var(--accent);
   margin: 20px 0;
 }
+.ris-import {
+  margin: 1.25rem 0;
+  padding: 1.25rem;
+  border: 1px solid var(--accent);
+  background: var(--surface);
+  overflow-wrap: anywhere;
+}
+.ris-import > summary {
+  font-weight: 700;
+  cursor: pointer;
+}
+.ris-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+#ris-results {
+  max-height: 38rem;
+  overflow: auto;
+  padding: 0.25rem;
+}
+.ris-card {
+  padding: 1.25rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  background: var(--surface);
+  font-size: 1rem;
+}
+.ris-choice {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+.ris-choice input[type="checkbox"] {
+  width: 1.2rem;
+  height: 1.2rem;
+  flex: 0 0 auto;
+  margin-top: 0.2rem;
+}
+.ris-card p,
+.ris-provenance p {
+  margin: 0.65rem 0;
+}
+.ris-state {
+  font-weight: 700;
+}
+.ris-missing {
+  font-size: 0.9rem;
+}
+.ris-card details {
+  margin-top: 0.75rem;
+}
+.ris-provenance {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 3px solid var(--accent);
+  overflow-wrap: anywhere;
+}
+.paper-comparison {
+  margin: 1.25rem 0;
+  padding: 1.25rem;
+  border: 1px solid var(--accent);
+  background: var(--surface);
+  overflow-wrap: anywhere;
+}
+.paper-comparison > summary {
+  font-weight: 700;
+  cursor: pointer;
+}
+.paper-comparison fieldset {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--line);
+}
+.paper-comparison label:not(.comparison-choice) {
+  margin: 1rem 0;
+}
+.paper-comparison .lab-consent-row {
+  display: grid;
+  grid-template-columns: 1.25rem minmax(0, 1fr);
+  align-items: start;
+  gap: 0.75rem;
+}
+.paper-comparison .lab-consent-row input[type="checkbox"] {
+  width: 1.1rem;
+  height: 1.1rem;
+  padding: 0;
+  margin: 0.3rem 0 0;
+  accent-color: var(--accent);
+}
+.comparison-passage {
+  margin: 0.75rem 0;
+  padding-left: 0.8rem;
+  border-left: 2px solid var(--accent);
+  font-size: 1rem;
+  line-height: 1.65;
+  text-transform: none;
+}
+.comparison-review-notice {
+  border-left: 3px solid #ab6507;
+  background: #fff1d5;
+  padding: 0.85rem 1rem;
+  margin-block: 1rem;
+  color: #624211;
+}
+.comparison-field-state {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.comparison-sentence-id {
+  display: block;
+  font-family: monospace;
+  color: var(--accent);
+  margin-top: 0.75rem;
+}
+.comparison-sentences {
+  padding-left: 1.2rem;
+  font:
+    normal 1rem/1.65 system-ui,
+    sans-serif;
+  text-transform: none;
+  letter-spacing: normal;
+  max-height: 24rem;
+  overflow: auto;
+}
+.comparison-sentences p,
+.comparison-passage {
+  white-space: pre-wrap;
+}
+#comparison-groq-help {
+  margin-bottom: 1rem;
+}
+.paper-comparison select {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font: inherit;
+}
+#comparison-choices {
+  max-height: 22rem;
+  overflow: auto;
+}
+.comparison-choice {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--line);
+}
+.comparison-choice input[type="checkbox"] {
+  width: 1.2rem;
+  height: 1.2rem;
+  flex: 0 0 auto;
+  margin-top: 0.2rem;
+  accent-color: var(--accent);
+}
+.comparison-choice:has(input:checked) {
+  background: #e9f2ed;
+}
+.comparison-choice:has(input:disabled) {
+  color: var(--muted);
+}
+.paper-comparison a {
+  color: var(--accent);
+  text-underline-offset: 0.2em;
+}
+.comparison-scroll-hint {
+  font-size: 0.9rem;
+}
+.comparison-choice small {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+}
+#comparison-preview {
+  max-height: 22rem;
+  overflow: auto;
+}
+.comparison-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.comparison-table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+.comparison-table-wrap :is(th, td) {
+  min-width: 13rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  vertical-align: top;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.comparison-table-wrap th {
+  background: var(--surface-alt, var(--surface));
+}
+.comparison-table-wrap caption {
+  text-align: left;
+  padding: 1rem 0;
+  font-weight: 700;
+}
+.comparison-connection {
+  padding: 1rem;
+  margin: 0.75rem 0;
+  border-left: 3px solid var(--accent);
+}
 .import-file-label input {
   max-width: 100%;
 }

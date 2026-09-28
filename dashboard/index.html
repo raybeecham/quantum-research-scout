@@ -271,9 +271,10 @@
           </div>
           <p id="lab-usage" hidden></p>
           <p id="lab-hosted-note" hidden>
-            Invite-only hosted lab. Sign-in lasts up to one hour in this tab; refreshing requires sign-in again. Only
-            your explicitly submitted topic and excerpts leave this browser, not notebook notes. Usage limits are shared
-            across providers. Provider billing and data-use terms still apply.
+            Invited accounts only: a GitHub account alone does not grant access. The research page is public; AI and
+            paper search require operator approval. Sign-in lasts up to one hour in this tab; refreshing requires
+            sign-in again. Only your explicitly submitted topic and excerpts leave this browser, not notebook notes.
+            Usage limits are shared across providers. Provider billing and data-use terms still apply.
           </p>
           <details id="lab-connection-help">
             <summary>How to use the private lab</summary>
@@ -324,8 +325,27 @@
                 <option value="custom">My own topic</option>
               </select>
             </label>
+            <label>
+              How to start
+              <select id="lab-discovery-mode">
+                <option value="papers">Find papers first + check related work</option>
+                <option value="brainstorm">General brainstorming (no search required)</option>
+              </select>
+            </label>
+            <section id="lab-discovery-panel" class="lab-discovery-panel" aria-labelledby="lab-discovery-heading">
+              <h3 id="lab-discovery-heading">Start with the literature</h3>
+              <p>1. Find papers. 2. Choose up to four abstracts. 3. Generate questions and check potential overlap.</p>
+              <p>
+                Searching sends your research interest to Crossref and arXiv. No AI calls or private notes are used.
+                Only abstracts you select will be sent to the AI provider after consent.
+              </p>
+              <button id="lab-discover" type="button" class="desk-button" disabled>Find relevant papers</button>
+              <p id="lab-discovery-status" role="status"></p>
+              <p id="lab-discovery-count"></p>
+              <div id="lab-discovery-results" role="region" aria-label="Discovered papers" tabindex="0"></div>
+            </section>
             <details>
-              <summary>Optional: ground ideas in saved readings</summary>
+              <summary>Optional: also include saved readings</summary>
               <label>
                 Select up to four sources (Ctrl/Cmd-click for multiple)
                 <select id="lab-ai-sources" multiple size="4"></select>
@@ -468,6 +488,14 @@
               Search Crossref and arXiv, open papers to review, then attach the ones you choose. Your question is sent
               to these public indexes; private notes are not. No Gemini calls are used.
             </p>
+            <label for="lab-paper-seed">Search from your question or an attached paper</label>
+            <select id="lab-paper-seed">
+              <option value="">This research question</option>
+            </select>
+            <p>
+              For an attached paper, only its title is sent to the indexes—not your notes. Matches use titles and
+              abstracts; they are not a citation-network search or an AI review.
+            </p>
             <button id="lab-find-papers" class="desk-button primary" type="button">Find papers</button>
             <p id="lab-paper-status" role="status"></p>
             <div id="lab-paper-results"></div>
@@ -537,16 +565,46 @@
           <button type="button" id="export-saved" class="desk-button" disabled>Export notebook ↓</button>
           <button type="button" id="export-bibtex" class="desk-button" disabled>Export citations (.bib) ↓</button>
           <label class="import-file-label">
-            Import notebook
-            <input id="import-notebook" type="file" accept=".json,application/json" />
+            Import references or backup
+            <input
+              id="import-notebook"
+              type="file"
+              accept=".ris,.json,application/json,application/x-research-info-systems,text/plain"
+            />
           </label>
           <span id="saved-result-count" role="status"></span>
         </div>
         <p class="notebook-caveat">
           Citation exports use retrieved repository metadata where available; missing fields stay blank. Review source
-          versions before citing. Import accepts notebook JSON exports and preserves existing notes. No device sync.
+          versions before citing. Import detects RIS references or Scout JSON backups automatically. Existing notes are
+          preserved. No device sync.
         </p>
         <p id="notebook-import-status" role="status"></p>
+        <section class="ris-import" id="ris-import" hidden aria-label="RIS import preview">
+          <h2>RIS references detected</h2>
+          <p>
+            Bring selected references from ProQuest, TexShare, or a citation manager into your notebook. Preview first,
+            then choose what to save. The file stays in this browser; nothing is uploaded, published, or sent to AI.
+          </p>
+          <p>
+            Up to 500 records / 5 MB. Imported metadata is unverified. Existing readings and notes are never
+            overwritten.
+          </p>
+          <section id="ris-preview" hidden aria-labelledby="ris-heading">
+            <h2 id="ris-heading" tabindex="-1">Choose references to keep</h2>
+            <p id="ris-summary"></p>
+            <div class="ris-actions">
+              <button id="ris-all" class="desk-button" type="button">Select all new</button>
+              <button id="ris-none" class="desk-button" type="button">Clear selection</button>
+              <span id="ris-selected" role="status">0 selected</span>
+            </div>
+            <div id="ris-results" role="region" aria-label="RIS reference preview" tabindex="0"></div>
+            <div class="ris-actions">
+              <button id="ris-save" class="desk-button" type="button" disabled>Save selected references</button>
+              <button id="ris-cancel" class="desk-button" type="button">Cancel import</button>
+            </div>
+          </section>
+        </section>
         <section id="notebook-import-preview" class="import-preview" hidden aria-labelledby="import-heading">
           <h2 id="import-heading">Review notebook import</h2>
           <p id="import-summary"></p>
@@ -558,6 +616,42 @@
           <button id="import-confirm" class="desk-button" type="button">Merge new readings</button>
           <button id="import-cancel" class="desk-button" type="button">Cancel</button>
         </section>
+        <details id="paper-comparison" class="paper-comparison">
+          <summary>Compare saved papers</summary>
+          <p>
+            Select 2–4 readings with abstracts or source excerpts. AI selects numbered sentences for proposed
+            categories; original wording is inserted automatically. AI connections stay separate. This does not read
+            full papers or establish a research gap.
+          </p>
+          <fieldset id="comparison-controls">
+            <legend>Choose evidence for comparison</legend>
+            <div id="comparison-choices" role="group" aria-label="Saved papers for comparison"></div>
+            <p id="comparison-count" role="status">0 / 4 selected</p>
+            <label>
+              AI provider
+              <select id="comparison-provider">
+                <option value="gemini">Gemini</option>
+                <option value="groq">Groq backup</option>
+              </select>
+            </label>
+            <details>
+              <summary>Preview exactly what will be sent</summary>
+              <div id="comparison-preview"></div>
+            </details>
+            <label class="lab-consent-row">
+              <input type="checkbox" id="comparison-consent" />
+              <span>
+                Send only the selected titles, source links, and displayed excerpts (up to 2,500 characters each) to the
+                chosen AI provider. No private notes. Check the source’s terms before sharing licensed text. One shared
+                AI call slot; account billing terms apply.
+              </span>
+            </label>
+            <button class="desk-button" type="button" id="comparison-run" disabled>Compare selected papers</button>
+          </fieldset>
+          <p id="comparison-status" role="status" aria-live="polite"></p>
+          <button id="comparison-groq-help" class="desk-button" type="button" hidden>Choose Groq backup</button>
+          <div id="comparison-result"></div>
+        </details>
         <div class="notebook-workbench">
           <aside class="notebook-queue" aria-label="Reading queue">
             <label>
@@ -1297,9 +1391,13 @@
     <script src="math.js?v=__ASSET_VERSION__" defer></script>
     <script src="lab-service.js?v=__ASSET_VERSION__" defer></script>
     <script src="research.js?v=__ASSET_VERSION__" defer></script>
+    <script src="ris.js?v=__ASSET_VERSION__" defer></script>
+    <script src="question-discovery.js?v=__ASSET_VERSION__" defer></script>
     <script src="landscape.js?v=__ASSET_VERSION__" defer></script>
     <script src="federal-research.js?v=__ASSET_VERSION__" defer></script>
     <script src="desk.js?v=__ASSET_VERSION__" defer></script>
+    <script src="ris-import.js?v=__ASSET_VERSION__" defer></script>
+    <script src="paper-comparison.js?v=__ASSET_VERSION__" defer></script>
     <script src="questions.js?v=__ASSET_VERSION__" defer></script>
     <script src="app.js?v=__ASSET_VERSION__" defer></script>
   </body>

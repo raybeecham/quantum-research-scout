@@ -13,12 +13,17 @@ export const sourceSchema = z.object({
   }),
   excerpt: text(2500),
 });
-export const questionSchema = z.object({
-  interest: nonempty(500),
-  lens: text(40).default(""),
-  refinement: text(3000).default(""),
-  sources: z.array(sourceSchema).max(4).default([]),
-});
+export const questionSchema = z
+  .object({
+    interest: nonempty(500),
+    lens: text(40).default(""),
+    refinement: text(3000).default(""),
+    sources: z.array(sourceSchema).max(4).default([]),
+    related_work: z.boolean().default(false),
+  })
+  .refine(v => !v.related_work || v.sources.some(s => s.excerpt.trim()), {
+    message: "Select at least one paper with an abstract for a related-work check",
+  });
 export const readingSchema = z.object({
   title: text(1000),
   excerpt: nonempty(6000),
@@ -35,6 +40,7 @@ export const providerSchema = z
     consent: z.literal(true),
     backup_consent: z.boolean().optional(),
     reading_consent: z.boolean().optional(),
+    comparison_consent: z.boolean().optional(),
   })
   .refine(v => v.provider !== "groq" || v.backup_consent === true);
 export const searchSchema = z.object({ query: nonempty(2000) });

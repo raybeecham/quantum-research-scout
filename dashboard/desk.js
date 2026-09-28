@@ -77,6 +77,7 @@
           }))
       : [];
     clean.citation = research.cleanCitation(item.citation);
+    clean.imported_reference = window.ScoutRIS.cleanReference(item.imported_reference);
     clean.research_priority =
       item.research_priority && typeof item.research_priority.label === "string"
         ? {
@@ -90,9 +91,11 @@
     return clean;
   };
   let prefs;
+  let notebookRevision = null;
   let notebookStorageReadable = true;
   try {
-    prefs = JSON.parse(localStorage.getItem(storageKey) || "{}");
+    notebookRevision = localStorage.getItem(storageKey);
+    prefs = JSON.parse(notebookRevision || "{}");
   } catch {
     prefs = {};
     notebookStorageReadable = false;
@@ -168,6 +171,7 @@
     try {
       if (!notebookStorageReadable) throw Error("Notebook storage needs recovery");
       localStorage.setItem(storageKey, JSON.stringify(snapshot()));
+      notebookRevision = localStorage.getItem(storageKey);
       return true;
     } catch {
       $("storage-notice").hidden = false;
@@ -399,6 +403,11 @@
       : "";
     return `<details class="citation-details"><summary>Citation metadata · ${article ? "Article metadata" : "Paper metadata"} · source-backed</summary><dl>${shown.map(([label, value]) => `<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`).join("")}</dl><p><a href="${esc(link(c.canonical_url || c.metadata_url))}" target="_blank" rel="noopener noreferrer">${article ? "Article" : "Repository metadata"} source ↗</a> · Retrieved ${esc(day(c.retrieved_at))}${c.refresh_status === "failed" ? " · Latest refresh failed; showing last retrieved metadata" : ""}</p><p>${esc(c.provenance)} Verify the source before citing.</p>${papers}</details>`;
   }
+  function importedReferenceMarkup(item) {
+    const c = item.imported_reference;
+    if (!c) return "";
+    return `<section class="ris-provenance"><p class="desk-kicker">IMPORTED REFERENCE · UNVERIFIED</p><p>${item.summary ? "Abstract available" : "Citation only"} · ${esc(readingStatus(item))}. Importing or opening a paper does not mark it reviewed.</p><details><summary>RIS metadata & source links</summary><p>${esc(c.authors.join("; ") || "Authors not supplied")}</p><p>${esc(c.year || "Year unknown")} · ${esc(c.venue || "Venue unknown")}</p><p>DOI (export-reported): ${esc(c.doi || "Not supplied")} · Version and peer review: not verified.</p><p>Database: ${esc(c.database || "Not supplied")} · Record ID: ${esc(c.accession || "Not supplied")}</p><p>${esc(c.keywords.join(" · "))}</p><p>Imported ${esc(day(c.imported_at))}. Library links may require your own sign-in. Related identifiers may describe a different version or associated material; verify before citing.</p><ul>${c.links.map(url => `<li><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(url)} ↗</a></li>`).join("")}</ul></details></section>`;
+  }
   function card(item, index = 0, lead = false, savedCopy = false) {
     const related = Array.isArray(item.related)
       ? item.related.filter(x => x && typeof x === "object")
@@ -408,15 +417,15 @@
       savedCopy && !(ui.data.reading_brief?.stories || []).some(x => x.id === item.id);
     return `<article id="${savedCopy ? "saved-story" : "story"}-${esc(item.id)}" class="${lead ? "lead-story" : "reading-card"}${read.has(item.id) ? " is-read" : ""}" data-story="${esc(item.id)}">
       <div class="story-meta"><span class="story-category">${esc(item.category)}</span><span>${esc(item.authority)}</span><div class="story-personal-actions">${readButton(item)}${saveButton(item)}</div></div>
-      ${savedCopy ? `<p class="saved-snapshot-note">${archived ? "Saved snapshot · outside the current reading window" : "Saved excerpt · verify the current version at the source"}</p>` : ""}
+      ${savedCopy ? `<p class="saved-snapshot-note">${item.imported_reference ? "Private RIS import · not part of the public report feed" : archived ? "Saved snapshot · outside the current reading window" : "Saved excerpt · verify the current version at the source"}</p>` : ""}
       ${lead ? '<p class="lead-kicker">IN FOCUS</p>' : `<span class="story-number" aria-hidden="true">${String(index + 1).padStart(2, "0")}</span>`}
       <p class="source-type-label" title="${esc(item.source_kind_note || "Publication type and peer-review status have not been verified.")}">${esc(item.source_kind_label || "Other / unverified type")}</p>
       <${lead ? "h2" : "h3"}><a href="${esc(link(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)} <span class="story-arrow" aria-hidden="true">↗</span></a></${lead ? "h2" : "h3"}>
       <p class="story-summary">${esc(item.summary)}</p>
       ${item.research_priority ? `<p class="research-ranking"><strong>Research relevance:</strong> ${esc(item.research_priority.label)}${item.research_priority.matched_terms?.length ? ` · Matches: ${esc(item.research_priority.matched_terms.join(", "))}` : ""}. Not a quality rating.</p>` : ""}
       <div class="story-source"><span>${esc(item.source)}</span><span>${esc(item.date_label)} ${esc(day(item.date || item.report_date))}</span></div>
-      <details class="story-evidence"><summary>Appraise this source${related.length ? ` · ${related.length} related report${related.length === 1 ? "" : "s"}` : ""}</summary><div><span class="desk-kicker">SOURCE TYPE · NOT A QUALITY RATING</span><p>${esc(item.source_kind_note || "Publication type and peer-review status have not been verified.")}</p><span class="desk-kicker">CRITICAL READING PROMPT · NOT A FINDING</span><p>${esc(item.review_prompt)}</p>${points.length > 1 ? `<span class="desk-kicker">SOURCE EXCERPTS</span><ul>${points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>` : ""}${item.context ? `<span class="desk-kicker">TOPIC CONTEXT</span><p>${esc(item.context)}</p>` : ""}${related.length ? `<span class="desk-kicker">RELATED COVERAGE · NOT INDEPENDENT VERIFICATION</span><ul>${related.map(r => `<li><a href="${esc(link(r.url))}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a><small>${esc(r.source)}</small></li>`).join("")}</ul>` : ""}<p class="story-report-date">Included in the ${esc(day(item.report_date))} report.</p><a href="${esc(link(item.url))}" target="_blank" rel="noopener noreferrer">Read the original source ↗</a></div></details>
-      ${citationMarkup(item)}
+      <details class="story-evidence"><summary>Appraise this source${related.length ? ` · ${related.length} related report${related.length === 1 ? "" : "s"}` : ""}</summary><div><span class="desk-kicker">SOURCE TYPE · NOT A QUALITY RATING</span><p>${esc(item.source_kind_note || "Publication type and peer-review status have not been verified.")}</p><span class="desk-kicker">CRITICAL READING PROMPT · NOT A FINDING</span><p>${esc(item.review_prompt)}</p>${points.length > 1 ? `<span class="desk-kicker">SOURCE EXCERPTS</span><ul>${points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>` : ""}${item.context ? `<span class="desk-kicker">TOPIC CONTEXT</span><p>${esc(item.context)}</p>` : ""}${related.length ? `<span class="desk-kicker">RELATED COVERAGE · NOT INDEPENDENT VERIFICATION</span><ul>${related.map(r => `<li><a href="${esc(link(r.url))}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a><small>${esc(r.source)}</small></li>`).join("")}</ul>` : ""}${item.imported_reference ? '<p class="story-report-date">Imported reference · no report date assigned.</p>' : `<p class="story-report-date">Included in the ${esc(day(item.report_date))} report.</p>`}<a href="${esc(link(item.url))}" target="_blank" rel="noopener noreferrer">Read the original source ↗</a></div></details>
+      ${item.imported_reference ? importedReferenceMarkup(item) : citationMarkup(item)}
       ${savedCopy ? notebookForm(item) : '<p class="notebook-hint">Save this source to connect it to a question in your <a href="#saved">research notebook →</a></p>'}
     </article>`;
   }
@@ -559,6 +568,7 @@
     }
     try {
       localStorage.setItem(storageKey, JSON.stringify(state));
+      notebookRevision = localStorage.getItem(storageKey);
     } catch {
       $("storage-notice").hidden = false;
       return false;
@@ -591,6 +601,55 @@
     return true;
   }
   window.ScoutNotebook = {
+    readings: () => [...archive.values()].filter(item => saved.has(item.id)),
+    importRIS: records => {
+      if (!notebookStorageReadable)
+        throw Error("Notebook storage needs recovery; export a backup first");
+      if (localStorage.getItem(storageKey) !== notebookRevision)
+        throw Error("The notebook changed in another tab. Reload before importing");
+      const plan = window.ScoutRIS.plan(records, [...archive.values()]);
+      const additions = plan
+        .filter(p => p.available)
+        .map(p =>
+          normalizeSavedStory({
+            ...p.item,
+            id: crypto.randomUUID(),
+            imported_reference: {
+              ...p.item.imported_reference,
+              imported_at: new Date().toISOString(),
+            },
+          }),
+        );
+      if (saved.size + additions.length > 1000)
+        throw Error("The notebook supports at most 1,000 saved readings");
+      if (!additions.length) return { added: 0, skipped: records.length };
+      const state = snapshot();
+      for (const story of additions) {
+        state.saved.push(story.id);
+        state.stories.push(story);
+        state.notebook.push({ id: story.id, reading_status: "To review" });
+      }
+      const serialized = JSON.stringify(state);
+      if (new TextEncoder().encode(serialized).length > 4_000_000)
+        throw Error(
+          "Notebook storage limit reached. Export a backup and free space before importing",
+        );
+      // Commit once. A failed write leaves notes, selections and saved readings untouched.
+      localStorage.setItem(storageKey, serialized);
+      notebookRevision = serialized;
+      for (const story of additions) {
+        saved.add(story.id);
+        archive.set(story.id, story);
+        notebook.set(story.id, { reading_status: "To review" });
+      }
+      selectedPaper = additions[0].id;
+      $("saved-search").value = "";
+      $("notebook-filter").value = "All readings";
+      $("saved-count").textContent = saved.size;
+      renderSaved();
+      window.dispatchEvent(new CustomEvent("scout-notebook-imported"));
+      return { added: additions.length, skipped: records.length - additions.length };
+    },
     sync: syncQuestionPapers,
     status: url => {
       const item = [...archive.values()].find(s => identity(s.url) === identity(url));
@@ -681,7 +740,7 @@
         ($("notebook-filter").value === "All readings" ||
           readingStatus(x) === $("notebook-filter").value) &&
         terms.every(t =>
-          `${x.title} ${x.source} ${x.summary} ${x.category} ${Object.values(notebook.get(x.id) || {}).join(" ")}`
+          `${x.title} ${x.source} ${x.summary} ${x.category} ${x.imported_reference?.authors.join(" ") || ""} ${x.imported_reference?.keywords.join(" ") || ""} ${Object.values(notebook.get(x.id) || {}).join(" ")}`
             .toLowerCase()
             .includes(t),
         ),
@@ -707,6 +766,7 @@
     if (selected)
       $("reader-preview").textContent =
         `${selected.title}\n\n${selected.summary?.slice(0, 6000) || "No source excerpt available."}`;
+    window.dispatchEvent(new CustomEvent("scout-notebook-changed"));
   }
 
   function renderPulse() {
@@ -1026,6 +1086,7 @@
     pendingBackup = null;
     $("notebook-import-preview").hidden = true;
     $("import-notebook").value = "";
+    window.ScoutRISImport?.reset();
   }
   $("import-cancel").addEventListener("click", () => {
     clearImport();
@@ -1036,11 +1097,34 @@
     const sequence = ++importSequence;
     pendingBackup = null;
     $("notebook-import-preview").hidden = true;
+    window.ScoutRISImport.reset(false);
+    $("notebook-import-status").textContent = "";
     if (!file) return;
     try {
-      if (file.size > 5_000_000) throw new Error("Backup exceeds the 5 MB limit");
-      const backup = research.validateBackup(await file.text());
+      if (file.size > 5_000_000) throw new Error("Import exceeds the 5 MB limit");
+      let content;
+      try {
+        content = new TextDecoder("utf-8", { fatal: true }).decode(await file.arrayBuffer());
+      } catch {
+        throw Error("Unsupported encoding. Export the file as UTF-8 text");
+      }
       if (sequence !== importSequence) return;
+      if (/^\s*TY {2}-/.test(content)) {
+        window.ScoutRISImport.preview(content);
+        return;
+      }
+      if (!/^\s*\{/.test(content))
+        throw Error("Choose a RIS reference export or a Scout JSON notebook backup");
+      let backup;
+      try {
+        backup = research.validateBackup(content);
+      } catch (error) {
+        throw Error(
+          error instanceof SyntaxError
+            ? "This JSON backup is incomplete or malformed"
+            : error.message,
+        );
+      }
       const plan = research.planImport(backup, [...archive.values()]);
       pendingBackup = backup;
       $("import-summary").textContent =
@@ -1053,7 +1137,8 @@
         }),
       );
       $("import-confirm").disabled = !plan.additions.length;
-      $("notebook-import-status").textContent = "Preview only — nothing has been imported.";
+      $("notebook-import-status").textContent =
+        "Scout JSON backup detected. Review the preview, then Merge new readings. Nothing has been imported.";
       $("notebook-import-preview").hidden = false;
       $("import-heading").tabIndex = -1;
       $("import-heading").focus();
@@ -1104,6 +1189,7 @@
       }
       // A single atomic storage write must succeed before in-memory state changes.
       localStorage.setItem(storageKey, JSON.stringify(state));
+      notebookRevision = localStorage.getItem(storageKey);
       for (const row of added) {
         saved.add(row.story.id);
         archive.set(row.story.id, row.story);

@@ -5,6 +5,7 @@ import worker from "../src/index";
 import { day, hash, randomToken, boundedText, upstream, AppEnv } from "../src/support";
 import { questionSchema, modelSchema, revisedSchema } from "../src/validation";
 import { parseArxiv, parseCrossref } from "../src/papers";
+import { rankPapers, searchPlan } from "../src/paper-relevance";
 
 const origin = "https://raybeecham.github.io",
   backend = "https://lab.example.com";
@@ -91,10 +92,56 @@ describe("upstream runtime compatibility", () => {
       expect(outbound.redirect).toBe("manual");
       return new Response(null, { status: 302, headers: { Location: "https://example.com" } });
     });
-    await expect(upstream("https://github.com/login/oauth/access_token", {
-      method: "POST", body: "fixture",
-    })).rejects.toMatchObject({ code: "upstream", message: expect.stringContaining("HTTP 302") });
+    await expect(
+      upstream("https://github.com/login/oauth/access_token", {
+        method: "POST",
+        body: "fixture",
+      }),
+    ).rejects.toMatchObject({ code: "upstream", message: expect.stringContaining("HTTP 302") });
     expect(fetch).toHaveBeenCalledTimes(1);
+  });
+});
+
+describe("paper relevance", () => {
+  it("puts CBOM evidence first, groups methods, and drops unrelated generic matches", () => {
+    const plan = searchPlan(
+      "How can open-source static analysis tools quantify the completeness of cryptographic component inventories when transitioning from legacy to PQC libraries?",
+    );
+    const titles = [
+      "Architecture-Derived CBOMs for Cryptographic Migration",
+      "Comparative Analysis of Open-Source Tools for Conducting Static Code Analysis",
+      "Creating database-backed library Web pages: using open source tools",
+      "Principal Component Analysis Using Structural Similarity Index for Images",
+      "SPM 25: open source neuroimaging analysis software",
+      "OpenPodcar: an Open Source Vehicle for Self-Driving Car Research",
+    ];
+    const records = titles.map((title, i) => ({
+      title,
+      url: `https://arxiv.org/abs/2601.0000${i}`,
+      doi: "",
+      abstract: "",
+      authors: [],
+      date: "",
+      venue: "",
+      index: "arXiv",
+      type: "Preprint",
+      match_note: "",
+    }));
+    records.push({
+      ...records[0],
+      url: "https://doi.org/10.1234/another",
+      abstract: "Cryptographic bills of materials provide architectural context.",
+    });
+    const papers = rankPapers(records, plan);
+    expect(papers.map(p => p.title)).toEqual(titles.slice(0, 2));
+    expect(papers.map(p => p.relevance_group)).toEqual(["direct", "background"]);
+    expect(papers[0].match_note).toContain("title");
+    expect(plan.phrases).toContain("cryptographic inventory");
+    expect(plan.arxiv).not.toContain("all:open");
+    expect(searchPlan("Architecture-derived CBOMs for cryptographic migration").phrases).toContain(
+      "cryptographic bill of materials",
+    );
+    expect(searchPlan("neutrino oscillation detection").arxiv).toContain(" AND ");
   });
 });
 
@@ -372,6 +419,89 @@ describe("AI contract and privacy", () => {
     });
     expect(r.status).toBe(200);
     expect(JSON.stringify(vi.mocked(fetch).mock.calls)).not.toContain("SECRET NOTE");
+    expect((await env.BUDGET.getByName(day()).usage("123")).user_calls).toBe(1);
+  });
+  it("requires comparison consent and valid sources before charging a slot", async () => {
+    const token = await session();
+    const body = {
+      ...input,
+      sources: [1, 2].map(i => ({
+        title: `Paper ${i}`,
+        url: `https://example.org/${i}`,
+        excerpt: "Public abstract",
+      })),
+    };
+    expect(
+      (await request("/api/lab/compare", "", { ...body, comparison_consent: true })).status,
+    ).toBe(401);
+    expect((await request("/api/lab/compare", token, body)).status).toBe(400);
+    expect(
+      (
+        await request("/api/lab/compare", token, {
+          ...body,
+          comparison_consent: true,
+          sources: body.sources.slice(0, 1),
+        })
+      ).status,
+    ).toBe(400);
+    expect((await env.BUDGET.getByName(day()).usage("123")).user_calls).toBe(0);
+    expect(fetch).not.toHaveBeenCalled();
+  });
+  it("comparison uses one shared slot, strips private notes and validates references", async () => {
+    const result = {
+      papers: [1, 2].map(i => ({
+        source_id: `S${i}`,
+        question: [`S${i}.T1`],
+        method: [],
+        findings: [`S${i}.T1`],
+        limitations: [],
+      })),
+      connections: [
+        {
+          kind: "difference",
+          statement: "Different settings",
+          evidence: [1, 2].map(i => ({ source_id: `S${i}`, sentence_ids: [`S${i}.T1`] })),
+        },
+      ],
+      next_checks: [{ text: "Check settings", source_ids: ["S1", "S2"] }],
+    };
+    vi.mocked(fetch).mockResolvedValue(
+      Response.json({
+        candidates: [
+          { finishReason: "STOP", content: { parts: [{ text: JSON.stringify(result) }] } },
+        ],
+      }),
+    );
+    const r = await request("/api/lab/compare", await session(), {
+      ...input,
+      comparison_consent: true,
+      sources: [1, 2].map(i => ({
+        title: `Paper ${i}`,
+        url: `https://example.org/${i}`,
+        excerpt: "Public abstract",
+        notes: "SECRET NOTE",
+      })),
+      notes: "SECRET NOTE",
+    });
+    expect(r.status).toBe(200);
+    expect(((await r.json()) as { papers: unknown[] }).papers).toHaveLength(2);
+    expect(fetch).toHaveBeenCalledTimes(1);
+    expect(JSON.stringify(vi.mocked(fetch).mock.calls)).not.toContain("SECRET NOTE");
+    expect((await env.BUDGET.getByName(day()).usage("123")).user_calls).toBe(1);
+  });
+  it("counts failed comparisons once and never falls back automatically", async () => {
+    vi.mocked(fetch).mockResolvedValue(new Response(null, { status: 429 }));
+    const r = await request("/api/lab/compare", await session(), {
+      ...input,
+      comparison_consent: true,
+      sources: [1, 2].map(i => ({
+        title: `Paper ${i}`,
+        url: `https://example.org/${i}`,
+        excerpt: "Public abstract",
+      })),
+    });
+    expect(r.status).toBe(502);
+    expect(fetch).toHaveBeenCalledTimes(1);
     expect((await env.BUDGET.getByName(day()).usage("123")).user_calls).toBe(1);
   });
   it("bounds untrusted stream bodies without relying on Content-Length", async () => {

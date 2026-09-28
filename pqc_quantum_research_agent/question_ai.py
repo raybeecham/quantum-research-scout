@@ -6,6 +6,8 @@ from urllib.parse import urlsplit
 
 import requests
 
+from . import related_work
+
 MODEL = "gemini-3.6-flash"
 GROQ_MODEL = "openai/gpt-oss-20b"
 TEXT_FIELDS = ("question", "motivation", "gap", "hypothesis", "method", "feasibility", "next")
@@ -78,13 +80,21 @@ def clean_input(data):
         ):
             raise ValueError("Invalid source URL")
         clean["sources"].append(row)
+    mode = data.get("related_work", False)
+    if not isinstance(mode, bool):
+        raise ValueError("Invalid related-work mode")
+    if mode and not any(s["excerpt"].strip() for s in clean["sources"]):
+        raise ValueError("Select at least one paper with an abstract for a related-work check")
+    clean["related_work"] = mode
     return clean
 
 
-def schema(review=False):
+def schema(review=False, compare=False):
     props = {f: {"type": "string"} for f in TEXT_FIELDS}
     props["source_ids"] = {"type": "array", "items": {"type": "string"}}
     if review:
+        if compare:
+            props["prior_work"] = related_work.schema()
         props["critique"] = {
             "type": "object",
             "properties": {f: {"type": "string"} for f in REVIEW_FIELDS},
@@ -109,7 +119,7 @@ def schema(review=False):
     }
 
 
-def validate_output(value, sources, review=False):
+def validate_output(value, sources, review=False, compare=False):
     candidates = value.get("candidates") if isinstance(value, dict) else None
     if not isinstance(candidates, list) or len(candidates) != 3:
         raise ValueError("Incomplete AI response")
@@ -138,21 +148,29 @@ def validate_output(value, sources, review=False):
             ):
                 raise ValueError("Incomplete AI critique; unreviewed drafts were not returned")
             row["critique"] = {f: critique[f] for f in REVIEW_FIELDS}
+            if compare:
+                row["prior_work"] = related_work.validate(candidate.get("prior_work"), sources)
         result.append(row)
     return result
 
 
 def request_candidates(data, api_key, sources, review=False):
+    compare = bool((data.get("request", data)).get("related_work"))
     body = {
         "systemInstruction": {
-            "parts": [{"text": CRITIQUE_INSTRUCTIONS if review else INSTRUCTIONS}]
+            "parts": [
+                {
+                    "text": (CRITIQUE_INSTRUCTIONS if review else INSTRUCTIONS)
+                    + (related_work.INSTRUCTIONS if compare and review else "")
+                }
+            ]
         },
         "contents": [{"role": "user", "parts": [{"text": json.dumps(data)}]}],
         "generationConfig": {
-            "maxOutputTokens": 3000,
+            "maxOutputTokens": 4500 if compare and review else 3000,
             "thinkingConfig": {"thinkingLevel": "low"},
             "responseMimeType": "application/json",
-            "responseJsonSchema": schema(review),
+            "responseJsonSchema": schema(review, compare),
         },
     }
     response = requests.post(
@@ -176,27 +194,32 @@ def request_candidates(data, api_key, sources, review=False):
         for part in candidates[0].get("content", {}).get("parts", [])
         if not part.get("thought")
     )
-    return validate_output(json.loads(text), sources, review)
+    return validate_output(json.loads(text), sources, review, compare)
 
 
 def request_groq_candidates(data, api_key, sources, review=False):
+    compare = bool((data.get("request", data)).get("related_work"))
     response = requests.post(
         "https://api.groq.com/openai/v1/chat/completions",
         headers={"Authorization": f"Bearer {api_key}"},
         json={
             "model": GROQ_MODEL,
             "messages": [
-                {"role": "system", "content": CRITIQUE_INSTRUCTIONS if review else INSTRUCTIONS},
+                {
+                    "role": "system",
+                    "content": (CRITIQUE_INSTRUCTIONS if review else INSTRUCTIONS)
+                    + (related_work.INSTRUCTIONS if compare and review else ""),
+                },
                 {"role": "user", "content": json.dumps(data)},
             ],
-            "max_completion_tokens": 6000,
+            "max_completion_tokens": 7500 if compare and review else 6000,
             "reasoning_effort": "low",
             "response_format": {
                 "type": "json_schema",
                 "json_schema": {
                     "name": "research_questions",
                     "strict": True,
-                    "schema": schema(review),
+                    "schema": schema(review, compare),
                 },
             },
         },
@@ -214,7 +237,7 @@ def request_groq_candidates(data, api_key, sources, review=False):
         or choices[0].get("message", {}).get("refusal")
     ):
         raise ValueError("AI response incomplete or refused. No automatic retry was made.")
-    return validate_output(json.loads(choices[0]["message"]["content"]), sources, review)
+    return validate_output(json.loads(choices[0]["message"]["content"]), sources, review, compare)
 
 
 def generate(data, api_key, provider="gemini"):
@@ -232,7 +255,9 @@ def generate(data, api_key, provider="gemini"):
         "provider": provider,
         "model": MODEL if provider == "gemini" else GROQ_MODEL,
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "basis": "Selected excerpts only; no literature search"
+        "basis": "Selected search abstracts/excerpts only; limited related-work comparison, not a systematic review"
+        if data.get("related_work")
+        else "Selected excerpts only; no literature search"
         if data["sources"]
         else "General model knowledge; no source grounding or literature search",
     }

@@ -142,7 +142,8 @@
       );
   }
   async function request(config, path, data, timeout) {
-    if (!["generate", "papers", "read"].includes(path)) throw error("Unsupported lab request.");
+    if (!["generate", "papers", "read", "compare"].includes(path))
+      throw error("Unsupported lab request.");
     // Refuse a stale in-flight configuration after sign-out or account change.
     if (config.hosted && (!session || config.token !== session || config.apiBase !== backend))
       throw error("Sign in again before sending this request.", "LabSignInError");

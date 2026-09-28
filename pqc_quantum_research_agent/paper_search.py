@@ -4,10 +4,13 @@ import html
 import re
 import time
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from urllib.parse import quote
 
 import requests
+
+from .paper_relevance import rank_papers, search_plan
 
 STOP = {
     "how",
@@ -170,59 +173,54 @@ class PaperSearch:
         if now - self.last < 4:
             raise ValueError("Please wait four seconds between new paper searches")
         self.last = now
-        keywords = terms(query)
-        if not keywords:
-            raise ValueError("Include specific topic words in the question")
+        plan = search_plan(query)
+        keywords = plan["terms"]
         records, warnings = [], []
         searches = [
             (
                 "Crossref",
                 "https://api.crossref.org/works",
-                {"query.bibliographic": " ".join(keywords), "rows": 15},
+                {"query.bibliographic": phrase, "rows": 20},
                 lambda data: crossref_records(json.loads(data)),
-            ),
+            )
+            for phrase in plan["phrases"]
+        ] + [
             (
                 "arXiv",
                 "https://export.arxiv.org/api/query",
                 {
-                    "search_query": " OR ".join(f"all:{t}" for t in keywords),
+                    "search_query": plan["arxiv"],
                     "start": 0,
-                    "max_results": 10,
+                    "max_results": 30,
                     "sortBy": "relevance",
                 },
                 arxiv_records,
             ),
         ]
-        for name, url, params, parse in searches:
-            try:
-                records.extend(parse(fetch(url, params)))
-            except (
-                requests.RequestException,
-                ValueError,
-                ET.ParseError,
-                KeyError,
-                TypeError,
-                IndexError,
-            ):
-                warnings.append(
-                    f"{name} could not be searched. Results may be incomplete; this is not evidence that no papers exist."
-                )
-        unique = {}
-        for paper in records:
-            identity = paper["doi"].lower() if paper["doi"] else paper["url"]
-            matched = [
-                t for t in keywords if t in (paper["title"] + " " + paper["abstract"]).lower()
+        with ThreadPoolExecutor(max_workers=4) as pool:
+            jobs = [
+                (name, parse, pool.submit(fetch, url, params))
+                for name, url, params, parse in searches
             ]
-            paper["match_note"] = "Keyword overlap (not AI appraisal): " + (
-                ", ".join(matched) or "No exact topic words; index-ranked result"
-            )
-            paper["match_count"] = len(matched)
-            if identity not in unique or len(paper["abstract"]) > len(unique[identity]["abstract"]):
-                unique[identity] = paper
+            for name, parse, job in jobs:
+                try:
+                    records.extend(parse(job.result()))
+                except (
+                    requests.RequestException,
+                    ValueError,
+                    ET.ParseError,
+                    KeyError,
+                    TypeError,
+                    IndexError,
+                ):
+                    warning = f"{name} could not be fully searched. Results may be incomplete; this is not evidence that no papers exist."
+                    if warning not in warnings:
+                        warnings.append(warning)
         result = {
             "query": query,
             "search_terms": keywords,
-            "papers": sorted(unique.values(), key=lambda r: r["match_count"], reverse=True)[:15],
+            "search_phrases": plan["phrases"],
+            "papers": rank_papers(records, plan),
             "warnings": warnings,
             "searched_at": datetime.now(timezone.utc).isoformat(),
             "cached": False,

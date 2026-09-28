@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { XMLParser } from "fast-xml-parser";
 import { boundedText, upstream } from "./support";
+import { rankPapers, searchPlan } from "./paper-relevance";
 
 const clean = (s: string) =>
   s
@@ -111,37 +112,31 @@ export function parseArxiv(xml: string): Paper[] {
   });
 }
 export async function searchPapers(query: string) {
-  const terms = [...new Set(query.toLowerCase().match(/[a-z][a-z0-9-]{2,}/g) || [])]
-    .filter(
-      t =>
-        ![
-          "the",
-          "and",
-          "how",
-          "what",
-          "does",
-          "can",
-          "with",
-          "from",
-          "for",
-          "are",
-          "that",
-          "which",
-        ].includes(t),
-    )
-    .slice(0, 12);
-  const cr = new URL("https://api.crossref.org/works");
-  cr.search = new URLSearchParams({ "query.bibliographic": query, rows: "15" }).toString();
+  const plan = searchPlan(query);
+  if (!plan.terms.length)
+    return {
+      papers: [],
+      warnings: ["Include specific topic words in the question."],
+      search_phrases: [],
+      searched_at: new Date().toISOString(),
+    };
   const ar = new URL("https://export.arxiv.org/api/query");
   ar.search = new URLSearchParams({
-    search_query: terms.map(t => `all:${t}`).join(" OR "),
-    max_results: "10",
+    search_query: plan.arxiv,
+    max_results: "30",
     sortBy: "relevance",
   }).toString();
   const results = await Promise.allSettled([
-    upstream(cr.href, { headers: { "User-Agent": "Quantum-Scout-Lab" } }, 2000000, 20000).then(
-      parseCrossref,
-    ),
+    ...plan.phrases.map(phrase => {
+      const cr = new URL("https://api.crossref.org/works");
+      cr.search = new URLSearchParams({ "query.bibliographic": phrase, rows: "20" }).toString();
+      return upstream(
+        cr.href,
+        { headers: { "User-Agent": "Quantum-Scout-Lab" } },
+        2000000,
+        20000,
+      ).then(parseCrossref);
+    }),
     (async () => {
       const response = await fetch(ar.href, {
         redirect: "manual",
@@ -155,10 +150,11 @@ export async function searchPapers(query: string) {
     })(),
   ]);
   const warnings: string[] = [],
-    unique = new Map<string, Paper>();
+    records: Paper[] = [];
   results.forEach((r, i) => {
     if (r.status === "rejected") {
-      warnings.push(`${i ? "arXiv" : "Crossref"} unavailable; results may be incomplete.`);
+      const warning = `${i === plan.phrases.length ? "arXiv" : "Crossref"} unavailable; results may be incomplete.`;
+      if (!warnings.includes(warning)) warnings.push(warning);
       return;
     }
     for (const paper of r.value) {
@@ -169,19 +165,9 @@ export async function searchPapers(query: string) {
       } catch {
         continue;
       }
-      const key = (paper.doi || paper.url).toLowerCase();
-      if (!unique.has(key) || paper.abstract.length > unique.get(key)!.abstract.length)
-        unique.set(key, paper);
+      records.push(paper);
     }
   });
-  const score = (p: Paper) =>
-    terms.filter(t => `${p.title} ${p.abstract}`.toLowerCase().includes(t)).length;
-  const papers = [...unique.values()]
-    .sort((a, b) => score(b) - score(a))
-    .slice(0, 15)
-    .map(p => ({
-      ...p,
-      match_note: "Ranked by keyword overlap, not AI appraisal or proof of relevance.",
-    }));
-  return { papers, warnings, searched_at: new Date().toISOString() };
+  const papers = rankPapers(records, plan);
+  return { papers, warnings, search_phrases: plan.phrases, searched_at: new Date().toISOString() };
 }

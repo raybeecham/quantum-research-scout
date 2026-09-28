@@ -4,6 +4,88 @@ import pytest
 import requests
 
 from pqc_quantum_research_agent import paper_search as ps
+from pqc_quantum_research_agent.paper_relevance import rank_papers, search_plan
+
+
+def test_inventory_relevance_filters_noise_and_prioritizes_cbom():
+    query = "How can open-source static analysis tools quantify the completeness of cryptographic component inventories when transitioning from legacy to PQC libraries?"
+    # The inventory phrase can be interrupted by an adjective like 'component'.
+    plan = search_plan(query)
+    titles = [
+        "Architecture-Derived CBOMs for Cryptographic Migration",
+        "Comparative Analysis of Open-Source Tools for Conducting Static Code Analysis",
+        "Creating database-backed library Web pages: using open source tools",
+        "Principal Component Analysis Using Structural Similarity Index for Images",
+        "SPM 25: open source neuroimaging analysis software",
+        "OpenPodcar: an Open Source Vehicle for Self-Driving Car Research",
+    ]
+    records = [
+        {"title": t, "abstract": "", "doi": "", "url": f"https://arxiv.org/abs/2601.{i:05d}"}
+        for i, t in enumerate(titles)
+    ]
+    records.append(
+        {
+            **records[0],
+            "url": "https://doi.org/10.1234/another",
+            "abstract": "Cryptographic bills of materials provide architectural context.",
+        }
+    )
+    papers = rank_papers(records, plan)
+    assert [p["title"] for p in papers] == titles[:2]
+    assert papers[0]["relevance_group"] == "direct"
+    assert papers[1]["relevance_group"] == "background"
+    assert "title" in papers[0]["match_note"]
+    assert "cryptographic inventory" in plan["phrases"]
+    assert "all:open" not in plan["arxiv"]
+
+
+def test_seed_and_unknown_topic_and_boundary_matching():
+    assert (
+        "cryptographic bill of materials"
+        in search_plan("Architecture-derived CBOMs for cryptographic migration")["phrases"]
+    )
+    plan = search_plan("neutrino oscillation detection")
+    assert " AND " in plan["arxiv"]
+    assert (
+        rank_papers(
+            [
+                {
+                    "title": "Open source libraries",
+                    "abstract": "",
+                    "doi": "",
+                    "url": "https://example.org",
+                }
+            ],
+            plan,
+        )
+        == []
+    )
+    plan = search_plan("TLS performance")
+    assert (
+        rank_papers(
+            [{"title": "Tools", "abstract": "results", "doi": "", "url": "https://example.org"}],
+            plan,
+        )
+        == []
+    )
+
+
+def test_focused_searches_are_bounded(monkeypatch):
+    calls = []
+
+    def fetch(url, params):
+        calls.append((url, params))
+        return (
+            b'{"message":{"items":[]}}'
+            if "crossref" in url
+            else b'<feed xmlns="http://www.w3.org/2005/Atom"/>'
+        )
+
+    monkeypatch.setattr(ps, "fetch", fetch)
+    result = ps.PaperSearch().search("cryptographic inventory static analysis PQC migration")
+    assert len(calls) == 4
+    assert len(result["search_phrases"]) == 3
+    assert len([url for url, _ in calls if "arxiv" in url]) == 1
 
 
 def crossref():

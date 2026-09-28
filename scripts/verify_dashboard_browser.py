@@ -104,6 +104,7 @@ def main() -> None:
         lab.goto(args.url + "/#questions")
         expect(lab.locator("#questions")).to_be_visible()
         lab.locator("#lab-interest").fill("PQC migration in cloud services")
+        lab.locator("#lab-discovery-mode").select_option("brainstorm")
         lab.locator("#lab-consent").check()
         lab.locator("#lab-suggest").click()
         expect(lab.locator("#lab-prompts article")).to_have_count(3)
@@ -184,6 +185,7 @@ def main() -> None:
             ),
         )
         lab.locator("#lab-interest").fill("A different research topic")
+        lab.locator("#lab-discovery-mode").select_option("brainstorm")
         lab.locator("#lab-consent").check()
         lab.locator("#lab-suggest").click()
         expect(lab.locator("#lab-status")).to_contain_text("HTTP 429")
@@ -283,6 +285,7 @@ def main() -> None:
             lambda route: route.fulfill(status=400, json={"error": "Daily pilot limit reached"}),
         )
         outage.locator("#lab-interest").fill("Quantum research")
+        outage.locator("#lab-discovery-mode").select_option("brainstorm")
         outage.locator("#lab-consent").check()
         outage.locator("#lab-suggest").click()
         expect(outage.locator("#lab-status")).to_contain_text("Daily pilot limit reached")
@@ -301,6 +304,11 @@ def main() -> None:
 
         def public_asset(route):
             path = urlsplit(route.request.url).path.removeprefix("/quantum-research-scout/")
+            # Exercise the intentionally unconfigured public fallback here.
+            # Hosted sign-in has its own isolated browser suite.
+            if path == "lab-config.json":
+                route.fulfill(json={"api_origin": ""})
+                return
             if path.startswith("api/"):
                 public_api_calls.append(path)
                 route.fulfill(status=404)
@@ -563,6 +571,7 @@ def main() -> None:
 
         page.route("**/api/lab/generate", federal_ai_reply)
         page.locator("[data-federal-question]").first.click()
+        page.locator("#lab-discovery-mode").select_option("brainstorm")
         expect(page.locator("#lab-federal-context")).to_be_visible()
         assert not page.locator("#lab-consent").is_checked()
         assert not page.locator("#lab-federal-include").is_checked()

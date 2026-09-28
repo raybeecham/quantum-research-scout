@@ -36,6 +36,7 @@
   let providers = null;
   function connectionState(ready, message) {
     connected = ready;
+    window.ScoutDiscovery.sync(ready, generating);
     $("lab-connection-status").textContent = message;
     $("lab-suggest").disabled = !ready || generating || providers?.gemini === false;
     $("lab-backup").disabled = !ready || generating || providers?.groq === false;
@@ -80,6 +81,7 @@
       $("lab-reconnect").disabled = false;
     }
   }
+  window.ScoutDiscovery.configure({ config: labConfig, refresh: checkConnection });
   $("lab-reconnect").onclick = checkConnection;
   window.addEventListener("hashchange", () => {
     if (location.hash === "#questions" && window.ScoutLab.mode() === "hosted") checkConnection();
@@ -268,6 +270,7 @@
     paperBusy = false;
     $("lab-paper-results").replaceChildren();
     $("lab-paper-status").textContent = "";
+    $("lab-paper-seed").value = "";
     $("lab-find-papers").disabled = !connected;
     active = id;
     const row = rows.find(r => r.id === id);
@@ -306,6 +309,11 @@
     $("lab-history").innerHTML =
       row.history.map(h => `<p><time>${esc(h.at)}</time> · ${esc(h.question)}</p>`).join("") ||
       "<p>No question wording revisions yet.</p>";
+    const seed = $("lab-paper-seed");
+    const previous = seed.value;
+    seed.replaceChildren(new Option("This research question", ""));
+    row.evidence.forEach((e, index) => seed.add(new Option(e.title, String(index))));
+    if ([...seed.options].some(o => o.value === previous)) seed.value = previous;
   }
   function draft() {
     const old = rows.find(r => r.id === active);
@@ -427,6 +435,10 @@
     }
   };
   window.addEventListener("hashchange", sources);
+  window.addEventListener("scout-notebook-imported", () => {
+    sources();
+    refreshAiSources();
+  });
   $("lab-attach").onclick = () => {
     try {
       const title = $("lab-source-title").value.trim();
@@ -437,6 +449,20 @@
         role: $("lab-role").value,
         note: $("lab-source-note").value.trim(),
       };
+      const reading = window.ScoutNotebook.readings().find(s => s.url === evidence.url);
+      if (reading) {
+        const ref = reading.imported_reference;
+        evidence.reviewed = window.ScoutNotebook.status(reading.url) === "Reviewed";
+        evidence.paper = {
+          abstract: String(reading.summary || "").slice(0, 6000),
+          date: String(reading.date || ""),
+          index: String(reading.source || ""),
+          type: String(reading.source_kind_label || ""),
+          authors: (ref?.authors || reading.citation?.authors || []).join("; ").slice(0, 6000),
+          doi: ref?.doi || reading.citation?.doi || "",
+          venue: ref?.venue || reading.citation?.venue || "",
+        };
+      }
       if (save(evidence)) {
         for (const id of ["lab-source-title", "lab-source-url", "lab-source-note"])
           $(id).value = "";
@@ -448,7 +474,11 @@
   let paperRequest = 0;
   $("lab-find-papers").onclick = async () => {
     if (paperBusy || !connected) return;
-    const query = $("lab-editor").elements.namedItem("question").value.trim();
+    const seedIndex = $("lab-paper-seed").value;
+    const seed =
+      seedIndex === "" ? null : rows.find(r => r.id === active)?.evidence[Number(seedIndex)];
+    // Only the selected paper's public title is used, never private notes.
+    const query = seed ? seed.title : $("lab-editor").elements.namedItem("question").value.trim();
     const output = $("lab-paper-status");
     if (!query) {
       output.textContent = "Write a question first.";
@@ -466,8 +496,19 @@
       if (!response.ok) throw Error(data.error || "Paper search failed.");
       if (request !== paperRequest) return;
       if (!Array.isArray(data.papers)) throw Error("Unexpected search response.");
-      output.textContent = `${data.papers.length} results for “${query}”. ${(data.warnings || []).join(" ")} Results are suggestions, not a literature review or proof of novelty.`;
+      output.textContent = `${data.papers.length} retained matches for “${query}”. ${(data.warnings || []).join(" ")} ${data.search_phrases?.length ? "Search phrases: " + data.search_phrases.join("; ") + ". " : ""}Weak matches are omitted; fewer results do not mean no prior work exists. Metadata matching is not a literature review or proof of novelty.`;
+      let previousGroup = "";
       for (const paper of data.papers) {
+        const group =
+          paper.relevance_group === "direct"
+            ? "Direct topic matches"
+            : "Background methods / related context";
+        if (group !== previousGroup) {
+          const heading = document.createElement("h4");
+          heading.textContent = group;
+          $("lab-paper-results").append(heading);
+          previousGroup = group;
+        }
         const url = safeUrl(paper.url);
         const card = document.createElement("article");
         card.className = "lab-evidence";
@@ -566,6 +607,14 @@
       status("Enter a research interest first.");
       return;
     }
+    const discovery = await window.ScoutDiscovery.prepare(interest);
+    if (discovery === null) {
+      status(
+        "Review the paper results above and select abstracts, then generate questions. No AI calls were used.",
+      );
+      return;
+    }
+    const comparing = window.ScoutDiscovery.enabled();
     if (!$(provider === "groq" ? "lab-backup-consent" : "lab-consent").checked) {
       $(provider === "groq" ? "lab-backup-consent" : "lab-consent").focus();
       status(
@@ -585,14 +634,25 @@
         url: safeUrl(s.url).slice(0, 2000),
         excerpt: String(s.summary || (s.key_points || []).join("\n")).slice(0, 2500),
       }));
+    for (const paper of discovery) {
+      if (!sources.some(s => s.url === paper.url))
+        sources.push({
+          title: paper.title.slice(0, 1000),
+          url: safeUrl(paper.url).slice(0, 2000),
+          excerpt: String(paper.abstract || "").slice(0, 2500),
+        });
+    }
     if (federalSource && $("lab-federal-include").checked) {
       if (!sources.some(s => s.url === federalSource.url)) sources.push({ ...federalSource });
     }
     if (sources.length > 4) {
-      status("Select at most four sources, including the staged federal source.");
+      status(
+        "Select at most four sources total across discovered papers, saved readings, and federal context.",
+      );
       return;
     }
     generating = true;
+    window.ScoutDiscovery.sync(connected, true);
     lastRefinement = refinement;
     $("lab-suggest").disabled = true;
     $("lab-backup").disabled = true;
@@ -601,6 +661,10 @@
     );
     try {
       const config = await labConfig();
+      if (comparing && config.features?.related_work !== true)
+        throw Error(
+          "Update/restart the lab server to enable related-work comparisons. No AI calls were made. General brainstorming remains available.",
+        );
       const response = await window.ScoutLab.request(
         config,
         "generate",
@@ -609,6 +673,7 @@
           lens: $("lab-lens").value,
           refinement,
           sources,
+          related_work: comparing,
           provider,
           consent: true,
           backup_consent: provider === "groq" && $("lab-backup-consent").checked,
@@ -624,17 +689,40 @@
         });
       if (!Array.isArray(data.candidates) || data.candidates.length !== 3)
         throw Error("Invalid AI response.");
+      if (
+        comparing &&
+        data.candidates.some(
+          c =>
+            !c.prior_work ||
+            !["overlap", "possible_extension", "insufficient_evidence"].includes(
+              c.prior_work.status,
+            ) ||
+            !Array.isArray(c.prior_work.source_ids) ||
+            c.prior_work.source_ids.some(
+              id => !(data.sources || []).some(s => s.id === id && s.excerpt?.trim()),
+            ) ||
+            (c.prior_work.status !== "insufficient_evidence" && !c.prior_work.source_ids.length),
+        )
+      )
+        throw Error(
+          "The server did not return a valid related-work check. Update/restart the lab server; no unchecked comparison was displayed.",
+        );
       const box = $("lab-prompts");
       box.replaceChildren();
       const note = document.createElement("p");
       note.textContent = `AI-generated · ${data.provider || provider} · ${data.model} · ${data.basis}. ${data.review_status || "Critique not recorded"}. Novelty is not established. Review every claim.`;
       box.append(note);
       for (const candidate of data.candidates) {
-        const used = (data.sources || []).filter(s => candidate.source_ids.includes(s.id));
+        const used = (data.sources || []).filter(
+          s =>
+            candidate.source_ids.includes(s.id) || candidate.prior_work?.source_ids.includes(s.id),
+        );
         const card = document.createElement("article");
         card.className = "lab-evidence";
         card.innerHTML = `<h3>${esc(candidate.question)}</h3><p>${esc(candidate.motivation)}</p><p><strong>First experiment:</strong> ${esc(candidate.method)}</p><details><summary>Assumptions, feasibility &amp; source context</summary><p>${esc(candidate.gap)}</p><p>${esc(candidate.feasibility)}</p><p>${esc(candidate.next)}</p></details>`;
         const details = card.querySelector("details");
+        if (candidate.prior_work)
+          card.append(window.ScoutDiscovery.render(candidate.prior_work, data.sources || []));
         if (candidate.critique) {
           const review = document.createElement("details");
           review.className = "lab-critique";
@@ -679,7 +767,7 @@
               ),
             ),
             interest,
-            prior: `AI draft · ${data.provider || provider} · ${data.model} · ${data.generated_at}. ${data.basis}. Prior work and novelty not verified.\n${
+            prior: `AI draft · ${data.provider || provider} · ${data.model} · ${data.generated_at}. ${data.basis}. Prior work and novelty not verified.\n${candidate.prior_work ? window.ScoutDiscovery.summary(candidate.prior_work) + "\n" : ""}${
               candidate.critique
                 ? Object.entries(candidate.critique)
                     .map(([k, v]) => `${k}: ${v}`)
@@ -690,6 +778,23 @@
               title: s.title,
               url: safeUrl(s.url),
               role: "Background",
+              reviewed: discovery.find(p => p.url === s.url)?.reviewed === true,
+              ...(discovery.some(p => p.url === s.url)
+                ? {
+                    paper: (() => {
+                      const p = discovery.find(p => p.url === s.url);
+                      return {
+                        abstract: String(p.abstract || "").slice(0, 6000),
+                        date: String(p.date || ""),
+                        index: String(p.index || ""),
+                        type: String(p.type || ""),
+                        authors: (p.authors || []).join("; ").slice(0, 6000),
+                        doi: String(p.doi || ""),
+                        venue: String(p.venue || ""),
+                      };
+                    })(),
+                  }
+                : {}),
               note: "Selected excerpt supplied to AI; not proof of the proposed gap.\n" + s.excerpt,
             })),
           });
@@ -721,6 +826,7 @@
       );
     } finally {
       generating = false;
+      window.ScoutDiscovery.sync(connected, false);
       $("lab-suggest").disabled = !connected || providers?.gemini === false;
       $("lab-backup").disabled = !connected || providers?.groq === false;
       if (window.ScoutLab.mode() === "hosted") await checkConnection();

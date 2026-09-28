@@ -1,5 +1,13 @@
 import { z } from "zod";
+import { modelSources } from "./sentence-evidence";
+import {
+  comparisonSchema,
+  comparisonOutput,
+  comparisonInstructions,
+  checkComparison,
+} from "./comparison";
 import { AppEnv, fail, upstream } from "./support";
+import { checkPriorWork, priorWorkSchema, relatedWorkInstructions } from "./related-work";
 import {
   Provider,
   Source,
@@ -7,6 +15,8 @@ import {
   readingSchema,
   draftSchema,
   revisedSchema,
+  candidateSchema,
+  critiqueSchema,
   answerSchema,
   modelSchema,
 } from "./validation";
@@ -60,6 +70,7 @@ async function call<T>(
   data: unknown,
   schema: z.ZodType<T>,
   isReading = false,
+  compare = false,
 ): Promise<T> {
   const { key, model } = selectedProvider(env, provider);
   let content: string;
@@ -73,7 +84,7 @@ async function call<T>(
           systemInstruction: { parts: [{ text: system }] },
           contents: [{ role: "user", parts: [{ text: JSON.stringify(data) }] }],
           generationConfig: {
-            maxOutputTokens: isReading ? 1500 : 3000,
+            maxOutputTokens: isReading ? 1500 : compare ? 4500 : 3000,
             thinkingConfig: { thinkingLevel: "low" },
             responseMimeType: "application/json",
             responseJsonSchema: modelSchema(schema),
@@ -102,7 +113,7 @@ async function call<T>(
           { role: "system", content: system },
           { role: "user", content: JSON.stringify(data) },
         ],
-        max_completion_tokens: isReading ? 2500 : 6000,
+        max_completion_tokens: isReading ? 2500 : compare ? 7500 : 6000,
         reasoning_effort: "low",
         response_format: {
           type: "json_schema",
@@ -142,14 +153,41 @@ export async function generate(
   const data = { ...input, sources };
   const drafts = await call(env, provider, instructions, data, draftSchema);
   checkRefs(drafts.candidates, sources);
-  const result = await call(
-    env,
-    provider,
-    critique,
-    { request: data, draft_candidates: drafts.candidates },
-    revisedSchema,
-  );
+  const comparisonSchema = z.object({
+    candidates: z
+      .array(
+        candidateSchema.extend({
+          critique: critiqueSchema,
+          prior_work: priorWorkSchema,
+        }),
+      )
+      .length(3),
+  });
+  const result = input.related_work
+    ? await call(
+        env,
+        provider,
+        critique + relatedWorkInstructions,
+        { request: data, draft_candidates: drafts.candidates },
+        comparisonSchema,
+        false,
+        true,
+      )
+    : await call(
+        env,
+        provider,
+        critique,
+        { request: data, draft_candidates: drafts.candidates },
+        revisedSchema,
+      );
   checkRefs(result.candidates, sources);
+  if (input.related_work) {
+    for (const candidate of result.candidates) {
+      if (!("prior_work" in candidate))
+        fail(502, "provider_response", "Missing related-work comparison.");
+      checkPriorWork(priorWorkSchema.parse(candidate.prior_work), sources);
+    }
+  }
   return {
     ...result,
     sources,
@@ -157,9 +195,11 @@ export async function generate(
     model: selectedProvider(env, provider).model,
     generated_at: new Date().toISOString(),
     review_status: "AI self-critique completed; not independent verification",
-    basis: sources.length
-      ? "Selected excerpts only; no literature search"
-      : "General model knowledge; no source grounding or literature search",
+    basis: input.related_work
+      ? "Selected search abstracts/excerpts only; limited related-work comparison, not a systematic review"
+      : sources.length
+        ? "Selected excerpts only; no literature search"
+        : "General model knowledge; no source grounding or literature search",
   };
 }
 export async function assist(
@@ -171,5 +211,29 @@ export async function assist(
     ...(await call(env, provider, reading, input, answerSchema, true)),
     provider,
     model: selectedProvider(env, provider).model,
+  };
+}
+export async function comparePapers(
+  env: AppEnv,
+  provider: Provider,
+  input: z.infer<typeof comparisonSchema>,
+) {
+  const sources = input.sources.map((s, i) => ({ ...s, id: `S${i + 1}` }));
+  const result = await call(
+    env,
+    provider,
+    comparisonInstructions,
+    { sources: modelSources(sources) },
+    comparisonOutput,
+    false,
+    true,
+  );
+  const checked = checkComparison(result, sources);
+  return {
+    ...checked,
+    provider,
+    model: selectedProvider(env, provider).model,
+    generated_at: new Date().toISOString(),
+    basis: "Selected abstracts/excerpts only; not a full-paper review or independent verification",
   };
 }

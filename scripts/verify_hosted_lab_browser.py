@@ -126,7 +126,17 @@ def main():
                 route.fulfill(
                     headers=headers,
                     json={
-                        "papers": [],
+                        "papers": [
+                            {
+                                "title": "Architecture-derived CBOMs",
+                                "url": "https://example.org/cbom",
+                                "abstract": "Public abstract",
+                                "index": "arXiv",
+                                "type": "Preprint",
+                                "relevance_group": "direct",
+                                "match_note": "CBOMs in title",
+                            }
+                        ],
                         "warnings": ["Mock index outage"],
                         "searched_at": "2026-09-16",
                     },
@@ -153,6 +163,7 @@ def main():
         expect(page.locator("#lab-suggest")).to_be_enabled()
         expect(page.locator("#lab-usage")).to_contain_text("you 0/10")
         page.locator("#lab-interest").fill("How do PQC inventory tools handle runtime providers?")
+        page.locator("#lab-discovery-mode").select_option("brainstorm")
         page.locator("#lab-suggest").click()
         expect(page.locator("#lab-status")).to_contain_text("Confirm that you want")
         assert not calls
@@ -165,6 +176,12 @@ def main():
         page.locator("#lab-find-papers").click()
         expect(page.locator("#lab-paper-status")).to_contain_text("Mock index outage")
         assert calls[-1][0] == "/api/lab/papers"
+        expect(page.get_by_role("heading", name="Direct topic matches", exact=True)).to_be_visible()
+        page.get_by_role("button", name="Attach to question", exact=True).click()
+        page.locator("#lab-paper-seed").select_option("0")
+        page.locator("#lab-find-papers").click()
+        expect(page.locator("#lab-paper-status")).to_contain_text("Architecture-derived CBOMs")
+        assert calls[-1][1] == {"query": "Architecture-derived CBOMs"}
         usage["groq"] = False
         page.locator("#lab-reconnect").click()
         page.get_by_text("Gemini unavailable? Use the backup", exact=True).click()
