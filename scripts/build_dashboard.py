@@ -216,6 +216,7 @@ def build_dashboard(
         "question-discovery.js",
         "landscape.js",
         "federal-research.js",
+        "patent-watch.js",
         "math.js",
     )
     version_input = generated_at + "".join(
@@ -490,6 +491,18 @@ def _dashboard_patents(payload: dict) -> dict:
                 }
             }
         )
+        # Bounded source-record detail for the research inspector, not new enrichment.
+        for field in (
+            "family_members",
+            "significance_factors",
+            "cited_patents",
+            "parent_applications",
+            "child_applications",
+            "priority_numbers",
+        ):
+            values = item.get(field) or []
+            records[-1][field] = values[:40] if isinstance(values, list) else []
+            records[-1][f"{field}_recorded_count"] = len(values) if isinstance(values, list) else 0
     return {
         "updated_at": payload.get("updated_at"),
         "ranking": payload.get("ranking"),

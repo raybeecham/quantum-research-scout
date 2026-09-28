@@ -120,18 +120,10 @@
           </span>
           <time id="edition-date">Loading edition…</time>
         </div>
-        <div class="desk-intro">
+        <div class="desk-intro briefing-intro">
           <div>
-            <h1>
-              Follow the question.
-              <br />
-              <em>Examine the evidence.</em>
-            </h1>
-            <p>
-              A reading desk for cybersecurity, post-quantum cryptography, and quantum computing.
-              <br class="desktop-only" />
-              Trace the claim. Examine the method. Develop your next research question.
-            </p>
+            <h1>What’s worth your time?</h1>
+            <p>A focused start to your research day. Read the evidence, then follow a question.</p>
           </div>
           <a id="hero-report-link" class="desk-button" href="#library">
             Read the latest digest
@@ -139,6 +131,7 @@
           </a>
         </div>
         <p id="freshness-notice" class="freshness-notice" hidden></p>
+        <div id="briefing-edition-note" class="briefing-edition-note" hidden></div>
         <div id="desk-loading" class="desk-loading" role="status">Preparing your briefing…</div>
         <details class="reading-toolbar" id="reading-controls" open>
           <summary id="reading-controls-label">Customize your reading view</summary>
@@ -179,25 +172,33 @@
         </details>
         <div class="desk-overview" id="desk-overview" hidden>
           <div class="desk-lead" id="desk-lead"></div>
-          <aside class="desk-pulse">
-            <div class="pulse-heading">
-              <span>THE RESEARCH PULSE</span>
-              <span aria-hidden="true">↗</span>
-            </div>
-            <h2>Follow the evidence.</h2>
-            <p>Unique linked items across tracked themes.</p>
-            <div id="desk-sparkline" class="desk-sparkline"></div>
-            <div id="desk-pulse-stats" class="pulse-stats"></div>
-            <a href="#research">
-              Explore signals
-              <span aria-hidden="true">→</span>
-            </a>
+          <aside class="briefing-shortlist" aria-labelledby="briefing-shortlist-title">
+            <span class="desk-kicker">A SMALL READING PLAN</span>
+            <h2 id="briefing-shortlist-title">Then consider</h2>
+            <p class="briefing-selection-note">
+              Next in your chosen order. A reading suggestion, not a quality rating.
+            </p>
+            <div id="briefing-shortlist"></div>
           </aside>
         </div>
+        <section class="briefing-changes" aria-labelledby="briefing-changes-title">
+          <div class="briefing-section-heading">
+            <div>
+              <span class="desk-kicker">CHECK THE EVIDENCE</span>
+              <h2 id="briefing-changes-title">Changes to examine</h2>
+            </div>
+            <a href="#decisions">Open review desk →</a>
+          </div>
+          <p class="briefing-selection-note">
+            Recorded claim changes across tracked themes—not a list of new papers. Inspect the source before treating a
+            change as resolved.
+          </p>
+          <div id="desk-changes"></div>
+        </section>
         <div class="desk-feed-heading">
           <div>
-            <span class="desk-kicker">YOUR READING LIST</span>
-            <h2>Worth your attention</h2>
+            <span class="desk-kicker">KEEP EXPLORING</span>
+            <h2>More from this reading window</h2>
           </div>
           <span id="desk-result-count"></span>
         </div>
@@ -213,12 +214,13 @@
               <div id="desk-deadlines"></div>
               <a href="#funding">Open the opportunity radar →</a>
             </section>
-            <section class="desk-changes">
-              <span class="desk-kicker">SINCE THE PREVIOUS RUN</span>
-              <h2>What changed</h2>
-              <div id="desk-changes"></div>
-              <a href="#decisions">Go to the review desk →</a>
-            </section>
+            <details class="briefing-collection">
+              <summary>Collection activity &amp; coverage</summary>
+              <p>Recorded evidence counts, not a measure of scientific progress.</p>
+              <div id="desk-sparkline" class="desk-sparkline"></div>
+              <div id="desk-pulse-stats" class="pulse-stats"></div>
+              <a href="#research">Explore research landscape →</a>
+            </details>
             <section class="desk-method">
               <span class="desk-kicker">HOW TO READ THIS</span>
               <p>
@@ -1012,16 +1014,82 @@
           <section id="patents" class="section patents-section">
             <div class="section-heading">
               <div>
-                <p class="eyebrow">EARLY IP SIGNALS</p>
-                <h2>Patent intelligence</h2>
+                <p class="eyebrow">FROM INVENTION TO INVESTIGATION</p>
+                <h2>Explore the technical record</h2>
               </div>
               <p id="patent-summary" class="updated"></p>
             </div>
             <p class="section-note">
-              Publications indicate technical investment and IP positioning. They do not prove implementation, validity,
-              commercial readiness, infringement, or freedom to operate.
+              Find relevant inventions, inspect the source, and develop a research direction. A patent record is not
+              evidence that a system works or has been deployed.
             </p>
-            <div id="patent-grid" class="patent-grid" aria-live="polite"></div>
+            <div id="patent-coverage" class="patent-coverage"></div>
+            <div id="patent-topics" class="patent-topics" role="group" aria-label="Patent research area"></div>
+            <div class="patent-controls">
+              <label>
+                Find an invention
+                <input id="patent-search" type="search" placeholder="Title, assignee, identifier or topic…" />
+              </label>
+              <label>
+                Case stage
+                <select id="patent-stage">
+                  <option value="all">All recorded stages</option>
+                  <option value="application">Application records</option>
+                  <option value="grant">Grant recorded</option>
+                  <option value="unknown">Stage unknown</option>
+                </select>
+              </label>
+              <label>
+                Order by
+                <select id="patent-sort">
+                  <option value="research">Research relevance</option>
+                  <option value="recent">Latest recorded publication / grant</option>
+                  <option value="significance">Collector significance score</option>
+                </select>
+              </label>
+            </div>
+            <div class="patent-view-options">
+              <label>
+                <input id="patent-group" type="checkbox" checked />
+                Group records by recorded family key
+              </label>
+              <span id="patent-visible-count" role="status"></span>
+            </div>
+            <div class="patent-workbench">
+              <div class="patent-results">
+                <h3 class="patent-list-heading">Choose a record to inspect</h3>
+                <div
+                  id="patent-grid"
+                  class="patent-grid"
+                  role="region"
+                  aria-label="Matching patent records"
+                  tabindex="0"
+                  aria-live="polite"
+                ></div>
+                <button id="patent-more" type="button" class="desk-more" hidden>Show more records ↓</button>
+              </div>
+              <section id="patent-detail" class="patent-detail" aria-label="Selected patent record"></section>
+            </div>
+            <details class="patent-method">
+              <summary>How selection, grouping and research links work</summary>
+              <p>
+                Research relevance orders recorded topics: PQC, quantum, cybersecurity, AI, then cloud; collector score
+                breaks ties. It is not a quality, novelty or legal assessment. All records remain available under All
+                topics. Search and stage filters apply before grouping; a group shows the highest-ranked matching
+                record, not every family member.
+              </p>
+              <p>
+                Family keys and member lists are collector-reported, may be incomplete, and do not establish legal
+                family equivalence. Similar-reading links use shared technical phrases in titles or excerpts; they are
+                not patent citations, proof of prior art, or verification of a claim.
+              </p>
+              <p>
+                Case stage and source-reported legal status are separate from publication identifiers. Zero recorded
+                citations does not establish that a patent has no citations. Verify dates, claims, continuity and
+                current status at the source. Records do not establish validity, commercial readiness, infringement or
+                freedom to operate.
+              </p>
+            </details>
             <a id="patent-report-link" class="section-link" href="#">Open the complete patent ledger →</a>
           </section>
 
@@ -1395,6 +1463,7 @@
     <script src="question-discovery.js?v=__ASSET_VERSION__" defer></script>
     <script src="landscape.js?v=__ASSET_VERSION__" defer></script>
     <script src="federal-research.js?v=__ASSET_VERSION__" defer></script>
+    <script src="patent-watch.js?v=__ASSET_VERSION__" defer></script>
     <script src="desk.js?v=__ASSET_VERSION__" defer></script>
     <script src="ris-import.js?v=__ASSET_VERSION__" defer></script>
     <script src="paper-comparison.js?v=__ASSET_VERSION__" defer></script>

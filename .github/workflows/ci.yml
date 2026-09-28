@@ -122,6 +122,8 @@ jobs:
           preview_pid=$!
           trap 'kill "$preview_pid"' EXIT
           python scripts/verify_dashboard_browser.py --channel chromium
+          python scripts/verify_briefing_browser.py --channel chromium
+          python scripts/verify_patent_browser.py --channel chromium
           python scripts/verify_question_discovery_browser.py --channel chromium
           python scripts/verify_ris_browser.py --channel chromium
           python scripts/verify_comparison_browser.py --channel chromium

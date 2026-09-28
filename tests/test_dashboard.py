@@ -56,6 +56,7 @@ class DashboardBuildTests(unittest.TestCase):
                 "question-discovery.js",
                 "landscape.js",
                 "federal-research.js",
+                "patent-watch.js",
                 "math.js",
             ):
                 content = f"{name}?v=__ASSET_VERSION__"
@@ -586,7 +587,10 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertLess(html.index('id="reports"'), html.index('id="advanced"'))
         self.assertIn('status: "priority"', script)
         self.assertIn("renderPatents", script)
-        self.assertIn("patent-assessment", script)
+        patent_script = (root / "dashboard" / "patent-watch.js").read_text(encoding="utf-8")
+        self.assertIn("patent-assessment", patent_script)
+        self.assertIn('id="patent-detail"', html)
+        self.assertIn("ScoutPatentWatch.init", script)
         self.assertIn("strategic_significance_score", script)
         self.assertIn("renderMissions", script)
         self.assertIn("renderFunding", script)

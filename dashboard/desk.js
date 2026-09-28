@@ -146,7 +146,7 @@
       : "all",
     limit: 6,
     view: "briefing",
-    period: prefs.period === "week" ? "week" : "edition",
+    period: prefs.period === "edition" ? "edition" : "week",
     unreadOnly: prefs.unreadOnly === true,
     comfort: prefs.comfort === true,
     searchKind: "all",
@@ -202,7 +202,7 @@
     federal:
       "Find what could support or inform your research, then trace it to the agency announcement and mission.",
     patents:
-      "Explore technical investment through patent families, assignees, and strategic domains.",
+      "Explore inventions related to your research—without mistaking a filing for a demonstrated result.",
     research:
       "Find your next research direction in cybersecurity, PQC and quantum computing—grounded in the sources we actually collected.",
     decisions: "Review changes, amendments, and conflicts that could affect your next step.",
@@ -264,18 +264,6 @@
   // The report library keeps report links; the review panel has its own workspace.
   const libraryHeading = $("reports")?.querySelector(".section-heading");
   if (libraryHeading) libraryHeading.remove();
-  const filters = document.createElement("div");
-  filters.className = "patent-controls";
-  filters.innerHTML =
-    '<label>Search patent portfolio<input id="patent-search" type="search" placeholder="Title, assignee, domain…" /></label><label>Order by<select id="patent-sort"><option value="significance">Strategic significance</option><option value="recent">Latest publication / grant</option></select></label><span id="patent-visible-count" role="status"></span>';
-  $("patent-grid").before(filters);
-  const morePatents = document.createElement("button");
-  morePatents.id = "patent-more";
-  morePatents.className = "desk-more";
-  morePatents.type = "button";
-  morePatents.textContent = "Show more patents ↓";
-  morePatents.hidden = true;
-  $("patent-grid").after(morePatents);
 
   function route() {
     let hash;
@@ -408,6 +396,36 @@
     if (!c) return "";
     return `<section class="ris-provenance"><p class="desk-kicker">IMPORTED REFERENCE · UNVERIFIED</p><p>${item.summary ? "Abstract available" : "Citation only"} · ${esc(readingStatus(item))}. Importing or opening a paper does not mark it reviewed.</p><details><summary>RIS metadata & source links</summary><p>${esc(c.authors.join("; ") || "Authors not supplied")}</p><p>${esc(c.year || "Year unknown")} · ${esc(c.venue || "Venue unknown")}</p><p>DOI (export-reported): ${esc(c.doi || "Not supplied")} · Version and peer review: not verified.</p><p>Database: ${esc(c.database || "Not supplied")} · Record ID: ${esc(c.accession || "Not supplied")}</p><p>${esc(c.keywords.join(" · "))}</p><p>Imported ${esc(day(c.imported_at))}. Library links may require your own sign-in. Related identifiers may describe a different version or associated material; verify before citing.</p><ul>${c.links.map(url => `<li><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(url)} ↗</a></li>`).join("")}</ul></details></section>`;
   }
+  function selectionReason(item) {
+    const terms = item.research_priority?.matched_terms || [];
+    const basis =
+      item.research_priority?.label || "Matches your selected interest and source filters";
+    const order = {
+      research: "Research-first order",
+      government: "Report date, then government priority",
+      recent: "Latest report first",
+    }[ui.readingOrder];
+    return `${order}. ${basis}${terms.length ? `; matched terms: ${terms.join(", ")}` : ""}.`;
+  }
+  function editionBadge(item) {
+    if (item.report_date !== ui.data.reading_brief?.edition_date) return "";
+    const label = { added: "Added to latest report", retained: "Also in previous report" }[
+      item.edition_status
+    ];
+    return label
+      ? `<span class="briefing-edition-badge" title="Report inclusion, not publication recency">${label}</span>`
+      : "";
+  }
+  function shortlistCard(item, index) {
+    return `<article class="briefing-short-card${read.has(item.id) ? " is-read" : ""}" data-story="${esc(item.id)}">
+      <span class="desk-kicker">${String(index + 2).padStart(2, "0")} · ${esc(item.source_kind_label || "Source type unverified")}</span>
+      <h3><a href="${esc(link(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)} ↗</a></h3>
+      <p class="briefing-short-meta">${esc(item.source)} · ${esc(item.date_label)} ${esc(day(item.date || item.report_date))}</p>
+      ${editionBadge(item)}
+      <details><summary>Why this reading?</summary><p>${esc(selectionReason(item))}</p><p class="briefing-short-excerpt">${esc(item.summary)}</p><p>Reading relevance only; scientific quality and peer review are not established.</p></details>
+      <div class="briefing-short-actions">${readButton(item)}${saveButton(item)}</div>
+    </article>`;
+  }
   function card(item, index = 0, lead = false, savedCopy = false) {
     const related = Array.isArray(item.related)
       ? item.related.filter(x => x && typeof x === "object")
@@ -418,12 +436,14 @@
     return `<article id="${savedCopy ? "saved-story" : "story"}-${esc(item.id)}" class="${lead ? "lead-story" : "reading-card"}${read.has(item.id) ? " is-read" : ""}" data-story="${esc(item.id)}">
       <div class="story-meta"><span class="story-category">${esc(item.category)}</span><span>${esc(item.authority)}</span><div class="story-personal-actions">${readButton(item)}${saveButton(item)}</div></div>
       ${savedCopy ? `<p class="saved-snapshot-note">${item.imported_reference ? "Private RIS import · not part of the public report feed" : archived ? "Saved snapshot · outside the current reading window" : "Saved excerpt · verify the current version at the source"}</p>` : ""}
-      ${lead ? '<p class="lead-kicker">IN FOCUS</p>' : `<span class="story-number" aria-hidden="true">${String(index + 1).padStart(2, "0")}</span>`}
+      ${lead ? `<p class="lead-kicker">${(item.research_priority?.tier || 0) < 2 ? "01 / CONTEXT TO EXAMINE" : "01 / START HERE"}</p>` : `<span class="story-number" aria-hidden="true">${String(index + 1).padStart(2, "0")}</span>`}
       <p class="source-type-label" title="${esc(item.source_kind_note || "Publication type and peer-review status have not been verified.")}">${esc(item.source_kind_label || "Other / unverified type")}</p>
       <${lead ? "h2" : "h3"}><a href="${esc(link(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)} <span class="story-arrow" aria-hidden="true">↗</span></a></${lead ? "h2" : "h3"}>
       <p class="story-summary">${esc(item.summary)}</p>
-      ${item.research_priority ? `<p class="research-ranking"><strong>Research relevance:</strong> ${esc(item.research_priority.label)}${item.research_priority.matched_terms?.length ? ` · Matches: ${esc(item.research_priority.matched_terms.join(", "))}` : ""}. Not a quality rating.</p>` : ""}
+      ${lead ? `<p class="briefing-why"><strong>Why start here</strong>${esc(selectionReason(item))} Not a quality rating.</p>` : item.research_priority ? `<p class="research-ranking"><strong>Research relevance:</strong> ${esc(item.research_priority.label)}${item.research_priority.matched_terms?.length ? ` · Matches: ${esc(item.research_priority.matched_terms.join(", "))}` : ""}. Not a quality rating.</p>` : ""}
       <div class="story-source"><span>${esc(item.source)}</span><span>${esc(item.date_label)} ${esc(day(item.date || item.report_date))}</span></div>
+      ${!savedCopy ? editionBadge(item) : ""}
+      ${lead ? `<div class="briefing-next-step"><span class="desk-kicker">READ WITH A QUESTION · PROMPT, NOT A FINDING</span><p>${esc(item.review_prompt)}</p><button type="button" class="desk-button" data-briefing-question="${esc(item.id)}">Explore this topic in Question Lab →</button><small>Loads the title only. No AI call or source attachment.</small></div>` : ""}
       <details class="story-evidence"><summary>Appraise this source${related.length ? ` · ${related.length} related report${related.length === 1 ? "" : "s"}` : ""}</summary><div><span class="desk-kicker">SOURCE TYPE · NOT A QUALITY RATING</span><p>${esc(item.source_kind_note || "Publication type and peer-review status have not been verified.")}</p><span class="desk-kicker">CRITICAL READING PROMPT · NOT A FINDING</span><p>${esc(item.review_prompt)}</p>${points.length > 1 ? `<span class="desk-kicker">SOURCE EXCERPTS</span><ul>${points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>` : ""}${item.context ? `<span class="desk-kicker">TOPIC CONTEXT</span><p>${esc(item.context)}</p>` : ""}${related.length ? `<span class="desk-kicker">RELATED COVERAGE · NOT INDEPENDENT VERIFICATION</span><ul>${related.map(r => `<li><a href="${esc(link(r.url))}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a><small>${esc(r.source)}</small></li>`).join("")}</ul>` : ""}${item.imported_reference ? '<p class="story-report-date">Imported reference · no report date assigned.</p>' : `<p class="story-report-date">Included in the ${esc(day(item.report_date))} report.</p>`}<a href="${esc(link(item.url))}" target="_blank" rel="noopener noreferrer">Read the original source ↗</a></div></details>
       ${item.imported_reference ? importedReferenceMarkup(item) : citationMarkup(item)}
       ${savedCopy ? notebookForm(item) : '<p class="notebook-hint">Save this source to connect it to a question in your <a href="#saved">research notebook →</a></p>'}
@@ -478,11 +498,22 @@
       : `<article class="lead-story"><h2>${emptyTitle}</h2><p>Filters change what you see, not the underlying evidence.</p>${emptyAction}</article>`;
     $("desk-stories").innerHTML =
       filtered
-        .slice(1, ui.limit + 1)
-        .map((x, i) => card(x, i))
+        .slice(3, ui.limit + 3)
+        .map((x, i) => card(x, i + 3))
         .join("") ||
-      '<div class="desk-empty">You’re caught up on this view. Try another interest filter for more readings.</div>';
-    $("desk-more").hidden = filtered.length <= ui.limit + 1;
+      '<div class="desk-empty">No additional readings in this view. The shortlist above contains the available matches.</div>';
+    $("briefing-shortlist").innerHTML =
+      filtered.slice(1, 3).map(shortlistCard).join("") ||
+      '<p class="desk-empty">No additional matches to suggest. Broaden the reading window or change your filters.</p>';
+    if (
+      filtered.length < 3 &&
+      (ui.period !== "week" || ui.sourceKind !== "all" || ui.lens !== "core")
+    )
+      $("briefing-shortlist").insertAdjacentHTML(
+        "beforeend",
+        '<button type="button" class="desk-button briefing-broaden" data-reset-reading="research">Browse core research · past 7 days →</button>',
+      );
+    $("desk-more").hidden = filtered.length <= ui.limit + 3;
     $("saved-count").textContent = saved.size;
     openIds.forEach(id =>
       $("briefing")
@@ -784,6 +815,11 @@
 
   function renderContext() {
     const brief = ui.data.reading_brief || {};
+    const comparison = brief.edition_comparison;
+    $("briefing-edition-note").hidden = false;
+    $("briefing-edition-note").innerHTML = comparison?.previous_report_date
+      ? `<strong>${Number(comparison.added_count) || 0} added source ${comparison.added_count === 1 ? "link" : "links"}</strong><span>Latest report compared with ${esc(day(comparison.previous_report_date))} · ${Number(comparison.retained_count) || 0} retained · all topics</span><details><summary>What does “added” mean?</summary><p>Absent from the previous available report—not necessarily newly published or never seen before. Counts use unique URLs before related coverage is grouped. Edition: ${esc(day(comparison.current_report_date))}.</p></details>`
+      : "<strong>Report comparison unavailable</strong><span>Two available editions are needed to identify added source links. This is a report snapshot, not a live literature search.</span>";
     const today = new Intl.DateTimeFormat("en-CA", {
       timeZone: "America/Chicago",
       year: "numeric",
@@ -802,13 +838,13 @@
       "<p>No upcoming deadlines in the current snapshot. Check the opportunity radar for undated records.</p>";
     $("desk-changes").innerHTML =
       (brief.changes || [])
-        .slice(0, 3)
+        .slice(0, 2)
         .map(
           item =>
-            `<article><span>${esc(item.label)}</span><a href="${esc(link(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a>${typeof item.previous === "string" && typeof item.current === "string" ? `<p>${esc(item.predicate)}: <s>${esc(item.previous)}</s> → ${esc(item.current)}</p>` : ""}</article>`,
+            `<article><span class="desk-kicker">${esc(item.label)}</span><h3><a href="${esc(link(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)} ↗</a></h3>${item.previous && item.current ? `<p><strong>${esc(item.predicate || "Recorded value")}</strong><br>${esc(item.previous)} → ${esc(item.current)}</p>` : "<p>Open the recorded evidence to examine the change; no complete before/after values are supplied.</p>"}<small>Check scope, version, and whether the sources describe the same claim.</small></article>`,
         )
         .join("") ||
-      "<p>No material changes matched your technology themes in the latest comparison. New readings may still appear above.</p>";
+      '<p class="briefing-no-change">No material claim changes were recorded for the tracked technology themes in this snapshot. That does not establish that nothing changed in the wider literature. New report links are counted separately above.</p>';
     const reports = ui.data.reports || {};
     const reportLabel = x => {
       const name = x.name.replace(/-(digest|weekly|monthly)$/, "");
@@ -1218,11 +1254,25 @@
     search();
   });
   document.addEventListener("click", e => {
+    const explore = e.target.closest("[data-briefing-question]");
+    if (explore && ui.data) {
+      const item = ui.data.reading_brief?.stories?.find(
+        x => x.id === explore.dataset.briefingQuestion,
+      );
+      if (item)
+        window.dispatchEvent(new CustomEvent("scout-research-interest", { detail: item.title }));
+      return;
+    }
     const reset = e.target.closest("[data-reset-reading]");
     if (reset && ui.data) {
       if (reset.dataset.resetReading === "unread") ui.unreadOnly = false;
       else if (reset.dataset.resetReading === "week") ui.period = "week";
-      else {
+      else if (reset.dataset.resetReading === "research") {
+        ui.period = "week";
+        ui.lens = "core";
+        ui.sourceKind = "all";
+        ui.readingOrder = "research";
+      } else {
         ui.lens = "all";
         ui.sourceKind = "all";
       }

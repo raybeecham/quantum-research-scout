@@ -255,6 +255,19 @@ def build_reading_brief(
         if (report_day := _report_day(path))
     )
     latest = dated_paths[-1][0] if dated_paths else None
+    previous = dated_paths[-2][0] if len(dated_paths) > 1 else None
+    edition_urls: dict[str, set[str]] = {}
+    # Compare actual adjacent available reports, not a presumed yesterday or build date.
+    for report_day, path in dated_paths[-2:]:
+        edition_urls[report_day.isoformat()] = {
+            url
+            for match in _ENTRY.finditer(path.read_text(encoding="utf-8"))
+            if (link := re.search(r"\[Open item\]\((https?://[^\s)]+)\)", match[3], re.I))
+            and (url := _source_url(link[1]))
+        }
+    latest_urls = edition_urls.get(latest.isoformat(), set()) if latest else set()
+    previous_urls = edition_urls.get(previous.isoformat(), set()) if previous else set()
+    added_urls = latest_urls - previous_urls if previous else set()
     window_start = latest - timedelta(days=6) if latest else None
     report_count = 0
     candidates: dict[str, dict] = {}
@@ -299,6 +312,15 @@ def build_reading_brief(
                 "source": source,
                 "date": published,
                 "report_date": report_day.isoformat(),
+                "edition_status": (
+                    "added"
+                    if previous and url in added_urls
+                    else "retained"
+                    if previous and url in latest_urls
+                    else "uncompared"
+                    if url in latest_urls
+                    else "earlier"
+                ),
                 "date_label": "Published"
                 if published
                 else "In report; publication date unavailable",
@@ -371,11 +393,19 @@ def build_reading_brief(
                 "previous": redact_text(item.get("previous_value")),
                 "current": redact_text(item.get("value")),
                 "predicate": redact_text(item.get("predicate")).replace("_", " "),
+                "change_type": item["change_type"],
             }
         )
     return {
         "edition_date": latest.isoformat() if latest else None,
         "collected_at": source_health.get("observation_updated_at"),
+        "edition_comparison": {
+            "previous_report_date": previous.isoformat() if previous else None,
+            "current_report_date": latest.isoformat() if latest else None,
+            "added_count": len(added_urls) if previous else None,
+            "retained_count": len(latest_urls & previous_urls) if previous else None,
+            "note": "Unique source URLs compared across the latest two available reports, before related-coverage grouping. Added means absent from the previous report, not newly published or never seen before.",
+        },
         "stories": stories,
         "source_count": len({item["source"] for item in candidates.values()}),
         "grouped_count": len(candidates) - len(stories),

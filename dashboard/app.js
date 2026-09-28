@@ -13,9 +13,6 @@ const state = {
   relationshipMission: "",
   relationshipNode: "",
   contractorQuery: "",
-  patentQuery: "",
-  patentSort: "significance",
-  patentLimit: 24,
 };
 const icons = { rising: "↗", stable: "→", declining: "↘" };
 const definitions = {
@@ -1765,52 +1762,11 @@ function renderSignals() {
 }
 
 function renderPatents(payload) {
-  const query = state.patentQuery.toLowerCase().trim();
-  const patents = (payload.patents || [])
-    .filter(item =>
-      `${item.title} ${item.assignee} ${(item.strategic_domains || []).join(" ")}`
-        .toLowerCase()
-        .includes(query),
-    )
-    .sort((a, b) =>
-      state.patentSort === "recent"
-        ? String(b.publication_date || b.grant_date || "").localeCompare(
-            String(a.publication_date || a.grant_date || ""),
-          )
-        : (b.strategic_significance_score || 0) - (a.strategic_significance_score || 0),
-    );
-  document.getElementById("patent-visible-count").textContent =
-    `${Math.min(patents.length, state.patentLimit)} of ${patents.length} matching patents`;
-  document.getElementById("patent-more").hidden = patents.length <= state.patentLimit;
-  const summary = payload.summary || {};
-  document.getElementById("patent-summary").textContent =
-    `${summary.families || 0} families · ${summary.applications || 0} applications · ${summary.grants || 0} grants`;
-  document.getElementById("patent-report-link").href = safeUrl(
-    `${state.data.repository_url}/blob/main/reports/patents.md`,
+  window.ScoutPatentWatch.init(
+    payload,
+    state.data.reading_brief?.stories || [],
+    state.data.repository_url,
   );
-  document.getElementById("patent-grid").innerHTML = patents.length
-    ? patents
-        .slice(0, state.patentLimit)
-        .map(item => {
-          const number =
-            item.publication_number ||
-            item.patent_number ||
-            item.application_number ||
-            "Patent identifier unavailable";
-          const topics = (
-            item.strategic_domains?.length ? item.strategic_domains : item.matched_keywords || []
-          ).slice(0, 3);
-          const priority = item.significance_label || item.priority || "monitor";
-          const trackingLabel = item.tracking_type === "curated" ? "notable" : "automated";
-          const assessment = item.assessment
-            ? `<p class="patent-assessment"><strong>Assessment:</strong> ${escapeHtml(item.assessment)}</p>`
-            : "";
-          const stage = `${item.document_type || "unknown"} · ${item.legal_status_normalized || "status unknown"}`;
-          const intelligence = `${item.family_size || 1} family member${item.family_size === 1 ? "" : "s"} · ${item.citation_count || 0} citations`;
-          return `<article class="patent-card"><div class="patent-meta"><span><b class="patent-track">${escapeHtml(trackingLabel)}</b>${escapeHtml(number)}</span><time>${item.publication_date ? "Published" : item.grant_date ? "Granted" : "Date unverified"} ${escapeHtml(formatShortDate(item.publication_date || item.grant_date))}</time></div><h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3><p class="patent-assignee">${escapeHtml(item.assignee || "Assignee not listed")}</p><div class="patent-intelligence"><span>${escapeHtml(stage)}</span><span>${escapeHtml(intelligence)}</span></div><p>${escapeHtml(item.summary || "No abstract snippet is available.")}</p>${assessment}<div class="patent-footer"><div class="profile-themes">${topics.map(topic => `<span>${escapeHtml(topic)}</span>`).join("")}</div><span class="patent-priority ${escapeHtml(priority)}">${item.strategic_significance_score || 0} · ${escapeHtml(priority)}</span></div></article>`;
-        })
-        .join("")
-    : `<div class="empty-state">${query ? "No patents match this search. Try a technology, assignee, or broader term." : "No patent evidence is available in this snapshot. Check Sources & methods for collection coverage."}</div>`;
 }
 
 function renderWatch() {
@@ -2169,19 +2125,4 @@ document.getElementById("relationship-mission").addEventListener("change", event
 document.getElementById("contractor-search").addEventListener("input", event => {
   state.contractorQuery = event.target.value;
   if (state.data) renderContractors(state.data.federal_funding || {});
-});
-
-document.getElementById("patent-search").addEventListener("input", event => {
-  state.patentQuery = event.target.value;
-  state.patentLimit = 24;
-  if (state.data) renderPatents(state.data.patents || {});
-});
-document.getElementById("patent-sort").addEventListener("change", event => {
-  state.patentSort = event.target.value;
-  state.patentLimit = 24;
-  if (state.data) renderPatents(state.data.patents || {});
-});
-document.getElementById("patent-more").addEventListener("click", () => {
-  state.patentLimit += 24;
-  if (state.data) renderPatents(state.data.patents || {});
 });

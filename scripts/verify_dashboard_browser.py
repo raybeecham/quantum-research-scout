@@ -353,12 +353,13 @@ def main() -> None:
         assert page.locator(".desk-workspace:visible").count() == 1
         expect(page.locator('[data-lens="core"]')).to_have_attribute("aria-pressed", "true")
         core_count = sum(
-            s["report_date"] == payload["reading_brief"]["edition_date"]
-            and bool(set(s["lenses"]) & {"security", "quantum"})
+            bool(set(s["lenses"]) & {"security", "quantum"})
             for s in payload["reading_brief"]["stories"]
         )
         expect(page.locator("#desk-result-count")).to_contain_text(f"{core_count} reading")
+        expect(page.locator("#reading-window")).to_have_value("week")
         page.locator('[data-lens="all"]').click()
+        page.locator("#reading-window").select_option("edition")
         expect(page.locator("#reading-window")).to_have_value("edition")
         latest_count = len(
             [
